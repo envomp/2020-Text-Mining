@@ -1,0 +1,730 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Riiklike peretoetuste seadus ( aprill 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3866</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Riiklike peretoetuste seadus ( aprill 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=1></tagusage>
+         <tagusage gi=p occurs=208></tagusage>
+         <tagusage gi=s occurs=271></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Riiklike peretoetuste seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 14. novembril 2001. a</s>
+</p>
+<p>
+<s>( RT I 2001 , 95 , 587 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2002. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse eesm&auml;rk ja reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) Riiklike peretoetuste seaduse eesm&auml;rk on tagada lastega peredele laste hooldamise , kasvatamise ja &otilde;ppimisega seotud kulutuste osaline h&uuml;vitamine .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolev seadus s&auml;testab riiklike peretoetuste ( edaspidi peretoetused ) liigid , ulatuse , saamise tingimused ja korra .</s><s>Vaidemenetluse s&auml;testab haldusmenetluse seadus ( RT I 2001 , 58 , 354 ) , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Kui Eesti Vabariigi s&otilde;lmitud v&auml;lisleping sisaldab peretoetuste saamise tingimuste ja korra ning vaidemenetluse kohta k&auml;esolevast seadusest erinevaid s&auml;tteid , kohaldatakse v&auml;lislepingut .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Peretoetustele &otilde;igust omavad isikud</s>
+</p>
+<p>
+<s>( 1 ) Peretoetusi m&auml;&auml;ratakse ja makstakse k&auml;esolevas seaduses s&auml;testatud tingimustel :</s>
+</p>
+<p>
+<s>1 ) Eesti alalisele elanikule ;</s>
+</p>
+<p>
+<s>2 ) Eestis elavale v&auml;lismaalasele , kellel on t&auml;htajaline elamisluba v&otilde;i kes viibib Eestis v&auml;lismaalaste seaduse ( RT I 1993 , 44 , 637 ; 1999 , 50 , 548 ; 54 , 582 ; 71 , 686 ; 88 , 808 ; 101 , 900 ; 2000 , 25 , 148 ; 33 , 197 ; 40 , 254 ; 2001 , 16 , 68 ; RT III 2001 , 7 , 75 ; RT I 2001 , 58 , 352 ) &sect; 9 l&otilde;ikes 1 <hi rend="sup">1</hi> s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 2 ) Peretoetustele on &otilde;igus Eestis elavatel perekonnaliikmetel ja v&auml;lismaal &otilde;ppimise t&otilde;ttu perest eemalviibivatel lastel .</s>
+</p>
+<p>
+<s>( 3 ) Peretoetusi ei maksta k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud perekonnaliikme kohta , kes saab m&otilde;ne teise riigi vastavat toetust .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Peretoetuste liigid</s>
+</p>
+<p>
+<s>( 1 ) Igakuiselt makstavad peretoetused on :</s>
+</p>
+<p>
+<s>1 ) lapsetoetus ;</s>
+</p>
+<p>
+<s>2 ) lapsehooldustasu ;</s>
+</p>
+<p>
+<s>3 ) &uuml;ksikvanema lapse toetus ;</s>
+</p>
+<p>
+<s>4 ) ajateenija lapse toetus ;</s>
+</p>
+<p>
+<s>5 ) eestkostel v&otilde;i perekonnas hooldamisel oleva lapse toetus .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hekordselt makstavad peretoetused on :</s>
+</p>
+<p>
+<s>1 ) s&uuml;nnitoetus ;</s>
+</p>
+<p>
+<s>2 ) lapsendamistoetus ;</s>
+</p>
+<p>
+<s>3 ) elluastumistoetus .</s>
+</p>
+<p>
+<s>( 3 ) Kord kvartalis makstav peretoetus on nelja- ja enamalapselise pere ning kolmikuid kasvatava pere toetus .</s>
+</p>
+<p>
+<s>( 4 ) Kord aastas makstav peretoetus on koolitoetus .</s>
+</p>
+<p>
+<s>( 5 ) Kui isikul on &otilde;igus saada mitut liiki peretoetusi , m&auml;&auml;ratakse ja makstakse neid toetusi samaaegselt .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Peretoetuste finantseerimine , lapsetoetuse ja lapsehooldustasu m&auml;&auml;r</s>
+</p>
+<p>
+<s>( 1 ) Peretoetusi finantseeritakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 2 ) Peretoetuste , v&auml;lja arvatud lapsehooldustasu arvutamise aluseks on lapsetoetuse m&auml;&auml;r , mis kehtestatakse igaks eelarveaastaks riigieelarvega .</s><s>Lapsetoetuse uus m&auml;&auml;r ei v&otilde;i olla v&auml;iksem kehtivast m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 3 ) Lapsehooldustasu arvutamise aluseks on lapsehooldustasu m&auml;&auml;r , mis kehtestatakse igaks eelarveaastaks riigieelarvega .</s><s>Lapsehooldustasu uus m&auml;&auml;r ei v&otilde;i olla v&auml;iksem kehtivast m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Igakuiselt makstavad peretoetused</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Lapsetoetus</s>
+</p>
+<p>
+<s>( 1 ) Lapsetoetusele on &otilde;igus igal lapsel s&uuml;ndimisest kuni 16-aastaseks saamiseni .</s>
+</p>
+<p>
+<s>( 2 ) Lapsel , kes &otilde;pib p&auml;evases &otilde;ppevormis v&otilde;i meditsiinilistel n&auml;idustustel muus &otilde;ppevormis p&otilde;hikoolis v&otilde;i g&uuml;mnaasiumis v&otilde;i p&otilde;hikooli baasil kutse&otilde;ppeasutuses , on &otilde;igus lapsetoetusele kuni 19-aastaseks saamiseni .</s><s>19-aastaseks saamisel makstakse toetust jooksva &otilde;ppeaasta l&otilde;puni .</s>
+</p>
+<p>
+<s>( 3 ) Lapsetoetust makstakse pere esimese lapse kohta &uuml;hekordses lapsetoetuse m&auml;&auml;ras , teise ja iga j&auml;rgneva lapse kohta kahekordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Lapsehooldustasu</s>
+</p>
+<p>
+<s>( 1 ) Lapsehooldustasule on &otilde;igus &uuml;hel vanematest , kes :</s>
+</p>
+<p>
+<s>1 ) kasvatab &uuml;hte v&otilde;i enamat kuni kolmeaastast last - pooles lapsehooldustasu m&auml;&auml;ras iga kuni kolmeaastase lapse kohta ;</s>
+</p>
+<p>
+<s>2 ) kasvatab lisaks &uuml;hele v&otilde;i enamale kuni kolmeaastasele lapsele ka kolme kuni kaheksa-aastaseid lapsi - &uuml;hes neljandikus lapsehooldustasu m&auml;&auml;ras iga kolme kuni kaheksa-aastase lapse kohta ;</s>
+</p>
+<p>
+<s>3 ) kasvatab kolme- ja enamalapselises perekonnas kolme v&otilde;i enamat lapsetoetust saavat v&auml;hemalt kolmeaastast last - &uuml;hes neljandikus lapsehooldustasu m&auml;&auml;ras iga kolme kuni kaheksa-aastase lapse kohta .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktide 2 ja 3 alusel &uuml;heaegselt sama lapse kohta toetust ei maksta .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 2 ja 3 nimetatud laps l&auml;heb esimesse klassi ja saab jooksval &otilde;ppeaastal kaheksa-aastaseks , makstakse selle lapse kohta lapsehooldustasu &otilde;ppeaasta l&otilde;puni .</s>
+</p>
+<p>
+<s>( 4 ) Kui &uuml;ks vanematest on lapsehoolduspuhkusel , on &otilde;igus lapsehooldustasule sellel vanemal .</s>
+</p>
+<p>
+<s>( 5 ) Kui lapsehoolduspuhkust kasutab vanema asemel m&otilde;ni teine isik , on tal &otilde;igus lapsehooldustasule pooles lapsehooldustasu m&auml;&auml;ras iga hooldatava lapse kohta , kuid kokku mitte rohkem kui poolteisekordses lapsehooldustasu m&auml;&auml;ras .</s><s>Vanemale sama lapse kohta selle aja eest lapsehooldustasu ei maksta .</s>
+</p>
+<p>
+<s>( 6 ) Lapse eestkostjal v&otilde;i hooldajal , kellega on s&otilde;lmitud kirjalik perekonnas hooldamise leping ( edaspidi hooldaja ) , on &otilde;igus lapsehooldustasule k&auml;esolevas paragrahvis s&auml;testatud tingimustel .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>&Uuml;ksikvanema lapse toetus</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;ksikvanema lapse toetusele on &otilde;igus lapsel , kelle s&uuml;nniaktis puudub kanne isa kohta v&otilde;i see on tehtud ema &uuml;tluse alusel v&otilde;i kelle vanem on seadusega kehtestatud korras tunnistatud tagaotsitavaks ja kes vastab k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 v&otilde;i 2 s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;ksikvanema lapse toetust makstakse kahekordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Ajateenija lapse toetus</s>
+</p>
+<p>
+<s>( 1 ) Ajateenija lapse toetusele on &otilde;igus Eesti kaitsej&otilde;ududes ajateenistuses oleva isiku lapsel , kes vastab k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 v&otilde;i 2 s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 2 ) Ajateenija lapse toetust makstakse viiekordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Eestkostel v&otilde;i perekonnas hooldamisel oleva lapse toetus</s>
+</p>
+<p>
+<s>( 1 ) Eestkostel v&otilde;i perekonnas hooldamisel oleva lapse toetusele on &otilde;igus vanemliku hoolitsuseta lapsel , kelle &uuml;le on seatud eestkoste v&otilde;i kelle suhtes on s&otilde;lmitud kirjalik perekonnas hooldamise leping ja kes vastab k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 v&otilde;i 2 s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 2 ) Eestkoste v&otilde;i perekonnas hooldamise l&otilde;ppemisel seoses lapse 18-aastaseks saamisega makstakse toetust selle jooksva &otilde;ppeaasta l&otilde;puni , mil laps saab 19-aastaseks .</s>
+</p>
+<p>
+<s>( 3 ) Eestkostel v&otilde;i perekonnas hooldamisel oleva lapse toetust makstakse kuuekordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;hekordselt makstavad peretoetused</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>S&uuml;nnitoetus</s>
+</p>
+<p>
+<s>( 1 ) S&uuml;nnitoetusele on &otilde;igus &uuml;hel vanematest :</s>
+</p>
+<p>
+<s>1 ) esimese lapse s&uuml;nni korral - kahek&uuml;mne viie kordses lapsetoetuse m&auml;&auml;ras ;</s>
+</p>
+<p>
+<s>2 ) iga j&auml;rgmise lapse s&uuml;nni korral - kahek&uuml;mnekordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>( 2 ) Mitmikute s&uuml;nni korral makstakse s&uuml;nnitoetust iga lapse kohta kahek&uuml;mne viie kordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>( 3 ) S&uuml;nnitoetust ei maksta , kui laps s&uuml;ndis surnult .</s>
+</p>
+<p>
+<s>( 4 ) S&uuml;nnitoetusele on &otilde;igus lapsendajal , eestkostjal v&otilde;i hooldajal , kui varem ei ole sama lapse kohta s&uuml;nnitoetust makstud .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Lapsendamistoetus</s>
+</p>
+<p>
+<s>( 1 ) Lapsendamistoetusele on &otilde;igus Eestis alaliselt v&otilde;i t&auml;htajalise elamisloaga elaval lapsendajal , kellest lapsendatav laps ei p&otilde;lvne ja kes ei ole selle lapse v&otilde;&otilde;rasvanem , kui varem ei ole sellele perele sama lapse kohta s&uuml;nnitoetust makstud .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendamistoetust makstakse kahek&uuml;mnekordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Elluastumistoetus</s>
+</p>
+<p>
+<s>( 1 ) Elluastumistoetusele on &otilde;igus lapsena hoolekandeasutuses v&otilde;i erivajadustega laste koolis kasvanud vanemliku hoolitsuseta isikul , kui ta asub uude elukohta iseseisvalt elama .</s>
+</p>
+<p>
+<s>( 2 ) Elluastumistoetust makstakse neljak&uuml;mnekordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud isik on elanud hoolekandeasutuses v&otilde;i erivajadustega laste koolis alla kolme aasta , v&auml;hendatakse elluastumistoetust iga v&auml;hem oldud kuu eest 2,5 protsenti .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Muud peretoetused</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Nelja- ja enamalapselise pere ning kolmikuid kasvatava pere toetus</s>
+</p>
+<p>
+<s>( 1 ) Nelja- ja enamalapselise pere ning kolmikuid kasvatava pere toetust on &otilde;igus saada &uuml;hel vanematest , kes kasvatab nelja v&otilde;i enamat lapsetoetust saavat last v&otilde;i lapsetoetust saavaid kolmikuid .</s>
+</p>
+<p>
+<s>( 2 ) Nelja- ja enamalapselisele perele makstakse toetust &uuml;hekordses lapsetoetuse m&auml;&auml;ras iga lapse kohta , kes jooksva kalendriaasta antud kvartalis vastab k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 v&otilde;i 2 s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 3 ) Kolmikuid kasvatavale perele makstakse toetust neljakordses lapsetoetuse m&auml;&auml;ras , kui iga laps jooksva kalendriaasta antud kvartalis vastab k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 v&otilde;i 2 s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igete 2 ja 3 alusel &uuml;heaegselt toetust ei maksta .</s>
+</p>
+<p>
+<s>( 5 ) Lapse eestkostjal v&otilde;i hooldajal on &otilde;igus nelja- ja enamalapselise pere ning kolmikuid kasvatava pere toetusele k&auml;esolevas paragrahvis s&auml;testatud tingimustel .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Koolitoetus</s>
+</p>
+<p>
+<s>( 1 ) Koolitoetust on &otilde;igus saada &otilde;ppeaasta alustamiseks lapsel , kes vastab k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 v&otilde;i 2 s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 2 ) Koolitoetust makstakse kolmekordses lapsetoetuse m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Peretoetuste taotlemine</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Peretoetuste taotleja</s>
+</p>
+<p>
+<s>Peretoetusi taotleb lapse ema , isa , eestkostja , hooldaja v&otilde;i :</s>
+</p>
+<p>
+<s>1 ) vanema asemel lapsehoolduspuhkust kasutav isik ;</s>
+</p>
+<p>
+<s>2 ) last kasvatav v&otilde;&otilde;rasvanem v&otilde;i kasuvanem valla- v&otilde;i linnavalitsuse korralduse alusel ;</s>
+</p>
+<p>
+<s>3 ) hoolekandeasutusest &otilde;ppimise t&otilde;ttu eemalviibiv v&auml;hemalt 15-aastane vanemliku hoolitsuseta laps ;</s>
+</p>
+<p>
+<s>4 ) hoolekandeasutusest v&otilde;i erivajadustega laste koolist uude elukohta iseseisvalt elama asunud vanemliku hoolitsuseta olnud isik .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Peretoetuste taotlemiseks vajalikud dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Peretoetuste taotlemiseks esitatakse j&auml;rgmised p&otilde;hidokumendid :</s>
+</p>
+<p>
+<s>1 ) avaldus ;</s>
+</p>
+<p>
+<s>2 ) isikut t&otilde;endavate dokumentide seaduse ( RT I 1999 , 25 , 365 ; 2000 , 25 , 148 ; 26 , 150 ; 40 , 254 ; 86 , 550 ; 2001 , 16 , 68 ; 31 , 173 ; 56 , 338 ) &sect; 2 l&otilde;ikes 2 s&auml;testatud dokument ; Eestis elav v&auml;lismaalane peab esitama dokumendi , milles on m&auml;rge alalise v&otilde;i kehtiva t&auml;htajalise elamisloa kohta , v&otilde;i selle puudumise korral p&auml;deva asutuse kirjaliku t&otilde;endi tema seadusliku viibimise kohta Eesti Vabariigis ;</s>
+</p>
+<p>
+<s>3 ) lapse s&uuml;nnitunnistus ;</s>
+</p>
+<p>
+<s>4 ) 16-aastase v&otilde;i vanema &otilde;pilase &otilde;pilaspilet v&otilde;i &otilde;ppeasutuse teatis .</s>
+</p>
+<p>
+<s>( 2 ) Peretoetuste taotlemise avalduse vormi ja vajalike lisadokumentide loetelu kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) Vajaduse korral on pensioniametil &otilde;igus n&otilde;uda peretoetuste taotlejalt t&auml;iendavaid dokumente .</s>
+</p>
+<p>
+<s>( 4 ) Peretoetuste taotlemiseks esitatakse originaaldokumendid v&otilde;i notariaalselt kinnitatud &auml;rakirjad v&otilde;i v&auml;ljav&otilde;tted .</s><s>Pensioniamet kinnitab originaaldokumendi koopia , mis j&auml;etakse pensioniametisse .</s><s>K&otilde;ik originaaldokumendid tagastatakse .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Peretoetuste taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Peretoetuste taotlemiseks esitab peretoetuste taotleja ( edaspidi taotleja ) taotluse oma elukohaj&auml;rgsele pensioniametile .</s>
+</p>
+<p>
+<s>( 2 ) Taotleja elukohaks on rahvastikuregistrisse kantud elukoht .</s><s>Kui taotlejal ei ole registrij&auml;rgset elukohta , m&auml;&auml;ratleb taotleja oma elukoha ise .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 15 punktis 3 nimetatud isik esitab taotluse &otilde;ppeasutuse asukohaj&auml;rgsele pensioniametile .</s>
+</p>
+<p>
+<s>( 4 ) Toetuste taotlemise p&auml;evaks loetakse taotluse vastuv&otilde;tmise p&auml;ev .</s><s>Kui taotlus on saadetud posti teel , loetakse toetuste taotlemise p&auml;evaks taotluse l&auml;htekoha postitempli kuup&auml;ev .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Taotluse l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) Pensioniamet vaatab peretoetuste taotlemiseks esitatud dokumendid l&auml;bi esimesel v&otilde;imalusel .</s>
+</p>
+<p>
+<s>( 2 ) Kui taotlusele ei ole lisatud k&otilde;iki vajalikke dokumente v&otilde;i esitatud dokumentides on puudusi , m&auml;&auml;rab pensioniamet taotlejale esimesel v&otilde;imalusel t&auml;htaja puuduste k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Kui taotleja k&otilde;rvaldab puudused pensioniameti m&auml;&auml;ratud t&auml;htajaks , loetakse toetuste taotlemise p&auml;evaks taotluse vastuv&otilde;tmise p&auml;ev v&otilde;i taotluse l&auml;htekoha postitempli kuup&auml;ev .</s><s>Kui taotleja ei k&otilde;rvalda puudusi m&auml;&auml;ratud t&auml;htaja jooksul , teeb pensioniamet otsuse olemasolevate dokumentide alusel .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Peretoetuste m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Peretoetuste suuruse kindlakstegemine</s>
+</p>
+<p>
+<s>( 1 ) Peretoetuste suuruse kindlakstegemisel v&otilde;etakse arvesse k&otilde;ik peres kasvavad lapsetoetusele &otilde;igust omavad lapsed , neist vanimat loetakse esimeseks lapseks .</s>
+</p>
+<p>
+<s>( 2 ) Puudest tingitud erivajaduse v&otilde;i &otilde;ppimise t&otilde;ttu ajutiselt perest eemalviibiv laps loetakse peretoetuste suuruse kindlakstegemisel pere koosseisu .</s>
+</p>
+<p>
+<s>( 3 ) Peretoetuste suuruse kindlakstegemisel ei arvata peretoetusi taotleva vanema pere koosseisu last :</s>
+</p>
+<p>
+<s>1 ) kes elab lahus elava vanema , v&otilde;&otilde;rasvanema v&otilde;i kasuvanema juures ;</s>
+</p>
+<p>
+<s>2 ) kes on teises perekonnas eestkostel v&otilde;i hooldamisel ;</s>
+</p>
+<p>
+<s>3 ) kes on lapsendatud teise peresse ;</s>
+</p>
+<p>
+<s>4 ) kes elab pidevalt hoolekandeasutuses .</s>
+</p>
+<p>
+<s>( 4 ) Hoolekandeasutusest &otilde;ppimise t&otilde;ttu eemalviibiv vanemliku hoolitsuseta laps loetakse lapsetoetuse suuruse kindlakstegemisel esimeseks lapseks .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Peretoetuste arvutamise alused</s>
+</p>
+<p>
+<s>( 1 ) Lapsetoetuse , &uuml;ksikvanema lapse toetuse , ajateenija lapse toetuse ja eestkostel v&otilde;i perekonnas hooldamisel oleva lapse toetuse suurus arvutatakse toetuse m&auml;&auml;ramise algt&auml;htajal kehtinud lapsetoetuse m&auml;&auml;ra alusel .</s><s>Lapsetoetuse m&auml;&auml;ra muutmise korral arvutatakse toetus &uuml;mber uue lapsetoetuse m&auml;&auml;ra kehtestamise kuup&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 2 ) Lapsehooldustasu suurus arvutatakse toetuse m&auml;&auml;ramise algt&auml;htajal kehtinud lapsehooldustasu m&auml;&auml;ra alusel .</s><s>Lapsehooldustasu m&auml;&auml;ra muutmise korral arvutatakse toetus &uuml;mber uue lapsehooldustasu m&auml;&auml;ra kehtestamise kuup&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 3 ) S&uuml;nnitoetuse suurus arvutatakse lapse s&uuml;nnikuup&auml;eval kehtinud lapsetoetuse m&auml;&auml;ra alusel .</s>
+</p>
+<p>
+<s>( 4 ) Lapsendamistoetuse suurus arvutatakse lapsendamise kohtuotsuse j&otilde;ustumise p&auml;eval kehtinud lapsetoetuse m&auml;&auml;ra alusel .</s>
+</p>
+<p>
+<s>( 5 ) Elluastumistoetuse suurus arvutatakse uude elukohta elama asumise kuup&auml;eval kehtinud lapsetoetuse m&auml;&auml;ra alusel .</s>
+</p>
+<p>
+<s>( 6 ) Nelja- ja enamalapselise pere ning kolmikuid kasvatava pere toetuse suurus arvutatakse toetuse m&auml;&auml;ramise kvartali viimasel kuul kehtinud lapsetoetuse m&auml;&auml;ra alusel .</s>
+</p>
+<p>
+<s>( 7 ) Koolitoetuse suurus arvutatakse &otilde;ppeaasta alguskuule eelneval kuul kehtinud lapsetoetuse m&auml;&auml;ra alusel .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Peretoetuste m&auml;&auml;ramise t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Igakuiselt makstav peretoetus m&auml;&auml;ratakse k&auml;esolevas seaduses s&auml;testatud toetusele &otilde;iguse tekkimise p&auml;evast , kui toetuse taotlemiseks vajalikud dokumendid on esitatud kuue kuu jooksul , arvates toetusele &otilde;iguse tekkimise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Igakuiselt makstava peretoetuse hilisemal taotlemisel m&auml;&auml;ratakse toetus tagantj&auml;rele , kuid mitte rohkem kui taotluse esitamise kuule eelnenud kuue kalendrikuu eest .</s>
+</p>
+<p>
+<s>( 3 ) S&uuml;nnitoetus m&auml;&auml;ratakse , kui toetust on taotletud kuue kuu jooksul , alates lapse s&uuml;nnist .</s>
+</p>
+<p>
+<s>( 4 ) Lapsendamistoetus m&auml;&auml;ratakse , kui toetust on taotletud kuue kuu jooksul , alates lapsendamise kohtuotsuse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 5 ) Elluastumistoetus m&auml;&auml;ratakse , kui toetust on taotletud hiljemalt kahe aasta m&ouml;&ouml;dumisel vanemliku hoolitsuseta olnud lapse hoolekandeasutuse v&otilde;i erivajadustega laste kooli kasvandike nimekirjast kustutamisest ja uude elukohta elama asumisest .</s>
+</p>
+<p>
+<s>( 6 ) Koolitoetus m&auml;&auml;ratakse 16-aastasele ja vanemale lapsele , kui toetust on taotletud kuue kuu jooksul , arvates &otilde;ppeaasta algusest .</s>
+</p>
+<p>
+<s>( 7 ) Peretoetused m&auml;&auml;ratakse taotlejale ajaks , mil isik vastab k&auml;esolevas seaduses s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Peretoetuste m&auml;&auml;ramise otsus</s>
+</p>
+<p>
+<s>( 1 ) Peretoetuste m&auml;&auml;ramise v&otilde;i sellest keeldumise otsustab pensioniamet .</s><s>Peretoetused m&auml;&auml;ratakse toetuste taotlejale , kes vastab k&auml;esolevas seaduses s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 2 ) Toetuse taotleja n&otilde;udmisel v&otilde;i kollegiaalset lahendust n&otilde;udva taotluse puhul otsustab toetuse m&auml;&auml;ramise v&otilde;i sellest keeldumise pensioniametis riikliku pensionikindlustuse seaduse alusel moodustatud pensionikomisjon .</s>
+</p>
+<p>
+<s>( 3 ) Peretoetuste m&auml;&auml;ramise v&otilde;i mittem&auml;&auml;ramise otsus vormistatakse kirjalikult kahes eksemplaris , mis koosneb :</s>
+</p>
+<p>
+<s>1 ) sissejuhatusest , milles m&auml;rgitakse otsuse teinud pensioniameti direktori v&otilde;i tema aset&auml;itja v&otilde;i pensioniameti direktori volitatud struktuuri&uuml;ksuse juhi nimi v&otilde;i pensionikomisjoni nimi , koosseis ja otsuse tegemise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>2 ) kirjeldavast osast , mis sisaldab kokkuv&otilde;tet toetuse taotleja taotlusest ;</s>
+</p>
+<p>
+<s>3 ) otsuse p&otilde;hjendusest , milles m&auml;rgitakse dokumendid ja t&otilde;endid , samuti asjaolud , millele otsus on rajatud ning viited otsuse aluseks olevate &otilde;igusaktide s&auml;tetele ;</s>
+</p>
+<p>
+<s>4 ) otsuse resolutsioonist , mis sisaldab seisukohta toetuse taotluse rahuldamise v&otilde;i rahuldamata j&auml;tmise kohta ;</s>
+</p>
+<p>
+<s>5 ) selgitusest otsuse vaidlustamise korra ja t&auml;htaja kohta ;</s>
+</p>
+<p>
+<s>6 ) m&auml;rkest otsuse k&auml;ttetoimetamise viisi kohta ;</s>
+</p>
+<p>
+<s>7 ) otsuse teinud ametniku v&otilde;i ametnike allkirjadest .</s>
+</p>
+<p>
+<s>( 4 ) Peretoetuste m&auml;&auml;ramisest keeldumisest teatatakse taotlejale kirjalikult viie t&ouml;&ouml;p&auml;eva jooksul , arvates otsuse tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Peretoetuste m&auml;&auml;ramata j&auml;tmise alused</s>
+</p>
+<p>
+<s>Peretoetusi ei m&auml;&auml;rata , kui peretoetuste saamiseks kehtestatud tingimused ei ole t&auml;idetud .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Peretoetuste maksmine</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Peretoetuste maksmine</s>
+</p>
+<p>
+<s>( 1 ) Peretoetusi makstakse elukohaj&auml;rgse pensioniameti kaudu igakuiselt jooksva kuu eest vastavalt toetuste saaja soovile panka tema arvele v&otilde;i posti teel maksja kulul .</s>
+</p>
+<p>
+<s>( 2 ) Peretoetuste maksmist j&auml;tkatakse lapse 16-aastaseks saamisel p&auml;rast &otilde;pilaspileti v&otilde;i &otilde;ppeasutuse teatise esitamist kuni uue &otilde;ppeaasta algusele eelneva p&auml;evani .</s><s>P&auml;rast nimetatud t&auml;htaega esitatakse peretoetuste saamiseks pikendatud kehtivusajaga &otilde;pilaspilet v&otilde;i &otilde;ppeasutuse teatis uue &otilde;ppeaasta esimese kuu jooksul .</s><s>Hilisemal &otilde;pilaspileti v&otilde;i &otilde;ppeasutuse teatise esitamisel makstakse toetusi tagasiulatuvalt , kuid mitte rohkem kui dokumendi esitamisele eelnenud kuue kuu eest .</s>
+</p>
+<p>
+<s>( 3 ) Kui 16-aastane v&otilde;i vanem laps l&otilde;petab p&otilde;hikooli , g&uuml;mnaasiumi v&otilde;i p&otilde;hikooli baasil kutse&otilde;ppeasutuse , l&otilde;petatakse peretoetuste maksmine kooli l&otilde;petamisele j&auml;rgnevast kuust .</s><s>&Otilde;pingute j&auml;tkamisel samal kalendriaastal &otilde;ppeasutuses , kus &otilde;ppimine annab &otilde;iguse peretoetustele , makstakse p&auml;rast &otilde;pilaspileti v&otilde;i &otilde;ppeasutuse teatise esitamist toetusi tagasiulatuvalt toetuste maksmise l&otilde;petamisest kuni uuesti &otilde;ppima asumiseni .</s>
+</p>
+<p>
+<s>( 4 ) Koolitoetust makstakse jooksva aasta 1. oktoobriks seitsmeaastaseks saanud lapsele &otilde;ppeasutuse teatist v&otilde;i &otilde;pilaspiletit esitamata kuni lapse 16-aastaseks saamiseni .</s><s>Lapse varasema koolimineku korral makstakse koolitoetust &otilde;ppeasutuse teatise v&otilde;i &otilde;pilaspileti esitamisel .</s><s>Lapse hilisema koolimineku korral on toetust saanud isik kohustatud sellest pensioniametile kirjalikult teatama .</s>
+</p>
+<p>
+<s>( 5 ) 16-aastasele ja vanemale lapsele makstakse koolitoetust p&auml;rast &otilde;pilaspileti v&otilde;i &otilde;ppeasutuse teatise esitamist uue &otilde;ppeaasta esimese kuu jooksul , kuid mitte hiljem kui kuue kuu m&ouml;&ouml;dumisel &otilde;ppeaasta algusest .</s>
+</p>
+<p>
+<s>( 6 ) Nelja- ja enamalapselise pere ning kolmikuid kasvatava pere toetust makstakse , s&otilde;ltumata neljale ja enamale lapsele v&otilde;i kolmikutele lapsetoetuse maksmise aja kestusest selles kvartalis .</s><s>Toetus makstakse v&auml;lja jooksva kalendriaasta iga kvartali viimases kuus .</s>
+</p>
+<p>
+<s>( 7 ) Toetusesaaja surma p&auml;evaks saamata j&auml;&auml;nud peretoetus makstakse teisele isikule tema taotluse alusel , kui ta vastab k&auml;esolevas seaduses s&auml;testatud tingimustele , kuid mitte rohkem kui taotluse esitamisele eelnenud kuue kuu eest .</s>
+</p>
+<p>
+<s>( 8 ) Toetuste maksmisel &uuml;mardatakse 50 ja rohkem senti kroonini , alla 50-sendist summat ei arvestata .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Peretoetuste maksmise erisused</s>
+</p>
+<p>
+<s>( 1 ) Vanemliku hoolitsuseta lapsele , kes elab pidevalt hoolekandeasutuses v&otilde;i erivajadustega laste koolis , peretoetusi ei maksta .</s><s>Hoolekandeasutusest &otilde;ppimise t&otilde;ttu eemalviibivale vanemliku hoolitsuseta lapsele makstakse lapsetoetust , &uuml;ksikvanema lapse toetust ja koolitoetust , kui ta vastab nimetatud toetuste saamiseks k&auml;esolevas seaduses s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 2 ) Puudest tingitud erivajaduse t&otilde;ttu ajutiselt hoolekandeasutuses v&otilde;i erivajadustega laste koolis viibiva lapse kohta makstakse peretoetusi , v&auml;lja arvatud lapsehooldustasu ja eestkostel v&otilde;i perekonnas hooldamisel oleva lapse toetust , kui laps vastab toetuste saamiseks k&auml;esolevas seaduses s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>V&auml;lja v&otilde;tmata peretoetuste maksmise peatamine ja j&auml;tkamine</s>
+</p>
+<p>
+<s>Pensioniamet peatab toetuste maksmise , kui posti teel makstavad toetused on v&auml;lja v&otilde;tmata v&auml;hemalt kuus kuud .</s><s>P&auml;rast vastava taotluse ja k&auml;esoleva seaduse &sect; 16 l&otilde;ike 1 punktis 2 s&auml;testatud dokumendi esitamist makstakse toetus taotlejale v&auml;lja .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Elukohta vahetanud toetusesaajale peretoetuste maksmise j&auml;tkamine</s>
+</p>
+<p>
+<s>Elukohta vahetanud toetusesaajale j&auml;tkatakse peretoetuste maksmist p&auml;rast vastava taotluse ja k&auml;esoleva seaduse &sect; 16 l&otilde;ike 1 punktis 2 s&auml;testatud dokumendi esitamist uue elukohaj&auml;rgse pensioniameti kaudu ajast , mil maksmine endises kohas l&otilde;petati .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Vanemliku hoolitsuseta lapsele etten&auml;htud peretoetuste maksmise peatamine ja j&auml;tkamine</s>
+</p>
+<p>
+<s>( 1 ) Pensioniamet peatab valla- v&otilde;i linnavalitsuse korraldusel ajutiselt peretoetuste maksmise , kui lapsevanem ei t&auml;ida perekonnaseadusest ( RT I 1994 , 75 , 1326 ; 1996 , 40 , 773 ; 49 , 953 ; 1997 , 28 , 422 ; 35 , 538 ; 2000 , 50 , 317 ; 2001 , 16 , 69 ; RT III 2001 , 15 , 154 ; RT I 2001 , 53 , 307 ) tulenevat kohustust last kasvatada ja tema eest hoolitseda .</s>
+</p>
+<p>
+<s>( 2 ) Pensioniamet j&auml;tkab peretoetuste maksmist lapse vanemale k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud p&otilde;hjuste &auml;ralangemisel valla- v&otilde;i linnavalitsuse korralduse v&otilde;i kohtuotsuse alusel .</s>
+</p>
+<p>
+<s>( 3 ) Pensioniamet j&auml;tkab vanemliku hoolitsuseta lapsele etten&auml;htud peretoetuste maksmist v&otilde;&otilde;rasvanemale v&otilde;i kasuvanemale v&otilde;i eestkostjale v&otilde;i perekonnas hooldajale valla- v&otilde;i linnavalitsuse korralduse v&otilde;i kohtuotsuse v&otilde;i perekonnas hooldamise lepingu alusel .</s>
+</p>
+<p>
+<s>( 4 ) Pensioniamet j&auml;tkab peretoetuste maksmist iseseisvalt elama asunud vanemliku hoolitsuseta lapsele , kes vastab k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 v&otilde;i 2 s&auml;testatud tingimustele , valla- v&otilde;i linnavalitsuse korralduse alusel .</s>
+</p>
+<p>
+<s>( 5 ) Peretoetuste maksmise j&auml;tkamisel k&auml;esoleva paragrahvi l&otilde;igetes 3 ja 4 s&auml;testatud juhtudel makstakse peretoetusi tagantj&auml;rele mitte rohkem kui vastava taotluse esitamise kuule eelnenud kuue kalendrikuu eest .</s>
+</p>
+<p>
+<s>( 6 ) Kui laps viibis peretoetuste maksmise peatamise ajal hoolekandeasutuses , siis hoolekandeasutuses viibimise aja eest toetust tagantj&auml;rele ei maksta .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Peretoetuste maksmise muutmine ja l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Asjaoludest , mis m&otilde;jutavad peretoetuste saamist v&otilde;i toetuste suurust , on toetuste saaja kohustatud elukohaj&auml;rgsele pensioniametile kirjalikult teatama k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul , arvates nende asjaolude tekkimise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Kui lapse vanem on seadusega kehtestatud korras tunnistatud tagaotsitavaks ning tagaotsimine l&otilde;petatakse , on tagaotsimisega tegelev asutus kohustatud saatma pensioniametile teate tagaotsimise l&otilde;petamise kohta viie t&ouml;&ouml;p&auml;eva jooksul , arvates tagaotsimise l&otilde;petamisest .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud asjaolude ilmnemisel &uuml;hekordselt makstavat peretoetust , kord kvartalis v&otilde;i kord aastas makstavat peretoetust ei maksta ; igakuiselt makstava toetuse maksmine l&otilde;petatakse asjaolude tekkimise kuule j&auml;rgnevast kuust .</s><s>Kui asjaolud m&otilde;jutavad toetuse suurust , makstakse toetust uues suuruses asjaolude tekkimise kuule j&auml;rgnevast kuust .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 7 alusel m&auml;&auml;ratud toetuse maksmine l&otilde;petatakse lapse vanema tagaotsimise l&otilde;petamisele v&otilde;i isaduse tuvastamise kohtuotsusele j&auml;rgnevast kuust .</s>
+</p>
+<p>
+<s>( 5 ) Toetuse maksmine l&otilde;petatakse , kui toetus on m&auml;&auml;ratud seadusliku aluseta pensioniameti s&uuml;&uuml;l .</s><s>Toetuse maksmise l&otilde;petamise otsus saadetakse toetust saanud isikule posti teel viie t&ouml;&ouml;p&auml;eva jooksul , arvates otsuse tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>( 6 ) Peretoetuste saajal on &otilde;igus toetustest loobuda .</s><s>Peretoetuste maksmine l&otilde;petatakse vastava kirjaliku taotluse esitamisele j&auml;rgnevast kuust .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Peretoetuste tagasin&otilde;udmine</s>
+</p>
+<p>
+<s>( 1 ) Toetuste saaja teadliku valeandmete esitamise v&otilde;i peretoetuste saamist m&otilde;jutavate asjaolude mitteteatamise ilmnemisel n&otilde;utakse peretoetusteks enammakstud summad tagasi v&otilde;i tehakse tasaarvestus .</s>
+</p>
+<p>
+<s>( 2 ) Kui isik ei maksa alusetult saadud peretoetusi tagasi , v&otilde;idakse enammakstud summad pensionikomisjoni otsuse alusel talle etten&auml;htud peretoetustest kinni pidada .</s><s>Kinnipeetav osa ei v&otilde;i &uuml;letada 20 protsenti isikule m&auml;&auml;ratud toetuste summast .</s>
+</p>
+<p>
+<s>( 3 ) Kui peretoetuste maksmine l&otilde;petatakse enne enammakstud summa t&auml;ielikku tasaarvestamist , tehakse isikule enammakstud summade tagasin&otilde;udmiseks ettekirjutus koos hoiatusega .</s><s>Hoiatuses m&auml;rgitud t&auml;htaja jooksul ettekirjutuse t&auml;itmata j&auml;tmise korral on pensioniametil &otilde;igus rakendada sunniraha asendust&auml;itmise ja sunniraha seaduses ( RT I 2001 , 50 , 283 ) s&auml;testatud korras .</s><s>Sunniraha &uuml;lemm&auml;&auml;r on 2000 krooni .</s>
+</p>
+<p>
+<s>( 4 ) Ettekirjutus koos hoiatusega saadetakse toetusi saanud isikule posti teel viie t&ouml;&ouml;p&auml;eva jooksul , arvates ettekirjutuse ja hoiatuse tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Peretoetuste andmete kandmine registrisse</s>
+</p>
+<p>
+<s>( 1 ) Andmed peretoetuste m&auml;&auml;ramise , m&auml;&auml;ramise aluste ja maksmise kohta kantakse riikliku pensionikindlustuse seaduse alusel moodustatud riikliku pensionikindlustuse registrisse .</s>
+</p>
+<p>
+<s>( 2 ) Andmete kandmine registrisse ja andmete saamine registrist toimub vastavalt andmekogude seadusele ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ; 2001 , 7 , 17 ; 17 , 77 ) , isikuandmete kaitse seadusele ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ; 2000 , 50 , 317 ; 92 , 597 ; 104 , 685 ; 2001 , 50 , 283 ) ja teistele seadustele .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Vaidluste lahendamine</s>
+</p>
+<p>
+<s>( 1 ) Peretoetuste m&auml;&auml;ramise otsusega mitten&otilde;ustumise korral on toetuse taotlejal &otilde;igus p&ouml;&ouml;rduda pensionikomisjoni poole 30 p&auml;eva jooksul , arvates otsuse saamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Pensionikomisjoni otsusega mitten&otilde;ustumise korral on toetuse taotlejal &otilde;igus p&ouml;&ouml;rduda halduskohtusse 30 p&auml;eva jooksul , arvates vaideotsuse isikule teatavaks tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Varem m&auml;&auml;ratud peretoetuste s&auml;ilitamine</s>
+</p>
+<p>
+<s>Isikule , kellele peretoetused on m&auml;&auml;ratud enne 2002. aasta 1. jaanuari , kuid keda ei loeta k&auml;esoleva seaduse &sect; 2 alusel peretoetustele &otilde;igust omavaks isikuks , makstakse peretoetusi , kui ta vastab muudele k&auml;esolevas seaduses s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>&Otilde;igusaktide muutmine</s>
+</p>
+<p>
+<s>Sotsiaalmaksuseaduse ( RT I 2000 , 102 , 675 ; 2001 , 50 , 285 ; 59 , 359 ; 79 , 480 ; 91 , 544 ) &sect; 6 l&otilde;ike 1 punkt 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 1 ) isik , kellele makstakse lapsehooldustasu riiklike peretoetuste seaduse ( RT I 2001 , 95 , 587 ) &sect; 6 l&otilde;ike 1 punkti 1 , l&otilde;ike 5 v&otilde;i 6 alusel , ja mittet&ouml;&ouml;tav vanem , kellele makstakse lapsehooldustasu nimetatud seaduse &sect; 6 l&otilde;ike 1 punkti 3 ja l&otilde;ike 3 alusel ; &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>&Otilde;igusaktide kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse j&otilde;ustumisel tunnistatakse kehtetuks riiklike peretoetuste seadus ( RT I 1997 , 42 , 676 ; 77 , 1309 ; 1998 , 86/87 , 1407 ; 1999 , 10 , 150 ; 16 , 273 ; 67 , 657 ; 82 , 749 ; 2000 , 102 , 668 ) .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2002. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

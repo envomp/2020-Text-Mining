@@ -1,0 +1,207 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>K&otilde;ver mets</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 32859; s&otilde;nu: 3534</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>K&otilde;ver mets</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=114></tagusage>
+         <tagusage gi=s occurs=338></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body>
+<div0 type='tervikteos'><head>K&otilde;ver mets</head>
+<p><bibl><author><s>Siim Veskimees</s></author></bibl></p>
+<p> <s>Keskusesse j&otilde;udmise ajaks olin ennast siiski natuke kogunud . </s> <s> V&otilde;tsin postkontorist kaugek&otilde;ne ja mul vedas : sain teada , et Kroux on arhiivis , helistasin sinna ja seal oli ( ilmselt ta tuttav ) t&auml;di lahkesti n&otilde;us teda toru otsa kutsuma ; muide , h&auml;&auml;le j&auml;rgi otsustades oli sel t&auml;dil aastaid kaksk&uuml;mmend ... </s> </p>
+<p> <s> " Kroux , kus on Vainam&auml;e kabel ? " </s> </p>
+<p> <s>K&uuml;mme sekundit kostis torust vaid traatide suminat , siis pahvatas ta : " Kust sa selle nime said ? " </s> </p>
+<p> <s>Piilusin kohalikke t&auml;dikesi , kes olid kiviks tardunud ja j&otilde;llitasid mind &uuml;mmarguste silmadega . </s> </p>
+<p> <s> " Ma ei saa praegu seletada , " laususin h&auml;diselt . </s> </p>
+<p> <s> " Oota . " </s> </p>
+<p> <s>Ootasin . </s> </p>
+<p> <s> " V&otilde;ta kaart , " j&otilde;udis Kroux l&otilde;puks toru juurde tagasi . </s> <s> " Vanapa piiskopi kroonikad ... aga see sind ei huvita ... </s> <s> Kirjeldab seda , l&auml;htudes Igrise j&otilde;est ja vanast vallamajast ... " </s> </p>
+<p> <s> " L&uuml;hemalt . " </s> </p>
+<p> <s>Ta ohkas ja nimetas koordinaadid . </s> </p>
+<p> <s> " Kui sa ei leia , otsi idast ... v&otilde;i pisut kirdest , " m&auml;rkis ta veel . </s> <s> " Kusagil seal peab see olema . " </s> </p>
+<p> <s>Tegin kaardile pliiatsiga m&auml;rgi , t&auml;nasin teda ja viskasin toru hargile . </s> <s> Juba numbreid kaardi servale kirjutades teadsin , et objekt asub traadiga piiratud alal , meie salap&auml;rasest kaksikaiaringist umbes kaks kilomeetrit kagus . </s> <s> Maksin t&auml;dile n&otilde;utud hinna ja lahkusin postkontorist , tunne selline , et too mutt haaras telefonitoru veel enne , kui &otilde;ieti uksest v&auml;lja sain . </s> <s> Silmitsesin minuti kaarti ja ajasin siis masinale h&auml;&auml;le sisse . </s> <s> Taevas oli tumehall , &otilde;hus keerles &uuml;ksikuid valgeid helbeid ja hakkas juba kergelt h&auml;marduma , kuigi kell oli umbes kolm &mdash; seegi l&uuml;hike talvehakup&auml;ev oli p&ouml;&ouml;rdumatult l&auml;bi ning ma pidin kiirustama . </s> </p>
+<p> <s>K&uuml;laserval oleksin peaaegu pidurdanud &mdash; mulle n&auml;is , et too salap&auml;rane folklorist , Jaan Rebane , silmitseb mind eemalt puude alt . </s> <s> Mida ta seal tegi ? </s> <s> Juhuseid ei ole olemas . </s> <s> J&auml;lgis ta mind ? </s> <s> Ent ma v&otilde;isin ka eksida ja talle seal j&auml;rgi jooksma poleks ma niikuinii hakanud , nii et s&otilde;itsin edasi . </s> </p>
+<p> <s>Suundusin vallakeskusest kagusse , kus Metsa kolmemeetrisest hulga viletsam okastraataed &uuml;mbritses teisi , arvatavasti palju tavalisemaid h&uuml;ljatud s&otilde;jav&auml;eobjekte . </s> <s> Tee l&otilde;ppes kohe sealsamas , t&uuml;hjade aknaaukude ja sisselangenud katustega kasarmute juures , edasi l&auml;ksid vaid vanad rattaj&auml;ljed , mis mind eriti ei aidanud , nii et pidin maastikul orienteeruma &uuml;ldiste pinnavormide j&auml;rgi . </s> <s> Loen seet&otilde;ttu p&auml;ris heaks tulemuseks , et leidsin juba peale pooletunnist otsimist kesk &uuml;ht r&auml;&auml;mas v&otilde;serikku hoone , mille ajahambast puretud , kuid endiselt v&auml;&auml;rikas profiil eristus rabavalt noist jubedatest tellistest ja betoonist k&auml;kerdistest , mille r&otilde;lge maitselagedus vene armee olemust ja suutlikkust v&auml;gagi adekvaatselt peegeldas . </s> </p>
+<p> <s>Peatasin auto kabelist paarik&uuml;mne meetri kaugusel , ronisin v&auml;lja ja v&otilde;tsin endale paar minutit ringivahtimiseks , kuulatamiseks ja ... khm &mdash; nuusutamiseks , et &uuml;mbritsevast pilti saada . </s> <s> Miski ei liikunud ja esialgu ei leidnud ma &uuml;htki m&auml;rki , et keegi seal viimastel aastatel &uuml;ldse liikunud oleks . </s> <s> Lumesadu oli pisut tihenenud , ent maha langenud helbed sulasid kohe ja &auml;barik sompus videvik , mida p&otilde;hjamaalased millegip&auml;rast " p&auml;evaks " nimetavad , t&otilde;otas kesta veel paar tundi . </s> <s> H&otilde;re m&otilde;nehektarine puudesalu oli tegelikult h&uuml;ljatud surnuaed . </s> <s> &Uuml;ksikud hauasambad seisid veel p&uuml;sti , seltsiks roostes autovrakid ja muu koli , muidu aga v&otilde;is harvade vanade puude vahelt n&auml;ha igas suunas p&auml;ris kaugele . </s> </p>
+<p> <s>Ma ei pea end ise eriliseks militaristiks , kuigi keskmise vedelvorstiga v&otilde;rreldes ma seda ilmselt olen . </s> <s> Igatahes , nagu eespool juba mainitud , tean ma , mispidi relv k&auml;es k&auml;ib ; pealegi on parim viis pahandusi v&auml;ltida nende vastu valmistuda . </s> <s> Mul oli TT taga v&ouml;&ouml; vahel , teise kannika peal seltsiks k&auml;&auml;nispea-jahinuga , n&uuml;&uuml;d v&otilde;tsin autost pumba , kontrollisin , et see on laetud ja padrun rauas , kinnitasin taskulambi toru k&uuml;lge juhuks , kui tuleb midagi pimedas otsida , ja olin valmis . </s> <s> J&auml;in siiski veel korraks k&otilde;hklema . </s> <s> Mul olid p&uuml;ssi padrunites vaid " tavaline " seatina . </s> <s> Ma ei olnud meie " p&auml;kapikkude " pihtasaamist soomustl&auml;bistavaga tegelikult v&otilde;tnud t&otilde;siselt , ent ega mul midagi selle vastu ei olnud , et automaat edaspidi just nendega laadida ... </s> <s> Paraku oli Pille jutt minus hulga uusi m&otilde;tteid tekitanud ja ma ei olnud enam milleski kindel . </s> </p>
+<p> <s>Ent peale paarisekundist jalalt jalale tammumist sai sissejuurdunud ratsionalism v&otilde;itu ja ma hakkasin minema . </s> <s> Esimestel meetritel tundsin end tobedana , siis l&otilde;i treening v&auml;lja ja ma libisesin vaikselt &uuml;he j&auml;meda sammaldunud t&uuml;ve tagant teise taha , liikudes lagedal kiiresti ja eba&uuml;htlaselt , tardudes varjus ja lastes pilgul ringi k&auml;ia . </s> <s> Kabel oli igivanast murenevast paekivist , seinad suuremalt jaolt terved , kui mitte arvestada paari mahakukkunud karniisikivi . </s> <s> Akendest sisse ma ei n&auml;inud , need olid kas lootusetult m&auml;&auml;rdunud v&otilde;i hoopist&uuml;kkis kinni l&ouml;&ouml;dud . </s> <s> Korraks kihvatas sees , kui n&auml;gin igivanu raame ja klaase , mida kattis niiskusest pundunud vineer , aga muinsuskaitse jaoks ei olnud mul aega . </s> <s> Hoonel oli ainult &uuml;ks ukseava ja uks ise oli raske , heas korras ja paksu plekiga &uuml;le l&ouml;&ouml;dud . </s> <s> Tegin &uuml;mbruskonnas veel &uuml;he tiiru , otsides maapinnalt ja mujalt v&otilde;imalikke j&auml;lgi . </s> <s> Leidsin neid piisavalt &mdash; inimese ja koera omi , aga need ei &ouml;elnud mulle rohkem , kui et see paik ei ole sugugi nii h&uuml;ljatud kui esmapilgul paistis . </s> <s> Ka kabeli uks osutus petlikuks , sest selle juurde tagasi j&otilde;udes veendusin kahek&uuml;mne sekundiga , et seda on hiljuti avatud &mdash; lukk oli uus ja terve ning hingedelt ei voolanud alla mitte niiskus &mdash; neid oli &otilde;litatud . </s> <s> N&otilde;rgaks kohaks osutus hoopis vastus , mille paari jalahoobiga seinast k&auml;tte sain . </s> </p>
+<p> <s>Hoones oli pime . </s> <s> T&otilde;mbasin ukse lahti ja s&uuml;&uuml;tasin lambi . </s> <s> Ootasin m&otilde;ned sekundid ja viskusin siis edasi , valmisvaadatud nurka . </s> <s> Miski ei liikunud . </s> <s> Veel kiire ring lambiga , siis &uuml;he kasti varju . </s> <s> N&uuml;&uuml;d oli mul v&otilde;imalik ruumi vaadelda ja selle minutiga adapteerusid ka silmad . </s> <s> Nina " l&auml;bipuhumisest " v&auml;ljas oli vist kasu olnud , sest h&auml;mmastusega t&otilde;desin , et ruumis oli r&auml;&auml;sunud prael&otilde;hn . </s> <s> Siin oli keegi hiljuti s&ouml;&ouml;nud &mdash; j&auml;relikult elanud ? </s> <s> Mitte tingimata , ent ma ei suudaks kujutleda kedagi , kes sellisesse paika pidu pidama tuleb ... </s> </p>
+<p> <s>Ruumi keskel oli suur musta ehituspapiga kaetud laud , selle kohal tagurpidi keeratud rist ja keset lauda suur liud . </s> <s> Tegin ruumis tiiru , igaks juhuks kontrollides , et viibin seal t&otilde;esti &uuml;ksi , vaatasin &uuml;le aknad juhuks , kui muudkaudu kiiresti lahkuda tuleb , ja asusin siis kummalist musta altarit ja liuda uurima . </s> <s> Liual olid praej&auml;&auml;nused . </s> <s> M&otilde;istatasin , mis kummaline religioon k&uuml;ll siin oma ohvris&ouml;&ouml;maaega pidas ja silmitsesin luid , p&uuml;&uuml;des aimata , mis loomaga tegu . </s> <s> Nendes j&auml;&auml;nustes oli midagi piinavalt tuttavat ... </s> <s> Ma ei tea tagantj&auml;rele , mis hetkel mulle koitma hakkas , mida ma &otilde;ieti n&auml;en . </s> <s> Ma ei olnud tundnud mingit hingeliigutust , n&auml;hes Zagorno-Karabahhi k&uuml;lade t&auml;navatel vedelevaid tursunud laipu ; oli v&auml;ga vastik , kuid ma j&auml;in t&auml;iesti teov&otilde;imeliseks , kui k&auml;sigranaat &uuml;hel meie kaasv&otilde;itlejal sisikonna ruumi laiali paiskas , ent seda liuda vaadates hakkas mul paha . </s> <s> Seal lebasid praetud ja s&ouml;&ouml;dud inimlapse j&auml;&auml;nused ... </s> </p>
+<p> <s>Auto signalisatsioon hakkas l&otilde;ugama . </s> <s> Sekundi murdosaks vihastasin , et kuradi halb &otilde;nn &mdash; on ju signa teinekordki ise lahti l&auml;inud &mdash; ent siis adusin , et siin sellega arvestada ei tohi . </s> <s> Olin &uuml;he pika h&uuml;ppega uksel ja viskusin enne edasitormamist kiiresti piidalt piidale , pilguga paremalt-vasakult kontrollides , et keegi mind sealsamas ei passi . </s> <s> J&otilde;udsin siiski vahejuhtumiteta auto juurde ja &mdash; relvatoru &uuml;mbrust katmas &mdash; vaatasin oma s&otilde;iduriista &uuml;le . </s> <s> Esimesel ringil tundus k&otilde;ik korras olevat , ent tegin veel &uuml;he tiiru , kuna olin vahtinud rohkem &uuml;mbrust kui autot . </s> <s> Siis leidsingi , et keegi on proovinud tagaluuki avada . </s> <s> S&otilde;raga . </s> </p>
+<p> <s>Vaatasin veel kord ringi ja v&otilde;tsin m&otilde;ttes arvesse kohad , kus inimene v&otilde;iks redutada . </s> <s> Mind m&auml;rkamatult kirbule v&otilde;tta &mdash; r&auml;&auml;kimata ligihiilimisest &mdash; polnud seal nii lihtne , ent potentsiaalseid varitsuskohti leidus siiski piisavalt . </s> </p>
+<p> <s>Tegin , nagu ei saaks tagaluuki v&otilde;tmega lahti , avasin juhiukse , otsisin mingi kruvikeeraja , toetasin p&uuml;ssi auto k&uuml;lje najale ja kummardusin nokitsema . </s> <s> P&uuml;&uuml;dsin sel moel neid sitap&auml;id , kes v&otilde;isid veel l&auml;heduses passida , mind r&uuml;ndama ahvatleda . </s> <s> Mu lootused t&auml;itusid , sest varsti n&auml;gin &uuml;maral roostevabal k&auml;epidemel peegeldumas liikuvat varju . </s> <s> Ootasin , et see l&auml;hemale tuleks ja teritasin k&otilde;rvu , kuid tasase kruusakrigina asemel lajatas eemalt tuttava aktsendiga hoiatush&uuml;&uuml;e : " Olav , selja taga ! " </s> </p>
+<p> <s>Kirusin m&otilde;ttes , astusin sujuvalt sammu k&otilde;rvale , p&ouml;&ouml;rdusin ja t&otilde;stsin p&uuml;stoli . </s> <s> Olin selle juba autos k&auml;ep&auml;raselt ette v&ouml;&ouml; vahele torganud ja kaitseriivist vabastanud , m&otilde;eldes m&otilde;rult , et toruots on detsimeeter munadest ja t&auml;pselt &otilde;igele poole ... </s> </p>
+<p> <s>T&uuml;&uuml;p oli veel &uuml;le k&uuml;mne meetri eemal ja s&otilde;rg oli tal l&ouml;&ouml;givalmilt peos p&uuml;sti . </s> <s> See oli raskesti m&auml;&auml;ratletavas vanuses t&uuml;&uuml;pilise pr&uuml;kkari v&auml;limusega mees &mdash; r&auml;pased dressip&uuml;ksid ja veelgi r&auml;pasem nailonjope , alkohooliku kuhtunud keha ja sisselangenud l&otilde;ust &mdash; ja ta j&auml;i mind &uuml;sna totralt vahtima , suutmata otsustada , mida edasi teha . </s> </p>
+<p> <s> " Tule n&uuml;&uuml;d ilusti siia ! " </s> </p>
+<p> <s>Ta ei liikunud . </s> <s> Heitsin k&auml;rme pilgu &uuml;le &otilde;la , kust Jaan Rebane l&auml;hemale ruttas . </s> <s> Tal oli veel oma viisk&uuml;mmend meetrit tulla . </s> <s> Astusin sammu k&otilde;rvale ja viskasin veel &uuml;he kiirpilgu &uuml;le &otilde;la , et veenduda , kas ma n&auml;gin esimesel korral ikka &otilde;ieti &mdash; meie folkloristil oli revolver peos . </s> <s> Pr&uuml;kkar seisis endiselt liikumatult . </s> </p>
+<p> <s> " Siia ! " </s> </p>
+<p> <s> " T&scaron;evo ? </s> <s> Ja ne panimaju ... </s> <s> " 1 Mees ei liikunud ikka , vaid hakkas selle asemel k&otilde;va h&auml;&auml;lega ja suhteliselt seosetult h&auml;daldama . </s> <s> Muigasin algul , arvates , et ta &uuml;ritab etendada kustunud m&otilde;istusega s&uuml;&uuml;dimatut inimvaret , kuid taipasin siis , et ilmselt p&uuml;&uuml;ab ta kellelegi m&auml;rku anda v&otilde;i liikumise m&uuml;ra summutada . </s> <s> Mu &uuml;ksildane luurek&auml;ik oli &uuml;le kasvanud lausa rahvakogunemiseks ja madal profiil v&otilde;is &uuml;le parda minna , nii et tulistasin talle jalge ette maha . </s> </p>
+<p> <s> " Marss , siia ! " </s> </p>
+<p> <s>H&auml;daldamine j&auml;tkus , ent lask oli t&uuml;&uuml;bi m&otilde;istmisv&otilde;imet oluliselt parandanud &mdash; ta nihkus vastutahtmist l&auml;hemale , t&otilde;stes ka &uuml;htlasi k&auml;ed , paremas endiselt s&otilde;rg . </s> <s> T&auml;heldasin teatud &uuml;llatusega , et ei saa enam aru &uuml;hestki kaltsaka s&otilde;nast , see polnudki nagu enam k&otilde;ne , vaid meenutas pigem mingit poolmeloodilist manamist . </s> </p>
+<p> <s>Olin pea iga sekund ka &uuml;mbrusele k&otilde;rvalpilgu heitnud ja n&uuml;&uuml;d sai seegi tasutud &mdash; tabasin liikumise endast paremal ja viskusin instinktiivselt maha . </s> <s> Raksatas lask ja riko&scaron;ett l&otilde;i &uuml;hest hauasambast killu v&auml;lja . </s> <s> Vaevalt kolmandiksekund hiljem kostis selja tagant teine lask ja sellele vastas valukisa sealtpoolt , kust mind oli tulistatud . </s> <s> Hetk hiljem maandus mu k&otilde;rval s&otilde;rg , paisates &uuml;les liiva . </s> <s> Veeretasin end laskja suhtes auto taha ja t&otilde;usin p&otilde;lvele . </s> <s> Pr&uuml;kkar p&otilde;genes p&otilde;igeldes , tulistasin talle j&auml;rele ja tabasin kolmanda lasuga . </s> <s> Ta r&ouml;&ouml;gatas kilavalt ja kukkus , ajas end aga kohe &uuml;les ja vankus &uuml;he puu taha . </s> <s> Eemal , sadakond meetrit kabelist paremal , tekkis mingi liikumine , k&auml;rgatasid lasud . </s> <s> Kuulid vilistasid kusagil , igatahes minust turvaliselt kaugel , ja kui ma auto tagant v&auml;lja piilusin , seisis Jaan tolle samba taga , kus oli peitunud esimene laskja , ja tulistas revolvri t&uuml;hjaks eemal p&otilde;genevate kujude poole . </s> <s> L&auml;kitasin ka oma viimased neli laengut neile j&auml;rele , samal ajal &uuml;mber auto p&uuml;ssi juurde nihkudes . </s> </p>
+<p> <s>Jaan laadis revolvrit , sestap kulutasin ka ise paar sekundit , et p&uuml;stolisse uus magasin sisse l&uuml;kata , relv kaitseriivistada ja v&ouml;&ouml; vahele panna . </s> <s> Oli veel kraadi v&otilde;rra h&auml;maramaks l&auml;inud , ent vaadet segasid k&otilde;ige rohkem kabeli &uuml;mber voogavad h&otilde;redad udujoomed . </s> <s> See , kellele mina pihta olin saanud , p&uuml;sis puu taga , kust tal kuhugi minna ei olnud ja see , keda Jaan oli tulistanud , lamas veritsevat jalga hoides lagedal . </s> <s> Jaan v&otilde;ttis vasaku k&auml;ega maast tolle tegelase parabellumi , uuris seda , pani riivi ja libistas endale mantlitaskusse . </s> <s> Ootasin , kuni ta sellega valmis sai ja v&otilde;tsin siis ta enda hoolikalt kirbule . </s> </p>
+<p> <s> " Pane see revolver n&uuml;&uuml;d ilusti maha . " </s> </p>
+<p> <s>Ta m&otilde;&otilde;tis mind viis sekundit tusaselt ja asetas siis relva k&auml;ep&auml;raselt &uuml;he hauaplaadi lamedale tipule . </s> </p>
+<p> <s>See , mis minus nende viimaste minutitega oli t&auml;rganud , ei olnud tavaline raev . </s> <s> Need , kes tegid seda seal kabelis , ei kuulu inimsoo hulka . </s> <s> Ka need , kes sellest teavad ja midagi ei &uuml;tle , ei kuulu inimsoo hulka . </s> <s> Olin endast v&auml;ljas , kiiretest arusaamatutest s&uuml;ndmustest segaduses ja ei saanud kedagi usaldada . </s> <s> Mingis kontekstis sai Jaan sellest &otilde;ieti aru , sest hakkas aeglasel m&otilde;&otilde;detud toonil r&auml;&auml;kima : </s> </p>
+<p> <s> " Me oleme loodetavasti &uuml;hel poolel . </s> <s> S&uuml;ndinud on midagi kohutavat , aga sina trambid ringi nagu marut&otilde;bine commandos ja sellel v&otilde;ivad olla etten&auml;htamatud tagaj&auml;rjed . " </s> </p>
+<p> <s> " Sa teadsid , mis siin on ? " </s> </p>
+<p> <s> " Mis siin siis on ? </s> <s> Vana kabel ... " </s> </p>
+<p> <s> " L&otilde;peta teesklus , neetud ! " </s> <s> Mu h&auml;&auml;l katkes . </s> <s> Ta uuris mind ning veendus ilmselt , et olin piisavalt n&auml;inud ja n&auml;htust aru saanud . </s> </p>
+<p> <s> " Mina seda ei teinud . </s> <s> Ma ... </s> <s> Ma &uuml;ritan leida ja takistada neid , kes seda tegid . " </s> </p>
+<p> <s>Ta vaikis . </s> </p>
+<p> <s> " Jah ? " &otilde;hutasin teda . </s> </p>
+<p> <s> " Sa ei peaks end siia segama ... " </s> </p>
+<p> <s> " Bullshit . </s> <s> Mis siin toimub ? </s> <s> Kes sa &otilde;ieti oled ? " </s> </p>
+<p> <s> " Ma ei tohi sulle vastata . </s> <s> Ja meil oleks parem siit kiiresti lahkuda . " </s> </p>
+<p> <s>Astusin paar sammu l&auml;hemale , kindla kavatsusega tal p&uuml;ssip&auml;raga hambad kurku l&uuml;&uuml;a , ja ta t&otilde;stis k&auml;ed kaitseks n&auml;o ette . </s> </p>
+<p> <s>Peatusin . </s> <s> " Ei , mitte nii . " </s> <s> Langetasin p&uuml;ssi ja osutasin toruga ta revolvrile . </s> <s> " Sul on kaks v&otilde;imalust &mdash; r&auml;&auml;gi v&otilde;i v&otilde;ta relv . " </s> </p>
+<p> <s>Ta vaatas mu poole ja k&otilde;hkles . </s> </p>
+<p> <s> " V&otilde;ta relv ! " </s> <s> Mul ei olnud vaja eriti teeselda , mu h&auml;&auml;l v&otilde;nkus p&uuml;&uuml;dest end valitseda ja s&otilde;rm v&otilde;beles p&auml;&auml;stikul . </s> </p>
+<p> <s>Ta ohkas . </s> <s> " Sa ei usu ... " </s> </p>
+<p> <s>Vaikisin ja ootasin . </s> </p>
+<p> <s> " Ma t&ouml;&ouml;tan NSA juures . </s> <s> Kas sa tead , mis see on ? " </s> </p>
+<p> <s> " Ameerika luureorganisatsioon . " </s> </p>
+<p> <s> " Meil on kokkulepe venelastega , et me aitame j&auml;lgima ... j&auml;lgida seda piirkonda . </s> <s> Siin toimub asju , mis sarnanevad k&otilde;ige rohkem X-files'ides toimuvaga . </s> <s> Sa muidugi tead seda seriaali ? </s> <s> Kas ma j&auml;tkan ? " </s> </p>
+<p> <s>Noogutasin . </s> <s> See oli nii absurdne , et selle taga v&otilde;is isegi midagi olla . </s> <s> Ma ei naernud . </s> <s> Kaarel oli vigastatud , Ellu ja ta laps olid kadunud , mingid kaltsakad olid meid asja eest , teist taga tulistanud ja liud mustal altaril oli juba ise piisavalt ebareaalne . </s> <s> Tahtsin teada , kuhu ta v&auml;lja j&otilde;uab . </s> </p>
+<p> <s>Ta otsis s&otilde;nu . </s> <s> " Vahel juhtub inimestega kummalisi asju . </s> <s> See on seotud &uuml;he v&otilde;i teise kohaga . </s> <s> Venelased ehitasid &uuml;hele kohale siin aia &uuml;mber ja proovisid uurida . </s> <s> N&uuml;&uuml;d , kokkuleppel Eesti valitsusega , olen mina siin . </s> <s> Muide , meil oleks ehk parem j&auml;tkata seda juttu kusagil mujal ? " </s> </p>
+<p> <s>Vaikisime taas veerand minutit . </s> <s> Siis ta j&auml;tkas : </s> </p>
+<p> <s> " Tegemist on valitsustevahelise kokkuleppega . </s> <s> Ma ei t&ouml;&ouml;ta konkreetselt mitte kellegi poole heaks . </s> <s> Sinu sekkumine ... " </s> </p>
+<p> <s> " Bullshit , " viskasin t&uuml;dinult . </s> <s> " See mind ei huvita . </s> <s> Kes nad olid ? </s> <s> Kust ma nad leian ? </s> <s> Mis juhtus Kaarliga ? </s> <s> Kus on Ellu ? " </s> <s> S&otilde;nad takerdusid korraks suus . </s> <s> " Oli see tema laps ? " </s> </p>
+<p> <s>Ta k&otilde;hkles uuesti , skaneerides pilguga rahutult &uuml;mbrust . </s> <s> Olin ka ise seda teinud , kuid n&auml;ha polnud muud , kui et kabeli &uuml;mber lainetas n&uuml;&uuml;d &uuml;sna tihe udutomp . </s> </p>
+<p> <s> " Me peaksime t&otilde;epoolest siit kiiresti lahkuma . " </s> </p>
+<p> <s> " Miks ? " tahtsin teada . </s> <s> " Ja mis haavatutest saab ? " </s> </p>
+<p> <s>Ta vaatas mind hetke mingi k&otilde;leda l&otilde;bususega , pomises midagi oma nina alla , siis ohkas : " Hilja . </s> <s> Kas ma v&otilde;in n&uuml;&uuml;d oma relva v&otilde;tta ? </s> <s> Well , asi on selles , et teisedki peale nende ... scavengers ... " </s> <s> ( " Pr&uuml;kkarid , " &uuml;tlesin talle ette ) " ... ei taha , et me siin oleme ja ma eelistaks oma revolvrit omada see aeg . " </s> </p>
+<p> <s>Noogutasin l&uuml;hidalt . </s> <s> Ta kloppis k&otilde;igepealt puhtaks oma millalgi mahatoetatud p&otilde;lve , v&otilde;ttis seej&auml;rel relva ja asus seda &uuml;sna snobistlikult valge taskur&auml;tikuga puhastama . </s> <s> Astusin l&auml;bilastud jalaga tegelast korraks l&auml;hemalt uurima . </s> <s> N&auml;dalase habeme ja &auml;rajoodud l&otilde;ustaga kaltsukubu oli mingisuguse rihma abil suurema verejooksu kinni saanud ja istus n&auml;ost kahvatuna &uuml;he kivi najal . </s> <s> N&auml;gin sealtsamast , et see , keda mina olin tulistanud , oli ikka veel oma puu taga . </s> <s> Ma ei olnud ka Jaani hetkekski silmist lasknud , teda k&uuml;ll enam otseselt kirbul hoidmata . </s> <s> Kui ma tema poole tagasi l&auml;ksin , hakkas ta ise r&auml;&auml;kima : </s> </p>
+<p> <s> " On &uuml;ks j&otilde;uk . </s> <s> Nad usuvad ... saatanasse . </s> <s> Satanism . </s> <s> Nad viivad end transsi ja soovivad saada &uuml;leinimlikku j&otilde;udu , ohverdades ristimata last . </s> <s> Neis ei ole k&otilde;ik korras , aga meid huvitab , mis on siin taga , miks nendega nii juhtub ? " </s> </p>
+<p> <s> " Mustlased ? " </s> </p>
+<p> <s> " Mustlased ? </s> <s> Jah , vist k&uuml;ll ... nii ilmselt kohalikud &uuml;tlesid . </s> <s> Nad ei ole mustlased . </s> <s> Elule jalgu j&auml;&auml;nud inimesed ; vanasti &ouml;eldi &mdash; paadialused . </s> <s> Pr&uuml;kkarid . </s> <s> M&otilde;ned &uuml;hinesid j&otilde;uguga alles hiljuti . </s> <s> Nad on ohtlikud . " </s> </p>
+<p> <s> " Oli see Ellu laps ? " </s> </p>
+<p> <s>Ta k&otilde;hkles hetke , ja ma plahvatasin : " R&auml;&auml;gi , mees ! </s> <s> Kui ma su valelt taban , siis l&ouml;&ouml;n sul v&auml;hemalt hambad kurku . </s> <s> Ja ma vannun ... &uuml;ksk&otilde;ik mille nimel , et kui sa sellega seotud oled , siis teen su t&uuml;maks ! </s> <s> Mida sa , kurat , keerutad ? </s> <s> Kus on Ellu ja Susanna ? " </s> </p>
+<p> <s>Ta suunurk tuksatas . </s> <s> Adusin j&auml;rsku , et ta peab olema professionaal . </s> <s> K&uuml;llap ta oli juba taibanud , et oli mind seal auto tagaluugi juures asjata lolliks pidanud ja hoiatanud , k&otilde;ike muud &mdash; kuni relva puhastamiseni &mdash; oli ta aga teinud elukutselise vaistliku perfektsusega . </s> <s> Kuidas ta siis lasi end kirbule v&otilde;tta ? </s> <s> J&auml;relikult me olimegi &uuml;hel poolel ? </s> <s> Miks ta tahtis mind siit minema saada ? </s> <s> Et mulle kuidagi selgeks teha , et pean n&auml;htust vaikima , ja mind m&auml;ngust k&otilde;rvaldada ? </s> <s> Siin oli muidugi v&otilde;imalus kauplemiseks . </s> <s> Aga ma ei tohtinud seda meest alahinnata , sest kui ta t&otilde;esti oli USA valitsuse teenistuses , pidi ta p&auml;ris palju oskama ja teadma . </s> </p>
+<p> <s>Enne , kui ta vastata j&otilde;udis , hakkas esimene kaltsakas eemal puu taga karjuma ja tormas siis longates ja veritsevat k&uuml;lge kinni hoides kabeli poole . </s> <s> J&auml;lgisin teda sihikuga . </s> </p>
+<p> <s> " &Auml;ra lase , " napsas Jaan kiiresti . </s> <s> Kogu kadus uttu , ja m&otilde;ni sekund hiljem kostis sealt pikk loomalik &otilde;udus- ja valukisa , mis l&auml;ks &uuml;le korinaks ja l&otilde;ppes siis j&auml;rsult . </s> <s> Vaatasin kulme kergitades Jaani poole , kes ignoreeris mu s&otilde;natut k&uuml;simust vaevutajutava , pisut kohatuna tunduva l&otilde;bususega ja vastas hoopis eelmisele k&uuml;simusele : </s> </p>
+<p> <s> " Ei , ma olen kindel , et see ei ole Ellu laps . </s> <s> &Otilde;igemini on see loogiline j&auml;reldus . </s> <s> Kadunud on veel &uuml;ks laps . </s> <s> Krutaja Triin , kui see sulle midagi &uuml;tleb ? " </s> </p>
+<p> <s> " Olen seda nime korra kuulnud . " </s> <s> Milline oli seos Pille ja Jaani vahel ? </s> </p>
+<p> <s> " Ta ema oli joodik . </s> <s> Mul ... ma ... see on pikk jutt . </s> <s> Mul on t&otilde;endeid , et see Krutaja oli nende satanistidega kuidagi seotud ... v&otilde;ib-olla mitte otseselt . </s> <s> Ja see laps seal oli suurem . </s> <s> Susanna oli v&auml;iksem . </s> <s> Ma v&otilde;in muidugi eksida . " </s> </p>
+<p> <s> " Sa teadsid sellest siin ... </s> <s> Sa m&otilde;&otilde;tsid teda . " </s> </p>
+<p> <s>Ta muigas kurvalt . </s> <s> " Ja fotografeerisin ja v&otilde;tsin t&uuml;kikesi n&auml;idiseks . </s> <s> Sa ei kujuta ette , mida ma k&otilde;ike n&auml;inud olen ... ja l&auml;bi elanud . " </s> <s> Ta andis mulle peaga m&auml;rku j&auml;&auml;da auto taha , kus ma niigi olin , ja nihkus ise kuus-seitse sammu k&otilde;rvale , &uuml;he t&uuml;ve taha . </s> </p>
+<p> <s> " Nii et see on t&otilde;esti laps ... " ei suutnud ma &uuml;tlemata j&auml;tta . </s> </p>
+<p> <s>Ta ringivilanud pilk j&auml;i mul h&auml;iritult pidama . </s> <s> " Sa olid nii veendunud ? " </s> </p>
+<p> <s>Oli minu kord ebam&auml;&auml;raselt noogutada . </s> <s> " Silmad n&auml;gid , j&auml;reldus oli ... aga sellist asja uskuda ... " </s> <s> Taandusin pisut ja toetusin seljaga vastu autot , sest mul hakkas j&auml;lle paha . </s> </p>
+<p> <s> " Ellu on pastori t&uuml;tar , ta laps peaks olema igal juhul ristitud ? " meenus mulle j&auml;rsku . </s> </p>
+<p> <s>Jaan vaatas mind kaastundlikult ja irvitas n&uuml;&uuml;d varjamatult : " Kas sa t&otilde;esti usud , et sel on tegelikult v&auml;himatki t&auml;htsust ? " </s> </p>
+<p> <s>Ta vinnastas revolvri ja t&otilde;i vasaku k&auml;e parema randmele toeks . </s> <s> Ta &otilde;ieti ei p&ouml;&ouml;ranudki mulle enam t&auml;helepanu , puurides valvsa pilguga udu . </s> </p>
+<p> <s>Kabeli l&auml;heduses muutusid eristatavaks kaks tumedat varju . </s> <s> Esimesel hetkel n&auml;is , et tegu on suurte koerte v&otilde;i huntidega , siis aga t&otilde;usid nad p&uuml;sti ja meie poole liikusid ebaloomulikult pikkade h&uuml;petega umbes kahemeetrised halli karusnahka r&uuml;&uuml;tatud kogud . </s> <s> Edasine toimus v&auml;ga k&auml;hku . </s> <s> Jaan pidi endapoolsega ise hakkama saama , sest j&otilde;udsin parasjagu relva t&otilde;sta ja korralikult sihtida , j&otilde;udes veel t&auml;heldada , et neil on nagu koeramaskid peas . </s> <s> S&otilde;dur , kes imetleb vaenlase r&otilde;ivamoodi , on surnud s&otilde;dur . </s> <s> Pigem automaatselt vajutasin p&auml;&auml;stikule . </s> <s> Distants oli kahanenud v&auml;hem kui viiele meetrile ja sellelt kauguselt on v&otilde;imatu m&ouml;&ouml;da lasta , seda enam , et mul olid laengud &uuml;le &uuml;he kartet&scaron; ja kuul , ja peale lasku oleks r&uuml;ndaja rindkere pidanud v&auml;lja n&auml;gema nagu s&otilde;elap&otilde;hi , nagu ka selg , sest need rasked haavlid lendavad n&auml;iteks metsseast l&auml;bi . </s> <s> T&uuml;&uuml;p aga m&ouml;rises vaid , vankus pisut jalgadel ja tuli siis edasi . </s> <s> Teine laeng . </s> <s> Ta koperdas taas tahapoole , ent sai tasakaalu tagasi ja j&auml;tkas tulemist . </s> <s> Olin juba peale esimest lasku arvanud , et tal on ehk soomusvest , kuid sellisest l&ouml;&ouml;b suurekaliibriline kuul l&auml;bi . </s> <s> Tal pidi olema k&otilde;rgema klassi kaitse . </s> <s> Kolmanda laengu , j&auml;lle haavlid , saatsin talle n&auml;kku . </s> <s> Lendas karvatuuste ja midagi tumedat , ta m&ouml;irgas , ent j&auml;tkas tulemist . </s> <s> Midagi oli n&uuml;&uuml;d v&auml;ga viltu . </s> <s> Ega mul muud teha polnud , j&auml;rjekordne laadimisliigutus &mdash; ja tuld ! , seekord kuul n&auml;kku , toruots oli tulija l&otilde;ustast juba vaevalt vaksa kaugusel . </s> <s> Oli muidugi h&auml;mar , ent kuul n&auml;is temast l&auml;bi minevat , ja selle asemel , et veel kord tulistada , virutasin talle p&uuml;ssip&auml;raga . </s> <s> Sellel oli rohkem m&otilde;ju &mdash; ta lendas selili , ent hakkas end kohe j&auml;lle p&uuml;sti ajama . </s> <s> Peast lipsas l&auml;bi , et halva unen&auml;o moodi p&auml;ev kogub aina tuure , sest need neli lasku oleksid pidanud peatama ka r&uuml;ndava dinosauruse . </s> <s> &Otilde;nneks polnud mul aega masendusse langeda , j&auml;tkus muudki tegemist . </s> <s> Olin k&otilde;rvalt kuulnud , et ka Jaan tulistas kaks korda , ent mul polnud aega vaadata , kuidas tal l&auml;heb . </s> <s> N&uuml;&uuml;d raksatas kolmas revolvrilask ja kogu mu jalge ees haaras endal rinnust , k&auml;hises vaikselt ja vajus maha tagasi . </s> <s> Kuni ta suremisega ametis oli , j&otilde;udsin ringi vaadata ja fikseerida , et ka teine r&uuml;ndaja lamab liikumatult . </s> </p>
+<p> <s>Tardusime , relvad t&otilde;stetud , valmis j&auml;rgmiseks r&uuml;nnakuks . </s> <s> Oli juba &uuml;sna h&auml;maraks l&auml;inud , nii et n&auml;htavus polnud enam suurem asi . </s> <s> Keegi tormas eemal pimeduses , kuulsime jalgade tatsumist , ent n&auml;gime vaid varje nelja-viiek&uuml;mne meetri kaugusel puude vahel . </s> <s> Siis j&auml;i k&otilde;ik vaikseks ja liikumatuks . </s> </p>
+<p> <s>Kummardusin meie r&uuml;ndajaid uurima , kuid Jaan k&auml;hvas : " Get back ! " </s> </p>
+<p> <s>Ta sihtis hoolikalt ja tulistas m&otilde;lemale kuuli p&auml;he . </s> </p>
+<p> <s> " Vii auto eemale . </s> <s> Umbes sada meetrit . " </s> </p>
+<p> <s>Kummardusin siiski enne korraks neid lamavaid kogusid uurima ja m&auml;rkisin silmanurgast , et Jaan j&auml;lgis mind natuke lootusetul ilmel , ise kiiruga revolvrit laadides . </s> <s> Laipadel ei olnud koeramaske ega karusnahkseid kombinesoone . </s> <s> Need seal maas olid libahundid . </s> <s> Olid , lamasid ja jooksid verd &mdash; &uuml;mberl&uuml;kkamatu fakt , mis vilistas mu arvamusele taoliste ebausu s&uuml;nnitiste v&otilde;imalikkuse kohta . </s> <s> Muide , nad meenutasid hunti ainult " n&auml;o poolest " , sest nende jalad l&otilde;ppesid selliste s&otilde;rmede ( v&otilde;i varvastega ) , mille p&otilde;hjal oleks v&otilde;inud neid hallikarvalisteks gorilladeks pidada . </s> </p>
+<p> <s>Kaalusin , kas s&uuml;&uuml;data lamp , et neid paremini n&auml;ha , kuid Jaan m&otilde;istis mu kavatsust ja raputas keelavalt pead . </s> </p>
+<p> <s> " Kas sa saad nii , et ka auto laternaid ei s&uuml;&uuml;ta ? " </s> </p>
+<p> <s>Noogutasin . </s> <s> " Vajad sa lampi ? " </s> </p>
+<p> <s>Ta raputas pead ja andis m&auml;rku kuulatada . </s> <s> Keegi liikus taas kusagil kaugemal pimeduses . </s> <s> Jaan vaatas kiiresti taha ja panin alles n&uuml;&uuml;d t&auml;hele , et hauaplaadi najal istunud haavatu on kadunud . </s> </p>
+<p> <s> " Mine ! " </s> </p>
+<p> <s>Ajasin auto eemale ja kiirustasin tagasi , k&auml;igu pealt p&uuml;ssi laadides . </s> <s> Poolel teel sain Jaaniga kokku . </s> </p>
+<p> <s> " L&auml;ksime , " tahtis ta minust m&ouml;&ouml;duda . </s> </p>
+<p> <s> " Aga ... " </s> </p>
+<p> <s> " See ei ole sinu mure . " </s> </p>
+<p> <s> " Me ei saa ju ometi laipu siia niisama vedelema j&auml;tta ! </s> <s> Ja ma tahan neid l&auml;hemalt vaadata . " </s> </p>
+<p> <s>Astusin edasi , oodates iga hetk selja tagant k&auml;sklust seisma j&auml;&auml;da . </s> <s> Seda ei tulnud , Jaan hoopis j&auml;rgnes mulle . </s> </p>
+<p> <s>Laibad olid kadunud . </s> <s> Uurisin maapinda , algul niisama ja siis lambivalgel , ning tundsin ennast j&auml;rjest tobedamalt . </s> </p>
+<p> <s> " Mis sa nendega tegid ? " </s> </p>
+<p> <s> " Ma &uuml;tlesin , see pole sinu mure . " </s> </p>
+<p> <s>Oli juba &uuml;sna pime , udu oli hajunud ja kui valgusvihk libises &uuml;le p&auml;rani kabeliukse , olin kindel , et laibad on sinna peidetud . </s> <s> Ent mul ei olnud mingit tahtmist seda uurima minna . </s> </p>
+<p> <s>Aga Jaaniga ei olnud ma veel l&otilde;petanud ... </s> </p>
+<p> <s> " Lepime kokku , et enam ei sihi teineteist ? " kuulsin oma selja taga asjaosalise pehmet tooni , enne kui m&otilde;tte l&otilde;puni j&otilde;udsin m&otilde;elda . </s> <s> " See teeb n&auml;rviliseks . </s> <s> L&auml;heks ehk korraks minu poole , Undva tallu ? </s> <s> Pisut br&auml;ndit ? </s> <s> See kulub &auml;ra . " </s> </p>
+<p> <s>Mu &otilde;lad vajusid longu . </s> <s> Korraga olin lihtsalt v&auml;sinud ja segaduses . </s> <s> Noogutasin ja p&ouml;&ouml;rdusin . </s> </p>
+<p> <s> " Mis need su p&uuml;stolis olid ? </s> <s> H&otilde;bekuulid ? " k&uuml;sisin , kui auto poole tagasi k&otilde;ndisime . </s> </p>
+<p> <s>Ta raputas pead . </s> <s> " Depleted uranium , kuidas iganes see eesti keeles v&otilde;iks olla . " </s> <s> Ta otsis taskust ja ulatas mulle &uuml;he padruni , mis v&auml;ljan&auml;gemiselt oli k&uuml;ll igatpidi tavaline 0.357-ne Magnum . </s> </p>
+<p> <s> " Need vist ei ole enam satanistid ? " turtsatasin seda talle tagasi andes . </s> </p>
+<p> <s> " Ei . " </s> </p>
+<p> <s> " Mis need siis on ? </s> <s> Ma usun , et sa pead oma loo tagasi v&otilde;tma ja uue jutustama . " </s> </p>
+<p> <s> " Jah . " </s> </p> </div0> </body> </text> 

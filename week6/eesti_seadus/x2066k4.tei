@@ -1,0 +1,1366 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Energiaseadus ( terviktekst m&auml;rts 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    7818</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Energiaseadus ( terviktekst m&auml;rts 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=31></tagusage>
+         <tagusage gi=p occurs=420></tagusage>
+         <tagusage gi=s occurs=489></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Energiaseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 11. juunil 1997. a.</s>
+</p>
+<p>
+<s>( RT I 1997 , 52 , 833 ; terviktekst RT I 2001 , 52 , 303 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 1998. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>21.02.2002 j&otilde;ust.12.03.2002 - RT I 2002 , 25 , 145 ;</s>
+</p>
+<p>
+<s>14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 ;</s>
+</p>
+<p>
+<s>17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadusega reguleeritakse k&uuml;tuse- ja energiaturgu ning k&uuml;tuse- ja energiamajanduse riiklikku j&auml;relevalvet .</s>
+</p>
+<p>
+<s>( 2 ) Riikliku j&auml;relevalve erisused k&uuml;tusena kasutatavate maavarade kaevandamisel s&auml;testab k&auml;esolev seadus .</s><s>Maavarade kaevandamist reguleeritakse maap&otilde;ueseadusega ( RT I 1994 , 86/87 , 1488 ; 1995 , 75 , 1321 ; 1996 , 49 , 953 ; 1997 , 52 , 833 ; 86 , 1461 ; 93 , 1562 ; 1998 , 64/65 , 1005 ; 1999 , 10 , 155 ; 54 , 583 ; 95 , 843 ; 2000 , 54 , 348 ; 102 , 670 ; 2001 , 24 , 133 ) .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevat seadust ei kohaldata k&uuml;tuse- ja energiamajanduses kasutatavatele surve- ja t&otilde;steseadmetele .</s><s>Nende surve- ja t&otilde;steseadmete kohta k&auml;iv regulatsioon kehtestatakse eraldi seadusega .</s>
+</p>
+<p>
+<s>( 09.12.98 j&otilde;ust.01.04.99 - RT I 1998 , 113/114 , 1873 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevat seadust ei kohaldata elektriohutuse tagamiseks k&uuml;tuse- ja energiamajanduses .</s><s>Elektriohutusalane regulatsioon kehtestatakse elektriohutusseadusega .</s>
+</p>
+<p>
+<s>( 23.02.99 j&otilde;ust.01.05.99 - RT I 1999 , 29 , 403 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esolev seadus ei reguleeri soojusenergia m&uuml;&uuml;ki koguses alla 50 000 MWh majandusaastas .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>K&uuml;tus ja energia</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses h&otilde;lmab m&otilde;iste k&uuml;tus gaas- , tahke- ja vedelk&uuml;tust , mille p&otilde;lemisel eralduvat soojust kasutatakse energiaallikana .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas seaduses kasutatakse m&otilde;istet energia elektri- ja soojusenergia &uuml;hisnimetusena .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevas seaduses kasutatakse m&otilde;istet v&otilde;rgugaas gaask&uuml;tuse t&auml;henduses , mida edastatakse tarbijani torujuhtmete s&uuml;steemi abil .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevas seaduses k&uuml;tuse kohta s&auml;testatut ei rakendata turba ja biok&uuml;tuse suhtes .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esolevas seaduses k&auml;sitatakse biok&uuml;tusena puitu ja puidut&ouml;&ouml;tlemise j&auml;&auml;tmeid , energeetilisi p&otilde;llukultuure , energiaallikana kasutatavaid j&auml;&auml;tmeid ning biogaasi ( sealhulgas pr&uuml;gila gaasi ) .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esolevas seaduses k&auml;sitatakse k&uuml;tuse impordina k&uuml;tuse sissevedu vabasse ringlusse lubamise tolliprotseduuriga tolliseadustiku t&auml;henduses .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>K&uuml;tuse- ja energiaettev&otilde;tja</s>
+</p>
+<p>
+<s>( 1 ) K&uuml;tuseettev&otilde;tja on ettev&otilde;tja , kes tegeleb k&uuml;tuse tootmise , t&ouml;&ouml;tlemise , ladustamise , m&uuml;&uuml;gi , ekspordi , impordi v&otilde;i vedelk&uuml;tuse v&otilde;i gaasi edastamise v&otilde;i jaotamisega vastava v&otilde;rgu kaudu .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 2 ) Energiaettev&otilde;tja on ettev&otilde;tja , kes tegeleb energia tootmise , muundamise , salvestamise , edastamise , jaotamise , m&uuml;&uuml;gi , ekspordi , impordi v&otilde;i transiidiga .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>K&uuml;tuse- ja energiaseade</s>
+</p>
+<p>
+<s>( 1 ) K&uuml;tuseseade ja -ehitis on k&auml;esoleva seaduse t&auml;henduses seade k&uuml;tuse tootmiseks , t&ouml;&ouml;tlemiseks , ladustamiseks , edastamiseks , jaotamiseks , m&otilde;&otilde;tmiseks , m&uuml;&uuml;miseks v&otilde;i tarbimiseks .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>( 2 ) Energiaseade ja -ehitis on k&auml;esoleva seaduse t&auml;henduses seade energia tootmiseks , salvestamiseks , muundamiseks ( sealhulgas k&uuml;tuse p&otilde;letamiseks ) , transformeerimiseks , edastamiseks , jaotamiseks , m&otilde;&otilde;tmiseks , m&uuml;&uuml;miseks v&otilde;i tarbimiseks .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>( 3 ) Ehitise ( hoone ja rajatise ) m&otilde;iste , mis on s&auml;testatud planeerimis- ja ehitusseaduses ( RT I 1995 , 59 , 1006 ; 1996 , 36 , 738 ; 49 , 953 ; 1999 , 27 , 380 ; 29 , 398 ; 399 ; 95 , 843 ; 2000 , 54 , 348 ; 2001 , 42 , 234 ; 50 , 283 ; 65 , 377 ) , h&otilde;lmab k&auml;esolevas seaduses ka sisepaigaldise , mille all m&otilde;istetakse hoonesse paigaldatud ja omavahel &uuml;hendatud seadmete kogumit .</s>
+</p>
+<p>
+<s>( 4 ) Kasutatavad k&uuml;tuse- ja energiaseadmed ning k&uuml;tuse- ja energiaehitised peavad vastama &otilde;igusaktides s&auml;testatud tehnilistele ja ohutusn&otilde;uetele .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>K&uuml;tuse- ja energiamajanduse &uuml;ldkorraldus</s>
+</p>
+<p>
+<s>&sect; 5. ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 5 <hi rend="sup">1</hi> .</s><s>Vedelk&uuml;tuste kvaliteedin&otilde;uded ja n&otilde;uetele vastavuse t&otilde;endamine</s>
+</p>
+<p>
+<s>( 1 ) Vedelk&uuml;tuste kvaliteedin&otilde;uded kehtestatakse majandusministri m&auml;&auml;rusega .</s><s>Kvaliteedin&otilde;uded kehtestatakse ainult m&auml;&auml;ruses nimetatud k&uuml;tustele .</s>
+</p>
+<p>
+<s>( 2 ) Vedelk&uuml;tuse vastavust kehtestatud kvaliteedin&otilde;uetele t&otilde;endatakse volitatud asutuse poolt v&auml;ljaantud vedelk&uuml;tuse vastavussertifikaadiga .</s><s>Vastavussertifikaadi vormi ja v&auml;ljaandmise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 3 ) Volitatud asutus k&auml;esoleva seaduse t&auml;henduses on isik , kellele k&auml;esoleva paragrahvi l&otilde;ikes 4 s&auml;testatud korras on antud &otilde;igus tegutseda vedelk&uuml;tuse sertifitseerimiseks volitatud asutusena .</s><s>Volitatud asutusena tegutsemise &otilde;iguse v&otilde;ib anda vedelk&uuml;tuse sertifitseerimiseks akrediteeritud asutusele .</s>
+</p>
+<p>
+<s>( 4 ) Isikule vedelk&uuml;tuse sertifitseerimiseks volitatud asutusena tegutsemise &otilde;iguse andmise , volitatud asutusena tegutsemise , tema &uuml;le riikliku j&auml;relevalve korraldamise ja tegutsemis&otilde;iguse &auml;rav&otilde;tmise korral kohaldatakse toote n&otilde;uetele vastavuse t&otilde;endamise seaduse ( RT I 1999 , 92 , 825 ; RT I 2002 , 6 , 20 ) s&auml;tteid .</s>
+</p>
+<p>
+<s>( 5 ) &Otilde;igus tegutseda vedelk&uuml;tuse sertifitseerimiseks volitatud asutusena antakse t&auml;htajaliselt kuni viieks aastaks .</s><s>Volitatud asutus peab tagama tema poolt tekitatud kahju h&uuml;vitamise .</s>
+</p>
+<p>
+<s>( 6 ) Vedelk&uuml;tuse importimisel on importija kohustatud esitama tollile vedelk&uuml;tuse vastavussertifikaadi .</s><s>Kvaliteedin&otilde;uetele mittevastava vedelk&uuml;tuse import , ladustamine ja m&uuml;&uuml;k on keelatud .</s><s>Vastavussertifikaadita on lubatud k&uuml;tust importida k&uuml;tuseaktsiisi seaduses ( RT I 1993 , 38 , 563 ; RT I 1996 , 90 , 1613 ; 1997 , 73 , 1201 ; 77 , 1314 ; 86 , 1464 ; 1998 , 57 , 862 ; 1999 , 10 , 158 ; 2000 , 33 , 199 ; 59 , 380 ; 2001 , 88 , 531 ) s&auml;testatud maksuvabas koguses .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 7 ) Vedelk&uuml;tuse tootja , t&ouml;&ouml;tleja , ladustaja v&otilde;i m&uuml;&uuml;ja on kohustatud j&auml;relevalveasutuse n&otilde;udmisel esitama oma valduses oleva vedelk&uuml;tuse vastavussertifikaadi ja v&otilde;imaldama vedelk&uuml;tuse vastavuse kontrollimist kehtestatud kvaliteedin&otilde;uetele .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 6. ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 7. ( Kehtetu - 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>&sect; 8. ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Tegevusluba</s>
+</p>
+<p>
+<s>( 1 ) Undertakings with a valid activity licence have tK&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud tegevusaladel tegutsemise &otilde;igus on ettev&otilde;tjal , kellel on kehtiv tegevusluba .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusluba on n&otilde;utav j&auml;rgmistel tegevusaladel :</s>
+</p>
+<p>
+<s>1 ) k&uuml;tuse import ja m&uuml;&uuml;k ;</s>
+</p>
+<p>
+<s>2 ) elektrienergia eksport , import ja m&uuml;&uuml;k ;</s>
+</p>
+<p>
+<s>3 ) soojusenergia m&uuml;&uuml;k ;</s>
+</p>
+<p>
+<s>4 ) energia , vedelk&uuml;tuse ja gaasi edastamis- ning jaotamisteenuse m&uuml;&uuml;k v&otilde;rgu kaudu ;</s>
+</p>
+<p>
+<s>5 ) elektri- , soojus- ja gaasis&uuml;steemi operatiivjuhtimise teenuse m&uuml;&uuml;k .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloaks on t&auml;htajaline turuluba .</s><s>Turuluba antakse k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 1 nimetatud tegevusteks t&auml;htajaga kuni viis aastat ja punktides 2-5 nimetatud tegevusteks t&auml;htajaga kuni 12 aastat .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Turuloata on lubatud k&uuml;tust importida k&uuml;tuseaktsiisi seaduses s&auml;testatud maksuvabas koguses .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 4 ) F&uuml;&uuml;siline v&otilde;i juriidiline isik , kes ei t&auml;ida energia tootmise , edastamise v&otilde;i jaotamise funktsioone ning kes k&auml;esoleva seaduse &sect; 14 l&otilde;ikes 1 <hi rend="sup">1</hi> nimetatud seadmeid , elektriliine v&otilde;i torustikku kasutades ostab ja m&uuml;&uuml;b energiat ainult oma aktsion&auml;ridele , osanikele , liikmetele , rentnikele v&otilde;i &uuml;&uuml;rnikele , ei vaja turuluba , kui energiam&uuml;&uuml;k ei ole tema p&otilde;hitegevusala .</s>
+</p>
+<p>
+<s>( 5 ) Turuloa annab Energiaturu Inspektsioon turuluba taotleva ettev&otilde;tja ( edaspidi taotleja ) taotluse alusel .</s>
+</p>
+<p>
+<s>( 6 ) Turuluba antakse &auml;riregistrisse kantud v&otilde;i asutamisel olevale &auml;ri&uuml;hingule v&otilde;i &auml;riregistrisse kantud v&auml;lismaa &auml;ri&uuml;hingu filiaalile , kui tal on tehnilised v&otilde;imalused ja vajaliku oskusega personal tegutsemiseks taotluses m&auml;rgitud tegevusalal ning tema tegevus vastab keskkonnakaitse , t&ouml;&ouml;ohutuse ja muudele &otilde;igusaktidega etten&auml;htud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 7 ) Turuloa vormi kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 8 ) Turuloa andmise eest v&otilde;etakse riigil&otilde;ivu vastavalt riigil&otilde;ivuseadusele ( RT I 1997 , 80 , 1344 ; RT I 2001 , 55 , 331 ; 56 , 332 ; 64 , 367 ; 65 , 377 ; 85 , 512 ; 88 , 531 ; 91 , 543 ; 93 , 565 ; 2002 , 1 , 1 ; 18 , 97 ; 23 , 131 ; 24 , 135 ) .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 9 <hi rend="sup">1</hi> .</s><s>Turuloa taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Turuloa saamiseks esitab taotleja Energiaturu Inspektsioonile taotluse , milles on v&auml;hemalt j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tja &auml;rinimi ;</s>
+</p>
+<p>
+<s>2 ) asukoha aadress ja tegevuskoht ;</s>
+</p>
+<p>
+<s>3 ) sidevahendite numbrid ;</s>
+</p>
+<p>
+<s>4 ) &auml;riregistri kood ;</s>
+</p>
+<p>
+<s>5 ) tegevusalad vastavalt k&auml;esoleva seaduse &sect; 9 l&otilde;ikele 2.</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud taotlusele lisatakse :</s>
+</p>
+<p>
+<s>1 ) &auml;riregistri registrikaardi &auml;rakiri ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>3 ) Maksuameti kohaliku asutuse &otilde;iend maksuv&otilde;lgnevuse puudumise kohta ;</s>
+</p>
+<p>
+<s>4 ) eelmise majandusaasta kinnitatud aruanne ;</s>
+</p>
+<p>
+<s>5 ) kaupade ja teenuste loetelu , mille m&uuml;&uuml;ki , eksporti v&otilde;i importi loa taotleja kavandab v&otilde;i teostab , ja eelmise majandusaasta k&auml;ive ;</s>
+</p>
+<p>
+<s>6 ) v&otilde;rguettev&otilde;tja tegevuspiirkonna skemaatiline plaan ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) Tolliameti &otilde;iend maksuv&otilde;lgnevuse puudumise kohta , kui tegevusluba taotletakse impordiks ;</s>
+</p>
+<p>
+<s>8 ) taotleja kirjalik t&otilde;endus , et tal on tehnilised v&otilde;imalused ja vajaliku oskusega personal tegutsemiseks taotluses m&auml;rgitud tegevusalal ning et tema tegevus vastab keskkonnakaitse , t&ouml;&ouml;ohutuse ja muudele &otilde;igusaktidega etten&auml;htud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Asutamisel olevale &auml;ri&uuml;hingule antakse turuluba kuni kaheks aastaks ja taotlusele lisatakse :</s>
+</p>
+<p>
+<s>1 ) asutamislepingu , asutamisotsuse v&otilde;i &uuml;hingulepingu kinnitatud koopia koopia ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>3 ) kaupade ja teenuste loetelu , mille m&uuml;&uuml;ki , eksporti v&otilde;i importi loa taotleja kavandab ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;rguettev&otilde;tja tegevuspiirkonna skemaatiline plaan ja kirjeldus ;</s>
+</p>
+<p>
+<s>5 ) taotleja kirjalik t&otilde;endus , et tal on tehnilised v&otilde;imalused ja vajaliku oskusega personal tegutsemiseks taotluses m&auml;rgitud tegevusalal ning et tema tegevus vastab keskkonnakaitse , t&ouml;&ouml;ohutuse ja muudele &otilde;igusaktidega etten&auml;htud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 4 ) Turuloa taotlemisel esitatud dokumente taotlejale ei tagastata .</s>
+</p>
+<p>
+<s>( 5 ) Vedelk&uuml;tuse ( v&auml;lja arvatud vedelgaas ) impordiks v&otilde;ib turuluba taotleda ja omada ettev&otilde;tja , kelle osa- v&otilde;i aktsiakapital on v&auml;hemalt 10 miljonit krooni ja kes kohustub hoidma vedelk&uuml;tuse miinimumvaru , kui selline kohustus on seadusega ette n&auml;htud .</s>
+</p>
+<p>
+<s>( 6 ) Vedelk&uuml;tuse ( v&auml;lja arvatud vedelgaas ) m&uuml;&uuml;giks v&otilde;ib turuluba taotleda ja omada ettev&otilde;tja , kelle osa- v&otilde;i aktsiakapital on v&auml;hemalt 2 miljonit krooni v&otilde;i kellel on vastutuskindlustuse leping kindlustussumma alamm&auml;&auml;raga v&auml;hemalt 1 miljon krooni , mis tagab k&uuml;tuseettev&otilde;tja poolt m&uuml;&uuml;dud kvaliteedin&otilde;uetele mittevastava k&uuml;tusega tekitatud varalise kahju h&uuml;vitamise .</s>
+</p>
+<p>
+<s>( 7 ) Vedelk&uuml;tuse impordiks v&otilde;ib turuluba taotleda &auml;riregistrisse kantud &auml;ri&uuml;hing , kes on tegelenud vedelk&uuml;tuse m&uuml;&uuml;giga Eestis v&auml;hemalt kaks aastat .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 9 <hi rend="sup">2</hi> .</s><s>Turuloa andmine</s>
+</p>
+<p>
+<s>( 1 ) Energiaturu Inspektsioon teeb 60 p&auml;eva jooksul , alates k&auml;esoleva seaduse n&otilde;uetele vastava taotluse ja k&otilde;igi taotluse juurde kuuluvate dokumentide saamisest , turuloa andmise v&otilde;i turuloa andmisest keeldumise otsuse .</s><s>Taotluse korral , mis on esitatud tegevuse alustamiseks ja &auml;riregistrisse kandmiseks , teeb Energiaturu Inspektsioon turuloa andmise v&otilde;i turuloa andmisest keeldumise otsuse 30 p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Turuloa andmise k&uuml;simuse otsustamiseks v&otilde;ib Energiaturu Inspektsiooni p&auml;dev ametiisik k&uuml;sida taotlemisel esitatud andmete kohta taotlejalt v&otilde;i tema esindajalt , samuti riigi- v&otilde;i kohaliku omavalitsuse asutuselt t&auml;psustavaid lisaandmeid ja kontrollida esitatud andmete &otilde;igsust .</s>
+</p>
+<p>
+<s>( 3 ) Energia- v&otilde;i v&otilde;rguettev&otilde;tjale antakse turuluba tingimusel , et ta on riigiga s&otilde;lminud lepingu , millega tagatakse k&auml;esoleva seaduse &sect; 11 l&otilde;ikes 1 , &sect; 14 l&otilde;igetes 3 ja 4 ning &sect; 15 l&otilde;ikes 1 nimetatud &uuml;lesannete t&auml;itmine ka juhul , kui turuluba tunnistatakse kehtetuks v&otilde;i kui selle kehtivus l&otilde;peb .</s><s>Lepinguga v&otilde;ib muu hulgas n&auml;ha ette energia- v&otilde;i v&otilde;rguettev&otilde;tte majandamiseks vajaliku vara v&otilde;&otilde;randamise riigile v&otilde;i energia- v&otilde;i v&otilde;rguettev&otilde;tja aktsiate v&otilde;i osade t&auml;ieliku v&otilde;i osalise v&otilde;&otilde;randamise riigile koos vastava h&uuml;vitise maksmisega , et tagada energia- v&otilde;i v&otilde;rguettev&otilde;tja &uuml;lesannete t&auml;itmine .</s>
+</p>
+<p>
+<s>( 4 ) Kuni k&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatud viisil riigi poolt energia- v&otilde;i v&otilde;rguettev&otilde;tte &uuml;le kontrolli v&otilde;tmiseni v&otilde;i muude lepingus etten&auml;htud abin&otilde;ude rakendamiseni on energia- v&otilde;i v&otilde;rguettev&otilde;tja kohustatud j&auml;tkama oma tegevust , et tagada k&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatud &uuml;lesannete t&auml;itmine .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud leping j&otilde;ustub turuloa andmisest ja riigi nimel kirjutab lepingule alla Energiaturu Inspektsiooni peadirektor .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 9 <hi rend="sup">3</hi> .</s><s>Turuloale kantavad andmed</s>
+</p>
+<p>
+<s>Turuloale kantakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) turuloa number ;</s>
+</p>
+<p>
+<s>2 ) turuloa andmise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>3 ) ettev&otilde;tja &auml;rinimi ;</s>
+</p>
+<p>
+<s>4 ) registrikood ;</s>
+</p>
+<p>
+<s>5 ) asukoha aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>6 ) tegevusalad , millel tegutsemiseks on turuluba antud ;</s>
+</p>
+<p>
+<s>7 ) tegevuspiirkond ;</s>
+</p>
+<p>
+<s>8 ) turuloa andja ametiisiku allkiri , nimi ja ametinimetus .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 9 <hi rend="sup">4</hi> .</s><s>Turuloa andmisest keeldumine</s>
+</p>
+<p>
+<s>( 1 ) Turuloa andmisest keeldutakse , kui turuluba taotlev ettev&otilde;tja ei esita n&otilde;uetekohaseid dokumente v&otilde;i esitab eksitavaid , tegelikkusele mittevastavaid andmeid v&otilde;i v&otilde;ltsitud dokumente .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tjale , kelle turuluba on tunnistatud kehtetuks k&auml;esoleva seaduse &sect; 9 <hi rend="sup">5</hi> alusel , ei anta uut turuluba kolme aasta jooksul loa kehtetuks tunnistamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 3 ) Turuloa andmisest v&otilde;ib keelduda , kui :</s>
+</p>
+<p>
+<s>1 ) Energiaturu Inspektsioonil on p&otilde;hjendatud kahtlus taotleja v&otilde;imes t&auml;ita k&auml;esoleva seaduse &sect; 9 l&otilde;ikes 6 s&auml;testatud n&otilde;udeid ,</s>
+</p>
+<p>
+<s>2 ) Energiaturu Inspektsioonil on p&otilde;hjendatud kahtlus taotleja majandusliku seisundi usaldusv&auml;&auml;rsuses v&otilde;i</s>
+</p>
+<p>
+<s>3 ) keeldumine l&auml;htub riigi majanduspoliitilistest huvidest , mis tuginevad Riigikogu v&otilde;i Vabariigi Valitsuse otsustele .</s>
+</p>
+<p>
+<s>( 4 ) Turuloa andmisest keeldumisest teavitatakse taotlejat kirjalikult kolme t&ouml;&ouml;p&auml;eva jooksul vastava otsuse tegemisest arvates .</s>
+</p>
+<p>
+<s>( 5 ) Turuloa andmisest keeldumine ei v&otilde;ta taotlejalt &otilde;igust taotleda uuesti turuluba .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 9 <hi rend="sup">5</hi> .</s><s>Turuloa kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse ja ettev&otilde;tja turuloa tingimuste t&auml;itmise &uuml;le teostab j&auml;relevalvet ja vajaduse korral tunnistab turuloa kehtetuks Energiaturu Inspektsioon .</s>
+</p>
+<p>
+<s>( 2 ) Energiaturu Inspektsioonil on &otilde;igus tunnistada turuluba kehtetuks , kui :</s>
+</p>
+<p>
+<s>1 ) loa omanik on rikkunud k&auml;esolevat seadust v&otilde;i selle alusel kehtestatud &otilde;igusakti ;</s>
+</p>
+<p>
+<s>2 ) maksuhalduri teatel on loa omanik korduvalt rikkunud maksuseadusi v&otilde;i tolliseaduse &sect; 65 l&otilde;ike 1 punktides 2 ja 3 nimetatud tollieeskirju ;</s>
+</p>
+<p>
+<s>3 ) loa omanik ei ole loas m&auml;rgitud tegevusalal alustanud tegevust 12 kuu jooksul loas s&auml;testatud t&auml;htajast arvates ;</s>
+</p>
+<p>
+<s>4 ) loa omanik seda taotleb .</s>
+</p>
+<p>
+<s>( 3 ) Ettev&otilde;tja l&otilde;petamisel kaotab temale antud turuluba kehtivuse .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Energia s&auml;&auml;stmine ja keskkonnakaitse</s>
+</p>
+<p>
+<s>( 1 ) K&uuml;tuse- ja energiaettev&otilde;tjad on kohustatud soodustama tarbijate tegevust k&uuml;tuse ja energia s&auml;&auml;stmisel .</s>
+</p>
+<p>
+<s>( 2 ) K&uuml;tuse ja energia tootmine , edastamine , muundamine ja jaotamine tuleb korraldada nii , et sellest tulenevad keskkonnakahjustused ei &uuml;letaks rahvusvaheliste lepingute ja keskkonnaalaste &otilde;igusaktidega kehtestatud piire .</s>
+</p>
+<p>
+<s>( 3 ) Energiakasutuse efektiivsuse t&otilde;stmiseks , keskkonna kvaliteedi s&auml;ilitamiseks ja looduslike ressursside ratsionaalseks kasutamiseks kinnitab Vabariigi Valitsus energias&auml;&auml;stu sihtprogrammi .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Tarbijate varustamine energia , vedelk&uuml;tuse ja v&otilde;rgugaasiga</s>
+</p>
+<p>
+<s>( 1 ) Tarbijate varustamine energia , vedelk&uuml;tuse ja v&otilde;rgugaasiga peab olema pidev , kui ei ole kokku lepitud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>K&uuml;tuse- ja energiaettev&otilde;tja tegevus- ja arenduskohustus</s>
+</p>
+<p>
+<s>( 1 ) K&uuml;tuse- v&otilde;i energiaettev&otilde;tjale , kelle tegevus v&otilde;i tegevusetus v&otilde;ib p&otilde;hjustada tarbijate k&uuml;tuse v&otilde;i energiaga varustamise v&auml;henemise v&otilde;i katkemise v&otilde;i v&auml;hendab Eesti elektris&uuml;steemi t&ouml;&ouml;kindlust , paneb Energiaturu Inspektsioon tegevus- ja arenduskohustuse .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) Tegevus- ja arenduskohustus on k&auml;esolevas seaduses turuloaga kaasnev lisatingimus , mis vormistatakse lepingu kujul Energiaturu Inspektsiooni ja turuluba omava v&otilde;i taotleva ettev&otilde;tja vahel .</s>
+</p>
+<p>
+<s>( 3 ) Ettev&otilde;tja kohustub oma tegevuspiirkonnas paiknevate k&uuml;tuse- ja energiaseadmete ning k&uuml;tuse- ja energiaehitiste tootmisv&otilde;imsust v&otilde;i varustuskindlust s&auml;ilitama v&otilde;i muutma lepingus etten&auml;htud m&auml;&auml;ral ning t&auml;htaegadel .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 4 ) Energiaturu Inspektsioon arvestab ettev&otilde;tja poolt k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud lepingu t&auml;itmiseks tehtud &otilde;igustatud ja p&otilde;hjendatud kulutusi toodangu hinna ja m&uuml;&uuml;gitingimuste koosk&otilde;lastamisel .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>K&uuml;tuse- ja energiamajanduse arengukava</s>
+</p>
+<p>
+<s>( 1 ) K&uuml;tuse- ja energiamajanduse pikaajalise riikliku arengukava esitab Vabariigi Valitsus olulise t&auml;htsusega riigielu k&uuml;simusena Riigikogule kinnitamiseks .</s><s>Arengukavas peab ette n&auml;gema ka Eesti elektris&uuml;steemi t&ouml;&ouml; s&uuml;nkroniseerimise ja koost&ouml;&ouml; Euroopa Liidu liikmesriikide elektris&uuml;steemidega .</s>
+</p>
+<p>
+<s>( 2 ) Turuluba omavad k&uuml;tuse- ja energiaettev&otilde;tjad on kohustatud esitama Majandusministeeriumile tema taotlusel pikaajalise riikliku arengukava koostamiseks vajalikke andmeid .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>V&otilde;rguettev&otilde;tja</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses kasutatakse m&otilde;istet v&otilde;rguettev&otilde;tja , m&auml;&auml;ratlemaks ettev&otilde;tjat , kelle omandis v&otilde;i valduses on elektriliin v&otilde;i -v&otilde;rk , soojustorustik v&otilde;i -v&otilde;rk , gaasitorustik v&otilde;i -v&otilde;rk , vedelk&uuml;tuse torustik v&otilde;i -v&otilde;rk ning mille kaudu edastatakse v&otilde;i jaotatakse elektrit , soojust , v&otilde;rgugaasi v&otilde;i vedelk&uuml;tust .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) V&otilde;rguks k&auml;esoleva seaduse t&auml;henduses ei loeta ehitisse paigaldatud omavahel &uuml;hendatud seadmeid , elektriliine v&otilde;i torustikku ( ja nendega &uuml;hendatud seadmeid ) , mille kaudu jaotatakse energiat v&otilde;i v&otilde;rgugaasi &uuml;he kinnisasja v&otilde;i vallasasjaks oleva ehitise ja selle teenindamiseks vajaliku maa piires .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;rguettev&otilde;tja tegevuspiirkond on turuloaga m&auml;&auml;ratud piirkond , kus asuvad tema omandis v&otilde;i valduses olevad energia- , gaasi- v&otilde;i vedelk&uuml;tusev&otilde;rgud , v&otilde;i piirkond , mille suhtes ettev&otilde;tjale on pandud tegevus- ja arenduskohustus .</s><s>V&otilde;rguettev&otilde;tjal v&otilde;ib olla mitu tegevuspiirkonda .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;rguettev&otilde;tja vastutab tema omandis v&otilde;i valduses oleva v&otilde;rgu toimimise , korrasoleku ja arendamise eest .</s>
+</p>
+<p>
+<s>( 4 ) V&otilde;rguettev&otilde;tja peab arendama tema omandis v&otilde;i valduses olevat energia- , vedelk&uuml;tuse- ja gaasiv&otilde;rku selliselt , et oleks tagatud k&otilde;igi v&otilde;rguettev&otilde;tja tegevuspiirkonnas olevate tarbijate ja energiaettev&otilde;tjate v&otilde;rku &uuml;hendamine vastavalt k&auml;esoleva seaduse &sect;-le 16 ning energia , vedelk&uuml;tuse v&otilde;i v&otilde;rgugaasiga varustamine .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 5 ) Energia- , vedelk&uuml;tuse- v&otilde;i gaasiv&otilde;rguga &uuml;hendatud seadmed ja v&otilde;rgud ei tohi h&auml;irida teisi v&otilde;rke ja tarbijaid .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>V&otilde;rguettev&otilde;tja &otilde;igused , kohustused ja vastutus</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;rguettev&otilde;tja on kohustatud tagama tema omandis v&otilde;i valduses oleva v&otilde;rguga &uuml;hendatud tarbijate varustamise , m&uuml;&uuml;es tarbijale energiat , vedelk&uuml;tust v&otilde;i v&otilde;rgugaasi v&otilde;i m&uuml;&uuml;es energia , vedelk&uuml;tuse v&otilde;i v&otilde;rgugaasi edastamise v&otilde;i jaotamise teenust , kui tarbija ostab energiat , vedelk&uuml;tust v&otilde;i v&otilde;rgugaasi teiselt m&uuml;&uuml;jalt , kellelt ostmine on majanduslikult p&otilde;hjendatud ja tehniliselt v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;rguettev&otilde;tjal on oma tegevuspiirkonnas vastava v&otilde;rguliigi arendamise kohustus vastavalt k&auml;esoleva seaduse &sect;-le 12.</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevas seaduses loetakse v&otilde;rguteenuseks edastamis- ja jaotamisteenuse osutamist v&otilde;rgu&uuml;henduse kaudu ning sellise &uuml;henduse olemasolu .</s><s>V&otilde;rguettev&otilde;tjal on kohustus tehniliste v&otilde;imaluste piires osutada edastamis- v&otilde;i jaotamisteenust k&otilde;igile teistele v&otilde;rguettev&otilde;tjatele ja suurtarbijatele .</s>
+</p>
+<p>
+<s>( 4 ) V&otilde;rguettev&otilde;tja peab v&otilde;rguteenuste tariifid enne kehtestamist koosk&otilde;lastama Energiaturu Inspektsiooniga .</s><s>V&otilde;rguteenuste tariifide kujundamisel peab v&otilde;rguettev&otilde;tja j&auml;rgima k&auml;esoleva seaduse &sect; 19 l&otilde;igetes 4 ja 5 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 5 ) &Uuml;hes v&otilde;rguettev&otilde;tja tegevuspiirkonnas ei tohi k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud edastamis- v&otilde;i jaotamisteenuste tariifid s&otilde;ltuda edastamise v&otilde;i jaotamise kaugusest .</s><s>Edastamis- v&otilde;i jaotamistasu v&otilde;ib s&otilde;ltuda edastatava v&otilde;i jaotatava k&uuml;tuse ja energia kogusest , v&otilde;imsusgraafikust , s&uuml;steemi tippkoormuse tundidest , pingetasemest ja energiavarustuse kindlusest .</s>
+</p>
+<p>
+<s>( 6 ) Jaotusv&otilde;rguettev&otilde;tjal on &otilde;igus k&auml;esoleva seaduse &sect;-s 28 <hi rend="sup">1</hi> nimetatud alternatiivselt toodetud elektrienergia ostukohustuse suurusest s&otilde;ltuvalt taotleda Energiaturu Inspektsioonilt p&otilde;hiv&otilde;rguettev&otilde;tja poolt rakendatava edastamistariifi v&auml;hendamist .</s>
+</p>
+<p>
+<s>( 7 ) P&otilde;hiv&otilde;rguettev&otilde;tja peab oma tegevuspiirkonnas kehtivaid edastamistariife diferentseerima Energiaturu Inspektsiooni ettekirjutuse alusel .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">1</hi> .</s><s>Elektri- , gaasi- ja kaugk&uuml;ttev&otilde;rgu kaitsev&ouml;&ouml;ndid ning nendega seotud kitsendused</s>
+</p>
+<p>
+<s>( 1 ) Elektri- , gaasi- ja kaugk&uuml;ttev&otilde;rgu kaitsev&ouml;&ouml;nd on neid tehnov&otilde;rke ( elektriliinid , gaasi- ja kaugk&uuml;ttetorustikud ning nendega liituvad ehitised ) &uuml;mbritsev maa-ala , &otilde;huruum v&otilde;i veekogu , kus tehnov&otilde;rkude ohust ja nende kaitse vajadusest tulenevalt kitsendatakse kinnisasja omaniku v&otilde;i valdaja tegevust .</s>
+</p>
+<p>
+<s>( 2 ) Elektri- , gaasi- ja kaugk&uuml;ttev&otilde;rgu kaitsev&ouml;&ouml;ndi ulatus ( m&otilde;&otilde;tmed ) tulenevalt nende tehnov&otilde;rkude ohutasemest , pingest , survest , v&otilde;imsusest ja asukohast kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Elektri- , gaasi- ja kaugk&uuml;tte kaitsev&ouml;&ouml;ndis peab kinnisasja omanik v&otilde;i valdaja kinni pidama j&auml;rgmistest kitsendustest :</s>
+</p>
+<p>
+<s>1 ) elektriv&otilde;rgu kaitsev&ouml;&ouml;ndis on keelatud t&otilde;kestada juurdep&auml;&auml;su elektriv&otilde;rgu ehitisteni , ladustada j&auml;&auml;tmeid , tuleohtlikke materjale ja aineid , teha tuld , p&otilde;hjustada oma tegevusega elektriv&otilde;rgu ehitiste saastamist ja korrosiooni , korraldada &uuml;le 1000 V pingega elektriv&otilde;rgu &otilde;huliinide kaitsev&ouml;&ouml;ndis massi&uuml;ritusi ;</s>
+</p>
+<p>
+<s>2 ) elektriv&otilde;rgu veekaabelliinide kaitsev&ouml;&ouml;ndis on keelatud teha s&uuml;vendust&ouml;id , vees&otilde;idukiga ankrusse heita , liikuda heidetud ankru , kettide , logide , traalide ja v&otilde;rkudega ;</s>
+</p>
+<p>
+<s>3 ) gaasiv&otilde;rgu kaitsev&ouml;&ouml;ndis on keelatud rajada alalisi ehitisi , teha tuld , l&auml;bi viia l&otilde;hket&ouml;id , ladustada kemikaale , j&auml;&auml;tmeid v&otilde;i v&auml;etisi , rajada uitvoole tekitavaid elektris&uuml;steeme , kuni 16 bar t&ouml;&ouml;survega gaasiv&otilde;rgu kaitsev&ouml;&ouml;ndis ning &uuml;le 16 bar t&ouml;&ouml;survega gaasiv&otilde;rgu hooldusribas ( 6 m maariba piki torustiku telge ) istutada puid ja p&otilde;&otilde;said , parkida mehhanisme ja masinaid ning ladustada materjale ;</s>
+</p>
+<p>
+<s>4 ) veekogus asuva gaasiv&otilde;rgu kaitsev&ouml;&ouml;ndis on keelatud teha s&uuml;vendust&ouml;id , vees&otilde;idukiga ankrusse heita , liikuda heidetud ankru , kettide , logide , traalide ja v&otilde;rkudega ;</s>
+</p>
+<p>
+<s>5 ) kaugk&uuml;ttev&otilde;rgu kaitsev&ouml;&ouml;ndis on keelatud t&otilde;kestada juurdep&auml;&auml;su kaugk&uuml;ttev&otilde;rgule , rajada alalisi ehitisi , ladustada j&auml;&auml;tmeid , kemikaale v&otilde;i v&auml;etisi , istutada puid ja p&otilde;&otilde;said ning teha muid tegevusi , mis v&otilde;ivad kahjustada kaugk&uuml;ttev&otilde;rgu konstruktsioone ;</s>
+</p>
+<p>
+<s>6 ) elektriv&otilde;rgu kaitsev&ouml;&ouml;ndis on ilma v&otilde;rguettev&otilde;tja loata keelatud ehitada , rekonstrueerida v&otilde;i lammutada hooneid ja rajatisi , teha mis tahes m&auml;e- , laadimis- , s&uuml;vendus- , l&otilde;hkamis- , &uuml;leujutus- , niisutus- ja maaparandust&ouml;id , istutada ja langetada puid ja p&otilde;&otilde;said ;</s>
+</p>
+<p>
+<s>7 ) elektriv&otilde;rgu &otilde;huliinide kaitsev&ouml;&ouml;ndis on ilma v&otilde;rguettev&otilde;tja loata keelatud s&otilde;ita masinate ja mehhanismidega , mille &uuml;ldk&otilde;rgus maapinnast koos veosega v&otilde;i ilma on &uuml;le 4,5 m ; &uuml;le 1000 V pingega elektriv&otilde;rgu &otilde;huliinide kaitsev&ouml;&ouml;ndis rajada karjaaedu , traattarasid ja loomade joogikohti ;</s>
+</p>
+<p>
+<s>8 ) elektriv&otilde;rgu maakaabelliinide kaitsev&ouml;&ouml;ndis on ilma v&otilde;rguettev&otilde;tja loata keelatud t&ouml;&ouml;tada l&ouml;&ouml;kmehhanismidega , planeerida pinnast , teha mullat&ouml;id s&uuml;gavamal kui 0,3 m , k&uuml;ntaval maal s&uuml;gavamal kui 0,45 m ning ladustada ja teisaldada raskusi ;</s>
+</p>
+<p>
+<s>9 ) elektriv&otilde;rgu veekaabelliinide kaitsev&ouml;&ouml;ndis on ilma v&otilde;rguettev&otilde;tja loata keelatud paigaldada vees&otilde;idukite liiklust&auml;hiseid ja poisid ning l&otilde;hata ja varuda j&auml;&auml;d ;</s>
+</p>
+<p>
+<s>10 ) gaasiv&otilde;rgu kaitsev&ouml;&ouml;ndis on keelatud ilma v&otilde;rguettev&otilde;tja loata teha puurimis- ja kaevamist&ouml;id , p&uuml;stitada ajutisi ehitisi ning teha metsaraiet ja metsaveo&uuml;les&otilde;ite ;</s>
+</p>
+<p>
+<s>11 ) kaugk&uuml;ttev&otilde;rgu kaitsev&ouml;&ouml;ndis on keelatud ilma v&otilde;rguettev&otilde;tja loata teha l&otilde;hkamis- , puurimis- ja kaevet&ouml;id , samuti &uuml;leujutus- , niisutus- ja maaparandust&ouml;id , paigaldada t&auml;iendavaid kommunikatsioone , teha ehitust&ouml;id , p&uuml;stitada ajutisi ehitisi , rajada parkimisplatse , ladustada ja teisaldada materjale , organiseerida &uuml;les&otilde;ite , paigaldada kinnisasja omaniku v&otilde;i valdaja ehitust l&auml;bivates kaugk&uuml;ttev&otilde;rgu tehnilistes koridorides t&auml;iendavaid kommunikatsioone ja teha &uuml;mberehitusi .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Energia- v&otilde;i gaasiv&otilde;rguga liitumine</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;rguettev&otilde;tja peab v&otilde;imaldama tema omandis v&otilde;i valduses oleva v&otilde;rguga liitumise ( sealhulgas v&otilde;rgu&uuml;henduse kasutamise ) k&otilde;igile tema tegevuspiirkonnas asuvaile ning k&auml;esoleva seaduse ja teiste &otilde;igusaktidega kehtestatud n&otilde;uetele vastavatele tarbijatele , tootjatele ning energia- v&otilde;i gaasiv&otilde;rguettev&otilde;tjatele .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;rguettev&otilde;tjal on &otilde;igus v&otilde;tta v&otilde;rguga liitujatelt p&otilde;hjendatud liitumistasu , mis on arvestatud vastavalt k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud korrale .</s>
+</p>
+<p>
+<s>( 3 ) Elektriv&otilde;rguga liitumise ja liitumistasu arvestamise korra , soojusv&otilde;rguga liitumise ja liitumistasu arvestamise korra ning gaasiv&otilde;rguga liitumise ja liitumistasu arvestamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>K&uuml;tuse- ja energiamajandus</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Energia ja k&uuml;tuse m&uuml;&uuml;k ning v&otilde;rguteenuse osutamine</s>
+</p>
+<p>
+<s>Energiat ja k&uuml;tust m&uuml;&uuml;akse ning v&otilde;rguteenust osutatakse lepingu alusel , milles m&auml;&auml;ratakse m&uuml;&uuml;dava k&uuml;tuse ja energia kogus , kvaliteet , varustamiskindlus , hind v&otilde;i hinna m&auml;&auml;ramise p&otilde;him&otilde;tted , poolte kohustused , vastutus ning muud lepingutingimused .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Energia v&otilde;i gaasi m&uuml;&uuml;k v&otilde;rgu kaudu</s>
+</p>
+<p>
+<s>( 1 ) Suurtarbijad k&auml;esoleva seaduse t&auml;henduses :</s>
+</p>
+<p>
+<s>1 ) elektri- ja soojusenergia suurtarbija m&auml;&auml;ratluse kehtestab Vabariigi Valitsus , l&auml;htudes tema tarbimisv&otilde;imsusest ja tema poolt aastas oma tarbeks tarbitava energia kogusest ;</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>3 ) gaasi suurtarbija on tarbija , kes kasutab gaasi t&ouml;&ouml;stuses v&otilde;i kaugk&uuml;tte katlamajas ;</s>
+</p>
+<p>
+<s>4 ) vedelk&uuml;tuse suurtarbija on k&auml;esoleva seaduse t&auml;henduses iga vedelk&uuml;tuse v&otilde;rgust tarbija .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1 ja 3 loetlemata tarbijad on v&auml;iketarbijad .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;rguga &uuml;hendatud suurtarbijal on &otilde;igus osta energiat v&otilde;i gaasi v&otilde;rgu tehniliste v&otilde;imaluste piires igalt Eesti Vabariigi territooriumil tegutsevalt energia- v&otilde;i v&otilde;rguettev&otilde;tjalt .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;iketarbijad ostavad energiat v&otilde;i v&otilde;rgugaasi neid teenindavalt v&otilde;rguettev&otilde;tjalt v&otilde;i k&auml;esoleva paragrahvi l&otilde;ikes 6 nimetatud energia tootjalt .</s><s>Kohaliku omavalitsuse volikogu ettepanekul v&otilde;ib v&otilde;rguettev&otilde;tja tegevuspiirkonnas moodustada mitu m&uuml;&uuml;gipiirkonda .</s><s>&Uuml;hes m&uuml;&uuml;gipiirkonnas kehtestatakse samasse tarbijagruppi kuuluvatele tarbijatele &uuml;htsed tariifid .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 5 ) Energia tootjal on &otilde;igus m&uuml;&uuml;a energiat v&otilde;rgu tehniliste v&otilde;imaluste piires igale Eesti Vabariigi territooriumil paiknevale suurtarbijale ning v&otilde;rguettev&otilde;tjale , kui viimane kasutab seda edasim&uuml;&uuml;giks oma v&otilde;rguga &uuml;hendatud suurtarbijatele .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 6 ) Kui energia tootja installeeritud energiaseadmete elektriline v&otilde;imsus energia tootja kohta ei &uuml;leta 10 MW ning kui elektrienergia tootmine toimub soojuse ja elektrienergia koostootmise protsessis v&otilde;i alternatiivselt k&auml;esoleva seaduse &sect; 28 <hi rend="sup">1</hi> t&auml;henduses , on tal &otilde;igus igale tarbijale selle tarbijaga s&otilde;lmitud lepingu alusel m&uuml;&uuml;a elektrienergiat vahetult v&otilde;i v&otilde;rgu tehniliste v&otilde;imaluste piires v&otilde;rgu kaudu .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 7 ) Energiaettev&otilde;tjad ja suurtarbijad on kohustatud tagama , et nende energiatoodang ja -hanked v&otilde;rduksid nende energiam&uuml;&uuml;gi ja -tarbimisega igal ajahetkel .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Turgu valitsev k&uuml;tuse- v&otilde;i energiaettev&otilde;tja</s>
+</p>
+<p>
+<s>( 1 ) Turgu valitseva k&uuml;tuse- v&otilde;i energiaettev&otilde;tja m&auml;&auml;ratlus vastab konkurentsiseaduse ( RT I 1998 , 30 , 410 ) paragrahv 13 l&otilde;ikes 1 toodud kaubaturgu valitseva ettev&otilde;tja m&auml;&auml;ratlusele .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Turgu valitsevas seisundis olev energia tootja v&otilde;ib samaaegselt olla v&otilde;rguettev&otilde;tja ja m&uuml;&uuml;a omatoodetud energiat tema valduses oleva v&otilde;rgu kaudu ainult siis , kui puuduvad teised energia tootjad , kes sooviksid m&uuml;&uuml;a energiat sama v&otilde;rgu kaudu , v&otilde;i puuduvad suurtarbijad , kes sooviksid osta energiat sama v&otilde;rgu kaudu m&otilde;nelt teiselt energia tootjalt .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 ; 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) Turgu valitsev k&uuml;tuse- v&otilde;i energiaettev&otilde;tja peab m&uuml;&uuml;ma k&uuml;tust , energiat ja nendega seotud teenuseid Energiaturu Inspektsiooniga koosk&otilde;lastatud hinna ja tariifi alusel .</s><s>Energiaturu Inspektsiooniga koosk&otilde;lastatud hinnad ja tariifid koos nendele lisanduvate maksudega avalikustatakse v&auml;hemalt kuus kuud enne nende kehtima hakkamist , ka v&auml;hemalt &uuml;hes &uuml;leriigilise levikuga p&auml;evalehes .</s><s>Kuuekuulist avalikustamise n&otilde;uet ei kohaldata hindade ja tariifide alandamise korral .</s><s>Hindade ja tariifide koosk&otilde;lastamise ja avalikustamise n&otilde;uet ei kohaldata energia ja gaasi m&uuml;&uuml;gil suurtarbijatele , v&auml;lja arvatud juhul , kui energiat m&uuml;&uuml;akse lepingu alusel , mille kestus on &uuml;le viie aasta .</s>
+</p>
+<p>
+<s>( 21.02.2002 j&otilde;ust.12.03.2002 - RT I 2002 , 25 , 145 )</s>
+</p>
+<p>
+<s>( 3 ) Turgu valitsev k&uuml;tuse- v&otilde;i energiaettev&otilde;tja peab Energiaturu Inspektsiooni n&otilde;udel p&otilde;hjendama rakendatavate hindade ja tariifide moodustumise p&otilde;him&otilde;tteid .</s>
+</p>
+<p>
+<s>( 4 ) Kauba v&otilde;i teenuse p&otilde;hjendatud hindade ja tariifide ning muude m&uuml;&uuml;gitingimuste all m&otilde;eldakse m&uuml;&uuml;gitingimusi , mis vastavad ressursside ratsionaalsele kasutamisele , ei sisalda tegevusalade ristsubsideerimist , tagavad energiaettev&otilde;tte vajaliku arengu ja m&otilde;istliku kasumi ning tarbija seaduslikud &otilde;igused k&uuml;tust ja energiat tarbida .</s>
+</p>
+<p>
+<s>( 5 ) Turgu valitseva k&uuml;tuse- v&otilde;i energiaettev&otilde;tja kauba hinnad ja teenuste tariifid tuleb kujundada selliselt , et oleks tagatud :</s>
+</p>
+<p>
+<s>1 ) tegevuseks vajalike tootmiskulude katmine ;</s>
+</p>
+<p>
+<s>2 ) investeeringud tegevus- ja arenduskohustuse t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>3 ) keskkonnakaitsetingimuste t&auml;itmine ;</s>
+</p>
+<p>
+<s>4 ) kvaliteedi- ja ohutusn&otilde;uete t&auml;itmine ;</s>
+</p>
+<p>
+<s>5 ) p&otilde;hjendatud tulukus .</s>
+</p>
+<p>
+<s>( 6 ) Turgu valitsev k&uuml;tuse- ja energiaettev&otilde;tja peab oma raamatupidamises eristama k&uuml;tuse v&otilde;i energia tootmise , edastamise , jaotamise , m&uuml;&uuml;mise ning nendega seotud teenuste osutamise .</s>
+</p>
+<p>
+<s>( 7 ) Turgu valitsev k&uuml;tuse- v&otilde;i energiaettev&otilde;tja peab Energiaturu Inspektsiooni n&otilde;udel lubama oma raamatupidamise kontrollimist ning andma finantsmajandusliku tegevuse kohta vajalikke selgitusi .</s>
+</p>
+<p>
+<s>( 8 ) Turgu valitsev k&uuml;tuse- v&otilde;i energiaettev&otilde;tja esitab igal aastal Energiaturu Inspektsioonile oma majandusaasta auditeeritud aruande kuue kuu jooksul p&auml;rast majandusaasta l&otilde;ppu .</s>
+</p>
+<p>
+<s>( 9 ) Kaubad ja teenused , mille osas ettev&otilde;tja on turgu valitsev , s&auml;testatakse ettev&otilde;tja turuloas .</s>
+</p>
+<p>
+<s>( 10 ) M&uuml;&uuml;jast s&otilde;ltumatute hinnategurite muutumisel v&otilde;ib turgu valitsev k&uuml;tuse- v&otilde;i energiaettev&otilde;tja korrigeerida kaupade hindu ja teenuste tariife Energiaturu Inspektsiooniga koosk&otilde;lastatud valemi alusel .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Elektriv&otilde;rgud</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Elektris&uuml;steem</s>
+</p>
+<p>
+<s>( 1 ) Elektris&uuml;steem on elektri tootmise , edastamise ja jaotamise tehniline s&uuml;steem , mille moodustavad riigi territooriumil asuvad elektrijaamad , neid &uuml;ksteisega , tarbijatega ning teiste riikide elektris&uuml;steemidega &uuml;hendav elektriv&otilde;rk koos vastavate juhtimis- , kaitse- ja sides&uuml;steemidega .</s><s>Elektris&uuml;steemi elektriv&otilde;rk koosneb p&otilde;hiv&otilde;rgust ja jaotusv&otilde;rkudest .</s>
+</p>
+<p>
+<s>( 2 ) Elektris&uuml;steem peab pidevalt toimima &uuml;htse s&uuml;steemina , vastama t&ouml;&ouml;kindluse ja optimaalsuse n&otilde;uetele ning tagama tarbijate katkematu varustamise kvaliteedin&otilde;uetele vastava elektrienergiaga .</s>
+</p>
+<p>
+<s>( 3 ) Elektris&uuml;steemi tehnilist talitlust juhib elektris&uuml;steemi p&otilde;hiv&otilde;rguettev&otilde;tte koosseisus olev juhtimiskeskus .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Elektris&uuml;steemi juhtimiskeskus</s>
+</p>
+<p>
+<s>( 1 ) Elektris&uuml;steemi juhtimiskeskus tegutseb k&auml;esolevast seadusest ja teistest &otilde;igusaktidest tulenevate volituste alusel .</s>
+</p>
+<p>
+<s>( 2 ) Elektris&uuml;steemi juhtimiskeskuse poolt k&auml;esolevas seaduses etten&auml;htud volituste piirides antud korraldused on kohustuslikud k&otilde;igile Eesti elektris&uuml;steemi &uuml;hendatud energiaettev&otilde;tjatele .</s>
+</p>
+<p>
+<s>( 3 ) Elektris&uuml;steemi juhtimiskeskuse korralduste t&auml;itmisest tulenevate energiaettev&otilde;tjale tekkivate tulude ja kulude arvestuse ja jaotamise p&otilde;him&otilde;tted kinnitatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 4 ) Elektris&uuml;steemi juhtimiskeskus :</s>
+</p>
+<p>
+<s>1 ) juhib ja seirab riigi elektris&uuml;steemi &uuml;hendatud elektrijaamade , p&otilde;hiv&otilde;rgu ning jaotusv&otilde;rkude &uuml;hist paralleelt&ouml;&ouml;d , korraldab ja j&auml;lgib l&uuml;limisi ning elektris&uuml;steemis tekkinud h&auml;irete ja avariide k&otilde;rvaldamist p&otilde;hiv&otilde;rgus ;</s>
+</p>
+<p>
+<s>2 ) koordineerib tehnilist koost&ouml;&ouml;d riigi elektris&uuml;steemiga eritingimustel liitunud tarbijate ja teiste riikide elektris&uuml;steemidega ;</s>
+</p>
+<p>
+<s>3 ) koordineerib elektris&uuml;steemi kaitse- ja automaatikas&uuml;steemide t&ouml;&ouml;d elektrijaamades , -v&otilde;rkudes , p&otilde;hiv&otilde;rgust toidetavate tarbijate juures ning koosk&otilde;lastab kaitse- ja automaatikas&uuml;steemid teiste riikide elektris&uuml;steemidega ;</s>
+</p>
+<p>
+<s>4 ) annab korraldusi energiabilansi hoidmisel erakorralistes olukordades tarbimise piiramiseks vastavalt majandusministri m&auml;&auml;rusega igal aastal kinnitatavale graafikule .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 5 ) Elektris&uuml;steemi juhtimiskeskusel on &otilde;igus saada energiaettev&otilde;tjatelt , p&otilde;hiv&otilde;rguga &uuml;hendatud suurtarbijatelt ning kohalikult omavalitsuselt andmeid , mis on vajalikud k&auml;esolevas seaduses ja sellest tulenevates &otilde;igusaktides etten&auml;htud &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 6 ) Elektris&uuml;steemi juhtimiskeskusel on &otilde;igus v&otilde;tta ettev&otilde;tjalt , kelle elektriseadmed ( elektrijaamad , -v&otilde;rgud v&otilde;i nende osad ) kuuluvad elektris&uuml;steemi , oma &uuml;lesannete t&auml;itmiseks Energiaturu Inspektsiooniga koosk&otilde;lastatud ja lepingus fikseeritud tingimustel teenustasu .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>P&otilde;hiv&otilde;rk</s>
+</p>
+<p>
+<s>( 1 ) P&otilde;hiv&otilde;rk on k&otilde;rgepingev&otilde;rk pingega 110 kV ja &uuml;le .</s><s>P&otilde;hiv&otilde;rguettev&otilde;tja , kellele kuulub p&otilde;hiv&otilde;rk , &uuml;lesandeks on &uuml;hendada suuremaid elektri- ja alajaamu &uuml;htseks elektris&uuml;steemiks , mis v&otilde;ib olla &uuml;hendatud teiste riikide p&otilde;hiv&otilde;rkudega , ning edastada elektrienergiat p&otilde;hiv&otilde;rguga &uuml;hendatud jaotusv&otilde;rkudele ja tarbijatele .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tjad , kelle elektriseadmed on &uuml;hendatud p&otilde;hiv&otilde;rguga , s&otilde;lmivad p&otilde;hiv&otilde;rguettev&otilde;tjaga lepingu .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Jaotusv&otilde;rk</s>
+</p>
+<p>
+<s>( 1 ) Jaotusv&otilde;rk on madal- v&otilde;i keskpingev&otilde;rk pingega 110 kV ja alla .</s><s>Jaotusv&otilde;rguettev&otilde;tja , kellele kuulub madal- v&otilde;i keskpingev&otilde;rk , &uuml;lesandeks on tarbijatele elektrienergia jaotamine , m&uuml;&uuml;mine ning elektrienergia jaotamisega seotud teenuste osutamine .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) Isikud , kelle elektriseadmed on &uuml;hendatud jaotusv&otilde;rguga , s&otilde;lmivad jaotusv&otilde;rguettev&otilde;tjaga lepingu , milles m&auml;&auml;ratakse poolte &otilde;igused ja kohustused , elektrienergiahinna ja osutatavate teenuste tariifide m&auml;&auml;ramise p&otilde;him&otilde;tted ning teenuste eest tasumise kord .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>J&auml;relevalveasutused</s>
+</p>
+<p>
+<s>K&uuml;tuse- ja energiamajanduse riiklikku j&auml;relevalvet teostavad :</s>
+</p>
+<p>
+<s>1 ) Tehnilise J&auml;relevalve Inspektsioon ;</s>
+</p>
+<p>
+<s>2 ) Energiaturu Inspektsioon ;</s>
+</p>
+<p>
+<s>3 ) k&uuml;tuse impordil Tolliamet ;</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>4 ) vedelk&uuml;tuse m&uuml;&uuml;gil Tarbijakaitseamet .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Tehnilise J&auml;relevalve Inspektsioon</s>
+</p>
+<p>
+<s>( 1 ) Tehnilise J&auml;relevalve Inspektsioon on Majandusministeeriumi valitsemisalas olev valitsusasutus , kelle p&auml;devusse energeetika valdkonnas kuulub :</s>
+</p>
+<p>
+<s>1 ) k&uuml;tuse- ja energiaseadmete ning k&uuml;tuse- ja energiaehitiste tehniline ja ohutusalane j&auml;relevalve ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 ) ;</s>
+</p>
+<p>
+<s>3 ) ( Kehtetu - 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 ) ;</s>
+</p>
+<p>
+<s>4 ) tehniliste normide ja standardite v&auml;ljat&ouml;&ouml;tamine ;</s>
+</p>
+<p>
+<s>5 ) tehnilist kontrolli vajavate seadmete andmepanga pidamine ;</s>
+</p>
+<p>
+<s>6 ) ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) Tehnilise J&auml;relevalve Inspektsioonil on k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud &uuml;lesannete t&auml;itmiseks &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) saada energia- ja k&uuml;tuseettev&otilde;tjatelt ning energia- ja k&uuml;tuseseadmete projekteerijatelt , valmistajatelt , paigaldajatelt , ehitajatelt , hooldajatelt , remontijatelt ja tarnijatelt andmeid , mis on vajalikud k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud &uuml;lesannete t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>2 ) teha oma p&auml;devuse piires kohustuslikke ettekirjutusi k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide s&auml;tete rikkumise l&otilde;petamiseks ja rikkumisega tekitatud tagaj&auml;rgede k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>3 ) keelata &otilde;igusaktides s&auml;testatud ohutusn&otilde;uetele mittevastavate energia- ja k&uuml;tuseseadmete paigaldamine ja tarnimine ning ohtlike seadmete kasutamine ;</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>4 ) m&auml;&auml;rata k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides etten&auml;htud karistusi ;</s>
+</p>
+<p>
+<s>5 ) esindada Eesti Vabariiki &otilde;igusaktidega etten&auml;htud korras rahvusvahelistes organisatsioonides ning teha koost&ouml;&ouml;d v&auml;lisriikide tehnilise j&auml;relevalve asutustega .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Energiaturu Inspektsioon</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse alusel moodustatav Energiaturu Inspektsioon on Majandusministeeriumi valitsemisalas olev valitsusasutus , kelle p&auml;devusse kuulub :</s>
+</p>
+<p>
+<s>1 ) k&uuml;tuse- ja energiaturu j&auml;relevalve ;</s>
+</p>
+<p>
+<s>2 ) k&uuml;tuse- ja energiaettev&otilde;tjatele turulubade v&auml;ljastamine , j&auml;relevalve loa tingimuste j&auml;rgimise &uuml;le ja loa kehtetuks tunnistamine ;</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>3 ) turgu valitsevate k&uuml;tuse- ja energiaettev&otilde;tjate majandustulemuste kontrollimine ;</s>
+</p>
+<p>
+<s>4 ) konkurentsi tekitamisele kaasaaitamine ;</s>
+</p>
+<p>
+<s>5 ) turgu valitseva ettev&otilde;tja poolt m&uuml;&uuml;dava k&uuml;tuse , energia ja nendega seotud teenuste hindade kontrollimine ja koosk&otilde;lastamine ;</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>6 ) liitumistasude ja liitumislepingu tingimuste kontrollimine ;</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>7 ) k&uuml;tuse- ja energiaettev&otilde;tjate tegutsemis- ja arenduskohustuse kontrollimine ;</s>
+</p>
+<p>
+<s>8 ) m&uuml;&uuml;dava k&uuml;tuse ja energia kvaliteedi kontrollimine ;</s>
+</p>
+<p>
+<s>9 ) koost&ouml;&ouml; tegemine tarbijakaitse&uuml;hingutega ja neile tarbijakaitseseadusega ( RT I 1994 , 2 , 13 ; RT I 1999 , 35 , 450 ; 102 , 907 ; 2000 , 40 , 252 ; 59 , 379 ; 2001 , 50 , 283 ja 289 ; 56 , 332 ; 2002 , 18 , 97 ) antud &otilde;iguste realiseerimise v&otilde;imaldamine energeetika vallas .</s>
+</p>
+<p>
+<s>( 2 ) Oma &uuml;lesannete t&auml;itmiseks on Energiaturu Inspektsioonil &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) saada k&uuml;tuse- ja energiaettev&otilde;tjatelt andmeid , mis on vajalikud k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud &uuml;lesannete t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>2 ) korraldada energiaettev&otilde;tjate omavahelist koost&ouml;&ouml;d energia- ja keskkonnas&auml;&auml;stlikuks tegevuseks ;</s>
+</p>
+<p>
+<s>3 ) m&auml;&auml;rata kindlaks turgu valitsevate k&uuml;tuse- ja energiaettev&otilde;tjate poolt rakendatav hinnakujundamine k&auml;esoleva seaduse paragrahv 42 l&otilde;ikes 1 s&auml;testatud juhul ;</s>
+</p>
+<p>
+<s>4 ) koosk&otilde;lastada turgu valitseva ettev&otilde;tja poolt m&uuml;&uuml;dava k&uuml;tuse ja energia hindu ning teenuste tariife vastavalt k&auml;esoleva seaduse &sect; 19 l&otilde;ikele 2 ning edastamistariife vastavalt k&auml;esoleva seaduse &sect; 15 l&otilde;ikele 7 ja kinnitada elektrienergia hinnad vastavalt k&auml;esoleva seaduse &sect; 28 <hi rend="sup">1</hi> l&otilde;ikele 2 ;</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>4 <hi rend="sup">1</hi> ) teha oma p&auml;devuse piires kohustuslikke ettekirjutusi ;</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>5 ) kehtestada k&uuml;tuse v&otilde;i energia ajutine edastamis- v&otilde;i jaotamistasu mitte kauemaks kui kaheks kuuks olukorras , kus edastamis- v&otilde;i jaotamistasud ei ole p&otilde;hjendatud ning k&uuml;tuse- v&otilde;i energiaettev&otilde;tja ei j&auml;rgi Energiaturu Inspektsiooni poolt tehtud ettekirjutust ;</s>
+</p>
+<p>
+<s>6 ) esindada Eestit &otilde;igusaktidega etten&auml;htud korras rahvusvahelistes organisatsioonides ning teha koost&ouml;&ouml;d v&auml;lisriikide energiaturuasutustega ;</s>
+</p>
+<p>
+<s>7 ) kohaldada k&auml;esolevas seaduses ja haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ; 97 , 605 ; 102 , 677 ; 2002 , 18 , 98 ; 21 , 117 ) etten&auml;htud karistust .</s>
+</p>
+<p>
+<s>&sect; 26 <hi rend="sup">1</hi> .</s><s>Tolliamet</s>
+</p>
+<p>
+<s>K&auml;esolevast seadusest l&auml;htuvalt kuulub Tolliameti p&auml;devusse :</s>
+</p>
+<p>
+<s>1 ) k&uuml;tuse impordil turuloa kontrollimine ;</s>
+</p>
+<p>
+<s>2 ) vedelk&uuml;tuse impordil turuloa ja vedelk&uuml;tuse vastavussertifikaadi kontrollimine ning vedelk&uuml;tuse vastavuse kontrollimine kehtestatud kvaliteedin&otilde;uetele .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 26 <hi rend="sup">2</hi> .</s><s>Tarbijakaitseamet</s>
+</p>
+<p>
+<s>K&auml;esolevast seadusest l&auml;htuvalt kuulub Tarbijakaitseameti p&auml;devusse vedelk&uuml;tuse m&uuml;&uuml;gil :</s>
+</p>
+<p>
+<s>1 ) turuloa kontrollimine ;</s>
+</p>
+<p>
+<s>2 ) vedelk&uuml;tuse vastavussertifikaadi kontrollimine ;</s>
+</p>
+<p>
+<s>3 ) vedelk&uuml;tuse vastavuse kontrollimine kehtestatud kvaliteedin&otilde;uetele .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Erinormid</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Riigi osalus k&uuml;tuse- ja energiamajanduses</s>
+</p>
+<p>
+<s>Riigile strateegiliselt t&auml;htsate &auml;ri&uuml;hingute nimekirja kantud elektrijaamade baasil asutatud &auml;ri&uuml;hingutes s&auml;ilitatakse riigi osalus aktsiakapitalis v&auml;hemalt 51% .</s>
+</p>
+<p>
+<s>&sect; 28. ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 28 <hi rend="sup">1</hi> .</s><s>Alternatiivselt toodetud elektrienergia ostukohustus</s>
+</p>
+<p>
+<s>( 1 ) Turgu valitseval energiaettev&otilde;tjal on kohustus osta elektrienergiat tema v&otilde;rguga &uuml;hendatud ettev&otilde;tjalt , kes toodab seda vee- , tuule- v&otilde;i p&auml;ikeseenergiast , biok&uuml;tusest v&otilde;i p&otilde;levkivi utmisel tekkivast j&auml;&auml;kgaasist .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 alusel kohustatud energiaettev&otilde;tja ostab alternatiivselt toodetud elektrienergia hinnaga , mis moodustab 90 protsenti kodutarbija p&otilde;hitariifist , juhul kui Eesti Vabariigis alternatiivselt toodetud elektrienergia m&uuml;&uuml;gimaht ei &uuml;leta 2 protsenti eelmisel aastal Eesti Vabariigis kasulikult tarbitud elektrienergia kogusest .</s><s>Kui alternatiivselt toodetud elektrienergia m&uuml;&uuml;gimaht &uuml;letab 2 protsenti eelmisel aastal Eesti Vabariigis kasulikult tarbitud elektrienergia kogusest , kinnitab Energiaturu Inspektsioon v&otilde;rguettev&otilde;tjale konkreetse ostuhinna vahemikus 60-90 protsenti kodutarbija p&otilde;hitariifist .</s>
+</p>
+<p>
+<s>( 3 ) Alternatiivselt toodetud elektrienergia ostukohustust ei rakendata , kui :</s>
+</p>
+<p>
+<s>1 ) alternatiivse elektrienergia tootja m&uuml;&uuml;b elektrienergiat k&auml;esoleva seaduse paragrahv 18 l&otilde;ike 6 alusel ;</s>
+</p>
+<p>
+<s>2 ) alternatiivselt toodetud elektrienergia tehnilised parameetrid ei v&otilde;imalda elektris&uuml;steemi toimimist vastavalt k&auml;esoleva seaduse &sect; 20 l&otilde;ikes 2 s&auml;testatule .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vastutus</s>
+</p>
+<p>
+<s>&sect; 29. ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Tekitatud kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>( 1 ) K&uuml;tuse- v&otilde;i energiaseadme , sisepaigaldise v&otilde;i k&uuml;tuse- ja energiaehitise tahtliku purustamise v&otilde;i rikkumisega v&otilde;i k&uuml;tuse v&otilde;i energia omavolilise tarbimisega v&otilde;i vastavate m&otilde;&otilde;teriistade n&auml;itude moonutamisega v&otilde;i t&ouml;&ouml;kaitse-eeskirjade rikkumisega tekitatud kahju h&uuml;vitab kahju tekitanud isik .</s>
+</p>
+<p>
+<s>( 2 ) Energia v&otilde;i v&otilde;rgugaasi omavoliliseks tarbimiseks on :</s>
+</p>
+<p>
+<s>1 ) tarbimine tegelikult tarbitud kogust varjates v&otilde;i v&auml;hendades arvestusseadmete rikkumise , n&auml;idu moonutamise v&otilde;i arvestusseadmete plommi rikkumise teel ;</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>2 ) m&otilde;&otilde;tmata &uuml;henduselt tarbimine ;</s>
+</p>
+<p>
+<s>3 ) energia v&otilde;i v&otilde;rgugaasi tarbimine ilma vastava lepinguta ;</s>
+</p>
+<p>
+<s>4 ) ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 3 ) Kahju suuruse m&auml;&auml;ramisel arvestatakse lisaks varalisele kahjule ( kulutused seadmete ja ehitiste ennistamiseks ) k&uuml;tuse v&otilde;i energia tootmata v&otilde;i tarbimata j&auml;&auml;misest tingitud kahju .</s>
+</p>
+<p>
+<s>( 4 ) Kahju suuruse m&auml;&auml;ramisega kaasnevad kulud kannab kahju tekitaja .</s>
+</p>
+<p>
+<s>( 5 ) Omavoliliselt tarbitud k&uuml;tuse- ja energiakoguse ning maksumuse m&auml;&auml;ramise juhend kinnitatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>( 1 ) Turuloata k&uuml;tuse- ja energiamajandusalase &auml;ritegevuse eest , kui turuluba on n&otilde;utav , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 9 <hi rend="sup">2</hi> l&otilde;ikes 4 nimetatud juhul , - m&auml;&auml;ratakse rahatrahv kuni 500 000 krooni iga loata tegevusala eest .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;rguettev&otilde;tja poolt v&otilde;rgu tegevuspiirkonnas asuvate k&auml;esoleva seaduse ja teiste &otilde;igusaktidega kehtestatud n&otilde;uetele vastava energia , vedelk&uuml;tuse v&otilde;i v&otilde;rgugaasi tarbijate , tootjate v&otilde;i energia- , vedelk&uuml;tuse- v&otilde;i gaasiv&otilde;rkude &uuml;hendamise kohustuse rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 200 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Tehnilistele ja ohutusn&otilde;uetele mittevastava k&uuml;tuse- v&otilde;i energiaseadme paigaldamise , importimise , kasutamise , m&uuml;&uuml;gi v&otilde;i muul viisil v&otilde;&otilde;randamise eest kasutamiseks k&uuml;tuse- v&otilde;i energiaseadmena - m&auml;&auml;ratakse rahatrahv kuni 100 000 krooni .</s>
+</p>
+<p>
+<s>( 4 ) K&uuml;tuseettev&otilde;tja poolt tarnitava , ladustatava v&otilde;i m&uuml;&uuml;dava vedelk&uuml;tuse kvaliteedin&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 500 000 krooni .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 5 ) Omavolilise tarbija &uuml;hendamise eest gaasi- , vedelk&uuml;tuse- v&otilde;i energiav&otilde;rku v&otilde;i v&otilde;rgugaasi , vedelk&uuml;tuse v&otilde;i energia omavolilise tarbimise eest - m&auml;&auml;ratakse rahatrahv kuni 20 000 krooni .</s>
+</p>
+<p>
+<s>( 6 ) Tehnilise J&auml;relevalve Inspektsiooni v&otilde;i Energiaturu Inspektsiooni ametniku ettekirjutuse m&auml;&auml;ratud t&auml;htajaks t&auml;itmata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni 200 000 krooni .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva paragrahvi l&otilde;igetes 1-6 nimetatud &otilde;iguserikkumise asjades on arutamise ja karistuse m&auml;&auml;ramise &otilde;igus vastavalt p&auml;devusele Tehnilise J&auml;relevalve Inspektsiooni peadirektoril , Energiaturu Inspektsiooni peadirektoril , Tolliameti peadirektoril ning Tarbijakaitseameti peadirektoril v&otilde;i tema poolt selleks volitatud tarbijakaitseametnikul ja kohtunikul .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 8 ) Tehnilise J&auml;relevalve Inspektsiooni peadirektoril , Energiaturu Inspektsiooni peadirektoril ja Tolliameti peadirektoril on &otilde;igus k&auml;esoleva paragrahvi l&otilde;igetes 1-6 nimetatud &otilde;iguserikkumise asjades m&auml;&auml;rata rahatrahv kuni 100 000 krooni ning Tarbijakaitseameti peadirektoril v&otilde;i tema poolt selleks volitatud tarbijakaitseametnikul - kuni 10 000 krooni .</s><s>Suuremat rahatrahvi v&otilde;ib kohaldada ainult kohtunik .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 9 ) Kui f&uuml;&uuml;siline isik , tegutsedes juriidilise isiku nimel v&otilde;i huvides , rikkus k&auml;esolevas seaduses kehtestatud n&otilde;udeid , v&otilde;ib selle rikkumise asjas kohaldada karistust f&uuml;&uuml;silisele isikule ja juriidilisele isikule samaaegselt selleks etten&auml;htud sanktsiooni piires .</s>
+</p>
+<p>
+<s>( 10 ) Juriidilise isiku &otilde;iguserikkumise asja menetlus toimub k&auml;esolevas seaduses ja haldus&otilde;iguserikkumiste seadustikus etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Haldus&otilde;iguserikkumise protokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 31 s&auml;testatud haldus&otilde;iguserikkumise kohta v&otilde;ib protokolli koostada k&auml;esoleva seaduse &sect;-s 24 nimetatud j&auml;relevalveasutuse ametnik .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) Haldus&otilde;iguserikkumise protokollis s&auml;testatakse :</s>
+</p>
+<p>
+<s>1 ) protokolli koostamise aeg ja koht ning selle j&auml;relevalveasutuse nimetus ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>2 ) protokolli koostanud ametniku ametinimetus ning ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>3 ) haldus&otilde;iguserikkujaks olnud juriidilise isiku nimetus ja aadress ning tema p&auml;deva esindaja ametikoht , ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkumise koht , aeg , kirjeldus ning rikkumisega p&otilde;hjustatud materiaalse kahju ulatus ;</s>
+</p>
+<p>
+<s>5 ) viide k&auml;esoleva seaduse paragrahv 31 l&otilde;ikele , mis n&auml;eb ette vastutuse selle &otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>6 ) haldus&otilde;iguserikkumist t&otilde;endavad materjalid , nagu tunnistajate seletused , ekspertiisid , anal&uuml;&uuml;sid v&otilde;i teised asja lahendamiseks vajalikud materjalid ;</s>
+</p>
+<p>
+<s>7 ) haldus&otilde;iguserikkuja esindaja seletus ja m&auml;rge , et haldus&otilde;iguserikkuja esindajale on tutvustatud tema &otilde;igust kasutada &otilde;igusabi .</s>
+</p>
+<p>
+<s>( 3 ) Protokollile kirjutavad alla selle koostanud ametnik ja &otilde;iguserikkuja esindaja .</s><s>Kui &otilde;iguserikkuja esindaja keeldub protokollile alla kirjutamast , teeb protokolli koostaja sellesse kande protokollile allakirjutamisest keeldumise kohta .</s><s>Protokollile lisatakse &otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli kohta .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>J&auml;relevalveasutuse ettekirjutuse v&otilde;i muu toimingu vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tjal on &otilde;igus Tehnilise J&auml;relevalve Inspektsiooni v&otilde;i Energiaturu Inspektsiooni ametniku ettekirjutuse v&otilde;i toiminguga mitten&otilde;ustumisel esitada kaebus vastava inspektsiooni peadirektorile 10 kalendrip&auml;eva jooksul , arvates ettekirjutuse teatavaks tegemisest .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine ei v&otilde;ta ettev&otilde;tjalt kohustust t&auml;ita Tehnilise J&auml;relevalve Inspektsiooni v&otilde;i Energiaturu Inspektsiooni ametniku ettekirjutust .</s>
+</p>
+<p>
+<s>( 3 ) Tehnilise J&auml;relevalve Inspektsiooni v&otilde;i Energiaturu Inspektsiooni peadirektor vaatab kaebuse l&auml;bi &uuml;he kuu jooksul , arvates kaebuse saamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 4 ) Kaebuse l&auml;bivaatamisel teeb Tehnilise J&auml;relevalve Inspektsiooni v&otilde;i Energiaturu Inspektsiooni peadirektor &uuml;he j&auml;rgmistest otsustest :</s>
+</p>
+<p>
+<s>1 ) j&auml;tta ettekirjutus v&otilde;i muu toiming j&otilde;usse ;</s>
+</p>
+<p>
+<s>2 ) muuta v&otilde;i t&uuml;histada ettekirjutus v&otilde;i muu toiming .</s>
+</p>
+<p>
+<s>( 5 ) Otsus tehakse kaebuse esitajale teatavaks ning antakse k&auml;tte allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s><s>Otsusega mitten&otilde;ustumisel v&otilde;ib selle vaidlustada halduskohtus .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Kohtusse kaebamine</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tjal on &otilde;igus Tehnilise J&auml;relevalve Inspektsiooni v&otilde;i Energiaturu Inspektsiooni ametniku ettekirjutuse v&otilde;i muu toiminguga mitten&otilde;ustumisel esitada kaebus halduskohtusse , s&otilde;ltumata k&auml;esoleva seaduse paragrahvis 33 nimetatud kaebuse varasemast esitamisest .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine kohtusse ei v&otilde;ta ettev&otilde;tjalt kohustust t&auml;ita Tehnilise J&auml;relevalve Inspektsiooni v&otilde;i Energiaturu Inspektsiooni ametniku ettekirjutust seni , kuni kohus tunnistab selle kas osaliselt v&otilde;i t&auml;ielikult seadusevastaseks .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Muudatused teistes &otilde;igusaktides</s>
+</p>
+<p>
+<s>[ &sect;&sect; 35-42 v&auml;lja j&auml;etud ] <hi rend="sup">1</hi></s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Seaduse rakendamine ja j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Kuni 1999. aasta 31. detsembrini on Energiaturu Inspektsioonil Vabariigi Valitsuse volitusel &otilde;igus kinnitada turgu valitseva elektrienergiaettev&otilde;tja poolt rakendatavad hinnad .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) K&auml;esoleva seaduse &sect;-s 5 <hi rend="sup">1</hi> nimetatud vedelk&uuml;tuse vastavussertifikaadi v&auml;ljastamise &otilde;igus on 2001. aasta 1. oktoobrini j&auml;rgmistel asutustel :</s>
+</p>
+<p>
+<s>1 ) tunnustatud katselaboritel , kellel on Standardiameti poolt v&auml;ljaantud kehtiv tunnustamist t&otilde;endav tunnistus antud valdkonnas ;</s>
+</p>
+<p>
+<s>2 ) katselaboritel , kellel on Eesti Akrediteerimiskeskuse poolt v&auml;ljaantud kehtiv erialast kompetentsust kinnitav tunnistus v&otilde;i akrediteerimistunnistus antud valdkonnas ;</s>
+</p>
+<p>
+<s>3 ) sertifitseerimisasutustel , kellel on Standardiameti poolt v&auml;ljaantud kehtiv tunnustamist t&otilde;endav tunnistus v&otilde;i Eesti Akrediteerimiskeskuse poolt v&auml;ljaantud kehtiv erialast kompetentsust kinnitav tunnistus v&otilde;i akrediteerimistunnistus antud valdkonnas .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Energiaettev&otilde;tjal tuleb oma tegevus viia vastavusse k&auml;esoleva seaduse paragrahv 19 l&otilde;ike 1 <hi rend="sup">1</hi> n&otilde;uetega 1999. aasta 1. juuliks .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 60 , 951 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">2</hi> ) Ettev&otilde;tjale , kellel on k&auml;esoleva seaduse alusel antud kehtiv turuluba vedelk&uuml;tuse m&uuml;&uuml;giks ja impordiks , kohaldatakse k&auml;esoleva seaduse &sect; 9 <hi rend="sup">1</hi> l&otilde;igetes 5 ja 6 s&auml;testatud n&otilde;udeid alates 2003. aasta 1. jaanuarist .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">3</hi> ) Ettev&otilde;tja , kellel on k&auml;esoleva seaduse alusel antud turuluba vedelk&uuml;tuse m&uuml;&uuml;giks ja impordiks , mille kehtivus l&otilde;peb enne 2003. aasta 1. jaanuari ja kes ei vasta k&auml;esoleva seaduse &sect; 9 <hi rend="sup">1</hi> l&otilde;igetes 5 ja 6 s&auml;testatud tingimustele , v&otilde;ib esitada loa kehtivuse l&otilde;ppemisel Energiaturu Inspektsioonile taotluse turuloa saamiseks kehtivusega kuni 2003. aasta 1. jaanuarini .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse paragrahv 13 l&otilde;ikes 1 nimetatud arengukava esitab Vabariigi Valitsus kinnitamiseks Riigikogule 1997. aasta 1. novembriks .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolev seadus j&otilde;ustub 1998. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> V&auml;ljaj&auml;etud paragrahvidega muudetakse varasemaid &otilde;igusakte .</s>
+</p>
+</body>
+   </text>
+</tei.2>

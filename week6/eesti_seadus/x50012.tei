@@ -1,0 +1,1579 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Liiklusseadus ( juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    8960</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Liiklusseadus ( juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=cell occurs=36></tagusage>
+         <tagusage gi=hi occurs=4></tagusage>
+         <tagusage gi=lb occurs=35></tagusage>
+         <tagusage gi=p occurs=489></tagusage>
+         <tagusage gi=row occurs=19></tagusage>
+         <tagusage gi=s occurs=627></tagusage>
+         <tagusage gi=table occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Liiklusseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 14. detsembril 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 3 , 6 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. veebruaril 2001. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab liikluse korraldamise Eesti teedel ning liiklusohutuse tagamise alused ja p&otilde;hin&otilde;uded .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Liiklejate turvalisuse tagamine</s>
+</p>
+<p>
+<s>( 1 ) K&otilde;ik liiklejad ja muud isikud peavad j&auml;rgima liiklusalaste &otilde;igusaktide n&otilde;udeid , olema liikluses hoolikad ja ettevaatlikud ning tagama liikluse sujuvuse , et v&auml;ltida ohtu ja kahju tekitamist .</s>
+</p>
+<p>
+<s>( 2 ) Riikliku liiklusohutuse poliitika t&ouml;&ouml;tab v&auml;lja Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Liiklejate turvalisuse ja liiklusohutuse tagamist korraldab Teede- ja Sideministeerium .</s><s>Liiklusj&auml;relevalvet s&otilde;idukite ja jalak&auml;ijate liikluse &uuml;le korraldab Siseministeerium .</s>
+</p>
+<p>
+<s>( 4 ) Kohalik omavalitsus korraldab liiklust ja tagab liiklusohutuse oma haldusterritooriumil .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Liikluskorra m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Eestis kehtib s&otilde;idukite parempoolne liiklus .</s>
+</p>
+<p>
+<s>( 2 ) Liikluskorra m&auml;&auml;rab Vabariigi Valitsus liikluseeskirjaga .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Tee</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses k&auml;sitletakse tee m&otilde;istet , n&otilde;udeid teele , teehoidu , tee kasutamist , teeomaniku kohustusi ja vastutust vastavalt teeseaduses ( RT I 1999 , 26 , 377 ; 93 , 831 ) s&auml;testatule .</s>
+</p>
+<p>
+<s>( 2 ) Teega k&uuml;lgnev ala on tee&auml;&auml;rne piirkond , kus asuv rajatis on juhile teelt n&auml;ha ja kuhu v&otilde;ib viia juurdes&otilde;idutee .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;idutee on s&otilde;idukite liikluseks etten&auml;htud teeosa .</s><s>Teel v&otilde;ib olla mitu eraldusribadega eraldatud s&otilde;iduteed .</s><s>Samal tasandil ristuvad s&otilde;iduteed , mis ei ole p&otilde;llu- v&otilde;i metsateed , moodustavad s&otilde;iduteede ristumisala .</s><s>S&otilde;idutee&auml;&auml;rt n&auml;itab vastav teekattem&auml;rgis ja kui seda ei ole , siis teepeenra , eraldusriba , haljasala v&otilde;i muu riba &auml;&auml;r v&otilde;i rentsli p&otilde;hi v&otilde;i s&otilde;idutee &auml;&auml;rekivi .</s><s>R&ouml;&ouml;basteta s&otilde;idukite s&otilde;idutee &auml;&auml;reks on s&otilde;iduteepoolne trammir&ouml;&ouml;bas , kui s&otilde;iduteega samal tasandil asuvad m&otilde;lemasuunalised trammiteed on s&otilde;idutee &uuml;hes servas .</s>
+</p>
+<p>
+<s>( 4 ) K&otilde;nnitee on jalak&auml;ija liiklemiseks etten&auml;htud teeosa v&otilde;i sama otstarbega omaette tee .</s><s>K&otilde;nnitee v&otilde;ib olla t&auml;histatud vastavate liiklusm&auml;rkide v&otilde;i teekattem&auml;rgistega .</s>
+</p>
+<p>
+<s>( 5 ) Jalgrattatee on jalgratta ja mopeediga liiklemiseks etten&auml;htud teeosa v&otilde;i sama otstarbega omaette tee .</s><s>Jalgrattatee t&auml;histatakse vastavate liiklusm&auml;rkide v&otilde;i teekattem&auml;rgistega .</s>
+</p>
+<p>
+<s>( 6 ) &Otilde;ueala on jalak&auml;ijate ja s&otilde;idukite &uuml;heskoos liiklemiseks etten&auml;htud tee , mis on t&auml;histatud vastavate liiklusm&auml;rkidega .</s>
+</p>
+<p>
+<s>( 7 ) &Uuml;hiss&otilde;idukirada on s&otilde;iduplaani kohaselt s&otilde;itvale bussile ja trollibussile , samuti s&otilde;itjaid vedavale taksole liiklemiseks etten&auml;htud s&otilde;idutee osa .</s><s>&Uuml;hiss&otilde;idukirada t&auml;histatakse vastavate liiklusm&auml;rkide v&otilde;i teekattem&auml;rgistega .</s>
+</p>
+<p>
+<s>( 8 ) Asula k&auml;esoleva seaduse t&auml;henduses on hoonestatud ala , mille sisse- ja v&auml;ljas&otilde;iduteed on t&auml;histatud asulas etten&auml;htud liikluskorda kehtestavate liiklusm&auml;rkidega .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Liiklusohutusprogrammid</s>
+</p>
+<p>
+<s>( 1 ) Riikliku liiklusohutuspoliitika elluviimist korraldatakse riiklike liiklusohutusprogrammide kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Kohaliku omavalitsuse tasandil korraldatakse liiklusohutuspoliitika elluviimist regionaalsete ja kohalike liiklusohutusprogrammide kaudu .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Laste liikluskasvatus</s>
+</p>
+<p>
+<s>( 1 ) Laste liikluskasvatuse eesm&auml;rk on kujundada &uuml;ksteisega arvestavaid liiklejaid :</s>
+</p>
+<p>
+<s>1 ) kellel on ohutu liiklemise harjumused ja kes tajuvad liikluskeskkonda ;</s>
+</p>
+<p>
+<s>2 ) kellel on teadmised ja oskused , mis toetavad nende endi ja teiste liiklejate toimetulekut ja ohutust mitmesugustes liiklusolukordades nii jalak&auml;ija , s&otilde;itja kui ka juhina ;</s>
+</p>
+<p>
+<s>3 ) kes hoiduvad k&auml;itumast inimesi ohustavalt ja liiklust takistavalt .</s>
+</p>
+<p>
+<s>( 2 ) Laste liikluskasvatust viivad l&auml;bi ja valmistavad neid ohutuks liiklemiseks ette lapsevanemad , koolieelsed lasteasutused , lasteaed-algkoolid , algkoolid , p&otilde;hikoolid , g&uuml;mnaasiumid , kutse&otilde;ppeasutused ja huvialakoolid .</s><s>Laste liikluskasvatuse korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Liikleja</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Liikleja</s>
+</p>
+<p>
+<s>( 1 ) Liikleja on isik , kes osaleb liikluses jalak&auml;ija , s&otilde;itja v&otilde;i juhina .</s>
+</p>
+<p>
+<s>( 2 ) Jalak&auml;ija on isik , kes kasutab teed liiklemiseks jalgsi v&otilde;i ratastooliga .</s><s>Jalak&auml;ijaks loetakse ka isikut , kes kasutab liiklemiseks rula , rulluiske , -suuski , t&otilde;ukeratast , -kelku v&otilde;i muid nendesarnaseid abivahendeid .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;itja on isik , kes kasutab liiklemiseks s&otilde;idukit , kuid ei juhi seda .</s>
+</p>
+<p>
+<s>( 4 ) Juht on isik , kes juhib s&otilde;idukit , juhib teel ratsa loomi v&otilde;i veoloomi .</s><s>Juhiks loetakse ka isikut , kes ajab teel kariloomi .</s>
+</p>
+<p>
+<s>( 5 ) Liiklejad peavad oma k&auml;itumises hoiduma k&otilde;igest , mis v&otilde;ib takistada liiklust , ohustada inimesi v&otilde;i kahjustada vara .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Jalak&auml;ija ja s&otilde;itja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Jalak&auml;ija peab liikuma temale etten&auml;htud teel v&otilde;i teeosal .</s>
+</p>
+<p>
+<s>( 2 ) Jalak&auml;ija ei v&otilde;i takistada s&otilde;idukite liiklust ega p&otilde;hjustada liiklusohtlikku olukorda .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;itja v&otilde;ib s&otilde;idukisse siseneda ja sealt v&auml;ljuda ainult siis , kui s&otilde;iduk seisab .</s><s>S&otilde;itja ei v&otilde;i oma tegevusega h&auml;irida ega ohustada teisi liiklejaid .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Juhi kohustused</s>
+</p>
+<p>
+<s>( 1 ) Juht peab olema t&auml;helepanelik teel ja teeservas seisvate v&otilde;i liikuvate v&auml;hekaitstud liiklejate suhtes , v&auml;ltima nende ohustamist ja neile kahju tekitamist .</s>
+</p>
+<p>
+<s>( 2 ) Juhil on keelatud juhtimise ajal tegelda toimingutega , mis v&otilde;ivad segada juhtimist v&otilde;i liikluskeskkonna tajumist .</s>
+</p>
+<p>
+<s>( 3 ) Juht ei v&otilde;i pargitud s&otilde;idukiga sulgeda teiste s&otilde;idukite liiklust sisses&otilde;idul &otilde;uedele ja teega k&uuml;lgnevatele aladele ega takistada jalak&auml;ijate liikumist &uuml;lek&auml;iguradadel ja ristmikel k&otilde;nniteede kulgemise suunas .</s>
+</p>
+<p>
+<s>( 4 ) Juht v&otilde;ib kasutada asulasisesel teel s&otilde;idu ajal telefoni &uuml;ksnes k&auml;si vabaks j&auml;tva abivahendi olemasolul .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Jalgratta ja mopeediga s&otilde;itmine</s>
+</p>
+<p>
+<s>( 1 ) Jalgratast v&otilde;ib s&otilde;iduteel juhtida v&auml;hemalt 10-aastane isik .</s>
+</p>
+<p>
+<s>( 2 ) Mopeedi v&otilde;ib juhtida v&auml;hemalt 14-aastane isik .</s>
+</p>
+<p>
+<s>( 3 ) 10-15-aastasel jalgratturil ja 14-15-aastasel mopeedijuhil peab s&otilde;iduteel s&otilde;itmisel olema kaasas vastav juhiluba .</s>
+</p>
+<p>
+<s>( 4 ) Jalgratta v&otilde;i mopeedi ning nendega v&otilde;rdsustatud s&otilde;iduki juhtimiseks ei n&otilde;uta juhiluba isikult , kes on v&auml;hemalt 16-aastane .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud jalgratturi ja mopeedijuhi eksamineerimise ja neile juhilubade v&auml;ljaandmise eeskirja kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>S&otilde;idukiomanik</s>
+</p>
+<p>
+<s>( 1 ) S&otilde;idukiomanik on f&uuml;&uuml;siline v&otilde;i juriidiline isik , kellele s&otilde;iduk kuulub omandi&otilde;iguse alusel .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;idukiomanik tagab talle kuuluva s&otilde;iduki &otilde;ige kasutamise , tehnilise korrasoleku ja n&otilde;uetekohase hoidmise .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>S&otilde;iduk</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>S&otilde;iduki m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse t&auml;henduses on s&otilde;iduk teel liiklemiseks etten&auml;htud v&otilde;i teel liiklev liiklusvahend , mis liigub mootori v&otilde;i muul j&otilde;ul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse t&auml;henduses on mootors&otilde;iduk mootori j&otilde;ul liikuv s&otilde;iduk .</s><s>Mootors&otilde;idukiks ei loeta mootoriga jalgratast , mopeedi ega mootori j&otilde;ul liikuvat r&ouml;&ouml;bass&otilde;idukit .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>S&otilde;idukile esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Liikluses on lubatud kasutada s&otilde;idukit , mille tehnoseisund vastab Eestis kehtivatele n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Mootors&otilde;iduk ja selle haagis peavad olema kehtestatud korras registreeritud ja omama vastavat riiklikku registreerimism&auml;rki .</s><s>S&otilde;iduk tuleb registreerida viie t&ouml;&ouml;p&auml;eva jooksul p&auml;rast s&otilde;iduki tollivormistamist v&otilde;i omandamist .</s>
+</p>
+<p>
+<s>( 3 ) Mootors&otilde;iduki ja selle haagise registreerimise ja tehnoseisundi kontrollimise eeskirjad ning n&otilde;uded tehnoseisundile ja varustusele kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 4 ) Kaitsej&otilde;udude s&otilde;iduki ja selle haagise registreerimise ja tehnoseisundi kontrollimise eeskirjad ning n&otilde;uded tehnoseisundile ja varustusele kehtestab kaitseminister .</s>
+</p>
+<p>
+<s>( 5 ) Mootors&otilde;iduki heitgaasi saasteainesisalduse ja m&uuml;rataseme normid kehtestab keskkonnaminister .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>S&otilde;iduki t&uuml;&uuml;bikinnitus</s>
+</p>
+<p>
+<s>( 1 ) T&uuml;&uuml;bikinnitus on menetlus , millega p&auml;dev asutus tunnistab antud s&otilde;iduki t&uuml;&uuml;bi vastavust kehtivatele tehnon&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Eestis esmakordselt kasutusele v&otilde;etavate autode , ratastraktorite ja nende haagiste ning mootorrataste t&uuml;&uuml;bid kuuluvad t&uuml;&uuml;bikinnitamisele .</s>
+</p>
+<p>
+<s>( 3 ) Autode ja nende haagiste ning mootorrataste t&uuml;&uuml;bikinnitamise eeskirja kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 4 ) Ratastraktorite ja nende haagiste t&uuml;&uuml;bikinnitamise eeskirja kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>S&otilde;iduki suurimad lubatud m&otilde;&otilde;tmed , massid ja teljekoormused</s>
+</p>
+<p>
+<s>( 1 ) S&otilde;iduki suurimad lubatud m&otilde;&otilde;tmed koormaga ja koormata , s&otilde;iduki massid ning teljekoormused kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 2 ) Autorongi koosseisus oleva haagise registrimass ei v&otilde;i &uuml;letada vedukiga vedada lubatud haagise suurimat registrimassi .</s><s>Veduki ja haagise registrimasside summa ei v&otilde;i &uuml;letada teede- ja sideministri kehtestatud suurust .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;iduki tegelik mass ei v&otilde;i &uuml;letada registrimassi ja mis tahes telje koormus registreerimisel m&auml;&auml;ratud suurust .</s>
+</p>
+<p>
+<s>( 4 ) Kui koormatud v&otilde;i koormamata s&otilde;iduki mis tahes m&otilde;&otilde;de , mass v&otilde;i teljekoormus &uuml;letab kehtestatud suuruse , v&otilde;ib s&otilde;idukit kasutada teeseadusega kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>S&otilde;iduki kindlustamine</s>
+</p>
+<p>
+<s>S&otilde;iduk kuulub kohustuslikule kindlustamisele vastavalt liikluskindlustuse seadusele ( RT I 1995 , 48 , 744 ; 1996 , 90 , 1612 ; 1998 , 2 , 43 ; 60 , 954 ; 2000 , 49 , 299 ) .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Mootors&otilde;iduki juhtimine</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Mootors&otilde;idukijuhilt n&otilde;utavad dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Juhil peavad mootors&otilde;iduki juhtimisel olema kaasas juhiluba v&otilde;i muu juhtimis&otilde;igust t&otilde;endav dokument , mootors&otilde;iduki ja selle haagise registreerimistunnistus , kohustusliku liikluskindlustuse poliis v&otilde;i t&otilde;end kindlustuslepingu s&otilde;lmimisest vabastamise kohta ja muud dokumendid , kui seda n&otilde;uab seadus .</s>
+</p>
+<p>
+<s>( 2 ) Kui s&otilde;iduki eest tuleb tasuda mootors&otilde;idukimaksu v&otilde;i raskeveokimaksu , peab juhil olema kaasas vastava maksu tasumist t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 3 ) Juhil , kes ei ole s&otilde;iduki omanik ja kelle nimi ei ole kantud s&otilde;iduki registreerimistunnistusele s&otilde;iduki kasutajana , peab kaasas olema omaniku poolt v&auml;ljaantud s&otilde;iduki kasutamise volikiri , kui omanik ei ole kaass&otilde;itja .</s><s>Volikiri v&otilde;ib olla lihtkirjalik , kui seadus ei n&otilde;ua notariaalselt t&otilde;estatud volikirja .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud volikiri peab olema notariaalselt t&otilde;estatud , kui juht soovib Eestis registreeritud s&otilde;iduautoga v&otilde;i kuni 3500-kilogrammise registrimassiga veoautoga s&otilde;ita Eestist v&auml;lja .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud notariaalselt t&otilde;estatud volikirja asendab s&otilde;iduki rendileping , kui s&otilde;iduki omanik ja rendileandja on Eesti &auml;riregistrisse kantud juriidiline isik , kelle p&otilde;hikirjaliseks tegevuseks on s&otilde;idukite rentimine .</s><s>Rendileping peab sisaldama k&auml;esoleva seaduse &sect; 18 l&otilde;ikes 1 nimetatud andmeid .</s>
+</p>
+<p>
+<s>( 6 ) Veoste veol peab lisaks k&auml;esolevas paragrahvis nimetatule olema kaasas veodokumendid ja eriveoste veol ka juhile antud tunnistus vastava v&auml;lja&otilde;ppe l&auml;bimise ja s&otilde;iduki eriveole lubamise kohta koosk&otilde;las autoveoseadusega ( RT I 2000 , 54 , 346 ) .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva seaduse &sect; 23 l&otilde;igetes 2 ja 3 nimetatud isikul , kes on B-kategooria autos piiratud juhtimis&otilde;igusega juhi k&otilde;rval v&otilde;i on piiratud juhtimis&otilde;igusega juhi poolt juhitava R-kategooria mootors&otilde;iduki vahetus l&auml;heduses , peab olema kaasas vastava kategooria s&otilde;iduki juhtimise &otilde;igust t&otilde;endav juhiluba .</s>
+</p>
+<p>
+<s>( 8 ) Isikul , kes juhib mootors&otilde;idukit koosk&otilde;las k&auml;esoleva seaduse &sect; 32 l&otilde;igetega 1 ja 2 , peab &otilde;ppes&otilde;idu ajal olema kaasas koolituskursuse &otilde;pingukaart v&otilde;i tunnistus .</s>
+</p>
+<p>
+<s>( 9 ) K&auml;esoleva seaduse &sect; 32 l&otilde;ikes 1 nimetatud mootors&otilde;idukijuhi &otilde;petajal ja l&otilde;ikes 2 nimetatud juhendajal peab olema kaasas juhiluba ja vastav tunnistus .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>S&otilde;iduki kasutamise volikiri</s>
+</p>
+<p>
+<s>( 1 ) S&otilde;iduki kasutamise volikirjas peavad sisalduma j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) koostamise koht ja kuup&auml;ev ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;iduki omaniku nimi ja aadress ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;iduki mark ja mudel , valmistajatehase t&auml;his ;</s>
+</p>
+<p>
+<s>4 ) registreerimistunnistuse number ja riikliku registreerimism&auml;rgi andmed ;</s>
+</p>
+<p>
+<s>5 ) s&otilde;iduki kasutaja nimi ja aadress ning juhiloa number .</s>
+</p>
+<p>
+<s>( 2 ) Volikiri peab olema kinnitatud volitaja allkirjaga .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Erin&otilde;uded mootors&otilde;idukijuhi s&otilde;idu- ja puhkeajale</s>
+</p>
+<p>
+<s>( 1 ) S&otilde;itjaid vedava &uuml;le &uuml;heksa istekohaga ( kaasa arvatud juhi koht ) v&otilde;i veost vedava &uuml;le 3500-kilogrammise registrimassiga , haagisega v&otilde;i haagiseta mootors&otilde;iduki juhi s&otilde;idu- ja puhkeaja kestuse ning arvestamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud mootors&otilde;iduki juhi s&otilde;idu- ja puhkeaja arvestus toimub s&otilde;idumeeriku salvestuslehtede j&auml;rgi .</s><s>Salvestuslehti peab s&auml;ilitama v&auml;hemalt viimase 12 kuu kohta .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud mootors&otilde;iduki juhi s&otilde;idu- ja puhkeaja kohta kehtestatud n&otilde;uete j&auml;rgimist kontrollivad :</s>
+</p>
+<p>
+<s>1 ) liikluses politseiametnikud , abipolitseinikud ja teised selleks seadusega volitatud isikud ;</s>
+</p>
+<p>
+<s>2 ) mootors&otilde;iduki valdaja juures T&ouml;&ouml;inspektsiooni ametnikud .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud mootors&otilde;iduki juhil peavad s&otilde;idu ajal olema kaasas ja ta peab esitama kontrollijale jooksva n&auml;dala salvestuslehed ja eelmise n&auml;dala viimase p&auml;eva salvestuslehe , millal ta juhtis mootors&otilde;idukit .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>S&otilde;iduki juhtimise keeld</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;idukit ei v&otilde;i juhtida isik , kellel ei ole vastava kategooria mootors&otilde;iduki juhtimise &otilde;igust .</s>
+</p>
+<p>
+<s>( 2 ) Mootors&otilde;iduki omanik , valdaja v&otilde;i juht ei v&otilde;i lubada mootors&otilde;idukit juhtima isikut v&otilde;i anda juhtimist &uuml;le isikule , kellel puudub vastava kategooria mootors&otilde;iduki juhtimise &otilde;igus v&otilde;i kes ei vasta k&auml;esoleva paragrahvi l&otilde;igetes 3 , 4 v&otilde;i 7 nimetatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Juht ei v&otilde;i olla joobeseisundis .</s><s>Joobeseisund on alkoholi , narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamisest p&otilde;hjustatud terviseseisund , mis avaldub h&auml;iritud v&otilde;i muutunud kehalistes v&otilde;i ps&uuml;&uuml;hilistes funktsioonides ja reaktsioonides .</s>
+</p>
+<p>
+<s>( 4 ) Alkoholisisaldus &uuml;hes liitris juhi v&auml;ljahingatavas &otilde;hus ei v&otilde;i olla 0,1 milligrammi v&otilde;i rohkem v&otilde;i alkoholisisaldus juhi veres 0,2 promilli v&otilde;i rohkem .</s><s>Juhil on &otilde;igus p&auml;rast tema v&auml;ljahingatava &otilde;hu alkoholisisalduse kontrollimist n&otilde;uda alkoholisisalduse m&auml;&auml;ramist veres .</s>
+</p>
+<p>
+<s>( 5 ) Kui juht p&otilde;geneb s&uuml;ndmuskohalt v&otilde;i keeldub alkoholisisalduse kontrollimisest tema v&auml;ljahingatavas &otilde;hus v&otilde;i veres v&otilde;i joobeseisundi tuvastamisest v&otilde;i p&auml;rast nimetatud kontrollimise v&otilde;i tuvastamise ettepanekut tarvitab aineid , mis v&otilde;ivad esile kutsuda joovet , loetakse kirjeldatud tegevus k&auml;esoleva paragrahvi l&otilde;igetes 3 ja 4 nimetatud n&otilde;uete rikkumiseks .</s>
+</p>
+<p>
+<s>( 6 ) Joobeseisundi tuvastamise ja joobeastme m&auml;&auml;ramise korra ning joobeastme m&auml;&auml;ramise otsuse vaidlustamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 7 ) Juht ei v&otilde;i olla sellises haigus- v&otilde;i v&auml;simusseisundis , mis takistab liiklusolude t&auml;pset tajumist ning liikluseeskirja n&otilde;uete k&otilde;rvalekaldumatut t&auml;itmist .</s><s>Haigus- ja v&auml;simusseisundi tuvastamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Mootors&otilde;iduki juhtimise &otilde;igus</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Mootors&otilde;idukite kategooriad</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;iduki juhtimise &otilde;iguse ( edaspidi juhtimis&otilde;iguse ) seisukohalt jagunevad autod ja mootorrattad p&otilde;hikategooriatesse A ( mootorrattad ) , B , C , D ( autod ) , BE , CE , DE ( autorongid ) ja nende alamkategooriatesse A1 , B1 , C1 , D1 , C1E ja D1E .</s>
+</p>
+<p>
+<s>( 2 ) Juhtimis&otilde;iguse seisukohalt jagunevad ratastraktorid ja liikurmasinad Eestis kehtivatesse kategooriatesse T ja R.</s>
+</p>
+<p>
+<s>( 3 ) Mootors&otilde;idukite ja nende haagiste kategooriatesse jaotamise tehnilised andmed on toodud k&auml;esoleva seaduse lisas 1.</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Juhtimis&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;idukit v&otilde;ib juhtida isik , kellel on vastava kategooria mootors&otilde;iduki juhtimise &otilde;igus .</s>
+</p>
+<p>
+<s>( 2 ) A- , B- , C- v&otilde;i D-kategooria mootors&otilde;iduki juhil on &otilde;igus juhtida vastavalt ka A1- , B1- , C1- v&otilde;i D1-alamkategooria mootors&otilde;idukit .</s>
+</p>
+<p>
+<s>( 3 ) C1E- , CE- , D1E- v&otilde;i DE-kategooria autorongi juhtimise &otilde;igus lubab juhtida ka BE-kategooria autorongi .</s><s>CE-kategooria autorongi juhtimise &otilde;igus lubab juhtida ka DE-kategooria autorongi , kui isikul on D-kategooria auto juhiluba .</s>
+</p>
+<p>
+<s>( 4 ) C1E-alamkategooria autorongi juhtimise &otilde;igus lubab juhtida ka D1E-alamkategooria autorongi , kui isikul on D1-alamkategooria auto juhiluba .</s>
+</p>
+<p>
+<s>( 5 ) DE-kategooria autorongi juhtimise &otilde;igus lubab juhtida ka C1E-alamkategooria autorongi , kui isikul on C1-alamkategooria auto juhiluba .</s>
+</p>
+<p>
+<s>( 6 ) T-kategooria mootors&otilde;idukit v&otilde;ib juhtida ka isik , kellel on C- v&otilde;i D-kategooria , C1- v&otilde;i D1-alamkategooria auto juhtimise &otilde;igus .</s>
+</p>
+<p>
+<s>( 7 ) R-kategooria mootors&otilde;idukit v&otilde;ib juhtida ka isik , kellel on T-kategooria mootors&otilde;iduki juhtimise &otilde;igus v&otilde;i B- , C- v&otilde;i D-kategooria v&otilde;i C1- v&otilde;i D1-alamkategooria auto juhtimise &otilde;igus .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Piiratud juhtimis&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Piiratud juhtimis&otilde;igus on noorema kui k&auml;esoleva seaduse &sect; 29 l&otilde;ikes 1 s&auml;testatud isiku &otilde;igus juhtida mootors&otilde;idukit k&auml;esolevas paragrahvis nimetatud juhtudel ja korras .</s>
+</p>
+<p>
+<s>( 2 ) Piiratud juhtimis&otilde;iguse v&otilde;ib B-kategooria auto juhtimiseks anda 16-17-aastasele isikule tingimusel , et mootors&otilde;idukis on tema k&otilde;rval lapsevanem ( seaduslik eestkostja ) v&otilde;i lapsevanema ( seadusliku eestkostja ) poolt selleks volitatud isik .</s><s>Nimetatud isikutel peab olema B-kategooria auto juhiluba v&auml;hemalt kaks aastat .</s>
+</p>
+<p>
+<s>( 3 ) Piiratud juhtimis&otilde;iguse v&otilde;ib R-kategooria mootors&otilde;iduki juhtimiseks anda v&auml;hemalt 15-aastasele isikule tingimusel , et ta ei vea veoseid teedel ja juhtimine toimub lapsevanema ( seadusliku eestkostja ) v&otilde;i lapsevanema ( seadusliku eestkostja ) poolt selleks volitatud isiku vahetu j&auml;relevalve all .</s><s>Nimetatud isikutel peab olema R- v&otilde;i T-kategooria mootors&otilde;iduki juhtimise &otilde;igust t&otilde;endav juhiluba v&auml;hemalt kaks aastat .</s>
+</p>
+<p>
+<s>( 4 ) Piiratud juhtimis&otilde;igus annab &otilde;iguse juhtida mootors&otilde;idukit &uuml;ksnes Eestis .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Juhtimis&otilde;igust t&otilde;endav dokument</s>
+</p>
+<p>
+<s>( 1 ) Juhtimis&otilde;igust t&otilde;endav dokument on kehtiv juhiluba v&otilde;i seadusega etten&auml;htud juhtudel juhiluba asendav dokument .</s><s>Igal isikul v&otilde;ib olla ainult &uuml;ks kehtiv juhiluba .</s>
+</p>
+<p>
+<s>( 2 ) Juhiloa v&otilde;ib &uuml;hitada muu isikut t&otilde;endava dokumendiga .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;ies juhitava mootors&otilde;iduki juhtimiseks ei ole juhiluba vaja .</s>
+</p>
+<p>
+<s>( 4 ) Mootors&otilde;idukijuhi koolituskursuse &otilde;pingukaart v&otilde;i tunnistus t&otilde;endab s&otilde;idu&otilde;ppija &otilde;igust juhtida mootors&otilde;idukit &otilde;ppes&otilde;idul k&auml;esoleva seaduse &sect; 32 l&otilde;igetes 1 ja 2 nimetatud tingimustel .</s>
+</p>
+<p>
+<s>( 5 ) S&otilde;idueksami kaart t&otilde;endab eksamineeritava &otilde;igust juhtida mootors&otilde;idukit eksamis&otilde;idul .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva seaduse &sect; 30 l&otilde;ike 2 kohaselt vormistatud mootors&otilde;idukijuhi koolituskursuse tunnistus t&otilde;endab juhtimis&otilde;iguse saanud isiku &otilde;igust juhtida mootors&otilde;idukit esmase juhiloa saamiseni .</s>
+</p>
+<p>
+<s>( 7 ) Ajutine juhiluba v&auml;ljastatakse isikule , kelle juhtimis&otilde;igus ei ole peatatud , &auml;ra v&otilde;etud v&otilde;i t&uuml;histatud , juhiloa dublikaadi vormistamise ajaks v&otilde;i muul seadusega etten&auml;htud juhul .</s><s>Ajutine juhiluba kehtib kuni kaks kuud .</s><s>Ajutine juhiluba annab &otilde;iguse juhtida mootors&otilde;idukit ainult Eestis .</s>
+</p>
+<p>
+<s>( 8 ) Juhiloa ja ajutise juhiloa ning k&auml;esoleva seaduse &sect; 30 l&otilde;ikes 2 nimetatud esmase juhiloa liigid ja vormid kehtestab teede- ja sideminister .</s><s>K&otilde;ik nimetatud juhiload peavad vastama Viini 1968. aasta teeliikluse konventsiooni ( RT 1992 , 12 , 194 ) ning selle juurde kuuluvate hilisemate kokkulepete ja konventsiooni t&auml;ienduste p&otilde;him&otilde;tetele , samuti Euroopa Liidus kehtivatele juhiloa vormin&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Juhiloa kehtivus</s>
+</p>
+<p>
+<s>( 1 ) Juhiluba kehtib k&uuml;mme aastat , kui k&auml;esoleva seaduse &sect; 28 l&otilde;ike 2 j&auml;rgi kehtestatud n&otilde;uded ei n&auml;e ette l&uuml;hemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 2 ) Esmane juhiluba kehtib kaks aastat .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Juhiloa v&auml;ljaandmine ja vahetamine</s>
+</p>
+<p>
+<s>( 1 ) Juhiloa v&auml;ljastab ja vahetab teede- ja sideministri m&auml;&auml;ratud asutus .</s>
+</p>
+<p>
+<s>( 2 ) Esmane juhiluba ja juhiluba antakse v&auml;lja 10 t&ouml;&ouml;p&auml;eva jooksul vastava eksami sooritamisele v&otilde;i juhiloa vahetamise taotluse esitamisele j&auml;rgnevast p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 3 ) Kui esmase juhiloa taotleja ei ole 12 kuu jooksul , arvates p&auml;evast , mil tekkis esmase juhiloa v&auml;ljaandmise alus , v&otilde;tnud v&auml;lja esmast juhiluba , antakse see v&auml;lja vaid siis , kui isik sooritab edukalt juhtimis&otilde;iguse saamiseks n&otilde;utavad liiklusteooria- ja s&otilde;idueksami .</s>
+</p>
+<p>
+<s>( 4 ) Kui esmase juhiloa omanik ei ole 12 kuu jooksul , arvates esmase juhiloa kehtivuse m&ouml;&ouml;dumisest , saanud vastava kategooria juhiluba , peab ta uuesti taotlema esmast juhiluba ja sooritama edukalt juhtimis&otilde;iguse saamiseks n&otilde;utavad liiklusteooria- ja s&otilde;idueksami .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>V&auml;lisriigis v&auml;ljaantud juhiluba</s>
+</p>
+<p>
+<s>( 1 ) Eestis kehtib v&auml;lisriigis v&auml;ljaantud juhiluba , mis on v&auml;lja antud ja vormistatud vastavalt Viini 1968. aasta teeliikluse konventsiooni ning selle juurde kuuluvate hilisemate kokkulepete ja konventsiooni t&auml;ienduste p&otilde;him&otilde;tetele .</s>
+</p>
+<p>
+<s>( 2 ) Eestisse elama asunud isiku v&auml;lisriigis v&auml;ljaantud juhiluba kehtib Eestis &uuml;ks aasta juhiloa omaniku Eestisse saabumisest arvates .</s><s>V&auml;lisriigis v&auml;ljaantud juhiloa vahetamiseks Eesti juhiloa vastu peab taotleja edukalt sooritama liiklusteooria- ja s&otilde;idueksami .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Mootors&otilde;iduki juhtimise &otilde;iguse andmine</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Juhtimis&otilde;iguse andmise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Juhtimis&otilde;igus antakse Eesti kodanikule , kelle alaline elukoht on Eestis , ja elamisloa alusel Eestis viibivale v&auml;lismaalasele , kui nende vanus ja terviseseisund vastavad kehtivatele n&otilde;uetele ja kui nad on saanud vastava ettevalmistuse ning edukalt sooritanud n&otilde;utavad liiklusteooria- ja s&otilde;idueksami .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;uded mootors&otilde;idukijuhi terviseseisundile , kutsesobivusele ja esmaabialasele v&auml;lja&otilde;ppele kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) Mootors&otilde;idukijuhi teadmiste , oskuste ja k&auml;itumise liiklusalased kvalifikatsioonin&otilde;uded kehtestab teede- ja sideminister , arvestades , et juht peab tundma liiklusalaste &otilde;igusaktide n&otilde;udeid ning oskama valitseda s&otilde;idukit , j&auml;lgida liiklust , m&auml;rgata ja ette n&auml;ha v&otilde;imalikke ohte ning sellele vastavalt tegutseda .</s>
+</p>
+<p>
+<s>( 4 ) Mootors&otilde;idukijuhi ettevalmistamise , eksamineerimise ning talle juhtimis&otilde;iguse andmise eeskirjad ja riiklikud &otilde;ppekavad kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Juhi vanuse alamm&auml;&auml;r</s>
+</p>
+<p>
+<s>( 1 ) Olenevalt mootors&otilde;iduki kategooriast v&otilde;ib ( v&auml;lja arvatud k&auml;esoleva seaduse &sect;-s 23 s&auml;testatud piiratud juhtimis&otilde;iguse juhtudel ) juhtimis&otilde;iguse anda isikule , kes on v&auml;hemalt :</s>
+</p>
+<p>
+<s>1 ) 16-aastane - A1-alamkategooria mootorratas , B1-alamkategooria auto , R-kategooria mootors&otilde;iduk ;</s>
+</p>
+<p>
+<s>2 ) 18-aastane - A-kategooria mootorratas , mille mootori v&otilde;imsus ei &uuml;leta 25 kW v&otilde;i eriv&otilde;imsus ei &uuml;leta 0,16 kW/kg , B-kategooria auto , C1-alamkategooria auto , T-kategooria mootors&otilde;iduk ;</s>
+</p>
+<p>
+<s>3 ) 21-aastane - A-kategooria mootorratas , mille mootori v&otilde;imsus &uuml;letab 25 kW v&otilde;i eriv&otilde;imsus &uuml;letab 0,16 kW/kg ; C- , D-kategooria ja D1-alamkategooria auto .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 32 l&otilde;igetes 1 ja 2 nimetatud &otilde;ppes&otilde;it v&otilde;i s&otilde;idupraktika on lubatud B-kategooria ja B1-alamkategooria autoga , A1-alamkategooria mootorrattaga ja R-kategooria mootors&otilde;idukiga alates 15,5 -aastaselt ning C1-alamkategooria autoga alates 17-aastaselt .</s>
+</p>
+<p>
+<s>( 3 ) C- , D-kategooria auto ja CE-kategooria autorongi juhtimise &otilde;iguse v&otilde;ib anda v&auml;hemalt 18-aastasele kaitseteenistuse ajateenijale &uuml;ksnes teenistus&uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Auto ja mootorratta juhtimise &otilde;iguse andmise etapid</s>
+</p>
+<p>
+<s>( 1 ) A-kategooria ja A1-alamkategooria mootorratta , v&auml;lja arvatud A-kategooria mootorratas , mille mootori v&otilde;imsus &uuml;letab 25 kW v&otilde;i eriv&otilde;imsus &uuml;letab 0,16 kW/kg , B-kategooria auto ja B1-alamkategooria auto v&otilde;i &uuml;heaegselt B- ja C1-kategooria auto juhtimise &otilde;iguse andmine toimub kahes etapis k&auml;esoleva seaduse &sect; 28 l&otilde;ike 4 kohaselt kehtestatud eeskirjade j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Isikule , kellel varem ei ole olnud auto v&otilde;i mootorratta juhtimise &otilde;igust , antakse esimeses etapis k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud mootors&otilde;idukite juhtimiseks esmane juhiluba k&auml;esoleva seaduse &sect; 28 l&otilde;ike 4 kohaselt kehtestatud eeskirjade j&auml;rgi .</s><s>P&auml;rast eksamitulemuste vormistamist ja kuni esmase juhiloa saamiseni , kuid mitte kauem kui 15 p&auml;eva eksami sooritamisest arvates , t&otilde;endab juhtimis&otilde;iguse saanud isiku &otilde;igust juhtida mootors&otilde;idukit iseseisvalt mootors&otilde;idukijuhi koolituskursuse tunnistus , millele teede- ja sideministri m&auml;&auml;ratud asutus on teinud kande juhtimis&otilde;iguse andmise kohta .</s><s>Nimetatud tunnistus annab &otilde;iguse juhtida mootors&otilde;idukit &uuml;ksnes Eestis .</s>
+</p>
+<p>
+<s>( 3 ) Kui esmase juhiloa omanik on omandanud vajaliku vilumuse ja l&auml;binud l&otilde;ppastme koolituse , antakse talle k&auml;esoleva seaduse &sect; 28 l&otilde;ike 4 kohaselt kehtestatud eeskirjade j&auml;rgi juhiluba .</s>
+</p>
+<p>
+<s>( 4 ) Kui esmase juhiloa omanikku on haldus- v&otilde;i kriminaalkorras karistatud selliste liiklusalaste n&otilde;uete rikkumise eest , mille eest on karistusena ette n&auml;htud juhtimis&otilde;iguse &auml;rav&otilde;tmine , t&uuml;histatakse juhtimis&otilde;igus .</s>
+</p>
+<p>
+<s>( 5 ) Kui esmase juhiloa omanikku on viimase 12 kuu jooksul halduskorras karistatud selliste liiklusalaste n&otilde;uete rikkumise eest , mille eest ei ole karistusena ette n&auml;htud juhtimis&otilde;iguse &auml;rav&otilde;tmist , antakse talle k&auml;esoleva paragrahvi l&otilde;ike 3 tingimuste t&auml;itmise korral juhiluba p&auml;rast liiklusteooria- ja s&otilde;idueksami edukat sooritamist .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>C- ja D-kategooria ning C1- ja D1-alamkategooria auto ning autorongi juhtimise &otilde;iguse andmine</s>
+</p>
+<p>
+<s>( 1 ) C-kategooria ja D1-alamkategooria auto juhtimise &otilde;iguse v&otilde;ib anda isikule , kellel on B-kategooria auto juhiluba v&auml;hemalt &uuml;ks aasta .</s>
+</p>
+<p>
+<s>( 2 ) D-kategooria auto juhtimise &otilde;iguse v&otilde;ib anda isikule , kellel on B-kategooria auto juhiluba v&auml;hemalt kaks aastat .</s>
+</p>
+<p>
+<s>( 3 ) C1-alamkategooria auto juhtimise &otilde;iguse v&otilde;ib anda isikule koos B-kategooria auto juhtimise &otilde;iguse andmisega v&otilde;i isikule , kellel on B-kategooria auto juhtimise &otilde;igus .</s>
+</p>
+<p>
+<s>( 4 ) BE- , CE- v&otilde;i DE-kategooria ja C1E- v&otilde;i D1E-alamkategooria autorongi juhtimise &otilde;iguse v&otilde;ib anda isikule , kellel on vastava kategooria vedukauto juhtimise &otilde;igus .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esolevas paragrahvis loetletud autode ja autorongide kategooriate juhtimise &otilde;igus antakse isikule p&auml;rast vastavat ettevalmistust ning liiklusteooria- ja s&otilde;idueksami edukat sooritamist k&auml;esoleva seaduse &sect; 28 l&otilde;ike 4 kohaselt kehtestatud eeskirjade j&auml;rgi .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esolevas paragrahvis loetletud autode ja autorongide kategooriate juhtimise &otilde;igust ei v&otilde;i anda isikule , kellel on k&auml;esoleva seaduse &sect;-s 30 nimetatud esmane juhiluba .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Mootors&otilde;iduki juhtimine &otilde;ppes&otilde;idul</s>
+</p>
+<p>
+<s>( 1 ) Isik , kes &otilde;pib mootors&otilde;idukijuhi koolituskursusel , v&otilde;ib juhtida mootors&otilde;idukit &otilde;ppes&otilde;idu ajal mootors&otilde;idukijuhi &otilde;petaja juuresolekul .</s>
+</p>
+<p>
+<s>( 2 ) Isik , kes &otilde;pib mootors&otilde;idukijuhi koolituskursusel v&otilde;i on koolituskursuse l&otilde;petanud , v&otilde;ib juhtida mootors&otilde;idukit s&otilde;idupraktika saamise eesm&auml;rgil ka teise isiku ( edaspidi juhendaja ) juuresolekul j&auml;rgmistel tingimustel :</s>
+</p>
+<p>
+<s>1 ) juhendajal peab olema vastava kategooria mootors&otilde;iduki juhiluba v&auml;hemalt viis aastat ;</s>
+</p>
+<p>
+<s>2 ) juhendajat ei ole karistatud viimase viie aasta jooksul mootors&otilde;iduki joobes juhtimise eest ega viimase kolme aasta jooksul liiklusalaste &otilde;igusaktide n&otilde;uete sellise rikkumise eest , mille eest on ette n&auml;htud mootors&otilde;iduki juhtimise &otilde;iguse &auml;rav&otilde;tmine ;</s>
+</p>
+<p>
+<s>3 ) juhendaja on saanud teede- ja sideministri m&auml;&auml;ratud asutuselt tunnistuse selle kohta , et ta vastab k&auml;esoleva l&otilde;ike punktides 1 ja 2 nimetatud tingimustele .</s><s>Tunnistuse vormi ja v&auml;ljaandmise korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud mootors&otilde;idukijuhi &otilde;petaja ja l&otilde;ikes 2 nimetatud juhendaja loetakse &otilde;ppes&otilde;idu ja s&otilde;idupraktika ajal juhiks .</s>
+</p>
+<p>
+<s>( 4 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud s&otilde;idu&otilde;ppija on noorem kui 18-aastane , v&otilde;ib juhendajaks olla &uuml;ksnes tema vanem v&otilde;i seaduslik eestkostja .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Mootors&otilde;iduki juhtimine eksamis&otilde;idul</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;iduki juhtimise aluseks eksamis&otilde;idul on teede- ja sideministri m&auml;&auml;ratud asutuse poolt eksamineeritava nimele vormistatud s&otilde;idueksami kaart .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud s&otilde;idueksami kaart vormistatakse p&auml;rast liiklusteooriaeksami sooritamist .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud eksamineeritav loetakse juhiks .</s>
+</p>
+<p>
+<s>( 4 ) Esmase juhiloa taotleja ei v&otilde;i sooritada s&otilde;idueksamit varem kui kolm kuud enne k&auml;esoleva seaduse &sect; 29 l&otilde;ikes 1 nimetatud vanuseni j&otilde;udmist .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Mootors&otilde;idukijuhi koolitus</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Mootors&otilde;idukijuhi koolitaja</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;idukijuhi koolitust teostavad era&otilde;iguslikud juriidilised isikud , f&uuml;&uuml;silisest isikust ettev&otilde;tjad ning riigi- ja munitsipaalharidusasutused , kes on kantud &auml;riregistrisse v&otilde;i seaduse alusel teise registrisse ja kellel on mootors&otilde;idukijuhi koolitamise luba ( edaspidi koolitusluba ) .</s>
+</p>
+<p>
+<s>( 2 ) Koolitusloa annab haridusminister kolmeks aastaks , kui loa taotleja ei soovi seda l&uuml;hemaks ajaks .</s><s>Koolitusluba antakse , s&otilde;ltumata koolituse &uuml;he kursuse &otilde;ppetundide mahust .</s>
+</p>
+<p>
+<s>( 3 ) Koolitusloa v&auml;ljastamise ja kehtetuks tunnistamise korra kehtestab haridusminister .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Mootors&otilde;idukijuhi koolitajale esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>Mootors&otilde;idukijuhi koolitajal ( edaspidi koolitaja ) peavad olema :</s>
+</p>
+<p>
+<s>1 ) tervisekaitsen&otilde;uetele vastavad &otilde;pperuumid ( hooned , sisustus ja muu vara ) v&otilde;i nende kasutamise v&otilde;imalus ;</s>
+</p>
+<p>
+<s>2 ) &otilde;ppes&otilde;iduv&auml;ljak v&otilde;i selle kasutamise v&otilde;imalus ;</s>
+</p>
+<p>
+<s>3 ) &otilde;igusaktides s&auml;testatud n&otilde;uetele vastavad &otilde;ppes&otilde;idukid v&otilde;i &otilde;ppes&otilde;idukite kasutamise v&otilde;imalus ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect; 36 l&otilde;ike 2 kohaselt kehtestatud eeskirjale vastavad &otilde;petajad ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva seaduse &sect; 28 l&otilde;ike 4 kohaselt kehtestatud eeskirjadele vastavad &otilde;ppekavad ja &otilde;ppedokumentatsioon ;</s>
+</p>
+<p>
+<s>6 ) &otilde;ppekavades etten&auml;htud metoodilised ja audiovisuaalsed &otilde;ppevahendid ning tarvikud .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Mootors&otilde;idukijuhi &otilde;petajale esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;idukijuhi &otilde;petaja kvalifikatsiooni v&otilde;ib taotleda v&auml;hemalt 21-aastane isik , kellel on &otilde;petatava kategooria mootors&otilde;iduki juhtimise &otilde;igust t&otilde;endav juhiluba v&auml;hemalt kolm aastat ja keda ei ole karistatud viimase viie aasta jooksul mootors&otilde;iduki joobes juhtimise eest ega viimase kolme aasta jooksul liiklusalaste &otilde;igusaktide n&otilde;uete sellise rikkumise eest , mille eest on ette n&auml;htud mootors&otilde;iduki juhtimise &otilde;iguse &auml;rav&otilde;tmine .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;uded mootors&otilde;idukijuhi &otilde;petaja kvalifikatsioonile , riikliku &otilde;ppekava ning &otilde;petajale koolitamise &otilde;igust t&otilde;endava tunnistuse andmise ja kehtetuks tunnistamise eeskirja kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Mootors&otilde;idukijuhi &otilde;petaja tunnistuse v&auml;ljastab teede- ja sideministri m&auml;&auml;ratud asutus .</s>
+</p>
+<p>
+<s>( 4 ) Mootors&otilde;idukijuhi &otilde;petajalt v&otilde;etakse koolitamise &otilde;igus &auml;ra , kui teda on karistatud liiklusohu v&otilde;i liiklus&otilde;nnetuse tekitamise eest v&otilde;i k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud rikkumiste eest v&otilde;i kui ta on sooritanud sellise rikkumise , mis paneb kahtluse alla tema sobivuse mootors&otilde;idukijuhi &otilde;petajana t&ouml;&ouml;tamiseks .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Koolitusloa taotlemine ja taotluse l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) Koolitusloa saamiseks esitab taotleja loa andjale j&auml;rgmised dokumendid :</s>
+</p>
+<p>
+<s>1 ) koolitusloa taotlus ;</s>
+</p>
+<p>
+<s>2 ) &auml;riregistrisse kantud ettev&otilde;tja puhul registrikaardi &auml;rakiri ja seaduse alusel teise registrisse kantud isiku puhul v&auml;ljav&otilde;te sellest registrist ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;hikiri v&otilde;i &uuml;hinguleping ( v&auml;lja arvatud f&uuml;&uuml;silisest isikust ettev&otilde;tja puhul ) ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect; 35 punktides 1-3 s&auml;testatud ruumide , &otilde;ppes&otilde;iduv&auml;ljaku ja &otilde;ppes&otilde;idukite olemasolu v&otilde;i rentimist t&otilde;endavad dokumendid , punktides 5 ja 6 s&auml;testatud &otilde;ppekava , &otilde;ppedokumentatsioon ja audiovisuaalsete &otilde;ppevahendite loetelu ning teede- ja sideministri volitatud asutuse kirjalik hinnang nende vastavuse kohta k&auml;esolevas seaduses s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>5 ) &otilde;petajate kirjalikud n&otilde;usolekud t&ouml;&ouml;le asumiseks ;</s>
+</p>
+<p>
+<s>6 ) Maksuameti kohaliku asutuse t&otilde;end maksuv&otilde;lgnevuse puudumise kohta ;</s>
+</p>
+<p>
+<s>7 ) koolitusloa eest riigil&otilde;ivu tasumist t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 2 ) Koolitusloa andja annab koolitusloa v&otilde;i teatab loa taotlejale koolitusloa andmisest keeldumisest kirjalikult 30 kalendrip&auml;eva jooksul k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumentide esitamisest arvates .</s>
+</p>
+<p>
+<s>( 3 ) Koolitusloa andja keeldub koolitusloa andmisest , kui taotleja ei vasta k&auml;esoleva seaduse &sect;-s 35 nimetatud n&otilde;uetele v&otilde;i on maksuv&otilde;lglane .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Riiklik j&auml;relevalve mootors&otilde;idukijuhi koolituse &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku j&auml;relevalvet mootors&otilde;idukijuhi koolituse &uuml;le teostavad haridusministri ning teede- ja sideministri volitatud asutused .</s>
+</p>
+<p>
+<s>( 2 ) Kui mootors&otilde;idukijuhi koolitus ei vasta k&auml;esolevas seaduses v&otilde;i selle alusel antud &otilde;igusaktides s&auml;testatud n&otilde;uetele , on riiklikku j&auml;relevalvet teostaval asutusel &otilde;igus teha koolitajale ettekirjutus puuduste k&otilde;rvaldamiseks ning &otilde;ppetegevuse parandamiseks .</s><s>Koolitaja on kohustatud ettekirjutuse t&auml;itma selles s&auml;testatud t&auml;htaja jooksul .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Koolitusloa kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Koolitusluba tunnistatakse kehtetuks , kui :</s>
+</p>
+<p>
+<s>1 ) selgub , et koolitusloa taotlemisel on esitatud valeandmeid ;</s>
+</p>
+<p>
+<s>2 ) koolitaja ei ole m&auml;&auml;ratud t&auml;htajaks ja korras t&auml;itnud vastava j&auml;relevalveasutuse poolt temale tehtud ettekirjutust ;</s>
+</p>
+<p>
+<s>3 ) koolitaja on teinud otsuse mootors&otilde;idukijuhi koolituse l&otilde;petamise kohta ;</s>
+</p>
+<p>
+<s>4 ) koolitaja vastu on algatatud likvideerimismenetlus ;</s>
+</p>
+<p>
+<s>5 ) mootors&otilde;idukijuhi koolitus ei vasta k&auml;esoleva seaduse v&otilde;i selle alusel antud &otilde;igusaktides s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>6 ) koolitaja ei ole &uuml;he aasta jooksul koolitusloa kehtivuse algusest arvates tegevust alustanud v&otilde;i ei ole viimase aasta jooksul &otilde;ppet&ouml;&ouml;d teostanud .</s>
+</p>
+<p>
+<s>( 2 ) Koolitusloa andja teavitab koolitajat talle antud koolitusloa kehtetuks tunnistamisest 10 t&ouml;&ouml;p&auml;eva jooksul vastava otsuse tegemisest arvates .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Mootors&otilde;idukijuhi ettevalmistamine &uuml;ksikkorras</s>
+</p>
+<p>
+<s>&Uuml;ksikkorras v&otilde;ib mootors&otilde;idukijuhti ette valmistada k&auml;esoleva seaduse &sect;-s 34 nimetatud koolitaja juhendamisel k&auml;esoleva seaduse &sect; 28 l&otilde;ike 4 kohaselt kehtestatud eeskirja j&auml;rgi .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Mootors&otilde;iduki juhtimise &otilde;iguse peatamine , &auml;rav&otilde;tmine , t&uuml;histamine ja taastamine</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Juhtimis&otilde;iguse peatamine</s>
+</p>
+<p>
+<s>( 1 ) Juhtimis&otilde;iguse peatamine on isikul mootors&otilde;iduki juhtimise keelamine .</s>
+</p>
+<p>
+<s>( 2 ) Juhtimis&otilde;iguse peatab politseiametnik v&otilde;i muu selleks seaduse alusel volitatud ametiisik v&otilde;i kohtunik .</s>
+</p>
+<p>
+<s>( 3 ) Juhtimis&otilde;igus peatatakse , kui :</s>
+</p>
+<p>
+<s>1 ) juht rikub k&auml;esoleva seaduse &sect; 20 l&otilde;igetes 2-5 ja 7 s&auml;testatut ;</s>
+</p>
+<p>
+<s>2 ) juhiluba saadetakse ekspertiisi seoses juhiloa v&otilde;ltsingu kahtlusega ;</s>
+</p>
+<p>
+<s>3 ) juht ei sooritanud k&auml;esoleva seaduse &sect;-s 44 nimetatud liiklusteooria- v&otilde;i s&otilde;idueksamit ;</s>
+</p>
+<p>
+<s>4 ) mootors&otilde;idukijuhi terviseseisund ei vasta k&auml;esoleva seaduse &sect; 28 l&otilde;ikes 2 nimetatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 4 ) Juhtimis&otilde;igus peatub otsuse tegemisest arvates .</s>
+</p>
+<p>
+<s>( 5 ) Juhtimis&otilde;iguse peatamise otsuses n&auml;idatakse &auml;ra juhtimis&otilde;iguse peatamise t&auml;htaeg v&otilde;i tingimus , mille t&auml;itmine on n&otilde;utav .</s>
+</p>
+<p>
+<s>( 6 ) Juhtimis&otilde;iguse peatamist on p&auml;deval ametiisikul v&otilde;i kohtunikul &otilde;igus pikendada seadusega etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 7 ) Juhtimis&otilde;iguse peatamise korral on isik kohustatud juhiloa andma peatamisotsuse tegijale v&otilde;i tema nimetatud teisele ametiisikule .</s>
+</p>
+<p>
+<s>( 8 ) Juhtimis&otilde;iguse peatamise otsuse peale v&otilde;ib esitada kaebuse otsuse teinud ametiisiku k&otilde;rgemalseisvale ametiisikule v&otilde;i v&otilde;ib otsuse vaidlustada kohtus .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Juhtimis&otilde;iguse &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>Juhtimis&otilde;iguse &auml;rav&otilde;tmine on haldus- v&otilde;i kriminaalkaristus , mille sisuks on keeld juhtida mootors&otilde;idukit .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Juhtimis&otilde;iguse t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Juhtimis&otilde;igus t&uuml;histatakse , kui isik on juhtimis&otilde;iguse saanud pettuse teel v&otilde;i kui talle on juhiluba v&auml;lja antud v&otilde;ltsitud v&otilde;i valeandmeid sisaldava dokumendi alusel , samuti k&auml;esoleva seaduse &sect; 30 l&otilde;ikes 4 nimetatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Juhtimis&otilde;iguse t&uuml;histamise otsuse teeb asutus , kes on k&auml;esoleva seaduse alusel volitatud juhtimis&otilde;igust andma .</s>
+</p>
+<p>
+<s>( 3 ) Juhtimis&otilde;iguse t&uuml;histamine j&otilde;ustub otsuse tegemisest arvates .</s>
+</p>
+<p>
+<s>( 4 ) Juhtimis&otilde;iguse t&uuml;histamise otsuse teinud asutus teatab otsusest asjaomasele isikule t&auml;htkirjaga .</s>
+</p>
+<p>
+<s>( 5 ) Juhtimis&otilde;iguse t&uuml;histamise korral on isik kohustatud loovutama juhiloa t&uuml;histamisotsuse tegijale v&otilde;i tema nimetatud teisele ametiisikule .</s>
+</p>
+<p>
+<s>( 6 ) Juhtimis&otilde;iguse t&uuml;histamise otsuse peale v&otilde;ib esitada kaebuse otsuse teinud ametiisiku k&otilde;rgemalseisvale ametiisikule v&otilde;i v&otilde;ib otsuse vaidlustada kohtus .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Juhtimis&otilde;iguse taastamine</s>
+</p>
+<p>
+<s>( 1 ) Kui isikult on juhtimis&otilde;igus &auml;ra v&otilde;etud rohkem kui kuueks kuuks , kuid mitte kauemaks kui 12 kuuks , saab ta taastada juhtimis&otilde;iguse juhul , kui ta sooritab edukalt liiklusteooriaeksami .</s>
+</p>
+<p>
+<s>( 2 ) Kui isikult on juhtimis&otilde;igus &auml;ra v&otilde;etud kauemaks kui 12 kuuks , saab ta juhtimis&otilde;iguse taastada juhul , kui ta sooritab edukalt liiklusteooria- ja s&otilde;idueksami .</s>
+</p>
+<p>
+<s>( 3 ) Kui isik ei ole vahetanud juhiluba 12 kuu jooksul selle kehtivuse t&auml;htaja m&ouml;&ouml;dumisest arvates , saab ta juhtimis&otilde;iguse taastada juhul , kui ta sooritab edukalt liiklusteooria- ja s&otilde;idueksami .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Liikluse korraldamine ja liiklusj&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Liikluse korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Liikluse korraldamise eesm&auml;rk on tagada h&auml;ireteta , sujuv , v&otilde;imalikult kiire , ohutu ja keskkonda minimaalselt kahjustav liiklus .</s>
+</p>
+<p>
+<s>( 2 ) Liikluse korraldamine toimub liiklusm&auml;rkide , teem&auml;rgiste , fooride , piirete ja muude liikluskorraldusvahenditega vastavalt teeseaduse alusel kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Liikluse korraldamise ning liikluskorraldusvahendite &otilde;ige paigutuse ja korrasoleku tagab teeomanik v&otilde;i teehoiu korraldamise eest vastutav isik .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Liikluse reguleerimine ja liiklusj&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Liiklusj&auml;relevalvet teostavad politseiametnikud , abipolitseinikud ja muud ametiisikud nendele seadusega antud volituste piires .</s><s>Riigipiiril kontrollivad mootors&otilde;idukeid ja nende haagiseid ning juhte piirivalve- ja tollit&ouml;&ouml;tajad .</s>
+</p>
+<p>
+<s>( 2 ) Liikluse reguleerimise ja liiklusj&auml;relevalve teostamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Lubatud s&otilde;idukiirus</s>
+</p>
+<p>
+<s>( 1 ) Suurim lubatud s&otilde;idukiirus asulav&auml;lisel teel on 90 kilomeetrit tunnis .</s>
+</p>
+<p>
+<s>( 2 ) Suurim lubatud s&otilde;idukiirus asulasisesel teel on 50 kilomeetrit tunnis .</s>
+</p>
+<p>
+<s>( 3 ) Olenevalt liiklus- ja teeoludest , ohutusest ja s&otilde;iduki kategooriast v&otilde;ib teeomanik v&auml;hendada k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud suurimat lubatud s&otilde;idukiirust .</s>
+</p>
+<p>
+<s>( 4 ) Olenevalt liiklus- ja teeoludest , ohutusest ja s&otilde;iduki kategooriast v&otilde;ib teede- ja sideministri kehtestatud tingimustel ja korras :</s>
+</p>
+<p>
+<s>1 ) Maanteeamet suurendada asulav&auml;lisel teel suurimat lubatud s&otilde;idukiirust 120 kilomeetrini tunnis ;</s>
+</p>
+<p>
+<s>2 ) kohalik omavalitsus suurendada asulasisesel teel suurimat lubatud s&otilde;idukiirust 90 kilomeetrini tunnis .</s>
+</p>
+<p>
+<s>( 5 ) Juht peab kohandama oma s&otilde;iduki kiiruse selliseks , mis arvestab tema s&otilde;idukogemusi , teeolusid , tee ja s&otilde;iduki seisundit , veose ise&auml;rasusi , ilmastikutingimusi , liikluse tihedust ning muid liiklusolusid , et ta suudaks peatada s&otilde;iduki eespoolse n&auml;htavusulatuse piires ning teel etteaimatava mis tahes takistuse ees .</s><s>Juht peab v&auml;hendama kiirust ning vajaduse korral peatuma , kui tingimused seda n&otilde;uavad , eriti siis , kui n&auml;htavus on halb .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Piirangud mootors&otilde;idukite liiklusele</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;idukid , v&auml;lja arvatud eritalituse s&otilde;idukid , ei v&otilde;i s&otilde;ita , peatuda ega parkida v&auml;ljaspool teed kohtades , mis ei ole ette n&auml;htud mootors&otilde;idukite liikluseks .</s><s>Nendes kohtades v&otilde;ib liigelda ainult maaomaniku loal .</s>
+</p>
+<p>
+<s>( 2 ) Mootors&otilde;idukid , v&auml;lja arvatud eritalituse s&otilde;idukid , ei v&otilde;i s&otilde;ita , peatuda ega parkida k&otilde;nniteedel , ohutussaartel , eraldusribadel , &otilde;uede ja teega k&uuml;lgnevate alade sisses&otilde;itudel .</s>
+</p>
+<p>
+<s>( 3 ) K&otilde;nniteel v&otilde;ib :</s>
+</p>
+<p>
+<s>1 ) peatuda ja parkida , kui see on liiklusm&auml;rkide v&otilde;i teem&auml;rgisega lubatud ;</s>
+</p>
+<p>
+<s>2 ) peatuda ja parkida liikumispuudega juht , kelle s&otilde;idukil on k&auml;esoleva seaduse lisa 2 kohane parkimiskaart ;</s>
+</p>
+<p>
+<s>3 ) peatuda veose laadimiseks , kuid mitte l&auml;hemal kui 15 meetrit &uuml;hiss&otilde;idukite peatuskohast .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud peatumise ja parkimise korral peab jalak&auml;ijale j&auml;&auml;ma vabaks v&auml;hemalt 1,5 meetri laiune k&auml;iguriba .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Liiklus &otilde;uealal</s>
+</p>
+<p>
+<s>( 1 ) Jalak&auml;ija v&otilde;ib &otilde;uealal liikuda kogu tee ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Juht ei v&otilde;i &otilde;uealal jalak&auml;ijat ohustada ega takistada , vajaduse korral tuleb s&otilde;iduk peatada .</s><s>Jalak&auml;ija ei v&otilde;i juhti p&otilde;hjendamatult takistada .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;iduk v&otilde;ib &otilde;uealal jalak&auml;ijate vahetus l&auml;heduses liikuda jalak&auml;ija kiirusega ja mujal mitte kiiremini kui 20 kilomeetrit tunnis .</s>
+</p>
+<p>
+<s>( 4 ) Mootors&otilde;iduk v&otilde;ib &otilde;uealale s&otilde;ita vaid peatumiseks v&otilde;i parkimiseks .</s>
+</p>
+<p>
+<s>( 5 ) &Otilde;uealal v&otilde;ib parkida ainult A- ja B-kategooria ning D1-alamkategooria s&otilde;idukit .</s><s>Parkida v&otilde;ib ainult t&auml;histatud parklas v&otilde;i teel kohas , kus parkimine ei takista jalak&auml;ijat ega muuda v&otilde;imatuks teiste s&otilde;idukite liiklust .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Parkimise korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Parkimine on s&otilde;iduki ettekavatsetud seismaj&auml;tmine kauemaks , kui seda on vaja s&otilde;itjate peale- v&otilde;i mahaminekuks v&otilde;i veose laadimiseks .</s>
+</p>
+<p>
+<s>( 2 ) Parkimine peab olema korraldatud nii , et see ei h&auml;iri ega ohusta liiklust ega p&otilde;hjusta elamupiirkonnas inimeste h&auml;irimist mootors&otilde;idukite heitgaasi ja m&uuml;raga .</s>
+</p>
+<p>
+<s>( 3 ) Liiklust h&auml;irivalt v&otilde;i ohustavalt pargitud s&otilde;iduki v&otilde;ib parkimist korraldav teeomanik v&otilde;i teehoiu eest vastutav isik lasta &uuml;mber paigutada valvega hoiukohta seadusega etten&auml;htud korras .</s><s>&Uuml;mberpaigutamis- ja hoidmiskulud tasub s&otilde;iduki kasutaja .</s>
+</p>
+<p>
+<s>( 4 ) Parkimist korraldab teeomanik v&otilde;i teehoiu korraldamise eest vastutav isik liiklusm&auml;rkide , teem&auml;rgiste ning muude liikluskorraldusvahendite abil .</s>
+</p>
+<p>
+<s>( 5 ) Teeomanik v&otilde;i teehoiu korraldamise eest vastutav isik v&otilde;ib kehtestada tasulise parkimise .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Pargitud s&otilde;iduki &uuml;mberpaigutamine erandolukorras</s>
+</p>
+<p>
+<s>( 1 ) Erandolukorras , mis on tingitud kiiresti muutuvatest ilmastikuoludest , vajadusest t&auml;ita operatiiv&uuml;lesandeid v&otilde;i muust liikluskorra muutmise vajadusest , v&otilde;idakse muuta parkimise korraldust .</s>
+</p>
+<p>
+<s>( 2 ) Erandolukorrast tingitud parkimiskorralduse muutmisel fikseerib parkimist korraldav ametnik seni &otilde;igusp&auml;raselt pargitud s&otilde;idukid ning need paigutatakse &uuml;mber valvega hoiukohta seadusega etten&auml;htud korras .</s><s>&Uuml;mberpaigutamis- ja hoidmiskulud tasub parkimist korraldav asutus .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Keskkonnakaitsen&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Juht ei v&otilde;i kahjustada keskkonda s&otilde;iduki mootori v&otilde;i teiste seadmete p&otilde;hjustatud liigse m&uuml;ra , tolmu v&otilde;i heitgaasiga , mida oleks v&otilde;imalik v&auml;ltida .</s>
+</p>
+<p>
+<s>( 2 ) Mootors&otilde;idukit ei v&otilde;i pesta veekogus ega kaldal l&auml;hemal kui 10 meetrit veepiirist .</s>
+</p>
+<p>
+<s>( 3 ) Liikleja ei v&otilde;i :</s>
+</p>
+<p>
+<s>1 ) saastada keskkonda k&uuml;tte- v&otilde;i m&auml;&auml;rdeainetega ega vahetada mootors&otilde;idukil &otilde;li kohas , mis ei ole selleks ette n&auml;htud ;</s>
+</p>
+<p>
+<s>2 ) kahjustada , risustada v&otilde;i muul viisil saastada teed ega teega k&uuml;lgnevat ala ;</s>
+</p>
+<p>
+<s>3 ) liigelda s&otilde;idukiga , millel on keskkonda saastav leke .</s>
+</p>
+<p>
+<s>( 4 ) S&otilde;iduki mootori heitgaasi saasteainesisaldus ega m&uuml;ratase ei v&otilde;i &uuml;letada keskkonnaministri kehtestatud normi .</s>
+</p>
+<p>
+<s>( 5 ) &Otilde;uealal ja elamupiirkonnas ei v&otilde;i seisva s&otilde;iduki mootor t&ouml;&ouml;tada kauem kui kaks minutit .</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>Liikumispuudega inimeste liiklemise tagamine</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Liikumispuudega inimeste liiklemise ja neid teenindavate s&otilde;idukite parkimise korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Liikumispuudega v&otilde;i pimedate inimeste liiklemist ja neid teenindavate s&otilde;idukite parkimist ning liikumispuudega inimeste juhitavate s&otilde;idukite parkimist korraldab kohalik omavalitsus .</s>
+</p>
+<p>
+<s>( 2 ) Liikumispuudega juht v&otilde;ib tema kasutuses olevat s&otilde;idukit k&auml;esoleva seaduse lisa 2 kohase parkimiskaardi olemasolul parkida avalikes tasulistes parkimiskohtades tasuta .</s>
+</p>
+<p>
+<s>( 3 ) Liikumispuudega inimene , kes liigub inimj&otilde;ul v&otilde;i mootori j&otilde;ul , kuid jalak&auml;ija kiirusega liikuva ratastooliga , v&otilde;ib kasutada k&otilde;nniteed v&otilde;i selleks k&otilde;lblikku teepeenart .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Liikumispuudega inimese s&otilde;iduki parkimiskaart</s>
+</p>
+<p>
+<s>( 1 ) Liikumispuudega v&otilde;i pimeda inimese liiklemise tagamiseks antakse talle k&auml;esoleva seaduse lisa 2 kohane teda teenindava s&otilde;iduki parkimiskaart .</s>
+</p>
+<p>
+<s>( 2 ) Liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki parkimiskaartide tr&uuml;kkimist korraldab ja v&auml;ljaandmise tingimused kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) Parkimiskaardi v&auml;ljaandmise aluseks on arsti teatis .</s>
+</p>
+<p>
+<s>( 4 ) Parkimiskaardi annab v&auml;lja kohalik omavalitsus .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Liikumispuudega juhi ja liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juhi eri&otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Liikumispuudega juht ja liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juht v&otilde;ib panna oma s&otilde;iduki esi- v&otilde;i tagaklaasile k&auml;esoleva seaduse lisa 2 kohase parkimiskaardi .</s>
+</p>
+<p>
+<s>( 2 ) Liikumispuudega juht , kelle s&otilde;idukil on k&auml;esoleva seaduse lisa 2 kohane parkimiskaart , v&otilde;ib :</s>
+</p>
+<p>
+<s>1 ) asulas peatuda ja parkida peatumist v&otilde;i parkimist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas tingimusel , et seisev s&otilde;iduk asub t&auml;ielikult k&otilde;nniteel , j&auml;ttes jalak&auml;ijale seal vabaks v&auml;hemalt 1,5 meetri laiuse k&auml;iguriba .</s><s>Kirjeldatud luba ei kehti teel&otilde;igul , mis on t&auml;histatud peatumise keelujoonega ;</s>
+</p>
+<p>
+<s>2 ) parkida parkimist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas , piiratud parkimisajaga parklas etten&auml;htust kauem ja &otilde;ueala teel v&auml;ljaspool parklat kohas , kus see ei takista jalak&auml;ijaid ega muuda v&otilde;imatuks teiste s&otilde;idukite liiklust .</s>
+</p>
+<p>
+<s>( 3 ) Liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juht , kelle s&otilde;idukil on k&auml;esoleva seaduse lisa 2 kohane parkimiskaart , v&otilde;ib asulas peatuda peatumist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas liikumispuudega v&otilde;i pimeda inimese s&otilde;idukisse pealev&otilde;tmiseks v&otilde;i s&otilde;idukist v&auml;ljalaskmiseks .</s>
+</p>
+<p>
+<s>( 4 ) Liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juht , kelle s&otilde;idukil on k&auml;esoleva seaduse lisa 2 kohane parkimiskaart ja kes talutab liikumispuudega v&otilde;i pimedat inimest soovitud kohta ja tagasi , v&otilde;ib asulas peatuda k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 1 nimetatud tingimustel .</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Liiklus&otilde;nnetus</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Liiklus&otilde;nnetuse m&otilde;iste</s>
+</p>
+<p>
+<s>Liiklus&otilde;nnetus on juhtum , kus v&auml;hemalt &uuml;he s&otilde;iduki teel liikumise v&otilde;i teelt v&auml;ljas&otilde;idu tagaj&auml;rjel saab inimene vigastada v&otilde;i surma v&otilde;i tekib varaline kahju .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>&Uuml;ldine abistamiskohustus</s>
+</p>
+<p>
+<s>Iga juht on kohustatud abistama liiklus&otilde;nnetuses kannatada saanud abitus seisundis olevat inimest .</s><s>Kui kannatanu abistamiseks on vaja ta kohe toimetada haiglasse ja kui kannatanu seisukord v&otilde;imaldab teda transportida , siis peab juht seda tegema .</s><s>Kui s&otilde;iduk ei sobi kannatanu ohutuks transportimiseks , peab selle juht aitama korraldada kannatanu toimetamist haiglasse muu sobiva s&otilde;idukiga .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>S&otilde;idukijuhi tegevus liiklus&otilde;nnetuse s&uuml;ndmuskohal ja liiklus&otilde;nnetusest teatamine</s>
+</p>
+<p>
+<s>Liiklus&otilde;nnetuse s&uuml;ndmuskohal s&otilde;idukijuhi tegevuse ja liiklus&otilde;nnetusest teatamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>P&auml;&auml;stet&ouml;&ouml;d</s>
+</p>
+<p>
+<s>( 1 ) Liiklus&otilde;nnetuse s&uuml;ndmuskohal teostab tulekustutus- ja p&auml;&auml;stet&ouml;id p&auml;&auml;steasutus .</s>
+</p>
+<p>
+<s>( 2 ) Liiklus&otilde;nnetuse s&uuml;ndmuskohal korraldab hukkunute &auml;ravedu politsei .</s>
+</p>
+<p>
+<s>( 3 ) Kui s&otilde;idukijuht sai liiklus&otilde;nnetuses surma v&otilde;i selliselt vigastada , et ta toimetati raviasutusse , korraldab tema s&otilde;iduki liiklus&otilde;nnetuse s&uuml;ndmuskohalt &auml;raviimise ja tagab selle s&auml;ilimise politsei .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Liiklus&otilde;nnetuse asjaolude v&auml;ljaselgitamine ja arvestus</s>
+</p>
+<p>
+<s>Liiklus&otilde;nnetuse asjaolude v&auml;ljaselgitamise , vormistamise , registreerimise ja arvestuse korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Ekspertkomisjon</s>
+</p>
+<p>
+<s>( 1 ) Liiklus&otilde;nnetuse p&otilde;hjuste v&auml;ljaselgitamiseks , &uuml;ldistamiseks ja liiklusohutuse tagamise ettepanekute v&auml;ljat&ouml;&ouml;tamiseks v&otilde;ib teede- ja sideminister moodustada ekspertkomisjone .</s>
+</p>
+<p>
+<s>( 2 ) Ekspertkomisjonil on &otilde;igus tutvuda liiklus&otilde;nnetuse kohta koostatud materjalidega , selgitada v&auml;lja liiklus&otilde;nnetuse asjaolusid , koostada &uuml;ldistusi ja teha ettepanekuid liiklusohutuse parandamiseks , liiklus&otilde;nnetuste tekkep&otilde;hjuste k&otilde;rvaldamiseks ja liiklus&otilde;nnetuste tagaj&auml;rgede leevendamiseks .</s>
+</p>
+<p>
+<s>12. peat&uuml;kk</s>
+</p>
+<p>
+<s>Liiklusregister .</s><s>Riigiv&otilde;imu teostamine s&otilde;idukite ja juhilubadega seotud toimingute puhul</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Liiklusregister</s>
+</p>
+<p>
+<s>( 1 ) Liiklusregister on Vabariigi Valitsuse poolt teede- ja sideministri ettepanekul asutatud riiklik register andmekogude seaduse ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ) t&auml;henduses , mille pidamise eesm&auml;rk on s&otilde;idukite ( v&auml;lja arvatud kaitsej&otilde;udude s&otilde;idukid ) , juhilubade ja muude juhtimis&otilde;igust t&otilde;endavate dokumentide &uuml;le arvestuse pidamine .</s>
+</p>
+<p>
+<s>( 2 ) Liiklusregister on &uuml;hetasandiline riiklik register .</s>
+</p>
+<p>
+<s>( 3 ) Liiklusregistri vastutav t&ouml;&ouml;tleja on Teede- ja Sideministeerium ning volitatud t&ouml;&ouml;tleja teede- ja sideministri m&auml;&auml;ratud asutus .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Liiklusregistri andmebaasid</s>
+</p>
+<p>
+<s>( 1 ) Liiklusregister koosneb :</s>
+</p>
+<p>
+<s>1 ) s&otilde;idukite andmebaasist ;</s>
+</p>
+<p>
+<s>2 ) juhilubade andmebaasist .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;idukite andmebaasis peetakse arvestust Eestis registreeritud mootors&otilde;idukite , nende haagiste ja k&auml;esoleva seaduse &sect;-s 68 nimetatud maastikus&otilde;idukite ning nende omanike ja &otilde;igustatud kasutajate , samuti s&otilde;idukite kasutamisele seatud piirangute &uuml;le .</s>
+</p>
+<p>
+<s>( 3 ) Juhilubade andmebaasis peetakse arvestust juhtimis&otilde;iguse andmise , peatamise , &auml;rav&otilde;tmise , t&uuml;histamise ja taastamise , samuti Eestis v&auml;ljaantud juhilubade ja muude juhtimis&otilde;igust t&otilde;endavate dokumentide &uuml;le .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Liiklusregistrisse andmete esitajad</s>
+</p>
+<p>
+<s>( 1 ) Liiklusregistrisse andmete esitajaks on :</s>
+</p>
+<p>
+<s>1 ) s&otilde;iduki omanik v&otilde;i tema esindaja ;</s>
+</p>
+<p>
+<s>2 ) juhtimis&otilde;iguse v&otilde;i juhiloa taotleja ;</s>
+</p>
+<p>
+<s>3 ) ametiasutus v&otilde;i kohus juhtimis&otilde;iguse peatamisel , &auml;rav&otilde;tmisel ja t&uuml;histamisel ;</s>
+</p>
+<p>
+<s>4 ) k&auml;sutamispiiranguid kohaldama &otilde;igustatud isikud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas seaduses etten&auml;htud &uuml;lesannete t&auml;itmiseks on teede- ja sideministri m&auml;&auml;ratud asutusel &otilde;igus n&otilde;uda ja seadustes nimetatud andmete esitajatel kohustus esitada t&otilde;eseid andmeid &otilde;igusaktidega kehtestatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>( 3 ) Ametiasutus v&otilde;i kohus , kes on teinud otsuse isikult mootors&otilde;iduki v&otilde;i trammi juhtimise &otilde;iguse &auml;rav&otilde;tmise kohta , saadab otsuse &auml;rakirja teede- ja sideministri m&auml;&auml;ratud asutusele hiljemalt j&auml;rgmisel t&ouml;&ouml;p&auml;eval otsuse tegemisest arvates .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Juurdep&auml;&auml;s liiklusregistrisse kantud andmetele</s>
+</p>
+<p>
+<s>( 1 ) F&uuml;&uuml;silisel ja juriidilisel isikul on &otilde;igus juurde p&auml;&auml;seda &uuml;ksnes nendega seotud registriandmetele .</s>
+</p>
+<p>
+<s>( 2 ) Riigi- ja kohaliku omavalitsuse asutusel on &otilde;igus juurde p&auml;&auml;seda seadustekohaste &uuml;lesannete t&auml;itmiseks vajalikele andmetele .</s><s>Riigiga lepingu alusel avalikku &uuml;lesannet t&auml;itval isikul on &otilde;igus juurde p&auml;&auml;seda andmetele , mis on talle vajalikud avalike &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 3 ) Teaduslikul eesm&auml;rgil v&otilde;i muu &otilde;igustatud huvi puhul andmetele juurdep&auml;&auml;su korra kehtestab registri vastutav t&ouml;&ouml;tleja .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Riigiv&otilde;imu teostamine s&otilde;idukite ja juhilubadega seotud toimingute puhul</s>
+</p>
+<p>
+<s>( 1 ) Teede- ja sideminister m&auml;&auml;rab asutuse , kes riigiv&otilde;imu teostamisel :</s>
+</p>
+<p>
+<s>1 ) korraldab mootors&otilde;iduki ja trammi juhtimise &otilde;iguse saamiseks v&otilde;i taastamiseks n&otilde;utavad eksamid ja otsustab eksamitulemused , annab mootors&otilde;iduki ja trammi juhtimise &otilde;iguse ning annab v&auml;lja , vahetab ja n&otilde;uab tagasi juhilube ;</s>
+</p>
+<p>
+<s>2 ) t&uuml;histab juhtimis&otilde;iguse seadusega etten&auml;htud juhtudel ja tingimustel ;</s>
+</p>
+<p>
+<s>3 ) korraldab ja teostab mootors&otilde;idukite , trammide ja nende haagiste ning nende osade ja varustuse tehnilist ekspertiisi , katsetamist ja t&uuml;&uuml;bikinnitamist ;</s>
+</p>
+<p>
+<s>4 ) korraldab ja teostab maastikus&otilde;idukite ning nende osade ja varustuse tehnilist ekspertiisi ja katsetamist ;</s>
+</p>
+<p>
+<s>5 ) korraldab ja teostab mootors&otilde;idukite , trammide ja nende haagiste ning maastikus&otilde;idukite varustuse tehnoseisundi n&otilde;uetele vastavuse kontrolli ;</s>
+</p>
+<p>
+<s>6 ) registreerib mootors&otilde;idukeid , nende haagiseid ja maastikus&otilde;idukeid , v&auml;ljastab nende registreerimism&auml;rke ja registreerimistunnistusi ning vormistab registrimuudatusi .</s>
+</p>
+<p>
+<s>( 2 ) Teede- ja sideminister v&otilde;ib volitada tema m&auml;&auml;ratud asutust s&otilde;lmima &auml;ri&uuml;hingutega lepinguid mootors&otilde;idukite , trammide ja nende haagiste ning maastikus&otilde;idukite tehnoseisundi n&otilde;uetele vastavuse kontrollimiseks .</s><s>Lepingu kohustuslikud tingimused kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>S&otilde;iduki tehnoseisundit kontrollivale &auml;ri&uuml;hingule esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 66 l&otilde;ikes 2 nimetatud &auml;ri&uuml;hingul peavad olema :</s>
+</p>
+<p>
+<s>1 ) tervisekaitsen&otilde;uetele ja kontrollitavatele s&otilde;idukitele vastavad ruumid ja territoorium v&otilde;i nende kasutamise v&otilde;imalus ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect; 13 l&otilde;ike 3 kohaselt kehtestatud eeskirja n&otilde;uetele vastavad t&ouml;&ouml;tajad , seadmed , vahendid , m&otilde;&otilde;teriistad ja inventar .</s>
+</p>
+<p>
+<s>( 2 ) Lepingut ei s&otilde;lmita &auml;ri&uuml;hinguga , kellega on viimase kahe aasta jooksul katkestatud k&auml;esoleva seaduse &sect; 66 l&otilde;ikes 2 nimetatud leping &auml;ri&uuml;hingu poolt toimepandud rikkumiste t&otilde;ttu .</s>
+</p>
+<p>
+<s>13. peat&uuml;kk</s>
+</p>
+<p>
+<s>Maastikus&otilde;idukite liiklus</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Maastikus&otilde;iduk</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse t&auml;henduses on maastikus&otilde;iduk mootori j&otilde;ul maastikul liikumiseks etten&auml;htud liiklusvahend , mis ei ole k&auml;esoleva seaduse t&auml;henduses mootors&otilde;iduk ja mis kuulub registreerimisele teede- ja sideministri m&auml;&auml;ratud korras .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Maastikus&otilde;iduki registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Registreerimisele kuuluvate maastikus&otilde;idukite loetelu kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 2 ) Maastikus&otilde;iduki registreerimise ja tehnoseisundi kontrollimise eeskirjad ning n&otilde;uded maastikus&otilde;iduki tehnoseisundile ja varustusele kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Registreeritud maastikus&otilde;idukil peab olema vastav riiklik registreerimism&auml;rk .</s>
+</p>
+<p>
+<s>( 4 ) Kaitsej&otilde;udude maastikus&otilde;idukite registreerimise ja tehnoseisundi kontrollimise eeskirjad ning n&otilde;uded tehnoseisundile ja varustusele kehtestab kaitseminister .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Maastikus&otilde;idukiga liiklemine</s>
+</p>
+<p>
+<s>( 1 ) Maastikus&otilde;idukiga ei v&otilde;i s&otilde;ita teel .</s>
+</p>
+<p>
+<s>( 2 ) Maastikus&otilde;idukiga on lubatud s&otilde;ita teel j&otilde;gede , teede ja muude takistuste &uuml;letamiskohtades ning lumega kaetud teel , mis ei ole mootors&otilde;idukitele ajutiselt l&auml;bitav .</s><s>Teel liikudes ei v&otilde;i s&otilde;ita kiiremini kui 50 kilomeetrit tunnis .</s>
+</p>
+<p>
+<s>( 3 ) Maastikul v&otilde;ib maastikus&otilde;idukiga s&otilde;ita v&otilde;i seda parkida &uuml;ksnes maavaldaja loal .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud luba ei n&otilde;uta :</s>
+</p>
+<p>
+<s>1 ) politsei- , tolli- ja piirivalvet&ouml;&ouml;tajatelt ameti&uuml;lesannete t&auml;itmisel ;</s>
+</p>
+<p>
+<s>2 ) haige toimetamisel haiglasse ;</s>
+</p>
+<p>
+<s>3 ) tulekustutus- v&otilde;i p&auml;&auml;stet&ouml;&ouml;de tegijatelt ;</s>
+</p>
+<p>
+<s>4 ) muudel juhtudel , mis on seotud ameti&uuml;lesannete t&auml;itmisega , nagu elektri- ja sideliinide hooldus- ja parandust&ouml;&ouml;de tegemine jms.</s>
+</p>
+<p>
+<s>( 5 ) Maastikus&otilde;idukit v&otilde;ib juhtida isik , kellel on mis tahes kategooria mootors&otilde;iduki juhtimise &otilde;igus .</s><s>Maastikus&otilde;iduki juhtimisel peab juhil olema kaasas juhiluba ja maastikus&otilde;iduki registreerimistunnistus .</s>
+</p>
+<p>
+<s>( 6 ) Maastikus&otilde;idukite liiklemise eeskirja kehtestab Vabariigi Valitsus .</s><s>Kohalikul omavalitsusel on &otilde;igus maastikus&otilde;idukite liiklemisele kehtestada t&auml;iendavaid n&otilde;udeid oma valla v&otilde;i linna territooriumil .</s>
+</p>
+<p>
+<s>14. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eris&auml;tted</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Eritalituse s&otilde;iduk</s>
+</p>
+<p>
+<s>( 1 ) Eritalituse s&otilde;iduk on :</s>
+</p>
+<p>
+<s>1 ) kiireloomulisi ameti- v&otilde;i t&ouml;&ouml;&uuml;lesandeid t&auml;itev s&otilde;iduk ( edaspidi alarms&otilde;iduk ) ;</s>
+</p>
+<p>
+<s>2 ) teehoiu&uuml;lesandeid ja teel m&ouml;&ouml;dap&auml;&auml;smatuid t&ouml;&ouml;&uuml;lesandeid t&auml;itev s&otilde;iduk ( edaspidi hoolduss&otilde;iduk ) ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;iduk , mida j&auml;litusametkonna v&otilde;i tema halduses oleva asutuse j&auml;litustegevusega tegelev t&ouml;&ouml;taja kasutab j&auml;litustegevuse seaduses ( RT I 1994 , 16 , 290 ; 1995 , 15 , 173 ; 1996 , 49 , 955 ; 1997 , 81 , 1361 ; 93 , 1557 ; 1998 , 47 , 698 ; 50 , 753 ; 51 , 756 ; 61 , 981 ; 98/99 , 1575 ; 101 , 1663 ; 1999 , 16 , 271 ; 31 , 425 ; 95 , 845 ; 2000 , 35 , 222 ; 40 , 251 ; 102 , 671 ) etten&auml;htud j&auml;litustegevuse eri- v&otilde;i erandtoimingu teostamisel ( edaspidi j&auml;lituss&otilde;iduk ) .</s>
+</p>
+<p>
+<s>( 2 ) Alarms&otilde;iduki juht , kelle s&otilde;idukil on sisse l&uuml;litatud sinine vilkur koos erilise helisignaaliga v&otilde;i helisignaalita , v&otilde;ib ameti&uuml;lesannete t&auml;itmisel eirata k&auml;esoleva seaduse &sect; 47 l&otilde;igetes 1-4 nimetatud suurimat lubatud s&otilde;idukiirust .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;lituss&otilde;iduki juht v&otilde;ib k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 3 nimetatud toimingute teostamisel eirata k&auml;esoleva seaduse &sect; 47 l&otilde;igetes 1-4 nimetatud suurimat lubatud s&otilde;idukiirust erisignaale kasutamata .</s>
+</p>
+<p>
+<s>( 4 ) Hoolduss&otilde;iduki juht , kelle s&otilde;idukil on sisse l&uuml;litatud kollane vilkur , v&otilde;ib t&ouml;&ouml;&uuml;lesannete t&auml;itmisel eirata k&auml;esoleva seaduse &sect; 3 l&otilde;ikes 1 nimetatud n&otilde;uet .</s>
+</p>
+<p>
+<s>( 5 ) Eritalituse s&otilde;iduki juht peab k&auml;esolevas paragrahvis nimetatud &otilde;igusi kasutades tagama liikluse ohutuse .</s>
+</p>
+<p>
+<s>( 6 ) Teised liiklejad peavad eritalituse s&otilde;idukile , millel on sisse l&uuml;litatud vilkur koos erisignaaliga v&otilde;i erisignaalita , ja sellise s&otilde;iduki poolt saadetavale s&otilde;idukile andma teed v&otilde;i vajaduse korral peatuma .</s>
+</p>
+<p>
+<s>( 7 ) Eritalituse s&otilde;idukite loetelu , nende t&auml;histamise ja liiklemise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Tramm</s>
+</p>
+<p>
+<s>( 1 ) Trammi ja selle haagise registreerimise ja tehnoseisundi kontrollimise eeskirjad ning n&otilde;uded trammi ja selle haagise tehnoseisundile ja varustusele kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 2 ) Trammi v&otilde;ib juhtida isik , kellel on B-kategooria auto ja trammi juhtimise &otilde;igus ja kes on v&auml;hemalt 21-aastane .</s><s>Trammi juhtimist v&otilde;ib &otilde;ppida isik , kes on v&auml;hemalt 20,5 -aastane ja kellel on B-kategooria auto juhtimise &otilde;igus .</s>
+</p>
+<p>
+<s>( 3 ) Trammi juhtimise &otilde;iguse annab teede- ja sideministri m&auml;&auml;ratud asutus .</s>
+</p>
+<p>
+<s>( 4 ) N&otilde;uded trammijuhi terviseseisundile ja kutsesobivusele kehtestab sotsiaalminister .</s><s>Trammijuhi kvalifikatsioonin&otilde;uded , trammijuhi ettevalmistamise , eksamineerimise ja temale trammi juhtimise &otilde;iguse andmise eeskirjad ning trammi juhtimisel kohustuslikult kaasas olevate dokumentide loetelu kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 5 ) Trammi juhtimise &otilde;igus peatatakse , v&otilde;etakse &auml;ra , t&uuml;histatakse ja taastatakse k&auml;esolevas seaduses mootors&otilde;iduki juhtimise &otilde;iguse peatamise , &auml;rav&otilde;tmise , t&uuml;histamise ja taastamise kohta s&auml;testatu kohaselt .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Erin&otilde;uded mootors&otilde;idukitega seotud &otilde;igustoimingutele</s>
+</p>
+<p>
+<s>Kui kohalik omavalitsus on kehtestanud mootors&otilde;idukimaksu v&otilde;i kui mootors&otilde;iduki eest tuleb tasuda raskeveokimaksu , ei saa vastava maksu tasumist t&otilde;endavat dokumenti esitamata :</s>
+</p>
+<p>
+<s>1 ) teha muudatusi mootors&otilde;iduki registreerimisandmetes ;</s>
+</p>
+<p>
+<s>2 ) kustutada mootors&otilde;idukit registrist v&otilde;&otilde;randamise eesm&auml;rgil ;</s>
+</p>
+<p>
+<s>3 ) v&auml;ljastada esmakordselt riiklikku registrisse kantud mootors&otilde;iduki omanikule v&otilde;i tema esindajale mootors&otilde;iduki riiklikku registreerimistunnistust ega riiklikku registreerimism&auml;rki .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Seaduse laienemine v&auml;lismaalasele ja v&auml;lismaal registreeritud s&otilde;idukile</s>
+</p>
+<p>
+<s>K&auml;esolev seadus laieneb Eesti territooriumil viibivale v&auml;lismaalasest liiklejale ja v&auml;lismaal registreeritud s&otilde;idukile , kui konventsioonide v&otilde;i rahvusvaheliste lepingutega ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>15. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>T&auml;htajata juhilubade kehtivus</s>
+</p>
+<p>
+<s>T&auml;htajata auto- ja mootorrattajuhiload , mis on v&auml;lja antud Eestis elavatele isikutele Eestis v&otilde;i endise N&otilde;ukogude Liidu territooriumil , kehtivad 2001. aasta 30. juunini .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Mootors&otilde;iduki registreerimisdokumentide kehtivus</s>
+</p>
+<p>
+<s>Eestis enne 1993. aasta 1. novembrit v&auml;ljaantud mootors&otilde;idukite ja nende haagiste tehnilised passid , tehnilised talongid ja registreerimistunnistused kehtivad 2001. aasta 30. juunini .</s><s>Kui 2002. aasta 1. jaanuariks ei ole nimetatud dokumendid uuendatud , kustutatakse mootors&otilde;iduk ja selle haagis liiklusregistrist .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Mootors&otilde;idukijuhi &otilde;petaja kvalifikatsioonin&otilde;uete rakendumine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect; 36 l&otilde;ikes 2 nimetatud n&otilde;uded mootors&otilde;idukijuhi &otilde;petaja kvalifikatsioonile rakenduvad 2002. aasta 1. juulil .</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Varasema &otilde;igusakti kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse j&otilde;ustumise p&auml;evast tunnistatakse seni kehtinud liiklusseadus ( RT 1992 , 12 , 193 ; RT I 1995 , 2/3 , 3 ; 1996 , 16 , 268 ; 1997 , 86 , 1459 ; 1999 , 16 , 272 ; 2000 , 81 , 515 ) kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2001. aasta 1. veebruaril .</s>
+</p>
+<p>
+<s>Lisa 1</s>
+</p>
+<p>
+<s>Mootors&otilde;idukite kategooriad vastavalt juhtimis&otilde;igusele</s>
+</p>
+<p>
+<table>
+<row><cell> <lb>Kategooria</cell><cell> <lb>S&otilde;iduki liik ja iseloomustus</cell></row> <row><cell> <lb>1. P&otilde;hikategooriad</cell></row> <row><cell> <lb>A</cell><cell> <lb>mootorratas k&uuml;lghaagisega v&otilde;i k&uuml;lghaagiseta</cell></row> <row><cell> <lb>B</cell><cell> <lb>auto , mille registrimass ei &uuml;leta 3500 kg ja millel peale juhikoha ei ole rohkem kui kaheksa istekohta ; sama auto koos kerghaagisega</cell></row> <row><cell></cell><cell> <lb>B-kategooria auto koos haagisega , kui autorongi registrimass ei &uuml;leta 3500 kg ja haagise registrimass ei &uuml;leta veduki t&uuml;himassi</cell></row> <row><cell> <lb>BE</cell><cell> <lb>autorong , mille veduk on B-kategooria auto ja mille haagise registrimass on suurem B-kategoorias nimetatust</cell></row> <row><cell> <lb>C</cell><cell> <lb>auto , mis ei kuulu D-kategooriasse ja mille registrimass on &uuml;le 3500 kg ; sama auto koos kerghaagisega</cell></row> <row><cell> <lb>CE</cell><cell> <lb>autorong , mille veduk on C-kategooria auto ja mille haagise registrimass on suurem kui kerghaagisel</cell></row> <row><cell> <lb>D</cell><cell> <lb>auto , millel peale juhikoha on rohkem kui kaheksa istekohta ja mis on ette n&auml;htud s&otilde;itjate veoks ; sama auto koos kerghaagisega</cell></row> <row><cell> <lb>DE</cell><cell> <lb>autorong , mille veduk on D-kategooria auto ja mille haagise registrimass on suurem kui kerghaagisel</cell></row> <row><cell> <lb>R</cell><cell> <lb>juhitava esisillaga ratastraktor v&otilde;i liikurmasin haagisega v&otilde;i haagiseta , mille suurim valmistajakiirus &uuml;letab 6 km/h , kuid ei &uuml;leta 40 km/h</cell></row> <row><cell> <lb>T</cell><cell> <lb>liigendraamiga ratastraktor v&otilde;i juhitava tagasillaga liikurmasin haagisega v&otilde;i haagiseta ja muu R-kategooriasse mittekuuluv ratastraktor v&otilde;i liikurmasin , mille suurim valmistajakiirus &uuml;letab 6 km/h , kuid ei &uuml;leta 40 km/h</cell></row> <row><cell> <lb>2. Alamkategooriad</cell></row> <row><cell> <lb>A1</cell><cell> <lb>mootorratas , mille mootori t&ouml;&ouml;maht ei &uuml;leta 125 cm <hi rend="sup">3</hi> ja v&otilde;imsus ei &uuml;leta 11 kW</cell></row> <row><cell> <lb>B1</cell><cell> <lb>kolme- v&otilde;i neljarattaline auto , mille t&uuml;himass ei &uuml;leta 550 kg ja valmistajakiirus on &uuml;le 50 km/h v&otilde;i millel on sisep&otilde;lemismootor t&ouml;&ouml;mahuga &uuml;le 50 cm <hi rend="sup">3</hi> v&otilde;i m&otilde;ni muu vastava v&otilde;imsusega mootor . Elektrilise ajamiga s&otilde;idukite t&uuml;himassi puhul ei arvestata aku massi</cell></row> <row><cell> <lb>C1</cell><cell> <lb>auto , mis ei kuulu D-kategooriasse ja mille registrimass on &uuml;le 3500 kg , kuid ei &uuml;leta 7500 kg ; sama auto koos kerghaagisega</cell></row> <row><cell> <lb>C1E</cell><cell> <lb>autorong , mille veduk on C1-alamkategooria auto , kui autorongi registrimass ei &uuml;leta 12 000 kg ja haagise registrimass on suurem kui kerghaagisel , kuid ei &uuml;leta veduki t&uuml;himassi</cell></row> <row><cell> <lb>D1</cell><cell> <lb>auto , millel peale juhikoha on rohkem kui kaheksa , kuid mitte rohkem kui 16 istekohta ja mis on ette n&auml;htud s&otilde;itjate veoks ; sama auto koos kerghaagisega</cell></row> <row><cell> <lb>D1E</cell><cell> <lb>autorong , mille veduk on D1-alamkategooria auto , kui autorongi registrimass ei &uuml;leta 12 000 kg ja haagise registrimass on suurem kui kerghaagisel , kuid ei &uuml;leta veduki t&uuml;himassi . Haagist ei v&otilde;i kasutada s&otilde;itjate veoks</cell></row>
+</table>
+</p>
+<p>
+<s>K&auml;esolevas seaduses tuleb termineid m&otilde;ista allj&auml;rgnevalt :</s>
+</p>
+<p>
+<s>Auto on s&otilde;itjate v&otilde;i veoste veoks v&otilde;i s&otilde;idukite haakes vedamiseks v&otilde;i erit&ouml;&ouml;de tegemiseks etten&auml;htud v&auml;hemalt neljarattaline mootors&otilde;iduk , mille valmistajakiirus &uuml;letab 25 km/h .</s><s>Autoks loetakse ka kolmerattalist mootors&otilde;idukit ja elektrikontaktliiniga &uuml;hendatud r&ouml;&ouml;basteta s&otilde;idukit .</s><s>Autoks ei loeta mopeedi , mootorratast , traktorit ega liikurmasinat .</s>
+</p>
+<p>
+<s>Autorong on autost ja &uuml;hest v&otilde;i enamast haagisest koostatud s&otilde;idukite kombinatsioon .</s>
+</p>
+<p>
+<s>Eriv&otilde;imsus on mootori v&otilde;imsuse ja s&otilde;iduki t&uuml;himassi suhe .</s>
+</p>
+<p>
+<s>Haagis on mootors&otilde;idukiga haakes liikumiseks valmistatud v&otilde;i selleks kohandatud s&otilde;iduk .</s>
+</p>
+<p>
+<s>Kerghaagis on haagis , mille registrimass ei &uuml;leta 750 kg .</s>
+</p>
+<p>
+<s>Liikurmasin on ratastel liikuv teatud kindla t&ouml;&ouml; tegemiseks etten&auml;htud mootors&otilde;iduk , mille suurim valmistajakiirus &uuml;letab 6 km/h , kuid ei &uuml;leta 40 km/h .</s><s>Liikurmasinaks ei loeta auto alusel valmistatud erit&ouml;&ouml;masinat .</s>
+</p>
+<p>
+<s>Mootorratas on k&uuml;lghaagisega v&otilde;i k&uuml;lghaagiseta kaherattaline mootors&otilde;iduk , mille sisep&otilde;lemismootori t&ouml;&ouml;maht on &uuml;le 50 cm <hi rend="sup">3</hi> v&otilde;i valmistajakiirus on &uuml;le 45 km/h .</s>
+</p>
+<p>
+<s>Mopeed on kahe- v&otilde;i kolmerattaline s&otilde;iduk , mille sisep&otilde;lemismootori t&ouml;&ouml;maht ei &uuml;leta 50 cm <hi rend="sup">3</hi> ja valmistajakiirus ei &uuml;leta 45 km/h .</s>
+</p>
+<p>
+<s>Ratastraktor on mootors&otilde;iduk , millel on rattad ja v&auml;hemalt kaks telge ja mille suurim valmistajakiirus &uuml;letab 6 km/h , kuid ei &uuml;leta 40 km/h .</s><s>Ratastraktori p&otilde;hifunktsiooniks on sellel paikneva v&otilde;i sellega haakes oleva masina v&otilde;i riistaga t&ouml;&ouml;tamine , paikse masina k&auml;itamine v&otilde;i haagise vedamine .</s>
+</p>
+<p>
+<s>Registrimass on juhi , s&otilde;itjate ja veosega t&auml;isvarustuses s&otilde;idukile registreerimisel m&auml;&auml;ratud suurim mass , mis ei v&otilde;i &uuml;letada valmistaja lubatud suurimat massi .</s>
+</p>
+<p>
+<s>Tegelik mass on s&otilde;iduki mass antud hetkel koos juhi , s&otilde;itjate ja veosega .</s>
+</p>
+<p>
+<s>T&uuml;himass on juhi , s&otilde;itjate ja veoseta t&auml;isvarustuses s&otilde;iduki mass , mille on m&auml;&auml;ranud valmistaja .</s>
+</p>
+<p>
+<s>Lisa 2</s>
+</p>
+<p>
+<s>Liikumispuudega inimese s&otilde;iduki parkimiskaart</s>
+</p>
+<p>
+<s>Esik&uuml;lg</s>
+</p>
+<p>
+<s>Puudega inimese s&otilde;iduki parkimiskaart</s>
+</p>
+<p>
+<s>Nr 000000</s>
+</p>
+<p>
+<s>Parking card for people with disabilities</s>
+</p>
+<p>
+<s>Kehtiv kuni &ldquo;</s>.....&rdquo;.....<s>20 ...</s><s>a.</s>
+</p>
+<p>
+<s>V&auml;ljaandja</s>
+</p>
+<p>
+<s>PK</s>
+</p>
+<p>
+<s>M&otilde;&otilde;t 106 x 148 mm , taust helesinine</s>
+</p>
+<p>
+<s>Tagak&uuml;lg</s>
+</p>
+<p>
+<s>Perekonnanimi</s>.....
+</p>
+<p>
+<s>Eesnimed</s>.....<s>Isikukood</s>.....
+</p>
+<p>
+<s>Omaniku foto</s>
+</p>
+<p>
+.....
+</p>
+<p>
+<s>Omaniku allkiri</s>
+</p>
+<p>
+<s>Liikumispuudega juht v&otilde;ib</s>
+</p>
+<p>
+<s>- asulas peatuda ja parkida peatumist ja parkimist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas tingimusel , et seisev s&otilde;iduk asub t&auml;ielikult k&otilde;nniteel , j&auml;ttes jalak&auml;ijale vabaks v&auml;hemalt 1,5 meetri laiuse k&auml;iguriba .</s><s>Kirjeldatud luba ei kehti teel&otilde;igul , mis on t&auml;histatud peatumise keelujoonega</s>
+</p>
+<p>
+<s>- parkida parkimist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas piiratud parkimisajaga parklas etten&auml;htust kauem</s>
+</p>
+<p>
+<s>- parkida &otilde;ueala teel v&auml;ljaspool parklat kohas , kus see ei takista jalak&auml;ijaid ega muuda v&otilde;imatuks teiste s&otilde;idukite liiklust</s>
+</p>
+<p>
+<s>- parkida tasuta avalikes tasulistes parkimiskohtades</s>
+</p>
+<p>
+<s>Liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juht</s>
+</p>
+<p>
+<s>- v&otilde;ib asulas peatuda peatumist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas liikumispuudega v&otilde;i pimeda inimese s&otilde;idukisse pealev&otilde;tmiseks v&otilde;i s&otilde;idukist v&auml;ljalaskmiseks</s>
+</p>
+<p>
+<s>- kes talutab liikumispuudega v&otilde;i pimedat inimest soovitud kohta ja tagasi , v&otilde;ib asulas peatuda k&otilde;nniteel &uuml;laltoodud tingimustel</s>
+</p>
+</body>
+   </text>
+</tei.2>

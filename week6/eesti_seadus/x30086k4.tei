@@ -1,0 +1,553 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Keeleseadus ( terviktekst jaan 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    2429</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Keeleseadus ( terviktekst jaan 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=4></tagusage>
+         <tagusage gi=p occurs=149></tagusage>
+         <tagusage gi=s occurs=197></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Keeleseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 21. veebruaril 1995</s>
+</p>
+<p>
+<s>( RT I 1995 , 23 , 334 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. aprillil 1995. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>17.01.2002 j&otilde;ust.01.02.2002 - RT I 2002 , 9 , 47 ;</s>
+</p>
+<p>
+<s>14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 ;</s>
+</p>
+<p>
+<s>13.06.2001 j&otilde;ust.22.07.2001 - RT I 2001 , 65 , 375 ;</s>
+</p>
+<p>
+<s>06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 354 ;</s>
+</p>
+<p>
+<s>14.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 326 ;</s>
+</p>
+<p>
+<s>09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 ;</s>
+</p>
+<p>
+<s>15.12.98 j&otilde;ust.17.01.99 - RT I 1999 , 1 , 1 ;</s>
+</p>
+<p>
+<s>10.09.97 j&otilde;ust.04.10.97 - RT I 1997 , 69 , 1110 ;</s>
+</p>
+<p>
+<s>28.05.96 j&otilde;ust.08.06.96 - RT I 1996 , 40 , 773 ;</s>
+</p>
+<p>
+<s>16.05.96 j&otilde;ust.08.06.96 - RT I 1996 , 37 , 739.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Eesti keele staatus</s>
+</p>
+<p>
+<s>( 1 ) Eesti riigikeel on eesti keel .</s>
+</p>
+<p>
+<s>( 2 ) Eesti keele ametliku kasutuse aluseks k&auml;esoleva seaduse m&otilde;ttes on eesti kirjakeele norm Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>V&otilde;&otilde;rkeel</s>
+</p>
+<p>
+<s>( 1 ) Iga muu keel peale eesti keele on k&auml;esoleva seaduse m&otilde;ttes v&otilde;&otilde;rkeel .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;hemusrahvuse keel on v&otilde;&otilde;rkeel , mida v&auml;hemusrahvusest Eesti kodanikud on Eestis p&otilde;liselt kasutanud emakeelena .</s>
+</p>
+<p>
+<s>&sect; 2 <hi rend="sup">1</hi> .</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadusega reguleeritakse eesti keele oskuse n&otilde;udeid ning eesti keele ja v&otilde;&otilde;rkeelte kasutamist .</s>
+</p>
+<p>
+<s>( 2 ) &Auml;ri&uuml;hingute , mittetulundus&uuml;hingute , sihtasutuste ja nende t&ouml;&ouml;tajate ning f&uuml;&uuml;silisest isikust ettev&otilde;tjate eesti keele kasutamist reguleeritakse juhul , kui see on &otilde;igustatud avalikes huvides , milleks k&auml;esoleva seaduse m&otilde;ttes on &uuml;hiskonna turvalisus , avalik kord , avalik haldus , rahvatervis , tervisekaitse , tarbijakaitse ja t&ouml;&ouml;ohutus .</s><s>Eesti keele oskuse ja kasutamise n&otilde;ude kehtestamine peab olema p&otilde;hjendatud ning proportsionaalne taotletava eesm&auml;rgiga ega tohi moonutada piiratavate &otilde;iguste olemust .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 326 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Asjaajamiskeel</s>
+</p>
+<p>
+<s>( 1 ) Riigiasutuse , kohaliku omavalitsuse ja tema asutuste ( edaspidi kohaliku omavalitsuse ) asjaajamiskeel ning Eesti kaitsej&otilde;udude teenistus- ja k&auml;skluskeel on eesti keel .</s><s>Erandid s&auml;testatakse k&auml;esoleva seaduse 2. , 3. ja 4. peat&uuml;kis .</s>
+</p>
+<p>
+<s>( 2 ) Keelte kasutamine kohtueelses menetluses ja kohtumenetluses s&auml;testatakse vastavate seadustega .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Eesti keele kasutamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Iga&uuml;hel on &otilde;igus eestikeelsele asjaajamisele ja suhtlemisele riigiasutustes , kohalikes omavalitsustes , notari , kohtut&auml;ituri ja vandet&otilde;lgi b&uuml;roos , kultuuriomavalitsustes ning asutustes , &auml;ri&uuml;hingutes , mittetulundus&uuml;hingutes ja sihtasutustes .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 2 ) Asutuste , ettev&otilde;tete ja organisatsioonide k&otilde;igile t&ouml;&ouml;tajatele peab olema tagatud eestikeelne t&ouml;&ouml;alane teave .</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Eesti keele oskuse ja eesti keele kasutamise n&otilde;uded</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 15.12.98 j&otilde;ust.17.01.99 - RT I 1999 , 1 , 1 )</s>
+</p>
+<p>
+<s>( 2 ) Avalikud teenistujad ning valitsusasutuste hallatavate riigiasutuste ja kohaliku omavalitsuse asutuste t&ouml;&ouml;tajad , samuti avalik-&otilde;iguslike juriidiliste isikute ja nende asutuste t&ouml;&ouml;tajad , notar , kohtut&auml;itur , vandet&otilde;lk ja nende b&uuml;roo t&ouml;&ouml;tajad peavad oskama ja kasutama eesti keelt tasemel , mis on vajalik teenistuskohustuste v&otilde;i t&ouml;&ouml;&uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 3 ) &Auml;ri&uuml;hingute , mittetulundus&uuml;hingute ja sihtasutuste t&ouml;&ouml;tajatele ning f&uuml;&uuml;silisest isikust ettev&otilde;tjatele s&auml;testatakse eesti keele oskuse n&otilde;ue t&ouml;&ouml;&uuml;lesannete t&auml;itmiseks vajalikul tasemel juhul , kui see on &otilde;igustatud k&auml;esoleva seaduse &sect; 2 <hi rend="sup">1</hi> l&otilde;ikes 2 nimetatud avalikes huvides .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 326 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 nimetatud avalikele teenistujatele , t&ouml;&ouml;tajatele ja f&uuml;&uuml;silisest isikust ettev&otilde;tjatele kehtestab kohustusliku keeleoskustaseme Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>( 5 ) Eesti keele oskust n&otilde;utakse &uuml;hel kolmest keeleoskustasemest :</s>
+</p>
+<p>
+<s>1 ) algtase - eesti keele piiratud suuline ja elementaarne kirjalik oskus .</s><s>Isik tuleb toime tuttavates keelekasutusolukordades , saab aru selgest k&otilde;nest igap&auml;evaelu puudutavatel teemadel , m&otilde;istab &uuml;ldjoontes lihtsama teksti sisu ning oskab t&auml;ita lihtsaid t&uuml;&uuml;pdokumente ja kirjutada l&uuml;hikesi tarbetekste ;</s>
+</p>
+<p>
+<s>2 ) kesktase - eesti keele suuline ja piiratud kirjalik oskus .</s><s>Isik tuleb toime mitmekesistes keelekasutusolukordades , saab aru normaalse tempoga k&otilde;nest , m&otilde;istab raskusteta igap&auml;evaelu kajastavate tekstide sisu , suudab kirjutada oma tegevusvaldkonda puudutavaid tekste ;</s>
+</p>
+<p>
+<s>3 ) k&otilde;rgtase - eesti keele suuline ja kirjalik oskus .</s><s>Isik v&auml;ljendab ennast vabalt , s&otilde;ltumata keelekasutusolukorrast , saab aru ka kiire tempoga k&otilde;nest , m&otilde;istab raskusteta keerulisemate tekstide sisu , suudab kirjutada stiililt ja funktsioonilt erinevaid tekste .</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>( 6 ) Eesti keele oskuse n&otilde;udeid ei kohaldata isikule , kes t&ouml;&ouml;tab Eestis t&auml;htajaliselt v&auml;liseksperdi v&otilde;i v&auml;lisspetsialistina .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 326 )</s>
+</p>
+<p>
+<s>&sect; 5 <hi rend="sup">1</hi> .</s><s>Eesti keele tasemeeksam</s>
+</p>
+<p>
+<s>( 1 ) Eesti keele oskust hindavad eesti keele tasemeeksamitel riiklikud eksamikomisjonid .</s><s>Riiklike eksamikomisjonide koosseisu kinnitab ja eesti keele tasemeeksami l&auml;biviimise korra kehtestab haridusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;&otilde;rkeelse p&otilde;hikooli ja g&uuml;mnaasiumi eesti keele l&otilde;pueksami ja eesti keele tasemeeksami &uuml;hitamise tingimused kehtestab haridusminister .</s><s>Kodakondsuse taotleja eesti keele eksami ja eesti keele tasemeeksami &uuml;hitamise tingimused kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) P&otilde;hihariduse baasil kutsekeskharidust omandavate muu &otilde;ppekeelega &otilde;ppegruppide l&otilde;petajate eesti keele riigieksami ja eesti keele tasemeeksami &uuml;hitamise tingimused kehtestab haridusminister .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.22.07.2001 - RT I 2001 , 65 , 375 )</s>
+</p>
+<p>
+<s>( 3 ) Eesti keele tasemeeksamit ei pea sooritama isikud , kes on omandanud p&otilde;hi- , kesk- , keskeri- v&otilde;i k&otilde;rghariduse eesti keeles .</s>
+</p>
+<p>
+<s>( 4 ) Eesti keele tasemeeksamit sooritada soovivatel isikutel on &otilde;igus saada Vabariigi Valitsuse poolt kehtestatud ulatuses ja korras tasuta eesti keele tasemeeksami eelseid konsultatsioone , mille kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 5 ) Eesti keele tasemeeksami sooritanud isikule v&auml;ljastatakse eesti keele oskuse tunnistus , mille vormi kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Hariduse omandamine eesti ja v&otilde;&otilde;rkeeles</s>
+</p>
+<p>
+<s>Riigiasutused ja kohalikud omavalitsused tagavad seaduses etten&auml;htud korras eestikeelse hariduse omandamise v&otilde;imaluse k&otilde;igis neile kuuluvates &otilde;ppeasutustes , samuti v&otilde;&otilde;rkeelse hariduse omandamise v&otilde;imaluse seaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>V&otilde;&otilde;rkeelte kasutamine riigiasutustes ja kohalikes omavalitsustes</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Avalikele teenistujatele ja t&ouml;&ouml;tajatele esitatavad eesti keele valdamise ja kasutamise n&otilde;uded</s>
+</p>
+<p>
+<s>Kohalikus omavalitsuses , kus eesti keele k&otilde;rval on sisemise asjaajamise keeleks v&auml;hemusrahvuse keel , peavad avalikud teenistujad ja t&ouml;&ouml;tajad valdama eesti keelt Vabariigi Valitsuse kehtestatud eesti keele valdamise ja kasutamise n&otilde;uete piires .</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Asjaajamine v&otilde;&otilde;rkeeles</s>
+</p>
+<p>
+<s>( 1 ) Kui riigiasutusele v&otilde;i kohalikule omavalitsusele esitatav avaldus , taotlus v&otilde;i muu dokument on v&otilde;&otilde;rkeelne , on asutusel &otilde;igus n&otilde;uda dokumendi esitajalt dokumendi t&otilde;lget eesti keelde , v&auml;lja arvatud k&auml;esoleva seaduse &sect;-s 10 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Kui riigiasutus v&otilde;i kohalik omavalitsus ei n&otilde;ua kohe avalduse , taotluse v&otilde;i muu dokumendi t&otilde;lget eesti keelde , loetakse v&otilde;&otilde;rkeelne dokument asutuse poolt vastuv&otilde;etuks .</s>
+</p>
+<p>
+<s>( 3 ) Seaduses s&auml;testatud juhtudel on riigiasutusel v&otilde;i kohalikul omavalitsusel &otilde;igus n&otilde;uda t&otilde;lke notariaalset kinnitamist .</s><s>Kui n&otilde;utud t&otilde;lget ei esitata , v&otilde;ib riigiasutus v&otilde;i kohalik omavalitsus dokumendi tagastada v&otilde;i selle t&otilde;lkida esitaja n&otilde;usolekul ja kulul .</s>
+</p>
+<p>
+<s>( 4 ) Eesti keelt mittevaldavad isikud v&otilde;ivad suulises suhtlemises riigiasutuse ja kohaliku omavalitsuse asutuse teenistujate ning t&ouml;&ouml;tajatega , samuti notari , kohtut&auml;ituri ja vandet&otilde;lgi b&uuml;roos poolte kokkuleppel kasutada ka v&otilde;&otilde;rkeelt , mida need teenistujad v&otilde;i t&ouml;&ouml;tajad oskavad .</s><s>Kui kokkulepet ei saavutata , suheldakse t&otilde;lgi vahendusel ning kulud katab eesti keelt mittevaldav isik , kui seadusega ei s&auml;testata teisiti .</s>
+</p>
+<p>
+<s>( 17.01.2002 j&otilde;ust.01.02.2002 - RT I 2002 , 9 , 47 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>V&auml;lissuhtluse keel</s>
+</p>
+<p>
+<s>Riigiasutustel ja kohalikel omavalitsustel ning nende avalikel teenistujatel ja t&ouml;&ouml;tajatel on &otilde;igus kasutada v&auml;lissuhtluses m&otilde;lemale poolele sobivat keelt .</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>V&auml;hemusrahvuse keele kasutamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Omavalitsus&uuml;ksuses , kus v&auml;hemalt pooled p&uuml;sielanikud on v&auml;hemusrahvusest , on iga&uuml;hel &otilde;igus saada vastava omavalitsus&uuml;ksuse territooriumil tegutsevatelt riigiasutustelt ja vastavalt kohalikult omavalitsuselt ning nende ametnikelt vastuseid eesti keeles antavate k&otilde;rval ka selle v&auml;hemusrahvuse keeles .</s>
+</p>
+<p>
+<s>( 2 ) Omavalitsus&uuml;ksuse p&uuml;sielanik on isik , kes viibib seaduslikult Eestis ja elab omavalitsus&uuml;ksuses v&auml;hemalt 183 p&auml;eva aastas , kusjuures tema eemalviibimine omavalitsus&uuml;ksusest ei tohi &uuml;letada 90 p&auml;eva j&auml;rjest .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>V&auml;hemusrahvuse keele kasutamine asjaajamiskeelena</s>
+</p>
+<p>
+<s>Omavalitsus&uuml;ksuses , mille p&uuml;sielanike enamiku keel ei ole eesti keel , v&otilde;ib kohaliku omavalitsuse sisemise asjaajamise keelena vastava kohaliku omavalitsuse volikogu ettepanekul ja Vabariigi Valitsuse otsusel kasutada eesti keele k&otilde;rval omavalitsus&uuml;ksuse p&uuml;sielanike enamiku moodustava v&auml;hemus-rahvuse keelt .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kirjavahetuse keel</s>
+</p>
+<p>
+<s>Kohalikus omavalitsuses , kus eesti keele k&otilde;rval on sisemise asjaajamise keeleks v&auml;hemusrahvuse keel , toimub kirjavahetus riigiasutustega ja teiste kohalike omavalitsustega eesti keeles .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Pitsatite , templite , kirjaplankide , kuulutuste , kutsete ja teadaannete keel</s>
+</p>
+<p>
+<s>( 1 ) Kohalikus omavalitsuses , kus eesti keele k&otilde;rval on sisemise asjaajamise keeleks v&auml;hemusrahvuse keel , peavad pitsatid , templid ja kirjaplangid olema eestikeelsed .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud kohalikus omavalitsuses peavad kutsed , kuulutused ja teadaanded olema eestikeelsed , millele kohalik omavalitsus v&otilde;ib lisada t&otilde;lke vastava v&auml;hemusrahvuse keelde .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>V&auml;hemusrahvuse keele kasutamine v&auml;hemusrahvuste kultuuriomavalitsustes</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>V&auml;hemusrahvuse kultuuriomavalitsuse keel</s>
+</p>
+<p>
+<s>( 1 ) V&auml;hemusrahvuse kultuuriomavalitsus v&otilde;ib sisemise asjaajamise keelena kasutada oma v&auml;hemusrahvuse keelt .</s>
+</p>
+<p>
+<s>( 2 ) Kultuuriomavalitsuse suhtlemine nii riigiasutuste kui ka nende kohalike omavalitsustega , kus sama v&auml;hemusrahvuse keel pole sisemise asjaajamise keelena kasutusel , toimub eesti keeles .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>V&auml;hemusrahvuse kultuuriomavalitsuse pitsatite , kirjaplankide , kuulutuste , teadaannete ja templite keel</s>
+</p>
+<p>
+<s>( 1 ) V&auml;hemusrahvuse kultuuriomavalitsuse pitsatid peavad olema eestikeelsed .</s>
+</p>
+<p>
+<s>( 2 ) Ametlikud kirjaplangid , kuulutused , teadaanded ja templid peavad olema eestikeelsed , millele kultuuriomavalitsus v&otilde;ib lisada t&otilde;lke vastava v&auml;hemusrahvuse keelde .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Keelte kasutamine muudes valdkondades</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Tarbija &otilde;igus eestikeelsele teabele</s>
+</p>
+<p>
+<s>Kaupade ja teenuste tarbijal on &otilde;igus eestikeelsele teabele ja teenindamisele vastavuses tarbijakaitseseadusega ( RT I 1994 , 2 , 13 ; RT I 1999 , 35 , 450 ; 102 , 907 ; 2000 , 40 , 252 ; 59 , 379 ; 2001 , 50 , 283 ja 289 ; 56 , 332 ) .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Aruandluse keel</s>
+</p>
+<p>
+<s>Eestis registreeritud asutuste , &auml;ri&uuml;hingute ja mittetulundus&uuml;hingute ja sihtasutuste aruandlus toimub eesti keeles seadustega etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>V&otilde;&otilde;rkeelte kasutamine muudes valdkondades</s>
+</p>
+<p>
+<s>V&otilde;&otilde;rkeelte kasutamine informatsiooni edastamiseks teenuste ja kaupade tarbijatele ning t&ouml;&ouml;alases suhtlemises toimub Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Nimed , nimetused ja teave</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Kohanime keel</s>
+</p>
+<p>
+<s>( 1 ) Eesti kohanimed on eestikeelsed .</s><s>Kohanimedes v&otilde;ib lubada aja- ja kultuurilooliselt p&otilde;hjendatud erandeid .</s>
+</p>
+<p>
+<s>( 2 ) Igal Eesti kohal on &uuml;ksainus ametlik nimi .</s><s>Eesti kohanime algkuju kirjutatakse eesti-ladina t&auml;htedega .</s><s>Eesti kohanimesid kirjutatakse muud t&auml;hestikku kasutava v&auml;hemusrahvuse keeles vastavuses kirjakeele normides kehtestatud &uuml;mberkirjutusreeglitega .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Eesti kodaniku nime kirjutamine</s>
+</p>
+<p>
+<s>Eesti kodaniku nime ametlik kuju kirjutatakse eesti-ladina t&auml;htedega .</s><s>Eesti kodaniku nimesid kirjutatakse muud t&auml;hestikku kasutavates keeltes vastavuses kirjakeele normides kehtestatud &uuml;mberkirjutusreeglitega .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Asutuse , &auml;ri&uuml;hingu , mittetulundus&uuml;hingu , sihtasutuse v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tja pitsatid , templid ja kirjaplangid</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 326 )</s>
+</p>
+<p>
+<s>( 1 ) ( V&auml;lja j&auml;etud - 28.05.96 j&otilde;ust.08.06.96 - RT I 1996 , 40 , 773 )</s>
+</p>
+<p>
+<s>( 2 ) Eestis registreeritud asutuse , &auml;ri&uuml;hingu , mittetulundus&uuml;hingu , sihtasutuse v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tja pitsatid , templid ja kirjaplangid on eestikeelsed .</s><s>Eestikeelsele tekstile v&otilde;ib asutus , &auml;ri&uuml;hing , mittetulundus&uuml;hing , sihtasutus v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tja lisada t&otilde;lke v&otilde;&otilde;rkeelde .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 326 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Nime rahvusvaheline kuju</s>
+</p>
+<p>
+<s>( 1 ) Eesti koha- , kodaniku , asja- , &auml;ri&uuml;hingu , asutuse v&otilde;i mittetulundus&uuml;hingu ja sihtasutuse nime rahvusvaheline ladinat&auml;heline kuju on samane Eestis kasutatavaga .</s>
+</p>
+<p>
+<s>( 09.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 275 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud nimede kirjutamisel muud t&auml;hestikku kasutavas keeles rakendatakse kirjakeele normides kehtestatud &uuml;mberkirjutusreegleid .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Teabekeel</s>
+</p>
+<p>
+<s>( 1 ) Avalikud sildid , viidad , kuulutused , teadaanded ja reklaam on eestikeelsed , v&auml;lja arvatud k&auml;esoleva seaduse paragrahvides 13 , 15 ja 18 s&auml;testatud juhtudel ning rahvusvaheliste &uuml;rituste korraldamisel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi s&auml;tted ei kehti v&auml;lisriikide esinduste kohta .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Riiklike registrim&auml;rkide keel</s>
+</p>
+<p>
+<s>Riiklike registrim&auml;rkide t&auml;hekombinatsioonid v&otilde;ivad sisaldada ainult ladina t&auml;hti .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Audiovisuaalse teose , televisiooni- ja raadiosaate ning reklaami v&otilde;&otilde;rkeelse teksti t&otilde;lge</s>
+</p>
+<p>
+<s>( 1 ) Audiovisuaalse teose ( sealhulgas saate ja reklaami ) avalikustamisel ( sealhulgas edastamisel telejaama v&otilde;i kaabelv&otilde;rgu vahendusel ) , peab v&otilde;&otilde;rkeelsele tekstile olema lisatud adekvaatne eestikeelne t&otilde;lge .</s>
+</p>
+<p>
+<s>( 2 ) Eestikeelset t&otilde;lget ei n&otilde;uta vahetult taasedastatavate saadete , keele&otilde;ppesaadete v&otilde;i omatoodetud v&otilde;&otilde;rkeelsete uudiste diktoriteksti ja otsesaadete puhul .</s>
+</p>
+<p>
+<s>( 3 ) Eestikeelset t&otilde;lget ei n&otilde;uta v&otilde;&otilde;rkeelsele kuulajale suunatud raadiosaadete puhul .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud eestikeelse t&otilde;lketa v&otilde;&otilde;rkeelsete uudiste ja otsesaadete maht ei tohi &uuml;letada 10 protsenti n&auml;dala omatoodangu mahust .</s>
+</p>
+<p>
+<s>( 10.09.97 j&otilde;ust.04.10.97 - RT I 1997 , 69 , 1110 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Riigikogu kui Eesti seadusandliku kogu nime kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu kui Eesti seadusandliku kogu nimi ei kuulu t&otilde;lkimisele .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu kirjutatakse ladina t&auml;hestikku kasutavates v&otilde;&otilde;rkeeltes samaselt eestikeelsega , muud t&auml;hestikku kasutavates keeltes vastavuses kirjakeele normides kehtestatud &uuml;mberkirjutusreeglitega .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu kui Eesti seadusandliku kogu nime asemel v&otilde;i t&auml;iendina v&otilde;ib kasutada mitteametliku nimetusena m&otilde;istet &ldquo; parlament &rdquo; nii eesti keeles kui ka v&otilde;&otilde;rkeeltes .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Vastutus seaduse rikkumise eest</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse ja sellega seotud muude &otilde;igusaktide rikkujad kannavad haldusvastutust seaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Seaduse t&auml;itmise kontroll</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse t&auml;itmist kontrollitakse Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>&Otilde;igusaktide muutmine</s>
+</p>
+<p>
+<s>( 1 ) Tunnistatakse kehtetuks Eesti NSV keeleseadus ( ENSV Teataja 1989 , 4 , 60 ; RT I 1993 , 20 , 352 ; 1994 , 49 , 804 ) .</s>
+</p>
+<p>
+<s>( 2 ) Kohaliku omavalitsuse korralduse seaduses ( RT I 1993 , 37 , 558 ; RT I 1999 , 82 , 755 ; 2000 , 51 , 322 ; 2001 , 82 , 489 ; 100 , 642 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 23 8. l&otilde;ige muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 8 ) Volikogu m&auml;&auml;rused ja otsused ning istungite protokollid vormistatakse ja avalikustatakse eesti keeles .</s><s>Omavalitsus&uuml;ksuses , mille p&uuml;sielanike enamiku keel ei ole eesti keel , v&otilde;idakse volikogu istungite protokollid vormistada antud omavalitsus&uuml;ksuse p&uuml;sielanike enamiku moodustava v&auml;hemusrahvuse keeles , kuid neile peab olema lisatud eestikeelne t&otilde;lge . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 41 2. l&otilde;ige muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) V&otilde;&otilde;rkeelte , sealhulgas v&auml;hemusrahvuste keelte kasutamise kohalikes omavalitsustes s&auml;testab keeleseadus . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1995. aasta 1. aprillil .</s>
+</p>
+</body>
+   </text>
+</tei.2>

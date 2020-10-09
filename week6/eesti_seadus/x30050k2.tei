@@ -1,0 +1,820 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Saastetasu seadus ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4619</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Saastetasu seadus ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=9></tagusage>
+         <tagusage gi=p occurs=238></tagusage>
+         <tagusage gi=s occurs=281></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Saastetasu seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 10. veebruaril 1999. a.</s>
+</p>
+<p>
+<s>( RT I 1999 , 24 , 361 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 21. m&auml;rtsil 1999. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 ;</s>
+</p>
+<p>
+<s>08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 ;</s>
+</p>
+<p>
+<s>16.06.99 j&otilde;ust.23.06.99 - RT I 1999 , 54 , 583.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab tasum&auml;&auml;rad saasteainete ja j&auml;&auml;tmete keskkonda viimisel ning tasu arvutamise ja maksmise korra .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Saastetasu</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu kehtestamise eesm&auml;rk on ennetada ja v&auml;hendada saasteainete v&otilde;i j&auml;&auml;tmete keskkonda viimisega tekitatavat v&otilde;imalikku kahju .</s><s>Saastetasu makstakse k&auml;esolevas seaduses nimetatud saasteainete v&otilde;i j&auml;&auml;tmete keskkonda viimisel .</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu maksmise kohustus v&otilde;ib k&auml;esoleva seadusega s&auml;testatud tingimustel ja mahus olla asendatud keskkonnakahjustusi v&auml;ltivate v&otilde;i v&auml;hendavate abin&otilde;ude finantseerimisega .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 3 ) Saastetasu ei v&otilde;eta , kui saasteained v&otilde;i j&auml;&auml;tmed viiakse keskkonda :</s>
+</p>
+<p>
+<s>1 ) kogustes ja viisil , mille puhul luba ei n&otilde;uta ;</s>
+</p>
+<p>
+<s>2 ) v&auml;&auml;ramatu j&otilde;u toimel ;</s>
+</p>
+<p>
+<s>3 ) veelgi suurema saastamise v&otilde;i inimohvreid p&otilde;hjustada v&otilde;iva &otilde;nnetuse &auml;rahoidmiseks .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud luba on seaduse alusel antud dokument , mis m&auml;&auml;rab saasteainete ja j&auml;&auml;tmete keskkonda viimise tingimused ja lubatud kogused .</s>
+</p>
+<p>
+<s>( 5 ) Saastetasu maksmine ei vabasta saasteineid v&otilde;i j&auml;&auml;tmeid keskkonda viinud isikut keskkonna saastamisega kolmandale isikule tekitatud kahju h&uuml;vitamisest .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Saastetasu rakendamine saasteainete viimisel v&auml;lis&otilde;hku</s>
+</p>
+<p>
+<s>Saastetasu rakendatakse , kui v&auml;lis&otilde;hku viiakse :</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;veldioksiidi ( SO <hi rend="sub"> 2 </hi> ) v&otilde;i muid anorgaanilisi v&auml;&auml;vli&uuml;hendeid ;</s>
+</p>
+<p>
+<s>2 ) s&uuml;sinikmonooksiidi ( CO ) ;</s>
+</p>
+<p>
+<s>3 ) s&uuml;sinikdioksiidi ( CO <hi rend="sub"> 2 </hi> ) ;</s>
+</p>
+<p>
+<s>4 ) tahkeid osakesi ;</s>
+</p>
+<p>
+<s>5 ) l&auml;mmastikoksiide v&otilde;i muid anorgaanilisi l&auml;mmastiku&uuml;hendeid ;</s>
+</p>
+<p>
+<s>6 ) lenduvaid orgaanilisi &uuml;hendeid ;</s>
+</p>
+<p>
+<s>7 ) raskmetalle v&otilde;i nende &uuml;hendeid .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Saastetasu rakendamine saasteainete viimisel veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu rakendatakse , kui veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse viiakse :</s>
+</p>
+<p>
+<s>1 ) orgaanilisi aineid ;</s>
+</p>
+<p>
+<s>2 ) fosfori&uuml;hendeid ;</s>
+</p>
+<p>
+<s>3 ) l&auml;mmastiku&uuml;hendeid ;</s>
+</p>
+<p>
+<s>4 ) h&otilde;ljuvaineid ;</s>
+</p>
+<p>
+<s>5 ) sulfaate ;</s>
+</p>
+<p>
+<s>6 ) &uuml;healuselisi fenoole ;</s>
+</p>
+<p>
+<s>7 ) naftat , naftasaadusi , mineraal&otilde;li ning tahke k&uuml;tuse ja muu orgaanilise aine termilise t&ouml;&ouml;tlemise vedelprodukte ;</s>
+</p>
+<p>
+<s>8 ) heitvett , mille vesinikeksponent ( pH ) on suurem kui 9,0 v&otilde;i v&auml;iksem kui 6,0 ;</s>
+</p>
+<p>
+<s>9 ) k&auml;esolevas l&otilde;ikes nimetamata muid ohtlikke aineid .</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu ei rakendata , kui k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1-3 nimetatud aineid ja &uuml;hendeid kasutatakse v&auml;etisena v&auml;etiseseaduse ( RT I 1997 , 93 , 1563 ; 2001 , 50 , 283 ) t&auml;henduses ning veeseaduse ( RT I 1994 , 40 , 655 ; RT I 1996 , 13 , 241 ; 1998 , 2 , 47 ; 61 , 987 ; 1999 , 10 , 155 ; 54 , 583 ; 95 , 843 ; 2001 , 7 , 19 ; 42 , 234 ; 50 , 283 ; 94 , 577 ; 2002 , 1 , 1 ) alusel kehtestatud n&otilde;uete kohaselt .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Saastetasu rakendamine j&auml;&auml;tmete viimisel keskkonda</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu rakendatakse j&auml;&auml;tmete k&otilde;rvaldamisel j&auml;&auml;tmeseaduse ( RT I 1998 , 57 , 861 ; 88 , &otilde;iend ; 1999 , 10 , 155 ; 23 , 353 ; 95 , 843 ; 2001 , 16 , 72 ; 43 , 239 ; 50 , 283 ; 56 , 340 ; 93 , 565 ) t&auml;henduses .</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu ei rakendata j&auml;&auml;tmete keskkonda viimisel nende taaskasutamise eesm&auml;rgil j&auml;&auml;tmeseaduse t&auml;henduses .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Saastetasu maksja</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu maksab kinnisasja omanik , kelle tahte kohaselt viiakse tema kinnisasjalt keskkonda saasteaineid v&otilde;i j&auml;&auml;tmeid .</s>
+</p>
+<p>
+<s>( 2 ) Kui saasteaineid v&otilde;i j&auml;&auml;tmeid viib keskkonda hoonestus&otilde;iguse alusel kasutatavalt maalt hoonestus&otilde;igust omav isik v&otilde;i ehitise kui vallasasja juurde kuuluvalt maalt ehitise omanik , laieneb neile saastetasu maksmise kohustus .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmete ladestamine kinnisasjal , hoonestus&otilde;iguse alusel kasutataval maal v&otilde;i ehitise kui vallasasja juurde kuuluval maal on k&auml;esoleva seaduse t&auml;henduses j&auml;&auml;tmete keskkonda viimine .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Saastetasu kasutamine</s>
+</p>
+<p>
+<s>Saastetasu makstakse riigieelarvesse .</s><s>Saastetasu kasutatakse seadusega s&auml;testatud sihtotstarbel ja korras .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.23.06.99 - RT I 1999 , 54 , 583 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Saastetasu m&auml;&auml;rad</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Saastetasu m&auml;&auml;rad saasteainete viimisel v&auml;lis&otilde;hku</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu m&auml;&auml;rad kroonides saasteaine tonni kohta j&auml;rgmiste saasteainete viimisel v&auml;lis&otilde;hku :</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;veldioksiid ( SO <hi rend="sub"> 2 </hi> ) ja muud anorgaanilised v&auml;&auml;vli&uuml;hendid - alates 2002. aasta 1. jaanuarist 79,0 krooni , alates 2003. aasta 1. jaanuarist 95,0 krooni , alates 2004. aasta 1. jaanuarist 114,0 krooni , alates 2005. aasta 1. jaanuarist 137,0 krooni ;</s>
+</p>
+<p>
+<s>2 ) s&uuml;sinikoksiid ( CO ) - alates 2002. aasta 1. jaanuarist 11,0 krooni , alates 2003. aasta 1. jaanuarist 14,0 krooni , alates 2004. aasta 1. jaanuarist 16,0 krooni , alates 2005. aasta 1. jaanuarist 20,0 krooni ;</s>
+</p>
+<p>
+<s>3 ) tahked osakesed , v&auml;lja arvatud raskmetallid v&otilde;i nende &uuml;hendid , - alates 2002. aasta 1. jaanuarist 79,0 krooni , alates 2003. aasta 1. jaanuarist 95,0 krooni , alates 2004. aasta 1. jaanuarist 114,0 krooni , alates 2005. aasta 1. jaanuarist 137,0 krooni ;</s>
+</p>
+<p>
+<s>4 ) l&auml;mmastikoksiidid , arvutatuna l&auml;mmastikdioksiidiks , ja muud anorgaanilised l&auml;mmastiku&uuml;hendid - alates 2002. aasta 1. jaanuarist 182,0 krooni , alates 2003. aasta 1. jaanuarist 218,0 krooni , alates 2004. aasta 1. jaanuarist 262,0 krooni , alates 2005. aasta 1. jaanuarist 315,0 krooni ;</s>
+</p>
+<p>
+<s>5 ) lenduvad orgaanilised &uuml;hendid , v&auml;lja arvatud merkaptaanid , - alates 2002. aasta 1. jaanuarist 182,0 krooni , alates 2003. aasta 1. jaanuarist 218,0 krooni , alates 2004. aasta 1. jaanuarist 262,0 krooni , alates 2005. aasta 1. jaanuarist 315,0 krooni ;</s>
+</p>
+<p>
+<s>6 ) merkaptaanid - alates 2002. aasta 1. jaanuarist 180 882,0 krooni , alates 2003. aasta 1. jaanuarist 198 970,0 krooni , alates 2004. aasta 1. jaanuarist 240 754,0 krooni , alates 2005. aasta 1. jaanuarist 264 829,0 krooni ;</s>
+</p>
+<p>
+<s>7 ) raskmetallid ja nende &uuml;hendid - alates 2002. aasta 1. jaanuarist 2896,0 krooni , alates 2003. aasta 1. jaanuarist 3476,0 krooni , alates 2004. aasta 1. jaanuarist 4171,0 krooni , alates 2005. aasta 1. jaanuarist 5005,0 krooni .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud saastetasu m&auml;&auml;rasid suurendatakse :</s>
+</p>
+<p>
+<s>1 ) 1,2 korda Narva j&otilde;ega piirnevate omavalitsus&uuml;ksuste piires asuvate paiksete saasteallikate puhul , kui saasteainete v&auml;ljumisk&otilde;rgus on &uuml;le 100 meetri maapinnast ;</s>
+</p>
+<p>
+<s>2 ) 1,5 korda J&otilde;hvis , Kivi&otilde;lis , Kohtla-J&auml;rvel , Narvas , Sillam&auml;el ja Tartus asuvate paiksete saasteallikate puhul ;</s>
+</p>
+<p>
+<s>3 ) 2 korda Tallinnas asuvate paiksete saasteallikate puhul ;</s>
+</p>
+<p>
+<s>4 ) 2,5 korda Haapsalus , Kuressaares , Narva-J&otilde;esuus ja P&auml;rnus asuvate paiksete saasteallikate puhul .</s>
+</p>
+<p>
+<s>( 3 ) S&uuml;sinikdioksiidi ( CO <hi rend="sub"> 2 </hi> ) v&auml;lis&otilde;hku viimise eest maksab saastetasu energiaettev&otilde;tja , kelle saasteallika p&otilde;letusseadmete nimisoojusv&otilde;imsused on kokku &uuml;le 50 megavati .</s><s>S&uuml;sinikdioksiidi saastetasu m&auml;&auml;rad tonni kohta on :</s>
+</p>
+<p>
+<s>1 ) alates 2000. aasta 1. jaanuarist 5,0 krooni ;</s>
+</p>
+<p>
+<s>2 ) alates 2001. aasta 1. jaanuarist 7,5 krooni ;</s>
+</p>
+<p>
+<s>3 ) alates 2005. aasta 1. jaanuarist 11,3 krooni .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatu ei laiene biok&uuml;tuse , turba ja j&auml;&auml;tmete p&otilde;letamisele .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Saastetasu m&auml;&auml;rad saasteainete viimisel veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu m&auml;&auml;rad kroonides saasteaine tonni kohta j&auml;rgmiste saasteainete viimisel veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse :</s>
+</p>
+<p>
+<s>1 ) orgaanilised ained , arvutatuna nende lagundamise biokeemilisele hapnikutarbele seitsme &ouml;&ouml;p&auml;eva jooksul ( BHT <hi rend="sub"> 7 </hi> ) - alates 2002. aasta 1. jaanuarist 3252,0 krooni , alates 2003. aasta 1. jaanuarist 3902,0 krooni , alates 2004. aasta 1. jaanuarist 4683,0 krooni , alates 2005. aasta 1. jaanuarist 5619,0 krooni ;</s>
+</p>
+<p>
+<s>2 ) fosfori&uuml;hendid , arvutatuna &uuml;ldfosforiks ( P <hi rend="sub"> &uuml;ld </hi> ) - alates 2002. aasta 1. jaanuarist 4898,0 krooni , alates 2003. aasta 1. jaanuarist 5878,0 krooni , alates 2004. aasta 1. jaanuarist 7054,0 krooni , alates 2005. aasta 1. jaanuarist 8464,0 krooni ;</s>
+</p>
+<p>
+<s>3 ) l&auml;mmastiku&uuml;hendid , arvutatuna &uuml;ldl&auml;mmastikuks ( N <hi rend="sub"> &uuml;ld </hi> ) - alates 2002. aasta 1. jaanuarist 3068,0 krooni , alates 2003. aasta 1. jaanuarist 3682,0 krooni , alates 2004. aasta 1. jaanuarist 4418,0 krooni , alates 2005. aasta 1. jaanuarist 5302,0 krooni ;</s>
+</p>
+<p>
+<s>4 ) h&otilde;ljuvained - alates 2002. aasta 1. jaanuarist 1644,0 krooni , alates 2003. aasta 1. jaanuarist 1973,0 krooni , alates 2004. aasta 1. jaanuarist 2367,0 krooni , alates 2005. aasta 1. jaanuarist 2841,0 krooni ;</s>
+</p>
+<p>
+<s>5 ) sulfaadid , arvutatuna sulfaatiooniks ( SO <hi rend="sub"> 4 </hi> <hi rend="sup"> 2- </hi> ) - alates 2002. aasta 1. jaanuarist 33,0 krooni , alates 2003. aasta 1. jaanuarist 34,0 krooni , alates 2004. aasta 1. jaanuarist 38,0 krooni , alates 2005. aasta 1. jaanuarist 40,0 krooni ;</s>
+</p>
+<p>
+<s>6 ) &uuml;healuselised fenoolid - alates 2002. aasta 1. jaanuarist 21 810,0 krooni , alates 2003. aasta 1. jaanuarist 26 172,0 krooni , alates 2004. aasta 1. jaanuarist 31 406,0 krooni , alates 2005. aasta 1. jaanuarist 37 688,0 krooni ;</s>
+</p>
+<p>
+<s>7 ) nafta , naftasaadused , mineraal&otilde;li ning tahke k&uuml;tuse ja muu orgaanilise aine termilise t&ouml;&ouml;tlemise vedelproduktid - alates 2002. aasta 1. jaanuarist 5192,0 krooni , alates 2003. aasta 1. jaanuarist 6231,0 krooni , alates 2004. aasta 1. jaanuarist 7477,0 krooni , alates 2005. aasta 1. jaanuarist 8972,0 krooni .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud saastetasu m&auml;&auml;rasid suurendatakse :</s>
+</p>
+<p>
+<s>1 ) 2,5 korda , kui suublaks on kaitsmata p&otilde;hjaveega pinnas ;</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>2 ) 1,5 korda , kui suubla asub linna , alevi v&otilde;i supelranna piirides v&otilde;i l&auml;hemal kui 500 meetrit kohaliku omavalitsuse otsusega m&auml;&auml;ratud supelrannast ;</s>
+</p>
+<p>
+<s>3 ) 1,5 korda , kui suublaks on meri , piiriveekogu v&otilde;i kalamajandusliku t&auml;htsusega veekogu ;</s>
+</p>
+<p>
+<s>4 ) 1,2 korda , kui heitvesi juhitakse merre s&uuml;vamerelasuga .</s>
+</p>
+<p>
+<s>( 3 ) Kui toimub osaline v&otilde;i t&auml;ielik m&ouml;&ouml;dalask s&uuml;vamerelasust , suurendatakse k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud saastetasu m&auml;&auml;rasid 1,5 korda .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud saastetasu m&auml;&auml;rasid v&auml;hendatakse :</s>
+</p>
+<p>
+<s>1 ) 2 korda , kui suublaks on keskmiselt kaitstud p&otilde;hjaveega pinnas ;</s>
+</p>
+<p>
+<s>2 ) 3 korda , kui suublaks on h&auml;sti kaitstud p&otilde;hjaveega pinnas ;</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 5 ) T&auml;iendavalt k&auml;esoleva paragrahvi l&otilde;ikes 1 kehtestatud saastetasu m&auml;&auml;radele makstakse saastetasu , kui &auml;rajuhitava heitvee pH on suurem kui 9,0 v&otilde;i v&auml;iksem kui 6,0 , - alates 2002. aasta 1. jaanuarist 42 senti , alates 2003. aasta 1. jaanuarist 50 senti , alates 2004. aasta 1. jaanuarist 60 senti ja alates 2005. aasta 1. jaanuarist 73 senti igas kuupmeetris heitvees v&auml;&auml;rtust 9,0 &uuml;letava v&otilde;i v&auml;&auml;rtusest 6,0 v&auml;iksema 0,1 pH &uuml;hiku kohta .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 6 ) Kui saastetasu maksja on ennet&auml;htaegselt t&auml;itnud k&otilde;ik Vabariigi Valitsuse kehtestatud n&otilde;uded veekogusse juhitava heitvee kohta v&otilde;i on k&otilde;ik heitvee puhastamist v&otilde;i heitvett iseloomustavad n&auml;itajad paremad Vabariigi Valitsuse kehtestatutest , v&auml;hendatakse k&auml;esoleva paragrahvi l&otilde;ikes 1 kehtestatud saastetasu m&auml;&auml;rasid kaks korda .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Saastetasu m&auml;&auml;rad j&auml;&auml;tmete keskkonda viimisel</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu m&auml;&auml;rad kroonides j&auml;&auml;tmete tonni kohta j&auml;rgmiste j&auml;&auml;tmete viimisel keskkonda :</s>
+</p>
+<p>
+<s>1 ) tavaj&auml;&auml;tmed , v&auml;lja arvatud k&auml;esoleva l&otilde;ike punktis 3 nimetatud j&auml;&auml;tmed , - alates 2002. aasta 1. jaanuarist 2,8 krooni , alates 2003. aasta 1. jaanuarist 3,3 krooni , alates 2004. aasta 1. jaanuarist 4,0 krooni , alates 2005. aasta 1. jaanuarist 5,0 krooni ;</s>
+</p>
+<p>
+<s>2 ) olmej&auml;&auml;tmed - tavaj&auml;&auml;tmetele kehtestatud saastetasu m&auml;&auml;rades ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lispuistangutesse ladestatav aheraine , sealhulgas rikastusj&auml;&auml;tmed , - alates 2002. aasta 1. jaanuarist 1,6 krooni , alates 2003. aasta 1. jaanuarist 1,9 krooni , alates 2004. aasta 1. jaanuarist 2,0 krooni , alates 2005. aasta 1. jaanuarist 3,0 krooni ;</s>
+</p>
+<p>
+<s>4 ) ohtlikud j&auml;&auml;tmed , v&auml;lja arvatud k&auml;esoleva l&otilde;ike punktides 5-10 nimetatud j&auml;&auml;tmed , - alates 2002. aasta 1. jaanuarist 8,4 krooni , alates 2003. aasta 1. jaanuarist 10,1 krooni , alates 2004. aasta 1. jaanuarist 12,0 krooni , alates 2005. aasta 1. jaanuarist 15,0 krooni ;</s>
+</p>
+<p>
+<s>5 ) naftat , naftasaadusi , mineraal&otilde;li ning tahke k&uuml;tuse v&otilde;i muu orgaanilise aine termilise t&ouml;&ouml;tlemise vedelprodukte , orgaanilisi lahusteid , raskmetalle ( v&auml;lja arvatud elavh&otilde;be , kaadmium , plii ja arseen ) , orgaanilisi halogeen&uuml;hendeid , v&auml;rvaineid ja pigmente sisaldavad j&auml;&auml;tmed , v&auml;rvi- ja lakij&auml;&auml;tmed , nakkusohtlikud haigla- v&otilde;i tervishoiuj&auml;&auml;tmed ning ravimij&auml;&auml;tmed - alates 2002. aasta 1. jaanuarist 22,6 krooni , alates 2003. aasta 1. jaanuarist 27,0 krooni , alates 2004. aasta 1. jaanuarist 32,0 krooni , alates 2005. aasta 1. jaanuarist 39,0 krooni ;</s>
+</p>
+<p>
+<s>6 ) puidukaitseaineid , tahke k&uuml;tuse ja muu orgaanilise aine utmisel tekkinud t&otilde;rva , pigi , asfalti , anorgaanilisi pestitsiide , asbesti , arseeni ja pliid sisaldavad j&auml;&auml;tmed ning p&otilde;levkivi t&ouml;&ouml;tlemise pigij&auml;&auml;tmed - alates 2002. aasta 1. jaanuarist 227,8 krooni , alates 2003. aasta 1. jaanuarist 273,3 krooni , alates 2004. aasta 1. jaanuarist 328,0 krooni , alates 2005. aasta 1. jaanuarist 394,0 krooni ;</s>
+</p>
+<p>
+<s>7 ) elavh&otilde;bedat , kaadmiumi , ts&uuml;aniide , pol&uuml;klooritud bifen&uuml;&uuml;le ja terfen&uuml;&uuml;le ( PCB , PCT ) ning orgaanilisi pestitsiide sisaldavad j&auml;&auml;tmed - alates 2002. aasta 1. jaanuarist 2277,0 krooni , alates 2003. aasta 1. jaanuarist 2732,0 krooni , alates 2004. aasta 1. jaanuarist 3278,0 krooni , alates 2005. aasta 1. jaanuarist 3934,0 krooni ;</s>
+</p>
+<p>
+<s>8 ) p&otilde;levkivi lend- ja koldetuhk - alates 2002. aasta 1. jaanuarist 4,4 krooni , alates 2003. aasta 1. jaanuarist 4,6 krooni , alates 2004. aasta 1. jaanuarist 4,9 krooni , alates 2005. aasta 1. jaanuarist 5,1 krooni ;</s>
+</p>
+<p>
+<s>9 ) veega k&auml;ideldud p&otilde;levkivi poolkoks - alates 2002. aasta 1. jaanuarist 13,4 krooni , alates 2003. aasta 1. jaanuarist 16,0 krooni , alates 2004. aasta 1. jaanuarist 19,0 krooni , alates 2005. aasta 1. jaanuarist 23,0 krooni ;</s>
+</p>
+<p>
+<s>10 ) p&otilde;levkivi poolkoks - alates 2002. aasta 1. jaanuarist 4,5 krooni , alates 2003. aasta 1. jaanuarist 5,0 krooni , alates 2004. aasta 1. jaanuarist 5,5 krooni , alates 2005. aasta 1. jaanuarist 6,0 krooni .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud saastetasu m&auml;&auml;rasid suurendatakse , kui j&auml;&auml;tmete ladestuskoht ei vasta j&auml;&auml;tmeseaduse alusel kehtestatud keskkonnan&otilde;uetele :</s>
+</p>
+<p>
+<s>1 ) punktides 1-7 ja 9 nimetatud j&auml;&auml;tmete korral - alates 2002. aasta 1. jaanuarist 6 korda ning alates 2005. aasta 1. jaanuarist 8 korda ;</s>
+</p>
+<p>
+<s>2 ) punktis 8 nimetatud j&auml;&auml;tmete korral - alates 2002. aasta 1. jaanuarist 4 korda ning alates 2005. aasta 1. jaanuarist 5 korda ;</s>
+</p>
+<p>
+<s>3 ) punktis 10 nimetatud j&auml;&auml;tmete korral - alates 2002. aasta 1. jaanuarist 3 korda , alates 2003 aasta 1. jaanuarist 4 korda , alates 2004. aasta 1. jaanuarist 5 korda ning alates 2005. aasta 1. jaanuarist 6 korda .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Saastetasu arvutamine</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Saastetasu arvutamise ja arvutamise kontrollimise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Keskkonda viidud saasteainete v&otilde;i j&auml;&auml;tmete koguste ning nende j&auml;rgi saastetasu arvutamise kohustus on saasteaineid v&otilde;i j&auml;&auml;tmeid keskkonda viinud v&otilde;i viival kinnisasja omanikul , hoonestus&otilde;iguse alusel maakasutajal v&otilde;i ehitise kui vallasasja omanikul ( edaspidi saastaja ) .</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu arvutatakse kvartalite kaupa .</s>
+</p>
+<p>
+<s>( 3 ) Saastetasu arvutamisel on saasteainete koguse m&auml;&auml;ramise aluseks dokumentaalselt t&otilde;endatud m&otilde;&otilde;tmised , tunnustatud v&otilde;i akrediteeritud laboratooriumides tehtud anal&uuml;&uuml;sid v&otilde;i keskkonnaministri kehtestatud arvutusmetoodika alusel tehtud arvutused .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud arvutuse &otilde;igsust kontrollib vastavalt oma p&auml;devusele Keskkonnaministeeriumi maakonnas asuv keskkonnateenistus , Keskkonnainspektsioon ning Tallinnas keskkonnaministri volitatud asutus ( edaspidi keskkonnateenistus ) .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Saastetasu arvutamine saasteainete viimisel v&auml;lis&otilde;hku</s>
+</p>
+<p>
+<s>Saasteainete viimisel v&auml;lis&otilde;hku arvutatakse saastetasu paiksete saasteallikate kaupa .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Saastetasu arvutamine saasteainete viimisel veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse</s>
+</p>
+<p>
+<s>( 1 ) Saasteainete viimisel veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse arvutatakse saastetasu iga eraldiseisva v&auml;ljalasu kohta .</s><s>V&auml;ljalask loetakse eraldiseisvaks , kui seda on loas eraldi k&auml;sitletud .</s>
+</p>
+<p>
+<s>( 2 ) Saastaja tegevuse v&otilde;i tegevusetuse tagaj&auml;rjel sadevetega keskkonda viidud saasteainete eest arvutatakse saastetasu k&auml;esoleva seaduse &sect;-s 9 s&auml;testatud m&auml;&auml;rade j&auml;rgi .</s>
+</p>
+<p>
+<s>( 3 ) Puhastusseadme h&auml;ireteta t&ouml;&ouml; korral kasutatakse reostuskoormuse ja saastetasu arvutamisel anal&uuml;&uuml;situlemuste keskv&auml;&auml;rtusi v&otilde;i loaga puhastusseadme v&auml;ljalasule kehtestatud piirv&auml;&auml;rtusi .</s>
+</p>
+<p>
+<s>( 4 ) Kui puhastusseadme t&ouml;&ouml;s esineb h&auml;ireid ja puhastusseade ei taga loaga m&auml;&auml;ratud n&otilde;uete t&auml;itmist , v&otilde;etakse saastetasu arvutamise aluseks keskkonnateenistuse v&otilde;etud kontrollproovi anal&uuml;&uuml;si tulemused .</s><s>Neid tulemusi kasutatakse seni , kuni puhastusseadme h&auml;ireteta t&ouml;&ouml; taastumine on t&otilde;endatud uue kontrollproovi anal&uuml;&uuml;siga .</s><s>Kontrollproovide v&otilde;tmise ja nendest anal&uuml;&uuml;side tegemise kulud tasub saasteallika valdaja .</s>
+</p>
+<p>
+<s>( 5 ) Kui anal&uuml;&uuml;si tegemiseks ei ole v&otilde;imalik proovi v&otilde;tta v&auml;ljalasust , on saastetasu arvutamise aluseks v&auml;ljalasule l&auml;himast v&otilde;imalikust kohast v&otilde;etud proovi anal&uuml;&uuml;si tulemused , kui keskkonnateenistus ei ole prooviv&otilde;tmise kohta m&auml;&auml;ranud .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Saastetasu arvutamine j&auml;&auml;tmete keskkonda viimisel</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu keskkonda viidud j&auml;&auml;tmete eest arvutatakse ladestuskohtade kaupa .</s>
+</p>
+<p>
+<s>( 2 ) Kui keskkonda viiakse j&auml;&auml;tmete segu , arvutatakse saastetasu segus oleva k&otilde;ige k&otilde;rgema saastetasu m&auml;&auml;raga j&auml;&auml;tmete j&auml;rgi .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Saastetasu arvutuse esitamine ja kontrollimine</s>
+</p>
+<p>
+<s>( 1 ) Saastaja esitab saasteainete v&otilde;i j&auml;&auml;tmete keskkonda viimise asukohaj&auml;rgsele keskkonnateenistusele hiljemalt igale kvartalile j&auml;rgneva kuu 10. kuup&auml;evaks :</s>
+</p>
+<p>
+<s>1 ) andmed kvartali jooksul keskkonda viidud saasteainete ja j&auml;&auml;tmete koguste kohta ning neid koguseid t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>2 ) saastetasu arvutamise aluseks olevate proovide anal&uuml;&uuml;side tulemused , kui neid on kasutatud saastetasu arvutamisel ;</s>
+</p>
+<p>
+<s>3 ) saastetasu kirjaliku arvutuse .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnateenistus kontrollib saastaja esitatud andmete ja arvutuse &otilde;igsust k&uuml;mne p&auml;eva jooksul , arvates k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kuup&auml;evast .</s>
+</p>
+<p>
+<s>( 3 ) Kui keskkonnateenistus on veendunud andmete ja arvutuse &otilde;igsuses , registreerib ta esitatud arvutuse saastetasu maksmise alusena ning v&auml;ljastab arvutuse esitajale teatise arvutuse &otilde;igsuse kohta .</s><s>Teatise v&auml;ljastamine peab mahtuma k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud t&auml;htaja sisse .</s>
+</p>
+<p>
+<s>( 4 ) Kui keskkonnateenistus ei n&otilde;ustu saastaja esitatud andmete ja arvutusega , tagastab ta k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud t&auml;htaja jooksul esitatud arvutuse koos omapoolsete p&otilde;hjendatud parandustega arvutuse esitajale , m&auml;&auml;rates t&auml;htaja paranduste sisseviimiseks ja arvutuse uuesti esitamiseks .</s>
+</p>
+<p>
+<s>( 5 ) Keskkonnateenistuse parandustega mitten&otilde;ustumine ei vabasta saastajat saastetasu maksmisest k&auml;esoleva seadusega m&auml;&auml;ratud t&auml;htajaks ja keskkonnaj&auml;relevalve asutuse parandustega m&auml;&auml;ratud ulatuses .</s>
+</p>
+<p>
+<s>( 6 ) Kui saastaja ei esita k&auml;esoleva paragrahvi l&otilde;ikes 1 n&otilde;utud andmeid ja arvutust samas l&otilde;ikes nimetatud kuup&auml;evaks , arvutab keskkonnateenistus saastetasu suuruse ja v&auml;ljastab saastetasu maksmise n&otilde;ude hiljemalt kvartalile j&auml;rgneva kuu 20. kuup&auml;evaks .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Saastetasu arvutamise kohtueelse vaidluse lahendamine</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu arvutamise kohtueelseid vaidlusi lahendab keskkonnaminister 30 kalendrip&auml;eva jooksul , arvates arvutamise vaidlustamise avalduse laekumise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnaministril on &otilde;igus kaasata avalduse lahendamisele eksperte ning m&auml;&auml;rata kontrollproovide v&otilde;tmist ja nende anal&uuml;&uuml;simist .</s>
+</p>
+<p>
+<s>( 3 ) Ekspertide kaasamisega ning kontrollproovide v&otilde;tmise ja anal&uuml;&uuml;simisega seotud kulud katab avalduse esitaja .</s>
+</p>
+<p>
+<s>( 4 ) Eksperthinnangute saamiseks , kontrollproovide v&otilde;tmiseks ja anal&uuml;&uuml;simiseks vajaminevat aega ei arvestata k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud t&auml;htaja sisse .</s><s>Nimetatud aeg ei tohi &uuml;letada 30 kalendrip&auml;eva .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Saastetasu maksmine</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Saastetasu maksmine</s>
+</p>
+<p>
+<s>( 1 ) Saastaja maksab saastetasu kvartalile j&auml;rgneva kuu 25. kuup&auml;evaks .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnateenistus peab saastetasu arvutamise ja laekumise arvestust ning edastab sellekohase informatsiooni keskkonnaministri kehtestatud korras ja mahus Keskkonnaministeeriumile .</s>
+</p>
+<p>
+<s>( 3 ) Kui maksmisele kuuluva saastetasu suurus kvartalis on alla 1000 krooni , v&otilde;ib saastaja maksta selle siis , kui makstav summa on &uuml;letanud 1000 krooni , aga mitte hiljem aruandeaasta saastetasu viimase maksmise t&auml;htajast .</s><s>Sellise maksmise korral viivist ei arvestata .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Saastetasu maksmise ajatamine</s>
+</p>
+<p>
+<s>( 1 ) Saastaja p&otilde;hjendatud taotlusel v&otilde;ib saastetasu maksta ajatatud maksegraafiku alusel .</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu maksmise ajatamise &otilde;igus on keskkonnateenistusel .</s>
+</p>
+<p>
+<s>( 3 ) Saastetasu maksmisel ajatatud maksegraafiku alusel viivist ei rakendata .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Saastetasu asendamine</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Saastetasu asendamine</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu asendatakse tegevuse finantseerimisega , kui saastaja :</s>
+</p>
+<p>
+<s>1 ) rakendab omal kulul keskkonnakaitse meetmeid , mis tagavad saasteainete v&otilde;i j&auml;&auml;tmete v&auml;hendamise kolme aasta jooksul rakendamiseelse perioodi viimase aruandeaastaga v&otilde;rreldes v&auml;hemalt 25 protsenti ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu asendamise ulatus ei tohi &uuml;letada saastaja oma kulul v&otilde;etud keskkonnakaitse meetmete maksumust .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lis&otilde;hu kaitseks rakendatavad keskkonnakaitse meetmed ei v&otilde;imalda saastetasu asendamist j&auml;&auml;tmete keskkonda viimise ja saasteinete veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse viimise eest arvutatava saastetasuga .</s><s>Analoogiline seos kehtib saasteainete veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse viimise v&otilde;i j&auml;&auml;tmete keskkonda viimise v&auml;hendamiseks rakendatavate keskkonnakaitse meetmete eest antava asenduse puhul .</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Saastetasu asendamise kord</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu asendamiseks esitab saastaja keskkonnaministrile avalduse koos keskkonnakaitse meetmete projektiga .</s><s>Nimetatud projekt peab sisaldama k&auml;esoleva seaduse &sect; 19 l&otilde;ike 1 punktis 1 nimetatud saasteainete v&otilde;i j&auml;&auml;tmete v&auml;hendamise arvutust ja meetmete realiseerimise eelarvet .</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu asendamise aluseks on saastaja ja keskkonnaministri vahel s&otilde;lmitud leping .</s><s>Nimetatud leping peab sisaldama saastetasu asenduse saaja suhtes rakendatavaid sanktsioone asendamise tingimuste t&auml;itmata j&auml;tmise eest .</s>
+</p>
+<p>
+<s>( 3 ) Kui saastetasu asendamise aluseks oleva meetme maksumus &uuml;letab asenduse saaja poolt kalendriaastal makstava saastetasu summa , v&auml;hendatakse asendamata summa v&otilde;rra tema j&auml;rgmiste aastate saastetasu , kuid mitte kauem kui kolm aastat .</s>
+</p>
+<p>
+<s>( 4 ) Saastetasu asendamise algus m&auml;&auml;ratakse lepinguga .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esolevast seadusest tulenev saastetasu asendamise ajaline jaotus ja asendamise kestus fikseeritakse lepingus .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relvalve .</s><s>Saastetasu m&auml;&auml;rad saasteainete ja j&auml;&auml;tmete loata keskkonda viimisel</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>J&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu rakendamise ja arvestamise metoodilist juhendamist korraldab Keskkonnaministeerium .</s><s>Saastetasu rakendamise , arvestamise ja maksmise vastavust k&auml;esoleva seaduse n&otilde;uetele kontrollib Riigikontroll ja teenistuslikku j&auml;relevalvet teostav isik .</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu asendamise lepingu t&auml;itmise &uuml;le teostatava j&auml;relevalve korraldus s&auml;testatakse saastetasu asendamise lepingus .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>T&auml;htajaks maksmata saastetasu</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu t&auml;htajaks maksmata j&auml;tmise korral on saastaja kohustatud maksma &ouml;&ouml;p&auml;evas viivist 0,2 protsenti maksmisele kuuluvast summast .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;htajaks maksmata saastetasu n&otilde;utakse saastajalt sisse tsiviilkohtumenetluse seadustikus ( RT I 1998 , 43-45 , 666 ; 108/109 , 1783 ; 1999 , 16 , 271 ; 31 , 425 ; 2000 , 51 , 319 ; 55 , 365 ; 2001 , 21 , 113 ; 34 , 186 ; 53 , 313 ; 93 , 565 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Enne tsiviilkohtumenetluse algatamist t&auml;htajaks maksmata saastetasu sissen&otilde;udmiseks on volitatud riigiasutus kohustatud esitama saastetasu kohtueelseks sissen&otilde;udmiseks saastajale meeldetuletuse maksta saastetasu k&uuml;mne p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 4 ) Saastetasu tsiviilkohtumenetluse korras sissen&otilde;udmisel esindab riiki vastava keskkonnateenistuse juhataja v&otilde;i tema volitatud isik .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 5 ) Hagiavaldused saastetasu sissen&otilde;udmiseks on riigil&otilde;ivuvabad .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Saastetasu saasteainete v&otilde;i j&auml;&auml;tmete keskkonda loata viimisel</s>
+</p>
+<p>
+<s>( 1 ) Saasteainete v&otilde;i j&auml;&auml;tmete lubatust suuremas koguses v&otilde;i loata keskkonda viimisel arvutatakse saastetasu k&otilde;rgendatud m&auml;&auml;ra j&auml;rgi , kui saasteaineid v&otilde;i j&auml;&auml;tmeid viiakse keskkonda :</s>
+</p>
+<p>
+<s>1 ) paiksest saasteallikast ;</s>
+</p>
+<p>
+<s>2 ) kemikaalide v&otilde;i j&auml;&auml;tmete transportimise k&auml;igus ;</s>
+</p>
+<p>
+<s>3 ) ujuvvahendilt .</s>
+</p>
+<p>
+<s>( 2 ) Paikse saasteallika , transpordivahendi v&otilde;i ujuvvahendi omanik v&otilde;i valdaja on v&otilde;rdsustatud saastajaga , kui ta viib keskkonda saasteaineid v&otilde;i j&auml;&auml;tmeid lubatust suuremas koguses v&otilde;i loata .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Saastetasu k&otilde;rgendatud m&auml;&auml;rad saasteainete v&otilde;i j&auml;&auml;tmete keskkonda viimisel paiksest saasteallikast</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu k&otilde;rgendatud m&auml;&auml;r saasteainete v&auml;lis&otilde;hku viimisel on :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 8 l&otilde;ike 1 punktides 2 ja 3 nimetatud saasteainete puhul viiekordne ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect; 8 l&otilde;ike 1 punktides 1 , 4 , 5 ja 6 nimetatud saasteainete puhul 10-kordne ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva seaduse &sect; 8 l&otilde;ike 1 punktis 7 nimetatud saasteainete puhul 100-kordne .</s>
+</p>
+<p>
+<s>( 2 ) Saastetasu k&otilde;rgendatud m&auml;&auml;r saasteainete viimisel veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse on :</s>
+</p>
+<p>
+<s>1 ) lubatud kontsentratsiooni v&otilde;i reostusmahu piiri &uuml;letava saasteaine koguse puhul vastava saasteaine saastetasu 10-kordne m&auml;&auml;r ;</s>
+</p>
+<p>
+<s>2 ) &uuml;ldl&auml;mmastikuks &uuml;mberarvutatud &uuml;lenormatiivse v&auml;etisekoguse eest ning veeseaduse alusel kehtestatud mineraalv&auml;etiste , s&otilde;nniku ja silomahla kasutamise n&otilde;udeid eirates kasutatud kogu v&auml;etisekoguse eest k&auml;esoleva seaduse &sect; 9 l&otilde;ike 1 punktis 3 kehtestatud 10-kordne m&auml;&auml;r .</s><s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>3 ) saasteaine viimisel veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse loa omamise n&otilde;uet eirates v&otilde;i kohas , mille kohta puudub luba , 15-kordne kogu saasteaine koguse kohta ;</s>
+</p>
+<p>
+<s>4 ) kemikaaliseaduse ( RT I 1998 , 47 , 697 ; 1999 , 45 , 512 ) alusel m&auml;&auml;ratud k&auml;esoleva seaduse &sect; 4 l&otilde;ike 1 punktis 9 nimetatud muude ohtlike ainete viimisel veekogudesse , p&otilde;hjavette v&otilde;i pinnasesse ilma loata v&otilde;i &uuml;le loas lubatud kontsentratsiooni v&otilde;i reostusmahu - &uuml;healuselistele fenoolidele kehtestatud saastetasu 1000-kordne m&auml;&auml;r .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatut ei rakendata nafta , naftasaaduste , mineraal&otilde;li ning tahke k&uuml;tuse ja muu orgaanilise aine termilise t&ouml;&ouml;tlemise vedelproduktide merevette viimisel ujuvvahendilt v&otilde;i naftaterminalist .</s>
+</p>
+<p>
+<s>( 4 ) Saastetasu k&otilde;rgendatud m&auml;&auml;r j&auml;&auml;tmete keskkonda viimisel on :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 10 l&otilde;ike 1 punktides 1-4 ning 8 ja 10 nimetatud j&auml;&auml;tmete puhul viiekordne ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect; 10 l&otilde;ike 1 punktides 5 ja 9 nimetatud j&auml;&auml;tmete puhul 50-kordne ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva seaduse &sect; 10 l&otilde;ike 1 punktis 6 nimetatud j&auml;&auml;tmete puhul 100-kordne ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect; 10 l&otilde;ike 1 punktis 7 nimetatud j&auml;&auml;tmete puhul 500-kordne .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.10.01.2002 - RT I 2001 , 102 , 667 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Saastetasu k&otilde;rgendatud m&auml;&auml;rad saasteainete v&otilde;i j&auml;&auml;tmete viimisel keskkonda kemikaalide v&otilde;i j&auml;&auml;tmete transportimise k&auml;igus</s>
+</p>
+<p>
+<s>( 1 ) Saasteainete v&otilde;i j&auml;&auml;tmete keskkonda viimisel kemikaalide v&otilde;i j&auml;&auml;tmete transportimise k&auml;igus maksab saastetasu transporditavate kemikaalide v&otilde;i j&auml;&auml;tmete keskkonda sattumise p&otilde;hjustanud transpordivahendi valdaja .</s>
+</p>
+<p>
+<s>( 2 ) Saasteainete v&otilde;i j&auml;&auml;tmete keskkonda viimisel kemikaalide v&otilde;i j&auml;&auml;tmete transportimise k&auml;igus rakendatakse k&auml;esoleva seaduse &sect;-s 24 s&auml;testatud saastetasu m&auml;&auml;rasid .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Saastetasu k&otilde;rgendatud m&auml;&auml;rad saasteainete merevette viimisel ujuvvahendilt v&otilde;i naftaterminalist</s>
+</p>
+<p>
+<s>( 1 ) Saasteainete v&otilde;i j&auml;&auml;tmete merevette viimisel ujuvvahendilt v&otilde;i naftaterminalist maksab saastetasu ujuvvahendi v&otilde;i naftaterminali valdaja .</s>
+</p>
+<p>
+<s>( 2 ) Nafta , naftasaaduste , mineraal&otilde;li ning tahke k&uuml;tuse ja muu orgaanilise aine termilise t&ouml;&ouml;tlemise vedelproduktide merevette viimisel ujuvvahendilt v&otilde;i naftaterminalist rakendatakse k&auml;esoleva seaduse &sect; 9 l&otilde;ike 1 punktis 7 s&auml;testatud saastetasu 50-kordset m&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmete merevette viimisel ujuvvahendilt v&otilde;i naftaterminalist rakendatakse k&auml;esoleva seaduse &sect; 24 l&otilde;ikes 4 s&auml;testatud saastetasu m&auml;&auml;rasid .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevas seaduses on naftat , naftasaadusi , mineraal&otilde;li ning tahke k&uuml;tuse ja muu orgaanilise aine termilise t&ouml;&ouml;tlemise vedelprodukte sisaldav ballastvesi ja pilsivesi v&otilde;rdsustatud &sect; 9 l&otilde;ike 1 punktis 7 nimetatud saasteainetega .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Saastetasu arvutamine k&otilde;rgendatud m&auml;&auml;ra j&auml;rgi</s>
+</p>
+<p>
+<s>( 1 ) Saastetasu selle k&otilde;rgendatud m&auml;&auml;ra j&auml;rgi arvutatakse saasteainete v&otilde;i j&auml;&auml;tmete tegelikult m&otilde;&otilde;detud v&otilde;i dokumentaalselt t&otilde;endatud koguste kohta .</s>
+</p>
+<p>
+<s>( 2 ) Kui keskkonda viidud saasteaineid v&otilde;i j&auml;&auml;tmeid ei ole v&otilde;imalik m&otilde;&otilde;ta ega nende kogust dokumentaalselt t&otilde;endada , arvutatakse kogused keskkonnaministri kinnitatud metoodika alusel .</s>
+</p>
+<p>
+<s>( 3 ) Saastetasu selle k&otilde;rgendatud m&auml;&auml;ra j&auml;rgi arvutab keskkonnateenistus v&otilde;i tema n&otilde;usolekul saastaja .</s>
+</p>
+<p>
+<s>( 4 ) K&otilde;rgendatud m&auml;&auml;ra j&auml;rgi arvutatud saastetasu n&otilde;utakse sisse k&auml;esoleva seaduse &sect;-s 22 s&auml;testatud korras , kui saastaja ja keskkonnateenistus ei ole kirjalikult kokku leppinud maksmise teistsugustes t&auml;htaegades ja viisis .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse alusel arvutatakse saastetasu 1999. aasta I kvartalis saastekahju h&uuml;vitise m&auml;&auml;rade j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Saastekahju h&uuml;vitise seadus ( RT I 1994 , 1 , 2 ; 1996 , 49 , 953 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>( 3 ) Eesti Keskkonnafondi seaduse ( RT I 1999 , 10 , 152 ; 24 , 361 ; 48 , 541 ) &sect; 3 l&otilde;ike 2 punktides 1 , 4 ja 5 asendatakse s&otilde;nad &ldquo; saastekahju h&uuml;vitis &rdquo; s&otilde;naga &ldquo; saastetasu &rdquo; .</s>
+</p>
+</body>
+   </text>
+</tei.2>

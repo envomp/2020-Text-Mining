@@ -1,0 +1,1264 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Pensionifondide seadus ( terviktekst mai 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    7101</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Pensionifondide seadus ( terviktekst mai 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=4></tagusage>
+         <tagusage gi=p occurs=386></tagusage>
+         <tagusage gi=s occurs=474></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Pensionifondide seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 10. juunil 1998. a.</s>
+</p>
+<p>
+<s>( RT I 1998 , 61 , 979 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. augustil 1998. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Pensionifond</s>
+</p>
+<p>
+<s>Pensionifond on lepinguline investeerimisfond , mille p&otilde;hieesm&auml;rk on t&auml;iendava tulu v&otilde;imaldamine pensionifondi osakuomanikule p&auml;rast tema 55-aastaseks saamist v&otilde;i t&auml;ieliku ja p&uuml;siva t&ouml;&ouml;v&otilde;imetuse korral .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Pensionifondi nimetus</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi nimetuses tuleb kasutada s&otilde;na &ldquo; pensionifond &rdquo; .</s>
+</p>
+<p>
+<s>( 2 ) Teiste isikute , asutuste v&otilde;i &uuml;henduste nimes v&otilde;i nimetuses ei v&otilde;i olla s&otilde;na &ldquo; pensionifond &rdquo; v&otilde;i sama s&otilde;na k&auml;&auml;ndes , samuti eksitavalt sarnase t&auml;hendusega s&otilde;nu v&otilde;i l&uuml;hendeid eesti ega m&otilde;nes muus keeles .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Investeerimisfondide seaduse kohaldamine</s>
+</p>
+<p>
+<s>Pensionifondile , pensionifondi valitsevale fondivalitsejale ( edaspidi pensionifondivalitseja ) ja pensionifondi depoopangale kohaldatakse investeerimisfondide seaduses ( RT I 1997 , 34 , 535 ; 1998 , 61 , 979 ; 2000 , 10 , 55 ; 57 , 373 ) s&auml;testatut , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pensionifondivalitseja</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Pensionifondi valitsemine</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi v&otilde;ib valitseda &uuml;ksnes vastavat tegevusluba omav fondivalitseja v&otilde;i investeerimisfondide seaduse &sect;-s 50 s&auml;testatud juhul pensionifondi depoopank .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondivalitseja v&otilde;ib valitseda kahte v&otilde;i enamat pensionifondi &uuml;ksnes juhul , kui see on tingitud pensionifondivalitsejate &uuml;hinemisest v&otilde;i pensionifondi valitsemise &uuml;lev&otilde;tmisest .</s>
+</p>
+<p>
+<s>( 3 ) Pensionifondivalitseja jagunemine ei ole lubatud .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Tegevusluba</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi valitsemise tegevusloa ( edaspidi tegevusluba ) annab ja t&uuml;histab Finantsinspektsiooni juhatus oma otsusega .</s><s>Tegevusloa andmisest keeldumise ning tegevusloa t&uuml;histamise korral peab otsus sisaldama p&otilde;hjendust .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 3 ) Tegevusluba on t&auml;htajatu .</s>
+</p>
+<p>
+<s>( 4 ) Tegevusluba ei ole &uuml;leantav ning selle omandamine ja kasutamine teiste isikute poolt on keelatud .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Tegevusloa taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi valitsemise tegevusluba v&otilde;ib taotleda &uuml;ksnes fondivalitseja , kes on taotlemise ajaks tegutsenud fondivalitsejana v&auml;hemalt 18 kuud ning on viimase 12 kuu jooksul valitsenud lepingulist investeerimisfondi .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa taotlemiseks peab fondivalitseja juhatus esitama Finantsinspektsioonile j&auml;rgmised dokumendid ja andmed :</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>1 ) avaldus pensionifondivalitseja tegevusloa saamiseks ja pensionifondi tingimuste registreerimiseks ;</s>
+</p>
+<p>
+<s>2 ) &uuml;ldkoosoleku otsus p&otilde;hikirja muutmise kohta ;</s>
+</p>
+<p>
+<s>3 ) v&auml;ljav&otilde;te &auml;riregistri registrikaardist ;</s>
+</p>
+<p>
+<s>4 ) viimasena kinnitatud majandusaasta aruanne ;</s>
+</p>
+<p>
+<s>5 ) bilanss ja kasumiaruanne taotluse esitamisele eelnenud kuu l&otilde;pu seisuga , juhul kui taotluse esitamisel on majandusaasta l&otilde;pust m&ouml;&ouml;dunud rohkem kui seitse kuud ;</s>
+</p>
+<p>
+<s>6 ) tegevuse aruanne , mis sisaldab k&otilde;iki olulisi andmeid ja anal&uuml;&uuml;si fondivalitseja senise tegevuse ja arengu kohta taotluse esitamisele eelnenud kuu viimase p&auml;eva seisuga ;</s>
+</p>
+<p>
+<s>7 ) valitsetavate investeerimisfondide viimasena kinnitatud aasta- v&otilde;i poolaastaaruanne ning investeeringute aruanne , mis on koostatud esitamisele eelnenud kuu viimase t&ouml;&ouml;p&auml;eva seisuga ;</s>
+</p>
+<p>
+<s>8 ) Maksuameti kohaliku asutuse t&otilde;endid fondivalitseja ja k&auml;esoleva l&otilde;ike punktis 13 nimetatud juriidiliste isikute maksuv&otilde;lgnevuste puudumise kohta , mis ei v&otilde;i avalduse esitamisel olla vanemad kui k&uuml;mme p&auml;eva ;</s>
+</p>
+<p>
+<s>9 ) andmed fondivalitseja juhatuse ja n&otilde;ukogu liikmete kohta , mis sisaldavad neist iga&uuml;he ees- ja perekonnanime , isikukoodi v&otilde;i selle puudumisel s&uuml;nniaega , elukohta , hariduse kirjeldust , viimase viie aasta t&ouml;&ouml;- ja ametikohtade t&auml;ielikku loetelu ;</s>
+</p>
+<p>
+<s>10 ) k&auml;esoleva l&otilde;ike punktis 9 nimetatud andmed teiste fondivalitseja juhtkonda kuuluvate isikute ( tegevdirektor , pearaamatupidaja jt ) ja sisekontrolli teostava isiku kohta ;</s>
+</p>
+<p>
+<s>11 ) andmed fondivalitseja prokuristi ja audiitori kohta , mis sisaldavad nende ees- ja perekonnanime , elukohta ning isikukoodi v&otilde;i selle puudumisel s&uuml;nniaega ;</s>
+</p>
+<p>
+<s>12 ) andmed fondivalitseja aktsion&auml;ride kohta , mis sisaldavad neist iga&uuml;he nime , registrikoodi v&otilde;i isikukoodi v&otilde;i selle puudumisel s&uuml;nniaega ning talle kuuluvate aktsiate ja h&auml;&auml;lte arvu ;</s>
+</p>
+<p>
+<s>13 ) andmed aktsion&auml;ride kohta , kellel on otseselt v&otilde;i kaudselt v&otilde;i koos &uuml;hte kontserni kuuluvate ettev&otilde;tjatega rohkem kui 10% fondivalitseja aktsiakapitalist v&otilde;i aktsiatega esindatud h&auml;&auml;ltest : juriidiliste isikute kohta nimi , registrikood , eelmise majandusaasta raamatupidamise aastaaruanne ning juhatuse v&otilde;i juhatust asendava organi ja n&otilde;ukogu olemasolu korral selle liikmete ees- ja perekonnanimi , isikukood v&otilde;i selle puudumisel s&uuml;nniaeg ; f&uuml;&uuml;siliste isikute kohta k&auml;esoleva l&otilde;ike punktis 9 nimetatud andmed ;</s>
+</p>
+<p>
+<s>14 ) andmed &auml;ri&uuml;hingute kohta , milles fondivalitseja , selle juhatuse v&otilde;i n&otilde;ukogu liikme , prokuristi v&otilde;i k&auml;esoleva l&otilde;ike punktis 17 nimetatud fondijuhi osalus v&otilde;i eelnimetatud isikute osalus kokku on suurem kui 10% , kusjuures nimetatud andmed peavad sisaldama aktsia- v&otilde;i osakapitali suurust , tegevusalade loetelu ning eelnimetatud isikute osaluse suurust ;</s>
+</p>
+<p>
+<s>15 ) pensionifondi moodustamise otsus ;</s>
+</p>
+<p>
+<s>16 ) kolme aasta &auml;riplaan ;</s>
+</p>
+<p>
+<s>17 ) andmed pensionifondi fondijuhi kohta , mis sisaldavad k&auml;esoleva l&otilde;ike punktis 9 nimetatud andmeid , samuti detailset &uuml;levaadet tema poolt juhitud investeerimisfondide kohta ( sh mahud , tootlus ja investeeringute struktuur d&uuml;naamikas , t&auml;ielik &uuml;levaade tehtud ettekirjutustest ja nende t&auml;itmisest , samuti investeerimisfondide seaduse &sect;-des 45 ja 49 nimetatud juhtumitest ) ;</s>
+</p>
+<p>
+<s>18 ) pensionifondi tingimused ;</s>
+</p>
+<p>
+<s>19 ) pensionifondi osakute emissiooniprospekt ;</s>
+</p>
+<p>
+<s>20 ) investeerimisfondide seaduse &sect;-s 86 nimetatud depooleping ;</s>
+</p>
+<p>
+<s>21 ) depoopanga eelmise majandusaasta raamatupidamise aastaaruanne ;</s>
+</p>
+<p>
+<s>22 ) depoopanga n&otilde;ukogu , juhatuse liikmete , prokuristi ja audiitori ees- ja perekonnanimi , isikukood v&otilde;i selle puudumisel s&uuml;nniaeg ;</s>
+</p>
+<p>
+<s>23 ) andmed depoopanga aktsion&auml;ride kohta , kellel on rohkem kui 5% aktsiatega esindatud h&auml;&auml;ltest , kusjuures andmed sisaldavad aktsion&auml;ri nime , registrikoodi v&otilde;i isikukoodi v&otilde;i selle puudumisel s&uuml;nniaega ning talle kuuluvate aktsiate ja h&auml;&auml;lte arvu ;</s>
+</p>
+<p>
+<s>24 ) &uuml;levaade depoopanga senise tegevuse kohta investeerimisfondide depoopangana ;</s>
+</p>
+<p>
+<s>25 ) t&otilde;end riigil&otilde;ivu tasumise kohta .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktis 6 nimetatud aruanne peab muu hulgas sisaldama j&auml;rgmiste andmete kirjeldust ja anal&uuml;&uuml;si :</s>
+</p>
+<p>
+<s>1 ) aktsia- ja omakapitali suurus ;</s>
+</p>
+<p>
+<s>2 ) muudatused valitsetavate investeerimisfondide investeerimispoliitikas ;</s>
+</p>
+<p>
+<s>3 ) valitsetavate investeerimisfondide aktivate turuv&auml;&auml;rtus , puhasv&auml;&auml;rtus , tootlus ja investeeringute struktuur ;</s>
+</p>
+<p>
+<s>4 ) v&auml;ljalastud ja tagasiv&otilde;etud osakute arv ;</s>
+</p>
+<p>
+<s>5 ) f&uuml;&uuml;silistest isikutest osakuomanike arv ja nende osa taotleja poolt valitsetavates investeerimisfondides ;</s>
+</p>
+<p>
+<s>6 ) valitsemis- ja depootasude ning muude investeerimisfondide arvelt tehtavate kulutuste suurus ;</s>
+</p>
+<p>
+<s>7 ) fondivalitseja juhtimisstruktuur , tegevuse organisatsiooniline ja tehniline korraldus , investeerimisfondide valitsemisega seotud isikute &otilde;igused , kohustused ja vastutus .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktis 16 nimetatud &auml;riplaan ( edaspidi &auml;riplaan ) peab sisaldama prognoosi ja anal&uuml;&uuml;si k&otilde;igi pensionifondi ja pensionifondivalitseja olulisemate majandusn&auml;itajate ning fondivalitseja juhtimisstruktuuri ja pensionifondi valitsemisega seotud isikute &otilde;iguste , kohustuste ja vastutuse kohta , aga ka j&auml;rgmiste asjaolude kirjeldust , prognoosi ja anal&uuml;&uuml;si :</s>
+</p>
+<p>
+<s>1 ) v&auml;ljalastavate ja tagasiv&otilde;etavate osakute arv ;</s>
+</p>
+<p>
+<s>2 ) osakute v&auml;ljalaskmise korraldamine ;</s>
+</p>
+<p>
+<s>3 ) osakuomanike arv ;</s>
+</p>
+<p>
+<s>4 ) pensionifondi aktivate turuv&auml;&auml;rtus , puhasv&auml;&auml;rtus ja tootlus ;</s>
+</p>
+<p>
+<s>5 ) pensionifondi investeerimispoliitika ja investeeringute struktuur ( jaotus eri varaliikide - aktsiad , v&otilde;lakirjad , kinnisvara jms - , eri riikide emitentide , eri majandusharude jms l&otilde;ikes ) ;</s>
+</p>
+<p>
+<s>6 ) riskid ja tootlus eri liiki investeeringute l&otilde;ikes ;</s>
+</p>
+<p>
+<s>7 ) pensionifondivalitseja aktsiakapital , bilansi maht ja kasum ;</s>
+</p>
+<p>
+<s>8 ) valitsemis- ja depootasude ning osakute v&auml;ljalaske- ja tagasiv&otilde;tmistasude m&auml;&auml;rad ja laekumiste suurused ;</s>
+</p>
+<p>
+<s>9 ) pensionifondi valitsemiskulude suurus ja struktuur ;</s>
+</p>
+<p>
+<s>10 ) pensionifondivalitseja organisatsioonilise struktuuri ja tehnilise korralduse areng .</s>
+</p>
+<p>
+<s>( 5 ) Fondivalitseja on kohustatud esitama Finantsinspektsiooni n&otilde;udmisel esitamisele kuuluvate andmete kohta t&auml;psustavat teavet ja dokumente .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 6 ) Rahandusminister v&otilde;ib kehtestada k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud andmete esitamise korra .</s>
+</p>
+<p>
+<s>( 7 ) Kui fondivalitseja ei ole esitanud k&otilde;iki k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud andmeid ja dokumente v&otilde;i need on eba&otilde;iged , mittet&auml;ielikud , ebakorrektselt vormistatud v&otilde;i ei vasta &otilde;igusaktides kehtestatud n&otilde;uetele , teatab Finantsinspektsioon sellest taotlejale kirjalikult .</s><s>Taotleja peab puudused k&otilde;rvaldama 20 kalendrip&auml;eva jooksul , arvates teate k&auml;ttesaamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Tegevusloa andmisest keeldumine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa andmisest keeldutakse , kui :</s>
+</p>
+<p>
+<s>1 ) tegevusloa taotleja ei ole esitanud k&otilde;iki k&auml;esoleva seaduse &sect;-s 6 nimetatud andmeid ja dokumente v&otilde;i need on eba&otilde;iged , mittet&auml;ielikud , ebakorrektsed v&otilde;i ei vasta &otilde;igusaktides s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) taotleja ei vasta &otilde;igusaktidega pensionifondivalitsejale kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>3 ) taotleja on rikkunud &otilde;igusaktides , investeerimisfondi tingimustes v&otilde;i p&otilde;hikirjas v&otilde;i investeerimisfondide seaduse &sect;-s 72 nimetatud valitsemislepingus s&auml;testatut v&otilde;i avaldanud eksitavaid andmeid v&otilde;i muul kujul rikkunud h&auml;id &auml;ritavasid ;</s>
+</p>
+<p>
+<s>4 ) taotlejal ei ole piisavalt vahendeid ja kogemusi , mis oleksid vajalikud edukaks ja j&auml;rjepidevaks tegevuseks pensionifondivalitsejana ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva seaduse &sect; 6 l&otilde;ike 2 punktides 9 , 10 , 13 ja 17 nimetatud isikud ei vasta &otilde;igusaktides s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>6 ) k&auml;esoleva l&otilde;ike punktis 5 viidatud isikute teadmised , oskused , kogemused ning muud v&otilde;imalused ja omadused ei ole k&uuml;llaldased tagamaks , et pensionifondi osakuomanike huvid oleksid vajalikul m&auml;&auml;ral kaitstud ;</s>
+</p>
+<p>
+<s>7 ) pensionifondi tingimused ei kajasta t&auml;ielikult , arusaadavalt ja &uuml;heselt k&otilde;iki pensionifondi toimimise olulisi tingimusi v&otilde;i sisaldavad s&auml;tteid , mis on eksitavad v&otilde;i omavahel vastuolus , v&otilde;i kui pensionifondi tingimused ei taga pensionifondi osakuomanike parimate huvide j&auml;rgimist ;</s>
+</p>
+<p>
+<s>8 ) pensionifondi tingimustes ja &auml;riplaanis kavandatav investeerimispoliitika ei taga k&uuml;llaldast riskide hajutamist ning pensionifondi varade vajalikku kindlust ja j&auml;rjepidevat kasvu ;</s>
+</p>
+<p>
+<s>9 ) esitatud &auml;riplaan on mittet&auml;ielik , sisaldab vastuolulisi ja ebaadekvaatseid andmeid v&otilde;i hinnanguid v&otilde;i selle rakendamisel ei oleks k&uuml;llaldaselt tagatud pensionifondi osakuomanike huvide kaitse ;</s>
+</p>
+<p>
+<s>10 ) depoopank ei vasta seaduse alusel pensionifondi depoopangale kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>11 ) depoopank on rikkunud seaduses , teistes &otilde;igusaktides , investeerimisfondi tingimustes v&otilde;i p&otilde;hikirjas v&otilde;i depoolepingus s&auml;testatut ;</s>
+</p>
+<p>
+<s>12 ) depooleping sisaldab s&auml;tteid , mis on omavahel vastuolus , ei ole &uuml;heselt m&otilde;istetavad v&otilde;i takistavad pensionifondi depoopangal v&otilde;i pensionifondivalitsejal oma &uuml;lesannete t&auml;ies ulatuses t&auml;itmist v&otilde;i muul p&otilde;hjusel ei v&otilde;imalda pensionifondi osakuomanike parimate huvide j&auml;rgimist ;</s>
+</p>
+<p>
+<s>13 ) taotleja v&otilde;i k&auml;esoleva l&otilde;ike punktis 5 nimetatud isikud ei ole piisavalt usaldusv&auml;&auml;rsed v&otilde;i vajalikul m&auml;&auml;ral suutelised tagama pensionifondi osakuomanike huvide j&auml;rgimist .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 4 s&auml;testatu hindamisel arvestatakse muu hulgas :</s>
+</p>
+<p>
+<s>1 ) taotleja tegevuse organisatsioonilise ja tehnilise korralduse taset ;</s>
+</p>
+<p>
+<s>2 ) investeerimisfondide valitsemisega seotud isikute erialast ettevalmistust ja kogemusi , samuti nende &otilde;iguste , kohustuste ja vastutuse selgust ;</s>
+</p>
+<p>
+<s>3 ) taotleja poolt valitsetavate investeerimisfondide varade v&auml;&auml;rtust , tootlust ja kasvu j&auml;rjepidevust ;</s>
+</p>
+<p>
+<s>4 ) f&uuml;&uuml;silistest isikutest osakuomanike arvu ja nende osakaalu taotleja poolt valitsetavates investeerimisfondides ;</s>
+</p>
+<p>
+<s>5 ) investeeringute hajutamise astet ning kogemust eri liiki investeeringute ( aktsiad , v&otilde;lakirjad , kinnisvara , tuletisv&auml;&auml;rtpaberid , eri riikide emitendid , eri majandusharud ) tegemisel .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Tegevusloa andmise otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Otsuse tegevusloa andmise v&otilde;i sellest keeldumise kohta teeb Finantsinspektsiooni juhatus hiljemalt 90 p&auml;eva jooksul p&auml;rast taotleja poolt Finantsinspektsioonile k&auml;esoleva seaduse &sect; 6 l&otilde;ikes 2 nimetatud avalduse ja andmete esitamist .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 2 ) Fondivalitseja ja depoopank on kohustatud esitama Finantsinspektsiooni n&otilde;udmisel t&auml;iendavaid dokumente ja andmeid .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloal n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) tegevusloa number ;</s>
+</p>
+<p>
+<s>2 ) pensionifondivalitseja nimi ja &auml;riregistri kood ;</s>
+</p>
+<p>
+<s>3 ) tegevusloaga lubatud tegevusala ;</s>
+</p>
+<p>
+<s>4 ) tegevusloa andmise aeg ;</s>
+</p>
+<p>
+<s>5 ) tegevusloa v&auml;ljaandja .</s>
+</p>
+<p>
+<s>( 4 ) Tegevusluba ja &auml;rakiri Finantsinspektsiooni juhatuse otsusest tegevusloa andmise v&otilde;i sellest keeldumise kohta , samuti &auml;rakiri k&auml;esoleva seaduse &sect; 20 l&otilde;ikes 3 nimetatud otsusest saadetakse taotlejale hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul p&auml;rast otsuse tegemist .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Tegevusloa kehtivuse l&otilde;ppemine</s>
+</p>
+<p>
+<s>Tegevusloa kehtivus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) pensionifondivalitsejale investeerimisfondide valitsemiseks v&auml;ljaantud tegevusloa kehtivuse l&otilde;ppemisega ;</s>
+</p>
+<p>
+<s>2 ) nelja kuu m&ouml;&ouml;dumisel tegevusloa v&auml;ljastamisest , kui fondivalitseja ei ole alustanud pensionifondi osakute v&auml;ljalaskmist ;</s>
+</p>
+<p>
+<s>3 ) pensionifondi valitsemise &uuml;leandmisega , kui selle tulemusena ei valitse pensionifondivalitseja enam &uuml;htegi pensionifondi ;</s>
+</p>
+<p>
+<s>4 ) tegevusloa t&uuml;histamisega .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Tegevusloa t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusluba t&uuml;histatakse , kui :</s>
+</p>
+<p>
+<s>1 ) ilmneb , et tegevusloa taotlemisel on esitatud valeandmeid , millel oli tegevusloa andmise otsustamisel oluline t&auml;hendus , samuti muudel juhtudel , kui rahandusministrile v&otilde;i Finantsinspektsioonile on esitatud valeandmeid v&otilde;i kui andmed on korduvalt j&auml;etud t&auml;htaegselt esitamata ;</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>2 ) pensionifondivalitseja v&otilde;i k&auml;esoleva seaduse paragrahvi 6 l&otilde;ike 2 punktides 9 , 10 , 13 ja 17 nimetatud isikud ei vasta &otilde;igusaktidega s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>3 ) pensionifondivalitseja on oma tegevuses rikkunud &otilde;igusaktides v&otilde;i pensionifondi tingimustes s&auml;testatut v&otilde;i kui rikkumise t&otilde;ttu on kahjustatud pensionifondi osakuomanike huvisid ;</s>
+</p>
+<p>
+<s>4 ) pensionifondivalitseja avaldab oma tegevuse , juhtimisorganite liikmete v&otilde;i aktsion&auml;ride kohta oluliselt eba&otilde;igeid v&otilde;i eksitavaid andmeid v&otilde;i reklaami ;</s>
+</p>
+<p>
+<s>5 ) pensionifondivalitseja ei ole etten&auml;htud t&auml;htajaks v&otilde;i ulatuses t&auml;itnud Finantsinspektsiooni ettekirjutust ;</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>6 ) ilmnevad k&auml;esoleva seaduse &sect; 7 l&otilde;ike 1 punktides 3 , 4 , 6 ja 13 nimetatud asjaolud .</s>
+</p>
+<p>
+<s>( 2 ) Enne tegevusloa t&uuml;histamise otsustamist v&otilde;ib Finantsinspektsiooni juhatus oma otsusega m&auml;&auml;rata pensionifondivalitsejale t&auml;htaja t&uuml;histamise aluseks olevate puuduste k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 3 ) &Auml;rakiri Finantsinspektsiooni juhatuse otsusest , millega tegevusluba t&uuml;histati v&otilde;i m&auml;&auml;rati k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud t&auml;htaeg , saadetakse viivitamata otsuses nimetatud isikule , samuti tema poolt valitsetava pensionifondi depoopangale .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>N&otilde;uded aktsia- ja omakapitalile</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondivalitseja aktsiakapital peab olema v&auml;hemalt 12 miljonit krooni .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondivalitseja omakapital peab olema v&auml;hemalt 2% tema poolt valitsetavate pensionifondide aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 3 ) Pensionifondivalitseja netovara ei v&otilde;i olla v&auml;iksem kui tema aktsiakapital .</s><s>Selle n&otilde;ude rikkumise korral kohaldatakse &auml;riseadustiku ( RT I 1995 , 26/28 , 355 ; 1998 , 91/93 , 1500 ; 1999 , 10 , 155 ; 23 , 355 ; 24 , 360 ; 57 , 596 ; 102 , 907 ; 2000 , 29 , 172 ; 49 , 303 ; 55 , 365 ; 57 , 373 ; 2001 , 24 , 133 ; 34 , 185 ; 56 , 332 ; 336 ) &sect;-s 301 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 4 ) Pensionifondi valitsemise &uuml;lev&otilde;tmisel peab k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud tingimus olema t&auml;idetud hiljemalt &uuml;he aasta jooksul p&auml;rast valitsemis&otilde;iguse &uuml;leminekut .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kohustuslik osalus pensionifondis</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondivalitseja peab omama v&auml;hemalt 2% iga tema poolt valitsetava pensionifondi osakutest , v&auml;lja arvatud kuue kuu jooksul p&auml;rast pensionifondi &uuml;lev&otilde;tmist .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondi osakute omandamine v&otilde;i tagasiv&otilde;tmine pensionifondivalitseja poolt toimub &uuml;ks kord kuus pensionifondi tingimustes kindlaksm&auml;&auml;ratud p&auml;eval .</s>
+</p>
+<p>
+<s>( 3 ) Pensionifondivalitseja poolt osakute omandamine v&otilde;i tagasiv&otilde;tmine on vaja eelnevalt koosk&otilde;lastada Finantsinspektsiooniga .</s><s>Finantsinspektsioon l&auml;htub koosk&otilde;lastuse andmise otsustamisel osakuomanike huvide kaitsest .</s><s>Finantsinspektsioon ei koosk&otilde;lasta :</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>1 ) osakute omandamist , kui pensionifondivalitseja omab loa taotlemise p&auml;eval rohkem kui 5% pensionifondi osakutest v&otilde;i</s>
+</p>
+<p>
+<s>2 ) osakute tagasiv&otilde;tmist , kui selle tagaj&auml;rjel j&auml;&auml;b pensionifondivalitsejale v&auml;hem kui 2% pensionifondi osakutest .</s>
+</p>
+<p>
+<s>( 4 ) Finantsinspektsioon v&otilde;ib n&otilde;uda osakute tagasiv&otilde;tmist pensionifondivalitseja poolt , kui pensionifondivalitseja omab rohkem kui 5% pensionifondi osakutest .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 5 ) Pensionifondi valitsemise &otilde;iguse &uuml;leandnud isik v&otilde;ib pensionifondi osakute tagasiv&otilde;tmist n&otilde;uda p&auml;rast kuue kuu m&ouml;&ouml;dumist pensionifondi valitsemise &uuml;leandmisest .</s>
+</p>
+<p>
+<s>( 6 ) Pensionifondivalitseja poolt pensionifondi osakute omandamise ja tagasiv&otilde;tmise t&auml;psema korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Osakuomanike n&otilde;uded pensionifondivalitseja pankroti korral</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondivalitseja pankroti korral rahuldatakse tema poolt valitsetavate pensionifondide osakuomanike n&otilde;uded pensionifondivalitseja vastu esimeses j&auml;rgus p&auml;rast pandiga tagatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatut kohaldatakse pensionifondi valitsenud isiku suhtes viie aasta jooksul p&auml;rast pensionifondi valitsemise &uuml;leandmist .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Fondivalitseja n&otilde;ukogu ja juhatuse liikmed</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondivalitseja n&otilde;ukogu ega juhatuse liige ei v&otilde;i olla teise fondivalitseja n&otilde;ukogu v&otilde;i juhatuse liige , v&auml;lja arvatud n&otilde;ukogu liige fondivalitsejas , mille aktsiate v&otilde;i osadega esindatud h&auml;&auml;ltest kuulub &uuml;le 50% pensionifondivalitsejale .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondivalitseja juhatuse ja n&otilde;ukogu liikme nimetamine tuleb eelnevalt koosk&otilde;lastada Finantsinspektsiooniga .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;ukogu v&otilde;i juhatuse liikme nimetamise koosk&otilde;lastamiseks tuleb Finantsinspektsioonile esitada vastav avaldus ning k&auml;esoleva seaduse &sect; 6 l&otilde;ike 2 punktides 9 ja 14 nimetatud andmed .</s><s>Pensionifondivalitseja on kohustatud esitama Finantsinspektsiooni n&otilde;udmisel t&auml;psustavat teavet ja dokumente .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud koosk&otilde;lastuse andmisest keeldutakse k&auml;esoleva seaduse &sect; 7 l&otilde;ike 1 punktides 1 , 2 , 5 , 6 v&otilde;i 13 nimetatud asjaoludel .</s>
+</p>
+<p>
+<s>( 5 ) N&otilde;ukogu v&otilde;i juhatuse liikme nimetamise koosk&otilde;lastamise kohta teeb Finantsinspektsiooni juhatus otsuse 20 p&auml;eva jooksul p&auml;rast vastava avalduse saamist .</s><s>Otsuse &auml;rakiri saadetakse pensionifondivalitsejale kolme p&auml;eva jooksul p&auml;rast vastava otsuse tegemist .</s><s>Kui 30 p&auml;eva m&ouml;&ouml;dumisel avalduse esitamisest Finantsinspektsioonile ei ole taotleja otsuse &auml;rakirja saanud , loetakse n&otilde;ukogu v&otilde;i juhatuse liikme nimetamine koosk&otilde;lastatuks .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Oluliste osaluste muutumise koosk&otilde;lastamine</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondivalitseja aktsiate v&otilde;&otilde;randamine v&otilde;i muu tehingu tegemine tuleb eelnevalt koosk&otilde;lastada Finantsinspektsiooniga , kui sellise tehingu tagaj&auml;rjel &uuml;hele isikule kuuluv osalus &uuml;letab v&otilde;i langeb alla 1/10 , 1/5 , 1/3 , 1/2 v&otilde;i 2/3 pensionifondivalitseja aktsiakapitalist v&otilde;i aktsiatega esindatud h&auml;&auml;ltest .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tehingu koosk&otilde;lastamiseks tuleb Finantsinspektsioonile esitada avaldus ning k&auml;esoleva seaduse &sect; 6 l&otilde;ike 2 punktides 12 ja 13 nimetatud andmed .</s><s>Pensionifondivalitseja on kohustatud esitama Finantsinspektsiooni n&otilde;udmisel t&auml;psustavat teavet ja dokumente .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tehingule koosk&otilde;lastuse andmisest keeldutakse , kui tehinguga ilmneksid k&auml;esoleva seaduse &sect; 7 l&otilde;ike 1 punktides 1 , 5 , 6 v&otilde;i 13 nimetatud asjaolud .</s><s>Koosk&otilde;lastamisele kohaldatakse k&auml;esoleva seaduse &sect; 14 l&otilde;ikes 5 s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>P&otilde;hikirja muudatuste koosk&otilde;lastamine</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondivalitseja p&otilde;hikirja muudatused tuleb enne muudatuste &auml;riregistrisse kandmist koosk&otilde;lastada Finantsinspektsiooniga .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;hikirja muudatuste koosk&otilde;lastamiseks esitab pensionifondivalitseja Finantsinspektsioonile :</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>1 ) avalduse koos selgitusega p&otilde;hikirja muutmise p&otilde;hjuste kohta ;</s>
+</p>
+<p>
+<s>2 ) &uuml;ldkoosoleku otsuse p&otilde;hikirja muutmise kohta koos v&auml;ljav&otilde;ttega protokollist h&auml;&auml;letustulemuste kohta ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;hikirja muudetud teksti .</s>
+</p>
+<p>
+<s>( 3 ) P&otilde;hikirja muudatuste koosk&otilde;lastamisest keeldutakse , kui sellega kahjustataks pensionifondi osakuomanike huvisid v&otilde;i ilmneksid muud k&auml;esoleva seaduse &sect; 7 l&otilde;ike 1 punktides 1 ja 2 nimetatud asjaolud .</s><s>Koosk&otilde;lastamisele kohaldatakse k&auml;esoleva seaduse &sect; 14 l&otilde;ike 5 esimeses ja teises lauses s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Pensionifondi fondijuht</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi fondijuhiks v&otilde;ib olla &uuml;ksnes isik ,</s>
+</p>
+<p>
+<s>1 ) kes vastab investeerimisfondide seaduse &sect;-s 16 s&auml;testatud n&otilde;uetele ja</s>
+</p>
+<p>
+<s>2 ) kes on v&auml;hemalt kuue j&auml;rjestikuse kuu v&otilde;i kokku &uuml;he aasta jooksul tegutsenud fondijuhina ja</s>
+</p>
+<p>
+<s>3 ) kellel on k&uuml;llaldased erialased kogemused , laitmatu &auml;rialane ja erialane reputatsioon .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondi fondijuhi m&auml;&auml;ramine on vaja eelnevalt koosk&otilde;lastada Finantsinspektsiooniga .</s><s>Pensionifondi moodustamisel loetakse pensionifondi fondijuhi m&auml;&auml;ramine koosk&otilde;lastatuks alates tegevusloa andmise otsuse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 3 ) Pensionifondi fondijuhi m&auml;&auml;ramise koosk&otilde;lastamiseks tuleb Finantsinspektsioonile esitada vastav avaldus ning k&auml;esoleva seaduse &sect; 6 l&otilde;ike 2 punktides 14 ja 17 nimetatud andmed .</s><s>Pensionifondivalitseja on kohustatud esitama Finantsinspektsiooni n&otilde;udmisel t&auml;psustavat teavet ja dokumente .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 4 ) Pensionifondi fondijuhi m&auml;&auml;ramise koosk&otilde;lastamisest keeldutakse , kui ilmnevad k&auml;esoleva seaduse &sect; 7 l&otilde;ike 1 punktides 1 , 5 , 6 v&otilde;i 13 nimetatud asjaolud .</s><s>Koosk&otilde;lastamisele kohaldatakse k&auml;esoleva seaduse &sect; 14 l&otilde;ikes 5 s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Teatamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 6 l&otilde;ike 2 punktides 3 , 4 , 9-14 , 17 , 19 , 21 ja 22 nimetatud andmete muutumisel peab pensionifondivalitseja viivitamata esitama Finantsinspektsioonile vastavad andmed ja dokumendid uuendatud kujul .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 2 ) Lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatule peab pensionifondivalitseja viivitamata esitama temale teada olevad andmed k&auml;esoleva seaduse &sect; 6 l&otilde;ike 2 punktides 9-11 , 13 , 14 ja 17 nimetatud isikute suhtes pankroti- v&otilde;i t&auml;itemenetluse algatamise , juriidilise isiku puhul ka &uuml;mberkujundamise , jagunemise , &uuml;hinemise ja likvideerimismenetluse algatamise kohta .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pensionifond</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Pensionifondi tingimused</s>
+</p>
+<p>
+<s>( 1 ) Lisaks investeerimisfondide seaduse &sect; 34 l&otilde;ikes 1 s&auml;testatule peavad pensionifondi tingimused sisaldama pensionifondi vahetamise tingimuste ja korra ning tulumaksusoodustusega pensionikindlustuslepingu s&otilde;lmimise eesm&auml;rgil tagasiv&otilde;etud osakute eest saadud summa kindlustusandjale &uuml;lekandmise korra t&auml;pset kirjeldust .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondi tingimused registreeritakse k&auml;esoleva seaduse &sect;-s 8 s&auml;testatud tegevusloa andmise otsuse alusel hiljemalt seitsme t&ouml;&ouml;p&auml;eva jooksul p&auml;rast tegevusloa andmist .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Pensionifondi tingimuste muutmine</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi tingimuste muutmiseks on vaja Finantsinspektsiooni luba .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 2 ) Lisaks investeerimisfondide seaduse &sect; 36 l&otilde;ikes 3 s&auml;testatule tuleb pensionifondi tingimuste muutmiseks esitada p&otilde;hjendus ja anal&uuml;&uuml;s , kuidas muudatused m&otilde;jutavad pensionifondi edasist arengut ja pensionifondi osakuomanike huvisid , ning depoopanga juhatuse seisukoht pensionifondi tingimuste muutmise kohta .</s><s>Uue depoolepingu s&otilde;lmimisel on vaja esitada ka k&auml;esoleva seaduse &sect; 6 l&otilde;ike 2 punktides 21-24 nimetatud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Otsuse k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud loa andmise v&otilde;i sellest keeldumise kohta teeb rahandusminister oma k&auml;skkirjaga 40 p&auml;eva jooksul p&auml;rast taotleja poolt Finantsinspektsioonile vastava avalduse ja etten&auml;htud dokumentide esitamist .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud loa andmisest keeldutakse , kui pensionifondi tingimuste muutmine kahjustab pensionifondi osakuomanike huvisid v&otilde;i ilmnevad muud k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 1 nimetatud asjaolud .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Pensionifondi osak ja osakuomanik</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi osaku ( edaspidi osak ) nimiv&auml;&auml;rtus on 10 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Osakuid v&otilde;ivad omandada v&otilde;i omada ainult f&uuml;&uuml;silised isikud ja pensionifondivalitseja k&auml;esoleva seaduse &sect;-s 12 s&auml;testatud tingimustel .</s>
+</p>
+<p>
+<s>( 3 ) Osak on jagamatu ega v&otilde;i kuuluda &uuml;heaegselt mitmele isikule .</s><s>Osakud v&otilde;ivad kuuluda abikaasade &uuml;hisvarasse .</s>
+</p>
+<p>
+<s>( 4 ) Osakuid ei v&otilde;i v&otilde;&otilde;randada ega koormata .</s>
+</p>
+<p>
+<s>( 5 ) Osakuomaniku pankroti korral v&otilde;i tema varale sissen&otilde;ude p&ouml;&ouml;ramisel t&auml;itemenetluse korras on vastavalt pankrotihalduril v&otilde;i t&auml;ituril &otilde;igus n&otilde;uda osakute tagasiv&otilde;tmist v&otilde;i pensionifondi likvideerimise korral v&auml;ljamaksete tegemist .</s><s>Muudel juhtudel on osakutele sissen&otilde;ude p&ouml;&ouml;ramine keelatud .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Sissemaksed pensionifondi</s>
+</p>
+<p>
+<s>( 1 ) Osakute omandamisel tehakse sissemaksed pensionifondi v&auml;ljalaskehinnaga .</s>
+</p>
+<p>
+<s>( 2 ) Osakute v&auml;ljalaskmisel ei v&otilde;i n&otilde;uda , et &uuml;hekordselt omandatavate osakute minimaalne kogus oleks suurem kui k&uuml;mme osakut .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>V&auml;ljamaksed pensionifondist</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondist tehakse osakuomanikele v&auml;ljamakseid kas osakute tagasiv&otilde;tmisel pensionifondivalitseja poolt v&otilde;i pensionifondi likvideerimisel .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ljamaksete tegemiseks ei loeta osakute tagasiv&otilde;tmist pensionifondi vahetamisel k&auml;esoleva seaduse &sect;-s 28 s&auml;testatu kohaselt .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;ljamakse tegemiseks ei loeta osakute tagasiv&otilde;tmist tulumaksusoodustusega pensionikindlustuse lepingu s&otilde;lmimise eesm&auml;rgil k&auml;esoleva seaduse &sect;-s 29 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;hekordselt tagasiv&otilde;etavate osakute arvu ei v&otilde;i piirata .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Osakute tagasiv&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Osakuomanikul on &otilde;igus n&otilde;uda osakute tagasiv&otilde;tmist &uuml;ksnes k&auml;esolevas paragrahvis s&auml;testatud tingimustel , kuid mitte enne kahe aasta m&ouml;&ouml;dumist tema poolt nende osakute omandamisest .</s>
+</p>
+<p>
+<s>( 2 ) Osakuomanikul on &otilde;igus n&otilde;uda osakute tagasiv&otilde;tmist tagasiv&otilde;tmishinnaga , kui ta on vanem kui 55 aastat v&otilde;i kui ta on t&auml;ielikult ja p&uuml;sivalt t&ouml;&ouml;v&otilde;imetu ;</s>
+</p>
+<p>
+<s>( 3 ) Osakute tagasiv&otilde;tmisel k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetamata juhtudel peab pensionifondivalitseja v&auml;ljamaksetelt t&auml;iendavalt kinni 3% osakute puhasv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 4 ) Osakute tagasiv&otilde;tmisel enne viie aasta m&ouml;&ouml;dumist nende osakute omandamisest osakuomaniku poolt peab pensionifondivalitseja v&auml;ljamaksetelt t&auml;iendavalt kinni 2% osakute puhasv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;igete 3 ja 4 kohaselt kinnipeetud summad j&auml;&auml;vad pensionifondi .</s>
+</p>
+<p>
+<s>( 6 ) Osakute omandamiseks osakuomaniku poolt loetakse k&auml;esoleva paragrahvi l&otilde;igete 1 ja 4 t&auml;henduses ka osakute omandamist abikaasade &uuml;hisvarasse , kui hiljem on toimunud selle jagamine .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esolevas paragrahvis s&auml;testatut ei kohaldata k&auml;esoleva seaduse &sect; 26 l&otilde;igetes 3 ja 4 ning &sect;-des 27 ja 29 s&auml;testatud juhtudel , samuti osakute tagasiv&otilde;tmisele pensionifondi vahetamisel .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Osaku tagasiv&otilde;tmistasu</s>
+</p>
+<p>
+<s>Osaku tagasiv&otilde;tmistasu ei v&otilde;i olla suurem kui 1% osaku puhasv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Osakute p&auml;rimine</s>
+</p>
+<p>
+<s>( 1 ) Osakud on p&auml;ritavad .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hte osakut ei saa p&auml;rida mitu isikut .</s>
+</p>
+<p>
+<s>( 3 ) Osakud ei saa j&auml;&auml;da mitme p&auml;rija kaasomandiks .</s><s>Kui kaasp&auml;rijad ei lepi viie kuu jooksul osakute &uuml;leminekust kaasomandisse kokku teisiti , loetakse osakud jagatuks kaasp&auml;rijate vahel v&otilde;rdeliselt nende kaasomandi osaga .</s><s>Jagamisel &uuml;lej&auml;&auml;nud osakute j&auml;&auml;k kuulub tagasiv&otilde;tmisele ning selle ulatuses tehakse kaasp&auml;rijatele v&auml;ljamakse .</s>
+</p>
+<p>
+<s>( 4 ) Kui p&auml;rijaks on f&uuml;&uuml;siline isik , on tal kuue kuu jooksul p&auml;rast p&auml;randi vastuv&otilde;tmist &otilde;igus n&otilde;uda k&otilde;igi osakute v&otilde;i nendest osa tagasiv&otilde;tmist .</s>
+</p>
+<p>
+<s>( 5 ) Kui f&uuml;&uuml;silisest isikust p&auml;rija ei ole k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud t&auml;htajaks n&otilde;udnud osaku tagasiv&otilde;tmist , loetakse , et ta on p&auml;randi vastuv&otilde;tmise p&auml;evast omandanud talle p&auml;randatud osaku ja tal on &otilde;igus &uuml;ldistel alustel n&otilde;uda osaku tagasiv&otilde;tmist ning muud osakust tulenevad &otilde;igused .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Osakute p&auml;rimine juriidiliste isikute poolt</s>
+</p>
+<p>
+<s>( 1 ) Kui pensionifondi osakud p&auml;randatakse juriidilisele isikule , loetakse osakud tagasiv&otilde;etuks alates p&auml;randi vastuv&otilde;tmise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilisest isikust p&auml;rijal on &otilde;igus iga tema poolt p&auml;ritud osaku kohta n&otilde;uda rahalise v&auml;ljamakse tegemist n&otilde;ude esitamise p&auml;eva tagasiv&otilde;tmishinna ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Juriidilisest isikust p&auml;rija kaotab k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud &otilde;iguse , kui ta ei n&otilde;ua v&auml;ljamaksmist kolme kuu jooksul , arvates p&auml;randi vastuv&otilde;tmisest .</s><s>V&auml;ljan&otilde;udmata raha j&auml;&auml;b pensionifondi ja osak ning sellest tulenevad &otilde;igused ja kohustused loetakse l&otilde;ppenuks .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Pensionifondi vahetamine</s>
+</p>
+<p>
+<s>( 1 ) Osakuomanikul on &otilde;igus n&otilde;uda &uuml;he pensionifondi osakute vahetamist teise pensionifondi osakute vastu .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondi vahetamiseks peab osakuomanikule kuuluma v&auml;hemalt 2000 vahetatavat osakut .</s><s>K&otilde;ik osakuomanikule kuuluvad &uuml;he pensionifondi osakud vahetatakse korraga .</s>
+</p>
+<p>
+<s>( 3 ) Pensionifondi vahetamine ei ole lubatud :</s>
+</p>
+<p>
+<s>1 ) kui m&otilde;lemat toiminguga seotud pensionifondi valitseb sama pensionifondivalitseja ;</s>
+</p>
+<p>
+<s>2 ) kahe aasta jooksul p&auml;rast pensionifondi vahetamist .</s>
+</p>
+<p>
+<s>( 4 ) Pensionifondi vahetamiseks peab osakuomanik esitama pensionifondivalitsejale avalduse .</s><s>Avalduses n&auml;idatakse , millise pensionifondi osakute vastu osakuomanik soovib vahetada talle kuuluvad pensionifondi osakud , samuti muud pensionifondi tingimustes etten&auml;htud andmed .</s>
+</p>
+<p>
+<s>( 5 ) Pensionifondi vahetamisel toimub &uuml;he pensionifondi osakute tagasiv&otilde;tmine ja teise pensionifondi osakute v&auml;ljalaskmine osakute vahetamise p&auml;eva seisuga .</s><s>Osakute tagasiv&otilde;tmishinna ulatuses omandatakse maksimaalne hulk teise pensionifondi osakuid , tasudes nende eest v&auml;ljalaskehinna ulatuses .</s>
+</p>
+<p>
+<s>( 6 ) Pensionifondi vahetamise korraldab pensionifondi depoopank pensionifondi tingimustes etten&auml;htud t&auml;htaegadel ja korras , kuid mitte hiljem kui kahe kuu jooksul p&auml;rast k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud avalduse esitamist .</s>
+</p>
+<p>
+<s>( 7 ) Pensionifondi vahetamisel osakuomanikule v&auml;ljamakseid ei tehta .</s>
+</p>
+<p>
+<s>( 8 ) Pensionifondi vahetamine ei ole lubatud , kui osakute tagasiv&otilde;tmine on investeerimisfondide seaduse alusel peatatud v&otilde;i keelatud .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Tulumaksusoodustusega pensionikindlustuse lepingu s&otilde;lmimine</s>
+</p>
+<p>
+<s>( 1 ) Osakuomanikul on p&auml;rast 55-aastaseks saamist v&otilde;i t&auml;ieliku ja p&uuml;siva t&ouml;&ouml;v&otilde;imetuse korral &otilde;igus n&otilde;uda osakute tagasiv&otilde;tmist , kui osakuomanik s&otilde;lmib kindlustusandjaga tulumaksusoodustusega pensionikindlustuslepingu , milles kindlustusmakseks on tagasiv&otilde;etavate osakute eest saadud summad ning mille kohaselt makstakse kindlustuspension kindlustusv&otilde;tjale v&auml;lja perioodiliselt v&otilde;rdsete v&otilde;i suurenevate summadena v&auml;hemalt kord kolme kuu jooksul kuni kindlustusv&otilde;tja surmani .</s>
+</p>
+<p>
+<s>( 2 ) Osakute tagasiv&otilde;tmiseks k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tingimustel peab osakuomanik esitama pensionifondivalitsejale avalduse , mis sisaldab pensionifondi tingimustes etten&auml;htud andmeid .</s><s>Avaldust esitada ning osakuid tagasi v&otilde;tta ei v&otilde;i , kui osakute tagasiv&otilde;tmine on investeerimisfondide seaduse alusel peatatud v&otilde;i keelatud .</s>
+</p>
+<p>
+<s>( 3 ) Tagasiv&otilde;etavate osakute eest arvestatud summade &uuml;lekandmise kindlustusandjale pensionikindlustuslepingus etten&auml;htud kindlustusmaksete ulatuses korraldab pensionifondi depoopank koosk&otilde;lastatult kindlustusandjaga pensionifondi tingimustes etten&auml;htud t&auml;htaegadel ja korras , kuid mitte hiljem kui kahe kuu jooksul p&auml;rast k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud avalduse esitamist .</s>
+</p>
+<p>
+<s>( 4 ) Osakute tagasiv&otilde;tmisel k&auml;esolevas paragrahvis s&auml;testatud tingimustel osakuomanikule v&auml;ljamakseid ei tehta .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>T&auml;iendavad toimingud sissemaksete ja v&auml;ljamaksete tegemisel</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondivalitseja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) osakute v&auml;ljalaskmisel ning &uuml;leminekul f&uuml;&uuml;silisest isikust p&auml;rijale fikseerima osakute omandaja ees- ja perekonnanime , isikukoodi , selle puudumisel s&uuml;nniaja , omandatud osakute koguse , v&auml;ljalaskehinna ja v&auml;ljalaske aja ;</s>
+</p>
+<p>
+<s>2 ) osakute tagasiv&otilde;tmisel fikseerima tagasiv&otilde;tmise aluse , osakuomaniku v&otilde;i tema p&auml;rija ees- ja perekonnanime , isikukoodi , s&uuml;nniaja ( juriidilise isiku puhul vastavalt &auml;rinime v&otilde;i nimetuse ja registrikoodi ) , tagasiv&otilde;etud osakute koguse , tagasiv&otilde;tmise aja ning tagasiv&otilde;tmistasu , v&auml;ljamakse ja k&auml;esoleva seaduse &sect; 24 l&otilde;ikes 5 nimetatud summa suuruse .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondi likvideerimisel on pensionifondi depoopank v&otilde;i investeerimisfondide seaduse &sect; 51 l&otilde;ikes 4 nimetatud likvideerijad kohustatud v&auml;ljamaksete tegemisel fikseerima v&auml;ljamakse aja , suuruse ning osakuomaniku ees- ja perekonnanime ja isikukoodi v&otilde;i selle puudumisel s&uuml;nniaja .</s>
+</p>
+<p>
+<s>( 3 ) Osakute eest v&auml;ljamaksete tegemisel arvestatakse , et osakute tagasiv&otilde;tmine toimub nende omandamise ajalises j&auml;rjekorras .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud andmed tuleb s&auml;ilitada kuni viie aasta m&ouml;&ouml;dumiseni pensionifondi likvideerimisest .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Tasud ja kulud</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi vara arvel makstakse &uuml;ksnes j&auml;rgmised tasud ja kaetakse &uuml;ksnes j&auml;rgmised kulud :</s>
+</p>
+<p>
+<s>1 ) valitsemistasu pensionifondi valitsemise eest ;</s>
+</p>
+<p>
+<s>2 ) tasu depoopangale pensionifondile depooteenuste osutamise eest ;</s>
+</p>
+<p>
+<s>3 ) pensionifondi arvel teostatavate tehingutega vahetult seotud &uuml;lekandekulud ja teenustasud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1 ja 2 nimetatud tasud m&auml;&auml;ratakse suhtarvuna pensionifondi aktivate turuv&auml;&auml;rtusest ning n&auml;idatakse pensionifondi tingimustes aasta arvestuses .</s>
+</p>
+<p>
+<s>( 3 ) K&otilde;ik k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetamata pensionifondi valitsemisega seotud kulud kuuluvad maksmisele pensionifondivalitseja arvelt .</s>
+</p>
+<p>
+<s>( 4 ) Rahandusminister kehtestab k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tasude piirm&auml;&auml;rad ning nende arvestamise ja rakendamise korra .</s><s>Nimetatud tasud kokku ei v&otilde;i moodustada rohkem kui 3% pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Pensionifondi depoopank</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi depoopangaks v&otilde;ib olla ainult krediidiasutus , kes on tegutsenud lepingulise investeerimisfondi depoopangana v&auml;hemalt &uuml;he aasta jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Depoopanga kohustuseks on lisaks investeerimisfondide seaduses m&auml;rgitule pensionifondi vahetamise korraldamine .</s>
+</p>
+<p>
+<s>( 3 ) Pensionifondi moodustamisel v&otilde;i uue depoolepingu s&otilde;lmimisel loetakse depooleping koosk&otilde;lastatuks vastavalt k&auml;esoleva seaduse &sect;-s 8 v&otilde;i &sect; 20 l&otilde;ikes 1 s&auml;testatud tegevusloa v&otilde;i loa andmisest alates .</s>
+</p>
+<p>
+<s>( 4 ) Depoolepingu muudatuste koosk&otilde;lastamine toimub investeerimisfondide seaduse &sect; 87 l&otilde;igetes 1 ja 3 s&auml;testatud korras .</s><s>Pensionifondivalitseja on kohustatud esitama Finantsinspektsiooni n&otilde;udmisel esitamisele kuuluvate andmete kohta t&auml;psustavat teavet ja dokumente .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 5 ) Depoolepingu muudatustele koosk&otilde;lastuse andmisest keeldutakse , kui sellega kahjustataks pensionifondi osakuomanike huvisid v&otilde;i ilmneksid muud k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 1 nimetatud asjaolud .</s>
+</p>
+<p>
+<s>( 6 ) Otsuse depoolepingu muudatuste koosk&otilde;lastamise v&otilde;i koosk&otilde;lastamisest keeldumise kohta teeb Finantsinspektsiooni juhatus 30 p&auml;eva jooksul p&auml;rast taotleja poolt Finantsinspektsioonile vastava avalduse ja k&otilde;igi etten&auml;htud dokumentide esitamist .</s><s>Otsuse &auml;rakiri saadetakse pensionifondivalitsejale kolme p&auml;eva jooksul p&auml;rast otsuse vastuv&otilde;tmist .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Pensionifondi likvideerimise erisused</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi likvideerimine on lubatud &uuml;ksnes Finantsinspektsiooni juhatuse loal .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 2 ) Enne likvideerimisloa andmist peab Finantsinspektsioon tegema kindlaks , et pensionifondi valitsemise &uuml;leandmine ei ole v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pensionifondi vara investeerimine</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Investeerimine v&auml;&auml;rtpaberitesse</s>
+</p>
+<p>
+<s>( 1 ) Investeerimisfondide seaduse &sect; 101 l&otilde;ike 1 teises lauses nimetatud rahaturuinstrumentidesse ei v&otilde;i pensionifondi vara investeerida rohkem kui 30% ulatuses pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 2 ) Aktsiatesse ei v&otilde;i pensionifondi vara investeerida rohkem kui 40% ulatuses pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 3 ) Investeerimisfondide seaduse &sect; 105 l&otilde;ikes 3 nimetatud v&auml;&auml;rtpaberite turuv&auml;&auml;rtus ei v&otilde;i moodustada kokku rohkem kui 5% pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 4 ) L&auml;htudes osakuomanike huvide kaitsest , on rahandusministril &otilde;igus kehtestada piirangud pensionifondi vara investeerimisel investeerimisfondide seaduse &sect; 102 l&otilde;ike 1 punktis 3 ja &sect; 104 l&otilde;ike 1 punktis 3 nimetatud v&auml;&auml;rtpaberitesse .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Riski hajutamine</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi varasse kuuluvate &uuml;he isiku poolt v&auml;ljalastud v&auml;&auml;rtpaberite v&auml;&auml;rtus ei v&otilde;i moodustada rohkem kui 5% pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hte kontserni kuuluvate isikute poolt v&auml;ljalastud v&auml;&auml;rtpaberite v&auml;&auml;rtus ei v&otilde;i moodustada kokku rohkem kui 10% pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 3 ) Investeerimisfondide seaduse &sect;-s 104 nimetatud riigi poolt v&auml;ljalastud v&otilde;i tagatud v&auml;&auml;rtpaberite v&auml;&auml;rtus ei v&otilde;i moodustada kokku rohkem kui 35% pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 1-3 s&auml;testatud piiranguid ei kohaldata 18 kuu jooksul p&auml;rast pensionifondi registreerimist , v&auml;lja arvatud juhul , kui pensionifondi vara puhasv&auml;&auml;rtus on enne selle t&auml;htaja l&otilde;ppu &uuml;letanud 25 miljonit krooni .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Investeerimisfondi osakute ja aktsiate omamise piirangud</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi arvel ei v&otilde;i omandada v&otilde;i omada selle fondi fondivalitseja v&otilde;i temaga &uuml;hte kontserni kuuluva fondivalitseja poolt valitsetavate teiste investeerimisfondide aktsiaid v&otilde;i osakuid kokku mitte rohkem kui 5% ulatuses fondi aktivate turuv&auml;&auml;rtusest , kusjuures t&auml;idetud peavad olema investeerimisfondide seaduse &sect; 106 l&otilde;ikes 1 s&auml;testatud tingimused .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondi arvel ei v&otilde;i omandada v&otilde;i omada teiste investeerimisfondide aktsiaid v&otilde;i osakuid kokku rohkem kui 20% ulatuses pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Pensionifondi tingimustega lubatavad tehingud</s>
+</p>
+<p>
+<s>( 1 ) Investeerimisfondide seaduse &sect;-s 107 ja &sect; 108 l&otilde;ikes 2 nimetatud tehinguid v&otilde;ib pensionifondi arvel teha &uuml;ksnes juhul , kui selline v&otilde;imalus on pensionifondi tingimustes otse ette n&auml;htud .</s><s>Nimetatud tehingutega ei v&otilde;i pensionifondi arvel v&otilde;tta pensionifondile rohkem kohustusi kui 10% ulatuses pensionifondi aktivate turuv&auml;&auml;rtusest , v&auml;lja arvatud investeerimisfondide seaduse &sect; 108 l&otilde;ikes 4 nimetatud tehingutega v&otilde;etavad kohustused .</s>
+</p>
+<p>
+<s>( 2 ) Investeerimisfondide seaduse &sect; 108 l&otilde;ikes 2 nimetatud tehingu vastaspooleks ei v&otilde;i olla osakuomanik v&otilde;i isik , kellel on temaga v&otilde;rdne majanduslik huvi .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Investeerimine hoiustesse</s>
+</p>
+<p>
+<s>( 1 ) Pensionifondi vara v&otilde;ib investeerida ainult Eestis , Euroopa Liidus ja rahandusministri poolt kinnitatud nimekirja arvatud riikides asuvate krediidiasutuste hoiustesse .</s>
+</p>
+<p>
+<s>( 2 ) Krediidiasutuse hoiustesse investeeritud pensionifondi vara ei v&otilde;i moodustada kokku rohkem kui 20% pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 3 ) Pensionifondi vara ei v&otilde;i hoiustada &uuml;hes krediidiasutuses rohkem kui 5% ulatuses pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Investeerimine kinnisasjadesse</s>
+</p>
+<p>
+<s>( 1 ) Lisaks investeerimisfondide seaduses lepinguliste investeerimisfondide kohta s&auml;testatule v&otilde;ib pensionifondi vara investeerida kinnisasjadesse , mis asuvad pensionifondi tingimustes nimetatud riikides .</s>
+</p>
+<p>
+<s>( 2 ) Investeeringud investeerimisfondide seaduse &sect; 110 l&otilde;ikes 2 nimetatud kinnisasjadesse ei tohi kokku &uuml;letada 20% , investeeringud investeerimisfondide seaduse &sect; 110 l&otilde;ikes 3 nimetatud kinnisasjadesse aga 5% pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;hegi kinnisasja soetusv&auml;&auml;rtus ei v&otilde;i omandamise ajal &uuml;letada 5% pensionifondi aktivate turuv&auml;&auml;rtusest .</s><s>Nimetatud n&otilde;uet ei kohaldata 18 kuu jooksul p&auml;rast pensionifondi registreerimist , v&auml;lja arvatud juhul , kui pensionifondi vara puhasv&auml;&auml;rtus on enne selle t&auml;htaja l&otilde;ppu &uuml;letanud 25 miljonit krooni .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>N&otilde;uete rikkumine ja kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-des 34-39 s&auml;testatud n&otilde;uete rikkumine tehingute s&otilde;lmimisel ei too kaasa nende tehingute t&uuml;hisust , kuid pensionifondivalitseja peab h&uuml;vitama osakuomanikele rikkumise t&otilde;ttu tekkinud kahju .</s>
+</p>
+<p>
+<s>( 2 ) Pensionifondivalitseja on kohustatud k&auml;esoleva seaduse &sect;-des 34-39 s&auml;testatud n&otilde;uete rikkumisest ja rikkumise l&otilde;petamisest viivitamata kirjalikult teatama Finantsinspektsioonile .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 48 , 268 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-des 34 ja 36 , &sect; 35 l&otilde;igetes 1-3 , &sect; 37 l&otilde;ikes 1 , &sect; 38 l&otilde;igetes 2 ja 3 ning &sect; 39 l&otilde;ikes 2 s&auml;testatud piirangute &uuml;letamisele kohaldatakse investeerimisfondide seaduse &sect; 113 l&otilde;ikes 3 s&auml;testatut .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Piirangute rakendamise erisused</s>
+</p>
+<p>
+<s>( 1 ) Kolme aasta jooksul p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist v&otilde;ib pensionifondi k&auml;esoleva seaduse &sect; 28 t&auml;henduses vahetada , kui osakuomanikule kuulub 500 v&otilde;i rohkem vahetatavat osakut .</s>
+</p>
+<p>
+<s>( 2 ) Kuni 2000. aasta 1. jaanuarini ei v&otilde;i pensionifondi vara aktsiatesse investeerida rohkem kui 30% ulatuses pensionifondi aktivate turuv&auml;&auml;rtusest .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Investeerimisfondide seaduse muutmine</s>
+</p>
+<p>
+<s>Investeerimisfondide seaduses ( RT I 1997 , 34 , 535 ; 1998 , 61 , 979 ; 2000 , 10 , 55 ; 57 , 373 ) tehakse j&auml;rgmised muudatused ja t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 7 l&otilde;ikes 4 asendatakse s&otilde;nad &ldquo; osakuomanike huvides &rdquo; s&otilde;nadega &ldquo; osakuomanike parimates huvides &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 16 l&otilde;ike 2 teine lause muudetakse ja s&otilde;nastatakse j&auml;rgmiselt : &ldquo; Fondijuhi kvalifikatsioonin&otilde;uded kehtestab rahandusminister . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 16 t&auml;iendatakse l&otilde;igetega 5-8 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 ) Fondijuht ei v&otilde;i olla teise fondivalitseja v&otilde;i v&auml;&auml;rtpaberituru kutselise osalise n&otilde;ukogu v&otilde;i juhatuse liige ega t&ouml;&ouml;taja .</s>
+</p>
+<p>
+<s>( 6 ) Fondijuhiks ei v&otilde;i olla isik :</s>
+</p>
+<p>
+<s>1 ) keda on majandusalase , ametialase v&otilde;i varavastase kuriteo eest kriminaalkorras karistatud ;</s>
+</p>
+<p>
+<s>2 ) kes on oma s&uuml;&uuml;lise tegevuse v&otilde;i tegevusetusega p&otilde;hjustanud &auml;ri&uuml;hingu pankroti , sundl&otilde;petamise v&otilde;i tegevusloa v&otilde;i -litsentsi t&uuml;histamise ;</s>
+</p>
+<p>
+<s>3 ) kellelt fondijuhina tegutsemise &otilde;igus on kohtuotsuse alusel &auml;ra v&otilde;etud ;</s>
+</p>
+<p>
+<s>4 ) kes on oma tegevuses olulisel m&auml;&auml;ral rikkunud &otilde;igusaktides s&auml;testatud korda ;</s>
+</p>
+<p>
+<s>5 ) kes on olulisel m&auml;&auml;ral rikkunud h&auml;id &auml;ritavasid .</s>
+</p>
+<p>
+<s>( 7 ) Fondijuht peab tegutsema aktsiaseltsina asutatud fondi aktsion&auml;ride v&otilde;i lepingulise fondi osakuomanike parimates huvides .</s>
+</p>
+<p>
+<s>( 8 ) Fondijuhina v&otilde;ib tegutseda &uuml;ksnes isik , kellel on vastavat kvalifikatsiooni t&otilde;endav tunnistus .</s><s>Tunnistuste v&auml;ljaandmine ja nende kehtetuks tunnistamine toimub rahandusministri kehtestatud korras . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 35 l&otilde;ike 3 l&otilde;ppu lisatakse s&otilde;nad &ldquo; ning fondi tingimused ei ole vastuolus osakuomanike &otilde;igustatud huvidega &rdquo; ;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 54 l&otilde;ike 1 l&otilde;ppu lisatakse lause j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; V&auml;ljamakse tegemise p&auml;evast alates loetakse osak ning sellest tulenevad &otilde;igused ja kohustused l&otilde;ppenuks . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>6 ) paragrahvi 96 punktis 7 asendatakse s&otilde;nad &ldquo; valitsevas &uuml;hingus &rdquo; s&otilde;naga &ldquo; fondivalitsejas &rdquo; ;</s>
+</p>
+<p>
+<s>7 ) paragrahvi 108 l&otilde;ikest 2 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; fondi vara v&auml;&auml;rtuse k&otilde;ikumisest tuleneva riski maandamiseks &rdquo; ja l&otilde;ike l&otilde;ppu lisatakse lause j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; T&auml;psemad n&otilde;uded nimetatud lepingutele ja investeerimispiirangute arvestamise korra nende s&otilde;lmimisel kehtestab rahandusminister . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>8 ) paragrahvi 108 t&auml;iendatakse l&otilde;ikega 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatud piirangut ei kohaldata valuutariski maandamiseks tehtavatele tehingutele ulatuses , milles on omandatud fondi arvel vara tehingu aluseks olevas valuutas . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>9 ) paragrahvi 113 l&otilde;ike 3 esimeses lauses asendatakse s&otilde;nad &ldquo; &sect; 103 l&otilde;igetes 2-4 ja k&auml;esoleva seaduse paragrahvi 104 l&otilde;ikes 1 &rdquo; s&otilde;nadega &ldquo; &sect; 102 l&otilde;ikes 3 , &sect; 103 l&otilde;igetes 2-5 , &sect; 104 l&otilde;ikes 1 , &sect; 106 l&otilde;ikes 2 , &sect;-s 108 ja &sect; 109 l&otilde;igetes 1 ja 2 &rdquo; ;</s>
+</p>
+<p>
+<s>10 ) paragrahvi 151 l&otilde;ikes 3 asendatakse number &ldquo; 104 &rdquo; numbriga &ldquo; 103 &rdquo; ja sama paragrahvi l&otilde;ikes 4 number &ldquo; 113 &rdquo; numbriga &ldquo; 106 &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Kindlustusseaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Kindlustusseadust ( RT 1992 , 48 , 601 ; RT I 1995 , 26/28 , 355 ; 1996 , 23 , 455 ; 40 , 773 ; 52/54 , 993 ; 1998 , 61 , 979 ; 91/93 , 1500 ; 1999 , 10 , 155 ; 27 , 389 ; 2000 , 53 , 343 ; 2001 , 24 , 133 ; 43 , 238 ; 48 , 268 ) t&auml;iendatakse V peat&uuml;kiga j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; V. Tulumaksusoodustusega pensionikindlustus</s>
+</p>
+<p>
+<s>&sect; 701.</s><s>Tulumaksusoodustusega pensionikindlustuse leping</s>
+</p>
+<p>
+<s>( 1 ) Tulumaksusoodustusega pensionikindlustuse leping ( edaspidi soodusleping ) on k&auml;esolevas seaduses s&auml;testatud kohustuslike tingimustega kindlustusleping , mille eesm&auml;rk on tagada kindlustusv&otilde;tjale kindlustussumma maksmine kindlustuspensionina alates lepingus m&auml;&auml;ratud t&auml;htajast .</s>
+</p>
+<p>
+<s>( 2 ) Sooduslepingute s&otilde;lmimise &otilde;igus on elukindlustusega tegeleval kindlustusandjal , kellele vastavalt k&auml;esolevale seadusele on v&auml;ljastatud tegevusluba sooduslepingute s&otilde;lmimiseks .</s>
+</p>
+<p>
+<s>&sect; 702.</s><s>Sooduslepingu kohustuslikud tingimused</s>
+</p>
+<p>
+<s>( 1 ) Kindlustusv&otilde;tja ja kindlustatu v&otilde;ib olla ainult f&uuml;&uuml;siline isik .</s>
+</p>
+<p>
+<s>( 2 ) Kindlustusv&otilde;tja on sooduslepingu alusel kohustatud tasuma kindlustusmakseid seaduses ja lepingus etten&auml;htud korras ning alates sooduslepingus s&auml;testatud t&auml;htaja saabumisest tekib kindlustusandjal kohustus maksta kindlustuspensioni sooduslepingus s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Kindlustuspensioni maksmist v&otilde;ib alustada kas sooduslepingus s&auml;testatud t&auml;htajal ( edaspidi pensioniiga ) , kuid mitte varem kui kindlustusv&otilde;tja 55-aastaseks saamisel , v&otilde;i kindlustusv&otilde;tja t&auml;ieliku ja p&uuml;siva t&ouml;&ouml;v&otilde;imetuse korral , alates sellise t&ouml;&ouml;v&otilde;imetuse kindlakstegemisest .</s>
+</p>
+<p>
+<s>( 4 ) Kindlustuspensioni makstakse perioodiliselt , mitte harvem kui kord kolme kuu j&auml;rel kuni kindlustusv&otilde;tja surmani , kui lepingus ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 5 ) Kindlustusv&otilde;tjal on &otilde;igus l&otilde;petada soodusleping igal ajal kuni lepingus s&auml;testatud pensioniea saabumiseni .</s>
+</p>
+<p>
+<s>( 6 ) Kindlustusandjal on &otilde;igus l&otilde;petada soodusleping k&auml;esoleva seaduse &sect; 23 l&otilde;ike 1 punktis 3 s&auml;testatud alusel ning muul seaduses s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 7 ) Sooduslepingust tulenevad varalised &otilde;igused ei v&otilde;i olla laenu tagatiseks v&otilde;i muul viisil koormatud . &rdquo;</s>
+</p>
+<p>
+<s>[ &sect; 44 v&auml;lja j&auml;etud ] <hi rend="sup">1</hi></s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Tulumaksuseaduse muutmine</s>
+</p>
+<p>
+<s>Tulumaksuseaduses ( RT I 1999 , 101 , 903 ; 2001 , 11 , 49 ; 16 , 69 ) tehakse j&auml;rgmised muudatused ja t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 7 t&auml;iendatakse l&otilde;ikega 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) Tulumaksum&auml;&auml;r on 10% v&auml;ljamaksetelt , mida tehakse :</s>
+</p>
+<p>
+<s>1 ) tulumaksusoodustusega pensionikindlustuse lepingu alusel kindlustusv&otilde;tjale p&auml;rast tema 55-aastaseks saamist v&otilde;i tema t&auml;ieliku ja p&uuml;siva t&ouml;&ouml;v&otilde;imetuse korral v&otilde;i kindlustusandja likvideerimisel ;</s>
+</p>
+<p>
+<s>2 ) pensionifondist osakuomanikule p&auml;rast tema 55-aastaseks saamist v&otilde;i tema t&auml;ieliku ja p&uuml;siva t&ouml;&ouml;v&otilde;imetuse korral v&otilde;i pensionifondi likvideerimisel ;</s>
+</p>
+<p>
+<s>3 ) pensionifondi osakuomaniku p&auml;rijale v&otilde;i tulumaksusoodustusega pensionikindlustuse lepingu alusel kindlustusv&otilde;tja surma korral soodustatud isikule v&otilde;i kindlustusv&otilde;tja p&auml;rijale . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 8 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Residendist f&uuml;&uuml;silise isiku tulumaksust laekub 44% riigieelarvesse ja 56% tema elukohaj&auml;rgse kohaliku omavalitsus&uuml;ksuse eelarvesse . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 8 l&otilde;ikest 4 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; ja 3 &rdquo; ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 9 l&otilde;iget 1 t&auml;iendatakse punktidega 8 ja 9 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 8 ) kindlustusv&otilde;tjale teada oleva investeerimisriskiga elukindlustuslepingu alusel v&auml;ljamakstud summa , millest on maha arvatud kindlustusv&otilde;tja poolt kindlustuslepingu alusel kindlustusandjale tasutud kindlustusmaksed juhul , kui v&auml;ljamakstud summa on saadud kindlustuslepingu t&auml;htaja v&otilde;i kindlustusperioodi l&otilde;ppemisel v&otilde;i seoses kindlustuslepingu l&otilde;petamisega enne viie aasta m&ouml;&ouml;dumist kindlustuslepingu s&otilde;lmimisest ;</s>
+</p>
+<p>
+<s>9 ) kindlustusv&otilde;tjale tulumaksusoodustusega pensionikindlustuse lepingu alusel tehtavad v&auml;ljamaksed . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 9 l&otilde;ike 2 punkti 3 l&otilde;ppu lisatakse s&otilde;nad &ldquo; , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 8 ja 9 nimetatud v&auml;ljamaksed &rdquo; ja l&otilde;iget t&auml;iendatakse punktiga 26 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 26 ) tulumaksusoodustusega pensionikindlustuslepingu alusel kindlustusv&otilde;tjale perioodiliselt p&auml;rast tema 55-aastaseks saamist v&otilde;i tema t&auml;ieliku ja p&uuml;siva t&ouml;&ouml;v&otilde;imetuse kindlakstegemist makstav kindlustuspension juhul , kui kindlustusleping n&auml;eb ette , et vastavaid v&auml;ljamakseid tehakse v&otilde;rdsete v&otilde;i suurenevate summadena v&auml;hemalt kord kolme kuu jooksul kuni kindlustusv&otilde;tja surmani . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>6 ) paragrahvi 12 t&auml;iendatakse l&otilde;ikega 5 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 ) Residendist f&uuml;&uuml;silisel isikul on &otilde;igus maksustamisperioodi maksustatavast tulust maha arvata tulumaksusoodustusega pensionikindlustuse lepingu alusel tasutud kindlustusmaksed ning pensionifondi osakute soetamiseks makstud summad , v&auml;lja arvatud pensionifondide seaduse &sect;-des 28 ja 29 s&auml;testatud juhtudel , kokku kuni 15% ulatuses maksustamisperioodi tulust . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>7 ) paragrahvi 26 l&otilde;iget 2 t&auml;iendatakse punktidega 12 ja 13 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 12 ) pensionifondist tehtavalt v&auml;ljamakselt v&otilde;i tulumaksusoodustusega pensionikindlustuse lepingu alusel tehtavalt v&auml;ljamakselt , v&auml;lja arvatud k&auml;esoleva l&otilde;ike punktis 13 nimetatud juhtudel ;</s>
+</p>
+<p>
+<s>13 ) k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 4 nimetatud juhtudel . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>8 ) paragrahvi 26 l&otilde;ike 3 punkt 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 1 ) punktides 1-4 , 9 , 11 ja 12 nimetatutelt - 26% ; &rdquo; ;</s>
+</p>
+<p>
+<s>9 ) paragrahvi 26 l&otilde;iget 3 t&auml;iendatakse punktiga 5 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 5 ) punktis 13 nimetatutelt - 10% . &rdquo;</s>
+</p>
+<p>
+<s>[ &sect; 46 v&auml;lja j&auml;etud ] <hi rend="sup">2</hi></s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1998. aasta 1. augustil .</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> V&auml;ljaj&auml;etud paragrahviga muudetakse varasemaid &otilde;igusakte .</s>
+</p>
+<p>
+<s><hi rend="sup">2</hi> V&auml;ljaj&auml;etud paragrahviga muudetakse varasemaid &otilde;igusakte .</s>
+</p>
+</body>
+   </text>
+</tei.2>

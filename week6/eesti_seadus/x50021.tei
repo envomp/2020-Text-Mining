@@ -1,0 +1,436 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> &Uuml;levaade Vabariigi Valitsusele autori&otilde;igusealasest olukorrast Eesti Vabariigis ( detsember 2000 ) ( aprill 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3650</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> &Uuml;levaade Vabariigi Valitsusele autori&otilde;igusealasest olukorrast Eesti Vabariigis ( detsember 2000 ) ( aprill 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=7></tagusage>
+         <tagusage gi=p occurs=110></tagusage>
+         <tagusage gi=s occurs=253></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>&Uuml;LEVAADE VABARIIGI VALITSUSELE AUTORI&Otilde;IGUSEALASEST OLUKORRAST EESTI VABARIIGIS</s>
+</p>
+<p>
+<s>Autori&otilde;iguse asjatundjate komisjon</s>
+</p>
+<p>
+<s>Kultuuriministeerium</s>
+</p>
+<p>
+<s>Detsember , 2000</s>
+</p>
+<p>
+<s>SISSEJUHATUS</s>.....<s>3</s>
+</p>
+<p>
+<s>I &Uuml;LEVAADE HETKEOLUKORRAST NING ESILEKERKINUD PROBLEEMID</s>
+</p>
+<p>
+<s>1.1.</s><s>Seadusandlus</s>......<s>4</s>
+</p>
+<p>
+<s>1.1.1.</s><s>Kehtivad seadused ja Vabariigi Valitsuse &otilde;igusaktid ...</s><s>4</s>
+</p>
+<p>
+<s>1.1.2.</s><s>Seaduseeln&otilde;ud</s>........<s>5</s>
+</p>
+<p>
+<s>1.2.</s><s>Seaduste rakendamine</s>........<s>6</s>
+</p>
+<p>
+<s>1.2.1.</s><s>Politsei tegevus</s>......<s>8</s>
+</p>
+<p>
+<s>II ETTEPANEKUD VABARIIGI VALITSUSELE</s>
+</p>
+<p>
+<s>2.1.</s><s>Seadusandlus</s>.....<s>10</s>
+</p>
+<p>
+<s>2.2.</s><s>Seaduste rakendamine</s>......<s>11</s>
+</p>
+<p>
+<s>KOKKUV&Otilde;TE</s>......<s>12</s>
+</p>
+<p>
+<s>LISAD :</s>
+</p>
+<p>
+<s>1.</s><s>Eesti Fonogrammitootjate &Uuml;hingu ja Eesti Autori&otilde;iguste Kaitse Organisatsiooni poolt koost&ouml;&ouml;s ette valmistatud omapoolne materjal &ldquo; Autori&otilde;iguse ja autori&otilde;igusega kaasnevate &otilde;iguste kaitsega seonduvad probleemid praktikas &rdquo;</s>
+</p>
+<p>
+<s>2. 11.10.00 toimunud &uuml;marlaua protokoll &ldquo; Rooma 1961.</s><s>Aasta konventsiooni artiklile 12 Eesti Vabariigi poolt &uuml;hinemisel tehtud reservatsioon .</s><s>Selle v&otilde;imalikud tagaj&auml;rjed ning reservatsiooni muutmise vajadus &rdquo;</s>
+</p>
+<p>
+<s>3.</s><s>V&auml;ljav&otilde;te 9.11.00 toimunud autori&otilde;iguse komisjoni koosoleku protokollist - legaalsuskleebiste temaatikat puudutav p&auml;evakorrapunkt</s>
+</p>
+<p>
+<s>4.</s><s>V&auml;ljav&otilde;te 9.11.00 toimunud autori&otilde;iguse komisjoni koosoleku protokollist - politsei piraatlusevastast tegevust puudutav p&auml;evakorrapunkt .</s>
+</p>
+<p>
+<s>SISSEJUHATUS</s>
+</p>
+<p>
+<s>Autori&otilde;iguse asjatundjate komisjoni kolmas &uuml;levaade esitatakse aasta l&otilde;pus , mida v&otilde;ib pidada autori&otilde;iguse osas senistest &uuml;heks aktiivsemaks .</s><s>Loomulikult ei saa ka 1998 ja 1999 aastat just seadusloome osas alahinnata - just nendel aastatel j&otilde;udsid Riigikokku olulisimad seadusemuudatused , mis kaasajastasid Eesti autori&otilde;igusealase seadusandluse .</s><s>Kuid kaesoleval aastal on astutud oluline samm edasi piraatlusevastase v&otilde;itluse kui hetke &uuml;he kuumima autori&otilde;iguse temaatikat puudutava valdkonna viimisel nii asjaomaste institutsioonide kui &uuml;ldsuse teadvusesse .</s><s>L&auml;biviidud koolitused , teema aktiivne kajastamine ajakirjanduses , valminud autori&otilde;igusealane teabeleht ning infovoldik - neid v&otilde;ib kindlasti pidada j&auml;rjekordseteks suurt t&auml;htsust omavateks sammudeks , mille olulisust ei saa kindlasti alahinnata keskkonnas , kus tegelikult seadusandlik baas edukaks piraatlusevastaseks v&otilde;itluseks olemas on .</s>
+</p>
+<p>
+<s>J&auml;rjekordsed muudatused on sisse viidud autori&otilde;iguse asjatundjate komisjoni koosseisus .</s><s>&Uuml;he olulisemana nimetaks siinkohal ka kohalike omavalitsuste esinduse ( Tallinna linna kui piraatluse probleemkohtade - Kadaka turu ja Merekeskuse - asukoha osas ) lisamine komisjoni liikmete hulka .</s><s>Komisjoni liikmeks on k.a. l&otilde;pust ka Tallinna Hinna- ja Konkurentsiameti juhataja Raivo Hein .</s>
+</p>
+<p>
+<s>Mahuka omapoolse materjali autori&otilde;igusealasest olukorrast on koost&ouml;&ouml;s ette valmistanud ja Eesti Fonogrammitootjate &Uuml;hing ( EF&Uuml; ) ja Eesti Autori&otilde;iguste Kaitse Organisatsioon ( EAKO ) .</s><s>Kuna nimetatud dokumenti ei olnud otstarbekas &uuml;ldises komisjonipoolses &uuml;lavaates reprodutseerida , on see t&auml;ies mahus k&auml;esolevale dokumendile lisatud .</s>
+</p>
+<p>
+<s>I &Uuml;LEVAADE HETKEOLUKORRAST NING ESILEKERKINUD PROBLEEMID</s>
+</p>
+<p>
+<s>1.1.</s><s>Seadusandlus</s>
+</p>
+<p>
+<s>1.1.1.</s><s>Kehtivad seadused ja Vabariigi Valitsuse &otilde;igusaktid</s>
+</p>
+<p>
+<s>1.</s><s>Kuigi p&otilde;hilised ja olulisimad muudatused autori&otilde;igusealastesse &otilde;igusaktidesse said tehtud 1999.a. jooksul , ei m&ouml;&ouml;dunud ka 2000. aasta taielikult asjaomaste seadust&auml;iendusteta .</s><s>Need olid mahul loomulikult v&otilde;rreldamatud 1999. aasta muudatustega , kuid 27.09.2000 Riigikogus vastu voetud &ldquo; Autori&otilde;iguse seaduse muutmise seadus &rdquo; ( RT I 2000 , 78 , 497 ) said j&auml;rjekordselt lahendatud paar l&uuml;nka , mille likvideerimine aitab veelgi edukamalt piraatluse vastu v&otilde;idelda .</s>
+</p>
+<p>
+<s>Seadus teeb autori&otilde;iguse seadusesse muudatusi kolmes p&otilde;hilises probleemk&uuml;simuses :</s>
+</p>
+<p>
+<s>1 ) raham&auml;rkide kujunduse autorikaitse ;</s>
+</p>
+<p>
+<s>2 ) teoste levitamisega seonduv ;</s>
+</p>
+<p>
+<s>3 ) piraatkoopia ladustamise , hoidmise v&otilde;i edasitoimetamise kvalifitseerimine haldus&otilde;iguserikkumisena .</s>
+</p>
+<p>
+<s>2.</s><s>Eelmistes komisjonipoolsetes &uuml;levaadetes on suure probleemina nimetatud haldus&otilde;iguserikkumise asjas m&auml;&auml;ratava karistuse t&auml;htaega e. kahte ( 2 ) kuud ei saa kuidagi pidada piisavaks ajaks , mille jooksul karistuse peab m&auml;&auml;rama .</s><s>N&uuml;&uuml;dseks on nimetatud k&uuml;simus on leidnud lahenduse .</s><s>14. juunil 2000. a. v&otilde;eti vastu &ldquo; Haldus&otilde;iguserikkumiste seadustiku , kriminaalkoodeksi ja kriminaalmenetluse koodeksi muutmise seadus &rdquo; ( RT I 2000 , 54 , 351 ) .</s><s>Seaduse &sect; 2 kohaselt muudetakse ka &ldquo; Haldus&otilde;iguserikkumiste seadustiku &rdquo; paragrahvi 30 ning haldus&otilde;iguserikkumise aegumise t&auml;htajad on n&uuml;&uuml;dsest m&auml;&auml;ratud s&otilde;ltuvalt rikkumise eest etten&auml;htud karistusest ja pikenevad seaduse j&otilde;ustumisel j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; Paragrahv 30.</s><s>Haldus&otilde;iguserikkumise aegumine</s>
+</p>
+<p>
+<s>( 1 ) Kedagi ei tohi haldus&otilde;iguserikkumise toimepanemise eest karistada , kui haldus&otilde;iguserikkumise toimepanemisest kuni esimese otsuse tegemiseni on m&ouml;&ouml;dunud j&auml;rgmised t&auml;htajad :</s>
+</p>
+<p>
+<s>1 ) &uuml;ks aasta haldus&otilde;iguserikkumise toimepanemisest , mille eest seaduses on karistusena ette n&auml;htud f&uuml;&uuml;silisele isikule ainult rahatrahv mitte &uuml;le saja p&auml;evapalga v&otilde;i juriidilisele isikule rahatrahv mitte &uuml;le viiek&uuml;mne tuhande krooni ;</s>
+</p>
+<p>
+<s>2 ) kaks aastat haldus&otilde;iguserikkumise toimepanemisest , mille eest seaduses on karistusena ette n&auml;htud f&uuml;&uuml;silisele isikule ainult rahatrahv &uuml;le saja p&auml;evapalga v&otilde;i lisaks rahatrahvile eri&otilde;iguste &auml;rav&otilde;tmine v&otilde;i haldusarest v&otilde;i juriidilisele isikule rahatrahv &uuml;le viiek&uuml;mne tuhande krooni .</s>
+</p>
+<p>
+<s>... &rdquo;</s>
+</p>
+<p>
+<s>3.</s><s>Vabariigi Valitsuse 6. detsembri 2000. a. korraldusega nr 979-k &ldquo; Vabariigi Valitsuse 1. juuni 1999. a. korralduse nr 646-k &ldquo; Autori&otilde;iguse asjatundjate komisjoni moodustamine &rdquo; muutmine &rdquo; ( RTL 2000 , 124 , 1998 ) tehti m&otilde;ningad muudatused komisjoni koosseisus .</s><s>Olulisimana nimetaks korralduse punkti 2 , mille kohaselt nimetatakse Tallinna Linnavalitsuse poolt komisjoni koosseisu Tallinna Hinna- ja Konkurentsiameti juhataja Raivo Hein .</s><s>Vabariigi Valitsuse poolt moodustatud autori&otilde;iguse asjatundjate komisjoni &uuml;heks eesm&auml;rgiks on esindatus v&otilde;imalikult erinevate autori&otilde;igusealase temaatikaga kokku puutuvate asutuste ja organisatsioonide poolt .</s><s>Peaministri juures k.a. 11. oktoobril ning 2. novembril toimunud piraatluseteemalisel kohtumisel sai arutatud ka kohaliku omavalitsuse esindaja m&auml;&auml;ramise vajalikkust nimetatud komisjoni liikmete hulka .</s><s>Tulenevalt 11. oktoobri kohtumisel otsustatule tegigi Tallinna Linnavalitsus ettepaneku oma esindaja nimetamiseks autori&otilde;iguse asjatundjate komisjoni koosseisu .</s>
+</p>
+<p>
+<s>1.1.2.</s><s>Seaduseeln&otilde;ud</s>
+</p>
+<p>
+<s>1. &ldquo; Intellektuaalset omandit rikkuva kauba sisse- ja v&auml;ljaveo t&otilde;kestamise seaduse &rdquo; eeln&otilde;u peab Rahandusministeerium tulenevalt valitsuskabineti 5. detsembri n&otilde;upidamisel tehtud otsusele Vabariigi Valitsusele esitama 2001. a. jaanuari alguseks .</s>
+</p>
+<p>
+<s>2. &ldquo; Karistusseadustiku &rdquo; eeln&otilde;u on juba Riigikogus menetluses olev eeln&otilde;u .</s><s>Siiski on selles koosk&otilde;lastusringil viibinud variandiga v&otilde;rreldes tehtud muudatuste hulgas &uuml;ks , mida v&otilde;ib t&otilde;lgendada kui mitteotstarbekat just intellektuaalset omandit puudutavate kuritegude osas .</s><s>Nimelt on eeln&otilde;u menetlemisel t&auml;iendatud &ldquo; Karistusseadustiku &rdquo; paragrahvi 234 l&otilde;iget 1 sellisel moel , et piraatkoopia valmistamise eest vastutusele v&otilde;tmine on seatud s&otilde;ltuvusse asjaolust , kas piraatkoopia valmistajal oli piraatkoopia levitamise eesm&auml;rk v&otilde;i mitte .</s><s>Eesm&auml;rgi sissetoomist &otilde;iguserikkumise kvalifitseeriva tunnusena ei saa pidada otstarbekaks , kuna eesm&auml;rgi tuvastamine taolistel juhtudel ei ole praktiliselt v&otilde;imalik .</s><s>Iga &otilde;iguserikkuja v&otilde;ib alati v&auml;ita , et tal ei olnud piraatkoopia valmistamisel levitamise eesm&auml;rki ning vastupidise t&otilde;estamine on juriidiliselt &auml;&auml;rmiselt keeruline .</s><s>Eriti keeruline on levitamise eesm&auml;rgi tuvastamine n&auml;iteks tarkvarapiraatluse juhtudel , kus piraatkoopiat n.&ouml;. f&uuml;&uuml;silises m&otilde;ttes ei valmistatagi ning piraatkoopiaks on arvuti k&otilde;vakettale salvestatud illegaalne koopia .</s><s>Seega v&otilde;ib levitamise eesm&auml;rgi tuvastamise n&otilde;ude seadusandlusesse sissetoomine olukorrani , kus piraatkoopiate valmistamisega seotud asjade menetlemine tuleb t&otilde;endite v&otilde;i kuriteo koosseisu puudumisel l&otilde;petada .</s><s>See omakorda raskendab kogu piraatlusevastast v&otilde;itlust ning loob piraatlusega tegelevatel isikutel olemasolevast veelgi suurema karistamatuse tunde .</s>
+</p>
+<p>
+<s>3. &ldquo; Kaubandustegevuse reguleerimise seaduse &rdquo; eeln&otilde;u .</s><s>Eeln&otilde;us leiab arvatavasti kajastamist Kultuuriministeeriumi poolt tehtud ettepanek , et EA&Uuml;-ga s&otilde;lmitud leping peaks olema kauplemisloa v&auml;ljaandmise &uuml;heks kohustuslikuks eeltingimuseks juhul , kui kauplemisloa taotleja on muusikakasutaja .</s><s>Seaduseeln&otilde;u on planeeritud v&auml;lja t&ouml;&ouml;tada 2001. a. keskpaigaks .</s>
+</p>
+<p>
+<s>Mitmeid intellektuaalset omandi kaitset tervikuna ning ka autori&otilde;igust puudutavaid seadusemuudatusi peavad asjaomased ministeeriumid v&auml;lja t&ouml;&ouml;tama ka tulenevalt valitsuskabineti 5. detsembri 2000. a. n&otilde;upidamisel tehtud otsustest .</s><s>Allj&auml;rgnevalt nendest l&uuml;hi&uuml;levaade .</s>
+</p>
+<p>
+<s>Justiitsministeerium peab 2000. a. detsembrikuu jooksul Vabariigi Valitsusele esitama kahed seadusemuudatused :</s>
+</p>
+<p>
+<s>1 ) muudatused &ldquo; Rendiseadusesse &rdquo; , millega s&auml;testatakse kaubanduspinna rendileandja konkreetne vastutus selle eest , kui rendile antaval pinnal tegeletakse piraattoodangu m&uuml;&uuml;giga , lisades seadusesse s&auml;te , mis lubab rendileandjal rentnikuga leping kohe l&otilde;petada .</s>
+</p>
+<p>
+<s>2 ) t&auml;iendused &ldquo; Autori&otilde;iguse seadusesse &rdquo; ja &ldquo; Tarbijakaitse seadusesse &rdquo; s&auml;tete osas , millega haldus&otilde;iguserikkumiste protokolli koostanud ametiisik , sealhulgas k&otilde;rgem politseiametnik , teeb korralduse kauplemisloa v&auml;lja andnud kohalikule omavalitsusele kauplemisloa peatamiseks kuni menetluse l&otilde;puni .</s><s>See samm peaks v&otilde;imaldama operatiivselt t&otilde;kestada kauplemist nendes kohtades , kus on avastatud piraatkaupa .</s>
+</p>
+<p>
+<s>Siseministeerium sai &uuml;lesande esitada 2001. a. jaanuari alguseks ettepanekud &ldquo; Haldus&otilde;iguserikkumiste seadustiku &rdquo; muutmiseks , et h&otilde;lbustada sellega politsei kontrolltegevust ja ligip&auml;&auml;su piraattoodanguga kauplevates kohtades ning v&otilde;imaldada politseil piraatkauba partii erikonfiskeerimist .</s>
+</p>
+<p>
+<s>Majandusministeeriumi vastav &uuml;lesanne puudutab &ldquo; Tarbijakaitse seaduse &rdquo; jm turukorraldust reguleerivate &otilde;igusaktide t&auml;iendamist , millega kehtestataks tegutsemislubade v&auml;ljaandmise &uuml;heks tingimuseks koosk&otilde;lastus Eesti Autorite &Uuml;hingult , kui tulevane tegevus puudutab ka autori&otilde;igusega kaitstavaid kaupu .</s>
+</p>
+<p>
+<s>M&otilde;ningaid seadusandlusega seonduvaid probleeme on omapoolses materjalis v&auml;lja toonud ka EF&Uuml; ja EAKO .</s><s>M&otilde;ningate nimetatud k&uuml;simustega juba tegeletakse , kuid siiski vajavad need k&uuml;simused enne konkreetsete ettepanekute esitamist veel p&otilde;hjalikumat l&auml;bit&ouml;&ouml;tamist .</s>
+</p>
+<p>
+<s>1.2.</s><s>Seaduste rakendamine</s>
+</p>
+<p>
+<s>Sellel aastal on p&otilde;hiline osa j&otilde;upingutustest just sellesse &ldquo; sektorisse &rdquo; suunatud .</s><s>L&auml;bi viidud koolitustele lisaks ( vt allpool ) pole unarusse j&auml;etud ka laiema avalikkuse teavitamist .</s><s>Juba k.a. alguses k&auml;ivitus Phare 4 MEUR projekti toetusel Kultuuriministeeriumi tellimusel alaprojekt No 00/C/166 &ldquo; Enforcement of EU Intellectual Property Legislation &rdquo; .</s><s>Selle projekti &uuml;heks alapunktiks on esiteks &otilde;igusaktide kogumiku tr&uuml;kkimine , kuhu oleksid kogutud k&otilde;ik autori&otilde;igusealased &otilde;igusaktid nii eesti kui inglise keeles ( &ldquo; Autori&otilde;iguse seadus &rdquo; , erinevad konventsioonid ja rahvusvahelised lepingud , EL direktiivid ) .</s><s>Teiseks ja avalikkuse hoiakute kujundamise k&uuml;simuses olulisemaks on teabelehe &ldquo; Autori&otilde;iguse p&otilde;him&otilde;tted &rdquo; ja infovoldiku &ldquo; Mis on piraatlus ? &rdquo; tr&uuml;kkimine .</s><s>Teabeleht ja infovoldik on tr&uuml;kitud , 1000 eksemplari kummastki tr&uuml;kisest edastati Kultuuriministeeriumile , &uuml;lej&auml;&auml;nud eksemplarid levitatakse Euroopa Liidu Infosekretariaadi kaudu &uuml;le Eesti erinevatesse EL infopunktidesse ( ka k&auml;esolevale materjalile on 1 eksemplar infovoldikust ja teabelehest lisatud ) .</s><s>Autori&otilde;igusealaste &otilde;igusaktide kogumik l&auml;heb tr&uuml;kki l&auml;hip&auml;evadel .</s>
+</p>
+<p>
+<s>&Uuml;heks t&auml;htsaimaks initsiatiiviks abistamaks seadusi rakendavaid institutsioone on aga erinevate koolituste ja seminaride l&auml;biviimine .</s><s>2000. aasta jooksul on p&otilde;hiliselt v&auml;lisabiprogrammide raames l&auml;bi viidud mitmeid vastavaid &uuml;ritusi erinevatele sihtgruppidele .</s><s>N&auml;iteks 28. m&auml;rtsil toimus autori&otilde;igusealane seminar autori&otilde;iguse komisjoni liikmetele ning teemaga kokku puutuvate erinevate ministeeriumite ametnikele .</s><s>15 ja 16 mail viidi l&auml;bi autori&otilde;igusega kaasnevaid &otilde;igusi k&auml;sitlev seminar esitajatele , fonogrammitootjatele ja ringh&auml;&auml;linguorganisatsioonidele .</s><s>Nende seminaride sihtgruppide n&auml;ol polnud niiv&otilde;rd tegemist seadusi rakendavate institutsioonidega , kuid k&otilde;igil tasanditel on sellealane temaatika seni v&auml;he k&auml;sitlemist ja tutvustamist leidnud .</s><s>Seega saab mainitud &uuml;ritusi kindlasti nimetada vajalikeks ja kordal&auml;inuteks .</s><s>Mis puudutab aga konkreetselt politseid , tolli , kohtunikke ja prokur&ouml;re , siis n&auml;iteks 10-12 mail 2000. a. korraldas Eesti Autori&otilde;iguste Kaitse Organisatsioon nn &ldquo; Tollituuri &rdquo; , mis h&otilde;lmas endas P&auml;rnu ( Edela ) , V&otilde;ru ( Kagu ) ja Narva ( Kirde ) tolliinspektuure .</s><s>Koolitusel osales igast inspektuurist ligikaudu 30 osav&otilde;tjat ning p&otilde;hiteemaks oli piraatkoopiate eristamine ( film , muusika , interaktiivsed m&auml;ngud ) ja loa olemasolu kontrollimine piiril .</s><s>&Uuml;ks seminar neile sihtgruppidele toimus ka 20. ja 22. juunil 2000. aastal .</s><s>Esimese p&auml;eva koolitus oli m&otilde;eldud politsei- ja tolliametnikele , teine p&auml;ev kohtunikele ja prokur&ouml;ridele .</s><s>Tegemist oli k&uuml;llaltki praktilise suunitlusega seminariga , kus lektoriteks autori&otilde;igusealase temaatikaga igap&auml;evaselt oma t&ouml;&ouml;s kokku puutuvad spetsialistid , k&otilde;ik &uuml;htlasi ka autori&otilde;iguse asjatundjate komisjoni liikmed .</s><s>Selle seminari n&auml;ol oli j&auml;rjekordselt tegemist Phare 4MEUR projekti raames esitatud koolitustaotlusega , kuid erinevaid &otilde;igustevaldajate gruppe esindavate organisatsioonide initsiatiivil saavad koolitusprojektid kindlasti j&auml;tkuma .</s><s>25. oktoobril ning 6-7 novembril toimus &Uuml;RO/Euroopa Majanduskomisjoni initsiatiivil loodud t&ouml;&ouml;grupi tegevuse tulemusena koolitus k&otilde;igile seadusi rakendavatele sihtgruppidele ning kuna nimetatud koolitusp&auml;evad said adressaatidelt positiivse vastukaja , siis on plaanis ka 2001. aastal selle t&ouml;&ouml;grupi abi kasutada erinevate koolituste l&auml;biviimisel .</s>
+</p>
+<p>
+<s>Mitmed autori&otilde;igusealased koolitus&uuml;ritused korraldati 2000 aastal &otilde;igustevaldajate esindusorganisatsioonide poolt ning ka edaspidi on eeldatavasti keeruline ennustada , millal mingi seminari l&auml;biviimine nende poolt v&otilde;imalikuks osutub .</s><s>Mis puudutab riigi initsiatiivi - s&otilde;ltume suures osas v&auml;lisabist ja praegu on mingil m&auml;&auml;ral v&otilde;imalusena &otilde;hus vaid &uuml;lalnimetatud &Uuml;RO/Euroopa Majanduskomisjoni poolt korraldatavate seminaride j&auml;tkamise v&otilde;imalus ka aastal 2001.</s><s>Riigieelarvest on kahjuks koolituste rahastamise v&otilde;imalused suhteliselt piiratud .</s>
+</p>
+<p>
+<s>Ei saa m&ouml;&ouml;da minna ka probleemist , mis oli nimetatud ka eelmises &uuml;levaates ja seaduste rakendamise teema all mainimist vajaks - Rooma 1961. a. konventsiooni artiklile 12 tehtud t&auml;ielik reservatsioon ning selle v&otilde;imalikud tagaj&auml;rjed nii kohustatud kui &otilde;igustatud subjektidele ( fonogrammide , esituste kasutajatele ning &otilde;igustevaldajatele ) .</s>
+</p>
+<p>
+<s>Sellel teemal on toimunud kaks kohtumist - fonogrammitootjate algatusel 20. juulil ning laiemap&otilde;hjaline &uuml;marlaud k&otilde;ikide huvigruppide osav&otilde;tul 11. oktoobril 2000. a. ( kohtumise protokoll k&auml;esolevale materjalile lisatud ) .</s><s>Koosolekul otsustati :</s>
+</p>
+<p>
+<s>1.</s><s>Leiti , et on v&otilde;imalik alustada l&auml;bir&auml;&auml;kimisi &otilde;igustevaldajate ( EF&Uuml; ja EEL ) ning ringh&auml;&auml;linguorganisatsioonide vahel ning vastavaid l&auml;bir&auml;&auml;kimisi ka alustatakse .</s>
+</p>
+<p>
+<s>2.</s><s>Kultuuriministeerium on valmis nende l&auml;bir&auml;&auml;kimiste k&auml;igus pakkuma kompromisse ja pooltele soovitusi ning olema vahendajaks juhul , kui kokkuleppe saavutamine osutub v&otilde;imatuks .</s>
+</p>
+<p>
+<s>3.</s><s>Kokkulepet t&auml;htaja suhtes , millal reservatsiooni muutmine j&otilde;ustub , ei saavutatud , kuid &uuml;marlaual osalejad olid n&otilde;us , et see ei saa toimuma enne 2002. aastat .</s>
+</p>
+<p>
+<s>Lisaks on Kultuuriministeeriumis toimunud Rooma konventsiooni artiklit 12 puudutav kohtumine Euroopa Komisjoni Delegatsiooni esindajatega , kus osalesid ka Justiitsministeeriumi ja V&auml;lisministeeriumi esindajad .</s><s>Kohtumine toimus 15.11.2000 ning selle eesm&auml;rgiks oli EC Delegatsiooniga veelkord teemat arutada Euroopa Lepingu Artiklis 66 v&otilde;etud kohustuste valguses .</s><s>Kohtumise tulemusena nenditi , et vastuolu Euroopa Lepinguga ei ole l&otilde;plikku kinnitust leidnud ning seet&otilde;ttu ei ole seda nimetatud ka 2000. a. eduraportis .</s><s>Viimatinimetatud dokumendis on Eestit julgustatud vastava reservatsiooni kaotamisele , mida plaanitakse teha eeldatavasti juba aastatel 2002-2003.</s>
+</p>
+<p>
+<s>Arutatud teemadest ei saa mainimata j&auml;tta ka legaalsuskleebiseid , kui &uuml;hte v&otilde;imalust efektiivsemaks piraatlusevastaseks v&otilde;itluseks ( materjalile on lisatud vastavasisuline v&auml;ljav&otilde;te autori&otilde;iguse asjatundjate komisjoni koosoleku protokollist ) .</s><s>Vabariigi Valitsusele on ka nimetatud teema kohta edastatud suhteliselt p&otilde;hjalikud taustamaterjalid ( Kultuuriministeeriumi 04.12.2000 kiri nr 3-2//5089 ) , seeparast nimetatud probleemil pikemalt ei peatu .</s>
+</p>
+<p>
+<s>Teema paluti Kultuuriministeeriumi juurde moodustatud autori&otilde;iguse asjatundjate komisjonil l&auml;bi vaadata 02.11.2000 peaministri juures toimunud piraatluseteemalisel kohtumisel .</s><s>Nimetatud kohtumiste esialgne initsiatiiv tuli kultuuriministri 02.10.2000 kirjast peaministrile , milles paluti valitsusjuhi toetust piraatlusevastasele v&otilde;itlusele .</s><s>Toimus kokku kaks kohtumist , mille tulemusena pandi erinevatele asjaomastele ministeeriumitele &uuml;lesanded uurida l&auml;bi v&otilde;imalusi mitmesuguste seadusandlike muudatuste jt. meetmete prognoositavast efektiivsusest piraatlusevastases v&otilde;itluses .</s>
+</p>
+<p>
+<s>Valitsuskabinetis oli piraatlusevastase v&otilde;itluse k&uuml;simus arutusel 05.12.2000.</s><s>Kohtumise tulemusel anti erinevatele ministeeriumitele &uuml;lesandeid vajalikeks seadusmuudatusteks ning muudeks initsiatiivideks .</s><s>Komisjon peab v&auml;ga oluliseks eriti asjaolu , et siseminister sai valitsuselt &uuml;lesandeks j&auml;tkata otsustavat tegevust piraatlusevastasel v&otilde;itlusel kaasates lisaks politseile k&otilde;iki asjassepuutuvaid ametkondi .</s>
+</p>
+<p>
+<s>1.2.1.</s><s>Politsei tegevus</s>
+</p>
+<p>
+<s>Politsei tegevust 2000. aastal piraatkaubanduse vastu v&otilde;itlemisel v&otilde;ib nimetada k&uuml;llaltki aktiivseks .</s><s>K&otilde;ige positiivsema arenguna v&otilde;ib siinkohal &auml;ra m&auml;rkida 2000. aasta maikuus politseipeadirektori aset&auml;itja korraldusega moodustatud t&ouml;&ouml;gruppi , kelle p&otilde;hi&uuml;lesandeks on intellektuaalse omandi rikkumiste v&auml;ljaselgitamine , vastavate meetmete rakendamine ( haldus- ja kriminaalmenetluse l&auml;biviimine ) , koost&ouml;&ouml; organiseerimine jne.</s><s>Siiski peab kahjuks tunnistama , et maikuine initsiatiiv tundus vahepeal olevat soiku j&auml;&auml;nud .</s>
+</p>
+<p>
+<s>Selgituste saamiseks politsei tegevuse kohta olid autori&otilde;iguse asjatundjate komisjoni 9. novembri 2000. a. koosolekule kutsutud esindajad Tallinna Politseiprefektuurist ja Siseministeeriumist ( v&auml;ljav&otilde;te koosoleku protokollist lisatud ) .</s>
+</p>
+<p>
+<s>Politsei mainele pole kasuks tulnud ka eriti novembrikuu jooksul ilmunud Kadaka turgu ja piraattoodanguga kauplejaid puudutavatest artiklitest , kus tehakse vihjeid politsei v&otilde;imaliku &auml;raostetavuse kohta .</s><s>Kindlaid t&otilde;endeid komisjonil nende v&auml;idete paikapidavuse kohta loomulikult ei ole , kuid toetame igati politsei k&otilde;rgemate ametnike poolt pressis v&auml;lja&ouml;eldud s&otilde;nu ametkonnasisese kontrolli teostamise osas selles k&uuml;simuses .</s>
+</p>
+<p>
+<s>Peaministri poolt on Siseministeeriumile pandud &uuml;lesanne j&auml;tkata reide .</s><s>Politsei on eriti viimase kuu jooksul oma sellealast tegevust j&auml;lle aktiviseerinud .</s><s>Ainu&uuml;ksi viimase kuu jooksul on politsei konfiskeerinud &uuml;le 30 000 audio- ja videosalvestise , arvutim&auml;nge ja tarkvara .</s><s>Alates detsembri algusest on politsei kontrollinud turgudel toimuvat praktiliselt iga p&auml;ev ning reide on lubatud sama hoogsalt ka j&auml;tkata .</s><s>Tallinna Politseiprefektuuris on moodustatud senisest suurem piraatluse vastu v&otilde;itlemise t&ouml;&ouml;grupp .</s>
+</p>
+<p>
+<s>Statistikat :</s>
+</p>
+<p>
+<s>( esialgsed andmed aasta 2000 kohta tervikuna )</s>
+</p>
+<p>
+<s>Kontrollitud ettev&otilde;tteid ja isikuid - 842</s>
+</p>
+<p>
+<s>Avastatud piraattoodangut - 74 809</s>
+</p>
+<p>
+<s>Sellest :</s>
+</p>
+<p>
+<s>- audiokassetid 1758</s>
+</p>
+<p>
+<s>- videokassetid 10 983</s>
+</p>
+<p>
+<s>- laserplaadid 53 598</s>
+</p>
+<p>
+<s>- tarkvara 4124</s>
+</p>
+<p>
+<s>- muu ( Nike , Adidas ) 2700</s>
+</p>
+<p>
+<s>Piraattoodangut v&otilde;etud hoiule - 73 747</s>
+</p>
+<p>
+<s>Koostatud H&Otilde;S protokolle A&Otilde;S &sect; 83 j&auml;rgi - 75</s>
+</p>
+<p>
+<s>M&auml;&auml;ratud trahve kohtu poolt &uuml;le 200 000 krooni</s>
+</p>
+<p>
+<s>Erikonfiskeeritud kohtu poolt - 579</s>
+</p>
+<p>
+<s>Algatatud kriminaalmenetlust KrK &sect; 277-284 tunnustel - 75 menetlust</s>
+</p>
+<p>
+<s>II ETTEPANEKUD VABARIIGI VALITSUSELE</s>
+</p>
+<p>
+<s>2.1.</s><s>Seadusandlus</s>
+</p>
+<p>
+<s>Hetkeseisuga v&otilde;iks &ouml;elda ( nagu ka mitmel puhul enne nimetatud ) , et tegelikult on juba praegu k&otilde;ik seadusandlikud vahendid efektiivseks tegutsemiseks olemas .</s><s>Probleem on ( ja arvatavasti j&auml;&auml;b veel m&otilde;neks ajaks ) motivatsiooni ja tahte puudumises olemasolevate normide rakendamiseks .</s>
+</p>
+<p>
+<s>J&auml;rgnevalt lisaks ka Eesti Autorite &Uuml;hingu arvamuse ( punktid 1 ja 2 ) seoses esilekerkinud probleemidega ning nende v&otilde;imaliku lahendamise kohta l&auml;bi litsenseerimiss&uuml;steemi .</s>
+</p>
+<p>
+<s>1.</s><s>Autori&otilde;igusealase olukorra parandamiseks tuleks kaaluda suuremate kontsertide korraldamise muutmist litsenseeritavaks tegevusalaks , kusjuures litsentside v&auml;ljaandjaks v&otilde;iks olla Kultuuriministeerium .</s><s>Selline muudatuse sisseviimine oleks vajalik seet&otilde;ttu , et k&auml;esoleval ajal tegeleb Eestis kontserdi korraldamisega mitu isikut , kes iga kontserdi jaoks ostavad n.&ouml;. riiulist mingi osa&uuml;hingu , mis on nominaalselt kontserdikorraldajaks .</s><s>Sellise minimaalse osakapitaliga osa&uuml;hing kaob p&auml;rast kontserti ning autoritel ei ole tavaliselt kellegi poole saamataj&auml;&auml;nud autoritasu n&otilde;udes p&ouml;&ouml;rduda .</s><s>Ka on naeruv&auml;&auml;rne , et miljonitesse ulatuvate piletik&auml;ivetega kontserdikorraldajateks v&otilde;ivad olla osa&uuml;hingud , mille omakapital on tavaliselt n&otilde;utud miinimumi tasemel , s.o. 40 000 krooni .</s><s>Asi ei ole mitte ainult autoritel saamataj&auml;&auml;nud autoritasudes vaid ka selles , et riik ei saa autoritasude pealt makstavat &uuml;ksikisiku tulumaksu k&auml;tte .</s><s>Ja tegemist on sageli suhteliselt suurte summadega .</s><s>Nii on n&auml;iteks Lauri Laubre riiulifirmal O&Uuml; Fix Com Tina Turneri kontserdi eest maksmata autoritasu &uuml;le miljoni krooni .</s><s>Vendadele Rebastele kuuluv riiulifirma O&Uuml; BDG Kontsert v&otilde;lgneb autoritele &uuml;le poole miljoni krooni .</s><s>Arvestades , et tulumaksuks maksaksid autorid 26 % oma autoritasust , j&auml;&auml;b riigil saamata mitusada tuhat krooni &uuml;ksikisiku tulumaksu .</s><s>R&auml;&auml;kimata Eesti riigile kui tervikule tekitatud maine kahjustamisest , sest teiste riikide kirjastajad ja autorid n&auml;evad , et meie riik ei suuda t&auml;ita endale v&otilde;etud rahvusvahelisi kohustusi .</s><s>Loomulikult ei ole m&otilde;eldav , et k&otilde;ik kontserdikorraldajad k&auml;iksid sellise litsenseerimise alla , kuid ilmselt tuleks s&auml;testada mingi piir , millest alates see nii oleks .</s><s>N&auml;iteks kontsertide puhul , kus piletim&uuml;&uuml;gi k&auml;ive on &uuml;le miljoni krooni .</s><s>R&otilde;hutan veelkord , et selles sektoris elementaarse korra sisseviimine oleks mitte ainult autorite vaid ka riigi kui maksukoguja huvides .</s><s>Pealegi oleks see ka turu korrastamise seisukohast oluline , sest seaduskuulekad kontserdikorraldajad on praegu majanduslikult halvemasse olukorda seatud kui seaduserikkujad .</s>
+</p>
+<p>
+<s>2.</s><s>Ilmselt tuleks p&ouml;&ouml;rduda tagasi juba korra komisjoni ees olnud k&uuml;simuse juurde - kollektiivse esindamise organisatsiooni asutamiseks ja sellena toimimiseks oleks vaja saada litsents .</s><s>Arvan , et selle v&auml;ljaandja v&otilde;iks meie riigis olla Kultuuriministeerium .</s><s>Selline kord oleks vajalik seep&auml;rast , et v&auml;ltida nn. pseudo&uuml;hingute tekkimist ja turu solkimist .</s><s>Praeguse seisu j&auml;rgi v&otilde;ivad n&auml;iteks kaks isikut asutada autorite &uuml;hingu ja deklareerida , et nemad esindavadki autoreid , ehkki tegelikult ei esinda nad kedagi peale iseenda .</s><s>Seega peaksid k&otilde;ik kasutajad nendega lepingu s&otilde;lmima , nendele tasu maksma jne.</s><s>Kujutagem ette , et selliseid kahe-mehe &uuml;hinguid on kaksk&uuml;mmend .</s><s>Ja iga ringh&auml;&auml;lingujaam peaks nendega l&auml;bir&auml;&auml;kimisi pidama , vaidlema tasu suuruse &uuml;le jne.</s><s>Kusjuures formaaljuriidiliselt oleks sellistel &uuml;hingutel &otilde;igus seda ka n&otilde;uda .</s><s>Kasutajate seisukohast oleks selline olukord t&auml;iesti jabur .</s><s>Ega ilmaaegu ole kogu maailmas ( kui k&otilde;rvale j&auml;tta Ameerika &Uuml;hendriigid nende trustidevastasest seadusest tuleneva erip&auml;ra t&otilde;ttu ) igas riigis &uuml;ks &uuml;hing vastaval loomealal .</s><s>Kui selliste &uuml;hingute tegevus oleks vastavuses autori&otilde;iguse seaduse s&auml;tetega ning nende tegevuse &uuml;le teostaks kontrolli litsentsi v&auml;ljaandnud Kultuuriministeerium , ei oleks p&otilde;hjust karta ka oma &otilde;iguste kuritarvitamist selliste &uuml;hingute poolt .</s>
+</p>
+<p>
+<s>Veel litsenseerimisest - ka on kaalutud autori&otilde;igusega ning sellega kaasnevate &otilde;igustega kaitstavate teoste ning objektidega kauplemise kui tegevusala litsenseerimist .</s><s>Seda v&otilde;imalust on k&auml;sitletud autori&otilde;iguse komisjoni koosolekutel ja v&auml;lja pakutud ka piraatluseteemalistel kohtumistel peaministri juures .</s>
+</p>
+<p>
+<s>Tegevuslubade ( litsentside ) v&auml;ljaandmiseks autori&otilde;igusega kaasnevate &otilde;iguste objektidega seotud kaubandustegevuse ( videote , fonogrammide , arvutiprogrammide sisse- ja v&auml;ljavedu , tootmine ) valdkonnas tuleb muuta &ldquo; Autori&otilde;iguse seadust &rdquo; , kui konkreetsema anal&uuml;&uuml;si tulemusel selgub , et uus litsentseerimiskord osutub otstarbekaks .</s><s>S&uuml;steemi juurutamine n&otilde;uab p&otilde;hjalikku kaalumist , selleks peavad olema planeeritud eelarvesse vajalikud ressursid jne.</s><s>Lahendada tuleb probleem , kes hakkab litsentse v&auml;lja andma , kas selleks on vaja t&auml;iendavalt inimesi t&ouml;&ouml;le v&otilde;tta jne.</s><s>Juhul , kui hakata litsentseerimiss&uuml;steemi v&auml;lja t&ouml;&ouml;tama , siis oleks vajalik &ldquo; Autori&otilde;iguse seaduse &rdquo; t&auml;iendamine tegevuslubade v&auml;ljaandmise , peatamise , t&uuml;histamise korra s&auml;testamisega .</s>
+</p>
+<p>
+<s>Selge , korrastatud ja toimiva j&auml;relvalvega s&uuml;steemi loomine tegevuslubade osas n&auml;ib esialgu olevat efektiivne ja j&otilde;uline samm piraatluse v&auml;hendamisel .</s><s>Siiski peame vajalikuks siinkohal m&auml;rkida , et kolme erineva &uuml;laltoodud tegevusala litsenseerimise alustamine praktiliselt &uuml;heaegselt ( kusjuures litsentse annab v&auml;lja sama asutus ) , vajab kindlasti veel kaalumist .</s><s>Tuleb l&auml;bi m&otilde;elda k&otilde;ik nimetatud dokumentide v&auml;ljaandmiseks vajalikud ressursid ja tingimused , et tegemist poleks ebaadekvaatse paberiga , mis l&otilde;ppkokkuv&otilde;ttes ikkagi tururegulatsioonile positiivses m&otilde;ttes kaasa ei aita .</s>
+</p>
+<p>
+<s>2.2.</s><s>Seaduste rakendamine</s>
+</p>
+<p>
+<s>Eelmises &uuml;levaates sai nimetatud olulisena avalikkuse teavitamist ning piraatlusevastase v&otilde;itluse t&otilde;stmist prioriteediks politsei poolt .</s><s>Avalikkuse teavitamise osas on n&uuml;&uuml;dseks juba ilmunud teemat tutvustav infovoldik ja teabeleht .</s><s>Kindlasti ei saa need j&auml;&auml;da viimasteks autori&otilde;igusealast temaatikat puudutavaks laiemale &uuml;ldsusele suunatud teavikuteks .</s><s>Kajastamist vajavad ka spetsiifilisemad teemad ( n&auml;it. teoste avalik esitamine ) , mille tutvustamiseks on parim viis just n&auml;iteks voldiku-formaadi kasutamine .</s>
+</p>
+<p>
+<s>Politsei on viimase kuu jooksul j&auml;rjekordselt t&otilde;estanud , et j&auml;rjekindla tegevusega on v&otilde;imalik saavutada piraatlusevastases v&otilde;itluses tulemusi .</s><s>Olles teadlik politsei t&ouml;&ouml;koormusest j&auml;&auml;b komisjonil siiski vaid soovida , et sellealane tegevus ei soikuks .</s><s>Peaministri juures toimunud piraatluseteemaliste kohtumiste tulemusena kerkis esile ka plaan komisjoni poolt kuulata l&auml;hiajal &auml;ra erinevate asjaomaste institutsioonide koolitusplaanid .</s><s>Nende plaanide &uuml;hildamise ning erinevate finantseerimisv&otilde;imaluste &auml;rakasutamise teel on kindlasti v&otilde;imalik veelgi efektiivsem j&auml;relevalveinstitutsioonide nii praktiline kui teoreetiline koordineeritud koolitustegevus .</s>
+</p>
+<p>
+<s>Piraatlust teemana on ajakirjanduses ( eriti &Auml;rip&auml;evas ) nii sellel aastal tervikuna kui eriti just teisel poolaastal kajastatud rohkem kui kunagi varem .</s><s>Selle toel on saavutatud positiivseid nihkeid nii avalikkuse suuremale informeeritusele kui juhitud t&auml;helepanu ka m&otilde;ningatele puuduj&auml;&auml;kidele j&auml;relevalveinstitutsioonide tegevuses .</s><s>Komisjon on seisukohal , et eriti aktiivset ajakirjanduslikku uurimist&ouml;&ouml;d teinud ajakirjanikud v&auml;&auml;rivad &auml;ram&auml;rkimist ka riigi poolt ( l&auml;bi Kultuuriministeeriumi ) .</s>
+</p>
+<p>
+<s>KOKKUV&Otilde;TE</s>
+</p>
+<p>
+<s>Komisjon avaldab heameelt selle &uuml;le , et peaminister v&otilde;ttis kultuuriministri oktoobrikuist p&ouml;&ouml;rdumist t&otilde;siselt ning reageeris kiirelt piraatluseteemalise kohtumise kokkukutsumisega .</s><s>Peaministri tugi on sellealases tegevuses on kindlasti vajalik ning juba praegu v&otilde;ib n&auml;ha nimetatud kohtumiste tulemuslikkust .</s>
+</p>
+<p>
+<s>2000. aasta ei paistnud silma niiv&otilde;rd seadusandliku tegevusega , kui just j&otilde;ustunud seaduste rakendamise problemaatikaga .</s><s>Toimus hulgaliselt koolitusi , v&auml;lisabiprojektide raames anti v&auml;lja temaatilisi tr&uuml;kiseid , presenteeriti piraatluseteemalist uurimust , piraatlusevastasesse v&otilde;itlusesse kaasati kohalikud omavalitsused , kaaluti mitmeid radikaalseid ettepanekuid piraatluse efektiivsemaks t&otilde;kestamiseks ( litsenseerimine , legaalsuskleebised ) , teemat kajastas aktiivselt ajakirjandus .</s>
+</p>
+<p>
+<s>Kuigi ka peaministri juures toimunud kohtumiste tulemusena said mitmed asjaomasel ministeeriumil &uuml;lesande m&otilde;ningate seadusemuudatuste v&auml;ljat&ouml;&ouml;tamiseks , tuleb ka eeloleval 2001. aastal siiski p&otilde;hit&auml;helepanu p&ouml;&ouml;rata j&auml;relevalveinstitutsioonide koolitamisele ( ka uued seadusemuudatused vajavad selgitamist jne ) .</s>
+</p>
+<p>
+<s>Margus Allikmaa</s>
+</p>
+<p>
+<s>Komisjoni esimees</s>
+</p>
+<p>
+<s>Sellealase kirjaga on &otilde;igustevaldajaid esindavad organisatsioonid ( EA&Uuml; , EF&Uuml; , EAKO , BSA , EAAL ) p&ouml;&ouml;rdunud ka Riigikogu &otilde;iguskomisjoni poole ( 17.11.2000 kiri ) palvega &otilde;iguskomisjonil &ldquo; Karistusseadustiku &rdquo; eeln&otilde;u arutamisel teha Riigikogule ettepanek j&auml;tta eeln&otilde;u &sect; 234 l&otilde;ikest 1 v&auml;lja s&otilde;nad &ldquo; levitamise eesm&auml;rgil &rdquo; .</s>
+</p>
+<p>
+<s><hi rend="sup">2</hi> Vt EF&Uuml; ja EAKO materjal lk 4</s>
+</p>
+<p>
+<s><hi rend="sup">3</hi> Phare 4MEUR projekti toetusel l&auml;bi viidav alaprojekt No 00/C/166 &ldquo; Enforcement of EU Intellectual Property Legislation &rdquo;</s>
+</p>
+<p>
+<s><hi rend="sup">4</hi> Juunis 1999 kaasati Eesti &Uuml;RO projekti - &Uuml;RO/Euroopa Majanduskomisjoni intellektuaalse omandi kaitse grupp ( UN/ECE Advisory Group for the Protection of Intellectual Property Rights for Investment ) ning septembris 1999 toimus Genfis grupi esimene koosolek .</s><s>Eestist sai selle kohtumise tulemusena pilootprojekt .</s><s>Kaks v&auml;liseksperti t&ouml;&ouml;tasid v&auml;lja Eesti intellektuaalse omandi &otilde;igust puudutava taustadokumendi .</s><s>Dokument oli aluseks konsultatiivsele kohtumisele k.a. aprillis ning selle kohtumise tulemusena tegi grupp ettepanekuid intellektuaalse omandi alase olukorra parandamiseks Eestis .</s><s>&Uuml;heks konkreetseks ettepanekuks oli ka koolituse korraldamine seadusi rakendavatele institutsioonidele , mis toimus 25.10.00 ja 6-7.11.00.</s>
+</p>
+<p>
+<s><hi rend="sup">5</hi> Pikemalt vaata ka EF&Uuml; ja EAKO poolt ettevalmistatud materjalid lk 8.</s>
+</p>
+<p>
+<s><hi rend="sup">6</hi> vt ka p 1.1.2. &ldquo; Seaduseeln&otilde;ud &rdquo;</s>
+</p>
+<p>
+<s><hi rend="sup">7</hi> vt ka EF&Uuml; ja EAKO materjalid lk 5</s>
+</p>
+<p>
+<s><hi rend="sup">8</hi> Politseiameti andmetel</s>
+</p>
+</body>
+   </text>
+</tei.2>

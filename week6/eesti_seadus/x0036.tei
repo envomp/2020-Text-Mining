@@ -1,0 +1,426 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> M&otilde;&otilde;teseadus ( ELIT 1996/11 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    1515</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> M&otilde;&otilde;teseadus ( ELIT 1996/11 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=107></tagusage>
+         <tagusage gi=s occurs=130></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>M&otilde;&otilde;teseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 28. september 1994. a.</s>
+</p>
+<p>
+<s>( RT I 1994 , 71 , 1224 ) , j&otilde;ustunud 1. jaanuaril 1995. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>M&otilde;&otilde;tmiste &uuml;htsus</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &uuml;lesandeks on f&uuml;&uuml;sikaliste suuruste m&otilde;&otilde;tmise &uuml;htsuse , &otilde;igsuse ning rahvusvahelise ja riigisisese seostatuse tagamine Eestis .</s><s>K&auml;esoleva seaduse m&otilde;ttes on m&otilde;&otilde;tmine operatsioonide kogum f&uuml;&uuml;sikalise suuruse v&auml;&auml;rtuse m&auml;&auml;ramiseks spetsiaalsete tehniliste vahendite ( m&otilde;&otilde;tevahendite ) abil .</s>
+</p>
+<p>
+<s>( 2 ) M&otilde;&otilde;tmiste &uuml;htsus , &otilde;igsus ja seostatus saavutatakse Eesti standardiga kehtestatud m&otilde;&otilde;t&uuml;hikute rakendamise ja m&otilde;&otilde;tevahendite kontrolli kaudu .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;&otilde;t&uuml;hikud</s>
+</p>
+<p>
+<s>Rahvusvahelise M&otilde;&otilde;t&uuml;hikute S&uuml;steemi ( SI ) alusel kehtestatakse Eesti standardiga Eestis kohustuslikuks kasutamiseks f&uuml;&uuml;sikaliste suuruste m&otilde;&otilde;t&uuml;hikud ( edaspidi seaduslikud m&otilde;&otilde;t&uuml;hikud ) ja nende :</s>
+</p>
+<p>
+<s>1 ) nimetused , t&auml;hised ja definitsioonid , v&otilde;ttes aluseks SI &uuml;hikud ja t&auml;iendades vajadusel neid teiste &uuml;hikutega ;</s>
+</p>
+<p>
+<s>2 ) eesliited ja nende t&auml;hised detsimaalsete kord ja osa&uuml;hikute moodustamiseks ;</s>
+</p>
+<p>
+<s>3 ) kirjaviis f&uuml;&uuml;sikaliste suuruste v&auml;&auml;rtuste esitamisel .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Etalonid</s>
+</p>
+<p>
+<s>( 1 ) Seaduslikud m&otilde;&otilde;t&uuml;hikud realiseeritakse etalonide abil .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus kehtestab :</s>
+</p>
+<p>
+<s>1 ) riiklike etalonide ja etalonainete nimistu ;</s>
+</p>
+<p>
+<s>2 ) etalonide valiku , kinnitamise , s&auml;ilitamise ja kasutamise korra .</s>
+</p>
+<p>
+<s>( 3 ) Kulutused riiklike etalonide ja etalonainete soetamiseks , s&auml;ilitamiseks ning rahvusvaheliseks v&otilde;rdlemiseks kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>M&otilde;&otilde;teastendik</s>
+</p>
+<p>
+<s>M&otilde;&otilde;tmiste &otilde;igsuse ja seostatuse kindlustamiseks rakendatakse m&otilde;&otilde;teastendikke , mille kohaselt etalonid liigitatakse nende t&auml;psuse ja kasutusotstarbe j&auml;rgi :</s>
+</p>
+<p>
+<s>1 ) riiklikeks etalonideks , mida perioodiliselt v&otilde;rreldakse vastavate rahvusvaheliste v&otilde;i teiste riikide etalonidega ;</s>
+</p>
+<p>
+<s>2 ) tugietalonideks , mida perioodiliselt v&otilde;rreldakse vastavate riiklike v&otilde;i teiste riikide etalonidega ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;etalonideks , mida perioodiliselt v&otilde;rreldakse vastavate tugietalonidega ja kasutatakse t&ouml;&ouml;m&otilde;&otilde;tevahendite kontrolliks .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>M&otilde;&otilde;tevahendid</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>M&otilde;&otilde;tevahendid ja nende kasutamine</s>
+</p>
+<p>
+<s>( 1 ) M&otilde;&otilde;tevahendid on :</s>
+</p>
+<p>
+<s>1 ) m&otilde;&otilde;dud , m&otilde;&otilde;teriistad , m&otilde;&otilde;temuundurid , m&otilde;&otilde;tekompleksid ;</s>
+</p>
+<p>
+<s>2 ) teised normeeritud metroloogiliste omadustega tehnilised vahendid , mida kasutatakse m&otilde;&otilde;tmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kasutusotstarbe j&auml;rgi jagunevad m&otilde;&otilde;tevahendid etalonideks ja t&ouml;&ouml;m&otilde;&otilde;tevahenditeks , kusjuures :</s>
+</p>
+<p>
+<s>1 ) etalone kasutatakse m&otilde;&otilde;tevahendite kontrolliks ja neid ei ole lubatud kasutada tavalisteks m&otilde;&otilde;tmisteks ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;m&otilde;&otilde;tevahendeid kasutatakse ainult tavalisteks m&otilde;&otilde;tmisteks ja neid ei ole lubatud rakendada teiste m&otilde;&otilde;tevahendite kontrolliks .</s>
+</p>
+<p>
+<s>( 3 ) M&otilde;&otilde;tevahendeid peab &uuml;les seadma , &uuml;hendama , k&auml;sitsema , hooldama ja hoidma nii , et oleks tagatud m&otilde;&otilde;tmiste &otilde;igsus .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>M&otilde;&otilde;tevahendite metroloogilise kontrolli liigid</s>
+</p>
+<p>
+<s>( 1 ) M&otilde;&otilde;tmiste &otilde;igsuse ja seostatuse ning m&otilde;&otilde;tmistulemuste usaldusv&auml;&auml;rsuse saavutamiseks kontrollitakse m&otilde;&otilde;tevahendeid t&uuml;&uuml;bikinnituse , taatlemise ja kalibreerimise teel .</s>
+</p>
+<p>
+<s>( 2 ) Taatlusteenuste k&auml;ttesaadavus kohustuslikule taatlusele kuuluvate m&otilde;&otilde;tevahendite taatlemiseks tagatakse riiklikult .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus kehtestab taatluskohustuslike m&otilde;&otilde;tevahendite t&uuml;&uuml;bikinnituse ja taatlemise eest v&otilde;etava tasu piirm&auml;&auml;rad .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>T&uuml;&uuml;bikinnitus</s>
+</p>
+<p>
+<s>( 1 ) T&uuml;&uuml;bikinnitus on protseduur , mille k&auml;igus tehakse vaadeldavat t&uuml;&uuml;pi m&otilde;&otilde;tevahendi dokumentatsiooni ja t&uuml;&uuml;bikatsetustulemuste alusel kindlaks , kas antud t&uuml;&uuml;pi m&otilde;&otilde;tevahendiga m&otilde;&otilde;tmisel v&otilde;ib eeldada vajaliku t&auml;psuse s&auml;ilimist kindlaksm&auml;&auml;ratud ajavahemiku ( taatluskehtivusaeg ) jooksul ; seejuures peab m&otilde;&otilde;tevahend olema gradueeritud seaduslikes m&otilde;&otilde;t&uuml;hikutes .</s>
+</p>
+<p>
+<s>( 2 ) Taotluse t&uuml;&uuml;bikinnituse saamiseks esitab m&otilde;&otilde;tevahendi valmistaja , importija v&otilde;i nende esindaja Riigi Standardiametile , kus taotlejale k&auml;esoleva paragrahvi 1. l&otilde;ike n&otilde;uetele vastava m&otilde;&otilde;tevahendi t&uuml;&uuml;bi jaoks v&auml;ljastatakse kehtestatud korras t&uuml;&uuml;bikinnitustunnistus ja antakse &otilde;igus kanda seda t&uuml;&uuml;pi m&otilde;&otilde;tevahendile t&uuml;&uuml;bikinnitusm&auml;rk .</s><s>T&uuml;&uuml;bikinnitustunnistus sisaldab m&otilde;&otilde;tevahendi t&uuml;&uuml;bi garanteeritud metroloogilisi omadusi ja v&otilde;ib sisaldada lisatingimusi , piiranguid ning t&auml;htaegu .</s>
+</p>
+<p>
+<s>( 3 ) T&uuml;&uuml;bikinnitus on kohustuslik m&otilde;&otilde;tevahendite korral , mida kasutatakse m&otilde;&otilde;tmiseks valdkondades , kus kehtib k&auml;esoleva seaduse &sect; 10 alusel taatluskohustus .</s>
+</p>
+<p>
+<s>( 4 ) T&uuml;&uuml;bikinnituse kord kehtestatakse Eesti standardiga .</s>
+</p>
+<p>
+<s>( 5 ) Vabariigi Valitsus kehtestab teiste riikide t&uuml;&uuml;bikinnituste tunnustamise korra Eestis .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Taatlemine</s>
+</p>
+<p>
+<s>( 1 ) M&otilde;&otilde;tevahend on taatlusk&otilde;lblik , kui selle t&uuml;&uuml;bil on Eestis kehtiv t&uuml;&uuml;bikinnitus .</s>
+</p>
+<p>
+<s>( 2 ) Taatlemine on protseduur m&otilde;&otilde;tevahendi kasutamisk&otilde;lblikkuse kindlaksm&auml;&auml;ramiseks , mille k&auml;igus :</s>
+</p>
+<p>
+<s>1 ) kontrollitakse m&otilde;&otilde;tevahendi metroloogilisi omadusi taatluseks riiklikku tegevuslitsentsi omavas taatluslaboratooriumis ;</s>
+</p>
+<p>
+<s>2 ) taatluseeskirjade n&otilde;uetele vastav m&otilde;&otilde;tevahend tembeldatakse taatlustempliga ja/v&otilde;i v&auml;ljastatakse taatlustunnistus .</s>
+</p>
+<p>
+<s>( 3 ) Taadeldud m&otilde;&otilde;tevahendiga saadud m&otilde;&otilde;tmistulemused loetakse kindlaksm&auml;&auml;ratud veapiirides &otilde;igeks , kui selle kasutamisel on t&auml;idetud k&auml;esoleva seaduse &sect; 5 3. l&otilde;ikes s&auml;testatud n&otilde;uded .</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsus kehtestab korra :</s>
+</p>
+<p>
+<s>1 ) taatlemiseks ja m&otilde;&otilde;tevahendite taatluskehtivusaegade m&auml;&auml;ramiseks ;</s>
+</p>
+<p>
+<s>2 ) taatlustemplite valmistamiseks , kasutamiseks ja hoidmiseks ;</s>
+</p>
+<p>
+<s>3 ) teistes riikides kehtivate taatlustulemuste tunnustamiseks Eestis .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Kalibreerimine</s>
+</p>
+<p>
+<s>( 1 ) Kalibreerimine on m&otilde;&otilde;tevahendi kontrolli liik , mille l&auml;biviimiseks pole n&otilde;utav t&uuml;&uuml;bikinnituse olemasolu ja mida teostatakse kalibreerimislaboris m&otilde;&otilde;tevahendi valdaja initsiatiivil .</s><s>Kalibreerimise k&auml;igus m&auml;&auml;ratakse m&otilde;&otilde;tevahendi metroloogilised omadused selle valdajaga koosk&otilde;lastatud tingimustel , ulatuses ja meetodil .</s>
+</p>
+<p>
+<s>( 2 ) Kalibreerimislabor v&auml;ljastab m&otilde;&otilde;tevahendi valdajale kalibreerimistunnistuse , milles on toodud kontrolli tulemused , sealhulgas m&otilde;&otilde;tevead .</s>
+</p>
+<p>
+<s>( 3 ) Kalibreerimine ei anna &otilde;igust m&otilde;&otilde;tevahendi kasutamiseks valdkondades , kus kehtib k&auml;esoleva seaduse &sect; 10 alusel taatluskohustus .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Taatluskohustus</s>
+</p>
+<p>
+<s>( 1 ) Kohustuslikule taatlusele kuuluvad m&otilde;&otilde;tevahendid , mida kasutatakse tehingutes :</s>
+</p>
+<p>
+<s>1 ) pikkuse , pindala , ruumala , massi , aja , temperatuuri , r&otilde;hu , soojus- ja elektrienergia , soojusliku ja elektrilise v&otilde;imsuse , vedelike ja gaaside koguse ning tiheduse m&otilde;&otilde;tmiseks ;</s>
+</p>
+<p>
+<s>2 ) ainetesisalduse , toidurasvade veesisalduse , tera- ja &otilde;liviljade niiskusesisalduse , teravilja puistetiheduse , piima ja piimatoodete rasvasisalduse , kartuli t&auml;rklisesisalduse m&otilde;&otilde;tmiseks ;</s>
+</p>
+<p>
+<s>3 ) tasu m&auml;&auml;ramisel transpordi- ja postiteenuste eest .</s>
+</p>
+<p>
+<s>( 2 ) Kohustuslikule taatlusele kuuluvad m&otilde;&otilde;tevahendid , kui neid rakendatakse :</s>
+</p>
+<p>
+<s>1 ) tulenevalt tolli- ja maksuseaduste n&otilde;uetest ;</s>
+</p>
+<p>
+<s>2 ) riikliku j&auml;relevalve ja kontrolli teostamisel ;</s>
+</p>
+<p>
+<s>3 ) ekspertiisi teostamisel kohtu- v&otilde;i vahekohtumenetluses ;</s>
+</p>
+<p>
+<s>4 ) ravimite valmistamisel ja kontrollimisel ;</s>
+</p>
+<p>
+<s>5 ) m&otilde;&otilde;tmistel ja anal&uuml;&uuml;sidel meditsiinis ja veterinaarias ;</s>
+</p>
+<p>
+<s>6 ) m&otilde;&otilde;tmistel kiirguskaitses , keskkonnakaitses ja tervisekaitses ;</s>
+</p>
+<p>
+<s>7 ) t&ouml;&ouml;kaitse valdkonnas ohtlike ja kahjulike m&otilde;jurite m&otilde;&otilde;tmiseks ning masinate ohutu ekspluateerimise tagamiseks .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Taatluskohustusest vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsusel on &otilde;igus erandjuhtudel vabastada taatluskohustusest m&otilde;&otilde;tevahendid , kui kulutused nende taatlemiseks on liialt suured ega vasta m&otilde;&otilde;tevahendi t&auml;htsusele oma kasutusalal .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ike rakendamise korral on kohustuslik t&uuml;&uuml;bikinnitus v&otilde;i muude meetmete rakendamine , mis tagaks m&otilde;&otilde;tetulemuste piisava usaldusv&auml;&auml;rsuse .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kinnispakendid</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse m&otilde;ttes on kinnispakendid pakendites v&otilde;i n&otilde;udes tooted , mis on suletud ostja juuresolekuta viisil , mis ei v&otilde;imalda t&auml;itekogust muuta pakendit rikkumata .</s>
+</p>
+<p>
+<s>( 2 ) Eesti standardiga kehtestatakse :</s>
+</p>
+<p>
+<s>1 ) n&otilde;uded kinnispakendi markeeringule ;</s>
+</p>
+<p>
+<s>2 ) kinnispakendite lubatud nimikogused ja vastavad h&auml;lbed ning nende kontrolli kord ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;uded kinnispakendite t&auml;itmise kontrollimiseks etten&auml;htud m&otilde;&otilde;tevahenditele .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus kehtestab k&auml;esoleva seaduse n&otilde;uetele mittevastavate kinnispakendite kaubapartii realiseerimise keelustamise v&otilde;i m&uuml;&uuml;gilt k&otilde;rvaldamise korra .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>M&otilde;&otilde;teteenistus , j&auml;relevalve ja vastutus</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>M&otilde;&otilde;teteenistuse korraldus</s>
+</p>
+<p>
+<s>Riigi m&otilde;&otilde;teteenistust juhib Riigi Standardiamet ning sinna kuuluvad :</s>
+</p>
+<p>
+<s>1 ) riigi metroloogiakeskus , mille &uuml;lesandeks on riiklike etalonide arendamine , s&auml;ilitamine ja kasutamine ;</s>
+</p>
+<p>
+<s>2 ) Vabariigi Valitsuse kehtestatud korras volitatud taatlus- ja kalibreerimislaborid , mis teostavad m&otilde;&otilde;tevahendite metroloogilist kontrolli .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>J&auml;relevalve</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse ja selle alusel v&auml;lja antud &otilde;igusaktide n&otilde;uete j&auml;rgimist kontrollib Riigi Standardiamet .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Juriidilise isiku vastutus</s>
+</p>
+<p>
+<s>( 1 ) Juriidilise isiku poolt :</s>
+</p>
+<p>
+<s>1 ) kehtiva taatlustempli j&auml;ljendita v&otilde;i kehtiva taatlustunnistuseta taatluskohustuslike m&otilde;&otilde;tevahendite kasutamise eest - m&auml;&auml;ratakse rahatrahv kuni 10 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) taatluskohustuslike m&otilde;&otilde;tevahendite &uuml;lesseadmise , hoidmise v&otilde;i kasutamise eest viisil , mis ei taga m&otilde;&otilde;tmiste &otilde;igsust - m&auml;&auml;ratakse rahatrahv kuni 5 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) mitteseaduslike m&otilde;&otilde;t&uuml;hikute v&otilde;i nende mitteseaduslike nimetuste v&otilde;i t&auml;histe kasutamise eest - m&auml;&auml;ratakse rahatrahv kuni 1000 krooni ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse muude n&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 1000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilise isiku poolt k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud rikkumise asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus on Riigi Standardiameti peadirektoril , tema aset&auml;itjal ja Riigi Standardiameti peadirektori poolt selleks volitatud piirkondlikel esindajatel .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud sanktsioone rakendatakse haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1995 , 76-78 , 1345 ; 83 , 1441 ; 1996 , 3 , 56 ja 57 ; 26 , 528 ; 31 , 631 ; 35 , 714 ; 48 , 944 ) s&auml;testatud menetluskorda j&auml;rgides .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>F&uuml;&uuml;silise isiku vastutus</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses s&auml;testatud rikkumise eest kannab f&uuml;&uuml;siline isik vastutust haldus&otilde;iguserikkumiste seadustiku alusel .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Protokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahvis 15 s&auml;testatud rikkumiste kohta koostab Riigi Standardiameti volitatud esindaja protokolli , milles tuuakse &auml;ra selle koostamise aeg ja koht , asutuse nimi ja aadress , mille nimel protokoll koostatakse , protokolli koostanud isiku ametinimetus , ees- ja perekonnanimi , rikkujaks olnud juriidilise isiku nimetus ja aadress , rikkuja esindaja ees- ja perekonnanimi ning ametikoht , rikkumise koht , aeg ja kirjeldus , viide k&auml;esoleva seaduse &sect; 15 1. l&otilde;ike punktile , mis n&auml;eb ette vastutuse selle rikkumise eest , rikkuja esindaja seletus ja vajadusel muud andmed .</s>
+</p>
+<p>
+<s>( 2 ) Protokollile kirjutavad alla selle koostanud isik ja rikkuja esindaja .</s><s>Kui rikkuja esindaja keeldub protokollile alla kirjutamast , tehakse sellesse vastav kanne .</s><s>Protokollile lisatakse rikkuja esindaja kirjalikud m&auml;rkused protokolli kohta , samuti protokollile allakirjutamisest keeldumise kohta .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;te</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 1995. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 2 ) Eesti territooriumil kuni 1992. aasta 1. jaanuarini k&auml;ibele lubatud m&otilde;&otilde;tevahendid ning Riigi Standardiametilt k&auml;esoleva seaduse j&otilde;ustumiseni t&uuml;&uuml;bikinnituse saanud m&otilde;&otilde;tevahendid omavad t&uuml;&uuml;bikinnitust selle kehtivusaja l&otilde;puni .</s>
+</p>
+</body>
+   </text>
+</tei.2>

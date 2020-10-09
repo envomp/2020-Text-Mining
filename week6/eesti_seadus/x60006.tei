@@ -1,0 +1,913 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Politseiseadus ( m&auml;rts 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3960</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Politseiseadus ( m&auml;rts 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=8></tagusage>
+         <tagusage gi=p occurs=269></tagusage>
+         <tagusage gi=s occurs=298></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Politseiseadus</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 20. septembril 1990. a.</s>
+</p>
+<p>
+<s>( RT 1990 , 10 , 113 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. m&auml;rtsil 1991. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>11.10.2001 j&otilde;ust.08.11.2001 - RT I 2001 , 85 , 511 ;</s>
+</p>
+<p>
+<s>13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 65 , 377 ;</s>
+</p>
+<p>
+<s>20.12.2000 j&otilde;ust.01.03.2001 - RT I 2001 , 7 , 17 ;</s>
+</p>
+<p>
+<s>13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 ;</s>
+</p>
+<p>
+<s>14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 ;</s>
+</p>
+<p>
+<s>26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ;</s>
+</p>
+<p>
+<s>28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ;</s>
+</p>
+<p>
+<s>23.11.94 j&otilde;ust.01.01.95 ;</s>
+</p>
+<p>
+<s>11.05.94 j&otilde;ust.16.06.94 ;</s>
+</p>
+<p>
+<s>20.04.94 j&otilde;ust.16.05.94 ;</s>
+</p>
+<p>
+<s>21.04.93 j&otilde;ust.06.05.93.</s>
+</p>
+<p>
+<s>I peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Politseiseaduse &uuml;lesanded</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>Politseiseadus m&auml;&auml;rab kindlaks politsei koha ja osa riigi- ja kohaliku omavalitsuse organite s&uuml;steemis , s&auml;testab politsei p&otilde;hi&uuml;lesanded , kohustused , &otilde;igused ja vastutuse , organisatsioonilised alused ning j&auml;relevalve politsei tegevuse &uuml;le .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Politsei</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 1 ) Politsei on t&auml;idesaatva riigiv&otilde;imu institutsioon , mis kuulub Siseministeeriumi valitsemisalasse .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 ; 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;hiskondlikel alustel osalevad politsei tegevuses abipolitseinikud .</s><s>Abipolitseinike staatus s&auml;testatakse seadusega .</s>
+</p>
+<p>
+<s>( 20.04.94 j&otilde;ust.16.05.94 - RT I 1994 , 34 , 533 )</s>
+</p>
+<p>
+<s>( 5 ) Avaliku korra kaitsmisel , kuritegeliku r&uuml;nde t&otilde;kestamisel ning kurjategija kinnipidamisel on k&otilde;ik politseiasutused ja -ametnikud kohustatud &uuml;ksteist abistama , ootamata selleks erikorraldust .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Politsei p&otilde;hi&uuml;lesanded</s>
+</p>
+<p>
+<s>Politsei tagab avaliku korra , kaitseb inimeste ja organisatsioonide seaduslikke huvisid , t&otilde;kestab kuritegevust , teostab kuritegude kohtueelset uurimist , m&auml;&auml;rab ja viib t&auml;ide karistusi oma p&auml;devuse piires .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Politsei tegevuse p&otilde;hialused</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;iguskorra kaitsel ja turvalise &uuml;hiskonna kindlustamisel l&auml;htub politsei seaduslikkuse ja humanismi p&otilde;him&otilde;tetest .</s>
+</p>
+<p>
+<s>( 2 ) Talle pandud &uuml;lesannete t&auml;itmisel teeb politsei koost&ouml;&ouml;d teiste riigiorganitega , &uuml;hiskondlike organisatsioonide ja kodanike ning nende &uuml;hendustega .</s>
+</p>
+<p>
+<s>( 3 ) Politsei kaitse all on k&otilde;ik Eesti Vabariigi territooriumil viibivad ning tema jurisdiktsioonile alluvad isikud s&otilde;ltumata nende kodakondsusest , rahvusest v&otilde;i rassist , nahav&auml;rvist , soost , keelest , usutunnistusest , sotsiaalsest p&auml;ritolust , &uuml;hiskondlikust ja varanduslikust seisundist , haridusest v&otilde;i muudest asjaoludest .</s>
+</p>
+<p>
+<s>( 4 ) Politsei tegevuses ei tohi kasutada ebaseaduslikku f&uuml;&uuml;silist ega ps&uuml;&uuml;hilist v&auml;givalda , inimese v&auml;&auml;rikust alandavat kohtlemist v&otilde;i karistust .</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Politsei t&ouml;&ouml; avalikustamine</s>
+</p>
+<p>
+<s>( 1 ) Politsei informeerib oma tegevusest riigi- ja kohaliku omavalitsuse organeid ning elanikkonda .</s>
+</p>
+<p>
+<s>( 2 ) Avalikustamisele ei kuulu riiklikke ja teenistuslikke ning organisatsioonide ja isikute &auml;risaladusi sisaldavad andmed , eraelu puudutavad andmed , samuti politsei ametialase tegevuse k&auml;igus saadud andmed , mis v&otilde;ivad kahjustada kodanike au ja v&auml;&auml;rikust v&otilde;i raskendada kuritegude avastamist v&otilde;i soodustada kuritegevust .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>( 3 ) Politsei on kohustatud vastava avalduse korral esitama kodanikule teabes&uuml;steemis tema kohta s&auml;ilitatavad andmed .</s>
+</p>
+<p>
+<s>( 4 ) Andmete esitamine teiste isikute kohta on keelatud .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>( 5 ) Politsei teabes&uuml;steemist andmete v&auml;ljastamise kord s&auml;testatakse seadusega .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Riigi- ja kohaliku omavalitsuse organite , &uuml;hiskondlike organisatsioonide ja kodanike osav&otilde;tt avaliku korra kaitsest ja v&otilde;itlusest kuritegevuse vastu</s>
+</p>
+<p>
+<s>( 1 ) Riigi- ja kohaliku omavalitsuse organid ning ametiisikud on kohustatud osutama politseile tema &uuml;lesannete t&auml;itmisel igak&uuml;lgset abi .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hiskondlike organisatsioonide , kodanike ning nende &uuml;henduste osav&otilde;ttu avaliku korra kaitsest ja v&otilde;itlusest kuritegevuse vastu , samuti nende volitusi ning &otilde;iguslikku kaitset reguleerivad seadused ja muud &otilde;igusaktid .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kontroll ja j&auml;relevalve politsei tegevuse &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) Politsei tegevust on peale Vabariigi Valitsuse ja siseministri &otilde;igus kontrollida Riigikontrollil ja kohaliku omavalitsuse poolt moodustatud komisjonidel nende p&auml;devuse piires seaduste ja muude &otilde;igusaktidega kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;relevalvet politsei tegevuse seaduslikkuse &uuml;le teostab Prokuratuur oma p&auml;devuse piires seaduste ja muude &otilde;igusaktidega kehtestatud korras .</s><s>Prokur&ouml;ri ettekirjutus on politseile t&auml;itmiseks kohustuslik .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 20.12.2000 j&otilde;ust.01.03.2001 - RT I 2001 , 7 , 17 )</s>
+</p>
+<p>
+<s>II peat&uuml;kk</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>Politsei struktuur ja politseiasutused</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Politsei struktuur</s>
+</p>
+<p>
+<s>( 1 ) Politsei koosneb :</s>
+</p>
+<p>
+<s>1 ) politseiasutustest ;</s>
+</p>
+<p>
+<s>2 ) politsei&otilde;ppeasutustest .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 2 ) Politseiasutused on :</s>
+</p>
+<p>
+<s>1 ) Politseiamet ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 20.12.2000 j&otilde;ust.01.03.2001 - RT I 2001 , 7 , 17 )</s>
+</p>
+<p>
+<s>3 ) politseiprefektuurid ;</s>
+</p>
+<p>
+<s>4 ) &uuml;leriigilised spetsialiseeritud politseiasutused .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;leriigilised spetsialiseeritud politseiasutused on :</s>
+</p>
+<p>
+<s>1 ) Keskkriminaalpolitsei ;</s>
+</p>
+<p>
+<s>2 ) Julgestuspolitsei ;</s>
+</p>
+<p>
+<s>3 ) Kohtuekspertiisi ja Kriminalistika Keskus .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Politseiprefektuuri ja politsei&otilde;ppeasutuse moodustamine , &uuml;mberkorraldamine ja tegevuse l&otilde;petamine</s>
+</p>
+<p>
+<s>Politseiprefektuuri ja politsei&otilde;ppeasutuse moodustab , korraldab &uuml;mber ja nende tegevuse l&otilde;petab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Politseiamet</s>
+</p>
+<p>
+<s>( 1 ) Politseiamet korraldab avaliku korra ja sisejulgeoleku tagamist , kuritegude ja haldus&otilde;iguserikkumiste ennetamist , t&otilde;kestamist ja avastamist , kriminaalasjade kohtueelset uurimist , haldus&otilde;iguserikkumise asjade menetlemist ning t&auml;idab muid seadusega v&otilde;i seaduse alusel antud &otilde;igusaktiga politseile pandud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>( 2 ) Politseiamet juhib , suunab , koordineerib ja kontrollib tema halduses olevate politseiasutuste ja politsei&otilde;ppeasutuste tegevust .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 11. ( Kehtetu - 20.12.2000 j&otilde;ust.01.03.2001 - RT I 2001 , 7 , 17 )</s>
+</p>
+<p>
+<s>&sect; 11 <hi rend="sup">1</hi> .</s><s>Politseiprefektuur</s>
+</p>
+<p>
+<s>( 1 ) Politseiprefektuur tagab avaliku korra ja sisejulgeoleku , ennetab , t&otilde;kestab ja avastab kuritegusid ja haldus&otilde;iguserikkumisi , teostab kriminaalasjade kohtueelset uurimist , menetleb haldus&otilde;iguserikkumiste asju ning t&auml;idab muid seadusega v&otilde;i seaduse alusel antud &otilde;igusaktiga politseile pandud &uuml;lesandeid , mille t&auml;itmine ei kuulu &uuml;leriigiliste politseiasutuste p&auml;devusse .</s>
+</p>
+<p>
+<s>( 2 ) Politseiprefektuur on Politseiameti kohalik t&auml;idesaatva riigiv&otilde;imu volitusi omav asutus .</s>
+</p>
+<p>
+<s>( 3 ) Politseiprefektuuride koosseisu v&otilde;ivad kuuluda territoriaalsed struktuuri&uuml;ksused - politseijaoskonnad ja politseiosakonnad .</s><s>Politseiosakond moodustatakse v&auml;hemalt 50 000 elanikuga piirkonna teenindamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Siseministri k&auml;skkirjaga v&otilde;idakse politseiosakonna juhi volitused m&auml;&auml;rata politseiprefektuuri juhi volituste piires .</s>
+</p>
+<p>
+<s>( 5 ) Politseiprefektuuri koosseisu v&otilde;ib kuuluda arestimaja .</s><s>Arestimajale v&otilde;ib siseminister k&auml;skkirjaga panna ka muu politseiasutuse teenindamise .</s>
+</p>
+<p>
+<s>( 6 ) Politseiprefektuuri asukoha ja t&ouml;&ouml;piirkonna kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 11 <hi rend="sup">2</hi> .</s><s>Keskkriminaalpolitsei</s>
+</p>
+<p>
+<s>( 1 ) Keskkriminaalpolitsei ennetab , t&otilde;kestab ja avastab kuritegusid ning teostab kriminaalasjade kohtueelset uurimist siseministri poolt etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Keskkriminaalpolitsei on valitsusasutus ning asub Politseiameti halduses .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 11 <hi rend="sup">3</hi> .</s><s>Julgestuspolitsei</s>
+</p>
+<p>
+<s>( 1 ) Julgestuspolitsei julgestab Vabariigi Presidenti , Riigikogu esimeest , peaministrit ja Vabariigi Valitsuse m&auml;&auml;ratud isikuid ning valvab ja kaitseb Vabariigi Valitsuse m&auml;&auml;ratud objekte .</s>
+</p>
+<p>
+<s>( 2 ) Julgestustegevuse ning objektide valve ja kaitse korraldamise alused kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Julgestuspolitsei on valitsusasutus ning asub Politseiameti halduses .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 11 <hi rend="sup">4</hi> .</s><s>Kohtuekspertiisi ja Kriminalistika Keskus</s>
+</p>
+<p>
+<s>( 1 ) Kohtuekspertiisi ja Kriminalistika Keskus teeb kohtuekspertiise ja kriminalistikauuringuid ning v&otilde;tab osa uurimistoimingute teostamisest .</s>
+</p>
+<p>
+<s>( 2 ) Kohtuekspertiisi ja Kriminalistika Keskus on valitsusasutus ning asub Politseiameti halduses .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>&sect; 11 <hi rend="sup">5</hi> .</s><s>Politseiametnikke ettevalmistavad &otilde;ppeasutused</s>
+</p>
+<p>
+<s>( 1 ) Politsei&otilde;ppeasutus asub Politseiameti halduses .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 2 ) Muu politseiametnikke ettevalmistav &otilde;ppeasutus asub Siseministeeriumi valitsemisalas .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 3 ) Politseiametniku erialale v&otilde;etakse &otilde;ppima vaid politseiasutuse suunamisel .</s>
+</p>
+<p>
+<s>( 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>( 4 ) Politseikadetile laienevad politseiametnikule etten&auml;htud sotsiaalsed tagatised , samuti &otilde;igused ja vastutus , kui ta viibib &otilde;ppepraktikal v&otilde;i kui ta kaasati v&otilde;i ta asus oma initsiatiivil v&otilde;i kannatanu palvel politseiametniku &uuml;lesannete t&auml;itmisele .</s>
+</p>
+<p>
+<s>( 11.10.2001 j&otilde;ust.08.11.2001 - RT I 2001 , 85 , 511 )</s>
+</p>
+<p>
+<s>&sect; 11 <hi rend="sup">6</hi> .</s><s>Politseiasutuste teenistujate arv</s>
+</p>
+<p>
+<s>Politseiasutuste politseiametnike ja teiste teenistujate arvu kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.03.2001 - RT I 2001 , 7 , 17 )</s>
+</p>
+<p>
+<s>III peat&uuml;kk</s>
+</p>
+<p>
+<s>Politsei kohustused</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Politsei kohustused</s>
+</p>
+<p>
+<s>( 1 ) Politsei vastavalt oma &uuml;lesannetele :</s>
+</p>
+<p>
+<s>1 ) abistab kodanikke oma p&auml;devuse piires ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>2 ) kaitseb kodanike elu , tervist , au ja v&auml;&auml;rikust , vara ning omandit &otilde;igusvastaste r&uuml;nnete eest ja muu ohu korral ;</s>
+</p>
+<p>
+<s>3 ) tagab korra avalikes kohtades : &otilde;iguserikkumiste korral n&otilde;uab nende viivitamatut l&otilde;petamist ning v&otilde;tab tarvitusele vastavad meetmed ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>4 ) v&otilde;tab vastu ja registreerib &otilde;iguserikkumiste ning muude s&uuml;ndmuste kohta saabuvat informatsiooni , v&otilde;tab viivitamatult tarvitusele abin&otilde;ud &otilde;iguserikkumiste &auml;rahoidmiseks , t&otilde;kestamiseks ning avastamiseks ;</s>
+</p>
+<p>
+<s>5 ) algatab kriminaalasju , teostab kohtueelset uurimist ja t&auml;idab muid &uuml;lesandeid , mis tulenevad kriminaalprotsessi seadustest ; teeb ekspertiise ja kriminalistikauuringuid ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>6 ) t&auml;idab oma p&auml;devuse piires kohtuotsuseid ja kohtum&auml;&auml;rusi , viib t&auml;ide haldusaresti ja -v&auml;ljasaatmist , valvab ja konvoeerib kinnipeetud ja vahi alla v&otilde;etud isikuid ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>7 ) tagab politseisse toimetatud isikute &otilde;igused ja seaduslikud huvid , vajaduse korral meditsiinilise abi , annab esialgse selgituse politseisse kutsumise v&otilde;i toimetamise kohta ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>8 ) osaleb &otilde;iguserikkumiste , narkomaania , joomarluse ja muude v&auml;&auml;rilmingute prof&uuml;laktikas ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>9 ) aitab kaasa karistuse &auml;rakandnud isikute sotsiaalsele kohanemisele ;</s>
+</p>
+<p>
+<s>10 ) viib l&auml;bi menetlust haldus&otilde;iguserikkumiste asjades ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>11 ) otsib taga teadmata kadunud , ebaseaduslikult Eestis viibivaid ning teisi isikuid seaduste ja muude &otilde;igusaktidega etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>12 ) kaitseb v&auml;lisriikide suursaatkondi ja suursaadikute elukohti ; valvab Vabariigi Valitsuse poolt m&auml;&auml;ratud objekte ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>13 ) reguleerib liiklust ja teostab liiklusj&auml;relvalvet , kontrollib teede , t&auml;navate , liikluskorraldusvahendite ja liiklusvahendite seisukorda ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>14 ) kontrollib kehtestatud eeskirjadest kinnipidamist tema j&auml;relevalve all olevate objektide avamisel ja t&ouml;&ouml;tamisel ;</s>
+</p>
+<p>
+<s>15 ) kontrollib passim&auml;&auml;rustikest ning kodanike sisse- ja v&auml;ljaregistreerimise eeskirjadest kinnipidamist ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>16 ) kontrollib v&auml;lisriigi kodanike ja kodakondsuseta isikute Eestis viibimise ja t&ouml;&ouml;tamise seaduslikkust ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>17 ) informeerib riigi- ja kohaliku omavalitsuse organeid kuritegevuse olukorrast , avariidest , tulekahjudest , katastroofidest , loodus&otilde;nnetustest ja muudest erakorralistest s&uuml;ndmustest ning v&otilde;tab tarvitusele v&auml;ltimatud abin&otilde;ud nende tagaj&auml;rgede likvideerimiseks , inimeste p&auml;&auml;stmiseks ja abistamiseks ; annab abi isikutele , kes on saanud kannatada &otilde;iguserikkumiste t&otilde;ttu v&otilde;i kes on abitus seisundis ;</s>
+</p>
+<p>
+<s>18 ) tagab leitud ja politseile &uuml;leantud asjade ja dokumentide s&auml;ilimise nende tagastamiseks omanikule v&otilde;i seaduslikule valdajale v&otilde;i &uuml;leandmiseks leiub&uuml;roole ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>19 ) osaleb looduskeskkonna , loodusvarade ja -objektide kaitsel ;</s>
+</p>
+<p>
+<s>( Senised punktid 10-16 ja 18-21 loetud vastavalt punktideks 9-15 ja 16-19 - 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>20 ) t&auml;idab muid &uuml;lesandeid , mis on talle pandud seaduse v&otilde;i selle alusel antud &otilde;igusaktiga .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 65 , 377 )</s>
+</p>
+<p>
+<s>( 2 ) Politsei abistab oma p&auml;devuse piires :</s>
+</p>
+<p>
+<s>1 ) tervishoiu- ja veterinaarj&auml;relevalveorganeid karantiini rakendamisel epideemia v&otilde;i episootia korral ;</s>
+</p>
+<p>
+<s>2 ) raviasutusi , rakendades &otilde;igusaktidega etten&auml;htud korras nende isikute kohaletoimetamist , kes oma tervisliku seisundi t&otilde;ttu kujutavad ohtu iseendale v&otilde;i teistele isikutele ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>3 ) tulet&otilde;rje- ja p&auml;&auml;steteenistusi nende teenistus&uuml;lesannete t&auml;itmisel , tagades vajaduse korral avaliku korra .</s>
+</p>
+<p>
+<s>4 ) Kodakondsus- ja Migratsiooniametit passim&auml;&auml;rustikest kinnipidamise ning isikute sisse- ja v&auml;ljakirjutamise eeskirjadest kinnipidamise kontrollimisel .</s><s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 ; 26.06.96 j&otilde;ust.26.07.96 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>5 ) julgeolekuasutusi nende &uuml;lesannete t&auml;itmisel .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.03.2001 - RT I 2001 , 7 , 17 )</s>
+</p>
+<p>
+<s>( 3 ) Kui politseiametnik osutub &otilde;iguserikkumise pealtn&auml;gijaks , on ta kohustatud , ajast ja kohast s&otilde;ltumata , asuma teenistuskohustuste t&auml;itmisele .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>IV peat&uuml;kk</s>
+</p>
+<p>
+<s>Politsei &otilde;igused</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Politsei &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Politseil on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) n&otilde;uda kodanikelt ja ametiisikutelt avaliku korra j&auml;rgimist ja korrarikkumiste l&otilde;petamist ning rakendada &otilde;iguserikkuja suhtes seaduses etten&auml;htud sunnivahendeid ;</s>
+</p>
+<p>
+<s>2 ) kontrollida &otilde;iguserikkumise toimepanemises kahtlustatava isikut t&otilde;endavaid dokumente ning ohutuse tagamiseks teostada kohapeal kahtlustatava isiku ja tema asjade l&auml;bivaatust ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>3 ) koostada protokolle haldus&otilde;iguserikkumiste kohta , m&auml;&auml;rata halduskaristusi , teostada halduskinnipidamist ja -v&auml;ljasaatmist ning rakendada muid seaduses etten&auml;htud abin&otilde;usid v&otilde;itluses haldus&otilde;iguserikkumiste vastu ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>4 ) kutsuda politseisse kodanikke ja ametiisikuid politseimenetluses olevates haldus&otilde;igusrikkumiste ja kriminaalasjades toimetada politseisse &otilde;iguserikkumises osalenud isikuid selle asjaolude viivitamatuks v&auml;ljaselgitamiseks ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>5 ) pidada seaduste ja muude &otilde;igusaktidega etten&auml;htud korras kinni ning hoida vahi all kuriteo toimepanemises kahtlustatavaid isikuid ;</s>
+</p>
+<p>
+<s>6 ) pidada kehtestatud korras kinni Eestis ebaseaduslikult viibivaid isikuid ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>7 ) toimetada ravi- v&otilde;i politseiasutusse isikuid , kes alkoholi- v&otilde;i narkootikumijoobe t&otilde;ttu v&otilde;ivad ohustada iseennast v&otilde;i teisi kodanikke , samuti &otilde;iguskorda rikkunud kodanikke nende isiku kindlakstegemiseks ja vajaduse korral administratiivprotokolli koostamiseks ;</s>
+</p>
+<p>
+<s>8 ) kohaldada kodanike sundtoomist seaduste ja muude &otilde;igusaktidega etten&auml;htud juhtudel ;</s>
+</p>
+<p>
+<s>9 ) fotografeerida kuriteo toimepanemises kahtlustatavana kinnipeetud v&otilde;i vahi alla v&otilde;etud isikuid , tingimisi vabadusekaotusele m&otilde;istetuid v&otilde;i tingimisi vabastatuid v&otilde;i haldusarestiga karistatuid ning v&otilde;tta neilt s&otilde;rmej&auml;lgi ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>10 ) teha heli- ja videosalvestusi ning filmida k&auml;esoleva paragrahvi lg.1 p.9 loetletud isikuid nende teadmisel ning nende isiku- ja asjade l&auml;bivaatust seaduste ja muude &otilde;igusaktidega s&auml;testatud korras ;</s>
+</p>
+<p>
+<s>11 ) teha kainenemisele toodud isikute l&auml;bivaatust ning v&otilde;tta hoiule nende asju ja dokumente ;</s>
+</p>
+<p>
+<s>12 ) rakendada operatiivj&auml;litusabin&otilde;usid , kasutada kuritegude t&otilde;kestamiseks , v&auml;ljaselgitamiseks ja avastamiseks tehnilisi ja muid vahendeid , rikkumata kodanike p&otilde;hiseaduslikke &otilde;igusi ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>13 ) seaduste ja muude &otilde;igusaktidega kehtestatud korras kontrollida materiaalsete v&auml;&auml;rtuste hoidmist ettev&otilde;tetes , asutustes ja organisatsioonides ;</s>
+</p>
+<p>
+<s>14 ) siseneda kuriteo toimepannud isiku j&auml;litamiseks v&otilde;i kuriteo t&otilde;kestamiseks v&otilde;i kodanike julgeolekut ohustava loodus&otilde;nnetuse v&otilde;i muu erakorralise s&uuml;ndmuse korral kodanike eluruumidesse ja muudesse ruumidesse ning organisatsioonide ruumidesse ja territooriumile ;</s>
+</p>
+<p>
+<s>15 ) vajaduse v&otilde;i ohu korral keelata liiklus v&otilde;i piirata seda tee- ja t&auml;naval&otilde;ikudel ; keelata s&otilde;idukite kasutamine , kui nende konstruktsioon v&otilde;i tehniline seisund ei vasta n&otilde;uetele ; &otilde;iguserikkumise korral v&otilde;i politseioperatsiooni l&auml;biviimisel kontrollida s&otilde;idukit , juhi- , s&otilde;iduki- ja veosedokumente ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>16 ) k&otilde;rvaldada s&otilde;iduki juhtimiselt isikuid , kellel pole vastava kategooria s&otilde;iduki juhtimise v&otilde;i kasutamise &otilde;igust t&otilde;endavat dokumenti ; k&otilde;rvaldada s&otilde;iduki juhtimiselt isikuid , keda kahtlustatakse alkoholi- v&otilde;i narkootikumijoobes ning kontrollida neid kohapeal v&otilde;i suunata ekspertiisi ;</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>17 ) ( Kehtetu - 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 65 , 377 )</s>
+</p>
+<p>
+<s>18 ) ( Kehtetu - 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 65 , 377 )</s>
+</p>
+<p>
+<s>19 ) anda v&auml;lja ja t&uuml;histada etten&auml;htud korras litsentse eradetektiivb&uuml;roode avamiseks ning tegevuse korraldamiseks ;</s>
+</p>
+<p>
+<s>20 ) ( Kehtetu - 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>21 ) vajaduse korral takistamatult kasutada organisatsioonidele kuuluvaid sidevahendeid ning edasil&uuml;kkamatutel juhtudel ka neile kuuluvaid mootors&otilde;idukeid ( v&auml;lja arvatud diplomaatilistele , konsulaar- ja teistele v&auml;lisriikide esindustele ning rahvusvahelistele organisatsioonidele kuuluvad ning eriotstarbelised mootors&otilde;idukid ) s&otilde;iduks s&uuml;ndmuskohale , loodus&otilde;nnetuse piirkonda , v&auml;ltimatut arstiabi vajavate kodanike toimetamiseks raviasutusse ja &otilde;iguserikkujate toimetamiseks politseisse ;</s>
+</p>
+<p>
+<s>22 ) seaduste ja muude &otilde;igusaktidega kehtestatud korras n&otilde;uda ja saada organisatsioonidelt politseile pandud &uuml;lesannete t&auml;itmiseks vajalikke andmeid ;</s>
+</p>
+<p>
+<s>23 ) kasutada kuritegudest informeerimiseks , kuriteo asjaolude v&auml;ljaselgitamiseks , kurjategijate tagaotsimiseks , kuritegude &auml;rahoidmiseks ja avaliku korra kindlustamiseks massiteabevahendeid ;</s>
+</p>
+<p>
+<s>24 ) autasustada avaliku korra kaitsel ja kuritegevusevastases v&otilde;itluses silmapaistnud isikuid .</s>
+</p>
+<p>
+<s>( Senised punktid 16-25 loetud vastavalt punktideks 15-24 - 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 ; 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+<p>
+<s>25 ) viia l&auml;bi politseioperatsioone siseministri poolt kehtestatud korras ;</s>
+</p>
+<p>
+<s>26 ) kontrollida juriidilise isiku finantsmajanduslikku tegevust k&auml;sitlevaid dokumente , saada selgitusi ja andmeid finantsmajandusliku tegevuse kohta seaduses etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>27 ) siseneda seaduses etten&auml;htud korras &otilde;iguserikkumisele viitavate asjaolude kontrollimiseks takistamatult ladudesse , hoidlatesse , tootmishoonetesse , kaubandus- ja toitlustusettev&otilde;tetesse ning muudesse ruumidesse ja objektidele , selgitamaks v&auml;lja materiaalsete v&auml;&auml;rtuste olemasolu ning kontrollimaks materiaalsete v&auml;&auml;rtuste ja rahaliste vahendite vastavust dokumentatsioonile ; teha kaupade , poolfabrikaatide , tooraine ning muude v&auml;&auml;rtuste v&otilde;etust v&otilde;rdlusmaterjalide saamise eesm&auml;rgil seaduses s&auml;testatud juhtudel ;</s>
+</p>
+<p>
+<s>28 ) kontrollida tegutsemisloa ja tegevuslitsentsi olemasolu ning selle puudumisel peatada juriidilise isiku v&otilde;i tema all&uuml;ksuse , samuti &uuml;ksikisiku tegevus alal , milleks on vajalik tegutsemisluba v&otilde;i tegevuslitsents .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>V peat&uuml;kk</s>
+</p>
+<p>
+<s>Erivahendite ja relvade kasutamine</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Politsei erivahendid ja relvad</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>( 1 ) Politsei erivahendid jagunevad passiivse ja aktiivse kaitse vahenditeks ning politseioperatsioonide abivahenditeks .</s>
+</p>
+<p>
+<s>( 2 ) Passiivse kaitse vahendid on :</s>
+</p>
+<p>
+<s>1 ) kaitsekiivrid ;</s>
+</p>
+<p>
+<s>2 ) soomus- ja muud kuulikindlad vestid ;</s>
+</p>
+<p>
+<s>3 ) soomus- v&otilde;i muud l&ouml;&ouml;gikindlad kilbid ;</s>
+</p>
+<p>
+<s>4 ) muud kaitsevahendid , mida ei kasutata aktiivseks kaitseks , kaasa arvatud tulekindel eririietus ja s&ouml;&ouml;bivate ainete eest kaitsev n&auml;okate .</s>
+</p>
+<p>
+<s>( 3 ) Aktiivse kaitse vahendid on :</s>
+</p>
+<p>
+<s>1 ) k&auml;erauad ;</s>
+</p>
+<p>
+<s>2 ) rahustuss&auml;rk v&otilde;i -tool ;</s>
+</p>
+<p>
+<s>3 ) teenistuskoer .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>( 4 ) Politseioperatsioonide abivahendid on :</s>
+</p>
+<p>
+<s>1 ) valgus- ja heliseadmed ;</s>
+</p>
+<p>
+<s>2 ) eriotstarbelised v&auml;rvimis- ja m&auml;rgistusvahendid ;</s>
+</p>
+<p>
+<s>3 ) pisargaasi- ja suitsugranaadid ( -seadmed ) ;</s>
+</p>
+<p>
+<s>4 ) eriotstarbelised l&otilde;hkamisseadeldised , mida ei kasutata inimeste vastu ;</s>
+</p>
+<p>
+<s>5 ) s&otilde;idukite sundpeatamise vahendid ;</s>
+</p>
+<p>
+<s>6 ) politsei soomus- v&otilde;i muud eriotstarbelised s&otilde;idukid , samuti &otilde;hus&otilde;idukid .</s>
+</p>
+<p>
+<s>( 5 ) Tsiviilotstarbelised esemed ja vahendid on politsei erivahenditeks vaid juhul , kui neid kasutatakse politseioperatsioonides .</s>
+</p>
+<p>
+<s>( 5 <hi rend="sup">1</hi> ) ( Kehtetu - 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 65 , 377 )</s>
+</p>
+<p>
+<s>( 6 ) Politseil on &otilde;igus kasutada teenistus&uuml;lesannete t&auml;itmiseks erivahendit , kumminuia ja gaasirelva j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) kuritegelike r&uuml;nnete t&otilde;rjumisel ;</s>
+</p>
+<p>
+<s>2 ) pantvangide vabastamisel ;</s>
+</p>
+<p>
+<s>3 ) politseiametnikku &uuml;mbritseva ohutsooni rikkuja t&otilde;kestamisel ;</s>
+</p>
+<p>
+<s>4 ) massiliste korratuste ja avaliku korra grupiviisiliste rikkumiste t&otilde;kestamisel ;</s>
+</p>
+<p>
+<s>5 ) seadusevastaselt h&otilde;ivatud maa-alade , hoonete , ruumide ja transpordivahendite vabastamiseks ;</s>
+</p>
+<p>
+<s>6 ) &otilde;iguserikkujate kinnipidamisel , nende toimetamisel politseisse v&otilde;i teenistusruumi , konvoeerimisel , kinnipeetute kaitsmisel ning halduskorras arreteeritud ja vahi alla v&otilde;etud isikute suhtes , kui nad ei allu v&otilde;i osutavad vastupanu politseiametnikele v&otilde;i teistele isikutele , kes t&auml;idavad &uuml;hiskondlikku kohustust avaliku korra kaitsel v&otilde;i v&otilde;itluses kuritegevuse vastu , v&otilde;i kui on k&uuml;llaldaselt alust arvata , et nad v&otilde;ivad p&otilde;geneda , tekitada kahju teistele isikutele , &uuml;mbruskonnale v&otilde;i iseendale .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ; 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 65 , 377 )</s>
+</p>
+<p>
+<s>( 7 ) Politsei kasutab erivahendit , kumminuia ja gaasirelva &otilde;iguserikkuja vastu &otilde;iguserikkumise iseloomu , isikut ning konkreetset olukorda arvestades .</s><s>Erivahendi , kumminuia v&otilde;i gaasirelva kasutuse korral tuleb hoiduda inimeste tervise kahjustamisest suuremal m&auml;&auml;ral , kui see on antud juhul v&auml;ltimatu .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ; 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 65 , 377 )</s>
+</p>
+<p>
+<s>( 8 ) Politseiametnik v&otilde;ib kasutada teenistus&uuml;lesannete t&auml;itmisel ja enda ohutuse tagamiseks enesekaitsevahendeid ning f&uuml;&uuml;silist j&otilde;udu .</s>
+</p>
+<p>
+<s>( 9 ) Teenistus&uuml;lesannete t&auml;itmisel v&otilde;ib politseiametnik oma kaaskodanike ohutuse tagamiseks kehtestada enda , teiste isikute v&otilde;i objektide &uuml;mber ohutsooni , millesse ei tohi tema loata siseneda .</s><s>Selle n&otilde;ude rikkumise korral v&otilde;ib politseiametnik kasutada f&uuml;&uuml;silist j&otilde;udu , erivahendeid ning k&uuml;lm- ja gaasirelvi .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 ; 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Tulirelva kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Politseiametnikul on &otilde;igus kanda ja kasutada tulirelva .</s><s>Tulirelva v&otilde;ib politseiametnik kasutada konkreetses olukorras &auml;&auml;rmise abin&otilde;una , kui teisiti ei ole elu ja tervist ohtu panemata v&otilde;imalik t&auml;ita temale pandud teenistuskohustust .</s>
+</p>
+<p>
+<s>( 2 ) Tulirelva v&otilde;ib kasutada :</s>
+</p>
+<p>
+<s>1 ) kuritegeliku r&uuml;nde t&otilde;kestamisel , kui on ohus teise inimese v&otilde;i politseiametniku enda elu ;</s>
+</p>
+<p>
+<s>2 ) relvastatud kurjategija relvitustamisel ja kinnipidamisel , samuti esimese astme kuriteo toimepannud isiku kinnipidamisel ;</s>
+</p>
+<p>
+<s>3 ) pantvangi vabastamisel ;</s>
+</p>
+<p>
+<s>4 ) politseiametnikule v&otilde;i teisele &uuml;hiskondlikku kohustust avaliku korra kaitsel v&otilde;i v&otilde;itluses kuritegevuse vastu t&auml;itvale isikule grupiviisilise v&otilde;i relvastatud kallaletungi t&otilde;rjumisel ;</s>
+</p>
+<p>
+<s>5 ) konvoile v&otilde;i konvoeeritavale isikule toimepandava kallaletungi t&otilde;kestamisel ;</s>
+</p>
+<p>
+<s>6 ) kuriteo toimepannud relvastatud isiku v&otilde;i vahi alt p&otilde;genenud kurjategija kinnipidamisel ;</s>
+</p>
+<p>
+<s>7 ) korduvatele peatumism&auml;rguannetele reageerimata j&auml;tnud v&otilde;i j&auml;litava politseis&otilde;iduki eest p&otilde;geneva s&otilde;iduki peatuma sundimiseks , tulistades ainult kummidesse ;</s>
+</p>
+<p>
+<s>8 ) inimest r&uuml;ndava v&otilde;i ohustava looma kahjutuks tegemiseks v&otilde;i vigastatud looma hukkamiseks .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 )</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">1</hi> .</s><s>Erivahendite ja relvade kasutamise keeld</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>Relvi ja erivahendeid ( v&auml;lja arvatud enesekaitsevahendid ) on keelatud kasutada :</s>
+</p>
+<p>
+<s>1 ) laste , vanurite ja ilmsete raseduse tunnustega naiste vastu , v&auml;lja arvatud nendepoolse relvastatud r&uuml;nde v&otilde;i grupiviisilise r&uuml;nde t&otilde;rjumiseks v&otilde;i t&otilde;kestamiseks v&otilde;i nende relvitustamiseks ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lisriikide diplomaatilistes v&otilde;i konsulaaresindustes ja rahvusvaheliste lepete alusel puutumatust omavate esinduste hoonetes , ruumides ja territooriumil , samuti diplomaatilist puutumatust omavate s&otilde;idukite suhtes , v&auml;lja arvatud nende esinduste juhtide n&otilde;usolekul v&otilde;i teiste rahvusvaheliste kokkulepetega reguleeritud juhtudel ;</s>
+</p>
+<p>
+<s>3 ) hoonetes ja ruumides , kus toodetakse v&otilde;i hoitakse kergesti s&uuml;ttivaid v&otilde;i m&uuml;rgiseid v&otilde;i l&otilde;hkeaineid v&otilde;i aineid , mis aktiivse kaitse vahendi m&otilde;jul v&otilde;ivad ohustada inimeste elu v&otilde;i tervist .</s>
+</p>
+<p>
+<s>( 21.04.93 j&otilde;ust.06.05.93 - RT I 1993 , 20 , 355 ; 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>VI - VIII peat&uuml;kk</s>
+</p>
+<p>
+<s>( Kehtetud - 14.05.98 j&otilde;ust.15.06.98 - RT I 1998 , 50 , 753 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

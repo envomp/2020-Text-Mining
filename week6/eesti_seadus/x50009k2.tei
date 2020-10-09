@@ -1,0 +1,550 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Sotsiaalmaksuseadus ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3636</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Sotsiaalmaksuseadus ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=5></tagusage>
+         <tagusage gi=p occurs=148></tagusage>
+         <tagusage gi=s occurs=173></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Sotsiaalmaksuseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 13. detsembril 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 102 , 675 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2001. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 95 , 587 ;</s>
+</p>
+<p>
+<s>24.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 91 , 544 ;</s>
+</p>
+<p>
+<s>12.09.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 79 , 480 ;</s>
+</p>
+<p>
+<s>13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 ;</s>
+</p>
+<p>
+<s>15.05.2001 j&otilde;ust.01.07.2001 - RT I 2001 , 50 , 285.</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Sotsiaalmaksu m&otilde;iste</s>
+</p>
+<p>
+<s>Sotsiaalmaks on riiklikuks pensioni- ja ravikindlustuseks vajaliku tulu saamiseks maksumaksjale pandud rahaline kohustis , mis kuulub t&auml;itmisele k&auml;esolevas seaduses etten&auml;htud korras , suuruses ja t&auml;htaegadel .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Maksuobjekt</s>
+</p>
+<p>
+<s>( 1 ) Sotsiaalmaksu makstakse :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tajale rahas makstud palgalt ja muudelt tasudelt ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 13.06.2001 j&otilde;ust.01.01.2003 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>3 ) Riigikogu liikmele , Vabariigi Presidendile , Vabariigi Valitsuse liikmele ja avalikule teenistujale makstud palgalt ja muudelt tasudelt ;</s>
+</p>
+<p>
+<s>4 ) juriidilise isiku juhtimis- v&otilde;i kontrollorgani tulumaksuseaduse ( RT I 1999 , 101 , 903 ; RT I 2001 , 11 , 49 ; 16 , 69 ; 50 , 283 ; 59 , 359 ; 79 , 480 ; 91 , 544 ) &sect; 9 t&auml;henduses liikmele makstud tasudelt k&auml;esoleva seaduse &sect; 9 l&otilde;ike 1 punktis 2 s&auml;testatud juhul ;</s>
+</p>
+<p>
+<s>5 ) f&uuml;&uuml;silisest isikust ettev&otilde;tja ettev&otilde;tlusest saadud tulult , millest on tehtud tulumaksuseaduses lubatud ettev&otilde;tlusega seotud mahaarvamised , arvestades k&auml;esoleva paragrahvi l&otilde;igetes 5 ja 7 s&auml;testatut , kuid mitte rohkem kui maksustamisperioodi kuude palga alamm&auml;&auml;rade 15-kordselt summalt aastas ;</s>
+</p>
+<p>
+<s>6 ) f&uuml;&uuml;silisele isikule t&ouml;&ouml;ettev&otilde;tu- , k&auml;sundus- v&otilde;i muu teenuse osutamiseks s&otilde;lmitud v&otilde;la&otilde;igusliku lepingu alusel makstud tasudelt , sealhulgas spordiseaduse ( RT I 1998 , 61 , 982 ) &sect; 13 l&otilde;ikes 2 s&auml;testatud lepingu alusel makstud tasudelt , k&auml;esoleva seaduse &sect; 9 l&otilde;ike 1 punktis 2 s&auml;testatud juhul ;</s>
+</p>
+<p>
+<s>7 ) erisoodustustelt tulumaksuseaduse t&auml;henduses , &uuml;mberarvestatuna rahasse , ning erisoodustustelt maksmisele kuuluvalt tulumaksult ;</s>
+</p>
+<p>
+<s>8 ) t&ouml;&ouml;tuskindlustuse seaduse alusel makstud h&uuml;vitistelt .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalmaksu makstakse k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1 ja 3 nimetatud tasu saava p&otilde;hikohaga t&ouml;&ouml;taja v&otilde;i teenistuja kohta kuu eest mitte v&auml;hem kui eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;ralt , v&auml;lja arvatud isiku puhul , kes saab riiklikku pensioni , ning k&auml;esoleva paragrahvi l&otilde;igetes 3 ja 4 s&auml;testatud juhtudel .</s><s>Riikliku pensioni saaja on isik , kes saab pensioni Eesti riigi poolt riikliku pensionikindlustuse seaduse ( RT I 1998 , 64/65 , 1009 ; 2001 , 9 , 42 ) v&otilde;i muu seaduse alusel v&otilde;i tulenevalt Riigikogu poolt ratifitseeritud sotsiaalkindlustuslepingust .</s><s>P&otilde;hikohaga t&ouml;&ouml;taja v&otilde;i teenistuja on isik , kelle kohta t&ouml;&ouml;andja peab t&ouml;&ouml;raamatut .</s>
+</p>
+<p>
+<s>( 3 ) Sotsiaalmaksu makstakse t&ouml;&ouml;tajale v&otilde;i teenistujale kuu eest makstud tasult , kuid mitte v&auml;hem kui eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;ralt proportsionaalselt sellel kuul t&ouml;&ouml;tatud ajaga , j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;taja puhul , kelle t&ouml;&ouml;leping on peatunud Eesti Vabariigi t&ouml;&ouml;lepingu seaduse ( RT 1992 , 15/16 , 241 ; 1993 , 10 , 150 ; RT I 1993 , 26 , 441 ; 1995 , 14 , 170 ; 16 , 228 ; 1996 , 3 , 57 ; 40 , 773 ; 45 , 850 ; 49 , 953 ; 1997 , 5/6 , 32 ; 1998 , 111 , 1829 ; 1999 , 16 , 276 ; 60 , 616 ; 2000 , 25 , 144 ; 51 , 327 ; 57 , 370 ; 102 , 669 ; 2001 , 17 , 78 ; 42 , 233 ; 53 , 311 ) &sect; 55 punktide 3-11 alusel ,</s>
+</p>
+<p>
+<s>2 ) teenistuja puhul , kelle teenistussuhe on peatunud avaliku teenistuse seaduse ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ; 2001 , 7 , 17 ja 18 ; 17 , 78 ; 42 , 233 ; 47 , 260 ) &sect; 108 punktide 2-9 alusel v&otilde;i</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;taja v&otilde;i teenistuja puhul , kes on asunud t&ouml;&ouml;le v&otilde;i lahkunud t&ouml;&ouml;lt sellel kuul .</s>
+</p>
+<p>
+<s>( 4 ) Sotsiaalmaksu makstakse t&ouml;&ouml;tajale v&otilde;i teenistujale kuu eest makstud tasult j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;taja puhul , kellele on Eesti Vabariigi t&ouml;&ouml;lepingu seaduse &sect; 68 alusel kehtestatud osaline t&ouml;&ouml;aeg v&otilde;i kes on saadetud osaliselt tasustatavale puhkusele v&otilde;i</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;taja v&otilde;i teenistuja puhul , kellele on t&ouml;&ouml;- ja puhkeaja seaduse ( RT I 2001 , 17 , 78 ) &sect; 5 l&otilde;ike 1 alusel kehtestatud l&uuml;hendatud t&ouml;&ouml;aeg sellel kuul .</s>
+</p>
+<p>
+<s>( 24.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 91 , 544 )</s>
+</p>
+<p>
+<s>( 5 ) F&uuml;&uuml;silisest isikust ettev&otilde;tja maksab sotsiaalmaksu aastas mitte v&auml;hem kui maksustamisperioodi kuude eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;rade summalt , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 7 s&auml;testatud juhul ning juhul , kui f&uuml;&uuml;silisest isikust ettev&otilde;tja on kogu maksustamisperioodi jooksul olnud riikliku pensioni saaja v&otilde;i on maksustamisperioodi kestel :</s>
+</p>
+<p>
+<s>1 ) kantud &auml;riregistrisse v&otilde;i registreeritud elukohaj&auml;rgses Maksuameti kohalikus asutuses v&otilde;i</s>
+</p>
+<p>
+<s>2 ) kustutatud &auml;riregistrist v&otilde;i teatanud elukohaj&auml;rgsele Maksuameti kohalikule asutusele oma tegevuse l&otilde;petamisest v&otilde;i</s>
+</p>
+<p>
+<s>3 ) saanud riikliku pensioni saajaks .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;ike 5 punktides 1-3 s&auml;testatud juhtudel makstakse sotsiaalmaksu proportsionaalselt f&uuml;&uuml;silisest isikust ettev&otilde;tjana registreeritud kuude arvuga v&otilde;i l&otilde;ike 5 punktis 3 nimetatud staatuse saamisele eelnenud kuude arvuga .</s>
+</p>
+<p>
+<s>( 7 ) Kui f&uuml;&uuml;silisest isikust ettev&otilde;tja eest maksab sotsiaalmaksu ka t&ouml;&ouml;andja v&otilde;i k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 punktide 1 v&otilde;i 5 alusel riik ja tema ettev&otilde;tlusest saadud tulu on maksustamisperioodi kuude eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;rade summast v&auml;iksem , v&otilde;ib tema ettev&otilde;tlusest saadava tulu alusel makstav sotsiaalmaksu summa olla maksustamisperioodi kuude eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;rade summalt arvutatud maksusummast v&auml;iksem tingimusel , et t&ouml;&ouml;andja v&otilde;i k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 punktide 1 ja 5 alusel riigi poolt tema eest ja ettev&otilde;tlusest saadava tulu alusel makstav sotsiaalmaksu summa kokku on v&auml;hemalt v&otilde;rdne maksustamisperioodi kuude eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;rade summalt arvutatud maksusummaga .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Sotsiaalmaksuga mittemaksustatavad summad</s>
+</p>
+<p>
+<s>Sotsiaalmaksuga ei maksustata j&auml;rgmisi k&auml;esoleva seaduse &sect; 2 l&otilde;ike 1 punktides 1 , 3 ja 4 nimetatud isikutele makstud summasid v&otilde;i antud soodustusi :</s>
+</p>
+<p>
+<s>1 ) tulumaksuseaduse &sect; 13 l&otilde;ike 3 punktides 1 ja 2 ning &sect; 31 l&otilde;ike 1 punktides 7 ja 8 nimetatud v&auml;ljamakseid ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljamakseid Eesti v&auml;lisesindustes t&ouml;&ouml;tavatele asukohariigi elanikele , kui v&auml;lislepinguga ei ole s&auml;testatud teisiti ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse seaduse ( RT I 1999 , 60 , 616 ; 2000 , 55 , 362 ; 2001 , 17 , 78 ) &sect; 13 l&otilde;ikest 1 tulenevaid t&ouml;&ouml;andja kulutusi t&ouml;&ouml;taja t&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse tagamiseks ;</s>
+</p>
+<p>
+<s>4 ) RT 1992 , 28 , 381 ; RT I 1996 , 51 , 966 ; 1998 , 107 , 1765 ; 1999 , 10 , 153 ; 2001 , 21 , 117</s>
+</p>
+<p>
+<s>seaduse &ldquo; Riigikogu liikmete ametipalga , pensioni ja muude sotsiaalsete garantiide kohta &rdquo; ( RT 1992 , 28 , 381 ; RT I 1996 , 51 , 966 ; 1998 , 107 , 1765 ; 1999 , 10 , 153 ; 2001 , 21 , 117 ) &sect; 9 , Vabariigi Presidendi ametih&uuml;ve seaduse ( RT I 1996 , 51 , 966 ; 2000 , 55 , 359 ; 2001 , 43 , 240 ) &sect; 3 , Riigikogu ja Vabariigi Presidendi poolt nimetatavate riigiametnike ametipalkade seaduse ( RT I 1996 , 81 , 1448 ; 1999 , 29 , 406 ; 2000 , 55 , 359 ) &sect; 12 <hi rend="sup">1</hi> ning v&auml;listeenistuse seaduse ( RT I 1995 , 15 , 172 ; 50 , 764 ; 1996 , 49 , 953 ; 2001 , 43 , 240 ) &sect; 25 alusel tehtavaid v&auml;ljamakseid ;</s>
+</p>
+<p>
+<s>5 ) puhkuseseaduse ( RT I 2001 , 42 , 233 ) &sect;-s 26 , t&ouml;&ouml;- ja puhkeaja seaduse &sect;-des 18 ja 23 ning palgaseaduse ( RT I 1994 , 11 , 154 ; 1995 , 12 , 120 ; 1999 , 29 , 397 ; 2000 , 10 , 59 ; 40 , 248 ; 2001 , 42 , 233 ; 50 , 287 ) &sect;-s 24 s&auml;testatud t&auml;iendavate puhkusep&auml;evade ja lapse toitmise vaheaegade eest makstavat palgah&uuml;vitist ;</s>
+</p>
+<p>
+<s>( 24.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 91 , 544 )</s>
+</p>
+<p>
+<s>6 ) laevade ja tsiviillennunduse lennukite meeskondadele , laevapere liikmetele ja tsiviil&otilde;hus&otilde;iduki meeskonnaliikmetele antava tasuta kollektiivtoitlustamise ratsiooni maksumust reisidel viibimise ajal , mis ei &uuml;leta 90 krooni isiku kohta p&auml;evas ;</s>
+</p>
+<p>
+<s>( 24.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 91 , 544 )</s>
+</p>
+<p>
+<s>7 ) Eesti residendi poolt v&auml;lisriigis asuva p&uuml;siva tegevuskoha kaudu v&auml;lisriigi residentidele makstud summasid ;</s>
+</p>
+<p>
+<s>8 ) summasid , mida makstakse isikule , kes viibib kohtuotsuse alusel kinnipidamiskohas ;</s>
+</p>
+<p>
+<s>9 ) seaduse &ldquo; Riigikogu liikmete ametipalga , pensioni ja muude sotsiaalsete garantiide kohta &rdquo; &sect; 11 alusel Riigikogu liikmele tehtavaid v&auml;ljamakseid ;</s>
+</p>
+<p>
+<s>10 ) politseiteenistuse seaduse ( RT I 1998 , 50 , 753 ; 104 , 1742 ; 2000 , 10 , 57 ; 28 , 167 ; 2001 , 7 , 17 ; 85 , 511 ) &sect; 26 ja kaitsev&auml;eteenistuse seaduse ( RT I 2000 , 28 , 167 ; 2001 , 34 , 190 ; 47 , 260 ; 58 , 353 ) &sect; 160 alusel tehtavaid v&auml;ljamakseid ;</s>
+</p>
+<p>
+<s>11 ) kaitsev&auml;eteenistuse seaduse &sect; 158 alusel tehtavaid v&auml;ljamakseid .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Sotsiaalmaksu maksja</s>
+</p>
+<p>
+<s>Sotsiaalmaksu maksjaks on :</s>
+</p>
+<p>
+<s>1 ) juriidiline isik ;</s>
+</p>
+<p>
+<s>2 ) f&uuml;&uuml;siline isik ;</s>
+</p>
+<p>
+<s>3 ) Eestis p&uuml;sivat tegevuskohta omav mitteresident ;</s>
+</p>
+<p>
+<s>4 ) riik ja kohalik omavalitsus oma asutuste kaudu ;</s>
+</p>
+<p>
+<s>5 ) muu Eestis tegutsev isik , kes teeb k&auml;esoleva seaduse &sect; 2 l&otilde;ikes 1 nimetatud v&auml;ljamakseid .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Kindlustatav</s>
+</p>
+<p>
+<s>Kindlustatavaks k&auml;esoleva seaduse m&otilde;istes on :</s>
+</p>
+<p>
+<s>1 ) f&uuml;&uuml;silisest isikust ettev&otilde;tja ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;taja , Riigikogu v&otilde;i Vabariigi Valituse liige , Vabariigi President v&otilde;i avalik teenistuja ;</s>
+</p>
+<p>
+<s>3 ) isik , kes saab tasu juriidilise isiku juhtimis- v&otilde;i kontrollorgani liikmena ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 2 l&otilde;ike 1 punktis 6 nimetatud lepingu alusel t&ouml;&ouml;tav f&uuml;&uuml;siline isik ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva seaduse &sect;-s 6 s&auml;testatud isikud .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Sotsiaalmaksu maksmise erijuhud</s>
+</p>
+<p>
+<s>( 1 ) Riik maksab sotsiaalmaksu j&auml;rgmiste isikute eest :</s>
+</p>
+<p>
+<s>1 ) isik , kellele makstakse lapsehooldustasu riiklike peretoetuste seaduse ( RT I 2001 , 95 , 587 ) &sect; 7 l&otilde;ike 1 , 5 v&otilde;i 6 alusel , ja mittet&ouml;&ouml;tav vanem , kellele makstakse lapsehooldustasu nimetatud seaduse &sect; 7 l&otilde;ike 3 alusel ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 95 , 587 )</s>
+</p>
+<p>
+<s>2 ) Eesti v&auml;lisesinduses t&ouml;&ouml;tava diplomaadi ja teenistuja mittet&ouml;&ouml;tav abikaasa ;</s>
+</p>
+<p>
+<s>3 ) kaitsej&otilde;ududes ajateenistuses olev ajateenija ;</s>
+</p>
+<p>
+<s>4 ) kuni vanaduspensionieani isik , kellele makstakse hooldajatoetust puuetega inimeste sotsiaaltoetuste seaduse ( RT I 1999 , 16 , 273 ; 82 , 749 ; 88 , 803 ; 2001 , 3 , 10 ) &sect; 8 alusel ;</s>
+</p>
+<p>
+<s>5 ) sotsiaalministri poolt koostatud nimekirja kantud &auml;ri&uuml;hingu , mittetulundus&uuml;hingu v&otilde;i sihtasutuse p&otilde;hikohaga t&ouml;&ouml;taja , kelle t&ouml;&ouml;v&otilde;ime kaotus on 40% v&otilde;i enam ;</s>
+</p>
+<p>
+<s>6 ) t&ouml;&ouml;tu abiraha saav isik ;</s>
+</p>
+<p>
+<s>7 ) tuumakatastroofi , tuumakatsetuse v&otilde;i aatomielektrijaama avarii tagaj&auml;rgede likvideerimisest osav&otilde;tnud mittet&ouml;&ouml;tav isik .</s>
+</p>
+<p>
+<s>( 15.05.2001 j&otilde;ust.01.07.2001 - RT I 2001 , 50 , 285 )</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalmaksu maksmise erijuhtudel makstakse sotsiaalmaksu eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;ralt .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 5 nimetatud isikule makstud k&auml;esoleva seaduse &sect; 2 l&otilde;ike 1 punktis 1 nimetatud tasu osalt , mis &uuml;letab eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;ra , maksab sotsiaalmaksu k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 5 nimetatud &auml;ri&uuml;hing , mittetulundus&uuml;hing v&otilde;i sihtasutus .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud sotsiaalmaksu maksab asutus , millele n&auml;hakse riigieelarves ette vastavad kulud .</s><s>Maksmise korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Maksum&auml;&auml;r</s>
+</p>
+<p>
+<s>( 1 ) Sotsiaalmaksu m&auml;&auml;r on 33 protsenti maksustatavalt summalt .</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalmaksu m&auml;&auml;r k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 punktis 3 s&auml;testatud juhul on 20 protsenti maksustatavalt summalt .</s>
+</p>
+<p>
+<s>( 3 ) Sotsiaalmaksu m&auml;&auml;r k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 punktis 6 s&auml;testatud juhul ja t&ouml;&ouml;tuskindlustuse seaduses s&auml;testatud t&ouml;&ouml;tuskindlustush&uuml;vitiselt on 13 protsenti maksustatavalt summalt .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Maksustamisperiood</s>
+</p>
+<p>
+<s>( 1 ) Sotsiaalmaksuga maksustamise periood on kalendrikuu .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;&uuml;silise isiku ettev&otilde;tlusest saadud tulu sotsiaalmaksuga maksustamise periood on kalendriaasta .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Sotsiaalmaksu maksmise kord</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-des 4 ja 6 s&auml;testatud sotsiaalmaksu maksja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) arvestama k&auml;esoleva seaduse &sect; 2 l&otilde;ike 1 punktides 1-4 , 6 ja 8 s&auml;testatud sotsiaalmaksuga maksustatavatelt summadelt sotsiaalmaksu iga kindlustatava kohta ja maksma &sect;-s 7 toodud m&auml;&auml;ras sotsiaalmaksu , arvestades k&auml;esoleva l&otilde;ike punktis 2 s&auml;testatut ;</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>2 ) maksma k&auml;esoleva seaduse &sect; 2 l&otilde;ike 1 punktides 4 ja 6 s&auml;testatud sotsiaalmaksuga maksustatavatelt summadelt sotsiaalmaksu , v&auml;lja arvatud juhul , kui tasu saav isik on kantud &auml;riregistrisse v&otilde;i registreeritud elukohaj&auml;rgses Maksuameti kohalikus asutuses f&uuml;&uuml;silisest isikust ettev&otilde;tjana ning tasu on saaja ettev&otilde;tlustuluks ;</s>
+</p>
+<p>
+<s>3 ) maksma erisoodustustelt ja erisoodustustelt arvestatud tulumaksult sotsiaalmaksu , isikustamata neid summasid ;</s>
+</p>
+<p>
+<s>4 ) &uuml;le kandma tasumisele kuuluva sotsiaalmaksu Maksuameti pangakontole maksustamisperioodile j&auml;rgneva kuu k&uuml;mnendaks kuup&auml;evaks ja esitama samaks kuup&auml;evaks elu- v&otilde;i asukohaj&auml;rgsele Maksuameti kohalikule asutusele vastava maksudeklaratsiooni ;</s>
+</p>
+<p>
+<s>5 ) arvutama igakuiselt iga kindlustatava kohta k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 alusel makstava sotsiaalmaksu ja selle &uuml;le kandma j&auml;rgneva kuu k&uuml;mnendaks kuup&auml;evaks Maksuameti pangakontole ning esitama samaks kuup&auml;evaks asukohaj&auml;rgsele Maksuameti kohalikule asutusele vastava maksudeklaratsiooni ;</s>
+</p>
+<p>
+<s>6 ) andma isikule , kellele maksti sotsiaalmaksuga maksustatavaid summasid v&otilde;i kelle eest maksti sotsiaalmaksu k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 alusel , t&otilde;endi nendelt arvestatud ja makstud sotsiaalmaksu kohta isiku n&otilde;udmisel ja kalendriaastale j&auml;rgneva aasta 1. veebruariks .</s><s>Isiku t&ouml;&ouml;lt lahkumisel antakse eelnimetatud t&otilde;end koos l&otilde;pparvega , pensioni taotlemiseks aga isiku n&otilde;udmisel .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 13.06.2001 j&otilde;ust.01.01.2003 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>( 3 ) F&uuml;&uuml;silisest isikust ettev&otilde;tja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) tasuma maksustamisperioodi kestel sotsiaalmaksu avansiliste maksetena Maksuameti pangakontole iga kvartali kolmanda kuu 15. kuup&auml;evaks jooksva kvartali eest v&auml;hemalt kolmekordselt eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;ralt arvutatud summas , v&auml;lja arvatud isik , kes on kogu kvartali jooksul olnud riikliku pensioni saaja , ning k&auml;esoleva paragrahvi l&otilde;igetes 4 ja 5s&auml;testatud juhtudel ;</s>
+</p>
+<p>
+<s>2 ) tasuma k&auml;esoleva paragrahvi l&otilde;ike 6 punktis 1 nimetatud juurdemaksmisele kuuluva maksusumma 1. oktoobriks Maksuameti pangakontole .</s>
+</p>
+<p>
+<s>( 24.10.2001 j&otilde;ust.01.01.2001 - RT I 2001 , 91 , 544 )</s>
+</p>
+<p>
+<s>( 4 ) Kui f&uuml;&uuml;silisest isikust ettev&otilde;tja eest maksab k&auml;esoleva paragrahvi l&otilde;ike 3 punktis 1 nimetatud kvartali jooksul sotsiaalmaksu ka t&ouml;&ouml;andja v&otilde;i k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 punktide 1 v&otilde;i 5 alusel riik , v&otilde;ib tema poolt makstavate avansiliste maksete summa olla kolmekordselt eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;ralt arvutatud maksusummast v&auml;iksem , kui t&ouml;&ouml;andja v&otilde;i &sect; 6 l&otilde;ike 1 punktide 1 v&otilde;i 5 alusel riigi poolt eelnimetatud kvartali jooksul tema eest ja tema poolt avansiliste maksetena makstav sotsiaalmaksu summa kokku on v&auml;hemalt v&otilde;rdne kolmekordselt eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;ralt arvutatud maksusummaga .</s>
+</p>
+<p>
+<s>( 5 ) Avansilisi makseid makstakse proportsionaalselt kuude arvuga , mille kestel isik oli registreeritud f&uuml;&uuml;silisest isikust ettev&otilde;tjana v&otilde;i k&auml;esoleva l&otilde;ike punktis 3 nimetatud staatuse saamisele eelnenud kuude arvuga juhul , kui f&uuml;&uuml;silisest isikust ettev&otilde;tja on k&auml;esoleva paragrahvi l&otilde;ike 3 punktis 1 nimetatud kvartali kestel :</s>
+</p>
+<p>
+<s>1 ) kantud &auml;riregistrisse v&otilde;i registreeritud elukohaj&auml;rgses Maksuameti kohalikus asutuses v&otilde;i</s>
+</p>
+<p>
+<s>2 ) kustutatud &auml;riregistrist v&otilde;i teatanud elukohaj&auml;rgsele Maksuameti kohalikule asutusele oma tegevuse l&otilde;petamisest v&otilde;i</s>
+</p>
+<p>
+<s>3 ) saanud riikliku pensioni saajaks .</s>
+</p>
+<p>
+<s>( 6 ) Maksuamet on kohustatud :</s>
+</p>
+<p>
+<s>1 ) arvutama f&uuml;&uuml;silise isiku tuludeklaratsiooni ning maksumaksjate ja maksu kinnipidajate registri andmete alusel juurdemaksmisele kuuluva maksusumma ning v&auml;ljastama f&uuml;&uuml;silisest isikust ettev&otilde;tjale maksuteate juurdemaksmisele kuuluva maksusumma kohta v&auml;hemalt 30 p&auml;eva enne maksu tasumise t&auml;htp&auml;eva ;</s>
+</p>
+<p>
+<s>2 ) tagastama enammakstud sotsiaalmaksu summa maksustamisperioodile j&auml;rgneva aasta 1. oktoobriks f&uuml;&uuml;silisest isikust ettev&otilde;tja poolt maksudeklaratsioonil n&auml;idatud pangakontole , v&auml;lja arvatud maksukorralduse seaduses etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 24.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 91 , 544 )</s>
+</p>
+<p>
+<s>( 7 ) Maksudeklaratsioonide vormid ja t&auml;itmise korra ning maksu arvestamise korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 8 ) Asutuse t&ouml;&ouml;tajate , kelle koosseis , koondandmed v&otilde;i konkreetsed t&ouml;&ouml;&uuml;lesanded on riigisaladus , sotsiaalmaksu arvestust peetakse rahandusministri m&auml;&auml;rusega kehtestatud korras .</s>
+</p>
+<p>
+<s>( 9 ) Iga kindlustatava kohta arvutatud sotsiaalmaksu summa &uuml;mardatakse t&auml;iskroonideks .</s><s>Summat alla 50 sendi ei arvestata ning 50 senti ja &uuml;le selle &uuml;mardatakse kroonini .</s>
+</p>
+<p>
+<s>( 10 ) Kui Riigikogu ei ole riigieelarvet eelarveaasta alguseks vastu v&otilde;tnud , makstakse sotsiaalmaksu v&auml;hemalt eelmiseks eelarveaastaks riigieelarvega kehtestatud kuum&auml;&auml;ralt riigieelarve vastuv&otilde;tmise kuuni , viimane kaasa arvatud .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Maksu laekumine</s>
+</p>
+<p>
+<s>( 1 ) Maksuamet kannab k&auml;esoleva seaduse &sect; 9 l&otilde;ike 1 punktide 4 ja 5 ning &sect; 9 l&otilde;ike 3 punktide 1 ja 2 alusel sotsiaalmaksu erikontole laekunud sotsiaalmaksu &uuml;le 15 pangap&auml;eva jooksul riigieelarve riikliku pensionikindlustuse ja ravikindlustuse vahenditesse .</s>
+</p>
+<p>
+<s>( 12.09.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 79 , 480 )</s>
+</p>
+<p>
+<s>( 2 ) Riikliku pensionikindlustuse vahenditesse &uuml;lekantava sotsiaalmaksu osa m&auml;&auml;r on 20 protsenti ja riikliku ravikindlustuse vahenditesse &uuml;lekantava sotsiaalmaksu osa m&auml;&auml;r on 13 protsenti .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&auml;esoleva seaduse &sect; 5 punktides 2-4 nimetatud kindlustatav on kogumispensionide seaduse kohaselt kohustatud tasuma kohustusliku kogumispensioni makset , toimub k&auml;esoleva seaduse &sect; 2 l&otilde;ike 1 punktides 1 , 3 , 4 ja 6 nimetatud tasudelt arvestatud sotsiaalmaksu &uuml;lekandmine vastavalt k&auml;esoleva paragrahvi l&otilde;ikele 4.</s>
+</p>
+<p>
+<s>( 12.09.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 79 , 480 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatud juhul kannab Maksuamet sotsiaalmaksu erikontole laekunud sotsiaalmaksu 15 t&ouml;&ouml;p&auml;eva jooksul &uuml;le riigieelarve riikliku pensionikindlustuse ja ravikindlustuse vahenditesse ning Eesti v&auml;&auml;rtpaberite keskregistri pidaja pangakontole Eesti Pangas .</s><s>Riikliku pensionikindlustuse vahenditesse kantava sotsiaalmaksu osa m&auml;&auml;r on 16 protsenti , riikliku ravikindlustuse vahenditesse kantava sotsiaalmaksu osa m&auml;&auml;r 13 protsenti ja Eesti v&auml;&auml;rtpaberite keskregistri pidaja pangakontole kantava sotsiaalmaksu osa m&auml;&auml;r 4 protsenti .</s>
+</p>
+<p>
+<s>( 12.09.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 79 , 480 )</s>
+</p>
+<p>
+<s>( 5 ) Samaaegselt k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud sotsiaalmaksu &uuml;lekandmisega edastab Maksuamet Eesti v&auml;&auml;rtpaberite keskregistri pidajale rahandusministri poolt kehtestatud korras isikute nimed ja isikukoodid ning andmed k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud pangakontole &uuml;lekantud sotsiaalmaksu suuruse kohta .</s>
+</p>
+<p>
+<s>( 12.09.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 79 , 480 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Andmete v&auml;ljastamine</s>
+</p>
+<p>
+<s>Maksumaksjate ja maksu kinnipidajate registris olevate andmete Sotsiaalkindlustusametile ja Eesti Haigekassale v&auml;ljastamise korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Andmete t&auml;psustamine</s>
+</p>
+<p>
+<s>Sotsiaalmaksu maksjalt k&auml;esoleva seaduse &sect; 9 l&otilde;ike 1 punkti 6 alusel ning maksumaksjate ja maksu kinnipidajate registrist ja riikliku pensionikindlustuse registrist sama perioodi kohta saadud andmete erinevuse korral on kindlustataval &otilde;igus taotleda oma elukohaj&auml;rgselt Maksuameti kohalikult asutuselt andmete t&auml;psustamist v&otilde;i erinevuse p&otilde;hjuste selgitamist .</s><s>Maksuameti kohalik asutus on kohustatud hiljemalt kolme kuu jooksul taotluse saamise p&auml;evast arvates teatama kindlustatavale t&auml;psustatud andmed v&otilde;i andmete erinevuse p&otilde;hjuse ja selle k&otilde;rvaldamise t&auml;htp&auml;eva .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) Eesti Vabariigi sotsiaalmaksu seaduse ( RT 1990 , 9 , 102 ; 1991 , 32 , 391 ; 1992 , 21 , 302 ; 34 , 444 ; RT I 1993 , 65 , 924 ; 79 , 1181 ; 1994 , 40 , 656 ; 1995 , 17 , 235 ; 1996 , 74 , 1307 ; 1998 , 40 , 611 ) alusel p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist tasumisele kuuluv sotsiaalmaks kantakse maksumaksja elu- v&otilde;i asukohaj&auml;rgse Maksuameti kohaliku asutuse pangakontole , nimetatud seaduse alusel tekkinud sotsiaalmaksu osade v&otilde;lad n&otilde;uab sisse Maksuamet .</s><s>Eelnimetatud summad suunatakse laekumisel isikustamata summadena riikliku pensionikindlustuse ja ravikindlustuse vahenditesse .</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalmaksuseaduse ( RT I 1998 , 40 , 611 ; 61 , 982 ; 113/114 , 1875 ja 1876 ; 1999 , 29 , 397 ; 71 , 685 ; 82 , 749 ; 87 , 789 ; 88 , 806 ; 97 , 857 ; 101 , 903 ; 2000 , 57 , 370 ; 84 , 536 ; 86 , 543 ) alusel p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist tasumisele kuuluv sotsiaalmaks deklareeritakse , tasutakse ja tagastatakse vastavalt nimetatud seaduses s&auml;testatule .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 3 punkt 11 kehtib 2001. aasta 31. detsembrini .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>&Otilde;igusakti kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tunnistatakse kehtetuks sotsiaalmaksuseadus ( RT I 1998 , 40 , 611 ; 61 , 982 ; 113/114 , 1875 ja 1876 ; 1999 , 29 , 397 ; 71 , 685 ; 82 , 749 ; 87 , 789 ; 88 , 806 ; 97 , 857 ; 101 , 903 ; 2000 , 57 , 370 ; 84 , 536 ; 86 , 543 ) .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Eesti Vabariigi ravikindlustusseaduse muutmine</s>
+</p>
+<p>
+<s>Eesti Vabariigi ravikindlustusseaduses ( RT 1991 , 23 , 272 ; RT I 1999 , 7 , 113 ; 29 , 397 ; 2000 , 57 , 374 ; 84 , 536 ; 102 , 675 ; 2001 , 42 , 233 ; 47 , 260 ) tehakse j&auml;rgmised muudatused ja t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 10 <hi rend="sup">3</hi> l&otilde;ikes 4 <hi rend="sup">1</hi> asendatakse number &ldquo; 1 <hi rend="sup">1</hi> &ldquo; numbriga &ldquo; 2 &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 10 <hi rend="sup">3</hi> l&otilde;ige 5 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 ) F&uuml;&uuml;silisest isikust ettev&otilde;tjale , kes koosk&otilde;las sotsiaalmaksuseaduse &sect; 9 l&otilde;ike 3 punktiga 1 v&otilde;i l&otilde;ikega 4 ei ole maksnud sotsiaalmaksu avansilisi makseid , h&uuml;vitist ei maksta . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Tulumaksuseaduse muutmine</s>
+</p>
+<p>
+<s>Tulumaksuseaduse ( RT I 1999 , 101 , 903 ; 2001 , 11 , 49 ; 16 , 69 ; 50 , 283 ; 59 , 359 ; 79 , 480 ; 91 , 544 ) &sect; 49 l&otilde;ike 4 esimene lause muudetakse ning s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; Tulumaksuga maksustatakse kalendrikuu jooksul tehtud l&otilde;ike 3 punktis 1 nimetatud v&auml;ljamaksete kogusumma , mis &uuml;letab 3% , ning l&otilde;ike 3 punktides 2 ja 3 nimetatud v&auml;ljamaksete kogusumma , mis &uuml;letab 2% maksumaksja poolt samal kalendrikuul tehtud vastavalt sotsiaalmaksuseaduse &sect; 2 l&otilde;ike 1 punktidele 1-6 sotsiaalmaksuga ( edaspidi isikustatud sotsiaalmaks ) maksustatud v&auml;ljamaksete summast . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2001. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 7 l&otilde;iked 2 ja 3 j&otilde;ustuvad 2002. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

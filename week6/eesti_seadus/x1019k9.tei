@@ -1,0 +1,1120 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> V&auml;lismaalaste seadus ( terviktekst juuli 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    6256</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> V&auml;lismaalaste seadus ( terviktekst juuli 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=24></tagusage>
+         <tagusage gi=p occurs=338></tagusage>
+         <tagusage gi=s occurs=406></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>V&auml;lismaalaste seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 8. juulil 1993. a.</s>
+</p>
+<p>
+<s>( RT I 1993 , 44 , 637 ; terviktekst RT I 1999 , 50 , 548 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 12. juulil 1993. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>06.06.2001 j&otilde;ust.12.07.2001 - RT I 2001 , 58 , 352 ;</s>
+</p>
+<p>
+<s>17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 68 ;</s>
+</p>
+<p>
+<s>17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 ;</s>
+</p>
+<p>
+<s>11.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 197 ;</s>
+</p>
+<p>
+<s>21.03.2000 j&otilde;ust.29.03.2000 - RT I 2000 , 25 , 148 ;</s>
+</p>
+<p>
+<s>15.12.99 j&otilde;ust.31.12.99 - RT I 1999 , 101 , 900 ;</s>
+</p>
+<p>
+<s>17.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 808 ;</s>
+</p>
+<p>
+<s>21.09.99 j&otilde;ust.01.10.99 - RT I 1999 , 71 , 686 ;</s>
+</p>
+<p>
+<s>16.06.99 j&otilde;ust.23.06.99 - RT I 1999 , 54 , 582.</s>
+</p>
+<p>
+<s>L&auml;htudes Eesti Vabariigi p&otilde;hiseadusest tulenevatest &otilde;igustest ja vabadustest ,</s>
+</p>
+<p>
+<s>arvestades , et rahvusvahelise &otilde;iguse &uuml;ldtunnustatud p&otilde;him&otilde;tted ja normid on Eesti &otilde;iguss&uuml;steemi lahutamatu osa ,</s>
+</p>
+<p>
+<s>tuginedes vajadusele tagada Eestis elavatele v&auml;lismaalastele rahvusvaheliselt tunnustatud staatus ja m&auml;&auml;ratleda v&auml;lismaalaste kohustused ,</s>
+</p>
+<p>
+<s>soovides luua seadusega kaitstuse tunde nii ajutiselt kui ka alaliselt Eestis elavatele v&auml;lismaalastele , on vastu v&otilde;etud k&auml;esolev seadus .</s>
+</p>
+<p>
+<s>I peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus reguleerib v&auml;lismaalaste Eestisse saabumise , Eestis viibimise , elamise ja t&ouml;&ouml;tamise ning v&auml;lismaalaste &otilde;igusliku vastutuse aluseid .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Volitatud asutused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevast seadusest tulenevaid toiminguid sooritavad Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutused .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutuse juht v&otilde;ib volitada sama valitsusasutuse vanem- v&otilde;i k&otilde;rgemat ametnikku sooritama valitsusasutuse nimel k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud toiminguid .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 68 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>V&auml;lismaalane</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalane on k&auml;esoleva seaduse m&otilde;istes isik , kes ei ole Eesti kodanik .</s>
+</p>
+<p>
+<s>( 21.10.98 j&otilde;ust.01.04.99 - RT I 1998 , 98/99 , 1575 )</s>
+</p>
+<p>
+<s>( 2 ) Pagulaste Eestis viibimise kord s&auml;testatakse eraldi seadusega .</s>
+</p>
+<p>
+<s>( 18.02.97 j&otilde;ust.09.07.97 - RT I 1997 , 19 , 306 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Alaline elanik</s>
+</p>
+<p>
+<s>( 1 ) Alaline elanik on Eestis elav Eesti kodanik v&otilde;i Eestis elav v&auml;lismaalane , kellel on alaline elamisluba .</s>
+</p>
+<p>
+<s>( 2 ) Alalise elaniku m&auml;&auml;ratlus k&auml;esoleva seaduse t&auml;henduses ei laiene &otilde;igusaktidele , mis on vastu v&otilde;etud enne k&auml;esoleva seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 4 <hi rend="sup">1</hi> .</s><s>Alaealine laps</s>
+</p>
+<p>
+<s>Alaealine laps k&auml;esoleva seaduse t&auml;henduses on alla 18-aastane isik .</s><s>Alaealiseks lapseks ei loeta isikut , kes on abielus v&otilde;i omab eraldi perekonda v&otilde;i elab iseseisvat elu .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>V&auml;lismaalase &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Eestis viibivale v&auml;lismaalasele tagatakse Eesti kodanikuga v&otilde;rdsed &otilde;igused ja vabadused , kui p&otilde;hiseaduses , k&auml;esolevas ja muudes seadustes v&otilde;i Eesti v&auml;lislepingutes ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lismaalasele kindlustatakse rahvusvahelise &otilde;iguse &uuml;ldtunnustatud normidest ja rahvusvahelistest tavadest tulenevad &otilde;igused ja vabadused .</s>
+</p>
+<p>
+<s>( 3 ) Eestis viibiv v&auml;lismaalane on kohustatud j&auml;rgima Eesti p&otilde;hiseaduslikku korda ning t&auml;itma Eesti &otilde;igusakte .</s>
+</p>
+<p>
+<s>II peat&uuml;kk</s>
+</p>
+<p>
+<s>Sisser&auml;nde piirarv</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Sisser&auml;nde piirarv</s>
+</p>
+<p>
+<s>( 1 ) Aastane sisser&auml;nde piirarv on Eestisse sisser&auml;ndavate v&auml;lismaalaste piirarv , mis ei tohi &uuml;letada aastas 0,05% Eesti alalisest elanikkonnast .</s><s>Sisser&auml;nde piirarvu kehtestab Vabariigi Valitsus , v&otilde;ttes arvesse kohaliku omavalitsuse ettepanekuid .</s><s>Sisser&auml;nde piirarvu raames v&otilde;ib siseminister kehtestada m&auml;&auml;rusega piirarvu jagunemise elamisloa taotlemise p&otilde;hjuse ja elamisloa andmise aluse j&auml;rgi , samuti ajalise jaotuse aasta piires .</s><s>Sisser&auml;nde piirarvu t&auml;itumise arvutamisel ei arvestata isikuid , kellel on &otilde;igus asuda Eestisse v&auml;ljaspool sisser&auml;nde piirarvu v&otilde;i kelle suhtes sisser&auml;nde piirarv ei kehti .</s>
+</p>
+<p>
+<s>( 23.09.97 j&otilde;ust.26.10.97 - RT I 1997 , 73 , 1202 ; 15.12.99 j&otilde;ust.31.12.99 - RT I 1999 , 101 , 900 )</s>
+</p>
+<p>
+<s>( 2 ) Igal eestlasel on &otilde;igus asuda Eestisse v&auml;ljaspool sisser&auml;nde piirarvu .</s>
+</p>
+<p>
+<s>2 <hi rend="sup">1</hi> ) Sisser&auml;nnu piirarvu alla ei arvata :</s>
+</p>
+<p>
+<s>1 ) Eesti kodaniku abikaasat , kes taotleb elamisluba k&auml;esoleva seaduse &sect; 12 2. l&otilde;ike alusel , kui abikaasadel on &uuml;hine alaealine laps v&otilde;i kui naise rasedus on kestnud &uuml;le 12 n&auml;dala ;</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>2 ) Eesti kodaniku alaealist last , kellele taotletakse elamisluba k&auml;esoleva seaduse &sect; 12 1. l&otilde;ike punkti 3 alusel .</s>
+</p>
+<p>
+<s>( 11.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 197 ; 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 3 ) Sisser&auml;nde piirarv ei kehti Euroopa Liidu , Ameerika &Uuml;hendriikide , Norra , Islandi , &Scaron;veitsi ja Jaapani kodanike suhtes .</s>
+</p>
+<p>
+<s>( 15.12.99 j&otilde;ust.31.12.99 - RT I 1999 , 101 , 900 )</s>
+</p>
+<p>
+<s>( 4 ) Siseminister v&otilde;ib majandusministri , rahandusministri , kultuuriministri v&otilde;i haridusministri motiveeritud ettepaneku alusel arvata sisser&auml;nde piirarvu alt v&auml;lja konkreetse isiku , kelle Eestisse saabumine on vajalik , l&auml;htudes riiklikust huvist majanduse , hariduse , teaduse v&otilde;i kultuuri arendamisel .</s>
+</p>
+<p>
+<s>( 15.12.99 j&otilde;ust.31.12.99 - RT I 1999 , 101 , 900 )</s>
+</p>
+<p>
+<s>III peat&uuml;kk</s>
+</p>
+<p>
+<s>Passin&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>V&auml;lismaalase isikut t&otilde;endavad dokumendid</s>
+</p>
+<p>
+<s>K&otilde;igil Eestisse saabuvatel ja Eestis viibivatel v&auml;lismaalastel peab olema kehtiv pass v&otilde;i seda asendav dokument .</s><s>V&auml;lismaalase kehtiv pass v&otilde;i seda asendav dokument peab t&otilde;endama tema &otilde;igust viibida Eestis .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>V&auml;lismaalase pass</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalasele , kellel ei ole passi v&otilde;i seda asendavat dokumenti , v&otilde;idakse anda v&auml;lismaalase pass ( alien's passport ) .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lismaalase passi v&otilde;ib v&auml;lja anda Eestis viibivale v&auml;lismaalasele , kelle suhtes on tehtud elamisloa andmise otsus .</s><s>V&auml;lismaalase passi kehtivus ei tohi &uuml;letada elamisloa kehtivusaega .</s><s>V&auml;lismaalase passi kehtivusaeg on kuni viis aastat .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lismaalase passi taotlemine toimub samaaegselt elamisloa taotlemisega .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;lismaalasel , kellel puudub v&otilde;imalus saada p&auml;ritolumaa v&otilde;i m&otilde;ne muu riigi passi v&otilde;i seda asendavat dokumenti , on &otilde;igus saada v&auml;lismaalase pass .</s><s>V&auml;lismaalase passi vormi , v&auml;ljaandmise tingimused ja korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>IV peat&uuml;kk</s>
+</p>
+<p>
+<s>Viisa , elamis- ning t&ouml;&ouml;luba</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>&Uuml;ldalused</s>
+</p>
+<p>
+<s>( 1 ) Eestisse saabumiseks ja Eestis viibimiseks peab v&auml;lismaalasel olema seaduslik alus .</s><s>Eestis t&ouml;&ouml;tamiseks peab v&auml;lismaalasel olema t&ouml;&ouml;luba .</s><s>V&auml;lismaalase Eestis viibimise seaduslikud alused on :</s>
+</p>
+<p>
+<s>1 ) elamisluba ;</s>
+</p>
+<p>
+<s>2 ) viisa , sellega Eestis viibimiseks etten&auml;htud t&auml;htaja jooksul ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lislepingust tulenev &otilde;igus Eestis viibida ;</s>
+</p>
+<p>
+<s>4 ) Vabariigi Valitsuse otsusest viisan&otilde;udest loobumise kohta tulenev &otilde;igus Eestis viibida ;</s>
+</p>
+<p>
+<s>5 ) muu seadusest tulenev v&otilde;i seaduse alusel haldusaktiga antud luba v&auml;lismaalase Eestis viibimiseks ;</s>
+</p>
+<p>
+<s>( 21.10.98 j&otilde;ust.01.04.99 - RT I 1998 , 98/99 , 1575 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) V&auml;lismaalase , kes on taotlenud elamisloa kehtivusajal Vabariigi Valitsuse kehtestatud korras elamisloa pikendamist v&otilde;i alalist elamisluba , viibimine Eestis on seaduslik kuni tema taotluse suhtes otsuse tegemiseni .</s>
+</p>
+<p>
+<s>( 21.03.2000 j&otilde;ust.29.03.2000 - RT I 2000 , 25 , 148 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) Eesti lennujaama transiiditsooni sisenemiseks ja seal viibimiseks peab v&auml;lismaalasel olema Vabariigi Valitsuse kehtestatud juhtudel viisa .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lismaalane taotleb viisat v&otilde;i t&auml;htajalist elamisluba Eesti v&auml;lisesindusest , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Erandkorras v&otilde;idakse viisa anda piiripunktis j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) v&auml;lisriigi ametliku delegatsiooni v&otilde;i diplomaatilise tava kohaselt sellega v&otilde;rdsustatud delegatsiooni koosseisu kuuluvale v&auml;lismaalasele ja delegatsiooni saatvale v&auml;lismaalasele - v&auml;lisministri poolt volitatud ametniku otsusel ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lismaalasele , kelle Eestisse lubamine p&otilde;hineb v&auml;lislepingul , - siseministri poolt volitatud ametniku otsusel ;</s>
+</p>
+<p>
+<s>3 ) rahvusvaheliseks liiklemiseks avatud piiripunkti saabunud eestlasele - siseministri poolt volitatud ametniku otsusel ;</s>
+</p>
+<p>
+<s>4 ) v&auml;lismaalasele , kes saabub Eestisse Vabariigi Valitsuse liikme kutsel , - siseministri otsusel ;</s>
+</p>
+<p>
+<s>5 ) v&auml;lismaalasele , kelle riiki lubamist n&otilde;uavad tungivad ja etten&auml;gematud asjaolud , - siseministri otsusel .</s>
+</p>
+<p>
+<s>( 15.12.99 j&otilde;ust.31.12.99 - RT I 1999 , 101 , 900 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">2</hi> ) Erandkorras piiripunktis antud viisa annab &otilde;iguse &uuml;hekordseks sisenemiseks Eestisse ja selle kehtivusaeg ei v&otilde;i &uuml;letada 15 p&auml;eva .</s>
+</p>
+<p>
+<s>( 15.12.99 j&otilde;ust.31.12.99 - RT I 1999 , 101 , 900 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">3</hi> ) Erandkorras piiripunktis viisa andmise korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 15.12.99 j&otilde;ust.31.12.99 - RT I 1999 , 101 , 900 )</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsuse volitatud valitsusasutusest Eestis v&otilde;ib t&auml;htajalist elamisluba taotleda :</s>
+</p>
+<p>
+<s>1 ) iga eestlane ning tema abikaasa ja alaealine laps ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>2 ) Eesti kodaniku abikaasa ja alaealine laps ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>3 ) Eestis elamisloa alusel elavast v&auml;lismaalasest p&otilde;lvnevale alla &uuml;heaastasele lapsele ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>4 ) v&auml;lismaalane , kes saabub Eestisse valitsusasutuse kutsel koost&ouml;&ouml;- v&otilde;i abiprogrammi t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>5 ) v&auml;lismaalane , kes viibib Eestis t&auml;htajalise elamisloa alusel ja taotleb uut t&auml;htajalist elamisluba ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>6 ) v&auml;lismaalane , kellele on selleks Vabariigi Valitsuse volitatud valitsusasutuse poolt erandina luba antud tingimusel , et v&auml;lismaalasel puudub m&otilde;juvatel p&otilde;hjustel v&otilde;imalus taotleda elamisluba Eesti v&auml;lisesinduses ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 ; 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>7 ) k&auml;esoleva seaduse &sect; 6 3. ja 4. l&otilde;ikes nimetatud v&auml;lismaalane ning tema abikaasa ja alaealine laps .</s>
+</p>
+<p>
+<s>( 15.12.99 j&otilde;ust.31.12.99 - RT I 1999 , 101 , 900 ; 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 5 ) V&auml;lismaalasel on &otilde;igus elamis- v&otilde;i t&ouml;&ouml;loa pikendamisest keeldumise v&otilde;i t&uuml;histamise otsus , samuti talle Eestist lahkumiseks tehtud ettekirjutus vaidlustada kohtus .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.12.07.2001 - RT I 2001 , 58 , 352 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Viisa</s>
+</p>
+<p>
+<s>( 1 ) Viisa on v&auml;lismaalasele antav luba Eestisse sisenemiseks rahvusvaheliseks liiklemiseks avatud piiripunkti kaudu ja Eestis viibimiseks viisas etten&auml;htud aja jooksul , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) V&auml;lismaalasele v&otilde;idakse anda viisa sisenemiseks Eesti lennujaama transiiditsooni , seal viibimiseks ja sealt lahkumiseks viisas n&auml;idatud tingimustel .</s><s>Nimetatud viisa ei anna v&auml;lismaalasele &otilde;igust Eestisse sisenemiseks ja Eestis viibimiseks .</s><s>;</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus kehtestab viisaeeskirja , mis reguleerib viisade taotlemist , v&auml;ljaandmist , pikendamist ja t&uuml;histamist ning m&auml;&auml;ratleb viisa liigid ja eeskirja t&auml;itmist tagavate asutuste p&auml;devuse , ning s&otilde;lmib v&auml;lisriikidega viisavaba liikumise kokkuleppeid .</s>
+</p>
+<p>
+<s>( 01.07.97 j&otilde;ust.21.07.97 - RT I 1997 , 53 , 837 )</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsuse kehtestatud ulatuses on v&auml;lisministril ja siseministril &otilde;igus anda m&auml;&auml;rusi viisaeeskirja rakendamiseks .</s>
+</p>
+<p>
+<s>( 01.07.97 j&otilde;ust.21.07.97 - RT I 1997 , 53 , 837 )</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsus kehtestab riikide loetelu , kelle kodanikud on Eestis viisan&otilde;udest &uuml;hepoolselt vabastatud .</s>
+</p>
+<p>
+<s>( 21.10.98 j&otilde;ust.01.04.99 - RT I 1998 , 98/99 , 1575 )</s>
+</p>
+<p>
+<s>( 5 ) Viisakutsete , viisataotluste ja viisa pikendamise taotluste ning nende suhtes tehtud otsuste , t&uuml;histatud ja parandatud viisade ning viisat omavate v&auml;lismaalaste piiri&uuml;letuste kohta peetakse riiklikku viisaregistrit .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Elamisluba</s>
+</p>
+<p>
+<s>( 1 ) Elamisluba on :</s>
+</p>
+<p>
+<s>1 ) t&auml;htajaline , mis antakse kehtivusega kuni viis aastat ;</s>
+</p>
+<p>
+<s>2 ) alaline .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;htajalist elamisluba pikendatakse v&auml;lismaalase taotluse alusel , kui elamisloa andmise alus ei ole &auml;ra langenud ja puudub elamisloa pikendamisest keeldumise alus ja kui elamisloa pikendamine on p&otilde;hjendatud .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Elamisloa andmise alused</s>
+</p>
+<p>
+<s>( 1 ) T&auml;htajalise elamisloa v&otilde;ib anda v&auml;lismaalasele :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tamiseks ;</s>
+</p>
+<p>
+<s>2 ) &otilde;ppimiseks &otilde;ppeasutuses vastavalt &otilde;ppeasutuse taotlusele ;</s>
+</p>
+<p>
+<s>3 ) elama asumiseks Eestis alaliselt elava l&auml;hedase sugulase juurde ;</s>
+</p>
+<p>
+<s>4 ) kelle legaalne sissetulek tagab tema &auml;raelamise , kusjuures legaalseks sissetulekuks loetakse seaduslikult teenitud t&ouml;&ouml;tasu , seaduslikust &auml;ritegevusest v&otilde;i omandist saadav tulu , pension , stipendium , alimendid , riiklikud toetused , sealhulgas t&ouml;&ouml;tu abiraha ja lastetoetus , samuti Eestis legaalset sissetulekut omavate perekonnaliikmete poolt tagatud &uuml;lalpidamine ;</s>
+</p>
+<p>
+<s>5 ) kelle elamisloa taotlus p&otilde;hineb v&auml;lislepingul .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lismaalasele , kes on abielus Eestis alaliselt elava isikuga , v&otilde;ib anda t&auml;htajalise elamisloa .</s>
+</p>
+<p>
+<s>( 3 ) Alalise elamisloa v&otilde;ib anda v&auml;lismaalasele , kes on Eestis elanud t&auml;htajalise elamisloa alusel viimase viie aasta jooksul v&auml;hemalt kolm aastat ning kellel on Eestis kehtiv elamisluba , elukoht ja legaalne sissetulek Eestis &auml;raelamiseks , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s><s>Alalist elamisluba ei anta v&auml;lismaalasele , kes on saanud Eestis elamisloa k&auml;esoleva paragrahvi 1. l&otilde;ike punkti 1 v&otilde;i 2 alusel .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Alalise elamisloa v&otilde;ib anda Eestis elava Eesti kodaniku v&otilde;i Eestis alalise elamisloa alusel elava v&auml;lismaalase alaealisele lapsele , v&auml;lja arvatud juhul , kui ta elab v&auml;lisriigis ja soovib elama asuda Eestisse .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 4 ) Elamisluba ei anta ega pikendata v&auml;lismaalasele :</s>
+</p>
+<p>
+<s>1 ) kes on esitanud valeandmeid ( sealhulgas oma varasema tegevuse kohta ) viisa , elamis- v&otilde;i t&ouml;&ouml;loa taotlemisel v&otilde;i nende pikendamise taotlemisel ;</s>
+</p>
+<p>
+<s>2 ) kes ei j&auml;rgi p&otilde;hiseaduslikku korda ning ei t&auml;ida Eesti seadusi ;</s>
+</p>
+<p>
+<s>3 ) kelle tegevus on olnud v&otilde;i on v&otilde;i on p&otilde;hjendatud alus arvata , et see on olnud v&otilde;i on suunatud Eesti riigi ja tema julgeoleku vastu ;</s>
+</p>
+<p>
+<s>4 ) kes on &otilde;hutanud v&otilde;i &otilde;hutab v&otilde;i on p&otilde;hjendatud alus arvata , et ta on &otilde;hutanud v&otilde;i &otilde;hutab rahvuslikku , rassilist , usulist v&otilde;i poliitilist vihkamist v&otilde;i v&auml;givalda ;</s>
+</p>
+<p>
+<s>5 ) kes on toime pannud kuriteo , mille eest talle on m&otilde;istetud vabadusekaotus kestusega &uuml;le &uuml;he aasta ja kelle karistatus ei ole kustunud v&otilde;i kustutatud v&otilde;i karistusandmed ei ole karistusregistrist kustutatud ;</s>
+</p>
+<p>
+<s>6 ) kes on v&auml;lisriigi relvaj&otilde;udude tegevteenistuses ;</s>
+</p>
+<p>
+<s>7 ) kes on teeninud kaadris&otilde;jav&auml;elasena v&auml;lisriigi relvaj&otilde;ududes , sealt reservi arvatud v&otilde;i erru l&auml;inud ;</s>
+</p>
+<p>
+<s>8 ) keda on kriminaalkorras korduvalt karistatud tahtlike kuritegude eest ;</s>
+</p>
+<p>
+<s>9 ) kelle kohta on andmeid v&otilde;i on p&otilde;hjendatud alus arvata , et ta kuulub kuritegelikku &uuml;hendusse , et ta on seotud narkootikumide v&otilde;i ps&uuml;hhotroopsete ainete v&otilde;i isikute ebaseadusliku toimetamisega &uuml;le riigipiiri , et ta kuulub terroristlikku &uuml;hendusse v&otilde;i on toime pannud terroristliku akti v&otilde;i et ta on seotud rahapesuga ;</s>
+</p>
+<p>
+<s>10 ) kes t&ouml;&ouml;tab v&otilde;i on p&otilde;hjendatud alus arvata , et ta t&ouml;&ouml;tab v&auml;lisriigi luure- v&otilde;i julgeolekuteenistuses , v&otilde;i ta on olnud v&otilde;i on p&otilde;hjendatud alus arvata , et ta on olnud v&auml;lisriigi luure- v&otilde;i julgeolekuteenistuses ning tema vanus , auaste v&otilde;i muud asjaolud ei v&auml;lista tema kutsumist teenistusse tema kodakondsusj&auml;rgse riigi julgeoleku- v&otilde;i relvaj&otilde;ududesse v&otilde;i teistesse relvastatud formeeringutesse ;</s>
+</p>
+<p>
+<s>11 ) kes on saanud v&otilde;i on p&otilde;hjendatud alus arvata , et ta on saanud eriv&auml;lja&otilde;ppe v&otilde;i eriettevalmistuse dessantoperatsioonideks v&otilde;i diversiooni v&otilde;i sabotaa&zcaron;i alal v&otilde;i muu eriv&auml;lja&otilde;ppe , mille k&auml;igus omandatud teadmisi ja oskusi saab vahetult rakendada illegaalsete relvaformeeringute &uuml;lesehitamisel v&otilde;i v&auml;lja&otilde;ppel ;</s>
+</p>
+<p>
+<s>12 ) kes on osalenud v&otilde;i on p&otilde;hjendatud alus arvata , et ta on osalenud karistusoperatsioonides tsiviilelanikkonna vastu ;</s>
+</p>
+<p>
+<s>13 ) kelle puhul on p&otilde;hjendatud alus arvata , et ta on toime pannud inimsusevastaseid kuritegusid v&otilde;i s&otilde;jakuritegusid ;</s>
+</p>
+<p>
+<s>14 ) k&auml;esoleva l&otilde;ike punktides 6 , 7 , 10 , 11 ja 12 nimetatud isiku abikaasale ja alaealisele lapsele ;</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>15 ) kelle suhtes kehtib sisses&otilde;idukeeld .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 4. l&otilde;ike punktides 5-8 ja 14 loetletud v&auml;lismaalasele v&otilde;idakse erandina anda t&auml;htajaline elamisluba ja seda pikendada , kui tema suhtes ei ole tuvastatud k&auml;esoleva paragrahvi 4. l&otilde;ike punktides 1-4 , 9-13 ja 15 nimetatud asjaolu .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi 4. l&otilde;ike punktides 1-4 , 6 ja 8-13 loetletud asjaolusid k&auml;sitletakse ohuna Eesti riigi julgeolekule .</s>
+</p>
+<p>
+<s>( 21.09.99 j&otilde;ust.01.10.99 - RT I 1999 , 71 , 686 )</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva paragrahvi 4. l&otilde;ike punktid 6 , 7 ja 10 ei laiene Euroopa Liidu liikmesriigi kodanikule ja NATO liikmesriigi kodanikule ning sama l&otilde;ike punkt 14 nende kodanike abikaasale ja alaealisele lapsele .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 8 ) Elamisloa andmisest keeldutakse , kui taotluse suhtes otsuse tegemise ajaks on sisser&auml;nde piirarv t&auml;itunud .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 9 ) Elamisloa andmisest ja pikendamisest keeldutakse , kui :</s>
+</p>
+<p>
+<s>1 ) elamisloa andmise v&otilde;i pikendamise alus on &auml;ra langenud ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lismaalane ei vasta k&auml;esolevas seaduses kehtestatud elamisloa andmise v&otilde;i pikendamise tingimustele ;</s>
+</p>
+<p>
+<s>3 ) elamisloa andmise v&otilde;i pikendamise taotlus ei ole p&otilde;hjendatud ;</s>
+</p>
+<p>
+<s>4 ) isik on v&otilde;tnud kohustuse Eesti Vabariigist lahkuda , saanud rahvusvahelise abiprogrammi kaudu elamispinna v&auml;lismaal v&otilde;i saanud Eestist lahkumiseks toetust .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.12.07.2001 - RT I 2001 , 58 , 352 )</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">1</hi> .</s><s>Elamisloa andmine abikaasa juurde elama asumiseks</s>
+</p>
+<p>
+<s>( 1 ) T&auml;htajalise elamisloa v&otilde;ib anda v&auml;lismaalasele elama asumiseks Eestis seaduslikult elava abikaasa juurde , kui abikaasade vahel on olemas tihe majanduslik side ja ps&uuml;hholoogiline s&otilde;ltuvus ning perekond on p&uuml;siv ja abielu ei ole fiktiivne .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 2 ) Kui v&auml;lismaalane taotleb elama asumist Eestis legaalselt elava v&auml;lismaalase juurde , peab tema abikaasa omama legaalset sissetulekut , mis tagab perekonna &uuml;lalpidamise , v&otilde;i peab abikaasade &uuml;hine legaalne sissetulek tagama perekonna &uuml;lalpidamise Eestis .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lismaalasele , kes on olnud abielus Eestis seaduslikult elava isikuga v&auml;hem kui kolm aastat , antava t&auml;htajalise elamisloa kehtivusaeg ei tohi &uuml;letada &uuml;hte aastat ja seda elamisluba pikendatakse kolmel aastal iga aasta j&auml;rel .</s><s>V&auml;lismaalasele , kes on olnud abielus Eestis seaduslikult elava isikuga kauem kui kolm aastat , antava elamisloa kehtivusaeg ei tohi &uuml;letada kolme aastat .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 4 ) Abikaasa juurde elama asumiseks antud elamisluba pikendatakse , kui abielu ja perekonna sissetulek vastab k&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes nimetatud tingimustele .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 5 ) Abikaasa juurde elama asumiseks antud elamisluba t&uuml;histatakse v&otilde;i keeldutakse selle pikendamisest , kui abielu lahutatakse v&otilde;i abielu ei vasta k&auml;esoleva paragrahvi 1. l&otilde;ikes kehtestatud tingimustele .</s><s>Elamisloa v&otilde;ib t&uuml;histada viie aasta jooksul esimese elamisloa andmisest arvates .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 6 ) T&auml;htajalist elamisluba omava v&auml;lismaalase abikaasale elamisloa andmisel k&auml;esoleva seaduse &sect; 12 2. l&otilde;ike alusel ning nimetatud alusel antud elamisloa pikendamisel ja t&uuml;histamisel kohaldatakse j&auml;rgmisi lisatingimusi :</s>
+</p>
+<p>
+<s>1 ) talle antava t&auml;htajalise elamisloa kehtivusaeg ei tohi &uuml;letada tema abikaasa t&auml;htajalise elamisloa kehtivusaega ;</s>
+</p>
+<p>
+<s>2 ) talle antud t&auml;htajalise elamisloa pikendamisest keeldutakse , kui tema abikaasale antud t&auml;htajalist elamisluba ei pikendata ;</s>
+</p>
+<p>
+<s>3 ) talle antud t&auml;htajaline elamisluba t&uuml;histatakse samaaegselt tema abikaasa t&auml;htajalise elamisloa t&uuml;histamisega ;</s>
+</p>
+<p>
+<s>4 ) talle ei anta alalist elamisluba , v&auml;lja arvatud juhul , kui tema abikaasa on saanud alalise elamisloa v&otilde;i Eesti kodakondsuse .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">2</hi> .</s><s>Elamisloa andmine &otilde;ppimiseks</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalasele v&otilde;idakse anda elamisluba &otilde;ppima asumiseks Eestis asuvasse &otilde;ppeasutusse kuni &uuml;heks aastaks ning nimetatud v&auml;lismaalast ei arvata sisser&auml;nde piirarvu alla .</s><s>Nimetatud v&auml;lismaalase elamisluba pikendatakse , kui elamisloa andmise alus ei ole &auml;ra langenud , kuid mitte rohkem , kui kuueks aastaks kokku .</s>
+</p>
+<p>
+<s>( 2 ) Eestis &otilde;ppimiseks antud elamisluba t&uuml;histatakse , kui selle andmise alus on &auml;ra langenud .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud v&auml;lismaalase Eestis &otilde;ppimise aega ei arvestata alalise elamisloa saamiseks vajaliku Eestis elamise aja hulka , kui nimetatud v&auml;lismaalane on saanud hiljem elamisloa muul k&auml;esoleva seaduse &sect; 12 1. v&otilde;i 2. l&otilde;ikes nimetatud alusel .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">3</hi> .</s><s>Elamisloa andmine elama asumiseks Eestis elava l&auml;hedase sugulase juurde</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalasele v&otilde;idakse anda elamisluba elama asumiseks Eestis seaduslikult elava l&auml;hedase sugulase juurde j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) alaealise lapse elama asumiseks Eestis seaduslikult elava vanema juurde ;</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>2 ) vanema v&otilde;i vanavanema elama asumiseks t&auml;isealise lapse v&otilde;i lapselapse juurde , kui ta vajab hooldust ja tal ei ole v&otilde;imalik seda saada oma asukohaj&auml;rgses riigis v&otilde;i muus riigis ning tema Eestis seaduslikult viibiva lapse v&otilde;i lapselapse legaalne sissetulek tagab tema &uuml;lalpidamise Eestis ;</s>
+</p>
+<p>
+<s>3 ) eestkostetava elama asumiseks eestkostja juurde , kui eestkostja legaalne sissetulek tagab tema &uuml;lalpidamise Eestis .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 2 ) Elamisluba , mis on antud elama asumiseks Eestis elava l&auml;hedase sugulase juurde , t&uuml;histatakse v&otilde;i keeldutakse selle pikendamisest , kui :</s>
+</p>
+<p>
+<s>1 ) elamisloa andmise alus on &auml;ra langenud ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud juhul isik , kelle juurde v&auml;lismaalane elama asus , ei taga v&auml;lismaalase &uuml;lalpidamist Eestis .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>( 3 ) T&auml;htajalist elamisluba omava v&auml;lismaalase l&auml;hedasele sugulasele elamisloa andmisel k&auml;esoleva seaduse &sect; 12 1. l&otilde;ike punkti 3 alusel ning nimetatud alusel antud elamisloa pikendamisel ja t&uuml;histamisel kohaldatakse j&auml;rgmisi lisatingimusi :</s>
+</p>
+<p>
+<s>1 ) talle antava t&auml;htajalise elamisloa kehtivusaeg ei tohi &uuml;letada selle l&auml;hedase sugulase t&auml;htajalise elamisloa kehtivusaega , kelle juurde ta elama asub ;</s>
+</p>
+<p>
+<s>2 ) talle antud t&auml;htajalise elamisloa pikendamisest keeldutakse , kui ei pikendata sellele l&auml;hedasele sugulasele antud t&auml;htajalist elamisluba , kelle juurde ta elama asus ;</s>
+</p>
+<p>
+<s>3 ) talle antud t&auml;htajaline elamisluba t&uuml;histatakse samaaegselt selle l&auml;hedase sugulase t&auml;htajalise elamisloa t&uuml;histamisega , kelle juurde ta elama asus ;</s>
+</p>
+<p>
+<s>4 ) talle ei anta alalist elamisluba , v&auml;lja arvatud juhul , kui l&auml;hedane sugulane , kelle juurde ta elama asus , on saanud alalise elamisloa v&otilde;i Eesti kodakondsuse .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">4</hi> .</s><s>Elamisloa andmine v&auml;lismaalasele , kelle legaalne sissetulek tagab tema &auml;raelamise</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalasele , kelle legaalne sissetulek tagab tema &auml;raelamise , v&otilde;idakse anda t&auml;htajaline elamisluba kuni kaheks aastaks , kui elamisloa andmine on p&otilde;hjendatud ega kahjusta Eesti riigi huve .</s><s>Nimetatud v&auml;lismaalasele ei anta Eestis t&ouml;&ouml;tamiseks t&ouml;&ouml;luba .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud v&auml;lismaalase elamisluba v&otilde;idakse pikendada kahe aasta v&otilde;rra , kui elamisloa pikendamisel tema legaalne sissetulek tagab tema &auml;raelamise ja kui elamisloa andmine on p&otilde;hjendatud ega kahjusta Eesti riigi huve .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>T&ouml;&ouml;luba</s>
+</p>
+<p>
+<s>( 1 ) Eestis t&ouml;&ouml;tamiseks peab v&auml;lismaalasel olema t&ouml;&ouml;luba , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Eestis t&ouml;&ouml;tamiseks loetakse tulumaksuseaduse ( RT I 1993 , 79 , 1184 ; 1998 , 9 , 111 ; 28 , 353 ja 354 ; 34 , 485 ja 489 ; 40 , 612 ; 51 , 757 ; 28 , 354 ; 61 , 979 ; 103 , 1699 ; 34 , 485 ; 1999 , 4 , 51 ; 10 , 150 ; 16 , 270 ja 273 ; 27 , 383 ja 393 ) m&otilde;istes residendist v&otilde;i mitteresidendist v&auml;lismaalase tegevust f&uuml;&uuml;silisest isikust ettev&otilde;tjana Eestis v&otilde;i t&ouml;&ouml;tamist t&ouml;&ouml;lepingu , t&ouml;&ouml;ettev&otilde;tulepingu v&otilde;i muu lepingu alusel Eestis .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;luba ei ole Eestis t&ouml;&ouml;tamiseks vaja :</s>
+</p>
+<p>
+<s>1 ) v&auml;lismaalasel , kellel on alaline elamisluba ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lismaalasel , kes on saabunud Eestisse kuni &uuml;heks aastaks Vabariigi Valitsuse v&otilde;i tema poolt volitatud valitsusasutuse kutsel koost&ouml;&ouml;- v&otilde;i abiprogrammi t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva seaduse &sect; 20 1. l&otilde;ikes nimetatud v&auml;lismaalasel .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;lismaalane , kes soovib saada elamisluba Eestis t&ouml;&ouml;tamiseks , v&otilde;i t&ouml;&ouml;andja , kes soovib v&auml;lismaalast t&ouml;&ouml;le v&otilde;tta ( edaspidi t&ouml;&ouml;andja ) , peab enne t&ouml;&ouml;loa taotlemist saama n&otilde;usoleku Vabariigi Valitsuse volitatud valitsusasutuselt .</s><s>Nimetatud valitsusasutus j&auml;tab n&otilde;usoleku andmata , kui v&auml;lismaalane , kes soovib saada elamisluba k&auml;esoleva seaduse &sect; 12 1. l&otilde;ike punkti 1 alusel , konkureerib Eesti t&ouml;&ouml;j&otilde;uturul ning tema t&ouml;&ouml;lev&otilde;tmine ei ole , arvestades olukorda Eesti t&ouml;&ouml;j&otilde;uturul , p&otilde;hjendatud .</s>
+</p>
+<p>
+<s>( 5 ) Kui v&auml;lismaalasele antakse elamisluba t&ouml;&ouml;tamiseks k&auml;esoleva seaduse &sect; 12 1. l&otilde;ike punkti 1 alusel , m&auml;&auml;ratakse t&ouml;&ouml;loaga kindlaks v&auml;lismaalase Eestis t&ouml;&ouml;tamise tingimused .</s><s>T&ouml;&ouml;loaga kindlaksm&auml;&auml;ratud t&ouml;&ouml;tamise tingimuste muutumisel t&uuml;histab Vabariigi Valitsuse volitatud valitsusasutus t&ouml;&ouml;loa ja kolme kuu p&auml;rast ka elamisloa .</s>
+</p>
+<p>
+<s>( 6 ) T&ouml;&ouml;luba ei anta v&auml;lismaalasele , kellel puudub seaduslik alus Eestis viibimiseks .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Elamis- ja t&ouml;&ouml;loa l&otilde;petamine ja t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Elamis- ja t&ouml;&ouml;luba l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) t&auml;htaja saabumisel ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lismaalasele Eesti kodakondsuse andmisel v&otilde;i taastamisel ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lismaalase surma v&otilde;i surnuks tunnistamise korral .</s>
+</p>
+<p>
+<s>( 2 ) Elamis- ja t&ouml;&ouml;luba t&uuml;histatakse :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 12 4. l&otilde;ikes ning 9. l&otilde;ike punktides 1 ja 2 loetletud juhtudel ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lismaalase isikliku sooviavalduse alusel ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lismaalase viibimisel v&auml;ljaspool Eestit rohkem kui 183 p&auml;eva aasta jooksul kokku juhul , kui v&auml;lismaalane ei ole registreerinud oma eemalviibimist Eestist Vabariigi Valitsuse kehtestatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>&sect; 14 <hi rend="sup">1</hi> .</s><s>Elamis- ja t&ouml;&ouml;lubade andmise korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsus kehtestab m&auml;&auml;rusega :</s>
+</p>
+<p>
+<s>1 ) elamis- ja t&ouml;&ouml;loa taotlemise , andmise , pikendamise ning t&uuml;histamise korra ja selle t&auml;itmist tagavate valitsusasutuste ja vastavate valitsusasutuste ametnike p&auml;devuse ;</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 68 )</s>
+</p>
+<p>
+<s>2 ) k&auml;esolevas seaduses s&auml;testatud legaalse sissetuleku m&auml;&auml;rad ;</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva seaduse &sect; 15 1. ja 2. l&otilde;ikes nimetatud informeerimise korra .</s>
+</p>
+<p>
+<s>( 2 ) Siseminister kehtestab m&auml;&auml;rusega :</s>
+</p>
+<p>
+<s>1 ) elamis- ja t&ouml;&ouml;loa taotluste ning nende pikendamise taotluste vormid ;</s>
+</p>
+<p>
+<s>2 ) elamis- ja t&ouml;&ouml;loa andmete v&auml;lismaalase reisidokumenti kandmise ja kande annulleerimise vormid ;</s>
+</p>
+<p>
+<s>3 ) elamis- ja t&ouml;&ouml;loa uude reisidokumenti &uuml;lekandmise korra .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 14 <hi rend="sup">2</hi> .</s><s>Elamis- ja t&ouml;&ouml;loa andmise , pikendamise ja t&uuml;histamise p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus otsustab t&auml;htajalise ja alalise elamisloa ning t&ouml;&ouml;loa andmise v&otilde;i andmisest keeldumise , pikendamise v&otilde;i pikendamisest keeldumise v&otilde;i t&uuml;histamise .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus otsustab erandina elamisloa andmise , andmisest keeldumise v&otilde;i elamisloa pikendamisest keeldumise , kui taotleja on &ldquo; Eesti Vabariigi ja Vene F&ouml;deratsiooni vahelise Kokkuleppe Vene F&ouml;deratsiooni relvaj&otilde;udude pension&auml;ride sotsiaalsete tagatiste k&uuml;simustes Eesti Vabariigi territooriumil &rdquo; ( RT II 1995 , 46 , 203 ) artikli 2 punktis 3 m&auml;rgitud , t&auml;psustatud ja Eesti poolt aktsepteeritud nimekirjas .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 68 )</s>
+</p>
+<p>
+<s>V peat&uuml;kk</s>
+</p>
+<p>
+<s>Teadaandmine ning &otilde;iguslik vastutus</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Teadaandmine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalane on kohustatud informeerima Vabariigi Valitsuse volitatud riigiasutusi j&auml;rgmistest tema elamisloa aluseks olevatest asjaoludest :</s>
+</p>
+<p>
+<s>1 ) alalise elukoha muutustest ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;lepingu ennet&auml;htaegsest l&otilde;petamisest ;</s>
+</p>
+<p>
+<s>3 ) perekonnaseisu muutustest ;</s>
+</p>
+<p>
+<s>4 ) &otilde;ppeasutusest eksmatrikuleerimisest v&otilde;i &otilde;pingute katkestamisest .</s>
+</p>
+<p>
+<s>( 2 ) Allpool nimetatud subjektid on kohustatud informeerima Vabariigi Valitsuse volitatud riigiasutusi j&auml;rgmistest v&auml;lismaalasi puudutavatest asjaoludest :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;andja : t&ouml;&ouml;lepingu ennet&auml;htaegsest l&otilde;petamisest ;</s>
+</p>
+<p>
+<s>2 ) &otilde;ppeasutus : &otilde;ppuri eksmatrikuleerimisest , &otilde;pingute l&otilde;petamisest v&otilde;i katkestamisest ;</s>
+</p>
+<p>
+<s>3 ) &otilde;iguskaitse asutus : tema p&auml;devusse kuuluvatest &otilde;iguserikkumistest ;</s>
+</p>
+<p>
+<s>4 ) kohus : kuritegudest , mille eest on m&otilde;istetud vabadusekaotus kestusega &uuml;le &uuml;he aasta ;</s>
+</p>
+<p>
+<s>5 ) perekonnaseisuakte registreeriv asutus : perekonnaseisu muutustest .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>&Otilde;iguslik vastutus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse rikkumise eest kannab v&auml;lismaalane haldusvastutust haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ; 49 , 305 ; 54 , 351 ; 55 , 361 ; 10 , 58 ; 54 , 346 ; 84 , 533 ; 58 , 376 ; 86 , 544 ; 86 , 548 ; 95 , 609 ; 51 , 321 ; 54 , 348 ; 54 , 351 ; 95 , 613 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lismaalast v&otilde;idakse kohustada Eesti Vabariigi territooriumilt v&auml;lja s&otilde;itma ning keelata sisses&otilde;it Eestisse v&auml;ljas&otilde;idukohustuse ja sisses&otilde;idukeelu seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 21.10.98 j&otilde;ust.01.04.99 - RT I 1998 , 98/99 , 1575 )</s>
+</p>
+<p>
+<s>( 3 ) Eestis ebaseaduslikult viibiva v&auml;lismaalase kohta peetakse arvestust kuni tema Eestist lahkumiseni v&otilde;i Eestis elamisloa saamiseni .</s><s>Arvestuse pidamise kord ja arvestuskaardi vorm kehtestatakse siseministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>&sect; 16 <hi rend="sup">1</hi> .</s><s>V&auml;lismaalase Eestis viibimise ja Eestist lahkumisega seotud kulude kandmine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalane v&otilde;i isik , kelle kutsel v&auml;lismaalane saabus Eestisse ( edaspidi kutsuja ) , on kohustatud kandma v&auml;lismaalase Eestis viibimise ja Eestist lahkumise kulud , sealhulgas transpordikulud , mis kantakse seoses v&auml;lismaalase Eestist v&auml;ljasaatmisega .</s><s>Nimetatud kohustuse t&auml;itmata j&auml;tmisel on v&auml;lismaalane v&otilde;i kutsuja kohustatud h&uuml;vitama riigile nimetatud kulud .</s>
+</p>
+<p>
+<s>( 2 ) Isik , kes transportis v&otilde;i kelle esindaja transportis v&auml;lismaalase , kellel puudus Eesti piirile saabumisel Eestis viibimise seaduslik alus v&otilde;i piiri&uuml;letamist v&otilde;imaldav dokument ( edaspidi vedaja ) , on kohustatud Eesti piirilt tagasisaadetava v&auml;lismaalase toimetama tagasi samasse kohta , kust vedaja v&auml;lismaalase transpordivahendile v&otilde;ttis , v&otilde;i v&auml;lismaalase asukohariiki .</s><s>Selle v&otilde;imatusel on vedaja kohustatud h&uuml;vitama riigile v&auml;lismaalase Eestis viibimise ja Eestist lahkumisega seotud kulud .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes nimetatud kulude riigile h&uuml;vitamata j&auml;tmisel n&otilde;utakse kulud sisse kulud kandnud valitsusasutuse poolt kohtu korras .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;lismaalase Eestisse kutsumiseks loa andmisel , v&auml;lismaalasele Eestis viibimiseks seadusliku aluse andmisel ja tema Eestisse sisenemise lubamisel v&otilde;ib Vabariigi Valitsuse volitatud valitsusasutus n&otilde;uda k&auml;esoleva paragrahvi 1. v&otilde;i 2. l&otilde;ikes nimetatud kohustuse t&auml;itmise tagamiseks v&auml;lismaalase , kutsuja v&otilde;i vedaja garantiid Vabariigi Valitsuse kehtestatud ulatuses ja korras .</s><s>N&otilde;uetekohase garantii puudumisel keeldutakse v&auml;lismaalase Eestisse kutsumiseks loa andmisest , v&auml;lismaalasele Eestis viibimiseks seadusliku aluse andmisest ja tema Eestisse sisenemiseks loa andmisest .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes nimetatud kulude h&uuml;vitamise korra ja ulatuse kehtestab Vabariigi Valitsus .</s><s>Vahendid riigi poolt k&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes nimetatud kulude kandmiseks n&auml;hakse ette Vabariigi Valitsuse volitatud valitsusasutuste eelarves .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>VI peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Isikukood</s>
+</p>
+<p>
+<s>V&auml;lismaalasele , kellele on antud elamisluba , antakse Vabariigi Valitsuse volitatud valitsusasutuse poolt isikukood .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>V&auml;lisesinduste t&ouml;&ouml;tajad</s>
+</p>
+<p>
+<s>V&auml;lisriikide diplomaatiliste esinduste ja konsulaarasutuste t&ouml;&ouml;tajate ja nende perekonnaliikmete viibimise ja t&ouml;&ouml;tamise Eestis s&auml;testavad v&auml;lislepingud ja muud rahvusvahelise &otilde;iguse aktid .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Elamis- ja t&ouml;&ouml;lubade register</s>
+</p>
+<p>
+<s>Elamis- ja t&ouml;&ouml;loa ning nende pikendamise taotluste , Eestisse elama asumise kutsete , elamis- ja t&ouml;&ouml;loa t&uuml;histamise taotluste , elamis- ja t&ouml;&ouml;loa andmete uude reisidokumenti &uuml;lekandmise taotluste , Eestist eemalviibimise registreerimise taotluste ning nende suhtes tehtud otsuste , samuti elamis- ja t&ouml;&ouml;loa t&uuml;histamise otsuste kohta peetakse riiklikku elamis- ja t&ouml;&ouml;lubade registrit .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Enne 1995. aasta 12. juulit elamisluba taotlenud v&auml;lismaalase &otilde;iguslikud tagatised</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalasele , kes on taotlenud elamisluba enne 1995. aasta 12. juulit ja kellele on elamisluba antud ning kes ei kuulu v&auml;lismaalaste seaduse paragrahv 12 4. l&otilde;ikes nimetatud v&auml;lismaalaste hulka , s&auml;ilivad varasemates Eesti Vabariigi &otilde;igusaktides s&auml;testatud &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud v&auml;lismaalane ei vaja tema t&auml;htajalise elamisloa kehtivusaja jooksul Eestis t&ouml;&ouml;tamiseks t&ouml;&ouml;luba ning tal on &otilde;igus taotleda alalist elamisluba Vabariigi Valitsuse kehtestatud tingimustel ja korras alates 1998. aasta 12. juulist .</s><s>Taotlus alalise elamisloa saamiseks tuleb esitada v&auml;hemalt &uuml;ks kuu enne v&auml;lismaalasele antud t&auml;htajalise elamisloa l&otilde;ppemist .</s>
+</p>
+<p>
+<s>( 23.09.97 j&otilde;ust.26.10.97 - RT I 1997 , 73 , 1202 ; 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 ; 16.06.99 j&otilde;ust.23.06.99 - RT I 1999 , 54 , 582 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Sisser&auml;nde piirarvu mittekohaldamine</s>
+</p>
+<p>
+<s>V&auml;ljaspool sisser&auml;nde piirarvu v&otilde;ib elamisloa anda v&auml;lismaalasele , kellele elamisloa andmine on p&otilde;hjendatud ega kahjusta Eesti riigi huve ja kes asus Eestisse elama enne 1990. aasta 1. juulit ja ei ole p&auml;rast nimetatud t&auml;htaega lahkunud elama m&otilde;nda teise riiki .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.10.99 - RT I 1999 , 27 , 395 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Kohaliku omavalitsuse kohustus elamisloa vormistamisel</s>
+</p>
+<p>
+<s>Kohalik omavalitsus on kohustatud j&auml;lgima , et omavalitsuse territooriumil viibiva v&auml;lismaalase elamisluba oleks vormistatud vastavalt k&auml;esolevale seadusele ja Vabariigi Valitsuse kehtestatud korrale ning t&auml;htajaks .</s><s>Vastasel juhul on kohalik omavalitsus kohustatud sellest informeerima volitatud riigiasutust .</s>
+</p>
+<p>
+<s>( 18.05.94 j&otilde;ust.10.06.94 - RT 1994 , 41 , 658 ; 27.06.95 j&otilde;ust.21.07.95 - RT I 1995 , 57 , 981 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>T&ouml;&ouml;andja kohustus t&ouml;&ouml;loa vormistamisel</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja on kohustatud j&auml;lgima , et tema juures t&ouml;&ouml;tava v&auml;lismaalase t&ouml;&ouml;luba oleks vormistatud vastavalt k&auml;esolevale seadusele ja Vabariigi Valitsuse kehtestatud korrale ning t&auml;htajaks .</s><s>Vastasel juhul on t&ouml;&ouml;andja kohustatud v&auml;lismaalase vallandama , informeerides sellest volitatud riigiasutust .</s>
+</p>
+<p>
+<s>( 18.05.94 j&otilde;ust.10.06.94 - RT 1994 , 41 , 658 ; 27.06.95 j&otilde;ust.21.07.95 - RT I 1995 , 57 , 981 )</s>
+</p>
+<p>
+<s>&sect; 23 <hi rend="sup">1</hi> .</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>Juriidilise isiku poolt v&auml;lismaalase ilma t&ouml;&ouml;loata t&ouml;&ouml;lev&otilde;tmise eest Eestis , juhul kui t&ouml;&ouml;luba on n&otilde;utav , - m&auml;&auml;ratakse rahatrahv 10 000 kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 23 <hi rend="sup">2</hi> .</s><s>Juriidilise isiku haldus&otilde;iguserikkumise asja menetlemine</s>
+</p>
+<p>
+<s>Juriidilise isiku haldus&otilde;iguserikkumise asja menetlemine toimub haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ; 49 , 305 ; 54 , 351 ; 55 , 361 ; 10 , 58 ; 54 , 346 ; 84 , 533 ; 58 , 376 ; 86 , 544 ; 86 , 548 ; 95 , 609 ; 51 , 321 ; 54 , 348 ; 54 , 351 ; 95 , 613 ) etten&auml;htud korras , arvestades k&auml;esolevas seaduses s&auml;testatud erisusi .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 23 <hi rend="sup">3</hi> .</s><s>Juriidilisele isikule haldus&otilde;iguserikkumise protokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 23 <hi rend="sup">1</hi> s&auml;testatud haldus&otilde;iguserikkumise kohta v&otilde;ib juriidilisele isikule protokolli koostada kodakondsus- ja migratsiooniametnik v&otilde;i politseiametnik .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud haldus&otilde;iguserikkumise protokollis n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) protokolli koostamise aeg ja koht ning selle j&auml;relevalveasutuse nimetus ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>2 ) protokolli koostanud isiku ametinimetus ning ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>3 ) haldus&otilde;iguserikkujaks olnud juriidilise isiku nimetus ja aadress ning tema p&auml;deva esindaja ametikoht , ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>5 ) viide k&auml;esoleva seaduse paragrahvile , mis n&auml;eb ette vastutuse haldus&otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>6 ) haldus&otilde;iguserikkumist t&otilde;endavad materjalid , nagu tunnistajate seletused v&otilde;i teised asja lahendamiseks vajalikud materjalid ;</s>
+</p>
+<p>
+<s>7 ) m&auml;rkus selle kohta , et haldus&otilde;iguserikkujale on selgitatud tema &otilde;igusi ja kohustusi ;</s>
+</p>
+<p>
+<s>8 ) muud andmed , mis on haldus&otilde;iguserikkumise asja lahendamiseks vajalikud .</s>
+</p>
+<p>
+<s>( 3 ) Protokollile kirjutavad alla selle koostaja ja &otilde;iguserikkuja p&auml;dev esindaja .</s><s>Kui haldus&otilde;iguserikkuja esindaja keeldub protokollile alla kirjutamast ja seletust andmast , teeb protokolli koostaja protokollile sellekohase m&auml;rkuse .</s><s>Kui haldus&otilde;iguserikkuja esindaja seda n&otilde;uab , lisatakse protokollile tema m&auml;rkused protokolli kohta .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 23 <hi rend="sup">4</hi> .</s><s>Juriidilise isiku haldus&otilde;iguserikkumise asja arutamine</s>
+</p>
+<p>
+<s>Juriidilise isiku haldus&otilde;iguserikkumise asjas on asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus halduskohtunikul .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 23 <hi rend="sup">5</hi> .</s><s>F&uuml;&uuml;silise isiku vastutus juriidilise isiku haldus&otilde;iguserikkumise asjas</s>
+</p>
+<p>
+<s>Kui f&uuml;&uuml;siline isik pani toime k&auml;esoleva seaduse &sect;-s 23 <hi rend="sup">1</hi> nimetatud teo , tegutsedes juriidilise isiku nimel v&otilde;i huvides , v&otilde;ib selle rikkumise asjas kohaldada karistust f&uuml;&uuml;silisele ja juriidilisele isikule samaaegselt .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 23 <hi rend="sup">6</hi> .</s><s>Juriidilisele isikule halduskaristuse m&auml;&auml;ramise aegumist&auml;htaeg</s>
+</p>
+<p>
+<s>Halduskaristust v&otilde;ib juriidilisele isikule m&auml;&auml;rata kuue kuu jooksul haldus&otilde;iguserikkumise avastamise p&auml;evast arvates , kuid mitte hiljem kui aasta m&ouml;&ouml;dumisel &otilde;iguserikkumise p&auml;evast .</s>
+</p>
+<p>
+<s>( 17.05.2000 j&otilde;ust.01.08.2000 - RT I 2000 , 40 , 254 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Muudatused varasemates seadustes</s>
+</p>
+<p>
+<s>Arvates k&auml;esoleva seaduse j&otilde;ustumisest :</s>
+</p>
+<p>
+<s>1 ) haldus&otilde;iguserikkumiste seadustiku ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ; 49 , 305 ; 54 , 351 ; 55 , 361 ; 10 , 58 ; 54 , 346 ; 84 , 533 ; 58 , 376 ; 86 , 544 ; 86 , 548 ; 95 , 609 ; 51 , 321 ; 54 , 348 ; 54 , 351 ; 95 , 613 ) paragrahv 171 pealkirjas ja 4. l&otilde;ikes asendatakse s&otilde;na &ldquo; Immigratsiooniseaduse &rdquo; s&otilde;nadega &ldquo; V&auml;lismaalaste seaduse &rdquo; ning 1. , 2. ja 3. l&otilde;ikes s&otilde;na &ldquo; t&ouml;&ouml;tamisluba &rdquo; s&otilde;naga &ldquo; t&ouml;&ouml;luba &rdquo; vastavas k&auml;&auml;ndes ;</s>
+</p>
+<p>
+<s>2 ) kirikute ja koguduste seaduse ( RT I 1993 , 30 , 510 ; 44 , 637 ; 1994 , 28 , 425 ) paragrahv 15 4. l&otilde;ikes asendatakse s&otilde;nad &ldquo; Eesti Vabariigi immigratsiooniseaduses &rdquo; ( RT 1990 , 2 , 25 ) s&otilde;nadega &ldquo; V&auml;lismaalaste seaduses &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) tunnistatakse kehtetuks 1990. aasta 26. juuni Eesti Vabariigi immigratsiooniseadus ( RT 1990 , 2 , 25 ) .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub Riigi Teatajas avaldamise p&auml;evast .</s>
+</p>
+</body>
+   </text>
+</tei.2>

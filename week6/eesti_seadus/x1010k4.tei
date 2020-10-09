@@ -1,0 +1,628 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Riigireservi seadus ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    2302</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Riigireservi seadus ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=16></tagusage>
+         <tagusage gi=p occurs=174></tagusage>
+         <tagusage gi=s occurs=221></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Riigireservi seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 23. novembril 1994. a.</s>
+</p>
+<p>
+<s>( RT I 1994 , 91 , 1529 ; terviktekst RT I 1998 , 95 , 1514 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 30. detsembril 1994. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>05.12.2001 j&otilde;ust.06.01.2002 - RT I 2001 , 100 , 646 ;</s>
+</p>
+<p>
+<s>21.02.2001 j&otilde;ust.29.03.2001 - RT I 2001 , 26 , 147 ;</s>
+</p>
+<p>
+<s>22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk .</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Riigireservi seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>( 1 ) Riigireservi seadus m&auml;&auml;rab kindlaks riigireservi liigid ja valitsemise korra ning reguleerib suhteid , mis tekivad riigireservi moodustamisel , hoidmisel , uuendamisel ja kasutamisel ning s&auml;testab vastutuse k&auml;esoleva seaduse rikkumise eest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolev seadus on aluseks teistele riigireservi reguleerivatele &otilde;igusaktidele .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Riigireservi m&otilde;iste</s>
+</p>
+<p>
+<s>Riigireserv on Eesti Vabariigi julgeolekut ja s&otilde;ltumatust tagav materiaalsete ressursside ning tehniliste vahendite ( edaspidi ressursid ) kogum , mis v&otilde;etakse kasutusele h&auml;daolukorras ja s&otilde;jaseisukorra ajal.</s><s>H&auml;daolukorra lahendamiseks v&otilde;ib olla vajalik eriolukorra v&otilde;i erakorralise seisukorra v&auml;ljakuulutamine .</s>
+</p>
+<p>
+<s>( 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Riigireservi liigid</s>
+</p>
+<p>
+<s>Eesti Vabariigi riigireserv koosneb julgeoleku- , ettev&otilde;tja tegevus- , munitsipaal- ja mobilisatsioonivarudest .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Julgeolekuvaru m&otilde;iste</s>
+</p>
+<p>
+<s>Julgeolekuvaru on riigi k&auml;sutuses olev ressursside kogum , mis v&otilde;etakse kasutusele elanike elutegevuse tagamiseks h&auml;daolukorras ja ka kaitsev&auml;e vajaduste rahuldamiseks s&otilde;jaseisukorra ajal.</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 ; 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>&sect; 4 <hi rend="sup">1</hi> .</s><s>Ettev&otilde;tja tegevusvaru m&otilde;iste</s>
+</p>
+<p>
+<s>Ettev&otilde;tja tegevusvaru on ettev&otilde;tja k&auml;sutuses olev kindlaksm&auml;&auml;ratud ressursside kogum , mis tagab kehtestatud aja jooksul tootmistegevuse v&otilde;i teenuste osutamise j&auml;tkumise eriolukorra , erakorralise seisukorra v&otilde;i s&otilde;jaseisukorra v&auml;ljakuulutamisel .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 ; 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Munitsipaalvaru m&otilde;iste</s>
+</p>
+<p>
+<s>Munitsipaalvaru on kohaliku omavalitsuse k&auml;sutuses olev ressursside kogum , mis v&otilde;etakse kasutusele kohaliku omavalitsuse haldusterritooriumil asuvate elanike elutegevuse tagamiseks h&auml;daolukorras .</s>
+</p>
+<p>
+<s>( 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Mobilisatsioonivaru m&otilde;iste</s>
+</p>
+<p>
+<s>Mobilisatsioonivaru on Eesti Vabariigi seaduste alusel kaitsevajadusteks loodud vajalike ressursside kogum , mis v&otilde;etakse kasutusele kaitsev&auml;e vajadusteks s&otilde;jaseisukorra ja mobilisatsiooni v&auml;ljakuulutamisel .</s><s>Mobilisatsioonivaru mittemilitaarseid ressursse v&otilde;ib kasutada elanikkonna vajadusteks h&auml;daolukorras .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 ; 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Riigireservi moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Riigireservi moodustamine julgeoleku- , ettev&otilde;tja tegevus- , munitsipaal- ja mobilisatsioonivaruna toimub k&auml;esoleva seaduse ja teiste &otilde;igusaktide alusel .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>( 2 ) Riigireservialast tegevust koordineerib ja kontrollib Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Riigireservi kohustuslikkus</s>
+</p>
+<p>
+<s>Riigireservi moodustamine , hoidmine , uuendamine ja kasutamine toimub k&auml;esolevas seaduses ja sellele vastavates &otilde;igusaktides etten&auml;htud korras .</s><s>Riigireservi moodustamine , hoidmine ja vastavate lepingute s&otilde;lmimine on ettev&otilde;tjale kohustuslik .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 9. ( Kehtetu - 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Julgeolekuvaru moodustamine , hoidmine , uuendamine , kasutamine ja finantseerimine</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 10. ( Kehtetu - 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 10 <hi rend="sup">1</hi> .</s><s>Julgeolekuvaru haldamine ja valdkonnad</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuvaru omanik on riik .</s>
+</p>
+<p>
+<s>( 2 ) Ministeeriumid , kes korraldavad julgeolekuvaru moodustamist , hoidmist , uuendamist , kasutamist , finantseerimist ja sellega seotud haldamistegevust , on j&auml;rgmised :</s>
+</p>
+<p>
+<s>1 ) ( Kehtetu - 21.02.2001 j&otilde;ust.29.03.2001 - RT I 2001 , 26 , 147 )</s>
+</p>
+<p>
+<s>2 ) P&otilde;llumajandusministeerium - toiduainete osas ;</s>
+</p>
+<p>
+<s>3 ) Sotsiaalministeerium - ravimite ja meditsiinivahendite osas ;</s>
+</p>
+<p>
+<s>4 ) Siseministeerium - tulekustutus- ja p&auml;&auml;stevahendite ning varustuse osas .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 ; 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>&sect; 10 <hi rend="sup">2</hi> .</s><s>Julgeolekuvaru moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuvaru hoidjad , julgeolekuvaru moodustamise ajakava , koosseisu ja sortimendi kinnitab Vabariigi Valitsus .</s><s>Ettepanekud Vabariigi Valitsusele esitavad julgeolekuvaru korraldavad ministeeriumid koosk&otilde;lastatult Siseministeeriumiga .</s>
+</p>
+<p>
+<s>( 05.12.2001 j&otilde;ust.06.01.2002 - RT I 2001 , 100 , 646 )</s>
+</p>
+<p>
+<s>( 2 ) Ressursside ostu julgeolekuvarusse teostab julgeolekuvaru korraldav ministeerium .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 10 <hi rend="sup">3</hi> .</s><s>Julgeolekuvaru kogused</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuvaru koosseisu kuuluvate ressursside vajadus m&auml;&auml;ratakse miinimum- ja maksimumkogustes .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuvarude miinimumkogused peavad olema tagatud igal ajamomendil .</s><s>Maksimumkoguseid v&otilde;ib v&auml;hendada miinimumkogusteni varude uuendamise eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 3 ) Julgeolekuvarusse kuuluvate ressursside miinimum- ja maksimumkogused kinnitab Vabariigi Valitsus julgeolekuvaru korraldavate ministeeriumide ettepanekul .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 11. ( Kehtetu - 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Julgeolekuvaru hoidja vastutus</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuvaru hoidja , kelle hoiul on julgeolekuvaru , kannab varalist vastutust vara riknemise v&otilde;i kaotsimineku eest .</s><s>Ta vabaneb vastutusest vara mittes&auml;ilimise eest , kui selle tingis v&auml;&auml;ramatu j&otilde;ud .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuvaru omavolilise kasutamise , varude uuendamis- ja hoiueeskirjade mittet&auml;itmise eest julgeolekuvaru hoidjale kui juriidilisele isikule - m&auml;&auml;ratakse rahatrahv kuni 100 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Julgeolekuvaru kasutamine</s>
+</p>
+<p>
+<s>Julgeolekuvaru kasutamine ning ressursside v&auml;ljaandmine toimub :</s>
+</p>
+<p>
+<s>1 ) eriolukorra ajal eriolukorra juhi korraldusel ;</s>
+</p>
+<p>
+<s>2 ) erakorralise seisukorra ajal erakorralise seisukorra juhi korraldusel ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;jaseisukorra ajal Vabariigi Valitsuse poolt kehtestatud korras ;</s>
+</p>
+<p>
+<s>4 ) h&auml;daolukorras julgeolekuvaru haldava ministri korraldusel .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 ; 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Julgeolekuvaru uuendamine</s>
+</p>
+<p>
+<s>Julgeolekuvaru uuendamist teostavad julgeolekuvaru korraldavad ministeeriumid .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 14 <hi rend="sup">1</hi> .</s><s>Salastatus</s>
+</p>
+<p>
+<s>Julgeolekuvaru kogused ja paigutus on salastatud .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 14 <hi rend="sup">2</hi> .</s><s>Koolitus</s>
+</p>
+<p>
+<s>Ametnike ja elanikkonna julgeolekuvarualast koolitust teostavad julgeolekuvaru korraldavad ministeeriumid .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Julgeolekuvaru finantseerimine</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuvaru moodustamist , hoidmist ja uuendamist finantseeritakse julgeolekuvaru korraldavate ministeeriumide eelarvete kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuvaru finantseerimise allikateks on :</s>
+</p>
+<p>
+<s>1 ) julgeolekuvaru uuendamisel vana varu v&otilde;i varu mittevajaliku osa realiseerimisest saadavad vahendid ;</s>
+</p>
+<p>
+<s>2 ) &uuml;hekordsed sihtotstarbelised eraldised riigieelarvest ;</s>
+</p>
+<p>
+<s>3 ) sihtotstarbelised eraldised riigieelarvest , mis on laekunud aktsiisimaksust .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>2 <hi rend="sup">1</hi> . peat&uuml;kk .</s>
+</p>
+<p>
+<s>Ettev&otilde;tja tegevusvaru</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">1</hi> .</s><s>Ettev&otilde;tja tegevusvaru moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tja tegevusvaru moodustavad Vabariigi Valitsuse kinnitatud valdkondades tootmistegevuse v&otilde;i teenuste osutamisega tegelevad ettev&otilde;tjad .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tja tegevusvaru moodustavate ettev&otilde;tjate nimekirja kinnitab Vabariigi Valitsus julgeolekuvaru korraldavate ministeeriumide ettepanekul ja vastavate ettev&otilde;tjate n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 3 ) Ettev&otilde;tja tegevusvaru arvel tootmistegevuse ja teenuste osutamise aja pikkuse kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 4 ) Ettev&otilde;tja tegevusvaru koosseis , sortiment ja kogused tootmistegevuse v&otilde;i teenuste osutamise j&auml;tkamiseks m&auml;&auml;ratakse igaks aastaks julgeolekuvaru korraldava ministeeriumi ja ettev&otilde;tja vahel s&otilde;lmitava lepinguga .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 ; 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">2</hi> .</s><s>Ettev&otilde;tja tegevusvaru omanik</s>
+</p>
+<p>
+<s>Ettev&otilde;tja tegevusvaru omanik on tegevusvaru moodustanud ettev&otilde;tja .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">3</hi> .</s><s>Ettev&otilde;tja tegevusvaru hoidmine</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tja hoiab tegevusvaru julgeolekuvaru korraldava ministeeriumiga v&otilde;i tema volitatud isikuga s&otilde;lmitud lepinguga kindlaksm&auml;&auml;ratud tingimustel .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tja hoiab tegevusvaru tingimustel , mis tagavad nende koguse ja kvaliteedi s&auml;ilimise .</s><s>Ressursse , mille hoidmiseks on kehtestatud eeskirjad , hoiab ettev&otilde;tja nende eeskirjade n&otilde;uetele vastavalt .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">4</hi> .</s><s>Ressursside v&auml;ljaarvamine ettev&otilde;tja tegevusvarust</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tja tegevusvaru koguse v&auml;hendamine toimub julgeolekuvaru korraldava ministeeriumi n&otilde;usolekul lepingu muutmise v&otilde;i uue lepingu s&otilde;lmimise alusel .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tjale tema tootmise v&otilde;i tegevuse muutumisel mittevajalikuks osutunud ressursside tegevusvarust v&auml;ljaarvamine toimub julgeolekuvaru korraldava ministeeriumi n&otilde;usolekul lepingu muutmise alusel , milles m&auml;&auml;ratakse vajadusel uue tegevusvaru kohene moodustamine vastavalt muutunud tootmise v&otilde;i tegevuse vajadustele .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">5</hi> .</s><s>Ettev&otilde;tja tegevusvaru kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tja tegevusvaru v&otilde;etakse kasutusele eriolukorra , erakorralise seisukorra v&otilde;i s&otilde;jaseisukorra v&auml;ljakuulutamisel .</s>
+</p>
+<p>
+<s>( 22.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 613 )</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tja tegevusvarusse arvatud ressursse v&otilde;ib nende omanik kasutada tootmisvajaduseks julgeolekuvaru korraldava ministeeriumiga s&otilde;lmitud lepingu tingimustel , milles m&auml;&auml;ratakse kindlaks ka tegevusvaru taastamise kord ja t&auml;htajad .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">6</hi> .</s><s>Ettev&otilde;tja tegevusvaru finantseerimine</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tja tegevusvaru moodustamise , hoidmise ja uuendamise kulud on ettev&otilde;tja kui tegevusvaru omaniku kanda .</s>
+</p>
+<p>
+<s>( 2 ) Lepingu alusel teistest samaliigilistest ressurssidest eraldi hoitava ettev&otilde;tja tegevusvaru hoiukulud tasub julgeolekuvaru korraldav ministeerium vastavalt s&otilde;lmitud lepingu tingimustele .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Munitsipaalvaru moodustamine , hoidmine ja kasutamine</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Munitsipaalvaru moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Kohalik omavalitsus m&auml;&auml;rab oma piirkonnas munitsipaalvaru moodustamise korra , koosseisu , kogused ja finantseerimise .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus moodustab munitsipaalvaru ja s&otilde;lmib ettev&otilde;tjatega selle ostmiseks , hoidmiseks ja uuendamiseks vastavad lepingud .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Munitsipaalvaru omanik</s>
+</p>
+<p>
+<s>( 1 ) Munitsipaalvaru on kohaliku omavalitsuse omand .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus korraldab aruandluse ja kontrollib munitsipaalvaru moodustamist ja hoidmist .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Munitsipaalvaru hoidmine</s>
+</p>
+<p>
+<s>Kohalik omavalitsus hoiab munitsipaalvaru temale kuuluvates ladudes ja hoidlates v&otilde;i tema poolt s&otilde;lmitud lepingute alusel teistes ladudes ja hoidlates .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Munitsipaalvaru hoidja vastutus</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tja kannab varalist vastutust munitsipaalvaru riknemise v&otilde;i kaotsimineku eest .</s><s>Ta vabaneb vastutusest varu mittes&auml;ilimise eest , kui selle tingis v&auml;&auml;ramatu j&otilde;ud .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>( 2 ) Munitsipaalvaru omavolilise kasutamise , varude uuendamise ja hoidmise eeskirjade mittet&auml;itmise eest munitsipaalvaru hoidjale kui juriidilisele isikule - m&auml;&auml;ratakse rahatrahv kuni 75 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Munitsipaalvaru kasutamine</s>
+</p>
+<p>
+<s>Munitsipaalvaru kasutuselev&otilde;tu otsustab ning ressursside v&auml;ljaandmise ulatuse ja korra m&auml;&auml;rab kohalik omavalitsus .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Munitsipaalvaru uuendamine</s>
+</p>
+<p>
+<s>Munitsipaalvarus olevad ressursid kuuluvad nende hoidmise eeskirjades etten&auml;htud aja m&ouml;&ouml;dudes neid hoidvate ettev&otilde;tjate poolt uuendamisele v&auml;ljavahetamise teel uute samav&auml;&auml;rsete ressursside vastu .</s>
+</p>
+<p>
+<s>( 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Mobilisatsioonivaru moodustamine , hoidmine ja kasutamine</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Mobilisatsioonivaru moodustamine</s>
+</p>
+<p>
+<s>Mobilisatsioonivaru moodustamise korra , koosseisu ja kogused kehtestab Vabariigi Valitsus Kaitseministeeriumi ettepanekul .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Mobilisatsioonivaru omanik</s>
+</p>
+<p>
+<s>( 1 ) Mobilisatsioonivaru on riigi omand .</s>
+</p>
+<p>
+<s>( 2 ) Mobilisatsioonivaru koosseis , kogused ja muud andmed on salastatud .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Mobilisatsioonivaru hoidmine</s>
+</p>
+<p>
+<s>( 1 ) Mobilisatsioonivaru hoidmise korraldab Kaitseministeerium .</s>
+</p>
+<p>
+<s>( 2 ) Kaitseministeerium koostab juhendid ja eeskirjad oma ladudes ja hoidlates hoiul asuva mobilisatsioonivaru s&auml;ilitamiseks , uuendamiseks ja kvaliteedi tagamise kontrolliks .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Mobilisatsioonivaru kasutamine</s>
+</p>
+<p>
+<s>Mobilisatsioonivaru kasutuselev&otilde;tu otsustab Vabariigi Valitsus , ressursside v&auml;ljaandmise ulatuse ja korra m&auml;&auml;rab Kaitseministeerium .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Mobilisatsioonivaru uuendamine</s>
+</p>
+<p>
+<s>( 1 ) Mobilisatsioonivarus olevad ressursid kuuluvad nende hoidmise eeskirjades etten&auml;htud aja m&ouml;&ouml;dudes Kaitseministeeriumi poolt uuendamisele v&auml;ljavahetamise teel uute samav&auml;&auml;rsete ressursside vastu .</s>
+</p>
+<p>
+<s>( 2 ) Mobilisatsioonivarust v&auml;ljavahetatud varade kasutamise korra ja viisi m&auml;&auml;rab kindlaks Kaitseministeerium .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Mobilisatsioonivaru finantseerimine</s>
+</p>
+<p>
+<s>( 1 ) Mobilisatsioonivaru moodustamise , hoidmise ja uuendamisega seotud kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 2 ) Uuendamise v&otilde;i v&auml;hendamise eesm&auml;rgil l&auml;biviidavast mobilisatsioonivaru realiseerimisest saadavad rahalised vahendid suunatakse riigieelarvesse .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk .</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) Teraviljaseaduses ( RT I 1994 , 48 , 789 ; 91 , 1529 ; 1996 , 48 , 941 ; 49 , 953 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahv 3 1. l&otilde;ike punktid 4 ja 5 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>2 ) paragrahv 3 2. l&otilde;ike punktist 3 j&auml;etakse v&auml;lja s&otilde;na &ldquo; sealhulgas &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahv 3 2. l&otilde;ike punkt 5 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>4 ) paragrahv 5 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 10.06.98 j&otilde;ust.01.10.98 - RT I 1998 , 60 , 952 )</s>
+</p>
+<p>
+<s>( 3 ) Haldus&otilde;iguserikkumiste seadustiku ( RT 1992 , 29 , 396 ; 1997 , 66-68 , 1109 ; 73 , 1201 ; 81 , 1361 , 1362 ; 86 , 1459 , 1461 ; 87 , 1466 , 1467 ; 93 , 1561 , 1564 , 1565 ; 1998 , 2 , 42 ; 17 , 265 ; 23 , 321 ; 30 , 410 ; 34 , 484 ; 36/37 , 552 , 553 ; 38 , 562 ; 51 , 756 ; 52/53 , 771 ; 51 , 759 ; 60 , 951 , 952 ) paragrahv 164 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; Paragrahv 164.</s><s>Riigireservi ebaseaduslik kasutamine</s>
+</p>
+<p>
+<s>Riigireservis olevate riigivarade , julgeoleku- , munitsipaal- ja mobilisatsioonivarude ebaseadusliku kasutamise eest riigi- , era- ja munitsipaalettev&otilde;tete juhtide poolt - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses . &rdquo;</s>
+</p>
+<p>
+<s>( 4 ) Kriminaalkoodeksit ( RT 1992 , 20 , 288 ; 1997 , 21/22 , 353 ; 87 , 1468 ; 1998 , 17 , 265 ; 30 , 412 ; 51 , 756 , 759 ) t&auml;iendatakse paragrahviga 151 <hi rend="sup">5</hi> ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; Paragrahv 151 <hi rend="sup">5</hi> .</s><s>Riigireservi ebaseaduslik kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Riigireservi omavolilise kasutamise eest , kui sellega p&otilde;hjustati oluline kahju v&otilde;i kui s&uuml;&uuml;dlase suhtes oli samasuguse rikkumise eest kohaldatud distsiplinaar- v&otilde;i halduskaristust , - karistatakse rahatrahviga v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui sellega p&otilde;hjustati suur kahju v&otilde;i muu raske tagaj&auml;rg - karistatakse rahatrahviga v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni viie aastani . &rdquo;</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> RT = Riigi Teataja = State Gazette</s>
+</p>
+</body>
+   </text>
+</tei.2>

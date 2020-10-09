@@ -1,0 +1,227 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Sealtmaalt</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 30602; s&otilde;nu: 3299</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Sealtmaalt</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=134></tagusage>
+         <tagusage gi=s occurs=350></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body>
+<div0 type='tervikteos'><head>Sealtmaalt</head>
+<p><bibl><author><s>Karen Orlau</s></author></bibl></p>
+<p> <s>Neid , kes surevad noorelt , armastab jumal . </s> </p>
+<p> <s>Etso surus otsaesise vastu vihmast m&auml;rga kivi . </s> <s> Selle jahedus leevendas tuikamist meelekohtades , kuid ei summutanud h&auml;&auml;li : </s> </p>
+<p> <s> " Etso , tule ujuma ! </s> <s> Ma ei taha &uuml;ksi minna ! </s> <s> Tahan koos sinuga ! " </s> </p>
+<p> <s> " Kuidas see ometi juhtus ? ! </s> <s> Nad olid ju kahekesi ! </s> <s> Annike ei l&auml;inud poisist sammugi eemale ... " </s> </p>
+<p> <s>K&otilde;ige valjemini k&otilde;las Annikese isa vaikimine . </s> </p>
+<p> <s>Annike oli Etso parim s&otilde;ber . </s> <s> Ainuke s&otilde;ber . </s> <s> Nad m&auml;ngisid koos , ehitasid onne ja parvetasid m&otilde;nikord salaja H&uuml;lgesaarele . </s> <s> K&uuml;las nendevanuseid ei olnud , nad olid kahekesi ja kuulusid &uuml;ksteisele . </s> <s> Peaaegu nagu vend ja &otilde;de , aga nende vahel oli midagi enamat . </s> </p>
+<p> <s>Etso oli t&auml;nulik , et Annikese isa ja ema nende salajastest m&auml;ngudest ei teadnud . </s> <s> Need l&otilde;id erilise l&auml;hedusetunde , mida saladuse hoidmine s&uuml;vendas . </s> <s> Annike oli tema oma ... &uuml;leni . </s> </p>
+<p> <s>Kalda talu vanas k&uuml;&uuml;nis oli neil heina sees pesa . </s> <s> Seal oli nii soe , et riideid ei l&auml;inud vajagi . </s> </p>
+<p> <s>Poiss m&otilde;tles heinal&otilde;hnalistele sosinatele , sellele , kuidas Annikese keha h&otilde;&otilde;gus . </s> <s> Kujutluspilt oli nii elav , et ta v&otilde;is t&uuml;druku naeru peaaegu kuulda . </s> </p>
+<p> <s>Annike ei n&auml;inud surnud v&auml;lja , kui ta kaldale toodi . </s> <s> Isa v&otilde;ttis t&uuml;druku s&uuml;lle ja viis ta m&ouml;&ouml;da karjamaad &uuml;les , koju . </s> </p>
+<p> <s>Etso tajus , et see &auml;raviimine oli l&otilde;plik , sellisena ei kuulunud Annike enam talle . </s> <s> &Uuml;ks p&auml;ev maailmas , kus Annikest ei olnud , oli talumatu . </s> <s> Selliseid p&auml;evi oli ees hirmutavalt palju , &uuml;ksteise j&auml;rel ootamas , et oma hallis m&otilde;ttetuses &uuml;le Etso veereda . </s> </p>
+<p> <s>Kivi kriimustas otsaesist . </s> <s> Valu viis m&otilde;tted mujale . </s> <s> Etso l&otilde;i peaga vastu kivi . </s> <s> Veel kord . </s> <s> Ja siis veel kord . </s> <s> Esimene verepiisk , mis otsaesiselt voolas , segunes esimeste pisaratega . </s> <s> Ema &uuml;tles , et mehed ei nuta , aga Etso ei nutnudki , vaid karjus nagu loom ja rand kajas hirmunult vastu . </s> </p>
+<p> <s>Peale raevukat vastuhakku tuli tuimus . </s> <s> Poiss kulges uimases &auml;raolekus ja klammerdus pisiasjadesse : m&auml;rkas &uuml;llatusega , mis maitse on vanal leival ja m&otilde;tles selle &uuml;le , istus vee&auml;mbrite ees ja silmitses kopsiku emaileeritud vart , unustas ennast terveks p&auml;rastl&otilde;unaks aknaklaasil jooksvaid vihmaniresid vaatama . </s> <s> Matusep&auml;eva saabumist ta ei m&auml;rganudki . </s> </p>
+<p> <s>Etso alistus &auml;raolevalt , kui ema talle t&auml;rgeldatud valge s&auml;rgi ja piduliku &uuml;likonna selga pani . </s> <s> Kui ema poisi juukseid kammis , oli peeglist vastuvaatav n&auml;gu oma hajameelsuses peaaegu t&otilde;sine . </s> </p>
+<p> <s>Siis sai ta korraga aru , mida nad tegema l&auml;hevad . </s> <s> Tuimuse kaitsekiht kadus ja reaalsus muutus j&auml;lle peaaegu talumatuks . </s> </p>
+<p> <s>Esimesel omapead j&auml;etud hetkel p&otilde;genes Etso metsa . </s> <s> Jooksis m&ouml;&ouml;da p&otilde;llutaguseid kaasikuid Kalda heinak&uuml;&uuml;ni ja puges seal pessa . </s> </p>
+<p> <s> " Annike ... " </s> <s> Sosin oli harras palve . </s> <s> " Annike , palun , &auml;ra sure ! " </s> <s> Ta kordas seda algul l&auml;bi kurgus valutava nutu , p&auml;rast &uuml;ha unisemalt , kuni magama j&auml;i . </s> </p>
+<p> <s>Kui ta &auml;rkas , oli juba &ouml;&ouml; . </s> <s> Annike oli maetud . </s> <s> Pesa aga oli soe ja t&auml;is t&uuml;druku l&otilde;hna . </s> <s> Etso kargas p&uuml;sti . </s> <s> Annikese l&otilde;hn oli nii elav ja h&otilde;&otilde;guv , see t&auml;hendas midagi ! </s> <s> L&otilde;hn ei saanud ilma t&uuml;druku eneseta nii elus olla ... </s> </p>
+<p> <s>Siis korraga tuli selgus : Okasroosike ! </s> <s> Annike ei olnud surnud , ta ainult magas ja ootas printsi , kes teda p&auml;&auml;stma tuleks . </s> <s> Etso pidi kiirustama . </s> </p>
+<p> <s>Tegutsemises oli tohutu kergendus . </s> <s> Lootuses veel suurem . </s> </p>
+<p> <s>K&uuml;&uuml;niuks k&auml;&auml;ksatas , kui Etso suve&ouml;&ouml;sse sukeldus nagu s&auml;ravate silmadega nirk . </s> </p>
+<p> <s>Rohutirtsud siristasid l&auml;bil&otilde;ikavalt . </s> <s> Leesi surnuaia &otilde;hk oli angervaksade ja elupuude l&otilde;hnast raske , aga jahe ja s&otilde;bralik . </s> <s> Meretuul silitas Etso n&auml;gu . </s> <s> Ta oli &auml;revil ja kummaliselt r&otilde;&otilde;mus ning see r&otilde;&otilde;m peegeldus vastu isegi surnuaiamaastikult . </s> <s> Suve&ouml;&ouml;l&otilde;hnad r&auml;&auml;kisid temaga selgelt ja tungivalt . </s> </p>
+<p> <s>T&ouml;&ouml;riistakuuri uks ei olnud lukus , seda hoidis ainult puup&ouml;&ouml;r . </s> <s> Etso leidis l&uuml;hikese varrega istutamislabida . </s> <s> See oli poisi jaoks j&otilde;ukohasem kui hauakaevajate t&ouml;&ouml;riist , mis oli peaaegu sama pikk kui ta ise . </s> </p>
+<p> <s>Annikese hauda ei olnud raske leida : v&auml;rske lillekuhil paistis kaugele silma . </s> </p>
+<p> <s>Etso ladus p&auml;rjad hoolikalt haua k&otilde;rvale virna , paljastas liiva ja hakkas seda otse valge puuristi alt k&uuml;hveldama . </s> </p>
+<p> <s>Pealtpoolt oli liiv pehmem ja Etso polnud v&auml;sinud . </s> <s> Mida edasi , seda raskemaks l&auml;ks . </s> <s> Labidavars h&otilde;&otilde;rus p&ouml;idlak&uuml;lgedele villid ja need hakkasid valutama , kui liiv marrasnahale kogunes ja kaevamisel h&otilde;&otilde;rus . </s> </p>
+<p> <s>V&auml;ljas l&auml;ks aina valgemaks . </s> <s> Linnud hakkasid laulma . </s> </p>
+<p> <s>Kui Etso labidas vastu kirstukaant l&otilde;i , oli poiss rampv&auml;sinud . </s> <s> &Otilde;&otilde;nes kopsatus andis j&otilde;udu juurde ja ta puhastas palavikulise kiirusega kirstu liivast , surus s&otilde;rmed kaane alla ja t&otilde;mbas . </s> </p>
+<p> <s>Annike lebas valgete l&auml;ikivate pitside vahel , seljas pidulik kleit , mida Etso polnud varem n&auml;inud . </s> <s> T&uuml;druk oli nii v&otilde;&otilde;ras , et Etso sattus h&auml;mmeldusse . </s> <s> M&auml;ngukaaslase tavaliselt &otilde;hetav n&auml;gu , mille ilme oli muutlik nagu kevadine ilm , oli liikumatu ja sinakasvalge nagu oleks see savist voolitud ja &uuml;le v&auml;rvitud . </s> </p>
+<p> <s>Ometi olid nad j&auml;lle koos . </s> <s> Ja ta oli ikkagi Okasroosike . </s> <s> Etso sirutas k&auml;e v&auml;lja ja puudutas Annikese n&auml;gu . </s> <s> See oli ootamatult k&uuml;lm . </s> <s> Ta pigistas silmad kinni ja surus huuled surnu p&otilde;sele . </s> <s> See oli niiske , ja hirmutava maitsega , mis tuletas meelde rasket haigust ja kibedate rohtude l&otilde;hna . </s> <s> Poiss vaatas t&uuml;drukule pingsalt otsa ning hetkeks tundus , et surnu ripsmed liigahtasid . </s> <s> V&otilde;i siiski mitte ? </s> </p>
+<p> <s>Paistis , et p&otilde;semusist ei piisanud Okasroosikese &auml;ratamiseks . </s> </p>
+<p> <s>Nad olid muuhulgas ka " seda " varem proovinud , aga midagi head selles ei olnud . </s> <s> Keelele j&auml;i veider vesine maitse ja pealegi purskas Annike naerma ja puhus Etsole naeru kurku . </s> </p>
+<p> <s>Aga kui see oli Okasroosikese &auml;ratamise reegel , siis tuli seda t&auml;ita . </s> <s> Ja kuigi Annike tookord naerma hakkas , oli selles ikkagi olnud midagi erilist . </s> <s> Ainult et n&uuml;&uuml;d olid ta huuled k&uuml;lmad ja niisked nagu t&uuml;kk poest toodud sealiha . </s> <s> Ja see l&otilde;hn ... </s> <s> &Uuml;le Etso kukla lendas tahtmatu v&auml;rin . </s> </p>
+<p> <s>Ta sulges silmad ja puudutas huultega Annikese suud . </s> </p>
+<p> <s>Midagi ei juhtunud . </s> </p>
+<p> <s>Ja siis juhtus k&otilde;ik . </s> </p>
+<p> <s>Kui Etso j&auml;rgmisel p&auml;eval koju j&otilde;udis , pidulik &uuml;likond m&auml;&auml;rdunud , vaikides , kuid aeg-ajalt veidralt naeratades , viis ema ta linna . </s> </p>
+<p> <s>Etso harjus heasoovlikkust &otilde;hkuvate arstit&auml;didega , m&otilde;ne aja p&auml;rast oskas ta neile p&auml;ris h&auml;sti vastata . </s> <s> P&otilde;hiliselt selleks , et ema rahustada . </s> <s> Ema oli murelik ja see tegi Etso kurvaks . </s> <s> Samas ei osanud poiss emale seletada enda &uuml;ksindust , r&auml;&auml;kimata sellest , mida ta iga p&auml;ev ootas . </s> <s> See oleks pannud k&otilde;ik need heatahtlikud arstit&auml;did heatahtlikkusest &uuml;le keema ja muutnud ema veelgi murelikumaks . </s> </p>
+<p> <s>Etso ei kavatsenud sellest kunagi kellelegi r&auml;&auml;kida . </s> <s> See polnud teadlik otsus , vaid enesestm&otilde;istetav tabu . </s> <s> Saladus , mis hoidis end ise salajas . </s> </p>
+<p> <s>Ta teadis , et saab &otilde;htul Annikesega kokku . </s> <s> Oli tarvis ainult oodata , kuni k&otilde;ik teised magama j&auml;&auml;vad , ja ta leiab Annikese enda k&otilde;rvalt . </s> </p>
+<p> <s> " Sa oled p&auml;riselt tagasi ? " </s> </p>
+<p> <s> " Muidugi p&auml;riselt . " </s> <s> Annike n&auml;pistab Etsot , nii et hommikul on poisi k&auml;sivarrel sinine plekk . </s> </p>
+<p> <s> " Aga mitte p&auml;ris p&auml;riselt ? </s> <s> Hommikul l&auml;hed sa ju j&auml;lle &auml;ra ? " </s> </p>
+<p> <s> " Nii on lihtsam . " </s> <s> Annike on hetkeks kurb , aga see kaob ta n&auml;olt j&auml;rgmise naeratusega . </s> </p>
+<p> <s>Aga ta oli t&otilde;esti tagasi ja nii igal &ouml;&ouml;sel , mil Etso teda igatses . </s> <s> Etso igatses alati . </s> <s> Annike oli Etsole k&otilde;ik , mida s&otilde;ber ja t&uuml;druk v&otilde;ib &uuml;hele poisile olla . </s> <s> Ja veel midagi , aga selle kohta ei olnud s&otilde;nu . </s> <s> Nagu aitaksid tabud end ka &otilde;igete s&otilde;nade puudumisega saladuses hoida . </s> </p>
+<p> <s>Etso vastupanust hoolimata otsustasid vanemad arstide soovitusi kuulda v&otilde;tta ja linna j&auml;&auml;da . </s> <s> Et poiss saaks omavanustega suhelda ja leiaks uued s&otilde;brad . </s> </p>
+<p> <s>Etso ei suhelnud omavanustega ega leidnud uusi s&otilde;pru . </s> </p>
+<p> <s>Linn rusus Etsot , kes oli harjunud vaikuse , vabaduse ja rahuga , mida pakkusid rand ning &uuml;mberkaudsed sood ja metsad . </s> <s> Seal oli k&otilde;ik enesestm&otilde;istetav , ta kuulus sinna ja oli oluline , linnas oli ta mitte keegi . </s> <s> Ta ei leidnud &uuml;hist keelt &uuml;hegagi oma neljak&uuml;mnest uuest klassikaaslasest , t&otilde;mbus endasse ega suhelnud l&otilde;puks &uuml;ldse kellegagi . </s> <s> M&otilde;ned korrad anti talle selle eest peksa . </s> <s> Ta l&otilde;i vastu &auml;kilise ja hoolimatu raevuga , mis ajas t&uuml;linorijatele tavaliselt hirmu nahka , ning ka kaklejad &otilde;ppisid temast eemale hoidma . </s> </p>
+<p> <s>Tihti juhtus , et Etso ei l&auml;inud kooli , vaid s&otilde;itis bussiga linnaserva ja hulkus seal , kuni oli aeg koju tagasi minna . </s> <s> Linna&auml;&auml;rne mets m&otilde;jus koduselt , kuigi polnud siiski puutumatu ; kuuskede all vedeles prahti , mis muutis metsa v&otilde;luj&otilde;u haavatavaks , kohati peaaegu olematuks . </s> <s> Tihti t&otilde;i tuul temani maanteel s&otilde;itvate autode h&auml;&auml;li . </s> <s> Ta ihkas s&uuml;gavat laant , mis oleks linnast nii kaugel , et miski sealt temani ei ulataks . </s> </p>
+<p> <s>Etso oli &otilde;nnelik , kui sai n&auml;dalavahetuseks maale , ja t&otilde;mbus kurjav&otilde;itu kaitsekihi alla , kui pere p&uuml;hap&auml;eva &otilde;htul tagasi linna j&otilde;udis . </s> <s> Linn oli vaenlane . </s> <s> K&otilde;ik , kellega ta pidi seal kokku puutuma , olid vaenlased . </s> </p>
+<p> <s>&Otilde;nneks olid &ouml;&ouml;d ja &otilde;nneks oli temaga Annike . </s> <s> Annikesega koos oli lihtne leida kunagist vabadust . </s> </p>
+<p> <s>Siis avastas Etso raamatud ning p&otilde;genes nendesse . </s> <s> Ta ei n&otilde;udnud enam nii sageli , et nad maale tagasi l&auml;heksid , ja vanemad arvasid , et poiss hakkab kohanema . </s> <s> Tegelikult k&auml;is ta raamatuid lugedes lihtsalt " &auml;ra " ja linn ei seganud teda enam nii v&auml;ga . </s> </p>
+<p> <s>Raamatud olid veel &uuml;ks tee Annikeseni . </s> <s> Piisas sellest , et reaalsuse piirid lagunesid , kui Annike oli sealsamas . </s> <s> M&otilde;nes raamatus oli maagia , mis l&otilde;i samasuguse silla Sinna , nagu unigi . </s> <s> Annike tuli alati , kui Etso silla avas . </s> </p>
+<p> <s>N&uuml;&uuml;d ei hulkunud ta poppi tehes enam linnaservas , vaid ronis keldrisse ja v&otilde;ttis poolelioleva raamatu kaasa . </s> <s> Ta peitis end kastide taha ning luges madalast aknast langeva valguse paistel . </s> </p>
+<p> <s>Annike seisis sealsamas ta selja taga &mdash; Etso tundis juba l&otilde;hnast , millal ta tuli &mdash; ja pani talle k&auml;ed &uuml;mber kaela . </s> </p>
+<p> <s>Raamatute lummus viis Etso loogilise j&auml;tkuna Taaralinna kooli . </s> <s> Sealt leidis ta endalegi &uuml;llatuseks m&otilde;ttekaaslaseid ning avastas , et tema &uuml;ksindus ei olnud enam nii j&auml;&auml;gitu . </s> <s> Oli inimesi , t&otilde;eliseid , elavaid inimesi , kellega ta oskas ja tahtis suhelda . </s> </p>
+<p> <s>Ann oli &uuml;ks neist . </s> </p>
+<p> <s>Ann tundus oma heledate juuste ja hallide silmadega metsikuv&otilde;itu haldjana . </s> <s> Ta oli energiline , etteaimamatu ja sageli lausa v&auml;sitavalt tujukas , aga see meeldis Etsole . </s> <s> Erinevalt Annikesest , kes j&auml;i nukulokkidega plikatirtsuks , oli Ann oma v&auml;rskeltpuhkenud naiselikkuses salap&auml;rane ja ligit&otilde;mbav . </s> <s> Ta viis Etso m&otilde;tted ikka ja j&auml;lle valusale teemale : Annike oli endiselt v&auml;ike t&uuml;druk , samal ajal kui Etso polnud ammu enam laps . </s> <s> Nad olid nii l&auml;hedased , et varem ei pannud nad seda t&auml;helegi , aga n&uuml;&uuml;d , kui poiss Anni n&auml;gi ... veelgi enam , temaga iga p&auml;ev kokku sai : loengus , raamatukogus , kohvikus . </s> <s> M&otilde;nikord k&auml;isid nad kinos ja &uuml;ha sagedamini Toomem&auml;el jalutamas . </s> </p>
+<p> <s>Pahatihti juhtus , et Etso &ouml;&ouml;sel Annikest ei kutsunud . </s> <s> Soovis k&uuml;ll talle m&otilde;elda , aga vaimusilma ette joonistus Anni n&auml;gu . </s> <s> Nagu iseenesest hakkas Etso keha kuumama . </s> <s> Ta fantaasiates segunesid kujutluspildid Anni naiselikust kehast m&auml;lestustega Annikese l&auml;hedusest , Kalda heinak&uuml;&uuml;ni soojusest ja l&otilde;hnadest ning lapsep&otilde;lvesaladuse erutusest . </s> <s> Uni tuli p&auml;rast kiiresti , kuid oli rahutu : ta n&auml;gi , et hulgub m&ouml;&ouml;da metsa , aga ei olnud kindel , kas Anni v&otilde;i Annikest otsides , ning kartis , et kui ta kedagi kohtab , on see just see , keda ta ei otsinud . </s> </p>
+<p> <s>Unemaailm tundus esimest korda ohtlikuna . </s> </p>
+<p> <s>Nad jalutasid Toomem&auml;el . </s> <s> Ilm oli jahe . </s> <s> Tibutas kerget seenevihma . </s> <s> Anni k&uuml;lmad s&otilde;rmed olid Etso pihus soojas . </s> <s> Nad ei olnud juba pikka aega lausunud &uuml;htegi s&otilde;na , sest &otilde;hus oli midagi , mis muutis iga hetke maagiliseks . </s> </p>
+<p> <s>Etso oli lugenud , kuidas see k&auml;ib . </s> <s> Pikas vaikuses sisaldus v&auml;lja&uuml;tlemata s&otilde;nade eelaimus , t&uuml;druku l&auml;hedus pani vere kiiremini k&auml;ima , see k&otilde;ik oli nii , nagu ta seda ette kujutas . </s> <s> Ainult h&auml;&auml;l tundus selles vaikuses nii v&auml;&auml;ritu , et ta ei saanud s&otilde;nagi suust ja h&auml;benes k&ouml;hatada . </s> </p>
+<p> <s>Etso oli t&auml;nulik , et peale nende polnud m&auml;el kedagi . </s> </p>
+<p> <s> " Selle puu all seal , " m&otilde;tles ta , aga l&uuml;kkas sinna j&otilde;udes otsustava hetke edasi &mdash; j&auml;rgmise ja siis &uuml;lej&auml;rgmise pargipuuni , kuni m&auml;rkas allee teises otsas vanameest , kes neile vastu jalutas . </s> <s> See otsustas asja . </s> </p>
+<p> <s> " Annike ! " puterdas Etso ja surus tugevasti t&uuml;druku k&auml;tt . </s> <s> " Ann ! " parandas ta ennast ruttu ja punastas veel rohkem . </s> <s> &Otilde;nneks ei teadnud t&uuml;druk , et ta Annikese all kedagi teist silmas pidas . </s> </p>
+<p> <s>Et see pidi nii raske olema ! </s> </p>
+<p> <s> " Ann ! </s> <s> Ma armastan sind ! " </s> <s> See k&otilde;las abitult ja vabandavalt ja Etso oli valmis sealsamas maa alla vajuma . </s> <s> Ta peaaegu lootis , et Ann ta v&auml;lja naerab , kuid too h&uuml;ppas pealtn&auml;gijatest hoolimata talle hoopis kaela . </s> <s> Jahmununa heitis Etso k&otilde;&otilde;rdpilgu l&auml;henevale jalutajale . </s> </p>
+<p> <s>Ilmnes , et neid oli n&uuml;&uuml;d kaks . </s> <s> Esimene , taamal n&auml;htud vanem mees , j&auml;tkas muheledes oma teed . </s> </p>
+<p> <s>Teine peatus Etso k&otilde;rval . </s> </p>
+<p> <s>V&auml;ikese t&uuml;druku n&auml;ol oli vihagrimass . </s> <s> Kaame n&auml;gu , huuled paljastatud hammaste kohal kitsasteks kriipsudeks t&otilde;mbunud , silmad ... nagu kaks kiiskavat kivikildu . </s> </p>
+<p> <s> " Sa kutsusid mind ! " sosistas lummutis ja Etso m&otilde;istis alles n&uuml;&uuml;d , et tema ees seisis Annike . </s> <s> Lapsep&otilde;lvekallima n&auml;gu oli moondunud kiskjamaskiks . </s> </p>
+<p> <s>&Otilde;udusunen&auml;gu , kus Etso otsis &uuml;hte , aga leidis teise , oli t&otilde;eks saanud . </s> <s> Ta oli k&uuml;ll m&auml;rganud , et &otilde;hk oli muutunud maagiliseks , kuid polnud sellest &otilde;ieti aru saanud . </s> <s> Alati ei olnud raamatuid vajagi , et Sinnamaale silda luua , m&otilde;nikord piisas selleks ka lihtsalt millestki ... . </s> <s> Ta oli teadmatult silla avanud ja lisaks Annikest kogemata nimepidi kutsunud ... </s> </p>
+<p> <s> " Ma ... ma eksisin , " sosistas Etso haledalt . </s> </p>
+<p> <s> " Mi-da ? " </s> <s> See oli hoopis Ann , kes neid s&otilde;nu kuuldes Etso kaelast lahti lasi . </s> <s> " Mis sa sellega &ouml;elda tahad ? " </s> <s> Annikest n&auml;gemata vaatas ta t&uuml;drukust lihtsalt l&auml;bi . </s> <s> Tema n&auml;gu oli &uuml;ksainus &otilde;nnetus ja etteheide . </s> </p>
+<p> <s> " Sa ... eksisid ! ? </s> <s> Sa ... sa oled lihtsalt siga ! " </s> <s> Ann p&ouml;&ouml;ras selja ja jooksis &uuml;le Inglisilla . </s> </p>
+<p> <s> " Kas sa tuleksid talle ka j&auml;rele , kui temaga n&uuml;&uuml;d midagi juhtuks ? " sisistas Annike ja kadus . </s> <s> Aga hetk enne seda p&ouml;&ouml;ras ta n&auml;o Inglisilla poole ja Etso teadis , et ta ei l&auml;inud Sinna tagasi . </s> </p>
+<p> <s> " Ann ! </s> <s> Oota ! " </s> <s> Koos k&otilde;nev&otilde;ime taastumisega vabanes Etso tardumusest ja s&ouml;&ouml;stis t&uuml;drukule j&auml;rele . </s> <s> Ta sai Anni k&auml;tte , haaras tal k&otilde;vasti &uuml;mbert kinni ja ei j&auml;tnud enne , kui t&uuml;druk oli andeks andnud . </s> </p>
+<p> <s> " Kelle viirastust sa siis ikkagi n&auml;gid ? " </s> </p>
+<p> <s>Ann lebas Etso k&otilde;rval ja oli &otilde;nnetuseks nii &auml;rkvel kui olla saab . </s> <s> Tiigi &uuml;hika pisike tuba oli peaaegu &uuml;leni nende voodit t&auml;is , kuuvalgus muutis k&otilde;ik v&auml;rvid hallikassinisteks ning alasti t&uuml;druk valgete linade vahel oli nagu marmorskulptuur Veenusest , kes on kivilainete vahel ellu &auml;rganud . </s> </p>
+<p> <s>See ei olnud esimene kord , kui Ann seda k&uuml;sis . </s> <s> Etso oli andekspalumise tuhinas ennast unustanud ja &ouml;elnud , et n&auml;gi Anni selja taga viirastust . </s> <s> " Kelle ? " oli Ann rivaaliohtu tundes kohe p&auml;rinud , endal silmad uudishimust selged . </s> <s> Etso kuulus Annile ja ta ei kavatsenud teda kellegagi jagada . </s> </p>
+<p> <s> " Kust mina tean , keda ! " pomises Etso , aga Anni polnud niisama lihtne petta . </s> </p>
+<p> <s> " &Uuml;tle ikka ! " </s> <s> Ann puges Etsole kaissu nagu kassipoeg ja tihkus &otilde;nnetult : " Sa lihtsalt ei saa minu eest midagi varjata , muidu rikud sa k&otilde;ik &auml;ra . " </s> </p>
+<p> <s>Etso surus t&uuml;druku enda vastu . </s> <s> Kui ta Annist k&otilde;vasti kinni hoidis , leevendus kaotusehirm ja ta tundis ennast peaaegu rahulolevana . </s> </p>
+<p> <s>Koos . </s> <s> Kahekesi . </s> <s> Naisega , kes n&auml;eb v&auml;lja peaaegu selline , nagu Annike oleks v&otilde;inud olla . </s> <s> See t&auml;hendas korraga nii palju , et Etso otsustas r&auml;&auml;kida . </s> </p>
+<p> <s>Ta alustas kobavalt , otsides s&otilde;nu ja sobitades neid loosse , mida ei olnud varem kordagi jutustatud , aga pikapeale leidsid s&otilde;nad endale &otilde;ige koha v&otilde;i Etso lihtsalt leppis nende piiratusega . </s> </p>
+<p> <s> " Ma arvan , et ma ei kartnud . </s> <s> Tegin seda kohuse p&auml;rast , sest olin kindel , et ta selle peale ellu &auml;rkab . </s> <s> Aga kohusetunne oli ainult alguses </s> .... <s> see venis pikemaks , sest ... ma lihtsalt </s> .... <s> ei tahtnud l&otilde;petada . </s> <s> Mingil hetkel muutusid ta huuled soojaks . </s> <s> Siis m&auml;rkasin , et ta suudles vastu . </s> <s> Ja nii me siis ... </s> <s> Ei , ausalt , see k&otilde;lab veidralt . </s> </p>
+<p> <s>Ma ei tea , kaua see kestis . </s> <s> M&otilde;nik&uuml;mmend sekundit v&otilde;ib-olla , aga v&otilde;ib-olla tund ... </s> <s> Siis sirutas ta k&auml;e v&auml;lja ja puudutas mu pead . </s> <s> Tegi silmad lahti . </s> <s> Ta oli t&auml;iesti olemas &mdash; see polnud mingi m&otilde;ttelage zombi , vaid Annike ise . </s> </p>
+<p> <s>Ta hoidis k&auml;tt vastu mu pead ja k&otilde;verdas s&otilde;rmi . </s> <s> Nagu k&auml;si ei tahaks s&otilde;na kuulata . </s> <s> L&otilde;puks sai ta &uuml;he juuksetuti pihku ja t&otilde;mbas selle pea k&uuml;ljest lahti . </s> <s> See pidi valus olema , aga aus&otilde;na , ma ei m&auml;leta seda . </s> <s> Ilmselt ei pannud t&auml;hele . </s> </p>
+<p> <s>Siis pani ta silmad kinni ja k&otilde;ik oli nagu enne . </s> <s> Kuidagi ma teadsin , et pean kirstu kinni panema ja mulla peale k&uuml;hveldama . </s> <s> Ma ei m&otilde;elnud mitte kui midagi ega m&auml;leta isegi seda , kuidas ma sealt koju sain . </s> </p>
+<p> <s>Ja siis ... j&auml;rgmisel &otilde;htul oli ta olemas , niipea , kui ma &uuml;ksi j&auml;in . </s> <s> Hommikul &uuml;tles ta , et peab midagi paluma . </s> <s> Et ei saa muidu enam tagasi tulla . </s> <s> No ja ma siis andsingi . </s> <s> Ma oleks aasta otsa pea peal seisnud , kui ta oleks palunud , kolm veretilka oli selle k&otilde;rval k&ouml;&ouml;mes . </s> </p>
+<p> <s>Sellest alates olime me peaaegu igal &ouml;&ouml;sel koos . </s> </p>
+<p> <s>Aga n&uuml;&uuml;d oled mul sina ja ma ei taha midagi muud . " </s> </p>
+<p> <s>Ann usaldas neis asjus oma sisetunnet ja uskus seet&otilde;ttu iga ta s&otilde;na . </s> <s> V&auml;lja arvatud &uuml;hte : et Annike enam Etso juures ei k&auml;i . </s> <s> Kahtlus kurnas ta peagi l&otilde;plikult &auml;ra . </s> </p>
+<p> <s> " Ma ei suuda seda rohkem kannatada ! " teatas ta j&auml;rjekordse tujuhoo l&otilde;petuseks . </s> <s> " Temast tuleb lahti saada , kas m&otilde;istad ? </s> <s> Ta on ju mingi jubetis . </s> <s> Kummitus . </s> <s> Luupainaja ! </s> <s> Ta on ammuilma surnud ja sina oled suureks kasvanud ! </s> <s> Sa kas oled selles asjas minuga v&otilde;i j&auml;&auml;d &uuml;ldse ilma minuta ja jutul l&otilde;pp . " </s> <s> See oli ultimaatum ja Etso pidi n&otilde;ustuma , kui ta sellise valiku ette seati . </s> </p>
+<p> <s>Nad ootasid , kuni l&auml;ks t&auml;iesti pimedaks ning tuled &uuml;mberkaudsete talude akendes kustusid . </s> <s> &Ouml;&ouml; oli k&otilde;le ja tuuline , segamist ei olnud neil karta . </s> <s> Ainult hullud hulguvad sellise ilmaga &ouml;&ouml;siti ringi . </s> </p>
+<p> <s>Leesi surnuaia raudv&auml;rava ees seisis raske tabalukk , kuid kiviaed oli nii madal , et sellest v&otilde;is ilma suurema vaevata &uuml;le ronida . </s> </p>
+<p> <s>Iidsed p&auml;rnad sirutasid oma raagus oksi vana kiriku poole , mis mustas surnuaiatee l&otilde;pul nagu hoiatus . </s> <s> Vasakut k&auml;tt paistsid viltused raudristid : Etso vanavanemate ja nendegi vanavanemate hauad l&auml;bisegi Annikese esivanemate haudadega . </s> <s> Need ei tervitanud Etsot , nagu varem , vaid hoiatasid : " Vaata ette , poiss , omadele ei lase me liiga teha . " </s> </p>
+<p> <s>Ta leidis Annikese haua kohe &uuml;les , kuigi oli seal ainult &uuml;he korra k&auml;inud . </s> <s> V&auml;ike kivi oli sammaldunud ja haud hooldamata . </s> <s> See tegi haiget . </s> <s> Siis tuli talle meelde , et ka tema on ju tulnud minevikuga l&otilde;pparvet tegema . </s> </p>
+<p> <s>T&ouml;&ouml;riistakuuri puup&ouml;&ouml;r kriuksus samamoodi , nagu kolmteist aastat tagasi . </s> <s> Labidad seisid samas kohas . </s> <s> Ainult et n&uuml;&uuml;d ei vajanud Etso enam v&auml;ikest labidat , hauakaevaja t&ouml;&ouml;riist oli palju k&auml;ep&auml;rasem . </s> </p>
+<p> <s>Nad kaevasid vaikides &mdash; Etso s&uuml;gavalt m&otilde;ttes , Anni n&auml;rimas veider armukadedus ja uudishimu . </s> </p>
+<p> <s>Uudishimu t&otilde;ukas tagant , nagu oleks see t&auml;iesti juhitamatu . </s> <s> Hetkeks sosistas miski alateadvuses , et parem kogu see lugu sinnapaika j&auml;tta ja unustada , kuid see polnud enam tema v&otilde;imuses &mdash; see painas meeli nagu t&otilde;eline needus . </s> </p>
+<p> <s>Labidas puutus vastu sisselangenud kirstulaudu . </s> <s> Liivane pind oli hoidnud neid t&auml;ielikust k&otilde;dunemisest , aga lauad olid siiski nii pehmed , et need tuli ettevaatlikult k&otilde;rvale p&uuml;hkida . </s> </p>
+<p> <s>Teadmine , mis laudade alt n&auml;htavale tulla v&otilde;ib , ei v&auml;hendanud vaatepildi koledust . </s> <s> Tilluke luukere , hambad irevil , liha olematuks m&auml;danenud , aga veidi riidekudet kontide vahel ikka veel alles . </s> </p>
+<p> <s>Ann tundis , et hakkab kohe oksele . </s> <s> Ent siis m&auml;rkas ta , et luukere parema k&auml;e &auml;mbliks&otilde;rmede vahelt paistis tume tomp ja see m&otilde;jus kainestavalt . </s> <s> Miks ta oli arvanud , et juuksesalk mulla all kolmeteistk&uuml;mne aastaga ei m&auml;&auml;ndu ? </s> </p>
+<p> <s>Esimene puudutus oli v&otilde;imatult j&auml;lk , aga kuidagi sai ta selle tombu siiski k&auml;tte . </s> <s> Uhtus konts&otilde;rmed n&otilde;ia k&auml;est k&uuml;situd veega &uuml;le ja surus nende vahele kuivatatud koirohu&otilde;isiku , nagu &otilde;petatud , toppis siis tombu v&auml;risevate k&auml;tega kilekotti ja ronis hauast v&auml;lja . </s> </p>
+<p> <s>Esimesed labidat&auml;ied , mis ta luudele lennutas , olid kantud p&otilde;levast soovist need kiiremini kinni katta . </s> <s> Miks ta neid k&uuml;ll n&auml;ha tahtnud oli ? </s> <s> Anni pilku v&auml;ltiv Etsogi tundus kaugem kui kunagi varem &mdash; kahvatu , s&uuml;nge ja vaikiv . </s> </p>
+<p> <s>Tegelikult polnud neil kummalgi sel hetkel teise jaoks s&otilde;nu . </s> </p>
+<p> <s> " Etso , &auml;ra n&uuml;&uuml;d vedele , tule ujuma ! " </s> <s> Ann prantsatas liivale ja pani oma m&auml;rja k&auml;e Etso k&otilde;hule . </s> </p>
+<p> <s> " Vesi on vapustavalt soe ! " </s> </p>
+<p> <s>Nojah , Etso teadis seda niigi . </s> <s> T&auml;na lihtsalt ei viitsinud . </s> </p>
+<p> <s> " Pa-alun tule siis n&uuml;&uuml;d ! " </s> <s> Ann p&uuml;&uuml;dis teda k&uuml;lili n&uuml;gida &mdash; ta oli masendavalt j&auml;rjekindel , kui ta midagi tahtis . </s> <s> Aga Etso oli &otilde;ppinud lihtsalt mitte t&auml;hele panema . </s> <s> Pikapeale v&auml;sis isegi Ann . </s> <s> Nagu seegi kord &mdash; ohkas teatraalselt , mossitas hetke ja jooksis siis vette . </s> </p>
+<p> <s>Etso kuulis plartsatust ja solistamist ning sulges p&auml;ikesest rammetuna silmad . </s> </p>
+<p> <s>Soojus silitas keha ja andis vaevatud ajule puhkust . </s> <s> Oli hea lebada ja mitte millelegi m&otilde;elda . </s> <s> M&otilde;tlemine t&auml;hendas m&auml;letamist , enese&otilde;igustusi ja kahetsemist . </s> <s> Ta oli sellest v&auml;sinud . </s> <s> Parem lihtsalt silmad sulgeda ja olla ... niisama . </s> </p>
+<p> <s>Korraga tajus ta , et juba m&otilde;nda aega oli &uuml;mberringi t&auml;iesti vaikne . </s> </p>
+<p> <s>P&auml;ikeserammestus kadus ja Etso kargas jalule . </s> <s> Ta ei n&auml;inud esimese hooga Anni , kuid silmas siis vees ujuja peanuppu . </s> </p>
+<p> <s>Ann oli kaldast kaugele l&auml;inud , kuigi polnud hea ujuja . </s> <s> Aga seal ta n&uuml;&uuml;d oli ja liikus &uuml;ha edasi avamere poole . </s> </p>
+<p> <s>Korraga kuulis Etso h&auml;&auml;li : </s> </p>
+<p> <s> " Ta ei l&auml;inud poisi juurest ju sammugi eemale ! " </s> </p>
+<p> <s> " Nad olid alati koos ! </s> <s> Poiss hoidis Annikesel ilusti silma peal , ma olin tema p&auml;rast p&auml;ris mureta . " </s> </p>
+<p> <s> " Kus Etso siis oli ? </s> <s> Miks ta ei aidanud ? " </s> </p>
+<p> <s>Ta m&auml;letas , et Annike oli j&auml;rsult vee alla kadunud . </s> <s> Ta ei n&auml;inud t&uuml;drukut , ta sukeldus , aga vesi oli h&auml;gune . </s> <s> Ta otsis . </s> <s> Ta t&otilde;usis pinnale , h&uuml;&uuml;dis , sukeldus j&auml;lle ... </s> <s> Ta ju ei teadnud , et hoovus on t&uuml;druku lihtsalt j&auml;rgmisesse muuli kandnud ning et too oli seal peaaegu p&otilde;lvek&otilde;rguses vees ... n&auml;gu allapoole , nagu siis kui nad pommi m&auml;ngisid . </s> </p>
+<p> <s>Ja siis Annikese h&auml;&auml;l : </s> </p>
+<p> <s> " Etso ! </s> <s> Me j&auml;&auml;me alati kokku . </s> <s> Sinuga on k&otilde;ige parem . " </s> </p>
+<p> <s>Annikesega oli k&otilde;ige parem . </s> <s> Annike oli ainuke ja oma . </s> </p>
+<p> <s>Selles , kuidas s&uuml;gavust kartev Ann avamerele ujus , oli midagi veidrat . </s> </p>
+<p> <s>Etso istus liivale ja ootas . </s> <s> Meri sillerdas vara&otilde;htuses p&auml;ikeses ning liivas ja kivides oli igavikuline rahu . </s> </p>
+<p> <s>Ujuja peanupp sulas silmapiiri , v&otilde;ib-olla kadus selle taha . </s> </p>
+<p> <s>P&auml;ike loojus . </s> </p>
+<p> <s>Kui pimenes , kuulis Etso veesolinat : kalda poole ujunud naine t&otilde;usis jalule ja tuli veest v&auml;lja . </s> <s> Ta l&otilde;dises &uuml;leni ja ta keha oli sinakasvalge , kuid kaheldamatult elus . </s> <s> Anni ihaldusv&auml;&auml;rne , naiselike kumerustega keha , kuid tulija ei olnud Ann . </s> </p>
+<p> <s> " Kas ma olen nii ilusam ? " k&uuml;sis ta . </s> </p>
+<p> <s> " Sama ilus kui enne ! " vastas Etso ja naeris . </s> <s> " Ma olen t&otilde;bras . " </s> </p>
+<p> <s>Naine naeratas s&auml;ravalt , nagu oleks Etso &ouml;elnud midagi v&auml;ga meelitavat . </s> </p>
+<p> <s>Surnuaia tagumises nurgas pigistas &uuml;ks k&otilde;dunev luukere vasemas rusikas kolme pikka heledat juuksekarva . </s> <s> Ann ei olnud m&auml;rganudki , et need tal peast t&otilde;mmati . </s> </p> </div0> </body> </text> 

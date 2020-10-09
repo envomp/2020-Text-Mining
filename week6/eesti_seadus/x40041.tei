@@ -1,0 +1,913 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kosmeetikavahendite terviseohutuse kontrollimine ( juuni 2000 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3803</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kosmeetikavahendite terviseohutuse kontrollimine ( juuni 2000 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=9></tagusage>
+         <tagusage gi=p occurs=269></tagusage>
+         <tagusage gi=s occurs=471></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kosmeetikavahendite terviseohutuse kontrollimine</s>
+</p>
+<p>
+<s>Sotsiaalministri 23. detsembri 1999. a m&auml;&auml;rus nr 91</s>
+</p>
+<p>
+<s>( RTL 2000 , 22 , 302 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 19. veebruaril 2000. a.</s>
+</p>
+<p>
+<s>&ldquo; Rahvatervise seaduse &rdquo; ( RT I 1995 , 57 , 978 ; 1996 , 3 , 56 ; 49 , 953 ; 1997 , 37/38 , 569 ; 1999 , 30 , 415 ; 88 , 804 ) paragrahvi 8 l&otilde;ike 2 punkti 13 alusel ja arvestades Euroopa &Uuml;henduste N&otilde;ukogu direktiivi 76/768/EM&Uuml; ( E&Uuml;T L 262 , 27.09.76 ) ning Euroopa &Uuml;henduste Komisjoni direktiive 80/1335/EM&Uuml; ( E&Uuml;T L 383 , 31.12.80 ) , 82/434/EM&Uuml; ( E&Uuml;T L 185 , 30.06.82 ) , 83/514/EM&Uuml; ( E&Uuml;T L 291 , 24.10.83 ) , 85/490/EM&Uuml; ( E&Uuml;T L 295 , 07.11.85 ) , 87/143/EM&Uuml; ( E&Uuml;T L 57 , 27.02.87 ) , 90/207/EM&Uuml; ( E&Uuml;T L 108 , 28.04.90 ) , 93/73/EM&Uuml; ( E&Uuml;T L 231 , 14.09.93 ) , 95/32/E&Uuml; ( E&Uuml;T L 178 , 28.07.95 ) , 96/45/E&Uuml; ( E&Uuml;T L 213 , 22.08.96 ) sotsiaalminister m&auml;&auml;rab :</s>
+</p>
+<p>
+<s>1.</s><s>Kosmeetikavahendite terviseohutust hinnatakse :</s>
+</p>
+<p>
+<s>1 ) Vabariigi Valitsuse 26. novembri 1997. a m&auml;&auml;rusega nr 228 ( RT I 1997 , 94 , 1570 ; 1999 , 37 , 479 ) kehtestatud kohustusliku infopanga andmete kontrollimise alusel ja</s>
+</p>
+<p>
+<s>2 ) kosmeetikavahendite koostisele kehtestatud n&otilde;uete ja kosmeetikavahenditest v&otilde;etud proovide laboratoorse anal&uuml;&uuml;si tulemuste v&otilde;rdlemise alusel .</s>
+</p>
+<p>
+<s>2.</s><s>K&auml;esolev m&auml;&auml;rus kehtestab kosmeetikavahendite terviseohutuse kontrollimiseks ( edaspidi kontrollimiseks ) proovide v&otilde;tmise , nende pakendamise , m&auml;rgistamise , s&auml;ilitamise , anal&uuml;&uuml;side tegemise ning sellekohaste dokumentide koostamise korra .</s>
+</p>
+<p>
+<s>3.</s><s>K&auml;esolevas m&auml;&auml;ruses kasutatakse j&auml;rgmisi m&otilde;isteid :</s>
+</p>
+<p>
+<s>1 ) tootepakend ( ingl container ) - pakend , mis sisaldab kosmeetikavahendit ja on kosmeetikavahendiga vahetus ja pidevas kontaktis ;</s>
+</p>
+<p>
+<s>2 ) valim ( ingl basic sample ) - m&uuml;&uuml;giks etten&auml;htud partiist anal&uuml;&uuml;siks v&otilde;etud tootepakend v&otilde;i kosmeetikavahendi kogus ;</s>
+</p>
+<p>
+<s>3 ) koondproov ( ingl total sample ) - &uuml;hesuguste partiinumbritega valimite kogusumma ;</s>
+</p>
+<p>
+<s>4 ) laboriproov ( ingl laboratory sample ) - koondproovist v&otilde;etud kogus anal&uuml;&uuml;siks &uuml;hes konkreetses laboris ;</s>
+</p>
+<p>
+<s>5 ) katsekogus ( ingl test portion ) - laboriproovist v&otilde;etud kogus , mis on vajalik vahetuks anal&uuml;&uuml;siks ;</s>
+</p>
+<p>
+<s>6 ) vastuproov - proov , mis v&otilde;etakse prooviv&otilde;tja poolt omaniku n&otilde;udel ja samade n&otilde;uete kohaselt kui koondproov ja mis j&auml;&auml;b omaniku k&auml;sutusse .</s>
+</p>
+<p>
+<s>4.</s><s>Proovi v&otilde;tmise &otilde;igus on asjakohase ettevalmistusega spetsialistil ( edaspidi prooviv&otilde;tja ) .</s><s>Proovi v&otilde;etakse tootmise ja turustamise k&auml;igus ning ilu- ja isikuteenindusettev&otilde;tetes .</s>
+</p>
+<p>
+<s>5.</s><s>Proovi v&otilde;etakse juhusliku valiku teel tootja enesekontrolli v&otilde;i riikliku j&auml;relevalve kava alusel ning erakorraliselt j&auml;relevalve ajal avastatud n&otilde;uetele mittevastavuse , tekkinud kahtluse v&otilde;i esitatud kaebuse korral .</s>
+</p>
+<p>
+<s>6.</s><s>Prooviv&otilde;tja v&otilde;tab proovi toote omaniku , haldaja , valdaja , nende ametlikult volitatud esindaja ( edaspidi toote esindaja ) v&otilde;i nimetatud isikute mittekohaloleku korral kahe tunnistaja juuresolekul .</s>
+</p>
+<p>
+<s>7.</s><s>Prooviv&otilde;tja lepib enne proovi v&otilde;tmist laboriga kokku proovide arvu ja koguse , vajalike anal&uuml;&uuml;side , prooviv&otilde;tu t&auml;psete juhiste ning proovide &uuml;leandmise aja suhtes .</s>
+</p>
+<p>
+<s>8.</s><s>Prooviv&otilde;tja tagab proovi s&auml;ilitamise , transportimise ja laborile &uuml;leandmise .</s>
+</p>
+<p>
+<s>9.</s><s>Prooviv&otilde;tja vormistab kahes eksemplaris prooviv&otilde;tu protokolli , millest &uuml;ks j&auml;&auml;b toote esindajale ja teine prooviv&otilde;tjale v&otilde;i j&auml;relevalveametnikule .</s>
+</p>
+<p>
+<s>10.</s><s>Protokollis peavad olema j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) prooviv&otilde;tja asutus - nimi , registreerimisnumber , aadress , telefon ;</s>
+</p>
+<p>
+<s>2 ) prooviv&otilde;tukoht ( asutuse/ettev&otilde;tte nimi , aadress , registreerimisnumber , vajadusel t&auml;psustada ettev&otilde;tluse liik : tootmine , hulgim&uuml;&uuml;k , jaem&uuml;&uuml;k , iluteenus jt ) ;</s>
+</p>
+<p>
+<s>3 ) prooviv&otilde;tu kuup&auml;ev ja kellaaeg ;</s>
+</p>
+<p>
+<s>4 ) protokolli number ;</s>
+</p>
+<p>
+<s>5 ) toote juriidilisest isikust esindaja asutuse/ettev&otilde;tte nimi , aadress , registreerimisnumber , telefon v&otilde;i toote f&uuml;&uuml;silisest isikust esindaja ees- ja perekonnanimi , isikukood/s&uuml;nniaeg , elukoht , telefon ;</s>
+</p>
+<p>
+<s>6 ) toote ( millest v&otilde;etakse proov ) nimetus , tootjat identifitseerivad andmed ;</s>
+</p>
+<p>
+<s>7 ) prooviv&otilde;tu p&otilde;hjus - plaaniline , kaebuse alusel , kahtluse korral jms ;</s>
+</p>
+<p>
+<s>8 ) toote hoiutingimuste kirjeldus ( koht ruumis , temperatuur ) ;</s>
+</p>
+<p>
+<s>9 ) toote valmistamise aeg ja minimaalne s&auml;ilitusaeg ;</s>
+</p>
+<p>
+<s>10 ) partii suurus - hangitud kogus ja olemasolev kogus ;</s>
+</p>
+<p>
+<s>11 ) prooviks v&otilde;etud tootepakendite arv v&otilde;i kosmeetikavahendi kogus ;</s>
+</p>
+<p>
+<s>12 ) v&otilde;etud proovi maksumus toote esindaja poolt kehtestatud hinnakirja alusel ;</s>
+</p>
+<p>
+<s>13 ) selgitused proovi s&auml;ilitamise , transportimistingimuste , proovij&auml;&auml;kide tagastamise kohta jms ;</s>
+</p>
+<p>
+<s>14 ) proovile antud tunnuskood ;</s>
+</p>
+<p>
+<s>15 ) prooviv&otilde;tja nimi ( tr&uuml;kit&auml;htedega ) ja allkiri ;</s>
+</p>
+<p>
+<s>16 ) toote esindaja v&otilde;i tunnistajate nimed ( tr&uuml;kit&auml;htedega ) ja allkirjad .</s>
+</p>
+<p>
+<s>11.</s><s>Kosmeetikavahend v&otilde;etakse prooviks v&otilde;imaluse korral originaalpakendis ja saadetakse laborisse avamata .</s><s>Kui kosmeetikavahend on pakendatud suuremahulisse tootepakendisse , v&otilde;ib prooviks vajaliku koguse kosmeetikavahendit v&otilde;tta prooviv&otilde;tja n&otilde;usse .</s>
+</p>
+<p>
+<s>12.</s><s>Prooviv&otilde;tun&otilde;u ja -vahendid peavad vastama asjaomase anal&uuml;&uuml;simeetodi n&otilde;uetele .</s>
+</p>
+<p>
+<s>13.</s><s>Koondproovist moodustatakse kaks paralleelset laboriproovi .</s>
+</p>
+<p>
+<s>14.</s><s>Iga proov varustatakse prooviv&otilde;tukohas vee- ja kulumiskindla tunnuskoodiga , mis kantakse protokolli .</s>
+</p>
+<p>
+<s>15.</s><s>V&otilde;etud proovid peavad olema pakendatud selliselt , et oleks tagatud nende s&auml;ilivus .</s><s>Pakend plommitakse v&otilde;i pitseeritakse prooviv&otilde;tja poolt .</s>
+</p>
+<p>
+<s>16.</s><s>Proovi hoitakse m&auml;rgistusel v&otilde;i saatedokumentidel esitatud tingimuste kohaselt .</s><s>Kui toote m&auml;rgistusele v&otilde;i saatedokumentidele ei ole m&auml;rgitud s&auml;ilitustingimusi , siis hoitakse proovi pimedas ja temperatuuril 10-25 &deg;C .</s>
+</p>
+<p>
+<s>17.</s><s>Proovi &uuml;leandmiseks laborile koostab prooviv&otilde;tja saatekirja , mille koopia j&auml;&auml;b prooviv&otilde;tjale .</s>
+</p>
+<p>
+<s>18.</s><s>Saatekirjas peavad olema j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) saatekirja number ja prooviv&otilde;tu protokolli number ;</s>
+</p>
+<p>
+<s>2 ) prooviv&otilde;tja asutuse nimi ;</s>
+</p>
+<p>
+<s>3 ) prooviv&otilde;tja nimi , ametikoht ja kontaktandmed ;</s>
+</p>
+<p>
+<s>4 ) proovi nimetus ja tunnuskood ;</s>
+</p>
+<p>
+<s>5 ) prooviv&otilde;tu kuup&auml;ev ja kellaaeg ;</s>
+</p>
+<p>
+<s>6 ) prooviks v&otilde;etud tootepakendite arv v&otilde;i kosmeetikavahendi kogus ;</s>
+</p>
+<p>
+<s>7 ) tellitud n&auml;itajate loetelu ;</s>
+</p>
+<p>
+<s>8 ) selgitused proovij&auml;&auml;kide ja paralleelproovi tagastamise kohta omanikule ;</s>
+</p>
+<p>
+<s>9 ) proovi &uuml;leandja nimi , allkiri ;</s>
+</p>
+<p>
+<s>10 ) proovi laborile &uuml;leandmise aeg ;</s>
+</p>
+<p>
+<s>11 ) labori nimetus , asukoht , telefon ;</s>
+</p>
+<p>
+<s>12 ) proovi vastuv&otilde;tja nimi ( tr&uuml;kit&auml;htedega ) , allkiri ;</s>
+</p>
+<p>
+<s>13 ) proovi seisund vastuv&otilde;tmisel ;</s>
+</p>
+<p>
+<s>14 ) laboris proovile antud kood .</s>
+</p>
+<p>
+<s>19.</s><s>Proovi vastuv&otilde;tmisel laboris hinnatakse proovi seisundit , puutumatust ja vastavust saatekirjale .</s>
+</p>
+<p>
+<s>20.</s><s>Laboril on &otilde;igus keelduda proovi vastuv&otilde;tmisest , kui kinnipitseeritud proovide pakend on avatud , kahjustatud v&otilde;i muul viisil ei ole kinni peetud s&auml;ilitamis- ja transportimistingimustest .</s><s>Keeldumise korral koostatakse asjakohane akt ning informeeritakse sellest prooviv&otilde;tjat .</s>
+</p>
+<p>
+<s>21.</s><s>Proov valmistatakse laboris mikrobioloogiliseks uuringuks ette lisas 1 kehtestatud korras .</s><s>Mikrobioloogilised uuringud tehakse lisas 2 kirjeldatud meetodite kohaselt .</s>
+</p>
+<p>
+<s>22.</s><s>Proov valmistatakse laboris keemiliseks anal&uuml;&uuml;siks ette lisas 3 kehtestatud korras .</s><s>Keemilised anal&uuml;&uuml;sid tehakse lisades 4-39 kirjeldatud m&auml;&auml;ramismeetodite kohaselt .</s>
+</p>
+<p>
+<s>23.</s><s>Kui kosmeetikavahendi n&otilde;uetekohasuse hindamiseks puuduvad k&auml;esoleva m&auml;&auml;ruse lisades m&auml;&auml;ramismeetodid , siis kasutatakse teaduslikult p&otilde;hjendatud ja rahvusvahelistele n&otilde;uetele vastavaid meetodeid .</s>
+</p>
+<p>
+<s>24.</s><s>Laborisisesed ja laboritevahelised korratavuse ja reprodutseeritavuse katsed viiakse l&auml;bi ISO 5725 j&auml;rgi .</s>
+</p>
+<p>
+<s>25.</s><s>Labor v&auml;ljastab katseprotokolli tellijale v&otilde;i j&auml;relevalveametnikule anal&uuml;&uuml;si l&otilde;petamisele j&auml;rgneval t&ouml;&ouml;p&auml;eval .</s>
+</p>
+<p>
+<s>26.</s><s>Anal&uuml;&uuml;si tegemisel j&auml;relej&auml;&auml;nud proovij&auml;&auml;ke ja paralleelproove s&auml;ilitatakse laboris anal&uuml;&uuml;situlemuste vaidlustamise t&auml;htaja l&otilde;ppemiseni &ldquo; Rahvatervise seaduse &rdquo; paragrahvi 17 kohaselt v&otilde;i toote realiseerimisaja l&otilde;ppemiseni .</s>
+</p>
+<p>
+<s>27.</s><s>J&auml;relevalveametnik teavitab laborit anal&uuml;&uuml;situlemuste vaidlustamisest ja vaidlustamise t&auml;htaegadest .</s>
+</p>
+<p>
+<s>28.</s><s>J&auml;relevalveametnik teeb kosmeetikavahendi terviseohutuse kohta otsuse hiljemalt kolmandal t&ouml;&ouml;p&auml;eval p&auml;rast katseprotokolli saamist .</s><s>Kirjalikult vormistatud otsus v&auml;ljastatakse toote esindajale j&auml;rgmisel t&ouml;&ouml;p&auml;eval .</s>
+</p>
+<p>
+<s>Lisa 1</s>
+</p>
+<p>
+<s>sotsiaalministri 23. detsembri 1999. a m&auml;&auml;ruse nr 91 juurde</s>
+</p>
+<p>
+<s>Katsekoguse ettevalmistamine mikrobioloogialaboris</s>
+</p>
+<p>
+<s>1.</s><s>&Uuml;ldosa</s>
+</p>
+<p>
+<s>1.1.</s><s>V&otilde;imaluse korral anal&uuml;&uuml;sida iga valimit eraldi .</s><s>Kui &uuml;he valimi kogus on anal&uuml;&uuml;siks liiga v&auml;ike , siis v&otilde;tta mikrobioloogiliseks uurimiseks vajaliku koguse saamiseks v&auml;him v&otilde;imalik arv valimeid , mis &uuml;hendada aseptika n&otilde;udeid arvestades koondprooviks ja segada hoolikalt l&auml;bi .</s>
+</p>
+<p>
+<s>1.2.</s><s>Enne kosmeetikavahendi tootepakendi v&otilde;i proovin&otilde;u avamist desinfitseerida avamiskoht kas leegi v&otilde;i piiritusega , avada ja v&otilde;tta steriilsete t&ouml;&ouml;vahenditega aseptika n&otilde;udeid arvestades uurimiseks vajalik kogus kosmeetikavahendit .</s><s>V&otilde;etud katsekoguse uurimist alustada kohe .</s>
+</p>
+<p>
+<s>1.3.</s><s>Kui esialgselt homogeenne toode on kihistunud , siis tuleb ta enne katsekoguse v&otilde;tmist homogeniseerida .</s><s>Kreeme , salve ja teisi pooltahkeid v&otilde;i tahkeid kosmeetikavahendeid v&otilde;ib vajadusel eelnevalt soojendada proovin&otilde;us veevannil 23-28 &deg;C juures .</s><s>Lasta jahtuda toatemperatuurini perioodiliselt segades .</s>
+</p>
+<p>
+<s>1.4.</s><s>Kui kosmeetikavahendit turustatakse sellisel kujul v&otilde;i viisil , et teda ei saa k&auml;sitleda antud juhendi kohaselt , siis kasutada prooviv&otilde;tul selleks sobivat protseduuri , mille t&auml;pne kirjeldus lisada anal&uuml;&uuml;si aruandesse .</s>
+</p>
+<p>
+<s>2.</s><s>Vedela kosmeetikavahendi ettevalmistamine</s>
+</p>
+<p>
+<s>2.1.</s><s>Vedel kosmeetikavahend v&otilde;ib esineb &otilde;li- , alkoholi- v&otilde;i vesilahusena ( tualettvesi , losjoon , piim jt ) ja &uuml;ldjuhul on see pakendatud pudelisse , ampulli v&otilde;i tuubi .</s>
+</p>
+<p>
+<s>2.2.</s><s>Katsekoguse v&otilde;tmine :</s>
+</p>
+<p>
+<s>2.2.1. raputada tootepakendit v&otilde;i proovin&otilde;ud energiliselt ;</s>
+</p>
+<p>
+<s>2.2.2. desinfitseerida avamiskoht ja selle &uuml;mbrus ;</s>
+</p>
+<p>
+<s>2.2.3. avada pakend laminaarboksis v&otilde;i leegi juures ;</s>
+</p>
+<p>
+<s>2.2.4. v&otilde;tta aseptiliselt vajalik katsekogus ja sulgeda tootepakend v&otilde;i proovin&otilde;u .</s>
+</p>
+<p>
+<s>3.</s><s>Pooltahke kosmeetikavahendi ettevalmistamine</s>
+</p>
+<p>
+<s>3.1.</s><s>Pooltahke kosmeetikavahend v&otilde;ib esineda pasta , kreemi , salvi , emulsiooni v&otilde;i geelina ja &uuml;ldjuhul on see pakendatud tuubi , pudelisse v&otilde;i purki .</s>
+</p>
+<p>
+<s>3.2.</s><s>Katsekoguse v&otilde;tmine peene kaelaga tootepakendist :</s>
+</p>
+<p>
+<s>3.2.1. tootepakendi suue puhastada ;</s>
+</p>
+<p>
+<s>3.2.2. desinfitseerida pakendi suue ;</s>
+</p>
+<p>
+<s>3.2.3. avada pakend laminaarboksis v&otilde;i leegi juures ;</s>
+</p>
+<p>
+<s>3.2.4. eemaldada toote pealt ligikaudu 1 cm paksune kiht ;</s>
+</p>
+<p>
+<s>3.2.5. v&otilde;tta aseptiliselt vajalik katsekogus ja sulgeda tootepakend .</s>
+</p>
+<p>
+<s>3.3.</s><s>Katsekoguse v&otilde;tmine laia kaelaga tootepakendist :</s>
+</p>
+<p>
+<s>3.3.1. tootepakendi suue puhastada ;</s>
+</p>
+<p>
+<s>3.3.2. desinfitseerida suudme piirkond ;</s>
+</p>
+<p>
+<s>3.3.3. avada pakend laminaarboksis v&otilde;i leegi juures ;</s>
+</p>
+<p>
+<s>3.3.4. eemaldada steriilse t&ouml;&ouml;vahendiga kaapides ligikaudu 1 cm paksune kiht ;</s>
+</p>
+<p>
+<s>3.3.5. v&otilde;tta aseptiliselt vajalik katsekogus ja sulgeda tootepakend .</s>
+</p>
+<p>
+<s>4.</s><s>Tahke kosmeetikavahendi ettevalmistamine</s>
+</p>
+<p>
+<s>4.1.</s><s>Tahke kosmeetikavahend on tolmpuuder , kompaktpuuder , pulkdeodorant , huulepulk v&otilde;i m&otilde;ni teine tahke toode , mis v&otilde;ib olla pakendatud erinevasse tootepakendisse .</s>
+</p>
+<p>
+<s>4.2.</s><s>Katsekoguse v&otilde;tmine tolmpuudrist :</s>
+</p>
+<p>
+<s>4.2.1. enne avamist toodet hoolega raputada ;</s>
+</p>
+<p>
+<s>4.2.2. desinfitseerida tootepakendi avamiskoht ;</s>
+</p>
+<p>
+<s>4.2.3. avada tootepakend laminaarboksis v&otilde;i leegi juures ;</s>
+</p>
+<p>
+<s>4.2.4. v&otilde;tta aseptiliselt katsekogus .</s>
+</p>
+<p>
+<s>4.3.</s><s>Katsekoguse v&otilde;tmine kompaktpuudrist v&otilde;i teisest tahkest kosmeetikavahendist :</s>
+</p>
+<p>
+<s>4.3.1. desinfitseerida tootepakendi avamiskoht ;</s>
+</p>
+<p>
+<s>4.3.2. avada tootepakend laminaarboksis v&otilde;i leegi juures ;</s>
+</p>
+<p>
+<s>4.3.3. steriilsete t&ouml;&ouml;vahenditega eemaldada pealmine kiht v&otilde;imaluse korral kuni 1 cm paksuselt ;</s>
+</p>
+<p>
+<s>4.3.4. aseptiliselt v&otilde;tta katsekogus alumisest kihist ja sulgeda tootepakend .</s>
+</p>
+<p>
+<s>5.</s><s>Survepakendis kosmeetikavahendi ( aerosooltoote ) ettevalmistamine</s>
+</p>
+<p>
+<s>5.1.</s><s>Enne tootepakendi avamist toodet tugevasti raputada , et erinevad faasid seguneksid .</s>
+</p>
+<p>
+<s>5.2.</s><s>Katsekoguse v&otilde;tmine :</s>
+</p>
+<p>
+<s>5.2.1. desinfitseerida survepakendi aerosoolklapp ja selle &uuml;mbrus ;</s>
+</p>
+<p>
+<s>5.2.2. aseptiliselt pihustada ( vajadusel sobiva &uuml;hendusl&uuml;li kaudu ) katsekogus vahepudelisse ;</s>
+</p>
+<p>
+<s>5.2.3. sulgeda vahepudel tihedasti steriilse korgiga .</s>
+</p>
+<p>
+<s>Lisa 2</s>
+</p>
+<p>
+<s>sotsiaalministri 23. detsembri 1999. a m&auml;&auml;ruse nr 91 juurde</s>
+</p>
+<p>
+<s>Kosmeetikavahendite mikrobioloogilise uurimise meetodid</s>
+</p>
+<p>
+<s>1.</s><s>&Uuml;ldosa</s>
+</p>
+<p>
+<s>1.1.</s><s>Kosmeetikavahendite kvaliteedi mikrobioloogilisel uurimisel tuleb m&auml;&auml;rata v&auml;hemalt j&auml;rgmised n&auml;itajad :</s>
+</p>
+<p>
+<s>1.1.1. mesofiilsete aeroobsete mikroorganismide &uuml;ldarvu m&auml;&auml;ramine kasvatamise teel ;</s>
+</p>
+<p>
+<s>1.1.2.</s><s>Enterobacteriaceae esinemine ;</s>
+</p>
+<p>
+<s>1.1.3.</s><s>Pseudomonas aeruginosa esinemine ;</s>
+</p>
+<p>
+<s>1.1.4.</s><s>Staphylococcus aureus'e esinemine ;</s>
+</p>
+<p>
+<s>1.1.5.</s><s>Candida albicans'i esinemine .</s>
+</p>
+<p>
+<s>1.2.</s><s>Mikrobioloogilise uurimise k&auml;igus tuleb :</s>
+</p>
+<p>
+<s>1.2.1. v&auml;ltida uuritava materjali k&otilde;rvalist saastumist mikroorganismidega , mis m&otilde;jutaks m&auml;&auml;ramise tulemusi ;</s>
+</p>
+<p>
+<s>1.2.2. v&auml;listada toote antimikroobsete omaduste m&otilde;ju avaldumine anal&uuml;&uuml;si tulemustele uuritava materjali lahjendamise , neutraliseerimise v&otilde;i filtreerimise abil ;</s>
+</p>
+<p>
+<s>1.2.3. mesofiilsete aeroobsete mikroorganismide arvu m&auml;&auml;ramiseks kasutada s&ouml;&ouml;tme sisse k&uuml;lvamise tehnikat , s&ouml;&ouml;tme pinnale k&uuml;lvamist v&otilde;i filtrimist j&auml;rgneva membraanide s&ouml;&ouml;tmel kasvatamisega ;</s>
+</p>
+<p>
+<s>1.2.4. mikroorganismide eri liike identifitseerida valiks&ouml;&ouml;tmetele k&uuml;lvamise meetoditega .</s>
+</p>
+<p>
+<s>1.3.</s><s>Materjalid ja reaktiivid</s>
+</p>
+<p>
+<s>1.3.1.</s><s>Lahjendusvedeliku ja s&ouml;&ouml;tmete valmistamisel tuleb kasutada koostiselt &uuml;htlase kvaliteedi ja anal&uuml;&uuml;tilise puhtusega kemikaale .</s><s>Kasutatav vesi peab olema destilleeritud klaasseadmes v&otilde;i desioniseeritud ja vaba ainetest , mis v&otilde;ivad pidurdada mikroorganismide kasvu katsetingimustes .</s><s>Vesi peab vastama ISO 3696 j&auml;rgi 3. astme n&otilde;uetele .</s><s>Deh&uuml;dreeritud s&ouml;&ouml;tmete kasutamisel tuleb kinni pidada tootja juhenditest .</s><s>S&ouml;&ouml;tmete kvaliteeti tuleb kontrollida vastavalt mikrobioloogialabori kvaliteedi tagamise n&otilde;uetele ( ISO 17025 ) .</s>
+</p>
+<p>
+<s>1.3.2.</s><s>Lahjendusvedelikuna kasutada peptoonsoola puhverlahust ( pH 7,0 ) .</s>
+</p>
+<p>
+<s>1.3.3.</s><s>Vajaduse korral lisada sobivat neutraliseerimisvedelikku , n&auml;iteks pol&uuml;sorbaati 20 v&otilde;i 80 , letsitiini , tiosulfaati jt.</s>
+</p>
+<p>
+<s>1.3.4.</s><s>S&ouml;&ouml;tmetena kasutada mikroobide arvu loendamise agarit ( Plate count agar ) , violettpunase sapiagarit gl&uuml;koosiga ( VRB ) , Sabouraud-dekstroosi agarit , tsetrimiid-nalidikshappega pseudomonaadide agarit ( CN-agar ) ja Baird-Parker'i agarit .</s>
+</p>
+<p>
+<s>1.4.</s><s>Laboriseadmed ja klaastarvikud :</s>
+</p>
+<p>
+<s>1.4.1. homogenisaator ( stomahher ) ja sobivad steriilsed plastikkotid ;</s>
+</p>
+<p>
+<s>1.4.2. veevann , 45&plusmn;1 &deg;C ;</s>
+</p>
+<p>
+<s>1.4.3. inkubaator , 30&plusmn;1 &deg;C ;</s>
+</p>
+<p>
+<s>1.4.4. inkubaator , 37&plusmn;1 &deg;C ;</s>
+</p>
+<p>
+<s>1.4.5. inkubaator , 25&plusmn;1 &deg;C ;</s>
+</p>
+<p>
+<s>1.4.6. pH-meeter ;</s>
+</p>
+<p>
+<s>1.4.7. autoklaav ;</s>
+</p>
+<p>
+<s>1.4.8. gradueeritud pipetid ;</s>
+</p>
+<p>
+<s>1.4.9.</s><s>Petri tassid ;</s>
+</p>
+<p>
+<s>1.4.10. kolvid v&otilde;i pudelid ;</s>
+</p>
+<p>
+<s>1.4.11. katseklaasid ;</s>
+</p>
+<p>
+<s>1.4.12. pesade loendaja ;</s>
+</p>
+<p>
+<s>1.4.13. kuum&otilde;hukapp n&otilde;ude steriliseerimiseks ;</s>
+</p>
+<p>
+<s>1.4.14. filtrimisseade vaakumpumba ja steriilsete membraanidega .</s>
+</p>
+<p>
+<s>1.5.</s><s>Mikrobioloogiliseks uurimiseks tuleb v&otilde;tta v&auml;hemalt 1 g v&otilde;i 1 ml ( t&auml;pselt m&otilde;&otilde;detud ) kosmeetikavahendit , vajaduse korral &uuml;hendada aseptiliselt mitu tootepakendit .</s>
+</p>
+<p>
+<s>1.6.</s><s>Lahustada v&otilde;i lahjendada katsekogus sobivas neutraliseerimisvedelikus vahekorras 1 : 10. Halvasti m&auml;rguvate ainete puhul v&otilde;ib lisada sobiva pindaktiivse aine , nt pol&uuml;sorbaat 80 lahust ( 1 g/l ) .</s>
+</p>
+<p>
+<s>1.7.</s><s>Vajaduse korral v&otilde;ib algsuspensioonist sama lahjendusvedelikuga valmistada k&uuml;mnendlahjendused ( vastavalt ISO 6887-1983 Microbiology - General guidance for the preparation of dilutions for microbiological examination ) , et v&auml;hendada toote antimikroobset toimet v&otilde;i h&otilde;lbustada 10-100 pesa loendamist .</s>
+</p>
+<p>
+<s>2.</s><s>Meetodid</s>
+</p>
+<p>
+<s>2.1.</s><s>Mesofiilsete aeroobsete mikroorganismide , Candida albicans'i v&otilde;i seente arvu m&auml;&auml;ramine filtrimismeetodil :</s>
+</p>
+<p>
+<s>2.1.1.</s><s>Kasutada membraanfiltreid pooride l&auml;bim&otilde;&otilde;duga mitte &uuml;le 0,45 &mgr;m .</s><s>Teha kaks paralleelset uuringut .</s><s>Filtri lehtrisse viia 0,1 g katsekogusele vastav uuritav lahjendus ja filtrida kohe .</s><s>J&auml;rgnevalt filter loputada steriilse pesemislahusega , et otsitavad mikroorganismid jaguneksid &uuml;htlaselt .</s>
+</p>
+<p>
+<s>2.1.2.</s><s>Membraan asetada Petri tassi s&ouml;&ouml;tme pinnale nii , et membraani ja s&ouml;&ouml;tme vahele ei j&auml;&auml;ks &otilde;humullikesi .</s>
+</p>
+<p>
+<s>2.1.3.</s><s>Mesofiilsete aeroobsete mikroorganismide arvu m&auml;&auml;ramiseks inkubeerida vastava s&ouml;&ouml;tmega Petri tasse 30&plusmn;1 &deg;C juures kolm &ouml;&ouml;p&auml;eva ja seente m&auml;&auml;ramiseks Sabouraud-dekstroosi agariga Petri tasse 25&plusmn;1 &deg;C juures viis &ouml;&ouml;p&auml;eva .</s><s>Inkubeerimisaega v&otilde;ib l&uuml;hendada juhul , kui on v&otilde;imalik saada usaldusv&auml;&auml;rseid tulemusi juba varem .</s>
+</p>
+<p>
+<s>2.1.4.</s><s>Loendada v&auml;ljakasvanud pesad .</s>
+</p>
+<p>
+<s>2.1.5.</s><s>Arvutada uuritud mikroorganismide arv kosmeetikavahendi kaalu- v&otilde;i mahu&uuml;hikus .</s>
+</p>
+<p>
+<s>2.2.</s><s>Mesofiilsete aeroobsete mikroorganismide , Candida albicans'i v&otilde;i seente arvu m&auml;&auml;ramine s&ouml;&ouml;tme sisse k&uuml;lvamise ( plate count ) meetodil :</s>
+</p>
+<p>
+<s>2.2.1.</s><s>Steriilse pipetiga viia 1 ml lahjendamata homogenaati v&otilde;i selle k&uuml;mnendlahjendust t&uuml;hja steriilse Petri tassi p&otilde;hja .</s><s>Alustada k&otilde;ige suuremast valitud lahjendusest ja j&auml;tkata madalamate lahjenduste suunas .</s><s>Sama pipetiga v&otilde;ib analoogselt teha k&uuml;lvid k&otilde;igist lahjendustest .</s>
+</p>
+<p>
+<s>2.2.2.</s><s>K&otilde;ikidesse Petri tassidesse valada 15 min jooksul 15-20 ml vastavat s&ouml;&ouml;det , mille temperatuur on 45&plusmn;1 &deg;C .</s><s>Kohe p&auml;rast s&ouml;&ouml;tme pealevalamist segada ringliigutustega Petri tasside sisu hoolikalt kellaosuti liikumise suunas ja vastupidi .</s>
+</p>
+<p>
+<s>2.2.3.</s><s>&Uuml;lalkirjeldatu asemel v&otilde;ib kasutada ka teist meetodit : viia 0,1 ml katsekogusest v&otilde;i selle k&uuml;mnendlahjendusest Petri tassi vastava s&ouml;&ouml;tme pinnale ja ajada seal klaasspaatliga &uuml;htlaselt laiali &uuml;le kogu s&ouml;&ouml;tme pinna .</s>
+</p>
+<p>
+<s>2.2.4.</s><s>Mesofiilsete aeroobsete mikroorganismide m&auml;&auml;ramise Petri tasse inkubeerida 30&plusmn;1 &deg;C juures kolm &ouml;&ouml;p&auml;eva ja seente m&auml;&auml;ramise tasse 25&plusmn;1 &deg;C juures viis &ouml;&ouml;p&auml;eva .</s><s>Inkubeerimisaega v&otilde;ib l&uuml;hendada juhul , kui on v&otilde;imalik saada usaldusv&auml;&auml;rseid tulemusi juba varem .</s>
+</p>
+<p>
+<s>2.2.5.</s><s>Loendada v&auml;ljakasvanud pesad .</s>
+</p>
+<p>
+<s>2.2.6.</s><s>Arvutada tulemus nende Petri tasside alusel , millel kasvas mesofiilseid aeroobseid mikroorganisme kuni 300 pesa v&otilde;i seeni kuni 100 pesa .</s>
+</p>
+<p>
+<s>2.2.7.</s><s>Tulemus v&auml;ljendada uuritud mikroorganismide arvuna kosmeetikavahendi kaalu- v&otilde;i mahu&uuml;hikus .</s>
+</p>
+<p>
+<s>2.3.</s><s>Enterobacteriaceae m&auml;&auml;ramise meetod</s>
+</p>
+<p>
+<s>2.3.1.</s><s>Steriilse pipetiga viia 1 ml lahjendamata homogenaati v&otilde;i selle k&uuml;mnendlahjendust t&uuml;hja steriilse Petri tassi p&otilde;hja .</s><s>Alustada k&otilde;ige suuremast valitud lahjendusest ja j&auml;tkata madalamate lahjenduste suunas .</s><s>Sama pipetiga v&otilde;ib niimoodi teha k&uuml;lvid k&otilde;igist lahjendustest .</s>
+</p>
+<p>
+<s>2.3.2.</s><s>K&otilde;ikidesse Petri tassidesse valada 15 min jooksul umbes 15 ml VRB agarit , mille temperatuur on 45&plusmn;1 &deg;C .</s><s>Ettevaatlikult ringliigutustega segada k&uuml;lvikogus s&ouml;&ouml;tmega ja lasta agaril tahkuda .</s>
+</p>
+<p>
+<s>2.3.3.</s><s>Kihitada tahkunud s&ouml;&ouml;tmele umbes 4 ml sama s&ouml;&ouml;det ja lasta tahkuda .</s>
+</p>
+<p>
+<s>2.3.4.</s><s>Inkubeerida &uuml;mberp&ouml;&ouml;ratud Petri tasse 37&plusmn;1 &deg;C juures &uuml;ks &ouml;&ouml;p&auml;ev .</s>
+</p>
+<p>
+<s>2.3.5.</s><s>Loendada k&otilde;ik v&auml;hemalt 0,5 -mm l&auml;bim&otilde;&otilde;duga t&uuml;&uuml;pilised pesad .</s><s>Sugukonda Enterobacteriaceae kuuluvad bakterid moodustavad s&ouml;&ouml;tmes pretsipitatsiooniv&ouml;&ouml;ndiga v&otilde;i ilma selleta pesasid , mille v&auml;rvus on roosast punaseni .</s>
+</p>
+<p>
+<s>2.3.6.</s><s>Uuringutulemuste kinnitamiseks teha oks&uuml;daastest ja mikroskopeerida Grami j&auml;rgi v&auml;rvitud preparaat .</s><s>Enterobacteriaceae sugukonda kuuluvad bakterid on gramnegatiivsed sirged kepikesed , mis ei moodusta eoseid ega mikrots&uuml;ste .</s><s>Nad on fakultatiivselt anaeroobid , oks&uuml;daasnegatiivsed ja fermenteerivad gl&uuml;koosi happe moodustamisega .</s>
+</p>
+<p>
+<s>2.3.7.</s><s>Arvutada tulemus kinnitamist leidnud pesade protsendina tassidel kasvanud pesade arvust vastavalt kasutatud lahjendusastmele .</s>
+</p>
+<p>
+<s>2.3.8.</s><s>Tulemus v&auml;ljendada Enterobacteriaceae arvuna kosmeetikavahendi kaalu- v&otilde;i mahu&uuml;hikus .</s>
+</p>
+<p>
+<s>2.4.</s><s>Pseudomonas aeruginosa avastamise meetodid</s>
+</p>
+<p>
+<s>2.4.1.</s><s>Katsekogus k&uuml;lvata tsetrimiid-agarile punktides 2.1 v&otilde;i 2.2 kirjeldatud metoodika j&auml;rgi .</s>
+</p>
+<p>
+<s>2.4.2.</s><s>Inkubeerida 37&plusmn;1 &deg;C juures kaks &ouml;&ouml;p&auml;eva .</s>
+</p>
+<p>
+<s>2.4.3.</s><s>Loendada pesad .</s><s>T&uuml;&uuml;pilised pesad on lamedad , pooll&auml;bipaistvad ja v&auml;rvunud rohekaskollasest kuni siniseni .</s>
+</p>
+<p>
+<s>2.4.4.</s><s>Nende kuuluvuse kinnitamiseks ( prEN ISO12780-1997 j&auml;rgi ) mikroskopeerida Grami j&auml;rgi v&auml;rvitud preparaat , teha oks&uuml;daastest ja m&auml;&auml;rata v&otilde;ime moodustada pigmenti ja ammooniumi atseetamiidist .</s><s>Vajadusel v&otilde;ib teha veel t&auml;iendavaid teste .</s>
+</p>
+<p>
+<s>Pseudomonas aeruginosa on gramnegatiivne eosteta kepike , oks&uuml;daas- ja katalaaspositiivne , tavaliselt moodustab vees lahustuvat pigmenti ja ammooniumi atseetamiidist .</s>
+</p>
+<p>
+<s>2.4.5.</s><s>Tulemus v&auml;ljendatakse Pseudomonas aeruginosa esinemise v&otilde;i puudumisena kosmeetikavahendi uuritud koguses .</s>
+</p>
+<p>
+<s>2.5.</s><s>Staphylococcus aureus'e m&auml;&auml;ramise meetodid</s>
+</p>
+<p>
+<s>2.5.1.</s><s>Katsekogus k&uuml;lvata Baird-Parker'i agarile punktides 2.1 v&otilde;i 2.2 kirjeldatud metoodika j&auml;rgi .</s>
+</p>
+<p>
+<s>2.5.2.</s><s>Inkubeerida 37&plusmn;1 &deg;C juures kuni kaks &ouml;&ouml;p&auml;eva .</s><s>T&uuml;&uuml;pilised pesad on mustad , l&auml;ikivad , kumerad ja &uuml;mbritsetud kitsa l&auml;bipaistmatu v&ouml;&ouml;ndiga , mida &uuml;mbritseb omakorda kitsas l&auml;bipaistev v&ouml;&ouml;nd , mis vahel ei ole h&auml;sti v&auml;lja kujunenud .</s>
+</p>
+<p>
+<s>2.5.3.</s><s>Kinnitamiseks mikroskopeerida Grami j&auml;rgi v&auml;rvitud preparaat , m&auml;&auml;rata hemol&uuml;&uuml;tilised omadused , teha katalaasi ja koagulaasi testid .</s><s>Vajadusel v&otilde;ib teha t&auml;iendavaid teste .</s><s>Staphylococcus aureus'e on grampositiivne kokk , mis on letsitinaas- , katalaas- , koagulaaspositiivne .</s>
+</p>
+<p>
+<s>2.5.4.</s><s>Tulemus v&auml;ljendada Staphylococcus aureus'e esinemise v&otilde;i puudumisena kosmeetikavahendi uuritud koguses .</s>
+</p>
+<p>
+<s>2.6.</s><s>Candida albicans'i m&auml;&auml;ramise meetod</s>
+</p>
+<p>
+<s>2.6.1.</s><s>Katsekogus k&uuml;lvata Sabouraud-dekstroosi s&ouml;&ouml;tmele punktides 2.1 v&otilde;i 2.2 kirjeldatud metoodika j&auml;rgi .</s>
+</p>
+<p>
+<s>2.6.2.</s><s>Inkubeerida 25&plusmn;1 &deg;C juures viis p&auml;eva .</s><s>T&uuml;&uuml;pilised pesad on bee&zcaron;id , kreemjad ja kumerad .</s>
+</p>
+<p>
+<s>2.6.3.</s><s>Kinnitamiseks tuleb preparaat mikroskopeerida , vajadusel v&otilde;ib teha t&auml;iendavaid teste .</s>
+</p>
+<p>
+<s>2.6.4.</s><s>Candida albicans'i hulka kuuluvad p&auml;rmiseened , mis moodustavad klam&uuml;dospoore ja annavad positiivse germ-tube-testi .</s>
+</p>
+<p>
+<s>2.6.5.</s><s>Tulemus v&auml;ljendada Candida albicans'i esinemise v&otilde;i puudumisena kosmeetikavahendi uuritud koguses .</s>
+</p>
+<p>
+<s>Lisa 3</s>
+</p>
+<p>
+<s>sotsiaalministri 23. detsembri 1999. a m&auml;&auml;ruse nr 91 juurde</s>
+</p>
+<p>
+<s>Katsekoguse ettevalmistamine keemialaboris</s>
+</p>
+<p>
+<s>1.</s><s>&Uuml;ldosa</s>
+</p>
+<p>
+<s>1.1.</s><s>V&otilde;imaluse korral anal&uuml;&uuml;sida iga valimit eraldi .</s><s>Kui valimi kogus on anal&uuml;&uuml;siks liiga v&auml;ike , v&otilde;tta n&otilde;utud koguse saamiseks v&auml;him v&otilde;imalik arv valimeid .</s><s>Valimid &uuml;hendada koondprooviks ja enne katsekoguse v&otilde;tmist segada hoolikalt l&auml;bi .</s>
+</p>
+<p>
+<s>1.2.</s><s>Kosmeetikavahendi tootepakend avada ja katsekogus v&otilde;tta viivitamatult p&auml;rast avamist .</s><s>Kui keemilise anal&uuml;&uuml;si meetod seda n&otilde;uab , siis avada tootepakend inertgaasi keskkonnas .</s><s>Proovi s&auml;ilitamiseks sulgeda tootepakend inertgaasi keskkonnas .</s>
+</p>
+<p>
+<s>1.3.</s><s>V&otilde;etud katsekogus tuleb anal&uuml;&uuml;sida kohe .</s>
+</p>
+<p>
+<s>1.4.</s><s>Kosmeetikavahend valmistada anal&uuml;&uuml;siks ette tema algsel ( vedelal , tahkel v&otilde;i pooltahkel ) kujul .</s><s>Kui algselt homogeenne toode on kihistunud , siis enne katsekoguse v&otilde;tmist tuleb ta uuesti homogeniseerida .</s>
+</p>
+<p>
+<s>1.5.</s><s>Kui kosmeetikavahendit turustatakse sellisel kujul v&otilde;i viisil , et teda ei saa k&auml;sitleda antud juhendi kohaselt , siis kasutada prooviv&otilde;tul selleks sobivat protseduuri , mille t&auml;pne kirjeldus lisada anal&uuml;&uuml;siaruandesse .</s>
+</p>
+<p>
+<s>2.</s><s>Vedela kosmeetikavahendi ettevalmistamine</s>
+</p>
+<p>
+<s>2.1.</s><s>Vedel kosmeetikavahend esineb &otilde;li- , alkoholi- v&otilde;i vesilahusena ( tualettvesi , losjoon , piim jt ) ja &uuml;ldjuhul on see pakendatud pudelisse , ampulli v&otilde;i tuubi .</s>
+</p>
+<p>
+<s>2.2.</s><s>Katsekoguse v&otilde;tmine :</s>
+</p>
+<p>
+<s>2.2.1. energiliselt raputada tootepakendit enne avamist ;</s>
+</p>
+<p>
+<s>2.2.2. avada tootepakend ;</s>
+</p>
+<p>
+<s>2.2.3. valada m&otilde;ni milliliiter vedelikku visuaalseks uurimiseks katsutisse prooviv&otilde;tutehnika t&auml;psustamiseks ;</s>
+</p>
+<p>
+<s>2.2.4. v&otilde;tta vajalik katsekogus ja sulgeda hoolikalt tootepakend .</s>
+</p>
+<p>
+<s>3.</s><s>Pooltahke kosmeetikavahendi ettevalmistamine</s>
+</p>
+<p>
+<s>3.1.</s><s>Pooltahke kosmeetikavahend esineb pasta , kreemi , emulsiooni v&otilde;i geelina ja on &uuml;ldjuhul pakendatud tuubi , pudelisse v&otilde;i purki .</s>
+</p>
+<p>
+<s>3.2.</s><s>Katsekoguse v&otilde;tmine :</s>
+</p>
+<p>
+<s>3.2.1. peene kaelaga tootepakendist : eemaldada pealt v&auml;hemalt 1 cm toodet , siis suruda v&auml;lja katseks vajalik kogus ja kohe sulgeda tootepakend ;</s>
+</p>
+<p>
+<s>3.2.2. laia kaelaga tootepakendist : pinda &uuml;htlaselt kaapides eemaldada pealmine kiht , v&otilde;tta katsekogus ja kohe sulgeda tootepakend .</s>
+</p>
+<p>
+<s>4.</s><s>Tahke kosmeetikavahendi ettevalmistamine</s>
+</p>
+<p>
+<s>4.1.</s><s>Tahke kosmeetikavahend on tolmpuuder , kompaktpuuder , pulkdeodorant , huulepulk v&otilde;i m&otilde;ni teine tahke toode , mis v&otilde;ib olla pakendatud erinevasse tootepakendisse .</s>
+</p>
+<p>
+<s>4.2.</s><s>Katsekoguse v&otilde;tmine :</s>
+</p>
+<p>
+<s>4.2.1. tolmpuudrist : energiliselt raputada tootepakendit enne avamist , seej&auml;rel avada ja v&otilde;tta n&otilde;uetekohane katsekogus ;</s>
+</p>
+<p>
+<s>4.2.2. kompaktpuudrist v&otilde;i pulgakujulisest kosmeetikavahendist : &uuml;htlaselt kaapides eemaldada pealmine kiht ja v&otilde;tta katsekogus alumisest kihist .</s>
+</p>
+<p>
+<s>5.</s><s>Survepakendis kosmeetikavahendi ( aerosooltoote ) ettevalmistamine</s>
+</p>
+<p>
+<s>5.1.</s><s>Katsekoguse v&otilde;tmine</s>
+</p>
+<p>
+<s>Survepakendi sisu esindav kogus kanda p&auml;rast tugevat raputamist sobiva &uuml;hendusl&uuml;li abil ( joon 1 , erijuhul v&otilde;ib anal&uuml;&uuml;simeetod n&otilde;uda teistsuguse &uuml;hendusl&uuml;li kasutamist ) &uuml;le plastiga kaetud klaasist vahepudelisse .</s><s>Vahepudel on varustatud aerosoolklapiga ilma sukeldustoruta .</s><s>Katsekoguse &uuml;lekandmise ajal hoitakse pudelit klapiga allapoole , mis v&otilde;imaldab tegevust visuaalselt kontrollida .</s>
+</p>
+<p>
+<s>5.2.</s><s>Anal&uuml;&uuml;simiseks v&otilde;tta proov &uuml;hel j&auml;rgmisest neljast viisist :</s>
+</p>
+<p>
+<s>5.2.1.</s><s>Kui aerosooltoode on homogeense lahusena valmis vahetuks anal&uuml;&uuml;siks , siis kanda vahepudelisse anal&uuml;&uuml;siks vajalik katsekogus .</s>
+</p>
+<p>
+<s>5.2.2.</s><s>Kui aerosooltoode koosneb kahest vedelfaasist , siis eraldada alumine faas teise vahepudelisse ning anal&uuml;&uuml;sida m&otilde;lemad faasid eraldi .</s><s>&Uuml;lekande ajal hoida esimest vahepudelit klapiga allapoole .</s><s>Tihti on alumiseks faasiks vesilahus , mis ei sisalda propellenti ( nt butaan/vesi ) .</s>
+</p>
+<p>
+<s>5.2.3.</s><s>Kui aerosooltoode sisaldab suspensioonis pulbrit , siis anal&uuml;&uuml;sida toote vedelfaasi p&auml;rast pulbri eemaldamist .</s>
+</p>
+<p>
+<s>5.2.4.</s><s>Kui on tegemist vahulise v&otilde;i kreemitaolise kosmeetikavahendiga , siis kaaluda k&otilde;igepealt vahepudelisse 5-10 g ( t&auml;psusega 10 mg ) 2-metoks&uuml;etanooli , mis hoiab &auml;ra edasisel degaseerimisel vahu tekke ja v&otilde;imaldab v&auml;ljutada propellentgaasid vedelikku kaotamata .</s>
+</p>
+<p>
+<s>5.3.</s><s>Abivahendid</s>
+</p>
+<p>
+<s>&Uuml;hendusl&uuml;li on tehtud duralumiiniumist v&otilde;i valgevasest selliselt , et pol&uuml;et&uuml;leenist &uuml;hendusl&uuml;li abil on teda v&otilde;imalik &uuml;hendada erinevat t&uuml;&uuml;pi klappidega .</s><s>N&auml;iteks on toodud &uuml;hendusl&uuml;lid joonisel 2 ja 3 , kuid v&otilde;ib kasutada ka teisi &uuml;hendusl&uuml;lisid .</s><s>V&auml;rvitust klaasist vahepudel mahuga 50-100 ml on v&auml;ljast kaetud l&auml;bipaistvast plastist kaitsekihiga .</s><s>Pudel on varustatud sukeldustoruta aerosoolklapiga .</s>
+</p>
+<p>
+<s>5.4.</s><s>Meetod</s>
+</p>
+<p>
+<s>Vahepudelist eemaldada &otilde;hk selleks , et sinna oleks v&otilde;imalik &uuml;le kanda soovitav katsekogus kosmeetikavahendit .</s><s>Selleks juhtida &uuml;hendusl&uuml;li kaudu pudelisse umbes 10 ml diklorodifluorometaani v&otilde;i butaani ( olenevalt anal&uuml;&uuml;sitava aerosooltoote koostisest ) ja hoides vahepudelit klapiga &uuml;lespoole , degaseerida proov t&auml;ielikult kuni vedelfaasi kadumiseni .</s><s>Eemaldada &uuml;hendusl&uuml;li ja kaaluda vahepudel ( a grammi ) .</s><s>Loksutada survepakendit , millest v&otilde;etakse proov .</s><s>&Uuml;hendada &uuml;hendusl&uuml;li proovi sisaldava survepakendi klapiga ( klapp &uuml;lespoole ) ja vahepudeliga ( kael allapoole ) ning vajutada .</s><s>T&auml;ita vahepudel kahe kolmandiku ulatuses .</s><s>Kui &uuml;lekanne katkeb enneaegselt r&otilde;hkude v&otilde;rdsustumise t&otilde;ttu , saab &uuml;lekannet j&auml;tkata , kui vahepudelit jahutada .</s><s>Eemaldada &uuml;hendusl&uuml;li , t&auml;idetud pudel kaaluda ( b grammi ) ja m&auml;&auml;rata &uuml;lekantud proovi mass m <hi rend="sub"> 1 </hi> ( m <hi rend="sub"> 1 </hi> = b - a ) .</s>
+</p>
+<p>
+<s>V&otilde;etud proovi kasutatakse :</s>
+</p>
+<p>
+<s>- tavaliseks keemiliseks anal&uuml;&uuml;siks ;</s>
+</p>
+<p>
+<s>- lenduvate koostisosade gaasikromatograafiliseks anal&uuml;&uuml;siks .</s>
+</p>
+<p>
+<s>5.4.1.</s><s>Keemiline anal&uuml;&uuml;s</s>
+</p>
+<p>
+<s>Hoides vahepudelit klapiga &uuml;lespoole , toimida j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>- degaseerida toode .</s><s>Kui degaseerimisel tekib vaht , kasutada vahepudelit , kuhu on &uuml;hendusl&uuml;li kaudu s&uuml;stlaga sisse viidud t&auml;pne kogus ( 5-10 g ) 2-metoks&uuml;etanooli ;</s>
+</p>
+<p>
+<s>- loksutada pudelit veevannis 40 &deg;C juures lenduvate koostisosade kadudeta eemaldamiseks ;</s>
+</p>
+<p>
+<s>- eemaldada &uuml;hendusl&uuml;li ;</s>
+</p>
+<p>
+<s>- kaaluda uuesti vahepudel ( c grammi ) ja m&auml;&auml;rata j&auml;&auml;gi mass m <hi rend="sub"> 2 </hi> ( m <hi rend="sub"> 2 </hi> = c - a ) .</s><s>( Kui pudelisse lisati 2-metoks&uuml;etanooli , arvatakse maha ka selle mass . )</s><s>;</s>
+</p>
+<p>
+<s>- eemaldada klapp ja avada vahepudel ;</s>
+</p>
+<p>
+<s>- lahustada j&auml;&auml;k t&auml;ielikult kindlas koguses sobivas lahustis ;</s>
+</p>
+<p>
+<s>- viia l&auml;bi soovitud m&auml;&auml;ramised anal&uuml;&uuml;siks vajaliku kogusega .</s>
+</p>
+<p>
+<s>Valemid arvutusteks :</s>
+</p>
+<p>
+<s>R = r &times; m <hi rend="sub"> 2 </hi> / m <hi rend="sub"> 1 </hi> ja</s>
+</p>
+<p>
+<s>Q = R &times; P / 100 , kus :</s>
+</p>
+<p>
+<s>m <hi rend="sub"> 1 </hi> - aerosooli mass , mis v&otilde;eti vahepudelisse ;</s>
+</p>
+<p>
+<s>m <hi rend="sub"> 2 </hi> - aerosooli j&auml;&auml;gi mass p&auml;rast soojendamist 40 &deg;C juures ;</s>
+</p>
+<p>
+<s>r - koostisosa sisaldus j&auml;&auml;gis m <hi rend="sub"> 2 </hi> protsentides ;</s>
+</p>
+<p>
+<s>R - koostisosa sisaldus prooviks v&otilde;etud aerosooltootes protsentides ;</s>
+</p>
+<p>
+<s>Q - koostisosa &uuml;ldmass aerosooltootes ;</s>
+</p>
+<p>
+<s>P - aerosooltoote netomass ( valim ) .</s>
+</p>
+<p>
+<s>5.4.2.</s><s>Lenduvate koostisosade gaasikromatograafiline anal&uuml;&uuml;s</s>
+</p>
+<p>
+<s>5.4.2.1.</s><s>P&otilde;him&otilde;te</s>
+</p>
+<p>
+<s>V&otilde;tta gaasikromatograafi s&uuml;stlaga vahepudelist anal&uuml;&uuml;siks vajalik hulk ja s&uuml;stida gaasikromatograafi .</s>
+</p>
+<p>
+<s>5.4.2.2.</s><s>Abivahendid</s>
+</p>
+<p>
+<s>Gaasikromatograafi s&uuml;stal 25 &mgr;l v&otilde;i 50 &mgr;l ( joon 5 ) seeriast A 2 &ldquo; t&auml;pne proov &rdquo; v&otilde;i samav&auml;&auml;rne .</s><s>S&uuml;stal on varustatud n&otilde;ela otsas asuva liugsulguriga .</s><s>S&uuml;stal &uuml;hendada vahepudeliga &uuml;hendusl&uuml;li ja s&uuml;stla k&uuml;ljes oleva pol&uuml;et&uuml;leentoru abil ( pikkus 8 mm , diameeter 2,5 mm ) .</s>
+</p>
+<p>
+<s>5.4.2.3.</s><s>Meetod</s>
+</p>
+<p>
+<s>P&auml;rast vahepudelist vajaliku koguse aerosooltoote v&otilde;tmist sobitada s&uuml;stla kooniline ots vahepudeliga , nagu on kirjeldatud alapunktis 2.</s><s>Avada klapp ja v&otilde;tta vajalik kogus vedelikku .</s><s>Kolbi edasi-tagasi liigutades eemaldada gaasimullid ( kui vajalik , jahutada s&uuml;stalt ) .</s><s>Kui s&uuml;stlas on vajalik kogus mullivaba lahust , sulgeda klapp ja v&otilde;tta s&uuml;stal vahepudelist v&auml;lja .</s><s>Panna s&uuml;stlale n&otilde;el ja torgata gaasikromatograafi aurutisse , avada klapp ja s&uuml;stida .</s>
+</p>
+<p>
+<s>5.4.2.4.</s><s>Sisestandard</s>
+</p>
+<p>
+<s>Kui on n&otilde;utud katset sisestandardiga , viia standard vahepudelisse ( kasutades harilikku klaass&uuml;stalt koos &uuml;hendusl&uuml;liga ) .</s>
+</p>
+<p>
+<s>Joonis 1.</s><s>&Uuml;hendusl&uuml;li</s>
+</p>
+<p>
+<s>Joonis 2.</s><s>&Uuml;hendusl&uuml;li sise- ja v&auml;lisklapi vahel</s>
+</p>
+<p>
+<s>Joonis 3.</s><s>&Uuml;hendusl&uuml;li kahe v&auml;lisklapi vahel</s>
+</p>
+</body>
+   </text>
+</tei.2>

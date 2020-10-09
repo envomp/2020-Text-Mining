@@ -1,0 +1,179 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Enesem&auml;&auml;ramis&otilde;igus</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 31727; s&otilde;nu: 3306</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Enesem&auml;&auml;ramis&otilde;igus</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=86></tagusage>
+         <tagusage gi=s occurs=262></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body> 
+<div0 type='tervikteos'><head>Enesem&auml;&auml;ramis&otilde;igus</head>
+<p><bibl><author><s>Indrek Hargla</s></author></bibl></p>
+<p> <s>Taksojuhi soovimatus minu kohvreid auto pagasiruumist maha t&otilde;sta tulenes ilmselgelt asjaolust , et ma maksin t&auml;pselt n&auml;idu j&auml;rele , ei &uuml;htegi penni rohkem ja m&auml;rkisin , et kaardi j&auml;rgi oleks j&auml;rgmine mahas&otilde;it meie teed kilomeetri v&otilde;rra l&uuml;hendanud . </s> <s> Samuti juhtisin tema t&auml;helepanu sellele , et kiirteel oleks ta pidanud paluma mul kinnitada turvav&ouml;&ouml; . </s> <s> Ma lisasin , et informeerin sellest tema firmat , kuid tema irvitusest v&otilde;is j&auml;reldada , et ta ei v&otilde;ta mu &auml;hvardust t&otilde;siselt . </s> <s> V&otilde;ib- olla oli meie sihtkoha teatav omap&auml;ra selles s&uuml;&uuml;dlane , v&otilde;ib-olla aga ei suhtunud firma juhtkond sellistesse kaebustesse ka t&auml;ie t&otilde;sidusega . </s> <s> Minu kohvrid polnud loomulikult kuigi rasked , olin neid pakkides arvestanud eeskirjadega , t&auml;pselt &uuml;le kaalunud , kaasa v&otilde;tnud ainult lubatud esemed . </s> <s> Olin ka arvestanud , et m&otilde;nda aega pean ma neid ise kandma , sellep&auml;rast kaalusid m&otilde;lemad t&auml;pselt &uuml;ksteist kilo ( minu vasaku k&auml;e &otilde;laliiges on noorusaja traumast veidi valus ) . </s> <s> &Uuml;le kaaludes olin pidanud &uuml;hest kohvrist v&auml;lja t&otilde;stma kaks raamatut , sest muidu oleks kilo liiast olnud . </s> </p>
+<p> <s>Hoonetekompleksi v&auml;ljastpoolt ma pikalt ei uurinud , see tundus t&auml;pselt selline kui fotol , l&auml;ksin p&auml;&auml;slasse ja helistasin kella . </s> <s> Mind kontrolliti turvakaameratega ja paluti &ouml;elda oma nimi . </s> <s> Siis v&auml;ravad avanesid ning keegi teenistuja v&otilde;ttis mind vastu . </s> </p>
+<p> <s> " Te olete t&auml;pne , " &uuml;tles ta ega vaevunud ootama , mil ma oma pabereid esitlen , vaid juhatas kohe edasi . </s> <s> M&ouml;&ouml;da koridori ja siis vasakule ruumi , mille uksel seisis silt " Vastuv&otilde;tuosakond " . </s> <s> Koridor oli puhas ja hoolitsetud , hommikul olid seda ka vastavalt eeskirjadele &otilde;hutatud . </s> </p>
+<p> <s>Siis v&otilde;eti minu kohvrid &auml;ra , &ouml;eldi , et l&auml;bivaatusele ja p&auml;rast saan ma asjad tagasi . </s> <s> Ma t&auml;psustasin igaks juhuks &uuml;le , et kohvreid eneseid ma suure t&otilde;en&auml;osusega enam ei vaja , ning palusin saata ainult asjad . </s> <s> Minu meelest oleksid nad pidanud sellele viisakamalt vastama , mitte n&auml;hvama , et teavad ise paremini . </s> <s> Pabereid ei k&uuml;sinud ikka veel keegi . </s> <s> Siis j&auml;eti mind ootama , ent mitte kauaks . </s> <s> Direktor vabanes &uuml;heksa ja poole minuti p&auml;rast . </s> </p>
+<p> <s>Ma l&auml;ksin tema kabinetti . </s> <s> Leidsin end avarast ja rangelt sisustatud ruumist . </s> <s> Valged seinad , must napp m&ouml;&ouml;bel , laual arvuti ja terminalid . </s> <s> Direktor oli ilmselt &uuml;lekaalus , &uuml;tleksin , et ligi viisk&uuml;mmend kilo , hallis &uuml;likonnas , valge s&auml;rgi ja musta-siniseruudulise lipsuga . </s> <s> Ta labak&auml;ed olid karvadesse kasvanud , samuti oleks pidanud ta v&auml;hemalt n&auml;dal tagasi juukseid l&otilde;ikama ja ninakarvade eemaldamisele rohkem t&auml;helepanu p&ouml;&ouml;rama . </s> <s> Ruumis oli konditsioneer , kuigi sellest hoolimata mees higistas . </s> <s> Ma ootasin , kuni ta palub mul istuda , aga ta ainult silmitses mind pikalt &mdash; kuidagi v&auml;ga imeliku pilguga . </s> <s> Ma k&ouml;hatasin ja vaatasin tooli tema laua ees , selle peale k&ouml;hatas tema ja &uuml;tles l&otilde;puks : </s> </p>
+<p> <s> " Jah , muidugi , palun v&otilde;tke istet . " </s> </p>
+<p> <s>Enne kui istusin , asetasin tema ette mapi dokumentidega , passi ja sotsiaalkaardi , kuigi nad oleksid pidanud juba p&auml;&auml;slas neid kontrollima ja &auml;ra v&otilde;tma . </s> </p>
+<p> <s> " Me vist oleme telefonitsi r&auml;&auml;kinud ? " k&uuml;sis ta aeglaselt ja kissitas silmi . </s> </p>
+<p> <s> " T&otilde;epoolest . </s> <s> Ma ise helistasin teile ja reserveerisin koha . </s> <s> See oli kaheksa p&auml;eva tagasi , just siis , kui ma Siseministeeriumist viimase templi sain . </s> <s> Hakkasin kohe asju ajama , kartes , et kohad v&otilde;ivad t&auml;is olla . " </s> </p>
+<p> <s> " Noh , seni pole nad veel kunagi t&auml;is saanud , " ohkas direktor . </s> <s> " Inimesi , t&otilde;si k&uuml;ll , tuleb rohkem , neid kes soovivad teostada enesem&auml;&auml;ramis&otilde;igust , aga vajaduse korral v&otilde;ime m&otilde;ned lisakohad leida . </s> <s> Olemegi leidnud . </s> <s> Seni . " </s> </p>
+<p> <s> " Teie asutusele aluspaneva seadusega s&auml;testati , artiklis viis , l&otilde;ige kaks , et tuleb tagada k&otilde;ik sama seaduse artiklis kolm ette n&auml;htud &otilde;igused , vabadused ja ... " </s> </p>
+<p> <s> " Need k&otilde;ik on tagatud , " noogutas direktor kiiresti . </s> <s> " Ka ekstrakohtadel . </s> <s> Me lihtsalt ilmutame paindlikkust . </s> <s> Seaduse piires , loomulikult . </s> <s> Kui lubate , siis teie paberid . " </s> </p>
+<p> <s> " Palun . " </s> <s> Nihutasin mapi talle l&auml;hemale . </s> <s> Esimene voldik sisaldas l&auml;bivaatuste tulemusi ps&uuml;hhiaatriaasutustest . </s> <s> Kui ta neid lehitses , selgitasin talle l&uuml;hidalt , millised uuringud ma l&auml;bisin ning et s&uuml;&uuml;divus on t&auml;iesti korrektselt tuvastatud . </s> </p>
+<p> <s> " Muidu poleks teid Siseministeeriumis ju &uuml;le&uuml;ldse jutulegi v&otilde;etud , " &uuml;hmas direktor . </s> </p>
+<p> <s> " Ja ps&uuml;hhiaatriekspertiisi on t&otilde;hustatud , " lisasin mina , " mulle r&auml;&auml;giti , et m&otilde;ned haiged inimesed on &uuml;ritanud seda l&auml;bida . " </s> </p>
+<p> <s> " H&auml;mmastav , kas pole ? " &uuml;tles direktor ja t&otilde;stis paberitelt pilgu ja sellega mind teraselt puurides . </s> </p>
+<p> <s> " Vabandust ? " </s> </p>
+<p> <s> " H&auml;mmastav , et ka haiged tahavad siia sisse murda . " </s> </p>
+<p> <s> " Oh , jah , muidugi . " </s> </p>
+<p> <s>Siis uuris ta minu teist kaantevahet , mis sisaldas avaldust politseile ; politseit&otilde;endit kriminaalasja algatamise v&otilde;imatuse kohta kuriteokoosseisu puudumise t&otilde;ttu ; &auml;rakirja arhiivist , et juhtum pole neil kunagi menetluses olnud ja politsei&uuml;lemkomissari luba menetluse algatamise lubamisest . </s> </p>
+<p> <s> " Politsei punnis k&otilde;ige rohkem vastu , " m&auml;rkis direktor . </s> <s> " Siis , kui alles alustasime . </s> <s> See k&auml;is neile vist au pihta . " </s> </p>
+<p> <s> " Minuga olid nad k&uuml;ll v&auml;ga lahked . " </s> </p>
+<p> <s>J&auml;lle j&otilde;llitasid mind direktori silmad &mdash; mulle tundus , et kuidagi liiga isiklikult ja paljut&auml;hendavalt . </s> <s> L&otilde;puks oli ta ju ainult ametnik , kelle volitused on seadusega paika pandud ja isiklikku suhtumist ei tohiks tal olla . </s> </p>
+<p> <s>Kolmas kaust kandis pealkirja " Personaalia . " </s> <s> Siin oli minu enda vabas vormis antud kirjeldus karistuse taotlemisest ja millistest tegudest see tingitud oli ; notariaalselt kinnitatud testament ; elulookirjeldus ; &uuml;hiskondlike organisatsioonide ( neid on n&otilde;utud viis ja minul olid : nii Uue Lunastaja Kiriku kui katoliku kiriku moraalsed hinnangud , Seksuaalse &Auml;rakasutamise Vastu V&otilde;itlemise Rahvusvahelise Komitee m&auml;rgukiri ; Inim&otilde;iguste Instituudi uurimus ja Ameti&uuml;hingu kollektiivse hukkam&otilde;istu &auml;rakiri ) materjalid ; t&auml;idetud ankeet ja meditsiinit&otilde;end tervisliku seisundi kohta ; l&otilde;puks ka Siseministri otsus riigikantsleri kaasallkirjaga . </s> </p>
+<p> <s>Minu enda vabavormilist kirjeldust uuris direktor k&otilde;ige rohkem , mulle tundus , et ta muutus sealjuures n&auml;ost kaameks ja pilgutas kiiresti silmi , otsekui oleks talle pisarad silma t&uuml;kkinud . </s> </p>
+<p> <s> " Ja politsei ? " k&uuml;sis ta siis . </s> <s> " Ja politsei t&otilde;esti &uuml;tles , et koosseis puudub ? </s> <s> Kuriteo ? " </s> </p>
+<p> <s> " Teie k&uuml;simus on irrelevantne , kuna politsei vastav t&otilde;end on siin olemas . </s> <s> Aga jah &mdash; nii nad v&auml;itsid , ning arvestades s&uuml;&uuml;distatavatele tagatud protsessuaalseid &otilde;igusi , oleks uurimisorganitel raske tuvastada kaksk&uuml;mmend aastat tagasi toimepandud kuritegu . </s> <s> Seda enam , et v&auml;idetav ohver ... " </s> </p>
+<p> <s> " Jah , ma oskan lugeda ! " n&auml;hvas direktor toonil , mis tema ametikohaga kindlasti kokku ei k&auml;inud . </s> <s> Ma ei hakanud tema tundepurset kommenteerima , ehkki p&otilde;hjust oleks olnud enam kui k&uuml;ll . </s> <s> Umbes neli minutit lehitses ta " Personaalia " kausta . </s> <s> Siis ta &uuml;tles : </s> </p>
+<p> <s> " V&auml;hemalt v&otilde;ite n&uuml;&uuml;d kindel olla , et olete &otilde;iges kohas . " </s> </p>
+<p> <s> " Vastasel korral ... " </s> </p>
+<p> <s> " Jah , ma tean , vastasel korral te lihtsalt poleks siin . " </s> </p>
+<p> <s> " Ma paneksin ette , et filosofeerimisega v&otilde;iksid tegeleda inimesed , kellele selle eest makstakse , " s&otilde;nasin mina viisakalt . </s> </p>
+<p> <s> " Nad on sellega juba tegelenud k&uuml;ll ja k&uuml;ll . </s> <s> Aastasadu . </s> <s> Aga olgu &mdash; asugem asja juurde . </s> <s> Kolm aastat ? </s> <s> Tundub see teie arust piisav ? </s> <s> Taotluses olete m&auml;rkinud , et v&otilde;imaluse korral kolm ja pool , kuid siseminister on t&otilde;mmanud ringi &uuml;mber kolme , viidates kriminaalseadustikule . </s> <s> Aga hea k&auml;itumise korral v&otilde;in ma p&auml;rast esimest aastat teha taotluse karistuse pikendamise kohta . " </s> </p>
+<p> <s> " Ma oleksin teile v&auml;ga t&auml;nulik . " </s> </p>
+<p> <s> " Pole t&auml;nu v&auml;&auml;rt &mdash; t&ouml;&ouml; on selline . </s> <s> Parlamendikomisjoni inspekteerimist pole te soovinud . </s> <s> Ja siinkohal v&otilde;in ma k&uuml;sida , et kas see otsus on l&otilde;plik ? " </s> </p>
+<p> <s> " Jah , on k&uuml;ll . </s> <s> Ma loobuksin sellest . " </s> </p>
+<p> <s> " H&auml;sti . </s> <s> Suurep&auml;rane ! </s> <s> Religioossed vajadused ? " </s> </p>
+<p> <s> " V&otilde;imaluse korral kord kvartalis Uue Lunastaja Kiriku tr&uuml;kiseid postiga . </s> <s> Kulud ma maksan kinni . " </s> </p>
+<p> <s> " See v&otilde;imalus teil on . </s> <s> Seksuaalne orientatsioon ? </s> <s> Te muidugi saate aru , et ma pean seda k&uuml;sima , mitte et sel moraalsel pinnal mingi t&auml;htsus oleks . " </s> </p>
+<p> <s> " Muidugi . </s> <s> Ma arvan , et sellep&auml;rast ei tasu muretseda . </s> <s> V&otilde;ib lugeda , et antud tingimuses orientatsioon puudub . " </s> </p>
+<p> <s> " Loomulikult , otse loomulikult . </s> <s> Ega ma muretse ka . " </s> </p>
+<p> <s>M&otilde;ttes pidin ma direktori k&auml;est vabandust paluma , ta oli t&otilde;epoolest professionaal ning meie edasine koost&ouml;&ouml; t&otilde;otas kujuneda asjalikumaks , kui v&otilde;is esialgsete emotsionaalsuste t&otilde;ttu eeldada . </s> <s> Me leppisime kokku re&zcaron;iimis ( k&otilde;ige rangem ) ja p&auml;evakorras ( &auml;ratus , s&ouml;&ouml;giajad , &ouml;&ouml;rahu ) , t&auml;psustasime toitumusharjumused ( mul on allergia hapendatud piimatoodete vastu ) ning siis ta k&uuml;sis , kas mul on veel mingeid soove . </s> <s> Viitasin seadusele , et mul on v&otilde;imalus teha viimane telefonik&otilde;ne , enne kui k&auml;ivitub range re&zcaron;iim ja &uuml;hendus muu maailmaga on lubatud vaid kord kuus . </s> </p>
+<p> <s> " V&otilde;ite otse siitsamast helistada , " lubas ta lahkelt . </s> <s> " Kas soovite privaatsust ? " </s> </p>
+<p> <s> " Ei , mul pole midagi varjata . " </s> </p>
+<p> <s>Ma helistasin taksofirmasse , esitades oma pretensioonid ja palusin juhi karistamisest avalikes massiteabevahendites teada anda . </s> <s> Erilist vastutulelikkust minu soovidele ei ilmutatud . </s> <s> Direktor kutsus kohale kaks valvurit , kes palusid viisakalt mul endale j&auml;rgneda . </s> <s> Direktor mainis valvuritele , et h&auml;rra l&auml;heb " eriti rangesse . " </s> <s> Rahuldusega tabasin valvurite pilkudest kerge ehmatusv&auml;reluse . </s> <s> Siis p&ouml;&ouml;rdus &uuml;lekaaluline direktor minu poole : </s> </p>
+<p> <s> " Nii et t&auml;pselt &uuml;he minuti p&auml;rast algab teie karistusaeg . </s> <s> Mul j&auml;&auml;b &uuml;le vaid soovida teile tere tulemast . </s> <s> Kui teil peaks olema veel mingeid soove v&otilde;i soovite minuga kohtuda ... " </s> </p>
+<p> <s> " Oh , loodan , et selleks pole l&auml;hiajal mingit tarvidust . " </s> </p>
+<p> <s> " V&auml;ga hea , tahtsingi lisada , et selleks pole ka &uuml;htegi v&otilde;imalust . " </s> </p>
+<p> <s>Siis juhatati mind l&auml;bi administratiivbloki koridoride , mis korralikust tsiviilasutusest palju ei erinenud . </s> <s> K&uuml;sisin , et kas minu asjad on juba kambris ning et mul oleks soov m&otilde;ningaid h&uuml;gieeniprotseduure l&auml;bi viia . </s> <s> Mulle ei vastatud , mis tundus kummaline , ja ma viitasin Enesekaristusseaduse kuuendale artiklile ja n&otilde;udsin selle t&auml;itmist . </s> <s> &Uuml;ks valvur teatas seepeale , et oma kambris saan ma kogu kuuenda artikli ja enamgi veel , kui peaks vaja olema . </s> <s> Ma t&auml;nasin teda , &ouml;eldes , et peale kuuendas artiklis etten&auml;htud &otilde;iguste ja vabaduste pole mul midagi enamat tarvis . </s> </p>
+<p> <s>Vanglablokk algas koridori l&otilde;pust elektroonikal t&ouml;&ouml;tava ja turvakaameratega varustatud raudv&auml;ravast , mis oli t&auml;histatud vastavate kirjetega , ning selle ees k&auml;sti mul k&auml;ed seljale asetada . </s> <s> R&otilde;&otilde;muga tegingi nii . </s> <s> V&auml;rav ei kriuksatanud raudsel h&auml;&auml;lel ( nagu olin lootnud ) , vaid sulgus sujuvalt ja pehmelt . </s> <s> P&otilde;geneda &mdash; m&auml;rkisin endale &mdash; pole siit v&otilde;imalik ning r&auml;&auml;gitakse , et t&otilde;eline nauding karistusest saabubki alles siis , kui karistatav tunneb oma s&uuml;&uuml; lunastatud olevat ja soovib vabadusse ning see talle keelatud on . </s> <s> Mind juhatati l&auml;bi kambrite rea , vabak&auml;igutsooni me ei sisenenud , l&auml;bisime veel &uuml;he v&auml;rava , mis kuulutas " Eriti range " re&zcaron;iimiga m&auml;&auml;ratud ala algust , ja siis seisime h&auml;maras , ma &uuml;tleksin isegi , et v&auml;ga h&auml;maras koridoris , milles oli neli ust . </s> <s> Uksed olid v&auml;ga madalad , ma pidin kummarduma , et enda omast sisse mahtuda , aga enne j&otilde;udsin t&auml;hele panna , et see uks kriiksus k&uuml;ll ebameeldivalt . </s> <s> Valvurid minuga rohkem ei suhelnud , l&uuml;kkasid &mdash; selleks ehk &uuml;lem&auml;&auml;ragi j&otilde;udu kasutades &mdash; mind madala ukse vahelt sisse ja enne , kui protesteerida j&otilde;udsin , avastasin end pimedusest . </s> </p>
+<p> <s>J&auml;in sinna seitsmeks p&auml;evaks . ***</s> </p>
+<p> <s>Kaheksanda p&auml;eva hommikul &mdash; olen kindel , et ajataju ma siiski ei kaotanud , kuigi pilkases pimeduses ja ainult &auml;ratuseks lindilt maham&auml;ngitud helide kakofooniat v&auml;lja arvestades v&otilde;is see v&auml;hem metoodilistel inimestel raskendatud olla &mdash; lohistati mind kambrist v&auml;lja . </s> <s> Valvurid kandsid helesiniseid sanitaarkombinesoone ja hingamisteede kaitsevahendeid , asudes t&otilde;en&auml;oliselt kambrit puhastama , sest k&otilde;igist kuuendas artiklis s&auml;testatud rikkumistest oli h&uuml;gieenis&otilde;lme puudumine minu hinnangul k&otilde;ige r&auml;ngem . </s> <s> Nad ei vaevunud ka mu silmi valguse eest kaitsma . </s> <s> Nii h&auml;mar nagu koridor ka polnud , oli sealne valgus mu silmadele siiski v&auml;ga valus . </s> <s> Ma olin m&otilde;ttes ette valmistanud kaebekirja ja n&otilde;udsin kohe direktorit , sest kahtlemata s&uuml;ndisid eriti range re&zcaron;iimi tsoonis toimetatavad koledused ja ebainimlikkused tema teadmata . </s> <s> Mind lohistati &otilde;ige j&otilde;hkralt m&ouml;&ouml;da p&otilde;randat , p&ouml;&ouml;ramata t&auml;helepanu minu kaebustele . </s> <s> Ehkki k&otilde;nelda oli raske , suutsin siiski n&otilde;uda inimv&auml;&auml;rikuse tagamist : dietoloogide poolt ettevalmistatud ja siseministri m&auml;&auml;rusega kehtestatud men&uuml;&uuml;d veekraani ja kuivikute asemel ; vastavalt standarditele ruutmeetreid ja valgustust ; h&uuml;gieenis&otilde;lme loomulikult ; jalutamisv&otilde;imalust ja isiklike lubatud esemete kasutamist . </s> <s> N&otilde;udsin arstlikku l&auml;bivaatust ja viivitamatult v&otilde;imaluse osutamist parlamendikomisjoni poole p&ouml;&ouml;rduda . </s> <s> Protesteerisin k&otilde;ige otsustavamalt , et mulle osaks saanud kohtlemine on inim&otilde;igusi eirav ja inimv&auml;&auml;rikust alandav , on otseselt moraalselt ja f&uuml;&uuml;siliselt kannatusi ja valu tekitav . </s> </p>
+<p> <s>Aga sellele ei p&ouml;&ouml;ratud t&auml;helepanu . </s> <s> Mind veeti pesuruumi , k&auml;sti lahti riietuda ning uhati vaheldumisi kuuma ja k&uuml;lma veega &uuml;le , seej&auml;rel anti uued riided ja viidi kambrisse tagasi . </s> <s> Kambrit ei olnud vahepeal puhastatud , see haises endiselt minu v&auml;ljaheidete j&auml;rele . </s> <s> J&auml;rgmise neljateistk&uuml;mne p&auml;eva jooksul &otilde;ppisin uusi riideid v&auml;hem m&auml;&auml;rima . ***</s> </p>
+<p> <s>Ma kahtlustan , et mind siiski mingite kaameratega j&auml;lgiti , sest umbes sel ajal , kui ma hakkasin sellise piinamisega mingil m&auml;&auml;ral kohanema &mdash; t&otilde;si , olin v&auml;ga n&otilde;rkenud toiduratsiooni nappuse ja &uuml;ksluisuse t&otilde;ttu &mdash; viidi mind &uuml;le teise kambrisse . </s> <s> Uute oludega harjumine oli keerulisem . </s> <s> Esiteks p&otilde;les kitsukeses kambris &mdash; kuusteist ruutmeetrit hindasin selle suuruseks &mdash; pidevalt tuli ning s&uuml;&uuml;a toodi kaks korda ( ma arvan , et ) p&auml;evas . </s> <s> Mingit v&otilde;imalust aega kindlaks teha ei olnud . </s> <s> Samuti oli seal algeline parask . </s> <s> Kui esimeses kambris sai ainult pimeduses roomata , mist&otilde;ttu minus oli s&uuml;venenud klaustrofoobia , siis uues v&otilde;isin k&otilde;ndida ja istuda , kuigi m&ouml;&ouml;blit polnud selleski . </s> <s> &Uuml;helegi minu n&otilde;udmisele ega protestile ei reageeritud . </s> <s> Usun , et viibisin seal kuu aega , v&otilde;ib-olla kauemgi . </s> <s> Kindlasti nad j&auml;lgisid mind ja m&auml;&auml;rasid &auml;ra hetke , mil ma enam ei kippunud valvuritele , keda n&auml;gin vaid m&otilde;neks sekundiks , kaebama . </s> <s> Kui mind uude kongi viidi , olin siiski paljus&otilde;naline , esitades oma proteste niiv&otilde;rd elokventselt , kuiv&otilde;rd minu hingeline ja f&uuml;&uuml;siline seisund lubas . </s> <s> N&otilde;udsin selle piinamise l&otilde;petamist , direktorit , parlamendikomisjoni , n&otilde;udsin inimv&auml;&auml;rset kohtlemist . </s> <s> Aga seda ei pandud miskiks . </s> <s> Minu j&auml;rgmine kamber polnud eelmisest oluliselt suurem , vahest ainult m&otilde;ne ruutmeetri v&otilde;rra , mille v&otilde;tsid enda alla raamatud . </s> </p>
+<p> <s>Riiulid olid hoolega komplekteeritud , kindla maitse ja suunitlusega . </s> <s> P&auml;rast kahte p&auml;eva , mis kulus teatavaks taastumiseks ja uues re&zcaron;iimis elamiseks , alustasin riiulite sisuga tutvumist ning ei avastanud teoste seas &uuml;htegi , mida ma ise olin kinnipidamisasutusse kaasa toonud . </s> <s> Ma oleksin eeldanud , et siin on karistuse eesm&auml;rgiga seosed olevad raamatud &mdash; filosoofiast , eetikast , kriminalistikast v&otilde;i siis ilukirjandus , mis tegeleb moraalsete v&auml;&auml;rtustega , arendab , kasvatab ja &otilde;petab inimest . </s> <s> Aga ei olnud midagi sellist . </s> <s> Pealtn&auml;ha eklektiline valik omandas &uuml;htse terviku p&auml;rast teist kuud selles kongis , mil ma olin j&otilde;udnud l&auml;bi lugeda &uuml;he kolmandiku teostest . </s> <s> Olin teadlik , et minu tutvumist raamatutega j&auml;lgis kaamerasilm ning kaasas&uuml;ndinud intelligentsus &uuml;tles , et enne k&otilde;igi raamatute l&auml;bilugemist ma siit kambrist ei p&auml;&auml;se . </s> </p>
+<p> <s>Tingimustes , kus s&uuml;&uuml;a saab kaks korda p&auml;evas ( reeglina hautatud juurvilja jahuviineritega v&otilde;i kalapulki kartulip&uuml;reega ) , v&otilde;ivad mitmesuguste kokaraamatute , n&auml;iteks provaansi , hiina , slovaki ja itaalia kokaraamatutega tutvumine olla moraalselt v&auml;ga alandav . </s> <s> Sama tuleb &ouml;elda ka ilukirjanduslike teoste kohta , mille eesm&auml;rgiks on elum&otilde;nude kirjeldamine ja elu nautimine ning sisuks seikluslik ning haarav s&uuml;&zcaron;ee . </s> <s> Ka pornograafilist materjali sisaldavad &uuml;llitised v&otilde;ivad pikaajalises isolatsioonis viibija suhtes toimida talle mitte k&otilde;ige meelep&auml;rasemas suunas . </s> </p>
+<p> <s>Piinamine kultuuriga t&otilde;i kaasa ka suhtlemisvaeguse , teravdatud tundmuse &uuml;ksiolemisest . </s> <s> Ma lugesin ning ei j&auml;tnud kasutamata &uuml;htegi v&otilde;imalust j&auml;tkuvalt protesteerida osaks saanud kohtlemise &uuml;le . </s> <s> Panin siiski t&auml;hele , et vastavalt loetud raamatute hulgale kaeblemised v&auml;henesid ning l&otilde;ppesid &uuml;heaegselt viimase teosega , milleks osutus fotoraamat &uuml;he miljon&auml;rist seikleja &uuml;mbermaailmareisist . </s> <s> Kokku oli minu arvestuste j&auml;rgi karistuse algusest m&ouml;&ouml;das neli kuud . </s> </p>
+<p> <s>J&auml;rgmised kolm kuud veetsin kummitavas kambris , mis muus osas meenutas k&otilde;ige rohkem tavalist &uuml;ksikvangistuse kongi . </s> <s> Kongist v&auml;lja ei lastud mind kunagi , puudusid ka k&otilde;ik muud v&otilde;imalused kuidagi meelt lahutada , puudus v&otilde;imalus jalutada , &uuml;ldse kuidagi kellegagi suhelda ja s&uuml;&uuml;a toodi mulle n&uuml;&uuml;d vaid siis , kui magasin , &otilde;ieti siis , mil ma suutsin magada . </s> <s> Hoolimata enesesisendusest , et kummitus on kindlasti vaid vangivalvurite poolt tehnoloogiliste vahenditega esile kutsutud , ei v&auml;hendanud see tema poolt tekitatavaid l&auml;bielamusi ja tundmusi . </s> <s> Ta ilmus alati siis , kui ma olin kas magama j&auml;&auml;mas v&otilde;i juba uinunud , et mind &uuml;les &auml;ratada , kas k&uuml;lmusega kompides , v&otilde;ikalt h&auml;&auml;litsedes v&otilde;i muul moel hirmuelamusi tekitades . </s> <s> Selline painamine tekitas hirmu une ees ja p&otilde;hjustas kroonilise &uuml;lev&auml;simustunde . </s> <s> Kummitus oli v&auml;ga innovatiivne . </s> <s> Ning neil &uuml;ksikutel kordadel , mil ta end n&auml;itas , suutis ta mind alati &uuml;llatada oma kehakuju , ilmet ja v&auml;limust muutes . </s> <s> Ma ei oska &ouml;elda , kas see oli inimene v&otilde;i m&otilde;ni muu olend , ning kui ma hakkasin temaga harjuma &mdash; k&otilde;ige kohutavamate &uuml;leelamiste kiuste &mdash; ta kadus v&otilde;i haihtus oleks vist &otilde;igem &ouml;elda . </s> <s> &Uuml;htlasi sel ajal sai mulle ka selgeks , et vaevalt ta vanglajuhtkonna poolt kontrollitav oli . </s> </p>
+<p> <s>Minu j&auml;rgmine ts&uuml;kkel m&ouml;&ouml;dus j&otilde;hkra ning robustse seksuaalse &auml;rakasutamise ohvrina &uuml;ksikkongis , mida umbes kuue kuu jooksul olin sunnitud teatavate perioodide tagant kaaslasega jagama . </s> <s> Minu piinaja oli selgelt vaimuhaige , ent seda tugevam oli tema j&otilde;ud ja sihip&auml;rasem kirg . </s> <s> Ta oli t&auml;iesti akontaktne ning ainult &uuml;hele huvile keskendunud , nii et tema k&uuml;lastused &mdash; otse loomulikult toimusid need vanglapersonali mahitamisel &mdash; ei toonud leevendust ka minu suhtlemisprobleemidele , vaid p&otilde;hjustasid , rohkem isegi , kui miski muu mulle seni osaks saanust , ainult vaimset ja kehalist piina , alandust ja kannatust . </s> <s> Tema tulekute vahele j&auml;i m&otilde;nikord &uuml;ks p&auml;ev , m&otilde;nikord kaks v&otilde;i siis n&auml;dal v&otilde;i isegi paar , ent alati t&otilde;i ta endaga kaasa portatiivse muusikaseadeldise , millest v&auml;givalla taustaks k&otilde;las elegantne barokkmuusika , mis n&auml;is tema v&otilde;igast iha &uuml;ha suurendavat . </s> <s> Sisustus kambris praktiliselt puudus , elementaarne sanitaars&otilde;lm oli samuti m&otilde;eldud enamjaolt minu piinaja vajaduste rahuldamiseks ning ainus , mis mul seal teha oli , oli oodata . </s> </p>
+<p> <s>Kuus kuud on v&auml;ga pikk aeg . </s> </p>
+<p> <s>On v&auml;ga , v&auml;ga pikk aeg , mille jooksul j&otilde;uab isegi harjuda selliste v&auml;&auml;rkohtlemistega . </s> </p>
+<p> <s>Ilmselt mind ( meid ) j&auml;lgiti ka selles kambris , nii et esimene kord , mil ma suutsin l&otilde;puks maha suruda ebameeldivustunde ja enamgi veel &mdash; isegi tunda teatavat naudingut &mdash; j&auml;i ka viimaseks . </s> <s> Minutipealt lohistati mind tagasi kambrisse , milles olin ligi aasta tagasi oma karistuse kandmist alustanud , see t&auml;hendab pilkasesse pimedusse oma v&auml;ljaheidete keskele , kus sai ainult roomata , kompida vee ning kuivanud ja haisva leiva j&auml;rele , kus sai ainult nutta , haliseda , karjuda , anuda taga seda , mis minult oli v&otilde;etud ja halada selle &uuml;le , mis ees seisis . </s> </p>
+<p> <s>Sest ilmselt oli l&auml;bi saanud minu karistuse esimene aasta ja ts&uuml;kkel algas otsast peale . ***</s> </p>
+<p> <s>&Uuml;llatus , mille p&otilde;hjustas minu viimane kohtumine vangla direktoriga , oli seda suurem , et ma polnud seda enam mitu n&auml;dalat n&otilde;udnud . </s> <s> Kottpimedusest h&auml;marasse koridori lohistamine , kombinesoonides valvurite n&auml;gemine ja teadmine , &otilde;igemini &auml;hmane m&auml;lupilt , et mind peaks n&uuml;&uuml;d ees ootama lakkamatu valgusega lakooniline kamber , suutis minu h&auml;&auml;bumas teadvust siiski veidi turgutada . </s> <s> Pesuruumi asemel talutati mind aga hoopis ruumi , kus samasuguses helesinises kombinesoonis ja kaitstud hingamisteede maskiga ootas mind &uuml;lekaaluline direktor . </s> </p>
+<p> <s>Ta ei lausunud algul s&otilde;nagi , ainult j&auml;lgis mind p&otilde;lglikult , kui ma toolil istuda p&uuml;&uuml;dsin . </s> <s> Ma loomulikult ei uskunud enam , et minu kallal toime pandud alandamine on teoks saanud tema teadmata . </s> <s> Suutsin avada l&otilde;puks suu ja k&auml;hisedes kogeleda : " Ma n&otilde;uan ... " </s> </p>
+<p> <s>Siis ta l&otilde;i mind n&auml;kku ja p&uuml;hkis k&auml;tt ilmselt selleks otstarbeks ruumi toodud desinfitseeriva k&auml;ter&auml;tiga . </s> </p>
+<p> <s> " Te ikka n&otilde;uate midagi ? " k&uuml;sis ta siis j&auml;lkust t&auml;is toonil . </s> <s> " Ikka veel n&otilde;uate seadusest kinnipidamist , arstlikku l&auml;bivaatust , oma usuajakirju , h&uuml;gieeni , inim&otilde;igusi , parlamendikomisjoni ? </s> <s> Ikka veel n&otilde;uate ? " </s> </p>
+<p> <s>Ma noogutasin , sest k&otilde;nelda oli raske . </s> </p>
+<p> <s> " Mis siis ikka , " kehitas ta j&auml;rsult &otilde;lgu . </s> <s> " J&auml;relikult pole esimene aasta andnud nii intensiivseid tulemusi , kui ma ootasin . </s> <s> Olete teie alles lurjus , ah ? </s> <s> Aga pole midagi . </s> <s> V&auml;hemalt kaks aastat on ju meil veel ees , eks ole ? " </s> </p>
+<p> <s> " Mul on kolmanda artikliga tagatud &otilde;igused ja te olete mulle valetanud ! " </s> <s> See oli k&otilde;ige pikem lause , mida ma mitme kuu jooksul oli kuuldavale toonud . </s> </p>
+<p> <s> " Muidugi ma valetasin teile , " h&uuml;&uuml;atas direktor . </s> <s> " Miks ei peaks teiesugusele &uuml;ldse mitte valetatama ? </s> <s> Kes peaks teile &otilde;igust r&auml;&auml;kima ? </s> <s> Kas need poliitikud , kes teevad teiesugustele seadusi , enne valijatele t&otilde;endid karistusest ja lunastusest ette n&auml;idates ? </s> <s> V&otilde;i need meediafiguurid , &auml;rimehed v&otilde;i " arvamusliidrid " , kes enne avalikku esinemist kuulutavad , et muidugi pole keegi meist patune , aga nendel on selle kohta t&otilde;end , et omad patud ja eksimused on nad ise ja vabatahtlikult lunastanud , et siis j&auml;lle asuda maailma v&auml;gistama ? </s> <s> Need v&otilde;i ? </s> <s> Kas nemad peaksid teile t&otilde;tt r&auml;&auml;kima ? </s> <s> Millest te &uuml;ldse t&otilde;tt teada tahate ? " </s> </p>
+<p> <s> " Mul on k&otilde;ik &otilde;igused ja vabadused , mis on p&otilde;hiseadusega ... " </s> </p>
+<p> <s> " Siin otsustan mina , millised &otilde;igused teil on . </s> <s> Ja nemad &mdash; minu s&otilde;brad ja kaaskannatajad , " haugatas ta ja viipas k&auml;ega ukse suunas , kus seisid k&otilde;ik vangivalvurid , kes mind aasta jooksul ahistanud olid . </s> </p>
+<p> <s> " Siiski on mul &otilde;igused , mis ei s&otilde;ltu teie tahtest . </s> <s> Ja mul on &otilde;igus karistusele , kui ma ise seda n&otilde;uan . </s> <s> &Otilde;iglasele ja seadusega etten&auml;htud karistusele . " </s> </p>
+<p> <s> " Oh , te suudate veel ikka nii palju lobiseda ja targutada , " ohkas direktor t&uuml;lpinult . </s> <s> " Ikka veel ! </s> <s> Vastake parem &mdash; kas te kahetsete , et siia tulite ? " </s> </p>
+<p> <s> " Jah . " </s> </p>
+<p> <s> " V&auml;ga hea . </s> <s> J&auml;relikult te kannatate juba . </s> <s> Veel parem . </s> <s> Kas te m&otilde;tlesite , et karistus ongi miski leping inimese ja riigi vahel ? </s> <s> Kindlasti m&otilde;tlesite . </s> <s> Siis teadke , et mina karistan teid ja vahenditega , millised ma ise &otilde;igeks arvan ja teil pole &uuml;htki garantiid , et need leebemaks muutuksid . </s> <s> Oh ei , muidugi mitte , v&otilde;in pigem kinnitada , et esimene aasta oli ainult algus ja t&otilde;eline piin alles algab . </s> <s> Piin , millega te harjute . " </s> </p>
+<p> <s> " Kindlasti mitte . " </s> </p>
+<p> <s> " Mida te seal halisete ? </s> <s> Kindlasti mitte ? </s> <s> Aga harjute k&uuml;ll , kas tahate seda v&otilde;i mitte . </s> <s> Tasapisi ilmutate te juba leppimise m&auml;rke , ent l&otilde;plik harjumine peab tulema l&auml;bi pikkade , v&auml;ga pikkade piinade . </s> <s> Sest see ongi ainus ja t&otilde;eline karistus . </s> <s> Esimese aasta j&auml;rel on teil &otilde;igus &mdash; ja see on minu poolt kehtestatud &otilde;igus &mdash; &uuml;ht-teist meie menetluste kohta teada saada . </s> <s> See suurendab piinu , uskuge mind . </s> <s> Nii et teadke &mdash; te viibite siin senikaua , kuni hakkate harjuma , hakkate kohanema oma isiku m&otilde;nitamise , alandamise ja piinamisega . </s> <s> Kui teie kaebed lakkavad ja miski teile enam piina ei valmista , alles siis lasen ma teid vabaks . </s> <s> Siis , kui olete harjunud oma isiku l&otilde;putu ja j&auml;&auml;gitu alandamisega . </s> <s> Siis , mitte varem . " </s> </p>
+<p> <s>Ta p&ouml;&ouml;rdus minekule . </s> </p>
+<p> <s> " Te ei ole inimene , " sosistasin mina . </s> </p>
+<p> <s> " Aga vaat selle &uuml;le ei otsusta k&uuml;ll teie , " viskas ta &uuml;le &otilde;la , j&auml;i siiski uksel peatuma , heites mulle veel viimase pilgu . </s> <s> " Samas v&otilde;ib teil m&otilde;nes m&otilde;ttes &otilde;igus olla , kuigi sel pole mitte mingisugust t&auml;htsust . </s> <s> Enam ja minu jaoks . </s> <s> Muuseas , miks ma teie arvates &uuml;ldse olen selle vangla direktor , miks p&uuml;rgisin sellele kohale ? " </s> </p>
+<p> <s> " Sest te olete kurjategija ! " </s> </p>
+<p> <s> " See on alati suhteline m&otilde;iste . </s> <s> Sest tegelikult ka mina kannan siin oma karistust . </s> <s> Karistust , mille m&auml;&auml;rasin endale ise ja kannan l&otilde;puni , lootuseta leida iial lunastust , andeksandmist ja andestust . </s> <s> Minu s&uuml;&uuml; on igavene , hoolimata kahetsusest . </s> <s> Ainult siin ja selles ametis saan ma ennast karistada kuriteo eest enese vastu , selle eest , et ma pidasin end kunagi humanistiks , filantroobiks ja sellisena ka tegutsesin , et ma uskusin , lootsin ja armastasin , et ma pidasin inimest inimeseks . " </s> </p>
+<p> <s>Siis ta l&auml;ks , j&auml;ttes mind oma kaaskannatajate meelevalda . </s> </p> </div0> </body> </text>

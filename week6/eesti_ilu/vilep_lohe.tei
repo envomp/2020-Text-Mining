@@ -1,0 +1,445 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>L&otilde;he m&uuml;&uuml;ris</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 51572; s&otilde;nu: 5955</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>L&otilde;he m&uuml;&uuml;ris</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=div1 occurs=5></tagusage>
+         <tagusage gi=head occurs=6></tagusage>
+         <tagusage gi=p occurs=332></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text>
+<body>
+<div0 type='tervikteos'><head>L&otilde;he m&uuml;&uuml;ris</head>
+<div1 type='alaosa'><head>1. peat&uuml;kk</head>
+
+<p>Oli tipptund ja liinibuss rahvast puup&uuml;sti t&auml;is. Jan komposteeris pikka kasvu mehe kaenla alt k&auml;tt l&auml;bi surudes talongi ja pressis end bussi tagumisse otsa akna alla seisma. Talle meeldis vaadata, kuidas s&otilde;idutee bussi alt v&auml;lja voolas ning jalak&auml;ijad koos &uuml;mberkaudsete majadega kaugenesid. Iga peatusega j&auml;i reisijaid j&auml;rjest v&auml;hemaks ja varsti hakkasid ka istekohad vabanema. Jan valis v&auml;lja rahuliku olemisega vanema meesterahva ja s&auml;ttis ennast tema k&otilde;rvale. M&otilde;nda aega vaikisid m&otilde;lemad, siis p&ouml;&ouml;rdus mees uurival pilgul Jani poole:</p>
+<p>"T&ouml;&ouml;lt?"</p>
+<p>"T&ouml;&ouml;lt," vastas Jan v&auml;sinult.</p>
+<p>"Ammu?"</p>
+<p>"K&uuml;mme aastat."</p>
+<p>"T&uuml;lpinud?" rohkem nentis kui k&uuml;sis k&otilde;rvalistuja.</p>
+<p>"Kohutavalt!"</p>
+<p>"Aeg-ajalt peab k&otilde;ike muutma, muidu l&auml;heb eluisu &auml;ra," &uuml;tles mees l&otilde;puks ootamatult pika lause.</p>
+<p>"K&otilde;ike?" ei saanud Jan aru.</p>
+<p>"K&otilde;ik muutub &uuml;kskord niigi. Siis, kui sa enam ei j&otilde;ua. Parem on ise muuta."</p>
+<p>Jan ei m&otilde;istnud p&auml;ris t&auml;pselt, mida mees silmas pidas. Tal oli juba k&uuml;mme aastat p&auml;evast p&auml;eva olnud naine, t&ouml;&ouml; ja kodu. Kokkuv&otilde;ttes oli see ju &otilde;nn! V&auml;hemalt oleks pidanud olema. T&uuml;lpimus t&uuml;lpimuseks, aga tema ei kavatse k&uuml;ll p&auml;eva pealt k&otilde;ike j&auml;tta ja uuesti alustada.</p>
+<p>"Selle &uuml;le peab m&otilde;tlema," vaatas Jan mehele otsa ja m&auml;rkas tolle silmis ebatavaliselt tarka ja kelmikat, samas metsikut ja &uuml;ksk&otilde;ikset pilku. Justnagu oleks mees elu k&auml;est peksa saanud ja samas oma saatuse &uuml;le naernud.</p>
+<p>"V&otilde;ib-olla ongi juba hilja," poetas vana mokaotsast ja t&otilde;usis, et taaruda bussi tagaakna juurde. Ka Jan t&otilde;usis, sest j&auml;rgmises peatuses pidi ta v&auml;ljuma.</p>
+<p>"N&auml;e!" osutas mees peaga akna suunas. "Sa vaata, kui kiiresti k&otilde;ik taganeb!"</p>
+<p>Buss peatus, Jan h&uuml;ppas eelviimaselt astmelt &uuml;le rentsli, vaatas poolk&otilde;&otilde;rdi &uuml;le &otilde;la tagasi ja n&auml;gi vana-mehe muigel n&auml;gu.</p>
+<p>"Poo ennast &uuml;les, kui tahad!" n&auml;hvas ta endamisi ja t&otilde;stis tibutava vihma eest n&auml;gu varjates jopekrae ninaotsani &uuml;les.</p>
+<p>Kuusk&uuml;mmend &uuml;ks sammu v&auml;ravani, kaksteist tagaukseni, neliteist trepiastet ja viimased viis uksekellani.</p>
+<p>"Kes seal on?" kostis seest t&auml;iesti v&otilde;&otilde;ras meheh&auml;&auml;l.</p>
+<p>"Mi-mina olen! Jan muidugi." Asi v&otilde;ttis Jani kogelema. Oli kuulda jutupominat ja m&otilde;ne hetke p&auml;rast avanes uks. Sellel seisis matsakas, karvase rinnaga, dressip&uuml;kste v&auml;el keskealine mehem&uuml;rakas.</p>
+<p>"Millega saan teid aidata?"</p>
+<p>"Ma, ma peaksin siin nagu elama!" oli Jan jahmunud.</p>
+<p>"Huvitav k&uuml;ll," s&uuml;gas mees oma karvast k&otilde;htu, "kus kuradi kohas siis mina viimased k&uuml;mme aastat elanud olen?"</p>
+<p>Jan piilus ukse vahelt sisse ja t&otilde;epoolest - tapeet oli teine, m&ouml;&ouml;bel oli teine ja l&otilde;hnadki olid hoopis teised. Nende peres igatahes kasse ei olnud.</p>
+<p>"Oi, andke andeks! Ma siis vist ikka t&otilde;esti eksisin! Veelkord, palun vabandust!" Ta taganes midagi m&otilde;istmata trepini ja kuulis veel seljatagant &ouml;eldavat:</p>
+<p>"V&otilde;tke heaks!"</p>
+<p>"No on ju sama trepp!" Ta j&otilde;udis alla ja seisis keset &otilde;ue. "T&auml;pselt! K&otilde;ik on sama! See on minu maja!" Igaks juhuks l&auml;ks ta v&auml;ravast v&auml;lja ja vaatas hoone eestpoolt &uuml;le.</p>
+<p>"Siiski, kardinad meie akende ees on teised &hellip;"</p>
+<p>&Uuml;le tee l&auml;henes naaber esimeselt korruselt - kena mutikene, kes igal v&otilde;imalusel Janiga suhelda p&uuml;&uuml;dis, mis siis, et Jan alati midagi ettek&auml;&auml;ndeks tuues k&auml;est &auml;ra libises.</p>
+<p>"Tere, t&auml;di Alma!"</p>
+<p>"Tere, jah!" vastas see v&otilde;&otilde;rastavalt ja seiras m&ouml;&ouml;dudes Jani altkulmu. &Otilde;ue sisenedes sulges ta isegi v&auml;rava ja kadus rutates majanurga taha.</p>
+<p>"Tohoh!" ei saanud Jan enam millestki aru. "Kas ma olen valesse aega sattunud? V&otilde;i hoopis m&otilde;nda teise dimensiooni?" Ta astus kiiruga &uuml;le t&auml;nava, istus k&otilde;nniteeservale maha ja hakkas k&auml;sip&otilde;sakil oma endist kodu ja selle &uuml;mbrust uurima.</p>
+<p>"Mis kuradi jama see on? Nii ei saa lihtsalt olla! Ma ei maga ju!" Ta n&auml;pistas ennast k&auml;sivarrest, raputas pead ja l&otilde;i l&otilde;puks lahtise k&auml;ega vastu p&otilde;ski. V&otilde;&otilde;rad kardinad olid ja j&auml;id tema akende ette.</p>
+<p>"Aitab!" otsustas ta l&otilde;puks ja seadis sammud l&auml;hima telefoniputka poole.</p>
+<p>"Tsau, ema!"</p>
+<p>"Tere, Jan-poiss!"</p>
+<p>Jan oli &otilde;nnelik, et keegi teda v&auml;hemalt &auml;ragi tundis.</p>
+<p>"Ema, &uuml;tle, kus ma elan?"</p>
+<p>"Nalja teed v&otilde;i? Kui sa joodik oleksid, saaksin aru, aga &hellip;" Ta viivitas veidi ja justkui taipas:</p>
+<p>"L&auml;ksite t&uuml;lli? Noojah. Viskas su v&auml;lja? See n&uuml;&uuml;d k&uuml;ll tema moodi pole!"</p>
+<p>"Ema, &uuml;tle mulle mu aadress, palun! V&otilde;i oled unustanud?"</p>
+<p>"Kummeli 24-6," tuli vurinal. Siis lisas ta veidi solvunult:</p>
+<p>"Mul ei ole veel skleroosi, kallis poeg. Ja kui see n&uuml;&uuml;d nali oli, siis on sul k&uuml;ll veidrad naljad viimasel ajal!"</p>
+<p>"&Auml;ra solvu, ema! Tegin lihtsalt pulli! V&otilde;tsime s&otilde;pradega siin &uuml;he &otilde;lle &hellip; Okei, pean n&uuml;&uuml;d minema. Eks ma astu l&auml;bi, kui aega saan. Tervita papsi!"</p>
+<p>"Mida?!" kostis &auml;rev ja ehmunud h&auml;&auml;l teises otsas, aga Jan oli j&otilde;udnud juba toru hargile panna.</p>
+<p>"Millest selline reaktsioon?" m&otilde;tles ta endamisi ja astus pikkade sammudega tagasi bussipeatusse.</p>
+<p>Ta oli k&uuml;ll hakanud viimase kahe aasta jooksul rohkem viina v&otilde;tma ja ega need t&uuml;lidki kodus tulemata j&auml;&auml;nud, aga v&auml;lja polnud teda veel visatud. Oma treialit&ouml;&ouml;ga teenis ta piisavalt, et naise rahaarmastust rahuldada ja niimoodi lapsega koos lihtsalt kaduda - seda ei uskunud ta Evest iialgi.</p>
+<p>Bussi oodates jalutas ta veelkord oma majani ja tagasi. Kardinad olid endiselt v&otilde;&otilde;rad.</p>
+<p>"Ah et mina elan hoopis linna teises otsas? No me veel vaatame seda asja! Kui ma hulluks olen l&auml;inud, siis pole ju hullu midagi. M&otilde;tlemine n&auml;ikse korras olevat ja k&uuml;ll me selle m&auml;lukesegi paika paneme!"</p>
+<p>Talle t&uuml;kkis naer peale, kui ta kujutles, et Eve kuuleb pealt tema sellist eneselohutamist.</p>
+<p>Buss oli peaaegu t&uuml;hi. Ainult tagumises otsas istus &uuml;ksik vanem meesterahvas ja vaatas kaugenevaid maju.</p>
+<p>"See on ju seesama targutaja!" tundis Jan mehe seljatagant &auml;ra ja taarus meremehek&otilde;nnakuga l&auml;bi t&uuml;hja vahek&auml;igu.</p>
+<p>"Tere j&auml;lle!" alustas ta sedapuhku ise. "Muutuski, n&auml;e!"</p>
+<p>"Misasi?" tegi mees v&otilde;lts-m&otilde;istmatu n&auml;o.</p>
+<p>"K&otilde;ik muutus! Korraga!"</p>
+<p>"Kuda nii?"</p>
+<p>"Kuda, kuda &hellip; J&otilde;le k&auml;hku ja jumala vaikselt."</p>
+<p>"Nagu k&otilde;ige suuremad asjad v&otilde;i?" muheles vanamees.</p>
+<p>"Mismoodi?"</p>
+<p>"K&auml;hku ja vaikselt, muidugi," j&auml;tkas mees muhelemist.</p>
+<p>Jani hakkas tema muhelemine l&otilde;puks h&auml;irima ja ta k&uuml;sis otse:</p>
+<p>"Olete m&otilde;ni sule sappa saanud eluteadlane v&otilde;i?"</p>
+<p>Vanamees ei solvunud sugugi. Ta vaatas j&auml;llegi kaugenevaid maju ja s&otilde;nas rahulikult:</p>
+<p>"Ma esindan l&otilde;het inimliku igatsuse ja maailma julma vaikimise vahel."</p>
+<p>"Mis m&otilde;ttega te jama suust v&auml;lja ajate?" l&auml;ks Janil n&uuml;&uuml;d juba hari punaseks.</p>
+<p>"&Auml;ngistusest ja rahutusest, kallis laps. Inimese m&otilde;te on eelk&otilde;ige tema igatsus."</p>
+<p>Jan ei osanud enam midagi kosta. Ta vaatas samuti kaugesse punkti kokkujooksvat majaderida ja k&uuml;sis nagu lepitust otsides:</p>
+<p>"Kas see taganemine kunagi l&otilde;ppeb ka?" ja osutas tagaaknale.</p>
+<p>"J&auml;rgmises peatuses," vastas vana ja t&otilde;usis, et taas akna juurde kakerdada.</p>
+<p>"Sinu peatuses," lisas ta pead p&ouml;&ouml;ramata.</p>
+<p>Tummana astus Jan bussist v&auml;lja ja luges majanurgale naelutatud tumesiniselt tahvlikeselt:</p>
+<p>"KUMMELI TEE".</p>
+<p>Tahtmatult t&otilde;i ta esile naeruturtsatuse, surus k&auml;ed s&uuml;gavale taskutesse ja vaatas bussile j&auml;rele nagu oleks see olnud tema viimane side reaalse eluga.</p>
+<p>"Noo teate, poisid!" &uuml;hmas ta omaette. "Nalja saab!"</p>
+<p>Majanumbreid loendades j&otilde;udis ta l&otilde;puks kahek&uuml;mne neljandani ja astus &auml;revusega kahekordse puumaja v&auml;lisuksest sisse. Miskip&auml;rast kergitas ta korter kuuele kuuluva postkasti kaant, kontrollides, kas seal pole midagi sees.</p>
+<p>"K&uuml;ll inimene harjub ikka k&otilde;igega ruttu!" viskas Jan ise enda &uuml;le nalja. "Siin on minu postkast, n&auml;e! Siin on minu kodu! M&otilde;tet naiseni arendades j&otilde;udis ta korteri number kuus ukse taha ja tardus.</p>
+<p>"Naine? Minu?"</p>
+<p>Ehmatusega taipas ta asjade v&otilde;imalikku p&ouml;&ouml;ret ja j&auml;i kuulatama. Toas m&auml;ngis televiisor.</p>
+<p>"Kurat, k&otilde;ht on t&uuml;hi!" tuletas too koht ennast korinaga meelde ja Jan t&otilde;stis otsustavalt k&auml;e kellanupu juurde.</p>
+</div1>
+
+<div1 type='alaosa'><head>2. peat&uuml;kk</head>
+
+<p>"Jan, kallis!" langes jumala v&otilde;&otilde;ras naine Janile kaela. "Kuhu sa ometi t&auml;na nii kauaks j&auml;id? Koolist helistati, et &otilde;petaja Raag unustas 6B lastevanemate koosoleku &auml;ra. See toimub n&uuml;&uuml;d n&auml;dala p&auml;rast. Pole hullu - sul oli t&otilde;epoolest viimastel p&auml;evadel palju rabelemist. V&otilde;ta n&uuml;&uuml;d lahti ja tule s&ouml;&ouml;ma! Ma hoidsin kana soojas. Signe l&auml;ks naabri-Merikesega kinno."</p>
+<p>Jan ei j&otilde;udnud isegi suud lahti teha, kui tal jope seljast v&otilde;eti ja sussid jalga pandi.</p>
+<p>"Einoh," m&otilde;tles ta endamisi, "ega sellisel kohtlemisel muidugi viga ei ole, aga mis kuradi koolist ta r&auml;&auml;gib?"</p>
+<p>"Su ema helistas ja &uuml;tles, et sa ajasid l&auml;bi telefoni veidrat juttu. Olevat isegi kadunud isa tervitanud. Mul on tunne, et peaksid n&auml;dalavahetusel lihtsalt lebama ja puhkama."</p>
+<p>"K&otilde;ht on pagana t&uuml;hi!" arvas Jan heaks k&otilde;igepealt esmased asjad korda ajada.</p>
+<p>"Tule, kallis, ma s&ouml;&ouml;dan sul k&otilde;hukese t&auml;is!"</p>
+<p>Huvitav, mis ta nimi v&otilde;iks olla - arutles &uuml;le&ouml;&ouml; kooli&otilde;petajaks saanud treial - ja mis aine &otilde;petaja ma olen? Kes on Signe ja millal isa &auml;ra j&otilde;udis surra?</p>
+<p>"Kuidas sul t&auml;na muidu p&auml;ev l&auml;ks? Kas see v&otilde;rukael Tiit ka midagi kokku keeras?"</p>
+<p>"Tead, ma olen nii v&auml;sinud &hellip;"</p>
+<p>"Hea k&uuml;ll, hea k&uuml;ll! Ma ei p&auml;ri rohkem! Homme pean kindlasti arsti juures &auml;ra k&auml;ima. Neliteist n&auml;dalat saab t&auml;is."</p>
+<p>Jan j&auml;ttis tahtmatult m&auml;lumise j&auml;rgi ja vaatas v&auml;sinud silmadega vakstu ruudulist mustrit. "Mm!" p&uuml;&uuml;dis ta kuidagi reageerida ja neelas suut&auml;ie tervelt alla.</p>
+<p>Mu nii-&ouml;elda-naisel on siis nii-&ouml;elda teine laps tulemas - arutles ta endamisi edasi - ja mina olen n&uuml;&uuml;d kooli&otilde;petaja, kes unustab &auml;ra lastevanemate koosolekuid, selle, kas isa on elus v&otilde;i mitte ning l&otilde;ppude l&otilde;puks astub t&ouml;&ouml; k&auml;igus jumala vabalt &uuml;hest elust teise ja tagasi, unustades sealjuures &uuml;he neist t&auml;iesti. N&uuml;&uuml;d hakkas ta taipama. See siin on tema ise ja k&otilde;ik muu on samuti p&auml;ris. Ta on lihtsalt &uuml;le t&ouml;&ouml;tanud ja tahtis alateadvuses pageda teise ellu, lihtsama ameti peale ja &uuml;ldse &hellip; Sisendus oli niiv&otilde;rd tugev, et see teine elu tundub n&uuml;&uuml;d tegelikkusena ja tegelik v&auml;ljam&otilde;eldisena. Amneesia? Sellega on raskem lugu. Ta ei m&auml;letanud isegi oma naise tegu ja n&auml;gu, r&auml;&auml;kimata nimest.</p>
+<p>"Kallis," p&uuml;&uuml;dis ta &auml;&auml;riveeri juttu alustada, "mul on tunne, et seekord vajan ma ps&uuml;hhiaatrilist ravi."</p>
+<p>"Issand," tuli nutuv&otilde;re &uuml;mber naise suu, "ma arvasin, et see &uuml;kskord juhtub! Mu s&uuml;da aimas! Juba tookord, kui sa j&otilde;e &auml;&auml;res poole hommikuni edasi-tagasi jalutasid ja koduteed ei leidnud. Juba tookord &uuml;tlesid arstid, et sellise koormuse juures v&otilde;ivad taolised h&auml;ired korduda. Oh, issand! N&uuml;&uuml;d on see siis k&auml;es! Tule pealegi &auml;ra sealt koolist! K&uuml;ll me midagi v&auml;lja m&otilde;tleme! Kallikene! Oh, issand, issand!"</p>
+<p>Jani hakkas see vanainimeselik halamine &auml;ra t&uuml;&uuml;tama. Ta toppis viimase kartuli v&auml;gisi sisse ja tegi ettepaneku:</p>
+<p>"Hommik on &otilde;htust targem. L&auml;heks t&auml;na ilusti tuttu ja homme on &auml;kki k&otilde;ik omal kohal?"</p>
+<p>"Hea k&uuml;ll, kallis! Kuidas sa ainult soovid! Tahad ehk unerohtu?"</p>
+<p>"Ei mingit rohtu!" oli Jan kategooriline. "&Uuml;tle parem, mis su nimi on?"</p>
+<p>Naise tumepruunid silmad v&auml;rvusid mustaks ja suu vajus pisut paokile. Ta neelatas suhuvalgunud s&uuml;lje alla, k&ouml;hatas h&auml;&auml;le puhtaks ja lausus justkui esimesel tutvumisel:</p>
+<p>"Agnes, Agnes Raag. Neiup&otilde;lvenimi Kasemets."</p>
+<p>"Ahah," ei osanud Jan muud kosta, "v&auml;ga meeldiv!" Ta l&auml;ks otsejoones esimesse ruumi ja sattus sahvrisse.</p>
+<p>"Kus meil magamistuba on?" p&uuml;&uuml;dis ta v&otilde;imalikult rahulikult &uuml;le &otilde;la k&uuml;sida.</p>
+<p>Agnes Raag, neiup&otilde;lvenimega Kasemets, tihkus juba nutta ja mees otsustas ise oma abieluvoodi &uuml;les otsida. Vaadanud elutoas ringi ja kiitnud m&otilde;ttes heaks raamatute valiku riiulis, pehme m&ouml;&ouml;bli vastupidava riide ja v&auml;rviteleri asukoha akna suhtes, avas ta &uuml;he kahest k&otilde;rvutiasetsevast uksest. Tavaline magamistoam&ouml;&ouml;bel, volangidega kardinad ja pehme &uuml;lep&otilde;randavaip j&auml;tsid k&uuml;ll hubase, aga liiga tavalise mulje. Ta v&otilde;ttis riidest lahti, loopides need p&otilde;randale laiali ja viskus jahedasse laia voodisse.</p>
+<p>Magada, ainult magada - oli viimane m&otilde;te ja l&auml;bi une tundis ta veel, kuidas soe alasti keha ennast tema vastu lusika-asendisse surus.</p>
+<p>Vastu hommikut, kella viie paiku, &auml;rkas Jan koshmaarse unen&auml;o peale &uuml;les. Ta oli istuli h&uuml;panud ja vaatas ringi, m&otilde;istmata, kus ta on. Tavaliselt aitas sellistel puhkudel uuestiuinumine, aga seekord oli k&otilde;ik liigagi reaalne. Tema k&otilde;rval lebas blond naine, kellel ta oma p&uuml;stikargamisega teki poolenisti pealt &auml;ra oli t&otilde;mmanud.</p>
+<p>"Ilus k&uuml;ll teine, aga mitte oma," pidi ta vastandlikke tundeid tunnistama. "Kui n&uuml;&uuml;d &auml;kki hakataksegi iga jumala p&auml;ev uusi naisi jagama, mismoodi ma ennast siis nimetama pean, kui nende k&otilde;igiga magan?"</p>
+<p>Ta sikutas Agnesele teki peale ja l&auml;ks kobamisi k&ouml;&ouml;ki, et suitsu teha. Naine maigutas l&auml;bi une suud ja keeras k&uuml;lge, nii et tagumik paljaks j&auml;i.</p>
+<p>Janil oli &uuml;likooli ajal - mis tal pooleli j&auml;i - paar korda ette tulnud v&otilde;&otilde;ras kohas &auml;rgata, aga pikapeale meenus alati, kus ta v&otilde;&otilde;rustajaga tutvunud oli. Sedapuhku oli asi keerulisem. Ta sulges k&ouml;&ouml;giukse ja pahvis pliidi alla suitsu. Evega oli tal k&uuml;mneaastane poeg. Nad olid k&uuml;ll viimasel ajal &uuml;lep&auml;eviti t&uuml;litsenud, aga kokkuv&otilde;ttes polnud asi siiski nii hull, et peast segi keerata. V&otilde;i ei eksisteerinudki Evet ja poega &uuml;ldse? Sel juhul on asjad ikka p&auml;ris t&auml;barad k&uuml;ll! Hommep&auml;ev tuleb ps&uuml;hhiaatri juures &auml;ra k&auml;ia, see on kindel. Ja muidugi t&ouml;&ouml;koht &uuml;le kontrollida. M&otilde;lemad t&ouml;&ouml;kohad.</p>
+<p>Keegi kobistas esikus. K&ouml;&ouml;giuks avanes ja selle vahelt piilus sisse umbes k&uuml;mneaastase t&uuml;druku padjan&auml;gu, mida kroonisid pulstis blondid juuksed ja valguse k&auml;es kissit&otilde;mbunud silmad.</p>
+<p>"Tsau, Jan!"</p>
+<p>"Tsau! Miks sa mind Janiks kutsud?" oli v&auml;rske issi &uuml;llatunud.</p>
+<p>"Ise sa ju r&auml;&auml;kisid, et see on t&auml;itsa kihvt. Kui sa ei taha, eks ma siis enam ei kutsu."</p>
+<p>"Ma tegin nalja! Lase aga k&auml;ia!"</p>
+<p>"Pissih&auml;da tuli," lisas Signe &auml;rkamise p&otilde;hjenduse ja kadus ukse kriuksudes peldikusse.</p>
+<p>Jan kuulas &ouml;&ouml;vaikuses sorinat ja imestas ikka ja j&auml;lle unen&auml;o reaalsuse &uuml;le. Ta viskas koni pliidi alla, kustutas tule ja hiilis seinu kobades tagasi Agnes Raagi juurde. M&auml;rganud t&auml;iskuu valguses paljast tagumikku, ei saanud ta vastu panna ja hakkas seda &otilde;rnalt mudima. Kord oli neil Evega juttu olnud, mis k&uuml;tuse peal mingi masin t&ouml;&ouml;tab ja Eve oli naljaga pooleks k&uuml;sinud Janilt, et mis k&uuml;tuse peal tema t&ouml;&ouml;tab. Jan oli siis m&otilde;ttesse j&auml;&auml;nud ja vastanud siiralt, et vist kepi k&uuml;tuse peal. Kui ta</p>
+<p>Evele sama k&uuml;simuse esitas, ei osanud see midagi vastata.</p>
+<p>Praegu aga mudis ta v&otilde;&otilde;rast tagumikku, mis oli v&auml;idetavalt dokumentaalselt talle vormistatud. S&uuml;gav hingamine lakkas ja l&auml;ks tasapisi &uuml;le m&otilde;num&otilde;minaks.</p>
+<p>"Kallis, kas uks on vahepealt kinni?" k&uuml;sis Agnes poolsosinal ja keeras ennast selili.</p>
+<p>"Just panin. K&auml;isin k&ouml;&ouml;gis suitsu tegemas ja panin enda j&auml;rel k&otilde;ik uksed kinni. Isegi sahvri oma."</p>
+<p>"Tule siia, mu nupuke!"</p>
+</div1>
+
+<div1 type='alaosa'><head>3. peat&uuml;kk</head>
+
+<p>"Sellist meil ei t&ouml;&ouml;ta," &ouml;eldi resoluutselt ja pandi toru hargile.</p>
+<p>Veider h&auml;marolek hinges asendus &otilde;udusega.</p>
+<p>Helistanud m&otilde;nedele s&otilde;pradele, tegi Jan kindlaks, et k&otilde;ik tema praeguse elu minevikus oli toimunud enam-v&auml;hem samuti, nagu ta m&auml;letas, ainult Eve asemel olevat kogu aeg olnud Agnes ja poja asemel t&uuml;tar. Ja elukoht - see oli k&uuml;mme aastat olnud Kummeli teel. K&otilde;ige raskem oli kooli&otilde;petaja-k&uuml;simus. Kunagi oli ta k&uuml;ll kavatsenud selleks saada ja isegi praktikal olnud, siis aga otsustanud treiali&otilde;pilaseks hakata - puhtalt materiaalsetel kaalutlustel. Kuidas saab olla sisendus nii reaalne ja ulatuslik - terve elu?</p>
+<p>Jutustanud ps&uuml;hhiaatrile loo &auml;ra, veendus ta veelkord, et tema juhtumi puhul on tegemist &uuml;leloomulike j&otilde;ududega. Ps&uuml;hhiaater ei osanud toimuva kohta mitte midagi p&otilde;hjapanevat &ouml;elda. Ei esimesel vastuv&otilde;tul ega ka viiendal. Kuna ta otsustati uuringute ajaks haiglasse paigutada, nimetas ta kohtumisi arstiga &uuml;lekuulamisteks. Mida rohkem ta enda kujutletavast elust jutustas, seda enam j&auml;i arst m&otilde;ttesse ja n&otilde;udis veel. Kui ta oleks oma jutustuse paberi peale pannud, oleks juba pisifaktidest saanud paksu raamatu. Ps&uuml;hhiaatrit takistas j&auml;reldusi tegemast t&otilde;ik, et kogu seda faktide hulka suutis Jan ilmeksimatult &uuml;lima t&auml;psusega korrata. Isegi v&auml;ga hea m&auml;luga kirjanik poleks oma romaani k&otilde;iki faktilisi peensusi niimoodi &uuml;ks&uuml;hele m&auml;letanud.</p>
+<p>"Teie juhtum on tagasihoidlikult &ouml;eldes harukordne," p&uuml;&uuml;dis ta asjale kuidagimoodi l&auml;heneda. "Minu praktikas pole sellist veel ette tulnud. Konsulteerisime siin kolleegidega ja leidsime, et vajate p&otilde;hjalikumat uurimist teaduslikul tasemel."</p>
+<p>"Issand, mis mu eraelust siis saab? Kuigi see pole minu oma, on see siiski elu! Kui ma hakkan laborirotiks, j&auml;&auml;n sellestki ilma!"</p>
+<p>"Teie juhtum on niiv&otilde;rd ainulaadne, et sellest v&otilde;ib arstiteadusele ja kogu inimkonnale tervikuna kasu olla. Antud fenomeni m&otilde;istmine v&otilde;ib saada p&otilde;hjalikuks teaduslikuks l&auml;bimurdeks!"</p>
+<p>"Ma l&auml;hen ju niimoodi hulluks!" ahastas Jan ja m&otilde;istis korraga situatsioonikoomikat. "P&auml;riselt, ma m&otilde;tlen."</p>
+<p>Ps&uuml;hhiaatri ilmest k&auml;is &otilde;rnaimatava virvendusena &uuml;le naeratus ja ta pani k&auml;e Jani k&auml;ele:</p>
+<p>"Enam hullemaks ei l&auml;he, ma luban. Pealegi ei isoleerita teid &uuml;hiskonnast ega kodust. Te pole kaugeltki ohtlik ja ravi ei vaja te ka mitte. V&auml;hemalt arstiteadusele senituntud ravi k&uuml;ll mitte."</p>
+<p>"Mis saab mu t&ouml;&ouml;st?" tundis Jan huvi.</p>
+<p>"Uuringute ajal saate keskmist palka. V&auml;ljaspool seda v&otilde;ite tunde anda."</p>
+<p>"Aga ma ei oska!" kraaksatas Jan.</p>
+<p>"Olete te midagi kuulnud n&auml;iteks Riemannist, ma m&otilde;tlen Bernhard Riemannist?"</p>
+<p>Eneselegi ootamatult vastas Jan soravalt:</p>
+<p>"19. sajandi saksa matemaatik. Tegeles kompleksmuutuja funktsioonide geomeetrilise teooriaga, milles ta kasutas Reimanni pindu. Tema oli see sell, kes esitas funktsioone trigonomeetriliste ridadena ja pani paika Riemanni integraali m&otilde;iste. Einoh, n-m&otilde;&otilde;tmeliste k&otilde;verate ruumide teooria, mis avas hiljem uue perioodi geomeetria arengus - see on kah tema jagu. Selle teooria peale ju Einstein oma relatiivsusteooria &uuml;les ehitaski. Tohib paberit ja pastakat paluda?"</p>
+<p>"Aitab ehk?" peatas teda arst. "Olete n&uuml;&uuml;d vist ise ka veendunud, et teil on matemaatiline haridus?"</p>
+<p>"Issand, ma ei l&otilde;petanud ju!"</p>
+<p>"Minu andmetel l&otilde;petasite k&uuml;ll."</p>
+<p>"Mul oleks &uuml;ks palve."</p>
+<p>"Kuulan."</p>
+<p>"Tahaksin koju. Kasv&otilde;i sellesse uude. Ma ei suuda siin enam olla. Ma l&auml;hen t&otilde;epoolest hulluks. Peaksin p&otilde;hjalikult tutvuma oma nii&ouml;elda uue minevikuga, uue perega, uute t&ouml;&ouml;kaaslastega ja &uuml;ldse."</p>
+<p>"Hea k&uuml;ll, ma korraldan selle. Homme. Niikauaks on mul siin teie uue mineviku p&otilde;hikava. Olge lahked!" Ta ulatas Janile &otilde;hukese toimiku. "Ja veel. T&otilde;de on kusagil olemas. Varem v&otilde;i hiljem &hellip;"</p>
+<p>"Hea k&uuml;ll, hea k&uuml;ll," t&otilde;rjus Jan ja lonkis tagasi palatisse.</p>
+<p>Tuul loopis pabereid ja lahtised uksed-aknad plaksusid t&otilde;mbusest vastu seinu ja piitasid. Seintelt oli krohvi maha kukkunud ja lagedest koorus v&auml;rvi. Pikas koridoris, mis oli mehek&otilde;rguselt siniseks v&auml;rvitud, oli mahaj&auml;etuse hingus, millest surus end l&auml;bi veel elada tahtmise p&uuml;&uuml;e. K&ouml;&ouml;giuksele n&otilde;jatus umbes neljak&uuml;mne viie aastane br&uuml;nett naisterahvas, kelle n&auml;kku oli vajutatud v&otilde;it &otilde;eluse, kurjuse ja k&auml;ttemaksuiha &uuml;le iseendas.</p>
+<p>"Jah, eile viidi pliit &auml;ra. S&uuml;&uuml;a pole enam nagunii. Poiss nutab, aga k&uuml;ll me midagi v&auml;lja m&otilde;tleme!"</p>
+<p>Jan tundis kurgus kipitust.</p>
+<p>"Kas laearmatuurid kadusid ammu?"</p>
+<p>"N&auml;dalap&auml;evad tagasi."</p>
+<p>"Ma olen siis n&auml;dal aega &auml;ra olnud?"</p>
+<p>"Kaheksa p&auml;eva."</p>
+<p>Jan l&otilde;i jalaga maas vedelevaid pabereid ja t&otilde;stis siis &uuml;he &uuml;les. Leht oli p&auml;rit tema p&auml;evikust. Ta luges:</p>
+<p>"T&auml;na tundsin ma s&uuml;gise l&otilde;hna. Peatusin vihmast l&auml;ikival munakiviteel ja s&uuml;gis puhus mulle n&auml;kku. Esimest korda elus haaras mind tunne, mis oli hulga v&otilde;imsam ja melanhoolsem lahkumisvalust." See oli kirjutatud &uuml;le kahek&uuml;mne aasta tagasi, ometi valdas teda praegu sama tunne.</p>
+<p>"Kas sa politseisse ikka teatasid?" k&uuml;sis Jan naisterahvalt, kelle nime ta ei teadnud.</p>
+<p>"Ei. &Uuml;kski riiklik ametkond ei v&otilde;ta sinu saatuselt midagi tagasi."</p>
+<p>"Saatust ei ole," &uuml;tles Jan vaikselt, aga veendunult. Ta astus k&ouml;&ouml;ki ja vaatas katkikistud juhtmestikku. Kohal, kus oli asetsenud elektripliit, oli sein v&auml;rvimata j&auml;&auml;nud. Maas vedeles jahu ja kruupe - ilmselt oli kappidest alkoholi otsitud.</p>
+<p>"Tubadesse ma vist parem ei vaata?" p&ouml;&ouml;rdus ta br&uuml;neti poole.</p>
+<p>"Kuidas soovid, ma koristasin juba &auml;ra," vastas naine ja kadus susside lohisedes l&auml;hima ukse taha.</p>
+<p>"Kas ma k&auml;in tihti niimoodi &auml;ra?" h&otilde;ikas Jan talle j&auml;rele.</p>
+<p>"Kas sul on sedapuhku m&auml;lukaotus v&otilde;i?" h&otilde;ikas naine vastu.</p>
+<p>Jan sisenes ruumi, kust h&auml;&auml;l tuli ja tundis korraga, et siin on ta k&uuml;ll kunagi viibinud. Kuigi riiulile, kus pidi seisma televiisor, oli joonistunud tolmuvaba nelinurk, tundis ta toas ennast koduselt. Sektsioon ja pehme m&ouml;&ouml;bel asetsesid t&auml;pselt nii, nagu tema oleks need paigutanud.</p>
+<p>"Jah, mul on sedapuhku m&auml;lukaotus," lausus ta rahulikult ja istus tugitooli. Kui nad olid v&auml;hemalt viis minutit vaikinud, leidis Jan, et peab minema. Kuhu?</p>
+<p>"Kus ma tavaliselt &auml;ra k&auml;in?" p&uuml;&uuml;dis ta juttu teha.</p>
+<p>"Eks ikka seda elu otsimas, millest sa unistanud oled," tuli l&otilde;puks vastus.</p>
+<p>"Ja on selline siis olemas?"</p>
+<p>"Arvestades sellega, et sa kaksk&uuml;mmend aastat j&auml;rjekindlalt siia tagasi satud - ilmselt mitte."</p>
+<p>"Kas meil lapsi ka on?"</p>
+<p>"Ah, &auml;ra viitsi!"</p>
+<p>"Palun!" tegi Jan anuva grimassi.</p>
+<p>Naine vaatas kogu selle aja kohta, kus oli asunud televiisor ja p&auml;rast minutilist pausi keeras l&otilde;puks pead:</p>
+<p>"Sa ei teegi vist nalja?"</p>
+<p>"Ei," p&uuml;&uuml;dis Jan veenev olla. Asi on naljast v&auml;ga kaugel!"</p>
+<p>"N&auml;e!" ulatas naine talle sektsioonkapi riiulilt fotoalbumi. "See siin on su esimene elu."</p>
+<p>"Aga praegune?"</p>
+<p>T&uuml;lpinud ilmel ulatati talle veel kolm albumit.</p>
+<p>Jan s&uuml;venes vaatamisse. Luitunud pargipingil istus Eve, p&otilde;lvedel umbes kolmeaastane poiss. Pulmapildid, s&uuml;nnip&auml;evad, matused. Eve siis ikkagi oli!</p>
+<p>"Mul on esimesest abielust poeg?"</p>
+<p>"On. Peeter. Abielus, aastane t&uuml;tar."</p>
+<p>J&otilde;udnud kolmanda albumini, k&uuml;sis Jan:</p>
+<p>"Sinuga on meil ka poeg?"</p>
+<p>"&Otilde;ige. Ja enne sind oli mul neid kaks."</p>
+<p>"Kus meie poeg praegu on?"</p>
+<p>"Saatsin ta sinu vanemate juurde. Saab v&auml;hemalt k&otilde;hu t&auml;is."</p>
+<p>"Kas mu isa on siis elus?"</p>
+<p>"Miks ta surnud peaks olema?"</p>
+<p>"Ma lihtsalt &hellip;" Jan takerdus ja l&otilde;i k&auml;ega: "&Auml;h!"</p>
+<p>"Aga Agnes? Kas sa Agnese-nimelisest oled midagi kuulnud?" asetas Jan albumid lauale. "Selline blond, nutikas ja pehme?"</p>
+<p>"Sul on neid nii palju olnud, et ma nimesid enam ei m&auml;letagi." Naise ilme v&auml;ljendas t&auml;ielikku &uuml;ksk&otilde;iksust.</p>
+<p>Jan v&otilde;ttis j&auml;rjekorras teise albumi uuesti k&auml;tte, kangutas pulmapildi nurkade seest v&auml;lja ja luges:</p>
+<p>"Jan ja Kati, 10 tk."</p>
+<p>"Kati!" p&ouml;&ouml;rdus ta mesimagusal h&auml;&auml;lel naise poole, tundes tillukest uhkust, et sai teda nimepidi k&otilde;netada, ilma et oleks pidanud seda k&uuml;sima. Kati v&otilde;patas ja vaatas kulme kergitades mehe poole.</p>
+<p>"Kati! Kas me lahku minna oleme proovinud?"</p>
+<p>"Me pole ju sisuliselt kunagi abiellunudki!" vastas naine ja kergitas &uuml;he suupoolega muiates kulme.</p>
+<p>"Ahsoo!" Jan s&uuml;gas kukalt ja m&otilde;tles, mida kuradit n&uuml;&uuml;d ette v&otilde;tta. Ta ei teadnud, kuidas oli siia sattunud ja kui kauaks. L&otilde;puks ei olnudki see ju nii oluline! Elus teed veel suuremaid lollusi ja m&otilde;ttetusi. N&auml;iteks hoiad k&uuml;mne k&uuml;&uuml;nega aastaid lagunevat abielu koos, valetad iseendale oma v&otilde;imekust, usud illusioone ja alahindad aja kulgemise kiirust. Kas siis ongi oluline, kuidas sa kuhugi satud. Ah, et ei saa minna sinna, kuhu sa ise tahad? Nagunii l&auml;hed valesse kohta! &Otilde;iget ju pole olemas. N&uuml;&uuml;d v&auml;hemalt keegi naljavunts n&auml;itab talle, kui kutsikale, k&otilde;ik kohad ette &auml;ra, kuhu pissida ei tohi - nina sisse ja jalaga tagumikku.</p>
+<p>"Kus me elame?" p&uuml;&uuml;dis ta v&otilde;imalikult rahulikult uurida.</p>
+<p>"Kaks korda oled sa ennast poonud, kolm korda hullu m&auml;nginud, neli korda litsid majja toonud, &uuml;ks kord veene l&auml;bi l&otilde;igata &auml;hvardanud, kaks korda suguhaigusi kinkinud ja n&uuml;&uuml;d on siis j&auml;rg m&auml;lukaotuse k&auml;es?" Paistis, et Katile valmistas see k&otilde;ik l&otilde;bu.</p>
+<p>"Hea k&uuml;ll, ma vaatan aknast v&auml;lja!" oli Jan leplik ja l&auml;ks akna juurde. Kui ta kardinad eest l&uuml;kkas, avanes talle pilt viie- ja &uuml;heksakordsetest majadest.</p>
+<p>"Uau! Los Angeles?"</p>
+<p>Kati oleks nagu kergelt sulama hakanud:</p>
+<p>"Sa ei oska inglise keeles komplimentigi teha!"</p>
+<p>"You are so beautiful!" proovis Jan.</p>
+<p>"Huvitav, vanasti &uuml;tlesid sa ainult "nice"." Jah, Kati hakkas t&otilde;epoolest sulama.</p>
+<p>"Mul on vist ajuv&auml;hk," lausus Jan. "Viimane ots."</p>
+<p>"See viimane ots on sul eluaeg olnud! Pane parem uksele uus lukk ette, ma ostsin siin mingisuguse."</p>
+
+<div1 type='alaosa'><head>4. peat&uuml;kk</head>
+
+<p>Jan n&auml;gi unes, et oli &uuml;mbritsenud end ringikujulise kivim&uuml;&uuml;riga. Parajalt nii k&otilde;rgega, et &uuml;le vaatama ega servast kinni haarama ei ulatunud. See on kaitse kurjuse eest -- oleks talle nagu meelde tulnud. Ta k&otilde;ndis ringiratast piki m&uuml;&uuml;ri ja tundis end v&auml;ga turvaliselt. Esialgu. Siis hakkasid tulema eksistentsiaalsed k&uuml;simused. Mida teha omaenda kurjuse ja headusega? Milleks &uuml;ldse teha? Kelle jaoks?</p>
+<p>&laquo;Prosniiss, dorohoi! Tvoja ootseret staavit koofe!&raquo;</p>
+<p>Jan kargas voodist &uuml;les nagu oleks katapulteerunud ja vahtis h&auml;mminguga punap&auml;ist pannkoogin&auml;oga slaavi t&otilde;ugu noort naist, kes k&auml;sip&otilde;sakil hajevil pilguga oma reitevahet s&uuml;gas.</p>
+<p>&laquo;Ili povtoorim?&raquo;</p>
+<p>&laquo;Noo, kurat! See oli liig! Vene keelt purssivast ukrainlannast oligi veel puudus!&raquo;</p>
+<p>&laquo;T&otilde; u mene jediini, tilki t&otilde;!&raquo; &uuml;mises pannkook ja ajas jalad laiali.</p>
+<p>Jan pages palja tagumikuga uksest v&auml;lja ja sattus silmitsi matrjoonat meenutava lihava kuuek&uuml;mnendates naisterahvaga.</p>
+<p>&laquo;Jan-s&otilde;nok!&raquo;</p>
+<p>Jan kattis h&auml;beduse k&auml;tega ja taganes tagasi tuppa. Punapea tegeles masturbeerimisega ja ta silmad olid kinni.</p>
+<p>Riided -- m&otilde;tles ta palavikuliselt -- kus on riided?</p>
+<p>&laquo;Tshervoonnu ruutu ne shukai veetsheram&otilde; ...&raquo; &uuml;mises oletatav abikaasa ja ei teinud tast v&auml;ljagi.</p>
+<p>S&auml;rk on tooli peal, p&uuml;ksid selle all. &Auml;h, pesu pole vajagi! Sokid paistsid voodiserva alt v&auml;lja ja diplomaadikohver -- ilmselt oli see ikkagi tema oma -- seisis ukse k&otilde;rval. J&auml;tnud k&otilde;ik n&ouml;&ouml;bid kinni panemata, pages ta esikusse ja avas tuttava liigutusega -- mis teda ennastki imestama pani -- snepperluku ja keeras kaks korda alumist v&otilde;tit. Kaks trepiastet korraga, v&auml;lisuks ja vabadus! Kolmanda &uuml;heksakordse maja nurga taha keeranud, t&otilde;mbas ta esimest korda hinge. Asetanud diplomaadikohvri igaks juhuks jalgade vahele, otsis ta p&uuml;ksitaskutes suitsu ja tikku. Oli. &laquo;Stolitshnaja.&raquo;</p>
+<p>&laquo;Mida kuradit?&raquo; ei suutnud ta ikka veel toibuda. Leidnud esimese pargi, istus ta pingile ja v&otilde;ttis diplomaadikohvri p&otilde;lvedele. Selles oli vene pass tema nimele, paarsada rubla raha ja autojuhiload. B,C,D,E kategooria! Siis veel miskip&auml;rast paar rulli bussipileteid ja paks v&otilde;tmekimp. Passi vahel olevalt t&ouml;&ouml;t&otilde;endilt sai ta teada, et t&ouml;&ouml;tab kolmandas autobussipargis bussijuhina. Selline saatus siis sedapuhku? Miks ka mitte? Ja &uuml;ldse! Mida ma p&otilde;genen? Kuhu? Mille eest? Praegu l&auml;hen kodumaale, saan tuttavaks m&otilde;ne s&otilde;bra naisega, l&ouml;&ouml;n kiilu vahele, elan seitse aastat patja n&auml;rides ja j&auml;tan ta t&uuml;kkis lapsega maha. Ons see parem? Ja nagunii visatakse varsti j&auml;lle m&otilde;ne mulatitari kaissu ...</p>
+<p>Jan p&uuml;&uuml;dis vene keelt purssides m&ouml;&ouml;dak&auml;ijatelt v&auml;lja uurida, kus asub bussipark number kolm ja seigelnud m&otilde;ne aja linnatranspordiga, astus veendunud ilmel valvuriputkasse. Luugi eest m&ouml;&ouml;da marssides tekkis t&otilde;rge.</p>
+<p>&laquo;Proopusk!&raquo;</p>
+<p>Jan j&auml;i lollil ilmel mutikesele otsa vahtima ja too -- ilmselt vana tuttav -- vangutas m&otilde;istvalt pead:</p>
+<p>&laquo;Eeh t&otilde;! Opjat zab&otilde;l! Pjaanitsa porshiivi! Stupai, stupai!&raquo;</p>
+<p>Kui bussijuht, siis bussijuht ...</p>
+<p>Jan kuulis tagantpoolt l&auml;henevaid tuttavaid lohisevaid samme ja vaatas &uuml;le &otilde;la. Isa! Siin!</p>
+<p>&laquo;Sa k&uuml;sisid ju endale vaba p&auml;eva!&raquo; &uuml;tles isa, nagu oleksid nad alles eile lahku l&auml;inud. &laquo;L&auml;ksid Oljaga t&uuml;lli v&otilde;i?&raquo;</p>
+<p>&laquo;Sai, jah, pisut ...&raquo;</p>
+<p>&laquo;Pole hullu! Kui tahad, tule s&otilde;ida minuga kaasa! Teen &otilde;lle v&auml;lja!&raquo;</p>
+<p>&laquo;Liaz&raquo;-t&uuml;&uuml;pi bussi ronides m&otilde;tles Jan, et on t&uuml;dinud korrutamast oma m&auml;lukaotusest. On vist aeg hakata harjuma.</p>
+<p>&laquo;Kurat, sai eile pisut &uuml;le v&otilde;etud, pea l&otilde;hub nagu oleks hammasrataste vahel.&raquo;</p>
+<p>&laquo;Sa hoia oma Oljal rohkem silma peal! Ma saan aru, et ta sul rohkem nii h&uuml;ppelauaks on, aga loll kah kui k&uuml;la r&auml;&auml;kima hakkab ...&raquo;</p>
+<p>&laquo;Kurat, ta on n&uuml;mfomaan!&raquo; p&uuml;&uuml;dis Jan s&otilde;na sekka &ouml;elda.</p>
+<p>Isa k&ouml;hatas veidralt, nagu oleks kurku t&otilde;mmanud ja vaatas aknast v&auml;lja.</p>
+<p>&laquo;Eks nad k&otilde;ik &uuml;hed litsid ole!&raquo;</p>
+<p>Jupp aega s&otilde;itsid nad vaikides ja Jan p&uuml;&uuml;dis m&otilde;istatada, kas isa on tema Oljaga maganud v&otilde;i ei ole. Talle tundus miskip&auml;rast, et on.</p>
+<p>&laquo;Ja ema?&raquo; k&uuml;sis ta ettevaatlikult.</p>
+<p>Isa j&auml;i t&otilde;siseks ja oleks &auml;&auml;repealt peatusest m&ouml;&ouml;da p&otilde;rutanud.</p>
+<p>&laquo;Puhkuse ajal k&auml;ime kindlasti &auml;ra! Viime lilli ja korrastame ka pisut.&raquo;</p>
+<p>Janil tuli kananahk ihule. Ema on surnud?!</p>
+<p>&laquo;Kurat, see aeg ka l&auml;heb nii kiiresti, et ...Kolm aastat juba vahele j&auml;&auml;nud!&raquo; ohkas isa.</p>
+<p>Jan v&otilde;ttis j&auml;rgmises peatuses &otilde;lle ja s&uuml;venes linnaga tutvumisse. Ukraina suuruselt teine linn -- Harkov. Ehtne n&otilde;ukogude suurlinn -- sadade hektarite kaupa uusi elamurajoone, trammid, trollid, metroo. Miilitsad ja joodikud igal t&auml;navanurgal.</p>
+<p>Saabus l&otilde;pppeatus ja isa k&uuml;sis Janilt:</p>
+<p>&laquo;T&auml;na pulli teeme?&raquo;</p>
+<p>&laquo;Nagu alati!&raquo; oli Jan p&auml;ri.</p>
+<p>Isa v&otilde;ttis mikrofoni, pani istumise alla ja laskis t&auml;isv&otilde;imsusega salongi k&auml;raka peeru.</p>
+<p>&laquo;Konetshnaja!&raquo; &uuml;tles ta viisaka ja isegi malbe h&auml;&auml;lega mikrofoni ning tegi Janile silma:</p>
+<p>&laquo;Hahhollidele see meeldib!&raquo;</p>
+<p>Einoh -- m&otilde;tles Jan -- kui nii siis nii! Ta r&uuml;&uuml;pas &otilde;llep&auml;ra &auml;ra ja pani suitsu ette. Viguriv&auml;nt see paps -- tuleb v&auml;lja!</p>
+<p>&laquo;Kes see viimane kavaler n&uuml;&uuml;d Oljal oligi?&raquo; tegi ta n&auml;o, nagu oleks nime unustanud.</p>
+<p>&laquo;Kolkat m&otilde;tled?&raquo;</p>
+<p>&laquo;Ei-ei! See teine ...&raquo;</p>
+<p>&laquo;Serjoga?&raquo;</p>
+<p>&laquo;Ei, see imeliku nimega ...&raquo;</p>
+<p>Isa pomises omaette kuus-seitse nime l&auml;bi ja siis l&otilde;i ta n&auml;gu s&auml;rama:</p>
+<p>&laquo;Tarass, Tarassik!&raquo;</p>
+<p>&laquo;Jaa-jaa! See sittus ka nagu t&otilde;hk!&raquo; tuletas Jan nagu meelde. &laquo;Kuhu, kurat, ma sattunud olen?&raquo; m&otilde;tles ta j&auml;rjest kasvava &auml;revusega. &laquo;Aga kui ei saagi siit enam minema?&raquo;</p>
+<p>Bussiaknale koputas raevukalt keegi vanamammi ja vehkis rusikaga. Isa keeras aknaklaasi alla ja kabiini paiskus kordumatu folkloor. Ilmselt oli mammi igap&auml;evane reisija ning oli asjast &otilde;ieti aru saanud. Ka isa paistis temaga harjunud olevat. Lahing l&otilde;ppes slaavip&auml;rase vennastumisega, mammi pisaratega, m&auml;lestustega rindep&auml;evilt, mil ta noor ja ilus med&otilde;de oli olnud ja isa viimsete lubadustega.</p>
+<p>Kui mammi oli lahkunud, keeras isa valjuh&auml;&auml;ldaja nupu p&otilde;hja ning kordas tehtut maksimumv&otilde;imsuse ja naudinguga. Jan kiikas igaks juhuks salongi. Seal istus noor valgep&auml;ine t&uuml;tarlaps ja tihkus ohjeldamatult nutta.</p>
+<p>&laquo;Isa,&raquo; vaatas Jan manitseval pilgul vallatlevat papsi, &laquo;sa sittusid meie hariduse t&auml;is!&raquo;</p>
+<p>&laquo;Meil pole seda ju eriti palju!&raquo; lohutas isa kardinate vahelt salongi piiludes. &laquo;Sa vaata, mida nemad meiega teevad!&raquo;</p>
+<p>S&otilde;itnud veel &uuml;he t&auml;isringi linnale peale, l&auml;ks ta oma ukraina-kodu l&auml;hedal maha, lonkis majade vahel ja otsustas siis, et t&auml;is k&otilde;huga sujuvad asjad paremini. Sest milleks see inimene siin ilmas ikka elab? Nonii. Sinine v&auml;rv eksisteerib selle p&auml;rast, et olla sinine, p&auml;ike kasv&otilde;i sellep&auml;rast, et paista. Aga mina? -- arutles Jan -- kas sellep&auml;rast, et olla mina? Kui mul enam oma &laquo;mina&raquo; ei ole? Siis tuleb olla lihtsalt sellep&auml;rast, et olla. Ja olla saab ainult toitu n&auml;ost sisse ajades. K&otilde;ik &uuml;lej&auml;&auml;nud on kas tulenevad v&otilde;i tuletatavad toimingud. M&otilde;tetest ei viitsi ma &uuml;ldse r&auml;&auml;kida ...</p>
+<p>Sellele arutlusele toetudes viisid ta jalad teda ise Olja k&ouml;&ouml;ki bor&scaron;italdriku taha.</p>
+<p>Ta helpis punast peedisuppi ja seiras altkulmu k&ouml;&ouml;gikappides sorivat naist.</p>
+<p>&laquo;Jesh, jesh, milenki t&otilde; moi!&raquo; poetas punapea ja pillas suhkrukoti maha. Seda t&otilde;stes ajas pliidilt p&otilde;randale panni ja panni tagasi asetades l&otilde;i pea vastu kapiust &auml;ra.</p>
+<p>&laquo;Spatt!&raquo; &uuml;tles Jan, kui oli s&ouml;&ouml;mise l&otilde;petanud ja pugenud m&ouml;&ouml;da koridoris ringiveerevast matrjoonast, l&auml;ks tuppa ja heitis voodisse.</p>
+</div1>
+
+<div1 type='alaosa'><head>5. peat&uuml;kk</head>
+
+<p>Ta &auml;rkas autorataste klobina peale munakiviteel. Aken oli avatud ja sellest kasvas sisse kreegipuu. Jan t&otilde;stis jalad &uuml;le voodiserva p&otilde;randale ja need sattusid automaatselt pehmetesse tuttidega toasussidesse.</p>
+<p>&laquo;Ahah,&raquo; nentis ta ainult ja t&otilde;usis, et napsata puu otsast paar kreeki. Need olid veel pisut heledav&otilde;itu ja hapud. &laquo;Suvi,&raquo; konstateeris Jan ja vaatas aknast v&auml;lja. &laquo;K&otilde;rge esimene korrus, puumaja, m&auml;en&otilde;lv, munakivitee,&raquo; fikseeris ta olukorda. Vastas asetseva samasuguse kahekorruselise amortiseerunud elamu seinal n&auml;gi ta tahvlikest: &laquo;N&otilde;lva&raquo;. Eestimaa. Hea seegi!</p>
+<p>Tuba, milles ta &auml;rkas, ei sisaldanud muud, kui riidekappi, puhvetikappi kahe rea raamatute ja kahe suure sahtliga, vanaaegset voodit ja kahte &uuml;mmarguse p&otilde;hjaga tooli. Telekat ei olnud, oli ainult vanaaegse disainiga 60ndatest p&auml;rit VEF-raadio. P&otilde;randal oli sinine kaltsuvaip ja seinas luitunud kollane tapeet, mis voodi kohalt oli mustaks kulunud.</p>
+<p>&laquo;Poissmehekorter?&raquo; imestas Jan ja vaatas k&auml;si. S&otilde;rmust ei olnud! &laquo;Jeeee!&raquo; kraaksatas ta t&auml;iesti &otilde;nnelikult. &laquo;Ma olen vaba!&raquo; Keegi koputas seina peale. Astudes ettevaatlikult m&ouml;&ouml;da seina &auml;&auml;rde tekitatud &otilde;llepudelite merest, avas ta toaukse. Ninna l&otilde;i kopituse lehka. Naaberukse vahelt piilus sassis peaga nuustikut meenutav vanamammi, j&auml;lgis teda veidi aega etteheitval pilgul ja sulgus siis s&otilde;nagi lausumata oma pimedusse tagasi. Kostis mitme luku kl&otilde;binat.</p>
+<p>&laquo;Ahah,&raquo; nentis Jan taas. &laquo;Noojah.&raquo;</p>
+<p>Naasnud tuppa, heitis ta pilgu puhvetikapi tagaseinaks olevasse m&otilde;ranenud peeglisse ja istus p&otilde;randale -- ta polnud vanem kui kaksk&uuml;mmend. Miks ei sattunud ta oma tudengiaegsesse tuppa? Miks pidi ta kolama m&ouml;&ouml;da v&otilde;&otilde;raid elusid? V&otilde;i m&ouml;&ouml;da tema enda elu tundmatuid stsenaariume? V&otilde;i ehk m&ouml;&ouml;da v&otilde;imalikke stsenaariume? V&otilde;i m&ouml;&ouml;da soovitud stsenaariume? V&otilde;i soovimata? V&otilde;i ... Jan oli puntras. Kas teda karistati v&otilde;i anti hoopis v&otilde;imalusi? V&otilde;i n&auml;idati v&otilde;imalike eluteede m&otilde;ttetust, see t&auml;hendab &otilde;petati mitte otsima unistuste saatust, see t&auml;hendab leppima olemasolevaga? Missugune neist siis oli see olemasolev? Kas praegune, Eve-, Agnese-, Kati- v&otilde;i Olja-minevik? K&otilde;ige enam m&auml;letas ta Eve-minevikku. Samas aga tundus talle, et k&otilde;ikides &uuml;lej&auml;&auml;nutes oli midagi kohutavalt t&otilde;ep&auml;rast. Ta oleks justkui nad lihtsalt unustanud, meelega m&auml;lu tahaplaanile surunud.</p>
+<p>Akna tagant kostus vile. Ta upitas ennast &uuml;les ja puges kreegioksa alt l&auml;bi. All k&otilde;nniteel seisis kursusekaaslane &uuml;likoolip&auml;evilt -- noor, nagu ta siis oli.</p>
+<p>&laquo;Tuled ka v&otilde;i?&raquo; k&uuml;sis ta pead kuklasse ajades.</p>
+<p>&laquo;Kuhu?&raquo; tegi Jan unise n&auml;o p&auml;he, nagu oleks ta magamast &uuml;les aetud.</p>
+<p>&laquo;Lugemissaali muidugi!&raquo;</p>
+<p>&laquo;Oota, viskan &uuml;rbid &uuml;le!&raquo;</p>
+<p>&laquo;Okei, tee siva!&raquo;</p>
+<p>Jan t&otilde;mbas tooliseljalt teksad jalga, pusa selga ja otsis silmadega toas ringi. Puhvetikapil vedeles v&otilde;ti ja selle k&otilde;rval kile sees tudengipilet, kuhu vahele oli topitud igasugu muid pabereid. Hiljem sorteerin -- m&otilde;tles Jan ja vajutas juba linki. J&otilde;udnud v&auml;lisukseni, m&auml;rkas ta tuttavat postkasti hoolikalt maalitud numbriga &laquo;6&raquo;, millest ulatus v&auml;lja &laquo;Postimees&raquo;.</p>
+<p>&laquo;Kurat, &laquo;Postimeest&raquo; siis veel polnud ju! Oli &laquo;Edasi&raquo;!&raquo; Ta avas v&auml;lisukse ja vastasmaja seinalt luges selgesti: &laquo;KUMMELI TEE&raquo;. Kursusekaaslasest ja kreegipuust polnud j&auml;lgegi. Ta otsis l&auml;bi k&otilde;ik taskud, aga &uuml;li&otilde;pilaspiletit ega toav&otilde;tit ei leidnud. Aitab! See l&auml;ks juba liiale. Ta seadis sammud bussipeatusse ja otsustas &auml;ra k&auml;ia valede kardinatega akna juures. Asjasse peab hakkama selgust tooma -- tegi ta otsuse.</p>
+<p>Astunud bussi, l&auml;ks ta torudest haarates tagaakna juurde, p&ouml;&ouml;rdus &uuml;mber ja otsis silmadega kummalist vanameest. Igas peatuses vaatas &uuml;le k&otilde;ik sisenejad, aga meest nende seas polnud. Ega tulnudki. Kui Jan harjunud kohas v&auml;lja h&uuml;ppas, tundus, justkui oleks ta silmanurgast tuttavat figuuri m&auml;rganud. See sisenes esiuksest. Kuni Jan reageeris, olid bussiuksed sulgunud ja ainuke, mida ta teha v&otilde;is, oli j&auml;lgida tagaaknale ilmuvat tuttavat kuju. Jan pistis jooksu, aga see peatusevahe oli nagu kiuste &uuml;ks pikemaid. J&otilde;udnud j&auml;rgmise kvartali nurgani, ta loobus. Hingeldades p&ouml;&ouml;rdus ta tagasi ja seadis sammud vale kardinaga tuttava akna poole.</p>
+<p>Kardinad olid valed. Lootusetu t&uuml;lpimusega k&otilde;mpis ta tagasi bussipeatusse ja j&auml;i ootama. Sealt ta l&otilde;puks tuligi -- kollane ja koorma all &auml;gisev. Teekond teekonnas -- m&otilde;tles Jan. Ehk ongi asi bussis? Issand, kuidas ta enne selle peale ei tulnud?! Tuleb lihtsalt t&ouml;&ouml;le s&otilde;ita ja teekonda uuesti alustada. Nii ta tegigi. S&otilde;itis tehase v&auml;ravasse, jooksis valvuriputkani, avas ukse ja seisatas jahmunult -- talle vaatas vastu Harkovi bussipargi number kolm t&otilde;re mutike, kes otsemaid kraaksatas:</p>
+<p>&laquo;Proopusk!&raquo;</p>
+<p>K&otilde;ik kordus t&auml;pselt sama stsenaariumi j&auml;rgi, nagu eelmisel korral ja Jan keeras otsa ringi. V&auml;ljudes ei olnud ta enam Ukrainas. Ta oli oma tehase v&auml;ravas. Meeleheites jooksis ta bussipeatusse ja h&uuml;ppas algava vihma k&auml;es &uuml;helt jalalt teisele, olles kannatamatusest n&auml;rvis. V&auml;ike kollane teekond suures kirevas teekonnas ilmus nurgatagant v&auml;lja ning Jan soris taskutes, leidmaks talonge. Talle sattus pihku midagi suuremat ja ehmatusega t&otilde;mbas ta v&auml;lja &uuml;li&otilde;pilaspileti.</p>
+<p>Ps&uuml;hhiaatriahaiglas &auml;rgates tundis Jan &auml;ra tuttava palati ja isegi kaks patsienti, kes siia temast eelmisel korral maha j&auml;id, olid samad.</p>
+<p>&laquo;Te pole kusagil k&auml;inud,&raquo; lausus raviarst rahulikult. &laquo;Teie unen&auml;od tunduvad teile lihtsalt liialt reaalsetena.&raquo;</p>
+<p>Jan ei julenud vaielda. Ta kartis siia j&auml;&auml;dagi. Ma olen skisofreeniasse haigestunud -- oli ta juba peaaegu kindel. Vanast peast!</p>
+<p>&laquo;T&otilde;estage, et ma olen &auml;rkvel ja ma olen n&otilde;us hakkama laborirotiks,&raquo; &uuml;tles ta naljatlevat tooni matkides ja j&auml;i arstile k&uuml;siva veiderdajan&auml;oga otsa vaatama.</p>
+<p>&laquo;K&otilde;ik teie meeled t&ouml;&ouml;tavad,&raquo; &uuml;tles ps&uuml;hhiaater teda suurte selgete silmadega vaadeldes. &laquo;Unes seda ei esine. Sellest piisab?&raquo;</p>
+<p>&laquo;Kas ma koju saan?&raquo; k&uuml;sis Jan.</p>
+<p>&laquo;Kasv&otilde;i kohe,&raquo; ei viivitanud doktor vastusega.</p>
+<p>&laquo;Ma siis l&auml;hen?&raquo;</p>
+<p>&laquo;Eks te siis minge! Riided saate &otilde;e k&auml;est, teatan ette.&raquo;</p>
+<p>Jan t&otilde;usis, et lahkuda. Kui ta oli juba uksel, h&otilde;ikas arst j&auml;rele:</p>
+<p>&laquo;Millal olete valmis alustama?&raquo;</p>
+<p>&laquo;Paari p&auml;eva p&auml;rast ehk,&raquo; poetas Jan ja astus pikka roheliseks v&auml;rvitud seintega koridori. Ta ei olnud endas sugugi kindel. Ta ei olnud enam milleski kindel.</p>
+<p>V&auml;ljas sadas peenikest uduvihma. Jan t&otilde;mbas pea &otilde;lgade vahele ja marssis kiirel sammul bussipeatusse. J&auml;lle kollane -- tegi ta t&auml;helepaneku, kui buss k&auml;&auml;naku tagant v&auml;lja ilmus. Kas siis muud v&auml;rvi linnatransporti enam polegi? Ta komposteeris pileti ja taarus tagaakna poole. Korraga m&auml;rkas ta tuttavat figuuri. Tema! Kiiruga istus ta vanamehe k&otilde;rvale.</p>
+<p>&laquo;Kas teie teete seda minuga?&raquo; k&uuml;sis ta teretamata.</p>
+<p>&laquo;Teen ja ei tee ka.&raquo;</p>
+<p>&laquo;Miks? Miks just minuga?&raquo;</p>
+<p>&laquo;Ma teen seda k&otilde;igiga, aga v&auml;hesed m&auml;letavad toimunut.&raquo;</p>
+<p>&laquo;Milleks?&raquo; p&uuml;&uuml;dis Jan mehe pilku.</p>
+<p>&laquo;Ikka m&uuml;&uuml;ri l&otilde;hkumiseks,&raquo; vastas vana rahulikult. &laquo;Sellesama ringikujulise m&uuml;&uuml;ri, mille sa unes ja ilmsi enda &uuml;mber ehitasid.&raquo;</p>
+<p>&laquo;See oli ainult unes,&raquo; vaidles Jan.</p>
+<p>&laquo;Ilmsi ka. Selle sees sa n&uuml;&uuml;d keerledki.&raquo;</p>
+<p>&laquo;Aga ma ei taha enam!&raquo; Jan v&otilde;ttis mehel varrukast kinni ja pigem anus kui n&otilde;udis:</p>
+<p>&laquo;Lase mind tagasi, palun! Ma muudan ise k&otilde;ike, ma muutun ise!&raquo;</p>
+<p>&laquo;Seda ma ju teengi -- otsin m&uuml;&uuml;ri sees n&otilde;rku kohti, p&uuml;&uuml;an teda hajutada.&raquo; Vanamees viipas tagaakna poole:</p>
+<p>&laquo;Vaata!&raquo;</p>
+<p>Majad ja jalak&auml;ijad kaugenesid justkui kiirluubis. Jan vaatas k&uuml;ljeaknasse -- k&otilde;ik m&ouml;&ouml;dus normaalkiirusel. Heitis pilgu esiaknasse -- maailm l&auml;henes aegluubis.</p>
+<p>&laquo;Meeltepete,&raquo; tegi ta j&auml;relduse.</p>
+<p>&laquo;Enesepete?&raquo; muigas vana.</p>
+<p>&laquo;Noh, mis siis n&uuml;&uuml;d edasi?&raquo; ei j&auml;tnud Jan vanamehe varrukat rahule.</p>
+<p>&laquo;Edasi on sinu peatus.&raquo;</p>
+<p>Jan oli hetkega p&uuml;sti, h&uuml;ppas m&otilde;tlemata ja astmeid kasutamata bussist v&auml;lja, maandus veidi viltu ja k&auml;is k&auml;puli. T&otilde;ustes seletas ta silm h&auml;maras vaid viie ja &uuml;heksakordseid maju. Valetas, raibe! J&auml;rgmine kord v&otilde;tan ta endaga kaasa! Mingist tuttavast sisetundest juhatatuna astus ta sisse l&auml;himasse halli majam&uuml;rakasse, s&otilde;itis liftiga kolmandale korrusele ja vajutas linki. Uks oli lahti. Pikka mehek&otilde;rguselt siniseks v&auml;rvitud koridori kostus muusikat. Jan v&otilde;ttis jope seljast, riputas selle seinakapi nupu k&uuml;lge, l&uuml;kkas kingad harjunud kohale peegli all ja hiilis valgusetriibu poole.</p>
+<p>&laquo;...tulen siis kui lumi maas ...&raquo; lauldi raadios.</p>
+<p>&laquo;... v&otilde;i kui sirel &otilde;itseb taas ...&raquo; &uuml;mises Jan ja astus tuppa ilmel, mida esineb mitu p&auml;eva kodust &auml;ra olnud meestel.</p>
+<p>Televiisorit ei olnud ikka veel. Kati lebas lahtit&otilde;mbamata ku&scaron;etil ja luges raamatut.</p>
+<p>&laquo;Issand, nii hea ja rahulik oli elada. Tead, sa v&otilde;iksid sinna tagasi minna, kust sa tulid.&raquo;</p>
+<p>&laquo;Ma ei saa,&raquo; tegi Jan nutuse h&auml;&auml;le, &laquo;mul on m&uuml;&uuml;r &uuml;mber.&raquo;</p>
+<p>&laquo;Nonii, sedapuhku siis &auml;ra p&ouml;&ouml;ranud. Mis sa j&auml;rgmisel korral v&auml;lja m&otilde;tled? &Uuml;kskord saab su &auml;rajoodud fantaasianatuke ju otsa?&raquo;</p>
+<p>&laquo;Ma ei ole enam ammu tilkagi v&otilde;tnud,&raquo; oli Jan solvunud. &laquo;Igatahes selles peatuses mitte.&raquo;</p>
+<p>&laquo;Hahaa!&raquo; tegi Kati, ilma et oleks naernud. &laquo;Lubage naerda! See kuradi lits ei viitsi sulle enam viinagi osta! Aga sa mine oma Siiri juurde tagasi, too v&auml;hemalt jootis sind!&raquo;</p>
+<p>Jan oli tupikus. Kes oli Siiri? Ah, ons sel &uuml;ldse t&auml;htsust ...Ta istus ku&scaron;etiservale ja tegi juttu:</p>
+<p>&laquo;Uus telku oleks vaja osta. Ja k&uuml;lmkapp. Ja koridori armatuurid. Ja ...&raquo;</p>
+<p>&laquo;Sina ei suuda endale isegi sokke jalga osta!&raquo; kobatati raamatu tagant. &laquo;Vaata, et sa oma litsidega hakkama saad!&raquo;</p>
+<p>&laquo;Kas me ei teeks ehk voodit lahti?&raquo; Jan vaatas Kati poole anuval pilgul. L&otilde;puks langetas naine raamatu, n&auml;itas Janile t&auml;ispikka keelt ja leebus:</p>
+<p>&laquo;Kui sa neljateistk&uuml;mnendat korda tagasi tulid, m&otilde;tlesin, et aitab. Peale kolmek&uuml;mne seitsmendat hakkasin juba harjuma ja kui ma sulle p&auml;ris ausalt &uuml;tlen, siis praegu -- vist m&otilde;nesaja m&otilde;nek&uuml;mnenda ajal -- on mul sind t&auml;itsa hea meel n&auml;ha.&raquo;</p>
+<p>&laquo;Kui n&uuml;&uuml;d paar v&otilde;ileiba ka saaks ...&raquo; p&uuml;&uuml;dis Jan tekkinud olukorda maksimaalselt &auml;ra kasutada.</p>
+<p>&laquo;Viimast korda elus!&raquo; koputas Kati iga s&otilde;na ajal mehele s&otilde;rmega rinnale ja kadus k&ouml;&ouml;ki.</p>
+<p>&laquo;Kohvi ka!&raquo; h&otilde;ikas Jan j&auml;rele.</p>
+<p>&laquo;Pliiti ei ole!&raquo; tuli otsekohe vastus.</p>
+<p>&Otilde;igus k&uuml;ll -- meenus Janile.</p>
+<p>&laquo;Tee spiraaliga!&raquo; karjus ta uuesti.</p>
+<p>&laquo;Tee k&auml;ega!&raquo; tuli vastus.</p>
+<p>Kui Kati kohvi ja v&otilde;ileibadega tuppa j&otilde;udis, magas Jan s&uuml;gavalt.</p>
+<p>&laquo;Siga!&raquo; tegi naine kokkuv&otilde;tte.</p>
+</div1>
+</div0>
+</body>
+</text>

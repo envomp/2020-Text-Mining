@@ -1,0 +1,2016 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Eesti Vabariigi p&otilde;hiseadus ( ELIT 1996/1 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    7524</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Eesti Vabariigi p&otilde;hiseadus ( ELIT 1996/1 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=637></tagusage>
+         <tagusage gi=s occurs=727></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Eesti Vabariigi p&otilde;hiseadus</s>
+</p>
+<p>
+<s>K &otilde;ikumatus usus ja vankumatus tahtes kindlustada ja arendada riiki ,</s>
+</p>
+<p>
+<s>mis on loodud Eesti rahva riikliku enesem&auml;&auml;ramise kustumatul &otilde;igusel ja v&auml;lja kuulutatud 1918. aasta 24. veebruaril ,</s>
+</p>
+<p>
+<s>mis on rajatud vabadusele , &otilde;iglusele ja &otilde;igusele ,</s>
+</p>
+<p>
+<s>mis on kaitseks sisemisele ja v&auml;lisele rahule ning pandiks praegustele ja tulevastele p&otilde;lvedele nende &uuml;hiskondlikus edus ja &uuml;ldises kasus ,</s>
+</p>
+<p>
+<s>mis peab tagama eesti rahvuse ja kultuuri s&auml;ilimise l&auml;bi aegade -</s>
+</p>
+<p>
+<s>v&otilde;ttis Eesti rahvas 1938. aastal j&otilde;ustunud p&otilde;hiseaduse &sect; 1 alusel 1992. aasta 28. juuni rahvah&auml;&auml;letusel vastu j&auml;rgmise p&otilde;hiseaduse .</s>
+</p>
+<p>
+<s>I peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s>
+</p>
+<p>
+<s>Eesti on iseseisev ja s&otilde;ltumatu demokraatlik vabariik , kus k&otilde;rgeima riigiv&otilde;imu kandja on rahvas .</s>
+</p>
+<p>
+<s>Eesti iseseisvus ja s&otilde;ltumatus on aegumatu ning v&otilde;&otilde;randamatu .</s>
+</p>
+<p>
+<s>&sect; 2.</s>
+</p>
+<p>
+<s>Eesti riigi maa-ala , territoriaalveed ja &otilde;huruum on lahutamatu ja jagamatu tervik .</s>
+</p>
+<p>
+<s>Eesti on riiklikult korralduselt &uuml;htne riik , mille territooriumi haldusjaotuse s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 3.</s>
+</p>
+<p>
+<s>Riigiv&otilde;imu teostatakse &uuml;ksnes p&otilde;hiseaduse ja sellega koosk&otilde;las olevate seaduste alusel .</s><s>Rahvusvahelise &otilde;iguse &uuml;ldtunnustatud p&otilde;him&otilde;tted ja normid on Eesti &otilde;iguss&uuml;steemi lahutamatu osa .</s>
+</p>
+<p>
+<s>Seadused avaldatakse etten&auml;htud korras .</s><s>T&auml;itmiseks kohustuslikud saavad olla &uuml;ksnes avaldatud seadused .</s>
+</p>
+<p>
+<s>&sect; 4.</s>
+</p>
+<p>
+<s>Riigikogu , Vabariigi Presidendi , Vabariigi Valitsuse ja kohtute tegevus</s>
+</p>
+<p>
+<s>on korraldatud v&otilde;imude lahususe ja taskaalustatuse p&otilde;him&otilde;ttel .</s>
+</p>
+<p>
+<s>&sect; 5.</s>
+</p>
+<p>
+<s>Eesti loodusvarad ja loodusressursid on rahvuslik rikkus , mida tuleb kasutada s&auml;&auml;stlikult .</s>
+</p>
+<p>
+<s>&sect; 6.</s>
+</p>
+<p>
+<s>Eesti riigikeel on eesti keel .</s>
+</p>
+<p>
+<s>&sect; 7.</s>
+</p>
+<p>
+<s>Eesti riigiv&auml;rvid on sinine , must ja valge .</s><s>Riigilipu ja riigivapi kuju s&auml;testab seadus .</s>
+</p>
+<p>
+<s>II peat&uuml;kk</s>
+</p>
+<p>
+<s>P&otilde;hi&otilde;igused , vabadused ja kohustused</s>
+</p>
+<p>
+<s>&sect; 8.</s>
+</p>
+<p>
+<s>Igal lapsel , kelle vanematest &uuml;ks on Eesti kodanik , on &otilde;igus Eesti kodakondsusele s&uuml;nnilt .</s>
+</p>
+<p>
+<s>Iga&uuml;hel , kes on alaealisena kaotanud Eesti kodakondsuse , on &otilde;igus selle taastamisele .</s>
+</p>
+<p>
+<s>Kelleltki ei tohi v&otilde;tta s&uuml;nniga omandatud Eesti kodakondsust .</s>
+</p>
+<p>
+<s>Kelleltki ei tohi veendumuste p&auml;rast v&otilde;tta Eesti kodakondsust .</s>
+</p>
+<p>
+<s>Eesti kodakondsuse saamise , kaotamise ja taastamise tingimused ning korra s&auml;testab kodakondsuse seadus .</s>
+</p>
+<p>
+<s>&sect; 9.</s>
+</p>
+<p>
+<s>P&otilde;hiseaduses loetletud k&otilde;igi ja iga&uuml;he &otilde;igused , vabadused ja kohustused on v&otilde;rdselt nii Eesti kodanikel kui ka Eestis viibivatel v&auml;lisriikide kodanikel ja kodakondsuseta isikutel .</s>
+</p>
+<p>
+<s>P&otilde;hiseaduses loetletud &otilde;igused , vabadused ja kohustused laienevad juriidilistele isikutele niiv&otilde;rd , kui see on koosk&otilde;las juriidiliste isikute &uuml;ldiste eesm&auml;rkide ja selliste &otilde;iguste , vabaduste ja kohustuste olemusega .</s>
+</p>
+<p>
+<s>&sect; 10.</s>
+</p>
+<p>
+<s>K&auml;esolevas peat&uuml;kis loetletud &otilde;igused , vabadused ja kohustused ei v&auml;lista muid &otilde;igusi , vabadusi ega kohustusi , mis tulenevad p&otilde;hiseaduse m&otilde;ttest v&otilde;i on sellega koosk&otilde;las ja vastavad inimv&auml;&auml;rikuse ning sotsiaalse ja demokraatliku &otilde;igusriigi p&otilde;him&otilde;tetele .</s>
+</p>
+<p>
+<s>&sect; 11.</s>
+</p>
+<p>
+<s>&Otilde;igusi ja vabadusi tohib piirata ainult koosk&otilde;las p&otilde;hiseadusega .</s><s>Need piirangud peavad olema demokraatlikus &uuml;hiskonnas vajalikud ega tohi moonutada piiratavate &otilde;iguste ja vabaduste olemust .</s>
+</p>
+<p>
+<s>&sect; 12.</s>
+</p>
+<p>
+<s>K&otilde;ik on seaduse ees v&otilde;rdsed .</s><s>Kedagi ei tohi diskrimineerida rahvuse , rassi , nahav&auml;rvuse , soo , keele , p&auml;ritolu , usutunnistuse , poliitiliste v&otilde;i muude veendumuste , samuti varalise ja sotsiaalse seisundi v&otilde;i muude asjaolude t&otilde;ttu .</s>
+</p>
+<p>
+<s>Rahvusliku , rassilise , usulise v&otilde;i poliitilise vihkamise , v&auml;givalla ja diskrimineerimise &otilde;hutamine on seadusega keelatud ja karistatav .</s><s>Samuti on seadusega keelatud ja karistatav &otilde;hutada vihkamist , v&auml;givalda ja diskrimineerimist &uuml;hiskonnakihtide vahel .</s>
+</p>
+<p>
+<s>&sect; 13.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus riigi ja seaduse kaitsele .</s><s>Eesti riik kaitseb oma kodanikku ka v&auml;lisriikides .</s>
+</p>
+<p>
+<s>Seadus kaitseb iga&uuml;hte riigiv&otilde;imu omavoli eest .</s>
+</p>
+<p>
+<s>&sect; 14.</s>
+</p>
+<p>
+<s>&Otilde;iguste ja vabaduste tagamine on seadusandliku , t&auml;idesaatva ja kohtuv&otilde;imu ning kohalike omavalitsuste kohustus .</s>
+</p>
+<p>
+<s>&sect; 15.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus p&ouml;&ouml;rduda oma &otilde;iguste ja vabaduste rikkumise korral kohtusse .</s><s>Iga&uuml;ks v&otilde;ib oma kohtuasja l&auml;bivaatamisel n&otilde;uda mis tahes asjassepuutuva seaduse , muu &otilde;igusakti v&otilde;i toimingu p&otilde;hiseadusevastaseks tunnistamist .</s>
+</p>
+<p>
+<s>Kohus j&auml;rgib p&otilde;hiseadust ja tunnistab p&otilde;hiseadusevastaseks mis tahes seaduse , muu &otilde;igusakti v&otilde;i toimingu , mis rikub p&otilde;hiseaduses s&auml;testatud &otilde;igusi ja vabadusi v&otilde;i on muul viisil p&otilde;hiseadusega vastuolus .</s>
+</p>
+<p>
+<s>&sect; 16.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus elule .</s><s>Seda &otilde;igust kaitseb seadus .</s><s>Meelevaldselt ei tohi kelleltki elu v&otilde;tta .</s>
+</p>
+<p>
+<s>&sect; 17.</s>
+</p>
+<p>
+<s>Kellegi au ega head nime ei tohi teotada .</s>
+</p>
+<p>
+<s>&sect; 18.</s>
+</p>
+<p>
+<s>Kedagi ei tohi piinata , julmalt v&otilde;i v&auml;&auml;rikust alandavalt kohelda ega karistada .</s>
+</p>
+<p>
+<s>Kedagi ei tohi tema vaba tahte vastaselt allutada meditsiini- ega teaduskatsetele .</s>
+</p>
+<p>
+<s>&sect; 19.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus vabale eneseteostusele .</s>
+</p>
+<p>
+<s>Iga&uuml;ks peab oma &otilde;iguste ja vabaduste kasutamisel ning kohustuste t&auml;itmisel austama ja arvestama teiste inimeste &otilde;igusi ja vabadusi ning j&auml;rgima seadust .</s>
+</p>
+<p>
+<s>&sect; 20.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus vabadusele ja isikupuutumatusele .</s>
+</p>
+<p>
+<s>Vabaduse v&otilde;ib v&otilde;tta ainult seaduses s&auml;testatud juhtudel ja korras :</s>
+</p>
+<p>
+<s>1 ) s&uuml;&uuml;dim&otilde;istva kohtuotsuse v&otilde;i kohtu poolt m&auml;&auml;ratud aresti t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>2 ) kohtu korralduse t&auml;itmata j&auml;tmise korral v&otilde;i seadusega s&auml;testatud kohustuse t&auml;itmise tagamiseks ;</s>
+</p>
+<p>
+<s>3 ) kuriteo v&otilde;i haldus&otilde;iguserikkumise &auml;rahoidmiseks , sellises &otilde;iguserikkumises p&otilde;hjendatult kahtlustatava toimetamiseks p&auml;deva riigiorgani ette v&otilde;i tema pakkumineku v&auml;ltimiseks ;</s>
+</p>
+<p>
+<s>4 ) alaealise &uuml;le kasvatusliku j&auml;relevalve sisseseadmiseks v&otilde;i tema toimetamiseks p&auml;deva riigiorgani ette , et otsustada sellise j&auml;relevalve sisseseadmine ;</s>
+</p>
+<p>
+<s>5 ) nakkushaige , vaimuhaige , alkohooliku v&otilde;i narkomaani kinnipidamiseks , kui ta on endale v&otilde;i teistele ohtlik ;</s>
+</p>
+<p>
+<s>6 ) ebaseadusliku Eestisse asumise t&otilde;kestamiseks ning Eestist v&auml;ljasaatmiseks v&otilde;i v&auml;lisriigile v&auml;ljaandmiseks .</s>
+</p>
+<p>
+<s>Kelleltki ei tohi v&otilde;tta vabadust &uuml;ksnes sel p&otilde;hjusel , et ta ei ole suuteline t&auml;itma mingit lepingulist kohustust .</s>
+</p>
+<p>
+<s>&sect; 21.</s>
+</p>
+<p>
+<s>Iga&uuml;hele , kellelt on v&otilde;etud vabadus , teatatakse viivitamatult talle arusaadavas keeles ja viisil vabaduse v&otilde;tmise p&otilde;hjus ja tema &otilde;igused ning antakse v&otilde;imalus teatada vabaduse v&otilde;tmisest oma l&auml;hedastele .</s><s>Kuriteos kahtlustatavale antakse viivitamatult ka v&otilde;imalus valida endale kaitsja ja kohtuda temaga .</s><s>Kuriteos kahtlustatava &otilde;igust teatada vabaduse v&otilde;tmisest oma l&auml;hedastele v&otilde;ib piirata ainult seaduses s&auml;testatud juhtudel ja korras kuriteo t&otilde;kestamiseks v&otilde;i kriminaalmenetluses t&otilde;e v&auml;ljaselgitamise huvides .</s>
+</p>
+<p>
+<s>Kedagi ei tohi vahi all pidada &uuml;le neljak&uuml;mne kaheksa tunni ilma kohtu sellekohase loata .</s><s>Kohtu otsus teatatakse vahistatule viivitamatult talle arusaadavas keeles ja viisil .</s>
+</p>
+<p>
+<s>&sect; 22.</s>
+</p>
+<p>
+<s>Kedagi ei tohi k&auml;sitada kuriteos s&uuml;&uuml;di olevana enne , kui tema kohta on j&otilde;ustunud s&uuml;&uuml;dim&otilde;istev kohtuotsus .</s>
+</p>
+<p>
+<s>Keegi ei ole kriminaalmenetluses kohustatud oma s&uuml;&uuml;tust t&otilde;endama .</s>
+</p>
+<p>
+<s>Kedagi ei tohi sundida tunnistama iseenda v&otilde;i oma l&auml;hedaste vastu .</s>
+</p>
+<p>
+<s>&sect; 23.</s>
+</p>
+<p>
+<s>Kedagi ei tohi s&uuml;&uuml;di m&otilde;ista teo eest , kui seda tegu ei tunnista kuriteoks seadus , mis oli j&otilde;us teo toimepanemise ajal.</s>
+</p>
+<p>
+<s>Kellelegi ei tohi m&otilde;ista raskemat karistust kui see , mida v&otilde;inuks talle m&otilde;ista &otilde;iguserikkumise toimepanemise ajal.</s><s>Kui seadus s&auml;testab p&auml;rast &otilde;iguserikkumise toimepanemist kergema karistuse , kohaldatakse kergemat karistust .</s>
+</p>
+<p>
+<s>Kedagi ei tohi teist korda kohtu alla anda ega karistada teo eest , milles teda vastavalt seadusele on m&otilde;istetud l&otilde;plikult s&uuml;&uuml;di v&otilde;i &otilde;igeks .</s>
+</p>
+<p>
+<s>&sect; 24.</s>
+</p>
+<p>
+<s>Kedagi ei tohi tema vaba tahte</s>
+</p>
+<p>
+<s>vastaselt &uuml;le viia seadusega</s>
+</p>
+<p>
+<s>m&auml;&auml;ratud kohtu alluvusest teise kohtu alluvusse .</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus olla oma kohtuasja arutamise juures .</s>
+</p>
+<p>
+<s>Kohtuistungid on avalikud .</s><s>Kohus v&otilde;ib seaduses s&auml;testatud juhtudel ja korras oma istungi v&otilde;i osa sellest kuulutada kinniseks riigi- v&otilde;i &auml;risaladuse , k&otilde;lbluse v&otilde;i inimeste perekonna- ja eraelu kaitseks v&otilde;i kui seda n&otilde;uavad alaealise , kannatanu v&otilde;i &otilde;igusem&otilde;istmise huvid .</s>
+</p>
+<p>
+<s>Kohtuotsus kuulutatakse avalikult , v&auml;lja arvatud juhud , kui alaealise , abielupoole v&otilde;i kannatanu huvid n&otilde;uavad teisiti .</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus tema kohta tehtud kohtuotsuse peale seadusega s&auml;testatud korras edasi kaevata k&otilde;rgemalseisvale kohtule .</s>
+</p>
+<p>
+<s>&sect; 25.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus talle &uuml;ksk&otilde;ik kelle poolt &otilde;igusvastaselt tekitatud moraalse ja materiaalse kahju h&uuml;vitamisele .</s>
+</p>
+<p>
+<s>&sect; 26.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus perekonna- ja eraelu puutumatusele .</s><s>Riigiasutused , kohalikud omavalitsused ja nende ametiisikud ei tohi kellegi perekonna- ega eraellu sekkuda muidu , kui seaduses s&auml;testatud juhtudel ja korras tervise , k&otilde;lbluse , avaliku korra v&otilde;i teiste inimeste &otilde;iguste ja vabaduste kaitseks , kuriteo t&otilde;kestamiseks v&otilde;i kurjategija tabamiseks .</s>
+</p>
+<p>
+<s>&sect; 27.</s>
+</p>
+<p>
+<s>Perekond rahva p&uuml;simise ja kasvamise ning &uuml;hiskonna alusena on riigi kaitse all .</s>
+</p>
+<p>
+<s>Abikaasad on v&otilde;rd&otilde;iguslikud .</s>
+</p>
+<p>
+<s>Vanematel on &otilde;igus ja kohustus kasvatada oma lapsi ja hoolitseda nende eest .</s>
+</p>
+<p>
+<s>Seadus s&auml;testab vanemate ja laste kaitse .</s>
+</p>
+<p>
+<s>Perekond on kohustatud hoolitsema oma abivajavate liikmete eest .</s>
+</p>
+<p>
+<s>&sect; 28.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus tervise kaitsele .</s>
+</p>
+<p>
+<s>Eesti kodanikul on &otilde;igus riigi abile vanaduse , t&ouml;&ouml;v&otilde;imetuse , toitjakaotuse ja puuduse korral .</s><s>Abi liigid , ulatuse ning saamise tingimused ja korra s&auml;testab seadus .</s><s>Kui seadus ei s&auml;testa teisiti , siis on see &otilde;igus v&otilde;rdselt Eesti kodanikuga ka Eestis viibival v&auml;lisriigi kodanikul ja kodakondsuseta isikul .</s>
+</p>
+<p>
+<s>Riik soodustab vabatahtlikku ja omavalitsuse hoolekannet .</s>
+</p>
+<p>
+<s>Lasterikkad pered ja puuetega inimesed on riigi ja kohalike omavalitsuste erilise hoole all .</s>
+</p>
+<p>
+<s>&sect; 29.</s>
+</p>
+<p>
+<s>Eesti kodanikul on &otilde;igus vabalt valida tegvusala , elukutset ja t&ouml;&ouml;kohta .</s><s>Seadus v&otilde;ib s&auml;testada selle &otilde;iguse kasutamise tingimused ja korra .</s><s>Kui seadus ei s&auml;testa teisiti , siis on see &otilde;igus v&otilde;rdselt Eesti kodanikuga ka Eestis viibival v&auml;lisriigi kodanikul ja kodakondsuseta isikul .</s>
+</p>
+<p>
+<s>Kedagi ei tohi sundida tema vaba tahte vastaselt t&ouml;&ouml;le ega teenistusse , v&auml;lja arvatud kaitsev&auml;eteenistus v&otilde;i selle asendusteenistus , t&ouml;&ouml;d nakkushaiguse leviku t&otilde;kestamisel , loodus&otilde;nnetuse ja katastroofi korral ning t&ouml;&ouml; , mida seaduse alusel ja korras peab tegema s&uuml;&uuml;dim&otilde;istetu .</s>
+</p>
+<p>
+<s>Riik korraldab kutse&otilde;pet ja abistab t&ouml;&ouml;otsijaid t&ouml;&ouml; leidmisel .</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tingimused on riigi kontrolli all .</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tajate ja t&ouml;&ouml;andjate &uuml;hingutesse ja liitudesse kuulumine on vaba .</s><s>T&ouml;&ouml;tajate ja t&ouml;&ouml;andjate &uuml;hingud ja liidud v&otilde;ivad oma &otilde;iguste ja seaduslike huvide eest seista vahenditega , mida seadus ei keela .</s><s>Streigi&otilde;iguse kasutamise tingimused ja korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>T&ouml;&ouml;vaidluste lahendamise korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 30.</s>
+</p>
+<p>
+<s>Ametikohad riigiasutustes ja kohalikes omavalitsustes t&auml;idetakse seaduse alusel ja korras Eesti kodanikega .</s><s>Koosk&otilde;las seadusega v&otilde;ib neid ametikohti erandkorras t&auml;ita ka v&auml;lisriigi kodanike ja kodakondsuseta isikutega .</s>
+</p>
+<p>
+<s>Seadus v&otilde;ib piirata m&otilde;ne kategooria riigiteenistujate &otilde;igust tegelda ettev&otilde;tlusega ja koonduda tulundus&uuml;hendustesse ( &sect; 31 ) ning &otilde;igust kuuluda erakondadesse ja m&otilde;nda liiki mittetulundus&uuml;hendustesse ( &sect; 48 ) .</s>
+</p>
+<p>
+<s>&sect; 31.</s>
+</p>
+<p>
+<s>Eesti kodanikel on &otilde;igus tegelda ettev&otilde;tlusega ning koonduda tulundus&uuml;hingutesse ja -liitudesse .</s><s>Seadus v&otilde;ib s&auml;testada selle &otilde;iguse kasutamise tingimused ja korra .</s><s>Kui seadus ei s&auml;testa teisiti , siis on see &otilde;igus v&otilde;rdselt Eesti kodanikega ka Eestis viibivatel v&auml;lisriikide kodanikel ja kodakondsuseta isikutel .</s>
+</p>
+<p>
+<s>&sect; 32.</s>
+</p>
+<p>
+<s>Iga&uuml;he omand on puutumatu ja v&otilde;rdselt kaitstud .</s><s>Omandit v&otilde;ib omaniku n&otilde;usolekuta v&otilde;&otilde;randada ainult seaduses s&auml;testatud juhtudel ja korras &uuml;ldistes huvides &otilde;iglase ja kohese h&uuml;vituse eest .</s><s>Iga&uuml;hel , kelle vara on tema n&otilde;usolekuta v&otilde;&otilde;randatud , on &otilde;igus p&ouml;&ouml;rduda kohtusse ning vaidlustada vara v&otilde;&otilde;randamine , h&uuml;vitus v&otilde;i selle suurus .</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus enda omandit vabalt vallata , kasutada ja k&auml;sutada .</s><s>Kitsendused s&auml;testab seadus .</s><s>Omandit ei tohi kasutada &uuml;ldiste huvide vastaselt .</s>
+</p>
+<p>
+<s>Seadus v&otilde;ib &uuml;ldistes huvides s&auml;testada vara liigid , mida tohivad Eestis omandada ainult Eesti kodanikud , m&otilde;nda liiki juriidilised isikud , kohalikud omavalitsused v&otilde;i Eesti riik .</s>
+</p>
+<p>
+<s>P&auml;rimis&otilde;igus on tagatud .</s>
+</p>
+<p>
+<s>&sect; 33.</s>
+</p>
+<p>
+<s>Kodu on puutumatu .</s><s>Ei tohi tungida kellegi eluruumi , valdusse ega t&ouml;&ouml;kohta ega neid ka l&auml;bi otsida , v&auml;lja arvatud seadusega s&auml;testatud juhtudel ja korras avaliku korra , tervise v&otilde;i teiste inimeste &otilde;iguste ja vabaduste kaitseks , kuriteo t&otilde;kestamiseks , kurjategija tabamiseks v&otilde;i t&otilde;e v&auml;ljaselgitamiseks kriminaalmenetluses .</s>
+</p>
+<p>
+<s>&sect; 34.</s>
+</p>
+<p>
+<s>Iga&uuml;hel , kes viibib seaduslikult Eestis , on &otilde;igus vabalt liikuda ja elukohta valida .</s><s>&Otilde;igust vabalt liikuda v&otilde;ib seaduses s&auml;testatud juhtudel ja korras piirata teiste inimeste &otilde;iguste ja vabaduste kaitseks , riigikaitse huvides , loodus&otilde;nnetuse ja katastroofi korral , nakkushaiguse leviku t&otilde;kestamiseks , looduskeskkonna kaitseks , alaealise v&otilde;i vaimuhaige j&auml;relevalvetuse &auml;rahoidmiseks ja kriminaalasja menetluse tagamiseks .</s>
+</p>
+<p>
+<s>&sect; 35.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus lahkuda Eestist .</s><s>Seda &otilde;igust v&otilde;ib seaduses s&auml;testatud juhtudel ja korras piirata kohtu- ning kohtueelse menetluse tagamiseks ja kohtuotsuse t&auml;itmiseks .</s>
+</p>
+<p>
+<s>&sect; 36.</s>
+</p>
+<p>
+<s>&Uuml;htki Eesti kodanikku ei tohi Eestist v&auml;lja saata ega takistada Eestisse asumast .</s>
+</p>
+<p>
+<s>&Uuml;htki Eesti kodanikku ei tohi v&auml;lisriigile v&auml;lja anda muidu , kui v&auml;lislepingus etten&auml;htud juhtudel ning vastavas lepingus ja seaduses s&auml;testatud korras .</s><s>V&auml;ljaandmise otsustab Vabariigi Valitsus .</s><s>Igal v&auml;ljaantaval on &otilde;igus vaidlustada v&auml;ljaandmine Eesti kohtus .</s>
+</p>
+<p>
+<s>Igal eestlasel on &otilde;igus asuda Eestisse .</s>
+</p>
+<p>
+<s>&sect; 37.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus haridusele .</s><s>&Otilde;ppimine on kooliealistel lastel seadusega m&auml;&auml;ratud ulatuses kohustuslik ning riigi ja kohalike omavalitsuste &uuml;ldhariduskoolides &otilde;ppemaksuta .</s>
+</p>
+<p>
+<s>Et teha haridus k&auml;ttesaadavaks , peavad riik ja kohalikud omavalitsused &uuml;lal vajalikul arvul &otilde;ppeasutusi .</s><s>Seaduse alusel v&otilde;ib avada ja pidada ka muid &otilde;ppeasutusi , sealhulgas erakoole .</s>
+</p>
+<p>
+<s>Laste hariduse valikul on otsustav s&otilde;na vanematel .</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus saada eestikeelset &otilde;petust .</s><s>&Otilde;ppekeele v&auml;hemusrahvuse &otilde;ppeasutuses valib &otilde;ppeasutus .</s>
+</p>
+<p>
+<s>Hariduse andmine on riigi j&auml;relevalve all .</s>
+</p>
+<p>
+<s>&sect; 38.</s>
+</p>
+<p>
+<s>Teadus ja kunst ning nende &otilde;petused on vabad .</s>
+</p>
+<p>
+<s>&Uuml;likoolid ja teadusasutused on seaduses etten&auml;htud piires autonoomsed .</s>
+</p>
+<p>
+<s>&sect; 39.</s>
+</p>
+<p>
+<s>Autoril on v&otilde;&otilde;randamatu &otilde;igus oma loomingule .</s><s>Riik kaitseb autori &otilde;igusi .</s>
+</p>
+<p>
+<s>&sect; 40.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on s&uuml;dametunnistuse- , usu- ja m&otilde;ttevabadus .</s>
+</p>
+<p>
+<s>Kuulumine kirikutesse ja usu&uuml;hingutesse on vaba .</s><s>Riigikirikut ei ole .</s>
+</p>
+<p>
+<s>Iga&uuml;hel on vabadus nii &uuml;ksinda kui ka koos teistega , avalikult v&otilde;i eraviisiliselt t&auml;ita usutalitusi , kui see ei kahjusta avalikku korda , tervist ega k&otilde;lblust .</s>
+</p>
+<p>
+<s>&sect; 41.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus j&auml;&auml;da truuks oma arvamustele ja veendumustele .</s><s>Kedagi ei tohi sundida neid muutma .</s>
+</p>
+<p>
+<s>Veendumustega ei saa vabandada &otilde;iguserikkumist .</s>
+</p>
+<p>
+<s>Kedagi ei saa veendumuste p&auml;rast v&otilde;tta &otilde;iguslikule vastutusele .</s>
+</p>
+<p>
+<s>&sect; 42.</s>
+</p>
+<p>
+<s>Riigiasutused , kohalikud omavalitsused ja nende ametiisikud ei tohi Eesti kodaniku vaba tahte vastaselt koguda ega talletada andmeid tema veendumuste kohta .</s>
+</p>
+<p>
+<s>&sect; 43.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus tema poolt v&otilde;i temale posti , telegraafi , telefoni v&otilde;i muul &uuml;ldkasutataval teel edastatavate s&otilde;numite saladusele .</s><s>Erandeid v&otilde;ib kohtu loal teha kuriteo t&otilde;kestamiseks v&otilde;i kriminaalmenetluses t&otilde;e v&auml;ljaselgitamiseks seadusega s&auml;testatud juhtudel ja korras .</s>
+</p>
+<p>
+<s>&sect; 44.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus vabalt saada &uuml;ldiseks kasutamiseks levitatavat informatsiooni .</s>
+</p>
+<p>
+<s>K&otilde;ik riigiasutused , kohalikud omavalitsused ja nende ametiisikud on kohustatud seaduses s&auml;testatud korras andma Eesti kodanikule tema n&otilde;udel informatsiooni oma tegevuse kohta , v&auml;lja arvatud andmed , mille v&auml;ljaandmine on seadusega keelatud , ja eranditult asutusesiseseks kasutamiseks m&otilde;eldud andmed .</s>
+</p>
+<p>
+<s>Eesti kodanikul on &otilde;igus seaduses s&auml;testatud korras tutvuda tema kohta riigiasutustes ja kohalikes omavalitsustes ning riigi ja kohalike omavalitsuste arhiivides hoitavate andmetega .</s><s>Seaduse alusel v&otilde;ib seda &otilde;igust piirata teiste inimeste &otilde;iguste ja vabaduste ning lapse p&otilde;lvnemise saladuse kaitseks , samuti kuriteo t&otilde;kestamise , kurjategija tabamise v&otilde;i kriminaalmenetluses t&otilde;e v&auml;ljaselgitamise huvides .</s>
+</p>
+<p>
+<s>Kui seadus ei s&auml;testa teisiti , siis on k&auml;esoleva paragrahvi l&otilde;igetes kaks ja kolm nimetatud &otilde;igused v&otilde;rdselt Eesti kodanikuga ka Eestis viibival v&auml;lisriigi kodanikul ja kodakondsuseta isikul .</s>
+</p>
+<p>
+<s>&sect; 45.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus vabalt levitada ideid , arvamusi , veendumusi ja muud informatsiooni s&otilde;nas , tr&uuml;kis , pildis v&otilde;i muul viisil .</s><s>Seda &otilde;igust v&otilde;ib seadus piirata avaliku korra , k&otilde;lbluse , teiste inimeste &otilde;iguste ja vabaduste , tervise , au ning hea nime kaitseks .</s><s>Seadus v&otilde;ib seda &otilde;igust piirata ka riigi ja kohalike omavalitsuste teenistujatel neile ameti t&otilde;ttu teatavaks saanud riigi- v&otilde;i &auml;risaladuse v&otilde;i konfidentsiaalsena saadud informatsiooni ning teiste inimeste perekonna- ja eraelu kaitseks , samuti &otilde;igusem&otilde;istmise huvides .</s>
+</p>
+<p>
+<s>Tsensuuri ei ole .</s>
+</p>
+<p>
+<s>&sect; 46.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus p&ouml;&ouml;rduda m&auml;rgukirjade ja avaldustega riigiasutuste , kohalike omavalitsuste ja nende ametiisikute poole .</s><s>Vastamise korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 47.</s>
+</p>
+<p>
+<s>K&otilde;igil on &otilde;igus ilma eelneva loata rahumeelselt koguneda ja koosolekuid pidada .</s><s>Seda &otilde;igust v&otilde;ib seaduses s&auml;testatud juhtudel ja korras piirata riigi julgeoleku , avaliku korra , k&otilde;lbluse , liiklusohutuse ja koosolekust osav&otilde;tjate ohutuse tagamiseks ning nakkushaiguse leviku t&otilde;kestamiseks .</s>
+</p>
+<p>
+<s>&sect; 48.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus koonduda mittetulundus&uuml;hingutesse ja -liitudesse .</s><s>Erakondadesse v&otilde;ivad kuuluda ainult Eesti kodanikud .</s>
+</p>
+<p>
+<s>Relvi valdavate , samuti s&otilde;jav&auml;eliselt korraldatud v&otilde;i s&otilde;jalisi harjutusi harrastavate &uuml;hingute ja liitude loomiseks on n&otilde;utav eelnev luba , mille andmise tingimused ja korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>Keelatud on &uuml;hingud , liidud ja erakonnad , kelle eesm&auml;rgid v&otilde;i tegevus on suunatud Eesti p&otilde;hiseadusliku korra v&auml;givaldsele muutmisele v&otilde;i on muul viisil vastuolus kriminaalvastutust s&auml;testava seadusega .</s>
+</p>
+<p>
+<s>Ainult kohus v&otilde;ib &otilde;iguserikkumise eest &uuml;hingu , liidu v&otilde;i erakonna tegevuse l&otilde;petada v&otilde;i peatada , samuti teda trahvida .</s>
+</p>
+<p>
+<s>&sect; 49.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus s&auml;ilitada oma rahvuskuuluvus .</s>
+</p>
+<p>
+<s>&sect; 50.</s>
+</p>
+<p>
+<s>V&auml;hemusrahvustel on &otilde;igus luua rahvuskultuuri huvides omavalitsusasutusi v&auml;hemusrahvuste kultuurautonoomia seaduses s&auml;testatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 51.</s>
+</p>
+<p>
+<s>Iga&uuml;hel on &otilde;igus p&ouml;&ouml;rduda riigiasutuste , kohalike omavalitsuste ja nende ametiisikute poole eesti keeles ja saada eestikeelseid vastuseid .</s>
+</p>
+<p>
+<s>Paikkondades , kus v&auml;hemalt pooled p&uuml;sielanikest on v&auml;hemusrahvusest , on iga&uuml;hel &otilde;igus saada riigiasutustelt ja kohalikelt omavalitsustelt ning nende ametiisikutelt vastuseid ka selle v&auml;hemusrahvuse keeles .</s>
+</p>
+<p>
+<s>&sect; 52.</s>
+</p>
+<p>
+<s>Riigiasutuste ja kohalike omavalitsuste asjaajamiskeel on eesti keel .</s>
+</p>
+<p>
+<s>Paikkondades , kus elanike enamiku keel ei ole eesti keel , v&otilde;ivad kohalikud omavalitsused seaduses s&auml;testatud ulatuses ja korras kasutada sisemise asjaajamiskeelena selle paikkonna p&uuml;sielanike enamiku keelt .</s>
+</p>
+<p>
+<s>V&otilde;&otilde;rkeelte , sealhulgas v&auml;hemusrahvuste keelte kasutamise riigiasutuses ning kohtu- ja kohtueelses menetluses s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 53.</s>
+</p>
+<p>
+<s>Iga&uuml;ks on kohustatud s&auml;&auml;stma elu- ja looduskeskkonda ning h&uuml;vitama kahju , mis ta on keskkonnale tekitanud .</s><s>H&uuml;vitamise korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 54.</s>
+</p>
+<p>
+<s>Eesti kodaniku kohus on olla ustav p&otilde;hiseaduslikule korrale ning kaitsta Eesti iseseisvust .</s>
+</p>
+<p>
+<s>Kui muid vahendeid ei leidu , on igal Eesti kodanikul &otilde;igus osutada p&otilde;hiseadusliku korra v&auml;givaldsele muutmisele omaalgatuslikku vastupanu .</s>
+</p>
+<p>
+<s>&sect; 55.</s>
+</p>
+<p>
+<s>Eestis viibivad teiste riikide kodanikud ja kodakondsuseta isikud on kohustatud j&auml;rgima Eesti p&otilde;hiseaduslikku korda .</s>
+</p>
+<p>
+<s>III peat&uuml;kk</s>
+</p>
+<p>
+<s>Rahvas</s>
+</p>
+<p>
+<s>&sect; 56.</s>
+</p>
+<p>
+<s>K&otilde;rgeimat riigiv&otilde;imu teostab rahvas h&auml;&auml;le&otilde;iguslike kodanike kaudu :</s>
+</p>
+<p>
+<s>1 ) Riigikogu valimisega ;</s>
+</p>
+<p>
+<s>2 ) rahvah&auml;&auml;letusega .</s>
+</p>
+<p>
+<s>&sect; 57.</s>
+</p>
+<p>
+<s>H&auml;&auml;le&otilde;iguslik on Eesti kodanik , kes on saanud kaheksateist aastat vanaks .</s>
+</p>
+<p>
+<s>H&auml;&auml;le&otilde;iguslik ei ole Eesti kodanik , kes on kohtu poolt tunnistatud teov&otilde;imetuks .</s>
+</p>
+<p>
+<s>&sect; 58.</s>
+</p>
+<p>
+<s>Seadusega v&otilde;ib piirata nende Eesti kodanike osav&otilde;ttu h&auml;&auml;letamisest , kes on kohtu poolt s&uuml;&uuml;di m&otilde;istetud ja kannavad karistust kinnipidamiskohtades .</s>
+</p>
+<p>
+<s>IV peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigikogu</s>
+</p>
+<p>
+<s>&sect; 59.</s>
+</p>
+<p>
+<s>Seadusandlik v&otilde;im kuulub Riigikogule .</s>
+</p>
+<p>
+<s>&sect; 60.</s>
+</p>
+<p>
+<s>Riigikogul on sada &uuml;ks liiget .</s><s>Riigikogu liikmed valitakse vabadel valimistel proportsionaalsuse p&otilde;him&otilde;tte alusel .</s><s>Valimised on &uuml;ldised , &uuml;hetaolised ja otsesed .</s><s>H&auml;&auml;letamine on salajane .</s>
+</p>
+<p>
+<s>Riigikogusse v&otilde;ib kandideerida iga v&auml;hemalt kahek&uuml;mne &uuml;he aastane h&auml;&auml;le&otilde;iguslik Eesti kodanik .</s>
+</p>
+<p>
+<s>Riigikogu korralised valimised toimuvad m&auml;rtsikuu esimesel p&uuml;hap&auml;eval neljandal aastal , mis j&auml;rgneb Riigikogu eelmiste valimiste aastale .</s>
+</p>
+<p>
+<s>Riigikogu erakorralised valimised toimuvad p&otilde;hiseaduse &sect;-des 89 , 97 , 105 ja 119 etten&auml;htud juhtudel varemalt kaksk&uuml;mmend ja hiljemalt nelik&uuml;mmend p&auml;eva p&auml;rast valimiste v&auml;ljakuulutamist .</s>
+</p>
+<p>
+<s>Riigikogu valimise korra s&auml;testab Riigikogu valimise seadus .</s>
+</p>
+<p>
+<s>&sect; 61.</s>
+</p>
+<p>
+<s>Riigikogu liikmete volitused algavad valimistulemuste v&auml;ljakuulutamise p&auml;evast .</s><s>Samast p&auml;evast l&otilde;pevad Riigikogu eelmise koosseisu liikmete volitused .</s>
+</p>
+<p>
+<s>Riigikogu liige annab enne oma kohustuste t&auml;itmisele asumist ametivande j&auml;&auml;da ustavaks Eesti Vabariigile ja tema p&otilde;hiseaduslikule korrale .</s>
+</p>
+<p>
+<s>&sect; 62.</s>
+</p>
+<p>
+<s>Riigikogu liige ei ole seotud mandaadiga ega kanna &otilde;iguslikku vastutust h&auml;&auml;letamise ja poliitiliste avalduste eest Riigikogus v&otilde;i selle organites .</s>
+</p>
+<p>
+<s>&sect; 63.</s>
+</p>
+<p>
+<s>Riigikogu liige ei tohi olla &uuml;heski muus riigiametis .</s>
+</p>
+<p>
+<s>Riigikogu liige on oma volituste ajaks vabastatud kaitsev&auml;eteenistuse kohustusest .</s>
+</p>
+<p>
+<s>&sect; 64.</s>
+</p>
+<p>
+<s>Riigikogu liikme volitused peatuvad tema nimetamisel Vabariigi Valitsuse liikmeks ja taastuvad tema vabastamisel valitsuse liikme kohustustest .</s>
+</p>
+<p>
+<s>Riigikogu liikme volitused l&otilde;pevad enne t&auml;htaega :</s>
+</p>
+<p>
+<s>1 ) tema asumisega m&otilde;nda teise riigiametisse ;</s>
+</p>
+<p>
+<s>2 ) teda s&uuml;&uuml;di m&otilde;istva kohtuotsuse j&otilde;ustumisel ;</s>
+</p>
+<p>
+<s>3 ) tema tagasiastumisega seaduses s&auml;testatud korras ;</s>
+</p>
+<p>
+<s>4 ) kui Riigikohus on otsustanud , et ta on kestvalt v&otilde;imetu oma &uuml;lesandeid t&auml;itma ;</s>
+</p>
+<p>
+<s>5 ) tema surma korral .</s>
+</p>
+<p>
+<s>Riigikogu liikme volituste peatumisel v&otilde;i ennet&auml;htaegsel l&otilde;ppemisel astub seaduses s&auml;testatud korras tema asemele asendusliige .</s><s>Asendusliikmel on k&otilde;ik Riigikogu liikme &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>Riigikogu liikme volituste taastumisel l&otilde;pevad asendusliikme volitused .</s>
+</p>
+<p>
+<s>&sect; 65.</s>
+</p>
+<p>
+<s>Riigikogu :</s>
+</p>
+<p>
+<s>1 ) v&otilde;tab vastu seadusi ja otsuseid ;</s>
+</p>
+<p>
+<s>2 ) otsustab rahvah&auml;&auml;letuse korraldamise ;</s>
+</p>
+<p>
+<s>3 ) valib Vabariigi Presidendi vastavalt p&otilde;hiseaduse &sect;-le 79 ;</s>
+</p>
+<p>
+<s>4 ) ratifitseerib ja denonsseerib v&auml;lislepinguid vastavalt p&otilde;hiseaduse &sect;-le 121 ;</s>
+</p>
+<p>
+<s>5 ) annab peaministrikandidaadile volitused Vabariigi Valitsuse moodustamiseks ;</s>
+</p>
+<p>
+<s>6 ) v&otilde;tab vastu riigieelarve ja kinnitab selle t&auml;itmise aruande ;</s>
+</p>
+<p>
+<s>7 ) nimetab Vabariigi Presidendi ettepanekul ametisse Riigikohtu esimehe , Eesti Panga n&otilde;ukogu esimehe , riigikontrol&ouml;ri , &otilde;iguskantsleri ja kaitsev&auml;e juhataja v&otilde;i &uuml;lemjuhataja ;</s>
+</p>
+<p>
+<s>8 ) nimetab Riigikohtu esimehe ettepanekul ametisse Riigikohtu liikmed ;</s>
+</p>
+<p>
+<s>9 ) nimetab Eesti Panga n&otilde;ukogu liikmed ;</s>
+</p>
+<p>
+<s>10 ) otsustab Vabariigi Valitsuse ettepanekul riigilaenude tegemise ja riigile muude varaliste kohustuste v&otilde;tmise ;</s>
+</p>
+<p>
+<s>11 ) esineb avalduste ja deklaratsioonidega ning p&ouml;&ouml;rdumistega Eesti rahva , teiste riikide ning rahvusvaheliste organisatsioonide poole ;</s>
+</p>
+<p>
+<s>12 ) kehtestab riiklikud autasud , s&otilde;jav&auml;elised ja diplomaatilised auastmed ;</s>
+</p>
+<p>
+<s>13 ) otsustab umbusalduse avaldamise Vabariigi Valitsusele , peaministrile v&otilde;i ministrile ;</s>
+</p>
+<p>
+<s>14 ) kuulutab riigis v&auml;lja erakorralise seisukorra vastavalt p&otilde;hiseaduse &sect;-le 129 ;</s>
+</p>
+<p>
+<s>15 ) kuulutab Vabariigi Presidendi ettepanekul v&auml;lja s&otilde;jaseisukorra , mobilisatsiooni ja demobilisatsiooni ;</s>
+</p>
+<p>
+<s>16 ) lahendab muid riigielu k&uuml;simusi , mis ei ole p&otilde;hiseadusega antud Vabariigi Presidendi , Vabariigi Valitsuse , teiste riigiorganite v&otilde;i kohalike omavalitsuste otsustada .</s>
+</p>
+<p>
+<s>&sect; 66.</s>
+</p>
+<p>
+<s>Riigikogu uue koosseisu esimene istung toimub k&uuml;mne p&auml;eva jooksul arvates Riigikogu valimistulemuste v&auml;ljakuulutamisest .</s><s>Esimeseks istungiks kutsub Riigikogu kokku Vabariigi President .</s>
+</p>
+<p>
+<s>&sect; 67.</s>
+</p>
+<p>
+<s>Riigikogu korralised istungj&auml;rgud toimuvad jaanuarikuu teisest esmasp&auml;evast juunikuu kolmanda neljap&auml;evani ning septembrikuu teisest esmasp&auml;evast detsembrikuu kolmanda neljap&auml;evani .</s>
+</p>
+<p>
+<s>&sect; 68.</s>
+</p>
+<p>
+<s>Riigikogu erakorralised istungj&auml;rgud kutsub kokku Riigikogu esimees Vabariigi Presidendi , Vabariigi Valitsuse v&otilde;i v&auml;hemalt viiendiku Riigikogu koosseisu ettepanekul .</s>
+</p>
+<p>
+<s>&sect; 69.</s>
+</p>
+<p>
+<s>Riigikogu valib oma liikmete hulgast Riigikogu esimehe ja kaks aseesimeest , kes korraldavad Riigikogu t&ouml;&ouml;d vastavalt Riigikogu kodukorra seadusele ja Riigikogu t&ouml;&ouml;korra seadusele .</s>
+</p>
+<p>
+<s>&sect; 70.</s>
+</p>
+<p>
+<s>Riigikogu otsustusv&otilde;imelisuse s&auml;testab Riigikogu kodukorra seadus .</s><s>Erakorralisel istungj&auml;rgul on Riigikogu otsustusv&otilde;imeline , kui kohal on &uuml;le poole Riigikogu koosseisust .</s>
+</p>
+<p>
+<s>&sect; 71.</s>
+</p>
+<p>
+<s>Riigikogu moodustab komisjone .</s>
+</p>
+<p>
+<s>Riigikogu liikmetel on &otilde;igus &uuml;hineda fraktsioonidesse .</s>
+</p>
+<p>
+<s>Komisjonide ja fraktsioonide moodustamise korra ning &otilde;igused s&auml;testab Riigikogu kodukorra seadus .</s>
+</p>
+<p>
+<s>&sect; 72.</s>
+</p>
+<p>
+<s>Riigikogu istungid on avalikud , kui Riigikogu ei otsusta kahekolmandikulise h&auml;&auml;lteenamusega teisiti .</s>
+</p>
+<p>
+<s>H&auml;&auml;letamine Riigikogus on avalik .</s><s>Salajast h&auml;&auml;letamist korraldatakse p&otilde;hiseaduses v&otilde;i Riigikogu kodukorra seaduses etten&auml;htud juhtudel ainult ametiisikute valimisel v&otilde;i nimetamisel .</s>
+</p>
+<p>
+<s>&sect; 73.</s>
+</p>
+<p>
+<s>Riigikogu aktid v&otilde;etakse vastu poolth&auml;&auml;lte enamusega , kui p&otilde;hiseadus ei n&auml;e ette teisiti .</s>
+</p>
+<p>
+<s>&sect; 74.</s>
+</p>
+<p>
+<s>Riigikogu liikmel on &otilde;igus p&ouml;&ouml;rduda arup&auml;rimisega Vabariigi Valitsuse ja tema liikmete , Eesti Panga n&otilde;ukogu esimehe , Eesti Panga presidendi , riigikontrol&ouml;ri , &otilde;iguskantsleri ja kaitsev&auml;e juhataja v&otilde;i &uuml;lemjuhataja poole .</s>
+</p>
+<p>
+<s>Arup&auml;rimisele tuleb vastata Riigikogu istungil kahek&uuml;mne istungip&auml;eva jooksul .</s>
+</p>
+<p>
+<s>&sect; 75.</s>
+</p>
+<p>
+<s>Riigikogu liikme tasu ning piirangud muu t&ouml;&ouml;tulu saamisel s&auml;testab seadus , mida tohib muuta Riigikogu j&auml;rgmise koosseisu kohta .</s>
+</p>
+<p>
+<s>&sect; 76.</s>
+</p>
+<p>
+<s>Riigikogu liige on puutumatu .</s><s>Teda saab kriminaalvastutusele v&otilde;tta ainult &otilde;iguskantsleri ettepanekul Riigikogu koosseisu enamuse n&otilde;usolekul .</s>
+</p>
+<p>
+<s>V peat&uuml;kk</s>
+</p>
+<p>
+<s>Vabariigi President</s>
+</p>
+<p>
+<s>&sect; 77.</s>
+</p>
+<p>
+<s>Vabariigi President on Eesti riigipea .</s>
+</p>
+<p>
+<s>&sect; 78.</s>
+</p>
+<p>
+<s>Vabariigi President :</s>
+</p>
+<p>
+<s>1 ) esindab Eesti Vabariiki rahvusvahelises suhtlemises ;</s>
+</p>
+<p>
+<s>2 ) nimetab ja kutsub tagasi Vabariigi Valitsuse ettepanekul Eesti Vabariigi diplomaatilised esindajad ning v&otilde;tab vastu Eestisse akrediteeritud diplomaatiliste esindajate volikirjad ;</s>
+</p>
+<p>
+<s>3 ) kuulutab v&auml;lja Riigikogu korralised valimised ja vastavalt p&otilde;hiseaduse &sect;-dele 89 , 97 , 105 ja 119 Riigikogu erakorralised valimised ;</s>
+</p>
+<p>
+<s>4 ) kutsub kokku Riigikogu uue koosseisu vastavalt p&otilde;hiseaduse &sect;-le 66 ja avab selle esimese istungi ;</s>
+</p>
+<p>
+<s>5 ) teeb Riigikogu esimehele ettepaneku Riigikogu erakorralise istungj&auml;rgu kokkukutsumiseks vastavalt p&otilde;hiseaduse &sect;-le 68 ;</s>
+</p>
+<p>
+<s>6 ) kuulutab v&auml;lja seadused vastavalt p&otilde;hiseaduse &sect;-dele 105 ja 107 ning kirjutab alla ratifitseerimiskirjadele ;</s>
+</p>
+<p>
+<s>7 ) annab seadlusi vastavalt p&otilde;hiseaduse &sect;-dele 109 ja 110 ;</s>
+</p>
+<p>
+<s>8 ) algatab p&otilde;hiseaduse muutmist ;</s>
+</p>
+<p>
+<s>9 ) m&auml;&auml;rab peaministri kandidaadi vastavalt p&otilde;hiseaduse &sect;-le 89 ;</s>
+</p>
+<p>
+<s>10 ) nimetab ametisse ja vabastab ametist valitsuse liikmed vastavalt p&otilde;hiseaduse paragrahvile 89 , 90 ja 92 ;</s>
+</p>
+<p>
+<s>11 ) teeb Riigikogule ettepaneku Riigikohtu esimehe , Eesti Panga n&otilde;ukogu esimehe , riigikontrol&ouml;ri , &otilde;iguskantsleri ning kaitsev&auml;e juhataja v&otilde;i &uuml;lemjuhataja ametissenimetamiseks ;</s>
+</p>
+<p>
+<s>12 ) nimetab Eesti Panga n&otilde;ukogu ettepanekul ametisse Eesti Panga presidendi ;</s>
+</p>
+<p>
+<s>13 ) nimetab Riigikohtu ettepanekul kohtunikud ;</s>
+</p>
+<p>
+<s>14 ) nimetab ja vabastab ametist Vabariigi Valitsuse ja kaitsev&auml;e juhataja ettepanekul kaitsev&auml;e juhtkonna ;</s>
+</p>
+<p>
+<s>15 ) annab riiklikke autasusid , s&otilde;jav&auml;elisi ja diplomaatilisi auastmeid ;</s>
+</p>
+<p>
+<s>16 ) on Eesti riigikaitse k&otilde;rgeim juht ;</s>
+</p>
+<p>
+<s>17 ) teeb Riigikogule ettepanekud s&otilde;jaseisukorra , mobilisatsiooni ja demobilisatsiooni ning vastavalt p&otilde;hiseaduse &sect;-le 129 erakorralise seisukorra v&auml;ljakuulutamiseks ;</s>
+</p>
+<p>
+<s>18 ) kuulutab Eesti vastu suunatud agressiooni korral v&auml;lja s&otilde;jaseisukorra ja mobilisatsiooni ning nimetab ametisse kaitsev&auml;e &uuml;lemjuhataja vastavalt p&otilde;hiseaduse &sect;-le 128 ;</s>
+</p>
+<p>
+<s>19 ) vabastab s&uuml;&uuml;dim&otilde;istetuid nende palvel armuandmise korras karistuse kandmisest v&otilde;i kergendab karistust ;</s>
+</p>
+<p>
+<s>20 ) algatab &otilde;iguskantsleri kriminaalvastutusele v&otilde;tmise vastavalt p&otilde;hiseaduse &sect;-le 145.</s>
+</p>
+<p>
+<s>&sect; 79.</s>
+</p>
+<p>
+<s>Vabariigi Presidendi valib Riigikogu v&otilde;i k&auml;esoleva paragrahvi neljandas l&otilde;ikes s&auml;testatud juhul valimiskogu .</s>
+</p>
+<p>
+<s>Vabariigi Presidendi kandidaadi &uuml;lesseadmise &otilde;igus on v&auml;hemalt viiendikul Riigikogu koosseisust .</s>
+</p>
+<p>
+<s>Vabariigi Presidendi kandidaadiks v&otilde;ib seada s&uuml;nnilt Eesti kodaniku , kes on v&auml;hemalt nelik&uuml;mmend aastat vana .</s>
+</p>
+<p>
+<s>Vabariigi President valitakse salajasel h&auml;&auml;letusel .</s><s>Igal Riigikogu liikmel on &uuml;ks h&auml;&auml;l .</s><s>Valituks tunnistatakse kandidaat , kelle poolt h&auml;&auml;letab Riigikogu koosseisu kahekolmandikuline enamus .</s><s>Kui &uuml;kski kandidaat ei saa n&otilde;utavat h&auml;&auml;lteenamust , siis korraldatakse j&auml;rgmisel p&auml;eval uus h&auml;&auml;letusvoor .</s><s>Enne teist h&auml;&auml;letusvooru toimub uus kandidaatide &uuml;lesseadmine .</s><s>Kui teises h&auml;&auml;letusvoorus ei saa &uuml;kski kandidaat n&otilde;utavat h&auml;&auml;lteenamust , siis korraldatakse kahe teises voorus enim h&auml;&auml;li saanud kandidaadi vahel samal p&auml;eval kolmas h&auml;&auml;letusvoor .</s><s>Kui Vabariigi Presidenti ei valita ka kolmandas h&auml;&auml;letusvoorus , kutsub Riigikogu esimees &uuml;he kuu jooksul Vabariigi Presidendi valimiseks kokku valimiskogu .</s>
+</p>
+<p>
+<s>Valimiskogu koosneb Riigikogu liikmetest ja kohalike omavalitsuste volikogude esindajatest .</s><s>Iga kohaliku omavalitsuse volikogu valib valimiskogusse v&auml;hemalt &uuml;he esindaja , kes peab olema Eesti kodanik .</s>
+</p>
+<p>
+<s>Riigikogu esitab valimiskogule presidendikandidaadiks kaks Riigikogus enim h&auml;&auml;li saanud kandidaati .</s><s>Presidendikandidaadi &uuml;lesseadmise &otilde;igus on ka v&auml;hemalt kahek&uuml;mne &uuml;hel valimiskogu liikmel .</s>
+</p>
+<p>
+<s>Valimiskogu valib Vabariigi Presidendi h&auml;&auml;letamisest osav&otilde;tnud valimiskogu liikmete h&auml;&auml;lteenamusega .</s><s>Kui esimeses voorus &uuml;kski kandidaat ei osutu valituks , korraldatakse samal p&auml;eval kahe enim h&auml;&auml;li saanud kandidaadi vahel teine h&auml;&auml;letusvoor .</s>
+</p>
+<p>
+<s>Vabariigi Presidendi valimise t&auml;psema korra s&auml;testab Vabariigi Presidendi valimise seadus .</s>
+</p>
+<p>
+<s>&sect; 80.</s>
+</p>
+<p>
+<s>Vabariigi President valitakse ametisse viieks aastaks .</s><s>Kedagi ei tohi valida Vabariigi Presidendiks rohkem kui kaheks ametiajaks j&auml;rjestikku .</s>
+</p>
+<p>
+<s>Vabariigi Presidendi korralised valimised toimuvad varemalt kuusk&uuml;mmend ja hiljemalt k&uuml;mme p&auml;eva enne Vabariigi Presidendi ametiaja l&otilde;ppemist .</s>
+</p>
+<p>
+<s>&sect; 81.</s>
+</p>
+<p>
+<s>Vabariigi President astub ametisse j&auml;rgmise ametivande andmisega Eesti rahvale Riigikogu ees : &ldquo; Astudes Vabariigi Presidendi ametisse , annan mina , ( ees- ja perekonnanimi ) , p&uuml;haliku t&otilde;otuse kaitsta vankumata Eesti Vabariigi p&otilde;hiseadust ja seadusi , &otilde;iglaselt ja erapooletult kasutada minule antud v&otilde;imu ning t&auml;ita ustavalt oma kohuseid k&otilde;igi oma v&otilde;imete ja parima arusaamisega Eesti rahva ja Vabariigi kasuks . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 82.</s>
+</p>
+<p>
+<s>Vabariigi Presidendi volitused</s>
+</p>
+<p>
+<s>l&otilde;pevad :</s>
+</p>
+<p>
+<s>1 ) ametist tagasiastumisega ;</s>
+</p>
+<p>
+<s>2 ) teda s&uuml;&uuml;di m&otilde;istva kohtuotsuse j&otilde;ustumisega ;</s>
+</p>
+<p>
+<s>3 ) tema surma korral ;</s>
+</p>
+<p>
+<s>4 ) uue Vabariigi Presidendi ametisseastumisega .</s>
+</p>
+<p>
+<s>&sect; 83.</s>
+</p>
+<p>
+<s>Kui Vabariigi President on Riigikohtu otsusel kestvalt v&otilde;imetu oma &uuml;lesandeid t&auml;itma v&otilde;i ei saa ta neid seaduses nimetatud juhtudel ajutiselt t&auml;ita v&otilde;i on tema volitused enne t&auml;htaega l&otilde;ppenud , l&auml;hevad tema &uuml;lesanded ajutiselt &uuml;le Riigikogu esimehele .</s>
+</p>
+<p>
+<s>Ajaks , mil Riigikogu esimees t&auml;idab Vabariigi Presidendi &uuml;lesandeid , peatuvad tema volitused Riigikogu liikmena .</s>
+</p>
+<p>
+<s>Riigikogu esimehel Vabariigi Presidendi &uuml;lesannetes ei ole &otilde;igust Riigikohtu n&otilde;usolekuta v&auml;lja kuulutada Riigikogu erakorralisi valimisi ega keelduda seadusi v&auml;lja kuulutamast .</s>
+</p>
+<p>
+<s>Kui Vabariigi President ei saa oma ametikohustusi t&auml;ita &uuml;le kolme kuu j&auml;rjest v&otilde;i kui tema volitused on enne t&auml;htaega l&otilde;ppenud , valib Riigikogu neljateistk&uuml;mne p&auml;eva jooksul uue Vabariigi Presidendi vastavalt p&otilde;hiseaduse &sect;-le 79.</s>
+</p>
+<p>
+<s>&sect; 84.</s>
+</p>
+<p>
+<s>Ametisseastumisega l&otilde;pevad Vabariigi Presidendi volitused ja &uuml;lesanded k&otilde;igis valitavates ja nimetatavates ametites ning ta peatab ametisoleku ajaks oma erakondliku kuuluvuse .</s>
+</p>
+<p>
+<s>&sect; 85.</s>
+</p>
+<p>
+<s>Vabariigi Presidenti saab kriminaalvastutusele v&otilde;tta ainult &otilde;iguskantsleri ettepanekul Riigikogu koosseisu enamuse n&otilde;usolekul .</s>
+</p>
+<p>
+<s>VI peat&uuml;kk</s>
+</p>
+<p>
+<s>Vabariigi Valitsus</s>
+</p>
+<p>
+<s>&sect; 86.</s>
+</p>
+<p>
+<s>T&auml;idesaatev riigiv&otilde;im kuulub Vabariigi Valitsusele .</s>
+</p>
+<p>
+<s>&sect; 87.</s>
+</p>
+<p>
+<s>Vabariigi Valitsus :</s>
+</p>
+<p>
+<s>1 ) viib ellu riigi sise- ja v&auml;lispoliitikat ;</s>
+</p>
+<p>
+<s>2 ) suunab ja koordineerib valitsusasutuste tegevust ;</s>
+</p>
+<p>
+<s>3 ) korraldab seaduste , Riigikogu otsuste ja Vabariigi Presidendi aktide t&auml;itmist ;</s>
+</p>
+<p>
+<s>4 ) esitab Riigikogule seaduseeln&otilde;usid ning ratifitseerimiseks ja denonsseerimiseks v&auml;lislepinguid ;</s>
+</p>
+<p>
+<s>5 ) koostab riigieelarve eeln&otilde;u ja esitab selle Riigikogule , korraldab riigieelarve t&auml;itmist ning esitab Riigikogule riigieelarve t&auml;itmise aruande ;</s>
+</p>
+<p>
+<s>6 ) annab seaduse alusel ja t&auml;itmiseks m&auml;&auml;rusi ja korraldusi ;</s>
+</p>
+<p>
+<s>7 ) korraldab suhtlemist teiste riikidega ;</s>
+</p>
+<p>
+<s>8 ) kuulutab loodus&otilde;nnetuse ja katastroofi korral v&otilde;i nakkushaiguse leviku t&otilde;kestamiseks v&auml;lja eriolukorra riigis v&otilde;i selle osas ;</s>
+</p>
+<p>
+<s>9 ) t&auml;idab muid &uuml;lesandeid , mis p&otilde;hiseaduse ja seadustega on antud Vabariigi Valitsuse otsustada .</s>
+</p>
+<p>
+<s>&sect; 88.</s>
+</p>
+<p>
+<s>Vabariigi Valitsusse kuuluvad peaminister ja ministrid .</s>
+</p>
+<p>
+<s>&sect; 89.</s>
+</p>
+<p>
+<s>Vabariigi President m&auml;&auml;rab neljateistk&uuml;mne p&auml;eva jooksul Vabariigi Valitsuse tagasiastumisest peaministrikandidaadi , kellele teeb &uuml;lesandeks uue valitsuse moodustamise .</s>
+</p>
+<p>
+<s>Peaministrikandidaat esitab neljateistk&uuml;mne p&auml;eva jooksul , arvates valitsuse moodustamise &uuml;lesande saamisest , Riigikogule ettekande tulevase valitsuse moodustamise aluste kohta , mille j&auml;rel Riigikogu otsustab l&auml;bir&auml;&auml;kimisteta avalikul h&auml;&auml;letusel peaministrikandidaadile volituste andmise valitsuse moodustamiseks .</s>
+</p>
+<p>
+<s>Riigikogult valitsuse moodustamiseks volitused saanud peaministrikandidaat esitab seitsme p&auml;eva jooksul valitsuse koosseisu Vabariigi Presidendile , kes nimetab kolme p&auml;eva jooksul valitsuse ametisse .</s>
+</p>
+<p>
+<s>Kui Vabariigi Presidendi m&auml;&auml;ratud peaministrikandidaat ei saa Riigikogu poolth&auml;&auml;lte enamust v&otilde;i ei suuda valitsust moodustada v&otilde;i loobub selle moodustamisest , on Vabariigi Presidendil &otilde;igus seitsme p&auml;eva jooksul esitada teine peaministrikandidaat .</s>
+</p>
+<p>
+<s>Kui Vabariigi President ei esita seitsme p&auml;eva jooksul teist peaministrikandidaati v&otilde;i loobub selle esitamisest v&otilde;i kui teine kandidaat k&auml;esoleva paragrahvi l&otilde;igete kaks ja kolm tingimustel ja t&auml;htaegadel ei saa Riigikogult volitusi v&otilde;i ei suuda valitsust moodustada v&otilde;i loobub selle moodustamisest , l&auml;heb peaministrikandidaadi &uuml;lesseadmise &otilde;igus &uuml;le Riigikogule .</s>
+</p>
+<p>
+<s>Riigikogu seab &uuml;les peaministrikandidaadi , kes esitab valitsuse koosseisu Vabariigi Presidendile .</s><s>Kui neljateistk&uuml;mne p&auml;eva jooksul , arvates peaministrikandidaadi &uuml;lesseadmise &otilde;iguse &uuml;leminekust Riigikogule , on valitsuse koosseis Vabariigi Presidendile esitamata , kuulutab Vabariigi President v&auml;lja Riigikogu erakorralised valimised .</s>
+</p>
+<p>
+<s>&sect; 90.</s>
+</p>
+<p>
+<s>Muudatusi ametisse nimetatud Vabariigi Valitsuse koosseisus teeb Vabariigi President peaministri ettepanekul .</s>
+</p>
+<p>
+<s>&sect; 91.</s>
+</p>
+<p>
+<s>Valitsus astub ametisse ametivande andmisega Riigikogu ees .</s>
+</p>
+<p>
+<s>&sect; 92.</s>
+</p>
+<p>
+<s>Vabariigi Valitsus astub tagasi :</s>
+</p>
+<p>
+<s>1 ) Riigikogu uue koosseisu kokkuastumisel ;</s>
+</p>
+<p>
+<s>2 ) peaministri tagasiastumise v&otilde;i surma korral ;</s>
+</p>
+<p>
+<s>3 ) kui Riigikogu avaldab Vabariigi Valitsusele v&otilde;i peaministrile umbusaldust .</s>
+</p>
+<p>
+<s>Vabariigi President vabastab Vabariigi Valitsuse ametist uue valitsuse ametisseastumisel .</s>
+</p>
+<p>
+<s>&sect; 93.</s>
+</p>
+<p>
+<s>Peaminister esindab Vabariigi Valitsust ja juhib selle tegevust .</s>
+</p>
+<p>
+<s>Peaminister nimetab kaks ministrit , kellel on &otilde;igus asendada peaministrit tema &auml;raolekul .</s><s>Asendamise korra m&auml;&auml;rab peaminister .</s>
+</p>
+<p>
+<s>&sect; 94.</s>
+</p>
+<p>
+<s>Valitsemisalade korraldamiseks moodustatakse seaduse alusel vastavad ministeeriumid .</s>
+</p>
+<p>
+<s>Minister juhib ministeeriumi , korraldab ministeeriumi valitsemisalasse kuuluvaid k&uuml;simusi , annab seaduse alusel ja t&auml;itmiseks m&auml;&auml;rusi ja k&auml;skkirju ning t&auml;idab muid &uuml;lesandeid , mis talle on pandud seadusega s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>Kui minister ei saa haiguse v&otilde;i muude takistuste t&otilde;ttu ajutiselt oma &uuml;lesandeid t&auml;ita , paneb peaminister tema &uuml;lesanded selleks ajaks m&otilde;nele teisele ministrile .</s>
+</p>
+<p>
+<s>Vabariigi President v&otilde;ib peaministri ettepanekul nimetada ametisse ministreid , kes ei juhi ministeeriumi .</s>
+</p>
+<p>
+<s>&sect; 95.</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse juures on riigikantselei , mida juhib riigisekret&auml;r .</s>
+</p>
+<p>
+<s>Riigisekret&auml;ri nimetab ametisse ja vabastab ametist peaminister .</s>
+</p>
+<p>
+<s>Riigisekret&auml;r v&otilde;tab s&otilde;na&otilde;igusega osa valitsuse istungitest .</s>
+</p>
+<p>
+<s>Riigisekret&auml;ril on riigikantselei juhina samad &otilde;igused , mis on</s>
+</p>
+<p>
+<s>seadusega antud ministrile ministeeriumi juhtimiseks .</s>
+</p>
+<p>
+<s>&sect; 96.</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse istungid on kinnised , kui valitsus ei otsusta teisiti .</s>
+</p>
+<p>
+<s>Valitsus teeb oma otsused peaministri v&otilde;i asjaomase ministri ettepanekul .</s>
+</p>
+<p>
+<s>Valitsuse m&auml;&auml;rused kehtivad , kui nad kannavad peaministri , asjaomase ministri ja riigisekret&auml;ri allkirja .</s>
+</p>
+<p>
+<s>&sect; 97.</s>
+</p>
+<p>
+<s>Riigikogu v&otilde;ib avaldada Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusaldust otsusega , mille poolt h&auml;&auml;letab Riigikogu koosseisu enamus .</s>
+</p>
+<p>
+<s>Umbusalduse avaldamise v&otilde;ib algatada v&auml;hemalt viiendik Riigikogu koosseisust kirjaliku n&otilde;ude esitamisega Riigikogu istungil .</s>
+</p>
+<p>
+<s>Umbusalduse avaldamine v&otilde;ib tulla otsustamisele k&otilde;ige varem &uuml;lej&auml;rgmisel p&auml;eval p&auml;rast selle algatamist , kui valitsus ei n&otilde;ua kiiremat otsustamist .</s>
+</p>
+<p>
+<s>Valitsusele v&otilde;i peaministrile umbusalduse avaldamise korral v&otilde;ib Vabariigi President kolme p&auml;eva jooksul valitsuse ettepanekul v&auml;lja kuulutada Riigikogu erakorralised valimised .</s>
+</p>
+<p>
+<s>Ministrile umbusalduse avaldamise korral teatab Riigikogu esimees sellest Vabariigi Presidendile , kes vabastab ministri ametist .</s>
+</p>
+<p>
+<s>Umbusalduse avaldamist v&otilde;ib samal alusel uuesti algatada k&otilde;ige varem kolme kuu m&ouml;&ouml;dumisel eelmisest umbusaldush&auml;&auml;letusest .</s>
+</p>
+<p>
+<s>&sect; 98.</s>
+</p>
+<p>
+<s>Vabariigi Valitsus v&otilde;ib siduda tema poolt Riigikogule esitatud eeln&otilde;u vastuv&otilde;tmise usaldusk&uuml;simusega .</s>
+</p>
+<p>
+<s>H&auml;&auml;letamine ei saa toimuda varem kui &uuml;lej&auml;rgmisel p&auml;eval p&auml;rast eeln&otilde;u sidumist usaldusk&uuml;simusega .</s><s>Kui Riigikogu ei v&otilde;ta eeln&otilde;u vastu , astub valitsus tagasi .</s>
+</p>
+<p>
+<s>&sect; 99.</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse liikmed ei tohi olla &uuml;heski muus riigiametis ega kuuluda tulundusettev&otilde;tte juhatusse v&otilde;i n&otilde;ukogusse .</s>
+</p>
+<p>
+<s>&sect; 100.</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse liikmed v&otilde;ivad s&otilde;na&otilde;igusega osaleda Riigikogu ja tema komisjonide istungitel .</s>
+</p>
+<p>
+<s>&sect; 101.</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse liiget saab kriminaalvastutusele v&otilde;tta ainult &otilde;iguskantsleri ettepanekul Riigikogu koosseisu enamuse n&otilde;usolekul .</s>
+</p>
+<p>
+<s>Valitsuse liiget s&uuml;&uuml;di m&otilde;istva kohtuotsuse j&otilde;ustumisega l&otilde;pevad tema volitused .</s>
+</p>
+<p>
+<s>VII peat&uuml;kk</s>
+</p>
+<p>
+<s>Seadusandlus</s>
+</p>
+<p>
+<s>&sect; 102.</s>
+</p>
+<p>
+<s>Seadusi v&otilde;etakse vastu koosk&otilde;las p&otilde;hiseadusega .</s>
+</p>
+<p>
+<s>&sect; 103.</s>
+</p>
+<p>
+<s>Seaduste algatamise &otilde;igus on :</s>
+</p>
+<p>
+<s>1 ) Riigikogu liikmel ;</s>
+</p>
+<p>
+<s>2 ) Riigikogu fraktsioonil ;</s>
+</p>
+<p>
+<s>3 ) Riigikogu komisjonil ;</s>
+</p>
+<p>
+<s>4 ) Vabariigi Valitsusel ;</s>
+</p>
+<p>
+<s>5 ) Vabariigi Presidendil p&otilde;hiseaduse muutmiseks .</s>
+</p>
+<p>
+<s>Riigikogul on &otilde;igus koosseisu h&auml;&auml;lteenamusega tehtud otsuse alusel p&ouml;&ouml;rduda Vabariigi Valitsuse poole ettepanekuga algatada Riigikogu poolt soovitav eeln&otilde;u .</s>
+</p>
+<p>
+<s>&sect; 104.</s>
+</p>
+<p>
+<s>Seaduste vastuv&otilde;tmise korra s&auml;testab Riigikogu kodukorra seadus .</s>
+</p>
+<p>
+<s>Ainult Riigikogu koosseisu h&auml;&auml;lteenamusega saab vastu v&otilde;tta ja muuta j&auml;rgmisi seadusi :</s>
+</p>
+<p>
+<s>1 ) kodakondsuse seadus ;</s>
+</p>
+<p>
+<s>2 ) Riigikogu valimise seadus ;</s>
+</p>
+<p>
+<s>3 ) Vabariigi Presidendi valimise seadus ;</s>
+</p>
+<p>
+<s>4 ) kohaliku omavalitsuse valimise seadus ;</s>
+</p>
+<p>
+<s>5 ) rahvah&auml;&auml;letuse seadus ;</s>
+</p>
+<p>
+<s>6 ) Riigikogu kodukorra seadus ja Riigikogu t&ouml;&ouml;korra seadus ;</s>
+</p>
+<p>
+<s>7 ) Vabariigi Presidendi ja Riigikogu liikmete tasu seadus ;</s>
+</p>
+<p>
+<s>8 ) Vabariigi Valitsuse seadus ;</s>
+</p>
+<p>
+<s>9 ) Vabariigi Presidendi ja Vabariigi Valitsuse liikmete kohtulikule vastutusele v&otilde;tmise seadus ;</s>
+</p>
+<p>
+<s>10 ) v&auml;hemusrahvuste kultuurautonoomia seadus ;</s>
+</p>
+<p>
+<s>11 ) riigieelarve seadus ;</s>
+</p>
+<p>
+<s>12 ) Eesti Panga seadus ;</s>
+</p>
+<p>
+<s>13 ) Riigikontrolli seadus ;</s>
+</p>
+<p>
+<s>14 ) kohtukorralduse seadus ja kohtumenetluse seadused ;</s>
+</p>
+<p>
+<s>15 ) v&auml;lis- ja siselaenudesse ning riigi varalistesse kohustustesse puutuvad seadused ;</s>
+</p>
+<p>
+<s>16 ) erakorralise seisukorra seadus ;</s>
+</p>
+<p>
+<s>17 ) rahuaja riigikaitse seadus ja s&otilde;jaaja riigikaitse seadus .</s>
+</p>
+<p>
+<s>&sect; 105.</s>
+</p>
+<p>
+<s>Riigikogul on &otilde;igus panna seaduseeln&otilde;u v&otilde;i muu riigielu k&uuml;simus rahvah&auml;&auml;letusele .</s>
+</p>
+<p>
+<s>Rahva otsus tehakse h&auml;&auml;letamisest osav&otilde;tnute h&auml;&auml;lteenamusega .</s>
+</p>
+<p>
+<s>Rahvah&auml;&auml;letusel vastuv&otilde;etud seaduse kuulutab Vabariigi President viivitamata v&auml;lja .</s><s>Rahvah&auml;&auml;letuse otsus on riigiorganitele kohustuslik .</s>
+</p>
+<p>
+<s>Kui rahvah&auml;&auml;letusele pandud seaduseeln&otilde;u ei saa poolth&auml;&auml;lte enamust , kuulutab Vabariigi President v&auml;lja Riigikogu erakorralised valimised .</s>
+</p>
+<p>
+<s>&sect; 106.</s>
+</p>
+<p>
+<s>Rahvah&auml;&auml;letusele ei saa panna eelarve , maksude , riigi rahaliste kohustuste , v&auml;lislepingute ratifitseerimise ja denonsseerimise , erakorralise seisukorra kehtestamise ja l&otilde;petamise ning riigikaitse k&uuml;simusi .</s>
+</p>
+<p>
+<s>Rahvah&auml;&auml;letuse korra s&auml;testab rahvah&auml;&auml;letuse seadus .</s>
+</p>
+<p>
+<s>&sect; 107.</s>
+</p>
+<p>
+<s>Seadused kuulutab v&auml;lja Vabariigi President .</s>
+</p>
+<p>
+<s>Vabariigi President v&otilde;ib j&auml;tta Riigikogu poolt vastuv&otilde;etud seaduse v&auml;lja kuulutamata ja saata selle koos motiveeritud otsusega neljateistk&uuml;mne p&auml;eva jooksul , arvates saamise p&auml;evast , Riigikogule uueks arutamiseks ja otsustamiseks .</s><s>Kui Riigikogu v&otilde;tab Vabariigi Presidendi poolt tagasi saadetud seaduse muutmata kujul uuesti vastu , kuulutab Vabariigi President seaduse v&auml;lja v&otilde;i p&ouml;&ouml;rdub Riigikohtu poole ettepanekuga tunnistada seadus p&otilde;hiseadusega vastuolus olevaks .</s><s>Kui Riigikohus tunnistab seaduse p&otilde;hiseadusega koosk&otilde;las olevaks , kuulutab Vabariigi President seaduse v&auml;lja .</s>
+</p>
+<p>
+<s>&sect; 108.</s>
+</p>
+<p>
+<s>Seadus j&otilde;ustub k&uuml;mnendal p&auml;eval p&auml;rast Riigi Teatajas avaldamist , kui seaduses eneses ei s&auml;testata teist t&auml;htaega .</s>
+</p>
+<p>
+<s>&sect; 109.</s>
+</p>
+<p>
+<s>Kui Riigikogu ei saa kokku tulla , v&otilde;ib Vabariigi President edasil&uuml;kkamatute riiklike vajaduste korral anda seaduse j&otilde;uga seadlusi , mis kannavad Riigikogu esimehe ja peaministri kaasallkirja .</s>
+</p>
+<p>
+<s>Kui Riigikogu on kokku tulnud , esitab Vabariigi President seadlused Riigikogule , kes v&otilde;tab viivitamatult vastu nende kinnitamise v&otilde;i t&uuml;histamise seaduse .</s>
+</p>
+<p>
+<s>&sect; 110.</s>
+</p>
+<p>
+<s>Vabariigi Presidendi seadlusega ei saa kehtestada , muuta ega t&uuml;histada</s>
+</p>
+<p>
+<s>p&otilde;hiseadust ega p&otilde;hiseaduse &sect;-s 104 loetletud seadusi , riiklikke makse kehtestavaid seadusi ega riigieelarvet .</s>
+</p>
+<p>
+<s>VIII peat&uuml;kk</s>
+</p>
+<p>
+<s>Rahandus ja riigieelarve</s>
+</p>
+<p>
+<s>&sect; 111.</s>
+</p>
+<p>
+<s>Eesti raha emissiooni ainu&otilde;igus on Eesti Pangal .</s><s>Eesti Pank korraldab raharinglust ja seisab hea riigi v&auml;&auml;ringu stabiilsuse eest .</s>
+</p>
+<p>
+<s>&sect; 112.</s>
+</p>
+<p>
+<s>Eesti Pank tegutseb seaduse alusel ja annab aru Riigikogule .</s>
+</p>
+<p>
+<s>&sect; 113.</s>
+</p>
+<p>
+<s>Riiklikud maksud , koormised , l&otilde;ivud , trahvid ja sundkindlustuse maksed s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 114.</s>
+</p>
+<p>
+<s>Riigi vara valdamise , kasutamise ja k&auml;sutamise korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 115.</s>
+</p>
+<p>
+<s>Iga aasta kohta v&otilde;tab Riigikogu seadusena vastu riigi k&otilde;igi tulude ja kulude eelarve .</s>
+</p>
+<p>
+<s>Vabariigi Valitsus esitab riigieelarve eeln&otilde;u Riigikogule hiljemalt kolm kuud enne eelarveaasta algust .</s>
+</p>
+<p>
+<s>Valitsuse ettepanekul v&otilde;ib Riigikogu eelarveaasta kestel vastu v&otilde;tta lisaeelarve .</s>
+</p>
+<p>
+<s>&sect; 116.</s>
+</p>
+<p>
+<s>Riigieelarve v&otilde;i selle eeln&otilde;u muutmise ettepanekule , mis tingib nendes etten&auml;htud tulude v&auml;hendamise , kulude suurendamise v&otilde;i kulude &uuml;mberjaotamise , tuleb algatajal lisada rahalised arvestused , mis n&auml;itavad &auml;ra kulude katteks vajalikud tuluallikad .</s>
+</p>
+<p>
+<s>Riigikogu ei tohi kustutada ega v&auml;hendada riigieelarvesse v&otilde;i selle eeln&otilde;usse v&otilde;etud kulusid , mis on ette n&auml;htud muude seadustega .</s>
+</p>
+<p>
+<s>&sect; 117.</s>
+</p>
+<p>
+<s>Riigieelarve koostamise ja vastuv&otilde;tmise korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 118.</s>
+</p>
+<p>
+<s>Riigikogu poolt vastuv&otilde;etud riigieelarve j&otilde;ustub eelarveaasta algusest .</s><s>Kui Riigikogu ei v&otilde;ta riigieelarvet eelarveaasta alguseks vastu , v&otilde;ib iga kuu teha kulutusi &uuml;he kaheteistk&uuml;mnendikuni eelmise eelarveaasta kulutustest .</s>
+</p>
+<p>
+<s>&sect; 119.</s>
+</p>
+<p>
+<s>Kui Riigikogu ei ole riigieelarvet vastu v&otilde;tnud kahe kuu jooksul p&auml;rast eelarveaasta algust , kuulutab Vabariigi President v&auml;lja Riigikogu erakorralised valimised .</s>
+</p>
+<p>
+<s>IX peat&uuml;kk</s>
+</p>
+<p>
+<s>V&auml;lissuhted ja v&auml;lislepingud</s>
+</p>
+<p>
+<s>&sect; 120.</s>
+</p>
+<p>
+<s>Eesti Vabariigi suhtlemise korra teiste riikide ja rahvusvaheliste organisatsioonidega s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 121.</s>
+</p>
+<p>
+<s>Riigikogu ratifitseerib ja denonsseerib Eesti Vabariigi lepingud :</s>
+</p>
+<p>
+<s>1 ) mis muudavad riigipiire ;</s>
+</p>
+<p>
+<s>2 ) mille rakendamiseks on tarvis Eesti seaduste vastuv&otilde;tmist , muutmist v&otilde;i t&uuml;histamist ;</s>
+</p>
+<p>
+<s>3 ) mille kohaselt Eesti Vabariik &uuml;hineb rahvusvaheliste organisatsioonide v&otilde;i liitudega ;</s>
+</p>
+<p>
+<s>4 ) millega Eesti Vabariik v&otilde;tab endale s&otilde;jalisi v&otilde;i varalisi kohustusi ;</s>
+</p>
+<p>
+<s>5 ) milles ratifitseerimine on ette n&auml;htud .</s>
+</p>
+<p>
+<s>&sect; 122.</s>
+</p>
+<p>
+<s>Eesti maismaapiir on m&auml;&auml;ratud 1920. aasta 2. veebruari Tartu rahulepinguga ja teiste riikidevaheliste piirilepingutega .</s><s>Eesti mere- ja &otilde;hupiir m&auml;&auml;ratakse rahvusvaheliste konventsioonide alusel .</s>
+</p>
+<p>
+<s>Eesti riigipiire muutvate lepingute ratifitseerimiseks on n&otilde;utav Riigikogu koosseisu kahekolmandikuline h&auml;&auml;lteenamus .</s>
+</p>
+<p>
+<s>&sect; 123.</s>
+</p>
+<p>
+<s>Eesti Vabariik ei s&otilde;lmi v&auml;lislepinguid , mis on vastuolus p&otilde;hiseadusega .</s>
+</p>
+<p>
+<s>Kui Eesti seadused v&otilde;i muud aktid on vastuolus Riigikogu poolt ratifitseeritud v&auml;lislepingutega , kohaldatakse v&auml;lislepingu s&auml;tteid .</s>
+</p>
+<p>
+<s>X peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigikaitse</s>
+</p>
+<p>
+<s>&sect; 124.</s>
+</p>
+<p>
+<s>Eesti kodanikud on kohustatud osa v&otilde;tma riigikaitsest seaduses s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>Usulistel v&otilde;i k&otilde;lbelistel p&otilde;hjustel kaitsev&auml;eteenistusest keelduja on kohustatud l&auml;bi tegema asendusteenistuse seaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>Kui seadus ei n&auml;e teenistuse erilaadi huvides ette teisiti , on kaitsev&auml;es ja asendusteenistuses olevatel isikutel k&otilde;ik p&otilde;hiseaduslikud &otilde;igused , vabadused ja kohustused .</s><s>Piirata ei tohi p&otilde;hiseaduse &sect;-des 8 l&otilde;iked 3 ja 4 , 11-18 , 20 l&otilde;ige 3 , 21-28 , 32 , 33 , 36-43 , 44 l&otilde;iked 1 ja 2 ning 49-51 etten&auml;htud &otilde;igusi ja vabadusi .</s><s>Kaitsev&auml;es ja asendusteenistuses olevate isikute &otilde;igusliku seisundi s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 125.</s>
+</p>
+<p>
+<s>Tegevteenistuses olev isik ei tohi olla muus valitavas ega nimetatavas ametis ega osa v&otilde;tta &uuml;hegi erakonna tegevusest .</s>
+</p>
+<p>
+<s>&sect; 126.</s>
+</p>
+<p>
+<s>Riigikaitse korralduse s&auml;testavad rahuaja riigikaitse seadus ja s&otilde;jaaja riigikaitse seadus .</s>
+</p>
+<p>
+<s>Eesti kaitsev&auml;e ja riigikaitseorganisatsioonide korralduse s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 127.</s>
+</p>
+<p>
+<s>Riigikaitse k&otilde;rgeimaks juhiks on Vabariigi President .</s>
+</p>
+<p>
+<s>Vabariigi Presidendi juures on n&otilde;uandva organina Riigikaitse N&otilde;ukogu , kelle koosseisu ja &uuml;lesanded s&auml;testab seadus .</s>
+</p>
+<p>
+<s>Eesti kaitsev&auml;ge ja riigikaitseorganisatsioone juhib rahuajal kaitsev&auml;e juhataja , s&otilde;jaajal kaitsev&auml;e &uuml;lemjuhataja .</s><s>Kaitsev&auml;e juhataja ja &uuml;lemjuhataja nimetab ametisse ning vabastab ametist Riigikogu Vabariigi Presidendi ettepanekul .</s>
+</p>
+<p>
+<s>&sect; 128.</s>
+</p>
+<p>
+<s>Riigikogu kuulutab Vabariigi Presidendi ettepanekul v&auml;lja s&otilde;jaseisukorra , mobilisatsiooni ja demobilisatsiooni ning otsustab kaitsev&auml;e kasutamise Eesti riigi rahvusvaheliste kohustuste t&auml;itmisel .</s>
+</p>
+<p>
+<s>Eesti Vabariigi vastu suunatud agressiooni korral kuulutab Vabariigi President v&auml;lja s&otilde;jaseisukorra ja mobilisatsiooni ning nimetab kaitsev&auml;e &uuml;lemjuhataja , ootamata &auml;ra Riigikogu otsust .</s>
+</p>
+<p>
+<s>&sect; 129.</s>
+</p>
+<p>
+<s>Eesti p&otilde;hiseaduslikku korda &auml;hvardava ohu puhul v&otilde;ib Riigikogu Vabariigi Presidendi v&otilde;i Vabariigi Valitsuse ettepanekul oma koosseisu h&auml;&auml;lteenamusega v&auml;lja kuulutada erakorralise seisukorra kogu riigis , kuid k&otilde;ige kauem kolmeks kuuks .</s>
+</p>
+<p>
+<s>Erakorralise seisukorra korralduse s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 130.</s>
+</p>
+<p>
+<s>Erakorralise v&otilde;i s&otilde;jaseisukorra ajal v&otilde;ib riigi julgeoleku ja avaliku korra huvides seadusega etten&auml;htud juhtudel ja korras piirata isikute &otilde;igusi ja vabadusi ning panna neile kohustusi .</s><s>Piirata ei tohi &otilde;igusi ja vabadusi , mis on s&auml;testatud p&otilde;hiseaduse &sect;-des 8 , 11-18 , 20 l&otilde;ige 3 , 22 , 23 , 24 l&otilde;iked 2 ja 4 , 25 , 27 , 28 , 36 l&otilde;ige 2 , 40 , 41 , 49 ja 51 l&otilde;ige 1.</s>
+</p>
+<p>
+<s>&sect; 131.</s>
+</p>
+<p>
+<s>Erakorralise v&otilde;i s&otilde;jaseisukorra ajal ei valita Riigikogu , Vabariigi Presidenti ega kohalike omavalitsuste esinduskogusid ega l&otilde;petata ka nende volitusi .</s>
+</p>
+<p>
+<s>Riigikogu , Vabariigi Presidendi ja kohaliku omavalitsuse esinduskogude volitused pikenevad , kui nad l&otilde;peksid erakorralise v&otilde;i s&otilde;jaseisukorra ajal v&otilde;i kolme kuu jooksul , arvates erakorralise v&otilde;i s&otilde;jaseisukorra l&otilde;ppemisest .</s><s>Nendel juhtudel kuulutatakse v&auml;lja uued valimised kolme kuu jooksul , arvates erakorralise v&otilde;i s&otilde;jaseisukorra l&otilde;ppemisest .</s>
+</p>
+<p>
+<s>XI peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigikontroll</s>
+</p>
+<p>
+<s>&sect; 132.</s>
+</p>
+<p>
+<s>Riigikontroll on oma tegevuses s&otilde;ltumatu majanduskontrolli teostav riigiorgan .</s>
+</p>
+<p>
+<s>&sect; 133.</s>
+</p>
+<p>
+<s>Riigikontroll kontrollib :</s>
+</p>
+<p>
+<s>1 ) riigiasutuste , riigiettev&otilde;tete ja muude riiklike organisatsioonide majandustegevust ;</s>
+</p>
+<p>
+<s>2 ) riigi vara kasutamist ja s&auml;ilimist ;</s>
+</p>
+<p>
+<s>3 ) kohalike omavalitsuste valdusse antud riigivara kasutamist ja k&auml;sutamist ;</s>
+</p>
+<p>
+<s>4 ) nende ettev&otilde;tete majandustegevust , kus riigil on &uuml;le poole osakute v&otilde;i aktsiatega m&auml;&auml;ratud h&auml;&auml;ltest v&otilde;i kelle laene v&otilde;i lepinguliste kohustuste t&auml;itmist tagab riik .</s>
+</p>
+<p>
+<s>&sect; 134.</s>
+</p>
+<p>
+<s>Riigikontrolli juhib riigikontrol&ouml;r , kelle nimetab ametisse ja vabastab ametist Riigikogu Vabariigi Presidendi ettepanekul .</s>
+</p>
+<p>
+<s>Riigikontrol&ouml;ri volituste kestus on viis aastat .</s>
+</p>
+<p>
+<s>&sect; 135.</s>
+</p>
+<p>
+<s>Riigikontrol&ouml;r esitab Riigikogule &uuml;levaate riigi vara kasutamise ja s&auml;ilimise kohta eelmisel eelarveaastal &uuml;heaegselt riigieelarve t&auml;itmise aruande arutamisega Riigikogus .</s>
+</p>
+<p>
+<s>&sect; 136.</s>
+</p>
+<p>
+<s>Riigikontrol&ouml;r v&otilde;ib oma &uuml;lesannetesse kuuluvais asjus v&otilde;tta s&otilde;na&otilde;igusega osa Vabariigi Valitsuse istungitest .</s>
+</p>
+<p>
+<s>Riigikontrol&ouml;ril on oma ametkonna juhina samad &otilde;igused , mis on seadusega antud ministrile ministeeriumi juhina .</s>
+</p>
+<p>
+<s>&sect; 137.</s>
+</p>
+<p>
+<s>Riigikontrolli korralduse s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 138.</s>
+</p>
+<p>
+<s>Riigikontrol&ouml;ri saab kriminaalvastutusele v&otilde;tta ainult &otilde;iguskantsleri ettepanekul Riigikogu koosseisu enamuse n&otilde;usolekul .</s>
+</p>
+<p>
+<s>XII peat&uuml;kk</s>
+</p>
+<p>
+<s>&Otilde;iguskantsler</s>
+</p>
+<p>
+<s>&sect; 139.</s>
+</p>
+<p>
+<s>&Otilde;iguskantsler on oma tegevuses s&otilde;ltumatu ametiisik , kes teostab j&auml;relevalvet seadusandliku ja t&auml;idesaatva riigiv&otilde;imu ning kohaliku omavalitsuse &otilde;igustloovate aktide p&otilde;hiseadusele ja seadustele vastavuse &uuml;le .</s>
+</p>
+<p>
+<s>&Otilde;iguskantsler anal&uuml;&uuml;sib seaduste muutmise , uute seaduste vastuv&otilde;tmise ja riigiasutuste t&ouml;&ouml; kohta talle tehtud ettepanekuid ning esitab vajaduse korral Riigikogule ettekande .</s>
+</p>
+<p>
+<s>&Otilde;iguskantsler teeb Riigikogule p&otilde;hiseaduse &sect;-des 76 , 85 , 101 , 138 , 153 etten&auml;htud juhtudel ettepaneku Riigikogu liikme , Vabariigi Presidendi , Vabariigi Valitsuse liikme , riigikontrol&ouml;ri , Riigikohtu esimehe v&otilde;i Riigikohtu liikme kriminaalvastutusele v&otilde;tmiseks .</s>
+</p>
+<p>
+<s>&sect; 140.</s>
+</p>
+<p>
+<s>&Otilde;iguskantsleri nimetab ametisse Riigikogu Vabariigi Presidendi ettepanekul seitsmeks aastaks .</s>
+</p>
+<p>
+<s>&Otilde;iguskantslerit saab ametist tagandada &uuml;ksnes kohtuotsusega .</s>
+</p>
+<p>
+<s>&sect; 141.</s>
+</p>
+<p>
+<s>&Otilde;iguskantsleril on oma kantselei juhtimisel samad &otilde;igused , mis on seadusega antud ministrile ministeeriumi juhtimiseks .</s>
+</p>
+<p>
+<s>&Otilde;iguskantsler v&otilde;ib s&otilde;na&otilde;igusega osa v&otilde;tta Riigikogu ja Vabariigi Valitsuse istungitest .</s>
+</p>
+<p>
+<s>&sect; 142.</s>
+</p>
+<p>
+<s>Kui &otilde;iguskantsler leiab , et seadusandliku v&otilde;i t&auml;idesaatva riigiv&otilde;imu v&otilde;i kohaliku omavalitsuse &otilde;igustloov akt on p&otilde;hiseaduse v&otilde;i seadusega vastuolus , teeb ta akti vastuv&otilde;tnud organile ettepaneku viia see kahek&uuml;mne p&auml;eva jooksul p&otilde;hiseaduse v&otilde;i seadusega koosk&otilde;lla .</s>
+</p>
+<p>
+<s>Kui akt ei ole kahek&uuml;mne p&auml;eva jooksul p&otilde;hiseaduse v&otilde;i seadusega koosk&otilde;lla viidud , teeb &otilde;iguskantsler Riigikohtule ettepaneku tunnistada see akt kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 143.</s>
+</p>
+<p>
+<s>&Otilde;iguskantsler esitab kord aastas Riigikogule &uuml;levaate seadusandliku ja t&auml;idesaatva riigiv&otilde;imu ning kohalike omavalitsuste &otilde;igustloovate aktide koosk&otilde;last p&otilde;hiseaduse ja seadustega .</s>
+</p>
+<p>
+<s>&sect; 144.</s>
+</p>
+<p>
+<s>&Otilde;iguskantsleri &otilde;igusliku seisundi ja tema kantselei t&ouml;&ouml;korralduse s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 145.</s>
+</p>
+<p>
+<s>&Otilde;iguskantslerit saab kriminaalvastutusele v&otilde;tta ainult Vabariigi Presidendi ettepanekul Riigikogu koosseisu enamuse n&otilde;usolekul .</s>
+</p>
+<p>
+<s>XIII peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohus</s>
+</p>
+<p>
+<s>&sect; 146.</s>
+</p>
+<p>
+<s>&Otilde;igust m&otilde;istab ainult kohus .</s><s>Kohus on oma tegevuses s&otilde;ltumatu ja m&otilde;istab &otilde;igust koosk&otilde;las p&otilde;hiseaduse ja seadustega .</s>
+</p>
+<p>
+<s>&sect; 147.</s>
+</p>
+<p>
+<s>Kohtunikud nimetatakse ametisse eluaegsetena .</s><s>Kohtunike ametist vabastamise alused ja korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>Kohtniku saab ametist tagandada &uuml;ksnes kohtuotsusega .</s>
+</p>
+<p>
+<s>Kohtunikud ei tohi peale seaduses etten&auml;htud juhtude olla &uuml;heski muus valitavas ega nimetatavas ametis .</s>
+</p>
+<p>
+<s>Kohtunike s&otilde;ltumatuse tagatised ja &otilde;igusliku seisundi s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 148.</s>
+</p>
+<p>
+<s>Kohtus&uuml;steem koosneb :</s>
+</p>
+<p>
+<s>1 ) maa- ja linnakohtutest ning halduskohtutest ;</s>
+</p>
+<p>
+<s>2 ) ringkonnakohtutest ;</s>
+</p>
+<p>
+<s>3 ) Riigikohtust .</s>
+</p>
+<p>
+<s>Erikohtute loomise m&otilde;nda liiki kohtuasjade jaoks s&auml;testab seadus .</s>
+</p>
+<p>
+<s>Erakorraliste kohtute moodustamine on keelatud .</s>
+</p>
+<p>
+<s>&sect; 149.</s>
+</p>
+<p>
+<s>Maa- ja linnakohtud ning halduskohtud on esimese astme kohtud .</s>
+</p>
+<p>
+<s>Ringkonnakohtud on teise astme kohtud ning nad vaatavad apellatsiooni korras l&auml;bi esimese astme kohtu lahendeid .</s>
+</p>
+<p>
+<s>Riigikohus on riigi k&otilde;rgeim kohus , kes vaatab kohtulahendeid l&auml;bi kassatsiooni korras .</s><s>Riigikohus on &uuml;htlasi p&otilde;hiseadusliku j&auml;relevalve kohus .</s>
+</p>
+<p>
+<s>Kohtukorralduse ja kohtumenetluse korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 150.</s>
+</p>
+<p>
+<s>Riigikohtu esimehe nimetab ametisse Riigikogu Vabariigi Presidendi ettepanekul .</s>
+</p>
+<p>
+<s>Riigikohtu liikmed nimetab ametisse Riigikogu Riigikohtu esimehe ettepanekul .</s>
+</p>
+<p>
+<s>Muud kohtunikud nimetab ametisse Vabariigi President Riigikohtu ettepanekul .</s>
+</p>
+<p>
+<s>&sect; 151.</s>
+</p>
+<p>
+<s>Esinduse , kaitse , riikliku s&uuml;&uuml;distuse ja seaduslikkuse j&auml;relevalve korralduse kohtumenetluses s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 152.</s>
+</p>
+<p>
+<s>Kohus j&auml;tab kohtuasja lahendamisel kohaldamata mis tahes seaduse v&otilde;i muu &otilde;igusakti , kui see on vastuolus p&otilde;hiseadusega .</s>
+</p>
+<p>
+<s>Riigikohus tunnistab kehtetuks mis tahes seaduse v&otilde;i muu &otilde;igusakti , kui see on vastuolus p&otilde;hiseaduse s&auml;tte ja m&otilde;ttega .</s>
+</p>
+<p>
+<s>&sect; 153.</s>
+</p>
+<p>
+<s>Kohtuniku saab ametisoleku ajal kriminaalvastutusele v&otilde;tta ainult Riigikohtu ettepanekul ja Vabariigi Presidendi n&otilde;usolekul .</s>
+</p>
+<p>
+<s>Riigikohtu esimeest ja liikmeid saab kriminaalvastutusele v&otilde;tta ainult &otilde;iguskantsleri ettepanekul Riigikogu koosseisu enamuse n&otilde;usolekul .</s>
+</p>
+<p>
+<s>XIV peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohalik omavalitsus</s>
+</p>
+<p>
+<s>&sect; 154.</s>
+</p>
+<p>
+<s>K&otilde;iki kohaliku elu k&uuml;simusi otsustavad ja korraldavad kohalikud omavalitsused , kes tegutsevad seaduste alusel iseseisvalt .</s>
+</p>
+<p>
+<s>Kohalikule omavalitsusele v&otilde;ib panna kohustusi ainut seaduse alusel v&otilde;i kokkuleppel kohaliku omavalitsusega .</s><s>Seadusega kohalikule omavalitsusele pandud riiklike kohustustega seotud kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>&sect; 155.</s>
+</p>
+<p>
+<s>Kohaliku omavalitsuse &uuml;ksused on vallad ja linnad .</s>
+</p>
+<p>
+<s>Muid kohaliku omavalitsuse &uuml;ksusi v&otilde;ib moodustada seaduses s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 156.</s>
+</p>
+<p>
+<s>Kohaliku omavalitsuse esinduskoguks on volikogu , kes valitakse vabadel valimistel kolmeks aastaks .</s><s>Valimised on &uuml;ldised , &uuml;hetaolised ja otsesed .</s><s>H&auml;&auml;letamine on salajane .</s>
+</p>
+<p>
+<s>Kohaliku omavalitsuse volikogu valimistel on seaduses etten&auml;htud tingimustel h&auml;&auml;le&otilde;iguslikud selle omavalitsuse maa-alal p&uuml;sivalt elavad isikud , kes on v&auml;hemalt kaheksateist aastat vanad .</s>
+</p>
+<p>
+<s>&sect; 157.</s>
+</p>
+<p>
+<s>Kohalikul omavalitsusel on iseseisev eelarve , mille kujundamise alused ja korra s&auml;testab seadus .</s>
+</p>
+<p>
+<s>Kohalikul omavalitsusel on seaduse alusel &otilde;igus kehtestada ja koguda makse ning panna peale koormisi .</s>
+</p>
+<p>
+<s>&sect; 158.</s>
+</p>
+<p>
+<s>Kohaliku omavalitsuse &uuml;ksuste piire ei tohi muuta vastavate omavalitsuste arvamust &auml;ra kuulamata .</s>
+</p>
+<p>
+<s>&sect; 159.</s>
+</p>
+<p>
+<s>Kohalikul omavalitsusel on &otilde;igus moodustada teiste kohalike omavalitsustega liite ja &uuml;hisasutusi .</s>
+</p>
+<p>
+<s>&sect; 160.</s>
+</p>
+<p>
+<s>Kohalike omavalitsuste korralduse ja j&auml;relevalve nende tegevuse &uuml;le s&auml;testab seadus .</s>
+</p>
+<p>
+<s>XV peat&uuml;kk</s>
+</p>
+<p>
+<s>P&otilde;hiseaduse muutmine</s>
+</p>
+<p>
+<s>&sect; 161.</s>
+</p>
+<p>
+<s>&Otilde;igus algatada p&otilde;hiseaduse muutmist on v&auml;hemalt viiendikul Riigikogu koosseisust ja Vabariigi Presidendil .</s>
+</p>
+<p>
+<s>P&otilde;hiseaduse muutmist ei saa algatada ega p&otilde;hiseadust muuta erakorralise seisukorra ega s&otilde;jaseisukorra ajal.</s>
+</p>
+<p>
+<s>&sect; 162.</s>
+</p>
+<p>
+<s>P&otilde;hiseaduse I peat&uuml;kki &ldquo; &Uuml;lds&auml;tted &rdquo; ja XV peat&uuml;kki &ldquo; P&otilde;hiseaduse muutmine &rdquo; saab muuta ainult rahvah&auml;&auml;letusega .</s>
+</p>
+<p>
+<s>&sect; 163.</s>
+</p>
+<p>
+<s>P&otilde;hiseadust saab muuta seadusega , mis on vastu v&otilde;etud :</s>
+</p>
+<p>
+<s>1 ) rahvah&auml;&auml;letusel ;</s>
+</p>
+<p>
+<s>2 ) Riigikogu kahe j&auml;rjestikuse koosseisu poolt ;</s>
+</p>
+<p>
+<s>3 ) Riigikogu poolt kiireloomulisena .</s>
+</p>
+<p>
+<s>P&otilde;hiseaduse muutmise seaduse eeln&otilde;u arutatakse Riigikogus kolmel lugemisel , kusjuures esimese ja teise lugemise vahet on v&auml;hemalt kolm kuud ning teise ja kolmanda lugemise vahet v&auml;hemalt &uuml;ks kuu .</s><s>P&otilde;hiseaduse muutmise viis otsustatakse kolmandal lugemisel .</s>
+</p>
+<p>
+<s>&sect; 164.</s>
+</p>
+<p>
+<s>P&otilde;hiseaduse muutmise seaduse eeln&otilde;u rahvah&auml;&auml;letusele panekuks on n&otilde;utav Riigikogu koosseisu kolmeviiendikuline h&auml;&auml;lteenamus .</s><s>Rahvah&auml;&auml;letus toimub k&otilde;ige varem kolme kuu p&auml;rast , arvates sellekohase otsuse vastuv&otilde;tmisest Riigikogus .</s>
+</p>
+<p>
+<s>&sect; 165.</s>
+</p>
+<p>
+<s>P&otilde;hiseaduse muutmiseks Riigikogu kahe j&auml;rjestikuse koosseisu poolt peab p&otilde;hiseaduse muutmise seaduse eeln&otilde;u saama Riigikogu koosseisu enamuse toetuse .</s>
+</p>
+<p>
+<s>Kui Riigikogu j&auml;rgmine koosseis v&otilde;tab esimesel lugemisel oma koosseisu kolmeviiendikulise h&auml;&auml;lteenamusega muutmatult vastu p&otilde;hiseaduse muutmise seaduse eeln&otilde;u , mis sai eelmise koosseisu enamuse toetuse , siis on p&otilde;hiseaduse muutmise seadus vastu v&otilde;etud .</s>
+</p>
+<p>
+<s>&sect; 166.</s>
+</p>
+<p>
+<s>Otsus p&otilde;hiseaduse muutmise seaduse eeln&otilde;u k&auml;sitlemiseks kiireloomulisena v&otilde;etakse vastu Riigikogu neljaviiendikulise h&auml;&auml;lteenamusega .</s><s>P&otilde;hiseaduse muutmise seadus v&otilde;etakse sel juhul vastu Riigikogu koosseisu kahekolmandikulise h&auml;&auml;lteenamusega .</s>
+</p>
+<p>
+<s>&sect; 167.</s>
+</p>
+<p>
+<s>P&otilde;hiseaduse muutmise seaduse kuulutab v&auml;lja Vabariigi President ja see j&otilde;ustub seaduses eneses m&auml;&auml;ratud t&auml;htajal , kuid mitte varem kui kolm kuud p&auml;rast v&auml;ljakuulutamist .</s>
+</p>
+<p>
+<s>&sect; 168.</s>
+</p>
+<p>
+<s>P&otilde;hiseaduse muutmist ei saa samas k&uuml;simuses algatada &uuml;he aasta jooksul , arvates vastava eeln&otilde;u tagasl&uuml;kkamisest rahvah&auml;&auml;letusel v&otilde;i Riigikogus .</s>
+</p>
+</body>
+   </text>
+</tei.2>

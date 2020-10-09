@@ -1,0 +1,1606 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Veterinaarkorralduse seadus ( terviktekst veebr 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    7729</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Veterinaarkorralduse seadus ( terviktekst veebr 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=26></tagusage>
+         <tagusage gi=p occurs=500></tagusage>
+         <tagusage gi=s occurs=598></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Veterinaarkorralduse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 16. juunil 1999. a.</s>
+</p>
+<p>
+<s>( RT I 1999 , 58 , 608 ; terviktekst RT I 2002 , 13 , 79 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2000. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab veterinaartegevuse korralduse alused .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaartegevus on loomade ja inimeste tervise kaitseks ning loomade heaolu tagamiseks rakendatavate abin&otilde;ude s&uuml;steem , mis h&otilde;lmab loomatervishoiu- , loomsete saaduste h&uuml;gieeni- ja loomakaitsealaseid toiminguid .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaartegevus jaguneb veterinaarj&auml;relevalveks ja veterinaarpraksiseks .</s>
+</p>
+<p>
+<s>( 4 ) Veterinaarteenus on veterinaartegevuse raames osutatav teenus .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Loom ja loomne saadus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses kasutatakse m&otilde;istet loom k&otilde;ikide tehistingimustes ja looduses vabalt elavate imetajate , lindude , roomajate , kahepaiksete , kalade ja selgrootute kohta .</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;llumajandusloom k&auml;esoleva seaduse t&auml;henduses on loomsete saaduste tootmise eesm&auml;rgil peetav ja aretatav loom .</s>
+</p>
+<p>
+<s>( 3 ) Lemmikloom k&auml;esoleva seaduse t&auml;henduses on inimese isikliku meelelahutuse v&otilde;i seltsi eesm&auml;rgil peetav v&otilde;i sellel eesm&auml;rgil pidamiseks m&otilde;eldud loom .</s>
+</p>
+<p>
+<s>( 4 ) Loomade kohta k&auml;ivaid s&auml;tteid kohaldatakse ka nende seemnerakkude , munarakkude ja embr&uuml;ote suhtes .</s>
+</p>
+<p>
+<s>( 5 ) Loomne saadus k&auml;esoleva seaduse t&auml;henduses on loomne toore ja sellest valmistatud tooted ning loomade eritised ja nendest valmistatud tooted .</s><s>Loomse saaduse k&auml;itlemine on loomse saaduse tootmine , varumine , t&ouml;&ouml;tlemine , m&uuml;&uuml;mine ja muul viisil tasu eest v&otilde;i tasuta &uuml;leandmine , sisse- ja v&auml;ljavedu ning teised toimingud , mille tulemusel muutub loomne saadus k&auml;ttesaadavaks teisele k&auml;itlejale v&otilde;i tarbijale .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 6 ) Loomsete saaduste k&auml;itleja k&auml;esoleva seaduse t&auml;henduses on isik , kes tegutseb k&auml;esoleva paragrahvi l&otilde;ikes 5 k&auml;sitletud k&auml;itlemisvaldkondades .</s>
+</p>
+<p>
+<s>( 7 ) Loomsete saaduste kohta k&auml;ivaid s&auml;tteid kohaldatakse ka loomsete j&auml;&auml;tmete suhtes .</s><s>Loomsed j&auml;&auml;tmed k&auml;esoleva seaduse t&auml;henduses on loomade korjused ja inimtarbeks sobimatud loomsed saadused .</s><s>Loomsete j&auml;&auml;tmete hulka ei loeta loomade v&auml;ljaheiteid .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Veterinaararst ja veterinaartehnik</s>
+</p>
+<p>
+<s>( 1 ) Veterinaararst ( loomaarst ) on isik , kellel on veterinaarmeditsiinialane akadeemiline k&otilde;rgharidus .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaartehnik ( veterinaarvelsker ) on isik , kellel on veterinaaria &otilde;ppekava alusel omandatud kutsekeskharidus .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riiklik veterinaarj&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Riikliku veterinaarj&auml;relevalve p&otilde;hi&uuml;lesanded</s>
+</p>
+<p>
+<s>Riikliku veterinaarj&auml;relevalve p&otilde;hi&uuml;lesanneteks on :</s>
+</p>
+<p>
+<s>1 ) j&auml;relevalve k&auml;esoleva seaduse ja teiste veterinaariaalaste &otilde;igusaktide n&otilde;uete t&auml;itmise &uuml;le ;</s>
+</p>
+<p>
+<s>2 ) loomataudide diagnostika , ennetamise ja t&otilde;rje korraldamine ning j&auml;relevalve loomade tervise ja loomakaitsen&otilde;uete t&auml;itmise &uuml;le ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>3 ) inimeste tervise kaitsmine inimestele ja loomadele &uuml;histe haiguste eest ja nende haiguste t&otilde;rje loomadel ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>4 ) laboratoorse uurimise korraldamine loomahaiguste diagnoosimiseks ja loomsete saaduste , loomas&ouml;&ouml;da ning joogivee ohutuse hindamiseks ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>5 ) loomade nakkushaiguste v&otilde;i loomadelt inimesele &uuml;le kanduvate nakkushaiguste teistest riikidest sissetoomise v&auml;ltimiseks abin&otilde;ude tarvituselev&otilde;tmine , samuti sisseveetavate loomade , loomsete saaduste , loomas&ouml;&ouml;da ja v&otilde;imalike nakkusekandjate veterinaarkontroll ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>6 ) p&otilde;llumajandusloomade ja lemmikloomade identifitseerimise ja registreerimise j&auml;relevalve , loomade ja loomsete saaduste siseriikliku liikumise veterinaarkontroll ;</s>
+</p>
+<p>
+<s>7 ) loomsete saaduste veterinaarkontroll ja nende n&otilde;uetekohasuse hindamine ;</s>
+</p>
+<p>
+<s>8 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>9 ) s&ouml;&ouml;tade veterinaarkontroll ;</s>
+</p>
+<p>
+<s>10 ) loomakasvatushoonete ja -rajatiste , p&otilde;llumajandusloomi kasvatavate ja loomseid saadusi k&auml;itlevate ettev&otilde;tete j&auml;relevalve ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>11 ) loomakasvatushoonete ja -rajatiste , p&otilde;llumajandusloomi kasvatavate ja loomseid saadusi k&auml;itlevate ettev&otilde;tete ehitusprojektide koosk&otilde;lastamine ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>12 ) keskkonna kaitsmine loomapidamise , loomsete saaduste k&auml;itlemise ja loomahaigustega kaasnevate kahjulike tegurite eest ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>13 ) veterinaararstide ja loomseid saadusi tootvate loomapidajate poolse ravimite ja ravims&ouml;&ouml;tade kasutamise kontroll ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>14 ) Eestist v&auml;ljaveetavate loomade , loomsete saaduste , toidutoorme ja toidu sihtriigis kehtestatud n&otilde;uetele vastavuse kontroll .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Riikliku veterinaarj&auml;relevalve korraldus</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku veterinaarj&auml;relevalvet korraldab ja teostab Veterinaar- ja Toiduamet .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaarj&auml;relevalve ametnik ( edaspidi j&auml;relevalveametnik ) on Veterinaar- ja Toiduameti veterinaariaalast j&auml;relevalvet teostav ametnik .</s><s>J&auml;relevalveametnikul peab olema veterinaararsti haridus .</s><s>Veterinaar- ja Toiduameti peadirektoril ja kohaliku asutuse juhil on &otilde;igus veterinaarj&auml;relevalve teostamiseks volitada ka teisi vastavat eriharidust omavaid isikuid .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaartehnikutel on lubatud osaleda veterinaarj&auml;relevalve teostamisel j&auml;relevalveametniku juhendamisel ja vastutusel .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Riikliku veterinaarj&auml;relevalve teostamiseks on Veterinaar- ja Toiduameti peadirektoril ning Veterinaar- ja Toiduameti kohaliku asutuse juhil &otilde;igus nimetada ametisse j&auml;relevalveametniku abiline ja m&auml;&auml;rata tema p&auml;devus .</s><s>J&auml;relevalveametniku abilise koolitust korraldab Veterinaar- ja Toiduamet vastavalt t&auml;iskasvanute koolituse seadusele ( RT I 1993 , 74 , 1054 ; 1998 , 71 , 1200 ; 1999 , 10 , 150 ; 60 , 617 ) .</s><s>Lihak&auml;itlemisel j&auml;relevalvet teostava j&auml;relevalveametniku abilise &uuml;lesanded , vastava koolituse sisun&otilde;uded ning koolituse l&auml;bimist t&otilde;endava tunnistuse v&auml;ljaandmise korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 4 ) J&auml;relevalveametniku j&auml;relevalvealasse kuuluvad :</s>
+</p>
+<p>
+<s>1 ) loomad , loomsed saadused ja loomas&ouml;&ouml;t ;</s>
+</p>
+<p>
+<s>2 ) loomade pidamine ja sellega tegelevad ettev&otilde;tted ;</s>
+</p>
+<p>
+<s>3 ) loomsete saaduste ja loomas&ouml;&ouml;da k&auml;itlemine ning sellega tegelevad ettev&otilde;tted ;</s>
+</p>
+<p>
+<s>4 ) veterinaarpraksis ja sellega tegelevad ettev&otilde;tted ( edaspidi j&auml;relevalveobjekt ) .</s>
+</p>
+<p>
+<s>( 5 ) Veterinaarj&auml;relevalveks v&otilde;etud proovide anal&uuml;&uuml;simisega tegelevad Veterinaar- ja Toidulaboratoorium , k&auml;esoleva seaduse &sect; 6 kohaselt volitatud referentlaboratoorium ja veterinaarlaboratooriumi tegevusluba omav laboratoorium .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 6 ) Veterinaar- ja Toiduametil ning Veterinaar- ja Toidulaboratooriumil on &otilde;igus saata veterinaarj&auml;relevalveks v&otilde;etud proove v&auml;lisriigi tunnustatud laboratooriumisse v&otilde;i rahvusvahelisse referentlaboratooriumisse .</s>
+</p>
+<p>
+<s>( 7 ) J&auml;relevalveametniku ja volitatud veterinaararsti poolt j&auml;relevalveobjekti kontrollimise k&auml;igus v&otilde;etud proovide laboratoorse uurimise kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Referentlaboratooriumi volitamine</s>
+</p>
+<p>
+<s>( 1 ) Referentlaboratoorium k&auml;esoleva seaduse t&auml;henduses on laboratoorium , mis juhendab loomahaiguste diagnoosimisega tegelevaid laboratooriume ja koordineerib nende tegevust .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Referentlaboratooriumina volitatakse tegutsema igas valdkonnas &uuml;ks laboratoorium .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 3 ) Referentlaboratooriumina tegutsemise volitus antakse laboratooriumi kirjaliku taotluse alusel p&otilde;llumajandusministri k&auml;skkirjaga , milles on kirjeldatud volituse ulatust .</s>
+</p>
+<p>
+<s>( 4 ) Kui Eestis ei ole m&otilde;nes valdkonnas referentlaboratooriumi , on p&otilde;llumajandusministril &otilde;igus Veterinaar- ja Toiduameti ettepanekul volitada tegutsema referentlaboratooriumina ka v&auml;lisriigi vastava valdkonna referentlaboratooriumi .</s><s>Volituse tunnistab kehtetuks p&otilde;llumajandusminister Veterinaar- ja Toiduameti ettepanekul .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 5 ) Kui referentlaboratoorium oma &uuml;lesandeid n&otilde;uetekohaselt ei t&auml;ida , on p&otilde;llumajandusministril &otilde;igus anda kuni kolmekuuline t&auml;htaeg puuduste k&otilde;rvaldamiseks .</s><s>Kui puudusi ei k&otilde;rvaldata , tunnistatakse volitus osaliselt v&otilde;i t&auml;ielikult kehtetuks .</s><s>Puuduste k&otilde;rvaldamiseks etten&auml;htud ajal loetakse volitus peatatuks .</s>
+</p>
+<p>
+<s>( 6 ) Referentlaboratooriumina v&otilde;ib volitada tegutsema &uuml;ksnes akrediteeritud laboratooriumi .</s><s>Akrediteeritud on laboratoorium , kelle p&auml;devust anal&uuml;&uuml;side tegemiseks selles valdkonnas on ametlikult tunnustanud akrediteerimisorgan .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 7 ) Referentlaboratoorium tegutseb riikliku tellimuse alusel , mille esitab p&otilde;llumajandusminister .</s><s>Tellimuse t&auml;itmist finantseeritakse selleks P&otilde;llumajandusministeeriumile riigieelarves eraldatud vahendite arvel .</s>
+</p>
+<p>
+<s>( 8 ) N&otilde;uded laboratooriumile , kes soovib saada volitust tegutseda referentlaboratooriumina , volituse taotlemise ja volituse andmise korra , volitamise kriteeriumid ning referentlaboratooriumi &uuml;lesanded kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>J&auml;relevalveametniku &otilde;igused</s>
+</p>
+<p>
+<s>J&auml;relevalveametnikul on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) kontrollida j&auml;relevalveobjekte ja v&otilde;tta j&auml;relevalve teostamiseks tasuta proove ;</s>
+</p>
+<p>
+<s>2 ) omada juurdep&auml;&auml;su j&auml;relevalveks vajalikule informatsioonile ja dokumentatsioonile ning n&otilde;uda viimastest koopiaid ;</s>
+</p>
+<p>
+<s>3 ) v&auml;ljastada veterinaart&otilde;endeid ja koostada akte ;</s>
+</p>
+<p>
+<s>4 ) kasutada j&auml;relevalve teostamisel tehnilisi vahendeid ning k&auml;esoleva seaduse paragrahv 5 l&otilde;ikes 5 nimetatud laboratooriumide teenuseid ;</s>
+</p>
+<p>
+<s>5 ) keelata veterinaarn&otilde;uetele mittevastavate loomadega kauplemine ning selliste loomade karjatamine , &uuml;hest karjast teise v&otilde;i loomseid saadusi k&auml;itlevasse ettev&otilde;ttesse viimine ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>6 ) keelata loomsete saaduste h&uuml;gieenin&otilde;uetele mittevastavate loomsete saaduste k&auml;itlemine ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>7 ) peatada loomatervishoiu- , loomsete saaduste h&uuml;gieeni- ja loomakaitsen&otilde;udeid rikkunud ettev&otilde;tte tegevus osaliselt v&otilde;i t&auml;ielikult , teha ettekirjutusi j&auml;relevalve teostamise k&auml;igus avastatud puuduste k&otilde;rvaldamiseks , m&auml;&auml;rates puuduste k&otilde;rvaldamise t&auml;htaja ning nimetatud t&auml;htajaks puuduste k&otilde;rvaldamata j&auml;tmisel ning loomatervishoiu- , loomsete saaduste h&uuml;gieeni- ja loomakaitsen&otilde;uete pideva eiramise korral teha kohtule ettev&otilde;tte sundl&otilde;petamise ettepanek ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>8 ) teha kohalikule omavalitsusele ettepanek loomatervishoiu- , loomsete saaduste h&uuml;gieeni- ja loomakaitsen&otilde;uetele mittevastava loomakasvatushoone ja -rajatise v&otilde;i loomseid saadusi t&ouml;&ouml;tleva objekti ehitusloa peatamiseks v&otilde;i t&uuml;histamiseks ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>9 ) suunata loom nakkushaiguse kahtluse korral diagnostilisele tapmisele seadusega etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>10 ) m&auml;&auml;rata halduskaristusi seadusega etten&auml;htud juhtudel ja korras .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>J&auml;relevalveametniku dokumendi esitamise kohustus</s>
+</p>
+<p>
+<s>J&auml;relevalveametnik on kohustatud j&auml;relevalve teostamisel esitama oma volitusi t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Volitatud veterinaararst , tema volitamise kord , volitatud veterinaararsti &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Volitatud veterinaararst</s>
+</p>
+<p>
+<s>( 1 ) Volitatud veterinaararst on tegevusluba omav veterinaararst , kellele on k&auml;esoleva seadusega s&auml;testatud korras antud volitus j&auml;relevalveobjekti seisundi kontrollimiseks .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igus t&ouml;&ouml;tada volitatud veterinaararstina antakse avaliku konkursi korras .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Volitatud veterinaararsti ametikohale korraldatava konkursi v&auml;ljakuulutamine</s>
+</p>
+<p>
+<s>( 1 ) Konkursi volitatud veterinaararsti vakantsele ametikohale ( edaspidi konkurss ) kuulutab v&auml;lja Veterinaar- ja Toiduameti kohaliku asutuse juht .</s>
+</p>
+<p>
+<s>( 2 ) Konkursi kuulutus avaldatakse ametlikus v&auml;ljaandes Ametlikud Teadaanded .</s>
+</p>
+<p>
+<s>( 3 ) Konkursi kuulutus peab sisaldama informatsiooni konkursil osalejale esitatavate n&otilde;uete kohta , konkursil osalemiseks esitatavate dokumentide ja nende esitamise t&auml;htaja kohta ning konkursi all oleva volitatud veterinaararsti ametikohaga kaasneva volituse ulatuse ja tegevuspiirkonna kohta .</s>
+</p>
+<p>
+<s>( 4 ) Konkursil osalemiseks esitatavate dokumentide esitamise t&auml;htaeg on 30 p&auml;eva konkursi kuulutuse avaldamisest arvates .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>N&otilde;udmised volitatud veterinaararsti &otilde;iguste taotlejale</s>
+</p>
+<p>
+<s>Volitatud veterinaararsti &otilde;iguste taotleja peab :</s>
+</p>
+<p>
+<s>1 ) omama kehtivat veterinaararsti tegevusluba ;</s>
+</p>
+<p>
+<s>2 ) omama volitusega seotud &uuml;lesannete t&auml;itmiseks vajalikku ettevalmistust ja tehnilist varustust ;</s>
+</p>
+<p>
+<s>3 ) olema v&otilde;imeline tegutsema erapooletult ja andma tegelikule olukorrale vastavaid hinnanguid .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Volitatud veterinaararsti &otilde;iguste taotlemine</s>
+</p>
+<p>
+<s>Veterinaarj&auml;relevalvealase volituse saamiseks esitab taotleja konkursi kuulutuses nimetatud t&auml;htajaks :</s>
+</p>
+<p>
+<s>1 ) avalduse volituse saamiseks ;</s>
+</p>
+<p>
+<s>2 ) eluloolised andmed ja t&ouml;&ouml;k&auml;igukirjelduse ;</s>
+</p>
+<p>
+<s>3 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Taotluste menetlemise kord ja volitatud veterinaararsti &otilde;iguste andmine</s>
+</p>
+<p>
+<s>( 1 ) Konkursile laekunud taotluste l&auml;bivaatamiseks ja hindamiseks moodustab Veterinaar- ja Toiduameti peadirektor kolmeliikmelise komisjoni , kuhu kuuluvad Veterinaar- ja Toiduameti , konkursi v&auml;ljakuulutanud Veterinaar- ja Toiduameti kohaliku asutuse ja registreeritud erialaorganisatsiooni esindaja .</s><s>Komisjon moodustatakse jooksvaks kalendriaastaks .</s>
+</p>
+<p>
+<s>( 2 ) Komisjon vaatab l&auml;bi konkursile laekunud taotlused ja hindab taotleja vastavust k&auml;esoleva seaduse paragrahvis 11 esitatud n&otilde;uetele .</s><s>Komisjonil on &otilde;igus kontrollida volituse taotleja esitatud materjalide &otilde;igsust ning vajaduse korral n&otilde;uda t&auml;iendavaid andmeid ja dokumente .</s>
+</p>
+<p>
+<s>( 3 ) Komisjon teeb k&otilde;igi volituse saamiseks n&otilde;utavate dokumentide esitamisest arvates 30 t&ouml;&ouml;p&auml;eva jooksul Veterinaar- ja Toiduameti kohaliku asutuse juhile kirjalikult p&otilde;hjendatud ettepaneku taotlejale volituse andmise v&otilde;i volituse andmisest keeldumise kohta .</s><s>Komisjon otsustab volituse andmise v&otilde;i volituse andmisest keeldumise lihth&auml;&auml;lteenamusega .</s>
+</p>
+<p>
+<s>( 4 ) Komisjoni ettepaneku alusel annab Veterinaar- ja Toiduameti kohaliku asutuse juht konkursi l&auml;binud veterinaararstile oma k&auml;skkirjaga &otilde;iguse tegutseda volitatud veterinaararstina ja m&auml;&auml;rab kindlaks tema tegevuspiirkonna .</s><s>Volituste ulatus m&auml;&auml;ratakse Veterinaar- ja Toiduameti kohaliku asutuse ja konkursi edukalt l&auml;binud veterinaararsti vahel s&otilde;lmitavas t&ouml;&ouml;v&otilde;tulepingus .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 5 ) Veterinaar- ja Toiduameti kohaliku asutuse juht annab k&auml;skkirja &auml;rakirja volituse andmise v&otilde;i volituse andmisest keeldumise kohta tehtud otsusega volituse taotlejale v&auml;lja kolme t&ouml;&ouml;p&auml;eva jooksul komisjoni esildise saamisest arvates .</s>
+</p>
+<p>
+<s>( 6 ) &Otilde;igus tegutseda volitatud veterinaararstina antakse kuni viieks aastaks .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Volituse l&otilde;ppemine</s>
+</p>
+<p>
+<s>Volitus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) volitusest loobumise korral ;</s>
+</p>
+<p>
+<s>2 ) volituse t&auml;htaja m&ouml;&ouml;dumisega ;</s>
+</p>
+<p>
+<s>3 ) volitatu surma korral ;</s>
+</p>
+<p>
+<s>4 ) volituse kehtetuks tunnistamise korral ;</s>
+</p>
+<p>
+<s>5 ) veterinaararsti tegevusloast loobumise korral ;</s>
+</p>
+<p>
+<s>6 ) veterinaararsti tegevusloa t&auml;htaja l&otilde;ppemise korral ;</s>
+</p>
+<p>
+<s>7 ) veterinaararsti tegevusloa kehtetuks tunnistamise korral .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Volitatud veterinaararsti &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Volitatud veterinaararstil on vastavalt oma volituse ulatusele &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) omada juurdep&auml;&auml;su j&auml;relevalveobjektile , kontrolli teostamiseks vajalikule informatsioonile ja dokumentatsioonile ning n&otilde;uda viimastest koopiaid ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljastada veterinaart&otilde;endeid ning koostada akte ;</s>
+</p>
+<p>
+<s>3 ) kasutada kontrolli teostamiseks tehnilisi vahendeid ning kontrolliga seotud uuringuteks k&auml;esoleva seaduse paragrahv 5 l&otilde;ikes 5 nimetatud laboratooriumide teenuseid ;</s>
+</p>
+<p>
+<s>4 ) peatada kehtivatele veterinaarn&otilde;uetele mittevastavate loomadega kauplemine , selliste loomade karjatamine , &uuml;hest karjast teise v&otilde;i loomseid saadusi k&auml;itlevasse ettev&otilde;ttesse viimine , loomsete saaduste h&uuml;gieenin&otilde;uetele mittevastavate loomsete saaduste k&auml;itlemine , samuti niisuguste loomsete saaduste kasutamine inimtoiduks ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>5 ) teha ettepanek vastava piirkonna j&auml;relevalveametnikule peatada j&auml;relevalveobjektiks oleva ettev&otilde;tte tegevus , kui loomatervishoiu , loomsete saaduste h&uuml;gieeni- ja loomakaitsen&otilde;uete rikkumine seab ohtu inimeste v&otilde;i loomade elu ja tervise .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Volitatud veterinaararstil on &otilde;igus volitusest loobuda , teatades sellest kirjalikult Veterinaar- ja Toiduameti kohaliku asutuse juhile v&auml;hemalt 30 p&auml;eva ette .</s>
+</p>
+<p>
+<s>( 3 ) Volitatud veterinaararsti surma korral seoses tema volitusega seotud &uuml;lesannete t&auml;itmisega makstakse tema &uuml;lalpidamisel olnud perekonnaliikmetele &uuml;hekordset toetust surnud isiku k&uuml;mne aasta keskmise palga ulatuses .</s><s>Niisugustel asjaoludel surnud isiku matused korraldatakse riigi kulul .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatud asjaoludel invaliidistunud volitatud veterinaararstile makstakse &uuml;hekordset toetust :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;v&otilde;ime osalise kaotuse korral - tema &uuml;he aasta keskmise palga ulatuses ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;v&otilde;ime t&auml;ieliku kaotuse korral - tema viie aasta keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Volitatud veterinaararsti kohustused</s>
+</p>
+<p>
+<s>( 1 ) Volitatud veterinaararst on kohustatud :</s>
+</p>
+<p>
+<s>1 ) t&auml;itma volitusega temale pandud &uuml;lesandeid ;</s>
+</p>
+<p>
+<s>2 ) kasutama oma &otilde;igusi veterinaariaalaste &otilde;igusaktide n&otilde;uete rikkumise t&otilde;kestamiseks ja tuvastamiseks ;</s>
+</p>
+<p>
+<s>3 ) vormistama volituse t&auml;itmisel tehtud otsustused p&otilde;hjendatud kirjaliku otsusena ning teavitama sellest j&auml;relevalveametnikku ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>4 ) hoidma talle j&auml;relevalveobjekti kontrolli teostamisel teatavaks saanud &auml;ri- ja ametisaladusi ;</s>
+</p>
+<p>
+<s>5 ) s&auml;ilitama tema poolt v&auml;ljastatud t&otilde;endite koopiaid ja muid j&auml;relevalve teostamisega seotud dokumente Veterinaar- ja Toiduameti peadirektori k&auml;skkirjaga kehtestatud korras ;</s>
+</p>
+<p>
+<s>6 ) andma volituse l&otilde;ppemisel k&auml;esoleva l&otilde;ike punktis 5 nimetatud dokumendid &uuml;le tema tegevuse &uuml;le j&auml;relevalvet teostavale Veterinaar- ja Toiduameti kohalikule asutusele ;</s>
+</p>
+<p>
+<s>7 ) esitama tema tegevuse &uuml;le j&auml;relevalvet teostavale Veterinaar- ja Toiduameti kohalikule asutusele selle n&otilde;udmisel k&otilde;ik volitusega seotud tegevuse j&auml;relevalveks vajalikud dokumendid .</s>
+</p>
+<p>
+<s>( 2 ) Volitatud veterinaararstil on keelatud teostada veterinaarj&auml;relevalvet talle v&otilde;i tema pereliikmetele kuuluva j&auml;relevalveobjekti &uuml;le .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Volitatud veterinaararsti tegevuse j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalvet volitatud veterinaararsti tegevuse &uuml;le teostab Veterinaar- ja Toiduameti kohalik asutus , mille j&auml;relevalvealasel territooriumil ta tegutseb .</s>
+</p>
+<p>
+<s>( 2 ) Volitatud veterinaararst esitab aruandeid Veterinaar- ja Toiduameti kohalikule asutusele , mille j&auml;relevalvealasel territooriumil ta tegutseb .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;uded volitatud veterinaararsti poolt esitatavale aruandlusele ja aruannete esitamise kord kehtestatakse Veterinaar- ja Toiduameti peadirektori k&auml;skkirjaga .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Volituse peatamine ja kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Volitatud veterinaararsti tegevusloa peatamisel peatub ka talle antud volitus .</s>
+</p>
+<p>
+<s>( 2 ) Kui volitatud veterinaararsti volitusega seotud tegevus ei ole n&otilde;uetekohane , peatab Veterinaar- ja Toiduameti kohaliku asutuse juht volituse ja annab t&auml;htaja puuduste k&otilde;rvaldamiseks .</s><s>Kui t&auml;htajaks puudusi ei k&otilde;rvaldata , t&uuml;histab Veterinaar- ja Toiduameti kohaliku asutuse juht volituse .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Volitatud veterinaararsti tasu</s>
+</p>
+<p>
+<s>( 1 ) Volitatud veterinaararst osutab volituse raames nii tasulist kui ka riigieelarvest finantseeritavat veterinaarteenust .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaarj&auml;relevalve toimingu eest on volitatud veterinaararstil &otilde;igus saada tasu .</s>
+</p>
+<p>
+<s>( 3 ) Volitatud veterinaararstil on keelatud v&otilde;tta tasu riigieelarvest finantseeritavate veterinaarteenuste eest .</s>
+</p>
+<p>
+<s>( 4 ) Tasu riigieelarvest finantseeritavate veterinaarteenuste eest makstakse Veterinaar- ja Toiduameti eelarve kaudu .</s>
+</p>
+<p>
+<s>( 5 ) Volitatud veterinaararsti volituse raames osutatavate teenuste tasu m&auml;&auml;rad ja tasustamise korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Veterinaarpraksis</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Veterinaarpraksis</s>
+</p>
+<p>
+<s>( 1 ) Veterinaarpraksis on tegevus loomahaiguste ravi , haiguste ennetamise ja diagnoosimise , sealhulgas laboratoorse diagnoosimise alal .</s><s>Veterinaarpraksis ei ole j&auml;relevalveametnike ja volitatud veterinaararstide poolt teostatavad j&auml;relevalvetoimingud .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaarpraksise raames osutatud veterinaarteenus on tasuline .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Veterinaarteenuse osutamise tegevusluba</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igus veterinaarpraksiseks on veterinaarteenuse osutamise tegevusluba ( veterinaararsti v&otilde;i veterinaarlaboratooriumi tegevusluba ) omaval isikul .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa veterinaararstile v&otilde;i veterinaarlaboratooriumile annab Veterinaar- ja Toiduameti peadirektor ( edaspidi tegevusloa andja ) .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusluba antakse kuni viieks aastaks .</s><s>Kolm kuud enne tegevusloa l&otilde;ppemist on tegevusloa omanikul &otilde;igus esitada taotlus uue tegevusloa saamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Tegevusluba kaotab kehtivuse tegevusloal m&auml;rgitud kehtivusaja m&ouml;&ouml;dumisel , tegevusloa kehtetuks tunnistamisel ja tegevuse l&otilde;petamisel .</s>
+</p>
+<p>
+<s>( 5 ) Tegevusloa taotluse menetluskorra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Veterinaararsti ja veterinaartehniku tegevus</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Veterinaararsti tegevusluba</s>
+</p>
+<p>
+<s>( 1 ) Veterinaararsti tegevusluba on k&auml;esoleva seaduse paragrahv 3 l&otilde;ikes 1 esitatud n&otilde;udmistele vastavat ettevalmistust omavale f&uuml;&uuml;silisele isikule tema taotlusel v&auml;ljastatud luba tegelda veterinaarpraksisega .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloas m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) tegevusloa omaniku ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>2 ) isikukood ;</s>
+</p>
+<p>
+<s>3 ) tegevusalad ja tegevuse tingimused ;</s>
+</p>
+<p>
+<s>4 ) v&auml;ljaandmise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>5 ) kehtivusaeg ;</s>
+</p>
+<p>
+<s>6 ) registreerimisnumber .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Tegevusluba omava veterinaararsti &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Tegevusluba omaval veterinaararstil on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) tegutseda iseseisvalt veterinaarpraksisega f&uuml;&uuml;silisest isikust ettev&otilde;tjana v&otilde;i veterinaarpraksisega tegelevas ettev&otilde;ttes ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lja kirjutada ja v&auml;ljastada ravimeid loomade raviks ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lja anda oma p&auml;devuse piires t&otilde;endeid loomade tervise ja loomsete saaduste seisundi kohta ;</s>
+</p>
+<p>
+<s>4 ) kasutada isiklikku tegevusloa registreerimisnumbriga pitsatit .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusluba omav veterinaararst on kohustatud :</s>
+</p>
+<p>
+<s>1 ) pidama kinni veterinaararsti kutse-eetikast ;</s>
+</p>
+<p>
+<s>2 ) t&auml;iendama ennast erialaselt ;</s>
+</p>
+<p>
+<s>3 ) esitama Veterinaar- ja Toiduameti kohalikule asutusele , mille j&auml;relevalvealasel territooriumil ta tegutseb , veterinaariaalastes &otilde;igusaktides kehtestatud korras n&otilde;utavaid veterinaariaalaseid aruandeid ja t&auml;itma nimetatud asutuse veterinaartegevusealaseid ettekirjutusi .</s>
+</p>
+<p>
+<s>4 ) pidama arvestust teostatud ravi- ja muude menetluste ning surmajuhtumite kohta ja s&auml;ilitama nimetatud andmeid kolm aastat ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Erialane t&auml;iendamine</s>
+</p>
+<p>
+<s>Veterinaararsti erialaseks t&auml;iendamiseks loetakse :</s>
+</p>
+<p>
+<s>1 ) osav&otilde;tt &uuml;likooli ja erialaorganisatsioonide poolt korraldatud erialastest &otilde;ppep&auml;evadest , kursustest , seminaridest ja konverentsidest ;</s>
+</p>
+<p>
+<s>2 ) praktiseerimine veterinaarkliinikus , veterinaar&otilde;ppeasutuses v&otilde;i veterinaararsti juures ;</s>
+</p>
+<p>
+<s>3 ) erialase teaduskraadi omandamine .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Veterinaararsti tegevusloa taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusluba taotlev veterinaararst esitab tegevusloa andjale :</s>
+</p>
+<p>
+<s>1 ) avalduse , mis on koosk&otilde;lastatud Veterinaar- ja Toiduameti kohaliku asutusega , mille j&auml;relevalvealasel territooriumil ta avalduse esitamise hetkel tegutseb v&otilde;i soovib tegutsema asuda ;</s>
+</p>
+<p>
+<s>2 ) eluloolised andmed ja t&ouml;&ouml;k&auml;igukirjelduse ;</s>
+</p>
+<p>
+<s>3 ) veterinaararsti haridust t&otilde;endava dokumendi ametlikult kinnitatud &auml;rakirja ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>4 ) erialast t&auml;iendamist t&otilde;endavate dokumentide koopiad ;</s>
+</p>
+<p>
+<s>5 ) riigil&otilde;ivu tasumist t&otilde;endava dokumendi koopia .</s>
+</p>
+<p>
+<s>( 2 ) Kolme aasta jooksul p&auml;rast veterinaararsti hariduse omandamist ei ole tegevusloa taotlemisel k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 4 nimetatud dokumentide esitamine n&otilde;utav .</s>
+</p>
+<p>
+<s>&sect; 25 <hi rend="sup">1</hi> .</s><s>Veterinaararsti tegevusloa taotlemine isiku poolt , kes on omandanud veterinaararsti hariduse v&auml;lisriigis</s>
+</p>
+<p>
+<s>( 1 ) Tegevusluba taotlev v&auml;lisriigis veterinaararsti hariduse omandanud isik esitab tegevusloa andjale :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 25 l&otilde;ike 1 punktides 1 , 2 ja 5 nimetatud dokumendid ja andmed ;</s>
+</p>
+<p>
+<s>2 ) veterinaararsti haridust t&otilde;endava dokumendi originaali .</s>
+</p>
+<p>
+<s>( 2 ) Vajaduse korral v&otilde;ib tegevusloa andja n&otilde;uda tegevusloa taotlejalt k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud andmete ja dokumentide t&otilde;lkeid , mille &otilde;igsust v&otilde;i mille t&otilde;lkija allkirja &otilde;igsust on notar t&otilde;estanud .</s>
+</p>
+<p>
+<s>( 3 ) Isikutele , kes on veterinaararsti hariduse omandanud Euroopa Liidu liikmesriigis , kohaldatakse k&auml;esoleva paragrahvi l&otilde;ikeid 4-6 ja muus v&auml;lisriigis veterinaararsti hariduse omandanud isikutele k&auml;esoleva paragrahvi l&otilde;ikeid 7-11.</s>
+</p>
+<p>
+<s>( 4 ) Euroopa Liidu liikmesriigis omandatud veterinaararsti haridust t&otilde;endab dokument , mis annab &otilde;iguse osutada veterinaarteenust veterinaararstina selles liikmesriigis , kus kvalifikatsioon omandati .</s><s>Tegevusloa andmise aluseks olevate Euroopa Liidu liikmesriigis veterinaararsti haridust t&otilde;endavate dokumentide loetelu kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 5 ) Euroopa Liidu liikmesriigis veterinaararsti hariduse omandanud isiku suhtes , kelle kvalifikatsiooni t&otilde;endav dokument ei sisaldu k&auml;esoleva paragrahvi l&otilde;ike 4 alusel kehtestatud loetelus , kohaldatakse k&auml;esoleva paragrahvi l&otilde;ikeid 7-11.</s>
+</p>
+<p>
+<s>( 6 ) Euroopa Liidu liikmesriigis k&auml;esoleva paragrahvi l&otilde;ikele 4 vastava veterinaararsti hariduse omandanud isik , kelle Eestis viibimise periood ei &uuml;leta &uuml;hte kuud , v&otilde;ib Eestis osutada ajutist veterinaarteenust veterinaartegevuseks &otilde;igust omava isiku juures ilma tegevusluba taotlemata .</s><s>Veterinaartegevuseks &otilde;igust omav isik peab viivitamata teavitama Veterinaar- ja Toiduametit sellisest isikust .</s>
+</p>
+<p>
+<s>( 7 ) Muus v&auml;lisriigis veterinaararsti hariduse omandanud isik esitab tegevusloa taotlemiseks tegevusloa andjale tema n&otilde;udmisel lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumentidele ja andmetele veterinaararsti haridust t&otilde;endava dokumendi v&auml;ljastanud &otilde;ppeasutuse veterinaararsti hariduse andmise &otilde;ppekava ning k&auml;esoleva seaduse &sect; 25 l&otilde;ike 1 punktis 4 nimetatud dokumendid .</s><s>Tegevusloa andja hindab esitatud &otilde;ppekava vastavust Eesti veterinaararsti hariduse andmise aluseks olevale &otilde;ppekavale .</s>
+</p>
+<p>
+<s>( 8 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 7 nimetatud juhul tegevusloa taotleja esitatud &otilde;ppekava ei erine oluliselt Eesti vastavast &otilde;ppekavast , menetleb tegevusloa andja taotlust k&auml;esolevas seaduses ja sellest tulenevates &otilde;igusaktides s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 9 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 7 nimetatud juhul tegevusloa taotleja esitatud &otilde;ppekava on oluliselt erinev Eesti vastavast &otilde;ppekavast , peab taotleja sooritama sobivustesti , millega kontrollitakse tegevusloa taotleja kutse- , eri- ja ametialaseid teadmisi ning mille p&otilde;hjal hinnatakse taotleja teadmisi , oskusi ja vilumusi .</s>
+</p>
+<p>
+<s>( 10 ) Tegevusloa andja m&auml;&auml;rab oma otsusega k&auml;esoleva paragrahvi l&otilde;ikes 9 nimetatud sobivustesti kuuluvad ainevaldkonnad , arvestades , et sobivustest peab sisaldama &otilde;ppeaineid , mida v&auml;lisriigis l&auml;bitud &otilde;ppekava ei sisalda , kuid mille omandamine on veterinaarteenuse osutamiseks vajalik .</s>
+</p>
+<p>
+<s>( 11 ) K&auml;esoleva paragrahvi l&otilde;ikes 9 nimetatud sobivustesti l&auml;biviimise korra kehtestab p&otilde;llumajandusminister .</s><s>Sobivustesti tulemust hinnatakse koos tegevusloa taotleja poolt esitatud veterinaararsti haridust t&otilde;endava dokumendiga .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Veterinaararsti tegevusloa andmine ja tegevusloa andmisest keeldumine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa andmise otsuse tegemisel arvestab tegevusloa andaja erialaorganisatsiooni arvamusega , samuti taotleja tegevusega j&auml;rgmistes valdkondades :</s>
+</p>
+<p>
+<s>1 ) &uuml;likooli veterinaaria eriala &uuml;li&otilde;pilaste &otilde;ppe- ja menetluspraktika juhendamine ;</s>
+</p>
+<p>
+<s>2 ) teaduslik-praktiliste t&ouml;&ouml;de ja erialaste artiklite avaldamine Eesti v&otilde;i v&auml;lisriigi erialastes v&auml;ljaannetes , erialase &otilde;ppe- ja teaduskirjanduse avaldamine ;</s>
+</p>
+<p>
+<s>3 ) erialase ettekandega esinemine &otilde;ppep&auml;evadel , kursustel , konverentsidel ja seminaridel .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa andja v&otilde;ib keelduda tegevusloa andmisest , kui :</s>
+</p>
+<p>
+<s>1 ) tegevusloa taotlemisel on esitatud tegelikkusele mittevastavaid andmeid ;</s>
+</p>
+<p>
+<s>2 ) tegevusluba taotlev veterinaararst ei ole viimase kolme aasta jooksul t&ouml;&ouml;tanud erialasel t&ouml;&ouml;l ega ole nimetatud perioodil osa v&otilde;tnud ka erialasest t&auml;iend&otilde;ppest ;</s>
+</p>
+<p>
+<s>3 ) tegevusloa taotleja ei ole oma varasemas erialases tegevuses t&auml;itnud veterinaariaalastes &otilde;igusaktides kehtestatud n&otilde;udeid ja taotleja eelnev tegevusluba on selle t&otilde;ttu kehtetuks tunnistatud ;</s>
+</p>
+<p>
+<s>4 ) erialaorganisatsiooni andmetel ei ole taotleja oma varasemas erialases tegevuses kinni pidanud veterinaararsti kutse-eetikast .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa andja menetleb tegevusloa taotlusi ja teeb otsuse tegevusloa andmise v&otilde;i selle andmisest keeldumise kohta 30 p&auml;eva jooksul k&otilde;igi n&otilde;uetele vastavate dokumentide Veterinaar- ja Toiduametisse saabumisest arvates .</s><s>Kui tegevusloa andmise v&otilde;i selle andmisest keeldumise otsustamiseks on vajalik l&auml;bi viia k&auml;esoleva seaduse &sect; 25 <hi rend="sup">1</hi> l&otilde;ikes 9 nimetatud sobivustest , v&otilde;ib tegevusloa andja pikendada otsuse tegemise t&auml;htaega kahe kuuni k&otilde;igi n&otilde;uetele vastavate dokumentide Veterinaar- ja Toiduametisse saabumisest arvates .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Veterinaararsti tegevusloa kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa andja v&otilde;ib tegevusloa tunnistada kehtetuks :</s>
+</p>
+<p>
+<s>1 ) kui tegevusloa taotlemisel on teadlikult esitatud tegelikkusele mittevastavaid andmeid ;</s>
+</p>
+<p>
+<s>2 ) kui tegevusloa omanik ei ole j&auml;rginud veterinaariaalastes &otilde;igusaktides kehtestatud n&otilde;udeid ;</s>
+</p>
+<p>
+<s>3 ) kui erialaorganisatsiooni andmetel ei ole tegevusloa omanik kinni pidanud veterinaararsti kutse-eetikast ;</s>
+</p>
+<p>
+<s>4 ) muudel seadusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud asjaolude ilmnemisel v&otilde;ib tegevusloa andja :</s>
+</p>
+<p>
+<s>1 ) teha tegevusloaga veterinaararstile ettekirjutuse ;</s>
+</p>
+<p>
+<s>2 ) peatada tegevusloa kehtivus kuni &otilde;iguserikkumise v&otilde;i selle tagaj&auml;rgede k&otilde;rvaldamiseni ;</s>
+</p>
+<p>
+<s>3 ) l&otilde;petada tegevusloa kehtivuse , m&auml;&auml;rates t&auml;htaja veterinaarpraksise l&otilde;petamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa kehtetuks tunnistamisel saadab tegevusloa andja otsuse &auml;rakirja tegevusloa omanikule kolme t&ouml;&ouml;p&auml;eva jooksul p&auml;rast otsuse tegemist .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Veterinaartehniku tegevus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahv 3 l&otilde;ikele 2 vastavat ettevalmistust omav veterinaartehnik osaleb veterinaarpraksises tegevusluba omava veterinaararsti juhendamisel ja vastutusel .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaartehnikul on veterinaarteenuse osutamisel keelatud :</s>
+</p>
+<p>
+<s>1 ) panna iseseisvalt loomale diagnoosi , m&auml;&auml;rata ravi ja diagnostilisi protseduure ;</s>
+</p>
+<p>
+<s>2 ) teostada oma algatusel ravi ja diagnostilisi protseduure ;</s>
+</p>
+<p>
+<s>3 ) kirjutada retsepte ja anda v&auml;lja ravimeid ;</s>
+</p>
+<p>
+<s>4 ) teostada iseseisvalt veterinaarkontrolli ;</s>
+</p>
+<p>
+<s>5 ) kirjutada v&auml;lja looma terviseseisundit ja loomsete saaduste ohutust t&otilde;endavaid dokumente .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Veterinaarlaboratooriumi tegevusluba , selle taotlemine ja andmine</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Veterinaarlaboratooriumi tegevusluba</s>
+</p>
+<p>
+<s>( 1 ) Veterinaarlaboratooriumi tegevusluba on laboratooriumile tema taotlusel v&auml;ljastatav luba tegelda loomahaiguste laboratoorse diagnoosimisega .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusluba antakse k&auml;esolevas seaduses s&auml;testatud korras tunnustatud anal&uuml;&uuml;simetoodikaid kasutavale laboratooriumile .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloas m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) tegevusloa omanik ;</s>
+</p>
+<p>
+<s>2 ) &auml;riregistri kood ;</s>
+</p>
+<p>
+<s>3 ) tegevusvaldkond ;</s>
+</p>
+<p>
+<s>4 ) v&auml;ljaandmise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>5 ) kehtivusaeg ;</s>
+</p>
+<p>
+<s>6 ) registreerimisnumber .</s>
+</p>
+<p>
+<s>( 4 ) Tegevusluba kehtib ainult tunnustatud anal&uuml;&uuml;simetoodikate ulatuses ja koos tunnustamist t&otilde;endava dokumendiga .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Veterinaarlaboratooriumi &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Veterinaarlaboratooriumi tegevusloaga laboratooriumil ( edaspidi veterinaarlaboratoorium ) on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) tegelda loomahaiguste laboratoorse diagnoosimisega tegevusloale m&auml;rgitud valdkonnas ja tunnustamist t&otilde;endavale dokumendile m&auml;rgitud anal&uuml;&uuml;simetoodikate ulatuses ja tingimustel ;</s>
+</p>
+<p>
+<s>2 ) kasutada veterinaarlaboratooriumi tegevusloa registreerimisnumbriga pitsatit .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaarlaboratoorium on kohustatud :</s>
+</p>
+<p>
+<s>1 ) osalema tunnustatud anal&uuml;&uuml;simetoodikate ulatuses valdkonna referentlaboratooriumi poolt korraldatavates kontrolltestides ;</s>
+</p>
+<p>
+<s>2 ) esitama Veterinaar- ja Toiduametile veterinaariaalaseid aruandeid ja t&auml;itma nimetatud asutuse veterinaartegevusealaseid ettekirjutusi ;</s>
+</p>
+<p>
+<s>3 ) loomataudi kahtluse v&otilde;i puhkemise korral osalema vastavalt j&auml;relevalveametniku korraldusele loomataudi laboratoorsel diagnoosimisel tunnustatud anal&uuml;&uuml;simetoodikate ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaarlaboratooriumi tegevust loomahaiguste diagnoosimise alal peab juhtima veterinaararst .</s>
+</p>
+<p>
+<s>( 4 ) Tunnustatud anal&uuml;&uuml;simetoodikate ning muude tunnustamise aluseks olnud tingimuste muutmisest peab veterinaarlaboratoorium kirjalikult informeerima tunnustamise l&auml;biviinud referentlaboratooriumi .</s>
+</p>
+<p>
+<s>( 5 ) N&otilde;uded veterinaarlaboratooriumi poolt esitatavale aruandlusele ja aruannete esitamise korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Veterinaarlaboratooriumi tegevusloa taotlemine</s>
+</p>
+<p>
+<s>Tegevusloa taotleja esitab tegevusloa andjale :</s>
+</p>
+<p>
+<s>1 ) avalduse tegevusloa saamiseks ;</s>
+</p>
+<p>
+<s>2 ) kasutatavate anal&uuml;&uuml;simetoodikate loetelu ja kirjelduse ;</s>
+</p>
+<p>
+<s>3 ) riigil&otilde;ivu tasumist t&otilde;endava dokumendi koopia .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Veterinaarlaboratooriumi tegevusloa andmisest keeldumine</s>
+</p>
+<p>
+<s>Tegevusloa andja v&otilde;ib keelduda veterinaarlaboratooriumi tegevusloa andmisest , kui :</s>
+</p>
+<p>
+<s>1 ) tegevusloa taotlemisel on esitatud tegelikkusele mittevastavaid andmeid ;</s>
+</p>
+<p>
+<s>2 ) referentlaboratoorium ei tunnusta &uuml;htegi taotleja esitatud anal&uuml;&uuml;simetoodikat ;</s>
+</p>
+<p>
+<s>3 ) tegevusluba taotlev veterinaarlaboratoorium ei ole vastavalt &otilde;igusaktides s&auml;testatud sagedusele ja korrale osalenud valdkonna referentlaboratooriumi poolt korraldatud kontrolltestides tunnustatud anal&uuml;&uuml;simetoodikate ulatuses ;</s>
+</p>
+<p>
+<s>4 ) tegevusloa taotleja ei ole oma varasemas tegevuses j&auml;rginud veterinaariaalastes &otilde;igusaktides kehtestatud n&otilde;udeid ja taotleja eelnev tegevusluba on seet&otilde;ttu kehtetuks tunnistatud .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Veterinaarlaboratooriumi tegevusloa kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Veterinaarlaboratooriumi tegevusloa v&otilde;ib tunnistada kehtetuks , kui :</s>
+</p>
+<p>
+<s>1 ) tegevusloa taotlemisel on esitatud tegelikkusele mittevastavaid andmeid ;</s>
+</p>
+<p>
+<s>2 ) loomahaiguste laboratoorseks diagnoosimiseks kasutatav anal&uuml;&uuml;simetoodika ei ole tunnustatud ega m&auml;rgitud tunnustamist t&otilde;endavale dokumendile ;</s>
+</p>
+<p>
+<s>3 ) tunnustatud anal&uuml;&uuml;simetoodikate ulatuses teostatud kontrolltestid ei anna n&otilde;utud tulemusi ;</s>
+</p>
+<p>
+<s>4 ) tegevusloa omanik ei ole j&auml;rginud veterinaariaalastes &otilde;igusaktides kehtestatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud asjaolude ilmnemisel v&otilde;ib :</s>
+</p>
+<p>
+<s>1 ) teha tegevusloaga veterinaarlaboratooriumile ettekirjutuse ;</s>
+</p>
+<p>
+<s>2 ) peatada tegevusloa kehtivuse kuni &otilde;iguserikkumise v&otilde;i selle tagaj&auml;rgede k&otilde;rvaldamiseni ;</s>
+</p>
+<p>
+<s>3 ) anda tegevusloaga veterinaarlaboratooriumile t&auml;htaeg veterinaarpraksise l&otilde;petamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaarlaboratooriumi tegevusloa kehtetuks tunnistamise korral saadab tegevusloa andja otsuse &auml;rakirja tegevusloa omanikule kolme t&ouml;&ouml;p&auml;eva jooksul p&auml;rast otsuse tegemist .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Anal&uuml;&uuml;simetoodika tunnustamine</s>
+</p>
+<p>
+<s>( 1 ) Anal&uuml;&uuml;simetoodika tunnustamine on menetlus , mille k&auml;igus hinnatakse ja kinnitatakse laboratooriumis kasutatava anal&uuml;&uuml;simetoodika vastavust k&auml;esolevas seaduses ja teistes &otilde;igusaktides s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Anal&uuml;&uuml;simetoodikat tunnustab selle anal&uuml;&uuml;simetoodika referentlaboratoorium .</s>
+</p>
+<p>
+<s>( 3 ) Tunnustamine toimub loomahaiguste ja nende diagnoosimise anal&uuml;&uuml;simetoodikate kaupa , v&otilde;ttes arvesse laboratooriumi seadmete ja ruumide sobivust ning personali kvalifikatsiooni vastavust antud metoodikate rakendamiseks ja tulemuste anal&uuml;&uuml;siks .</s>
+</p>
+<p>
+<s>( 4 ) Kui laboratooriumis kasutatav anal&uuml;&uuml;simetoodika vastab k&auml;esolevas seaduses ja teistes &otilde;igusaktides s&auml;testatud n&otilde;uetele , v&auml;ljastab referentlaboratoorium tunnustamist t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 5 ) Kui laboratooriumis kasutatav anal&uuml;&uuml;simetoodika ei vasta osaliselt v&otilde;i t&auml;ielikult k&auml;esolevas seaduses ja teistes &otilde;igusaktides s&auml;testatud n&otilde;uetele , v&auml;ljastab referentlaboratoorium taotlejale kirjaliku otsuse tunnustamisest keeldumise kohta , n&auml;idates &auml;ra keeldumise p&otilde;hjused .</s>
+</p>
+<p>
+<s>( 6 ) Tunnustamist t&otilde;endav dokument v&otilde;i tunnustamisest keeldumise otsuse &auml;rakiri saadetakse taotlejale kolme t&ouml;&ouml;p&auml;eva jooksul p&auml;rast otsuse tegemist .</s>
+</p>
+<p>
+<s>( 7 ) Anal&uuml;&uuml;simetoodika tunnustamise taotluse vormi , esitatavate dokumentide loetelu ja taotluse menetlemise korra ning tunnustamist t&otilde;endava dokumendi vormi kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Juriidiliste ja f&uuml;&uuml;siliste isikute kohustused</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Isiku kohustused</s>
+</p>
+<p>
+<s>J&auml;relevalveobjekti valdaja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) v&otilde;imaldama j&auml;relevalveametnikul ja volitatud veterinaararstil takistamatult teostada j&auml;relevalvetoiminguid nende p&auml;devuse piires ;</s>
+</p>
+<p>
+<s>2 ) v&otilde;imaldama j&auml;relevalveametniku ja volitatud veterinaararsti juurdep&auml;&auml;s j&auml;relevalveks vajalikule informatsioonile ja dokumentatsioonile ;</s>
+</p>
+<p>
+<s>3 ) tagama veterinaarteenust osutavale v&otilde;i j&auml;relevalvet teostavale veterinaararstile ohutud t&ouml;&ouml;tingimused ;</s>
+</p>
+<p>
+<s>4 ) tagama vajaduse korral j&auml;relevalveametnikule v&otilde;i volitatud veterinaararstile abi j&auml;relevalvetoimingute teostamisel , vastasel juhul on j&auml;relevalveametnikul v&otilde;i volitatud veterinaararstil &otilde;igus kasutada palgalist t&ouml;&ouml;j&otilde;udu , kusjuures t&ouml;&ouml; eest tasub j&auml;relevalveobjekti valdaja ;</s>
+</p>
+<p>
+<s>5 ) tagama j&auml;relevalveametnikule v&otilde;i volitatud veterinaararstile j&auml;relevalvetoimingute teostamiseks vajalike t&ouml;&ouml;ohutuse ja t&ouml;&ouml;tervishoiu n&otilde;uete kohased ruumid tasuta kasutamiseks , sealhulgas vajaduse korral sisustatud b&uuml;rooruumid ja sidevahendid .</s><s>Sideteenuse eest tasub j&auml;relevalveasutus .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Ettekirjutuse v&otilde;i muu toimingu vaidlustamine</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>J&auml;relevalveametniku ettekirjutuse v&otilde;i muu toimingu vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalveametniku ettekirjutuse v&otilde;i muu erialase toiminguga mitten&otilde;ustumise korral on &otilde;igus esitada kirjalik kaebus Veterinaar- ja Toiduameti peadirektorile v&otilde;i kohaliku asutuse juhile 10 kalendrip&auml;eva jooksul ettekirjutusest v&otilde;i muust toimingust teadasaamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine ei vabasta ettekirjutuse t&auml;itmisest .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaar- ja Toiduameti peadirektor v&otilde;i kohaliku asutuse juht teeb otsuse kaebuse rahuldamise v&otilde;i rahuldamata j&auml;tmise kohta k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul kaebuse laekumisest arvates .</s><s>Otsus vormistatakse kirjalikult ja tehakse kaebuse esitajale teatavaks allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Volitatud veterinaararsti tegevuse vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Volitatud veterinaararsti volitusega seotud toiminguga mitten&otilde;ustumise korral on &otilde;igus esitada kirjalik kaebus Veterinaar- ja Toiduameti peadirektorile v&otilde;i kohaliku asutuse juhile 10 kalendrip&auml;eva jooksul ettekirjutusest v&otilde;i muust toimingust teadasaamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toiduameti kohaliku asutuse juht teeb otsuse kaebuse rahuldamise v&otilde;i rahuldamata j&auml;tmise kohta k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul kaebuse laekumisest arvates .</s><s>Otsus vormistatakse kirjalikult ja tehakse kaebuse esitajale teatavaks allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Veterinaararsti v&otilde;i veterinaarlaboratooriumi osutatud veterinaarteenuse kvaliteedi vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Veterinaararsti v&otilde;i veterinaarlaboratooriumi osutatud veterinaarteenuse kvaliteediga mitten&otilde;ustumise korral on &otilde;igus esitada kirjalik kaebus Veterinaar- ja Toiduameti peadirektorile v&otilde;i kohaliku asutuse juhile .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toiduameti peadirektor v&otilde;i kohaliku asutuse juht teeb otsuse kaebuse rahuldamise v&otilde;i rahuldamata j&auml;tmise kohta k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul kaebuse laekumisest arvates .</s><s>Otsus vormistatakse kirjalikult ja tehakse kaebuse esitajale teatavaks allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Veterinaarteenuse kvaliteedi hindamise ekspertkomisjon</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-dest 36-38 tuleneva otsusega mitten&otilde;ustumise korral on &otilde;igus esitada kirjalik kaebus v&otilde;i j&auml;relep&auml;rimine p&otilde;llumajandusministrile , kes edastab kaebuse v&otilde;i j&auml;relep&auml;rimise veterinaarteenuse kvaliteedi hindamise ekspertkomisjonile .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Veterinaarteenuse kvaliteedi hindamise ekspertkomisjon ( edaspidi ekspertkomisjon ) on p&otilde;llumajandusministri poolt moodustatav komisjon , kuhu kuuluvad &uuml;ks Veterinaar- ja Toiduameti esindaja , &uuml;ks Veterinaar- ja Toidulaboratooriumi esindaja , &uuml;ks Eesti P&otilde;llumajandus&uuml;likooli loomaarstiteaduskonna esindaja ja kaks erialaorganisatsioonide esindajat .</s>
+</p>
+<p>
+<s>( 3 ) Ekspertkomisjoni isikkoosseis m&auml;&auml;ratakse viieks aastaks .</s>
+</p>
+<p>
+<s>( 4 ) Ekspertkomisjonil on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) saada k&otilde;iki veterinaarteenuse kvaliteedi hindamiseks vajalikke andmeid ;</s>
+</p>
+<p>
+<s>2 ) kaasata oma t&ouml;&ouml;sse eksperte ;</s>
+</p>
+<p>
+<s>3 ) teha Veterinaar- ja Toidumeti peadirektorile v&otilde;i kohaliku asutuse juhile ettepanek mittekvaliteetse veterinaarteenuse osutaja haldus- v&otilde;i distsiplinaarkorras karistamiseks , tema tegevusloa peatamiseks v&otilde;i kehtetuks tunnistamiseks ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>4 ) teha p&otilde;llumajandusministrile ettepanekuid veterinaarkorraldust ja veterinaarteenuse osutamist puudutavate &otilde;igusaktide kehtestamiseks v&otilde;i muutmiseks .</s>
+</p>
+<p>
+<s>( 4 ) Ekspertkomisjon annab veterinaarteenuse kvaliteedi kohta esitatava kaebuse v&otilde;i j&auml;relep&auml;rimise kohta kirjaliku eksperthinnangu v&otilde;i korraldab sellise hinnangu andmise 30 t&ouml;&ouml;p&auml;eva jooksul kaebuse v&otilde;i j&auml;relep&auml;rimise laekumisest .</s>
+</p>
+<p>
+<s>( 5 ) Veterinaarteenuse kvaliteedi kohta esitatava kaebuse menetluskorra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vastutus</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Vastutuse alused</s>
+</p>
+<p>
+<s>( 1 ) F&uuml;&uuml;silised isikud vastutavad k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uete rikkumise eest haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilised isikud vastutavad k&auml;esoleva seaduse kohaselt .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Juriidilise isiku haldusvastutus k&auml;esoleva seaduse rikkumise eest</s>
+</p>
+<p>
+<s>Juriidilise isiku poolt :</s>
+</p>
+<p>
+<s>1 ) veterinaarpraksisega tegelemise eest ilma veterinaarlaboratooriumi tegevusloata v&otilde;i veterinaararsti tegevusloata , samuti tegevusloa saamiseks valeandmeid esitanud veterinaarteenust osutavate isikute veterinaarpraksisega tegelema lubamise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse paragrahv 30 l&otilde;ikes 2 s&auml;testatud kohustuste t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni 40 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) veterinaarias kasutatavate ravimite ja ravims&ouml;&ouml;tade kasutamise eeskirjade rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>4 ) j&auml;relevalveametnike ja volitatud veterinaararstide kontrollialase tegevuse takistamise , selleks vajalike dokumentide ja andmete esitamisest keeldumise v&otilde;i valeandmete esitamise , samuti veterinaarteenust osutavale v&otilde;i j&auml;relevalvet teostavale veterinaararstile ohutute t&ouml;&ouml;tingimuste mittetagamise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Menetlus juriidilise isiku haldus&otilde;iguserikkumise asjas</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahvis 41 nimetatud haldus&otilde;iguserikkumiste asjades on asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus Veterinaar- ja Toiduameti peadirektoril , tema aset&auml;itjal ning Veterinaar- ja Toiduameti kohaliku asutuse juhil ning halduskohtunikul .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toiduameti peadirektoril , tema aset&auml;itjal ning Veterinaar- ja Toiduameti kohaliku asutuse juhil on &otilde;igus k&auml;esoleva seaduse paragrahvis 41 nimetatud haldus&otilde;iguserikkumiste asjades m&auml;&auml;rata rahatrahvi kuni 15 000 krooni , sellest suurema rahatrahvi v&otilde;ib kohaldada ainult halduskohtunik .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse paragrahvis 41 nimetatud haldus&otilde;iguserikkumiste asjades on protokolli koostamise &otilde;igus Veterinaar- ja Toiduameti peadirektoril , tema aset&auml;itjal ning Veterinaar- ja Toiduameti kohaliku asutuse juhil , tema aset&auml;itjal ning j&auml;relevalveametnikul .</s>
+</p>
+<p>
+<s>( 4 ) Protokollis m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) selle koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) asutuse nimi ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ning ametinimetus ;</s>
+</p>
+<p>
+<s>4 ) &otilde;iguserikkujast juriidilise isiku nimi ja aadress ;</s>
+</p>
+<p>
+<s>5 ) &otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>6 ) &otilde;iguserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) viide seaduses&auml;ttele , mis n&auml;eb ette vastutuse selle &otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>8 ) &otilde;iguserikkuja esindaja seletus ja m&auml;rge , et &otilde;iguserikkuja esindajale on tutvustatud tema &otilde;igust kasutada &otilde;igusabi ;</s>
+</p>
+<p>
+<s>9 ) &otilde;iguserikkumist t&otilde;endavad materjalid ;</s>
+</p>
+<p>
+<s>10 ) muud vajalikud andmed .</s>
+</p>
+<p>
+<s>( 5 ) Protokollile kirjutavad alla selle koostanud ametnik ja &otilde;iguserikkuja esindaja .</s><s>Kui &otilde;iguserikkuja esindaja keeldub protokollile alla kirjutamast , tehakse protokolli selle kohta kanne .</s><s>Protokollile lisatakse &otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli ning protokollile allakirjutamisest keeldumise kohta .</s>
+</p>
+<p>
+<s>( 6 ) Kui &otilde;iguserikkuja on juriidilise isiku ametiisik , v&otilde;ib selle rikkumise asjas m&auml;&auml;rata halduskaristuse f&uuml;&uuml;silisele isikule ja juriidilisele isikule samaaegselt seadusega etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 7 ) Juriidilise isiku &otilde;iguserikkumise asja menetletakse haldus&otilde;iguserikkumiste seadustikus s&auml;testatud korras , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Haldus&otilde;iguserikkumiste seadustiku muutmine</s>
+</p>
+<p>
+<s>Haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahv 80 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 80.</s><s>Veterinaarn&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Ilma tegevusloata veterinaarpraksisega tegelemise eest - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaarias kasutatavate ravimite ja ravims&ouml;&ouml;tade kasutamise eeskirjade rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaararsti v&otilde;i volitatud veterinaararsti poolt kohustuste t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 4 ) Veterinaarj&auml;relevalve objekti tegelikule seisundile v&otilde;i kvaliteedile mittevastava veterinaart&otilde;endi v&auml;ljastamise eest - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 5 ) Loomakasvatushoonetele kehtestatud veterinaarn&otilde;uete rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni saja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 6 ) Loomapidaja poolt loomade haigestumisest v&otilde;i veterinaararsti poolt loomataudi kahtlusest teatamata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 7 ) Looma viimise eest n&auml;itusele , v&otilde;istlusele , laadale v&otilde;i oksjonile ilma eelnevaid veterinaarseid menetlusi teostamata ja ilma sellekohase veterinaart&otilde;endita ning loomade transportimise n&otilde;uete ja prof&uuml;laktilise karantiini tingimuste rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni saja viiek&uuml;mne p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 8 ) Loomade identifitseerimiskohustuse t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni kaheksak&uuml;mne p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 9 ) Loomsete saaduste veterinaarn&otilde;uete rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni saja viiek&uuml;mne p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 10 ) Loomataudi kahtluse v&otilde;i loomataudi t&otilde;rjeks rakendatavate meetmete ja loomataudit&otilde;rje eeskirjade mittej&auml;rgimise v&otilde;i mitten&otilde;uetekohase j&auml;rgimise eest - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 11 ) J&auml;relevalveametnike ja volitatud veterinaararstide kontrollialase tegevuse takistamise , selleks vajalike dokumentide ja andmete esitamisest keeldumise v&otilde;i valeandmete esitamise , samuti veterinaarteenust osutavale v&otilde;i j&auml;relevalvet teostavale veterinaararstile ohutute t&ouml;&ouml;tingimuste mittetagamise eest - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvis 208 asendatakse s&otilde;nad &ldquo; Veterinaar- ja Toiduinspektsioon &rdquo; s&otilde;nadega &ldquo; Veterinaar- ja Toiduamet &rdquo; vastavas k&auml;&auml;ndes .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Riigil&otilde;ivuseaduse muutmine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; RT I 2001 , 55 , 331 ; 56 , 332 ; 64 , 367 ; 65 , 377 ; 85 , 512 ; 88 , 531 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 3 l&otilde;iget 2 t&auml;iendatakse punktiga 13 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 13 <hi rend="sup">1</hi> ) veterinaartoimingud ; &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 91 t&auml;iendatakse punktiga 6 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 6 ) ravimite jaem&uuml;&uuml;giks veterinaarapteekides 500 krooni . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) seadust t&auml;iendatakse jaoga 6 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 6 <hi rend="sup">1</hi> . jagu .</s>
+</p>
+<p>
+<s>Veterinaartoimingud</s>
+</p>
+<p>
+<s>&sect; 92 <hi rend="sup">1</hi> .</s><s>Loomade ja loomsete saaduste n&otilde;uetekohasuse t&otilde;endamine</s>
+</p>
+<p>
+<s>( 1 ) Veterinaart&otilde;endi v&auml;ljastamise eest tasutakse riigil&otilde;ivu 30 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaarsertifikaadi v&auml;ljastamise eest tasutakse riigil&otilde;ivu 130 krooni .</s>
+</p>
+<p>
+<s>&sect; 92 <hi rend="sup">2</hi> .</s><s>Anal&uuml;&uuml;simetoodika tunnustamine</s>
+</p>
+<p>
+<s>Anal&uuml;&uuml;simetoodika tunnustamise eest tasutakse riigil&otilde;ivu 1000 krooni . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 183 t&auml;iendatakse l&otilde;ikega 3 <hi rend="sup">9</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 <hi rend="sup">9</hi> ) Tegevusloa v&auml;ljastamise eest veterinaarteenuse osutamiseks tasutakse riigil&otilde;ivu j&auml;rgmistes m&auml;&auml;rades :</s>
+</p>
+<p>
+<s>1 ) veterinaararsti tegevusloa eest - 1000 krooni ;</s>
+</p>
+<p>
+<s>2 ) veterinaarlaboratooriumi tegevusloa eest - 500 krooni . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Vabariigi Valitsuse seaduse muutmine</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse seaduse ( RT I 1995 , 94 , 1628 ; 1996 , 49 , 953 ; 88 , 1560 ; 1997 , 29 , 447 ; 40 , 622 ; 52 , 833 ; 73 , 1200 ; 81 , 1361 ja 1362 ; 87 , 1468 ; 1998 , 28 , 356 ; 36/37 , 552 ; 40 , 614 ; 107 , 1762 ; 111 , 1833 ; 1999 , 10 , 155 ; 16 , 271 ja 274 ; 27 , 391 ; 29 , 398 ja 401 ; 58 , 608 ; 95 , 843 ja 845 ; 2000 , 49 , 302 ; 51 , 319 ja 320 ; 54 , 352 ; 58 , 378 ; 95 , 613 ; 102 , 677 ; 2001 , 7 , 16 ; 53 , 305 ; 59 , 358 ) paragrahv 64 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) P&otilde;llumajandusministeeriumi valitsemisalas on j&auml;rgmised ametid ja inspektsioonid :</s>
+</p>
+<p>
+<s>1 ) Veterinaar- ja Toiduamet ;</s>
+</p>
+<p>
+<s>2 ) Taimetoodangu Inspektsioon ;</s>
+</p>
+<p>
+<s>3 ) T&otilde;uaretusinspektsioon . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Ravimiseaduse muutmine</s>
+</p>
+<p>
+<s>Ravimiseaduses ( RT I 1996 , 3 , 56 ; 49 , 954 ; 1997 , 93 , 1564 ; 1998 , 36/37 , 554 ; 1999 , 58 , 608 ; 2001 , 53 , 308 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>( 1 ) Paragrahvi 2 t&auml;iendatakse l&otilde;igetega 1 <hi rend="sup">1</hi> ja 4 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 <hi rend="sup">1</hi> ) Ainult veterinaarias kasutatav ravim ( edaspidi veterinaarravim ) on k&auml;esoleva seaduse t&auml;henduses tootja poolt ainult loomadel kasutamiseks m&auml;&auml;ratud ravim , mis peab olema t&auml;histatud kirjega &ldquo; veterinaarseks kasutamiseks &rdquo; .</s>
+</p>
+<p>
+<s>( 4 <hi rend="sup">1</hi> ) Ravims&ouml;&ouml;t on tema ravi- v&otilde;i haigust &auml;rahoidvate omaduste t&otilde;ttu loomade s&ouml;&ouml;tmiseks kasutatav ravimi ja s&ouml;&ouml;da segu . &rdquo;</s>
+</p>
+<p>
+<s>( 2 ) Paragrahvi 3 l&otilde;iget 1 t&auml;iendatakse lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; Veterinaarias kasutatav ravim peab olema ohutu ka loomse saaduse kasutaja tervisele . &rdquo;</s>
+</p>
+<p>
+<s>( 3 ) Paragrahvi 4 l&otilde;ige 2 tunnistatakse kehtivuse kaotanuks .</s>
+</p>
+<p>
+<s>( 4 ) Paragrahvis 5 :</s>
+</p>
+<p>
+<s>1 ) paragrahvi pealkirja t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; sotsiaalministri &rdquo; s&otilde;naga &ldquo; , p&otilde;llumajandusministri &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) l&otilde;ikeid 3-5 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; ravimite &rdquo; s&otilde;nadega &ldquo; , sealhulgas veterinaarravimite , &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi t&auml;iendatakse l&otilde;igetega 5 <hi rend="sup">1</hi> -5 <hi rend="sup">3</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 <hi rend="sup">1</hi> ) Sotsiaalminister koosk&otilde;lastab k&auml;esoleva seaduse alusel v&auml;ljaantavad &otilde;igusaktid veterinaarias kasutatavaid ravimeid k&auml;sitlevas osas p&otilde;llumajandusministriga .</s>
+</p>
+<p>
+<s>( 5 <hi rend="sup">2</hi> ) P&otilde;llumajandusminister kehtestab koosk&otilde;lastatult sotsiaalministriga :</s>
+</p>
+<p>
+<s>1 ) veterinaarias kasutatavate ravimite testimist puudutavad anal&uuml;&uuml;tilised , farmakotoksikoloogilised ja kliinilised normid ;</s>
+</p>
+<p>
+<s>2 ) loomade kasvu kiirendamiseks ja produktiivsuse t&otilde;stmiseks keelatud biostimulaatorite , hormoonpreparaatide ja muude ainete nimekirja ;</s>
+</p>
+<p>
+<s>3 ) ravims&ouml;&ouml;tade tootmise n&otilde;uded , ravims&ouml;&ouml;tade impordi tingimused ja korra , tunnustamise ja registreerimise tingimused ja korra ning hulgi- ja jaem&uuml;&uuml;gi eeskirjad .</s>
+</p>
+<p>
+<s>( 5 <hi rend="sup">3</hi> ) P&otilde;llumajandusminister kehtestab ravimite ja ravims&ouml;&ouml;tade loomahaiguste ennetamiseks ja raviks kasutamise tingimused ja korra . &rdquo;</s>
+</p>
+<p>
+<s>( 5 ) Paragrahvi 7 l&otilde;ikes 3 asendatakse s&otilde;nad &ldquo; isiklikuks otstarbeks &rdquo; s&otilde;nadega &ldquo; isiklikuks v&otilde;i temaga kaasasolevate loomade tarbeks &rdquo; .</s>
+</p>
+<p>
+<s>( 6 ) Paragrahvi 8 l&otilde;iget 2 t&auml;iendatakse teise lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; Veterinaarseks kasutamiseks v&otilde;ib ravimite hulgim&uuml;&uuml;gi korras m&uuml;&uuml;a ravimeid ka isikule , kes omab kehtivat tegevusluba veterinaarteenuse osutamiseks . &rdquo;</s>
+</p>
+<p>
+<s>( 7 ) Paragrahvis 10 :</s>
+</p>
+<p>
+<s>1 ) paragrahvi t&auml;iendatakse l&otilde;ikega 1 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 <hi rend="sup">1</hi> ) Veterinaarapteek on apteek , millel on &otilde;igus v&auml;ljastada ainult veterinaarravimeid ja millel ei ole ravimite ekstemporaalse valmistamise kohustust . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) l&otilde;iget 5 t&auml;iendatakse lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; Veterinaarias kasutatavaid ravimeid v&otilde;ivad ostjatele v&auml;ljastada ka veterinaararsti haridusega t&ouml;&ouml;tajad . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) l&otilde;iget 7 t&auml;iendatakse p&auml;rast s&otilde;nu &ldquo; farmaatsiaalane haridus &rdquo; s&otilde;nadega &ldquo; v&otilde;i ainult veterinaarravimite puhul veterinaararsti haridus &rdquo; .</s>
+</p>
+<p>
+<s>( 8 ) Paragrahvi 12 l&otilde;iget 2 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; inimesele &rdquo; s&otilde;naga &ldquo; , loomale &rdquo; .</s>
+</p>
+<p>
+<s>( 9 ) Paragrahvis 13 :</s>
+</p>
+<p>
+<s>1 ) l&otilde;iget 1 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; inimestel &rdquo; s&otilde;nadega &ldquo; v&otilde;i veterinaarravimite kasutamine loomadel &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) l&otilde;iget 2 t&auml;iendatakse lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; Veterinaararstid v&otilde;ivad ravimeid kliiniliselt uurida ainult oma erialal ning &uuml;ksnes katses osaleva looma omaniku n&otilde;usolekul ja j&auml;rgides kehtivaid loomakaitsealaseid &otilde;igusakte . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) l&otilde;ikes 3 asendatakse s&otilde;nad &ldquo; v&otilde;i stomatoloog &rdquo; s&otilde;nadega &ldquo; , stomatoloog v&otilde;i veterinaararst &rdquo; ;</s>
+</p>
+<p>
+<s>4 ) l&otilde;iget 5 t&auml;iendatakse lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; Veterinaarias kasutatavate ravimite kliinilisi uuringuid ei ole lubatud alustada enne Veterinaar- ja Toiduameti peadirektori n&otilde;usoleku saamist . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>5 ) l&otilde;iget 6 t&auml;iendatakse lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; Veterinaarias kasutatavate ravimite puhul kannab isiklikku vastutust ravimi kliinilise uuringu ohutuse eest veterinaararst , kes peab ka tagama vajaliku veterinaarse abi uuringus osalevatele loomadele . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>6 ) paragrahvi t&auml;iendatakse l&otilde;ikega 7 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 7 <hi rend="sup">1</hi> ) Veterinaarias kasutatavate ravimite kliinilise uurimise l&auml;biviimise tingimused ja korra kehtestab sotsiaalminister koosk&otilde;lastatult p&otilde;llumajandusministriga . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>7 ) l&otilde;iget 11 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; arst &rdquo; s&otilde;nadega &ldquo; v&otilde;i veterinaararst &rdquo; .</s>
+</p>
+<p>
+<s>( 10 ) Paragrahvis 14 :</s>
+</p>
+<p>
+<s>1 ) l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Sotsiaalministeerium , Ravimiamet ning Veterinaar- ja Toiduamet kontrollivad vastavalt oma p&auml;devusele k&auml;esolevast seadusest ja selle alusel v&auml;lja antud &otilde;igusaktidest kinnipidamist . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi t&auml;iendatakse l&otilde;ikega 2 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 <hi rend="sup">1</hi> ) Veterinaar- ja Toiduameti ametnikud teostavad j&auml;relevalvet veterinaararstide ja loomseid saadusi tootvate loomapidajate poolse ravimite ja ravims&ouml;&ouml;tade kasutamise &uuml;le . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>S&ouml;&ouml;daseaduse muutmine</s>
+</p>
+<p>
+<s>S&ouml;&ouml;daseaduse ( RT I 1998 , 64/65 , 1004 ; 1999 , 58 , 608 ; 97 , 801 ; 2000 , 88 , 577 ) paragrahv 1 l&otilde;iget 2 t&auml;iendatakse punktiga 3 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 3 ) ravims&ouml;&ouml;tadele ja nende valmistamiseks kasutatavatele ravimitele teiste &otilde;igusaktidega reguleeritud osas . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Toiduseaduse muutmine</s>
+</p>
+<p>
+<s>Toiduseaduses ( RT I 1999 , 30 , 415 ; 58 , 608 ) asendatakse s&otilde;nad &ldquo; Veterinaar- ja Toiduinspektsioon &rdquo; s&otilde;nadega &ldquo; Veterinaar- ja Toiduamet &rdquo; vastavas k&auml;&auml;ndes .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Seaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Veterinaarteenistuse seadus ( RT 1992 , 49 , 613 ; RT I 1999 , 58 , 608 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Kehtivate tegevuslubade &uuml;mbervormistamine</s>
+</p>
+<p>
+<s>( 1 ) Isik , kellele on enne k&auml;esoleva seaduse j&otilde;ustumist v&auml;ljastatud veterinaariaalane riiklik tegevuslitsents , peab &uuml;he aasta jooksul , arvates k&auml;esoleva seaduse j&otilde;ustumisest , esitama taotluse k&auml;esoleva seaduse paragrahvides 22 v&otilde;i 29 nimetatud tegevusloa saamiseks .</s><s>Selle t&auml;htaja m&ouml;&ouml;dumisel kaotavad senised veterinaariaalased riiklikud tegevuslitsentsid kehtivuse .</s>
+</p>
+<p>
+<s>( 2 ) Isikule , kelle veterinaariaalase riikliku tegevuslitsentsi t&auml;htaeg on 2001. aasta 1. jaanuar v&otilde;i p&auml;rast seda , v&auml;ljastatakse tegevusluba tegevuslitsentsil m&auml;rgitud t&auml;htajaga l&otilde;ivuvabalt .</s>
+</p>
+<p>
+<s>( 3 ) Kuni uue veterinaarteenuse osutamise tegevusloa andmiseni v&otilde;i selle andmisest keeldumiseni on k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud taotluse esitanud isikul &otilde;igus tegelda veterinaarpraksisega senise veterinaariaalase riikliku tegevuslitsentsi alusel .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2000. aasta 1. jaanuaril , v&auml;lja arvatud :</s>
+</p>
+<p>
+<s>1 ) volitusnormid , mis j&otilde;ustuvad k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud ajal ;</s>
+</p>
+<p>
+<s>2 ) paragrahvid 45 ja 48 , mis j&otilde;ustuvad 2000. aasta 1. aprillil ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 5 l&otilde;ige 5 ning &sect; 46 , mis j&otilde;ustuvad 2000. aasta 1. juulil ;</s>
+</p>
+<p>
+<s>4 ) paragrahvid 29-34 , mis j&otilde;ustuvad 2001. aasta 1. jaanuaril ;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 6 l&otilde;ige 2 , mis j&otilde;ustub 2002. aasta 1. jaanuaril ;</s>
+</p>
+<p>
+<s>6 ) paragrahvi 21 l&otilde;ige 1 veterinaarlaboratooriumi tegevusloa osas , mis j&otilde;ustub 2002. aasta 1. jaanuaril ;</s>
+</p>
+<p>
+<s>( 16.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 861 )</s>
+</p>
+<p>
+<s>7 ) paragrahvi 6 l&otilde;ige 6 , mis j&otilde;ustub 2005. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas seaduses sisalduvad volitusnormid Vabariigi Valitsuse v&otilde;i ministri m&auml;&auml;ruste andmiseks j&otilde;ustuvad k&uuml;mnendal p&auml;eval p&auml;rast seaduse avaldamist Riigi Teatajas .</s><s>Volitusnormi alusel antavat m&auml;&auml;rust ei j&otilde;ustata enne k&auml;esoleva seaduse j&otilde;ustumist , v&auml;lja arvatud paragrahvis 46 sisalduvad volitusnormid , mida v&otilde;ib j&otilde;ustada 1999. aasta 1. novembrist .</s>
+</p>
+</body>
+   </text>
+</tei.2>

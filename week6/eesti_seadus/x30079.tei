@@ -1,0 +1,2602 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Vangistusseadus ( sept 2000 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   13612</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Vangistusseadus ( sept 2000 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=8></tagusage>
+         <tagusage gi=p occurs=832></tagusage>
+         <tagusage gi=s occurs=1141></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Vangistusseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 14. juunil 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 58 , 376 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. detsembril 2000. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse rakendusala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab vabadusekaotuse , aresti , haldusaresti ja eelvangistuse t&auml;ideviimise korra ning korralduse , samuti vanglateenistuse m&otilde;iste ja tingimused .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Kinnipeetav</s>
+</p>
+<p>
+<s>Kinnipeetav k&auml;esoleva seaduse t&auml;henduses on vanglas vabadusekaotust kandev s&uuml;&uuml;dim&otilde;istetu .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Arestialune</s>
+</p>
+<p>
+<s>Arestialune k&auml;esoleva seaduse t&auml;henduses on arestimajas aresti v&otilde;i haldusaresti kandev isik .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Vahistatu</s>
+</p>
+<p>
+<s>Vahistatu k&auml;esoleva seaduse t&auml;henduses on isik , kellele on t&otilde;kendina kohaldatud vahistamist ja kes kannab eelvangistust kinnise vangla eelvangistusosakonnas v&otilde;i arestimajas .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>T&auml;itmisplaan</s>
+</p>
+<p>
+<s>( 1 ) T&auml;itmisplaan s&auml;testab kinnipeetava ning vahistatu vastuv&otilde;tmiseks p&auml;deva vangla .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;itmisplaani koostamisel l&auml;htutakse k&auml;esoleva seaduse &sect; 11 l&otilde;ikes 1 s&auml;testatud alustest .</s>
+</p>
+<p>
+<s>( 3 ) T&auml;itmisplaani kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vabadusekaotuse t&auml;ideviimine</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Vabadusekaotuse t&auml;ideviimise eesm&auml;rk</s>
+</p>
+<p>
+<s>( 1 ) Vabadusekaotuse t&auml;ideviimise eesm&auml;rk on kinnipeetava suunamine &otilde;iguskuulekale k&auml;itumisele ja &otilde;iguskorra kaitsmine .</s>
+</p>
+<p>
+<s>( 2 ) Vabadusekaotuse t&auml;ideviimine korraldatakse kinnises vanglas v&otilde;i avavanglas .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kinnine vangla</s>
+</p>
+<p>
+<s>( 1 ) Kinnine vangla on valvatava m&uuml;&uuml;ri v&otilde;i muu piirdega vangla , mis v&otilde;imaldab pideva j&auml;relevalve kinnipeetava &uuml;le .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetavate majutamiseks on kinnises vanglas kambrid , mis v&otilde;imaldavad kinnipeetavate pideva visuaalse v&otilde;i elektroonilise j&auml;lgimise .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Kinnise vangla &uuml;ldtingimused</s>
+</p>
+<p>
+<s>&Auml;ratusest kuni &ouml;&ouml;rahu alguseni on kinnipeetaval lubatud vabalt liikuda kinnise vangla territooriumil vangla sisekorraeeskirjadega s&auml;testatud kohtades .</s><s>&Ouml;&ouml;rahu algusest kuni &auml;ratuseni eraldatakse kinnipeetavad neile etten&auml;htud kambritesse , mis lukustatakse .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Avavangla</s>
+</p>
+<p>
+<s>( 1 ) Avavangla on selgelt n&auml;htavate t&auml;histega m&auml;rgistatud territooriumiga vangla .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetavate majutamiseks on avavanglas elamud tubadega .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Avavangla &uuml;ldtingimused</s>
+</p>
+<p>
+<s>( 1 ) &Auml;ratusest kuni &ouml;&ouml;rahuni on kinnipeetaval lubatud vabalt liikuda avavangla territooriumil .</s><s>Vangla direktori loal on kinnipeetaval lubatud liikuda ka v&auml;ljaspool avavangla territooriumi seoses &otilde;ppimise v&otilde;i t&ouml;&ouml;tamisega .</s>
+</p>
+<p>
+<s>( 2 ) &Ouml;&ouml;rahu algusest kuni &auml;ratuseni eraldatakse kinnipeetavad neile etten&auml;htud tubadesse , mis vajaduse korral lukustatakse .</s><s>Vangla direktori loal on kinnipeetaval lubatud &ouml;&ouml;rahu algusest kuni &auml;ratuseni viibida avavangla territooriumil v&otilde;i v&auml;ljaspool seda seoses t&ouml;&ouml;tamisega .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetava liikumisele v&auml;ljaspool avavangla territooriumi kohaldatakse k&auml;esoleva seaduse &sect;-s 22 s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Kinnipeetava paigutamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava paigutamine vanglasse toimub t&auml;itmisplaani alusel , arvestades reaalselt kandmisele kuuluva karistusaja pikkust , kinnipeetava vanust , sugu , tervise seisundit ning iseloomuomadusi .</s>
+</p>
+<p>
+<s>( 2 ) Vanglas paigutatakse kinnipeetav kambrisse v&otilde;i tuppa .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Eraldihoidmise printsiip</s>
+</p>
+<p>
+<s>( 1 ) Vanglas hoitakse eraldi :</s>
+</p>
+<p>
+<s>1 ) mehi ja naisi ;</s>
+</p>
+<p>
+<s>2 ) alaealisi ja t&auml;iskasvanuid ;</s>
+</p>
+<p>
+<s>3 ) s&uuml;&uuml;dim&otilde;istetuid ja vahistatuid ;</s>
+</p>
+<p>
+<s>4 ) esmakordselt karistatuid ja vabadusekaotusega korduvalt karistatuid ;</s>
+</p>
+<p>
+<s>5 ) aresti ja vabadusekaotusega karistatuid ;</s>
+</p>
+<p>
+<s>6 ) isikuid , kes kannavad eluaegset vabadusekaotust ;</s>
+</p>
+<p>
+<s>7 ) isikuid , keda nende endise ametialase tegevuse t&otilde;ttu &auml;hvardab k&auml;ttemaksuoht .</s>
+</p>
+<p>
+<s>( 2 ) Erandkorras v&otilde;ib vangla direktor paigutada kinnipeetavaid eraldi ka k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetamata tunnuste alusel .</s>
+</p>
+<p>
+<s>( 3 ) Kinnises vanglas on eraldihoidmise printsiibi t&auml;itmiseks teineteisest eraldatud osakonnad ja kambrid .</s>
+</p>
+<p>
+<s>( 4 ) Avavanglas arvestatakse k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatut kinnipeetavate jaotamisel kohtlemisgruppidesse .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Kinnipeetava vastuv&otilde;tmine</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Vastuv&otilde;tmise alus</s>
+</p>
+<p>
+<s>Isik v&otilde;etakse vanglasse vastu j&otilde;ustunud kohtuotsuse v&otilde;i -m&auml;&auml;ruse &auml;rakirja ning isikut t&otilde;endavate dokumentide v&otilde;i nende puudumisel politsei koostatud isikusamasuse tuvastamise dokumentide alusel .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Kinnipeetava vastuv&otilde;tmine vanglas</s>
+</p>
+<p>
+<s>( 1 ) Vanglasse saabumisel kuuluvad kinnipeetav ja tema isiklikud asjad hoolikale l&auml;biotsimisele , mille viib l&auml;bi kinnipeetavaga samast soost vanglaametnik .</s><s>Kinnipeetav suunatakse arstlikule l&auml;bivaatusele .</s>
+</p>
+<p>
+<s>( 2 ) Hiljemalt vanglasse saabumisele j&auml;rgneval p&auml;eval kohtub kinnipeetav vangla direktori v&otilde;i tema poolt m&auml;&auml;ratud vanglaametnikuga , kes selgitab kinnipeetavale tema &otilde;igusi ja kohustusi .</s><s>Kinnipeetavale antakse kirjalik teave vabadusekaotuse t&auml;ideviimist reguleerivate seaduste , vangla sisekorraeeskirjade ja kaebuste esitamise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetav , kelle poolt reaalselt &auml;rakandmisele kuuluva vabadusekaotuse t&auml;htaeg &uuml;letab &uuml;hte aastat , paigutatakse vastuv&otilde;tuosakonda .</s><s>Vastuv&otilde;tuosakonnas tehakse kindlaks kinnipeetava eluloolised andmed , m&auml;&auml;ratletakse tema sotsiaalps&uuml;hholoogiline prognoos ja selgitatakse v&auml;lja muud andmed , mis on vajalikud kinnipeetava individuaalse t&auml;itmiskava koostamiseks vastavalt k&auml;esoleva seaduse &sect;-le 16.</s>
+</p>
+<p>
+<s>( 4 ) Kinnipeetava vastuv&otilde;tuosakonnas viibimise aeg ei tohi &uuml;letada kolme kuud .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Kinnipeetava isiklikud asjad</s>
+</p>
+<p>
+<s>( 1 ) Vanglasse vastuv&otilde;tmisel kinnipeetavaga kaasas olevad isiklikud asjad v&otilde;etakse vangla juhtkonna poolt hoiule .</s>
+</p>
+<p>
+<s>( 2 ) Asjade loetelu , mille omamine kinnises v&otilde;i avavanglas on kinnipeetavale lubatud , samuti hoiule v&otilde;etavate asjade hoidmise korra kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Kinnipeetava individuaalne t&auml;itmiskava</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava individuaalses t&auml;itmiskavas n&auml;hakse ette :</s>
+</p>
+<p>
+<s>1 ) kinnipeetava paigutamine vanglas ;</s>
+</p>
+<p>
+<s>2 ) kinnipeetava &uuml;mberpaigutamine avavanglasse v&otilde;i teise kinnisesse vanglasse ;</s>
+</p>
+<p>
+<s>3 ) kinnipeetava t&ouml;&ouml;v&otilde;imelisus ja kutseoskused ;</s>
+</p>
+<p>
+<s>4 ) kinnipeetavale &uuml;ldhariduse v&otilde;i kutsekeskhariduse v&otilde;i t&ouml;&ouml;alase koolituse andmise vajadus ;</s>
+</p>
+<p>
+<s>5 ) kinnipeetavale kohaldatavad soodustused ;</s>
+</p>
+<p>
+<s>6 ) kinnipeetava vabastamise ettevalmistamiseks vajalikud abin&otilde;ud ;</s>
+</p>
+<p>
+<s>7 ) muud vabadusekaotuse t&auml;ideviimise eesm&auml;rkide saavutamiseks vajalikud abin&otilde;ud .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava individuaalset t&auml;itmiskava arutatakse kinnipeetavaga .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetava individuaalset t&auml;itmiskava muudetakse ja t&auml;iendatakse vastavalt kinnipeetava arengule .</s>
+</p>
+<p>
+<s>( 4 ) Kinnipeetava individuaalse t&auml;itmiskava kinnitab vangla direktor ja see lisatakse kinnipeetava isiklikku toimikusse .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kinnipeetava isiklik toimik</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava vastuv&otilde;tmisel vanglasse avatakse talle isiklik toimik .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava isiklikku toimikusse kantakse kinnipidamise alust puudutavad dokumendid , kinnipeetavale kohaldatud distsiplinaarkaristused , nende kohaldamise aeg ja p&otilde;hjus ning andmed kinnipeetava k&auml;itumise , &otilde;ppimise ja t&ouml;&ouml;tamise kohta , samuti muud vangla sisekorraeeskirjades s&auml;testatud andmed ja dokumendid .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetavale tema isikliku toimiku tutvustamise kord , samuti kinnipeetava isikliku toimiku s&auml;ilitamise t&auml;htajad ja kord s&auml;testatakse vangla sisekorraeeskirjades .</s>
+</p>
+<p>
+<s>( 4 ) Kinnipeetava &uuml;mberpaigutamisel teise vanglasse saadetakse sinna ka tema isiklik toimik .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Identifitseerimisabin&otilde;ud</s>
+</p>
+<p>
+<s>Vanglasse saabunud isik fotografeeritakse ja dakt&uuml;loskopeeritakse .</s><s>Kinnipeetava signaleetilisi fotosid ja dakt&uuml;loskoopilist kaarti hoitakse kinnipeetava isiklikus toimikus .</s><s>&Uuml;ks komplekt signaleetilisi fotosid saadetakse isiku vahistamist taotlenud kohtueelse uurimise asutusele kriminaalasjale lisamiseks ja &uuml;ks dakt&uuml;loskoopiline kaart Politsei Teabeb&uuml;roole .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Kinnipeetava &uuml;mberpaigutamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava v&otilde;ib &uuml;mber paigutada &uuml;hest kinnisest vanglast teise v&otilde;i &uuml;hest avavanglast teise , kui see on vajalik kinnipeetava individuaalse t&auml;itmiskava elluviimiseks , vabadusekaotuse t&auml;ideviimise eesm&auml;rkide saavutamiseks v&otilde;i julgeoleku kaalutlustel .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava &uuml;mberpaigutamise korra kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Kinnipeetava &uuml;mberpaigutamine avavanglasse</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnipeetava individuaalsest t&auml;itmiskavast selgub , et karistuse kandmine kinnises vanglas ei ole otstarbekas , kinnipeetava poolt reaalselt &auml;rakandmisele kuuluva vabadusekaotuse t&auml;htaeg ei &uuml;leta &uuml;hte aastat v&otilde;i &auml;rakandmata vabadusekaotus ei &uuml;leta 18 kuud ning kinnipeetava suhtes on piisavalt alust oletada , et ta ei pane toime uusi &otilde;iguserikkumisi , v&otilde;ib kinnipeetava tema n&otilde;usolekul &uuml;mber paigutada avavanglasse .</s>
+</p>
+<p>
+<s>( 2 ) Avavanglasse ei v&otilde;i &uuml;mber paigutada kinnipeetavaid , kes on toime pannud raskeid isikuvastaseid- v&otilde;i seksuaalkuritegusid , narkootiliste v&otilde;i ps&uuml;hhotroopsete ainetega seotud kuritegusid v&otilde;i kuulunud kuritegelikku &uuml;hendusse , samuti eluaegset vabadusekaotust kandvaid kinnipeetavaid .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetava &uuml;mberpaigutamise korra kinnisest vanglast avavanglasse kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Kinnipeetava &uuml;mberpaigutamine kinnisesse vanglasse</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnipeetav ei t&auml;ida k&auml;esoleva seaduse v&otilde;i vangla sisekorraeeskirjade n&otilde;udeid v&otilde;i paneb toime uusi &otilde;iguserikkumisi , v&otilde;ib kinnipeetava &uuml;mber paigutada kinnisesse vanglasse .</s><s>Kinnipeetava &uuml;mberpaigutamine avavanglast kinnisesse vanglasse on lubatud ka siis , kui see on vajalik vabadusekaotuse t&auml;ideviimise eesm&auml;rkide saavutamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava &uuml;mberpaigutamise korra avavanglast kinnisesse vanglasse kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Soodustused</s>
+</p>
+<p>
+<s>( 1 ) Vangla direktor v&otilde;ib kinnipeetavale tema n&otilde;usolekul kohaldada j&auml;rgmisi soodustusi :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tamine j&auml;relevalve all v&auml;ljaspool vangla territooriumi ;</s>
+</p>
+<p>
+<s>2 ) liikumine j&auml;relevalveta v&auml;ljaspool vangla territooriumi seoses &otilde;ppimise , t&ouml;&ouml;tamise v&otilde;i ravikuuri l&auml;bimisega , samuti perekondlikel p&otilde;hjustel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud soodustusi v&otilde;ib kohaldada kinnipeetavale , kelle k&auml;itumine karistuse kandmise ajal on osutunud heaks ja kelle suhtes on piisavalt alust oletada , et ta ei pane toime uusi &otilde;iguserikkumisi ning j&auml;rgib talle soodustuste osas tehtud ettekirjutusi .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Kinnipeetava vanglav&auml;line suhtlemine</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kinnipeetava vanglav&auml;lise suhtlemise eesm&auml;rk</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava vanglav&auml;lise suhtlemise eesm&auml;rk on soodustada kinnipeetava kontakte perekonna , sugulaste ja teiste l&auml;hedaste inimestega , et v&auml;ltida kinnipeetava sotsiaalsete sidemete katkemist .</s>
+</p>
+<p>
+<s>( 2 ) Vangla juhtkond soodustab kinnipeetava vanglav&auml;list suhtlemist .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Kinnipeetava l&uuml;hiajalised kokkusaamised</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavale on lubatud v&auml;hemalt &uuml;ks kord kuus j&auml;relevalve all kokku saada oma perekonnaliikmete ja teiste isikutega , kelle maine osas ei ole vangla juhtkonnal p&otilde;hjendatud kahtlusi .</s>
+</p>
+<p>
+<s>( 2 ) L&uuml;hiajalise kokkusaamise kestus on kuni kolm tundi .</s><s>Kokkusaamiste kord s&auml;testatakse vangla sisekorraeeskirjades .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lisriigi kodanikust kinnipeetaval on piiramatu &otilde;igus kokkusaamisele oma riigi konsulaart&ouml;&ouml;tajaga .</s>
+</p>
+<p>
+<s>( 4 ) L&uuml;hiajalisi kokkusaamisi ei v&otilde;imaldata distsiplinaarkaristuse kandmiseks kartserisse paigutatud kinnipeetavale .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Kinnipeetava pikaajalised kokkusaamised</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavale v&otilde;imaldatakse pikaajalisi kokkusaamisi abikaasa , isa , ema , vanaisa , vanaema , lapse , lapsendaja , lapsendatu , venna v&otilde;i &otilde;ega .</s><s>Pikaajalisi kokkusaamisi faktilise abikaasaga lubatakse tingimusel , et neil on &uuml;hised lapsed v&otilde;i &uuml;hine majapidamine v&otilde;i v&auml;hemalt kaks aastat v&auml;ldanud kooselu enne karistuse kandmise algust .</s>
+</p>
+<p>
+<s>( 2 ) Pikaajaline kokkusaamine on &uuml;ks kuni kolm p&auml;eva kestev kooselamine vangla selleks etten&auml;htud ruumides ilma pideva j&auml;relevalveta .</s><s>Pikaajaliste kokkusaamiste kord ja sagedus s&auml;testatakse vangla sisekorraeeskirjades .</s>
+</p>
+<p>
+<s>( 3 ) Pikaajalisi kokkusaamisi ei v&otilde;imaldata vangla vastuv&otilde;tuosakonnas viibivatele kinnipeetavatele ja distsiplinaarkaristuse kandmiseks kartserisse paigutatud kinnipeetavale .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Kokkusaamised kaitsja ja vaimulikuga</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetaval on &otilde;igus piiramatult kohtuda oma kaitsja ja vaimulikuga .</s><s>Kokkusaamised kaitsja ja vaimulikuga toimuvad segamatult .</s>
+</p>
+<p>
+<s>( 2 ) Kaitsja poolt kaasa toodud kirjalike materjalide sisuline l&auml;bivaatus on keelatud .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Kinnipeetava kokkusaamise j&auml;lgimine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnikul on &otilde;igus kinnipeetavaga kokkusaamisele lubatud isik ja tema asjad l&auml;bi otsida .</s><s>L&auml;biotsimise viib l&auml;bi k&uuml;lastajaga samast soost vanglaametnik .</s><s>Asjad , mille omamine vanglas on keelatud , v&otilde;etakse kokkusaamise ajaks vangla juhtkonna poolt ajutisele hoiule .</s>
+</p>
+<p>
+<s>( 2 ) L&uuml;hiajalisi kokkusaamisi kinnipeetavaga v&otilde;imaldatakse vanglaametniku juuresolekul .</s><s>Kokkusaamisi kaitsja ja vaimulikuga on vanglaametnikul lubatud j&auml;lgida , kuid mitte pealt kuulata .</s>
+</p>
+<p>
+<s>( 3 ) Vanglaametnikul on &otilde;igus l&uuml;hiajaline kokkusaamine kohe katkestada , kui see v&otilde;ib ohustada vangla julgeolekut v&otilde;i sisekorda .</s><s>Katkestada ei ole lubatud kokkusaamisi kaitsjaga .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Kirjavahetus ja telefonik&otilde;ned</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetaval on &otilde;igus kirjavahetusele , samuti telefoni ning muude &uuml;ldkasutatavate sidekanalite kasutamisele , kui selleks on tehnilised tingimused .</s><s>Kirjavahetus ja telefoni ning muude &uuml;ldkasutatavate sidekanalite kasutamine toimub vangla sisekorraeeskirjades s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kirjavahetus ja telefoni ning muude &uuml;ldkasutatavate sidekanalite kasutamine toimub kinnipeetava kulul .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetava k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud &otilde;igust v&otilde;ib vangla direktor piirata , kui see ohustab vangla julgeolekut v&otilde;i sisekorda v&otilde;i kahjustab vabadusekaotuse t&auml;ideviimise eesm&auml;rke .</s><s>Keelatud on kirjavahetuse ja telefoni ning muude &uuml;ldkasutatavate sidekanalite kasutamise piiramine suhtlemiseks riigiasutuste , kohalike omavalitsuste ja nende ametiisikutega , samuti kaitsjaga .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Kirjavahetuse ja telefonik&otilde;nede j&auml;lgimine</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavale saadetud v&otilde;i tema poolt saadetavad kirjad , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 4-5 s&auml;testatud isikutele ja ametiasutustele adresseeritud kirjad , avatakse vanglaametniku poolt kinnipeetava juuresolekul ning v&otilde;etakse sealt &auml;ra esemed , mille omamine vanglas on vangla sisekorraeeskirjadega keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava kirjavahetuse ja telefoni v&otilde;i muude &uuml;ldkasutatavate sidekanalitega edastavate s&otilde;numite sisu v&otilde;ib kontrollida &uuml;ksnes kohtu loal ja j&auml;litustegevuse seaduses ( RT I 1994 , 16 , 290 ; 1995 , 15 , 173 ; 1996 , 49 , 955 ; 1997 , 81 , 1361 ; 93 , 1557 ; 1998 , 47 , 698 ; 50 , 753 ; 51 , 756 ; 61 , 981 ; 98/99 , 1575 ; 101 , 1663 ; 1999 , 16 , 271 ; 31 , 425 ; 95 , 845 ; 2000 , 35 , 222 ; 40 , 251 ) s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>( 3 ) Kirjavahetuse kontrollimisel k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud korras v&otilde;ib vangla direktor j&auml;tta kirja &auml;ra saatmata , kui :</s>
+</p>
+<p>
+<s>1 ) see ohustab vabadusekaotuse t&auml;ideviimise eesm&auml;rke , vangla julgeolekut v&otilde;i sisekorda ;</s>
+</p>
+<p>
+<s>2 ) selle edastamine v&otilde;ib kaasa tuua kuriteo toimepanemise ;</s>
+</p>
+<p>
+<s>3 ) see ohustab teise kinnipeetava vabadusekaotuse t&auml;ideviimise eesm&auml;rke ;</s>
+</p>
+<p>
+<s>4 ) see on koostatud salakirjas v&otilde;i loetamatult .</s>
+</p>
+<p>
+<s>( 4 ) Keelatud on kontrollida kinnipeetava kirju ja telefonik&otilde;nesid kaitsjale , prokur&ouml;rile , kohtule , &otilde;iguskantslerile ja Justiitsministeeriumile .</s>
+</p>
+<p>
+<s>( 5 ) &Auml;ra saatmata ei v&otilde;i j&auml;tta kinnipeetava kirju riigiasutustele , kohalikele omavalitsustele ja nende ametiisikutele , samuti kaitsjale ning oma riigi konsulaart&ouml;&ouml;tajale .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Ajalehed ja ajakirjad</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavale tagatakse vanglas v&otilde;imalus lugeda &uuml;leriigilisi p&auml;evalehti ning ajakirju .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetaval on lubatud vangla vahendusel tellida m&otilde;&otilde;dukuse piires isiklike vahendite arvel ajalehti , ajakirju ja muud kirjandust , kui see ei ohusta vabadusekaotuse t&auml;ideviimise eesm&auml;rke v&otilde;i vangla julgeolekut v&otilde;i sisekorda .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Raadio ja televisioon</s>
+</p>
+<p>
+<s>( 1 ) Vanglas v&otilde;imaldatakse j&auml;lgida raadio- ja televisioonisaateid .</s>
+</p>
+<p>
+<s>( 2 ) Vangla direktori loal v&otilde;ib kinnipeetaval olla isiklik raadio , televiisor , video- v&otilde;i helikassettmagnetofon v&otilde;i muid vaba aja veetmiseks vajalikke esemeid , kui nende kasutamine ei riku vangla sisekorraeeskirju ega h&auml;iri teisi isikuid .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud elektriseadmete kasutamise kulud kannab kinnipeetav .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>L&uuml;hiajaline v&auml;ljas&otilde;it</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavale , kes on karistusest &auml;ra kandnud v&auml;hemalt &uuml;he aasta , v&otilde;ib vangla direktor anda loa l&uuml;hiajaliseks v&auml;ljas&otilde;iduks kuni kahek&uuml;mne &uuml;heks kalendrip&auml;evaks aastas , kui see on koosk&otilde;las vabadusekaotuse t&auml;ideviimise eesm&auml;rkidega .</s>
+</p>
+<p>
+<s>( 2 ) Abikaasa , isa , ema , vanaisa , vanaema , lapse , lapsendaja , lapsendatu , venna v&otilde;i &otilde;e parandamatult raske haiguse v&otilde;i surma v&otilde;i muu erakorralise s&uuml;ndmuse korral v&otilde;ib vangla direktor anda kinnipeetavale loa kuni seitsmep&auml;evaseks v&auml;ljas&otilde;iduks .</s><s>Erakorralise perekondliku s&uuml;ndmuse puhul v&otilde;imaldatud l&uuml;hiajalist v&auml;ljas&otilde;itu ei arvestata k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud v&auml;ljas&otilde;itude hulka .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 s&auml;testatud l&uuml;hiajalise v&auml;ljas&otilde;idu luba ei anta eluaegset vabadusekaotust kandvale kinnipeetavale .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;ljas&otilde;idukulud kannab kinnipeetav .</s><s>L&uuml;hiajalise v&auml;ljas&otilde;idu aeg arvestatakse karistuse kandmise aja hulka .</s>
+</p>
+<p>
+<s>( 5 ) L&uuml;hiajaliseks v&auml;ljas&otilde;iduks loa andmise korra kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>L&uuml;hiajaline v&auml;ljaviimine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 32 l&otilde;ikes 2 s&auml;testatud alustel v&otilde;ib vangla direktor anda loa kinnipeetava v&auml;ljaviimiseks j&auml;relevalve all kuni kolmeks p&auml;evaks , kui tulenevalt vabadusekaotuse t&auml;ideviimise eesm&auml;rkidest ei ole kinnipeetavale l&uuml;hiajalise v&auml;ljas&otilde;idu lubamine v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ljaviimise kulud kannab kinnipeetav .</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>Haridus ja t&ouml;&ouml; vanglas</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Hariduse omandamise v&otilde;imaldamine</s>
+</p>
+<p>
+<s>( 1 ) Hariduse omandamise v&otilde;imaldamise eesm&auml;rk on kindlustada kinnipeetav piisavate teadmiste , oskuste ja eetiliste t&otilde;ekspidamistega , mis v&otilde;imaldab tal j&auml;tkata vabaduses hariduse omandamist ja t&ouml;&ouml;tamist .</s>
+</p>
+<p>
+<s>( 2 ) Hariduse andmist vanglas korraldatakse Eesti Vabariigi haridusseaduse ( RT 1992 , 12 , 192 ; RT I 1993 , 35 , 547 ; 40 , 593 ; 63 , 892 ; 1994 , 12 , 200 ; 1995 , 12 , 119 ; 16 , 228 ; 23 , 333 ; 58 , 1003 ; 1996 , 49 , 953 ; 51 , 965 ; 1997 , 42 , 678 ; 81 , 1365 ; 1998 , 57 , 859 ; 61 , 980 ; 64/65 , 1007 ; 1999 , 10 , 150 ; 24 , 358 ; 51 , 550 ; 102 , 908 ; 2000 , 40 , 255 ) ja selle alusel v&auml;lja antud &otilde;igusaktide kohaselt .</s>
+</p>
+<p>
+<s>( 3 ) Hariduse omandamine toimub t&ouml;&ouml; ajal.</s>
+</p>
+<p>
+<s>( 4 ) Vangla juhtkond suunab ja soodustab kinnipeetavaid hariduse omandamisel .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>&Uuml;ldharidus</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavale , kellel puudub p&otilde;hiharidus , v&otilde;imaldatakse p&otilde;hihariduse omandamine vastava riikliku &otilde;ppekava alusel .</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;hihariduse omandanud kinnipeetavale v&otilde;imaldatakse vanglas tema soovil &uuml;ldkeskhariduse andmine vastavalt riiklikule &otilde;ppekavale .</s>
+</p>
+<p>
+<s>( 3 ) Keskharidusega kinnipeetavat v&otilde;ib tema soovil lubada &otilde;ppida v&auml;ljaspool vanglat asuvas kutse&otilde;ppeasutuses , rakendusk&otilde;rgkoolis v&otilde;i &uuml;likoolis .</s><s>Loa taotlemise ja loa andmise korra kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>( 4 ) Kinnipeetava lubamisel &otilde;ppima v&auml;ljaspool vanglat kohaldatakse kinnipeetavale k&auml;esoleva seaduse &sect;-s 22 s&auml;testatud soodustusi .</s>
+</p>
+<p>
+<s>( 5 ) Vangla territooriumil asuv p&otilde;hi- ja &uuml;ldkeskhariduse omandamist v&otilde;imaldav kool on Haridusministeeriumi hallatav riigikool , mida finantseeritakse riigieelarve vahenditest p&otilde;hikooli- ja g&uuml;mnaasiumiseadusega ( RT I 1993 , 63 , 892 ; 1999 , 42 , 497 ; 79 , 730 ; 2000 , 33 , 195 ) s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Kutsekeskharidus</s>
+</p>
+<p>
+<s>( 1 ) Vastavalt kinnipeetava soovile ja sobivusele antakse talle v&otilde;imalus kutsekeskhariduse omandamiseks , samuti t&ouml;&ouml;alases koolituses osalemiseks .</s><s>Kutsekeskhariduse andmisel eelistatakse erialasid , mis on vabaduses enamn&otilde;utavad .</s>
+</p>
+<p>
+<s>( 2 ) Vangla juhtkond kindlustab kutsekeskhariduse omandamiseks ja t&ouml;&ouml;alase koolituse l&auml;biviimiseks vajalike &otilde;ppet&ouml;&ouml;kodade , &otilde;ppevahendite , seadmete , t&ouml;&ouml;riistade , t&ouml;&ouml;kaitsevahendite ja materjalide olemasolu teadmiste ja t&ouml;&ouml;oskuste omandamiseks &otilde;ppekavas etten&auml;htud tasemel , samuti t&ouml;&ouml;praktika v&otilde;imaluse vanglas &otilde;petatavatel erialadel .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetavale , kes ei valda eesti keelt , antakse tema soovil v&otilde;imalus eesti keele &otilde;ppimiseks .</s>
+</p>
+<p>
+<s>( 4 ) Vangla territooriumil asuv kutsekeskhariduse omandamist v&otilde;imaldav kool on Haridusministeeriumi hallatav riigikool , mida finantseeritakse riigieelarve vahenditest kutse&otilde;ppeasutuse seadusega ( RT I 1998 , 64/65 , 1007 ; 1999 , 10 , 150 ; 51 , 550 ) s&auml;testatud alustel ja korras , arvestades k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud erisusi .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>T&ouml;&ouml;kohustus</s>
+</p>
+<p>
+<s>( 1 ) Kui k&auml;esolev seadus ei s&auml;testa teisiti , on kinnipeetav kohustatud t&ouml;&ouml;tama .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;tama ei ole kohustatud :</s>
+</p>
+<p>
+<s>1 ) &uuml;le kuuek&uuml;mne kolme aasta vanune kinnipeetav ;</s>
+</p>
+<p>
+<s>2 ) &uuml;ldharidust v&otilde;i kutsekeskharidust omandav v&otilde;i t&ouml;&ouml;alasel koolitusel osalev kinnipeetav ;</s>
+</p>
+<p>
+<s>3 ) kinnipeetav , kes ei ole tervislikel p&otilde;hjustel v&otilde;imeline t&ouml;&ouml;tama ;</s>
+</p>
+<p>
+<s>4 ) kuni kolmeaastast last kasvatav kinnipeetav .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetava v&otilde;imelisuse t&ouml;&ouml;d teha teeb kindlaks vangla arst .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml; korraldamise viisid ning sisu peavad v&otilde;imalikult vastama t&ouml;&ouml;korraldusele vabaduses .</s>
+</p>
+<p>
+<s>( 5 ) Kinnipeetava rakendamine t&ouml;&ouml;le k&auml;esoleva seaduse &sect; 38 l&otilde;ikes 3 nimetatud k&auml;itistes v&otilde;ib toimuda &uuml;ksnes kinnipeetava n&otilde;usolekul .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>T&ouml;&ouml;ga kindlustamine vanglas</s>
+</p>
+<p>
+<s>( 1 ) Vangla juhtkond kindlustab kinnipeetava t&ouml;&ouml;ga , arvestades kinnipeetava f&uuml;&uuml;silisi ja vaimseid v&otilde;imeid ning oskusi .</s><s>Kui kinnipeetavat ei ole v&otilde;imalik kindlustada t&ouml;&ouml;ga , rakendatakse teda vangla majandust&ouml;&ouml;del .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetavate kindlustamiseks t&ouml;&ouml;ga v&otilde;ib vangla rajada oma territooriumil v&otilde;i v&auml;ljaspool seda k&auml;itiseid , v&otilde;imaldada kinnipeetavatel t&ouml;&ouml;tada v&auml;ljaspool vanglat v&otilde;i rakendada neid vangla majandust&ouml;&ouml;del .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml; tagamiseks kinnipeetavale v&otilde;ib vangla territooriumile k&auml;itise rajamist lubada ka f&uuml;&uuml;silisele isikule v&otilde;i &auml;ri&uuml;hingule , mille ainuosanikuks v&otilde;i aktsion&auml;riks ei ole riik , kui nad on selleks s&otilde;lminud riigiga vastava lepingu .</s><s>Lepingu n&otilde;uded kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>T&ouml;&ouml;tingimused vanglas</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava t&ouml;&ouml;tingimused peavad vastama t&ouml;&ouml;kaitseseadustega kehtestatud n&otilde;uetele , v&auml;lja arvatud k&auml;esolevast seadusest tulenevad erisused .</s><s>Vangla juhtkond on kohustatud kindlustama kinnipeetava elule ja tervisele ohutud t&ouml;&ouml;tingimused .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;letunnit&ouml;&ouml;le , t&ouml;&ouml;le puhkep&auml;evadel ja riiklikel p&uuml;hadel , v&otilde;ib kinnipeetavat rakendada &uuml;ksnes tema n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 3 ) Vangla majandust&ouml;&ouml;del t&ouml;&ouml;tavat kinnipeetavat rakendatakse t&ouml;&ouml;le vastavalt t&ouml;&ouml; erip&auml;rale vangla juhtkonna &auml;ran&auml;gemisel .</s>
+</p>
+<p>
+<s>( 4 ) Vangla direktori korraldusel on kinnipeetav kohustatud osalema t&ouml;&ouml;des loodus&otilde;nnetuse , epideemia , avarii v&otilde;i katastroofi v&auml;ltimiseks , likvideerimiseks v&otilde;i nende tagaj&auml;rgede k&otilde;rvaldamiseks ning muude erakorraliste s&uuml;ndmuste puhul .</s><s>Sellisel juhul kindlustab vangla juhtkond kinnipeetava julgeoleku ja turvalisuse .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Invaliidsush&uuml;vitis</s>
+</p>
+<p>
+<s>Vanglas t&ouml;&ouml;vigastuse v&otilde;i kutsehaiguse t&otilde;ttu t&auml;ielikult v&otilde;i osaliselt t&ouml;&ouml;v&otilde;ime kaotanud kinnipeetavale , kellel ei ole &uuml;lalpeetavaid , makstakse p&auml;rast tema vabanemist invaliidsuspensioni seaduses etten&auml;htud korras .</s><s>Kinnipeetavale , kellel on &uuml;lalpeetavaid , makstakse seaduses etten&auml;htud korras invaliidsuspensioni ka kinnipidamise aja v&auml;ltel .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>T&ouml;&ouml;tamine v&auml;ljaspool vanglat</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetaval , kelle suhtes on piisavalt alust oletada , et ta ei pane toime uusi &otilde;iguserikkumisi , v&otilde;imaldatakse tema n&otilde;usolekul t&ouml;&ouml;tada j&auml;relevalveta v&otilde;i j&auml;relevalve all v&auml;ljaspool vanglat , kui see on vastavuses vabadusekaotuse t&auml;ideviimise eesm&auml;rkide ja kinnipeetava individuaalse t&auml;itmiskavaga .</s><s>Sellisel juhul kohaldatakse k&auml;esoleva seaduse &sect; 22 s&auml;tteid .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava t&ouml;&ouml;tamisel j&auml;relevalveta v&auml;ljaspool vanglat kohaldatakse t&ouml;&ouml;seaduste s&auml;tteid , sealhulgas t&ouml;&ouml;lepingu s&otilde;lmimise , t&ouml;&ouml;tasu ja puhkuse kohta .</s><s>Kinnipeetavaga s&otilde;lmitavast t&ouml;&ouml;lepingust ei tohi n&auml;htuda tema viibimine karistuse kandmisel .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetava t&ouml;&ouml;tamisel v&auml;ljaspool vanglat kannab t&ouml;&ouml;andja kinnipeetava t&ouml;&ouml;tasu vangla arveldusarvele .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>T&ouml;&ouml;kohustusest vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnipeetav on t&ouml;&ouml;tanud &uuml;he aasta v&otilde;i teinud &uuml;he aasta jooksul vangla majandust&ouml;id , v&otilde;ib ta taotleda enda t&ouml;&ouml;kohustusest vabastamist kuni kahek&uuml;mne kaheksaks kalendrip&auml;evaks .</s><s>T&ouml;&ouml;kohustusest vabastatud ajal kinnipeetavale t&ouml;&ouml;tasu ei maksta .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;aasta hulka arvestatakse kuni kuue n&auml;dala ulatuses ka p&auml;evad , mil kinnipeetav ei t&ouml;&ouml;tanud haiguse t&otilde;ttu .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Kinnipeetava t&ouml;&ouml; tasustamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava t&ouml;&ouml;tamisel makstakse talle t&ouml;&ouml;tasu .</s><s>T&ouml;&ouml;tasu makstakse ka kinnipeetavatele , keda rakendatakse vangla majandust&ouml;&ouml;del .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava t&ouml;&ouml;tasu arvutamisel l&auml;htutakse kehtivast alampalgast , t&ouml;&ouml; erip&auml;rast ja t&ouml;&ouml;tatud ajast .</s><s>Kinnipeetava t&ouml;&ouml; tasustamise korra kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Vangla direktor v&otilde;ib kinnipeetava s&uuml;&uuml;l p&otilde;hjustatud ebarahuldavate t&ouml;&ouml;tulemuste eest v&auml;hendada vanglas t&ouml;&ouml;tava kinnipeetava t&ouml;&ouml;tasu kuni 60 protsenti .</s><s>T&ouml;&ouml;tasu v&auml;hendatakse t&ouml;&ouml;d korraldava isiku ettepanekul .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;tasu suurus tehakse kinnipeetavale teatavaks kirjalikult .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Isikuarve</s>
+</p>
+<p>
+<s>( 1 ) Vangla juhtkond kindlustab kinnipeetava t&ouml;&ouml;tasu ja muude kinnipeetavale laekuvate summade kandmise kinnipeetava vanglasisesele isikuarvele .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava isikuarvel olevatest summadest j&auml;etakse 50 protsenti tsiviiln&otilde;uete t&auml;itmiseks , 20 protsenti hoiustatakse vabanemistoetusena ja &uuml;lej&auml;&auml;nud summad j&auml;etakse kinnipeetavale vanglasiseseks kasutamiseks vangla sisekorraeeskirjades s&auml;testatud korras .</s><s>Kui kinnipeetava vastu ei ole tsiviiln&otilde;udeid v&otilde;i neid on v&auml;hem kui 50 protsendi ulatuses , hoiustatakse ka need summad vabanemistoetusena .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetava soovil kasutatakse tema vanglasiseseks kasutamiseks j&auml;etud summasid tsiviiln&otilde;uete t&auml;itmiseks , saadetakse tema perekonnaliikmele v&otilde;i &uuml;lalpeetavale v&otilde;i kantakse tema arveldusarvele pangas .</s>
+</p>
+<p>
+<s>5. jagu</s>
+</p>
+<p>
+<s>Olmetingimused ja tervishoid vanglas</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Kinnipeetava eluruum</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava eluruum peab vastama eluruumile kehtestatud ehitustehnilistele , tervisekaitse- ja h&uuml;gieenin&otilde;uetele .</s><s>Eluruumis peab olema aken , mis kindlustab ruumi n&otilde;uetekohase valgustuse .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetav on kohustatud oma eluruumi ja selle sisustust korras hoidma ning puhastama .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Kinnipeetava riietus</s>
+</p>
+<p>
+<s>( 1 ) Kui k&auml;esolevast seadusest ei tulene teisiti , kannab kinnipeetav vangla riietust .</s><s>Kinnipeetav on kohustatud kandma riietusel nimesilti .</s>
+</p>
+<p>
+<s>( 2 ) Vangla direktor v&otilde;ib lubada kanda kinnipeetaval isiklikku riietust , kui kinnipeetav kindlustab oma kuludega riietuse puhastuse , korrashoiu ning reeglip&auml;rase vahetuse .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Kinnipeetava toitlustamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava toitlustamine korraldatakse vastavuses elanikkonna &uuml;ldiste toitumistavadega ja silmas pidades elutegevuseks vajalikku toidutarvet .</s><s>Kinnipeetava toitlustamine peab olema korrap&auml;rane ja vastama toiduh&uuml;gieeni n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Vangla toidukava koostamist ja toitlustamist j&auml;lgib vangla arst .</s>
+</p>
+<p>
+<s>( 3 ) Arsti ettekirjutusel kindlustatakse kinnipeetavale dieettoitlustamine .</s><s>V&otilde;imaluse korral lubatakse kinnipeetaval j&auml;rgida oma religiooni toitumistavasid .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Sisseostud</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetav v&otilde;ib oma isikuarvel oleva raha eest sisekorraeeskirjades s&auml;testatud korras osta vangla vahendusel toiduaineid , isikliku h&uuml;gieeni tarbeid ja muid asju , mille omamine vanglas on lubatud .</s>
+</p>
+<p>
+<s>( 2 ) Arsti ettekirjutusel v&otilde;idakse kinnipeetavale keelata teatud toiduainete ostmine t&auml;ielikult v&otilde;i osaliselt , kui need v&otilde;ivad kahjustada kinnipeetava tervist .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Tervishoiu korraldamine vanglas</s>
+</p>
+<p>
+<s>( 1 ) Tervishoid vanglas on riigi tervishoius&uuml;steemi osa .</s><s>Tervishoidu vanglas korraldatakse tervishoiukorralduse seaduse ( RT I 1994 , 10 , 133 ; 1995 , 57 , 978 ; 1997 , 86 , 1462 ; 1999 , 18 , 305 ; 23 , 351 ; 97 , 860 ) ja selle alusel v&auml;lja antud &otilde;igusaktide kohaselt .</s>
+</p>
+<p>
+<s>( 2 ) Tervishoidu vanglas finantseeritakse riigieelarvest .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Kinnipeetava isiklik h&uuml;gieen</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetav peab hoolitsema oma isikliku h&uuml;gieeni eest .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;hemalt &uuml;ks kord n&auml;dalas , samuti vanglasse vastuv&otilde;tmisel v&otilde;imaldatakse kinnipeetavale saun , vann v&otilde;i du&scaron;&scaron; .</s>
+</p>
+<p>
+<s>( 3 ) Juuste eest hoolitsemiseks kindlustatakse kinnipeetav juuksuriteenusega .</s><s>Kinnipeetava pea paljaks ajamine on lubatud &uuml;ksnes arsti ettekirjutusel v&otilde;i kinnipeetava soovil .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Sund isikliku h&uuml;gieeni valdkonnas</s>
+</p>
+<p>
+<s>Kui kinnipeetav ei hoolitse oma isikliku h&uuml;gieeni eest vajalikul m&auml;&auml;ral ja see on toonud kaasa reaalse ohu kinnipeetava ja teiste isikute tervisele , v&otilde;ib vangla direktor kasutada sundi h&uuml;gieenin&otilde;uete t&auml;itmise tagamiseks .</s><s>Sunni kasutamine ei tohi ohustada kinnipeetava elu ega tervist .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Vangla arst</s>
+</p>
+<p>
+<s>( 1 ) Tervishoidu vanglas korraldab vangla arst .</s>
+</p>
+<p>
+<s>( 2 ) Vangla arst on kohustatud pidevalt j&auml;lgima kinnipeetavate tervise seisundit , ravima neid vanglas olevate v&otilde;imaluste piires ja vajaduse korral suunama ravile selleks etten&auml;htud raviasutusse , samuti t&auml;itma teisi talle pandud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Kinnipeetava ravimine</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavate tervise seisundi j&auml;lgimiseks ja ravimiseks on vanglas alaline ravipunkt .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetav , kes vajab ravi , mille andmiseks puudub vanglas v&otilde;imalus , suunatakse vangla arsti poolt ravile vastavasse raviasutusse .</s><s>Kinnipeetava valve raviasutuses tagab vangla .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetava raviasutuses viibimise aeg arvatakse karistuse kandmise aja hulka .</s>
+</p>
+<p>
+<s>( 4 ) Kinnipeetava ravikulud tasutakse riigieelarvest .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Eritingimused naiskinnipeetavale</s>
+</p>
+<p>
+<s>( 1 ) Rasedate naiste jaoks sisustatakse vanglas eraldi ruumid ja korraldatakse laste eest hoolitsemine .</s><s>Emal ja kuni kolmeaastasel ( kaasa arvatud ) lapsel v&otilde;imaldatakse ema taotlusel ja eestkosteasutuse n&otilde;usolekul elada koos .</s>
+</p>
+<p>
+<s>( 2 ) Vangla juhtkond tagab emale sideme s&auml;ilimise &uuml;le kolme aasta vanuse lapsega , kui see ei h&auml;iri lapse normaalset kasvatamist ega avalda talle kahjulikku m&otilde;ju .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Kinnipeetava &uuml;ldf&uuml;&uuml;siline seisund</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavale tagatakse v&otilde;imalus kehakultuuriga tegelemiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetavale v&otilde;imaldatakse jalutusk&auml;ik v&auml;rskes &otilde;hus v&auml;hemalt &uuml;ks tund p&auml;evas .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Informeerimine haigestumise v&otilde;i surma puhul</s>
+</p>
+<p>
+<s>Kinnipeetava raskest haigestumisest v&otilde;i surmast informeerib vangla direktor viivitamatult tema omakseid v&otilde;i kinnipeetava soovil m&otilde;nda teist isikut .</s>
+</p>
+<p>
+<s>6. jagu</s>
+</p>
+<p>
+<s>Sotsiaalhoolekanne vanglas</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Sotsiaalhoolekande eesm&auml;rk</s>
+</p>
+<p>
+<s>Sotsiaalhoolekande eesm&auml;rk on aidata kinnipeetaval s&auml;ilitada ja luua sotsiaalselt olulisi ja positiivseid kontakte v&auml;ljaspool vanglat , suurendada tema iseseisvat toimetulekuv&otilde;imet ning m&otilde;jutada teda &otilde;iguskuulekalt k&auml;ituma .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Sotsiaalt&ouml;&ouml;taja</s>
+</p>
+<p>
+<s>( 1 ) Sotsiaalhoolekannet vanglas korraldab vangla sotsiaalt&ouml;&ouml;taja , kelle nimetab ametisse vangla direktor .</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalt&ouml;&ouml;tajaks v&otilde;ib nimetada vastava erialase k&otilde;rgharidusega isiku .</s>
+</p>
+<p>
+<s>( 3 ) Sotsiaalt&ouml;&ouml;tajale laienevad k&otilde;ik vanglaametniku sotsiaalsed tagatised .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Sotsiaalhoolekanne kinnipeetava vastuv&otilde;tmisel</s>
+</p>
+<p>
+<s>Vanglasse vastuv&otilde;tmisel n&otilde;ustatakse kinnipeetavat tema l&auml;hedaste sotsiaalse turvalisuse tagamise ja vara s&auml;ilitamise osas ning antakse kinnipeetavale &otilde;igusabi .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Sotsiaalhoolekanne kinnipeetava vabastamisel</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava vabastamise ettevalmistamisel abistatakse kinnipeetavat tema majanduslike ja isikliku elu korraldamisega seonduvate k&uuml;simuste lahendamisel , samuti dokumentide vormistamisel .</s><s>Kinnipeetavat informeeritakse tema v&otilde;imalustest saada toetust &uuml;ldise sotsiaalhoolekande raames .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava vabastamise ettevalmistamisel edastatakse andmed p&auml;rast vabanemist sotsiaalhoolekannet vajava kinnipeetava kohta kinnipeetava v&otilde;i tema perekonna elukohaj&auml;rgsele valla- v&otilde;i linnavalitsusele ja selgitatakse v&auml;lja konkreetse abi saamise v&otilde;imalused .</s>
+</p>
+<p>
+<s>( 3 ) Kui kinnipeetava v&otilde;i tema perekonna elukoht pole teada v&otilde;i kui kinnipeetav ei soovi p&ouml;&ouml;rduda tagasi oma endisesse elukohta , edastatakse andmed p&auml;rast vabanemist sotsiaalhoolekannet vajava kinnipeetava kohta m&otilde;nele teisele valla- v&otilde;i linnavalitsusele , arvestades v&otilde;imaluse korral kinnipeetava soove elukoha valikul .</s>
+</p>
+<p>
+<s>( 4 ) Vangla on kohustatud edastama valla- v&otilde;i linnavalitsusele nende taotlusel vabanenud kinnipeetavale sotsiaalhoolekande osutamiseks vajalikku teavet ja dokumente .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Kriminaalhooldusametniku kaasamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetava ennet&auml;htaegse vabastamise ettevalmistamisel edastatakse andmed kinnipeetava kohta kinnipeetava v&otilde;i tema perekonna elukohaj&auml;rgsele kriminaalhooldusosakonnale .</s>
+</p>
+<p>
+<s>( 2 ) Kui kinnipeetava v&otilde;i tema perekonna elukoht pole teada v&otilde;i kui kinnipeetav ei soovi p&ouml;&ouml;rduda tagasi oma endisesse elukohta , edastatakse andmed kinnipeetava kohta m&otilde;nele teisele kriminaalhooldusosakonnale , arvestades v&otilde;imaluse korral kinnipeetava soove elukoha valikul .</s>
+</p>
+<p>
+<s>( 3 ) Vangla on kohustatud edastama kohtu poolt m&auml;&auml;ratud kriminaalhooldajale tema taotlusel kriminaalhoolduse teostamiseks vajalikku teavet ja dokumente .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Religioonialane tegevus vanglas</s>
+</p>
+<p>
+<s>Vangla juhtkond tagab kinnipeetavale tema usuliste vajaduste rahuldamise .</s>
+</p>
+<p>
+<s>7. jagu</s>
+</p>
+<p>
+<s>Kinnipeetava distsiplinaarne m&otilde;jutamine</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Distsiplinaarkaristused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse , vangla sisekorraeeskirjade v&otilde;i muude &otilde;igusaktide n&otilde;uete s&uuml;&uuml;lise rikkumise eest v&otilde;ib kinnipeetavale kohaldada distsiplinaarkaristusi .</s><s>Need on :</s>
+</p>
+<p>
+<s>1 ) noomitus ;</s>
+</p>
+<p>
+<s>2 ) &uuml;he l&uuml;hi- v&otilde;i pikaajalise kokkusaamise keelamine ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;lt eemaldamine kuni &uuml;heks kuuks ;</s>
+</p>
+<p>
+<s>4 ) kartserisse paigutamine kuni 45 &ouml;&ouml;p&auml;evaks .</s>
+</p>
+<p>
+<s>( 2 ) Alaealist kinnipeetavat v&otilde;ib kartserisse paigutada kuni 20 &ouml;&ouml;p&auml;evaks .</s>
+</p>
+<p>
+<s>( 3 ) Distsiplinaarkaristuse valikul v&otilde;etakse arvesse vabadusekaotuse t&auml;ideviimise eesm&auml;rki .</s><s>&Uuml;he ja sama distsipliinirikkumise eest v&otilde;ib kohaldada ainult &uuml;ht distsiplinaarkaristust .</s><s>Kollektiivsed distsiplinaarkaristused on keelatud .</s>
+</p>
+<p>
+<s>( 4 ) Raske distsipliinirikkumise korral on vangla direktoril v&otilde;i k&otilde;rgemal kohalviibival vanglaametnikul &otilde;igus paigutada distsipliinirikkuja eraldi kambrisse enne distsiplinaarmenetluse l&otilde;petamist .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Distsiplinaarmenetlus</s>
+</p>
+<p>
+<s>( 1 ) Distsiplinaarmenetluse viib l&auml;bi ning distsipliinirikkumise asjaolud selgitab v&auml;lja vangla direktor v&otilde;i tema poolt selleks volitatud vanglaametnik .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetavat informeeritakse kohe distsipliinirikkumisest , milles teda s&uuml;&uuml;distatakse .</s><s>Kinnipeetaval on &otilde;igus anda selgitusi .</s>
+</p>
+<p>
+<s>( 3 ) Distsiplinaarmenetluse k&auml;ik protokollitakse .</s><s>Protokollile kirjutab alla distsiplinaarmenetluse l&auml;bi viinud vanglaametnik .</s><s>Protokolli vorm ja selles esitatavad andmed s&auml;testatakse vangla sisekorraeeskirjades .</s>
+</p>
+<p>
+<s>( 4 ) Distsiplinaarkaristuse m&auml;&auml;rab vangla direktor distsiplinaarmenetluse l&auml;bi viinud vanglaametniku ettepanekul .</s><s>Distsiplinaarkaristuse m&auml;&auml;ramine vormistatakse k&auml;skkirjana ja seda tuleb p&otilde;hjendada .</s><s>Distsiplinaarkaristuse m&auml;&auml;ramise k&auml;skkirja tutvustatakse kinnipeetavale allkirja vastu .</s>
+</p>
+<p>
+<s>( 5 ) Materjalid m&auml;&auml;ratud distsiplinaarkaristuse kohta lisatakse kinnipeetava isiklikku toimikusse .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Distsiplinaarkaristuse t&auml;ideviimine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;ldjuhul p&ouml;&ouml;ratakse distsiplinaarkaristus t&auml;itmisele kohe .</s>
+</p>
+<p>
+<s>( 2 ) Vangla direktor v&otilde;ib distsiplinaarkaristuse v&otilde;i selle osa t&auml;itmisele p&ouml;&ouml;ramise edasi l&uuml;kata tingimusel , et kinnipeetav ei pane katseajal toime uut distsipliinirikkumist .</s><s>Katseaeg m&auml;&auml;ratakse &uuml;hest kuni kuue kuuni .</s>
+</p>
+<p>
+<s>( 3 ) Kui kinnipeetav paneb katseajal toime uue distsipliinirikkumise , p&ouml;&ouml;ratakse m&otilde;lemad distsiplinaarkaristused kohe t&auml;itmisele .</s>
+</p>
+<p>
+<s>( 4 ) Kui kinnipeetav ei pane katseajal toime uut distsipliinirikkumist , j&auml;etakse distsiplinaarkaristus t&auml;itmisele p&ouml;&ouml;ramata .</s>
+</p>
+<p>
+<s>( 5 ) Distsiplinaarkaristus kustub , kui kinnipeetav &uuml;he aasta jooksul , arvates distsiplinaarkaristuse m&auml;&auml;ramisest , ei ole toime pannud uut distsipliinirikkumist .</s>
+</p>
+<p>
+<s>( 6 ) Distsiplinaarkaristust ei t&auml;ideta , kui seda ei ole p&ouml;&ouml;ratud t&auml;itmisele kaheksa kuu jooksul arvates distsiplinaarkaristuse m&auml;&auml;ramisest .</s>
+</p>
+<p>
+<s>8. jagu</s>
+</p>
+<p>
+<s>Julgeoleku tagamine vanglas</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Kinnipeetavate j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetavate j&auml;relevalve korraldatakse viisil , mis tagab k&auml;esoleva seaduse ja vangla sisekorraeeskirjade t&auml;itmise ja &uuml;ldise julgeoleku vanglas .</s>
+</p>
+<p>
+<s>( 2 ) Vangla sisekorraeeskirjade t&auml;itmise ja julgeoleku eest vanglas vastutab vangla direktor .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Kinnipeetava kohustused</s>
+</p>
+<p>
+<s>Julgeoleku tagamiseks vanglas on kinnipeetav kohustatud :</s>
+</p>
+<p>
+<s>1 ) t&auml;itma vangla sisekorraeeskirju ja alluma vanglaametnike seaduslikele korraldustele ;</s>
+</p>
+<p>
+<s>2 ) mitte takistama vanglaametnike kohustuste t&auml;itmist ega h&auml;irima teisi kinnipeetavaid ja muid isikuid ;</s>
+</p>
+<p>
+<s>3 ) teatama viivitamatult vangla direktorile k&otilde;ikidest asjaoludest , mis v&otilde;ivad ohustada vangla julgeolekut ja sisekorda ning teise isiku elu ja tervist ;</s>
+</p>
+<p>
+<s>4 ) suhtuma heaperemehelikult talle usaldatud esemetesse ja pidama korras tema kasutuses olevad elu- ja olmeruumid .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>L&auml;biotsimine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnikul on &otilde;igus teostada kinnipeetava l&auml;biotsimist , tema isiklike asjade , elu- ja olmeruumide , samuti teiste ruumide ja territooriumi l&auml;biotsimist keelatud esemete ja ainete avastamiseks .</s><s>Kinnipeetava l&auml;biotsimist teostavad temaga samast soost isikud .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku poolt l&auml;biotsimisel leitud keelatud esemed ja ained kuuluvad &auml;rav&otilde;tmisele ning realiseerimisele v&otilde;i h&auml;vitamisele .</s><s>Realiseerimisel saadud summad kantakse riigieelarvesse .</s><s>&Auml;rav&otilde;etud dokumendid j&auml;etakse hoiule vangla juhtkonna k&auml;tte ja tagastatakse kinnipeetavale vanglast vabastamisel .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>T&auml;iendavad julgeolekuabin&otilde;ud</s>
+</p>
+<p>
+<s>( 1 ) T&auml;iendavaid julgeolekuabin&otilde;usid kohaldatakse kinnipeetavale , kes s&uuml;stemaatiliselt rikub k&auml;esolevat seadust v&otilde;i vangla sisekorraeeskirju , tahtlikult kahjustab oma tervist v&otilde;i on suitsiidi- v&otilde;i p&otilde;genemiskalduvustega , samuti kinnipeetavale , kes on v&auml;givaldne teiste isikute suhtes .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;iendavate julgeolekuabin&otilde;udena on lubatud :</s>
+</p>
+<p>
+<s>1 ) kinnipeetava vanglasisese liikumis- ja suhtlemisvabaduse piiramine ;</s>
+</p>
+<p>
+<s>2 ) isiklike riiete kandmise v&otilde;i esemete kasutamise keelamine ;</s>
+</p>
+<p>
+<s>3 ) kehakultuuriga tegelemise keelamine ;</s>
+</p>
+<p>
+<s>4 ) eraldatud lukustatud kambrisse paigutamine ;</s>
+</p>
+<p>
+<s>5 ) ohjeldusmeetmete kasutamine .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud asjaolude &auml;ralangemisel t&auml;iendavate julgeolekuabin&otilde;ude kohaldamine l&otilde;petatakse .</s>
+</p>
+<p>
+<s>( 4 ) T&auml;iendavaid julgeolekuabin&otilde;usid kohaldab vangla direktor .</s><s>Edasil&uuml;kkamatul juhul kohaldab t&auml;iendavaid julgeolekuabin&otilde;usid k&otilde;rgem kohalviibiv vanglaametnik .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Ohjeldusmeetmete kasutamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 69 l&otilde;ike 2 punktis 5 s&auml;testatud ohjeldusmeetmetena v&otilde;ib kasutada kinnisidumist , k&auml;eraudu v&otilde;i rahustuss&auml;rki .</s><s>Ohjeldusmeetmeid v&otilde;ib kasutada ka kinnipeetava saatmisel , kui on olemas k&otilde;rgendatud p&otilde;genemisoht .</s>
+</p>
+<p>
+<s>( 2 ) Ohjeldusmeetme kasutamine ei tohi kesta &uuml;le 12 tunni .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Tulirelva ja erivahendite kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Tulirelva ja erivahendite kasutamine vanglaametniku poolt on lubatud ainult &auml;&auml;rmuslikel juhtudel , kui k&otilde;ik &uuml;lej&auml;&auml;nud meetmed kinnipeetava p&otilde;genemise takistamiseks , p&otilde;genenud kinnipeetava tabamiseks , relvastatud v&otilde;i m&otilde;ne muu ohtliku esemega varustatud kinnipeetava kahjutuks tegemiseks , kallaletungi k&otilde;rvaldamiseks v&otilde;i k&otilde;rvaliste isikute vanglasse sissetungimise takistamiseks on ammendatud .</s>
+</p>
+<p>
+<s>( 2 ) Tulirelva kasutamine naiste ja alaealiste vastu on keelatud , v&auml;lja arvatud p&otilde;genemisel , samuti kui nimetatud isikud kasutavad relva vastupanu avaldamisel v&otilde;i kallaletungil vanglaametnikule v&otilde;i muudele isikutele .</s>
+</p>
+<p>
+<s>( 3 ) Tulirelva kasutamisele peab eelnema hoiatus relva kasutada v&otilde;i hoiatuslask .</s><s>Eelneva hoiatuse v&otilde;i hoiatuslasuta on tulirelva kasutamine lubatud edasil&uuml;kkamatul juhul , t&otilde;rjumaks vahetut ja otsest ohtu elule ja tervisele .</s>
+</p>
+<p>
+<s>( 4 ) Massiliste korratuste puhul otsustab tulirelva ja erivahendite kasutamise lubamise justiitsminister v&otilde;i edasil&uuml;kkamatul juhul k&otilde;rgem kohalviibiv vanglaametnik .</s>
+</p>
+<p>
+<s>( 5 ) Tulirelva ja erivahendite kasutamise t&auml;psema korra ning tulirelva kandmise &otilde;igust omavate vanglaametnike loetelu s&auml;testatakse vangla sisekorraeeskirjades .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Vangla kaitseplaan</s>
+</p>
+<p>
+<s>( 1 ) Erakorraliste olukordade , massiliste rahutuste ja vanglav&auml;liste r&uuml;nnakute t&otilde;rjumiseks , samuti p&otilde;genenud kinnipeetavate tabamiseks t&ouml;&ouml;tatakse vanglas v&auml;lja kaitseplaan , mille kinnitab vangla direktor .</s>
+</p>
+<p>
+<s>( 2 ) Kaitseplaan koosk&otilde;lastatakse Justiitsministeeriumi ja Siseministeeriumiga .</s>
+</p>
+<p>
+<s>9. jagu</s>
+</p>
+<p>
+<s>Kinnipeetava vabastamine</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Vanglast vabastamise alused</s>
+</p>
+<p>
+<s>Kinnipeetav vabastatakse vanglast karistuse &auml;rakandmisel , samuti teistel seaduses etten&auml;htud alustel .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Ettevalmistused vabastamiseks</s>
+</p>
+<p>
+<s>Kinnipeetava vabastamise ettevalmistamiseks korraldatakse kinnipeetava sotsiaalhoolekanne , kohaldatakse soodustusi , v&otilde;imaldatakse l&uuml;hiajalist v&auml;ljas&otilde;itu v&otilde;i paigutatakse kinnipeetav &uuml;mber avavanglasse vastavalt k&auml;esoleva seaduse &sect;-dele 20 , 22 , 32 , 60 ja 61.</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Vanglast vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnipeetav vabastatakse viimasel karistusp&auml;eval v&otilde;imalikult vara , kuid mitte hiljem kui kell 12.00.</s><s>Kui vabastamise p&auml;ev langeb riiklikule p&uuml;hale v&otilde;i puhkep&auml;evale , vabastatakse kinnipeetav viimasel t&ouml;&ouml;p&auml;eval enne riiklikku p&uuml;ha v&otilde;i puhkep&auml;eva .</s>
+</p>
+<p>
+<s>( 2 ) Kui &uuml;hel p&auml;eval kuulub vabastamisele mitu kinnipeetavat , peab vangla juhtkond kindlustama vabastatavate lahkumise vanglast eraldi .</s>
+</p>
+<p>
+<s>( 3 ) Vabastamisel tagastatakse kinnipeetavale vangla hoiul olnud esemed ja dokumendid ning isiklikud riided .</s><s>Kui isiklikud riided puuduvad v&otilde;i ei vasta aastaajale , antakse vabastatavale riided vangla poolt tasuta .</s>
+</p>
+<p>
+<s>( 4 ) Vabastamisel makstakse kinnipeetavale v&auml;lja tema t&ouml;&ouml;tasust hoiustatud vabanemistoetus .</s><s>Kui kinnipeetava vabanemistoetusena hoiustatud summa on v&auml;iksem t&ouml;&ouml;tu &uuml;he kuu abirahast , makstakse kinnipeetavale &uuml;hekordset toetust vabanemistoetusena hoiustatud summa ja t&ouml;&ouml;tu &uuml;he kuu abiraha vahe ulatuses .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Vabastamine tingimisi enne t&auml;htaega</s>
+</p>
+<p>
+<s>( 1 ) Vastavalt kriminaalkoodeksi s&auml;tetele v&otilde;ib vangla direktor teha kohtule esildise kinnipeetava tingimisi enne t&auml;htaega vabastamiseks .</s><s>Esildis esitatakse kohtule koos kinnipeetava isikliku toimikuga .</s>
+</p>
+<p>
+<s>( 2 ) Kinnipeetava esitamisel tingimisi enne t&auml;htaega vabastamiseks arvestatakse individuaalse t&auml;itmiskava t&auml;itmist ja kinnipeetavat iseloomustavaid materjale , mis on fikseeritud isiklikus toimikus .</s>
+</p>
+<p>
+<s>( 3 ) Enne t&auml;htaega vabastamise esildise rahuldamata j&auml;tmisel kohtu poolt v&otilde;ib seda korrata mitte varem kui poole aasta p&auml;rast .</s>
+</p>
+<p>
+<s>( 4 ) Kinnipeetava ennet&auml;htaegsel vabastamisel v&otilde;ib vangla juhtkond vabanemistoetuse teatud osas &uuml;le kanda kinnipeetava elukohaj&auml;rgse kriminaalhooldusosakonna eriarvele selle v&auml;ljamaksmiseks osadena .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Noore kinnipeetava vabadusekaotuse t&auml;ideviimine</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Noor kinnipeetav</s>
+</p>
+<p>
+<s>Noor kinnipeetav k&auml;esoleva seaduse t&auml;henduses on isik , kes karistuse t&auml;itmisele p&ouml;&ouml;ramise ajal on noorem kui 21-aastane .</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Noore kinnipeetava kinnipidamine</s>
+</p>
+<p>
+<s>Noore kinnipeetava kinnipidamine toimub selleks eraldi etten&auml;htud kinnises v&otilde;i avavanglas ( noortevangla ) v&otilde;i kinnise vangla eraldi osakonnas ( noorteosakond ) .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Noore kinnipeetava vastuv&otilde;tmine vanglasse</s>
+</p>
+<p>
+<s>Noore kinnipeetava vastuv&otilde;tmisel vanglasse ei tohi tema vastuv&otilde;tuosakonnas viibimise aeg &uuml;letada kahte n&auml;dalalt .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Noore kinnipeetava vabadusekaotuse t&auml;ideviimise &uuml;ldtingimused</s>
+</p>
+<p>
+<s>Noore kinnipeetava vabadusekaotuse t&auml;ideviimisele kohaldatakse k&auml;esoleva seaduse 1 , 2 , ja 6 peat&uuml;ki s&auml;tteid k&auml;esolevas peat&uuml;kis s&auml;testatud erisustega .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Noore kinnipeetava eraldi kinnipidamine</s>
+</p>
+<p>
+<s>Noortevanglas v&otilde;i noorteosakonnas hoitakse eraldi :</s>
+</p>
+<p>
+<s>1 ) nooremaid kui 15-aastasi ;</s>
+</p>
+<p>
+<s>2 ) 15- kuni 16-aastasi ;</s>
+</p>
+<p>
+<s>3 ) 16- kuni 18-aastasi ;</s>
+</p>
+<p>
+<s>4 ) 18- kuni 21-aastasi .</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>&Uuml;mberpaigutamine t&auml;iskasvanute vanglasse v&otilde;i osakonda</s>
+</p>
+<p>
+<s>( 1 ) Noortevanglas v&otilde;i noorteosakonnas 21 aastaseks saanud kinnipeetav paigutatakse &uuml;mber t&auml;iskasvanute kinnisesse vanglasse v&otilde;i kinnise vangla t&auml;iskasvanute osakonda vastavalt t&auml;itmisplaanile .</s>
+</p>
+<p>
+<s>( 2 ) Erandkorras v&otilde;ib t&auml;iskasvanute kinnisesse vanglasse v&otilde;i kinnise vangla t&auml;iskasvanute osakonda &uuml;mber paigutada ka 18- kuni 21-aastase kinnipeetava , kui see on vajalik tulenevalt kinnipeetava iseloomust ja individuaalsest t&auml;itmiskavast .</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>Noore kinnipeetava t&ouml;&ouml;tamise erisused</s>
+</p>
+<p>
+<s>Alla 18-aastase noore kinnipeetava t&ouml;&ouml;tamisele kohaldatakse k&otilde;iki t&ouml;&ouml;kaitseseadustest tulenevaid alaealise t&ouml;&ouml;tamise erisusi , sealhulgas erisusi t&ouml;&ouml;aja kohta .</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>Noorele kinnipeetavale hariduse andmise erisused</s>
+</p>
+<p>
+<s>( 1 ) Alla 18-aastasele noorele kinnipeetavale on p&otilde;hihariduse omandamine seadusega etten&auml;htud ulatuses kohustuslik .</s><s>Vastavalt noore kinnipeetava soovile ja sobivusele antakse talle v&otilde;imalus kutsekeskhariduse omandamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Noore kinnipeetava vabadusekaotuse t&auml;ideviimise eesm&auml;rkide saavutamise huvides v&otilde;ib suurendada k&auml;esoleva seaduse &sect;-des 24 ja 25 s&auml;testatud kokkusaamiste ja k&auml;esoleva seaduse &sect;-s 32 s&auml;testatud l&uuml;hiajaliste v&auml;ljas&otilde;itude arvu ja kestvust .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Aresti ja haldusaresti t&auml;ideviimine</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>Aresti ja haldusaresti kandmine</s>
+</p>
+<p>
+<s>( 1 ) Aresti kandmine toimub otsuse teinud kohtu asukohaj&auml;rgses v&otilde;i arestialuse elukohaj&auml;rgses arestimajas .</s>
+</p>
+<p>
+<s>( 2 ) Ajateenijale m&otilde;istetud aresti kandmine toimub garnisoni arestimajas .</s>
+</p>
+<p>
+<s>( 3 ) Haldusaresti kandmine toimub otsuse teinud kohtu asukohaj&auml;rgses v&otilde;i arestialuse elukohaj&auml;rgses arestimajas .</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>Aresti ja haldusaresti t&auml;ideviimise &uuml;ldtingimused</s>
+</p>
+<p>
+<s>( 1 ) Aresti ja haldusaresti t&auml;ideviimisele kohaldatakse k&auml;esoleva seaduse 1. ja 2. ning 6. ja 7. peat&uuml;ki s&auml;tteid k&auml;esolevas peat&uuml;kis s&auml;testatud erisustega .</s>
+</p>
+<p>
+<s>( 2 ) Arestialuseid hoitakse &ouml;&ouml;p&auml;evaringselt lukustatud kambrites .</s>
+</p>
+<p>
+<s>( 3 ) Arestialust avavanglasse &uuml;mber ei paigutata .</s>
+</p>
+<p>
+<s>( 4 ) Arestialune ei ole kohustatud t&ouml;&ouml;tama .</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>Arestialuse kokkusaamised</s>
+</p>
+<p>
+<s>( 1 ) Arestialusele v&otilde;imaldatakse j&auml;relevalve all &uuml;ks kord n&auml;dalas l&uuml;hiajaline kokkusaamine oma perekonnaliikmete , vaimuliku ja teiste isikutega .</s>
+</p>
+<p>
+<s>( 2 ) Kokkusaamise kestus on kuni kaks tundi .</s><s>Kokkusaamise kord s&auml;testatakse arestimaja sisekorraeeskirjades .</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>Arestialuse l&uuml;hiajaline vabastamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 32 l&otilde;ikes 2 s&auml;testatud alustel v&otilde;ib arestimaja juht vabastada arestialuse kuni kolmeks p&auml;evaks .</s>
+</p>
+<p>
+<s>( 2 ) Arestialuse vabaduses viibimise ajaks aresti kandmine peatub .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-s 33 s&auml;testatud l&uuml;hiajalist v&auml;ljaviimist arestialusele ei kohaldata .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eelvangistuse t&auml;ideviimine</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>Eelvangistusse vastuv&otilde;tmise alus</s>
+</p>
+<p>
+<s>Isik v&otilde;etakse vanglasse v&otilde;i arestimajja vastu kohtum&auml;&auml;ruse &auml;rakirja ning isikut t&otilde;endavate dokumentide v&otilde;i nende puudumisel politsei koostatud isikusamasuse tuvastamise dokumentide alusel .</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>Eelvangistuse &uuml;ldtingimused</s>
+</p>
+<p>
+<s>( 1 ) Eelvangistust kantakse kinnise vangla eelvangistusosakonnas ja arestimajas .</s>
+</p>
+<p>
+<s>( 2 ) Vahistatut hoitakse &ouml;&ouml;p&auml;evaringselt lukustatud kambris .</s><s>Eraldi hoitakse vahistatuid , keda s&uuml;&uuml;distatakse &uuml;hes ja samas kriminaalasjas , samuti teisi vahistatuid uurija , prokur&ouml;ri v&otilde;i kohtu korraldusel .</s>
+</p>
+<p>
+<s>( 3 ) Vahistatu kamber peab vastama k&auml;esoleva seaduse &sect; 45 l&otilde;ikes 1 s&auml;testatud tingimustele ja tagama vahistatu pideva visuaalse ja elektroonilise j&auml;lgimise .</s>
+</p>
+<p>
+<s>( 4 ) Vangla juhtkond on kohustatud tarvitusele v&otilde;tma k&otilde;ik meetmed , et v&auml;listada eri kambritesse paigutatud vahistatute omavaheline sidepidamine .</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>Vastuv&otilde;tmine eelvangistusse</s>
+</p>
+<p>
+<s>( 1 ) Vanglasse saabumisel kuuluvad vahistatu ning tema asjad hoolikale l&auml;biotsimisele .</s><s>L&auml;biotsimise viib l&auml;bi vahistatuga samast soost vanglaametnik .</s><s>Vahistatu isiklike asjade hoiulev&otilde;tmisel l&auml;htutakse k&auml;esoleva seaduse &sect;-st 15.</s>
+</p>
+<p>
+<s>( 2 ) Eelvangistusse vastuv&otilde;tmisel on vahistatu kohustatud l&auml;bima tervisekontrolli , mille viib l&auml;bi vangla arst .</s><s>Vahistatu fotografeeritakse ja dakt&uuml;loskopeeritakse k&auml;esoleva seaduse &sect;-s 15 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Vangla direktor v&otilde;i tema poolt m&auml;&auml;ratud vanglaametnik informeerib kohe vahistatut tema &otilde;igustest ja kohustustest .</s>
+</p>
+<p>
+<s>( 4 ) Vanglasse vastuv&otilde;tmisel n&otilde;ustatakse vahistatut tema l&auml;hedaste sotsiaalse turvalisuse tagamise ja vara s&auml;ilitamise osas ning antakse vahistatule &otilde;igusabi .</s>
+</p>
+<p>
+<s>( 5 ) Vahistatu vastuv&otilde;tmisest vanglasse teavitab vangla direktor viivitamatult uurijat v&otilde;i kohut , kui kriminaalasi on kohtu menetluses .</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>Vahistatu &uuml;mberpaigutamisest teatamine</s>
+</p>
+<p>
+<s>Vahistatu &uuml;mberpaigutamisest on vahistatu vastuv&otilde;tja kohustatud teatama uurijale v&otilde;i kohtule , kui kriminaalasi on kohtu menetluses .</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Eelvangistuse kandmine</s>
+</p>
+<p>
+<s>( 1 ) Vahistatu kannab isiklikke riideid .</s><s>Kui kandmisk&otilde;lblikud isiklikud riided puuduvad v&otilde;i kui vahistatu ei soovi neid kanda , antakse vahistatule vangla poolt tasuta riietus .</s>
+</p>
+<p>
+<s>( 2 ) Vahistatu toitlustamisel l&auml;htutakse k&auml;esoleva seaduse &sect;-st 47.</s><s>Vahistatul on lubatud vangla vahendusel sisekorraeeskirjades s&auml;testatud korras osta toiduaineid , isikliku h&uuml;gieeni tarbeid ja muid asju , mille omamine vanglas on lubatud .</s>
+</p>
+<p>
+<s>( 3 ) Vahistatule peavad olema k&auml;ttesaadavad &uuml;leriigilised p&auml;evalehed ning raamatukogus hoitavad raamatud ja ajakirjad .</s><s>Vangla direktori n&otilde;usolekul on kambris lubatud isiklik raadio v&otilde;i teler .</s><s>Vangla direktor v&otilde;ib lubada vahistatu kambri valgustamist v&auml;ljaspool etten&auml;htud aega .</s>
+</p>
+<p>
+<s>( 4 ) Alaealisele vahistatule , kes on olnud vahistuses v&auml;hemalt &uuml;ks kuu , v&otilde;imaldatakse p&otilde;hi- v&otilde;i &uuml;ldkeskhariduse omandamise j&auml;tkamine vastava riikliku &otilde;ppekava alusel .</s>
+</p>
+<p>
+<s>( 5 ) Vahistatule v&otilde;imaldatakse tema soovil v&auml;hemalt &uuml;ks tund p&auml;evas vabas &otilde;hus viibimist .</s>
+</p>
+<p>
+<s>( 6 ) Kui vahistatu haigestumise korral pole v&otilde;imalik talle vanglas kindlustada n&otilde;utavat ravi , suunab vangla arst vahistatu ravile vastavasse raviasutusse .</s><s>Vahistatu suunamisest raviasutusse teavitab vangla direktor viivitamatult uurijat v&otilde;i kohut , kui kriminaalasi on kohtumenetluses .</s>
+</p>
+<p>
+<s>( 7 ) Vahistatu ei ole kohustatud t&ouml;&ouml;tama .</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>Vahistatu kokkusaamised</s>
+</p>
+<p>
+<s>( 1 ) Vahistatule lubatakse l&uuml;hiajalisi kokkusaamisi isiklikes , &otilde;iguslikes v&otilde;i &auml;rilistes huvides , mida vahistatu ei saa teostada l&auml;bi kolmandate isikute .</s><s>Vahistatu l&uuml;hiajaliste kokkusaamiste &otilde;igust v&otilde;ib vangla direktor piirata uurija , prokur&ouml;ri v&otilde;i kohtu loal , kui see on vajalik kriminaalmenetluse l&auml;biviimise tagamiseks .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lisriigi kodanikust vahistatul on piiramatu &otilde;igus kokkusaamisele oma riigi konsulaart&ouml;&ouml;tajaga .</s>
+</p>
+<p>
+<s>( 3 ) Vahistatu kokkusaamine toimub vanglaametniku juuresolekul , kes v&otilde;ib kokkusaamisesse sekkuda v&otilde;i selle kohe katkestada , kui kokkusaamine v&otilde;ib kahjustada kriminaalmenetluse l&auml;biviimist .</s>
+</p>
+<p>
+<s>( 4 ) Vahistatu l&uuml;hiajalise kokkusaamise kestvus ja t&auml;psem kord s&auml;testatakse vangla sisekorraeeskirjades .</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>Kokkusaamised kaitsjaga</s>
+</p>
+<p>
+<s>( 1 ) Vahistatul on piiramatu &otilde;igus kokkusaamisele oma kaitsjaga .</s><s>Kokkusaamised kaitsjaga toimuvad segamatult , vanglaametnik v&otilde;ib kokkusaamisi kaitsjaga visuaalselt j&auml;lgida , kuid mitte pealt kuulata .</s>
+</p>
+<p>
+<s>( 2 ) Kaitsjal on lubatud vahistatule &uuml;le anda kaitse ettevalmistamiseks vajalikke materjale .</s><s>Materjalide sisuline l&auml;bivaatus vanglaametnike poolt on keelatud .</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Vahistatu kirjavahetus ja telefonik&otilde;ned</s>
+</p>
+<p>
+<s>( 1 ) Vahistatul on &otilde;igus kirjavahetusele , samuti telefoni ning muude &uuml;ldkasutatavate sidekanalite kasutamisele , kui selleks on tehnilised tingimused .</s><s>Kirjavahetus ja telefoni ning muude &uuml;ldkasutatavate sidekanalite kasutamine toimub vangla sisekorraeeskirjadega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Vahistatu k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud &otilde;igust v&otilde;ib vangla direktor piirata &uuml;ksnes uurija , prokur&ouml;ri v&otilde;i kohtu loal , kui see on vajalik kriminaalmenetluse l&auml;biviimise tagamiseks .</s><s>Keelatud on vahistatu kirjavahetuse ja telefoni ning muude &uuml;ldkasutatavate sidekanalite kasutamise piiramine suhtlemiseks riigiasutuste , kohalike omavalitsuste ja nende ametiisikutega , samuti kaitsjaga .</s>
+</p>
+<p>
+<s>( 3 ) Kirjavahetus ja telefoni ning &uuml;ldkasutatavate sidekanalite kasutamine toimub vahistatu kulul .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Vahistatu kirjavahetuse ja telefonik&otilde;nede j&auml;lgimine</s>
+</p>
+<p>
+<s>( 1 ) Vahistatule saadetud v&otilde;i tema poolt saadetavad kirjad , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatud isikutele ja ametiasutustele adresseeritud kirjad , avatakse vanglaametniku poolt vahistatu juuresolekul ning v&otilde;etakse sealt &auml;ra esemed , mille omamine vanglas on vangla sisekorraeeskirjadega keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Vahistatu kirjavahetuse ja telefoni ning muude &uuml;ldkasutatavate sidekanalitega edastavate s&otilde;numite sisu v&otilde;ib kontrollida &uuml;ksnes kohtu loal j&auml;litustegevuse seaduses s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on kontrollida vahistatu kirju ja telefonik&otilde;nesid kaitsjale , &otilde;iguskantslerile , prokur&ouml;rile , kohtule ja Justiitsministeeriumile .</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>Pakid</s>
+</p>
+<p>
+<s>( 1 ) Vahistatul on lubatud saada pakke .</s>
+</p>
+<p>
+<s>( 2 ) Paki sisu kontrollitakse enne selle &uuml;leandmist vahistatule vanglaametniku poolt ja paki saaja juuresolekul .</s><s>Vangla direktoril on &otilde;igus kinni pidada ja vahistatule mitte &uuml;le anda pakis sisalduvaid asju , mille omamine vanglas on keelatud v&otilde;i mis v&otilde;ivad ohustada kriminaalmenetluse l&auml;biviimist .</s>
+</p>
+<p>
+<s>( 3 ) Kinnipeetud asjad , mille omamiseks vajalik eriluba puudub , v&otilde;etakse &auml;ra ja h&auml;vitatakse .</s><s>&Uuml;lej&auml;&auml;nud kinnipeetud asjad tagastatakse paki saatjale .</s>
+</p>
+<p>
+<s>( 4 ) Kinnipeetud asjade tagastamise ning &auml;rav&otilde;tmise ja h&auml;vitamise korra kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Vahistatu l&uuml;hiajaline v&auml;ljaviimine</s>
+</p>
+<p>
+<s>( 1 ) Olulistel ja edasil&uuml;kkamatutel isiklikel , &otilde;iguslikel v&otilde;i &auml;rilistel asjaoludel , mis n&otilde;uavad vahistatu isiklikku kohalolekut , v&otilde;ib uurija v&otilde;i kohus , kui kriminaalasi on kohtu menetluses , anda loa vahistatu v&auml;ljaviimiseks j&auml;relevalve all kuni &uuml;heks p&auml;evaks .</s><s>V&auml;ljaviimise kulud kannab vahistatu .</s>
+</p>
+<p>
+<s>( 2 ) Luba antakse vahistatu taotluse alusel .</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>Vahistatule kohaldatavad distsiplinaarkaristused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse , vangla sisekorraeeskirjade v&otilde;i muude &otilde;igusaktide n&otilde;uete s&uuml;&uuml;lise rikkumise eest v&otilde;ib vahistatule kohaldada distsiplinaarkaristusi .</s><s>Need on :</s>
+</p>
+<p>
+<s>1 ) noomitus ;</s>
+</p>
+<p>
+<s>2 ) isiklike vahendite arvel lisatoitlustamise &otilde;iguse keelamine kuni kaheks kuuks ;</s>
+</p>
+<p>
+<s>3 ) kartserisse paigutamine kuni 30 p&auml;evaks .</s>
+</p>
+<p>
+<s>( 2 ) Nooremat kui kaheksateistk&uuml;mneaastast vahistatut v&otilde;ib kartserisse paigutada kuni 15 &ouml;&ouml;p&auml;evaks .</s>
+</p>
+<p>
+<s>( 3 ) Distsiplinaarkaristuse valikul v&otilde;etakse arvesse eelvangistuse p&otilde;hjust ja eesm&auml;rki .</s><s>&Uuml;he ja sama distsipliinirikkumise eest v&otilde;ib kohaldada ainult &uuml;ht distsiplinaarkaristust .</s><s>Kollektiivsed distsiplinaarkaristused on keelatud .</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Distsiplinaarmenetlus</s>
+</p>
+<p>
+<s>( 1 ) Distsiplinaarmenetluse l&auml;biviimisele ja distsiplinaarkaristuse m&auml;&auml;ramisele kohaldatakse k&auml;esoleva seaduse &sect; 64 s&auml;tteid .</s>
+</p>
+<p>
+<s>( 2 ) Distsiplinaarkaristus p&ouml;&ouml;ratakse t&auml;itmisele kohe .</s>
+</p>
+<p>
+<s>( 3 ) Vahistatule m&auml;&auml;ratud distsiplinaarkaristust ei t&auml;ideta , kui seda ei ole p&ouml;&ouml;ratud t&auml;itmisele &uuml;he kuu jooksul , arvates distsiplinaarkaristuse m&auml;&auml;ramisest .</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Kriminaalmenetluse tagamine</s>
+</p>
+<p>
+<s>( 1 ) Kui on piisavalt alust oletada , et vahistatu v&otilde;ib oma tegevusega oluliselt kahjustada kriminaalmenetluse l&auml;biviimist , v&otilde;ib vangla direktor uurija v&otilde;i kohtu taotlusel kohaldada vahistatu suhtes t&auml;iendavaid abin&otilde;usid .</s><s>Need on :</s>
+</p>
+<p>
+<s>1 ) t&auml;ielik eraldamine teistest vahistatutest ;</s>
+</p>
+<p>
+<s>2 ) isiklike riiete kandmise v&otilde;i isiklike esemete kasutamise keelamine .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud abin&otilde;ude kohaldamise kestuse otsustab uurija , prokur&ouml;r v&otilde;i kohus , kui kriminaalasi on kohtu menetluses .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on vahistatu kokkusaamiste piiramine oma kaitsjaga , samuti v&auml;lisriigi kodanikust vahistatu kokkusaamiste piiramine oma riigi konsulaart&ouml;&ouml;tajaga .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>T&auml;iendavad julgeolekuabin&otilde;ud vahistatu suhtes</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect; 69 l&otilde;ikes 1 s&auml;testatud alustel v&otilde;ib vangla direktor kohaldada vahistatu suhtes k&auml;esoleva seaduse &sect;-des 69 ja 70 s&auml;testatud t&auml;iendavaid julgeolekuabin&otilde;usid .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>Eelvangistusest vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Vahistatu vabastatakse vahistust&auml;htaja l&otilde;ppemisel , samuti teistel seaduses s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 2 ) Kolm p&auml;eva enne vahistust&auml;htaja l&otilde;ppemist teatab vangla direktor sellest uurijale v&otilde;i prokur&ouml;rile , kelle menetluses on kriminaalasi .</s>
+</p>
+<p>
+<s>( 3 ) Kui vahistust&auml;htaega ei pikendata , vabastatakse vahistatu vahistust&auml;htaja viimasel p&auml;eval hiljemalt kell 12.00.</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&auml;ideviimise korraldus</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Vangla</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>Vangla</s>
+</p>
+<p>
+<s>( 1 ) Vangla on Justiitsministeeriumi valitsemisalas olev valitsusasutus , mille &uuml;lesandeks on vabadusekaotuse , aresti ja eelvangistuse t&auml;ideviimine k&auml;esolevas seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Vangla p&otilde;him&auml;&auml;ruse , koosseisud ja vangla sisekorraeeskirjad kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>( 3 ) Vangla kodukorra kinnitab vangla direktor koosk&otilde;lastatult Justiitsministeeriumiga .</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>Vangla direktor</s>
+</p>
+<p>
+<s>Vangla direktor juhib vangla t&ouml;&ouml;d ja t&auml;idab teisi talle pandud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>Erialane j&auml;relevalve</s>
+</p>
+<p>
+<s>Erialast j&auml;relevalvet haridus- , sotsiaal- ja tervishoiualaste &uuml;lesannete t&auml;itmise &uuml;le vanglas teostavad haridusminister ja sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>Vanglakomisjon</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;ldsuse kontrolli vangla &uuml;le teostab selle juures tegutsev vanglakomisjon .</s><s>Vanglakomisjoni koosseisu ei tohi kuuluda vanglaametnikud .</s>
+</p>
+<p>
+<s>( 2 ) Vanglakomisjoni &uuml;lesanne on aidata vangla juhtkonnal korraldada vangla t&ouml;&ouml;d , sealhulgas abistada vangla juhtkonda kinnipeetavate paigutamise , &otilde;ppimise , t&ouml;&ouml;tamise , toitlustamise , meditsiinilise teeninduse , j&auml;relevalve ja teiste karistuse t&auml;ideviimisega seotud k&uuml;simuste lahendamisel .</s>
+</p>
+<p>
+<s>( 3 ) Vanglakomisjoni t&auml;psemad &uuml;lesanded , koosseis ja t&ouml;&ouml;kord , samuti vanglakomisjoni liikmete tasustamise kord s&auml;testatakse vanglakomisjoni p&otilde;him&auml;&auml;rusega , mille kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 s&auml;testatud &uuml;lesannete t&auml;itmiseks on vanglakomisjonil &otilde;igus vastu v&otilde;tta otsuseid , soovitusi ja proteste .</s>
+</p>
+<p>
+<s>( 5 ) Vanglakomisjon esitab iga aasta 1. veebruariks Justiitsministeeriumile aruande oma eelneva aasta t&ouml;&ouml; kohta .</s><s>Aruanne esitatakse vanglakomisjoni esimehe kaudu .</s>
+</p>
+<p>
+<s>( 6 ) Vanglakomisjoni liige ei tohi avaldada talle oma &uuml;lesannete t&auml;itmisega teatavaks saanud kinnipeetava delikaatseid isikuandmeid .</s>
+</p>
+<p>
+<s>( 7 ) Vanglakomisjoni liikmed nimetab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>Vangla valve ja saatemeeskond</s>
+</p>
+<p>
+<s>( 1 ) Vangla valve korraldamiseks ja kinnipeetava saatmiseks on vanglas relvastatud valve- ja saatemeeskond , mille isikkoosseisule antakse eriv&auml;lja&otilde;pe .</s>
+</p>
+<p>
+<s>( 2 ) Valve- ja saatemeeskonna &uuml;lesanded ja t&ouml;&ouml;kord s&auml;testatakse justiitsministri kehtestatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Vajaduse korral moodustab justiitsminister vangla juurde relvastatud &uuml;ksuse eri&uuml;lesannete t&auml;itmiseks ja m&auml;&auml;rab selle tegevuse korra .</s>
+</p>
+<p>
+<s>( 4 ) Vajaduse korral kaasatakse kinnipeetavate saatmiseks politseiametnikke .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Vanglateenistus</s>
+</p>
+<p>
+<s>1. jaotis</s>
+</p>
+<p>
+<s>Vanglaametnik</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>Vanglateenistuse m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Vanglateenistus on teenistus vangla koosseisulisel ametikohal , mille &uuml;lesandeks on kinnipeetava , arestialuse ja vahistatu kinnipidamine ja j&auml;relevalve , julgeoleku tagamine vanglas ning eeluurimise teostamine vanglas toimepandud kuritegudes , samuti sellealase tegevuse juhtimine .</s>
+</p>
+<p>
+<s>( 2 ) Vanglateenistuseks loetakse ka teenistus Sisekaitseakadeemia korrektsioonialast haridust andva struktuuri&uuml;ksuse v&otilde;i muu vanglaametnike ettevalmistusteenistust l&auml;biviiva asutuse juhi ja korrektsiooni eriala&otilde;ppej&otilde;udude ametikohal .</s>
+</p>
+<p>
+<s>&sect; 111.</s><s>Vanglaametnik</s>
+</p>
+<p>
+<s>Vanglaametnik on vanglateenistuses olev ametnik .</s>
+</p>
+<p>
+<s>&sect; 112.</s><s>Vanglaametnike ametiastmed</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnikud jagunevad ametiastmele vastavate ametikohtade &uuml;lesannete keerukuse v&otilde;i juhtimisfunktsiooni mahu ja olemasolu j&auml;rgi j&auml;rgmistesse ametiastmetesse alanevas j&auml;rjestuses :</s>
+</p>
+<p>
+<s>1 ) vangla peainspektor ;</s>
+</p>
+<p>
+<s>2 ) I klassi vanglainspektor ;</s>
+</p>
+<p>
+<s>3 ) II klassi vanglainspektor ;</s>
+</p>
+<p>
+<s>4 ) I klassi valvur ;</s>
+</p>
+<p>
+<s>5 ) II klassi valvur .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku ametiastmetele vastavad ametikohad kehtestab justiitsminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>2. jaotis</s>
+</p>
+<p>
+<s>Vanglateenistusse v&otilde;tmine</s>
+</p>
+<p>
+<s>&sect; 113.</s><s>Vanglaametniku ametisse nimetamine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku ametikohale v&otilde;ib ametisse nimetada avaliku teenistuse seaduse ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ) &sect;-s 14 s&auml;testatud n&otilde;uetele vastava isiku , kes on l&auml;binud vanglaametniku ettevalmistusteenistuse ning t&auml;itnud ajateenistuse kohustuse .</s>
+</p>
+<p>
+<s>( 2 ) Ettevalmistusteenistuse l&auml;binud vanglaametnik nimetatakse ametisse tema ettevalmistusteenistusej&auml;rgsele madalaimale ametiastmele vastavale ametikohale .</s>
+</p>
+<p>
+<s>( 3 ) Isiku , kellel on teadus- v&otilde;i kutsekraad v&otilde;i kes on v&auml;hemalt kaks aastat t&ouml;&ouml;tanud kohtuniku , prokur&ouml;ri , vanema v&otilde;i k&otilde;rgema politsei- , piirivalve- v&otilde;i p&auml;&auml;steametnikuna v&otilde;i Justiitsministeeriumi koosseisus k&otilde;rgemate ametnike p&otilde;higruppi kuuluval ametikohal , v&otilde;ib vanglaametniku ametikohale ametisse nimetada ka juhul , kui ta pole l&auml;binud vanglaametniku ettevalmistusteenistust .</s>
+</p>
+<p>
+<s>( 4 ) Isiku , kes on v&auml;hemalt kaks aastat t&ouml;&ouml;tanud noorema politsei- , piirivalve- v&otilde;i p&auml;&auml;steametnikuna v&otilde;ib k&auml;esoleva seaduse &sect; 112 l&otilde;ike 1 punktides 4-5 s&auml;testatud ametiastmele vastavale ametikohale nimetada ka juhul , kui ta pole l&auml;binud vanglaametniku ettevalmistusteenistust .</s>
+</p>
+<p>
+<s>( 5 ) Vanglaametnik nimetatakse ametisse m&auml;&auml;ramata t&auml;htajaks .</s>
+</p>
+<p>
+<s>( 6 ) Ettevalmistusteenistuse praktilise v&auml;lja&otilde;ppe l&auml;bimisel vanglas v&otilde;i ettevalmistusteenistuse l&otilde;petanud isiku ametisse nimetamisel ei rakendata avaliku teenistuse seaduse &sect;-s 14 s&auml;testatud vanuse alampiiri .</s>
+</p>
+<p>
+<s>&sect; 114.</s><s>Isikud , keda on keelatud v&otilde;tta vanglateenistusse</s>
+</p>
+<p>
+<s>Vanglaametniku ettevalmistusteenistusse v&otilde;tta ja vanglaametniku ametikohale ametisse nimetada on keelatud isikut :</s>
+</p>
+<p>
+<s>1 ) kes on teov&otilde;imetu v&otilde;i piiratud teov&otilde;imega ;</s>
+</p>
+<p>
+<s>2 ) keda on karistatud tahtlikult toimepandud kuriteo eest ;</s>
+</p>
+<p>
+<s>3 ) kes on kandnud vabadusekaotuslikku karistust ;</s>
+</p>
+<p>
+<s>4 ) kes on kriminaalasjas kahtlustatav , s&uuml;&uuml;distatav v&otilde;i kohtualune v&otilde;i</s>
+</p>
+<p>
+<s>5 ) kellelt on j&otilde;ustunud kohtuotsusega &auml;ra v&otilde;etud vanglaametniku ametikohal t&ouml;&ouml;tamise &otilde;igus .</s>
+</p>
+<p>
+<s>&sect; 115.</s><s>Vanglaametniku ettevalmistusteenistus</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku ettevalmistusteenistus koosneb erialasest teoreetilisest ja praktilisest v&auml;lja&otilde;ppest .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku kandidaadi ettevalmistusteenistuse kohaks on vangla , kus vanglaametniku kandidaat praktilisel v&auml;lja&otilde;ppel osaleb , ja Sisekaitseakadeemia .</s><s>K&auml;esoleva seaduse &sect; 119 l&otilde;ikes 1 nimetatud ettevalmistusteenistuse puhul v&otilde;ib selleks olla ka muu &otilde;ppeasutus vastavalt k&auml;esoleva seaduse &sect; 116 l&otilde;ikes 7 nimetatud korrale .</s>
+</p>
+<p>
+<s>( 3 ) Vanglaametniku ettevalmistusteenistuses olev isik kannab ametinimetust &ldquo; vanglaametniku kandidaat &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 116.</s><s>Ettevalmistusteenistuse &otilde;iguslik reguleerimine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku kandidaadi ettevalmistusteenistuse teoreetilisele osale &otilde;ppeasutuses ei laiene avaliku teenistuse seadus ning sellel viibimist ei loeta avalikuks teenistuseks j&auml;rgmiste eranditega :</s>
+</p>
+<p>
+<s>1 ) ettevalmistusteenistuses viibimise aeg arvatakse teenistusstaa&zcaron;i hulka ja</s>
+</p>
+<p>
+<s>2 ) ettevalmistusteenistusse astunud isikul on vastavalt avaliku teenistuse seaduse &sect; 53 l&otilde;ikele 1 &otilde;igus riikliku &otilde;ppelaenu kustutamisele .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku ettevalmistusteenistuse teoreetilisele osale laienevad k&auml;esoleva seaduse &sect;-d 134 ja 147.</s>
+</p>
+<p>
+<s>( 3 ) Vanglas praktilisel v&auml;lja&otilde;ppel viibiv vanglaametniku kandidaat nimetatakse ametisse koosseisuv&auml;lise teenistujana .</s>
+</p>
+<p>
+<s>( 4 ) Isiku ametisse nimetamist vastavalt k&auml;esoleva paragrahvi l&otilde;ikele 3 ei takista asjaolu , et isik pole t&auml;itnud ajateenistuse kohustust .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud teenistusele ei laiene avaliku teenistuse seadus , v&auml;lja arvatud &sect;-d 37 , 40 , 43 , 53 , 55 , 59-65 , 67 , 68 ja 73.</s><s>K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud teenistusele laienevad k&auml;esoleva seaduse 4. jaotises etten&auml;htud teenistuskohustused ning 5. jaotises etten&auml;htud sotsiaalsed tagatised , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 136.</s>
+</p>
+<p>
+<s>( 6 ) Vanglaametniku ettevalmistusteenistus l&otilde;peb vanglaametniku eksami sooritamisega .</s>
+</p>
+<p>
+<s>( 7 ) Ettevalmistusteenistusse v&otilde;tmise ja selle l&auml;biviimise korra kehtestab Vabariigi Valitsus v&otilde;i tema poolt volitatud minister .</s>
+</p>
+<p>
+<s>&sect; 117.</s><s>Ettevalmistuse teoreetilises v&auml;lja&otilde;ppes viibiva vanglaametniku kandidaadi sotsiaalsed tagatised</s>
+</p>
+<p>
+<s>( 1 ) Teoreetilises v&auml;lja&otilde;ppes viibiva vanglaametniku kandidaadi majutuse ning toitlustamise kulud katab osaliselt v&otilde;i t&auml;ielikult riik , samuti makstakse talle &otilde;ppetoetust .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku kandidaadile makstava &otilde;ppetoetuse suuruse v&otilde;ib seada s&otilde;ltuvusse tema poolt &otilde;ppet&ouml;&ouml;s saavutatud tulemustest .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kulude katmise ja &otilde;ppetoetuse maksmise ulatuse , tingimused ja korra m&auml;&auml;rab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 4 ) Vanglaametniku kandidaadile laieneb k&auml;esoleva seaduse &sect; 147.</s>
+</p>
+<p>
+<s>( 5 ) Teoreetiline v&auml;lja&otilde;pe peab v&otilde;imaldama vanglaametniku kandidaadile lisaks puhkep&auml;evadele &otilde;ppet&ouml;&ouml;st vabu p&auml;evi v&auml;hemalt 35 kalendrip&auml;eva ulatuses aastas &otilde;ppet&ouml;&ouml; korraldusega m&auml;&auml;ratud ajal ja ulatuses .</s>
+</p>
+<p>
+<s>&sect; 118.</s><s>Ettevalmistusteenistuse kulude h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Isik on kohustatud h&uuml;vitama riigi poolt tema ettevalmistusteenistusele tehtud kulutused , kui ta :</s>
+</p>
+<p>
+<s>1 ) katkestas m&otilde;juva p&otilde;hjuseta ettevalmistusteenistuse ;</s>
+</p>
+<p>
+<s>2 ) vabastati omal algatusel m&otilde;juva p&otilde;hjuseta vanglateenistusest ;</s>
+</p>
+<p>
+<s>3 ) vabastati vanglateenistusest s&uuml;&uuml;dim&otilde;istva kohtuotsuse j&otilde;ustumisel ;</s>
+</p>
+<p>
+<s>4 ) vabastati vanglateenistusest distsiplinaars&uuml;&uuml;teo eest .</s>
+</p>
+<p>
+<s>( 2 ) Ettevalmistusteenistuse kulusid ei pea h&uuml;vitama vanglaametnik , kes :</s>
+</p>
+<p>
+<s>1 ) p&auml;rast ettevalmistusteenistust on olnud vanglateenistuses v&auml;hemalt kolm aastat v&otilde;i</s>
+</p>
+<p>
+<s>2 ) on vanglateenistusest vabastatud omal algatusel seoses invaliidsuse v&otilde;i invaliidistunud perekonnaliikme hooldamise vajadusega .</s>
+</p>
+<p>
+<s>( 3 ) Ettevalmistusteenistuse kulude arvestamise korra kehtestab m&auml;&auml;rusega justiitsminister koosk&otilde;lastatult siseministriga .</s>
+</p>
+<p>
+<s>&sect; 119.</s><s>Erinevate ametiastmete ettevalmistusteenistus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 112 l&otilde;ike 1 punktides 4 ja 5 nimetatud ametiastmele vastavale ametikohale v&otilde;ib ametisse nimetada isiku , kes on l&auml;binud ettevalmistusteenistuse , millest v&auml;hemalt poole moodustab praktiline v&auml;lja&otilde;pe .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 112 l&otilde;ike 1 punktides 1-3 nimetatud ametiastmetele vastavale ametikohale v&otilde;ib ametisse nimetada isiku , kes on l&auml;binud ettevalmistusteenistuse , mille k&auml;igus omandatakse rakenduslik k&otilde;rgharidus .</s>
+</p>
+<p>
+<s>&sect; 120.</s><s>Vanglaametniku ettevalmistusteenistusse v&otilde;tmise ja ametisse nimetamise p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku kandidaadi v&otilde;tab ettevalmistusteenistusse ettevalmistusteenistuse l&auml;biviijaks oleva &otilde;ppeasutuse juht .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku nimetab ametisse vangla direktor v&otilde;i tema poolt volitatud ametiisik .</s>
+</p>
+<p>
+<s>( 3 ) Vangla direktori nimetab ametisse justiitsminister .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 110 l&otilde;ikes 2 nimetatud ametikohale nimetab vanglaametniku ametisse vastava &otilde;ppeasutuse juht v&otilde;i tema poolt volitatud ametiisik .</s>
+</p>
+<p>
+<s>&sect; 121.</s><s>Katseaeg</s>
+</p>
+<p>
+<s>Vanglaametniku esmakordsel ametisse nimetamisel kohaldatakse talle katseaega pikkusega kuni &uuml;ks aasta .</s>
+</p>
+<p>
+<s>3. jaotis</s>
+</p>
+<p>
+<s>Vanglaametniku teenistusk&auml;ik</s>
+</p>
+<p>
+<s>&sect; 122.</s><s>Vanglaametniku atesteerimine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnike atesteerimisel hinnatakse vanglaametniku kutseoskuste , v&otilde;imete ja isikuomaduste vastavust ametiastmele ja teenistuslikke saavutusi .</s><s>Vanglaametnike atesteerimisel avaliku teenistuse seaduse &sect; 91 l&otilde;ike 1 punktides 4 ja 5 nimetatud juhtudel teenistuslikke saavutusi ei hinnata .</s>
+</p>
+<p>
+<s>( 2 ) Ametiastmele vastavuse ja teenistuslike saavutuste hindamisele ei laiene avaliku teenistuse seaduse &sect; 99 l&otilde;ikes 4 s&auml;testatud iga-aastase vestluse l&auml;biviimise kohustus .</s>
+</p>
+<p>
+<s>( 3 ) Vanglaametnike ametiastmete atesteerimisn&otilde;uded , atesteerimise l&auml;biviimise korra ja atesteerimislehe vormi kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>( 4 ) Vanglaametnike atesteerimist teostavad vanglaametnike konkursi- ja atesteerimiskomisjonid , mille p&otilde;him&auml;&auml;ruse ja moodustamise korra kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>( 5 ) Korralisele atesteerimisele ei kuulu vanglaametnikud , kes on j&otilde;udnud oma ametiastmel k&otilde;ige k&otilde;rgemale ametij&auml;rgule .</s>
+</p>
+<p>
+<s>&sect; 123.</s><s>Vanglaametnike atesteerimisperiood ja atesteerimise aeg</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnik kuulub atesteerimisele &uuml;ks kord kolme aasta jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Atesteerimisperiood pikeneb :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 124 l&otilde;ike 1 punktis 3 etten&auml;htud juhul ;</s>
+</p>
+<p>
+<s>2 ) vanglaametniku teisele sama ametiastme ametikohale &uuml;leviimisel v&otilde;i edutamisel - v&auml;hemalt kuue kuu t&auml;itumiseni nimetatud ametikohal ametisseastumise p&auml;evast ;</s>
+</p>
+<p>
+<s>3 ) avaliku teenistuse seaduse &sect; 92 l&otilde;ike 3 punktis 2 etten&auml;htud juhul .</s>
+</p>
+<p>
+<s>( 3 ) Vanglaametnike atesteerimise aja m&auml;&auml;rab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 124.</s><s>Vanglaametnike konkursi- ja atesteerimiskomisjoni p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Kui leiab aset vanglaametnike korraline atesteerimine , siis komisjon :</s>
+</p>
+<p>
+<s>1 ) tunnistab vanglaametniku ametiastmele vastavaks ja teeb ametisse nimetamise &otilde;igust omavale isikule ettepaneku vanglaametniku &uuml;lendamiseks ;</s>
+</p>
+<p>
+<s>2 ) tunnistab vanglaametniku ametiastmele mittevastavaks ja teeb ametisse nimetamise &otilde;igust omavale isikule ettepaneku vanglaametniku teenistusest vabastamiseks v&otilde;i vanglaametniku madalamale ametiastmele vastavale ametikohale &uuml;leviimiseks ;</s>
+</p>
+<p>
+<s>3 ) teeb ettepaneku saata vanglaametnik t&auml;iendkoolitusele ja l&uuml;kata atesteerimine &uuml;he aasta v&otilde;rra edasi .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 1 nimetatud otsuse tegemisel v&otilde;ib komisjon teha ettepaneku ametnikule ergutuse kohaldamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Kui vanglateenistusse astumiseks vabale ametikohale on korraldatud konkurss v&otilde;i kui vaba ametikoht t&auml;idetakse edutamise teel , valib komisjon kandideerivate isikute hulgast &uuml;he v&otilde;i mitu kandidaati , kes esitatakse ametikohale ametisse nimetamiseks .</s><s>Mitme kandidaadi esitamise puhul otsustab nimetamise vastavale ametikohale ametisse nimetamise &otilde;igust omav isik .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 2 v&otilde;i 3 m&auml;rgitud otsus peab olema motiveeritud , seejuures v&otilde;ib k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 3 m&auml;rgitud otsust sama ametniku suhtes rakendada vaid &uuml;he korra j&auml;rjest .</s>
+</p>
+<p>
+<s>( 5 ) Komisjoni otsus on vanglaametniku ametisse nimetamise &otilde;igust omavale isikule kohustuslik , v&auml;lja arvatud &uuml;lendamise v&otilde;i ergutuse kohaldamise puhul .</s>
+</p>
+<p>
+<s>&sect; 125.</s><s>Vanglaametniku mitteatesteerituks tunnistamise tagaj&auml;rg</s>
+</p>
+<p>
+<s>Vanglaametnik , kelle suhtes konkursi- ja atesteerimiskomisjon teeb k&auml;esoleva seaduse &sect; 124 l&otilde;ike 1 punktis 2 nimetatud otsuse , vabastatakse s&otilde;ltuvalt komisjoni otsusest teenistusest k&auml;esoleva seaduse &sect; 154 l&otilde;ike 2 alusel v&otilde;i nimetatakse tema n&otilde;usolekul madalamale ametiastmele vastavale ametikohale kahe kuu jooksul , arvates konkursi- ja atesteerimiskomisjoni otsuse tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 126.</s><s>Vanglaametniku &uuml;lendamine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku &uuml;lendamine on vanglaametniku nimetamine k&otilde;rgemale ametij&auml;rgule alates esimesest ametij&auml;rgust .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku teenistusk&auml;ik h&otilde;lmab k&uuml;mmet ametij&auml;rku .</s>
+</p>
+<p>
+<s>( 3 ) Vanglaametniku &uuml;lendamise otsustab iga kolme aasta j&auml;rel vanglaametnike konkursi- ja atesteerimiskomisjoni ettepanekul ametisse nimetamise &otilde;igust omav isik .</s>
+</p>
+<p>
+<s>( 4 ) Kui vanglaametnikku ei &uuml;lendata teisel atesteerimisperioodil j&auml;rjest ning m&otilde;lemaks atesteerimisperioodiks on konkursi- ja atesteerimiskomisjon teinud vanglaametniku suhtes k&auml;esoleva seaduse &sect; 124 l&otilde;ike 1 punktis 1 nimetatud ettepaneku , peab &uuml;lendamise &otilde;igust omav isik teist korda j&auml;rjest &uuml;lendamata j&auml;tmisel vabastama vanglaametniku vastavalt k&auml;esoleva seaduse &sect; 154 l&otilde;ikele 2.</s>
+</p>
+<p>
+<s>( 5 ) &Uuml;lendada ei saa ametnikku , kellel on kehtiv distsiplinaarkaristus .</s><s>Sel juhul v&otilde;ib &uuml;lendamise otsustada p&auml;rast distsiplinaarkaristuse kustumist .</s>
+</p>
+<p>
+<s>( 6 ) Kui vanglaametnikku ei atesteerita avaliku teenistuse seaduse &sect; 91 l&otilde;ike 2 punktis 3 nimetatud p&otilde;hjusel , v&otilde;ib teda &uuml;lendada , kui tema eelmisest atesteerimisest on m&ouml;&ouml;dunud v&auml;hemalt kolm aastat .</s>
+</p>
+<p>
+<s>( 7 ) Atesteerimiskomisjoni ettepanekuta v&otilde;ib vanglaametnikku &uuml;lendada ka ergutuse kohaldamisel vastavalt k&auml;esoleva seaduse &sect; 151 l&otilde;ike 2 punktile 5.</s>
+</p>
+<p>
+<s>&sect; 127.</s><s>Vanglaametniku edutamine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku edutamine on vanglaametniku nimetamine k&otilde;rgemale ametiastmele vastavale ametikohale .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku edutamise otsustab vanglaametnike konkursi- ja atesteerimiskomisjoni ettepanekul ametisse nimetamise &otilde;igust omav isik .</s><s>Vanglaametnike konkursi- ja atesteerimiskomisjon v&otilde;ib ametisse nimetamise &otilde;igust omavale isikule esitada edutamiseks mitu isikut .</s>
+</p>
+<p>
+<s>( 3 ) Vanglaametnikku on lubatud edutada vaid vaba ametikoha t&auml;itmiseks konkursi korraldamisel .</s>
+</p>
+<p>
+<s>&sect; 128.</s><s>Vanglaametniku &uuml;leviimine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnikku v&otilde;ib &uuml;helt ametikohalt teisele &uuml;le viia :</s>
+</p>
+<p>
+<s>1 ) vanglaametniku ettepanekul v&otilde;i</s>
+</p>
+<p>
+<s>2 ) vanglaametniku &uuml;leviimise &otilde;igust omava isiku algatusel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 2 t&auml;hendatud juhul v&otilde;ib vanglaametniku teenistuslikest vajadustest tulenevalt viia sama ametiastme piires &uuml;helt ametikohalt &uuml;le teisele ilma vanglaametniku n&otilde;usolekuta .</s>
+</p>
+<p>
+<s>( 3 ) Vanglaametnikku ei v&otilde;i &uuml;he atesteerimisperioodi v&auml;ltel teisele ametikohale &uuml;le viia rohkem kui &uuml;ks kord .</s>
+</p>
+<p>
+<s>( 4 ) Vanglaametniku &uuml;leviimine vanglaametniku n&otilde;usolekuta vastavalt k&auml;esoleva paragrahvi l&otilde;ikele 2 ei ole v&otilde;imalik , kui :</s>
+</p>
+<p>
+<s>1 ) vanglaametniku &uuml;leviimise t&otilde;ttu pikeneks atesteerimisperiood vastavalt k&auml;esoleva seaduse &sect; 123 l&otilde;ike 2 punktile 2 ;</s>
+</p>
+<p>
+<s>2 ) ametikoht , millele vanglaametnik &uuml;le viiakse , asub teise kohaliku omavalitsus&uuml;ksuse territooriumil asuva vangla koosseisus v&otilde;i</s>
+</p>
+<p>
+<s>3 ) vanglaametnik teenib vangla direktori ametikohal .</s>
+</p>
+<p>
+<s>( 5 ) Vanglaametniku &uuml;leviimise otsustab tema ametisse nimetamise &otilde;igust omav isik .</s><s>Kui vanglaametniku &uuml;leviimisega kaasneb tema ametisse nimetamise &otilde;igust omavate isikute vahetumine , nimetatakse vanglaametnik ametisse senisele ametikohale nimetamise &otilde;igust omava isiku kirjalikul n&otilde;usolekul .</s>
+</p>
+<p>
+<s>&sect; 129.</s><s>Vanglaametniku &uuml;leviimine muule ametikohale riigiasutuses</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku v&otilde;ib tema n&otilde;usolekul &uuml;le viia riigiteenistusse muule ametikohale , mis ei kuulu vanglateenistusse .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud ametikohale v&otilde;ib vanglaametniku &uuml;le viia kuni viieks j&auml;rjestikuseks aastaks .</s><s>Vanglaametniku n&otilde;usolekul v&otilde;ib t&auml;htaja m&ouml;&ouml;dumisel t&auml;htaega pikendada kuni viie aasta v&otilde;rra .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud t&auml;htaja m&ouml;&ouml;dumisel viiakse vanglaametnik tagasi samale v&otilde;i teisele ametikohale sama ametiastme piires .</s><s>Vaba ametikoha puudumise korral vanglaametniku ametiastmel v&otilde;ib teda tema n&otilde;usolekul nimetada madalamale ametiastmele vastavale ametikohale v&otilde;i arvata reservi .</s>
+</p>
+<p>
+<s>&sect; 130.</s><s>Vanglaametniku ametiastme ja ametij&auml;rgu s&auml;ilimine vanglaametniku &uuml;leviimisel madalamale ametiastmele vastavale ametikohale</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku nimetamisel madalamale ametiastmele vastavale ametikohale on vanglaametnikul &otilde;igus s&auml;ilitada ametiaste , mis vastas tema eelmisele ametikohale .</s><s>Ametiastme s&auml;ilitamine t&auml;hendab &otilde;igust kasutada s&auml;ilitatud ametiastme nimetust ning k&auml;esoleva paragrahvi l&otilde;igetes 2-4 etten&auml;htud &otilde;igusi .</s><s>Vanglaametnikule omistatakse uuel ametiastmel sama j&auml;rjekohaga ametij&auml;rk , mis tal &uuml;leviimisel oli k&otilde;rgemal ametikohal teenides .</s>
+</p>
+<p>
+<s>( 2 ) Vaba ametikoha tekkimisel vanglaametniku s&auml;ilitatud ametiastmel viiakse vanglaametnik sellele ametikohale &uuml;le .</s><s>Sel juhul ei korraldata konkurssi eelnimetatud vaba ametikoha t&auml;itmiseks edutamise korras .</s>
+</p>
+<p>
+<s>( 3 ) Madalamale ametiastmele vastavale ametikohale &uuml;leviidud vanglaametnikule s&auml;ilitatakse kolme kuu v&auml;ltel tasustamine vastavalt tema s&auml;ilitatud ametiastmele .</s><s>Selle t&auml;htaja m&ouml;&ouml;dumisel tasustatakse teda vastavalt tema ametikohale vastavale ametiastmele .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 1-4 nimetatud &otilde;igused , v&auml;lja arvatud l&otilde;ikes 1 nimetatud &otilde;igus sama j&auml;rjekohaga ametij&auml;rgule , puuduvad vanglaametnikul , kes nimetati madalamale ametikohale vastavale ametiastmele tema tunnistamise t&otilde;ttu ametiastmele mittevastavaks .</s>
+</p>
+<p>
+<s>&sect; 131.</s><s>Vanglaametnike teenistusk&auml;igu m&auml;&auml;rus</s>
+</p>
+<p>
+<s>Vanglaametnike ametisse nimetamise , edutamise ja &uuml;lendamise t&auml;psemad tingimused ja korra kehtestab Vabariigi Valitsus vanglaametnike teenistusk&auml;igu m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>4. jaotis</s>
+</p>
+<p>
+<s>Vanglateenistuskohustused</s>
+</p>
+<p>
+<s>&sect; 132.</s><s>Ametisaladuse hoidmise kohustus</s>
+</p>
+<p>
+<s>Vanglaametnik ei tohi avaldada talle seoses teenistus&uuml;lesannete t&auml;itmisega teatavaks saanud asjaolusid , sealhulgas kinnipeetavate isiklikke suhteid puudutavaid asjaolusid .</s><s>Ametisaladuse hoidmise kohustus on t&auml;htajatu .</s>
+</p>
+<p>
+<s>&sect; 133.</s><s>Teatamiskohustus</s>
+</p>
+<p>
+<s>Vanglaametnik on kohustatud vangla direktorile v&otilde;i k&otilde;rgemale kohalviibivale vanglaametnikule viivitamatult teatama k&otilde;ikidest karistuse t&auml;ideviimisel esile kerkivatest t&auml;htsatest juhtudest , mis puudutavad vangla sisekorraeeskirjade t&auml;itmist ja vangla julgeolekut , samuti t&auml;helepanekutest kinnipeetava kohta , mis aitavad kaasa karistuse t&auml;ideviimise eesm&auml;rkide saavutamisele .</s><s>Kinnipeetava haigestumisest on vanglaametnik kohustatud viivitamatult informeerima vangla arsti .</s>
+</p>
+<p>
+<s>&sect; 134.</s><s>Vormiriietuse kandmise kohustus</s>
+</p>
+<p>
+<s>Teenistuskohustuste t&auml;itmisel kannab vanglaametnik vormiriietust .</s>
+</p>
+<p>
+<s>&sect; 135.</s><s>Teenistusalased piirangud</s>
+</p>
+<p>
+<s>Lisaks avaliku teenistuse seaduses s&auml;testatud teenistuspiirangutele ei tohi vanglaametnik :</s>
+</p>
+<p>
+<s>1 ) osaleda streikides , pikettides ega muudes teenistusalastes surveaktsioonides v&otilde;i</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;tada teise t&ouml;&ouml;andja juures , v&auml;lja arvatud pedagoogilisel , teaduslikul v&otilde;i loomingulisel t&ouml;&ouml;l .</s>
+</p>
+<p>
+<s>5. jaotis</s>
+</p>
+<p>
+<s>Sotsiaalsed tagatised vanglateenistuses</s>
+</p>
+<p>
+<s>&sect; 136.</s><s>Vanglaametniku t&ouml;&ouml; tasustamine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku t&ouml;&ouml; tasustamise aluseks on tema ametiaste ja ametij&auml;rk .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku ametiastme erinevatele ametij&auml;rkudele vastavad palgam&auml;&auml;rad kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus v&otilde;ib vanglaametnike t&ouml;&ouml; tasustamist diferentseerida s&otilde;ltuvalt piirkonnast v&otilde;i asutusest maksimaalselt 10 protsendi ulatuses ametiastme madalaimale ametij&auml;rgule vastavast palgam&auml;&auml;rast .</s>
+</p>
+<p>
+<s>&sect; 137.</s><s>Vanglaametniku t&ouml;&ouml;- ja puhkeaeg</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku t&ouml;&ouml;- ja puhkeaeg m&auml;&auml;ratakse t&ouml;&ouml;- ja puhkeaja seaduse ja avaliku teenistuse seaduse alusel , arvestades k&auml;esoleva seadusega s&auml;testatud erisusi .</s>
+</p>
+<p>
+<s>( 2 ) Kui teenistusolud ei v&otilde;imalda j&auml;rgida k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud vanglaametniku t&ouml;&ouml;aja &uuml;ldnormi , v&otilde;ib vangla sisekorraeeskirjadega kehtestada t&ouml;&ouml;aja summeeritud arvestuse .</s><s>Sel juhul ei tohi t&ouml;&ouml;aja kestus kvartalis &uuml;letada &uuml;ldnormiga samaks ajavahemikuks etten&auml;htud t&ouml;&ouml;tundide arvu .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;aja summeeritud arvestuse korral v&otilde;ib rakendada t&ouml;&ouml;aja &uuml;ldnormiga etten&auml;htud t&ouml;&ouml;aja kestusest erinevat t&ouml;&ouml;p&auml;eva v&otilde;i -vahetuse kestust , mis ei v&otilde;i &uuml;letada 12 tundi .</s>
+</p>
+<p>
+<s>( 4 ) Justiitsminister v&otilde;ib kehtestada vangla &ouml;&ouml;p&auml;evaringselt t&ouml;&ouml;tavatele vanglaametnikele vahetuse kestuseks kuni 24 tundi .</s><s>24-tunnise vahetuse korral tuleb vanglaametnikule v&otilde;imaldada kokku kuus tundi einetamiseks ja puhkamiseks .</s><s>Vahetusev&auml;lise puhkeaja kestus ei v&otilde;i olla alla 12 tunni .</s>
+</p>
+<p>
+<s>( 5 ) Vahetuse kestus &ouml;&ouml;ajal v&otilde;rdsustatakse p&auml;evasega .</s>
+</p>
+<p>
+<s>&sect; 138.</s><s>Vanglaametniku t&ouml;&ouml;lerakendamine puhkep&auml;evadel</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnikule v&otilde;ib &uuml;ldistest puhkep&auml;evadest erinevad puhkep&auml;evad ette n&auml;ha vangla direktori poolt kinnitatud vahetuste ajakavaga .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametniku vahetusev&auml;line t&ouml;&ouml;lerakendamine puhkep&auml;eval kompenseeritakse tema valikul vabade p&auml;evade andmisega kahe j&auml;rgneva n&auml;dala jooksul v&otilde;i tasutakse puhkep&auml;eval t&ouml;&ouml;tatud aja eest kahekordses ulatuses .</s><s>Riigip&uuml;hal tehtud t&ouml;&ouml; eest makstakse kahekordselt , olenemata sellest , kas t&ouml;&ouml; toimus vastavalt vahetuste ajakavale v&otilde;i mitte .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;ljaspool vahetuste ajakava v&otilde;ib vanglaametnikku puhkep&auml;eval ja riigip&uuml;hal t&ouml;&ouml;le rakendada &uuml;ksnes tema enda n&otilde;usolekul , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 139 l&otilde;ikes 1 etten&auml;htud juhul .</s>
+</p>
+<p>
+<s>&sect; 139.</s><s>Vanglaametniku &uuml;letunnit&ouml;&ouml;</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnik on kohustatud t&auml;itma asutuse juhi korraldust teha &uuml;letunnit&ouml;&ouml;d j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) massiliste korratuste , samuti loodus&otilde;nnetuse , tulekahju , epideemia , &otilde;nnetusjuhtumi , avarii ja katastroofi v&otilde;i muu erakorralise s&uuml;ndmuse &auml;rahoidmiseks vanglas , sellise s&uuml;ndmuse tagaj&auml;rgede k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>2 ) teenistus&uuml;lesannete t&auml;itmisel , mida ei ole v&otilde;imalik l&otilde;petada kehtestatud t&ouml;&ouml;ajanormi piires v&otilde;i edasil&uuml;kkamatu v&otilde;i etten&auml;gematu teenistus&uuml;lesande t&auml;itmisel , kui t&ouml;&ouml; l&otilde;petamine v&otilde;i katkestamine on vastuolus vanglateenistuse &uuml;lesannetega ;</s>
+</p>
+<p>
+<s>3 ) vahetust &uuml;lev&otilde;tva vanglaametniku ilmumata j&auml;&auml;mise korral , kui teenistuses ei tohi olla vaheaega ; nendel juhtudel on vangla direktor kohustatud viivitamata v&otilde;tma tarvitusele abin&otilde;ud , et asendada vahetust hoidev vanglaametnik teise vanglaametnikuga .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametnik on k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 1 s&auml;testatud juhul kohustatud t&auml;itma ka vangla direktori poolt antud &uuml;lesandeid , mis ei kuulu tema teenistus&uuml;lesannete hulka .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;letunnit&ouml;&ouml; eest makstakse lisatasu vanglaametniku tunnipalga poolteisekordses ulatuses .</s><s>&Uuml;letunnit&ouml;&ouml; kompenseerimine vaba aja andmisega on keelatud .</s>
+</p>
+<p>
+<s>&sect; 140.</s><s>Vanglaametniku puhkus</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku puhkuse v&otilde;ib katkestada ja ta puhkuselt tagasi kutsuda vanglaametniku n&otilde;usolekul , kuid mitte rohkem kui kahel korral puhkuse v&auml;ltel .</s><s>Vanglaametniku n&otilde;usolekuta v&otilde;ib vangla direktor kutsuda vanglaametniku puhkuselt tagasi k&auml;esoleva seaduse &sect; 139 l&otilde;ike 1 punktis 1 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametnikule v&otilde;ib anda t&auml;iendavat tasulist lisapuhkust eeskujuliku teenistus&uuml;lesannete t&auml;itmise eest kuni 10 kalendrip&auml;eva aastas .</s>
+</p>
+<p>
+<s>&sect; 141.</s><s>Valveaeg</s>
+</p>
+<p>
+<s>Valveajal peab vanglaametnik vangla juhtkonnale kokkulepitud kohas olema k&auml;ttesaadav etten&auml;gematute v&otilde;i edasil&uuml;kkamatute teenistus&uuml;lesannete t&auml;itmiseks .</s><s>Valveaja kestus ei v&otilde;i &uuml;letada 24 tundi kuus .</s><s>Valveaja tunni eest makstakse lisatasu , mis on 10 protsenti vanglaametniku tunnipalga m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>&sect; 142.</s><s>Toetus vanglaametniku hukkumise , invaliidistumise , haigestumise v&otilde;i talle kehavigastuse tekitamise korral</s>
+</p>
+<p>
+<s>( 1 ) Seoses vanglateenistusega hukkunud vanglaametniku perekonnaliikmetele ja tema &uuml;lalpidamisel olnud isikutele maksab riik &uuml;hekordset toetust hukkunu 10 aasta palga ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Seoses vanglateenistusega hukkunud vanglaametniku matuse kulud kannab riik .</s>
+</p>
+<p>
+<s>( 3 ) Seoses vanglateenistusega invaliidistunud vanglaametnikule maksab riik &uuml;hekordset toetust :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;v&otilde;ime osalise kaotuse korral , mis ei toonud kaasa vanglateenistusest vabastamist - tema &uuml;he aasta palga ulatuses ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;v&otilde;ime osalise kaotuse korral , mis t&otilde;i kaasa vanglateenistusest vabastamise - tema kahe aasta palga ulatuses ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;v&otilde;ime t&auml;ieliku kaotuse korral - tema seitsme aasta palga ulatuses .</s>
+</p>
+<p>
+<s>( 4 ) Vanglaametnikule , kellele seoses vanglateenistusega tekitati terviserikkega kehavigastus , millega ei kaasnenud invaliidsust , maksab riik &uuml;hekordset toetust &uuml;he kuu palga ulatuses .</s>
+</p>
+<p>
+<s>( 5 ) Seoses vanglateenistusega vigastada saanud v&otilde;i haigestunud vanglaametniku ravi- ja ravimikulud kannab riik .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esolevas paragrahvis s&auml;testatud toetuste ja kulude arvutamise ja maksmise korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 143.</s><s>Varalise kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku teenistus&uuml;lesannete t&auml;itmise t&otilde;ttu vanglaametnikule v&otilde;i tema perekonnaliikmele tekitatud varalise kahju h&uuml;vitab riik .</s><s>Kahjutasu n&otilde;utakse s&uuml;&uuml;diolevalt isikult sisse regressi korras .</s>
+</p>
+<p>
+<s>( 2 ) Varalise kahju h&uuml;vitamise tingimused ja korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 144.</s><s>Tagatised n&otilde;usolekuta &uuml;leviimise korral</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametniku teisele ametikohale tema n&otilde;usolekuta &uuml;leviimisest on &uuml;leviimise &otilde;igust omav isik kohustatud vanglaametnikule kirjalikult ette teatama v&auml;hemalt kaks kuud .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;usolekuta &uuml;leviidud vanglaametnikule s&auml;ilitatakse tema senine palk kolme kuu jooksul , arvates asumisest uuele ametikohale , kui palk uuel ametikohal on v&auml;iksem vanglaametniku senisest palgast .</s>
+</p>
+<p>
+<s>&sect; 145.</s><s>Tagatised vanglaametniku &uuml;leviimisel k&auml;esoleva seaduse &sect; 129 l&otilde;ikes 1 nimetatud ametikohale</s>
+</p>
+<p>
+<s>Vanglaametniku t&ouml;&ouml;tamise aeg k&auml;esoleva seaduse &sect; 129 l&otilde;ikes 1 nimetatud ametikohal v&otilde;rdsustatakse teenistusajaga tema ametiastmele vastaval ametikohal vanglateenistuses .</s><s>Vanglaametniku tagasip&ouml;&ouml;rdumisel vanglateenistusse kuuluvale ametikohale omistatakse talle ametij&auml;rk , mis ta oleks omandanud teenimisel vanglateenistusse kuuluval ametikohal &uuml;lendamisega korralise atesteerimise tulemusel .</s>
+</p>
+<p>
+<s>&sect; 146.</s><s>Terviseuuringud</s>
+</p>
+<p>
+<s>Riik tagab vanglaametnikule tasuta terviseuuringud .</s><s>Terviseuuringute l&auml;biviimise tingimused , perioodilisuse ja korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 147.</s><s>Vanglaametniku vormiriietus</s>
+</p>
+<p>
+<s>Vanglaametnikule antakse tasuta vanglaametniku vormiriietus , mille kirjelduse ja kandmise korra , samuti eraldusm&auml;rkide kirjelduse ja kandmise korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>6. jaotis</s>
+</p>
+<p>
+<s>Teenistusdistsipliin</s>
+</p>
+<p>
+<s>&sect; 148.</s><s>Distsiplinaarv&otilde;im</s>
+</p>
+<p>
+<s>Vanglaametnikule m&auml;&auml;rab distsiplinaarkaristuse ametiisik , kellel on selle vanglaametniku ametisse nimetamise &otilde;igus .</s><s>Justiitsministril on &otilde;igus m&auml;&auml;rata distsiplinaarkaristus igale vanglaametnikule .</s>
+</p>
+<p>
+<s>&sect; 149.</s><s>Distsiplinaarmenetlus</s>
+</p>
+<p>
+<s>( 1 ) Distsiplinaars&uuml;&uuml;teo ja selle asjaolude v&auml;lja selgitamiseks viiakse l&auml;bi distsiplinaarmenetlus .</s><s>Distsiplinaarmenetluse algatamise &otilde;igus on ametiisikul , kellel on vanglaametnikule distsiplinaarkaristuse m&auml;&auml;ramise &otilde;igus .</s>
+</p>
+<p>
+<s>( 2 ) Distsiplinaarmenetlus algatatakse k&auml;skkirjaga , milles m&auml;&auml;ratakse distsiplinaarmenetluse l&auml;biviija ja l&auml;biviimise t&auml;htaeg .</s><s>K&auml;skkiri tehakse viivitamata teatavaks vanglaametnikule , kelle suhtes distsiplinaarmenetlus algatati .</s>
+</p>
+<p>
+<s>( 3 ) Distsiplinaarmenetluse l&auml;biviija v&otilde;ib distsiplinaars&uuml;&uuml;teo kohta n&otilde;uda selgitusi ja koguda t&otilde;endeid .</s><s>Selgituse n&otilde;udmine vanglaametnikult , kelle suhtes distsiplinaarmenetlus algatati , on kohustuslik .</s><s>Vanglaametnikul , kelle suhtes distsiplinaarmenetlus algatati , on &otilde;igus anda selgitusi .</s>
+</p>
+<p>
+<s>( 4 ) Distsiplinaarmenetluse l&otilde;puleviimisel koostab selle l&auml;biviija distsiplinaarmenetluse kokkuv&otilde;tte , milles distsiplinaars&uuml;&uuml;teo ja selle toime pannud isiku kindlakstegemisel m&auml;rgitakse v&auml;hemalt allj&auml;rgnev :</s>
+</p>
+<p>
+<s>1 ) distsiplinaars&uuml;&uuml;teo toime pannud vanglaametniku ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>2 ) distsiplinaars&uuml;&uuml;teo kirjeldus ning toimepanemise aeg ja koht ;</s>
+</p>
+<p>
+<s>3 ) distsiplinaars&uuml;&uuml;teo toimepanemist kinnitavad t&otilde;endid ja</s>
+</p>
+<p>
+<s>4 ) viide distsiplinaarvastutust s&auml;testavale seadusele ja selle s&auml;ttele , mida vanglaametnik kirjeldatud teoga rikkus .</s>
+</p>
+<p>
+<s>( 5 ) Distsiplinaarmenetluse kokkuv&otilde;te allkirjastatakse distsiplinaarmenetluse l&auml;biviija poolt , esitatakse viivitamatult distsiplinaarmenetluse algatanud isikule ja seda tutvustatakse isikule , kelle suhtes distsiplinaarmenetlus l&auml;bi viidi .</s>
+</p>
+<p>
+<s>&sect; 150.</s><s>Distsiplinaarkaristused</s>
+</p>
+<p>
+<s>Distsiplinaars&uuml;&uuml;teo toime pannud vanglaametnikule v&otilde;ib m&auml;&auml;rata j&auml;rgmisi distsiplinaarkaristusi :</s>
+</p>
+<p>
+<s>1 ) noomitus ;</s>
+</p>
+<p>
+<s>2 ) ametipalga v&auml;hendamine 10 kuni 50 protsenti kuni kolmeks kuuks v&otilde;i</s>
+</p>
+<p>
+<s>3 ) teenistusest vabastamine avaliku teenistuse seaduse &sect; 118 alusel .</s>
+</p>
+<p>
+<s>&sect; 151.</s><s>Ergutamine</s>
+</p>
+<p>
+<s>( 1 ) Teenistuskohustuste v&otilde;i kodanikukohuse silmapaistvalt hea t&auml;itmise eest v&otilde;ib vanglaametnikule kohaldada ergutusi .</s><s>Ergutuse m&auml;&auml;rab vanglaametniku ametisse nimetamise &otilde;igust omav ametiisik .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametnikule v&otilde;ib m&auml;&auml;rata j&auml;rgmisi ergutusi :</s>
+</p>
+<p>
+<s>1 ) t&auml;nu avaldamine ;</s>
+</p>
+<p>
+<s>2 ) t&auml;iendava tasulise lisapuhkuse andmine kuni 10 kalendrip&auml;eva aastas ;</s>
+</p>
+<p>
+<s>3 ) rahalise preemia andmine ;</s>
+</p>
+<p>
+<s>4 ) hinnalise kingituse andmine ;</s>
+</p>
+<p>
+<s>5 ) vanglaametniku &uuml;lendamine ;</s>
+</p>
+<p>
+<s>6 ) vanglaametniku teeneteristi andmine .</s>
+</p>
+<p>
+<s>( 3 ) Vanglaametniku teeneteristi kirjelduse kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>7. jaotis</s>
+</p>
+<p>
+<s>Vanglateenistusest vabastamine ja vanglaametnike reserv</s>
+</p>
+<p>
+<s>&sect; 152.</s><s>Teenistusest vabastamine vanuse t&otilde;ttu</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 112 l&otilde;ike 1 punktis 1 nimetatud ametiastmel olev vanglaametnik vabastatakse vanglateenistusest &uuml;ldise pensioniea saabumisel .</s><s>K&auml;esoleva seaduse &sect; 112 l&otilde;ike 1 punktides 2 ja 3 nimetatud ametiastmel olev vanglaametnik vabastatakse vanglateenistusest , kui ta on saanud 60 aastaseks .</s><s>K&auml;esoleva seaduse &sect; 112 l&otilde;ikes 1 punktides 4 ja 5 nimetatud vanglaametnik vabastatakse vanglateenistusest , kui ta on saanud 58 aastaseks .</s>
+</p>
+<p>
+<s>( 2 ) Vanuse t&otilde;ttu vabastatakse vanglaametnik vabastamist tingiva vanuse saabumisele j&auml;rgneva kuu esimesel t&ouml;&ouml;p&auml;eval .</s>
+</p>
+<p>
+<s>( 3 ) Ametisse nimetamise &otilde;igust omav ametiisik v&otilde;ib pikendada vanglaametniku teenistusaega viimase n&otilde;usolekul kuni &uuml;ldise pensioniea saabumiseni , kui vanglaametnik on oma tervisliku seisundi poolest v&otilde;imeline teenistust j&auml;tkama .</s><s>Sel juhul vabastatakse vanglaametnik teenistusest &uuml;ldise pensioniea saabumisel .</s>
+</p>
+<p>
+<s>&sect; 153.</s><s>Teenistusest vabastamine ametivande andmisest keeldumise t&otilde;ttu</s>
+</p>
+<p>
+<s>Vanglaametnik , kes keeldub ametivande andmisest , vabastatakse teenistusest vande andmisest keeldumise p&auml;eval .</s>
+</p>
+<p>
+<s>&sect; 154.</s><s>Teenistusest vabastamine ametikohale v&otilde;i ametiastmele mittevastavuse t&otilde;ttu</s>
+</p>
+<p>
+<s>( 1 ) Vanglaametnik vabastatakse ametikohale mittevastavuse t&otilde;ttu avaliku teenistuse seaduse &sect;-s 117 s&auml;testatud tingimustel ja korras k&auml;esoleva paragrahvi l&otilde;ikes 2 toodud eranditega .</s>
+</p>
+<p>
+<s>( 2 ) Vanglaametnik vabastatakse atesteerimistulemuste p&otilde;hjal ametiastmele mittevastavuse t&otilde;ttu avaliku teenistuse seaduse &sect;-s 117 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 155.</s><s>Reservis olevad vanglaametnikud</s>
+</p>
+<p>
+<s>( 1 ) Ametnike reservis olevate vanglaametnike &otilde;igused ja kohustused m&auml;&auml;rab avaliku teenistuse seadus k&auml;esolevas seaduses etten&auml;htud eranditega .</s>
+</p>
+<p>
+<s>( 2 ) Reservi arvatud vanglaametnik on reservi nimekirjas kuni reservist v&auml;ljaarvamiseni , kuid mitte kauem , kui kaks aastat j&auml;rjest .</s><s>Vanglaametniku reservis oleku aega v&otilde;ib pikendada iga kuu tema poolt esitatud sooviavalduse alusel .</s>
+</p>
+<p>
+<s>( 3 ) Reservi arvatud vanglaametnik v&otilde;ib lisaks avaliku teenistuse seaduse &sect;-s 149 s&auml;testatud alustele ametisse nimetamisest keelduda , kui pakutav ametikoht ei ole tema ametiastmele vastav vanglaametniku ametikoht .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud keeldumine ei ole aluseks vanglaametniku reservist v&auml;ljaarvamisele vastavalt avaliku teenistuse seaduse &sect; 150 punktile 2.</s>
+</p>
+<p>
+<s>( 5 ) Kindlustamaks reservis olevatele vanglaametnikele vanglateenistusse tagasip&ouml;&ouml;rdumise v&otilde;imaluse , teatab ametisse nimetamise &otilde;igust omav isik vabade ametikohtade t&auml;itmisel igal ametiastmel olevast v&auml;hemalt igast kolmandast vabast ametikohast avaliku teenistuse seaduse &sect; 147 s&auml;testatud korras riigisekret&auml;rile .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;iget 5 ei kohaldata juhul , kui t&auml;idetakse &sect; 110 l&otilde;ikes 2 s&auml;testatud ametikoht</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kinnipidamine arestimajas</s>
+</p>
+<p>
+<s>&sect; 156.</s><s>Kinnipidamine arestimajas</s>
+</p>
+<p>
+<s>( 1 ) Arestimaja on kinnipidamiskoht politseiprefektuuri koosseisus , mis korraldab eelvangistuse , aresti ja haldusaresti t&auml;ideviimist .</s>
+</p>
+<p>
+<s>( 2 ) Arestimajas hoitakse vahistatuid ja arestialuseid &ouml;&ouml;p&auml;evaringselt lukustatud kambrites , kus on v&otilde;imalik nende pidev visuaalne v&otilde;i elektrooniline j&auml;lgimine .</s>
+</p>
+<p>
+<s>( 3 ) Isiku kinnipidamisele arestimajas kohaldatakse k&auml;esoleva seaduse s&auml;tteid eelvangistuse , aresti ja haldusaresti t&auml;ideviimise kohta .</s>
+</p>
+<p>
+<s>( 4 ) Eelvangistuse , aresti ja haldusaresti t&auml;ideviimisel on arestimaja juhil , kinnipidamistingimusi tagaval politseiametnikul ning arestimaja koosseisulisel teenistujal k&auml;esoleva seaduse 1.-5. peat&uuml;kis s&auml;testatud vastavad vangla direktori ning vanglaametniku &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>( 5 ) Arestimaja sisekorraeeskirjad kinnitab siseminister .</s>
+</p>
+<p>
+<s>( 6 ) Vahistatute ja arestialuste saatmise ja valve arestimajas tagab politseiprefektuur .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Muudatused teistes seadustes</s>
+</p>
+<p>
+<s>&sect; 157.</s><s>T&auml;itemenetluse seadustiku muutmine</s>
+</p>
+<p>
+<s>T&auml;itemenetluse seadustikus ( RT I 1993 , 49 , 693 ; 1997 , 43/44 , 723 ; 1998 , 41/42 , 625 ; 51 , 756 ; 61 , 981 ; 103 , 1695 ; 1999 , 18 , 302 ; 27 , 380 ; 95 , 845 ; 2000 , 28 , 167 ; 35 , 222 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvid 4-8 , 11 , 12 , 15 , 17-19 ja 11. peat&uuml;kk , 14. ja 15. peat&uuml;kk , 17. ja 18. peat&uuml;kk , V ja VI osa ning &sect;-d 182-197 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 1 l&otilde;ike 1 punkt 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 2 ) rahatrahvi ja teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse , samuti riiklike teenetem&auml;rkide kandmise &otilde;iguse &auml;rav&otilde;tmise otsused ja m&auml;&auml;rused kriminaalasjades ; &ldquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 1 l&otilde;ike 1 punkti 3 t&auml;iendatakse s&otilde;nadega &ldquo; v&auml;lja arvatud haldusaresti t&auml;itmine ; &ldquo; ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 1 l&otilde;ike 1 punkti 5 t&auml;iendatakse s&otilde;nadega &ldquo; v&auml;lja arvatud otsused ja lahendid kriminaalasjades vabadusekaotuse t&auml;itmise osas ; &ldquo; ;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 2.</s><s>T&auml;itmise korraldus</s>
+</p>
+<p>
+<s>K&auml;esoleva seadustiku &sect;-s 1 loetletud kohtuotsuste , -m&auml;&auml;ruste ja muude k&auml;esoleva seadustikuga etten&auml;htud lahendite t&auml;itmist korraldavad maa- ja linnakohtute t&auml;itevosakonnad .</s><s>&ldquo; ;</s>
+</p>
+<p>
+<s>6 ) paragrahvi 9 l&otilde;ikes 1 asendatakse s&otilde;nad &ldquo; &sect; 2 punktis 4 &rdquo; s&otilde;nadega &ldquo; &sect;-s 2 &rdquo; ;</s>
+</p>
+<p>
+<s>7 ) 2. peat&uuml;ki pealkirjast j&auml;etakse v&auml;lja s&otilde;nad &ldquo; Vanglaametnik ja &rdquo; ;</s>
+</p>
+<p>
+<s>8 ) paragrahvi 10 pealkirjast j&auml;etakse v&auml;lja s&otilde;nad &ldquo; Vanglaametnik ja &rdquo; ;</s>
+</p>
+<p>
+<s>9 ) paragrahvi 10 l&otilde;iked 1 , 2 ja 5 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>10 ) paragrahvi 10 l&otilde;ikest 4 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; Vanglaametnikele ja &rdquo; ning l&otilde;ikest 7 s&otilde;nad &ldquo; Vanglaametnike ja &rdquo; ;</s>
+</p>
+<p>
+<s>11 ) paragrahvi 14 pealkirjast j&auml;etakse v&auml;lja s&otilde;nad &ldquo; Vanglaametniku ja &rdquo; ;</s>
+</p>
+<p>
+<s>12 ) paragrahvi 14 l&otilde;ikest 1 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; Vanglaametnik ja &rdquo; ning asendatakse s&otilde;na &ldquo; kannavad &rdquo; s&otilde;naga &ldquo; kannab &rdquo; ;</s>
+</p>
+<p>
+<s>13 ) paragrahvi 14 l&otilde;igetest 2 ja 3 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; Vanglaametniku ja &rdquo; ;</s>
+</p>
+<p>
+<s>14 ) paragrahvist 16 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; vanglaametnikule v&otilde;i &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 158.</s><s>Kriminaalkoodeksi muutmine</s>
+</p>
+<p>
+<s>Kriminaalkoodeksis ( RT 1992 , 20 , 287 ja 288 ; RT I 1999 , 38 , 485 ; 57 , 595 , 597 ja 598 ; 60 , 616 ; 97 , 859 ; 102 , 907 ; 2000 , 10 , 55 ; 28 , 167 ; 29 , 173 ; 33 , 193 ; 40 , 247 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 23 l&otilde;iked 3-8 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 23 <hi rend="sup">2</hi> l&otilde;ige 2 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 55 l&otilde;ikest 3 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; ja j&auml;relevalvekomisjoni &uuml;hise &rdquo; ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 56 l&otilde;ikest 3 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; ja alaealiste asjade komisjoni v&otilde;i j&auml;relevalvekomisjoni &rdquo; ;</s>
+</p>
+<p>
+<s>5 ) koodeksit t&auml;iendatakse &sect;-ga 56 <hi rend="sup">2</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 56 <hi rend="sup">2</hi> .</s><s>Katseaja arvestamine</s>
+</p>
+<p>
+<s>( 1 ) T&auml;htajalise vabadusekaotuse tingimuslikul kohaldamata j&auml;tmisel hakkab katseaeg kulgema kohtuotsuse v&otilde;i -m&auml;&auml;ruse kuulutamisest .</s>
+</p>
+<p>
+<s>( 2 ) Tingimisi enne t&auml;htaega karistusest vabastamisel hakkab katseaeg kulgema kohtuotsuse v&otilde;i -m&auml;&auml;ruse j&otilde;ustumisest . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 159.</s><s>Haldus&otilde;iguserikkumiste seadustiku muutmine</s>
+</p>
+<p>
+<s>Haldus&otilde;iguserikkumiste seadustiku ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 45 , &otilde;iend ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ja 305 ; 51 , 321 ; 54 , 346 , 348 ja 351 ; 55 , 361 ) paragrahvi 347 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Haldusarest kantakse otsuse teinud kohtu asukohaj&auml;rgses v&otilde;i arestialuse elukohaj&auml;rgses arestimajas . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 160.</s><s>Apellatsiooni ja kassatsiooni kriminaalkohtumenetluse seadustiku muutmine</s>
+</p>
+<p>
+<s>Apellatsiooni ja kassatsiooni kriminaalkohtumenetluse seadustiku ( RT I 1993 , 50 , 695 ; 1994 , 3 , 15 ; 86/87 , 1487 ; 1996 , 6 , 101 ; 31 , 631 ; 48 , 943 ; 1998 , 17 , 265 ; 51 , 756 ; 1999 , 16 , 271 ; 2000 , 35 , 222 ; 40 , 249 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 35 l&otilde;ige 3 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 ) J&otilde;ustunud kohtuotsus saadetakse t&auml;itmisele p&ouml;&ouml;ramiseks samas kriminaalasjas esmakordselt kohtulahendi teinud maa- v&otilde;i linnakohtule .</s><s>&ldquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 69 punkt 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 2 ) s&uuml;&uuml;dim&otilde;istetu kriminaalkoodeksi &sect; 47 5. l&otilde;ikes etten&auml;htud alusel karistuse kandmisele saatmise v&otilde;i sellest keeldumise m&auml;&auml;ruse peale , samuti kriminaalkoodeksi &sect; 47 8. ja 9. l&otilde;ikes etten&auml;htud alustel t&auml;iendavate kohustuste m&auml;&auml;ramise v&otilde;i m&auml;&auml;ratud kohustuste kergendamise v&otilde;i t&uuml;histamise peale - s&uuml;&uuml;dim&otilde;istetul , tema kaitsjal v&otilde;i seaduslikul esindajal ning prokur&ouml;ril ; &ldquo;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 69 punkti 7 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 7 ) kriminaalkoodeksi &sect;-des 55 ja 56 etten&auml;htud alustel tingimisi enne t&auml;htaega karistusest vabastamise ja karistuse kergemaliigilise karistusega asendamise v&otilde;i sellest keeldumise m&auml;&auml;ruse peale , samuti kriminaalkoodeksi &sect;-s 56 <hi rend="sup">1</hi> etten&auml;htud alustel s&uuml;&uuml;dim&otilde;istetule t&auml;iendavate kohustuste m&auml;&auml;ramise , kohustuste kergendamise v&otilde;i t&uuml;histamise m&auml;&auml;ruse peale - taotluse esitajal , s&uuml;&uuml;dim&otilde;istetul , tema kaitsjal v&otilde;i seaduslikul esindajal ning prokur&ouml;ril ; &ldquo; ;</s>
+</p>
+<p>
+<s>&sect; 161.</s><s>V&auml;ljas&otilde;idukohustuse ja sisses&otilde;idukeelu seaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>V&auml;ljas&otilde;idukohustuse ja sisses&otilde;idukeelu seadust ( RT I 1998 , 98/99 , 1575 ; 1999 , 84 , 762 ; 2000 , 40 , 254 ) t&auml;iendatakse &sect;-dega 22 <hi rend="sup">1</hi> ja 34 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>1 ) &ldquo; &sect; 22 <hi rend="sup">1</hi> .</s><s>V&auml;ljasaatmislaager</s>
+</p>
+<p>
+<s>( 1 ) V&auml;ljasaatmislaager on Siseministeeriumi valitsemisalas olev valitsusasutus , mille &uuml;lesanne on v&auml;ljasaadetavate kinnipidamise otsuste t&auml;ideviimine .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ljasaadetava kinnipidamisele v&auml;ljasaatmislaagris kohaldatakse vangistusseaduse s&auml;tteid eelvangistuse t&auml;ideviimise kohta k&auml;esolevas seaduses s&auml;testatud erisustega .</s><s>&ldquo; ;</s>
+</p>
+<p>
+<s>2 ) &ldquo; &sect; 34 <hi rend="sup">1</hi> .</s><s>V&auml;ljasaadetavate kinnipidamise otsuste t&auml;ideviimine kuni v&auml;ljasaatmislaagri ehitamiseni</s>
+</p>
+<p>
+<s>Kuni v&auml;ljasaatmislaagri ehitamiseni ja vastuv&otilde;tmiseni viiakse v&auml;ljasaadetavate kinnipidamise otsused t&auml;ide kinnise vangla teistest osakondadest eraldatud osakonnas .</s><s>V&auml;ljasaadetavat v&otilde;ib kinni pidada ka politsei arestimajas , kuid mitte &uuml;le k&uuml;mne p&auml;eva j&auml;rjest . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 162.</s><s>Tervishoiukorralduse seaduse muutmine</s>
+</p>
+<p>
+<s>Tervishoiukorralduse seaduse ( RT I 1994 , 10 , 133 ; 1995 , 57 , 978 ; 1997 , 86 , 1462 ; 1999 , 18 , 305 ; 23 , 351 ; 97 , 860 ) &sect;-st 13 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; ja kinnipidamiskohtades &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 163.</s><s>Riigiteenistujate ametinimetuste ja palgaastmestiku seaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Riigiteenistujate ametinimetuste ja palgaastmestiku seaduses ( RT I 1996 , 15 , 265 ; 89 , 1590 ; 1998 , 36/37 , 552 ; 1999 , 95 , 843 ; 97 , 858 ; 2000 , 51 , 320 ) tehakse j&auml;rgmised t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 6 l&otilde;iget 5 t&auml;iendatakse punktidega 39 ja 40 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 39 ) kriminaalhooldusametnik ;</s>
+</p>
+<p>
+<s>40 ) vangla sotsiaalt&ouml;&ouml;taja .</s><s>&ldquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahv 6 l&otilde;iget 6 t&auml;iendatakse punktidega 16 ja 17 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 16 ) valvur ;</s>
+</p>
+<p>
+<s>17 ) saatja . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 164.</s><s>V&auml;ljateenitud aastate pensionide seaduse muutmine</s>
+</p>
+<p>
+<s>V&auml;ljateenitud aastate pensionide seaduses ( RT 1992 , 21 , 294 ; RT I 1993 , 40 , 596 ; 1994 , 24 , 398 ; 51 , 856 ; 83 , 1450 ; 1995 , 61 , 1027 ; 95 , 1631 ; 1996 , 22 , 437 ; 86 , 1539 ; 1997 , 81 , 1366 ; 1998 , 17 , 266 ; 107 , 1767 ; 2000 , 25 , 147 ; 28 , 167 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 2 punktis 2 asendatakse s&otilde;na &ldquo; kriminaalt&auml;itet&ouml;&ouml;tajatel &rdquo; s&otilde;naga &ldquo; vanglaametnikel &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 12 l&otilde;ike 1 punktis 5 asendatakse s&otilde;nad &ldquo; Eesti Vabariigi Riikliku Kinnipidamiskohtade Ameti , parandusliku t&ouml;&ouml; asutuste , t&uuml;rmide , uurimisisolaatorite ja erikomandatuuride t&ouml;&ouml;tajatel &rdquo; s&otilde;naga &ldquo; vanglaametnikel &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 12 l&otilde;ikes 1 asendatakse s&otilde;na &ldquo; kinnipidamiskohas &rdquo; s&otilde;naga &ldquo; vanglas &rdquo; ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 12 l&otilde;ikes 2 asendatakse s&otilde;na &ldquo; kriminaalt&auml;iteasutuses &rdquo; s&otilde;naga &ldquo; vanglas &rdquo; .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 165.</s><s>Vanglateenistuse kohaldamine ametnikele seaduse j&otilde;ustumisel</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse j&otilde;ustumise hetkel vanglas teenivad ametnikud ning muus riigiasutuses t&ouml;&ouml;tavad isikud , kelle ametikoht vastab &sect; 110 l&otilde;igetes 1 ja 2 s&auml;testatud tingimustele , loetakse vanglaametnikeks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatu laieneb ka ametnikele , kelle teenistussuhe k&auml;esoleva seaduse &sect; 110 l&otilde;ikes 1 nimetatud ametikohal on k&auml;esoleva seaduse j&otilde;ustumise hetkel peatunud .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud vanglaametnike esmakordne atesteerimine vastavalt k&auml;esoleva seaduse alusel kinnitatud ametiastmete atesteerimisn&otilde;uetele korraldatakse 2002. aasta 1. oktoobrist kuni 2003. aasta 31. detsembrini .</s>
+</p>
+<p>
+<s>&sect; 166.</s><s>Vanglateenistuse ametiastmete omistamine seaduse j&otilde;ustumisel</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect;-s 165 nimetatud vanglaametnikele omistatakse ametiaste vastavalt justiitsministri poolt &sect; 112 l&otilde;ike 2 alusel antavale m&auml;&auml;rusele .</s>
+</p>
+<p>
+<s>&sect; 167.</s><s>Vanglateenistuse ametij&auml;rkude omistamine seaduse j&otilde;ustumisel</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 165 l&otilde;ikes 1 nimetatud vanglaametnikele omistatakse ametij&auml;rk vastavalt nende poolt samas l&otilde;ikes nimetatud ametikohal t&ouml;&ouml;tatud ajale j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) 3 aastat - 1. j&auml;rk ;</s>
+</p>
+<p>
+<s>2 ) 3-6 aastat - 2. j&auml;rk ;</s>
+</p>
+<p>
+<s>3 ) 6-9 aastat - 3. j&auml;rk ;</s>
+</p>
+<p>
+<s>4 ) 9-12 aastat - 4. j&auml;rk ;</s>
+</p>
+<p>
+<s>5 ) 12-15 aastat - 5. j&auml;rk ;</s>
+</p>
+<p>
+<s>6 ) 15-18 aastat - 6. j&auml;rk ;</s>
+</p>
+<p>
+<s>7 ) 18-21 aastat - 7. j&auml;rk ;</s>
+</p>
+<p>
+<s>8 ) 21-24 aastat - 8. j&auml;rk ;</s>
+</p>
+<p>
+<s>9 ) 24-27 aastat - 9. j&auml;rk ;</s>
+</p>
+<p>
+<s>10 ) 27-30 aastat - 10. j&auml;rk .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva seaduse &sect;-s 165 nimetatud vanglaametniku vastavalt avaliku teenistuse seadusele teenistusstaa&zcaron;i alusel arvutatav palgam&auml;&auml;r on suurem kui k&auml;esoleva paragrahvi l&otilde;ike 1 alusel vastavalt ametij&auml;rgule m&auml;&auml;ratav palgam&auml;&auml;r , kohaldatakse nimetatud ametnikele nende ametij&auml;rgule vastavat palgam&auml;&auml;ra , alates nende &uuml;lendamisest ametij&auml;rgule , millele vastav palgam&auml;&auml;r on suurem , kui avaliku teenistuse seaduse alusel staa&zcaron;i j&auml;rgi arvutatav palgam&auml;&auml;r .</s>
+</p>
+<p>
+<s>&sect; 168.</s><s>Seaduse laienemine selle j&otilde;ustumise hetkel korrektsioonieriala omandavale isikule</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses vanglaametniku ettevalmistusteenistusele s&auml;testatud n&otilde;uded laienevad isikutele , kes v&otilde;etakse ettevalmistusteenistusse p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist .</s><s>Seaduse j&otilde;ustumise hetkel Sisekaitseakadeemia korrektsioonikolled&zcaron;is &otilde;ppiv isik loetakse v&otilde;rdseks k&auml;esoleva seaduse &sect; 119 l&otilde;ikes 2 s&auml;testatud n&otilde;uetele vastava isikuga .</s><s>Seaduse j&otilde;ustumise hetkel muus korrektsioonialast haridust andvas &otilde;ppeasutuses &otilde;ppiv isik loetakse v&otilde;rdseks k&auml;esoleva seaduse &sect; 119 l&otilde;ikes 1 s&auml;testatud n&otilde;uetele vastava isikuga .</s>
+</p>
+<p>
+<s>( 2 ) Isiku , kes on l&otilde;petanud enne k&auml;esoleva seaduse j&otilde;ustumist k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &otilde;ppeasutuse ja seaduse j&otilde;ustumise hetkel ei kuulu k&auml;esoleva seaduse &sect; 165 l&otilde;igetes 1 ja 2 nimetatud ametnike hulka , v&otilde;ib v&otilde;rdsustada k&auml;esoleva seaduse &sect; 119 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud n&otilde;uetele vastava isikuga Vabariigi Valitsuse poolt kehtestatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 169.</s><s>Ametisse nimetamise ja edutamise piirangute mittekohaldamine</s>
+</p>
+<p>
+<s>( 1 ) Kuni 2003. aasta 1. jaanuarini v&otilde;ib vanglaametniku ametikohale ametisse nimetada lisaks k&auml;esoleva seaduse &sect;-s 113 nimetatud isikutele muid isikuid , kes ei ole l&auml;binud vanglaametniku ettevalmistusteenistust , kui nad vastavad avaliku teenistuse seaduse &sect;-s 14 s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Kuni 2002. aasta 1. juulini v&otilde;ib k&auml;esoleva seaduse &sect; 112 l&otilde;ike 1 punktis 5 s&auml;testatud ametiastmele vastavale ametikohale ametisse nimetada ka isiku , kellel on v&auml;hemalt p&otilde;hiharidus .</s>
+</p>
+<p>
+<s>( 3 ) Kuni 2003. aasta 1. jaanuarini ei kohaldata vanglaametniku ametisse nimetamisel ja edutamisel k&auml;esoleva seaduse &sect; 113 l&otilde;iget 2.</s>
+</p>
+<p>
+<s>&sect; 170.</s><s>K&auml;esoleva seaduse &sect; 107 kohaldamise erisused</s>
+</p>
+<p>
+<s>Kuni 2003. aasta 1. jaanuarini ei kohaldata k&auml;esoleva seaduse &sect; 107 sotsiaalalaste &uuml;lesannete t&auml;itmise kohta .</s>
+</p>
+<p>
+<s>&sect; 171.</s><s>Sotsiaalt&ouml;&ouml;taja ametisse nimetamise erisused</s>
+</p>
+<p>
+<s>Kuni 2003 aasta 1. jaanuarini v&otilde;ib sotsiaalt&ouml;&ouml;tajana ametisse nimetada ka isiku , kellel on m&otilde;ni muu k&otilde;rgharidus kui sotsiaalt&ouml;&ouml;alane v&otilde;i sotsiaalpedagoogiline k&otilde;rgharidus .</s>
+</p>
+<p>
+<s>&sect; 172.</s><s>Seaduse j&otilde;ustumise hetkel poolkinnises vanglas vabadusekaotust kandva kinnipeetava kinnipidamistingimused</s>
+</p>
+<p>
+<s>Isik , kellele on m&otilde;istetud vabadusekaotus poolkinnises vanglas , j&auml;tkab p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist karistuse kandmist kinnises vanglas .</s>
+</p>
+<p>
+<s>&sect; 173.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2000. aasta 1. detsembril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

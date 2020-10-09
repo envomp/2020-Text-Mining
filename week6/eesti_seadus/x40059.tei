@@ -1,0 +1,402 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Seadmete energiat&otilde;hususe seadus ( m&auml;rts 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    1765</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Seadmete energiat&otilde;hususe seadus ( m&auml;rts 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=99></tagusage>
+         <tagusage gi=s occurs=121></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Seadmete energiat&otilde;hususe seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 17. oktoobril 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 84 , 532 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. juuli 2001. a.</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses kehtestatakse n&otilde;uded seadmete energia ja muude ressursside tarbimisele , seadmete tekitatavale m&uuml;rale ja seadmete sellekohasele m&auml;rgistamisele , et t&otilde;hustada seadmete energia ja muude ressursside tarbimist ning v&auml;hendada nende keskkonnakahjulikkust .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse n&otilde;udeid kohaldatakse j&auml;rgmistele seadmeliikidele :</s>
+</p>
+<p>
+<s>1 ) k&uuml;lmikud , s&uuml;gavk&uuml;lmikud ja nende kombinatsioonid ;</s>
+</p>
+<p>
+<s>2 ) pesumasinad , kuivatid ja nende kombinatsioonid ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;udepesumasinad ;</s>
+</p>
+<p>
+<s>4 ) elektriahjud ;</s>
+</p>
+<p>
+<s>5 ) veekuumutid ja kuumaveesalvestid ;</s>
+</p>
+<p>
+<s>6 ) valgustusseadmed ;</s>
+</p>
+<p>
+<s>7 ) &otilde;hukonditsioneerid .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevat seadust ei kohaldata kasutatud seadmetele ning seadmetele , mis on toodetud enne k&auml;esoleva seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;isted</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) energiat&otilde;husus - energia ja muude ressursside tarbimise &ouml;konoomsuse n&auml;itaja seadme sihtotstarbelise kasutamise korral ;</s>
+</p>
+<p>
+<s>2 ) muud ressursid - seadme sihtotstarbelise kasutamise korral tarbitav vesi , kemikaalid v&otilde;i muud ained ;</s>
+</p>
+<p>
+<s>3 ) m&uuml;ra - seadme tekitatav &otilde;hus edasikanduv m&uuml;ratase detsibellides &uuml;hepikovatise heliv&otilde;imsuse juures ;</s>
+</p>
+<p>
+<s>4 ) seadme turule laskmine - tegevus , mille eesm&auml;rk on seadme esmakordne v&otilde;&otilde;randamine v&otilde;i teise isiku kasutusse andmine Eestis kas tasu eest v&otilde;i tasuta ;</s>
+</p>
+<p>
+<s>5 ) tarnija - isik v&otilde;i riigi- v&otilde;i kohaliku omavalitsuse asutus , kes laseb seadme Eestis turule v&otilde;i impordib selle Eestisse ;</s>
+</p>
+<p>
+<s>6 ) edasim&uuml;&uuml;ja - isik v&otilde;i riigi- v&otilde;i kohaliku omavalitsuse asutus , kes m&uuml;&uuml;b turule lastud seadme edasi , &uuml;&uuml;rib v&auml;lja , v&otilde;imaldab seda kasutada v&otilde;i esitleb tarbijale ;</s>
+</p>
+<p>
+<s>7 ) volitatud asutus - isik , kellele on antud &otilde;igus tegutseda seadme energiat&otilde;hususe ja tekitatava m&uuml;ra n&otilde;uetele vastavuse ning seadme sellekohase m&auml;rgistamise ja tootekirjelduse &otilde;igsuse hindamise ja t&otilde;endamisega .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>N&otilde;uded seadme energiat&otilde;hususele , tekitatavale m&uuml;rale ja seadet iseloomustavale teabele</s>
+</p>
+<p>
+<s>( 1 ) Seade peab vastama energiat&otilde;hususe ja tekitatava m&uuml;ra n&otilde;uetele ning olema varustatud energiam&auml;rgistuse ja eestikeelse selgitusega energiam&auml;rgistuses esitatud n&auml;itajate t&auml;henduse kohta ( edaspidi tootekirjeldus ) .</s><s>Eri seadmeliikide energia ja muude ressursside tarbimise ja seadme tekitatava m&uuml;ra ning seadme sellekohase m&auml;rgistamise ja tootekirjelduse n&otilde;uded kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 2 ) Energiam&auml;rgistus peab sisaldama seadme energiat&otilde;husust ja tekitatavat m&uuml;ra iseloomustavaid andmeid .</s>
+</p>
+<p>
+<s>( 3 ) Seadme tarnija peab seadme edasim&uuml;&uuml;jad tasuta varustama seadme energiam&auml;rgistuse ja tootekirjeldusega .</s>
+</p>
+<p>
+<s>( 4 ) Seadme edasim&uuml;&uuml;ja peab energiam&auml;rgistuse ja tootekirjelduse m&uuml;&uuml;gikohas ostjale tutvumiseks v&auml;lja panema .</s><s>Tootekirjeldus peab sisalduma kasutusjuhendis v&otilde;i , kui see puudub , seadmega kaasa antavas muus dokumendis .</s>
+</p>
+<p>
+<s>( 5 ) Kui seade lastakse turule sidevahendi kaudu , nii et tarbijal puudub v&otilde;imalus seda vahetult n&auml;ha , tuleb energiam&auml;rgistus ja tootekirjeldus tarbijale k&auml;ttesaadavaks teha enne lepingu s&otilde;lmimist .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Seadme n&otilde;uetele vastavuse tagamine</s>
+</p>
+<p>
+<s>( 1 ) Seadme tarnija peab tagama turule lastud seadme vastavuse seadme energiat&otilde;hususe ja tekitatava m&uuml;ra n&otilde;uetele ning selle energiam&auml;rgistuse ja tootekirjelduse &otilde;igsuse .</s>
+</p>
+<p>
+<s>( 2 ) Kui seadme tarnijat ei ole v&otilde;imalik kindlaks teha , peab turule lastud seadme vastavuse energiat&otilde;hususe ja tekitatava m&uuml;ra n&otilde;uetele ning energiam&auml;rgistuse ja tootekirjelduse &otilde;igsuse tagama seadme edasim&uuml;&uuml;ja .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Tehniline dokumentatsioon</s>
+</p>
+<p>
+<s>( 1 ) Seadme tarnija peab koostama seadme tehnilise dokumentatsiooni , mis v&otilde;imaldab kontrollida energiam&auml;rgistuses ja tootekirjelduses esitatud andmete &otilde;igsust .</s>
+</p>
+<p>
+<s>( 2 ) Tehnilises dokumentatsioonis peavad sisalduma :</s>
+</p>
+<p>
+<s>1 ) seadme tarnija nimi ja asukoht ;</s>
+</p>
+<p>
+<s>2 ) seadme &uuml;ldkirjeldus ;</s>
+</p>
+<p>
+<s>3 ) konstrueerimisjoonised ja konstrueerimisarvutuste tulemused ;</s>
+</p>
+<p>
+<s>4 ) seadme energiat&otilde;husust oluliselt m&otilde;jutavad asjaolud ;</s>
+</p>
+<p>
+<s>5 ) seadme testimise tulemused ;</s>
+</p>
+<p>
+<s>6 ) kui seadme andmed on tuletatud teise sarnase mudeli andmetest , siis vastavad andmed ka teise mudeli kohta ;</s>
+</p>
+<p>
+<s>7 ) seadme kasutusjuhend .</s>
+</p>
+<p>
+<s>( 3 ) Seadme tarnija peab s&auml;ilitama tehnilist dokumentatsiooni viis aastat p&auml;rast selle seadme tootmise l&otilde;petamist .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uete &uuml;le teostab riiklikku j&auml;relevalvet Tehnilise J&auml;relevalve Inspektsioon ( edaspidi inspektsioon ) .</s>
+</p>
+<p>
+<s>( 2 ) Inspektsiooni j&auml;relevalveametnikul on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) teha oma p&auml;devuse piires t&auml;itmiseks kohustuslikke ettekirjutusi k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uete rikkumise l&otilde;petamiseks , edasiste rikkumiste &auml;rahoidmiseks ja rikkumisega tekitatud tagaj&auml;rgede k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>2 ) saada seadme tarnijalt ja volitatud asutustelt vajalikku teavet seadmete ja nende valmistamise kohta ;</s>
+</p>
+<p>
+<s>3 ) p&auml;&auml;seda seadmete valmistamise , ladustamise ja turule laskmise kohtadesse ;</s>
+</p>
+<p>
+<s>4 ) vastavalt k&auml;esoleva seaduse &sect;-s 9 s&auml;testatule v&otilde;tta seadme valmistajalt , edasim&uuml;&uuml;jalt v&otilde;i tarnijalt katseeksemplare .</s>
+</p>
+<p>
+<s>( 3 ) Inspektsiooni j&auml;relevalveametnik on kohustatud oma &uuml;lesannete t&auml;itmisel esitama ametit&otilde;endi .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Ettekirjutus</s>
+</p>
+<p>
+<s>( 1 ) Ettekirjutus peab olema kirjalik .</s>
+</p>
+<p>
+<s>( 2 ) Ettekirjutuses peavad sisalduma :</s>
+</p>
+<p>
+<s>1 ) selle isiku nimi ja ametikoht , kellele ettekirjutus tehakse , juriidilise isiku puhul nimi ja asukoht ;</s>
+</p>
+<p>
+<s>2 ) andmed n&otilde;utud toimingu kohta ;</s>
+</p>
+<p>
+<s>3 ) ettekirjutuse t&auml;itmise t&auml;htaeg ;</s>
+</p>
+<p>
+<s>4 ) ettekirjutuse tegemise p&otilde;hjendus ;</s>
+</p>
+<p>
+<s>5 ) ettekirjutuse tegemise kuup&auml;ev , ettekirjutuse teinud isiku nimi , ametikoht , ametinimetus ja allkiri .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Ettekirjutuse v&otilde;i muu toimingu vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Kui isik ei n&otilde;ustu inspektsiooni j&auml;relevalveametniku ettekirjutuse v&otilde;i muu toiminguga , on tal &otilde;igus esitada inspektsiooni peadirektorile kaebus k&uuml;mne kalendrip&auml;eva jooksul ettekirjutusest v&otilde;i muust toimingust teadasaamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine ei v&otilde;ta isikult kohustust t&auml;ita inspektsiooni j&auml;relevalveametniku ettekirjutust .</s>
+</p>
+<p>
+<s>( 3 ) Inspektsiooni peadirektor vaatab kaebuse l&auml;bi 14 kalendrip&auml;eva jooksul kaebuse saamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 4 ) Kaebuse l&auml;bivaatamisel otsustab inspektsiooni peadirektor , kas ta j&auml;tab ettekirjutuse v&otilde;i muu toimingu j&otilde;usse , muudab seda v&otilde;i t&uuml;histab selle .</s>
+</p>
+<p>
+<s>( 5 ) Otsus tehakse kaebuse esitajale teatavaks ning antakse talle k&auml;tte allkirja vastu v&otilde;i saadetakse posti teel koos v&auml;ljastusteatega .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;igetes 1-5 s&auml;testatud menetlust j&auml;rgimata v&otilde;ib isik inspektsiooni j&auml;relevalveametniku ettekirjutuse v&otilde;i muu toiminguga mitten&otilde;ustumise korral p&ouml;&ouml;rduda vahetult halduskohtusse .</s><s>Kohtusse p&ouml;&ouml;rdumine ei v&otilde;ta isikult kohustust t&auml;ita inspektsiooni j&auml;relevalveametniku ettekirjutust .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Katseeksemplarid</s>
+</p>
+<p>
+<s>( 1 ) Inspektsiooni j&auml;relevalveametnikul on &otilde;igus v&otilde;tta &otilde;iglase tasu eest seadme valmistajalt , edasim&uuml;&uuml;jalt v&otilde;i tarnijalt vajalik kogus seadmeid katseeksemplarideks , et kontrollida seadme , selle energiam&auml;rgistuse v&otilde;i tootekirjelduse vastavust k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Kui tuvastatakse , et seade , selle energiam&auml;rgistus v&otilde;i tootekirjeldus ei vasta k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uetele , peab seadme valmistaja , edasim&uuml;&uuml;ja v&otilde;i tarnija tagastama k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tasu ja h&uuml;vitama inspektsioonile k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 1 nimetatud hindamisteenuse tellimisel tehtud kulud .</s><s>Katseeksemplariks v&otilde;etud seadmed v&otilde;&otilde;randatakse v&otilde;i kantakse maha riigivaraseaduses ( RT I 1995 , 22 , 327 ; 1996 , 36 , 738 ; 40 , 773 ; 48 , 942 ; 81 , 1446 ; 1997 , 45 , 724 ; 1998 , 30 , 409 ; 1999 , 10 , 155 ; 16 , 271 ; 2000 , 39 , 239 ; 49 , 306 ; 51 , 319 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Volitatud asutus</s>
+</p>
+<p>
+<s>( 1 ) Inspektsioon v&otilde;ib tellida volitatud asutuselt hindamisteenuse seadme n&otilde;uetele vastavuse hindamiseks v&otilde;i selle energiam&auml;rgistuse v&otilde;i tootekirjelduse &otilde;igsuse kontrollimiseks .</s>
+</p>
+<p>
+<s>( 2 ) Volitatud asutusele ja tema tegevusele kohaldatakse toote n&otilde;uetele vastavuse t&otilde;endamise seaduse ( RT I 1999 , 92 , 825 ) &sect;-des 12-26 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 3 ) Kui volitatud asutus tunnistab seadme n&otilde;uetele vastavaks , annab ta inspektsioonile selle kohta tunnistuse .</s><s>Kui seade ei vasta n&otilde;uetele ja tunnistust ei anta , esitab volitatud asutus asjakohase p&otilde;hjenduse .</s>
+</p>
+<p>
+<s>( 4 ) Volitatud asutus peab s&otilde;lmima vastutuskindlustuslepingu ulatuses , mis tagab tema tegevuses volitatud asutusena tekkida v&otilde;iva kahju h&uuml;vitamise .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>( 1 ) Seadme tarnijale , kes j&auml;tab seadme energiam&auml;rgistuse ja tootekirjeldusega varustamata ning tehnilise dokumentatsiooni koostamata , - m&auml;&auml;ratakse rahatrahv kuni 10 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Seadme edasim&uuml;&uuml;jale v&otilde;i tarnijale , kes j&auml;tab seadme m&uuml;&uuml;gikohas energiam&auml;rgistuse ja tootekirjelduse v&auml;lja panemata , - m&auml;&auml;ratakse rahatrahv kuni 10 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Seadme tarnijale v&otilde;i edasim&uuml;&uuml;jale , kes j&auml;tab seadme energiat&otilde;hususe ja tekitatava m&uuml;ra n&otilde;uded t&auml;itmata ning esitab seadme energiam&auml;rgistuses ja tootekirjelduses eba&otilde;igeid andmeid , - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Haldus&otilde;iguserikkumise asja arutamine ja karistuse m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 11 s&auml;testatud haldus&otilde;iguserikkumise asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus on inspektsiooni peadirektoril ja maa- v&otilde;i linnakohtu kohtunikul .</s>
+</p>
+<p>
+<s>( 2 ) Inspektsiooni peadirektoril on &otilde;igus m&auml;&auml;rata k&auml;esoleva seaduse &sect;-s 11 s&auml;testatud haldus&otilde;iguserikkumise asjas rahatrahv kuni 10 000 krooni , sellest suuremat rahatrahvi v&otilde;ib kohaldada ainult maa- v&otilde;i linnakohtu kohtunik .</s>
+</p>
+<p>
+<s>( 3 ) Menetlus juriidilise isiku haldus&otilde;iguserikkumise asjas , kaasa arvatud karistuse m&auml;&auml;ramine v&otilde;i vaidlustamine ning j&otilde;ustunud halduskaristuse otsuse t&auml;itmine , toimub haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 45 , &otilde;iend ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ja 305 ; 51 , 321 ; 54 , 346 , 348 ja 351 ; 55 , 361 ; 58 , 376 ) ja t&auml;itemenetluse seadustikus ( RT I 1993 , 49 , 693 ; 1997 , 43/44 , 723 ; 1998 , 41/42 , 625 ; 51 , 756 ; 61 , 981 ; 103 , 1695 ; 1999 , 18 , 302 ; 27 , 380 ; 95 , 845 ; 2000 , 28 , 167 ; 35 , 222 ; 58 , 376 ) kehtestatud korras , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Haldus&otilde;iguserikkumise protokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 11 s&auml;testatud haldus&otilde;iguserikkumise kohta on inspektsiooni j&auml;relevalveametnikul &otilde;igus koostada haldus&otilde;iguserikkumise protokoll .</s>
+</p>
+<p>
+<s>( 2 ) Haldus&otilde;iguserikkumise protokolli m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) haldus&otilde;iguserikkumise protokolli koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) selle asutuse nimetus ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkuja nimetus ja asukoht ;</s>
+</p>
+<p>
+<s>5 ) haldus&otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>6 ) haldus&otilde;iguserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) seaduses&auml;te , mida on rikutud , ning viide k&auml;esoleva seaduse &sect; 11 vastavale l&otilde;ikele , mis n&auml;eb ette vastutuse selle haldus&otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>8 ) haldus&otilde;iguserikkuja esindaja seletus ;</s>
+</p>
+<p>
+<s>9 ) m&auml;rge , et haldus&otilde;iguserikkuja esindajale on tutvustatud tema &otilde;igust kasutada &otilde;igusabi ;</s>
+</p>
+<p>
+<s>10 ) muud asja lahendamiseks vajalikud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Protokoll esitatakse tutvumiseks juriidilise isiku esindajale , kelle tegevuse v&otilde;i tegevusetuse kohta on protokoll koostatud .</s><s>Esindaja annab protokolliga tutvumise kohta oma allkirja .</s><s>Allkirja andmisest keeldumise korral teeb koostaja protokolli sellekohase kande .</s><s>Protokolli koopia v&auml;ljastatakse juriidilise isiku esindajale .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2001. aasta 1. juulil .</s>
+</p>
+</body>
+   </text>
+</tei.2>

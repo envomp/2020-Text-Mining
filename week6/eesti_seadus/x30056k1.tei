@@ -1,0 +1,1237 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Teeseadus ( terviktekst mai 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    7132</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Teeseadus ( terviktekst mai 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=9></tagusage>
+         <tagusage gi=p occurs=377></tagusage>
+         <tagusage gi=s occurs=510></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Teeseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 17. veebruaril 1999. a ,</s>
+</p>
+<p>
+<s>( RT I 1999 , 26 , 377 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 23. m&auml;rtsil 1999. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 ;</s>
+</p>
+<p>
+<s>17.11.99 j&otilde;ust .</s><s>25.12.99 - RT I 1999 , 93 , 831.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>Teeseadus s&auml;testab tee suhtes esitatavad n&otilde;uded , tee omaniku ja liikleja &otilde;igused ja kohustused ning vastutuse liiklusohutusn&otilde;uete rikkumise eest , reguleerib teehoiu , tee kasutuse ja kaitse korraldamist ja rahastamist ning inimeste ja keskkonna kaitset liiklusest tulenevate ohtude eest .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Tee</s>
+</p>
+<p>
+<s>( 1 ) Tee on maantee , t&auml;nav , jalgtee ja jalgrattatee v&otilde;i muu s&otilde;idukite v&otilde;i jalak&auml;ijate liiklemiseks kasutatav rajatis , mis v&otilde;ib olla riigi v&otilde;i kohaliku omavalitsuse v&otilde;i muu juriidilise isiku v&otilde;i f&uuml;&uuml;silise isiku omandis .</s>
+</p>
+<p>
+<s>( 2 ) Tee moodustavad :</s>
+</p>
+<p>
+<s>1 ) liiklemiseks kasutatavad j&auml;rgmised rajatised :</s>
+</p>
+<p>
+<s>- s&otilde;idutee ning sellega k&uuml;lgnevale alale sisses&otilde;idu ja sealt v&auml;ljas&otilde;idu tee ning k&otilde;nnitee ;</s>
+</p>
+<p>
+<s>- parkla ja puhkekoht ;</s>
+</p>
+<p>
+<s>- tunnel , sild , truup ja viadukt ;</s>
+</p>
+<p>
+<s>- teekattega samal tasandil paiknevad trammir&ouml;&ouml;pad ;</s>
+</p>
+<p>
+<s>- liikurmasinarada ;</s>
+</p>
+<p>
+<s>- liikleja kontrollimiseks ja maksustamiseks m&otilde;eldud ala ;</s>
+</p>
+<p>
+<s>- &uuml;hiss&otilde;iduki peatuseks etten&auml;htud ala ja ootekoda ;</s>
+</p>
+<p>
+<s>- piirikontrolli- ja tollikontrollirajatis ;</s>
+</p>
+<p>
+<s>2 ) muud rajatised :</s>
+</p>
+<p>
+<s>- teepeenar , haljasala ning eraldus- v&otilde;i haljasriba ;</s>
+</p>
+<p>
+<s>- tee &auml;&auml;rde liikluskahjustuste kaitseks rajatud kaitseehitis ja m&uuml;rat&otilde;ke ning keskkonnakaitserajatis ;</s>
+</p>
+<p>
+<s>- liikluskorraldusvahend ;</s>
+</p>
+<p>
+<s>- teem&auml;rgistus- ja teevalgustusrajatis ;</s>
+</p>
+<p>
+<s>- tee &auml;&auml;res asetsev muu teehoiurajatis .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Teemaa</s>
+</p>
+<p>
+<s>Teemaa on maa , mis &otilde;igusaktidega kehtestatud korras on m&auml;&auml;ratud tee koosseisus olevate rajatiste paigutamiseks ja teehoiu korraldamiseks .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Avalikult kasutatav tee ja eratee</s>
+</p>
+<p>
+<s>( 1 ) Avalikult kasutatavad teed on riigimaantee , kohalik maantee ja t&auml;nav .</s>
+</p>
+<p>
+<s>( 2 ) Eratee on rajatis , mida v&otilde;ib kasutada &uuml;ksnes tee omaniku loal .</s><s>K&auml;esoleva seaduse &sect; 33 l&otilde;ikes 8 nimetatud juhtudel v&otilde;ib erateed kasutada omaniku loata .</s>
+</p>
+<p>
+<s>( 3 ) Jalgtee ja talitee kasutamine ning p&auml;&auml;semine kinnisasjale , millel puudub juurdep&auml;&auml;s avalikult kasutatavalt teelt v&otilde;i kinnisasja eraldi seisvalt osalt , on ette n&auml;htud asja&otilde;igusseaduses ( RT I 1993 , 39 , 590 ; 1999 , 44 , 509 ) .</s>
+</p>
+<p>
+<s>( 4 ) Tee omaniku n&otilde;usolekul ja tingimustel ning Maanteeameti ja eratee omaniku vahel s&otilde;lmitud lepingu alusel m&auml;&auml;rab eratee avalikuks kasutamiseks ning nimetab teehoiu korraldamise eest vastutava isiku teede- ja sideminister riigi huvidest l&auml;htudes .</s><s>Tee omaniku n&otilde;usolekul ja tingimustel ning valla- v&otilde;i linnavalitsuse ja omaniku vahel s&otilde;lmitud lepingu alusel m&auml;&auml;rab eratee avalikuks kasutamiseks ning nimetab teehoiu korraldamise eest vastutava isiku valla- v&otilde;i linnavolikogu kohaliku omavalitsuse huvidest l&auml;htudes .</s><s>Lepingus n&auml;hakse ette eratee kasutamise kord ja t&auml;histus , h&uuml;vitis eratee omanikule ning teehoiukulude kandjad .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tee liigid</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Maantee</s>
+</p>
+<p>
+<s>( 1 ) Maantee on v&auml;ljaspool linnu , aleveid ja alevikke paiknev rajatis s&otilde;idukite ja jalak&auml;ijate liiklemiseks .</s>
+</p>
+<p>
+<s>( 2 ) Riigimaantee on riigi omandis olev rajatis , mis on ette n&auml;htud &uuml;ldiseks liiklemiseks asulate vahel ja l&auml;bi asulate .</s>
+</p>
+<p>
+<s>( 3 ) Riigimaanteed on :</s>
+</p>
+<p>
+<s>1 ) p&otilde;himaanteed , mis &uuml;hendavad pealinna teiste suurte linnadega , neid omavahel ja t&auml;htsate sadamate , raudtees&otilde;lmede ja piiripunktidega ;</s>
+</p>
+<p>
+<s>2 ) tugimaanteed , mis &uuml;hendavad linnu omavahel ning linnu p&otilde;himaanteedega ;</s>
+</p>
+<p>
+<s>3 ) k&otilde;rvalmaanteed , mis &uuml;hendavad linnu alevite ja alevikega , aleveid ja alevikke omavahel v&otilde;i k&uuml;ladega ning neid k&otilde;iki p&otilde;hi- ja tugimaanteedega ;</s>
+</p>
+<p>
+<s>4 ) rambid ja &uuml;hendusteed , mis on liikluse korraldamiseks ja liiklusvoogude kanaliseerimiseks rajatud eri- ja samatasandiliste maanteede ristumisalale .</s>
+</p>
+<p>
+<s>( 4 ) Riigimaantee liigi kehtestab ning v&otilde;tab maantee riigimaanteede nimekirja ja arvab sellest v&auml;lja teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 5 ) Kohalik maantee on kohaliku omavalitsuse omandis olev kohaliku liikluse korraldamiseks rajatud tee .</s>
+</p>
+<p>
+<s>( 6 ) Kohaliku maantee v&otilde;tab kohalike maanteede nimekirja ja arvab sellest v&auml;lja valla- v&otilde;i linnavolikogu .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>T&auml;nav</s>
+</p>
+<p>
+<s>T&auml;nav on linnas , alevis v&otilde;i alevikus paiknev rajatis , mis on ehitatud v&otilde;i kohandatud s&otilde;idukite v&otilde;i jalak&auml;ijate liiklemiseks .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Jalgtee ja jalgrattatee</s>
+</p>
+<p>
+<s>Jalgtee ja jalgrattatee on rajatis , mis on ehitatud v&otilde;i kohandatud kas ainult jalak&auml;ijate , nii jalak&auml;ijate kui ka jalgratturite v&otilde;i ainult jalgratturite liiklemiseks .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Talitee</s>
+</p>
+<p>
+<s>( 1 ) Talitee on &uuml;le k&uuml;lmunud maa v&otilde;i veekogu rajatav tee , mis on ette n&auml;htud mandri ja saarte v&otilde;i mandri eri kohtade vahel liiklemiseks .</s><s>Talitee kasutamise aeg on piiratud .</s>
+</p>
+<p>
+<s>( 2 ) Talitee rajamiseks vajaliku maa v&otilde;i veekogu omanikul on &otilde;igus n&otilde;uda tee rajajalt maa v&otilde;i veekogu kasutamise eest tasu .</s>
+</p>
+<p>
+<s>( 3 ) Talitee asukoht , tee kasutamise t&auml;htaeg ja kasutamise tingimused ning tee rajamiseks vajaliku maa v&otilde;i veekogu kasutamise eest v&otilde;etava tasu suurus n&auml;hakse ette maa v&otilde;i veekogu omaniku ja talitee rajamisest huvitatud isiku vahel s&otilde;lmitud lepingus .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Maantee klass</s>
+</p>
+<p>
+<s>( 1 ) Maantee klass m&auml;&auml;ratakse , arvestades liiklussagedust , piirkonna arengu vajadusi ja rahvusvahelist liiklust .</s><s>Riigimaantee klassi m&auml;&auml;rab teede- ja sideminister ning kohaliku maantee klassi valla- v&otilde;i linnavolikogu .</s>
+</p>
+<p>
+<s>( 2 ) Maantee klassid on kiirtee , I klassi maantee , II klassi maantee , III klassi maantee , IV klassi maantee ja V klassi maantee .</s><s>Maanteed jaotatakse klassideks j&auml;rgmiste tunnuste alusel :</s>
+</p>
+<p>
+<s>1 ) kiirtee on sellel lubatud kiirusele vastava kattega maantee mootors&otilde;idukite liiklemiseks , mis ei teeninda vahetult teega piirnevaid alasid .</s><s>Kiirteel on kaks eri s&otilde;idusuundades kulgevat v&auml;hemalt kahe s&otilde;idurajaga teed , mis on &uuml;ksteisest eraldatud eraldusribaga v&otilde;i muu rajatisega .</s><s>Kiirtee ei tohi samal tasandil ristuda teise teega ega raudteega .</s><s>Kiirteele s&otilde;idetakse kiirendusraja kaudu ja kiirteelt muud liiki teele aeglustusraja kaudu .</s><s>Tee peab vastama kiirtee kohta kehtestatud n&otilde;uetele , kui eeldatav keskmine liiklussagedus on v&auml;hemalt 8000 autot &ouml;&ouml;p&auml;evas ;</s>
+</p>
+<p>
+<s>2 ) I klassi maantee on kattega ning m&otilde;lemas liiklussuunas v&auml;hemalt kahe s&otilde;idurajaga tee , mis ristub raudteega v&otilde;i teise teega enamasti kahel tasandil .</s><s>Teele s&otilde;idetakse kiirendusraja kaudu ja teelt &auml;ra aeglustusraja kaudu .</s><s>Tee peab vastama I klassi maantee kohta kehtestatud n&otilde;uetele , kui eeldatav keskmine liiklussagedus on v&auml;hemalt 6000 autot &ouml;&ouml;p&auml;evas ;</s>
+</p>
+<p>
+<s>3 ) II klassi maantee on kattega tee , mis v&otilde;ib teise teega ristuda &uuml;hel tasandil .</s><s>Tee peab vastama II klassi maantee kohta kehtestatud n&otilde;uetele , kui eeldatav keskmine liiklussagedus on v&auml;hemalt 3000 autot &ouml;&ouml;p&auml;evas ;</s>
+</p>
+<p>
+<s>4 ) III klassi maantee on kattega tee , mis v&otilde;ib teise teega ristuda &uuml;hel tasandil .</s><s>Tee peab vastama III klassi maantee kohta kehtestatud n&otilde;uetele , kui eeldatav keskmine liiklussagedus on v&auml;hemalt 1000 autot &ouml;&ouml;p&auml;evas ;</s>
+</p>
+<p>
+<s>5 ) IV klassi maantee on kattega v&otilde;i kruusatee , mis v&otilde;ib teise teega ristuda &uuml;hel tasandil .</s><s>Tee peab vastama IV klassi maantee kohta kehtestatud n&otilde;uetele , kui eeldatav keskmine liiklussagedus on v&auml;hemalt 200 autot &ouml;&ouml;p&auml;evas ;</s>
+</p>
+<p>
+<s>6 ) V klassi maantee on kattega v&otilde;i kruusatee .</s><s>Tee peab vastama V klassi maantee kohta kehtestatud n&otilde;uetele , kui eeldatav keskmine liiklussagedus on kuni 200 autot &ouml;&ouml;p&auml;evas .</s>
+</p>
+<p>
+<s>( 3 ) Tehnilised n&otilde;uded maantee klassile kehtestab koos k&auml;esoleva seaduse &sect; 19 l&otilde;ikes 2 nimetatud tee projekteerimise normide ja n&otilde;uetega teede- ja sideminister .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tee suhtes esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Tee seisund</s>
+</p>
+<p>
+<s>( 1 ) Tee seisund peab v&otilde;imaldama ohutult liigelda ning olema keskkonnakaitsen&otilde;uete ja tee klassi kohta kehtestatud tehniliste n&otilde;uete kohane .</s>
+</p>
+<p>
+<s>( 2 ) Talitee , ohutusrajatiste , liiklusm&auml;rkide , fooride , piirete , t&auml;hispostide ja teem&auml;rgistuse kohta k&auml;ivad ning muud tee seisundi kohta esitatavad n&otilde;uded kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Tee omanik v&otilde;i k&auml;esoleva seaduse &sect; 4 l&otilde;ikes 4 v&otilde;i &sect; 25 l&otilde;ikes 6 nimetatud teehoiu korraldamise eest vastutavaks m&auml;&auml;ratud isik on kohustatud hoidma tee k&auml;esoleva seadusega ja selle alusel kehtestatud &otilde;igusaktidega s&auml;testatud n&otilde;uetele vastavas seisundis .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Tee registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Tee omanik on kohustatud tee registreerima asjaomases registris .</s><s>Taliteed registrisse ei kanta .</s>
+</p>
+<p>
+<s>( 2 ) Riigimaantee registreeritakse riiklikus maanteeregistris .</s>
+</p>
+<p>
+<s>( 3 ) Kohalik maantee , t&auml;nav , jalgtee ja jalgrattatee ning eratee registreeritakse kohalikus teeregistris .</s>
+</p>
+<p>
+<s>( 4 ) Teeregistrite asutamise , pidamise ja likvideerimise ning rahastamise suhtes kohaldatakse andmekogude seadust ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ) .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Tee t&auml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Euroopa teedev&otilde;rgu registris olev tee peab olema t&auml;histatud E-t&auml;hisega , riiklikus maanteeregistris olev tee riigimaantee t&auml;hisega ning kohalikus teeregistris olev tee kohaliku tee nime v&otilde;i t&auml;hisega .</s><s>T&auml;nav ja eratee peavad olema t&auml;histatud nimega .</s>
+</p>
+<p>
+<s>( 2 ) Asustus&uuml;ksusesse sisses&otilde;idu tee ja sealt v&auml;ljas&otilde;idu tee peab tee omanik t&auml;histama suunaviitadega .</s>
+</p>
+<p>
+<s>( 3 ) Teet&auml;histuss&uuml;steemi ja selle rakendamise korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Tee kaitsev&ouml;&ouml;nd</s>
+</p>
+<p>
+<s>( 1 ) Tee kaitseks , teehoiu korraldamiseks , liiklusohutuse tagamiseks ning teelt l&auml;htuvate keskkonnakahjulike ja inimesele ohtlike m&otilde;jude v&auml;hendamiseks rajatakse tee &auml;&auml;rde kaitsev&ouml;&ouml;nd .</s>
+</p>
+<p>
+<s>( 2 ) Riigimaantee kaitsev&ouml;&ouml;ndi laius m&otilde;lemal pool s&otilde;iduraja telge ja mitme s&otilde;iduraja korral m&otilde;lemal pool &auml;&auml;rmise s&otilde;iduraja telge on 50 meetrit .</s>
+</p>
+<p>
+<s>( 3 ) Kohaliku maantee kaitsev&ouml;&ouml;ndi laius m&otilde;lemal pool s&otilde;iduraja telge ja mitme s&otilde;iduraja korral m&otilde;lemal pool &auml;&auml;rmise s&otilde;iduraja telge on 20 kuni 50 meetrit .</s>
+</p>
+<p>
+<s>( 4 ) Eratee kaitsev&ouml;&ouml;ndi laius on m&otilde;lemal pool s&otilde;iduraja telge ja mitme s&otilde;iduraja korral m&otilde;lemal pool &auml;&auml;rmise s&otilde;iduraja telge 10 kuni 50 meetrit .</s>
+</p>
+<p>
+<s>( 5 ) T&auml;nava kaitsev&ouml;&ouml;ndi laius on teemaa piirist kuni 10 meetrit ; v&ouml;&ouml;ndi laius n&auml;hakse ette detailplaneeringus .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Teehoid</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Teehoiu m&otilde;iste</s>
+</p>
+<p>
+<s>Teehoiuna k&auml;sitatakse teet&ouml;&ouml; kavandamist , tee projekteerimist , ehitamist ja remontimist , tee ja teekaitsev&ouml;&ouml;ndi hooldamist , teekasutuse korraldamist ning tee haldamisega seotud muud tegevust .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Teehoiu kavandamine</s>
+</p>
+<p>
+<s>( 1 ) Teehoidu kavandades tuleb j&auml;rgida keskkonnakaitsen&otilde;udeid , piirkonna arengu vajadusi ja eeldatavat liiklussagedust .</s><s>L&uuml;hiajaline teehoiukava koostatakse kolmeks aastaks ja seda tuleb igal aastal uuendada .</s><s>Pikaajalist teehoiukava koostades l&auml;htutakse &otilde;igusaktides s&auml;testatud t&auml;htaegadest .</s>
+</p>
+<p>
+<s>( 2 ) Teehoiukava peab sisaldama :</s>
+</p>
+<p>
+<s>1 ) kavandatavate ehitus- ja remondiobjektide nimekirja ;</s>
+</p>
+<p>
+<s>2 ) hooldet&ouml;&ouml;de kulude arvestust ;</s>
+</p>
+<p>
+<s>3 ) teehoiukulude eelarvet ning kulude katteks kavandatud tulude arvestust riigieelarve , kohalike eelarvete , laenude , v&auml;lisabi ja muude rahastamisallikate l&otilde;ikes .</s>
+</p>
+<p>
+<s>( 3 ) Teehoiukava koostab Teede- ja Sideministeerium Maanteeameti ja kohalike omavalitsuste koostatud teehoiukavasid arvestades .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Teehoiu rahastamine</s>
+</p>
+<p>
+<s>( 1 ) Teehoiukava kinnitab Vabariigi Valitsus .</s><s>Teehoidu rahastatakse Vabariigi Valitsuse kinnitatud teehoiukava alusel .</s>
+</p>
+<p>
+<s>( 2 ) Teehoiu rahastamiseks n&auml;hakse riigieelarves ette kulud &uuml;ldsummas mitte v&auml;hem , kui on kavandatud laekumisi j&auml;rgmistest allikatest :</s>
+</p>
+<p>
+<s>1 ) k&uuml;tuseaktsiisis k&auml;esoleva seaduse &sect;-s 45 s&auml;testatud ulatuses ja korras ;</s>
+</p>
+<p>
+<s>( 17.11.99 j&otilde;ust .</s><s>25.12.99 - RT I 1999 , 93 , 831 )</s>
+</p>
+<p>
+<s>2 ) mootors&otilde;idukiaktsiis ;</s>
+</p>
+<p>
+<s>3 ) trahvid teekasutus- ja teekaitsen&otilde;uete rikkumise eest .</s>
+</p>
+<p>
+<s>( 3 ) Raha jaotus riigimaanteede hoiuks ning kohalike maanteede ja t&auml;navate hoiuks m&auml;&auml;ratakse igaks eelarveaastaks riigieelarves .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 3 alusel m&auml;&auml;ratud raha jaotuse riigimaanteede ehitus- ja remondiobjektide , hooldet&ouml;&ouml;de ja muude teehoiuks vajalike kulude l&otilde;ikes kinnitab teede- ja sideminister teehoiukava alusel .</s><s>Kohalike teede hoiuks riigieelarvest m&auml;&auml;ratud raha jaotuse maakondade vahel kinnitab teede- ja sideministri ettepanekul teehoiukava alusel Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Tee planeerimine , ehitamine ja remontimine</s>
+</p>
+<p>
+<s>( 1 ) Tee rajamiseks etten&auml;htud maa-ala planeeritakse ja avalikkust informeeritakse planeeringu koostamisest planeerimis- ja ehitusseaduse ( RT I 1995 , 59 , 1006 ; 1996 , 36 , 738 ; 49 , 953 ; 1999 , 27 , 380 ) kohaselt .</s>
+</p>
+<p>
+<s>( 2 ) Tee ehitamise eesm&auml;rk on muuta liiklemine ohutumaks , suurendada tee l&auml;bilaskev&otilde;imet ja seega soodustada transiitliiklust , parandada keskkonnaseisundit v&otilde;i soodustada piirkonna arengut .</s><s>Tee ehitamise tulemus on uus tee , tee klassi muutumine , uus ristmik v&otilde;i lisarada .</s>
+</p>
+<p>
+<s>( 3 ) Tee remontimise eesm&auml;rk on k&otilde;rvaldada tee-elementide kulumise ja kahjustuste tagaj&auml;rjed .</s><s>Remondi tulemus on tee-elementide esialgne tehniline seisund .</s><s>Tee klass remondi tulemusena ei muutu .</s>
+</p>
+<p>
+<s>( 4 ) Tee-ehitusmaterjalide ja -toodete loetelu , mille puhul n&auml;hakse ette n&otilde;uetele vastavuse t&otilde;endamine , nendele tee-ehitusmaterjalidele ja -toodetele esitatavad n&otilde;uded ning n&otilde;uetele vastavuse t&otilde;endamise korra toote n&otilde;uetele vastavuse t&otilde;endamise seaduses ( RT I 1999 , 92 , 825 ) s&auml;testatu alusel kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Kinnisasja sundv&otilde;&otilde;randamine</s>
+</p>
+<p>
+<s>( 1 ) Avalikult kasutatava tee ehitamise korral kohaldatakse etten&auml;htud sundv&otilde;&otilde;randamise suhtes kinnisasja sundv&otilde;&otilde;randamise seadust ( RT I 1995 , 30 , 380 ; 59 , 1006 ) .</s>
+</p>
+<p>
+<s>( 2 ) Asulate vahel ja l&auml;bi asulate &uuml;ldiseks liiklemiseks etten&auml;htud tee ehitamise korral otsustab kinnisasja sundv&otilde;&otilde;randamise Vabariigi Valitsus ning kohalikuks liiklemiseks etten&auml;htud tee ehitamise korral valla- v&otilde;i linnavolikogu .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Teeprojekt</s>
+</p>
+<p>
+<s>( 1 ) Tee ehitamise aluseks on projekt ja eelarve .</s><s>Muudeks teehoiut&ouml;&ouml;deks koostatakse projekt v&otilde;i kulutuste kalkulatsioon .</s><s>Projekti j&auml;rgi tehtavad teehoiut&ouml;&ouml;d on ette n&auml;htud k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud tee projekteerimise normide ja n&otilde;uetega .</s>
+</p>
+<p>
+<s>( 2 ) Projekti suhtes esitatavad n&otilde;uded , tee projekteerimise normid ja n&otilde;uded ning projekti ekspertiisi tegemise korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Asulate vahel ja l&auml;bi asulate &uuml;ldiseks liiklemiseks etten&auml;htud tee projekteerimise n&otilde;uded annab Maanteeamet .</s><s>Kohalikuks liiklemiseks etten&auml;htud tee projekteerimise n&otilde;uded annab valla- v&otilde;i linnavalitsus .</s><s>Projekteerimisn&otilde;uded esitatakse tee omanikule .</s>
+</p>
+<p>
+<s>( 4 ) Teeprojektile tuleb teha ekspertiis .</s><s>Teeprojekti ekspertiis peab ka selgitama , kuidas teehoiut&ouml;&ouml; m&otilde;jutab keskkonda .</s>
+</p>
+<p>
+<s>( 5 ) Ekspertiisi v&otilde;ib teha isik , kellel on asjakohane tegevusluba .</s>
+</p>
+<p>
+<s>( 6 ) Teeprojekti peab kinnitama tee omanik .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Ehitusj&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Teehoiut&ouml;&ouml; ehitusj&auml;relevalvet korraldab Maanteeamet .</s>
+</p>
+<p>
+<s>( 2 ) Ehitusj&auml;relevalve &uuml;lesanne on :</s>
+</p>
+<p>
+<s>1 ) kontrollida , kas teeprojekt vastab seadustele ja normidele ning detailplaneeringutele ja projekteerimisn&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) kontrollida , kas teehoiut&ouml;&ouml;l t&auml;idetakse tee-ehitusloaga kehtestatud n&otilde;udeid ja kas t&ouml;&ouml; tegijal on tegevusluba ;</s>
+</p>
+<p>
+<s>3 ) teha ettekirjutusi teehoiut&ouml;&ouml;de puuduste k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>4 ) teatada valla- v&otilde;i linnavalitsusele ning maanteeregistrile v&otilde;i kohalikule teeregistrile tee-ehitusloa ja teekasutusloa v&auml;ljaandmisest ;</s>
+</p>
+<p>
+<s>5 ) korraldada ehitisega toimunud avarii p&otilde;hjuste uurimist ja teostada omanikuj&auml;relevalvet tee omanikuga s&otilde;lmitud j&auml;relevalvelepingus etten&auml;htud volituste piires .</s>
+</p>
+<p>
+<s>( 3 ) Ehitusj&auml;relevalvet v&otilde;ib teostada tegevusloaga isik .</s><s>J&auml;relevalveametnikul on j&auml;rgmised &otilde;igused :</s>
+</p>
+<p>
+<s>1 ) saada projekti kontrollimiseks vajalikke andmeid , t&ouml;&ouml; kontrollimiseks p&auml;&auml;seda takistamatult teele , teha ehitusettev&otilde;tjale ettekirjutusi , kui ehitis ei ole projektikohane ega vasta ehitusnormidele v&otilde;i on muutunud avarii- v&otilde;i keskkonnaohtlikuks , ja m&auml;&auml;rata t&auml;htaeg puuduste k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>2 ) n&otilde;uda tee-ehitusloa v&auml;ljaandjalt loa peatamist v&otilde;i t&uuml;histamist , kui on rikutud ehitusloaga kehtestatud n&otilde;udeid ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;uda ettev&otilde;tjalt teeprojektis v&otilde;i t&ouml;&ouml;v&otilde;tulepingus m&auml;&auml;ratud kvaliteedin&otilde;uetele mittevastavate t&ouml;&ouml;de &uuml;mbertegemist .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;relevalvekulud kannab tee omanik .</s>
+</p>
+<p>
+<s>( 5 ) Ehitusj&auml;relevalve korra , tee-ehitusloa ja teekasutusloa andmise ning teehoiut&ouml;&ouml;de dokumenteerimise n&otilde;uded kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Tee-ehitusluba</s>
+</p>
+<p>
+<s>( 1 ) Tee-ehitusloa alusel tehtavad teehoiut&ouml;&ouml;d on ette n&auml;htud k&auml;esoleva seaduse &sect; 19 l&otilde;ikes 2 nimetatud tee projekteerimise normide ja n&otilde;uetega .</s>
+</p>
+<p>
+<s>( 2 ) Asulate vahel ja l&auml;bi asulate &uuml;ldiseks liiklemiseks etten&auml;htud tee tee-ehitusloa annab Maanteeamet ning kohalikuks liiklemiseks etten&auml;htud tee tee-ehitusloa valla- v&otilde;i linnavalitsus .</s><s>Tee-ehitusluba antakse tee omanikule .</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;&otilde;rale maale tee rajamise tee-ehitusluba antakse p&auml;rast servituudi kandmist kinnistusraamatusse .</s>
+</p>
+<p>
+<s>( 4 ) Teehoiut&ouml;&ouml;ks antakse tee-ehitusluba , kui teeprojekt vastab projekteerimisn&otilde;uetele ning ehitusnormidele ja teistele &otilde;igusaktidele .</s>
+</p>
+<p>
+<s>( 5 ) Tee-ehitusloaga m&auml;&auml;ratakse teehoiut&ouml;&ouml; t&auml;htaeg , j&auml;relevalveametnik ja t&ouml;&ouml; alustamisest teatamise kohustus .</s>
+</p>
+<p>
+<s>( 6 ) Tee-ehitusluba antakse kuu aja jooksul p&auml;rast loataotluse saamist .</s><s>Loa v&auml;ljaandjal on &otilde;igus tunnistada luba kehtetuks , kui :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;d ei ole alustatud tee-ehitusloa v&auml;ljaandmisest arvates &uuml;he aasta jooksul ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;d j&auml;tkata on ohtlik ;</s>
+</p>
+<p>
+<s>3 ) rikutakse teehoiut&ouml;id reguleerivaid &otilde;igusakte ;</s>
+</p>
+<p>
+<s>4 ) ei j&auml;rgita teeprojekti v&otilde;i</s>
+</p>
+<p>
+<s>5 ) rikutakse muid tee-ehitusloaga etten&auml;htud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 7 ) Tasulise tee ehitamiseks tee-ehitusluba andes tuleb arvestada , et liiklejal peab olema v&otilde;imalik sihtpunkti s&otilde;ita m&ouml;&ouml;da tasuta teed , v&auml;lja arvatud mandrit saarega &uuml;hendava silla &uuml;letamine ja tunneli l&auml;bimine .</s><s>Tasuta tee kasutamine ei tohi p&otilde;hjustada liiklejale liigseid kulutusi ja v&otilde;tta liigselt aega .</s>
+</p>
+<p>
+<s>( 8 ) Tee-ehitusluba ei anta , kui :</s>
+</p>
+<p>
+<s>1 ) teeprojekt ei ole detailplaneeringu ja projekteerimisn&otilde;uete kohane ;</s>
+</p>
+<p>
+<s>2 ) teeprojekti ei ole koostanud v&otilde;i kontrollinud asjakohase tegevusloaga isik ;</s>
+</p>
+<p>
+<s>3 ) projekteeritud ehitis kahjustab asja&otilde;igusseaduse &sect;-des 143-154 s&auml;testatud naabrus&otilde;igusi ja kui naabriga ei ole saavutatud kokkulepet ;</s>
+</p>
+<p>
+<s>4 ) teeprojekt ei vasta tee projekteerimise normidele ja n&otilde;uetele ning teistele &otilde;igusaktidele .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Teekasutusluba</s>
+</p>
+<p>
+<s>( 1 ) Tee kasutamiseks annab loa tee-ehitusloa andja .</s>
+</p>
+<p>
+<s>( 2 ) Teekasutusloa v&otilde;ib anda p&auml;rast tee projektikohast valmimist ja ehitusj&auml;relevalve ettekirjutuste t&auml;itmist .</s>
+</p>
+<p>
+<s>( 3 ) Tee kantakse teeregistrisse p&auml;rast teekasutusloa saamist .</s>
+</p>
+<p>
+<s>( 4 ) Ehitatava v&otilde;i remonditava tee v&otilde;ib teekasutusloa alusel v&otilde;tta valminud osade kaupa kasutusele juhul , kui on tagatud liiklusohutus .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Tee likvideerimine</s>
+</p>
+<p>
+<s>( 1 ) Tee v&otilde;ib likvideerida , kui seda p&auml;rast uue tee ehitamist v&otilde;i m&otilde;nel muul p&otilde;hjusel enam ei vajata .</s><s>Tee likvideerimise loa annab valla- v&otilde;i linnavalitsus .</s>
+</p>
+<p>
+<s>( 2 ) Valla- v&otilde;i linnavalitsus v&otilde;ib lubada tee likvideerida ilma asjakohase projektita .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Teedokumentide s&auml;ilitamine</s>
+</p>
+<p>
+<s>Teeprojekti ja muud olulised dokumendid peab s&auml;ilitama tee omanik .</s><s>Teekasutusloa saamisest arvates k&uuml;mne aasta p&auml;rast antakse teedokumendid arhiivi , kus neid s&auml;ilitatakse arhiiviseaduses ( RT I 1998 , 36/37 , 552 ; 1999 , 16 , 271 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Teehoiu korraldajad</s>
+</p>
+<p>
+<s>( 1 ) Teehoidu korraldab tee omanik Euroopa lepingu ( RT II 1995 , 22-27 , 120 ) , riigihangete seaduse ( RT I 2000 , 84 , 534 ; 2001 , 34 , 189 ) ja k&auml;esoleva seaduse ning nende alusel antud &otilde;igusaktide kohaselt .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>( 2 ) Maanteeamet korraldab riigi omandis olevatel teedel teehoidu ja on kohustatud looma tingimused ohutuks liiklemiseks nendel teedel .</s>
+</p>
+<p>
+<s>( 3 ) Valla- v&otilde;i linnavalitsus korraldab kohaliku omavalitsuse omandis olevatel teedel teehoidu ja on kohustatud looma tingimused ohutuks liiklemiseks nendel teedel .</s>
+</p>
+<p>
+<s>( 4 ) Eratee omanik korraldab tema omandis oleval teel teehoidu ja on kohustatud looma tingimused ohutuks liiklemiseks tema teel .</s>
+</p>
+<p>
+<s>( 5 ) Talitee rajaja korraldab teehoidu taliteel ja on kohustatud looma tingimused ohutuks liiklemiseks tema rajatud teel .</s>
+</p>
+<p>
+<s>( 6 ) Teehoiut&ouml;&ouml;de ajal tagab liiklusohutuse teehoiut&ouml;&ouml; tegija .</s><s>Teehoiu korraldamise eest vastutava isiku m&auml;&auml;ravad tee omanik ja teehoiut&ouml;&ouml;de tegija lepinguga .</s>
+</p>
+<p>
+<s>( 7 ) Linnas , alevis ja alevikus on teega k&uuml;lgneva territooriumi kasutaja kohustatud tegema heakorrat&ouml;id s&otilde;idutee ja vastava territooriumi vahel oleval k&otilde;nniteel .</s>
+</p>
+<p>
+<s>&sect; 25 <hi rend="sup">1</hi> .</s><s>Tegevusluba</s>
+</p>
+<p>
+<s>( 1 ) Avalikult kasutatavate teede ehitamiseks , remontimiseks ja hooldamiseks , nimetatud teehoiut&ouml;&ouml;de ehitusj&auml;relevalveks , teede projekteerimiseks ning projekti ekspertiisi tegemiseks on n&otilde;utav tegevusluba .</s><s>Tegevusluba antakse f&uuml;&uuml;silisele v&otilde;i juriidilisele isikule , kes on t&auml;itnud n&otilde;uded vastava teehoiut&ouml;&ouml; tegemiseks .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusluba on vajalik j&auml;rgmisteks teehoiut&ouml;&ouml;deks :</s>
+</p>
+<p>
+<s>1 ) teede projekteerimine , v&auml;lja arvatud tunnelid , sillad ja viaduktid ( edaspidi sillad ) ;</s>
+</p>
+<p>
+<s>2 ) sildade projekteerimine ;</s>
+</p>
+<p>
+<s>3 ) teeprojektide ekspertiis , v&auml;lja arvatud sillaprojektid ;</s>
+</p>
+<p>
+<s>4 ) sillaprojektide ekspertiis ;</s>
+</p>
+<p>
+<s>5 ) teede ehitamine , remontimine ja hooldamine , v&auml;lja arvatud sildade ehitamine ja remontimine ;</s>
+</p>
+<p>
+<s>6 ) sildade ehitamine ja remontimine ;</s>
+</p>
+<p>
+<s>7 ) teehoiut&ouml;&ouml;de ehitusj&auml;relevalve .</s>
+</p>
+<p>
+<s>( 3 ) Juriidiline isik v&otilde;ib taotleda tegevusluba k&otilde;ikide k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud teehoiut&ouml;&ouml;de tegemiseks .</s><s>F&uuml;&uuml;siline isik v&otilde;ib taotleda tegevusluba teede projekteerimiseks , sildade projekteerimiseks , teeprojektide ekspertiisiks ja sillaprojektide ekspertiisiks ning teehoiut&ouml;&ouml;de ehitusj&auml;relevalveks .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>&sect; 25 <hi rend="sup">2</hi> .</s><s>Tegevusloa taotlejale esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Teede projekteerimiseks , sildade projekteerimiseks , teeprojektide ekspertiisiks ja sillaprojektide ekspertiisiks ning teehoiut&ouml;&ouml;de ehitusj&auml;relevalveks tegevusluba taotleva juriidilise isiku teenistuses peab igal tegevusluba n&otilde;udval tegevusalal olema v&auml;hemalt &uuml;ks p&otilde;hikohaga t&ouml;&ouml;tav teehoiut&ouml;&ouml; kvaliteedi eest vastutav t&ouml;&ouml;taja ( edaspidi vastutav t&ouml;&ouml;taja ) , kellel on vastav f&uuml;&uuml;silise isiku tegevusluba .</s>
+</p>
+<p>
+<s>( 2 ) Teede ehitamiseks , remontimiseks ja hooldamiseks ning sildade ehitamiseks ja remontimiseks tegevusluba taotleva juriidilise isiku teenistuses peab igal tegevusluba n&otilde;udval tegevusalal olema v&auml;hemalt &uuml;ks vastutav t&ouml;&ouml;taja , kes vastab k&auml;esoleva paragrahvi l&otilde;igetes 3 ja 4 s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusluba taotleval f&uuml;&uuml;silisel isikul ja juriidilise isiku teenistuses oleval vastutaval t&ouml;&ouml;tajal peab olema vastav akadeemiline v&otilde;i rakenduslik erialane k&otilde;rgharidus ning erialane t&ouml;&ouml;kogemus .</s>
+</p>
+<p>
+<s>( 4 ) Erialaseks t&ouml;&ouml;kogemuseks loetakse :</s>
+</p>
+<p>
+<s>1 ) teede v&otilde;i sildade projekteerimisel ning tee- v&otilde;i sillaprojektide ekspertiisi tegemisel v&auml;hemalt kolmeaastast t&ouml;&ouml;tamist vastavalt teede v&otilde;i sildade projekteerijana v&otilde;i vastava teehoiut&ouml;&ouml; juhina ;</s>
+</p>
+<p>
+<s>2 ) teede ehitamisel , remontimisel ja hooldamisel ning sildade ehitamisel ja remontimisel v&auml;hemalt kolmeaastast t&ouml;&ouml;tamist vastava teehoiut&ouml;&ouml; juhina ;</s>
+</p>
+<p>
+<s>3 ) teehoiut&ouml;&ouml;de ehitusj&auml;relevalve teostamisel v&auml;hemalt kolmeaastast t&ouml;&ouml;tamist teede v&otilde;i sildade projekteerijana , teehoiut&ouml;&ouml;de ehitusj&auml;relevalve insenerina v&otilde;i teehoiut&ouml;&ouml; juhina .</s>
+</p>
+<p>
+<s>( 5 ) Teehoiut&ouml;&ouml;de ehitusj&auml;relevalve tegevusluba taotlev f&uuml;&uuml;siline isik peab lisaks k&auml;esolevas paragrahvis s&auml;testatud n&otilde;uetele olema l&auml;binud teede- ja sideministri tunnustatud asutuses teehoiut&ouml;&ouml;de ehitusj&auml;relevalve koolituskursuse ja sooritanud kursuse kirjaliku l&otilde;pueksami .</s><s>Koolituskursuse peab tegevusloa omanik l&auml;bima iga kolme aasta tagant .</s>
+</p>
+<p>
+<s>( 6 ) Teede- ja sideminister kinnitab koolituskursuse &otilde;ppekava .</s>
+</p>
+<p>
+<s>( 7 ) Erandkorras v&otilde;ib teehoiut&ouml;&ouml;de tegevusluba taotleda v&otilde;i olla vastutavaks t&ouml;&ouml;tajaks tee-ehitusalase keskeriharidusega isik , kelle senine t&ouml;&ouml;alane tegevus , t&auml;iendus&otilde;pe ning t&ouml;&ouml;andjate ja ameti- v&otilde;i erialaliitude soovitused tunnistavad tema p&auml;devust vastaval tegevusalal tegutsemiseks .</s>
+</p>
+<p>
+<s>( 8 ) V&auml;lisriigi kodaniku ja ettev&otilde;tja suhtes kehtivad teehoiut&ouml;&ouml;de tegevusloa taotlemise korral samad n&otilde;uded , mis Eesti Vabariigi kodaniku ja ettev&otilde;tja suhtes .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>&sect; 25 <hi rend="sup">3</hi> .</s><s>Tegevusloa taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa saamiseks peab f&uuml;&uuml;siline isik esitama Maanteeametile taotluse koos dokumentide koopiatega , mis t&otilde;endavad vastava teehoiut&ouml;&ouml; tegemise oskusi .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa saamiseks peab juriidiline isik esitama Maanteeametile taotluse , millele on lisatud :</s>
+</p>
+<p>
+<s>1 ) andmed tema kasutuses oleva vastava teehoiut&ouml;&ouml; tegemiseks vajaliku tehnilise varustuse kohta ;</s>
+</p>
+<p>
+<s>2 ) notariaalselt t&otilde;estatud v&auml;ljav&otilde;te asutamisotsusest , -lepingust , &uuml;hingulepingust v&otilde;i p&otilde;hikirjast tegevusvaldkondade kohta ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;hikohaga t&ouml;&ouml;tavate vastutavate t&ouml;&ouml;tajate nimekiri , kuhu on m&auml;rgitud nende erialased oskused ja erialased t&ouml;&ouml;kogemused ;</s>
+</p>
+<p>
+<s>4 ) Maksuameti kohaliku asutuse t&otilde;end maksuv&otilde;lgnevuse puudumise kohta .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>&sect; 25 <hi rend="sup">4</hi> .</s><s>Tegevusloa v&auml;ljaandmine , pikendamine ja muutmine</s>
+</p>
+<p>
+<s>( 1 ) Teehoiut&ouml;&ouml;de tegevuslubasid annab v&auml;lja Maanteeamet .</s><s>Tegevusloa v&auml;ljaandmiseks hindab Maanteeamet tegevusloa taotleja vastavust k&auml;esoleva seaduse &sect;-s 25 <hi rend="sup">2</hi> s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusluba antakse kolmeks aastaks .</s><s>Tegevusloa kehtivusajal on Maanteeametil &otilde;igus n&otilde;uda tegevusloa omanikult vastutavate t&ouml;&ouml;tajate nimekirja .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloale m&auml;rgitakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) tegevusloa omaniku nimi ja aadress ;</s>
+</p>
+<p>
+<s>2 ) lubatud tegevusalad ;</s>
+</p>
+<p>
+<s>3 ) tegevusloa number ;</s>
+</p>
+<p>
+<s>4 ) tegevusloa v&auml;ljaandmise kuup&auml;ev ja kehtivusaeg ;</s>
+</p>
+<p>
+<s>5 ) tegevusloa andja nimetus ja pitser ;</s>
+</p>
+<p>
+<s>6 ) tegevusloale alla kirjutava isiku ametinimetus , nimi ja allkiri .</s>
+</p>
+<p>
+<s>( 4 ) Tegevusloa taotleja tasub loa saamise eest riigil&otilde;ivu vastavalt riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; 2000 , 5 , 32 ; 10 , 58 ; 19 , 117 ; 26 , 150 ; 29 , 168 ja 169 ; 39 , 237 ; 49 , 300 ; 54 , 346 ja 349 ; 55 , 365 ; 57 , 372 ja 373 ; 59 , 379 ; 60 , &otilde;iend ; 78 , 498 ; 84 , 534 ; 92 , 597 ja 598 ; 95 , 607 ja 611 ; 2001 , 2 , 2 ; 3 , 4 ; 16 , 69 ja 72 ; 27 , 151 ; 31 , 171 ; 34 , 188 ja 189 ; 36 , 201 ) s&auml;testatule .</s><s>Maksekorralduse koopia esitatakse tegevusloa k&auml;ttesaamisel .</s>
+</p>
+<p>
+<s>( 5 ) Tegevusloa kehtivusaja m&ouml;&ouml;dumisel pikendatakse tegevusloa omaniku taotlusel tegevusluba kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 6 ) Tegevusloa pikendamise korral kehtivad tegevusloa v&auml;ljaandmiseks s&auml;testatud n&otilde;uded .</s>
+</p>
+<p>
+<s>( 7 ) Tegevusloale kantud andmete muutumise korral on tegevusloa omanik kohustatud taotlema tegevusloa muutmist .</s><s>Kui tegevusloa omaniku taotluse alusel muudetakse loale m&auml;rgitud tegevusala v&otilde;i muid andmeid , ei muutu tegevusloa kehtivusaeg ega v&otilde;eta riigil&otilde;ivu .</s>
+</p>
+<p>
+<s>( 8 ) Otsuse tegevusloa andmise , pikendamise , muutmise v&otilde;i vastava toimingu tegemisest keeldumise kohta teeb Maanteeamet hiljemalt 30 p&auml;eva jooksul p&auml;rast k&otilde;igi n&otilde;utavate dokumentide saamist .</s><s>Tegevusloa taotlejat teavitatakse seitsme p&auml;eva jooksul p&auml;rast sellekohase otsuse vastuv&otilde;tmist .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>&sect; 25 <hi rend="sup">5</hi> .</s><s>Tegevusloa peatamine ja kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa v&otilde;ib peatada , kui tegevusloa omanik :</s>
+</p>
+<p>
+<s>1 ) on rikkunud teehoiut&ouml;&ouml;de suhtes kehtestatud n&otilde;udeid ;</s>
+</p>
+<p>
+<s>2 ) on esitanud tegevusloa taotlemise v&otilde;i pikendamise korral valeandmeid ;</s>
+</p>
+<p>
+<s>3 ) ei ole etten&auml;htud ajaks v&otilde;i ulatuses t&auml;itnud ehitusj&auml;relevalve ettekirjutusi ;</s>
+</p>
+<p>
+<s>4 ) on juriidiline isik , kelle teenistuses ei ole n&otilde;uetekohase p&auml;devusega vastutavat t&ouml;&ouml;tajat ;</s>
+</p>
+<p>
+<s>5 ) ei ole tegevusloale kantavate andmete muutumisel teinud tegevusloa muutmise taotlust ;</s>
+</p>
+<p>
+<s>6 ) ei ole tasunud riigil&otilde;ivu 10 p&auml;eva jooksul p&auml;rast talle teatavaks tehtud otsust tegevusloa v&auml;ljastamise kohta .</s>
+</p>
+<p>
+<s>( 2 ) Maanteeamet v&otilde;ib anda tegevusloa omanikule t&auml;htaja tegevusloa peatamise tinginud puuduste k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa kehtivusaeg ei pikene tegevusloa peatamise aja v&otilde;rra .</s>
+</p>
+<p>
+<s>( 4 ) Tegevusluba tunnistatakse kehtetuks , kui tegevusloa omanik ei ole talle teatatud t&auml;htaja jooksul puudusi k&otilde;rvaldanud .</s>
+</p>
+<p>
+<s>( 5 ) Teehoiut&ouml;&ouml;de tegevusloa taotluse menetlemise korra , tegevusloa vormi ning taotluste vormin&otilde;uded kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>&sect; 25 <hi rend="sup">6</hi> .</s><s>Vaidluste lahendamine</s>
+</p>
+<p>
+<s>( 1 ) Kui tegevusloa taotleja v&otilde;i omanik ei ole n&otilde;us Maanteeameti otsusega tegevusloa v&auml;ljaandmisest keeldumise , tegevusloa peatamise v&otilde;i kehtetuks tunnistamise kohta , v&otilde;ib ta esitada kirjaliku kaebuse teede- ja sideministrile .</s>
+</p>
+<p>
+<s>( 2 ) Kaebus vaadatakse l&auml;bi 10 p&auml;eva jooksul ja kaebuse esitajale teatatakse l&auml;bivaatamise tulemusest t&auml;htkirjaga seitsme p&auml;eva jooksul p&auml;rast otsuse vastuv&otilde;tmist .</s><s>Kui kaebuse lahendamine v&otilde;tab rohkem aega , v&otilde;ib teede- ja sideminister otsuse vastuv&otilde;tmise t&auml;htaega pikendada kuni 30 p&auml;eva v&otilde;rra , teatades sellest kaebuse esitajale kirjalikult .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Tasuline tee</s>
+</p>
+<p>
+<s>( 1 ) Tasulise tee v&otilde;ib rajada &uuml;ksnes uusehitisena .</s><s>Tasulise tee hoiu kulud kannab ja tee kasutamise tasu kehtestab tee omanik .</s>
+</p>
+<p>
+<s>( 2 ) Tee-ehitusloa andja v&otilde;ib tasulise tee omanikule kehtestada tee-ehitus- ja teekasutusn&otilde;uded , tee tasulisena kasutamise t&auml;htaja ning teevaidluste lahendamise korra .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Teel paiknev teev&auml;line rajatis</s>
+</p>
+<p>
+<s>( 1 ) Teel paikneva melioratsiooni- ja h&uuml;drotehnilise ning muu rajatise hoidu korraldab selle omanik tee omaniku n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 2 ) Teed &uuml;letavat viadukti hoiab korras selle omanik .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Raudtee&uuml;letuskoht</s>
+</p>
+<p>
+<s>( 1 ) Raudtee&uuml;letuskoht on tee ja raudtee samatasandilise ristumise ala .</s>
+</p>
+<p>
+<s>( 2 ) Raudtee&uuml;letuskohal teeb ristumiskoha hoiut&ouml;id ja on kohustatud looma tingimused ohutuks liiklemiseks tee omanik ja raudtee omanik vastavalt neile kuuluva kinnisasja ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Tee ja raudtee kattuvas kaitsev&ouml;&ouml;ndis teevad tee omanik ja raudtee omanik hoiut&ouml;id omavahelise kokkuleppe alusel .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Avalikult kasutatava tee maakasutus</s>
+</p>
+<p>
+<s>( 1 ) Avalikult kasutatava tee maakasutuse sihtotstarve on transpordimaa .</s>
+</p>
+<p>
+<s>( 2 ) Avalikult kasutatava tee seisundist v&otilde;i teehoiut&ouml;&ouml;dest tingitud ajutiseks &uuml;mbers&otilde;iduks s&otilde;lmib tee omanik lepingu kinnistu omanikuga , kelle maal &uuml;mbers&otilde;iduks kasutatav tee asub .</s><s>Lepingut ei pea s&otilde;lmima avarii ja loodus&otilde;nnetuse korral .</s>
+</p>
+<p>
+<s>( 3 ) Avalikult kasutatava tee omanikul on &otilde;igus anda teemaad maakasutust reguleerivate &otilde;igusaktide kohaselt kasutada teisele isikule ilma hoonestus&otilde;iguseta tingimusel , et see ei raskenda teehoidu ega halvenda liiklusolusid .</s>
+</p>
+<p>
+<s>( 4 ) Teealuses maap&otilde;ue osas tehtavate kaevandamist&ouml;&ouml;de suhtes , v&auml;lja arvatud allmaaehitiste rajamine , ei kohaldata maap&otilde;ueseadust ( RT I 1994 , 86/87 , 1488 ; 1995 , 75 , 1321 ; 1996 , 49 , 953 ; 1997 , 52 , 833 ; 86 , 1461 ; 93 , 1562 ; 1998 , 64/65 , 1005 ; 71 , 1201 ; 1999 , 10 , 155 ; 54 , 583 ; 95 , 843 ; 2000 , 54 , 348 ; 102 , 670 ; 2001 , 24 , 133 ) .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Teehoiut&ouml;&ouml; tehnoloogia</s>
+</p>
+<p>
+<s>( 1 ) Tee ehitamise ja remontimise ning muude teehoiut&ouml;&ouml;de tehnoloogia peab vastama liiklusohutus- ja keskkonnakaitse- ning tee seisundi suhtes esitatavatele n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Teehoiut&ouml;&ouml;de tehnoloogian&otilde;uded kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Teave tee seisundi ja kasutuskorralduse kohta</s>
+</p>
+<p>
+<s>( 1 ) Riigimaanteede seisundi ning nende kasutamise ja kaitse p&otilde;hin&otilde;uete kohta annab teavet Maanteeamet .</s><s>Operatiivinfot riigimaanteede liiklusolude kohta annab Maanteeamet &uuml;leriigilise levikuga raadio kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Maanteeamet peab &uuml;leriigilise levikuga raadio kaudu teatama riigimaantee liikluskorralduse olulisest muudatusest ja selle kehtimisajast v&auml;hemalt 24 tundi ette .</s><s>Avalikult kasutatava tee omanik peab liikluskorralduse muudatusest teatama viisil , mis v&otilde;imaldab teavet saada sellel liiklejal , kes seda vajab .</s>
+</p>
+<p>
+<s>( 3 ) Tugeva lumetuisu ja kiilasj&auml;&auml; tekkimise korral ning muul liikluskorraldust v&otilde;i liiklusohutust oluliselt m&otilde;jutaval juhul on Maanteeamet kohustatud &uuml;leriigilise levikuga raadio kaudu viivitamata teatama riigimaantee olukorrast ja andma operatiivinfot loodus- v&otilde;i liiklus&otilde;nnetusest p&otilde;hjustatud liikluskorralduse muudatustest .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;relep&auml;rimise korral peab tee omanik andma teavet tee seisundi ja kasutuskorralduse kohta .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tee kasutamine ja kaitsmine</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Tee kasutajale esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Teed ja tee kaitsev&ouml;&ouml;ndit kahjustada ja risustada on keelatud .</s><s>Tee omanik ja tee kaitsev&ouml;&ouml;ndi omanik v&otilde;ivad n&otilde;uda tee v&otilde;i tee kaitsev&ouml;&ouml;ndi kahjustajalt v&otilde;i risustajalt teehoiukulude katteks h&uuml;vitist .</s>
+</p>
+<p>
+<s>( 2 ) Veoste v&otilde;i s&otilde;itjate veoga tegelev ettev&otilde;tja peab andma tee omanikule tema n&otilde;udmisel andmeid teed kasutavate s&otilde;idukite , vedude mahu , teekonna ning s&otilde;itude sageduse kohta .</s>
+</p>
+<p>
+<s>( 3 ) Tee ja tee kaitsev&ouml;&ouml;ndi kasutamise ning kaitsmise n&otilde;uded kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Veoste ja s&otilde;itjate vedu</s>
+</p>
+<p>
+<s>( 1 ) Liiklust korraldatakse liiklusseaduse ( RT I 2001 , 3 , 6 ) ja selle alusel antud &otilde;igusaktide kohaselt .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>( 2 ) Liiklusv&auml;liseks otstarbeks v&otilde;ib teed kasutada &uuml;ksnes tee omaniku kirjalikul loal ja tema kehtestatud tingimustel .</s>
+</p>
+<p>
+<s>( 3 ) Kui avalikult kasutatav tee suletakse liiklusv&auml;lise &uuml;rituse korraldamiseks , on asjaomase loa saanud isik kohustatud liikluse &uuml;mberkorraldamisega seotud kulud tee omanikule h&uuml;vitama .</s>
+</p>
+<p>
+<s>( 4 ) Nii koormaga kui ka koormata liikleva s&otilde;iduki suurimad lubatud m&otilde;&otilde;tmed ning massi ja teljekoormused kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 5 ) S&otilde;itjate turvalisuse tagamiseks peab tee omanik hoolitsema nii tee kui ka s&otilde;itjate peale- ja mahamineku kohtade ohutuse eest .</s>
+</p>
+<p>
+<s>( 6 ) Lasteveo- v&otilde;i muu &uuml;hiss&otilde;iduliini avamiseks on vaja tee omaniku kirjalikku n&otilde;usolekut .</s>
+</p>
+<p>
+<s>( 7 ) Laste ja teiste reisijate ohutuse tagamiseks v&otilde;ib tee omanik seada nii ajutisi kui ka alalisi piiranguid muude s&otilde;idukite liiklemiseks &uuml;hiss&otilde;idukite marsruudil .</s>
+</p>
+<p>
+<s>( 8 ) Erateed ja reaalservituudiga erateed ning tasulist teed peab tee omanik lubama tasuta kasutada alarms&otilde;idukil ja erakorralise v&otilde;i s&otilde;jaseisukorra ajal kaitsev&auml;e s&otilde;idukil .</s><s>Muudel s&otilde;idukitel peab tee omanik lubama teed tasuta kasutada ainult juhul , kui avalikult kasutatav tee on avarii v&otilde;i loodus&otilde;nnetuse tagaj&auml;rgede likvideerimiseks suletud .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Liiklusv&auml;line teabevahend</s>
+</p>
+<p>
+<s>( 1 ) Liiklusv&auml;line teabevahend on reklaamiseaduses ( RT I 1997 , 52 , 835 ; 1999 , 27 , 388 ; 30 , 415 ; 2001 , 23 , 127 ) nimetatud kuulutus , teadaanne v&otilde;i m&auml;rgis , mis ei ole ette n&auml;htud liikluse korraldamiseks v&otilde;i mis ei ole liikluskorraldusvahendi kohta kehtestatud n&otilde;uete kohane .</s>
+</p>
+<p>
+<s>( 2 ) Liiklusv&auml;lise teabevahendi paigaldamise loa annab maa omanik tee omaniku kirjalikul n&otilde;usolekul ja tema seatud tingimustel .</s><s>Teele ja tee kaitsev&ouml;&ouml;ndi alale v&otilde;ib paigaldada liiklusv&auml;lise teabevahendi , mis :</s>
+</p>
+<p>
+<s>1 ) ei eksita liiklejat ega varja tema eest liikluskorraldusvahendit ;</s>
+</p>
+<p>
+<s>2 ) ei raskenda liikluskorraldusvahendi eristamist ;</s>
+</p>
+<p>
+<s>3 ) ei ohusta liiklust liikleja pimestamisega ega t&auml;helepanu hajutamisega ;</s>
+</p>
+<p>
+<s>4 ) ei piira n&auml;htavust ristmikul .</s>
+</p>
+<p>
+<s>Nimetatud n&otilde;uete eiramisega tekitatud kahju peab liiklejale h&uuml;vitama teabevahendi paigaldaja .</s>
+</p>
+<p>
+<s>( 3 ) Kiirteele ning rahvusvahelisele maanteele ja nende kaitsev&ouml;&ouml;ndi alale v&otilde;ib liiklusv&auml;lise teabevahendi paigaldada ainult r&ouml;&ouml;pselt tee teljega .</s><s>Ajutise liiklusv&auml;lise teabevahendi v&otilde;ib l&uuml;hiajalise &uuml;rituse v&otilde;i s&uuml;ndmuse ajaks paigaldada k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud tingimustel .</s>
+</p>
+<p>
+<s>( 4 ) Maanteele ja maantee kaitsev&ouml;&ouml;ndi alale v&otilde;ib liiklusv&auml;lise teabevahendi paigaldada k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud tingimusel , kui teabevahendi s&otilde;iduteepoolse serva kaugus s&otilde;idutee &auml;&auml;rest on v&auml;hemalt 12 meetrit .</s><s>V&auml;ljapoole tee kaitsev&ouml;&ouml;ndit v&otilde;ib liiklusv&auml;lise teabevahendi paigaldada maa omaniku loal .</s>
+</p>
+<p>
+<s>( 5 ) Teele v&otilde;i tee kaitsev&ouml;&ouml;ndisse tee omaniku n&otilde;usolekuta paigaldatud liiklusv&auml;lise teabevahendi peab paigaldaja tee omaniku n&otilde;udel viivitamata k&otilde;rvaldama .</s><s>N&otilde;ude t&auml;itmata j&auml;tmise korral on tee omanikul &otilde;igus teabevahend k&otilde;rvaldada .</s><s>Teabevahendi k&otilde;rvaldamise kulud kannab teabevahendi paigaldaja .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Erakorraline vedu ja s&otilde;it</s>
+</p>
+<p>
+<s>( 1 ) Erakorralised on vedu ja s&otilde;it , mil suurem&otilde;&otilde;tmelise v&otilde;i raskekaalulise veose v&otilde;i veoseta s&otilde;iduki kas v&otilde;i &uuml;ks suurim m&otilde;&otilde;de , mass v&otilde;i teljekoormus &uuml;letab k&auml;esoleva seaduse &sect; 33 l&otilde;ike 4 alusel kehtestatud suuruse .</s>
+</p>
+<p>
+<s>( 2 ) Avalikult kasutataval teel on erakorraline vedu ja s&otilde;it lubatud eriloaga ja eritasu eest ning &uuml;ksnes loal m&auml;rgitud marsruudil ja tingimustel .</s><s>Tee omanikule erakorralise veo v&otilde;i s&otilde;iduga tekitatud kulutuste h&uuml;vitamise ja eritasu m&auml;&auml;rad ning erilubade v&auml;ljaandmise korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Tegevus teel ja tee kaitsev&ouml;&ouml;ndis</s>
+</p>
+<p>
+<s>( 1 ) Teel ja tee kaitsev&ouml;&ouml;ndis on tee omaniku n&otilde;usolekuta keelatud :</s>
+</p>
+<p>
+<s>1 ) ehitada n&auml;htavust piiravaid hooneid v&otilde;i rajatisi ning rajada istandikku ;</s>
+</p>
+<p>
+<s>2 ) ehitada kiirendus- v&otilde;i aeglustusrada , peale- v&otilde;i mahas&otilde;iduteed , alalist v&otilde;i ajutist m&uuml;&uuml;gipunkti v&otilde;i muud teeninduskohta ;</s>
+</p>
+<p>
+<s>3 ) takistada jalak&auml;ijate liiklemist neid h&auml;iriva tegevusega ;</s>
+</p>
+<p>
+<s>4 ) paigaldada valgustusseadet v&otilde;i teabe- ja reklaamivahendit ;</s>
+</p>
+<p>
+<s>5 ) korraldada spordiv&otilde;istlust v&otilde;i muud rahva&uuml;ritust ;</s>
+</p>
+<p>
+<s>6 ) kaevandada maavara ja maa-ainest ;</s>
+</p>
+<p>
+<s>7 ) teha metsa uuendamiseks lageraiet ;</s>
+</p>
+<p>
+<s>8 ) teha veere&zcaron;iimi muutust p&otilde;hjustavat maaparandus- v&otilde;i muud teehoiuv&auml;list t&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>( 2 ) Tee kaitsev&ouml;&ouml;ndi maa omanik on kohustatud kaitsev&ouml;&ouml;ndis hoidma korras teemaaga k&uuml;lgneva kaitsev&ouml;&ouml;ndi maa-ala ja sellel paikneva rajatise ning k&otilde;rvaldama v&otilde;i lubama k&otilde;rvaldada n&auml;htavust piirava istandiku , puu , p&otilde;&otilde;sa v&otilde;i muu liiklusele ohtliku rajatise .</s><s>Ta peab v&otilde;imaldama paigaldada teega k&uuml;lgnevale kaitsev&ouml;&ouml;ndi kinnistule talihooldeks ajutisi lumet&otilde;kkeid , rajada lumevalle ja kraave tuisklume t&otilde;kestamiseks ning paisata lund v&auml;ljapoole teemaad , kui nimetatud tegevus ei takista juurdep&auml;&auml;su tema elukohale ja varale .</s>
+</p>
+<p>
+<s>( 3 ) Mitmele omanikule kuuluvate teede ristumiskohal vastutab iga omanik ohutuks liiklemiseks vajaliku tee seisundi eest talle kuuluva kinnisasja ulatuses .</s>
+</p>
+<p>
+<s>( 4 ) Uue tee ristumiskoha ehitamise kulud kannab omanik , kes n&otilde;uab teede &uuml;hendamist .</s><s>Teede omanike kokkuleppel v&otilde;ib kulud jaotada .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohustused , j&auml;relvalve ja vastutus</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Tee omaniku &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Tee omanik on kohustatud j&auml;lgima tee seisundit ja hoidma tee korras , k&otilde;rvaldama teelt liiklust ohustava v&otilde;i n&auml;htavust piirava istandiku , puu , p&otilde;&otilde;sa v&otilde;i muu liiklusele ohtliku rajatise ning korraldama tee kasutamist ja kaitset .</s>
+</p>
+<p>
+<s>( 2 ) Kui pinnase sulamise , vihma v&otilde;i muude liiklust oluliselt m&otilde;jutavate tegurite t&otilde;ttu on tee konstruktsioon n&otilde;rgenenud ja liiklus v&otilde;ib teed kahjustada v&otilde;i liigelda on ohtlik , v&otilde;ib tee omanik tee v&otilde;i selle osa teatavaks ajaks sulgeda v&otilde;i teel liiklust piirata .</s><s>Tee sulgemisest v&otilde;i liikluspiirangutest tuleb teatada k&auml;esoleva seaduse &sect; 31 l&otilde;ikes 2 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Tee omanikul on &otilde;igus n&otilde;uda eratee kasutajalt tee kasutamisega seotud kulude katteks h&uuml;vitist .</s>
+</p>
+<p>
+<s>( 4 ) Tee&auml;&auml;rse metsa kaitsemetsale vastavad kasutamise viisid v&otilde;ib metsaseadusele ( RT I 1998 , 113/114 , 1872 ; 1999 , 54 , 583 ; 82 , 750 ; 95 , 843 ; 2000 , 51 , 319 ; 102 , 670 ) vastavalt m&auml;&auml;rata metsaomanik .</s>
+</p>
+<p>
+<s>( 5 ) Tee&auml;&auml;rne mets m&auml;&auml;ratakse tee omaniku taotlusel v&otilde;i &uuml;ldistes huvides planeeringuga kaitsemetsaks , kui see on vajalik :</s>
+</p>
+<p>
+<s>1 ) tee kahjuliku m&otilde;ju k&uuml;lgnevale kinnisasjale v&otilde;i keskkonnale v&auml;ltimiseks v&otilde;i v&auml;hendamiseks ;</s>
+</p>
+<p>
+<s>2 ) tee kaitsmiseks kahjulike loodusm&otilde;jude eest v&otilde;i liiklusohutuse huvides .</s>
+</p>
+<p>
+<s>( 6 ) Tee omanik on kohustatud liiklejale h&uuml;vitama tee kasutamisk&otilde;lbmatuse t&otilde;ttu ning k&auml;esoleva seaduse v&otilde;i selle alusel antud &otilde;igusakti rikkumise t&otilde;ttu tekitatud kahju , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud juhtudel .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Tee kaitsev&ouml;&ouml;ndi maa omaniku &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Tee kaitsev&ouml;&ouml;ndi maa omanik v&otilde;ib n&otilde;uda tee omanikult piirangute v&otilde;i servituutide t&otilde;ttu tekkinud kahju h&uuml;vitamist .</s>
+</p>
+<p>
+<s>( 2 ) Kui teede ristumiskoha n&auml;htavuse parandamiseks ei ole hoonet v&otilde;i muud ehitist tee kaitsev&ouml;&ouml;ndis v&otilde;imalik ega otstarbekas lammutada , tuleb s&otilde;iduohutuse huvides paigaldada liikluskorraldusvahend v&otilde;i muu t&otilde;ke .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud ohutusn&otilde;uete t&auml;itmist kontrollivad Politseiamet ja Maanteeamet .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Seaduse t&auml;itmise j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalvet k&auml;esoleva seaduse ja selle alusel antud &otilde;igusaktide n&otilde;uetest kinnipidamise &uuml;le korraldavad Maanteeamet ja Politseiamet ning tee omanik k&auml;esolevas seaduses loetletud &otilde;igusi ja kohustusi j&auml;rgides .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse ja selle alusel antud &otilde;igusaktide n&otilde;uete rikkumiste k&otilde;rvaldamiseks on &otilde;igus koostada ettekirjutusi politseiametnikul ning teede- ja sideministri volitatud ametnikul k&otilde;igi teede puhul ning kohaliku omavalitsuse volikogu volitatud ametnikul tema omavalitsuse omandis olevate teede puhul .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Juriidilise isiku vastutus teekasutus- ja teekaitsen&otilde;uete rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) Kui juriidiline isik tee omaniku loata :</s>
+</p>
+<p>
+<s>1 ) kasutab teed spordi- ja teisteks rahva&uuml;ritusteks ning muudeks liiklusv&auml;listeks kogunemisteks - m&auml;&auml;ratakse talle rahatrahv 10 000 kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) kasutab liiklemiseks normidele mittevastavate m&otilde;&otilde;tmete , massi v&otilde;i teljekoormusega v&otilde;i teed muul viisil kahjustavat s&otilde;idukit - m&auml;&auml;ratakse talle rahatrahv 10 000 kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>3 ) teeb teel teehoiuv&auml;list t&ouml;&ouml;d , paigutab teele t&ouml;&ouml;vahendi v&otilde;i ehitus- v&otilde;i metsamaterjali , ehitab hoone v&otilde;i rajatise v&otilde;i rajab istandiku - m&auml;&auml;ratakse talle rahatrahv 10 000 kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>4 ) kaevandab tee kaitsev&ouml;&ouml;ndis maavara , teeb metsa lageraiet v&otilde;i muud looduskeskkonda &uuml;mberkujundavat t&ouml;&ouml;d v&otilde;i ehitab tee kaitsev&ouml;&ouml;ndisse hoone , rajatise v&otilde;i muu objekti v&otilde;i rajab istandiku - m&auml;&auml;ratakse talle rahatrahv 10 000 kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>5 ) paigaldab liiklusv&auml;lise teabevahendi - m&auml;&auml;ratakse talle rahatrahv 10 000 kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>( 2 ) Kui juriidiline isik :</s>
+</p>
+<p>
+<s>1 ) j&auml;tab t&auml;itmata tee kaitsev&ouml;&ouml;ndi ja sellel asuva rajatise korrashoiu n&otilde;uded v&otilde;i kahjustab v&otilde;i risustab teed ja tee kaitsev&ouml;&ouml;ndit v&otilde;i ei k&otilde;rvalda liikluskorraldusvahendit etten&auml;htud ajaks - m&auml;&auml;ratakse talle rahatrahv 10 000 kuni 30 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) rikub tee kohta kehtestatud liiklusohutusn&otilde;udeid , j&auml;tab etten&auml;htud ajaks rakendamata abin&otilde;ud teataval teel&otilde;igul liikluse keelamiseks v&otilde;i piiramiseks , j&auml;tab liiklusohtliku koha korrastamata v&otilde;i liiklust ohustava v&otilde;i n&auml;htavust piirava takistuse , puu , p&otilde;&otilde;sa v&otilde;i istandiku k&otilde;rvaldamata , j&auml;tab n&otilde;utud liikluskorraldus- v&otilde;i teet&auml;histusvahendi paigaldamata v&otilde;i paigaldab selle n&otilde;uetevastaselt - m&auml;&auml;ratakse talle rahatrahv 30 000 kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Juriidilise isiku karistamine ei v&auml;lista &otilde;iguserikkumise toimepannud f&uuml;&uuml;silise isiku karistamist .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilise isiku haldus&otilde;iguserikkumise asja arutab ja m&auml;&auml;rab talle karistuse halduskohtunik .</s>
+</p>
+<p>
+<s>( 5 ) Karistuse m&auml;&auml;ramise ja vaidlustamise ning j&otilde;ustunud kohtuotsuse t&auml;itmise ja muid k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 loetletud haldus&otilde;iguserikkumise asju menetletakse haldus&otilde;iguserikkumiste seadustiku ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 58 , 608 ; 92 , 825 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ; 49 , 305 ; 51 , 321 ; 54 , 351 ; 54 , 346 ; 54 , 348 ; 54 , 351 ; 55 , 361 ; 58 , 376 ; 84 , 533 ; 86 , 544 ; 86 , 548 ; 95 , 609 ; 89 , 578 ; 95 , 613 ; 2001 , 18 , 87 ; 21 , 115 ; 116 ; 31 , 174 ; 42 , 236 ) ja t&auml;itemenetluse seadustiku ( RT I 1993 , 49 , 693 ; 2001 , 29 , 156 ; 43 , 238 ) alusel .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Juriidilise isiku haldus&otilde;iguserikkumise protokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 40 l&otilde;igetes 1 ja 2 s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumise kohta on &otilde;igus koostada protokoll k&auml;esoleva seaduse t&auml;itmise j&auml;relevalveks volitatud ametiisikul .</s>
+</p>
+<p>
+<s>( 2 ) Protokollis peab sisalduma :</s>
+</p>
+<p>
+<s>1 ) selle koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) selle asutuse nimetus ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ametinimetus ning ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkuja nimetus ja asukoht ;</s>
+</p>
+<p>
+<s>5 ) &otilde;iguserikkuja volitatud esindaja ametikoht ning ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>6 ) &otilde;iguserikkumise aeg ja koht ning &otilde;iguserikkumise kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) m&auml;rge , et &otilde;iguserikkuja esindajale on tutvustatud tema &otilde;igust kasutada &otilde;igusabi ;</s>
+</p>
+<p>
+<s>8 ) viide k&auml;esoleva seaduse &sect; 40 l&otilde;ikele ja punktile , mis n&auml;eb ette vastutuse selle haldus&otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>9 ) haldus&otilde;iguserikkuja volitatud esindaja seletus ning muud asja lahendamiseks vajalikud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Protokollile kirjutavad alla selle koostanud ametnik ja haldus&otilde;iguserikkuja volitatud esindaja ; kui on tunnistajaid ja kannatanuid , siis v&otilde;ivad protokollile alla kirjutada ka nemad .</s>
+</p>
+<p>
+<s>( 4 ) Kui haldus&otilde;iguserikkuja volitatud esindaja keeldub protokollile alla kirjutamast , teeb protokolli koostaja selle kohta protokolli kande .</s><s>Protokollile lisatakse haldus&otilde;iguserikkuja volitatud esindaja kirjalikud m&auml;rkused protokolli kohta ning protokollile allakirjutamisest keeldumise motiivid .</s>
+</p>
+<p>
+<s>( 5 ) Haldus&otilde;iguserikkumise protokoll koostatakse kahes eksemplaris , millest &uuml;ks j&auml;&auml;b koostajale ja teine haldus&otilde;iguserikkuja volitatud esindajale .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Eesti Vabariigi maanteeseaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Eesti Vabariigi maanteeseadus ( RT 1992 , 1 , 1 ; RT I 1996 , 49 , 953 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Kriminaalkoodeksi muutmine</s>
+</p>
+<p>
+<s>( 1 ) Kriminaalkoodeksis ( RT 1992 , 20 , 288 ; RT I 1997 , 21/22 , 353 ; 28 , 423 ; 30 , 472 ; 34 , 535 ; 51 , 824 ; 52 , 833 ja 834 ; 81 , 1361 ; 86 , 1461 ; 87 , 1466 , 1467 ja 1468 ; 1998 , 2 , 42 ; 4 , 62 ; 17 , 265 ; 23 , 321 ; 30 , 412 ; 36/37 , 552 ja 553 ; 51 , 756 ja 759 ; 59 , 941 ; 98/99 , 1576 ; 107 , 1766 ; 108/109 , 1783 ; 1999 , 4 , 53 ; 10 , 156 ; 16 , 267 , 271 ja 276 ; 26 , 377 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahv 84 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 84.</s><s>Tee ja raudtee , liiklusvahendi ning side- , signalisatsiooni- ja energiaseadme rikkumine</s>
+</p>
+<p>
+<s>Tee v&otilde;i raudtee , liiklusvahendi v&otilde;i side- , signalisatsiooni- v&otilde;i energiaseadme tahtliku purustamise v&otilde;i rikkumise eest , mis p&otilde;hjustas v&otilde;i v&otilde;is p&otilde;hjustada rongi- v&otilde;i lennu&otilde;nnetuse , laevaavarii , liiklus&otilde;nnetuse , transpordi v&otilde;i side normaalse t&ouml;&ouml; rikkumise , h&auml;ire energia tootmise v&otilde;i jaotamise s&uuml;steemis , - karistatakse vabadusekaotusega kolmest kuni kaheteistk&uuml;mne aastani . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 33 l&otilde;igetes 3 ja 4 , &sect; 81 <hi rend="sup">1</hi> l&otilde;ike 2 punktis 3 , &sect; 83 pealkirjas ja l&otilde;ikes 1 ning &sect; 205 pealkirjas asendatakse s&otilde;na &ldquo; transpordivahend &rdquo; s&otilde;naga &ldquo; liiklusvahend &rdquo; vastavas k&auml;&auml;ndes , &sect; 205 l&otilde;ikes 1 asendatakse s&otilde;na &ldquo; veetranspordivahendi &rdquo; s&otilde;naga &ldquo; veeliiklusvahendi &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Asja&otilde;igusseaduse muutmine</s>
+</p>
+<p>
+<s>Asja&otilde;igusseaduses ( RT I 1993 , 39 , 590 ; 1999 , 44 , 509 ; 2001 , 34 , 185 ) asendatakse s&otilde;nad &ldquo; avalik tee &rdquo; s&otilde;nadega &ldquo; avalikult kasutatav tee &rdquo; vastavas k&auml;&auml;ndes .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 16 s&auml;testatud teehoiu rahastamise korda rakendatakse alates 2001. aasta 1. jaanuarist , kusjuures k&uuml;tuseaktsiisist suunatakse teehoiu rahastamiseks :</s>
+</p>
+<p>
+<s>alates 2001. aasta 1. jaanuarist 55 protsenti ;</s>
+</p>
+<p>
+<s>alates 2002. aasta 1. jaanuarist 65 protsenti ;</s>
+</p>
+<p>
+<s>alates 2003. aasta 1. jaanuarist 75 protsenti .</s>
+</p>
+<p>
+<s>( 17.11.99 j&otilde;ust .</s><s>25.12.99 - RT I 1999 , 93 , 831 ; 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 17 l&otilde;ikes 4 s&auml;testatud n&otilde;uet tee-ehitusmaterjalide ja -toodete n&otilde;uetele vastavuse t&otilde;endamise suhtes rakendatakse 2001. aasta 1. juulist .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-s 25 <hi rend="sup">1</hi> nimetatud teehoiut&ouml;&ouml;de tegevusluba on n&otilde;utav alates 2001. aasta 1. juulist .</s>
+</p>
+<p>
+<s>( 18.04.2001 j&otilde;ust .</s><s>17.05.2001 - RT I 2001 , 43 , 241 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

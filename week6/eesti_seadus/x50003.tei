@@ -1,0 +1,1069 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Eesti Haigekassa seadus ( aprill 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    5968</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Eesti Haigekassa seadus ( aprill 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=8></tagusage>
+         <tagusage gi=p occurs=321></tagusage>
+         <tagusage gi=s occurs=455></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Eesti Haigekassa seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 14. juunil 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 57 , 374 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2001. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab Eesti Haigekassa ( edaspidi haigekassa ) eesm&auml;rgi , &uuml;lesanded , p&auml;devuse , &otilde;igusliku seisundi , tegevuse alused ja organid .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Haigekassa eesm&auml;rk ja &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa eesm&auml;rk on ravikindlustush&uuml;vitiste v&otilde;imaldamine vastavalt Eesti Vabariigi ravikindlustusseadusele ( RT 1991 , 23 , 272 ; RT I 1999 , 7 , 113 ; 29 , 397 ) , muudele &otilde;igusaktidele ja haigekassa eelarves etten&auml;htud ravikindlustuse kuludele .</s>
+</p>
+<p>
+<s>( 2 ) Oma eesm&auml;rgi saavutamiseks t&auml;idab haigekassa j&auml;rgmisi &uuml;lesandeid :</s>
+</p>
+<p>
+<s>1 ) korraldab ravikindlustust , tagades ravikindlustusraha efektiivse ja otstarbeka kasutamise ;</s>
+</p>
+<p>
+<s>2 ) t&auml;idab Eesti Vabariigi ravikindlustusseadusest ja muudest seadustest tulenevaid &uuml;lesandeid ;</s>
+</p>
+<p>
+<s>3 ) peab ravikindlustush&uuml;vitiste v&otilde;imaldamiseks ja k&auml;esolevast seadusest tulenevate muude &uuml;lesannete t&auml;itmiseks vajalikku andmekogu koosk&otilde;las isikuandmete kaitse seaduse ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ; 2000 , 50 , 317 ) ja andmekogude seadusega ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ) ;</s>
+</p>
+<p>
+<s>4 ) kontrollib haigekassa poolt osaliselt v&otilde;i t&auml;ielikult tasutavate teenuste kvaliteeti ja p&otilde;hjendatust ;</s>
+</p>
+<p>
+<s>5 ) korraldab ravikindlustust ja haigekassat puudutavate v&auml;lislepingute t&auml;itmist ;</s>
+</p>
+<p>
+<s>6 ) osaleb tervishoiu planeerimisel ning avaldab arvamust haigekassaga ja ravikindlustusega seonduvate &otilde;igusaktide ja v&auml;lislepingute eeln&otilde;ude kohta ;</s>
+</p>
+<p>
+<s>7 ) annab n&otilde;u ravikindlustusega seonduvates k&uuml;simustes .</s>
+</p>
+<p>
+<s>( 3 ) Haigekassa v&otilde;ib oma eesm&auml;rgi saavutamiseks n&otilde;uda k&otilde;igilt isikutelt ja asutustelt asjakohaste dokumentide ja informatsiooni esitamist , kui seaduses ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 4 ) Haigekassa v&otilde;ib p&otilde;hikirjas s&auml;testatud korras moodustada komisjone oma &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Haigekassa kohustused ravikindlustuse korraldamisel</s>
+</p>
+<p>
+<s>Haigekassal on kohustus k&auml;esolevast seadusest ja Eesti Vabariigi ravikindlustusseadusest , haigekassa p&otilde;hikirjast ning teistest &otilde;igusaktidest tulenevate &uuml;lesannete t&auml;itmiseks :</s>
+</p>
+<p>
+<s>1 ) s&otilde;lmida lepinguid tervise edendamise , haiguste ennetamise ja raviteenuste eest tasumiseks ning muude &uuml;lesannete t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>2 ) tasuda raviasutustele lepingutes etten&auml;htud teenuste eest vastavalt lepingute tingimustele , kui seaduses ei ole ette n&auml;htud teisiti ;</s>
+</p>
+<p>
+<s>3 ) tasuda soodustingimustel v&auml;ljastatud ravimite eest apteekidele , kui seaduses ei ole ette n&auml;htud teisiti ;</s>
+</p>
+<p>
+<s>4 ) maksta kindlustatutele ajutise t&ouml;&ouml;v&otilde;imetuse h&uuml;vitisi , kui seaduses ei ole ette n&auml;htud teisiti ;</s>
+</p>
+<p>
+<s>5 ) tasuda sellise isiku ravikindlustush&uuml;vitiste eest , kelle eest sotsiaalmaksu maksja on j&auml;tnud sotsiaalmaksu maksmata , v&auml;lja arvatud ajutise t&ouml;&ouml;v&otilde;imetuse h&uuml;vitis f&uuml;&uuml;silisest isikust ettev&otilde;tjale ;</s>
+</p>
+<p>
+<s>6 ) tagada kindlustatute tervislikku seisundit ja eraelu puudutavate andmete salastatus , mis on haigekassa t&ouml;&ouml;tajatele ja esindajatele teatavaks saanud seoses kutsekohustuste v&otilde;i lepinguliste &otilde;iguste teostamise ja kohustuste t&auml;itmisega , kui seaduses ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Haigekassa p&auml;devus ravikindlustusraha otstarbeka kasutamise tagamiseks</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa kontrollib tervise edendamise , haiguste ennetamise ja raviteenuste osutajate poolt osutatud teenuste ja v&auml;ljaantud t&ouml;&ouml;v&otilde;imetuslehtede ning retseptide &otilde;igsust ja p&otilde;hjendatust , samuti apteegi poolt ravimite soodustingimustel v&auml;ljastamise &otilde;igsust ja p&otilde;hjendatust .</s><s>Eba&otilde;igsuse v&otilde;i p&otilde;hjendamatuse korral on haigekassal &otilde;igus summa v&auml;ljamaksmine vaidlustada v&otilde;i summa v&auml;ljamaksmisest keelduda .</s><s>Haigekassal on &otilde;igus eba&otilde;igesti v&otilde;i p&otilde;hjendamatult v&auml;ljamakstud summa tagasi n&otilde;uda v&otilde;i pidada kinni j&auml;rgmiste perioodide v&auml;ljamaksetest .</s>
+</p>
+<p>
+<s>( 2 ) Haigekassa n&otilde;uab sotsiaalmaksu maksjalt haigekassa kasuks sisse kulud , mida haigekassa on kandnud kindlustatu ravikindlustush&uuml;vitiste tasumisel , kui sotsiaalmaksu maksja on j&auml;tnud sotsiaalmaksu t&auml;htajaks maksmata .</s><s>Nimetatud kulude tasumine ei vabasta sotsiaalmaksu maksjat sotsiaalmaksu maksmise kohustusest .</s>
+</p>
+<p>
+<s>( 3 ) Haigekassa n&otilde;uab kindlustatult v&otilde;i sotsiaalmaksu maksjalt haigekassa kasuks sisse kulud Eesti Vabariigi ravikindlustusseaduses etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 4 ) Haigekassa n&otilde;uab kindlustatult p&otilde;hjendatud kahtluse korral arstliku l&auml;bivaatuse v&otilde;i terviseuuringute l&auml;bimist ja nende tulemuste avaldamist haigekassale .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Haigekassa &otilde;iguslik seisund</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa on k&auml;esoleva seadusega loodud avalik-&otilde;iguslik juriidiline isik .</s><s>Haigekassa &otilde;igusv&otilde;ime tekib alates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 2 ) Haigekassa p&otilde;hikirja kehtestab ning selles teeb muudatusi Vabariigi Valitsus .</s><s>Enne p&otilde;hikirja muutmise ettepaneku esitamist Vabariigi Valitsusele kuulab sotsiaalminister &auml;ra haigekassa n&otilde;ukogu arvamuse .</s>
+</p>
+<p>
+<s>( 3 ) Haigekassa vastutab oma kohustuste t&auml;itmise eest kogu oma varaga , kui seaduses ei ole ette n&auml;htud teisiti .</s><s>Haigekassa ei vastuta riigi kohustuste t&auml;itmise v&otilde;i t&auml;itmata j&auml;tmise eest .</s><s>Riik vastutab haigekassa kohustuste t&auml;itmata j&auml;tmise eest ainult k&auml;esolevas seaduses etten&auml;htud juhtudel ja tingimustel .</s>
+</p>
+<p>
+<s>( 4 ) Riik vastutab haigekassa kohustuste t&auml;itmise eest reservkapitali ebapiisavuse v&otilde;i selle kasutamise v&otilde;imaluste v&otilde;i aluste puudumise korral , kui :</s>
+</p>
+<p>
+<s>1 ) haigekassa ei saa t&auml;ita oma lepingulisi kohustusi v&otilde;i maksta ravikindlustush&uuml;vitisi raha v&auml;hemlaekumise t&otilde;ttu , v&otilde;rreldes riigieelarves ravikindlustuseks etten&auml;htud summadega ;</s>
+</p>
+<p>
+<s>2 ) Vabariigi Valitsuse poolt kehtestatud ravikindlustush&uuml;vitiste piirhinnad ja piirm&auml;&auml;rad ei v&otilde;imalda haigekassal t&auml;ita oma lepingulisi kohustusi v&otilde;i maksta ravikindlustush&uuml;vitisi .</s>
+</p>
+<p>
+<s>( 5 ) Haigekassa ei saa olla pankrotiv&otilde;lgnik .</s>
+</p>
+<p>
+<s>( 6 ) Haigekassal on &otilde;igus v&otilde;tta laenu ainult enda omandis olevate asjade tagatisel .</s><s>Haigekassal on keelatud anda laenu ja tagada teiste isikute laenukohustuste t&auml;itmist .</s>
+</p>
+<p>
+<s>( 7 ) Eesti Haigekassa on kuni k&auml;esoleva seaduse j&otilde;ustumiseni tegutsenud Keskhaigekassa ja piirkondlike haigekassade &otilde;igusj&auml;rglane .</s>
+</p>
+<p>
+<s>( 8 ) Haigekassa ei v&otilde;i jaguneda ega &uuml;hineda teiste juriidiliste isikutega .</s><s>Haigekassat ei v&otilde;i &uuml;mber kujundada muud liiki juriidiliseks isikuks .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Nimi</s>
+</p>
+<p>
+<s>Haigekassa nimi on Eesti Haigekassa .</s><s>Haigekassal on ainu&otilde;igus oma nimele .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Asukoht</s>
+</p>
+<p>
+<s>Haigekassa asukoht on Tallinn .</s><s>Haigekassa aadress on koht , kus asub haigekassa juhatus .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Haigekassa organid ja struktuuri&uuml;ksused</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Haigekassa n&otilde;ukogu</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>N&otilde;ukogu</s>
+</p>
+<p>
+<s>Haigekassa k&otilde;rgeim organ on haigekassa n&otilde;ukogu .</s><s>N&otilde;ukogul on 15 liiget .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>N&otilde;ukogu liikmed</s>
+</p>
+<p>
+<s>( 1 ) Sotsiaalminister , rahandusminister ja Riigikogu sotsiaalkomisjoni esimees on n&otilde;ukogu liikmed ametikoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalkomisjoni ettepanekul m&auml;&auml;rab Riigikogu oma liikmete hulgast &uuml;he n&otilde;ukogu liikme .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus nimetab sotsiaalministri ettepanekul Sotsiaalministeeriumi ametnike hulgast &uuml;he n&otilde;ukogu liikme .</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsuse poolt m&auml;&auml;ratud kindlustatute huve esindavate organisatsioonide poolt tehtud ettepanekute alusel nimetab Vabariigi Valitsus viis n&otilde;ukogu liiget .</s>
+</p>
+<p>
+<s>( 5 ) Vabariigi Valitsuse poolt m&auml;&auml;ratud t&ouml;&ouml;andjate organisatsioonide poolt tehtud ettepanekute alusel nimetab Vabariigi Valitsus viis n&otilde;ukogu liiget .</s>
+</p>
+<p>
+<s>( 6 ) Riigikogu v&otilde;ib enda poolt m&auml;&auml;ratud n&otilde;ukogu liikme igal ajal tagasi kutsuda .</s><s>Vabariigi Valitsus v&otilde;ib tema poolt nimetatud n&otilde;ukogu liikme tagasi kutsuda selle liikme nimetamise ettepaneku teinud isiku ettepanekul .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>N&otilde;uded n&otilde;ukogu liikmetele</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu liige peab olema teov&otilde;imeline Eesti kodanik , kelle alaline elukoht on Eesti Vabariigis .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 9 l&otilde;igetes 3-5 etten&auml;htud n&otilde;ukogu liikmeteks v&otilde;ib nimetada isikuid , kellel on n&otilde;ukogu liikme kohustuste t&auml;itmiseks vajalikud teadmised ja laitmatu reputatsioon .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>N&otilde;ukogu liikmete volituste t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 9 l&otilde;ikes 1 nimetatud n&otilde;ukogu liikmete volitused l&otilde;pevad koos vastavate isikute volituste l&otilde;ppemisega &sect; 9 l&otilde;ikes 1 nimetatud ametikohtadel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 9 l&otilde;ikes 2 nimetatud isikute volitused l&otilde;pevad Riigikogu vastava koosseisu volituste l&otilde;ppemisega v&otilde;i nimetatud isiku Riigikogu liikme volituste peatumisel v&otilde;i l&otilde;ppemisel .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 9 l&otilde;igetes 3-5 nimetatud n&otilde;ukogu liikmete volituste t&auml;htaeg on kolm aastat .</s><s>K&auml;esoleva seaduse &sect; 9 l&otilde;igetes 3-5 nimetatud isikuid ei saa nimetada n&otilde;ukogu liikmeks rohkem kui kaks korda j&auml;rjest .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>N&otilde;ukogu p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu :</s>
+</p>
+<p>
+<s>1 ) kinnitab haigekassa arengukava ;</s>
+</p>
+<p>
+<s>2 ) kuulates &auml;ra juhatuse arvamuse , teeb sotsiaalministri kaudu Vabariigi Valitsusele ettepaneku kindlustatute tervise edendamise , haiguste ennetamise ja raviteenuste eest tasumisel ning soodustingimustel ravimite v&auml;ljastamisel rakendatavate piirhindade ja piirm&auml;&auml;rade kehtestamiseks ;</s>
+</p>
+<p>
+<s>3 ) kinnitab juhatuse ettepanekul haigekassa eelarve , l&auml;htudes riigieelarvest ;</s>
+</p>
+<p>
+<s>4 ) kinnitab juhatuse ettepanekul haigekassa struktuuri k&auml;esoleva seaduse ja haigekassa p&otilde;hikirjaga reguleerimata ulatuses ;</s>
+</p>
+<p>
+<s>5 ) kinnitab juhatuse ettepanekul haigekassa t&ouml;&ouml;sisekorraeeskirjad ja asjaajamise korra ning k&auml;esoleva seaduse &sect; 2 l&otilde;ike 2 punktis 3 nimetatud andmekogu pidamise eeskirjad ;</s>
+</p>
+<p>
+<s>6 ) kinnitab juhatuse ettepanekul raamatupidamise sise-eeskirjad ;</s>
+</p>
+<p>
+<s>7 ) otsustab juhatuse ettepanekul kinnisasjade ja registrisse kantud v&otilde;i kantavate vallasasjade omandamise , v&otilde;&otilde;randamise ja koormamise ning laenude v&otilde;tmise ;</s>
+</p>
+<p>
+<s>8 ) nimetab ametisse ja kutsub tagasi juhatuse esimehe ;</s>
+</p>
+<p>
+<s>9 ) nimetab ametisse ja kutsub tagasi oma algatusel v&otilde;i juhatuse esimehe ettepanekul juhatuse liikmed ;</s>
+</p>
+<p>
+<s>10 ) otsustab juhatuse esimehega ametilepingu s&otilde;lmimise ja juhatuse esimehe ettepanekul juhatuse liikmetega ametilepingu s&otilde;lmimise ;</s>
+</p>
+<p>
+<s>11 ) otsustab juhatuse liikme vastu varalise n&otilde;ude esitamise ;</s>
+</p>
+<p>
+<s>12 ) kinnitab juhatuse esimehe ja juhatuse liikmete ametitasu ja lisatasud , kuulates &auml;ra juhatuse esimehe arvamuse ;</s>
+</p>
+<p>
+<s>13 ) kinnitab juhatuse poolt esitatavad aruanded ja neile esitatavad n&otilde;uded ;</s>
+</p>
+<p>
+<s>14 ) m&auml;&auml;rab haigekassa audiitori ja otsustab audiitorile makstava tasu suuruse , kuulates &auml;ra juhatuse arvamuse .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud k&uuml;simuste otsustamine kuulub n&otilde;ukogu ainup&auml;devusse .</s><s>Juhatuse v&otilde;i juhatuse esimehe ettepanekul v&otilde;ib n&otilde;ukogu v&otilde;tta vastu otsuseid ka haigekassat puudutavates k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetamata k&uuml;simustes .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>N&otilde;ukogu j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu teostab j&auml;relevalvet juhatuse &uuml;le .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;ukogul on oma &uuml;lesannete t&auml;itmiseks &otilde;igus tutvuda k&otilde;ikide haigekassa dokumentidega , samuti kontrollida v&otilde;i teha asjakohastele kolmandatele isikutele &uuml;lesandeks kontrollida haigekassa raamatupidamise &otilde;igsust , vara olemasolu , haigekassa tegevuse vastavust seadustele , haigekassa p&otilde;hikirjale ja n&otilde;ukogu otsustele .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>N&otilde;ukogu esimees ja aseesimees</s>
+</p>
+<p>
+<s>( 1 ) Sotsiaalminister on n&otilde;ukogu esimees ametikoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;ukogu liikmed valivad endi hulgast n&otilde;ukogu aseesimehe .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;ukogu esimees :</s>
+</p>
+<p>
+<s>1 ) korraldab n&otilde;ukogu t&ouml;&ouml;d ;</s>
+</p>
+<p>
+<s>2 ) juhatab n&otilde;ukogu koosolekuid ;</s>
+</p>
+<p>
+<s>3 ) esindab n&otilde;ukogu ;</s>
+</p>
+<p>
+<s>4 ) otsustab muud k&uuml;simused , mis kuuluvad k&auml;esoleva seaduse v&otilde;i haigekassa p&otilde;hikirja kohaselt n&otilde;ukogu esimehe p&auml;devusse .</s>
+</p>
+<p>
+<s>( 4 ) N&otilde;ukogu esimehe &auml;raolekul t&auml;idab tema &uuml;lesandeid n&otilde;ukogu aseesimees .</s><s>N&otilde;ukogu aseesimees ei saa asendada n&otilde;ukogu esimeest n&otilde;usoleku andmisel k&auml;esoleva seaduse &sect; 12 l&otilde;ike 1 punktides 2 ja 3 s&auml;testatud n&otilde;ukogu otsuste vastuv&otilde;tmiseks vastavalt k&auml;esoleva seaduse &sect; 17 l&otilde;ike 5 s&auml;tetele .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>N&otilde;ukogu aseesimehe valimine</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu aseesimees valitakse :</s>
+</p>
+<p>
+<s>1 ) n&otilde;ukogu uue esimehe ametisse asumisele j&auml;rgneval n&otilde;ukogu koosolekul ;</s>
+</p>
+<p>
+<s>2 ) n&otilde;ukogu aseesimehe tagasikutsumisele j&auml;rgneval n&otilde;ukogu koosolekul ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;ukogu aseesimehe tagasiastumise v&otilde;i surma korral v&auml;ljalangemisele j&auml;rgneval n&otilde;ukogu koosolekul .</s>
+</p>
+<p>
+<s>( 2 ) Kui n&otilde;ukogu aseesimehe valimised on kaks korda &auml;ra j&auml;&auml;nud n&otilde;ukogu koosoleku kvoorumi puudumise t&otilde;ttu , valitakse n&otilde;ukogu aseesimees , olenemata kvoorumist , tingimusel , et k&otilde;igile n&otilde;ukogu liikmetele oli n&otilde;ukogu koosoleku ajast , kohast ja p&auml;evakorrast teatatud haigekassa p&otilde;hikirjas s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;ukogu aseesimees valitakse n&otilde;ukogu koosolekul kohalviibivate n&otilde;ukogu liikmete poolth&auml;&auml;lteenamusega .</s><s>Valimiste protseduur s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>N&otilde;ukogu koosolek</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu koosolekud toimuvad vastavalt vajadusele , kuid v&auml;hemalt &uuml;ks kord kolme kuu jooksul .</s><s>N&otilde;ukogu koosolekust teatamise kord s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;ukogu koosoleku kutsub kokku n&otilde;ukogu esimees , tema &auml;raolekul n&otilde;ukogu aseesimees .</s><s>N&otilde;ukogu koosolek kutsutakse kokku haigekassa p&otilde;hikirjas etten&auml;htud t&auml;htajal , kui seda n&otilde;uab n&otilde;ukogu liige , juhatus , juhatuse esimees v&otilde;i audiitor .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;ukogu koosoleku toimumise kohaks on haigekassa asukoht , kui n&otilde;ukogu koosoleku kokkukutsuja ei ole m&auml;&auml;ranud muud n&otilde;ukogu koosoleku toimumise kohta Eesti Vabariigis .</s>
+</p>
+<p>
+<s>( 4 ) Kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti , on n&otilde;ukogu koosolek otsustusv&otilde;imeline , kui kohal on v&auml;hemalt 2/3 tema liikmetest ning nende hulgas on n&otilde;ukogu esimees v&otilde;i aseesimees .</s>
+</p>
+<p>
+<s>( 5 ) Kui n&otilde;ukogu koosoleku l&auml;biviimiseks puudub vajalik kvoorum , toimub uus koosolek sama p&auml;evakorraga hiljemalt seitsme p&auml;eva jooksul p&auml;rast koosoleku &auml;raj&auml;&auml;mist .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>N&otilde;ukogu otsus</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu otsused v&otilde;etakse vastu koosolekul v&otilde;i koosolekut kokku kutsumata .</s><s>N&otilde;ukogu aseesimeest saab valida ja k&auml;esoleva seaduse &sect; 12 l&otilde;ike 1 punktides 2 , 3 , 8 ning 10 s&auml;testatud otsuseid saab vastu v&otilde;tta ainult n&otilde;ukogu koosolekul .</s>
+</p>
+<p>
+<s>( 2 ) Otsuste tegemisel osaleb n&otilde;ukogu liige isiklikult .</s>
+</p>
+<p>
+<s>( 3 ) Igal n&otilde;ukogu liikmel on &uuml;ks h&auml;&auml;l .</s><s>N&otilde;ukogu liikmel ei ole &otilde;igust h&auml;&auml;letamisest keelduda ega erapooletuks j&auml;&auml;da , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 4 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 4 ) N&otilde;ukogu liige ei v&otilde;i osaleda h&auml;&auml;letamises , kui seaduses s&auml;testatud juhtudel on tal keelatud otsuse vastuv&otilde;tmises osaleda v&otilde;i kui otsustatakse temaga kohtuvaidluse alustamist v&otilde;i l&otilde;petamist haigekassa poolt .</s>
+</p>
+<p>
+<s>( 5 ) N&otilde;ukogu otsus on vastu v&otilde;etud , kui selle poolt h&auml;&auml;letas &uuml;le poole n&otilde;ukogu koosolekul osalenud n&otilde;ukogu h&auml;&auml;le&otilde;iguslikest liikmetest .</s><s>K&auml;esoleva seaduse &sect; 12 l&otilde;ike 1 punktides 2 , 3 , 8 ja 10 s&auml;testatud otsuste vastuv&otilde;tmisel on vajalik v&auml;hemalt 2/3 n&otilde;ukogu koosolekul osalevate n&otilde;ukogu liikmete n&otilde;usolek ning n&otilde;ukogu esimehe kohalolek .</s><s>K&auml;esoleva seaduse &sect; 12 l&otilde;ike 1 punktides 2 ja 3 etten&auml;htud otsuste vastuv&otilde;tmiseks on vajalik n&otilde;ukogu esimehe n&otilde;usolek .</s>
+</p>
+<p>
+<s>( 6 ) Kui n&otilde;ukogu liikmete h&auml;&auml;led jagunevad h&auml;&auml;letamisel v&otilde;rdselt , otsustab n&otilde;ukogu esimehe , tema &auml;raolekul n&otilde;ukogu aseesimehe h&auml;&auml;l , kui k&auml;esolevas seaduses ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 7 ) N&otilde;ukogu otsus peab sisaldama otsuse nimetust , pealkirja ja numbrit ning otsuse tegemise kuup&auml;eva .</s><s>N&otilde;ukogu otsust muutev v&otilde;i kehtetuks tunnistav otsus peab sisaldama ka muudetava v&otilde;i kehtetuks tunnistatava otsuse pealkirja , kuup&auml;eva ja numbrit .</s>
+</p>
+<p>
+<s>( 8 ) N&otilde;ukogu otsusele kirjutab alla n&otilde;ukogu esimees .</s><s>N&otilde;ukogu esimehe &auml;raolekul tehtud otsusele kirjutab alla n&otilde;ukogu aseesimees .</s>
+</p>
+<p>
+<s>( 9 ) N&otilde;ukogu otsused tehakse k&auml;ttesaadavaks haigekassa kodulehek&uuml;ljel Internetis .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Otsuse vastuv&otilde;tmine koosolekut kokku kutsumata</s>
+</p>
+<p>
+<s>( 1 ) Otsuse vastuv&otilde;tmiseks koosolekut kokku kutsumata saadab n&otilde;ukogu esimees v&otilde;i tema &auml;raolekul n&otilde;ukogu aseesimees n&otilde;ukogu liikmetele otsuse projekti ja m&auml;&auml;rab kirjaliku vastamise t&auml;htaja , mis ei v&otilde;i olla l&uuml;hem kui seitse p&auml;eva ja pikem kui kaksk&uuml;mmend &uuml;ks p&auml;eva .</s><s>Otsuse projektile lisab saatja selgituse projekti kohta ja p&otilde;hjenduse , miks otsuse vastuv&otilde;tmine on otstarbekas koosolekut kokku kutsumata .</s>
+</p>
+<p>
+<s>( 2 ) Otsus loetakse vastuv&otilde;etuks , kui otsuse poolt h&auml;&auml;letab v&auml;hemalt 2/3 n&otilde;ukogu liikmetest , kui k&auml;esolevas seaduses ei ole ette n&auml;htud teisiti .</s><s>N&otilde;ukogu liikmed , kes ei saada m&auml;&auml;ratud t&auml;htajaks kirjalikku vastust , loetakse otsuse eeln&otilde;ule vastu h&auml;&auml;letanuks .</s>
+</p>
+<p>
+<s>( 3 ) Vastuv&otilde;etud otsusest koos selle sisu ja h&auml;&auml;letamistulemustega teatab n&otilde;ukogu esimees v&otilde;i aseesimees n&otilde;ukogu liikmetele esimesel n&otilde;ukogu koosolekul , mis j&auml;rgneb tema poolt m&auml;&auml;ratud kirjaliku vastamise t&auml;htajale .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud otsuse projektid , selgitused ja p&otilde;hjendused ning l&otilde;ikes 2 nimetatud kirjalikud vastused s&auml;ilitatakse k&auml;esolevas seaduses ja haigekassa p&otilde;hikirjas s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>N&otilde;ukogu koosoleku protokoll</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu koosolek protokollitakse .</s><s>Protokolli kandmisele kuuluvad andmed ja muud n&otilde;uded koosoleku protokollile s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>( 2 ) Protokollile kirjutavad alla koosoleku juhataja ja protokollija .</s>
+</p>
+<p>
+<s>( 3 ) Koosolekul tehtud otsuste , h&auml;&auml;letamistulemuste ja k&auml;esolevas seaduses s&auml;testatud eriarvamuste &otilde;ige ja t&auml;ieliku j&auml;&auml;dvustamise eest protokollis vastutab koosoleku juhataja .</s>
+</p>
+<p>
+<s>( 4 ) Koosoleku protokoll peab olema haigekassa asukohas n&otilde;ukogu liikmetele k&auml;ttesaadav alates viiendast p&auml;evast p&auml;rast koosoleku toimumist .</s>
+</p>
+<p>
+<s>( 5 ) Protokoll koos lisadega s&auml;ilitatakse haigekassa asukohas .</s><s>Protokollide ja nende lisade hoidmise korraldab ning nende s&auml;ilimise eest vastutab juhatuse esimees .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Eriarvamus</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu otsuse suhtes eriarvamusele j&auml;&auml;nud n&otilde;ukogu liikmel on &otilde;igus fikseerida oma eriarvamus kirjaliku v&otilde;i suulise avaldusena .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;ukogu koosolekul vastuv&otilde;etud otsuse kohta esitatud eriarvamus kantakse protokolli , kirjalik eriarvamus lisatakse protokollile .</s>
+</p>
+<p>
+<s>( 3 ) Kui n&otilde;ukogu liige leiab , et n&otilde;ukogu on oma otsusega rikkunud seadust v&otilde;i haigekassa p&otilde;hikirja , teatab ta asetleidnud rikkumisest viivitamatult n&otilde;ukogu esimehele v&otilde;i tema &auml;raolekul n&otilde;ukogu aseesimehele .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>N&otilde;ukogu liikmete tasustamine</s>
+</p>
+<p>
+<s>N&otilde;ukogu liikmetele , kes ei kuulu n&otilde;ukogusse ametikoha j&auml;rgi v&otilde;i kes ei ole Riigikogu poolt m&auml;&auml;ratud , makstakse n&otilde;ukogu liikme kohustuste t&auml;itmise eest tasu Vabariigi Valitsuse kehtestatud suuruses ja korras .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>N&otilde;ukogu liikme vastutus</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu liikmed vastutavad seaduste ja haigekassa p&otilde;hikirja n&otilde;uete rikkumise ja oma kohustuste t&auml;itmata j&auml;tmisega haigekassale s&uuml;&uuml;liselt tekitatud kahju eest solidaarselt .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;ukogu liikmed , kes oma kohustuste t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmisega on s&uuml;&uuml;liselt kahju tekitanud haigekassa v&otilde;lausaldajale , vastutavad v&otilde;lausaldaja ees solidaarselt haigekassaga .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;ukogu liige vabaneb vastutusest haigekassa v&otilde;i v&otilde;lausaldaja ees , kui ta on otsuse vastuv&otilde;tmisel h&auml;&auml;letanud vastu v&otilde;i kui ta ei osalenud otsustamises , kui mitteosalemine oli lubatud , v&otilde;i kui ta ei osalenud n&otilde;ukogu koosolekul .</s>
+</p>
+<p>
+<s>( 4 ) N&otilde;ukogu liikme vastu esitatava n&otilde;ude aegumist&auml;htaeg on viis aastat rikkumise toimumisest v&otilde;i rikkumise algusest .</s>
+</p>
+<p>
+<s>( 5 ) Haigekassa s&otilde;lmib vastutuskindlustuse lepingu k&auml;esolevast paragrahvist tuleneva n&otilde;ukogu liikmete varalise vastutuse kindlustamiseks haigekassa p&otilde;hikirjas etten&auml;htud p&otilde;hitingimustel ja korras .</s><s>Haigekassa p&otilde;hikirjas n&auml;hakse ette n&otilde;ukogu liikmete omavastutus ja selle m&auml;&auml;r vastutuskindlustuse lepingu s&otilde;lmimiseks .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Juhatus</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Haigekassa juhatus</s>
+</p>
+<p>
+<s>( 1 ) Juhatus on haigekassa organ , kes juhib haigekassat .</s>
+</p>
+<p>
+<s>( 2 ) Juhatus koosneb kolmest kuni seitsmest liikmest , kellest &uuml;ks on juhatuse esimees .</s>
+</p>
+<p>
+<s>( 3 ) Juhatuse liikmete volituste t&auml;htaeg on kuni viis aastat .</s><s>Juhatuse liikmete volituste t&auml;htaeg s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Juhatuse liikmete nimetamine ja tagasikutsumine</s>
+</p>
+<p>
+<s>( 1 ) Juhatuse esimehe nimetab n&otilde;ukogu .</s><s>Juhatuse esimehe kandidaatide leidmiseks korraldab n&otilde;ukogu avaliku konkursi .</s><s>Konkursi kord s&auml;testatakse haigekassa p&otilde;hikirjas .</s><s>Teised juhatuse liikmed nimetab n&otilde;ukogu juhatuse esimehe ettepanekul .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;ukogu s&otilde;lmib juhatuse liikmetega t&auml;htajalise ametilepingu , milles fikseeritakse juhatuse liikme &otilde;igused ja kohustused ning tasu juhatuse liikme &uuml;lesannete t&auml;itmise eest .</s><s>Informatsioon juhatuse esimehe ja liikmete tasu kohta on avalik .</s>
+</p>
+<p>
+<s>( 3 ) Enne juhatuse liikme volituste t&auml;htaja l&otilde;ppu v&otilde;ib n&otilde;ukogu juhatuse liikme tagasi kutsuda , kui juhatuse liige ei vasta k&auml;esolevas seaduses kehtestatud n&otilde;uetele , samuti muudel m&otilde;juvatel p&otilde;hjustel , milleks on eelk&otilde;ige juhatuse liikme kohustuste olulisel m&auml;&auml;ral t&auml;itmata j&auml;tmine v&otilde;i v&otilde;imetus haigekassat juhtida .</s><s>Kolme kuu jooksul , alates juhatuse liikme ametissenimetamisest , v&otilde;ib n&otilde;ukogu juhatuse esimehe ettepanekul juhatuse liikme tagasi kutsuda p&otilde;hjust &auml;ra n&auml;itamata .</s><s>Uue juhatuse esimehe ametissenimetamise korral on n&otilde;ukogul uue juhatuse esimehe ettepanekul &otilde;igus kolme kuu jooksul , alates uue juhatuse esimehe nimetamisest , juhatuse liikmed tagasi kutsuda p&otilde;hjust &auml;ra n&auml;itamata .</s><s>Juhatuse liikmega s&otilde;lmitud ametilepingust tulenevad &otilde;igused ja kohustused l&otilde;pevad vastavalt ametilepingule .</s>
+</p>
+<p>
+<s>( 4 ) Juhatuse liikme tagasikutsumisel v&otilde;i muudel p&otilde;hjustel ametist lahkumisel nimetatakse tema asemele juhatuse esimehe ettepanekul uus juhatuse liige .</s><s>Juhatuse esimehe tagasikutsumise korral v&otilde;i muudel p&otilde;hjustel ametist lahkumise korral nimetab n&otilde;ukogu tema asemele uue juhatuse esimehe kolme kuu jooksul , alates juhatuse esimehe ametist lahkumisest .</s><s>Juhatuse esimehe ametist lahkumisest kuni uue juhatuse esimehe nimetamiseni t&auml;idab juhatuse esimehe kohustusi n&otilde;ukogu poolt m&auml;&auml;ratav juhatuse liige .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>N&otilde;uded juhatuse liikmele</s>
+</p>
+<p>
+<s>( 1 ) Juhatuse liikmeks v&otilde;ib nimetada k&otilde;rgharidusega teov&otilde;imelise f&uuml;&uuml;silise isiku , kelle alaline elukoht on Eestis ning kellel on haigekassa juhtimiseks vajalikud teadmised , kutsealane sobivus ja laitmatu reputatsioon .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuse liikmeks ei v&otilde;i olla n&otilde;ukogu liige ja pankrotiv&otilde;lgnik .</s>
+</p>
+<p>
+<s>( 3 ) Juhatuse liige on kohustatud viivitamatult informeerima juhatuse esimeest ja n&otilde;ukogu esimeest huvide konfliktist , mis m&otilde;jutab v&otilde;i v&otilde;ib m&otilde;jutada juhatuse liiget otsustuste tegemisel .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Juhatuse p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Juhatus t&auml;idab haigekassa juhtimisel talle k&auml;esoleva seaduse , haigekassa p&otilde;hikirja ja n&otilde;ukogu otsustega pandud &uuml;lesandeid .</s><s>Juhatus seisab hea haigekassa &uuml;lesannete ja kohustuste t&auml;itmise ning &otilde;iguste realiseerimise eest niiv&otilde;rd , kuiv&otilde;rd see ei ole k&auml;esoleva seaduse v&otilde;i p&otilde;hikirja kohaselt n&otilde;ukogu v&otilde;i juhatuse esimehe kohustus .</s><s>Juhatus annab aru n&otilde;ukogule .</s>
+</p>
+<p>
+<s>( 2 ) L&auml;htudes riigi tervishoiupoliitikast , valmistab juhatus ette haigekassa arengukava ja haigekassa eelarve ning esitab need n&otilde;ukogule kinnitamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Kui n&otilde;ukogu ei otsusta teisiti , valmistab juhatus ette materjalid ja otsuste projektid n&otilde;ukogus arutamisele tulevates k&uuml;simustes .</s>
+</p>
+<p>
+<s>( 4 ) Juhatusel on otsustamis&otilde;igus k&otilde;igis haigekassat puudutavates k&uuml;simustes , v&auml;lja arvatud :</s>
+</p>
+<p>
+<s>1 ) k&uuml;simustes , mille otsustamine kuulub n&otilde;ukogu ainup&auml;devusse ;</s>
+</p>
+<p>
+<s>2 ) k&uuml;simustes , mille on otsustanud n&otilde;ukogu ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esolevas seaduses v&otilde;i haigekassa p&otilde;hikirjas s&auml;testatud k&uuml;simustes , mis kuuluvad juhatuse esimehe p&auml;devusse .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Juhatuse esimees ja tema asendamine</s>
+</p>
+<p>
+<s>( 1 ) Juhatuse esimees on haigekassa tegevjuht .</s><s>Juhatuse esimees juhib haigekassa t&ouml;&ouml;d ja juhatab juhatuse koosolekuid .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuse esimeest asendab juhatuse liige .</s><s>Juhatuse esimehe asendamise kord s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Juhatuse esimehe p&auml;devus</s>
+</p>
+<p>
+<s>Juhatuse esimees :</s>
+</p>
+<p>
+<s>1 ) m&auml;&auml;rab kindlaks juhatuse liikmete t&ouml;&ouml;- ja vastutusvaldkonnad ;</s>
+</p>
+<p>
+<s>2 ) korraldab haigekassa raamatupidamist ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;lmib , muudab , peatab ja l&otilde;petab t&ouml;&ouml;lepingud haigekassa t&ouml;&ouml;tajatega ;</s>
+</p>
+<p>
+<s>4 ) kinnitab haigekassa t&ouml;&ouml;tajate t&ouml;&ouml;tasud , l&auml;htudes n&otilde;ukogu poolt kinnitatud haigekassa eelarve &uuml;lalpidamiskuludest ;</s>
+</p>
+<p>
+<s>5 ) v&otilde;tab s&otilde;na&otilde;igusega osa n&otilde;ukogu koosolekutest ;</s>
+</p>
+<p>
+<s>6 ) m&auml;&auml;rab juhatuse koosolekute protokollija ;</s>
+</p>
+<p>
+<s>7 ) otsustab muud k&uuml;simused , mis kuuluvad k&auml;esoleva seaduse ja haigekassa p&otilde;hikirja v&otilde;i n&otilde;ukogu otsuste kohaselt juhatuse esimehe p&auml;devusse .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Juhatuse koosolek</s>
+</p>
+<p>
+<s>( 1 ) Juhatuse koosolekud toimuvad vastavalt vajadusele , kuid v&auml;hemalt kord kuus .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuse koosoleku kutsub kokku juhatuse esimees v&otilde;i teda asendav isik .</s><s>Juhatuse koosolek kutsutakse kokku , kui seda n&otilde;uab juhatuse liige , haigekassa audiitor v&otilde;i n&otilde;ukogu esimees v&otilde;i tema &auml;raolekul n&otilde;ukogu aseesimees .</s>
+</p>
+<p>
+<s>( 3 ) Juhatuse koosoleku toimumise koht on haigekassa asukoht , kui koosoleku kokkukutsuja ei ole m&auml;&auml;ranud muud juhatuse koosoleku toimumise kohta Eesti Vabariigis .</s>
+</p>
+<p>
+<s>( 4 ) Juhatuse koosolek on otsustusv&otilde;imeline , kui sellest v&otilde;tab osa &uuml;le poole juhatuse liikmetest ning nende hulgas on juhatuse esimees v&otilde;i teda asendav juhatuse liige .</s>
+</p>
+<p>
+<s>( 5 ) Juhatuse liige v&otilde;tab juhatuse koosolekust osa isiklikult .</s>
+</p>
+<p>
+<s>( 6 ) Igal juhatuse liikmel on &uuml;ks h&auml;&auml;l .</s><s>Juhatuse liikmel ei ole &otilde;igust h&auml;&auml;letamisest keelduda v&otilde;i erapooletuks j&auml;&auml;da , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 7 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 7 ) Juhatuse liige ei v&otilde;i osaleda h&auml;&auml;letamises , kui seaduses s&auml;testatud juhtudel on tal keelatud otsuse vastuv&otilde;tmises osaleda .</s>
+</p>
+<p>
+<s>( 8 ) Juhatuse koosolek protokollitakse vastavalt haigekassa p&otilde;hikirjas juhatuse koosolekute protokollimiseks s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Juhatuse otsus</s>
+</p>
+<p>
+<s>( 1 ) Juhatuse otsus on vastu v&otilde;etud , kui selle poolt h&auml;&auml;letas v&auml;hemalt 2/3 juhatuse koosolekul osalenud h&auml;&auml;le&otilde;iguslikest juhatuse liikmetest .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuse otsus peab sisaldama otsuse nimetust , pealkirja ja numbrit ning otsuse tegemise kuup&auml;eva .</s><s>Juhatuse otsust muutev v&otilde;i kehtetuks tunnistav otsus peab sisaldama ka muudetava v&otilde;i kehtetuks tunnistatava otsuse pealkirja , kuup&auml;eva ja numbrit .</s>
+</p>
+<p>
+<s>( 3 ) Juhatuse otsusele kirjutab alla juhatuse esimees .</s><s>Juhatuse esimehe &auml;raolekul tehtud otsusele kirjutab alla juhatuse esimeest asendav juhatuse liige .</s>
+</p>
+<p>
+<s>( 4 ) Kui juhatuse liige leiab , et juhatus v&otilde;i juhatuse esimees on oma otsusega rikkunud seadusi v&otilde;i haigekassa p&otilde;hikirja , teatab ta asetleidnud rikkumisest viivitamatult juhatuse esimehele v&otilde;i tema &auml;raolekul teda asendavale isikule .</s><s>Kui rikkumist ei k&otilde;rvaldata hiljemalt teatamisele j&auml;rgneval esimesel juhatuse koosolekul , informeerib teate esitanud juhatuse liige sellest n&otilde;ukogu esimeest v&otilde;i tema &auml;raolekul aseesimeest .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Haigekassa esindamine</s>
+</p>
+<p>
+<s>( 1 ) Juhatuse esimehel on &otilde;igus esindada haigekassat k&otilde;igis &otilde;igustoimingutes ja tehingutes ainuisikuliselt .</s><s>Juhatuse esimehel on &otilde;igustoimingute tegemiseks edasivolitamise &otilde;igus .</s><s>Juhatuse teiste liikmete esindus&otilde;igus ja edasivolitamise &otilde;igus s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuse liikmete &otilde;igust esindada haigekassat v&otilde;ib piirata n&otilde;ukogu otsusega .</s><s>N&otilde;ukogu otsusega seatud esindus&otilde;iguse piirangud ei kehti kolmandate isikute suhtes .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Juhatuse liikme vastutus</s>
+</p>
+<p>
+<s>( 1 ) Juhatuse liikmed vastutavad seaduste ja haigekassa p&otilde;hikirja n&otilde;uete rikkumise ja oma kohustuste t&auml;itmata j&auml;tmisega haigekassale s&uuml;&uuml;liselt tekitatud kahju eest solidaarselt .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuse liikmed , kes oma kohustuste t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmisega on s&uuml;&uuml;liselt kahju tekitanud haigekassa v&otilde;lausaldajale , vastutavad v&otilde;lausaldaja ees solidaarselt haigekassaga .</s>
+</p>
+<p>
+<s>( 3 ) Juhatuse liige vabaneb vastutusest haigekassa v&otilde;i v&otilde;lausaldaja ees , kui ta on vastava tegevuse aluseks oleva otsuse vastuv&otilde;tmisel h&auml;&auml;letanud vastu v&otilde;i kui ta ei osalenud otsustamises , kui mitteosalemine oli lubatud , v&otilde;i kui ta ei osalenud juhatuse koosolekul .</s>
+</p>
+<p>
+<s>( 4 ) Juhatuse liikme vastu esitatava n&otilde;ude aegumist&auml;htaeg on seitse aastat rikkumise toimumisest v&otilde;i rikkumise algusest .</s>
+</p>
+<p>
+<s>( 5 ) Haigekassa s&otilde;lmib vastutuskindlustuse lepingu k&auml;esolevast paragrahvist tuleneva juhatuse liikmete varalise vastutuse kindlustamiseks haigekassa p&otilde;hikirjas etten&auml;htud p&otilde;hitingimustel ja korras .</s><s>Haigekassa p&otilde;hikirjas n&auml;hakse ette juhatuse liikmete omavastutus ja selle m&auml;&auml;r vastutuskindlustuse lepingu s&otilde;lmimiseks .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Struktuuri&uuml;ksused</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Struktuuri&uuml;ksused ja t&ouml;&ouml;lepingud</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa peamised struktuuri&uuml;ksused ning nende asukoht ja p&auml;devus s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>( 2 ) Haigekassa struktuuri&uuml;ksuste juhtidega s&otilde;lmitakse t&auml;htajalised t&ouml;&ouml;lepingud t&auml;htajaga kuni viis aastat .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Haigekassa vara ja eelarve</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Omand</s>
+</p>
+<p>
+<s>Haigekassa valdab , kasutab ja k&auml;sutab oma vara k&auml;esolevas seaduses ning haigekassa p&otilde;hikirjas etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Haigekassa vara</s>
+</p>
+<p>
+<s>Haigekassa vara moodustub :</s>
+</p>
+<p>
+<s>1 ) riigieelarves ravikindlustuseks etten&auml;htud summast , samuti ravikindlustuseks etten&auml;htud sotsiaalmaksu &uuml;lelaekumistest ;</s>
+</p>
+<p>
+<s>2 ) seaduse v&otilde;i p&otilde;hikirjaga lubatud tehingutest ning muudest &otilde;igustoimingutest saadavatest tuludest ;</s>
+</p>
+<p>
+<s>3 ) annetustest ;</s>
+</p>
+<p>
+<s>4 ) sissen&otilde;uetest teistelt isikutelt ;</s>
+</p>
+<p>
+<s>5 ) intressidest ja muudest finantstuludest ;</s>
+</p>
+<p>
+<s>6 ) muudest laekumistest .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Eelarve</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa eelarve koosneb tasakaalustatult haigekassa &uuml;he majandusaasta k&otilde;igist tuludest ja kuludest .</s>
+</p>
+<p>
+<s>( 2 ) Juhatus valmistab ette eelarve projekti , l&auml;htudes Eesti Vabariigi ravikindlustusseadusest , riigieelarvest ja n&otilde;ukogu poolt kinnitatud n&otilde;uetest , ning esitab selle n&otilde;ukogule kinnitamiseks 14 p&auml;eva jooksul , arvates iga-aastase riigieelarve seaduse Riigi Teatajas avaldamisest .</s><s>Eelarve projekti ettevalmistamise t&auml;psem kord s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;ukogu kinnitab haigekassa eelarve 30 p&auml;eva jooksul , arvates igaaastase riigieelarve seaduse Riigi Teatajas avaldamisest .</s>
+</p>
+<p>
+<s>( 4 ) Kui n&otilde;ukogu ei ole k&auml;esolevas seaduses s&auml;testatud t&auml;htajaks haigekassa eelarvet kinnitanud , l&auml;heb eelarve kinnitamise &otilde;igus ja kohustus &uuml;le Vabariigi Valitsusele .</s>
+</p>
+<p>
+<s>( 5 ) Kui haigekassa eelarvet ei ole kinnitatud eelarveaasta alguseks , v&otilde;ib kuni eelarve kinnitamiseni teha alanud eelarveaasta igal kuul kulutusi kuni 1/12 osa ulatuses eelmise aasta eelarvest .</s><s>Kui eelarve projektis etten&auml;htud tulubaas on v&auml;iksem kui eelneval eelarveaastal , siis v&otilde;ib kuni eelarve kinnitamiseni teha alanud eelarveaasta igal kuul kulutusi kuni 1/12 eelarve projektis etten&auml;htud kulude summast , millest on maha arvatud kassatagavara ja reservkapitali moodustamiseks vajalikud summad .</s>
+</p>
+<p>
+<s>( 6 ) Juhatus koostab haigekassa eelarve kulude jaotuskava kuude l&otilde;ikes ning esitab jaotuskava kahe n&auml;dala jooksul , arvates haigekassa eelarve kinnitamisest , n&otilde;ukogule kinnitamiseks .</s>
+</p>
+<p>
+<s>( 7 ) Haigekassa eelarve kulud jagunevad ravikindlustuse kuludeks ja haigekassa &uuml;lalpidamise kuludeks .</s><s>T&auml;psem eelarve tulude ja kulude jaotus s&auml;testatakse haigekassa p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>( 8 ) N&otilde;ukogu v&otilde;ib majandusaasta jooksul vastu v&otilde;tta haigekassa lisaeelarve , tasakaalustatult suurendades v&otilde;i v&auml;hendades haigekassa tulusid ja kulusid .</s>
+</p>
+<p>
+<s>( 9 ) Haigekassa eelarve avaldatakse Riigi Teataja Lisas ja tehakse k&auml;ttesaadavaks haigekassa kodulehek&uuml;ljel Internetis .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Kassatagavara</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa eelarve kassatagavara on haigekassa eelarve vahenditest moodustatav reserv , mida juhatus kasutab haigekassa kulude finantseerimiseks ajutiste kassal&uuml;nkade korral .</s>
+</p>
+<p>
+<s>( 2 ) Kassatagavara suurus on v&auml;hemalt 5 protsenti eelarve mahust .</s>
+</p>
+<p>
+<s>( 3 ) Kulude finantseerimiseks , mille tagaj&auml;rjel kassatagavara suurus langeb alla 5 protsendi , on vajalik n&otilde;ukogu eelnev n&otilde;usolek .</s>
+</p>
+<p>
+<s>( 4 ) Kassatagavara halduri nimetab n&otilde;ukogu haigekassa p&otilde;hikirjas s&auml;testatud korras .</s><s>Kassatagavara halduri &uuml;lesanded ja tegevuse tingimused s&auml;testatakse haigekassa p&otilde;hikirjas .</s><s>Kassatagavara halduri leidmiseks ei korraldata riigihanget .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Reservkapital</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa reservkapital on haigekassa eelarve vahenditest moodustatav reserv ravikindlustuss&uuml;steemile makromajanduslikest muutustest tulenevate riskide v&auml;hendamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Reservkapitali suuruseks on 8 protsenti eelarve mahust .</s><s>Reservkapitali kantakse igal aastal v&auml;hemalt 1/50 haigekassa eelarve kogumahust ning ravikindlustuseks etten&auml;htud sotsiaalmaksu &uuml;lelaekumised kuni k&auml;esolevas seaduses s&auml;testatud reservkapitali suuruse saavutamiseni v&otilde;i taastamiseni .</s>
+</p>
+<p>
+<s>( 3 ) Reservkapitali v&otilde;ib kasutusele v&otilde;tta ainult erandkorras Vabariigi Valitsuse korraldusega sotsiaalministri ettepanekul .</s><s>Enne ettepaneku esitamist Vabariigi Valitsusele kuulab sotsiaalminister &auml;ra haigekassa n&otilde;ukogu arvamuse .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Reservkapitali haldamine</s>
+</p>
+<p>
+<s>( 1 ) Reservkapitali haldamine on reservkapitali eraldatud vahendite hoidmine ja paigutamine .</s>
+</p>
+<p>
+<s>( 2 ) Reservkapitali haldamist korraldab ja selle eest vastutab rahandusminister .</s>
+</p>
+<p>
+<s>( 3 ) Reservkapitali haldamisel l&auml;htutakse s&auml;ilivuse , likviidsuse ja tootlikkuse tagamise eesm&auml;rkidest .</s>
+</p>
+<p>
+<s>( 4 ) Rahandusministril on &otilde;igus korraldada reservkapitali vahendite paigutamist vahetult v&otilde;i tema ettepanekul haigekassa n&otilde;ukogu otsusega m&auml;&auml;ratud esindaja ( v&auml;lise portfellihalduri ) kaudu .</s><s>Esindaja leidmiseks ei korraldata riigihanget .</s>
+</p>
+<p>
+<s>( 5 ) Esindajaks v&otilde;ivad olla :</s>
+</p>
+<p>
+<s>1 ) Eesti Pank :</s>
+</p>
+<p>
+<s>2 ) Eestis registreeritud &auml;ri&uuml;hing , kellele on antud tegevusluba fondivalitseja , krediidiasutuse v&otilde;i v&auml;&auml;rtpaberivahendajana tegutsemiseks ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lisriigi &auml;ri&uuml;hing , kellel on Majanduskoost&ouml;&ouml; ja Arengu Organisatsiooni ( OECD ) liikmesriigi tegevusluba investeerimistegevuseks .</s>
+</p>
+<p>
+<s>( 6 ) Piirangud valuuta- , krediidi- , likviidsus- ja vajaduse korral muudele investeerimisriskidele reservkapitali vahendite paigutamisel kehtestab Vabariigi Valitsus .</s><s>Vabariigi Valitsuse volitusel kehtestab rahandusminister lisapiirangud reservkapitali vahendite paigutamisel .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Tehingute tegemine j&auml;rgmise aasta eelarve arvel</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa eesm&auml;rkide saavutamiseks on juhatusel &otilde;igus teha tehinguid j&auml;rgmise aasta assigneeringute arvel kuni 25 protsendi ulatuses jooksvaks eelarveaastaks etten&auml;htud vastavatest assigneeringutest .</s>
+</p>
+<p>
+<s>( 2 ) Tehingute tegemise j&auml;rgmise aasta assigneeringute arvel enam kui 25 protsendi ulatuses jooksvaks aastaks etten&auml;htud vastavatest assigneeringutest otsustab haigekassa n&otilde;ukogu .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Raamatupidamine , aruandlus , kontroll</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Raamatupidamine</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa l&auml;htub raamatupidamise korraldamisel raamatupidamise seadusest ( RT I 1994 , 48 , 790 ; 1995 , 26-28 , 355 ; 92 , 1604 ; 1996 , 40 , 773 ; 42 , 811 ; 49 , 953 ; 1998 , 59 , 941 ; 1999 , 55 , 584 ; 101 , 903 ) , raamatupidamise korraldamise ja raamatupidamisandmete &otilde;igsuse eest isikliku vastutuse kehtestamise seadusest ( RT I 1993 , 43 , 620 ; 1996 , 6 , 101 ) , teistest &otilde;igusaktidest ja haigekassa p&otilde;hikirjast .</s>
+</p>
+<p>
+<s>( 2 ) Haigekassa kasutab raamatupidamises rahandusministri poolt kinnitatud bilansi- ja kasumiaruande skeeme .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Majandusaasta</s>
+</p>
+<p>
+<s>Haigekassa majandusaasta algab 1. jaanuaril ja l&otilde;peb 31. detsembril .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Aruandlus</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ukogu esitab kord aastas sotsiaalministri kaudu Vabariigi Valitsusele aruande haigekassa majandustegevuse kohta .</s><s>Aruande esitamise t&auml;htaja , koostamise korra ja vormi m&auml;&auml;rab rahandusminister .</s><s>N&otilde;ukogu teavitab koheselt Vabariigi Valitsust haigekassa majandusliku seisundi olulisest halvenemisest ning muudest haigekassa tegevusega seotud olulistest asjaoludest .</s>
+</p>
+<p>
+<s>( 2 ) Juhatus peab esitama n&otilde;ukogule v&auml;hemalt kord kolme kuu jooksul &uuml;levaate haigekassa tegevusest ja majanduslikust olukorrast , samuti teatama koheselt haigekassa seisundi olulisest halvenemisest ning muudest haigekassa tegevusega seotud olulistest asjaoludest .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast majandusaasta l&otilde;ppu koostab juhatus raamatupidamise aastaaruande ja tegevusaruande seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 4 ) Juhatus esitab k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 3 nimetatud aruanded kinnitamiseks n&otilde;ukogule nelja kuu jooksul p&auml;rast majandusaasta l&otilde;ppemist .</s><s>Enne k&auml;esoleva paragrahvi l&otilde;ikes 3 etten&auml;htud raamatupidamise aastaaruande esitamist n&otilde;ukogule kinnitamiseks esitab juhatus aruande audiitorile kontrollimiseks .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Aruannete avalikustamine</s>
+</p>
+<p>
+<s>Haigekassa auditeeritud aastaaruanne ja tema tegevusaruanne avaldatakse Riigi Teataja Lisas ning tehakse k&auml;ttesaadavaks haigekassa kodulehek&uuml;ljel Internetis .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Kontroll</s>
+</p>
+<p>
+<s>Haigekassat kontrollib Riigikontroll ja audiitor .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Audiitor</s>
+</p>
+<p>
+<s>( 1 ) Audiitori nimetab n&otilde;ukogu .</s><s>Audiitori v&otilde;ib nimetada &uuml;hekordseks kontrolliks v&otilde;i teatud t&auml;htajaks .</s>
+</p>
+<p>
+<s>( 2 ) Haigekassa audiitor ei v&otilde;i olla n&otilde;ukogu liige , juhatuse liige ega haigekassa t&ouml;&ouml;taja .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;petamine</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Haigekassa l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Haigekassa l&otilde;petatakse seadusega .</s>
+</p>
+<p>
+<s>( 2 ) Haigekassa l&otilde;petamisel j&auml;relej&auml;&auml;nud haigekassa vara antakse &uuml;le riigile , kui haigekassa l&otilde;petamise seaduses ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Keskhaigekassa ja haigekassade l&otilde;petamine ning vara &uuml;leandmine Eesti Haigekassale</s>
+</p>
+<p>
+<s>( 1 ) Sotsiaalminister on kohustatud kehtetuks tunnistama sotsiaalministri 1994. aasta 23. detsembri m&auml;&auml;rusega nr 67 kinnitatud Keskhaigekassa p&otilde;him&auml;&auml;ruse alates k&auml;esoleva seaduse j&otilde;ustumisest ning ette n&auml;gema Keskhaigekassa vara &uuml;leandmise Eesti Haigekassale .</s><s>Keskhaigekassa loetakse l&otilde;petatuks ning tema vara &uuml;leantuks Eesti Haigekassa omandisse alates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalminister on kohustatud kehtetuks tunnistama sotsiaalministri 1994. aasta 25. veebruari m&auml;&auml;rusega nr 17 kinnitatud haigekassa p&otilde;him&auml;&auml;ruse alates k&auml;esoleva seaduse j&otilde;ustumisest ning ette n&auml;gema haigekassade vara &uuml;leandmise Eesti Haigekassale .</s><s>Haigekassad loetakse l&otilde;petatuks ning nende vara &uuml;leantuks Eesti Haigekassa omandisse alates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus on kohustatud kehtetuks tunnistama Vabariigi Valitsuse 1994. aasta 22. aprilli m&auml;&auml;rusega nr 143 kinnitatud ravikindlustusn&otilde;ukogu p&otilde;him&auml;&auml;ruse alates k&auml;esoleva seaduse j&otilde;ustumisest .</s><s>Eesti Ravikindlustusn&otilde;ukogu ja piirkondlike haigekassade juures tegutsevate ravikindlustusn&otilde;ukogude tegevus loetakse l&otilde;petatuks alates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 4 ) Keskhaigekassa ja haigekassade valduses ja kasutuses oleva ning Eesti Haigekassa tegevuseks vajaliku riigi vallasvara annavad selle riigivara valitsejad &uuml;le Eesti Haigekassale kolme kuu jooksul , alates k&auml;esoleva s&auml;tte j&otilde;ustumisest .</s><s>Keskhaigekassa ja haigekassade valduses ja kasutuses oleva kinnisvara v&otilde;&otilde;randamine Eesti Haigekassale toimub riigivaraseaduses ( RT I 1995 , 22 , 327 ; 1996 , 36 , 738 ; 40 , 773 ; 48 , 942 ; 81 , 1446 ; 1997 , 45 , 724 ; 1998 , 30 , 409 ; 1999 , 10 , 155 ; 16 , 271 ; 2000 , 39 , 239 ; 49 , 306 ; 51 , 319 ) etten&auml;htud korras .</s><s>K&auml;esolevas seaduses k&auml;sitletakse kinnisvarana ka ehitisi , nende reaalosi ning rajatisi kuni nende aluse ja nende teenindamiseks vajaliku maat&uuml;ki kandmiseni kinnistusraamatusse .</s>
+</p>
+<p>
+<s>( 5 ) Keskhaigekassa ja haigekassade poolt t&ouml;&ouml;tajatega s&otilde;lmitud t&ouml;&ouml;lepingud j&auml;&auml;vad j&otilde;usse ning l&auml;hevad &uuml;le Eesti Haigekassale alates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 6 ) Keskhaigekassa direktor loetakse alates k&auml;esoleva seaduse j&otilde;ustumisest nimetatuks Eesti Haigekassa juhatuse esimeheks temaga Keskhaigekassa direktorina s&otilde;lmitud t&ouml;&ouml;lepingu t&auml;htaja l&otilde;ppemiseni 2002. aasta 1. augustil .</s><s>Eesti Haigekassa juhatuse liikmete volitused , kes nimetatakse ametisse Eesti Haigekassa n&otilde;ukogu poolt k&auml;esoleva l&otilde;ike kohaselt ametisse nimetatud Eesti Haigekassa juhatuse esimehe ettepanekute alusel , kestavad kuni kolme kuu m&ouml;&ouml;dumiseni k&auml;esolevas l&otilde;ikes etten&auml;htud Eesti Haigekassa juhatuse esimehe volituste l&otilde;ppemisest .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Eesti Vabariigi ravikindlustusseaduse muutmine</s>
+</p>
+<p>
+<s>Eesti Vabariigi ravikindlustusseaduses ( RT 1991 , 23 , 272 ; RT I 1999 , 7 , 113 ; 29 , 397 ) tehakse j&auml;rgmised t&auml;iendused ja muudatused :</s>
+</p>
+<p>
+<s>1 ) seaduse kogu tekstis asendatakse s&otilde;nad &ldquo; kohustusliku ravikindlustuse h&uuml;vitis &rdquo; s&otilde;nadega &ldquo; ajutise t&ouml;&ouml;v&otilde;imetuse h&uuml;vitis &rdquo; vastavas k&auml;&auml;ndes ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 2 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Kohustusliku ravikindlustusega kindlustatuks ( edaspidi kindlustatu ) loetakse k&otilde;ik isikud , kelle eest sotsiaalmaksuseaduse ( RT I 1998 , 40 , 611 ; 61 , 982 ; 113/114 , 1875 ja 1876 ; 1999 , 29 , 397 ; 71 , 685 ; 82 , 749 ; 87 , 789 ; 88 , 806 ; 97 , 857 ; 101 , 903 ) &sect;-des 4 ja 6 nimetatud sotsiaalmaksu maksja ( edaspidi sotsiaalmaksu maksja ) on maksnud v&otilde;i tal on kohustus maksta sotsiaalmaksu , samuti k&auml;esolevas seaduses etten&auml;htud kindlustatuga v&otilde;rdsustatud isikud . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 2 l&otilde;ige 4 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 3 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 3.</s><s>Ravikindlustuss&uuml;steem</s>
+</p>
+<p>
+<s>Kohustuslikku ravikindlustust korraldab avalik-&otilde;iguslik juriidiline isik Eesti Haigekassa ( edaspidi haigekassa ) k&auml;esolevas seaduses ja Eesti Haigekassa seaduses etten&auml;htud korras . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 3 l&otilde;iked 2-4 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>6 ) seadust t&auml;iendatakse &sect;-ga 3 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 3 <hi rend="sup">1</hi> .</s><s>Ravikindlustush&uuml;vitis</s>
+</p>
+<p>
+<s>Ravikindlustush&uuml;vitis on rahaline h&uuml;vitis , mida makstakse kindlustatule , v&otilde;i mitterahaline h&uuml;vitis , mida makstakse kindlustatu eest k&auml;esolevas seaduses s&auml;testatud tingimustel ja korras . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>7 ) seadust t&auml;iendatakse &sect;-ga 3 <hi rend="sup">2</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 3 <hi rend="sup">2</hi> .</s><s>Ravikindlustush&uuml;vitise liigid</s>
+</p>
+<p>
+<s>( 1 ) Ravikindlustuse rahaline h&uuml;vitis on ajutise t&ouml;&ouml;v&otilde;imetuse h&uuml;vitis .</s>
+</p>
+<p>
+<s>( 2 ) Ravikindlustuse mitterahaline h&uuml;vitis on :</s>
+</p>
+<p>
+<s>1 ) tervise edendamiseks , haiguste ennetamiseks ja raviks osutatud ravi- v&otilde;i muu teenus ;</s>
+</p>
+<p>
+<s>2 ) soodustingimustel v&auml;ljastatavad ravimid haigekassa poolt h&uuml;vitatavas ulatuses . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>8 ) paragrahvi 10 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) K&auml;esoleva seaduse &sect;-s 6 nimetatud h&uuml;vitise m&auml;&auml;rab ja maksab kindlustatule haigekassa . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>9 ) paragrahvi 12 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud teenuste hinnad ja teenuste eest tasumise korra kehtestab Vabariigi Valitsus sotsiaalministri ettepanekul koosk&otilde;las Eesti Haigekassa seaduse &sect; 12 l&otilde;ike 1 punkti 2 s&auml;tetega . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>10 ) paragrahvi 13 l&otilde;iked 1 , 8-12 , 14 ja 15 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Tervishoiukorralduse seaduse s&auml;tte kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tervishoiukorralduse seaduse ( RT I 1994 , 10 , 133 ; 1995 , 57 , 978 ; 1997 , 86 , 1462 ; 1999 , 18 , 305 ; 23 , 351 ; 97 , 860 ) &sect; 14 punkt 14 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Riigihangete seaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Riigihangete seaduse ( RT I 1995 , 54 , 883 ; 1997 , 9 , 79 ; 1998 , 38 , 561 ; 1999 , 16 , 271 ; 92 , 824 ; 97 , 859 ) &sect; 4 t&auml;iendatakse l&otilde;ikega 3 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 <hi rend="sup">1</hi> ) K&auml;esolevas seaduses s&auml;testatud korda ei rakendata Eesti Haigekassa poolt tervise edendamise , haiguste ennetamise ja raviteenuste ostmisel ning haigekassa kassatagavara halduri ja reservkapitali v&auml;lise portfellihalduri leidmisel . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Riigi Teataja seaduse t&auml;iendamine ja muutmine</s>
+</p>
+<p>
+<s>Riigi Teataja seaduses ( RT I 1999 , 10 , 155 ; 57 , 594 ; 2000 , 25 , 145 ) tehakse j&auml;rgmine t&auml;iendus ja muudatus :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 2 t&auml;iendatakse punktiga 16 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>16 <hi rend="sup">1</hi> ) Eesti Haigekassa eelarve , tegevusaruanne ja auditeeritud aastaaruanne ; &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 9 l&otilde;ike 4 punkt 3 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 3 ) kolmandas jaos - &otilde;iguskantsleri &uuml;levaated seadusandliku ja t&auml;idesaatva riigiv&otilde;imu ning kohalike omavalitsuste &otilde;igustloovate aktide koosk&otilde;last p&otilde;hiseaduse ja seadustega , riigikontrol&ouml;ri &uuml;levaated riigivara kasutamise ja s&auml;ilimise kohta , Eesti Panga aastaaruanded , Eesti Haigekassa eelarve , tegevusaruanne ja auditeeritud aastaaruanne ; &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Seadus j&otilde;ustub 2001. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 2 ) Seaduse &sect; 48 l&otilde;iked 1-4 j&otilde;ustuvad 2000. aasta 1. oktoobril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

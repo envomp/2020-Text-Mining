@@ -1,0 +1,475 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Toote ohutuse seadus ( terviktekst nov 2000 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    1970</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Toote ohutuse seadus ( terviktekst nov 2000 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=1></tagusage>
+         <tagusage gi=p occurs=123></tagusage>
+         <tagusage gi=s occurs=142></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Toote ohutuse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 21. aprillil 1998. a</s>
+</p>
+<p>
+<s>( RT I 1998 , 40 , 613 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. septembril 1998. a ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>08.11.2000 j&otilde;ust.02.12.2000 - RT I 2000 , 86 , 546 ;</s>
+</p>
+<p>
+<s>20.10.99 j&otilde;ust.14.11.99 - RT I 1999 , 82 , 753.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses s&auml;testatakse turustatava toote ja tootega seotud teenuse ohutuse tagamise n&otilde;uded ning turuj&auml;relevalve korraldamise alused .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevat seadust kohaldatakse Eestis turustatavale v&otilde;i Euroopa Liidu liikmesriiki eksporditavale tootele ja tootega seotud teenusele ( edaspidi teenus ) .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevat seadust kohaldatakse toote ja teenuse ning turuj&auml;relevalve korraldamisele niiv&otilde;rd , kuiv&otilde;rd seda ei ole t&auml;iendavalt reguleeritud teiste seadustega .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevat seadust ei kohaldata , kui :</s>
+</p>
+<p>
+<s>1 ) toodet on kasutatud ja seda on enne uuesti kasutamist vaja parandada v&otilde;i uuendada ning toote turustamisel teavitatakse sellest tarbijat ;</s>
+</p>
+<p>
+<s>2 ) isikud pakuvad &uuml;ksteisele toodet v&otilde;i teenust v&auml;ljaspool majandustegevust ;</s>
+</p>
+<p>
+<s>3 ) toodet v&otilde;ib k&auml;sitada kui antiikeset .</s>
+</p>
+<p>
+<s>( 5 ) Toode k&auml;esoleva seaduse t&auml;henduses on tarbimiseks valmistatud vallasasi v&otilde;i ehitis kinnisasja olulise osana .</s>
+</p>
+<p>
+<s>( 6 ) Toote turustamine kui majandustegevus k&auml;esoleva seaduse t&auml;henduses on toote m&uuml;&uuml;mine v&otilde;i muul viisil tasuta v&otilde;i tasu eest &uuml;leandmine .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Ohutuse m&auml;&auml;ratlemine</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Ohutu toode ja teenus</s>
+</p>
+<p>
+<s>( 1 ) Toode ja teenus on k&auml;esoleva seaduse t&auml;henduses ohutud , kui need , etten&auml;htud v&otilde;i m&otilde;istusp&auml;raselt eeldatavates tingimustes , eesm&auml;rgil ja viisil kasutades , ei ohusta tarbija tervist , turvalisust ja vara .</s>
+</p>
+<p>
+<s>( 20.10.99 j&otilde;ust.14.11.99 - RT I 1999 , 82 , 753 )</s>
+</p>
+<p>
+<s>( 2 ) Seaduse v&otilde;i selle alusel muu &otilde;igusaktiga kehtestatud ohutusn&otilde;uete j&auml;rgi kavandatud ja valmistatud toode ning pakutav teenus loetakse ohutuks , kui ta vastab nendele n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Toodet ega teenust ei v&otilde;i pidada ohtlikuks p&otilde;hjusel , et ohutust on v&otilde;imalik suurendada v&otilde;i m&otilde;ni samalaadi toode v&otilde;i teenus on ohutum .</s>
+</p>
+<p>
+<s>( 4 ) Toodet ei loeta ohutuks , kui selle v&auml;limus , pakend v&otilde;i m&auml;rgistus ei vasta toote sisule v&otilde;i ei v&otilde;imalda &uuml;heselt aru saada selle kasutamise eesm&auml;rgist ning v&otilde;ib seet&otilde;ttu ohustada tarbija tervist , turvalisust ja vara .</s>
+</p>
+<p>
+<s>( 20.10.99 j&otilde;ust.14.11.99 - RT I 1999 , 82 , 753 )</s>
+</p>
+<p>
+<s>( 5 ) Keelatud on valmistada , turustada , importida ja eksportida toodet , mis ei ole s&ouml;&ouml;dav , kuid mille suurus , kuju , l&otilde;hn , maitse , v&auml;rvus , pakend v&otilde;i m&auml;rgistus on selline , et tarbija , eriti laps , v&otilde;ib seda ekslikult pidada toiduks ja selle suhupanemine , imemine v&otilde;i allaneelamine v&otilde;ib p&otilde;hjustada tervisekahjustusi .</s>
+</p>
+<p>
+<s>( 20.10.99 j&otilde;ust.14.11.99 - RT I 1999 , 82 , 753 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Toote ja teenuse ohutuse m&auml;&auml;ratlemise alused</s>
+</p>
+<p>
+<s>( 1 ) Toote ja teenuse ohutuse m&auml;&auml;ratlemise alused on :</s>
+</p>
+<p>
+<s>1 ) toote &uuml;lesehitus , koostis , pakend ning tootja antud teave toote paigaldamiseks , kasutamiseks , hooldamiseks ja muuks otstarbeks ;</s>
+</p>
+<p>
+<s>2 ) m&otilde;ju teisele tootele , kui v&otilde;ib eeldada selle kasutamist koos teise tootega ;</s>
+</p>
+<p>
+<s>3 ) toote esitlemine , m&auml;rgistus ja tootja antud teave turustamiseks ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;imalik oht tarbija sihtgruppidele , eriti lastele .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Vabariigi Valitsus v&otilde;i tema volitatud minister v&otilde;ib kehtestada erinevatele toodetele ohutusn&otilde;uded ja nendele n&otilde;uetele vastavuse t&otilde;endamise korra , arvestades toote n&otilde;uetele vastavuse t&otilde;endamise seaduses ( RT I 1999 , 92 , 825 ) s&auml;testatut .</s>
+</p>
+<p>
+<s>( 08.11.2000 j&otilde;ust.02.12.2000 - RT I 2000 , 86 , 546 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 20.10.99 j&otilde;ust.14.11.99 - RT I 1999 , 82 , 753 )</s>
+</p>
+<p>
+<s>( 3 ) Kui seadusega v&otilde;i seaduse alusel ei ole toote ega teenuse ohutusn&otilde;udeid kehtestatud , hinnatakse ohutust Eesti standardeid arvestades .</s><s>Kui standardid puuduvad , arvestatakse tervise ja ohutuse tagamise head tava vastavas valdkonnas v&otilde;i tehnika ja tehnoloogia taset , samuti ohutust , mida toote ja teenuse tarbijad v&otilde;ivad m&otilde;istusp&auml;raselt eeldada .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tootja , teenuse osutaja ja levitaja kohustused</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Tootja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Tootja k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) toote v&otilde;i selle osa valmistaja ;</s>
+</p>
+<p>
+<s>2 ) isik , kes esitleb ennast toote valmistajana ning lisab tootele oma nime , &auml;rinime , kaubam&auml;rgi v&otilde;i muu eraldusm&auml;rgi ;</s>
+</p>
+<p>
+<s>3 ) isik , kes toodet uuendab v&otilde;i seda t&auml;iendab v&otilde;i viimistleb ;</s>
+</p>
+<p>
+<s>4 ) tootja esindaja toote turustamisel ;</s>
+</p>
+<p>
+<s>5 ) toote importija , kui toote valmistajal ei ole Eestis esindajat ;</s>
+</p>
+<p>
+<s>6 ) teised toote pakkujad turustusahelas niiv&otilde;rd , kuiv&otilde;rd nende tegevus m&otilde;jutab toote ohutusomadusi .</s>
+</p>
+<p>
+<s>( 2 ) Tootja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) saatma turule ja turustama ainult ohutut toodet ;</s>
+</p>
+<p>
+<s>2 ) m&auml;rkima tootele tootja identifitseerimist v&otilde;imaldava kirje ;</s>
+</p>
+<p>
+<s>3 ) varustama toote kasutamisjuhendi , m&auml;rgistuse ja teabega , mis v&otilde;imaldab hinnata ja v&auml;ltida ohte toote sihip&auml;rase kasutamise ajal ;</s>
+</p>
+<p>
+<s>4 ) koguma teavet ja l&auml;bi vaatama tarbijate kaebusi turustatava toote kohta ning vajaduse korral tegema tootekatsetusi ja v&otilde;tma kasutusele abin&otilde;ud , et muuta ohtlikuks osutunud toode n&otilde;uetekohaseks ;</s>
+</p>
+<p>
+<s>5 ) teavitama toote levitajaid ilmnenud ohtudest .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Teenuse osutaja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Teenuse osutaja on kohustatud pakkuma ja osutama ainult ohutut teenust .</s>
+</p>
+<p>
+<s>( 2 ) Teenust pakkudes peab teenuse osutaja tagama tootele kehtestatud ohutusn&otilde;uete t&auml;itmise .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Levitaja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Levitaja k&auml;esoleva seaduse t&auml;henduses on toote turustaja v&otilde;i toote edasitoimetaja , kelle tegevus ei m&otilde;juta toote ohutusomadusi .</s>
+</p>
+<p>
+<s>( 2 ) Levitaja on kohustatud l&otilde;petama toote turustamise , mille kohta ta teab v&otilde;i oma valduses oleva teabe alusel saab oletada , et toode ei vasta ohutusn&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Toote ja teenuse ohtudest informeerimise ja turult k&otilde;rvaldamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Tootja , teenuse osutaja ja levitaja peavad informeerima teisi tootjaid , teenuse osutajaid ja levitajaid ning turuj&auml;relevalveasutusi turustatavatel toodetel ja osutatavatel teenustel ilmnenud ohtudest ning tegema koost&ouml;&ouml;d nende ohtude &auml;rahoidmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kui ilmneb , et toode v&otilde;i teenus ei ole ohutu , peavad tootja , teenuse osutaja ja levitaja peatama selle turustamise v&otilde;i levitamise ja kaasa aitama sellise toote v&otilde;i teenuse turult k&otilde;rvaldamisele .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Turuj&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Turuj&auml;relevalveasutused</s>
+</p>
+<p>
+<s>( 1 ) Turuj&auml;relevalveasutused on Tarbijakaitseamet ning teised ametid ja inspektsioonid seadustes ja turuj&auml;relevalveasutuste p&otilde;him&auml;&auml;rustes s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Turuj&auml;relevalveasutused korraldavad toote ja teenuse ohutuse j&auml;relevalvet turul .</s>
+</p>
+<p>
+<s>( 3 ) Turuj&auml;relevalveasutused on kohustatud regulaarselt vahetama omavahel informatsiooni ja tegema koost&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Turuj&auml;relevalve korraldamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahvi 8 l&otilde;ikes 1 nimetatud asutuste j&auml;relevalveametnikud kontrollivad toote ja teenuse ohutust :</s>
+</p>
+<p>
+<s>1 ) perioodiliselt ;</s>
+</p>
+<p>
+<s>2 ) kui on kahtlus , et toode v&otilde;i teenus ei ole ohutu .</s>
+</p>
+<p>
+<s>( 2 ) Ametit&otilde;endi esitamise korral on j&auml;relevalveametnikul &otilde;igus oma &uuml;lesannete t&auml;itmiseks :</s>
+</p>
+<p>
+<s>1 ) takistamatult siseneda turule saatmiseks ettevalmistatud ning turustatavate toodete ladudesse ;</s>
+</p>
+<p>
+<s>2 ) kontrollida toodete n&otilde;uetekohasust t&otilde;endavaid dokumente ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;uda tootjalt ja teenuse osutajalt teavet toote ja teenuse kohta ;</s>
+</p>
+<p>
+<s>4 ) teha oma p&auml;devuse piires ettekirjutusi , m&auml;&auml;rata nende t&auml;itmise t&auml;htaegu ja kontrollida nende t&auml;itmist ;</s>
+</p>
+<p>
+<s>5 ) v&otilde;tta kontrollimiseks tasuta tooten&auml;idiseid , arvestades k&auml;esoleva paragrahvi l&otilde;ikes 7 s&auml;testatud toote kontrollimise kulude tasumise korda .</s>
+</p>
+<p>
+<s>( 20.10.99 j&otilde;ust.14.11.99 - RT I 1999 , 82 , 753 )</s>
+</p>
+<p>
+<s>( 3 ) Tooten&auml;idise ja teenuse kontrollimiseks tellib turuj&auml;relevalveasutus p&auml;devalt ettev&otilde;ttelt , asutuselt v&otilde;i organisatsioonilt hindamisteenuse .</s>
+</p>
+<p>
+<s>( 4 ) Hindamisteenus vormistatakse ekspertarvamusena , kus kirjeldatakse anal&uuml;&uuml;si ning katsetamis- ja ekspertiisitulemusi .</s>
+</p>
+<p>
+<s>( 5 ) Turuj&auml;relevalveasutusel on &otilde;igus toote ja teenuse kontrollimise tulemustest l&auml;htuvalt teha j&auml;rgmisi otsuseid :</s>
+</p>
+<p>
+<s>1 ) keelata toote turustamine ja teenuse osutamine t&auml;htajaks , mis on vajalik nende ohutuse l&otilde;plikuks kontrollimiseks ;</s>
+</p>
+<p>
+<s>2 ) n&otilde;uda , et toodet turustades ja teenust osutades antakse lisateavet toote tarbimisel ja teenuse osutamisel ilmneda v&otilde;ivast ohust ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;uda tootjalt ja teenuse osutajalt , et ta m&auml;&auml;ratud t&auml;htajaks teavitab tarbijat turustatud toote ja osutatud teenuse ilmnenud ohtudest ja toote v&otilde;i teenuse ohtlikkuse k&otilde;rvaldamise v&otilde;imalustest ;</s>
+</p>
+<p>
+<s>4 ) n&otilde;uda ohtlikuks osutunud toote ja teenuse eemaldamist turult ja keelustada nende reklaam ning vajadusel n&otilde;uda toote h&auml;vitamist .</s>
+</p>
+<p>
+<s>( 6 ) Kui turuj&auml;relevalveasutus on tuvastanud toote v&otilde;i teenuse ohtlikkuse , kehtivad k&auml;esoleva paragrahvi l&otilde;ike 5 punktides 2-4 esitatud &otilde;igused sellest olenemata , et toode v&otilde;i teenus on k&auml;esoleva seaduse paragrahvi 2 l&otilde;ike 2 j&auml;rgi ohutu .</s>
+</p>
+<p>
+<s>( 7 ) Toote v&otilde;i teenuse kontrollimiseks tellitud hindamisteenuse kulud tasub turuj&auml;relevalveasutus ja tagastab tooten&auml;idise v&otilde;i h&uuml;vitab selle maksumuse , kui ekspertarvamuse kohaselt toode on ohutu .</s><s>Kui ekspertarvamuse kohaselt ei ole toode v&otilde;i teenus ohutu , tasub kulutused vastavalt tootja v&otilde;i teenuse osutaja .</s><s>Kui tootjat v&otilde;i teenuse osutajat ei ole v&otilde;imalik kindlaks m&auml;&auml;rata , tasub kulutused levitaja .</s>
+</p>
+<p>
+<s>( 20.10.99 j&otilde;ust.14.11.99 - RT I 1999 , 82 , 753 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>J&auml;relevalveametniku ettekirjutuse ja turuj&auml;relevalveasutuse otsuse tegemise v&otilde;i muu toimingu vaidlustamine</s>
+</p>
+<p>
+<s>Kui tootja , teenuse osutaja v&otilde;i levitaja ei n&otilde;ustu j&auml;relevalveametniku ettekirjutuse v&otilde;i turuj&auml;relevalveasutuse otsusega v&otilde;i muu toimingu tulemusega , v&otilde;ib ta esitada kaebuse halduskohtusse k&uuml;mne p&auml;eva jooksul ettekirjutuse v&otilde;i otsuse tegemisest v&otilde;i muu toimingu tulemusest teada saamisest arvates .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Avalikkuse teavitamine</s>
+</p>
+<p>
+<s>( 1 ) Turuj&auml;relevalveasutus on kohustatud avalikkust teavitama konkreetse toote ja teenuse ohtlikkusest &uuml;hes &uuml;leriigilise levikuga p&auml;evalehes , vajaduse korral teiste meediakanalite kaudu ning muul v&otilde;imalikul viisil .</s>
+</p>
+<p>
+<s>( 2 ) Kui turuj&auml;relevalve k&auml;igus on kindlaks tehtud , et toode v&otilde;i teenus ei ole ohutu ja seda toodet turustatakse v&otilde;i teenust osutatakse v&auml;lisriigis , siis teavitab Tarbijakaitseamet seda v&auml;lisriiki tuvastatud ohtudest .</s><s>Vabariigi Valitsuse m&auml;&auml;rusega kehtestatakse nimetatud teavitamise tingimused ja kord .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vastutus</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>F&uuml;&uuml;silise isiku vastutus</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide rikkumise eest kannab f&uuml;&uuml;siline isik distsiplinaar- , tsiviil- , haldus- v&otilde;i kriminaalvastutust seadusega etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalveametniku ettekirjutuse t&auml;itmata j&auml;tmise eest m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Turuj&auml;relevalveasutuse otsuse t&auml;itmata j&auml;tmise eest m&auml;&auml;ratakse rahatrahv kuni 150 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Juriidilise isiku poolt k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud &otilde;iguserikkumise asja arutamise ja temale karistuse m&auml;&auml;ramise &otilde;igus on halduskohtunikul .</s>
+</p>
+<p>
+<s>( 4 ) Menetlus k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumise asjas , kaasa arvatud karistuse m&auml;&auml;ramine ja vaidlustamine ning j&otilde;ustunud halduskaristuse otsuse t&auml;itmine toimub haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 58 , 608 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ; 49 , 305 ; 51 , 321 ; 54 , 346 ; 348 ; 351 ; 55 , 361 ; 58 , 376 ; 84 , 533 ; 86 , 544 ) ja t&auml;itemenetluse seadustikus ( RT I 1993 , 49 , 693 ; 1997 , 43/44 , 723 ; 1998 , 41/42 , 625 ; 51 , 756 ; 61 , 981 ; 1999 , 18 , 302 ; 27 , 380 ; 95 , 845 ; 103 , 1695 ; 2000 , 28 , 167 ; 35 , 222 ; 58 , 376 ) kehtestatud korras , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Haldusprotokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahvi 13 l&otilde;igetes 1 ja 2 s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumiste kohta protokolli koostamise &otilde;igus on j&auml;relevalveametnikul .</s>
+</p>
+<p>
+<s>( 2 ) Protokolli m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) selle koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) asutuse nimi ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkuja nimetus ja asukoht ;</s>
+</p>
+<p>
+<s>5 ) haldus&otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>6 ) haldus&otilde;iguserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) viide k&auml;esoleva seaduse paragrahvi 13 vastavale l&otilde;ikele , mis n&auml;eb ette vastutuse selle haldus&otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>8 ) haldus&otilde;iguserikkuja esindaja seletus ;</s>
+</p>
+<p>
+<s>9 ) muud asja lahendamiseks vajalikud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Kui haldus&otilde;iguserikkuja keeldub protokollile alla kirjutamast , tehakse selle kohta vastav kanne .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;te</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>Seadus j&otilde;ustub 1998. aasta 1. septembril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

@@ -1,0 +1,2149 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Perekonnaseadus ( terviktekst juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   10571</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Perekonnaseadus ( terviktekst juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=8></tagusage>
+         <tagusage gi=p occurs=681></tagusage>
+         <tagusage gi=s occurs=880></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Perekonnaseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 12. oktoobril 1994. a.</s>
+</p>
+<p>
+<s>( RT I 1994 , 75 , 1326 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 1995. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>30.05.2001 j&otilde;ust.30.06.2001 - RT I 2001 , 53 , 307 ;</s>
+</p>
+<p>
+<s>17.01.2001 j&otilde;ust.01.03.2001 - RT I 2001 , 16 , 69 ;</s>
+</p>
+<p>
+<s>31.05.2000 j&otilde;ust 01.08.2000 - RT I 2000 , 50 , 317 ;</s>
+</p>
+<p>
+<s>17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 ;</s>
+</p>
+<p>
+<s>12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 ;</s>
+</p>
+<p>
+<s>26.06.96 j&otilde;ust 26.07.96 - RT I 1996 , 49 , 953 ;</s>
+</p>
+<p>
+<s>28.05.96 j&otilde;ust 08.06.96 - RT I 1996 , 40 , 773.</s>
+</p>
+<p>
+<s>I osa</s>
+</p>
+<p>
+<s>Abielu</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>Abielu s&otilde;lmimine</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Abielu s&otilde;lmimise kord</s>
+</p>
+<p>
+<s>( 1 ) Abielu s&otilde;lmitakse mehe ja naise vahel .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igusliku t&auml;hendusega on ainult abielu , mille s&otilde;lmimisel on koostatud perekonnaseisuasutuse abieluakt .</s>
+</p>
+<p>
+<s>( 3 ) Abielu s&otilde;lmitakse mitte varem kui &uuml;he kuu ja mitte hiljem kui kolme kuu m&ouml;&ouml;dumisel abiellujate poolt perekonnaseisuasutusele avalduse esitamisest .</s>
+</p>
+<p>
+<s>( 4 ) M&otilde;juvatel p&otilde;hjustel v&otilde;ib abiellujate soovil perekonnaseisuasutus k&auml;esoleva paragrahvi 3. l&otilde;ikes s&auml;testatud t&auml;htaegu l&uuml;hendada v&otilde;i pikendada .</s><s>T&auml;htaega v&otilde;ib pikendada kuni kuue kuuni , arvates avalduse esitamisest .</s>
+</p>
+<p>
+<s>( 5 ) Abielu s&otilde;lmivad abiellujad isiklikult , &uuml;heaegselt kohal olles .</s><s>Abielu on s&otilde;lmitud , kui abiellujad on abieluaktile alla kirjutanud .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Abielu s&otilde;lmimise eeldused</s>
+</p>
+<p>
+<s>( 1 ) Abielu s&otilde;lmitakse abiellujate &uuml;hisel soovil .</s>
+</p>
+<p>
+<s>( 2 ) Abielu ei v&otilde;i s&otilde;lmida , kui abielluja ei kinnita oma abiellumissoovi v&otilde;i kui abielluja ei ole abiellumisealine v&otilde;i kui ilmnevad k&auml;esoleva seaduse paragrahvis 4 nimetatud asjaolud .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Abiellumisiga</s>
+</p>
+<p>
+<s>( 1 ) Isik on abiellumisealine , kui ta on saanud 18-aastaseks .</s>
+</p>
+<p>
+<s>( 2 ) 15-18-aastane alaealine v&otilde;ib abielluda oma vanemate v&otilde;i eestkostja kirjalikul n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 3 ) Kui lapsel on &uuml;ks vanem v&otilde;i teine vanem on teadmata kadunuks v&otilde;i teov&otilde;imetuks tunnistatud , samuti kui &uuml;helt vanemalt on vanema &otilde;igused &auml;ra v&otilde;etud , piisab 15-18-aastase alaealise abiellumiseks &uuml;he vanema n&otilde;usolekust .</s>
+</p>
+<p>
+<s>( 4 ) Kui kas v&otilde;i &uuml;ks vanematest v&otilde;i eestkostja ei anna abiellumiseks n&otilde;usolekut , v&otilde;ib kohus anda abiellumisloa &uuml;he vanema v&otilde;i eestkosteasutuse avalduse alusel .</s><s>Kohus annab abiellumisloa , kui abiellumine vastab alaealise huvidele .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Abielu s&otilde;lmimise takistus</s>
+</p>
+<p>
+<s>Abielu ei v&otilde;i s&otilde;lmida :</s>
+</p>
+<p>
+<s>1 ) isikute vahel , kellest v&auml;hemalt &uuml;ks on juba abielus ;</s>
+</p>
+<p>
+<s>2 ) otsejoones &uuml;lenejate v&otilde;i alanejate sugulaste vahel , vendade ja &otilde;dede ning poolvendade ja -&otilde;dede , lapsendajate ja lapsendatute , samuti sama isiku poolt lapsendatute vahel ;</s>
+</p>
+<p>
+<s>3 ) isikute vahel , kellest v&auml;hemalt &uuml;ks on tunnistatud teov&otilde;imetuks .</s>
+</p>
+<p>
+<s>&sect; 4 <hi rend="sup">1</hi> .</s><s>Vaimuliku &otilde;igus keelduda abielu s&otilde;lmimisest</s>
+</p>
+<p>
+<s>Lisaks k&auml;esoleva seaduse &sect;-s 4 s&auml;testatule on kiriku , koguduse v&otilde;i koguduste liidu vaimulikul , kellele k&auml;esoleva seaduse &sect; 130 <hi rend="sup">1</hi> alusel on siseminister andnud abielu s&otilde;lmimise &otilde;iguse , &otilde;igus keelduda abielu s&otilde;lmimisest , kui abielluja ei vasta kirikus , koguduses v&otilde;i koguduste liidus kehtiva usutunnistuse j&auml;rgsetele abielu s&otilde;lmimise tingimustele .</s>
+</p>
+<p>
+<s>( 30.05.2001 j&otilde;ust.30.06.2001 - RT I 2001 , 53 , 307 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Abikaasade isiklikud &otilde;igused</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Perekonnanime valik</s>
+</p>
+<p>
+<s>Abielu s&otilde;lmimisel valivad abikaasad &uuml;hiseks perekonnanimeks &uuml;he abikaasa perekonnanime v&otilde;i kumbki abikaasa s&auml;ilitab oma abielueelse perekonnanime v&otilde;i abielueelsele perekonnanimele lisatakse abikaasa soovil teise abikaasa perekonnanimi .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Kitsenduste keeld</s>
+</p>
+<p>
+<s>Abikaasade isiklikke &otilde;igusi ja vabadusi kitsendavad kokkulepped on t&uuml;hised .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Abikaasade varalised &otilde;igused</s>
+</p>
+<p>
+<s>1. jagu .</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Abikaasade varaliste &otilde;iguste alus</s>
+</p>
+<p>
+<s>Abikaasade varalised &otilde;igused m&auml;&auml;ratakse kindlaks seaduses ja abieluvaralepinguga , kui see on s&otilde;lmitud .</s>
+</p>
+<p>
+<s>2. jagu .</s>
+</p>
+<p>
+<s>Abieluvaraleping</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Abieluvaralepingu m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Abieluvaralepinguga v&otilde;ivad abikaasad kindlaks m&auml;&auml;rata vastastikused varalised &otilde;igused ja kohustused erinevalt k&auml;esoleva peat&uuml;ki 3. jaos s&auml;testatust , kui seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Kui abieluvaralepingut ei ole s&otilde;lmitud v&otilde;i kui leping ei h&otilde;lma abikaasade kogu vara , kohaldatakse abikaasade vara v&otilde;i abieluvaralepinguga h&otilde;lmamata vara suhtes k&auml;esoleva peat&uuml;ki 3. jaos s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Abieluvaralepingu sisu</s>
+</p>
+<p>
+<s>( 1 ) Abieluvaralepinguga v&otilde;idakse kindlaks m&auml;&auml;rata :</s>
+</p>
+<p>
+<s>1 ) milline enne abiellumist abikaasale kuulunud vara j&auml;&auml;b tema lahusvaraks ja milline vara saab abikaasade &uuml;hisvaraks ;</s>
+</p>
+<p>
+<s>2 ) milline abielu kestel omandatud v&otilde;i omandatav vara on &uuml;hisvara ja milline lahusvara ;</s>
+</p>
+<p>
+<s>3 ) kuidas abikaasade &uuml;hisvara vallata , kasutada ja k&auml;sutada ;</s>
+</p>
+<p>
+<s>4 ) kuidas abikaasade &uuml;hisvara jagada ;</s>
+</p>
+<p>
+<s>5 ) abikaasade vastastikused &uuml;lalpidamiskohustused abielu kestel ja abielu l&otilde;ppemisel ;</s>
+</p>
+<p>
+<s>6 ) abikaasade muud vastastikused varalised &otilde;igused ja kohustused , kui see ei ole vastuolus seadusega .</s>
+</p>
+<p>
+<s>( 2 ) Abieluvaralepinguga ei v&otilde;i :</s>
+</p>
+<p>
+<s>1 ) lugeda abikaasade &uuml;hisvaraks vara , mis abikaasa on kinke v&otilde;i p&auml;rimise teel omandanud tingimusega , et see kuulub temale lahusvarana ;</s>
+</p>
+<p>
+<s>2 ) j&auml;tta abikaasat v&otilde;i lahutatud abikaasat ilma &otilde;igusest saada &uuml;lalpidamist k&auml;esoleva seaduse 4. peat&uuml;kis s&auml;testatud alustel ;</s>
+</p>
+<p>
+<s>3 ) loobuda abikaasade &uuml;hisvara jagamise &otilde;igusest abielu l&otilde;ppemisel .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Abieluvaralepingu s&otilde;lmimine</s>
+</p>
+<p>
+<s>( 1 ) Abieluvaralepingu v&otilde;ib s&otilde;lmida enne abiellumist v&otilde;i abielu kestel .</s>
+</p>
+<p>
+<s>( 2 ) Poolte kokkuleppel v&otilde;ib abieluvaralepingut muuta v&otilde;i s&otilde;lmida uue abieluvaralepingu .</s><s>Varem s&otilde;lmitud abieluvaraleping kehtib muutmata osas , samuti osas , mis ei ole vastuolus hiljem s&otilde;lmitud abieluvaralepinguga .</s>
+</p>
+<p>
+<s>( 3 ) 15-18-aastane alaealine v&otilde;ib s&otilde;lmida abieluvaralepingu , kui ta on saanud abiellumiseks n&otilde;usoleku v&otilde;i loa ( paragrahv 3 ) .</s>
+</p>
+<p>
+<s>( 4 ) Abieluvaraleping t&otilde;estatakse notariaalselt .</s>
+</p>
+<p>
+<s>( 5 ) Enne abiellumist s&otilde;lmitud abieluvaralepingust tekivad abikaasade vastastikused &otilde;igused ja kohustused abielu s&otilde;lmimise ajast .</s>
+</p>
+<p>
+<s>( 6 ) Abieluvaraleping kantakse abikaasa n&otilde;udel abieluvaralepingu registrisse .</s><s>Abieluvaralepingust tulenevad abikaasa varalised &otilde;igused kehtivad kolmandate isikute suhtes , kui abieluvaralepingu kohta on tehtud kanne abieluvaralepingu registrisse enne kolmanda isiku n&otilde;ude tekkimist .</s><s>Abieluvaralepingu registrit peetakse seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Abieluvaralepingu l&otilde;petamine abielu kestel</s>
+</p>
+<p>
+<s>( 1 ) Abieluvaraleping l&otilde;petatakse poolte notariaalselt t&otilde;estatud kokkuleppel v&otilde;i &uuml;he abikaasa n&otilde;udel kohtu poolt .</s>
+</p>
+<p>
+<s>( 2 ) Abikaasal on &otilde;igus n&otilde;uda abieluvaralepingu l&otilde;petamist , kui :</s>
+</p>
+<p>
+<s>1 ) teine abikaasa on tunnistatud teadmata kadunuks ;</s>
+</p>
+<p>
+<s>2 ) kohus on v&auml;lja kuulutanud &uuml;he abikaasa pankroti ;</s>
+</p>
+<p>
+<s>3 ) teine abikaasa kahjustab oluliselt abikaasade vara v&otilde;i teeb tegusid , mis v&otilde;ivad abikaasade vara oluliselt kahjustada .</s>
+</p>
+<p>
+<s>( 3 ) Abieluvaralepingu l&otilde;petamisel l&otilde;pevad abieluvaralepingust tulenevad &otilde;igused ja kohustused .</s><s>Abikaasade &uuml;his- ja lahusvara , mille kohta oli s&otilde;lmitud abieluvaraleping , m&auml;&auml;ratakse kindlaks ja &uuml;hisvara jagatakse vastavalt abieluvaralepingule .</s>
+</p>
+<p>
+<s>( 4 ) Abieluvaralepingu l&otilde;petamisel poolte kokkuleppel v&otilde;ivad abikaasad kokku leppida , et abieluvaralepingut ei ole tervikuna v&otilde;i teatud osas s&otilde;lmitud .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Abieluvaraleping abielu l&otilde;ppemisel</s>
+</p>
+<p>
+<s>( 1 ) Abieluvaraleping l&otilde;peb abikaasa surma v&otilde;i abielu lahutamisega .</s>
+</p>
+<p>
+<s>( 2 ) Abieluvaralepingu l&otilde;ppemisel abikaasa surma korral v&otilde;i abielu lahutamisel l&otilde;pevad abieluvaralepingust tulenevad &otilde;igused ja kohustused .</s><s>Abikaasade &uuml;his- ja lahusvara m&auml;&auml;ratakse kindlaks ning &uuml;hisvara jagatakse vastavalt abieluvaralepingule .</s>
+</p>
+<p>
+<s>( 3 ) Kui abieluvaralepingust tuleneb lahutatud abikaasa &uuml;lalpidamiskohustus p&auml;rast abielu lahutamist , j&auml;&auml;b see kohustus p&auml;rast abielu lahutamist kestma .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Abieluvaralepingu kehtetus</s>
+</p>
+<p>
+<s>( 1 ) Kui abieluvaraleping on tunnistatud kehtetuks v&otilde;i on t&uuml;hine tsiviilseadustiku &uuml;ldosa tehingute kehtetuse kohta k&auml;ivate s&auml;tete alusel , kohaldatakse abielu kestel omandatud vara suhtes k&auml;esoleva peat&uuml;ki 3. jao s&auml;tteid .</s>
+</p>
+<p>
+<s>( 2 ) Abielu kehtetuks tunnistamisel on abieluvaraleping t&uuml;hine .</s><s>Sel juhul kohaldatakse kehtetu abielu kestel omandatud vara suhtes k&auml;esoleva seaduse paragrahv 36 3. v&otilde;i 4. l&otilde;ikes s&auml;testatut .</s>
+</p>
+<p>
+<s>3. jagu .</s>
+</p>
+<p>
+<s>&Uuml;his- ja lahusvara</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>&Uuml;hisvara</s>
+</p>
+<p>
+<s>( 1 ) Abielu kestel abikaasade omandatud vara on abikaasade &uuml;hisvara .</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib abikaasade &uuml;hisvaraks osaliselt v&otilde;i t&auml;ielikult tunnistada abikaasa lahusvara , mille v&auml;&auml;rtus on abielu kestel abikaasade t&ouml;&ouml; v&otilde;i rahaliste kulutuste tulemusel oluliselt suurenenud .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Lahusvara</s>
+</p>
+<p>
+<s>( 1 ) Abikaasa lahusvara on tema omandis enne abiellumist olnud vara , samuti tema poolt abielu kestel kinke v&otilde;i p&auml;rimise teel omandatud vara ning vara , mille see abikaasa on omandanud p&auml;rast abielusuhete l&otilde;ppemist .</s>
+</p>
+<p>
+<s>( 2 ) Abielu kestel omandatud isiklikud tarbeesemed on abikaasa lahusvara .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Abikaasade tehingud</s>
+</p>
+<p>
+<s>Abikaasad v&otilde;ivad omavahel teha tehinguid lahusvaraga , samuti s&otilde;lmida &uuml;hisvara t&auml;ieliku v&otilde;i osalise jagamise kokkuleppeid v&otilde;i kokkuleppeid &uuml;hisvara v&otilde;i selle osa valdamise , kasutamise ja k&auml;sutamise kohta .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>&Uuml;hisvara valdamine , kasutamine , k&auml;sutamine</s>
+</p>
+<p>
+<s>( 1 ) Abikaasadel on v&otilde;rdne &otilde;igus &uuml;hisvara vallata , kasutada ja k&auml;sutada .</s>
+</p>
+<p>
+<s>( 2 ) Abikaasad valdavad , kasutavad ja k&auml;sutavad &uuml;hisvara kokkuleppel .</s><s>Kokkuleppe puudumisel lahendab vaidluse &uuml;hisvara valdamise v&otilde;i kasutamise &uuml;le kohus abikaasa n&otilde;udel .</s>
+</p>
+<p>
+<s>( 3 ) Kui &uuml;ks abikaasa teeb tehingu abikaasade &uuml;hisomandis oleva vallaasja v&otilde;&otilde;randamiseks , eeldatakse teise abikaasa n&otilde;usolekut .</s>
+</p>
+<p>
+<s>( 4 ) Abikaasade &uuml;hisomandis olevat registrisse kandmisele kuuluvat vallasasja ei v&otilde;i v&otilde;&otilde;randada ega pantida teise abikaasa kirjaliku n&otilde;usolekuta , s&otilde;ltumata sellest , kumma abikaasa nimel on vallasasi registrisse kantud .</s>
+</p>
+<p>
+<s>( 5 ) Kui k&auml;esoleva peat&uuml;ki 2. ja 3. jao s&auml;tete alusel v&otilde;ib kinnisasja lugeda abikaasade &uuml;hisvaraks ja selle omanikuna on kinnistusraamatusse kantud &uuml;ks abikaasa , kantakse teine abikaasa &uuml;hisomanikuna kinnistusraamatusse abikaasade &uuml;hise notariaalselt t&otilde;estatud avalduse alusel .</s><s>Kui kinnistusraamatusse omanikuna kantud abikaasa keeldub &uuml;hise avalduse esitamisest , v&otilde;ib teine abikaasa kohtu korras n&otilde;uda enda &uuml;hisomanikuks tunnistamist ja kinnistusraamatu kande muutmist .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>&Uuml;hisvara jagamine</s>
+</p>
+<p>
+<s>( 1 ) Abikaasade &uuml;hisvara v&otilde;idakse jagada abielu kestel , abielu lahutamisel v&otilde;i p&auml;rast seda .</s>
+</p>
+<p>
+<s>( 2 ) Kui &uuml;hisvara jagamise ajal abikaasade abielusuhted ei ole l&otilde;ppenud , m&auml;&auml;ratakse &uuml;hisvara kindlaks jagamise aja seisuga .</s><s>Kui &uuml;hisvara jagatakse p&auml;rast abielusuhete l&otilde;ppemist , m&auml;&auml;ratakse &uuml;hisvara kindlaks abielusuhete l&otilde;ppemise aja seisuga .</s>
+</p>
+<p>
+<s>( 3 ) Abikaasad jagavad &uuml;hisvara kokkuleppel .</s>
+</p>
+<p>
+<s>( 4 ) Abikaasade &uuml;hisomandis oleva kinnisasja jagamise leping tuleb t&otilde;estada notariaalselt .</s>
+</p>
+<p>
+<s>( 5 ) Vaidluse korral jagab kohus &uuml;hisvara &uuml;he v&otilde;i m&otilde;lema abikaasa n&otilde;udel .</s>
+</p>
+<p>
+<s>( 6 ) &Uuml;hisvara jagamisel jagamata j&auml;&auml;nud vara , samuti vara , mida abikaasad omandavad abielu kestel p&auml;rast &uuml;hisvara jagamist , on abikaasade &uuml;hisvara .</s>
+</p>
+<p>
+<s>&sect; 18 <hi rend="sup">1</hi> .</s><s>&Uuml;hisvara jagamine t&auml;itemenetluses</s>
+</p>
+<p>
+<s>Kui &uuml;he abikaasa suhtes on algatatud t&auml;itemenetlus ja tema lahusvarast ei piisa sissen&otilde;udja n&otilde;ude rahuldamiseks , v&otilde;ib sissen&otilde;udja esitada kohtule hagi abikaasade &uuml;hisvara jagamiseks .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.01.03.2001 - RT I 2001 , 16 , 69 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Osad &uuml;hisvara jagamisel</s>
+</p>
+<p>
+<s>( 1 ) Abikaasade &uuml;hisvara jagamisel loetakse nende osad v&otilde;rdseks , olenemata sellest , et &uuml;ks abikaasa ei saanud sissetulekut seoses lapse kasvatamisega v&otilde;i muudel m&otilde;juvatel p&otilde;hjustel .</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib k&otilde;rvale kalduda abikaasade osade v&otilde;rdsusest :</s>
+</p>
+<p>
+<s>1 ) arvestades lapse v&otilde;i teise abikaasa t&auml;helepanu v&auml;&auml;rivat huvi ;</s>
+</p>
+<p>
+<s>2 ) kui &uuml;ks abikaasa ei ole m&otilde;juvate p&otilde;hjusteta osalenud oma sissetuleku v&otilde;i t&ouml;&ouml;ga &uuml;hisvara omandamisel ;</s>
+</p>
+<p>
+<s>3 ) kui &uuml;hisvara on omandatud &uuml;he abikaasa lahusvara arvel ;</s>
+</p>
+<p>
+<s>4 ) kui abikaasa lahusvara v&auml;&auml;rtus on abielu kestel oluliselt suurenenud teise abikaasa t&ouml;&ouml; , rahaliste kulutuste v&otilde;i abikaasade &uuml;hisvara osa arvel .</s>
+</p>
+<p>
+<s>( 3 ) Abikaasade &uuml;hisvara jagamisel m&auml;&auml;ratakse kummalegi abikaasale j&auml;&auml;v vara kaasomandi osana , asjadena ning varaliste &otilde;iguste ja kohustustena .</s>
+</p>
+<p>
+<s>( 4 ) Kui &uuml;hisvara jagamisel osutub &uuml;hele abikaasale j&auml;&auml;va vara v&auml;&auml;rtus suuremaks tema osast &uuml;hisvaras , m&otilde;istab kohus temalt teisele abikaasale rahalise h&uuml;vituse .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Vastutus abikaasa kohustuse eest</s>
+</p>
+<p>
+<s>( 1 ) Oma varalise kohustuse eest vastutab abikaasa oma lahusvaraga ja &uuml;hisvara selle osaga , mis kuuluks talle &uuml;hisvara jagamisel .</s>
+</p>
+<p>
+<s>( 2 ) Perekonna huvides v&otilde;etud varalise kohustuse j&auml;rgi vastutavad abikaasad &uuml;hisvaraga ja m&otilde;lema abikaasa lahusvaraga .</s>
+</p>
+<p>
+<s>( 3 ) Kui &uuml;he abikaasa kuriteo l&auml;bi suurenes abikaasade &uuml;his- v&otilde;i teise abikaasa lahusvara , h&uuml;vitatakse kuriteoga tekitatud kahju lisaks k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatule ka teise abikaasa osa arvel &uuml;hisvaras , samuti teise abikaasa lahusvara arvel selle osa ulatuses , mille v&otilde;rra tema lahusvara kuriteo l&auml;bi suurenes .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Abikaasa &uuml;lalpidamine</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Abikaasa &uuml;lalpidamiskohustus</s>
+</p>
+<p>
+<s>Abikaasa on kohustatud abi vajavat t&ouml;&ouml;v&otilde;imetut abikaasat , samuti abikaasat raseduse ja lapse hooldamise ajal kuni lapse kolmeaastaseks saamiseni &uuml;lal pidama , kui kohustatud abikaasa varaline seisund &uuml;lalpidamist v&otilde;imaldab .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>&Uuml;lalpidamiskohustus p&auml;rast abielulahutust</s>
+</p>
+<p>
+<s>( 1 ) Abivajaval t&ouml;&ouml;v&otilde;imetul lahutatud abikaasal on &otilde;igus saada endiselt abikaasalt &uuml;lalpidamist , kui ta invaliidistus v&otilde;i j&otilde;udis pensioniikka abielu kestel ja kui kohustatud lahutatud abikaasa varaline seisund &uuml;lalpidamist v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 2 ) Lahutatud abikaasal on &otilde;igus saada lahutatud abikaasalt &uuml;lalpidamist raseduse ja lapse hooldamise ajal kuni lapse kolmeaastaseks saamiseni , kui laps oli eostatud abielu kestel ja kui kohustatud lahutatud abikaasa varaline seisund &uuml;lalpidamist v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 3 ) Kui abielu on kestnud v&auml;hemalt 25 aastat , on lahutatud abikaasal &otilde;igus saada lahutatud abikaasalt &uuml;lalpidamist ka siis , kui abivajav abikaasa j&otilde;udis pensioniikka v&otilde;i invaliidistus kolme aasta jooksul p&auml;rast abielu lahutamist ja kui kohustatud lahutatud abikaasa varaline seisund &uuml;lalpidamist v&otilde;imaldab .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Elatise suurus</s>
+</p>
+<p>
+<s>( 1 ) Kui abikaasa v&otilde;i lahutatud abikaasa ei t&auml;ida k&auml;esoleva seaduse paragrahvides 21 ja 22 s&auml;testatud &uuml;lalpidamiskohustust , m&otilde;istab kohus elatise abikaasa v&otilde;i lahutatud abikaasa &uuml;lalpidamiseks v&auml;lja igakuise elatusrahana , l&auml;htudes kummagi abikaasa varalisest seisundist ja abivajadusest .</s>
+</p>
+<p>
+<s>( 2 ) Varalise seisundi v&otilde;i abivajaduse muutumisel v&otilde;ib abikaasa v&otilde;i lahutatud abikaasa n&otilde;uda elatise suuruse muutmist v&otilde;i elatise maksmise l&otilde;petamist .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>&Uuml;lalpidamiskohustusest vabastamine</s>
+</p>
+<p>
+<s>Kohus v&otilde;ib abikaasa vabastada teise abikaasa &uuml;lalpidamiskohustustest v&otilde;i piirata seda kohustust t&auml;htajaga :</s>
+</p>
+<p>
+<s>1 ) kui elatist n&otilde;udva abikaasa k&auml;itumine abielus oli v&auml;&auml;ritu ;</s>
+</p>
+<p>
+<s>2 ) kui abielu kestis l&uuml;hikest aega v&otilde;i muul kohtu poolt m&otilde;juvaks tunnistatud p&otilde;hjusel .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>&Uuml;lalpidamiskohustuse l&otilde;ppemine</s>
+</p>
+<p>
+<s>Abikaasa &uuml;lalpidamiskohustus l&otilde;peb , kui langevad &auml;ra k&auml;esoleva seaduse paragrahvides 21 ja 22 s&auml;testatud &uuml;lalpidamiskohustuse alused , samuti kui &uuml;lalpidamist saav lahutatud abikaasa abiellub uuesti .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Abielu l&otilde;ppemine</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Abielu l&otilde;ppemise alused</s>
+</p>
+<p>
+<s>Abielu l&otilde;peb abikaasa surmaga v&otilde;i abielu lahutamisega .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Abielu lahutamine</s>
+</p>
+<p>
+<s>Abielu lahutab perekonnaseisuasutus v&otilde;i kohus .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Abielu lahutamine perekonnaseisuasutuses</s>
+</p>
+<p>
+<s>( 1 ) Perekonnaseisuasutuses lahutatakse abielu abikaasade kokkuleppel nende &uuml;hise kirjaliku avalduse alusel , mille abikaasad esitavad isiklikult perekonnaseisuasutusele .</s><s>Abielu lahutatakse mitte varem kui &uuml;he kuu ja mitte hiljem kui kolme kuu m&ouml;&ouml;dumisel avalduse esitamisest .</s>
+</p>
+<p>
+<s>( 2 ) Kui abikaasa ei saa &uuml;hise avalduse esitamiseks isiklikult perekonnaseisuasutusse ilmuda , v&otilde;ib ta esitada notariaalselt t&otilde;estatud eraldi avalduse .</s>
+</p>
+<p>
+<s>( 3 ) Perekonnaseisuasutuses lahutatakse abielu &uuml;he abikaasa avalduse alusel , kui teine abikaasa on tunnistatud teadmata kadunuks v&otilde;i teov&otilde;imetuks .</s>
+</p>
+<p>
+<s>( 4 ) Perekonnaseisuasutuses ei lahutata abielu , kui abikaasa soovib , et koos abielu lahutamisega lahendataks lapsesse puutuv v&otilde;i &uuml;hisvara jagamisse puutuv vaidlus v&otilde;i m&otilde;istetaks v&auml;lja elatis .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Abielu lahutamine kohtus</s>
+</p>
+<p>
+<s>( 1 ) Kohus lahutab abielu abikaasa n&otilde;udel , kui abikaasad vaidlevad abielu lahutamise &uuml;le v&otilde;i kui abikaasa koos abielu lahutamisega soovib lahendada k&auml;esoleva seaduse paragrahv 28 4. l&otilde;ikes nimetatud vaidluse .</s>
+</p>
+<p>
+<s>( 2 ) Abielu lahutatakse , kui kohus teeb kindlaks , et abielu j&auml;tkamine on v&otilde;imatu .</s>
+</p>
+<p>
+<s>( 3 ) Abielu lahutamisel lahendab kohus abikaasade n&otilde;udel lapsesse puutuva vaidluse , vaidluse elatise v&otilde;i &uuml;hisvara jagamise &uuml;le .</s><s>Kui kohus ei rahulda abielu lahutamise n&otilde;uet , j&auml;etakse n&otilde;ue lapsesse puutuvas , elatise ja &uuml;hisvara jagamise vaidluses l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 4 ) Kui kolmas isik on esitanud n&otilde;ude &uuml;hisvara suhtes , lahendab kohus &uuml;hisvara jagamise vaidluse abielulahutusest eraldi menetluses .</s>
+</p>
+<p>
+<s>( 5 ) Abielu lahutamise kohtuotsuse &auml;rakirja saadab kohus 10 p&auml;eva jooksul p&auml;rast kohtuotsuse j&otilde;ustumist perekonnaseisuasutusele , kus abielu on s&otilde;lmitud .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Abielu l&otilde;ppemise aeg</s>
+</p>
+<p>
+<s>Abielu l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) abikaasa surma korral - abikaasa surmast ;</s>
+</p>
+<p>
+<s>2 ) abielu lahutamisel perekonnaseisuasutuses - abielulahutusakti koostamisest ;</s>
+</p>
+<p>
+<s>3 ) abielu lahutamisel kohtus - kohtuotsuse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Perekonnanimi p&auml;rast abielulahutust</s>
+</p>
+<p>
+<s>Abiellumisel oma perekonnanime muutnud abikaasa soovile vastavalt j&auml;etakse temale abiellumisel v&otilde;etud perekonnanimi v&otilde;i antakse tagasi abielueelne perekonnanimi .</s><s>Perekonnanime muutus m&auml;rgitakse kohtuotsuses v&otilde;i abielulahutusaktis .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Abielu taastamine</s>
+</p>
+<p>
+<s>( 1 ) Surnuks tunnistatud abikaasa tagasitulekul loetakse abielu taastatuks , kui kumbki abikaasa ei ole uuesti abiellunud .</s><s>Abielu loetakse taastatuks p&auml;rast surnuks tunnistamise t&uuml;histamise kohtuotsuse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>( 2 ) Teadmata kadunuks tunnistatud abikaasa tagasitulekul v&otilde;idakse abielu , mis on lahutatud seoses abikaasa teadmata kadunuks tunnistamisega , taastada , kui kumbki lahutatud abikaasadest ei ole uuesti abiellunud .</s><s>Abielu taastab perekonnaseisuasutus abikaasade avalduse ja teadmata kadunuks tunnistamise t&uuml;histamise kohtuotsuse alusel .</s><s>Abielu loetakse taastatuks abielulahutusm&auml;rke t&uuml;histamisest abieluaktis .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Abielu kehtetus</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Kehtetuks tunnistamise alus</s>
+</p>
+<p>
+<s>( 1 ) Kohus tunnistab abielu kehtetuks &uuml;ksnes siis , kui abielu s&otilde;lmides on rikutud k&auml;esoleva seaduse paragrahvide 3 ja 4 s&auml;tteid , samuti kui s&otilde;lmiti n&auml;ilik abielu v&otilde;i kui abielu s&otilde;lmimise n&otilde;usolek saadi abielluja tahte vastaselt pettuse v&otilde;i sunniga .</s>
+</p>
+<p>
+<s>( 2 ) Abielu kehtetuks tunnistamise kohtuotsuse &auml;rakirja saadab kohus 10 p&auml;eva jooksul kohtuotsuse j&otilde;ustumisest perekonnaseisuasutusele , kus abielu on s&otilde;lmitud .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Abielu kehtetuks tunnistamise n&otilde;ude&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Abielu kehtetuks tunnistamist v&otilde;ib n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) alaealine abikaasa , tema vanem v&otilde;i eestkostja , kui abielu on s&otilde;lmitud k&auml;esoleva seaduse paragrahv 3 s&auml;tete rikkumisega ;</s>
+</p>
+<p>
+<s>2 ) abikaasa , kui s&otilde;lmiti n&auml;ilik abielu v&otilde;i kui abielu s&otilde;lmiti k&auml;esoleva seaduse paragrahv 4 s&auml;tete rikkumisega ;</s>
+</p>
+<p>
+<s>3 ) abikaasa , kelle abielu s&otilde;lmimise n&otilde;usolek saadi tema tahte vastaselt pettuse v&otilde;i sunniga ;</s>
+</p>
+<p>
+<s>4 ) muu isik , kelle &otilde;igusi on rikutud k&auml;esoleva seaduse paragrahv 4 s&auml;tete rikkumisega .</s>
+</p>
+<p>
+<s>( 2 ) Pettuse v&otilde;i sunni m&otilde;jul s&otilde;lmitud abielu kehtetuks tunnistamise n&otilde;ude aegumist&auml;htaeg on &uuml;ks aasta abielu s&otilde;lmimisest .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Abielu kehtetuks tunnistamise v&auml;listamine</s>
+</p>
+<p>
+<s>Kohus v&otilde;ib abielu j&auml;tta kehtetuks tunnistamata , kui on &auml;ra langenud asjaolud , mis vastavalt k&auml;esoleva seaduse paragrahv 33 1. l&otilde;ikele on abielu kehtetuks tunnistamise aluseks .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Abielu kehtetuks tunnistamise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Abielu tunnistatakse kehtetuks algusest peale .</s>
+</p>
+<p>
+<s>( 2 ) Isikutel , kelle abielu on kehtetuks tunnistatud , ei ole abielust tulenevaid &otilde;igusi ja kohustusi teineteise suhtes .</s>
+</p>
+<p>
+<s>( 3 ) Kui abielu on tunnistatud kehtetuks , kohaldatakse kehtetu abielu kestel abikaasade poolt &uuml;hiselt omandatud vara suhtes kaasomandi s&auml;tteid .</s><s>Kaasomanike osad m&auml;&auml;rab vaidluse korral kohus .</s>
+</p>
+<p>
+<s>( 4 ) Kui abielu on tunnistatud kehtetuks seet&otilde;ttu , et &uuml;ks abielluja varjas teise abielluja eest , et ta on juba abielus , v&otilde;i m&otilde;jutas teist abikaasat abielluma pettuse v&otilde;i sunniga , v&otilde;ib kohus temalt v&auml;lja m&otilde;ista k&auml;esoleva seaduse paragrahvides 21 ja 22 s&auml;testatud alustel elatise temaga kehtetus abielus olnud isikule ning selle isiku n&otilde;udel jagada kehtetu abielu kestel omandatud vara k&auml;esoleva seaduse 3. peat&uuml;ki 3. jao s&auml;tete alusel .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Kehtetust abielust s&uuml;ndinud lapsed</s>
+</p>
+<p>
+<s>Kehtetuks tunnistatud abielust s&uuml;ndinud lastel on samad &otilde;igused ja kohustused kui abielust s&uuml;ndinud lastel .</s>
+</p>
+<p>
+<s>II osa</s>
+</p>
+<p>
+<s>Perekond</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Laste p&otilde;lvnemine</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>P&otilde;lvnemise &otilde;iguslik t&auml;hendus</s>
+</p>
+<p>
+<s>( 1 ) Vanemate ja laste vastastikused &otilde;igused ja kohustused tulenevad laste p&otilde;lvnemisest , mis on t&otilde;estatud seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Laps p&otilde;lvneb emast , kes on tema s&uuml;nnitanud .</s>
+</p>
+<p>
+<s>( 3 ) Laps p&otilde;lvneb isast , kes on tema eostanud .</s>
+</p>
+<p>
+<s>( 4 ) Selle seaduse t&auml;henduses loetakse lapseks alaealist isikut .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>P&otilde;lvnemine mehest , kes on lapse emaga abielus</s>
+</p>
+<p>
+<s>( 1 ) Laps , kes on s&uuml;ndinud v&otilde;i eostatud vanemate abielu kestel , loetakse p&otilde;lvnevaks mehest , kes on lapse emaga abielus .</s>
+</p>
+<p>
+<s>( 2 ) Lapse s&uuml;nniakti kantakse emana isik , kes on lapse s&uuml;nnitanud , ja isana isik , kes on lapse emaga abielus , &uuml;ksk&otilde;ik kumma avalduse alusel .</s>
+</p>
+<p>
+<s>( 3 ) Kui abielu kestel s&uuml;ndinud v&otilde;i eostatud laps ei p&otilde;lvne lapse emaga abielus olevast mehest , ei kanta abikaasade &uuml;hisel avaldusel lapse emaga abielus olevat meest isana lapse s&uuml;nniakti .</s>
+</p>
+<p>
+<s>( 4 ) Laps , kes s&uuml;ndis p&auml;rast lapse emaga abielus olnud mehe surma , loetakse eostatuks abielu kestel , kui mehe surma p&auml;evast lapse s&uuml;ndimiseni ei ole m&ouml;&ouml;dunud &uuml;le 10 kuu .</s>
+</p>
+<p>
+<s>( 5 ) Laps , kes s&uuml;ndis p&auml;rast abielu lahutamist v&otilde;i kehtetuks tunnistamist , loetakse eostatuks abielu kestel , kui abielu lahutamise v&otilde;i kehtetuks tunnistamise p&auml;evast lapse s&uuml;ndimiseni ei ole m&ouml;&ouml;dunud &uuml;le 10 kuu .</s>
+</p>
+<p>
+<s>( 6 ) Kui mees on andnud kirjaliku n&otilde;usoleku abikaasa kunstlikuks viljastamiseks , loetakse laps temast p&otilde;lvnevaks .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Kunstliku viljastamise saladus</s>
+</p>
+<p>
+<s>( 1 ) Kunstliku viljastamise doonoril ei ole &otilde;igust n&otilde;uda ema ega lapse isiku kindlakstegemist ega enda tunnistamist isaks .</s>
+</p>
+<p>
+<s>( 2 ) Kohus ei tuvasta lapse p&otilde;lvnemist kunstliku viljastamise doonorist .</s>
+</p>
+<p>
+<s>( 3 ) Kunstliku viljastamise korraldanud isikud on kohustatud hoidma kunstliku viljastamise saladust .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>P&otilde;lvnemise kindlakstegemine isast , kes ei ole lapse emaga abielus</s>
+</p>
+<p>
+<s>( 1 ) Lapse p&otilde;lvnemine isast , kes ei ole lapse emaga abielus , tehakse kindlaks lapse isa ja ema &uuml;hise kirjaliku avalduse alusel , mille nad isiklikult esitavad perekonnaseisuasutusele .</s>
+</p>
+<p>
+<s>( 2 ) Kui on alust arvata , et k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud &uuml;hise avalduse esitamine v&otilde;ib osutuda p&auml;rast lapse s&uuml;ndi v&otilde;imatuks v&otilde;i raskeks , v&otilde;ib avalduse esitada naise raseduse ajal.</s>
+</p>
+<p>
+<s>( 3 ) Kui vanemad ei saa isiklikult &uuml;hist avaldust perekonnaseisuasutusele esitada , v&otilde;ib kumbki esitada notariaalselt t&otilde;estatud avalduse .</s>
+</p>
+<p>
+<s>( 4 ) Isa avalduse alusel tehakse lapse p&otilde;lvnemine isast kindlaks , kui :</s>
+</p>
+<p>
+<s>1 ) lapse ema on surnud ;</s>
+</p>
+<p>
+<s>2 ) kui lapse ema on tunnistatud teadmata kadunuks v&otilde;i teov&otilde;imetuks ;</s>
+</p>
+<p>
+<s>3 ) lapse ema asukohta ei ole v&otilde;imalik kindlaks teha ;</s>
+</p>
+<p>
+<s>4 ) lapse emalt on vanema &otilde;igused &auml;ra v&otilde;etud .</s>
+</p>
+<p>
+<s>( 5 ) Vanemate &uuml;hise v&otilde;i isa avalduse alusel teeb perekonnaseisuasutus s&uuml;nniakti kande lapse isa kohta .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>P&otilde;lvnemise tuvastamine isast , kes ei ole lapse emaga abielus</s>
+</p>
+<p>
+<s>( 1 ) Kui lapse vanemad ei ole omavahel abielus ja lapse p&otilde;lvnemist ei ole v&otilde;imalik kindlaks teha , v&otilde;ib p&otilde;lvnemist isast tuvastada kohtus ema , lapse eestkostja , eestkosteasutuse v&otilde;i isiku n&otilde;udel , kes end lapse isaks peab .</s><s>Kui lapse p&otilde;lvnemine ei ole tuvastatud enne tema t&auml;isealiseks saamist , v&otilde;ib lapse p&otilde;lvnemist isast tuvastada &uuml;ksnes t&auml;isealiseks saanud lapse n&otilde;udel .</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;lvnemise isast tuvastab kohus asjaolude alusel , mis v&otilde;imaldavad meest lapse isaks pidada .</s>
+</p>
+<p>
+<s>( 3 ) P&otilde;lvnemise tuvastamise kohtuotsuse &auml;rakirja saadab kohus 10 p&auml;eva jooksul kohtuotsuse j&otilde;ustumisest perekonnaasutusele , kus asub lapse s&uuml;nniakt .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>V&auml;ljaspool abielu s&uuml;ndinud lapse isa nime kanne</s>
+</p>
+<p>
+<s>( 1 ) Kui emal , kes ei ole abielus , s&uuml;nnib laps ja lapse p&otilde;lvnemine isast ei ole kindlaks tehtud v&otilde;i tuvastatud k&auml;esoleva seaduse paragrahvides 41 ja 42 s&auml;testatud korras , siis lapse s&uuml;nniakti kannet isa kohta ei tehta .</s><s>Ema n&otilde;udel kantakse s&uuml;nniakti isa perekonnanimena ema perekonnanimi , isa eesnimena aga nimi ema &uuml;tluse kohaselt .</s>
+</p>
+<p>
+<s>( 2 ) Kui abielu kestel s&uuml;ndinud v&otilde;i eostatud laps ei p&otilde;lvne lapse emaga abielus olevast mehest ja lapse p&otilde;lvnemine isast ei ole kindlaks tehtud v&otilde;i tuvastatud k&auml;esoleva seaduse paragrahvides 41 ja 42 s&auml;testatud korras , siis lapse s&uuml;nniakti kannet isa kohta ei tehta .</s><s>Ema n&otilde;udel kantakse s&uuml;nniakti isa perekonnanimena ema perekonnanimi , isa eesnimena aga nimi ema &uuml;tluse kohaselt .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes nimetatud alustel tehtud isa nime kanne ei t&otilde;enda lapse p&otilde;lvnemist isast .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Vanema kande vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Kohus v&otilde;ib tunnistada lapse s&uuml;nniaktis vanema kohta tehtud kande eba&otilde;igeks , kui tuvastab , et laps ei p&otilde;lvne sellest vanemast .</s>
+</p>
+<p>
+<s>( 2 ) Vanemate kohta tehtud kannet v&otilde;ib kohtus vaidlustada :</s>
+</p>
+<p>
+<s>1 ) isik , kes on lapse s&uuml;nniakti kantud lapse isa v&otilde;i emana ;</s>
+</p>
+<p>
+<s>2 ) isik , kes n&otilde;uab enda vanemaks tunnistamist , juhul kui s&uuml;nniakti on vanemana kantud teine isik ;</s>
+</p>
+<p>
+<s>3 ) lapse eestkostja v&otilde;i t&auml;isealiseks saanud laps .</s>
+</p>
+<p>
+<s>( 3 ) Kande eba&otilde;igeks tunnistamise n&otilde;ude aegumist&auml;htaeg on &uuml;ks aasta p&auml;evast , mil isik sai teada v&otilde;i pidi teada saama kande eba&otilde;igsusest .</s><s>Kui alaealine sai teada , et ta on eba&otilde;igesti s&uuml;nniakti lapse ema v&otilde;i isana kantud , algab aegumist&auml;htaeg tema t&auml;isealiseks saamisest .</s>
+</p>
+<p>
+<s>( 4 ) Kohus v&otilde;ib tuvastada lapse p&otilde;lvnemise emast , kui s&uuml;nniaktis kanne ema kohta puudub v&otilde;i kui kohus tunnistab ema kohta tehtud kande eba&otilde;igeks .</s><s>Emast p&otilde;lvnemise tuvastamise n&otilde;udele kohaldatakse k&auml;esoleva paragrahvi 3. l&otilde;ikes nimetatud aegumist&auml;htaega .</s>
+</p>
+<p>
+<s>( 5 ) Isik , kes on s&uuml;nniakti lapse isana kantud tema enda v&otilde;i tema ja lapse ema &uuml;hise avalduse alusel , ei v&otilde;i kannet vaidlustada , kui ta avalduse esitamise ajal teadis , et ta ei ole lapse isa .</s>
+</p>
+<p>
+<s>( 6 ) Kumbki abikaasa , kes on andnud kirjaliku n&otilde;usoleku kunstlikuks viljastamiseks , ei v&otilde;i vaidlustada s&uuml;nniaktis isa kohta tehtud kannet .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>V&auml;ljaspool abielu s&uuml;ndinud lapse &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>Lapsel , kes p&otilde;lvneb vanematest , kes ei ole omavahel abielus , on samad &otilde;igused ja kohustused oma vanemate ja nende sugulaste suhtes kui lapsel , kes p&otilde;lvneb omavahel abielus olevatest vanematest .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Lapse eesnimi</s>
+</p>
+<p>
+<s>( 1 ) Lapsele pannakse eesnimi vanemate kokkuleppel .</s><s>Surnult s&uuml;ndinud lapsele eesnime panemine ei ole kohustuslik .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>( 2 ) Vanemate kokkuleppe puudumisel otsustab eestkosteasutus , kumma vanema pakutud eesnimi lapsele pannakse .</s>
+</p>
+<p>
+<s>( 3 ) Lapsele ei v&otilde;i panna eesnime , mis ei ole koosk&otilde;las heade kommete ja tavadega .</s>
+</p>
+<p>
+<s>( 4 ) Lapsel v&otilde;ib olla mitte enam kui kolm eesnime v&otilde;i &uuml;ks kahekordne eesnimi .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Lapse perekonnanimi</s>
+</p>
+<p>
+<s>( 1 ) Lapsele antakse vanemate perekonnanimi .</s><s>Kui vanematel on erinevad perekonnanimed , antakse lapsele vanemate kokkuleppel isa v&otilde;i ema perekonnanimi .</s><s>Kokkuleppe puudumisel otsustab eestkosteasutus , kumma perekonnanimi lapsele anda .</s>
+</p>
+<p>
+<s>( 2 ) Lapsele antakse ema perekonnanimi , kui lapse ema ei ole abielus v&otilde;i kui abielu kestel s&uuml;ndinud v&otilde;i eostatud laps ei p&otilde;lvne lapse emaga abielus olevast mehest ja lapse p&otilde;lvnemine isast ei ole kindlaks tehtud ega tuvastatud .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Lapse perekonnanime muutmine</s>
+</p>
+<p>
+<s>( 1 ) Vanemate abielu l&otilde;ppemisel v&otilde;i selle kehtetuks tunnistamisel lapse perekonnanime ei muudeta .</s>
+</p>
+<p>
+<s>( 2 ) Kui vanem , kelle juurde j&auml;&auml;b laps , soovib p&auml;rast abielu lahutamist v&otilde;i abielu kehtetuks tunnistamist v&otilde;i isast p&otilde;lvnemise kindlakstegemist v&otilde;i tuvastamist v&otilde;i teise vanema surma anda lapsele oma perekonnanime , otsustab lapse perekonnanime muutmise eestkosteasutus lapse huvidest l&auml;htudes .</s>
+</p>
+<p>
+<s>( 3 ) Kui lapse ema , kes ei ole lapse isaga abielus ja isast p&otilde;lvnemine ei ole kindlaks tehtud ega tuvastatud , muudab oma perekonnanime ja soovib anda selle nime lapsele , otsustab lapse perekonnanime muutmise eestkosteasutus lapse huvidest l&auml;htudes .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;hemalt 10-aastase lapse perekonnanime v&otilde;ib muuta ainult lapse n&otilde;usolekul .</s><s>Arvestada tuleb ka noorema kui 10-aastase lapse soovi , kui lapse arengutase seda v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 )</s>
+</p>
+<p>
+<s>( 5 ) Nimemuutmise otsuse &auml;rakirja saadab eestkosteasutus 10 p&auml;eva jooksul perekonnaseisuasutusele , kus asub lapse s&uuml;nniakt .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vanemate &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Vanemate &otilde;iguste ja kohustuste v&otilde;rdsus</s>
+</p>
+<p>
+<s>Vanematel on oma laste suhtes v&otilde;rdsed &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Vanema &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Vanemal on &otilde;igus ja kohustus last kasvatada ja tema eest hoolitseda .</s>
+</p>
+<p>
+<s>( 2 ) Vanem on kohustatud oma lapse &otilde;igusi ja huve kaitsma .</s><s>Vanem on lapse seaduslik esindaja .</s><s>Seadusliku esindajana on vanemal eestkostja volitus .</s>
+</p>
+<p>
+<s>( 3 ) Vanemal on &otilde;igus tagasi n&otilde;uda oma last igalt isikult , kelle juures laps on seadusliku aluseta .</s><s>Vanemal ei ole &otilde;igust last tagasi saada , kui lapse &uuml;leandmine on ilmselt vastuolus lapse huvidega .</s>
+</p>
+<p>
+<s>( 4 ) Vanem ei v&otilde;i vanema &otilde;igusi teostada vastuolus lapse huvidega .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Lapse elukoht vanemate lahuselu korral</s>
+</p>
+<p>
+<s>Kui vanemad elavad lahus , lepivad nad kokku , kumma vanema juures laps elab .</s><s>Kokkuleppe puudumisel lahendab vaidluse vanema n&otilde;udel kohus .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Suhtlemine lapsega</s>
+</p>
+<p>
+<s>( 1 ) Lapsest lahus elaval vanemal on &otilde;igus lapsega suhelda .</s><s>Vanem , kelle juures laps on , ei v&otilde;i takistada teist vanemat lapsega suhtlemast .</s>
+</p>
+<p>
+<s>( 2 ) Kui vanemad ei ole kokku leppinud , mil viisil lahus elav vanem v&otilde;tab osa lapse kasvatamisest ja temaga suhtlemisest , lahendab vaidluse eestkosteasutus v&otilde;i vanema n&otilde;udel kohus .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Lapse &auml;rav&otilde;tmine vanemalt</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;he vanema , eestkostja v&otilde;i eestkosteasutuse n&otilde;udel v&otilde;ib kohus otsustada v&otilde;tta lapse &uuml;helt v&otilde;i m&otilde;lemalt vanemalt &auml;ra vanema &otilde;iguste &auml;rav&otilde;tmiseta , kui last on ohtlik j&auml;tta vanemate juurde .</s>
+</p>
+<p>
+<s>( 2 ) Kui lapse j&auml;tmine vanema juurde ohustab lapse tervist v&otilde;i elu , v&otilde;ib eestkosteasutus lapse vanemalt &auml;ra v&otilde;tta enne kohtuotsust .</s><s>Sellisel juhul peab eestkosteasutus 10 p&auml;eva jooksul esitama kohtusse lapse &auml;rav&otilde;tmise v&otilde;i vanema &otilde;iguste &auml;rav&otilde;tmise n&otilde;ude .</s>
+</p>
+<p>
+<s>( 3 ) Kui lapse &auml;rav&otilde;tmisel vanemalt j&auml;&auml;b laps ilma vanemlikust hoolitsusest , korraldab lapse elu eestkosteasutus .</s>
+</p>
+<p>
+<s>( 4 ) Lapse &auml;rav&otilde;tmise p&otilde;hjuste &auml;ralangemisel v&otilde;ib kohus vanema n&otilde;udel otsustada laps tagasi anda .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Vanema &otilde;iguste &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;he vanema , eestkostja v&otilde;i eestkosteasutuse n&otilde;udel v&otilde;ib kohus vanema &otilde;igused &auml;ra v&otilde;tta , kui vanem :</s>
+</p>
+<p>
+<s>1 ) alkohoolsete jookide , narkootiliste v&otilde;i muude uimastava toimega ainete kuritarvitamise t&otilde;ttu v&otilde;i muul p&otilde;hjusel , mida kohus ei loe m&otilde;juvaks , ei t&auml;ida oma kohustusi lapse kasvatamisel ja tema eest hoolitsemisel v&otilde;i</s>
+</p>
+<p>
+<s>2 ) kuritarvitab vanema &otilde;igusi v&otilde;i</s>
+</p>
+<p>
+<s>3 ) kohtleb last julmalt v&otilde;i</s>
+</p>
+<p>
+<s>4 ) avaldab muul viisil lapsele kahjulikku m&otilde;ju v&otilde;i</s>
+</p>
+<p>
+<s>5 ) ei ole kasvatusasutuses viibiva lapse kasvatamises m&otilde;juvate p&otilde;hjusteta osalenud aasta jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Vanema &otilde;iguste &auml;rav&otilde;tmise n&otilde;ude l&auml;bivaatamisel kaasab kohus protsessi eestkosteasutuse arvamuse andmiseks .</s>
+</p>
+<p>
+<s>( 3 ) Vanema &otilde;iguste &auml;rav&otilde;tmisel teeb kohus otsuse sellelt vanemalt lapse &auml;rav&otilde;tmise kohta .</s>
+</p>
+<p>
+<s>( 4 ) Kui vanemalt vanema &otilde;iguste &auml;rav&otilde;tmisel j&auml;&auml;b laps ilma vanemlikust hoolitsusest , korraldab lapse elu eestkosteasutus .</s>
+</p>
+<p>
+<s>( 5 ) Vanema &otilde;iguste &auml;rav&otilde;tmise kohtuotsuse &auml;rakirja saadab kohus 10 p&auml;eva jooksul kohtuotsuse j&otilde;ustumisest perekonnaseisuasutusele , kus lapse s&uuml;nniakt asub , ja kasvatusasutusele , kus laps asub .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Vanema &otilde;iguste &auml;rav&otilde;tmise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Isik , kellelt on &auml;ra v&otilde;etud vanema &otilde;igused , kaotab lapse suhtes k&otilde;ik &otilde;igused .</s>
+</p>
+<p>
+<s>( 2 ) Eestkosteasutus v&otilde;ib lubada isikule , kellelt on &auml;ra v&otilde;etud vanema &otilde;igused , kokkusaamist lapsega , kui see ei avalda lapsele kahjulikku m&otilde;ju .</s>
+</p>
+<p>
+<s>( 3 ) Vanema &otilde;iguste &auml;rav&otilde;tmine ei vabasta vanemat lapse &uuml;lalpidamiskohustusest .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Vanema &otilde;iguste taastamine</s>
+</p>
+<p>
+<s>( 1 ) Isiku n&otilde;udel , kellelt vanema &otilde;igused on &auml;ra v&otilde;etud , v&otilde;ib kohus vanema &otilde;igused lapse suhtes taastada , kui see isik on oma eluviisi parandanud ning soovib ja suudab vanema &otilde;igusi n&otilde;uetekohaselt t&auml;ita .</s>
+</p>
+<p>
+<s>( 2 ) Vanema &otilde;iguste taastamise asja l&auml;bivaatamisel kaasab kohus protsessi eestkosteasutuse arvamuse andmiseks .</s>
+</p>
+<p>
+<s>( 3 ) Vanema &otilde;igusi ei taastata , kui laps on lapsendatud .</s>
+</p>
+<p>
+<s>( 4 ) Vanema &otilde;iguste taastamise kohtuotsuse &auml;rakirja saadab kohus 10 p&auml;eva jooksul kohtuotsuse j&otilde;ustumisest perekonnaseisuasutusele , kus lapse s&uuml;nniakt asub , ja kasvatusasutusele , kus laps asub .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Lapse &auml;rav&otilde;tmine v&otilde;&otilde;rasvanemalt v&otilde;i kasuvanemalt</s>
+</p>
+<p>
+<s>Kohus v&otilde;ib k&auml;esoleva seaduse paragrahvides 53 ja 54 s&auml;testatud alustel ja korras v&otilde;&otilde;rasvanemalt ( paragrahv 68 lg. 2 ) v&otilde;i kasuvanemalt ( paragrahv 68 lg. 3 ) lapse &auml;ra v&otilde;tta .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Lapse huvide tagamine</s>
+</p>
+<p>
+<s>Lapsesse puutuva vaidluse l&auml;bivaatamisel l&auml;htub eestkosteasutus v&otilde;i kohus lapse huvidest , arvestades v&auml;hemalt 10-aastase lapse soovi .</s><s>Arvestada tuleb ka noorema kui 10-aastase lapse soovi , kui lapse arengutase seda v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 )</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Eestkosteasutuse arvamus</s>
+</p>
+<p>
+<s>Lapsesse puutuva vaidluse l&auml;bivaatamisel kaasab kohus vajadusel protsessi eestkosteasutuse arvamuse andmiseks .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lalpidamiskohustused perekonnas</s>
+</p>
+<p>
+<s>1. jagu .</s>
+</p>
+<p>
+<s>Vanemate ja laste &uuml;lalpidamiskohustused</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Vanema kohustus last &uuml;lal pidada</s>
+</p>
+<p>
+<s>( 1 ) Vanem on kohustatud &uuml;lal pidama oma alaealist last ja abi vajavat t&ouml;&ouml;v&otilde;imetut t&auml;isealiseks saanud last .</s>
+</p>
+<p>
+<s>( 2 ) Kui laps &otilde;pib p&otilde;hikoolis , g&uuml;mnaasiumis v&otilde;i kutse&otilde;ppeasutuses ja j&auml;tkab neis &otilde;ppimist t&auml;isealiseks saamisel , on vanem kohustatud teda &otilde;ppimise ajal &uuml;lal pidama .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Elatis lapsele</s>
+</p>
+<p>
+<s>( 1 ) Kui vanem ei t&auml;ida lapse &uuml;lalpidamiskohustust , m&otilde;istab kohus teise vanema , eestkostja v&otilde;i eestkosteasutuse n&otilde;udel temalt v&auml;lja elatise lapsele n&otilde;ude esitanud vanema v&otilde;i eestkostja v&otilde;i isiku kasuks , kelle huvides on eestkosteasutus n&otilde;ude esitanud .</s>
+</p>
+<p>
+<s>( 2 ) Elatis lapsele m&auml;&auml;ratakse kindlaks igakuise elatusrahana , l&auml;htudes kummagi vanema varalisest seisundist ja lapse vajadusest .</s>
+</p>
+<p>
+<s>( 3 ) Vanema varalise seisundi v&otilde;i lapse vajaduse muutumisel v&otilde;ib kohus huvitatud isiku n&otilde;udel elatise suurust muuta .</s>
+</p>
+<p>
+<s>( 4 ) Igakuine elatusraha &uuml;hele lapsele ei v&otilde;i olla v&auml;iksem kui veerand Vabariigi Valitsuse kehtestatud kuupalga alamm&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 5 ) Kohus v&otilde;ib elatise suurust v&auml;hendada alla k&auml;esoleva paragrahvi 4. l&otilde;ikes nimetatud suuruse , kui vanemal on teine laps , kes elatise v&auml;ljam&otilde;istmisel selles suuruses osutuks varaliselt v&auml;hem kindlustatuks kui elatist saav laps .</s>
+</p>
+<p>
+<s>( 6 ) Kohus v&otilde;ib j&auml;tta elatise v&auml;lja m&otilde;istmata v&otilde;i selle suurust v&auml;hendada alla k&auml;esoleva paragrahvi 4. l&otilde;ikes nimetatud suuruse v&otilde;i elatise maksmise l&otilde;petada , kui :</s>
+</p>
+<p>
+<s>1 ) vanem , kellelt elatist n&otilde;utakse , on t&ouml;&ouml;v&otilde;imetu v&otilde;i</s>
+</p>
+<p>
+<s>2 ) lapsel on piisav sissetulek v&otilde;i</s>
+</p>
+<p>
+<s>3 ) ilmnevad muud kohtu poolt m&otilde;juvaks tunnistatud p&otilde;hjused .</s>
+</p>
+<p>
+<s>( 7 ) Kui k&auml;esoleva paragrahvi 5. ja 6. l&otilde;ikes nimetatud asjaolud langevad &auml;ra , v&otilde;ib kohus &otilde;igustatud isiku n&otilde;udel elatise v&auml;lja m&otilde;ista v&otilde;i elatist suurendada .</s>
+</p>
+<p>
+<s>( 8 ) Kaalukatel p&otilde;hjustel v&otilde;ib kohus mehe , kellest lapse p&otilde;lvnemise on kohus tuvastanud ( paragrahv 42 ) , vabastada kohustusest last &uuml;lal pidada .</s>
+</p>
+<p>
+<s>( 9 ) Kui kummagi vanema juurde j&auml;&auml;b nende laps , m&otilde;istab kohus elatise lapsele vanemalt , kellel on parem varaline seisund .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Elatis kasvatusasutuses viibivale lapsele</s>
+</p>
+<p>
+<s>Kui vanem ei t&auml;ida kasvatusasutuses viibiva lapse &uuml;lalpidamiskohustust , m&otilde;istab kohus kasvatus- v&otilde;i eestkosteasutuse n&otilde;udel vanemalt v&auml;lja elatise lapsele kasvatusasutuse kasuks , kus laps viibib .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Elatis t&auml;isealiseks saanud lapsele</s>
+</p>
+<p>
+<s>( 1 ) Elatise k&auml;esoleva seaduse paragrahvis 60 nimetatud t&auml;isealisele isikule m&otilde;istab kohus vanemalt v&auml;lja selle isiku n&otilde;udel , l&auml;htudes k&auml;esoleva seaduse paragrahvis 61 s&auml;testatust .</s>
+</p>
+<p>
+<s>( 2 ) Kui p&auml;rast vanemalt t&auml;isealisele isikule elatise v&auml;ljam&otilde;istmist muutus selle isiku v&otilde;i vanema varaline seisund , v&otilde;ib kohus neist &uuml;ksk&otilde;ik kumma n&otilde;udel elatise suurust muuta v&otilde;i elatise maksmise l&otilde;petada k&auml;esoleva seaduse paragrahvis 61 s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>T&auml;isealiseks saanud lapse kohustus vanemat &uuml;lal pidada</s>
+</p>
+<p>
+<s>( 1 ) T&auml;isealiseks saanud laps on kohustatud &uuml;lal pidama oma abi vajavat t&ouml;&ouml;v&otilde;imetut vanemat .</s>
+</p>
+<p>
+<s>( 2 ) Kui t&auml;isealiseks saanud laps ei t&auml;ida k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud kohustust , m&otilde;istab kohus vanema n&otilde;udel temalt v&auml;lja vanemale elatise igakuise elatusrahana , l&auml;htudes t&auml;isealiseks saanud lapse ja vanema varalisest seisundist ja vanema vajadusest .</s>
+</p>
+<p>
+<s>( 3 ) Elatise v&auml;ljam&otilde;istmisel arvestab kohus vanema k&otilde;iki lapsi , kes on saanud t&auml;isealiseks , s&otilde;ltumata sellest , kas vanem esitas elatise n&otilde;ude neist mitme v&otilde;i k&otilde;igi vastu .</s>
+</p>
+<p>
+<s>( 4 ) Kohus v&otilde;ib j&auml;tta elatise k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud isikult v&auml;lja m&otilde;istmata , kui vanem hoidis vanema kohustuste t&auml;itmisest k&otilde;rvale .</s>
+</p>
+<p>
+<s>( 5 ) T&auml;isealiseks saanud laps vabaneb vanema &uuml;lalpidamiskohustusest , kui vanemalt on vanema &otilde;igused &auml;ra v&otilde;etud .</s>
+</p>
+<p>
+<s>( 6 ) Kui p&auml;rast t&auml;isealiseks saanud lapselt abivajavale t&ouml;&ouml;v&otilde;imetule vanemale elatise v&auml;ljam&otilde;istmist muutus t&auml;isealiseks saanud lapse v&otilde;i vanema varaline seisund , v&otilde;ib kohus neist &uuml;ksk&otilde;ik kumma n&otilde;udel muuta elatise suurust v&otilde;i elatise maksmise l&otilde;petada .</s><s>Elatise maksmise v&otilde;ib l&otilde;petada ka k&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud aluse &auml;ralangemisel .</s>
+</p>
+<p>
+<s>2. jagu .</s>
+</p>
+<p>
+<s>Teiste perekonnaliikmete &uuml;lalpidamiskohustused</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Vanavanema kohustus &uuml;lal pidada lapselast</s>
+</p>
+<p>
+<s>Vanavanemad , kellel varaline seisund seda v&otilde;imaldab , on kohustatud &uuml;lal pidama oma alaealist lapselast , samuti abi vajavat t&ouml;&ouml;v&otilde;imetut t&auml;isealist lapselast , kui lapselapsel ei ole vanemaid , abikaasat v&otilde;i t&auml;isealiseks saanud last v&otilde;i kui nendelt ei ole v&otilde;imalik &uuml;lalpidamist saada .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Lapselapse kohustus &uuml;lal pidada vanavanemat</s>
+</p>
+<p>
+<s>T&auml;isealine lapselaps , kelle varaline seisund seda v&otilde;imaldab , on kohustatud &uuml;lal pidama oma abi vajavat t&ouml;&ouml;v&otilde;imetut vanavanemat , kui tal ei ole abikaasat v&otilde;i t&auml;isealiseks saanud last v&otilde;i kui nendelt ei ole v&otilde;imalik &uuml;lalpidamist saada .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Venna ja &otilde;e &uuml;lalpidamiskohustus</s>
+</p>
+<p>
+<s>T&auml;isealine vend ja &otilde;de , kelle varaline seisund seda v&otilde;imaldab , on kohustatud &uuml;lal pidama oma alaealist venda ja &otilde;de , kui neil ei ole vanemaid , vanavanemaid v&otilde;i kui nendelt ei ole v&otilde;imalik &uuml;lalpidamist saada .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>V&otilde;&otilde;rasvanema ja kasuvanema &uuml;lalpidamine</s>
+</p>
+<p>
+<s>( 1 ) T&auml;isealine v&otilde;&otilde;ras- v&otilde;i kasulaps on kohustatud &uuml;lal pidama abi vajavat t&ouml;&ouml;v&otilde;imetut v&otilde;&otilde;rasvanemat v&otilde;i kasuvanemat , kes on teda v&auml;hemalt 10 aastat kasvatanud ja &uuml;lal pidanud , kui v&otilde;&otilde;rasvanemal v&otilde;i kasuvanemal ei ole t&auml;isealist t&ouml;&ouml;v&otilde;imelist last ega abikaasat v&otilde;i kui neilt ei ole v&otilde;imalik &uuml;lalpidamist saada .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;&otilde;rasvanem on lapse vanemaga abielus olev isik , kes ei ole selle lapse vanem .</s>
+</p>
+<p>
+<s>( 3 ) Kasuvanem on isik , kes last tegelikult kasvatab , kuid ei ole selle lapse vanem ega v&otilde;&otilde;rasvanem .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Elatis teistele perekonnaliikmetele</s>
+</p>
+<p>
+<s>( 1 ) Kui k&auml;esoleva seaduse paragrahvides 65-68 nimetatud isik ei t&auml;ida teise perekonnaliikme &uuml;lalpidamiskohustust , m&otilde;istab kohus perekonnaliikme n&otilde;udel temalt v&auml;lja elatise igakuise elatusrahana , l&auml;htudes kummagi varalisest seisundist ja abi vajadusest .</s>
+</p>
+<p>
+<s>( 2 ) Kui p&auml;rast elatise v&auml;ljam&otilde;istmist muutus elatise maksja v&otilde;i saaja varaline seisund v&otilde;i abi vajadus , v&otilde;ib kohus neist &uuml;ksk&otilde;ik kumma n&otilde;udel elatise suurust muuta v&otilde;i elatise maksmise l&otilde;petada .</s>
+</p>
+<p>
+<s>3. jagu .</s>
+</p>
+<p>
+<s>Elatise v&auml;ljam&otilde;istmine</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Elatise v&auml;ljam&otilde;istmise kord</s>
+</p>
+<p>
+<s>Kui isik ei t&auml;ida &uuml;lalpidamiskohustust , m&otilde;istab kohus elatise v&auml;lja alates elatisehagi esitamisest .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>V&otilde;lgnevuse tasumisest vabastamine</s>
+</p>
+<p>
+<s>Kohus v&otilde;ib elatist maksva isiku n&otilde;udel vabastada ta t&auml;ielikult v&otilde;i osaliselt kohtu poolt v&auml;ljam&otilde;istetud elatise v&otilde;lgnevuse tasumisest , kui v&otilde;lgnevus tekkis selle isiku haiguse t&otilde;ttu v&otilde;i muudel kohtu poolt m&otilde;juvaks tunnistatud asjaoludel ja tema varaline seisund ei v&otilde;imalda tekkinud v&otilde;lgnevust tasuda .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Tasaarvestuse ja tagasin&otilde;udmise lubamatus</s>
+</p>
+<p>
+<s>( 1 ) Elatis ei kuulu tasaarvestamisele v&otilde;lgniku vastuhagi katteks .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ljamakstud elatist ei v&otilde;i tagasi n&otilde;uda , v&auml;lja arvatud juhul , kui t&uuml;histatud kohtulahend p&otilde;hines hageja esitatud valeandmetel v&otilde;i v&otilde;ltsitud dokumendil .</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lapsendamine</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Lapsendamise sisu</s>
+</p>
+<p>
+<s>( 1 ) Lapsendamine tekitab lapsendaja ja lapsendatu vahel vanema ja lapse vahelised &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendamine on t&auml;htajatu ega saa olla seotud tingimusega .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Lapsendatav</s>
+</p>
+<p>
+<s>( 1 ) Lapsendada v&otilde;ib last &uuml;ksnes lapse huvides .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;isealist isikut ei v&otilde;i lapsendada .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Lapsendaja</s>
+</p>
+<p>
+<s>( 1 ) Lapsendajaks v&otilde;ib olla v&auml;hemalt 25-aastane isik , kes on suuteline lapsendatavat kasvatama , tema eest hoolitsema ja teda &uuml;lal pidama .</s><s>Kohus v&otilde;ib lubada lapsendajaks olla ka nooremal t&auml;isealisel isikul .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendaja ei v&otilde;i olla isik :</s>
+</p>
+<p>
+<s>1 ) kellelt vanema &otilde;igused on &auml;ra v&otilde;etud v&otilde;i kellelt laps on &auml;ra v&otilde;etud vanema &otilde;igusi &auml;ra v&otilde;tmata ;</s>
+</p>
+<p>
+<s>2 ) kes on k&otilde;rvaldatud eestkostja kohustuste t&auml;itmisest seet&otilde;ttu , et ta neid kohustusi n&otilde;uetekohaselt ei t&auml;itnud ;</s>
+</p>
+<p>
+<s>3 ) kes on tunnistatud teov&otilde;imetuks v&otilde;i kelle teov&otilde;imet on piiratud .</s>
+</p>
+<p>
+<s>( 3 ) Sama last v&otilde;ivad lapsendada ainult omavahel abielus olevad isikud .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Lapsendamise otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Lapsendamise otsustab kohus lapsendada sooviva isiku avalduse alusel .</s><s>Lapsendamise otsustamisel kaasab kohus protsessi eestkosteasutuse arvamuse andmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendamise otsustamiseks vajalikud andmed kogub ja valmistab ette eestkosteasutus kohtu korraldusel .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Lapsendamise saladus</s>
+</p>
+<p>
+<s>( 1 ) Isik , kes teab lapsendamisest , peab hoidma lapsendamise saladust .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendamise saladuse hoidmise kohustust rikkunud isik kannab vastutust seaduses s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 3 ) Lapsendamise andmete v&auml;ljastamise kord kehtestatakse &otilde;igusaktiga .</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Vanemate n&otilde;usolek</s>
+</p>
+<p>
+<s>( 1 ) Last v&otilde;ib lapsendada vanemate kirjalikul n&otilde;usolekul .</s><s>Vanem v&otilde;ib anda eestkosteasutusele n&otilde;usoleku lapsendamiseks ka siis , kui lapsendaja isik ei ole teada .</s>
+</p>
+<p>
+<s>( 2 ) Vanemad v&otilde;ivad lapsendamiseks antud n&otilde;usolekust loobuda lapsendamise otsustamiseni .</s>
+</p>
+<p>
+<s>( 3 ) Last v&otilde;ib lapsendada vanemate n&otilde;usolekuta , kui neilt on vanema &otilde;igused &auml;ra v&otilde;etud v&otilde;i kui nad on tunnistatud teov&otilde;imetuks v&otilde;i teadmata kadunuks .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Lapse n&otilde;usolek</s>
+</p>
+<p>
+<s>( 1 ) V&auml;hemalt 10-aastast last v&otilde;ib lapsendada tema n&otilde;usolekul .</s><s>Arvestada tuleb ka noorema kui 10-aastase lapse soovi , kui lapse arengutase seda v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 )</s>
+</p>
+<p>
+<s>( 2 ) Last v&otilde;ib lapsendada tema n&otilde;usolekuta , kui laps enne lapsendamist elas lapsendaja perekonnas ega tea , et lapsendaja ei ole tema vanem .</s>
+</p>
+<p>
+<s>( 17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 )</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Lapsendaja abikaasa n&otilde;usolek</s>
+</p>
+<p>
+<s>( 1 ) Abielus olev isik v&otilde;ib lapsendada &uuml;ksnes abikaasa kirjalikul n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 2 ) Teise abikaasa n&otilde;usolekuta v&otilde;ib lapsendada , kui abikaasade abielusuhted on l&otilde;ppenud ja nad elavad lahus , samuti kui teine abikaasa on tunnistatud teov&otilde;imetuks v&otilde;i teadmata kadunuks .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Eestkostja n&otilde;usolek</s>
+</p>
+<p>
+<s>Eestkoste all olevat last v&otilde;ib lapsendada &uuml;ksnes eestkostja kirjalikul n&otilde;usolekul .</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>Lapsendamine isiku poolt , kes ei ela Eestis</s>
+</p>
+<p>
+<s>Isik , kes ei ela Eestis , v&otilde;ib Eestis elava Eesti kodaniku lapsendada &uuml;ksnes sotsiaalministri n&otilde;usolekul .</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>Lapsendamise otsus</s>
+</p>
+<p>
+<s>( 1 ) Laps loetakse lapsendatuks lapsendamise kohtuotsuse j&otilde;ustumise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendamisotsuse tegemisel otsustab kohus lapsendatava ees- ja perekonnanime muutmise ( paragrahv 85 ) .</s>
+</p>
+<p>
+<s>( 3 ) Lapsendamise kohtuotsuse &auml;rakirja saadab kohus &uuml;he kuu jooksul kohtuotsuse j&otilde;ustumisest perekonnaseisuasutusele , kus lapse s&uuml;nniakt asub .</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>Lapsendaja kandmine s&uuml;nniakti</s>
+</p>
+<p>
+<s>Lapsendaja kantakse vanemana lapsendatava s&uuml;nniakti .</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>Lapsendatava ees- ja perekonnanimi</s>
+</p>
+<p>
+<s>( 1 ) Lapsendaja soovil antakse lapsele lapsendaja perekonnanimi ja v&otilde;idakse muuta lapse eesnimi .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;hemalt 10-aastase lapsendatu ees- ja perekonnanime v&otilde;ib muuta tema n&otilde;usolekul .</s><s>Arvestada tuleb ka noorema kui 10-aastase lapse soovi , kui lapse arengutase seda v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 )</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>Lapsendamise &otilde;iguslikud tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Lapsendatu ja tema alanejad sugulased loetakse lapsendajate ja nende sugulaste suhtes , samuti lapsendajad ja nende sugulased lapsendatu ja tema alanejate sugulaste suhtes v&otilde;rdseks sugulastega isiklike ning varaliste &otilde;iguste ja kohustuste osas .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendatu kaotab isiklikud ja varalised &otilde;igused ning vabaneb kohustustest oma vanema ja tema sugulaste suhtes .</s>
+</p>
+<p>
+<s>( 3 ) Vanem kaotab isiklikud ja varalised &otilde;igused ning vabaneb kohustustest oma lapse suhtes , keda lapsendati , samuti lapsendatu alanejate sugulaste suhtes .</s>
+</p>
+<p>
+<s>( 4 ) Kui lapse lapsendab mees ja lapsel on ema , kes j&auml;&auml;b lapse emaks , v&otilde;i kui lapse lapsendab naine ja lapsel on isa , kes j&auml;&auml;b lapse isaks , s&auml;ilivad lapse ja selle vanema ning tema sugulaste vahelised &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>Lapsendamise kehtetuks tunnistamine ja vanema &otilde;iguste &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Kohus v&otilde;ib lapsendamise kehtetuks tunnistada &uuml;ksnes siis , kui ilmneb , et on rikutud k&auml;esoleva seaduse paragrahvides 74-76 ja 78-82 s&auml;testatud tingimusi , samuti kui lapsendamine oli n&auml;ilik .</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib lapsendajalt &auml;ra v&otilde;tta vanema &otilde;igused k&auml;esoleva seaduse paragrahvis 54 s&auml;testatud alustel v&otilde;i lapse lapsendajalt &auml;ra v&otilde;tta vanema &otilde;iguste &auml;rav&otilde;tmiseta k&auml;esoleva seaduse paragrahvis 53 s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 3 ) Lapsendamise kehtetuks tunnistamisel , lapsendajalt vanema &otilde;iguste &auml;rav&otilde;tmisel ja lapse &auml;rav&otilde;tmisel lapsendajalt vanema &otilde;iguste &auml;rav&otilde;tmiseta kaasab kohus protsessi eestkosteasutuse arvamuse andmiseks .</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>Lapsendamist vaidlustavad isikud</s>
+</p>
+<p>
+<s>( 1 ) Lapsendamise kehtetuks tunnistamist v&otilde;ivad n&otilde;uda isikud , kelle &otilde;igusi lapsendamisega rikuti , samuti eestkosteasutus .</s>
+</p>
+<p>
+<s>( 2 ) Kui lapsendamine toimus vanema v&otilde;i eestkostja seaduses etten&auml;htud n&otilde;usolekuta , v&otilde;ib selle alusel lapsendamise kehtetuks tunnistamist n&otilde;uda ainult see isik , kelle n&otilde;usolekuta lapsendamine on toimunud .</s>
+</p>
+<p>
+<s>( 3 ) Lapsendajalt vanema &otilde;iguste &auml;rav&otilde;tmist v&otilde;i lapse &auml;rav&otilde;tmist vanema &otilde;iguste &auml;rav&otilde;tmiseta v&otilde;ib n&otilde;uda lapse vanem , kelle vanema &otilde;igused lapsendamisel s&auml;ilisid , samuti teine lapsendaja v&otilde;i eestkosteasutus .</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>T&auml;isealiseks saanud lapsendatu lapsendamise kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>T&auml;isealiseks saanud lapsendatu lapsendamist v&otilde;ib kehtetuks tunnistada k&auml;esoleva seaduse paragrahvis 87 s&auml;testatud alustel ja &uuml;ksnes lapsendatu n&otilde;udel ning tingimusel , et lapsendamise kehtetuks tunnistamisega on n&otilde;us tema vanemad ja lapsendajad .</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>Lapsendamise kehtetuks tunnistamise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Kehtetuks tunnistatud lapsendamine on kehtetu algusest peale .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendamise kehtetuks tunnistamisel loetakse , et k&auml;esoleva seaduse paragrahv 86 2. ja 3. l&otilde;ikes nimetatud isiklikud ja varalised &otilde;igused ja kohustused ei ole l&otilde;ppenud .</s>
+</p>
+<p>
+<s>( 3 ) Lapsendamise kehtetuks tunnistamise kohtuotsuse &auml;rakirja saadab kohus 10 p&auml;eva jooksul kohtuotsuse j&otilde;ustumisest perekonnaseisuasutusele , kus asub lapse s&uuml;nniakt .</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>Lapsendajalt vanema &otilde;iguste &auml;rav&otilde;tmise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Lapsendaja , kellelt on &auml;ra v&otilde;etud vanema &otilde;igused , kaotab lapse suhtes k&otilde;ik &otilde;igused .</s><s>Vanema &otilde;iguste &auml;rav&otilde;tmine lapsendajalt ei vabasta teda lapse &uuml;lalpidamiskohustusest , v&auml;lja arvatud juhul , kui taastatakse lapse ja tema vanema vahelised &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>( 2 ) Lapsendajalt vanema &otilde;iguste &auml;rav&otilde;tmisel v&otilde;etakse temalt laps &auml;ra .</s>
+</p>
+<p>
+<s>( 3 ) Lapsendajalt vanema &otilde;iguste &auml;rav&otilde;tmisel otsustab kohus vanema soovil , kas taastada lapse ja vanema vahelised &otilde;igused ja kohustused ning kas anda laps vanema kasvatada , arvestades v&auml;hemalt 10-aastase lapse soovi .</s><s>Arvestada tuleb ka noorema kui 10-aastase lapse soovi , kui lapse arengutase seda v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 )</s>
+</p>
+<p>
+<s>( 4 ) Kui vanema &otilde;igusi ei taastata , korraldab lapse elu eestkosteasutus .</s>
+</p>
+<p>
+<s>( 5 ) Lapsendajalt vanema &otilde;iguste &auml;rav&otilde;tmisel otsustab kohus , kas taastada lapse ees- ja perekonnanimi , arvestades v&auml;hemalt 10-aastase lapse soovi .</s><s>Arvestada tuleb ka noorema kui 10-aastase lapse soovi , kui lapse arengutase seda v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 )</s>
+</p>
+<p>
+<s>( 6 ) Lapsendajalt vanema &otilde;iguse &auml;rav&otilde;tmise kohtuotsuse &auml;rakirja saadab kohus 10 p&auml;eva jooksul kohtuotsuse j&otilde;ustumisest perekonnaseisuasutusele , kus asub lapse s&uuml;nniakt .</s>
+</p>
+<p>
+<s>( 7 ) Lapsendajalt &auml;rav&otilde;etud vanema &otilde;igusi ei taastata .</s>
+</p>
+<p>
+<s>III osa</s>
+</p>
+<p>
+<s>Eestkoste ja hooldus</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eestkoste</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>Eestkoste sisu</s>
+</p>
+<p>
+<s>( 1 ) Eestkoste seatakse lapse kasvatamiseks , tema isiklike ja varaliste &otilde;iguste ja huvide kaitseks .</s>
+</p>
+<p>
+<s>( 2 ) Eestkoste seatakse lapse &uuml;le , kelle vanemad on surnud , tunnistatud teadmata kadunuks v&otilde;i teov&otilde;imetuks v&otilde;i kelle vanematelt on vanema &otilde;igused &auml;ra v&otilde;etud .</s>
+</p>
+<p>
+<s>( 3 ) Eestkoste v&otilde;idakse seada ka lapse &uuml;le , kes on muudel p&otilde;hjustel j&auml;&auml;nud ilma vanemlikust hoolitsusest .</s>
+</p>
+<p>
+<s>( 4 ) Eestkoste seatakse samuti selle isiku varaliste ja isiklike &otilde;iguste ning huvide kaitseks , kes on tunnistatud teov&otilde;imetuks v&otilde;i kelle teov&otilde;imet on piiratud .</s>
+</p>
+<p>
+<s>( 5 ) Eestkostet vajava isiku abikaasa , sugulased ja h&otilde;imlased , samuti kohtunik , politseinik , raviasutuse juht , perekonnaseisuameti ametnik , prokur&ouml;r v&otilde;i muu ametiisik , kellel on andmeid eestkostet vajava isiku kohta , on kohustatud sellest teatama eestkosteasutusele eestkostet vajava isiku elukoha j&auml;rgi .</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Eestkoste seadmine ja korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Eestkoste seadmise otsustab kohus eestkosteasutuse avalduse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Eestkoste seadmise otsustamiseks vajalikud andmed kogub ja valmistab ette eestkosteasutus .</s>
+</p>
+<p>
+<s>( 3 ) Eestkostet korraldab eestkosteasutus .</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>Eestkoste seadmise koht</s>
+</p>
+<p>
+<s>Eestkoste seatakse eestkostet vajava isiku elukoha j&auml;rgi .</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>Eestkostja</s>
+</p>
+<p>
+<s>( 1 ) Eestkostet teostab kohtu poolt m&auml;&auml;ratud eestkostja .</s><s>Ettepaneku isiku m&auml;&auml;ramiseks eestkostjaks teeb eestkosteasutus .</s>
+</p>
+<p>
+<s>( 2 ) Isikut v&otilde;ib eestkostjaks m&auml;&auml;rata &uuml;ksnes tema kirjalikul n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 3 ) Eestkostja valikul tuleb arvestada isiku omadusi ja v&otilde;imeid eestkostja kohustuste t&auml;itmiseks ning tema suhteid isikuga , kelle &uuml;le eestkoste seatakse .</s>
+</p>
+<p>
+<s>( 4 ) Eestkostja m&auml;&auml;ramisel arvestatakse v&auml;hemalt 10-aastase lapse v&otilde;i piiratud teov&otilde;imega isiku soovi .</s><s>Arvestada tuleb ka noorema kui 10-aastase lapse soovi , kui lapse arengutase seda v&otilde;imaldab .</s>
+</p>
+<p>
+<s>( 17.04.97 j&otilde;ust 19.05.97 - RT I 1997 , 35 , 538 )</s>
+</p>
+<p>
+<s>( 5 ) Kuni eestkostja m&auml;&auml;ramiseni t&auml;idab eestkostja &uuml;lesandeid eestkosteasutus .</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Isik , kes ei v&otilde;i olla eestkostja</s>
+</p>
+<p>
+<s>Eestkostjaks ei v&otilde;i olla :</s>
+</p>
+<p>
+<s>1 ) alaealine ;</s>
+</p>
+<p>
+<s>2 ) teov&otilde;imetu v&otilde;i piiratud teov&otilde;imega isik ;</s>
+</p>
+<p>
+<s>3 ) isik , kellelt vanema &otilde;igused on &auml;ra v&otilde;etud v&otilde;i kellelt laps on &auml;ra v&otilde;etud vanema &otilde;iguste &auml;rav&otilde;tmiseta ;</s>
+</p>
+<p>
+<s>4 ) eestkostja v&otilde;i hooldaja kohustuste t&auml;itmisest k&otilde;rvaldatud isik ;</s>
+</p>
+<p>
+<s>5 ) isik , kes muul p&otilde;hjusel ei ole v&otilde;imeline t&auml;itma eestkostja kohustusi .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Lapse eestkostja</s>
+</p>
+<p>
+<s>( 1 ) Eestkostja on lapse seaduslik esindaja .</s>
+</p>
+<p>
+<s>( 2 ) Eestkostja on kohustatud hoolitsema lapse kasvatamise ja &uuml;lalpidamise eest .</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>Teov&otilde;imetu ja piiratud teov&otilde;imega isiku eestkostja</s>
+</p>
+<p>
+<s>( 1 ) Eestkostja on teov&otilde;imetu v&otilde;i piiratud teov&otilde;imega isiku seaduslik esindaja .</s>
+</p>
+<p>
+<s>( 2 ) Eestkostja on kohustatud hoolitsema teov&otilde;imetu ja tema &uuml;lalpidamise eest .</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Tehingute piirangud</s>
+</p>
+<p>
+<s>( 1 ) Eestkosteasutuse eelneva n&otilde;usolekuta ei v&otilde;i eestkostja :</s>
+</p>
+<p>
+<s>1 ) v&otilde;&otilde;randada eestkostetava kinnisasju v&otilde;i koormata seda piiratud asja&otilde;igusega ;</s>
+</p>
+<p>
+<s>2 ) v&otilde;&otilde;randada eestkostetava vallasasja , millel on eestkostetava jaoks eriline v&auml;&auml;rtus ;</s>
+</p>
+<p>
+<s>3 ) kinkida eestkostetava vallasasja , v&auml;lja arvatud tavap&auml;rased kingitused ;</s>
+</p>
+<p>
+<s>4 ) pantida eestkostetava vallasasju ;</s>
+</p>
+<p>
+<s>( 28.05.96 j&otilde;ust 08.06.96 - RT I 1996 , 40 , 773 )</s>
+</p>
+<p>
+<s>5 ) v&otilde;tta eestkostetava nimel laenu ja loobuda v&otilde;la sissen&otilde;udmisest ;</s>
+</p>
+<p>
+<s>6 ) loobuda eestkostetava nimel p&auml;randi vastuv&otilde;tmisest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud tehingute tegemiseks ei v&otilde;i piiratud teov&otilde;imega isiku eestkostja anda n&otilde;usolekut eestkosteasutuse eelneva n&otilde;usolekuta .</s>
+</p>
+<p>
+<s>( 3 ) Eestkostja kohta k&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes s&auml;testatut kohaldatakse ka vanema ja lapse suhtes .</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>Keelatud tehingud</s>
+</p>
+<p>
+<s>( 1 ) Eestkostja ei v&otilde;i teha tehingut eestkostetavaga , v&auml;lja arvatud kinkimine eestkostetavale .</s>
+</p>
+<p>
+<s>( 2 ) Eestkostja ei v&otilde;i eestkostetava nimel teha tehingut oma abikaasa , alanejate ja &uuml;lenejate sugulaste ja &otilde;dede ja vendadega .</s>
+</p>
+<p>
+<s>( 3 ) Eestkostja ei v&otilde;i esindada eestkostetavat vaidlustes iseenda ja k&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud isikutega .</s><s>Sel juhul esindab eestkostetavat eestkosteasutus .</s>
+</p>
+<p>
+<s>( 4 ) Eestkostja ja eestkostetava kohta k&auml;esoleva paragrahvi 1.-3. l&otilde;ikes s&auml;testatut kohaldatakse ka vanema ja lapse suhtes .</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Eestkostja aruanne</s>
+</p>
+<p>
+<s>( 1 ) Eestkostja on kohustatud andma eestkosteasutusele aru eestkostja &uuml;lesannete t&auml;itmise kohta .</s>
+</p>
+<p>
+<s>( 2 ) Eestkostetava vara valitsemise kohta esitab eestkostja eestkosteasutusele iga-aastase kirjaliku aruande .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes s&auml;testatud kohustused ei k&auml;i vanemate kohta .</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Eestkostja volituste l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Kui eestkostja j&auml;tab oma &uuml;lesanded t&auml;itmata v&otilde;i ei t&auml;ida neid n&otilde;uetekohaselt , l&otilde;petab kohus eestkostja volitused eestkosteasutuse n&otilde;udel .</s>
+</p>
+<p>
+<s>( 2 ) Eestkostetava huvides v&otilde;ib eestkosteasutus k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud n&otilde;ude esitamisel k&otilde;rvaldada eestkostja oma &uuml;lesannete t&auml;itmisest , kuni kohus otsustab eestkostja volituste l&otilde;petamise .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Eestkoste l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Kui langevad &auml;ra isiku teov&otilde;imetuks tunnistamise , tema teov&otilde;ime piiramise v&otilde;i k&auml;esoleva seaduse paragrahv 92 3. l&otilde;ikes nimetatud alus , on eestkostja kohustatud viivitamata esitama kohtule avalduse t&auml;isealise eestkostetava teov&otilde;imeliseks tunnistamiseks ja eestkoste l&otilde;petamiseks v&otilde;i vanemliku hoolitsuse tagasi saanud lapse suhtes eestkoste l&otilde;petamiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud asjaolude ilmnemisel v&otilde;ib eestkosteasutus esitada kohtule avalduse t&auml;isealise eestkostetava teov&otilde;imeliseks tunnistamiseks ja eestkoste l&otilde;petamiseks v&otilde;i vanemliku hoolitsuse tagasi saanud lapse suhtes eestkoste l&otilde;petamiseks .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>Eestkoste l&otilde;ppemine</s>
+</p>
+<p>
+<s>Eestkoste l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) eestkostetava surmaga ;</s>
+</p>
+<p>
+<s>2 ) eestkostetava lapse vanema &otilde;iguste taastamisega ;</s>
+</p>
+<p>
+<s>3 ) eestkostetava lapsendamisega ;</s>
+</p>
+<p>
+<s>4 ) alaealise eestkostetava abiellumisega ;</s>
+</p>
+<p>
+<s>5 ) eestkostetava lapse t&auml;isealiseks saamisega .</s>
+</p>
+<p>
+<s>12. peat&uuml;kk</s>
+</p>
+<p>
+<s>Hooldus</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>Teov&otilde;imelise isiku hooldus</s>
+</p>
+<p>
+<s>( 1 ) Hoolduse seab eestkosteasutus t&auml;isealisele teov&otilde;imelisele isikule , kes vaimsete v&otilde;i kehaliste puuete t&otilde;ttu vajab abi oma &otilde;iguste teostamisel ja kohustuste t&auml;itmisel .</s>
+</p>
+<p>
+<s>( 2 ) Hooldust teostab eestkosteasutuse poolt m&auml;&auml;ratud hooldaja .</s><s>Hooldus seatakse ja hooldaja m&auml;&auml;ratakse hooldatava n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 3 ) Hooldus seatakse mingi toimingu v&otilde;i teatud toimingute tegemiseks .</s>
+</p>
+<p>
+<s>( 4 ) Hooldaja ei ole hooldatava seaduslik esindaja .</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>Hoolduse l&otilde;petamine</s>
+</p>
+<p>
+<s>Eestkosteasutus l&otilde;petab hoolduse , kui seda soovib hooldatav v&otilde;i kui on &auml;ra langenud hoolduse seadmise alus .</s>
+</p>
+<p>
+<s>IV osa</s>
+</p>
+<p>
+<s>Perekonnaseisuaktid</s>
+</p>
+<p>
+<s>13. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>Perekonnaseisuakt</s>
+</p>
+<p>
+<s>Perekonnaseisuakt on perekonnaseisuasutuses s&uuml;nni , surma , abielu s&otilde;lmimise , abielu lahutamise ning ees- ja perekonnanime muutmise kohta koostatud dokument , millega t&otilde;endatakse s&uuml;ndi , surma , abielu s&otilde;lmimist , abielu lahutamist ja ees- ja perekonnanime muutmist .</s>
+</p>
+<p>
+<s>&sect; 107 <hi rend="sup">1</hi> .</s><s>Perekonnaseisutunnistus</s>
+</p>
+<p>
+<s>( 1 ) Perekonnaseisutunnistus on dokument , mis sisaldab perekonnaseisuakti andmeid ja t&otilde;endab perekonnaseisuakti olemasolu .</s>
+</p>
+<p>
+<s>( 2 ) Perekonnaseisutunnistuseks on :</s>
+</p>
+<p>
+<s>1 ) s&uuml;nnitunnistus ;</s>
+</p>
+<p>
+<s>2 ) surmatunnistus ;</s>
+</p>
+<p>
+<s>3 ) abielutunnistus ;</s>
+</p>
+<p>
+<s>4 ) abielulahutuse tunnistus ;</s>
+</p>
+<p>
+<s>5 ) nimemuutmistunnistus .</s>
+</p>
+<p>
+<s>( 3 ) Perekonnaseisutunnistus antakse perekonnaseisuasutuse poolt perekonnaseisuakti alusel .</s><s>Tunnistus antakse isikule , kelle kohta see on koostatud , samuti tema esindajale .</s>
+</p>
+<p>
+<s>( 4 ) Surmatunnistus antakse surnu abikaasale , sugulasele v&otilde;i h&otilde;imlasele .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>Perekonnaseisuasutused</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>( 1 ) Perekonnaseisuakte koostavad ja perekonnaseisutunnistusi annavad v&auml;lja perekonnaseisuasutused .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Perekonnaseisuasutusteks k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) valla ja linnavalitsus ;</s>
+</p>
+<p>
+<s>2 ) maavalitsus ;</s>
+</p>
+<p>
+<s>3 ) Eesti v&auml;lisesindus ;</s>
+</p>
+<p>
+<s>4 ) Siseministeerium .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>( 2 ) Vallavalitsused koostavad s&uuml;nni- ja surmaakte .</s><s>Linnavalitsused koostavad s&uuml;nni- ja surmaakte juhul , kui nende haldamisel oleval territooriumil ei asu maavalitsust .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>( 3 ) Maavalitsused ja Eesti v&auml;lisesindused koostavad s&uuml;nni- , surma- , abielu- , abielulahutus- ja nimemuutmisakte , muudavad , parandavad ja t&uuml;histavad neid akte , taastavad kaduma l&auml;inud perekonnaseisuakte , hoiavad aktiraamatuid , annavad v&auml;lja tunnistusi , perekonnaseisuakti &auml;rakirju ja t&otilde;endeid .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>( 4 ) Siseministeerium korraldab perekonnaseisuaktide teiste eksemplaride hoidmist ja kannab neisse aktidesse m&auml;rkusi , annab v&auml;lja s&uuml;nni- , surma- ja abielutunnistusi , perekonnaseisuaktide &auml;rakirju ning t&otilde;endeid kirikuraamatute alusel ning juhendab teisi perekonnaseisuasutusi perekonnaseisuaktide ja -tunnistuste koostamise k&uuml;simustes .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>Perekonnaseisuakti kande alus ja andmed</s>
+</p>
+<p>
+<s>( 1 ) Perekonnaseisuakti kande tegemiseks tuleb esitada dokument , mis t&otilde;endab perekonnaseisuakti kantavat asjaolu ja avaldaja isikut .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) V&auml;lisriigi p&auml;deva asutuse koostatud dokument on perekonnaseisuakti kande aluseks , kui see on koostatud koosk&otilde;las v&auml;lisriigi seadusega ja seda tunnustatakse v&auml;lislepingu alusel v&otilde;i kui see on V&auml;lisministeeriumis v&otilde;i Eesti v&auml;lisesinduses legaliseeritud .</s>
+</p>
+<p>
+<s>( 31.05.2000 j&otilde;ust 01.08.2000 - RT I 2000 , 50 , 317 )</s>
+</p>
+<p>
+<s>( 2 ) Perekonnaseisuasutus v&otilde;ib isikult perekonnaseisuakti kande tegemiseks n&otilde;uda andmeid , mis tulenevad seadusest .</s>
+</p>
+<p>
+<s>( 31.05.2000 j&otilde;ust 01.08.2000 - RT I 2000 , 50 , 317 )</s>
+</p>
+<p>
+<s>( 3 ) Perekonnaseisuakti &auml;rakiri v&auml;ljastatakse &uuml;ksnes kohtule , prokuratuurile , politseile , perekonnaseisuasutusele , eestkosteasutusele , notarile , rahvastikuregistri volitatud t&ouml;&ouml;tlejale ja t&auml;isealisele isikule , kelle kohta perekonnaseisuakt on koostatud .</s>
+</p>
+<p>
+<s>( 31.05.2000 j&otilde;ust 01.08.2000 - RT I 2000 , 50 , 317 )</s>
+</p>
+<p>
+<s>( 4 ) Perekonnaseisuakti koostamisel kontrollib perekonnaseisuasutuse ametnik esitatud dokumentide andmete vastavust rahvastikuregistrisse kantud andmetele .</s><s>Rahvastikuregistri volitatud t&ouml;&ouml;tlejale antakse &uuml;le perekonnaseisuakti &auml;rakiri v&otilde;i andmed perekonnaseisuaktilt ja perekonnaseisuakti muutmise otsus v&otilde;i akt v&otilde;i andmed sellelt .</s>
+</p>
+<p>
+<s>( 31.05.2000 j&otilde;ust 01.08.2000 - RT I 2000 , 50 , 317 )</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>Kande parandamine ja muutmine</s>
+</p>
+<p>
+<s>( 1 ) Perekonnaseisuasutus parandab kandes vigu ja teeb neis muudatusi , kui selleks on k&uuml;llaldane alus ja huvitatud isikute vahel ei ole vaidlust .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Perekonnaseisuakti v&otilde;ib muuta ja parandada k&auml;esolevas seaduses s&auml;testatud juhtudel kohtu v&otilde;i perekonnaseisuasutuse otsuse alusel , millega parandatakse v&otilde;i muudetakse perekonnaseisuakti kannet .</s>
+</p>
+<p>
+<s>( 31.05.2000 j&otilde;ust 01.08.2000 - RT I 2000 , 50 , 317 )</s>
+</p>
+<p>
+<s>( 2 ) Kui perekonnaseisuasutus keeldub kande parandamisest v&otilde;i muutmisest , samuti vaidluse korral asjast huvitatud isikute vahel , otsustab kande parandamise v&otilde;i muutmise kohus huvitatud isiku avalduse alusel .</s>
+</p>
+<p>
+<s>&sect; 111.</s><s>Perekonnaseisuakti t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Esmase perekonnaseisuakti t&uuml;histamise otsustab kohus huvitatud isikute avalduse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Korduva v&otilde;i taastatud perekonnaseisuakti t&uuml;histab perekonnaseisuasutus , kui selleks on k&uuml;llaldane alus .</s>
+</p>
+<p>
+<s>&sect; 112.</s><s>Perekonnaseisuaktide koostamine , muutmine , parandamine , taastamine ja t&uuml;histamine ning perekonnaseisutunnistuste v&auml;ljaandmine</s>
+</p>
+<p>
+<s>Perekonnaseisuaktide koostamise , muutmise , parandamise , taastamise ja t&uuml;histamise ning perekonnaseisutunnistuste v&auml;ljaandmise kord , sealhulgas perekonnaseisuaktide ja -tunnistuste vormid kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>&sect; 113. ( Kehtetu - 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>14. peat&uuml;kk</s>
+</p>
+<p>
+<s>Perekonnaseisuaktide liigid</s>
+</p>
+<p>
+<s>1. jagu .</s>
+</p>
+<p>
+<s>S&uuml;nniakt</s>
+</p>
+<p>
+<s>&sect; 114.</s><s>S&uuml;nniakti koostamine</s>
+</p>
+<p>
+<s>( 1 ) S&uuml;nniakt koostatakse perekonnaseisuasutuses vanema elukoha j&auml;rgi .</s><s>Leidlapse s&uuml;nniakt koostatakse lapse leidmise koha eestkosteasutuse asukohaj&auml;rgses perekonnaseisuasutuses .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>( 2 ) S&uuml;nniakt koostatakse vanema avalduse alusel .</s><s>Kui vanem on surnud v&otilde;i ta ei saa avaldust esitada , esitab avalduse vanema sugulane , selle raviasutuse juht , kus laps s&uuml;ndis , v&otilde;i muu isik .</s>
+</p>
+<p>
+<s>( 3 ) S&uuml;nniakt koostatakse &uuml;he kuu jooksul lapse s&uuml;ndimise p&auml;evast , leidlapse s&uuml;nniakt kolme p&auml;eva jooksul lapse leidmise p&auml;evast , surnult s&uuml;ndinud lapse s&uuml;nniakt kolme p&auml;eva jooksul surnult s&uuml;ndimise p&auml;evast .</s>
+</p>
+<p>
+<s>( 4 ) Leidlapse s&uuml;nniakti kannet vanemate kohta ei tehta .</s><s>Leidlapse ees- ja perekonnanime otsustab eestkosteasutus .</s>
+</p>
+<p>
+<s>2. jagu .</s>
+</p>
+<p>
+<s>Surmaakt</s>
+</p>
+<p>
+<s>&sect; 115.</s><s>Surmaakti koostamine</s>
+</p>
+<p>
+<s>( 1 ) Surmaakt koostatakse perekonnaseisuasutuses surnud isiku viimase elukoha v&otilde;i surmakoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Surma fakti tuvastamise ja isiku surnuks tunnistamise kohtuotsuse alusel koostab surmaakti perekonnaseisuasutus kohtu asukoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 3 ) Surmaakti koostamiseks esitab perekonnaseisuasutusele avalduse surnu abikaasa , sugulane , h&otilde;imlane v&otilde;i teine isik , kes elas koos surnud isikuga , nende puudumisel raviasutuse juht , politseinik v&otilde;i muu ametnik .</s>
+</p>
+<p>
+<s>( 4 ) Surmaakt koostatakse kolme p&auml;eva jooksul isiku surmap&auml;evast v&otilde;i surnud isiku leidmise p&auml;evast .</s>
+</p>
+<p>
+<s>3. jagu .</s>
+</p>
+<p>
+<s>Abieluakt</s>
+</p>
+<p>
+<s>&sect; 116.</s><s>Abieluakti koostamine</s>
+</p>
+<p>
+<s>Abieluakti koostab perekonnaseisuasutus , kus abielu s&otilde;lmiti .</s>
+</p>
+<p>
+<s>&sect; 117.</s><s>Abiellumisavaldus</s>
+</p>
+<p>
+<s>( 1 ) Abiellujad esitavad kirjaliku abiellumisavalduse perekonnaseisuasutusele isiklikult .</s>
+</p>
+<p>
+<s>( 2 ) Abiellumisavalduses kinnitavad abiellujad oma allkirjaga , et nad soovivad abielluda ja et puuduvad abielu s&otilde;lmimist takistavad asjaolud ja et nad on teadlikud teineteise tervislikust seisundist .</s>
+</p>
+<p>
+<s>( 3 ) Isik , kes oli varem abielus , peab esitama abielu l&otilde;ppemist v&otilde;i abielu kehtetuks tunnistamist t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>&sect; 118.</s><s>Avaldus abiellumist takistavate asjaolude kohta</s>
+</p>
+<p>
+<s>Kui enne abielu s&otilde;lmimist teatatakse perekonnaseisuasutusele abielu s&otilde;lmimist takistavast asjaolust , l&uuml;katakse abielu s&otilde;lmimine vajaduse korral avalduse kontrollimiseks kuni &uuml;heks kuuks edasi .</s>
+</p>
+<p>
+<s>4. jagu .</s>
+</p>
+<p>
+<s>Abielulahutusakt</s>
+</p>
+<p>
+<s>&sect; 119.</s><s>Abielulahutusakti koostamise koht</s>
+</p>
+<p>
+<s>Abielulahutusakt koostatakse perekonnaseisuasutuses &uuml;he abikaasa elukoha j&auml;rgi .</s>
+</p>
+<p>
+<s>&sect; 120.</s><s>Abielulahutusakt abikaasade kokkuleppel</s>
+</p>
+<p>
+<s>( 1 ) Abielulahutusakt koostatakse m&otilde;lema abikaasa kohalolekul , kui abielu lahutatakse abikaasade kokkuleppel .</s>
+</p>
+<p>
+<s>( 2 ) Abielulahutusakti v&otilde;ib koostada &uuml;he abikaasa kohalolekuta , kui ta m&otilde;juvatel p&otilde;hjustel ei saa perekonnaseisuasutusse ilmuda ja esitatakse tema notariaalselt t&otilde;estatud n&otilde;usolek abielu lahutamiseks tema kohalolekuta .</s>
+</p>
+<p>
+<s>&sect; 121.</s><s>Abielulahutusakt abikaasa avaldusel</s>
+</p>
+<p>
+<s>( 1 ) Kui abielu lahutatakse &uuml;he abikaasa avalduse alusel , koostatakse abielulahutusakt perekonnaseisuasutuses tema kohalolekul .</s>
+</p>
+<p>
+<s>( 2 ) Abielulahutusakti koostamiseks esitab abikaasa kohtuotsuse &auml;rakirja teise abikaasa teadmata kadunuks v&otilde;i teov&otilde;imetuks tunnistamise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Perekonnaseisuasutus teatab abielu lahutamisest teadmata kadunuks v&otilde;i teov&otilde;imetuks tunnistatud abikaasa eestkostjale v&otilde;i tema vara hooldajale .</s>
+</p>
+<p>
+<s>&sect; 122.</s><s>Abielueelne perekonnanimi</s>
+</p>
+<p>
+<s>Abikaasa , kes soovib tagasi saada abielueelset perekonnanime , teatab sellest abielulahutusakti koostamisel .</s><s>Abielueelse perekonnanime kanne tehakse abielulahutusakti .</s>
+</p>
+<p>
+<s>5. jagu .</s>
+</p>
+<p>
+<s>S&uuml;nniakti muudatused</s>
+</p>
+<p>
+<s>&sect; 123.</s><s>S&uuml;nniakti muudatused seoses lapsendamisega</s>
+</p>
+<p>
+<s>( 1 ) Seoses lapsendamisega teeb muudatused s&uuml;nniaktis perekonnaseisuasutus , kus s&uuml;nniakt asub .</s>
+</p>
+<p>
+<s>( 2 ) Seoses lapsendamisega tehakse muudatused lapse s&uuml;nniakti lapsendamise kohtuotsuse , lapsendaja avalduse ja tema isikut t&otilde;endava dokumendi alusel .</s>
+</p>
+<p>
+<s>( 3 ) Kui lapsendaja ei esita k&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud avaldust &uuml;he kuu jooksul lapsendamisest , teeb perekonnaseisuasutus lapse s&uuml;nniakti muudatuse lapsendamise kohta kohtuotsuse alusel .</s>
+</p>
+<p>
+<s>( 4 ) Muudetud s&uuml;nniakti alusel annab perekonnaseisuasutus v&auml;lja lapse uue s&uuml;nnitunnistuse .</s>
+</p>
+<p>
+<s>&sect; 124.</s><s>Lapsendamise andmete t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Lapsendamise kehtetuks tunnistamise kohtuotsuse alusel taastab perekonnaseisuasutus lapse s&uuml;nniaktis k&otilde;ik andmed , mis olid s&uuml;nniaktis enne lapsendamist .</s>
+</p>
+<p>
+<s>( 2 ) Kohtuotsuse alusel , millega on lapsendajalt vanema &otilde;igused &auml;ra v&otilde;etud ja vanema &otilde;igused taastatud , taastab perekonnaseisuasutus lapse s&uuml;nniaktis k&otilde;ik andmed , mis olid selles enne lapsendamist .</s>
+</p>
+<p>
+<s>&sect; 125.</s><s>S&uuml;nniakti muudatused seoses p&otilde;lvnemisega</s>
+</p>
+<p>
+<s>( 1 ) Seoses isast p&otilde;lvnemise kindlakstegemisega v&otilde;i p&otilde;lvnemise tuvastamisega teeb s&uuml;nniaktis muudatused perekonnaseisuasutus , kus s&uuml;nniakt asub .</s>
+</p>
+<p>
+<s>( 2 ) Avalduse k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud muudatuse tegemiseks v&otilde;ib esitada perekonnaseisuasutusele , kus lapse s&uuml;nniakt asub , v&otilde;i perekonnaseisuasutusele lapse vanema elukoha j&auml;rgi , p&otilde;lvnemise tuvastamisel aga ka tuvastamist n&otilde;udnud isiku elukoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast lapse s&uuml;nniaktis muudatuse tegemist antakse v&auml;lja uus s&uuml;nnitunnistus .</s>
+</p>
+<p>
+<s>6. jagu .</s>
+</p>
+<p>
+<s>Nimemuutmisakt</s>
+</p>
+<p>
+<s>&sect; 126.</s><s>Nimemuutmisakti koostamine</s>
+</p>
+<p>
+<s>( 1 ) Isiku nime muutmise akt koostatakse perekonnaseisuasutuses isiku elukoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Nime muutnud isiku isikut t&otilde;endavasse dokumenti teeb perekonnaseisuasutus m&auml;rke , et seoses nime muutmisega tuleb isikut t&otilde;endav dokument &uuml;mber vahetada .</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>&sect; 127. ( Kehtetu - 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>&sect; 128. ( Kehtetu - 12.03.97 j&otilde;ust 19.04.97 - RT I 1997 , 28 , 422 )</s>
+</p>
+<p>
+<s>V osa</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 129.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>Perekonnaseadus j&otilde;ustub 1995. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>&sect; 130.</s><s>Seaduse kohaldamine</s>
+</p>
+<p>
+<s>( 1 ) Perekonnaseadusel ei ole tagasiulatuvat j&otilde;udu , kui rakenduss&auml;tetest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Enne selle seaduse j&otilde;ustumist tekkinud ja sel p&auml;eval kestvatele perekonna&otilde;igussuhetele kohaldatakse perekonnaseaduse s&auml;tteid , kui rakenduss&auml;tetest ei tulene teisiti .</s>
+</p>
+<p>
+<s>&sect; 130 <hi rend="sup">1</hi> .</s><s>Perekonnaseisuasutuse &uuml;lesannete t&auml;itmise &otilde;iguse andmine vaimulikule</s>
+</p>
+<p>
+<s>( 1 ) Siseminister v&otilde;ib anda kiriku , koguduse v&otilde;i koguduste liidu vastava ettevalmistusega vaimulikule &otilde;iguse t&auml;ita perekonnaseisuasutuse &uuml;lesandeid , mis on seotud abielu s&otilde;lmimisega .</s>
+</p>
+<p>
+<s>( 2 ) Siseministrilt abielu s&otilde;lmimise &otilde;iguse saanud kiriku , koguduse v&otilde;i koguduste liidu vaimulik v&otilde;rdsustatakse abielu s&otilde;lmimisega seonduvate &uuml;lesannete t&auml;itmisel perekonnaseisuasutusega ning tal on &otilde;igus koostada abieluakte ja anda v&auml;lja abielutunnistusi .</s>
+</p>
+<p>
+<s>( 3 ) Abielu s&otilde;lmimisega seonduvate perekonnaseisuasutuse &uuml;lesannete kiriku , koguduse v&otilde;i koguduste liidu vaimulikule &uuml;leandmise ning &uuml;lesannete t&auml;itmise tingimused ja kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 4 ) Kiriku , koguduse v&otilde;i koguduste liidu vaimuliku poolt abielu s&otilde;lmimisega seonduvate &uuml;lesannete t&auml;itmise &uuml;le teostab j&auml;relevalvet siseminister .</s>
+</p>
+<p>
+<s>( 30.05.2001 j&otilde;ust.30.06.2001 - RT I 2001 , 53 , 307 )</s>
+</p>
+<p>
+<s>&sect; 131.</s><s>Abieluvaraleping</s>
+</p>
+<p>
+<s>Abieluvaralepingu v&otilde;ib s&otilde;lmida ka vara suhtes , mis on omandatud enne selle seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 132.</s><s>Vara jagamine</s>
+</p>
+<p>
+<s>Lahusvara m&auml;&auml;ratakse kindlaks ja &uuml;hisvara jagatakse perekonnaseaduse s&auml;tete kohaselt ka siis , kui see oli omandatud enne selle seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 133.</s><s>Vastutus abikaasa kohustuse eest</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse paragrahv 20 s&auml;tteid kohaldatakse ka vara suhtes , mis on soetatud enne selle seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 134.</s><s>Abielu l&otilde;ppemise aeg</s>
+</p>
+<p>
+<s>Kui kohtuotsus abielu lahutamiseks on tehtud enne selle seaduse j&otilde;ustumist , l&otilde;peb abielu abielulahutuse registreerimisega perekonnaseisuasutuses .</s>
+</p>
+<p>
+<s>&sect; 135.</s><s>Isast p&otilde;lvnemise tuvastamine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast selle seaduse j&otilde;ustumist tuvastab kohus isast p&otilde;lvnemist k&auml;esoleva seaduse paragrahv 42 s&auml;tete kohaselt ka juhul , kui laps on s&uuml;ndinud v&otilde;i eostatud enne selle seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatut ei kohaldata , kui j&otilde;ustunud kohtuotsusega on enne selle seaduse j&otilde;ustumist isaduse tuvastamise n&otilde;ue j&auml;etud rahuldamata .</s>
+</p>
+<p>
+<s>&sect; 136.</s><s>Alimendid ( elatis )</s>
+</p>
+<p>
+<s>( 1 ) Enne selle seaduse j&otilde;ustumist kohtuotsusega v&auml;ljam&otilde;istetud alimente ( elatist ) n&otilde;utakse sisse kohtuotsuses m&auml;rgitud suuruses .</s>
+</p>
+<p>
+<s>( 2 ) Huvitatud isiku n&otilde;udel v&otilde;ib kohus muuta alimentide ( elatise ) suurust ja elatise v&auml;lja m&otilde;ista k&auml;esoleva seaduse s&auml;tete alusel n&otilde;ude esitamisest alates .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse paragrahv 71 s&auml;tet kohaldatakse ka enne selle seaduse j&otilde;ustumist tekkinud alimentide ( elatise ) v&otilde;lgnevuse suhtes .</s>
+</p>
+<p>
+<s>&sect; 137.</s><s>Abielu ja lapsendamise kehtetus</s>
+</p>
+<p>
+<s>Abielu kehtetuks tunnistamine ja lapsendamise kehtetuks tunnistamine toimub perekonnaseaduse s&auml;tete kohaselt ka siis , kui abielu on s&otilde;lmitud v&otilde;i lapsendamine toimunud enne selle seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 138.</s><s>Kiriklik abielu</s>
+</p>
+<p>
+<s>Kiriklik abielu loetakse kehtivaks , kui see on s&otilde;lmitud abielu s&otilde;lmimise ajal Eestis kehtinud seaduse kohaselt .</s>
+</p>
+<p>
+<s>&sect; 139.</s><s>Hagi aegumine</s>
+</p>
+<p>
+<s>( 1 ) Kui enne selle seaduse j&otilde;ustumist kehtinud hagi aegumist&auml;htaeg on seaduse j&otilde;ustumise ajaks m&ouml;&ouml;dunud , kohaldatakse varem kehtinud aegumist&auml;htaega .</s>
+</p>
+<p>
+<s>( 2 ) Kui enne selle seaduse j&otilde;ustumist kehtinud hagi aegumist&auml;htaeg ei ole seaduse j&otilde;ustumise ajaks m&ouml;&ouml;dunud ja k&auml;esolevas seaduses s&auml;testatakse pikem aegumist&auml;htaeg , kohaldatakse pikemat aegumist&auml;htaega .</s>
+</p>
+<p>
+<s>( 3 ) Kui enne selle seaduse j&otilde;ustumist kehtinud seaduse kohaselt hagi aegumist ei kohaldatud , kuid k&auml;esolevas seaduses on see ette n&auml;htud v&otilde;i selles kehtestatud varasemast aegumist&auml;htajast l&uuml;hem aegumist&auml;htaeg , kohaldatakse k&auml;esolevas seaduses s&auml;testatud aegumist&auml;htaega , arvutades selle algust seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>&sect; 140.</s><s>Nime muutmine</s>
+</p>
+<p>
+<s>( 1 ) Nime muutmisel kohaldatakse Eesti Vabariigi riigivanema 1934. aasta 22. oktoobri dekreediga kehtestatud perekonnanimede korraldamise seaduse ( RT 1934 , 91 , 735 ) s&auml;tteid , v&auml;lja arvatud 1. ja 3. peat&uuml;kk ning paragrahv 8 1. l&otilde;ige , paragrahv 10 1. l&otilde;ike punkt 3 ja 4 ja 2. l&otilde;ige , paragrahv 12 , paragrahv 13 , paragrahv 14 2. l&otilde;ige , paragrahv 16 ning paragrahv 25 1. l&otilde;ige .</s>
+</p>
+<p>
+<s>( 2 ) Kuni nimeseaduse kehtestamiseni otsustab Eesti kodaniku nime muutmise siseminister .</s><s>Samas korras muudetakse Eestis alalist elukohta omava isiku nime , kes ei ole teise riigi kodanik .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust 26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>&sect; 141.</s><s>&Otilde;igusvastaselt v&otilde;&otilde;randatud vara</s>
+</p>
+<p>
+<s>Abielu kestel abikaasale tagastatud v&otilde;i asendatud &otilde;igusvastaselt v&otilde;&otilde;randatud vara v&otilde;i selle vara eest makstav h&uuml;vitus ( kompensatsioon ) on abikaasa lahusvara , kui seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>&sect; 142.</s><s>Varasemate &otilde;igusaktide kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tunnistatakse kehtetuks :</s>
+</p>
+<p>
+<s>1 ) Eesti NSV seadus &ldquo; Eesti NSV abielu- ja perekonnakoodeksi kinnitamise kohta &rdquo; ( ENSV Teataja 1969 , 31 , 316 ) ;</s>
+</p>
+<p>
+<s>2 ) Eesti NSV abielu- ja perekonnakoodeks ( ENSV Teataja 1969 , 31 , lisa ; 1971 , 35 , 384 ; 1972 , 40 , 433 ; 1975 , 44 , 514 ; 1976 , 21 , 200 ; 1980 , 12 , 172 ; 1980 , 31 , 491 ; 1984 , 31 , 375 ; 1985 , 17 , 295 ; 1985 , 31 , 484 ; 1987 , 4 , 38 ; 1988 , 6 , 68 ; RT 1992 , 11 , 168 ) ;</s>
+</p>
+<p>
+<s>3 ) Eesti NSV &Uuml;N Presiidiumi seadlus &ldquo; &ldquo; Eesti NSV abielu- ja perekonnakoodeksi &rdquo; ellurakendamise korra kohta &rdquo; ( ENSV Teataja 1969 , 50 , 499 ; 1980 , 12 , 172 ) .</s>
+</p>
+</body>
+   </text>
+</tei.2>

@@ -1,0 +1,694 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Riigivastutuse seadus ( juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4080</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Riigivastutuse seadus ( juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=6></tagusage>
+         <tagusage gi=p occurs=196></tagusage>
+         <tagusage gi=s occurs=259></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Riigivastutuse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 2. mail 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 47 , 260 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2002. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab avaliku v&otilde;imu volituste rakendamisel ja muude avalike &uuml;lesannete t&auml;itmisel rikutud &otilde;iguste kaitse ja taastamise ning tekitatud kahju h&uuml;vitamise alused ja korra ( riigivastutus ) .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolev seadus ei reguleeri &otilde;iguste taastamist ega kahju h&uuml;vitamist era&otilde;iguslikus suhtes .</s>
+</p>
+<p>
+<s>( 3 ) Kahju tekitamisena era&otilde;iguslikus suhtes k&auml;sitatakse kahju tekitamist avaliku v&otilde;imu kandja poolt :</s>
+</p>
+<p>
+<s>1 ) v&otilde;la&otilde;igussuhtest tuleneva kohustuse rikkumisel , sealhulgas era&otilde;iguslikus vormis veo- , ravi- v&otilde;i muu teenuse osutamisel ;</s>
+</p>
+<p>
+<s>2 ) kinnisasja , tee , veekogu v&otilde;i muu asja omanikuna oma kohustusi , v&auml;lja arvatud liiklusseaduse ( RT I 2001 , 3 , 6 ) &sect;-s 45 s&auml;testatud kohustusi , rikkudes ;</s>
+</p>
+<p>
+<s>3 ) liikluses osalemisel v&otilde;i ohtliku seadme kasutamisel v&otilde;i aine valdamisel , kasutamata avaliku v&otilde;imu kandja eri&otilde;igusi ;</s>
+</p>
+<p>
+<s>4 ) muul viisil era&otilde;iguslikus vormis tegutsedes .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>&Otilde;iguste kaitse ja taastamise ning kahju h&uuml;vitamise n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse alusel v&otilde;ib isik riigilt , kohaliku omavalitsuse &uuml;ksuselt , muult avalik-&otilde;iguslikult juriidiliselt isikult v&otilde;i muult avalikke &uuml;lesandeid avalik-&otilde;iguslikul alusel v&auml;ljaspool alluvussuhet teostavalt isikult ( avaliku v&otilde;imu kandjalt ) n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) haldusakti t&uuml;histamist ;</s>
+</p>
+<p>
+<s>2 ) j&auml;tkuva toimingu l&otilde;petamist ;</s>
+</p>
+<p>
+<s>3 ) haldusakti andmisest v&otilde;i toimingu sooritamisest hoidumist ;</s>
+</p>
+<p>
+<s>4 ) haldusakti andmist v&otilde;i toimingu sooritamist ;</s>
+</p>
+<p>
+<s>5 ) tekitatud kahju h&uuml;vitamist ;</s>
+</p>
+<p>
+<s>6 ) avalik-&otilde;iguslikus suhtes alusetult saadud asja v&otilde;i raha tagastamist .</s>
+</p>
+<p>
+<s>( 2 ) Seadusega v&otilde;ib isiku &otilde;iguste taastamiseks , kaitseks v&otilde;i kahju h&uuml;vitamiseks ette n&auml;ha t&auml;iendavaid n&otilde;udeid v&otilde;i k&auml;esolevas seaduses s&auml;testatud n&otilde;udeid piirata .</s>
+</p>
+<p>
+<s>( 3 ) M&otilde;isteid &ldquo; haldusakt &rdquo; ja &ldquo; toiming &rdquo; kasutatakse k&auml;esolevas seaduses haldusmenetluse seaduse t&auml;henduses .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>N&otilde;uded haldusakti v&otilde;i toimingu suhtes</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Haldusakti t&uuml;histamise n&otilde;ue</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;ib n&otilde;uda haldusakti t&uuml;histamist &uuml;ksnes selles ulatuses , milles rikutakse tema &otilde;igusi , kui seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakti t&uuml;histamist ei v&otilde;i n&otilde;uda , kui isiku &otilde;igused on taastatud haldusakti muutmisega .</s>
+</p>
+<p>
+<s>( 3 ) Haldusakti t&uuml;histamist v&otilde;ib n&otilde;uda vaidega haldusmenetluses v&otilde;i kaebusega halduskohtumenetluses .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Toimingu l&otilde;petamise n&otilde;ue</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;ib n&otilde;uda halduse j&auml;tkuva toiminguga kaasneva &otilde;iguste rikkumise l&otilde;petamist , kui see on v&otilde;imalik &uuml;lem&auml;&auml;raste kuludeta .</s><s>&Otilde;iguste rikkumise l&otilde;petamise kulud on &uuml;lem&auml;&auml;rased , kui need &uuml;letavad oluliselt isikule &otilde;iguste rikkumisega tekitatavat kahju .</s>
+</p>
+<p>
+<s>( 2 ) Kui &otilde;iguste rikkumine seisneb asja &otilde;igusvastases valdamises , v&otilde;ib asja valdamiseks &otilde;igustatud isik n&otilde;uda asja oma valdusesse andmist .</s><s>Taotluse asja &otilde;igusp&auml;rasesse valdusesse andmiseks v&otilde;ib haldusorganile esitada 30 aasta jooksul n&otilde;ude&otilde;iguse tekkimisest arvates .</s>
+</p>
+<p>
+<s>( 3 ) Taotluse toimingu l&otilde;petamiseks v&otilde;ib esitada toimingut sooritavale haldusorganile v&otilde;i kaebuses halduskohtule .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Haldusaktist v&otilde;i toimingust hoidumise n&otilde;ue</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;ib n&otilde;uda haldusakti andmata j&auml;tmist v&otilde;i halduse toimingu sooritamata j&auml;tmist , kui haldusakt v&otilde;i toiming rikuks tema &otilde;igusi ja tooks t&otilde;en&auml;oliselt endaga kaasa tagaj&auml;rje , mida ei saaks k&otilde;rvaldada haldusakti v&otilde;i toimingu hilisemal vaidlustamisel .</s>
+</p>
+<p>
+<s>( 2 ) Taotluse haldusakti andmata j&auml;tmiseks v&otilde;i toimingu sooritamata j&auml;tmiseks v&otilde;ib esitada haldusakti andmiseks v&otilde;i toimingu sooritamiseks p&auml;devale haldusorganile v&otilde;i kaebuses halduskohtule .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Haldusakti andmise v&otilde;i toimingu sooritamise n&otilde;ue</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;ib n&otilde;uda haldusakti andmist v&otilde;i toimingu sooritamist , kui avaliku v&otilde;imu kandja on kohustatud haldusakti andma v&otilde;i toimingu sooritama ja see puudutab isiku &otilde;igusi .</s>
+</p>
+<p>
+<s>( 2 ) Kui haldusakti andmine v&otilde;i toimingu sooritamine tuleb otsustada halduse kaalutlus&otilde;iguse ( diskretsiooni ) alusel , v&otilde;ib isik n&otilde;uda haldusakti andmist v&otilde;i toimingu sooritamist &uuml;ksnes juhul , kui see puudutab tema &otilde;igusi ja juhtumi asjaolude t&otilde;ttu ei saa haldusorgan haldusakti andmisest v&otilde;i toimingu sooritamisest keelduda .</s>
+</p>
+<p>
+<s>( 3 ) Taotlus haldusakti andmiseks v&otilde;i toimingu sooritamiseks tuleb esitada selleks p&auml;devale haldusorganile .</s><s>Taotluse rahuldamata v&otilde;i t&auml;htaegselt l&auml;bi vaatamata j&auml;tmise korral v&otilde;ib isik esitada vaide haldusorganile v&otilde;i kaebuse halduskohtule .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Vastutuse alused</s>
+</p>
+<p>
+<s>( 1 ) Isik , kelle &otilde;igusi on avaliku v&otilde;imu kandja &otilde;igusvastase tegevusega avalik-&otilde;iguslikus suhtes rikkunud ( edaspidi kannatanu ) , v&otilde;ib n&otilde;uda talle tekitatud kahju h&uuml;vitamist , kui kahju ei olnud v&otilde;imalik v&auml;ltida ega ole v&otilde;imalik k&otilde;rvaldada k&auml;esoleva seaduse &sect;-des 3 , 4 ja 6 s&auml;testatud viisil &otilde;iguste kaitsmise v&otilde;i taastamisega .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusetusega tekitatud kahju h&uuml;vitamist v&otilde;ib n&otilde;uda &uuml;ksnes juhul , kui haldusakt j&auml;i &otilde;igeaegselt andmata v&otilde;i toiming &otilde;igeaegselt sooritamata ja sellega rikuti isiku &otilde;igusi .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igete 1 ja 2 alusel h&uuml;vitatakse otsene varaline kahju ja saamata j&auml;&auml;nud tulu .</s>
+</p>
+<p>
+<s>( 4 ) Kui seadusega pole s&auml;testatud teisiti ja see pole vastuolus avalik&otilde;iguslike suhete olemusega , kohaldatakse avaliku v&otilde;imu teostamisel tekitatud kahju h&uuml;vitamisel lisaks k&auml;esolevale seadusele ka era&otilde;iguse kahju h&uuml;vitamise s&auml;tteid .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Varalise kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Varaline kahju h&uuml;vitatakse rahas .</s><s>H&uuml;vitisega tuleb luua varaline olukord , milles kannatanu oleks siis , kui tema &otilde;igusi ei oleks rikutud .</s>
+</p>
+<p>
+<s>( 2 ) Kehavigastuse tekitamisel v&otilde;i tervise kahjustamisel v&otilde;ib kannatanu n&otilde;uda sellega tekitatud kulutuste h&uuml;vitamist .</s><s>Sealhulgas v&otilde;ib kannatanu n&otilde;uda j&auml;rgmiste kulutuste h&uuml;vitamist :</s>
+</p>
+<p>
+<s>1 ) vajalikud ravikulud ;</s>
+</p>
+<p>
+<s>2 ) vajaduste suurenemisest tingitud kulud ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;v&otilde;imetuse t&otilde;ttu saamata j&auml;&auml;nud tulu , sealhulgas sissetulekute v&auml;henemisest v&otilde;i edasiste majanduslike v&otilde;imaluste halvenemisest tingitud kahju .</s>
+</p>
+<p>
+<s>( 3 ) H&uuml;vitist t&ouml;&ouml;v&otilde;imetuse t&otilde;ttu saamata j&auml;&auml;nud tulu eest ei saa n&otilde;uda osas , milles kannatanul on &otilde;igus kahju tekitamisest tulenevalt saada t&ouml;&ouml;v&otilde;imetuspensioni .</s>
+</p>
+<p>
+<s>( 4 ) P&uuml;siva terviserikke tekitamisel tuleb kahju h&uuml;vitada perioodiliste rahaliste maksetena iga kolme kuu eest ette .</s><s>Kahju iseloomu arvestades v&otilde;ib h&uuml;vitise m&auml;&auml;ramisel v&otilde;i v&auml;ljam&otilde;istmisel seda ajavahemikku muuta v&otilde;i n&auml;ha ette &uuml;hekordse makse .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Mittevaralise kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) F&uuml;&uuml;siline isik v&otilde;ib n&otilde;uda mittevaralise kahju rahalist h&uuml;vitamist s&uuml;&uuml;liselt v&auml;&auml;rikuse alandamise , tervise kahjustamise , vabaduse v&otilde;tmise , kodu v&otilde;i eraelu puutumatuse v&otilde;i s&otilde;numi saladuse rikkumise , au v&otilde;i hea nime teotamise korral .</s>
+</p>
+<p>
+<s>( 2 ) Mittevaraline kahju h&uuml;vitatakse proportsionaalselt &otilde;iguserikkumise raskusega .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Kahju h&uuml;vitamine kolmandatele isikutele</s>
+</p>
+<p>
+<s>( 1 ) Surma p&otilde;hjustamisel , kehavigastuse tekitamisel v&otilde;i tervise kahjustamisel on kolmandal isikul &otilde;igus n&otilde;uda sellega seoses kantud kulutuste , &auml;ralangenud &uuml;lalpidamise ja mittevaralise kahju h&uuml;vitamist era&otilde;iguses s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 2 ) &Auml;ralangenud &uuml;lalpidamise h&uuml;vitamist ei saa n&otilde;uda ulatuses , milles kolmandal isikul tekkis surma p&otilde;hjustamisest tulenevalt &otilde;igus saada toitjakaotuspensioni .</s><s>&Auml;ralangenud &uuml;lalpidamine h&uuml;vitatakse maksetega sarnaselt k&auml;esoleva seaduse &sect; 8 l&otilde;ikele 4.</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Tagaj&auml;rgede k&otilde;rvaldamine</s>
+</p>
+<p>
+<s>( 1 ) Kannatanu v&otilde;ib avaliku v&otilde;imu kandjalt rahalise h&uuml;vitise asemel n&otilde;uda t&uuml;histatud v&otilde;i vastavas osas muudetud haldusakti v&otilde;i toimingu &otilde;igusvastaste tagaj&auml;rgede k&otilde;rvaldamist .</s>
+</p>
+<p>
+<s>( 2 ) Avaliku v&otilde;imu kandja on tagaj&auml;rgede k&otilde;rvaldamisel kohustatud rakendama k&otilde;iki &otilde;igusp&auml;raseid abin&otilde;usid , sealhulgas andma haldusakte , sooritama toiminguid v&otilde;i esitama kolmanda isiku vastu era&otilde;iguslikke n&otilde;udeid , kui selleks on olemas &otilde;iguslik alus ja tagaj&auml;rgede k&otilde;rvaldamise kulud ei &uuml;letaks oluliselt rahalist h&uuml;vitist .</s>
+</p>
+<p>
+<s>( 3 ) Avaliku v&otilde;imu kandja v&otilde;ib , s&otilde;ltumata kannatanu tahtest , k&otilde;rvaldada tagaj&auml;rjed k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud viisil , kui rahaline h&uuml;vitis oleks oluliselt suurem tagaj&auml;rgede k&otilde;rvaldamise kuludest ja isikul pole kaalukat p&otilde;hjust n&otilde;uda rahalist h&uuml;vitist .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kahju h&uuml;vitamiseks kohustatud isik</s>
+</p>
+<p>
+<s>( 1 ) Kahju kannatanud isikule on kahju h&uuml;vitama kohustatud avaliku v&otilde;imu kandja , kelle tegevusega kahju tekitati .</s><s>Tegevusetusega tekitatud kahju on kohustatud h&uuml;vitama avaliku v&otilde;imu kandja , kes j&auml;ttis &otilde;igeaegselt haldusakti andmata v&otilde;i toimingu sooritamata .</s>
+</p>
+<p>
+<s>( 2 ) Avaliku v&otilde;imu kandja poolt tekitatud kahjuks loetakse igasugune selle avaliku v&otilde;imu kandja &uuml;lesandeid t&auml;itnud f&uuml;&uuml;silise isiku poolt vahetult p&otilde;hjustatud kahju , s&otilde;ltumata sellest , kas &uuml;lesandeid t&auml;ideti teenistussuhte , lepingu , &uuml;ksikkorralduse v&otilde;i muul alusel .</s><s>K&auml;esolevas l&otilde;ikes nimetatud f&uuml;&uuml;siline isik kannatanu ees ei vastuta , kui seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 3 ) F&uuml;&uuml;silisest v&otilde;i era&otilde;iguslikust juriidilisest isikust avaliku v&otilde;imu kandja poolt tekitatud kahju eest vastutab riik , kohaliku omavalitsuse &uuml;ksus v&otilde;i muu avalik-&otilde;iguslik juriidiline isik , kes andis f&uuml;&uuml;silisele v&otilde;i era&otilde;iguslikule juriidilisele isikule volitused avalike &uuml;lesannete t&auml;itmiseks , kui seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 4 ) Kui kahju on kohustatud h&uuml;vitama mitu avaliku v&otilde;imu kandjat , vastutavad nad kannatanu ees solidaarselt .</s><s>Avaliku v&otilde;imu kandja osa ei saa solidaarvastutuse korras n&otilde;uda isikult , kes vastutab kannatanu ees era&otilde;igusest tulenevalt .</s>
+</p>
+<p>
+<s>( 5 ) Kui tagaj&auml;rgede k&otilde;rvaldamiseks vajaliku haldusakti andmine v&otilde;i toimingu sooritamine ei ole k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud avaliku v&otilde;imu kandja p&auml;devuses , on tagaj&auml;rgede k&otilde;rvaldamiseks vajaliku haldusakti v&otilde;i toimingu kohustatud andma v&otilde;i sooritama p&auml;dev avaliku v&otilde;imu kandja .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Vastutuse piiramine</s>
+</p>
+<p>
+<s>( 1 ) H&uuml;vitise suuruse m&auml;&auml;ramisel arvestatakse :</s>
+</p>
+<p>
+<s>1 ) kahju tekkimise etten&auml;gematust ;</s>
+</p>
+<p>
+<s>2 ) objektiivseid takistusi kahju &auml;rahoidmisel ;</s>
+</p>
+<p>
+<s>3 ) &otilde;iguste rikkumise raskust ;</s>
+</p>
+<p>
+<s>4 ) era&otilde;iguses s&auml;testatud piiranguid seoses kannatanu osaga kahju tekitamisel ;</s>
+</p>
+<p>
+<s>5 ) muid asjaolusid , millest tulenevalt kahju h&uuml;vitamine t&auml;ies ulatuses oleks eba&otilde;iglane .</s>
+</p>
+<p>
+<s>( 2 ) Saamata j&auml;&auml;nud tulu ei h&uuml;vitata , kui kahju h&uuml;vitamiseks kohustatud isik t&otilde;endab , et ta ei olnud kahju tekitamises s&uuml;&uuml;di .</s>
+</p>
+<p>
+<s>( 3 ) Avaliku v&otilde;imu kandja vabaneb vastutusest avalike &uuml;lesannete t&auml;itmisel tekitatud kahju eest , kui kahju tekitamist ei olnud v&otilde;imalik v&auml;ltida ka avalike &uuml;lesannete t&auml;itmisel vajalikku hoolsust t&auml;ielikult j&auml;rgides .</s>
+</p>
+<p>
+<s>( 4 ) Tagaj&auml;rgede k&otilde;rvaldamist n&otilde;udev kannatanu on kohustatud kandma tagaj&auml;rgede k&otilde;rvaldamise kulud ulatuses , mis vastab tema osale tagaj&auml;rgede tekitamisel .</s><s>Kui tagaj&auml;rjed j&auml;&auml;vad k&otilde;rvaldamata seet&otilde;ttu , et kannatanul ei ole v&otilde;imalik oma osale vastavaid kulusid kanda , v&otilde;ib ta n&otilde;uda rahalist h&uuml;vitist avaliku v&otilde;imu kandja osale vastavas ulatuses .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Vastutuse erijuhud</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>&Otilde;igustloova aktiga tekitatud kahju</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;ib n&otilde;uda &otilde;igustloova aktiga tekitatud kahju h&uuml;vitamist &uuml;ksnes juhul , kui &otilde;igustloova aktiga rikuti oluliselt tema &otilde;igusi ja Riigikohus on tunnistanud vastava s&auml;tte kehtetuks v&otilde;i p&otilde;hiseadusevastaseks .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igustloova akti t&otilde;ttu saamata j&auml;&auml;nud tulu v&otilde;i sellega tekitatud mittevaraline kahju , samuti seadusega v&otilde;i &otilde;igustloova akti andmata j&auml;tmisega tekitatud kahju h&uuml;vitatakse &uuml;ksnes eraldi seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ige 1 ei v&auml;lista vastutust &otilde;igustloova akti alusel antud haldusakti v&otilde;i sooritatud toiminguga tekitatud kahju eest .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Kohtumenetluse ja haldus&otilde;iguserikkumise kohtuv&auml;lise arutamise k&auml;igus tekitatud kahju</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;ib n&otilde;uda kohtumenetluse v&otilde;i haldus&otilde;iguserikkumise kohtuv&auml;lise arutamise k&auml;igus , sealhulgas kohtulahendiga v&otilde;i haldus&otilde;iguserikkumise asjas tehtud lahendiga tekitatud kahju h&uuml;vitamist &uuml;ksnes juhul , kui kohtunik v&otilde;i haldus&otilde;iguserikkumise asja kohtuv&auml;liselt arutanud ametiisik pani selle menetluse k&auml;igus toime kuriteo .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ige 1 ei v&auml;lista riigi vastutust kohtu poolt &otilde;igusem&otilde;istmisega mitteseotud tegevusega tekitatud kahju eest .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>&Otilde;igusp&auml;rase haldusakti v&otilde;i toiminguga tekitatud kahju</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;ib n&otilde;uda &otilde;igusp&auml;rase , kuid tema p&otilde;hi&otilde;igusi v&otilde;i -vabadusi erakordselt piirava haldusakti v&otilde;i halduse toiminguga tekitatud varalise kahju h&uuml;vitamist &otilde;iglases ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Kui seadus ei s&auml;testa teisiti , ei saa k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud h&uuml;vitist n&otilde;uda ulatuses , milles :</s>
+</p>
+<p>
+<s>1 ) p&otilde;hi&otilde;iguste v&otilde;i -vabaduste piiramise p&otilde;hjustas isik ise v&otilde;i see toimus tema huvides ;</s>
+</p>
+<p>
+<s>2 ) isikute eriline kohtlemine on ette n&auml;htud seadusega ;</s>
+</p>
+<p>
+<s>3 ) isikul on h&uuml;vitist v&otilde;imalik saada mujalt , sealhulgas kindlustuselt ;</s>
+</p>
+<p>
+<s>4 ) h&uuml;vitise maksmise k&uuml;simus on reguleeritud muude seadustega .</s>
+</p>
+<p>
+<s>( 3 ) H&uuml;vitise m&auml;&auml;ramisel arvestatakse kasu , mida p&otilde;hi&otilde;iguste v&otilde;i -vabaduste piiramine avaliku v&otilde;imu kandjale v&otilde;i avalikele huvidele kaasa t&otilde;i , piiramise raskust , kahju tekkimise etten&auml;gematust ja muid olulisi asjaolusid .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Kahju h&uuml;vitamise kord</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Taotluse v&otilde;i kaebuse esitamine</s>
+</p>
+<p>
+<s>( 1 ) Kahju h&uuml;vitamiseks v&otilde;ib esitada taotluse kahju tekitanud haldusorganile v&otilde;i kaebuse halduskohtule .</s><s>Taotlus kohtu poolt tekitatud kahju h&uuml;vitamiseks esitatakse Justiitsministeeriumile .</s>
+</p>
+<p>
+<s>( 2 ) Kahju tekitamisel k&auml;esoleva seaduse &sect; 12 l&otilde;ikes 3 s&auml;testatud juhul esitatakse taotlus haldusorganile , kes kahju tekitanud f&uuml;&uuml;silisele v&otilde;i era&otilde;iguslikule juriidilisele isikule andis volitused avalike &uuml;lesannete t&auml;itmiseks .</s><s>Kui volitused tulenevad vahetult seadusest , esitatakse taotlus f&uuml;&uuml;silise v&otilde;i era&otilde;igusliku juriidilise isiku &uuml;le riiklikku j&auml;relevalvet teostavale haldusorganile .</s>
+</p>
+<p>
+<s>( 3 ) Taotlus v&otilde;i kaebus tuleb esitada kolme aasta jooksul , arvates p&auml;evast , millal kannatanu kahjust ja selle p&otilde;hjustanud isikust teada sai v&otilde;i pidi teada saama , s&otilde;ltumata teada saamisest aga 10 aasta jooksul kahju tekitamisest v&otilde;i selle p&otilde;hjustanud s&uuml;ndmusest arvates .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Taotluse l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan peab taotluse lahendama kahe kuu jooksul selle n&otilde;uetekohasest esitamisest arvates .</s>
+</p>
+<p>
+<s>( 2 ) Kui haldusorgan j&auml;tab kahju h&uuml;vitamise taotluse rahuldamata v&otilde;i t&auml;htaegselt lahendamata v&otilde;i kui kannatanu ei n&otilde;ustu h&uuml;vitise suuruse v&otilde;i viisiga , v&otilde;ib kannatanu 30 p&auml;eva jooksul esitada halduskohtule kaebuse h&uuml;vitise v&auml;ljam&otilde;istmiseks .</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>Regress</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Regressi alused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevast peat&uuml;kist tulenevalt kahju h&uuml;vitanud avaliku v&otilde;imu kandja v&otilde;ib esitada regressin&otilde;ude k&auml;esoleva seaduse &sect; 12 l&otilde;igetes 2 ja 3 nimetatud isiku vastu , kelle &otilde;igusvastase tegevuse tulemusena kahju tekkis , v&otilde;i avaliku v&otilde;imu kandja vastu , kelle eest solidaarvastutuse alusel kahju h&uuml;vitati .</s>
+</p>
+<p>
+<s>( 2 ) H&uuml;vitist v&auml;hendatakse , kui regressin&otilde;ude t&auml;ielik rahuldamine oleks eba&otilde;iglane , arvestades avaliku v&otilde;imu kandja poolt antud korraldusi ja juhiseid ning k&auml;esoleva seaduse &sect; 13 l&otilde;ikes 1 nimetatud asjaolusid .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 12 l&otilde;ikes 2 nimetatud isik vastutab avaliku v&otilde;imu kandja ees &uuml;ksnes s&uuml;&uuml;liselt kahju p&otilde;hjustamisel .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>H&uuml;vitise n&otilde;udmise kord</s>
+</p>
+<p>
+<s>( 1 ) Regressin&otilde;ude alusel h&uuml;vitise saamiseks teeb avaliku v&otilde;imu kandja isikule kirjaliku ettepaneku , n&auml;idates &auml;ra kahju h&uuml;vitamise ulatuse , korra ja t&auml;htaja ning h&uuml;vitise n&otilde;udmise aluseks olevad asjaolud .</s><s>Isik vastab ettepanekule kirjalikult .</s>
+</p>
+<p>
+<s>( 2 ) Ettepaneku v&otilde;ib teha kolme kuu jooksul , arvates p&auml;evast , millal avaliku v&otilde;imu kandja regressin&otilde;ude aluseks olevatest asjaoludest teada sai v&otilde;i pidi teada saama , s&otilde;ltumata teada saamisest aga kolme aasta jooksul kahju tekitamisest arvates .</s><s>Nimetatud t&auml;htaeg ei hakka kulgema enne riigi poolt kannatanule kahju h&uuml;vitamise otsustamist v&otilde;i riigilt kannatanu kasuks h&uuml;vitise v&auml;ljam&otilde;istmist .</s>
+</p>
+<p>
+<s>( 3 ) Ettepanekule vastamiseks tuleb isikule anda aega v&auml;hemalt kaks n&auml;dalat .</s>
+</p>
+<p>
+<s>( 4 ) Kui isik ei ole &otilde;igeaegselt ettepanekule vastanud , keeldub kahju h&uuml;vitamisest v&otilde;i ei ole ettepanekus n&auml;idatud t&auml;htajaks kahju h&uuml;vitanud , on avaliku v&otilde;imu kandjal &otilde;igus p&ouml;&ouml;rduda h&uuml;vitise v&auml;ljam&otilde;istmiseks halduskohtusse 30 p&auml;eva jooksul k&auml;esolevas l&otilde;ikes s&auml;testatud asjaolude ilmnemisest arvates .</s>
+</p>
+<p>
+<s>( 5 ) Avaliku v&otilde;imu kandjat esindab regressin&otilde;ude esitamisel haldusorgan , kes otsustas kahju h&uuml;vitamise kannatanule .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Regressi erijuhud</s>
+</p>
+<p>
+<s>( 1 ) Ametnik vastutab avaliku v&otilde;imu kandja ees avaliku teenistuse seaduses ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ; 2001 , 7 , 17 ja 18 ; 17 , 78 ; 42 , 233 ) s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>( 2 ) Isik , kes tekitas kahju tema ja avaliku v&otilde;imu kandja vahelise era&otilde;igussuhte alusel tegutsedes , vastutab avaliku v&otilde;imu kandja ees &uuml;ksnes era&otilde;iguses s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 3 ) Eesti Haigekassal on &otilde;igus n&otilde;uda kannatanu asemel avaliku v&otilde;imu kandja poolt tervise kahjustamise v&otilde;i kehavigastusega tekitatud kahju h&uuml;vitamist Eesti Haigekassa poolt kannatanule makstud ravikindlustush&uuml;vitise ja ravikulude ulatuses .</s><s>N&otilde;ue esitatakse k&auml;esoleva seaduse &sect;-des 17 ja 18 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Alusetu rikastumine</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Alusetu rikastumine avalik-&otilde;iguslikus suhtes</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;ib avaliku v&otilde;imu kandjalt n&otilde;uda &otilde;igusliku aluseta avalik-&otilde;iguslikus suhtes &uuml;leantud asja v&otilde;i raha tagastamist , kui seadus ei s&auml;testa teisiti .</s><s>Kui alusetult saadud asja tagastamine on v&otilde;imatu v&otilde;i seotud &uuml;lem&auml;&auml;raste kuludega , v&otilde;ib &otilde;igustatud isik n&otilde;uda asja v&auml;&auml;rtuse h&uuml;vitamist rahas .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva seadusega ei ole reguleeritud teisiti ja see ei ole vastuolus avalik-&otilde;igusliku suhte olemusega , kohaldatakse avalik-&otilde;iguslikus suhtes toimunud alusetu rikastumise korral era&otilde;iguse s&auml;tteid .</s>
+</p>
+<p>
+<s>( 3 ) Avaliku v&otilde;imu kandja v&otilde;ib isikult n&otilde;uda &otilde;igusliku aluseta avalik-&otilde;iguslikus suhtes &uuml;leantud asja v&otilde;i raha tagastamist era&otilde;iguses s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Intress ja asjast saadud kasu</s>
+</p>
+<p>
+<s>Lisaks k&auml;esoleva seaduse &sect; 22 l&otilde;ikes 1 s&auml;testatule v&otilde;ib isik n&otilde;uda avaliku v&otilde;imu kandjalt :</s>
+</p>
+<p>
+<s>1 ) intressi alusetult saadud raha eest kuus protsenti aastas ;</s>
+</p>
+<p>
+<s>2 ) asja v&otilde;&otilde;randamisest ja asja kasutamisest saadud kasu &uuml;leandmist .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>N&otilde;ude &uuml;le otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Avalik-&otilde;iguslikus suhtes alusetust rikastumisest tuleneva n&otilde;ude &uuml;le otsustab asja v&otilde;i raha saanud haldusorgan haldusaktiga .</s><s>Haldusaktis m&auml;rgitakse &auml;ra tagastamise v&otilde;i h&uuml;vitamise viis ja ulatus .</s><s>Avaliku v&otilde;imu kandja omandis oleva kinnisasja v&otilde;i muu registrisse kantud asja tagastamisel &otilde;igustatud isikule tehakse omandi&otilde;iguse &uuml;lemineku kohta kinnistusraamatusse v&otilde;i muusse registrisse kanne haldusakti ja avaliku v&otilde;imu kandja notariaalselt t&otilde;estatud avalduse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Taotlus v&otilde;i kaebus tuleb esitada kolme aasta jooksul , arvates p&auml;evast , millal &otilde;igustatud isik n&otilde;udest teada sai v&otilde;i pidi teada saama , s&otilde;ltumata teada saamisest aga 10 aasta jooksul n&otilde;ude tekkimisest arvates .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Eesti NSV tsiviilkoodeksi muutmine</s>
+</p>
+<p>
+<s>Eesti NSV tsiviilkoodeksi ( ENSV Teataja 1964 , 25 , 115 ; 1968 , 46 , 341 ; 1969 , 30 , 295 ; 1970 , 37 , 332 ; 1973 , 9 , 68 ; 44 , 389 ; 53 , 465 ; 1974 , 28 , 247 ; 1977 , 6 , 72 ; 37 , 424 ; 1980 , 31 , 490 ; 1985 , 27 , 451 ; 1986 , 19 , 251 ; 1988 , 6 , 68 ; 25 , 295 ja 296 ; 1989 , 17 , 203 ; Eesti Vabariigi Teataja 1990 , 20 , 300 ; RT 1990 , 12 , 128 ; 1992 , 33 , 418 ; 49 , 615 ; RT I 1993 , 72/73 , 1021 ; 1994 , 25 , 406 ; 53 , 889 ; 63 , 1065 ; 1996 , 31 , 630 ; 38 , 752 ; 1997 , 48 , 775 ) &sect;-d 450 ja 451 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Eesti Vabariigi ravikindlustusseaduse muutmine</s>
+</p>
+<p>
+<s>Eesti Vabariigi ravikindlustusseaduse ( RT 1991 , 23 , 272 ; RT I 1999 , 7 , 113 ; 29 , 397 ; 2000 , 57 , 374 ; 84 , 536 ; 102 , 675 ; 2001 , 42 , 233 ) &sect; 10 <hi rend="sup">5</hi> t&auml;iendatakse l&otilde;ikega 7 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 7 ) Kui k&auml;esoleva paragrahvi l&otilde;ike 6 punktis 2 nimetatud vigastuse tekitas riik v&otilde;i muu avaliku v&otilde;imu kandja , esitatakse n&otilde;ue riigivastutuse seaduses s&auml;testatud korras . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Avaliku teenistuse seaduse muutmine</s>
+</p>
+<p>
+<s>Avaliku teenistuse seaduse ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ; 2001 , 7 , 17 ja 18 ; 17 , 78 ; 42 , 233 ) 6. peat&uuml;kki t&auml;iendatakse 4. jaoga j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 4. jagu</s>
+</p>
+<p>
+<s>Ametniku varaline vastutus</s>
+</p>
+<p>
+<s>&sect; 89 <hi rend="sup">1</hi> .</s><s>Kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Ametnik on kohustatud h&uuml;vitama riigile v&otilde;i kohalikule omavalitsus&uuml;ksusele , kelle asutuses ta kahju tekitamise ajal t&ouml;&ouml;tas , s&uuml;&uuml;liselt teenistuskohustuse rikkumisega tekitatud kahju .</s>
+</p>
+<p>
+<s>( 2 ) Riigile v&otilde;i kohalikule omavalitsus&uuml;ksusele ametniku poolt tekitatud kahjuks on ka riigi v&otilde;i kohaliku omavalitsus&uuml;ksuse poolt makstud h&uuml;vitis ametniku teenistuskohustuse rikkumisega kolmandale isikule tekitatud kahju eest .</s>
+</p>
+<p>
+<s>( 3 ) Mitme ametniku poolt kahju &uuml;hisel tekitamisel vastutab iga ametnik tema s&uuml;&uuml;le vastavas ulatuses .</s>
+</p>
+<p>
+<s>( 4 ) H&uuml;vitise suuruse m&auml;&auml;ramisel arvestatakse ametniku majanduslikku olukorda , kahju suurust ametniku palgaga v&otilde;rreldes , teenistuskohustuse iseloomust tulenevat riski kahju tekkimiseks , teenistusstaa&zcaron;ist objektiivselt tulenevat kogemuste puudumist , ametnikule antud teenistusalaseid korraldusi ja juhiseid , samuti muid asjaolusid , millest tulenevalt kahju t&auml;ielik h&uuml;vitamine ametniku poolt oleks eba&otilde;iglane .</s>
+</p>
+<p>
+<s>( 5 ) Kui kahju pole tekitatud tahtlikult , ei tohi n&otilde;utav h&uuml;vitis &uuml;letada ametniku kuuekordset ametipalga ja lisatasude summat .</s>
+</p>
+<p>
+<s>&sect; 89 <hi rend="sup">2</hi> .</s><s>Kahju h&uuml;vitamise kord</s>
+</p>
+<p>
+<s>( 1 ) Kahju h&uuml;vitamiseks teeb ametniku ametisse nimetamise &otilde;igust omav isik ametnikule kirjaliku ettepaneku , n&auml;idates &auml;ra kahju h&uuml;vitamise ulatuse , korra ja t&auml;htaja ning h&uuml;vitise n&otilde;udmise aluseks olevad asjaolud .</s><s>Ametnik vastab ettepanekule kirjalikult , n&auml;idates &auml;ra , kas ta kohustub kahju h&uuml;vitama v&otilde;i keeldub sellest .</s>
+</p>
+<p>
+<s>( 2 ) Ettepaneku v&otilde;ib teha kolme kuu jooksul , arvates p&auml;evast , millal ametisse nimetamise &otilde;igust omav isik n&otilde;ude aluseks olevatest asjaoludest teada sai v&otilde;i pidi teada saama , kuid mitte hiljem , kui kolme aasta jooksul kahju tekitamisest arvates .</s>
+</p>
+<p>
+<s>( 3 ) Ettepanekule vastamiseks tuleb ametnikule anda aega v&auml;hemalt kaks n&auml;dalat .</s>
+</p>
+<p>
+<s>( 4 ) Kui ametnik ei ole &otilde;igeaegselt ettepanekule vastanud , keeldub kahju h&uuml;vitamisest v&otilde;i ei ole ettepanekus n&auml;idatud t&auml;htajaks kahju h&uuml;vitanud , m&otilde;istab ametisse nimetamise &otilde;igust omava isiku kaebuse alusel ametnikult h&uuml;vitise v&auml;lja halduskohus .</s><s>Taotlus tuleb halduskohtule esitada 30 p&auml;eva jooksul kaebuse esitamise &otilde;iguse tekkimisest arvates . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Riigi poolt isikule alusetult vabaduse v&otilde;tmisega tekitatud kahju h&uuml;vitamise seaduse muutmine</s>
+</p>
+<p>
+<s>Riigi poolt isikule alusetult vabaduse v&otilde;tmisega tekitatud kahju h&uuml;vitamise seaduses ( RT I 1997 , 48 , 775 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahv 3 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 4 pealkirjast j&auml;etakse v&auml;lja s&otilde;nad &ldquo; kohtuv&auml;lises korras &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 4 l&otilde;ige 1 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 4 l&otilde;ige 6 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 6 ) Kui avaldus h&uuml;vitise saamiseks on j&auml;etud rahuldamata v&otilde;i l&auml;bi vaatamata , v&otilde;ib isik esitada halduskohtule kaebuse h&uuml;vitise v&auml;ljam&otilde;istmiseks seaduses s&auml;testatud tingimustel . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 5 l&otilde;ige 4 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud h&uuml;vitise maksmisega loetakse isikule h&uuml;vitatuks alusetult vabaduse v&otilde;tmise t&otilde;ttu saamata j&auml;&auml;nud tulu ja sellega tekitatud mittevaraline kahju .</s><s>Otsese varalise kahju eest h&uuml;vitise kindlaksm&auml;&auml;ramisel kohaldatakse riigivastutuse seaduse s&auml;tteid . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>6 ) paragrahv 6 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>7 ) paragrahvi 7 l&otilde;ikest 1 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; v&otilde;i hagiavalduse kohtule &rdquo; ;</s>
+</p>
+<p>
+<s>8 ) paragrahvis 9 asendatakse s&otilde;nad &ldquo; esitada hagi v&auml;ljamakstud h&uuml;vitise riigile tagastamiseks &rdquo; s&otilde;nadega &ldquo; n&otilde;uda h&uuml;vitise tagastamist seaduses s&auml;testatud tingimustel ja korras &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Riigil&otilde;ivuseaduse muutmine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; 2000 , 5 , 32 ; 10 , 58 ; 19 , 117 ; 26 , 150 ; 29 , 168 ja 169 ; 39 , 237 ; 49 , 300 ; 54 , 346 ja 349 ; 55 , 365 ; 57 , 372 ja 373 ; 59 , 379 ; 60 , &otilde;iend ; 78 , 498 ; 84 , 534 ; 92 , 597 ja 598 ; 95 , 607 ja 611 ; 2001 , 2 , 2 ; 3 , 4 ; 16 , 69 ja 72 ; 27 , 151 ; 31 , 171 ; 34 , 188 ja 189 ; 36 , 201 ; 43 , 238 ja 239 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 37 l&otilde;ige 9 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 9 ) Halduskohtule kaebuse esitamisel tasutakse riigil&otilde;ivu 10 krooni , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 9 <hi rend="sup">1</hi> -12 ja 18 s&auml;testatud juhul . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 37 t&auml;iendatakse l&otilde;ikega 9 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 9 <hi rend="sup">1</hi> ) Halduskohtule kahju h&uuml;vitamiseks v&otilde;i alusetu rikastumise teel saadu tagastamiseks kaebuse esitamisel tasutakse riigil&otilde;ivu 3% summast , mille v&auml;ljam&otilde;istmist taotletakse , v&otilde;i vara v&auml;&auml;rtusest , mille tagastamiseks kohustamist taotletakse . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Kaitsev&auml;eteenistuse seaduse muutmine</s>
+</p>
+<p>
+<s>Kaitsev&auml;eteenistuse seaduses ( RT I 2000 , 28 , 167 ; 2001 , 34 , 190 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahv 187 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 187.</s><s>Kaitsev&auml;elase varaline vastutus</s>
+</p>
+<p>
+<s>( 1 ) Kaitsev&auml;elane on kohustatud h&uuml;vitama riigile s&uuml;&uuml;liselt teenistuskohustuste rikkumisega tekitatud kahju .</s>
+</p>
+<p>
+<s>( 2 ) Riigile kaitsev&auml;elase poolt tekitatud kahju on ka riigi poolt makstud h&uuml;vitis kaitsev&auml;elase teenistuskohustuste rikkumisega kolmandale isikule tekitatud kahju eest .</s>
+</p>
+<p>
+<s>( 3 ) Kaitsev&auml;elase poolt riigile tekitatud kahju eest v&auml;ljam&otilde;istetava h&uuml;vitise suuruse kindlaksm&auml;&auml;ramisel ning kahju h&uuml;vitamise korra osas kohaldatakse avaliku teenistuse seaduses ametniku varalist vastutust reguleerivaid s&auml;tteid .</s>
+</p>
+<p>
+<s>( 4 ) Kahju h&uuml;vitamiseks teeb kaitsev&auml;elasele ettepaneku ja p&ouml;&ouml;rdub halduskohtu poole h&uuml;vitise v&auml;ljam&otilde;istmiseks kaitsev&auml;elase teenistust korraldav &uuml;lem .</s><s>T&auml;htaegade osas kohaldatakse avaliku teenistuse seadust . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvid 188 ja 189 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) Avalik-&otilde;iguslikus suhtes tekitatud kahju h&uuml;vitamiseks v&otilde;i alusetult saadud raha v&otilde;i asja tagastamiseks enne k&auml;esoleva seaduse j&otilde;ustumist esitatud kaebuse v&otilde;i hagi l&auml;bivaatamisel kohaldatakse enne k&auml;esoleva seaduse j&otilde;ustumist kehtinud s&auml;tteid ja kahju h&uuml;vitamise &uuml;ldisi p&otilde;him&otilde;tteid .</s>
+</p>
+<p>
+<s>( 2 ) Enne k&auml;esoleva seaduse j&otilde;ustumist tekitatud kahju h&uuml;vitamiseks v&otilde;i alusetult &uuml;leantud raha v&otilde;i asja tagastamiseks v&otilde;ib taotluse v&otilde;i kaebuse esitada enne k&auml;esoleva seaduse j&otilde;ustumist vastava vaidluse lahendamiseks kaebuse v&otilde;i hagi esitamiseks kehtinud t&auml;htaja jooksul , kuid mitte hiljem kui kolme aasta jooksul k&auml;esoleva seaduse j&otilde;ustumisest arvates .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;iget 2 ei kohaldata , kui isik sai n&otilde;ude&otilde;iguse tekkimisest teada p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse alusel ei saa n&otilde;uda enne Eesti Vabariigi p&otilde;hiseaduse j&otilde;ustumist kehtestatud &otilde;igustloova aktiga tekitatud kahju h&uuml;vitamist .</s>
+</p>
+<p>
+<s>( 5 ) Isik , kelle taotluse alusetult vabaduse v&otilde;tmisega tekitatud kahju h&uuml;vitamiseks on Rahandusministeerium j&auml;tnud rahuldamata enne k&auml;esoleva seaduse j&otilde;ustumist , v&otilde;ib kaebuse halduskohtule esitada kuue kuu jooksul keeldumise otsuse teatavaks tegemisest arvates .</s><s>Enne k&auml;esoleva seaduse j&otilde;ustumist kohtule esitatud hagi alusetult vabaduse v&otilde;tmisega tekitatud kahju h&uuml;vitamiseks vaadatakse l&auml;bi enne k&auml;esoleva seaduse j&otilde;ustumist kehtinud alustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2002. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

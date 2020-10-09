@@ -1,0 +1,2752 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Riigihangete seadus ( terviktekst juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   17017</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Riigihangete seadus ( terviktekst juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=6></tagusage>
+         <tagusage gi=p occurs=882></tagusage>
+         <tagusage gi=s occurs=1035></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Riigihangete seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 19. oktoobril 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 84 , 534 ; terviktekst RT I 2001 , 40 , 224 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. aprillil 2001. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 50 , 284.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab riigihangete teostamise korra , riigihangetega seotud subjektide &otilde;igused ja kohustused ning vastutuse k&auml;esoleva seaduse rikkumise eest , samuti riikliku j&auml;relevalve teostamise korra .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Riigihangete m&otilde;iste ja objektid</s>
+</p>
+<p>
+<s>( 1 ) Riigihangeteks k&auml;esoleva seaduse t&auml;henduses on asjade ostmine , ehitust&ouml;&ouml;de ja teenuste tellimine , ehitust&ouml;&ouml; kontsessioonide andmine ning ideelahenduste tellimine k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud ostja poolt .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Riigihangeteks ei ole k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 1 nimetatud ostja ja Eesti Panga poolt asjade ostmine v&otilde;i teenuste tellimine riigiasutuselt , linna- v&otilde;i vallavalitsuselt v&otilde;i kohaliku omavalitsuse asutuselt ning Eesti Panga poolt asjade ostmine ja teenuste tellimine Eesti Panga seaduse ( RT I 1993 , 28 , 498 ; 30 , &otilde;iend ; 1994 , 30 , 463 ; 1998 , 64/65 , 1006 ; 1999 , 16 , 271 ; 2001 , 58 , 353 ; 59 , 358 ) &sect;-s 2 nimetatud &uuml;lesannete t&auml;itmiseks , samuti Tervishoiuameti poolt kiirabiteenuse ja Eesti Haigekassa poolt raviteenuste , tervise edendamise ja haiguste ennetamise teenuste tellimine , v&auml;lja arvatud ravimite ostmine ning meditsiinitehnika ja nendega seonduvate &otilde;iguste ostmine ja rendile v&otilde;tmine .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 50 , 284 )</s>
+</p>
+<p>
+<s>( 3 ) Riigihangete objektideks on asjad , sealhulgas varalised &otilde;igused , ning teenused , ehitust&ouml;&ouml;d , ehitust&ouml;&ouml; kontsessioonid ja ideelahendused .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Ehitust&ouml;&ouml; on mis tahes t&ouml;&ouml; , mis on seotud ehitamisega v&otilde;i ehitise v&otilde;i selle osa lammutamisega .</s><s>Ehitusgeoloogiliste ja -geodeetiliste uurimist&ouml;&ouml;de tegemine , ehitise projekteerimine , ehitusj&auml;relevalve , ehitusprojektide ja ehitiste ekspertiiside tegemine ning ehituse korraldamiseks ehituse juhtimine loetakse teenusteks .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 5 ) Ehitust&ouml;&ouml; kontsessioon on k&auml;esoleva paragrahvi l&otilde;ikes 4 s&auml;testatud ehitust&ouml;&ouml; teostamise eest saadav ehitise ekspluateerimise ainu&otilde;igus .</s><s>Ehitust&ouml;&ouml; kontsessiooni korral peab riigiasutusel olema ehitust&ouml;&ouml; kontsessiooni k&auml;sitlev luba Vabariigi Valitsuselt .</s>
+</p>
+<p>
+<s>( 6 ) Ideelahendus k&auml;esoleva seaduse t&auml;henduses on projekteerimise alal korraldatud ideekonkursist osav&otilde;tja esitatud ideekonkursi kutses m&auml;&auml;ratletud n&otilde;uetele vastava idee kavand ( edaspidi kavand ) .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esolevas seaduses s&auml;testatud kord kehtib riigihangete suhtes , mille eeldatav maksumus on aasta arvestuses koos k&auml;ibemaksuga :</s>
+</p>
+<p>
+<s>1 ) asja ostmise v&otilde;i teenuse tellimise korral 100 000 krooni ja &uuml;le selle ;</s>
+</p>
+<p>
+<s>2 ) ehitust&ouml;&ouml; tellimise korral 500 000 krooni ja &uuml;le selle ;</s>
+</p>
+<p>
+<s>3 ) &otilde;igusakti eeln&otilde;u v&auml;ljat&ouml;&ouml;tamise tellimise korral 500 000 krooni ja &uuml;le selle ;</s>
+</p>
+<p>
+<s>4 ) asja ostmise v&otilde;i teenuse tellimise korral kinnipidamisasutuselt v&otilde;i selle tootmis&uuml;ksusi haldavalt riigi asutatud &auml;ri&uuml;hingult k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 1 nimetatud ostja poolt 500 000 krooni ja &uuml;le selle ;</s>
+</p>
+<p>
+<s>5 ) ideelahenduse tellimise korral k&otilde;ik ideekonkursi autasud ja ideekonkursist osav&otilde;tjatele makstavad muud summad kokku 100 000 krooni ja &uuml;le selle ;</s>
+</p>
+<p>
+<s>6 ) k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja poolt , kelle eelneva majandusaasta netok&auml;ive oli &uuml;le 500 miljoni krooni , asja ostmise v&otilde;i teenuse v&otilde;i ideelahenduse tellimise korral 2 miljonit krooni ja &uuml;le selle ;</s>
+</p>
+<p>
+<s>7 ) k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja poolt , kelle eelneva majandusaasta netok&auml;ive oli &uuml;le 500 miljoni krooni , ehitust&ouml;&ouml; tellimise korral 4 miljonit krooni ja &uuml;le selle .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Mitmest komponendist koosnevad riigihanked</s>
+</p>
+<p>
+<s>( 1 ) Kui kavandatav riigihange sisaldab mitut riigihanke objekti k&auml;esoleva seaduse &sect; 2 t&auml;henduses , liigitatakse riigihange selle objekti j&auml;rgi , mille eest eeldatavalt makstav tasu &uuml;letab poole kogu riigihanke maksumusest .</s><s>Kui tasu mitte &uuml;hegi k&auml;esoleva seaduse &sect; 2 t&auml;henduses riigihanke objekti eest ei &uuml;leta poolt kogu riigihanke maksumusest , liigitatakse riigihange selle peamist eesm&auml;rki arvestades .</s>
+</p>
+<p>
+<s>( 2 ) Asju v&otilde;i teenuseid , mis ei ole konkreetsete ehitust&ouml;&ouml;de teostamiseks vajalikud , v&otilde;ib osta v&otilde;i tellida eraldi .</s>
+</p>
+<p>
+<s>( 3 ) Asju osta v&otilde;i teenuseid tellida v&otilde;ib k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud ostja &uuml;hes menetluses ehitust&ouml;&ouml;de tellimisega ainult juhul , kui selle ehitust&ouml;&ouml; tellimisele kohaldub sama range menetluse n&otilde;ue kui asjade ostmise v&otilde;i teenuste tellimise korral eraldi menetluses .</s><s>Kui asjade ostmisel v&otilde;i teenuste tellimisel eraldi menetluses on asjade v&otilde;i teenuste maksumus v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda , v&otilde;ib asju osta ja teenuseid tellida &uuml;hises menetluses ehitust&ouml;&ouml; tellimisega &uuml;ksnes juhul , kui sellise &uuml;hendamise tulemusena riigihanke maksumus on v&otilde;rdne ehitust&ouml;&ouml;de tellimisele kehtestatud rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Erandid</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses s&auml;testatud korda ei ole ostja kohustatud rakendama :</s>
+</p>
+<p>
+<s>1 ) riigihangete suhtes , mille teostamisel k&auml;esolevas seaduses s&auml;testatud korda j&auml;rgides tuleb avalikuks riigisaladus ;</s>
+</p>
+<p>
+<s>2 ) vee- , elektrienergia- , gaasi- , soojusenergia- , kaabellevi- ja telekommunikatsiooniteenuste tellimise korral , kui sellist teenust on v&otilde;imalik tellida ainult &uuml;helt isikult ;</s>
+</p>
+<p>
+<s>3 ) relvade , laskemoona , lahingutehnika ja nendega seotud v&auml;lja&otilde;ppevahendite ostmise ja teenuste tellimise korral ;</s>
+</p>
+<p>
+<s>4 ) arbitraa&zcaron;i v&otilde;i lepitamisteenuste tellimise korral ;</s>
+</p>
+<p>
+<s>5 ) v&auml;&auml;rtpaberite v&otilde;i muude finantsdokumentide v&auml;ljaandmise , m&uuml;&uuml;gi , ostu v&otilde;i loovutamisega seotud finantsteenuste tellimise v&otilde;i Eesti Panga poolt osutatavate teenuste tellimise korral , samuti ei ole k&auml;esolevas seaduses s&auml;testatud korda kohustatud rakendama Eesti Pank asjade v&otilde;i teenuste , mille otstarve on Eesti Panga turvalisuse v&otilde;i avaldamisele mittekuuluva teabe suhtes kehtestatud konfidentsiaalsusn&otilde;uete t&auml;itmise tagamine , ostmise v&otilde;i tellimise korral ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>6 ) teadusuuringute tellimise korral , v&auml;lja arvatud juhud , kui selle uuringu tulemust kasutab ostja ainult enda huvides oma tegevuse tarbeks ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>7 ) kinnisasjade , olemasolevate hoonete v&otilde;i nende osade kui vallasasjade ostmise v&otilde;i nendega seonduvate &otilde;iguste ostmise korral ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>8 ) teenuste tellimise korral programmi v&otilde;i selle osa omandamiseks , arendamiseks , produtseerimiseks v&otilde;i koosprodutseerimiseks ringh&auml;&auml;linguorganisatsioonide poolt ja teenuste tellimise korral saateajale ;</s>
+</p>
+<p>
+<s>9 ) t&ouml;&ouml;lepingu s&otilde;lmimise korral ;</s>
+</p>
+<p>
+<s>10 ) teenuste suhtes , mille k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja tellib sidusettev&otilde;tjalt ;</s>
+</p>
+<p>
+<s>11 ) asjade ostmise korral , ehitust&ouml;&ouml;de v&otilde;i teenuste tellimise korral , kui hankelepingu s&otilde;lmivad ehitust&ouml;&ouml; kontsession&auml;&auml;r ja sidusettev&otilde;tja , kes on ehitust&ouml;&ouml; kontsession&auml;&auml;ri poolt kantud ehitust&ouml;&ouml; kontsessiooni saamiseks esitatud pakkumisele lisatud nimekirja ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>12 ) museaalide , arhivaalide , teavikute ja teavikute kasutuslitsentside , mille eeldatav maksumus on alla k&auml;esoleva seaduse &sect;-s 16 s&auml;testatud rahvusvahelist piirm&auml;&auml;ra , ostmise korral , kui ostjaks on muuseum , arhiiv v&otilde;i raamatukogu ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>13 ) erakorralise audiitorkontrolli tellimise korral riikliku j&auml;relevalve teostamise vajaduseks , kui riikliku j&auml;relevalve asutuse poolt sellise erakorralise audiitorkontrolli m&auml;&auml;ramise &otilde;igus on seadusega s&auml;testatud ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>14 ) riigihangete suhtes , kui hankeleping s&otilde;lmitakse vastavalt rahvusvahelise organisatsiooni kohustuslikule erimenetlusele ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>15 ) telekommunikatsiooniteenuste tellimise korral , mida osutab k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud avalike telekommunikatsiooniv&otilde;rkude loomise v&otilde;i opereerimisega tegelev isik , kui teised isikud saavad osutada samu teenuseid samas geograafilises piirkonnas sarnastel tingimustel ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>16 ) asjade ostmise korral , kui k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja ostab asju eesm&auml;rgiga neid m&uuml;&uuml;a v&otilde;i rentida kolmandale isikule ja ostjal ei ole nende asjade ostmise v&otilde;i rentimise eri- v&otilde;i ainu&otilde;igust ning teistel isikutel on &otilde;igus selliseid asju m&uuml;&uuml;a v&otilde;i rendile anda ostjaga samadel tingimustel ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>17 ) elektrienergia ja elektrienergia tootmiseks vajaliku k&uuml;tuse ostmise korral energiaettev&otilde;tja poolt .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Sidusettev&otilde;tja k&auml;esoleva seaduse t&auml;henduses on ettev&otilde;tja , kelle raamatupidamise aastaaruanne konsolideeritakse ostja raamatupidamise aastaaruandega , v&otilde;i ettev&otilde;tja , kes on otseselt v&otilde;i kaudselt ostja valitseva m&otilde;ju all v&otilde;i kelle valitseva m&otilde;ju all on ostja v&otilde;i kes on koos ostjaga sama ettev&otilde;tja valitseva m&otilde;ju all , kusjuures v&auml;hemalt 80 protsenti selle ettev&otilde;tja keskmisest k&auml;ibest on viimasel kolmel aastal v&otilde;i kogu tegevusaja jooksul , kui see on l&uuml;hem kui kolm aastat , saadud selliste teenuste osutamisest ettev&otilde;tjatele , kelle sidusettev&otilde;tja ta on .</s><s>Kui sama v&otilde;i sellesarnast teenust pakub enam kui &uuml;ks ostja sidusettev&otilde;tja , v&otilde;etakse arvesse nende ettev&otilde;tjate osutatud teenuste koondk&auml;ive .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Ostja</s>
+</p>
+<p>
+<s>( 1 ) Ostja k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) riigiasutus , riigitulundusasutus , linna- v&otilde;i vallavalitsus v&otilde;i kohaliku omavalitsuse asutus ;</s>
+</p>
+<p>
+<s>2 ) avalik-&otilde;iguslik juriidiline isik v&otilde;i avalik-&otilde;igusliku juriidilise isiku asutus ;</s>
+</p>
+<p>
+<s>3 ) era&otilde;iguslik juriidiline isik , mis ei ole &auml;ri&uuml;hing ja mille k&otilde;ik asutajad v&otilde;i liikmed on kas koos v&otilde;i eraldi riik , kohalik omavalitsus ja/v&otilde;i avalik&otilde;iguslik juriidiline isik ;</s>
+</p>
+<p>
+<s>4 ) era&otilde;iguslik juriidiline isik , mis ei ole &auml;ri&uuml;hing ja mida rohkem kui 50 protsendi ulatuses finantseerib v&otilde;i mille n&otilde;ukogu v&otilde;i juhatuse liikmetest rohkem kui pooled m&auml;&auml;ravad kas koos v&otilde;i eraldi riik , kohalik omavalitsus ja/v&otilde;i avalik-&otilde;iguslik juriidiline isik ;</s>
+</p>
+<p>
+<s>5 ) ettev&otilde;tja juhul , kui ta on saanud ehitust&ouml;&ouml; kontsessiooni riigilt , kohalikult omavalitsuselt v&otilde;i k&auml;esoleva l&otilde;ike punktides 2-4 nimetatud isikult ja ta s&otilde;lmib selle kontsessiooni alusel ehitust&ouml;&ouml;de hankelepinguid , v&otilde;i ettev&otilde;tja juhul , kui riik , kohalik omavalitsus v&otilde;i k&auml;esoleva l&otilde;ike punktides 2-4 nimetatud isikud kas koos v&otilde;i eraldi finantseerivad tema konkreetset v&otilde;i kogu tegevust rohkem kui 50 protsendi ulatuses , v&otilde;i ettev&otilde;tja juhul , kui riik v&otilde;i kohalik omavalitsus kas koos v&otilde;i eraldi omavad selles ettev&otilde;tjas kas vahetult v&otilde;i teiste isikute kaudu h&auml;&auml;lteenamust v&otilde;i rohkem kui 50 protsenti aktsiatest v&otilde;i osadest ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>6 ) ettev&otilde;tja juhul , kui vastavalt konkurentsiseadusele ( RT I 1998 , 30 , 410 ; 1999 , 89 , 813 ; 2000 , 53 , 343 ; RT III 21 , 232 ) on riik v&otilde;i kohalik omavalitsus talle andnud eri- v&otilde;i ainu&otilde;iguse ja asjade ostmine v&otilde;i teenuste v&otilde;i ehitust&ouml;&ouml;de tellimine on vajalikud eri- v&otilde;i ainu&otilde;iguse teostamiseks v&otilde;i kui riik , kohalik omavalitsus v&otilde;i k&auml;esoleva l&otilde;ike punktides 2-4 nimetatud isikud kas koos v&otilde;i eraldi omavad selles ettev&otilde;tjas kas vahetult v&otilde;i teiste isikute kaudu h&auml;&auml;lteenamust v&otilde;i rohkem kui 50 protsenti aktsiatest v&otilde;i osadest ja kui tema tegevuseks on kas alaliste v&otilde;rkude loomine v&otilde;i opereerimine kavatsusega osutada avalikkusele teenust seoses vee , gaasi , elektri- v&otilde;i soojusenergia tootmise , transportimise , edastamise v&otilde;i jaotamisega v&otilde;i geograafilise ala ekspluateerimine eesm&auml;rgiga uurida v&otilde;i kaevandada k&uuml;tuseid v&otilde;i v&otilde;imaldada &otilde;hu- v&otilde;i veetranspordiettev&otilde;tjatel kasutada lennuv&auml;lja , sadamat v&otilde;i muud terminaalirajatist v&otilde;i v&otilde;rkude opereerimine , v&otilde;imaldamaks avalikkusele teenuseid raudtee- , trammi- , trollibussi- v&otilde;i bussitranspordi , automatiseeritud s&uuml;steemide v&otilde;i kaabellevi alal , v&otilde;i avalike telekommunikatsiooniv&otilde;rkude loomine v&otilde;i opereerimine &uuml;he v&otilde;i enama telekommunikatsiooniteenuse tagamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Vee , gaasi , elektri- v&otilde;i soojusenergia tootmist , transportimist , edastamist v&otilde;i jaotamist avalikkust teenindavatele v&otilde;rkudele ettev&otilde;tja poolt ei loeta k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 6 nimetatud tegevuseks , kui vee v&otilde;i elektrienergia tarbimine on vajalik mingi muu tegevuse teostamiseks kui k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 6 nimetatu v&otilde;i kui avaliku v&otilde;rgu varustamine s&otilde;ltub ainult ettev&otilde;tja enda tarbimisest ega &uuml;leta 30 protsenti ettev&otilde;tja vee v&otilde;i elektrienergia eelneva kolme aasta keskmisest kogutoodangust v&otilde;i kui gaasi v&otilde;i soojusenergia tootmine ettev&otilde;tja poolt on mingi muu , k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 6 nimetamata tegevuse teostamise v&auml;ltimatuks tagaj&auml;rjeks v&otilde;i kui avalikku v&otilde;rku varustatakse gaasi v&otilde;i soojusenergia &uuml;lej&auml;&auml;giga selle majandusliku kasutamise eesm&auml;rgil ja selline &uuml;lej&auml;&auml;k ei &uuml;leta 20 protsenti ettev&otilde;tja eelneva kolme aasta keskmisest k&auml;ibest .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Isikute v&otilde;rdne kohtlemine</s>
+</p>
+<p>
+<s>Ostja kohtleb k&otilde;iki riigihanke pakkumismenetluses osalevaid isikuid ( edaspidi pakkuja ) v&otilde;rdselt .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Hankelepingu s&otilde;lmimise kavatsus</s>
+</p>
+<p>
+<s>Ostja korraldab riigihanke pakkumismenetluse ( edaspidi pakkumismenetlus ) eesm&auml;rgiga kasutada rahalisi vahendeid s&auml;&auml;stlikult ja ratsionaalselt ning s&otilde;lmida riigihanke leping ( edaspidi hankeleping ) .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Pakkumismenetluse algamine ja l&otilde;ppemine</s>
+</p>
+<p>
+<s>( 1 ) Pakkumismenetluse alguseks on pakkumise kutse , ideekonkursi kutse v&otilde;i v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse teate esitamine registrile .</s>
+</p>
+<p>
+<s>( 2 ) Pakkumismenetluse l&otilde;ppemise aluseks on :</s>
+</p>
+<p>
+<s>1 ) hankelepingu s&otilde;lmimine v&otilde;i ideekonkursi v&otilde;itja v&auml;ljaselgitamine ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;ikide pakkumiste tagasil&uuml;kkamine ;</s>
+</p>
+<p>
+<s>3 ) pakkumismenetluse t&uuml;histamine ;</s>
+</p>
+<p>
+<s>4 ) pakkumiste v&otilde;i pakkumismenetluses osalemise taotluste mitteesitamine ;</s>
+</p>
+<p>
+<s>5 ) pakkumiste j&otilde;usoleku t&auml;htaja l&otilde;ppemine ja hankelepingu s&otilde;lmimata j&auml;tmine pakkujast s&otilde;ltuvatel p&otilde;hjustel .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Konfidentsiaalsus</s>
+</p>
+<p>
+<s>( 1 ) Ostja ei avalikusta pakkujatelt v&otilde;i pakkumismenetluses osalemist taotlevatelt isikutelt ( edaspidi taotleja ) nende ning pakkuja ja taotleja ei avalikusta ostjalt tema &auml;ritegevuse kohta saadud informatsiooni ega pakkumiste ja l&auml;bir&auml;&auml;kimiste sisu , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Teated , otsused ja muud dokumendid , millele k&auml;esolevas seaduses viidatakse , peavad olema koostatud nende sisu t&auml;ielikku s&auml;ilimist tagavas vormis ning ostja s&auml;ilitab neid vastavalt seadustele .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Pakkumismenetluse korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Pakkumismenetluse korraldajaks on ostja , kes m&auml;&auml;rab riigihanke eest vastutava isiku .</s>
+</p>
+<p>
+<s>( 2 ) Ostjal on &otilde;igus volitada teisi isikuid korraldama k&auml;esoleva seaduse s&auml;tete alusel pakkumismenetlust ja teostama pakkumismenetlusega seotud toiminguid .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus kinnitab nende riigihangete objektide loetelu , mille suhtes teostatakse konsolideeritult riigihankeid , ja selliste riigihangete pakkumismenetluste korraldajad .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsusel on &otilde;igus kohustada valitsusasutusi ja valitsusasutuste hallatavaid riigiasutusi korraldama pakkumismenetlust k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud pakkumismenetluste korraldaja kaudu , kui selline riigihange on kantud k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud loetellu .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 5 ) Riigiasutus ja riigitulundusasutus on kohustatud korraldama pakkumismenetluse , kohalik omavalitsus ja kohaliku omavalitsuse asutus v&otilde;ivad korraldada pakkumismenetluse k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud pakkumismenetluste korraldaja kaudu lepingu alusel k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud loetellu kantud riigihangete objektide korral .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) Kui pakkumismenetlus korraldatakse selleks , et s&otilde;lmida raamleping k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud pakkumismenetluste korraldaja kaudu , loetakse selline pakkumismenetluste korraldaja k&auml;esoleva seaduse t&auml;henduses ostjaks .</s><s>Kui pakkumismenetlus korraldatakse selleks , et s&otilde;lmida hankeleping , mis ei ole raamleping , k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud pakkumismenetluste korraldaja kaudu , loetakse selline pakkumismenetluste korraldaja k&auml;esoleva seaduse t&auml;henduses ostjaks pakkumismenetluse jooksul kuni hankelepingu s&otilde;lmimiseni .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 7 ) Ehitust&ouml;&ouml;de ja ehitiste projekteerimise riigihangete korraldamise eeskirja kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Riigihangete Amet</s>
+</p>
+<p>
+<s>Riigihangete Amet ( edaspidi Amet ) :</s>
+</p>
+<p>
+<s>1 ) teostab riiklikku j&auml;relevalvet , mille k&auml;igus kontrollib riigihangete teostamise vastavust &otilde;igusaktidega kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) rakendab riigihangete informatsioonis&uuml;steemi ja korraldab riikliku riigihangete registri ( edaspidi register ) tegevust ;</s>
+</p>
+<p>
+<s>3 ) edastab riigihangete kohta informatsiooni rahvusvahelistele organisatsioonidele vastavalt Eesti Vabariigi s&otilde;lmitud rahvusvahelistele lepingutele ;</s>
+</p>
+<p>
+<s>4 ) hindab riigihangete s&uuml;steemi toimimist ja teeb ettepanekuid selle parandamiseks ;</s>
+</p>
+<p>
+<s>5 ) annab riigihangetega seotud k&uuml;simustes konsultatsioone ;</s>
+</p>
+<p>
+<s>6 ) teostab vaidlustuste l&auml;bivaatamist ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>7 ) omab &otilde;igust riikliku j&auml;relevalve teostamisel saada ostjalt riigihangete kohta kogu vajaminevat informatsiooni , samuti riigihanget puudutavate dokumentide originaale v&otilde;i &auml;rakirju .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigihanke maksumuse arvutamine</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Riigihanke maksumuse arvutamise p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Kui riigihange on jaotatud mitmeks osaks , summeeritakse riigihanke eeldatava maksumuse m&auml;&auml;ramisel k&otilde;ikide osade maksumus .</s><s>Riigihanke iga osa ostetakse v&otilde;i tellitakse vastavalt riigihanke summeeritud eeldatava maksumuse suhtes rakendatavale pakkumismenetlusele .</s>
+</p>
+<p>
+<s>( 2 ) Ostja ei v&otilde;i riigihanke teostamiseks kehtestatud korra v&otilde;i n&otilde;uete j&auml;rgimise v&auml;ltimiseks jaotada riigihanget osadeks .</s>
+</p>
+<p>
+<s>( 3 ) Kui pakkumismenetlus teostatakse asjade ostmiseks , ehitust&ouml;&ouml;de v&otilde;i teenuste tellimiseks teatud t&auml;htaja jooksul , loetakse riigihanke eeldatavaks maksumuseks k&otilde;ikide selliselt ostetavate asjade , tellitavate ehitust&ouml;&ouml;de v&otilde;i teenuste suurim hinnanguline kogumaksumus .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Raamlepingud</s>
+</p>
+<p>
+<s>( 1 ) Raamlepingu v&otilde;ib s&otilde;lmida kuni neljaks aastaks , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Ehitust&ouml;&ouml;de riigihangete korral , mille jaoks rahalised vahendid hankelepingu s&otilde;lmimisel on olemas osaliselt , v&otilde;ib s&otilde;lmida riigihanke objekti kohta raamlepingu .</s>
+</p>
+<p>
+<s>( 3 ) Raamlepingu s&otilde;lmimise kavatsusest peab ostja teatama pakkumise kutses .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>T&auml;iendavad tingimused</s>
+</p>
+<p>
+<s>Kui kavandatava hankelepingu tingimuste kohaselt ostja omandab &otilde;iguse osta asju v&otilde;i tellida ehitust&ouml;id v&otilde;i teenuseid lisaks neile asjadele , ehitust&ouml;&ouml;dele v&otilde;i teenustele , mille ostmises v&otilde;i tellimises hankelepingu s&otilde;lmimisel kokku lepitakse , arvestatakse riigihanke maksumuse m&auml;&auml;ramisel ka t&auml;iendavalt ostetavate v&otilde;i tellitavate asjade , ehitust&ouml;&ouml;de v&otilde;i teenuste maksumust .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Riigihanke maksumuse m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Teenuste tellimise korral kavandatavate t&auml;htajatute hankelepingute v&otilde;i hankelepingute alusel , mille kehtivusaeg on pikem kui 48 kuud , v&otilde;etakse riigihanke eeldatava maksumuse m&auml;&auml;ramisel arvesse teenuste osutamise &uuml;he kuu maksumus korrutatult 48-ga .</s>
+</p>
+<p>
+<s>( 2 ) Kindlustusteenuste tellimise korral v&otilde;etakse riigihanke eeldatava maksumuse m&auml;&auml;ramisel arvesse makstavate kindlustusmaksete suurus , panga- v&otilde;i muude finantsteenuste tellimise korral intressid , teenustasud ja muud liiki tasud .</s>
+</p>
+<p>
+<s>( 3 ) Kui riigihange n&auml;eb ette asjade ostmise koos teenuste tellimisega , on riigihanke eeldatava maksumuse m&auml;&auml;ramisel aluseks asjade ostmise ja teenuste tellimise kogumaksumus .</s>
+</p>
+<p>
+<s>( 4 ) Kui asju ostetakse v&otilde;i teenuseid tellitakse raamlepingu v&otilde;i uuendatava hankelepingu alusel , m&auml;&auml;ratakse riigihanke eeldatav maksumus :</s>
+</p>
+<p>
+<s>1 ) eelmise kalendriaasta v&otilde;i viimase 12 kuu jooksul s&otilde;lmitud sarnaste hankelepingute kogumaksumuse alusel , mida on v&otilde;imaluse korral korrigeeritud eeloleval 12 kuul eeldatavate asjade v&otilde;i teenuste koguse v&otilde;i hinna muudatustega v&otilde;i</s>
+</p>
+<p>
+<s>2 ) eelmise hankelepingu s&otilde;lmimisele j&auml;rgnenud 12 kuu v&otilde;i kogu hankelepingu kehtivusaja jooksul s&otilde;lmitud hankelepingute kogumaksumuse alusel , kui see periood oli pikem kui 12 kuud , s&otilde;ltuvalt sellest , milline meetod annab tulemuseks suurema summa .</s>
+</p>
+<p>
+<s>( 5 ) Ehitust&ouml;&ouml;de tellimise korral on riigihanke eeldatava maksumuse m&auml;&auml;ramisel aluseks k&otilde;ikide teostatavate eri liiki ehitust&ouml;&ouml;de summaarne maksumus .</s>
+</p>
+<p>
+<s>( 6 ) Ostjal tuleb ehitust&ouml;&ouml;de eeldatavale maksumusele juurde arvestada v&otilde;imalike asjade ja teenuste , mis on vajalikud ja mida ta ise pakkujale &uuml;le annab v&otilde;i osutab , eeldatav maksumus .</s>
+</p>
+<p>
+<s>( 7 ) Ehitust&ouml;&ouml; kontsessiooni eeldatav maksumus m&auml;&auml;ratakse tasu alusel , mis ostjal tuleks nende ehitust&ouml;&ouml;de eest maksta , kui ta ehitust&ouml;&ouml; kontsessiooni andmise asemel telliks ehitust&ouml;&ouml;de teostamise .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Rahvusvahelised piirm&auml;&auml;rad</s>
+</p>
+<p>
+<s>( 1 ) Riigihanke maksumuse rahvusvahelised piirm&auml;&auml;rad on asjade ostmise ja teenuste tellimise korral :</s>
+</p>
+<p>
+<s>1 ) riigiasutuse poolt - 130 000 eurot ;</s>
+</p>
+<p>
+<s>2 ) muu ostja poolt , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja , - 200 000 eurot ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja poolt , v&auml;lja arvatud avalikkust kaabellevi- v&otilde;i telekommunikatsiooniteenustega varustav ettev&otilde;tja , - 400 000 eurot ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud avalikkust kaabellevi- v&otilde;i telekommunikatsiooniteenustega varustava ettev&otilde;tja poolt - 600 000 eurot .</s>
+</p>
+<p>
+<s>( 2 ) Riigihanke maksumuse rahvusvaheline piirm&auml;&auml;r on ehitust&ouml;&ouml;de tellimise korral 5 miljonit eurot .</s>
+</p>
+<p>
+<s>( 3 ) Otsustamaks , kas riigihanke eeldatav maksumus ulatub k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 s&auml;testatud rahvusvahelise piirm&auml;&auml;rani , v&otilde;etakse arvesse riigihanke eeldatav maksumus ilma k&auml;ibemaksuta , kusjuures :</s>
+</p>
+<p>
+<s>1 ) asjade ostmise korral on riigihanke eeldatava maksumuse m&auml;&auml;ramisel aluseks kavandatavate t&auml;htajaliste hankelepingute korral hankelepingu hinnanguline kogumaksumus hankelepingu kehtivusaja jooksul ja kavandatavate t&auml;htajatute hankelepingute v&otilde;i &auml;ramuutva tingimusega s&otilde;lmitud hankelepingute v&otilde;i hankelepingu t&auml;htaja kindlalt m&auml;&auml;ratlemise v&otilde;imatuse korral eeldatav hankelepingu kogumaksumus esimese 48 kuu jooksul ;</s>
+</p>
+<p>
+<s>2 ) teenuste tellimise korral , kui kogumaksumust ei ole n&auml;idatud , on riigihanke eeldatava maksumuse m&auml;&auml;ramisel aluseks kavandatavate t&auml;htajaliste hankelepingute korral , mille kehtivusaeg on kuni 48 kuud , teenuste kogumaksumus hankelepingu kogu kehtivusaja jooksul .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Riigihanke jaotamine osadeks &uuml;he pakkumismenetluse raames</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib &uuml;he pakkumismenetluse raames teostatava riigihanke jaotada osadeks , kusjuures selline jaotamine v&otilde;ib toimuda objekti v&otilde;i koguse j&auml;rgi v&otilde;i nii objekti kui ka koguse j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Kui ostja jaotab riigihanke osadeks , tuleb v&otilde;imalik osade suurus pakkumise kutses v&otilde;i pakkumise kutse dokumentides selgelt &auml;ra n&auml;idata .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Teated</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Eelteade</s>
+</p>
+<p>
+<s>( 1 ) Riigihankest , mille eeldatav maksumus on asjade ostmise v&otilde;i teenuste tellimise korral 750 000 eurot v&otilde;i &uuml;le selle v&otilde;i ehitust&ouml;&ouml;de tellimise korral 5 miljonit eurot v&otilde;i &uuml;le selle ning mida ostja j&auml;rgmise 12 kuu jooksul teostada kavatseb , teatab ostja eelarveaasta alguses eelteate kaudu :</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>1 ) asjade ostmise korral iga riigihanke eeldatava maksumuse asjade liikide l&otilde;ikes ;</s>
+</p>
+<p>
+<s>2 ) teenuste tellimise korral iga riigihanke eeldatava maksumuse teenuste liikide l&otilde;ikes ;</s>
+</p>
+<p>
+<s>3 ) ehitust&ouml;&ouml;de tellimise korral iga riigihanke eeldatava maksumuse ja olulisema iseloomustuse .</s>
+</p>
+<p>
+<s>( 2 ) Ostja esitab registrile eelteate eesti keeles , lisades eelteate ingliskeelse t&otilde;lke .</s>
+</p>
+<p>
+<s>( 3 ) Eelteates peavad sisalduma k&auml;esoleva paragrahvi l&otilde;ike 1 punkti 1 , 2 v&otilde;i 3 ning k&auml;esoleva seaduse &sect; 19 l&otilde;ike 1 punktides 1 , 2 ja 3 s&auml;testatud andmed .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Eelteate vormin&otilde;uded ja esitamise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Riigihanke v&auml;ljakuulutamine</s>
+</p>
+<p>
+<s>( 1 ) Riigihanke v&auml;ljakuulutamiseks avatud pakkumismenetluse , piiratud pakkumismenetluse ja v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral esitab ostja registrile avaldamiseks pakkumise kutse , milles peavad sisalduma v&auml;hemalt j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) ostja nimi , aadress ja muud kontaktandmed , olemasolu korral registrikood ;</s>
+</p>
+<p>
+<s>2 ) riigihanke objekti nimetus ja iseloomustus ning riigihanke objektile v&otilde;imalikult t&auml;pselt vastav &uuml;htse riigihangete objektide klassifikatsiooni kood v&otilde;i koodid ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>3 ) pakkumismenetluse liik ;</s>
+</p>
+<p>
+<s>4 ) riigihanke eest vastutava isiku nimi , ametinimetus ja kontaktandmed ;</s>
+</p>
+<p>
+<s>5 ) hankelepingu t&auml;itmise t&auml;htp&auml;ev ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>6 ) avatud pakkumismenetluse korral pakkumise kutse dokumentide v&auml;ljastamise koht ja tingimused ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>7 ) avatud pakkumismenetluse korral pakkujate kvalifitseerimise majanduslike ja tehniliste tingimuste miinimumn&otilde;uded ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>8 ) pakkumise tagatise n&otilde;utavus ja suurus ;</s>
+</p>
+<p>
+<s>9 ) pakkumise kutse dokumentide eest tasumisele kuuluv summa ;</s>
+</p>
+<p>
+<s>10 ) avatud pakkumismenetluse korral pakkumiste esitamise koht , t&auml;htp&auml;ev ja kellaaeg ;</s>
+</p>
+<p>
+<s>11 ) piiratud pakkumismenetluse ja v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral pakkumismenetluses osalemise kirjalike taotluste esitamise koht , t&auml;htp&auml;ev ja kellaaeg ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>12 ) piiratud pakkumismenetluse ja v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral taotlejate kvalifitseerimise tingimused ning m&auml;rge informatsiooni ja dokumentide kohta , mis tuleb pakkumismenetluses osalemise kirjalikule taotlusele lisada taotlejate kvalifikatsiooni hindamiseks ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>13 ) piiratud pakkumismenetluse korral pakkujate valiku objektiivsed kriteeriumid .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Pakkumise kutse esitatakse eesti keeles .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Riigihanke korral , mille maksumus on v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda , peab ostja esitama pakkumise kutse ingliskeelse t&otilde;lke , muudel juhtudel v&otilde;ib lisada pakkumise kutse ingliskeelse kokkuv&otilde;tte .</s><s>Pakkumise kutse ingliskeelses kokkuv&otilde;ttes peab sisalduma informatsioon v&auml;hemalt k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1 ja 2 ning punktides 6 ja 10 v&otilde;i 11 ja 12 s&auml;testatu kohta .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Ostja ei v&otilde;i avatud pakkumismenetluse , piiratud pakkumismenetluse ja v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral pakkumise kutset avalikustada enne , kui pakkumise kutse on registrisse kantud .</s><s>Pakkumise kutse muutmise korral ei v&otilde;i muutuda riigihanke objekti nimetus ja iseloomustus , avatud pakkumismenetluse korral pakkujate kvalifitseerimise majanduslike ja tehniliste tingimuste miinimumn&otilde;uded , pakkumise tagatise n&otilde;utavus ja suurus .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 5 ) Riigihanke objektile &uuml;htse riigihangete objektide klassifikatsiooni koodi omistamisel l&auml;htutakse &uuml;htse riigihangete objektide klassifikatsiooni nimetuse alajaotisest , mis vastab v&otilde;imalikult t&auml;pselt riigihanke objektile .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) &Uuml;htse riigihangete objektide klassifikatsiooni kinnitab majandusminister .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 7 ) Pakkumise kutse vormin&otilde;uded ja esitamise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Deklaratsioonid</s>
+</p>
+<p>
+<s>( 1 ) Ostja esitab k&uuml;mne p&auml;eva jooksul p&auml;rast pakkumismenetluse l&otilde;ppemist registrile riigihanke deklaratsiooni ( edaspidi deklaratsioon ) .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Ostja esitab registrile k&uuml;mne p&auml;eva jooksul ideekonkursi v&otilde;itja otsustamisest arvates sellekohase deklaratsiooni .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja esitatav deklaratsioon ei tohi sisaldada informatsiooni , mille avalikustamine oleks vastuolus avaliku huviga , kahjustaks teiste isikute seaduslikke &auml;rihuve v&otilde;i vaba konkurentsi .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Deklaratsioonis peavad sisalduma :</s>
+</p>
+<p>
+<s>1 ) ostja nimi , aadress ja muud kontaktandmed , olemasolu korral registrikood ;</s>
+</p>
+<p>
+<s>2 ) riigihanke objekti nimetus ja iseloomustus ning riigihanke objektile v&otilde;imalikult t&auml;pselt vastav &uuml;htse riigihangete objektide klassifikatsiooni kood v&otilde;i koodid ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>3 ) pakkumismenetluse liik ;</s>
+</p>
+<p>
+<s>4 ) riigihanke eest vastutava isiku nimi , ametinimetus ja kontaktandmed ;</s>
+</p>
+<p>
+<s>5 ) pakkumised esitanud pakkujate nimed , aadressid ja muud kontaktandmed , olemasolu korral registrikoodid ;</s>
+</p>
+<p>
+<s>6 ) kvalifitseeritud pakkujate nimed , aadressid ja muud kontaktandmed , olemasolu korral registrikoodid ;</s>
+</p>
+<p>
+<s>7 ) hankelepingu s&otilde;lmimise kuup&auml;ev , maksumus ja teised olulised tingimused ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>8 ) k&otilde;ikide vastavaks tunnistatud pakkumiste maksumused v&otilde;i mitme hindamiskriteeriumi kasutamise korral k&otilde;ikide vastavaks tunnistatud pakkumiste maksumused ja vastavalt hindamiskriteeriumidele saavutatud v&auml;&auml;rtuspunktid v&otilde;i muu hindamistulem ning selliste pakkumiste esitajate nimed ja olemasolu korral registrikoodid ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>9 ) andmed pakkumismenetluse k&auml;igus kohtusse esitatud kaebuste kohta ;</s>
+</p>
+<p>
+<s>10 ) pakkumismenetluse t&uuml;histamise v&otilde;i k&otilde;igi pakkumiste tagasil&uuml;kkamise p&otilde;hjus ning alus , millele toetudes seda tehti ;</s>
+</p>
+<p>
+<s>11 ) pakkumismenetluse valiku p&otilde;hjendus , kui ei kasutatud avatud pakkumismenetlust .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 5 ) Ideekonkursi deklaratsioonis peavad sisalduma :</s>
+</p>
+<p>
+<s>1 ) ostja nimi , aadress ja muud kontaktandmed , olemasolu korral registrikood ;</s>
+</p>
+<p>
+<s>2 ) ideekonkursi nimetus ja iseloomustus ;</s>
+</p>
+<p>
+<s>3 ) ideekonkursist osav&otilde;tjate nimed ja aadressid ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>4 ) auhinnatud kavandi esitaja nimi ja aadress ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>5 ) ideekonkursist osav&otilde;tjate n&otilde;utavat kvalifikatsiooni v&otilde;i selle puudumist kinnitav teave ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>6 ) ideekonkursi autasude ja ideekonkursist osav&otilde;tjatele makstavate muude summade kogumaksumus ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>7 ) kavandite hindamise ja v&otilde;rdlemise kokkuv&otilde;te .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) Deklaratsioonide vormin&otilde;uded ja esitamise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Riigihanke aruanne</s>
+</p>
+<p>
+<s>( 1 ) Ostja koostab k&uuml;mne p&auml;eva jooksul hankelepingu l&otilde;ppemise p&auml;evast arvates riigihanke kirjaliku aruande , milles sisalduvad :</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>1 ) ostja nimi , aadress ja muud kontaktandmed , olemasolu korral registrikood ;</s>
+</p>
+<p>
+<s>2 ) riigihanke objekti nimetus ja iseloomustus ning riigihanke objektile v&otilde;imalikult t&auml;pselt vastav &uuml;htse riigihangete objektide klassifikatsiooni kood v&otilde;i koodid ja kogumaksumus ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>3 ) hankelepingu oluliste tingimuste muudatused ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>4 ) hankelepingu t&auml;itmise k&auml;igus esitatud pretensioonid .</s>
+</p>
+<p>
+<s>( 2 ) Riigihanke aruannet s&auml;ilitatakse hankelepingu l&otilde;ppemisele j&auml;rgneva neljanda aasta l&otilde;puni .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Ostja esitab registrile riigihanke aruande kohe p&auml;rast selle koostamist .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Riigihanke aruande vormin&otilde;uded ja esitamise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Register</s>
+</p>
+<p>
+<s>( 1 ) Eelteadete , teadete , pakkumise kutsete , ideekonkursi kutsete , deklaratsioonide , riigihangete aruannete ja vaidlustuste andmed kantakse registrisse .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Registri asutab ja registri pidamise p&otilde;him&auml;&auml;ruse kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Registri vastutav ja volitatud t&ouml;&ouml;tleja on Amet .</s>
+</p>
+<p>
+<s>( 4 ) Registrit peetakse infotehnoloogilise andmebaasina .</s>
+</p>
+<p>
+<s>( 5 ) Eelteated , teated , pakkumise kutsed , ideekonkursi kutsed , deklaratsioonid , riigihangete aruanded ja vaidlustuste andmed esitatakse registrile elektrooniliselt .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) Registri p&otilde;hi&uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) eelteadete , teadete , pakkumise kutsete , ideekonkursi kutsete , deklaratsioonide , riigihangete aruannete ja vaidlustuste andmete kandmine registrisse ;</s>
+</p>
+<p>
+<s>2 ) registrisse kantud eelteateid , teateid , pakkumise kutseid , ideekonkursi kutseid , deklaratsioone , riigihangete aruandeid ja vaidlustusi k&auml;sitleva teabe t&ouml;&ouml;tlemine .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 7 ) Ostja , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 1 nimetatud ostja , tasub eelteate , pakkumise kutse ja ideekonkursi kutse andmete registrisse kandmise eest riigil&otilde;ivu .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 8 ) Andmete registrile esitajad vastutavad nende poolt esitatud andmete &otilde;igsuse eest .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Registrisse kantud andmete avaldamine</s>
+</p>
+<p>
+<s>( 1 ) Register on avalik .</s>
+</p>
+<p>
+<s>( 2 ) Registri veebilehel avaldatakse andmed registrisse kantud :</s>
+</p>
+<p>
+<s>1 ) eelteadete kohta ;</s>
+</p>
+<p>
+<s>2 ) teadete kohta ;</s>
+</p>
+<p>
+<s>3 ) pakkumise kutsete kohta ;</s>
+</p>
+<p>
+<s>4 ) ideekonkursi kutsete kohta ;</s>
+</p>
+<p>
+<s>5 ) deklaratsioonide kohta ;</s>
+</p>
+<p>
+<s>6 ) riigihangete aruannete kohta ;</s>
+</p>
+<p>
+<s>7 ) vaidlustuste kohta .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Registrisse kantud andmetele tagab register juurdep&auml;&auml;su kuni viie aasta m&ouml;&ouml;dumiseni hankelepingu v&otilde;i ideekonkursi l&otilde;ppemisest arvates .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pakkumise kutse dokumendid</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Pakkumise kutse dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Pakkumise kutse dokumentides peavad sisalduma v&auml;hemalt j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) hankelepingu t&auml;itmise t&auml;htp&auml;ev ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) tehniline kirjeldus ;</s>
+</p>
+<p>
+<s>3 ) hindamiskriteeriumid , mida kasutatakse pakkumise edukuse &uuml;le otsustamisel ja milleks v&otilde;ib olla kas &uuml;ksnes madalaim hind v&otilde;i majanduslikult soodsaim pakkumine , mille kindlaksm&auml;&auml;ramise aluseks v&otilde;ivad olenevalt konkreetsest riigihanke objektist olla mitmesugused objektiivset hindamist v&otilde;imaldavad kriteeriumid ning nende suhteline osakaal protsentides v&otilde;i v&auml;&auml;rtuspunktides ;</s>
+</p>
+<p>
+<s>4 ) hankelepingu tingimused , mida ostja oskab momendil esitada ;</s>
+</p>
+<p>
+<s>5 ) maksetingimused ;</s>
+</p>
+<p>
+<s>6 ) pakkumise tagatise suurus juhul , kui ostja n&otilde;uab pakkumise tagatise esitamist ;</s>
+</p>
+<p>
+<s>7 ) pakkumise vormistamise keel v&otilde;i keeled ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>8 ) raha&uuml;hik v&otilde;i -&uuml;hikud , milles esitatakse pakkumise maksumus ;</s>
+</p>
+<p>
+<s>9 ) aadress , kuhu pakkumised saata v&otilde;i tuua ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>10 ) pakkumist sisaldava pakendi m&auml;rgistamise juhised ;</s>
+</p>
+<p>
+<s>11 ) pakkumiste esitamise t&auml;htp&auml;ev ja kellaaeg ;</s>
+</p>
+<p>
+<s>12 ) aadress , kuhu p&ouml;&ouml;rduda riigihanke ja pakkumise kutse dokumentide sisu kohta t&auml;iendava informatsiooni saamiseks , ning muud kontaktandmed ;</s>
+</p>
+<p>
+<s>13 ) pakkumiste j&otilde;usoleku t&auml;htaeg ;</s>
+</p>
+<p>
+<s>14 ) pakkumiste avamise koht , kuup&auml;ev ja kellaaeg ;</s>
+</p>
+<p>
+<s>15 ) avatud pakkumismenetluse korral pakkujate kvalifitseerimise tingimused ning m&auml;rge informatsiooni ja dokumentide kohta , mis tuleb pakkumisele lisada pakkujate kvalifikatsiooni hindamiseks ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>16 ) m&auml;rge selle kohta , millisel juhul j&auml;tab ostja endale v&otilde;imaluse tagasi l&uuml;kata k&otilde;ik pakkumised , kui ta n&auml;eb ette sellise v&otilde;imaluse ;</s>
+</p>
+<p>
+<s>17 ) &uuml;hise pakkumise esitamise v&otilde;imalus ja kord , kui ostja n&auml;eb ette sellise v&otilde;imaluse ;</s>
+</p>
+<p>
+<s>18 ) pakkumise struktuur .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Pakkumise kutse dokumentides v&otilde;ib ostja n&otilde;uda , et pakkuja teataks oma pakkumises enda poolt teostatava hanke mahu , samuti kavatsetava allhanke suuruse , kusjuures allhange ei v&auml;henda pakkuja enda vastutust .</s>
+</p>
+<p>
+<s>( 3 ) Ostja v&otilde;ib n&otilde;uda pakkumise kutse dokumentide eest tasumist , kui vastava tasu suurus on pakkumise kutses nimetatud .</s><s>Tasu suurus ei v&otilde;i &uuml;letada pakkumise kutse dokumentide paljundamise ja k&auml;ttetoimetamise kulusid .</s>
+</p>
+<p>
+<s>( 4 ) Kui pakkumise kutses oli m&auml;rgitud tasu pakkumise kutse dokumentide eest , peab ostja v&auml;ljastama pakkumise kutse dokumendid p&auml;rast seda , kui pakkumise kutses m&auml;rgitud tasu on makstud .</s>
+</p>
+<p>
+<s>( 5 ) Ostja peab v&otilde;imaldama pakkumismenetluses osalemisest huvitatud isikul enda juures tasuta tutvuda pakkumise kutse dokumentidega .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) V&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse ja v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral esitab ostja pakkumise kutse dokumentides k&auml;esoleva paragrahvi l&otilde;ikes 1 loetletud andmetest need , mida ta peab vajalikuks .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Muudatused pakkumise kutse dokumentides</s>
+</p>
+<p>
+<s>Ostja v&otilde;ib pakkumise kutse dokumentides teha muudatusi tingimusel , et need saadetakse &uuml;hel ja samal p&auml;eval k&otilde;ikidele pakkumise kutse dokumendid saanud pakkujatele pakkumiste esitamise t&auml;htaja esimese poole jooksul .</s><s>Vaidlustuse v&otilde;i kaebuse esitamise korral v&otilde;ib ostja pikendada pakkumiste esitamise t&auml;htaega .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Tehniline kirjeldus</s>
+</p>
+<p>
+<s>( 1 ) Tehniline kirjeldus on riigihanke korras ostetavate asjade v&otilde;i tellitavate ehitust&ouml;&ouml;de v&otilde;i teenuste omaduste loetelu v&otilde;i neid omadusi m&otilde;jutava protsessi kirjeldus .</s><s>Ehitust&ouml;&ouml;de tellimise korral on tehniliseks kirjelduseks vastavaid jooniseid , seletusi , kvaliteedin&otilde;udeid ja muid vajalikke dokumente sisaldavad ehitusprojekti dokumendid ulatuses ja mahus , mis v&otilde;imaldavad korraldada ehitust&ouml;&ouml;v&otilde;ttu .</s>
+</p>
+<p>
+<s>( 2 ) Tehniline kirjeldus ei v&otilde;i anda osale pakkujatest konkurentsis eeliseid ja sellega ei v&otilde;i luua t&otilde;kkeid rahvusvahelisele kaubandusele .</s>
+</p>
+<p>
+<s>( 3 ) Ostjad ei v&otilde;i tehnilise kirjelduse koostamisel kasutada nende isikute n&otilde;uandeid , kellel v&otilde;ib selle riigihanke osas olla &auml;rihuve .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Tehnilise kirjelduse koostamine</s>
+</p>
+<p>
+<s>( 1 ) Tehnilise kirjelduse v&otilde;ib koostada tehnilise normi v&otilde;i standardi alusel .</s>
+</p>
+<p>
+<s>( 2 ) Tehnilises kirjelduses loetletakse spetsiifilist liiki , spetsiifilisest allikast ostetavaid v&otilde;i spetsiifilise protsessi tulemusena valmivaid asju , mis annavad teatud pakkujatele eelise ja v&auml;listavad teiste pakkujate osalemise , ainult siis , kui selline spetsifikatsioon on riigihanke objekti ise&auml;rasuse t&otilde;ttu v&auml;ltimatu .</s>
+</p>
+<p>
+<s>( 3 ) Tehnilises kirjelduses on lubatud loetleda andmeid konkreetse p&auml;ritolu v&otilde;i tootmismeetodi kohta , t&uuml;&uuml;pe , kaubam&auml;rke v&otilde;i patente v&otilde;i neile viidata ainult juhul , kui sellisele loetelule v&otilde;i viitele on lisatud s&otilde;nad &ldquo; v&otilde;i sellega samav&auml;&auml;rne &rdquo; ja kui tehnilises kirjelduses ei ole v&otilde;imalik riigihanke objekti muul viisil piisavalt t&auml;pselt ning k&otilde;ikidele arusaadavalt iseloomustada .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Standardid</s>
+</p>
+<p>
+<s>( 1 ) Tehnilises kirjelduses v&otilde;ib viidata rahvusvahelistele standarditele juhul , kui need ei ole Eesti standardina kasutusele v&otilde;etud .</s>
+</p>
+<p>
+<s>( 2 ) Ostjal on lubatud k&auml;esoleva seaduse &sect; 27 l&otilde;ikes 1 ja k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud n&otilde;uetest k&otilde;rvale kalduda , kui :</s>
+</p>
+<p>
+<s>1 ) riigihanke objekt ei vasta nimetatud standarditele ;</s>
+</p>
+<p>
+<s>2 ) nimetatud standardite kasutamisel tuleks osta asju , mis ei sobi kokku juba kasutusel olevate asjadega v&otilde;i mis tooksid kaasa suuri t&auml;iendavaid kulutusi v&otilde;i tehnilisi probleeme ;</s>
+</p>
+<p>
+<s>3 ) nimetatud standardid ei ole konkreetseks rakenduseks sobivad ega arvesta tehnilisi uuendusi , mis on aset leidnud p&auml;rast nende standardite kasutuselev&otilde;tmist ;</s>
+</p>
+<p>
+<s>4 ) riigihanke objekt on oma olemuselt t&auml;ielikult uuenduslik ja seet&otilde;ttu ei ole olemasolevate standardite rakendamine v&otilde;imalik ;</s>
+</p>
+<p>
+<s>5 ) tehnilised normid v&otilde;i standardid on omavahel vastuolus .</s>
+</p>
+<p>
+<s>( 3 ) Ostja tagab pakkujatele v&otilde;imaluse vastava taotluse alusel tutvuda tehnilise normi v&otilde;i standardiga , millele viidatakse pakkumise kutse dokumentides v&otilde;i mille ta kavatseb aluseks v&otilde;tta riigihanke korral , millele viidatakse eelteates .</s><s>Kui tehnilise kirjelduse aluseks on pakkujatele k&auml;ttesaadav dokument , piisab viitest sellele dokumendile .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pakkujad ja taotlejad</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Pakkuja ja taotleja</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 1 ) Pakkujaks v&otilde;i taotlejaks v&otilde;ib olla era&otilde;iguslik juriidiline isik , avalik-&otilde;iguslik juriidiline isik ja f&uuml;&uuml;siline isik .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Kui pakkumise v&otilde;i pakkumismenetluses osalemise taotluse esitavad mitu pakkujat v&otilde;i taotlejat &uuml;hiselt , peavad nad j&auml;rgnevate pakkumismenetluse ning hankelepingu s&otilde;lmimise ja t&auml;itmisega seotud toimingute tegemiseks volitama enda hulgast esindaja .</s><s>Volikiri tuleb esitada koos &uuml;hise pakkumise v&otilde;i pakkumismenetluses osalemise taotlusega .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Pakkujate ja taotlejate kvalifitseerimine</s>
+</p>
+<p>
+<s>( 1 ) Ostja on kohustatud kontrollima pakkujate ja taotlejate kvalifikatsiooni .</s>
+</p>
+<p>
+<s>( 2 ) Taotleja kvalifikatsiooni kontrollimisel piiratud pakkumismenetluse ja v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral kohaldatakse taotleja suhtes pakkujale etten&auml;htud kvalifitseerimise n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 3 ) Avatud pakkumismenetluse korral peab ostja kontrollima pakkuja kvalifikatsiooni enne pakkumise sisulist l&auml;bivaatamist .</s>
+</p>
+<p>
+<s>( 4 ) Piiratud pakkumismenetluse v&otilde;i v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral peab ostja kontrollima taotleja kvalifikatsiooni enne pakkumise kutse dokumentide esitamist .</s><s>Hiljem v&otilde;ib pakkuja diskvalifitseerida vaid juhul , kui ostjale on teatavaks saanud uued asjaolud .</s>
+</p>
+<p>
+<s>( 5 ) V&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral peab ostja pakkuja kvalifikatsiooni kontrollima asja ostmise v&otilde;i teenuse tellimise korral kas enne v&otilde;i p&auml;rast pakkumise kutse dokumentide esitamist , ehitust&ouml;&ouml; tellimise korral enne pakkumise kutse dokumentide esitamist .</s>
+</p>
+<p>
+<s>( 6 ) &Uuml;hise pakkumise esitamise korral kvalifitseeritakse pakkujad eraldi , kusjuures :</s>
+</p>
+<p>
+<s>1 ) pakkujate vastavate n&auml;itajate summeerimisel saadav n&auml;itaja peab vastama pakkumise kutse dokumentides esitatud tingimustele ;</s>
+</p>
+<p>
+<s>2 ) ehitust&ouml;&ouml;de tellimise korral , mille eeldatav maksumus on &uuml;le 3 miljoni krooni , peavad &uuml;hispakkumise korral lisaks k&auml;esoleva l&otilde;ike punktis 1 s&auml;testatule &uuml;he pakkuja vastavad n&auml;itajad vastama v&auml;hemalt 40 protsendile pakkumise kutse dokumentides esitatud tingimustele .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Pakkuja kvalifikatsiooni kontrollimine</s>
+</p>
+<p>
+<s>( 1 ) Pakkuja kvalifikatsiooni kontrollimisel peab ostja kontrollima , et pakkuja :</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>1 ) majanduslik seisund ja tehniline kompetentsus vastavad esitatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) on maksev&otilde;imeline , tema vara ei ole sekvestreeritud ja tema suhtes ei ole algatatud likvideerimismenetlust ega tehtud pankrotiotsust ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>3 ) on t&auml;itnud k&otilde;ik oma kohustused riiklike ja kohalike maksude osas , esitades sealhulgas ostjale andmed enda poolt viimasel kolmel kalendriaastal oma t&ouml;&ouml;tajatele makstud tasudelt tasutud sotsiaalmaksu v&otilde;i oma asukohamaa sotsiaalkindlustusmaksu suuruse kohta ja andes kirjaliku n&otilde;usoleku vastava j&auml;relep&auml;rimise tegemiseks Maksuametile v&otilde;i muule &otilde;igusp&auml;devale institutsioonile .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>4 ) on viimase kolme aasta jooksul t&auml;itnud n&otilde;uetekohaselt k&otilde;ik riigihangete teostamiseks s&otilde;lmitud hankelepingud .</s>
+</p>
+<p>
+<s>( 2 ) Ostja v&otilde;ib n&otilde;uda pakkujalt ainult tema kvalifitseerimiseks vajalikku informatsiooni ning peab arvesse v&otilde;tma pakkuja &otilde;igustatud huve seoses tema &auml;risaladuste kaitsega .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Pakkuja registreeritus &auml;ri- v&otilde;i erialases registris</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib n&otilde;uda pakkujalt t&otilde;endust asukohamaa seaduse kohase registreerimise kohta &auml;riregistris v&otilde;i erialases registris v&otilde;i kinnitust vastava ametivande andmise kohta .</s>
+</p>
+<p>
+<s>( 2 ) Kui pakkuja peab riigihanke teostamiseks oma asukohamaal v&otilde;i Eestis omama tegevusluba v&otilde;i olema vastava organisatsiooni liige , v&otilde;ib ostja pakkujalt n&otilde;uda t&otilde;endust sellise tegevusloa v&otilde;i liikmeksoleku kohta .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Pakkuja majanduslik seisund</s>
+</p>
+<p>
+<s>( 1 ) Pakkuja majandusliku seisundi vastavuse hindamiseks ostja esitatud tingimustele peab ostja vastavalt ostetavate asjade v&otilde;i tellitavate ehitust&ouml;&ouml;de v&otilde;i teenuste olemusele , kogusele ja otstarbele n&otilde;udma &uuml;he v&otilde;i mitme dokumendi esitamist j&auml;rgmiste dokumentide seast :</s>
+</p>
+<p>
+<s>1 ) majandusaasta aruande v&otilde;i majandusaasta aruande v&auml;ljav&otilde;tte , kui majandusaasta aruande avalikustamine on n&otilde;utav pakkuja asukohamaa seaduste kohaselt ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljav&otilde;tte pakkuja viimase kolme majandusaasta netok&auml;ibe kohta konkreetsele riigihanke objektile vastavas osas ;</s>
+</p>
+<p>
+<s>3 ) teenuste tellimise korral kinnituse vastava ametialase vastutuskindlustuse olemasolu kohta .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumentide esitamine ei ole v&otilde;imalik , v&otilde;ib ostja n&otilde;uda pakkujalt tema majandusliku seisundi hindamiseks muid andmeid ja dokumente .</s>
+</p>
+<p>
+<s>( 3 ) Kui pakkuja ei saa m&otilde;juvatel p&otilde;hjustel esitada ostja poolt n&otilde;utavaid dokumente , v&otilde;ib ta t&otilde;endada oma majanduslikku seisundit muude , ostja poolt vastuv&otilde;etavaks tunnistatud dokumentidega .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Pakkuja tehniline kompetentsus</s>
+</p>
+<p>
+<s>( 1 ) Pakkuja tehnilise kompetentsuse hindamiseks peab ostja vastavalt ostetavate asjade v&otilde;i tellitavate ehitust&ouml;&ouml;de v&otilde;i teenuste olemusele , kogusele ja otstarbele n&otilde;udma &uuml;he v&otilde;i mitme k&auml;esoleva paragrahvi l&otilde;igetes 2-4 loetletu esitamist .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Asjade ostmisel v&otilde;ib ostja pakkujalt n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) viimase kolme aasta jooksul teostatud sarnaste asjade ostu-m&uuml;&uuml;gitehingutes osalemise korral nende loetelu koos maksumuste , t&auml;htaegade ja ostjate &auml;ran&auml;itamisega ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) pakkuja tehniliste v&otilde;imaluste , pakkuja poolt kasutatavate kvaliteedi tagamise meetmete ning uurimis- ja teadusliku t&ouml;&ouml; tegemise v&otilde;imaluste kirjeldust , vajaduse korral nende t&otilde;endamist ;</s>
+</p>
+<p>
+<s>3 ) andmeid tehniliste t&ouml;&ouml;tajate v&otilde;i tehniliste &uuml;ksuste kohta , keda pakkuja riigihanke teostamiseks kavatseb kasutada ;</s>
+</p>
+<p>
+<s>4 ) ostetavate asjade n&auml;idiseid , kirjeldusi ja fotosid , kusjuures nende autentsust tuleb ostja n&otilde;udel t&otilde;endada ;</s>
+</p>
+<p>
+<s>5 ) dokumente , mis t&otilde;endavad asjade vastavust spetsiifilistele normidele v&otilde;i standarditele .</s>
+</p>
+<p>
+<s>( 3 ) Ehitust&ouml;&ouml;de tellimisel v&otilde;ib ostja pakkujalt n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) t&otilde;endust pakkuja spetsialistide ja ehitust&ouml;&ouml;de teostamise eest vastutavate isikute erialase kvalifikatsiooni kohta ;</s>
+</p>
+<p>
+<s>2 ) viimase kolme aasta jooksul teostatud sarnaste ehitust&ouml;&ouml;de olemasolu korral nende loetelu koos andmetega maksumuse , teostamise aja , koha ja tellijate kohta ning t&otilde;endust selle kohta , et ehitust&ouml;&ouml;d teostati korrektselt ja hea ehitustava kohaselt ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>3 ) pakkuja t&otilde;endust ehitust&ouml;&ouml;de teostamiseks vajalike t&ouml;&ouml;riistade , seadmete ja masinate olemasolu kohta ;</s>
+</p>
+<p>
+<s>4 ) pakkuja t&otilde;endust tema t&ouml;&ouml;tajate keskmise arvu kohta viimasel kolmel aastal ;</s>
+</p>
+<p>
+<s>5 ) andmeid tehniliste t&ouml;&ouml;tajate v&otilde;i tehniliste &uuml;ksuste olemasolu kohta , keda pakkuja kavatseb kasutada ehitust&ouml;&ouml;de teostamiseks ;</s>
+</p>
+<p>
+<s>6 ) t&otilde;endust pakkuja poolt kasutatavate kvaliteedi tagamise meetmete kohta ;</s>
+</p>
+<p>
+<s>7 ) andmeid hankelepingu t&auml;itmiseks kasutada kavatsetavate allhankijate kohta .</s>
+</p>
+<p>
+<s>( 4 ) Teenuste tellimisel v&otilde;ib ostja pakkujalt n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) t&otilde;endust pakkuja spetsialistide ja teenuse osutamise eest vastutavate isikute erialase kvalifikatsiooni kohta ;</s>
+</p>
+<p>
+<s>2 ) viimase kolme aasta jooksul osutatud sarnaste teenuste olemasolu korral nende loetelu , samuti dokumente , kus on &auml;ra n&auml;idatud osutatud teenuste maksumus , osutamise aeg ja tellijad ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>3 ) andmeid tehniliste t&ouml;&ouml;tajate v&otilde;i tehniliste &uuml;ksuste olemasolu kohta , keda pakkuja kavatseb kasutada teenuste osutamiseks ;</s>
+</p>
+<p>
+<s>4 ) pakkuja t&otilde;endust tema t&ouml;&ouml;tajate keskmise arvu kohta viimasel kolmel aastal ;</s>
+</p>
+<p>
+<s>5 ) pakkuja t&otilde;endust teenuste osutamiseks vajalike t&ouml;&ouml;riistade , seadmete ja masinate olemasolu kohta ;</s>
+</p>
+<p>
+<s>6 ) pakkuja tehniliste v&otilde;imaluste , pakkuja poolt kasutatavate kvaliteedi tagamise meetmete ning uurimis- ja teadusliku t&ouml;&ouml; tegemise v&otilde;imaluste kirjeldust , vajaduse korral nende t&otilde;endamist ;</s>
+</p>
+<p>
+<s>7 ) andmeid hankelepingu t&auml;itmiseks kasutada kavatsetavate allhankijate kohta .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Pakkuja k&otilde;rvaldamine pakkumiselt</s>
+</p>
+<p>
+<s>( 1 ) Ostja on kohustatud k&otilde;rvaldama pakkuja pakkumiselt igal ajal , kui selgub , et pakkuja on esitanud valeandmeid v&otilde;i v&otilde;ltsitud dokumente .</s>
+</p>
+<p>
+<s>( 2 ) Pakkujat ei kvalifitseerita , kui :</s>
+</p>
+<p>
+<s>1 ) pakkuja on pankrotis v&otilde;i likvideerimisel , tema &auml;ritegevus on peatatud v&otilde;i ta on muus seesuguses seisukorras pakkuja asukohamaa seaduse kohaselt ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) pakkuja suhtes on algatatud sundlikvideerimine v&otilde;i muu seesugune menetlus pakkuja asukohamaa seaduse kohaselt ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>3 ) pakkuja ei ole t&auml;itnud riiklike ja kohalike maksude tasumise kohustusi ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>4 ) j&otilde;ustunud kohtuotsusega on t&otilde;endatud , et pakkuja on viimase kolme aasta jooksul j&auml;tnud n&otilde;uetekohaselt t&auml;itmata pakkumismenetluse tulemusena temaga s&otilde;lmitud hankelepingu ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>5 ) pakkuja ei ole esitanud andmeid v&otilde;i dokumente , mida ostja on k&auml;esoleva seaduse alusel n&otilde;udnud ;</s>
+</p>
+<p>
+<s>6 ) pakkuja ei vasta tegutsemiseks vastavas valdkonnas &otilde;igusaktidega etten&auml;htud n&otilde;uetele v&otilde;i tema majanduslik seisund v&otilde;i tehniline kompetentsus ei vasta ostja esitatud tingimustele .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktides 1-4 loetletud juhtudel on aktsepteeritav &otilde;igusp&auml;deva institutsiooni v&auml;ljastatud dokument .</s>
+</p>
+<p>
+<s>( 4 ) Kui pakkuja asukohamaal asjassepuutuvaid dokumente ei v&auml;ljastata , v&otilde;ivad neid asendada asjassepuutuva isiku kinnitused tema asukohamaa notari v&otilde;i muu p&auml;deva ametniku juuresolekul .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Pakkuja registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Pakkuja , kelle asukoht on Euroopa Majanduspiirkonna lepingu osalisriigis , v&otilde;ib oma kvalifikatsiooni t&otilde;endamiseks vastavalt k&auml;esoleva seaduse &sect; 31 l&otilde;ike 1 punktides 1 ja 2 ning &sect;-s 32 s&auml;testatud n&otilde;uetele esitada ostjale oma asukohamaa &otilde;igusp&auml;deva organi v&auml;ljastatud registreerimistunnistuse pakkuja registreerituse kohta pakkujate ametlikus nimekirjas .</s><s>Registreerimistunnistuses viidatakse registreerimise alusele ja pakkuja klassifikatsioonile .</s>
+</p>
+<p>
+<s>( 2 ) Igalt ametlikus nimekirjas registreeritud pakkujalt v&otilde;ib ostja n&otilde;uda lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud registreerimistunnistusele t&auml;iendavat kinnitust sotsiaalmaksu tasumise kohta .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Pakkujate kvalifitseerimise s&uuml;steem</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja v&otilde;ib kasutada pakkujate kvalifitseerimise s&uuml;steemi nii rahvusvahelisest piirm&auml;&auml;rast eeldatavalt madalama maksumusega kui ka rahvusvahelise piirm&auml;&auml;raga v&otilde;rdse v&otilde;i seda &uuml;letava maksumusega riigihanke korral .</s><s>K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktides 1-5 nimetatud ostjad v&otilde;ivad kasutada pakkujate kvalifitseerimise s&uuml;steemi v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse ja rahvusvahelisest piirm&auml;&auml;rast eeldatavalt madalama maksumusega riigihanke korral .</s>
+</p>
+<p>
+<s>( 2 ) Ostja v&otilde;ib kehtestada pakkujate kvalifitseerimise s&uuml;steemi objektiivsete kriteeriumide alusel , l&auml;htudes k&auml;esolevas seaduses s&auml;testatust .</s>
+</p>
+<p>
+<s>( 3 ) Pakkujate kvalifitseerimise kriteeriumidele ja eeskirjadele tugineva pakkujate kvalifitseerimise s&uuml;steemi kehtestamise korral peab ostja tagama huvitatud isikule v&otilde;imaluse igal ajal :</s>
+</p>
+<p>
+<s>1 ) tutvuda pakkujate kvalifitseerimise kriteeriumide ja eeskirjadega , kusjuures huvitatud isikule teatatakse selliste kriteeriumide ja eeskirjade muutmisest ;</s>
+</p>
+<p>
+<s>2 ) taotleda kvalifitseerimist .</s>
+</p>
+<p>
+<s>( 4 ) Ostja v&otilde;ib kasutada teiste isikute koostatud kvalifitseeritud pakkujate nimekirju eeldusel , et kasutatav pakkujate kvalifitseerimise s&uuml;steem on vastavuses ostja n&otilde;udmistega ja k&auml;esoleva seaduse s&auml;tetega .</s><s>Sellisel juhul teatab ostja huvitatud isikutele kvalifitseeritud pakkujate nimekirjad koostanud isikute nimed .</s>
+</p>
+<p>
+<s>( 5 ) Ostja informeerib taotlejat kvalifitseerimise otsusest .</s><s>Kui kvalifitseerimise otsuse tegemine v&otilde;tab aega rohkem kui kaks kuud , informeerib ostja taotlejat viivituse p&otilde;hjusest ja teatab otsuse tegemise p&auml;eva kahe n&auml;dala jooksul taotluse esitamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 6 ) Taotlejat , kelle kvalifitseerimisest keelduti , informeeritakse vastavast otsusest ning keeldumise p&otilde;hjustest .</s><s>Keeldumise p&otilde;hjuste aluseks peavad olema k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud pakkujate kvalifitseerimise kriteeriumid .</s>
+</p>
+<p>
+<s>( 7 ) Ostja ei v&otilde;i pakkujalt n&otilde;uda dokumentide esitamist , mis dubleerivad temale pakkuja poolt juba esitatud dokumente .</s>
+</p>
+<p>
+<s>( 8 ) Kvalifitseeritud pakkujate kohta peetakse kirjalikku arvestust .</s><s>Sellekohane nimekiri v&otilde;ib olla jaotatud kategooriatesse vastavalt riigihanke objektile , millega seoses kvalifitseerimine kehtib .</s>
+</p>
+<p>
+<s>( 9 ) Ostja v&otilde;ib pakkuja diskvalifitseerida vaid p&otilde;hjustel , mis tulenevad k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud kvalifitseerimise kriteeriumidest .</s><s>Pakkujat tuleb diskvalifitseerimisest informeerida , n&auml;idates &auml;ra diskvalifitseerimise p&otilde;hjuse .</s>
+</p>
+<p>
+<s>( 10 ) Ostja esitab registrile pakkujate kvalifitseerimise s&uuml;steemi kehtestamise kohta teate , milles peavad sisalduma v&auml;hemalt j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) ostja nimi , aadress ja muud kontaktandmed , olemasolu korral registrikood ;</s>
+</p>
+<p>
+<s>2 ) pakkujate kvalifitseerimise kriteeriumide ja eeskirjade kehtestamise aeg ;</s>
+</p>
+<p>
+<s>3 ) pakkujate kvalifitseerimise kriteeriumide ja eeskirjadega tutvumise koht ja aeg .</s>
+</p>
+<p>
+<s>( 11 ) K&auml;esoleva paragrahvi l&otilde;ikes 10 nimetatud teate vormin&otilde;uded ja esitamise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Tagatis</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib pakkujalt n&otilde;uda tagatist , mis kindlustab ostjale pakkuja poolt kohustuste t&auml;itmata j&auml;tmise korral kahjude t&auml;ieliku v&otilde;i osalise h&uuml;vitamise .</s>
+</p>
+<p>
+<s>( 2 ) Tagatise olemasolu t&otilde;endatakse krediidi- v&otilde;i finantseerimisasutuse v&otilde;i kindlustusseltsi garantiiga v&otilde;i rahasumma deponeerimisega ostja v&otilde;i k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 3 nimetatud pakkumismenetluste korraldaja arvelduskontole .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Pakkumise tagatist ei v&otilde;i n&otilde;uda asjade ostmise ja ehitust&ouml;&ouml;de v&otilde;i teenuste tellimise korral suuremas ulatuses kui 1 protsent riigihanke eeldatavast maksumusest ostja hinnangul .</s>
+</p>
+<p>
+<s>( 4 ) Pakkumise tagatist tuleb n&otilde;uda &uuml;hesuguses ulatuses k&otilde;ikidelt pakkujatelt .</s>
+</p>
+<p>
+<s>( 5 ) Ostja ei pea tagastama pakkujale pakkumise tagatist , kui :</s>
+</p>
+<p>
+<s>1 ) pakkuja v&otilde;tab pakkumise selle j&otilde;usoleku t&auml;htaja jooksul tagasi ;</s>
+</p>
+<p>
+<s>2 ) pakkuja keeldub s&otilde;lmimast hankelepingut , mis vastab tema poolt esitatud pakkumisele .</s>
+</p>
+<p>
+<s>( 6 ) Pakkumise tagatis tagastatakse pakkujale kolme t&ouml;&ouml;p&auml;eva jooksul :</s>
+</p>
+<p>
+<s>1 ) p&auml;rast pakkumise j&otilde;usoleku t&auml;htaja l&otilde;ppemist v&otilde;i k&auml;esoleva l&otilde;ike punktis 2 nimetatud hankelepingu j&otilde;ustumist , kui see toimub enne pakkumise j&otilde;usoleku t&auml;htaja l&otilde;ppemist , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ike 5 punktis 2 nimetatud juhul ;</s>
+</p>
+<p>
+<s>2 ) edukaks tunnistatud pakkumise esitanud pakkujale p&auml;rast s&otilde;lmitud hankelepingu j&otilde;ustumist ;</s>
+</p>
+<p>
+<s>3 ) pakkumismenetluse t&uuml;histamise korral ;</s>
+</p>
+<p>
+<s>4 ) pakkuja kvalifitseerimata j&auml;tmise korral ;</s>
+</p>
+<p>
+<s>5 ) pakkumise tagasiv&otilde;tmise korral enne pakkumiste esitamise t&auml;htp&auml;eva saabumist ;</s>
+</p>
+<p>
+<s>6 ) pakkumiste tagasil&uuml;kkamise korral k&auml;esoleva seaduse &sect; 43 l&otilde;ikes 4 v&otilde;i &sect; 44 l&otilde;ikes 1 s&auml;testatu alusel .</s>
+</p>
+<p>
+<s>( 7 ) Ehitust&ouml;&ouml;de riigihangete ehitusaegne tagatis on 10 protsenti ja garantiiaegne tagatis 2 protsenti pakkumise maksumusest .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pakkumise esitamine , muutmine , tagasiv&otilde;tmine , avamine , vastavaks tunnistamine ja tagasil&uuml;kkamine</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Pakkumise esitamine , muutmine ja tagasiv&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Pakkumine peab vastama pakkumise kutse dokumentides esitatud tingimustele ega v&otilde;i olla mis tahes viisil eksitav .</s>
+</p>
+<p>
+<s>( 2 ) Pakkumine peab olema esitatud kirjalikult ja kinnises pakendis , mis peab sisaldama eraldi kinnises ja t&auml;histatud pakendis pakkumise maksumust .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Pakkumise k&auml;ttesaamise kohta peab ostja andma pakkujale t&otilde;endi , milles on m&auml;rgitud pakkumise k&auml;ttesaamise p&auml;ev ja kellaaeg .</s>
+</p>
+<p>
+<s>( 4 ) Pakkujad v&otilde;ivad esitada &uuml;hise pakkumise , kui selline v&otilde;imalus on ette n&auml;htud pakkumise kutse dokumentides .</s>
+</p>
+<p>
+<s>( 5 ) Pakkuja v&otilde;ib oma pakkumist muuta , esitades uue pakkumise , v&otilde;i pakkumise tagasi v&otilde;tta , kusjuures sellekohane kirjalik teade tuleb esitada ostjale enne pakkumiste esitamise t&auml;htp&auml;eva .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Pakkumise ja pakkumismenetluses osalemise taotluse esitamise t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Avatud pakkumismenetluse korral peab ajavahemik pakkumise kutse avaldamisest kuni pakkumiste esitamise t&auml;htp&auml;evani olema hankelepingute korral , mille maksumus on :</s>
+</p>
+<p>
+<s>1 ) madalam rahvusvahelisest piirm&auml;&auml;rast , mitte l&uuml;hem kui 14 p&auml;eva asjade ostmise v&otilde;i teenuste tellimise korral ja mitte l&uuml;hem kui 30 p&auml;eva ehitust&ouml;&ouml;de tellimise korral ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda , &uuml;ldjuhul mitte l&uuml;hem kui 52 p&auml;eva v&otilde;i mitte l&uuml;hem kui 36 p&auml;eva , sealjuures ajalise piiratuse korral v&otilde;i lihtsamatel juhtudel mitte l&uuml;hem kui 22 p&auml;eva , kui ostja on eelteates &auml;ra m&auml;rkinud kogu sellel hetkel teadaoleva avatud pakkumismenetluse jaoks vajaliku informatsiooni , tingimusel , et eelteade avaldati v&auml;hemalt 52 p&auml;eva , kuid mitte rohkem kui 12 kuud enne pakkumise kutse avaldamist .</s>
+</p>
+<p>
+<s>( 2 ) Piiratud pakkumismenetluse korral peab ajavahemik pakkumise kutse avaldamisest kuni pakkumismenetluses osalemise taotluste esitamise t&auml;htp&auml;evani olema hankelepingute korral , mille maksumus on :</s>
+</p>
+<p>
+<s>1 ) madalam rahvusvahelisest piirm&auml;&auml;rast , mitte l&uuml;hem kui 14 p&auml;eva ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda , &uuml;ldjuhul mitte l&uuml;hem kui 37 p&auml;eva v&otilde;i mitte l&uuml;hem kui 15 p&auml;eva , kui ajaline piiratus muudab 37 p&auml;eva n&otilde;ude j&auml;rgimise v&otilde;imatuks .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral peab ajavahemik pakkumise kutse avaldamisest kuni pakkumismenetluses osalemise taotluste esitamise t&auml;htp&auml;evani olema hankelepingute korral , mille eeldatav maksumus on :</s>
+</p>
+<p>
+<s>1 ) madalam rahvusvahelisest piirm&auml;&auml;rast , mitte l&uuml;hem kui 14 p&auml;eva ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda , &uuml;ldjuhul mitte l&uuml;hem kui 37 p&auml;eva v&otilde;i mitte l&uuml;hem kui 15 p&auml;eva , kui ajaline piiratus muudab 37 p&auml;eva n&otilde;ude j&auml;rgimise v&otilde;imatuks , v&otilde;i mitte l&uuml;hem kui 52 p&auml;eva , kui l&auml;bir&auml;&auml;kimistele tulev hankeleping on ehitust&ouml;&ouml;de kontsessioonileping .</s>
+</p>
+<p>
+<s>( 4 ) Piiratud pakkumismenetluse korral peab ajavahemik pakkumise kutse dokumentide v&auml;ljastamisest kuni pakkumiste esitamise t&auml;htp&auml;evani olema hankelepingute korral , mille eeldatav maksumus on :</s>
+</p>
+<p>
+<s>1 ) madalam rahvusvahelisest piirm&auml;&auml;rast , mitte l&uuml;hem kui 14 p&auml;eva asjade ostmise v&otilde;i teenuste tellimise korral ja mitte l&uuml;hem kui 30 p&auml;eva ehitust&ouml;&ouml;de tellimise korral ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda , mitte l&uuml;hem kui 40 p&auml;eva v&otilde;i mitte l&uuml;hem kui 26 p&auml;eva , kui ostja on eelteates &auml;ra n&auml;idanud kogu sellel hetkel piiratud pakkumismenetluse jaoks vajaliku teadaoleva informatsiooni , tingimusel , et eelteade avaldati v&auml;hemalt 52 p&auml;eva , kuid mitte rohkem kui 12 kuud enne piiratud pakkumismenetluse v&auml;ljakuulutamist , v&otilde;i mitte l&uuml;hem kui 10 p&auml;eva , kui ajaline piiratus muudab 40 v&otilde;i 26 p&auml;eva n&otilde;ude j&auml;rgimise v&otilde;imatuks , v&otilde;i mitte l&uuml;hem kui 24 p&auml;eva k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja korral , kui ostja ei saavuta valitud pakkujatega kokkulepet l&uuml;hema t&auml;htaja suhtes , tingimusel , et k&otilde;ikidele pakkujatele antakse pakkumiste ettevalmistamiseks ja esitamiseks &uuml;hepalju aega .</s>
+</p>
+<p>
+<s>( 5 ) V&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral peab ajavahemik pakkumise kutse dokumentide v&auml;ljastamisest kuni pakkumiste esitamise t&auml;htp&auml;evani olema mitte l&uuml;hem kui 14 p&auml;eva asjade ostmise v&otilde;i teenuste tellimise korral ja mitte l&uuml;hem kui 30 p&auml;eva ehitust&ouml;&ouml;de tellimise korral .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) Ostja v&otilde;ib pakkumiste esitamise t&auml;htaega pikendada .</s><s>Pakkumiste esitamise t&auml;htaja pikendamise korral peab ostja avatud pakkumismenetluse korral muutma pakkumise kutset ja pakkumise kutse dokumente .</s><s>Pakkumiste esitamise t&auml;htaja pikendamise korral peab ostja piiratud pakkumismenetluse ja v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral muutma pakkumise kutse dokumente .</s><s>Pakkumise kutse muutmise korral peab ostja esitama registrile teate t&auml;htaja pikendamise kohta .</s><s>Pakkumise kutse dokumentide muutmise korral peab ostja arvestama k&auml;esoleva seaduse &sect;-s 25 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 7 ) Ostja v&otilde;ib pakkumismenetluses osalemise taotluste esitamise t&auml;htaega pikendada .</s><s>Pakkumismenetluses osalemise taotluste esitamise t&auml;htaja pikendamise korral peab ostja piiratud pakkumismenetluse ja v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral muutma pakkumise kutset .</s><s>Pakkumise kutse muutmise korral peab ostja esitama registrile teate t&auml;htaja pikendamise kohta .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Pakkumise j&otilde;usoleku t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Pakkumine on j&otilde;us pakkumise kutse dokumentides n&auml;idatud t&auml;htaja jooksul .</s><s>J&otilde;usoleku t&auml;htaeg algab pakkumiste esitamise t&auml;htp&auml;evast ja see ei v&otilde;i olla pikem kui 90 p&auml;eva .</s>
+</p>
+<p>
+<s>( 2 ) Pakkumismenetluse peatamise korral ei pikene pakkumise j&otilde;usoleku t&auml;htaeg .</s>
+</p>
+<p>
+<s>( 3 ) Hiljemalt k&uuml;mme p&auml;eva enne pakkumise j&otilde;usoleku t&auml;htaja l&otilde;ppemist v&otilde;ib ostja teha pakkujale argumenteeritud ettepaneku seda pikendada .</s><s>Kui pakkuja keeldub pakkumise j&otilde;usoleku t&auml;htaega pikendamast , l&otilde;peb pakkumise j&otilde;usolek varem kindlaksm&auml;&auml;ratud t&auml;htp&auml;eval .</s>
+</p>
+<p>
+<s>( 4 ) Ostja ei v&otilde;i n&otilde;uda pakkujalt pakkumise tagatise kehtivuse pikendamist .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Pakkumiste avamine</s>
+</p>
+<p>
+<s>( 1 ) Pakkumised avatakse pakkumise kutse dokumentides m&auml;&auml;ratud kohas ja ajal , pakkumiste esitamise t&auml;htaja pikendamise korral ostja m&auml;&auml;ratud ajal.</s>
+</p>
+<p>
+<s>( 2 ) Igal pakkujal on isiklikult v&otilde;i volitatud esindaja kaudu &otilde;igus osaleda pakkumiste avamisel .</s>
+</p>
+<p>
+<s>( 3 ) Pakkumiste avamisel tehakse teatavaks pakkujate nimed ja registrikoodid ning kontrollitakse esitatud dokumentide vastavust pakkumise kutse dokumentides n&otilde;utud loetelule .</s><s>Pakkumise maksumust sisaldavat pakendit ei avata ja ostja tagab selle kinniselt s&auml;ilimise pakkumiste maksumuste avamiseni .</s><s>Pakkumiste avamise kohta koostatakse pakkumiste avamise protokoll .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Pakkujale tuleb saata pakkumiste avamise protokolli &auml;rakiri kolme t&ouml;&ouml;p&auml;eva jooksul pakkumiste avamise p&auml;evast arvates</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 5 ) Pakkumise tagasil&uuml;kkamise korral vastavalt k&auml;esoleva seaduse &sect; 43 l&otilde;ikele 4 v&otilde;i &sect; 44 l&otilde;ikele 1 tagastatakse pakkujale pakkumise maksumust sisaldav pakend avamatult pakkumise j&otilde;usoleku t&auml;htaja l&otilde;ppemisele j&auml;rgneval p&auml;eval .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) Ostja teatab pakkujatele pakkumiste maksumuste avamise koha , kuup&auml;eva ja kellaaja pakkumiste avamisel v&otilde;i koos pakkumiste vastavaks tunnistamise v&otilde;i pakkumiste tagasil&uuml;kkamise teatega .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Pakkumiste vastavaks tunnistamine ja tagasil&uuml;kkamine</s>
+</p>
+<p>
+<s>( 1 ) Ostja kontrollib esitatud pakkumiste vastavust pakkumise kutse dokumentides esitatud tingimustele .</s>
+</p>
+<p>
+<s>( 2 ) Pakkumine tunnistatakse vastavaks , kui see on koosk&otilde;las k&otilde;ikide pakkumise kutse dokumentides esitatud tingimustega .</s>
+</p>
+<p>
+<s>( 3 ) Pakkumise v&otilde;ib tunnistada vastavaks , kui selles ei esine sisulisi k&otilde;rvalekaldumisi pakkumise kutse dokumentides esitatud tingimustest .</s>
+</p>
+<p>
+<s>( 4 ) Ostja l&uuml;kkab pakkumise tagasi , kui :</s>
+</p>
+<p>
+<s>1 ) pakkuja ei ole kvalifitseeritud vastavalt k&auml;esolevas seaduses s&auml;testatule ;</s>
+</p>
+<p>
+<s>2 ) pakkumine ei vasta pakkumise kutse dokumentides esitatud tingimustele .</s>
+</p>
+<p>
+<s>( 5 ) Teade pakkumiste vastavaks tunnistamise v&otilde;i pakkumiste tagasil&uuml;kkamise ja selle p&otilde;hjuste kohta edastatakse pakkujale kirjalikult kolme t&ouml;&ouml;p&auml;eva jooksul otsuse tegemisest arvates .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>K&otilde;ikide pakkumiste tagasil&uuml;kkamine</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib tagasi l&uuml;kata k&otilde;ik pakkumised enne hankelepingu s&otilde;lmimist , kui pakkumise kutse dokumentides on selline v&otilde;imalus ja alus selleks ette n&auml;htud .</s>
+</p>
+<p>
+<s>( 2 ) Teade k&otilde;ikide pakkumiste tagasil&uuml;kkamise kohta tuleb ostjal kohe edastada k&otilde;ikidele pakkujatele , kellele pakkumise kutse dokumendid v&auml;ljastati .</s>
+</p>
+<p>
+<s>( 3 ) Ostja peab pakkujale tema n&otilde;udmisel teatama k&otilde;ikide pakkumiste tagasil&uuml;kkamise alused .</s>
+</p>
+<p>
+<s>( 4 ) K&otilde;ikide pakkumiste tagasil&uuml;kkamise korral tagastab ostja pakkujale pakkumise kutse dokumentide eest pakkujalt sissen&otilde;utud tasu .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pakkumiste v&otilde;rdlemine , hindamine ja vastuv&otilde;tmine</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Pakkumiste v&otilde;rdlemine ja hindamine</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;rdleb ja hindab k&otilde;iki pakkumisi , mida ei ole tagasi l&uuml;katud .</s><s>Pakkumiste v&otilde;rdlemisel ja hindamisel arvestatakse ainult pakkumise kutse dokumentides esitatud tingimusi .</s>
+</p>
+<p>
+<s>( 2 ) Edukas pakkumine on vastavaks tunnistatud pakkumiste hulgast pakkumise kutse dokumentides esitatud hindamiskriteeriumide suhtes k&otilde;ige soodsam pakkumine , kusjuures see peab olema objektiivselt p&otilde;hjendatav .</s>
+</p>
+<p>
+<s>( 3 ) Majanduslikult k&otilde;ige soodsama pakkumise kindlaksm&auml;&auml;ramise aluseks on vastavaks tunnistatud pakkumistele hindamiskriteeriumide j&auml;rgi omistatud v&auml;&auml;rtuspunktid v&otilde;i muu hindamistulem .</s><s>Hindamiskriteeriumide j&auml;rgi v&auml;&auml;rtuspunktide v&otilde;i muu hindamistulemi omistamine toimub j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) enne pakkumiste maksumuste avamist koostatakse pakkumiste pingerida pakkumise kutse dokumentides esitatud hindamiskriteeriumide j&auml;rgi , v&auml;lja arvatud maksumus , omistatud v&auml;&auml;rtuspunktide v&otilde;i muu hindamistulemi alusel ;</s>
+</p>
+<p>
+<s>2 ) kohe p&auml;rast pakkumiste maksumuste avamist lisatakse pakkumisele vastavalt k&auml;esoleva l&otilde;ike punktile 1 omistatud v&auml;&auml;rtuspunktidele v&otilde;i muule hindamistulemile pakkumise maksumusest tulenevad v&auml;&auml;rtuspunktid v&otilde;i muu hindamistulem .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Igal pakkujal on isiklikult v&otilde;i volitatud esindaja kaudu &otilde;igus osaleda pakkumiste maksumuste avamisel ja k&auml;esoleva paragrahvi l&otilde;ike 3 punktis 2 nimetatud toimingu juures .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 5 ) Pakkumiste maksumuste avamisel tehakse kindlaks , et pakkumiste maksumuste pakendid on kinnised , ning seej&auml;rel tehakse teatavaks pakkujate nimed , registrikoodid ja pakkujate poolt esitatud pakkumiste maksumused .</s><s>Selle kohta koostatakse pakkumiste maksumuste avamise protokoll .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) Pakkujale tuleb saata pakkumiste maksumuste avamise protokolli &auml;rakiri kolme t&ouml;&ouml;p&auml;eva jooksul pakkumiste maksumuste avamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 7 ) Ostja , kes on riigihanke jaotanud osadeks , hindab pakkumisi nii osade kaupa kui ka tervikuna , kui v&auml;hemalt &uuml;ks vastavaks tunnistatud pakkumine on tehtud kogu riigihanke objektile .</s><s>Ostja tunnistab iga osa puhul edukaks pakkumiseks k&otilde;ige soodsama pakkumise , kui &uuml;he pakkumise edukaks tunnistamine k&otilde;ikidele osadele koos ei vasta k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tingimustele .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 8 ) Pakkumiste hindamisel ei v&otilde;i osaleda isikud , kes on v&otilde;i on olnud pakkujaga sellistes suhetes , mis v&otilde;ib tekitada &otilde;igustatud kahtlusi nende isikute objektiivsuses .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Pakkumise vastuv&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Edukas pakkumine loetakse vastuv&otilde;etuks 14 p&auml;eva m&ouml;&ouml;dumisel selle edukaks tunnistamisest arvates .</s>
+</p>
+<p>
+<s>( 2 ) Teade pakkumise edukaks tunnistamise kohta edastatakse kirjalikult k&otilde;ikidele pakkujatele kolme t&ouml;&ouml;p&auml;eva jooksul sellekohase otsuse tegemisest arvates .</s><s>Pakkujatele edastatav teave peab sisaldama edukaks tunnistatud pakkumise esitanud pakkuja nime ja selle pakkumise eelist teiste pakkumistega v&otilde;rreldes .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Pakkumise variandid</s>
+</p>
+<p>
+<s>( 1 ) Ostja hindab pakkujate esitatud pakkumise variante ainult siis , kui :</s>
+</p>
+<p>
+<s>1 ) pakkumise edukaks tunnistamise tingimuseks on majanduslikult k&otilde;ige soodsama pakkumise kindlaksm&auml;&auml;ramine ;</s>
+</p>
+<p>
+<s>2 ) pakkumise kutse dokumentides esitatud tingimused ei v&auml;lista pakkumise variantide esitamist .</s>
+</p>
+<p>
+<s>( 2 ) Ostja , kes pakkumise kutse dokumentides ei v&auml;listanud pakkumise variantide esitamist , ei v&otilde;i pakkumise varianti tagasi l&uuml;kata p&otilde;hjendusega , et pakkumise edukaks tunnistamise korral ei oleks tegemist asja ostmise , vaid teenuse tellimisega v&otilde;i vastupidi .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>P&otilde;hjendamatult madala maksumusega pakkumine</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib juhul , kui pakkumise maksumus on ilmselt p&otilde;hjendamatult madal , n&otilde;uda pakkujalt pakkumise elementide kohta selliseid andmeid , mida ta peab asjassepuutuvaiks .</s><s>Ostja kehtestab pakkujale t&auml;htaja andmete esitamiseks .</s><s>Nimetatud n&otilde;udmine ja vastus sellele peavad olema vormistatud kirjalikult .</s>
+</p>
+<p>
+<s>( 2 ) Ostja v&otilde;tab arvesse pakkuja selgituses esitatud objektiivselt &otilde;igustavaid asjaolusid , mis tulenevad ehitus- v&otilde;i tootmismeetodi &ouml;konoomsusest , valitud tehnilistest lahendustest , pakkuja kasutada olevatest eriti soodsatest tingimustest hankelepingu t&auml;itmisel v&otilde;i pakkuja poolt pakutava asja v&otilde;i teenuse osutamise v&otilde;i ehitust&ouml;&ouml; teostamise originaalsusest .</s>
+</p>
+<p>
+<s>( 3 ) Ostja v&otilde;ib p&otilde;hjendamatult madala maksumusega pakkumise tagasi l&uuml;kata .</s><s>Tagasil&uuml;kkamine peab p&otilde;hinema s&otilde;ltumatu eksperdi hinnangul .</s><s>Ostja ei v&otilde;i madala maksumusega pakkumist tagasi l&uuml;kata , kui pakkuja annab enda esitatud pakkumise hinna ja riigihanke eeldatava maksumuse vahelisele summale 100-protsendilise tagatise .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Pakkujate informeerimine</s>
+</p>
+<p>
+<s>( 1 ) Ostja informeerib kirjalikult pakkumismenetluses osalemises kvalifitseerimata j&auml;etud taotlejat tema kvalifitseerimata j&auml;tmise p&otilde;hjusest kolme t&ouml;&ouml;p&auml;eva jooksul sellekohase otsuse tegemisest arvates .</s>
+</p>
+<p>
+<s>( 2 ) Ostja v&otilde;ib otsustada , et edukaks tunnistatud pakkumise eelist , mida nimetatakse k&auml;esoleva seaduse &sect; 46 l&otilde;ikes 2 , ei avaldata , kui see v&otilde;ib :</s>
+</p>
+<p>
+<s>1 ) olla vastuolus avaliku huviga ;</s>
+</p>
+<p>
+<s>2 ) seada ohtu pakkujate seaduslikud &auml;rihuvid ;</s>
+</p>
+<p>
+<s>3 ) takistada pakkujatevahelist vaba konkurentsi .</s>
+</p>
+<p>
+<s>( 3 ) Kui pakkumise kutse v&otilde;i pakkumise kutse dokumendid v&otilde;i ostja tehtud pakkumismenetlusega seotud otsus v&otilde;i pakkumismenetlus on t&uuml;histatud , teatab ostja kolme t&ouml;&ouml;p&auml;eva jooksul kirjalikult t&uuml;histamise otsusest pakkumise kutse dokumendid saanud pakkujatele v&otilde;i isikutele , keda ostja eelnevalt kvalifitseeris .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Selgitused</s>
+</p>
+<p>
+<s>( 1 ) Taotlejal ja pakkujal on &otilde;igus saada selgitusi pakkumise kutse ja pakkumise kutse dokumentide sisu kohta .</s><s>Ostja annab selgitused kolme t&ouml;&ouml;p&auml;eva jooksul vastava taotluse saamisest arvates , edastades need samal ajal teistele taotlejatele v&otilde;i pakkujatele .</s>
+</p>
+<p>
+<s>( 2 ) Ostja v&otilde;ib avatud pakkumismenetluse v&otilde;i piiratud pakkumismenetluse korral n&otilde;uda pakkujatelt p&otilde;hjendatud ja asjassepuutuvaid selgitusi pakkumises esinevate ebat&auml;psuste ja ebaselguste kohta .</s><s>N&otilde;udmine ja selgitused peavad olema vormistatud kirjalikult .</s>
+</p>
+<p>
+<s>( 3 ) Kui pakkuja temalt p&otilde;hjendatult n&otilde;utud selgitusi ostjale kolme t&ouml;&ouml;p&auml;eva jooksul ei esita , v&otilde;idakse tema pakkumine tagasi l&uuml;kata .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>L&auml;bir&auml;&auml;kimised</s>
+</p>
+<p>
+<s>( 1 ) V&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse ja v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral on ostjal &otilde;igus otsustada , kas ja millisel m&auml;&auml;ral pakkujatega l&auml;bir&auml;&auml;kimisi pidada .</s>
+</p>
+<p>
+<s>( 2 ) L&auml;bir&auml;&auml;kimised on keelatud avatud pakkumismenetluse ja piiratud pakkumismenetluse korral .</s>
+</p>
+<p>
+<s>( 3 ) L&auml;bir&auml;&auml;kimiste pidamise korral peab ostja enne l&auml;bir&auml;&auml;kimiste alustamist teatama pakkujatele l&auml;bir&auml;&auml;kimiste pidamise korra .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Ostja ei tohi edastada l&auml;bir&auml;&auml;kimistel saadud informatsiooni teistele pakkujatele .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Hankelepingu s&otilde;lmimine ja j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Kirjalik hankeleping s&otilde;lmitakse mitte varem kui 14 p&auml;eva m&ouml;&ouml;dumisel edukaks tunnistatud pakkumise esitanud pakkujale k&auml;esoleva seaduse &sect; 46 l&otilde;ikes 2 s&auml;testatud teate v&auml;ljasaatmisest , kuid mitte enne pakkumise vastuv&otilde;tmist .</s><s>Kui pakkumise edukaks tunnistamise otsuse kohta esitatakse vaidlustus , ei s&otilde;lmita hankelepingut enne , kui peatatud pakkumismenetlust v&otilde;ib j&auml;tkata .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Hankelepingu tingimused peavad vastama pakkumise kutse dokumentides ja edukaks tunnistatud pakkumises esitatud tingimustele .</s>
+</p>
+<p>
+<s>( 3 ) Hankeleping , mis on s&otilde;lmitud enne k&auml;esoleva paragrahvi l&otilde;ikes 1 m&auml;rgitud t&auml;htaja m&ouml;&ouml;dumist v&otilde;i mis ei vasta k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatule , on t&uuml;hine .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Pakkumise v&otilde;rdsustamine hankelepinguga</s>
+</p>
+<p>
+<s>Kui pakkumise kutse dokumentides on seatud n&otilde;ue v&otilde;rdsustada vastuv&otilde;etud pakkumine hankelepinguga , j&otilde;ustub vastuv&otilde;etud pakkumine hankelepinguna mitte varem kui 14 p&auml;eva m&ouml;&ouml;dumisel edukaks tunnistatud pakkumise esitanud pakkujale k&auml;esoleva seaduse &sect; 46 l&otilde;ikes 2 s&auml;testatud teate v&auml;ljasaatmisest .</s><s>Kui pakkumise edukaks tunnistamise otsuse kohta esitatakse vaidlustus , ei j&otilde;ustu hankeleping enne , kui peatatud pakkumismenetlust v&otilde;ib j&auml;tkata .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pakkumismenetlused</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Avatud pakkumismenetlus</s>
+</p>
+<p>
+<s>( 1 ) Ostja peab kasutama avatud pakkumismenetlust .</s><s>Teiste pakkumismenetluste kasutamine on lubatud vaid k&auml;esolevas seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Avatud pakkumismenetlusest kutsub ostja pakkumise kutse avaldamisega osa v&otilde;tma k&otilde;iki huvitatud isikuid .</s>
+</p>
+<p>
+<s>( 3 ) Pakkumiste esitamise t&auml;htp&auml;eva m&auml;&auml;ramisel peab ostja arvesse v&otilde;tma riigihanke maksumust ja keerukust , pakkumise kutse dokumentide mahtu ning pakkuja vajadust v&otilde;tta ostjaga &uuml;hendust pakkumisega seotud dokumentide v&otilde;i ehituskohaga tutvumiseks .</s>
+</p>
+<p>
+<s>( 4 ) Ostja v&auml;ljastab pakkumise kutse dokumendid avatud pakkumismenetluses osalemisest huvitatud isikutele ajavahemikul pakkumise kutse avaldamisest kuni pakkumiste esitamise t&auml;htp&auml;evani kolme t&ouml;&ouml;p&auml;eva jooksul vastava taotluse saamisest arvates .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Piiratud pakkumismenetlus</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib kasutada piiratud pakkumismenetlust , kui :</s>
+</p>
+<p>
+<s>1 ) ostja on kinnitanud objektiivsed pakkujate valiku kriteeriumid ja</s>
+</p>
+<p>
+<s>2 ) majanduslikult on otstarbekas kontrollida taotleja kvalifikatsiooni enne pakkumise kutse dokumentide esitamist .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Piiratud pakkumismenetluse korral valib ostja taotlejate majanduslikku seisundit ja tehnilisi v&otilde;imalusi arvesse v&otilde;ttes nende hulgast v&auml;lja isikud , kellele ta esitab &uuml;heaegselt pakkumise kutse dokumendid .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Ostja v&otilde;ib eelnevalt kindlaks m&auml;&auml;rata piiratud pakkumismenetluses osalevate pakkujate arvu tingimusel , et :</s>
+</p>
+<p>
+<s>1 ) hankelepingute korral , mille maksumus on v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda , ei ole pakkujate minimaalne arv v&auml;iksem kui viis ja maksimaalne arv suurem kui 20 ;</s>
+</p>
+<p>
+<s>2 ) pakkujate arv m&auml;&auml;ratakse ostetavate asjade v&otilde;i tellitavate ehitust&ouml;&ouml;de v&otilde;i teenuste olemusest l&auml;htuvalt ;</s>
+</p>
+<p>
+<s>3 ) pakkumismenetluses osalevate pakkujate arv m&auml;&auml;ratakse pakkumise kutses ;</s>
+</p>
+<p>
+<s>4 ) hankelepingute korral , mille maksumus on madalam rahvusvahelisest piirm&auml;&auml;rast , ei ole pakkujate minimaalne arv v&auml;iksem kui kolm .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Pakkumiste esitamise t&auml;htp&auml;eva m&auml;&auml;ramisel peab ostja arvesse v&otilde;tma riigihanke maksumust ja keerukust , pakkumise kutse dokumentide mahtu ning pakkuja vajadust tutvuda pakkumisega seotud dokumentide v&otilde;i ehituskohaga .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>V&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetlus</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib kasutada v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetlust , kui :</s>
+</p>
+<p>
+<s>1 ) avatud pakkumismenetluse v&otilde;i piiratud pakkumismenetluse kasutamisel l&uuml;kati k&otilde;ik pakkumised tagasi k&auml;esoleva seaduse &sect; 43 l&otilde;ikes 4 v&otilde;i &sect; 44 l&otilde;ikes 1 s&auml;testatud alustel v&otilde;i kui nimetatud pakkumismenetlus l&otilde;ppes vastavalt k&auml;esoleva seaduse &sect; 8 l&otilde;ike 2 punktile 4 v&otilde;i 5 ja riigihanke esialgseid tingimusi oluliselt ei muudeta ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>2 ) ehitust&ouml;&ouml; v&otilde;i teenuse olemuse v&otilde;i ehitust&ouml;&ouml; v&otilde;i teenuse tellimisega kaasnevate v&otilde;imalike riskide t&otilde;ttu ei ole v&otilde;imalik eelnevalt riigihanke eeldatavat maksumust m&auml;&auml;rata ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>3 ) tellitavate teenuste , eriti intellektuaalset omandit puudutavate ning kindlustus- , pangandus- ja investeerimisalaste teenuste olemuse t&otilde;ttu ei ole v&otilde;imalik m&auml;&auml;ratleda riigihanke spetsiifilisi tingimusi piisava t&auml;psusega , et leida edukas pakkumine avatud pakkumismenetluse v&otilde;i piiratud pakkumismenetluse abil ;</s>
+</p>
+<p>
+<s>4 ) tellitavad ehitust&ouml;&ouml;d v&otilde;i teenused on vajalikud ainult teadusliku arendustegevuse , uurimise v&otilde;i katsetuste eesm&auml;rgil ja nende maksumuse arvel ei kaeta uurimis- ja arendust&ouml;&ouml; kulusid ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>5 ) riigihanke objektiks on ehitust&ouml;&ouml; kontsessioon .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral valib ostja taotlejate majanduslikku seisundit ja tehnilisi v&otilde;imalusi arvesse v&otilde;ttes nende hulgast isikud , kellele ta esitab &uuml;heaegselt pakkumise kutse dokumendid .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Ostja v&otilde;ib eelnevalt kindlaks m&auml;&auml;rata v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluses osalevate pakkujate arvu tingimusel , et :</s>
+</p>
+<p>
+<s>1 ) hankelepingute korral , mille maksumus on v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda , ei ole pakkujate minimaalne arv v&auml;iksem kui kolm ;</s>
+</p>
+<p>
+<s>2 ) pakkumismenetluses osalevate pakkujate arv on piisav konkurentsi tagamiseks .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>V&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetlus</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib kasutada v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetlust , kui :</s>
+</p>
+<p>
+<s>1 ) riigihanke kiire teostamine on vajalik etten&auml;gematute s&uuml;ndmuste t&otilde;ttu , et p&auml;&auml;sta inimese elu ja tervist v&otilde;i olulises v&auml;&auml;rtuses vara v&otilde;i ennetada inimese elu ja tervise v&otilde;i olulises v&auml;&auml;rtuses vara kahjustamist , t&otilde;kestada keskkonnakahjustuse levikut , v&otilde;i see on vajalik l&auml;htuvalt riigikaitselistest vajadustest ning muude pakkumismenetluste kasutamine ei ole ajalise piiratuse t&otilde;ttu v&otilde;imalik ;</s>
+</p>
+<p>
+<s>2 ) esialgselt pakkujalt ostetakse t&auml;iendavalt asju , mis on m&otilde;eldud kas varem ostetud asjade osaliseks asendamiseks v&otilde;i t&auml;iendamiseks , ning pakkuja vahetamise t&otilde;ttu tuleks osta asju , mis ei ole varem ostetuga tehniliselt kokkusobivad v&otilde;i mille kasutuselev&otilde;tmine p&otilde;hjustaks suuri t&auml;iendavaid kulutusi , kusjuures t&auml;iendavalt v&otilde;ib asju osta kolme aasta jooksul p&auml;rast esialgse avatud pakkumismenetluse v&otilde;i piiratud pakkumismenetluse l&otilde;ppemist ;</s>
+</p>
+<p>
+<s>3 ) tellitakse esialgses ehitust&ouml;&ouml; v&otilde;i teenuse tellimise riigihankes mittesisaldunud , kuid etten&auml;gematutel asjaoludel vajalikuks osutunud t&auml;iendavaid ehitust&ouml;id v&otilde;i teenuseid tingimusel , et t&auml;iendav hankeleping s&otilde;lmitakse sama pakkujaga ja niisuguseid t&auml;iendavaid ehitust&ouml;id v&otilde;i teenuseid ei saa tehniliselt v&otilde;i majanduslikult esialgsest riigihankest eraldada hankelepingu pooltele suuri kulutusi p&otilde;hjustamata v&otilde;i niisugused t&auml;iendavad ehitust&ouml;&ouml;d v&otilde;i teenused on otseselt vajalikud hankelepingu t&auml;itmiseks ning nende tellimise kogumaksumus on v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda ega &uuml;leta 50 protsenti esialgse riigihanke kogumaksumusest ;</s>
+</p>
+<p>
+<s>4 ) tellitakse esialgses ehitust&ouml;&ouml; v&otilde;i teenuse tellimise riigihankes mittesisaldunud , kuid etten&auml;gematutel asjaoludel vajalikuks osutunud t&auml;iendavaid ehitust&ouml;id v&otilde;i teenuseid tingimusel , et t&auml;iendav hankeleping s&otilde;lmitakse sama pakkujaga ja niisuguseid t&auml;iendavaid ehitust&ouml;id v&otilde;i teenuseid ei saa tehniliselt v&otilde;i majanduslikult esialgsest riigihankest eraldada hankelepingu pooltele suuri kulutusi p&otilde;hjustamata v&otilde;i niisugused t&auml;iendavad ehitust&ouml;&ouml;d v&otilde;i teenused on otseselt vajalikud hankelepingu t&auml;itmiseks ning nende tellimise kogumaksumus on madalam rahvusvahelisest piirm&auml;&auml;rast ega &uuml;leta 20 protsenti esialgse riigihanke kogumaksumusest ;</s>
+</p>
+<p>
+<s>5 ) sobiva alternatiivi v&otilde;i asendaja puudumisel saab kunstialastest p&otilde;hjustest v&otilde;i ainu&otilde;iguste , nagu n&auml;iteks patendid v&otilde;i autori&otilde;igused , kaitsmisega seonduvatest p&otilde;hjustest v&otilde;i konkurentsi puudumisel tehnilistest p&otilde;hjustest s&otilde;ltuvalt asju osta v&otilde;i teenuseid v&otilde;i ehitust&ouml;id tellida ainult &uuml;helt pakkujalt ;</s>
+</p>
+<p>
+<s>6 ) tellitakse uusi ehitust&ouml;id , mis seisnevad samade hankelepingupoolte vahel varem teostatud avatud pakkumismenetluse tulemusena s&otilde;lmitud hankelepingu alusel tehtud tellitavatega sarnaste ehitust&ouml;&ouml;de kordamises , tingimusel , et tellitavad ehitust&ouml;&ouml;d vastavad esialgsele ehitusprojektile , mille alusel esialgne hankeleping s&otilde;lmiti ning nende tellimise kogumaksumus on v&otilde;rdne rahvusvahelise piirm&auml;&auml;raga v&otilde;i &uuml;letab seda ;</s>
+</p>
+<p>
+<s>7 ) tellitakse uusi ehitust&ouml;id , mis seisnevad samade hankelepingupoolte vahel varem teostatud avatud pakkumismenetluse tulemusena s&otilde;lmitud hankelepingu alusel tehtud tellitavatega sarnaste ehitust&ouml;&ouml;de kordamises , tingimusel , et tellitavad ehitust&ouml;&ouml;d vastavad esialgsele ehitusprojektile , mille alusel esialgne hankeleping s&otilde;lmiti , ning nende tellimise kogumaksumus on madalam rahvusvahelisest piirm&auml;&auml;rast ja esialgse hankelepingu l&otilde;ppemisest ei ole m&ouml;&ouml;dunud rohkem kui &uuml;ks aasta ;</s>
+</p>
+<p>
+<s>8 ) asju ostetakse eriti soodsat v&otilde;imalust &auml;ra kasutades , kui see v&otilde;imalus on k&auml;ttesaadav &uuml;ksnes v&auml;ga l&uuml;hikese aja jooksul , nagu n&auml;iteks on likvideerimis- v&otilde;i pankrotimenetlus , ja kui seda v&otilde;imalust kasutades ostetakse asju hinnaga , mis on v&auml;hemalt 50 protsenti madalam tavalisest turuhinnast ;</s>
+</p>
+<p>
+<s>9 ) asju ostetakse kaubab&ouml;rsil ;</s>
+</p>
+<p>
+<s>10 ) hankeleping s&otilde;lmitakse k&auml;esoleva seaduse avatud pakkumismenetlust v&otilde;i piiratud pakkumismenetlust k&auml;sitlevate s&auml;tete alusel korraldatud ideekonkursi v&otilde;itjaga ;</s>
+</p>
+<p>
+<s>11 ) avatud pakkumismenetluse v&otilde;i piiratud pakkumismenetluse ja v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral puudusid esitatud tingimustele vastavad pakkumised ja tingimusel , et esialgsed pakkumise tingimused ei ole oluliselt muutunud ;</s>
+</p>
+<p>
+<s>12 ) asju ostetakse v&otilde;i teenuseid tellitakse &uuml;ksnes uuringute v&otilde;i eksperimentide tegemiseks v&otilde;i teaduslikel v&otilde;i arenduslikel eesm&auml;rkidel ning mitte kasu saamiseks v&otilde;i vastavate kulutuste katmiseks tingimusel , et selline asjade ostmine v&otilde;i teenuste tellimine ei kahjusta konkurentsi j&auml;rgnevate sellesarnase eesm&auml;rgiga lepingute s&otilde;lmimisel ;</s>
+</p>
+<p>
+<s>13 ) riigihanke eeldatavaks maksumuseks on aasta arvestuses koos k&auml;ibemaksuga asjade ostmise v&otilde;i teenuste tellimise korral kuni 200 000 krooni v&otilde;i ehitust&ouml;&ouml;de tellimise korral kuni 2 miljonit krooni .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Ostja v&otilde;ib v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral pidada l&auml;bir&auml;&auml;kimisi nii paljude pakkujatega , kui ta seda ise otstarbekaks peab .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral valib ostja isikud , kellele ta esitab &uuml;heaegselt pakkumise kutse dokumendid .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Ostja ei pea v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral arvestama k&auml;esoleva seaduse &sect;-des 18 , 19 , 25 ja 38 , &sect; 39 l&otilde;igetes 2-5 , &sect;-des 40 ja 42 , &sect; 43 l&otilde;igetes 2-5 , &sect;-des 44-46 , 48-50 , 52 ja 53 s&auml;testatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 5 ) Ostja saadab v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse korral enne l&auml;bir&auml;&auml;kimiste algust registrile v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse teate , milles sisalduvad v&auml;hemalt :</s>
+</p>
+<p>
+<s>1 ) ostja nimi , aadress ja muud kontaktandmed , olemasolu korral registrikood ;</s>
+</p>
+<p>
+<s>2 ) riigihanke objekti nimetus ja iseloomustus ning riigihanke objektile v&otilde;imalikult t&auml;pselt vastav &uuml;htse riigihangete objektide klassifikatsiooni kood v&otilde;i koodid ;</s>
+</p>
+<p>
+<s>3 ) riigihanke eest vastutava isiku nimi , ametikoht ja kontaktandmed ;</s>
+</p>
+<p>
+<s>4 ) riigihanke eeldatav maksumus ;</s>
+</p>
+<p>
+<s>5 ) hankelepingu t&auml;itmise t&auml;htp&auml;ev ;</s>
+</p>
+<p>
+<s>6 ) ostja valitud pakkujate nimed , aadressid ja muud kontaktandmed , olemasolu korral registrikoodid ;</s>
+</p>
+<p>
+<s>7 ) pakkumismenetluse valiku p&otilde;hjendus k&auml;esoleva paragrahvi l&otilde;ike 1 alusel .</s>
+</p>
+<p>
+<s>( 6 ) V&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetluse teate vormin&otilde;uded ja esitamise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Erireeglid</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja v&otilde;ib avatud pakkumismenetluse v&otilde;i piiratud pakkumismenetluse asemel kasutada v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetlust .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 6 nimetatud ostja v&otilde;ib lisaks k&auml;esoleva seaduse &sect;-s 57 s&auml;testatud juhtudele kasutada v&auml;ljakuulutamiseta l&auml;bir&auml;&auml;kimistega pakkumismenetlust , kui ostja :</s>
+</p>
+<p>
+<s>1 ) valib pakkujad vastavalt k&auml;esoleva seaduse &sect;-s 37 s&auml;testatud kvalifitseerimise s&uuml;steemile kvalifitseeritud pakkujate seast ja</s>
+</p>
+<p>
+<s>2 ) on avaldanud pakkumise kutse avatud pakkumismenetluse , piiratud pakkumismenetluse v&otilde;i v&auml;ljakuulutamisega l&auml;bir&auml;&auml;kimistega pakkumismenetluse korraldamiseks ja puuduvad pakkujad v&otilde;i taotlejad v&otilde;i kvalifitseeritud pakkujad v&otilde;i taotlejad ning esialgsed pakkumise tingimused ei ole oluliselt muutunud .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Ideekonkurss</s>
+</p>
+<p>
+<s>( 1 ) Ideekonkursi korraldamisel peab ostja l&auml;htuma k&auml;esoleva seaduse avatud pakkumismenetlust v&otilde;i piiratud pakkumismenetlust k&auml;sitlevatest s&auml;tetest .</s>
+</p>
+<p>
+<s>( 2 ) Ostja volitab ideekonkursi korraldamise ja v&otilde;itjate v&auml;ljaselgitamise ideekonkursi komisjonile .</s>
+</p>
+<p>
+<s>( 3 ) Ideekonkursist v&otilde;ib osa v&otilde;tta era&otilde;iguslik juriidiline isik , avalik-&otilde;iguslik juriidiline isik ja f&uuml;&uuml;siline isik .</s>
+</p>
+<p>
+<s>( 4 ) Ideekonkursi kutses peavad sisalduma v&auml;hemalt j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) ostja nimi , aadress ja muud kontaktandmed , olemasolu korral registrikood ;</s>
+</p>
+<p>
+<s>2 ) komisjoni liikmete nimed ;</s>
+</p>
+<p>
+<s>3 ) ideekonkursi nimetus ja iseloomustus ;</s>
+</p>
+<p>
+<s>4 ) ideekonkursist osav&otilde;tjatele esitatavad n&otilde;uded ;</s>
+</p>
+<p>
+<s>5 ) ideekonkursi autasud ;</s>
+</p>
+<p>
+<s>6 ) kavanditele esitatavad n&otilde;uded ;</s>
+</p>
+<p>
+<s>7 ) kavandite hindamisel kasutatavad kriteeriumid ;</s>
+</p>
+<p>
+<s>8 ) kavandite esitamise koht , t&auml;htp&auml;ev ja kellaaeg .</s>
+</p>
+<p>
+<s>( 5 ) Ostja v&otilde;ib ideekonkursist osav&otilde;tjate arvu piirata , kuid peab sellise valiku tegema selgete ja mittediskrimineerivate kriteeriumide alusel .</s><s>Ideekonkursist osav&otilde;tjate arvu m&auml;&auml;ramisel peab ostja l&auml;htuma vajadusest tagada piisav konkurents .</s>
+</p>
+<p>
+<s>( 6 ) Ideekonkursi komisjon peab koosnema isikutest , kes on ideekonkursist osav&otilde;tjatest s&otilde;ltumatud .</s><s>Kui ideekonkursist osav&otilde;tjatelt n&otilde;utakse teatud ametialast kvalifikatsiooni , peab v&auml;hemalt &uuml;hel kolmandikul ideekonkursi komisjoni liikmetest olema sama v&otilde;i sellele l&auml;hedane kvalifikatsioon .</s>
+</p>
+<p>
+<s>( 7 ) Ideekonkursi komisjon on oma otsustes ja arvamustes s&otilde;ltumatu .</s><s>Otsused ja arvamused tehakse anon&uuml;&uuml;mselt esitatud kavandite kohta vaid ideekonkursi kutses avaldatud kriteeriumide alusel .</s>
+</p>
+<p>
+<s>( 8 ) Ideekonkursi kutse vormin&otilde;uded ja esitamise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Elektrooniline riigihange</s>
+</p>
+<p>
+<s>( 1 ) Ostjal on &otilde;igus korraldada pakkumismenetlusi kehtestatud n&otilde;uetele vastavate veebilehtede kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tja tegevus k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud veebilehe haldajana on lubatud &auml;riregistri kande , riikliku erin&otilde;uetega tegevusaladel tegutsevate ettev&otilde;tjate registri registreeringu ja n&otilde;uetele vastava vastutuskindlustuse olemasolu korral .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud veebilehe haldajana tegutseda sooviva ettev&otilde;tja registreerimistaotluse alusel teeb riikliku erin&otilde;uetega tegevusaladel tegutsevate ettev&otilde;tjate registri registreeringu tegemise otsuse majandusministri moodustatud komisjon ( edaspidi komisjon ) , kui ettev&otilde;tja on kantud &auml;riregistrisse ja ta on s&otilde;lminud vastutuskindlustuslepingu kindlustussumma alamm&auml;&auml;raga 5 miljonit krooni , mis tagab tema tegevuses sellise veebilehe haldajana tekkida v&otilde;iva kahju h&uuml;vitamise , ning tema poolt hallata soovitav veebilehe veebirakendus vastab n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 4 ) Riikliku erin&otilde;uetega tegevusaladel tegutsevate ettev&otilde;tjate registri registreeringu tegemisest keeldumise otsuse teeb komisjon , kui ettev&otilde;tja ei ole kantud &auml;riregistrisse v&otilde;i tal ei ole n&otilde;uetekohast vastutuskindlustust v&otilde;i tema poolt hallata soovitud veebilehe veebirakendus ei vasta kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 5 ) Riikliku erin&otilde;uetega tegevusaladel tegutsevate ettev&otilde;tjate registri registreeringu andmete kustutamise otsuse teeb komisjon k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud veebilehe haldajana tegutseva ettev&otilde;tja taotluse alusel v&otilde;i kui ettev&otilde;tja andmed &auml;riregistris on kustutatud v&otilde;i tal ei ole n&otilde;uetekohast vastutuskindlustust v&otilde;i tema poolt hallatava veebilehe veebirakendus ei vasta enam kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 6 ) Komisjoni koosseisu ja t&ouml;&ouml;korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 7 ) Registreerimistaotluses peavad sisalduma v&auml;hemalt :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tja nimi , registrikood , aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>2 ) vastutuskindlustuse suurus , kehtivuse aeg ja vastutuskindlustuse olemasolu t&otilde;endava dokumendi v&auml;ljastanud ettev&otilde;tja nimi , registrikood , aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>3 ) veebilehe veebirakenduse kirjeldus ;</s>
+</p>
+<p>
+<s>4 ) veebilehe aadress ;</s>
+</p>
+<p>
+<s>5 ) registreerimistaotlusele alla kirjutanud isiku nimi , ametinimetus ja kontaktandmed .</s>
+</p>
+<p>
+<s>( 8 ) Riikliku erin&otilde;uetega tegevusaladel tegutsevate ettev&otilde;tjate registri registreeringuandmed on :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tja nimi , registrikood , aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>2 ) vastutuskindlustuse suurus , kehtivuse aeg ja vastutuskindlustuse olemasolu t&otilde;endava dokumendi v&auml;ljastanud ettev&otilde;tja nimi , registrikood , aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>3 ) veebilehe veebirakenduse kirjeldus ;</s>
+</p>
+<p>
+<s>4 ) veebilehe aadress ;</s>
+</p>
+<p>
+<s>5 ) registreerimistaotlusele alla kirjutanud isiku nimi , ametinimetus ja kontaktandmed ;</s>
+</p>
+<p>
+<s>6 ) komisjoni otsuse kohta k&auml;ivad andmed .</s>
+</p>
+<p>
+<s>( 9 ) K&auml;esoleva paragrahvi l&otilde;ikes 8 nimetatud registreeringuandmed avaldatakse riikliku erin&otilde;uetega tegevusaladel tegutsevate ettev&otilde;tjate registri veebilehel .</s>
+</p>
+<p>
+<s>( 10 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud veebilehe veebirakendusele kehtestatud n&otilde;uete eiramise korral tekkinud kahjude h&uuml;vitamise eest vastutab k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud veebilehe haldaja .</s>
+</p>
+<p>
+<s>( 11 ) N&otilde;uded k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud veebilehe veebirakendusele ja sellise veebilehe veebirakendusele kehtestatud n&otilde;uetele vastavuse hindamise korra kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vaidlustuse esitamine ja l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Ostja tegevuse vaidlustamine</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>Pakkuja v&otilde;i pakkumismenetluses osalemisest huvitatud isik , kes leiab , et pakkumismenetluse k&auml;igus on ostja k&auml;esoleva seaduse s&auml;tete rikkumisega rikkunud tema &otilde;igusi v&otilde;i kahjustanud tema huve , v&otilde;ib esitada vaidlustuse ostja tegevuse peale .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Vaidlustuse esitamine</s>
+</p>
+<p>
+<s>( 1 ) Ametile esitatakse vaidlustus pakkumise kutse , pakkumise kutse dokumentide v&otilde;i ostja tehtud taotleja kvalifitseerimise otsuse v&otilde;i taotleja kvalifitseerimata j&auml;tmise otsuse , pakkuja kvalifitseerimise otsuse v&otilde;i pakkuja kvalifitseerimata j&auml;tmise otsuse , pakkumise vastavaks tunnistamise otsuse , pakkumise tagasil&uuml;kkamise otsuse , k&otilde;igi pakkumiste tagasil&uuml;kkamise otsuse v&otilde;i pakkumise edukaks tunnistamise otsuse peale .</s>
+</p>
+<p>
+<s>( 2 ) Vaidlustus esitatakse seitsme p&auml;eva jooksul , arvates p&auml;evast , millal vaidlustuse esitaja sai teada v&otilde;i pidi teada saama oma &otilde;iguste rikkumisest v&otilde;i huvide kahjustamisest , kuid mitte p&auml;rast edukaks tunnistatud pakkumise vastuv&otilde;tmist ostja poolt .</s><s>Vaidlustus pakkumise kutse dokumentide kohta tuleb esitada enne , kui ostja avab pakkumised .</s>
+</p>
+<p>
+<s>( 3 ) Vaidlustus esitatakse kirjalikult ja selles peavad sisalduma :</s>
+</p>
+<p>
+<s>1 ) vaidlustuse esitaja nimi , aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>2 ) ostja nimi , aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>3 ) vaidlustatava pakkumise kutse v&otilde;i pakkumise kutse dokumentide v&otilde;i otsuse sisu ning p&otilde;hjused , miks vaidlustuse esitaja loeb seda oma &otilde;igusi rikkuvaks v&otilde;i huve kahjustavaks ;</s>
+</p>
+<p>
+<s>4 ) vaidlustuse esitaja selgelt v&auml;ljendatud taotlus ;</s>
+</p>
+<p>
+<s>5 ) vaidlustusele lisatud dokumentide loetelu .</s>
+</p>
+<p>
+<s>( 4 ) Vaidlustuse esitaja lisab vaidlustusele oma k&auml;sutuses oleva teabe pakkumismenetluse kohta , millega seoses ta vaidlustuse esitab , ja riigil&otilde;ivu tasumist t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Vaidlustuse l&auml;bivaatamise korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Ametil on &otilde;igus n&otilde;uda ostjalt k&otilde;ikide vaidlustuse l&auml;bivaatamiseks vajalike dokumentide esitamist .</s>
+</p>
+<p>
+<s>( 2 ) Ostja on kohustatud esitama Ametile n&otilde;utud dokumendid kahe t&ouml;&ouml;p&auml;eva jooksul Ametilt sellekohase n&otilde;udmise saamisest arvates .</s>
+</p>
+<p>
+<s>( 3 ) Ametil on &otilde;igus n&otilde;uda ostjalt enne vaidlustuse l&auml;bivaatamist kirjalikku seletust vaidlustatava pakkumise kutse v&otilde;i pakkumise kutse dokumentide v&otilde;i otsuse sisu kohta , mille ostja on kohustatud esitama Ametile kahe t&ouml;&ouml;p&auml;eva jooksul Ametilt sellekohase n&otilde;udmise saamisest arvates .</s>
+</p>
+<p>
+<s>( 4 ) Amet j&auml;tab vaidlustuse l&auml;bi vaatamata ja teeb sellekohase otsuse , kui :</s>
+</p>
+<p>
+<s>1 ) vaidlustus ei ole esitatud t&auml;htaegselt ;</s>
+</p>
+<p>
+<s>2 ) vaidlustus ei vasta k&auml;esoleva seaduse &sect; 62 l&otilde;ikes 3 s&auml;testatud n&otilde;uetele v&otilde;i vaidlustusele ei ole lisatud riigil&otilde;ivu tasumist t&otilde;endavat dokumenti ;</s>
+</p>
+<p>
+<s>3 ) vaidlustus ei ole esitatud pakkumise kutse , pakkumise kutse dokumentide v&otilde;i k&auml;esoleva seaduse &sect; 62 l&otilde;ikes 1 nimetatud otsuse peale ;</s>
+</p>
+<p>
+<s>4 ) on tehtud k&auml;esoleva seaduse &sect; 70 l&otilde;ikes 1 nimetatud otsus v&otilde;i ettekirjutus .</s>
+</p>
+<p>
+<s>( 5 ) Kui Amet leiab , et esitatud vaidlustus ei vasta k&auml;esoleva seaduse &sect; 62 l&otilde;ikes 3 s&auml;testatud n&otilde;uetele v&otilde;i vaidlustusele ei ole lisatud riigil&otilde;ivu tasumist t&otilde;endavat dokumenti , tagastab ta vaidlustuse selle esitajale ja m&auml;&auml;rab puuduste k&otilde;rvaldamise t&auml;htajaks kaks t&ouml;&ouml;p&auml;eva .</s><s>Kui vaidlustuse esitaja ei k&otilde;rvalda puudusi m&auml;&auml;ratud t&auml;htaja jooksul , j&auml;tab Amet vaidlustuse l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 6 ) Ametil on &otilde;igus kaasata vaidlustuse l&auml;bivaatamisele eksperte .</s><s>Ekspert v&otilde;ib esitada oma arvamuse kirjalikult v&otilde;i avalikul istungil .</s><s>Vaidlustuse esitamise kulud , mis koosnevad riigil&otilde;ivust ja eksperdi kaasamise t&otilde;endatud kuludest , sealhulgas eksperdi tasust , kannab vaidlustuse esitaja juhul , kui vaidlustuse l&auml;bivaatamine l&otilde;peb k&auml;esoleva seaduse &sect; 65 l&otilde;ike 6 punktis 1 v&otilde;i 3 nimetatud alusel , ja ostja juhul , kui vaidlustuse l&auml;bivaatamine l&otilde;peb k&auml;esoleva seaduse &sect; 65 l&otilde;ike 6 punktis 2 , 4 v&otilde;i 5 nimetatud alusel .</s><s>Vaidlustuse esitamise kulude suuruse m&auml;&auml;rab Amet oma otsusega .</s>
+</p>
+<p>
+<s>( 7 ) Eksperdi tasu aluseks on riigiteenistujate palgaastmestiku k&otilde;rgeima astme palgam&auml;&auml;rale vastava tunnitasu kolmekordne m&auml;&auml;r .</s>
+</p>
+<p>
+<s>( 8 ) Andmed vaidlustuse kohta kantakse registrisse .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Pakkumismenetluse peatamine</s>
+</p>
+<p>
+<s>( 1 ) Vaidlustuse saamisel , mille puhul puuduvad &sect; 63 l&otilde;ikes 4 s&auml;testatud alused selle l&auml;bi vaatamata j&auml;tmiseks , on Amet kohustatud teatama ostjale vaidlustuse esitamisest ostja tegevuse peale pakkumismenetluse teostamisel ning edastama talle vaidlustuse koopia .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 2 ) Kui Amet m&auml;&auml;rab t&auml;htaja vaidlustuses esinevate puuduste k&otilde;rvaldamiseks , teatab ta ostjale vaidlustuse esitamisest ostja tegevuse peale pakkumismenetluse teostamisel ning edastab ostjale p&auml;rast puuduste k&otilde;rvaldamist Ametile laekunud vaidlustuse koopia .</s><s>Kui vaidlustuse esitaja ei k&otilde;rvalda puudusi m&auml;&auml;ratud t&auml;htaja jooksul , teatab Amet sellest kohe ostjale .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) Ametilt vaidlustuse esitamise kohta teate saamisel on ostja kohustatud pakkumismenetluse peatama .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) Kui ostja j&auml;tkab pakkumismenetlust p&auml;rast Ametilt vaidlustuse esitamise kohta teate saamist , on k&otilde;ik selle k&auml;igus tehtud j&auml;rgnevad toimingud t&uuml;hised .</s><s>Samuti on t&uuml;hine hankeleping , mis s&otilde;lmitakse p&auml;rast Ametilt vaidlustuse esitamise kohta teate saamist .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Vaidlustuse l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) Vaidlustuse vaatab Amet l&auml;bi k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul Ametile vaidlustuse esitamise p&auml;evast arvates .</s><s>Amet otsustab vaidlustuse l&auml;bivaatamise kas esitatud dokumentide alusel kirjalikus menetluses v&otilde;i korraldab vaidlustuse l&auml;bivaatamise avalikul istungil ( edaspidi avalik istung ) v&auml;hemalt Ameti esindaja , vaidlustuse esitaja ja ostja osav&otilde;tul .</s>
+</p>
+<p>
+<s>( 2 ) Vaidlustuse l&auml;bivaatamine Ameti esindaja , vaidlustuse esitaja , ostja ja juhul , kui vaidlustus on esitatud ostja otsuse peale pakkumise edukaks tunnistamisel , siis ka edukaks tunnistatud pakkumise esitaja osav&otilde;tul toimub avalikul istungil .</s><s>Ametil on &otilde;igus vajaduse korral otsustada t&auml;iendava istungi toimumine .</s><s>T&auml;iendava istungi toimumisest teatatakse kas eelmisel istungil v&otilde;i k&auml;esoleva paragrahvi l&otilde;ikes 3 etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 3 ) Amet teatab ostjale , vaidlustuse esitajale ning juhul , kui vaidlustus on esitatud ostja otsuse peale pakkumise edukaks tunnistamisel , siis ka edukaks tunnistatud pakkumise esitajale avaliku istungi toimumise aja .</s><s>Ostja teatab avaliku istungi toimumise aja k&otilde;ikidele &uuml;lej&auml;&auml;nud pakkujatele v&otilde;i taotlejatele .</s><s>Ostja poolt pakkujatele v&otilde;i taotlejatele avalikul istungil osalemise v&otilde;imalusest teatamata j&auml;tmine v&otilde;i pakkujate v&otilde;i taotlejate ilmumata j&auml;&auml;mine avalikule istungile ei takista vaidlustuse l&auml;bivaatamist .</s>
+</p>
+<p>
+<s>( 4 ) Vaidlustusmenetluse osalised on vaidlustuse esitaja , ostja ja juhul , kui vaidlustus on esitatud ostja otsuse peale pakkumise edukaks tunnistamisel , siis ka edukaks tunnistatud pakkumise esitaja .</s><s>Vaidlustusmenetluse pooled on vaidlustuse esitaja ja ostja .</s>
+</p>
+<p>
+<s>( 5 ) Vaidlustusmenetluse &uuml;he v&otilde;i m&otilde;lema poole avalikule istungile ilmumata j&auml;&auml;mise korral vaatab Amet vastavalt k&auml;esoleva paragrahvi l&otilde;ikele 2 vaidlustuse l&auml;bi esitatud dokumentide alusel kirjalikus menetluses .</s>
+</p>
+<p>
+<s>( 6 ) Vaidlustuse l&auml;bivaatamine l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) vaidlustusest loobumisega selle esitaja poolt ;</s>
+</p>
+<p>
+<s>2 ) vaidlustuse p&otilde;hjendatuks tunnistamisega ostja poolt ;</s>
+</p>
+<p>
+<s>3 ) Ameti otsusega j&auml;tta vaidlustus rahuldamata ;</s>
+</p>
+<p>
+<s>4 ) Ameti otsusega rahuldada vaidlustus , t&uuml;histades k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 1 nimetatud ostja tehtud pakkumismenetlusega seotud k&auml;esoleva seadusega vastuolus oleva otsuse v&otilde;i tehes k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktides 2-6 nimetatud ostjale ettekirjutuse t&uuml;histada tema pakkumismenetlusega seotud k&auml;esoleva seadusega vastuolus olev otsus v&otilde;i kohustades ostjat viima pakkumise kutse v&otilde;i pakkumise kutse dokumendid vastavusse &otilde;igusaktidega etten&auml;htud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva seaduse &sect; 70 l&otilde;ikes 1 nimetatud Ameti otsuse v&otilde;i ettekirjutusega .</s>
+</p>
+<p>
+<s>( 7 ) Vaidlustuse l&auml;bivaatamise l&otilde;ppemine vastavalt k&auml;esoleva paragrahvi l&otilde;ike 6 punktis 1 v&otilde;i 2 s&auml;testatule vormistatakse kirjaliku protokolliga , millele kirjutavad alla Ameti esindaja , vaidlustuse esitaja ja ostja .</s>
+</p>
+<p>
+<s>( 8 ) Vaidlustuse l&auml;bivaatamise l&otilde;ppemine vastavalt k&auml;esoleva paragrahvi l&otilde;ike 6 punktis 3 v&otilde;i 4 s&auml;testatule vormistatakse Ameti motiveeritud otsusega .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Kaebuse esitamine halduskohtusse</s>
+</p>
+<p>
+<s>Vaidlustuse lahendamiseks , mille puhul on tehtud k&auml;esoleva seaduse &sect; 63 l&otilde;ikes 4 v&otilde;i &sect; 65 l&otilde;ike 6 punktis 3 nimetatud otsus , v&otilde;ib esitada halduskohtusse kaebuse ostja tehtud pakkumismenetlusega seotud otsuse v&otilde;i pakkumise kutse v&otilde;i pakkumise kutse dokumentide peale v&otilde;i Ameti poolt tehtud &sect; 65 l&otilde;ike 6 punktis 4 nimetatud otsuse v&otilde;i ettekirjutuse peale .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Pakkumismenetluse j&auml;tkamine</s>
+</p>
+<p>
+<s>( 1 ) Ostja v&otilde;ib peatatud pakkumismenetlust j&auml;tkata p&auml;rast :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 64 l&otilde;ikes 2 s&auml;testatud teate saamist Ametilt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) vaidlustusest loobumist selle esitaja poolt v&otilde;i</s>
+</p>
+<p>
+<s>3 ) vaidlustuse esitajalt kirjaliku teate saamist , et ta ei esita ostja tehtud pakkumismenetlusega seotud otsuste v&otilde;i pakkumise kutse v&otilde;i pakkumise kutse dokumentide peale kaebust k&auml;esoleva seaduse &sect;-s 66 s&auml;testatud korras , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) k&uuml;mne p&auml;eva m&ouml;&ouml;dumist k&auml;esoleva seaduse &sect; 65 l&otilde;ike 6 punktis 3 nimetatud Ameti otsuse tegemisest v&otilde;i</s>
+</p>
+<p>
+<s>5 ) halduskohtu m&auml;&auml;ratud pakkumismenetluse peatamise t&auml;htaja m&ouml;&ouml;dumist .</s>
+</p>
+<p>
+<s>( 2 ) Vaidlustuse p&otilde;hjendatuks tunnistamisel vastavalt k&auml;esoleva seaduse &sect; 65 l&otilde;ike 6 punktile 2 v&otilde;i Ameti otsuse tegemisel vastavalt k&auml;esoleva seaduse &sect; 65 l&otilde;ike 6 punktile 4 j&auml;tkub pakkumismenetlus p&auml;rast pakkumismenetlusega seotud vaidlustatud otsuse t&uuml;histamist v&otilde;i ostja poolt ettekirjutuse t&auml;itmist .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve ja vastutus</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Riikliku j&auml;relevalve teostaja</s>
+</p>
+<p>
+<s>Amet teostab riiklikku j&auml;relevalvet riigihangete teostamise &uuml;le .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Riikliku j&auml;relevalve teostaja p&auml;devus</s>
+</p>
+<p>
+<s>Riigihangete teostamise &uuml;le riikliku j&auml;relevalve teostaja p&auml;devuses on :</s>
+</p>
+<p>
+<s>1 ) kontrollida k&auml;esoleva seaduse t&auml;itmist takistamatult ja ette teatamata , sealhulgas ostja juures ;</s>
+</p>
+<p>
+<s>2 ) saada ostjatelt riigihangete kohta kogu riikliku j&auml;relevalve teostamiseks vajaminevat informatsiooni , samuti riigihanget puudutavate dokumentide originaale v&otilde;i &auml;rakirju ;</s>
+</p>
+<p>
+<s>3 ) teha otsus v&otilde;i ettekirjutus , kui ostja on pakkumismenetluse k&auml;igus rikkunud k&auml;esoleva seaduse s&auml;tteid .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Ameti otsus v&otilde;i ettekirjutus</s>
+</p>
+<p>
+<s>( 1 ) Ametil on kohustus igal ajal enne hankelepingu s&otilde;lmimist oma otsusega kas t&uuml;histada k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 1 nimetatud ostja pakkumismenetlus v&otilde;i teha k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktides 2-6 nimetatud ostjale ettekirjutus t&uuml;histada pakkumismenetlus , kui ostja :</s>
+</p>
+<p>
+<s>1 ) ei ole pakkumise kutse dokumentides esitanud pakkumise edukuse &uuml;le otsustamisel kasutatavaid hindamiskriteeriume v&otilde;i nende suhtelist osakaalu ;</s>
+</p>
+<p>
+<s>2 ) ei ole teatanud k&otilde;ikidele pakkujatele pakkumise kutse dokumentide muutmisest , pakkumiste vastavaks tunnistamisest v&otilde;i tagasil&uuml;kkamisest v&otilde;i pakkumise edukaks tunnistamisest ;</s>
+</p>
+<p>
+<s>3 ) on rikkunud pakkumiste v&otilde;i pakkumiste maksumuste avamise korda ;</s>
+</p>
+<p>
+<s>4 ) on kasutanud pakkumiste v&otilde;rdlemisel ja hindamisel oma esindajana v&otilde;i eksperdina isikut , kelle suhted pakkujaga v&otilde;ivad tekitada p&otilde;hjendatud kahtlust tema objektiivsuses ;</s>
+</p>
+<p>
+<s>5 ) on avatud pakkumismenetluse v&otilde;i piiratud pakkumismenetluse korral pidanud l&auml;bir&auml;&auml;kimisi &uuml;he v&otilde;i mitme pakkujaga .</s>
+</p>
+<p>
+<s>( 2 ) Pakkumismenetluse t&uuml;histamise korral on k&otilde;ik pakkumismenetlusega seotud otsused ja toimingud t&uuml;hised , olenemata sellest , kas need on tehtud enne v&otilde;i p&auml;rast t&uuml;histamise otsustamist .</s><s>Samuti on t&uuml;hine hankeleping , mis s&otilde;lmitakse p&auml;rast pakkumismenetluse v&otilde;i ostja tehtud pakkumismenetlusega seotud otsuse t&uuml;histamise otsustamist .</s>
+</p>
+<p>
+<s>( 3 ) Enne pakkumismenetluse t&uuml;histamise v&otilde;i ettekirjutuse tegemise otsustamist annab Amet ostjale v&otilde;imaluse omapoolsete vastuv&auml;idete esitamiseks Ameti m&auml;&auml;ratud t&auml;htaja jooksul , mis ei v&otilde;i olla pikem kui kolm t&ouml;&ouml;p&auml;eva .</s>
+</p>
+<p>
+<s>( 4 ) Ameti otsuses v&otilde;i ettekirjutuses m&auml;rgitakse v&auml;hemalt :</s>
+</p>
+<p>
+<s>1 ) otsuse v&otilde;i ettekirjutuse tegemise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) otsuse v&otilde;i ettekirjutuse sisu ;</s>
+</p>
+<p>
+<s>3 ) otsuse v&otilde;i ettekirjutuse teinud ametiisiku ees- ja perekonnanimi ning ametinimetus .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Vastutus riigihangete teostamise korra rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse v&otilde;i selle alusel kehtestatud &otilde;igusaktide rikkumise korral kohaldatakse tsiviil- , distsiplinaar- , haldus- v&otilde;i kriminaalvastutust .</s><s>Juriidilisele isikule kohaldatav haldusvastutus ei v&auml;lista haldus- v&otilde;i kriminaalvastutuse kohaldamist asjakohasele f&uuml;&uuml;silisele isikule .</s>
+</p>
+<p>
+<s>( 2 ) Kui Ametile laekub teave riigihangete teostamisega seotud &otilde;iguserikkumise kohta v&otilde;i Amet avastab &otilde;iguserikkumise riigihangete teostamisega seotud kontrollimise k&auml;igus ja see &otilde;iguserikkumine ei ole k&auml;sitatav k&auml;esoleva seaduse &sect;-s 74 s&auml;testatud haldus&otilde;iguserikkumisena , peab Amet teavitama talle teadaolevatest asjaoludest politseiasutust v&otilde;i prokur&ouml;ri .</s>
+</p>
+<p>
+<s>( 3 ) Ametil on &otilde;igus teha ettepanekuid k&auml;esolevat seadust v&otilde;i selle alusel kehtestatud &otilde;igusakte rikkunud isiku v&otilde;i isikute distsiplinaarvastutusele v&otilde;tmiseks .</s>
+</p>
+<p>
+<s>( 4 ) Riigihangete teostamise korra oluliseks rikkumiseks loetakse j&auml;rgmised juhud :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud isik , kes on kohustatud ostma asju v&otilde;i tellima ehitust&ouml;&ouml; v&otilde;i teenuse k&auml;esolevas seaduses s&auml;testatud korras , teostab riigihanke seda korda j&auml;rgimata ;</s>
+</p>
+<p>
+<s>2 ) ostja on teostanud pakkumismenetluse kindla kavatsuseta hankeleping s&otilde;lmida ;</s>
+</p>
+<p>
+<s>3 ) ostja ei selgita k&auml;esoleva seadusega etten&auml;htud korras v&auml;lja edukat pakkumist v&otilde;i l&uuml;kkab pakkumise tagasi k&auml;esoleva seaduse &sect; 43 l&otilde;ikes 4 s&auml;testamata p&otilde;hjustel v&otilde;i keeldub edukaks tunnistatud pakkumise esitanud pakkujaga hankelepingut s&otilde;lmimast v&otilde;i vastuv&otilde;etud pakkumist k&auml;esoleva seaduse &sect;-s 53 s&auml;testatud alustel hankelepinguna tunnistamast ;</s>
+</p>
+<p>
+<s>4 ) ostja tegevuses v&otilde;i tegevusetuses avalduvad k&auml;esoleva seaduse &sect; 70 l&otilde;ikes 1 s&auml;testatud asjaolud ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>5 ) ostja eirab k&auml;esoleva seaduse &sect; 52 l&otilde;ikes 1 s&auml;testatut ;</s>
+</p>
+<p>
+<s>6 ) ostja eirab k&auml;esoleva seaduse &sect; 65 l&otilde;ikes 3 s&auml;testatut ;</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>7 ) ostja eirab Ameti tehtud k&auml;esoleva seaduse &sect; 65 l&otilde;ike 6 punktis 4 v&otilde;i &sect; 70 l&otilde;ikes 1 nimetatud otsust v&otilde;i ettekirjutust .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Pakkujale kulude h&uuml;vitamine</s>
+</p>
+<p>
+<s>Pakkujal on &otilde;igus n&otilde;uda ostjalt pakkumise esitamisega seotud kulude h&uuml;vitamist , kaasa arvatud pakkumise ettevalmistamise kulud , kui ta t&otilde;endab , et hankeleping oleks t&otilde;en&auml;oliselt s&otilde;lmitud temaga , kui ostja ei oleks rikkunud k&auml;esolevat seadust .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Kahjude h&uuml;vitamine pakkujate poolt</s>
+</p>
+<p>
+<s>Kui pakkuja on esitanud valeandmeid v&otilde;i v&otilde;ltsinud dokumente pakkumismenetluse k&auml;igus v&otilde;i vaidlustuse lahendamise k&auml;igus , h&uuml;vitab ta selliste andmete v&otilde;i dokumentide esitamisest ostjale v&otilde;i teistele isikutele tulenenud kahju .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Juriidilise isiku haldusvastutus riigihangete teostamise korra rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) Pakkujaks oleva juriidilise isiku poolt pakkumismenetluses valeandmete v&otilde;i v&otilde;ltsitud dokumentide s&uuml;&uuml;lise esitamise eest - m&auml;&auml;ratakse rahatrahv 10 000 kuni 500 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktides 2-6 nimetatud ostja poolt riigihangete teostamise korra olulise rikkumise eest - m&auml;&auml;ratakse rahatrahv 10 000 kuni 500 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktides 2-6 nimetatud ostja poolt k&auml;esoleva seaduse &sect; 69 punktis 2 s&auml;testatu eiramise eest - m&auml;&auml;ratakse rahatrahv 5000 kuni 100 000 krooni .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktides 2-6 nimetatud ostja poolt k&auml;esoleva seaduse &sect; 18 l&otilde;ikes 1 , 2 v&otilde;i 3 , &sect; 19 l&otilde;ikes 1 , 2 v&otilde;i 4 , &sect; 20 l&otilde;ikes 1 v&otilde;i 2 , &sect; 21 l&otilde;ikes 3 , &sect; 57 l&otilde;ikes 5 v&otilde;i &sect; 59 l&otilde;ikes 3 s&auml;testatu eiramise eest - m&auml;&auml;ratakse rahatrahv 5000 kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Juriidilise isiku haldus&otilde;iguserikkumise asja menetlus</s>
+</p>
+<p>
+<s>( 1 ) Juriidilisele isikule k&auml;esoleva seaduse &sect;-s 74 nimetatud haldus&otilde;iguserikkumise eest haldus&otilde;iguserikkumise protokolli koostamise &otilde;igus on Ameti peadirektoril , peadirektori aset&auml;itjal ja peadirektori volitatud sama asutuse ametiisikul .</s>
+</p>
+<p>
+<s>( 2 ) Haldus&otilde;iguserikkumise protokolli m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) protokolli koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) asutuse nimi ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ning ametinimetus ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkuja nimi ja aadress ;</s>
+</p>
+<p>
+<s>5 ) haldus&otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametinimetus ;</s>
+</p>
+<p>
+<s>6 ) haldus&otilde;iguserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) viide seaduss&auml;ttele , mis n&auml;eb ette vastutuse selle haldus&otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>8 ) haldus&otilde;iguserikkuja esindaja seletus ;</s>
+</p>
+<p>
+<s>9 ) m&auml;rge , et haldus&otilde;iguserikkuja esindajale on tutvustatud tema &otilde;igust kasutada &otilde;igusabi ;</s>
+</p>
+<p>
+<s>10 ) muud haldus&otilde;iguserikkumise asja &otilde;igeks lahendamiseks vajalikud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Haldus&otilde;iguserikkumise protokollile kirjutavad alla selle koostanud ametiisik ja haldus&otilde;iguserikkuja esindaja .</s>
+</p>
+<p>
+<s>( 4 ) Kui haldus&otilde;iguserikkuja esindaja keeldub haldus&otilde;iguserikkumise protokollile alla kirjutamast v&otilde;i seletusi andmast , teeb protokolli koostaja selle kohta protokolli vastava kande .</s><s>Haldus&otilde;iguserikkumise protokollile lisatakse haldus&otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli kohta , samuti protokollile allakirjutamisest keeldumise v&otilde;i seletuste andmisest keeldumise motiivid .</s>
+</p>
+<p>
+<s>( 5 ) Juriidilise isiku haldus&otilde;iguserikkumise asja arutab maa- v&otilde;i linnakohtu kohtunik .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 6 ) Juriidilise isiku haldus&otilde;iguserikkumise asja menetlus toimub haldus&otilde;iguserikkumiste seadustikus s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 7 ) Halduskaristuse v&otilde;ib m&auml;&auml;rata mitte hiljem kui kolme aasta jooksul haldus&otilde;iguserikkumise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Erisused Eesti Panga poolt teostatavate riigihangete korral</s>
+</p>
+<p>
+<s>Eesti Panga poolt teostatavate riigihangete korral ei rakendata k&auml;esoleva seaduse &sect;-des 61-67 , &sect; 69 punktis 3 ja &sect;-s 70 s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 76 <hi rend="sup">1</hi> .</s><s>Erisused riigimetsa raieteenuste tellimiseks teostatavate riigihangete korral</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses s&auml;testatud korda ei ole ostja kohustatud rakendama riigimetsa raieteenuste tellimiseks kuni 2003. aasta 1. jaanuarini .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Riigil&otilde;iv</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses etten&auml;htud toimingute sooritamise eest v&otilde;etakse riigil&otilde;ivu riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; RT I 2001 , 55 , 331 ; 56 , 332 ; 64 , 367 ; 65 , 377 ; 85 , 512 ; 88 , 531 ; 91 , 543 ; 93 , 565 ; 2002 , 1 , 1 ) s&auml;testatud m&auml;&auml;rade j&auml;rgi .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Riigil&otilde;ivuseaduse muutmine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; RT I 2001 , 55 , 331 ; 56 , 332 ; 64 , 367 ; 65 , 377 ; 85 , 512 ; 88 , 531 ; 91 , 543 ; 93 , 565 ; 2002 , 1 , 1 ) tehakse j&auml;rgmised muudatused ja t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 37 l&otilde;ikes 9 asendatakse s&otilde;nad &ldquo; v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 10-12 s&auml;testatud juhul &rdquo; s&otilde;nadega &ldquo; v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 10-12 ja 18 s&auml;testatud juhul &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 37 t&auml;iendatakse l&otilde;ikega 18 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 18 ) Kaebuse esitamisel riigihangete seaduse &sect; 5 l&otilde;ikes 1 nimetatud isiku poolt riigihanke pakkumismenetluse k&auml;igus tehtud otsuste v&otilde;i toimingute peale tasutakse riigil&otilde;ivu :</s>
+</p>
+<p>
+<s>1 ) kaebuse esitaja poolt esitatud pakkumise olemasolu korral 3% selles pakkumises m&auml;&auml;ratud riigihanke eeldatavast maksumusest , kuid mitte v&auml;hem kui 10 krooni ja mitte rohkem kui 5000 krooni ;</s>
+</p>
+<p>
+<s>2 ) kaebuse esitaja poolt esitatud pakkumise puudumise korral 100 krooni . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) seadust t&auml;iendatakse 20 <hi rend="sup">3</hi> . jaoga j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 20 <hi rend="sup">3</hi> . jagu</s>
+</p>
+<p>
+<s>Riigihangete seaduse alusel teostatavad toimingud</s>
+</p>
+<p>
+<s>&sect; 190 <hi rend="sup">5</hi> .</s><s>Riikliku riigihangete registri toimingud</s>
+</p>
+<p>
+<s>Eelteate , teate v&otilde;i pakkumise kutse andmete riiklikusse riigihangete registrisse kandmise eest tasutakse riigil&otilde;ivu 300 krooni . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Maksukorralduse seaduse muutmine</s>
+</p>
+<p>
+<s>Maksukorralduse seaduse ( RT I 1994 , 1 , 5 ; RT I 2000 , 45 , 279 ; 55 , 365 ; 84 , 533 ja 534 ; 2001 , 17 , 76 ; 43 , 242 ; 48 , 266 ; 56 , 335 ; 59 , 360 ; 65 , 378 ; 88 , 531 ) &sect; 11 l&otilde;ike 4 punkti 9 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; Statistikaametile &rdquo; s&otilde;nadega &ldquo; ja Riigihangete Ametile &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Riigihangete seaduse muutmine</s>
+</p>
+<p>
+<s>Riigihangete seaduses ( RT I 1995 , 54 , 883 ; RT I 1997 , 9 , 79 ; 1998 , 38 , 561 ; 1999 , 16 , 271 ; 92 , 824 ; 97 , 859 ; 2000 , 57 , 374 ; 84 , 534 ; 2001 , 7 , 17 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahv 3 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 3.</s><s>Riigihangete m&otilde;iste</s>
+</p>
+<p>
+<s>Riigihangeteks k&auml;esoleva seaduse m&otilde;istes on asjade ostmine , ehitust&ouml;&ouml;de ja teenuste tellimine . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) seadust t&auml;iendatakse &sect;-ga 6 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 6 <hi rend="sup">1</hi> .</s><s>Ostja</s>
+</p>
+<p>
+<s>( 1 ) Ostja k&auml;esoleva seaduse m&otilde;istes on :</s>
+</p>
+<p>
+<s>1 ) riigiasutus , riigitulundusasutus , linna- v&otilde;i vallavalitsus v&otilde;i kohaliku omavalitsuse asutus ;</s>
+</p>
+<p>
+<s>2 ) avalik-&otilde;iguslik juriidiline isik v&otilde;i avalik-&otilde;igusliku juriidilise isiku asutus ;</s>
+</p>
+<p>
+<s>3 ) era&otilde;iguslik juriidiline isik , mis ei ole &auml;ri&uuml;hing ja mille k&otilde;ik asutajad v&otilde;i liikmed on kas koos v&otilde;i eraldi riik , kohalik omavalitsus ja/v&otilde;i avalik-&otilde;iguslik juriidiline isik ;</s>
+</p>
+<p>
+<s>4 ) era&otilde;iguslik juriidiline isik , mis ei ole &auml;ri&uuml;hing ja mida rohkem kui 50 protsendi ulatuses finantseerib v&otilde;i mille n&otilde;ukogu v&otilde;i juhatuse liikmetest rohkem kui pooled m&auml;&auml;ravad kas koos v&otilde;i eraldi riik , kohalik omavalitsus ja/v&otilde;i avalik-&otilde;iguslik juriidiline isik ;</s>
+</p>
+<p>
+<s>5 ) ettev&otilde;tja juhul , kui ta on saanud ehitust&ouml;&ouml; kontsessiooni k&auml;esoleva l&otilde;ike punktides 1-4 nimetatud isikult ja ta s&otilde;lmib selle kontsessiooni alusel ehitust&ouml;&ouml;de hankelepinguid v&otilde;i kui riik , kohalik omavalitsus v&otilde;i k&auml;esoleva l&otilde;ike punktides 2-4 nimetatud isikud kas koos v&otilde;i eraldi finantseerivad tema tegevust rohkem kui 50 protsendi ulatuses , kusjuures finantseerimiseks ei loeta osalust &auml;ri&uuml;hingus ;</s>
+</p>
+<p>
+<s>6 ) ettev&otilde;tja juhul , kui vastavalt konkurentsiseadusele ( RT I 1998 , 30 , 410 ; 1999 , 89 , 813 ; 2000 , 53 , 343 ; RT III 21 , 232 ) on riik v&otilde;i kohalik omavalitsus talle andnud eri- v&otilde;i ainu&otilde;iguse ja asjade ostmine v&otilde;i teenuste v&otilde;i ehitust&ouml;&ouml;de tellimine on vajalikud eri- v&otilde;i ainu&otilde;iguse teostamiseks v&otilde;i kui riik , kohalik omavalitsus v&otilde;i k&auml;esoleva l&otilde;ike punktides 2-4 nimetatud isikud kas koos v&otilde;i eraldi omavad selles ettev&otilde;tjas kas vahetult v&otilde;i teiste isikute kaudu h&auml;&auml;lteenamust v&otilde;i rohkem kui 50 protsenti aktsiatest v&otilde;i osadest ja kui tema tegevuseks on kas alaliste v&otilde;rkude loomine v&otilde;i opereerimine kavatsusega osutada avalikkusele teenust seoses vee , gaasi , elektri- v&otilde;i soojusenergia tootmise , transportimise , edastamise v&otilde;i jaotamisega v&otilde;i geograafilise ala ekspluateerimine eesm&auml;rgiga uurida v&otilde;i kaevandada k&uuml;tuseid v&otilde;i v&otilde;imaldada &otilde;hu- v&otilde;i veetranspordiettev&otilde;tjatel kasutada lennuv&auml;lja , sadamat v&otilde;i muud terminaalirajatist v&otilde;i v&otilde;rkude opereerimine , v&otilde;imaldamaks avalikkusele teenuseid raudtee- , trammi- , trollibussi- v&otilde;i bussitranspordi , automatiseeritud s&uuml;steemide v&otilde;i kaabellevi alal , v&otilde;i avalike telekommunikatsiooniv&otilde;rkude loomine v&otilde;i opereerimine &uuml;he v&otilde;i enama telekommunikatsiooniteenuse tagamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Vee , gaasi , elektri- v&otilde;i soojusenergia tootmist , transportimist , edastamist v&otilde;i jaotamist avalikkust teenindavatele v&otilde;rkudele ettev&otilde;tja poolt ei loeta k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 6 nimetatud tegevuseks , kui vee v&otilde;i elektrienergia tarbimine on vajalik mingi muu tegevuse teostamiseks kui k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 6 nimetatu v&otilde;i kui avaliku v&otilde;rgu varustamine s&otilde;ltub ainult ettev&otilde;tja enda tarbimisest ega &uuml;leta 30 protsenti ettev&otilde;tja vee v&otilde;i elektrienergia eelneva kolme aasta keskmisest kogutoodangust v&otilde;i kui gaasi v&otilde;i soojusenergia tootmine ettev&otilde;tja poolt on mingi muu , k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 6 nimetamata tegevuse teostamise v&auml;ltimatuks tagaj&auml;rjeks v&otilde;i kui avalikku v&otilde;rku varustatakse gaasi v&otilde;i soojusenergia &uuml;lej&auml;&auml;giga selle majandusliku kasutamise eesm&auml;rgil ja selline &uuml;lej&auml;&auml;k ei &uuml;leta 20 protsenti ettev&otilde;tja eelneva kolme aasta keskmisest k&auml;ibest . &rdquo;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 7 punkt 2 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Varasema &otilde;igusakti kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse j&otilde;ustumise p&auml;evast tunnistatakse seni kehtinud riigihangete seadus ( RT I 1995 , 54 , 883 ; 1997 , 9 , 79 ; 1998 , 38 , 561 ; 1999 , 16 , 271 ; 92 , 824 ; 97 , 859 ; 2000 , 57 , 374 ) kehtivuse kaotanuks .</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2001. aasta 1. aprillil .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 10 l&otilde;ige 5 , &sect; 19 l&otilde;ige 3 ja &sect; 57 l&otilde;ike 1 punkt 3 j&otilde;ustuvad 2003. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 60 j&otilde;ustub 2001. aasta 1. juulil .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 80 j&otilde;ustub j&auml;rgmisel p&auml;eval p&auml;rast k&auml;esoleva seaduse avaldamist Riigi Teatajas .</s>
+</p>
+<p>
+<s>( 5 ) Enne k&auml;esoleva seaduse j&otilde;ustumist Ametile esitatud protestid ja vahekohtule esitatud kaebused vaadatakse l&auml;bi ning Riigihangete B&uuml;llet&auml;&auml;nis v&auml;ljakuulutatud v&otilde;i Ametile teatatud pakkumismenetlused viiakse l&auml;bi k&auml;esoleva seaduse j&otilde;ustumiseni kehtinud riigihangete seaduses ( RT I 1995 , 54 , 883 ; 1997 , 9 , 79 ; 1998 , 38 , 561 ; 1999 , 16 , 271 ; 92 , 824 ; 97 , 859 ; 2000 , 57 , 374 ; 84 , 534 ; 2001 , 7 , 17 ) ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatu kohaselt .</s>
+</p>
+<p>
+<s>( 21.03.2001 j&otilde;ust.01.04.2001 - RT I 2001 , 34 , 189 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

@@ -1,0 +1,891 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Hoiu-laenu&uuml;histu seadus ( terviktekst jaan 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3773</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Hoiu-laenu&uuml;histu seadus ( terviktekst jaan 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=262></tagusage>
+         <tagusage gi=s occurs=318></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Hoiu-laenu&uuml;histu seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 9. veebruaril 1999. a.</s>
+</p>
+<p>
+<s>( RT I 1999 , 24 , 357 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. juulil 1999. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse eesm&auml;rk</s>
+</p>
+<p>
+<s>K&auml;esolev seadus m&auml;&auml;rab kindlaks hoiu-laenu&uuml;histu &otilde;igusliku seisundi , tegevuse alused ning asutamise ja l&otilde;petamise korra .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Seaduse kohaldamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevat seadust kohaldatakse k&otilde;igile Eestis asutatavatele ja tegutsevatele hoiu-laenu&uuml;histutele .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histutele kohaldatakse &uuml;histute kohta s&auml;testatut , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Hoiu-laenu&uuml;histu m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu on finantseerimisasutus , mille peamiseks ja p&uuml;sivaks tegevuseks on k&auml;esoleva seaduse &sect;-s 6 nimetatud tehingute ja toimingute teostamine hoiu-laenu&uuml;histu tegevuspiirkonnas elavate v&otilde;i seal kinnisasja omavate f&uuml;&uuml;siliste isikute ja samas tegevuspiirkonnas asuvate juriidiliste isikute teenindamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu on tulundus&uuml;histu .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Hoiu-laenu&uuml;histu &auml;rinimi</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu &auml;rinimi peab sisaldama t&auml;iendit &ldquo; hoiu-laenu&uuml;histu &rdquo; ja v&otilde;ib sisaldada tema asukoha haldus&uuml;ksuse v&otilde;i muud kohanime .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud t&auml;iendi asemel v&otilde;ib hoiu-laenu&uuml;histu &auml;rinimes kasutada l&uuml;hendit HL&Uuml; .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Hoiu-laenu&uuml;histu tegevuspiirkond</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu asutatakse territoriaalsuse p&otilde;him&otilde;ttel , kusjuures tegevuspiirkonnaks on &uuml;he omavalitsus&uuml;ksuse v&otilde;i mitme omavahel piirneva omavalitsus&uuml;ksuse haldusterritoorium .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud haldusterritooriumil v&otilde;ib tegutseda mitu hoiu-laenu&uuml;histut .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Hoiu-laenu&uuml;histu tehingud</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu teostab j&auml;rgmisi tehingud ja toimingud :</s>
+</p>
+<p>
+<s>1 ) raha hoiustamiseks vastuv&otilde;tmine oma liikmetelt ;</s>
+</p>
+<p>
+<s>2 ) laenude andmine oma liikmetele ;</s>
+</p>
+<p>
+<s>3 ) &uuml;lekannete ja v&auml;ljamaksete sooritamine hoiu-laenu&uuml;histus peetavatelt hoiukontodelt ;</s>
+</p>
+<p>
+<s>4 ) hoiukontodele tulevate sissemaksete ja &uuml;lekannete vastuv&otilde;tmine ;</s>
+</p>
+<p>
+<s>5 ) v&auml;lissularaha ost ja m&uuml;&uuml;k ;</s>
+</p>
+<p>
+<s>6 ) vahendusteenuste osutamine laenuressursi vahendamisel institutsionaalsete investorite kaasamiseks ;</s>
+</p>
+<p>
+<s>7 ) varakappide ja seifide &uuml;&uuml;rimine ;</s>
+</p>
+<p>
+<s>8 ) klientide n&otilde;ustamine majandustegevust puudutavates k&uuml;simustes .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu asutamine</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Hoiu-laenu&uuml;histu asutamisleping</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu asutamiseks s&otilde;lmivad k&auml;esoleva seaduse &sect;-s 17 s&auml;testatud tingimustele vastavad asutajad asutamislepingu .</s><s>Asutajaid peab olema v&auml;hemalt 25.</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 2 ) Asutamislepingus peab lisaks tulundus&uuml;histuseaduse &sect; 5 l&otilde;ikes 2 s&auml;testatud andmetele olema m&auml;rgitud :</s>
+</p>
+<p>
+<s>1 ) hoiu-laenu&uuml;histu tegevuspiirkond ;</s>
+</p>
+<p>
+<s>2 ) asutajate poolt tasutud sisseastumismaksu ja osamaksu jaotus asutajate vahel ;</s>
+</p>
+<p>
+<s>3 ) osamaksu ja sisseastumismaksu suurus , tasumise kord , aeg ja koht ;</s>
+</p>
+<p>
+<s>4 ) kui moodustatakse laenukomitee , selle liikmete nimed ;</s>
+</p>
+<p>
+<s>5 ) revisjonikomisjoni liikmete nimed .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 8. ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 9. ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Hoiu-laenu&uuml;histu p&otilde;hikiri</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu p&otilde;hikirjas peab lisaks &uuml;histuseaduses ( RT 1992 , 36 , 477 ; RT I 1998 , 95 , 1513 ; 1999 , 10 , 155 ) s&auml;testatud andmetele olema m&auml;rgitud :</s>
+</p>
+<p>
+<s>1 ) hoiu-laenu&uuml;histu tegevuspiirkond ;</s>
+</p>
+<p>
+<s>2 ) sisseastumismaksu suurus ja tasumise kord ;</s>
+</p>
+<p>
+<s>3 ) osamaksu suurus , tasumise t&auml;htaeg ja kord ;</s>
+</p>
+<p>
+<s>4 ) osakapitali suurus ;</s>
+</p>
+<p>
+<s>5 ) reservkapitali ja muude reservide suurus ja moodustamise kord ;</s>
+</p>
+<p>
+<s>6 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>7 ) &uuml;ldkoosoleku kokkukutsumise ja otsuste vastuv&otilde;tmise kord ;</s>
+</p>
+<p>
+<s>8 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>9 ) muud k&auml;esolevas seaduses s&auml;testatud kohustuslikud tingimused .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Sisseastumismaksu ja osamaksu tasumine</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu asutajad peavad sisseastumismaksu ja osamaksu tasuma t&auml;ielikult rahas asutamislepingus nimetatud Eesti krediidiasutuses avatud kontole enne hoiu-laenu&uuml;histu &auml;riregistrisse kandmise avalduse esitamist , kui asutamislepingus ei ole ette n&auml;htud varasemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Enne &auml;riregistrisse kandmist tehtud tehingud</s>
+</p>
+<p>
+<s>( 1 ) Enne hoiu-laenu&uuml;histu &auml;riregistrisse kandmist v&otilde;ivad asutajad asutatava hoiu-laenu&uuml;histu nimel teha ainult tehinguid , mis on suunatud asutatava hoiu-laenu&uuml;histu organisatsioonilise struktuuri loomisele ja vajalike tehniliste vahendite , turvas&uuml;steemide ning muu hoiu-laenu&uuml;histu tegevuseks vajaliku vallas- ja kinnisvara omandamisele v&otilde;i rentimisele .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Hoiu-laenu&uuml;histu asutajate vastutus</s>
+</p>
+<p>
+<s>Asutajad vastutavad nende poolt hoiu-laenu&uuml;histule s&uuml;&uuml;liselt tekitatud kahju eest solidaarselt .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Hoiu-laenu&uuml;histu &auml;riregistrisse kandmise avaldus</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu &auml;riregistrisse kandmiseks esitab juhatus avalduse , milles n&auml;idatakse lisaks tulundus&uuml;histuseaduse &sect; 7 l&otilde;ikes 1 s&auml;testatule osakapitali suurus ja revisjonikomisjoni liikmete nimed , isikukoodid ja elukohad .</s><s>Avaldusele lisatakse &uuml;histuseaduse &sect; 7 l&otilde;ikes 1 s&auml;testatule lisaks krediidiasutuse teatis osakapitali sissemaksmise kohta</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>&Auml;riregistrisse kantavad andmed</s>
+</p>
+<p>
+<s>Lisaks tulundus&uuml;histuseaduses s&auml;testatud andmetele kantakse &auml;riregistrisse hoiu-laenu&uuml;histu :</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>1 ) osakapitali suurus ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu liikmed</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Liikmeks vastuv&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Iga hoiu-laenu&uuml;histu liikmeks astuja peab tasuma sisseastumismaksu p&otilde;hikirjas etten&auml;htud korras ja summas , kuid mitte v&auml;hem kui 100 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Liikmeks astuja v&otilde;etakse hoiu-laenu&uuml;histu liikmeks &uuml;ldkoosoleku otsusega , kui p&otilde;hikirjas ei ole s&auml;testatud , et liikmeks vastuv&otilde;tmine kuulub n&otilde;ukogu p&auml;devusse .</s>
+</p>
+<p>
+<s>( 3 ) Igale hoiu-laenu&uuml;histu liikmele antakse liikmeraamat v&otilde;i liikmekaart .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Hoiu-laenu&uuml;histu liikmeks astumise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu liikmeks v&otilde;ib astuda :</s>
+</p>
+<p>
+<s>1 ) f&uuml;&uuml;siline isik , kes elab alaliselt hoiu-laenu&uuml;histu tegevuspiirkonnas v&otilde;i omab seal kinnisasja ;</s>
+</p>
+<p>
+<s>2 ) era&otilde;iguslik juriidiline isik , kelle asukoht on hoiu-laenu&uuml;histu tegevuspiirkonnas .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu liikmeks ei saa olla riik , kohalik omavalitsus ega avalik-&otilde;iguslik juriidiline isik .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Hoiu-laenu&uuml;histu liikmete arv</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histul peab olema v&auml;hemalt 25 liiget .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Hoiu-laenu&uuml;histust v&auml;ljaastumine</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu liikmel on &otilde;igus hoiu-laenu&uuml;histust v&auml;lja astuda , kui tal ei ole hoiu-laenu&uuml;histu ees t&auml;itmata kohustusi .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu liikmel on &otilde;igus &uuml;histust v&auml;ljaastumisel v&otilde;i v&auml;ljaarvamisel tagasi saada tasutud osamaks tulundus&uuml;histuseaduses etten&auml;htud korras , kui selleks on vara , mis &uuml;letab osakapitali ja reservkapitali ning tal ei ole &uuml;histu ees t&auml;itmata kohustusi .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 3 ) Hoiu-laenu&uuml;histu liikmel on &otilde;igus anda oma liikmesus &uuml;le vaid isikule , kes vastab k&auml;esolevas seaduses ja &uuml;histu p&otilde;hikirjas liikme kohta s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Hoiu-laenu&uuml;histust v&auml;ljaastunud liikme &otilde;igus dividendidele</s>
+</p>
+<p>
+<s>V&auml;ljaastunud liige kaotab &otilde;iguse saada dividende majandusaasta selle poolaasta algusest , mille kestel ta esitas hoiu-laenu&uuml;histust v&auml;ljaastumise avalduse , kuid kuni osamaksu tagastamiseni k&auml;esoleva seaduse &sect; 19 l&otilde;ike 2 alusel on tal &otilde;igus saada tasutud osamaksult intressi samadel tingimustel , nagu hoiu-laenu&uuml;histu maksab seda t&auml;htajata hoiustelt .</s>
+</p>
+<p>
+<s>&sect; 21. ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu vara</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Hoiu-laenu&uuml;histu vara ja osakapital</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu vara tekib tema liikmete osamaksudest ja muudest maksetest , &uuml;histu tegevusest saadavast tulust , riigi ja kohalike omavalitsuste majandusabist , annetustest ja muudest laekumistest .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu osakapital moodustatakse liikmete osamaksudest .</s>
+</p>
+<p>
+<s>( 3 ) Hoiu-laenu&uuml;histu osakapital peab olema v&auml;hemalt 500 000 krooni .</s><s>Hoiu-laenu&uuml;histu netovara peab tegutsemise igal ajahetkel vastama v&auml;hemalt osakapitalile .</s>
+</p>
+<p>
+<s>( 4 ) Osakapitali suurendamisel kohaldatakse &auml;riseadustiku ( RT I 1995 , 26-28 , 355 ; RT I 1998 , 91-93 , 1500 ; 1999 , 10 , 155 ; 23 , 355 ; 24 , 360 ; 57 , 596 ; 102 , 907 ; 2000 , 29 , 172 ; 49 , 303 ; 55 , 365 ; 57 , 373 ; 2001 , 34 , 185 ; 56 , 332 ja 336 ; 89 , 532 ; 93 , 565 ; 2002 , 3 , 6 ) &sect;-des 192 ja 195 ning &sect; 196 l&otilde;ike 1 punktides 1-5 ja 7 ning l&otilde;igetes 3 ja 4 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 5 ) Osakapitali v&auml;hendamisel kohaldatakse &auml;riseadustiku &sect;-s 197 , &sect; 199 l&otilde;igetes 1 ja 2 ning &sect;-s 200 s&auml;testatut .</s><s>Osakapitali ei v&otilde;i v&auml;hendada alla k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud miinimumi .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Hoiu-laenu&uuml;histu liikme osamaks</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu liikme osamaksu suurus on v&auml;hemalt 100 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu liikme osamaks tasutakse ainult rahas .</s>
+</p>
+<p>
+<s>( 3 ) Hoiu-laenu&uuml;histu liige peab tasuma osamaksu &uuml;he kuu jooksul &uuml;histu liikmeks vastuv&otilde;tmise kohta otsuse tegemise p&auml;evast , kui p&otilde;hikirjaga ei ole ette n&auml;htud l&uuml;hemat t&auml;htaega .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Hoiu-laenu&uuml;histu reservkapital ja muud reservid</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu kohustuste tagamiseks moodustatakse reservkapital , mille suurus peab olema v&auml;hemalt pool osakapitalist , kui p&otilde;hikirjaga ei ole ette n&auml;htud suuremat m&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 2 ) Reservkapital moodustatakse ja seda t&auml;iendatakse liikmete sisseastumismaksudest , kasumieraldistest ja reservkapitali intressidest .</s>
+</p>
+<p>
+<s>( 3 ) Igal majandusaastal tuleb reservkapitali kanda v&auml;hemalt 20 protsenti puhaskasumist .</s><s>Kui reservkapital saavutab p&otilde;hikirjas etten&auml;htud suuruse , peatatakse reservkapitali suurendamine kasumieraldiste ja intresside arvel .</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Hoiu-laenu&uuml;histu kasumi jaotamine</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu kasum jaotatakse &uuml;ldkoosoleku otsusega kinnitatud majandusaasta aruande alusel .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu liikmetele , kelle tasutud osamaks on majandusaastal hoiu-laenu&uuml;histu kasutada olnud v&auml;hem kui aasta , kuid rohkem kui kuus kuud , makstakse dividendi pooles suuruses .</s>
+</p>
+<p>
+<s>( 3 ) Dividendide v&auml;ljamaksmist alustatakse &uuml;ks kuu p&auml;rast &uuml;ldkoosoleku vastava otsuse vastuv&otilde;tmist .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;ljav&otilde;tmata dividendide pealt hoiu-laenu&uuml;histu intresse ei maksa .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Hoiu-laenu&uuml;histu kahjumi katmine</s>
+</p>
+<p>
+<s>( 1 ) Kui auditeeritud majandusaasta aruandest v&otilde;i hoiu-laenu&uuml;histu likvideerimisbilansist selgub kahjum , kaetakse see &uuml;ldkoosoleku otsuse alusel reservkapitali arvel .</s><s>Hoiu-laenu&uuml;histu p&otilde;hikirjas etten&auml;htud juhtudel v&otilde;ib kahjumi katta muude reservide arvel .</s>
+</p>
+<p>
+<s>( 2 ) Kui reservkapitalist ja teistest p&otilde;hikirjas etten&auml;htud reservidest kahjumi katmiseks ei piisa ja hoiu-laenu&uuml;histu p&otilde;hikirjaga on ette n&auml;htud liikmete t&auml;ielik isiklik vastutus v&otilde;i lisavastutus , otsustab &uuml;ldkoosolek katmata kahjumi jaotamise hoiu-laenu&uuml;histu liikmete vahel proportsionaalselt nende lisavastutuse suurusega ja m&auml;&auml;rab t&auml;htaja , mille jooksul liige on kohustatud tasuma kahjumi katmiseks tema kanda langeva summa .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 3 ) Kui kahjumi katmiseks reservkapitalist ja teistest p&otilde;hikirjas etten&auml;htud reservidest ei piisa ning kahjumi katmise tagaj&auml;rjel on hoiu-laenu&uuml;histu osakapital v&auml;henenud 1/3 v&otilde;rra v&otilde;i kui kahjumi katmise tagaj&auml;rjel j&auml;&auml;b osakapital k&auml;esoleva seaduse &sect; 22 l&otilde;ikes 3 toodud miinimumist v&auml;iksemaks , peab juhatus 15 p&auml;eva jooksul kutsuma kokku liikmete erakorralise &uuml;ldkoosoleku .</s><s>&Uuml;ldkoosolek peab otsustama :</s>
+</p>
+<p>
+<s>1 ) osakapitali suurendamise v&otilde;i</s>
+</p>
+<p>
+<s>2 ) hoiu-laenu&uuml;histu l&otilde;petamise v&otilde;i</s>
+</p>
+<p>
+<s>3 ) pankrotiavalduse esitamise .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu usaldusv&auml;&auml;rsuse tagamine</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Hoiu-laenu&uuml;histu usaldusv&auml;&auml;rsuse tagamise p&otilde;himeetmed</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu peab oma tegevuses j&auml;rgima k&otilde;iki allj&auml;rgnevaid usaldusv&auml;&auml;rsuse tagamise p&otilde;himeetmeid :</s>
+</p>
+<p>
+<s>1 ) hoiu-laenu&uuml;histu peab paigutama mitte v&auml;hem kui 10 protsenti kaasatud hoiuste summast likviidse hoiusena m&otilde;nda Eesti krediidiasutusse ;</s>
+</p>
+<p>
+<s>2 ) hoiu-laenu&uuml;histu v&otilde;ib omandada kinnisasju ainult sel hulgal , mis on vajalik tema p&otilde;hitegevuseks ;</s>
+</p>
+<p>
+<s>3 ) hoiu-laenu&uuml;histu investeeringud p&otilde;hivarasse , sealhulgas finantsp&otilde;hivarasse kokku ei tohi olla suuremad hoiu-laenu&uuml;histu omakapitalist ;</s>
+</p>
+<p>
+<s>4 ) hoiu-laenu&uuml;histu peab v&otilde;&otilde;randama kinnis- ja vallasvara ning aktsiad ja osad , mille ta on omandanud kolmanda osapoole arvel , hiljemalt kahe aasta jooksul nende omandamisest ;</s>
+</p>
+<p>
+<s>5 ) hoiu-laenu&uuml;histul on keelatud osaleda osanikuna t&auml;is&uuml;hingus ja t&auml;isosanikuna usaldus&uuml;hingus ;</s>
+</p>
+<p>
+<s>6 ) hoiu-laenu&uuml;histu v&otilde;ib laene v&auml;lja anda ainult k&auml;esoleva seaduse &sect;-s 28 etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>7 ) hoiu-laenu&uuml;histu kohustuste summa kokku ei v&otilde;i &uuml;letada kahek&uuml;mnekordset omakapitali summat .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu ei v&otilde;i puhaskasumit jaotada , kui majandusaastal ei ole kolme kuu v&auml;ltel kinni peetud k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 1 s&auml;testatust .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>N&otilde;uded laenudele</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu on kohustatud laenude andmisel j&auml;rgima krediteerimise h&auml;id tavasid , sealhulgas kontrollima laenusaaja maksev&otilde;imelisust ja piisava tagatise olemasolu .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu annab v&auml;lja laene t&auml;htajaga kuni kolm aastat .</s><s>Hoiu-laenu&uuml;histule antud sihtotstarbelise laenuressursi arvel antavate laenude t&auml;htaeg v&otilde;ib olla pikem kui kolm aastat .</s>
+</p>
+<p>
+<s>( 3 ) Hoiu-laenu&uuml;histu &uuml;hele liikmele antud laen v&otilde;i &uuml;hele liikmele kattuvate t&auml;htaegadega antud mitme laenu summa kokku ei tohi olla rohkem kui 10 korda suurem tema poolt tasutud osamaksu summast ega tohi &uuml;letada 20 protsenti hoiu-laenu&uuml;histu osakapitalist .</s>
+</p>
+<p>
+<s>( 4 ) Hoiu-laenu&uuml;histu &uuml;ldkoosoleku otsusega m&auml;&auml;ratud piirm&auml;&auml;rast suuremate laenude andmine ja pikendamine toimub laenukomitee igakordse otsuse v&otilde;i &uuml;ldkoosoleku otsuse alusel , kui hoiu-laenu&uuml;histus ei ole laenukomiteed moodustatud .</s>
+</p>
+<p>
+<s>( 5 ) Laenu andmine &uuml;histu juhatuse , n&otilde;ukogu v&otilde;i revisjonikomisjoni liikmele ja nendega samav&auml;&auml;rset majanduslikku huvi omavatele isikutele v&otilde;ib toimuda ainult &uuml;ldkoosoleku otsuse alusel .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Laenukomitee moodustamine ja liikmed</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histul peab olema laenukomitee , kui hoiu-laenu&uuml;histus on rohkem kui 50 liiget v&otilde;i kui see on p&otilde;hikirjaga ette n&auml;htud .</s>
+</p>
+<p>
+<s>( 2 ) Laenukomitee moodustatakse hoiu-laenu&uuml;histu p&otilde;hikirjas etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 3 ) Laenukomitees on kolm liiget , kui p&otilde;hikiri ei n&auml;e ette suuremat liikmete arvu .</s>
+</p>
+<p>
+<s>( 4 ) Laenukomitee liige peab olema hoiu-laenu&uuml;histu liige .</s>
+</p>
+<p>
+<s>( 5 ) Laenukomitee liikmeks ei v&otilde;i olla hoiu-laenu&uuml;histu juhatuse esimees ( juhataja ) , n&otilde;ukogu ega revisjonikomisjoni liige ega audiitor .</s><s>P&otilde;hikirjas v&otilde;ib n&auml;ha ette muid isikuid , kes ei v&otilde;i olla laenukomitee liikmeks .</s>
+</p>
+<p>
+<s>( 6 ) Laenukomitee liikmed valivad endi hulgast esimehe , kes korraldab laenukomitee tegevust .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Laenukomitee otsused</s>
+</p>
+<p>
+<s>( 1 ) Laenukomitee koosolekud toimuvad vastavalt vajadusele , kuid mitte harvem kui &uuml;ks kord kuus .</s><s>Koosoleku kutsub kokku laenukomitee esimees v&otilde;i teda asendav isik .</s>
+</p>
+<p>
+<s>( 2 ) Laenukomitee v&otilde;tab otsuseid vastu hoiu-laenu&uuml;histu p&otilde;hikirjas etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 3 ) Laenukomitee otsustab laenude v&auml;ljaandmise &uuml;ldkoosoleku poolt kinnitatud korra alusel ja aitab korraldada v&otilde;lgade sissen&otilde;udmist .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>N&otilde;uded riskide juhtimisele</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu ei v&otilde;i v&otilde;tta &uuml;lem&auml;&auml;raseid riske , mis v&otilde;ivad ohtu seada tema maksev&otilde;imelisuse .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histus peavad olema kehtestatud sise-eeskirjad ja protseduurireeglid , mis peavad tagama hoiu-laenu&uuml;histu tegevust reguleerivate &otilde;igusaktide t&auml;itmise ja muu hulgas kindlaks m&auml;&auml;rama :</s>
+</p>
+<p>
+<s>1 ) hoiu-laenu&uuml;histu ning hoiu-laenu&uuml;histu juhatuse ja n&otilde;ukogu liikmete ning t&ouml;&ouml;tajate isiklike majanduslike huvide konfliktide v&auml;ltimise korra ;</s>
+</p>
+<p>
+<s>2 ) hoiu-laenu&uuml;histu sisese informatsiooni ja dokumentide liikumise korra ;</s>
+</p>
+<p>
+<s>3 ) tehingute ja toimingute tegemise korra hoiu-laenu&uuml;histu arvel ning klientide nimel ja arvel ;</s>
+</p>
+<p>
+<s>4 ) alluvussuhted ja &otilde;iguste delegeerimise korra , s&auml;testades funktsioonide lahususe hoiu-laenu&uuml;histu nimel kohustuste v&otilde;tmisel , v&auml;ljamaksete tegemisel , tehingute kajastamisel raamatupidamises ja aruandluses ning tehingute riskide hindamisel .</s>
+</p>
+<p>
+<s>( 3 ) Hoiu-laenu&uuml;histu nimel tegutsev isik ei v&otilde;i esindada hoiu-laenu&uuml;histut tehingute tegemisel ja &otilde;igusvaidluste pidamisel kolmanda isikuga , kelle suhtes hoiu-laenu&uuml;histu nimel tegutseval isikul v&otilde;i temaga samav&auml;&auml;rset majanduslikku huvi omavatel isikutel on isiklikke majanduslikke huvisid .</s>
+</p>
+<p>
+<s>( 4 ) Hoiu-laenu&uuml;histul peavad olema tegevusele vastavad riskide kontrollimise , juhtimise ja hindamise s&uuml;steemid ja strateegiad , mis tagavad riskide objektiivse kontrollimise , juhtimise ja hindamise .</s><s>Hoiu-laenu&uuml;histu riskijuhtimise &uuml;ldp&otilde;him&otilde;tted kinnitab liikmete &uuml;ldkoosolek .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu juhtimine</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Hoiu-laenu&uuml;histu &uuml;ldkoosoleku p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Lisaks tulundus&uuml;histuseaduses s&auml;testatule kuulub hoiu-laenu&uuml;histu &uuml;ldkoosoleku p&auml;devusse :</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>1 ) majandusaasta eelarve kinnitamine ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>3 ) liikmetele laenu andmise korra kehtestamine , sealhulgas &uuml;hele liikmele antava laenusumma piirm&auml;&auml;ra kehtestamine l&auml;htuvalt seadusest ;</s>
+</p>
+<p>
+<s>4 ) audiitori nimetamine , tema tasustamise aluste ja korra kehtestamine ;</s>
+</p>
+<p>
+<s>5 ) laenukomitee liikmete valimine ja tagasikutsumine enne volituste t&auml;htaja l&otilde;ppemist ;</s>
+</p>
+<p>
+<s>6 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>7 ) laenukomitee tegevuse peale esitatud kaebuste l&auml;bivaatamine , kui hoiu-laenu&uuml;histus ei ole moodustatud n&otilde;ukogu ;</s>
+</p>
+<p>
+<s>8 ) muude seaduse v&otilde;i p&otilde;hikirjaga &uuml;ldkoosoleku p&auml;devusse antud k&uuml;simuste otsustamine .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 33. ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Hoiu-laenu&uuml;histu juhatus</s>
+</p>
+<p>
+<s>( 1 ) Juhatuses on kolm liiget , kui p&otilde;hikiri ei n&auml;e ette suuremat liikmete arvu .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuse liige ei pea olema hoiu-laenu&uuml;histu liige , kui p&otilde;hikirjaga ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Hoiu-laenu&uuml;histu juhatuse esindus&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histut v&otilde;ivad esindada igas &otilde;igustoimingus koos v&auml;hemalt kaks juhatuse liiget , kui p&otilde;hikirjas ei ole ette n&auml;htud , et juhatuse liikmed esindavad hoiu-laenu&uuml;histut &uuml;hiselt .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuse esindus&otilde;iguse piiramine ei kehti kolmandate isikute suhtes , kui see ei ole &auml;riregistrisse kantud .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Hoiu-laenu&uuml;histu juhatuse ja n&otilde;ukogu liikmetele esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu juhatuse ja n&otilde;ukogu liikmeks ei tohi olla pankrotiv&otilde;lgnik ega isik , kelle varasem tegevus v&otilde;i tegevusetus on p&otilde;hjustanud &auml;ri&uuml;hingu pankroti v&otilde;i sundlikvideerimise v&otilde;i tegevusloa t&uuml;histamise v&otilde;i kellelt on seaduse alusel &auml;ra v&otilde;etud &otilde;igus olla ettev&otilde;tja .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu juhatuse liikmeks v&otilde;ib olla teov&otilde;imeline f&uuml;&uuml;siline isik , kellel on laitmatu &auml;rialane reputatsioon , hoiu-laenu&uuml;histu juhatuses osalemiseks vajalik haridus , teadmised ja kutsealane sobivus .</s>
+</p>
+<p>
+<s>( 3 ) Hoiu-laenu&uuml;histu juhatuse liige ei tohi olla hoiu-laenu&uuml;histu n&otilde;ukogu liige , hoiu-laenu&uuml;histu revisjonikomisjoni liige v&otilde;i hoiu-laenu&uuml;histu audiitor ega nendega samav&auml;&auml;rset majanduslikku huvi omav isik .</s>
+</p>
+<p>
+<s>( 4 ) Hoiu-laenu&uuml;histu juhatuse liige ei v&otilde;i s&otilde;lmida teiste isikutega lepinguid , mille kohaselt on tema &uuml;lesandeks investeerimine , laenu- ja investeerimisprojektide koostamine v&otilde;i vahendamine v&otilde;i muu sarnane tegevus .</s>
+</p>
+<p>
+<s>( 5 ) Hoiu-laenu&uuml;histu juhatuse liige ei tohi olla krediidiasutuse ega teise hoiu-laenu&uuml;histu juhatuse , n&otilde;ukogu , revisjonikomisjoni liige ega audiitor .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu tegevuse kontrollimine</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Hoiu-laenu&uuml;histu revisjonikomisjon</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histul on kolmeliikmeline revisjonikomisjon , kui p&otilde;hikirjaga ei ole ette n&auml;htud suuremat liikmete arvu .</s>
+</p>
+<p>
+<s>( 2 ) Revisjonikomisjoni liikmel peab olema majandusalane v&otilde;i juriidiline haridus v&otilde;i v&auml;hemalt kolmeaastane t&ouml;&ouml;kogemus raamatupidamise v&otilde;i rahanduse v&otilde;i &auml;ri&uuml;hingu majandustegevuse revideerimisega seotud ametikohal .</s>
+</p>
+<p>
+<s>( 3 ) Revisjonikomisjoni liikmeks ei tohi olla hoiu-laenu&uuml;histu juhatuse v&otilde;i n&otilde;ukogu ega laenukomitee liige , audiitor ega raamatupidaja ega nendega samav&auml;&auml;rset majanduslikku huvi omav isik .</s>
+</p>
+<p>
+<s>( 4 ) Hoiu-laenu&uuml;histu majandustegevuse auditeerimine ei v&auml;lista revisjonikomisjoni tegevust .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Hoiu-laenu&uuml;histu revisjonikomisjoni &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Revisjonikomisjoni liikmel on &otilde;igus ja kohustus kontrollida hoiu-laenu&uuml;histu vara , arveldus- ja v&auml;&auml;rtpaberikontosid , raamatupidamisdokumente , laenukomitee tegevust kajastavaid dokumente ning &otilde;igus n&otilde;uda selgitusi ja k&otilde;ikv&otilde;imalikku abi oma &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Revisjonikomisjoni liikmel on &otilde;igus j&auml;lgida hoiu-laenu&uuml;histu t&ouml;&ouml;d ja majandustegevust mis tahes l&otilde;igus .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Hoiu-laenu&uuml;histu revisjonikomisjoni &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Revisjonikomisjon viib l&auml;bi &uuml;histu majandusaasta aruande revideerimise , koostab revisjoniaruande ja esitab selle &uuml;ldkoosolekule kinnitamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Revisjonikomisjon anal&uuml;&uuml;sib hoiu-laenu&uuml;histu t&ouml;&ouml;s ja majandustegevuses avastatud puudusi , koostab neist perioodilisi &uuml;levaateid ja esitab need olenevalt t&auml;htsuse astmest hoiu-laenu&uuml;histu juhatusele , n&otilde;ukogule v&otilde;i &uuml;ldkoosolekule arutamiseks ja puuduste k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Revisjonikomisjon j&auml;lgib pidevalt hoiu-laenu&uuml;histu poolt k&auml;esoleva seaduse 5. peat&uuml;kis s&auml;testatud n&otilde;uete t&auml;itmist ja esitab vastava aruande &uuml;ldkoosolekule kinnitamiseks koos majandusaasta revisjoniaruandega .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Hoiu-laenu&uuml;histu revisjonikomisjoni tegevus hoiu-laenu&uuml;histu usaldusv&auml;&auml;rsuse tagamise n&otilde;uete rikkumise korral</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu usaldusv&auml;&auml;rsuse tagamise meetmete ja laenudele esitatavate n&otilde;uete rikkumisest teatab revisjonikomisjon juhatusele .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu juhatus on kohustatud v&otilde;tma tarvitusele abin&otilde;ud rikkumiste k&otilde;rvaldamiseks kahe kuu jooksul .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud t&auml;htaja jooksul rikkumisi ei k&otilde;rvaldata , kutsub revisjonikomisjon tulundus&uuml;histuseaduses m&auml;&auml;ratud korras kokku hoiu-laenu&uuml;histu erakorralise &uuml;ldkoosoleku .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 4 ) Revisjonikomisjon v&otilde;ib teha erakorralisele &uuml;ldkoosolekule ettepaneku :</s>
+</p>
+<p>
+<s>1 ) juhatuse v&otilde;i n&otilde;ukogu liikmete tagasikutsumiseks ;</s>
+</p>
+<p>
+<s>2 ) laenukomitee liikmete tagasikutsumiseks ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;hikirja muutmiseks ;</s>
+</p>
+<p>
+<s>4 ) hoiu-laenu&uuml;histu &uuml;hinemiseks teise hoiu-laenu&uuml;histuga ;</s>
+</p>
+<p>
+<s>5 ) hoiu-laenu&uuml;histu l&otilde;petamiseks seaduses ja p&otilde;hikirjas etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Hoiu-laenu&uuml;histu audiitor</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histul peab olema audiitor .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Hoiu-laenu&uuml;histu jagunemine , &uuml;hinemine ja l&otilde;petamine</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Hoiu-laenu&uuml;histu jagunemine ja &uuml;hinemine</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu jagunemine ei ole lubatud .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu v&otilde;ib &uuml;hineda &uuml;ldkoosoleku otsuse alusel teise sama omavalitsus&uuml;ksuse haldusterritooriumil asuva v&otilde;i sellega piirneva omavalitsus&uuml;ksuse haldusterritooriumil asuva hoiu-laenu&uuml;histuga .</s>
+</p>
+<p>
+<s>( 3 ) Hoiu-laenu&uuml;histute &uuml;hinemine toimub &auml;riseadustikus etten&auml;htud korras , kui k&auml;esolevas seaduses ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>&Uuml;hinemislepingu audiitorkontroll</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histute &uuml;hinemislepingut ja k&otilde;iki &uuml;hinevaid hoiu-laenu&uuml;histuid kontrollib &uuml;ks ja seesama audiitor .</s>
+</p>
+<p>
+<s>( 2 ) Audiitor koostab &uuml;hinemislepingu kontrollimise kohta aruande , n&auml;idates &auml;ra , milliseid hindamismeetodeid on kasutatud osamaksude vahetussuhte m&auml;&auml;ramisel , ja annab oma arvamuse usaldusv&auml;&auml;rsuse tagamise meetmete t&auml;itmise kohta &uuml;hinevates hoiu-laenu&uuml;histutes .</s>
+</p>
+<p>
+<s>( 3 ) Hoiu-laenu&uuml;histute &uuml;hinemislepingut kontrollivad lisaks audiitorile ka &uuml;hinevate &uuml;histute revisjonikomisjonid ja koostavad kontrollimise kohta kirjaliku aruande .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Hoiu-laenu&uuml;histute &uuml;hinemine &uuml;histupanga asutamiseks</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histud v&otilde;ivad &uuml;hineda selliselt , et asutavad &uuml;histupanga vastavalt krediidiasutuste seaduse s&auml;tetele .</s><s>&Uuml;hinevad hoiu-laenu&uuml;histud loetakse sel juhul l&otilde;ppenuks .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;histupanga asutamisel l&auml;heb &uuml;hinevate hoiu-laenu&uuml;histute vara &uuml;le asutatavale &uuml;histupangale ja hoiu-laenu&uuml;histu liikmetest saavad &uuml;histupanga liikmed .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Hoiu-laenu&uuml;histu l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Hoiu-laenu&uuml;histu l&otilde;petatakse :</s>
+</p>
+<p>
+<s>1 ) &uuml;ldkoosoleku otsuse alusel ;</s>
+</p>
+<p>
+<s>2 ) kohtuotsusega ;</s>
+</p>
+<p>
+<s>3 ) kui hoiu-laenu&uuml;histusse on j&auml;&auml;nud v&auml;hem kui 25 liiget ja liikmete arv ei ole kahe kuu jooksul suurenenud ;</s>
+</p>
+<p>
+<s>4 ) muudel seaduse v&otilde;i p&otilde;hikirjaga s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 2 ) Hoiu-laenu&uuml;histu l&otilde;petamine toimub tulundus&uuml;histuseaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 19.12.2001 j&otilde;ust.01.02.2002 - RT I 2002 , 3 , 6 )</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Seaduse kohaldamine asutatavatele ja tegutsevatele hoiu-laenu&uuml;histutele</s>
+</p>
+<p>
+<s>( 1 ) Alates k&auml;esoleva seaduse j&otilde;ustumisest saab hoiu-laenu&uuml;histuid asutada ainult k&auml;esolevas seaduses s&auml;testatud korras ja neile hoiu-laenu&uuml;histutele kohaldatakse k&auml;esolevas seaduses s&auml;testatut .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse j&otilde;ustumisel tegutsevad laenu-hoiu&uuml;histud loetakse hoiu-laenu&uuml;histuteks .</s>
+</p>
+<p>
+<s>( 3 ) Kolme kuu jooksul , arvates k&auml;esoleva seaduse j&otilde;ustumisest , peavad j&otilde;ustumise hetkel tegutsevad hoiu-laenu&uuml;histud viima oma tegevuse ja dokumendid vastavusse k&auml;esoleva seaduse n&otilde;uetega .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Osakapitalile s&auml;testatud n&otilde;ude rakendamine</s>
+</p>
+<p>
+<s>( 1 ) Alates k&auml;esoleva seaduse j&otilde;ustumisest peab hoiu-laenu&uuml;histu osakapital olema v&auml;hemalt 200 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Alates 2001. aasta 1. juulist peab hoiu-laenu&uuml;histu osakapital olema v&auml;hemalt 300 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Alates 2002. aasta 1. juulist peab hoiu-laenu&uuml;histu osakapital vastama k&auml;esoleva seaduse &sect; 22 l&otilde;ikes 3 s&auml;testatule .</s>
+</p>
+<p>
+<s>( 4 ) Kui hoiu-laenu&uuml;histu ei vii oma osakapitali suurust vastavusse k&auml;esoleva paragrahvi l&otilde;igetes 1-3 s&auml;testatuga , kustutab registripidaja hoiu-laenu&uuml;histu registrist v&otilde;i algatab selle sundl&otilde;petamise &auml;riseadustiku &sect;-s 60 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1999. aasta 1. juulil .</s>
+</p>
+</body>
+   </text>
+</tei.2>

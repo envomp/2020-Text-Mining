@@ -1,0 +1,304 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Riikliku statistika seadus ( terviktekst juuni 2000 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    1346</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Riikliku statistika seadus ( terviktekst juuni 2000 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=2></tagusage>
+         <tagusage gi=p occurs=66></tagusage>
+         <tagusage gi=s occurs=95></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Riikliku statistika seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 11. juunil 1997. a ,</s>
+</p>
+<p>
+<s>( RT I 1997 , 51 , 822 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 17. juulil 1997. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>01.06.2000 j&otilde;ust .</s><s>26.06.2000 - RT I 2000 , 47 , 289.</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse eesm&auml;rk</s>
+</p>
+<p>
+<s>K&auml;esolev seadus kehtestab &otilde;iguslikud alused riiklike statistiliste vaatluste s&uuml;steemseks ja kavakindlaks korraldamiseks .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Riiklik statistika</s>
+</p>
+<p>
+<s>( 1 ) Riiklik statistika on kokkuv&otilde;tlik ja &uuml;ldistatud andmestik , mis saadakse riiklike statistiliste vaatluste korraldamisel andmete kogumise ja s&uuml;stemaatilise t&ouml;&ouml;tlemise tulemusena .</s>
+</p>
+<p>
+<s>( 2 ) Riiklik statistika kajastab Eesti majanduse , rahvastiku , sotsiaalvaldkonna ja keskkonna seisundit ning selles toimuvaid muutusi .</s>
+</p>
+<p>
+<s>( 3 ) Riiklik statistika peab vastama erapooletuse , usaldusv&auml;&auml;rsuse , asjakohasuse , tasuvuse , konfidentsiaalsuse ja l&auml;bipaistvuse p&otilde;him&otilde;tetele .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Riiklike statistiliste vaatluste korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Riiklike statistiliste vaatluste korraldamine h&otilde;lmab andmete kogumiseks , kokkuv&otilde;tuks , t&ouml;&ouml;tlemiseks , avaldamiseks , anal&uuml;&uuml;siks ja s&auml;ilitamiseks vajalikku tegevust .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus kinnitab igaks aastaks riiklike statistiliste vaatluste loetelu vaatluste korraldajate kaupa , v&auml;lja arvatud Eesti Panga poolt korraldatavate vaatluste kohta .</s><s>Vajaduse korral loetelu ajakohastatakse .</s>
+</p>
+<p>
+<s>( 3 ) Riiklike statistiliste vaatluste loetelu alusel kinnitab rahandusminister ja Eesti Panga seaduse ( RT I 1993 , 28 , 498 ; 1994 , 30 , 463 ) &sect; 2 l&otilde;ikes 8 s&auml;testatud ulatuses Eesti Panga president riiklike statistiliste aruannete vormid .</s>
+</p>
+<p>
+<s>( 4 ) Riiklike statistiliste vaatluste korraldamist finantseeritakse riigieelarvest ja muudest seadusega s&auml;testatud allikatest .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Riiklike statistiliste vaatluste korraldajad</s>
+</p>
+<p>
+<s>( 1 ) Riiklike statistiliste vaatluste korraldajad v&otilde;ivad olla selleks seadusega m&auml;&auml;ratud riigiasutused ja Eesti Pank .</s>
+</p>
+<p>
+<s>( 2 ) Riiklike statistiliste vaatluste p&otilde;hikorraldajad on Statistikaamet ja Eesti Panga seaduse &sect; 2 l&otilde;ikes 8 s&auml;testatud ulatuses Eesti Pank .</s><s>Riiklike statistiliste vaatluste p&otilde;hikorraldajad on statistiliste meetodite valimisel s&otilde;ltumatud , kuid koosk&otilde;lastavad need omavahel .</s><s>Riiklike statistiliste vaatluste p&otilde;hikorraldajatel on &otilde;igus otse suhelda k&otilde;igi valitsusasutustega statistiliste vaatluste korraldamise k&uuml;simustes .</s>
+</p>
+<p>
+<s>( 01.06.2000 j&otilde;ust .</s><s>26.06.2000 - RT I 2000 , 47 , 289 )</s>
+</p>
+<p>
+<s>( 3 ) Riiklike statistiliste vaatluste korraldajad peavad enne andmete kogumise alustamist viima oma andmete kogumise , t&ouml;&ouml;tlemise ja avaldamise meetodid vastavusse riiklike ja rahvusvaheliste standardite , klassifikaatorite ning statistiliste meetoditega .</s><s>Vabariigi Valitsus kinnitab riiklike statistiliste vaatluste korraldamisel kasutatavad klassifikaatorid .</s>
+</p>
+<p>
+<s>( 01.06.2000 j&otilde;ust .</s><s>26.06.2000 - RT I 2000 , 47 , 289 )</s>
+</p>
+<p>
+<s>( 4 ) Riigiasutused koosk&otilde;lastavad andmete kogumise , t&ouml;&ouml;tlemise ja avaldamise meetodid enne riiklike statistiliste vaatluste loetelus etten&auml;htud vaatluste alustamist Statistikaametiga .</s><s>Statistikaametiga tuleb koosk&otilde;lastada ka k&otilde;ik nendes meetodites hiljem tehtavad muudatused .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Riiklike statistiliste vaatluste korraldajate kohustused</s>
+</p>
+<p>
+<s>( 1 ) Riiklike statistiliste vaatluste korraldamisel kasutatakse eelk&otilde;ige riiklikesse ja teistesse andmekogudesse kogutud andmeid , riigi- ja kohaliku omavalitsuse asutuste ning juriidiliste isikute tegevuse k&auml;igus tekkinud v&otilde;i nende kogutud andmeid .</s><s>Andmekogude volitatud t&ouml;&ouml;tlejad on kohustatud Statistikaametiga koosk&otilde;lastama andmekogude andmete struktuuri , definitsioonid ja kasutatavad klassifikaatorid .</s>
+</p>
+<p>
+<s>( 01.06.2000 j&otilde;ust .</s><s>26.06.2000 - RT I 2000 , 47 , 289 )</s>
+</p>
+<p>
+<s>( 2 ) Riikliku statistilise vaatluse korraldaja teatab andmeesitajale kogutavate andmete kasutamise eesm&auml;rgi , nende t&ouml;&ouml;tlemise , edastamise ja avaldamise p&otilde;him&otilde;tted ning esitamise t&auml;htp&auml;evad .</s><s>Andmeesitajat teavitatakse ka vastutusest k&auml;esoleva seaduse &sect;-s 7 s&auml;testatud n&otilde;uete rikkumise eest .</s>
+</p>
+<p>
+<s>( 3 ) Riikliku statistilise vaatluse korraldaja teatab andmeesitajale andmete kogumisest v&otilde;i muudatustest andmete kogumisel kas hiljemalt &uuml;ks kuu enne vastavate andmete kogumise algust v&otilde;i hiljemalt &uuml;ks kuu enne andmete esitamise t&auml;htp&auml;eva .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Andmeesitajad</s>
+</p>
+<p>
+<s>( 1 ) Andmeesitajateks k&auml;esoleva seaduse m&otilde;ttes on Eestis registreeritud juriidilised isikud , v&auml;lismaa &auml;ri&uuml;hingute filiaalid , riigi- ja kohaliku omavalitsuse asutused ning f&uuml;&uuml;silisest isikust ettev&otilde;tjad ning kinnisvara , ehitisi v&otilde;i nende osi omavad f&uuml;&uuml;silised isikud .</s>
+</p>
+<p>
+<s>( 2 ) Andmeesitajal on &otilde;igus &uuml;ks kord aastas tutvuda riikliku statistilise vaatluse korraldaja poolt tema kohta kogutud andmetega .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Riiklike statistiliste vaatlustega kogutavate andmete esitamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Riikliku statistilise vaatluse korraldaja n&otilde;udmisel on andmeesitajad kohustatud &otilde;igeaegselt esitama andmeid k&auml;esoleva seaduse &sect; 3 l&otilde;igete 2 ja 3 alusel kehtestatud ulatuses oma asukoha , alluvuse , majandusliku tegevuse ja seisundi , t&ouml;&ouml; iseloomu , kasutada olevate ressursside , tegevusplaanide ja perspektiivide kohta .</s><s>Andmete esitamise eest tasu ei maksta .</s>
+</p>
+<p>
+<s>( 2 ) Riigi- ja kohaliku omavalitsuse asutused on riikliku statistilise vaatluse korraldaja n&otilde;udmisel kohustatud esitama andmeid , mida nad on kogunud oma tegevuse k&auml;igus , v&auml;lja arvatud andmed , mida neil seadusega on keelatud avaldada .</s>
+</p>
+<p>
+<s>( 3 ) Andmekogude pidajad on kohustatud riikliku statistilise vaatluse korraldaja n&otilde;udmisel esitama k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud andmekogudesse kogutud andmeid .</s>
+</p>
+<p>
+<s>( 4 ) F&uuml;&uuml;siline isik esitab andmeid enda kohta vabatahtlikkuse alusel , kui seadusega ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 5 ) Juriidilised isikud ning riigi- ja kohaliku omavalitsuse asutused on riikliku statistilise vaatluse korraldaja n&otilde;udmisel kohustatud teatama , mille kohta nad andmeid koguvad .</s>
+</p>
+<p>
+<s>( 6 ) Riikliku statistilise vaatluse korraldaja v&otilde;ib erandina vabastada andmeesitaja tema kirjalikul taotlusel k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud kohustusest kas osaliselt v&otilde;i t&auml;ielikult , kui andmete esitamine on raskendatud v&otilde;i v&otilde;imatu .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Andmekaitse</s>
+</p>
+<p>
+<s>( 1 ) Riikliku statistilise vaatluse korraldaja on kohustatud tagama kogutud andmete kaitse .</s>
+</p>
+<p>
+<s>( 2 ) Riikliku statistilise vaatlusega kogutud andmeid v&otilde;ib kasutada ainult statistilisel otstarbel .</s>
+</p>
+<p>
+<s>( 3 ) Riikliku statistilise vaatlusega kogutud andmeid ei tohi kasutada kontrolli , maksustamise ega &uuml;helgi teisel mittestatistilisel otstarbel .</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 01.06.2000 j&otilde;ust .</s><s>26.06.2000 - RT I 2000 , 47 , 289 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikeid 1-3 ei kohaldata andmete suhtes , mis vastavalt seadustele on avalikud .</s>
+</p>
+<p>
+<s>( 01.06.2000 j&otilde;ust .</s><s>26.06.2000 - RT I 2000 , 47 , 289 )</s>
+</p>
+<p>
+<s>( 6 ) Statistikaameti kogutud ja t&ouml;&ouml;deldud andmete kaitse korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 01.06.2000 j&otilde;ust .</s><s>26.06.2000 - RT I 2000 , 47 , 289 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Andmete edastamine ja avaldamine</s>
+</p>
+<p>
+<s>( 1 ) Kogutud andmeid v&otilde;ib riikliku statistilise vaatluse korraldaja edastada ja avaldada ainult sellisel kujul , mis v&auml;listab andmeesitaja otsese v&otilde;i kaudse identifitseerimise v&otilde;imaluse .</s><s>Et otsustada , kas andmeesitaja on identifitseeritav , v&otilde;etakse arvesse k&otilde;ik vahendid , mida kolmas isik v&otilde;ib p&otilde;hjendatult kasutada nimetatud andmeesitaja identifitseerimiseks .</s>
+</p>
+<p>
+<s>( 2 ) Andmeesitaja identifitseerimist v&otilde;imaldavaid andmeid v&otilde;ib riikliku statistilise vaatluse korraldaja erandkorras edastada ja avaldada ainult andmeesitaja kirjalikul n&otilde;usolekul .</s><s>Andmeesitaja identifitseerimist v&otilde;imaldavaid andmeid v&otilde;ib Vabariigi Valitsuse poolt kehtestatud korras edastada teadusuuringuteks ka andmeesitaja n&otilde;usolekuta .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;tluses olevaid andmeid ei tohi riikliku statistilise vaatluse korraldaja edastada ega avaldada .</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 01.06.2000 j&otilde;ust .</s><s>26.06.2000 - RT I 2000 , 47 , 289 )</s>
+</p>
+<p>
+<s>( 5 ) Andmed loetakse avaldatuks hetkest , millal riikliku statistilise vaatluse korraldaja need &uuml;ldiseks kasutamiseks k&auml;ttesaadavaks teeb .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Andmeesitaja vastutus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 7 s&auml;testatud n&otilde;uete rikkumise eest f&uuml;&uuml;silise isiku poolt s&auml;testatakse vastutus haldus-&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1995 , 76-78 , 1345 ; 83 , 1441 ; 1996 , 3 , 56 ja 57 ; 26 , 528 ; 31 , 631 ; 48 , 944 ; 83 , 1488 ; 86 , 1538 ; 1997 , 1 , 3 ja 4 ; 5/6 , 30 ; 16 , 259 ; 28 , 423 ; 30 , 472 ; 48 , 777 ; 51 , 822 ja 823 ; 52 , 833 ja 834 ) .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilise isiku poolt :</s>
+</p>
+<p>
+<s>1 ) riikliku statistilise vaatlusega kogutavate andmete hilinemisega esitamise eest - m&auml;&auml;ratakse rahatrahv kuni 20 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) riikliku statistilise vaatlusega kogutavate andmete esitamata j&auml;tmise v&otilde;i teadlikult moonutatult esitamise eest - m&auml;&auml;ratakse rahatrahv kuni 40 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Juriidilise isiku poolt k&auml;esoleva seaduse &sect;-s 7 s&auml;testatud n&otilde;uete rikkumise korral on haldus&otilde;iguserikkumise protokolli koostamise &otilde;igus Statistikaameti peadirektori ja Eesti Panga presidendi poolt selleks volitatud isikutel .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilise isiku poolt k&auml;esoleva seaduse &sect;-s 7 s&auml;testatud n&otilde;uete rikkumise korral on asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus halduskohtul .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktides 1 ja 2 etten&auml;htud sanktsioone rakendatakse haldus&otilde;iguserikkumiste seadustikus toodud menetluskorda j&auml;rgides .</s>
+</p>
+<p>
+<s>[ &sect;&sect; 11-12 v&auml;lja j&auml;etud ] <hi rend="sup">1</hi></s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Seaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Eesti N&otilde;ukogude Sotsialistliku Vabariigi statistikaseadus ( ENSV Teataja 1990 , 9 , 145 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> V&auml;ljaj&auml;etud paragrahvidega muudetakse varasemaid &otilde;igusakte .</s>
+</p>
+</body>
+   </text>
+</tei.2>

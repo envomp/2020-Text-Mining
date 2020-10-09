@@ -1,0 +1,775 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Reklaamiseadus ( terviktekst juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4001</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Reklaamiseadus ( terviktekst juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=3></tagusage>
+         <tagusage gi=p occurs=223></tagusage>
+         <tagusage gi=s occurs=261></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Reklaamiseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 11. juunil 1997. a.</s>
+</p>
+<p>
+<s>( RT I 1997 , 52 , 835 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 1998. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 50 , 284 ;</s>
+</p>
+<p>
+<s>14.02.2001 j&otilde;ust.01.05.2001 - RT I 2001 , 23 , 127 ;</s>
+</p>
+<p>
+<s>25.02.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 30 , 415 ;</s>
+</p>
+<p>
+<s>18.02.99 j&otilde;ust.27.03.99 - RT I 1999 , 27 , 388.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>Reklaamiseadus s&auml;testab reklaami m&otilde;iste , kehtestab reklaami &uuml;ldn&otilde;uded , reklaami piirangud ning nende ulatuse , reklaami eritingimused ning reguleerib reklaamialase tegevuse j&auml;relevalvet ja kehtestab vastutuse k&auml;esoleva seaduse rikkumise eest .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Reklaami m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses k&auml;sitletakse reklaamina teavet , mis avalikustatakse toodete v&otilde;i teenuste m&uuml;&uuml;gi suurendamise , &uuml;rituse v&otilde;i idee edendamise v&otilde;i m&otilde;nes muus vallas m&otilde;ne muu soovitud tagaj&auml;rje saavutamise eesm&auml;rgil ning mida reklaami avalikustaja tasu eest v&otilde;i m&otilde;nel muul vastaval kaalutlusel levitab .</s>
+</p>
+<p>
+<s>( 2 ) Reklaami avalikustajana k&auml;sitletakse k&auml;esolevas seaduses reklaami avalikku esitajat , &uuml;ldsusele n&auml;itajat , &uuml;ldsusele &uuml;lekandjat , tootjat , vahendajat v&otilde;i tellijat .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Reklaami p&otilde;hin&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Reklaami sisu , kujundus ja esitlusviis peavad olema sellised , mis &uuml;ldsuse tavalise t&auml;helepanu juures tagavad arusaamise , et tegemist on reklaamiga .</s>
+</p>
+<p>
+<s>( 2 ) Reklaamis peab sisalduma selgelt eristatav teave reklaami avalikustaja kohta .</s><s>Selline teave peab reklaamis sisalduma tekstina v&otilde;i Eestis registreeritud kaubam&auml;rgi kaudu .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Reklaami &uuml;ldn&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Eksitav reklaam</s>
+</p>
+<p>
+<s>( 1 ) Eksitav on reklaam , mis &uuml;ksk&otilde;ik millisel viisil , kaasa arvatud esitlusviis , petab v&otilde;i t&otilde;en&auml;oliselt petab &uuml;ldsust v&otilde;i mis toodud p&otilde;hjustel kahjustab v&otilde;i v&otilde;ib kahjustada konkurenti .</s><s>Eksitav reklaam on keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Eksitavaks reklaamiks tunnistamisel v&otilde;etakse arvesse kogu reklaam , eelk&otilde;ige teave allj&auml;rgnevate asjaolude kohta :</s>
+</p>
+<p>
+<s>1 ) toote koostis , keskkonnaohutus , kasutamisega seonduv tervisekahjustuse risk , valmistamise viis ja aeg , vastavus otstarbele , kasutamisviis , tootmispaik v&otilde;i p&auml;ritolumaa v&otilde;i muud omadused ;</s>
+</p>
+<p>
+<s>2 ) toote v&otilde;i teenuse v&auml;&auml;rtus ja tegelik hind ;</s>
+</p>
+<p>
+<s>3 ) toote v&otilde;i teenuse eest tasumise maksetingimused , nagu m&uuml;&uuml;k j&auml;relmaksuga , liising , maksmine osamaksudena ja m&uuml;&uuml;k krediidi alusel ;</s>
+</p>
+<p>
+<s>4 ) toote kohaletoimetamine , vahetamine , tagastamine , remont ja hooldus ;</s>
+</p>
+<p>
+<s>5 ) toote v&otilde;i teenuse garantiitingimused ;</s>
+</p>
+<p>
+<s>6 ) tootja v&otilde;i teenuse osutaja isik , tema tegevusala ja kvalifikatsioon , samuti tema toote v&otilde;i teenusega seotud intellektuaalse omandi &otilde;igused ;</s>
+</p>
+<p>
+<s>7 ) toote v&otilde;i teenuse ametlik tunnustus v&otilde;i heakskiit , medalite , auhindade v&otilde;i diplomitega autasustamine ;</s>
+</p>
+<p>
+<s>8 ) toote v&otilde;i teenuse nime all avalike v&otilde;i heategevate &uuml;rituste toetamise ulatus .</s>
+</p>
+<p>
+<s>( 3 ) Reklaamis on keelatud kasutada teaduslike v&otilde;i muude uuringute tulemusi , tsitaate teaduslikest ja tehnilistest v&auml;ljaannetest , samuti statistilisi v&otilde;i teaduslikke andmeid sellisel viisil , mis eksitavad &uuml;ldsust reklaami eseme suhtes .</s><s>Reklaam ei tohi j&auml;tta muljet , et esitatavatel teadetel on teaduslik alus , kui see tegelikult puudub .</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 14.02.2001 j&otilde;ust.01.05.2001 - RT I 2001 , 23 , 127 )</s>
+</p>
+<p>
+<s>&sect; 4 <hi rend="sup">1</hi> .</s><s>V&otilde;rdlev reklaam</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;rdlev on reklaam , milles otseselt v&otilde;i kaudselt osutatakse samal kaubaturul tegutsevale konkurendile v&otilde;i konkurendi poolt pakutavale tootele v&otilde;i teenusele , mis t&auml;idab samu vajadusi v&otilde;i on ette n&auml;htud samaks otstarbeks kui reklaamitav toode v&otilde;i teenus .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;rdlev reklaam peab v&otilde;rdluse osas p&otilde;hinema v&otilde;rreldavate toodete v&otilde;i teenuste &uuml;hel v&otilde;i mitmel asjakohasel , olulisel ja t&otilde;estataval tunnusel , milleks v&otilde;ib olla ka hind .</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;rdlev reklaam ei tohi v&otilde;rdluse osas :</s>
+</p>
+<p>
+<s>1 ) p&otilde;hjustada v&otilde;rreldavate konkurentide v&otilde;i nende kaubam&auml;rkide , &auml;rinimede , toodete v&otilde;i teenuste v&otilde;i nende oluliste tunnuste v&otilde;i m&uuml;&uuml;gitingimuste segiajamist v&otilde;i t&otilde;en&auml;olist segiajamist ;</s>
+</p>
+<p>
+<s>2 ) olla halvustav v&otilde;i laimav konkurendi kaubam&auml;rgi , &auml;rinime , toodete v&otilde;i teenuste v&otilde;i nende tunnuste v&otilde;i m&uuml;&uuml;gitingimuste suhtes ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;hineda konkurendi kaubam&auml;rgi , &auml;rinime v&otilde;i muude eristatavate tunnuste maine v&otilde;i v&otilde;rreldavate toodete p&auml;ritolu enda huvides &auml;rakasutamisel ;</s>
+</p>
+<p>
+<s>4 ) p&otilde;hineda geograafilise t&auml;hise kaitse seaduse ( RT I 1999 , 102 , 907 ; 2000 , 40 , 252 ; 2001 , 27 , 151 ; 56 , 332 ja 335 ) t&auml;henduses erineva geograafilise t&auml;hisega m&auml;rgistatud toodete v&otilde;i teenuste v&otilde;rdlemisel ;</s>
+</p>
+<p>
+<s>5 ) esitada toodet v&otilde;i teenust kaitstud kaubam&auml;rgiga t&auml;histatud toote v&otilde;i teenuse mis tahes koopia v&otilde;i j&auml;ljendamisena .</s>
+</p>
+<p>
+<s>( 4 ) Reklaamis sisalduv toote v&otilde;i teenuse tavap&auml;rasest erinevale pakkumisele viitav v&otilde;rdlus peab sisaldama selget ja &uuml;hest teavet sellise pakkumise l&otilde;ppkuup&auml;eva v&otilde;i selle seotuse kohta pakutava toote l&otilde;ppemisega , samuti teenuse k&auml;ttesaadavusega ning pakkumise muude eritingimuste kohta .</s><s>Kui reklaami avalikustamisel tavap&auml;rasest erinev pakkumine ei ole veel alanud , peab reklaamis sisalduma ka sellise pakkumise alguskuup&auml;ev .</s>
+</p>
+<p>
+<s>( 14.02.2001 j&otilde;ust.01.05.2001 - RT I 2001 , 23 , 127 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>K&otilde;lvatu reklaam</s>
+</p>
+<p>
+<s>( 1 ) K&otilde;lvatu on reklaam , mis on vastuolus heade kommete ja tavadega v&otilde;i mis kutsub &uuml;les k&auml;ituma seadusvastaselt v&otilde;i rikkuma &uuml;ldisi moraalinorme v&otilde;i mis sisaldab sellist tegevust .</s><s>K&otilde;lvatu reklaam on keelatud .</s>
+</p>
+<p>
+<s>( 2 ) K&otilde;lvatuks loetakse reklaami eelk&otilde;ige juhul , kui reklaam :</s>
+</p>
+<p>
+<s>1 ) esitab , kutsub &uuml;les v&otilde;i toetab diskrimineerimist rahvuse , rassi , nahav&auml;rvuse , soo , ea , keele , p&auml;ritolu , usutunnistuse , poliitiliste v&otilde;i muude veendumuste t&otilde;ttu , samuti varalise v&otilde;i sotsiaalse seisundi v&otilde;i muude asjaolude t&otilde;ttu ;</s>
+</p>
+<p>
+<s>2 ) kutsub &uuml;les v&auml;givaldsele k&auml;itumisele v&otilde;i &otilde;hutab v&auml;givalla kasutamist eesm&auml;rgi saavutamiseks v&otilde;i eesm&auml;rgi saavutamise viisi valikul ;</s>
+</p>
+<p>
+<s>3 ) alav&auml;&auml;ristab &otilde;iguskuulekat k&auml;itumist v&otilde;i &otilde;igustab otseselt v&otilde;i kaudselt &otilde;iguserikkumist kui eesm&auml;rgi saavutamise vahendit ;</s>
+</p>
+<p>
+<s>4 ) tugineb inimeste ebausul , hirmul v&otilde;i kaastundel ;</s>
+</p>
+<p>
+<s>5 ) sisaldab otsest visuaalset v&otilde;i s&otilde;nalist v&auml;ljendust seksuaalakti , sobimatu alastuse v&otilde;i antisotsiaalse seksuaalk&auml;itumise kohta v&otilde;i</s>
+</p>
+<p>
+<s>6 ) esitab valeteateid teise isiku v&otilde;i tema toodete v&otilde;i teenuste v&otilde;i muude asjaolude kohta .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Halvustav reklaam</s>
+</p>
+<p>
+<s>( 1 ) Halvustavaks reklaamiks loetakse reklaami , mis otseselt v&otilde;i kaudselt alav&auml;&auml;ristab v&otilde;i m&otilde;nel muul viisil halvustab m&otilde;nda isikut , tegevust , tegevusala , toodet , teenust , &auml;ritegevust v&otilde;i muud reklaamis avaldatut .</s>
+</p>
+<p>
+<s>( 2 ) Halvustav reklaam on keelatud .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Eraelu ja omandi kaitse</s>
+</p>
+<p>
+<s>( 1 ) Reklaami tootja ei tohi reklaamis ilma isiku n&otilde;usolekuta kasutada pildimaterjali v&otilde;i nimelist viidet &uuml;hegi f&uuml;&uuml;silise isiku kohta .</s>
+</p>
+<p>
+<s>( 2 ) Ilma omaniku loata ei tohi reklaamis kasutada tema omandit v&otilde;i viidata sellele viisil , mis j&auml;tab &uuml;ldsusele mulje omaniku sellekohasest soovist .</s>
+</p>
+<p>
+<s>( 3 ) Reklaami tootja peab reklaami tootmisel j&auml;rgima autori&otilde;iguse seaduse ( RT 1992 , 49 , 615 ; RT I 2000 , 16 , 109 ; 78 , 497 ; 2001 , 50 , 289 ) s&auml;tteid .</s>
+</p>
+<p>
+<s>( 4 ) Eesti Panga poolt k&auml;ibele lastud pangat&auml;htede ja m&uuml;ntide kujunduse kasutamine reklaamis on lubatud ainult Eesti Panga eelneval n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 18.02.99 j&otilde;ust.27.03.99 - RT I 1999 , 27 , 388 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Varjatud reklaam</s>
+</p>
+<p>
+<s>( 1 ) Varjatud reklaamiks loetakse reklaami , mis , olenemata avalikustamise viisist v&otilde;i vahendist , ei ole &uuml;ldsuse tavalise t&auml;helepanu juures selgelt eristatav ja grupeeritud muust samal ajal ja samal reklaamikandjal avalikustatavast teabest .</s>
+</p>
+<p>
+<s>( 2 ) Varjatud reklaam on keelatud .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Lastele suunatud reklaam</s>
+</p>
+<p>
+<s>( 1 ) Reklaamis ei tohi &auml;ra kasutada laste loomulikku kergeusklikkust ja kogemuste puudust .</s>
+</p>
+<p>
+<s>( 2 ) Reklaami suhtes , mis on suunatud peamiselt lastele , tuleb j&auml;rgida t&auml;iendavalt j&auml;rgmisi n&otilde;udeid :</s>
+</p>
+<p>
+<s>1 ) reklaam ei tohi sisaldada teavet , et m&otilde;ne toote omandamine v&otilde;i teenuse kasutamine v&otilde;i m&otilde;ne muu reklaamieesm&auml;rgi saavutamine muudab lapse teistest samaealistest paremaks v&otilde;i et selle puudumisel on vastupidine m&otilde;ju ;</s>
+</p>
+<p>
+<s>2 ) reklaam ei tohi sisaldada &uuml;leskutset lastele selliseks k&auml;itumiseks v&otilde;i teoks , mille tulemusena nad satuvad v&otilde;i v&otilde;ivad sattuda ohtlikku olukorda ;</s>
+</p>
+<p>
+<s>3 ) reklaam ei tohi sisaldada p&ouml;&ouml;rdumist laste poole , millega neid otseselt kutsutakse &uuml;les n&otilde;udma teistelt isikutelt neile reklaami objektiks oleva kauba v&otilde;i teenuse omandamist ;</s>
+</p>
+<p>
+<s>4 ) reklaam ei tohi tekitada lastes alav&auml;&auml;rsustunnet v&otilde;i &otilde;hutada neid agressiivsele k&auml;itumisele .</s>
+</p>
+<p>
+<s>( 3 ) Lastele suunatud reklaami tootmisel v&otilde;i nende kasutamisel reklaamis tuleb arvestada nende east tuleneva kehalise ja vaimse erip&auml;raga .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Reklaami piirangud ja eritingimused</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Tubakatoote reklaam</s>
+</p>
+<p>
+<s>( 1 ) Tubakatoote reklaam on keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Tubakatooted k&auml;esoleva seaduse m&otilde;istes on tubakatooted tubakaaktsiisi seaduse ( RT I 1994 , 54 , 901 ; 93 , 1572 ; 1996 , 87 , 1543 ; 1997 , 77 , 1316 ; 1998 , 110 , 1810 ; 1999 , 56 , 589 ; 84 , 763 ; 2000 , 40 , 253 ; 59 , 379 ; 2001 , 43 , 242 ) t&auml;henduses .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Alkohoolse joogi reklaam</s>
+</p>
+<p>
+<s>( 1 ) Alkohoolse joogina k&auml;sitletakse k&auml;esolevas seaduses piiritust v&otilde;i alkohoolset jooki alkoholiaktsiisi seaduse ( RT I 1995 , 87 , 1539 ; 1996 , 45 , 852 ; 87 , 1544 ; 1997 , 35 , 540 ; 1998 , 103 , 1700 ; 1999 , 24 , 359 ) t&auml;henduses .</s>
+</p>
+<p>
+<s>( 2 ) Alkohoolne jook , milles alkoholisisaldus on &uuml;le 22 mahuprotsendi , on k&auml;esoleva seaduse t&auml;henduses kange alkohoolne jook .</s><s>Alkohoolne jook , mille alkoholisisaldus j&auml;&auml;b 3 ja 22 mahuprotsendi vahele , on k&auml;esoleva seaduse t&auml;henduses lahja alkohoolne jook .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on alkohoolse joogi reklaam , mis propageerib alkohoolse joogi kasutamise alustamist v&otilde;i mis sisaldab otsest &uuml;leskutset selliste toodete ostmiseks v&otilde;i tarbimiseks v&otilde;i on suunatud peamiselt alla 21 aasta vanustele isikutele ( edaspidi - lapsed v&otilde;i noored ) .</s>
+</p>
+<p>
+<s>( 4 ) Alkohoolse joogi reklaami piirangud ei laiene :</s>
+</p>
+<p>
+<s>1 ) f&uuml;&uuml;silisest isikust ettev&otilde;tja , &auml;ri&uuml;hingu v&otilde;i v&auml;lismaa &auml;ri&uuml;hingu filiaali &auml;rinime avalikustamisele , kui avalikustatud teade ei sisalda muud teavet ;</s>
+</p>
+<p>
+<s>2 ) t&auml;histusele , mida kasutatakse alkohoolse joogi tootmise , ladustamise v&otilde;i levitamisega tegeleva f&uuml;&uuml;silisest isikust ettev&otilde;tja , &auml;ri&uuml;hingu v&otilde;i v&auml;lismaa &auml;ri&uuml;hingu filiaali asukoha t&auml;histamiseks .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kange alkohoolse joogi reklaam</s>
+</p>
+<p>
+<s>( 1 ) Kange alkohoolse joogi reklaam on keelatud :</s>
+</p>
+<p>
+<s>1 ) televisioonis v&otilde;i raadios kella 7-st kuni kella 21-ni ;</s>
+</p>
+<p>
+<s>2 ) videokasseti , videom&auml;ngu , laserplaadi v&otilde;i m&otilde;ne muu tehnilise vahendi vahendusel ;</s>
+</p>
+<p>
+<s>3 ) ajalehe v&otilde;i ajakirja esi- v&otilde;i tagak&uuml;ljel ;</s>
+</p>
+<p>
+<s>4 ) tr&uuml;kiv&auml;ljaandes , mis on suunatud peamiselt lastele v&otilde;i noortele , v&otilde;i tr&uuml;kise lehek&uuml;ljel , kus avaldatakse peamiselt lastele v&otilde;i noortele suunatud teavet ;</s>
+</p>
+<p>
+<s>5 ) kino- , muuseumi- , teatri- v&otilde;i kontserdihoones , v&auml;lja arvatud nendes asuvas alkohoolse joogi m&uuml;&uuml;gikohas v&otilde;i alkohoolse joogi tarbimiseks etten&auml;htud kohas ;</s>
+</p>
+<p>
+<s>6 ) lasteaia , kooli v&otilde;i m&otilde;ne teise haridusasutuse , laste- v&otilde;i noortekeskuse hoones , hoonel v&otilde;i nende vahetus l&auml;heduses ;</s>
+</p>
+<p>
+<s>7 ) staadionil , statsionaarsel spordiareenil v&otilde;i v&otilde;imlas v&otilde;i m&otilde;nes teises sportimiseks etten&auml;htud ruumis v&otilde;i rajatisel ;</s>
+</p>
+<p>
+<s>8 ) v&auml;lireklaamina , v&auml;lja arvatud hoonel , milles asub kange alkohoolse joogi m&uuml;&uuml;gikoht ;</s>
+</p>
+<p>
+<s>9 ) haigla v&otilde;i m&otilde;ne teise tervishoiuasutuse hoones , hoonel v&otilde;i selle territooriumil ;</s>
+</p>
+<p>
+<s>10 ) &uuml;histranspordivahendi v&otilde;i takso sees ja v&auml;lisk&uuml;lgedel .</s>
+</p>
+<p>
+<s>( 2 ) Kange alkohoolse joogi reklaam ei tohi sisaldada :</s>
+</p>
+<p>
+<s>1 ) riigi v&otilde;i kohaliku omavalitsuse s&uuml;mboleid ;</s>
+</p>
+<p>
+<s>2 ) viiteid v&otilde;i pildimaterjali filmi- , televisiooni- , popmuusika- , meelelahutus- , spordi- v&otilde;i teiste avaliku elu tegelaste kohta v&otilde;i joonis- v&otilde;i nukufilmide tegelaste kujutisi ;</s>
+</p>
+<p>
+<s>3 ) informatsiooni , s&uuml;ndmusi v&otilde;i tegevust , mis v&otilde;iks j&auml;tta mulje , et kange alkohoolse joogi tarbimine on t&auml;htis m&otilde;nel elualal heade tulemuste saavutamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on kange alkohoolse joogi reklaamina k&auml;sitletavad j&auml;rgmised m&uuml;&uuml;giedendusmeetodid :</s>
+</p>
+<p>
+<s>1 ) avalik esitlus v&auml;ljaspool alkohoolse joogi m&uuml;&uuml;gikohta ;</s>
+</p>
+<p>
+<s>2 ) kange alkohoolse joogiga seotud eseme v&otilde;i tr&uuml;kise m&uuml;&uuml;k v&otilde;i tasuta jagamine lastele v&otilde;i noortele .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Lahja alkohoolse joogi reklaam</s>
+</p>
+<p>
+<s>( 1 ) Lahja alkohoolse joogi reklaam on keelatud :</s>
+</p>
+<p>
+<s>1 ) televisioonis v&otilde;i raadios kella 7-st kuni kella 20-ni ;</s>
+</p>
+<p>
+<s>2 ) lasteaia , kooli v&otilde;i m&otilde;ne teise haridusasutuse , laste- v&otilde;i noortekeskuse hoones , hoonel v&otilde;i nende vahetus l&auml;heduses ;</s>
+</p>
+<p>
+<s>3 ) staadionil ja statsionaarsel spordiareenil , v&otilde;imlas v&otilde;i m&otilde;nes teises sportimiseks etten&auml;htud hoones , hoonel v&otilde;i rajatisel ;</s>
+</p>
+<p>
+<s>4 ) haigla v&otilde;i m&otilde;ne teise tervishoiuasutuse hoones , hoonel v&otilde;i nende territooriumil ;</s>
+</p>
+<p>
+<s>5 ) tr&uuml;kiv&auml;ljaandes , mis on suunatud peamiselt lastele v&otilde;i noortele v&otilde;i tr&uuml;kise lehek&uuml;ljel , kus avaldatakse peamiselt lastele v&otilde;i noortele suunatud teavet ;</s>
+</p>
+<p>
+<s>6 ) kino- , muuseumi- , teatri- v&otilde;i kontserdihoones , v&auml;lja arvatud nendes asuvas alkohoolse joogi m&uuml;&uuml;gikohas .</s>
+</p>
+<p>
+<s>( 2 ) Lahja alkohoolse joogi reklaam ei tohi sisaldada :</s>
+</p>
+<p>
+<s>1 ) viiteid v&otilde;i pildimaterjali filmi- , televisiooni- , popmuusika- , meelelahutus- , spordi- v&otilde;i teiste avaliku elu tegelaste kohta v&otilde;i joonis- v&otilde;i nukufilmide tegelaste kujutisi ;</s>
+</p>
+<p>
+<s>2 ) informatsiooni , s&uuml;ndmusi v&otilde;i tegevust , mis v&otilde;iks j&auml;tta mulje , et alkohoolse joogi tarbimine on t&auml;htis m&otilde;nel elualal heade tulemuste saavutamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on lahja alkohoolse joogi reklaamina k&auml;sitletav lahja alkohoolse joogiga seotud eseme v&otilde;i tr&uuml;kise m&uuml;&uuml;k v&otilde;i tasuta jagamine lastele v&otilde;i noortele .</s>
+</p>
+<p>
+<s>( 4 ) Kohalikul omavalitsusel on &otilde;igus m&auml;&auml;ratleda piirkond , mida loetakse k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 2-4 nimetatud rajatiste l&auml;hedal asuvaks .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Ravimi reklaam</s>
+</p>
+<p>
+<s>( 1 ) Ravimina k&auml;sitletakse k&auml;esolevas seaduses ravimit , ravimpreparaati ja ravimisarnast ainet ravimiseaduse ( RT I 1996 , 3 , 56 ; 49 , 954 ; 1997 , 93 , 1564 ; 1998 , 36/37 , 554 ; 1999 , 58 , 608 ) t&auml;henduses .</s>
+</p>
+<p>
+<s>( 2 ) Ravimi reklaamiks k&auml;esoleva seaduse t&auml;henduses ei loeta ravimite v&auml;ljakirjutamis&otilde;igust omavatele isikutele suunatud reklaami , millele s&auml;testatakse n&otilde;uded ravimiseadusega .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on Eestis registreerimata v&otilde;i soodustingimustel v&auml;ljastatava ravimi v&otilde;i retseptiravimi reklaam &uuml;ldsusele .</s>
+</p>
+<p>
+<s>( 4 ) Ravimi reklaami v&otilde;ib tellida ainult ravimitootja .</s>
+</p>
+<p>
+<s>( 5 ) Ravimi reklaam ei tohi sisaldada mistahes viiteid tuberkuloosi , suguhaiguse v&otilde;i m&otilde;ne teise raske nakkushaiguse , v&auml;hi v&otilde;i m&otilde;ne teise kasvajalise haiguse , kroonilise unetuse , suhkurt&otilde;ve v&otilde;i m&otilde;ne teise ainevahetushaiguse ravile .</s>
+</p>
+<p>
+<s>( 6 ) Ravimi reklaam peab :</s>
+</p>
+<p>
+<s>1 ) olema esitatud selliselt , et oleks arusaadav , et tegemist on reklaamiga ja et reklaamitakse ravimit ;</s>
+</p>
+<p>
+<s>2 ) olema kaasajastatud , arusaadav , &uuml;heselt m&otilde;istetav , tagama ravimi eristatavuse teistest ravimitest ning sisaldama piisavalt informatsiooni ravimi &otilde;igel viisil ja ohutuks tarvitamiseks ;</s>
+</p>
+<p>
+<s>3 ) olema vastavuses ravimi registreerimisel Ravimiametis kinnitatud ravimi omaduste kokkuv&otilde;ttega ;</s>
+</p>
+<p>
+<s>4 ) sisaldama ravimi nime , samuti selles sisalduvate toimeainete &uuml;ldnimetused ;</s>
+</p>
+<p>
+<s>5 ) sisaldama selgelt v&auml;ljendatud &uuml;leskutset lugeda t&auml;helepanelikult kasutamis&otilde;petust v&auml;lispakendil v&otilde;i pakendivahelehel ja konsulteerida arstiga .</s>
+</p>
+<p>
+<s>( 7 ) Ravimi reklaamis on keelatud kasutada materjali , mis :</s>
+</p>
+<p>
+<s>1 ) sisaldab riigi v&otilde;i kohaliku omavalitsuse s&uuml;mboleid ;</s>
+</p>
+<p>
+<s>2 ) sisaldab viiteid filmi- , televisiooni- , meelelahutus- , spordi- v&otilde;i m&otilde;ne teise avaliku elu tegelase v&otilde;i tuntud arsti v&otilde;i teadlase kohta v&otilde;i joonis- ja nukufilmitegelaste kujutisi ;</s>
+</p>
+<p>
+<s>3 ) sisaldab raskestim&otilde;istetavaid erialaseid v&auml;ljendeid v&otilde;i tootja p&otilde;hjendamata arvamusi v&otilde;i hinnanguid ravimi omaduste v&otilde;i efektiivsuse kohta ;</s>
+</p>
+<p>
+<s>4 ) diagnoosi pakkumise teel v&otilde;i muul samalaadsel viisil j&auml;tab v&otilde;i v&otilde;ib j&auml;tta mulje , et meditsiiniline konsultatsioon v&otilde;i kirurgiline operatsioon ei ole vajalik ;</s>
+</p>
+<p>
+<s>5 ) j&auml;tab v&otilde;i v&otilde;ib j&auml;tta mulje reklaamitava ravimi garanteeritud toimest v&otilde;i sellel igasuguste k&otilde;rvaltoimete puudumisest v&otilde;i sellest , et see on parema v&otilde;i samasuguse toimega kui mistahes teine ravimisviis v&otilde;i ravim ;</s>
+</p>
+<p>
+<s>6 ) j&auml;tab v&otilde;i v&otilde;ib j&auml;tta mulje isiku tervise paranemise v&otilde;imalusest ainult reklaamitava ravimi tarbimise t&otilde;ttu ;</s>
+</p>
+<p>
+<s>7 ) j&auml;tab v&otilde;i v&otilde;ib j&auml;tta mulje isiku tervise halvenemisest , kui ta ei tarbi reklaamitavat ravimit ;</s>
+</p>
+<p>
+<s>8 ) on otseselt v&otilde;i peamiselt suunatud lastele v&otilde;i noortele ;</s>
+</p>
+<p>
+<s>9 ) j&auml;tab v&otilde;i v&otilde;ib j&auml;tta mulje , et ravimi n&auml;ol on tegemist toiduainega , kosmeetika- v&otilde;i m&otilde;ne laiatarbekaubaga ;</s>
+</p>
+<p>
+<s>10 ) j&auml;tab v&otilde;i v&otilde;ib j&auml;tta mulje reklaamitava ravimi efektiivsusest v&otilde;i ohutusest ainult seep&auml;rast , et see on looduslik ;</s>
+</p>
+<p>
+<s>11 ) haigusloo kirjeldusega v&otilde;ib p&otilde;hjustada eksliku enesediagnoosi ;</s>
+</p>
+<p>
+<s>12 ) viitab sobimatul , eksitaval v&otilde;i h&auml;irival moel paranemisv&otilde;imalusele ;</s>
+</p>
+<p>
+<s>13 ) sisaldab sobimatut v&otilde;i eksitavat pildimaterjali , mis kujutab haigusest v&otilde;i vigastusest p&otilde;hjustatud muutusi inimese kehal v&otilde;i reklaamitava ravimi toimest inimese kehale v&otilde;i selle osadele ;</s>
+</p>
+<p>
+<s>14 ) teatab reklaamitavale ravimile antud m&uuml;&uuml;giloast .</s>
+</p>
+<p>
+<s>( 8 ) Ravimite v&auml;ljakirjutamis&otilde;igust mitteomavatele isikutele on keelatud anda ravimite n&auml;idiseid ning m&uuml;&uuml;giedendusmeetodina m&uuml;&uuml;a v&otilde;i jagada ravimiga seotud esemeid v&otilde;i tr&uuml;kiseid .</s>
+</p>
+<p>
+<s>( 9 ) Ravimi reklaam on keelatud :</s>
+</p>
+<p>
+<s>1 ) videokasseti ja videom&auml;ngu , laserplaadi v&otilde;i m&otilde;ne muu tehnilise vahendi vahendusel ;</s>
+</p>
+<p>
+<s>2 ) ajalehe v&otilde;i ajakirja esi- v&otilde;i tagak&uuml;ljel ;</s>
+</p>
+<p>
+<s>3 ) tr&uuml;kiv&auml;ljaandes , mis on suunatud peamiselt lastele v&otilde;i noortele v&otilde;i tr&uuml;kise lehek&uuml;ljel , kus avaldatakse peamiselt lastele v&otilde;i noortele suunatud teavet ;</s>
+</p>
+<p>
+<s>4 ) v&auml;lisreklaamina ja &uuml;histranspordivahendi v&otilde;i takso sees ja v&auml;lisk&uuml;lgedel .</s>
+</p>
+<p>
+<s>&sect; 14 <hi rend="sup">1</hi> .</s><s>Tervishoiuteenuse reklaam</s>
+</p>
+<p>
+<s>( 1 ) Tervishoiuteenuse pakkujatena v&otilde;ivad end reklaamida ainult tervishoiuteenuste korraldamise seadusega koosk&otilde;las tegutsevad tervishoiuteenuste osutajad .</s>
+</p>
+<p>
+<s>( 2 ) Tervishoiuteenuse reklaamis v&otilde;ivad sisalduda ainult tervishoiuteenuse osutaja nimi , t&ouml;&ouml;aeg , tegevuskoht , eriala , tervishoiut&ouml;&ouml;tajate nimed , erialad ja akadeemilised kraadid ning osutatavad tervishoiuteenused .</s>
+</p>
+<p>
+<s>( 3 ) Tervishoiuteenuse reklaamis peab sisalduma tervishoiuteenuse pakkuja tegevusloa number .</s>
+</p>
+<p>
+<s>( 09.05.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 50 , 284 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Finantsteenuse reklaam</s>
+</p>
+<p>
+<s>( 1 ) Finantsteenusena k&auml;esoleva seaduse m&otilde;istes k&auml;sitletakse krediidiasutuste seaduse ( RT I 1995 , 4 , 36 ) paragrahv 5 l&otilde;ike 1 punktides 1-12 nimetatud teenuseid .</s>
+</p>
+<p>
+<s>( 2 ) Finantsteenuse reklaam peab olema arusaadav , &uuml;heselt m&otilde;istetav ning tagama selge ja kerge arusaamise pakutava teenuse k&otilde;ikidest tingimustest , eelk&otilde;ige tegelikust intressim&auml;&auml;rast , k&otilde;ikidest teistest teenusega seotud kuludest ning maksetingimustest .</s>
+</p>
+<p>
+<s>( 3 ) Finantsteenuse reklaam ei tohi sisaldada konkureerivate teenuste otsest v&otilde;i kaudset v&otilde;rdlust , milles kasutatakse teavet , mida ei saa otseselt ja kergesti v&otilde;rrelda .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>M&uuml;rgise , tuleohtliku ja muul viisil ohtliku toote reklaam</s>
+</p>
+<p>
+<s>( 1 ) M&uuml;rgise , tuleohtliku v&otilde;i muul viisil ohtliku toote reklaam peab sisaldama otsest viidet niisuguse toote ohtlikele omadustele ja tingimustele , mil need ohtlikud omadused v&otilde;ivad ilmneda , samuti vajalikele ohutusabin&otilde;udele sellise toote kasutamisel .</s>
+</p>
+<p>
+<s>( 2 ) Keelatud on toodet ohutuna reklaamida , kui toote kasutamine on selle ohtlikkuse t&otilde;ttu &otilde;igusaktidega kitsendatud .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Narkootilise ja ps&uuml;hhotroopse aine reklaam</s>
+</p>
+<p>
+<s>Narkootilise v&otilde;i ps&uuml;hhotroopse aine reklaam on keelatud .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Relva ja laskemoona reklaam</s>
+</p>
+<p>
+<s>( 1 ) Relva v&otilde;i laskemoona reklaam on keelatud , v&auml;lja arvatud m&uuml;&uuml;gikohas , erialasel n&auml;itusel , messil v&otilde;i erialases tr&uuml;kises .</s>
+</p>
+<p>
+<s>( 2 ) Relva v&otilde;i laskemoona reklaam peab olema arusaadav , &uuml;heselt m&otilde;istetav ning tagama relva v&otilde;i laskemoona eristatavuse teisest samaliigilisest tootest .</s><s>Relva v&otilde;i laskemoona reklaam ei tohi sisaldada raskesti m&otilde;istetavaid erialaseid v&auml;ljendeid v&otilde;i tootja arvamusi v&otilde;i hinnanguid toote omaduste kohta .</s>
+</p>
+<p>
+<s>( 3 ) Relva v&otilde;i laskemoona reklaam ei tohi sisaldada :</s>
+</p>
+<p>
+<s>1 ) otsest &uuml;leskutset relvade v&otilde;i laskemoona ostmiseks v&otilde;i kasutamiseks ;</s>
+</p>
+<p>
+<s>2 ) v&auml;givalla elemente v&otilde;i relvade v&otilde;i laskemoona kasutamise &uuml;listamist .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Hasartm&auml;ngu reklaam</s>
+</p>
+<p>
+<s>( 1 ) Hasartm&auml;ngu ja m&auml;ngukohtade reklaam on keelatud , v&auml;lja arvatud hasartm&auml;ngu korraldamise kohas .</s>
+</p>
+<p>
+<s>( 2 ) Hasartm&auml;ngu reklaam peab olema arusaadav ja &uuml;heselt m&otilde;istetav .</s><s>Hasartm&auml;ngu reklaam ei tohi sisaldada otsest &uuml;leskutset osaleda hasartm&auml;ngus .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Prostitutsiooni reklaam</s>
+</p>
+<p>
+<s>Prostitutsiooni reklaam on keelatud .</s>
+</p>
+<p>
+<s>&sect; 20 <hi rend="sup">1</hi> .</s><s>Toidu reklaam</s>
+</p>
+<p>
+<s>( 1 ) Toidu reklaamimisel on keelatud :</s>
+</p>
+<p>
+<s>1 ) omistada toidule omadusi v&otilde;i toimet , mida sellel ei ole ;</s>
+</p>
+<p>
+<s>2 ) omistada toidule eriomadusi , kui k&otilde;igil toidugruppi kuuluvatel toitudel on &uuml;hesugused omadused ;</s>
+</p>
+<p>
+<s>3 ) viidata toidu haigusi t&otilde;kestavatele , ravivatele v&otilde;i leevendavatele omadustele .</s>
+</p>
+<p>
+<s>( 2 ) Rinnapiimaasendajaid , sealhulgas imiku piimasegusid ja j&auml;tkupiimasegusid reklaamida on keelatud .</s>
+</p>
+<p>
+<s>( 25.02.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 30 , 415 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Reklaamialase tegevuse j&auml;relevalve ja vastutus k&auml;esoleva seaduse rikkumise eest</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Reklaamialase tegevuse j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Reklaamialase tegevuse j&auml;relevalvet teostavad Vabariigi Valitsuse poolt m&auml;&auml;ratud asutused k&auml;esoleva seaduse ja teiste &otilde;igusaktidega s&auml;testatud alustel , viisil ja piires .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus teostab reklaamialase tegevuse j&auml;relevalvet oma haldusterritooriumil :</s>
+</p>
+<p>
+<s>1 ) korraldataval n&auml;itusel , messil v&otilde;i m&otilde;nel teisel avalikul &uuml;ritusel ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lisreklaami suhtes ;</s>
+</p>
+<p>
+<s>3 ) &uuml;histranspordivahendi v&otilde;i takso sees v&otilde;i v&auml;lisk&uuml;lgedel asuva reklaami suhtes ;</s>
+</p>
+<p>
+<s>4 ) m&uuml;&uuml;gikohtades tehtava reklaami ja reklaam&uuml;rituste suhtes .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>K&auml;esoleva seaduse rikkumise eest vastutavad isikud</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadusega reklaamile kehtestatud n&otilde;uete mittet&auml;itmise v&otilde;i kehtestatud piirangutest &uuml;leastumise eest vastutavad reklaami avalikustajad k&auml;esolevas seaduses s&auml;testatud korras :</s>
+</p>
+<p>
+<s>1 ) reklaami tellija , juhul kui tema tellitud reklaam rikub k&auml;esoleva seadusega reklaamile kehtestatud n&otilde;udeid v&otilde;i piiranguid , v&auml;lja arvatud k&auml;esoleva l&otilde;ike punktides 2 ja 4 s&auml;testatud juhtudel ;</s>
+</p>
+<p>
+<s>2 ) reklaami vahendaja v&otilde;i tootja , juhul kui tema tegevus rikub k&auml;esoleva seadusega reklaamile kehtestatud n&otilde;udeid v&otilde;i piiranguid ;</s>
+</p>
+<p>
+<s>3 ) reklaami avalik esitaja , &uuml;ldsusele n&auml;itaja v&otilde;i &uuml;ldsusele &uuml;lekandja , juhul kui tema tegevus rikub k&auml;esoleva seadusega reklaami avalikustamisele kehtestatud piiranguid ;</s>
+</p>
+<p>
+<s>4 ) reklaami avalikustajad solidaarselt , juhul kui nende tegevus rikub k&auml;esoleva seadusega reklaamile kehtestatud n&otilde;udeid v&otilde;i piiranguid ning k&auml;esoleva l&otilde;ike punktides 1-3 nimetatud isikute eraldi vastutust ei ole v&otilde;imalik tuvastada .</s>
+</p>
+<p>
+<s>( 2 ) Reklaami avalik esitaja , &uuml;ldsusele n&auml;itaja v&otilde;i &uuml;ldsusele &uuml;lekandja on kohustatud s&auml;ilitama reklaami reprodutseeritava koopia v&auml;hemalt 30 p&auml;eva , arvestades reklaami viimasest avalikustamisest ja esitama reklaami koopia kontrollimiseks reklaamialast j&auml;relevalvet teostavale ametnikule tema esimesel n&otilde;udmisel .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kohustuslik ettekirjutus k&auml;esoleva seaduse rikkumise korral</s>
+</p>
+<p>
+<s>( 1 ) Reklaamialast j&auml;relevalvet teostava asutuse juhil v&otilde;i tema poolt volitatud ametnikul on k&auml;esoleva seaduse rikkumise fakti tuvastamise korral &otilde;igus teha k&auml;esoleva seaduse n&otilde;uetega vastuolus oleva reklaami avalikustajale kohustuslik ettekirjutus .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse n&otilde;uetega vastuolus oleva reklaami avalikustajale tehtavas kohustuslikus ettekirjutuses tuuakse &auml;ra :</s>
+</p>
+<p>
+<s>1 ) selle koostamise aeg ja koht ; selle asutuse nimetus ja aadress , kelle nimel hoiatus koostatakse ;</s>
+</p>
+<p>
+<s>2 ) ettekirjutuse koostanud isiku ametinimetus , ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>3 ) reklaami avalikustaja nimi ja aadress ;</s>
+</p>
+<p>
+<s>4 ) seaduserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>5 ) s&auml;tted , mis n&auml;evad ette vastutuse seaduserikkumise eest ;</s>
+</p>
+<p>
+<s>6 ) n&otilde;ue peatada k&auml;esoleva seadusega vastuolus oleva reklaami avalikustamine ning vastulause esitamise ja n&otilde;ude t&auml;itmise piisav t&auml;htaeg .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Juriidilise isiku vastutus reklaamialase tegevuse j&auml;relevalvet teostava asutuse kohustuslikus ettekirjutuses s&auml;testatud n&otilde;uete t&auml;itmata j&auml;tmisel</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 23 s&auml;testatud kohustusliku ettekirjutuse t&auml;itmata j&auml;tmisel v&otilde;i mitten&otilde;uetekohasel t&auml;itmisel juriidilise isiku poolt , koostab kohustusliku ettekirjutuse teinud reklaamialast j&auml;relevalvet teostava asutuse juht v&otilde;i tema poolt volitatud ametnik haldus&otilde;iguserikkumise protokolli ja esitab selle hiljemalt kolme p&auml;eva jooksul halduskohtunikule k&auml;esoleva seaduse rikkumise asja arutamiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse rikkumise korral on halduskohtunikul &otilde;igus kohaldada j&auml;rgmisi halduskaristusi :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse n&otilde;uete korduva rikkumise eest rahatrahv kuni 100 000 krooni v&otilde;i vastaval alal tegutsemiseks n&otilde;utava tegevusloa t&uuml;histamine , keeluga taotleda sellist tegevusluba kahe j&auml;rgneva aasta jooksul ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;lvatu reklaami v&otilde;i lastele suunatud reklaamile esitatavate n&otilde;uete rikkumise eest rahatrahv kuni 80 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva l&otilde;ike punktides 1 ja 2 s&auml;testamata k&auml;esoleva seadusega reklaamile kehtestatud n&otilde;uete ja reklaamipiirangute rikkumise eest rahatrahv kuni 60 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punkti 1 alusel ei k&auml;sitleta k&auml;esoleva seaduse n&otilde;uete rikkumist korduvana , kui eelmisest rikkumisest on m&ouml;&ouml;das v&auml;hemalt kaks aastat .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilise isiku &otilde;iguserikkumise asja menetlus toimub k&auml;esoleva seaduse alusel ning haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 45 , lk 2654 ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 , 305 ; 51 , 321 ; 54 , 346 , 348 , 351 ; 55 , 361 ; 58 , 376 ; 84 , 533 ; 86 , 544 , 548 ; 89 , 578 ; 95 , 609 , 613 ; 2001 , 3 , 5 ; 17 , 76 ; 18 , 87 ; 21 , 115 , 116 ; 31 , 174 ; 42 , 236 ) etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>F&uuml;&uuml;silise isiku vastutus reklaamialase tegevuse j&auml;relevalvet teostava asutuse kohustuslikus ettekirjutuses s&auml;testatud n&otilde;uete t&auml;itmata j&auml;tmisel</s>
+</p>
+<p>
+<s>K&auml;esoleva seadusega reklaamile kehtestatud n&otilde;uete ja reklaamipiirangute rikkumise eest kannab f&uuml;&uuml;siline isik haldusvastutust haldus&otilde;iguserikkumiste seadustikus etten&auml;htud tingimustel , korras ja ulatuses .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Trahvide laekumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse rikkumise eest juriidilistele isikutele m&auml;&auml;ratud trahvisumma laekub riigieelarvesse , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 21 l&otilde;ikes 2 s&auml;testatud juhtudel laekub k&auml;esoleva seaduse rikkumise eest juriidilisele isikule m&auml;&auml;ratud trahvisumma kohaliku omavalitsuse eelarvesse .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Rakenduss&auml;te</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1998. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

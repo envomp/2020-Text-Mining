@@ -1,0 +1,745 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Puuetega inimeste sotsiaaltoetuste seadus ( terviktekst aprill 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3931</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Puuetega inimeste sotsiaaltoetuste seadus ( terviktekst aprill 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=5></tagusage>
+         <tagusage gi=p occurs=213></tagusage>
+         <tagusage gi=s occurs=255></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Puuetega inimeste sotsiaaltoetuste seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 27. jaanuaril 1999. a.</s>
+</p>
+<p>
+<s>( RT I 1999 , 16 , 273 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2000. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>09.04.2002 j&otilde;ust.25.04.2002 - RT I 2002 , 35 , 219 ;</s>
+</p>
+<p>
+<s>12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 ;</s>
+</p>
+<p>
+<s>05.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 100 , 648 ;</s>
+</p>
+<p>
+<s>20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 ;</s>
+</p>
+<p>
+<s>10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 803 ;</s>
+</p>
+<p>
+<s>13.10.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 82 , 749.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala ja eesm&auml;rk</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab puuetega inimeste sotsiaaltoetuste liigid , nende saamise tingimused , nende suurused ning m&auml;&auml;ramise ja maksmise korra .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse eesm&auml;rk on puuetega inimeste iseseisva toimetuleku , sotsiaalse integratsiooni ja v&otilde;rdsete v&otilde;imaluste toetamine puudest tingitud lisakulude osalise h&uuml;vitamise kaudu .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;isted</s>
+</p>
+<p>
+<s>( 1 ) Puue on inimese anatoomilise , f&uuml;sioloogilise v&otilde;i ps&uuml;&uuml;hilise struktuuri v&otilde;i funktsiooni kaotus v&otilde;i k&otilde;rvalekalle .</s><s>K&auml;esoleva seaduse m&otilde;istes on puudel kolm raskusastet :</s>
+</p>
+<p>
+<s>1 ) s&uuml;gav puue on inimese anatoomilise , f&uuml;sioloogilise v&otilde;i ps&uuml;&uuml;hilise struktuuri v&otilde;i funktsiooni kaotus v&otilde;i k&otilde;rvalekalle , millest tingituna vajab isik pidevat k&otilde;rvalabi , juhendamist v&otilde;i j&auml;relevalvet &ouml;&ouml;p&auml;evaringselt ;</s>
+</p>
+<p>
+<s>2 ) raske puue on inimese anatoomilise , f&uuml;sioloogilise v&otilde;i ps&uuml;&uuml;hilise struktuuri v&otilde;i funktsiooni kaotus v&otilde;i k&otilde;rvalekalle , millest tingituna vajab isik k&otilde;rvalabi , juhendamist v&otilde;i j&auml;relevalvet igal &ouml;&ouml;p&auml;eval ;</s>
+</p>
+<p>
+<s>3 ) keskmine puue on inimese anatoomilise , f&uuml;sioloogilise v&otilde;i ps&uuml;&uuml;hilise struktuuri v&otilde;i funktsiooni kaotus v&otilde;i k&otilde;rvalekalle , millest tingituna vajab isik regulaarset k&otilde;rvalabi v&otilde;i juhendamist v&auml;ljaspool oma elamiskohta v&auml;hemalt korra n&auml;dalas .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 2 ) K&otilde;rvalabi v&otilde;i juhendamine on abi osutamine inimesele , kes ei tule iseseisvalt toime s&ouml;&ouml;mise , h&uuml;gieenitoimingute , riietumise , liikumise v&otilde;i suhtlemisega .</s><s>J&auml;relevalve on ohutuse tagamine inimese suhtes , kes oma tegevuse v&otilde;i tegevusetusega v&otilde;ib tekitada kahju iseenda v&otilde;i teiste inimeste elule , tervisele v&otilde;i varale .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 2 <hi rend="sup">1</hi> .</s><s>Isiklik rehabilitatsiooniplaan</s>
+</p>
+<p>
+<s>( 1 ) Isiklik rehabilitatsiooniplaan ( edaspidi rehabilitatsiooniplaan ) k&auml;esoleva seaduse m&otilde;istes on sotsiaalhoolekande seaduse ( RT I 1995 , 21 , 323 ; RT I 2001 , 98 , 617 ) &sect; 17 l&otilde;ike 7 alusel sotsiaalministri m&auml;&auml;rusega kehtestatud n&otilde;uetele vastavas rehabilitatsiooniasutuses isiku enda v&otilde;i tema seadusliku esindaja aktiivsel osalemisel koostatud kirjalik dokument , milles antakse hinnang isiku tegevusv&otilde;imele , k&otilde;rvalabi , juhendamise v&otilde;i j&auml;relevalve vajadusele ning tuuakse &auml;ra isiku iseseisvaks toimetulekuks ja sotsiaalseks integreerumiseks vajalikud tegevused .</s><s>Rehabilitatsiooniplaani vormi kehtestab sotsiaalminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Rehabilitatsiooniplaan koostatakse arstliku ekspertiisikomisjoni v&otilde;i ekspertarsti suunamisel :</s>
+</p>
+<p>
+<s>1 ) igale puude raskusastet taotlevale lapsele ;</s>
+</p>
+<p>
+<s>2 ) 16-aastasele ja vanemale inimesele , kui see on vajalik puude raskusastme m&auml;&auml;ramiseks v&otilde;i isiku iseseisvaks toimetulekuks ja sotsiaalseks integratsiooniks .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 2 <hi rend="sup">2</hi> .</s><s>Puude raskusastme m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Puude raskusastme m&auml;&auml;rab ja lisakulud tuvastab arstliku ekspertiisi komisjon v&otilde;i ekspertarst .</s><s>Puude raskusastme m&auml;&auml;ramise ja lisakulude tuvastamise korra kehtestab sotsiaalminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Puude raskusastme m&auml;&auml;ramisel v&otilde;etakse arvesse :</s>
+</p>
+<p>
+<s>1 ) terviseseisund ;</s>
+</p>
+<p>
+<s>2 ) tegevusv&otilde;ime ;</s>
+</p>
+<p>
+<s>3 ) k&otilde;rvalabi , juhendamise ja j&auml;relevalve vajadus , mis on suurem inimese eakohasest abivajadusest ;</s>
+</p>
+<p>
+<s>4 ) k&otilde;rvalabi ja juhendamise vajadus , mis esineb inimesel tehniliste abivahendite kasutamisele vaatamata ;</s>
+</p>
+<p>
+<s>5 ) elukeskkond ;</s>
+</p>
+<p>
+<s>6 ) puudest tingitud lisakulud ;</s>
+</p>
+<p>
+<s>7 ) rehabilitatsiooniplaani olemasolu korral selles etten&auml;htud tegevused .</s>
+</p>
+<p>
+<s>( 3 ) Puude raskusaste m&auml;&auml;ratakse kuni 65-aastasele isikule t&auml;htajaga kuus kuud kuni kolm aastat .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;hemalt 65-aastasele isikule m&auml;&auml;ratakse puude raskusaste :</s>
+</p>
+<p>
+<s>1 ) t&auml;htajaga kuus kuud kuni kolm aastat ;</s>
+</p>
+<p>
+<s>2 ) t&auml;htajatult , kui terviseseisundi t&otilde;ttu tema k&otilde;rvalabi , juhendamise v&otilde;i j&auml;relevalve vajadus ei muutu .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Puuetega inimeste sotsiaaltoetuste subjekt</s>
+</p>
+<p>
+<s>( 1 ) Puuetega inimeste sotsiaaltoetusi m&auml;&auml;ratakse ja makstakse Eesti alalisele elanikule v&otilde;i t&auml;htajalise elamisloa alusel Eestis elavale isikule lisakulutusi p&otilde;hjustava keskmise , raske v&otilde;i s&uuml;gava puude korral vastavalt k&auml;esoleva seaduse s&auml;tetele .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>( 2 ) Eestis viibival pagulasel on puuetega inimeste sotsiaaltoetuste saamise &otilde;igus Eesti alalise elanikuga v&otilde;rdsetel alustel .</s>
+</p>
+<p>
+<s>( 3 ) Kui Eesti Vabariigi poolt s&otilde;lmitud v&auml;lisleping sisaldab puuetega inimeste sotsiaaltoetuste m&auml;&auml;ramiseks ja maksmiseks k&auml;esolevast seadusest erinevaid s&auml;tteid , kohaldatakse v&auml;lislepingut .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Puuetega inimeste sotsiaaltoetuste liigid</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus kehtestab j&auml;rgmised puuetega inimeste sotsiaaltoetused :</s>
+</p>
+<p>
+<s>1 ) puudega lapse toetus ;</s>
+</p>
+<p>
+<s>2 ) puudega t&auml;iskasvanu toetus ;</s>
+</p>
+<p>
+<s>3 ) hooldajatoetus ;</s>
+</p>
+<p>
+<s>4 ) puudega vanema toetus ;</s>
+</p>
+<p>
+<s>5 ) &otilde;ppetoetus ;</s>
+</p>
+<p>
+<s>6 ) rehabilitatsioonitoetus ;</s>
+</p>
+<p>
+<s>7 ) t&auml;ienduskoolitustoetus .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Puuetega inimeste sotsiaaltoetuste m&auml;&auml;r</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadusega s&auml;testatud sotsiaaltoetuste arvutamise aluseks on puuetega inimeste sotsiaaltoetuste m&auml;&auml;r ( edaspidi sotsiaaltoetuste m&auml;&auml;r ) , mis kehtestatakse Riigikogu poolt igaks eelarveaastaks riigieelarvega .</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaaltoetuste m&auml;&auml;r ei v&otilde;i olla v&auml;iksem eelmiseks eelarveaastaks kinnitatud m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Toetused</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Puudega lapse toetus</s>
+</p>
+<p>
+<s>( 1 ) Puudega lapse toetust makstakse igakuiselt keskmise , raske v&otilde;i s&uuml;gava puudega lapsele puudest tingitud lisakulude h&uuml;vitamiseks ja rehabilitatsiooniplaanis etten&auml;htud tegevusteks , v&auml;lja arvatud ravikindlustuse ja riigieelarve muudest vahenditest finantseeritavateks tegevusteks .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 2 ) Puudega lapse toetust makstakse kuni lapse 16-aastaseks saamiseni .</s>
+</p>
+<p>
+<s>( 3 ) Puudega lapse toetus makstakse v&auml;lja lapse vanemale .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 5 ) Puudega lapse toetust makstakse j&auml;rgmistes suurustes :</s>
+</p>
+<p>
+<s>1 ) keskmise puudega lapsele - 215 protsenti sotsiaaltoetuste m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>2 ) raske ja s&uuml;gava puudega lapsele - 255 protsenti sotsiaaltoetuste m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Puudega t&auml;iskasvanu toetus</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 1 ) Puudega t&auml;iskasvanu toetust makstakse igakuiselt keskmise , raske v&otilde;i s&uuml;gava puudega 16-aastasele ja vanemale inimesele puudest tingitud lisakulude h&uuml;vitamiseks ja rehabilitatsiooniplaani olemasolu korral selles etten&auml;htud tegevusteks , v&auml;lja arvatud ravikindlustuse ja riigieelarve muudest vahenditest finantseeritavateks tegevusteks .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 3 ) Toetust makstakse igakuiselt s&uuml;gava puudega inimesele 160 protsenti , raske puudega inimesele 105 protsenti ja keskmise puudega inimesele 50 protsenti sotsiaaltoetuste m&auml;&auml;rast kuus .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Hooldajatoetus</s>
+</p>
+<p>
+<s>( 1 ) Hooldajatoetust makstakse igakuiselt :</s>
+</p>
+<p>
+<s>1 ) 3-16-aastase keskmise , raske v&otilde;i s&uuml;gava puudega lapse &uuml;hele vanemale v&otilde;i v&otilde;&otilde;rasvanemale , kes ei saa t&ouml;&ouml;tada puudega lapse kasvatamise t&otilde;ttu ;</s>
+</p>
+<p>
+<s>2 ) 16-18-aastase raske v&otilde;i s&uuml;gava puudega lapse &uuml;hele vanemale v&otilde;i v&otilde;&otilde;rasvanemale , kes ei saa t&ouml;&ouml;tada puudega lapse kasvatamise t&otilde;ttu ;</s>
+</p>
+<p>
+<s>3 ) 18-aastasele ja vanemale raske v&otilde;i s&uuml;gava puudega inimesele perekonnaseaduse ( RT I 1994 , 75 , 1326 ; 1996 , 40 , 773 ; 49 , 953 ; 1997 , 28 , 422 ; 35 , 538 ; 2000 , 50 , 317 ; 2001 , 16 , 69 ; RT III 2001 , 15 , 154 ; RT I 2001 , 53 , 307 ) alusel m&auml;&auml;ratud hooldajale v&otilde;i eestkostjale , kes ei saa t&ouml;&ouml;tada puudega inimesele k&otilde;rvalabi , juhendamise v&otilde;i j&auml;relevalve tagamise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 2 ) Hooldajatoetust makstakse isikule , kes tagab :</s>
+</p>
+<p>
+<s>1 ) 18-aastasele ja vanemale s&uuml;gava puudega inimesele k&otilde;rvalabi , juhendamise v&otilde;i j&auml;relevalve &ouml;&ouml;p&auml;evaringselt ;</s>
+</p>
+<p>
+<s>2 ) 18-aastasele ja vanemale raske puudega inimesele k&otilde;rvalabi , juhendamise v&otilde;i j&auml;relevalve igal &ouml;&ouml;p&auml;eval .</s>
+</p>
+<p>
+<s>( 3 ) Hooldajatoetust ei maksta isikule , kellele on k&auml;esoleva seaduse alusel m&auml;&auml;ratud raske v&otilde;i s&uuml;gav puue .</s>
+</p>
+<p>
+<s>( 4 ) Hooldajatoetust makstakse j&auml;rgmistes suurustes :</s>
+</p>
+<p>
+<s>1 ) 3-16-aastase keskmise , raske v&otilde;i s&uuml;gava puudega lapse &uuml;hele vanemale v&otilde;i v&otilde;&otilde;rasvanemale , kes ei saa t&ouml;&ouml;tada puudega lapse kasvatamise t&otilde;ttu , 75 protsenti sotsiaaltoetuste m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>2 ) 16-18-aastase s&uuml;gava puudega lapse &uuml;hele vanemale v&otilde;i v&otilde;&otilde;rasvanemale , kes ei saa t&ouml;&ouml;tada puudega lapse kasvatamise t&otilde;ttu , v&otilde;i 18-aastase ja vanema s&uuml;gava puudega inimese hooldajale v&otilde;i eestkostjale , kes ei saa t&ouml;&ouml;tada puudega inimesele k&otilde;rvalabi , juhendamise v&otilde;i j&auml;relevalve tagamise t&otilde;ttu , 100 protsenti sotsiaaltoetuste m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>3 ) 16-18-aastase raske puudega lapse &uuml;hele vanemale v&otilde;i v&otilde;&otilde;rasvanemale , kes ei saa t&ouml;&ouml;tada puudega lapse kasvatamise t&otilde;ttu , v&otilde;i 18-aastase ja vanema raske puudega inimese hooldajale v&otilde;i eestkostjale , kes ei saa t&ouml;&ouml;tada puudega inimesele k&otilde;rvalabi , juhendamise v&otilde;i j&auml;relevalve tagamise t&otilde;ttu , 60 protsenti sotsiaaltoetuste m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Puudega vanema toetus</s>
+</p>
+<p>
+<s>( 1 ) Puudega &uuml;ksikvanemale v&otilde;i last &uuml;ksi kasvatavale puudega v&otilde;&otilde;rasvanemale v&otilde;i last &uuml;ksi kasvatavale puudega eestkostjale v&otilde;i last &uuml;ksi kasvatavale puudega isikule , kellega on s&otilde;lmitud sotsiaalhoolekande seaduse alusel kirjalik perekonnas hooldamise leping , v&otilde;i &uuml;hele puudega abikaasadest makstakse kuni 16-aastase lapse ja p&auml;evases v&otilde;i meditsiinilistel n&auml;idustustel muus &otilde;ppevormis p&otilde;hikoolis , g&uuml;mnaasiumis v&otilde;i kutse&otilde;ppeasutuses &otilde;ppiva kuni 19-aastase lapse kasvatamisel igakuiselt puudega vanema toetust 75 protsenti sotsiaaltoetuste m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>( 2 ) Lapse 19-aastaseks saamise korral jooksval &otilde;ppeaastal makstakse toetust &otilde;ppeaasta l&otilde;puni .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>&Otilde;ppetoetus</s>
+</p>
+<p>
+<s>( 1 ) Mittet&ouml;&ouml;tavale puudega &otilde;ppurile , kes &otilde;pib g&uuml;mnaasiumi 10.-12. klassis , kutse&otilde;ppeasutuses v&otilde;i k&otilde;rgkoolis ja kellel on puudest tingituna &otilde;ppet&ouml;&ouml;ga seotud lisakulutusi , makstakse igakuiselt , v&auml;lja arvatud juuli- ja augustikuu , &otilde;ppetoetust .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;ppetoetust makstakse vastavalt isiku tegelikele lisakulutustele , kuid mitte v&auml;hem kui 25 protsenti ega rohkem kui 100 protsenti sotsiaaltoetuste m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Rehabilitatsioonitoetus</s>
+</p>
+<p>
+<s>( 1 ) Rehabilitatsioonitoetust makstakse 16-65-aastase puudega inimese aktiivseks rehabilitatsiooniks sotsiaalministri m&auml;&auml;ratud rehabilitatsiooniasutustes .</s>
+</p>
+<p>
+<s>( 2 ) Rehabilitatsioonitoetust makstakse tegelike rehabilitatsioonikulude osaliseks h&uuml;vitamiseks kuni 200 protsenti sotsiaaltoetuste m&auml;&auml;rast kalendriaasta jooksul .</s>
+</p>
+<p>
+<s>( 3 ) Rehabilitatsioonitoetust ei maksta ravikindlustuse ja riigieelarve muudest vahenditest finantseeritavate tegevuste eest .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>T&auml;ienduskoolitustoetus</s>
+</p>
+<p>
+<s>( 1 ) T&auml;ienduskoolitustoetust makstakse t&ouml;&ouml;tava puudega inimese t&ouml;&ouml;alaseks ja tasemekoolituseks .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;ienduskoolitustoetust makstakse tegelike koolituskulude osaliseks h&uuml;vitamiseks kuni 24-kordses sotsiaaltoetuste m&auml;&auml;ras kolme kalendriaasta jooksul , arvates toetuse esmakordsest m&auml;&auml;ramisest .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 13. ( Kehtetu - 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 14. ( Kehtetu - 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakendamise kord</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Andmed</s>
+</p>
+<p>
+<s>Andmed puuetega inimeste sotsiaaltoetuste m&auml;&auml;ramise ja maksmise kohta kantakse riiklikku pensionikindlustuse registrisse Vabariigi Valitsuse poolt kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Puuetega inimeste sotsiaaltoetuste taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Taotlus puuetega inimeste sotsiaaltoetuste m&auml;&auml;ramiseks esitatakse elukohaj&auml;rgsele pensioniametile .</s>
+</p>
+<p>
+<s>( 2 ) Puuetega inimeste sotsiaaltoetuste taotlemiseks vajalikud p&otilde;hidokumendid on :</s>
+</p>
+<p>
+<s>1 ) toetuse taotlus ;</s>
+</p>
+<p>
+<s>2 ) arstliku ekspertiisi otsus ;</s>
+</p>
+<p>
+<s>3 ) isikut t&otilde;endavate dokumentide seaduse ( RT I 1999 , 25 , 365 ; 2000 , 25 , 148 ; 26 , 150 ; 40 , 254 ; 86 , 550 ; 2001 , 16 , 68 ; 31 , 173 ; 56 , 338 ) &sect; 2 l&otilde;ikes 2 s&auml;testatud dokument .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 3 ) Puuetega inimeste sotsiaaltoetuste taotlemiseks vajalike t&auml;iendavate dokumentide loetelu ja dokumentide vormid kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 4 ) Puuetega inimeste sotsiaaltoetuste taotlemise p&auml;evaks loetakse p&auml;ev , millal elukohaj&auml;rgne pensioniamet v&otilde;tab vastu taotluse koos k&otilde;igi vajalike dokumentidega .</s>
+</p>
+<p>
+<s>( 5 ) Kui puuetega inimeste sotsiaaltoetuste taotlus on saadetud posti teel ning seejuures on lisatud k&otilde;ik vajalikud dokumendid , loetakse toetuse taotlemise p&auml;evaks taotluse l&auml;htekoha postitempli kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 6 ) Kui puuetega inimeste sotsiaaltoetuste taotlusele ei ole lisatud k&otilde;iki vajalikke dokumente , teatatakse toetuse taotlejale , arvates taotluse saabumisest k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul , missugused dokumendid tuleb esitada t&auml;iendavalt .</s><s>Kui need esitatakse hiljemalt kolme kuu jooksul , arvates t&auml;iendavate dokumentide vajaduse kohta teatise saamise p&auml;evast , loetakse toetuse taotlemise p&auml;evaks taotluse vastuv&otilde;tmise p&auml;ev v&otilde;i taotluse l&auml;htekoha postitempli kuup&auml;ev .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Puuetega inimeste sotsiaaltoetuste m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Puuetega inimeste sotsiaaltoetused m&auml;&auml;rab ja nende suuruse otsustab pensioniamet .</s><s>Puuetega inimeste sotsiaaltoetuste m&auml;&auml;ramise ja v&auml;ljamaksmise juhendi kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-des 6 ja 7 s&auml;testatud puuetega inimeste sotsiaaltoetused m&auml;&auml;ratakse puude raskusastme m&auml;&auml;ramise p&auml;evast , kui toetuse taotlemise avaldus on esitatud hiljemalt kolme kuu jooksul , arvates arstliku ekspertiisi otsusest .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-des 6 ja 7 s&auml;testatud puuetega inimeste sotsiaaltoetuste hilisemal taotlemisel m&auml;&auml;ratakse igakuine toetus tagantj&auml;rele , kuid mitte rohkem kui taotlemisele eelneva kolme kuu eest .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect;-des 8-12 s&auml;testatud puuetega inimeste sotsiaaltoetused m&auml;&auml;ratakse toetuse taotlemise avalduse esitamise p&auml;evast , kuid mitte varem kui toetusele &otilde;iguse tekkimise p&auml;evast .</s><s>K&auml;esoleva seaduse paragrahvis 11 s&auml;testatud toetuse v&otilde;ib arstliku ekspertiisi komisjoni v&otilde;i ekspertarsti otsuse alusel m&auml;&auml;rata puude raskusastet taotleva isiku rehabilitatsiooniplaani koostamiseks enne puude raskusastme m&auml;&auml;ramist .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 5 ) Puuetega inimeste sotsiaaltoetused m&auml;&auml;ratakse ajaks , mil isik vastab k&auml;esolevas seaduses s&auml;testatud toetuste saamise tingimustele .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Piirangud puuetega inimeste sotsiaaltoetuste maksmisel</s>
+</p>
+<p>
+<s>( 1 ) Isikule , kellel k&auml;esoleva seaduse j&auml;rgi on &otilde;igus mitmele igakuisele puuetega inimeste sotsiaaltoetusele , makstakse toetuste kogusumma , kuid mitte rohkem kui kahekordne sotsiaaltoetuste m&auml;&auml;r kuus .</s>
+</p>
+<p>
+<s>( 2 ) Piirang ei kehti &sect; 6 l&otilde;ikes 5 , &sect;-des 11 ja 12 etten&auml;htud toetuste m&auml;&auml;ramisel .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Puuetega inimeste sotsiaaltoetuste maksmine eestkostetavale v&otilde;i perekonnas hooldamisel olevale puudega lapsele</s>
+</p>
+<p>
+<s>Kui puudega laps on j&auml;&auml;nud vanemliku hoolitsuseta ja tema &uuml;le on seatud eestkoste v&otilde;i tema suhtes on s&otilde;lmitud sotsiaalhoolekande seaduse alusel kirjalik perekonnas hooldamise leping , makstakse k&auml;esoleva seaduse &sect;-s 6 , &sect; 8 l&otilde;ike 1 punktides 1 ja 2 ning &sect;-s 10 s&auml;testatud puuetega inimeste sotsiaaltoetusi eestkostjale v&otilde;i hooldajale .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Muudatused puuetega inimeste sotsiaaltoetuste maksmisel</s>
+</p>
+<p>
+<s>( 1 ) Puuetega inimeste sotsiaaltoetuste maksmine l&otilde;petatakse , peatatakse v&otilde;i nende suurus arvutatakse &uuml;mber , kui toetust saav inimene on niiv&otilde;rd paranenud , et see muudab k&auml;esolevas seaduses s&auml;testatud puuetega inimeste sotsiaaltoetuste saamise &otilde;igust v&otilde;i saadava toetuse suurust .</s>
+</p>
+<p>
+<s>( 2 ) Puuetega inimeste sotsiaaltoetuste maksmine peatatakse , kui toetuse saaja viibib j&auml;rjest &uuml;le kahe kuu haiglaravil , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 3 toodud juhul .</s>
+</p>
+<p>
+<s>( 3 ) Puudega lapse toetus makstakse v&auml;lja t&auml;ies suuruses , s&otilde;ltumata haiglaravi kestusest .</s>
+</p>
+<p>
+<s>( 4 ) Hoolekandeasutuses elavale isikule makstakse puuetega inimeste sotsiaaltoetusi puudest tingitud lisakulude osaliseks h&uuml;vitamiseks , kui ta vajab oma puude t&otilde;ttu :</s>
+</p>
+<p>
+<s>1 ) k&otilde;rvalabi v&otilde;i juhendamist toimingutes v&auml;ljaspool eelnimetatud hoolekandeasutust v&otilde;i</s>
+</p>
+<p>
+<s>2 ) individuaalset abivahendit .</s>
+</p>
+<p>
+<s>( 5 ) Puudest tingitud lisakuludeks ei loeta hoolekandeasutuses elava isiku majutus- ja toitlustamiskulusid ning kulusid , mis kaetakse riigi v&otilde;i kohaliku omavalitsuse eelarvest , kaasa arvatud hooldamise , tugevdatud hooldamise , j&auml;relevalve v&otilde;i muid hoolekandeasutuse &uuml;ldiste teenustega seotud kulusid .</s>
+</p>
+<p>
+<s>( 6 ) Hoolekandeasutuses elava v&otilde;i haiglas hooldusravil viibiva isiku kohta hooldajatoetust ei maksta .</s>
+</p>
+<p>
+<s>( 7 ) Puuetega inimeste sotsiaaltoetuste saaja on kohustatud k&uuml;mne p&auml;eva jooksul teatama elukohaj&auml;rgsele pensioniametile kirjalikult asjaoludest , mis toovad kaasa puuetega inimeste sotsiaaltoetuste maksmise l&otilde;petamise , peatamise v&otilde;i suuruse muutuse .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>&sect; 20 <hi rend="sup">1</hi> .</s><s>Sotsiaaltoetuse &uuml;mberarvutamise t&auml;htajad</s>
+</p>
+<p>
+<s>( 1 ) Puuetega inimeste sotsiaaltoetuste suurendamist tingivate asjaolude tekkimisel arvutatakse toetus &uuml;mber vastava avalduse ja vajalike dokumentide esitamise p&auml;evast , kui avaldus ja vajalikud dokumendid on esitatud &uuml;he kuu jooksul , arvates toetuste suurendamist tingivate asjaolude tekkimisest .</s><s>Hilisemal avalduse ja vajalike dokumentide esitamisel arvutatakse toetus &uuml;mber vastava avalduse ja vajalike dokumentide esitamise kuule j&auml;rgneva kuu esimesest kuup&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Puuetega inimeste sotsiaaltoetuste v&auml;hendamist tingivate asjaolude tekkimisel arvutatakse toetus &uuml;mber nende asjaolude tekkimise kuule j&auml;rgneva kuu esimesest kuup&auml;evast .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Kulude katmine</s>
+</p>
+<p>
+<s>( 1 ) Kulutused k&auml;esoleva seadusega s&auml;testatud puuetega inimeste sotsiaaltoetusteks kaetakse riigieelarvest Sotsiaalministeeriumi eelarve kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Puuetega inimeste sotsiaaltoetuste m&auml;&auml;ramise ja maksmisega , arstliku ja sotsiaalse rehabilitatsiooni ekspertiisi ning t&ouml;&ouml;v&otilde;imetuse ja sotsiaaltoetuste vaidluskomisjoni tegevusega seotud kulutused kaetakse riigieelarvest Sotsiaalministeeriumi eelarve kaudu .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Puuetega inimeste sotsiaaltoetuste maksmine</s>
+</p>
+<p>
+<s>( 1 ) Puuetega inimeste sotsiaaltoetused makstakse toetusesaaja elukohaj&auml;rgse pensioniameti kaudu vastavalt toetusesaaja soovile tema pangakontole v&otilde;i posti teel .</s><s>Pensioniameti otsusel makstakse k&auml;esoleva seaduse &sect;-des 11 ja 12 s&auml;testatud toetused toetusesaajale teenust osutanud asutusele .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 2 ) Puuetega inimeste sotsiaaltoetuste k&auml;ttetoimetamine ja saatmine Eestis toimub maksja arvel .</s>
+</p>
+<p>
+<s>( 09.04.2002 j&otilde;ust.25.04.2002 - RT I 2002 , 35 , 219 )</s>
+</p>
+<p>
+<s>( 3 ) Puuetega inimeste sotsiaaltoetuste kandmine v&auml;lisriigis asuvasse panka toetusesaaja kontole toimub saaja arvel .</s>
+</p>
+<p>
+<s>( 09.04.2002 j&otilde;ust.25.04.2002 - RT I 2002 , 35 , 219 )</s>
+</p>
+<p>
+<s>( 4 ) Kui posti teel makstav puuetega inimeste sotsiaaltoetus on v&auml;lja v&otilde;tmata v&auml;hemalt kuus kuud , peatatakse sotsiaaltoetuse maksmine .</s><s>P&auml;rast vastava avalduse ja isikut t&otilde;endavate dokumentide seaduse ( RT I 1999 , 25 , 365 ; 2000 , 25 , 148 ; 26 , 150 ; 40 , 254 ; 86 , 550 ; 2001 , 16 , 68 ; 31 , 173 ; 56 , 338 ) &sect; 2 l&otilde;ikes 2 s&auml;testatud dokumendi esitamist makstakse sotsiaaltoetus tagantj&auml;rele v&auml;lja .</s>
+</p>
+<p>
+<s>( 5 ) Puuetega inimeste sotsiaaltoetuste maksmisel &uuml;mardatakse 50 senti ja &uuml;le selle kroonini , summat alla 50 sendi ei arvestata .</s>
+</p>
+<p>
+<s>( 6 ) P&auml;rast puuetega inimeste sotsiaaltoetust saava isiku surma tema pangakontole kantud v&otilde;i volikirja alusel panga v&otilde;i posti kaudu v&auml;ljamakstud sotsiaaltoetuse summad ei kuulu p&auml;randvara koosseisu ning nimetatud summad tagastatakse panga v&otilde;i p&auml;randvara saanud isiku poolt elukohaj&auml;rgse pensioniameti vastava n&otilde;ude saamisel .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Vaidluste lahendamine</s>
+</p>
+<p>
+<s>( 1 ) Puuetega inimeste sotsiaaltoetuste m&auml;&auml;ramise ja rehabilitatsiooniga seotud vaidlusi lahendab Sotsiaalkindlustusameti juures asuv vaidluskomisjon .</s>
+</p>
+<p>
+<s>( 05.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 100 , 648 )</s>
+</p>
+<p>
+<s>( 2 ) Vaidluskomisjon moodustatakse riikliku pensionikindlustuse seaduse alusel .</s>
+</p>
+<p>
+<s>( 05.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 100 , 648 )</s>
+</p>
+<p>
+<s>( 3 ) Elukohaj&auml;rgse pensioniameti direktori v&otilde;i tema aset&auml;itja otsusega mitten&otilde;ustumise korral on puuetega inimeste sotsiaaltoetuste taotlejal &otilde;igus p&ouml;&ouml;rduda vaidluskomisjoni poole kolme kuu jooksul , arvates otsuse teatavaks tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>( 05.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 100 , 648 )</s>
+</p>
+<p>
+<s>( 4 ) Vaidluskomisjoni otsusega mitten&otilde;ustumise korral on puuetega inimeste sotsiaaltoetuste taotlejal &otilde;igus p&ouml;&ouml;rduda halduskohtusse kolme kuu jooksul , arvates vaidluskomisjoni otsuse teatavaks tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>( 05.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 100 , 648 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Puuetega inimeste sotsiaaltoetusteks liigselt makstud summad</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse alusel puuetega inimeste sotsiaaltoetusteks liigselt makstud summad makstakse tagasi vabatahtlikult , n&otilde;utakse tagasi v&otilde;i tehakse tasaarvestus , kui enammakse on tingitud teadvalt valeandmete esitamisest .</s>
+</p>
+<p>
+<s>( 2 ) Kui isik ei maksa alusetult saadud sotsiaaltoetusi tagasi , v&otilde;idakse talle liigselt makstud summad pensioniameti otsuse alusel igakuiselt makstavatest sotsiaaltoetustest kinni pidada .</s><s>Kinnipeetav osa ei v&otilde;i &uuml;letada 20 protsenti isikule m&auml;&auml;ratud toetuste summast .</s>
+</p>
+<p>
+<s>( 09.04.2002 j&otilde;ust.25.04.2002 - RT I 2002 , 35 , 219 )</s>
+</p>
+<p>
+<s>( 3 ) Kui puuetega inimeste sotsiaaltoetuste maksmine l&otilde;petatakse enne liigselt makstud summade t&auml;ielikku tasaarvestamist , tehakse isikule liigselt makstud summade tagasin&otilde;udmiseks ettekirjutus koos hoiatusega .</s><s>Hoiatuses m&auml;rgitud t&auml;htaja jooksul ettekirjutuse t&auml;itmata j&auml;tmise korral on pensioniametil &otilde;igus rakendada sunniraha asendust&auml;itmise ja sunniraha seaduses ( RT I 2001 , 50 , 283 ; 94 , 580 ) s&auml;testatud korras .</s><s>Sunniraha &uuml;lemm&auml;&auml;r on 2000 krooni .</s>
+</p>
+<p>
+<s>( 09.04.2002 j&otilde;ust.25.04.2002 - RT I 2002 , 35 , 219 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Muudatused varasemates &otilde;igusaktides</s>
+</p>
+<p>
+<s>( 1 ) Lastetoetuste seaduses ( RT I 1997 , 42 , 676 ; 77 , 1309 ; 1998 , 86/87 , 1407 ; 1999 , 10 , 150 ; 16 , 273 ; 67 , 657 ; 82 , 749 ; 2000 , 102 , 668 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) ( Kehtetu - 13.10.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 82 , 749 ) ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 13.10.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 82 , 749 ) ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 9 punkt 3 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>( 2 ) Tulumaksuseaduse ( RT I 1993 , 79 , 1184 ; 1998 , 9 , 111 ; 28 , 353 ja 354 ; 34 , 485 ja 489 ; 40 , 612 ; 51 , 757 ; 61 , 979 ; 103 , 1699 ; 1999 , 4 , 51 ) &sect; 13 t&auml;iendatakse l&otilde;ikega 1 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 <hi rend="sup">1</hi> ) T&ouml;&ouml;andja kulud puudega 16-aastase ja vanema inimese toetust saavale isikule makstud palgaks ja muuks tasuks ning nendelt makstud sotsiaalmaksuks korrutatakse k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud kulutuste mahaarvamisel koefitsiendiga 2,0 . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Isikule , kellele enne k&auml;esoleva seaduse j&otilde;ustumist oli m&auml;&auml;ratud kas invaliidsuspension lapsinvaliidile kehtestatud m&auml;&auml;ras v&otilde;i &uuml;lalpidamistoetus lapsinvaliidi kasvatamise eest v&otilde;i invaliidistunud &uuml;ksikvanema lapse toetus ja kellel selle asemel tekib k&auml;esoleva seaduse alusel &otilde;igus saada puuetega inimeste sotsiaaltoetusi , arvutatakse varasem pension v&otilde;i toetus puuetega inimeste sotsiaaltoetusteks &uuml;mber .</s><s>Kui &uuml;mberarvutatud toetus osutub v&auml;iksemaks varemmakstud pensionist v&otilde;i toetusest , makstakse puuetega inimeste sotsiaaltoetusi endise pensioni v&otilde;i toetuse suuruses varem m&auml;&auml;ratud t&auml;htaja l&otilde;puni v&otilde;i uue arstliku ekspertiisini .</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2000. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 7 , &sect; 8 l&otilde;ike 1 punkt 2 , l&otilde;ike 2 punktid 2 ja 3 ning &sect;-d 11 ja 12 j&otilde;ustuvad 2001. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 803 )</s>
+</p>
+<p>
+<s>( 4 ) Kuni 2001. aasta 1. jaanuarini makstakse hooldajatoetust k&auml;esoleva seaduse &sect; 8 l&otilde;ike 1 punkti 1 alusel &sect; 8 l&otilde;ike 2 punktis 1 kehtestatud suuruses 3-18-aastast keskmise , raske v&otilde;i s&uuml;gava puudega last kasvatavale &uuml;hele mittet&ouml;&ouml;tavale vanemale .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 803 )</s>
+</p>
+<p>
+<s>( 5 ) Puudega inimesel , kellele oli m&auml;&auml;ratud puuetega inimeste sotsiaaltoetus enne 2001. aasta 1. jaanuari ja kellel ei teki &otilde;igust saada puuetega inimeste sotsiaaltoetust p&auml;rast 2001. aasta 1. jaanuari , makstakse sotsiaaltoetust endises suuruses kuni m&auml;&auml;ratud t&auml;htajani , v&auml;lja arvatud transporditoetus ja telefoni kasutamise toetus , mille maksmine l&otilde;petatakse 16-aastase ja vanema inimese toetuse m&auml;&auml;ramise p&auml;evast .</s>
+</p>
+<p>
+<s>( 20.12.2000 j&otilde;ust.01.01.2001 - RT I 2001 , 3 , 10 )</s>
+</p>
+<p>
+<s>( 6 ) Isikule , kellele olid m&auml;&auml;ratud puuetega inimeste sotsiaaltoetused , v&auml;lja arvatud puudega lapse toetus , transporditoetus ja telefoni kasutamise toetus enne 2002. aasta 1. jaanuari , j&auml;tkatakse nende toetuste maksmist endistel alustel ja endistes suurustes kuni m&auml;&auml;ratud t&auml;htajani .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+<p>
+<s>( 7 ) Puudega lapse toetus arvutatakse &uuml;mber 2002. aasta 1. jaanuarist kehtiva seaduse alusel .</s><s>Kui &uuml;mberarvutatud toetus osutub v&auml;iksemaks kui varem makstud puudega lapse toetuse ning transporditoetuse ja telefoni kasutamise toetuse summa , makstakse puudega lapse toetust nende toetuste kogusummas kuni m&auml;&auml;ratud t&auml;htajani .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 671 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

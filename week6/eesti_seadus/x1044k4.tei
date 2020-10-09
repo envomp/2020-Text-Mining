@@ -1,0 +1,892 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Rahvatervise seadus ( terviktekst aprill 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4450</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Rahvatervise seadus ( terviktekst aprill 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=7></tagusage>
+         <tagusage gi=p occurs=262></tagusage>
+         <tagusage gi=s occurs=289></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Rahvatervise seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 14. juunil 1995. a.</s>
+</p>
+<p>
+<s>( RT I 1995 , 57 , 978 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 21. juulil 1995. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 ;</s>
+</p>
+<p>
+<s>14.02.2001 j&otilde;ust.16.03.2001 - RT I 2001 , 23 , 128 ;</s>
+</p>
+<p>
+<s>10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 ;</s>
+</p>
+<p>
+<s>25.02.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 30 , 415 ;</s>
+</p>
+<p>
+<s>23.04.97 j&otilde;ust.26.05.97 - RT I 1997 , 37 , 569 ;</s>
+</p>
+<p>
+<s>26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ;</s>
+</p>
+<p>
+<s>19.12.95 j&otilde;ust.01.04.96 - RT I 1996 , 3 , 56.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse eesm&auml;rk</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse eesm&auml;rk on inimese tervise kaitsmine , haiguste ennetamine ja tervise edendamine , mis saavutatakse riigi , omavalitsuse , avalik- ja era&otilde;igusliku juriidilise isiku ning f&uuml;&uuml;silise isiku kohustustega ning riiklike ja omavalitsuslike abin&otilde;ude s&uuml;steemiga .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Seaduses kasutatavad m&otilde;isted</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses kasutatakse m&otilde;isteid j&auml;rgmises t&auml;henduses :</s>
+</p>
+<p>
+<s>1 ) rahvatervis - teadus ja kunst haiguste ennetamiseks , eluea pikendamiseks ning vaimse ja f&uuml;&uuml;silise tervise edendamiseks ja tugevdamiseks &uuml;hiskonna organiseeritud j&otilde;upingutuste kaudu ;</s>
+</p>
+<p>
+<s>2 ) tervis - inimese f&uuml;&uuml;silise , vaimse ja sotsiaalse heaolu seisund , mitte ainult puuete ja haiguste puudumine ;</s>
+</p>
+<p>
+<s>3 ) tervisekaitse - inimese tervisele ohutu elukeskkonna tagamisele ning elukeskkonnaga seonduvate terviseh&auml;irete ja haiguste v&auml;ltimisele suunatud tegevus ;</s>
+</p>
+<p>
+<s>4 ) tervise edendamine - inimese tervist v&auml;&auml;rtustava ja soodustava k&auml;itumise ja elulaadi kujundamine ning tervist toetava elukeskkonna sihip&auml;rane arendamine ;</s>
+</p>
+<p>
+<s>5 ) haiguste ennetamine - inimese haiguseelsete seisundite varasele avastamisele suunatud tegevus ja meetmed haigestumise v&auml;ltimiseks ;</s>
+</p>
+<p>
+<s>6 ) tervisekasvatus - teabe sihip&auml;rane levitamine ja inimese harjumuste kujundamine tervise s&auml;ilitamiseks ja tugevdamiseks ;</s>
+</p>
+<p>
+<s>7 ) elukeskkond - inimesega kokkupuutuva loodusliku , tehisliku ja sotsiaalse keskkonna tegurite kogum , mis m&otilde;jutab v&otilde;i v&otilde;ib m&otilde;jutada inimese tervist .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Tervisekaitse , haiguste ennetamise ja tervise edendamise p&otilde;hi&uuml;lesanded</s>
+</p>
+<p>
+<s>Tervisekaitse , haiguste ennetamise ja tervise edendamise p&otilde;hi&uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) &uuml;ksikisiku , perekonna ja rahva tervise v&auml;&auml;rtustamine ;</s>
+</p>
+<p>
+<s>2 ) abin&otilde;ude s&uuml;steemi v&auml;ljat&ouml;&ouml;tamine , seadustamine ja rakendamine laste tervisliku arengu tagamiseks , nakkuslike ja mittenakkuslike , kutse- ja muude haiguste &auml;rahoidmiseks ja v&auml;hendamiseks , varajase suremuse ja invaliidistumise v&auml;hendamiseks , elukvaliteedi paranemiseks ja t&ouml;&ouml;v&otilde;imelise ea pikenemiseks ;</s>
+</p>
+<p>
+<s>3 ) elukeskkonna uurimine ja selle ohutegurite hindamine , inimese terviseseisundi j&auml;lgimine ning prognoosimine s&otilde;ltuvalt elukeskkonna seisundist ;</s>
+</p>
+<p>
+<s>4 ) avalikkuse teavitamine elukeskkonna seisundi halvenemisest v&otilde;i halvenemise ohust ;</s>
+</p>
+<p>
+<s>5 ) erinevuste v&auml;hendamine riigi eri piirkondade ja inimeste eri r&uuml;hmade terviseseisundis ;</s>
+</p>
+<p>
+<s>6 ) tervisekaitse &otilde;igusaktide v&auml;ljat&ouml;&ouml;tamine , kehtestamine ja riiklik j&auml;relevalve nende t&auml;itmise &uuml;le .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Elukeskkonna- ja tervisekaitse p&otilde;hin&otilde;uded</s>
+</p>
+<p>
+<s>Elukeskkonna- ja tervisekaitse p&otilde;hin&otilde;uded on :</s>
+</p>
+<p>
+<s>1 ) inimene ei tohi ohustada teise inimese tervist oma otsese tegevusega v&otilde;i elukeskkonna halvendamise kaudu ;</s>
+</p>
+<p>
+<s>2 ) m&uuml;&uuml;giks ette n&auml;htud toiduainete tootmisel , valmistamisel , vedamisel , s&auml;ilitamisel ja m&uuml;&uuml;misel peab olema v&auml;lditud nakkus- v&otilde;i muu terviseohu tekkimine ja levik ;</s>
+</p>
+<p>
+<s>3 ) joogi- ja suplusvesi peab olema tervisele ohutu ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>4 ) tarbekaubad , eelk&otilde;ige lastekaubad peavad olema valmistatud sellistest materjalidest ja niisugusel viisil , et nende tavap&auml;rane kasutamine oleks ohutu inimese tervisele ;</s>
+</p>
+<p>
+<s>4 <hi rend="sup">1</hi> ) kosmeetikatooted peavad olema sellise koostisega ning k&auml;ideldud niisugusel viisil , et nad etten&auml;htud kasutamise korral oleksid ohutud inimese tervisele ;</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>5 ) ( Kehtetu - 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>6 ) Eestis valmistatud ja imporditud kaupadele esitatakse &uuml;hesuguseid n&otilde;udeid ;</s>
+</p>
+<p>
+<s>7 ) ehitised , rajatised ja transpordivahendid peavad olema projekteeritud ning ehitatud nii , et nende sihip&auml;rane kasutamine soodustaks tervise s&auml;ilimist ning arvestaks liikumispuuetega inimeste vajadusi ;</s>
+</p>
+<p>
+<s>8 ) &otilde;ppe- ja t&ouml;&ouml;tingimused ning &otilde;ppe- ja t&ouml;&ouml;vahendid peavad olema tervisele kahjutud ning nendes tegevusvaldkondades , kus v&otilde;ivad esineda tervist kahjustavad tegurid , peab inimene enne &otilde;ppima v&otilde;i t&ouml;&ouml;le asumist ja edaspidi perioodiliselt l&auml;bima tervisekontrolli .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>9 ) eluaseme- ja puhketingimused peavad soodustama tervise s&auml;ilimist ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>10 ) teenuste osutamine majutus- , spordi- , puhke- , laste- , &otilde;ppe- , tervishoiu- , isikuteenindus- ja hoolekandeasutustes ei tohi kahjustada tervist ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>11 ) ruumide valgustus ei tohi kahjustada n&auml;gemist ning peab v&otilde;imaldama t&ouml;&ouml;- ja &otilde;ppe&uuml;lesannete t&auml;itmist ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>12 ) ultraviolettkiirgus , n&auml;htav valgus , infrapunane kiirgus , raadiosageduslik kiirgus ning madalsageduslik ja staatiline elektri- ja magnetv&auml;li ( mitteioniseeriv kiirgus ) ei tohi &uuml;letada tervisele ohutuid piirv&auml;&auml;rtusi ning selle kiirguse allikate valmistamine , kasutuselev&otilde;tmine ja kasutamine koosk&otilde;lastatakse Tervisekaitseinspektsiooniga ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>13 ) aeroionisatsioonitase ruumides ning m&uuml;ra- , vibratsiooni- , ultraheli- ja infrahelitase ei tohi esile kutsuda terviseh&auml;ireid ning peab vastama puhke- ja olmetingimustele kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>14 ) &uuml;hiss&otilde;idukid peavad olema konstrueeritud , ehitatud ja hooldatud selliselt , et need ei ohustaks kasutaja tervist ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>15 ) surnute hoidmine , vedamine , matmine ja &uuml;mbermatmine peab olema korraldatud nii , et see ei ohustaks inimeste tervist .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Haiguste ennetamise vahendid</s>
+</p>
+<p>
+<s>Haiguste ennetamise vahendid on :</s>
+</p>
+<p>
+<s>1 ) laste tervisliku arengu tagamiseks ja terviseh&auml;irete varajaseks avastamiseks laste ennetav arstlik tervisekontroll ;</s>
+</p>
+<p>
+<s>2 ) nakkushaiguste levikut t&otilde;kestavate abin&otilde;ude rakendamine ja kaitsepookimine nakkushaiguste v&auml;ltimiseks ;</s>
+</p>
+<p>
+<s>3 ) tervistkahjustaval t&ouml;&ouml;l t&ouml;&ouml;tavate inimeste tervise eelnev ja perioodiline arstlik kontrollimine t&ouml;&ouml;tingimuste t&otilde;ttu tekkida v&otilde;ivate terviseh&auml;irete ja kutsehaiguste &auml;rahoidmiseks ja varajaseks avastamiseks ;</s>
+</p>
+<p>
+<s>4 ) krooniliste mittenakkuslike haiguste ennetamiseks riskitegurite kontrollimine ja neid v&auml;ltivate programmide v&auml;ljat&ouml;&ouml;tamine ning elluviimine ;</s>
+</p>
+<p>
+<s>5 ) haiguste varase avastamise programmide v&auml;ljat&ouml;&ouml;tamine ja riskir&uuml;hmade uurimine .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Tervise edendamise vahendid</s>
+</p>
+<p>
+<s>Tervise edendamise vahendid on :</s>
+</p>
+<p>
+<s>1 ) tervisekasvatus ja tervise&otilde;petus haridusprogrammide osana ;</s>
+</p>
+<p>
+<s>2 ) terviseteabe levitamine ja tervislike eluviiside motiveerimine ;</s>
+</p>
+<p>
+<s>3 ) tervistavate teenuste arendamine ;</s>
+</p>
+<p>
+<s>4 ) eluviisi m&otilde;jutamine ja k&auml;itumisriski v&auml;hendamine ;</s>
+</p>
+<p>
+<s>5 ) tervistsoodustava elukeskkonna kujundamine .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigi , kohaliku omavalitsuse ning avalik- ja era&otilde;igusliku juriidilise isiku ning f&uuml;&uuml;silise isiku &uuml;lesanded</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Vabariigi Valitsuse &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse &uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) riigi tervisekaitse ja tervise edendamise poliitika &uuml;ldine juhtimine ;</s>
+</p>
+<p>
+<s>2 ) tervisekaitse riikliku j&auml;relevalve korra kehtestamine ja j&auml;relevalve tagamine ;</s>
+</p>
+<p>
+<s>3 ) tervisele ohutu elukeskkonna loomisele , terviseh&auml;irete ja haiguste ennetamisele ning tervise edendamisele suunatud riiklike programmide kinnitamine .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus kehtestab tervisekaitse &otilde;igusaktid :</s>
+</p>
+<p>
+<s>1 ) ( Kehtetu - 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 ) ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>3 ) tehismaterjalide ja nende t&ouml;&ouml;tlemissaaduste , tervist ohustada v&otilde;ivate masinate , seadmete ja t&ouml;&ouml;riistade tootmiseks , importimiseks ning kasutamiseks ;</s>
+</p>
+<p>
+<s>4 ) ( Kehtetu - 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 ) ;</s>
+</p>
+<p>
+<s>5 ) lastekaupade ning inimesega vahetult kokkupuutuvate v&otilde;i eluruumides kasutatavate tarbekaupade , samuti ehitusmaterjalide valmistamiseks , importimiseks ja m&uuml;&uuml;miseks ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 ; 20.03.2002 j&otilde;ust.01.09.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>6 ) rahvusvahelise kokkuleppega m&auml;&auml;ratud eriti ohtlike nakkushaiguste ( karantiinhaiguste ) leviku t&otilde;kestamiseks riigipiiril ja riigis ;</s>
+</p>
+<p>
+<s>7 ) olmeteenuste osutamiseks elanikele ;</s>
+</p>
+<p>
+<s>8 ) suplusveele ja supelrannale ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>9 ) kosmeetikatoodetele ja nende k&auml;itlemisele .</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Sotsiaalministeeriumi &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Sotsiaalministeeriumi &uuml;lesandeks on :</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>1 ) tervisekaitse , haiguste ennetamise ja tervise edendamise kavandamine ja kavandatu elluviimine ;</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ; 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>2 ) tervisekaitse , haiguste ennetamise ja tervise edendamise alaste seaduste ja muude &otilde;igusaktide eeln&otilde;ude v&auml;ljat&ouml;&ouml;tamine ;</s>
+</p>
+<p>
+<s>3 ) teiste ministeeriumide poolt ettevalmistatud tervisekaitse , haiguste ennetamise ja tervise edendamisega seonduvate &otilde;igusaktide eeln&otilde;ude koosk&otilde;lastamine ;</s>
+</p>
+<p>
+<s>4 ) Vabariigi Valitsusele ettepanekute tegemine eriolukorra kehtestamiseks riigis v&otilde;i selle osas nakkushaiguste , m&uuml;rgistuste ning kiirguskahjustuste likvideerimiseks ;</s>
+</p>
+<p>
+<s>5 ) teiste ministeeriumide , ametite ja inspektsioonide tegevuse koordineerimine ning tulemuslikkuse anal&uuml;&uuml;simine tervisekaitse ja tervise edendamise alal ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>6 ) tervisele ohutu elukeskkonna loomisele , terviseh&auml;irete ja haiguste ennetamisele ning tervise edendamisele suunatud riiklike programmide ja projektide ning muude abin&otilde;ude kavandamine ja elluviimise korraldamine .</s>
+</p>
+<p>
+<s>7 ) tervisekasvatuse ja tervisliku eluviisi kujundamisele ning tervise v&auml;&auml;rtustamisele suunatud tegevuse korraldamine , samuti koost&ouml;&ouml;s Haridusministeeriumiga tervise&otilde;petuse korraldamine &otilde;ppeasutustes ;</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>8 ) tervisekaitse , haiguste ennetamise ja tervise edendamise alaste teadusuuringute koordineerimine ;</s>
+</p>
+<p>
+<s>9 ) tervisekaitse riikliku j&auml;relevalve koordineerimine Tervisekaitseinspektsiooni kaudu ;</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>10 ) keskkonnast tingitud terviseohtude seire korraldamine ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>11 ) joogiveeproove v&otilde;tvate isikute atesteerimine ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>12 ) rahvastiku tervisega seonduvate andmete kogumine ja isikuandmete t&ouml;&ouml;tlemine riikliku tervise- ja tervishoiupoliitika v&auml;ljat&ouml;&ouml;tamiseks ning elluviimiseks koosk&otilde;las isikuandmete kaitse seaduse ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ; 2000 , 50 , 317 ; 92 , 597 ; 104 , 685 ; 2001 , 50 , 283 ) ja andmekogude seadusega ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ; 2001 , 7 , 17 ; 17 , 77 ) .</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalminister kehtestab tervisekaitse &otilde;igusaktid j&auml;rgmiste valdkondade kohta :</s>
+</p>
+<p>
+<s>1 ) tervist ohustada v&otilde;ivate tehnoloogiate , masinate , seadmete ja t&ouml;&ouml;vahendite kasutuselev&otilde;tmine ning kasutamine ;</s>
+</p>
+<p>
+<s>2 ) nakkus- ja parasitaarhaiguste leviku t&otilde;kestamine ;</s>
+</p>
+<p>
+<s>3 ) koolide p&auml;evakavad ja &otilde;ppekorraldus ;</s>
+</p>
+<p>
+<s>4 ) toitlustamine koolieelsetes lasteasutustes , koolides , tervishoiu- ja hoolekandeasutustes ;</s>
+</p>
+<p>
+<s>5 ) lastelutid ;</s>
+</p>
+<p>
+<s>6 ) koolieelsed lasteasutused ja koolid ;</s>
+</p>
+<p>
+<s>7 ) arvuti&otilde;pe ja arvuti avalik kasutamine ;</s>
+</p>
+<p>
+<s>8 ) noortelaagrid ja teised noorte ja laste puhkeasutused ;</s>
+</p>
+<p>
+<s>9 ) laste ja t&auml;iskasvanute hoolekandeasutused ;</s>
+</p>
+<p>
+<s>10 ) ( Kehtetu - 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>11 ) meditsiiniseadmete olulised n&otilde;uded , nende klassi m&auml;&auml;ramine , vastavushindamine , kasutuselev&otilde;tmine ja kasutamine ;</s>
+</p>
+<p>
+<s>12 ) ilu- ja isikuteenuste osutamine ;</s>
+</p>
+<p>
+<s>13 ) kosmeetikatoodete terviseohutuse kontrollimine ;</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>14 ) mineraalvesi ;</s>
+</p>
+<p>
+<s>15 ) ( Kehtetu - 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>16 ) &uuml;hiss&otilde;idukid ja reisiteenused ;</s>
+</p>
+<p>
+<s>17 ) mitteioniseeriva kiirguse , m&uuml;ra- , vibratsiooni- , ultra- ja infraheli taseme piirv&auml;&auml;rtused elu- ja puhkealal , elamutes ja &uuml;hiskasutusega hoonetes , paikse saasteallika sanitaarkaitsealal , &otilde;pperuumides ja muudes kohtades , kus inimene viibib pikemat aega , samuti k&auml;esolevas punktis loetletud f&uuml;&uuml;sikaliste suuruste taseme m&otilde;&otilde;tmise meetodid ;</s>
+</p>
+<p>
+<s>18 ) ( Kehtetu - 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>19 ) m&uuml;rgistuste arvestamine ja nende tekkimise asjaolude v&auml;ljaselgitamine ;</s>
+</p>
+<p>
+<s>20 ) n&auml;riliste , putukate ja mikroorganismide keemiliseks t&otilde;rjeks tehtav teenust&ouml;&ouml; ;</s>
+</p>
+<p>
+<s>21 ) surnute hoidmine , vedamine , matmine ja &uuml;mbermatmine ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>22 ) toidunormid kinnipidamisasutustes ;</s>
+</p>
+<p>
+<s>( 14.02.2001 j&otilde;ust.16.03.2001 - RT I 2001 , 23 , 128 )</s>
+</p>
+<p>
+<s>23 ) ravimuda turustamine , s&auml;ilitamine ja kasutamine .</s>
+</p>
+<p>
+<s>( 14.02.2001 j&otilde;ust.16.03.2001 - RT I 2001 , 23 , 128 )</s>
+</p>
+<p>
+<s>( 3 ) Sotsiaalminister kehtestab korra :</s>
+</p>
+<p>
+<s>1 ) maavalitsustes t&ouml;&ouml;tavate terviseedenduse spetsialistide tegevuse korraldamiseks ;</s>
+</p>
+<p>
+<s>2 ) anatoomilise &otilde;ppematerjali hankimiseks , hoidmiseks , kasutamiseks ja utiliseerimiseks ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>3 ) joogiveeproove v&otilde;tvate isikute atesteerimiseks .</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Maavanema &uuml;lesanded</s>
+</p>
+<p>
+<s>Maavanema &uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) tervisekaitse , haiguste ennetamise ja tervise edendamise abin&otilde;ude elluviimise tagamine maakonna maa-alal ;</s>
+</p>
+<p>
+<s>2 ) tervisele ohutu elukeskkonna loomisele , terviseh&auml;irete ja haiguste ennetamisele suunatud programmide v&auml;ljat&ouml;&ouml;tamine ja elluviimise korraldamine maakonnas ;</s>
+</p>
+<p>
+<s>3 ) tervisekaitse ja tervise edendamisega tegelevate asutuste ning valla- ja linnaarstide vahelise koost&ouml;&ouml; koordineerimine .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Kohaliku omavalitsuse &uuml;lesanded</s>
+</p>
+<p>
+<s>Kohaliku omavalitsuse &uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) tervisekaitsealaste &otilde;igusaktide t&auml;itmise korraldamine ja nende j&auml;rgimise kontrollimine kohaliku omavalitsuse maa-alal ;</s>
+</p>
+<p>
+<s>2 ) elanikkonna haiguste ennetamisele ja tervise edendamisele suunatud tegevuse korraldamine kohaliku omavalitsuse maa-alal .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Valla- v&otilde;i linnaarsti &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Valla- v&otilde;i linnaarst kontrollib oma teeninduspiirkonna riigi , munitsipaal- ja eraomandis olevate avalik- ja era&otilde;iguslike juriidiliste ja f&uuml;&uuml;siliste isikute halduses v&otilde;i omandis olevatel territooriumidel , ehitistel ja rajatistel tervisekaitse &otilde;igusaktide t&auml;itmist ning &otilde;igusaktide rikkumise korral teeb ettev&otilde;tte , asutuse v&otilde;i organisatsiooni juhtkonnale v&otilde;i f&uuml;&uuml;silisele isikule ettepaneku rikkumiste k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse t&auml;itmisel on valla- v&otilde;i linnaarstil k&auml;esoleva seaduse paragrahv 16 1. l&otilde;ike punktis 1 toodud tervisekaitse riikliku j&auml;relevalve ametniku &otilde;igused .</s><s>Tervisekaitse &otilde;igusaktide rikkumisest teatab valla- v&otilde;i linnaarst tervisekaitse riikliku j&auml;relevalve asutusele .</s>
+</p>
+<p>
+<s>( 3 ) Valla- v&otilde;i linnaarsti &uuml;lesandeks on ettepanekute esitamine kohalikule omavalitsusele v&otilde;i teistele p&auml;devatele organitele elukeskkonna seisundi parandamiseks ja tervise edendamiseks vallas v&otilde;i linnas .</s>
+</p>
+<p>
+<s>( 4 ) Valla- v&otilde;i linnaarsti &uuml;lesandeks on koost&ouml;&ouml; maakonna tervisekaitsetalitusega .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Avalik- ja era&otilde;igusliku juriidilise isiku ning f&uuml;&uuml;silise isiku &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Avalik- ja era&otilde;iguslik juriidiline isik ning f&uuml;&uuml;siline isik tagab enne tootmise alustamist tootmistingimuste ja toote terviseohutuse uurimise , kahjulike tegurite m&auml;&auml;ramise meetodite puudumisel nende v&auml;ljat&ouml;&ouml;tamise , toote tehnilise normdokumendi puudumisel selle vormistamise j&auml;rgmistes tootmisvaldkondades :</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.01.09.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>1 ) toidutoorme ja toidu ning mineraal- ja joogiveega kokkupuutuvate materjalide tootmine ;</s>
+</p>
+<p>
+<s>( 25.02.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 30 , 415 )</s>
+</p>
+<p>
+<s>2 ) tehismaterjalide ja neid sisaldavate esemete valmistamine ;</s>
+</p>
+<p>
+<s>( 23.04.97 j&otilde;ust.26.05.97 - RT I 1997 , 37 , 569 ; 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>3 ) lastekaupade , kosmeetikatoodete ja inimesega vahetult kokkupuutuvate v&otilde;i ruumides kasutatavate muude tarbekaupade valmistamine ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 ; 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>4 ) tervist kahjustada v&otilde;ivate kiirgus- , m&uuml;ra- v&otilde;i vibratsiooniallikate valmistamine .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 20.03.2002 j&otilde;ust.01.09.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>( 3 ) Avalik- ja era&otilde;iguslik juriidiline ning f&uuml;&uuml;siline isik koosk&otilde;lastab tervisekaitse riikliku j&auml;relevalveasutusega k&auml;esoleva paragrahvi l&otilde;ikes 1 loetletud kaupu k&auml;itleva , samuti ilu- ja isikuteenuseid osutava ettev&otilde;tte , laste- , kooli- , tervishoiu- , hoolekandeasutuse ning laeva ehitusprojekti ja k&auml;esolevas l&otilde;ikes loetletud ehitiste ning laeva kasutuselev&otilde;tu .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>( 5 ) Avalik- ja era&otilde;iguslik juriidiline isik ning f&uuml;&uuml;siline isik informeerib viivitamatult tervisekaitse riikliku j&auml;relevalve asutust ja kohalikku omavalitsust avariidest ja olukordadest , mis v&otilde;ivad halvendada inimeste tervist ja elukeskkonda .</s>
+</p>
+<p>
+<s>( 6 ) Avalik- ja era&otilde;iguslik juriidiline isik ning f&uuml;&uuml;siline isik ei tohi levitada inimese tervist ja elukeskkonda kahjustada v&otilde;ivaid ideid , arvamusi , veendumusi ja muud teavet s&otilde;nas , tr&uuml;kis v&otilde;i muul viisil .</s>
+</p>
+<p>
+<s>( 7 ) Avalik- ja era&otilde;iguslik juriidiline isik ning f&uuml;&uuml;siline isik tagab vastavalt sotsiaalministri kehtestatud korrale :</s>
+</p>
+<p>
+<s>1 ) joogivee ja supluseks v&otilde;i spordiks kasutatava vee laboratoorse kontrolli ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>2 ) deratisatsiooni , desinfektsiooni v&otilde;i desinsektsiooni , kui on tekkinud soodsad tingimused nakkuste levikuks .</s>
+</p>
+<p>
+<s>( 8 ) ( Kehtetu - 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Tervisekaitse , haiguste ennetamise ja tervise edendamise &uuml;lesandeid t&auml;itvad asutused</s>
+</p>
+<p>
+<s>( 1 ) Tervisekaitse , haiguste ennetamise ja tervise edendamise p&otilde;hi&uuml;lesandeid t&auml;idavad tervishoiuasutused vastavalt oma p&otilde;hitegevuse suunale .</s>
+</p>
+<p>
+<s>( 2 ) Tervisekaitsen&otilde;uete elluviimist korraldavad t&auml;idesaatva riigiv&otilde;imu asutused , avalik- ja era&otilde;iguslikud juriidilised isikud ning f&uuml;&uuml;silised isikud vastavalt oma p&auml;devusele .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>( 3 ) Elukeskkonna objektide terviseohutust hindavad Tervisekaitseinspektsiooni ja tema kohalike asutuste j&auml;relevalveametnikud .</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Inimese tervise ja elukeskkonna seisundi alase teabe k&auml;ttesaadavus</s>
+</p>
+<p>
+<s>Tervisekaitse , haiguste ennetamise ja tervise edendamisega tegelevad asutused tagavad inimese tervise ja elukeskkonna &uuml;ldiseks kasutamiseks m&auml;&auml;ratud andmete k&auml;ttesaadavuse .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tervisekaitse riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>J&auml;relevalve teostajad</s>
+</p>
+<p>
+<s>( 1 ) Tervisekaitse riiklikku j&auml;relevalvet k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides etten&auml;htud n&otilde;uete t&auml;itmise &uuml;le ning toote ohutuse seaduse ( RT I 1998 , 40 , 613 ; 1999 , 82 , 753 ; 2000 , 86 , 546 ) &sect; 3 l&otilde;ikes 3 nimetatud juhtudel terviseohutuse &uuml;le , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 8 l&otilde;ike 2 punkti 11 alusel kehtestatud &otilde;igusaktides etten&auml;htud n&otilde;uded , teostavad Tervisekaitseinspektsioon ja tema kohalikud asutused .</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Tervisekaitse riiklikku j&auml;relevalvet k&auml;esoleva seaduse &sect; 8 l&otilde;ike 2 punkti 11 alusel kehtestatud &otilde;igusaktides etten&auml;htud n&otilde;uete t&auml;itmise &uuml;le teostab Ravimiamet .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>( 3 ) Tervisekaitse riikliku j&auml;relevalve ametnik on oma ametikohustuste t&auml;itmisel v&otilde;imuesindaja ja tema seaduslikud n&otilde;udmised ning korraldused &otilde;iguserikkumiste k&otilde;rvaldamiseks on kohustuslikud k&otilde;ikidele ametnikele ja isikutele .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>J&auml;relevalveametnike &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Ametit&otilde;endi esitamisel on j&auml;relevalveametnikul &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) takistamata kontrollida j&auml;relevalvealuste objektide territooriumi , ehitisi , rajatisi , tootmisprotsessi , toodangut , transpordivahendeid ja dokumente ning n&otilde;uda selgitusi tervisekaitsek&uuml;simuste lahendamiseks , s&otilde;ltumata objekti omandivormist ;</s>
+</p>
+<p>
+<s>2 ) v&otilde;tta kontrollitavatel objektidel tasuta materjalide ja toodete proove ning uurimise ajaks esemete n&auml;idiseid tervisekaitsealasteks uuringuteks , teha tervisekaitsealaseid uuringuid ja hinnata uurimisobjekti terviseohutust ;</s>
+</p>
+<p>
+<s>3 ) kohustada avalik- ja era&otilde;iguslikke juriidilisi isikuid ning f&uuml;&uuml;silisi isikuid omandi valdamisel , kasutamisel ja k&auml;sutamisel piirama , peatama v&otilde;i l&otilde;petama oma tegevust , mis kahjustab v&otilde;i v&otilde;ib kahjustada inimese tervist ning teha ettekirjutusi tervisekaitse &otilde;igusaktide rikkumiste k&otilde;rvaldamiseks koos t&auml;itmise t&auml;htaja kehtestamisega ning kontrollida nende t&auml;itmist .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 3 nimetatud ettekirjutuse t&auml;itmata j&auml;tmise korral v&otilde;ib j&auml;relevalveametnik rakendada sunniraha asendust&auml;itmise ja sunniraha seaduses ( RT I 2001 , 50 , 283 ; 94 , 580 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) K&auml;esoleva paragrahvi l&otilde;ikes 1 <hi rend="sup">1</hi> nimetatud sunniraha &uuml;lemm&auml;&auml;r on 10 000 krooni .</s>
+</p>
+<p>
+<s>( 20.03.2002 j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 187 )</s>
+</p>
+<p>
+<s>( 2 ) Nakkushaiguste ja m&uuml;rgistuste leviku v&otilde;i leviku ohu korral v&otilde;ib j&auml;relevalveametnik :</s>
+</p>
+<p>
+<s>1 ) suunata endale v&otilde;i teistele ohtliku nakkushaige haiglaravile , samuti suunata nakkuskahtlase isiku arstlikele uuringutele ;</s>
+</p>
+<p>
+<s>2 ) kohustada t&ouml;&ouml;andjaid ajutiselt k&otilde;rvaldama t&ouml;&ouml;lt t&ouml;&ouml;tajaid , kes pole &otilde;igeaegselt l&auml;binud kohustuslikku tervisekontrolli , v&otilde;i nakkushaigeid ja t&otilde;vestavate pisikute kandjaid , ning kes t&ouml;&ouml; ise&auml;rasuse t&otilde;ttu v&otilde;ivad nakatada teisi inimesi .</s>
+</p>
+<p>
+<s>( 3 ) Tervisekaitse j&auml;relevalve ametnikud on kohustatud :</s>
+</p>
+<p>
+<s>1 ) kasutama oma &otilde;igusi tervisekaitse &otilde;igusaktide rikkumiste t&otilde;kestamiseks , vajadusel teavitades massiteabevahendeid ;</s>
+</p>
+<p>
+<s>2 ) hoidma seoses tervisekaitse j&auml;relevalve &uuml;lesannete t&auml;itmisega neile teatavaks saanud arstlikke ja &auml;risaladusi , samuti temale teatavaks saanud isikute eraellu puutuvaid andmeid .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Tervisekaitse riikliku j&auml;relevalve asutuse v&otilde;i ametniku ettekirjutuse v&otilde;i muu toimingu vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Avalik- ja era&otilde;iguslikul juriidilisel isikul ning f&uuml;&uuml;silisel isikul on &otilde;igus tervisekaitse riikliku j&auml;relevalve asutuse v&otilde;i ametniku ettekirjutuse v&otilde;i muu toiminguga mitten&otilde;ustumisel esitada kaebus Tervisekaitseinspektsiooni peadirektorile 10 kalendrip&auml;eva jooksul , arvates ettekirjutusest v&otilde;i muust toimingust teada saamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine ei v&otilde;ta isikult kohustust t&auml;ita tervisekaitse riikliku j&auml;relevalve asutuse v&otilde;i ametniku ettekirjutust .</s>
+</p>
+<p>
+<s>( 3 ) Tervisekaitseinspektsiooni peadirektor vaatab kaebuse l&auml;bi &uuml;he kuu jooksul , arvates kaebuse saamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>( 4 ) Kaebuse l&auml;bivaatamisel teeb Tervisekaitseinspektsiooni peadirektor &uuml;he j&auml;rgmistest otsustest : j&auml;tta ettekirjutus v&otilde;i muu toiming j&otilde;usse , see muuta v&otilde;i t&uuml;histada .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>( 5 ) Otsus tehakse kaebuse esitajale teatavaks ning antakse k&auml;tte allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s><s>Otsusega mitten&otilde;ustumisel v&otilde;ib selle vaidlustada halduskohtu kaudu .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Kohtusse kaebamine</s>
+</p>
+<p>
+<s>( 1 ) Avalik- ja era&otilde;iguslikul juriidilisel isikul ning f&uuml;&uuml;silisel isikul on &otilde;igus tervisekaitse riikliku j&auml;relevalve asutuse v&otilde;i ametniku ettekirjutuse v&otilde;i muu toimingu peale esitada kaebus halduskohtusse , s&otilde;ltumata k&auml;esoleva seaduse paragrahvis 17 nimetatud kaebuse varasemast esitamisest .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine kohtusse ei v&otilde;ta isikult kohustust t&auml;ita tervisekaitse riikliku j&auml;relevalve asutuse v&otilde;i ametniku ettekirjutust seni , kuni kohus tunnistab selle kas osaliselt v&otilde;i t&auml;ielikult seadusevastaseks .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Vastutus tervisekaitse &otilde;igusaktide rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) Avalik- ja era&otilde;iguslik juriidiline isik ning f&uuml;&uuml;siline isik kannab vastutust k&auml;esoleva seaduse ja muude tervisekaitse &otilde;igusaktide rikkumise eest .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;&uuml;siline isik kannab k&auml;esoleva seaduse ja muude tervisekaitse &otilde;igusaktide rikkumise eest distsiplinaar- , tsiviil- , haldus- v&otilde;i kriminaalvastutust seaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 3 ) Juriidiline isik kannab k&auml;esoleva seaduse ja muude tervisekaitse &otilde;igusaktide rikkumise eest j&auml;rgmist haldusvastutust :</s>
+</p>
+<p>
+<s>1 ) enne tootmis- v&otilde;i muu tegevuse alustamist n&otilde;utavate korraldavate dokumentide tervisekaitse riikliku j&auml;relevalve asutusega koosk&otilde;lastamata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni 10 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) ehitise , rajatise v&otilde;i transpordivahendi kasutuselev&otilde;tmise eest v&otilde;i nende kasutamise eest projektist erineval eesm&auml;rgil tervisekaitse riikliku j&auml;relevalve ametniku n&otilde;usolekuta - m&auml;&auml;ratakse rahatrahv kuni 100 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) ( Kehtetu - 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>4 ) tervisekaitse &otilde;igusaktide muude n&otilde;uete rikkumise eest viisil , mis ohustab inimese tervist v&otilde;i elukeskkonda - m&auml;&auml;ratakse rahatrahv kuni 100 000 krooni ;</s>
+</p>
+<p>
+<s>5 ) juriidilisele isikule teatavaks tehtud ettekirjutuste t&auml;itmata j&auml;tmise eest , kui see p&otilde;hjustas inimese tervise kahjustuse v&otilde;i haigestumise - m&auml;&auml;ratakse rahatrahv kuni 250 000 krooni .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 3. l&otilde;ikes nimetatud &otilde;iguserikkumise asjades on asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus Tervisekaitseinspektsiooni peadirektoril ja tema aset&auml;itjal , Eesti Sanitaarkarantiinitalituse direktoril , tervisekaitsetalituse direktoril ja halduskohtunikul .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ; 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>( 5 ) Tervisekaitseinspektsiooni peadirektoril ja tema aset&auml;itjal , Eesti Sanitaarkarantiinitalituse direktoril ja tervisekaitsetalituse direktoril on k&auml;esoleva paragrahvi 3. l&otilde;ikes nimetatud &otilde;iguserikkumise asjades &otilde;igus m&auml;&auml;rata rahatrahv kuni 10 000 krooni , sellest suuremat rahatrahvi v&otilde;ib kohaldada ainult halduskohtunik .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ; 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>( 6 ) Menetlus k&auml;esoleva paragrahvi 3. l&otilde;ikes loetletud juriidilise isiku haldus&otilde;iguserikkumiste asjades , kaasa arvatud karistuste m&auml;&auml;ramine , nende vaidlustamine ja j&otilde;ustunud halduskaristuse otsuste t&auml;itmine toimub haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ; 97 , 605 ; 102 , 677 ; 2002 , 18 , 98 ; 21 , 117 ; 29 , 174 ja 175 ; 30 , 176 ; 32 , 189 ) ja kriminaalkoodeksis ( RT 1992 , 20 , 288 ; RT I 2000 , 73 , 452 ; 85 , 510 ; 87 , 526 ; 2002 , 30 , 176 ; 32 , 189 ) s&auml;testatud korras , kusjuures arvestatakse t&auml;itemenetluse seadustiku ( RT I 1993 , 49 , 693 ; RT I 2001 , 29 , 156 ; 43 , 238 ) ja halduskohtumenetluse seadustiku ( RT I 1993 , 50 , 694 ; 1994 , 16 , 290 ; 28 , 425 ; 1995 , 29 , 358 ja 359 ; 1996 , 37 , 739 ; 1997 , I , 16 , 260 ; 30 , 472 ) norme .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva paragrahvi 3. l&otilde;ikes loetletud juriidilise isiku haldus&otilde;iguserikkumiste kohta on protokolli koostamise &otilde;igus haldus&otilde;iguserikkumiste seadustiku paragrahv 205 3. l&otilde;ikes nimetatud ametnikel .</s><s>Protokollis tuuakse &auml;ra selle koostamise aeg ja koht ; asutuse nimi ja aadress , kelle nimel protokoll koostatakse ; protokolli koostanud isiku ametinimetus , ees- ja perekonnanimi ; &otilde;iguserikkujaks olnud juriidilise isiku nimetus ja aadress , tema p&auml;deva esindaja ees- ja perekonnanimi ning ametikoht ; &otilde;iguserikkumise koht , aeg ja kirjeldus , viide k&auml;esoleva paragrahvi 3. l&otilde;ike punktile , mis n&auml;eb ette vastutuse selle &otilde;iguserikkumise eest , &otilde;iguserikkuja esindaja seletus ja vajadusel muud andmed .</s><s>Protokollile kirjutavad alla selle koostanud isik ja &otilde;iguserikkuja esindaja .</s><s>Kui &otilde;iguserikkuja esindaja keeldub protokollile alla kirjutamast , teeb protokolli koostaja sellesse vastava kande .</s><s>Protokollile lisatakse &otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli kohta , samuti protokollile allakirjutamisest keeldumise kohta .</s>
+</p>
+<p>
+<s>( 8 ) Kui f&uuml;&uuml;siline isik , tegutsedes juriidilise isiku t&ouml;&ouml;tajana v&otilde;i tema volitusel , pani toime k&auml;esoleva paragrahvi 3. l&otilde;ikes nimetatud &otilde;iguserikkumise , v&otilde;ib selle &otilde;iguserikkumise eest kohaldada vastutust samaaegselt nii f&uuml;&uuml;silisele isikule haldus&otilde;iguserikkumiste seadustiku alusel kui ka juriidilisele isikule k&auml;esoleva paragrahvi 3. l&otilde;ike alusel .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Rahvatervise seaduse rikkumisest tingitud kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>K&auml;esolevat seadust ning tervisekaitse &otilde;igusakte rikkunud avalik- ja era&otilde;iguslik juriidiline isik ning f&uuml;&uuml;siline isik , kui see rikkumine p&otilde;hjustas inimeste tervise kahjustuse v&otilde;i tekitas kahju elukeskkonnale , teistele juriidilistele v&otilde;i f&uuml;&uuml;silistele isikutele , on kohustatud h&uuml;vitama selle kahju ja kandma kahju likvideerimisega seotud kulutused seadusega etten&auml;htud korras .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Finantseerimine</s>
+</p>
+<p>
+<s>( 1 ) Tervisekaitse riikliku j&auml;relevalve asutuste tegevust finantseeritakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 2 ) Tervisekaitse , haiguste ennetamise ja tervise edendamisega seotud riiklikke programme finantseeritakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 3 ) Tervisekaitse , haiguste ennetamise ja tervise edendamisega seotud kohalikke programme v&otilde;ib osaliselt v&otilde;i t&auml;ielikult finantseerida riigieelarvest .</s>
+</p>
+<p>
+<s>( 4 ) Tervisekaitse , haiguste ennetamise ja tervise edendamisega seotud programme v&otilde;ib osaliselt v&otilde;i t&auml;ielikult finantseerida ravikindlustuse eelarvest .</s>
+</p>
+<p>
+<s>10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>( 5 ) Riiklikud tervisekaitse asutused osutavad tasulisi tervisekaitsealaseid teenuseid Sotsiaalministeeriumi kehtestatud korra ja hinnakirja kohaselt .</s>
+</p>
+<p>
+<s>( 6 ) Avalik- ja era&otilde;iguslikud juriidilised isikud ning f&uuml;&uuml;silised isikud kannavad k&auml;esoleva seadusega neile pandud &uuml;lesannete ja kohustuste t&auml;itmise kulud .</s>
+</p>
+<p>
+<s>[ &sect; 22 v&auml;lja j&auml;etud ] <hi rend="sup">1</hi></s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> V&auml;ljaj&auml;etud paragrahviga muudetakse varasemaid &otilde;igusakte .</s>
+</p>
+</body>
+   </text>
+</tei.2>

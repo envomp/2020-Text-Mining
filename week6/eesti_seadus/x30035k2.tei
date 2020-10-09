@@ -1,0 +1,1090 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Alkoholiseadus ( terviktekst veebr 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    5323</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Alkoholiseadus ( terviktekst veebr 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=13></tagusage>
+         <tagusage gi=p occurs=328></tagusage>
+         <tagusage gi=s occurs=384></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Alkoholiseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 10. veebruaril 1999. a ,</s>
+</p>
+<p>
+<s>( RT I 1999 , 24 , 359 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 15. aprillil 1999.a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>06.02.2001 j&otilde;ust.01.05.2001 - RT I 2001 , 18 , 87 ;</s>
+</p>
+<p>
+<s>15.12.1999 j&otilde;ust.10.01.2000 - RT I 1999 , 102 , 907 ;</s>
+</p>
+<p>
+<s>24.11.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 92 , 827 ;</s>
+</p>
+<p>
+<s>16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab alkoholi k&auml;itlemise &uuml;ldised n&otilde;uded , riikliku korralduse ja j&auml;relevalve ning vastutuse seaduse rikkumise eest .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;isted</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses kasutatakse m&otilde;isteid j&auml;rgmises t&auml;henduses :</s>
+</p>
+<p>
+<s>1 ) alkohol - piiritus ja alkohoolsed joogid ;</s>
+</p>
+<p>
+<s>2 ) etanoolisisaldus - mahuprotsentides v&auml;ljendatud etanoolisisaldus vedeliku 100 mahu&uuml;hiku kohta m&otilde;&otilde;detuna 20 <hi rend="sup"> o </hi> C juures ;</s>
+</p>
+<p>
+<s>3 ) piiritus - p&otilde;llumajandusliku p&auml;ritoluga toorainest k&auml;&auml;ritamisel ja sellele j&auml;rgneval t&ouml;&ouml;tlemisel saadud vedelik etanoolisisaldusega alates 96 mahuprotsendist ;</s>
+</p>
+<p>
+<s>4 ) alkohoolne jook - &otilde;lu etanoolisisaldusega &uuml;le 0,5 mahuprotsendi ja muu jook etanoolisisaldusega &uuml;le 1,2 mahuprotsendi ;</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>5 ) lahja alkohoolne jook - jook etanoolisisaldusega kuni 22 ( kaasa arvatud ) mahuprotsenti ;</s>
+</p>
+<p>
+<s>6 ) &otilde;lu - linnastest v&otilde;i linnastest ja linnastamata materjalist , humalatest ja veest p&auml;rmi abil k&auml;&auml;ritamise teel valmistatud jook ;</s>
+</p>
+<p>
+<s>7 ) alkoholi k&auml;itlemine - alkoholi tootmine , sissevedu , v&auml;ljavedu , hulgim&uuml;&uuml;k , jaem&uuml;&uuml;k ;</s>
+</p>
+<p>
+<s>8 ) alkoholi tootmine - alkoholi valmistamine , t&ouml;&ouml;tlemine v&otilde;i villimine edasiandmise eesm&auml;rgil ;</s>
+</p>
+<p>
+<s>9 ) alkoholi sisse- ja v&auml;ljavedu - alkoholi import ja eksport tolliseaduse ( RT I 1998 , 3 , 54 ; 1999 , 86 , 782 ; 97 , 859 ; 102 , 907 ; 2000 , 95 , 608 ) t&auml;henduses ;</s>
+</p>
+<p>
+<s>10 ) alkoholi hulgim&uuml;&uuml;k - alkoholi pakkumine v&otilde;i m&uuml;&uuml;k &uuml;he ettev&otilde;tja poolt teisele ettev&otilde;tjale ;</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>11 ) alkoholi jaem&uuml;&uuml;k - alkohoolse joogi pakkumine v&otilde;i m&uuml;&uuml;k tarbijale .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Alkoholi k&auml;itlemise riiklik korraldus</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Alkoholile esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Eestis toodetav alkohol peab olema kantud riiklikusse alkoholiregistrisse ( edaspidi register ) .</s>
+</p>
+<p>
+<s>( 2 ) Eestisse sisseveetav alkohol peab olema kantud registrisse , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 27 l&otilde;ikes 3 nimetatud juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) Lubatud on kaubelda vaid sellise alkoholiga , mis on kantud registrisse ja mis vastab registris s&auml;ilitatavale sama alkoholi n&auml;idisele v&otilde;i selle kirjeldusele .</s>
+</p>
+<p>
+<s>( 4 ) Register asutatakse Vabariigi Valitsuse poolt andmekogude seaduse ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ; 2001 , 7 , 17 ; 17 , 77 ) alusel .</s><s>Registri vastutav t&ouml;&ouml;tleja on Majandusministeerium .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Register</s>
+</p>
+<p>
+<s>Registri p&otilde;hi&uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) Eestis toodetava alkoholi ja Eestisse sisseveetava alkoholi kandmine registrisse ;</s>
+</p>
+<p>
+<s>2 ) registrisse kantud alkoholi k&auml;sitleva teabe t&ouml;&ouml;tlemine ;</s>
+</p>
+<p>
+<s>3 ) registrisse kantud alkoholi n&auml;idiste ja nende kirjelduste s&auml;ilitamine ;</s>
+</p>
+<p>
+<s>4 ) alkoholi k&auml;itlemise &uuml;le j&auml;relevalve teostamisel v&otilde;etud n&auml;idiste v&otilde;rdlemine registrisse kantud n&auml;idistega v&otilde;i nende kirjeldustega ;</s>
+</p>
+<p>
+<s>5 ) alkoholi k&auml;itlemise tegevuslubade kohta k&auml;iva teabe t&ouml;&ouml;tlemine .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Registrile esitatav materjal</s>
+</p>
+<p>
+<s>Alkoholi tootja v&otilde;i sissevedaja peab registrile registrikande tegemiseks esitama :</s>
+</p>
+<p>
+<s>1 ) taotluse alkoholi kandmiseks registrisse ;</s>
+</p>
+<p>
+<s>2 ) tooten&auml;idised majandusministri m&auml;&auml;ratud koguses ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva paragrahvi punktis 2 nimetatud n&auml;idiseid identifitseeriva vastavusdeklaratsiooni v&otilde;i -sertifikaadi , kusjuures sisseveetud alkoholi n&auml;idiseid k&auml;sitleval vastavusdeklaratsioonil v&otilde;i -sertifikaadil peab olema tolliametniku tehtud m&auml;rge selle dokumendi tollikontrollis esitamise kohta ;</s>
+</p>
+<p>
+<s>4 ) muud asjakohased dokumendid , kui seda peab vajalikuks register .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Alkoholi kandmine registrisse</s>
+</p>
+<p>
+<s>( 1 ) Alkoholi registrisse kandmise otsustab komisjon , mille koosseisu ja t&ouml;&ouml;korra m&auml;&auml;rab majandusminister .</s>
+</p>
+<p>
+<s>( 2 ) Registrisse v&otilde;ib kanda alkoholi , mis vastab seaduse alusel Vabariigi Valitsuse poolt alkoholi m&auml;&auml;ratlemiseks , kirjeldamiseks ja m&uuml;&uuml;giks esitlemiseks kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud komisjon arvestab alkoholi registrisse kandmise otsustamisel , seejuures taotluse menetlemist vajaduse korral katkestades :</s>
+</p>
+<p>
+<s>( 15.12.1999 j&otilde;ust.10.01.2000 - RT I 1999 , 102 , 907 )</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud n&otilde;udeid ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect;-s 5 nimetatud dokumente ja n&auml;idiseid ;</s>
+</p>
+<p>
+<s>3 ) ( Kehtetu - 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>4 ) kaubam&auml;rgi ja geograafilise t&auml;hise &otilde;iguskaitset k&auml;sitlevaid &otilde;igusakte ning v&auml;lislepinguid .</s>
+</p>
+<p>
+<s>( 15.12.1999 j&otilde;ust.10.01.2000 - RT I 1999 , 102 , 907 )</s>
+</p>
+<p>
+<s>( 4 ) Alkoholi tootja , kes taotleb tema poolt toodetud alkoholi kandmist registrisse , peab omama vastavat liiki kehtivat alkoholi k&auml;itlemise tegevusluba .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Alkoholi kvaliteedi kontrollimine registrikande tegemise otsustamiseks</s>
+</p>
+<p>
+<s>( 1 ) T&auml;iendavalt k&auml;esoleva seaduse &sect; 6 l&otilde;ikes 3 nimetatule v&otilde;ib k&auml;esoleva seaduse &sect; 6 l&otilde;ikes 1 nimetatud komisjon suunata alkoholi , mille registrisse kandmist taotletakse , anal&uuml;&uuml;simiseks majandusministri m&auml;&auml;ratud akrediteeritud laborisse .</s>
+</p>
+<p>
+<s>( 2 ) Vastavate anal&uuml;&uuml;side tegemise eest tasub alkoholi registrisse kandmist taotlev tootja v&otilde;i sissevedaja .</s><s>Anal&uuml;&uuml;side tasum&auml;&auml;rad kinnitab majandusminister .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Alkoholi t&auml;iendava registrisse kandmise kohustus</s>
+</p>
+<p>
+<s>Registrisse kantud alkoholi m&uuml;&uuml;gipakendi v&otilde;i selle elementide muutumisel ( v&auml;lja arvatud tootjapoolse partii t&auml;histuse numbrikombinatsiooni osas ) kuulub alkohol uuesti registrisse kandmisele k&auml;esoleva seaduse &sect;-des 5-7 s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Registrisse kantud andmete avaldamine</s>
+</p>
+<p>
+<s>Registri Interneti kodulehek&uuml;ljel avaldatakse andmed :</s>
+</p>
+<p>
+<s>1 ) registrisse kantud alkoholi kohta ;</s>
+</p>
+<p>
+<s>2 ) kehtivate ja kehtetuks tunnistatud alkoholi k&auml;itlemise tegevuslubade kohta .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Alkoholi k&auml;itlemise tegevusload</s>
+</p>
+<p>
+<s>( 1 ) Alkoholi k&auml;itlemine on lubatud vaid &auml;riregistrisse kantud ettev&otilde;tjal alkoholi k&auml;itlemise tegevusloa ( edaspidi tegevusluba ) alusel .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa liigid on j&auml;rgmised :</s>
+</p>
+<p>
+<s>1 ) tegevusluba alkoholi tootmiseks ;</s>
+</p>
+<p>
+<s>2 ) tegevusluba lahja alkohoolse joogi tootmiseks ;</s>
+</p>
+<p>
+<s>3 ) tegevusluba alkoholi sisseveoks ;</s>
+</p>
+<p>
+<s>4 ) tegevusluba lahja alkohoolse joogi sisseveoks ;</s>
+</p>
+<p>
+<s>5 ) tegevusluba alkoholi v&auml;ljaveoks ;</s>
+</p>
+<p>
+<s>6 ) tegevusluba alkoholi hulgim&uuml;&uuml;giks ;</s>
+</p>
+<p>
+<s>7 ) tegevusluba alkoholi jaem&uuml;&uuml;giks ;</s>
+</p>
+<p>
+<s>8 ) tegevusluba lahja alkohoolse joogi jaem&uuml;&uuml;giks ;</s>
+</p>
+<p>
+<s>8 <hi rend="sup">1</hi> ) tegevusluba kuni 6 ( kaasa arvatud ) mahuprotsendilise etanoolisisaldusega lahja alkohoolse joogi jaem&uuml;&uuml;giks ;</s>
+</p>
+<p>
+<s>( 24.11.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 92 , 827 )</s>
+</p>
+<p>
+<s>9 ) tegevusluba alkoholi jaem&uuml;&uuml;giks avalikul &uuml;ritusel ;</s>
+</p>
+<p>
+<s>10 ) tegevusluba lahja alkohoolse joogi jaem&uuml;&uuml;giks avalikul &uuml;ritusel .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus kehtestab k&auml;esoleva seaduse alusel tegevuslubade v&auml;ljastamise , muutmise ja kehtetuks tunnistamise korra .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Tegevusloa ulatus ja tingimused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 1 ja 2 nimetatud tegevusluba annab &uuml;htlasi &otilde;iguse selle loa alusel toodetud alkoholi hulgim&uuml;&uuml;giks ja v&auml;ljaveoks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 3 ja 4 nimetatud tegevusluba annab &uuml;htlasi &otilde;iguse selle loa alusel sisseveetud alkoholi hulgim&uuml;&uuml;giks .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusluba omav ettev&otilde;tja v&otilde;ib tegutseda vaid tegevusloale kantud tegevuskohas .</s><s>Tegutsemist v&auml;ljaspool tegevusloale kantud tegevuskohta loetakse tegutsemiseks ilma tegevusloata .</s><s>Eeltoodu ei kehti hulgim&uuml;&uuml;ja suhtes , kes realiseerib alkoholi jaem&uuml;&uuml;giga tegelevale ettev&otilde;tjale viimase tegevuskohas , kui hulgim&uuml;&uuml;ja realiseeritava alkoholi ladustamine toimub hulgim&uuml;&uuml;ja tegevusloale kantud tegevuskohas .</s>
+</p>
+<p>
+<s>( 4 ) Kui ettev&otilde;tja &uuml;hte liiki tegevus toimub mitmes tegevuskohas , v&auml;ljastatakse talle &uuml;ks tegevusluba , kuhu on m&auml;rgitud k&otilde;ik tegevuskohad .</s><s>Jaem&uuml;&uuml;gi tegevusloale m&auml;rgitakse k&otilde;ik ettev&otilde;tjale kuuluvad tegevuskohad antud kohaliku omavalitsuse haldusterritooriumil .</s><s>K&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 9 ja 10 nimetatud tegevusloale m&auml;rgitakse m&uuml;&uuml;gikohtade arv ja m&uuml;&uuml;givorm .</s>
+</p>
+<p>
+<s>( 5 ) Kohaliku omavalitsuse t&auml;itevorganil on &otilde;igus tegevuslubade v&auml;ljastamisel kehtestada t&auml;iendavaid tingimusi tulenevalt k&auml;esoleva seaduse &sect;-s 33 s&auml;testatust .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Tegevusloa kehtivus</s>
+</p>
+<p>
+<s>( 1 ) Tegevusluba v&auml;ljastatakse kuni kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusluba alkoholi jaem&uuml;&uuml;giks avalikul &uuml;ritusel v&auml;ljastatakse ettev&otilde;tjale selle &uuml;rituse toimumise ajaks .</s>
+</p>
+<p>
+<s>( 3 ) Alkoholi m&uuml;&uuml;gikohas peab asuma ostjale n&auml;htaval kohal vastaval tegevusalal tegutsemise &otilde;igust kinnitav kehtiv tegevusluba v&otilde;i selle koopia , mille on kinnitanud v&auml;ljastaja .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Tegevusloa v&auml;ljastaja</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 1-6 nimetatud tegevuslube v&auml;ljastab komisjon , mille koosseisu ja t&ouml;&ouml;korra m&auml;&auml;rab majandusminister .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 10 1&otilde;ike 2 punktides 7-10 nimetatud tegevuslube v&auml;ljastab kohaliku omavalitsuse t&auml;itevorgan .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa v&auml;ljastajad on kohustatud teavitama registrit kohe iga tegevusloa v&auml;ljastamisest , muutmisest v&otilde;i kehtetuks tunnistamisest .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Tegevusloa v&auml;ljastamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa saamiseks , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud juhtudel , tuleb esitada :</s>
+</p>
+<p>
+<s>1 ) taotlus , milles muu hulgas on kirjas iga tegevuskoha aadress ja antud tegevuse eest vastutava isiku nimi , ametinimetus ning kontaktandmed ;</s>
+</p>
+<p>
+<s>2 ) &auml;riregistrikaardi koopia ;</s>
+</p>
+<p>
+<s>3 ) Maksuameti kohaliku asutuse &otilde;iend maksuv&otilde;lgnevuste puudumise kohta ;</s>
+</p>
+<p>
+<s>4 ) Tolliameti &otilde;iend maksuv&otilde;lgnevuste puudumise kohta - k&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 1-5 nimetatud tegevusloa v&auml;ljastamisel ;</s>
+</p>
+<p>
+<s>5 ) Tervisekaitseinspektsiooni &otilde;iend tootmiseks kasutatavate ruumide ja tehniliste vahendite tervisekaitsen&otilde;uetele vastavuse kohta - k&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 1 ja 2 nimetatud tegevusloa v&auml;ljastamisel ;</s>
+</p>
+<p>
+<s>5 <hi rend="sup">1</hi> ) P&auml;&auml;steameti kohaliku asutuse &otilde;iend tooraine ladustamiseks ja alkoholi tootmiseks kasutatavate ruumide tuleohutusn&otilde;uetele vastavuse kohta - k&auml;esoleva seaduse paragrahv 10 l&otilde;ike 2 punktides 1 ja 2 nimetatud tegevusloa v&auml;ljastamisel ;</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>6 ) koopiad dokumentidest , mis kinnitavad tootmiseks kasutatavate ruumide ja tehniliste vahendite kasutamise &otilde;igust - k&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 1 ja 2 nimetatud tegevusloa v&auml;ljastamisel ;</s>
+</p>
+<p>
+<s>7 ) alkoholi , mida soovitakse k&auml;idelda , p&auml;ritolu t&otilde;endavate kokkulepete , volikirjade v&otilde;i muude seesuguste dokumentide koopiad - k&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 3-6 nimetatud tegevusloa v&auml;ljastamisel ;</s>
+</p>
+<p>
+<s>8 ) antud tegevuskohas kauplemiseks v&auml;ljastatud tegutsemisloa ( kauplemisloa ) koopia - k&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktides 7 ja 8 nimetatud tegevusloa v&auml;ljastamisel .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 7 nimetatud dokumentide koopiad peavad k&auml;sitlema registrisse kantud alkoholi , kusjuures k&auml;esoleva seaduse paragrahv 10 l&otilde;ike 2 punktides 3 ja 4 nimetatud tegevusloa taotlemisel peab alkohol olema kantud registrisse tegevusluba taotleva ettev&otilde;tja algatusel .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktis 9 v&otilde;i 10 nimetatud tegevusloa saamiseks tuleb esitada :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva paragrahvi l&otilde;ike 1 punkti 1 kohane taotlus ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect; 10 l&otilde;ike 2 punktis 7 v&otilde;i 8 nimetatud tegevusloa koopia ;</s>
+</p>
+<p>
+<s>3 ) avaliku &uuml;rituse korraldaja kirjalik n&otilde;usolek .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Tegevusloa v&auml;ljastamisest keeldumine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa v&auml;ljastamisest keeldutakse , kui tegevusloa taotleja ei esita k&auml;esoleva seaduse &sect;-s 14 nimetatud asjakohaseid dokumente v&otilde;i esitab tegelikkusele mittevastavaid andmeid .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tjale , kelle tegevusluba on tunnistatud kehtetuks k&auml;esoleva seaduse paragrahv 19 l&otilde;ike 1 punkti 2 alusel , on sama v&auml;ljastaja poolt keelatud v&auml;ljastada mis tahes liiki tegevusluba &uuml;he aasta jooksul tegevusloa kehtetuks tunnistamisest arvates .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>T&auml;iendavate andmete esitamise kohustus</s>
+</p>
+<p>
+<s>Tegevusloaga lubatud tegevuse eest vastutava isiku v&otilde;i tema ametinimetuse v&otilde;i kontaktandmete muutumisest peab tegevusloa omanik teavitama tegevusloa v&auml;ljastajat kirjalikult viie t&ouml;&ouml;p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Tegevusloa muutmine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusluba kuulub muutmisele :</s>
+</p>
+<p>
+<s>1 ) tegevusloa omaniku taotluse alusel - tegevusloale kantud andmete muutumisel ;</s>
+</p>
+<p>
+<s>2 ) tegevusloa v&auml;ljastaja algatusel - tegevusloa tingimuste muutumisel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud juhtudel annab tegevusloa v&auml;ljastaja l&otilde;ivuvabalt v&auml;lja uue sama liiki tegevusloa muudetava tegevusloa kehtivusajaga , kusjuures tegevusloa v&auml;ljastajal on &otilde;igus n&otilde;uda k&auml;esoleva seaduse &sect; 14 l&otilde;ikes 1 nimetatud asjakohaste dokumentide esitamist .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Tegevusloa kehtivuse peatamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa kehtivuse peatamine on lubatud avaliku korra tagamise huvides kuni tegevusloa kehtivuse peatamise tinginud asjaolu &auml;ralangemiseni :</s>
+</p>
+<p>
+<s>1 ) Vabariigi Valitsusel - riigis tervikuna ;</s>
+</p>
+<p>
+<s>2 ) maavanemal - maakonnas tervikuna ;</s>
+</p>
+<p>
+<s>3 ) kohaliku omavalitsuse t&auml;itevorganil - oma haldusterritooriumil tervikuna v&otilde;i teatud m&uuml;&uuml;gikohtade v&otilde;i &uuml;he m&uuml;&uuml;gikoha suhtes .</s>
+</p>
+<p>
+<s>( 2 ) Kui tegevusloa omanik j&auml;tkab tegevusloa alusel lubatud alkoholi k&auml;itlemist ajavahemikul , mil tegevusloa kehtivus on peatatud , loetakse see tegutsemiseks ilma tegevusloata .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Tegevusloa kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa tunnistab kehtetuks selle v&auml;ljastaja :</s>
+</p>
+<p>
+<s>1 ) tegevusluba omava ettev&otilde;tja taotluse alusel ;</s>
+</p>
+<p>
+<s>2 ) p&otilde;histatud esildise alusel - kui j&otilde;ustunud otsusega kriminaal- v&otilde;i haldus&otilde;iguserikkumise asjas on tuvastatud tegevusloaga lubatud tegevusalal alkoholi k&auml;itlemise korra raske rikkumine tegevusloa omaniku v&otilde;i tema t&ouml;&ouml;taja poolt .</s>
+</p>
+<p>
+<s>( 2 ) Alkoholi k&auml;itlemise korra raskeks rikkumiseks loetakse :</s>
+</p>
+<p>
+<s>1 ) alkoholi k&auml;itlemine ilma tegevusloata ;</s>
+</p>
+<p>
+<s>2 ) alkoholi t&auml;histamine kaubam&auml;rgiomaniku loata &otilde;iguskaitset omava kaubam&auml;rgiga identse v&otilde;i &auml;ravahetamiseni sarnase t&auml;hisega ;</s>
+</p>
+<p>
+<s>3 ) kauplemine alkoholiga , mille kohta puudub n&otilde;uetekohane saatedokument ;</s>
+</p>
+<p>
+<s>4 ) alkoholi sisseveol , v&auml;ljaveol , hulgim&uuml;&uuml;gil v&otilde;i hulgim&uuml;&uuml;gi korras omandamisel sularahata arveldamise n&otilde;ude eiramine ;</s>
+</p>
+<p>
+<s>5 ) Eestisse sissevedamiseks mittelubatud v&otilde;i v&otilde;ltsitud v&otilde;i muu registrisse mittekantud alkoholi sisse- ja v&auml;ljavedu , hulgi- ning jaem&uuml;&uuml;k ;</s>
+</p>
+<p>
+<s>6 ) alkoholi k&auml;itlemisel alkoholiaktsiisi seaduse ( RT I 1995 , 87 , 1539 ; 1996 , 45 , 852 ; 87 , 1544 ; 1997 , 35 , 540 ; 1998 , 103 , 1700 ; 1999 , 24 , 359 ) v&otilde;i k&auml;ibemaksuseaduse ( RT I 1993 , 60 , 847 ; 1996 , 63 , 1149 ; 76 , 1344 ; 81 , 1447 ; 1997 , 11 , 96 ; 40 , 621 ; 42 , 679 ; 48 , 773 ja 776 ; 72 , 1187 ; 74 , 1231 ja 1232 ; 1998 , 23 , 321 ; 57 , 863 ; 86/87 , 1410 ; 103 , 1702 ; 1999 , 18 , 302 ; 52 , 558 ) rikkumine ;</s>
+</p>
+<p>
+<s>7 ) alkoholi m&uuml;&uuml;k alla kaheksateistk&uuml;mne aasta vanusele isikule .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa v&auml;ljastaja v&otilde;ib tunnistada tegevusloa kehtetuks :</s>
+</p>
+<p>
+<s>1 ) kui tegevusloa omanik on selle loa taotlemisel esitanud tegevusloa v&auml;ljastajale andmeid , mis ei vasta tegelikkusele ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect;-s 16 s&auml;testatu eiramisel ;</s>
+</p>
+<p>
+<s>3 ) muul seaduses etten&auml;htud juhul .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Tegevusloa kehtetuks tunnistamise menetlus</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa v&auml;ljastajat tuleb p&otilde;histatult teavitada igast kriminaal- v&otilde;i haldus&otilde;iguserikkumise asjas j&otilde;ustunud otsusest , millega tegevusloa omanik v&otilde;i tema t&ouml;&ouml;taja on tunnistatud s&uuml;&uuml;di tegevusloaga lubatud tegevusalal asetleidnud alkoholi k&auml;itlemise korra raskes rikkumises .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud otsusest tuleb teavitada tegevusloa v&auml;ljastajat viie t&ouml;&ouml;p&auml;eva jooksul selle otsuse j&otilde;ustumise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatu korrektse ja &otilde;igeaegse t&auml;itmise eest vastutab k&auml;esoleva paragrahvi l&otilde;ikes 1 m&auml;rgitud otsuse teinud ametiisik , kohtunik v&otilde;i asja arutamise korral mitme kohtuniku poolt - eesistujaks olnud kohtunik .</s>
+</p>
+<p>
+<s>( 4 ) Otsus tegevusloa kehtetuks tunnistamise kohta tuleb teha viie t&ouml;&ouml;p&auml;eva jooksul vastava esildise v&otilde;i taotluse laekumise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud otsus j&otilde;ustub viiendal p&auml;eval selle tegemise p&auml;evast arvates .</s><s>Tegevusloa kehtetuks tunnistamise otsusest teavitatakse ettev&otilde;tjat kohe kirjalikult .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Alkoholi k&auml;itlemise &uuml;ldpiirangud</s>
+</p>
+<p>
+<s>( 1 ) Alkohol , mida Eestis toodetakse v&otilde;i Eestisse tegevusloa alusel v&otilde;i k&auml;esoleva seaduse paragrahv 27 l&otilde;ike 3 punkti 3 kohaselt sisse veetakse , peab olema identifitseeritav selle alkoholi m&uuml;&uuml;gipakendil asuva tootjapoolse partii t&auml;histuse ( partii number v&otilde;i tootmise kuup&auml;ev v&otilde;i aastak&auml;ik v&otilde;i kuup&auml;eva sisaldav minimaalne s&auml;ilimisaeg ) alusel .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Eestisse sissevedamiseks mittelubatud alkoholi ja v&otilde;ltsitud alkoholi k&auml;itlemine , hoidmine , ladustamine v&otilde;i edasitoimetamine on keelatud .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Eestisse sissevedamiseks mittelubatud alkohol</s>
+</p>
+<p>
+<s>Eestisse sissevedamiseks mittelubatud alkoholiks loetakse k&auml;esoleva seaduse &sect; 27 l&otilde;ikes 3 s&auml;testatud aluste puudumisel m&uuml;&uuml;gipakendi t&auml;histuse j&auml;rgselt v&auml;lisriigis toodetud alkohol , mis ei ole kantud registrisse .</s>
+</p>
+<p>
+<s>( 06.02.2001 j&otilde;ust.01.05.2001 - RT I 2001 , 18 , 87 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>V&otilde;ltsitud alkohol</s>
+</p>
+<p>
+<s>V&otilde;ltsitud alkoholiks loetakse alkohol :</s>
+</p>
+<p>
+<s>1 ) mis on t&auml;histatud kaubam&auml;rgiomaniku loata &otilde;iguskaitset omava kaubam&auml;rgiga identse v&otilde;i &auml;ravahetamiseni sarnase t&auml;hisega ;</s>
+</p>
+<p>
+<s>2 ) mis ei vasta registris s&auml;ilitatavale sama alkoholi n&auml;idisele v&otilde;i selle kirjeldusele .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Puskar</s>
+</p>
+<p>
+<s>( 1 ) Puskariks loetakse kodusel viisil p&auml;rmilisel alkoholk&auml;&auml;rimisel tekkiva liitse vedeliku destilleerimisel saadav alkohoolne jook , mis sisaldab puskari&otilde;lisid .</s>
+</p>
+<p>
+<s>( 2 ) Puskari k&auml;itlemine , hoidmine , ladustamine v&otilde;i edasitoimetamine on keelatud .</s>
+</p>
+<p>
+<s>( 3 ) Puskari valmistamine v&otilde;i villimine edasiandmise eesm&auml;rgita on keelatud .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Eestisse sissevedamiseks mittelubatud alkoholi , v&otilde;ltsitud alkoholi ja puskariga seoses kohaldatavad meetmed</s>
+</p>
+<p>
+<s>( 1 ) Alkoholi k&auml;itlemise &uuml;le j&auml;relevalve teostamisel avastatud Eestisse sissevedamiseks mittelubatud alkohol , v&otilde;ltsitud alkohol v&otilde;i puskar , samuti nende valmistamiseks , t&ouml;&ouml;tlemiseks v&otilde;i villimiseks kasutatavad vahendid ja riistad kuuluvad erikonfiskeerimisele &uuml;hes karistuse kohaldamisega neid aineid v&otilde;i esemeid k&auml;idelnud , hoidnud , ladustanud v&otilde;i edasitoimetanud isikule v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatu laieneb puskarit edasiandmise eesm&auml;rgita valmistanud v&otilde;i villinud isikule .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 06.02.2001 j&otilde;ust.01.05.2001 - RT I 2001 , 18 , 87 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Alkoholi k&auml;itlemise &uuml;ldised n&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Alkoholi tootmine</s>
+</p>
+<p>
+<s>( 1 ) Alkoholi tootmiseks kasutatavad ruumid ja tehnilised vahendid peavad olema alkoholi tootja ainukasutuses .</s>
+</p>
+<p>
+<s>( 2 ) Alkoholi tootja peab pidama arvestust tooraine , toodangu ja toodangul kasutatava tootjapoolse partii t&auml;histuse numbrikombinatsioonide kohta .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu -16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>( 4 ) Alkoholi tootmise toorainena on keelatud kasutada denatureeritud ja s&uuml;nteetilist piiritust .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Alkoholi sisse- ja v&auml;ljavedu</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa alusel sisse- v&otilde;i v&auml;ljaveetav alkohol lubatakse tolliterritooriumile v&otilde;i sealt v&auml;lja alles p&auml;rast seda , kui lisaks tollieeskirjades s&auml;testatud n&otilde;uetele on alkoholi k&auml;itleja tollile esitanud :</s>
+</p>
+<p>
+<s>1 ) tegevusloa originaali v&otilde;i selle v&auml;ljastaja poolt kinnitatud koopia ;</s>
+</p>
+<p>
+<s>2 ) registri &otilde;iendi selle alkoholi registrisse kandmise kohta .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa alusel sisse- v&otilde;i v&auml;ljaveetava alkoholi kohta koostatavas kaubadeklaratsioonis peab kajastuma selle alkoholi k&auml;esoleva seaduse &sect; 29 l&otilde;ike 1 punkti 1 kohane m&auml;&auml;ratlus .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloata on lubatud alkoholi sisse tuua :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tjal n&auml;itusele kuni &uuml;heks aastaks , kui ta j&auml;rgib tolliseaduses s&auml;testatud sisseveo n&otilde;udeid ja kohustub selle alkoholi muutmata kujul taas v&auml;lja vedama ;</s>
+</p>
+<p>
+<s>2 ) reisijate tollieeskirjas etten&auml;htud korras ja koguses ;</s>
+</p>
+<p>
+<s>3 ) n&auml;idisena esitamiseks registrile seda n&auml;idist identifitseeriva vastavusdeklaratsiooni v&otilde;i -sertifikaadi tollikontrollis esitamise korral ;</s>
+</p>
+<p>
+<s>4 ) v&auml;lisriikide diplomaatiliste ja konsulaaresinduste poolt tolliseaduse &sect; 56 alusel .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Arveldamine alkoholi sisse- ja v&auml;ljaveol ning hulgim&uuml;&uuml;gil</s>
+</p>
+<p>
+<s>Alkoholi tegevusloa alusel sisse- v&otilde;i v&auml;ljaveo , samuti hulgim&uuml;&uuml;gi korral tasutakse selle alkoholi eest ostja pangakontolt m&uuml;&uuml;ja pangakontole sularahata arvelduse korras .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Alkoholi saatedokument</s>
+</p>
+<p>
+<s>( 1 ) Alkoholi hulgim&uuml;&uuml;k tuleb vormistada paberkandjal saatedokumendiga , mis v&otilde;imaldab kaupa ja selle partiid identifitseerida .</s><s>Saatedokumendil peab lisaks muudele seaduses s&auml;testatud n&otilde;uetele olema m&auml;rgitud :</s>
+</p>
+<p>
+<s>1 ) kauba m&auml;&auml;ratlus ( liik , nimetus , tootja , tootjapoolne partii t&auml;histus , m&uuml;&uuml;gipakendi maht , etanoolisisaldus mahuprotsentides ) ;</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>2 ) realiseeritava alkoholi registrikande number ja kuup&auml;ev ;</s>
+</p>
+<p>
+<s>3 ) hulgim&uuml;&uuml;ja tegevusloa number ;</s>
+</p>
+<p>
+<s>4 ) kaubadeklaratsiooni number ( vaid sisseveetud kauba puhul ) .</s>
+</p>
+<p>
+<s>( 2 ) Alkoholi m&uuml;&uuml;gile v&otilde;tmisel peab kontrollima saatedokumendi n&otilde;uetekohasust ja tootjapoolse tootepartii t&auml;histuse vastavust saatedokumendile .</s>
+</p>
+<p>
+<s>( 3 ) Alkoholi hulgi- v&otilde;i jaem&uuml;&uuml;k on lubatud vaid n&otilde;uetekohase saatedokumendi alusel .</s><s>N&otilde;uetekohane saatedokument peab asuma alkoholi m&uuml;&uuml;gikohas selle alusel soetatud kauba m&uuml;&uuml;gi l&otilde;puni .</s>
+</p>
+<p>
+<s>( 4 ) Ettev&otilde;tjal on lubatud asendada saatjaettev&otilde;tja saatedokument ettev&otilde;ttesisese saatedokumendiga .</s>
+</p>
+<p>
+<s>( 5 ) Ettev&otilde;ttesisene saatedokument loetakse n&otilde;uetekohaseks , kui sellel dokumendil on viited algdokumendile k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1-4 t&auml;hendatud ulatuses ja kui see dokument v&otilde;imaldab kaupa ning selle partiid identifitseerida .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Alkoholi m&uuml;&uuml;gihind</s>
+</p>
+<p>
+<s>( 1 ) Alkoholi m&uuml;&uuml;gihind peab olema v&auml;lja pandud m&uuml;&uuml;gikohas koos kauban&auml;idisega v&otilde;i m&auml;rgitud men&uuml;&uuml;sse .</s>
+</p>
+<p>
+<s>( 2 ) Alkoholi m&uuml;&uuml;gihind peab olema m&auml;rgitud kauba saatedokumendile p&uuml;siva kandena .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu -16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Keelud alkoholi jaem&uuml;&uuml;gil</s>
+</p>
+<p>
+<s>Alkoholi jaem&uuml;&uuml;k on keelatud :</s>
+</p>
+<p>
+<s>1 ) alla kaheksateistk&uuml;mne aasta vanusele isikule , kusjuures m&uuml;&uuml;jal on kohustus sellekohase kahtluse korral n&otilde;uda ostjalt tema isikut t&otilde;endava dokumendi esitamist ja keelduda alkoholi m&uuml;&uuml;misest eelnimetatud dokumendi mitteesitamise korral ;</s>
+</p>
+<p>
+<s>2 ) ilmses joobeseisundis isikule ;</s>
+</p>
+<p>
+<s>3 ) alla kaheksateistk&uuml;mne aasta vanuse isiku poolt ;</s>
+</p>
+<p>
+<s>4 ) kui alkoholi etanoolisisaldus on &uuml;le 80 mahuprotsendi .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Piirangud alkoholi jaem&uuml;&uuml;gil</s>
+</p>
+<p>
+<s>( 1 ) Alkoholi jaem&uuml;&uuml;k on lubatud ainult kaupluses , toitlustus&auml;ris , t&auml;navakaubanduses v&otilde;i avalikul &uuml;ritusel , kusjuures t&auml;navakaubanduses on lubatud vaid kuni 6-mahuprotsendilise ( kaasa arvatud ) etanoolisisaldusega alkohoolse joogi jaem&uuml;&uuml;k .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Pakendamata alkoholi jaem&uuml;&uuml;k on lubatud ainult toitlustus&auml;ris ja avalikul &uuml;ritusel , kusjuures alkoholisegu valmistamine on lubatud vaid toitlustus&auml;ris ning tarbija poolt sellekohase tellimuse esitamise korral .</s>
+</p>
+<p>
+<s>( 3 ) Piirituse jaem&uuml;&uuml;k on lubatud vaid apteegis retsepti alusel .</s>
+</p>
+<p>
+<s>( 4 ) Alkoholi jaem&uuml;&uuml;k laste- , meditsiini- , kultus- , hoolekande- ja kinnipidamisasutuste ning kaitsev&auml;eosade ruumides ja territooriumil ei ole lubatud .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Kohaliku omavalitsuse p&auml;devus alkoholi jaem&uuml;&uuml;gi reguleerimisel</s>
+</p>
+<p>
+<s>( 1 ) Kohaliku omavalitsuse volikogul on &otilde;igus oma haldusterritooriumil :</s>
+</p>
+<p>
+<s>1 ) kehtestada alkoholi jaem&uuml;&uuml;gil lisaks k&auml;esoleva seaduse &sect;-s 32 nimetatule sortimenti , m&uuml;&uuml;gikohti ja m&uuml;&uuml;givormi puudutavad piirangud ;</s>
+</p>
+<p>
+<s>2 ) piirata alkoholiga kauplemise aega .</s>
+</p>
+<p>
+<s>( 2 ) Kohaliku omavalitsuse t&auml;itevorganil on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) koosk&otilde;las k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatuga m&auml;&auml;rata kindlaks alkoholi jaem&uuml;&uuml;gi tingimused &uuml;he m&uuml;&uuml;gikoha suhtes ;</s>
+</p>
+<p>
+<s>2 ) keelduda avaliku korra tagamise huvides avalikul &uuml;ritusel alkoholi jaem&uuml;&uuml;ki teostada soovivale isikule tegevusloa v&auml;ljastamisest .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve ja vastutus</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Alkoholi k&auml;itlemise j&auml;relevalve teostajad</s>
+</p>
+<p>
+<s>Alkoholi k&auml;itlemise j&auml;relevalvet teostavad Maksuamet , Piirivalveamet , Politseiamet , Tarbijakaitseamet ja Tolliamet ning linna- ja vallavalitsused .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Alkoholi k&auml;itlemise j&auml;relevalvet teostava ametiisiku &otilde;igused</s>
+</p>
+<p>
+<s>Alkoholi k&auml;itlemise j&auml;relevalvet teostaval ametiisikul on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) kontrollida k&auml;esoleva seaduse t&auml;itmist takistamatult ja ette teatamata , seejuures vajaduse korral kontrolloste sooritades ;</s>
+</p>
+<p>
+<s>2 ) siseneda alkoholi k&auml;itleja territooriumile , hoonesse , rajatisse , ruumi v&otilde;i avada tema veovahendeid ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;uda alkoholi k&auml;itlemist puudutavate dokumentide kohest esitamist , neid kohapeal kontrollida , saada dokumendi &auml;rakirja v&otilde;i v&auml;ljav&otilde;tet , v&otilde;tta v&otilde;etuse protokolliga &auml;ra asja &otilde;igeks lahendamiseks t&auml;htsust omavaid dokumente ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;tta proove ja saata need majandusministri m&auml;&auml;ratud akrediteeritud laborisse anal&uuml;&uuml;simiseks ;</s>
+</p>
+<p>
+<s>5 ) v&otilde;tta n&auml;idiseid ja esitada need registrile , samuti kaubam&auml;rgiomanikule , tema &otilde;iguste valdajale v&otilde;i nende esindajale v&otilde;rdlemiseks ;</s>
+</p>
+<p>
+<s>6 ) n&otilde;uda &otilde;iguserikkumise l&otilde;petamist ;</s>
+</p>
+<p>
+<s>7 ) k&auml;esoleva seaduse rikkumise korral plommida v&otilde;i pitseerida alkoholi hoiukoht v&otilde;i veo vahend v&otilde;i teostada alkoholi v&otilde;etus ;</s>
+</p>
+<p>
+<s>8 ) menetleda k&auml;esoleva seaduse eiramisega seotud kriminaalasju v&otilde;i haldus&otilde;iguserikkumise asju eriseadusega s&auml;testatud korras ;</s>
+</p>
+<p>
+<s>9 ) saada registrist k&otilde;iki andmeid .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Vastutuse kohaldamise alused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses s&auml;testatud n&otilde;uete rikkumine toob kaasa kriminaal- v&otilde;i haldusvastutuse .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;&uuml;silisele isikule k&auml;esoleva seaduse rikkumise eest kohaldatav kriminaal- v&otilde;i haldusvastutus ei v&auml;lista haldusvastutuse kohaldamist asjakohasele juriidilisele isikule .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>( 1 ) Juriidilise isiku poolt :</s>
+</p>
+<p>
+<s>1 ) alkoholi tegevusloata k&auml;itlemise v&otilde;i</s>
+</p>
+<p>
+<s>2 ) alkoholi ilma kaubam&auml;rgiomaniku loata &otilde;iguskaitset omava kaubam&auml;rgiga identse v&otilde;i &auml;ravahetamiseni sarnase t&auml;hisega t&auml;histamise v&otilde;i</s>
+</p>
+<p>
+<s>3 ) alkoholiga , mille kohta puudub n&otilde;uetekohane saatedokument , kauplemise v&otilde;i</s>
+</p>
+<p>
+<s>4 ) alkoholi omandamisel v&otilde;i m&uuml;&uuml;gil sularahata arveldamise n&otilde;ude eiramise v&otilde;i</s>
+</p>
+<p>
+<s>5 ) Eestisse sissevedamiseks mittelubatud v&otilde;i v&otilde;ltsitud v&otilde;i muu registrisse mittekantud alkoholi sisse- v&otilde;i v&auml;ljaveo v&otilde;i</s>
+</p>
+<p>
+<s>6 ) Eestisse sissevedamiseks mittelubatud v&otilde;i v&otilde;ltsitud v&otilde;i muu registrisse mittekantud alkoholi hulgi- v&otilde;i jaem&uuml;&uuml;gi v&otilde;i</s>
+</p>
+<p>
+<s>7 ) Eestisse sissevedamiseks mittelubatud v&otilde;i v&otilde;ltsitud v&otilde;i muu registrisse mittekantud alkoholi hoidmise , ladustamise v&otilde;i edasitoimetamise eest</s>
+</p>
+<p>
+<s>- m&auml;&auml;ratakse rahatrahv 50 000 kuni 500 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilise isiku poolt k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetamata k&auml;esoleva seaduse rikkumise eest - m&auml;&auml;ratakse rahatrahv 5000 kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Menetlus juriidilise isiku haldus&otilde;iguserikkumise asjas</s>
+</p>
+<p>
+<s>( 1 ) Menetlus k&auml;esoleva seaduse &sect;-s 37 s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumise asjas , kaasa arvatud karistuse m&auml;&auml;ramine ja vaidlustamine , toimub haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 58 , 608 ; 92 , 825 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ; 49 , 305 ; 51 , 321 ; 54 , 351 ; 54 , 346 ; 54 , 348 ; 54 , 351 ; 55 , 361 ; 58 , 376 ; 84 , 533 ; 86 , 544 ; 86 , 548 ; 95 , 609 ; 95 , 613 ; 2001 , 21 , 115 ; 21 , 116 ; 89 , 578 ) kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-s 37 s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumiste kohta haldus&otilde;iguserikkumise protokolli koostamise &otilde;igus on k&auml;esoleva seaduse &sect;-s 34 nimetatud asutuste ametiisikutel vastavalt oma p&auml;devusele .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-s 37 s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumiste asju arutab halduskohtunik .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 37 l&otilde;ikes 1 nimetatud haldus&otilde;iguserikkumiste puhul kohaldatakse haldus&otilde;iguserikkumise vahetuks objektiks olnud alkoholi erikonfiskeerimist .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Toimingud &auml;rav&otilde;etud ja erikonfiskeeritud alkoholiga</s>
+</p>
+<p>
+<s>( 1 ) Haldus&otilde;iguserikkumise asja v&otilde;i kriminaalasja menetlemisel tehtud alkoholi erikonfiskeerimise otsuse j&otilde;ustumiseni korraldab j&auml;relevalve teostamisel &auml;rav&otilde;etud alkoholi hoidmist majandusminister .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &uuml;lesande t&auml;itmise kulud n&auml;hakse ette sihtotstarbeliste kuludena riigieelarves .</s>
+</p>
+<p>
+<s>( 3 ) Alternatiivselt k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatule v&otilde;ib j&auml;relevalve teostamisel &auml;rav&otilde;etud alkoholi hoida selle asutuse , mille ametiisik alkoholi &auml;ra v&otilde;ttis , asit&otilde;endite hoidlas v&otilde;i muus antud asutuse valduses olevas ruumis .</s>
+</p>
+<p>
+<s>( 4 ) Erikonfiskeerimise otsuse j&otilde;ustumisel erikonfiskeeritud alkohol :</s>
+</p>
+<p>
+<s>1 ) realiseeritakse selle alkoholi asukoha j&auml;rgse maavalitsuse kaudu koosk&otilde;lastatult Maksuametiga t&ouml;&ouml;tlemiseks tehnilisel otstarbel v&otilde;i</s>
+</p>
+<p>
+<s>2 ) h&auml;vitatakse .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Alkoholi k&auml;itlemise j&auml;relevalve teostamisel &auml;rav&otilde;etud alkoholi hoidmisega seotud kulutuste h&uuml;vitamine</s>
+</p>
+<p>
+<s>Alkoholi k&auml;itlemise j&auml;relevalve teostamisel &auml;rav&otilde;etud alkoholi hoidmisega seotud kulutused kuuluvad &otilde;iguserikkuja poolt h&uuml;vitamisele haldus&otilde;iguserikkumiste seadustikus v&otilde;i kriminaalmenetluse koodeksis ( ENSV &Uuml;T 1961 , 1 , 4 ja lisa ; RT I 2000 , 56 , 369 ; 84 , 533 ; 86 , 542 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Muudatused ja t&auml;iendused teistes seadustes</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; 2000 , 5 , 32 ; 10 , 58 ; 19 , 117 ; 26 , 150 ; 29 , 168 ; 29 , 169 ; 39 , 237 ; 49 , 300 ; 54 , 346 ; 54 , 349 ; 55 , 365 ; 57 , 372 ; 57 , 373 ; 59 , 379 ; 78 , 498 ; 84 , 534 ; 92 , 597 ; 92 , 598 ; 95 , 607 ; 95 , 611 ; 2001 , 2 , 2 ; 16 , 72 ) tehakse j&auml;rgmised muudatused ja t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 183 l&otilde;ikest 2 j&auml;etakse v&auml;lja s&otilde;na &ldquo; alkoholi , &rdquo; ; a</s>
+</p>
+<p>
+<s>2 ) paragrahvi 183 l&otilde;ikest 3 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; alkoholi ning &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 183 t&auml;iendatakse l&otilde;igetega 3 <hi rend="sup">2</hi> ja 3 <hi rend="sup">3</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 <hi rend="sup">2</hi> ) Alkoholi k&auml;itlemise tegevusloa , mille kehtivus on &uuml;hest aastast kuni kolme aastani , v&auml;ljastamise eest tasutakse riigil&otilde;ivu j&auml;rgmistel tegevusaladel j&auml;rgmistes m&auml;&auml;rades :</s>
+</p>
+<p>
+<s>1 ) alkoholi tootmine - 110 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) lahja alkohoolse joogi tootmine - 65 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) alkoholi sissevedu - 140 000 krooni ;</s>
+</p>
+<p>
+<s>4 ) lahja alkohoolse joogi sissevedu - 80 000 krooni ;</s>
+</p>
+<p>
+<s>5 ) alkoholi v&auml;ljavedu - 5000 krooni ;</s>
+</p>
+<p>
+<s>6 ) alkoholi hulgim&uuml;&uuml;k - 50 000 krooni ;</s>
+</p>
+<p>
+<s>7 ) alkoholi jaem&uuml;&uuml;k - 22 000 krooni ;</s>
+</p>
+<p>
+<s>8 ) lahja alkohoolse joogi jaem&uuml;&uuml;k - 8000 krooni .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">3</hi> ) Alkoholi k&auml;itlemise tegevusloa , mille kehtivus on kuni &uuml;ks aasta , v&auml;ljastamise eest tasutakse riigil&otilde;ivu j&auml;rgmistel tegevusaladel j&auml;rgmistes m&auml;&auml;rades :</s>
+</p>
+<p>
+<s>1 ) alkoholi tootmine - 40 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) lahja alkohoolse joogi tootmine - 25 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) alkoholi sissevedu - 50 000 krooni ;</s>
+</p>
+<p>
+<s>4 ) lahja alkohoolse joogi sissevedu - 30 000 krooni ;</s>
+</p>
+<p>
+<s>5 ) alkoholi v&auml;ljavedu - 2000 krooni ;</s>
+</p>
+<p>
+<s>6 ) alkoholi hulgim&uuml;&uuml;k - 20 000 krooni ;</s>
+</p>
+<p>
+<s>7 ) alkoholi jaem&uuml;&uuml;k - 8000 krooni ;</s>
+</p>
+<p>
+<s>8 ) lahja alkohoolse joogi jaem&uuml;&uuml;k - 3000 krooni ;</s>
+</p>
+<p>
+<s>9 ) alkoholi jaem&uuml;&uuml;k avalikul &uuml;ritusel - 500 krooni ;</s>
+</p>
+<p>
+<s>10 ) lahja alkohoolse joogi jaem&uuml;&uuml;k avalikul &uuml;ritusel - 500 krooni . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Alkoholiaktsiisi seaduses ( RT I 1995 , 87 , 1539 ; 1996 , 45 , 852 ; 87 , 1544 ; 1997 , 35 , 540 ; 1998 , 103 , 1700 ) tehakse j&auml;rgmised muudatused ja t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 6 punktist 7 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; kuulub v&auml;lisriigis registreeritud juriidilisele isikule ning &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 6 punkt 8 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 8 ) riiklikule alkoholiregistrile n&auml;idisena esitatavat alkoholi - seda n&auml;idist identifitseeriva vastavusdeklaratsiooni v&otilde;i -sertifikaadi tollikontrollis esitamise korral ; &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 6 t&auml;iendatakse punktiga 10 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 10 ) kehtestatud korras t&ouml;&ouml;tlemiseks realiseeritavat erikonfiskeeritud alkoholi . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Tarbijakaitseseaduses ( RT I 1994 , 2 , 13 ; 1995 , 20 , 297 ; 1996 , 49 , 953 ; 1997 , 93 , 1561 ; 1999 , 10 , 156 ; 24 , 359 ; 30 , 415 ; 102 , 907 ; 2000 , 40 , 252 ; 59 , 379 ) tehakse j&auml;rgmised muudatused ja t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 11 l&otilde;ike 3 esimesest lausest j&auml;etakse v&auml;lja s&otilde;na &ldquo; alkoholi , &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 17 <hi rend="sup">1</hi> pealkirjast j&auml;etakse v&auml;lja s&otilde;na &ldquo; alkoholi , &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 17 <hi rend="sup">1</hi> l&otilde;ige 1 tunnistatakse kehtivuse kaotanuks ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 17 <hi rend="sup">1</hi> l&otilde;ikest 3 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; 1. ja &rdquo; ;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 17 <hi rend="sup">1</hi> l&otilde;ikest 4 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; 1. ja &rdquo; ja s&otilde;na &ldquo; alkohol , &rdquo; ;</s>
+</p>
+<p>
+<s>6 ) paragrahvi 18 l&otilde;ige 5 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 ) F&uuml;&uuml;silisele isikule k&auml;esoleva seaduse rikkumise eest kohaldatav kriminaal- v&otilde;i haldusvastutus ei v&auml;lista haldusvastutuse kohaldamist asjakohasele juriidilisele isikule . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>7 ) paragrahvi 18 <hi rend="sup">1</hi> pealkirjast ja tekstist j&auml;etakse v&auml;lja s&otilde;na &ldquo; alkohol &rdquo; vastavas k&auml;&auml;ndes .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) Enne k&auml;esoleva seaduse j&otilde;ustumist Vabariigi Valitsuse kehtestatud korras alkoholi tootmiseks , sisseveoks , v&auml;ljaveoks , hulgim&uuml;&uuml;giks v&otilde;i jaem&uuml;&uuml;giks v&auml;ljastatud tegevuslitsents , mille kehtivus l&otilde;peb 2000. aasta 1. jaanuaril v&otilde;i varem , kehtib sellel m&auml;rgitud t&auml;htp&auml;eva saabumiseni .</s>
+</p>
+<p>
+<s>( 2 ) Enne k&auml;esoleva seaduse j&otilde;ustumist alkoholi tootmiseks , sisseveoks , v&auml;ljaveoks , hulgim&uuml;&uuml;giks v&otilde;i jaem&uuml;&uuml;giks v&auml;ljastatud k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetamata tegevuslitsentsi omanikule v&auml;ljastatakse kehtiva tegevuslitsentsi asemel 2000. aasta 1. m&auml;rtsini k&auml;esoleva seaduse paragrahv 13 l&otilde;igetes 1 ja 2 nimetatud tegevuslubade v&auml;ljastajate poolt k&auml;esoleva seaduse paragrahv 10 l&otilde;ikes 2 s&auml;testatud vastavat liiki tegevusluba tegevuslitsentsi kehtivusajaga , arvestades k&auml;esoleva seadusega kehtestatud keelde ning piiranguid , l&otilde;ivuga , mida on v&auml;hendatud senise tegevuslitsentsi eest makstud l&otilde;ivusumma v&otilde;rra Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 ; 15.12.1999 j&otilde;ust.10.01.2000 - RT I 1999 , 102 , 907 )</s>
+</p>
+<p>
+<s>( 3 ) Tegevuslubade v&auml;ljastajad peavad hiljemalt 1999. aasta 15. maiks esitama registrile andmed nende poolt v&auml;ljastatud k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud tegevuslitsentside kohta .</s>
+</p>
+<p>
+<s>( 4 ) Enne k&auml;esoleva seaduse j&otilde;ustumist kehtinud &otilde;igusakte j&auml;rgides Eestis toodetud v&otilde;i Eestisse sisseveetud ja k&auml;esoleva seaduse j&otilde;ustudes ringluses oleva alkoholi tootjal v&otilde;i sissevedajal tuleb taotleda selle registrisse kandmist , kusjuures sisseveetud alkoholi puhul ei kohaldata k&auml;esoleva seaduse &sect; 5 punktis 3 s&auml;testatud tolliametniku m&auml;rke n&otilde;uet .</s>
+</p>
+<p>
+<s>( 5 ) Enne k&auml;esoleva seaduse j&otilde;ustumist kehtinud &otilde;igusakte j&auml;rgides Eestis toodetud v&otilde;i Eestisse sisseveetud piiritus ja alkohoolsed joogid , mis ei ole kantud registrisse , v&otilde;ivad olla ringluses 2000. aasta 1. jaanuarini , kusjuures ei kohaldata k&auml;esoleva seaduse paragrahv 29 l&otilde;ike 1 punktis 2 s&auml;testatut .</s><s>Nimetatud alkoholi jaem&uuml;&uuml;gil tuleb arvestada k&auml;esoleva seadusega kehtestatud keelde ja piiranguid .</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.19.07.99 - RT I 1999 , 58 , 610 )</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva seaduse &sect; 37 j&auml;rgi kohaldatud rahatrahv , mis on m&auml;&auml;ratud linna- v&otilde;i vallavalitsuse ametiisiku koostatud haldus&otilde;iguserikkumise protokolli alusel , laekub vastava kohaliku omavalitsuse eelarvesse .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 1999. aasta 15. aprillil , arvestades k&auml;esoleva seaduse &sect;-s 44 ja k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud erisusi .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas seaduses sisalduvad volitusnormid Vabariigi Valitsuse v&otilde;i majandusministri m&auml;&auml;ruste andmiseks j&otilde;ustuvad seaduse Riigi Teatajas avaldamisele j&auml;rgneval p&auml;eval , kusjuures volitusnormi alusel antavat m&auml;&auml;rust ei j&otilde;ustata enne 1999. aasta 15. aprilli .</s>
+</p>
+</body>
+   </text>
+</tei.2>

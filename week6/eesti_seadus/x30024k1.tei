@@ -1,0 +1,667 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Rahapesu t&otilde;kestamise seadus ( terviktekst nov 2000 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3139</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Rahapesu t&otilde;kestamise seadus ( terviktekst nov 2000 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=1></tagusage>
+         <tagusage gi=p occurs=187></tagusage>
+         <tagusage gi=s occurs=228></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Rahapesu t&otilde;kestamise seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 25. novembril 1998. a ,</s>
+</p>
+<p>
+<s>( RT I 1998 , 110 , 1811 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. juulil 1999. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>Rahapesu t&otilde;kestamise seadus reguleerib krediidi- ja finantseerimisasutuste ning teiste k&auml;esolevas seaduses s&auml;testatud ettev&otilde;tjate , samuti rahapesu andmeb&uuml;roo tegevust rahapesu t&otilde;kestamisel .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Rahapesu</s>
+</p>
+<p>
+<s>Rahapesu on kriminaalkorras karistatava teo otsese tulemusena saadud vara muundamine , &uuml;leandmine v&otilde;i varaga &otilde;igustoimingute sooritamine , mille eesm&auml;rgiks v&otilde;i tagaj&auml;rjeks on selle vara tegeliku omaniku ning ebaseadusliku p&auml;ritolu varjamine .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Krediidiasutus</s>
+</p>
+<p>
+<s>Krediidiasutus k&auml;esoleva seaduse m&otilde;istes on krediidiasutus krediidiasutuste seaduse ( RT I 1995 , 4 , 36 ; 1998 , 59 , 941 ) t&auml;henduses ning Eestis &auml;riregistrisse kantud v&auml;lisriigi krediidiasutuse filiaal .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Finantseerimisasutus</s>
+</p>
+<p>
+<s>( 1 ) Finantseerimisasutus k&auml;esoleva seaduse m&otilde;istes on finantseerimisasutus krediidiasutuse seaduse t&auml;henduses ning Eestis &auml;riregistrisse kantud v&auml;lisriigi finantseerimisasutuse filiaal .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud finantseerimisasutus on k&auml;esoleva seaduse m&otilde;istes ka :</s>
+</p>
+<p>
+<s>1 ) kindlustusandja , kindlustusagent , kindlustusmaakler kindlustusseaduse ( RT 1992 , 48 , 601 ; RT I 1995 , 26-28 , 355 ; 1996 , 23 , 455 ; 40 , 773 ; 1998 , 61 , 979 ) t&auml;henduses ;</s>
+</p>
+<p>
+<s>2 ) investeerimisfond investeerimisfondide seaduse ( RT I 1997 , 34 , 535 ; 1998 , 61 , 979 ) t&auml;henduses ;</s>
+</p>
+<p>
+<s>3 ) v&auml;&auml;rtpaberituru kutseline osaline v&auml;&auml;rtpaberituru seaduse ( RT I 1993 , 35 , 543 ; 1995 , 22 , 328 ; 1996 , 26 , 528 ; 1997 , 34 , 535 ; 1998 , 61 , 979 ) t&auml;henduses .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Muu ettev&otilde;tja , keda v&otilde;idakse kasutada rahapesu teostamisel</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tja , kes ei ole k&auml;esoleva seaduse m&otilde;istes krediidi- v&otilde;i finantseerimisasutus , kuid keda v&otilde;idakse kasutada rahapesu teostamisel , on :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tja , kelle peamiseks v&otilde;i p&uuml;sivaks tegevuseks on tehingud kinnisvaraga v&otilde;i hasartm&auml;ngude v&otilde;i loteriide korraldamine , samuti ettev&otilde;tja , kes on nendel tegevusaladel vahendajaks ;</s>
+</p>
+<p>
+<s>2 ) muu ettev&otilde;tja , kes sooritab v&otilde;i vahendab tehinguid v&auml;hemalt k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 3 nimetatud v&auml;&auml;rtuses .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud ettev&otilde;tjale laienevad k&auml;esoleva seaduse s&auml;tted , mis reguleerivad otseselt nimetatud ettev&otilde;tja tegevust .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Isikusamasuse tuvastamine</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>&Uuml;ldine isikusamasuse tuvastamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Krediidi- ja finantseerimisasutus on kohustatud tuvastama isikusamasuse k&otilde;igil isikutel v&otilde;i nende esindajatel , kes sooritavad sularahata tehingu &uuml;le 200 000 krooni v&otilde;i sularahatehingu &uuml;le 100 000 krooni .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) Krediidi- ja finantseerimisasutus on kohustatud tuvastama ka k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud piirm&auml;&auml;radest v&auml;iksema tehingu sooritaja isikusamasuse , kui :</s>
+</p>
+<p>
+<s>1 ) tehing on ilmselt seotud teise tehinguga v&otilde;i teiste tehingutega selliselt , et nende tehingute summa &uuml;letab k&auml;esoleva paragrahvi l&otilde;ikes 1 toodud m&auml;&auml;ra .</s><s>Kui ilmset seost omavate tehingute sooritamise ajal ei ole nende tehingute &uuml;ldsumma teada , tuleb isikusamasus tuvastada siis , kui saab teatavaks , et vastav tehingute summa &uuml;letab nimetatud m&auml;&auml;ra ;</s>
+</p>
+<p>
+<s>2 ) krediidi- v&otilde;i finantseerimisasutusel tekib kahtlus , et tehingu objektiks olev raha on omandatud kuritegelikul teel .</s>
+</p>
+<p>
+<s>( 3 ) Krediidi- ja finantseerimisasutus on kohustatud tuvastama isikusamasuse k&otilde;igil isikutel , kellele avatakse konto , samuti nende esindajatel .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 4 ) Krediidi- ja finantseerimisasutus on kohustatud konto pidama kontoomaniku nimel .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Isikusamasuse tuvastamise erisused</s>
+</p>
+<p>
+<s>( 1 ) Paragrahvis 6 s&auml;testatud kohustus loetakse t&auml;idetuks , kui krediidi- v&otilde;i finantseerimisasutus on isikuga varem tehinguid sooritades tema isikusamasuse tuvastanud .</s>
+</p>
+<p>
+<s>( 2 ) Paragrahvi 6 l&otilde;iget 1 ei kohaldata Eesti krediidiasutuste omavaheliste &otilde;igustoimingute puhul .</s>
+</p>
+<p>
+<s>( 3 ) Paragrahvi 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja on kohustatud tuvastama &sect;-s 9 nimetatud dokumentide alusel isikusamasuse k&otilde;igil isikutel , kellega ta tehingu v&otilde;i omavahel ilmselgelt seoses olevate tehingute sooritamisel kokku v&otilde;tab vastu , vahendab v&otilde;i maksab v&auml;lja sularaha &uuml;le 100 000 krooni , sularahata arveldamise korral &uuml;le 200 000 krooni v&otilde;i tehingu v&otilde;i omavahel ilmselgelt seoses olevate tehingute eest nii sularahas kui sularahata arveldamise korral sularahas ja sularahata maksetena kokku &uuml;le 200 000 krooni .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;iget 3 ei kohaldata sularaha ja v&auml;&auml;rtpaberite transportimisel .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Isikusamasuse tuvastamise erisused kindlustuslepingute s&otilde;lmimisel</s>
+</p>
+<p>
+<s>( 1 ) Kindlustusandja , kindlustusagent v&otilde;i kindlustusmaakler on kohustatud tuvastama isikusamasuse isikutel , kes tasuvad s&otilde;lmitud kindlustuslepingute eest sularahas :</s>
+</p>
+<p>
+<s>1 ) aasta jooksul j&auml;rgpreemiatena &uuml;he lepingu eest &uuml;le 14 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) &uuml;hekordse preemiamaksmisega lepingu eest &uuml;le 35 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) kindlustuspreemia ettemaksena &uuml;le 35 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Kindlustusandja , kindlustusagent v&otilde;i kindlustusmaakler on kohustatud tuvastama isikusamasuse isikul , kellele tehakse kindlustuslepingu alusel v&auml;ljamakse ( tagasiost , kindlustussumma ) &uuml;le 14 000 krooni .</s><s>Isikusamasuse tuvastamine on kohustuslik ka juhul , kui v&auml;ljamakse tehakse ositi kogusummas &uuml;le 14 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Isikusamasuse tuvastamise aluseks olevad dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Isikusamasuse tuvastamiseks esitab f&uuml;&uuml;siline isik v&otilde;i juriidilise isiku esindaja isikut t&otilde;endavate dokumentide seaduse ( RT I 1999 , 25 , 365 ; 2000 , 25 148 ; 26 , 150 ; 40 , 254 ) &sect; 2 l&otilde;ikes 2 nimetatud dokumendi , Eesti Vabariigis v&auml;ljaantud kehtiva juhiloa v&otilde;i v&auml;lisriigis v&auml;ljaantud kehtiva reisidokumendi .</s><s>Isikusamasuse tuvastamiseks esitatud isikut t&otilde;endava dokumendi isikuandmete v&otilde;i kannetega lehek&uuml;lgedest tehakse s&auml;ilitamiseks koopia .</s>
+</p>
+<p>
+<s>( 2 ) Isikusamasuse tuvastamiseks esitab Eestis registreeritud juriidiline isik v&otilde;i Eestis registreeritud v&auml;lisriigi &auml;ri&uuml;hingu filiaal vastava registri registrikaardi v&auml;ljav&otilde;tte ning v&auml;lismaa juriidiline isik vastava registri v&auml;ljav&otilde;tte v&otilde;i registreerimistunnistuse &auml;rakirja .</s><s>Isikusamasuse tuvastamiseks esitatud dokumendis peab sisalduma :</s>
+</p>
+<p>
+<s>1 ) juriidilise isiku nimi , tegevusala , asukoht ja aadress ;</s>
+</p>
+<p>
+<s>2 ) registreerimise number ;</s>
+</p>
+<p>
+<s>3 ) juhataja v&otilde;i juhatuse liikmete nimed , elukohad , isikukoodid ( juhul kui need on olemas ) ning nende volitused juriidilise isiku esindamisel .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lismaa juriidilise isiku esindaja on konto kasutamiseks kohustatud esitama volitust sisaldava notariaalselt t&otilde;estatud dokumendi .</s>
+</p>
+<p>
+<s>( 4 ) Kui k&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 nimetatud andmeid v&otilde;i dokumenti pole v&otilde;imalik saada , kasutatakse isikusamasuse tuvastamiseks teisi notariaalselt t&otilde;estatud dokumente ning krediidi- v&otilde;i finantseerimisasutus v&otilde;i &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja teostab tehingu ainult siis , kui ei ole p&otilde;hjust kahelda teise poole isikus .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Tegeliku isiku tuvastamine</s>
+</p>
+<p>
+<s>( 1 ) Kui isiku tuvastamisel tekib p&otilde;hjendatud kahtlus , et ta ei tegutse enda nimel , peab krediidi- ja finantseerimisasutus ning &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja tuvastama selle isiku , kelle nimel ta tegutseb .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) Kui isikut , kelle nimel teine isik tegutseb , ei ole v&otilde;imalik tuvastada , on krediidi- ja finantseerimisasutusel ning &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tjal keelatud tehingut sooritada .</s><s>Samuti on krediidi- ja finantseerimisasutusel ning &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tjal kohustus kohe informeerida rahapesu andmeb&uuml;rood selle isiku tahteavaldusest sooritada tehing v&otilde;i juba toimunud tehingust .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Andmed</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Andmete registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Krediidi- ja finantseerimisasutused registreerivad &sect;-s 6 s&auml;testatud kohustuse t&auml;itmisel j&auml;rgmised isikuandmed :</s>
+</p>
+<p>
+<s>1 ) isiku v&otilde;i tema esindaja nimi , elukoht v&otilde;i asukoht ;</s>
+</p>
+<p>
+<s>2 ) isikusamasuse tuvastamisel kasutatud dokument , selle number ja v&auml;ljaandmise aeg ning koht ;</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>3 ) f&uuml;&uuml;silise isiku isikukood v&otilde;i s&uuml;nniaeg ja -koht ;</s>
+</p>
+<p>
+<s>4 ) juriidilise isiku kohta &sect; 9 l&otilde;ike 2 v&otilde;i 3 alusel saadav informatsioon .</s>
+</p>
+<p>
+<s>( 2 ) Teostatava tehingu kohta registreerivad krediidi- ja finantseerimisasutused j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) tehingu liik ;</s>
+</p>
+<p>
+<s>2 ) konto avamisel : konto t&uuml;&uuml;p , konto number , valuuta v&otilde;i v&auml;&auml;rtpaberid ;</s>
+</p>
+<p>
+<s>3 ) vara hoiule v&otilde;tmisel : deponeerimise number ja vara turuhind hoiule v&otilde;tmise p&auml;eval , kui nimetatud vara turuhinda pole v&otilde;imalik m&auml;&auml;rata , selle vara t&auml;pne kirjeldus ;</s>
+</p>
+<p>
+<s>4 ) pangaseifi &uuml;&uuml;rimisel ja kasutamisel : seifi number ja muud andmed , mis on vajalikud selle kasutaja isikusamasuse tuvastamiseks ;</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>5 ) v&auml;ljamakse tegemisel , mis on seotud aktsiate , v&otilde;lakirjade , muude v&auml;&auml;rtpaberitega : v&auml;&auml;rtpaberite kirjeldus , tehingu rahaline v&auml;&auml;rtus , valuuta ja konto number ;</s>
+</p>
+<p>
+<s>6 ) kindlustuslepingu s&otilde;lmimisel : konto number , mida esimese preemiasumma ulatuses debiteeriti ;</s>
+</p>
+<p>
+<s>7 ) kindlustuslepingu alusel v&auml;ljamakse tegemisel : konto number , mida v&auml;ljamakse summa ulatuses krediteeriti ;</s>
+</p>
+<p>
+<s>8 ) raha &uuml;lekande puhul : andmed , mida isik on esitanud raha p&auml;ritolu , &uuml;lekande saatja ja saaja kohta ;</s>
+</p>
+<p>
+<s>9 ) muu tehingu puhul : tehingu summa , valuuta , konto number v&otilde;i kontode numbrid .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja registreerib isikusamasuse tuvastamisel tehingu aja , kirjelduse ning tehingu teise poole andmed vastavalt l&otilde;ikes 1 s&auml;testatule .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 4 ) Krediidi- ja finantseerimisasutusel on &otilde;igus keelduda tehingu sooritamisest , kui isik , vaatamata sellekohasele n&otilde;udmisele , ei esita tehingu objektiks oleva raha v&otilde;i muu vara legaalset p&auml;ritolu t&otilde;endavaid dokumente .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Andmete s&auml;ilitamine</s>
+</p>
+<p>
+<s>Krediidi- ja finantseerimisasutus , samuti k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja peab s&auml;ilitama &sect;-s 11 nimetatud andmeid v&auml;hemalt viis aastat p&auml;rast kliendiga lepingulise suhte l&otilde;ppemist .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Krediidiasutuse ja finantseerimisasutuse sisemised turvameetmed</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Sisemised turvameetmed</s>
+</p>
+<p>
+<s>( 1 ) Krediidi- ja finantseerimisasutuse juht m&auml;&auml;rab isiku , kes on k&auml;esoleva seaduse 6. peat&uuml;kis s&auml;testatud rahapesu andmeb&uuml;roo kontaktisikuks ( edaspidi kontaktisik ) .</s>
+</p>
+<p>
+<s>( 2 ) Krediidi- ja finantseerimisasutuse juht on kohustatud rahapesu t&otilde;kestamiseks kehtestama t&ouml;&ouml;tajatele tegevusjuhendi ja selle t&auml;itmise kontrollimiseks sisekontrollieeskirja .</s><s>Krediidi- ja finantseerimisasutus peab tagama sularaha- ja sularahata tehinguid teostavate t&ouml;&ouml;tajate regulaarse rahapesu t&otilde;kestamise alase instrueerimise .</s>
+</p>
+<p>
+<s>( 3 ) Sisemiste turvameetmete rakendamise korra krediidiasutustele kehtestab Eesti Pank .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Kontaktisik</s>
+</p>
+<p>
+<s>( 1 ) Krediidi- v&otilde;i finantseerimisasutuse juhi m&auml;&auml;ratud kontaktisiku &uuml;lesandeks on :</s>
+</p>
+<p>
+<s>1 ) rahapesu t&otilde;kestamise n&otilde;uete t&auml;itmise kontrollimine krediidi- v&otilde;i finantseerimisasutuses ;</s>
+</p>
+<p>
+<s>2 ) informatsiooni edastamine rahapesu andmeb&uuml;roole rahapesukahtluse korral ;</s>
+</p>
+<p>
+<s>3 ) krediidi- v&otilde;i finantseerimisasutuse juhi kirjalik informeerimine puudustest sisekontrollieeskirja t&auml;itmisel .</s>
+</p>
+<p>
+<s>( 2 ) Kontaktisik tohib edastada talle seoses rahapesukahtlusega teatavaks saanud informatsiooni v&otilde;i andmeid &uuml;ksnes :</s>
+</p>
+<p>
+<s>1 ) asutuse juhile ning asutuse juhi poolt m&auml;&auml;ratud t&ouml;&ouml;tajale ;</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>2 ) rahapesu andmeb&uuml;roole ;</s>
+</p>
+<p>
+<s>3 ) eeluurimisasutusele seoses kriminaalmenetlusega ;</s>
+</p>
+<p>
+<s>4 ) kohtule kohtum&auml;&auml;ruse v&otilde;i -otsuse alusel .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tegevus rahapesukahtluse korral</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Teatamiskohustus</s>
+</p>
+<p>
+<s>( 1 ) Kui krediidi- v&otilde;i finantseerimisasutus v&otilde;i k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja tuvastab tehingu sooritamisel olukorra , mille tunnused osutavad rahapesule , teatab ta sellest viivitamatult rahapesu andmeb&uuml;roole .</s><s>Teade edastatakse suuliselt , kirjalikult v&otilde;i elektroonilise sidevahendi kaudu .</s><s>Kui teade edastati suuliselt , korratakse seda hiljemalt j&auml;rgmise t&ouml;&ouml;p&auml;eva jooksul kirjalikult .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) Rahapesu andmeb&uuml;roo v&otilde;ib p&otilde;hjendatud rahapesukahtluse korral tehingu peatada v&otilde;i s&auml;testada piirangud kontol oleva raha kasutamiseks kuni kaheks t&ouml;&ouml;p&auml;evaks , alates esimesest katsest tehingut sooritada .</s><s>Nimetatud juhul v&otilde;ib antud t&auml;htajast varem tehingu sooritada v&otilde;i kontol oleva raha kasutamise piirangud k&otilde;rvaldada ainult rahapesu andmeb&uuml;roo kirjalikul loal .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 3 ) Kui tehingu edasil&uuml;kkamine v&otilde;ib tekitada olulist kahju , sooritatakse tehing ning p&auml;rast seda edastatakse kirjalik teade viivitamatult rahapesu andmeb&uuml;roole .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 4 ) Krediidi- v&otilde;i finantseerimisasutus ning k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja ei v&otilde;i rahapesus kahtlustatavat isikut informeerida tema kohta rahapesu andmeb&uuml;roole edastatud teatisest .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 6 ) Rahapesu andmeb&uuml;roole esitatava teatise vormi ja koostamise juhendi kehtestab siseminister .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Koost&ouml;&ouml; rahapesu andmeb&uuml;rooga</s>
+</p>
+<p>
+<s>( 1 ) Krediidi- ja finantseerimisasutus , samuti &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja on kohustatud informeerima rahapesu andmeb&uuml;rood igast rahapesukahtlusest .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) Krediidi- ja finantseerimisasutus , samuti &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja on kohustatud rahapesu andmeb&uuml;roo kirjaliku taotluse alusel andma talle rahapesukahtlusega seotud informatsiooni .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>16 <hi rend="sup">1</hi> .</s><s>Rahapesukahtlusega seotud informatsiooni kontrollimine</s>
+</p>
+<p>
+<s>Rahapesu andmeb&uuml;roo kontrollib rahapesukahtlusega seotud informatsiooni kriminaalmenetluse koodeksis ( ENSV &Uuml;T 1961 , 1 , 4 ja lisa ; RT I 2000 , 56 , 369 ; 75 , &otilde;iend ) s&auml;testatud korras , v&otilde;tab vajaduse korral tarvitusele abin&otilde;ud vara s&auml;ilimiseks ning saadab materjalid kuriteo tunnuste avastamisel kohe p&auml;devale kohtueelse uurimise asutusele kriminaalmenetluse alustamise otsustamiseks .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Vastutusest vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Krediidi- ja finantseerimisasutused ning &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tjad , nende t&ouml;&ouml;tajad ning nende nimel tegutsenud isikud ei vastuta tehingu sooritamata j&auml;tmisest v&otilde;i mittet&auml;htaegsest sooritamisest tuleneva kahju eest , mis tekitatakse kliendile seoses rahapesu kahtlusest rahapesu andmeb&uuml;roole teatamisega .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) Rahapesu andmeb&uuml;roole esitatud andmete alusel ei v&otilde;i neid andmeid esitanud krediidi- v&otilde;i finantseerimisasutuse juhti , t&ouml;&ouml;tajat v&otilde;i &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tjat s&uuml;&uuml;distada seaduse v&otilde;i lepinguga talle pandud konfidentsiaalsusn&otilde;ude rikkumises .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rahapesu andmeb&uuml;roo</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Rahapesu andmeb&uuml;roo</s>
+</p>
+<p>
+<s>( 1 ) Rahapesu andmeb&uuml;roo on Politseiameti struktuuri&uuml;ksus Siseministeeriumi valitsemisalas .</s>
+</p>
+<p>
+<s>( 2 ) Rahapesu andmeb&uuml;roo on kohustatud rahapesu v&otilde;i sellega seotud kuritegude v&auml;ltimiseks , tuvastamiseks v&otilde;i kohtueelseks uurimiseks edastama olulised andmed kohtueelse uurimise asutusele , prokur&ouml;rile , samuti kohtule seoses kohtumenetlusega .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 3 ) Kui rahapesu tunnuste kontrollimisel tekib vajadus tagada rahapesu objektiks oleva vara s&auml;ilimine , on rahapesu andmeb&uuml;rool &otilde;igus p&ouml;&ouml;rduda kohtu poole vara arestimise taotlusega .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Rahapesu andmeb&uuml;roo &uuml;lesanded</s>
+</p>
+<p>
+<s>Rahapesu andmeb&uuml;roo &uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) vastavalt k&auml;esoleva seaduse &sect;-le 15 laekunud andmete kogumine , registreerimine , t&ouml;&ouml;tlemine ja anal&uuml;&uuml;simine .</s><s>Nimetatu k&auml;igus kontrollitakse , kas rahapesu andmeb&uuml;roole esitatud andmed on olulised rahapesu v&otilde;i sellega seotud kuritegude v&auml;ltimiseks , tuvastamiseks v&otilde;i uurimiseks ning otsustatakse nende kasutamine vastavalt &sect; 18 l&otilde;ikes 2 s&auml;testatule ;</s>
+</p>
+<p>
+<s>2 ) rahapesu andmeb&uuml;roole andmeid esitanud isiku informeerimine tema esitatud andmete kasutamise kohta rahapesu v&otilde;i sellega seotud kuritegude v&auml;ltimisel , tuvastamisel v&otilde;i uurimisel , eesm&auml;rgiga parandada teatamiskohustuse t&auml;itmist ;</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>3 ) rahapesualaste uuringute l&auml;biviimine , rahapesu v&auml;ltimise ja tuvastamise t&otilde;hustamine ning avalikkuse informeerimine sellest ;</s>
+</p>
+<p>
+<s>4 ) koost&ouml;&ouml; krediidi- ja finantseerimisasutuste , k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tjate ning politseiasutustega rahapesu t&otilde;kestamisel ;</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>5 ) v&auml;lissuhtlemise ja infovahetuse korraldamine vastavalt k&auml;esoleva seaduse &sect;-le 24.</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>N&otilde;uded rahapesu andmeb&uuml;roo ametnikule</s>
+</p>
+<p>
+<s>Rahapesu andmeb&uuml;roo ametnik on kohustatud hoidma saladuses talle seoses t&ouml;&ouml;&uuml;lesannetega teatavaks saanud andmeid , sealhulgas pangasaladust ka p&auml;rast nende t&ouml;&ouml;tlemise v&otilde;i kasutamisega seotud ametikohustuste t&auml;itmist v&otilde;i teenistussuhte l&otilde;ppemist t&auml;htajatult ning t&auml;itma andmekogude seaduses ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ) ja isikuandmete kaitse seaduses ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ) s&auml;testatud isikuandmete t&ouml;&ouml;tlemise n&otilde;udeid .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Andmete kasutamise piirangud</s>
+</p>
+<p>
+<s>( 1 ) Rahapesu andmeb&uuml;roos registreeritud andmeid edastatakse ainult eeluurimist teostavale asutusele , prokur&ouml;rile ja kohtule seoses kohtumenetlusega kas nende kirjaliku taotluse alusel v&otilde;i rahapesu andmeb&uuml;roo omal algatusel , kui see on oluline rahapesu v&otilde;i sellega seotud kuritegude v&auml;ltimiseks , tuvastamiseks v&otilde;i uurimiseks .</s><s>Rahapesu andmeb&uuml;rool on &otilde;igus informeerida k&auml;esoleva seaduse &sect;-s 25 nimetatud j&auml;relevalveasutust rahapesukahtlusest krediidi- v&otilde;i finantseerimisasutuse suhtes .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) Juurdep&auml;&auml;s rahapesu andmeb&uuml;roo andmekogus sisalduvale informatsioonile ning selle t&ouml;&ouml;tlemise &otilde;igus on ainult rahapesu andmeb&uuml;roo ametnikul .</s>
+</p>
+<p>
+<s>( 3 ) Siseminister kehtestab rahapesu andmeb&uuml;roo kogutavate andmete registreerimise ja t&ouml;&ouml;tlemise korra .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>T&auml;iendava informatsiooni taotlused</s>
+</p>
+<p>
+<s>( 1 ) Rahapesu andmeb&uuml;rool on &otilde;igus p&otilde;hjendatud rahapesu kahtluse korral taotleda teda informeerinud krediidi- v&otilde;i finantseerimisasutuselt , samuti teiselt krediidi- v&otilde;i finantseerimisasutuselt , &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tjalt ning krediidi- v&otilde;i finantseerimisasutuse j&auml;relevalveasutuselt t&auml;iendavat informatsiooni kahtlase tehingu v&otilde;i sellega seotud &otilde;igustoimingute kohta .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) Krediidi- ja finantseerimisasutus , kellelt on taotletud t&auml;iendavat informatsiooni vastavalt k&auml;esoleva paragrahvi l&otilde;ikele 1 , on kohustatud esitama informatsiooni , sealhulgas pangasaladuseks olevat informatsiooni rahapesu andmeb&uuml;roole kirjalikult , elektrooniliste sidevahendite kaudu v&otilde;i suuliselt , rahapesu andmeb&uuml;roo m&auml;&auml;ratud m&otilde;istliku t&auml;htaja jooksul .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 3 ) Rahapesu andmeb&uuml;rool on &otilde;igus saada rahapesu t&otilde;kestamiseks olulisi andmeid , sealhulgas j&auml;litustegevuse k&auml;igus kogutud teavet , k&otilde;igilt j&auml;litustegevusega tegelevatelt asutustelt &otilde;igusaktidega s&auml;testatud korras .</s><s>J&auml;litustegevuse k&auml;igus kogutud teabe edastamiseks teistele asutustele peab rahapesu andmeb&uuml;rool olema teabe edastanud j&auml;litustegevusega tegeleva asutuse kirjalik n&otilde;usolek .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Andmete ristkasutus</s>
+</p>
+<p>
+<s>Rahapesu andmeb&uuml;roole seadusega pandud &uuml;lesannete t&auml;itmiseks on rahapesu andmeb&uuml;rool &otilde;igus esitada p&auml;ringuid ja saada andmeid riigi v&otilde;i kohaliku omavalitsuse andmekogudest , samuti avalik-&otilde;igusliku isiku peetavast andmekogust vastavalt seaduses s&auml;testatud korrale .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Rahvusvaheline infovahetus</s>
+</p>
+<p>
+<s>Rahapesu andmeb&uuml;rool on &otilde;igus vahetada informatsiooni rahapesu andmeb&uuml;roo &uuml;lesandeid t&auml;itvate v&auml;lisriigi asutustega .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>J&auml;relevalve krediidi- ja finantseerimisasutuste &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uete j&auml;rgimist krediidi- ja finantseerimisasutuse poolt kontrollib krediidi- v&otilde;i finantseerimisasutuse tegevust reguleerivas seaduses nimetatud j&auml;relevalveasutus .</s>
+</p>
+<p>
+<s>( 2 ) Kui j&auml;relevalveasutus tuvastab krediidi- v&otilde;i finantseerimisasutuse kontrollimisel olukorra , mille tunnused osutavad rahapesule , on ta kohustatud sellest teatama rahapesu andmeb&uuml;roole .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Andmekaitse j&auml;relevalve</s>
+</p>
+<p>
+<s>Kontrolli rahapesu andmeb&uuml;roos registreeritud andmete t&ouml;&ouml;tlemise seaduslikkuse &uuml;le teostab isikuandmete kaitse seaduse alusel loodud andmekaitse j&auml;relevalveasutus .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Muudatused krediidiasutuste seaduses</s>
+</p>
+<p>
+<s>Krediidiasutuste seaduses ( RT I 1995 , 4 , 36 ; 1998 , 59 , 941 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 46 l&otilde;ike 4 punkt 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 2 ) kohtueelse uurimise asutusele kriminaalasja algatamise m&auml;&auml;ruse alusel ; &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) 7. peat&uuml;kk tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;eolev seadus j&otilde;ustub 1999. aasta 1. juulil .</s>
+</p>
+</body>
+   </text>
+</tei.2>

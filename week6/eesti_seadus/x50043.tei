@@ -1,0 +1,3259 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Liikluseeskiri ( nov 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   17286</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Liikluseeskiri ( nov 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=3></tagusage>
+         <tagusage gi=p occurs=1051></tagusage>
+         <tagusage gi=s occurs=1995></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Liikluseeskiri</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 2. veebruari 2001. a m&auml;&auml;rus nr 48</s>
+</p>
+<p>
+<s>( RT I 2001 , 15 , 66 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 6. veebruaril 2000. a.</s>
+</p>
+<p>
+<s>M&auml;&auml;rus kehtestatakse &ldquo; Liiklusseaduse &rdquo; ( RT I 2001 , 3 , 6 ) &sect; 3 l&otilde;ike 2 alusel .</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>K&auml;esoleva m&auml;&auml;rusega kehtestatakse liikluskord Eesti teedel .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>K&auml;esolevas m&auml;&auml;ruses kasutatavate terminite sisu seletatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>( 1 ) Anda teed ( mitte takistada ) all m&otilde;istetakse n&otilde;uet , et liikleja ei j&auml;tkaks ega alustaks liikumist ega teeks mingeid man&ouml;&ouml;vreid , mis v&otilde;iksid sundida teist liiklejat muutma liikumissuunda v&otilde;i -kiirust .</s><s>Liikleja , kellel on kohustus anda teed , peab sellest selgelt m&auml;rku andma kiiruse v&auml;hendamisega v&otilde;i sujuva peatumisega .</s>
+</p>
+<p>
+<s>( 2 ) Asula all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 4 l&otilde;ikele 8 hoonestatud ala , mille sisse- ja v&auml;ljas&otilde;iduteed on t&auml;histatud asulas etten&auml;htud liikluskorda kehtestavate liiklusm&auml;rkidega .</s>
+</p>
+<p>
+<s>( 3 ) Auto all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 s&otilde;itjate v&otilde;i veoste veoks v&otilde;i s&otilde;idukite haakes vedamiseks v&otilde;i erit&ouml;&ouml;de tegemiseks etten&auml;htud v&auml;hemalt neljarattalist mootors&otilde;idukit , mille valmistajakiirus &uuml;letab 25 km/h .</s><s>Autoks loetakse ka kolmerattalist mootors&otilde;idukit ja elektrikontaktliiniga &uuml;hendatud r&ouml;&ouml;basteta s&otilde;idukit .</s><s>Autoks ei loeta mopeedi , mootorratast , traktorit ega liikurmasinat .</s>
+</p>
+<p>
+<s>( 4 ) Autorongi all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 autost ja &uuml;hest v&otilde;i enamast haagisest koostatud s&otilde;idukite kombinatsiooni .</s>
+</p>
+<p>
+<s>( 5 ) Ees&otilde;iguse all m&otilde;istetakse liikleja &otilde;igust liikuda enne teist liiklejat .</s>
+</p>
+<p>
+<s>( 6 ) Eraldusriba all m&otilde;istetakse s&otilde;iduteid eraldavat t&otilde;kke- , haljas- v&otilde;i muu riba , mis ei ole ette n&auml;htud s&otilde;idukite liiklemiseks .</s>
+</p>
+<p>
+<s>( 7 ) Esmase juhtimis&otilde;iguse all m&otilde;istetakse isikule esmakordselt antud &otilde;igust juhtida mootors&otilde;idukit &ldquo; Liiklusseaduse &rdquo; &sect;-s 30 etten&auml;htud tingimustel .</s>
+</p>
+<p>
+<s>( 8 ) Haagise all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 mootors&otilde;idukiga haakes liikumiseks valmistatud v&otilde;i selleks kohandatud s&otilde;idukit .</s>
+</p>
+<p>
+<s>( 9 ) Halva n&auml;htavuse all m&otilde;istetakse ilmast v&otilde;i muudest n&auml;htustest ( udu , vihm , lumesadu , tuisk , h&auml;marus , suits , tolm , vee- ja poripritsmed , vastup&auml;ike ) tingitud ajutist olukorda , kui vaadeldava objekti n&auml;htavus on taustast eristamatu alla 300 m.</s>
+</p>
+<p>
+<s>( 10 ) H&auml;dapeatumise all m&otilde;istetakse s&otilde;iduki seismaj&auml;&auml;mist v&otilde;i -j&auml;tmist , kui s&otilde;idu j&auml;tkamine on v&otilde;imatu v&otilde;i ohtlik .</s>
+</p>
+<p>
+<s>( 11 ) Jalak&auml;ija all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 7 l&otilde;ikele 2 isikut , kes kasutab teed liiklemiseks jalgsi v&otilde;i ratastooliga .</s><s>Jalak&auml;ija all m&otilde;istetakse ka isikut , kes kasutab liiklemiseks rula , rulluiske , -suuski , t&otilde;ukeratast , -kelku v&otilde;i muid nendesarnaseid abivahendeid .</s>
+</p>
+<p>
+<s>( 12 ) Jalgratta all m&otilde;istetakse v&auml;hemalt kaherattalist s&otilde;idukit , mis liigub sellega s&otilde;itva(te ) inimes(t ) e lihasj&otilde;ul ; sellel v&otilde;ib olla ka mootor .</s><s>Termini all ei m&otilde;elda puudega inimese ratastooli .</s>
+</p>
+<p>
+<s>( 13 ) Jalgrattatee all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 4 l&otilde;ikele 5 jalgratta ja mopeediga liiklemiseks etten&auml;htud teeosa v&otilde;i sama otstarbega omaette teed , mis on t&auml;histatud vastavate liiklusm&auml;rkide v&otilde;i teekattem&auml;rgistega .</s>
+</p>
+<p>
+<s>( 14 ) Juhi all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 7 l&otilde;ikele 4 isikut , kes juhib s&otilde;idukit , juhib teel ratsa loomi v&otilde;i veoloomi , v&otilde;i isikut , kes ajab teel kariloomi .</s><s>Juhi all m&otilde;istetakse &otilde;ppes&otilde;idu ja s&otilde;idupraktika ajal ka s&otilde;idu&otilde;petajat ja -juhendajat vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 32 s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 15 ) Kategooriate all m&otilde;istetakse mootors&otilde;idukite jaotamist juhtimis&otilde;iguse seisukohalt vastavalt &ldquo; Liiklusseaduse &rdquo; &sect;-le 21.</s>
+</p>
+<p>
+<s>( 16 ) Kerghaagise all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 haagist , mille registrimass ei &uuml;leta 750 kg .</s>
+</p>
+<p>
+<s>( 17 ) Kiirtee all m&otilde;istetakse vastavate liiklusm&auml;rkidega t&auml;histatud teed .</s>
+</p>
+<p>
+<s>( 18 ) Kontrollija all m&otilde;istetakse seadusega antud volituste piires liiklejaid kontrollivat isikut , kellel on kaasas ametitunnistus .</s>
+</p>
+<p>
+<s>( 19 ) K&otilde;nnitee all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 4 l&otilde;ikele 4 jalak&auml;ija liiklemiseks etten&auml;htud teeosa v&otilde;i sama otstarbega omaette teed , mis v&otilde;ib olla t&auml;histatud vastavate liiklusm&auml;rkide v&otilde;i teekattem&auml;rgistega .</s>
+</p>
+<p>
+<s>( 20 ) K&otilde;rvalep&ouml;&ouml;rde all m&otilde;istetakse p&ouml;&ouml;ret paremale v&otilde;i vasakule .</s>
+</p>
+<p>
+<s>( 21 ) Liikleja all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 7 l&otilde;ikele 1 isikut , kes osaleb liikluses jalak&auml;ija , s&otilde;itja v&otilde;i juhina .</s>
+</p>
+<p>
+<s>( 22 ) Liikluskorraldusvahendi all m&otilde;istetakse &ldquo; Teeseaduse &rdquo; ( RT I 1999 , 26 , 377 ; 93 , 831 ) &sect; 10 l&otilde;ike 2 alusel teede- ja sideministri poolt kehtestatud n&otilde;uetele vastavat foori , liiklusm&auml;rki ja teem&auml;rgist ning vilkurit , piiret , hoiatuslinti , t&auml;hisposti , t&otilde;kkepuud , ohutussaart v&otilde;i muud sarnast .</s>
+</p>
+<p>
+<s>( 23 ) Liiklus&otilde;nnetuse all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect;-le 56 juhtumit , kus v&auml;hemalt &uuml;he s&otilde;iduki teel liikumise v&otilde;i teelt v&auml;ljas&otilde;idu tagaj&auml;rjel saab inimene vigastada v&otilde;i surma v&otilde;i tekib varaline kahju .</s>
+</p>
+<p>
+<s>( 24 ) Liikurmasina all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 ratastel liikuvat , teatud kindla t&ouml;&ouml; tegemiseks etten&auml;htud mootors&otilde;idukit , mille suurim valmistajakiirus &uuml;letab 6 km/h , kuid ei &uuml;leta 40 km/h .</s><s>Liikurmasinaks ei loeta auto alusel valmistatud erit&ouml;&ouml;masinat .</s>
+</p>
+<p>
+<s>( 25 ) Man&ouml;&ouml;vri all m&otilde;istetakse igasugust p&ouml;&ouml;ret v&otilde;i mis tahes &uuml;mberreastumist .</s>
+</p>
+<p>
+<s>( 26 ) Mootorratta all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 k&uuml;lghaagisega v&otilde;i k&uuml;lghaagiseta kaherattalist mootors&otilde;idukit , mille sisep&otilde;lemismootori t&ouml;&ouml;maht on &uuml;le 50 cm <hi rend="sup">3</hi> v&otilde;i valmistajakiirus on &uuml;le 45 km/h .</s>
+</p>
+<p>
+<s>( 27 ) Mootors&otilde;iduki all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 12 l&otilde;ikele 2 mootori j&otilde;ul liikuvat s&otilde;idukit .</s><s>Mootors&otilde;iduki all ei m&otilde;isteta mootoriga jalgratast , mopeedi ega mootori j&otilde;ul liikuvat r&ouml;&ouml;bass&otilde;idukit .</s>
+</p>
+<p>
+<s>( 28 ) Mopeedi all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 kahe- v&otilde;i kolmerattalist s&otilde;idukit , mille sisep&otilde;lemismootori t&ouml;&ouml;maht ei &uuml;leta 50 cm <hi rend="sup">3</hi> ja valmistajakiirus ei &uuml;leta 45 km/h .</s>
+</p>
+<p>
+<s>( 29 ) Parkimise all m&otilde;istetakse s&otilde;iduki ettekavatsetud seismaj&auml;tmist kauemaks , kui seda on vaja s&otilde;itjate peale- v&otilde;i mahaminekuks v&otilde;i veose laadimiseks .</s>
+</p>
+<p>
+<s>( 30 ) Peatee all m&otilde;istetakse liiklusm&auml;rgiga &ldquo; Peatee &rdquo; t&auml;histatud teed kogu selle ulatuses .</s><s>Ristmikul on sama t&auml;hendus ka liiklusm&auml;rgiga &ldquo; Ristumine k&otilde;rvalteega &rdquo; t&auml;histatud teel ristuva v&otilde;i suubuva tee suhtes , kattega teel kruusatee v&otilde;i pinnastee suhtes ja kruusateel pinnastee suhtes .</s><s>Kruusa- v&otilde;i pinnastee kattega l&otilde;ik enne suubumist kattega teele ei muuda neid kattega teeks .</s>
+</p>
+<p>
+<s>( 31 ) Peatumise all m&otilde;istetakse s&otilde;iduki ettekavatsetud seismaj&auml;tmist s&otilde;itjate peale- v&otilde;i mahamineku v&otilde;i veose laadimise ajaks .</s><s>Termin ei h&otilde;lma seismaj&auml;&auml;mist koos liiklusvooluga v&otilde;i reguleerija v&otilde;i liikluskorraldusvahendi n&otilde;udel .</s>
+</p>
+<p>
+<s>( 32 ) Piiratud juhtimis&otilde;iguse all m&otilde;istetakse isiku &otilde;igust juhtida mootors&otilde;idukit &ldquo; Liiklusseaduse &rdquo; &sect;-s 23 nimetatud juhtudel ja korras .</s>
+</p>
+<p>
+<s>( 33 ) Piiratud n&auml;htavuse all m&otilde;istetakse olukorda , kui kurvid , t&otilde;usuharjad , tee&auml;&auml;rsed rajatised , haljastus v&otilde;i teel olevad takistused v&auml;hendavad tee n&auml;htavust niiv&otilde;rd , et antud teel&otilde;igul lubatud suurima kiirusega s&otilde;itmine v&otilde;ib muutuda ohtlikuks .</s>
+</p>
+<p>
+<s>( 34 ) Pimeda aja all m&otilde;istetakse ajavahemikku ehast koiduni , kui loodusliku valguse v&auml;hesuse t&otilde;ttu on n&auml;htavus alla 300 m.</s>
+</p>
+<p>
+<s>( 35 ) P&auml;risuunav&ouml;&ouml;ndi all m&otilde;istetakse s&otilde;idukite &uuml;hes suunas liiklemiseks etten&auml;htud s&otilde;iduteed v&otilde;i selle osa .</s><s>Kahesuunalise liiklusega s&otilde;idutee puhul m&otilde;eldakse p&auml;risuunav&ouml;&ouml;ndi all s&otilde;idutee parempoolset osa , mida vasakult piirab liikluskorraldusvahend , selle puudumisel s&otilde;idutee m&otilde;tteline keskjoon .</s><s>S&otilde;idutee keskel samal tasandil asuvate trammiteede korral on suunav&ouml;&ouml;ndite eralduspiiriks trammiteede m&otilde;tteline keskjoon .</s><s>P&auml;risuunaline trammitee kuulub p&auml;risuunav&ouml;&ouml;ndisse .</s>
+</p>
+<p>
+<s>1 ) Kahesuunalise liiklusega s&otilde;iduteel , mille kogulaiuses on kolm teekattem&auml;rgistega t&auml;histatud s&otilde;idurada , on p&auml;risuunav&ouml;&ouml;ndiks ainult parempoolne s&otilde;idurada , kui liikluskorraldusvahend ei m&auml;&auml;ra teisiti .</s>
+</p>
+<p>
+<s>2 ) Kui teel on eri rada kerges&otilde;idukile ( ratastool , jalgratas , mopeed jms ) , &uuml;hiss&otilde;idukile , aeglasele , raskele v&otilde;i muule r&ouml;&ouml;basteta s&otilde;idukile , on selle eri raja s&otilde;iduteepoolne &auml;&auml;r p&auml;risuunav&ouml;&ouml;ndi &auml;&auml;reks muule r&ouml;&ouml;basteta s&otilde;idukile .</s>
+</p>
+<p>
+<s>( 36 ) P&ouml;&ouml;rde all m&otilde;istetakse p&ouml;&ouml;ret k&otilde;rvale v&otilde;i tagasi .</s>
+</p>
+<p>
+<s>( 37 ) Ratastraktori all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 mootors&otilde;idukit , millel on rattad ja v&auml;hemalt kaks telge ja mille suurim valmistajakiirus &uuml;letab 6 km/h , kuid ei &uuml;leta 40 km/h .</s><s>Ratastraktori p&otilde;hifunktsiooniks on sellel paikneva v&otilde;i sellega haakes oleva masina v&otilde;i riistaga t&ouml;&ouml;tamine , paikse masina k&auml;itamine v&otilde;i haagise vedamine .</s>
+</p>
+<p>
+<s>( 38 ) Raudtees&otilde;iduki all m&otilde;istetakse rongi , vedurit , vagunit , dresiini vm raudteer&ouml;&ouml;bastel liikuvat s&otilde;idukit .</s>
+</p>
+<p>
+<s>( 39 ) Raudtee&uuml;les&otilde;idukoha all m&otilde;istetakse tee ja raudtee samatasandilist ristumiskohta .</s>
+</p>
+<p>
+<s>Tee ja raudtee&uuml;les&otilde;idukoha piiriks on t&otilde;kkepuu , selle puudumisel &uuml;he- v&otilde;i mitmer&ouml;&ouml;pmelise raudtee m&auml;rkide asukoht .</s>
+</p>
+<p>
+<s>( 40 ) Registrimassi all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 juhi , s&otilde;itjate ja veosega t&auml;isvarustuses s&otilde;idukile registreerimisel m&auml;&auml;ratud suurimat massi , mis ei tohi &uuml;letada valmistaja poolt lubatud suurimat massi .</s>
+</p>
+<p>
+<s>Autorongi registrimass on k&otilde;ikide kokkuhaagitud s&otilde;idukite registrimasside summa .</s>
+</p>
+<p>
+<s>( 41 ) Reguleerija all m&otilde;istetakse oma volituste piires liiklust korraldavat ( liiklejaid suunav v&otilde;i peatav ) isikut , kellel on vastav vormiriietus v&otilde;i eraldusm&auml;rk .</s>
+</p>
+<p>
+<s>( 42 ) Ristmiku all m&otilde;istetakse samal tasandil ristuvatest teedest moodustuvat ala .</s><s>Ristmikku ei moodusta parkla , puhkekoha ega teega k&uuml;lgneva ala teega piirnemise koht , samuti nende juurdes&otilde;idutee teega l&otilde;ikumise koht ning p&otilde;llu- v&otilde;i metsatee ristumine teega ja p&otilde;llu- v&otilde;i metsateede omavahelised ristumised .</s><s>Ristmik on reguleeritav , kui liikumise j&auml;rjekorra m&auml;&auml;ravad reguleerija m&auml;rguanded v&otilde;i foorituled .</s><s>Muul juhul on ristmik reguleerimata .</s><s>Kui reguleerimata ristmikku l&auml;bib peatee , on see eriliigiliste teedega .</s>
+</p>
+<p>
+<s>( 43 ) S&otilde;iduees&otilde;igusega tee all m&otilde;istetakse teed , millel s&otilde;itjal on s&otilde;iduees&otilde;igus ristuval teel s&otilde;itja suhtes .</s>
+</p>
+<p>
+<s>( 44 ) S&otilde;iduki all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 12 l&otilde;ikele 1 teel liiklemiseks etten&auml;htud v&otilde;i teel liiklevat liiklusvahendit , mis liigub mootori v&otilde;i muul j&otilde;ul .</s>
+</p>
+<p>
+<s>( 45 ) S&otilde;iduraja all m&otilde;istetakse s&otilde;idutee pikiriba , mis on t&auml;histatud vastavate liiklusm&auml;rkide v&otilde;i teekattem&auml;rgistega v&otilde;i on t&auml;histamata ja mille laius on k&uuml;llaldane autode liiklemiseks &uuml;hes reas .</s>
+</p>
+<p>
+<s>( 46 ) S&otilde;idutee all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 4 l&otilde;ikele 3 s&otilde;idukite liikluseks etten&auml;htud teeosa .</s><s>Teel v&otilde;ib olla mitu eraldusribadega eraldatud s&otilde;iduteed .</s><s>Samal tasandil ristuvad s&otilde;iduteed moodustavad s&otilde;iduteede ristumisala .</s><s>S&otilde;idutee&auml;&auml;rt n&auml;itab vastav teekattem&auml;rgis ; kui seda ei ole , siis teepeenra , eraldusriba , haljasala v&otilde;i muu riba &auml;&auml;r v&otilde;i rentsli p&otilde;hi v&otilde;i s&otilde;idutee &auml;&auml;rekivi .</s><s>Kui s&otilde;iduteega samal tasandil asuvad m&otilde;lemasuunalised trammiteed on s&otilde;idutee &uuml;hes servas , on r&ouml;&ouml;basteta s&otilde;idukite s&otilde;idutee &auml;&auml;reks s&otilde;iduteepoolne trammir&ouml;&ouml;bas .</s>
+</p>
+<p>
+<s>( 47 ) S&otilde;itja all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 7 l&otilde;ikele 3 isikut , kes kasutab liiklemiseks s&otilde;idukit , kuid ei juhi seda .</s>
+</p>
+<p>
+<s>( 48 ) Tee all m&otilde;istetakse vastavalt &ldquo; Teeseaduse &rdquo; &sect;-le 2 maanteed , t&auml;navat , jalgteed ja jalgrattateed v&otilde;i muud s&otilde;idukite v&otilde;i jalak&auml;ijate liiklemiseks kasutatavat rajatist koos seda moodustavate s&otilde;idu- ja k&otilde;nniteede , teepeenarde , haljasalade , eraldus- v&otilde;i haljasribadega ning muude teehoiurajatistega .</s><s>Termin h&otilde;lmab ka teega k&uuml;lgnevale alale sisses&otilde;idu v&otilde;i sealt v&auml;ljas&otilde;idu teed ning parklat ja puhkekohta .</s><s>Olenevalt pealiskihist jagunevad teed :</s>
+</p>
+<p>
+<s>1 ) kattega teeks , mis on tsemendi , tuha v&otilde;i bituumeniga t&ouml;&ouml;deldud materjalist p&uuml;sikattega ( asfalt- , tsementbetoon- vms kate ) ning kiviparketi ja munakivisillutisega tee ;</s>
+</p>
+<p>
+<s>2 ) kruusateeks , mis on kruusast , kruus- v&otilde;i killustikliivast v&otilde;i killustikus&otilde;elmetest tee ;</s>
+</p>
+<p>
+<s>3 ) pinnasteeks , mis on p&otilde;llu- , metsa- vms pealiskihita tee , mis on teeks rajatud v&otilde;i s&otilde;idukite liikumise tulemusena selleks kujunenud .</s>
+</p>
+<p>
+<s>( 49 ) Teega k&uuml;lgneva ala all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 4 l&otilde;ikele 2 tee&auml;&auml;rset piirkonda , kus asuv rajatis on juhile teelt n&auml;ha ja kuhu v&otilde;ib viia juurdes&otilde;idutee .</s>
+</p>
+<p>
+<s>( 50 ) Tegeliku massi all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 s&otilde;iduki massi antud hetkel koos juhi , s&otilde;itjate ja veosega .</s><s>Autorongi tegeliku massi all m&otilde;istetakse k&otilde;ikide kokkuhaagitud s&otilde;idukite tegelike masside summat .</s>
+</p>
+<p>
+<s>( 51 ) Teljekoormuse all m&otilde;istetakse osa s&otilde;iduki massist , mis telje kaudu koormab teed .</s>
+</p>
+<p>
+<s>( 52 ) Traktori all m&otilde;istetakse mootors&otilde;idukit , millel on rattad v&otilde;i roomikud ja mille suurim valmistajakiirus &uuml;letab 6 km/h ega &uuml;leta 40 km/h .</s><s>Traktori p&otilde;hifunktsiooniks on sellel paikneva v&otilde;i sellega haakes oleva masina v&otilde;i riistaga t&ouml;&ouml;tamine , paikse masina k&auml;itamine v&otilde;i haagise vedamine .</s>
+</p>
+<p>
+<s>( 53 ) Trammi all m&otilde;istetakse elektrikontaktliiniga &uuml;hendatud t&auml;navar&ouml;&ouml;bass&otilde;idukit r&ouml;&ouml;bashaagisega v&otilde;i ilma .</s>
+</p>
+<p>
+<s>( 54 ) T&uuml;himassi all m&otilde;istetakse tulenevalt &ldquo; Liiklusseaduse &rdquo; lisast 1 juhi , s&otilde;itjate ja veoseta t&auml;isvarustuses s&otilde;iduki massi , mille on m&auml;&auml;ranud valmistaja .</s>
+</p>
+<p>
+<s>( 55 ) Valmistajakiiruse all m&otilde;istetakse valmistaja poolt s&otilde;idukile m&auml;&auml;ratud suurimat kiirust .</s>
+</p>
+<p>
+<s>( 56 ) &Otilde;ueala all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 4 l&otilde;ikele 6 jalak&auml;ijate ja s&otilde;idukite &uuml;heskoos liiklemiseks etten&auml;htud teed , mis on t&auml;histatud vastavate liiklusm&auml;rkidega .</s>
+</p>
+<p>
+<s>( 57 ) &Uuml;hiss&otilde;iduki all m&otilde;istetakse s&otilde;iduplaani kohaselt s&otilde;itjaid vedavat bussi , trolli v&otilde;i trammi .</s><s>&Uuml;hiss&otilde;idukiks loetakse ka s&otilde;itjaid vedavat taksot .</s>
+</p>
+<p>
+<s>( 58 ) &Uuml;hiss&otilde;idukiraja all m&otilde;istetakse vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 4 l&otilde;ikele 7 s&otilde;idutee osa , mis on ette n&auml;htud liiklemiseks s&otilde;iduplaani kohaselt s&otilde;itvale bussile ja trollile , samuti s&otilde;itjaid vedavale taksole .</s><s>&Uuml;hiss&otilde;idukirada t&auml;histatakse vastavate liiklusm&auml;rkide v&otilde;i teekattem&auml;rgistega .</s>
+</p>
+<p>
+<s>( 59 ) &Uuml;lek&auml;iguraja all m&otilde;istetakse tee osa , mis on ette n&auml;htud jalak&auml;ijale tee &uuml;letamiseks .</s><s>Reguleerimata &uuml;lek&auml;igurada t&auml;histatakse vastavate liiklusm&auml;rkide v&otilde;i teekattem&auml;rgisega .</s><s>Reguleeritaval &uuml;lek&auml;igurajal m&auml;&auml;ratakse k&auml;igukord jalak&auml;ijafooride tulede v&otilde;i reguleerija m&auml;rguannetega , kusjuures teel v&otilde;ivad olla vastavad teekattem&auml;rgised .</s>
+</p>
+<p>
+<s>1 ) Reguleerimata &uuml;lek&auml;iguraja laius on piiratud vastava teekattem&auml;rgisega , selle puudumisel aga piiravad rada kujutletavad sirged , mis l&auml;htuvad vastavate liiklusm&auml;rkide asukohtadest ning on teega risti .</s>
+</p>
+<p>
+<s>2 ) Reguleeritava &uuml;lek&auml;iguraja laius on piiratud vastava teekattem&auml;rgisega , selle puudumisel aga piiravad rada kujutletavad sirged , mis l&auml;htuvad fooride asukohtadest ning on teega risti .</s>
+</p>
+<p>
+<s>( 60 ) &Uuml;mberp&otilde;ike all m&otilde;istetakse m&ouml;&ouml;dumist s&otilde;iduteel seisvast &uuml;hest v&otilde;i mitmest s&otilde;idukist v&otilde;i muust takistusest v&auml;ljas&otilde;iduga kasutatavast s&otilde;idureast .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>S&otilde;idukite liiklus Eestis on parempoolne .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Liikleja ja liikluse korraldaja peavad t&auml;itma k&auml;esoleva m&auml;&auml;ruse n&otilde;udeid .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Liikleja peab juhinduma k&auml;esoleva m&auml;&auml;ruse lisas 1 kirjeldatud reguleerija m&auml;rguandest ning t&auml;itma reguleerija ja kontrollija muud liiklusalast korraldust , liikluskorraldusvahendi n&otilde;uet ning kinni pidama s&otilde;idukile k&auml;esoleva m&auml;&auml;ruse lisas 4 etten&auml;htud tunnusm&auml;rkide kasutamise korrast .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Liikleja peab t&auml;itma reguleerija korraldust isegi siis , kui see on vastuolus k&auml;esoleva m&auml;&auml;ruse v&otilde;i liikluskorraldusvahendi n&otilde;udega .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>M&auml;&auml;ruse lisa 2 kohase ajutise ( teisaldatava alusega ) ja alalise liiklusm&auml;rgi n&otilde;ude vastuolu korral tuleb juhinduda ajutise liiklusm&auml;rgi n&otilde;udest .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Liiklusm&auml;rgi ja lisa 3 kohase teem&auml;rgise n&otilde;ude vastuolu korral tuleb juhinduda liiklusm&auml;rgi n&otilde;udest .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Lisa 1 kohase foori lubav tuli v&otilde;i reguleerija lubav m&auml;rguanne ei t&uuml;hista lisa 2 kohase liiklusm&auml;rgi ( v&auml;lja arvatud hoiatusm&auml;rk &ldquo; Ristumine k&otilde;rvalteega &rdquo; ja ees&otilde;igusm&auml;rgid ) ning lisa 3 kohase teem&auml;rgisega etten&auml;htud korda .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Keegi ei tohi kahjustada ega liiklejate eest varjata liikluskorraldusvahendit , seda selleks volitusi omamata paigaldada , teisaldada v&otilde;i eemaldada .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Keegi ei tohi oma tegevusega v&otilde;i tegevusetusega ohustada v&otilde;i takistada liiklust .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Keegi ei tohi paigutada k&otilde;nniteele v&otilde;i teepeenrale seadmeid v&otilde;i materjale , mis ohustavad v&otilde;i p&otilde;hjendamatult takistavad jalak&auml;ija , eriti vanuri ja invaliidi liikumist .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Ohu tekitanud isik peab rakendama k&otilde;iki temale j&otilde;ukohaseid meetmeid ohu k&otilde;rvaldamiseks v&otilde;i selle kahjulike tagaj&auml;rgede v&auml;hendamiseks .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Liikleja ja muu isik peavad t&auml;itma &ldquo; Liiklusseaduses &rdquo; s&auml;testatud ja seaduse alusel kehtestatud &otilde;igusaktide n&otilde;udeid .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Keskkonnakaitsekohustused</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Juht ei tohi p&otilde;hjustada ebamugavusi teisele inimesele ega kahju teed &uuml;mbritsevale keskkonnale liigse m&uuml;ra , tolmu ja heitgaasiga , mida antud oludes on v&otilde;imalik v&auml;ltida .</s><s>Tuleb hoiduda otsas&otilde;idust loomale v&otilde;i linnule .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>&Otilde;uealal ja elamupiirkonnas ei v&otilde;i seisva s&otilde;iduki mootor t&ouml;&ouml;tada kauem kui kaks minutit .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Mootors&otilde;idukid , v&auml;lja arvatud eritalituse s&otilde;idukid , ei v&otilde;i s&otilde;ita , peatuda ega parkida v&auml;ljaspool teed kohtades , mis ei ole ette n&auml;htud mootors&otilde;idukite liikluseks .</s><s>Nendes kohtades v&otilde;ib liigelda ainult maaomaniku loal .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Mootors&otilde;idukit ei tohi pesta veekogus ega kaldal l&auml;hemal kui 10 m veepiirist , kui kohapeal puudub teade teistsuguse korra kohta .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Liikleja ei tohi :</s>
+</p>
+<p>
+<s>1 ) saastata looduskeskkonda k&uuml;tte- v&otilde;i m&auml;&auml;rdeainetega ega vahetada mootors&otilde;idukil &otilde;lisid kohas , mis ei ole selleks ette n&auml;htud ;</s>
+</p>
+<p>
+<s>2 ) kahjustada , risustada v&otilde;i muul viisil saastata teed ega teega k&uuml;lgnevat ala ;</s>
+</p>
+<p>
+<s>3 ) liigelda s&otilde;idukiga , millel on keskkonda saastav leke .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>S&otilde;iduki m&uuml;ra ja heitgaasi saasteainesisaldus ei tohi &uuml;letada &ldquo; Liiklusseaduse &rdquo; &sect; 13 l&otilde;ike 5 alusel keskkonnaministri poolt kehtestatud normi .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Jalak&auml;ija ja s&otilde;itja kohustused</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Asulateel , v&auml;lja arvatud teel , kus s&otilde;idukitele kehtestatud suurim kiirus ei &uuml;leta 20 km/h , peab jalak&auml;ija liikuma k&otilde;nniteel , selle puudumisel teepeenral .</s><s>Nimetatud kohtade puudumise v&otilde;i k&auml;imiseks sobimatuse korral v&otilde;ib k&auml;ia s&otilde;iduteel ainult selle &auml;&auml;re l&auml;hedal , s&otilde;idukeid takistamata .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Kahesuunalisel asulav&auml;lisel teel , kus puudub k&otilde;nnitee , peab jalak&auml;ija liikuma ainult vasakpoolsel teepeenral , viimase puudumise v&otilde;i k&auml;imiseks sobimatuse korral aga s&otilde;iduteel selle vasaku &auml;&auml;re l&auml;hedal , s&otilde;idukeid takistamata , kusjuures halva n&auml;htavuse korral v&otilde;i pimeda ajal valgustamata teel tohib s&otilde;iduteel liikuda ainult &uuml;hes reas .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Teel , millel on eraldusriba , ei tohi liikuda s&otilde;iduteel eraldusriba k&otilde;rval ega piki eraldusriba , kui sellel pole k&otilde;nniteed .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Organiseeritud inimr&uuml;hm , v&auml;lja arvatud k&auml;esoleva m&auml;&auml;ruse &sect;-s 58 nimetatud koolieelikute ja algklasside &otilde;pilaste r&uuml;hm , v&otilde;ib liikuda ainult s&otilde;idutee parema &auml;&auml;re l&auml;hedal v&otilde;i jalak&auml;ijat takistamata ka k&otilde;nniteel , k&otilde;ige rohkem neli inimest k&otilde;rvuti .</s><s>R&uuml;hma juht peab tagama ohutuse asjakohaste vahenditega ( m&auml;rgulipud , pimeda ajal helkurid , laternad vms ) .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Halva n&auml;htavuse korral v&otilde;i pimeda ajal k&otilde;nniteeta ja valgustamata teel liikudes peab jalak&auml;ija kasutama helkurit v&otilde;i s&uuml;&uuml;datud laternat .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Jalak&auml;ija tohib &uuml;letada teed k&auml;igusilla v&otilde;i -tunneli kaudu , s&otilde;iduteed aga &uuml;lek&auml;igurajal ( v&auml;ljumata selle piirest ) , ristmikul v&otilde;i muus kohas vastavalt m&auml;&auml;ruse &sect;-dele 27-35.</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Kui k&auml;igusillale v&otilde;i -tunnelisse mineku koht , &uuml;lek&auml;igurada v&otilde;i ristmik ei ole kaugemal kui 100 m , peab jalak&auml;ija s&otilde;iduteed &uuml;letama ainult nende kaudu .</s><s>Nimetatud kohtadest kaugemal kui 100 m tohib jalak&auml;ija s&otilde;iduteed &uuml;letada ainult siis , kui tee on m&otilde;lemas suunas h&auml;sti n&auml;ha ja sellega ei tekitata ohtu liikluses .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Reguleerimata ristmikul ei tohi jalak&auml;ija takistada ristmikule l&auml;henevat s&otilde;idukit ja ristmikku otse &uuml;letavat s&otilde;idukit .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Kui reguleerimata kohas s&otilde;iduteed &uuml;letav jalak&auml;ija on peatunud s&otilde;idukile tee andmiseks , v&otilde;ib ta edasi minna alles siis , kui on veendunud &uuml;lemineku ohutuses .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Jalak&auml;ija peab s&otilde;idutee &uuml;letama l&uuml;himat teed m&ouml;&ouml;da , ohutussaarte olemasolul nende kaudu .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Reguleerimata &uuml;lek&auml;igurajal peab jalak&auml;ija enne s&otilde;idutee &uuml;letamist hindama l&auml;heneva s&otilde;iduki kaugust ja kiirust , andma juhile v&otilde;imaluse kiiruse sujuvaks v&auml;hendamiseks v&otilde;i peatumiseks ja veenduma , et juht on teda m&auml;rganud ning tee &uuml;letamine on ohutu .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Reguleeritaval ristmikul v&otilde;i &uuml;lek&auml;igurajal peab jalak&auml;ija s&otilde;idutee &uuml;letamisel juhinduma foorituledest , reguleerija olemasolul aga tema m&auml;rguannetest .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Reguleeritaval ristmikul , kus &uuml;lek&auml;igurada ei ole teekattel t&auml;histatud , peab jalak&auml;ija &uuml;letama s&otilde;idutee k&otilde;nniteede kulgemise suunas , ohutussaartel asuvate fooride korral aga nende saarte kaudu .</s><s>Kui roheline tuli lubab jalak&auml;ijal ristmikku &uuml;letada k&otilde;ikidel sinna suubuvatel teedel korraga , tohib ta &uuml;le minna mis tahes suunas .</s><s>Kui ristmikul jalak&auml;ijafoor puudub , peab jalak&auml;ija juhinduma s&otilde;idukifoori tuledest .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Kui jalak&auml;ija s&otilde;iduteel olles s&uuml;ttib jalak&auml;ijafoori punane tuli , selle foori puudumisel s&otilde;idukifoori kollane tuli v&otilde;i reguleerija t&otilde;stab k&auml;e &uuml;les , peab jalak&auml;ija s&otilde;ltuvalt oma asukohast s&otilde;iduteel j&auml;tkama liikumist ainult kuni l&auml;hima ohutussaareni , selle puudumisel - kuni suunav&ouml;&ouml;ndite eraldusjooneni v&otilde;i , olles s&otilde;idutee teisel poolel , l&otilde;petama ohutussaare puudumisel s&otilde;idutee &uuml;letamise .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>S&otilde;iduteed &uuml;letades ei tohi jalak&auml;ija asjatult viivitada ega peatuda .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Jalak&auml;ija ei tohi :</s>
+</p>
+<p>
+<s>1 ) &uuml;letada s&otilde;iduteed kohas , kuhu on jalak&auml;ijaliikluse t&otilde;kestamiseks paigaldatud piire , ja asulas eraldusribaga teel - v&auml;ljaspool &uuml;lek&auml;igurada ;</s>
+</p>
+<p>
+<s>2 ) minna s&otilde;iduteele seisva s&otilde;iduki v&otilde;i muu takistuse varjust veendumata , et ei l&auml;hene s&otilde;idukit ;</s>
+</p>
+<p>
+<s>3 ) liikuda kiirteel ;</s>
+</p>
+<p>
+<s>4 ) takistada s&otilde;idukit , millel t&ouml;&ouml;tab sinine vilkur koos erilise helisignaaliga v&otilde;i ilma , ja niisuguse s&otilde;iduki poolt saadetavat s&otilde;idukit ;</s>
+</p>
+<p>
+<s>5 ) takistada teel t&ouml;&ouml;tavat s&otilde;idukit , millel on sisse l&uuml;litatud kollane vilkur .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Jalak&auml;ija tohib &uuml;hiss&otilde;idukit oodata ooteplatvormil , selle puudumisel aga ainult k&otilde;nniteel v&otilde;i teepeenral .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>&Uuml;hiss&otilde;idukipeatuses , kus puudub ooteplatvorm , tohib &uuml;hiss&otilde;idukile minekuks s&otilde;iduteele astuda alles p&auml;rast &uuml;hiss&otilde;iduki peatumist .</s><s>P&auml;rast &uuml;hiss&otilde;idukist v&auml;ljumist peab jalak&auml;ija kohe lahkuma s&otilde;iduteelt .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>S&otilde;itja tohib s&otilde;idukisse siseneda ja sellest v&auml;ljuda ainult siis , kui s&otilde;iduk seisab .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>S&otilde;iduki ust ei tohi avada enne peatumist .</s><s>Ukse avamine ei tohi ohustada ega takistada teist liiklejat .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>S&otilde;iduteepoolselt k&uuml;ljelt v&otilde;i tagant tohib s&otilde;itja r&ouml;&ouml;basteta s&otilde;idukisse siseneda ja sellest v&auml;ljuda ainult siis , kui see on ohutu ega takista teist liiklejat .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>S&otilde;idukis , millel on turvav&ouml;&ouml;d , peab s&otilde;itja olema turvav&ouml;&ouml;ga n&otilde;uetekohaselt kinnitatud , v&auml;lja arvatud k&auml;esoleva m&auml;&auml;ruse &sect;-s 69 nimetatud juhtudel .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>S&otilde;itja ei tohi s&otilde;idu ajal t&otilde;mmata juhi t&auml;helepanu s&otilde;iduki juhtimiselt k&otilde;rvale .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Juhi kohustused jalak&auml;ija ohutuse tagamisel</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Juht ei tohi oma tegevusega ohustada jalak&auml;ijat ega rikkuda tema riietust ( nt pritsida pori , vett vms ) .</s><s>Eriti t&auml;helepanelik tuleb olla lapse , vanuri ning haigustunnuste ja puudega inimese suhtes .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Juht peab andma jalak&auml;ijale teed :</s>
+</p>
+<p>
+<s>1 ) k&otilde;nniteel v&otilde;i teepeenral , s&otilde;ites sinna s&otilde;iduteelt ;</s>
+</p>
+<p>
+<s>2 ) parklast , puhkekohast , teega k&uuml;lgnevalt alalt , &otilde;uealalt v&otilde;i nende juurdes&otilde;iduteelt v&otilde;i pinnasteelt teele s&otilde;ites ;</s>
+</p>
+<p>
+<s>3 ) tagurdades ;</s>
+</p>
+<p>
+<s>4 ) p&ouml;&ouml;rde l&otilde;petamisel ristmikult v&auml;lja s&otilde;ites ;</s>
+</p>
+<p>
+<s>5 ) tema s&otilde;idutee&uuml;letamisel foori rohelise tule v&otilde;i reguleerija lubava m&auml;rguande ajal ;</s>
+</p>
+<p>
+<s>6 ) tema s&otilde;idutee&uuml;letamise l&otilde;petamisel , kuigi juhile on s&uuml;ttinud foori lubav tuli v&otilde;i reguleerija on andnud lubava m&auml;rguande ;</s>
+</p>
+<p>
+<s>7 ) tema minekul keset teed olevas peatuses seisvale p&auml;risuunalisele &uuml;hiss&otilde;idukile v&otilde;i sellelt tulekul .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>L&auml;henedes reguleerimata &uuml;lek&auml;igurajale , peab juht v&auml;hendama kiirust v&otilde;i peatuma , et anda teed &uuml;lek&auml;igurajal teed &uuml;letavale v&otilde;i &uuml;lek&auml;igurajal tee&uuml;letamisv&otilde;imalust ootavale jalak&auml;ijale .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Kui reguleerimata &uuml;lek&auml;iguraja ees on p&auml;risuunav&ouml;&ouml;ndis seisma j&auml;&auml;mas v&otilde;i seisma j&auml;&auml;nud s&otilde;iduk , ei tohi juht sellest s&otilde;idukist m&ouml;&ouml;duda vahetult enne &uuml;lek&auml;igurada ega &uuml;lek&auml;igurajal , j&auml;&auml;mata seisma &uuml;lek&auml;iguraja ees .</s><s>&Uuml;lek&auml;igurajale tohib s&otilde;ita p&auml;rast k&auml;esoleva m&auml;&auml;ruse &sect; 46 n&otilde;uete t&auml;itmise v&otilde;imalikkuses veendumist .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Kui reguleerimata &uuml;lek&auml;iguraja ees seisma j&auml;&auml;nud s&otilde;iduki ja &uuml;lek&auml;igurajale l&auml;heneva s&otilde;iduki vahele j&auml;&auml;b vaba s&otilde;idurada , ei pea juht &uuml;lek&auml;iguraja ees seisma j&auml;&auml;ma , kuid peab arvestama k&auml;esoleva m&auml;&auml;ruse &sect;-s 46 s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Kui vastassuunalise v&ouml;&ouml;ndi poolel on reguleerimata &uuml;lek&auml;iguraja n&auml;htavus varjatud seisva s&otilde;iduki v&otilde;i muu takistuse t&otilde;ttu , peab juht s&otilde;idu j&auml;tkamisel olema eriti ettevaatlik , et mitte ohustada &uuml;lek&auml;igurajal olevat jalak&auml;ijat .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>&Uuml;lek&auml;igurajale tohib s&otilde;ita vaid siis , kui juht on kindel , et tal ei tule sellel seisma j&auml;&auml;da .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>&Uuml;lek&auml;igurajal ei tohi tagasi p&ouml;&ouml;rata .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Kui foorituli v&otilde;i reguleerija m&auml;rguanne keelab s&otilde;ita reguleeritavale &uuml;lek&auml;igurajale , tuleb peatuda stoppjoone v&otilde;i stoppjoonem&auml;rgi ees ; kui neid ei ole , siis &uuml;lek&auml;iguraja ees .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Kui reguleeritav &uuml;lek&auml;igurada tuleb &uuml;letada k&otilde;rvalep&ouml;&ouml;rde l&otilde;pul , v&otilde;ib juht juhul , kui tema s&otilde;idusuunas pole stoppjoont v&otilde;i stoppjoonem&auml;rki , &uuml;letada &uuml;lek&auml;iguraja , andes teed lubava fooritule ajal s&otilde;iduteed &uuml;letavale jalak&auml;ijale .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Juht peab igal pool andma teed valge kepiga m&auml;rku andvale pimedale jalak&auml;ijale .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lapse ohutust tagavad lisan&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Juht peab arvestama , et lapse areng ei v&otilde;imalda veel liiklusolusid terviklikult hinnata .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>N&auml;hes teel v&otilde;i tee &auml;&auml;res last , tuleb olla eriti t&auml;helepanelik ja s&otilde;ita kiirusega , mis v&otilde;imaldab ohtu v&auml;ltida .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Koolieelikut saatev t&auml;iskasvanu peab j&auml;lgima last ja v&auml;ltima lapse ootamatut sattumist s&otilde;iduteele .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Koolieelikute ja algklasside &otilde;pilaste r&uuml;hm v&otilde;ib liikuda ainult t&auml;iskasvanute saatel , kaks last k&otilde;rvuti , k&otilde;nniteel , selle puudumisel teepeenral , seejuures valgustamata asulateel ning asulav&auml;lisel teel ainult valge ajal ja kahesuunalise liikluse korral vasakpoolsel teepeenral .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Juht peab andma teed :</s>
+</p>
+<p>
+<s>1 ) s&otilde;iduteed &uuml;letavatele lastele laster&uuml;hma saatja m&auml;rguandel ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;iduteel olevatele lastele bussi juures , millel on k&auml;esoleva m&auml;&auml;ruse lisa 4 kohane laster&uuml;hma-tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Kui lapse pikkus ei v&otilde;imalda teda n&otilde;uetekohaselt kinnitada auto turvav&ouml;&ouml;ga , tuleb omaette istuva lapse s&otilde;idutamisel s&otilde;iduautos , millel on turvav&ouml;&ouml;d , kasutada tema pikkusele ja kaalule vastavat turvatooli , -h&auml;lli v&otilde;i muud n&otilde;uetekohast turvavarustust .</s><s>S&otilde;iduauto esiistmel tohib last s&otilde;idutada ainult siis , kui ta on turvavarustuse abil n&otilde;uetekohaselt kinnitatud .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>S&otilde;iduauto tagaistmel tohib t&auml;iskasvanud s&otilde;itjal s&uuml;les olla &uuml;ks alla 12-aastane laps tingimusel , et last s&uuml;les hoidev s&otilde;itja on turvav&ouml;&ouml;ga n&otilde;uetekohaselt kinnitatud ja k&otilde;ik autos olevad istekohad on h&otilde;ivatud .</s><s>S&otilde;iduauto esiistmel ei tohi last s&uuml;les hoides s&otilde;idutada .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>K&auml;esoleva m&auml;&auml;ruse &sect;-des 60 ja 61 esitatud n&otilde;uded ei ole kohustuslikud asulas&otilde;idul takso tagaistmel omaette istuva v&otilde;i t&auml;iskasvanu s&uuml;les oleva lapse s&otilde;idutamisel .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Alla 12-aastast last ei tohi s&otilde;idutada mootorratta tagaistmel .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Juhi &uuml;ldkohustused</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Juht peab olema t&auml;helepanelik teel ja teeservas seisvate v&otilde;i liikuvate v&auml;hekaitstud liiklejate suhtes , v&auml;ltima nende ohustamist ja neile kahju tekitamist .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Juhil on keelatud juhtimise ajal tegelda toimingutega , mis v&otilde;ivad segada juhtimist v&otilde;i liikluskeskkonna tajumist .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Juht ei tohi pargitud s&otilde;idukiga sulgeda teiste s&otilde;idukite liiklust sisses&otilde;idul &otilde;uedele ja teega k&uuml;lgnevatele aladele ega takistada jalak&auml;ijate liikumist &uuml;lek&auml;iguradadel ja ristmikel k&otilde;nniteede kulgemise suunas .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Juht v&otilde;ib kasutada asulasisesel teel s&otilde;idu ajal telefoni &uuml;ksnes k&auml;si vabaks j&auml;tva abivahendi olemasolul .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Juht on kohustatud :</s>
+</p>
+<p>
+<s>1 ) enne v&auml;ljas&otilde;itu veenduma s&otilde;iduki korrasolekus ja j&auml;lgima teel olles selle tehnoseisundit ;</s>
+</p>
+<p>
+<s>2 ) andma teed s&otilde;idukile , millel on sisse l&uuml;litatud sinine vilkur koos erilise helisignaaliga v&otilde;i ilma , ja niisuguse s&otilde;iduki poolt saadetavale s&otilde;idukile ;</s>
+</p>
+<p>
+<s>3 ) andma teed teel t&ouml;&ouml;tavale sissel&uuml;litatud kollase vilkuriga s&otilde;idukile ja niisuguse s&otilde;iduki poolt saadetavale s&otilde;idukile ;</s>
+</p>
+<p>
+<s>4 ) mootorratta juhtimisel hoidma juhtrauast kinni kahe k&auml;ega , v&auml;lja arvatud k&auml;ega hoiatusm&auml;rguandmise ajal , kandma peas kinnirihmatud motokiivrit ja mitte s&otilde;idutama s&otilde;itjat , kes pole viimast n&otilde;uet t&auml;itnud ;</s>
+</p>
+<p>
+<s>5 ) s&otilde;idukis , millel on turvav&ouml;&ouml;d , olema turvav&ouml;&ouml;ga n&otilde;uetekohaselt kinnitatud ja mitte s&otilde;idutama s&otilde;itjat , kes pole n&otilde;uetekohase turvavarustusega kinnitatud .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Turvav&ouml;&ouml; ei pea olema kinnitatud :</s>
+</p>
+<p>
+<s>1 ) juhil ja s&otilde;itjal j&auml;&auml;teel s&otilde;ites ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;itjal , kes on sellises haigusseisundis , mis turvav&ouml;&ouml; kinnitamist ei v&otilde;imalda ;</s>
+</p>
+<p>
+<s>3 ) juhil v&otilde;i s&otilde;itjal , kellel t&ouml;&ouml;&uuml;lesande t&auml;itmine on seotud peatustega , mille vahemaa ei &uuml;leta 100 m ;</s>
+</p>
+<p>
+<s>4 ) asulas&otilde;idul taksojuhil ja takso tagaistmel s&otilde;itjal ning ka s&otilde;idu&otilde;petajal &otilde;ppes&otilde;idu ajal.</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Mootors&otilde;idukijuhil ja trammijuhil peavad olema kaasas ning ta peab esitama politseiametniku v&otilde;i muu selleks seadustega volitatud isiku n&otilde;udel seadustest tulenevalt :</s>
+</p>
+<p>
+<s>1 ) juhtimis&otilde;igust t&otilde;endava dokumendi ;</s>
+</p>
+<p>
+<s>2 ) kohustusliku liikluskindlustuse poliisi v&otilde;i t&otilde;endi kindlustuslepingu s&otilde;lmimisest vabastamise kohta ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;iduki registreerimistunnistuse ;</s>
+</p>
+<p>
+<s>4 ) muud dokumendid , kui seda n&otilde;uavad seadused .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Juht peab v&otilde;imaldama kontrollida s&otilde;idumeeriku ja kiirusepiiriku olemasolu s&otilde;idukil , millel need on kohustuslikud , ning s&otilde;idumeeriku salvestuslehtede andmete alusel s&otilde;idu- ja puhkeaja n&otilde;uetest kinnipidamist .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Kontrollimiseks vajalikud dokumendid peab mootors&otilde;iduki juht andma kontrollijale juhikohalt lahkumata , autost l&auml;bi avatud k&uuml;ljeakna .</s><s>Juht ja s&otilde;itja peavad j&auml;&auml;ma oma kohale ja v&otilde;ivad s&otilde;idukist lahkuda ainult kontrollija loal v&otilde;i korraldusel .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Juhil on &otilde;igus n&otilde;uda kontrollijalt ametitunnistust v&otilde;i muud tema volitusi t&otilde;endavat dokumenti ja teha sellelt vajalikke m&auml;rkmeid .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Mootors&otilde;iduki ja trammi juht peab tundma esmaabiv&otilde;tteid , abistama liiklus&otilde;nnetuses kannatada saanud , abitus seisundis olevat inimest ning kohale kutsuma kiirabi ( p&auml;&auml;steteenistuse ) .</s><s>Ainult erandjuhul , kui kiirabi ( p&auml;&auml;steteenistust ) ei ole v&otilde;imalik kohale kutsuda ja transportimine pole kannatanule ohtlik , tohib teda haiglasse saata teise s&otilde;idukiga v&otilde;i viia sinna oma s&otilde;idukiga .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Juht , kelle mootors&otilde;iduk kuulub juriidilisele isikule ( v&auml;lja arvatud diplomaatiline esindus , konsulaarasutus v&otilde;i rahvusvaheline organisatsioon ) ega ole eriotstarbeline , peab edasil&uuml;kkamatul juhul minema oma s&otilde;idukiga politsei kasutusse s&otilde;iduks s&uuml;ndmuskohale v&otilde;i loodus&otilde;nnetuse piirkonda ning v&auml;ltimatu arstiabi vajaja toimetamiseks haiglasse v&otilde;i &otilde;iguserikkuja toimetamiseks politseisse .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Juht ei tohi olla :</s>
+</p>
+<p>
+<s>1 ) joobeseisundis .</s><s>Joobeseisund on vastavalt &ldquo; Liiklusseaduse &rdquo; &sect; 20 l&otilde;ikele 3 alkoholi , narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamisest p&otilde;hjustatud terviseseisund , mis avaldub h&auml;iritud v&otilde;i muutunud kehalistes v&otilde;i ps&uuml;&uuml;hilistes funktsioonides ja reaktsioonides ;</s>
+</p>
+<p>
+<s>2 ) sellises haigus- v&otilde;i v&auml;simusseisundis , mis takistab liiklusolude t&auml;pset tajumist ning k&auml;esoleva m&auml;&auml;ruse n&otilde;uete k&otilde;rvalekaldumatut t&auml;itmist ;</s>
+</p>
+<p>
+<s>3 ) seisundis , mille puhul alkoholisisaldus &uuml;hes liitris juhi v&auml;ljahingatavas &otilde;hus on 0,1 milligrammi v&otilde;i rohkem v&otilde;i mille on p&otilde;hjustanud alkoholisisaldus juhi veres 0,2 promilli v&otilde;i rohkem .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Juhtimist ei tohi &uuml;le anda isikule , kes on k&auml;esoleva m&auml;&auml;ruse &sect;-s 76 nimetatud seisundis .</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Mootors&otilde;iduki ja trammi juhtimist ei tohi &uuml;le anda isikule , kellel puudub vastav juhiluba .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Juhi kohustused &uuml;hiss&otilde;idukile ees&otilde;iguse andmisel</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Kui trammi ja r&ouml;&ouml;basteta s&otilde;iduki liikumisteed ristmikevahelisel alal l&otilde;ikuvad , peab teed andma r&ouml;&ouml;basteta s&otilde;iduki juht .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Juht , kelle s&otilde;idukile &uuml;hiss&otilde;idukirajad ei ole s&otilde;itmiseks m&auml;&auml;ratud , kasutab neid radasid erandina j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) liiklusm&auml;rgiga &ldquo; &Uuml;hiss&otilde;idukirada &rdquo; t&auml;histatud rajale , mis on p&auml;risuunalise s&otilde;idutee serval ega ole muust s&otilde;iduteest pidevjoonega eraldatud , tuleb reastuda enne p&ouml;&ouml;ret v&otilde;i peatumist ; ka p&ouml;&ouml;rde l&otilde;petamisel tohib sellele rajale s&otilde;ita , kuid seej&auml;rel tuleb sealt kohe lahkuda ;</s>
+</p>
+<p>
+<s>2 ) liiklusm&auml;rgiga &ldquo; &Uuml;hiss&otilde;idukirajaga tee &rdquo; t&auml;histatud teel olevast &uuml;hiss&otilde;idukirajast tohib kohas , kus liikluskorraldusvahend seda ei keela , ainult risti &uuml;le s&otilde;ita .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Asulas peab juht andma teed t&auml;histatud peatusest v&auml;lja s&otilde;itvale D-kategooria &uuml;hiss&otilde;idukile .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Juhi m&auml;rguanded</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>Suunam&auml;rguanne tuleb vastavalt liiklusolukorrale anda &otilde;igel ajal , kuid mitte hiljem kui 3 sekundit enne s&otilde;idu , man&ouml;&ouml;vri v&otilde;i peatumise alustamist .</s>
+</p>
+<p>
+<s>Suunatulem&auml;rguanne peab j&auml;tkuma man&ouml;&ouml;vri ajal ja tuleb l&otilde;petada kohe p&auml;rast man&ouml;&ouml;vrit , k&auml;em&auml;rguande v&otilde;ib l&otilde;petada vahetult enne s&otilde;idu alustamist , man&ouml;&ouml;vrit v&otilde;i peatumist .</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>Juht , kelle s&otilde;iduki ehituses pole suuna- v&otilde;i stopptulesid ette n&auml;htud , peab andma m&auml;rku k&auml;ega j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) paremsuunam&auml;rguandeks t&otilde;stma &otilde;la k&otilde;rgusele k&otilde;rvale sirge parema k&auml;e v&otilde;i k&otilde;verdama samasse t&otilde;stetud vasaku k&auml;e k&uuml;&uuml;narnukist t&auml;isnurgi &uuml;lespoole ;</s>
+</p>
+<p>
+<s>2 ) vasaksuunam&auml;rguandeks t&otilde;stma &otilde;la k&otilde;rgusele k&otilde;rvale sirge vasaku k&auml;e v&otilde;i k&otilde;verdama samasse t&otilde;stetud parema k&auml;e k&uuml;&uuml;narnukist t&auml;isnurgi &uuml;lespoole ;</s>
+</p>
+<p>
+<s>3 ) pidurdamism&auml;rguandeks liigutama k&otilde;rvale t&otilde;stetud sirget k&auml;tt &uuml;les-alla .</s>
+</p>
+<p>
+<s>Juht peab kasutama kirjeldatud k&auml;em&auml;rguandeid ka suuna- v&otilde;i stopptulede rikke korral v&otilde;i s&otilde;itmisel t&ouml;&ouml;tavate ohutuledega .</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>Helisignaali tohib anda vaid ohu tekkimisel v&otilde;i v&auml;ljaspool asulat liikleja t&auml;helepanu &auml;ratamiseks .</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>Tulesid v&otilde;ib vilgutada ainult liikleja t&auml;helepanu &auml;ratamiseks .</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>Hoiatusm&auml;rguandmine ei anna juhile ees&otilde;igust .</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>Seisval s&otilde;idukil peavad p&otilde;lema ohutuled :</s>
+</p>
+<p>
+<s>1 ) h&auml;dapeatuse korral kohas , kus peatuda ega parkida ei tohi ;</s>
+</p>
+<p>
+<s>2 ) asulav&auml;lisel teel pimeda ajal v&otilde;i halva n&auml;htavuse korral , kui kas v&otilde;i &uuml;ks &auml;&auml;retuli ei p&otilde;le ;</s>
+</p>
+<p>
+<s>3 ) liiklus&otilde;nnetuse korral .</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>S&otilde;itval s&otilde;idukil peavad p&otilde;lema ohutuled pimeda ajal v&otilde;i halva n&auml;htavuse korral , kui kas v&otilde;i &uuml;ks tagumine &auml;&auml;retuli ei p&otilde;le .</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>Ohukolmnurka peab mootors&otilde;iduki ( v&auml;lja arvatud soolomootorratta ) juht kasutama :</s>
+</p>
+<p>
+<s>1 ) ohutulede puudumisel juhtudel , mis on loetletud k&auml;esoleva m&auml;&auml;ruse &sect;-s 87.</s><s>Ohukolmnurk tuleb teele panna s&otilde;idukist piisavale kaugusele , kuid mitte l&auml;hemale kui 25 m asulas ja 50 m v&auml;ljaspool asulat .</s><s>H&auml;dapeatuse v&otilde;i liiklus&otilde;nnetuse korral ristmikul v&otilde;ib ohukolmnurk olla nimetatud kaugustest l&auml;hemal , asudes suurema ohu suunas kaugusel , mis v&otilde;imaldab teistel juhtidel ohtu m&auml;rgata &otilde;igel ajal ;</s>
+</p>
+<p>
+<s>2 ) ohutulede puudumisel - k&auml;esoleva m&auml;&auml;ruse &sect;-s 88 nimetatud juhul , kinnitatuna s&otilde;idukile tagant n&auml;htavale kohale ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;ltumata ohutulede olemasolust - k&auml;esoleva paragrahvi punktis 1 nimetatud n&otilde;ude kohaselt , kui h&auml;dapeatunud v&otilde;i liiklus&otilde;nnetuses osalenud s&otilde;iduk asub s&otilde;iduteel halva v&otilde;i piiratud n&auml;htavusega kohas v&otilde;i kui veos on niisuguses kohas s&otilde;iduteele kukkunud v&otilde;i sinna voolanud .</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>Kui h&auml;dapeatunud s&otilde;idukit , sellelt kukkunud v&otilde;i sellest v&auml;lja voolanud veost ei olnud v&otilde;imalik teelt omal j&otilde;ul k&otilde;rvaldada , peab juht selle t&auml;histama k&auml;esoleva m&auml;&auml;ruse &sect; 87 v&otilde;i &sect; 89 kohaselt , teatama juhtumist viivitamatult politseisse v&otilde;i teeomanikule ( -valdajale ) ja v&otilde;tma tarvitusele abin&otilde;ud ohu kiireks k&otilde;rvaldamiseks v&otilde;i selle kahjulike tagaj&auml;rgede v&auml;hendamiseks .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Man&ouml;&ouml;vrid</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>Enne s&otilde;idu , man&ouml;&ouml;vri v&otilde;i peatumise alustamist peab juht veenduma , et see on ohutu ega takista teisi liiklejaid ja teel t&ouml;&ouml;tajaid .</s><s>D-kategooria &uuml;hiss&otilde;idukijuht peab veenduma , et talle antakse k&auml;esoleva m&auml;&auml;ruse &sect; 81 kohaselt teed .</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>Juht peab andma teed j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) parklast , puhkekohast , teega k&uuml;lgnevalt alalt , &otilde;uealalt v&otilde;i nende juurdes&otilde;iduteelt v&otilde;i pinnasteelt teele s&otilde;ites - igale teel liiklejale ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;iduteelt &auml;ra s&otilde;ites - jalak&auml;ijale ja jalgratturile k&otilde;nniteel v&otilde;i teepeenral ning jalgratturile ja mopeedijuhile jalgrattateel v&otilde;i teepeenral .</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Taga s&otilde;itev r&ouml;&ouml;basteta s&otilde;iduki juht peab andma teed &uuml;mberreastuvale naaberrea juhile .</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>K&otilde;rvuti s&otilde;itvate juhtide vastastikusel reavahetamisel peab juht andma teed temast paremal olevale juhile .</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>Teel , kus p&auml;risuunas on kaks v&otilde;i enam teekattem&auml;rgistega t&auml;histatud s&otilde;idurada , ei tohi tiheda liikluse korral , kui k&otilde;ik rajad on &uuml;htlaselt koormatud , ees s&otilde;itvatest s&otilde;idukitest m&ouml;&ouml;duda sagedaste &uuml;mberreastumistega .</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Kui s&otilde;idukite liikumisteed l&otilde;ikuvad ja s&otilde;iduj&auml;rjekord ei ole k&auml;esolevas m&auml;&auml;ruses mujal m&auml;&auml;ratud , peab juht andma teed paremalt l&auml;henevale v&otilde;i paremal asuvale s&otilde;idukijuhile .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Enne p&ouml;&ouml;ret peab juht aegsasti suunduma s&otilde;idutee p&auml;risuunav&ouml;&ouml;ndi vastava &auml;&auml;re l&auml;hedale .</s><s>N&otilde;ue ei kehti s&otilde;itmisel ringliiklusega ristmikule ja p&ouml;&ouml;rde korral , mida vastav liikluskorraldusvahend lubab teha ka mujalt .</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>P&ouml;&ouml;rdel tuleb ristmikul s&otilde;ita nii , et s&otilde;iduteede ristumisalalt v&auml;lja s&otilde;ites ei satuta vastassuunav&ouml;&ouml;ndisse .</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Kui juht ei saa ristmikul v&otilde;i ristmikevahelisel teel s&otilde;iduki suure p&ouml;&ouml;rderaadiuse v&otilde;i s&otilde;idutee seisundi t&otilde;ttu p&ouml;&ouml;rata k&auml;esoleva m&auml;&auml;ruse &sect;-de 97 , 98 ja 109 n&otilde;uete kohaselt , v&otilde;ib nendest k&otilde;rvale kalduda - kaasa arvatud teepeenrale s&otilde;itmine - tingimusel , et ei ohustata ega takistata teist liiklejat ega rikuta tee mullet .</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>P&ouml;&ouml;rates ristmikevahelisel teel vasakule v&otilde;i tagasi , peab juht andma teed vastus&otilde;itvale ja temast m&ouml;&ouml;das&otilde;idul olevale juhile .</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Eraldusribaga teel tohib v&auml;ljaspool asulat vasakule v&otilde;i tagasi p&ouml;&ouml;rata vaid kohas , kus on vastav liiklusm&auml;rk &ldquo; S&otilde;idurajad ja -suunad &rdquo; , ja tagasi p&ouml;&ouml;rata vaid kohas , kus on m&auml;rk &ldquo; Tagasip&ouml;&ouml;rdekoht &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Tagasi p&ouml;&ouml;rata ei tohi :</s>
+</p>
+<p>
+<s>1 ) &uuml;lek&auml;igurajal ;</s>
+</p>
+<p>
+<s>2 ) raudtee&uuml;les&otilde;idukohal ;</s>
+</p>
+<p>
+<s>3 ) piiratud n&auml;htavusega kohas .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Kui teel on aeglustusrada , peab p&ouml;&ouml;rata kavatsev juht aegsasti siirduma sellele rajale ja v&auml;hendama kiirust ainult seal .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>Kui teele s&otilde;itmiseks on kiirendusrada , peab juht s&otilde;itma sellel ja liiklusvooluga &uuml;hinemisel andma teed teel s&otilde;itvale juhile .</s><s>Teel s&otilde;itev juht ei tohi p&otilde;igata kiirendusrajale , kui see takistab seal s&otilde;itvat juhti .</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>Tagurdamisel ei tohi juht ohustada ega takistada teist liiklejat .</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>&Uuml;hesuunalisel teel tohib vastassuunas tagurdada ainult man&ouml;&ouml;vriks .</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>S&otilde;iduki asukoht s&otilde;ites</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>Teekattem&auml;rgistega s&otilde;iduradadeks jaotatud s&otilde;iduteel tuleb s&otilde;ita raja piirides .</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>Kahesuunalise liiklusega s&otilde;iduteel , mille kogulaiuses on neli v&otilde;i enam s&otilde;idurada , ei tohi s&otilde;ita vastassuunav&ouml;&ouml;ndis .</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>Kahesuunalise liiklusega s&otilde;iduteel , mille kogulaiuses on kolm teekattem&auml;rgistega t&auml;histatud s&otilde;idurada , ei tohi s&otilde;ita &auml;&auml;rmisele vasakpoolsele , vastassuunarajale .</s><s>Keskmist rada v&otilde;ib kasutada ainult m&ouml;&ouml;das&otilde;iduks v&otilde;i &uuml;mberp&otilde;ikeks ning tuleb kasutada &uuml;mberreastumiseks enne vasak- v&otilde;i tagasip&ouml;&ouml;ret .</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>S&otilde;idukiga , mida pole nimetatud k&auml;esoleva m&auml;&auml;ruse &sect;-des 111 ja 112 , tohib asula s&otilde;iduteel s&otilde;ita p&auml;risuunav&ouml;&ouml;ndis mis tahes rajal eeldusel , et t&auml;idetakse k&auml;esoleva m&auml;&auml;ruse &sect; 80 n&otilde;udeid .</s><s>Asulav&auml;lisel teel tuleb s&otilde;ita s&otilde;idutee parempoolse &auml;&auml;re l&auml;hedal .</s><s>Kui p&auml;risuunav&ouml;&ouml;ndis on mitu t&auml;histatud s&otilde;idurada , siis tohib vasakpoolseid radasid kasutada ainult juhul , kui parempoolsed on h&otilde;ivatud .</s>
+</p>
+<p>
+<s>&sect; 111.</s><s>&Uuml;helgi s&otilde;iduteel , kus p&auml;risuunav&ouml;&ouml;ndis on kolm v&otilde;i enam t&auml;histatud s&otilde;idurada , ei tohi C-kategooria s&otilde;idukiga s&otilde;ita kaugemal teisest rajast , kui k&auml;esoleva m&auml;&auml;rusega ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 112.</s><s>S&otilde;idukiga , mille suurim kiirus ei tohi &uuml;letada 40 km/h v&otilde;i mis muul liiklusvoolust s&otilde;ltumatul p&otilde;hjusel ei saa s&otilde;ita nimetatust kiiremini , tuleb s&otilde;ita &auml;&auml;rmisel parempoolsel rajal , kui k&auml;esoleva m&auml;&auml;rusega ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 113.</s><s>Mootors&otilde;idukil v&otilde;i autorongil , mis ei tohi v&otilde;i ei saa s&otilde;ita kiiremini kui 40 km/h , peab olema taga vasakul &auml;&auml;rel v&otilde;i keskel k&auml;esoleva m&auml;&auml;ruse lisa 4 kohane aeglase s&otilde;iduki tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>&sect; 114.</s><s>Kattega teel tohib s&otilde;ita ainult mootors&otilde;idukiga , mis toetub tee pinnale pneumaatiliste v&otilde;i elastsest materjalist rehvide v&otilde;i roomikutega .</s>
+</p>
+<p>
+<s>&sect; 115.</s><s>Trammiliiklust takistamata tohib r&ouml;&ouml;basteta s&otilde;idukiga s&otilde;ita v&otilde;i seisma j&auml;&auml;da s&otilde;iduteega samal tasandil asuval p&auml;risuunalisel trammiteel ainult siis , kui s&otilde;iduradade arv ei ole m&auml;&auml;ratud liiklusm&auml;rgiga &ldquo; S&otilde;idurajad ja -suunad &rdquo; .</s><s>Kui trammiliiklust takistatakse , tuleb trammitee vabastada .</s><s>K&otilde;rval asuvad juhid peavad seda v&otilde;imaldama .</s>
+</p>
+<p>
+<s>&sect; 116.</s><s>Vastassuunalisel trammiteel s&otilde;ita ei tohi .</s>
+</p>
+<p>
+<s>&sect; 117.</s><s>K&otilde;nniteel ja jalgrattateel tohib liikuda vaid t&ouml;&ouml;&uuml;lesandeid t&auml;itva mootors&otilde;idukiga , kui &uuml;lesande t&auml;itmine s&otilde;iduteelt ei ole v&otilde;imalik .</s>
+</p>
+<p>
+<s>&sect; 118.</s><s>Teepeenral tohib mootors&otilde;idukiga s&otilde;ita ainult k&auml;esoleva m&auml;&auml;ruse &sect;-des 99 , 136 , 138 , 141 ja 145 etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 119.</s><s>Haljasalale ei tohi ilma selle omaniku ( valdaja ) loata s&otilde;ita &uuml;hegi s&otilde;idukiga .</s>
+</p>
+<p>
+<s>&sect; 120.</s><s>Eraldusribal ei tohi s&otilde;ita &uuml;hegi s&otilde;idukiga peale hooldust&ouml;id tegeva s&otilde;iduki .</s>
+</p>
+<p>
+<s>&sect; 121.</s><s>Kui p&ouml;&ouml;ratakse teele , mille ette on pandud liiklusm&auml;rk &ldquo; S&otilde;it muutsuunaliiklusega teele &rdquo; , tuleb s&otilde;ita &auml;&auml;rmisele parempoolsele rajale .</s><s>Sealt v&otilde;ib suunduda vasakpoolsetele radadele vaid p&auml;rast seda , kui juht on kindel , et p&auml;risuunas v&otilde;ib s&otilde;ita ka teistel radadel .</s>
+</p>
+<p>
+<s>&sect; 122.</s><s>S&otilde;ites m&ouml;&ouml;da veekogu &uuml;letavat j&auml;&auml;teed , peab juht j&auml;rgima &ldquo; Teeseaduse &rdquo; alusel kehtestatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>S&otilde;idukiirus</s>
+</p>
+<p>
+<s>&sect; 123.</s><s>Juht peab kohandama oma s&otilde;iduki kiiruse selliseks , mis arvestab tema s&otilde;idukogemusi , teeolusid , tee ja s&otilde;iduki seisundit , veose ise&auml;rasusi , ilmastikutingimusi , liikluse tihedust ning muid liiklusolusid , et ta suudaks peatada s&otilde;iduki eespoolse n&auml;htavusulatuse piires ning teel etteaimatava mis tahes takistuse ees .</s><s>Juht peab v&auml;hendama kiirust ning vajaduse korral peatuma , kui tingimused seda n&otilde;uavad , eriti siis , kui n&auml;htavus on halb .</s>
+</p>
+<p>
+<s>&sect; 124.</s><s>Suurim lubatud s&otilde;idukiirus :</s>
+</p>
+<p>
+<s>1 ) asulasisesel teel on 50 kilomeetrit tunnis ;</s>
+</p>
+<p>
+<s>2 ) asulav&auml;lisel teel on 90 kilomeetrit tunnis .</s>
+</p>
+<p>
+<s>&sect; 125.</s><s>Liiklusm&auml;rgid &ldquo; Suurim kiirus &rdquo; v&otilde;i &ldquo; Kiiruse piirangu ala &rdquo; , mis piiravad kiiruse 30 km/h v&otilde;i alla selle , osutavad juhile ohtlikku teel&otilde;iku v&otilde;i ala , millel t&auml;iendavad hoiatusm&auml;rgid v&otilde;i teem&auml;rgised v&otilde;ivad puududa .</s>
+</p>
+<p>
+<s>&sect; 126.</s><s>Juht ei tohi s&otilde;ita kiiremini :</s>
+</p>
+<p>
+<s>1 ) valmistajakiirusest .</s><s>Autorongi kiirus ei tohi &uuml;letada &uuml;hegi tema koosseisus oleva s&otilde;iduki valmistajakiirust ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva m&auml;&auml;ruse lisa 4 kohasel kiiruse piirangu tunnusm&auml;rgil mainitud kiirusest .</s><s>Nimetatud tunnusm&auml;rk peab olema paigaldatud s&otilde;idukile taha , kui selle suurim kiirus peab olema v&auml;iksem k&auml;esoleva m&auml;&auml;ruse &sect;-s 124 mainitud kiirusest v&otilde;i kui sellel on kiirusepiirik ;</s>
+</p>
+<p>
+<s>3 ) liikluskorraldusvahendil n&auml;idatud suurusest .</s>
+</p>
+<p>
+<s>&sect; 127.</s><s>&Otilde;ppes&otilde;idu ajal ja esmase v&otilde;i piiratud juhtimis&otilde;igusega juht ei tohi s&otilde;ita kiiremini kui 90 km/h .</s><s>&Otilde;ppes&otilde;iduautol peab olema eest ja tagant n&auml;htav k&auml;esoleva m&auml;&auml;ruse lisa 4 kohane &otilde;ppes&otilde;idu-tunnusm&auml;rk , teistel juhtudel - algaja juhi tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>&sect; 128.</s><s>Juht ei tohi :</s>
+</p>
+<p>
+<s>1 ) p&otilde;hjendamatult aeglase s&otilde;iduga takistada teisi s&otilde;idukeid ;</s>
+</p>
+<p>
+<s>2 ) j&auml;rsult pidurdada , kui see pole vajalik ohutuse tagamiseks .</s>
+</p>
+<p>
+<s>&sect; 129.</s><s>Juht peab vastavalt kiirusele hoidma sellist pikivahet , mis v&otilde;imaldab v&auml;ltida otsas&otilde;itu ees ootamatult pidurdanud v&otilde;i peatunud s&otilde;idukile .</s>
+</p>
+<p>
+<s>&sect; 130.</s><s>S&otilde;itmisel peab juht hoidma ohutut k&uuml;lgvahet .</s>
+</p>
+<p>
+<s>&sect; 131.</s><s>Asulav&auml;lisel teel , millel p&auml;risuunas on &uuml;ks s&otilde;idurada , peab juht , kes ei s&otilde;ida sellel teel&otilde;igul lubatud suurima kiirusega , hoidma niisugust pikivahet , et temast m&ouml;&ouml;das&otilde;itnu saaks tagasi reastuda .</s><s>N&otilde;ue ei kehti , kui juht ise valmistub m&ouml;&ouml;das&otilde;iduks , kui liiklus on tihe v&otilde;i kui sellel teel&otilde;igul ei tohi m&ouml;&ouml;da s&otilde;ita .</s>
+</p>
+<p>
+<s>12. peat&uuml;kk</s>
+</p>
+<p>
+<s>M&ouml;&ouml;das&otilde;it</s>
+</p>
+<p>
+<s>&sect; 132.</s><s>Enne m&ouml;&ouml;das&otilde;idu alustamist peab juht veenduma , et :</s>
+</p>
+<p>
+<s>1 ) &uuml;kski tema j&auml;rel s&otilde;itev juht pole alustanud temast m&ouml;&ouml;das&otilde;itu ;</s>
+</p>
+<p>
+<s>2 ) ees s&otilde;itev juht pole andnud vasaksuunam&auml;rku ;</s>
+</p>
+<p>
+<s>3 ) m&ouml;&ouml;das&otilde;iduks kasutatav rada on vajalikus ulatuses vaba ;</s>
+</p>
+<p>
+<s>4 ) m&ouml;&ouml;das&otilde;itu l&otilde;petades saab ta naasta p&auml;risuunav&ouml;&ouml;ndisse , ohustamata ja takistamata juhte , kellest ta m&ouml;&ouml;da s&otilde;idab .</s>
+</p>
+<p>
+<s>&sect; 133.</s><s>Kui m&ouml;&ouml;das&otilde;idu ajal ilmneb takistus v&otilde;i liiklusoht , mida juht ei saanud ette n&auml;ha v&otilde;i ei osanud &otilde;igesti hinnata enne m&ouml;&ouml;das&otilde;idu alustamist , tuleb m&ouml;&ouml;das&otilde;it katkestada .</s><s>Kui m&ouml;&ouml;das&otilde;idu katkestanud juht tahab naasta p&auml;risuunav&ouml;&ouml;ndisse , peavad taga s&otilde;itvad juhid seda v&otilde;imaldama .</s>
+</p>
+<p>
+<s>&sect; 134.</s><s>Juht , kellest m&ouml;&ouml;da s&otilde;idetakse , ei tohi m&ouml;&ouml;das&otilde;itu takistada s&otilde;idukiiruse suurendamisega ega muul viisil .</s>
+</p>
+<p>
+<s>&sect; 135.</s><s>M&ouml;&ouml;da s&otilde;ita ei tohi :</s>
+</p>
+<p>
+<s>1 ) ristmikul ja ristmiku vahetus l&auml;heduses sellele suubuval teel , v&auml;lja arvatud selline ristmik , kus teistest suundadest l&auml;henevad juhid peavad andma teed ;</s>
+</p>
+<p>
+<s>2 ) raudtee&uuml;les&otilde;idukohal ja selle vahetus l&auml;heduses enne &uuml;les&otilde;idukohta ;</s>
+</p>
+<p>
+<s>3 ) reguleerimata &uuml;lek&auml;igurajal ;</s>
+</p>
+<p>
+<s>4 ) piiratud n&auml;htavusega teel&otilde;igul .</s>
+</p>
+<p>
+<s>&sect; 136.</s><s>Asulav&auml;lisel teel , kus s&otilde;idutee seisund v&otilde;i tihe vastassuunaliiklus ei v&otilde;imalda m&ouml;&ouml;da s&otilde;ita s&otilde;idukist , mis ei s&otilde;ida sellel teel&otilde;igul lubatud suurima kiirusega , peab viimase juht hoiduma v&otilde;imalikult paremale ja vajaduse korral peatuma , et lubada m&ouml;&ouml;da enda taha kogunenud s&otilde;idukid .</s>
+</p>
+<p>
+<s>&sect; 137.</s><s>P&auml;risuunav&ouml;&ouml;ndis ei tohi ees s&otilde;itvast s&otilde;idukist m&ouml;&ouml;duda :</s>
+</p>
+<p>
+<s>1 ) piiratud n&auml;htavusega teel&otilde;igul , kui p&auml;risuunav&ouml;&ouml;ndi s&otilde;idurajad pole t&auml;histatud teekattem&auml;rgistega ;</s>
+</p>
+<p>
+<s>2 ) reguleerimata &uuml;lek&auml;igurajal ;</s>
+</p>
+<p>
+<s>3 ) aeglustusraja , teepeenra v&otilde;i &uuml;hiss&otilde;idukipeatuskoha teelaiendi kaudu .</s><s>N&otilde;ue ei kehti m&ouml;&ouml;dumisel s&otilde;idukist , mis on vasak- v&otilde;i tagasip&ouml;&ouml;rdel .</s>
+</p>
+<p>
+<s>&sect; 138.</s><s>Vastus&otilde;itvast s&otilde;idukist m&ouml;&ouml;dumisel tuleb kitsal s&otilde;iduteel hoiduda v&otilde;imalikult paremale , vajaduse korral v&otilde;ib s&otilde;ita teepeenrale .</s>
+</p>
+<p>
+<s>&sect; 139.</s><s>Kui m&ouml;&ouml;dumine on raskendatud takistuse t&otilde;ttu , peab teed andma juht , kelle ees see takistus on .</s>
+</p>
+<p>
+<s>&sect; 140.</s><s>Liiklusm&auml;rgiga &ldquo; J&auml;rsk lang &rdquo; t&auml;histatud langul peab takistuse juures teed andma laskuv juht .</s>
+</p>
+<p>
+<s>13. peat&uuml;kk</s>
+</p>
+<p>
+<s>Peatumine ja parkimine</s>
+</p>
+<p>
+<s>&sect; 141.</s><s>Asulateel tuleb s&otilde;iduk peatada v&otilde;i parkida s&otilde;iduteel selle parempoolse &auml;&auml;re l&auml;hedal v&otilde;i parempoolsel teepeenral nii , et jalak&auml;ijale j&auml;&auml;ks teepeenral vabaks v&auml;hemalt 0,75 m laiune k&auml;iguriba .</s><s>Sama korra kohaselt tohib asulas s&otilde;idukit peatada ja parkida ka tee vasakul poolel &uuml;hesuunalisel teel ja sellisel kahesuunalisel teel , mille keskel pole trammiteed ning kus m&otilde;lemas suunas on &uuml;ks s&otilde;idurada , mida teineteisest eraldab katkendjoon v&otilde;i mille puudumisel s&otilde;idutee on alla 9 m lai , arvestamata s&otilde;iduteelaiendina ehitatud parklat .</s>
+</p>
+<p>
+<s>&sect; 142.</s><s>Asula s&otilde;iduteel tohib s&otilde;idukeid peatada v&otilde;i parkida &uuml;hes reas , haagiseta kaherattalisi mootorrattaid , jalgrattaid ja mopeede k&otilde;rvuti kahes reas , kusjuures s&otilde;iduki pikitelg peab olema r&ouml;&ouml;pne s&otilde;idutee&auml;&auml;rega ja takistuse puudumisel ei tohi s&otilde;iduk olla kaugemal kui 0,2 m s&otilde;idutee&auml;&auml;rest .</s><s>N&otilde;ue ei kehti s&otilde;idukite kohta , mis on pargitud k&auml;esoleva m&auml;&auml;ruse punkti &sect; 143 kohaselt .</s>
+</p>
+<p>
+<s>&sect; 143.</s><s>Asulas tohib alla 6 m pikkust A- ja haagiseta B-kategooria ning haagiseta D1-alakategooria s&otilde;idukit parkida ka :</s>
+</p>
+<p>
+<s>1 ) s&otilde;iduteel selle &auml;&auml;re suhtes nurgi - seal , kus seda n&auml;itab liikluskorraldusvahend v&otilde;i on olemas s&otilde;iduteelaiend ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;nnitee&auml;&auml;rses parklas korra kohaselt , mida n&auml;itab liikluskorraldusvahend ;</s>
+</p>
+<p>
+<s>3 ) osaliselt v&otilde;i t&auml;ielikult k&otilde;nniteel , kus seda n&auml;itab vastav liikluskorraldusvahend , j&auml;ttes jalak&auml;ijale seal vabaks v&auml;hemalt 1,5 meetri laiuse k&auml;iguriba .</s>
+</p>
+<p>
+<s>&sect; 144.</s><s>Paragrahvis 143 nimetamata mootors&otilde;idukeid ei tohi selle paragrahvi punktides 1 , 2 ja 3 mainitud kohtades parkida &uuml;helgi viisil .</s>
+</p>
+<p>
+<s>&sect; 145.</s><s>Asulav&auml;lisel teel tuleb s&otilde;iduk peatada v&otilde;i parkida parempoolsel teepeenral .</s><s>Kui seda n&otilde;uet ei ole v&otilde;imalik t&auml;ita , peab s&otilde;iduk asuma teel v&otilde;imalikult paremal .</s><s>S&otilde;idukeid tohib peatada ja parkida ainult &uuml;hes reas , s&otilde;iduki pikitelg peab olema r&ouml;&ouml;pne s&otilde;idutee&auml;&auml;rega .</s>
+</p>
+<p>
+<s>&sect; 146.</s><s>Pimeda ajal tohib v&auml;ljaspool asulat s&otilde;idukit parkida ainult parklas v&otilde;i puhkekohas .</s>
+</p>
+<p>
+<s>&sect; 147.</s><s>Peatuda ega parkida ei tohi eraldusribapoolsel s&otilde;idutee&auml;&auml;rel , v&auml;lja arvatud liikluskorraldusvahendiga n&auml;idatud kohas .</s>
+</p>
+<p>
+<s>&sect; 148.</s><s>Kui parkimiskohad pole t&auml;histatud , tuleb s&otilde;iduk parkida nii , et p&otilde;hjendamatult ei v&auml;hendataks parkimiskohtade arvu .</s>
+</p>
+<p>
+<s>&sect; 149.</s><s>Enne s&otilde;iduki juurest lahkumist peab juht rakendama abin&otilde;usid , mis v&auml;ldiksid s&otilde;iduki iseenesliku liikuma hakkamise ja t&otilde;kestaksid selle omavolilise kasutamise .</s>
+</p>
+<p>
+<s>&sect; 150.</s><s>Seisva s&otilde;iduki uksi ei tohi avada v&otilde;i hoida avatuna , kui see on ohtlik v&otilde;i takistab teisi liiklejaid .</s>
+</p>
+<p>
+<s>&sect; 151.</s><s>Peatuda ei tohi :</s>
+</p>
+<p>
+<s>1 ) kohas , kus liikluskorraldusvahend seda ei luba ;</s>
+</p>
+<p>
+<s>2 ) raudtee&uuml;les&otilde;idukohal ;</s>
+</p>
+<p>
+<s>3 ) trammiteel v&otilde;i sellele l&auml;hemal kui 1 m ;</s>
+</p>
+<p>
+<s>4 ) silla , estakaadi v&otilde;i viadukti peal ning all , v&auml;lja arvatud seal parkimiseks lubatud kohad ;</s>
+</p>
+<p>
+<s>5 ) kohas , kus seisev s&otilde;iduk teeb v&otilde;imatuks teiste s&otilde;idukite liikumise v&otilde;i takistab jalak&auml;ijaid ;</s>
+</p>
+<p>
+<s>6 ) &uuml;lek&auml;igurajal v&otilde;i jalgrattatee s&otilde;iduteega ristumise kohal v&otilde;i l&auml;hemal kui 5 m enne neid kohti , kahesuunalise tee vasakul poolel peatudes aga l&auml;hemal kui 5 m p&auml;rast neid kohti ;</s>
+</p>
+<p>
+<s>7 ) kohas , kus suunav&ouml;&ouml;ndit v&otilde;i s&otilde;idurada t&auml;histava pideva m&auml;rgisjoone ja peatatud s&otilde;iduki vahe oleks alla 3 m ;</s>
+</p>
+<p>
+<s>8 ) D-kategooria &uuml;hiss&otilde;iduki peatuskoha teelaiendil v&otilde;i teekattem&auml;rgisel &ldquo; &Uuml;hiss&otilde;idukipeatus &rdquo; , nende puudumisel aga peatuse poolel l&auml;hemal kui 15 m liiklusm&auml;rgile &ldquo; Bussi- v&otilde;i trollipeatus &rdquo; v&otilde;i &ldquo; Taksopeatus &rdquo; , kui see takistab vastavalt kas D-kategooria &uuml;hiss&otilde;idukite v&otilde;i s&otilde;itjate veoks etten&auml;htud taksode liiklust ;</s>
+</p>
+<p>
+<s>9 ) l&auml;hemal kui 15 m enne liiklusm&auml;rki &ldquo; Trammipeatus &rdquo; ;</s>
+</p>
+<p>
+<s>10 ) kohas , kus s&otilde;iduk varjaks fooritulesid v&otilde;i liiklusm&auml;rke teiste liiklejate eest ;</s>
+</p>
+<p>
+<s>11 ) s&otilde;iduteel piiratud n&auml;htavusega kohas ;</s>
+</p>
+<p>
+<s>12 ) haljasalal ilma selle omaniku ( valdaja ) loata ;</s>
+</p>
+<p>
+<s>13 ) eraldusribal ja selle katkestuskohas ;</s>
+</p>
+<p>
+<s>14 ) ristuva s&otilde;idutee &auml;&auml;rele l&auml;hemal kui 5 m , kuid mitte kohakuti ristuva k&otilde;nniteega ;</s>
+</p>
+<p>
+<s>15 ) ristmikul , v&auml;lja arvatud seal parkimiseks lubatud kohad .</s><s>Erandina tohib kolmeharulisel ristmikul peatuda ja parkida ristmikku otse l&auml;bival teel umbharu vastask&uuml;ljel , kui selle tee suunav&ouml;&ouml;ndeid keelab &uuml;letada liikluskorraldusvahend .</s>
+</p>
+<p>
+<s>&sect; 152.</s><s>Parkida ei tohi :</s>
+</p>
+<p>
+<s>1 ) kohas , kus liikluskorraldusvahend seda ei luba , ega kohas , kus ei tohi peatuda ;</s>
+</p>
+<p>
+<s>2 ) raudtee&uuml;les&otilde;idukohale l&auml;hemal kui 50 m ;</s>
+</p>
+<p>
+<s>3 ) teekattele m&auml;rgitud parkimiskohtade k&otilde;rval ;</s>
+</p>
+<p>
+<s>4 ) v&auml;ljaspool asulat ees&otilde;igusm&auml;rgiga &ldquo; Peatee &rdquo; t&auml;histatud tee s&otilde;iduteel ;</s>
+</p>
+<p>
+<s>5 ) aeglustus- ja kiirendusrajal ;</s>
+</p>
+<p>
+<s>6 ) kohas , kus takistatakse teise s&otilde;iduki s&otilde;itmist parkimiskohale v&otilde;i v&auml;ljas&otilde;itu sealt .</s>
+</p>
+<p>
+<s>&sect; 153.</s><s>Paragrahvi 151 punktis 8 nimetatud D-kategooria &uuml;hiss&otilde;iduki peatuskohas v&otilde;ivad peatuda D-kategooria &uuml;hiss&otilde;idukid , taksopeatuses v&otilde;ivad peatuda ning parkida s&otilde;itjate veoks etten&auml;htud taksod .</s>
+</p>
+<p>
+<s>14. peat&uuml;kk</s>
+</p>
+<p>
+<s>S&otilde;it ristmikel</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>&Uuml;ldn&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 154.</s><s>Ristmikule l&auml;henedes peab juht olema ettevaatlik ja arvestama selle ise&auml;rasusi .</s>
+</p>
+<p>
+<s>&sect; 155.</s><s>P&ouml;&ouml;ret l&otilde;petades peab juht andma teed jalak&auml;ijale , kes &uuml;letab s&otilde;iduteed , millele juht p&ouml;&ouml;rab , ning jalgratturile ja mopeedijuhile , kes &uuml;letab seda m&ouml;&ouml;da jalgrattateed .</s>
+</p>
+<p>
+<s>&sect; 156.</s><s>P&ouml;&ouml;rates vasakule v&otilde;i tagasi peab r&ouml;&ouml;basteta s&otilde;iduki juht andma teed juhile , kes s&otilde;idab vastassuunast otse v&otilde;i paremale v&otilde;i on temast m&ouml;&ouml;das&otilde;idul .</s><s>Samamoodi peavad omavahel toimima trammijuhid .</s>
+</p>
+<p>
+<s>&sect; 157.</s><s>Paragrahvis 156 nimetatud n&otilde;ue ei kehti , kui vasakule v&otilde;i tagasi p&ouml;&ouml;ratakse reguleerimata eriliigiliste teede ristmikul , olles peateel , mille suund muutub , v&otilde;i reguleeritaval ristmikul ajal , mil p&otilde;leb vasakule osutav roheline nooltuli nooltuledega fooris v&otilde;i lisasektsioonidega fooris koos rohelise p&otilde;hitulega .</s>
+</p>
+<p>
+<s>&sect; 158.</s><s>S&otilde;iduteede ristumisalale ei tohi s&otilde;ita , kui tekkinud ummik sunniks juhti peatuma nii , et ta takistaks teist liiklejat .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Reguleerimata ristmik</s>
+</p>
+<p>
+<s>&sect; 159.</s><s>Reguleerimata eriliigiliste teede ristmikul peab k&otilde;rvalteel s&otilde;itev juht andma teed juhile , kes l&auml;heneb ristmikule v&otilde;i liigub sellel m&ouml;&ouml;da peateed , s&otilde;ltumata tolle juhi s&otilde;idusuunast .</s>
+</p>
+<p>
+<s>&sect; 160.</s><s>Reguleerimata samaliigiliste teede ristmikul peab r&ouml;&ouml;basteta s&otilde;iduki juht - kui ees&otilde;igusm&auml;rgid ei n&auml;ita teisiti - andma teed paremalt l&auml;heneva r&ouml;&ouml;basteta s&otilde;iduki juhile .</s><s>Samamoodi peavad omavahel toimima trammijuhid .</s><s>R&ouml;&ouml;basteta s&otilde;iduki juht peab andma teed trammijuhile , s&otilde;ltumata trammi s&otilde;idusuunast .</s>
+</p>
+<p>
+<s>&sect; 161.</s><s>Reguleerimata eriliigiliste teede ristmikul , kus peatee v&otilde;i s&otilde;iduees&otilde;igusega tee suund muutub , peavad peateel v&otilde;i s&otilde;iduees&otilde;igusega teel s&otilde;itvad juhid omavahel j&auml;rgima samaliigiliste teede ristmiku &uuml;letamise n&otilde;udeid .</s><s>Samamoodi peavad omavahel toimima k&otilde;rvalteel s&otilde;itvad juhid .</s>
+</p>
+<p>
+<s>&sect; 162.</s><s>Kui reguleerimata ristmikul juht ei tea , mis liiki teel ta on , peab ta arvestama , et asub k&otilde;rvalteel .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Reguleeritav ristmik</s>
+</p>
+<p>
+<s>&sect; 163.</s><s>Kui foorituli v&otilde;i reguleerija m&auml;rguanne lubab s&otilde;ita trammil ja r&ouml;&ouml;basteta s&otilde;idukil korraga , on ees&otilde;igus trammil .</s>
+</p>
+<p>
+<s>&sect; 164.</s><s>Kui juht s&otilde;idab lisasektsioonidega foori rohelise nooltule suunas ajal , mil p&otilde;leb punane v&otilde;i kollane p&otilde;hituli , peab ta andma teed mis tahes teisest suunast s&otilde;itvale juhile .</s>
+</p>
+<p>
+<s>&sect; 165.</s><s>Kui ristmikul on k&otilde;rvuti paigaldatud &uuml;mar- ja nooltuledega foorid , s&otilde;idetakse nooltuledega osutatavas suunas ainult rohelise nooltule p&otilde;ledes .</s>
+</p>
+<p>
+<s>&sect; 166.</s><s>Foori lubava tule ajal ristmikule s&otilde;itnud juht peab sealt kavatsetud suunas &auml;ra s&otilde;itma , s&otilde;ltumata ristmikul olevate teiste fooride tuledest .</s><s>Kui aga ristmikul oleva foori juures on stoppjoon v&otilde;i stoppjoonem&auml;rk , peab ta selle foori tuledest juhinduma .</s>
+</p>
+<p>
+<s>&sect; 167.</s><s>Foori lubava tule s&uuml;ttimisel peab juht andma teed juhile , kes l&otilde;petab ristmiku &uuml;letamist , ja veel s&otilde;iduteel olevale jalak&auml;ijale .</s>
+</p>
+<p>
+<s>&sect; 168.</s><s>Foori v&otilde;i reguleerija keelava m&auml;rguande korral tuleb peatuda stoppjoone v&otilde;i stoppjoonem&auml;rgi ees .</s><s>Selle puudumisel v&otilde;ib s&otilde;ita kuni ristuva s&otilde;idutee &auml;&auml;reni , takistamata jalak&auml;ijat .</s>
+</p>
+<p>
+<s>&sect; 169.</s><s>Kui ristmikul on paremp&ouml;&ouml;rderada muust s&otilde;iduteest eraldatud ohutussaarega ja enne ristmikku paremal pool foori ei ole , tuleb paremale p&ouml;&ouml;rata , s&otilde;ltumata ristmikul olevate fooride tuledest .</s>
+</p>
+<p>
+<s>15. peat&uuml;kk</s>
+</p>
+<p>
+<s>Raudtee &uuml;letamine</s>
+</p>
+<p>
+<s>&sect; 170.</s><s>Raudtee &uuml;letamisel peab liikleja olema eriti t&auml;helepanelik .</s><s>N&auml;hes v&otilde;i kuuldes l&auml;henevat raudtees&otilde;idukit , tuleb sellele teed anda .</s><s>Juht peab s&otilde;itma sellise kiirusega , et ta oleks vajaduse korral v&otilde;imeline s&otilde;iduki sujuvalt peatama k&auml;esoleva m&auml;&auml;ruse &sect;-s 174 etten&auml;htud kohas .</s><s>Liikleja peab arvestama liiklusm&auml;rke , heli- ja valgussignaale , t&otilde;kkepuu asendit ja reguleerija korraldusi .</s>
+</p>
+<p>
+<s>&sect; 171.</s><s>Raudteed ei tohi &uuml;letada :</s>
+</p>
+<p>
+<s>1 ) foori keelava tule korral , s&otilde;ltumata t&otilde;kkepuu olemasolust v&otilde;i asendist ;</s>
+</p>
+<p>
+<s>2 ) sulguva , suletud v&otilde;i avaneva t&otilde;kkepuu korral , s&otilde;ltumata foorituledest ;</s>
+</p>
+<p>
+<s>3 ) reguleerija keelava m&auml;rguande korral ;</s>
+</p>
+<p>
+<s>4 ) kui juht oleks sunnitud r&ouml;&ouml;basteel peatuma .</s>
+</p>
+<p>
+<s>&sect; 172.</s><s>T&otilde;kkepuuta ja foorita raudtee&uuml;les&otilde;idukohale ei tohi juht s&otilde;ita veendumata , et ei l&auml;hene raudtees&otilde;idukit .</s>
+</p>
+<p>
+<s>&sect; 173.</s><s>Juht ei tohi :</s>
+</p>
+<p>
+<s>1 ) raudteed &uuml;letada v&auml;ljaspool &uuml;les&otilde;idukohta ;</s>
+</p>
+<p>
+<s>2 ) &uuml;mber p&otilde;igata raudtee&uuml;les&otilde;idukoha ees peatunud s&otilde;idukist , kui s&otilde;itmine &uuml;les&otilde;idukohale on sel ajal keelatud ;</s>
+</p>
+<p>
+<s>3 ) vedada &uuml;le raudtee&uuml;les&otilde;idukoha veoasendisse seadmata p&otilde;llumajandus- , tee- , ehitus- vms masinat v&otilde;i &uuml;les&otilde;idukohta kahjustada v&otilde;ivat haakeriista .</s>
+</p>
+<p>
+<s>&sect; 174.</s><s>L&auml;henevale raudtees&otilde;idukile tee andmiseks ning muul juhul , mil raudteed &uuml;letada ei tohi , peab juht peatuma t&otilde;kkepuu ees , selle puudumisel v&auml;hemalt 10 m kaugusel esimesest r&ouml;&ouml;past , liiklusm&auml;rgi &ldquo; Peatu ja anna teed &rdquo; olemasolul aga selle ees .</s>
+</p>
+<p>
+<s>&sect; 175.</s><s>Kui s&otilde;iduki ( autorongi ) laius koormaga v&otilde;i ilma on &uuml;le 5 m , k&otilde;rgus &uuml;le 4,5 m v&otilde;i pikkus &uuml;le 24 m , tohib raudtee&uuml;les&otilde;idukohta &uuml;letada ainult raudteeomaniku ( -valdaja ) loal .</s><s>Niisugust luba on vaja ka mootors&otilde;idukile , mille valmistajakiirus on alla 8 km/h , ning roomiks&otilde;idukile .</s>
+</p>
+<p>
+<s>&sect; 176.</s><s>Liikleja peab &uuml;letama raudtee viivituseta .</s>
+</p>
+<p>
+<s>&sect; 177.</s><s>H&auml;dapeatuse korral raudtee&uuml;les&otilde;idukohal peab juht hoolitsema selle eest , et inimesed lahkuksid s&otilde;idukist , ja tegema k&otilde;ik temast s&otilde;ltuva , et vabastada &uuml;les&otilde;idukoht .</s><s>Kui &uuml;les&otilde;idukohta ei ole v&otilde;imalik liiklustakistusest vabastada , peab juht j&auml;&auml;ma selle juurde ja raudtees&otilde;iduki ilmumisel liikuma sellele kiiresti vastu , andes peatumism&auml;rku - tehes k&auml;ega ringikujulisi liigutusi .</s><s>Pimeda ajal tuleb k&auml;es hoida s&uuml;&uuml;datud valgusallikat .</s>
+</p>
+<p>
+<s>16. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tulede kasutamine</s>
+</p>
+<p>
+<s>&sect; 178.</s><s>S&otilde;idu ajal peavad mootors&otilde;idukil p&otilde;lema l&auml;hi- , &auml;&auml;re- ja numbrituled .</s><s>Trammil peavad s&otilde;idu ajal p&otilde;lema l&auml;hi- ja &auml;&auml;retuled .</s><s>Haagisel peavad s&otilde;idu ajal p&otilde;lema &auml;&auml;re- ja numbrituled .</s><s>Valge ajal v&otilde;ib l&auml;hitulede asemel kasutada p&auml;evatulesid .</s>
+</p>
+<p>
+<s>&sect; 179.</s><s>Kaugtulesid v&otilde;ib kasutada s&otilde;idul pimeda ajal v&otilde;i halva n&auml;htavuse korral .</s>
+</p>
+<p>
+<s>Kaugtulesid ei tohi kasutada , kui :</s>
+</p>
+<p>
+<s>1 ) tee valgustus tagab n&auml;htavuse v&auml;hemalt 300 meetri ulatuses ;</s>
+</p>
+<p>
+<s>2 ) vastutulevale s&otilde;idukile ollakse l&auml;hemal kui 300 meetrit ;</s>
+</p>
+<p>
+<s>3 ) need hakkavad valgustama ees s&otilde;itvat s&otilde;idukit ;</s>
+</p>
+<p>
+<s>4 ) need v&otilde;ivad pimestada teist liiklejat , kaasa arvatud tee l&auml;heduses liikuva vee- v&otilde;i raudtees&otilde;iduki juhti ; viimast ei tohi pimestada ka raudtee&uuml;les&otilde;idukoha ees edasis&otilde;idu v&otilde;imalust oodates .</s>
+</p>
+<p>
+<s>Kui m&ouml;&ouml;das&otilde;idu ajal ollakse piisavalt l&auml;hedal ees liikuvale s&otilde;idukile , v&otilde;ib m&ouml;&ouml;das&otilde;idu kavatsusest anda m&auml;rku kaugtulede l&uuml;hiajalise vilgutamisega .</s>
+</p>
+<p>
+<s>&sect; 180.</s><s>Eesmised udutuled v&otilde;ivad p&otilde;leda s&otilde;idu ajal ainult koos l&auml;hituledega v&otilde;i l&auml;hitulede asemel , kui n&auml;htavus on halb .</s>
+</p>
+<p>
+<s>&sect; 181.</s><s>Tagumised udutuled v&otilde;ivad p&otilde;leda s&otilde;idu ajal ainult asulav&auml;lisel teel , kui :</s>
+</p>
+<p>
+<s>1 ) n&auml;htavus on halb ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;idutuulest &uuml;lest&otilde;stetud lumi , tolm v&otilde;i pori halvendab oluliselt tulede n&auml;htavust tahapoole .</s>
+</p>
+<p>
+<s>&sect; 182.</s><s>Halva n&auml;htavuse korral v&otilde;i pimeda ajal valgustamata teel seisval mootors&otilde;idukil ja selle haagisel peavad p&otilde;lema &auml;&auml;re- ja numbrituled .</s><s>T&auml;iendavalt v&otilde;ib kasutada ka ohutulesid .</s>
+</p>
+<p>
+<s>&sect; 183.</s><s>Asulas v&otilde;ib k&auml;esoleva m&auml;&auml;ruse &sect;-s 182 nimetatud &auml;&auml;re- ja numbritulede asemel kasutada m&otilde;lema- v&otilde;i liiklusepoolseid seisutulesid juhul , kui</s>
+</p>
+<p>
+<s>1 ) mootors&otilde;iduk ei ole &uuml;le 6 m pikk ega &uuml;le 2 m lai ;</s>
+</p>
+<p>
+<s>2 ) mootors&otilde;iduk on ilma haagiseta .</s>
+</p>
+<p>
+<s>&sect; 184.</s><s>K&auml;esoleva m&auml;&auml;ruse &sect;-de 182 ja 183 n&otilde;udedei laiene peatunud ja parkinud s&otilde;idukile , mis asub :</s>
+</p>
+<p>
+<s>1 ) teel , mis on valgustatud nii , et s&otilde;iduk on piisavalt kaugele n&auml;ha ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljaspool s&otilde;iduteed ja kattega teepeenart ;</s>
+</p>
+<p>
+<s>3 ) asulas p&auml;ris s&otilde;idutee &auml;&auml;res , kui on tegemist jalgratta , mopeedi v&otilde;i k&uuml;lghaagiseta kaherattalise mootorrattaga , millel puudub aku ;</s>
+</p>
+<p>
+<s>4 ) &otilde;uealal .</s>
+</p>
+<p>
+<s>&sect; 185.</s><s>S&otilde;iduki t&ouml;&ouml;tuled v&otilde;ivad p&otilde;leda ainult seoses t&ouml;&ouml;&uuml;lesande t&auml;itmisega .</s><s>Need ei tohi pimestada teist juhti .</s>
+</p>
+<p>
+<s>&sect; 186.</s><s>Autorongil ( v&auml;lja arvatud kerghaagisega autorong ) , millel puuduvad ees &uuml;lemised gabariidituled , peab veduki kabiini v&otilde;i kere esiosa kohal olema k&auml;esoleva m&auml;&auml;ruse lisa 4 kohane valgustatud autorongi-tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>17. peat&uuml;kk</s>
+</p>
+<p>
+<s>S&otilde;itja ja veose vedu</s>
+</p>
+<p>
+<s>&sect; 187.</s><s>S&otilde;itjaid ja veoseid tohib vedada ainult viisil , mis ei takista juhtimist ega piira juhi vaatev&auml;lja , ei varja s&otilde;iduki tulesid , registreerimis- ja tunnusm&auml;rke ega juhi m&auml;rguandeid .</s>
+</p>
+<p>
+<s>&sect; 188.</s><s>S&otilde;itjaid tohib vedada ainult valmistaja poolt s&otilde;idukis etten&auml;htud kohtadel ja viisil .</s><s>Madelauto kastis tohivad s&otilde;ita vaid veost saatvad v&otilde;i veose j&auml;rele minevad isikud tingimusel , et nende jaoks on allpool luukide &uuml;lemist serva istumiseks sobiv ja ohutu koht .</s>
+</p>
+<p>
+<s>&sect; 189.</s><s>Laster&uuml;hma vedaval bussil peab ees ja taga olema k&auml;esoleva m&auml;&auml;ruse lisa 4 kohane laster&uuml;hma-tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>&sect; 190.</s><s>Veos peab olema paigutatud , kinnitatud ja kaetud nii , et see ei ohustaks inimesi , ei rikuks looduskeskkonda , ei p&otilde;hjustaks varalist kahju ega takistaks liiklust .</s><s>N&auml;iteks ei tohi veos lohiseda , olla kukkumisohus , kukkuda teele , tekitada tolmu v&otilde;i liigset m&uuml;ra .</s>
+</p>
+<p>
+<s>&sect; 191.</s><s>S&otilde;ites viadukti , elektri- v&otilde;i sideliini vms alt l&auml;bi , peab juht alati veenduma , et see on ohutu .</s>
+</p>
+<p>
+<s>&sect; 192.</s><s>S&otilde;iduki &uuml;ksainuski m&otilde;&otilde;de koormaga v&otilde;i koormata ei tohi &uuml;ldjuhul &uuml;letada &ldquo; Liiklusseaduse &rdquo; &sect; 15 l&otilde;ike 1 alusel teede- ja sideministri poolt kehtestatud suurimat lubatud suurust .</s>
+</p>
+<p>
+<s>&sect; 193.</s><s>Kui s&otilde;iduki &uuml;ksainuski m&otilde;&otilde;de koormaga v&otilde;i koormata &uuml;letab &sect; 192 kohaselt kehtestatud suuruse , v&otilde;ib s&otilde;idukit kasutada &ldquo; Teeseaduse &rdquo; &sect;-s 35 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 194.</s><s>S&otilde;iduk v&otilde;i koorem peab olema t&auml;histatud k&auml;esoleva m&auml;&auml;ruse lisa 4 kohaste tunnusm&auml;rkidega ja pimeda ajal j&auml;rgmiste tuledega , kui</s>
+</p>
+<p>
+<s>1 ) s&otilde;iduki laius koormaga v&otilde;i ilma &uuml;letab &sect; 192 kohaselt kehtestatud suuruse v&otilde;i kui koorem ulatub s&otilde;iduki k&uuml;lgservast v&auml;ljapoole - &auml;&auml;rmistes k&uuml;lgpunktides ees ja taga vastavate laiveose-tunnusm&auml;rkidega ning ees valgete v&otilde;i kollaste ja taga punaste &auml;&auml;retuledega ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;iduki ( autorongi ) pikkus koormaga v&otilde;i ilma &uuml;letab &sect; 192 kohaselt kehtestatud suuruse - taga vastava(te ) pikk- v&otilde;i raskeveose-tunnusm&auml;rgiga ( -m&auml;rkidega ) ;</s>
+</p>
+<p>
+<s>3 ) koorem ulatub s&otilde;idukist ette- v&otilde;i tahapoole rohkem kui 1 m - k&otilde;ige kaugemas v&auml;ljaulatuvas punktis vastava v&auml;ljaulatuva veose tunnusm&auml;rgiga ja eesmise tunnusm&auml;rgi juures valge v&otilde;i kollase ning tagumise tunnusm&auml;rgi juures punase m&auml;rgutulega ;</s>
+</p>
+<p>
+<s>4 ) C-kategooria auto registrimass on &uuml;le 12 t v&otilde;i haagise registrimass on &uuml;le 3,5 t - taga vastava(te ) pikk- v&otilde;i raskeveose-tunnusm&auml;rgiga ( -m&auml;rkidega ) .</s>
+</p>
+<p>
+<s>&sect; 195.</s><s>Autorongi koosseisus oleva haagise registrimass ei tohi &uuml;letada vedukiga vedada lubatud haagise suurimat registrimassi .</s><s>Veduki ja haagise registrimasside summa ei tohi &uuml;letada &ldquo; Liiklusseaduse &rdquo; &sect; 15 l&otilde;ike 2 alusel teede- ja sideministri poolt kehtestatud suurust .</s>
+</p>
+<p>
+<s>&sect; 196.</s><s>S&otilde;iduki tegelik mass ei tohi &uuml;letada registrimassi , mis tahes telje koormus aga registreerimisel m&auml;&auml;ratud v&auml;&auml;rtust , kui selle kohta pole &ldquo; Teeseaduse &rdquo; &sect; 35 l&otilde;ike 2 alusel kehtestatud korras v&auml;lja antud eriluba .</s>
+</p>
+<p>
+<s>&sect; 197.</s><s>Kui koormaga v&otilde;i koormata s&otilde;iduki v&otilde;i autorongi tegelik mass v&otilde;i teljekoormus &uuml;letavad &ldquo; Liiklusseaduse &rdquo; &sect; 15 l&otilde;ike 2 alusel teede- ja sideministri poolt kehtestatud suurust , v&otilde;ib s&otilde;idukit kasutada &ldquo; Teeseaduse &rdquo; &sect;-s 35 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 198.</s><s>Ohtliku veose vedu toimub &ldquo; Autoveoseaduse &rdquo; ( RT I 2000 , 54 , 346 ) &sect; 23 punkti 1 alusel teede- ja sideministri poolt kehtestatud veoeeskirja j&auml;rgi .</s><s>Ohtlikku veost vedaval s&otilde;idukil peab olema etten&auml;htud kohtades vastav ohum&auml;rgis ja k&auml;esoleva m&auml;&auml;ruse lisa 4 kohane ohtliku veose tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>18. peat&uuml;kk</s>
+</p>
+<p>
+<s>Liiklus kiirteel</s>
+</p>
+<p>
+<s>&sect; 199.</s><s>Kiirteel ei tohi :</s>
+</p>
+<p>
+<s>1 ) liigelda jalgsi , loomadega , jalgrattaga , mopeediga v&otilde;i niisuguse mootors&otilde;idukiga , mille valmistajakiirus on alla 40 km/h ;</s>
+</p>
+<p>
+<s>2 ) peatuda v&otilde;i parkida v&auml;ljaspool selleks m&auml;&auml;ratud ala ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;ita kaugemal teisest s&otilde;idurajast C-kategooria s&otilde;idukiga ning &uuml;le 7 m pikkuse autorongiga ;</s>
+</p>
+<p>
+<s>4 ) p&ouml;&ouml;rata tagasi , s&otilde;ita eraldusribale ega eraldusriba katkestuskohale ;</s>
+</p>
+<p>
+<s>5 ) tagurdada ;</s>
+</p>
+<p>
+<s>6 ) pukseerida mootors&otilde;idukit l&auml;himast &auml;rap&ouml;&ouml;ramiskohast kaugemale .</s>
+</p>
+<p>
+<s>&sect; 200.</s><s>H&auml;dapeatunud mootors&otilde;idukil tuleb sisse l&uuml;litada ohutuled ja s&otilde;iduk eemaldada s&otilde;iduteelt .</s><s>Kui s&otilde;idukit pole v&otilde;imalik s&otilde;iduteelt eemaldada , tuleb s&otilde;idukist v&auml;hemalt 100 m tahapoole panna teele ohukolmnurk .</s>
+</p>
+<p>
+<s>19. peat&uuml;kk</s>
+</p>
+<p>
+<s>S&otilde;it tunnelis</s>
+</p>
+<p>
+<s>&sect; 201.</s><s>S&otilde;idul tunnelis , s&otilde;ltumata selle valgustusest , peavad mootors&otilde;idukil p&otilde;lema kaug- v&otilde;i l&auml;hituled ning gabariidi- ja numbrituled .</s>
+</p>
+<p>
+<s>&sect; 202.</s><s>Tunnelis ei tohi :</s>
+</p>
+<p>
+<s>1 ) tagurdada ;</s>
+</p>
+<p>
+<s>2 ) p&ouml;&ouml;rata tagasi ;</s>
+</p>
+<p>
+<s>3 ) peatuda ega parkida v&auml;ljaspool selleks m&auml;&auml;ratud ala ;</s>
+</p>
+<p>
+<s>4 ) lasta s&otilde;iduki mootoril t&ouml;&ouml;tada s&otilde;idutakistuse ajal.</s>
+</p>
+<p>
+<s>20. peat&uuml;kk</s>
+</p>
+<p>
+<s>Liiklus &otilde;uealal</s>
+</p>
+<p>
+<s>&sect; 203.</s><s>Jalak&auml;ija tohib &otilde;uealal liikuda kogu tee ulatuses .</s><s>Jalak&auml;ija ei tohi juhti p&otilde;hjendamatult takistada .</s>
+</p>
+<p>
+<s>&sect; 204.</s><s>Juht ei tohi &otilde;uealal jalak&auml;ijat ohustada ega takistada , vajaduse korral tuleb s&otilde;iduk peatada .</s>
+</p>
+<p>
+<s>&sect; 205.</s><s>S&otilde;iduk tohib &otilde;uealal jalak&auml;ijate vahetus l&auml;heduses liikuda jalak&auml;ija kiirusega , mujal mitte kiiremini kui 20 km/h .</s>
+</p>
+<p>
+<s>&sect; 206.</s><s>Mootors&otilde;iduk v&otilde;ib &otilde;uealale s&otilde;ita vaid peatumiseks v&otilde;i parkimiseks .</s>
+</p>
+<p>
+<s>&sect; 207.</s><s>&Otilde;uealal tohib parkida ainult A- ja B-kategooria ning D1-alakategooria s&otilde;idukit .</s><s>Seda tohib teha ainult t&auml;histatud parklas , selle puudumisel aga teel kohas , kus parkimine ei takista jalak&auml;ijat ega muuda v&otilde;imatuks teiste s&otilde;idukite liiklust .</s>
+</p>
+<p>
+<s>21. peat&uuml;kk</s>
+</p>
+<p>
+<s>Liikumispuudega juhi ja liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juhi eri&otilde;igused</s>
+</p>
+<p>
+<s>&sect; 208.</s><s>Liikumispuudega inimene , kes liigub inimj&otilde;ul v&otilde;i mootori j&otilde;ul , kuid jalak&auml;ija kiirusega liikuva ratastooliga , v&otilde;ib kasutada k&otilde;nniteed v&otilde;i selleks k&otilde;lblikku teepeenart .</s>
+</p>
+<p>
+<s>&sect; 209.</s><s>Liikumispuudega juht , kelle s&otilde;idukil on &ldquo; Liiklusseaduse &rdquo; lisast 2 tulenevalt k&auml;esoleva m&auml;&auml;ruse lisa 5 kohane parkimiskaart , v&otilde;ib :</s>
+</p>
+<p>
+<s>1 ) asulas peatuda ja parkida peatumist v&otilde;i parkimist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas tingimusel , et seisev s&otilde;iduk asub t&auml;ielikult k&otilde;nniteel , j&auml;ttes jalak&auml;ijale seal vabaks v&auml;hemalt 1,5 meetri laiuse k&auml;iguriba .</s><s>Kirjeldatud luba ei kehti teel&otilde;igul , mis on t&auml;histatud peatumise keelujoonega ;</s>
+</p>
+<p>
+<s>2 ) parkida parkimist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas , piiratud parkimisajaga parklas etten&auml;htust kauem ja &otilde;ueala teel v&auml;ljaspool parklat kohas , kus see ei takista jalak&auml;ijaid ega muuda v&otilde;imatuks teiste s&otilde;idukite liiklust .</s>
+</p>
+<p>
+<s>&sect; 210.</s><s>Liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juht , kelle s&otilde;idukil on k&auml;esoleva m&auml;&auml;ruse lisa 5 kohane parkimiskaart , v&otilde;ib asulas peatuda peatumist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas liikumispuudega v&otilde;i pimeda inimese s&otilde;idukisse pealev&otilde;tmiseks v&otilde;i s&otilde;idukist v&auml;ljalaskmiseks .</s>
+</p>
+<p>
+<s>&sect; 211.</s><s>Liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juht , kelle s&otilde;idukil on k&auml;esoleva m&auml;&auml;ruse lisa 5 kohane parkimiskaart ja kes talutab liikumispuudega v&otilde;i pimedat inimest kavatsetud kohta ja tagasi , v&otilde;ib asulas peatuda &sect; 209 punktis 1 nimetatud tingimusel .</s>
+</p>
+<p>
+<s>22. peat&uuml;kk</s>
+</p>
+<p>
+<s>Mootors&otilde;iduki pukseerimine</s>
+</p>
+<p>
+<s>&sect; 212.</s><s>S&otilde;itjaid tohib olla pukseeritava mootors&otilde;iduki juhikabiinis ja pukseeritavas s&otilde;iduautos ainult juhul , kui pukseeritava s&otilde;iduki roolis on juht .</s>
+</p>
+<p>
+<s>&sect; 213.</s><s>Pukseeritavas mootors&otilde;idukis ( autorongis ) ei pea olema juhti vaid pukseerimisel sellise j&auml;iga &uuml;hendusl&uuml;liga , mis tagab pukseeritava mootors&otilde;iduki ( autorongi ) juhitavuse .</s>
+</p>
+<p>
+<s>&sect; 214.</s><s>&Uuml;htki inimest ei tohi olla pukseeriva mootors&otilde;iduki veoplatvormil ega sellele osaliselt toetatud s&otilde;idukis .</s>
+</p>
+<p>
+<s>&sect; 215.</s><s>Painduv &uuml;hendusl&uuml;li peab j&auml;tma s&otilde;idukite vahemaaks 4-6 m ja selle keskosa peab olema selgesti n&auml;htavalt t&auml;histatud .</s>
+</p>
+<p>
+<s>&sect; 216.</s><s>Pukseeritaval mootors&otilde;idukil ( autorongil ) peavad igal ajal p&otilde;lema ohutuled .</s><s>Ohutulede puudumisel peab pukseeritavale mootors&otilde;idukile ( autorongile ) olema pandud taha , n&auml;htavale kohale , ohukolmnurk .</s>
+</p>
+<p>
+<s>&sect; 217.</s><s>Pukseerida ei tohi kiiremini kui 50 km/h .</s>
+</p>
+<p>
+<s>&sect; 218.</s><s>Pukseerida ei tohi :</s>
+</p>
+<p>
+<s>1 ) painduva &uuml;hendusl&uuml;liga - kiilasj&auml;&auml;l , v&otilde;i niisugust mootors&otilde;idukit ( autorongi ) , millel ei t&ouml;&ouml;ta s&otilde;idupidur v&otilde;i rool ;</s>
+</p>
+<p>
+<s>2 ) vardakujulise j&auml;iga &uuml;hendusl&uuml;liga - mootors&otilde;idukit ( autorongi ) , millel ei t&ouml;&ouml;ta rool ;</s>
+</p>
+<p>
+<s>3 ) mis tahes j&auml;iga &uuml;hendusl&uuml;liga - mootors&otilde;idukit ( autorongi ) , mille tegelik mass on suurem pukseeriva s&otilde;iduki tegelikust massist , juhul kui pukseeritaval mootors&otilde;idukil ei t&ouml;&ouml;ta s&otilde;idupidur ;</s>
+</p>
+<p>
+<s>4 ) enam kui &uuml;hte mootors&otilde;idukit ( autorongi ) ;</s>
+</p>
+<p>
+<s>5 ) autorongi , mille haakeseadis on rikkis ;</s>
+</p>
+<p>
+<s>6 ) soolomootorrattaga ega soolomootorratast .</s>
+</p>
+<p>
+<s>23. peat&uuml;kk</s>
+</p>
+<p>
+<s>N&otilde;uded mootors&otilde;iduki , trammi ja nende haagiste tehnoseisundi ning varustuse kohta</s>
+</p>
+<p>
+<s>&sect; 219.</s><s>Liikluses kasutatava mootors&otilde;iduki , trammi ja nende haagiste tehnoseisund ja varustus peavad vastama seadustega etten&auml;htud korras kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 220.</s><s>Mootors&otilde;iduk ja haagis peavad olema registreeritud , neil peavad olema etten&auml;htud kohas puhtad , kaitsekatteta ja n&otilde;utavalt kauguselt selgesti loetavad registreerimism&auml;rgid .</s>
+</p>
+<p>
+<s>&sect; 221.</s><s>Ei tohi kasutada s&otilde;idukit ( v&auml;lja arvatud Eestis t&auml;htajaliselt arvele v&otilde;etud teise riigi s&otilde;iduk ) , millel on Eesti riiklik registreerimism&auml;rk ja teise riigi tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>&sect; 222.</s><s>Riigist v&auml;ljas&otilde;idul peab olema mootors&otilde;idukile taha paigaldatud k&auml;esoleva m&auml;&auml;ruse lisa 4 kohane riigi tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>&sect; 223.</s><s>Kui teel olles tekib rike , mis v&otilde;ib ohustada liiklust , peab juht p&uuml;&uuml;dma seda k&otilde;rvaldada .</s><s>Kui see on v&otilde;imatu ja tegu pole rikkega , mis tehnon&otilde;uetele mittevastavuse t&otilde;ttu keelab s&otilde;iduki kasutamise , tohib ettevaatlikult , rikke iseloomu arvestades , s&otilde;ita m&ouml;&ouml;da l&uuml;himat teed ainult remondikohani .</s>
+</p>
+<p>
+<s>&sect; 224.</s><s>S&otilde;idukis ei tohi olla seadmeid , mis v&otilde;imaldavad avastada liiklusj&auml;relevalve kiirusem&otilde;&otilde;teseadet v&otilde;i h&auml;irida selle t&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>24. peat&uuml;kk</s>
+</p>
+<p>
+<s>Juhi tegutsemine liiklus&otilde;nnetuse korral</s>
+</p>
+<p>
+<s>&sect; 225.</s><s>Kui on juhtunud liiklus&otilde;nnetus , peab asjaosaline juht :</s>
+</p>
+<p>
+<s>1 ) peatuma v&otilde;imalikult kiiresti , p&otilde;hjustamata sellega lisaohtu , ja l&uuml;litama sisse ohutuled ; nende puudumisel v&otilde;i kui &otilde;nnetuseosaline s&otilde;iduk asub kohas , kus n&auml;htavus on halb v&otilde;i piiratud , tuleb teele panna ohukolmnurk vastavalt k&auml;esoleva m&auml;&auml;ruse &sect;-le 89 ;</s>
+</p>
+<p>
+<s>2 ) tegema k&otilde;ik , et liiklus s&uuml;ndmuskohal oleks ohutu ;</s>
+</p>
+<p>
+<s>3 ) esitama liiklus&otilde;nnetuses osalenu n&otilde;udel kohustusliku liikluskindlustuse poliisi v&otilde;i t&otilde;endi kindlustuslepingu s&otilde;lmimisest vabastamise kohta ja isikut t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>&sect; 226.</s><s>Kui liiklus&otilde;nnetuses on kannatanuid , peab juht :</s>
+</p>
+<p>
+<s>1 ) andma abivajajale esmaabi ;</s>
+</p>
+<p>
+<s>2 ) kutsuma vajaduse korral v&auml;lja kiirabi ( p&auml;&auml;steteenistuse ) ; ainult erandjuhul , kui see on v&otilde;imatu ja transportimine pole kannatanule ohtlik , saatma ta m&ouml;&ouml;duva s&otilde;idukiga haiglasse ;</s>
+</p>
+<p>
+<s>3 ) teatama juhtunust politseile , kirjutama &uuml;les pealtn&auml;gijate nimed ja aadressid ning tegutsema vastavalt politsei korraldusele .</s>
+</p>
+<p>
+<s>S&otilde;idukit v&otilde;i &otilde;nnetusse puutuvaid esemeid tohib enne politsei kohalej&otilde;udmist liigutada vaid siis , kui teiste s&otilde;idukite liiklus on v&otilde;imatu ja eelnevalt on tunnistajate juuresolekul &auml;ra m&auml;rgitud s&otilde;iduki ja esemete asend ning j&auml;ljed .</s>
+</p>
+<p>
+<s>Muu v&otilde;imaluse puududes peab juht eelmises l&otilde;igus esitatud n&otilde;udeid t&auml;itnult ja tingimusel , et transportimine pole kannatanule ohtlik , viima ta haiglasse oma s&otilde;idukiga , teatades seal oma nime ja s&otilde;iduki numbri , ning seej&auml;rel naasma &otilde;nnetuskohale .</s>
+</p>
+<p>
+<s>&sect; 227.</s><s>Kui inimesed liiklus&otilde;nnetuses viga ei saanud , &otilde;nnetuses osalenud juhid v&otilde;i juht ja kahju saaja(d ) on juhtumi p&otilde;hjusi hinnates vastutuse k&uuml;simuses &uuml;hel meelel , on oma arvamuse kirjalikult vormistanud , nimetades kahju tekitamise eest vastutava isiku , ja sellele alla kirjutanud , ei ole vaja liiklus&otilde;nnetusest politseile teatada .</s>
+</p>
+<p>
+<s>Lahkarvamuse korral v&otilde;i juhul , kui kahju saaja ei ole teada , tuleb &otilde;nnetusest kohe teatada politseile ja tegutseda sealt saadud korralduse kohaselt .</s>
+</p>
+<p>
+<s>S&otilde;idukit v&otilde;i &otilde;nnetusse puutuvaid esemeid tohib enne politsei kohalej&otilde;udmist liigutada vaid siis , kui teiste s&otilde;idukite liiklus on v&otilde;imatu ja eelnevalt on tunnistajate juuresolekul &auml;ra m&auml;rgitud s&otilde;iduki ja esemete asend ning j&auml;ljed .</s>
+</p>
+<p>
+<s>&sect; 228.</s><s>Liiklus&otilde;nnetuses osalenud juhid ei tohi tarvitada alkoholi , narkootikumi v&otilde;i ps&uuml;hhotroopset ainet kuni asjaolude selgitamiseni s&uuml;ndmuskohal .</s>
+</p>
+<p>
+<s>25. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lisan&otilde;uded jalgratturile ja mopeedijuhile</s>
+</p>
+<p>
+<s>&sect; 229.</s><s>Mopeedijuht peab olema v&auml;hemalt 14-aastane , jalgrattur s&otilde;iduteel s&otilde;ites v&auml;hemalt 10 aastat vana .</s><s>&Otilde;uealal jalgratturi vanuse alamm&auml;&auml;r ei kehti .</s>
+</p>
+<p>
+<s>&sect; 230. 10-15-aastasel jalgratturil ja 14-15-aastasel mopeedijuhil peab mujal kui &otilde;uealal olema kaasas k&auml;esoleva m&auml;&auml;ruse ja ohutu s&otilde;idu v&otilde;tete tundmist t&otilde;endav tunnistus .</s>
+</p>
+<p>
+<s>&sect; 231.</s><s>Mopeedijuhil ja tema s&otilde;iduki s&otilde;itjal peab olema peas kaitsekiiver .</s>
+</p>
+<p>
+<s>&sect; 232.</s><s>Jalgrattal peab olema :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;korras pidur ja signaalkell ;</s>
+</p>
+<p>
+<s>2 ) v&auml;hemalt &uuml;he ratta m&otilde;lemal k&uuml;ljel kollane helkur ;</s>
+</p>
+<p>
+<s>3 ) pimeda ajal v&otilde;i halva n&auml;htavuse korral s&otilde;ites ees valge ja taga punane tuli v&otilde;i viimast asendav punane helkur .</s>
+</p>
+<p>
+<s>&sect; 233.</s><s>Mopeedi tehnoseisund peab vastama valmistaja n&otilde;uetele .</s><s>Mopeedil peab s&otilde;ites ees p&otilde;lema valge tuli .</s>
+</p>
+<p>
+<s>&sect; 234.</s><s>Jalgratta ja mopeediga peab s&otilde;itma jalgrattateel , selle puudumisel s&otilde;idutee &auml;&auml;rmisel parempoolsel rajal , v&auml;lja arvatud k&auml;esoleva m&auml;&auml;ruse &sect; 97 kohase man&ouml;&ouml;vri ajal.</s><s>Jalgrattaga v&otilde;ib s&otilde;ita ka teepeenral , kui see on selleks k&otilde;lblik , ohustamata jalak&auml;ijat .</s>
+</p>
+<p>
+<s>&sect; 235.</s><s>Kui teel on omaette jalgrattatee ja tee reguleerimata ristumiskoht , peavad jalgrattur ja mopeedijuht andma teed teel liiklejale , kui teeandmise kohustus pole liikluskorraldusvahenditega seatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 236.</s><s>Jalgrattur ja mopeedijuht ei tohi :</s>
+</p>
+<p>
+<s>1 ) s&otilde;ita k&otilde;nniteel ; piirang ei kehti alla 10-aastase jalgratturi kohta ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;ita juhtrauast k&auml;ega kinni hoidmata ( mopeedijuht peab juhtrauda hoidma m&otilde;lema k&auml;ega , v&auml;lja arvatud k&auml;ega hoiatusm&auml;rguandmise ajal ) ;</s>
+</p>
+<p>
+<s>3 ) lasta ennast vedada teise s&otilde;idukiga ;</s>
+</p>
+<p>
+<s>4 ) vedada esemeid , mis takistavad juhtimist v&otilde;i tekitavad ohtu teistele liiklejatele ;</s>
+</p>
+<p>
+<s>5 ) pukseerida haagist , mis ei ole selleks valmistatud ;</s>
+</p>
+<p>
+<s>6 ) s&otilde;idutada s&otilde;itjat , kes ei istu kindlal istmel .</s>
+</p>
+<p>
+<s>26. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lisan&otilde;uded loomveoki , looma ja k&auml;sik&auml;ruga liiklejale</s>
+</p>
+<p>
+<s>&sect; 237.</s><s>Asulas tohib ratsutada ja loomveokiga s&otilde;ita s&otilde;idutee &auml;&auml;rmisel parempoolsel rajal , asulav&auml;lisel teel - p&auml;risuunalisel teepeenral , teepeenra puudumisel v&otilde;i liikumiseks sobimatuse korral aga s&otilde;idutee parempoolse &auml;&auml;re l&auml;hedal .</s>
+</p>
+<p>
+<s>&sect; 238.</s><s>Loomveokil peab olema veeremist&otilde;kis v&otilde;i seisupidur .</s>
+</p>
+<p>
+<s>&sect; 239.</s><s>Liikudes pimeda ajal v&otilde;i halva n&auml;htavuse korral , peab loomveokil ja k&auml;sik&auml;rul , mis on &uuml;le 1 m lai , olema vasakul k&uuml;ljel ees valge ja taga punase tulega latern v&otilde;i &uuml;ks niisuguste tuledega latern .</s><s>Loomveokil peab taga olema kaks s&otilde;iduki k&uuml;lgede l&auml;hedale kinnitatud punast helkurit .</s>
+</p>
+<p>
+<s>&sect; 240.</s><s>Loomveokil , mis ei ole &uuml;le 1 m lai , peab taga vasaku k&uuml;lje l&auml;hedal olema punane helkur .</s>
+</p>
+<p>
+<s>&sect; 241.</s><s>Kariloomi tohib ajada ainult valge ajal ja v&otilde;imalikult tee parempoolse &auml;&auml;re l&auml;hedal .</s><s>Ajajaid peab olema nii palju , et oleks tagatud ohutus ja loomade kooshoidmine .</s><s>Vajaduse korral tuleb loomad r&uuml;hmitada .</s>
+</p>
+<p>
+<s>&sect; 242.</s><s>Kariloomi ei tohi :</s>
+</p>
+<p>
+<s>1 ) ajada kattega teel ilma teeomaniku ( -valdaja ) loata ;</s>
+</p>
+<p>
+<s>2 ) j&auml;tta teele j&auml;relevalveta ;</s>
+</p>
+<p>
+<s>3 ) ajada &uuml;le raudtee v&otilde;i s&otilde;idutee kohas , mis ei ole selleks ette n&auml;htud , v&otilde;i teha seda pimeda ajal v&otilde;i halva n&auml;htavuse korral .</s>
+</p>
+<p>
+<s>27. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;te</s>
+</p>
+<p>
+<s>&sect; 243.</s><s>Vabariigi Valitsuse 26. oktoobri 1994. a m&auml;&auml;rus nr 394 &ldquo; Liikluseeskirja kinnitamine &rdquo; ( RT I 1994 , 76-78,1327 ; 1995 , 52 , 842 ; 53 , 853 ; 1996 , 79 , 1405 ; 1997 , 51 , 828 ; 1998 , 100 , 1623 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 2. veebruari 2001. a m&auml;&auml;ruse nr 48 &ldquo; Liikluseeskiri &rdquo; lisa 1</s>
+</p>
+<p>
+<s>Liikluse reguleerimise m&auml;rguanded</s>
+</p>
+<p>
+<s>1.</s><s>Foorid</s>
+</p>
+<p>
+<s>1.&Uuml;martuledega foor .</s><s>Reguleerib s&otilde;idukite , foori 9 puudumisel aga ka jalak&auml;ijate liiklust .</s>
+</p>
+<p>
+<s>Fooril 11 on kolm &uuml;mmargust tuld : &uuml;lal punane , keskel kollane , all roheline .</s><s>Erandina v&otilde;idakse kasutada tulede r&otilde;htasetusega foori 12 , millel on vasakul punane , keskel kollane ja paremal roheline tuli .</s>
+</p>
+<p>
+<s>Tuled t&auml;hendavad j&auml;rgmist :</s>
+</p>
+<p>
+<s>roheline lubab liikuda ;</s>
+</p>
+<p>
+<s>roheline vilkuv lubab liikuda , kuid teatab peatsest kollase tule s&uuml;ttimisest ;</s>
+</p>
+<p>
+<s>kollane keelab liikuda ; peatumiseks etten&auml;htud kohast tohib edasi s&otilde;ita vaid juhul , kui seal peatumine on ilma liiklust ohustamata v&otilde;imatu ; kui tuli s&uuml;ttib hetkel , mil juht on ristmikul v&otilde;i &uuml;lek&auml;igurajal , tuleb liikumist j&auml;tkata ;</s>
+</p>
+<p>
+<s>punane keelab liikuda ;</s>
+</p>
+<p>
+<s>punane ja kollane korraga keelavad liikuda ja teatavad peatsest rohelise tule s&uuml;ttimisest .</s>
+</p>
+<p>
+<s>2.</s><s>Nooltuledega foor .</s><s>Reguleerib s&otilde;idukite liiklust ristmikul .</s>
+</p>
+<p>
+<s>Foorituled on noolekujulised .</s><s>Punane ja kollane tuli v&otilde;ivad olla ka &uuml;mmargused ; sel juhul kantakse nendele noolte kontuurid .</s>
+</p>
+<p>
+<s>Tuled asuvad p&uuml;stjalt .</s><s>Tulede paigutus , p&otilde;lemise j&auml;rjekord ja t&auml;hendus on nii nagu fooril 11.</s><s>Rohelise nooltule p&otilde;ledes tohib s&otilde;ita noole suunas .</s><s>Vasakule osutav roheline nooltuli lubab &auml;&auml;rmiselt vasakpoolselt rajalt p&ouml;&ouml;rata ka tagasi .</s>
+</p>
+<p>
+<s>3.</s><s>Lisasektsioonidega foor .</s><s>Reguleerib s&otilde;idukite liiklust ristmikul .</s>
+</p>
+<p>
+<s>Foori p&otilde;hituled asuvad p&uuml;stjalt nagu fooril 11.</s><s>Rohelise tule k&otilde;rval on &uuml;hel v&otilde;i m&otilde;lemal pool lisasektsioon s&otilde;idusuunda n&auml;itava nooltulega , mis p&otilde;leb roheliselt .</s>
+</p>
+<p>
+<s>Kui lisasektsioonis p&otilde;leb roheline nooltuli , tohib s&otilde;ita noole suunas mis tahes p&otilde;hitule p&otilde;ledes .</s><s>Vasakule osutav roheline nooltuli lubab &auml;&auml;rmiselt vasakpoolselt rajalt p&ouml;&ouml;rata ka tagasi .</s><s>Lisasektsiooni kustunud nooltule ajal ei tohi s&otilde;ita noole suunas .</s>
+</p>
+<p>
+<s>Foori rohelisele p&otilde;hitulele v&otilde;ib olla kantud noolkujutis , mis n&auml;itab lubatud s&otilde;idusuundi selle tule p&otilde;ledes .</s>
+</p>
+<p>
+<s>4.</s><s>Kollase vilkuva tulega foor .</s><s>Osutab reguleerimata ristmikku , &uuml;lek&auml;igurada v&otilde;i muud ohtlikku kohta .</s><s>Sama t&auml;hendus on fooride 1-3 kollasel vilkuval tulel .</s>
+</p>
+<p>
+<s>5.</s><s>&Uuml;hiss&otilde;idukifoor .</s><s>Reguleerib trammide ja teiste eri rajal s&otilde;itvate &uuml;hiss&otilde;idukite s&otilde;itu .</s>
+</p>
+<p>
+<s>Fooris 51-53 on kolm p&uuml;stjalt asetsevat valget tuld .</s><s>&Uuml;lemine tuli kujutab S-t&auml;hte , keskmine r&otilde;ht- ja alumine p&uuml;stkriipsu .</s><s>Viimase &uuml;laots v&otilde;ib osutada p&ouml;&ouml;rde suunda .</s><s>Sissel&uuml;litatud tuled t&auml;hendavad j&auml;rgmist : &uuml;lemine keelab s&otilde;ita , keskmine keelab s&otilde;ita ja teatab tulede vahetumisest , alumine lubab s&otilde;ita .</s>
+</p>
+<p>
+<s>6.</s><s>Suunamuutefoor .</s><s>Reguleerib s&otilde;itu radadel , kus s&otilde;idusuund v&otilde;ib muutuda vastupidiseks .</s>
+</p>
+<p>
+<s>Foori vasakpoolses sektsioonis v&otilde;ib p&otilde;leda kaldristikujuline punane tuli , parempoolses - allasuunatud noole kujuline roheline tuli , mis vastavalt keelab v&otilde;i lubab s&otilde;ita rajal , mille kohal foor asub .</s><s>V&otilde;idakse kasutada ka vahesektsiooni , milles v&otilde;ib koos rohelisega vilkuda v&otilde;i pidevalt p&otilde;leda &uuml;lalt kaldu alla suunatud kollane nool .</s><s>Vahesektsiooni noole p&otilde;lemine n&auml;itab , et see s&otilde;idusuund suletakse peatselt ja sellelt rajalt tuleb &uuml;mber reastuda noolega osutatavas suunas .</s>
+</p>
+<p>
+<s>Kui suunamuutefoor ei t&ouml;&ouml;ta ja asub teekattem&auml;rgisega 925 t&auml;histatud raja kohal , on sellele rajale s&otilde;itmine keelatud .</s>
+</p>
+<p>
+<s>7.</s><s>&Uuml;les&otilde;idufoor .</s><s>Reguleerib liiklust raudtee&uuml;les&otilde;idukoha , kai , eritalituse s&otilde;iduki v&auml;ljas&otilde;idu koha ja lahtik&auml;iva silla juures .</s>
+</p>
+<p>
+<s>Fooris 71 on kaks vilkuvat punast tuld .</s><s>Tulede vilkumine keelab edasi s&otilde;ita .</s>
+</p>
+<p>
+<s>Raudtee&uuml;les&otilde;idukohal v&otilde;idakse kasutada aeglaselt vilkuva valge tulega foori 72 ja 73 ; valge tule vilkudes v&otilde;ib raudteed &uuml;letada , punaste tulede vilkudes aga mitte .</s>
+</p>
+<p>
+<s>8.</s><s>Jalgrattafoor .</s><s>Reguleerib jalgrataste ja mopeedide s&otilde;itu nendele eraldatud rajal v&otilde;i jalgrattateel .</s>
+</p>
+<p>
+<s>Foori kuju , tulede asetus ja t&auml;hendus on sama mis fooril 11.</s><s>Foori 81 tuledel on jalgratta kujutis .</s><s>Foor 82 &uuml;htib kujunduselt fooriga 11 , temaga kohakuti on lisateatetahvel 847.</s>
+</p>
+<p>
+<s>9.</s><s>Jalak&auml;ijafoor .</s><s>Reguleerib jalak&auml;ijate liiklust .</s>
+</p>
+<p>
+<s>Foori &uuml;lemises osas on punane ja all roheline jalak&auml;ija kujutis , mis vastavalt keelab v&otilde;i lubab jalak&auml;ijal &uuml;letada s&otilde;iduteed .</s><s>Foor v&otilde;idakse varustada helisignaaliga , mille katkendlik heli teatab , et p&otilde;leb punane tuli , pidev heli aga , et p&otilde;leb roheline tuli .</s>
+</p>
+<p>
+<s>M&auml;rkus .</s><s>R&uuml;hmadesse 1 , 2 , 8 ja 9 kuuluvate fooride juures v&otilde;idakse kasutada sekundin&auml;idikut , mis teatab , mitu sekundit j&auml;&auml;b aega tule vahetumiseni .</s>
+</p>
+<p>
+<s>2.</s><s>Reguleerija m&auml;rguanded</s>
+</p>
+<p>
+<s>Liiklemise j&auml;rjekorda m&auml;&auml;ravad m&auml;rguanded</s>
+</p>
+<p>
+<s>K&auml;si on t&otilde;stetud &uuml;les ( joonis 1 , a )</s>
+</p>
+<p>
+<s>&Uuml;kski liikleja ei tohi liikuda .</s><s>Peatumiseks etten&auml;htud kohast tohib edasi s&otilde;ita vaid juhul , kui seal peatumine on ilma liiklust ohustamata v&otilde;imatu ; kui m&auml;rguanne antakse hetkel , mil juht on ristmikul v&otilde;i &uuml;lek&auml;igurajal , tuleb liikumist j&auml;tkata .</s>
+</p>
+<p>
+<s>K&auml;si ( k&auml;ed ) on k&uuml;ljele r&otilde;htsalt v&auml;lja sirutatud ( joonis 1 , b )</s>
+</p>
+<p>
+<s>&Uuml;kski liikleja ei tohi liikuda suunas , mis on risti reguleerija v&auml;ljasirutatud k&auml;e v&otilde;i k&auml;tega ; kui reguleerija on p&auml;rast seda k&auml;e ( k&auml;ed ) langetanud , ei tohi liikuda juht ega jalak&auml;ija , kelle poole on reguleerija rind v&otilde;i selg .</s>
+</p>
+<p>
+<s>Viibe s&otilde;idusuunas ( joonis 1 , c )</s>
+</p>
+<p>
+<s>Reguleerija seisab liikleja poole k&uuml;ljega .</s><s>K&uuml;ljelt tohib s&otilde;ita paremale , otse , vasakule v&otilde;i tagasi .</s>
+</p>
+<p>
+<s>Reguleerija v&otilde;ib anda ka muid liiklejale arusaadavaid m&auml;rguandeid , n&auml;iteks s&otilde;ita aeglasemalt ( joonis 1 , d ) vms.</s><s>Liiklust keelav m&auml;rguanne kehtib kuni uue , lubava m&auml;rguandeni .</s><s>Liikuda tohib suundades , milles see pole keelatud .</s>
+</p>
+<p>
+<s>Ristmikul ja ristmikevahelisel teel antud m&auml;rguannetel on &uuml;ks ja sama t&auml;hendus .</s>
+</p>
+<p>
+<s>Peatamism&auml;rguanded</s>
+</p>
+<p>
+<s>Liikleja peab peatuma , kui reguleerija on t&otilde;stnud k&auml;e &uuml;les ja osutab peatumiskohta ( joonis 1 , e ) .</s>
+</p>
+<p>
+<s>Peatamism&auml;rguanne v&otilde;idakse anda s&otilde;idukist ( joonis 1 , f ) ja/v&otilde;i valjuh&auml;&auml;ldi kaudu .</s>
+</p>
+<p>
+<s>Ees s&otilde;itev juht peab j&auml;&auml;ma seisma parempoolsel teepeenral , selle puudumisel s&otilde;idutee parempoolse &auml;&auml;re l&auml;hedal , kui taga s&otilde;itval alarms&otilde;idukil t&ouml;&ouml;tab koos sinise vilkuriga ka punane vilkur ( joonis 1 , g ) .</s>
+</p>
+<p>
+<s>Peatamism&auml;rguande saanud juht peab kohe peatuma .</s><s>Kui reguleerija pole kohta n&auml;idanud , tuleb peatuda parempoolsel teepeenral , selle puudumisel s&otilde;idutee parempoolse &auml;&auml;re l&auml;hedal .</s>
+</p>
+<p>
+*<s>T&auml;hise esimene number n&auml;itab foorir&uuml;hma , teine koos numbri j&auml;rel oleva t&auml;hega v&otilde;i ilma - r&uuml;hmasisest j&auml;rjekorda .</s><s>Kui mainitakse r&uuml;hma k&otilde;ikide fooride &uuml;hist tunnust , j&auml;etakse teine number &auml;ra .</s>
+</p>
+<p>
+<s>Lisa 1</s>
+</p>
+<p>
+<s>Graafiline osa</s>
+</p>
+<p>
+<s>Liikluse reguleerimise m&auml;rguanded</s>
+</p>
+<p>
+<s>1.</s><s>Foorid</s>
+</p>
+<p>
+<s>2.</s><s>Reguleerija m&auml;rguanded</s>
+</p>
+<p>
+<s>Joonis 1.</s><s>Reguleerija m&auml;rguanded : a - liikuda ei tohi , b - liikuda ei tohi suunas , mis on v&auml;ljasirutatud k&auml;ega ( k&auml;tega ) risti , c - liikuda tohib viibatud suunas , d - s&otilde;ita aeglasemalt , e - s&otilde;iduk peatada osutatud kohas , f - autost antav peatamism&auml;rguanne , g - ees s&otilde;itev juht peab peatuma .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 2. veebruari 2001. a m&auml;&auml;ruse nr 48 &ldquo; Liikluseeskiri &rdquo; lisa 2</s>
+</p>
+<p>
+<s>Liiklusm&auml;rgid</s>
+</p>
+<p>
+<s>1.</s><s>Hoiatusm&auml;rgid</s>
+</p>
+<p>
+<s>111.</s><s>T&otilde;kkepuuga raudtee&uuml;les&otilde;idukoht .</s>
+</p>
+<p>
+<s>112.</s><s>T&otilde;kkepuuta raudtee&uuml;les&otilde;idukoht .</s>
+</p>
+<p>
+<s>121.</s><s>&Uuml;her&ouml;&ouml;pmeline raudtee .</s>
+</p>
+<p>
+<s>122.</s><s>Mitmer&ouml;&ouml;pmeline raudtee .</s><s>Hoiatus t&otilde;kkepuuta raudtee&uuml;les&otilde;idukoha juures .</s>
+</p>
+<p>
+<s>123-128.</s><s>Ees on raudtee&uuml;les&otilde;idukoht .</s><s>Lisahoiatus enne raudtee&uuml;les&otilde;idukohta .</s><s>M&auml;rgi kaldv&ouml;&ouml;tide arv v&auml;heneb raudteele l&auml;henemisel .</s><s>V&ouml;&ouml;did langevad s&otilde;idutee poole .</s>
+</p>
+<p>
+<s>131.</s><s>Ristumine trammiteega .</s>
+</p>
+<p>
+<s>132.</s><s>Samaliigiliste teede ristmik .</s><s>Juht peab andma teed paremalt l&auml;henevale juhile .</s><s>M&auml;rk panduna kattega tee ja kruusa- v&otilde;i pinnastee ning kruusa- ja pinnastee ristmike ette muudab need samaliigiliste teede ristmikeks .</s>
+</p>
+<p>
+<s>133-135.</s><s>Ristumine k&otilde;rvalteega .</s><s>K&otilde;rvaltee ristub peateega v&otilde;i suubub sellesse .</s>
+</p>
+<p>
+<s>136.</s><s>Ringristmik .</s>
+</p>
+<p>
+<s>137.</s><s>Foor .</s>
+</p>
+<p>
+<s>138.</s><s>Kaldapealne .</s><s>Ees on j&auml;rsk kaldapealne , kai , s&otilde;itmine tammil , kaldapealsel v&otilde;i j&auml;rsul astangul .</s>
+</p>
+<p>
+<s>141 , 142.</s><s>Ohtlik kurv .</s><s>J&auml;rsk v&otilde;i piiratud n&auml;htavusega kurv ja selle suund .</s>
+</p>
+<p>
+<s>143 , 144.</s><s>Ohtlikud kurvid .</s><s>Ohtlike kurvidega teel&otilde;ik ja esimese kurvi suund .</s>
+</p>
+<p>
+<s>145.</s><s>J&auml;rsk lang .</s>
+</p>
+<p>
+<s>146.</s><s>J&auml;rsk t&otilde;us .</s>
+</p>
+<p>
+<s>151.</s><s>Libe tee .</s><s>Ees on teel&otilde;ik , mille libedus ei ole tingitud lumest ega j&auml;&auml;st , vaid m&auml;rja teekatte v&auml;ikesest haardetegurist .</s>
+</p>
+<p>
+<s>152-154.</s><s>Ebatasane tee .</s><s>Ees on teel&otilde;ik , kus teekatte ebatasasused j&auml;rgnevad &uuml;ksteisele ( 152 ) v&otilde;i kus on &uuml;ksik lohk ( 153 ) v&otilde;i k&otilde;rgem k&uuml;hm , mis ei ole k&uuml;nnis ( 154 ) .</s>
+</p>
+<p>
+<s>155.</s><s>Lahtine killustik .</s><s>Kattega teel&otilde;ik , kus rataste alt paiskuvad kivid v&otilde;ivad ohustada liiklejaid ja s&otilde;idukeid .</s>
+</p>
+<p>
+<s>156.</s><s>Ees on k&uuml;nnis .</s><s>Tehisk&otilde;rgend v&auml;hendatud kiiruse hoidmiseks .</s>
+</p>
+<p>
+<s>157.</s><s>Ohtlik teepeenar .</s>
+</p>
+<p>
+<s>158.</s><s>Teet&ouml;&ouml;d .</s><s>Igasugused t&ouml;&ouml;d teel v&otilde;i tee k&otilde;rval .</s>
+</p>
+<p>
+<s>159.</s><s>Ees on katteta tee .</s><s>Kattega tee l&auml;heb &uuml;le kruusa- v&otilde;i pinnasteeks .</s>
+</p>
+<p>
+<s>161-163.</s><s>Teekitsend .</s><s>M&auml;rgi kujutis n&auml;itab , kas tee kitseneb m&otilde;lemalt v&otilde;i &uuml;helt poolt .</s>
+</p>
+<p>
+<s>164.</s><s>Kahesuunaline liiklus .</s><s>Ees on kahesuunalise liiklusega tee .</s>
+</p>
+<p>
+<s>165.</s><s>Ristuv kahesuunaline liiklus .</s><s>Ees on ristuv tee ( s&otilde;idutee ) , kus &uuml;hesuunaline liiklus on muudetud kahesuunaliseks .</s>
+</p>
+<p>
+<s>171.</s><s>Ees on reguleerimata &uuml;lek&auml;igurada .</s>
+</p>
+<p>
+<s>172.</s><s>Jalak&auml;ijad .</s><s>Teel&otilde;ik , kus jalak&auml;ijad liiguvad s&otilde;iduteel .</s>
+</p>
+<p>
+<s>173a .</s><s>Lapsed .</s>
+</p>
+<p>
+<s>173b .</s><s>Vanurid .</s>
+</p>
+<p>
+<s>174.</s><s>Ristumine jalgrattateega .</s>
+</p>
+<p>
+<s>175.</s><s>Suusatajad .</s>
+</p>
+<p>
+<s>176.</s><s>Ratsanikud .</s>
+</p>
+<p>
+<s>177.</s><s>Karja &uuml;leajamise koht .</s>
+</p>
+<p>
+<s>178.</s><s>Metsloomad .</s><s>M&auml;rgil v&otilde;ib olla kujutatud sellele kohale omane loom .</s>
+</p>
+<p>
+<s>179.</s><s>Linnud .</s>
+</p>
+<p>
+<s>181.</s><s>Varinguoht .</s>
+</p>
+<p>
+<s>182.</s><s>K&uuml;lgtuul .</s>
+</p>
+<p>
+<s>183.</s><s>Lennukid .</s>
+</p>
+<p>
+<s>184.</s><s>Liiklusummik .</s><s>Ees v&otilde;ib olla liiklusummik .</s>
+</p>
+<p>
+<s>185.</s><s>J&auml;&auml;tumisoht .</s>
+</p>
+<p>
+<s>186.</s><s>Muud ohud .</s>
+</p>
+<p>
+<s>2.</s><s>Ees&otilde;igusm&auml;rgid</s>
+</p>
+<p>
+<s>211.</s><s>Peatee .</s><s>Tee , kus juhil on reguleerimata ristmikul ees&otilde;igus k&otilde;rvalteel s&otilde;itva juhi suhtes .</s>
+</p>
+<p>
+<s>212.</s><s>Peatee l&otilde;pp .</s>
+</p>
+<p>
+<s>221.</s><s>Anna teed .</s><s>Juht peab andma teed ristuval teel , tahvli 834 olemasolul aga peateel v&otilde;i s&otilde;iduees&otilde;igusega teel s&otilde;itvale juhile .</s><s>Peateele pandud m&auml;rk t&auml;histab &uuml;htlasi peatee l&otilde;ppu .</s>
+</p>
+<p>
+<s>222.</s><s>Peatu ja anna teed .</s><s>Juht peab peatuma stoppjoone ees , selle puudumisel ristmiku juures ristuva s&otilde;idutee &auml;&auml;re ees , muudes kohtades m&auml;rgi ees .</s><s>Juht peab andma teed ristuval teel , tahvli 834 olemasolul aga peateel v&otilde;i s&otilde;iduees&otilde;igusega teel s&otilde;itvale juhile .</s>
+</p>
+<p>
+<s>231.</s><s>Vastassuuna ees&otilde;igus .</s><s>Juht peab andma teed juhile , kes on j&otilde;udnud teekitsendile v&otilde;i selle juurde .</s>
+</p>
+<p>
+<s>232.</s><s>P&auml;risuuna ees&otilde;igus .</s>
+</p>
+<p>
+<s>3.</s><s>Keelu- ja m&otilde;jualam&auml;rgid</s>
+</p>
+<p>
+<s>Keelum&auml;rgid</s>
+</p>
+<p>
+<s>311a .</s><s>S&otilde;idu keeld .</s><s>S&otilde;ita ei tohi &uuml;hegi s&otilde;idukiga .</s>
+</p>
+<p>
+<s>311b-311d .</s><s>Erateel s&otilde;idu keeld .</s><s>Eratee ei ole avalikuks kasutamiseks .</s>
+</p>
+<p>
+<s>M&auml;rgi 311b korral tohib s&otilde;idukiga s&otilde;ita ainult eratee omaniku loal .</s>
+</p>
+<p>
+<s>M&auml;rgi 311c korral tohib s&otilde;idukiga s&otilde;ita eratee omaniku loal v&otilde;i m&auml;rgil nimetatud isik .</s>
+</p>
+<p>
+<s>M&auml;rgi 311d korral tohib s&otilde;idukiga s&otilde;ita eratee omaniku loata omal vastutusel , kuna erateel ei ole loodud tingimusi ohutuks liiklemiseks .</s>
+</p>
+<p>
+<s>312.</s><s>Mootors&otilde;iduki s&otilde;idu keeld .</s>
+</p>
+<p>
+<s>313.</s><s>Veoauto s&otilde;idu keeld .</s><s>S&otilde;ita ei tohi C-kategooria s&otilde;iduki , traktori ega liikurmasinaga .</s><s>M&auml;rgile kantud tonnide arvu korral ei tohi s&otilde;ita &uuml;hegi nimetatud s&otilde;iduki ega autorongiga , mille veduk on &uuml;ks neist , kui registrimass &uuml;letab selle arvu . <hi rend="sub"> f </hi></s>
+</p>
+<p>
+<s>314.</s><s>Mootorratta s&otilde;idu keeld .</s>
+</p>
+<p>
+<s>315.</s><s>Mootorsaani s&otilde;idu keeld .</s>
+</p>
+<p>
+<s>316.</s><s>Traktori s&otilde;idu keeld .</s><s>S&otilde;ita ei tohi traktori ega liikurmasinaga .</s>
+</p>
+<p>
+<s>317.</s><s>Autorongi s&otilde;idu keeld .</s><s>Kui m&auml;rgile on kantud tonnide arv , ei tohi s&otilde;ita autorongiga , mille registrimass on sellest suurem .</s><s>M&auml;rk ei kehti kerghaagisega autorongi kohta .</s>
+</p>
+<p>
+<s>318.</s><s>Loomveoki s&otilde;idu keeld .</s><s>S&otilde;ita ei tohi loomveokiga , ka ei tohi ajada kariloomi .</s>
+</p>
+<p>
+<s>319.</s><s>Ohtliku veosega s&otilde;idu keeld .</s><s>S&otilde;ita ei tohi s&otilde;idukiga ( autorongiga ) , mis veab ohtlikku veost .</s>
+</p>
+<p>
+<s>321.</s><s>Jalgratta s&otilde;idu keeld .</s><s>S&otilde;ita ei tohi jalgratta ega mopeediga .</s>
+</p>
+<p>
+<s>322.</s><s>Mopeedi s&otilde;idu keeld .</s>
+</p>
+<p>
+<s>323.</s><s>Ratsutamise keeld .</s>
+</p>
+<p>
+<s>324.</s><s>K&auml;igu keeld .</s>
+</p>
+<p>
+<s>331.</s><s>Sisses&otilde;idu keeld .</s><s>Edasi ei tohi s&otilde;ita &uuml;hegi s&otilde;idukiga .</s>
+</p>
+<p>
+<s>332.</s><s>Paremp&ouml;&ouml;rde keeld .</s>
+</p>
+<p>
+<s>333.</s><s>Vasakp&ouml;&ouml;rde keeld .</s>
+</p>
+<p>
+<s>334.</s><s>Tagasip&ouml;&ouml;rde keeld .</s>
+</p>
+<p>
+<s>335.</s><s>Tollikontroll .</s><s>Peatuseta ja tolliametniku loata ei tohi edasi s&otilde;ita .</s>
+</p>
+<p>
+<s>336a .</s><s>Politseikontroll .</s><s>Peatuseta ja politseiametniku loata ei tohi edasi s&otilde;ita .</s>
+</p>
+<p>
+<s>336b .</s><s>Kontroll .</s><s>Peatuseta ja kontrollija loata ei tohi edasi s&otilde;ita .</s>
+</p>
+<p>
+<s>341.</s><s>Massi piirang .</s><s>S&otilde;ita ei tohi s&otilde;idukiga ( autorongiga ) , mille tegelik mass on suurem , kui m&auml;rk n&auml;itab .</s>
+</p>
+<p>
+<s>342a .</s><s>Teljekoormuse piirang .</s><s>S&otilde;ita ei tohi s&otilde;idukiga ( autorongiga ) , mille mis tahes telje koormus on suurem , kui m&auml;rk n&auml;itab .</s>
+</p>
+<p>
+<s>342b .</s><s>Telikukoormuse piirang .</s><s>S&otilde;ita ei tohi s&otilde;idukiga ( autorongiga ) , mille mis tahes teliku koormus on suurem , kui m&auml;rk n&auml;itab .</s>
+</p>
+<p>
+<s>343.</s><s>K&otilde;rguse piirang .</s><s>S&otilde;ita ei tohi s&otilde;idukiga ( autorongiga ) , mille k&otilde;rgus teepinnast koormaga v&otilde;i ilma on suurem , kui m&auml;rk n&auml;itab .</s>
+</p>
+<p>
+<s>344.</s><s>Laiuse piirang .</s><s>S&otilde;ita ei tohi s&otilde;idukiga ( autorongiga ) , mille laius koormaga v&otilde;i ilma on suurem , kui m&auml;rk n&auml;itab .</s>
+</p>
+<p>
+<s>345.</s><s>Pikkuse piirang .</s><s>S&otilde;ita ei tohi s&otilde;idukiga ( autorongiga ) , mille pikkus koormaga v&otilde;i ilma on suurem , kui m&auml;rk n&auml;itab .</s>
+</p>
+<p>
+<s>351.</s><s>Suurim kiirus .</s><s>S&otilde;ita ei tohi suurema kiirusega ( km/h ) , kui m&auml;rk n&auml;itab .</s>
+</p>
+<p>
+<s>352.</s><s>M&ouml;&ouml;das&otilde;idu keeld .</s><s>M&ouml;&ouml;da s&otilde;ita ei tohi , v&auml;lja arvatud m&ouml;&ouml;das&otilde;it &uuml;ksikust s&otilde;idukist , mille kiirus ei &uuml;leta 30 km/h .</s>
+</p>
+<p>
+<s>353.</s><s>Veoauto m&ouml;&ouml;das&otilde;idu keeld .</s><s>M&ouml;&ouml;da s&otilde;ita ei tohi C-kategooria s&otilde;iduki , traktori ega liikurmasinaga , v&auml;lja arvatud m&ouml;&ouml;das&otilde;it &uuml;ksikust s&otilde;idukist , mille kiirus ei &uuml;leta 30 km/h .</s>
+</p>
+<p>
+<s>354.</s><s>V&auml;him pikivahe .</s><s>S&otilde;ita ei tohi v&auml;iksema pikivahega , kui m&auml;rk n&auml;itab .</s>
+</p>
+<p>
+<s>355.</s><s>Helisignaali keeld .</s><s>Erandina tohib helisignaali anda ohu v&auml;ltimiseks .</s>
+</p>
+<p>
+<s>361.</s><s>Peatumise keeld .</s>
+</p>
+<p>
+<s>362.</s><s>Parkimise keeld .</s>
+</p>
+<p>
+<s>363.</s><s>Parkimise keeld paaritul kuup&auml;eval .</s>
+</p>
+<p>
+<s>364.</s><s>Parkimise keeld paariskuup&auml;eval .</s><s>Kui teel&otilde;igul on &uuml;hele poole pandud m&auml;rk 363 ja teisele poole m&auml;rk 364 , tuleb s&otilde;iduk &uuml;helt teepoolelt teisele &uuml;mber paigutada kell 19-21.</s>
+</p>
+<p>
+<s>371.</s><s>Suurima kiiruse piirangu l&otilde;pp .</s>
+</p>
+<p>
+<s>372.</s><s>M&ouml;&ouml;das&otilde;idu keelu l&otilde;pp .</s>
+</p>
+<p>
+<s>373.</s><s>Veoauto m&ouml;&ouml;das&otilde;idu keelu l&otilde;pp .</s>
+</p>
+<p>
+<s>376.</s><s>Piirangute l&otilde;pp .</s><s>L&otilde;petab korraga mitme m&auml;rgi 35 ja 36 m&otilde;jupiirkonna .</s>
+</p>
+<p>
+<s>Lisaselgitused keelum&auml;rkide kohta</s>
+</p>
+<p>
+<s>M&auml;rgid 332 ja 333 kehtivad ainult sellel s&otilde;iduteede ristumisalal , mille ette nad on pandud .</s>
+</p>
+<p>
+<s>M&auml;rgid 324 ja 36 kehtivad ainult sellel teepoolel , kuhu nad on &uuml;les pandud .</s>
+</p>
+<p>
+<s>M&auml;rk 361 ei kehti &uuml;hiss&otilde;iduki kohta .</s>
+</p>
+<p>
+<s>M&auml;rgid 362-364 ei kehti Punase Risti embleemiga s&otilde;iduauto kohta , mis s&otilde;idutab arstiabi andvat meditsiinit&ouml;&ouml;tajat , ega t&ouml;&ouml;tava taksomeetriga takso kohta .</s>
+</p>
+<p>
+<s>M&auml;rkide 35 ja 36 m&otilde;jupiirkond ulatub :</s>
+</p>
+<p>
+<s>1 ) asulas m&auml;rgist kuni m&auml;rgi taga oleva l&auml;hima ristmikuni , v&auml;lja arvatud pinnastee suubumine kattega teele , ristmiku puudumisel kuni asula l&otilde;puni v&otilde;i piirangut l&otilde;petava m&auml;rgini v&otilde;i m&auml;rgi juurde pandud lisateatetahvliga teatatud kauguseni ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljaspool asulat m&auml;rgist kuni seda piirangut l&otilde;petava m&auml;rgini v&otilde;i m&auml;rgi juurde pandud lisateatetahvliga teatatud kauguseni .</s>
+</p>
+<p>
+<s>M&otilde;jupiirkonna l&otilde;ppu n&auml;itavad :</s>
+</p>
+<p>
+<s>1 ) m&auml;rgil 351 , mis paikneb enne asulat , m&auml;rk 571 ;</s>
+</p>
+<p>
+<s>2 ) m&auml;rkidel 35 m&auml;rgi all olev tahvel 821 ;</s>
+</p>
+<p>
+<s>3 ) m&auml;rkidel 351 , 352 ja 353 vastavalt m&auml;rk 371 , 372 ja 373 ;</s>
+</p>
+<p>
+<s>4 ) m&auml;rk 376 ;</s>
+</p>
+<p>
+<s>5 ) m&auml;rgil 351 teine m&auml;rk 351 v&otilde;i m&auml;rk 382 , millel on teistsugune suurim kiirus ;</s>
+</p>
+<p>
+<s>6 ) m&auml;rgil 361 m&auml;rk 362 ;</s>
+</p>
+<p>
+<s>7 ) m&auml;rgil 362 m&auml;rk 361 ;</s>
+</p>
+<p>
+<s>8 ) m&auml;rkidel 36 m&auml;rgi juures olev lisateatetahvel 822 v&otilde;i 823 v&otilde;i teine m&auml;rk 36 koos lisateatetahvliga 824 m&otilde;jupiirkonna l&otilde;petamise kohas .</s>
+</p>
+<p>
+<s>M&auml;rkide 36 m&otilde;jupiirkond ei h&otilde;lma m&auml;rgiga 575a v&otilde;i 575c t&auml;histatud k&otilde;nnitee&auml;&auml;rset parklat ega puuduta selle m&auml;rgi all oleva lisateatetahvliga 86 v&otilde;i 874 teatatud korra kohaselt pargitud s&otilde;idukeid .</s>
+</p>
+<p>
+<s>Kui m&auml;rki 361 kasutatakse koos teekattem&auml;rgisega 931 , m&auml;rki 362 aga koos teekattem&auml;rgisega 932 , m&auml;&auml;rab m&auml;rgi m&otilde;jupiirkonna vastava m&auml;rgisjoone pikkus .</s>
+</p>
+<p>
+<s>M&otilde;jualam&auml;rgid</s>
+</p>
+<p>
+<s>M&otilde;jualam&auml;rk 38 n&auml;itab sellel kujutatud teise liiklusm&auml;rgi kehtivust kogu alal .</s>
+</p>
+<p>
+<s>Kui sellel alal on &uuml;les pandud m&auml;rgil 38 kujutatud liiklusm&auml;rgile vastur&auml;&auml;kivaid liiklusm&auml;rke , tuleb vastaval teel&otilde;igul j&auml;rgida viimaste n&otilde;udeid .</s>
+</p>
+<p>
+<s>381.</s><s>Samaliigiliste teedega ristmike ala .</s><s>M&auml;rk panduna ala t&auml;histamiseks , kus on kattega teede , kruusateede ja pinnasteede omavahelisi ristumisi , muudab need samaliigiliste teede ristmikeks .</s>
+</p>
+<p>
+<s>382.</s><s>Kiiruse piirangu ala .</s>
+</p>
+<p>
+<s>383.</s><s>Peatumise keelu ala .</s>
+</p>
+<p>
+<s>384.</s><s>Parkimise keelu ala .</s>
+</p>
+<p>
+<s>385.</s><s>Jalgratturite s&otilde;idu ala .</s>
+</p>
+<p>
+<s>386.</s><s>Jalak&auml;iguala .</s>
+</p>
+<p>
+<s>387.</s><s>Parkimisala .</s>
+</p>
+<p>
+<s>388.</s><s>Kaks m&otilde;juala .</s><s>Kahe liiklusm&auml;rgi kujutisega m&otilde;jualam&auml;rk .</s>
+</p>
+<p>
+<s>389.</s><s>M&otilde;juala ja m&otilde;juala l&otilde;pp .</s><s>N&auml;itab &uuml;he m&otilde;juala algust ja teise m&otilde;juala l&otilde;ppu .</s>
+</p>
+<p>
+<s>V&otilde;idakse kasutada ka muu liiklusm&auml;rgi kujutisega m&otilde;jualam&auml;rke .</s>
+</p>
+<p>
+<s>M&otilde;jualam&auml;rk 39 t&uuml;histab m&auml;rgiga 38 kehtestatud liikluskorra .</s>
+</p>
+<p>
+<s>391.</s><s>Samaliigiliste teedega ristmike ala l&otilde;pp .</s>
+</p>
+<p>
+<s>392.</s><s>Kiiruse piirangu ala l&otilde;pp .</s>
+</p>
+<p>
+<s>393.</s><s>Peatumise keelu ala l&otilde;pp .</s>
+</p>
+<p>
+<s>394.</s><s>Parkimise keelu ala l&otilde;pp .</s>
+</p>
+<p>
+<s>395.</s><s>Jalgratturite s&otilde;idu ala l&otilde;pp .</s>
+</p>
+<p>
+<s>396.</s><s>Jalak&auml;iguala l&otilde;pp .</s>
+</p>
+<p>
+<s>397.</s><s>Parkimisala l&otilde;pp .</s>
+</p>
+<p>
+<s>398.</s><s>Kahe m&otilde;juala l&otilde;pp .</s>
+</p>
+<p>
+<s>4.</s><s>Kohustusm&auml;rgid</s>
+</p>
+<p>
+<s>41.</s><s>Kohustuslik s&otilde;idusuund .</s><s>M&auml;rk kohustab s&otilde;itma vaid noolega osutatud suunas .</s><s>Vasakp&ouml;&ouml;rdeks kohustav nool lubab ka tagasi p&ouml;&ouml;rata .</s>
+</p>
+<p>
+<s>M&auml;rk kehtib ainult sellel s&otilde;iduteede ristumisalal , mille ette ta on pandud , kusjuures sirge noolega m&auml;rk on vahetult vastava ristumisala ees , vaid k&otilde;rvalep&ouml;&ouml;rdeks kohustav k&otilde;vera noolega m&auml;rk aga on p&ouml;&ouml;rdekohast eespool .</s>
+</p>
+<p>
+<s>Ristmiku taha teele pandud m&auml;rk 411 kehtib l&auml;hima ristmikuni .</s><s>M&auml;rk ei keela paremp&ouml;&ouml;ret parklasse , puhkekohta ega teega k&uuml;lgnevale alale .</s><s>Vasakule v&otilde;i tagasi p&ouml;&ouml;rata tohib vaid kohas , kus on vastav m&auml;rk 53 , ja tagasi p&ouml;&ouml;rata vaid kohas , kus on m&auml;rk 551.</s>
+</p>
+<p>
+<s>421-423.</s><s>&Uuml;mberp&otilde;ike suund .</s><s>M&auml;rk kohustab &uuml;mber p&otilde;ikama vaid m&auml;rgil osutatud suunas .</s>
+</p>
+<p>
+<s>424.</s><s>Ringliiklus .</s><s>Ristmikul tohib s&otilde;ita vaid nooltega osutatud suunas .</s>
+</p>
+<p>
+<s>431.</s><s>Jalgrattatee .</s><s>Liikuda tohib ainult jalgratta v&otilde;i mopeediga .</s>
+</p>
+<p>
+<s>Kui m&auml;rgiga t&auml;histatud tee v&otilde;i teeosa kulgeb s&otilde;idutee v&otilde;i teepeenra k&otilde;rval , tohivad jalgrattur ja mopeedijuht kasutada ainult seda teed v&otilde;i teeosa .</s>
+</p>
+<p>
+<s>432.</s><s>Jalgtee .</s><s>Liikuda tohib ainult jalgsi .</s>
+</p>
+<p>
+<s>M&auml;rk v&otilde;ib t&auml;histada ka jalak&auml;ijate liiklemiseks etten&auml;htud teeosa v&otilde;i k&otilde;nniteed .</s>
+</p>
+<p>
+<s>433-435.</s><s>Jalgratta- ja jalgtee .</s><s>Liikuda tohib ainult jalgrattaga v&otilde;i jalgsi .</s><s>M&auml;rkide 433 ja 434 korral liigub jalgrattur sellel teel vastavalt n&auml;idatule &uuml;hel , jalak&auml;ija aga teisel pool ; m&auml;rgi 435 korral aga kasutavad nad teed &uuml;hiselt .</s><s>Viimasel juhul ei tohi jalgrattur ohustada ega takistada jalak&auml;ijat ning jalak&auml;ija ei tohi tahtlikult takistada jalgratturi s&otilde;itu .</s><s>Kui m&auml;rkidega 433-435 t&auml;histatud tee v&otilde;i teeosa kulgeb s&otilde;idutee v&otilde;i teepeenra k&otilde;rval , tohivad nimetatud liiklejad kasutada ainult seda teed v&otilde;i teeosa .</s>
+</p>
+<p>
+<s>436.</s><s>Ratsatee .</s><s>Tohib ainult ratsutada .</s>
+</p>
+<p>
+<s>437.</s><s>Mootorsaanitee .</s><s>S&otilde;ita tohib ainult mootorsaaniga .</s>
+</p>
+<p>
+<s>438.</s><s>Lumeketid .</s><s>M&auml;rk kohustab mootors&otilde;idukitel v&auml;hemalt &uuml;hel teljel kasutama s&otilde;idul lumekette .</s>
+</p>
+<p>
+<s>441.</s><s>Jalgrattatee l&otilde;pp .</s>
+</p>
+<p>
+<s>442.</s><s>Jalgtee l&otilde;pp .</s>
+</p>
+<p>
+<s>443-445.</s><s>Jalgratta- ja jalgtee l&otilde;pp .</s>
+</p>
+<p>
+<s>446.</s><s>Ratsatee l&otilde;pp .</s>
+</p>
+<p>
+<s>447.</s><s>Mootorsaanitee l&otilde;pp .</s>
+</p>
+<p>
+<s>448.</s><s>Lumekettide kohustuse l&otilde;pp .</s>
+</p>
+<p>
+<s>451.</s><s>V&auml;him kiirus .</s><s>Tohib s&otilde;ita ainult m&auml;rgil oleva v&otilde;i sellest suurema kiirusega ( km/h ) .</s>
+</p>
+<p>
+<s>452.</s><s>V&auml;hima kiiruse l&otilde;pp .</s>
+</p>
+<p>
+<s>461.</s><s>Ohtliku veosega s&otilde;idu suund .</s><s>Ohtlikku veost vedava s&otilde;iduki ( autorongi ) kohustuslik s&otilde;idu suund .</s><s>M&auml;rgi k&otilde;rvalep&ouml;&ouml;ret osutav sirge nool n&auml;itab suunda vahetult p&ouml;&ouml;rdekoha ette pandud m&auml;rgil , k&otilde;ver nool aga p&ouml;&ouml;rdekohast eespool oleval m&auml;rgil .</s>
+</p>
+<p>
+<s>5.</s><s>Osutusm&auml;rgid</s>
+</p>
+<p>
+<s>511.</s><s>Kiirtee .</s><s>Koht , kus hakkab kehtima liikluseeskirjaj&auml;rgne kiirteel liiklemise kord .</s>
+</p>
+<p>
+<s>512.</s><s>Kiirtee l&otilde;pp .</s>
+</p>
+<p>
+<s>521.</s><s>&Uuml;hesuunaline tee .</s><s>Tee v&otilde;i s&otilde;idutee , mille kogu laiuses s&otilde;idavad s&otilde;idukid ainult &uuml;hes suunas .</s>
+</p>
+<p>
+<s>522.</s><s>&Uuml;hesuunalise tee l&otilde;pp .</s>
+</p>
+<p>
+<s>523 , 524.</s><s>S&otilde;it &uuml;hesuunalisele teele .</s><s>&Uuml;hesuunalisele teele v&otilde;i s&otilde;iduteele s&otilde;itmise koht ja suund .</s>
+</p>
+<p>
+<s>525.</s><s>&Uuml;hiss&otilde;idukirada .</s><s>M&auml;rk kehtib raja kohta , mille kohale ta on pandud .</s><s>S&otilde;iduteest paremal olev m&auml;rk kehtib parempoolse raja kohta .</s>
+</p>
+<p>
+<s>526.</s><s>&Uuml;hiss&otilde;idukirajaga tee .</s><s>Tee , millel &uuml;hiss&otilde;idukid liiguvad neile eraldatud rajal vastu &uuml;ldist liiklusvoolu .</s>
+</p>
+<p>
+<s>527.</s><s>&Uuml;hiss&otilde;idukirajaga tee l&otilde;pp .</s><s>M&auml;rgiga 526 t&auml;histatud &uuml;hiss&otilde;idukirajaga tee l&otilde;pp .</s>
+</p>
+<p>
+<s>528 , 529.</s><s>S&otilde;it &uuml;hiss&otilde;idukirajaga teele .</s><s>M&auml;rgiga 526 t&auml;histatud &uuml;hiss&otilde;idukirajaga teele s&otilde;itmise koht ja suund .</s>
+</p>
+<p>
+<s>53.</s><s>S&otilde;idurajad ja -suunad .</s><s>N&auml;itab r&ouml;&ouml;basteta s&otilde;idukite s&otilde;iduradade arvu suunav&ouml;&ouml;ndi v&otilde;i kogu tee laiuses kuni l&auml;hima ristmikuni ja ristmikul s&otilde;idusuunda igalt rajalt , eraldi iga s&otilde;iduraja kohal paiknemise korral aga s&otilde;idusuunda sellelt rajalt .</s>
+</p>
+<p>
+<s>Kui m&auml;rk osutab vasakp&ouml;&ouml;ret &auml;&auml;rmiselt vasakpoolselt rajalt , tohib sellelt rajalt p&ouml;&ouml;rata ka tagasi .</s>
+</p>
+<p>
+<s>Enne ristmikku pandud m&auml;rk kehtib kogu ristmiku kohta , kui sinna pandud teised m&auml;rgid 53 ei anna muid korraldusi .</s>
+</p>
+<p>
+<s>M&auml;rgi 53 nooltel v&otilde;ib olla kujutatud liiklusm&auml;rke , mis keelavad teatud s&otilde;idukite liikluse , m&auml;&auml;ravad v&auml;hima v&otilde;i suurima lubatud kiiruse v&otilde;i teatavad muudest liikluskorra ise&auml;rasustest rajal .</s>
+</p>
+<p>
+<s>541a .</s><s>Bussi- v&otilde;i trollipeatus .</s>
+</p>
+<p>
+<s>541b .</s><s>Trammipeatus .</s>
+</p>
+<p>
+<s>542.</s><s>Taksopeatus .</s>
+</p>
+<p>
+<s>543 , 544.</s><s>&Uuml;lek&auml;igurada .</s><s>T&auml;histab reguleerimata &uuml;lek&auml;igurada .</s>
+</p>
+<p>
+<s>545 , 546.</s><s>K&auml;igutunnel .</s>
+</p>
+<p>
+<s>547 , 548.</s><s>K&auml;igusild .</s>
+</p>
+<p>
+<s>551.</s><s>Tagasip&ouml;&ouml;rdekoht .</s><s>Vasakp&ouml;&ouml;re on keelatud .</s>
+</p>
+<p>
+<s>552-554.</s><s>Umbtee .</s><s>L&auml;bis&otilde;iduv&otilde;imaluseta tee .</s>
+</p>
+<p>
+<s>555.</s><s>Ootekoht .</s><s>T&auml;histab kohta , kus kitsal teel tuleb vastus&otilde;itja l&auml;bi lasta .</s>
+</p>
+<p>
+<s>556.</s><s>Sobiv kiirus .</s><s>Teel&otilde;igule soovitatav suurim kiirus ( km/h ) heades ilma- ja teeoludes .</s><s>Soovitus ulatub l&auml;hima ristmikuni , ristmiku puudumisel lisateatetahvlil 821 n&auml;idatud kauguseni , kui aga m&auml;rki kasutatakse koos hoiatusm&auml;rgiga , siis ohtliku teel&otilde;igu l&otilde;puni .</s>
+</p>
+<p>
+<s>557.</s><s>Ristuv jalgrattatee .</s><s>T&auml;histab ristuvat jalgrattateed v&otilde;i jalgratta- ja jalgteed .</s>
+</p>
+<p>
+<s>561.</s><s>Muutsuunaliiklus .</s><s>Niisuguse teel&otilde;igu algus , mille &uuml;hel v&otilde;i mitmel rajal v&otilde;ib liiklus muutuda vastassuunaliseks .</s>
+</p>
+<p>
+<s>562.</s><s>Muutsuunaliikluse l&otilde;pp .</s>
+</p>
+<p>
+<s>563.</s><s>S&otilde;it muutsuunaliiklusega teele .</s>
+</p>
+<p>
+<s>571.</s><s>Asula .</s><s>Koht , kus hakkab kehtima liikluseeskirjaj&auml;rgne asulas liiklemise kord .</s>
+</p>
+<p>
+<s>572.</s><s>Asula l&otilde;pp .</s>
+</p>
+<p>
+<s>573.</s><s>&Otilde;ueala .</s><s>Koht , kus hakkab kehtima liikluseeskirjaj&auml;rgne &otilde;uealal liiklemise kord .</s>
+</p>
+<p>
+<s>574.</s><s>&Otilde;ueala l&otilde;pp .</s>
+</p>
+<p>
+<s>575a , 575b .</s><s>Parkla .</s><s>M&auml;rk v&otilde;ib osutada ka parklat , kuhu juht v&otilde;ib j&auml;tta s&otilde;iduki , et &uuml;mber istuda &uuml;hiss&otilde;idukile .</s>
+</p>
+<p>
+<s>575c .</s><s>Teeninduskoha parkla .</s>
+</p>
+<p>
+<s>576.</s><s>Parkimiskord .</s>
+</p>
+<p>
+<s>577.</s><s>Parkimiskestus .</s><s>Parkimiskella kasutamine on kohustuslik .</s>
+</p>
+<p>
+<s>578.</s><s>Tasuline parkimine .</s>
+</p>
+<p>
+<s>579.</s><s>S&otilde;iduki sundteisaldus .</s>
+</p>
+<p>
+<s>581.</s><s>Tunnel .</s><s>Koht , kus hakkab kehtima liikluseeskirjaj&auml;rgne tunnelis liiklemise kord .</s>
+</p>
+<p>
+<s>582.</s><s>Tunneli l&otilde;pp .</s>
+</p>
+<p>
+<s>583.</s><s>T&ouml;&ouml;stuspiirkond .</s>
+</p>
+<p>
+<s>584a .</s><s>Pr&uuml;gim&auml;gi .</s>
+</p>
+<p>
+<s>584b .</s><s>Ohtlike ainete hoidla .</s>
+</p>
+<p>
+<s>585a .</s><s>Parvlaevasadam .</s>
+</p>
+<p>
+<s>585b .</s><s>Kaubasadam</s>
+</p>
+<p>
+<s>585c .</s><s>Jahisadam .</s>
+</p>
+<p>
+<s>586a .</s><s>Lennujaam .</s>
+</p>
+<p>
+<s>586b .</s><s>Bussijaam .</s>
+</p>
+<p>
+<s>586c .</s><s>Raudteejaam .</s>
+</p>
+<p>
+<s>591.</s><s>Stoppjoonem&auml;rk .</s><s>S&otilde;iduki peatamise koht foori keelava tule v&otilde;i reguleerija keelava m&auml;rguande korral .</s>
+</p>
+<p>
+<s>6.</s><s>Juhatusm&auml;rgid</s>
+</p>
+<p>
+<s>611.</s><s>S&otilde;iduskeem .</s><s>N&auml;itab s&otilde;iduv&otilde;imalust , kui ristmikul on mingi p&ouml;&ouml;re keelatud , v&otilde;i osutab lubatud s&otilde;idusuundi keerukal ristmikul .</s>
+</p>
+<p>
+<s>62.</s><s>Eelviit .</s><s>N&auml;itab s&otilde;idusuundi asulate v&otilde;i teiste objektide juurde .</s><s>M&auml;rgil v&otilde;ib olla tee numbreid , osutusm&auml;rke ja teisi liiklusm&auml;rke , mis teatavad s&otilde;idukorra ise&auml;rasustest , teeninduskoham&auml;rkide s&uuml;mboleid ja teisi ametlikult kinnitatud s&uuml;mboleid .</s><s>Arv m&auml;rgi allosas n&auml;itab kaugust ristmikuni .</s><s>Kui teel&otilde;igule on pandud m&otilde;ni keelum&auml;rk 31 , 331 v&otilde;i 34 , v&otilde;ib eelviit n&auml;idata ka &uuml;mbers&otilde;iduteed .</s>
+</p>
+<p>
+<s>63.</s><s>Suunaviit .</s><s>N&auml;itab s&otilde;idusuundi asulate v&otilde;i teiste objektide juurde ja kaugust nendeni .</s><s>M&auml;rgil v&otilde;ib olla osutusm&auml;rke ja teisi liiklusm&auml;rke , mis teatavad s&otilde;idukorra ise&auml;rasustest , teeninduskoham&auml;rkide s&uuml;mboleid , teisi ametlikult kinnitatud s&uuml;mboleid ja embleeme .</s>
+</p>
+<p>
+<s>641.</s><s>Kohanimet&auml;his .</s><s>Haldus&uuml;ksuse , asustus&uuml;ksuse , j&otilde;e , j&auml;rve vms nimi .</s>
+</p>
+<p>
+<s>642.</s><s>Turismiobjektit&auml;his .</s><s>Vaatamisv&auml;&auml;rsuse , looduskaitse- ja muinsuskaitseala vms nimi .</s>
+</p>
+<p>
+<s>643.</s><s>Eravalduset&auml;his .</s><s>Eravalduse nimi .</s>
+</p>
+<p>
+<s>644.</s><s>Tee nimi .</s><s>Tee ( maantee , t&auml;nava ) nimi .</s>
+</p>
+<p>
+<s>645.</s><s>Kaugusviit .</s><s>Kaugus teekonnal olevate asulate v&otilde;i teiste objektideni ( km ) .</s>
+</p>
+<p>
+<s>646.</s><s>Liikluskord .</s><s>N&auml;itab riigis kehtestatud lubatud suurimat kiirust asulas ja v&auml;ljaspool asulat ning &ouml;&ouml;p&auml;evaringset sissel&uuml;litatud tuledega s&otilde;itmise kohustust .</s>
+</p>
+<p>
+<s>651.</s><s>Kilomeetrit&auml;his .</s>
+</p>
+<p>
+<s>652-655.</s><s>Tee number .</s><s>E-t&auml;ht ( Euroopa ) t&auml;histab rahvusvahelist teed .</s><s>M&auml;rk , millel tee numbrit &uuml;mbritseb katkendjoon , pannakse teele , mis viib m&auml;rgil oleva numbriga teele .</s>
+</p>
+<p>
+<s>661.</s><s>Veoauto s&otilde;idu suund .</s><s>C-kategooria s&otilde;iduki , traktori , liikurmasina v&otilde;i neist &uuml;hega veetava autorongi soovitatav s&otilde;idusuund .</s>
+</p>
+<p>
+<s>662.</s><s>Ohtliku aine veo tee .</s><s>Ohtlikku veost vedava s&otilde;iduki ( autorongi ) soovitatav s&otilde;idusuund .</s>
+</p>
+<p>
+<s>663-666.</s><s>Avalik &uuml;ritus .</s><s>S&otilde;idusuund avaliku &uuml;rituse toimumiskohta .</s>
+</p>
+<p>
+<s>671-673.</s><s>&Uuml;mbers&otilde;idu skeem .</s><s>Ajutiselt suletud teel&otilde;igust &uuml;mbers&otilde;idu teekond ja suund .</s>
+</p>
+<p>
+<s>674-677.</s><s>&Uuml;mbers&otilde;it .</s><s>Ajutiselt suletud teel&otilde;igust &uuml;mbers&otilde;idu suund .</s>
+</p>
+<p>
+<s>681-683.</s><s>Kurvisuund .</s><s>J&auml;rsu v&otilde;i ohtliku kurvi suund .</s>
+</p>
+<p>
+<s>684.</s><s>Hoiatustara .</s><s>Teet&ouml;&ouml; koht v&otilde;i teel olev takistus .</s>
+</p>
+<p>
+<s>685.</s><s>Hargnemiskoht .</s><s>Teeharude suund m&auml;rgi asukohas .</s>
+</p>
+<p>
+<s>686.</s><s>Ohtlik koht v&otilde;i tee&auml;&auml;r .</s><s>T&auml;histab tee vaba ristl&otilde;ike k&uuml;ljel olevat ohtlikku takistust v&otilde;i s&otilde;idutee ( -raja ) &auml;&auml;rt .</s>
+</p>
+<p>
+<s>687.</s><s>M&auml;rgiposti t&auml;his .</s><s>Lisahoiatus kohas , kus esineb orienteerumisraskusi .</s>
+</p>
+<p>
+<s>688.</s><s>K&uuml;nnis .</s><s>T&auml;histab k&uuml;nnist ja selle laiust .</s>
+</p>
+<p>
+<s>Juhatusm&auml;rgi k&otilde;rvalep&ouml;&ouml;ret osutav sirge nool n&auml;itab suunda vahetult p&ouml;&ouml;rdekoha ette pandud m&auml;rgil , k&otilde;ver nool aga p&ouml;&ouml;rdekohast eespool oleval m&auml;rgil .</s>
+</p>
+<p>
+<s>7.</s><s>Teeninduskoham&auml;rgid</s>
+</p>
+<p>
+<s>711.</s><s>Esmaabi .</s>
+</p>
+<p>
+<s>712.</s><s>Politsei .</s>
+</p>
+<p>
+<s>713.</s><s>Info .</s>
+</p>
+<p>
+<s>714.</s><s>Telefon .</s><s>M&auml;rgil olev kirje SOS t&auml;hendab p&auml;&auml;steteenistuse telefoni .</s>
+</p>
+<p>
+<s>715.</s><s>Post .</s>
+</p>
+<p>
+<s>716.</s><s>Internetipunkt .</s><s>Osutab kohta , kus on eelregistreerimata v&otilde;imalik saata ja lugeda elektronposti , teostada pangaoperatsioone internetipangaga .</s>
+</p>
+<p>
+<s>717.</s><s>Raadiojaam .</s><s>Liiklusteavet ja teede s&otilde;idetavuse seisukorra alast teavet edastav raadiojaam .</s><s>Arv t&auml;hendab liiklusteabe kandesagedust megahertsides .</s>
+</p>
+<p>
+<s>718.</s><s>Vaatamisv&auml;&auml;rsus .</s>
+</p>
+<p>
+<s>721.</s><s>Tankla .</s><s>Tankuri roheline kujutis osutab pliivaba bensiini m&uuml;&uuml;gi kohta .</s>
+</p>
+<p>
+<s>722.</s><s>Autohooldus .</s>
+</p>
+<p>
+<s>723a .</s><s>Autopesula .</s>
+</p>
+<p>
+<s>723b .</s><s>Pesemisv&otilde;imalus .</s><s>Osutab kohta , kus juhil ja s&otilde;itjatel on v&otilde;imalus end pesta .</s>
+</p>
+<p>
+<s>724.</s><s>Parkimismaja .</s>
+</p>
+<p>
+<s>725.</s><s>Restoran .</s>
+</p>
+<p>
+<s>726.</s><s>Kohvik .</s>
+</p>
+<p>
+<s>727.</s><s>Hotell v&otilde;i motell .</s>
+</p>
+<p>
+<s>728a .</s><s>Tualett .</s>
+</p>
+<p>
+<s>728b .</s><s>K&auml;imla .</s>
+</p>
+<p>
+<s>731.</s><s>Puhkemaja .</s>
+</p>
+<p>
+<s>732.</s><s>K&auml;mping .</s>
+</p>
+<p>
+<s>733.</s><s>Majutuskoht .</s>
+</p>
+<p>
+<s>734.</s><s>S&otilde;idukelamulaager .</s><s>Auto- v&otilde;i haagiselamu paigaldamise koht .</s>
+</p>
+<p>
+<s>741.</s><s>Puhkekoht .</s>
+</p>
+<p>
+<s>742.</s><s>Matkaraja algus .</s>
+</p>
+<p>
+<s>743.</s><s>Ujumiskoht .</s>
+</p>
+<p>
+<s>744.</s><s>Vaatekoht .</s>
+</p>
+<p>
+<s>745.</s><s>Kalastamiskoht .</s>
+</p>
+<p>
+<s>751.</s><s>Spordiv&auml;ljak .</s>
+</p>
+<p>
+<s>752.</s><s>Spordihoone .</s>
+</p>
+<p>
+<s>753.</s><s>Golfiv&auml;ljak .</s>
+</p>
+<p>
+<s>754.</s><s>Ratsabaas .</s>
+</p>
+<p>
+<s>761.</s><s>Maaettev&otilde;tlus .</s>
+</p>
+<p>
+<s>771.</s><s>Kaks teenust .</s>
+</p>
+<p>
+<s>772.</s><s>Kolm teenust .</s>
+</p>
+<p>
+<s>773.</s><s>Teenus ja liikluskorraldus .</s>
+</p>
+<p>
+<s>8.</s><s>Lisateatetahvlid</s>
+</p>
+<p>
+<s>Lisateatetahvel t&auml;psustab v&otilde;i piirab liiklusm&auml;rgi m&otilde;ju .</s><s>Vajaliku kujutise puudumisel v&otilde;ib tahvlil olla tekst .</s>
+</p>
+<p>
+<s>81.</s><s>Kaugus objektini .</s><s>N&auml;itab kaugust ja s&otilde;idusuunda liiklusm&auml;rgist ohtliku teel&otilde;iguni , piiranguni , keeluni v&otilde;i kohani .</s><s>K&otilde;rvalep&ouml;&ouml;ret osutav sirge nool n&auml;itab suunda vahetult p&ouml;&ouml;rdekoha ette pandud m&auml;rgil , k&otilde;ver nool aga p&ouml;&ouml;rdekohast eespool oleval m&auml;rgil .</s>
+</p>
+<p>
+<s>Tahvel 813 v&otilde;i 815 kasutatuna koos m&auml;rkidega 36 n&auml;itab ka m&otilde;jupiirkonna suunda ja ulatust , kui peatumine v&otilde;i parkimine on keelatud &uuml;hel pool m&auml;rki suurel ristmikul ( v&auml;ljakul ) s&otilde;idutee &auml;&auml;res , hoone ees vm ulatuslikul alal .</s>
+</p>
+<p>
+<s>Tahvel 816 n&auml;itab kaugust m&auml;rgist 221 kohustusliku peatumiskohani , kui ristmiku ees on m&auml;rk 222.</s>
+</p>
+<p>
+<s>82.</s><s>M&otilde;jupiirkond .</s><s>Tahvel 821 n&auml;itab hoiatusm&auml;rgiga t&auml;histatud ohtliku teel&otilde;igu pikkust , keelum&auml;rkide 35 ja kohustusm&auml;rgi 451 m&otilde;jupiirkonna ja kindlaksm&auml;&auml;ratud parkimisviisiga k&otilde;nnitee&auml;&auml;rse parkla ning m&auml;rgiga 556 soovitatava suurima kiirusega teel&otilde;igu ulatust .</s><s>Tahvlid 822-825 n&auml;itavad v&otilde;i t&auml;psustavad m&auml;rkide 36 m&otilde;jupiirkondi j&auml;rgmiselt : 822 ja 823 - m&otilde;jupiirkonna ulatust vastavalt m&auml;rgi taga ja ees , 824 - m&otilde;jupiirkonna l&otilde;ppu , 825 - seda , et juht asub m&otilde;jupiirkonnas .</s>
+</p>
+<p>
+<s>831-833.</s><s>M&otilde;jusuund .</s><s>N&auml;itab ristmiku ette pandud liiklusm&auml;rgi m&otilde;jusuunda v&otilde;i suunda , milles liikudes p&auml;&auml;seb tee&auml;&auml;rse objekti juurde .</s>
+</p>
+<p>
+<s>Tahvlid kasutatuna koos m&auml;rkidega 36 n&auml;itavad m&otilde;jupiirkonna suunda m&auml;rgist vastavalt paremale v&otilde;i vasakule v&otilde;i m&otilde;lemale poole , kui peatumine v&otilde;i parkimine on keelatud &uuml;hel v&otilde;i m&otilde;lemal pool m&auml;rki v&auml;ljaku &auml;&auml;res , hoone ees vm alal .</s><s>M&otilde;jupiirkond on sel juhul m&auml;&auml;ratud ala piiridega .</s>
+</p>
+<p>
+<s>834.</s><s>S&otilde;iduees&otilde;igusega liiklemise v&otilde;i peatee suund .</s>
+</p>
+<p>
+<s>835.</s><s>Teeandmise koht jalgrattateel s&otilde;itjale .</s>
+</p>
+<p>
+<s>836.</s><s>Jalgratturite vastassuunaliiklus &uuml;hesuunalisel teel .</s>
+</p>
+<p>
+<s>837.</s><s>Jalgratturite kahesuunaline liiklus .</s>
+</p>
+<p>
+<s>84.</s><s>S&otilde;idukiliik .</s><s>N&auml;itab , mis liiki s&otilde;iduki kohta liiklusm&auml;rk kehtib .</s><s>Seejuures tahvel 841 n&auml;itab , et m&auml;rk kehtib B- , tahvel 842 , et C-kategooria s&otilde;iduki kohta , tahvel 843 aga , et autorongi kohta ( v&auml;lja arvatud kerghaagisega autorong ) .</s>
+</p>
+<p>
+<s>85.</s><s>Kehtivusp&auml;evad v&otilde;i -aeg .</s><s>N&auml;itab p&auml;evi v&otilde;i kellaaega , millal liiklusm&auml;rk kehtib .</s><s>Seejuures tahvlid 851 ja 855 teatavad , et m&auml;rk kehtib laup&auml;eviti , p&uuml;hap&auml;eviti ja p&uuml;hiti , tahvlid 852 ja 856 aga , et t&ouml;&ouml;p&auml;eviti .</s>
+</p>
+<p>
+<s>86.</s><s>Parkimisviis .</s><s>Tahvel n&auml;itab alla 6 m pikkuse A- ja haagiseta B-kategooria ning haagiseta D1-alakategooria s&otilde;iduki paigutamise korda asula k&otilde;nnitee&auml;&auml;rses parklas .</s><s>Tahvli 862-864 korral tuleb s&otilde;iduk parkida k&otilde;nnitee &auml;&auml;rega risti , vastava teekattem&auml;rgise v&otilde;i tahvli 865 olemasolul - selle j&auml;rgi .</s><s>Vasakule poole teed pandud m&auml;rgi all olev tahvel kujutab v&auml;rvitahvlil esitatu peegelpilti .</s>
+</p>
+<p>
+<s>871.</s><s>Parkimine ainult seisatud mootoriga .</s>
+</p>
+<p>
+<s>872a .</s><s>Tasulised teenused .</s><s>Teatab , et m&auml;rgil osutatav teenus on tasuline .</s>
+</p>
+<p>
+<s>872b .</s><s>Tasuline parkimine .</s>
+</p>
+<p>
+<s>873.</s><s>Parkimisaja piirang .</s><s>Teatab lubatud pikimat parkimiskestust .</s><s>Parkimise algus peab olema kontrollijale selgesti n&auml;htavaks tehtud .</s><s>Tahvli 873c v&otilde;i 873d korral on parkimiskella kasutamine kohustuslik .</s>
+</p>
+<p>
+<s>Tahvlid 873 n&auml;itavad m&auml;rgi 362 m&otilde;jupiirkonnas ja m&auml;rgiga 384 t&auml;histatud parkimise keelu alal lubatud pikimat parkimise kestust vastavalt kas &ouml;&ouml;p&auml;ev l&auml;bi v&otilde;i teatud ajavahemikul .</s>
+</p>
+<p>
+<s>874.</s><s>Puudega inimene .</s><s>Teatab parklast v&otilde;i selle osast , mida tohib kasutada ainult s&otilde;idukiga , millel on puudega inimese tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>875.</s><s>Autovaatluskoht .</s><s>Teatab vaatlussilla v&otilde;i -kanali olemasolust .</s>
+</p>
+<p>
+<s>881.</s><s>Registrimassi piirang .</s><s>Teatab , et liiklusm&auml;rk kehtib s&otilde;iduki v&otilde;i autorongi kohta , mille registrimass &uuml;letab tahvlil oleva tonnide arvu .</s>
+</p>
+<p>
+<s>882.</s><s>Kehtivusrada .</s><s>N&auml;itab s&otilde;idurada , mille kohta liiklusm&auml;rk kehtib .</s>
+</p>
+<p>
+<s>883.</s><s>Pimedad .</s><s>Teatab , et &uuml;lek&auml;igurada v&otilde;i teel&otilde;iku kasutavad sagedasti pimedad .</s>
+</p>
+<p>
+<s>884.</s><s>M&auml;rg tee .</s><s>Teatab , et liiklusm&auml;rk kehtib ainult siis , kui s&otilde;idutee on m&auml;rg .</s>
+</p>
+<p>
+<s>885.</s><s>J&auml;&auml;tumine .</s><s>Teatab , et liiklusm&auml;rgiga t&auml;histatud teel&otilde;igul tekib sageli j&auml;&auml;tumine .</s>
+</p>
+<p>
+<s>886.</s><s>Ohutu k&otilde;rgus elektriliini all .</s><s>N&auml;itab suurimat ohutut k&otilde;rgust elektriliini all .</s>
+</p>
+<p>
+<s>887.</s><s>Vaba laius .</s><s>N&auml;itab teekitsendi laiust .</s>
+</p>
+<p>
+<s>888.</s><s>&Otilde;nnetusoht .</s><s>N&auml;itab , et hoiatusm&auml;rgiga t&auml;histatud teel&otilde;igul on v&otilde;rreldes tee teiste l&otilde;ikudega tunduvalt suurem liiklus&otilde;nnetuste toimumissagedus .</s>
+</p>
+<p>
+<s>891.</s><s>V&auml;lja arvatud .</s><s>Teatab , et liiklusm&auml;rk ei kehti tahvlil kujutatud v&otilde;i nimetatud s&otilde;iduki kohta .</s>
+</p>
+<p>
+<s>9.</s><s>Liiklusm&auml;rgi m&otilde;ju ajutine t&uuml;histamine</s>
+</p>
+<p>
+<s>Liiklusm&auml;rgil v&otilde;i selle osal n&auml;idatud liikluse korralduse t&uuml;histab kaks s&uuml;mmeetriliselt l&otilde;ikuvat oran&zcaron;i musta &auml;&auml;risega kattelinti .</s>
+</p>
+<p>
+*<s>T&auml;hise esimene number n&auml;itab liiklusm&auml;rgir&uuml;hma , teine alar&uuml;hma , kolmas koos j&auml;rgneva t&auml;hega v&otilde;i ilma - alar&uuml;hmasisest j&auml;rjekorda , mis t&auml;histab &uuml;hte kindlat m&auml;rki .</s>
+</p>
+<p>
+<s>M&auml;rkide tausta v&auml;rvi n&auml;itavad lisatud t&auml;hed : s - sinine , v - valge ja k - kollane</s>
+</p>
+<p>
+<s>Kui alar&uuml;hma k&otilde;ik m&auml;rgid on &uuml;he ja sama nimega v&otilde;i mainitakse nende &uuml;hist tunnust , j&auml;etakse ka &uuml;ksikust m&auml;rgist r&auml;&auml;kides kolmas number &auml;ra .</s>
+</p>
+<p>
+<s>Lisa 2</s>
+</p>
+<p>
+<s>Graafiline osa</s>
+</p>
+<p>
+<s>Liiklusm&auml;rgid</s>
+</p>
+<p>
+<s>1.</s><s>Hoiatusm&auml;rgid</s>
+</p>
+<p>
+<s>2.</s><s>Ees&otilde;igusm&auml;rgid</s>
+</p>
+<p>
+<s>3.</s><s>Keelu- ja m&otilde;jualam&auml;rgid</s>
+</p>
+<p>
+<s>Keelum&auml;rgid</s>
+</p>
+<p>
+<s>M&otilde;jualam&auml;rgid</s>
+</p>
+<p>
+<s>4.</s><s>Kohustusm&auml;rgid</s>
+</p>
+<p>
+<s>5.</s><s>Osutusm&auml;rgid</s>
+</p>
+<p>
+<s>.</s><s>Juhatusm&auml;rgid</s>
+</p>
+<p>
+<s>7.</s><s>Teeninduskoham&auml;rgid</s>
+</p>
+<p>
+<s>8.</s><s>Lisateatevahendid</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 2. veebruari 2001. a m&auml;&auml;ruse nr 48 &ldquo; Liikluseeskiri &rdquo; lisa 3</s>
+</p>
+<p>
+<s>Teem&auml;rgised</s>
+</p>
+<p>
+<s>1.</s><s>Teekattem&auml;rgised</s>
+</p>
+<p>
+<s>Teekattem&auml;rgised on valged , v&auml;lja arvatud m&auml;rgised 93 , mis on kollased .</s>
+</p>
+<p>
+<s>Teet&ouml;&ouml;aegse liikluskorralduse korral v&otilde;ivad teekattem&auml;rgised olla kollased .</s>
+</p>
+<p>
+<s>Parkimiskohti t&auml;histav m&auml;rgis , kui parkimine on tasuline v&otilde;i on muu parkimispiirang , ning parkimisala piiri t&auml;histav m&auml;rgis v&otilde;ivad olla sinised .</s>
+</p>
+<p>
+<s>911.</s><s>&Uuml;hekordne pidevjoon .</s><s>M&auml;rgis :</s>
+</p>
+<p>
+<s>1 ) eraldab ohtlikus kohas suunav&ouml;&ouml;ndeid teel , millel on kaks s&otilde;idurada ( joonis 2 ) , ja s&otilde;iduradasid p&auml;risuunav&ouml;&ouml;ndis ( joonis 14 ) .</s><s>M&auml;rgist &uuml;letada ei tohi ;</s>
+</p>
+<p>
+<s>2 ) piirab s&otilde;iduteel alasid , millest &uuml;le s&otilde;ita ei tohi , n&auml;iteks eraldussaared jt ( joonised 11 ja 15 ) ;</s>
+</p>
+<p>
+<s>3 ) t&auml;histab parkimiskohti ( joonis 15 ) .</s><s>M&auml;rgist tohib &uuml;letada ainult man&ouml;&ouml;verdamisel ;</s>
+</p>
+<p>
+<s>4 ) t&auml;histab s&otilde;idutee &auml;&auml;rt teel , mis ei ole kiirtee ( joonis 5 ) .</s><s>M&auml;rgist tohib &uuml;letada m&otilde;lemalt poolt ;</s>
+</p>
+<p>
+<s>5 ) eraldab jalgratta- ja jalgteel jalgrataste liikluse jalak&auml;ijate liiklusest ( joonis 13 ) .</s>
+</p>
+<p>
+<s>912.</s><s>Lai pidevjoon .</s><s>M&auml;rgis :</s>
+</p>
+<p>
+<s>1 ) t&auml;histab kiirtee s&otilde;idutee &auml;&auml;rt ( joonis 10 ) .</s><s>M&auml;rgist tohib &uuml;letada m&otilde;lemalt poolt ;</s>
+</p>
+<p>
+<s>2 ) eraldab s&otilde;idutee muudest radadest aeglustus- v&otilde;i kiirendusraja l&otilde;ikusid ( joonised 8 ja 10 ) .</s><s>M&auml;rgist &uuml;letada ei tohi ;</s>
+</p>
+<p>
+<s>3 ) eraldab eri raja ( jalgrattarada , &uuml;hiss&otilde;idukirada jt ) s&otilde;idutee muudest radadest ( joonis 8 ) .</s><s>M&auml;rgist &uuml;letada ei tohi .</s>
+</p>
+<p>
+<s>913.</s><s>Kahekordne pidevjoon .</s><s>Eraldab suunav&ouml;&ouml;ndeid kolme ( joonis 8 ) ja enama s&otilde;idurajaga teel ( joonised 5 ja 9 ) .</s><s>M&auml;rgist &uuml;letada ei tohi .</s>
+</p>
+<p>
+<s>914.</s><s>Pidev- ja katkendjoone &uuml;hend .</s><s>M&auml;rgis :</s>
+</p>
+<p>
+<s>1 ) eraldab suunav&ouml;&ouml;ndeid kahe- ( joonised 2 ja 7 ) v&otilde;i kolmerajalisel teel ;</s>
+</p>
+<p>
+<s>2 ) eraldab s&otilde;iduradasid p&auml;risuunav&ouml;&ouml;ndis ( joonis 5 ) ;</s>
+</p>
+<p>
+<s>3 ) t&auml;histab s&otilde;idutee suunav&ouml;&ouml;ndeid eraldava pidevjoone katkestust kohas , kus seda joont tohib &uuml;letada ainult &uuml;helt poolt , ning &uuml;hesuunalist sisse- ja v&auml;ljas&otilde;idukohta ( joonis 15 ) .</s>
+</p>
+<p>
+<s>M&auml;rgist tohib &uuml;letada katkendjoone poolt .</s><s>Pidevjoone poolt tohib seda teha ainult m&ouml;&ouml;das&otilde;itu v&otilde;i &uuml;mberp&otilde;iget l&otilde;petades .</s>
+</p>
+<p>
+<s>915-917.</s><s>Eraldussaar .</s><s>T&auml;histab s&otilde;itmiseks keelatud alasid ja osutab oma kaldjoontega s&otilde;idusuundi j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>915 - eraldab suunav&ouml;&ouml;ndeid ( joonis 11 ) ,</s>
+</p>
+<p>
+<s>916 - lahutab p&auml;risuunav&ouml;&ouml;ndi s&otilde;iduradasid ( joonised 9 ja 10 ) ,</s>
+</p>
+<p>
+<s>917 - liidab p&auml;risuunalisi s&otilde;iduradasid ( joonised 9 ja 10 ) .</s>
+</p>
+<p>
+<s>Eraldussaart piirab m&auml;rgis 911 ( joonis 11 ) , kiirteel 912 ( joonis 10 ) .</s><s>Saarest &uuml;le s&otilde;ita ei tohi .</s>
+</p>
+<p>
+<s>921.</s><s>L&uuml;hikeste kriipsudega katkendjoon .</s><s>Eraldab suunav&ouml;&ouml;ndeid kaherajalisel teel ( joonis 7 ) ja s&otilde;iduradasid p&auml;risuunav&ouml;&ouml;ndis ( joonised 5 ja 8 ) .</s><s>M&auml;rgist tohib &uuml;letada m&otilde;lemalt poolt .</s>
+</p>
+<p>
+<s>922.</s><s>Pikkade kriipsudega katkendjoon .</s><s>M&auml;rgis :</s>
+</p>
+<p>
+<s>1 ) teatab suunav&ouml;&ouml;ndeid v&otilde;i p&auml;risuunav&ouml;&ouml;ndis s&otilde;iduradasid eraldava m&auml;rgise 911 ( joonis 14 ) , 913 v&otilde;i 914 ( joonised 2 ja 7 ) l&auml;hedusest ;</s>
+</p>
+<p>
+<s>2 ) eraldab suunav&ouml;&ouml;ndeid kaherajalise tee ohtlikul kohal ja enne seda .</s>
+</p>
+<p>
+<s>M&auml;rgist tohib &uuml;letada m&otilde;lemalt poolt .</s>
+</p>
+<p>
+<s>923.</s><s>V&otilde;rdsete kriipsude ja vahedega katkendjoon .</s><s>M&auml;rgis :</s>
+</p>
+<p>
+<s>1 ) eraldab s&otilde;iduradasid ristmikul , kus on vaja r&otilde;hutada liikumissuunda ( joonis 9 ) ;</s>
+</p>
+<p>
+<s>2 ) t&auml;histab s&otilde;idutee pideva &auml;&auml;rejoone katkestust ristmikul v&otilde;i &auml;rap&ouml;&ouml;ramiskohas ( joonis 3 ) ;</s>
+</p>
+<p>
+<s>3 ) t&auml;histab s&otilde;idutee &auml;&auml;rt teel , mis ei ole kiirtee ( joonis 7 ) .</s>
+</p>
+<p>
+<s>M&auml;rgist tohib &uuml;letada m&otilde;lemalt poolt .</s>
+</p>
+<p>
+<s>924.</s><s>Lai katkendjoon .</s><s>M&auml;rgis :</s>
+</p>
+<p>
+<s>1 ) eraldab aeglustus- ( joonised 8 ja 10 ) ja kiirendusrada ( joonis 10 ) s&otilde;idutee p&otilde;hiradadest ;</s>
+</p>
+<p>
+<s>2 ) eraldab eri rada ( jalgrattarada , &uuml;hiss&otilde;idukirada jt ) s&otilde;idutee p&otilde;hiradadest ( joonis 8 ) .</s>
+</p>
+<p>
+<s>M&auml;rgist tohib &uuml;letada m&otilde;lemalt poolt .</s>
+</p>
+<p>
+<s>925.</s><s>Kahekordne katkendjoon .</s><s>Eraldab muutsuunaliiklusega s&otilde;idurada naabers&otilde;idurajast ( joonis 6 ) .</s><s>Kui niisuguse raja kohal suunamuutefooris p&otilde;leb roheline nool , tohib m&auml;rgist , mis eraldab p&auml;risuunalist s&otilde;idurada , &uuml;letada m&otilde;lemalt poolt ;</s>
+</p>
+<p>
+<s>suunamuutefoori vahesektsioonis on s&uuml;ttinud kollane nool , peab m&auml;rgise kohe &uuml;letama noole suunas ;</s>
+</p>
+<p>
+<s>suunamuutefoor l&uuml;litatakse v&auml;lja v&otilde;i seda foori ei ole , tohib &uuml;letada ainult m&auml;rgist , mis asub juhist paremal .</s>
+</p>
+<p>
+<s>931.</s><s>Peatumise keelujoon .</s><s>Kantakse s&otilde;idutee &auml;&auml;rele v&otilde;i &auml;&auml;rekivile ( joonis 12 ) .</s>
+</p>
+<p>
+<s>932.</s><s>Parkimise keelujoon .</s><s>Kantakse s&otilde;idutee &auml;&auml;rele v&otilde;i &auml;&auml;rekivile ( joonis 12 ) .</s>
+</p>
+<p>
+<s>933.</s><s>&Uuml;hiss&otilde;idukipeatus .</s><s>Kantakse s&otilde;idutee&auml;&auml;re l&auml;hedale ( joonis 12 ) .</s>
+</p>
+<p>
+<s>941.</s><s>Stoppjoon .</s><s>Osutab s&otilde;iduki peatamise kohta foori keelava tule ( joonis 9 ) , reguleerija keelava m&auml;rguande v&otilde;i raudtee&uuml;les&otilde;idukoha suletud t&otilde;kkepuu korral v&otilde;i liiklusm&auml;rgi 222 ( joonis 3 ) juures .</s>
+</p>
+<p>
+<s>942.</s><s>Stoppjoone eelt&auml;his .</s><s>Hoiatab , et l&auml;henetakse m&auml;rgisele 941 , mida kasutatakse koos liiklusm&auml;rgiga 222 ( joonis 3 ) .</s>
+</p>
+<p>
+<s>943.</s><s>Teeandekoht .</s><s>Osutab s&otilde;iduki peatamise kohta , kui peatumine on vajalik tee andmiseks ristuval teel v&otilde;i peateel s&otilde;itvale juhile ( joonised 4 ja 8 ) .</s><s>Kasutatakse koos liiklusm&auml;rgiga 221.</s>
+</p>
+<p>
+<s>944.</s><s>Teeandekoha eelt&auml;his .</s><s>Hoiatab , et l&auml;henetakse m&auml;rgisele 943 ( joonis 4 ) .</s>
+</p>
+<p>
+<s>945 , 946.</s><s>V&ouml;&ouml;trada .</s><s>T&auml;histab reguleerimata &uuml;lek&auml;igurada v&otilde;i niisugust reguleeritavat &uuml;lek&auml;igurada , kus foori ei kasutata &ouml;&ouml;p&auml;ev l&auml;bi ( joonis 9 ) .</s><s>M&auml;rgise 946 nooled n&auml;itavad jalak&auml;ija liikumise suunda ( joonis 14 ) .</s>
+</p>
+<p>
+<s>947.</s><s>Fooriga &uuml;lek&auml;igurada .</s><s>T&auml;histab reguleeritavat &uuml;lek&auml;igurada ( joonis 9 ) .</s>
+</p>
+<p>
+<s>948.</s><s>Ristumine jalgrattateega .</s><s>T&auml;histab jalgrattateed s&otilde;iduteega ristumise kohas ( joonis 8 ) .</s>
+</p>
+<p>
+<s>949.</s><s>Parkimisala .</s><s>T&auml;histab parkimisala piiri .</s>
+</p>
+<p>
+<s>95.</s><s>Suunanool .</s><s>N&auml;itab s&otilde;idusuunda ( -suundi ) s&otilde;idurajalt ( joonised 8 ja 9 ) .</s><s>&Auml;&auml;rmiselt vasakpoolselt rajalt vasakp&ouml;&ouml;ret osutav nool lubab ka tagasi p&ouml;&ouml;rata .</s><s>Ristk&uuml;likuga nool 957 kantakse teekattele enne ristumist teega , mille l&auml;himale s&otilde;iduteele ei tohi p&ouml;&ouml;rata ( joonis 8 ) .</s><s>K&otilde;rvalep&ouml;&ouml;ret osutavad kahe noolega m&auml;rgised 958 ( joonis 8 ) ja 959 viitavad kahele j&auml;rjestikulisele p&ouml;&ouml;rdekohale .</s>
+</p>
+<p>
+<s>96.</s><s>Kaarnool .</s><s>Osutab l&otilde;ppevat s&otilde;idurada v&otilde;i l&otilde;ppevat kiirendusrada ( joonis 10 ) v&otilde;i m&ouml;&ouml;das&otilde;iduv&otilde;imalusega teel&otilde;igu l&otilde;ppemist ( joonis 7 ) ja n&auml;itab &uuml;mberreastumise v&otilde;i p&auml;risuunav&ouml;&ouml;ndisse naasmise suunda .</s>
+</p>
+<p>
+<s>972.</s><s>Tee number .</s><s>E-t&auml;ht ( Euroopa ) osutab rahvusvahelist teed ( joonis 10 ) .</s>
+</p>
+<p>
+<s>973.</s><s>&Uuml;hiss&otilde;idukirada .</s><s>T&auml;histab liiklusm&auml;rgiga 525 osutatud &uuml;hiss&otilde;idukirada ( joonis 8 ) v&otilde;i &uuml;hiss&otilde;iduki peatuskoha teelaiendit .</s>
+</p>
+<p>
+<s>974.</s><s>Jalgtee .</s><s>T&auml;histab liiklusm&auml;rgiga 432-434 osutatud jalgteed ( joonis 13 ) .</s>
+</p>
+<p>
+<s>975.</s><s>Jalgrattatee .</s><s>T&auml;histab liiklusm&auml;rgiga 431 , 433 v&otilde;i 434 osutatud jalgrattateed ( joonised 8 ja 13 ) .</s>
+</p>
+<p>
+<s>976.</s><s>Puudega inimese s&otilde;iduki koht .</s><s>T&auml;histab puudega inimese tunnusm&auml;rgiga s&otilde;iduki parkimiskohta v&otilde;i -ala ( joonis 15 ) .</s>
+</p>
+<p>
+<s>977.</s><s>K&uuml;nnis .</s><s>T&auml;histab v&auml;hendatud kiiruse hoidmiseks rajatud k&uuml;nnise algust s&otilde;iduteel ( joonis 16 ) .</s>
+</p>
+<p>
+<s>Teekattele v&otilde;idakse kanda ka muid ( nt liiklusm&auml;rgi ) kujutisi ja kirjeid , mis aitavad liikluses orienteeruda , kuid ei kehtesta lisapiiranguid .</s>
+</p>
+<p>
+<s>2.</s><s>P&uuml;stm&auml;rgised</s>
+</p>
+<p>
+<s>P&uuml;stm&auml;rgised on vahelduvad valged ja mustad v&ouml;&ouml;did .</s><s>Teele pandavatele t&otilde;ketele v&otilde;ib kanda ka liiklusm&auml;rgi 684 v&auml;rvides m&auml;rgiseid ( puna-valged p&uuml;stv&ouml;&ouml;did ) .</s>
+</p>
+<p>
+<s>981-983.</s><s>Teerajatise k&uuml;lg&auml;&auml;r .</s><s>T&auml;histab teerajatise p&uuml;sttarindi liiklusohtlikku osa , n&auml;iteks silla v&otilde;i viadukti sammast , rinnatiseotsa jms ( joonis 17 ) .</s>
+</p>
+<p>
+<s>M&auml;rgise kaldv&ouml;&ouml;did langevad s&otilde;idutee poole .</s>
+</p>
+<p>
+<s>984 , 985.</s><s>T&auml;hispost .</s><s>T&auml;histab tee v&otilde;i eraldusriba &auml;&auml;rt t&auml;histavat posti ( joonis 18 ) .</s>
+</p>
+<p>
+<s>M&auml;rgise kaldv&ouml;&ouml;t langeb s&otilde;idutee poole .</s><s>M&auml;rgise juures kasutatakse valgeid ja ohtlikus kohas kollaseid helkureid : s&otilde;idusuunast paremal ristk&uuml;likukujulist , vasakul - kahte ringikujulist .</s><s>Talutee v&otilde;i teega k&uuml;lgneva ala tee helkurid v&otilde;ivad olla sinised ja ristk&uuml;likukujulised .</s>
+</p>
+<p>
+<s>991.</s><s>Sildeava all&auml;&auml;r .</s><s>T&auml;histab tunneli , silla , viadukti jms rajatise sildetarindi all&auml;&auml;rt ( joonis 17 ) .</s>
+</p>
+<p>
+<s>M&auml;rgis asub iga s&otilde;iduraja kohal .</s>
+</p>
+<p>
+<s>992.</s><s>&Auml;&auml;rekivi .</s><s>T&auml;histab &auml;&auml;rekive teepinnast k&otilde;rgema ohutussaare , ooteplatvormi ja kitseneva v&otilde;i v&auml;ikese k&otilde;verusraadiusega s&otilde;iduteel&otilde;igu juures ( joonis 19 ) .</s>
+</p>
+<p>
+<s>993.</s><s>&Uuml;marpost .</s><s>T&auml;histab eraldusriba v&otilde;i &auml;&auml;rekiviga ohutussaare alguses olevat posti ( joonis 19 ) .</s>
+</p>
+<p>
+<s>994.</s><s>Ohtliku teel&otilde;igu p&otilde;rkepiire .</s><s>T&auml;histab p&otilde;rkepiiret selle alguses , teede eritasandilises ristumiskohas , j&auml;rsul langul , tee kitsenemisel , v&auml;ikese k&otilde;verusraadiusega teel&otilde;igul , j&auml;rsakul jms ohtlikul teel&otilde;igul ( joonis 20 ) .</s>
+</p>
+<p>
+<s>M&auml;rgise juures , eraldi postidel kasutatakse kollaseid helkureid : s&otilde;idusuunast paremal ristk&uuml;likukujulist , vasakul - kahte ringikujulist .</s>
+</p>
+<p>
+<s>995.</s><s>P&otilde;rkepiire .</s><s>T&auml;histab p&otilde;rkepiiret , mida on vaja m&auml;rgistada , v&auml;lja arvatud kohad , kus on ette n&auml;htud kasutada m&auml;rgist 994 ( joonis 20 ) .</s>
+</p>
+<p>
+<s>M&auml;rgise juures , eraldi postidel kasutatakse valgeid helkureid : s&otilde;idusuunast paremal ristk&uuml;likukujulist , vasakul - kahte ringikujulist .</s>
+</p>
+<p>
+*<s>T&auml;hise esimene number ( 9 ) n&auml;itab teem&auml;rgist , teine m&auml;rgiser&uuml;hma , kolmas koos j&auml;rgneva t&auml;hega v&otilde;i ilma - r&uuml;hmasisest j&auml;rjekorda .</s>
+</p>
+<p>
+<s>Kui r&uuml;hma k&otilde;ik m&auml;rgised on &uuml;he ja sama nimega v&otilde;i mainitakse nende &uuml;hist tunnust , j&auml;etakse kolmas number &auml;ra .</s>
+</p>
+<p>
+<s>Lisa 3</s>
+</p>
+<p>
+<s>Graafiline osa</s>
+</p>
+<p>
+<s>Joonis 2. 911 &uuml;hekordne pidevjoon , 914 pidev- ja katkendjoone &uuml;hend , 922 pikkade kriipsudega katkendjoon</s>
+</p>
+<p>
+<s>Joonis 3. 923 v&otilde;rdsete kriipsude ja vahedega katkendjoon , 941 stoppjoon , 942 stoppjoone eelt&auml;his</s>
+</p>
+<p>
+<s>Joonis 4. 943 teeandekoht , 944 teeandekoha eelt&auml;his</s>
+</p>
+<p>
+<s>Joonis 5. 911 &uuml;hekordne pidevjoon , 913 kahekordne pidevjoon , 914 pidev- ja katkendjoone &uuml;hend , 921 l&uuml;hikeste kriipsudega katkendjoon</s>
+</p>
+<p>
+<s>Joonis 6. 925 kahekordne katkendjoon</s>
+</p>
+<p>
+<s>Joonis 7. 914 pidev- ja katkendjoone &uuml;hend , 921 l&uuml;hikeste kriipsudega katkendjoon , 922 pikkade kriipsudega katkendjoon , 923 v&otilde;rdsete kriipsude ja vahedega katkendjoon , 96 kaarnool</s>
+</p>
+<p>
+<s>Joonis 8. 912 lai pidevjoon , 913 kahekordne pidevjoon , 921 l&uuml;hikeste kriipsudega katkendjoon , 924 lai katkendjoon , 943 teeandekoht , 948 ristumine jalgrattateega , 95 suunanool , 973 &uuml;hiss&otilde;idukirada , 975 jalgrattatee</s>
+</p>
+<p>
+<s>Joonis 9. 913 kahekordne pidevjoon , 916 , 917 eraldussaar , 923 v&otilde;rdsete kriipsude ja vahedega katkendjoon , 945 v&ouml;&ouml;trada , 947 fooriga &uuml;lek&auml;igurada , 95 suunanool</s>
+</p>
+<p>
+<s>Joonis 10. 912 lai pidevjoon , 916 , 917 eraldussaar , 924 lai katkendjoon , 962 kaarnool , 972 teenumber</s>
+</p>
+<p>
+<s>Joonis 11. 911 &uuml;hekordne pidevjoon , 915 eraldussaar</s>
+</p>
+<p>
+<s>Joonis 12. 931 peatumise keelujoon , 932 parkimise keelujoon , 933 &uuml;hiss&otilde;idukipeatus</s>
+</p>
+<p>
+<s>Joonis 13. 911 &uuml;hekordne pidevjoon , 974 jalgtee , 975 jalgrattatee</s>
+</p>
+<p>
+<s>Joonis 14. 911 &uuml;hekordne pidevjoon , 922 pikkade kriipsudega katkendjoon , 946 v&ouml;&ouml;trada</s>
+</p>
+<p>
+<s>Joonis 15. 911 &uuml;hekordne pidevjoon , 914 pidev- ja katkendjoone &uuml;hend , 976 puudega inimese s&otilde;iduki koht</s>
+</p>
+<p>
+<s>Joonis 16. 977 k&uuml;nnis</s>
+</p>
+<p>
+<s>Joonis 17. 981 , 982 , 983 teerajatise k&uuml;lg&auml;&auml;r , 991 sildeava all&auml;&auml;r</s>
+</p>
+<p>
+<s>Joonis 18. 984 , 985 t&auml;hispost</s>
+</p>
+<p>
+<s>Joonis 19. 992 &auml;&auml;rekivi , 993 &uuml;marpost</s>
+</p>
+<p>
+<s>Joonis 20. 994 ohtliku teel&otilde;igu p&otilde;rkepiire , 995 p&otilde;rkepiire</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 2. veebruari 2001. a m&auml;&auml;ruse nr 48 &ldquo; Liikluseeskiri &rdquo; lisa 4</s>
+</p>
+<p>
+<s>Tunnusm&auml;rgid</s>
+</p>
+<p>
+<s>Aeglane s&otilde;iduk .</s><s>Tunnusm&auml;rk on 350-365 mm k&uuml;ljepikkusega punane fluorestseeriv v&otilde;rdk&uuml;lgne kolmnurk .</s><s>Kolmnurka &uuml;mbritseb 45-48 mm laiune punane helkiv &auml;&auml;ris .</s>
+</p>
+<p>
+<s>Algaja juht .</s><s>Tunnusm&auml;rk on 150-200 mm k&uuml;ljepikkusega valge ruut , milles on allasuunatud varrega rohelise vahtralehe kujutis .</s><s>Ruudul on kitsas roheline &auml;&auml;ris .</s>
+</p>
+<p>
+<s>Autorong .</s><s>Tunnusm&auml;rk on &uuml;ks kollane &uuml;mmargune latern l&auml;bim&otilde;&otilde;duga v&auml;hemalt 70 mm v&otilde;i kolm s&otilde;iduki pikiteljega risti olevas reas asuvat kollast laternat vahedega 150-300 mm .</s>
+</p>
+<p>
+<s>Puudega inimene .</s><s>Tunnusm&auml;rk on 100 mm k&uuml;ljepikkusega sinine ruut , milles on ratastooliga inimese valge kujutis .</s>
+</p>
+<p>
+<s>Kiiruse piirang .</s><s>Tunnusm&auml;rk on 150-200 mm l&auml;bim&otilde;&otilde;duga musta &auml;&auml;risega kollane ring , milles olev must number n&auml;itab lubatud suurimat kiirust ( km/h ) .</s><s>&Auml;&auml;rise laius on 1/12 l&auml;bim&otilde;&otilde;tu .</s>
+</p>
+<p>
+<s>Laiveos .</s><s>Tunnusm&auml;rk on ristk&uuml;lik m&otilde;&otilde;tmetega 200&times;1200 ( 800 ) mm , milles on vaheldumisi 45&deg; all 140 mm laiused punased ja valged kaldv&ouml;&ouml;did .</s><s>Eesmistel tunnusm&auml;rkidel valge kaldv&ouml;&ouml;t helgib ja punane fluorestseerib , tagumistel helgib punane .</s>
+</p>
+<p>
+<s>B-kategooria auto ja kerghaagise tunnusm&auml;rgid on sama kujundusega ristk&uuml;likud m&otilde;&otilde;tmetega 100&times;600 ( 400 ) mm ja v&ouml;&ouml;tide laiusega 70 mm .</s>
+</p>
+<p>
+<s>Laster&uuml;hm .</s><s>Tunnusm&auml;rk on 200-300 mm k&uuml;ljepikkusega musta &auml;&auml;risega kollane ruut , milles on liiklusm&auml;rgi 173a kujutis .</s><s>&Auml;&auml;rise laius on 1/12 k&uuml;ljepikkust .</s>
+</p>
+<p>
+<s>Ohtlik veos .</s><s>Tunnusm&auml;rk on musta &auml;&auml;risega oran&zcaron; ristk&uuml;lik laiusega 400 mm ja k&otilde;rgusega v&auml;hemalt 300 mm .</s><s>Tunnusm&auml;rgil on must vahev&ouml;&ouml;t ja mustad numbrid .</s><s>&Auml;&auml;rise , vahev&ouml;&ouml;di ja numbrite laius on 15 mm , numbrite k&otilde;rgus 100 mm .</s><s>&Uuml;lemised numbrid kujutavad endast ohu , alumised - ohtliku aine tunnust .</s><s>Mitme erineva ohtliku aine veol v&otilde;ivad vahev&ouml;&ouml;t ja numbrid puududa .</s>
+</p>
+<p>
+<s>Pikk- v&otilde;i raskeveos .</s><s>Mootors&otilde;iduki tunnusm&auml;rk on ristk&uuml;lik m&otilde;&otilde;tmetega ( 1130 ...</s><s>2300 ) &times;140 mm , milles on vaheldumisi 45&deg; all 100 mm laiused punased fluorestseerivad ja kollased helkivad kaldv&ouml;&ouml;did .</s><s>V&otilde;idakse kasutada ka kahte v&otilde;i nelja v&otilde;rdse pikkusega tunnusm&auml;rki , mis kokku on sama pikad kui kirjeldatu .</s>
+</p>
+<p>
+<s>Haagise ja autorongi tunnusm&auml;rk on punase fluorestseeriva &auml;&auml;risega kollane helkiv ristk&uuml;lik m&otilde;&otilde;tmetega ( 1130-2300 ) &times; 200 mm .</s><s>&Auml;&auml;rise laius on 40 mm .</s><s>V&otilde;idakse kasutada ka kahte v&otilde;i nelja v&otilde;rdse pikkusega tunnusm&auml;rki , mis kokku on sama pikad kui kirjeldatu .</s>
+</p>
+<p>
+<s>Riigi tunnusm&auml;rk .</s><s>Tunnusm&auml;rk on musta &auml;&auml;risega ellips , mille teljed on v&auml;hemalt 240 mm ja 145 mm pikad ( mootorrattal ja tema haagisel v&auml;hemalt 175 mm ja 115 mm ) .</s><s>Ellipsi valgel taustal on mustad t&auml;hed EST .</s>
+</p>
+<p>
+<s>V&auml;ljaulatuv veos .</s><s>Tunnusm&auml;rk on v&auml;hemalt 400 mm k&uuml;ljepikkusega ruut , milles on vaheldumisi 45&deg; all punased ja valged kaldv&ouml;&ouml;did laiusega 1/8 k&uuml;ljepikkust .</s><s>Eesmisel tunnusm&auml;rgil helgivad valged v&ouml;&ouml;did , tagumisel punased .</s>
+</p>
+<p>
+<s>&Otilde;ppes&otilde;it .</s><s>Tunnusm&auml;rk on 150-200 mm k&uuml;ljepikkusega musta &auml;&auml;risega kollane v&otilde;rdk&uuml;lgne kolmnurk , milles on kujutatud kahe r&otilde;htsalt asuva kodaraga rooliratast .</s><s>&Auml;&auml;rise laius on 1/12 k&uuml;ljepikkust .</s>
+</p>
+<p>
+<s>Lisa 4</s>
+</p>
+<p>
+<s>Graafiline osa</s>
+</p>
+<p>
+<s>Tunnusm&auml;rgid</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 2. veebruari 2001. a m&auml;&auml;ruse nr 48 &ldquo; Liikluseeskiri &rdquo; lisa 5</s>
+</p>
+<p>
+<s>iikumispuudega inimese s&otilde;iduki parkimiskaart</s>
+</p>
+<p>
+<s>Esik&uuml;lg</s>
+</p>
+<p>
+<s>Puudega inimese s&otilde;iduki parkimiskaart</s>
+</p>
+<p>
+<s>Nr 000000</s>
+</p>
+<p>
+<s>Kehtiv kuni &ldquo;</s>.....&rdquo;.....<s>20 ...</s><s>a.</s>
+</p>
+<p>
+<s>V&auml;ljaandja</s>
+</p>
+<p>
+<s>PK</s>
+</p>
+<p>
+<s>M&otilde;&otilde;t 106 x 148 mm , taust helesinine</s>
+</p>
+<p>
+<s>Tagak&uuml;lg</s>
+</p>
+<p>
+<s>Perekonnanimi</s>.....
+</p>
+<p>
+<s>Eesnimed</s>.....<s>Isikukood</s>.....
+</p>
+<p>
+<s>Omaniku foto</s>
+</p>
+<p>
+.....
+</p>
+<p>
+<s>Omaniku allkiri</s>
+</p>
+<p>
+<s>Liikumispuudega juht v&otilde;ib</s>
+</p>
+<p>
+<s>- asulas peatuda ja parkida peatumist ja parkimist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas tingimusel , et seisev s&otilde;iduk asub t&auml;ielikult k&otilde;nniteel , j&auml;ttes jalak&auml;ijale vabaks v&auml;hemalt 1,5 meetri laiuse k&auml;iguriba .</s><s>Kirjeldatud luba ei kehti teel&otilde;igul , mis on t&auml;histatud peatumise keelujoonega</s>
+</p>
+<p>
+<s>- parkida parkimist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas piiratud parkimisajaga parklas etten&auml;htust kauem</s>
+</p>
+<p>
+<s>- parkida &otilde;ueala teel v&auml;ljaspool parklat kohas , kus see ei takista jalak&auml;ijaid ega muuda v&otilde;imatuks teiste s&otilde;idukite liiklust</s>
+</p>
+<p>
+<s>- parkida tasuta avalikes tasulistes parkimiskohtades</s>
+</p>
+<p>
+<s>Liikumispuudega v&otilde;i pimedat inimest teenindava s&otilde;iduki juht</s>
+</p>
+<p>
+<s>- v&otilde;ib asulas peatuda peatumist keelavate liiklusm&auml;rkide m&otilde;jupiirkonnas liikumispuudega v&otilde;i pimeda inimese s&otilde;idukisse pealev&otilde;tmiseks v&otilde;i s&otilde;idukist v&auml;ljalaskmiseks</s>
+</p>
+<p>
+<s>- kes talutab liikumispuudega v&otilde;i pimedat inimest soovitud kohta ja tagasi , v&otilde;ib asulas peatuda k&otilde;nniteel &uuml;laltoodud tingimustel</s>
+</p>
+</body>
+   </text>
+</tei.2>

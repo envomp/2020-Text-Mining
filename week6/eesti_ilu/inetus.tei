@@ -1,0 +1,135 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>INETUSE KVINTESSENTS</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 22385; s&otilde;nu: 2254</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>INETUSE KVINTESSENTS</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=div1 occurs=11></tagusage>
+         <tagusage gi=head occurs=12></tagusage>
+         <tagusage gi=p occurs=45></tagusage>
+         <tagusage gi=s occurs=145></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+
+<text>
+<body>
+
+<div0 type='tervikteos'><head>INETUSE KVINTESSENTS</head> 
+<p> <bibl> <author> <s>Priit Uring</s> </author> </bibl> </p> <div1 type='alaosa'> <head>Visioon</head> <p> <s>Euroopa Liit muutub kaugemas tulevikus Euroopa &Uuml;hendriikideks ja Eestist koos Baltimaadega saab &uuml;ks osariik , kes peab alluma f&ouml;deratiivseadustele . </s> <s> Eesti saab osariigi keskuseks . </s> <s> Kujuneb v&auml;lja rahvusvaheline finantshaide ja poliitikute eliit , hulgas ka m&otilde;ned inimesed Eestist . </s> <s> Neile kuulub pea kogu vara , mis Eestis &uuml;ldse on . </s> <s> &Uuml;lej&auml;&auml;nud eesti rahvas muutub alamrahvaks nagu see toimus Ordu ja piiskoppide valitsemise ajal kolmeteistk&uuml;mnendal sajandil . </s> <s> Meie maa ja vara ostetakse eliidi poolt kokku . </s> <s> Ametlikuks keeleks kujuneb inglise keel , sest niinimetatud eestlasi on kogu eliidi hulgas v&auml;ga v&auml;he . </s> <s> Majanduslik p&ouml;&ouml;re toimub s&otilde;ja alguses umbes aastal 2026 , kui euroraha devalveerub . </s> <s> Siis tekib samasugune majanduslik kaos nagu vene okupatsiooni ajal N&otilde;ukogude rubla devalveerumise puhul . </s> <s> Ja see p&ouml;&ouml;re panebki aluse eestlaste maa ja varanduse l&otilde;plikule &uuml;leminekule rahvusvahelise eliidi k&auml;tte . </s> <s> Suurem s&otilde;jaline tegevus algab umbes 2026. aastal nagu &ouml;eldud ja &uuml;htlasi algab j&auml;rgmine maailmas&otilde;da , millest ka eestlased peavad osa v&otilde;tma , ehkki see otseselt Eestit ei puuduta . </s> <s> Eestisse j&otilde;uab s&otilde;jategevus alles 2050. aasta paiku . </s> <s> S&otilde;ja eesm&auml;rk on islamimaade patriarhaalne kord segamini l&uuml;&uuml;a ja h&auml;vitada islamiusuliste &uuml;hiskonna alused , et L&auml;&auml;ne eliit p&auml;&auml;seks veelgi paremini ligi ka islamimaade maavaldustele ja saaks nende rikkused l&otilde;plikult omale krabada . </s> <s> Sellel s&otilde;jal ei ole muid p&otilde;hjusi . </s> <s> K&otilde;ik toimub nii nagu toimusid viimased s&otilde;jad Afganistanis ja Iraagis . </s> <s> Eestis algas samasugune segaminil&ouml;&ouml;mise protsess juba alates aastast 1208 , kui l&auml;&auml;ne kristlik eliit haaras v&auml;givaldselt Eesti maad ja varandused endale ning eestlased muutusid oma kodumaal alamrahvaks . </s> <s> N&uuml;&uuml;d , tuhat aasta hiljem , kordub sama protsess t&auml;nap&auml;evases variandis , sest kristliku eliidi asemele tuleb ametlikult v&auml;ljakuulutatud ateistlik eliit , kes ise salajas ei olegi ateistid vaid pigem maagilised fatalistid . </s> </p>
+<p> <s>(2003 . </s> <s> a. augustis Iidla targa poolt Meistrile saadetud arvutiteksti refereering ) </s> </p> </div1> <div1 type='alaosa'> <head>Riiete k&uuml;sitavus ja laip</head> <p> <s>J&auml;&auml;b t&auml;iesti arusaamatuks , miks inimloomadele oli vaja aegade alguses riided selga toppida . </s> <s> Vaadake neid praeguseid t&otilde;ukoeri , kellele on m&otilde;nikord &uuml;rbid ( p&uuml;ksid ja vest ) &uuml;mber aetud ja kes on selles k&uuml;simuses analoogideks . </s> <s> Inetumat ja naljakamat ning &uuml;htlasi ebaloomulikumat vaatepilti annab otsida . </s> <s> Aga inimesed ise korraldavad koguni moen&auml;itusi , kus demonstreeritakse , milliseid totrusi v&otilde;ib inetuse arvel meie normaalse algloomalikkusega korda saata . </s> <s> Vastupidiselt tegelikkusele peetakse seda mitte ainult moodsaks vaid isegi ilusaks&hellip; Kuid eemalet&otilde;ukav on surnud inimene &ndash; laip on laip , l&otilde;&otilde;ritavad ka parafraseeritud populaarsed laulus&otilde;nad l&ouml;&ouml;klaulu resoluutsusega P&auml;rnu menuansambli Kuldne Trio esituses . </s> </p>
+<p> <s>On t&otilde;esti raske uskuda proosalist t&otilde;siasja , et riideid kantakse peamiselt selleks , et sooja saada . </s> </p> </div1> <div1 type='alaosa'> <head>Madisep&auml;eva eel</head> <p> <s>Oodakem &auml;ra iga-aastane s&uuml;gise 21. september , siis saame taas ja taas oma nahal kogeda , millised v&otilde;isid olla ligil&auml;hedasedki ilmastikuolud Olustvere ja L&otilde;havere &uuml;mbruses 787 aastat tagasi . </s> <s> Igast kandist , mitmest maakonnast ja nii m&otilde;nestki kihelkonnast kogunes mehi juba p&auml;evi v&otilde;i isegi n&auml;dalaid varem , kuni neid sai kokku v&auml;hemalt 6000 ( kuus tuhat ) hinge nagu kroonik m&auml;rgib , kui mitte rohkem . </s> <s> Neid saabus nii hobustel kui jalgsi . </s> <s> Tulek v&otilde;ttis ju t&otilde;esti omajagu aega , &uuml;hel rohkem , teisel v&auml;hem , oleneb sellest , kust t&auml;pselt tulekut alustati ja millal tulema hakati . </s> </p>
+<p> <s>Eks seda hobuses&otilde;nnikutki vedeles igal pool rohkesti , kui eestlaste malev alles kogunes ja kasvas . </s> <s> Pidi ju heinugi kaasa v&otilde;tma enne kui mindi lahingusse taplema iseenda ja isamaa eest . </s> <s> Peatuspaigas aga s&otilde;id sajad suksud lisaks lagedaks nii veel viimaseid p&auml;evi haljendava s&uuml;gisese rohumaa kui madalamad p&otilde;&otilde;sad &uuml;mberringi . </s> <s> Kuus tuhat meestki pidid ju k&uuml;kitama ja lasti seal nii vedelat kui paksu , sest nii m&otilde;nelgi oli k&otilde;ht eelseisva lahingu t&auml;henduse ja &otilde;uduste eelaimuste p&auml;rast lahti , nii et fekaalihais tahtis koguni hinge matta enne kui p&auml;ris tapluses endas veriseks uhamiseks l&auml;ks&hellip; See oli ka tegelikuks ekskrementp&otilde;hjuseks , miks kogu aeg &uuml;he koha peal ei saadud paigal p&uuml;sida vaid pidevalt ja aegam&ouml;&ouml;da vahetas terve malev nagu mingi hiigelolend oma asupaika sadade meetrite ulatuses , j&auml;ttes maha nii ratsude kui s&otilde;jameeste poolt t&auml;ispasandatud , lagastatud ja lehkavad eelmised peatuskohad . </s> <s> Sestap tuli edasi nihkuda v&otilde;imaluse korral vastutuult , et niimoodi tuulepealsest v&auml;hegi v&auml;rskemat &otilde;hku k&auml;tte saada . </s> <s> Ja segunes seal tegelikult hobuseh&otilde;ng meeste higivine ja h&auml;rjahaisuga , sest viimaseid kasutati heinte ja proviandi kaasavedamiseks kui vooriloomi . </s> <s> Ka lisandus kogu buketile h&auml;rjasita omalaadne lehk&hellip; K&otilde;ike seda saatsid lakkamatud hirnumised , korskamised , nohinad , inisemised , m&ouml;irged , metallik&otilde;lksatused ja meeste jutuk&otilde;min v&otilde;i pobin , olenevalt sellest , mis p&auml;evaajaga tegemist oli . </s> <s> &Ouml;&ouml;siti lisandusid sellele tooni v&otilde;rra vaiksemale kontserdile pimeduses p&otilde;levate l&otilde;kete praksumine , magavate meeste norskamine , peeretused ja muud uneh&auml;&auml;litsused&hellip; Aga teada sai k&otilde;ike seda vaid nii&ouml;elda seespool olija ehk osav&otilde;tja , sest maastiku vahelduv reljeef ja metsakohin varjasid k&otilde;ik n&auml;htu ja kuuldu juba m&otilde;nesaja meetri kaugusel ja versta v&otilde;rra eemal polnud k&otilde;igest sellest enam kuulda ega n&auml;ha ei kippu ega k&otilde;ppu&hellip; </s> </p>
+<p> <s>N&otilde;nda l&auml;ksid esivanemad vastu 21. septembrile 1217 ( kahek&uuml;mne esimesele septembrile tuhat kakssada seitseteist ) , mil Madisep&auml;eva tolleaegses suurimas v&auml;lilahingus l&ouml;&ouml;di halastamatu j&auml;rjekindlusega tunde v&auml;ldanud k&auml;sitsiv&otilde;itluse k&auml;igus maha Sakala maavanem Lembitu . </s> <s> Meie rahvuslik hull luuletaja Mart Raud kirjutas kahek&uuml;mnenda sajandi keskel tagantj&auml;rgi selle kohta , et raudkatk &uuml;le mandri ja v&auml;inaj&auml;&auml; viis laiali vabadust surmava risti ja raiuti Lembitu julge p&auml;&auml; . </s> <s> Just nii v&otilde;etigi maha selle mehe &uuml;lemine nupp , kelle kohta TV-3 miljonim&auml;ngu saatejuht Hans V&otilde;rokene t&auml;iesti ajuvabalt m&auml;rkis eelmise aasta &uuml;hes ajalooteemalises saatel&otilde;igus , et see oli siis tookord sellele oinale Mihklip&auml;evaks . </s> <s> V&auml;hemalt m&otilde;ni saadet j&auml;lginud inimene kutsub tollest &otilde;htust alates iga kord saatejuhti uue nimega ja selleks on Oinas&hellip;</s> </p> </div1> <div1 type='alaosa'> <head>Ai linna juhtum</head> <p> <s>Ja &uuml;he p&auml;evaga l&ouml;&ouml;di seal maha 12 ( kaksteist ) tuhat inimest , noori ja vanu , naisi ja lapsi , vigaseid ja terveid , s&otilde;dijaid ja tsiviilisikuid . </s> <s> See teeb 500 ( viissada ) inimest tunnis ja 8,333 inimest minutis . </s> <s> Iga kustuva isiku kohta tuleb seega tapaprotseduuri kestuseks keskmiselt seitse ja pool sekundit . </s> <s> Tegelikult k&auml;is asi palju kiiremini , sest siinse arvestuse aluseks on v&otilde;etud &ouml;&ouml;p&auml;ev , aga tapat&ouml;&ouml;d tehti v&auml;hem kui &ouml;&ouml;p&auml;ev , sest lahing algas varahommikul . </s> <s> Ja l&otilde;ppes &otilde;htul . </s> <s> K&otilde;ik see toimus Vana Testamendi aegadel ja h&auml;vitamisele l&auml;ks juba teine linn p&auml;rast juutide poolt Jordani j&otilde;e otsustavat forsseerimist . </s> <s> Esimene oli teatavasti Jeeriko ja see tehti hoopist&uuml;kkis t&uuml;maks , aga seal m&auml;ttasse l&ouml;&ouml;dute arvu piiblist ei leia . </s> <s> K&uuml;ll aga m&auml;rgitakse juba eelmainitud teise tolleaegse asustatud punkti elanike arvuks ja &uuml;htlasi mahal&ouml;&ouml;dute arvuks kaksteist tuhat . </s> <s> Selle linna nimi oli Ai . </s> <s> Kas n&uuml;&uuml;d sobiks juudirahvale meenutada ja meelde tuletada : </s> </p>
+<p> <s>&ldquo;Aivai , aivai ! </s> <s> Mida te k&uuml;ll tegite algaegadel kohe p&auml;rast P&uuml;hale Maale j&otilde;udmist Ai linnaga ja selle elanikega ? </s> <s> L&otilde;ite k&otilde;ik viimseni maha ! </s> <s> Oh seda inetust ja &otilde;udu , mis taolisi v&otilde;ite saata v&otilde;ib ! &rdquo; </s> </p> </div1> <div1 type='alaosa'> <head>Argip&auml;ev imeilusal sinisel planeedil</head> <p> <s>Punases r&uuml;&uuml;s elus ja t&auml;ie teadvuse juures keskealine kinniseotud k&auml;tega p&otilde;lvitav meessoost abitu pantvang l&uuml;kati kusagil Iraagis suletud ruumis ( mitte looduslikus keskkonnas ) mustas riides ja n&auml;omaskiga mehe poolt pikali ja l&uuml;kkaja n&uuml;sis tal pea suure terava noaga maha &ndash; selleks l&auml;ks aega 32 ( kolmk&uuml;mmend kaks ) sekundit ja seda suhtelist kiirust on meediakanalites millegip&auml;rast r&otilde;hutatud . </s> <s> Eksekutsioon talletati videokaameraga ja seda n&auml;itasid maailma telesaatejaamad &uuml;le kogu meie imeilusa sinise planeedi . </s> <s> Neli &uuml;lej&auml;&auml;nud n&auml;omaskides mustas r&uuml;&uuml;s meest vaatasid seda v&otilde;igast toimingut suure huviga kohapeal vahetult pealt . </s> </p>
+<p> <s>Eesti Raadiost kuuldus samal septembrip&auml;eval kella 14.45 paiku saade , mille k&auml;igus h&auml;stikoolitatud meesh&auml;&auml;l teatas : </s> </p>
+<p> <s>&ldquo;Tuleb k&otilde;igile seda m&otilde;istuslikult selgitada&hellip;&rdquo; L&otilde;petuseks tuletas diktor meelde , et saate nimetus on &ldquo;Argip&auml;ev . &rdquo;</s> </p> </div1> <div1 type='alaosa'> <head>Noad keldris</head> <p> <s>Vargad olid ta omal ajal &otilde;nnestunult erastatud linnakorteri keldriboksi sisse murdnud ja viinud &auml;ra esemeid kaugelt rohkem kui viie tuhande krooni v&auml;&auml;rtuses . </s> <s> L&auml;inud olid s&otilde;iduauto suvekummid , uued kalamehekummikud ja k&otilde;ik ta kalap&uuml;&uuml;giriistad , mis ootasid kevadise p&uuml;&uuml;gihooaja algust . </s> <s> Politseisse ta varguse kohta avaldust ei esitanudki , olles veendunud , et see on m&otilde;ttetu , kuna politsei nii v&auml;ikeste vargusasjadega ei tegele . </s> <s> Pealegi oleks nad teda ennast s&uuml;&uuml;distama hakanud , et miks teil nii lihtne lukk keldri v&auml;lisuksel on ja miks teil nii viletsalt lukustatud keldriboks on . </s> <s> Kahju h&uuml;vitamisest ei maksa r&auml;&auml;kidagi , sest nii v&auml;ikest kahju ei hakkaks kindlustuski h&uuml;vitama . </s> <s> Kuid p&auml;rast varguse avastamist ja keldriboksi luku parandamist tekkis tal keldri vastu t&uuml;lgastus ja ta ei tahtnud sinna enam jalgagi t&otilde;sta . </s> <s> Muide , vargad olid j&auml;tnud vedelema keldri p&otilde;randale mitu pika teraga puupeaga k&ouml;&ouml;ginuga ja ta kujutas ette , mis siis oleks juhtunud , kui ta juhuslikult just kuriteo toimepanemise k&auml;igus oleks keldrisse l&auml;inud . </s> <s> Siis t&otilde;en&auml;oliselt ei vedelenuks need mitte keldri p&otilde;randal vaid oleks j&auml;&auml;nud p&auml;rast torkamist otsapidi s&uuml;gavale tema surnukehasse , mis oleks verest t&uuml;hjaks jooksnuna avastatud v&otilde;ib olla alles j&auml;rgmisel p&auml;eval , sest majaelanikel ei olnud tavaks keldris iga p&auml;ev k&auml;ia . </s> </p> </div1> <div1 type='alaosa'> <head>&Auml;ra I</head> <p> <s>&Auml;ra joo sina viina </s> </p>
+<p> <s>&Auml;ra joo sina &otilde;lut</s> </p>
+<p> <s>&Auml;ra k&auml;i nii tihti k&otilde;rtsides</s> </p>
+<p> <s>Tore salm . </s> <s> Ainult , et k&otilde;ikidest &auml;radest hoolimata on ta joonud nii viina kui &otilde;lut ja k&auml;inud tihti k&otilde;rtsides . </s> <s> &Uuml;kskord sattus p&auml;rast k&otilde;rtsi sulgemist isegi kaklusse ja keegi l&otilde;i teda selja tagant peadpidi vastu paekiviseina , nii et otsaette tekkis mitme sentimeetri pikkune lahtine haav , kust voolas &uuml;le n&auml;o ja riiete ohtralt verd . </s> <s> Vigastus &otilde;mmeldi hiljem traumapunktis ilma tuimestuseta kinni . </s> <s> Muuseas ta ei tundnud alkoholijoobe t&otilde;ttu t&otilde;esti valu , v&auml;lja arvatud esimene piste . </s> <s> Aga seegi oli t&auml;iesti talutav . </s> <s> Mitte midagi &uuml;le m&otilde;istuse k&auml;ivat . </s> <s> Traumapunktis lauale heites tundis ta hoopis jahmatavalt meeldivat l&otilde;&otilde;gastust . </s> <s> &Auml;kilise pingelanguse t&otilde;ttu oli operatsioonilaual lebamine otsekui puhkuse eest . </s> </p> </div1> <div1 type='alaosa'> <head>&Auml;ra II</head> <p> <s>See naine , kes viina ei joo</s> </p>
+<p> <s>On mulle armas</s> </p>
+<p> <s>Oh tuleks ta jah , jah , jah</s> </p>
+<p> <s>Mind suudlema</s> </p>
+<p> <s>Seegi on tore salm . </s> <s> Aga &uuml;htegi taolist naist ta oma elus ei ole seni kohanud . </s> <s> Kuid lootus sureb viimasena . </s> <s> Veel on aega . </s> <s> Ja pealegi on tal p&otilde;ues t&otilde;eline &otilde;huke &otilde;hkkerge materialiseerunud lootus , mis mahub tengelpunga vahele , maksab 20 ( kaksk&uuml;mmend ) krooni ning kestab v&auml;hemalt 7 ( seitse ) p&auml;eva . </s> <s> Kuni j&auml;rgmise kolmap&auml;evani , mil toimub Viking Loto igan&auml;dalane j&auml;rjekordne loosimine , mille tulemusena avaneb tal l&otilde;puks ometi v&otilde;imalus saada miljon&auml;riks . </s> </p> </div1> <div1 type='alaosa'> <head>Hommikute lahkumised</head> <p> <s>&Uuml;lim&otilde;nusaks j&auml;rgnevuseks valmistudes , kuid siis hoopis &auml;kki tekkinud tugevast j&otilde;uetusest kokku varisedes oli ta suikunud , suu vastu v&auml;hetuntud naise vulvat , mida ta ennist suudles . </s> <s> L&auml;mbe suve&ouml;&ouml; , pummelungin&otilde;rkus ja sellest tingitud teadvusekadu niitis nad m&otilde;lemad p&otilde;&otilde;sa alla pikali ning virgumine hommikul oli eelmisel p&auml;eval toimunud lausjoomise t&otilde;ttu piisavalt h&auml;biv&auml;&auml;rne . </s> <s> Aga &uuml;sa l&otilde;hnas tuttavalt koduselt ja naine oli toibudes l&uuml;kanud mehe n&auml;o tasakesi oma paremale kintsule ning seej&auml;rel bikiinid &uuml;les tagasi t&otilde;mmanud . </s> <s> Mehel olid silmad r&auml;hkas ja pea alles huugas eilsest &uuml;lem&auml;&auml;rasest trimpamisest . </s> <s> Ka m&auml;lus oli teatav l&uuml;nk . </s> </p>
+<p> <s>V&auml;hetuntud naine oli talle joomingu k&auml;igus imestunult maininud : </s> </p>
+<p> <s>&ldquo;Kuidas sa sellise tundliku hingega &uuml;ldse m&otilde;istuse juures olla v&otilde;id ! &rdquo;</s> </p>
+<p> <s>&ldquo;N&auml;e , olen ! &rdquo; vastas mees &otilde;lut peale r&uuml;&uuml;bates . </s> </p>
+<p> <s>Nii saabusid hommikud oma igap&auml;evase lahkumisega . </s> <s> &Auml;rkamine ise on ju vaid unest eemaldumine . </s> <s> &Ouml;ine kuselk&auml;imine n&auml;iteks polnud k&uuml;ll t&otilde;eline lahkumine vaid &uuml;ksnes mingi vahevirge olek . </s> <s> Pimeduses kobas ta harjumusp&auml;raselt m&ouml;&ouml;blit , et millegagi kokkup&otilde;rkamata j&otilde;uda tualetti . </s> <s> Isegi p&otilde;iet&uuml;hjendamise ajaks ei s&uuml;&uuml;danud ta elektrit , et mitte meeldivast uneseisundist liiga kaugele eemalduda . </s> </p> </div1> <div1 type='alaosa'> <head>Eesti mehe p&auml;ring turteltuvide asjus</head> <p> <s>Vaenup&auml;evadki olid olemas , selles polnud kahtlust . </s> <s> Naise puhul olid need seotud kuupuhastusega . </s> <s> Kui see naisel algas , siis tundus nagu oleks abikaasa oma senise teadvusetaseme kaotanud ja kuhugi madalale langenud . </s> <s> Tema sooline kuuluvus oleks nagu &auml;hmastunud neil p&auml;evil . </s> <s> Ka oli naine k&otilde;ik see aeg pahur ja vaenulik . </s> <s> V&otilde;iks isegi &ouml;elda , et naine oli lausa aldis t&uuml;li norima sellel ajal. </s> <s> Ja seda t&uuml;histe asjade p&auml;rast . </s> <s> Kus on siis n&uuml;&uuml;d see v&otilde;rd&otilde;iguslikkus , k&uuml;sis mees endalt ja temas tekkis veendumus , et v&otilde;rd&otilde;iguslikkust mehe ja naise vahel ei saagi olla , kui kumbki oma loomup&auml;raseid kohustusi t&auml;idaks ja looduslikke suundumusi j&auml;rgiks . </s> <s> Vana Testamendi kohaselt on naine kuupuhastuse p&auml;evadel igal juhul roojane . </s> <s> K&uuml;simus oli vaid tuvide ohverdamises&hellip;</s> </p>
+<p> <s>Seoses eelnevaga tegi mees teatmeteostest m&auml;rkmeid ja v&auml;ljakirjutusi : </s> </p>
+<p> <s>Feminism &ndash; poliitiliselt naiste ja meeste v&otilde;rdseid &otilde;igusi taotlev naisliikumine ; meditsiiniliselt naiselike tunnuste esinemine mehel ; anton&uuml;&uuml;m &ndash; lingvistiline vastands&otilde;na , n&auml;iteks soe - k&uuml;lm ; vastupidiselt s&uuml;non&uuml;&uuml;m on samat&auml;henduslik s&otilde;na . </s> <s> Anton&uuml;&uuml;mipaar on m&auml;rks&otilde;na koos oma vastandiga ( suur : v&auml;ike ; vabastama : vangistama ) . </s> <s> Vastands&otilde;nu nimetatakse anton&uuml;&uuml;mideks . </s> <s> N&auml;iteks mees &lt;-&gt; naine . </s> <s> Illustreerivad laused : </s> </p>
+<p> <s>&ldquo;Poeg on juba meheks sirgunud . </s> <s> T&uuml;tar on juba naine mis naine . &rdquo;</s> </p>
+<p> <s>Mees : meeshing , meesinimene , meesterahvas , meeskodanik , mehepoeg , mehen&auml;ss , mehem&uuml;rakas , mehenatuke , kangem pool , meesisik , meesolend , mehet&uuml;kk \k&otilde;nekujund\ , tugevam pool , p&uuml;ksikandja \k&otilde;nekujund\ , harkjalg \k&otilde;nekujund\ . </s> <s> Naine : naisterahvas , naisisik , naisolend , naisinimene , naiskodanik , naishing , seelikukandja , p&otilde;llekandja , naisolevus , &otilde;rnem pool . </s> </p>
+<p> <s>Ovulatsioon &ndash; bioloogiliselt t&auml;hendab munaraku v&auml;ljumist munasarjast . </s> <s> Naisisikutel . </s> </p>
+<p> <s>Veel uuris ta aeg-ajalt loomuliku uudishimu t&otilde;ttu Raamatute Raamatut . </s> <s> Ja selgitaski v&auml;lja , et Vana Testamendi 3. Moosese raamatu 15. peat&uuml;kk kannab pealkirja &ldquo;Ihu ebapuhtusest ja korraldused selle k&otilde;rvaldamiseks&rdquo; ning seal &ouml;eldakse naise kuupuhastuse kohta j&auml;rgmist : </s> </p>
+<p> <s>19 . Ja kui naisel on voolus , ta ihust voolab verd , siis ta ei ole puhas seitse p&auml;eva ja iga&uuml;ks , kes teda puudutab , on &otilde;htuni roojane . </s> </p>
+<p> <s>28 . Aga kui naine saab puhtaks oma voolusest , siis ta lugegu seitse p&auml;eva ja p&auml;rast seda ta on puhas . </s> </p>
+<p> <s>29 . Ja kaheksandal p&auml;eval ta v&otilde;tku enesele kaks turteltuvi v&otilde;i kaks muud tuvi ja viigu need preestrile kogudusetelgi ukse juurde . </s> </p>
+<p> <s>30 . Ja preester ohverdagu &uuml;ks neist patuohvriks ja teine p&otilde;letusohvriks ning preester toimetagu tema eest lepitust Jehoova ees ta ebapuhta vooluse p&auml;rast . &rdquo;</s> </p>
+<p> <s>J&auml;reldused oma subjektiivsetest vaimsetest t&auml;helepanekutest tegi ta niisugused : </s> </p>
+<p> <s>&ldquo;Seega on mees ja naine kui m&otilde;isted juba keeleliselt vastandid ja tegelikult on nad seda ka olenditena anatoomiliselt ja f&uuml;sioloogiliselt . </s> <s> Kust siis nende v&otilde;rdsus ? &rdquo;</s> </p>
+<p> <s>Oma linnu-uurimuse l&otilde;petuseks oleks soovinud mees k&uuml;sida kaasaegsetelt naistelt ja eriti neilt , kes pole teadlikud vanatestamentlikest k&auml;skudest-keeldudest , kuid on &uuml;le m&otilde;istuse moodsad ja emantsipeerunud : </s> </p>
+<p> <s>&ldquo;Kus on teie turteltuvid v&otilde;i nende asendusained , mida peaksite igakuiste roojap&auml;evade t&otilde;ttu ohverdama kasv&otilde;i m&otilde;tteski , et saada kunagi uuesti vooruslikeks ? &rdquo;</s> </p>
+<p> <s>Kahjuks pole k&otilde;nesoleval mehel t&auml;nase p&auml;evani &otilde;nnestunud oma p&auml;ringut &uuml;helegi adressaadile edastada . </s> </p> </div1> <div1 type='alaosa'> <head>Jaapani prel&uuml;&uuml;d </head> <p> <s>Ja kui ma kunagi leban kirstus , k&auml;ed risti rinnal , siis kasvagu mu surnud niuetest v&auml;lja kaks asja . </s> <s> &Uuml;ks on p&uuml;ha Fudzijama m&auml;gi ( muidugi v&auml;hendatud m&otilde;&otilde;tkavas , pigem m&uuml;stilise kustunud pahaloomulise kasvajamudelina ) , millel otsas kobrutab valge pilvem&uuml;tsike , nii ilus , nii ilus&hellip; Kui m&auml;lestus vulkaanist , mis iial enam ei purska sinitaeva taustal inetusi ja tuhvi , laavat ning tapvalt kuumi h&otilde;&otilde;guvaid spermapahvakuid . </s> <s> Teine olgu p&uuml;ha lill kr&uuml;santeem , mille v&auml;rvi j&auml;taksin iga&uuml;he isikliku fantaasia otsustada . </s> <s> See &otilde;itsegu siis minu poolt viimast korda k&otilde;ikidele olnud ja olevatele ning tulevastele gei&Uuml;adele&hellip; V&otilde;i hoopis asetatagu mu laip kirstum&otilde;&otilde;tmelise akvaariumi esialgu ajutiselt puhtasse vette , kus laisa majesteetlikkusega ujuvad p&otilde;hjast t&otilde;usvate pilkup&uuml;&uuml;dvate &otilde;humulliridade vahel seni veel oma &otilde;ndsas teadmatuses suured kopsakad nii pooleteisekilosed karpkalad nagu Tallinnas S&otilde;pruse puiestee Citymarketis . </s> <s> Just sedaliiki kalad , kes samuti on Jaapanis p&uuml;had olendid ja kes v&auml;&auml;ramatu aeglusega on m&auml;&auml;ratud surema kui elavad p&uuml;hendumused minu kunagisele kehale , mille keemilised lagunemis&uuml;hendid vesikeskkonnast l&otilde;puste kaudu neisse sisenedes nad paratamatult &auml;ra m&uuml;rgitavad . </s> <s> Nii saavad nad ohvriks mu isikliku inetuse kvintessentsile ja kaunis&otilde;naliseks sissejuhatuseks pikaajalisele Surmaseisundile . </s> <s> Sellest alates on mul au olla teie endine laip . </s> </p> </div1> </div0>
+
+</body>
+</text>
+</tei.2>

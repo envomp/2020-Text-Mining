@@ -1,0 +1,841 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Pagulaste seadus ( terviktekst veebr 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3851</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Pagulaste seadus ( terviktekst veebr 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=5></tagusage>
+         <tagusage gi=p occurs=245></tagusage>
+         <tagusage gi=s occurs=285></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Pagulaste seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 18. veebruaril 1997. a.</s>
+</p>
+<p>
+<s>( RT I 1997 , 19 , 306 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 9. juulil 1997. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 68 ;</s>
+</p>
+<p>
+<s>15.02.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 25 , 365 ;</s>
+</p>
+<p>
+<s>08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus reguleerib Eestis varjupaigataotleja ja pagulase &otilde;iguslikku seisundit ja viibimise aluseid , l&auml;htudes &Uuml;RO pagulasseisundi konventsioonist ( edaspidi konventsioon ) ja 31. jaanuari 1967. aasta pagulasseisundi protokollist ( edaspidi protokoll ) .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Toiminguid sooritavad asutused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevast seadusest tulenevaid toiminguid sooritavad Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutused .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 68 )</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutuse juht v&otilde;ib volitada sama valitsusasutuse vanem- v&otilde;i k&otilde;rgemat ametnikku sooritama valitsusasutuse nimel k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud toiminguid .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 68 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Varjupaigataotleja</s>
+</p>
+<p>
+<s>Varjupaigataotleja ( edaspidi taotleja ) on v&auml;lismaalane , kes Eestis viibides , sealhulgas piiripunktis , taotleb Eesti Vabariigilt varjupaika .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Pagulane</s>
+</p>
+<p>
+<s>Pagulane on k&auml;esoleva seaduse t&auml;henduses ja koosk&otilde;las konventsiooniga v&auml;lismaalane ,</s>
+</p>
+<p>
+<s>1 ) kes vastab konventsiooni artikli 1 m&auml;&auml;ratlusele koos protokolli artikli 1 t&auml;iendusega ;</s>
+</p>
+<p>
+<s>2 ) kellele Eesti Vabariik on andnud varjupaiga .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Varjupaiga andmine</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus v&otilde;ib varjupaiga anda taotlejale ,</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>1 ) kellel on p&otilde;hjust karta , et teda v&otilde;idakse tema kodakondsusj&auml;rgses riigis v&otilde;i alalisel asukohamaal kiusata taga rassi , usu , rahvuse , sotsiaalsesse gruppi kuulumise v&otilde;i poliitiliste veendumuste p&auml;rast ja kes ei suuda v&otilde;i kes eespool nimetatud kartuse t&otilde;ttu ei taha saada oma kodakondsusj&auml;rgselt riigilt v&otilde;i alaliselt asukohamaalt kaitset v&otilde;i kes ei suuda v&otilde;i nimetatud kartuse t&otilde;ttu ei taha sinna tagasi p&ouml;&ouml;rduda ;</s>
+</p>
+<p>
+<s>2 ) kes on saabunud Eestisse vahetult oma kodakondsusj&auml;rgsest riigist v&otilde;i alaliselt asukohamaalt v&otilde;i kes on saabunud Eestisse m&otilde;ne muu riigi kaudu , kus v&auml;lismaalast samuti ohustab k&auml;esoleva l&otilde;ike punktis 1 nimetatud tagakiusamine v&otilde;i v&auml;ljasaatmine riiki , kus v&auml;lismaalast ohustab nimetatud tagakiusamine ;</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>3 ) kes on esitanud Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutusele varjupaigataotluse .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 2 s&auml;testatud tingimuse puudumisel v&otilde;idakse taotlejale anda varjupaik &uuml;ksnes vastavalt v&auml;lislepingule .</s>
+</p>
+<p>
+<s>( 3 ) Pagulase taotluse alusel v&otilde;idakse anda varjupaik ka pagulase abikaasale v&otilde;i alaealisele lapsele , kui ta viibib v&auml;ljaspool Eestit ning vastab konventsiooni ja protokolli pagulase-m&otilde;iste m&auml;&auml;ratlusele .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Varjupaiga andmisest keeldumine</s>
+</p>
+<p>
+<s>Koosk&otilde;las konventsiooniga keeldub Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus varjupaiga andmisest taotlejale :</s>
+</p>
+<p>
+<s>1 ) kellel puudub alus varjupaiga saamiseks vastavalt k&auml;esoleva seaduse &sect;-le 5 ;</s>
+</p>
+<p>
+<s>2 ) kes on saanud varjupaiga m&otilde;nes teises riigis ;</s>
+</p>
+<p>
+<s>3 ) kes omab &Uuml;RO asutuste v&otilde;i allasutuste , v&auml;lja arvatud &Uuml;RO pagulaste &uuml;lemkomissari kaitset v&otilde;i abi ;</s>
+</p>
+<p>
+<s>4 ) kelle puhul on kaalukaid p&otilde;hjusi arvata , et ta on toime pannud rahvusvahelistes &otilde;igusaktides m&auml;&auml;ratletud rahuvastase kuriteo , s&otilde;jakuriteo v&otilde;i inimsusevastase kuriteo v&otilde;i raske mittepoliitilise kuriteo v&otilde;i et ta on s&uuml;&uuml;di &Uuml;RO eesm&auml;rkide ja p&otilde;him&otilde;tetega vastuolus olevate tegude toimepanemises ;</s>
+</p>
+<p>
+<s>5 ) kelle puhul on kaalukaid p&otilde;hjusi arvata , et ta v&otilde;ib ohustada Eesti riigi julgeolekut v&otilde;i avalikku korda .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Taotleja ja pagulase &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Taotlejale ja pagulasele kindlustatakse Eesti Vabariigi p&otilde;hiseadusest , seadustest ja muudest &otilde;igusaktidest ning konventsioonist ja protokollist , rahvusvahelise &otilde;iguse &uuml;ldtunnustatud normidest ja rahvusvahelistest tavadest tulenevad &otilde;igused ja vabadused .</s>
+</p>
+<p>
+<s>( 2 ) Taotlejal on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) saada teavet keeles , mida ta m&otilde;istab , varjupaigataotluse menetluse kohta ja sellega seotud &otilde;igustest ja kohustustest ;</s>
+</p>
+<p>
+<s>2 ) olla &uuml;henduses &Uuml;RO Pagulaste &Uuml;lemkomissari Ametiga ( UNHCR ) ja teiste pagulaste &otilde;igusi kaitsvate organisatsioonidega ;</s>
+</p>
+<p>
+<s>3 ) omada esindajat varjupaigataotluse menetlemisel ;</s>
+</p>
+<p>
+<s>4 ) saada kirjalik p&otilde;hjendatud otsus varjupaiga andmisest keeldumise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Pagulasel on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) olla &uuml;henduses &Uuml;RO Pagulaste &Uuml;lemkomissari Ametiga ja teiste pagulaste &otilde;igusi kaitsvate organisatsioonidega ;</s>
+</p>
+<p>
+<s>2 ) saada kirjalik p&otilde;hjendatud otsus varjupaiga &auml;rav&otilde;tmise kohta .</s>
+</p>
+<p>
+<s>( 4 ) Taotleja on kohustatud igak&uuml;lgselt kaasa aitama varjupaiga taotlemise asjaolude selgitamisele ning esitama k&otilde;ik andmed ja dokumendid , mis kinnitavad tema taotluses esitatud asjaolusid .</s>
+</p>
+<p>
+<s>( 5 ) Taotleja ja pagulane on kohustatud j&auml;rgima Eesti p&otilde;hiseaduslikku korda ning t&auml;itma Eesti &otilde;igusakte .</s>
+</p>
+<p>
+<s>( 6 ) Pagulasele laienevad v&auml;lismaalaste seaduse ( RT I 1993 , 44 , 637 ; 1994 , 41 , 658 ; 1995 , 57 , 981 ; 1997 , 19 , 306 ; 73 , 1202 ; 1998 , 98/99 , 1575 ) paragrahvis 15 s&auml;testatud kohustused nagu ka samas paragrahvis s&auml;testatud subjektide kohustused pagulase suhtes .</s>
+</p>
+<p>
+<s>( 7 ) Taotlejal ja pagulasel on &otilde;igus p&ouml;&ouml;rduda oma &otilde;iguste ja vabaduste rikkumise korral kohtusse .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Taotleja vastuv&otilde;tmine , varjupaiga taotlemine ja pagulasseisundi tuvastamine</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Esmane k&uuml;sitlus</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalasega , kes on teatanud oma soovist taotleda varjupaika , viiakse Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutuse poolt l&auml;bi esmane k&uuml;sitlus .</s>
+</p>
+<p>
+<s>( 2 ) Esmase k&uuml;sitluse l&auml;biviimisel Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus :</s>
+</p>
+<p>
+<s>1 ) k&uuml;sitleb v&auml;lismaalast tema Eestisse saabumise asjaolude ja varjupaiga taotlemise p&otilde;hjuste kohta ;</s>
+</p>
+<p>
+<s>2 ) teeb kindlaks v&auml;lismaalase isiku olemasolevate t&otilde;endite ja dokumentide alusel ;</s>
+</p>
+<p>
+<s>3 ) korraldab v&auml;lismaalase dakt&uuml;loskopeerimise ja fotografeerimise ning vajaduse korral tervisekontrolli ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;tab vastu vormikohase taotluse varjupaiga saamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Esmane k&uuml;sitlus viiakse l&auml;bi Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;lismaalasel , kes on teatanud oma soovist taotleda varjupaika Eesti Vabariigi piiripunktis enne Eestisse sisenemist v&otilde;i ebaseadusliku piiri&uuml;letuse t&otilde;kestamise ja menetlemise ajal , ei ole lubatud esmase k&uuml;sitluse l&auml;biviimise ajal lahkuda piirivalveasutuse territooriumilt v&otilde;i temale m&auml;&auml;ratud ruumidest , v&auml;lja arvatud j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) varjupaiga taotlemise soovist loobumise korral ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ltimatu arstiabi saamiseks ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lismaalasel on Eestis viibimiseks seaduslik alus .</s>
+</p>
+<p>
+<s>( 5 ) P&auml;rast esmase k&uuml;sitluse l&auml;biviimist toimub taotluse l&auml;bivaatamine ja taotleja p&otilde;hjalik k&uuml;sitlus , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 9 l&otilde;ikes 1 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Taotluse kiirmenetlus</s>
+</p>
+<p>
+<s>( 1 ) Taotluse kiirmenetlus taotleja suhtes viiakse l&auml;bi , kui :</s>
+</p>
+<p>
+<s>1 ) taotleja kodakondsusj&auml;rgset riiki v&otilde;i alalist asukohamaad on alust pidada turvaliseks riigiks , kus taotlejat ei ohusta k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 1 nimetatud tagakiusamine v&otilde;i v&auml;ljasaatmine riiki , kus taotlejat ohustab nimetatud tagakiusamine ;</s>
+</p>
+<p>
+<s>2 ) taotleja on saabunud Eestisse m&otilde;ne muu riigi kaudu , mida on alust pidada turvaliseks kolmandaks riigiks , kus taotlejat ei ohusta k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 1 nimetatud tagakiusamine v&otilde;i v&auml;ljasaatmine riiki , kus taotlejat ohustab nimetatud tagakiusamine ;</s>
+</p>
+<p>
+<s>3 ) taotlus on ilmselgelt p&otilde;hjendamatu .</s>
+</p>
+<p>
+<s>( 2 ) Kiirmenetluse k&auml;igus viib Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus l&auml;bi taotleja t&auml;iendava k&uuml;sitluse , kontrollib esitatud dokumentide &otilde;igsust , taotleja usutavust ja vastavust k&auml;esoleva seaduse &sect;-s 5 s&auml;testatud tingimustele ning teeb &uuml;he j&auml;rgmistest otsustest :</s>
+</p>
+<p>
+<s>1 ) l&otilde;petada kiirmenetlus ja viia l&auml;bi taotleja p&otilde;hjalik k&uuml;sitlus ning vaadata taotlus l&auml;bi ;</s>
+</p>
+<p>
+<s>2 ) j&auml;tta taotlus rahuldamata .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lismaalasel , kes on teatanud oma soovist taotleda varjupaika Eesti Vabariigi piiripunktis enne Eestisse sisenemist v&otilde;i ebaseadusliku piiri&uuml;letuse t&otilde;kestamise ja menetlemise ajal , ei ole lubatud taotluse kiirmenetluse ajal lahkuda piirivalveasutuse territooriumilt v&otilde;i temale m&auml;&auml;ratud ruumidest , v&auml;lja arvatud j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) varjupaiga taotlemise soovist loobumise korral ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ltimatu arstiabi saamiseks ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lismaalasel on Eestis viibimiseks seaduslik alus .</s>
+</p>
+<p>
+<s>( 4 ) Koos otsusega taotluse rahuldamata j&auml;tmise kohta teeb Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus :</s>
+</p>
+<p>
+<s>1 ) ettekirjutuse v&auml;lismaalase Eestist lahkumiseks , kui taotluse esitas Eestis viibiv v&auml;lismaalane ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lismaalase piirilt tagasisaatmise otsuse , kui taotluse esitas v&auml;lismaalane piiripunktis enne Eestisse sisenemist v&otilde;i ebaseadusliku piiri&uuml;letuse t&otilde;kestamise ja menetlemise ajal.</s>
+</p>
+<p>
+<s>( 5 ) Kaebuse kiirmenetluse k&auml;igus taotluse rahuldamata j&auml;tmise kohta ja sellega seoses tehtud Eestist lahkumise ettekirjutuse v&otilde;i piirilt tagasisaatmise otsuse peale v&otilde;ib esitada halduskohtule k&uuml;mne p&auml;eva jooksul otsuse v&auml;lismaalasele teatavaks tegemise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 6 ) Kiirmenetluse l&auml;biviimise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 7 ) Turvalise kolmanda riigi m&auml;&auml;ratlemisel l&auml;htub Eesti Vabariik &Uuml;RO pagulaste &Uuml;lemkomissari Ameti p&otilde;him&otilde;tetest .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 9 <hi rend="sup">1</hi> .</s><s>Taotleja Eestis viibimise tingimused taotluse l&auml;bivaatamise ja pagulasseisundi tuvastamise ajal</s>
+</p>
+<p>
+<s>( 1 ) Eestis viibiv taotleja on kohustatud esmase k&uuml;sitluse ja kiirmenetluse l&auml;biviimise ajal viibima esmases vastuv&otilde;tukeskuses , v&auml;lja arvatud juhul , kui tal on Eestis viibimiseks seaduslik alus ja ta soovib elada mujal .</s><s>Esmasest vastuv&otilde;tukeskusest v&otilde;ib taotleja ajutiselt lahkuda Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutuse loal j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) esmase k&uuml;sitluse toimingute l&auml;biviimiseks ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ltimatu arstiabi saamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Taotluse l&auml;bivaatamise ja pagulasseisundi tuvastamise ajal on taotleja kohustatud elama vastuv&otilde;tukeskuses , v&auml;lja arvatud juhul , kui tal on Eestis viibimiseks seaduslik alus ja ta soovib elada mujal .</s><s>V&auml;ljaspool vastuv&otilde;tukeskust v&otilde;ib taotleja Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutuse loal elada , kui :</s>
+</p>
+<p>
+<s>1 ) taotleja majutamise ja &uuml;lalpidamise tagab Eestis seaduslikult elav isik ;</s>
+</p>
+<p>
+<s>2 ) taotlejal on piisavalt rahalisi vahendeid enda majutamise ja &uuml;lalpidamise tagamiseks ;</s>
+</p>
+<p>
+<s>3 ) taotleja elamine v&auml;ljaspool vastuv&otilde;tukeskust on vajalik tema turvalisuse tagamiseks .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 10 <hi rend="sup">1</hi> l&otilde;ikes 3 nimetatud juhtudel ei ole lubatud taotleja elamine v&auml;ljaspool vastuv&otilde;tukeskust .</s>
+</p>
+<p>
+<s>( 4 ) Taotleja , kes taotluse l&auml;bivaatamise ajal elab v&auml;ljaspool vastuv&otilde;tukeskust , on kohustatud teavitama Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutust oma elukohast ja selle muutumisest ning ilmuma Vabariigi Valitsuse volitatud valitsusasutuse m&auml;&auml;ratud t&auml;htaegadel nimetatud valitsusasutusse pagulasseisundi tuvastamiseks vajalike toimingute l&auml;biviimisele .</s>
+</p>
+<p>
+<s>( 5 ) Taotlejal ei ole &otilde;igust taotluse l&auml;bivaatamise ja pagulasseisundi tuvastamise ajal Eestis t&ouml;&ouml;tada , v&auml;lja arvatud juhul , kui v&auml;lismaalasel on Eestis t&ouml;&ouml;tamiseks seaduslik alus .</s>
+</p>
+<p>
+<s>( 6 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus annab taotlejale tunnistuse , millel on taotleja foto , nimi , elukoht taotluse l&auml;bivaatamise ajal , tunnistuse kehtivusaeg ja taotleja allkiri ning mis t&otilde;endab , et v&auml;lismaalane taotleb Eestis varjupaika .</s><s>Taotleja , kes viibib v&auml;ljaspool vastuv&otilde;tukeskust , on kohustatud politsei n&otilde;udmisel esitama tunnistuse selle kontrollimiseks ning taotleja isiku tuvastamiseks .</s>
+</p>
+<p>
+<s>( 7 ) Tunnistuse vormi ja selle v&auml;ljaandmise , v&auml;ljavahetamise , &auml;rav&otilde;tmise ja kehtetuks tunnistamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Esmane vastuv&otilde;tukeskus ja vastuv&otilde;tukeskus</s>
+</p>
+<p>
+<s>( 1 ) Esmane vastuv&otilde;tukeskus on Sotsiaalministeeriumi hallatav riigiasutus , mille &uuml;lesandeks on korraldada v&auml;lismaalasele vajalike teenuste osutamist esmase k&uuml;sitluse ja kiirmenetluse l&auml;biviimise ajal.</s>
+</p>
+<p>
+<s>( 2 ) Vastuv&otilde;tukeskus on Sotsiaalministeeriumi hallatav riigiasutus , mille &uuml;lesandeks on korraldada taotlejale vajalike teenuste osutamist taotluse l&auml;bivaatamise ja pagulasseisundi tuvastamise ajal.</s>
+</p>
+<p>
+<s>( 3 ) Esmase vastuv&otilde;tukeskuse ja vastuv&otilde;tukeskuse sisekorraeeskirjad kinnitab asutuse juht .</s>
+</p>
+<p>
+<s>( 4 ) Esmane vastuv&otilde;tukeskus korraldab v&auml;lismaalasele vastavalt vajadusele toetusena :</s>
+</p>
+<p>
+<s>1 ) ajutise majutamise ;</s>
+</p>
+<p>
+<s>2 ) toitlustamise ja varustamise esmavajalike riietus- ja muude tarbeesemete ning h&uuml;gieenivahenditega ;</s>
+</p>
+<p>
+<s>3 ) v&auml;ltimatu abi ja tervisekontrolli ;</s>
+</p>
+<p>
+<s>4 ) h&auml;davajalikud t&otilde;lketeenused ;</s>
+</p>
+<p>
+<s>5 ) informeerimise tema &otilde;igustest ja kohustustest ;</s>
+</p>
+<p>
+<s>6 ) muud esmavajalikud teenused .</s>
+</p>
+<p>
+<s>( 5 ) Vastuv&otilde;tukeskus korraldab taotlejale vastavalt vajadusele toetusena :</s>
+</p>
+<p>
+<s>1 ) majutamise taotluse l&auml;bivaatamise ja pagulasseisundi tuvastamise ajal ;</s>
+</p>
+<p>
+<s>2 ) toitlustamise ja varustamise esmavajalike riietus- ja muude tarbeesemete ning h&uuml;gieenivahenditega ja rahaga h&auml;dap&auml;rasteks pisikulutusteks Vabariigi Valitsuse kehtestatud m&auml;&auml;ra piires ;</s>
+</p>
+<p>
+<s>3 ) esmaabi ja tervisekontrolli ;</s>
+</p>
+<p>
+<s>4 ) h&auml;davajalikud t&otilde;lketeenused ja eesti keele &otilde;petamise ;</s>
+</p>
+<p>
+<s>5 ) informeerimise tema &otilde;igustest ja kohustustest ;</s>
+</p>
+<p>
+<s>6 ) muud esmavajalikud teenused .</s>
+</p>
+<p>
+<s>( 6 ) Esmases vastuv&otilde;tukeskuses viibiv taotleja dakt&uuml;loskopeeritakse ja fotografeeritakse , v&auml;lja arvatud juhul , kui taotleja on fotografeeritud ja dakt&uuml;loskopeeritud esmase k&uuml;sitluse l&auml;biviimisel .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 10 <hi rend="sup">1</hi> .</s><s>Viibimine vastuv&otilde;tukeskuses</s>
+</p>
+<p>
+<s>( 1 ) Taotleja , kes taotluse l&auml;bivaatamise ajal elab vastuv&otilde;tukeskuses , on kohustatud &ouml;isel ajal viibima vastuv&otilde;tukeskuses .</s><s>&Ouml;iseks ajaks loetakse ajavahemikku kella 22-st kuni 6-ni .</s>
+</p>
+<p>
+<s>( 2 ) Vastuv&otilde;tukeskus v&otilde;ib taotlejal lubada vastuv&otilde;tukeskusest &ouml;isel ajal eemalviibimist j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) arstiabi saamiseks ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ltimatut arstiabi vajava perekonnaliikme juures viibimiseks ;</s>
+</p>
+<p>
+<s>3 ) Eestis seaduslikult viibiva isiku p&otilde;hjendatud taotluse alusel .</s>
+</p>
+<p>
+<s>( 3 ) Vastuv&otilde;tukeskusest ei ole lubatud lahkuda taotlejal :</s>
+</p>
+<p>
+<s>1 ) kes on paigutatud nakkushaiguse v&otilde;i selle ohu t&otilde;ttu karantiini ;</s>
+</p>
+<p>
+<s>2 ) kelle isik ei ole kindlaks tehtud ;</s>
+</p>
+<p>
+<s>3 ) kelle puhul on kaalukaid p&otilde;hjusi arvata , et tema viibimine v&auml;ljaspool vastuv&otilde;tukeskust v&otilde;ib ohustada Eesti riigi julgeolekut v&otilde;i avalikku korda ;</s>
+</p>
+<p>
+<s>4 ) kelle suhtes on algatatud kriminaalasi ja isikut ei ole paigutatud eelvangistusse .</s>
+</p>
+<p>
+<s>( 4 ) Taotleja on kohustatud t&auml;itma vastuv&otilde;tukeskuse eeskirju ja v&otilde;tma osa vastuv&otilde;tukeskuse poolt korraldatud tegevusest .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Varjupaiga taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Vormikohane taotlus esitatakse Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutusele .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>( 2 ) Vormikohases taotluses m&auml;rgib taotleja oma ees- ja perekonnanime , teised nimed , kui need kuuluvad varjupaigataotleja isikuandmete hulka , s&uuml;nniaja ja -koha , kodakondsuse , alalise asukohamaa ja riigi , mille kaudu taotleja saabus Eestisse , hariduse , elukutse , emakeele ja v&otilde;&otilde;rkeeled , mida taotleja valdab , &uuml;ksikasjaliku p&otilde;hjenduse , miks ta taotleb Eestis varjupaika , ning annab allkirja .</s>
+</p>
+<p>
+<s>( 3 ) Alaealise taotleja eest esitab taotluse tema vanem v&otilde;i eestkostja .</s><s>Juhul kui alaealisel taotlejal ei ole vanemat v&otilde;i eestkostjat , m&auml;&auml;rab kohus vastuv&otilde;tukeskuse ettepanekul talle eestkostja .</s>
+</p>
+<p>
+<s>( 4 ) Taotluse vormi kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 5 ) Taotlusele lisab taotleja :</s>
+</p>
+<p>
+<s>1 ) isikut ja kodakondsust t&otilde;endavad dokumendid , kui need taotlejal on ;</s>
+</p>
+<p>
+<s>2 ) haridust ja t&ouml;&ouml;k&auml;iku t&otilde;endavad dokumendid , kui need taotlejal on ;</s>
+</p>
+<p>
+<s>3 ) elulookirjelduse , milles taotleja n&auml;itab &auml;ra oma p&auml;ritolu , t&ouml;&ouml;alase , s&otilde;jav&auml;elise ja poliitilise tegevuse , kohtuliku karistatuse , perekonnaseisu ning andmed abikaasa ja alaealiste laste kohta ning varandusliku seisu ja sissetulekud ;</s>
+</p>
+<p>
+<s>4 ) muud t&otilde;endid , mis n&auml;itavad taotleja vastavust konventsiooni ja protokolli pagulase-m&otilde;iste m&auml;&auml;ratlusele , kui need taotlejal on .</s>
+</p>
+<p>
+<s>( 6 ) Kui taotleja on kirjaoskamatu v&otilde;i tema tervislik seisund ei v&otilde;imalda oma k&auml;ega dokumente t&auml;ita , teeb seda taotleja &uuml;tluste j&auml;rgi Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutuse poolt selleks volitatud riigiametnik .</s>
+</p>
+<p>
+<s>( 7 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus viib taotlejaga l&auml;bi p&otilde;hjaliku k&uuml;sitluse ja vajadusel t&auml;iendavad k&uuml;sitlused tema Eestisse saabumise asjaolude ja varjupaiga taotlemise p&otilde;hjuste kohta .</s><s>P&otilde;hjaliku k&uuml;sitluse ning t&auml;iendava k&uuml;sitluse tingimused ja korra kehtestab Vabariigi Valitsus .</s><s>;</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>( 8 ) Kui taotlejal puudub kehtiv isikut t&otilde;endav dokument , teeb Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus taotleja isiku kindlaks muude t&otilde;endite alusel .</s>
+</p>
+<p>
+<s>( 9 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus , esmane vastuv&otilde;tukeskus ja vastuv&otilde;tukeskus s&auml;ilitavad taotleja isikuandmed ja muud dokumendid ja tagavad nende konfidentsiaalsuse .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Pagulasseisundi tuvastamine</s>
+</p>
+<p>
+<s>( 1 ) Taotluse vaatab l&auml;bi Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus .</s>
+</p>
+<p>
+<s>( 2 ) Taotluse l&auml;bivaatamise k&auml;igus kontrollib valitsusasutus esitatud dokumentide ja andmete &otilde;igsust , taotleja usutavust ning vastavust k&auml;esoleva seaduse paragrahvis 5 s&auml;testatud tingimustele , anal&uuml;&uuml;sib taotluse p&otilde;hjendatust ning teeb p&otilde;hjendatud otsuse anda taotlejale varjupaik v&otilde;i j&auml;tta taotlus rahuldamata .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>( 3 ) Taotlejale , kelle taotlus on j&auml;etud rahuldamata , teeb Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus ettekirjutuse Eestist lahkumiseks , selle mittet&auml;itmisel saadab Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus ta Eestist v&auml;lja .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">1</hi> .</s><s>Pagulasseisundi tuvastamise peatamine ja taotluse menetlemise l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus peatab pagulasseisundi tuvastamise , kui taotleja ei ole ilmunud kolme kuu jooksul pagulasseisundi tuvastamiseks vajalike toimingute l&auml;biviimisele ning Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutusel ei ole &otilde;nnestunud kindlaks teha taotleja asukohta .</s><s>Pagulasseisundi tuvastamine ja taotluse menetlemine taastatakse , kui taotleja ilmub &uuml;heksa kuu jooksul pagulasseisundi tuvastamise peatamisest arvates Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutusse pagulasseisundi tuvastamiseks vajalike toimingute l&auml;biviimisele .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus l&otilde;petab taotluse menetlemise , kui taotleja ei ole ilmunud &uuml;he aasta jooksul pagulasseisundi tuvastamiseks vajalike toimingute l&auml;biviimisele ning Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutusel ei ole &otilde;nnestunud kindlaks teha taotleja asukohta .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pagulase vastuv&otilde;tmine ja tema sotsiaalsed &otilde;igused</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Vastuv&otilde;tmise korraldamine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalane , kellele on antud varjupaik , lahkub vastuv&otilde;tukeskusest .</s>
+</p>
+<p>
+<s>( 2 ) Valitsusasutus korraldab vastavalt Vabariigi Valitsuse kehtestatud korrale ja kokkuleppel kohaliku omavalitsusega pagulaste asumise kohalikesse omavalitsus&uuml;ksustesse , pidades silmas pagulaste proportsionaalset jaotumist omavalitsus&uuml;ksuste vahel ning elamis- ja t&ouml;&ouml;tamisv&otilde;imalusi .</s>
+</p>
+<p>
+<s>( 3 ) Pagulase vastuv&otilde;tmist korraldab kohalik omavalitsus , osutades pagulasele kaasabi :</s>
+</p>
+<p>
+<s>1 ) elukoha leidmisel ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;koha leidmisel ;</s>
+</p>
+<p>
+<s>3 ) sotsiaal- ja tervishoiuteenuste saamisel ;</s>
+</p>
+<p>
+<s>4 ) t&otilde;lke ja eesti keele &otilde;ppimise korraldamisel ;</s>
+</p>
+<p>
+<s>5 ) koolituse ja kultuuriteenuste saamisel ;</s>
+</p>
+<p>
+<s>6 ) oma &otilde;iguste ja kohustuste kohta teabe saamisel ;</s>
+</p>
+<p>
+<s>7 ) muude k&uuml;simuste lahendamisel .</s>
+</p>
+<p>
+<s>( 4 ) Pagulase vastuv&otilde;tmisega seotud kulud kaetakse riigieelarvest Vabariigi Valitsuse poolt kehtestatud m&auml;&auml;rades ja korras .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Pagulase sotsiaalsed &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Pagulasel on Eestis viibimise ajal &otilde;igus saada riiklikku elatusraha , lastetoetust , t&ouml;&ouml;turuteenuseid ja t&ouml;&ouml;tu riiklikku abiraha , sotsiaaltoetusi ja muud abi Eesti alalise elanikuga samadel alustel , mis on s&auml;testatud seadustes , ja Vabariigi Valituse poolt kehtestatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus v&otilde;ib maksta pagulasele , kelle varaline seis ei v&otilde;imalda elamist korraldada omal kulul , &uuml;hekordset toimetulekutoetust .</s>
+</p>
+<p>
+<s>( 3 ) Pagulasele , kes p&ouml;&ouml;rdub tagasi oma kodakondsusj&auml;rgsesse riiki , alalisele asukohamaale v&otilde;i asub &uuml;mber muusse riiki , v&otilde;ib Vabariigi Valitsuse poolt kehtestatud tingimustel ja korras maksta riigieelarvest &uuml;hekordset toetust ulatuses , mis korvab t&auml;ielikult v&otilde;i osaliselt tema reisikulud .</s>
+</p>
+<p>
+<s>( 4 ) F&uuml;&uuml;siline v&otilde;i juriidiline isik v&otilde;ib osaleda pagulase vastuv&otilde;tmisel ja tema toetamisel , andes majanduslikku v&otilde;i muud abi .</s><s>Abiandmist koordineerib kohalik omavalitsus .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pagulase dokumendid</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Elamisluba</s>
+</p>
+<p>
+<s>( 1 ) Koos varjupaiga andmise otsustamisega otsustab Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus pagulasele t&auml;htajalise elamisloa andmise , mille kehtivusaeg ei tohi &uuml;letada kahte aastat .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>( 2 ) Pagulase t&auml;htajalist elamisluba v&otilde;ib valitsusasutus pikendada , kui asjaolud , mis tingisid temale varjupaiga andmise , ei ole &auml;ra langenud .</s>
+</p>
+<p>
+<s>( 3 ) Pagulase t&auml;htajalise elamisloa pikendamine toimub Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>( 4 ) Pagulase abikaasale , kes ei ole Eesti kodanik ega pagulane , v&otilde;ib valitsusasutus anda elamisloa samadel alustel kui Eestis alaliselt elava isiku abikaasale vastavalt v&auml;lismaalaste seaduse paragrahv 12 l&otilde;ikele 2.</s>
+</p>
+<p>
+<s>( 5 ) Pagulase alaealisele lapsele , kes ei ole Eesti kodanik ega pagulane , annab valitsusasutus sama liiki ja sama kehtivusajaga elamisloa mis pagulasele .</s>
+</p>
+<p>
+<s>( 6 ) Alalise elamisloa v&otilde;ib valitsusasutus anda pagulasele v&auml;lismaalaste seaduse Paragrahv 12 l&otilde;ikes 3 s&auml;testatud tingimustel .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>T&ouml;&ouml;luba</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalasele , kes on saanud varjupaiga , v&otilde;ib Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus anda t&ouml;&ouml;loa kehtivusega kuni kaks aastat , m&auml;&auml;ratlemata selles t&ouml;&ouml;andjat .</s>
+</p>
+<p>
+<s>( 2 ) Pagulase t&ouml;&ouml;luba v&otilde;ib valitsusasutus pikendada v&otilde;i anda uue t&ouml;&ouml;loa , kui pagulasel on kehtiv elamisluba .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Elamis- ja t&ouml;&ouml;loa t&uuml;histamine</s>
+</p>
+<p>
+<s>Pagulase elamis- ja t&ouml;&ouml;loa t&uuml;histab Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus seoses pagulasseisundi l&otilde;ppemisega .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Teised dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Pagulasele antakse isikut t&otilde;endavate dokumentide seaduses s&auml;testatud alustel pagulase reisidokument .</s>
+</p>
+<p>
+<s>( 15.02.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 25 , 365 )</s>
+</p>
+<p>
+<s>( 2 ) Muid riigi poolt v&auml;ljaantavaid dokumente antakse pagulasele samadel alustel kui teistele elamisloa alusel Eestis viibivatele v&auml;lismaalastele .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 15.02.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 25 , 365 )</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pagulasseisundi l&otilde;ppemine</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Pagulasseisundi l&otilde;ppemise alused</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalane lakkab olemast pagulane koosk&otilde;las konventsiooniga , kui :</s>
+</p>
+<p>
+<s>1 ) ta p&ouml;&ouml;rdub vabatahtlikult tagasi kodakondsusj&auml;rgsesse riiki v&otilde;i alalisele asukohamaale v&otilde;i annab ennast vabatahtlikult selle riigi kaitse alla , v&otilde;i</s>
+</p>
+<p>
+<s>2 ) asub omal vabal tahtel alaliselt elama m&otilde;nda muusse riiki ,</s>
+</p>
+<p>
+<s>3 ) saab omal vabal tahtel tagasi varem kaotatud kodakondsuse , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) saab Eesti v&otilde;i m&otilde;ne muu riigi kodakondsuse , v&otilde;i</s>
+</p>
+<p>
+<s>5 ) ei vaja enam Eesti riigi kaitset , kuna asjaolud , mis tingisid varjupaiga andmise , on &auml;ra langenud , v&otilde;i</s>
+</p>
+<p>
+<s>6 ) kui varjupaik v&otilde;etakse &auml;ra k&auml;esolevas seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>( 2 ) Pagulasseisundi l&otilde;ppemise tuvastab Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus oma otsusega .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Eestist lahkumine seoses pagulasseisundi l&otilde;ppemisega</s>
+</p>
+<p>
+<s>V&auml;lismaalasele , kelle puhul on pagulasseisundi l&otilde;ppemine tuvastatud , teeb Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutus ettekirjutuse Eestist lahkuda , v&auml;lja arvatud juhul , kui v&auml;lismaalasel on tekkinud muu &otilde;iguslik alus Eestis viibimiseks .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>V&auml;lja- v&otilde;i tagasisaatmise lubamatus</s>
+</p>
+<p>
+<s>( 1 ) Eesti Vabariik ei saada taotlejat v&otilde;i pagulast v&auml;lja ega tagasi riiki , kus tema elu v&otilde;i vabadus on ohus mingisse rassi , rahvusesse v&otilde;i usku v&otilde;i sotsiaalsesse gruppi kuulumise v&otilde;i poliitiliste veendumuste t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;iget 1 ei kohaldata taotlejale v&otilde;i pagulasele , kelle suhtes on p&otilde;hjendatud kartus , et ta v&otilde;ib asetada ohtu riigi julgeoleku v&otilde;i kes on kohtuotsuse alusel m&otilde;istetud s&uuml;&uuml;di eriti raskes kuriteos ja on seet&otilde;ttu &uuml;hiskonnaohtlik .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Varjupaiga &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse m&auml;&auml;ratud valitsusasutuse otsusega v&otilde;etakse isikult varjupaik &auml;ra :</s>
+</p>
+<p>
+<s>1 ) varjupaiga andmisest keeldumise aluste tuvastamisel ;</s>
+</p>
+<p>
+<s>2 ) kui ta on kohtu poolt s&uuml;&uuml;di m&otilde;istetud raskes kuriteos ja tema j&auml;tkuv Eestis viibimine on ohuks Eesti julgeolekule ja avalikule korrale .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Koost&ouml;&ouml; rahvusvaheliste organisatsioonidega</s>
+</p>
+<p>
+<s>( 1 ) Pagulaste probleemide lahendamisel teeb Eesti Vabariik koost&ouml;&ouml;d &Uuml;RO Pagulaste &Uuml;lemkomissari Ametiga , aidates teda konventsiooni ja protokolli kohaldamise j&auml;relevalves .</s>
+</p>
+<p>
+<s>( 2 ) Eesti Vabariik tagab konventsiooni ja protokolli j&auml;rgsete kohustuste t&auml;itmise ja edastab &Uuml;lemkomissari Ametile teavet ning statistilisi andmeid j&auml;rgmiste asjaolude kohta :</s>
+</p>
+<p>
+<s>1 ) pagulaste olukord ;</s>
+</p>
+<p>
+<s>2 ) konventsiooni ja protokolli kohaldamine ;</s>
+</p>
+<p>
+<s>3 ) pagulaste kohta kehtivad ja kehtestatavad &otilde;igusaktid .</s>
+</p>
+<p>
+<s>&sect; 23 <hi rend="sup">1</hi> .</s><s>Varjupaigataotlejate ja pagulaste register</s>
+</p>
+<p>
+<s>Varjupaigataotluse esitanud isikute ja pagulaste kohta peetakse riiklikku pagulaste registrit .</s>
+</p>
+<p>
+<s>( 08.02.99 j&otilde;ust.01.09.99 - RT I 1999 , 18 , 301 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>V&auml;lismaalase passi kasutamine</s>
+</p>
+<p>
+<s>Kuni konventsiooni artiklis 28 s&auml;testatud reisidokumendi v&auml;ljaandmiseni Eestis v&otilde;idakse k&auml;esoleva seaduse paragrahv 18 l&otilde;ikes 1 nimetatud pagulasele anda v&auml;lismaalase pass , millesse on tehtud eesti ja inglise keeles kanne &ldquo; 28. juuli 1951. a. konventsioon &rdquo; ning mille kehtivus on kuni kaks aastat .</s><s>V&auml;lismaalase passi v&auml;ljaandmine toimub koosk&otilde;las v&auml;lismaalaste seadusega .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Muudatus v&auml;lismaalaste seaduses</s>
+</p>
+<p>
+<s>V&auml;lismaalaste seaduse ( RT I 1993 , 44 , 637 ; 1999 , 50 , 548 ; 54 , 582 ; 71 , 686 ; 88 , 808 ; 101 , 900 ; 2000 , 25 , 148 ; 33 , 197 ; 40 , 254 ) paragrahv 3 l&otilde;ikes 2 asendatakse s&otilde;na &ldquo; P&otilde;genike &rdquo; s&otilde;naga &ldquo; Pagulaste &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub &uuml;heaegselt konventsiooniga .</s>
+</p>
+</body>
+   </text>
+</tei.2>

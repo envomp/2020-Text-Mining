@@ -1,0 +1,132 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Etendus punases teatris</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 22823; s&otilde;nu: 2380</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Etendus punases teatris</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=39></tagusage>
+         <tagusage gi=s occurs=158></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body>
+<div0 type='tervikteos'><head>Etendus punases teatris</head>
+<p><bibl><author><s>Karen Orlau</s></author></bibl></p>
+<p> <s>&Uuml;le pika aja oli Laura end j&auml;lle teatrisse sundinud . </s> <s> Ta polnud selles iialgi midagi teab mis k&ouml;itvat leidnud &mdash; lihtsalt &uuml;ks lisatingimus , mida tuli t&auml;ita , ning aegajalt andis see teretulnud v&otilde;imaluse m&otilde;nel koosviibimisel &uuml;lesv&otilde;etud kunstikajalisel jututeemal enese asjatundikkusest t&auml;it m&otilde;nu tunda . </s> <s> Oluliselt ebameeldivam oleks olnud vabandavalt naeratada , &ouml;eldes , et ei tea , ei ole n&auml;inud ... </s> </p>
+<p> <s>Ainult et s&auml;&auml;rane elegantne valdamine &mdash; seisund , mida ta k&otilde;ige enam nautis ning mis &otilde;hkus k&otilde;igest , mida ta tegi v&otilde;i &uuml;tles , isegi k&otilde;igest , mida ta ennast &uuml;mbritsema s&auml;ttis &mdash; n&otilde;udis t&uuml;&uuml;tut kulissidetagust t&ouml;&ouml;d , enne kui sai rambivalgusesse astuda ning s&auml;rada . </s> <s> Ta tunnistas endale varjamata , et see oligi tema kunstilembuse v&otilde;ti &mdash; v&otilde;ibolla ei kaalunud see &uuml;les t&otilde;elist p&uuml;hendumust , kuid andis siiski meeletu &uuml;leoleku nende suhtes , kel puudus piisavalt peen taju v&otilde;i kes olid piisavalt lihtsameelsed , et oma kunstimeelt v&otilde;i , jumal hoidku , lausa annet mitte viimistleda : kunstialane asjatundlikkus oli parim kuulsus , mida seltskonnainimene eales v&otilde;is v&auml;lja m&otilde;elda ja mis andis nende pahatihti hoopis materiaalsemale igap&auml;evategevusele &uuml;lla metseenliku kuma . </s> <s> &Otilde;nneks leidus siiski selliseid lihtsameelseid , kes iseenese vaimul&otilde;tvuse varjamiseks h&auml;dasti vajasid Laurat oma koosviibimisi kaunistama ... </s> </p>
+<p> <s>Irooniliselt naeratades sammus ta punase vaibaga kaetud trepist &uuml;les , toetudes hoolitsetud s&otilde;rmeotstega vaid &otilde;ige p&otilde;gusalt poleeritud mahagonist k&auml;sipuule , mille pehmed juugendjooned n&auml;isid ta n&otilde;udliku k&auml;e puudutustele j&auml;rele andvat . </s> <s> Bordoopunane kleit , mis pehmelt ta sihvaka keha kumerustele liibus , peitis sametvolangidesse siiski piisaval m&auml;&auml;ral salap&auml;ra . </s> <s> See oli just selle teatri kleit ning kiire k&otilde;rvalpilk fuajeepeeglisse kinnitas , kui h&auml;sti see sobib talle ja kui h&auml;sti sobib kogu teater tema kleidiga &mdash; laitmatult . </s> <s> Punane teater oli ideaalne taust ta r&otilde;hutatult mariastuartlikule tualetile &mdash; &uuml;ks neid elevusttekitavalt mitmet&auml;henduslikke vihjeid , mida Laura lihtsalt m&auml;ngu ilu p&auml;rast teha armastas . </s> </p>
+<p> <s>Livrees lakei avas kummardades loozhi ukse , saades t&auml;nut&auml;heks m&otilde;&otilde;detud annuse naeratust . </s> </p>
+<p> <s>Enne kui tuled h&auml;mardusid ja raske tumepunane lavakardin t&otilde;usis , j&otilde;udis Laura ennast sisse seada sama mugavalt nagu elup&otilde;line diivanikass . </s> <s> Kuna tegemist oli trupiga , kes esines suurel laval esimest korda , kavatses ta algavat vaatust t&auml;helepanelikult j&auml;lgida , et valida oma hinnangule nii&ouml;elda selgroog , kaks j&auml;rgmist vaatust ei olnud nii olulised , neid oli vaja eelk&otilde;ige n&uuml;ansside v&auml;ljat&ouml;&ouml;tamiseks . </s> </p>
+<p> <s>Esialgu valitses laval vaikus . </s> <s> Veidi diletantlik trikk &mdash; t&otilde;en&auml;oliselt oli tegemist ikkagi k&uuml;&uuml;ndimatu etendusega ... </s> <s> Lavakujundus oli siiski k&uuml;llalt uudne , ehkki vaikus venis pikemaks kui v&auml;ljapakutud s&uuml;mbolitem&auml;ngu m&otilde;istmiseks vajalik . </s> </p>
+<p> <s>Laval laius k&otilde;rb &mdash; valged &uuml;ksluised liivaluited ning taamal , silmapiiril k&auml;ttesaamatult kauge oaas . </s> <s> V&otilde;i siis petlik peegeldus , miraazh . </s> <s> &Uuml;lima lakoonilisuse taotlemine oli taas v&auml;&auml;ratus &mdash; see suund oli juba aegunud , kaks hooaega moest l&auml;inud ... </s> </p>
+<p> <s>Laura muigas p&uuml;&uuml;dlike provintslaste peale m&otilde;eldes ja suunas binokli esimestes ridades istuvale publikule . </s> <s> Nagu alati , oli seal seekordki paar tuttavat n&auml;gu : otse vastu lava istus vabrikant Lintr&ouml;m oma prouaga . </s> <s> Vaesed t&otilde;usikud &mdash; esimeses reas ... </s> <s> P&uuml;ha jumal , neil on seal ju sama mugav kui v&auml;ikestel lastel s&ouml;&ouml;gilaua taga : ninaots ulatub vaevu &uuml;le lauaserva . </s> <s> Laura teadis , mis vaheajal juhtub : proua Lintr&ouml;m kohtub temaga juhuslikult , laseb kuuldavale paar h&uuml;&uuml;atust repertuaarist : " Oo , keda ma n&auml;en , ka sina siin " ja kutsub ta k&uuml;lla laup&auml;evasele &otilde;htus&ouml;&ouml;gile , et tal oleks v&otilde;imalus k&uuml;lalistele mitmeid kordi muuseas m&auml;rku anda , et ta s&otilde;branna Lauraga justnimelt teatris esietendusel kohtus . </s> <s> P&otilde;rgulikult l&otilde;bus ! </s> <s> Tegelikult &uuml;learugi l&otilde;bus - - Laura kaalus hetkeks , kas ta peaks arvestama v&otilde;imalusega , et proua Lintr&ouml;mile on juba ette kantud pikantne nali , mida Laura Sanderite soolaleivapeol endale vabrikandiproua kulul lubas . </s> <s> Ta tundis hetkelist ebamugavust ja otsustas Lintr&ouml;midest v&auml;hemalt sel &otilde;htul eemale hoida . </s> <s> Samas k&auml;is nende juures s&ouml;&ouml;gil aga mitmeid m&otilde;jukaid inimesi ... </s> <s> Olgu pealegi , hiljem vaatab , kuidas olukord kujuneb . </s> </p>
+<p> <s>Lavalt hakkas vaikselt kostma muusika &mdash; nukker idamaine fl&ouml;&ouml;diviis &mdash; ning n&auml;htavale ilmus valgesse kangasse m&auml;ssitud kuju . </s> <s> &Uuml;hes k&auml;es kandis ta korvi puuviljadega , teises karikat veiniga . </s> <s> Ta sammus aegamisi &uuml;le valgete liivaluidete oaasini , seadis seal oma kandami hoolikalt maha , nagu valmistaks einet ette ja j&auml;i siis veesilma kaldal kasvavate lopsakate puude varju seisma . </s> <s> Fl&ouml;&ouml;diviis muutus tungivamaks , rahutumaks , ning l&otilde;ikavalt sillerdavate helide saatel ilmus lavale teinegi tegelane : musta &uuml;rpi m&auml;ssitud deemon , kes m&auml;rgistas oma teed kuldse sauaga liivale lilli joonistades . </s> </p>
+<p> <s>Laura l&otilde;i pea selga ja pahvatas h&auml;&auml;letult naerma . </s> <s> Oh , provintslased , milline hale allegooria ! </s> <s> N&uuml;&uuml;d peaks ilmuma ka kolmas tegelane &mdash; &otilde;nnetu eksinud inimhing , kes deemoni joonistatud lillede j&auml;rgi k&otilde;nnib ja iial oaasini ei j&otilde;ua ... </s> <s> Ta turtsatas rahulolevalt , sest kohe astuski lavale kolmas figuur : v&auml;sinud r&auml;ndaja &mdash; kes p&uuml;&uuml;dis liivale joonistatud lilli korjata . </s> </p>
+<p> <s>Jaa , kujunditel ei olnud ju v&auml;ga vigagi , kuid sellest piisas vaid viieks minutiks ja mitte kauemaks , sest k&otilde;ik &uuml;lej&auml;&auml;nu oli sadu kordi l&auml;bik&auml;idud teema : r&auml;ndur , pimestatud t&uuml;histe v&auml;&auml;rtuste ilust , j&otilde;uab deemonit j&auml;lgides hukkumise &auml;&auml;rele , kuid saab mingi ime l&auml;bi valgustatud ning leiab l&otilde;puks ikkagi oaasi ... </s> <s> Laura suunas binokli otsustavalt publikule . </s> </p>
+<p> <s>Ta uuris hindaval pilgul , millised kleidid esirea daamidel seljas on &mdash; lava valguses olid need k&uuml;llalt h&auml;sti n&auml;ha &mdash; peatus viivuks m&otilde;nel elegantsemal soengul ning uuris siis r&otilde;du vasakut tiiba . </s> <s> Milline &uuml;levoolav dekoltee oli sellel sinises kleidis daamil ! </s> <s> Kuigi ... jaa ... </s> <s> Laurale endale v&otilde;inuks selline l&otilde;ige siiski sobida . </s> <s> Aga mitte mingil juhul nii lopsakale figuurile ! </s> <s> &Uuml;learu vol&uuml;&uuml;mikad naised olid naeruv&auml;&auml;rsed . </s> <s> R&otilde;dul laiutav lihav blondiin tuletas talle meelde &uuml;hte ta ammust s&otilde;brannat &mdash; sellel naisel oli mingil tabamatul viisil sarnane hoiak kunagise saleda , efektse Eriniga , kellel lisaks tohutule juuksepahmakale ning s&uuml;gavsinistele silmadele oli looduse poolt kaasa antud &uuml;ks kontrollimatu n&otilde;rkus &mdash; t&otilde;eline magusaisu . </s> <s> T&auml;nu jumalale ! </s> </p>
+<p> <s>Laura kunagine korterikaaslane Erin oli liiga ambitsioonikas , et tagaplaanile j&auml;&auml;da . </s> <s> Talle ei piisanud sellestki , et olla Laura k&otilde;rval &mdash; ta tahtis enamat . </s> <s> Ta lihtsalt sattus &otilde;igel ajal &otilde;igesse kohta &mdash; liiga h&auml;sti ettevalmistatud juhus , et t&otilde;epoolest juhuslik olla &mdash; ja seda paraku alati oma korterikaaslase arvelt . </s> <s> Peale seda , kui Erin Lauralt tema isikliku moefotograafi &uuml;le l&otilde;i , sai Laural m&otilde;&otilde;t t&auml;is . </s> <s> Tal tekkis komme baarikappi ohtralt lik&ouml;&ouml;re ja shokolaadi varuks osta . </s> <s> Peale s&uuml;&uuml;tut algust shokolaadikommidega leidus k&uuml;lmkapis ikka m&otilde;ni kreemikook , ja nii ei l&auml;inud kuigi kaua , kui Erin konkurendina enam arvesse ei tulnud . </s> <s> Ka fotograaf leidis endale uue muusa &mdash; veidi saledama ... </s> </p>
+<p> <s>Laura naeris tasakesi ning m&otilde;&otilde;tis blondi monstrumit pilkavalt . </s> <s> Kui sarnane Erinile ... </s> <s> Imepeen v&otilde;imalus , et tegemist oligi Eriniga &mdash; ise&auml;ranis kui ta kallis s&otilde;branna oma n&otilde;rkusele endistviisi vastu ei suutnud panna ja &uuml;ha enam kaalu kogus . </s> </p>
+<p> <s>Ta heitis kiire kontrollpilgu lavale . </s> <s> Nagu v&otilde;iski arvata , ei toimunud seal midagi &uuml;llatavalt &mdash; ootusp&auml;rased faustit&otilde;lgendused , kus r&auml;ndur ja deemon s&otilde;pradena koos r&auml;ndasid ning deemon kaaslasele liivast losse tegema &otilde;petas . </s> <s> Ei &mdash; publik oli igal juhul palju huvitavam . </s> </p>
+<p> <s>P&otilde;randal , keskmise rea vasakpoolses servas k&ouml;itis &uuml;ks kummaliselt tuttavlik n&auml;gu ta t&auml;helepanu . </s> <s> Kes see v&otilde;is k&uuml;ll olla ? </s> <s> Tuttav ... aga kustkohast ometi ? </s> <s> Ta keeras binokli teravamaks ja vaatas hoolikamalt . </s> <s> Anton ? ! </s> <s> Jumal hoidku ... </s> <s> Binoklit hoidev k&auml;si vajus s&uuml;lle ja ta sulges viivuks silmad , et end koguda . </s> <s> Lavalt kostev madal trummil&ouml;&ouml;k pani ta v&otilde;patama , sest hetkelises segaduses ei suutnud ta ehmatavat h&auml;&auml;lt etendusega seostada . </s> <s> Antonit ei olnud ta ... kaheksa aastat n&auml;inud ? </s> <s> S&uuml;&uuml;mepiinad lahvatasid hetkeks pinnale &mdash; Laura teadis , et ta ei olnud Antoniga just k&otilde;ige ausamat m&auml;ngu m&auml;nginud ... aga sel ajal ta ei saanud teisiti . </s> <s> Muidugi oli see s&uuml;ndsusetu , aga sellest oli &otilde;nneks nii palju aega m&ouml;&ouml;das . </s> <s> Pealegi ei l&auml;inud Anton siis ilmselt t&auml;iesti pankrotti , kui ta n&uuml;&uuml;d siin istub , nii kallis smoking seljas ? </s> <s> Ja t&auml;nu Antonile on siin ka tema , nii et k&otilde;ik l&auml;ks ju tegelikult h&auml;sti ? </s> </p>
+<p> <s>Peen muie vallutas ta suunurga ning ta heitis Antonile pika pilgu , enne kui binokli taas lavale p&ouml;&ouml;ras : muutuv muusika paelus ta t&auml;helepanu . </s> <s> Endine l&otilde;bus fl&ouml;&ouml;diviis , mis liivalosside ehitamist saatis , muutus kohati nukramaks . </s> <s> L&otilde;busad pealiskaudsed sillerdused vajusid vaikseks melanhooliaks , murdudes haripunktil taas kerglaseks eufooriliseks trallituseks , mis aga veel &otilde;hus p&uuml;siva meeleheitek&otilde;la t&otilde;ttu v&otilde;ltsi ja pingutatuna tundus . </s> </p>
+<p> <s>Lavale tuli tegelasi juurde : deemoni ja r&auml;nduri ehitatud liivakujud &auml;rkasid ellu ning r&auml;ndur moodustas neist endale saatjaskonna , r&auml;&auml;kides kord &uuml;he , kord teisega ning p&uuml;&uuml;des kaaslasi k&auml;est haarata . </s> <s> Liivakujud vastasid r&auml;nduri p&uuml;&uuml;dlustele apaatselt ja sunnitult , nagu poleks kaks loojat neisse siiski &otilde;iget elus&auml;det sisse suutnud puhuda . </s> <s> Kui r&auml;ndur eheda vastuse puudumist tunnetas , k&otilde;lasid muusikas nukrad noodid , kui ta taas uuele liivakujule eluvaimu sisse sai , l&otilde;ikas pingutatult r&otilde;&otilde;msameelne sillerdus taas l&auml;bi . </s> </p>
+<p> <s>Hetkeks j&auml;i Laura liivakujusid silmitsema . </s> <s> Miski selles kujundis tabas teda valusamalt kui ta oleks oletada osanud . </s> <s> Liivakujud , kellele r&auml;ndur kuldehteid kaela riputas ja kirevaid kangaid &uuml;mber s&auml;ttis ... </s> <s> Laura kortsutas kulmu . </s> <s> Muusika puges hinge , kraapides pilkava tahtlikkusega hoolikalt unustatud haavu . </s> <s> Laura l&otilde;vikorts kulmude vahel muutus j&auml;rsult teravamaks ja ta suunas binokli publikule . </s> </p>
+<p> <s>Ta h&auml;iritud , tegevust otsiv pilk libises &uuml;le Lintr&ouml;mide ( vastumeelsusev&auml;rin jooksmas &uuml;le selja , kui ta seda kergemeelset nalja meenutas ) , lendas m&ouml;&ouml;da Antonist ja Erinist , otsides midagi leevendavamat &mdash; soovides peatuda t&auml;helepanuv&auml;&auml;rsetel tualettidel , stiilsematel soengutel v&otilde;i ... millelgi , mis ta vaimule v&auml;rskemat t&ouml;&ouml;d annaks . </s> </p>
+<p> <s>Kas oli binokliklaas muutunud veidi uduseks v&otilde;i m&otilde;jus talle n&auml;rves&ouml;&ouml;valt pinev muusika , igatahes sulasid inimeste innukalt lava poole p&ouml;&ouml;ratud n&auml;od ilmetuteks valgeteks laikudeks ning Laurale tundus , nagu p&ouml;&ouml;raks kord &uuml;ks , kord teine silmad lavalt &uuml;les , tema loozhi poole , ning vaataks teda sama otse ja h&auml;benemata , nagu vaadatakse loomaaias puuripistetud veidrat looma . </s> <s> Korraga n&auml;is talle , et ka need , kes pealtn&auml;ha etendust vaatasid , piilusid teda oma teraste hiiresilmadega ... </s> <s> H&auml;gused nimetud poolprofiilid , milles &uuml;ks s&auml;rav s&uuml;simust silm k&otilde;&otilde;ritab &uuml;les , tema poole , ning mille varjatud n&auml;opoolelt parastav irvitus v&auml;gisi &uuml;le n&auml;o tahab venida . </s> <s> Silmapette v&otilde;ikus oli halvav , kuid hetke p&auml;rast suutis ta ennast siiski kokku v&otilde;tta . </s> <s> Siiski v&auml;risesid ta k&auml;ed veidi , kui ta binokliklaase puhastas . </s> <s> Veider ... veider muusika ja veider etendus . </s> </p>
+<p> <s>Laval oli " Inimliku trag&ouml;&ouml;dia " provintsivariatsioon j&otilde;udnud j&auml;rgmisesse , esimesest hetkest peale etteaimatavasse faasi : r&auml;nduril oli n&auml;lg . </s> <s> Ta p&uuml;&uuml;dis t&uuml;hja k&otilde;htu liivale joonistatud ja liivast m&auml;tsitud kookidega t&auml;ita , kuid &uuml;hed kadusid s&otilde;rmede vahelt ja teised ei k&otilde;lvanud s&uuml;&uuml;a . </s> <s> Toiduotsinguil ligines r&auml;ndur oaasile , kus valges r&uuml;&uuml;s kaitseingel teda kannatlikult ootas , kuid kuna deemon ja ta liivast vormitud kaaslased oaasi v&auml;lja naersid ning pilkasid nii selle valvurit kui tema pakutavat toitu , siis naeris r&auml;ndur nendega kaasa ja l&auml;ks oaasist m&ouml;&ouml;da . </s> </p>
+<p> <s>Laura haigutas ja tundis end piisavalt taastununa , et pilku saali heita . </s> <s> Ta piidles p&otilde;randa h&auml;maramates nurkades istujaid ning p&uuml;&uuml;dis m&otilde;istatada , milliste inimestega on tegemist . </s> <s> Nii v&otilde;i teisiti sarnanes iga&uuml;ks kellegagi ... </s> <s> N&auml;iteks see vasakus reaservas istuv heledap&auml;ine apollolokkidega noormees , kellele ta valge t&auml;rgeldatud krae ilmselgelt ebamugavust valmistas , meenutas Laurale v&auml;gisi &uuml;ht innukat maapoissi , kes arvas vist , et linnas leiab ta eest hoopis k&otilde;rgema inimliigi esindajad , ja kes oleks armunud ilmselt esimesesse ettejuhtuvasse v&auml;hegi sobilikku naisterahvasse &mdash; puhtjuhuslikult oli Laura see , kellele ta oma naiivse tuhina p&uuml;hendas . </s> <s> Ta oli oma v&auml;rskuses veidi aega ju isegi l&otilde;bustav , aga pikapeale muutus ta rikkumatus lausa uskumatult t&uuml;&uuml;tuks . </s> <s> Nii , et Laural polnud isegi mitte kahju ... </s> </p>
+<p> <s>Ta heitis lokkisp&auml;isele m&auml;nguasjale pika pilgu ja uitles edasi . </s> <s> Veidi m&otilde;ttesse vajununa ei tabanud ta k&otilde;rv uusi k&otilde;lasid muusikas ega tajunud , et teatrisaalis toimus taas vaevum&auml;rgatav muutus . </s> </p>
+<p> <s>Oaasi ja k&otilde;rbe allegooria paelus ta m&otilde;tteid ... </s> <s> Oaas ... jah , vaikne turvaline nurgake &mdash; tegelikult lihtsalt mannetu seisva veega tiik , kus saab ohutult elup&auml;evade l&otilde;puni loksuda . </s> <s> Viinamarjad on hapud &mdash; seep&auml;rast tulebki too p&ouml;&ouml;raselt p&otilde;nev v&otilde;itlustanner k&otilde;rbeks ristida ja m&auml;ngida m&auml;ngu , et tegelikult on see nii p&ouml;&ouml;raselt paheline koht . </s> <s> Paheline ? </s> </p>
+<p> <s>Ta hajameelne pilk tabas viimastest ridadest &uuml;he tuttava n&auml;o ... </s> <s> Eneli ! </s> <s> Vaikne leebe Eneli , kuidas oli ta tema nii kauaks unustanud ? </s> <s> Muidugi ta teadis , kuidas ta lapsep&otilde;lves&otilde;branna nii kauaks unarusse on j&auml;tnud , kuid hetkeks t&otilde;i nii tuttava n&auml;o n&auml;gemine ta huulile pehme naeratuse . </s> <s> See kustus kiiresti peidetud ohkesse , sest ... ta m&auml;letas h&auml;sti , kuidas oli pidanud valima Eneli ja selle seltskonna vahel , kuhu ta kuuluda tahtis . </s> <s> Liiga totter oleks olnud j&auml;tta nii kaua ihaldatud eesm&auml;rk sinnapaika lihtsalt sellep&auml;rast , et lihtsameelsele s&otilde;brannale lohutust pakkuda . </s> <s> Iga&uuml;ks peab oma j&otilde;ududega hakkama saama . </s> </p>
+<p> <s>Madal trummip&otilde;rin muutus &uuml;ha pinevamaks . </s> <s> Laura pilk libises &uuml;le viimase rea ning korraga j&auml;ttis ta s&uuml;da t&otilde;epoolest l&ouml;&ouml;gi vahele ja ta taskur&auml;tikut hoidev vasak k&auml;si klammerdus loozhiserva punasesse sametisse , nii et teravad s&otilde;rmenukid valgeks t&otilde;mbusid . </s> <s> Tagumises reas istus ema . </s> </p>
+<p> <s>Meeletu trummir&uuml;tm l&otilde;ppes k&otilde;rvulukustava l&ouml;&ouml;giga ning &auml;kilisele helile tahtmatult reageerides p&ouml;&ouml;ras Laura hetkeks pilgu lavale , vaatas mittemidagin&auml;geva pilguga r&auml;ndurit , kes oli ennast kuivanud oaasis raagus puu oksa k&uuml;lge poonud ning rippus seal nagu s&uuml;gavaima meeleheite kehastus , deemon sealsamas k&otilde;rval istumas ja ootamas ... </s> </p>
+<p> <s>Laval toimuvat v&auml;himalgi m&auml;&auml;ral teadvustamata vaatas Laura tagasi viimasesse ritta . </s> <s> Koht , kus ta oli n&auml;inud ... oli t&uuml;hi . </s> <s> Eneli ... </s> <s> Eneli ... </s> <s> Oli midagi , mille ta oli unustanud , mis oli &auml;&auml;rmiselt t&auml;htis , mis pidi meelde tulema ! </s> </p>
+<p> <s>Deemon kriiskas p&otilde;rgulikult , haarates p&otilde;geneda p&uuml;&uuml;dva hinge k&uuml;&uuml;nte vahele ning rebides vasturabelevat &otilde;rna olevust oma pikkade k&uuml;&uuml;niste ja kihvadega , kuni ohvri meeletu rabelemine vaibus j&otilde;uetuks tukslemiseks . </s> <s> Siis kustus seegi . </s> <s> R&auml;ndur oli surnud . </s> <s> Surnud ... </s> </p>
+<p> <s>Laura surus taskur&auml;ti suule ja tormas loozhist v&auml;lja , j&auml;ttes lakei endale jahmunult j&auml;rele vaatama . </s> <s> Ta jooksis laiast trepist alla nii kiiresti , kui suutis , ja ometi tundus see talle sama aeglasena nagu unen&auml;os p&otilde;genemine &mdash; &otilde;hk tundus raskestil&auml;bitava takistusena , k&auml;ed ja jalad ahastamapanevalt j&otilde;uetutena , keskaegne kuningannakleit takistas jooksmast ... </s> </p>
+<p> <s>Surnud ! </s> <s> Eneli oli surnud . </s> <s> Kuidas ta sai selle &auml;ra unustada ? ! </s> <s> See v&auml;ike musta raamiga kaart ta postkastis ... </s> <s> Matus , kuhu ta ei j&otilde;udnud &mdash; ema saatis talle k&uuml;ll m&otilde;ned pildid , aga ta pani nad kuhugi &auml;ra ... kuhu , ei m&auml;leta . </s> <s> Seal ei olnudki &otilde;ieti midagi erilist ... </s> <s> Tavaline matus ... </s> <s> Vastik s&uuml;gisene ilm ... </s> <s> Raagus p&auml;rnad ... </s> <s> Elupuud ... </s> </p>
+<p> <s>Ta l&otilde;i teatri k&otilde;rge v&auml;lisukse lahti ja hingas t&auml;ie rinnaga v&auml;rsket &otilde;hku . </s> <s> L&auml;mbumisetunne leevenes pisut , kuid iha pageda oli endiselt tugev : teater oli nagu ahistav unen&auml;gu , millest tuli p&otilde;geneda , ennast teadvusele raputada , &auml;rgata ... </s> <s> Ta laskis ukse enda j&auml;rel kinni langeda ja jooksis kontsade kl&otilde;binal marmortrepist alla : sealsamas , &uuml;le tee seisis vaba takso &mdash; tema proosaline p&auml;&auml;semine . </s> </p>
+<p> <s>Tugev tuulehoog l&uuml;kkas raske teatriukse k&otilde;rvulukustava pauguga kinni just sel hetkel , kui Laura takso poole tormates otse kihutava auto ette jooksis . </s> <s> Mustas ja niklis l&auml;ikiv luksuslikult j&otilde;uline loom murdis ta kokku ja p&uuml;hkis teelt k&otilde;rvale nagu rohuk&otilde;rre . </s> <s> Ta j&auml;i lumisele teeservale liikumatu punase laiguna lebama &mdash; punases kleidis , lahtirebitud soontest voolamas tumepunane veri . </s> </p>
+<p> <s>&Uuml;mbritsev maailm muutus h&auml;maraks , t&auml;navalaternad , mis talle n&auml;kku s&auml;rasid , tuhmusid , nagu paistaksid nad l&auml;bi s&uuml;gava vee . </s> <s> &Otilde;ieti ta vajuski h&auml;marasse sooja s&uuml;gavasse vette . </s> <s> Ka helid tuhmusid &mdash; loomulikult , s&uuml;gavas vees neid ju ei kuule ... </s> <s> Pidurite krigin kostis &otilde;ige kaugelt &mdash; kusagilt teisest maailmast ja teisest ajast , t&auml;iesti temassepuutumatult . </s> </p>
+<p> <s>Laura p&uuml;&uuml;dis k&otilde;igest hingest taas selgelt m&otilde;telda , ning mingil uskumatul moel see &otilde;nnestuski , kustuvate meelte kiuste . </s> <s> Ta tajus , et lihtsam oleks lasta teadvuski unen&auml;omaailma libiseda , et minna v&otilde;imalikult valutult , peaaegu &uuml;ksk&otilde;ikselt &uuml;le piiri , kuid ta ei julgenud . </s> </p>
+<p> <s>Viimast korda sisse hingates j&otilde;udis temani kindel teadmine , et see , mida ta ootas , oligi k&auml;es . </s> <s> Imel&uuml;hike hetk enne seda , kui too kummaline isikup&auml;ra v&auml;ljendus , mida ta senini oma igaveseks hingeks pidas , l&otilde;plikult pimedusse lahustus , sai ta jahmatava selgusega aru , et edasi ei tulegi enam mitte midagi . </s> <s> Absoluutselt midagi . </s> <s> Eesootav halastamatu olematus oli nagu l&otilde;putu pimedus , iseenesestm&otilde;istetav ja igavene . </s> <s> Viimast korda v&auml;lja hingates tundis Laura &uuml;htaegu &auml;ngistavat hirmu ja samas t&otilde;elist , lausa lapsikult v&otilde;idur&otilde;&otilde;msat kergendust . </s> </p>
+<p> <s>Kustuva teadvuse tagasopis keerles mingi kummaline rahutus &mdash; oli midagi , mis j&auml;i arusaamatuks , mingi lahendamata vastur&auml;&auml;kivus selles t&uuml;hjuses , millega ta silmitsi seisis , aga mis see k&uuml;ll oli ... ja miks ... k&uuml;simus kadus olematusesse enne , kui j&otilde;udis s&uuml;ndidagi . </s> </p> </div0> </body> </text> 

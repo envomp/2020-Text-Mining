@@ -1,0 +1,754 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Inimgeeniuuringute seadus ( jaan 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4322</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Inimgeeniuuringute seadus ( jaan 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=10></tagusage>
+         <tagusage gi=p occurs=216></tagusage>
+         <tagusage gi=s occurs=286></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Inimgeeniuuringute seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 13. detsembril 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 104 , 685 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 8. jaanuaril 2001. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse eesm&auml;rk ja reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse eesm&auml;rk on reguleerida geenivaramu loomist ja pidamist ning selleks vajalike geeniuuringute tegemist , kindlustades seejuures geenidoonorluse vabatahtlikkuse ja geenidoonori isiku salastatuse , ning kaitsta inimesi geeniandmete kuritarvitamise ja nende DNA &uuml;lesehituse ning sellest johtuvate p&auml;rilikkusriskide p&otilde;hjal diskrimineerimise eest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seadusega s&auml;testatakse :</s>
+</p>
+<p>
+<s>1 ) koeproovide , DNA kirjelduste , terviseseisundi kirjelduste ja sugupuude geenivaramus t&ouml;&ouml;tlemise tingimused ;</s>
+</p>
+<p>
+<s>2 ) geenivaramu geenidoonori , vastutava ja volitatud t&ouml;&ouml;tleja ning geeniuurija &otilde;igused ja kohustused seoses koeproovide , DNA kirjelduste , terviseseisundi kirjelduste ja sugupuudega ;</s>
+</p>
+<p>
+<s>3 ) geenivaramu loomise ja pidamise tingimused ;</s>
+</p>
+<p>
+<s>4 ) piirangud geenivaramusse kogutud koeproovide , DNA kirjelduste , terviseseisundi kirjelduste ning sugupuude kasutamisel ;</s>
+</p>
+<p>
+<s>5 ) geenivaramuga seotud geeniuuringute tegemise ja j&auml;relevalve organiseerimise tingimused .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;isted</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses kasutatakse m&otilde;isteid j&auml;rgmises t&auml;henduses :</s>
+</p>
+<p>
+<s>1 ) DNA - desoks&uuml;ribonukleiinhappe molekul , millesse on salvestunud inimese p&auml;rilikkuse informatsioon ;</s>
+</p>
+<p>
+<s>2 ) koeproov - inimeselt geeniuuringuteks v&otilde;etud rakud , rakkudevaheline aine ja kehavedelikud ;</s>
+</p>
+<p>
+<s>3 ) DNA kirjeldus - geeniuuringute tulemusena loodud DNA digitaalne mudel ;</s>
+</p>
+<p>
+<s>4 ) geenidoonor - inimene , kes annab k&auml;esoleva seaduse alusel oma koeproovi ja kelle kohta koostatakse terviseseisundi kirjeldus ning sugupuu ;</s>
+</p>
+<p>
+<s>5 ) terviseseisundi kirjeldus - geeniuuringutes kasutamiseks kogutud andmed , mis kajastavad geenidoonori tervislikku seisundit , p&otilde;etud haigusi ja nende ravi , eluviisi , elukeskkonda ja p&auml;rilikke omadusi ;</s>
+</p>
+<p>
+<s>6 ) sugupuu - geenivaramus olev teave geenidoonori &uuml;lenejate ja alanejate sugulaste nime , s&uuml;nniaja ja suguluse kohta ;</s>
+</p>
+<p>
+<s>7 ) geeniuuring - DNA , koeproovi teiste koostisosade , terviseseisundi kirjelduste ja sugupuude teaduslik uurimine , kirjeldamine ja nendevaheliste seoste kindlakstegemine eesm&auml;rgiga saada andmeid inimese geenide , geeniproduktide ja p&auml;rilike omaduste kohta ;</s>
+</p>
+<p>
+<s>8 ) geeniuurija - f&uuml;&uuml;siline v&otilde;i juriidiline isik v&otilde;i riigi- v&otilde;i kohaliku omavalitsuse asutus , kes teostab geeniuuringuid ;</s>
+</p>
+<p>
+<s>9 ) geeniandmed - teave , mida saadakse geeniuuringute tulemusena inimese geenide , geeniproduktide v&otilde;i p&auml;rilike omaduste kohta , sealhulgas DNA v&otilde;i selle osa kirjeldus ;</s>
+</p>
+<p>
+<s>10 ) geenivaramu - koeproovide , DNA kirjelduste , terviseseisundi kirjelduste , sugupuude , geeniandmete ja geenidoonori isiku tuvastamist v&otilde;imaldavate andmete kogu , mille loob ja mida peab vastutav t&ouml;&ouml;tleja ;</s>
+</p>
+<p>
+<s>11 ) kodeerimine - koeproovi , DNA kirjelduse , terviseseisundi kirjelduse ja sugupuu juures isiku tuvastamist v&otilde;imaldavate andmete asendamine kordumatu tunnuskoodiga ;</s>
+</p>
+<p>
+<s>12 ) tagasikodeerimine - koeproovile , DNA kirjeldusele , terviseseisundi kirjeldusele ja sugupuule antud kordumatu tunnuskoodi abil geenidoonori isiku tuvastamine v&otilde;i geenidoonori isikust l&auml;htuvalt tema koeproovi , DNA kirjelduse v&otilde;i terviseseisundi kirjelduse tuvastamine .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Geenivaramu vastutav t&ouml;&ouml;tleja</s>
+</p>
+<p>
+<s>( 1 ) Geenivaramu vastutav t&ouml;&ouml;tleja on Eesti Vabariigi poolt riigi poolt era&otilde;iguslike juriidiliste isikute asutamise ja nendes osalemise seaduse ( RT I 1996 , 48 , 942 ; 73 , &otilde;iend ; 1998 , 59 , 941 ) alusel Sotsiaalministeeriumi valitsemisalas asutatud sihtasutus , kellel on &otilde;igus korraldada koeproovide v&otilde;tmist , koostada terviseseisundi kirjeldusi ja sugupuusid , neid kodeerida ja tagasi kodeerida , s&auml;ilitada , h&auml;vitada , v&auml;ljastada , teha geeniuuringuid ning koguda , s&auml;ilitada , h&auml;vitada ja v&auml;ljastada geeniandmeid .</s>
+</p>
+<p>
+<s>( 2 ) Vastutava t&ouml;&ouml;tleja eesm&auml;rk on :</s>
+</p>
+<p>
+<s>1 ) edendada geeniuuringute arengut ;</s>
+</p>
+<p>
+<s>2 ) koguda teavet Eesti rahvastiku tervise ja p&auml;rilikkuse informatsiooni kohta ;</s>
+</p>
+<p>
+<s>3 ) rakendada geeniuuringute tulemused rahva tervise parandamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Eesm&auml;rgi saavutamiseks on vastutava t&ouml;&ouml;tleja p&auml;devuses geenivaramu loomine ja pidamine .</s><s>Vastutav t&ouml;&ouml;tleja v&otilde;ib k&auml;esolevas seaduses etten&auml;htud juhtudel ja tingimustel anda t&ouml;&ouml;tlemise &otilde;igused lepingu alusel &uuml;le volitatud t&ouml;&ouml;tlejale , v&auml;lja arvatud &otilde;iguse kodeerida ja tagasi kodeerida .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Geenivaramu vastutava t&ouml;&ouml;tleja n&otilde;ukogu</s>
+</p>
+<p>
+<s>( 1 ) Geenivaramu vastutava t&ouml;&ouml;tleja n&otilde;ukogul on &uuml;heksa liiget .</s><s>Riigikogu sotsiaalkomisjoni ettepanekul nimetab Riigikogu kolm n&otilde;ukogu liiget .</s><s>Vabariigi Valitsus nimetab kolm n&otilde;ukogu liiget .</s><s>Eesti Teaduste Akadeemia juhatus nimetab kolm n&otilde;ukogu liiget .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;ukogu liikme volituste t&auml;htaeg on &uuml;ks kuni viis aastat .</s><s>N&otilde;ukogu liikme volituste l&otilde;ppemise t&auml;htp&auml;ev m&auml;&auml;ratakse kindlaks n&otilde;ukogu liikme nimetamisel .</s><s>Kui n&otilde;ukogusse on nimetatud Riigikogu v&otilde;i Vabariigi Valitsuse liige , l&otilde;pevad selle n&otilde;ukogu liikme volitused koos volituste l&otilde;ppemisega Riigikogu v&otilde;i Vabariigi Valitsuse liikmena .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;ukogu liikme nimetanu kutsub n&otilde;ukogu liikme tagasi m&otilde;juva p&otilde;hjuse ilmnemisel , milleks on eelk&otilde;ige kohustuste olulisel m&auml;&auml;ral t&auml;itmata j&auml;tmine , p&uuml;siv huvide konflikt v&otilde;i v&otilde;imetus osaleda n&otilde;ukogu t&ouml;&ouml;s v&otilde;i muul viisil geenivaramu vastutava t&ouml;&ouml;tleja huvide oluline kahjustamine , samuti n&otilde;ukogu liikme vastu pankrotimenetluse alustamise korral .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Geenivaramu volitatud t&ouml;&ouml;tleja</s>
+</p>
+<p>
+<s>Geenivaramu volitatud t&ouml;&ouml;tleja on f&uuml;&uuml;siline v&otilde;i juriidiline isik v&otilde;i Eesti riigi- v&otilde;i kohaliku omavalitsuse asutus , kes v&otilde;ib saada vastutavalt t&ouml;&ouml;tlejalt lepingu alusel k&otilde;ik t&ouml;&ouml;tlemise &otilde;igused peale kodeerimise ja tagasikodeerimise &otilde;iguse .</s><s>Volitatud t&ouml;&ouml;tlejale esitatavad n&otilde;uded kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Geeniuuringud ja geenitestid</s>
+</p>
+<p>
+<s>( 1 ) Geenivaramuga seotud geeniuuringud on lubatud geenide , elukeskkonna ja inimeste eluviisi vaheliste seoste uurimiseks ja kirjeldamiseks , selle p&otilde;hjal ravimite v&otilde;i ravimeetodite leidmiseks , individuaalsete terviseriskide hindamiseks ning haiguste ennetamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Seadusega s&auml;testatud korras ja eesm&auml;rgil on lubatud l&auml;bi viia geeniteste , millele ei laiene k&auml;esoleva seaduse 2. , 3. ja 4. peat&uuml;ki s&auml;tted .</s><s>Geenitesti k&auml;igus inimeselt v&otilde;etud koeproovi ja selle uurimise tulemusena saadavaid andmeid ei lisata geenivaramusse .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Isikuandmete t&ouml;&ouml;tlemist reguleerivate s&auml;tete kohaldamine</s>
+</p>
+<p>
+<s>( 1 ) Koeproovi v&otilde;tmise , terviseseisundi kirjelduse koostamise , kodeerimise , tagasikodeerimise ja vastutava t&ouml;&ouml;tleja andmekogude pidamise suhtes kohaldatakse isikuandmete t&ouml;&ouml;tlemist reguleerivaid isikuandmete kaitse seaduse ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ; 2000 , 50 , 317 ; 92 , 597 ) s&auml;tteid koos k&auml;esolevas seaduses s&auml;testatud erisustega .</s>
+</p>
+<p>
+<s>( 2 ) Kodeeritud koeproovide , kodeeritud DNA kirjelduste ja kodeeritud terviseseisundi kirjelduste t&ouml;&ouml;tlemise suhtes ei kohaldata isikuandmete t&ouml;&ouml;tlemist reguleerivaid s&auml;tteid juhul , kui koeproove , DNA kirjeldusi v&otilde;i terviseseisundi kirjeldusi t&ouml;&ouml;deldakse hulgana ja tingimusel , et t&ouml;&ouml;deldavaid proove v&otilde;i kirjeldusi on &uuml;heaegselt v&auml;hemalt viie geenidoonori kohta .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Geenidoonori &otilde;igused</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Geenidoonorluse salastatus</s>
+</p>
+<p>
+<s>( 1 ) Geenidoonori isik peab p&auml;rast kodeerimist j&auml;&auml;ma salastatuks .</s>
+</p>
+<p>
+<s>( 2 ) Geenidoonoril on &otilde;igus lubada oma isiku avalikustamist .</s>
+</p>
+<p>
+<s>( 3 ) Geenidoonoriks olemise v&otilde;i mitteolemise fakt peab j&auml;&auml;ma salastatuks .</s><s>Ainult isikul endal on &otilde;igus avaldada geenidoonoriks olemise v&otilde;i mitteolemise fakti ja asjaolusid , kui seaduses ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 4 ) Kodeerimine ja tagasikodeerimine peab toimuma koosk&otilde;las k&auml;esoleva seaduse n&otilde;uetega .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Geenidoonorluse vabatahtlikkus</s>
+</p>
+<p>
+<s>( 1 ) Koeproovi v&otilde;tmine , terviseseisundi kirjelduse ja sugupuu koostamine on ilma isiku teadliku ja vabatahtlikult antud n&otilde;usolekuta keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Isiku geenidoonoriks hakkamise otsuse m&otilde;jutamine , sealhulgas &auml;hvardades negatiivse tagaj&auml;rjega , lubades ainelisi h&uuml;vesid v&otilde;i andes hinnangulist teavet , on keelatud .</s>
+</p>
+<p>
+<s>( 3 ) Vastutaval t&ouml;&ouml;tlejal ja volitatud t&ouml;&ouml;tlejal on lubatud geenivaramu ja geeniuuringute kohta levitada &uuml;ksnes &uuml;ldise iseloomuga teavet .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>&Otilde;igus taotleda materjali h&auml;vitamist</s>
+</p>
+<p>
+<s>( 1 ) Geenidoonoril on igal ajal &otilde;igus taotleda vastutavalt t&ouml;&ouml;tlejalt tagasikodeerimist v&otilde;imaldavate andmete h&auml;vitamist vastavalt k&auml;esoleva seaduse &sect; 21 s&auml;tetele .</s>
+</p>
+<p>
+<s>( 2 ) Kui geenidoonori isik on avalikustatud &otilde;igusvastaselt , on geenidoonoril &otilde;igus taotleda vastutavalt t&ouml;&ouml;tlejalt koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse h&auml;vitamist vastavalt k&auml;esoleva seaduse &sect; 21 s&auml;tetele .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Geenidoonori muud &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Geenidoonoril on &otilde;igus mitte teada enda geeniandmeid .</s>
+</p>
+<p>
+<s>( 2 ) Geenidoonoril on &otilde;igus isiklikult tutvuda tema kohta geenivaramus hoitavate andmetega .</s><s>Geenidoonoril ei ole &otilde;igust tutvuda enda sugupuuga .</s>
+</p>
+<p>
+<s>( 3 ) Geenidoonorilt ei v&otilde;i n&otilde;uda tasu tema kohta geenivaramus hoitavate andmetega tutvumise eest .</s>
+</p>
+<p>
+<s>( 4 ) Geenidoonoril on &otilde;igus geneetilisele n&otilde;ustamisele tema kohta geenivaramus hoitavate andmetega tutvumisel .</s>
+</p>
+<p>
+<s>( 5 ) Geenidoonoril on &otilde;igus esitada vastutavale t&ouml;&ouml;tlejale enda kohta t&auml;iendavaid andmeid .</s>
+</p>
+<p>
+<s>( 6 ) Geenidoonoril on &otilde;igus keelata tema kohta geenivaramus hoitava terviseseisundi kirjelduse t&auml;iendamine , uuendamine ja kontrollimine .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Geenidoonoriks saamise n&otilde;usolek</s>
+</p>
+<p>
+<s>( 1 ) Isiku n&otilde;usolek v&otilde;tta temalt koeproov , koostada tema terviseseisundi kirjeldus ja sugupuu , kanda need kodeerituna geenivaramusse ning kasutada neid geeniuuringuteks , rahva tervise uurimiseks ja statistilistel eesm&auml;rkidel , vormistatakse kirjalikult ning sellele kirjutab alla geenidoonoriks saav isik .</s>
+</p>
+<p>
+<s>( 2 ) Osaliselt v&otilde;i tingimuslikult antud n&otilde;usolek ei ole kehtiv .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumendis peavad lisaks n&otilde;usoleku v&auml;ljendusele ja geenidoonoriks saava isiku allkirjale sisalduma j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) isiku nimi ja isikukood v&otilde;i selle puudumisel sugu , s&uuml;nniaeg ja elukoht ;</s>
+</p>
+<p>
+<s>2 ) koeproovi v&otilde;tva raviasutuse v&otilde;i perearsti andmed ;</s>
+</p>
+<p>
+<s>3 ) missugusest kehaosast ja mil viisil koeproov v&otilde;etakse ;</s>
+</p>
+<p>
+<s>4 ) n&otilde;usoleku andmise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 4 ) Vastutav t&ouml;&ouml;tleja v&otilde;i volitatud t&ouml;&ouml;tleja peab enne isiku poolt n&otilde;usoleku andmist teavitama teda j&auml;rgmistest asjaoludest :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud n&otilde;usoleku andmine on vabatahtlik ;</s>
+</p>
+<p>
+<s>2 ) geenidoonoril ei ole &otilde;igust n&otilde;uda koeproovi v&otilde;tmise , terviseseisundi kirjelduse v&otilde;i sugupuu koostamise , uurimise ja uurimistulemuste kasutamise eest tasu ;</s>
+</p>
+<p>
+<s>3 ) geeniuuringute tulemusena saadud andmed p&auml;rilike omaduste ja p&auml;rilikkusriskide kohta v&otilde;ivad olla geenidoonorile ebameeldivad ;</s>
+</p>
+<p>
+<s>4 ) geenidoonoril on &otilde;igus mitte teada oma geeniandmeid ;</s>
+</p>
+<p>
+<s>5 ) geenidoonoril on &otilde;igus teada oma geeniandmeid , v&auml;lja arvatud sugupuud ;</s>
+</p>
+<p>
+<s>6 ) geenidoonoril on &otilde;igus taotleda vastutavalt t&ouml;&ouml;tlejalt tagasikodeerimist v&otilde;imaldavate andmete h&auml;vitamist v&otilde;i tema isiku &otilde;igusvastasel avalikustamisel koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse h&auml;vitamist ;</s>
+</p>
+<p>
+<s>7 ) geenidoonoril on &otilde;igus enda n&otilde;usolek tagasi v&otilde;tta kuni tema koeproovi v&otilde;i terviseseisundi kirjelduse kodeerimiseni .</s>
+</p>
+<p>
+<s>( 5 ) Vastutav t&ouml;&ouml;tleja v&otilde;i volitatud t&ouml;&ouml;tleja , kellele geenidoonoriks saav isik annab oma n&otilde;usoleku , on kohustatud viivitamatult andma geenidoonorile tema kirjaliku n&otilde;usoleku koopia .</s>
+</p>
+<p>
+<s>( 6 ) Geenidoonori kirjalikku n&otilde;usolekut hoiab vastutav t&ouml;&ouml;tleja alal sama kaua kui koeproovi , terviseseisundi kirjeldust v&otilde;i DNA kirjeldust , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 1 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 7 ) Geenidoonoriks saamise kirjaliku n&otilde;usoleku vormi , selle t&auml;itmise ja s&auml;ilitamise korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Piiratud teov&otilde;imega ja otsusev&otilde;imetu isik</s>
+</p>
+<p>
+<s>( 1 ) Piiratud teov&otilde;imega isiku geenidoonoriks saamise n&otilde;usolek loetakse kehtivaks , kui on t&auml;idetud j&auml;rgmised tingimused :</s>
+</p>
+<p>
+<s>1 ) piiratud teov&otilde;imega isikule ja tema seaduslikule esindajale v&otilde;i eestkostjale on antud k&auml;esoleva seaduse &sect; 12 l&otilde;ikes 4 s&auml;testatud teavet ;</s>
+</p>
+<p>
+<s>2 ) seaduslik esindaja v&otilde;i eestkostja on v&auml;ljendanud k&auml;esoleva seaduse &sect; 12 l&otilde;ikes 1 s&auml;testatud n&otilde;usolekut ;</s>
+</p>
+<p>
+<s>3 ) piiratud teov&otilde;imega isik ei ole vastu temalt koeproovi v&otilde;tmisele ja terviseseisundi kirjelduste kogumisele .</s>
+</p>
+<p>
+<s>( 2 ) Geenidoonoriks ei saa olla isik , kes ei ole v&otilde;imeline n&otilde;usoleku sisust ja t&auml;hendusest aru saama .</s><s>Kahtluse korral eeldatakse isiku ajutist v&otilde;imetust aru saada n&otilde;usoleku sisust ja t&auml;hendusest .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Geenivaramu t&ouml;&ouml;tlemine</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Koeproovi v&otilde;tmine ja terviseseisundi kirjelduse koostamine</s>
+</p>
+<p>
+<s>( 1 ) Koeproovi v&otilde;tmise ja terviseseisundi kirjelduse koostamise korraldab vastutav t&ouml;&ouml;tleja ise v&otilde;i volitatud t&ouml;&ouml;tleja kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Koeproovi v&otilde;tmise meditsiinilise protseduuri tohib l&auml;bi viia Eesti Vabariigi tervishoiut&ouml;&ouml;taja .</s>
+</p>
+<p>
+<s>( 3 ) Terviseseisundi kirjelduse koostab ja seda t&auml;iendab vastutav t&ouml;&ouml;tleja v&otilde;i volitatud t&ouml;&ouml;tleja geenidoonori &uuml;tluste ning geenidoonori kohta raviasutustes hoitavate andmete p&otilde;hjal .</s><s>Geenidoonorilt v&otilde;ib koguda andmeid vaid tema enda p&otilde;etud haiguste kohta .</s><s>Geenidoonorile v&otilde;ib esitada k&uuml;simusi tema suguv&otilde;sas ilmnenud harjumuste v&otilde;i haiguste kohta .</s><s>Nimetatud k&uuml;simustega ei tohi olla v&otilde;imalik tuvastada konkreetset isikut v&otilde;i p&otilde;lvkonda .</s>
+</p>
+<p>
+<s>( 4 ) Sugupuu v&otilde;ib vastutav t&ouml;&ouml;tleja v&otilde;i volitatud t&ouml;&ouml;tleja koostada geenidoonori k&uuml;sitlemise , teiste andmekogude ning geeniuuringute p&otilde;hjal .</s>
+</p>
+<p>
+<s>( 5 ) Koeproovi v&otilde;tja ja terviseseisundi kirjelduse koostaja peab hoidma geenidoonori isiku , tema koeproovi , terviseseisundi kirjelduse ja sugupuu salastatust ning edastama geenidoonori isikuandmed , koeproovi , terviseseisundi kirjelduse ja sugupuu v&otilde;imalikult kiiresti vastutavale t&ouml;&ouml;tlejale v&otilde;i vastutava t&ouml;&ouml;tleja poolt m&auml;&auml;ratud volitatud t&ouml;&ouml;tlejale .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Koeproovi , terviseseisundi kirjelduse ja sugupuu omandi&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Koeproovi , terviseseisundi kirjelduse ja teiste isikuandmete ning sugupuu omandi&otilde;igus tekib vastutaval t&ouml;&ouml;tlejal vastavalt koeproovi ja isikuandmete andmise ning terviseseisundi kirjelduse ja sugupuu koostamise hetkest .</s>
+</p>
+<p>
+<s>( 2 ) Vastutava t&ouml;&ouml;tleja omandis olev koeproov ja kodeerimata andmed , samuti geenidoonori kirjalik n&otilde;usolek ei ole v&otilde;&otilde;randatavad .</s>
+</p>
+<p>
+<s>( 3 ) Geenidoonoril ei ole &otilde;igust n&otilde;uda koeproovi v&otilde;tmise , terviseseisundi kirjelduse v&otilde;i sugupuu koostamise , uurimise ja uurimistulemuste kasutamise eest tasu .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Geenivaramu kasutamise lubatavus</s>
+</p>
+<p>
+<s>( 1 ) Geenivaramut v&otilde;ib kasutada &uuml;ksnes teaduslikuks uurimist&ouml;&ouml;ks , geenidoonori haiguste uurimiseks ja raviks , rahva tervise uurimiseks ja statistilistel eesm&auml;rkidel .</s><s>Geenivaramu kasutamine muul otstarbel , eriti tsiviil- v&otilde;i kriminaalprotsessis t&otilde;endite kogumiseks v&otilde;i j&auml;litustegevuseks , on keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Geenidoonori arstil on geenidoonori ravimiseks &otilde;igus saada geenivaramust tagasikodeeritult geenidoonori terviseseisundi kirjeldus vastavalt k&auml;esoleva seaduse &sect; 24 l&otilde;ike 2 punktile 7.</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Sugupuu kasutamise lubatavus</s>
+</p>
+<p>
+<s>( 1 ) Sugupuud v&otilde;ib kasutada ainult geenivaramusiseselt koeproovide , DNA kirjelduste ja terviseseisundi kirjelduste struktureerimiseks sugulusseoste p&otilde;hjal .</s>
+</p>
+<p>
+<s>( 2 ) Vastutav t&ouml;&ouml;tleja v&otilde;ib geeniuurijale v&auml;ljastada kodeeritud koeproovide , kodeeritud DNA kirjelduste ja kodeeritud terviseseisundi kirjelduste vahelise seose suguluse p&otilde;hjal , j&auml;rgides k&auml;esoleva seaduse &sect; 22 l&otilde;ike 4 n&otilde;udeid .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Koeproovide , DNA kirjelduste ja terviseseisundi kirjelduste s&auml;ilitamine</s>
+</p>
+<p>
+<s>( 1 ) Koeproove , DNA kirjeldusi ja terviseseisundi kirjeldusi s&auml;ilitab vastutav t&ouml;&ouml;tleja v&otilde;i volitatud t&ouml;&ouml;tleja .</s>
+</p>
+<p>
+<s>( 2 ) Kodeeritud koeproove , kodeeritud DNA kirjeldusi ja kodeeritud terviseseisundi kirjeldusi v&otilde;ib s&auml;ilitada ka geeniuurija , kellel on olemas selleks vajalikud vahendid ja tingimused .</s><s>S&auml;ilitamise tingimused kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) S&auml;ilitamiseks s&otilde;lmib vastutav t&ouml;&ouml;tleja volitatud t&ouml;&ouml;tleja v&otilde;i geeniuurijaga lepingu , milles peavad olema kokku lepitud j&auml;rgmised tingimused :</s>
+</p>
+<p>
+<s>1 ) s&auml;ilitamiseks antavad koeproovid , DNA kirjeldused ja terviseseisundi kirjeldused ;</s>
+</p>
+<p>
+<s>2 ) volitatud t&ouml;&ouml;tlejale v&otilde;i geeniuurijale koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse &uuml;leandmise aeg ja t&auml;iendamise viis ;</s>
+</p>
+<p>
+<s>3 ) s&auml;ilitamise koht ja t&auml;htaeg ;</s>
+</p>
+<p>
+<s>4 ) s&auml;ilitamise viis ;</s>
+</p>
+<p>
+<s>5 ) s&auml;ilitaja poolt rakendatavad turvameetmed ;</s>
+</p>
+<p>
+<s>6 ) koeproovide , DNA kirjelduste v&otilde;i terviseseisundi kirjelduste paljundamise , jagamise , h&auml;vitamise , v&auml;ljastamise ja vastutavale t&ouml;&ouml;tlejale v&otilde;i volitatud t&ouml;&ouml;tlejale tagastamise kord ;</s>
+</p>
+<p>
+<s>7 ) volitatud t&ouml;&ouml;tleja v&otilde;i geeniuurija vastutus .</s>
+</p>
+<p>
+<s>( 4 ) Koeproove s&auml;ilitatakse Eesti Vabariigi territooriumil .</s><s>Vabariigi Valitsus v&otilde;ib vastutava t&ouml;&ouml;tleja taotlusel ja kaalukate p&otilde;hjuste ilmnemisel anda loa koeproovide s&auml;ilitamiseks v&auml;ljaspool Eesti Vabariigi territooriumi tingimusel , et on tagatud vastutava t&ouml;&ouml;tleja t&otilde;hus kontroll koeproovide &uuml;le ning et koeproove ei saa kasutada viisil , mida Eesti seadus keelab .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Geeniuuringu tulemustega seotud &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) DNA v&otilde;i DNA osa kirjeldus tuleb volitatud t&ouml;&ouml;tlejal v&otilde;i geeniuurijal tingimusteta &uuml;le anda vastutavale t&ouml;&ouml;tlejale .</s><s>Vastutav t&ouml;&ouml;tleja v&otilde;ib anda volitatud t&ouml;&ouml;tlejale v&otilde;i geeniuurijale DNA v&otilde;i DNA osa kirjelduse kasutamise &otilde;iguse tasu eest v&otilde;i tasuta .</s><s>Geeniuurijale , kes on Eesti Vabariigi avalik-&otilde;iguslik juriidiline isik v&otilde;i riigiasutus , annab vastutav t&ouml;&ouml;tleja &otilde;iguse kasutada DNA v&otilde;i DNA osa kirjeldust tasuta .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetamata geeniuuringute tulemused ja nendega seotud intellektuaalse omandi &otilde;igused s&auml;testatakse seaduses .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse v&auml;ljastamine ning v&auml;ljastamisprotokoll</s>
+</p>
+<p>
+<s>( 1 ) Geenivaramust v&auml;ljastab vastutav t&ouml;&ouml;tleja koeproove , DNA kirjeldusi ja terviseseisundi kirjeldusi ainult kodeerituna , v&auml;lja arvatud geenidoonorile v&otilde;i geenidoonori arstile geenidoonori kohta k&auml;ivate andmete v&auml;ljastamisel k&auml;esoleva seaduse &sect; 11 l&otilde;ikes 2 ja &sect; 16 l&otilde;ikes 2 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Koeproovi , DNA kirjelduse v&otilde;i terviseseisundi kirjelduse v&auml;ljastamisel koostab v&auml;ljastaja v&auml;ljastamisprotokolli , kuhu m&auml;rgitakse v&auml;ljastatud ja vastuv&otilde;etud koeproovid , DNA kirjeldused ja terviseseisundi kirjeldused ning &uuml;leandmise viis ja kuup&auml;ev .</s><s>V&auml;ljastamisprotokollile kirjutavad alla v&auml;ljastaja ja vastuv&otilde;tja esindajad .</s>
+</p>
+<p>
+<s>( 3 ) Kui v&auml;ljastajaks on volitatud t&ouml;&ouml;tleja , edastab v&auml;ljastaja v&auml;ljastamisprotokolli koopia viivitamatult vastutavale t&ouml;&ouml;tlejale .</s>
+</p>
+<p>
+<s>( 4 ) Koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse v&auml;ljastamise korra , sealhulgas v&auml;ljastamisprotokolli vormi , selle t&auml;itmise ja s&auml;ilitamise korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Tagasikodeerimist v&otilde;imaldavate andmete , koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse h&auml;vitamine ning h&auml;vitamisprotokoll</s>
+</p>
+<p>
+<s>( 1 ) Kui geenidoonor taotleb vastutavalt t&ouml;&ouml;tlejalt tagasikodeerimist v&otilde;imaldavate andmete h&auml;vitamist , on vastutav t&ouml;&ouml;tleja kohustatud h&auml;vitama tagasikodeerimist v&otilde;imaldavad andmed kahe n&auml;dala jooksul geenidoonorilt vastava kirjaliku taotluse saamisest .</s>
+</p>
+<p>
+<s>( 2 ) Kui geenidoonor taotleb vastutavalt t&ouml;&ouml;tlejalt koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse h&auml;vitamist tema isiku salastatuse &otilde;igusvastase avalikustamise t&otilde;ttu , on vastutav t&ouml;&ouml;tleja kohustatud korraldama koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse h&auml;vitamise &uuml;he kuu jooksul geenidoonori poolt vastava kirjaliku taotluse saamisest , kui ta ei t&otilde;enda , et geenidoonori isiku salastatus on avalikustatud geenidoonori enda k&auml;itumise tulemusena .</s>
+</p>
+<p>
+<s>( 3 ) Vastutav t&ouml;&ouml;tleja v&otilde;ib l&auml;htuda koeproovide , DNA kirjelduste ja terviseseisundi kirjelduste h&auml;vitamise korraldamisel k&auml;esoleva seaduse &sect; 20 alusel koostatud v&auml;ljastamisprotokollidest , andes h&auml;vitamise korralduse v&auml;ljastamisprotokollis nimetatud vastuv&otilde;tjale .</s>
+</p>
+<p>
+<s>( 4 ) K&otilde;ik isikud , kelle valduses on konkreetne koeproov , DNA kirjeldus v&otilde;i terviseseisundi kirjeldus , on vastutava t&ouml;&ouml;tleja korraldusel kohustatud oma kulul viivitamatult h&auml;vitama konkreetse koeproovi , DNA kirjelduse v&otilde;i terviseseisundi kirjelduse .</s>
+</p>
+<p>
+<s>( 5 ) Tagasikodeerimist v&otilde;imaldavate andmete , koeproovi , DNA kirjelduse v&otilde;i terviseseisundi kirjelduse h&auml;vitamisel koostab h&auml;vitaja h&auml;vitamisprotokolli , kuhu m&auml;rgitakse h&auml;vitatud objekt , h&auml;vitamise viis , koht ja kuup&auml;ev .</s><s>Kui h&auml;vitajaks ei ole vastutav t&ouml;&ouml;tleja , edastab h&auml;vitaja h&auml;vitamisprotokolli koopia viivitamatult vastutavale t&ouml;&ouml;tlejale .</s>
+</p>
+<p>
+<s>( 6 ) Tagasikodeerimist v&otilde;imaldavate andmete , koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse h&auml;vitamise korra , sealhulgas h&auml;vitamisprotokolli vormi , selle t&auml;itmise ja s&auml;ilitamise korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Andmekaitse</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Andmekaitse &uuml;ldn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Geenivaramu andmete t&ouml;&ouml;tlemine peab vastama andmekaitse k&otilde;rgeimale standardile .</s>
+</p>
+<p>
+<s>( 2 ) Geenidoonori isiku tuvastamist v&otilde;imaldavad andmed ei tohi olla tehniliselt k&auml;ttesaadavad geenivaramu v&auml;lise arvutiv&otilde;rgu kaudu .</s>
+</p>
+<p>
+<s>( 3 ) Vastutav t&ouml;&ouml;tleja m&auml;&auml;rab nimeliselt isikud , kes teostavad kodeerimist v&otilde;i tagasikodeerimist , kellel on juurdep&auml;&auml;s geenidoonorite n&otilde;usolekutele , koeproovide ja DNA kirjelduste kogule , terviseseisundi kirjeldustele ja sugupuudele ning kes v&auml;ljastavad kodeeritud v&otilde;i kodeerimata koeproove , DNA kirjeldusi v&otilde;i terviseseisundi kirjeldusi .</s>
+</p>
+<p>
+<s>( 4 ) Vastutav t&ouml;&ouml;tleja v&otilde;ib geenivaramust v&auml;ljastada koeproove , DNA kirjeldusi v&otilde;i terviseseisundi kirjeldusi ainult kodeerituna , hulgana ja tingimusel , et v&auml;ljastatavaid proove v&otilde;i andmeid on &uuml;heaegselt v&auml;hemalt viie geenidoonori kohta .</s><s>Erandiks on k&auml;esoleva seaduse &sect; 11 l&otilde;ikes 2 ja &sect; 16 l&otilde;ikes 2 s&auml;testatud juhud .</s>
+</p>
+<p>
+<s>( 5 ) Geenivaramusse kantavate andmete t&otilde;esuse kontrolliks enne nende kodeerimist on vastutaval t&ouml;&ouml;tlejal ja volitatud t&ouml;&ouml;tlejal lubatud nende andmete v&otilde;rdlemine teistes andmekogudes s&auml;ilitatavate andmetega .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kodeerimine</s>
+</p>
+<p>
+<s>( 1 ) Vastutav t&ouml;&ouml;tleja annab koeproovile , DNA kirjeldusele , terviseseisundi kirjeldusele ning sugupuule viivitamatult p&auml;rast koeproovi , DNA kirjelduse , terviseseisundi kirjelduse ning sugupuu vastuv&otilde;tmist geenivaramusse kordumatu , v&auml;hemalt 16-kohalise juhuslikest numbri- v&otilde;i t&auml;hem&auml;rkidest koosneva koodi .</s><s>Koodi genereerimise meetodi koosk&otilde;lastab vastutav t&ouml;&ouml;tleja andmekaitse j&auml;relevalveasutusega .</s>
+</p>
+<p>
+<s>( 2 ) Vastutav t&ouml;&ouml;tleja asendab koodiga koeproovi , DNA kirjelduse ja terviseseisundi kirjelduse juures k&otilde;ik andmed , mis v&otilde;imaldavad geenidoonori isikut tuvastada , sealhulgas nime , isikukoodi , s&uuml;nniaja ja elukoha .</s>
+</p>
+<p>
+<s>( 3 ) Koeproovile , DNA kirjeldusele , terviseseisundi kirjeldusele ja sugupuule antud koodi m&auml;rgib vastutav t&ouml;&ouml;tleja ka geenidoonori kirjalikule n&otilde;usolekule .</s><s>Koodiga m&auml;rgitud kirjalikku n&otilde;usolekut hoiab vastutav t&ouml;&ouml;tleja geenivaramu andmekogus ning see peab olema tagasikodeerimise ainus v&otilde;imalik v&otilde;ti .</s>
+</p>
+<p>
+<s>( 4 ) Vastutav t&ouml;&ouml;tleja v&otilde;ib suurema turvalisuse huvides anda kodeeritud koeproovile , kodeeritud DNA kirjeldusele , kodeeritud terviseseisundi kirjeldusele ja kodeeritud sugupuule t&auml;iendava koodi , millega asendatakse koeproovi , DNA kirjelduse , terviseseisundi kirjelduse ja sugupuu juures esialgne kood .</s><s>Esialgse koodi ja t&auml;iendava koodi seosed salvestab vastutav t&ouml;&ouml;tleja eraldi ainult sellel otstarbel kasutatavas andmekogus .</s>
+</p>
+<p>
+<s>( 5 ) Vastutav t&ouml;&ouml;tleja , volitatud t&ouml;&ouml;tleja ja geeniuurija on kohustatud t&auml;histama koeproovi , DNA kirjelduse , terviseseisundi kirjeldust ja sugupuu ainult vastutava t&ouml;&ouml;tleja poolt sellele koeproovile , DNA kirjeldusele , terviseseisundi kirjeldusele ja sugupuule antud koodiga .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Tagasikodeerimine</s>
+</p>
+<p>
+<s>( 1 ) Juurdep&auml;&auml;s koodiga m&auml;rgitud kirjalikule n&otilde;usolekule ning tehniline v&otilde;imalus tagasikodeerimiseks tohib olla ainult k&auml;esoleva seaduse &sect; 22 l&otilde;ike 3 alusel m&auml;&auml;ratud isikutel .</s>
+</p>
+<p>
+<s>( 2 ) Tagasikodeerimine on vastutaval t&ouml;&ouml;tlejal lubatud ainult j&auml;rgmistel juhtudel ja otstarbel :</s>
+</p>
+<p>
+<s>1 ) koeproovi , DNA kirjelduse v&otilde;i terviseseisundi kirjelduse v&otilde;i tagasikodeerimist v&otilde;imaldavate andmete h&auml;vitamiseks ;</s>
+</p>
+<p>
+<s>2 ) geenidoonori kohta geenivaramus hoitavate andmetega , v&auml;lja arvatud sugupuuga tutvumise v&otilde;imaldamiseks , kui geenidoonor seda kirjalikult taotleb ;</s>
+</p>
+<p>
+<s>3 ) terviseseisundi kirjelduse uuendamiseks , t&auml;iendamiseks v&otilde;i kontrollimiseks ilma geenidoonoriga &uuml;hendust v&otilde;tmata , kui geenidoonor ei ole keelanud tema terviseseisundi kirjelduse t&auml;iendamist , uuendamist v&otilde;i kontrollimist ;</s>
+</p>
+<p>
+<s>4 ) vastutava t&ouml;&ouml;tleja ettepanekul ja eetikakomitee n&otilde;usolekul geenidoonori tuvastamiseks , temaga &uuml;henduse v&otilde;tmiseks ning tema kirjalikul n&otilde;usolekul terviseseisundi kirjelduse uuendamiseks , t&auml;iendamiseks v&otilde;i kontrollimiseks ;</s>
+</p>
+<p>
+<s>5 ) geenidoonori tuvastamiseks ja tema kirjalikul n&otilde;usolekul uue DNA proovi v&otilde;tmiseks , kui koeproov on h&auml;vinud v&otilde;i ei sisalda piisaval hulgal DNA-d ;</s>
+</p>
+<p>
+<s>6 ) geenidoonori tuvastamiseks geenivaramusiseselt ning tema sugupuusse t&auml;ienduse v&otilde;i muudatuse tegemiseks , kui DNA uurimise tulemused on vastuolus seni teada oleva sugupuuga v&otilde;i annavad selle kohta uut teavet ;</s>
+</p>
+<p>
+<s>7 ) geenidoonori terviseseisundi kirjelduse v&auml;ljastamiseks geenidoonori n&otilde;usolekul geenidoonori arstile , kui geenidoonori arst seda taotleb .</s><s>Kui geenidoonor ei ole v&otilde;imeline n&otilde;usolekut andma ning tal puudub seaduslik esindaja v&otilde;i eestkostja v&otilde;i tema seaduslik esindaja v&otilde;i eestkostja ei ole k&auml;ttesaadav , siis edasil&uuml;kkamatul juhul ilma geenidoonori n&otilde;usolekuta , kuid tema huvides ja vastavalt tema eeldatavale tahtele .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Diskrimineerimise keeld</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Diskrimineerimise keeld</s>
+</p>
+<p>
+<s>( 1 ) Inimese &otilde;iguste ja v&otilde;imaluste piiramine v&otilde;i eeliste andmine l&auml;htuvalt tema DNA &uuml;lesehitusest ja sellest johtuvatest p&auml;rilikkusriskidest on keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Inimese diskrimineerimine geenidoonoriks olemise v&otilde;i mitteolemise fakti p&otilde;hjal on keelatud .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Diskrimineerimine t&ouml;&ouml;suhetes</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on keelatud koguda geneetilisi isikuandmeid t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;koha taotleja kohta ning n&otilde;uda t&ouml;&ouml;tajalt v&otilde;i t&ouml;&ouml;koha taotlejalt koeproovi v&otilde;i DNA kirjelduse andmist .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andjal on keelatud seada erineva p&auml;rilikkusriskiga inimestele diskrimineerivaid t&ouml;&ouml;- ja palgatingimusi .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Diskrimineerimine kindlustussuhetes</s>
+</p>
+<p>
+<s>( 1 ) Kindlustusandjal on keelatud koguda geneetilisi isikuandmeid kindlustatu v&otilde;i kindlustuse taotleja kohta ning n&otilde;uda kindlustatult v&otilde;i kindlustuse taotlejalt koeproovi v&otilde;i DNA kirjelduse andmist .</s>
+</p>
+<p>
+<s>( 2 ) Kindlustusandjal on keelatud seada erineva p&auml;rilikkusriskiga inimestele erinevaid kindlustustingimusi , sealhulgas kehtestada soodustariife v&otilde;i m&auml;&auml;ratleda kindlustusjuhtumit kitsendavalt .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve ja kaebuste lahendamine</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Andmekaitse j&auml;relevalveasutus</s>
+</p>
+<p>
+<s>Terviseseisundi kirjelduste ja sugupuuandmete kogumise , koeproovide , DNA kirjelduste , terviseseisundi kirjelduste ning sugupuuandmete kodeerimise , tagasikodeerimise ning koeproovide , DNA kirjelduste , terviseseisundi kirjelduste ja sugupuuandmete t&ouml;&ouml;tlemise &uuml;le teostab j&auml;relevalvet andmekaitse j&auml;relevalveasutus .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Eetikakomitee</s>
+</p>
+<p>
+<s>( 1 ) Geenivaramu t&ouml;&ouml;tlemisele annab hinnangu eetikakomitee .</s><s>Eetikakomitee hinnang on mittesiduv , v&auml;lja arvatud &sect; 24 l&otilde;ike 2 punktis 4 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Eetikakomitee l&auml;htub oma tegevuses &uuml;ldtunnustatud eetikanormidest ja rahvusvahelistest konventsioonidest .</s>
+</p>
+<p>
+<s>( 3 ) Eetikakomitee liige peab olema teov&otilde;imeline Eesti kodanik , kelle alaline elukoht on Eesti Vabariigis .</s><s>Eetikakomitee liige peab olema oma valdkonna tunnustatud asjatundja , kellel on eetikakomitee liikme kohustuste t&auml;itmiseks vajalikud teadmised ja laitmatu reputatsioon .</s>
+</p>
+<p>
+<s>( 4 ) Eetikakomitee liikmed ja nende arvu nimetab geenivaramu vastutava t&ouml;&ouml;tleja n&otilde;ukogu .</s><s>Eetikakomitee liikme volituste t&auml;htaeg on viis aastat .</s>
+</p>
+<p>
+<s>( 5 ) Geenivaramu vastutava t&ouml;&ouml;tleja n&otilde;ukogu v&otilde;ib eetikakomitee liikme ennet&auml;htaegselt tagasi kutsuda ainult m&otilde;juva p&otilde;hjuse ilmnemisel , milleks on eelk&otilde;ige kohustuste olulisel m&auml;&auml;ral t&auml;itmata j&auml;tmine v&otilde;i v&otilde;imetus osaleda eetikakomitee t&ouml;&ouml;s v&otilde;i muul viisil vastutava t&ouml;&ouml;tleja huvide oluline kahjustamine , samuti eetikakomitee liikme vastu pankrotimenetluse alustamise korral .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>T&ouml;&ouml;- ja kindlustussuhetest tekkinud kaebuste lahendamine</s>
+</p>
+<p>
+<s>( 1 ) Kaebusi t&ouml;&ouml;suhetes p&auml;rilikkusriskide t&otilde;ttu ilmnenud diskrimineerimise kohta lahendab T&ouml;&ouml;inspektsioon , kasutades asja uurimisel ja otsustamisel vajaduse korral vastutava t&ouml;&ouml;tleja v&otilde;i andmekaitse j&auml;relevalveasutuse ekspertide abi .</s>
+</p>
+<p>
+<s>( 2 ) Kaebusi kindlustussuhetes p&auml;rilikkusriskide t&otilde;ttu ilmnenud diskrimineerimise kohta lahendab Kindlustusinspektsioon , kasutades asja uurimisel ja otsustamisel vajaduse korral vastutava t&ouml;&ouml;tleja v&otilde;i andmekaitse j&auml;relevalveasutuse ekspertide abi .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Kriminaalkoodeksi muutmine ja t&auml;iendamine</s>
+</p>
+<p>
+<s>Kriminaalkoodeksis ( RT 1992 , 20 , 287 ja 288 ; RT I 1999 , 38 , 485 ; 57 , 595 , 597 ja 598 ; 60 , 616 ; 97 , 859 ; 102 , 907 ; 2000 , 10 , 55 ; 28 , 167 ; 29 , 173 ; 33 , 193 ; 40 , 247 ; 49 , 301 ja 305 ; 54 , 351 ; 57 , 373 ; 58 , 376 ; 84 , 533 ; 92 , 597 ) tehakse j&auml;rgmised muudatused ja t&auml;iendused :</s>
+</p>
+<p>
+<s>1 ) koodeksit t&auml;iendatakse &sect;-ga 124 <hi rend="sup">4</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 124 <hi rend="sup">4</hi> .</s><s>Geenidoonorlusele kallutamine</s>
+</p>
+<p>
+<s>Ainelise tasu pakkumisega v&otilde;i kahju tekitamisega v&otilde;i sellega &auml;hvardades inimese m&otilde;jutamise eest andma n&otilde;usolekut endalt koeproovi v&otilde;tmiseks geeniuuringute eesm&auml;rgil - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) koodeksit t&auml;iendatakse &sect;-ga 124 <hi rend="sup">5</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 124 <hi rend="sup">5</hi> .</s><s>Ebaseaduslik inimuuringute tegemine</s>
+</p>
+<p>
+<s>Meditsiinilise v&otilde;i teadusliku uuringu tegemise eest inimesega , kes ei olnud selleks andnud oma kehtivat n&otilde;usolekut , - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahv 128 <hi rend="sup">1</hi> muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 128 <hi rend="sup">1</hi> .</s><s>Kutsetegevuses teatavaks saanud saladuses hoitava teabe avaldamine</s>
+</p>
+<p>
+<s>Arsti , velskri , meditsiini&otilde;e , &auml;mmaemanda , ps&uuml;hholoogi , advokaadi , notari v&otilde;i muu isiku poolt talle kutsealases tegevuses teatavaks saanud saladuses hoitava ning isiku p&auml;ritolu , geeniandmeid , kunstlikku viljastamist , perekonda v&otilde;i tervisesse puutuva teabe avaldamise eest , kui sellega rikuti kutsetegevust reguleerivaid v&otilde;i muid &otilde;igusakte , - karistatakse rahatrahviga v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>4 ) koodeksit t&auml;iendatakse &sect;-ga 134 <hi rend="sup">2</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 134 <hi rend="sup">2</hi> .</s><s>Diskrimineerimine p&auml;rilikkusriskide alusel</s>
+</p>
+<p>
+<s>Inimese &otilde;iguste ebaseadusliku piiramise v&otilde;i inimesele ebaseaduslike eeliste andmise eest tema p&auml;rilikkusriskide alusel - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Isikuandmete kaitse seaduse muutmine</s>
+</p>
+<p>
+<s>Isikuandmete kaitse seaduses ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ; 2000 , 50 , 317 ; 92 , 597 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 4 l&otilde;ike 3 punkt 3 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 3 ) andmed terviseseisundi , p&auml;rilikkuse informatsiooni ja seksuaalelu kohta ; &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 9 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Etnilist p&auml;ritolu ja rassilist kuuluvust , terviseseisundit , p&auml;rilikkuse informatsiooni ja seksuaalelu kirjeldavate delikaatsete isikuandmete t&ouml;&ouml;tlemine on lubatud ilma isiku n&otilde;usolekuta , kui t&ouml;&ouml;tlemine toimub :</s>
+</p>
+<p>
+<s>1 ) seadusega etten&auml;htud kohustuse t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>2 ) isiku elu , tervise ja vabaduse kaitseks ;</s>
+</p>
+<p>
+<s>3 ) avalikku v&otilde;i &uuml;ldist huvi silmas pidava &uuml;lesande t&auml;itmiseks , mis on seadusega pandud vastutavale t&ouml;&ouml;tlejale v&otilde;i kolmandale isikule , kellele andmed &uuml;le antakse . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Eesti Teaduste Akadeemia seaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Eesti Teaduste Akadeemia seaduse ( RT I 1997 , 35 , 539 ) &sect; 9 l&otilde;iget 3 t&auml;iendatakse punktiga 5 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 5 <hi rend="sup">1</hi> ) nimetab geenivaramu vastutava t&ouml;&ouml;tleja n&otilde;ukogu kolm liiget ; &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Vastutava t&ouml;&ouml;tleja asutamine</s>
+</p>
+<p>
+<s>Vabariigi Valitsus teeb otsuse k&auml;esoleva seaduse &sect; 3 l&otilde;ikes 1 nimetatud sihtasutuse asutamiseks k&auml;esoleva seaduse j&otilde;ustumisest kahe kuu jooksul .</s>
+</p>
+</body>
+   </text>
+</tei.2>

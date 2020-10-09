@@ -1,0 +1,874 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kohtut&auml;ituri seadus ( m&auml;rts 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4304</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kohtut&auml;ituri seadus ( m&auml;rts 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=5></tagusage>
+         <tagusage gi=p occurs=256></tagusage>
+         <tagusage gi=s occurs=363></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kohtut&auml;ituri seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 17. jaanuaril 2001. a</s>
+</p>
+<p>
+<s>( RT I 2001 , 16 , 69 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. m&auml;rtsil 2001. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus reguleerib kohtut&auml;ituri &otilde;iguslikku seisundit ja distsiplinaarvastutust ning kohtut&auml;ituri tasustamise aluseid .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Kohtut&auml;ituri &otilde;iguslik seisund</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;itur on avalik-&otilde;iguslikku ametit pidav s&otilde;ltumatu isik .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;itur peab oma ametit enda nimel ja vastutusel vaba elukutsena .</s><s>Kohtut&auml;itur ei ole ettev&otilde;tja ega riigiametnik .</s><s>Kohtut&auml;ituri ametitegevuse maksustamisel kohaldatakse talle f&uuml;&uuml;silisest isikust ettev&otilde;tja kohta kehtivaid s&auml;tteid .</s>
+</p>
+<p>
+<s>( 3 ) Kohtut&auml;itur peab ametitoimingut tehes olema erapooletu ning &auml;ratama usaldust k&otilde;igis isikutes , kelle kasuks v&otilde;i kelle suhtes ta toiminguid teeb .</s>
+</p>
+<p>
+<s>( 4 ) Kohtut&auml;itur peab j&auml;rgima oma ametivannet ning k&auml;ituma v&auml;&auml;rikalt ka v&auml;ljaspool ametitegevust .</s>
+</p>
+<p>
+<s>( 5 ) Kohtut&auml;ituril on ametim&auml;rk ja -pitsat .</s><s>Ametim&auml;rgi ja -pitsati kirjelduse ning nende kasutamise korra kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>( 6 ) Kohtut&auml;iturid kuuluvad justiitsministri valitsemisalasse , kellel on &otilde;igus anda m&auml;&auml;rusi kohtut&auml;iturite ametitegevuse korraldamiseks .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Kohtut&auml;iturite arv ja t&ouml;&ouml;piirkonnad</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;iturite ametikohtade arvu ja t&ouml;&ouml;piirkonnad m&auml;&auml;rab justiitsminister .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;ituri t&ouml;&ouml;piirkond on maa- v&otilde;i linnakohtu t&ouml;&ouml;piirkond .</s><s>Justiitsminister v&otilde;ib mitme maa- v&otilde;i linnakohtu t&ouml;&ouml;piirkonna &uuml;hendada &uuml;heks kohtut&auml;ituri t&ouml;&ouml;piirkonnaks .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Kohtut&auml;ituri b&uuml;roo ja tema raamatupidamiskohustus</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituri t&ouml;&ouml;koht on tema b&uuml;roo .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;ituri b&uuml;roo peab asuma tema t&ouml;&ouml;piirkonnas kergesti juurdep&auml;&auml;setavas kohas ning see peab sobima isikute vastuv&otilde;tuks .</s>
+</p>
+<p>
+<s>( 3 ) Kohtut&auml;ituri b&uuml;roo avamiseks ja selle asukoha muutmiseks on vaja justiitsministri luba .</s><s>Justiitsministri loal v&otilde;ib kohtut&auml;itur avada b&uuml;roo v&auml;ljaspool oma t&ouml;&ouml;piirkonda v&otilde;i avada mitu b&uuml;rood .</s>
+</p>
+<p>
+<s>( 4 ) Samasse t&ouml;&ouml;piirkonda nimetatud kohtut&auml;iturid v&otilde;ivad justiitsministri loal pidada &uuml;hist b&uuml;rood .</s><s>&Uuml;hist b&uuml;rood pidavad kohtut&auml;iturid m&auml;&auml;ravad omavahelised &otilde;igused ja kohustused lepinguga .</s><s>Ka &uuml;hise b&uuml;roo pidamise korral teeb kohtut&auml;itur ametitoiminguid enda nimel ja kannab ametitegevuse eest isiklikku vastutust .</s>
+</p>
+<p>
+<s>( 5 ) Kohtut&auml;ituri b&uuml;roo peab olema avatud igal t&ouml;&ouml;p&auml;eval v&auml;hemalt neli tundi .</s><s>Kohtut&auml;ituril peab olema neljatunnine vastuv&otilde;tuaeg v&auml;hemalt kahel t&ouml;&ouml;p&auml;eval n&auml;dalas .</s><s>B&uuml;roo lahtioleku aeg ja kohtut&auml;ituri vastuv&otilde;tu aeg tuleb teha avalikkusele teatavaks .</s>
+</p>
+<p>
+<s>( 6 ) Kohtut&auml;itur on kohustatud sisse seadma raamatupidamise vastavalt raamatupidamise seadusele ( RT I 1994 , 48 , 790 ; 1995 , 26-28 , 355 ; 92 , 1604 ; 1996 , 40 , 773 ; 42 , 811 ; 49 , 953 ; 1998 , 59 , 941 ; 1999 , 55 , 584 ; 101 , 903 ) .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Ametialased kitsendused</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;itur ei v&otilde;i kohtut&auml;ituriameti k&otilde;rval pidada teisi tasulisi ameteid ega olla muul tasulisel t&ouml;&ouml;l , v&auml;lja arvatud pedagoogiline ja teadust&ouml;&ouml; &otilde;ppe- v&otilde;i teadusasutustes .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;itur ei v&otilde;i olla :</s>
+</p>
+<p>
+<s>1 ) &auml;ri&uuml;hingu asutaja , &auml;ri&uuml;hingu juhatuse v&otilde;i n&otilde;ukogu liige , &auml;ri&uuml;hingu likvideerija v&otilde;i prokurist ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lisriigi &auml;ri&uuml;hingu filiaali juhataja ;</s>
+</p>
+<p>
+<s>3 ) tegutsev pankrotihaldur , pankrotitoimkonna liige ega kinnisasja sundvalitseja .</s>
+</p>
+<p>
+<s>( 3 ) Kui eksisteerivad asjaolud , mis tekitavad kahtlust kohtut&auml;ituri erapooletuses , ei v&otilde;i kohtut&auml;itur t&auml;itemenetlust l&auml;bi viia ja peab ennast taandama .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Vastutus</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;itur vastutab oma ametikohustuse s&uuml;&uuml;lise rikkumise eest .</s>
+</p>
+<p>
+<s>( 2 ) Riik ei vastuta kohtut&auml;ituri tekitatud kahju eest .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Ametikindlustus</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituri tekitatud kahju h&uuml;vitamise tagamiseks peab kohtut&auml;itur s&otilde;lmima ametikindlustuslepingu j&auml;rgmiste tingimuste kohaselt :</s>
+</p>
+<p>
+<s>1 ) kindlustusandja on &auml;ri&uuml;hing , kellel on Eestis kindlustamise luba ;</s>
+</p>
+<p>
+<s>2 ) leping h&otilde;lmab kohtut&auml;ituri ametikohustuse rikkumisest tekkinud kahju ja selle isiku tekitatud kahju , kelle tegevuse eest kohtut&auml;itur seaduse j&auml;rgi vastutab ;</s>
+</p>
+<p>
+<s>3 ) kindlustussumma alampiir &uuml;he kindlustusjuhtumi kohta on v&auml;hemalt 1 miljon krooni ning kindlustusaasta jooksul v&auml;ljamakstavate kindlustush&uuml;vitiste &uuml;lempiir v&auml;hemalt 1 miljon krooni .</s><s>Ametikohustuse tahtlikust rikkumisest tekkivat vastutust kindlustama ei pea .</s>
+</p>
+<p>
+<s>( 2 ) Justiitsministril on &otilde;igus kehtestada kohtut&auml;ituri ametikindlustuslepingu lisatingimusi eelk&otilde;ige kindlustusjuhtumi , h&uuml;vitise v&auml;hendamise v&otilde;i h&uuml;vitamisest keeldumise aluste ja h&uuml;vitamise t&auml;htaja kohta .</s>
+</p>
+<p>
+<s>( 3 ) Ametikindlustuslepingu &auml;rakiri esitatakse viivitamata Justiitsministeeriumile .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Saladuse hoidmise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;itur on kohustatud hoidma &auml;risaladust ning mitte avaldama ametitegevuses saadud andmeid , mida isikuandmete kaitset reguleerivate &otilde;igusaktide kohaselt ei v&otilde;i avaldada .</s><s>Kohustus kehtib ka p&auml;rast kohtut&auml;ituri ametist lahkumist .</s><s>Saladuse hoidmise n&otilde;uet peavad j&auml;rgima kohtut&auml;ituri b&uuml;roo t&ouml;&ouml;tajad ning teised isikud , kellele nimetatud andmed on k&auml;ttesaadavad .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;itur avaldab ametitegevuses saadud andmeid ainult neile isikutele , kelle kasuks v&otilde;i kelle suhtes on t&auml;itetoimingud tehtud , v&otilde;i nende esindajatele .</s><s>Kohtule tuleb tema n&otilde;udel anda kohtumenetluses oleva asjaga seotud andmeid .</s><s>Kohtum&auml;&auml;ruse alusel annab kohtut&auml;itur andmeid uurimisorganile .</s>
+</p>
+<p>
+<s>( 3 ) Isik , kelle kasuks v&otilde;i kelle suhtes on t&auml;itetoiming tehtud , tema &otilde;igusj&auml;rglane v&otilde;i esindaja v&otilde;ib oma kirjaliku n&otilde;usolekuga vabastada kohtut&auml;ituri saladuse hoidmise kohustusest .</s><s>Kui nimetatud isikul ei ole &otilde;igusj&auml;rglast v&otilde;i kui temalt ei ole muul p&otilde;hjusel v&otilde;imalik n&otilde;usolekut k&uuml;sida v&otilde;i kui on muid kaalukaid p&otilde;hjusi , v&otilde;ib kohus vabastada kohtut&auml;ituri saladuse hoidmise kohustusest .</s>
+</p>
+<p>
+<s>( 4 ) Kohtut&auml;ituri ametitegevuses saadud andmeid on kohustatud saladuses hoidma ka krediidiasutus , kohus , arhiiv ning muu juriidiline isik ja asutus ning nende t&ouml;&ouml;taja , kelle valduses on k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud andmeid sisaldav dokument , kui seadusega ei s&auml;testata teisiti .</s><s>Nad avaldavad andmeid samadel alustel ja korras nagu kohtut&auml;itur k&auml;esoleva paragrahvi l&otilde;igete 2 ja 3 kohaselt , kui seadusega ei s&auml;testata teisiti .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esolevas paragrahvis s&auml;testatu ei ole vastuolus isikule t&auml;itemenetluse seadustikus ( RT I 1993 , 49 , 693 ; 1997 , 43/44 , 723 ; 1998 , 41/42 , 625 ; 51 , 756 ; 61 , 981 ; 103 , 1695 ; 1999 , 18 , 302 ; 27 , 380 ; 95 , 845 ; 2000 , 28 , 167 ; 35 , 222 ; 58 , 376 ) etten&auml;htud &otilde;igusega olla t&auml;itetoimingute juures ja tutvuda t&auml;itetoimikuga .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Erialase eneset&auml;iendamise kohustus</s>
+</p>
+<p>
+<s>Kohtut&auml;itur peab oma erialateadmisi pidevalt t&auml;iendama .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohtut&auml;ituri ametisse nimetamine ja ametist vabastamine ning kohtut&auml;ituri atesteerimine</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Kohtut&auml;ituriks saamise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituriks v&otilde;ib saada ettevalmistusteenistuse l&auml;binud ja kohtut&auml;iturieksami sooritanud Eesti kodanik , kes on t&auml;itnud akadeemilise &otilde;igus&otilde;ppe riiklikult tunnustatud &otilde;ppekava , valdab k&otilde;nes ja kirjas eesti keelt ning on aus ja k&otilde;lbeline .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;ituriks ei v&otilde;i nimetada isikut , kes on :</s>
+</p>
+<p>
+<s>1 ) kriminaalkorras karistatud tahtlikult toimepandud kuriteo eest ;</s>
+</p>
+<p>
+<s>2 ) kriminaalasjas kahtlustatav , s&uuml;&uuml;distatav v&otilde;i kohtualune ;</s>
+</p>
+<p>
+<s>3 ) kohtuniku- , notari- v&otilde;i kohtut&auml;ituriametist tagandatud ;</s>
+</p>
+<p>
+<s>4 ) advokatuurist v&auml;lja heidetud ;</s>
+</p>
+<p>
+<s>5 ) avalikust teenistusest distsiplinaars&uuml;&uuml;teo eest vabastatud ;</s>
+</p>
+<p>
+<s>6 ) pankrotiv&otilde;lgnik .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Kohtut&auml;iturikandidaat</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;iturikandidaat on isik , kes on l&auml;binud kohtut&auml;iturikandidaadi kohtade t&auml;itmiseks korraldatud konkursi .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;rast k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud konkursi l&auml;bimist l&auml;bib kohtut&auml;iturikandidaat ettevalmistusteenistuse .</s>
+</p>
+<p>
+<s>( 3 ) Kohtut&auml;iturikandidaadi ettevalmistamise kava kinnitab ja kohtut&auml;iturikandidaadi ettevalmistamise kavakohasust kontrollib justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kohtut&auml;ituri ettevalmistusteenistus</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituri ettevalmistusteenistus on justiitsministri kinnitatud kava alusel korraldatav v&auml;lja&otilde;pe , milles osaledes t&auml;idab kohtut&auml;iturikandidaat juhendava kohtut&auml;ituri antud &uuml;lesandeid .</s><s>Ettevalmistusteenistust korraldab Vabariigi Valitsuse m&auml;&auml;ratud &otilde;ppeasutus .</s>
+</p>
+<p>
+<s>( 2 ) Justiitsministri m&auml;&auml;ratud kohtut&auml;itur on kohustatud kohtut&auml;iturikandidaati juhendama , kuid mitte &uuml;le &uuml;he kandidaadi kolme aasta jooksul .</s>
+</p>
+<p>
+<s>( 3 ) Kohtut&auml;iturikandidaadi tasustamise korra ja palga minimaalsuuruse kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Kohtut&auml;ituri ametisse nimetamine</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituri ametikohad t&auml;idetakse konkursi alusel .</s><s>Konkursi tingimused ja korra kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>( 2 ) Konkursikomisjoni kuuluvad justiitsministri m&auml;&auml;ratud kohtunik ja kohtut&auml;itur ning kolm Justiitsministeeriumi esindajat ja &uuml;ks tunnustatud jurist , kellele teeb ettepaneku komisjoni t&ouml;&ouml;s osalemiseks justiitsminister .</s>
+</p>
+<p>
+<s>( 3 ) Kohtut&auml;ituri nimetab ametisse justiitsminister .</s><s>Kohtut&auml;itur nimetatakse ametisse t&auml;htajatult .</s>
+</p>
+<p>
+<s>( 4 ) Kohtut&auml;itur peab ametisse asuma kolme kuu jooksul p&auml;rast ametisse nimetamist .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Ametivanne</s>
+</p>
+<p>
+<s>( 1 ) Enne ametisse asumist peab kohtut&auml;itur andma ametivande , mille tekst on j&auml;rgmine :</s>
+</p>
+<p>
+<s>&ldquo; Oma au nimel t&otilde;otan olla truu Eesti Vabariigile ning j&auml;rgida tema p&otilde;hiseadust ja seadusi .</s><s>Kohtut&auml;iturina t&otilde;otan pidada oma ametit ausalt , v&auml;&auml;rikalt ja erapooletult . &rdquo;</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;ituri ametivannet hoitakse Justiitsministeeriumis .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Kohtut&auml;ituri atesteerimine</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;iturite atesteerimise komisjon atesteerib kohtut&auml;itureid &uuml;ks kord viie aasta jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;iturite atesteerimise komisjoni koosseisu ning atesteerimise n&otilde;uded ja viisi kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Ametist vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Justiitsminister vabastab kohtut&auml;ituri ametist :</s>
+</p>
+<p>
+<s>1 ) kohtut&auml;ituri isikliku kirjaliku avalduse alusel ;</s>
+</p>
+<p>
+<s>2 ) kui kohtut&auml;ituri tervis ei v&otilde;imalda tal kohtut&auml;iturina t&ouml;&ouml;tada ;</s>
+</p>
+<p>
+<s>3 ) kui kohtut&auml;itur on saanud 65-aastaseks ;</s>
+</p>
+<p>
+<s>4 ) kui kohtut&auml;ituri suhtes on j&otilde;ustunud tahtlikult toimepandud kuriteo eest s&uuml;&uuml;dim&otilde;istev kohtuotsus v&otilde;i muu s&uuml;&uuml;dim&otilde;istev kohtuotsus , millega m&otilde;istetud karistus teeb v&otilde;imatuks kohtut&auml;iturina tegutsemise ;</s>
+</p>
+<p>
+<s>5 ) kui kohtut&auml;iturile on kohaldatud distsiplinaarkaristusena ametist tagandamine ;</s>
+</p>
+<p>
+<s>6 ) kui ei ole t&auml;idetud k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 1 nimetatud n&otilde;udeid v&otilde;i kui p&auml;rast ametisse nimetamist selgub , et kohtut&auml;itur on esitanud valeandmeid ;</s>
+</p>
+<p>
+<s>7 ) kui kohtut&auml;itur ei asu ametisse k&auml;esoleva seaduse &sect; 13 l&otilde;ikes 4 etten&auml;htud ajal ;</s>
+</p>
+<p>
+<s>8 ) atesteerimistulemuste p&otilde;hjal ;</s>
+</p>
+<p>
+<s>9 ) kui kohtut&auml;ituri suhtes on v&auml;lja kuulutatud pankrot v&otilde;i kui pankrotimenetlus on l&otilde;petatud raugemise t&otilde;ttu pankrotiseaduse ( RT 1992 , 31 , 403 ; RT I 1997 , 18 , 302 ; 1998 , 2 , 46 ; 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 13 , 93 ; 54 , 353 ) &sect; 15 l&otilde;ike 1 punktis 2 etten&auml;htud alusel .</s>
+</p>
+<p>
+<s>( 2 ) Enne kohtut&auml;ituri ametist vabastamist k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 5-7 nimetatud alustel kuulab justiitsminister &auml;ra kohtut&auml;ituri selgitused .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Asendamine</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kohtut&auml;ituri asendamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kohtut&auml;itur ei saa oma ametikohustusi t&auml;ita &uuml;le viie p&auml;eva , nimetab tema t&ouml;&ouml;piirkonna maa- v&otilde;i linnakohtu esimees kohtut&auml;ituri ettepanekul talle asendaja .</s><s>Asendamisettepaneku peab tegema kohtut&auml;itur ja v&otilde;imaluse korral peab ta asendamisvajadusest teatama kaks n&auml;dalat ette .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;ituri ettepanekul v&otilde;ib kohtu esimees nimetada talle alalise asendaja kalendriaastaks , m&auml;&auml;rates juhud , millal asendaja kohtut&auml;ituri ametikohustusi t&auml;idab .</s>
+</p>
+<p>
+<s>( 3 ) Kohtut&auml;itur peab k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 s&auml;testatud asendamisettepaneku esitama kirjalikult , tuues &auml;ra kohtut&auml;ituri asendajaks sobiva kandidaadi isiku ja tema kontaktandmed .</s>
+</p>
+<p>
+<s>( 4 ) Asendataval kohtut&auml;ituril on keelatud teha ametitoiminguid .</s>
+</p>
+<p>
+<s>( 5 ) Justiitsminister v&otilde;ib nimetada kohtut&auml;ituri asendaja kuni &uuml;heks aastaks juhul , kui kohtut&auml;ituri ametikoht on t&auml;itmata .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Kohtut&auml;ituri asendaja</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;iturit v&otilde;ib asendada teine kohtut&auml;itur v&otilde;i muu isik , kes on sooritanud kohtut&auml;ituri asendaja eksami .</s><s>Kohtut&auml;ituri asendaja eksami tingimused ja korra kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;iturit saab asendada isik , kes on Eesti kodanik , valdab k&otilde;nes ja kirjas eesti keelt ning on aus ja k&otilde;lbeline .</s><s>Kohtut&auml;ituri asendamisel kohaldatakse kohtut&auml;ituri asendaja eksami sooritanud muu isiku suhtes vastavalt k&auml;esoleva seaduse &sect;-des 2 , 8 ja &sect; 10 l&otilde;ikes 2 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 3 ) Kui p&auml;rast asendajaks nimetamist selgub , et isikut asendajaks nimetades ei j&auml;rgitud k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 2 s&auml;testatud n&otilde;udeid v&otilde;i isik esitas valeandmeid , j&auml;&auml;vad asendaja poolt selle hetkeni tehtud ametitoimingud kehtima .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Kohtut&auml;ituri asendaja tasu</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 17 l&otilde;ike 5 kohaselt nimetatud kohtut&auml;ituri asendaja saab ametitoimingute eest laekunud tasu endale ja ta kannab ka kohtut&auml;ituri b&uuml;roo &uuml;lalpidamise kulud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 17 l&otilde;igete 1 ja 2 kohaselt nimetatud kohtut&auml;ituri asendaja saab tasu kohtut&auml;iturilt , keda ta asendab .</s><s>Tasu suuruse m&auml;&auml;rab kohtut&auml;itur .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Kohtut&auml;ituri asendaja vastutus</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituri asendaja vastutab samadel alustel kohtut&auml;ituriga .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohtut&auml;ituri asendajaks on k&auml;esoleva seaduse &sect; 17 l&otilde;igete 1 ja 2 kohaselt nimetatud teine kohtut&auml;itur , vastutab ta oma tegevusega tekitatud varalise kahju eest ise .</s>
+</p>
+<p>
+<s>( 3 ) Kui kohtut&auml;ituri asendajaks on k&auml;esoleva seaduse &sect; 17 l&otilde;igete 1 ja 2 kohaselt nimetatud muu isik , kes on sooritanud kohtut&auml;ituri asendaja eksami , vastutavad asendaja tegevusega tekitatud varalise kahju eest kohtut&auml;itur ja tema asendaja solidaarselt .</s><s>K&auml;esoleva seaduse &sect; 17 l&otilde;igete 1 ja 2 kohaselt kohtut&auml;ituri asendajaks nimetatud muu isiku tegevusele , kes on sooritanud kohtut&auml;ituri asendaja eksami , laieneb kohtut&auml;ituri ametikindlustus .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 17 l&otilde;ike 5 kohaselt nimetatud asendaja vastutab oma tegevusega tekitatud varalise kahju eest ise .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohtut&auml;ituri tasustamine</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Kohtut&auml;ituri tasu</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Kohtut&auml;ituri tasu</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituri ametitoiming on tasuline .</s>
+</p>
+<p>
+<s>( 2 ) Kohtut&auml;ituri tasu m&auml;&auml;rad kehtestab justiitsminister .</s><s>Justiitsministril on &otilde;igus kehtestada riigi ja kohaliku omavalitsuse &uuml;ksuste n&otilde;uete kohta erim&auml;&auml;rad .</s>
+</p>
+<p>
+<s>( 3 ) Kohtut&auml;ituril on &otilde;igus v&otilde;tta tasu ainult k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktiga s&auml;testatud ulatuses ja korras .</s><s>Kohtut&auml;ituril on keelatud s&otilde;lmida kokkuleppeid k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktiga s&auml;testatud tasum&auml;&auml;rade v&otilde;i tasu v&otilde;tmise korra muutmiseks .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Kohtut&auml;ituri tasu m&auml;&auml;ramise p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituri tasu m&auml;&auml;r kehtestatakse kindla summana rahalise n&otilde;ude suurusest l&auml;htudes v&otilde;i kindla summana t&auml;itetoimingu eest .</s>
+</p>
+<p>
+<s>( 2 ) Justiitsminister v&otilde;ib ette n&auml;ha kindlas summas lisatasu t&auml;itetoimingu eest , mis tehakse v&auml;ljaspool kohaliku omavalitsuse &uuml;ksust , kus kohtut&auml;ituri b&uuml;roo asub .</s>
+</p>
+<p>
+<s>( 3 ) Justiitsminister v&otilde;ib ette n&auml;ha kohtut&auml;ituri tasu erisused elatise sissen&otilde;udmise korral .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kohtut&auml;ituri tasu sissen&otilde;udmine koos n&otilde;udesummaga</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituri tasu n&otilde;utakse v&otilde;lgnikult sisse koos sundt&auml;itmisel oleva rahalise n&otilde;ude summaga .</s>
+</p>
+<p>
+<s>( 2 ) Kui sundt&auml;itmisel olev rahaline n&otilde;ue n&otilde;utakse sisse osaliselt , v&otilde;ib kohtut&auml;itur tasuna sisse n&otilde;uda &uuml;ksnes sissen&otilde;utud summa osa , mis on v&otilde;rdeline kohtut&auml;ituri tasu kogum&auml;&auml;ra osat&auml;htsusega n&otilde;ude ja kohtut&auml;ituri tasu kogum&auml;&auml;ra summast .</s>
+</p>
+<p>
+<s>( 3 ) Kui t&auml;itetoimingu eest makstav tasu on kehtestatud n&otilde;ude suurusest s&otilde;ltumatu summana v&otilde;i kui on ette n&auml;htud lisatasu t&auml;itetoimingu eest , mis tehakse v&auml;ljaspool kohaliku omavalitsuse &uuml;ksust , kus kohtut&auml;ituri b&uuml;roo asub , muutub kohtut&auml;ituri tasu sissen&otilde;utavaks t&auml;itetoimingu l&otilde;petamisel .</s><s>Elatise sissen&otilde;udmise asjas muutub tasu sissen&otilde;utavaks t&auml;itemenetluse algatamisega .</s>
+</p>
+<p>
+<s>( 4 ) Solidaarv&otilde;lgnikud vastutavad kohtut&auml;ituri tasu maksmise eest solidaarselt .</s>
+</p>
+<p>
+<s>( 5 ) Kohtut&auml;ituri tasu sissen&otilde;udmise alus on kohtut&auml;ituri arve .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Kohtut&auml;ituri tasu ettemaks</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;ituril on &otilde;igus n&otilde;uda sissen&otilde;udjalt enne t&auml;itemenetluse algatamist ettemaksu tasumist .</s><s>Kohtut&auml;itur v&otilde;ib t&auml;itemenetlust algatades m&auml;&auml;rata sissen&otilde;udjale ettemaksu tasumiseks hilisema t&auml;htaja .</s><s>Ettemaksu m&auml;&auml;rad kehtestab justiitsminister .</s><s>Ettemaksu ei v&otilde;i n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) f&uuml;&uuml;siliselt isikult , kes esitab t&auml;itmiseks lahendi , mis tehti kohtumenetluses , milles ta t&auml;ielikult v&otilde;i osaliselt vabastati &otilde;igusabi v&otilde;i riigil&otilde;ivu tasumisest maksej&otilde;uetuse t&otilde;ttu ;</s>
+</p>
+<p>
+<s>2 ) f&uuml;&uuml;siliselt isikult , kes esitab t&auml;itmiseks kriminaalkohtumenetluses tehtud lahendi , millega on rahuldatud talle kuriteoga tekitatud kahju h&uuml;vitamise n&otilde;ue .</s>
+</p>
+<p>
+<s>( 2 ) Kui samas t&auml;itemenetluses on mitu sissen&otilde;udjat , tasuvad nad ettemaksu omavahelisel kokkuleppel .</s>
+</p>
+<p>
+<s>( 3 ) Kui sissen&otilde;udja ei tasu ettemaksu , v&otilde;ib kohtut&auml;itur j&auml;tta t&auml;itemenetluse algatamata .</s><s>Kui kohtut&auml;itur on algatanud t&auml;itemenetluse ja m&auml;&auml;ranud ettemaksu tasumiseks hilisema t&auml;htp&auml;eva , v&otilde;ib kohtut&auml;itur t&auml;itemenetluse peatada , kui ettemaksu ei ole etten&auml;htud t&auml;htp&auml;evaks tasutud .</s>
+</p>
+<p>
+<s>( 4 ) Kui kohtut&auml;ituri tasu on v&otilde;lgnikult t&auml;ielikult sisse n&otilde;utud , tagastab kohtut&auml;itur sissen&otilde;udjale ettemaksu .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Aegumine</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;iturile tasu maksmise n&otilde;ue aegub selle sissen&otilde;utavaks muutumisest alates kolme aasta jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Enammakstud tasu tagastamise n&otilde;ue aegub selle sissen&otilde;utavaks muutumisest alates viie aasta jooksul .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Kohtut&auml;ituri tasu maksmine ja tasu maksmise vaidlustamine</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Kohtut&auml;ituri tasu m&auml;&auml;ra teatavaks tegemine</s>
+</p>
+<p>
+<s>Kohtut&auml;itur peab v&otilde;lgnikule ja sissen&otilde;udjale tegema kohtut&auml;ituri tasu m&auml;&auml;ra teatavaks ning ta peab neile selgitama tasu maksmise ja sissen&otilde;udmise korda .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Kohtut&auml;ituri tasu sissen&otilde;udmine</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;itur peab kohustatud isikult tasu sissen&otilde;udmiseks esitama talle arve , mis vastab seaduses s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohtut&auml;ituri tasu on kehtestatud t&auml;itetoimingu eest v&otilde;etava kindla summana ja v&otilde;lgnik v&otilde;i sissen&otilde;udja etten&auml;htud tasu ei maksa , on kohtut&auml;ituril &otilde;igus esitatud arve alusel p&ouml;&ouml;rata sissen&otilde;ue nimetatud isikute varale t&auml;itemenetluse seadustikus s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Kaebuse esitamine</s>
+</p>
+<p>
+<s>Kaebuse kohtut&auml;ituri tasu eba&otilde;ige m&auml;&auml;ramise kohta v&otilde;ib kohustatud isik esitada kohtut&auml;ituri b&uuml;roo asukoha j&auml;rgsele maa- v&otilde;i linnakohtule talle kohtut&auml;ituri arve esitamisest alates &uuml;he kuu jooksul .</s><s>Kui kohtumenetluses tehtud ja j&otilde;ustunud otsusega on t&otilde;endatud kaebuse esitaja pahausksus kaebuse esitamisel , v&otilde;ib kohtut&auml;itur esitada kohtule taotluse kaebaja trahvimiseks .</s><s>Trahvisumma on v&auml;hemalt 10 , kuid mitte rohkem kui 100 p&auml;evapalka .</s><s>Trahv kantakse riigituludesse .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Kohtut&auml;ituri tasu tagastamine</s>
+</p>
+<p>
+<s>Kui kohus on tunnistanud kohtut&auml;ituri tegevuse tasu sissen&otilde;udmisel v&otilde;i tasu suuruse m&auml;&auml;ramisel seadusevastaseks , tagastab kohtut&auml;itur alusetult n&otilde;utud ja tasutud summa kohustatud isikule kohtum&auml;&auml;ruse j&otilde;ustumisest alates k&uuml;mne p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve ja distsiplinaarvastutus</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>J&auml;relevalveametnik</s>
+</p>
+<p>
+<s>Kohtu t&ouml;&ouml;piirkonna kohtut&auml;iturite tegevuse j&auml;rele valvab maa- v&otilde;i linnakohtu esimees ning k&otilde;igi kohtut&auml;iturite tegevuse j&auml;rele justiitsminister .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>J&auml;relevalveametniku p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalveametnik kontrollib kohtut&auml;ituri tegevuse n&otilde;uetekohasust .</s><s>Ta kontrollib kohtut&auml;ituri b&uuml;roo t&ouml;&ouml;korraldust , finantsmajanduslikku tegevust , infos&uuml;steemi kasutamist ja infotehnoloogilise t&ouml;&ouml; korraldust , kohtut&auml;ituri dokumentide s&auml;ilitamist ning ametikindlustuse n&otilde;ude j&auml;rgimist .</s><s>Kohtut&auml;itur v&otilde;ib eelnimetatud k&uuml;simustes konsultatsiooni saamiseks p&ouml;&ouml;rduda j&auml;relevalveametniku poole .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;relevalveametnik kontrollib kohtut&auml;ituri tegevust korrap&auml;raselt v&auml;hemalt &uuml;ks kord aastas .</s><s>Erakorraliselt on lubatud kohtut&auml;ituri tegevust kontrollida , kui on andmeid , mis viitavad lisakontrollimise vajadusele v&otilde;i seda taotleb kohtut&auml;itur .</s><s>Uue kohtut&auml;ituri puhul korraldatakse esimene kontrollimine teise ametiaasta jooksul .</s>
+</p>
+<p>
+<s>( 3 ) Kohtut&auml;itur on kohustatud j&auml;relevalveametnikule esitama registrid ja muud dokumendid .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevat paragrahvi kohaldatakse ka kohtut&auml;ituri asendaja ametitegevuse kontrollimisele .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Kohtut&auml;ituri distsiplinaars&uuml;&uuml;teod</s>
+</p>
+<p>
+<s>Kohtut&auml;ituri distsiplinaars&uuml;&uuml;teod on :</s>
+</p>
+<p>
+<s>1 ) ametikohustuste s&uuml;&uuml;line t&auml;itmata j&auml;tmine v&otilde;i mitten&otilde;uetekohane t&auml;itmine , sealhulgas kohtut&auml;ituri tasum&auml;&auml;radele mittevastava tasu v&otilde;tmine omakasu ajendil ;</s>
+</p>
+<p>
+<s>2 ) v&auml;&auml;ritu tegu , mis on vastuolus &uuml;ldtunnustatud k&otilde;lblusnormidega v&otilde;i mis v&auml;hendab usaldust kohtut&auml;ituri ameti vastu , s&otilde;ltumata sellest , kas tegu on pandud toime ametikohustusi t&auml;ites .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Distsiplinaarkaristused</s>
+</p>
+<p>
+<s>Kohtut&auml;iturile m&auml;&auml;ratavad distsiplinaarkaristused on :</s>
+</p>
+<p>
+<s>1 ) noomitus ;</s>
+</p>
+<p>
+<s>2 ) rahatrahv ;</s>
+</p>
+<p>
+<s>3 ) ametist tagandamine .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Distsiplinaarkaristuse m&auml;&auml;ramise &otilde;igus</s>
+</p>
+<p>
+<s>Kohtut&auml;iturile distsiplinaarkaristuse m&auml;&auml;ramise &otilde;igus on justiitsministril .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Distsiplinaarmenetluse algatamine</s>
+</p>
+<p>
+<s>( 1 ) Justiitsminister algatab distsiplinaarmenetluse , kui seda n&otilde;uab maa- v&otilde;i linnakohtu esimees .</s><s>Justiitsminister v&otilde;ib algatada distsiplinaarmenetluse , kui kohtut&auml;ituri ametitegevuse j&auml;relevalve tulemused v&otilde;i isiku kaebus v&otilde;i muu dokument v&otilde;i teade annab alust arvata , et kohtut&auml;itur on toime pannud distsiplinaars&uuml;&uuml;teo .</s><s>Distsiplinaarmenetluse algatamise aluseks olevate asjaolude kohta n&otilde;uab justiitsminister kohtut&auml;iturilt kirjalikku seletust .</s>
+</p>
+<p>
+<s>( 2 ) Distsiplinaarmenetluse algatamiseks annab justiitsminister k&auml;skkirja , mis tehakse kohtut&auml;iturile viivitamata teatavaks .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Justiitsministri otsus distsiplinaarasjas</s>
+</p>
+<p>
+<s>( 1 ) Justiitsminister annab k&auml;skkirja distsiplinaars&uuml;&uuml;teo tuvastamise kohta ja m&auml;&auml;rab distsiplinaarkaristuse v&otilde;i annab k&auml;skkirja distsiplinaars&uuml;&uuml;teo puudumise tuvastamise kohta ning l&otilde;petab distsiplinaarmenetluse .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;skkiri tehakse teatavaks k&otilde;igile kohtut&auml;ituritele .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Noomitus</s>
+</p>
+<p>
+<s>K&auml;skkiri noomituse tegemise kohta antakse k&auml;skkirja allakirjutamisest alates kolme p&auml;eva jooksul kohtut&auml;iturile , kellele noomitus on tehtud .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Rahatrahv</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;iturile v&otilde;ib distsiplinaarkaristusena m&auml;&auml;rata kuni 100 000 krooni suuruse rahatrahvi .</s>
+</p>
+<p>
+<s>( 2 ) Rahatrahv tuleb tasuda selle m&auml;&auml;ramisest alates kolme kuu jooksul .</s><s>Trahv kantakse riigituludesse .</s>
+</p>
+<p>
+<s>( 3 ) Justiitsminister v&otilde;ib rahatrahvi m&auml;&auml;ramise k&auml;skkirjas ette n&auml;ha , et trahv tasutakse kindlaksm&auml;&auml;ratud t&auml;htp&auml;evadel osade kaupa kuni &uuml;he aasta jooksul .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Ametist tagandamine</s>
+</p>
+<p>
+<s>( 1 ) Kohtut&auml;itur v&otilde;idakse ametist tagandada tahtlikult toimepandud raske distsiplinaars&uuml;&uuml;teo eest , kustumata v&otilde;i kustutamata distsiplinaarkaristuse ajal toimepandud s&uuml;&uuml;teo eest v&otilde;i sellise v&auml;&auml;ritu teo eest , mis teeb kohtut&auml;iturina t&ouml;&ouml;tamise v&otilde;imatuks .</s>
+</p>
+<p>
+<s>( 2 ) Enne kohtut&auml;ituri ametist tagandamist kuulab justiitsminister &auml;ra kohtut&auml;ituri selgitused .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Distsiplinaarkaristuse m&auml;&auml;ramise t&auml;htajad</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 32 punktis 1 nimetatud s&uuml;&uuml;teo eest v&otilde;ib distsiplinaarkaristuse m&auml;&auml;rata s&uuml;&uuml;teo toimepanemisest alates k&uuml;mne aasta jooksul ning s&uuml;&uuml;teo toimepanemisest teada saamisest alates kolme kuu jooksul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 32 punktis 2 nimetatud s&uuml;&uuml;teo eest v&otilde;ib distsiplinaarkaristuse m&auml;&auml;rata s&uuml;&uuml;teo toimepanemisest alates kuue kuu jooksul ning s&uuml;&uuml;teo toimepanemisest teada saamisest alates &uuml;he kuu jooksul .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>&Uuml;he s&uuml;&uuml;teo eest mitme distsiplinaarkaristuse m&auml;&auml;ramise keeld</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;he s&uuml;&uuml;teo eest v&otilde;ib m&auml;&auml;rata ainult &uuml;he distsiplinaarkaristuse .</s>
+</p>
+<p>
+<s>( 2 ) S&uuml;&uuml;teo j&auml;tkumine p&auml;rast distsiplinaarkaristuse m&auml;&auml;ramist on uus s&uuml;&uuml;tegu ja selle eest v&otilde;ib kohtut&auml;iturile m&auml;&auml;rata uue distsiplinaarkaristuse .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Distsiplinaarkaristuse &uuml;hitamine haldus- , kriminaal- v&otilde;i materiaalse vastutusega</s>
+</p>
+<p>
+<s>Kohtut&auml;ituri v&otilde;tmine haldus- , kriminaal- v&otilde;i materiaalsele vastutusele ei takista sama teo eest m&auml;&auml;rata distsiplinaarkaristust .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Distsiplinaarkaristuse kustumine</s>
+</p>
+<p>
+<s>Distsiplinaarkaristus on kustunud , kui kohtut&auml;iturile ei ole karistuse m&auml;&auml;ramisest alates &uuml;he aasta jooksul m&auml;&auml;ratud uut distsiplinaarkaristust .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Distsiplinaarkaristuse kustutamine</s>
+</p>
+<p>
+<s>Justiitsminister v&otilde;ib distsiplinaarkaristuse kustutada enne karistusaja l&otilde;ppemist .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Distsiplinaarkaristuse m&auml;&auml;ramise peale kaebuse esitamine</s>
+</p>
+<p>
+<s>Kohtut&auml;itur v&otilde;ib distsiplinaarkaristuse m&auml;&auml;ramise peale esitada halduskohtule kaebuse karistuse m&auml;&auml;ramisest teada saamisest alates &uuml;he kuu jooksul .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Kaebuse kohtus l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kohtut&auml;iturit on karistatud ebaseaduslikult v&otilde;i kui karistus ei vasta s&uuml;&uuml;teo raskusele ja s&uuml;&uuml;teo toimepanemise asjaoludele v&otilde;i s&uuml;&uuml;teole eelnevale kohtut&auml;ituri k&auml;itumisele , t&uuml;histab kohus distsiplinaarkaristuse .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohus on kohtut&auml;ituri ametist tagandamise distsiplinaars&uuml;&uuml;teo raskusele mittevastavuse t&otilde;ttu t&uuml;histanud , on kohtut&auml;ituril &otilde;igus n&otilde;uda saamata j&auml;&auml;nud sissetuleku eest h&uuml;vitist enne distsiplinaarkaristuse m&auml;&auml;ramist t&ouml;&ouml;tatud viimase kuue kuu keskmise sissetuleku ulatuses .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Kohtut&auml;ituri oma soovil ametist vabastamine</s>
+</p>
+<p>
+<s>Kui kohtut&auml;ituri suhtes on algatatud distsiplinaarmenetlus , v&otilde;ib ta oma soovil ametist vabastada p&auml;rast seda , kui distsiplinaarmenetlus on l&otilde;petatud .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>Justiitsministril on &otilde;igus anda m&auml;&auml;rusi k&auml;esoleva seaduse rakendamiseks .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Ametisse nimetamine</s>
+</p>
+<p>
+<s>( 1 ) Kuni 2002. aasta 1. juulini ei kohaldata kohtut&auml;ituri ametisse nimetamisele k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 1 s&auml;testatud haridusn&otilde;uet ja n&otilde;uet l&auml;bida ettevalmistusteenistus .</s><s>Nimetatud n&otilde;uetele mittevastavus ei ole kohtut&auml;ituri ametist vabastamise alus ka p&auml;rast 2002. aasta 1. juulit .</s>
+</p>
+<p>
+<s>( 2 ) Kuni 2001. aasta 31. detsembrini v&otilde;ib kohtut&auml;ituriks nimetada isiku , kelle tsiviilt&auml;iteteadmised v&otilde;imaldavad kohtut&auml;ituriametit pidada kohtut&auml;iturieksamit sooritamata .</s>
+</p>
+<p>
+<s>( 3 ) 2001. aastal kohtut&auml;iturite ametisse nimetamisel ei ole n&otilde;utav kohtut&auml;ituri osalemine k&auml;esoleva seaduse &sect; 13 l&otilde;ikes 2 nimetatud konkursikomisjoni t&ouml;&ouml;s .</s>
+</p>
+<p>
+<s>( 4 ) 2001. aastal kohtut&auml;iturite ametisse nimetamisel peab kohtut&auml;itur ametisse asuma viie t&ouml;&ouml;p&auml;eva jooksul p&auml;rast ametisse nimetamist .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Kohtut&auml;ituriks saamise tingimused</s>
+</p>
+<p>
+<s>Alates Euroopa Liiduga &uuml;hinemisest v&otilde;ib kohtut&auml;ituriks saada lisaks Eesti kodanikule ka Euroopa Liidu liikmesriigi kodanik .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Menetluses olevate t&auml;itetoimikute &uuml;leandmine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse j&otilde;ustumise ajal maa- v&otilde;i linnakohtu t&auml;itevosakonna menetluses olev t&auml;itedokument antakse kohtut&auml;ituri menetleda sissen&otilde;udja avalduse alusel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse j&otilde;ustumise ajal maa- v&otilde;i linnakohtu t&auml;itevosakonna menetluses olev t&auml;itedokument , mille kohaselt on sissen&otilde;udja riik v&otilde;i kohaliku omavalitsuse &uuml;ksus , antakse kohtut&auml;ituri menetleda sissen&otilde;udja avalduseta justiitsministri kehtestatud korras .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse j&otilde;ustumise ajal maa- v&otilde;i linnakohtu t&auml;itevosakonna menetluses olevate avalik-&otilde;iguslike n&otilde;uete &uuml;leandmisel kohtut&auml;iturile tasutakse ettemaks justiitsministri kehtestatud korras ja m&auml;&auml;ras riigieelarvest .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Esimene korrap&auml;rane atesteerimine</s>
+</p>
+<p>
+<s>Kohtut&auml;iturite esimene korrap&auml;rane atesteerimine toimub 2002. aasta teisel poolel .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>H&uuml;vitise mittemaksmine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse alusel ametisse nimetatud endisele maa- v&otilde;i linnakohtu t&auml;itevosakonna kohtut&auml;iturile ei maksta avaliku teenistuse seaduse ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ; 2001 , 7 , 17 ja 18 ) &sect;-s 131 etten&auml;htud h&uuml;vitist .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Riigivara v&otilde;&otilde;randamine ja tasuta kasutusse andmine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse alusel ametisse nimetatud kohtut&auml;iturile v&otilde;ib tema tegevuse alustamiseks v&otilde;&otilde;randada riigile kuuluvat vallasvara .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud juhul ei kohaldata riigivaraseaduse ( RT I 1995 , 22 , 327 ; 1996 , 36 , 738 ; 40 , 773 ; 48 , 942 ; 81 , 1446 ; 1997 , 45 , 724 ; 1998 , 30 , 409 ; 1999 , 10 , 155 ; 16 , 271 ; 2000 , 39 , 239 ; 49 , 306 ; 51 , 319 ; 2001 , 7 , 17 ) &sect;-s 24 etten&auml;htud piiranguid .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse alusel ametisse nimetatud kohtut&auml;iturile v&otilde;ib tema tegevuse alustamiseks anda kuni 2001. aasta 31. detsembrini tasuta kasutada enne k&auml;esoleva seaduse j&otilde;ustumist maa- v&otilde;i linnakohtu t&auml;itevosakonna k&auml;sutuses olnud ruumi .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Perekonnaseaduse muutmine</s>
+</p>
+<p>
+<s>Perekonnaseadust ( RT I 1994 , 75 , 1326 ; 1996 , 40 , 773 ; 49 , 953 ; 1997 , 28 , 422 ; 35 , 538 ; 2000 , 50 , 317 ) t&auml;iendatakse &sect;-ga 181 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 18 <hi rend="sup">1</hi> .</s><s>&Uuml;hisvara jagamine t&auml;itemenetluses</s>
+</p>
+<p>
+<s>Kui &uuml;he abikaasa suhtes on algatatud t&auml;itemenetlus ja tema lahusvarast ei piisa sissen&otilde;udja n&otilde;ude rahuldamiseks , v&otilde;ib sissen&otilde;udja esitada kohtule hagi abikaasade &uuml;hisvara jagamiseks . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Riigil&otilde;ivuseaduse muutmine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; 2000 , 5 , 32 ; 10 , 58 ; 19 , 117 ; 26 , 150 ; 29 , 168 ja 169 ; 39 , 237 ; 49 , 300 ; 54 , 346 ja 349 ; 55 , 365 ; 57 , 372 ja 373 ; 59 , 379 ; 60 , &otilde;iend ; 78 , 498 ; 84 , 534 ; 92 , 597 ja 598 ; 95 , 607 ja 611 ; 2001 , 2 , 2 ; 3 , 4 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 19 l&otilde;ike 3 punkt 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 2 ) kohtuotsuse v&otilde;i -m&auml;&auml;ruse ja kohtut&auml;ituri avalduse alusel tehtav sissekanne , v&auml;lja arvatud kanne omaniku kohta ; &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahv 21 <hi rend="sup">1</hi> muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 21 <hi rend="sup">1</hi> .</s><s>Riigil&otilde;ivu tasumisest vabastamine hooneregistri toimingutes</s>
+</p>
+<p>
+<s>Kohus , prokuratuur , uurija , notar , kohtut&auml;itur ja Maksuamet on riigil&otilde;ivu tasumisest vabastatud nende p&auml;devuses olevate &uuml;lesannete t&auml;itmiseks vajalike hooneregistri toimingute eest . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) seadust t&auml;iendatakse &sect;-ga 197 <hi rend="sup">7</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 197 <hi rend="sup">7</hi> .</s><s>Pankrotihalduri kutse taotlemine</s>
+</p>
+<p>
+<s>Pankrotihalduri kutse taotlemise ja pankrotihalduri atesteerimise eest tasutakse riigil&otilde;ivu 2000 krooni . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Tulumaksuseaduse muutmine</s>
+</p>
+<p>
+<s>Tulumaksuseaduses ( RT I 1999 , 101 , 903 ; 2000 , 55 , 359 ; 58 , 377 ; 102 , 667 ja 675 ; 2001 , 11 , 49 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 14 l&otilde;ikesse 2 lisatakse p&auml;rast s&otilde;na &ldquo; notari &rdquo; s&otilde;nad &ldquo; ja kohtut&auml;ituri &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 14 l&otilde;ikesse 5 lisatakse p&auml;rast s&otilde;na &ldquo; notar &rdquo; s&otilde;nad &ldquo; ja kohtut&auml;itur &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>K&auml;ibemaksuseaduse muutmine</s>
+</p>
+<p>
+<s>K&auml;ibemaksuseaduses ( RT I 1993 , 60 , 847 ; 2000 , 7 , 41 ; 51 , 328 ; 89 , 581 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 2 punkti 1 t&auml;iendatakse teise lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; Ettev&otilde;tlusena k&auml;sitatakse ka notari ja kohtut&auml;ituri ametitegevust . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) senine teine lause loetakse kolmandaks lauseks .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2001. aasta 1. m&auml;rtsil .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-d 3 , 10 , 13 , 48 ja 49 j&otilde;ustuvad Riigi Teatajas avaldamisele j&auml;rgneval p&auml;eval .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevas seaduses s&auml;testatut ei kohaldata enne 2001. aasta 1. m&auml;rtsi ametisse nimetatud maa- ja linnakohtu t&auml;itevosakondade koosseisu kuuluvatele kohtut&auml;ituritele .</s>
+</p>
+</body>
+   </text>
+</tei.2>

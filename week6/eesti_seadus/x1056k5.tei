@@ -1,0 +1,2278 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Eesti Vabariigi t&ouml;&ouml;lepingu seadus ( terviktekst juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   12718</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Eesti Vabariigi t&ouml;&ouml;lepingu seadus ( terviktekst juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=10></tagusage>
+         <tagusage gi=p occurs=724></tagusage>
+         <tagusage gi=s occurs=957></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Eesti Vabariigi t&ouml;&ouml;lepingu seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 15. aprillil 1992. a.</s>
+</p>
+<p>
+<s>( RT 1992 , 15/16 , 241 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. juulil 1992. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>31.05.2001 j&otilde;ust.30.06.2001 - RT I 2001 , 53 , 311 ;</s>
+</p>
+<p>
+<s>06.12.2000 j&otilde;ust.07.01.2001 - RT I 2000 , 102 , 669 ;</s>
+</p>
+<p>
+<s>14.06.2000 j&otilde;ust.01.10.2000 - RT I 2000 , 57 , 370 ;</s>
+</p>
+<p>
+<s>14.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 327 ;</s>
+</p>
+<p>
+<s>08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 ;</s>
+</p>
+<p>
+<s>16.06.99 j&otilde;ust.26.07.99 - RT I 1999 , 60 , 616 ;</s>
+</p>
+<p>
+<s>27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 ;</s>
+</p>
+<p>
+<s>09.12.98 j&otilde;ust.01.01.99 - RT I 1998 , 111 , 1829 ;</s>
+</p>
+<p>
+<s>18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 ;</s>
+</p>
+<p>
+<s>20.12.95 j&otilde;ust.01.09.96 - RT I 1996 , 3 , 57 ;</s>
+</p>
+<p>
+<s>26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ;</s>
+</p>
+<p>
+<s>12.06.96 j&otilde;ust.11.07.96 - RT 1 1996 , 45 , 850 ;</s>
+</p>
+<p>
+<s>28.05.96 j&otilde;ust.08.06.96 - RT I 1996 , 40 , 773 ;</s>
+</p>
+<p>
+<s>25.01.95 j&otilde;ust.01.01.96 - RT I 1995 , 16 , 228 ;</s>
+</p>
+<p>
+<s>19.01.95 j&otilde;ust.20.02.95 - RT I 1995 , 14 , 170</s>
+</p>
+<p>
+<s>05.05.93 j&otilde;ust.01.09.93 - RT I 1993 , 26 , 441 ;</s>
+</p>
+<p>
+<s>09.02.93 j&otilde;ust.12.03.93 - RT I 1993 10 , 150.</s>
+</p>
+<p>
+<s>Seaduse tekstis asendatud s&otilde;na &ldquo; kohus &rdquo; s&otilde;naga &ldquo; t&ouml;&ouml;vaidlusorgan &rdquo; vastavas k&auml;&auml;ndes</s>
+</p>
+<p>
+<s>( 20.12.95 j&otilde;ust.01.09.96 - RT I 1996 , 3 , 57 )</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>T&ouml;&ouml;leping</s>
+</p>
+<p>
+<s>T&ouml;&ouml;leping on t&ouml;&ouml;taja ja t&ouml;&ouml;andja kokkulepe , mille kohaselt t&ouml;&ouml;taja kohustub tegema t&ouml;&ouml;andjale t&ouml;&ouml;d , alludes tema juhtimisele ja kontrollile , t&ouml;&ouml;andja aga kohustub maksma t&ouml;&ouml;tajale t&ouml;&ouml; eest tasu ning kindlustama talle poolte kokkuleppe , kollektiivlepingu , seaduse v&otilde;i haldusaktiga etten&auml;htud t&ouml;&ouml;tingimused .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>T&ouml;&ouml;taja</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tajaks v&otilde;ib olla 18-aastaseks saanud teov&otilde;imeline v&otilde;i piiratult teov&otilde;imeline f&uuml;&uuml;siline isik .</s><s>Seadusega v&otilde;ib m&otilde;ne kategooria t&ouml;&ouml;tajate jaoks kehtestada k&otilde;rgendatud vanusem&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 2 ) Erandjuhtudel v&otilde;ib t&ouml;&ouml;tajaks olla :</s>
+</p>
+<p>
+<s>1 ) 15-aastaseks saanud alaealine - &uuml;he vanema v&otilde;i hooldaja kirjalikul n&otilde;usolekul , kui t&ouml;&ouml;tamine ei ohusta alaealise tervist , k&otilde;lblust ja hariduse omandamist ega ole alaealistele keelatud seaduse v&otilde;i kollektiivlepinguga ;</s>
+</p>
+<p>
+<s>2 ) 13 - 15-aastane alaealine - &uuml;he vanema v&otilde;i eestkostja ja t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektori kirjalikul n&otilde;usolekul ning vabariigi valitsuse poolt kinnitatud nimekirjas loetletud t&ouml;&ouml;del , kui t&ouml;&ouml;tamine ei ohusta alaealise tervist , k&otilde;lblust ja hariduse omandamist ega ole alaealistele keelatud kollektiivlepinguga .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>T&ouml;&ouml;andja</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andjaks v&otilde;ib olla :</s>
+</p>
+<p>
+<s>1 ) juriidiline isik ;</s>
+</p>
+<p>
+<s>2 ) juriidilise isiku struktuuri&uuml;ksus , kui talle on antud t&ouml;&ouml;andja &otilde;igused ;</s>
+</p>
+<p>
+<s>3 ) teov&otilde;imeline f&uuml;&uuml;siline isik .</s><s>Seadusega etten&auml;htud juhtudel peab t&ouml;&ouml;andja olema vanem kui 18-aastane .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Varem s&otilde;lmitud t&ouml;&ouml;lepingu kehtivus</s>
+</p>
+<p>
+<s>T&ouml;&ouml;leping , mis s&otilde;lmiti enne t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;andja jaoks k&otilde;rgendatud vanusem&auml;&auml;ra kehtima hakkamist ( paragrahv 2 l&otilde;ige 1 ja paragrahv 3 punkt 3 ) , j&auml;&auml;b j&otilde;usse ka niisuguse vanusem&auml;&auml;ra kehtima hakkamisel , kui seadus ei n&auml;e ette teisiti .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>T&ouml;&ouml;lepingu seaduse rakendusala</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu seadus laieneb k&otilde;igile t&ouml;&ouml;tajatele ja t&ouml;&ouml;andjatele , kes s&otilde;lmisid t&ouml;&ouml;lepingu .</s><s>Ettev&otilde;te s&otilde;lmib t&ouml;&ouml;lepingu ka oma liikme , osaniku v&otilde;i aktsion&auml;riga , kes t&ouml;&ouml;tab samas ettev&otilde;ttes .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>T&ouml;&ouml;lepingu kehtivus ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni reorganiseerimisel , alluvuse , omaniku v&otilde;i omandivormi muutumisel v&otilde;i ettev&otilde;tte &uuml;leminekul</s>
+</p>
+<p>
+<s>Ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni reorganiseerimine , alluvuse , omaniku v&otilde;i omandivormi muutumine v&otilde;i ettev&otilde;tte &uuml;leminek ei l&otilde;peta t&ouml;&ouml;lepingut .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 327 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Juhtumid , millele t&ouml;&ouml;lepingu seadus ei laiene</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu seadus ei laiene :</s>
+</p>
+<p>
+<s>1 ) teenistusele Riigikogu liikmena , Vabariigi Presidendina v&otilde;i Riigikogu v&otilde;i Vabariigi Presidendi poolt ametisse nimetatava ametnikuna ;</s>
+</p>
+<p>
+<s>2 ) riigiametnikele ja kohaliku omavalitsuse ametnikele , kelle teenistussuhteid reguleeritakse avaliku teenistuse seadusega ;</s>
+</p>
+<p>
+<s>3 ) kaitsej&otilde;udude tegevteenistusele ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;tamisele taluperes v&otilde;i pereettev&otilde;ttes talupere v&otilde;i pereettev&otilde;tte liikmena ;</s>
+</p>
+<p>
+<s>5 ) vanemate , abikaasade ja laste t&ouml;&ouml;tamisele &uuml;ksteise koduses majapidamises , samuti mainitud isikute poolt &uuml;ksteise eest hoolitsemisele ;</s>
+</p>
+<p>
+<s>6 ) perekonnaliikmete t&ouml;&ouml;tamisele &uuml;hises koduses majapidamises , samuti perekonnaliikme eest hoolitsemisele ;</s>
+</p>
+<p>
+<s>7 ) t&ouml;&ouml;tamisele teenistuslepingu alusel .</s><s>Teenistuslepingut reguleerib eriseadus ;</s>
+</p>
+<p>
+<s>8 ) t&ouml;&ouml;tamisele usuorganisatsioonis kultusetoiminguid sooritava isikuna , kui mainitud organisatsiooni p&otilde;hidokument ei n&otilde;ua niisuguse isikuga t&ouml;&ouml;lepingu s&otilde;lmimist ;</s>
+</p>
+<p>
+<s>9 ) volituse alusel tehingute t&auml;itmisele , kui niisugust tehingut t&auml;itev isik saab tehingult tulu ja tal lasub varaline riisiko tehingu &otilde;nnestumise eest ;</s>
+</p>
+<p>
+<s>10 ) juriidilise isiku organi ja v&auml;lismaa &auml;ri&uuml;hingu Eesti filiaali juhataja , samuti riigiettev&otilde;tte haldusn&otilde;ukogu liikme suhetele juriidilise isiku , v&auml;lismaa &auml;ri&uuml;hingu Eesti filiaali ja riigiettev&otilde;ttega ;</s>
+</p>
+<p>
+<s>( 28.05.96 j&otilde;ust.08.06.96 - RT I 1996 , 40 , 773 )</s>
+</p>
+<p>
+<s>11 ) tegutsemisele t&ouml;&ouml;ettev&otilde;tulepingu v&otilde;i muu tsiviil&otilde;igusliku lepingu alusel ;</s>
+</p>
+<p>
+<s>12 ) t&ouml;&ouml;tamisele vabadusekaotuse kandmise ajal.</s><s>Vabadusekaotuseta paranduslikke t&ouml;id tegevatele isikutele laieneb t&ouml;&ouml;lepingu seadus teiste seadustega etten&auml;htud erisustega ;</s>
+</p>
+<p>
+<s>13 ) seaduses otseselt etten&auml;htud muule tegevusele , samuti seaduses otseselt mainitud isikutele .</s>
+</p>
+<p>
+<s>( 25.01.95 j&otilde;ust.01.01.96 - RT I 1995 , 16 , 228 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Vaidlus lepingu olemuse &uuml;le</s>
+</p>
+<p>
+<s>Vaidluse korral lepingu olemuse &uuml;le loetakse , et pooled s&otilde;lmisid t&ouml;&ouml;lepingu , kui v&auml;idetav t&ouml;&ouml;andja ei t&otilde;enda vastupidist v&otilde;i kui pole ilmne , et pooled s&otilde;lmisid teistsuguse lepingu .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Varjatud tehing</s>
+</p>
+<p>
+<s>Kui pooled s&otilde;lmisid t&ouml;&ouml;lepingu teise tehingu varjamiseks , kohaldatakse selle tehingu kohta k&auml;ivaid s&auml;tteid , mida pooled tegelikult silmas pidasid .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Seadusevastane eelistamine ja &otilde;iguste piiramine</s>
+</p>
+<p>
+<s>( 1 ) Seadusevastane on eeliste lubamine ja andmine ning &otilde;iguste piiramine s&otilde;ltuvalt t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;andja soost , rahvusest , nahav&auml;rvist , rassist , emakeelest , sotsiaalsest p&auml;ritolust , &uuml;hiskondlikust seisundist , varasemast tegevusest , usulistest , poliitilistest v&otilde;i muudest veendumustest ja suhtest kaitseteenistuse kohustusse .</s><s>Samuti on seadusevastane t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;andja &otilde;iguste piiramine s&otilde;ltuvalt perekonnaseisust , perekondlikest kohustustest , kuuluvusest kodanike &uuml;hendustesse ning t&ouml;&ouml;tajate v&otilde;i t&ouml;&ouml;andjate huvide esindamisest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikega ei ole vastuolus :</s>
+</p>
+<p>
+<s>1 ) eeliste lubamine ja andmine seoses raseduse v&otilde;i laste kasvatamisega ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;le v&otilde;tmisel ja t&ouml;&ouml;&uuml;lesannete andmisel t&ouml;&ouml;taja soo arvesse v&otilde;tmine , kui see on m&ouml;&ouml;dap&auml;&auml;smatu t&ouml;&ouml; iseloomu v&otilde;i t&ouml;&ouml;tingimuste t&otilde;ttu ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;tajale usuliste vajaduste rahuldamiseks sobiva t&ouml;&ouml;- ja puhkeajare&zcaron;iimi v&otilde;imaldamine ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;ks vajaliku keelteoskuse n&otilde;udmine ja keelte valdamise eest h&uuml;vede andmine .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Lapsi kasvatavate isikute soodustused</s>
+</p>
+<p>
+<s>Soodustused , mis on paragrahvi 51 2. l&otilde;ikes , paragrahvi 63 2. l&otilde;ikes , paragrahvis 67 , paragrahvi 79 2. l&otilde;ikes ja paragrahvis 92 ette n&auml;htud naisele , kes kasvatab lapsinvaliidi v&otilde;i alla kolmeaastast last , laienevad ka :</s>
+</p>
+<p>
+<s>1 ) isikule , kes ilma emata kasvatab lapsinvaliidi v&otilde;i alla kolmeaastast last ;</s>
+</p>
+<p>
+<s>2 ) alla kolmeaastase lapse eestkostjale ;</s>
+</p>
+<p>
+<s>3 ) lapsinvaliidi eestkostjale v&otilde;i hooldajale .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Alaealised</s>
+</p>
+<p>
+<s>Alaealistel on t&ouml;&ouml;suhetes ja t&ouml;&ouml;vaidlustes v&otilde;rdsed &otilde;igused t&auml;isealistega ning seaduse , haldusakti ja kollektiivlepinguga etten&auml;htud soodustused .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>V&auml;lisriigi kodanikud ja kodakondsuseta isikud</s>
+</p>
+<p>
+<s>( 1 ) Eestis alaliselt elavatel v&auml;lisriigi kodanikel ja kodakondsuseta isikutel on Eesti kodanikega v&otilde;rdsed t&ouml;&ouml;alased &otilde;igused , kui seadus ei n&auml;e ette teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Eestis ajutiselt v&otilde;i t&auml;htajaliselt elavate v&auml;lisriigi kodanike ja kodakondsuseta isikute t&ouml;&ouml;alased eritingimused n&auml;hakse ette seadusega .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>T&ouml;&ouml;taja &otilde;iguste laiendamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tajale seaduse v&otilde;i haldusaktiga antud &otilde;igusi v&otilde;ib laiendada kollektiiv- ja t&ouml;&ouml;lepinguga , samuti t&ouml;&ouml;andja &uuml;hepoolse otsusega .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;tajale kollektiivlepinguga antud &otilde;igusi v&otilde;ib laiendada t&ouml;&ouml;lepingu ja t&ouml;&ouml;andja &uuml;hepoolse otsusega .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>T&ouml;&ouml;taja olukorda halvendavate t&ouml;&ouml;lepingu tingimuste kehtetus</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu tingimused , mis on t&ouml;&ouml;taja jaoks halvemad seaduses , haldusaktis v&otilde;i kollektiivlepingus ette n&auml;htust , on kehtetud .</s><s>Kui pooled ei lepi kokku uutes tingimustes , kohaldatakse t&ouml;&ouml;lepingu kehtetute tingimuste asemel seadust , haldusakti v&otilde;i kollektiivlepingut .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>T&ouml;&ouml;taja olukorda halvendavate t&ouml;&ouml;andja &uuml;hepoolsete otsuste kehtetus</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja &uuml;hepoolse otsusega kehtestatud tingimused , mis on t&ouml;&ouml;taja jaoks halvemad seaduses , haldusaktis , kollektiiv- v&otilde;i t&ouml;&ouml;lepingus etten&auml;htust , on kehtetud .</s><s>Kehtetute tingimuste asemel kohaldatakse seadust , haldusakti , kollektiiv- v&otilde;i t&ouml;&ouml;lepingut .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>T&ouml;&ouml;taja jaoks soodsaima s&auml;tte kohaldamine</s>
+</p>
+<p>
+<s>S&auml;tete vastuolu korral kohaldatakse s&auml;tet , mis on t&ouml;&ouml;taja jaoks soodsaim .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>&Uuml;hepoolsed toimingud</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu &uuml;hepoolne muutmine , peatamine , l&otilde;petamine ja t&uuml;histamine on lubatud ainult seaduses , kollektiiv- v&otilde;i t&ouml;&ouml;lepingus etten&auml;htud tingimustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Pidev t&ouml;&ouml;staa&zcaron; sama t&ouml;&ouml;andja juures</s>
+</p>
+<p>
+<s>Pidevat t&ouml;&ouml;staa&zcaron;i sama t&ouml;&ouml;andja juures arvutatakse eeskirjade j&auml;rgi , mis on kehtestatud t&ouml;&ouml;andja poolt v&otilde;i kollektiiv- v&otilde;i t&ouml;&ouml;lepinguga .</s><s>Igal juhul arvatakse mainitud staa&zcaron;i hulka sama t&ouml;&ouml;andja juures t&ouml;&ouml;lepingu alusel vaheaegadeta t&ouml;&ouml;tatud aeg , t&ouml;&ouml;lepingu peatumise aeg ja sunnitult t&ouml;&ouml;lt puudutud aeg .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>T&ouml;&ouml;raamat</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;raamat on t&ouml;&ouml;lepingu alusel t&ouml;&ouml;tamist t&otilde;endav p&otilde;hidokument .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andja on kohustatud pidama t&ouml;&ouml;raamatut k&otilde;igi p&otilde;hikohaga t&ouml;&ouml;tajate kohta .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;raamatusse kantakse :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;taja ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;taja s&uuml;nniaeg ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;lepingu alusel t&ouml;&ouml;tamise aeg , sealhulgas erikandega t&ouml;&ouml;tamise aeg t&ouml;&ouml;del v&otilde;i tingimustes , mis annavad t&ouml;&ouml;tajale &otilde;iguse soodustuspensionile v&otilde;i pensioni&otilde;igusliku staa&zcaron;i soodustatud korras arvutamisele ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;lepingu peatumine paragrahvi 55 punktide 1-2 ja 7 alusel kauemaks kui kolmeks kuuks .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;taja n&otilde;udel kantakse t&ouml;&ouml;raamatusse :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;lepingu l&otilde;petamise v&otilde;i kehtetuks tunnistamise aluse formuleering viitega seaduse paragrahvile , l&otilde;ikele ja punktile ;</s>
+</p>
+<p>
+<s>2 ) andmed tehtud t&ouml;&ouml;de ja t&auml;idetud ametikohtade kohta ;</s>
+</p>
+<p>
+<s>3 ) kohakaasluse korras t&ouml;&ouml;tatud aeg , kui t&ouml;&ouml;taja esitab p&otilde;hikoha t&ouml;&ouml;andjale dokumendi , mis t&otilde;endab kohakaasluse korras t&ouml;&ouml;tamist ;</s>
+</p>
+<p>
+<s>4 ) teise t&ouml;&ouml;andja juures paragrahvide 67 ja 68 alusel t&ouml;&ouml;tatud aeg , kui t&ouml;&ouml;taja esitab p&otilde;hikoha t&ouml;&ouml;andjale niisugust t&ouml;&ouml;tamist t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 5 ) Andmeid , mida ei ole k&auml;esoleva paragrahvi 3. ja 4. l&otilde;ikes mainitud , t&ouml;&ouml;raamatusse ei kanta .</s>
+</p>
+<p>
+<s>( 6 ) T&ouml;&ouml;raamatu vormi , samuti t&ouml;&ouml;raamatu t&auml;itmise ja dublikaadi andmise korra ning t&ouml;&ouml;raamatu hinna kehtestab Sotsiaalministeerium .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>T&ouml;&ouml;tajate arvestus ja dokumentide s&auml;ilitamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja peab arvestust k&otilde;igi t&ouml;&ouml;tajate kohta isikukaartidel .</s><s>T&ouml;&ouml;tajate arvestuse korra ja isikukaardile kantavate andmete loetelu kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingut , isikukaarti ning v&auml;lja v&otilde;tmata t&ouml;&ouml;raamatut s&auml;ilitatakse 50 aastat , arvates t&ouml;&ouml;lepingu l&otilde;petamisest .</s><s>Tegevuse l&otilde;petamisel annab t&ouml;&ouml;andja nimetatud dokumendid &uuml;le arhiiviasutusele .</s><s>Ettev&otilde;tte v&otilde;i selle organisatsiooniliselt iseseisva osa &uuml;leminekul annab t&ouml;&ouml;andja dokumendid &uuml;le enda &otilde;igusj&auml;rglasele .</s>
+</p>
+<p>
+<s>( 06.12.2000 j&otilde;ust.07.01.2001 - RT I 2000 , 102 , 669 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>T&ouml;&ouml;tajale &otilde;iendite ja iseloomustuse andmine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja on t&ouml;&ouml;taja n&otilde;udel kohustatud andma talle :</s>
+</p>
+<p>
+<s>1 ) kalendriaasta l&otilde;pul , samuti t&ouml;&ouml;lepingu l&otilde;petamisel &otilde;iendi makstud palga , kinnipeetud &uuml;ksikisiku tulumaksu ja t&ouml;&ouml;taja kasuks tehtud kindlustusmaksete kohta .</s><s>&Otilde;iendi vormi kehtestab Maksuamet ;</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>2 ) &otilde;iendi , milles n&auml;idatakse , kellena ja kui kaua t&ouml;&ouml;taja on selle t&ouml;&ouml;andja juures t&ouml;&ouml;tanud .</s><s>T&ouml;&ouml;taja n&otilde;udel kantakse &otilde;iendisse ka t&ouml;&ouml;lepingu l&otilde;petamise v&otilde;i kehtetuks tunnistamise aluse formuleering viitega seaduse paragrahvile , l&otilde;ikele ja punktile ;</s>
+</p>
+<p>
+<s>3 ) iseloomustuse .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>T&ouml;&ouml;inspektori otsuse tegemise t&auml;htaeg</s>
+</p>
+<p>
+<s>K&auml;esoleva seadusega etten&auml;htud otsused teeb t&ouml;&ouml;inspektor kahe n&auml;dala jooksul , arvates tema poole p&ouml;&ouml;rdumise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Erieeskirjade kehtestamine</s>
+</p>
+<p>
+<s>Seadusega v&otilde;ib m&otilde;ne kategooria t&ouml;&ouml;tajate , samuti m&otilde;ne kategooria t&ouml;&ouml;andjate jaoks kehtestada teistsugused eeskirjad kui need , mis sisalduvad k&auml;esolevas seaduses .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Rahvusvaheline leping</s>
+</p>
+<p>
+<s>Kui seadus , haldusakt , kollektiiv- v&otilde;i t&ouml;&ouml;leping v&otilde;i t&ouml;&ouml;andja &uuml;hepoolne otsus on vastuolus Eestile kohustusliku rahvusvahelise lepinguga , mis n&auml;eb selgelt ja &uuml;hem&otilde;tteliselt ette , et lepingut kohaldatakse , s&otilde;ltumata siseriikliku seaduse v&otilde;i haldusakti vastuv&otilde;tmisest , kohaldatakse rahvusvahelist lepingut .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu s&otilde;lmimine</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>T&ouml;&ouml;lepingu kohustuslikud tingimused</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu kohustuslikeks tingimusteks on j&auml;rgnevad kokkulepped :</s>
+</p>
+<p>
+<s>1 ) tehtava t&ouml;&ouml; , selle keerukusastme , ameti- v&otilde;i kutsenimetuse ja kvalifikatsioonin&otilde;uete kohta ;</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 327 )</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;aja kohta ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;tasu kohta ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml; tegemise asukoha kohta ;</s>
+</p>
+<p>
+<s>5 ) m&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu kehtivusaja kohta ;</s>
+</p>
+<p>
+<s>6 ) t&ouml;&ouml;le asumise aja kohta .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu tingimusteks v&otilde;ivad olla ka kokkulepped muudes k&uuml;simustes .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>T&ouml;&ouml;lepingu t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;leping s&otilde;lmitakse :</s>
+</p>
+<p>
+<s>1 ) m&auml;&auml;ramata ajaks ;</s>
+</p>
+<p>
+<s>2 ) m&auml;&auml;ratud ajaks kas lepingut&auml;htaja kalendaarse kindlaksm&auml;&auml;ramisega v&otilde;i t&ouml;&ouml; l&otilde;ppemisega , kuid mitte kauemaks kui viieks aastaks .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;ratud ajaks v&otilde;ib t&ouml;&ouml;lepingu s&otilde;lmida :</s>
+</p>
+<p>
+<s>1 ) teatud t&ouml;&ouml; tegemise ajaks ;</s>
+</p>
+<p>
+<s>2 ) ajutiselt &auml;raoleva t&ouml;&ouml;taja asendamiseks ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;de mahu ajutisel suurenemisel ;</s>
+</p>
+<p>
+<s>4 ) hooajat&ouml;&ouml;de tegemiseks ;</s>
+</p>
+<p>
+<s>5 ) kui t&ouml;&ouml;lepingus n&auml;hakse t&ouml;&ouml;tajale ette erisoodustused ( v&auml;lja&otilde;pe t&ouml;&ouml;andja kulul , t&ouml;&ouml;andja loobumine t&ouml;&ouml;lepingu l&otilde;petamisest t&ouml;&ouml;taja koondamise t&otilde;ttu jms. ) ;</s>
+</p>
+<p>
+<s>6 ) seadusega , samuti vabariigi valitsuse m&auml;&auml;rustega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) Kui t&ouml;&ouml;lepingu t&auml;htaeg on m&auml;rkimata , loetakse t&ouml;&ouml;leping s&otilde;lmituks m&auml;&auml;ramata ajaks .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>T&ouml;&ouml;lepingu vorm</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;leping s&otilde;lmitakse kahes eksemplaris , millest &uuml;ks j&auml;&auml;b t&ouml;&ouml;tajale , teine t&ouml;&ouml;andjale .</s><s>Ainult t&ouml;&ouml; tegemiseks , mille kestus ei &uuml;leta kaht n&auml;dalat , v&otilde;ib t&ouml;&ouml;lepingu s&otilde;lmida suuliselt .</s>
+</p>
+<p>
+<s>( 2 ) Tegelikult t&ouml;&ouml;le lubamine t&ouml;&ouml;andja poolt on v&otilde;rdsustatud t&ouml;&ouml;lepingu s&otilde;lmimisega , s&otilde;ltumata t&ouml;&ouml;lepingu vormistamisest .</s><s>Sel juhul vormistatakse t&ouml;&ouml;leping kirjalikult tingimustel , mida tegelikult kohaldati .</s><s>Kui tegelikud tingimused olid t&ouml;&ouml;taja jaoks halvemad seaduses , haldusaktis v&otilde;i kollektiivlepingus etten&auml;htust , kohaldatakse vastavat seadust , haldusakti v&otilde;i kollektiivlepingut .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;lepingu vormistamata j&auml;tmine v&otilde;i n&otilde;uetevastase vormistamise eest kannab t&ouml;&ouml;andja haldusvastutust .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>T&ouml;&ouml;lepingu s&otilde;lmimine isiklikult</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu s&otilde;lmib t&ouml;&ouml;andjaga v&otilde;i t&ouml;&ouml;andja selleks volitatud esindajaga iga t&ouml;&ouml;taja , ka alaealine , isiklikult .</s><s>T&ouml;&ouml;leping loetakse s&otilde;lmituks , kui pooled on lepingule alla kirjutanud v&otilde;i t&ouml;&ouml;taja on t&ouml;&ouml;le lubatud .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>T&ouml;&ouml;lepingu s&otilde;lmimiseks n&otilde;utavad dokumendid</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu s&otilde;lmimiseks n&otilde;uab t&ouml;&ouml;andja j&auml;rgmiste dokumentide esitamist :</s>
+</p>
+<p>
+<s>1 ) isikut t&otilde;endav dokument ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;raamat ;</s>
+</p>
+<p>
+<s>3 ) tunnistus ( diplom ) vajaliku kvalifikatsiooni v&otilde;i hariduse kohta ;</s>
+</p>
+<p>
+<s>4 ) t&otilde;end ( sanitaarraamat ) tervise kohta , kui t&ouml;&ouml;leping s&otilde;lmitakse t&ouml;&ouml;tamiseks t&ouml;&ouml;l , kus on ette n&auml;htud eelnev ja perioodiline tervisekontroll , samuti alla 21-aastase isiku t&ouml;&ouml;le v&otilde;tmisel erieeskirjades etten&auml;htud t&ouml;&ouml;dele .</s><s>Niisuguste t&ouml;&ouml;de loetelu kinnitab vabariigi valitsus ja mainitud t&otilde;endi ( sanitaarraamatu ) vormi kinnitab tervishoiuministeerium ;</s>
+</p>
+<p>
+<s>5 ) &uuml;he vanema v&otilde;i eestkostja ja t&ouml;&ouml;inspektori kirjalik n&otilde;usolek 13- kuni 15-aastase alaealise t&ouml;&ouml;lev&otilde;tmisel ;</s>
+</p>
+<p>
+<s>6 ) &uuml;he vanema v&otilde;i hooldaja kirjalik n&otilde;usolek 15-aastaseks saanud alaealise t&ouml;&ouml;lev&otilde;tmisel ;</s>
+</p>
+<p>
+<s>7 ) seadusega etten&auml;htud juhtudel t&ouml;&ouml;tamisluba v&auml;lismaalase v&otilde;i kodakondsuseta isiku t&ouml;&ouml;le v&otilde;tmisel ;</s>
+</p>
+<p>
+<s>8 ) muud dokumendid seaduse v&otilde;i vabariigi valitsuse m&auml;&auml;rusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;le v&otilde;tmisel on keelatud n&otilde;uda dokumente , mida ei ole ette n&auml;htud seaduse v&otilde;i vabariigi valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;tajal on &otilde;igus omaalgatuslikult esitada t&ouml;&ouml;andjale iseloomustusi , soovitusi ja muid dokumente , mis iseloomustavad tema eelnenud t&ouml;&ouml;tamist ning kutseoskuste olemasolu ja kasutamist .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>T&ouml;&ouml;lepingu registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Kui t&ouml;&ouml;andjaks on f&uuml;&uuml;siline isik , on t&ouml;&ouml;andja kohustatud registreerima kirjaliku t&ouml;&ouml;lepingu &uuml;he n&auml;dala jooksul , arvates t&ouml;&ouml;taja t&ouml;&ouml;leasumise p&auml;evast , oma elukoha t&ouml;&ouml;inspektsioonis .</s><s>T&ouml;&ouml;lepingu registreerimata j&auml;tmine ei m&otilde;juta lepingu kehtivust .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu registreerimata j&auml;tmise eest kannab t&ouml;&ouml;andja haldusvastutust .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Sugulaste ja h&otilde;imlaste koos t&ouml;&ouml;tamise piiramine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;hes ja samas riiklikus v&otilde;i munitsipaalettev&otilde;ttes , -asutuses v&otilde;i muus riiklikus v&otilde;i munitsipaalorganisatsioonis on keelatud omavahel l&auml;hedases suguluses ( vanemad , vennad , &otilde;ed , lapsed ) v&otilde;i h&otilde;imluses ( abikaasa , abikaasa vanemad , vennad , &otilde;ed , lapsed ) olevatel isikutel t&ouml;&ouml;tada &uuml;ksteise vahetus alluvuses olevatel v&otilde;i teise poolt vahetult kontrollitavatel ametikohtadel .</s>
+</p>
+<p>
+<s>( 2 ) Ametikohtade loetelu , mille t&auml;itmisel ei kohaldata k&auml;esoleva paragrahvi 1. l&otilde;ikega etten&auml;htud piiranguid , kehtestatakse seaduse v&otilde;i vabariigi valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Katseaeg</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingus kokkulepitud t&ouml;&ouml;de tegemiseks t&ouml;&ouml;tajal vajaliku tervise , v&otilde;imete , suhtlemisalase sobivuse ja kutseoskuste kindlakstegemiseks v&otilde;ib t&ouml;&ouml;lepingus ette n&auml;ha katseaja .</s>
+</p>
+<p>
+<s>( 2 ) Katseaeg ei v&otilde;i &uuml;letada nelja kuud .</s>
+</p>
+<p>
+<s>( 3 ) Katseaja hulka ei arvata aega , mil t&ouml;&ouml;leping oli peatatud paragrahvi 55 punktide 1-6 alusel .</s>
+</p>
+<p>
+<s>( 4 ) Katseajal on t&ouml;&ouml;tajal k&otilde;ik seadustest , haldusaktidest ning kollektiiv- ja t&ouml;&ouml;lepingust tulenevad &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>( 5 ) Katseaega ei rakendata :</s>
+</p>
+<p>
+<s>1 ) alaealistele ;</s>
+</p>
+<p>
+<s>2 ) invaliidide t&ouml;&ouml;lev&otilde;tmisel neile etten&auml;htud t&ouml;&ouml;- ( ameti- ) kohtadele .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Katseaja tulemused</s>
+</p>
+<p>
+<s>( 1 ) Katseaja tulemused m&auml;&auml;rab kindlaks t&ouml;&ouml;andja .</s><s>Kui t&ouml;&ouml;andja ei ole rahul katseaja tulemustega , on tal &otilde;igus t&ouml;&ouml;lepingu l&otilde;petada ( paragrahvi 86 punkt 5 ) .</s><s>Katseaja kestel on t&ouml;&ouml;tajal &otilde;igus t&ouml;&ouml;leping l&otilde;petada .</s>
+</p>
+<p>
+<s>( 2 ) Kui katseaeg on l&otilde;ppenud ja t&ouml;&ouml;taja j&auml;tkab t&ouml;&ouml;d , loetakse ta katse sooritanuks ja t&ouml;&ouml;andja v&otilde;ib temaga t&ouml;&ouml;lepingu l&otilde;petada ainult teistel seaduses etten&auml;htud alustel .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>T&ouml;&ouml;d , millel on keelatud naiste rakendamine</s>
+</p>
+<p>
+<s>Keelatud on t&ouml;&ouml;le v&otilde;tta ja rakendada naisi rasketel ja tervistkahjustavatel t&ouml;&ouml;del ning allmaat&ouml;&ouml;del .</s><s>Naistele keelatud t&ouml;&ouml;de loetelu m&auml;&auml;rab kindlaks vabariigi valitsus .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>T&ouml;&ouml;d , millel on keelatud alaealiste rakendamine</s>
+</p>
+<p>
+<s>Keelatud on t&ouml;&ouml;le v&otilde;tta ja rakendada alaealisi rasketel , tervistkahjustavatel v&otilde;i ohtlike t&ouml;&ouml;tingimustega t&ouml;&ouml;del ja allmaat&ouml;&ouml;del ning t&ouml;&ouml;del , mis ohustavad alaealiste k&otilde;lblust .</s><s>Alaealistele keelatud t&ouml;&ouml;de loetelu m&auml;&auml;rab kindlaks vabariigi valitsus .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Kohakaaslus <hi rend="sup">1</hi></s>
+</p>
+<p>
+<s>( 1 ) Kohakaasluseks loetakse t&ouml;&ouml;tamist teise t&ouml;&ouml;lepingu alusel v&auml;ljaspool t&ouml;&ouml;aega p&otilde;hit&ouml;&ouml;l sama v&otilde;i teise t&ouml;&ouml;andja juures .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;leping t&ouml;&ouml;tamiseks kohakaasluses s&otilde;lmitakse samas korras nagu p&otilde;hit&ouml;&ouml;l .</s>
+</p>
+<p>
+<s>( 3 ) Riigi- v&otilde;i munitsipaalettev&otilde;tte , -asutuse v&otilde;i muu riigi- v&otilde;i munitsipaalorganisatsiooni juhil , tema aset&auml;itjatel , peaspetsialistidel ning struktuuri&uuml;ksuste juhtidel ja nende aset&auml;itjatel on keelatud kohakaasluse korras t&ouml;&ouml;tamine nii samas ettev&otilde;ttes , asutuses v&otilde;i organisatsioonis kui ka teise t&ouml;&ouml;andja juures , v&auml;lja arvatud pedagoogiline v&otilde;i teadust&ouml;&ouml; .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>T&ouml;&ouml;andja vastutus t&ouml;&ouml;taja t&ouml;&ouml;le mittelubamisel</s>
+</p>
+<p>
+<s>Kui t&ouml;&ouml;andja keeldub t&ouml;&ouml;lepingu s&otilde;lminud t&ouml;&ouml;tajat t&ouml;&ouml;le lubamast , v&otilde;ib t&ouml;&ouml;taja kohtu kaudu n&otilde;uda t&ouml;&ouml;lepingu t&auml;itmist ja kokkulepitud palka sunnitud t&ouml;&ouml;lt puudumise aja eest v&otilde;i h&uuml;vitust t&ouml;&ouml;lepingu t&auml;itmisest keeldumise eest kolme kuu kokkulepitud palga ulatuses .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;sisekord , poolte kohustused ja t&ouml;&ouml;lepingu peatumine</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;sisekord</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>&Uuml;ldeeskiri</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;sisekord m&auml;&auml;rab poolte k&auml;itumisreeglid t&ouml;&ouml;suhetes .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;sisekord v&otilde;ib olla &uuml;hine ettev&otilde;tte , asutuse v&otilde;i organisatsiooni k&otilde;igi t&ouml;&ouml;tajate jaoks v&otilde;i erinev struktuuri&uuml;ksuste v&otilde;i t&ouml;&ouml;tajate kategooriate l&otilde;ikes .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>T&ouml;&ouml;sisekorraeeskirjad</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;sisekord m&auml;&auml;ratakse t&ouml;&ouml;sisekorraeeskirjadega t&ouml;&ouml;andja juures , kellel on v&auml;hemalt viis t&ouml;&ouml;tajat .</s><s>T&ouml;&ouml;andja , v&auml;lja arvatud riigi v&otilde;i kohaliku omavalitsuse ametiasutus , kinnitab t&ouml;&ouml;sisekorraeeskirjad koosk&otilde;lastatult oma asukoha ( elukoha ) t&ouml;&ouml;inspektoriga .</s>
+</p>
+<p>
+<s>( 25.01.95 j&otilde;ust.01.01.96 - RT I 1995 , 16 , 228 )</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;sisekorraeeskirju ei n&otilde;uta t&ouml;&ouml;andjalt , kellel on alla viie t&ouml;&ouml;taja .</s><s>Niisugune t&ouml;&ouml;andja v&otilde;ib t&ouml;&ouml;sisekorra m&auml;&auml;rata iseseisvalt , arvestades t&ouml;&ouml; ise&auml;rasusi ja t&ouml;&ouml;sisekorrale harilikult esitatavaid n&otilde;udeid .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>T&ouml;&ouml;sisekorraeeskirjade sisu</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;sisekorraeeskirjad peavad kindlaks m&auml;&auml;rama v&auml;hemalt allj&auml;rgneva :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;aja alguse ja l&otilde;pu eraldi t&auml;isealistele ja alaealistele , samuti t&ouml;&ouml;aja l&otilde;pu puhkep&auml;evade ja riiklike p&uuml;hade eelsetel p&auml;evadel ;</s>
+</p>
+<p>
+<s>2 ) puhkamiseks ja einetamiseks antavad ajad ;</s>
+</p>
+<p>
+<s>3 ) palga maksmise aja ja koha ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;alaste korralduste andmise korra ;</s>
+</p>
+<p>
+<s>5 ) t&ouml;&ouml;kaitse ja tuleohutuse &uuml;ldjuhised .</s>
+</p>
+<p>
+<s>( 2 ) Vahetustega t&ouml;&ouml; korral v&otilde;ib t&ouml;&ouml;aja alguse ja l&otilde;pu , puhkamiseks ja einetamiseks antavad ajad ning &uuml;hest vahetusest teise &uuml;lemineku aja ja korra m&auml;&auml;rata vahetusgraafikutega .</s><s>Vahetusgraafikud kinnitab t&ouml;&ouml;andja .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>T&ouml;&ouml;sisekorraeeskirjade projekti tutvustamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja annab t&ouml;&ouml;sisekorraeeskirjade projekti tutvustamiseks ning ettepanekute ja m&auml;rkuste tegemiseks t&ouml;&ouml;tajatele ja neid esindavale organisatsioonile v&auml;hemalt n&auml;dal enne projekti t&ouml;&ouml;inspektorile esitamist .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 327 )</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;sisekorraeeskirjade projekti kohta tehtud ettepanekud ja m&auml;rkused ei ole t&ouml;&ouml;andjale kohustuslikud , v&auml;lja arvatud juhul , kui need l&auml;htuvad seadusest .</s>
+</p>
+<p>
+<s>( 25.01.95 j&otilde;ust.01.01.96 - RT I 1995 , 16 , 228 )</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>T&ouml;&ouml;sisekorraeeskirjade koosk&otilde;lastamine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast paragrahvi 42 1. l&otilde;ikes etten&auml;htud t&auml;htaja m&ouml;&ouml;dumist esitab t&ouml;&ouml;andja t&ouml;&ouml;sisekorraeeskirjade projekti kahes eksemplaris koosk&otilde;lastamiseks oma asukoha ( elukoha ) t&ouml;&ouml;inspektorile .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;inspektor vaatab esitatud projekti l&auml;bi kahe n&auml;dala jooksul , arvates selle laekumise p&auml;evast , ja teeb sama t&auml;htaja jooksul oma otsuse .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;sisekorraeeskirjade koosk&otilde;lastamisel saadab t&ouml;&ouml;inspektor neist &uuml;he koosk&otilde;lastusm&auml;rkusega eksemplari viivitamatult t&ouml;&ouml;andjale .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;inspektor j&auml;tab koosk&otilde;lastamata t&ouml;&ouml;sisekorraeeskirjade projekti , mis on vastuolus seaduse v&otilde;i haldusaktiga ja teatab sellest t&ouml;&ouml;andjale viivitamatult kirjalikult .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>T&ouml;&ouml;sisekorraeeskirjade j&otilde;ustumine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;sisekorraeeskirjad j&otilde;ustuvad n&auml;dala m&ouml;&ouml;dumisel , arvates eeskirjade t&ouml;&ouml;inspektoriga koosk&otilde;lastamise p&auml;evale j&auml;rgnevast kalendrip&auml;evast , kui t&ouml;&ouml;sisekorraeeskirjades ei ole ette n&auml;htud hilisemat j&otilde;ustumisaega .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>T&ouml;&ouml;sisekorraeeskirjadega tutvumise tagamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja peab tagama t&ouml;&ouml;tajale v&otilde;imaluse igal ajal tutvuda t&ouml;&ouml;sisekorraeeskirjadega .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>T&ouml;&ouml;sisekorraeeskirjade muutmine ja t&auml;iendamine</s>
+</p>
+<p>
+<s>Paragrahve 39-45 kohaldatakse ka t&ouml;&ouml;sisekorraeeskirjade muutmisel ja t&auml;iendamisel .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>T&ouml;&ouml;sisekorraeeskirjade vastuolu seaduse , haldusakti v&otilde;i kollektiivlepinguga</s>
+</p>
+<p>
+<s>T&ouml;&ouml;sisekorraeeskirjade s&auml;tted , mis on vastuolus seaduse , haldusakti v&otilde;i kollektiivlepinguga , on kehtetud .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Poolte kohustused</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Poolte vastastikused kohustused</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja ja t&ouml;&ouml;taja on vastastikku kohustatud :</s>
+</p>
+<p>
+<s>1 ) t&auml;itma t&ouml;&ouml;- ja kollektiivlepingu tingimusi ;</s>
+</p>
+<p>
+<s>2 ) t&auml;itma t&ouml;&ouml;sisekorra , t&ouml;&ouml;tervishoiu , t&ouml;&ouml;ohutuse ning tuleohutuse n&otilde;udeid ;</s>
+</p>
+<p>
+<s>( 16.06.99 j&otilde;ust.26.07.99 - RT I 1999 , 60 , 616 )</s>
+</p>
+<p>
+<s>3 ) hoiduma tegudest , mis kahjustavad teise poole vara , ning tegema endast s&otilde;ltuva , et t&ouml;&ouml;s ei kahjustataks kolmandate isikute vara ;</s>
+</p>
+<p>
+<s>4 ) olema teineteise suhtes viisakad ;</s>
+</p>
+<p>
+<s>5 ) t&auml;itma seaduses ja haldusaktis ette n&auml;htud muid vastastikuseid t&ouml;&ouml;alaseid kohustusi .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>T&ouml;&ouml;andja kohustused</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) kindlustama t&ouml;&ouml;taja kokkulepitud t&ouml;&ouml;ga ning andma selgelt ja &otilde;igeaegselt vajalikke korraldusi ;</s>
+</p>
+<p>
+<s>2 ) maksma t&ouml;&ouml; eest tasu etten&auml;htud ajal ja suuruses ;</s>
+</p>
+<p>
+<s>3 ) andma etten&auml;htud puhkust ja maksma puhkusetasu ;</s>
+</p>
+<p>
+<s>4 ) kindlustama ohutud t&ouml;&ouml;tingimused ;</s>
+</p>
+<p>
+<s>5 ) tutvustama t&ouml;&ouml;lev&otilde;tmisel , samuti t&ouml;&ouml;tamise ajal t&ouml;&ouml;tajale t&ouml;&ouml;sisekorra , t&ouml;&ouml;kaitse ja tuleohutuse n&otilde;udeid ;</s>
+</p>
+<p>
+<s>5 <hi rend="sup">1</hi> ) korraldama oma kulul t&ouml;&ouml;alast koolitust , kui ta ise muudab t&ouml;&ouml;ks vajalike kutseoskuste ( sealhulgas riigikeele ja v&otilde;&otilde;rkeelte oskuse ) n&otilde;udeid ;</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 327 )</s>
+</p>
+<p>
+<s>6 ) kindlaks m&auml;&auml;rama tehtud t&ouml;&ouml; vastuv&otilde;tmise ja praagiks tunnistamise korra ;</s>
+</p>
+<p>
+<s>7 ) t&auml;itma seaduses , haldusaktis ning kollektiiv- ja t&ouml;&ouml;lepingus etten&auml;htud muid kohustusi .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>T&ouml;&ouml;taja kohustused</s>
+</p>
+<p>
+<s>T&ouml;&ouml;taja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) tegema kokkulepitud t&ouml;&ouml;d ning t&auml;itma ilma erikorralduseta &uuml;lesandeid , mis tulenevad t&ouml;&ouml; iseloomust v&otilde;i t&ouml;&ouml; &uuml;ldisest k&auml;igust ;</s>
+</p>
+<p>
+<s>2 ) t&auml;itma t&ouml;&ouml;norme ja kinni pidama etten&auml;htud t&ouml;&ouml;ajast ;</s>
+</p>
+<p>
+<s>3 ) &otilde;igeaegselt ja t&auml;pselt t&auml;itma t&ouml;&ouml;andja seaduslikke korraldusi ;</s>
+</p>
+<p>
+<s>4 ) hoiduma t&ouml;&ouml;andja juures tegudest , mis takistavad teistel t&ouml;&ouml;tajatel kohustuste t&auml;itmist v&otilde;i kahjustavad teiste t&ouml;&ouml;tajate v&otilde;i kolmandate isikute vara ;</s>
+</p>
+<p>
+<s>5 ) teatama t&ouml;&ouml;andjale viivitamatult t&ouml;&ouml;takistustest v&otilde;i nende ohust ning v&otilde;imaluse korral erikorralduseta k&otilde;rvaldama niisugused takistused v&otilde;i nende ohu ;</s>
+</p>
+<p>
+<s>6 ) hoidma t&ouml;&ouml;andja &auml;ri- ja tootmissaladust ning mitte osutama t&ouml;&ouml;andjale konkurentsi , sealhulgas mitte t&ouml;&ouml;tama t&ouml;&ouml;andja loata viimase konkurendi juures , kui need kohustused on ette n&auml;htud t&ouml;&ouml;lepinguga .</s><s>Need kohustused lasuvad t&ouml;&ouml;tajal ka p&auml;rast t&ouml;&ouml;lepingu l&otilde;petamist , kui pooled s&otilde;lmisid niisuguse kokkuleppe ja t&ouml;&ouml;andja maksis t&ouml;&ouml;tajale mainitud kohustuste t&auml;itmise eest eritasu v&otilde;i andis muud h&uuml;vitust ;</s>
+</p>
+<p>
+<s>7 ) t&auml;itma seaduses , haldusaktis ning kollektiiv- ja t&ouml;&ouml;lepingus etten&auml;htud muid kohustusi .</s>
+</p>
+<p>
+<s>( 05.05.93 j&otilde;ust.01.09.93 - RT I 1993 , 26 , 441 )</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>T&ouml;&ouml;l&auml;hetus</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&auml;hetada t&ouml;&ouml;taja t&ouml;&ouml;&uuml;lesannete t&auml;itmiseks v&auml;ljapoole t&ouml;&ouml;lepinguga m&auml;&auml;ratud t&ouml;&ouml; tegemise asukohta mitte kauemaks kui 30 j&auml;rjestikuseks kalendrip&auml;evaks ja t&ouml;&ouml;taja on kohustatud minema niisugusesse t&ouml;&ouml;l&auml;hetusse .</s><s>Poolte kokkuleppel v&otilde;ib t&ouml;&ouml;l&auml;hetus kesta ka kauem .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;l&auml;hetusse ei ole lubatud saata rasedat ja alaealist .</s><s>Naist , kes kasvatab lapsinvaliidi v&otilde;i alla kolme aastast last , v&otilde;ib saata t&ouml;&ouml;l&auml;hetusse tema n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;andja on kohustatud maksma t&ouml;&ouml;tajale t&ouml;&ouml;l&auml;hetuse aja eest p&auml;evaraha , korteriraha ja s&otilde;iduraha .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 3. l&otilde;ikes mainitud kompensatsioonide suuruse , maksmise tingimused ja korra kehtestab vabariigi valitsus .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Kohustuste t&auml;itmine ja &otilde;iguste teostamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja t&auml;idab oma kohustusi isiklikult v&otilde;i selleks volitatud isikute kaudu .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja t&auml;idab oma kohustusi isiklikult .</s><s>Kodut&ouml;&ouml; tegemisel v&otilde;ib t&ouml;&ouml;taja t&ouml;&ouml;andja loal kasutada kolmandate isikute abi .</s><s>Riisiko niisuguste kolmandate isikute poolt t&ouml;&ouml;andjale tekitatud kahju eest lasub t&ouml;&ouml;tajal .</s>
+</p>
+<p>
+<s>( 3 ) Oma &otilde;igusi teostavad pooled isiklikult v&otilde;i selleks volitatud esindajate kaudu .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Kohustuste kestus</s>
+</p>
+<p>
+<s>Paragrahvides 48-50 etten&auml;htud kohustused lasuvad pooltel ka p&auml;rast t&ouml;&ouml;aja l&otilde;ppu ja t&ouml;&ouml;s etten&auml;htud vaheaegadel , v&auml;lja arvatud , kui kohustuse niisugusel ajal t&auml;itmine on vastuolus kohustuse olemusega .</s>
+</p>
+<p>
+<s>( 05.05.93 j&otilde;ust.01.09.93 - RT I 1993 , 26 , 441 )</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu peatumine</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>T&ouml;&ouml;lepingu peatumise m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu peatumine t&auml;hendab t&ouml;&ouml;taja ajutist vabanemist kohustusest teha t&ouml;&ouml;d ja t&ouml;&ouml;andja ajutist vabanemist kohustusest kindlustada t&ouml;&ouml;taja t&ouml;&ouml;ga .</s><s>T&ouml;&ouml;lepingu peatumine ei too kaasa t&ouml;&ouml;lepingu l&otilde;ppemist .</s>
+</p>
+<p>
+<s>( 2 ) Seaduses , kollektiiv- v&otilde;i t&ouml;&ouml;lepingus etten&auml;htud juhtudel ja korras s&auml;ilitatakse t&ouml;&ouml;tajale t&ouml;&ouml;lepingu peatumise ajaks palk v&otilde;i makstakse muud h&uuml;vitust .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>T&ouml;&ouml;lepingu peatumise alused</s>
+</p>
+<p>
+<s>T&ouml;&ouml;leping peatub :</s>
+</p>
+<p>
+<s>1 ) kollektiiv- v&otilde;i t&ouml;&ouml;lepinguga etten&auml;htud juhtudel ;</s>
+</p>
+<p>
+<s>2 ) poolte kokkuleppel , sealhulgas poolte kokkuleppel antava palgata puhkuse ajaks ;</s>
+</p>
+<p>
+<s>3 ) puhkuse ajaks ;</s>
+</p>
+<p>
+<s>4 ) ajaks , mil t&ouml;&ouml;taja oli ajutiselt t&ouml;&ouml;v&otilde;imetu ;</s>
+</p>
+<p>
+<s>5 ) ajaks , mil t&ouml;&ouml;taja t&auml;itis talle riigi- v&otilde;i kohaliku omavalitsusorgani poolt pandud &uuml;lesandeid v&otilde;i esindas seaduse v&otilde;i kollektiivlepinguga etten&auml;htud korras t&ouml;&ouml;tajaid ;</s>
+</p>
+<p>
+<s>6 ) seadusliku streigi ajaks , kui t&ouml;&ouml;taja osaleb niisuguses streigis seadusega etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>7 ) kaitsej&otilde;udude tegevteenistuse v&otilde;i t&ouml;&ouml;teenistuse ajaks , kui t&ouml;&ouml;lepingut ei l&otilde;petatud niisugusesse teenistusse kutsumise v&otilde;i astumise t&otilde;ttu ja pooled leppisid kokku peatada t&ouml;&ouml;leping ;</s>
+</p>
+<p>
+<s>8 ) ajaks , mil t&ouml;&ouml;andja n&otilde;uab t&ouml;&ouml;tajalt ebaseaduslikult teist t&ouml;&ouml;d ja t&ouml;&ouml;taja keeldub niisugust t&ouml;&ouml;d tegemast ;</s>
+</p>
+<p>
+<s>9 ) ajaks , mil t&ouml;&ouml;taja oli arestis v&otilde;i vahi all ;</s>
+</p>
+<p>
+<s>10 ) ajaks , mil t&ouml;&ouml;taja oli t&ouml;&ouml;lt k&otilde;rvaldatud k&auml;esoleva seaduse paragrahv 56 v&otilde;i 57 alusel v&otilde;i t&ouml;&ouml;tajate distsiplinaarvastutuse seaduse paragrahv 3 punkti 3 alusel ;</s>
+</p>
+<p>
+<s>11 ) ajaks , mil t&ouml;&ouml;taja oli seadusega selleks volitatud riigiorgani v&otilde;i ametiisiku poolt t&ouml;&ouml;lt k&otilde;rvaldatud ;</s>
+</p>
+<p>
+<s>12 ) muudel juhtudel , mil t&ouml;&ouml;taja on seadusega etten&auml;htud alustel ajutiselt vabastatud t&ouml;&ouml;&uuml;lesannete t&auml;itmisest .</s>
+</p>
+<p>
+<s>( 05.05.93 j&otilde;ust.01.09.93 - RT I 1993 , 26 , 441 )</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Joobes t&ouml;&ouml;taja t&ouml;&ouml;lt k&otilde;rvaldamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja k&otilde;rvaldab alkoholi- , narkootilises v&otilde;i toksilises joobes t&ouml;&ouml;taja selleks p&auml;evaks ( vahetuseks ) t&ouml;&ouml;lt .</s><s>T&ouml;&ouml;andja on kohustatud t&ouml;&ouml;lt k&otilde;rvaldama ka alkoholi , narkootiliste v&otilde;i toksiliste ainete v&otilde;i arstimite j&auml;&auml;kn&auml;htudega , samuti arstimite m&otilde;ju all oleva t&ouml;&ouml;taja , kui t&ouml;&ouml; n&otilde;uab erilist t&auml;psust , on seotud suurema ohu allika valdamisega v&otilde;i selle vahetus l&auml;heduses t&ouml;&ouml;tamisega .</s><s>Samuti on t&ouml;&ouml;andja kohustatud k&auml;esolevas l&otilde;ikes mainitud juhtudel t&ouml;&ouml;tajat t&ouml;&ouml;le mitte lubama .</s><s>Niisugune t&ouml;&ouml;le mittelubamine on v&otilde;rdsustatud t&ouml;&ouml;lt k&otilde;rvaldamisega .</s>
+</p>
+<p>
+<s>( 05.05.93 j&otilde;ust.01.09.93 - RT I 1993 , 26 , 441 )</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;tajale ei maksta tasu aja eest , mil ta oli t&ouml;&ouml;lt k&otilde;rvaldatud k&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud alustel .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>T&ouml;&ouml;lt k&otilde;rvaldamine distsiplinaarasja menetluse ajaks</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andjal on &otilde;igus k&otilde;rvaldada t&ouml;&ouml;taja t&ouml;&ouml;lt distsiplinaarasja menetluse ajaks , s&auml;ilitades selle aja eest t&ouml;&ouml;tajale keskmise palga .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>T&ouml;&ouml;lepingu peatumise vormistamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu peatumise vormistab t&ouml;&ouml;andja paragrahvi 20 3. l&otilde;ike punktis 4 etten&auml;htud juhtudel t&ouml;&ouml;raamatus .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja n&otilde;udel tehakse t&ouml;&ouml;lepingu peatumise kohta lepingus kanne , milles n&auml;idatakse t&ouml;&ouml;lepingu peatumise aluse formuleering viitega seaduse paragrahvile , l&otilde;ikele ja punktile ning aeg , milleks leping on peatunud .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu muutmine</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>T&ouml;&ouml;lepingu muutmise m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu muutmine on t&ouml;&ouml;lepingus kindlaksm&auml;&auml;ratud tingimustes muudatuste tegemine , sealhulgas m&otilde;nede tingimuste lepingust v&auml;ljaj&auml;tmine v&otilde;i t&auml;iendavate tingimuste lepingusse v&otilde;tmine .</s>
+</p>
+<p>
+<s>( 2 ) Muudatuste tegemine t&ouml;&ouml;lepingus kindlaksm&auml;&auml;ratud t&ouml;&ouml; laadis v&otilde;i t&ouml;&ouml; keerukusastmes on t&ouml;&ouml;taja &uuml;leviimine teisele t&ouml;&ouml;le .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;taja paigutamine teisele t&ouml;&ouml;tamiskohale samas asulas ei ole teisele t&ouml;&ouml;le &uuml;leviimine , kui t&ouml;&ouml;lepingus ei ole kokku lepitud teisiti .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;taja paigutamine teisele t&ouml;&ouml;le v&auml;ljaspool t&ouml;&ouml;lepingus kindlaksm&auml;&auml;ratud asulat on t&ouml;&ouml;taja &uuml;leviimine teise paikkonda .</s>
+</p>
+<p>
+<s>( 5 ) T&ouml;&ouml;lepingu muutmine on lubatud vaid poolte kokkuleppel , v&auml;lja arvatud paragrahvides 61-66 ette n&auml;htud juhtudel , mil t&ouml;&ouml;tajal v&otilde;i t&ouml;&ouml;andjal on &otilde;igus n&otilde;uda t&ouml;&ouml;lepingu &uuml;hepoolset muutmist .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>&Uuml;leviimine teisele t&ouml;&ouml;le poolte kokkuleppel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;taja taotlusel teisele t&ouml;&ouml;le &uuml;leviimisel otsustatakse h&uuml;vituse maksmine ja selle suurus poolte kokkuleppel .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andja taotlusel t&ouml;&ouml;taja alatiseks teisele t&ouml;&ouml;le &uuml;leviimisel on t&ouml;&ouml;andja kohustatud tagama t&ouml;&ouml;tajale uuel t&ouml;&ouml;l esimese kuu jooksul v&auml;hemalt endise t&ouml;&ouml; j&auml;rgse keskmise palga .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>T&ouml;&ouml;taja n&otilde;udmisel teisele t&ouml;&ouml;le alatiseks &uuml;leviimine</s>
+</p>
+<p>
+<s>( 1 ) Kui arsti otsusega on t&ouml;&ouml;tajale senise t&ouml;&ouml; j&auml;tkamine tervise t&otilde;ttu vastun&auml;idustatud ja t&ouml;&ouml;andjal on teist t&ouml;&ouml;d , mida t&ouml;&ouml;taja tervis v&otilde;imaldab teha , on t&ouml;&ouml;tajal &otilde;igus n&otilde;uda enda &uuml;leviimist sellisele t&ouml;&ouml;le .</s>
+</p>
+<p>
+<s>( 2 ) Kui t&ouml;&ouml;andja on s&uuml;&uuml;di t&ouml;&ouml;taja tervise muutumisel selliseks , mis ei luba tal senise t&ouml;&ouml; j&auml;tkamist , on t&ouml;&ouml;tajal &otilde;igus n&otilde;uda enda &uuml;leviimist teisele t&ouml;&ouml;le ja selleks vajalikku v&auml;lja&otilde;pet t&ouml;&ouml;andja kulul .</s><s>V&auml;lja&otilde;ppe ja teise t&ouml;&ouml; tegemise ajal tagab t&ouml;&ouml;andja t&ouml;&ouml;tajale endise t&ouml;&ouml; j&auml;rgse keskmise palga .</s>
+</p>
+<p>
+<s>( 3 ) Kui t&ouml;&ouml;andjal ei ole v&otilde;imalik t&ouml;&ouml;tajat &uuml;le viia tema tervisele vastavale t&ouml;&ouml;le , l&otilde;petatakse t&ouml;&ouml;leping paragrahvi 86 punkt 4 alusel .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>T&ouml;&ouml;taja n&otilde;udmisel tema t&ouml;&ouml;tingimuste ajutine kergendamine v&otilde;i ajutine &uuml;leviimine teisele t&ouml;&ouml;le</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tajal on arsti vormistatud haiguslehe alusel &otilde;igus t&ouml;&ouml;andjalt n&otilde;uda t&ouml;&ouml;tingimuste ajutist kergendamist v&otilde;i ajutist &uuml;leviimist terviseseisundile vastavale t&ouml;&ouml;le .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;tingimuste ajutise kergendamise v&otilde;i terviseseisundile vastavale t&ouml;&ouml;le &uuml;leviimise tagaj&auml;rjel tekkinud palgavahe h&uuml;vitatakse t&ouml;&ouml;tajale Eesti Vabariigi ravikindlustusseaduses ( RT 1991 , 23 , 272 ; 1999 , 7 , 113 ) s&auml;testatud korras , v&auml;lja arvatud k&auml;esoleva paragrahvi 3. l&otilde;ikes etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;taja vabastatakse haiguslehel etten&auml;htud ajaks t&ouml;&ouml;st , kui t&ouml;&ouml;andja asukoha ( elukoha ) j&auml;rgne t&ouml;&ouml;inspektor on tuvastanud , et t&ouml;&ouml;andjal ei ole v&otilde;imalik t&ouml;&ouml;tingimusi ajutiselt kergendada v&otilde;i t&ouml;&ouml;tajat terviseseisundile vastavale t&ouml;&ouml;le ajutiselt &uuml;le viia .</s><s>T&ouml;&ouml;st vabastamise aja eest makstakse t&ouml;&ouml;tajale kohustusliku ravikindlustuse h&uuml;vitist Eesti Vabariigi ravikindlustusseaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 09.12.98 j&otilde;ust.01.01.99 - RT I 1998 , 111 , 1829 )</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Raseda t&ouml;&ouml;tingimuste ajutine kergendamine v&otilde;i ajutine &uuml;leviimine teisele t&ouml;&ouml;le</s>
+</p>
+<p>
+<s>( 1 ) Rasedal on &otilde;igus n&otilde;uda arsti vormistatud haiguslehe alusel t&ouml;&ouml;tingimuste ajutist kergendamist v&otilde;i ajutist &uuml;leviimist teisele t&ouml;&ouml;le .</s><s>T&ouml;&ouml;tajale h&uuml;vitatakse palgavahe Eesti Vabariigi ravikindlustusseaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kui t&ouml;&ouml;andja asukoha ( elukoha ) j&auml;rgne t&ouml;&ouml;inspektor on tuvastanud , et t&ouml;&ouml;andjal ei ole v&otilde;imalik raseda t&ouml;&ouml;tingimusi kergendada v&otilde;i teda kergemale t&ouml;&ouml;le &uuml;le viia , vabastatakse ta haiguslehel n&auml;idatud ajaks t&ouml;&ouml;st ja makstakse kohustusliku ravikindlustuse h&uuml;vitist Eesti Vabariigi ravikindlustusseaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 09.12.98 j&otilde;ust.01.01.99 - RT I 1998 , 111 , 1829 )</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>T&ouml;&ouml;lepingu tingimuste muutmine seoses tootmise v&otilde;i t&ouml;&ouml; &uuml;mberkorraldamisega</s>
+</p>
+<p>
+<s>( 09.02.93 j&otilde;ust.12.03.93 - RT 1993 , 10 , 150 )</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus tootmise v&otilde;i t&ouml;&ouml; &uuml;mberkorraldamisel muuta t&ouml;&ouml;taja t&ouml;&ouml;tasustamise aluseid ja t&ouml;&ouml;re&zcaron;iimi , teatades sellest t&ouml;&ouml;tajale kirjalikult ette v&auml;hemalt &uuml;ks kuu .</s>
+</p>
+<p>
+<s>( 09.02.93 j&otilde;ust.12.03.93 - RT 1993 , 10 , 150 )</s>
+</p>
+<p>
+<s>( 2 ) Muudatustega mitten&otilde;ustumisel on t&ouml;&ouml;tajal &otilde;igus n&otilde;uda t&ouml;&ouml;lepingu l&otilde;petamist ( paragrahv 82 ) .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Ajutine &uuml;leviimine teisele t&ouml;&ouml;le tootmish&auml;davajaduse korral</s>
+</p>
+<p>
+<s>( 1 ) Tootmish&auml;davajadus on erakorralistest asjaoludest tingitud vajadus t&ouml;&ouml;taja ajutiseks &uuml;leviimiseks teisele t&ouml;&ouml;le .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andjal on &otilde;igus t&ouml;&ouml;taja ajutiselt &uuml;le viia teisele t&ouml;&ouml;le :</s>
+</p>
+<p>
+<s>1 ) loodus&otilde;nnetuse v&otilde;i tootmisavarii &auml;rahoidmiseks v&otilde;i nende tagaj&auml;rgede kiireks k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>2 ) &otilde;nnetusjuhtumi , t&ouml;&ouml;seisaku , t&ouml;&ouml;andja vara h&auml;vimise v&otilde;i riknemise &auml;rahoidmiseks ;</s>
+</p>
+<p>
+<s>3 ) ajutiselt &auml;raoleva t&ouml;&ouml;taja asendamiseks k&auml;esoleva paragrahvi punktides 1 ja 2 etten&auml;htud juhtudel ;</s>
+</p>
+<p>
+<s>4 ) muudel erakorralistel juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;leviimine teisele t&ouml;&ouml;le k&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud juhtudel on lubatud &uuml;ksk&otilde;ik millisele t&ouml;&ouml;le samas asulas mitte kauemaks kui &uuml;heks kuuks , kui see t&ouml;&ouml; ei ole vastun&auml;idustatud t&ouml;&ouml;taja tervisele ja ei too kaasa t&ouml;&ouml;taja suuremat materiaalset vastutust .</s>
+</p>
+<p>
+<s>( 4 ) Teisel t&ouml;&ouml;l makstakse t&ouml;&ouml;tajale tasu tehtud t&ouml;&ouml; j&auml;rgi , kuid mitte v&auml;hem keskmisest palgast endisel t&ouml;&ouml;l .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Ajutine &uuml;leviimine teisele t&ouml;&ouml;le t&ouml;&ouml;seisaku korral</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;seisak on t&ouml;&ouml; seiskumine t&ouml;&ouml; tegemiseks vajalike organisatsiooniliste v&otilde;i tehniliste tingimuste puudumise , v&auml;&auml;ramatu j&otilde;u v&otilde;i muude asjaolude t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;seisaku ajaks on t&ouml;&ouml;andjal &otilde;igus t&ouml;&ouml;taja &uuml;le viia &uuml;ksk&otilde;ik millisele t&ouml;&ouml;le samas asulas , kui see t&ouml;&ouml; ei ole vastun&auml;idustatud t&ouml;&ouml;taja tervisele ja ei too kaasa t&ouml;&ouml;taja suuremat materiaalset vastutust .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;tajale , kes ei ole s&uuml;&uuml;di t&ouml;&ouml;seisaku tekkimises , makstakse teisel t&ouml;&ouml;l tasu t&ouml;&ouml; j&auml;rgi , kuid mitte v&auml;hem keskmisest palgast endisel t&ouml;&ouml;l , tingimusel , et ta t&auml;idab t&ouml;&ouml;norme .</s><s>T&ouml;&ouml;normide mittet&auml;itmisel , kui see pole tingitud t&ouml;&ouml;taja s&uuml;&uuml;st , makstakse talle tasu vastavalt t&ouml;&ouml;le , kuid mitte v&auml;hem tunnipalgam&auml;&auml;rast endisel t&ouml;&ouml;l .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;tajale , kes on s&uuml;&uuml;di t&ouml;&ouml;seisaku tekkimises , makstakse tasu t&ouml;&ouml; j&auml;rgi .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>T&ouml;&ouml;taja ajutine &uuml;leviimine teise ettev&otilde;ttesse , asutusse v&otilde;i muusse organisatsiooni riigivalitsemis- v&otilde;i kohaliku omavalitsusorgani otsusel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus riigivalitsemisorgani otsuse alusel viia t&ouml;&ouml;taja ajutiselt &uuml;le t&ouml;&ouml;le teise ettev&otilde;ttesse , asutusse v&otilde;i muusse organisatsiooni samas asulas v&otilde;i teise paikkonda loodus&otilde;nnetuse ennetamiseks , selle tagaj&auml;rgede kiireks k&otilde;rvaldamiseks v&otilde;i haiguste leviku t&otilde;kestamiseks , kuid mitte kauemaks kui &uuml;heks kuuks .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andjal on k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud juhtudel kohaliku omavalitsusorgani otsuse alusel &otilde;igus samaks t&auml;htajaks t&ouml;&ouml;taja &uuml;le viia t&ouml;&ouml;le teise ettev&otilde;ttesse , asutusse v&otilde;i muusse organisatsiooni otsuse teinud omavalitsusorgani haldamisel oleva territooriumi piires .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;leviimine k&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes nimetatud juhtudel on lubatud &uuml;ksk&otilde;ik millisele t&ouml;&ouml;le , kui see ei ole vastun&auml;idustatud t&ouml;&ouml;taja tervisele ja ei too kaasa t&ouml;&ouml;taja suuremat materiaalset vastutust .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes nimetatud juhtudel ei ole lubatud teise paikkonda &uuml;le viia rasedat , naist , kes kasvatab lapsinvaliidi v&otilde;i alla 16-aastast last , samuti alaealist .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;ike alusel &uuml;le viidud t&ouml;&ouml;tajale makstakse tasu t&ouml;&ouml; j&auml;rgi , kuid mitte v&auml;hem keskmisest palgast endisel t&ouml;&ouml;l .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Osalise t&ouml;&ouml;aja rakendamine v&otilde;i osaliselt tasustatava puhkuse andmine t&ouml;&ouml;mahu v&otilde;i tellimuste ajutisel v&auml;henemisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;mahu v&otilde;i tellimuste ajutisel v&auml;henemisel on t&ouml;&ouml;andjal oma asukoha ( elukoha ) t&ouml;&ouml;inspektori n&otilde;usolekul &otilde;igus kokkuleppel t&ouml;&ouml;tajaga kehtestada t&ouml;&ouml;tajale kuni kolmeks kuuks aastas osaline t&ouml;&ouml;aeg v&otilde;i saata t&ouml;&ouml;taja osaliselt tasustatavale puhkusele samaks t&auml;htajaks .</s><s>T&ouml;&ouml;inspektorilt n&otilde;usoleku taotlemisel esitab t&ouml;&ouml;andja p&otilde;hjenduse t&ouml;&ouml; j&auml;tkamise v&otilde;imaluste kohta ning t&ouml;&ouml;tajaid esindava organisatsiooni v&otilde;i isiku arvamuse .</s>
+</p>
+<p>
+<s>( 2 ) Osalise t&ouml;&ouml;aja kehtestamisest v&otilde;i osaliselt tasustatavale puhkusele saatmisest on t&ouml;&ouml;andja kohustatud teatama t&ouml;&ouml;tajale kirjalikult v&auml;hemalt kaks n&auml;dalat ette .</s><s>T&ouml;&ouml;korralduse nimetatud muudatustega mitten&otilde;ustumisel on t&ouml;&ouml;tajal &otilde;igus n&otilde;uda t&ouml;&ouml;lepingu l&otilde;petamist paragrahv 82 alusel .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi alusel rakendatava osalise t&ouml;&ouml;aja kestus ei v&otilde;i olla alla 60% t&ouml;&ouml;lepingus etten&auml;htud t&ouml;&ouml;aja normaalkestusest ja osaliselt tasustatava puhkuse ajal makstav puhkusetasu ei v&otilde;i olla v&auml;iksem kui 60% miinimumpalgast .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;andjal on keelatud t&ouml;&ouml;tajale ette teatada tema koondamisest ajal , mil talle on kehtestatud osaline t&ouml;&ouml;aeg v&otilde;i ta on saadetud osaliselt tasustatavale puhkusele .</s>
+</p>
+<p>
+<s>( 5 ) T&ouml;&ouml;andjal on keelatud t&ouml;&ouml;tajale kehtestada osalist t&ouml;&ouml;aega v&otilde;i saata teda osaliselt tasustatavale puhkusele ajal , mil talle on ette teatatud t&ouml;&ouml;lepingu l&otilde;petamisest k&auml;esoleva seaduse paragrahv 86 punkti 3 alusel .</s>
+</p>
+<p>
+<s>( 6 ) Kui t&ouml;&ouml;andja rakendab osalist t&ouml;&ouml;aega v&otilde;i saadab t&ouml;&ouml;taja osaliselt tasustatavale puhkusele ilma t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;inspektori n&otilde;usolekuta , siis on t&ouml;&ouml;andja kohustatud t&ouml;&ouml;tajale maksma h&uuml;vitust saamata j&auml;&auml;nud palga ulatuses .</s>
+</p>
+<p>
+<s>( 09.02.93 j&otilde;ust.12.03.93 - RT 1993 , 10 , 150 )</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Vastutus t&ouml;&ouml;tingimuste seadusevastase muutmise ja t&ouml;&ouml;andja seadusliku korralduse t&auml;itmata j&auml;tmise eest</s>
+</p>
+<p>
+<s>( 1 ) Kui t&ouml;&ouml;andja seadusevastaselt viib t&ouml;&ouml;taja &uuml;le teisele t&ouml;&ouml;le v&otilde;i muudab muid t&ouml;&ouml;lepingu tingimusi , on t&ouml;&ouml;tajal &otilde;igus n&otilde;uda ennistamist endisele t&ouml;&ouml;le , samuti muude kokkulepitud t&ouml;&ouml;tingimuste taastamist ning kuni nende seaduserikkumiste k&otilde;rvaldamiseni saamata j&auml;&auml;nud t&ouml;&ouml;tasu maksmist .</s>
+</p>
+<p>
+<s>( 2 ) Kui t&ouml;&ouml;taja j&auml;tab oma s&uuml;&uuml; t&otilde;ttu t&auml;itmata t&ouml;&ouml;andja seadusliku korralduse teisele t&ouml;&ouml;le &uuml;leviimise kohta , on ta kohustatud h&uuml;vitama t&ouml;&ouml;andjale sellega tekitatud kahju , kuid mitte rohkem kui oma &uuml;he kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>T&ouml;&ouml;lepingu tingimuste muutmise vormistamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu tingimuste muutmine vormistatakse kirjalikult t&ouml;&ouml;lepingus .</s><s>Muudatustele kirjutavad alla t&ouml;&ouml;andja v&otilde;i tema esindaja ja t&ouml;&ouml;taja .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;ppemine</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>T&ouml;&ouml;lepingu l&otilde;ppemise alused</s>
+</p>
+<p>
+<s>T&ouml;&ouml;leping l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) poolte kokkuleppel ( paragrahv 76 ) ;</s>
+</p>
+<p>
+<s>2 ) t&auml;htaja m&ouml;&ouml;dumisel ( paragrahv 77 ) ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;taja algatusel ( paragrahvid 79 , 80 , 82 ja 85 ) ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;andja algatusel ( paragrahv 86 ) ;</s>
+</p>
+<p>
+<s>5 ) kolmandate isikute n&otilde;udmisel ( paragrahv 110 ) ;</s>
+</p>
+<p>
+<s>6 ) pooltest s&otilde;ltumatutel asjaoludel ( paragrahvid 111-116 ) .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>T&ouml;&ouml;lepingu l&otilde;petamisest etteteatamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja ja t&ouml;&ouml;taja on kohustatud t&ouml;&ouml;lepingu l&otilde;petamisest teineteisele ette teatama kirjalikult ( paragrahvid 77 , 79 , 80 , 82 , 85 ja 87 ) .</s><s>Soov l&otilde;petada t&ouml;&ouml;leping peab olema v&auml;ljendatud tingimusteta .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu l&otilde;petamiseks esitatud kirjalikust teatisest v&otilde;ib loobuda teise poole n&otilde;usolekul .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>T&ouml;&ouml;lepingu l&otilde;petamise vormistamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja teeb t&ouml;&ouml;lepingu l&otilde;petamise kohta lepingusse kande , milles n&auml;idatakse lepingu l&otilde;petamise aluse formuleering viitega seaduse paragrahvile , l&otilde;ikele ja punktile , samuti t&ouml;&ouml;lepingu l&otilde;petamise p&auml;ev , t&ouml;&ouml;tajale v&otilde;i t&ouml;&ouml;andjale h&uuml;vituse maksmine ja lepingu j&auml;rgi saadu tagastamine .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu l&otilde;petamise p&auml;evaks on t&ouml;&ouml;taja t&ouml;&ouml;loleku viimane p&auml;ev , kui k&auml;esolev seadus ei n&auml;e ette teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Kui t&ouml;&ouml;taja on enne t&ouml;&ouml;lepingu l&otilde;petamist lahkunud t&ouml;&ouml;lt omavoliliselt , siis l&otilde;petab t&ouml;&ouml;andja t&ouml;&ouml;tajaga t&ouml;&ouml;lepingu p&auml;evast , mis j&auml;rgnes p&auml;evale , mil t&ouml;&ouml;taja t&ouml;&ouml;lt omavoliliselt lahkus .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Kande tegemine t&ouml;&ouml;raamatusse ja l&otilde;pparve maksmine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja teeb t&ouml;&ouml;lepingu l&otilde;petamise kohta t&ouml;&ouml;taja t&ouml;&ouml;raamatusse kande , milles n&auml;idatakse t&ouml;&ouml;lepingu l&otilde;petamise p&auml;ev .</s><s>T&ouml;&ouml;lepingu l&otilde;petamise aluse formuleeringu viitega seaduse paragrahvile , l&otilde;ikele ja punktile kannab t&ouml;&ouml;andja t&ouml;&ouml;taja t&ouml;&ouml;raamatusse t&ouml;&ouml;taja n&otilde;udel .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andja on kohustatud andma t&ouml;&ouml;tajale t&ouml;&ouml;raamatu ja maksma l&otilde;pparve t&ouml;&ouml;lepingu l&otilde;petamise p&auml;eval .</s><s>Kui t&ouml;&ouml;taja t&ouml;&ouml;lepingu l&otilde;petamise p&auml;eval t&ouml;&ouml;raamatut v&otilde;i l&otilde;pparvet vastu ei v&otilde;tnud , on t&ouml;&ouml;andja kohustatud andma t&ouml;&ouml;tajale t&ouml;&ouml;raamatu n&otilde;ude esitamise p&auml;eval ja maksma l&otilde;pparve viie kalendrip&auml;eva jooksul , arvates n&otilde;ude esitamisele j&auml;rgnenud p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>T&ouml;&ouml;lepingu l&otilde;petamise registreerimine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja - f&uuml;&uuml;siline isik - registreerib t&ouml;&ouml;lepingu l&otilde;petamise oma elukoha t&ouml;&ouml;inspektori juures &uuml;he n&auml;dala jooksul , arvates t&ouml;&ouml;lepingu l&otilde;petamise p&auml;evale j&auml;rgnevast p&auml;evast .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamine poolte kokkuleppel ja t&auml;htaja m&ouml;&ouml;dumisel</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine poolte kokkuleppel</s>
+</p>
+<p>
+<s>Poolte kokkuleppel v&otilde;ib t&ouml;&ouml;lepingu l&otilde;petada igal ajal , kui &uuml;ks pooltest esitab vastavasisulise kirjaliku taotluse ja teine pool annab lepingu l&otilde;petamiseks kirjaliku n&otilde;usoleku .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&auml;htaja m&ouml;&ouml;dumisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja v&otilde;ib l&otilde;petada t&ouml;&ouml;lepingu t&auml;htaja m&ouml;&ouml;dumise t&otilde;ttu , teatades t&ouml;&ouml;tajale t&ouml;&ouml;lepingu l&otilde;petamisest kirjalikult :</s>
+</p>
+<p>
+<s>1 ) v&auml;hemalt kaks n&auml;dalat enne t&auml;htaja m&ouml;&ouml;dumist , kui lepingut&auml;htaeg &uuml;letab &uuml;hte aastat ;</s>
+</p>
+<p>
+<s>2 ) v&auml;hemalt viis kalendrip&auml;eva enne t&auml;htaja m&ouml;&ouml;dumist , kui lepingut&auml;htaeg ei &uuml;leta &uuml;hte aastat .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud t&auml;htaegu ei kohaldata t&ouml;&ouml;lepingu l&otilde;petamisel t&ouml;&ouml;tajaga , kes on t&ouml;&ouml;le v&otilde;etud &auml;raoleva t&ouml;&ouml;taja asendamiseks .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;andja , kes ei j&auml;rginud k&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud etteteatamist&auml;htaegu , on kohustatud maksma t&ouml;&ouml;tajale h&uuml;vitusena keskmist p&auml;evapalka etteteatamist&auml;htajast puudu j&auml;&auml;va iga t&ouml;&ouml;p&auml;eva eest .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;taja v&otilde;ib l&otilde;petada t&ouml;&ouml;lepingu t&auml;htaja m&ouml;&ouml;dumise t&otilde;ttu , teatades t&ouml;&ouml;andjale t&ouml;&ouml;lepingu l&otilde;petamisest v&auml;hemalt viis kalendrip&auml;eva enne lepingut&auml;htaja m&ouml;&ouml;dumist .</s><s>Kui t&ouml;&ouml;taja t&ouml;&ouml;lepingu l&otilde;petamisest t&ouml;&ouml;andjat ei hoiatanud ja j&auml;&auml;b lepingut&auml;htaja viimasele p&auml;evale vahetult j&auml;rgneval t&ouml;&ouml;p&auml;eval t&ouml;&ouml;lt &auml;ra , peab t&ouml;&ouml;andja andma t&ouml;&ouml;tajale t&ouml;&ouml;raamatu ja maksma l&otilde;pparve hiljemalt viie kalendrip&auml;eva jooksul , arvates p&auml;evast , mis j&auml;rgnes p&auml;evale , mil t&ouml;&ouml;taja mainitud n&otilde;ude esitas .</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>M&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu muutumine m&auml;&auml;ramata ajaks s&otilde;lmitud t&ouml;&ouml;lepinguks</s>
+</p>
+<p>
+<s>Kui kumbki pooltest ei n&otilde;ua m&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamist paragrahvis 77 etten&auml;htud korras v&otilde;i ei s&otilde;lmita uut t&ouml;&ouml;lepingut ja t&ouml;&ouml;suhted j&auml;tkuvad ka p&auml;rast lepingut&auml;htaja m&ouml;&ouml;dumist , muutub m&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;leping m&auml;&auml;ramata ajaks s&otilde;lmitud t&ouml;&ouml;lepinguks .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja algatusel</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>M&auml;&auml;ramata ajaks s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja algatusel</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;ramata ajaks s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamisest teatab t&ouml;&ouml;taja t&ouml;&ouml;andjale v&auml;hemalt &uuml;ks kuu ette .</s><s>Katseaja kestel on t&ouml;&ouml;tajal &otilde;igus t&ouml;&ouml;leping l&otilde;petada , teatades sellest t&ouml;&ouml;andjale kolm kalendrip&auml;eva ette .</s>
+</p>
+<p>
+<s>( 2 ) Kui m&auml;&auml;ramata ajaks s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamise p&otilde;hjuseks on t&ouml;&ouml; j&auml;tkamist takistav haigus , invaliidsus , haige v&otilde;i invaliidistunud perekonnaliikme hooldamise vajadus v&otilde;i &otilde;ppima asumine , teatab t&ouml;&ouml;taja lepingu l&otilde;petamisest t&ouml;&ouml;andjale v&auml;hemalt viis kalendrip&auml;eva ette .</s><s>Samas korras v&otilde;ib t&ouml;&ouml;lepingu l&otilde;petada ka naine , kes kasvatab alla kolmeaastast last .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>M&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja algatusel</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu ( paragrahvi 27 2. l&otilde;ige , punktid 1-4 ja 6 ) ennet&auml;htaegsest l&otilde;petamisest teatab t&ouml;&ouml;taja t&ouml;&ouml;andjale ette v&auml;hemalt :</s>
+</p>
+<p>
+<s>1 ) kaks n&auml;dalat , kui lepingu t&auml;htaeg &uuml;letab &uuml;hte aastat ;</s>
+</p>
+<p>
+<s>2 ) viis kalendrip&auml;eva , kui lepingu t&auml;htaeg ei &uuml;leta &uuml;hte aastat ;</s>
+</p>
+<p>
+<s>3 ) viis kalendrip&auml;eva , kui lepingu l&otilde;petamise p&otilde;hjuseks on t&ouml;&ouml; j&auml;tkamist takistav haigus , invaliidsus , haige v&otilde;i invaliidistunud perekonnaliikme hooldamise vajadus v&otilde;i &otilde;ppima asumine .</s><s>Samas korras v&otilde;ib t&ouml;&ouml;lepingu l&otilde;petada ka naine , kes kasvatab alla kolmeaastast last .</s>
+</p>
+<p>
+<s>( 2 ) Kui m&auml;&auml;ratud ajaks s&otilde;lmitud erisoodustustega t&ouml;&ouml;lepingu ( paragrahvi 27 2. l&otilde;ike punkt 5 ) ennet&auml;htaegse l&otilde;petamise p&otilde;hjuseks on t&ouml;&ouml; j&auml;tkamist takistav haigus , invaliidsus v&otilde;i invaliidistunud perekonnaliikme hooldamise vajadus , teatab t&ouml;&ouml;taja t&ouml;&ouml;andjale lepingu l&otilde;petamisest v&auml;hemalt viis kalendrip&auml;eva ette .</s><s>Muudel p&otilde;hjustel niisugust t&ouml;&ouml;lepingut t&ouml;&ouml;taja algatusel ei l&otilde;petata .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>T&ouml;&ouml;lepingu l&otilde;petamise p&otilde;hjuse t&otilde;endamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamiseks paragrahv 79 2. l&otilde;ikes ning paragrahv 80 1. l&otilde;ike punktis 3 ja 2. l&otilde;ikes etten&auml;htud alustel esitab t&ouml;&ouml;taja t&ouml;&ouml;andjale kirjaliku t&otilde;endi lepingu l&otilde;petamise p&otilde;hjuse kohta .</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;andja poolse lepingutingimuste rikkumise v&otilde;i tootmis- v&otilde;i t&ouml;&ouml;korralduses tehtud muudatuste t&otilde;ttu</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;taja teatab nii m&auml;&auml;ramata kui m&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamisest t&ouml;&ouml;andjale v&auml;hemalt viis kalendrip&auml;eva ette , kui lepingu l&otilde;petamise p&otilde;hjuseks on t&ouml;&ouml;andja poolne lepingu tingimuste t&auml;itmata j&auml;tmine , mitten&otilde;uetekohane t&auml;itmine v&otilde;i muudatused tootmis- v&otilde;i t&ouml;&ouml;korralduses .</s><s>Nendel juhtudel ( paragrahvid 64 ja 68 ) l&otilde;petatakse t&ouml;&ouml;leping niisuguste muudatuste rakendamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;ramata ajaks s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamisel k&auml;esoleva paragrahvi 1. l&otilde;ike alusel maksab t&ouml;&ouml;andja t&ouml;&ouml;tajale h&uuml;vitusena tema kahe kuu keskmise palga .</s><s>M&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamisel samal alusel maksab t&ouml;&ouml;andja t&ouml;&ouml;tajale tema keskmise palga lepingu t&auml;htaja m&ouml;&ouml;dumiseni , kuid mitte &uuml;le kahe kuu .</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>Etteteatamist&auml;htaja m&ouml;&ouml;dumise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Etteteatamist&auml;htaja m&ouml;&ouml;dumisel v&otilde;ib t&ouml;&ouml;taja lahkuda t&ouml;&ouml;lt ning t&ouml;&ouml;andja on kohustatud andma talle t&ouml;&ouml;raamatu ja l&otilde;pparve , v&auml;lja arvatud paragrahvi 80 2. l&otilde;ikes etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Paragrahvi 80 2. l&otilde;ikes etten&auml;htud juhtudel v&otilde;ib t&ouml;&ouml;taja t&ouml;&ouml;lt lahkuda p&auml;rast t&ouml;&ouml;lepingu l&otilde;petamise vormistamist .</s><s>Poolte vaidluse korral lahkumise p&otilde;hjuse &uuml;le lahendab k&uuml;simuse t&ouml;&ouml;vaidlusorgan .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;suhete j&auml;tkumisel p&auml;rast etteteatamist&auml;htaja m&ouml;&ouml;dumist ei v&otilde;i pooled varem esitatud avalduse alusel t&ouml;&ouml;lepingut &uuml;hepoolselt l&otilde;petada .</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>Enne etteteatamist&auml;htaja m&ouml;&ouml;dumist t&ouml;&ouml;lepingu l&otilde;petamise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja , kes vabastab t&ouml;&ouml;taja tema kirjaliku n&otilde;usolekuta enne etteteatamist&auml;htaja m&ouml;&ouml;dumist , on kohustatud maksma t&ouml;&ouml;tajale h&uuml;vitusena keskmise p&auml;evapalga etteteatamist&auml;htajast puudu j&auml;&auml;va iga t&ouml;&ouml;p&auml;eva eest .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andjal on &otilde;igus n&otilde;uda enne etteteatamist&auml;htaja m&ouml;&ouml;dumist omavoliliselt lahkunud t&ouml;&ouml;tajalt h&uuml;vitusena keskmist p&auml;evapalka etteteatamist&auml;htajast puudu j&auml;&auml;va iga t&ouml;&ouml;p&auml;eva eest .</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja asumisel valitavale ametikohale</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;taja asumisel ametikohale , mis t&auml;idetakse valimise v&otilde;i nimetamise teel , l&otilde;petatakse t&ouml;&ouml;leping t&ouml;&ouml;taja avalduse alusel hiljemalt mainitud ametikohale asumise p&auml;evale vahetult eelnevast p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja valimisel Eesti k&otilde;rgeima riigiv&otilde;imuorgani liikmeks l&otilde;petatakse t&ouml;&ouml;leping t&ouml;&ouml;taja avalduse alusel tema saadikumandaadi tunnustamise p&auml;evast .</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;andja algatusel</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>T&ouml;&ouml;andja algatusel t&ouml;&ouml;lepingu l&otilde;petamise alused</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja v&otilde;ib l&otilde;petada m&auml;&auml;ramata kui ka m&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu enne lepingut&auml;htaja m&ouml;&ouml;dumist :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni likvideerimisel ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;andja pankroti v&auml;ljakuulutamisel ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;tajate koondamisel ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;taja mittevastavusel oma ametikohale v&otilde;i tehtavale t&ouml;&ouml;le t&ouml;&ouml;oskuse v&otilde;i tervise t&otilde;ttu ;</s>
+</p>
+<p>
+<s>5 ) katseaja ebarahuldavate tulemuste t&otilde;ttu ;</s>
+</p>
+<p>
+<s>6 ) t&ouml;&ouml;tajapoolsel t&ouml;&ouml;kohustuste rikkumisel ;</s>
+</p>
+<p>
+<s>7 ) t&ouml;&ouml;taja suhtes usalduse kaotamisel ;</s>
+</p>
+<p>
+<s>8 ) t&ouml;&ouml;taja v&auml;&auml;ritu teo t&otilde;ttu ;</s>
+</p>
+<p>
+<s>9 ) t&ouml;&ouml;taja pikaajalise t&ouml;&ouml;v&otilde;imetuse t&otilde;ttu ;</s>
+</p>
+<p>
+<s>10 ) t&ouml;&ouml;taja vanuse t&otilde;ttu ;</s>
+</p>
+<p>
+<s>11 ) p&otilde;hikohaga t&ouml;&ouml;taja t&ouml;&ouml;lev&otilde;tmisel ;</s>
+</p>
+<p>
+<s>12 ) t&ouml;&ouml;taja korruptiivse teo t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>T&ouml;&ouml;tajale t&ouml;&ouml;lepingu l&otilde;petamisest etteteatamine ja p&otilde;hjendamine</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 327 )</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu l&otilde;petamisest on t&ouml;&ouml;andja kohustatud t&ouml;&ouml;tajale kirjalikult ette teatama :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni likvideerimisel - mitte v&auml;hem kui kaks kuud ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;tajate koondamisel : t&ouml;&ouml;tajale , kellel on pidevat t&ouml;&ouml;staa&zcaron;i selle t&ouml;&ouml;andja juures alla viie aasta - mitte v&auml;hem kui kaks kuud ;</s>
+</p>
+<p>
+<s>5-10 aastat - mitte v&auml;hem kui kolm kuud ;</s>
+</p>
+<p>
+<s>&uuml;le 10 aasta - mitte v&auml;hem kui neli kuud ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;taja mittevastavusel oma ametikohale v&otilde;i tehtavale t&ouml;&ouml;le - mitte v&auml;hem kui &uuml;ks kuu ;</s>
+</p>
+<p>
+<s>5 ) pikaajalise t&ouml;&ouml;v&otilde;imetuse korral - mitte v&auml;hem kui kaks n&auml;dalat ;</s>
+</p>
+<p>
+<s>6 ) vanuse puhul t&ouml;&ouml;tajale , kellel on pidevat t&ouml;&ouml;staa&zcaron;i selle t&ouml;&ouml;andja juures alla 10 aasta - kaks kuud ; &uuml;le 10 aasta - kolm kuud .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Kirjalikus teates t&ouml;&ouml;lepingu l&otilde;petamise kohta on t&ouml;&ouml;andja kohustatud p&otilde;hjendama t&ouml;&ouml;lepingu l&otilde;petamise vajadust .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 327 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. ja 5. l&otilde;ikes etten&auml;htud t&auml;htaegade mittej&auml;rgimisel on t&ouml;&ouml;andja kohustatud maksma t&ouml;&ouml;tajale h&uuml;vitust keskmise p&auml;evapalga ulatuses iga t&ouml;&ouml;p&auml;eva eest , mille v&otilde;rra t&ouml;&ouml;lepingu l&otilde;petamisest v&auml;hem ette teatati .</s><s>Mainitud h&uuml;vituse maksmine ei vabasta t&ouml;&ouml;andjat kohustusest maksta t&ouml;&ouml;tajale paragrahvi 90 1. l&otilde;ikes etten&auml;htud h&uuml;vitust .</s>
+</p>
+<p>
+<s>( 08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 )</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;lepingu l&otilde;petamisel k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud alustel on t&ouml;&ouml;andja kohustatud sellest kirjalikult ette teatama ka t&ouml;&ouml;tajat esindavale organisatsioonile v&otilde;i isikule samas l&otilde;ikes n&auml;idatud t&auml;htajal ( v&auml;lja arvatud 1. l&otilde;ike punkt 6 ) ja esitama lepingu l&otilde;petamise p&otilde;hjuse ning tegema teatavaks abin&otilde;ud , mis ta on tarvitusele v&otilde;tnud t&ouml;&ouml;taja edaspidiseks t&ouml;&ouml;ga kindlustamiseks .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;andja pankroti v&auml;ljakuulutamisel on lubatud t&ouml;&ouml;leping l&otilde;petada t&ouml;&ouml;tajale ette teatamata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) T&ouml;&ouml;lepingu l&otilde;petamisel t&ouml;&ouml;tajate esindajaga on t&ouml;&ouml;andja kohustatud talle kirjalikult ette teatama k&auml;esoleva paragrahvi 1.l&otilde;ike punktides 3 ja 4 etten&auml;htud t&auml;htaegadest &uuml;ks kuu varem .</s>
+</p>
+<p>
+<s>( 08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 )</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>T&ouml;&ouml;h&otilde;iveametile t&ouml;&ouml;lepingu l&otilde;petamisest teatamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamisel ettev&otilde;tte , asutuse v&otilde;i organisatsiooni likvideerimise v&otilde;i t&ouml;&ouml;tajate koondamise t&otilde;ttu on t&ouml;&ouml;andja kohustatud esitama andmed vabanevate t&ouml;&ouml;tajate kohta t&ouml;&ouml;taja elukohaj&auml;rgsele t&ouml;&ouml;h&otilde;iveametile hiljemalt j&auml;rgmisel p&auml;eval , kui ta on teatanud t&ouml;&ouml;tajale t&ouml;&ouml;lepingu l&otilde;petamisest .</s><s>Kui t&ouml;&ouml;leping l&otilde;petatakse t&ouml;&ouml;tajatega t&ouml;&ouml;andaja pankroti v&auml;ljakuulutamisel , esitab t&ouml;&ouml;andja t&ouml;&ouml;tajate kohta andmed t&ouml;&ouml;h&otilde;iveametile t&ouml;&ouml;lepingu l&otilde;petamisele j&auml;rgneval p&auml;eval .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.01.10.2000 - RT I 2000 , 57 , 370 )</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>T&ouml;&ouml;andja algatusel t&ouml;&ouml;lepingu l&otilde;petamise peatamine</s>
+</p>
+<p>
+<s>Kui t&ouml;&ouml;andja kavatseb l&otilde;petada t&ouml;&ouml;lepingu t&ouml;&ouml;tajate koondamise t&otilde;ttu 10-20 t&ouml;&ouml;tajaga kolme kuu jooksul ja vabanevate t&ouml;&ouml;tajate t&ouml;&ouml;lepaigutamine ei ole tagatud , v&otilde;ib t&ouml;&ouml;tajaid esindav organisatsioon v&otilde;i isik lepingu l&otilde;petamise peatada kuni &uuml;heks kuuks .</s><s>Kui koondamise t&otilde;ttu vabaneb kolme kuu jooksul &uuml;le 20 t&ouml;&ouml;taja ja vabanevate t&ouml;&ouml;tajate t&ouml;&ouml;lepaigutamine ei ole tagatud , v&otilde;ib t&ouml;&ouml;tajaid esindav organisatsioon v&otilde;i isik t&ouml;&ouml;lepingu l&otilde;petamise peatada kuni kaheks kuuks .</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>H&uuml;vituse maksmine t&ouml;&ouml;tajale</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja on kohustatud maksma t&ouml;&ouml;tajale t&ouml;&ouml;lepingu l&otilde;petamisel h&uuml;vitust :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni likvideerimise ( paragrahvi 86 punkt 1 ) , t&ouml;&ouml;andja pankroti v&auml;ljakuulutamise ( paragrahvi 86 punkt 2 ) , t&ouml;&ouml;tajate koondamise ( paragrahvi 86 punkt 3 ) ja vanuse ( paragrahvi 86 punkt 10 ) t&otilde;ttu :</s>
+</p>
+<p>
+<s>a ) t&ouml;&ouml;tajale , kellel on pidevat t&ouml;&ouml;staa&zcaron;i selle t&ouml;&ouml;andja juures kuni 5 aastat - kahe kuu keskmise palga ulatuses ;</s>
+</p>
+<p>
+<s>b ) t&ouml;&ouml;tajale , kellel on pidevat t&ouml;&ouml;staa&zcaron;i selle t&ouml;&ouml;andja juures 5 - 10 aastat - kolme kuu keskmise palga ulatuses ;</s>
+</p>
+<p>
+<s>c ) t&ouml;&ouml;tajale , kellel on pidevat t&ouml;&ouml;staa&zcaron;i selle t&ouml;&ouml;andja juures &uuml;le 10 aasta - nelja kuu keskmise palga ulatuses ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;taja mittevastavuse t&otilde;ttu ( paragrahvi 86 punkt 4 ) - t&ouml;&ouml;taja &uuml;he kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui t&ouml;&ouml;andjal puuduvad vahendid h&uuml;vituse maksmiseks t&ouml;&ouml;lepingu l&otilde;petamisel pankroti v&auml;ljakuulutamise t&otilde;ttu ( paragrahv 86 punkt 2 ) , maksab t&ouml;&ouml;tajale h&uuml;vituse riik 1. l&otilde;ikes nimetatud ulatuses , kuid mitte &uuml;le pankrotiseaduses s&auml;testatud ulatuse .</s><s>H&uuml;vituse maksmise korra ja tingimused kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;lepingu l&otilde;petamisel muudel paragrahvis 86 etten&auml;htud alustel t&ouml;&ouml;tajale h&uuml;vitust ei maksta .</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>Keeld l&otilde;petada t&ouml;&ouml;lepingut t&ouml;&ouml;andja algatusel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;andja algatusel ei ole lubatud :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;taja ajutise t&ouml;&ouml;v&otilde;imetuse ajal ( v&auml;lja arvatud paragrahvi 86 punkt 9 ) ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;taja puhkusel ( sealhulgas lapsehooldus- ja palgata puhkusel ) viibimise ajal ning perioodil , mille kestel t&ouml;&ouml;tajale oli kehtestatud osaline t&ouml;&ouml;aeg v&otilde;i ta oli saadetud osaliselt tasustatavale puhkusele paragrahv 68 1. l&otilde;ikes etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>3 ) seadusliku streigi ajal , kui t&ouml;&ouml;taja osaleb selles streigis seadusega etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>4 ) ajal , mil t&ouml;&ouml;taja t&auml;idab talle riigi- v&otilde;i kohaliku omavalitsusorgani poolt pandud &uuml;lesandeid v&otilde;i esindab seaduse v&otilde;i kollektiivlepinguga etten&auml;htud korras t&ouml;&ouml;tajaid .</s>
+</p>
+<p>
+<s>( 09.02.93 j&otilde;ust.12.03.93 - RT 1993 , 10 , 150 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;iget ei kohaldata t&ouml;&ouml;lepingu l&otilde;petamisel ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni likvideerimise ja t&ouml;&ouml;andja pankroti v&auml;ljakuulutamise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine raseda v&otilde;i naisega , kes kasvatab alla kolmeaastast last</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on keelatud l&otilde;petada t&ouml;&ouml;leping raseda v&otilde;i naisega , kes kasvatab alla kolmeaastast last , v&auml;lja arvatud paragrahvi 86 punktides 1-2 , 5-8 ja 11 etten&auml;htud alusel .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu l&otilde;petamine k&auml;esoleva paragrahvi 1. l&otilde;ikes mainitud t&ouml;&ouml;tajatega paragrahvi 86 punktides 1-2 ja 5-8 etten&auml;htud alustel on lubatud &uuml;ksnes t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektori n&otilde;usolekul .</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine alaealisega</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada alaealisega t&ouml;&ouml;leping paragrahvis 86 etten&auml;htud alustel , v&auml;lja arvatud paragrahvi 86 punkt 5.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine paragrahvi 86 punktides 3-4 etten&auml;htud alustel on lubatud &uuml;ksnes t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektori n&otilde;usolekul .</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;tajate esindajatega</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;andja algatusel t&ouml;&ouml;tajaga , kes on valitud t&ouml;&ouml;andja juures t&ouml;&ouml;tajaid esindavasse organisatsiooni , samuti t&ouml;&ouml;tajaid esindava isikuga , on lubatud t&ouml;&ouml;taja volituste ajal ja &uuml;he aasta jooksul p&auml;rast volituste l&otilde;petamist , v&auml;lja arvatud paragrahvi 86 punktides 1 , 9 ja 11 etten&auml;htud alused , &uuml;ksnes t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektori n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 )</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;inspektor peab t&ouml;&ouml;andjale kirjalikult p&otilde;hjendama t&ouml;&ouml;tajate esindajaga t&ouml;&ouml;lepingu l&otilde;petamiseks n&otilde;usoleku andmist v&otilde;i sellest keeldumist .</s><s>Enne vastava otsuse tegemist peab t&ouml;&ouml;inspektor p&ouml;&ouml;rduma kirjalikult t&ouml;&ouml;tajaid esindava organisatsiooni poole arvamuse saamiseks t&ouml;&ouml;tajate esindajaga t&ouml;&ouml;lepingu l&otilde;petamise kohta , kui t&ouml;&ouml;tajate esindaja on t&ouml;&ouml;tajaid esindava organisatsiooni poolt valitud .</s><s>T&ouml;&ouml;tajaid esindav organisatsioon annab oma kirjaliku arvamuse &uuml;he n&auml;dala jooksul , arvates p&ouml;&ouml;rdumise p&auml;evast .</s>
+</p>
+<p>
+<s>( 08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 )</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on t&ouml;&ouml;tajate esindajaga t&ouml;&ouml;lepingu l&otilde;petamine tulenevalt tema seaduslikust tegevusest t&ouml;&ouml;tajate huvide esindamisel .</s>
+</p>
+<p>
+<s>( 08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 )</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;inspektori ebaseadusliku tegevuse peale saab esitada kaebuse halduskohtule .</s>
+</p>
+<p>
+<s>( 08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 )</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine kohakaaslasega <hi rend="sup">2</hi></s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamisel kohakaaslasega ei rakendata paragrahvides 87-94 etten&auml;htud tagatisi .</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Erisoodustuste korras saadu tagastamine t&ouml;&ouml;lepingu l&otilde;petamisel</s>
+</p>
+<p>
+<s>M&auml;&auml;ratud ajaks s&otilde;lmitud t&ouml;&ouml;lepingu ( paragrahvi 27 2. l&otilde;ike punkt 5 ) l&otilde;petamisel paragrahvi 86 punktides 4-8 ja paragrahvis 112 etten&auml;htud alustel , samuti niisuguse lepingu l&otilde;petamisel paragrahvis 113 etten&auml;htud alusel t&ouml;&ouml;taja s&uuml;&uuml;l , on t&ouml;&ouml;andjal &otilde;igus n&otilde;uda t&ouml;&ouml;tajalt t&ouml;&ouml;lepingu alusel saadud erisoodustuste ( t&ouml;&ouml;andja poolt makstud stipendium ja kantud muud &otilde;ppekulud , &otilde;ppeajaks s&auml;ilitatud t&ouml;&ouml;tasu jms. ) tagastamist .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni likvideerimisel v&otilde;i t&ouml;&ouml;andja pankroti v&auml;ljakuulutamisel</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada t&ouml;&ouml;tajatega t&ouml;&ouml;leping paragrahvi 86 punktis 1 etten&auml;htud alustel , kui ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni tegevus l&otilde;petatakse t&auml;ielikult ning selle baasil ei moodustata uut ettev&otilde;tet , asutust v&otilde;i muud organisatsiooni .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andja pankroti v&auml;ljakuulutamisel on pankrotihalduril &otilde;igus l&otilde;petada t&ouml;&ouml;leping t&ouml;&ouml;tajatega paragrahv 86 punktis 2 etten&auml;htud alusel p&auml;rast pankrotiotsuse tegemist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;tajate koondamisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada t&ouml;&ouml;leping paragrahvi 86 punktis 3 etten&auml;htud alusel t&ouml;&ouml;mahu v&auml;henemisel , tootmise v&otilde;i t&ouml;&ouml; &uuml;mberkorraldamisel , varem t&ouml;&ouml;tanud t&ouml;&ouml;taja t&ouml;&ouml;le ennistamisel ja muudel juhtudel , mis tingivad t&ouml;&ouml; l&otilde;ppemise .</s>
+</p>
+<p>
+<s>( 2 ) Enne t&ouml;&ouml;lepingu l&otilde;petamist koondamise t&otilde;ttu on t&ouml;&ouml;andja kohustatud pakkuma t&ouml;&ouml;tajale v&otilde;imaluse korral teist t&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;andja on kohustatud koondamise t&otilde;ttu vabanenud t&ouml;&ouml;taja tema soovil t&ouml;&ouml;le tagasi v&otilde;tma kuue kuu jooksul , kui t&ouml;&ouml;andjal tekib vabu t&ouml;&ouml;kohti .</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>T&ouml;&ouml;lej&auml;&auml;mise eelis&otilde;igus koondamisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu l&otilde;petamisel koondamise t&otilde;ttu on t&ouml;&ouml;lej&auml;&auml;mise eelis&otilde;igus eelk&otilde;ige t&ouml;&ouml;tajate esindajal , seej&auml;rel t&ouml;&ouml;tajatel , kes t&ouml;&ouml;tavad selle t&ouml;&ouml;andja juures p&otilde;hikohaga .</s>
+</p>
+<p>
+<s>( 08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 )</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;hikohaga t&ouml;&ouml;tavatest isikutest eelistatakse neid , kel on paremad t&ouml;&ouml;alased n&auml;itajad .</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;rdsete t&ouml;&ouml;alaste n&auml;itajate korral eelistatakse t&ouml;&ouml;tajaid , kes on selle t&ouml;&ouml;andja s&uuml;&uuml;l saanud kutsehaiguse v&otilde;i t&ouml;&ouml;vigastuse ; kes on kauem t&ouml;&ouml;tanud selle t&ouml;&ouml;andja juures ; kellel on &uuml;lalpeetavaid ; kes t&auml;iendavad oma kutseoskusi ja teadmisi eriharidust andvas &otilde;ppeasutuses .</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine ettev&otilde;tte , asutuse v&otilde;i organisatsiooni reorganiseerimisel , sealhulgas tema struktuuri&uuml;ksuse likvideerimisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni reorganiseerimisel l&otilde;petada t&ouml;&ouml;lepingu paragrahvi 86 punktis 3 etten&auml;htud alusel , kui reorganiseerimisega kaasneb t&ouml;&ouml;tajate koondamine .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andjal on &otilde;igus ettev&otilde;tte , asutuse v&otilde;i muu organisatsiooni t&ouml;&ouml;andja &otilde;igusteta struktuuri&uuml;ksuse likvideerimisel l&otilde;petada seal t&ouml;&ouml;tavate t&ouml;&ouml;tajatega t&ouml;&ouml;leping paragrahvi 86 punktis 3 etten&auml;htud alusel , kui neile ei ole v&otilde;imalik pakkuda t&ouml;&ouml;d teises struktuuri&uuml;ksuses v&otilde;i nad on keeldunud pakutud t&ouml;&ouml;st .</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja mittevastavusel oma ametikohale v&otilde;i tehtavale t&ouml;&ouml;le t&ouml;&ouml;oskuse v&otilde;i tervise t&otilde;ttu</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada t&ouml;&ouml;leping paragrahvi 86 punktis 4 etten&auml;htud alusel , kui t&ouml;&ouml;taja ei tule toime oma t&ouml;&ouml;&uuml;lesannete t&auml;itmisega ebapiisava t&ouml;&ouml;oskuse v&otilde;i tervise t&otilde;ttu .</s><s>T&ouml;&ouml;andja v&otilde;ib t&ouml;&ouml;lepingu samal alusel l&otilde;petada ka siis , kui :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tajal puudus dokument , mille olemasolu on vastavale t&ouml;&ouml;le lubamise kohustuslik eeltingimus ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;taja ei vasta oma t&ouml;&ouml;le v&otilde;i ametikohale ebapiisava keele- v&otilde;i suhtlemisoskuse t&otilde;ttu ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;taja ei t&auml;ienda erialaseid teadmisi ( sealhulgas riigikeele ja v&otilde;&otilde;rkeelte oskust ) , kui see on t&ouml;&ouml;ks vajalik ja t&ouml;&ouml;andja on talle selleks tingimused loonud vastavalt kokkulepitud korrale .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 327 )</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja tervise halvenemine v&otilde;ib olla t&ouml;&ouml;lepingu l&otilde;petamise p&otilde;hjuseks , kui see on p&uuml;siva iseloomuga ja takistab senise t&ouml;&ouml; j&auml;tkamist v&otilde;i v&auml;listab senise t&ouml;&ouml; j&auml;tkamise .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;taja kutseoskuse vastavust t&auml;idetavale ametikohale v&otilde;i tehtavale t&ouml;&ouml;le hindab t&ouml;&ouml;andja .</s><s>T&ouml;&ouml;taja tervise vastavus m&auml;&auml;ratakse kindlaks arsti otsusega .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;andja v&otilde;ib l&otilde;petada paragrahvi 86 punktis 4 etten&auml;htud alusel t&ouml;&ouml;lepingu , kui t&ouml;&ouml;tajale ei ole v&otilde;imalik pakkuda teist t&ouml;&ouml;d v&otilde;i kui t&ouml;&ouml;taja on keeldunud pakutud t&ouml;&ouml;st .</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine katseaja ebarahuldavate tulemuste t&otilde;ttu</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada paragrahvi 86 punktis 5 etten&auml;htud alusel t&ouml;&ouml;leping , kui katseaja tulemused osutuvad ebarahuldavaks .</s><s>Katseaja tulemusi hindab t&ouml;&ouml;andja .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andja v&otilde;ib t&ouml;&ouml;lepingu l&otilde;petada katseaja kestel ( kaasa arvatud katseaja viimane p&auml;ev ) .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;tajapoolsel t&ouml;&ouml;kohustuste rikkumisel v&otilde;i korruptiivse teo toimepanemisel</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada paragrahvi 86 punktis 6 etten&auml;htud alusel t&ouml;&ouml;leping , kui s&uuml;&uuml;tegu h&auml;iris t&ouml;&ouml;d ja t&ouml;&ouml;tajal on distsiplinaarkaristus , mis ei ole kustunud .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andja v&otilde;ib t&ouml;&ouml;lepingu l&otilde;petada ka t&ouml;&ouml;taja esmakordse j&auml;meda t&ouml;&ouml;kohustuste rikkumise eest .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada t&ouml;&ouml;leping k&auml;esoleva seaduse paragrahv 86 punktis 12 etten&auml;htud alusel iga t&ouml;&ouml;tajaga , kes paneb toime korruptiivse teo .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja suhtes usalduse kaotamisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada t&ouml;&ouml;leping paragrahvi 86 punktis 7 etten&auml;htud alusel iga t&ouml;&ouml;tajaga , kelle suhtes t&ouml;&ouml;andja on kaotanud usalduse .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu v&otilde;ib l&otilde;petada , kui t&ouml;&ouml;taja on :</s>
+</p>
+<p>
+<s>1 ) p&otilde;hjustanud t&ouml;&ouml;andja vara puuduj&auml;&auml;gi , riknemise , h&auml;vimise , kaotsimineku v&otilde;i riisumise , samuti kui ta on t&ouml;&ouml;kohal varastanud kaast&ouml;&ouml;taja vara ;</s>
+</p>
+<p>
+<s>2 ) seadnud ohtu t&ouml;&ouml;andja vara s&auml;ilimise ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;hjustanud tarbijate , klientide v&otilde;i &auml;ripartnerite usaldamatuse t&ouml;&ouml;andja vastu ;</s>
+</p>
+<p>
+<s>4 ) ( Kehtetu - 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>5 ) ( Kehtetu - 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>6 ) ( Kehtetu - 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>7 ) ( Kehtetu - 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine v&auml;&auml;ritu teo eest</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada t&ouml;&ouml;leping paragrahvi 86 punktis 8 etten&auml;htud alusel pedagoogide , alaealiste juhendajate ja muude t&ouml;&ouml;tajatega , kelle t&ouml;&ouml;&uuml;lesandeks on noori &otilde;petada v&otilde;i kasvatada , samuti riigi ja kohaliku omavalitsuse ametiasutuse abiteenistujatega .</s>
+</p>
+<p>
+<s>( 05.05.93 j&otilde;ust.01.09.93 - RT I 1993 , 26 , 441 ; 25.01.95 j&otilde;ust.01.01.96 - RT I 1995 , 16 , 228 )</s>
+</p>
+<p>
+<s>( 2 ) V&auml;&auml;rituks on tegu , mis on vastuolus &uuml;ldtunnustatud k&otilde;lblusnormidega v&otilde;i diskrediteerib t&ouml;&ouml;tajat v&otilde;i t&ouml;&ouml;andjat .</s><s>V&auml;&auml;ritu tegu on t&ouml;&ouml;lepingu l&otilde;petamise aluseks ka siis , kui see pandi toime v&auml;ljaspool t&ouml;&ouml;kohustuste t&auml;itmist .</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja s&uuml;&uuml;tegude t&otilde;ttu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamisel paragrahvi 86 punktides 6-8 etten&auml;htud alustel on t&ouml;&ouml;andja kohustatud j&auml;rgima distsiplinaarkaristuste m&auml;&auml;ramiseks seadusega kehtestatud korda .</s><s>T&ouml;&ouml;andja ei ole kohustatud t&ouml;&ouml;lepingu l&otilde;petamisest t&ouml;&ouml;taja s&uuml;&uuml;tegude t&otilde;ttu ette teatama ega h&uuml;vitust maksma .</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine pikaajalise t&ouml;&ouml;v&otilde;imetuse t&otilde;ttu</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada t&ouml;&ouml;leping paragrahvi 86 punktis 9 etten&auml;htud alusel t&ouml;&ouml;taja t&ouml;&ouml;v&otilde;imetuse ajal :</s>
+</p>
+<p>
+<s>1 ) kui t&ouml;&ouml;taja on t&ouml;&ouml;v&otilde;imetuse t&otilde;ttu t&ouml;&ouml;lt puudunud &uuml;le nelja kuu j&auml;rjest , tuberkuloosi haigestumise t&otilde;ttu &uuml;le kaheksa kuu j&auml;rjest ;</s>
+</p>
+<p>
+<s>2 ) kui t&ouml;&ouml;taja on t&ouml;&ouml;v&otilde;imetuse t&otilde;ttu t&ouml;&ouml;lt puudunud &uuml;le viie kuu kalendriaasta jooksul , tuberkuloosi haigestumise t&otilde;ttu &uuml;le kaheksa kuu kalendriaasta jooksul .</s>
+</p>
+<p>
+<s>( 12.06.96 j&otilde;ust.11.07.96 - RT 1 1996 , 45 , 850 )</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;vigastuse t&otilde;ttu ajutiselt t&ouml;&ouml;v&otilde;imetuks j&auml;&auml;nule s&auml;ilitab t&ouml;&ouml;andja t&ouml;&ouml;koha tema tervenemiseni v&otilde;i invaliidsuse kindlaksm&auml;&auml;ramiseni .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;lepingu l&otilde;petamisel t&ouml;&ouml;taja t&ouml;&ouml;v&otilde;imetuse ajal on t&ouml;&ouml;lepingu l&otilde;petamise p&auml;evaks t&ouml;&ouml;lepingusse kande tegemise p&auml;ev .</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja vanuse t&otilde;ttu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andjal on &otilde;igus l&otilde;petada t&ouml;&ouml;leping paragrahvi 86 punktis 10 etten&auml;htud alusel , kui t&ouml;&ouml;taja on saanud 65 aastaseks ja tal on &otilde;igus t&auml;isvanaduspensionile .</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine p&otilde;hikohaga t&ouml;&ouml;taja t&ouml;&ouml;lev&otilde;tmisel <hi rend="sup">3</hi></s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja v&otilde;ib l&otilde;petada t&ouml;&ouml;lepingu kohakaaslasega paragrahvi 86 punktis 11 etten&auml;htud alusel , kui kohakaaslase asemele v&otilde;etakse p&otilde;hikohaga t&ouml;&ouml;taja .</s>
+</p>
+<p>
+<s>5. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamine kolmandate isikute n&otilde;udmisel</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine alaealisega kolmandate isikute n&otilde;udmisel</s>
+</p>
+<p>
+<s>( 1 ) Alaealise vanem , eestkostja , hooldaja v&otilde;i t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektor v&otilde;ivad n&otilde;uda alaealisega s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamist , kui t&ouml;&ouml;tamine ohustab alaealise tervist , k&otilde;lblust v&otilde;i hariduse omandamist .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud alusel l&otilde;petab t&ouml;&ouml;andja t&ouml;&ouml;lepingu vastava kirjaliku n&otilde;ude esitamise p&auml;evale j&auml;rgnevast p&auml;evast .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;andja on kohustatud maksma alaealisele t&ouml;&ouml;lepingu l&otilde;petamisel h&uuml;vitust tema &uuml;he kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>6. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu l&otilde;petamine pooltest s&otilde;ltumatutel asjaoludel</s>
+</p>
+<p>
+<s>&sect; 111.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine kaitsej&otilde;udude tegevteenistusse v&otilde;i t&ouml;&ouml;teenistusse kutsumisel v&otilde;i astumisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja l&otilde;petab t&ouml;&ouml;lepingu t&ouml;&ouml;taja kaitsej&otilde;udude tegevteenistusse v&otilde;i t&ouml;&ouml;teenistusse kutsumisel v&otilde;i astumisel v&auml;hemalt kolm kalendrip&auml;eva enne vastaval kutsel m&auml;rgitud t&auml;htaega .</s>
+</p>
+<p>
+<s>( 2 ) Poolte kokkuleppel v&otilde;ib t&ouml;&ouml;lepingu peatada t&ouml;&ouml;taja kaitsej&otilde;udude tegevteenistuses v&otilde;i t&ouml;&ouml;teenistuses viibimise ajaks ( paragrahvi 55 punkt 7 ) .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;lepingu l&otilde;petamisel t&ouml;&ouml;taja kutsumisel v&otilde;i asumisel kaitsej&otilde;udude tegevteenistusse v&otilde;i t&ouml;&ouml;teenistusse maksab riik t&ouml;&ouml;tajale h&uuml;vitusena tema kahe n&auml;dala keskmise palga .</s><s>H&uuml;vituse maksmise korra kehtestab vabariigi valitsus .</s>
+</p>
+<p>
+<s>&sect; 112.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine s&uuml;&uuml;dim&otilde;istva kohtuotsuse j&otilde;ustumisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;leping l&otilde;petatakse s&uuml;&uuml;dim&otilde;istva kohtuotsuse j&otilde;ustumisel , millega t&ouml;&ouml;tajale m&otilde;isteti kriminaalkaristus , mis teeb v&otilde;imatuks senise t&ouml;&ouml; j&auml;tkamise .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja vahi alla v&otilde;tmisel l&otilde;petatakse t&ouml;&ouml;leping p&auml;rast s&uuml;&uuml;dim&otilde;istva kohtuotsuse j&otilde;ustumist vahi alla v&otilde;tmise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>&sect; 113.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;lev&otilde;tmise eeskirjade rikkumisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;leping l&otilde;petatakse t&ouml;&ouml;lev&otilde;tmise eeskirjade rikkumise t&otilde;ttu , kui leping s&otilde;lmiti paragrahvide 32 , 35 , 36 ja 37 3. l&otilde;ike rikkumisega . <hi rend="sup">4</hi></s>
+</p>
+<p>
+<s>( 2 ) Kui t&ouml;&ouml;leping s&otilde;lmiti t&ouml;&ouml;lev&otilde;tmise eeskirjade rikkumisega t&ouml;&ouml;andja s&uuml;&uuml;l , on t&ouml;&ouml;andja kohustatud pakkuma t&ouml;&ouml;tajale teist t&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;andja s&uuml;&uuml;l t&ouml;&ouml;lev&otilde;tmise eeskirjade rikkumisega s&otilde;lmitud t&ouml;&ouml;lepingu l&otilde;petamisel on t&ouml;&ouml;andja kohustatud maksma t&ouml;&ouml;tajale h&uuml;vitust tema kolme kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>( 4 ) Kui t&ouml;&ouml;leping s&otilde;lmiti t&ouml;&ouml;lev&otilde;tmise eeskirjade rikkumisega t&ouml;&ouml;taja poolt teadlikult eba&otilde;igete andmete esitamise tagaj&auml;rjel , on t&ouml;&ouml;taja kohustatud maksma t&ouml;&ouml;andjale h&uuml;vitust oma &uuml;he kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>&sect; 114.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine l&auml;hedase sugulase v&otilde;i h&otilde;imlasega</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;leping l&otilde;petatakse &uuml;hega l&auml;hedases suguluses v&otilde;i h&otilde;imluses olevatest t&ouml;&ouml;tajatest ( paragrahv 32 ) , kes t&ouml;&ouml;tavad &uuml;hes ja samas riiklikus v&otilde;i munitsipaalettev&otilde;ttes , asutuses v&otilde;i muus organisatsioonis &uuml;ksteise vahetus alluvuses oleval v&otilde;i teise poolt vahetult kontrollitaval ametikohal , kui selline t&ouml;&ouml;tamine pole lubatud seaduse v&otilde;i vabariigi valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu l&otilde;petamisel k&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud alusel pakub t&ouml;&ouml;andja v&otilde;imalusel t&ouml;&ouml;tajale teist t&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>&sect; 115.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;taja surma t&otilde;ttu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;taja surma korral l&otilde;petab t&ouml;&ouml;andja t&ouml;&ouml;lepingu t&ouml;&ouml;taja surmap&auml;evast arvates .</s>
+</p>
+<p>
+<s>&sect; 116.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine t&ouml;&ouml;andja surma t&otilde;ttu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja surm ei l&otilde;peta t&ouml;&ouml;lepingu kehtivust , v&auml;lja arvatud , kui t&ouml;&ouml;taja oli t&ouml;&ouml;le v&otilde;etud t&ouml;&ouml;andja isiklikuks teenindamiseks .</s><s>Sel juhul l&otilde;petavad t&ouml;&ouml;lepingu t&ouml;&ouml;andja p&auml;rijad v&otilde;i t&ouml;&ouml;andja asukoha ( elukoha ) j&auml;rgne t&ouml;&ouml;inspektor .</s><s>T&ouml;&ouml;leping l&otilde;petatakse t&ouml;&ouml;andja surmap&auml;evast arvates .</s>
+</p>
+<p>
+<s>7. jagu</s>
+</p>
+<p>
+<s>Poolte vastutus t&ouml;&ouml;lepingu ebaseaduslikul l&otilde;petamisel</s>
+</p>
+<p>
+<s>&sect; 117.</s><s>T&ouml;&ouml;andja vastutus t&ouml;&ouml;lepingu ebaseaduslikul l&otilde;petamisel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu ebaseaduslikul l&otilde;petamisel t&ouml;&ouml;andja poolt on t&ouml;&ouml;tajal &otilde;igus n&otilde;uda enda t&ouml;&ouml;le ennistamist , t&ouml;&ouml;lepingu l&otilde;petamise aluse formuleeringu muutmist ja sunnitud t&ouml;&ouml;lt puudumise aja eest keskmise palga maksmist .</s>
+</p>
+<p>
+<s>( 2 ) Kui t&ouml;&ouml;taja loobub t&ouml;&ouml;le ennistamisest , on t&ouml;&ouml;andja kohustatud maksma t&ouml;&ouml;tajale h&uuml;vitust kuni t&ouml;&ouml;taja kuue kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Kui t&ouml;&ouml;tajate esindaja loobub t&ouml;&ouml;le ennistamisest , on t&ouml;&ouml;andja kohustatud maksma h&uuml;vitust tema kuue kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>( 08.03.2000 j&otilde;ust.07.04.2000 - RT I 2000 , 25 , 144 )</s>
+</p>
+<p>
+<s>&sect; 118.</s><s>T&ouml;&ouml;taja vastutus omavolilisel t&ouml;&ouml;lt lahkumisel</s>
+</p>
+<p>
+<s>( 1 ) Kui t&ouml;&ouml;taja lahkub t&ouml;&ouml;lt omavoliliselt t&ouml;&ouml;lepingu l&otilde;petamise kohta avaldust esitamata ( paragrahvid 79 ja 80 ) , on t&ouml;&ouml;andjal &otilde;igus n&otilde;uda t&ouml;&ouml;tajalt h&uuml;vitust kuni tema &uuml;he kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Kui t&ouml;&ouml;taja , kes oli s&otilde;lminud m&auml;&auml;ratud ajaks erisoodustustega t&ouml;&ouml;lepingu ( paragrahvi 27 2. l&otilde;ike punkt 5 ) , lahkub t&ouml;&ouml;lt omavoliliselt , on t&ouml;&ouml;andjal &otilde;igus n&otilde;uda t&ouml;&ouml;tajalt lisaks t&ouml;&ouml;lepingu alusel saadu tagastamisele ( paragrahv 96 ) h&uuml;vitust kuni tema kolme kuu keskmise palga ulatuses .</s>
+</p>
+<p>
+<s>&sect; 119.</s><s>Vastutus t&ouml;&ouml;raamatu ja l&otilde;pparve kinnipidamise eest</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;raamatu kinnipidamisel on t&ouml;&ouml;andja kohustatud maksma t&ouml;&ouml;tajale keskmist palka iga t&ouml;&ouml;raamatu k&auml;tteandmisega viivitatud p&auml;eva eest kuni t&ouml;&ouml;raamatu k&auml;tteandmiseni .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;pparve kinnipidamisel on t&ouml;&ouml;andja kohustatud maksma t&ouml;&ouml;tajale keskmist palka iga l&otilde;pparve v&auml;ljamaksmisega viivitamise p&auml;eva eest , kuid mitte &uuml;le t&ouml;&ouml;taja &uuml;he kuu keskmise palga .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu t&uuml;histamine ja kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu t&uuml;histamine</s>
+</p>
+<p>
+<s>&sect; 120.</s><s>T&ouml;&ouml;lepingu t&uuml;histamise alused</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu v&otilde;ib enne t&ouml;&ouml;le asumist t&uuml;histada poolte kokkuleppel , samuti t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;andja algatusel .</s>
+</p>
+<p>
+<s>&sect; 121.</s><s>T&ouml;&ouml;lepingu t&uuml;histamine poolte kokkuleppel</s>
+</p>
+<p>
+<s>( 1 ) Poolte kokkuleppel v&otilde;ib t&ouml;&ouml;lepingu t&uuml;histada mis tahes p&otilde;hjusel .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andjalt lepingu j&auml;rgi saadu tagastamine otsustatakse poolte kokkuleppel .</s>
+</p>
+<p>
+<s>&sect; 122.</s><s>T&ouml;&ouml;lepingu t&uuml;histamine t&ouml;&ouml;taja algatusel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;taja v&otilde;ib t&uuml;histada t&ouml;&ouml;lepingu , kui t&ouml;&ouml;le asumine on takistatud :</s>
+</p>
+<p>
+<s>1 ) tema ajutise t&ouml;&ouml;v&otilde;imetuse t&otilde;ttu ;</s>
+</p>
+<p>
+<s>2 ) ootamatute perekondlike v&otilde;i ootamatute isiklike p&otilde;hjuste t&otilde;ttu ;</s>
+</p>
+<p>
+<s>3 ) tema kaitsej&otilde;udude tegevteenistusse v&otilde;i t&ouml;&ouml;teenistusse kutsumise v&otilde;i astumise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu t&uuml;histamisel tagastab t&ouml;&ouml;taja t&ouml;&ouml;andjale kogu lepingu j&auml;rgi saadu .</s>
+</p>
+<p>
+<s>&sect; 123.</s><s>T&ouml;&ouml;lepingu t&uuml;histamine t&ouml;&ouml;andja algatusel</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja v&otilde;ib t&uuml;histada t&ouml;&ouml;lepingu , kui :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;taja ei asu lepitud ajaks t&ouml;&ouml;le ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;andja ( paragrahvi 3 punkt 3 ) kutsutakse v&otilde;i astub kaitsej&otilde;udude tegevteenistusse v&otilde;i t&ouml;&ouml;teenistusse ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;andja ( paragrahvi 3 punkt 3 ) on v&otilde;etud vahi alla ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;andja ( paragrahvi 3 punkt 3 ) suhtes on j&otilde;ustunud s&uuml;&uuml;dim&otilde;istev kohtuotsus , millega talle m&otilde;isteti kriminaalkaristus , mis teeb v&otilde;imatuks t&ouml;&ouml;andjana tegutsemise .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingut ei t&uuml;histata k&auml;esoleva paragrahvi 1. l&otilde;ike alusel , kui pooled s&otilde;lmivad t&ouml;&ouml;le asumise kohta uue kokkuleppe .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;lepingu t&uuml;histamisel k&auml;esoleva paragrahvi 1. l&otilde;ike punkti 1 alusel tagastab t&ouml;&ouml;taja t&ouml;&ouml;andjale kogu lepingu j&auml;rgi saadu .</s><s>Peale selle maksab t&ouml;&ouml;taja , kes j&auml;ttis t&ouml;&ouml;andjale m&otilde;juva p&otilde;hjuseta teatamata , et ta ei asu lepitud ajaks t&ouml;&ouml;le , t&ouml;&ouml;andjale h&uuml;vitusena oma kahe n&auml;dala kokkulepitud palga .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;lepingu t&uuml;histamisel k&auml;esoleva paragrahvi 1. l&otilde;ike punkti 2 alusel otsustatakse t&ouml;&ouml;andjalt lepingu j&auml;rgi saadu tagastamine poolte kokkuleppel .</s><s>T&ouml;&ouml;tajale h&uuml;vituse maksmist reguleerib eriseadus .</s>
+</p>
+<p>
+<s>( 5 ) T&ouml;&ouml;lepingu t&uuml;histamisel k&auml;esoleva paragrahvi 1. l&otilde;ike punktides 3 ja 4 etten&auml;htud alustel maksab t&ouml;&ouml;andja t&ouml;&ouml;tajale h&uuml;vitusena tema &uuml;he kuu kokkulepitud palga .</s>
+</p>
+<p>
+<s>&sect; 124.</s><s>T&ouml;&ouml;lepingu t&uuml;histamise vormistamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu t&uuml;histamise kohta teeb t&ouml;&ouml;andja lepingusse kande , milles n&auml;idatakse t&ouml;&ouml;lepingu t&uuml;histamise aluse formuleering viitega seaduse paragrahvile , l&otilde;ikele ja punktile , t&ouml;&ouml;lepingu t&uuml;histamise p&auml;ev , t&ouml;&ouml;tajale v&otilde;i t&ouml;&ouml;andjale h&uuml;vituse maksmine ja lepingu j&auml;rgi saadu tagastamine .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>&sect; 125.</s><s>T&ouml;&ouml;lepingu kehtetuks tunnistamise alused</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;vaidlusorgan tunnistab kehtetuks t&ouml;&ouml;lepingu :</s>
+</p>
+<p>
+<s>1 ) mille m&otilde;lemad pooled olid alaealised v&otilde;i vaimuhaiguse v&otilde;i n&otilde;rgam&otilde;istuslikkuse tagaj&auml;rjel teov&otilde;imetuks tunnistatud isikud - &uuml;ksk&otilde;ik kumma poole eestkostja ( hooldaja ) hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>2 ) mille t&ouml;&ouml;andjana s&otilde;lmis vaimuhaiguse v&otilde;i n&otilde;rgam&otilde;istuslikkuse tagaj&auml;rjel teov&otilde;imetuks tunnistatud isik - niisuguse isiku eestkostja hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>3 ) mille t&ouml;&ouml;andjana s&otilde;lmis alaealine - niisuguse alaealise &uuml;he vanema v&otilde;i eestkostja ( hooldaja ) hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>4 ) mille t&ouml;&ouml;tajana s&otilde;lmis 13-18-aastane alaealine ilma &uuml;he vanema , eestkostja , hooldaja v&otilde;i t&ouml;&ouml;inspektori n&otilde;usolekuta v&otilde;i alla 13-aastane alaealine - niisuguse alaealise &uuml;he vanema , eestkostja , hooldaja v&otilde;i t&ouml;&ouml;inspektori hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>5 ) mille t&ouml;&ouml;tajana s&otilde;lmis vaimuhaige v&otilde;i n&otilde;rgam&otilde;istuslikkuse tagaj&auml;rjel teov&otilde;imetuks tunnistatud isik - niisuguse isiku eestkostja v&otilde;i t&ouml;&ouml;inspektori hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>6 ) mille t&ouml;&ouml;tajana s&otilde;lmis 15-18-aastane alaealine - niisuguse alaealise &uuml;he vanema , hooldaja v&otilde;i t&ouml;&ouml;inspektori hagi p&otilde;hjal , kui t&ouml;&ouml;le asumine ohustaks alaealise tervist , k&otilde;lblust v&otilde;i hariduse omandamist ;</s>
+</p>
+<p>
+<s>7 ) mille s&otilde;lmis isik , kes oli lepingu s&otilde;lmimise ajal seisundis , kus ta ei v&otilde;inud m&otilde;ista oma tegude t&auml;hendust v&otilde;i neid juhtida - niisuguse isiku hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>8 ) mis s&otilde;lmiti pettuse , v&auml;givalla , &auml;hvarduse v&otilde;i t&ouml;&ouml;andja esindaja kuritahtliku kokkuleppe m&otilde;jul t&ouml;&ouml;tajaga - kannatanu hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>9 ) mis s&otilde;lmiti olulise t&auml;htsusega eksimuse m&otilde;jul - eksimuse m&otilde;jul tegutsenud poole hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>10 ) mille t&ouml;&ouml;andjana s&otilde;lmis alkohoolsete jookide v&otilde;i narkootiliste v&otilde;i toksiliste ainete kuritarvitamise tagaj&auml;rjel piiratult teov&otilde;imeliseks tunnistatud isik - niisuguse isiku hooldaja hagi p&otilde;hjal ;</s>
+</p>
+<p>
+<s>11 ) mis s&otilde;lmiti , rikkudes t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;andja jaoks kehtestatud k&otilde;rgendatud vanusem&auml;&auml;ra ( paragrahvi 2 ja paragrahvi 3 punkt 3 ) - &uuml;ksk&otilde;ik kumma poole hagi p&otilde;hjal .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;leping , mille t&ouml;&ouml;andjana s&otilde;lmis juriidilise isiku struktuuri&uuml;ksus , kellele ei ole antud t&ouml;&ouml;andja &otilde;igusi , v&otilde;i t&ouml;&ouml;andja esindaja , kellel puudub t&ouml;&ouml;lepingu s&otilde;lmimise &otilde;igus , j&auml;&auml;b kehtima , kui t&ouml;&ouml;andja on n&otilde;us t&ouml;&ouml;suhte tekkimise v&otilde;i j&auml;tkamisega .</s><s>Kui t&ouml;&ouml;andja ei ole n&otilde;us t&ouml;&ouml;suhte tekkimise v&otilde;i j&auml;tkamisega , tunnistab ta t&ouml;&ouml;lepingu kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 126.</s><s>T&ouml;&ouml;lepingu peatumine hagi l&auml;bivaatamise ajaks</s>
+</p>
+<p>
+<s>T&ouml;&ouml;leping peatub ( paragrahvi 54 ) paragrahvi 125 1. l&otilde;ikes mainitud hagi esitamise p&auml;evast kuni kohtuotsuse j&otilde;ustumise p&auml;evani .</s>
+</p>
+<p>
+<s>&sect; 127.</s><s>T&ouml;&ouml;lepingu kehtetuks tunnistamise hetk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;leping tunnistatakse kehtetuks s&otilde;lmimise hetkest .</s>
+</p>
+<p>
+<s>&sect; 128.</s><s>T&ouml;&ouml;lepingu kehtetust tingivate asjaolude &auml;ralangemine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetust tingivate asjaolude ( paragrahvi 125 1. l&otilde;ike punktid 1-6 ning 9 ja 11 ) &auml;ralangemisel , samuti paragrahvis 125 mainitud hagi rahuldamata j&auml;tmisel kehtib leping s&otilde;lmimise hetkest .</s>
+</p>
+<p>
+<s>&sect; 129.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui pooled olid alaealised v&otilde;i teov&otilde;imetuks tunnistatud isikud</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et lepingu m&otilde;lemad pooled olid alaealised v&otilde;i vaimuhaiguse v&otilde;i n&otilde;rgam&otilde;istuslikkuse tagaj&auml;rjel teov&otilde;imetuks tunnistatud isikud ( paragrahvi 125 1. l&otilde;ike punkt 1 ) , tagastab t&ouml;&ouml;taja t&ouml;&ouml;andjale kogu lepingu j&auml;rgi saadu , v&auml;lja arvatud tasu t&ouml;&ouml;andja eestkostja poolt vajalikuks peetud t&ouml;&ouml; eest , mis ei v&otilde;i olla v&auml;iksem vabariigi valitsuse poolt vastava t&ouml;&ouml; tegemiseks kehtestatud palga alamm&auml;&auml;rast .</s><s>Poolte poolt &uuml;ksteisele tekitatud kahju h&uuml;vitavad t&ouml;&ouml;&otilde;iguse normide j&auml;rgi nende eestkostjad , kui nad ei t&otilde;enda , et t&ouml;&ouml;leping s&otilde;lmiti mitte nende s&uuml;&uuml;l .</s>
+</p>
+<p>
+<s>&sect; 130.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui t&ouml;&ouml;andja oli tunnistatud teov&otilde;imetuks</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et t&ouml;&ouml;andja oli lepingu s&otilde;lmimisel vaimuhaiguse v&otilde;i n&otilde;rgam&otilde;istuslikkuse tagaj&auml;rjel teov&otilde;imetuks tunnistatud isik ( paragrahvi 125 1. l&otilde;ike punkt 2 ) , tagastab t&ouml;&ouml;taja t&ouml;&ouml;andjale kogu lepingu j&auml;rgi saadu , v&auml;lja arvatud tasu t&ouml;&ouml;andja eestkostja poolt vajalikuks peetud t&ouml;&ouml; eest , mis ei v&otilde;i olla v&auml;iksem vabariigi valitsuse poolt vastava t&ouml;&ouml; tegemiseks kehtestatud palga alamm&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja , kes oli teadlik t&ouml;&ouml;andja teov&otilde;imetusest , h&uuml;vitab t&ouml;&ouml;andjale tekitatud kahju tsiviil&otilde;iguse normide j&auml;rgi .</s><s>T&ouml;&ouml;andja poolt niisugusele t&ouml;&ouml;tajale tekitatud kahju ei h&uuml;vitata .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;taja , kes ei olnud teadlik t&ouml;&ouml;andja teov&otilde;imetusest , h&uuml;vitab t&ouml;&ouml;andjale tekitatud kahju t&ouml;&ouml;&otilde;iguse normide j&auml;rgi .</s><s>T&ouml;&ouml;andja poolt niisugusele t&ouml;&ouml;tajale tekitatud kahju h&uuml;vitab t&ouml;&ouml;&otilde;iguse normide j&auml;rgi t&ouml;&ouml;andja eestkostja , kui ta ei t&otilde;enda , et t&ouml;&ouml;leping s&otilde;lmiti mitte tema s&uuml;&uuml;l .</s>
+</p>
+<p>
+<s>&sect; 131.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui t&ouml;&ouml;andja oli alaealine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et t&ouml;&ouml;andja oli lepingu s&otilde;lmimisel alaealine ( paragrahvi 125 1. l&otilde;ike punkt 3 ) , kohaldatakse paragrahvi 130 1. ja 2. l&otilde;iget .</s>
+</p>
+<p>
+<s>&sect; 132.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui t&ouml;&ouml;taja oli alaealine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et t&ouml;&ouml;taja oli lepingu s&otilde;lmimisel 13-18-aastane alaealine , kes s&otilde;lmis lepingu ilma &uuml;he vanema , eestkostja , hooldaja v&otilde;i t&ouml;&ouml;inspektori n&otilde;usolekuta , v&otilde;i alla 13-aastane alaealine ( paragrahvi 125 1. l&otilde;ike punkt 4 ) , on t&ouml;&ouml;tajal k&otilde;ik t&ouml;&ouml;lepingust tulenevad &otilde;igused .</s><s>Kehtetuks tunnistatud leping alaealisele t&ouml;&ouml;tajale kohustusi ei tekita .</s>
+</p>
+<p>
+<s>&sect; 133.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui t&ouml;&ouml;taja oli teov&otilde;imetuks tunnistatud isik</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et t&ouml;&ouml;tajana s&otilde;lmis t&ouml;&ouml;lepingu vaimuhaiguse v&otilde;i n&otilde;rgam&otilde;istuslikkuse tagaj&auml;rjel teov&otilde;imetuks tunnistatud isik ( paragrahvi 125 1. l&otilde;ike punkt 5 ) , on t&ouml;&ouml;tajal k&otilde;ik t&ouml;&ouml;lepingust tulenevad &otilde;igused .</s><s>Teov&otilde;imetuks tunnistatud t&ouml;&ouml;taja poolt t&ouml;&ouml;andjale tekitatud kahju h&uuml;vitab t&ouml;&ouml;&otilde;iguse normide j&auml;rgi niisuguse t&ouml;&ouml;taja eestkostja , kui ta ei t&otilde;enda , et t&ouml;&ouml;leping s&otilde;lmiti mitte tema s&uuml;&uuml;l .</s>
+</p>
+<p>
+<s>&sect; 134.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui t&ouml;&ouml;le asumine ohustaks alaealise tervist , k&otilde;lblust v&otilde;i hariduse omandamist</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et t&ouml;&ouml;le asumine ohustaks 15-18-aastase alaealise tervist , k&otilde;lblust v&otilde;i hariduse omandamist ( paragrahvi 125 1. l&otilde;ike punkt 6 ) , tagastab alaealine t&ouml;&ouml;andjale kogu lepingu j&auml;rgi saadu .</s>
+</p>
+<p>
+<s>&sect; 135.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui lepingupool ei olnud v&otilde;imeline m&otilde;istma oma tegude t&auml;hendust</s>
+</p>
+<p>
+<s>( 1 ) Kui t&ouml;&ouml;leping tunnistati kehtetuks seet&otilde;ttu , et t&ouml;&ouml;taja oli lepingu s&otilde;lmimisel seisundis , kus ta ei v&otilde;inud m&otilde;ista oma tegude t&auml;hendust v&otilde;i neid juhtida ( paragrahvi 125 1. l&otilde;ike punkt 7 ) , on niisugusel t&ouml;&ouml;tajal k&otilde;ik t&ouml;&ouml;lepingust tulenevad &otilde;igused .</s><s>Peale selle maksab t&ouml;&ouml;andja , kes oli teadlik t&ouml;&ouml;taja niisugusest seisundist , t&ouml;&ouml;tajale h&uuml;vitusena tema kolme kuu keskmise palga , kui t&ouml;&ouml;taja on t&ouml;&ouml;le asunud , ja tema kolme kuu kokkulepitud palga , kui t&ouml;&ouml;taja ei ole veel t&ouml;&ouml;le asunud .</s>
+</p>
+<p>
+<s>( 2 ) Kui t&ouml;&ouml;leping tunnistati kehtetuks seet&otilde;ttu , et t&ouml;&ouml;andja oli lepingu s&otilde;lmimisel seisundis , kus ta ei v&otilde;inud m&otilde;ista oma tegude t&auml;hendust v&otilde;i neid juhtida ( paragrahvi 125 1. l&otilde;ike punkt 7 ) , on t&ouml;&ouml;tajal , kelle t&ouml;&ouml;andja oli niisuguses seisundis , &otilde;igus tasule t&ouml;&ouml;andja poolt vajalikuks peetud t&ouml;&ouml; eest , mis ei v&otilde;i olla v&auml;iksem vabariigi valitsuse poolt vastava t&ouml;&ouml; tegemiseks kehtestatud palga alamm&auml;&auml;rast .</s><s>T&ouml;&ouml;taja suhtes , kes oli teadlik t&ouml;&ouml;andja niisugusest seisundist , kohaldatakse paragrahvi 130 2. l&otilde;iget .</s><s>T&ouml;&ouml;taja , kes ei olnud teadlik t&ouml;&ouml;andja niisugusest seisundist , h&uuml;vitab t&ouml;&ouml;andjale tekitatud kahju t&ouml;&ouml;&otilde;iguse normide j&auml;rgi .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;andja , kes tekitas kahju seisundis , kus ta ei v&otilde;inud m&otilde;ista oma tegude t&auml;hendust v&otilde;i neid juhtida , ei h&uuml;vita tema poolt tekitatud kahju , v&auml;lja arvatud , kui ta ise viis enda niisugusesse seisundisse alkoholi v&otilde;i narkootiliste v&otilde;i toksiliste ainete tarvitamisega v&otilde;i muul viisil .</s>
+</p>
+<p>
+<s>&sect; 136.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui leping s&otilde;lmiti pettuse , v&auml;givalla , &auml;hvarduse v&otilde;i t&ouml;&ouml;andja esindaja kuritahtliku kokkuleppe m&otilde;jul t&ouml;&ouml;tajaga</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et leping s&otilde;lmiti pettuse , v&auml;givalla , &auml;hvarduse v&otilde;i t&ouml;&ouml;andja esindaja kuritahtliku kokkuleppe m&otilde;jul t&ouml;&ouml;tajaga ( paragrahvi 125 1. l&otilde;ike punkt 8 ) :</s>
+</p>
+<p>
+<s>1 ) kohaldatakse t&ouml;&ouml;taja suhtes , kes oli kannatanuks , paragrahvi 135 1. l&otilde;ike punkti 1.</s><s>Niisugune t&ouml;&ouml;taja ei h&uuml;vita t&ouml;&ouml;andjale tekitatud kahju ;</s>
+</p>
+<p>
+<s>2 ) kohaldatakse t&ouml;&ouml;andja suhtes , kes oli kannatanuks , paragrahvi 130 1. l&otilde;ike punkti 2.</s>
+</p>
+<p>
+<s>&sect; 137.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui leping s&otilde;lmiti eksimuse m&otilde;jul</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et leping s&otilde;lmiti olulise t&auml;htsusega eksimuse m&otilde;jul ( paragrahvi 125 1. l&otilde;ike punkt 9 ) , kohaldatakse paragrahvi 136 punkti 1 , kui eksimus tekkis t&ouml;&ouml;andja s&uuml;&uuml;l , ja paragrahvi 130 1. ja 2. l&otilde;iku , kui eksimus tekkis t&ouml;&ouml;taja s&uuml;&uuml;l .</s><s>Kui kumbki pool ei olnud eksimuses s&uuml;&uuml;di , on pooltel lepingu kehtetuks tunnistamisel k&otilde;ik t&ouml;&ouml;lepingust tulenevad &otilde;igused .</s>
+</p>
+<p>
+<s>&sect; 138.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui t&ouml;&ouml;andja oli piiratult teov&otilde;imeline</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et t&ouml;&ouml;andja s&otilde;lmis lepingu alkohoolsete jookide v&otilde;i narkootiliste v&otilde;i toksiliste ainete kuritarvitamise tagaj&auml;rjel piiratult teov&otilde;imeliseks tunnistatud isikuna ( paragrahvi 125 1. l&otilde;ike punkt10 ) , kohaldatakse paragrahvi 130 1. ja 2. l&otilde;iget , kui t&ouml;&ouml;taja oli t&ouml;&ouml;andja teov&otilde;ime piiramisest teadlik .</s>
+</p>
+<p>
+<s>&sect; 139.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui lepingu s&otilde;lmimisel rikuti k&otilde;rgendatud vanusem&auml;&auml;ra</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et lepingu s&otilde;lmimisel rikuti t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;andja jaoks kehtestatud k&otilde;rgendatud vanusem&auml;&auml;ra ( paragrahvi 125 1. l&otilde;ike punkt 11 ) , kohaldatakse paragrahvi 136 punkti 1.</s>
+</p>
+<p>
+<s>&sect; 140.</s><s>T&ouml;&ouml;lepingu kehtetuse tagaj&auml;rjed , kui lepingu s&otilde;lmis t&ouml;&ouml;andja &otilde;igusteta isik</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamisel seet&otilde;ttu , et lepingu s&otilde;lmis juriidilise isiku struktuuri&uuml;ksus , kellele ei ole antud t&ouml;&ouml;andja &otilde;igusi , v&otilde;i t&ouml;&ouml;andja esindaja , kellel puudub t&ouml;&ouml;lepingu s&otilde;lmimise &otilde;igus ( paragrahvi 125 2. l&otilde;ige ) , kohaldatakse paragrahvi 136 punkti 1.</s>
+</p>
+<p>
+<s>&sect; 141.</s><s>T&ouml;&ouml;lepingu kehtetuks tunnistamise vormistamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu kehtetuks tunnistamise kohta teeb t&ouml;&ouml;andja lepingusse kande , milles n&auml;idatakse t&ouml;&ouml;lepingu kehtetuks tunnistamise aluse formuleering viitega seaduse paragrahvile , l&otilde;ikele ja punktile , t&ouml;&ouml;lepingu kehtetuks tunnistamise p&auml;ev , t&ouml;&ouml;tajale h&uuml;vituse maksmine ja lepingu j&auml;rgi saadu tagastamine .</s><s>Kui t&ouml;&ouml;leping tunnistati kehtetuks p&auml;rast t&ouml;&ouml;le asumist , vormistatakse t&ouml;&ouml;lepingu kehtetuks tunnistamine korras , mis on ette n&auml;htud t&ouml;&ouml;lepingu l&otilde;petamise vormistamiseks .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vaidluste lahendamine</s>
+</p>
+<p>
+<s>&sect; 142.</s><s>Vaidluste alluvus</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse kohaldamisel t&ouml;&ouml;taja ja t&ouml;&ouml;andja vahel tekkinud vaidlused alluvad kohtule .</s>
+</p>
+<p>
+<s>&sect; 143.</s><s>T&ouml;&ouml;vaidlusorganisse p&ouml;&ouml;rdumise t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse kohaldamisel tekkinud vaidluste lahendamiseks v&otilde;ivad pooled p&ouml;&ouml;rduda t&ouml;&ouml;vaidlusorganisse nelja kuu jooksul , arvates p&auml;evast , mis j&auml;rgnes p&auml;evale , mil nad said teada v&otilde;i oleksid pidanud saama teada oma &otilde;iguste rikkumisest .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;lepingu l&otilde;petamise &otilde;igsuse vaidlustamiseks v&otilde;ivad pooled p&ouml;&ouml;rduda t&ouml;&ouml;vaidlusorganisse &uuml;he kuu jooksul , arvates p&auml;evast , mis j&auml;rgnes p&auml;evale , mil nad said teada v&otilde;i oleksid pidanud saama teada oma &otilde;iguste rikkumisest .</s>
+</p>
+<p>
+<s>( 20.12.95 j&otilde;ust.01.09.96 - RT I 1996 , 3 , 57 )</s>
+</p>
+<p>
+<s>&sect; 144.</s><s>T&ouml;&ouml;taja s&uuml;&uuml;tegude hindamine kohtus</s>
+</p>
+<p>
+<s>( 1 ) Vaidluse korral t&ouml;&ouml;lepingu l&otilde;petamise &uuml;le paragrahvi 86 punktides 6-8 etten&auml;htud alustel on kohtul &otilde;igus hinnata t&ouml;&ouml;taja s&uuml;&uuml;teo asjaolusid ja t&ouml;&ouml;lepingu l&otilde;petamise otstarbekust ning t&ouml;&ouml;taja t&ouml;&ouml;le ennistada .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja t&ouml;&ouml;le ennistamisel k&auml;esoleva paragrahvi 1. l&otilde;ikes mainitud asjaoludel ( s&uuml;&uuml;teo v&auml;hene t&auml;htsus jms. ) ei ole t&ouml;&ouml;tajal &otilde;igust h&uuml;vitusele .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>( 31.05.2001 j&otilde;ust.30.06.2001 - RT I 2001 , 53 , 311 )</s>
+</p>
+<p>
+<s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>( 31.05.2001 j&otilde;ust.30.06.2001 - RT I 2001 , 53 , 311 )</s>
+</p>
+<p>
+<s>&sect; 145.</s><s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku j&auml;relevalvet k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide t&auml;itmise &uuml;le teostab T&ouml;&ouml;inspektsioon .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;inspektsiooni kohaliku asutuse juhatajal ja t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektoril on &otilde;igus teha ettekirjutusi k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide rikkumise korral ning kontrollida ettekirjutuse t&auml;itmist .</s><s>T&ouml;&ouml;inspektsiooni kohaliku asutuse juhataja ja t&ouml;&ouml;inspektori ettekirjutused on t&ouml;&ouml;andjale t&auml;itmiseks kohustuslikud .</s>
+</p>
+<p>
+<s>( 31.05.2001 j&otilde;ust.30.06.2001 - RT I 2001 , 53 , 311 )</s>
+</p>
+<p>
+<s>&sect; 146.</s><s>Ettekirjutuse vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Kui t&ouml;&ouml;andja ei n&otilde;ustu oma asukoha ( elukoha ) t&ouml;&ouml;inspektori ettekirjutusega , on tal &otilde;igus esitada kas T&ouml;&ouml;inspektsiooni kohaliku asutuse juhatajale v&otilde;i halduskohtule kaebus ettekirjutuse saamise p&auml;evast arvates k&uuml;mne kalendrip&auml;eva jooksul .</s><s>Kui ettekirjutuse on teinud T&ouml;&ouml;inspektsiooni kohaliku asutuse juhataja , on t&ouml;&ouml;andjal ettekirjutusega mitten&otilde;ustumise korral &otilde;igus esitada kaebus kas T&ouml;&ouml;inspektsiooni peadirektorile v&otilde;i halduskohtule ettekirjutuse saamise p&auml;evast arvates k&uuml;mne kalendrip&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine ei vabasta kohustusest ettekirjutust t&auml;ita .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;inspektsiooni kohaliku asutuse juhatajal , T&ouml;&ouml;inspektsiooni peadirektoril v&otilde;i halduskohtul on &otilde;igus kaebuse esitaja taotlusel v&otilde;i oma algatusel peatada ettekirjutuse t&auml;itmine kuni kaebuse lahendamiseni .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;inspektsiooni kohaliku asutuse juhataja v&otilde;i T&ouml;&ouml;inspektsiooni peadirektor vaatab kaebuse l&auml;bi ning kaebuse saamise p&auml;evast arvates &uuml;he n&auml;dala jooksul otsustab , kas j&auml;tta ettekirjutus j&otilde;usse , see muuta v&otilde;i t&uuml;histada .</s><s>Otsus tehakse kaebuse esitajale teatavaks allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s><s>Kui kaebuse esitaja T&ouml;&ouml;inspektsiooni kohaliku asutuse juhataja v&otilde;i T&ouml;&ouml;inspektsiooni peadirektori otsusega ei n&otilde;ustu , v&otilde;ib ta selle vaidlustada halduskohtus .</s>
+</p>
+<p>
+<s>( 31.05.2001 j&otilde;ust.30.06.2001 - RT I 2001 , 53 , 311 )</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> Paragrahv 37 tunnistatakse kehtetuks 01.01.2002 ( RT I 2001 , 17 , 78 )</s>
+</p>
+<p>
+<s><hi rend="sup">2</hi> Paragrahv 95 tunnistatakse kehtetuks 01.01.2002 ( RT I 2001 , 17 , 78 )</s>
+</p>
+<p>
+<s><hi rend="sup">3</hi> Paragrahv 109 tunnistatakse kehtetuks 01.01.2002 ( RT I 2001 , 17 , 78 )</s>
+</p>
+<p>
+<s><hi rend="sup">4</hi> Paragrahvi 113 l&otilde;ige 1 muudetakse 01.01.2002 ( RT I 2001 , 17 , 78 ) ja s&otilde;nastatakse j&auml;rgmiselt : &ldquo; T&ouml;&ouml;leping l&otilde;petatakse t&ouml;&ouml;lev&otilde;tmise eeskirjade rikkumise t&otilde;ttu , kui leping s&otilde;lmiti &sect;-de 32 , 35 v&otilde;i 36 rikkumisega . &rdquo;</s>
+</p>
+</body>
+   </text>
+</tei.2>

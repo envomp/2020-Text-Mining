@@ -1,0 +1,3259 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Pankrotiseadus ( terviktekst okt 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   19336</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Pankrotiseadus ( terviktekst okt 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=33></tagusage>
+         <tagusage gi=p occurs=1051></tagusage>
+         <tagusage gi=s occurs=1360></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Pankrotiseadus</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 10. juunil 1992. a.</s>
+</p>
+<p>
+<s>( RT 1992 , 31 , 403 ; terviktekst RT I 1997 , 18 , 302 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1 septembril 1992. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>26.09.2001 j&otilde;ust.01.01.2003 - RT I 2001 , 82 , 488 ;</s>
+</p>
+<p>
+<s>06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 ;</s>
+</p>
+<p>
+<s>14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 ;</s>
+</p>
+<p>
+<s>27.01.2000 j&otilde;ust.02.03.2000 - RT I 2000 , 13 , 93 ;</s>
+</p>
+<p>
+<s>20.01.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 10 , 155 ;</s>
+</p>
+<p>
+<s>25.03.98 j&otilde;ust.01.05.98 - RT I 1998 , 36/37 , 552 ;</s>
+</p>
+<p>
+<s>16.12.97 j&otilde;ust.01.01.98 - RT I 1998 , 2 , 46.</s>
+</p>
+<p>
+<s>I. &Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Pankroti m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Pankrot k&auml;esoleva seaduse t&auml;henduses on v&otilde;lgniku kohtuotsusega v&auml;ljakuulutatud maksej&otilde;uetus .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lgnik on maksej&otilde;uetu , kui ta ei suuda rahuldada v&otilde;lausaldaja n&otilde;udeid ja see suutmatus ei ole v&otilde;lgniku majanduslikust olukorrast tulenevalt ajutine .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Pankrotimenetlus</s>
+</p>
+<p>
+<s>( 1 ) Pankrotimenetluse kaudu saab v&otilde;lausaldaja &otilde;iguse v&otilde;lgniku vara arvel oma n&otilde;uete rahuldamiseks k&auml;esolevas seaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 2 ) Pankrotimenetluse algatab kohus m&auml;&auml;rusega pankrotiavalduse alusel .</s><s>Pankrotimenetlus l&otilde;peb paragrahvis 92 s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Pankrotimenetlus toimub kohtu- ja kohtuv&auml;lise menetlusena .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Pankrotimenetluses kohaldatakse tsiviilkohtupidamise seadustikku ( RT I 1993 , 31/32 , 538 ; 1994 , 1 , 5 ; 1995 , 29 , 358 ; 1996 , 3 , 57 ; 42 , 811 ) , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Pankrotimenetluses tehtud kohtum&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse k&auml;esolevas seaduses etten&auml;htud juhtudel .</s><s>Erikaebuse esitamine ei peata m&auml;&auml;ruse t&auml;itmist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) Pankrotimenetluses kohaldatakse t&auml;itemenetluse seadustikku ( RT I 1993 , 49 , 693 ; 2001 , 29 , 156 ; 43 , 238 ) , kui k&auml;esolevast seadusest ei tulene teisiti .</s><s>K&auml;esolevas seaduses s&auml;testatud juhtudel t&auml;idab pankrotimenetlusest tulenevaid &uuml;lesandeid t&auml;itemenetluse seadustikus s&auml;testatud korras haldur .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Pankrotiv&otilde;lgnik</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiv&otilde;lgnik ( v&otilde;lgnik ) on f&uuml;&uuml;siline v&otilde;i juriidiline isik , kelle suhtes kohus on algatanud pankrotimenetluse .</s>
+</p>
+<p>
+<s>( 2 ) Pankrotiv&otilde;lgnikuks ei saa olla riik ega kohalik omavalitsus&uuml;ksus .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Pankroti-v&otilde;lausaldaja</s>
+</p>
+<p>
+<s>( 1 ) Pankroti-v&otilde;lausaldaja ( v&otilde;lausaldaja ) on f&uuml;&uuml;siline v&otilde;i juriidiline isik , kellel on n&otilde;ude&otilde;igus v&otilde;lgniku vastu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Kohtualluvus</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiavalduse l&auml;bivaatamine kuulub maa- v&otilde;i linnakohtu p&auml;devusse .</s>
+</p>
+<p>
+<s>( 2 ) Pankrotiavaldus esitatakse kohtule f&uuml;&uuml;silisest isikust v&otilde;lgniku elukoha v&otilde;i juriidilisest isikust v&otilde;lgniku asukoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Seaduse kehtivus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevat seadust kohaldatakse f&uuml;&uuml;silisest isikust v&otilde;lgniku suhtes , kelle elukoht on Eestis , ja juriidilisest isikust v&otilde;lgniku suhtes , kelle asukoht on Eestis .</s>
+</p>
+<p>
+<s>( 2 ) Pankrotimenetluses kohaldatakse f&uuml;&uuml;siliste ja juriidiliste isikute suhtes &uuml;hesuguseid s&auml;tteid , kui seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Krediidiasutuse ja kindlustusseltsi suhtes kohaldatakse k&auml;esolevat seadust , kui krediidiasutuste seadusest ( RT I 1995 , 4 , 36 ) v&otilde;i kindlustusseadusest ( RT 1992 , 48 , 601 ; RT I 1995 , 26/28 , 355 ; 1996 , 23 , 455 ; 40 , 773 ; 52/54 , 993 ; 1998 , 61 , 979 ; 91/93 , 1500 ; 1999 , 10 , 155 ; 27 , 389 ; 2000 , 53 , 343 ; 2001 , 24 , 133 ; 43 , 238 ; 48 , 268 ; 79 , 480 ) ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 4 ) Seaduses v&otilde;ib s&auml;testada ka teiste v&otilde;lgnike pankrotimenetluse suhtes eris&auml;tteid .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>II .</s><s>Pankroti v&auml;ljakuulutamine</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Pankrotiavalduse esitaja</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiavalduse v&otilde;ib esitada v&otilde;lgnik v&otilde;i v&otilde;lausaldaja .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lgniku surma korral v&otilde;ib pankrotiavalduse tema vara suhtes esitada ka v&otilde;lgniku p&auml;rija , testamendit&auml;itja v&otilde;i p&auml;randi hooldaja .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>V&otilde;lgniku pankrotiavaldus ja v&otilde;lanimekiri</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lgniku pankrotiavalduse aluseks on tema maksej&otilde;uetus ( paragrahv 1 lg. 2 ) .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lgnik lisab pankrotiavaldusele seletuse maksej&otilde;uetuse p&otilde;hjuse kohta ja v&otilde;lanimekirja .</s><s>V&otilde;lanimekirjas m&auml;rgitakse v&otilde;lgniku v&otilde;lad ja v&otilde;lausaldajad , samuti andmed v&otilde;lgniku vara kohta .</s><s>Seletusele ja v&otilde;lanimekirjale kirjutab v&otilde;lgnik alla .</s>
+</p>
+<p>
+<s>( 3 ) Seaduses v&otilde;ib s&auml;testada v&otilde;lgniku kohustuse esitada pankrotiavaldus .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilisest isikust v&otilde;lgniku nimel v&otilde;ivad pankrotiavalduse esitada juhatuse v&otilde;i seda asendava organi liikmed &uuml;hiselt , t&auml;is&uuml;hingu osanik , usaldus&uuml;hingu t&auml;isosanik , muu seaduses nimetatud isik v&otilde;i organ , samuti likvideerijad &uuml;hiselt .</s>
+</p>
+<p>
+<s>( 5 ) T&auml;is&uuml;hingu osanik v&otilde;i usaldus&uuml;hingu t&auml;isosanik v&otilde;ib &uuml;hingust v&otilde;lgniku nimel pankrotiavalduse esitada ka siis , kui tal ei ole &otilde;igust &uuml;hingut esindada v&otilde;i tal ei ole &otilde;igust &uuml;hingut esindada &uuml;ksinda .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>V&otilde;lausaldaja pankrotiavaldus</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lausaldaja pankrotiavalduse aluseks on v&otilde;lgniku maksej&otilde;uetus , mida kinnitavad j&auml;rgmised asjaolud :</s>
+</p>
+<p>
+<s>1 ) v&otilde;lgnik on kuriteoga p&otilde;hjustanud enda maksej&otilde;uetuse v&otilde;i</s>
+</p>
+<p>
+<s>2 ) v&otilde;lgnik h&auml;vitab , peidab v&otilde;i raiskab oma vara , teeb raskeid juhtimisvigu v&otilde;i teeb muid tegusid , mille tagaj&auml;rjel ta on muutunud maksej&otilde;uetuks v&otilde;i</s>
+</p>
+<p>
+<s>3 ) v&otilde;lgniku suhtes toimuval sundt&auml;itmisel ei ole kolme kuu jooksul vara puudumise t&otilde;ttu saadud n&otilde;uet rahuldada v&otilde;i sundt&auml;itmisel ilmneb , et v&otilde;lgnikul ei j&auml;tku vara k&otilde;igi v&otilde;lgade tasumiseks v&otilde;i</s>
+</p>
+<p>
+<s>4 ) v&otilde;lgnik ei ole tasunud v&otilde;lga 10 p&auml;eva jooksul p&auml;rast v&otilde;la tasumise t&auml;htaja m&ouml;&ouml;dumist ja v&otilde;lausaldaja on teda kirjalikult hoiatanud kavatsusest esitada pankrotiavaldus ( pankrotihoiatus ) ja v&otilde;lgnik ei ole seej&auml;rel v&otilde;lga tasunud 10 p&auml;eva jooksul v&otilde;i</s>
+</p>
+<p>
+<s>5 ) f&uuml;&uuml;silisest isikust v&otilde;lgnik v&otilde;i juriidilisest isikust v&otilde;lgniku seadusj&auml;rgne esindaja teatab v&otilde;lausaldajale , kohtule v&otilde;i avalikkusele , et ta ei suuda v&otilde;i ei kavatse v&otilde;lga tasuda v&otilde;i</s>
+</p>
+<p>
+<s>6 ) v&otilde;lgnik on lahkunud Eestist eesm&auml;rgiga hoiduda v&otilde;lgade tasumisest v&otilde;i varjab end samal eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib l&otilde;ike 1 punktides 1-3 ning 5 ja 6 s&auml;testatud alustel pankroti v&auml;lja kuulutada , s&otilde;ltumata sellest , kas n&otilde;ude t&auml;itmise t&auml;htaeg on saabunud v&otilde;i mitte .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Pankrotiavalduse esitanud v&otilde;lausaldaja peab esitama t&otilde;endid v&otilde;la suuruse , aluse ja makset&auml;htaja ning pankrotiavalduse aluseks oleva asjaolu kohta .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kui n&otilde;ude rahuldamise kohta on j&otilde;ustunud kohtuotsus v&otilde;i vahekohtu otsus , ei pea v&otilde;la kohta teisi t&otilde;endeid esitama .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Kohus v&otilde;ib m&auml;&auml;rusega kohustada v&otilde;lausaldajat tasuma ajutise halduri tasu ja kulutuste katteks kohtu deposiiti kohtu m&auml;&auml;ratud rahasumma , kui on alust eeldada , et pankrotivara selleks ei j&auml;tku .</s><s>M&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) V&otilde;lausaldaja , kes on esitanud teadvalt vale pankrotiavalduse ja sellega v&otilde;lgnikule kahju tekitanud , peab selle h&uuml;vitama .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Pankrotiavalduse esitamise kohustus p&auml;randvara suhtes</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rija on kohustatud esitama pankrotiavalduse , kui ta p&auml;randit vastu v&otilde;ttes n&otilde;udis inventuuri , mille tulemusena selgus , et p&auml;randvarast ei j&auml;tku p&auml;randaja k&otilde;igi v&otilde;lgade tasumiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kui p&auml;rija on riik v&otilde;i kohalik omavalitsus&uuml;ksus , tuleb esitada pankrotiavaldus , kui p&auml;randvarast ei j&auml;tku p&auml;randaja k&otilde;igi v&otilde;lgade tasumiseks .</s><s>Sel juhul on kohustatud pankrotiavalduse esitama testamendit&auml;itja v&otilde;i p&auml;randi hooldaja , kui aga neid ei ole m&auml;&auml;ratud , siis p&auml;rija .</s>
+</p>
+<p>
+<s>( 3 ) L&otilde;igetes 1 ja 2 nimetatud juhtudel esitatakse pankrotiavaldus pankroti v&auml;ljakuulutamiseks p&auml;randvara suhtes .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 10 <hi rend="sup">1</hi> .</s><s>Pankrotiavalduse tagastamine</s>
+</p>
+<p>
+<s>( 1 ) Kohus ei v&otilde;ta pankrotiavaldust vastu ja tagastab selle m&auml;&auml;rusega , kui :</s>
+</p>
+<p>
+<s>1 ) v&otilde;lausaldaja pankrotiavaldusest ei selgu , et see p&otilde;hineks kas v&otilde;i &uuml;helgi paragrahv 9 l&otilde;ikes 1 nimetatud alusel , v&otilde;i</s>
+</p>
+<p>
+<s>2 ) v&otilde;lausaldaja pankrotiavaldusest ei selgu , et avalduse esitajal oleks n&otilde;ue v&otilde;lgniku vastu , v&otilde;i</s>
+</p>
+<p>
+<s>3 ) v&otilde;lgniku pankrotiavaldus ei vasta paragrahvis 8 s&auml;testatule v&otilde;i</s>
+</p>
+<p>
+<s>4 ) esinevad tsiviilkohtupidamise seadustiku paragrahv 148 l&otilde;ike 1 punktides 3 , 6-8 , 10 ja 11 s&auml;testatud alused .</s>
+</p>
+<p>
+<s>( 2 ) Pankrotiavalduse vastuv&otilde;tmisest keeldumise m&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 3 ) Pankrotiavalduse tagastamine ei takista uue avalduse esitamist , kui puudused k&otilde;rvaldatakse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Pankrotimenetluse algatamine</s>
+</p>
+<p>
+<s>( 1 ) Pankrotimenetluse algatamise otsustab kohus 10 p&auml;eva jooksul pankrotiavalduse esitamisest , tehes selle kohta m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 2 ) Kohus ei algata pankrotimenetlust , kui :</s>
+</p>
+<p>
+<s>1 ) pankrotiavaldus p&otilde;hineb n&otilde;udel , mis ei ole selge , v&otilde;i</s>
+</p>
+<p>
+<s>2 ) n&otilde;ue on pandiga t&auml;ielikult tagatud v&otilde;i</s>
+</p>
+<p>
+<s>3 ) pankrotiavalduse aluseks olevate n&otilde;uete suurus ei &uuml;leta aktsiaseltsi puhul 100 000 krooni , osa- , t&auml;is- v&otilde;i usaldus&uuml;hingu puhul 10 000 krooni ja teiste juriidiliste isikute v&otilde;i f&uuml;&uuml;silise isiku puhul 5000 krooni v&otilde;i</s>
+</p>
+<p>
+<s>4 ) v&otilde;lausaldaja ei ole lisanud paragrahv 9 l&otilde;ikes 3 m&auml;rgitud t&otilde;endeid v&otilde;i</s>
+</p>
+<p>
+<s>5 ) v&otilde;lausaldaja on j&auml;tnud tasumata paragrahv 9 l&otilde;ikes 5 m&auml;rgitud rahasumma , kui kohus on n&otilde;udnud selle tasumist enne pankrotimenetluse algatamist , v&otilde;i</s>
+</p>
+<p>
+<s>6 ) enne pankrotimenetluse algatamist on v&otilde;lgnik tasunud v&otilde;la , millel pankrotiavaldus p&otilde;hineb , v&otilde;i</s>
+</p>
+<p>
+<s>7 ) esinevad muud seaduses s&auml;testatud alused .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;uet ei loeta selgeks , kui :</s>
+</p>
+<p>
+<s>1 ) n&otilde;ue on vaidlustatud tsiviilkohtu- v&otilde;i haldusmenetluses v&otilde;i kriminaalmenetluses v&otilde;i</s>
+</p>
+<p>
+<s>2 ) v&otilde;lgnik vaidleb n&otilde;udele p&otilde;hjendatult vastu ja kohus leiab , et n&otilde;uet tuleb t&otilde;endada hagimenetluses .</s>
+</p>
+<p>
+<s>( 4 ) Vajaduse korral v&otilde;ib kohus pankrotimenetluse algatamise otsustamiseks pidada eelistungi , kuhu kutsutakse pankrotiavalduse esitaja ja v&otilde;lgnik .</s>
+</p>
+<p>
+<s>( 5 ) Kui pankrotiavalduse esitanud v&otilde;lausaldaja ei ilmu eelistungile , keeldub kohus pankrotimenetlust algatamast .</s>
+</p>
+<p>
+<s>( 6 ) Kui v&otilde;lgnik ei ilmu eelistungile , v&otilde;ib kohus pankrotimenetluse algatamise otsustada v&otilde;lgniku osav&otilde;tuta .</s>
+</p>
+<p>
+<s>( 7 ) Pankrotiavalduse v&otilde;ib kohus v&otilde;lausaldaja taotlusel tagada enne pankrotimenetluse algatamise otsustamist , kohaldades hagi tagamise abin&otilde;usid .</s>
+</p>
+<p>
+<s>( 8 ) Pankrotimenetluse algatamisel peatab kohus v&otilde;lgniku vara suhtes toimuva sundt&auml;itmise .</s>
+</p>
+<p>
+<s>( 9 ) Pankrotimenetluse algatamata j&auml;tmise m&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 10 ) M&auml;&auml;ruse peale , millega pankrotiavaldus tagati , v&otilde;ib esitada erikaebuse .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Pankrotiasja ettevalmistamine</s>
+</p>
+<p>
+<s>( 1 ) Algatanud pankrotimenetluse , nimetab kohus ajutise halduri ja m&auml;&auml;rab kohtuistungi aja pankrotiavalduse l&auml;bivaatamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib kohaldada v&otilde;lgniku suhtes elukohast lahkumise keeldu , v&otilde;ttes selle kohta allkirja , otsustada vara v&otilde;&otilde;randamise v&otilde;i koormamise keelu m&auml;rke tegemise kinnistusraamatusse ja teistesse vararegistritesse , samuti kohaldada muid hagi tagamise abin&otilde;usid .</s><s>Kui neid abin&otilde;usid oli kohaldatud enne pankrotimenetluse algatamise otsustamist ja kohus ei otsusta teisiti , j&auml;&auml;vad need kehtima .</s><s>Pankrotiavalduse tagamise m&auml;&auml;ruse t&auml;idab ajutine haldur t&auml;itemenetluse seadustikus s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Kohus v&otilde;ib keelata v&otilde;lgnikul ajutise halduri n&otilde;usolekuta vara v&otilde;&otilde;randada .</s><s>Tehing , mille v&otilde;lgnik on teinud ajutise halduri n&otilde;usolekuta , kui kohus on selle tegemise ajutise halduri n&otilde;usolekuta keelanud , on t&uuml;hine .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilisest isikust v&otilde;lgniku korral v&otilde;ib elukohast lahkumise keeldu kohaldada n&otilde;ukogu liikme , juhatuse v&otilde;i seda asendava organi liikme , likvideerija , t&auml;is&uuml;hingu osaniku , usaldus&uuml;hingu t&auml;isosaniku , suurema h&auml;&auml;ltearvuga aktsion&auml;ri , osa&uuml;hingu suurema h&auml;&auml;ltearvuga osaniku , prokuristi ja raamatupidamise eest vastutava isiku suhtes .</s><s>Juhatuse v&otilde;i seda asendava organi liikme , likvideerija , prokuristi ja raamatupidamise eest vastutava isiku suhtes v&otilde;ib kohaldada keeldu ka siis , kui nad on vabastatud oma kohustustest &uuml;he aasta jooksul enne pankrotimenetluse algatamist .</s>
+</p>
+<p>
+<s>( 5 ) Kohus kohaldab elukohast lahkumise keeldu selle l&otilde;ikes 4 nimetatud isiku suhtes , kelle kohalolek on pankrotimenetluses vajalik .</s>
+</p>
+<p>
+<s>( 6 ) Kohus v&otilde;ib avaldada ajalehes teate pankrotiavalduse l&auml;bivaatamise aja ja koha kohta .</s>
+</p>
+<p>
+<s>( 7 ) M&auml;&auml;ruse peale , millega pankrotiavaldus tagati , v&otilde;ib esitada erikaebuse .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">1</hi> .</s><s>Ajutine pankrotihaldur</s>
+</p>
+<p>
+<s>( 1 ) Ajutise halduri nimetab kohus , arvestades paragrahv 29 l&otilde;igetes 1-4 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 2 ) Ajutine haldur :</s>
+</p>
+<p>
+<s>1 ) selgitab v&auml;lja v&otilde;lgniku vara , sealhulgas v&otilde;lad , ja annab hinnangu v&otilde;lgniku varalisele seisundile ;</s>
+</p>
+<p>
+<s>2 ) tagab v&otilde;lgniku vara s&auml;ilimise ;</s>
+</p>
+<p>
+<s>3 ) annab juhul , kui kohus on keelanud v&otilde;lgnikul vara v&otilde;&otilde;randada ajutise halduri n&otilde;usolekuta , v&otilde;lgnikule n&otilde;usoleku vara v&otilde;&otilde;randamiseks v&otilde;i keeldub sellest ;</s>
+</p>
+<p>
+<s>4 ) t&auml;idab muid kohtu poolt pankrotimenetluses antud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>( 3 ) Ajutine haldur esitab l&otilde;ikes 2 nimetatud &uuml;lesannete t&auml;itmise kohta kohtule kirjaliku aruande ja arvamuse v&otilde;lgniku maksej&otilde;uetuse tekkimise p&otilde;hjuste kohta .</s><s>Arvamuses peab ajutine haldur m&auml;rkima , kas maksej&otilde;uetuse p&otilde;hjuseks on kuriteo tunnustega tegu , raske juhtimisviga v&otilde;i muu asjaolu .</s>
+</p>
+<p>
+<s>( 4 ) L&otilde;ikes 2 nimetatud &uuml;lesannete t&auml;itmiseks on ajutisel halduril &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) saada v&otilde;lgnikult vajalikku teavet ja dokumente , samuti viibida v&otilde;lgniku valduses oleval maat&uuml;kil ja ametiruumides ;</s>
+</p>
+<p>
+<s>2 ) saada riigi- ja kohaliku omavalitsuse asutuselt ning krediidiasutuselt kohtum&auml;&auml;ruse alusel teavet ja dokumente , mis on vajalikud v&otilde;lgniku varalise seisundi v&auml;ljaselgitamiseks ;</s>
+</p>
+<p>
+<s>3 ) saada teistelt isikutelt punktis 2 nimetatud teavet ja dokumente .</s>
+</p>
+<p>
+<s>( 5 ) Ajutisel halduril on &otilde;igus saada oma &uuml;lesannete t&auml;itmise eest tasu , mille suuruse m&auml;&auml;rab kohus , samuti h&uuml;vitist &uuml;lesannete t&auml;itmiseks tehtud vajalike kulutuste katteks .</s><s>Tasu suuruse m&auml;&auml;ramisel arvestab kohus t&ouml;&ouml; mahtu , keerukust ja ajutise halduri kutseoskust .</s><s>&Otilde;igus saada tasu ajutise haldurina tehtud t&ouml;&ouml; eest ja h&uuml;vitist kulutuste katteks on ka isikul , kelle nimetamise ajutiseks halduriks k&otilde;rgemalseisev kohus on t&uuml;histanud .</s>
+</p>
+<p>
+<s>( 6 ) Ajutise halduri tasu ja vajalikud kulutused makstakse pankrotivarast .</s><s>Kui pankrotivarast ei j&auml;tku ajutise halduri tasu ja kulutuste katteks v&otilde;i kui pankrotimenetlus l&otilde;peb paragrahv 15 l&otilde;ike 1 punkti 2 alusel , makstakse ajutise halduri tasu paragrahv 9 l&otilde;ikes 5 nimetatud rahast .</s><s>V&otilde;lausaldaja poolt kohtu deposiiti tasutud rahast j&auml;relej&auml;&auml;nud raha tagastatakse v&otilde;lausaldajale .</s>
+</p>
+<p>
+<s>( 7 ) Ajutise halduri nimetamise kohta tehtud kohtum&auml;&auml;ruse peale v&otilde;ivad v&otilde;lgnik ja pankrotiavalduse esitanud v&otilde;lausaldaja esitada erikaebuse , kui halduri nimetamisel on rikutud paragrahv 29 l&otilde;ikes 1 , 3 v&otilde;i 4 s&auml;testatut .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 8 ) Ajutise halduri tasu ja kulutuste h&uuml;vitamise kohta tehtud kohtum&auml;&auml;ruse peale v&otilde;ivad v&otilde;lgnik , pankrotiavalduse esitanud v&otilde;lausaldaja ja ajutine haldur esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">2</hi> .</s><s>Ajutise halduri vastutus</s>
+</p>
+<p>
+<s>( 1 ) Ajutine haldur , kes oma kohustuste t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmisega on s&uuml;&uuml;liselt v&otilde;lgnikule v&otilde;i v&otilde;lausaldajale kahju tekitanud , peab selle h&uuml;vitama .</s>
+</p>
+<p>
+<s>( 2 ) Aegumist&auml;htaeg ajutise halduri vastu esitatud n&otilde;udes on kolm aastat , arvates p&auml;evast , mil ajutise halduri tegevus l&otilde;peb .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Pankroti kohtumenetluse osalised ja kohtusse kutsumine</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiavalduse l&auml;bivaatamisel kohtus on protsessiosalisteks pankrotiavalduse esitanud v&otilde;lausaldaja ja v&otilde;lgnik .</s><s>Protsessiosalistel on tsiviilkohtupidamise seadustikus s&auml;testatud &otilde;igused ja kohustused , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Kohtuistungile , kus vaadatakse l&auml;bi pankrotiavaldus , kutsub kohus protsessiosalised ja ajutise halduri .</s><s>Pankrotiavalduse l&auml;bivaatamise ettevalmistamiseks v&otilde;ib kohus pidada eelistungi .</s>
+</p>
+<p>
+<s>( 3 ) Kui pankrotiavalduse esitanud v&otilde;lausaldaja ei ilmu l&otilde;ikes 2 nimetatud eelistungile v&otilde;i kohtuistungile , j&auml;tab kohus pankrotiavalduse l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 4 ) Kui v&otilde;lgnik ei ilmu l&otilde;ikes 2 nimetatud eelistungile v&otilde;i kohtuistungile , v&otilde;ib kohus pankrotiavalduse lahendada v&otilde;lgniku osav&otilde;tuta .</s>
+</p>
+<p>
+<s>( 5 ) Pankrotiavalduse l&auml;bi vaatamata j&auml;tmise m&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Pankrotiavalduse l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lgniku pankrotiavalduse vaatab kohus l&auml;bi 10 p&auml;eva jooksul , kaalukatel p&otilde;hjustel aga 20 p&auml;eva jooksul pankrotimenetluse algatamisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lausaldaja pankrotiavalduse vaatab kohus l&auml;bi 30 p&auml;eva jooksul , kaalukatel p&otilde;hjustel aga kahe kuu jooksul pankrotimenetluse algatamisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Pankrotimenetlust ei saa peatada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Pankrotimenetluses ei saa teha tsiviilkohtupidamise seadustikus s&auml;testatud tagaseljaotsust .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Kui kohus p&auml;rast pankrotimenetluse algatamist on kohustanud v&otilde;lausaldajat tasuma paragrahv 9 l&otilde;ikes 5 nimetatud rahasumma , kuid v&otilde;lausaldaja ei ole seda teinud , j&auml;tab kohus pankrotiavalduse l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) Vaadanud pankrotiavalduse l&auml;bi , teeb kohus otsuse , millega kuulutab pankroti v&auml;lja ( pankrotiotsus ) , v&otilde;i j&auml;tab avalduse rahuldamata v&otilde;i teeb m&auml;&auml;ruse , millega l&otilde;petab pankrotimenetluse raugemise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 7 ) L&otilde;ikes 6 nimetatud otsuse v&otilde;i m&auml;&auml;ruse peale v&otilde;ivad v&otilde;lgnik ja pankrotiavalduse esitanud v&otilde;lausaldaja edasi kaevata .</s><s>Haldur ei v&otilde;i v&otilde;lgniku nimel kaebust esitada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 8 ) Kui pankrotimenetluses ilmneb , et v&otilde;lgniku maksej&otilde;uetuse tekkimise p&otilde;hjuseks on kuriteo tunnustega tegu , teatab kohus sellest prokur&ouml;rile v&otilde;i politseile kriminaalasja algatamise otsustamiseks .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 9 ) Kui pankrotimenetluses ilmneb , et v&otilde;lgniku maksej&otilde;uetuse tekkimise p&otilde;hjuseks on raske juhtimisviga , m&auml;rgib seda kohus otsuses v&otilde;i m&auml;&auml;ruses .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 14 <hi rend="sup">1</hi> .</s><s>Pankrotiavalduse rahuldamata j&auml;tmine</s>
+</p>
+<p>
+<s>Kohus j&auml;tab pankrotiavalduse rahuldamata , kui :</s>
+</p>
+<p>
+<s>1 ) p&auml;rast pankrotimenetluse algatamist ilmnevad paragrahv 11 l&otilde;ike 2 punktis 1 v&otilde;i 2 v&otilde;i 3 nimetatud asjaolud v&otilde;i</s>
+</p>
+<p>
+<s>2 ) pankrotiavalduse on esitanud v&otilde;lausaldaja ja puudub pankroti v&auml;ljakuulutamise aluseks olev paragrahv 9 l&otilde;ikes 1 nimetatud asjaolu v&otilde;i</s>
+</p>
+<p>
+<s>3 ) v&otilde;lgnik ei ole maksej&otilde;uetu ja tema majanduslik olukord v&otilde;imaldab n&otilde;udeid rahuldada v&otilde;i</s>
+</p>
+<p>
+<s>4 ) v&otilde;lgniku maksej&otilde;uetus on ajutine v&otilde;i</s>
+</p>
+<p>
+<s>5 ) esinevad muud seadusest tulenevad asjaolud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Pankrotimenetluse raugemine pankrotti v&auml;lja kuulutamata</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) Kohus l&otilde;petab m&auml;&auml;rusega pankrotimenetluse pankrotti v&auml;lja kuulutamata raugemise t&otilde;ttu , kui :</s>
+</p>
+<p>
+<s>1 ) v&otilde;lgnik v&otilde;i kolmas isik on tasunud v&otilde;lgniku v&otilde;la v&otilde;i kumbki neist annab pandi v&otilde;i kohus loeb k&auml;enduse n&otilde;ude rahuldamiseks piisavaks v&otilde;i</s>
+</p>
+<p>
+<s>2 ) kohus leiab , et v&otilde;lgnikul ei j&auml;tku vara pankrotimenetluse kulude katteks ja puudub vara tagasiv&otilde;itmise ja tagasin&otilde;udmise v&otilde;imalus .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Pankrotimenetluse l&otilde;petamisest l&otilde;ike 1 punkti 2 alusel avaldab kohus teate kohtuteadete avaldamiseks etten&auml;htud ajalehes .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kohus ei l&otilde;peta l&otilde;ike 1 punkti 2 alusel pankrotimenetlust , kui v&otilde;lgnik , v&otilde;lausaldaja v&otilde;i kolmas isik maksab pankrotimenetluse kulude katteks kohtu m&auml;&auml;ratud summa kohtu deposiiti .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) L&otilde;ikes 1 nimetatud m&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Pankrotiotsus</s>
+</p>
+<p>
+<s>( 1 ) Kohus kuulutab v&otilde;lausaldaja avalduse alusel pankroti v&auml;lja , kui v&otilde;lgnik on p&uuml;sivalt maksej&otilde;uetu ja esineb v&auml;hemalt &uuml;ks paragrahv 9 l&otilde;ikes 1 nimetatud asjaolu ning pankrotiavalduse aluseks on selge n&otilde;ue .</s>
+</p>
+<p>
+<s>( 2 ) Kui pankrotiavalduse on esitanud v&otilde;lgnik , kuulutab kohus pankroti v&auml;lja , kui selle v&auml;lja kuulutamata j&auml;tmiseks ei ole kaalukaid p&otilde;hjusi .</s>
+</p>
+<p>
+<s>( 3 ) Pankroti v&auml;ljakuulutamisel otsustab kohus v&otilde;lausaldajate esimese &uuml;ldkoosoleku ( paragrahv 27 ) toimumise aja ja koha , pankrotihalduri ( haldur ) nimetamise , v&otilde;lgniku vara arestimise , keelum&auml;rgete tegemise , samuti muude hagi tagamise abin&otilde;ude kohaldamise .</s><s>Kui hagi tagamise abin&otilde;usid oli kohaldatud enne pankroti v&auml;ljakuulutamist ja kohus ei otsusta teisiti , j&auml;&auml;vad need kehtima .</s>
+</p>
+<p>
+<s>( 4 ) Pankrotiotsus kuulub viivitamatult t&auml;itmisele .</s><s>Pankrotiotsuse t&auml;itmist ei saa peatada ega ajatada , samuti ei saa muuta seaduses s&auml;testatud t&auml;itmise viisi ega korda .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 16 <hi rend="sup">1</hi> .</s><s>Pankrotiteade</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiotsuse teeb kohus kohe teatavaks ametlikus v&auml;ljaandes Ametlikud Teadaanded .</s><s>Vajaduse korral teadet korratakse .</s><s>Kordusteates m&auml;rgitakse esimese teate avaldamise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 ; 20.01.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 10 , 155 )</s>
+</p>
+<p>
+<s>( 2 ) Pankrotiteates m&auml;rgitakse kohtu nimi , otsuse tegemise kuup&auml;ev , andmed v&otilde;lgniku ja halduri kohta , n&otilde;uete esitamise t&auml;htaeg ( paragrahv 23 ) ning v&otilde;lausaldajate esimese &uuml;ldkoosoleku toimumise aeg ja koht .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Haldur teatab teadaolevatele v&otilde;lausaldajatele pankrotiotsusest , samuti v&otilde;lausaldajate esimese &uuml;ldkoosoleku aja ja koha .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Pankrotiotsuse t&uuml;histanud v&otilde;i pankrotiotsuse teinud k&otilde;rgemalseisev kohus teeb oma otsuse teatavaks l&otilde;ikes 1 nimetatud viisil .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>III .</s><s>Pankroti v&auml;ljakuulutamise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Pankrotiotsuse m&otilde;ju</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiotsuse alusel :</s>
+</p>
+<p>
+<s>1 ) moodustub v&otilde;lgniku varast pankrotivara ( paragrahv 41 ) ;</s>
+</p>
+<p>
+<s>2 ) l&auml;heb haldurile &uuml;le v&otilde;lgniku vara valitsemise &otilde;igus ( paragrahv 55 ) ning &otilde;igus olla v&otilde;lgniku nimel kohtumenetluses protsessiosaliseks vaidluses , mis puudutab pankrotivara v&otilde;i vara , mille v&otilde;ib arvata pankrotivarasse ;</s>
+</p>
+<p>
+<s>3 ) kaotab v&otilde;lgnik &otilde;iguse pankrotivara k&auml;sutada ;</s>
+</p>
+<p>
+<s>4 ) on v&otilde;lgniku &otilde;igused piiratud k&auml;esolevas seaduses etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>5 ) j&auml;rgnevad muud k&auml;esolevas seaduses etten&auml;htud tagaj&auml;rjed .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;rast pankroti v&auml;ljakuulutamist v&otilde;ib v&otilde;lgniku &auml;rinime kasutada &uuml;ksnes koos s&otilde;naga &ldquo; pankrotis &rdquo; .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Tehingud pankrotivaraga</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast pankroti v&auml;ljakuulutamist ei v&otilde;i :</s>
+</p>
+<p>
+<s>1 ) f&uuml;&uuml;silisest isikust v&otilde;lgnik teha tehinguid pankrotivaraga ;</s>
+</p>
+<p>
+<s>2 ) juriidilisest isikust v&otilde;lgnik teha mingeid tehinguid .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ikes 1 nimetatud tehinguid teeb k&auml;esolevas seaduses etten&auml;htud korras haldur .</s>
+</p>
+<p>
+<s>( 3 ) Isik , kelle valduses on v&otilde;lgniku vara , ei tohi selle varaga tehinguid teha alates pankrotiteate ilmumisest ajalehes .</s><s>Kui isik , kelle valduses on v&otilde;lgniku vara , sai pankroti v&auml;ljakuulutamisest teada v&otilde;i pidi teada saama enne pankrotiteate ilmumist , ei tohi ta teha selle varaga tehinguid alates p&auml;evast , mil isik pankroti v&auml;ljakuulutamisest teada sai v&otilde;i teada saama pidi .</s>
+</p>
+<p>
+<s>( 4 ) Tehing , mis on s&otilde;lmitud l&otilde;ike 1 v&otilde;i 3 s&auml;tteid rikkudes , on t&uuml;hine .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>M&auml;rked registris</s>
+</p>
+<p>
+<s>( 1 ) Kui kohus on otsustanud , et registris tuleb teha vara v&otilde;&otilde;randamise v&otilde;i koormamise keelu m&auml;rge , saadab ta pankrotiotsuse v&otilde;i m&auml;&auml;ruse &auml;rakirja registripidajale keelum&auml;rke tegemiseks kinnistusraamatusse v&otilde;i muusse vararegistrisse .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Pankrotimenetlusega seonduvad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Kui enne pankroti v&auml;ljakuulutamist alanud kohtumenetluses , on v&otilde;lgniku hagi teise isiku vastu vara suhtes , mida on v&otilde;imalik arvata pankrotivarasse , v&otilde;ib haldur astuda protsessi v&otilde;lgniku seadusliku esindajana .</s><s>Kui haldur on hagist teadlik , kuid protsessi ei astu , v&otilde;ib v&otilde;lgnik j&auml;tkata hagejana ja halduril ei ole &otilde;igust samal alusel hagi esitada .</s><s>Protsessi astunud halduri loal v&otilde;ib v&otilde;lgnik j&auml;tkata protsessis osalemist koos temaga .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui kohtumenetluses on varaline n&otilde;ue v&otilde;lgniku vastu , milles tehtud otsuse peale on v&otilde;imalik edasi kaevata apellatsiooni v&otilde;i kassatsiooni korras , v&otilde;ib p&auml;rast pankroti v&auml;ljakuulutamist selle otsuse peale edasikaebamiseks etten&auml;htud t&auml;htaja jooksul v&otilde;lgniku nimel edasi kaevata haldur .</s><s>Halduri n&otilde;usolekul v&otilde;ib v&otilde;lgnik ise kaebuse esitada ja seda toetada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui p&auml;rast pankroti v&auml;ljakuulutamist on kohtumenetluses varaline n&otilde;ue v&otilde;lgniku vastu , milles ei ole veel otsust tehtud , j&auml;tab kohus selle hagimenetluses l&auml;bi vaatamata , teatades n&otilde;udest haldurile .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kui p&auml;rast pankroti v&auml;ljakuulutamist on kohtumenetluses v&otilde;lgniku vastu n&otilde;ue vaieldava tehingu kehtetuks tunnistamiseks , vaatab kohus selle n&otilde;ude l&auml;bi .</s><s>Sama kehtib koos nimetatud n&otilde;udega esitatud ja sellest tuleneva varalise n&otilde;ude kohta .</s><s>Sel juhul osaleb kohtumenetluses v&otilde;lgniku nimel haldur .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) V&otilde;lgnik on kohustatud teatama pankroti v&auml;ljakuulutanud kohtule ja haldurile l&otilde;ikes 1 nimetatud hagidest .</s><s>V&otilde;lgnik on kohustatud teatama l&otilde;ikes 3 nimetatud kohtule pankroti v&auml;ljakuulutamisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) P&auml;rast pankroti v&auml;ljakuulutamist v&otilde;ib varalisi n&otilde;udeid v&otilde;lgniku vastu esitada &uuml;ksnes paragrahvis 69 s&auml;testatud korras , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 4 ja paragrahv 85 l&otilde;ikes 1 nimetatud n&otilde;uded .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Makset&auml;htaeg ja tingimus</s>
+</p>
+<p>
+<s>( 1 ) Pankroti v&auml;ljakuulutamisega loetakse v&otilde;lgniku k&otilde;igi v&otilde;lgade makset&auml;htp&auml;ev saabunuks , kui seadusest ei tulene teisiti .</s><s>Intresside ja viiviste arvestamine l&otilde;petatakse .</s>
+</p>
+<p>
+<s>( 2 ) Kui n&otilde;ue v&otilde;lgniku vastu p&otilde;hineb tingimuslikul tehingul , mille edasil&uuml;kkav v&otilde;i &auml;ramuutev tingimus ei ole saabunud , loetakse n&otilde;ue tekkinuks , kui on alust arvata , et tingimus saabub .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>V&otilde;lgniku kohustuste t&auml;itmine ja &otilde;iguste teostamine</s>
+</p>
+<p>
+<s>( 1 ) Halduril on &otilde;igus v&otilde;lgniku kohustusi t&auml;ita v&otilde;i loobuda v&otilde;lgniku kohustuste t&auml;itmisest &otilde;igustatud isiku suhtes , kui seadusest ei tulene teisiti .</s><s>Haldur ei v&otilde;i loobuda v&otilde;lgniku kohustuste t&auml;itmisest , mille tagamiseks on kinnistusraamatusse kantud eelm&auml;rge .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 ; 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igustatud isiku avalduse alusel m&auml;&auml;rab kohus t&auml;htaja , mille jooksul haldur peab teatama , kas ta t&auml;idab v&otilde;lgniku kohustuse .</s><s>T&auml;htaeg ei tohi &uuml;letada 20 p&auml;eva , arvates kohtule avalduse esitamisest .</s><s>Kui haldur selle t&auml;htaja jooksul kohustuse t&auml;itmisest v&otilde;i sellest loobumisest ei teata v&otilde;i kohustust ei t&auml;ida , v&otilde;ib &otilde;igustatud isik loobuda oma kohustuse t&auml;itmisest v&otilde;lgniku suhtes .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui haldur j&auml;tkab v&otilde;lgniku kohustuse t&auml;itmist v&otilde;i teatab , et kavatseb v&otilde;lgniku kohustusi t&auml;ita , peab isik , kellel on kohustus v&otilde;lgniku ees , j&auml;tkama oma kohustuse t&auml;itmist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Isik , kellel on kohustus v&otilde;lgniku ees , v&otilde;ib n&otilde;uda , et haldur tagaks v&otilde;lgniku kohustuse t&auml;itmise tema ees .</s><s>Kui haldur v&otilde;lgniku kohustuse t&auml;itmist ei taga , v&otilde;ib &otilde;igustatud isik loobuda oma kohustuse t&auml;itmisest v&otilde;lgniku ees .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) N&otilde;ue , mis isikul on tekkinud v&otilde;lgniku vastu oma kohustuse t&auml;itmisest p&auml;rast seda , kui haldur on j&auml;tkanud v&otilde;lgniku kohustuse t&auml;itmist v&otilde;i teatanud kavatsusest seda t&auml;ita , rahuldatakse paragrahv 85 l&otilde;ike 1 punktis 1 s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) Kui p&auml;rast pankroti v&auml;ljakuulutamist haldur loobus v&otilde;lgniku kohustuse t&auml;itmisest , v&otilde;ib isik , kelle ees kohustuse t&auml;itmisest loobuti , esitada n&otilde;ude paragrahvis 23 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 22 <hi rend="sup">1</hi> .</s><s>Rendi- ja &uuml;&uuml;rileping</s>
+</p>
+<p>
+<s>( 1 ) Rendileandja pankrot ei ole rendilepingu l&otilde;petamise aluseks , kui lepingus ei ole ette n&auml;htud teisiti .</s><s>Kui rendilepingu j&auml;rgi on pankrot selle l&otilde;petamise aluseks , v&otilde;ib haldur rendilepingu sel alusel l&otilde;petada .</s>
+</p>
+<p>
+<s>( 2 ) Kui v&otilde;lgnik on rentnik , on rendileandjal &otilde;igus n&otilde;uda rendilepingu l&otilde;petamist .</s><s>Kui haldur lepingu t&auml;itmise tagab , ei v&otilde;i randileandja n&otilde;uda lepingu l&otilde;petamist .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;&uuml;rileandja v&otilde;i &uuml;&uuml;rniku pankrot ei ole eluruumi &uuml;&uuml;rilepingu l&otilde;petamise aluseks .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>N&otilde;uetest ja kohustustest teatamine</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lausaldajad on kohustatud n&otilde;udeavaldusega hiljemalt kahe kuu jooksul , arvates pankrotiteate ajalehes ilmumise p&auml;evast , teatama haldurile k&otilde;igist oma n&otilde;uetest v&otilde;lgniku vastu , s&otilde;ltumata nende tekkimise alusest ja n&otilde;ude t&auml;htajast .</s><s>Kui pankrotiteade avaldatakse ajalehes mitu korda , algab nimetatud t&auml;htaja kulg esmase teate avaldamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) K&otilde;ik isikud on kohustatud teatama haldurile l&otilde;ikes 1 nimetatud t&auml;htaja jooksul &uuml;ksk&otilde;ik mis alusel nende valduses olevast v&otilde;lgnikule kuuluvast varast , sealhulgas varalisest kohustusest v&otilde;lgniku vastu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) L&otilde;ikes 1 nimetatud teatamise kohustusest on vabastatud :</s>
+</p>
+<p>
+<s>1 ) isik , kelle n&otilde;ue v&otilde;lgniku vastu on kohtumenetluses ( paragrahv 20 lg-d 3 ja 4 ) ;</s>
+</p>
+<p>
+<s>2 ) riik paragrahv 58 alusel tehtud v&auml;ljamaksete osas ;</s>
+</p>
+<p>
+<s>3 ) isik , kelle n&otilde;ue kuulub rahuldamisele paragrahv 85 l&otilde;ike 1 punktis 1 s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>IV .</s><s>Pankrotimenetluse organid</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Kohtu p&auml;devus pankrotimenetluses</s>
+</p>
+<p>
+<s>Pankrotimenetluses on kohtu p&auml;devuses :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetluse algatamine ;</s>
+</p>
+<p>
+<s>2 ) pankroti v&auml;ljakuulutamine ;</s>
+</p>
+<p>
+<s>3 ) ajutise halduri ja halduri nimetamine ja tasu m&auml;&auml;ramine ning j&auml;relevalve ajutise halduri ja halduri tegevuse &uuml;le seaduses s&auml;testatud ulatuses ;</s>
+</p>
+<p>
+<s>4 ) kompromissi kinnitamine ja t&uuml;histamine ;</s>
+</p>
+<p>
+<s>5 ) n&otilde;uete kaitsmise vaidluste lahendamine ;</s>
+</p>
+<p>
+<s>6 ) vara tagasiv&otilde;itmise hagide l&auml;bivaatamine ;</s>
+</p>
+<p>
+<s>7 ) v&otilde;lausaldajate &uuml;ldkoosoleku otsuste peale esitatud kaebuste l&auml;bivaatamine ;</s>
+</p>
+<p>
+<s>8 ) jaotusettepaneku kinnitamine ;</s>
+</p>
+<p>
+<s>9 ) pankrotimenetluse l&otilde;petamine ;</s>
+</p>
+<p>
+<s>10 ) muude seadusest tulenevate &uuml;lesannete t&auml;itmine .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 24 <hi rend="sup">1</hi> .</s><s>Kohtulahendite edastamine registriosakonnale</s>
+</p>
+<p>
+<s>Kohus edastab &auml;riregistrisse v&otilde;i mittetulundus&uuml;hingute ja sihtasutuste registrisse kantud v&otilde;lgniku asu- v&otilde;i elukohaj&auml;rgsele kohtu registriosakonnale viivitamatult &auml;rakirjad enda ja k&otilde;rgemalseisva kohtu lahenditest , mis on tehtud k&auml;esoleva seadustiku &sect; 14 l&otilde;ike 6 , &sect; 15 l&otilde;ike 1 punkti 2 , &sect; 30 l&otilde;igete 2 ja 3 , &sect; 33 , &sect; 35 l&otilde;igete 2 ja 3 , &sect; 57 l&otilde;igete 5 ja 6 , &sect; 81 l&otilde;igete 6 ja 7 , &sect; 93 , &sect; 94 l&otilde;igete 8 ja 10 , &sect; 96 l&otilde;ike 3 , &sect;-de 115 ja 117 alusel .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>V&otilde;lausaldajate &uuml;ldkoosoleku p&auml;devus</s>
+</p>
+<p>
+<s>V&otilde;lausaldajate &uuml;ldkoosoleku p&auml;devuses on :</s>
+</p>
+<p>
+<s>1 ) halduri kinnitamine ja pankrotitoimkonna valimine ;</s>
+</p>
+<p>
+<s>2 ) juriidilisest isikust v&otilde;lgniku tegevuse j&auml;tkamise v&otilde;i juriidilise isiku l&otilde;petamise otsustamine ;</s>
+</p>
+<p>
+<s>3 ) kompromissi tegemine ;</s>
+</p>
+<p>
+<s>4 ) pankrotivara m&uuml;&uuml;giga seonduva otsustamine seaduses s&auml;testatud ulatuses ;</s>
+</p>
+<p>
+<s>5 ) n&otilde;uete kaitsmine ;</s>
+</p>
+<p>
+<s>6 ) halduri tegevuse peale esitatud kaebuste lahendamine ;</s>
+</p>
+<p>
+<s>6 <hi rend="sup">1</hi> ) pankrotitoimkonna liikmete tasustamise otsustamine ;</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>7 ) muude seadusega v&otilde;lausaldajate &uuml;ldkoosoleku p&auml;devusse antud k&uuml;simuste lahendamine .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>V&otilde;lausaldajate &uuml;ldkoosoleku korraldus</s>
+</p>
+<p>
+<s>( 1 ) Haldur kutsub v&otilde;lausaldajate &uuml;ldkoosoleku kokku seaduses etten&auml;htud juhtudel v&otilde;i enda &auml;ran&auml;gemisel .</s><s>Haldur avaldab v&otilde;lausaldajate &uuml;ldkoosoleku toimumise aja ja koha kohta teate kohtuteadete avaldamiseks etten&auml;htud ajalehes .</s><s>Teadet ei ole vaja avaldada , kui k&otilde;igile v&otilde;lausaldajatele on koosoleku toimumisest teatatud muul viisil .</s><s>Teade ajalehes tuleb avaldada v&otilde;i v&otilde;lausaldajatele muul viisil edasi anda v&auml;hemalt 10 p&auml;eva enne koosoleku toimumist , kui seaduses ei ole selleks ette n&auml;htud teistsugust t&auml;htaega .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Haldur on kohustatud v&otilde;lausaldajate &uuml;ldkoosoleku kokku kutsuma pankrotitoimkonna n&otilde;udel , samuti siis , kui seda n&otilde;uavad v&otilde;lausaldajad , kelle n&otilde;uete summa moodustab v&auml;hemalt 1/5 n&otilde;uete kogusummast .</s><s>&Uuml;ldkoosolek tuleb kokku kutsuda kahe n&auml;dala jooksul n&otilde;ude esitamisest .</s><s>Kui haldur nimetatud t&auml;htaja jooksul &uuml;ldkoosolekut kokku ei kutsu , v&otilde;ivad seda teha pankrotitoimkond v&otilde;i v&otilde;lausaldajad , kes koosoleku kokkukutsumist n&otilde;uavad .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;lausaldajate &uuml;ldkoosolekut juhatab haldur ja sellel osalemise &otilde;igus on k&otilde;igil v&otilde;lausaldajatel kas isiklikult v&otilde;i esindaja kaudu , kohtunikul ja v&otilde;lgnikul ning isikutel , keda on kutsunud v&otilde;i kellel on lubanud osaleda kohus v&otilde;i haldur .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) V&otilde;lausaldajate &uuml;ldkoosolekul on iga v&otilde;lausaldaja h&auml;&auml;lte arv v&otilde;rdeline tema n&otilde;ude suurusega .</s><s>H&auml;&auml;lte arvu m&auml;&auml;rab haldur temal olevate dokumentide alusel .</s><s>V&otilde;lausaldaja peab tema h&auml;&auml;lte arvu m&auml;&auml;ramise aluseks olevad dokumendid esitama haldurile hiljemalt kolm p&auml;eva enne koosolekut .</s><s>Otsused v&otilde;etakse vastu koosolekust osav&otilde;tvate v&otilde;lausaldajate lihth&auml;&auml;lteenamusega .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Kui v&otilde;lausaldaja ei n&otilde;ustu talle halduri poolt m&auml;&auml;ratud h&auml;&auml;lte arvuga , otsustab tema h&auml;&auml;lte arvu &uuml;ldkoosolek .</s><s>H&auml;&auml;lte arvu &uuml;le otsustamisel on igal v&otilde;lausaldajal halduri m&auml;&auml;ratud arv h&auml;&auml;li , kui &uuml;ldkoosolek ei ole temale h&auml;&auml;lte arvu juba m&auml;&auml;ranud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) Kui v&otilde;lausaldaja n&otilde;ue on kaitstud , on tema h&auml;&auml;lte arv v&otilde;rdeline kaitstud n&otilde;ude suurusega .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 7 ) V&otilde;lausaldajate &uuml;ldkoosolek on otsustusv&otilde;imeline esindatud h&auml;&auml;lte arvust olenemata , kui koosoleku aeg ja koht oli v&otilde;lausaldajatele &otilde;igeaegselt teatatud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>V&otilde;lausaldajate esimene &uuml;ldkoosolek</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lausaldajate esimene &uuml;ldkoosolek toimub mitte varem kui 15 p&auml;eva ja mitte hiljem kui 30 p&auml;eva p&auml;rast pankroti v&auml;ljakuulutamist .</s><s>&Uuml;ldkoosolekust teatatakse pankrotiteatega .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lausaldajate esimesel &uuml;ldkoosolekul valivad v&otilde;lausaldajad pankrotitoimkonna , otsustavad halduri kinnitamise ja juriidilisest isikust v&otilde;lgniku tegevuse j&auml;tkamise v&otilde;i l&otilde;petamise .</s><s>V&otilde;lausaldajad v&otilde;ivad otsustada muid &uuml;ldkoosoleku p&auml;devusse kuuluvaid k&uuml;simusi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui v&otilde;lausaldajate esimesest &uuml;ldkoosolekust on teatatud etten&auml;htud korras , kuid &uuml;kski v&otilde;lausaldaja esimesele &uuml;ldkoosolekule ei ilmu , v&otilde;ib haldur m&auml;&auml;rata pankrotitoimkonna ja otsustada juriidilisest isikust v&otilde;lgniku tegevuse j&auml;tkamise v&otilde;i juriidilise isiku l&otilde;petamise .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 27 <hi rend="sup">1</hi> .</s><s>V&otilde;lausaldajate &uuml;ldkoosoleku otsuse peale kaebamine</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lgnik , v&otilde;lausaldaja v&otilde;i haldur v&otilde;ib n&otilde;uda , et kohus tunnistaks kehtetuks v&otilde;lausaldajate &uuml;ldkoosoleku otsuse , mis ei vasta seadusele v&otilde;i mille tegemisel on rikutud seadusest tulenevat korda .</s><s>Muudel juhtudel v&otilde;ib &uuml;ldkoosoleku otsuse peale edasi kaevata , kui edasikaebamine on seaduses otseselt ette n&auml;htud .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lausaldajate &uuml;ldkoosoleku otsuse peale v&otilde;ib edasi kaevata kohtusse 10 p&auml;eva jooksul otsuse tegemisest .</s>
+</p>
+<p>
+<s>( 3 ) Kui v&otilde;lausaldaja v&otilde;i haldur ei n&otilde;ustu &uuml;ldkoosoleku otsusega v&otilde;lausaldajale h&auml;&auml;lte arvu m&auml;&auml;ramise kohta , v&otilde;ib v&otilde;lausaldaja v&otilde;i haldur &uuml;ldkoosoleku otsuse peale edasi kaevata .</s><s>Kui kohus leiab , et &uuml;ldkoosoleku otsus h&auml;&auml;lte arvu m&auml;&auml;ramise kohta ei ole p&otilde;hjendatud , tunnistab kohus &uuml;ldkoosoleku otsuse selles osas kehtetuks ja m&auml;&auml;rab v&otilde;lausaldaja h&auml;&auml;lte arvu .</s><s>Kui kohtu poolt m&auml;&auml;ratud h&auml;&auml;lte arv erineb &uuml;ldkoosolekul m&auml;&auml;ratud h&auml;&auml;lte arvust m&auml;&auml;ral , mis oleks tinginud &uuml;ldkoosoleku teistsuguse otsuse , tunnistab kohus &uuml;ldkoosoleku otsuse v&otilde;lausaldaja v&otilde;i halduri n&otilde;udel kehtetuks .</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;ldkoosoleku otsuse peale , mille kinnitamine on antud kohtu p&auml;devusse , ei saa kaevata .</s><s>V&otilde;lausaldaja v&otilde;ib selle otsuse kohta esitada vastuv&auml;ited haldurile , kes peab need esitama kohtule koos &uuml;ldkoosoleku otsusega , mille ta kinnitamiseks esitab .</s>
+</p>
+<p>
+<s>( 5 ) Kohus vaatab kaebuse l&auml;bi 10 p&auml;eva jooksul selle esitamisest , tehes kaebuse kohta otsuse .</s><s>Kohtuistungist teatab kohus haldurile , kaebuse esitanud isikule ning l&otilde;ikes 6 nimetatud isikule .</s><s>Nende isikute puudumine ei takista kaebuse l&auml;bivaatamist .</s>
+</p>
+<p>
+<s>( 6 ) &Uuml;ldkoosoleku otsuse peale esitatud kaebuse l&auml;bivaatamisel kohtus osaleb &uuml;ldkoosoleku nimel pankrotitoimkonna esimees v&otilde;i , kui pankrotitoimkonda ei ole valitud , &uuml;ldkoosolekul selleks valitud isik .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Pankrotitoimkond</s>
+</p>
+<p>
+<s>( 1 ) Pankrotimenetluses kaitseb pankrotitoimkond v&otilde;lausaldajate huve , valvab halduri tegevuse &uuml;le ja t&auml;idab muid seadusest tulenevaid &uuml;lesandeid .</s><s>Pankrotitoimkond j&auml;lgib , et haldur tegutseks otstarbekalt ja koosk&otilde;las seadusega .</s><s>Halduri taotlusel otsustab pankrotitoimkond halduri p&auml;devuses olevaid k&uuml;simusi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Pankrotitoimkond v&otilde;ib p&auml;rida haldurilt aru tema kohustuste t&auml;itmise kohta ja n&otilde;uda teavet pankrotimenetluse kohta , samuti kontrollida halduri majandustegevust pankrotivara valitsemisel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Pankrotitoimkonna liikmete arvu otsustab v&otilde;lausaldajate &uuml;ldkoosolek .</s><s>Pankrotitoimkonnas peab olema v&auml;hemalt kolm liiget .</s><s>Pankrotitoimkonna liikmeks v&otilde;ib olla &uuml;ksnes f&uuml;&uuml;siline isik .</s><s>Pankrotitoimkonna liikmed valivad endi hulgast pankrotitoimkonna esimehe .</s><s>Pankrotitoimkonda ei v&otilde;i kuuluda paragrahvis 49 loetletud isikud , samuti selle pankrotimenetluse kohtunik ja haldur .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Pankrotitoimkonna v&otilde;ib j&auml;tta moodustamata , kui v&otilde;lausaldajaid on alla viie .</s><s>Pankrotitoimkonna &uuml;lesandeid t&auml;idab sellisel juhul v&otilde;lausaldajate &uuml;ldkoosolek .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Pankrotitoimkond on otsustusv&otilde;imeline , kui kohal on &uuml;le poole tema liikmetest .</s><s>Igal pankrotitoimkonna liikmel on &uuml;ks h&auml;&auml;l .</s><s>Pankrotitoimkond teeb otsuseid lihth&auml;&auml;lteenamusega , h&auml;&auml;lte v&otilde;rdsel jagunemisel on otsustav esimehe h&auml;&auml;l .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) V&otilde;lausaldajate &uuml;ldkoosolek v&otilde;ib pankrotitoimkonna liikme vabastada , kui see liige on j&auml;tnud oma kohustused t&auml;itmata v&otilde;i ise vabastamist soovib .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 7 ) Pankrotitoimkonna liikmed , kes on oma kohustuse t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmisega s&uuml;&uuml;liselt kahju tekitanud v&otilde;lgnikule v&otilde;i v&otilde;lausaldajale , vastutavad kahju eest solidaarselt .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 8 ) Pankrotitoimkonna liikmetele v&otilde;ib maksta tasu , mille suurus ja maksmise kord m&auml;&auml;ratakse v&otilde;lausaldajate &uuml;ldkoosoleku otsusega .</s><s>Pankrotitoimkonna liikmetele pankrotivara arvel tasu maksmise piirm&auml;&auml;rad kehtestab justiitsminister .</s><s>Haldur peab pankrotitoimkonna liikmetele tasu maksmise otsuse viivitamata esitama kohtule kinnitamiseks .</s><s>Pankrotitoimkonna liikmetele tasu maksmise otsuse kinnitamise otsustab kohus 15 p&auml;eva jooksul otsuse kohtule esitamisest , tehes selle kohta m&auml;&auml;ruse .</s><s>Pankrotitoimkonna liikmetele makstava tasu summa kokku ei tohi &uuml;letada kohtu poolt pankrotimenetluse l&otilde;pparuande kinnitamisel haldurile m&auml;&auml;ratavat tasu .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Haldur</s>
+</p>
+<p>
+<s>( 1 ) Halduriks v&otilde;ib olla vandeadvokaat v&otilde;i vandeadvokaadi vanemabi , samuti muu teov&otilde;imeline f&uuml;&uuml;siline isik , kellel on Vabariigi Valitsuse moodustatud pankrotihaldurite eksami- ja atesteerimiskomisjoni v&auml;ljaantud pankrotihalduri tunnistus .</s><s>Haldurit atesteeritakse iga kolme aasta j&auml;rel .</s><s>Atesteerimata isik ei v&otilde;i tegutseda haldurina .</s><s>Eksami tegemise ja atesteerimise korra kehtestab Vabariigi Valitsus .</s><s>Haldurite nimekirja peetakse justiitsministri m&auml;&auml;ratud korras .</s><s>Atesteerimisn&otilde;ue ei kehti vandeadvokaadi ja vandeadvokaadi vanemabi suhtes .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>( 2 ) Halduril peab olema kohtu ja v&otilde;lausaldajate usaldus .</s>
+</p>
+<p>
+<s>( 3 ) Haldur ei tohi olla kohtu t&ouml;&ouml;taja ning ta peab olema s&otilde;ltumatu v&otilde;lgnikust ja v&otilde;lausaldajatest .</s><s>Andes kohtule n&otilde;usoleku haldurina tegutsemiseks , kinnitab isik kirjalikult , et ta on s&otilde;ltumatu v&otilde;lgnikust ja v&otilde;lausaldajatest .</s>
+</p>
+<p>
+<s>( 4 ) Halduriks ei v&otilde;i nimetada asja menetleva kohtuniku l&auml;hikondset .</s>
+</p>
+<p>
+<s>( 5 ) Halduriks v&otilde;ib nimetada ajutise halduri v&otilde;i muu isiku .</s><s>Pankrotimenetluses v&otilde;ib olla mitu haldurit .</s><s>Kohus m&auml;&auml;rab haldurite arvu pankrotivara iseloomu ja suurust arvestades .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Halduri kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiotsusega nimetatud halduri kinnitamise otsustab v&otilde;lausaldajate esimene &uuml;ldkoosolek .</s><s>Kui v&otilde;lausaldajate &uuml;ldkoosolekust on teatatud etten&auml;htud korras , kuid &uuml;kski v&otilde;lausaldaja esimesele &uuml;ldkoosolekule ei ilmu , t&auml;idab haldur oma &uuml;lesandeid , ilma et teda hiljem oleks vaja kinnitada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui pankrotiotsusega nimetatud haldurit ei kinnitata , valivad v&otilde;lausaldajad uue halduri , kelle nimetamise otsustab kohus viie p&auml;eva jooksul &uuml;ldkoosoleku otsuse saamisest , tehes selle kohta m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui kohus &uuml;ldkoosolekul valitud haldurit ei kinnita , nimetab ta m&auml;&auml;rusega uue halduri , keda v&otilde;lausaldajate &uuml;ldkoosolekul ei ole vaja kinnitada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kohus j&auml;tab v&otilde;lausaldajate valitud halduri kinnitamata , kui ta ei vasta paragrahvis 29 s&auml;testatud n&otilde;uetele , ega nimeta halduriks isikut , kelle v&otilde;lausaldajate &uuml;ldkoosolek vastavalt l&otilde;ikele 2 oli j&auml;tnud kinnitamata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Kui kohus l&otilde;ikes 3 nimetatud juhul on halduri nimetamisel rikkunud l&otilde;ikes 4 s&auml;testatut , v&otilde;ib v&otilde;lausaldaja v&otilde;i v&otilde;lgnik esitada erikaebuse .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Halduri p&otilde;hikohustused</s>
+</p>
+<p>
+<s>( 1 ) Haldur kaitseb k&otilde;igi v&otilde;lausaldajate , samuti v&otilde;lgniku &otilde;igusi ja huve ning tagab seadusliku ja asjatu viivituseta pankrotimenetluse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Haldur :</s>
+</p>
+<p>
+<s>1 ) t&auml;idab pankrotiotsuse v&otilde;lgniku vara arestimise osas t&auml;itemenetluse seadustikus etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>2 ) selgitab v&otilde;lausaldajate n&otilde;uded , valitseb pankrotivara , korraldab selle moodustamise ja m&uuml;&uuml;gi ning pankrotivara arvel v&otilde;lausaldajate n&otilde;uete rahuldamise ;</s>
+</p>
+<p>
+<s>3 ) korraldab v&otilde;lgniku majandustegevuse j&auml;tkamise ja juriidilisest isikust v&otilde;lgniku likvideerimise ;</s>
+</p>
+<p>
+<s>4 ) annab seaduses etten&auml;htud juhtudel teavet v&otilde;lausaldajale ja v&otilde;lgnikule ;</s>
+</p>
+<p>
+<s>5 ) annab oma tegevusest aru ja esitab pankrotimenetluse kohta andmeid kohtule ja pankrotitoimkonnale ;</s>
+</p>
+<p>
+<s>5 <hi rend="sup">1</hi> ) edastab &auml;riregistrisse v&otilde;i mittetulundus&uuml;hingute ja sihtasutuste registrisse kantud v&otilde;lgniku asu- v&otilde;i elukohaj&auml;rgsele kohtu registriosakonnale viivitamatult pankrotitoimkonna liikmete nimekirja , selle muudatused ning kohtu kinnitatud l&otilde;pparuande ja -bilansi ;</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>6 ) t&auml;idab muid seadusest tulenevaid kohustusi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Halduril on paragrahv 12 <hi rend="sup">1</hi> l&otilde;ikes 4 nimetatud &otilde;igused , samuti &otilde;igus oma &uuml;lesannete t&auml;itmiseks viibida f&uuml;&uuml;silisest isikust v&otilde;lgniku eluruumis .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Halduril on &otilde;igus saada tasu oma &uuml;lesannete t&auml;itmise eest ja h&uuml;vitist &uuml;lesannete t&auml;itmiseks tehtud vajalike kulutuste katteks .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 31 <hi rend="sup">1</hi> .</s><s>Haldur v&otilde;lgniku esindajana</s>
+</p>
+<p>
+<s>Haldur on pankrotimenetluses v&otilde;lgniku seaduslik esindaja , kes teeb v&otilde;lgniku nimel pankrotivaraga seonduvaid tehinguid ja muid &otilde;igustoiminguid ning esindab v&otilde;lgnikku kohtus pankrotivaraga seotud vaidlustes .</s><s>V&otilde;lgnikul ei ole &otilde;igust pankrotivaraga seonduvaid tehinguid teha ja pankrotivaraga seotud vaidlustes kohtus esineda , kui seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Halduri esindaja v&otilde;i abiline</s>
+</p>
+<p>
+<s>( 1 ) Haldur v&otilde;ib pankrotimenetluses teha toimingu esindaja kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Halduri ettepanekul v&otilde;ib pankrotitoimkond nimetada &uuml;ksikute &uuml;lesannete t&auml;itmiseks halduri abilise .</s><s>Halduri abiliseks v&otilde;ib olla f&uuml;&uuml;siline isik , kes oma teadmistelt ja kogemustelt vastab n&otilde;uetele , mis tulenevad abilise kohustustest , ning kes on s&otilde;ltumatu v&otilde;lgnikust ja v&otilde;lausaldajatest ja kellel on v&otilde;lausaldajate usaldus .</s>
+</p>
+<p>
+<s>( 3 ) Haldur j&auml;&auml;b v&otilde;lausaldajate ja v&otilde;lgniku ees vastutavaks ka juhul , kui toimingu tegi esindaja v&otilde;i &uuml;lesande t&auml;itis halduri abiline .</s>
+</p>
+<p>
+<s>( 4 ) Esindajale ja abilisele maksab haldur tasu oma tasu arvel vastavalt nende kokkuleppele .</s><s>Pankrotitoimkond v&otilde;ib otsustada , et esindajate tasu makstakse pankrotivarast paragrahv 98 l&otilde;ike 1 punkti 4 alusel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Halduri vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Kohus vabastab halduri tema soovil .</s><s>Vabastamise soovist teatab haldur kohtule 30 p&auml;eva ette , esitades tegevusaruande .</s><s>Pankrotimenetluse huvides v&otilde;ib kohus halduri vabastada enne etteteatamist&auml;htaja m&ouml;&ouml;dumist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui haldur on j&auml;tnud oma &uuml;lesanded t&auml;itmata v&otilde;i ei t&auml;ida neid n&otilde;uetekohaselt , vabastab kohus halduri kas omal algatusel v&otilde;i pankrotitoimkonna v&otilde;i v&otilde;lgniku ettepanekul v&otilde;i v&otilde;lausaldajate &uuml;ldkoosoleku otsuse alusel .</s><s>Kohtu n&otilde;udel esitab haldur kohtu m&auml;&auml;ratud t&auml;htajaks tegevusaruande .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui kohus halduri vabastab , nimetab ta m&auml;&auml;rusega uue halduri , keda ei ole vaja &uuml;ldkoosolekul kinnitada .</s><s>Mitme halduri korral &uuml;he halduri vabastamisel otsustab kohus , kas vabastatu asemele on vaja uut haldurit nimetada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kui kohus l&otilde;ikes 3 nimetatud juhul on uue halduri m&auml;&auml;ramisel rikkunud paragrahv 29 l&otilde;ikes 1 v&otilde;i 3 v&otilde;i 4 s&auml;testatut , v&otilde;ivad v&otilde;lausaldaja ja v&otilde;lgnik esitada erikaebuse .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Halduri tegevuse peale kaebamine ja halduri vastutus</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) Halduri tegevuse peale v&otilde;ivad v&otilde;lausaldaja ja v&otilde;lgnik edasi kaevata v&otilde;lausaldajate &uuml;ldkoosolekule .</s>
+</p>
+<p>
+<s>( 2 ) Halduri tegevuse peale v&otilde;ivad v&otilde;lausaldaja ja v&otilde;lgnik kaevata pankrotitoimkonnale ja v&otilde;lausaldajate &uuml;ldkoosolekule .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Haldur , kes oma kohustuste t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmisega on s&uuml;&uuml;liselt v&otilde;lgnikule v&otilde;i v&otilde;lausaldajale kahju tekitanud , peab selle h&uuml;vitama .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Mitme halduri poolt &uuml;hiselt p&otilde;hjustatud kahju eest vastutavad haldurid solidaarselt .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Aegumist&auml;htaeg halduri vastu esitatud n&otilde;udes on kolm aastat halduri vabastamisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>V. V&otilde;lgniku &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>&Auml;rikeeld</s>
+</p>
+<p>
+<s>( 1 ) F&uuml;&uuml;silisest isikust v&otilde;lgnik ei tohi tema pankroti v&auml;ljakuulutamisest kuni pankrotimenetluse l&otilde;puni kohtu loata olla ettev&otilde;tja , juriidilise isiku juhatuse v&otilde;i seda asendava organi liige , n&otilde;ukogu liige , t&auml;isosanik , juriidilise isiku likvideerija , prokurist ega pankrotihaldur .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib juriidilisest isikust v&otilde;lgniku pankroti korral m&auml;&auml;rata , kes paragrahv 12 l&otilde;ikes 4 nimetatud isikutest ei v&otilde;i pankrotimenetluse l&otilde;puni olla ettev&otilde;tja , juriidilise isiku juhatuse v&otilde;i seda asendava organi liige , n&otilde;ukogu liige , t&auml;isosanik , juriidilise isiku likvideerija , prokurist ja pankrotihaldur .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>( 3 ) Kui pankrotimenetluses ilmnevad paragrahv 9 l&otilde;ike 1 punktis 1 v&otilde;i 2 nimetatud asjaolud , v&otilde;ib kohus pankrotimenetluse l&otilde;petamisel halduri n&otilde;udel m&auml;&auml;rata , et l&otilde;ikes 1 nimetatud &auml;rikeeld kehtib f&uuml;&uuml;silisest isikust v&otilde;lgniku v&otilde;i paragrahv 12 l&otilde;ikes 4 nimetatud isiku suhtes ka kolme aasta jooksul p&auml;rast pankrotimenetluse l&otilde;ppu .</s><s>Nimetatud n&otilde;ude v&otilde;ib haldur esitada pankrotitoimkonna otsuse alusel .</s>
+</p>
+<p>
+<s>( 4 ) M&auml;&auml;ruse peale , millega kohus on kohaldanud &auml;rikeeldu , v&otilde;ib isik , kelle suhtes keeldu on kohaldatud , esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Teabe andmise ning pankrotimenetlusest osav&otilde;tu kohustus</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lgnik peab andma kohtule , haldurile ja pankrotitoimkonnale oma vara , sealhulgas v&otilde;lgade ning &auml;ritegevuse kohta andmeid , mida nad vajavad seoses pankrotimenetlusega , samuti osutama haldurile abi tema &uuml;lesannete t&auml;itmisel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lgnik peab isiklikult viibima kohtu eelistungil ja kohtuistungil , kui kohus teda selleks kohustab .</s><s>Kui kohus v&otilde;i haldur teda selleks kohustab , peab v&otilde;lgnik isiklikult viibima v&otilde;lausaldajate &uuml;ldkoosolekul , pankrotitoimkonna koosolekul , vara &uuml;leskirjutamise juures ja osa v&otilde;tma muudest pankrotimenetluse toimingutest .</s><s>V&otilde;lgniku puudumine ei takista kohtuistungi ja koosoleku pidamist ega muu toimingu tegemist , kui toimingut ei pea tegema v&otilde;lgnik isiklikult .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>V&otilde;lgniku vanne</s>
+</p>
+<p>
+<s>( 1 ) Kohus v&otilde;ib kohustada v&otilde;lgnikku kohtus vandega kinnitama , et andmed vara , v&otilde;lgade ja &auml;ritegevuse kohta on talle teadaolevalt &otilde;iged .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohus on kohustanud v&otilde;lgnikku vannet andma , peab v&otilde;lgnik vande andma enne v&otilde;lausaldajate esimest &uuml;ldkoosolekut , kui kohus ei m&auml;&auml;ra vande andmiseks teist t&auml;htp&auml;eva .</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;lgnik annab suuliselt vande :</s>
+</p>
+<p>
+<s>&ldquo; Mina ( nimi ) kinnitan oma au ja s&uuml;dametunnistuse juures , et kohtule esitatud andmed vara , v&otilde;lgade ja &auml;ritegevuse kohta on mulle teadaolevalt &otilde;iged . &rdquo;</s><s>Vandetekstile kirjutab v&otilde;lgnik alla .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Elukohast lahkumise keeld</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lgnik ei tohi kohtu loata p&auml;rast pankroti v&auml;ljakuulutamist ning enne vande andmist s&otilde;ita v&auml;lismaale .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui on alust arvata , et v&otilde;lgnik hoiab k&otilde;rvale k&auml;esolevast seadusest tulenevate kohustuste t&auml;itmisest , v&otilde;ib kohus halduri ettepanekul v&otilde;i oma algatusel kohaldada v&otilde;lgniku suhtes elukohast lahkumise keeldu , v&otilde;ttes v&otilde;lgnikult selle kohta allkirja .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) L&otilde;ikes 2 nimetatud keeld kehtib pankrotimenetluse l&otilde;ppemiseni , kui kohus ei m&auml;&auml;ra teisiti .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kui l&otilde;ikes 2 nimetatud keeldu on rakendatud enne pankroti v&auml;ljakuulutamist ( paragrahv 12 ) , otsustab kohus pankrotiotsuse tegemisel keelu kehtimaj&auml;&auml;mise v&otilde;i t&uuml;histamise .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>V&otilde;lgniku sundtoomine ja vahistamine</s>
+</p>
+<p>
+<s>( 1 ) Kohtu korralduse t&auml;itmata j&auml;tmise korral v&otilde;i seadusega s&auml;testatud kohustuse t&auml;itmise tagamiseks v&otilde;ib kohus v&otilde;lgniku suhtes kohaldada sundtoomist v&otilde;i vahi all pidamist , kui v&otilde;lgnik takistab pankrotimenetlust sellega , et :</s>
+</p>
+<p>
+<s>1 ) ei t&auml;ida teabe andmise kohustust ( paragrahv 36 lg. 1 ) v&otilde;i</s>
+</p>
+<p>
+<s>2 ) ei t&auml;ida kohalviibimise kohustust ( paragrahv 36 lg. 2 ) v&otilde;i</s>
+</p>
+<p>
+<s>3 ) ei t&auml;ida vande andmise kohustust ( paragrahv 37 lg. 1 ) v&otilde;i</s>
+</p>
+<p>
+<s>4 ) rikub elukohast lahkumise keeldu ( paragrahv 38 lg-d 1 ja 2 ) v&otilde;i</s>
+</p>
+<p>
+<s>5 ) rikub pankrotivara k&auml;sutamise keeldu ja muid keelde ega t&auml;ida k&auml;esolevast seadusest tulenevaid kohustusi ning kahjustab sellega pankrotivara .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lgnikku v&otilde;ib vahi all pidada kuni kolm kuud .</s>
+</p>
+<p>
+<s>( 3 ) Kui v&otilde;lgnik v&otilde;eti vahi alla l&otilde;ike 1 punktis 1 v&otilde;i 2 v&otilde;i 3 nimetatud kohustuse t&auml;itmata j&auml;tmise t&otilde;ttu , tuleb ta vahi alt vabastada p&auml;rast kohustuse t&auml;itmist .</s>
+</p>
+<p>
+<s>( 4 ) Kui v&otilde;lgnik v&otilde;eti vahi alla l&otilde;ike 1 punktis 4 nimetatud keelu rikkumise v&otilde;i l&otilde;ike 1 punktis 5 nimetatud tegevuse t&otilde;ttu , vabastab kohus ta vahi alt , kui on alust arvata , et v&otilde;lgniku vabastamine ei takista edasist pankrotimenetlust .</s>
+</p>
+<p>
+<s>( 5 ) M&auml;&auml;ruse peale , millega kohus on kohaldanud v&otilde;lgniku vahi all pidamist , v&otilde;ib v&otilde;lgnik esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Vastutavate isikute kohustused</s>
+</p>
+<p>
+<s>( 1 ) Kui v&otilde;lgnik on juriidiline isik :</s>
+</p>
+<p>
+<s>1 ) otsustab v&otilde;lgnikku kohustanud kohus v&otilde;i haldur , kes paragrahv 12 l&otilde;ikes 4 nimetatud isikutest peab t&auml;itma paragrahvist 36 tulenevaid kohustusi ;</s>
+</p>
+<p>
+<s>2 ) otsustab kohus halduri ettepanekul v&otilde;i oma algatusel , kes paragrahv 12 l&otilde;ikes 4 nimetatud isikutest peab andma vande ( paragrahv 37 ) ja kelle suhtes kohaldatakse elukohast lahkumise keeldu ( paragrahv 38 ) , samuti selle , kelle suhtes kohaldatakse sundtoomist v&otilde;i vahi all pidamist ( paragrahv 39 ) .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ike 1 punktis 1 nimetatud kohustusi t&auml;itma v&otilde;ib kohustada ja punktis 2 nimetatud abin&otilde;usid v&otilde;ib kohaldada juriidilise isiku nende paragrahv 12 l&otilde;ikes 4 nimetatud isikute suhtes , kelle kohalolek pankrotimenetluses on vajalik .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>VI .</s><s>Pankrotivara moodustamine</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Pankrotivara</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiotsuse alusel muutub v&otilde;lgniku vara pankrotivaraks , mida kasutatakse sihtvarana v&otilde;lausaldajate n&otilde;uete rahuldamiseks ja pankrotimenetluse l&auml;biviimiseks .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Pankrotivara on see vara , mis oli v&otilde;lgnikul pankroti v&auml;ljakuulutamise ajal , samuti vara , mis n&otilde;utakse v&otilde;i v&otilde;idetakse tagasi v&otilde;i mille v&otilde;lgnik omandab pankrotimenetluse ajal muul viisil .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Pankrotivara ei ole f&uuml;&uuml;silisest isikust v&otilde;lgniku see vara , millele vastavalt seadusele ei v&otilde;i p&ouml;&ouml;rata sissen&otilde;uet .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Tagasiv&otilde;itmise m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Tagasiv&otilde;itmisel tunnistab kohus paragrahvides 43 , 44 , 47 ja 48 s&auml;testatud alustel kehtetuks tehingud ja muud &otilde;igustoimingud ning m&otilde;istab pankrotivarasse nende tehingute ja muude &otilde;igustoimingutega ning paragrahvides 45 ja 46 s&auml;testatud alustel v&otilde;lgniku omandist v&auml;ljal&auml;inud vara .</s>
+</p>
+<p>
+<s>( 2 ) Tagasiv&otilde;itmise n&otilde;ude esitab v&otilde;lgniku nimel haldur .</s><s>Kui tehingu teisel poolel ei ole tehingu j&auml;rgi saadud vara alles , v&otilde;ib haldur tagasiv&otilde;itmise korras tehingu kehtetuks tunnistamisel n&otilde;uda vara eest h&uuml;vitist .</s>
+</p>
+<p>
+<s>( 3 ) Tagasiv&otilde;itmisele ei kuulu vara , mis on v&otilde;lgniku omandist v&auml;lja l&auml;inud enampakkumisega .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Tehingu kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Kohus tunnistab kehtetuks v&otilde;lgniku tehingu , mis oli tehtud :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetluse algatamisest kuni pankroti v&auml;ljakuulutamiseni , kui v&otilde;lgnik tehinguga teadlikult kahjustas v&otilde;lausaldajate huve , v&otilde;i</s>
+</p>
+<p>
+<s>2 ) &uuml;he aasta jooksul enne pankrotimenetluse algatamist , kui v&otilde;lgnik tehinguga teadlikult kahjustas v&otilde;lausaldajate huve , v&otilde;i</s>
+</p>
+<p>
+<s>3 ) kolme aasta jooksul enne pankrotimenetluse algatamist , kui v&otilde;lgnik kuriteoga p&otilde;hjustas enda maksej&otilde;uetuse ja tehingu teine pool teadis v&otilde;i pidi teadma , et v&otilde;lgnik tehinguga kahjustas v&otilde;lausaldajate huve , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) viie aasta jooksul enne pankrotimenetluse algatamist , kui v&otilde;lgnik tehinguga teadlikult kahjustas v&otilde;lausaldajate huve ja tehingu teine pool oli tema l&auml;hikondne , kes sellest teadis v&otilde;i pidi teadma .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui tehing , mille kehtetuks tunnistamist taotletakse , on s&otilde;lmitud 10 p&auml;eva jooksul enne pankrotimenetluse algatamist , samuti pankrotimenetluse algatamisest kuni pankroti v&auml;ljakuulutamiseni , siis eeldatakse , et v&otilde;lgnik teadlikult kahjustas v&otilde;lausaldajate huve .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Kinkelepingu kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Kohus tunnistab kehtetuks kinkelepingu , s&otilde;ltumata sellest , kas v&otilde;lgnik kinkega teadlikult kahjustas v&otilde;lausaldajate huve ja kas kingisaaja oli v&otilde;lausaldajate huvide kahjustamisest teadlik , kui leping oli s&otilde;lmitud :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetluse algatamisest kuni pankroti v&auml;ljakuulutamiseni v&otilde;i</s>
+</p>
+<p>
+<s>2 ) viimase kuue kuu jooksul enne pankrotimenetluse algatamist v&otilde;i</s>
+</p>
+<p>
+<s>3 ) enne punktis 2 nimetatud t&auml;htaja algust , kuid viimase aasta jooksul enne pankrotimenetluse algatamist , ja kui kingisaaja v&otilde;i v&otilde;lgnik ei t&otilde;enda , et v&otilde;lgnik oli kinkimise ajal maksej&otilde;uline ega muutunud maksej&otilde;uetuks kinkimise t&otilde;ttu , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) enne punktis 3 nimetatud t&auml;htaja algust , kuid viimase viie aasta jooksul enne pankrotimenetluse algatamist , kui kingisaajaks oli v&otilde;lgniku l&auml;hikondne ja kui kingisaaja v&otilde;i v&otilde;lgnik ei t&otilde;enda , et v&otilde;lgnik oli kinkimise ajal maksej&otilde;uline ega muutunud maksej&otilde;uetuks kinkimise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib tunnistada kehtetuks l&otilde;ikes 1 s&auml;testatud alustel ka ostu- , vahetus- v&otilde;i muu lepingu , kui poolte kohustuste ebav&otilde;rdsuse t&otilde;ttu on ilmne , et lepingul oli kas v&otilde;i osaliselt kinke iseloom .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Toetused ja tavap&auml;rased kingitused , mis vastasid v&otilde;lgniku majanduslikule olukorrale , ei kuulu tagasiv&otilde;itmisele .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Tasutud v&otilde;la tagasin&otilde;udmine</s>
+</p>
+<p>
+<s>Kohus n&otilde;uab sisse v&otilde;lgniku tasutud v&otilde;la , s&otilde;ltumata sellest , kas v&otilde;la tasumisega v&otilde;lgnik teadlikult kahjustas teiste v&otilde;lausaldajate huve ja kas v&otilde;lausaldaja , kellele v&otilde;lg tasuti , oli v&otilde;lausaldajate huvide kahjustamisest teadlik , kui v&otilde;lg tasuti :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetluse algatamisest kuni pankroti v&auml;ljakuulutamiseni v&otilde;i</s>
+</p>
+<p>
+<s>2 ) viimase kolme kuu jooksul enne pankrotimenetluse algatamist , kui seda tehti ebatavalise maksevahendiga v&otilde;i enne makset&auml;htaega v&otilde;i &uuml;ht v&otilde;lausaldajat teisele eelistades , v&otilde;i</s>
+</p>
+<p>
+<s>3 ) viimase kahe aasta jooksul enne pankrotimenetluse algatamist v&otilde;lgniku l&auml;hikondsele ja kui l&auml;hikondne ega v&otilde;lgnik ei t&otilde;enda , et v&otilde;lgnik oli sel ajal maksej&otilde;uline ega muutunud maksej&otilde;uetuks v&otilde;la tasumise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Palga v&otilde;i muu makse tagasin&otilde;udmine</s>
+</p>
+<p>
+<s>Kohus n&otilde;uab sisse p&otilde;hjendamatult makstud palga v&otilde;i muu makse , s&otilde;ltumata sellest , kas v&otilde;lgnik maksmisega teadlikult kahjustas v&otilde;lausaldajate huve ja kas palga v&otilde;i muu makse saaja oli v&otilde;lausaldajate huvide kahjustamisest teadlik , kui makse tehti :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetluse algatamisest kuni pankroti v&auml;ljakuulutamiseni v&otilde;i</s>
+</p>
+<p>
+<s>2 ) viimase kuue kuu jooksul enne pankrotimenetluse algatamist v&otilde;i</s>
+</p>
+<p>
+<s>3 ) enne punktis 2 nimetatud t&auml;htaja algust , kuid viimase aasta jooksul enne pankrotimenetluse algatamist , kui palga v&otilde;i muu makse saaja v&otilde;i v&otilde;lgnik ei t&otilde;enda , et v&otilde;lgnik oli maksej&otilde;uline ega muutunud maksej&otilde;uetuks makse tegemise t&otilde;ttu , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) viimase kahe aasta jooksul enne pankrotimenetluse algatamist , kui palga v&otilde;i muu makse saaja on v&otilde;lgniku l&auml;hikondne ja kui makse saaja v&otilde;i v&otilde;lgnik ei t&otilde;enda , et v&otilde;lgnik oli makse tegemise ajal maksej&otilde;uline ega muutunud maksej&otilde;uetuks makse tegemise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>&Uuml;hisvara jagamise kokkuleppe kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Kohus tunnistab kehtetuks v&otilde;lgniku ja tema abikaasa abieluvaralepingu v&otilde;i &uuml;hisvara jagamise kokkuleppe , millega v&otilde;lgnik olulisel m&auml;&auml;ral oma varast v&otilde;i oma osast &uuml;hisomandis loobus , s&otilde;ltumata sellest , kas v&otilde;lgnik oma osast loobumisega teadlikult kahjustas v&otilde;lausaldajate huve ja kas v&otilde;lgniku abikaasa oli v&otilde;lausaldajate huvide kahjustamisest teadlik , kui &uuml;hisvara on jagatud v&otilde;i v&otilde;lgnik on oma varast v&otilde;i oma osast &uuml;hisvaras loobunud :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetluse algatamisest kuni pankroti v&auml;ljakuulutamiseni v&otilde;i</s>
+</p>
+<p>
+<s>2 ) viimase kolme aasta jooksul enne pankrotimenetluse algatamist ja v&otilde;lgnik v&otilde;i tema abikaasa ei t&otilde;enda , et v&otilde;lgnik oli vara jagamise v&otilde;i varast loobumise ajal maksej&otilde;uline ega muutunud maksej&otilde;uetuks &uuml;hisvara jagamise v&otilde;i varast loobumise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Pandilepingu kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Kohus tunnistab kehtetuks pandilepingu , s&otilde;ltumata sellest , kas v&otilde;lgnik pandi seadmisega teadlikult kahjustas v&otilde;lausaldajate huve ja kas pandipidaja oli v&otilde;lausaldajate huvide kahjustamisest teadlik , kui pant seati p&auml;rast 10 p&auml;eva m&ouml;&ouml;dumist v&otilde;la tekkimisest , kuid :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetluse algatamisest kuni pankroti v&auml;ljakuulutamiseni v&otilde;i</s>
+</p>
+<p>
+<s>2 ) viimase kolme kuu jooksul enne pankrotimenetluse algatamist v&otilde;i</s>
+</p>
+<p>
+<s>3 ) enne punktis 2 nimetatud t&auml;htaja algust , kuid viimase kahe aasta jooksul enne pankrotimenetluse algatamist , kui pandipidajaks on v&otilde;lgniku l&auml;hikondne ja kui pandipidaja v&otilde;i v&otilde;lgnik ei t&otilde;enda , et v&otilde;lgnik pandi seadmise ajal oli maksej&otilde;uline ega muutunud pandi seadmisega maksej&otilde;uetuks .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>V&otilde;lgniku l&auml;hikondsed</s>
+</p>
+<p>
+<s>( 1 ) F&uuml;&uuml;silisest isikust v&otilde;lgniku l&auml;hikondsed on tema abikaasa , &uuml;lenejad ja alanejad sugulased , &otilde;de , vend ja nende alanejad sugulased , v&otilde;lgniku abikaasa &uuml;lenejad ja alanejad sugulased , abikaasa &otilde;de ja vend , samuti v&otilde;lgniku faktiline abikaasa .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilisest isikust v&otilde;lgniku l&auml;hikondsed on :</s>
+</p>
+<p>
+<s>1 ) juhatuse v&otilde;i seda asendava organi liige , n&otilde;ukogu liige , likvideerija , prokurist ja raamatupidamise eest vastutav isik ;</s>
+</p>
+<p>
+<s>2 ) aktsion&auml;r v&otilde;i osanik , kellele kuulub rohkem kui 1/10 aktsiate v&otilde;i osaga m&auml;&auml;ratud h&auml;&auml;ltest ;</s>
+</p>
+<p>
+<s>3 ) ema- v&otilde;i t&uuml;tarettev&otilde;tja ;</s>
+</p>
+<p>
+<s>4 ) f&uuml;&uuml;siline v&otilde;i juriidiline isik , kellel on v&otilde;lgnikuga &uuml;hine oluline majanduslik huvi ;</s>
+</p>
+<p>
+<s>5 ) punktides 1 ja 2 nimetatud isikute l&otilde;ikes 1 loetletud l&auml;hikondsed .</s>
+</p>
+<p>
+<s>( 3 ) Kohus v&otilde;ib tunnistada v&otilde;lgniku l&auml;hikondseks v&otilde;lgnikule l&auml;hedase isiku , keda l&otilde;igetes 1 ja 2 ei ole nimetatud .</s>
+</p>
+<p>
+<s>( 4 ) V&otilde;lgniku l&auml;hikondse puhul eeldatakse , et ta teadis , et v&otilde;lgnik tehinguga teadlikult kahjustas v&otilde;lausaldajate huve .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Tagasiv&otilde;itmise kord</s>
+</p>
+<p>
+<s>( 1 ) Tagasiv&otilde;itmiseks esitab haldur v&otilde;lgniku seadusliku esindajana kohtusse hagi .</s>
+</p>
+<p>
+<s>( 2 ) Tagasiv&otilde;itmise hagi aegumist&auml;htaeg on kolm aastat pankroti v&auml;ljakuulutamisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Vara tagasiv&otilde;itmise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Kui tagasiv&otilde;itmise korras on tehing tunnistatud kehtetuks ja tehingu teiselt poolelt on v&auml;lja m&otilde;istetud tehingu j&auml;rgi saadu , on tehingu sellel poolel &otilde;igus n&otilde;uda pankrotivarast tagasi vara , mille ta tehingu j&auml;rgi v&otilde;lgnikule andis , kui ta ei teadnud ega pidanud teadma , et tehing kahjustas v&otilde;lausaldajate huve .</s><s>Kui vara tagastamine pankrotivarast on v&otilde;imatu , on nimetatud poolel selle asemel &otilde;igus saada h&uuml;vitist rahas .</s>
+</p>
+<p>
+<s>( 2 ) Halduri taotlusel v&otilde;ib kohus kaalukatel p&otilde;hjustel otsustada , et vaatamata sellele , et tehingu teisele poolele pankrotivarast tagastamisele kuuluv vara on alles , asendatakse selle tagastamine h&uuml;vitisega .</s>
+</p>
+<p>
+<s>( 3 ) Pankrotivarast vara v&otilde;i h&uuml;vitise saamise hagi aegumist&auml;htaeg on kuus kuud tagasiv&otilde;itmise korras tehingu teiselt poolelt vara v&auml;ljam&otilde;istmise kohtuotsuse j&otilde;ustumisest , kui aga tehingu teine pool tagasiv&otilde;itmisele kuuluva vara kohtuotsuseta pankrotivarasse andis , siis vara &uuml;leandmise p&auml;evast .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>&Uuml;hisvara jagamine</s>
+</p>
+<p>
+<s>( 1 ) Kui vara on v&otilde;lgniku ja tema abikaasa &uuml;hisomandis , n&otilde;uab haldur &uuml;hisvara jagamist ja v&otilde;lgniku osa &uuml;hisomandist .</s><s>V&otilde;lgnikul on &otilde;igus koos halduriga protsessis osaleda .</s><s>Protsessiosalisena on v&otilde;lgnikul &otilde;igus anda &uuml;ksnes seletusi .</s>
+</p>
+<p>
+<s>( 2 ) Haldurile on &uuml;hisvara jagamise hagi aegumist&auml;htaeg &uuml;ks aasta pankroti v&auml;ljakuulutamisest .</s>
+</p>
+<p>
+<s>( 3 ) Kui haldur ei ole esitanud v&otilde;lgniku osa &uuml;hisvarast v&auml;ljan&otilde;udmise hagi l&otilde;ikes 2 nimetatud t&auml;htaja jooksul , v&otilde;ib v&otilde;lgnik selle hagi ise esitada ja asja l&auml;bivaatamisel hagejana osaleda .</s><s>Kui v&otilde;lgnik esitab hagi pankrotimenetluse ajal , peab ta sellest teatama haldurile .</s>
+</p>
+<p>
+<s>( 4 ) Kui haldur on pankrotivarasse arvanud vara , mis on v&otilde;lgniku ja tema abikaasa &uuml;hisomandis , v&otilde;ib v&otilde;lgniku abikaasa esitada hagi &uuml;hisvara jagamiseks ja oma osa v&auml;listamiseks pankrotivarast .</s><s>V&otilde;lgnikul on &otilde;igus koos halduriga protsessis osaleda .</s><s>Protsessiosalisena on v&otilde;lgnikul &otilde;igus anda &uuml;ksnes seletusi .</s>
+</p>
+<p>
+<s>( 5 ) L&otilde;ikes 4 nimetatud &uuml;hisvara jagamise hagi aegumist&auml;htaeg on kolm kuud &uuml;hisvara pankrotivarasse arvamisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 52 <hi rend="sup">1</hi> .</s><s>Vara tagasin&otilde;udmine</s>
+</p>
+<p>
+<s>( 1 ) Haldur n&otilde;uab tagasi v&otilde;lgniku vara , mis on teiste isikute valduses , kui seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Kui vara on v&otilde;lgniku omandist v&auml;lja l&auml;inud tehingu v&otilde;i muu &otilde;igustoiminguga , v&otilde;ib haldur selle tehingu v&otilde;i muu &otilde;igustoimingu vaidlustada ja vara pankrotivarasse tagasi n&otilde;uda ka tsiviilseadustes s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 3 ) Haldur v&otilde;ib vara pankrotivarasse n&otilde;uda ka muul seaduses s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Vara v&auml;listamine pankrotivarast</s>
+</p>
+<p>
+<s>( 1 ) Haldur tagastab v&otilde;lgniku valduses oleva teistele isikutele kuuluva vara ( vara v&auml;listamine ) .</s><s>Haldur tagab vara s&auml;ilimise kuni selle tagastamiseni .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Vara v&auml;listamise taotlus tuleb esitada haldurile kahe kuu jooksul pankrotiteate ilmumisest .</s><s>Kui haldur ei tagasta vara &uuml;he kuu jooksul taotluse esitamisest , v&otilde;ib vara v&auml;listamist taotlev isik esitada hagi kohtusse .</s><s>Hagi aegumist&auml;htaeg on kuus kuud p&auml;evast , mil m&ouml;&ouml;dus vara tagastamise &uuml;hekuuline t&auml;htaeg .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui haldur m&uuml;&uuml;s l&otilde;ikes 1 nimetatud vara v&otilde;i kui see vara ei ole halduri s&uuml;&uuml;l s&auml;ilinud , on v&auml;listamis&otilde;igust omaval isikul &otilde;igus saada vara eest rahalist h&uuml;vitist pankrotivara arvel v&otilde;i n&otilde;uda m&uuml;&uuml;dud vara tagastamist vara saanud isikult , kui see isik teadis v&otilde;i pidi teadma , et vara ei kuulunud v&otilde;lgnikule .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kui v&otilde;lgnik on m&uuml;&uuml;nud l&otilde;ikes 1 nimetatud vara enne tema pankroti v&auml;ljakuulutamist , on v&auml;listamis&otilde;igust omaval isikul &otilde;igus n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) raha &uuml;leandmist , kui vara omandaja ei ole veel selle eest maksnud , v&otilde;i</s>
+</p>
+<p>
+<s>2 ) vara &uuml;leandmist , kui vara saanud isik teadis v&otilde;i pidi teadma , et vara ei kuulunud v&otilde;lgnikule , v&otilde;i</s>
+</p>
+<p>
+<s>3 ) m&uuml;&uuml;gist saadud raha v&auml;ljamaksmist pankrotivarast , kui raha on makstud p&auml;rast pankroti v&auml;ljakuulutamist , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) osav&otilde;ttu pankrotimenetlusest v&otilde;lausaldajana , kui raha on makstud v&otilde;lgnikule enne pankroti v&auml;ljakuulutamist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 53 <hi rend="sup">1</hi> .</s><s>Elatise maksmine</s>
+</p>
+<p>
+<s>Kui v&otilde;lgnik j&auml;&auml;b pankrotimenetluse t&otilde;ttu ilma elatusvahenditest , m&auml;&auml;rab kohus v&otilde;lgniku avalduse alusel temale ja tema &uuml;lalpeetavatele pankrotivarast h&auml;davajaliku elatise kuni kaheks kuuks .</s><s>Kaalukatel p&otilde;hjustel v&otilde;ib kohus nimetatud t&auml;htaega pikendada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Sissen&otilde;udjale &uuml;leandmata vara</s>
+</p>
+<p>
+<s>( 1 ) Kui kohtuotsusega on v&otilde;lgnikult v&auml;lja m&otilde;istetud vara , ei v&otilde;i seda p&auml;rast pankroti v&auml;ljakuulutamist sissen&otilde;udjale &uuml;le anda ja see vara arvatakse pankrotivara hulka .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ikes 1 nimetatu kehtib ka v&otilde;lgniku vara suhtes , mis on arestitud , kuid pankroti v&auml;ljakuulutamise ajaks sissen&otilde;udjale &uuml;le andmata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>VII .</s><s>Pankrotivara valitsemine</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Pankrotivara valitsemise m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Pankrotiotsusega l&auml;heb haldurile &uuml;le v&otilde;lgniku vara valitsemise &otilde;igus .</s><s>Pankrotivara valitsemine seisneb juriidilise isiku tegevuse juhtimises v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tja majandustegevuse korraldamises , samuti pankrotivara s&auml;ilitamises .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilisest isikust v&otilde;lgniku pankrotimenetluses on halduril juhatuse v&otilde;i seda asendava organi &otilde;igused ja kohustused , mis ei ole vastuolus pankrotimenetluse eesm&auml;rgiga .</s><s>Haldur vastutab nagu juhatuse v&otilde;i seda asendava organi liige .</s>
+</p>
+<p>
+<s>( 3 ) Haldur v&otilde;ib v&otilde;lgniku seadusliku esindajana majandustegevuse korraldamiseks teha tehinguid .</s><s>Majandustegevuse korraldamiseks v&otilde;ib haldur laenu v&otilde;tta v&otilde;lausaldajate &uuml;ldkoosoleku n&otilde;usolekul .</s><s>&Uuml;ldkoosolek v&otilde;ib otsustada , et laenu v&otilde;ib haldur v&otilde;tta pankrotitoimkonna n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Vara nimekiri</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast pankroti v&auml;ljakuulutamist koostab haldur v&otilde;lgniku vara nimekirja , m&auml;rkides vara koosseisu , sealhulgas v&otilde;lgniku v&otilde;lad ja n&otilde;uded liikide kaupa , samuti vara v&auml;&auml;rtuse .</s><s>Nimekirjas peavad olema k&otilde;ikide teadaolevate v&otilde;lausaldajate nimed ja elu- v&otilde;i asukohad .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Haldur esitab vara nimekirja v&otilde;lausaldajate esimesele &uuml;ldkoosolekule , kohtule ja pankrotitoimkonnale .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Juriidilisest isikust v&otilde;lgniku tervendamise ja l&otilde;petamise otsustamine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast pankroti v&auml;ljakuulutamist koostab haldur juriidilise isiku tegevuse j&auml;tkamise tervendamiskava v&otilde;i teeb ettepaneku juriidilise isiku l&otilde;petamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Haldur esitab tervendamiskava kinnitamiseks v&otilde;i ettepaneku juriidilise isiku l&otilde;petamise otsustamiseks v&otilde;lausaldajate esimesele &uuml;ldkoosolekule .</s><s>&Uuml;ldkoosolek kas kinnitab halduri esitatud tervendamiskava v&otilde;i otsustab , et juriidiline isik l&otilde;petatakse .</s><s>&Uuml;ldkoosolek v&otilde;ib teha haldurile ettepaneku uue tervendamiskava v&otilde;i juriidilise isiku l&otilde;petamise ettepaneku asemel tervendamiskava esitamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Tervendamist v&otilde;ib haldur alustada kohe p&auml;rast pankroti v&auml;ljakuulutamist .</s>
+</p>
+<p>
+<s>( 4 ) Kui v&otilde;lausaldajate &uuml;ldkoosolek leiab , et vaatamata tervendamiskavale ei ole tervendamine &otilde;nnestunud , v&otilde;ib &uuml;ldkoosolek otsustada , et juriidilisest isikust v&otilde;lgnik l&otilde;petatakse .</s>
+</p>
+<p>
+<s>( 5 ) Haldur peab juriidilise isiku l&otilde;petamise otsuse viivitamata esitama kohtule kinnitamiseks .</s><s>Juriidilise isiku l&otilde;petamise otsuse kinnitamise otsustab kohus 15 p&auml;eva jooksul otsuse kohtule esitamisest , tehes selle kohta m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 6 ) Kui halduri esitatud tervendamiskavale vaatamata on v&otilde;lausaldajate &uuml;ldkoosolek otsustanud juriidilise isiku l&otilde;petada v&otilde;i kui v&otilde;lausaldajate &uuml;ldkoosolek on leidnud , et tervendamiskava alusel ei ole tervendamine &otilde;nnestunud , v&otilde;ib kohus j&auml;tta juriidilise isiku l&otilde;petamise otsuse kinnitamata , kui kohus leiab , et tervendamine on v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 57 <hi rend="sup">1</hi> .</s><s>Juriidilise isiku tervendamine</s>
+</p>
+<p>
+<s>Juriidilisest isikust v&otilde;lgniku tervendamine seisneb abin&otilde;ude rakendamises , mis v&otilde;imaldavad v&otilde;lausaldajate n&otilde;uete rahuldamise v&otilde;lgniku majandustegevuse j&auml;tkamise kaudu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 57 <hi rend="sup">2</hi> .</s><s>Juriidilise isiku likvideerimine</s>
+</p>
+<p>
+<s>( 1 ) Pankrotimenetluses likvideerib juriidilise isiku haldur .</s><s>Haldur alustab v&otilde;i j&auml;tkab enne pankroti algatamist alustatud likvideerimist p&auml;rast kohtum&auml;&auml;ruse tegemist , millega kinnitati juriidilise isiku l&otilde;petamise otsus .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohus on kinnitanud juriidilise isiku l&otilde;petamise otsuse , likvideeritakse juriidiline isik pankrotimenetluse l&otilde;puks .</s>
+</p>
+<p>
+<s>( 3 ) Kui pankrotimenetlus l&otilde;petatakse paragrahv 15 l&otilde;ike 1 punktis 2 nimetatud alusel , likvideerib ajutine haldur juriidilisest isikust v&otilde;lgniku nelja kuu jooksul pankrotimenetluse l&otilde;petamise kohtum&auml;&auml;ruse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Juriidilise isiku likvideerimisel n&auml;eb pankrotihaldur ette vahendid isiku tegevuse tulemusena loodud v&otilde;i saadud dokumentide s&auml;ilitamiseks ja vastutab nende s&auml;ilitamise eest kuni &uuml;leandmiseni s&auml;ilitamisteenust osutavale isikule v&otilde;i arhiivile .</s>
+</p>
+<p>
+<s>( 25.03.98 j&otilde;ust.01.05.98 - RT I 1998 , 36/37 , 552 )</s>
+</p>
+<p>
+<s>( 4 ) Juriidilist isikut ei likvideerita , vaatamata juriidilise isiku l&otilde;petamise otsusele , kui :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetlus l&otilde;petatakse kompromissi t&otilde;ttu ;</s>
+</p>
+<p>
+<s>2 ) pankrotimenetlus l&otilde;petatakse paragrahv 93 l&otilde;ikes 3 s&auml;testatud alustel ja v&otilde;lgnikul j&auml;&auml;b piisavalt vara juriidilise isiku tegevuse j&auml;tkamiseks ;</s>
+</p>
+<p>
+<s>3 ) v&otilde;lgnikule j&auml;&auml;b p&auml;rast pankrotivarast k&otilde;igi n&otilde;uete rahuldamist piisavalt vara juriidilise isiku tegevuse j&auml;tkamiseks .</s>
+</p>
+<p>
+<s>( 5 ) Juriidilise isiku l&otilde;petamata j&auml;tmise l&otilde;ike 4 punktides 1 ja 3 s&auml;testatud alustel otsustab kohus halduri ettepanekul ja punktis 2 s&auml;testatud alusel v&otilde;lgniku ettepanekul , tehes selle kohta m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>T&ouml;&ouml;lepingu l&otilde;petamine ja t&ouml;&ouml;tajate huvide kaitse</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja pankroti korral j&auml;tkab haldur t&ouml;&ouml;lepingu t&auml;itmist v&otilde;i l&otilde;petab selle seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 26.09.2001 j&otilde;ust.01.01.2003 - RT I 2001 , 82 , 488 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 26.09.2001 j&otilde;ust.01.01.2003 - RT I 2001 , 82 , 488 )</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) T&ouml;&ouml;andja pankroti v&otilde;i k&auml;esoleva seaduse &sect; 15 l&otilde;ike 1 punktis 2 s&auml;testatud juhul pankrotimenetluse raugemise t&otilde;ttu saamata j&auml;&auml;nud palga , puhkusetasu ja t&ouml;&ouml;lepingu l&otilde;petamise h&uuml;vitise maksab t&ouml;&ouml;tajale Eesti T&ouml;&ouml;tukassa t&ouml;&ouml;tuskindlustuse seaduses ( RT I 2001 , 59 , 359 ; 82 , 488 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 26.09.2001 j&otilde;ust.01.01.2003 - RT I 2001 , 82 , 488 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 26.09.2001 j&otilde;ust.01.01.2003 - RT I 2001 , 82 , 488 )</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Halduri ettekanne pankrotivara kohta</s>
+</p>
+<p>
+<s>( 1 ) Haldur esitab kohtule ja pankrotitoimkonnale ettekande , milles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) maksej&otilde;uetuse p&otilde;hjus ja selle tekkimise aeg ;</s>
+</p>
+<p>
+<s>2 ) andmed vara tagasiv&otilde;itmise kohta ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>3 ) arvamus pankrotiga seotud kuriteo tunnuste olemasolu ja andmed kuriteost teatamise kohta ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>4 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>5 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>6 ) muud pankrotimenetluses t&auml;htsust omavad asjaolud .</s>
+</p>
+<p>
+<s>( 2 ) Kui v&otilde;lgnik on kohustatud pidama raamatupidamist , lisab haldur ettekandele v&otilde;lgniku tehtud viimase aastabilansi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Haldur esitab ettekande p&auml;rast l&otilde;ikes 1 nimetatud asjaolude v&auml;ljaselgitamist , kuid mitte hiljem kui kolm kuud p&auml;rast pankroti v&auml;ljakuulutamist .</s><s>M&otilde;juvatel p&otilde;hjustel v&otilde;ib kohus ettekande esitamise t&auml;htaega pikendada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Haldur esitab ettekande tutvumiseks igale v&otilde;lausaldajale , kes seda n&otilde;uab .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Pankrotikuriteost teatamine ja juhtimisveaga tekitatud kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Kui halduril on andmeid pankrotikuriteost v&otilde;i majandustegevusega seotud kuriteost v&otilde;i muust &otilde;iguserikkumisest , on ta kohustatud sellest teatama prokur&ouml;rile v&otilde;i politseile .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohus on otsuses v&otilde;i m&auml;&auml;ruses m&auml;rkinud v&otilde;i pankrotimenetluses ilmneb , et v&otilde;lgniku maksej&otilde;uetuse tekkimise p&otilde;hjuseks on v&otilde;lgniku raske juhtimisviga , on haldur kohustatud esitama kahju h&uuml;vitamise n&otilde;ude raskes juhtimisveas s&uuml;&uuml;dioleva isiku vastu .</s>
+</p>
+<p>
+<s>( 3 ) Raske juhtimisviga k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) juriidilise isiku vara enda huvides kasutamine v&otilde;i</s>
+</p>
+<p>
+<s>2 ) juriidilise isiku nimel enda huvides tehingu tegemine v&otilde;i</s>
+</p>
+<p>
+<s>3 ) juriidilise isiku vara v&otilde;i v&otilde;etud laenu kasutamine juriidilise isiku huvide vastaselt enda v&otilde;i m&otilde;ne teise isiku huvides v&otilde;i</s>
+</p>
+<p>
+<s>4 ) juriidilise isiku vara varjamine v&otilde;i</s>
+</p>
+<p>
+<s>5 ) juriidilise isiku kohustuste p&otilde;hjendamatu suurendamine v&otilde;i</s>
+</p>
+<p>
+<s>6 ) vara v&auml;&auml;rtuse eba&otilde;ige kajastamine juriidilise isiku bilansis v&otilde;i</s>
+</p>
+<p>
+<s>7 ) n&auml;iliku v&otilde;i n&otilde;uetele mittevastava raamatupidamise korraldamine , sealhulgas n&auml;ilike maksete ja v&otilde;lgade kirjendamine , v&otilde;i</s>
+</p>
+<p>
+<s>8 ) kapitali soetamine juriidilisele isikule &auml;&auml;rmiselt ebasoodsatel tingimustel v&otilde;i</s>
+</p>
+<p>
+<s>9 ) suure laenu v&otilde;tmine v&otilde;i andmine , kui on ilmne , et laenu tagasi maksta v&otilde;i tagasi saada ei ole v&otilde;imalik , v&otilde;i</s>
+</p>
+<p>
+<s>10 ) juriidilist isikut kahjustanud muud enda huvides tehtud teod , mis p&otilde;hjustasid juriidilise isiku maksej&otilde;uetuse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Raha hoidmine</s>
+</p>
+<p>
+<s>Raha , mis laekub pankrotivara valitsemise ajal , hoitakse pangas v&otilde;lgniku kontol .</s><s>Jooksvateks kuludeks vajamineva raha v&otilde;ib haldur j&auml;tta hoiustamata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Halduri arvepidamiskohustus</s>
+</p>
+<p>
+<s>( 1 ) Haldur peab pankrotivara sissetulekute ja v&auml;ljaminekute arvestust .</s>
+</p>
+<p>
+<s>( 2 ) Kui v&otilde;lgnik on raamatupidamiskohustuslane , j&auml;tkab haldur tegevuse j&auml;tkumise korral raamatupidamise korraldamist vastavalt raamatupidamise seadusele ( RT I 1994 , 48 , 790 ; 1995 , 26/28 , 355 ; 92 , 1604 ; 1996 , 40 , 773 ; 42 , 811 ; 49 , 953 ; 52/54 , 993 ; 1998 , 59 , 941 ; 91/93 , 1500 ; 96 , 1515 ; 1999 , 55 , 584 ; 101 , 903 ) .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 63. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>VIII .</s><s>N&otilde;uded pankrotimenetluses</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>N&otilde;uete alus</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lausaldaja v&otilde;ib pankrotimenetluses esitada n&otilde;ude , mis on tekkinud enne pankroti v&auml;ljakuulutamist , ja mis p&otilde;hineb v&otilde;lal , mille tasumise t&auml;htp&auml;ev on saabunud v&otilde;i mille tasumise t&auml;htp&auml;ev loetakse saabunuks paragrahvis 21 s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Pankrotimenetluses v&otilde;ib samuti esitada n&otilde;ude , mis tuleneb :</s>
+</p>
+<p>
+<s>1 ) halduri tegevusest pankrotivara valitsemisel ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 26.09.2001 j&otilde;ust.01.01.2003 - RT I 2001 , 82 , 488 )</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>N&otilde;uded solidaarv&otilde;lgniku pankroti puhul</s>
+</p>
+<p>
+<s>Kui v&otilde;lgnik vastutab v&otilde;lausaldaja ees solidaarselt teise isikuga , v&otilde;ib v&otilde;lausaldaja esitada pankrotiv&otilde;lgniku vastu n&otilde;ude kas tervikuna v&otilde;i osaliselt .</s><s>Kui solidaarv&otilde;lgnik on osa v&otilde;last tasunud , arvatakse see osa v&otilde;last maha .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>N&otilde;uded t&auml;is&uuml;hingu ja selle osanike pankroti korral</s>
+</p>
+<p>
+<s>( 1 ) T&auml;is&uuml;hingu pankrotimenetluses on v&otilde;lausaldajateks t&auml;is&uuml;hingu , mitte aga t&auml;is&uuml;hingu osanike v&otilde;lausaldajad .</s><s>Kui ei j&auml;tku &uuml;hingu vara , on &uuml;hingu v&otilde;lausaldajatel &otilde;igus esitada n&otilde;udeid iga t&auml;is&uuml;hingu osaniku vastu .</s><s>Kui t&auml;isosanikud ei suuda v&otilde;lgu tasuda , v&otilde;idakse lisaks t&auml;is&uuml;hingu pankroti v&auml;ljakuulutamisele taotleda iga t&auml;isosaniku pankroti v&auml;ljakuulutamist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) T&auml;isosaniku pankrotimenetluses v&otilde;ib sissen&otilde;ude p&ouml;&ouml;rata sellele osale t&auml;is&uuml;hingu varast , mille oleks saanud t&auml;isosanik &uuml;hingust lahkumisel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) L&otilde;igetes 1 ja 2 s&auml;testatu kehtib ka usaldus&uuml;hingu ja selle t&auml;isosaniku suhtes .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 67. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>N&otilde;uete tasaarvestus</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lausaldaja v&otilde;ib tunnustatud n&otilde;ude v&otilde;lgniku vastu tasaarvestada n&otilde;udega , mis oli v&otilde;lgnikul tema vastu enne pankroti v&auml;ljakuulutamist , kui tasaarvestus ei ole seadusega keelatud .</s><s>Avalduse n&otilde;ude tasaarvestamiseks v&otilde;ib esitada kuni jaotusettepaneku esitamiseni kohtule .</s>
+</p>
+<p>
+<s>( 27.01.2000 j&otilde;ust.02.03.2000 - RT I 2000 , 13 , 93 )</s>
+</p>
+<p>
+<s>( 2 ) Kui n&otilde;ue on s&otilde;ltuv tingimusest , mida v&otilde;lausaldaja ei ole veel t&auml;itnud , tuleb jaotusettepaneku koostamisel v&otilde;lausaldajale arvestatud summa deponeerida , kui on alust eeldada , et tingimus hiljem t&auml;idetakse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Pankrotimenetluses on lubatud ka selliste n&otilde;uete tasaarvestamine , mille t&auml;htaeg ei ole saabunud v&otilde;i edasil&uuml;kkav tingimus ei ole veel t&auml;itunud .</s>
+</p>
+<p>
+<s>( 4 ) Loovutamisega saadud n&otilde;uet v&otilde;ib pankrotimenetluses tasaarvestada ainult juhul , kui n&otilde;ude omandamisest on v&otilde;lgnikule kirjalikult teatatud ja n&otilde;ude loovutamise leping on notariaalselt t&otilde;estatud v&otilde;i lepingule allakirjutanud isikute allkirjade ehtsus on notariaalselt t&otilde;estatud .</s><s>N&otilde;uet v&otilde;lgniku vastu , mis on saadud n&otilde;ude loovutamise teel ja mille saamisest on teatatud kolme kuu jooksul enne pankrotimenetluse algatamist v&otilde;i pankrotimenetluse kestel , ei v&otilde;i tasaarvestada .</s><s>K&auml;esolevas l&otilde;ikes s&auml;testatu kehtib ka siis , kui n&otilde;ue v&otilde;lgniku vastu oli loovutatud viimase kolme aasta jooksul enne pankrotimenetluse algatamist , kui v&otilde;lgnik oli sel ajal maksej&otilde;uetu .</s>
+</p>
+<p>
+<s>( 27.01.2000 j&otilde;ust.02.03.2000 - RT I 2000 , 13 , 93 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 4 s&auml;testatut ei kohaldata v&otilde;lausaldaja ja v&otilde;lgniku omavaheliste n&otilde;uete suhtes , mis tulenevad poolte vahel nende tavap&auml;rase majandustegevuse k&auml;igus sama lepingu alusel tehtud finants- , panga- v&otilde;i v&auml;&auml;rtpaberitehingutest , mille sisuks on v&otilde;lausaldaja ja v&otilde;lgniku vastastikused ja samaliigilised kohustused .</s><s>Selliste kohustuste tasaarvestamine on lubatud &uuml;he poole avalduse alusel igal ajal p&auml;rast pankrotimenetluse algatamist ning see j&otilde;ustub vastavalt poolte vahel s&otilde;lmitud lepingu tingimustele .</s>
+</p>
+<p>
+<s>( 27.01.2000 j&otilde;ust.02.03.2000 - RT I 2000 , 13 , 93 )</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>N&otilde;uete esitamine</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;udeavaldus esitatakse haldurile kirjalikult paragrahvis 23 s&auml;testatud t&auml;htaja jooksul .</s><s>N&otilde;udeavalduses m&auml;rgitakse n&otilde;ude sisu , alus ja suurus , samuti see , kas n&otilde;ue on ees&otilde;igusn&otilde;ue .</s><s>N&otilde;udeavaldusele lisatakse avalduses nimetatud asjaolusid t&otilde;endavad dokumendid v&otilde;i nende t&otilde;estatud &auml;rakirjad .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;udeavaldusele kirjutab alla v&otilde;lausaldaja v&otilde;i tema esindaja .</s><s>Esindaja lisab volikirja v&otilde;i tema volitusi t&otilde;endava muu dokumendi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui n&otilde;udeavaldus ei ole n&otilde;uetekohaselt vormistatud v&otilde;i ei ole avaldusele lisatud dokumentide &auml;rakirjad n&otilde;uetekohaselt t&otilde;estatud , annab haldur esitajale v&auml;hemalt 10 p&auml;eva puuduste k&otilde;rvaldamiseks .</s><s>Puuduste k&otilde;rvaldamisel loetakse n&otilde;udeavaldus esitatuks avalduse esialgse esitamise p&auml;eval .</s><s>Kui puudusi ei k&otilde;rvaldata , v&otilde;ib v&otilde;lausaldajate &uuml;ldkoosolek lugeda , et n&otilde;udeavaldust ei ole esitatud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kui n&otilde;ue on m&otilde;juval p&otilde;hjusel esitatud p&auml;rast paragrahvis 23 s&auml;testatud t&auml;htaega , kuid enne viimast n&otilde;uete kaitsmise koosolekut , v&otilde;ib &uuml;ldkoosolek v&otilde;lausaldaja taotlusel n&otilde;ude esitamise t&auml;htaja ennistada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Kui n&otilde;ude esitamise t&auml;htaega ei ole ennistatud , v&otilde;etakse n&otilde;ue kaitsmisele , kuid tunnustamise korral rahuldatakse p&auml;rast &otilde;igeaegselt esitatud tunnustatud n&otilde;uete rahuldamist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) V&otilde;lausaldajate &uuml;ldkoosoleku otsuse peale , millega n&otilde;udeavaldus loeti esitamata j&auml;etuks v&otilde;i j&auml;eti esitamise t&auml;htaeg ennistamata , v&otilde;ib v&otilde;lausaldaja edasi kaevata kohtusse .</s><s>Kui kohus leiab , et &uuml;ldkoosolek on p&otilde;hjendamatult j&auml;tnud n&otilde;ude t&auml;htaja ennistamata v&otilde;i on p&otilde;hjendamatult leidnud , et n&otilde;udeavaldust ei ole esitatud , tunnistab kohus otsuse selles osas kehtetuks ja ennistab n&otilde;ude esitamise t&auml;htaja v&otilde;i loeb n&otilde;ude esitatuks .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>N&otilde;uete kaitsmise koosolek</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;udeid kaitstakse v&otilde;lausaldajate &uuml;ldkoosolekul ( n&otilde;uete kaitsmise koosolek ) .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Haldur m&auml;&auml;rab n&otilde;uete kaitsmise koosoleku aja ja koha .</s><s>Koosolek peab toimuma mitte varem kui &uuml;ks kuu ja mitte hiljem kui kolm kuud p&auml;rast paragrahvis 23 s&auml;testatud t&auml;htaja m&ouml;&ouml;dumist .</s><s>Kaalukatel p&otilde;hjustel v&otilde;ib kohus halduri taotlusel t&auml;htaega pikendada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;uete kaitsmise koosolek viiakse l&auml;bi , olenemata osav&otilde;tvate v&otilde;lausaldajate arvust , kui koosoleku aeg ja koht oli v&otilde;lausaldajatele &otilde;igeaegselt teatatud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Vajaduse korral v&otilde;ib l&otilde;ikes 2 nimetatud t&auml;htaja jooksul pidada mitu n&otilde;uete kaitsmise koosolekut .</s><s>N&otilde;uet , mis on l&auml;bi vaadatud &uuml;hel n&otilde;uete kaitsmise koosolekul , ei v&otilde;i hilisemal n&otilde;uete kaitsmise koosolekul uuesti l&auml;bi vaadata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) V&otilde;lausaldajal ja v&otilde;lgnikul on enne n&otilde;uete kaitsmise koosolekut &otilde;igus tutvuda n&otilde;udeavalduse ja kirjalikult esitatud vastuv&auml;idetega .</s><s>Haldur teatab n&otilde;uete kaitsmise koosolekust kohtuteadete avaldamiseks etten&auml;htud ajalehes v&auml;hemalt 15 p&auml;eva ette , m&auml;rkides &auml;ra , kus ja millal saab tutvuda n&otilde;udeavalduste ja vastuv&auml;idetega .</s><s>N&otilde;udeavaldustega on &otilde;igus tutvuda viie p&auml;eva jooksul enne n&otilde;uete kaitsmise koosolekut .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) Haldur ja v&otilde;lgnik on kohustatud osa v&otilde;tma n&otilde;uete kaitsmise koosolekust .</s><s>V&otilde;lgniku puudumisel otsustab koosolek , kas n&otilde;uete kaitsmine on v&otilde;imalik .</s><s>N&otilde;ude esitanud v&otilde;lausaldaja koosolekult puudumine n&otilde;ude l&auml;bivaatamist ei takista .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Vastuv&auml;idete esitamine enne n&otilde;uete kaitsmise koosolekut</s>
+</p>
+<p>
+<s>( 1 ) Haldur kontrollib esitatud n&otilde;uete p&otilde;hjendatust ja kui selleks on alust , vaidleb n&otilde;uete kaitsmise koosolekul n&otilde;udele vastu .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lausaldaja ja v&otilde;lgnik v&otilde;ivad enne n&otilde;uete kaitsmise koosolekut esitada haldurile n&otilde;uete kohta kirjalikke vastuv&auml;iteid .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>N&otilde;uete kaitsmine</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;uete kaitsmise koosolekul vaadatakse n&otilde;uded l&auml;bi nende esitamise j&auml;rjekorras .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;ue ja selle rahuldamisj&auml;rk loetakse tunnustatuks , kui sellele n&otilde;uete kaitsmise koosolekul ei vaidle vastu haldur ega &uuml;kski v&otilde;lausaldaja , samuti siis , kui vastuv&auml;ite esitanud v&otilde;lausaldaja v&otilde;i haldur n&otilde;uete kaitsmise koosolekul vastuv&auml;itest loobub .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui v&otilde;lausaldaja on enne n&otilde;uete kaitsmise koosolekut esitanud kirjaliku vastuv&auml;ite ja koosolekul ei osale , on kirjalikult esitatud vastuv&auml;itel sama t&auml;hendus kui koosolekul esitatud vastuv&auml;itel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) N&otilde;uete kaitsmise koosolekul loetakse kaitsmiseta tunnustatuks n&otilde;ue , mis on kohtu v&otilde;i vahekohtu j&otilde;ustunud otsusega rahuldatud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) P&auml;rast n&otilde;ude tunnustamist n&otilde;uete kaitsmise koosolekul vastuv&auml;iteid selle n&otilde;ude kohta arvesse ei v&otilde;eta .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) Iga n&otilde;ude l&auml;bivaatamise kohta m&auml;rgitakse n&otilde;uete kaitsmise koosoleku protokolli , kas n&otilde;uet tunnustati v&otilde;i mitte ja kes vaidles n&otilde;udele v&otilde;i selle rahuldamisj&auml;rgule vastu .</s><s>Samuti m&auml;rgitakse protokolli , kes loobus vastuv&auml;itest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 7 ) Tunnustatud n&otilde;uete kohta koostatakse nimekiri .</s><s>Nimekirjas m&auml;rgitakse , millises ulatuses on n&otilde;ue tunnustatud ning millisesse rahuldamisj&auml;rku see on arvatud .</s><s>Nimekirjale kirjutavad alla pankrotitoimkonna esimees ja k&otilde;ik kohalolevad v&otilde;lausaldajad .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 8 ) Kui n&otilde;ue v&otilde;i selle rahuldamisj&auml;rk on n&otilde;uete kaitsmise koosolekul tunnustatud , ei saa seda hiljem vaidlustada , v&auml;lja arvatud paragrahv 74 l&otilde;ikes 2 ja paragrahv 81 l&otilde;ikes 8 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 9 ) Kaitsmisele ei kuulu halduri tegevusest pankrotivara valitsemisel tekkinud n&otilde;ue , mis rahuldatakse paragrahv 85 l&otilde;ike 1 punktis 1 s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 73. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Vaidlus n&otilde;uete tunnustamise &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) Kui n&otilde;uete kaitsmise koosolekul n&otilde;uet v&otilde;i selle rahuldamisj&auml;rku ei tunnustatud , otsustab n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu tunnustamise v&otilde;lausaldaja hagiavalduse alusel kohus .</s><s>Kui n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu vastu on vaielnud haldur , on kostjaks v&otilde;lgnik , keda esindab haldur .</s><s>Kui n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu vastu on vaielnud v&otilde;lausaldaja , on kostjaks v&otilde;lausaldaja , kes n&otilde;udele v&otilde;i selle rahuldamisj&auml;rgule vastu vaidles .</s><s>Hagi aegumist&auml;htaeg on &uuml;ks kuu p&auml;evast , mil koosolek j&auml;ttis n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu tunnustamata .</s>
+</p>
+<p>
+<s>( 2 ) Kui ilmneb , et n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu tunnustamine p&otilde;hineb v&otilde;ltsitud andmetel v&otilde;i kui n&otilde;uete kaitsmise koosoleku kokkukutsumisel v&otilde;i selle pidamisel on oluliselt rikutud seadust , vaatab n&otilde;uete kaitsmise koosolek n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu tunnustamise v&otilde;lausaldaja , v&otilde;lgniku v&otilde;i halduri n&otilde;udel uuesti l&auml;bi .</s>
+</p>
+<p>
+<s>( 3 ) Kui n&otilde;uete kaitsmise koosolek ei ole n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu tunnustamist uuesti l&auml;bi vaadanud &uuml;he kuu jooksul , arvates l&auml;bivaatamise n&otilde;ude esitamisest , otsustab n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu tunnustamise v&otilde;lausaldaja , v&otilde;lgniku v&otilde;i halduri hagiavalduse alusel kohus .</s><s>Hagi aegumist&auml;htaeg on kaks kuud uue koosoleku kokkukutsumise n&otilde;ude esitamise p&auml;evast .</s><s>Selles asjas on kostjaks v&otilde;lausaldaja , kelle n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu tunnustamist on vaidlustatud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>IX .</s><s>Pankrotivara m&uuml;&uuml;k</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Vara m&uuml;&uuml;gi &uuml;ldp&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Haldur v&otilde;ib alustada pankrotivara m&uuml;&uuml;ki p&auml;rast v&otilde;lausaldajate esimest &uuml;ldkoosolekut , kui v&otilde;lausaldajad sellel koosolekul ei ole otsustanud teisiti .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui v&otilde;lgnik on pankrotiotsuse peale edasi kaevanud , ei tohi v&otilde;lgniku n&otilde;usolekuta enne apellatsioonkaebuse l&auml;bivaatamist vara m&uuml;&uuml;a .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) L&otilde;igetes 1 ja 2 nimetatud piiranguid ei kohaldata kiiresti rikneva v&otilde;i sellise vara m&uuml;&uuml;gil , mille v&auml;&auml;rtus kiiresti langeb v&otilde;i mille hoidmine on &uuml;lem&auml;&auml;raselt kulukas .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kui v&otilde;lgniku tegevust j&auml;tkatakse , ei v&otilde;i vara m&uuml;&uuml;a , kui see takistab v&otilde;lgniku tegevust .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Vara m&uuml;&uuml;k kompromissettepaneku korral</s>
+</p>
+<p>
+<s>( 1 ) Kui v&otilde;lgnik teeb kompromissettepaneku , ei v&otilde;i vara m&uuml;&uuml;a enne kompromissi tegemist , kui v&otilde;lausaldajate &uuml;ldkoosolek ei ole otsustanud , et vara v&otilde;ib m&uuml;&uuml;a kompromissettepanekule vaatamata .</s>
+</p>
+<p>
+<s>( 2 ) Vara v&otilde;ib m&uuml;&uuml;a , kui vara m&uuml;&uuml;k vastab v&otilde;lgniku kompromissettepanekule v&otilde;i vara m&uuml;&uuml;akse paragrahv 75 l&otilde;ikes 3 m&auml;rgitud alustel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 77. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Vara m&uuml;&uuml;gi kord</s>
+</p>
+<p>
+<s>( 1 ) Pankrotivara m&uuml;&uuml;akse t&auml;itemenetluse seadustikus s&auml;testatud korras , arvestades k&auml;esolevas seaduses etten&auml;htud erisusi .</s>
+</p>
+<p>
+<s>( 2 ) Haldur m&uuml;&uuml;b pankrotivara enampakkumisel .</s><s>V&otilde;lausaldajate &uuml;ldkoosolek v&otilde;ib teha haldurile ettekirjutusi vara m&uuml;&uuml;giks suuremat kasu andval viisil .</s>
+</p>
+<p>
+<s>( 3 ) Kui &uuml;ldkoosolek ei ole haldurile teinud ettekirjutusi vara m&uuml;&uuml;giks , v&otilde;ib haldur pankrotivara m&uuml;&uuml;a pankrotitoimkonna n&otilde;usolekul enampakkumiseta suuremat kasu andval viisil .</s>
+</p>
+<p>
+<s>( 4 ) P&auml;rast pankroti v&auml;ljakuulutamist ei pea kohus kinnispandi eseme m&uuml;&uuml;ki eraldi otsustama .</s>
+</p>
+<p>
+<s>( 5 ) Halduri n&otilde;usolekul v&otilde;ib pandipidaja k&auml;sipandi eseme ise m&uuml;&uuml;a .</s><s>Vara m&uuml;&uuml;nud pandipidaja esitab haldurile aruande m&uuml;&uuml;gist saadu kohta .</s>
+</p>
+<p>
+<s>( 6 ) Vara m&uuml;&uuml;gi j&auml;rjekorra m&auml;&auml;rab haldur .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 79. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>V&otilde;lgniku n&otilde;uete m&uuml;&uuml;mine</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lgniku n&otilde;udeid v&otilde;ib haldur m&uuml;&uuml;a paragrahvis 78 s&auml;testatud korras nagu vallasvara .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Pankroti v&auml;ljakuulutamine ei m&otilde;juta v&otilde;lgniku n&otilde;uete t&auml;htaegu ega tingimusi tema v&otilde;lgnike suhtes .</s>
+</p>
+<p>
+<s>X. Pankrotivara jagamine</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Jaotusettepanek</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast viimast n&otilde;uete kaitsmise koosolekut koostab haldur jaotusettepaneku , milles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>1 ) tunnustatud n&otilde;uded , nende rahuldamisj&auml;rgud ja jaotised ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>1 <hi rend="sup">1</hi> ) andmed k&auml;esoleva seaduse &sect; 74 alusel kohtus vaidlustatud n&otilde;uete kohta koos arvestuslike jaotiste &auml;ram&auml;rkimisega v&otilde;lausaldaja poolt hagiavalduses taotletud suuruses ning rahuldamisj&auml;rgus , juhul kui jaotusettepanek esitatakse koosk&otilde;las k&auml;esoleva paragrahvi l&otilde;ikega 3 <hi rend="sup">1</hi> ;</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>2 ) andmed paragrahvis 83 nimetatud v&auml;ljamaksete kohta ja krediidiasutuses raha deponeerimise kohta ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 ; 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>3 ) andmed iga pandieseme m&uuml;&uuml;gist saadu kohta ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>4 ) andmed pankrotivarasse laekunud ja jaotamisele kuuluva vara kohta ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>5 ) andmed m&uuml;&uuml;mata pankrotivara ja v&otilde;lgnikul teistelt isikutelt saadaoleva vara kohta .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui n&otilde;uet v&otilde;i selle rahuldamisj&auml;rku ei ole kohtus vaidlustatud , esitab haldur jaotusettepaneku kohtule ja pankrotitoimkonnale neljak&uuml;mne p&auml;eva jooksul viimase n&otilde;uete kaitsmise koosoleku toimumisest .</s><s>Halduri taotlusel v&otilde;ib kohus jaotusettepaneku esitamise t&auml;htaega pikendada .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 ; 27.01.2000 j&otilde;ust.02.03.2000 - RT I 2000 , 13 , 93 ; 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>( 3 ) Kui n&otilde;ue v&otilde;i selle rahuldamisj&auml;rk on kohtus vaidlustatud , esitab haldur jaotusettepaneku p&auml;rast n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu &uuml;le toimunud vaidluse lahendamist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 ; 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Kui pankrotivara m&uuml;&uuml;gist on laekunud raha k&auml;esoleva seaduse &sect; 83 l&otilde;ikes 1 s&auml;testatud v&auml;ljamaksete ning v&otilde;lausaldajatele jaotiste alusel v&auml;ljamaksete tegemiseks , v&otilde;ib haldur pankrotitoimkonna ettepanekul v&otilde;i n&otilde;usolekul esitada kohtule ja pankrotitoimkonnale jaotusettepaneku enne k&otilde;igi n&otilde;uete ja nende rahuldamisj&auml;rkude &uuml;le peetavate vaidluste l&otilde;ppu .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">2</hi> ) Kui n&otilde;ude v&otilde;i selle rahuldamisj&auml;rgu &uuml;le peetava vaidluse l&otilde;ppedes kujunevad jaotised viimases kohtu poolt kinnitatud jaotusettepanekus m&auml;rgitust erinevalt , on haldur kohustatud enne v&otilde;lausaldajatele uute v&auml;ljamaksete tegemist esitama kohtule ja pankrotitoimkonnale uue jaotusettepaneku vastavalt k&auml;esoleva paragrahvi l&otilde;ikele 1.</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>( 4 ) Kui pankrotimenetluses on esitatud pandiga tagatud n&otilde;ue , koostab haldur jaotusettepanku p&auml;rast seda , kui pandi ese on m&uuml;&uuml;dud .</s><s>Sel juhul l&otilde;ikes 2 nimetatud t&auml;htaega ei kohaldata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Haldur avaldab kohtuteadete avaldamiseks etten&auml;htud ajalehes teate , milles on andmed , kus ja millal v&otilde;ib jaotusettepanekuga tutvuda , ning see , et vastuv&auml;ite v&otilde;ib esitada kohtule 10 p&auml;eva jooksul teate avaldamisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) Jaotusettepaneku kinnitamise otsustab kohus 10 p&auml;eva jooksul p&auml;rast vastuv&auml;idete esitamise t&auml;htaja m&ouml;&ouml;dumist , tehes selle kohta m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 7 ) Kohus j&auml;tab jaotusettepaneku kinnitamata ja tagastab selle haldurile p&otilde;histatud m&auml;&auml;rusega , kui ettepanekust ilmneb , et pankrotimenetluses rikutakse v&otilde;lgniku v&otilde;i v&otilde;lausaldajate &otilde;igusi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 8 ) Kui kohus j&auml;tab jaotusettepaneku kinnitamata seet&otilde;ttu , et n&otilde;uete kaitsmise koosolek on tunnustatud n&otilde;ude arvanud eba&otilde;igesse rahuldamisj&auml;rku , vaatab n&otilde;uete kaitsmise koosolek n&otilde;ude rahuldamisj&auml;rgu uuesti l&auml;bi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 9 ) Haldur esitab uue jaotusettepaneku 10 p&auml;eva jooksul kohtum&auml;&auml;ruse tegemisest , l&otilde;ikes 8 nimetatud juhul aga koosoleku toimumisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 82. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>V&auml;ljamaksed pankrotivarast</s>
+</p>
+<p>
+<s>Enne jaotise alusel raha v&auml;ljamaksmist rahuldatakse vara v&auml;listamise ( paragrahv 53 ) ja tagasiv&otilde;itmise tagaj&auml;rgedest tulenevad ( paragrahv 51 ) n&otilde;uded ning makstakse v&otilde;lgnikule ja tema &uuml;lalpeetavatele elatist ( paragrahv 53 <hi rend="sup">1</hi> ) ning seej&auml;rel tehakse pankrotimenetlusega seotud v&auml;ljamaksed ( paragrahv 85 ) ja deponeeritakse v&auml;ljamaksete tegemiseks vajalik raha Eesti krediidiasutuses v&otilde;i v&auml;lisriigi krediidiasutuse filiaalis Eestis juhul , kui jaotusettepanek esitatakse koosk&otilde;las k&auml;esoleva seaduse &sect; 81 l&otilde;ikega 3 <hi rend="sup">1</hi> .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 ; 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>&sect; 84. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>Pankrotimenetlusega seotud v&auml;ljamaksed</s>
+</p>
+<p>
+<s>( 1 ) Pankrotimenetlusega seotud v&auml;ljamaksed on :</s>
+</p>
+<p>
+<s>1 ) pankrotimenetluse ajal halduri tehtud tehingutest tekkinud v&otilde;lad ning v&otilde;lad , mis on tekkinud halduri poolt t&auml;itmiseks v&otilde;etud tehingutest , samuti maksed seoses v&otilde;lgniku majandustegevuse j&auml;tkamisega ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>2 ) pankrotimenetluse kulud ( paragrahv 98 ) .</s>
+</p>
+<p>
+<s>( 2 ) Kui jaotamisele kuuluvat vara ei piisa k&otilde;igi l&otilde;ikes 1 loetletud kulude t&auml;ielikuks katmiseks , tehakse k&otilde;igepealt punktis 1 nimetatud v&auml;ljamaksed .</s><s>Punktis 2 nimetatud v&auml;ljamaksed tehakse p&auml;rast punktis 1 nimetatud v&auml;ljamakseid .</s><s>Kui varast ei j&auml;tku punktis 1 nimetatud v&auml;ljamakseteks , tehakse v&auml;ljamaksed v&otilde;rdeliselt selles punktis nimetatud v&otilde;lgade suurusega .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>N&otilde;uete rahuldamisj&auml;rgud</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;uded rahuldatakse j&auml;rgmistes j&auml;rkudes :</s>
+</p>
+<p>
+<s>1 ) pandiga tagatud n&otilde;uded , v&auml;lja arvatud kommertspandiga tagatud n&otilde;uded ;</s>
+</p>
+<p>
+<s>2 ) palk , t&ouml;&ouml;lepingu l&otilde;petamise h&uuml;vitis , puhkusetasu , kohustusliku ravikindlustuse h&uuml;vitis , elatis , vigastuse v&otilde;i muu tervisekahjustusega , samuti toitja kaotusega tekkinud kahju h&uuml;vitis ;</s>
+</p>
+<p>
+<s>3 ) maksuv&otilde;lad ;</s>
+</p>
+<p>
+<s>4 ) kommertspandiga tagatud n&otilde;uded ;</s>
+</p>
+<p>
+<s>5 ) muud t&auml;htaegselt tunnustatud n&otilde;uded ;</s>
+</p>
+<p>
+<s>6 ) t&auml;htaegselt esitamata , kuid tunnustatud n&otilde;uded ( paragrahv 69 lg. 5 ) .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) J&auml;rgmise j&auml;rgu n&otilde;uded rahuldatakse p&auml;rast eelmise j&auml;rgu n&otilde;uete t&auml;ielikku rahuldamist .</s>
+</p>
+<p>
+<s>( 3 ) Kui varast ei piisa k&otilde;igi &uuml;he j&auml;rgu n&otilde;uete rahuldamiseks , rahuldatakse selle j&auml;rgu n&otilde;uded v&otilde;rdeliselt n&otilde;uete suurusega .</s><s>L&otilde;ike 1 punktides 1 ja 4 nimetatud n&otilde;uded rahuldatakse vastavalt pandi&otilde;iguste j&auml;rjekohtadele .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) L&otilde;ike 1 punktides 1-4 nimetatud n&otilde;uded on ees&otilde;igusn&otilde;uded .</s><s>Maksuv&otilde;la viivis ei ole ees&otilde;igusn&otilde;ue .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Pandiga tagatud n&otilde;ue on ees&otilde;igusn&otilde;ue pandieseme m&uuml;&uuml;gist saadud raha suhtes pandiga tagatud n&otilde;ude ulatuses .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) N&otilde;uete rahuldamisel vastavalt k&auml;esoleva seaduse &sect; 81 l&otilde;ike 3 <hi rend="sup">1</hi> kohaselt esitatud jaotusettepanekule deponeerib haldur k&auml;esoleva seaduse &sect; 83 l&otilde;ikes 1 s&auml;testatud v&auml;ljamaksete tegemiseks vajaliku ning vaidlustatud n&otilde;uetele vastavate arvestuslike jaotiste alusel v&auml;ljamaksmisele kuuluva raha Eesti krediidiasutuses v&otilde;i v&auml;lisriigi krediidiasutuse filiaalis Eestis , et tagada nende n&otilde;uete rahuldamine ja kohustuste t&auml;itmine .</s><s>Haldur ei ole kohustatud deponeerima vaidlustatud n&otilde;uetele vastavate arvestuslike jaotiste alusel v&auml;ljamaksmisele kuuluvat raha , kui enne n&otilde;uete ja nende rahuldamisj&auml;rkude &uuml;le peetavate vaidluste l&otilde;ppu tehakse jaotiste alusel v&auml;ljamakseid &uuml;ksnes vaidlustatud n&otilde;ude j&auml;rgule eelnevate j&auml;rkude , kus puuduvad vaidlustatud n&otilde;uded , n&otilde;uete rahuldamiseks .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>&sect; 87. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>Jaotis</s>
+</p>
+<p>
+<s>( 1 ) Jaotis on suhtarv , mis n&auml;itab , kui suurele osale pankrotivara m&uuml;&uuml;gist laekunud rahast on v&otilde;lausaldajal vastavas rahuldamisj&auml;rgus &otilde;igus tunnustatud n&otilde;ude alusel .</s><s>Kui haldur on esitanud jaotusettepaneku vastavalt k&auml;esoleva seaduse &sect; 81 l&otilde;ikele 3 <hi rend="sup">1</hi> , n&auml;itab vaidlustatud n&otilde;ude osas m&auml;rgitud jaotis v&otilde;imalikku osa pankrotivara m&uuml;&uuml;gist laekunud rahast , millele v&otilde;lausaldajal on &otilde;igus juhul , kui kohus tunnustab tema n&otilde;uet t&auml;ies ulatuses .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 ; 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>( 2 ) Haldur alustab jaotiste alusel raha v&auml;ljamaksmist p&auml;rast jaotusettepaneku kinnitamist vastavalt raha laekumisele .</s><s>Raha v&auml;ljamaksmine toimub pankrotitoimkonna n&otilde;usolekul , arvestades paragrahvis 83 nimetatud v&auml;ljamakseid .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 89. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>&Otilde;iguse kaotamine jaotisele</s>
+</p>
+<p>
+<s>( 1 ) V&otilde;lausaldaja kaotab &otilde;iguse saada jaotise alusel raha , kui v&otilde;lausaldaja s&uuml;&uuml;l ei olnud v&otilde;imalik talle seda kahe aasta jooksul v&auml;lja maksta .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ikes 1 m&auml;rgitud alusel v&auml;lja maksmata raha makstakse teistele v&otilde;lausaldajatele paragrahvides 83 , 85 ja 86 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>V&otilde;lgnikule tagastatav vara</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast pankrotivarast v&auml;ljamaksete tegemist ja v&otilde;lausaldajate n&otilde;uete t&auml;ielikku rahuldamist j&auml;relej&auml;&auml;nud vara tagastatakse v&otilde;lgnikule .</s>
+</p>
+<p>
+<s>( 2 ) Kui juriidilisest isikust v&otilde;lgnik l&otilde;petatakse , kuid p&auml;rast pankrotivarast v&auml;ljamaksete tegemist ja v&otilde;lausaldajate n&otilde;uete t&auml;ielikku rahuldamist on j&auml;rele j&auml;&auml;nud vara , makstakse see v&auml;lja isikutele , kellele kuuluks &otilde;igus juriidilise isiku varale juriidilise isiku l&otilde;petamise korral pankrotimenetluseta .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>XI .</s><s>Pankrotimenetluse l&otilde;ppemine</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>Pankrotimenetluse l&otilde;ppemise alused</s>
+</p>
+<p>
+<s>Pankrotimenetlus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) pankrotiavalduse rahuldamata j&auml;tmisega ( paragrahv 14 <hi rend="sup">1</hi> ) ;</s>
+</p>
+<p>
+<s>2 ) pankrotimenetluse raugemisega ( paragrahvid 15 ja 93 ) ;</s>
+</p>
+<p>
+<s>3 ) halduri l&otilde;pparuande kinnitamisega ( paragrahv 94 ) ;</s>
+</p>
+<p>
+<s>4 ) kompromissi kinnitamisega ( paragrahv 108 ) ;</s>
+</p>
+<p>
+<s>5 ) pankrotiavalduse l&auml;bi vaatamata j&auml;tmisega ( paragrahv 13 lg. 3 ) ;</s>
+</p>
+<p>
+<s>6 ) muudel seadusest tulenevatel alustel .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Pankrotimenetluse raugemine p&auml;rast pankroti v&auml;ljakuulutamist</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) Kohus l&otilde;petab pankrotimenetluse halduri ettepanekul p&auml;rast pankroti v&auml;ljakuulutamist raugemise t&otilde;ttu , kui pankrotivarast ei j&auml;tku paragrahvis 85 nimetatud v&auml;ljamakseteks .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kohus ei l&otilde;peta pankrotimenetlust l&otilde;ikes 1 nimetatud alusel enne paragrahvis 37 s&auml;testatud vande andmist , kui kohus on kohustanud v&otilde;lgnikku vannet andma ja vande v&otilde;tmine on v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kohus l&otilde;petab pankrotimenetluse v&otilde;lgniku taotlusel raugemise t&otilde;ttu , kui kolmas isik rahuldab v&otilde;lausaldajate k&otilde;ik n&otilde;uded v&otilde;i annab pandi nende tagamiseks .</s><s>Kui enne pankrotimenetluse l&otilde;petamist oli kohus kinnitanud &uuml;ldkoosoleku otsuse juriidilisest isikust v&otilde;lgniku l&otilde;petamise kohta ( paragrahv 57 lg. 5 ) , kuid v&otilde;lgnikul j&auml;&auml;b piisavalt vara tegevuse j&auml;tkamiseks , m&auml;rgib kohus pankrotimenetluse l&otilde;petamise m&auml;&auml;ruses , et juriidilist isikut ei l&otilde;petata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>Pankrotimenetluse l&otilde;ppemine l&otilde;pparuande kinnitamisega</s>
+</p>
+<p>
+<s>( 1 ) Haldur esitab pankrotitoimkonnale ja kohtule l&otilde;pparuande , kui :</s>
+</p>
+<p>
+<s>1 ) v&otilde;lausaldajate n&otilde;uded on t&auml;ielikult rahuldatud v&otilde;i</s>
+</p>
+<p>
+<s>2 ) pankrotivara on m&uuml;&uuml;dud ja jaotiste alusel raha v&auml;lja makstud v&otilde;i</s>
+</p>
+<p>
+<s>3 ) ei osutunud v&otilde;imalikuks pankrotivara t&auml;ielikult m&uuml;&uuml;a ja pankrotitoimkond on andnud n&otilde;usoleku l&otilde;pparuande esitamiseks .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;pparuandes m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) andmed pankrotivara ja selle m&uuml;&uuml;gist saadud raha kohta ;</s>
+</p>
+<p>
+<s>2 ) andmed paragrahvis 83 nimetatud v&auml;ljamaksete kohta ;</s>
+</p>
+<p>
+<s>3 ) andmed jaotiste alusel v&auml;ljamakstud raha kohta n&otilde;uete rahuldamisj&auml;rkude kaupa ;</s>
+</p>
+<p>
+<s>4 ) andmed iga pandieseme m&uuml;&uuml;gist saadu kohta ;</s>
+</p>
+<p>
+<s>5 ) andmed m&uuml;&uuml;mata pankrotivara ja v&otilde;lgnikul teistelt isikutelt saadaoleva vara kohta ;</s>
+</p>
+<p>
+<s>6 ) andmed halduri tegevuse kohta pankrotivara valitsemisel ;</s>
+</p>
+<p>
+<s>7 ) iga v&otilde;lausaldaja tunnustatud n&otilde;ude osa , mille ulatuses v&otilde;lausaldaja ei ole raha saanud ;</s>
+</p>
+<p>
+<s>8 ) andmed pankrotimenetluses esitatud hagide l&auml;bivaatamise kohta , samuti hagide kohta , mida haldur kavatseb veel esitada ;</s>
+</p>
+<p>
+<s>9 ) kohtukulud ning ajutise halduri ja halduri tehtud vajalikud kulutused .</s>
+</p>
+<p>
+<s>( 3 ) Haldur peab l&otilde;pparuandes m&auml;rkima , kas maksej&otilde;uetuse tekkimise p&otilde;hjuseks on kuriteo tunnustega tegu , raske juhtimisviga v&otilde;i muu asjaolu .</s>
+</p>
+<p>
+<s>( 4 ) Kui juriidilisest isikust v&otilde;lgnik likvideeritakse , lisatakse l&otilde;pparuandele l&otilde;ppbilanss .</s>
+</p>
+<p>
+<s>( 5 ) Haldur avaldab kohtuteadete avaldamiseks etten&auml;htud ajalehes teate , milles on andmed , kus ja millal v&otilde;ib l&otilde;pparuandega tutvuda , ja see , et vastuv&auml;ite v&otilde;ib esitada kohtule 10 p&auml;eva jooksul teate avaldamisest .</s>
+</p>
+<p>
+<s>( 6 ) Halduri l&otilde;pparuande kinnitamise m&auml;&auml;ruses m&auml;rgib kohus , kas v&otilde;lgniku maksej&otilde;uetuse tekkimise p&otilde;hjuseks on kuriteo tunnustega tegu , juhtimisviga v&otilde;i muu asjaolu .</s><s>Kui kohus on m&auml;&auml;ruses m&auml;rkinud , et v&otilde;lgniku maksej&otilde;uetuse tekkimise p&otilde;hjuseks on kuriteo tunnustega tegu , teatab kohus sellest prokur&ouml;rile v&otilde;i politseile kriminaalasja algatamise otsustamiseks .</s><s>Kui kohus m&auml;&auml;ruses m&auml;rgib , et v&otilde;lgniku maksej&otilde;uetuse tekkimise p&otilde;hjuseks on raske juhtimisviga , on haldur kohustatud esitama kahju h&uuml;vitamise n&otilde;ude raskes juhtimisveas s&uuml;&uuml;dioleva isiku vastu .</s>
+</p>
+<p>
+<s>( 7 ) Kui kohus l&otilde;pparuande kinnitamisel leiab , et haldur on oma &uuml;lesannete t&auml;itmiseks teinud p&otilde;hjendamatuid kulutusi , v&otilde;ib kohus halduri tasu v&auml;hendada kulutuste v&otilde;rra , mis ei olnud vajalikud .</s><s>Kui halduril oli p&otilde;hjendamatute kulutuste tegemiseks pankrotitoimkonna n&otilde;usolek , on halduril regressi&otilde;igus pankrotitoimkonna liikmete vastu , kes h&auml;&auml;letasid n&otilde;usoleku andmise poolt .</s>
+</p>
+<p>
+<s>( 8 ) K&uuml;mne p&auml;eva jooksul p&auml;rast vastuv&auml;idete esitamise t&auml;htaja m&ouml;&ouml;dumist otsustab kohus l&otilde;pparuande kinnitamise ja pankrotimenetluse l&otilde;petamise .</s><s>Pankrotimenetluse l&otilde;petamise m&auml;&auml;ruses m&auml;rgib kohus iga v&otilde;lausaldaja tunnustatud n&otilde;ude osa , mille ulatuses v&otilde;lausaldaja ei ole raha saanud .</s><s>Kui kohus kohaldab v&otilde;lgniku suhtes paragrahv 35 l&otilde;ikes 3 m&auml;rgitud &auml;rikeeldu , m&auml;rgib kohus m&auml;&auml;ruses &auml;rikeelu kohaldamise .</s>
+</p>
+<p>
+<s>( 9 ) M&auml;&auml;ruse peale , millega kohus pankrotimenetluse l&otilde;petab , l&otilde;pparuande kinnitab v&otilde;i &auml;rikeeldu kohaldab , v&otilde;ib v&otilde;lgnik v&otilde;i v&otilde;lausaldaja esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 10 ) Kohus j&auml;tab l&otilde;pparuande kinnitamata ja tagastab selle p&otilde;histatud m&auml;&auml;rusega haldurile pankrotimenetluse j&auml;tkamiseks , kui l&otilde;pparuandest ilmneb , et pankrotimenetluses on rikutud v&otilde;lgniku v&otilde;i v&otilde;lausaldajate &otilde;igusi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>N&otilde;uete esitamine p&auml;rast pankrotimenetluse l&otilde;ppemist</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;ude , mille v&otilde;is esitada pankrotimenetluses , kuid mis on selles j&auml;&auml;nud esitamata , v&otilde;ib v&otilde;lausaldaja esitada f&uuml;&uuml;silisest isikust v&otilde;lgniku v&otilde;i juriidilisest isikust v&otilde;lgniku , keda ei ole l&otilde;petatud , vastu p&auml;rast pankrotimenetluse l&otilde;ppu hagimenetluses .</s><s>Kui v&otilde;lgniku v&otilde;la makset&auml;htp&auml;ev loeti paragrahv 21 alusel saabunuks , arvestatakse aegumist&auml;htaega pankroti v&auml;ljakuulutamisest .</s><s>Pankrotimenetluse aja eest intresse ja viiviseid ei arvestata .</s>
+</p>
+<p>
+<s>( 2 ) Pankrotimenetluse ajal tekkinud n&otilde;ude v&otilde;lgniku vastu v&otilde;ib esitada p&auml;rast pankrotimenetluse l&otilde;ppu hagimenetluses .</s><s>Aegumist&auml;htaega arvestatakse pankrotimenetluse l&otilde;ppemisest .</s>
+</p>
+<p>
+<s>( 3 ) Pankrotimenetluses tunnustatud n&otilde;ude osa , mille ulatuses v&otilde;lausaldaja ei ole pankrotimenetluses raha saanud , t&auml;idab haldur p&auml;rast pankrotimenetluse l&otilde;ppu t&auml;itemenetluse seadustikus s&auml;testatud korras paragrahv 94 l&otilde;ikes 5 nimetatud kohtum&auml;&auml;ruse alusel .</s>
+</p>
+<p>
+<s>( 4 ) L&otilde;ikes 3 nimetatud n&otilde;uet t&auml;idetakse kuni n&otilde;ude t&auml;ieliku rahuldamiseni , kuid mitte kauem kui 10 aasta jooksul pankrotimenetluse l&otilde;ppemisest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Halduri vabastamine ja tema kohustused p&auml;rast pankrotimenetluse l&otilde;ppemist</s>
+</p>
+<p>
+<s>( 1 ) Pankrotimenetluse l&otilde;petamisel otsustab kohus , kas vabastada haldur tema kohustustest , m&auml;rkides selle pankrotimenetluse l&otilde;petamise m&auml;&auml;ruses .</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib j&auml;tta halduri vabastamata , kui pankrotivara ei ole t&auml;ielikult m&uuml;&uuml;dud v&otilde;i kui pankrotivarasse on veel raha laekumas , samuti siis , kui halduri poolt esitatud hagid on l&auml;bi vaatamata v&otilde;i kui haldur kavatseb hagi esitada v&otilde;i kui haldur on paragrahv 94 l&otilde;ikes 6 nimetatud alusel kohustatud esitama hagi .</s><s>Nendel juhtudel j&auml;tkab haldur pankrotivara m&uuml;&uuml;mist ja jaotiste alusel raha v&auml;ljamaksmist .</s>
+</p>
+<p>
+<s>( 3 ) Kui haldur j&auml;tkab p&auml;rast pankrotimenetluse l&otilde;petamist l&otilde;ikes 2 nimetatud kohustuste t&auml;itmist , esitab ta iga kuue kuu j&auml;rel kohtule aruande laekunud raha ja v&auml;ljamakstud raha kohta .</s><s>Kui kogu vara on m&uuml;&uuml;dud ja raha ei ole laekumas , vabastab kohus halduri tema kohustustest halduri ettepaneku alusel , tehes selle kohta m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Halduri ettekanne pankrotimenetluse kohta</s>
+</p>
+<p>
+<s>( 1 ) Kui pankrotimenetlus ei ole l&otilde;petatud kahe aasta jooksul p&auml;rast pankroti v&auml;ljakuulutamist , esitab haldur pankrotitoimkonnale ja kohtule ettekande , milles m&auml;rgib :</s>
+</p>
+<p>
+<s>1 ) p&otilde;hjused , miks pankrotimenetlust ei ole l&otilde;pule viidud ;</s>
+</p>
+<p>
+<s>2 ) andmed m&uuml;&uuml;dud ja m&uuml;&uuml;mata pankrotivara kohta ;</s>
+</p>
+<p>
+<s>3 ) andmed pankrotivara valitsemise kohta .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ikes 1 nimetatud ettekande esitab haldur iga j&auml;rgneva kuue kuu j&auml;rel pankrotimenetluse l&otilde;petamiseni .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>XII .</s><s>Pankrotimenetluse kulud ja trahvid</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>Pankrotimenetluse kulud</s>
+</p>
+<p>
+<s>( 1 ) Pankrotimenetluse kulud on :</s>
+</p>
+<p>
+<s>1 ) kohtukulud ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>2 ) ajutise halduri tasu ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>3 ) halduri tasu ;</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>3 <hi rend="sup">1</hi> ) pankrotitoimkonna liikmete tasu .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.16.07.2000 - RT I 2000 , 54 , 353 )</s>
+</p>
+<p>
+<s>4 ) ajutise halduri ja halduri tehtud vajalikud kulutused oma &uuml;lesannete t&auml;itmiseks , sealhulgas kulutused ekspertiisile ja audiitorkontrollile .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ike 1 punktis 4 nimetatud kulutusi v&otilde;ib haldur teha pankrotitoimkonna n&otilde;usolekul .</s><s>Kui pankrotitoimkond on andnud haldurile n&otilde;usoleku teha oma &uuml;lesannete t&auml;itmiseks p&otilde;hjendamatuid kulutusi , vastutavad n&otilde;usoleku andnud pankrotitoimkonna liikmed v&otilde;lgniku ees solidaarselt halduriga .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui pankrotiavaldus rahuldatakse , samuti kui pankrotimenetlus l&otilde;petatakse p&auml;rast pankroti v&auml;ljakuulutamist kompromissiga , tasutakse pankrotimenetluse kulud pankrotivarast .</s><s>Kui kompromiss tehakse enne pankroti v&auml;ljakuulutamist , tasub pankrotimenetluse kohtukulud v&otilde;lgnik .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kui kohus j&auml;tab v&otilde;lausaldaja pankrotiavalduse rahuldamata , h&uuml;vitab v&otilde;lausaldaja pankrotimenetluse kulud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Pankrotimenetluse raugemise korral otsustab kohus pankrotimenetluse kulude jagamise asjaolude kohaselt .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 6 ) Pankrotimenetluse kulude kohta tehtud m&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Halduri tasu</s>
+</p>
+<p>
+<s>( 1 ) Pankrotimenetluse l&otilde;pparuande kinnitamisel m&auml;&auml;rab kohus p&auml;rast halduri , pankrotitoimkonna ja v&otilde;lgniku arvamuse &auml;rakuulamist haldurile tasu .</s>
+</p>
+<p>
+<s>( 2 ) Halduri tasu arvestatakse pankrotivara m&uuml;&uuml;gist ja tagasiv&otilde;itmisest , samuti halduri muu tegevuse tulemusena pankrotivarasse laekunud ja pankrotivara hulka arvatud rahast l&auml;htudes .</s><s>Tasu suuruse m&auml;&auml;ramisel arvestab kohus t&ouml;&ouml; mahtu , keerukust ja halduri kutseoskust .</s>
+</p>
+<p>
+<s>( 3 ) Halduri taotlusel v&otilde;ib kohus p&auml;rast pankrotitoimkonna arvamuse &auml;rakuulamist m&auml;&auml;rata haldurile esialgse tasu , mis tasaarvestatakse pankrotimenetluse l&otilde;ppemisel haldurile m&auml;&auml;ratud tasuga .</s><s>Kui p&auml;rast pankrotimenetluse l&otilde;ppemist laekub pankrotivarasse v&otilde;i arvatakse pankrotivara hulka t&auml;iendavat raha , m&auml;&auml;rab kohus halduri taotlusel talle t&auml;iendava tasu .</s>
+</p>
+<p>
+<s>( 4 ) Haldurile l&otilde;ikes 2 nimetatud rahast v&auml;ljamakstava tasu piirm&auml;&auml;rad protsentides kehtestab justiitsminister .</s><s>Tasu suurus ei v&otilde;i olla v&auml;iksem kui &uuml;ks protsent sellest rahast .</s>
+</p>
+<p>
+<s>( 5 ) Kui tehakse kompromiss v&otilde;i pankrotimenetlus l&otilde;petatakse juriidilisest isikust v&otilde;lgnikku l&otilde;petamata , m&auml;&auml;rab kohus halduri tasu paragrahv 12 <hi rend="sup">1</hi> l&otilde;ikes 5 s&auml;testatust l&auml;htudes .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 100. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Trahvid</s>
+</p>
+<p>
+<s>Kohus v&otilde;ib lisaks tsiviilkohtupidamise seadustikus s&auml;testatud alustele m&auml;&auml;rata trahvi :</s>
+</p>
+<p>
+<s>1 ) v&otilde;lgnikule paragrahvis 12 , paragrahv 20 l&otilde;ikes 5 , paragrahvis 36 , paragrahvis 37 v&otilde;i paragrahvis 38 s&auml;testatud kohustuste t&auml;itmata j&auml;tmise ning paragrahvis 35 s&auml;testatud keelu rikkumise eest ;</s>
+</p>
+<p>
+<s>2 ) v&otilde;lausaldajale , kui ta pankrotimenetluses on teinud teo , millega teadvalt kahjustas teiste v&otilde;lausaldajate v&otilde;i v&otilde;lgniku huve ;</s>
+</p>
+<p>
+<s>3 ) ajutisele haldurile paragrahv 12 <hi rend="sup">1</hi> l&otilde;ike 2 punktis 1 , paragrahv 12 <hi rend="sup">1</hi> l&otilde;ikes 3 v&otilde;i paragrahv 57 <hi rend="sup">2</hi> l&otilde;ikes 3 nimetatud kohustuse t&auml;itmata j&auml;tmise eest ;</s>
+</p>
+<p>
+<s>4 ) haldurile paragrahv 56 l&otilde;ikes 2 , paragrahv 57 l&otilde;ikes 5 , paragrahv 57 <hi rend="sup">2</hi> l&otilde;ikes 1 , paragrahv 59 l&otilde;ikes 1 , paragrahv 81 l&otilde;ikes 2 , paragrahv 94 l&otilde;ikes 1 v&otilde;i paragrahv 96 l&otilde;ikes 3 nimetatud kohustuste t&auml;itmata j&auml;tmise eest .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>XIII .</s><s>Kompromiss</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Kompromissi m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Kompromiss on v&otilde;lgniku ja pandiga tagamata n&otilde;udega v&otilde;lausaldajate vaheline kokkulepe v&otilde;lgade tasumise kohta , mis seisneb v&otilde;lgade v&auml;hendamises v&otilde;i nende tasumise t&auml;htaja pikendamises .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kompromiss tehakse v&otilde;lgniku ettepanekul pankrotimenetluses enne v&otilde;i p&auml;rast pankroti v&auml;ljakuulutamist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kompromissotsuse teeb pandiga tagamata n&otilde;udega v&otilde;lausaldajate &uuml;ldkoosolek .</s><s>Kohus otsustab kompromissi kinnitamise , tehes selle kohta m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Kompromissettepanek</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) Kompromissettepanekus teatab v&otilde;lgnik , mis ulatuses ja mis t&auml;htp&auml;evaks ta tasub v&otilde;lad .</s><s>V&otilde;lgnik peab p&otilde;hjendama , et ta suudab oma v&otilde;lad selles ulatuses ja selleks t&auml;htp&auml;evaks tasuda .</s><s>Juriidilisest isikust v&otilde;lgnik esitab ettepaneku lisana majandustegevuse j&auml;tkamise ja juriidilise isiku tervendamiskava .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Enne pankroti v&auml;ljakuulutamist esitatud kompromissettepanekule lisab v&otilde;lgnik ajutise halduri kinnitatud v&otilde;lgniku vara ja v&otilde;lgade nimekirja ning juriidilisest isikust v&otilde;lgnik lisab bilansi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kompromissettepaneku esitab v&otilde;lgnik ajutisele haldurile v&otilde;i haldurile , kes teeb selle teatavaks v&otilde;lausaldajatele .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>Kompromissi tegemine</s>
+</p>
+<p>
+<s>( 1 ) Kompromiss tehakse pandiga tagamata n&otilde;udega v&otilde;lausaldajate &uuml;ldkoosolekul k&otilde;igi pandiga tagamata n&otilde;uete kohta ( kompromissotsus ) , mis olid olemas kompromissi tegemise ajaks , s&otilde;ltumata sellest , kas n&otilde;ude tasumise t&auml;htaeg oli m&ouml;&ouml;dunud v&otilde;i mitte .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kompromiss on tehtud , kui</s>
+</p>
+<p>
+<s>1 ) v&otilde;lgnik teeb ettepaneku maksta v&auml;hemalt poole pandiga tagamata n&otilde;uete summast ja kui selle poolt h&auml;&auml;letab v&auml;hemalt 2/3 kohalviibivatest v&otilde;lausaldajatest , kelle n&otilde;uded moodustavad v&auml;hemalt 2/3 k&otilde;igi pandiga tagamata n&otilde;uete summast v&otilde;i</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>2 ) v&otilde;lgnik teeb ettepaneku maksta alla poole pandiga tagamata n&otilde;uete summast ja kui selle poolt h&auml;&auml;letab v&auml;hemalt 3/4 kohalviibivatest v&otilde;lausaldajatest , kelle n&otilde;uded moodustavad v&auml;hemalt 3/4 k&otilde;igi pandiga tagamata n&otilde;uete summast .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kompromiss kehtib k&otilde;igi pandiga tagamata n&otilde;udega v&otilde;lausaldajate suhtes , s&otilde;ltumata sellest , kas v&otilde;lausaldaja h&auml;&auml;letamisel osales v&otilde;i mitte .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kompromissotsuses m&auml;rgitakse ka kompromissi kehtivuse t&auml;htaeg .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>Pankroti v&auml;ljakuulutamine p&auml;rast kompromissettepaneku esitamist</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) Kompromissettepaneku esitamisest kuni kompromissi otsustamiseni v&otilde;ib kohus pankroti v&auml;lja kuulutada vaid siis , kui on kaalukaid p&otilde;hjusi eeldada , et kompromissi ei saavutata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui kompromissettepanekule vaatamata kompromissi ei tehta , otsustab kohus pankroti v&auml;ljakuulutamise .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>Kompromissettepaneku l&auml;bivaatamine enne pankroti v&auml;ljakuulutamist</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) Kui kompromissettepanek on tehtud enne pankroti v&auml;ljakuulutamist , kutsub ajutine haldur kokku v&otilde;lausaldajate &uuml;ldkoosoleku .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Ajutine haldur teatab v&otilde;lausaldajate &uuml;ldkoosoleku aja ja koha kohtuteadete avaldamiseks etten&auml;htud ajalehes v&auml;hemalt 15 p&auml;eva enne koosoleku toimumist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;lausaldajate &uuml;ldkoosolekule kutsutakse k&otilde;ik pandiga tagamata n&otilde;udega v&otilde;lausaldajad , s&otilde;ltumata sellest , kas nende n&otilde;uete esitamise t&auml;htaeg on m&ouml;&ouml;dunud v&otilde;i tingimus saabunud .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>Kompromissettepaneku l&auml;bivaatamine p&auml;rast pankroti v&auml;ljakuulutamist</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast pankroti v&auml;ljakuulutamist tehtud kompromissettepanek vaadatakse l&auml;bi p&auml;rast n&otilde;uete kaitsmist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Haldur kutsub kokku v&otilde;lausaldajate &uuml;ldkoosoleku 15 p&auml;eva jooksul p&auml;rast viimast n&otilde;uete kaitsmise koosolekut .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>Kompromissi kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) Ajutine haldur v&otilde;i haldur esitab kompromissotsuse kohtule viivitamata .</s><s>Kompromissi kinnitamise otsustab kohus 15 p&auml;eva jooksul kompromissotsuse kohtule esitamise p&auml;evast , tehes selle kohta m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kohus ei kinnita kompromissi , kui :</s>
+</p>
+<p>
+<s>1 ) kompromissi tegemisel ei ole j&auml;rgitud k&auml;esolevas seaduses s&auml;testatud n&otilde;udeid v&otilde;i</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>2 ) kompromiss on tehtud pettuse m&otilde;jul .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kui kohus ei kinnita kompromissotsust l&otilde;ike 2 punkti 1 alusel , kutsub ajutine haldur v&otilde;i haldur kokku uue v&otilde;lausaldajate &uuml;ldkoosoleku 15 p&auml;eva jooksul kompromissi kinnitamata j&auml;tmise m&auml;&auml;ruse tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) M&auml;&auml;ruse peale , millega kohus kompromissi kinnitas v&otilde;i kinnitamata j&auml;ttis , v&otilde;ib pandiga tagamata n&otilde;udega v&otilde;lausaldaja v&otilde;i v&otilde;lgnik , ajutine haldur v&otilde;i haldur esitada erikaebuse .</s><s>Erikaebuse kohta tehtud ringkonnakohtu m&auml;&auml;ruse peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 5 ) Ajutine haldur v&otilde;i haldur avaldab teate kompromissi kinnitamisest kohtuteadete avaldamiseks etten&auml;htud ajalehes .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>Kompromissi tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Kompromissi kinnitamise m&auml;&auml;rusega l&otilde;petab kohus pankrotimenetluse .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;ruse alusel saab v&otilde;lgnik tagasi vara valitsemise &otilde;iguse ja vara m&uuml;&uuml;k l&otilde;petatakse .</s><s>Vara m&uuml;&uuml;gist laekunud raha , mis ei ole v&otilde;lausaldajale &uuml;le antud , antakse &uuml;le v&otilde;lgnikule .</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;lgnikule l&auml;heb &uuml;le kohustus teha pankrotimenetlusega seotud v&auml;ljamaksed ( paragrahv 85 ) .</s>
+</p>
+<p>
+<s>( 4 ) N&otilde;udeid , mille suhtes kompromiss kehtib , ei saa kompromissi kehtivuse ajal esitada .</s>
+</p>
+<p>
+<s>( 5 ) Kompromissi kehtivuse ajal ei saa v&otilde;lgniku pankrotti v&auml;lja kuulutada .</s>
+</p>
+<p>
+<s>( 6 ) Pankrotimenetluse l&otilde;petamisel kompromissotsuse kinnitamisega ei vabastata haldurit ja ta t&auml;idab paragrahvides 112 , 114 ja 115 etten&auml;htud kohustusi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 110. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 111. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 112.</s><s>Tagasiv&otilde;itmine kompromissi korral</s>
+</p>
+<p>
+<s>Kui kompromiss on tehtud p&auml;rast pankroti v&auml;ljakuulutamist , on halduril &otilde;igus kompromissi kehtivuse ajal vara pankrotivarasse tagasi n&otilde;uda v&otilde;i tagasi v&otilde;ita .</s><s>Pankrotivarasse saadud varast t&auml;idab v&otilde;lgnik kompromissotsusest tulenevaid kohustusi .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 113.</s><s>V&otilde;lgniku vanne kompromissi korral</s>
+</p>
+<p>
+<s>Kui kompromissettepanek esitatakse enne pankroti v&auml;ljakuulutamist , v&otilde;ib kohus v&otilde;lausaldajate &uuml;ldkoosoleku taotlusel n&otilde;uda v&otilde;lgnikult vande andmist enne kompromissi tegemist .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 114.</s><s>J&auml;relevalve kompromissi t&auml;itmise &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) Kompromissi t&auml;itmise j&auml;rele vaatab haldur .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 2 ) Kui kompromiss on tehtud enne pankroti v&auml;ljakuulutamist , nimetab kohus &uuml;heaegselt kompromissotsuse kinnitamisega halduriks v&otilde;lausaldajate &uuml;ldkoosoleku esitatud isiku .</s><s>Kui esitatud isik ei vasta paragrahvis 29 s&auml;testatud n&otilde;uetele , nimetab kohus halduriks teise isiku .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 115.</s><s>Kompromissi t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Kohus t&uuml;histab kompromissi halduri v&otilde;i v&otilde;lausaldaja n&otilde;udel , kui :</s>
+</p>
+<p>
+<s>1 ) v&otilde;lgnik pani toime pankrotikuriteo v&otilde;i</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>2 ) v&otilde;lgnik ei t&auml;ida kompromissist tulenevaid kohustusi v&otilde;i</s>
+</p>
+<p>
+<s>3 ) kompromissi kehtivuse ajast v&auml;hemalt poole m&ouml;&ouml;dumisel on ilmne , et v&otilde;lgnik ei suuda kompromissi tingimusi t&auml;ita .</s>
+</p>
+<p>
+<s>( 2 ) Kompromissi t&uuml;histamise n&otilde;ude v&otilde;ib esitada kompromissi kehtivuse t&auml;htajal .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 3 ) Kompromissi t&uuml;histamisel pankrotimenetlus taastatakse .</s><s>Kompromissi t&uuml;histab ja pankrotimenetluse taastab kohus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>( 4 ) Kompromissi t&uuml;histamisel on v&otilde;lausaldajal , kelle n&otilde;ue kompromissiga v&auml;henes , n&otilde;ude&otilde;igus esialgses suuruses , arvestades tema poolt saadut .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 116. ( Kehtetu - 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+<p>
+<s>&sect; 117.</s><s>Kompromissi t&auml;htaja m&ouml;&ouml;dumine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast kompromissi kehtivuse t&auml;htaja m&ouml;&ouml;dumist v&otilde;ivad v&otilde;lausaldajad juhul , kui kompromiss ei ole t&uuml;histatud , n&otilde;uda , et kompromissi ajal nende rahuldamata j&auml;&auml;nud n&otilde;uded rahuldataks kompromissiga kokkulepitud ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Kui kompromissi ei ole t&uuml;histatud , vabastab kohus halduri tema kohustustest p&auml;rast kompromissi kehtivuse t&auml;htaja m&ouml;&ouml;dumist , m&auml;&auml;rates talle tasu .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.01.02.97 - RT I 1997 , 5 , 32 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

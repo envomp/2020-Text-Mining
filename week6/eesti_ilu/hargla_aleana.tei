@@ -1,0 +1,296 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Aleana</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 45278; s&otilde;nu: 4487</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Aleana</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=202></tagusage>
+         <tagusage gi=s occurs=510></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> 
+<body> 
+<div0 type='tervikteos'><head>Aleana</head> 
+<p><bibl><author><s>Indrek Hargla</s></author></bibl></p>
+<p> <s> " Naine ? " </s> </p>
+<p> <s> " Naine . </s> <s> &Uuml;tles oma nime ka . </s> <s> Aleana . </s> <s> Ja nende neetud orbitaalkaitse lasi ta l&auml;bi . " </s> </p>
+<p> <s> " Aleana ? </s> <s> Kummaline ... </s> <s> Kui kaugel ta on ? " </s> </p>
+<p> <s> " Nii kaugel , kuhu me ta lasime . </s> <s> Relvastust ei tuvastatud . " </s> </p>
+<p> <s> " See t&auml;hendab ? " </s> </p>
+<p> <s> " Et tal pole pardarelvastust . </s> <s> Isegi kui oleks ... " </s> <s> Mees tegi k&auml;ega t&auml;hendusrikka &zcaron;esti . </s> <s> " See on ju ainult paat . " </s> </p>
+<p> <s> " Ainult paat ... </s> <s> Aga sel paadil peab olema p&otilde;hjus . . " </s> </p>
+<p> <s> " Ta ei &ouml;elnud . </s> <s> Palus ainult luba laskumiseks . . " </s> </p>
+<p> <s> " Mingi saadik . </s> <s> Ega's midagi , kuulame ta &auml;ra . </s> <s> Ikkagi esimene , kes sealt rotiurkast julgeb v&auml;lja pugeda . . " </s> </p>
+<p> <s> " Just nii , admiral ! " </s> </p>
+<p> <s>Ja admiral Ronel sev Olbau lahkus kaptenisillalt , laskus tagasi oma apartamendi poole , asetas k&auml;e uksel asuvale detektorile . </s> <s> Uks avanes . </s> <s> Admiral sisenes ja k&auml;ivitas monitori , millele ilmus kujutis hiiglaslikule Terranoova Kuningliku Laevastiku Vikerlase Eskaadri Lipulaevale " Faust " l&auml;henevast imev&auml;ikesest kosmoses&uuml;stikust . </s> <s> Ekraani paremas nurgas vilkusid parameetrid , mida hiigeltark pardaarvuti t&uuml;hjusest peilitavast putukast teadis . </s> <s> Ning isegi s&uuml;stiku nime ja valmistamisaasta tundis tark masin &auml;ra . </s> </p>
+<p> <s>Ronel avas pardakompuutri kommandokeskuse paneeli , h&auml;&auml;letult t&otilde;usis peenikese juhtme otsa kinnitatud analoogmaatriks ta k&otilde;rvade k&otilde;rgusele . </s> <s> Admiral l&uuml;kkas vasaku k&otilde;rva tagant naha pisut k&otilde;rvale ning ahnelt &uuml;hendus analoogmaatriks ta implandiga . </s> <s> Sekundi murdosaks pimenes kompuutriekraan ja siis lahvatasid sellele p&auml;&auml;sukoodid . </s> <s> Ainult &uuml;he k&uuml;simuse esitas kompuuter admiralile ja sai sellele vastuseks " jah " . </s> </p>
+<p> <s>Siis l&auml;bistas inimmeelele tunnetamatu v&otilde;nge " Fausti " &uuml;mbritsevat t&uuml;hjust , mille taamal rohetas Belauv&eacute;r oma talumatus ilus . </s> <s> Blokaad oli maas aga ainult hetkeks , mille jooksul lipulaeva k&otilde;rval k&auml;rbsena tunduv s&uuml;stik l&auml;bis mittemillegagi m&otilde;&otilde;detava mittemiski , mis muidu oleks ta triljoneiks killuks annihileerinud . </s> <s> Terranoova v&otilde;itmatu Laevastiku kaitsev&auml;li ja &uuml;htlasi ka r&uuml;ndej&otilde;ud &mdash; kilp ja m&otilde;&otilde;k &mdash; kadus , et lubada oma pardale keegi tundmatu Aleana . </s> <s> Kangekaelse ja alistamatu Belauv&eacute;ri saadik . </s> </p>
+<p> <s>S&uuml;stik l&auml;bis kilomeetritepikkuse kordontunneli , mis oli m&otilde;eldud sadu kordi suuremate laevade sildumiseks ja mille tuima valgustuse seest puurisid paati tuhanded elektroonilised andurid ja tundlad , et igaveseks pardakompuutri m&auml;llu s&ouml;&ouml;vitada ka k&otilde;ige t&auml;htsusetumad andmed &mdash; need , mida kaugseire polnud tuvastanud . </s> <s> Admiral k&uuml;&uuml;rutas kajuti ekraanide taga ja j&auml;lgis t&auml;helepanelikult k&uuml;lalist . </s> </p>
+<p> <s>Naine . </s> <s> Loomulikult ilus , ega's nad m&otilde;nda vanamoori saada . </s> <s> K&otilde;rk ilme , liigagi k&otilde;rk &uuml;he saadiku jaoks aga see on ilmselt k&otilde;igi belauveerlaste viga . </s> <s> Muidu ei piiraks Laevastik seda planeeti juba k&uuml;mnendat kuud . </s> <s> Aga liiga v&auml;he avastas Ronel " Fausti " k&uuml;lalise holopildist inimlikke jooni . </s> <s> Liiga v&auml;he . </s> <s> Ent &uuml;ks oli selge , naine polnud &uuml;llatunud , masendatud ega l&ouml;&ouml;dud ruumihiiglase &uuml;levusest ega lahingj&otilde;ust . </s> <s> Uhke nagu belauveerlane &ouml;eldi siin ruuminurgas ning &uuml;tlejad olid enamasti s&uuml;steemis Terranoovale alistunud planeedid , kes vaba Riikluse idee kauplenud igavese vaba Kaubanduse privileegi vastu . </s> <s> Belauv&eacute;r &uuml;ritas neid m&otilde;lemaid s&auml;ilitada . </s> </p>
+<p> <s>See oli neist muidugi rumal . </s> </p>
+<p> <s>Ronel kutsus kaptenisilla taas &uuml;hendusele . </s> <s> " Saatke ta vastuv&otilde;tusektorisse . </s> <s> Las Pronislaus r&auml;&auml;gib temaga . </s> <s> Andke s&uuml;&uuml;a-juua ja nii edasi . . " </s> </p>
+<p> <s> " Kuulen , admiral ! </s> <s> Aga kui ta n&otilde;uab teid ? " </s> </p>
+<p> <s> " Pronislaus ! " </s> </p>
+<p> <s> " Just nii ! " </s> </p>
+<p> <s>Admiral j&auml;lgis , kuidas naine s&uuml;stikust v&auml;ljus ja vilistas vaikselt l&auml;bi hammaste . </s> <s> Kes v&otilde;is olla see imekaunis ja saladuslik Aleana , kelle relvastuseta ja eraldusm&auml;rkideta s&uuml;stiku tarbeks oli viivuks neutraliseeritud Belauv&eacute;ri orbitaalkaitse ; kes oli julgenud ilmuda ihu&uuml;ksi Ilmaruumi k&otilde;ige v&otilde;itmatuma ja v&auml;gevama laevastiku palge ette ... ja teeb seda mitte tsermoniaalr&otilde;ivais ega lennukombinesoonis vaid pikas musta-punasekirjus maani ulatuvas kleidis , mille pikad sissel&otilde;iked paljastavad sihvakad jalad iga graatsilise sammu juures ? </s> <s> Ma saan selle varsti teada , otsustas admiral ja keskendus ekraanile . </s> </p>
+<p> <s>Aleana seisis keset vastuv&otilde;turuumi " Fausti " s&uuml;dames , kilomeetri kaugusel Ronelist ja j&auml;lgis k&otilde;rgil ilmel &uuml;mbrust . </s> <s> Toa tagumises otsas avanes uks ja laevastiku vastuluure&uuml;lem Ufan Pronislaus astus maailma avalamaks naeratuseks manatud n&auml;oga saali . </s> <s> Ronel fokusseeris pildi Aleana n&auml;ole . </s> </p>
+<p> <s>Ta n&auml;gi piklikku tumedajumelist naisen&auml;gu &mdash; umbes sellised pidid k&otilde;ik belauveerlased olema , teadis ta &mdash; milles vilkusid kirglikult kaunid silmad . </s> <s> Naine oli pikk , tema n&auml;gu , kleit ja jalad samuti ning tema rinnad suured . </s> <s> Admiral Ronel tundis &auml;kilist erektsiooni ja m&otilde;tles " Fausti " bordellblokile . </s> <s> Ja m&otilde;tles vist &uuml;sna kaua , sest &auml;kitselt tajus ta , et Aleana ja Pronislaus olid juba r&auml;&auml;kima hakanud . </s> </p>
+<p> <s> " ... v&otilde;tan alati vastu . </s> <s> Ma olen tseremooniameister ja Tema Majesteedi K&uuml;lalislahkusteenistuse Laevastiku all&uuml;ksuse " Faust " esimene kammerh&auml;rra , " &uuml;tles Pronislaus h&auml;sti teeseldud solvumisega ja kummardas . </s> <s> Ilmselt juba mitmendat korda . </s> </p>
+<p> <s> " Admiral , " kordas kristallpuhas naiseh&auml;&auml;l . </s> <s> " Ma tahan teda n&auml;ha . . " </s> </p>
+<p> <s> " Siis lubage kapitulatsioonilepingu eeln&otilde;u ja ma kannan admiralile selle sisu ette . </s> <s> &Uuml;htlasi ka teie volikirjad palun ! </s> <s> Nii n&auml;eb ette protokoll . . " </s> </p>
+<p> <s> " Kas teie protokoll inimeste surnuksn&auml;ljutamisest ka midagi r&auml;&auml;gib ? " k&uuml;sis naine tervalt ja Ronel kujutas elavalt ette ta mustade silmade s&auml;hvatust . </s> </p>
+<p> <s> " Ma ei m&otilde;ista ... " </s> </p>
+<p> <s> " Aga m&otilde;istate k&uuml;ll ! </s> <s> Teie blokaadi ja embargo t&otilde;ttu on Belauv&eacute;r n&auml;ljah&auml;dale v&auml;ga l&auml;hedal ning te teate seda . . " </s> </p>
+<p> <s> " Oo , te kindlasti liialdate ! </s> <s> Pole v&otilde;imalik , et nii &otilde;itsev maailm &mdash; nii rikas maailm &mdash; lubage mul lisada , on n&auml;lgimas selliste konventsionaalsete , kuid ma kardan , et h&auml;davajalike poliitiliste meetmete t&otilde;ttu , mida Tema Majesteet pidas tarvilikuks oma riigis kehtestada . . " </s> </p>
+<p> <s> " Kammerh&auml;rra ! </s> <s> Ja r&auml;&auml;gite poliitikast ! " </s> </p>
+<p> <s> " Me ei peaks poliitikast t&otilde;epoolest r&auml;&auml;kima , teil on t&auml;iesti &otilde;igus . </s> <s> Kui lubate n&uuml;&uuml;d , siis kapitulatsioonilepingu eeln&otilde;u ? " </s> </p>
+<p> <s> " Kas te siis ei n&auml;e , et mul pole seda . . " </s> </p>
+<p> <s> " Kindlasti on see salvestatud implanti . . " </s> </p>
+<p> <s> " Me ei kasuta neid . </s> <s> Mul on tarvis admiral Ronel sev Olbauga r&auml;&auml;kida . . " </s> </p>
+<p> <s> " Ma kardan , et ilma teie volikirjadeta ei pea Tema Majesteedi protokoll v&otilde;imalikuks ... " </s> </p>
+<p> <s>Naine libistas &auml;kitselt k&auml;e kleidi dekolteesse oma &uuml;marate rindade juurde ja t&otilde;mbas v&auml;lja pisikese plaadikese . </s> <s> " Kas seda peab Tema Majesteedi protokoll v&otilde;imalikuks ? " k&uuml;sis ta k&otilde;rgil toonil . </s> </p>
+<p> <s>Kiirelt suurendas Ronel kujutist ja sundis kompuutrit objekti identifitseerima . </s> <s> Enam ta ei vilistanud , vaid hingas s&uuml;gavalt sisse . </s> <s> Ja siis sisestas ta vasak k&auml;si klaviatuuril korralduse , mis samal hetkel edastus " kammerh&auml;rra " implanti . </s> </p>
+<p> <s>Protokolliga v&otilde;is selleks korraks l&otilde;pu teha . </s> </p>
+<p> <s>Admirali apartamendi s&ouml;&ouml;gituba oligi m&otilde;eldud k&uuml;laliste vastuv&otilde;tuks , nende vapustamiseks ja &uuml;llatamiseks , sest uus-renessanssilikus stiilis sisustatud sammastega ruumi seintel rippusid holod lahingustseenidega Vikerlase Eskaadri v&otilde;itudest . </s> <s> Purustus , h&auml;ving ja v&otilde;idukuulsus ; Tema Majesteedi suursuguse nime kandumine &uuml;le ilmaruumi stabiilsuse , h&uuml;vangu ja s&uuml;nni&otilde;iguste tagamiseks . </s> <s> Holod polnud staatilised , vaid vahetasid aeglaselt pilte , andes kosmoselahingut edasi k&otilde;ige mitmekesistemas v&auml;rvides ja vaatenurkades . </s> <s> Keegi v&otilde;is neist kindlasti leida ilu ja &uuml;levust . </s> <s> Aga Ronel k&uuml;sis oma &otilde;htus&ouml;&ouml;gikaaslase k&auml;est : " Kui need pildid teid h&auml;irivad , v&otilde;in ma nad v&auml;lja l&uuml;litada ? " </s> </p>
+<p> <s>Naine vaatas tuimalt holode poole ja kehitas oma kauneid &otilde;lgu . </s> <s> " Nii lihtsalt teil see k&auml;ibki ? </s> <s> Et l&uuml;litate v&auml;lja ? </s> <s> K&uuml;mned maailmad ja miljardid saatused &mdash; nagu neid poleks enam olnudki , kl&otilde;ps ja me vaatame Terranoova kauneid kunste ... </s> <s> Mind ei h&auml;iri need s&otilde;japildid , admiral . . " </s> </p>
+<p> <s> " Kuidas soovite . </s> <s> Ma t&auml;nan teid s&uuml;damest , et te mu tagasihoidliku kutse vastu v&otilde;tsite . . " </s> </p>
+<p> <s> " Polnud ju erilist valikut , v&otilde;i kuidas ? </s> <s> Pealegi tahtsin ma teid n&auml;ha . " </s> <s> Ta p&ouml;&ouml;ras oma tumedad silmad holodelt admirali poole . </s> <s> " Tahtsin v&auml;ga n&auml;ha . </s> <s> Ainult teid . . " </s> </p>
+<p> <s> " Ma olen meelitatud ... </s> <s> Aleana , " pakkus admiral . </s> </p>
+<p> <s> " Aleana , " kordas naine ja tema huultelt kostus ta nimi s&uuml;gavkauni muusikana . </s> </p>
+<p> <s> " Ja mina olen Ronel , " &uuml;tles admiral Ronel sev Olbau . </s> <s> " Veini ? " </s> </p>
+<p> <s> " Jah . . " </s> </p>
+<p> <s>Vein oli Villebaune'i planeeti katvatelt viinamarjav&auml;ljadelt , vanutatud Terranoova &otilde;ukonna reeglite kohaselt ja " Faustil " v&otilde;is seda juua ainult admirali enda loal . </s> <s> Viimane t&otilde;usis , astus aeglaselt laua teise otsa , kummardus ja kallas Aleana pokaali t&auml;is . </s> <s> Nad l&otilde;id kokku ja vaatasid vastastikku silma . </s> <s> Admiral l&otilde;i esimesena silmad maha . </s> <s> " Mille terviseks ? " </s> </p>
+<p> <s> " Rahu . </s> <s> Me joome Belauv&eacute;ril alati rahu terviseks . . " </s> </p>
+<p> <s> " Rahu s&uuml;ndigu ! " </s> </p>
+<p> <s>Vein oli h&otilde;rkjalt muskaatne , pikalt hammastevahele j&auml;&auml;va s&uuml;gavpunase suudluse maitsega . </s> </p>
+<p> <s> " Miks te tahtsite mind n&auml;ha ? " k&uuml;sis admiral ning viipas nurgas seisvale valges livrees kelnerile , kes vaikselt toitudega askeldama hakkas . </s> </p>
+<p> <s>Naine libistas k&auml;ega &otilde;rnalt &uuml;le oma rindade . </s> <s> " Kas see polnud siis piisav p&otilde;hjus ? " </s> </p>
+<p> <s> " Kuid ma ei m&otilde;ista ikkagi , miks ? " </s> </p>
+<p> <s> " Arvake &auml;ra ! " </s> </p>
+<p> <s> " Ma ei tea ju kes te olete , " kehitas Ronel abitult &otilde;lgu . </s> </p>
+<p> <s> " Arvake siis ! " </s> </p>
+<p> <s> " Milleks see pimesikum&auml;ng ? " </s> </p>
+<p> <s> " Tahtsite ju vastuseid . </s> <s> Ma v&otilde;in selle , " j&auml;lle puudutasid naise pikad s&otilde;rmed rindu , " lihtsalt siia j&auml;tta ning tagasi lennata , v&otilde;i kuidas ? </s> <s> Ma pole ju vang ? " </s> </p>
+<p> <s> " Ei , muidugi mitte . </s> <s> Olete minu k&uuml;laline ja oma liikumistes t&auml;iesti vaba . . " </s> </p>
+<p> <s> " Ma ei tea , mis sai minu s&otilde;iduriistast . . " </s> </p>
+<p> <s> " See on vastuv&otilde;tukail ja t&auml;ielikult teie k&auml;sutuses , Aleana . </s> <s> Vaid Laevastiku kaitsev&auml;lja neutraliseerimiseks on minu luba vaja . </s> <s> Aga te saate selle . </s> <s> Kui soovite , v&otilde;in s&uuml;stiku kutsuda kohe siia minu apartamendi erakanalisse . </s> <s> Juhuks kui soovite kiiresti ja diskreetselt lahkuda . </s> <s> Siiski sooviks ma teada ... " </s> </p>
+<p> <s> " Ma oleksin v&auml;ga t&auml;nulik , kui nii teeksite . . " </s> </p>
+<p> <s>Admiral noogutas , vabandas ja lahkus viivuks . </s> <s> Naases ta koos kelneriga , kes t&otilde;i neile eelroa , kuumutatud hanemaksapasteedi &uuml;mbritsetult rohelise salati ja kollaste oliividega . </s> <s> Alaena n&otilde;tket keha l&auml;bis v&otilde;patus . </s> <s> " See on </s> .... <s> protost ? " k&uuml;sis ta ettevaatlikult , ise varjamatu naudinguga rooga silmitsedes . </s> </p>
+<p> <s> " Ei.Terranoova hani . </s> <s> Meil on ju hoidisgeneraatorid peal . </s> <s> K&otilde;ik on v&auml;rske . </s> <s> Head isu ! " </s> </p>
+<p> <s> " T&auml;nu teie blokaadile pole ma juba kuid midagi sellist s&ouml;&ouml;nud . </s> <s> Keegi ei ole . </s> <s> Ja sellep&auml;rast ma vist tulingi . . " </s> </p>
+<p> <s> " Ma kuulan teid . . " </s> </p>
+<p> <s> " Jah . </s> <s> Ma loodan , et puud annavad mulle andeks , " ohkas naine ja maitses pasteeti . </s> </p>
+<p> <s> " Kindlasti . </s> <s> Te ju p&auml;&auml;stsite nad . . " </s> </p>
+<p> <s> " Nii tahan ma aravata . " </s> <s> Naise tulikuum pilk puuris &auml;kitselt admirali . </s> <s> " V&otilde;i pole mul &otilde;igus ? " </s> </p>
+<p> <s>Ronel ei vastanud kohe , vaid liigutas aeglaselt salatilehe pasteedit&uuml;kikesele . </s> <s> " &Auml;rge arvake , et see k&otilde;ik oli mulle kerge , " &uuml;tles ta l&otilde;puks . </s> <s> " Ma olen s&otilde;jamees , mitte poliitik Piirata kuid &uuml;ht rahumeelset ja armeeta planeeti pole mulle k&otilde;ige meelep&auml;rasem tegevus . </s> <s> Aga mul on k&auml;sk ning kuidas ma ka ei vaataks , on Belauv&eacute;r m&auml;ss , riigireetmine ja vastuhakk Tema Majesteedile , kellele mina olen vande andnud . . " </s> </p>
+<p> <s> " Mitte &uuml;kski belauveerlane pole teie majesteedile mingit vannet andnud . . " </s> </p>
+<p> <s> " Kuidas v&otilde;tta . </s> <s> K&otilde;igi belauveerlaste esiisad , niipalju kui ma tean , olid alguses kuninglikud metsavahid ja Belauv&eacute;r asus Ormuzini traktaadiga Lux-Panompani hertsogile antud s&uuml;steemis . </s> <s> Me tunnustame vabariiklaste piire , ent Belauv&eacute;r pole kunagi neis asunud . . " </s> </p>
+<p> <s> " Ma tahtsime lihtsalt olla vabad inimesed . . " </s> </p>
+<p> <s> " Te olete need ja j&auml;&auml;tegi neiks . </s> <s> Tema Majesteedi alam saabki olla ainult vaba inimene . . " </s> </p>
+<p> <s> " Kas te oleksite r&uuml;nnanud ? " </s> </p>
+<p> <s> " Viimase ja v&auml;ltimatu abin&otilde;una &mdash; jah , oleksime k&uuml;ll . . " </s> </p>
+<p> <s>Naine noogutas . </s> <s> " Ma teadsin seda , me k&otilde;ik teadsime . </s> <s> Kuigi Rokosan ei uskunud seda . . " </s> </p>
+<p> <s> " Rokosan ? </s> <s> Ahjaa muidugi , teie ... kuidas te teda kutsutegi &mdash; dojeen ? " </s> </p>
+<p> <s> " Dojeen . </s> <s> Tema p&otilde;ikp&auml;isus ja kangekaelsus oleks meid viinud hukatuse &auml;&auml;rele . . " </s> </p>
+<p> <s> " Sellep&auml;rast te tulitegi ? " </s> </p>
+<p> <s> " Sellep&auml;rast ma tulingi . </s> <s> Ja ma tahtsin ka teid n&auml;ha . . " </s> </p>
+<p> <s>Salatid said s&ouml;&ouml;dud ja naine l&otilde;petas veiniklaasi . </s> <s> Ronel valas selle uuesti t&auml;is . </s> <s> Nad vaatasid &uuml;ksteisele hetkeks s&otilde;natult otsa , vahetasid h&auml;&auml;letud lubadused ja j&otilde;id uuesti . </s> <s> Olematusest ilmus kelner , koristas t&uuml;hjad taldrikud ning kadus . </s> </p>
+<p> <s> " Niisiis , " &uuml;tles Aleana . </s> <s> " Kes ma siis olen ? " </s> </p>
+<p> <s> " Imetegija , ingel , " pakkus admiral ja naeratas . </s> <s> Naine naeratas vastu . </s> </p>
+<p> <s> " Kes meist ei tahaks see olla , " s&otilde;nas ta vaikselt . </s> <s> " Ma kardan , et k&otilde;ik on hoopis proosalisem . . " </s> </p>
+<p> <s> " Ma tean , " vastas Ronel . </s> <s> " Ma arvan , et te olete k&otilde;rgest soost ja kuulute dojeeni l&auml;hikondlaste hulka . </s> <s> Ilmselt m&otilde;ne ministri t&uuml;tar . </s> <s> Muidu poleks teil olnud v&otilde;imalust , " admiral valis ettevaatlikult s&otilde;nu , " hankida see ... " ja ta silmad p&ouml;&ouml;rdusid viivuks naise dekolteele ja j&auml;id sinna peatuma . </s> <s> " Ning orbitaalkaitse mahav&otilde;tmine ei pruukinud samuti kerge olla . . " </s> </p>
+<p> <s> " &Uuml;sna t&auml;pne , " m&ouml;&ouml;nas Aleana . </s> <s> " Tegelikult olen ma dojeeni abikaasa . </s> <s> Te pole vist kunagi meie p&auml;risnimede vastu huvi tundnud . . " </s> </p>
+<p> <s>Kuidas admiral &uuml;ritas ka oma jahmatust varjata , ikkagi oleks ta peaaegu pokaali k&auml;est pillanud ja tema suu vajus lahti . </s> </p>
+<p> <s> " Kuna Rokosan ei soovinud l&auml;bir&auml;&auml;kimisi pidada , pole te ju teda ka kunagi n&auml;inud . </s> <s> Dojeena on meil tuntud peamiselt ainult tiitli j&auml;rgi , minu tegelikku nime teavadki &uuml;sna v&auml;hesed ... </s> <s> Ma kopeerisin maatriksi siis , kui minu mees oli magama l&auml;inud , olin kaua uurinud , kus etaloni hoitakse . </s> <s> See polnudki nii raske , kui v&otilde;is ette kujutada . </s> <s> Kui sa oled juba otsustanud , mida teha ja oled selle &otilde;igsuses veendunud , on alati kergem toimida . </s> <s> Ma varastasin selle ja n&otilde;udsin orbitaalkaitse neutraliseerimist . </s> <s> Nad ei saanud mulle vastu hakata . </s> <s> N&uuml;&uuml;dseks nad muidugi teavad , et maatriks on kopeeritud . </s> <s> Kuid ma ei hooli sellest . . " </s> </p>
+<p> <s>Kelner t&otilde;i suppi &mdash; oap&uuml;ree hapendatud n&otilde;geste ja muskaadiga maitsestatult &mdash; admiral andis kergelt m&auml;rku uue pudeli veini jaoks . </s> <s> Aleana r&auml;&auml;kis edasi : " Ja ma tegin seda k&otilde;ike sellep&auml;rast , et meie seedrimetsad ja kolm linna ei saaks h&auml;vitatud . </s> <s> Ma vihkan Terranoovat ja tema &otilde;ukonda ja majesteeti , sest nemad sundisid mind reetma oma abikaasa . </s> <s> Ja ma n&auml;gin oma rahva h&auml;da , n&auml;dalatega muutus see aina hullemaks ... </s> <s> Seeder on ainuke , mis meil on , loomakarju pole Belauv&eacute;ril kunagi aretatud ning t&auml;nu teie blokaadile ei saa me enam puitu protoproteiini vastu kaubelda . </s> <s> Kohalik fauna aga s&uuml;&uuml;a ei k&otilde;lba . . " </s> </p>
+<p> <s>Admiral oli end m&otilde;nev&otilde;rra kogunud . </s> <s> " Ma tean seda , &uuml;ldjoontes . </s> <s> Kuid v&otilde;tan fakti , et te minuga siin laua taga &otilde;htustate m&auml;rgina sellest , et see vihkamine minu tagasihoidliku isiku suhtes ei laiene . . " </s> </p>
+<p> <s>Naine maitses ilmse naudinguga suppi . </s> <s> " Ei , ma ei vihka teid . </s> <s> Las ma r&auml;&auml;gin teile &uuml;he loo . . " </s> </p>
+<p> <s> " Heameelega . . " </s> </p>
+<p> <s> " Ma kasvasin Bel-Hoozeris , meie suuruselt teises ja k&otilde;ige vanemas linnas . </s> <s> Mul oli kolm vanemat &otilde;de ja v&auml;ga ranged vanemad . </s> <s> Terranoovast ja teistest majesteedi valitsuse all olevatest maailmadest meil palju ei teata ... </s> <s> Ei peeta isegi heaks tooniks neist r&auml;&auml;kida . </s> <s> Terranoova on alati olnud meie vaenlane ... " </s> </p>
+<p> <s> " Siiski ka k&otilde;ige suurem seedriostja , " torkas admiral viisakalt vahele . </s> </p>
+<p> <s> " &Auml;ri on &auml;ri ; ka vabariiklased ostavad seedrit . </s> <s> Asi pole selles . </s> <s> Me oleme oma s&otilde;ltumatuse &uuml;le uhked ning &otilde;ukonnatavasid ei j&auml;rgi . </s> <s> Niisiis , minu vanemad ei soosinud eriti eluviise , mida noorte t&uuml;drukute puhul &uuml;ldiselt v&auml;ltimatuks peetakse &mdash; v&auml;ljask&auml;imised ja poistega mehkeldamine . </s> <s> Bel-Hoozeris on k&uuml;ll kolm miljonit inimest , ent kuna maad on nii palju , elame me &uuml;ksteisest &uuml;sna kaugel . </s> <s> Me itsitasime &otilde;dedega tihti kuulujuttude &uuml;le , mida Terranoovast ja selle kommetest r&auml;&auml;gitakse . </s> <s> Itsitasime ja igatsesime , arvan ma . </s> <s> Sest niiv&otilde;rd erinevad on meeste ja naiste suhteid meil ja ... teil . </s> <s> Aegupidi l&auml;ksid minu &otilde;ed mehele . </s> <s> Kui kokku saime , r&auml;&auml;kisid nad tihti , mida nad siis &otilde;ieti teevad ja see t&auml;itis mind veel suurema uudishimuga . </s> <s> Vanemad aga polnud huvitatud minu abiellumisest . </s> <s> Nad ei tahtnud &uuml;ksinda meie m&otilde;isa j&auml;&auml;da , ootasid ja lootsid peigmeest , kes nende meelep&auml;ra j&auml;rgi oleks ja majapidamise &uuml;le v&otilde;taks , poegi neil ju polnud . </s> <s> &Uuml;hel p&auml;eval sattus dojeen Bel-Hoozerisse ja mind v&otilde;eti vastuv&otilde;tule kaasa . . " </s> </p>
+<p> <s> " Rokosan ? " </s> </p>
+<p> <s> " Rokosan Delbutis Haizak III . </s> <s> Ta n&auml;gi mind ja samal &otilde;htul tegi mu vanematele ettepaneku , millest nad ei saanud keelduda . </s> <s> Nii sai minust dojeena . </s> <s> See oli &uuml;heksa aastat tagasi . . " </s> </p>
+<p> <s>Admiral noogutas . </s> <s> " See v&otilde;is teie jaoks olla v&auml;ga suur muutus . </s> <s> V&auml;ikesest maam&otilde;isast pealinna , planeedi esimeseks leediks ... " </s> </p>
+<p> <s> " Jah oli k&uuml;ll . </s> <s> Aga mitte seda ei tahtnud ma &ouml;elda . . " </s> </p>
+<p> <s> " Mida siis ? " </s> </p>
+<p> <s> " Admiral ... </s> <s> Ronel ... , kui me abiellusime oli Rokosan &uuml;heksak&uuml;mne viie aastane . . " </s> </p>
+<p> <s>Praeks oli kaheksa tundi estragonsuitsus hoitud vasikaliha , aprikoosilakiga kaetult ning p&auml;hklilaastudega pikitult , juurde komorraani lehma loomulikult hapendatud koor ning piljardkartulid . </s> </p>
+<p> <s> " Dojeenipalee on v&auml;ga range maailm , meil soovitakse k&otilde;ik Terranoova haiged m&otilde;jud eemal hoida , " r&auml;&auml;kis Aleana edasi . </s> <s> " Belauv&eacute;r on s&auml;ilitanud oma puhta elustiili ja on selle &uuml;le uhke . </s> <s> Lapsi meil dojeeniga pole , ei saakski olla ... </s> <s> M&otilde;ned aastad tagasi hakkasid levima kuuldused Terranoova uuest ofensiivist vabade maailmade h&otilde;lmamisel . </s> <s> Meie naabermaailmad alistusid ja me p&otilde;lgasime neid . </s> <s> Lootsime vist oma seedrile , et selle p&uuml;ha puu hoidjate ja kasvatajate vastu ei v&otilde;eta ju ometi midagi vastikut ette . </s> <s> Ja siis hakati &uuml;ha rohkem teist r&auml;&auml;kima . </s> <s> Hiilgavast ja kuulsast s&otilde;jamehest , maailmavallutajast Ronel sev Olbaust . </s> <s> Salakaubana sattus meie paleesse dokumentaalholo . </s> <s> Ilmselt mingi Terranoova propaganda , ma ei tea . </s> <s> " Ruumil&otilde;vi triumf " oli selle nimi . </s> </p>
+<p> <s>Ronel m&auml;letas seda holo &auml;hmaselt . </s> <s> Herolised pildid k&otilde;ige kuulsamatest lahingutest , sekka avameelsed stseenid &otilde;ukonnaelust , mis admirali v&otilde;imeid ka muudel aladel &uuml;listasid . </s> <s> K&otilde;iki naisi ta ei m&auml;letanudki , neid oli liiga palju . </s> <s> Tema adjutant oli mingi eelselektsiooni teinud ja j&auml;rjekord oli v&auml;ga suur olnud . </s> </p>
+<p> <s> " Ooh , see on v&otilde;rratu , " sositas Aleana . </s> <s> " Kui h&otilde;rk ... </s> <s> Me pole Belauv&eacute;ril nii ammu juba midagi sellist s&ouml;&ouml;nud . . " </s> </p>
+<p> <s> " Uskuge mind , n&auml;ljutamine polnud meie kavatsuses . . " </s> </p>
+<p> <s> " Aga ma olen n&auml;ljane . . " </s> </p>
+<p> <s> " Ma n&auml;en seda . </s> <s> Juhtkond ei uskunud , et Belauv&eacute;r Majesteedi pakkumise tagasi l&uuml;kkab . </s> <s> Ultimaatum ja blokaad olid h&auml;davahendid , seniks kuni dojeen aru p&auml;he v&otilde;tab . </s> <s> Me ei n&auml;inud ette , et blokaad nii pikaks venib , " &uuml;tles admiral pisut vabandaval toonil . </s> </p>
+<p> <s> " Ent te ei saanud tagaj&auml;rgede suhtes olla nii &uuml;ksk&otilde;iksed . </s> <s> Te pidite teadma , Ronel , et seedrikauplemise l&otilde;pp t&auml;hendab ka protoproteiini laekumise l&otilde;ppu . </s> <s> Ja meie tegeleme ju ainult metsandusega . </s> <s> Seeder on Belauv&eacute;rile andnud k&otilde;ik , mis tal on . </s> <s> See planeet n&auml;lgib ! " </s> </p>
+<p> <s> " Ja ometi olite te valmis hukkuma oma seedriga . . " </s> </p>
+<p> <s> " Mitte meie , mitte meie rahvas . </s> <s> Dojeen ! </s> <s> Ta on valitsenud &uuml;le viiek&uuml;mne aasta . </s> <s> M&otilde;elge ometi ! </s> <s> Tal on juba &uuml;ksk&otilde;ik , teda pole enam kauaks . </s> <s> Kas t&otilde;esti l&otilde;petaks ta siis oma hiilgava valitsemisaja alistumisega k&otilde;ige vihatumale vaenlasele ? " </s> </p>
+<p> <s> " Ma kinnitan teile , nagu oleme p&uuml;&uuml;dnud kogu aeg ka Belauv&eacute;rile teha , et &uuml;hinemisest Tema Majesteedi Impeeriumiga ei s&uuml;nni &uuml;helegi belauveerlasele midagi halba . </s> <s> &Otilde;ieti isegi mitte &uuml;hinemisest , vaid oma s&uuml;nnikohustuste tunnustamisest . . " </s> </p>
+<p> <s> " Ja ikkagi olite te valmis r&uuml;ndama , kuigi see h&auml;vitanuks seedrid . </s> <s> Kogu planeedi ... " </s> </p>
+<p> <s> " Mitte enam . </s> <s> N&uuml;&uuml;d kui t&auml;nu selle maailma kauneima ja targeima naise tegevusele on meie k&auml;es maatriks , mis v&otilde;imaldab neutraliseerida orbitaalkaitse ja alistada Belauv&eacute;r , s&auml;&auml;stes seedreid ja trotsides vana v&otilde;imun&auml;ljas maniaki kapriise . . " </s> </p>
+<p> <s> " Mul polnud valikut &mdash; ultimaatumi l&otilde;puni j&auml;i ainult seitse p&auml;eva . . " </s> </p>
+<p> <s> " Teil oli valik . </s> <s> Ja te valisite &otilde;igesti . . " </s> </p>
+<p> <s> " Peaga , mitte s&uuml;damega . </s> <s> Belauv&eacute;ril &otilde;petatakse alati , et valida tuleb s&uuml;damega . . " </s> </p>
+<p> <s> " Olete te selles p&auml;ris kindel ? " </s> </p>
+<p> <s> " Ma ... ma ei tea . </s> <s> Veenge mind vastupidises ! " </s> </p>
+<p> <s>Admiral t&otilde;usis l&otilde;petamata prae kohalt . </s> <s> " Kui teie s&uuml;dames on seedrid , valisite te s&uuml;damega . </s> <s> Oleks olnud valus h&auml;vitada maailm , mille k&auml;igus hukkuks ka see , mille p&auml;rast ta v&auml;&auml;rtuslik on . </s> <s> Aga ma olen s&otilde;jav&auml;elane ja mul on &uuml;ks halb harjumus . </s> <s> Ma ei kaota kunagi . " </s> <s> Ronel astus Aleana juurde ja t&otilde;mbas ta &otilde;rnalt k&auml;test p&uuml;sti . </s> <s> Naine oli korraga talle v&auml;ga l&auml;hedal . </s> <s> " Ja ma veenaksin teid , et ka Terranoova s&otilde;jarditel on s&uuml;da olemas . </s> <s> Kui te ainult lubate . . " </s> </p>
+<p> <s> " Ma luban . . " </s> </p>
+<p> <s> " Maatriks ? " </s> </p>
+<p> <s> " Te teate , kus see on , " sosistas naine ja sulges silmad . </s> </p>
+<p> <s>Maatriksist polnud admiralile sel &otilde;htul palju kasu , sest ta libistas selle hoolimatult oma magamisapartamendi p&otilde;randale ja tundidena tundunud minutite jooksul kattis selle musta-punasekirju kleit . </s> <s> Rohkem aga ei midagi . </s> </p>
+<p> <s>K&otilde;rge laega saali n&auml;htamatutest k&otilde;laritest voogas muusikat , Xamnathu viiulikontsert oli see vist , kuid Ronel polnud p&auml;ris kindel . </s> <s> Admirali voodi kohal rippuvalt ekraanilt kumas erootilisi holosid ja Aleana soovis neid vaadata , sellep&auml;rast ei n&auml;inudki Ronel tema n&auml;gu , kui ta p&uuml;stijalu v&otilde;ttis Belauv&eacute;ri dojeena k&otilde;ige v&auml;&auml;rtuslikma aarde ja j&otilde;udis sealjuures m&otilde;elda , et sel hetkel kaotas &otilde;nnetu m&auml;ssuline planeet k&otilde;ik , mida seal iganes p&uuml;haks peetud . </s> <s> Ta tundis v&otilde;idur&otilde;&otilde;mu , mida ei osanud k&otilde;rvutada &uuml;hegi lahinguga , &uuml;hegi k&otilde;rbenud rusuhunnikuks muudetud maailmaga , sest n&uuml;&uuml;d oli v&otilde;idurelvaks ainuisikuliselt tema ise , &otilde;igemini &uuml;ks osa temast ja ei iialgi varem polnud tema v&otilde;it vaenlase &uuml;le olnud nii t&auml;ielik , nii l&otilde;plik ja nii alandav .. </s> </p>
+<p> <s>Ja nii naudingurikas . </s> </p>
+<p> <s>Ikka veel ei n&auml;inud ta Aleana n&auml;gu , pidi lugema naise tundeid tema paljalt seljalt ja &otilde;lgadelt ja veendus , et &otilde;ukonna-aastad polnud talle siiski naiste kohta t&auml;it t&otilde;de &otilde;petanud . </s> <s> Alati on veel midagi leida ja avastada ning k&otilde;ige rohkem avastamisr&otilde;&otilde;mu pakkusid admiralile Aleana silmad , kui ta end l&otilde;puks , uueks kirgastumiseks kummaliselt kiirena valmis tundes , voodile veeratas ning naise &uuml;mber keeras . </s> <s> Veel palju uusi maailmu avastas Ronel nende tundide jooksul , kuid k&otilde;ige suuremaks avastuseks j&auml;i tema hinges r&otilde;&otilde;mukriisatuseks kujunud joovastus , et tema ise oli kellelegi uueks maailmaks , senitundmata v&auml;ravaks , teadaandjaks ... </s> </p>
+<p> <s>Ja siis , &uuml;hel hetkel sai ta aru , et holo on l&otilde;ppenud , et higine naisekeha hingeldab ja vapub tema k&otilde;rval , et maailm , millest ta m&otilde;neks hetkeks loobunud ja lahkunud oli , tuleb tagasi ja et ta tahab meeletult juua . </s> <s> Juua tahtis ta sellistel puhkudel alati , ent n&uuml;&uuml;d ei saanud ta ju oma soovi s&otilde;jav&auml;elasliku ja &otilde;ukondliku otsekohesusega teatavaks teha ning ei saanud ta ka kelnerit kutsuda , sest see naisekeha , kelle ta muidu paari silbiga oleks laua juurde kannu tooma saatnud , kuulus ju Belauv&eacute;ri dojeenale . </s> <s> Naisele , kellest pidi dojeeni hukkamise j&auml;rel saama Terranoova volitatud asekuninganna . </s> </p>
+<p> <s>&Otilde;rnalt libistas ta k&auml;ega &uuml;le naise huugava selja ja ajas ennast voodist p&uuml;sti . </s> </p>
+<p> <s> " Kuhu sa l&auml;hed ? " hingas naine patja . </s> </p>
+<p> <s> " Ma tahan juua . . " </s> </p>
+<p> <s> " Ma toon . . " </s> </p>
+<p> <s> " Sa ei pea . . " </s> </p>
+<p> <s>Graatsia rullus &uuml;le admirali , v&auml;sinud ent ometi tulds&uuml;lgav . </s> <s> " Mida sa jood ? " </s> </p>
+<p> <s> " Vett . </s> <s> See on seal ... kannus , laual . . " </s> </p>
+<p> <s> " Ma n&auml;en . . " </s> </p>
+<p> <s>Viiulid ja Aleana , kes alasti &uuml;le toa h&otilde;ljus . </s> <s> Naine valas aeglaselt karahvinist vett ja ulatas klaasi Ronelile . </s> <s> Mees ketras end voodis p&otilde;lvili ja j&otilde;i . </s> </p>
+<p> <s> " Soovid sa veel ? " </s> </p>
+<p> <s> " Jah . . " </s> </p>
+<p> <s>Uuesti kallas naine klaasi t&auml;is ja asetas karahvini p&otilde;randale . </s> <s> " Ma tahan ennast pesta . . " </s> </p>
+<p> <s> " Ma saan aru . . " </s> </p>
+<p> <s> " Ei , saa ei saa . </s> <s> Ma pean ennast pesema . . " </s> </p>
+<p> <s>Ronel viipas l&otilde;dvalt k&auml;ega . </s> <s> " Seal , vannituba on sammaste taga . . " </s> </p>
+<p> <s>Kui naine kuumvesi&otilde;hu voogudes k&uuml;mbles , sirutas admiral end voodis ristiasendissse ja lebas nii pikka aega . </s> <s> M&otilde;ttes &uuml;ritas ta olnut taastada , ent sai peagi aru , et ainus viis kogetut tunnetada on see uuesti l&auml;bi elada . </s> <s> Et tal selleks v&otilde;imalus avaneb , ta ei kahelnud . </s> <s> Kui enne &mdash; &otilde;htus&ouml;&ouml;gi taga &mdash; admiral oligi veidi naise kavatsustes kahelnud , siis enam mitte . </s> <s> Poleks naine n&otilde;ustunud temaga armastama , oleks ta sunnitud olnud maatriksi konfiskeerima ja naise interneerima . </s> <s> Karte vaenlasi , kes teevad kingitusi , &ouml;eldi &otilde;ukonnas ikka . </s> <s> Mis tavade j&auml;rgi t&auml;hendas , et kinkija tuli otsustavalt l&auml;bi katsuda . </s> <s> Ent p&auml;rast jagatud kirge ei kaheldnud admiral enam Aleanas . </s> <s> Liialt ahnelt oli naine selleks armastust nautinud , liialt joovastunud Ruumil&otilde;vi oskustest ja hellustest . </s> <s> Ja piisavalt k&uuml;llaldaselt ennast andnud , et meest veenda , mille tarbeks oli tegelikult maatriks varastatud . </s> <s> " Naised , " pomises ta roidunult , " naised ... igal pool olete te &uuml;hesugused . . " </s> </p>
+<p> <s>Siis ajas admiral ennast p&uuml;sti , l&auml;ks p&otilde;randal lebava kleidi juurde ja t&otilde;stis selle &uuml;les . </s> <s> Esimesel puudutusel l&auml;bistas meest riidest s&auml;hvav erotoelekter ja korraks j&otilde;udis ta m&otilde;elda , kas ta mitte isegi pesemist vaja , kuid siis pudenesid ta n&auml;ppude alt kleidivoltidest p&otilde;randale pisikesed k&otilde;vad koonused . </s> <s> Ronel kummardus , uurides ettevaatlikult esemeid . </s> <s> Siis ta taipas , tal tuli meelde . </s> </p>
+<p> <s> " Rahu kinnituseks , " &uuml;tles naiseh&auml;&auml;l ta seljataga . </s> </p>
+<p> <s>Aleana polnud ennast kuivatanud , kuuma vesiauru h&otilde;ngus tungis admiralile ninna . </s> </p>
+<p> <s> " Nad olid sul ... ? " </s> </p>
+<p> <s> " Sealsamas , kus maatriks . </s> <s> Ainult , et teises peidikus , sa ei j&otilde;udnud sinna . </s> <s> On vana Belauv&eacute;ri komme kinkida oma s&otilde;pradele seedrit&otilde;rusid . </s> <s> Need on sulle ... ja Terranoovale " </s> </p>
+<p> <s> " Ma ei oska nendega midagi teha . . " </s> </p>
+<p> <s> " Sul on ju aed ? " </s> </p>
+<p> <s> " Ahjaa , muidugi . . " </s> </p>
+<p> <s> " Seda &ouml;eldi selles holos , mida ma sinust n&auml;gin . </s> <s> Et k&otilde;igil lipulaevadel on Majesteedi Paleepargi mudelprojektsioon . . " </s> </p>
+<p> <s> " L&auml;hme , ma viin sind sinna . . " </s> </p>
+<p> <s>Riietumine ei v&otilde;tnud kaua aega . </s> <s> Admiral suunas Aleana tagumisse koridori , mis &uuml;hendas tema apartamenti paleepargiga . </s> <s> Mitmeid kordi k&uuml;ll v&auml;iksem kui originaal , ent ometi suur , v&otilde;imas ja roheline ; kinnituseks ja meelespeaks , et lisaks regaalias&uuml;mbolitele reisib midagi Terranoovalt alati laevaga kaasa . </s> <s> Loomulikult polnud laevapargis k&otilde;iki linde ja k&otilde;iki taimi , mis Majesteedi aias , ikkagi imiteeris ta algup&auml;randit oma alleede , murujooniste , &uuml;ldprojekti ja kujudega . </s> <s> Nad jalutasid vaikides ja hingasid metsa&otilde;hku , jalutasid k&auml;sik&auml;es , kumbki omi m&otilde;tteid m&otilde;eldes . </s> </p>
+<p> <s> " Kas me oleme siin &uuml;ksi , " k&uuml;sis Aleana l&otilde;puks . </s> </p>
+<p> <s> " Jah . </s> <s> See on k&uuml;lalistele ja sissep&auml;&auml;s minu eriloaga . </s> <s> Meeskond siin ei k&auml;i . . " </s> </p>
+<p> <s> " Ja kes seda k&otilde;ike hooldab ? " </s> </p>
+<p> <s> " Aednik loomulikult . </s> <s> See pole miraazh ega virtuaalprojektsioon , kallis . </s> <s> K&otilde;ik nii nagu p&auml;ris . . " </s> </p>
+<p> <s> " Ma olen hea aednik . </s> <s> Arvan , et k&otilde;ik Belauv&eacute;ril on . </s> <s> Kas me tohime t&otilde;rud siia istutada ? " </s> </p>
+<p> <s> " Muidugi . . " </s> </p>
+<p> <s> " Mul oleks siis aiat&ouml;&ouml;riistu tarvis . </s> <s> T&otilde;rud on v&auml;ga kapriissed . . " </s> </p>
+<p> <s> " Tule siis . . " </s> </p>
+<p> <s>Aedniku maja k&otilde;rval oli kena turtelpajudega &uuml;mbritsetud muruaas . </s> <s> Admirali peas hakkasid kuju v&otilde;tma veel &uuml;hed teatavad m&otilde;tted . </s> <s> Ent k&otilde;igepealt juhatas ta naise riistakuuri . </s> <s> Paleepargi eest tuli hoolt kanda samaselt algup&auml;randiga , ei mingeid biom&otilde;jutusi ega mutatsioone . </s> <s> Pargi elushoidmiseks ; solaarenergia ja fotos&uuml;nteesi tagamiseks ning &ouml;&ouml;- p&auml;evats&uuml;kli vaheldumiseks tuli niigi tehislikku generaatorit kasutada . </s> <s> Puude ja taimede jaoks olid lubatud ainult loomulikud vahendid . </s> <s> Aleana valis v&auml;ikese labida , pisikese oksakirve , kastekannu , termomeetri ja m&otilde;&otilde;dulindi . </s> </p>
+<p> <s> " Me peame t&otilde;rudele n&uuml;&uuml;d &otilde;ige koha otsima . </s> <s> Istutamine on &uuml;ks asi , k&otilde;ige t&auml;htsam on neile s&otilde;nad peale lugeda . </s> <s> Nad ei l&auml;he muidu kasvama . . " </s> </p>
+<p> <s>Mitte et Ronel oleks niiv&auml;ga t&otilde;rudest hoolinud , aga Aleana oli ta t&auml;itnud korraga mingi seletamatu joovastuse ja &otilde;rnusega . </s> <s> Ta suudles naist ja naeratas : " N&auml;ita siis , kus on see &otilde;ige koht . . " </s> </p>
+<p> <s> " Ma pean otsima . . " </s> </p>
+<p> <s>Ta leidis selle &uuml;sna varsti . </s> <s> &Uuml;lalt , eredast t&uuml;hjusest , kumas tehisp&auml;ikest , paremale j&auml;i tammesalu ja vasakule Parpalase k&auml;&auml;bussekvoiad . </s> <s> Maa muutus siin kergelt samblaseks ja niiskeks . </s> </p>
+<p> <s> " Ma teen n&uuml;&uuml;d seda Belauv&eacute;ri dojeenana , meie maailma ametliku esindajana , " &uuml;tles naine . </s> <s> " Olgu see meie kavatsuste kinnituseks ja s&otilde;numiks Terranoovale . " </s> <s> Ta p&otilde;lvitas samblale ning pistis termomeetri maasse , kontrollis temperatuuri ning m&otilde;&otilde;tis siis vahemaa sekvoiadeni . </s> <s> " Jah , " &uuml;tles ta siis . </s> <s> " See on k&otilde;ige parem koht . " </s> <s> Admiral j&auml;lgis &uuml;levalt naise avanevat dekolteed ja silitas ta tumedaid juukseid . </s> </p>
+<p> <s> " Sa ei peaks siit &uuml;ldse lahkuma , tead ? " </s> </p>
+<p> <s> " Pean k&uuml;ll . " </s> <s> Endiselt p&otilde;lvitades t&otilde;mbas ta Roneli enda k&otilde;rvale maha , kaevas siis labidaga v&auml;ikese augu . </s> <s> N&uuml;&uuml;d alustas ta admiralile tundmatus keeles laulu , suletud silmil , pisut edasi-tagasi &otilde;&otilde;tsudes . </s> <s> Tuimas meloodias , pidevalt tonaalsust ja helistikku vahetades , kuvas loits admirali meeltesse Belauv&eacute;ri haljad aasad ja l&otilde;putud seedrisalud , kus ta ise kunagi k&auml;inud polnud . </s> <s> Ometi oli k&otilde;ik hetkeks nii loomutruu ja ilus , et ta tahtiski sinna igavestesse laantesse , unustamaks ruumis&otilde;dalase ja &otilde;ukondlase igavat elu . </s> <s> Lumm kestis veel , kui Aleana aeglaselt t&otilde;rud auku asetas ja t&otilde;usis . </s> </p>
+<p> <s> " Sa pead neile n&uuml;&uuml;d mulla peale l&uuml;kkama , " sositas ta . </s> <s> " K&auml;tega . . " </s> </p>
+<p> <s>Ronel noogutas ja surus k&auml;ed niiskesse mulda . </s> <s> Aleana tema k&otilde;rval liigutas end aeglaselt ja t&otilde;stis midagi maast . </s> <s> Ronel ei m&auml;rganud t&auml;pselt , mis see oli , kuid hetkep&auml;rast tajus ta kiiret &otilde;huliikumist ja tundis , kuidas v&auml;ike aednikukirves talle kaela s&ouml;&ouml;stis . </s> <s> Kui ta j&otilde;udiski karjuda , ei kuulnud seda keegi . </s> <s> Soe veri purskas t&otilde;rudele , veel ja veel langes kirves ja admiral kaotas igaveseks teadvuse . </s> <s> Kaelaluu l&auml;biraiumiseks kasutas Aleana labidat , nagu ka k&auml;elaba , mille ta oma avarasse dekolteesse toppis . </s> </p>
+<p> <s>Naine sasis admirali verise pea juukseidpidi &uuml;les sasis , haaras ta august t&otilde;rud , rapsides neilt vere- ja ajut&uuml;kid . </s> <s> K&auml;ed verest libedad , otsis ta midagi surnud meha pea k&otilde;rva tagant , kuni leidis impandi . </s> <s> Kirvetera nurgaga uuristas ta surnud ajude ja implandi vahele augu , t&otilde;stis t&otilde;rud uuesti huulte juurde ja r&auml;&auml;kis nendega . </s> <s> Vaid &uuml;he valis ta v&auml;lja ja surus selle admirali kolba veritsevasse avausse . </s> <s> Aleana tajus , kuidas biov&auml;li t&ouml;&ouml;le hakkas , kuidas ahne siirik uue eluj&otilde;u r&otilde;&otilde;muga vastu v&otilde;ttis . </s> </p>
+<p> <s>Veel viimast korda silmitses ta Roneli peatut laipa , millest voolas verd tema enda kaevatud auku . </s> <s> Laipa , mille hinge oli ta neednud Belauv&eacute;ri surnuloitsuga . </s> <s> Siis jooksis ta kiiresti admirali erakoridori suudme poole ja tema paljad jalad peaaegu ei puudutanudki maad . </s> <s> Linnulaulu sekka j&auml;i kajama ja vaikselt h&auml;&auml;buma tema naer . </s> </p>
+<p> <s>Ta lootis , et Ronel oli k&otilde;ik j&auml;lgimiskaamerad lasknud v&auml;lja l&uuml;litada . </s> <s> Ja isegi kui polnud , oli tal aega . </s> <s> Ometi jooksis ta kiiresti ja koridori raudp&otilde;randale j&auml;i maha vereriba peast , mille avani silmad klaasistunud pilgul naist j&auml;lgisid , otsekui ei usuks nad , mis peaga toimub . </s> <s> Aleana silkas admirali apartamanedi poole , seisatas uksel , &otilde;ngitses rindade vahelt k&auml;elaba ja surus selle detektorile , nagu oli n&auml;inud ennist admirali toimimas . </s> <s> Uks avanes otse magamistuppa . </s> <s> Aleana korjas kiiresti p&otilde;randalt maatriksi , sest seda ei tohtinud ta maha j&auml;tta . </s> <s> Magamistoast s&ouml;&ouml;stis ta Roneli kabinetti , sinna , kus asus pardakompuutri terminal . </s> <s> Ta avas kommandokeskuse paneeli , avas nii nagu oli n&auml;inud tehtavat lugematutes holodes , mida dojeeni palees salakaubana sissetoodult vaadati . </s> <s> Vaikse surinaga t&otilde;usis juhtme otsa kinnitatud analoogmaatriks ta k&otilde;rvade k&otilde;rgusele . </s> <s> Aleana rebis juukseidpidi admirali pea , l&uuml;kkas k&otilde;rva tagant nahat&uuml;ki eemale ning l&auml;bi pistiku &uuml;hendus analoogmaatriks surnud admirali implandiga . </s> <s> Edasi oli k&otilde;ik lihtne . </s> </p>
+<p> <s> " Jah , jah , jah " tagus Aleana joovastuses kommandokeskusele vastuseid . </s> <s> Esmalt l&uuml;litusid v&auml;lja kogu laevastiku &uuml;hendpannood , siis kaitsekilp ja l&otilde;puks kustutas naine energoidplasma arsenali generaatorm&auml;lu . </s> <s> " Faust " ja terve Vikerlase Laevastik kujutas n&uuml;&uuml;d endast kahjutut vanarauakolu , t&auml;is paanikat ja peata mehi . </s> <s> Vaid &uuml;hel mehel tohtis siin pea olla , vaid &uuml;ks j&auml;ik ja range k&auml;suliin , mida v&otilde;ib k&auml;ivitada selleks s&uuml;ndinud inimene . </s> <s> S&uuml;ndinud mingis roiskunud aadliperekonnas , ainult selleks oma s&uuml;nni&otilde;iguse alusel loodusele andunud maailmu h&auml;vitada . </s> </p>
+<p> <s>Aleana polnudki enam eriti &uuml;llatunud , kui avastas , et admirali k&auml;elaba tal enam tarvis ei l&auml;he . </s> <s> K&otilde;ik uksed olid lahti . </s> <s> Enne veel , kui ta kompuutri tagant t&otilde;usis , k&uuml;sis arvuti ta k&auml;est : </s> </p>
+<p> <s> " Automaatjuhtimine deneutraliseeritud . </s> <s> Olemas k&otilde;ik " Ikaros III " tunnused . </s> <s> Kas k&auml;ivitan programmi ? " </s> </p>
+<p> <s>Aleana k&otilde;hkles hetke ja vastas siis " Jah ! " </s> </p>
+<p> <s> " Vaenlane h&otilde;ivamas Laevastikku . </s> <s> K&auml;ivitub " Ikaros III " . </s> <s> Kas soovid evakuatsiooni ? " </s> </p>
+<p> <s> " Ei . . " </s> </p>
+<p> <s> " Autodestruktsioon initsialiseeritud , " &uuml;tles kommandokeskus . </s> <s> " Sisesta aeg . . " </s> </p>
+<p> <s>Naine meenutas viivuks oma siiatulekut , l&otilde;putuna tundunud sisenemistsooni ja " Fausti " kaugust Belauv&eacute;rist . </s> </p>
+<p> <s> " Neliteist ja pool minutit , " kl&otilde;bistas ta kommandokeskusele . </s> </p>
+<p> <s> " Neliteist ja pool minutit , " kordas arvuti . </s> <s> " Ilma evakuatsioonita . </s> <s> J&auml;rgneb Tema Majesteedi salvestatud p&ouml;&ouml;rdumine . . " </s> </p>
+<p> <s>Aleana ei hakanud seda kuulama , vaid jooksis kiiresti v&auml;ljap&auml;&auml;su poole , sinna , kuhu admiral oli lasknud transportida s&uuml;stiku . </s> </p>
+<p> <s> " Mu armsad s&otilde;durid ja ohvitserid . </s> <s> K&otilde;ige s&uuml;gavama kurbusega v&otilde;tsin ma vastu teie otsuse ohverdada oma elu Impeeriumi h&uuml;vanguks . </s> <s> Mitte &uuml;kski Terranoova p&uuml;ha saladus ei pea sattuma meie vaenlaste k&auml;tte ... " kuulis ta salvestuse &otilde;&otilde;nsaid fraase , kui s&uuml;stikuukse avas , admirali pea hooletult k&otilde;rvalistmele heites . </s> </p>
+<p> <s>S&uuml;stik v&otilde;ttis kiiresti kohalt ja l&auml;bis paanikas oleva laeva vastuv&otilde;tutsooni , mille k&otilde;igil displeidel tiksus v&auml;&auml;ramatuna surmakell . </s> <s> Viivu p&auml;rast t&uuml;hjuses koduse rohetava kuma poole s&ouml;&ouml;stes v&auml;lgahtas s&uuml;stiku illuminaatorites hiiglaslik plahvatus . </s> </p>
+<p> <s> " Sa k&auml;isid kusagil ? " k&auml;hises raugah&auml;&auml;l , kui Aleana pesemast tulles ennast voodisse veeretas . </s> </p>
+<p> <s> " Jah , aga &auml;ra muretse , kallis , k&otilde;ik on korras . . " </s> </p>
+<p> <s> " Mulle &ouml;eldi , et on mingeid t&auml;htsaid uudiseid , kuid ma olin liiga v&auml;sinud ... " </s> </p>
+<p> <s> " Sa pead puhkama ja mitte muretsema . </s> <s> Mul on sulle kingitus . . " </s> </p>
+<p> <s> " Mis kingitus ? " </s> </p>
+<p> <s> " Hommikul . </s> <s> Kallista mind n&uuml;&uuml;d . . " </s> </p>
+<p> <s>Kuivetunud kronksus k&auml;ed haarasid naise oma j&otilde;uetusse embusesse . </s> <s> " Kas sa said k&otilde;ik korda seal , kus sa k&auml;isid ? " </s> </p>
+<p> <s> " Jah . </s> <s> Ma arvan , et sain k&otilde;ik , mida tahtsin . </s> <s> Maga n&uuml;&uuml;d , palun . " </s> </p>
+<p> <s>Ja ta suudles hellalt dojeeni hambutut suud . </s> </p>
+<p>Mai 2000</p> </div0> </body> </text>

@@ -1,0 +1,2854 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Riigikogu kodukorra seadus ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   14872</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Riigikogu kodukorra seadus ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=29></tagusage>
+         <tagusage gi=p occurs=916></tagusage>
+         <tagusage gi=s occurs=1233></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Riigikogu kodukorra seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 15. novembril 1994. a.</s>
+</p>
+<p>
+<s>( RT I 1994 , 90 , 1517 ; terviktekst RT I 2001 , 1 , 1 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 12. detsembril 1994. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>20.11.2001 j&otilde;ust.20.12.2001 - RT I 2001 , 94 , 581.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigikogu juhatus</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Riigikogu t&ouml;&ouml; korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu t&ouml;&ouml;d korraldab Riigikogu juhatus .</s>
+</p>
+<p>
+<s>( 2 ) Asjaajamiskeel Riigikogus on eesti keel .</s>
+</p>
+<p>
+<s>( 20.11.2001 j&otilde;ust.20.12.2001 - RT I 2001 , 94 , 581 )</s>
+</p>
+<p>
+<s>&sect; 1 <hi rend="sup">1</hi> .</s><s>Riigikogu juhatuse moodustamise p&otilde;him&otilde;te</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu juhatus koosneb Riigikogu esimehest ja kahest aseesimehest , kes valitakse Riigikogu liikmete hulgast .</s>
+</p>
+<p>
+<s>( 2 ) Esmalt valitakse Riigikogu esimees .</s><s>Riigikogu aseesimehed valitakse samaaegselt p&auml;rast Riigikogu esimehe valimisi .</s>
+</p>
+<p>
+<s>( 20.11.2001 j&otilde;ust.20.12.2001 - RT I 2001 , 94 , 581 )</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Vabariigi Valimiskomisjoni p&auml;devus Riigikogu juhatuse valimiste korraldamisel</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu juhatuse valimised korraldab Vabariigi Valimiskomisjon ( edaspidi valimiskomisjon ) .</s>
+</p>
+<p>
+<s>( 2 ) Kuni Riigikogu esimehe valimiseni juhatab Riigikogu istungit valimiskomisjoni esimees v&otilde;i tema aset&auml;itja .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Riigikogu esimehe ja aseesimeeste kandidaadid</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liikmed seavad &uuml;les Riigikogu esimehe kandidaadid ning p&auml;rast Riigikogu esimehe valimisi Riigikogu aseesimeeste kandidaadid .</s>
+</p>
+<p>
+<s>( 2 ) Kandidaatide nimekirja kantakse nende kandidaatide nimed , kes annavad n&otilde;usoleku kandideerida .</s><s>Oma kandidatuuri v&otilde;ivad nad taandada kuni kandidaatide nimekirja sulgemiseni .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu esimehe v&otilde;i Riigikogu aseesimeeste kandidaatide nimekiri suletakse , kui selle poolt h&auml;&auml;letab enam Riigikogu liikmeid kui vastu .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>H&auml;&auml;letamissedelite ettevalmistamine Riigikogu juhatuse valimisteks</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast Riigikogu esimehe kandidaatide v&otilde;i Riigikogu aseesimeeste kandidaatide nimekirja sulgemist kuulutab istungi juhataja v&auml;lja vaheaja Riigikogu esimehe kandidaatide v&otilde;i Riigikogu aseesimeeste kandidaatide nimede kandmiseks h&auml;&auml;letamissedelitele .</s>
+</p>
+<p>
+<s>( 2 ) H&auml;&auml;letamissedelile kantakse t&auml;hestikulises j&auml;rjekorras Riigikogu esimehe kandidaatide v&otilde;i Riigikogu aseesimeeste kandidaatide nimed .</s><s>Vaheaja l&otilde;ppemisest antakse teada Riigikogu t&ouml;&ouml;- ja &uuml;ldkasutatavatesse ruumidesse .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>H&auml;&auml;letamiseks ettevalmistamine Riigikogu juhatuse valimistel</s>
+</p>
+<p>
+<s>( 1 ) Enne h&auml;&auml;letamise v&auml;ljakuulutamist kontrollib valimiskomisjon valimiskasti ja pitseerib selle .</s>
+</p>
+<p>
+<s>( 2 ) H&auml;&auml;letamise kuulutab v&auml;lja valimiskomisjoni esimees v&otilde;i tema aset&auml;itja .</s>
+</p>
+<p>
+<s>( 3 ) Valimiskomisjon annab h&auml;&auml;letamissedelid Riigikogu liikmetele nimekirja alusel .</s><s>H&auml;&auml;letamisedeli saamise kohta annab Riigikogu liige allkirja .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>H&auml;&auml;letamine Riigikogu juhatuse valimistel</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liikmel on &uuml;ks h&auml;&auml;l nii Riigikogu esimehe kui Riigikogu aseesimeeste valimistel .</s>
+</p>
+<p>
+<s>( 2 ) H&auml;&auml;letamissedel m&auml;rgistatakse h&auml;&auml;letamiskabiinis .</s><s>Riigikogu liige m&auml;rgistab h&auml;&auml;letamissedelil ristiga lahtri selle kandidaadi nime juures , kelle poolt ta h&auml;&auml;letab , ja laseb h&auml;&auml;letamissedeli valimiskasti .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 ) Kui Riigikogu esimehe kandidaatide nimekirjas on ainult &uuml;ks kandidaat , h&auml;&auml;letab Riigikogu liige kandidaadi poolt v&otilde;i vastu , m&auml;rgistades h&auml;&auml;letamissedelil ristiga vastavalt lahtri &ldquo; poolt &rdquo; v&otilde;i &ldquo; vastu &rdquo; kandidaadi nime juures .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 4 ) Kui h&auml;&auml;letamissedel rikutakse enne selle valimiskasti laskmist , on Riigikogu liikmel &otilde;igus rikutud sedeli tagastamisel saada valimiskomisjonilt uus h&auml;&auml;letamissedel , mille kohta tehakse nimekirja vastav m&auml;rge .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>H&auml;&auml;letamistulemuste v&auml;ljaselgitamine Riigikogu juhatuse valimistel</s>
+</p>
+<p>
+<s>( 1 ) H&auml;&auml;letamine l&otilde;peb , kui valimiskomisjoni esimees v&otilde;i esimehe aset&auml;itja on selle l&otilde;ppenuks kuulutanud .</s>
+</p>
+<p>
+<s>( 2 ) H&auml;&auml;led loetakse avalikult kohe p&auml;rast h&auml;&auml;letamise l&otilde;ppemist .</s><s>H&auml;&auml;letamissedel , millel on m&auml;rgistatud rohkem kui &uuml;he kandidaadi nimi v&otilde;i millel ei ole m&auml;rgistatud &uuml;hegi kandidaadi nime , loetakse kehtetuks .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 ) H&auml;&auml;letamistulemused teeb teatavaks valimiskomisjoni esimees v&otilde;i tema aset&auml;itja .</s>
+</p>
+<p>
+<s>( 4 ) Protestid valimiste korraldamise kohta esitatakse valimiskomisjonile kohe p&auml;rast h&auml;&auml;letamistulemuste teatavakstegemist .</s><s>Valimiskomisjon vaatab protestid l&auml;bi ja teeb nende suhtes otsuse enne valimistulemuste v&auml;ljakuulutamist .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Valimistulemuste v&auml;ljakuulutamine Riigikogu juhatuse valimistel</s>
+</p>
+<p>
+<s>( 1 ) Valimiskomisjoni esimees v&otilde;i tema aset&auml;itja kuulutab valimistulemused v&auml;lja kohe p&auml;rast protestide rahuldamist v&otilde;i tagasil&uuml;kkamist .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu esimeheks saab kandidaat , kes saab &uuml;le poole kehtivatest h&auml;&auml;ltest .</s><s>Kui &uuml;kski kandidaatidest ei saa &uuml;le poole kehtivatest h&auml;&auml;ltest , korraldatakse kahe enim h&auml;&auml;li saanud kandidaadi vahel valimiste lisavoor .</s><s>V&otilde;rdse h&auml;&auml;ltearvu puhul heidetakse liisku .</s>
+</p>
+<p>
+<s>( 3 ) Kui Riigikogu esimehe kandidaatide nimekirjas on ainult &uuml;ks kandidaat , osutub ta valituks , kui ta saab rohkem poolt- kui vastuh&auml;&auml;li .</s>
+</p>
+<p>
+<s>( 4 ) Riigikogu aseesimeesteks saavad kaks enim h&auml;&auml;li kogunud kandidaati .</s><s>Esimeseks aseesimeheks saab kahest enim h&auml;&auml;li saanud kandidaat ja teiseks aseesimeheks saadud h&auml;&auml;ltearvult teine kandidaat .</s><s>V&otilde;rdselt h&auml;&auml;li kogunute vahel korraldatakse valimiste lisavoor .</s>
+</p>
+<p>
+<s>( 5 ) Valimiskomisjoni otsus Riigikogu esimehe ja aseesimeeste valimistulemuste kohta j&otilde;ustub viivitamatult ja avaldatakse Riigi Teatajas .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Riigikogu esimehe ja aseesimeeste volituste kestus</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu esimehe ja aseesimeeste volitused algavad vahetult p&auml;rast valimistulemuste v&auml;ljakuulutamist .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu esimehe ja aseesimeeste volitused l&otilde;pevad uue esimehe ja aseesimeeste valimiste tulemuse v&auml;ljakuulutamisel v&otilde;i Riigikogu koosseisu volituste l&otilde;ppemisel .</s>
+</p>
+<p>
+<s>( 12.09.95 j&otilde;ust.04.10.95 - RT I 1995 , 74 , 1285 )</s>
+</p>
+<p>
+<s>( 3 ) Kui Riigikogu esimehe v&otilde;i aseesimehe volitused Riigikogu liikmena l&otilde;pevad enne t&auml;htaega v&otilde;i peatuvad , v&auml;lja arvatud Vabariigi Presidendi &uuml;lesannete ajutisel &uuml;leminekul Riigikogu esimehele , l&otilde;pevad tema volitused Riigikogu esimehe v&otilde;i aseesimehena &uuml;heaegselt Riigikogu liikme volituste l&otilde;ppemisega enne t&auml;htaega v&otilde;i peatumisega .</s>
+</p>
+<p>
+<s>( 12.09.95 j&otilde;ust.04.10.95 - RT I 1995 , 74 , 1285 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Riigikogu esimehe ja aseesimeeste korralised valimised</s>
+</p>
+<p>
+<s>Riigikogu uus koosseis valib Riigikogu juhatuse oma esimesel istungil &uuml;heks aastaks .</s><s>Edaspidi toimuvad korralised Riigikogu juhatuse valimised k&auml;esolevas peat&uuml;kis s&auml;testatud korras Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala viimasel istungil enne &uuml;he aasta m&ouml;&ouml;dumist Riigikogu juhatuse eelmistest korralistest valimistest .</s>
+</p>
+<p>
+<s>( 12.09.95 j&otilde;ust.04.10.95 - RT I 1995 , 74 , 1285 )</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Riigikogu esimehe v&otilde;i aseesimehe tagasiastumine .</s><s>Riigikogu esimehe v&otilde;i aseesimehe erakorralised valimised</s>
+</p>
+<p>
+<s>( 1 ) Kui Riigikogu esimees v&otilde;i aseesimees astub tagasi Riigikogu esimehe v&otilde;i Riigikogu aseesimehe ametikohalt , teatab ta sellest Riigikogu istungil , j&auml;tkates &uuml;htlasi Riigikogu esimehe v&otilde;i aseesimehe &uuml;lesannete t&auml;itmist kuni Riigikogu uue esimehe v&otilde;i aseesimehe valimiseni .</s>
+</p>
+<p>
+<s>( 12.09.95 j&otilde;ust.04.10.95 - RT I 1995 , 74 , 1285 )</s>
+</p>
+<p>
+<s>( 2 ) Kui Riigikogu esimees v&otilde;i aseesimees astub tagasi Riigikogu esimehe v&otilde;i aseesimehe ametikohalt v&otilde;i kui tema volitused Riigikogu liikmena l&otilde;pevad enne t&auml;htaega v&otilde;i peatuvad , v&auml;lja arvatud Vabariigi Presidendi &uuml;lesannete ajutisel &uuml;leminekul Riigikogu esimehele , toimuvad j&auml;rgmisel Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dalal esimehe v&otilde;i aseesimehe erakorralised valimised vabanenud ametikohale .</s>
+</p>
+<p>
+<s>( 12.09.95 j&otilde;ust.04.10.95 - RT I 1995 , 74 , 1285 )</s>
+</p>
+<p>
+<s>( 3 ) Kui Riigikogu aseesimehe valimistel k&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud juhtudel on Riigikogu aseesimehe kandidaatide nimekirjas ainult &uuml;ks kandidaat , h&auml;&auml;letab Riigikogu liige kandidaadi poolt v&otilde;i vastu , m&auml;rgistades h&auml;&auml;letamissedelil ristiga vastavalt lahtri &ldquo; poolt &rdquo; v&otilde;i &ldquo; vastu &rdquo; kandidaadi nime juures .</s><s>Sellisel juhul osutub Riigikogu aseesimeheks valituks see kandidaat , kes saab rohkem poolt- kui vastuh&auml;&auml;li .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 4 ) Kui Riigikogu aseesimehe valimistel k&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud juhtudel on Riigikogu aseesimehe kandidaatide nimekirjas kaks v&otilde;i enam kandidaati , saab Riigikogu aseesimeheks enim h&auml;&auml;li saanud kandidaat .</s><s>V&otilde;rdselt h&auml;&auml;li kogunute vahel korraldatakse valimiste lisavoor .</s>
+</p>
+<p>
+<s>( 12.09.95 j&otilde;ust.04.10.95 - RT I 1995 , 74 , 1285 )</s>
+</p>
+<p>
+<s>( 5 ) Riigikogu esimehe v&otilde;i aseesimehe erakorraliste valimiste k&auml;esolevas paragrahvis reguleerimata protseduurik&uuml;simustes rakendatakse k&auml;esolevas peat&uuml;kis s&auml;testatud Riigikogu esimehe ja aseesimeeste korraliste valimiste korda .</s>
+</p>
+<p>
+<s>( 12.09.95 j&otilde;ust.04.10.95 - RT I 1995 , 74 , 1285 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Riigikogu esimehe volitused</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu esimees :</s>
+</p>
+<p>
+<s>1 ) juhatab Riigikogu istungeid ;</s>
+</p>
+<p>
+<s>2 ) kutsub kokku Riigikogu juhatuse koosoleku , esitab Riigikogu juhatusele koosoleku p&auml;evakorraprojekti ja juhatab Riigikogu juhatuse koosolekuid .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu esimehe volitusel , tema &auml;raolekul v&otilde;i tema volituste peatumisel t&auml;idab Riigikogu esimehe &uuml;lesandeid Riigikogu aseesimees .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Riigikogu juhatuse volitused</s>
+</p>
+<p>
+<s>Riigikogu juhatus :</s>
+</p>
+<p>
+<s>1 ) korraldab Riigikogu esindamist ;</s>
+</p>
+<p>
+<s>2 ) jaotab kohtade arvu Riigikogu fraktsioonide ja fraktsioonidesse mittekuuluvate Riigikogu liikmete vahel Riigikogu alatistes komisjonides ;</s>
+</p>
+<p>
+<s>3 ) kinnitab Riigikogu alatiste komisjonide koosseisu ja koosseisu muudatused ;</s>
+</p>
+<p>
+<s>4 ) registreerib Riigikogu fraktsioonid ja muudatused fraktsioonide koosseisus ;</s>
+</p>
+<p>
+<s>5 ) koostab ja esitab Riigikogule kinnitamiseks Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorraprojekti ning teeb selles muudatusi juhtivkomisjoni v&otilde;i fraktsiooni taotlusel ;</s>
+</p>
+<p>
+<s>6 ) m&auml;&auml;rab Riigikogu menetlusse v&otilde;etud eeln&otilde;udele juhtivkomisjone ;</s>
+</p>
+<p>
+<s>7 ) j&auml;lgib algatatavate eeln&otilde;ude vastavust k&auml;esoleva seaduse paragrahvides 53 ja 53 <hi rend="sup">1</hi> s&auml;testatud n&otilde;uetele , esitatavate arup&auml;rimiste vastavust k&auml;esoleva seaduse paragrahvis 158 s&auml;testatud n&otilde;uetele ning esitatavate kirjalike k&uuml;simuste vastavust k&auml;esoleva seaduse paragrahvis 165 s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>8 ) otsustab Riigikogu liikmete puhkuse k&uuml;simusi Eesti Vabariigi puhkuseseaduses ( RT 1992 , 37 , 481 ; 1993 , 10 , 150 ; RT I 1994 , 84 , 1474 ; 1995 , 16 , 228 ; 1997 , 74 , 1229 ; 93 , 1560 ; 1999 , 82 , 749 ) s&auml;testatud korras ;</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>8 <hi rend="sup">1</hi> ) otsustab Riigikogu liikmete saatmise teenistusl&auml;hetusse ja l&auml;hetuskulude h&uuml;vitamise , samuti kehtestab Riigikogu liikmetele s&otilde;idukite Eesti territooriumil kasutamise kulude ning v&auml;ljaspool Tallinna ja Tallinnaga piirnevaid valdu elavatele Riigikogu liikmetele eluasemekulude ja p&auml;evaraha h&uuml;vitamise ulatuse ja korra ;</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>9 ) t&ouml;&ouml;tab v&auml;lja ja kinnitab Riigikogu Kantselei struktuuri ning kehtestab Riigikogu Kantselei teenistujate ametipalkade piirm&auml;&auml;rad ;</s>
+</p>
+<p>
+<s>10 ) nimetab avaliku konkursi korras ametisse Riigikogu Kantselei direktori ;</s>
+</p>
+<p>
+<s>11 ) korraldab Riigikogu t&ouml;&ouml;d muul viisil .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Riigikogu juhatuse otsustusv&otilde;imelisus</s>
+</p>
+<p>
+<s>Riigikogu juhatus v&otilde;tab vastu otsuseid kohalolevate liikmete konsensuse p&otilde;him&otilde;ttel .</s><s>Kui konsensust ei saavutata , v&otilde;ib Riigikogu juhatuse liige panna k&uuml;simuse p&auml;evakorrav&auml;liselt h&auml;&auml;letamisele Riigikogu istungil .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Riigikogu juhatuse koosolek</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu juhatuse koosolekust v&otilde;ivad osa v&otilde;tta Riigikogu liikmed , koosoleku p&auml;evakorrapunktide arutamisele kutsutud isikud ning Riigikogu Kantselei teenistujad .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu juhatuse koosolek protokollitakse .</s><s>Protokolli kantakse koosoleku toimumise aeg , osalejate nimed , arutamisel olnud k&uuml;simused ja vastuv&otilde;etud otsused .</s>
+</p>
+<p>
+<s>&sect; 15 <hi rend="sup">1</hi> .</s><s>Riigikogu juhatuse otsuste j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu juhatuse otsus j&otilde;ustub allakirjutamisega , v&auml;lja arvatud k&auml;esoleva paragrahvi 2. l&otilde;ikes etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu juhatuse otsus Riigikogu asendusliikme Riigikogu liikmeks asumise , Riigikogu alatiste komisjonide koosseisu kinnitamise ja Riigikogu fraktsioonide koosseisu kinnitamise kohta j&otilde;ustub Riigikogu juhatuse otsuse allakirjutamise p&auml;evale j&auml;rgneval p&auml;eval .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigikogu komisjonid</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Alatised komisjonid</s>
+</p>
+<p>
+<s>Riigikogus on j&auml;rgmised alatised komisjonid :</s>
+</p>
+<p>
+<s>1 ) keskkonnakomisjon ;</s>
+</p>
+<p>
+<s>2 ) kultuurikomisjon ;</s>
+</p>
+<p>
+<s>3 ) maaelukomisjon ;</s>
+</p>
+<p>
+<s>4 ) majanduskomisjon ;</s>
+</p>
+<p>
+<s>5 ) p&otilde;hiseaduskomisjon ;</s>
+</p>
+<p>
+<s>6 ) rahanduskomisjon ;</s>
+</p>
+<p>
+<s>7 ) riigikaitsekomisjon ;</s>
+</p>
+<p>
+<s>8 ) sotsiaalkomisjon ;</s>
+</p>
+<p>
+<s>9 ) v&auml;liskomisjon ;</s>
+</p>
+<p>
+<s>10 ) &otilde;iguskomisjon .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Ajutine komisjon</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu v&otilde;ib moodustada ajutise komisjoni avalikku huvi pakkuva k&uuml;simuse uurimiseks ( edaspidi uurimiskomisjon ) v&otilde;i &uuml;ksikk&uuml;simuse l&auml;bit&ouml;&ouml;tamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Ajutine komisjon moodustatakse Riigikogu otsusega , milles m&auml;&auml;ratakse tema koosseis , &uuml;lesanded ja volituste kestus .</s>
+</p>
+<p>
+<s>( 3 ) Ajutine komisjon esitab Riigikogule v&auml;hemalt kord aastas oma t&ouml;&ouml;st vahearuande ja oma tegevuse l&otilde;petamisel l&otilde;pparuande .</s>
+</p>
+<p>
+<s>( 4 ) Igal fraktsioonil on &otilde;igus olla uurimiskomisjonis esindatud .</s>
+</p>
+<p>
+<s>( 5 ) Uurimiskomisjon teostab riiklikku j&auml;relevalvet .</s><s>Uurimiskomisjonil on &otilde;igus kutsuda v&auml;lja isikuid ja n&otilde;uda tutvumiseks dokumente .</s><s>V&auml;ljakutsutud isik on kohustatud ilmuma , andma selgitusi ja vastama k&uuml;simustele .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 6 ) Ilmumisest keeldumise , samuti &uuml;tluste andmisest keeldumise v&otilde;i teadvalt vale &uuml;tluse andmise eest kannab isik vastutust vastavalt seadusele .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 17 <hi rend="sup">1</hi> .</s><s>Erikomisjon</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu moodustab erikomisjoni seaduse alusel , samuti seadustest v&otilde;i v&auml;lislepingutest tulenevate &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Erikomisjon moodustatakse Riigikogu otsusega , milles m&auml;&auml;ratakse tema koosseis , volituste ulatus ja tegevusest aruandmise kord .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud &uuml;lesannete t&auml;itmise v&otilde;ib Riigikogu panna m&otilde;nele alatisele komisjonile .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Riigikogu liikme kuulumine alatisse komisjoni</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liige kuulub &uuml;hte alatisse komisjoni ja v&otilde;ib fraktsiooni otsuse alusel olla asendusliikmeks teistes alatistes komisjonides .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu esimees ja aseesimehed ei kuulu alatistesse komisjonidesse .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Fraktsiooniliikmete osalemine alatistes komisjonides</s>
+</p>
+<p>
+<s>( 1 ) Kohtade arvu alatistes komisjonides jaotab fraktsioonide vahel Riigikogu juhatus , l&auml;htudes fraktsioonide v&otilde;rdelise esindatuse p&otilde;him&otilde;ttest ning tuginedes fraktsioonide taotlustele .</s>
+</p>
+<p>
+<s>( 2 ) Juhatuselt saadud kohtade arvu alusel ning l&auml;htudes fraktsiooniliikmete soovist , otsustab fraktsioon oma liikmete osalemise Riigikogu alatistes komisjonides .</s>
+</p>
+<p>
+<s>( 3 ) Fraktsioon v&otilde;ib m&auml;&auml;rata igale fraktsiooni esindavale alatise komisjoni p&otilde;hiliikmele kuni kaks asendusliiget , teatades sellest nii vastavale komisjonile kui ka Riigikogu juhatusele .</s>
+</p>
+<p>
+<s>( 4 ) Alatise komisjoni asendusliikmel on p&otilde;hiliikme &auml;raolekul k&otilde;ik p&otilde;hiliikme &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Fraktsioonidesse mittekuuluva Riigikogu liikme osalemine alatises komisjonis</s>
+</p>
+<p>
+<s>( 1 ) Fraktsioonidesse mittekuuluva Riigikogu liikme osalemise alatises komisjonis otsustab Riigikogu juhatus , l&auml;htudes liikme soovist ja t&ouml;&ouml; korraldamise otstarbekusest .</s>
+</p>
+<p>
+<s>( 2 ) Fraktsioonidel ja fraktsioonidesse mittekuuluval Riigikogu liikmel on &otilde;igus vastastikusel kokkuleppel kohti komisjonides vahetada .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Alatiste komisjonide koosseis</s>
+</p>
+<p>
+<s>Alatiste komisjonide koosseisu ja koosseisu muudatused kinnitab Riigikogu juhatus ja teeb need teatavaks Riigikogu istungil .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Komisjoni esimene istung ning komisjoni esimehe ja aseesimehe valimine</s>
+</p>
+<p>
+<s>( 1 ) Komisjoni esimese istungi aja m&auml;&auml;rab Riigikogu juhatus .</s><s>Esimese istungi ajaks v&otilde;ib Riigikogu juhatus m&auml;&auml;rata k&auml;esoleva seaduse &sect; 35 1. l&otilde;ikes s&auml;testatud komisjonide t&ouml;&ouml;ajast erineva aja .</s><s>Komisjoni esimesel istungil valivad komisjoni liikmed endi hulgast salajasel h&auml;&auml;letamisel komisjoni esimehe ja aseesimehe .</s><s>Kuni esimehe valimiseni juhatab komisjoni istungit komisjoni vanim liige .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Komisjoni esimehe ja aseesimehe valimistel on komisjoni liikmel &uuml;ks h&auml;&auml;l .</s><s>Esmalt valitakse komisjoni esimees .</s><s>Komisjoni aseesimees valitakse kohe p&auml;rast esimehe valimisi .</s><s>Valituks osutub enim h&auml;&auml;li saanud kandidaat .</s><s>H&auml;&auml;lte v&otilde;rdsuse korral viiakse l&auml;bi valimiste lisavoor .</s><s>Kui lisavoorus h&auml;&auml;led jagunevad v&otilde;rdselt , heidetakse liisku .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Komisjoni esimehe v&otilde;i aseesimehe tagasiastumine</s>
+</p>
+<p>
+<s>Kui komisjoni esimees v&otilde;i aseesimees astub sellelt ametikohalt tagasi v&otilde;i lahkub komisjoni koosseisust v&otilde;i tema volitused Riigikogu liikmena l&otilde;pevad enne t&auml;htaega v&otilde;i peatuvad , korraldatakse uue esimehe v&otilde;i aseesimehe valimised k&auml;esoleva seaduse paragrahvis 22 s&auml;testatud korras komisjoni j&auml;rgmisel istungil p&auml;rast senise esimehe v&otilde;i aseesimehe volituste l&otilde;ppemist .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Umbusalduse avaldamine komisjoni esimehele v&otilde;i aseesimehele</s>
+</p>
+<p>
+<s>( 1 ) Komisjoni esimehe v&otilde;i aseesimehe vastu v&otilde;ib algatada umbusalduse avaldamise v&auml;hemalt kolmandiku komisjoniliikmete kirjaliku n&otilde;ude esitamisega komisjoni istungil .</s><s>Umbusaldusavaldust arutatakse &uuml;lej&auml;rgmisel komisjoni istungip&auml;eval , kui komisjoni esimees v&otilde;i aseesimees , kelle vastu umbusaldusavaldus algatati , ei n&otilde;ua kiiremat otsustamist .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Kui komisjoni esimehele v&otilde;i aseesimehele avaldab umbusaldust &uuml;le poole komisjoni koosseisust , korraldatakse uue esimehe v&otilde;i aseesimehe valimised k&auml;esoleva seaduse paragrahvis 22 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Umbusalduse avaldamist v&otilde;ib samal alusel uuesti algatada varemalt Riigikogu j&auml;rgmisel korralisel istungj&auml;rgul .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Komisjoni esimehe volitused</s>
+</p>
+<p>
+<s>( 1 ) Komisjoni esimees :</s>
+</p>
+<p>
+<s>1 ) juhib komisjoni t&ouml;&ouml;d ;</s>
+</p>
+<p>
+<s>2 ) koostab komisjoni t&ouml;&ouml;kava ja istungite p&auml;evakorraprojekti ;</s>
+</p>
+<p>
+<s>3 ) kutsub kokku komisjoni erakorralise istungi ;</s>
+</p>
+<p>
+<s>4 ) jaotab komisjoni liikmete vahel t&ouml;&ouml;&uuml;lesanded ;</s>
+</p>
+<p>
+<s>5 ) otsustab , keda kutsuda osalema p&auml;evakorrapunktide arutelul ;</s>
+</p>
+<p>
+<s>6 ) juhatab komisjoni istungit ;</s>
+</p>
+<p>
+<s>7 ) ( Kehtetu - 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) Komisjoni esimehe volitusel v&otilde;i tema &auml;raolekul t&auml;idab komisjoni esimehe &uuml;lesandeid komisjoni aseesimees .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Komisjoni otsustusv&otilde;imelisus korralisel istungil</s>
+</p>
+<p>
+<s>Komisjon on otsustusv&otilde;imeline , kui tema korralisel , k&auml;esoleva seaduse paragrahvis 35 s&auml;testatud ajal toimuval istungil on kohal v&auml;hemalt kolmandik komisjoni koosseisust , nende hulgas komisjoni esimees v&otilde;i aseesimees .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Komisjoni erakorraline istung ja otsustusv&otilde;imelisus</s>
+</p>
+<p>
+<s>( 1 ) Komisjoni erakorralise istungi kutsub kokku komisjoni esimees , tema &auml;raolekul aseesimees oma algatusel v&otilde;i v&auml;hemalt poolte komisjoniliikmete n&otilde;udmisel algataja poolt esitatud p&auml;evakorraga ja ajal.</s>
+</p>
+<p>
+<s>( 2 ) Komisjon on erakorralisel istungil otsustusv&otilde;imeline , kui kohal on v&auml;hemalt pool komisjoniliikmetest , nende hulgas komisjoni esimees v&otilde;i aseesimees .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Komisjoni otsuste vastuv&otilde;tmise kord ja istungi protokoll</s>
+</p>
+<p>
+<s>( 1 ) Komisjon v&otilde;tab otsuseid vastu poolth&auml;&auml;lteenamusega .</s>
+</p>
+<p>
+<s>( 2 ) Komisjoni liikmel on komisjoni istungil &otilde;igus n&otilde;uda oma ettepaneku h&auml;&auml;letamist .</s>
+</p>
+<p>
+<s>( 3 ) Komisjoni istung protokollitakse .</s><s>Protokolli kantakse istungi toimumise aeg , osalenute nimed , arutamisel olnud k&uuml;simused ja vastuv&otilde;etud otsused .</s><s>Protokollile kirjutavad alla istungi juhataja ja protokollija .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Vabariigi Valitsuse liikme , riigiasutuse esindaja ja teiste isikute osalemine komisjoni istungil</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse liikmel on &otilde;igus osaleda komisjoni istungil s&otilde;na&otilde;igusega .</s>
+</p>
+<p>
+<s>( 2 ) Komisjoni esimehe n&otilde;usolekul v&otilde;ivad komisjoni istungil osaleda riigiasutuste esindajad ja teised isikud .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Fraktsioonid</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Fraktsiooni moodustamine ja muudatused fraktsiooni koosseisus</s>
+</p>
+<p>
+<s>( 1 ) Fraktsiooni v&otilde;ivad moodustada ja sinna peab kuuluma v&auml;hemalt viis Riigikogu liiget , kes on valitud sama nimekirja j&auml;rgi .</s><s>&Uuml;hte nimekirja kuuluvad Riigikogu liikmed v&otilde;ivad moodustada ainult &uuml;he fraktsiooni .</s><s>Fraktsiooni nimeks on selle nimekirja esitanud erakonna nimi koos s&otilde;naga &ldquo; fraktsioon &rdquo; .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.14.03.99 - RT I 1999 , 27 , 382 )</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu liige v&otilde;ib kuuluda ainult &uuml;hte fraktsiooni .</s>
+</p>
+<p>
+<s>( 3 ) Uue liikme vastuv&otilde;tmise fraktsiooni otsustab fraktsioon .</s><s>Fraktsioonist lahkumine toimub fraktsiooni liikme avalduse v&otilde;i fraktsiooni otsuse p&otilde;hjal .</s>
+</p>
+<p>
+<s>( 4 ) Fraktsiooni registreerib Riigikogu juhatus .</s><s>Muudatustest fraktsiooni koosseisus teatab fraktsiooni esimees viivitamatult Riigikogu juhatusele .</s><s>Fraktsiooniliikmete nimekirja ja fraktsiooni koosseisu muudatused teeb Riigikogu juhatus p&auml;rast registreerimist teatavaks Riigikogu liikmetele .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Fraktsiooni esimehe ja aseesimehe valimised</s>
+</p>
+<p>
+<s>Fraktsioon valib oma liikmete hulgast esimehe ja aseesimehe , kes samal ajal ei v&otilde;i olla Riigikogu esimehe ega aseesimehe ametikohal .</s><s>Kui fraktsioonis on &uuml;le 12 liikme , on tal &otilde;igus valida ka teine aseesimees .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Riigikogu liikmete ja fraktsioonidevaheline koost&ouml;&ouml;</s>
+</p>
+<p>
+<s>Riigikogu liikmed ja fraktsioonid v&otilde;ivad moodustada &uuml;hendusi ja r&uuml;hmi , millest nad teatavad Riigikogu juhatusele .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigikogu korralised istungj&auml;rgud ja istungid .</s><s>T&auml;iendavad istungid</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Korralised istungj&auml;rgud</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu korralised istungj&auml;rgud toimuvad jaanuarikuu teisest esmasp&auml;evast juunikuu kolmanda neljap&auml;evani ning septembrikuu teisest esmasp&auml;evast detsembrikuu kolmanda neljap&auml;evani .</s>
+</p>
+<p>
+<s>( 2 ) Istungj&auml;rkude nummerdamist alustatakse Riigikogu uue koosseisu kokkukutsumisest .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>T&auml;iskogu t&ouml;&ouml;n&auml;dal , istung ja t&ouml;&ouml;ts&uuml;kkel</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu t&auml;iskogu igan&auml;dalast t&ouml;&ouml;aega nimetatakse t&auml;iskogu t&ouml;&ouml;n&auml;dalaks .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu korralised istungid toimuvad t&auml;iskogu t&ouml;&ouml;n&auml;dala esmasp&auml;evast neljap&auml;evani .</s>
+</p>
+<p>
+<s>( 22.02.95 j&otilde;ust.07.03.95 - RT I 1995 , 20 , 295 )</s>
+</p>
+<p>
+<s>( 3 ) T&auml;iskogu kolm &uuml;ksteisele j&auml;rgnevat t&ouml;&ouml;n&auml;dalat moodustavad t&auml;iskogu t&ouml;&ouml;ts&uuml;kli .</s>
+</p>
+<p>
+<s>( 4 ) T&auml;iskogu t&ouml;&ouml;ts&uuml;klile j&auml;rgnev n&auml;dal on ette n&auml;htud Riigikogu liikmete t&ouml;&ouml;ks valijatega , Riigikogu , fraktsioonide ja komisjonide poolt antud &uuml;lesannete v&otilde;i muude Riigikogu liikme kohustuste t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 5 ) Riigikogu valimiste eel toimub Riigikogu t&auml;iskogu viimane korraline istung mitte hiljem kui valimiste p&auml;evale eelneva teise n&auml;dala neljap&auml;eval .</s><s>Riigikogu valimiste p&auml;evast kuni valimistulemuste v&auml;ljakuulutamiseni Riigikogu korralisi istungeid ei toimu .</s><s>Kui Eesti Vabariigi p&otilde;hiseaduse paragrahvis 131 s&auml;testatud juhtudel Riigikogu volitused pikenevad , toimuvad ka t&auml;iskogu korralised istungid .</s>
+</p>
+<p>
+<s>( 22.02.95 j&otilde;ust.07.03.95 - RT I 1995 , 20 , 295 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Riigikogu t&ouml;&ouml; ajagraafik</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu t&ouml;&ouml; toimub j&auml;rgmise ajagraafiku alusel :</s>
+</p>
+<p>
+<s>1 ) esmasp&auml;ev :</s>
+</p>
+<p>
+<s>kell 9.00-11.00 - fraktsioonide t&ouml;&ouml;</s>
+</p>
+<p>
+<s>kell 11.00-13.00 - alatiste komisjonide t&ouml;&ouml;</s>
+</p>
+<p>
+<s>kell 14.00-15.00 - ajutiste ja erikomisjonide t&ouml;&ouml;</s>
+</p>
+<p>
+<s>kell 15.00 algab Riigikogu istung , millel vastatakse arup&auml;rimistele .</s><s>P&auml;rast k&otilde;igile p&auml;evakorras olevatele arup&auml;rimistele vastamist j&auml;rgneb Riigikogu liikmete vaba mikrofon , mis kestab kuni k&otilde;nesoovide ammendumiseni .</s>
+</p>
+<p>
+<s>Kui Riigikogu istungi p&auml;evakorda ei ole kavandatud arup&auml;rimistele vastamist , algab p&auml;rast t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorra kinnitamist Riigikogu liikmete vaba mikrofon , mis kestab kuni k&otilde;nesoovide ammendumiseni ;</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>2 ) teisip&auml;ev :</s>
+</p>
+<p>
+<s>kell 9.00 -10.00 -fraktsioonide t&ouml;&ouml;</s>
+</p>
+<p>
+<s>kell 10.00 -13.00 -Riigikogu istung</s>
+</p>
+<p>
+<s>kell 14.00 algab alatiste komisjonide t&ouml;&ouml; , mis kestab kuni p&auml;evakorra ammendumiseni ;</s>
+</p>
+<p>
+<s>3 ) kolmap&auml;ev :</s>
+</p>
+<p>
+<s>kell 9.00-12.00 - fraktsioonide t&ouml;&ouml;</s>
+</p>
+<p>
+<s>kell 13.00-14.00 - infotund</s>
+</p>
+<p>
+<s>kell 14.00 algab Riigikogu istung , mis kestab kuni p&auml;evakorra ammendumiseni Vabariigi Valitsuse poolt esitatud eeln&otilde;ude osas , kuid mitte kauem kui neljap&auml;evase istungi alguseni ;</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>4 ) neljap&auml;ev :</s>
+</p>
+<p>
+<s>kell 10.00 -13.00 -Riigikogu istung</s>
+</p>
+<p>
+<s>kell 14.00 -16.00 -alatiste komisjonide t&ouml;&ouml;</s>
+</p>
+<p>
+<s>kell 16.00 algab ajutiste ja erikomisjonide t&ouml;&ouml; ;</s>
+</p>
+<p>
+<s>5 ) reede :</s>
+</p>
+<p>
+<s>Riigikogu liikmed t&ouml;&ouml;tavad valijatega , t&auml;idavad Riigikogu , fraktsioonide ja komisjonide poolt antud &uuml;lesandeid v&otilde;i muid Riigikogu liikme kohustusi .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) Komisjoni esimehe ettepanekul v&otilde;ib komisjoni korralisi istungeid m&auml;&auml;rata ka k&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud ajast erinevale ajale , kui komisjoni esimees koosk&otilde;lastab istungite toimumise aja komisjoni liikmetega hiljemalt t&ouml;&ouml;n&auml;dala esimesel komisjoni istungil .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud komisjoni istungite aeg ei tohi kattuda teiste komisjonide , fraktsioonide ja Riigikogu k&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud t&ouml;&ouml;ajaga .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Riigikogu t&ouml;&ouml; ajagraafiku muutmine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu t&ouml;&ouml; ajagraafikut v&otilde;ib Riigikogu muuta kahekolmandikulise h&auml;&auml;lteenamusega vastuv&otilde;etud otsusega , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 35 1. l&otilde;ike punktis 1 ja &sect;-s 61 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Istungi juhatajal on &otilde;igus anda Riigikogu istungi ajast fraktsioonidele ja komisjonidele lisat&ouml;&ouml;aega .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Riigikogu istungi avalikkus</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu istung on avalik .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu istungisaali v&otilde;ivad siseneda ja seal istungi ajal viibida Riigikogu liikmed , Vabariigi President , Vabariigi Valitsuse liikmed , &otilde;iguskantsler , riigisekret&auml;r , Riigikogu teenistujad ja antud p&auml;evakorrapunkti arutamisele kutsutud isikud .</s>
+</p>
+<p>
+<s>( 3 ) Ajakirjanike ja k&uuml;laliste kohad on r&otilde;dul .</s><s>Filmi- ja videov&otilde;tted ning tele- ja raadio&uuml;lekanded istungisaalist toimuvad Riigikogu juhatuse loal .</s>
+</p>
+<p>
+<s>( 4 ) Korra saalis ja r&otilde;dudel tagab Riigikogu juhatus .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Vabariigi Valitsuse liikmete ja &otilde;iguskantsleri s&otilde;na&otilde;igus Riigikogu istungil</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse liikmed ja &otilde;iguskantsler v&otilde;ivad Riigikogu istungil osaleda s&otilde;na&otilde;igusega .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Riigikogu istungi kinniseks kuulutamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu istung v&otilde;idakse kinniseks kuulutada Riigikogu kahekolmandikulise h&auml;&auml;lteenamusega vastuv&otilde;etud otsuse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Istungi kinniseks kuulutamine otsustatakse iga p&auml;evakorrapunkti kohta eraldi .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast Riigikogu otsust kuulutada Riigikogu istung kinniseks kuulutab istungi juhataja v&auml;lja vaheaja , mille kestel k&otilde;rvalised isikud lahkuvad Riigikogu istungisaalist ja r&otilde;dult ning katkestatakse heli&uuml;lekanne .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Riigikogu kinnine istung</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu kinnise istungi ajal v&otilde;ivad istungisaali siseneda ja seal viibida Riigikogu liikmed , Vabariigi President , Vabariigi Valitsuse liikmed , &otilde;iguskantsler , kinnise istungi p&auml;evakorrapunktide arutamisele kutsutud isikud ja Riigikogu juhatuse poolt m&auml;&auml;ratud Riigikogu Kantselei teenistujad .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu kinnisel istungil toimunust annab Riigikogu juhatus massiteabevahenditele &uuml;levaate .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Riigikogu istungi stenografeerimine , protokollimine ja transleerimine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu istung stenografeeritakse ja protokollitakse .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu istungi stenogramm on avalik .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu kinnise istungi stenogrammiga v&otilde;ivad tutvuda k&auml;esoleva seaduse paragrahv 40 1. l&otilde;ikes loetletud isikud .</s><s>Muudel juhtudel annab selleks loa Riigikogu juhatus .</s>
+</p>
+<p>
+<s>( 4 ) Riigikogu avalik istung transleeritakse Riigikogu ruumidesse .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Riigikogu t&auml;iendav istung</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu korralise istungj&auml;rgu ajal v&otilde;ivad toimuda Riigikogu t&auml;iendavad istungid v&auml;ljaspool k&auml;esoleva seaduse paragrahvis 35 s&auml;testatud t&ouml;&ouml; ajagraafikut .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;iendava istungi v&otilde;ib Riigikogu esimees kokku kutsuda j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) Vabariigi Presidendi valimiseks - Vabariigi Presidendi , Vabariigi Valitsuse v&otilde;i v&auml;hemalt viiendiku Riigikogu koosseisu ettepanekul ;</s>
+</p>
+<p>
+<s>( 10.04.96 j&otilde;ust.18.05.96 - RT I 1996 , 30 , 595 )</s>
+</p>
+<p>
+<s>2 ) s&otilde;jaseisukorra , mobilisatsiooni ja demobilisatsiooni v&auml;ljakuulutamiseks - Vabariigi Presidendi ettepanekul ;</s>
+</p>
+<p>
+<s>3 ) erakorralise seisukorra v&auml;ljakuulutamiseks - Vabariigi Presidendi v&otilde;i Vabariigi Valitsuse ettepanekul ;</s>
+</p>
+<p>
+<s>4 ) Eesti riigi rahvusvaheliste kohustuste t&auml;itmisel kaitsev&auml;e kasutamise otsustamiseks - Vabariigi Presidendi ettepanekul ;</s>
+</p>
+<p>
+<s>5 ) Eesti Vabariigi p&otilde;hiseaduse Paragrahv 78 punktis 11 nimetatud ametiisikute ametisse nimetamise v&otilde;i ametist vabastamise otsustamiseks - Vabariigi Presidendi ettepanekul ;</s>
+</p>
+<p>
+<s>6 ) Riigikohtu liikmete ametisse nimetamiseks - Riigikohtu esimehe ettepanekul ;</s>
+</p>
+<p>
+<s>7 ) Eesti Panga N&otilde;ukogu liikmete nimetamiseks - Eesti Panga N&otilde;ukogu esimehe ettepanekul ;</s>
+</p>
+<p>
+<s>8 ) riigilaenude tegemise ja riigile muude varaliste kohustuste v&otilde;tmise otsustamiseks - Vabariigi Valitsuse ettepanekul ;</s>
+</p>
+<p>
+<s>9 ) Eesti Vabariigi lepingute ratifitseerimiseks ja denonsseerimiseks - Vabariigi Valitsuse ettepanekul ;</s>
+</p>
+<p>
+<s>10 ) Vabariigi Presidendi m&auml;&auml;ratud v&otilde;i Riigikogu poolt k&auml;esoleva seaduse paragrahvis 101 s&auml;testatud korras &uuml;lesseatud peaministrikandidaadile valitsuse moodustamiseks volituste andmiseks ;</s>
+</p>
+<p>
+<s>11 ) n&otilde;usoleku andmise otsustamiseks k&auml;esoleva seaduse paragrahvis 51 nimetatud ametiisikute kriminaalvastutusele v&otilde;tmiseks - Vabariigi Presidendi v&otilde;i &otilde;iguskantsleri ettepanekul ;</s>
+</p>
+<p>
+<s>12 ) Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusalduse avaldamise otsustamiseks - v&auml;hemalt viiendiku Riigikogu koosseisust kirjaliku n&otilde;ude esitamisel ;</s>
+</p>
+<p>
+<s>13 ) Riigikogu avalduste , deklaratsioonide ja p&ouml;&ouml;rdumiste vastuv&otilde;tmiseks - Riigikogu juhatuse v&otilde;i v&auml;hemalt viiendiku Riigikogu koosseisust ettepanekul .</s>
+</p>
+<p>
+<s>( 3 ) T&auml;iendaval istungil on Riigikogu otsustusv&otilde;imeline , kui kohal on &uuml;le poole Riigikogu koosseisust .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Erakorralised istungj&auml;rgud</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Erakorralise istungj&auml;rgu kokkukutsumine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu erakorralise istungj&auml;rgu kutsub kokku Riigikogu esimees Vabariigi Presidendi , Vabariigi Valitsuse v&otilde;i v&auml;hemalt viiendiku Riigikogu koosseisust ettepanekul nende poolt taotletud ajal ja p&auml;evakorraga ning v&auml;ljaspool k&auml;esoleva seadusega kehtestatud Riigikogu korraliste istungj&auml;rkude t&ouml;&ouml;aega .</s>
+</p>
+<p>
+<s>( 2 ) Erakorralise istungj&auml;rgu kokkukutsumisest teatab Riigikogu esimees Riigikogu liikmetele massiteabevahendite kaudu .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Riigikogu otsustusv&otilde;imelisus erakorralisel istungj&auml;rgul .</s><s>Poolelij&auml;&auml;va arutelu j&auml;tkamise aeg</s>
+</p>
+<p>
+<s>( 19.10.95 j&otilde;ust.20.11.95 - RT I 1995 , 83 , 1444 )</s>
+</p>
+<p>
+<s>( 1 ) Erakorralisel istungj&auml;rgul on Riigikogu otsustusv&otilde;imeline , kui kohal on &uuml;le poole Riigikogu koosseisust .</s>
+</p>
+<p>
+<s>( 2 ) Kui Riigikogu otsustusv&otilde;ime puudumise t&otilde;ttu j&auml;&auml;b p&auml;evakorrak&uuml;simuse arutelu Riigikogu erakorralisel istungj&auml;rgul pooleli , j&auml;tkub selle p&auml;evakorrak&uuml;simuse arutelu Riigikogu j&auml;rgmisel istungil k&auml;esoleva seaduse paragrahvis 92 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 19.10.95 j&otilde;ust.20.11.95 - RT I 1995 , 83 , 1444 )</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Erakorralise istungj&auml;rgu t&ouml;&ouml; ajagraafik</s>
+</p>
+<p>
+<s>Erakorralise istungj&auml;rgu t&ouml;&ouml; ajagraafiku kinnitab Riigikogu poolth&auml;&auml;lteenamusega .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Seadusandlik algatus</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Seaduste ja Riigikogu otsuste algatamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Seaduste algatamise &otilde;igus on :</s>
+</p>
+<p>
+<s>1 ) Riigikogu liikmel ;</s>
+</p>
+<p>
+<s>2 ) Riigikogu fraktsioonil ;</s>
+</p>
+<p>
+<s>3 ) Riigikogu komisjonil ;</s>
+</p>
+<p>
+<s>4 ) Vabariigi Valitsusel .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu otsuste algatamise &otilde;igus on k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatutel ja Riigikogu juhatusel .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu otsuse algatamise &otilde;igus olulise t&auml;htsusega riiklikus k&uuml;simuses on Vabariigi Valitsusel , Riigikogu fraktsioonil ja komisjonil .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>P&otilde;hiseaduse muutmise algatamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) P&otilde;hiseaduse muutmise algatamise &otilde;igus on v&auml;hemalt viiendikul Riigikogu koosseisust ja Vabariigi Presidendil .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 ; 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu otsuse eeln&otilde;u rahvah&auml;&auml;letuse korraldamise kohta p&otilde;hiseaduse muutmise k&uuml;simuses algatab p&otilde;hiseaduskomisjon k&auml;esoleva seaduse &sect; 155 <hi rend="sup">2</hi> 3. l&otilde;ikes etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusalduse avaldamise algatamise &otilde;igus</s>
+</p>
+<p>
+<s>Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusalduse avaldamise v&otilde;ib algatada v&auml;hemalt viiendik Riigikogu koosseisust kirjaliku n&otilde;ude otsuse eeln&otilde;una esitamisega Riigikogu istungil .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Riigikogu avalduse , deklaratsiooni ja p&ouml;&ouml;rdumise algatamise &otilde;igus</s>
+</p>
+<p>
+<s>Riigikogu avalduse , deklaratsiooni v&otilde;i p&ouml;&ouml;rdumise algatamise &otilde;igus on Riigikogu juhatusel v&otilde;i v&auml;hemalt viiendikul Riigikogu koosseisust .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Riigikogu otsuse algatamise &otilde;igus ametiisiku ametisse nimetamiseks v&otilde;i ametist vabastamiseks</s>
+</p>
+<p>
+<s>Vabariigi Presidendi , Riigikohtu esimehe , &otilde;iguskantsleri ja Eesti Panga N&otilde;ukogu esimehe ettepanekul ametiisiku ametisse nimetamise v&otilde;i ametist vabastamise Riigikogu otsuse eeln&otilde;u esitab Riigikogu menetlusse Riigikogu juhatus .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Riigikogu otsuse algatamise &otilde;igus ametiisiku kriminaalvastutusele v&otilde;tmiseks</s>
+</p>
+<p>
+<s>Vabariigi Presidendi ettepanekul &otilde;iguskantsleri kriminaalvastutusele v&otilde;tmise Riigikogu otsuse eeln&otilde;u ja &otilde;iguskantsleri ettepanekul Riigikogu liikme , Vabariigi Presidendi , Vabariigi Valitsuse liikme , riigikontrol&ouml;ri , Riigikohtu esimehe v&otilde;i Riigikohtu liikme kriminaalvastutusele v&otilde;tmise Riigikogu otsuse eeln&otilde;u esitab Riigikogu menetlusse Riigikogu juhatus .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Seaduseeln&otilde;u v&otilde;i muu riigielu k&uuml;simuse panemine rahvah&auml;&auml;letusele</s>
+</p>
+<p>
+<s>Seaduseeln&otilde;u v&otilde;i muu riigielu k&uuml;simuse panemiseks rahvah&auml;&auml;letusele v&otilde;tab Riigikogu vastu otsuse .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Eeln&otilde;u &uuml;leandmine</s>
+</p>
+<p>
+<s>( 1 ) Algatatavate seaduste , Riigikogu otsuste , avalduste , deklaratsioonide ja p&ouml;&ouml;rdumiste eeln&otilde;ud koos seletuskirjade ja muude vajalike kirjalike lisadega antakse istungisaali k&otilde;nepuldist &uuml;le Riigikogu istungi juhatajale enne p&auml;evakorras olevate k&uuml;simuste arutamist .</s><s>Eeln&otilde;u esitaja v&otilde;ib seejuures esineda eeln&otilde;u kuni kaheminutise tutvustusega .</s>
+</p>
+<p>
+<s>( 2 ) Kui Riigikogu erakorralise istungj&auml;rgu p&auml;evakorda esitatakse eeln&otilde;u , mida ei ole Riigikogu menetluses , antakse see eeln&otilde;u &uuml;le Riigikogu juhatusele koos erakorralise istungj&auml;rgu kokkukutsumise ettepanekuga .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 53 <hi rend="sup">1</hi> .</s><s>Eeln&otilde;ule esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Eeln&otilde;u peab olema dateeritud ja varustatud algataja nime ning tema v&otilde;i tema esindaja allkirjaga .</s><s>Eeln&otilde;u peab vormistuselt vastama Riigikogu juhatuse poolt kehtestatud normitehnilistele eeskirjadele .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lislepinguid k&auml;sitlevad seaduseeln&otilde;ud esitatakse koos lepingu eesti- ja v&otilde;&otilde;rkeelse koopiaga .</s><s>Eestikeelse originaali puudumisel esitatakse lepingu eestikeelne t&otilde;lge , millel on t&otilde;lkija nimi .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 ) Eesti Vabariigi p&otilde;hiseaduse muutmise seaduse eeln&otilde;u algatamise korral m&auml;rgivad eeln&otilde;u algatajad seletuskirjas , millisel viisil nad p&otilde;hiseadust muuta soovivad .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Juhtivkomisjoni m&auml;&auml;ramine v&otilde;i eeln&otilde;u tagastamine algatajale</s>
+</p>
+<p>
+<s>( 1 ) Kui Riigikogu juhatus leiab , et eeln&otilde;u vastab k&auml;esoleva seaduse paragrahvides 53 ja 53 <hi rend="sup">1</hi> toodud n&otilde;uetele , teeb ta kolme t&ouml;&ouml;p&auml;eva jooksul , arvates eeln&otilde;u &uuml;leandmisest , otsuse eeln&otilde;u menetlusse v&otilde;tmise ning eeln&otilde;ule Riigikogu komisjonide hulgast juhtivkomisjoni m&auml;&auml;ramise kohta .</s>
+</p>
+<p>
+<s>( 2 ) Kui Riigikogu juhatus leiab , et eeln&otilde;u ei vasta k&auml;esoleva seaduse paragrahvides 53 ja 53 <hi rend="sup">1</hi> toodud n&otilde;uetele , teeb ta kolme t&ouml;&ouml;p&auml;eva jooksul , arvates eeln&otilde;u &uuml;leandmisest , otsuse tagastada eeln&otilde;u selle algatajale juhtivkomisjoni m&auml;&auml;ramata .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu juhatus v&otilde;ib Riigikogu komisjoni ettepanekul jaotada menetluses olevaid eeln&otilde;usid komisjonide vahel &uuml;mber .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 1.-3. l&otilde;ikes nimetatud Riigikogu juhatuse otsused teeb istungi juhataja Riigikogu liikmetele teatavaks otsustamisele j&auml;rgneval esimesel Riigikogu istungil .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Juhtivkomisjoni ettepanek eeln&otilde;u kohta</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse poolt algatatud eeln&otilde;u kohta teeb juhtivkomisjon Riigikogu t&auml;iskogu kuue t&ouml;&ouml;n&auml;dala jooksul , eeln&otilde;u menetlusse v&otilde;tmisest arvates , Riigikogu juhatusele ettepaneku v&otilde;tta eeln&otilde;u t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorda .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu liikme , fraktsiooni v&otilde;i komisjoni algatatud eeln&otilde;u saadab juhtivkomisjon hiljemalt j&auml;rgmisel t&ouml;&ouml;p&auml;eval Vabariigi Valitsusele seisukoha andmiseks .</s><s>Valitsus v&otilde;ib seisukoha andmisest loobuda .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsuse seisukohta ei k&uuml;sita avalduste , deklaratsioonide ja p&ouml;&ouml;rdumiste eeln&otilde;ude kohta ning eeln&otilde;ude kohta , mis puudutavad Riigikogu t&ouml;&ouml;- ja kodukorda , Riigikogu delegatsioonide ja komisjonide moodustamist ning ametiisikute ametisse nimetamist ja ametist vabastamist .</s><s>Nende eeln&otilde;ude kohta teeb juhtivkomisjon Riigikogu t&auml;iskogu kuue t&ouml;&ouml;n&auml;dala jooksul eeln&otilde;u menetlusse v&otilde;tmisest arvates , Riigikogu juhatusele ettepaneku v&otilde;tta eeln&otilde;u t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorda .</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsus teatab juhtivkomisjonile kirjalikult oma seisukoha kuue n&auml;dala jooksul eeln&otilde;u saamisest arvates , m&auml;rkides &uuml;htlasi , kas , kes ja millisel eeln&otilde;u arutamise etapil esitab Vabariigi Valitsuse seisukoha Riigikogus .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 4. l&otilde;ikes s&auml;testatud juhul teeb juhtivkomisjon Riigikogu t&auml;iskogu kolme t&ouml;&ouml;n&auml;dala jooksul , arvates Vabariigi Valitsuse mis tahes seisukoha saamisest , Riigikogu juhatusele ettepaneku v&otilde;tta eeln&otilde;u t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorda .</s>
+</p>
+<p>
+<s>( 6 ) Eeln&otilde;u algataja taotlusel v&otilde;i tema n&otilde;usolekul on juhtivkomisjonil &otilde;igus k&auml;esoleva paragrahvi 1. ja 5. l&otilde;ikes nimetatud t&auml;htaegu pikendada kuni Riigikogu t&auml;iskogu kuue t&ouml;&ouml;n&auml;dala v&otilde;rra .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Eeln&otilde;u tagasiv&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Eeln&otilde;u algatajal on &otilde;igus tema poolt algatatud eeln&otilde;u Riigikogus menetlemise igal etapil tagasi v&otilde;tta , mille tagaj&auml;rjel see eeln&otilde;u langeb v&auml;lja Riigikogu menetlusest .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusalduse avaldamise eeln&otilde;u , samuti eeln&otilde;u , mille Vabariigi Valitsus on sidunud usaldusk&uuml;simusega , tagasi v&otilde;tta ei saa .</s>
+</p>
+<p>
+<s>&sect; 56 <hi rend="sup">1</hi> .</s><s>( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 56 <hi rend="sup">2</hi> .</s><s>Riigikogu eelmise koosseisu menetluses olnud eeln&otilde;ud</s>
+</p>
+<p>
+<s>Riigikogu koosseisu volituste l&otilde;ppemisega langevad menetlusest v&auml;lja k&otilde;ik selle koosseisu volituste ajal l&otilde;puni menetlemata j&auml;&auml;nud eeln&otilde;ud .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakord</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>T&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorraprojekt</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorraprojekti koostab Riigikogu juhatus juhtivkomisjonide kirjalike ettepanekute ning arup&auml;rimistele vastamiseks arup&auml;rimiste adressaatidega saavutatud kokkulepete alusel .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) Kirjaliku ettepaneku eeln&otilde;u l&uuml;litamiseks t&auml;iskogu j&auml;rgmise t&ouml;&ouml;n&auml;dala p&auml;evakorda esitab juhtivkomisjon Riigikogu juhatusele hiljemalt t&auml;iskogu eelmise t&ouml;&ouml;n&auml;dala neljap&auml;eva kella 15.00-ks.</s><s>Riigikogu juhatusel on &otilde;igus hiljem laekunud ettepanekud p&auml;evakorraprojekti koostamisel arvestamata j&auml;tta .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 ) Juhtivkomisjoni ettepanekus v&otilde;tta eeln&otilde;u p&auml;evakorda peab olema m&auml;rgitud eeln&otilde;u pealkiri ja algataja , eeln&otilde;u registreerimisnumber , eeln&otilde;u Riigikogus arutamise soovitav kuup&auml;ev ja vajadusel kellaaeg , menetlemise etapp , p&auml;evakorrapunkti ettekandja ning kaasettekandja ees- ja perekonnanimi ning ametikoht .</s><s>Ettepanekule kirjutab alla komisjoni esimees v&otilde;i aseesimees .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Eeln&otilde;u p&auml;evakorda v&otilde;tmise ettepanekus v&otilde;ib juhtivkomisjon taotleda selle eeln&otilde;u rohkem kui &uuml;he lugemise v&otilde;i arutelu l&auml;biviimist samal t&ouml;&ouml;n&auml;dalal .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 4 ) Sama suhet reguleeriva kahe v&otilde;i enama Riigikogu menetluses oleva eeln&otilde;u suhtes v&otilde;ib juhtivkomisjon teha ettepaneku arutada neid eeln&otilde;usid &uuml;he p&auml;evakorrapunktina .</s>
+</p>
+<p>
+<s>( 5 ) Riigikogu komisjon v&otilde;ib eeln&otilde;u algatamata teha ettepaneku v&otilde;tta p&auml;evakorda eraldi p&auml;evakorrapunktina olulise t&auml;htsusega riikliku k&uuml;simuse arutamise .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Eelmisel t&ouml;&ouml;n&auml;dalal arutamata j&auml;&auml;nud eeln&otilde;ude l&uuml;litamine p&auml;evakorraprojekti</s>
+</p>
+<p>
+<s>T&auml;iskogu eelmisel t&ouml;&ouml;n&auml;dalal arutamata j&auml;&auml;nud eeln&otilde;ud l&uuml;litab Riigikogu juhatus t&auml;iskogu uue t&ouml;&ouml;n&auml;dala p&auml;evakorraprojekti esimestena .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>P&auml;evakorraprojekti kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) T&auml;iskogu j&auml;rgneva t&ouml;&ouml;n&auml;dala p&auml;evakorraprojekt jagatakse Riigikogu liikmetele v&auml;lja t&auml;iskogu j&auml;rgneva t&ouml;&ouml;n&auml;dala alguseks .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu kinnitab p&auml;evakorraprojekti t&auml;iskogu t&ouml;&ouml;n&auml;dala esimesel istungil .</s><s>P&auml;evakorraprojekti arutamise k&auml;igus kuulatakse &auml;ra ja vajadusel h&auml;&auml;letatakse l&auml;bi protestid projektis esinevate vigade kohta ja ettepanekud eeln&otilde;ude p&auml;evakorraprojektist v&auml;ljaj&auml;tmiseks .</s><s>Seej&auml;rel kinnitatakse kogu p&auml;evakord .</s>
+</p>
+<p>
+<s>( 3 ) Kui Riigikogu juhatus n&otilde;ustub p&auml;evakorraprojekti kohta esitatud protesti v&otilde;i ettepanekuga , loetakse see rahuldatuks h&auml;&auml;letamata , kui keegi Riigikogu liikmetest h&auml;&auml;letamist ei n&otilde;ua .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>P&auml;evakorrak&uuml;simuste arutamise j&auml;rjekord</s>
+</p>
+<p>
+<s>P&auml;evakorrak&uuml;simuste arutamise j&auml;rjekorra teeb istungi juhataja teatavaks t&ouml;&ouml;n&auml;dala alguses , t&auml;psustades seda iga istungi eel .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>P&auml;evakorrak&uuml;simuste arutamine v&auml;ljaspool j&auml;rjekorda</s>
+</p>
+<p>
+<s>Riigikogu t&auml;iskogu v&otilde;tab v&auml;ljaspool j&auml;rjekorda arutamiseks p&auml;evakorda :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse paragrahvis 99 s&auml;testatud juhul Riigikogu otsuse eeln&otilde;u peaministrikandidaadile valitsuse moodustamiseks volituste andmise kohta - peaministrikandidaadile sobival ajal 14 p&auml;eva jooksul , arvates peaministrikandidaadi m&auml;&auml;ramisest Vabariigi Presidendi poolt ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse Paragrahv- 101 s&auml;testatud juhul peaministrikandidaadile valitsuse moodustamiseks volituste andmise otsustamise - j&auml;rgmisel istungil p&auml;rast peaministrikandidaadi &uuml;lesseadmist Riigikogus ;</s>
+</p>
+<p>
+<s>3 ) Riigikogu otsuse eeln&otilde;u Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusalduse avaldamise kohta - &uuml;lej&auml;rgmisel istungip&auml;eval p&auml;rast eeln&otilde;u esitamist , kui Vabariigi Valitsus ei n&otilde;ua k&uuml;simuse kiiremat otsustamist ;</s>
+</p>
+<p>
+<s>4 ) Vabariigi Presidendi seadluse kinnitamise v&otilde;i t&uuml;histamise seaduse eeln&otilde;u - viivitamatult p&auml;rast selle esitamist Riigikogu menetlusse ;</s>
+</p>
+<p>
+<s>5 ) Riigikogu otsuse eeln&otilde;u erakorralise seisukorra v&auml;ljakuulutamise kohta - viivitamatult p&auml;rast Vabariigi Presidendi v&otilde;i Vabariigi Valitsuse vastava ettepaneku saamist ;</s>
+</p>
+<p>
+<s>6 ) Riigikogu otsuse eeln&otilde;u s&otilde;jaseisukorra , mobilisatsiooni v&otilde;i demobilisatsiooni v&auml;ljakuulutamise kohta - viivitamatult p&auml;rast Vabariigi Presidendi ettepaneku saamist ;</s>
+</p>
+<p>
+<s>7 ) &otilde;iguskantsleri ettepaneku seaduse v&otilde;i Riigikogu otsuse vastavusse viimiseks p&otilde;hiseaduse v&otilde;i seadusega - hiljemalt &uuml;lej&auml;rgmisel istungil p&auml;rast ettepaneku saamist ;</s>
+</p>
+<p>
+<s>8 ) ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>9 ) ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>10 ) m&otilde;ne k&auml;esoleva seaduse paragrahvis 51 nimetatud ametiisiku kriminaalvastutusele v&otilde;tmiseks n&otilde;usoleku andmise otsuse eeln&otilde;u - viivitamatult p&auml;rast Vabariigi Presidendi v&otilde;i &otilde;iguskantsleri vastava ettepaneku saamist .</s>
+</p>
+<p>
+<s>&sect; 62. ( Kehtetu - 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>P&auml;evakorrav&auml;lised k&uuml;simused</s>
+</p>
+<p>
+<s>( 1 ) P&auml;evakorrav&auml;liselt edastatakse teateid ja k&auml;sitletakse Riigikogu istungil :</s>
+</p>
+<p>
+<s>1 ) proteste protseduurireeglite rikkumise kohta ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;korda puudutavaid k&uuml;simusi istungi juhataja ettepanekul ;</s>
+</p>
+<p>
+<s>3 ) ettepanekuid p&auml;evakorra ja t&ouml;&ouml;ajagraafiku muutmiseks ;</s>
+</p>
+<p>
+<s>4 ) Vabariigi Presidendi ja peaministri poliitilisi avaldusi ning informatsiooni ja vastuseid neist tulenevatele k&uuml;simustele .</s><s>Vabariigi President ja peaminister peavad oma esinemissoovist teatama istungi juhatajale , kes leiab selleks sobiva aja sama istungi raames ;</s>
+</p>
+<p>
+<s>4 <hi rend="sup">1</hi> ) Riigikogu k&uuml;laliste poliitilisi avaldusi Riigikogu juhatuse ettepanekul ;</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>5 ) Riigikogu juhatuse liikme poolt Riigikogu t&auml;iskogule h&auml;&auml;letamiseks esitatud k&uuml;simust , milles Riigikogu juhatus ei saavutanud konsensust ;</s>
+</p>
+<p>
+<s>6 ) Riigikogu liikme , Vabariigi Presidendi , Vabariigi Valitsuse liikme , &otilde;iguskantsleri , riigikontrol&ouml;ri ja Riigikohtu liikme ametivande andmist .</s>
+</p>
+<p>
+<s>( 10.01.95 j&otilde;ust.06.02.95 - RT I 1995 , 11 , 115 )</s>
+</p>
+<p>
+<s>( 2 ) Teadaandeid Riigikogu liikmetele , komisjonidele ja fraktsioonidele edastab istungi juhataja .</s><s>Teadaande tekst antakse istungi juhatajale kirjalikult .</s>
+</p>
+<p>
+<s>( 3 ) Istungi juhataja annab selgelt m&auml;rku , kui p&auml;evakorrak&uuml;simuse arutamine katkestatakse ning kui seda j&auml;tkatakse .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>H&auml;&auml;letamine Riigikogus</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Otsustamine Riigikogus</s>
+</p>
+<p>
+<s>Riigikogu teeb otsustusi h&auml;&auml;letamise teel .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Riigikogu liikmete kohaloleku kontroll</s>
+</p>
+<p>
+<s>Riigikogu liikmete kohalolekut kontrollitakse Riigikogu istungi alguses ning enne sellise seaduse v&otilde;i otsuse eeln&otilde;u l&otilde;pph&auml;&auml;letust , mille vastuv&otilde;tmiseks on n&otilde;utav v&auml;hemalt Riigikogu koosseisu h&auml;&auml;lteenamus .</s><s>Riigikogu erakorralise istungj&auml;rgu v&otilde;i t&auml;iendava istungi ajal kontrollitakse kohalolekut ka enne muud h&auml;&auml;letust , kui m&otilde;ni Riigikogu liige kohaloleku kontrolli n&otilde;uab .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>H&auml;&auml;letamise avalikkus</s>
+</p>
+<p>
+<s>H&auml;&auml;letamine Riigikogus on avalik , v&auml;lja arvatud j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) Vabariigi Presidendi valimised ;</s>
+</p>
+<p>
+<s>2 ) Riigikogu esimehe ja aseesimeeste valimised ;</s>
+</p>
+<p>
+<s>3 ) Riigikohtu esimehe ja liikmete ametisse nimetamine ;</s>
+</p>
+<p>
+<s>4 ) riigikontrol&ouml;ri ametisse nimetamine ;</s>
+</p>
+<p>
+<s>5 ) &otilde;iguskantsleri ametisse nimetamine ;</s>
+</p>
+<p>
+<s>6 ) Eesti Panga N&otilde;ukogu esimehe ametisse nimetamine ja Eesti Panga N&otilde;ukogu liikme nimetamine ;</s>
+</p>
+<p>
+<s>7 ) kaitsev&auml;e juhataja v&otilde;i &uuml;lemjuhataja ametisse nimetamine .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Ettevalmistused h&auml;&auml;letamiseks</s>
+</p>
+<p>
+<s>( 1 ) Kaks minutit enne h&auml;&auml;letama asumist annab Riigikogu istungi juhataja sellest Riigikogu liikmetele m&auml;rku Riigikogu t&ouml;&ouml;- ja &uuml;ldkasutatavatesse ruumidesse edastatava signaaliga .</s>
+</p>
+<p>
+<s>( 2 ) Vahetult enne h&auml;&auml;letama asumist kordab Riigikogu istungi juhataja h&auml;&auml;letamisele pandavat k&uuml;simust ning veendub , et k&otilde;igile Riigikogu liikmetele on h&auml;&auml;letamisele pandav k&uuml;simus &uuml;htmoodi arusaadav .</s><s>Kui k&uuml;simus on kellelegi arusaamatu , siis istungi juhataja kordab seletust .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Vaheaja n&otilde;udmine enne h&auml;&auml;letamist</s>
+</p>
+<p>
+<s>Enne h&auml;&auml;letamist v&otilde;ib alatise komisjoni v&otilde;i fraktsiooni esimees v&otilde;i aseesimees n&otilde;uda kuni 10-minutist vaheaega .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>K&uuml;simuse panemine h&auml;&auml;letamisele</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu istungi juhataja teatab Riigikogule valjusti oma otsusest panna k&uuml;simus h&auml;&auml;letamisele ning kinnitab seda haamril&ouml;&ouml;giga .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu istungi juhataja otsust mingi k&uuml;simuse h&auml;&auml;letamisele paneku kohta ei vaidlustata , v&auml;lja arvatud juhul , kui juhataja on rikkunud Riigikogu kodukorra seadust .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>H&auml;&auml;letamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liige h&auml;&auml;letab isiklikult .</s>
+</p>
+<p>
+<s>( 2 ) H&auml;&auml;letamiseks kasutatakse elektroonilist h&auml;&auml;letuss&uuml;steemi , v&auml;lja arvatud k&auml;esoleva seaduse paragrahv 66 punktides 1. ja 2. s&auml;testatud juhtudel , mil h&auml;&auml;letatakse vastavalt Vabariigi Presidendi valimise seadusele ja k&auml;esoleva seaduse paragrahvidele 2-7.</s><s>Elektroonilise h&auml;&auml;letuss&uuml;steemi tehnilise rikke korral toimub h&auml;&auml;letamine k&auml;e t&otilde;stmisega , k&auml;esoleva seaduse Paragrahv 66 punktides 3-7 s&auml;testatud juhtudel aga h&auml;&auml;letamissedelite t&auml;itmisega .</s><s>H&auml;&auml;lte lugemiseks moodustab Riigikogu juhatus neil juhtudel fraktsioonide volitatud esindajatest h&auml;&auml;ltelugemiskomisjoni , kes protokollib h&auml;&auml;letamistulemused .</s>
+</p>
+<p>
+<s>( 3 ) Enne h&auml;&auml;letamistulemuste selgumist ei ole kellelgi &otilde;igust Riigikogu istungisaalis valjusti m&otilde;tteid avaldada .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>H&auml;&auml;letamistulemustest teatamine</s>
+</p>
+<p>
+<s>H&auml;&auml;letamistulemustest teatab Riigikogu istungi juhataja valjusti ning kinnitab seda haamril&ouml;&ouml;giga .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>&Otilde;igus n&otilde;uda h&auml;&auml;letamise kordamist</s>
+</p>
+<p>
+<s>( 1 ) Kui Riigikogu liige m&auml;rkab h&auml;&auml;letamise k&auml;igus Riigikogu kodukorra seaduse rikkumist v&otilde;i tekib tema h&auml;&auml;letuspuldis tehniline rike , mis takistab h&auml;&auml;letamist , on tal p&uuml;sti t&otilde;ustes &otilde;igus n&otilde;uda h&auml;&auml;letamise kordamist .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu liikmel ei ole &otilde;igust p&auml;rast h&auml;&auml;letamistulemuste teatamist taotleda oma h&auml;&auml;le lisamist h&auml;&auml;letusprotokolli .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Riigikogu liikme &otilde;igus tutvuda avaliku h&auml;&auml;letamise tulemustega</s>
+</p>
+<p>
+<s>Riigikogu liikmel on &otilde;igus tutvuda arvuti m&auml;lus salvestatud v&otilde;i h&auml;&auml;ltelugemiskomisjoni protokollitud avaliku h&auml;&auml;letamise tulemustega .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>P&auml;evakorrak&uuml;simuse arutamine Riigikogu istungil</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Eeln&otilde;u esitamine arutamiseks muudetud kujul</s>
+</p>
+<p>
+<s>Eeln&otilde;u algataja n&otilde;usolekul v&otilde;ib juhtivkomisjon esitada eeln&otilde;u Riigikogule arutamiseks v&otilde;i esimesele lugemisele muudetud kujul .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Ettekanne ja kaasettekanne</s>
+</p>
+<p>
+<s>( 1 ) P&auml;evakorrak&uuml;simuse arutamine algab eeln&otilde;u algataja v&otilde;i tema esindaja ettekandega .</s><s>Seej&auml;rel kuulatakse &auml;ra juhtivkomisjoni esindaja kaasettekanne .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Eeln&otilde;u algatajaks ja juhtivkomisjoni esindajaks ei v&otilde;i olla sama isik .</s><s>Kui eeln&otilde;u algataja on juhtivkomisjon , siis juhtivkomisjoni kaasettekannet ei peeta .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) Eeln&otilde;u algataja v&otilde;i juhtivkomisjoni taotlusel v&otilde;ib juhatus anda loa veel kahe kaasettekande pidamiseks .</s><s>Taotlus t&auml;iendava kaasettekande pidamiseks esitatakse Riigikogu juhatusele kirjalikult hiljemalt Riigikogu selle istungi alguseks , mille p&auml;evakorda vastava eeln&otilde;u arutamine on kavandatud .</s>
+</p>
+<p>
+<s>( 3 ) Ettekandeks antakse aega 20 minutit ja kaasettekandeks 10 minutit .</s><s>Ettekandja taotlusel v&otilde;ib istungi juhataja ettekande aega pikendada 10 minuti v&otilde;rra ja kaasettekandja taotlusel kaasettekande aega viie minuti v&otilde;rra .</s>
+</p>
+<p>
+<s>( 4 ) Kui ettekandja v&otilde;i kaasettekandja r&auml;&auml;gib &uuml;le lubatud aja , katkestab istungi juhataja ettekande k&otilde;nepuldi mikrofoni v&auml;ljal&uuml;litamisega .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>K&uuml;simused ettekandjale ja kaasettekandjale</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liige v&otilde;ib ettekandjatele ja kaasettekandjatele ettekannete kohta esitada kuni kaks suulist k&uuml;simust .</s><s>K&uuml;simuste esitamiseks registreerutakse ning istungi juhataja annab s&otilde;na vastavalt registreerumise j&auml;rjekorrale .</s>
+</p>
+<p>
+<s>( 2 ) Lisaks kahele suulisele k&uuml;simusele v&otilde;ib Riigikogu liige esitada ettekandjatele ja kaasettekandjatele ettekande kohta veel kirjalikke k&uuml;simusi , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Vabariigi Valitsuse ja &otilde;iguskantsleri seisukoha esitamine</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liikme , fraktsiooni v&otilde;i komisjoni algatatud eeln&otilde;u arutamisel Riigikogus v&otilde;ib Vabariigi Valitsuse esindaja pidada kaasettekande valitsuse seisukohast eeln&otilde;u kohta .</s><s>Oma soovist pidada kaasettekannet teatab Vabariigi Valitsus Riigikogu juhatusele kirjalikult hiljemalt Riigikogu selle istungi alguseks , mille p&auml;evakorda eeln&otilde;u arutamine on kavandatud .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Kui eeln&otilde;u arutelu Riigikogus katkestatakse , v&otilde;ib Vabariigi Valitsuse esindaja avaldada Vabariigi Valitsuse seisukoha ka arutamise j&auml;tkamiseks esitatud eeln&otilde;u muutunud teksti kohta .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus v&otilde;ib seisukoha esitamisest loobuda .</s>
+</p>
+<p>
+<s>( 4 ) &Otilde;iguskantsler v&otilde;ib eeln&otilde;u arutelul oma seisukohtade esitamiseks pidada kaasettekande .</s><s>Oma soovist pidada kaasettekannet teatab &otilde;iguskantsler Riigikogu juhatusele kirjalikult hiljemalt Riigikogu selle istungi alguseks , mille p&auml;evakorda eeln&otilde;u arutamine on kavandatud .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Arvamuse avaldamise viisid ja kestus</s>
+</p>
+<p>
+<s>P&auml;evakorrak&uuml;simuses arvamuse avaldamise viisid on :</s>
+</p>
+<p>
+<s>1 ) s&otilde;nav&otilde;tt kohalt p&auml;evakorrak&uuml;simuse arutamise korra kohta kestusega kuni &uuml;ks minut ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;nav&otilde;tt kohalt faktiliseks &otilde;ienduseks kestusega kuni &uuml;ks minut ;</s>
+</p>
+<p>
+<s>3 ) k&uuml;simuse esitamine kohalt ettekandjale ja kaasettekandjatele kestusega kuni kaks minutit ;</s>
+</p>
+<p>
+<s>4 ) k&otilde;ne k&otilde;nepuldist kestusega kuni viis minutit ;</s>
+</p>
+<p>
+<s>5 ) s&otilde;nav&otilde;tt kohalt kestusega kuni kaks minutit .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Arvamuse avaldamise kord</s>
+</p>
+<p>
+<s>( 1 ) P&auml;evakorrak&uuml;simuses arvamuse avaldamiseks registreerutakse ning istungi juhataja annab s&otilde;na vastavalt registreerumise j&auml;rjekorrale .</s>
+</p>
+<p>
+<s>( 2 ) K&otilde;ne ees&otilde;igus on peaministril .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;na istungi l&auml;biviimise korra kohta antakse soovijaile m&auml;rguande peale ( t&otilde;stetud k&auml;si ) v&auml;ljaspool j&auml;rjekorda .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Arvamuse avaldamine istungi juhataja poolt</s>
+</p>
+<p>
+<s>Istungi juhataja ei v&otilde;i asja sisuliseks arutamiseks s&otilde;na v&otilde;tta kohalt .</s><s>K&otilde;ne ajaks peab ta istungi juhatamise &uuml;le andma asejuhatajale ning esinema k&otilde;nepuldist .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Piirangud arvamuse avaldamisel</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;hel istungil antakse Riigikogu liikmele samas p&auml;evakorrak&uuml;simuses s&otilde;na kuni kahe suulise k&uuml;simuse esitamiseks ning &uuml;heks s&otilde;nav&otilde;tuks v&otilde;i k&otilde;neks .</s><s>See piirang ei laiene kirjalikele k&uuml;simustele , samuti k&auml;esoleva seaduse paragrahv 78 punktis 2 nimetatud s&otilde;nav&otilde;ttudele faktiliseks &otilde;ienduseks ja paragrahv 83 2. l&otilde;ikes nimetatud vasturepliikidele .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) Kui kahte v&otilde;i enamat eeln&otilde;u arutatakse &uuml;he p&auml;evakorrapunktina , antakse Riigikogu liikmele s&otilde;na kuni kahe suulise k&uuml;simuse esitamiseks iga eeln&otilde;u kohta ning &uuml;heks s&otilde;nav&otilde;tuks v&otilde;i k&otilde;neks .</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>K&uuml;simuste esitamine</s>
+</p>
+<p>
+<s>Arutatavas p&auml;evakorrak&uuml;simuses esitatakse ettekandjatele ja kaasettekandjatele k&uuml;simusi vastavalt k&auml;esoleva seaduse paragrahvis 76 s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>Istungi juhataja &otilde;igused parlamendietiketi rikkumise korral</s>
+</p>
+<p>
+<s>( 1 ) Istungi juhataja taandab arutatavasse p&auml;evakorrak&uuml;simusse mittepuutuvad k&uuml;simused ja l&otilde;petab arutatavasse p&auml;evakorrak&uuml;simusse mittepuutuvad v&otilde;i parlamendietiketile mittevastavad k&otilde;ned ja s&otilde;nav&otilde;tud mikrofoni v&auml;ljal&uuml;litamisega .</s>
+</p>
+<p>
+<s>( 2 ) Istungi juhatajal on &otilde;igus anda vasturepliigi korras s&otilde;na Riigikogu liikmele , kelle nimi k&otilde;las kas ettekandes , kaasettekandes , k&otilde;nes v&otilde;i s&otilde;nav&otilde;tus .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>L&auml;bir&auml;&auml;kimised</s>
+</p>
+<p>
+<s>( 1 ) P&auml;evakorrak&uuml;simuse arutamisel avatakse l&auml;bir&auml;&auml;kimised .</s>
+</p>
+<p>
+<s>( 2 ) L&auml;bir&auml;&auml;kimistel esinevad Riigikogu liikmed , fraktsioonide ja komisjonide esindajad k&otilde;nega Riigikogu istungisaali k&otilde;nepuldist v&otilde;i s&otilde;nav&otilde;tuga kohalt .</s><s>K&otilde;nepidaja taotlusel v&otilde;ib istungi juhataja k&otilde;neaega pikendada kolme minuti v&otilde;rra .</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Vabariigi Valitsuse liikmel on &otilde;igus esineda l&auml;bir&auml;&auml;kimistel k&otilde;nega .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 3 ) Kui k&otilde;nepidaja r&auml;&auml;gib &uuml;le lubatud aja , katkestab istungi juhataja k&otilde;ne mikrofoni v&auml;ljal&uuml;litamisega .</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>L&auml;bir&auml;&auml;kimiste l&otilde;petamine</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 1 ) Ettepaneku l&auml;bir&auml;&auml;kimiste l&otilde;petamiseks teeb istungi juhataja .</s>
+</p>
+<p>
+<s>( 2 ) Otsuse l&auml;bir&auml;&auml;kimiste l&otilde;petamise kohta v&otilde;tab Riigikogu vastu h&auml;&auml;letades .</s><s>Kui arvamuse avaldamiseks enam soovi ei ole , loetakse l&auml;bir&auml;&auml;kimised l&otilde;petatuks h&auml;&auml;letamiseta .</s><s>Istungi juhataja annab s&otilde;na k&otilde;igile , kes on arvamuse avaldamiseks registreerunud enne selle otsuse vastuv&otilde;tmist .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>Muudatusettepanekud eeln&otilde;u kohta</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liikmed , fraktsioonid ja komisjonid v&otilde;ivad esitada juhtivkomisjonile arutusel oleva eeln&otilde;u kohta kirjalikke muudatusettepanekuid .</s><s>Juhtivkomisjon v&otilde;ib ise s&otilde;nastada muudatusettepanekuid .</s>
+</p>
+<p>
+<s>( 2 ) Muudatusettepanekuid v&otilde;ib esitada ainult algatatud eeln&otilde;us reguleeritava &otilde;igussuhte kohta .</s>
+</p>
+<p>
+<s>( 3 ) Kui juhtivkomisjon muudatusettepanekut ei arvestanud v&otilde;ib muudatusettepaneku esitaja oma ettepaneku tagasi v&otilde;tta enne selle Riigikogus h&auml;&auml;letamisele panemist .</s><s>Kui juhtivkomisjon arvestas muudatusettepanekut t&auml;ielikult , ei saa muudatusettepanekut t&auml;ielikult tagasi v&otilde;tta .</s><s>Tagasiv&otilde;etud ettepaneku h&auml;&auml;letamisele panemist n&otilde;uda ei v&otilde;i .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>Juhtivkomisjoni otsus muudatusettepaneku kohta</s>
+</p>
+<p>
+<s>Juhtivkomisjon teeb muudatusettepaneku kohta &uuml;he j&auml;rgmistest otsustest :</s>
+</p>
+<p>
+<s>1 ) arvestada t&auml;ielikult ;</s>
+</p>
+<p>
+<s>2 ) arvestada osaliselt ;</s>
+</p>
+<p>
+<s>3 ) arvestada sisuliselt , muutes redaktsiooni ;</s>
+</p>
+<p>
+<s>3 <hi rend="sup">1</hi> ) arvestada sisuliselt ;</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>4 ) j&auml;tta arvestamata .</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>Muudatusettepanekute loetelu</s>
+</p>
+<p>
+<s>( 1 ) Muudatusettepanekud vormistab juhtivkomisjon loeteluna , kuhu kantakse eeln&otilde;u s&auml;tete j&auml;rjekorras muudatusettepaneku sisu , esitaja nimi , eeln&otilde;u algataja seisukoht muudatusettepaneku kohta ja juhtivkomisjoni otsus .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) Kui juhtivkomisjon arvestab Riigikogu liikme , fraktsiooni v&otilde;i komisjoni muudatusettepaneku sisu , kuid muudab selle s&otilde;nastust v&otilde;i arvestab muudatusettepanekut osaliselt , kannab ta muudatusettepanekute loetellu ka ettepaneku juhtivkomisjoni redaktsiooni , viidates selle aluseks olnud muudatusettepanekule v&otilde;i -ettepanekutele .</s><s>Kui muudatusettepaneku alusel j&auml;etakse tekst eeln&otilde;ust v&auml;lja , peab v&auml;ljaj&auml;etav tekst olema muudatusettepanekute loetelus .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 ) Muudatust , mis vastavalt k&auml;esoleva seaduse paragrahv 94 5. l&otilde;ikele on eeln&otilde;usse viidud h&auml;&auml;letamistulemusena Riigikogus , ei v&otilde;i juhtivkomisjon t&auml;ielikult , osaliselt ega sisuliselt muuta .</s><s>Riigikogu poolt eeln&otilde;usse h&auml;&auml;letatud muudatust v&otilde;ib muuta ainult Riigikogus h&auml;&auml;letamise teel .</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>Arutatava eeln&otilde;u uue teksti ettevalmistamine</s>
+</p>
+<p>
+<s>( 1 ) Juhtivkomisjon valmistab ette arutatava eeln&otilde;u uue teksti , millesse on viidud sisse muudatused , l&auml;htudes juhtivkomisjoni poolt arvestatud muudatusettepanekutest .</s><s>Sisseviidud muudatused t&auml;histatakse &uuml;lej&auml;&auml;nud tekstist eristatavalt .</s>
+</p>
+<p>
+<s>( 2 ) Eeln&otilde;u uue teksti l&otilde;ppu lisatakse juhtivkomisjoni poolt eeln&otilde;u menetlemise kohta tehtud otsused ( lugemise katkestamise kohta , eeln&otilde;u vastuv&otilde;tmise kohta , eeln&otilde;u vastuv&otilde;tmiseks vajaliku Riigikogu koosseisu h&auml;&auml;lteenamuse kohta jms ) .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>P&auml;evakorrak&uuml;simuse arutamise katkestamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu v&otilde;ib k&uuml;simuse arutamise katkestada selle igal etapil , v&auml;lja arvatud seaduseeln&otilde;u esimesel lugemisel .</s>
+</p>
+<p>
+<s>( 2 ) Kui katkestamise ettepaneku teeb eeln&otilde;u algataja , juhtivkomisjon v&otilde;i Riigikogu juhatus , katkestatakse arutamine h&auml;&auml;letamata .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 3 ) Kui katkestamise ettepaneku teeb Riigikogu liige , fraktsioon v&otilde;i komisjon , paneb istungi juhataja katkestamise ettepaneku h&auml;&auml;letamisele .</s><s>Kui see ettepanek tehakse muudatusettepanekute l&auml;bivaatamise ajal , paneb istungi juhataja selle h&auml;&auml;letusele p&auml;rast muudatusettepanekute l&auml;bivaatamist .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 4 ) Kui eeln&otilde;u arutelu katkestatakse rohkem kui &uuml;ks kord , h&auml;&auml;letatakse muudatusettepanekud l&auml;bi enne iga katkestamist , kui juhtivkomisjon ei tee teistsugust ettepanekut .</s>
+</p>
+<p>
+<s>( 5 ) Kui p&auml;evakorrak&uuml;simuse arutamine katkestatakse , teatab juhtivkomisjon arutelu j&auml;tkamise aja ja muudatusettepanekute esitamise t&auml;htaja , mis v&otilde;ivad olla samal p&auml;eval vaid juhul , kui &uuml;kski Riigikogu liige ei ole selle vastu .</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>P&auml;evakorrak&uuml;simuse arutamise j&auml;tkamine samal Riigikogu istungil</s>
+</p>
+<p>
+<s>Muudatusettepanekute l&auml;biarutamiseks ning nende loetelu ja eeln&otilde;u uue teksti v&otilde;i eeln&otilde;u l&otilde;pliku teksti ettevalmistamiseks v&otilde;ib juhtivkomisjon teha ettepaneku p&auml;evakorrak&uuml;simuse arutelu katkestada ja j&auml;tkata seda veel Riigikogu samal istungil .</s><s>Sellisel juhul t&auml;iendavate muudatusettepanekute esitamiseks t&auml;htaega ei m&auml;&auml;rata .</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>P&auml;evakorrak&uuml;simuse arutelu poolelij&auml;&auml;mine</s>
+</p>
+<p>
+<s>( 1 ) Kui p&auml;evakorrak&uuml;simuse arutelu j&auml;&auml;b Riigikogu istungil pooleli seoses k&auml;esoleva seaduse paragrahvis 35 s&auml;testatud Riigikogu istungi t&ouml;&ouml;aja l&otilde;ppemisega , ei k&auml;sitleta seda arutamise katkestamisena ning p&auml;evakorrak&uuml;simuse arutelu j&auml;tkatakse Riigikogu j&auml;rgmisel istungil .</s>
+</p>
+<p>
+<s>( 2 ) Kui Riigikogu erakorralisel istungj&auml;rgul j&auml;&auml;b p&auml;evakorrak&uuml;simuse arutelu pooleli k&auml;esoleva seaduse paragrahvi 44 1. l&otilde;ikes s&auml;testatud Riigikogu otsustusv&otilde;ime puudumise t&otilde;ttu , ei k&auml;sitata seda arutamise katkestamisena ning p&auml;evakorrak&uuml;simuse arutelu j&auml;tkatakse Riigikogu j&auml;rgmisel istungil .</s>
+</p>
+<p>
+<s>( 19.10.95 j&otilde;ust.20.11.95 - RT I 1995 , 83 , 1444 )</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Uute l&auml;bir&auml;&auml;kimiste avamine</s>
+</p>
+<p>
+<s>Kui p&auml;evakorrak&uuml;simuse arutelu j&auml;tkamisel on aluseks oleva eeln&otilde;u tekst muutunud , on istungi juhataja kohustatud avama uued l&auml;bir&auml;&auml;kimised .</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>Muudatusettepanekute l&auml;bivaatamine ja h&auml;&auml;letamine</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 1 ) Muudatusettepanekud vaadatakse l&auml;bi enne eeln&otilde;u l&otilde;pph&auml;&auml;letust v&otilde;i enne eeln&otilde;u arutelu katkestamist .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) Istungi juhataja paneb muudatusettepaneku h&auml;&auml;letamisele ainult siis , kui m&otilde;ni Riigikogu liige , fraktsioon v&otilde;i alatine komisjon seda n&otilde;uab , samuti k&auml;esoleva seaduse paragrahv 88 3. l&otilde;ikes nimetatud juhtudel .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 ) Muudatusettepanekuid , millest tuleneb vajadus muuta riigieelarvet v&otilde;i selle eeln&otilde;u , pannakse h&auml;&auml;letamisele p&auml;rast rahanduskomisjoni seisukoha &auml;rakuulamist .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 4 ) Enne muudatusettepaneku h&auml;&auml;letamist on ettepaneku esitajal , eeln&otilde;u algatajal ja juhtivkomisjoni esindajal &otilde;igus muudatusettepanekut kommenteerida &uuml;he minuti kestel .</s><s>Enne juhtivkomisjoni muudatusettepaneku h&auml;&auml;letamist on kommenteerimise &otilde;igus ka h&auml;&auml;letamist n&otilde;udval Riigikogu liikmel .</s>
+</p>
+<p>
+<s>( 5 ) Eeln&otilde;u loetakse muutunuks , kui muudatusettepaneku poolt h&auml;&auml;letas rohkem Riigikogu liikmeid kui vastu .</s>
+</p>
+<p>
+<s>&sect; 95. ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Muudatusettepaneku muudetud s&otilde;nastuse h&auml;&auml;letamine</s>
+</p>
+<p>
+<s>Juhtivkomisjoni taotlusel v&otilde;ib muudatusettepaneku panna h&auml;&auml;letamisele muudetud s&otilde;nastuses , kui sellega n&otilde;ustuvad eeln&otilde;u algataja ning muudatusettepaneku esitaja .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Protseduurik&uuml;simusi k&auml;sitlevad ettepanekud</s>
+</p>
+<p>
+<s>( 1 ) Protseduurik&uuml;simusi k&auml;sitlevad ettepanekud esitatakse istungi juhatajale kirjalikult ja pannakse h&auml;&auml;letamisele enne muudatusettepanekuid .</s>
+</p>
+<p>
+<s>( 2 ) Ettepanekut eeln&otilde;u mitte vastu v&otilde;tta ei k&auml;sitata iseseisva otsuse eeln&otilde;una ega eeln&otilde;u muudatusena .</s>
+</p>
+<p>
+<s>&sect; 97 <hi rend="sup">1</hi> .</s><s>Istungi juhataja &otilde;igus kuulutada v&auml;lja vaheaeg</s>
+</p>
+<p>
+<s>Istungi juhatajal on &otilde;igus vajaduse korral kuulutada oma algatusel v&auml;lja kuni 30-minutiline vaheaeg .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>L&otilde;pps&otilde;na ja eeln&otilde;u l&otilde;pph&auml;&auml;letus</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast muudatusettepanekute l&auml;bivaatamist paneb istungi juhataja eeln&otilde;u l&otilde;pph&auml;&auml;letusele muudetud kujul .</s>
+</p>
+<p>
+<s>( 2 ) Enne eeln&otilde;u l&otilde;pph&auml;&auml;letust v&otilde;ivad fraktsioonide esindajad , ettekandja ja kaasettekandjad esineda l&otilde;pps&otilde;naga kuni kolm minutit .</s>
+</p>
+<p>
+<s>( 3 ) Kui m&otilde;ni Riigikogu liige , fraktsioon v&otilde;i komisjon seda n&otilde;uab , tuleb enne l&otilde;pph&auml;&auml;letust Riigikogu liikmetele jagada need eeln&otilde;u lehek&uuml;ljed , kuhu t&auml;iskogus h&auml;&auml;letati juhtivkomisjoni poolt esitatud tekstiga v&otilde;rreldes sisse muudatusi .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 98 <hi rend="sup">1</hi> .</s><s>Riigikogus vastuv&otilde;etud &otilde;igusaktide allakirjutamine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast seaduse vastuv&otilde;tmist Riigikogus kirjutab sellele alla Riigikogu esimees , tema &auml;raolekul istungi juhataja hiljemalt viiendal t&ouml;&ouml;p&auml;eval p&auml;rast vastuv&otilde;tmist .</s><s>Seej&auml;rel esitab Riigikogu Kantselei direktor v&otilde;i tema aset&auml;itja viivitamatult seaduse v&auml;ljakuulutamiseks Vabariigi Presidendile .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu otsusele , avaldusele , deklaratsioonile v&otilde;i p&ouml;&ouml;rdumisele kirjutab hiljemalt viiendal t&ouml;&ouml;p&auml;eval p&auml;rast selle vastuv&otilde;tmist alla Riigikogu esimees , tema &auml;raolekul istungi juhataja .</s>
+</p>
+<p>
+<s>( 24.11.98 j&otilde;ust.14.03.99 - RT I 1998 , 107 , 1765 )</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>Peaministrikandidaadile volituste andmine valitsuse moodustamiseks .</s><s>Vabariigi Valitsusele , peaministrile ja ministrile umbusalduse avaldamine ja eeln&otilde;u sidumine usaldusk&uuml;simusega Vabariigi Valitsusele .</s><s>Ametiisiku ametisse nimetamine ja ametist vabastamine</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Peaministrikandidaadile valitsuse moodustamiseks volituste andmise otsuse eeln&otilde;u p&auml;evakorda esitamine</s>
+</p>
+<p>
+<s>Peaministrikandidaadi m&auml;&auml;ramist k&auml;sitleva Vabariigi Presidendi otsuse alusel esitab Riigikogu juhatus Riigikogu otsuse eeln&otilde;u peaministrikandidaadile valitsuse moodustamiseks volituste andmise kohta Riigikogu istungi p&auml;evakorda k&auml;esoleva seaduse paragrahv 61 punktis 1 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>Peaministrikandidaadile valitsuse moodustamiseks volitusteandmise arutamine ja otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Peaministrikandidaadile valitsuse moodustamiseks volituste andmise otsuse eeln&otilde;u l&auml;bivaatamiseks Riigikogu juhatus juhtivkomisjoni ei m&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 2 ) Peaministrikandidaadile valitsuse moodustamiseks volituste andmise arutamise k&auml;igus kuulatakse &auml;ra Vabariigi Presidendi m&auml;&auml;ratud peaministri-kandidaadi kuni 20-minutine ettekanne valitsuse moodustamise aluste kohta .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu liige v&otilde;ib peaministrikandidaadile esitada kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 4 ) L&auml;bir&auml;&auml;kimisi p&auml;evakorrak&uuml;simuses ei avata .</s>
+</p>
+<p>
+<s>( 5 ) Peaministrikandidaadile valitsuse moodustamiseks volituste andmise otsustab Riigikogu samal istungil poolth&auml;&auml;lteenamusega .</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Peaministrikandidaadi &uuml;lesseadmine Riigikogus</s>
+</p>
+<p>
+<s>( 1 ) Peaministrikandidaadi &uuml;lesseadmisel Riigikogus Eesti Vabariigi p&otilde;hiseaduse paragrahv 89 5. l&otilde;ikes s&auml;testatud juhtudel v&otilde;ivad kandidaate esitada fraktsioonid Riigikogu juhatuse poolt m&auml;&auml;ratud t&auml;htajaks .</s>
+</p>
+<p>
+<s>( 2 ) Peaministrikandidaatide esitamisest teatavad fraktsioonid kirjalikult Riigikogu juhatusele Riigikogu t&auml;iskogu istungite ajal.</s>
+</p>
+<p>
+<s>( 3 ) Peaministrikandidaat peab olema Eesti kodanik ning andma Riigikogu juhatusele kirjaliku n&otilde;usoleku kandideerimiseks .</s>
+</p>
+<p>
+<s>( 4 ) P&auml;rast peaministrikandidaadi &uuml;lesseadmist esineb peaministrikandidaat k&auml;esoleva seaduse paragrahv 61 punktis 2 s&auml;testatud ajal Riigikogu ees ettekandega valitsuse moodustamise aluste kohta .</s>
+</p>
+<p>
+<s>( 5 ) Riigikogu liige v&otilde;ib ettekandjale esitada kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 6 ) Kui peaministrikandidaate on mitu , korraldatakse p&auml;rast ettekannete &auml;rakuulamist kandidaatide vahel konkureeriv h&auml;&auml;letamine , kusjuures konkursi igas voorus langeb v&auml;lja k&otilde;ige v&auml;hem h&auml;&auml;li saanud kandidaat .</s>
+</p>
+<p>
+<s>( 7 ) L&auml;bir&auml;&auml;kimisi ei avata .</s>
+</p>
+<p>
+<s>( 8 ) Peaministrikandidaadile volituste andmise valitsuse moodustamiseks otsustab Riigikogu samal istungil poolth&auml;&auml;lteenamusega .</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusalduse avaldamise arutamine</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusalduse avaldamise otsuse eeln&otilde;u l&auml;bivaatamiseks Riigikogu juhatus juhtivkomisjoni ei m&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 2 ) Umbusalduse avaldamise otsuse eeln&otilde;u arutamine algab eeln&otilde;u algatajate esindaja ettekandega .</s>
+</p>
+<p>
+<s>( 3 ) Valitsusliige , kelle vastu umbusaldusavaldus algatati , esineb umbusalduse avaldamise otsuse eeln&otilde;u arutamisel kaasettekandega .</s><s>Kui umbusaldusavaldus algatati Vabariigi Valitsuse vastu , esineb kaasettekandega peaminister .</s><s>Riigikogu liige v&otilde;ib esitada ettekandjale ja kaasettekandjale kokku kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 4 ) Otsuse eeln&otilde;u arutamisel avab istungi juhataja l&auml;bir&auml;&auml;kimised , kusjuures s&otilde;na v&otilde;ivad v&otilde;tta vaid fraktsioonide selleks volitatud esindajad .</s><s>Muudatusettepanekuid otsuse eeln&otilde;u kohta ei esitata .</s>
+</p>
+<p>
+<s>( 5 ) L&auml;bir&auml;&auml;kimiste l&otilde;petamise j&auml;rel v&otilde;ivad ettekandja ja kaasettekandja esineda l&otilde;pps&otilde;naga .</s>
+</p>
+<p>
+<s>( 6 ) P&auml;rast l&otilde;pps&otilde;nade &auml;rakuulamist paneb istungi juhataja umbusalduse avaldamise otsuse eeln&otilde;u h&auml;&auml;letamisele .</s><s>Otsuse eeln&otilde;u h&auml;&auml;letatakse samal istungil , millel arutelu alustati .</s><s>Vajaduse korral pikendab istungi juhataja istungit kuni h&auml;&auml;letamistulemuste selgumiseni .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Vabariigi Valitsusele , peaministrile v&otilde;i ministrile umbusalduse avaldamise otsustamine</s>
+</p>
+<p>
+<s>Vabariigi Valitsusele , peaministrile v&otilde;i ministrile on avaldatud umbusaldust , kui Riigikogu vastava otsuse poolt h&auml;&auml;letas Riigikogu koosseisu enamus .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>Vabariigi Valitsuse poolt algatatud eeln&otilde;u sidumine usaldusk&uuml;simusega</s>
+</p>
+<p>
+<s>Vabariigi Valitsus v&otilde;ib tema poolt algatatud eeln&otilde;u vastuv&otilde;tmise Riigikogus menetlemise igal etapil siduda usaldusk&uuml;simusega Vabariigi Valitsusele .</s><s>( 16.06.99 j&otilde;ust.18.06.99 - RT I 1999 , 53 , 574 )</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>Usaldusk&uuml;simusega seotud eeln&otilde;u menetlemine</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse poolt algatatud ja usaldusk&uuml;simusega seotud eeln&otilde;u menetlemine Riigikogus toimub k&auml;esoleva seaduse 8.-9. ja 14. peat&uuml;kis s&auml;testatud korras k&auml;esolevas paragrahvis s&auml;testatud erisusi arvestades .</s>
+</p>
+<p>
+<s>( 2 ) Kui Vabariigi Valitsus seob tema poolt esitatud eeln&otilde;u otsuse v&otilde;i seadusena vastuv&otilde;tmise usaldusk&uuml;simusega eeln&otilde;u algatamisel , siis Riigikogu juhatus eeln&otilde;ule juhtivkomisjoni ei m&auml;&auml;ra ning arutelu k&auml;igus laekunud muudatusettepanekute suhtes v&otilde;tab seisukoha Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Kui Vabariigi Valitsus seob tema poolt algatatud eeln&otilde;u otsuse v&otilde;i seadusena vastuv&otilde;tmise usaldusk&uuml;simusega eeln&otilde;u arutelu v&otilde;i lugemise mingil etapil , l&otilde;pevad sidumise hetkest varem eeln&otilde;ule m&auml;&auml;ratud juhtivkomisjoni kohustused ning Riigikogu juhatus edastab eeln&otilde;u arutamise v&otilde;i lugemise k&auml;igus esitatud muudatusettepanekud Vabariigi Valitsusele , kes v&otilde;tab nende suhtes seisukoha .</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsuse poolt arvestamata j&auml;etud muudatusettepanekuid Riigikogu istungil h&auml;&auml;letamisele ei panda .</s>
+</p>
+<p>
+<s>( 5 ) Seaduseeln&otilde;u teist lugemist v&otilde;ib p&auml;rast selle sidumist usaldusk&uuml;simusega katkestada ainult &uuml;ks kord .</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>Usaldusk&uuml;simusega seotud eeln&otilde;u l&otilde;pph&auml;&auml;letus</s>
+</p>
+<p>
+<s>Usaldusk&uuml;simusega seotud eeln&otilde;u v&otilde;ib panna l&otilde;pph&auml;&auml;letusele mitte varem kui &uuml;lej&auml;rgmisel istungip&auml;eval p&auml;rast eeln&otilde;u sidumist usaldusk&uuml;simusega .</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>Ametiisiku ametisse nimetamise v&otilde;i ametist vabastamise Riigikogu otsuse eeln&otilde;u arutamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu otsuse eeln&otilde;u arutamine ametiisiku ametisse nimetamiseks v&otilde;i ametist vabastamiseks algab eeln&otilde;u algataja esindaja ettekandega ning juhtivkomisjoni kaasettekandega .</s><s>Riigikogu liige v&otilde;ib esitada ettekandjale kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 2 ) Esitatud ametiisikukandidaadil v&otilde;i vabastataval ametiisikul on &otilde;igus esineda kuni 10-minutise ettekandega .</s>
+</p>
+<p>
+<s>( 3 ) 20 minuti jooksul p&auml;rast ametiisikukandidaadi v&otilde;i vabastatava ametiisiku ettekande &auml;rakuulamist v&otilde;ib Riigikogu liige esitada talle kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 4 ) Ametiisiku ametisse nimetamise v&otilde;i ametist vabastamise k&uuml;simuse arutamisel avatakse l&auml;bir&auml;&auml;kimised .</s><s>Muudatusettepanekuid Riigikogu otsuse eeln&otilde;u kohta ei esitata .</s>
+</p>
+<p>
+<s>( 5 ) L&auml;bir&auml;&auml;kimiste l&otilde;petamise j&auml;rel on eeln&otilde;u algataja ja juhtivkomisjoni esindajal ning fraktsioonide selleks volitatud esindajatel &otilde;igus esineda l&otilde;pps&otilde;naga .</s>
+</p>
+<p>
+<s>( 6 ) L&otilde;pps&otilde;nade &auml;rakuulamise j&auml;rel paneb istungi juhataja eeln&otilde;u h&auml;&auml;letamisele .</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud seaduse ja &otilde;iguskantsleri ettepaneku menetlemine</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud seaduse esitamine p&auml;evakorda</s>
+</p>
+<p>
+<s>Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud ja Riigikogule tagasi saadetud seaduse esitab Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorda uuesti arutamiseks ja otsustamiseks Riigikogu juhatus .</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud seaduse uuesti arutamine Vabariigi Presidendi v&otilde;i tema esindaja osav&otilde;tul</s>
+</p>
+<p>
+<s>( 1 ) Kui Vabariigi President on avaldanud selleks soovi , algab tema poolt v&auml;lja kuulutamata j&auml;etud seaduse uuesti arutamine Vabariigi Presidendi v&otilde;i tema esindaja ettekandega Riigikogu poolt vastuv&otilde;etud seaduse v&auml;lja kuulutamata j&auml;tmise motiivide kohta .</s>
+</p>
+<p>
+<s>( 2 ) Ettekannetega esinevad ka alatise p&otilde;hiseaduskomisjoni ja Riigikogus uuesti arutusel oleva seaduse varem Riigikogu menetluses olnud eeln&otilde;u l&auml;bivaatamiseks m&auml;&auml;ratud juhtivkomisjoni esindaja .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu liige v&otilde;ib esitada ettekandjatele kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud seaduse uuesti arutamine Vabariigi Presidendi v&otilde;i tema esindaja osav&otilde;tuta</s>
+</p>
+<p>
+<s>( 1 ) Kui Vabariigi President ei ole avaldanud soovi esineda Riigikogu ees ettekandega , algab tema poolt v&auml;lja kuulutamata j&auml;etud seaduse uuesti arutamine alatise p&otilde;hiseaduskomisjoni ja Riigikogus uuesti arutusel oleva seaduse varem Riigikogu menetluses olnud eeln&otilde;u l&auml;bivaatamiseks m&auml;&auml;ratud juhtivkomisjoni esindajate ettekannetega .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu liikmed v&otilde;ivad ettekandjatele esitada k&uuml;simusi k&auml;esoleva seaduse 9. peat&uuml;ki vastavates s&auml;tetes kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 111.</s><s>L&auml;bir&auml;&auml;kimised ja l&otilde;pph&auml;&auml;letus seaduse uuesti arutamisel</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud seaduse uuesti arutamisel avatakse l&auml;bir&auml;&auml;kimised ainult Vabariigi Presidendi poolt seaduse v&auml;lja kuulutamata j&auml;tmise motiivide kohta .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;rast l&auml;bir&auml;&auml;kimiste l&otilde;petamist paneb istungi juhataja h&auml;&auml;letamisele Vabariigi Presidendi poolt Riigikogule tagasi saadetud seaduse muutmata kujul uuesti vastuv&otilde;tmise .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud seadus loetakse muutmata kujul uuesti vastuv&otilde;etuks samasuguse h&auml;&auml;lteenamusega , mis oli n&otilde;utav selle seaduse esmakordsel vastuv&otilde;tmisel .</s>
+</p>
+<p>
+<s>&sect; 112.</s><s>Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud seaduse teistkordne menetlemine Riigikogus</s>
+</p>
+<p>
+<s>( 1 ) Kui Riigikogu ei v&otilde;ta Vabariigi Presidendi poolt v&auml;lja kuulutamata j&auml;etud seadust muutmata kujul uuesti vastu , m&auml;&auml;rab Riigikogu juhatus seaduse l&auml;bivaatamiseks juhtivkomisjoni , kes teatab muudatusettepanekute esitamise t&auml;htaja .</s>
+</p>
+<p>
+<s>( 2 ) Seaduse edasine menetlemine toimub vastavalt k&auml;esoleva seaduse &sect;-dele 142-149.</s><s>Riigikogu koosseisu volituste l&otilde;ppemise t&otilde;ttu l&otilde;puni menetlemata j&auml;&auml;nud seadus langeb menetlusest v&auml;lja .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 113.</s><s>&Otilde;iguskantsleri ettepaneku esitamine p&auml;evakorda</s>
+</p>
+<p>
+<s>&Otilde;iguskantsleri ettepaneku seaduse v&otilde;i Riigikogu otsuse koosk&otilde;lla viimiseks p&otilde;hiseaduse v&otilde;i seadusega esitab Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorda Riigikogu juhatus .</s>
+</p>
+<p>
+<s>&sect; 114.</s><s>&Otilde;iguskantsleri ettepaneku arutamine &otilde;iguskantsleri osav&otilde;tul</s>
+</p>
+<p>
+<s>( 1 ) Kui &otilde;iguskantsler on avaldanud selleks soovi , algab ettepaneku arutamine &otilde;iguskantsleri ettekandega seaduse v&otilde;i Riigikogu otsuse vastuolust p&otilde;hiseaduse v&otilde;i seadusega .</s><s>Riigikogu liige v&otilde;ib esitada &otilde;iguskantslerile kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 2 ) Ettekandega esinevad ka p&otilde;hiseaduskomisjoni esindaja ning seaduse v&otilde;i otsuse varem Riigikogu menetluses olnud eeln&otilde;u l&auml;bivaatamiseks m&auml;&auml;ratud juhtivkomisjoni esindaja .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 115.</s><s>&Otilde;iguskantsleri ettepaneku arutamine &otilde;iguskantsleri osav&otilde;tuta</s>
+</p>
+<p>
+<s>Kui &otilde;iguskantsler ei ole avaldanud soovi esineda Riigikogu ees ettekandega , algab tema ettepaneku arutamine p&otilde;hiseaduskomisjoni esindaja ning seaduse v&otilde;i otsuse varem Riigikogu menetluses olnud eeln&otilde;u l&auml;bivaatamiseks m&auml;&auml;ratud juhtivkomisjoni esindaja ettekannetega .</s><s>Riigikogu liikmed v&otilde;ivad esitada ettekandjatele k&uuml;simusi k&auml;esoleva seaduse 9. peat&uuml;ki vastavates s&auml;tetes kehtestatud korras .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 116.</s><s>L&auml;bir&auml;&auml;kimised &otilde;iguskantsleri ettepaneku arutamisel</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;iguskantsleri ettepaneku arutamisel avatakse l&auml;bir&auml;&auml;kimised ainult &otilde;iguskantsleri ettepanekus viidatud seaduse v&otilde;i otsuse vastuolude kohta p&otilde;hiseaduse v&otilde;i seadusega .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;na v&otilde;ivad v&otilde;tta vaid fraktsioonide selleks volitatud esindajad .</s>
+</p>
+<p>
+<s>&sect; 117.</s><s>&Otilde;iguskantsleri ettepaneku h&auml;&auml;letamine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast l&auml;bir&auml;&auml;kimiste l&otilde;petamist paneb istungi juhataja h&auml;&auml;letamisele k&uuml;simuse : &ldquo; Kes on &otilde;iguskantsleri ettepaneku poolt ? &rdquo; .</s>
+</p>
+<p>
+<s>( 2 ) Ettepanek loetakse vastuv&otilde;etuks , kui selle poolt h&auml;&auml;letab enam Riigikogu liikmeid kui vastu .</s>
+</p>
+<p>
+<s>&sect; 118.</s><s>Riigikogu poolt vastuv&otilde;etud &otilde;iguskantsleri ettepaneku alusel eeln&otilde;u algatamine</s>
+</p>
+<p>
+<s>( 1 ) Kui Riigikogu v&otilde;tab vastu &otilde;iguskantsleri ettepaneku seaduse v&otilde;i otsuse p&otilde;hiseaduse v&otilde;i seadusega koosk&otilde;lla viimiseks , teeb Riigikogu juhatus seaduse v&otilde;i otsuse varem Riigikogu menetluses olnud eeln&otilde;u l&auml;bivaatamiseks m&auml;&auml;ratud juhtivkomisjonile &uuml;lesandeks algatada eeln&otilde;u p&otilde;hiseaduse v&otilde;i seadusega vastuolus oleva seaduse v&otilde;i otsuse nende aktidega koosk&otilde;lla viimiseks .</s>
+</p>
+<p>
+<s>( 2 ) Uue eeln&otilde;u algatamisel l&auml;htutakse Eesti Vabariigi p&otilde;hiseaduses ja &otilde;iguskantsleri seaduses ( RT I 1999 , 29 , 406 ; 2000 , 92 , 597 ; 43 , 240 ; 58 , 353 ) s&auml;testatud t&auml;htaegadest .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 119.</s><s>&Otilde;iguskantsleri ettepaneku alusel algatatud eeln&otilde;u menetlemine</s>
+</p>
+<p>
+<s>&Otilde;iguskantsleri ettepaneku alusel algatatud eeln&otilde;u menetlemine toimub p&auml;rast selle algatamist vastavalt k&auml;esoleva seaduse 9. v&otilde;i 14. peat&uuml;kile .</s>
+</p>
+<p>
+<s>12. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riigikohtule selgituse ja arvamuse andmise kord</s>
+</p>
+<p>
+<s>&sect; 120.</s><s>Selgituse ja arvamuse andmine Riigikohtule</s>
+</p>
+<p>
+<s>( 1 ) P&otilde;hiseaduslikkuse j&auml;relevalve korras vaidlustatud Riigikogu &otilde;igusakti kohta Riigikohtu poolt n&otilde;utud selgituse v&otilde;i arvamuse annab Riigikogu nimel selle &otilde;igusakti eeln&otilde;u menetlemisel juhtivkomisjoniks olnud komisjon .</s>
+</p>
+<p>
+<s>( 2 ) Selgitus v&otilde;i arvamus vormistatakse kirjalikult ning sellele kirjutab alla komisjoni esimees v&otilde;i aseesimees .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 121. ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 122. ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 123. ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 124. ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>13. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vabariigi Presidendi seadluse kinnitamine v&otilde;i t&uuml;histamine .</s><s>Erakorralise seisukorra , s&otilde;jaseisukorra , mobilisatsiooni v&otilde;i demobilisatsiooni v&auml;ljakuulutamine .</s><s>Muud p&auml;evakorrak&uuml;simuste arutamise erijuhud</s>
+</p>
+<p>
+<s>&sect; 125.</s><s>Vabariigi Presidendi seadluse kinnitamise v&otilde;i t&uuml;histamise seaduse eeln&otilde;u esitamine p&auml;evakorda</s>
+</p>
+<p>
+<s>Vabariigi Presidendi seadluse kinnitamise v&otilde;i t&uuml;histamise seaduse eeln&otilde;u esitab Riigikogu istungi p&auml;evakorda Riigikogu juhatus .</s><s>Riigikogu juhatus eeln&otilde;u l&auml;bivaatamiseks juhtivkomisjoni ei m&auml;&auml;ra .</s>
+</p>
+<p>
+<s>&sect; 126.</s><s>Vabariigi Presidendi seadluse kinnitamise v&otilde;i t&uuml;histamise seaduse eeln&otilde;u lugemine</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Presidendi seadluse kinnitamise v&otilde;i t&uuml;histamise seaduse eeln&otilde;u arutatakse &uuml;hel lugemisel ning h&auml;&auml;letatakse samal istungil , millel selle lugemist alustati .</s><s>Vajaduse korral pikendab istungi juhataja istungit kuni h&auml;&auml;letamistulemuste selgumiseni .</s>
+</p>
+<p>
+<s>( 2 ) Seaduseeln&otilde;u arutamisel kuulatakse &auml;ra Vabariigi Presidendi , Riigikogu esimehe ja peaministri ettekanne .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu liige v&otilde;ib igale ettekandjale esitada kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 4 ) Muudatusettepanekuid seaduseeln&otilde;u kohta ei esitata .</s>
+</p>
+<p>
+<s>( 5 ) Seaduseeln&otilde;u arutamisel avatakse l&auml;bir&auml;&auml;kimised .</s><s>L&auml;bir&auml;&auml;kimiste l&otilde;petamise j&auml;rel v&otilde;ivad Vabariigi President , Riigikogu esimees , peaminister ja fraktsioonide selleks volitatud esindajad esineda l&otilde;pps&otilde;naga .</s>
+</p>
+<p>
+<s>( 6 ) P&auml;rast l&otilde;pps&otilde;nade &auml;rakuulamist paneb istungi juhataja seaduseeln&otilde;u h&auml;&auml;letamisele .</s>
+</p>
+<p>
+<s>&sect; 127.</s><s>Riigikogu otsuse eeln&otilde;u erakorralise seisukorra , s&otilde;jaseisukorra , mobilisatsiooni v&otilde;i demobilisatsiooni v&auml;ljakuulutamise kohta esitamine p&auml;evakorda</s>
+</p>
+<p>
+<s>Riigikogu otsuse eeln&otilde;u erakorralise seisukorra , s&otilde;jaseisukorra , mobilisatsiooni v&otilde;i demobilisatsiooni v&auml;ljakuulutamise kohta esitab Riigikogu istungi p&auml;evakorda Riigikogu juhatus .</s>
+</p>
+<p>
+<s>&sect; 128.</s><s>Riigikogu otsuse eeln&otilde;u erakorralise seisukorra , s&otilde;jaseisukorra , mobilisatsiooni v&otilde;i demobilisatsiooni v&auml;ljakuulutamise kohta arutamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu otsuse eeln&otilde;u erakorralise seisukorra , s&otilde;jaseisukorra , mobilisatsiooni v&otilde;i demobilisatsiooni v&auml;ljakuulutamise kohta v&otilde;etakse Riigikogu istungi p&auml;evakorda viivitamatult p&auml;rast selle esitamist ning h&auml;&auml;letatakse samal istungil , millel selle arutamist alustati .</s><s>Vajaduse korral pikendab istungi juhataja istungit kuni h&auml;&auml;letamistulemuste selgumiseni .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu juhatus eeln&otilde;u l&auml;bivaatamiseks juhtivkomisjoni ei m&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 3 ) Vastavalt sellele , kes esitas ettepaneku erakorralise seisukorra v&auml;ljakuulutamise kohta , kuulatakse &auml;ra kas Vabariigi Presidendi v&otilde;i peaministri ettekanne .</s>
+</p>
+<p>
+<s>( 4 ) Riigikogu otsuse eeln&otilde;u arutamisel s&otilde;jaseisukorra , mobilisatsiooni v&otilde;i demobilisatsiooni v&auml;ljakuulutamise kohta kuulatakse &auml;ra Vabariigi Presidendi ettekanne .</s>
+</p>
+<p>
+<s>( 5 ) Riigikogu liikmed v&otilde;ivad Vabariigi Presidendile v&otilde;i peaministrile esitada k&uuml;simusi k&auml;esoleva seaduse 9. peat&uuml;ki vastavates s&auml;tetes kehtestatud korras .</s>
+</p>
+<p>
+<s>( 6 ) Muudatusettepanekuid eeln&otilde;u kohta ei esitata .</s>
+</p>
+<p>
+<s>( 7 ) Eeln&otilde;u arutamisel avatakse l&auml;bir&auml;&auml;kimised .</s><s>L&auml;bir&auml;&auml;kimiste l&otilde;petamise j&auml;rel v&otilde;ivad Vabariigi President , peaminister ja fraktsioonide selleks volitatud esindajad esineda l&otilde;pps&otilde;naga .</s>
+</p>
+<p>
+<s>( 8 ) P&auml;rast l&otilde;pps&otilde;nade &auml;rakuulamist paneb istungi juhataja otsuse eeln&otilde;u h&auml;&auml;letamisele .</s>
+</p>
+<p>
+<s>&sect; 129.</s><s>Ametiisiku kriminaalvastutusele v&otilde;tmiseks n&otilde;usoleku andmise otsuse eeln&otilde;u arutamine</s>
+</p>
+<p>
+<s>( 1 ) M&otilde;ne k&auml;esoleva seaduse paragrahvis 51 nimetatud ametiisiku kriminaalvastutusele v&otilde;tmiseks n&otilde;usoleku andmise otsuse eeln&otilde;u esitab Riigikogu menetlusse ja p&auml;evakorda Riigikogu juhatus p&auml;rast Vabariigi Presidendi v&otilde;i &otilde;iguskantsleri sellekohase ettepaneku saamist .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu juhatus eeln&otilde;ule juhtivkomisjoni ei m&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 3 ) Vastavalt sellele , kes esitas ettepaneku n&otilde;usoleku saamiseks , kuulatakse &auml;ra kas Vabariigi Presidendi v&otilde;i &otilde;iguskantsleri ettekanne .</s>
+</p>
+<p>
+<s>( 4 ) Riigikogu liige v&otilde;ib ettekandjale esitada kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 5 ) Muudatusettepanekuid eeln&otilde;ule ei esitata .</s>
+</p>
+<p>
+<s>( 6 ) Eeln&otilde;u arutamisel avatakse l&auml;bir&auml;&auml;kimised .</s><s>L&auml;bir&auml;&auml;kimiste l&otilde;petamise j&auml;rel v&otilde;ivad l&otilde;pps&otilde;naga esineda ettekandja ja fraktsioonide selleks volitatud esindajad .</s>
+</p>
+<p>
+<s>( 7 ) Ametiisiku kriminaalvastutusele v&otilde;tmiseks n&otilde;usoleku andmine otsustatakse Riigikogu koosseisu enamuse n&otilde;usolekul samal istungil , mil arutelu alustati .</s>
+</p>
+<p>
+<s>( 8 ) Riigikogu liikme kriminaalvastutusele v&otilde;tmiseks n&otilde;usoleku andmise otsuse eeln&otilde;u arutamisel ja h&auml;&auml;letamisel sellele Riigikogu liikmele k&uuml;simusi ei esitata ning ta ei v&otilde;ta s&otilde;na ega h&auml;&auml;leta .</s>
+</p>
+<p>
+<s>( 18.10.95 j&otilde;ust.20.11.95 - RT I 1995 , 83 , 1440 )</s>
+</p>
+<p>
+<s>&sect; 130.</s><s>&Uuml;levaated , informatsioon ja aruanded</s>
+</p>
+<p>
+<s>( 1 ) Eesti Vabariigi p&otilde;hiseaduses , seaduses ja Riigikogu otsuses etten&auml;htud ametiisiku &uuml;levaade , informatsioon ja aruanne on kuni 30-minutiline ettekanne , mida v&otilde;ib pikendada ettekandja ja istungi juhataja kokkuleppel .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu liige v&otilde;ib ettekandjale esitada kuni kaks suulist k&uuml;simust .</s><s>Kirjalikke k&uuml;simusi ei esitata .</s>
+</p>
+<p>
+<s>( 3 ) L&auml;bir&auml;&auml;kimisi ei avata ning otsust vastu ei v&otilde;eta .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 131.</s><s>Riigieelarve eeln&otilde;u menetlemise kord</s>
+</p>
+<p>
+<s>Riigieelarve ja lisaeelarve eeln&otilde;u ning riigieelarve muutmise seaduse eeln&otilde;u menetlemine Riigikogus toimub riigieelarve seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 132. ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 133.</s><s>Vabariigi Presidendi valimine Riigikogus</s>
+</p>
+<p>
+<s>Vabariigi Presidendi valimine Riigikogus toimub Eesti Vabariigi p&otilde;hiseaduse paragrahvides 79 ja 83 ning Vabariigi Presidendi valimise seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 133 <hi rend="sup">1</hi> .</s><s>Eesti Panga N&otilde;ukogu ja muu seaduses s&auml;testatud n&otilde;ukogu liikmete nimetamise otsuse eeln&otilde;u menetlemine</s>
+</p>
+<p>
+<s>( 1 ) Eesti Panga N&otilde;ukogu v&otilde;i muu seaduses s&auml;testatud n&otilde;ukogu liikmete nimetamise otsuse eeln&otilde;u esitab Riigikogu menetlusse Riigikogu juhatus .</s>
+</p>
+<p>
+<s>( 2 ) Otsuse eeln&otilde;u arutamine toimub k&auml;esoleva seaduse 8. ja 9. peat&uuml;kis s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Kui seaduses , mille alusel Riigikogu n&otilde;ukogu liikmed nimetab , on s&auml;testatud kandidaatide nimetamiseks ettepaneku&otilde;igust omav ametiisik v&otilde;i organ , siis otsuse-eeln&otilde;ule muudatusettepanekuid ei esitata .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 134. ( Kehtetu - 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 135.</s><s>Olulise t&auml;htsusega riikliku k&uuml;simuse arutelu</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse , Riigikogu fraktsiooni v&otilde;i komisjoni ettepanekul v&otilde;ib Riigikogu avalikul v&otilde;i kinnisel istungil arutada olulise t&auml;htsusega riiklikku k&uuml;simust eraldi p&auml;evakorrapunktina k&uuml;simuse lahendust s&auml;testava otsuse eeln&otilde;u menetlemisega .</s>
+</p>
+<p>
+<s>( 2 ) Riigikogu komisjoni ettepanekul v&otilde;ib Riigikogu arutada olulise t&auml;htsusega riiklikku k&uuml;simust ilma vastava eeln&otilde;uta .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud arutelul toimub olulise t&auml;htsusega riikliku k&uuml;simuse ja vastava eeln&otilde;u arutamine k&auml;esoleva seaduse 8. ja 9. peat&uuml;kis s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud arutelul on Riigikogu liikmel &otilde;igus ettekandjale ja kaasettekandjale esitada kokku kuni kaks suulist k&uuml;simust ja kirjalikke k&uuml;simusi .</s><s>P&auml;rast ettekandeid avatakse l&auml;bir&auml;&auml;kimised .</s><s>Riigikogu liikmel on &otilde;igus arvamust avaldada &uuml;he s&otilde;nav&otilde;tu v&otilde;i k&otilde;nega .</s><s>Kui arutelu katkestatakse , j&auml;tkub see komisjoni poolt ettepandud ajal , kuid mitte hiljem kui kolmandal t&ouml;&ouml;n&auml;dalal katkestamisest arvates .</s><s>Arutelu l&otilde;petamisel Riigikogu otsust vastu ei v&otilde;ta .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>14. peat&uuml;kk</s>
+</p>
+<p>
+<s>Seaduseeln&otilde;u lugemise kord</s>
+</p>
+<p>
+<s>&sect; 136.</s><s>Seaduseeln&otilde;u lugemised</s>
+</p>
+<p>
+<s>( 1 ) Seaduseeln&otilde;u arutab Riigikogu v&auml;hemalt kahel lugemisel , v&auml;lja arvatud k&auml;esolevas seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Riigieelarve ja lisaeelarve eeln&otilde;u ning riigieelarve muutmise seaduse eeln&otilde;u arutab Riigikogu kolmel lugemisel .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;jaseisukorra ajal v&otilde;ib Riigikogu arutada ja vastu v&otilde;tta riigieelarve muutmise seaduse v&otilde;i s&otilde;jaaja lisaeelarve &uuml;hel lugemisel .</s>
+</p>
+<p>
+<s>&sect; 137.</s><s>Seaduseeln&otilde;u algataja kohustus viibida eeln&otilde;u lugemisel</s>
+</p>
+<p>
+<s>Seaduseeln&otilde;u lugemisel peab viibima eeln&otilde;u algataja v&otilde;i tema esindaja .</s>
+</p>
+<p>
+<s>&sect; 138.</s><s>Seaduseeln&otilde;u esimene lugemine</s>
+</p>
+<p>
+<s>( 1 ) Seaduseeln&otilde;u esimesel lugemisel kuulatakse &auml;ra eeln&otilde;u algataja v&otilde;i tema esindaja ettekanne ja juhtivkomisjoni esindaja kaasettekanne .</s><s>Riigikogu liikmed v&otilde;ivad ettekandjale esitada k&uuml;simusi k&auml;esoleva seaduse 9. peat&uuml;ki vastavates s&auml;tetes kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kui juhtivkomisjon on otsustanud seaduseeln&otilde;u esimese lugemise l&otilde;petada ja saata eeln&otilde;u teisele lugemisele ning &uuml;kski fraktsioon ega alatine komisjon ei esita seaduseeln&otilde;u tagasil&uuml;kkamise ettepanekut , l&otilde;petatakse esimene lugemine h&auml;&auml;letamata ning seaduseeln&otilde;u saadetakse teisele lugemisele .</s>
+</p>
+<p>
+<s>( 3 ) Kui juhtivkomisjon on otsustanud seaduseeln&otilde;u esimest lugemist mitte l&otilde;petada ja eeln&otilde;u tagasi l&uuml;kata , avatakse l&auml;bir&auml;&auml;kimised ning kui l&auml;bir&auml;&auml;kimiste l&otilde;petamisel &uuml;kski fraktsioon ega alatine komisjon ei tee ettepanekut eeln&otilde;u esimest lugemist l&otilde;petada ja saata eeln&otilde;u teisele lugemisele , arvatakse eeln&otilde;u h&auml;&auml;letamiseta Riigikogu menetlusest v&auml;lja .</s>
+</p>
+<p>
+<s>&sect; 139.</s><s>Muudatusettepanekute esitamise t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Seaduseeln&otilde;u esimese lugemise l&otilde;petamise j&auml;rel teatab juhtivkomisjon seaduseeln&otilde;ule muudatusettepanekute esitamise t&auml;htaja , mis ei v&otilde;i olla hilisem kui seaduseeln&otilde;u esimese lugemise l&otilde;petamisele j&auml;rgneva Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala viimase istungi l&otilde;pp .</s>
+</p>
+<p>
+<s>( 2 ) Juhtivkomisjoni taotluse alusel v&otilde;ib Riigikogu juhatuse otsusega m&auml;&auml;rata seaduseeln&otilde;ule muudatusettepanekute esitamiseks ka hilisema t&auml;htaja .</s>
+</p>
+<p>
+<s>&sect; 140.</s><s>Keeld katkestada seaduseeln&otilde;u esimene lugemine</s>
+</p>
+<p>
+<s>Seaduseeln&otilde;u esimest lugemist katkestada ei v&otilde;i .</s>
+</p>
+<p>
+<s>&sect; 141.</s><s>Seaduseeln&otilde;u teise lugemise v&otilde;tmine p&auml;evakorda</s>
+</p>
+<p>
+<s>( 1 ) Seaduseeln&otilde;u teine lugemine v&otilde;etakse Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorda juhtivkomisjoni ettepanekul t&auml;iskogu &uuml;heksa t&ouml;&ouml;n&auml;dala jooksul esimese lugemise l&otilde;petamisest arvates .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud t&auml;htaega v&otilde;ib Rigikogu seaduseeln&otilde;u algataja v&otilde;i juhtivkomisjoni ettepanekul pikendada .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 142.</s><s>Muudatusettepanekute loetelu ja seaduseeln&otilde;u uus redaktsioon</s>
+</p>
+<p>
+<s>Seaduseeln&otilde;u teiseks lugemiseks peab juhtivkomisjon seaduseeln&otilde;ule esitatud muudatusettepanekud l&auml;bi arutama ning need loeteluna koos juhtivkomisjoni ja eeln&otilde;u algataja seisukohaga ning seaduseeln&otilde;u uue redaktsiooniga Riigikogu liikmetele v&auml;lja jagama hiljemalt arutamisele eelneval t&auml;iskogu t&ouml;&ouml;p&auml;eval kella 18.00-ks.</s>
+</p>
+<p>
+<s>( 08.04.96 j&otilde;ust.03.05.96 - RT I 1996 , 29 , 576 )</s>
+</p>
+<p>
+<s>&sect; 143.</s><s>Seaduseeln&otilde;u teine lugemine</s>
+</p>
+<p>
+<s>( 1 ) Seaduseeln&otilde;u teisel lugemisel kuulatakse &auml;ra seaduseeln&otilde;u algataja ettekanne ja juhtivkomisjoni esindaja kaasettekanne , milles selgitatakse esimese ja teise lugemise vahel seaduseeln&otilde;uga tehtud t&ouml;&ouml;d ja kommenteeritakse muudatusettepanekuid .</s><s>Riigikogu liikmed v&otilde;ivad ettekandjatele esitada k&uuml;simusi k&auml;esoleva seaduse 9. peat&uuml;ki vastavates s&auml;tetes kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Seaduseeln&otilde;u teisel lugemisel avatakse l&auml;bir&auml;&auml;kimised .</s>
+</p>
+<p>
+<s>&sect; 144.</s><s>Seaduseeln&otilde;u teise lugemise katkestamine</s>
+</p>
+<p>
+<s>( 1 ) Seaduseeln&otilde;u teist lugemist v&otilde;idakse katkestada .</s><s>Seaduseeln&otilde;u teise lugemise katkestamine toimub k&auml;esoleva seaduse paragrahvides 90-97 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kui seaduseeln&otilde;u teine lugemine katkestatakse , v&otilde;ib muudatusettepanekuid esitada kogu eeln&otilde;u kohta .</s>
+</p>
+<p>
+<s>( 3 ) Seaduseeln&otilde;u teise lugemise j&auml;tkamiseks peab juhtivkomisjon seaduseeln&otilde;ule esitatud muudatusettepanekud l&auml;bi arutama ning need eeln&otilde;u s&auml;tete j&auml;rjekorras loeteluna koos juhtivkomisjoni ja eeln&otilde;u algataja seisukohaga ning seaduseeln&otilde;u uue redaktsiooniga Riigikogu liikmetele v&auml;lja jagama hiljemalt arutamisele eelneval t&auml;iskogu t&ouml;&ouml;p&auml;eval kella 18.00-ks.</s>
+</p>
+<p>
+<s>( 08.04.96 j&otilde;ust.03.05.96 - RT I 1996 , 29 , 576 )</s>
+</p>
+<p>
+<s>&sect; 145.</s><s>Muudatusettepanekute h&auml;&auml;letamine</s>
+</p>
+<p>
+<s>Seaduseeln&otilde;u kohta esitatud muudatusettepanekute h&auml;&auml;letamine toimub k&auml;esoleva seaduse paragrahvides 94-98 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 146.</s><s>Seaduseeln&otilde;u l&otilde;pph&auml;&auml;letus teisel lugemisel</s>
+</p>
+<p>
+<s>Kui muudatusettepanekute h&auml;&auml;letamise j&auml;rel ei tehta ettepanekut seaduseeln&otilde;u teist lugemist katkestada v&otilde;i saata eeln&otilde;u kolmandale lugemisele , pannakse eeln&otilde;u teisel lugemisel p&auml;rast muudatusettepanekute h&auml;&auml;letamist l&otilde;pph&auml;&auml;letusele .</s>
+</p>
+<p>
+<s>&sect; 147.</s><s>Seaduseeln&otilde;u kolmandale lugemisele saatmise otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Seaduseeln&otilde;u saadetakse kolmandale lugemisele seaduseeln&otilde;u algataja v&otilde;i juhtivkomisjoni n&otilde;udel v&otilde;i siis , kui Riigikogu nii otsustab .</s>
+</p>
+<p>
+<s>( 2 ) Kui seaduseeln&otilde;u kolmandale lugemisele saatmise ettepaneku teeb seaduseeln&otilde;u algataja v&otilde;i juhtivkomisjon , saadetakse seaduseeln&otilde;u kolmandale lugemisele h&auml;&auml;letamata .</s>
+</p>
+<p>
+<s>( 3 ) Kui ettepaneku teeb Riigikogu liige , fraktsioon v&otilde;i muu alatine komisjon peale juhtivkomisjoni , paneb istungi juhataja selle h&auml;&auml;letamisele juhul , kui juhtivkomisjon selle ettepaneku vaidlustab .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 148.</s><s>Muudatusettepanekute esitamine p&auml;rast teise lugemise l&otilde;petamist</s>
+</p>
+<p>
+<s>( 1 ) Seaduseeln&otilde;u teise lugemise l&otilde;petamise j&auml;rel v&otilde;ib muudatusettepanekuid esitada vaid Riigikogu fraktsioon v&otilde;i alatine komisjon .</s>
+</p>
+<p>
+<s>( 2 ) Seaduseeln&otilde;u kolmandaks lugemiseks peab juhtivkomisjon seaduseeln&otilde;ule laekunud muudatusettepanekud l&auml;bi arutama ning need loeteluna koos seaduseeln&otilde;u algataja ja juhtivkomisjoni seisukohaga ning seaduseeln&otilde;u uue redaktsiooniga Riigikogu liikmetele v&auml;lja jagama hiljemalt arutamisele eelneval t&auml;iskogu t&ouml;&ouml;p&auml;eval kella 18.00-ks.</s>
+</p>
+<p>
+<s>( 08.04.96 j&otilde;ust.03.05.96 - RT I 1996 , 29 , 576 )</s>
+</p>
+<p>
+<s>&sect; 149.</s><s>Seaduseeln&otilde;u kolmas lugemine</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Seaduseeln&otilde;u kolmandal lugemisel v&otilde;ib seaduseeln&otilde;u kohta s&otilde;na v&otilde;tta vaid iga fraktsiooni ja komisjoni selleks volitatud esindaja .</s>
+</p>
+<p>
+<s>( 3 ) Muudatusettepanekute h&auml;&auml;letamine ning seaduseeln&otilde;u l&otilde;pph&auml;&auml;letus toimub analoogiliselt seaduseeln&otilde;u teise lugemisega .</s>
+</p>
+<p>
+<s>15. peat&uuml;kk</s>
+</p>
+<p>
+<s>Sama suhet reguleeriva kahe v&otilde;i enama &uuml;heaegselt Riigikogu menetluses oleva eeln&otilde;u arutamine &uuml;he p&auml;evakorrapunktina</s>
+</p>
+<p>
+<s>&sect; 150.</s><s>Seaduseeln&otilde;ude arutamine &uuml;he p&auml;evakorrapunktina seaduseeln&otilde;ude &uuml;hendamise korral</s>
+</p>
+<p>
+<s>( 1 ) Sama suhet reguleerivate seaduseeln&otilde;ude arutamisel &uuml;he p&auml;evakorrapunktina v&otilde;ib juhtivkomisjon seaduseeln&otilde;ude algatajate n&otilde;usolekul esitada Riigikogule arutamiseks juhtivkomisjoni poolt sama suhet reguleerivate seaduseeln&otilde;ude &uuml;hendamise teel koostatud seaduseeln&otilde;u .</s>
+</p>
+<p>
+<s>( 2 ) Mitme seaduseeln&otilde;u &uuml;hendamise teel koostatud seaduseeln&otilde;u arutamine &uuml;he p&auml;evakorrapunktina toimub k&auml;esoleva seaduse 8.-9. ja 14. peat&uuml;kis s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 151.</s><s>Seaduseeln&otilde;ude arutamine &uuml;he p&auml;evakorrapunktina seaduseeln&otilde;usid &uuml;hendamata</s>
+</p>
+<p>
+<s>( 1 ) Kui seaduseeln&otilde;u algataja ei anna n&otilde;usolekut seaduseeln&otilde;u &uuml;hendamiseks , esitab juhtivkomisjon arutamiseks k&otilde;ik sama suhet reguleerivad seaduseeln&otilde;ud .</s>
+</p>
+<p>
+<s>( 2 ) Seaduseeln&otilde;ude arutamine &uuml;he p&auml;evakorrapunktina , kui seaduseeln&otilde;ude algatajad ei ole andnud n&otilde;usolekut seaduseeln&otilde;ude &uuml;hendamiseks , algab sama suhet reguleerivate seaduseeln&otilde;ude esimese lugemisega , mille raames kuulatakse &auml;ra iga sama suhet reguleeriva seaduseeln&otilde;u algataja v&otilde;i tema esindaja ettekanne ja juhtivkomisjoni kaasettekanne .</s><s>Riigikogu liikmed v&otilde;ivad ettekandjatele esitada k&uuml;simusi k&auml;esoleva seaduse 9. peat&uuml;ki vastavates s&auml;tetes kehtestatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Iga seaduseeln&otilde;u suhtes otsustatakse esimese lugemise l&otilde;petamine eraldi .</s>
+</p>
+<p>
+<s>( 4 ) Muudatusettepanekute esitamiseks k&otilde;igile esimese lugemise l&auml;binud seaduseeln&otilde;udele m&auml;&auml;rab Riigikogu juhatus juhtivkomisjoni ettepanekul &uuml;hise t&auml;htaja .</s>
+</p>
+<p>
+<s>( 5 ) Teisele lugemisele v&otilde;ib juhtivkomisjon esitada seaduseeln&otilde;ude algatajate n&otilde;usolekul sama suhet reguleerivate seaduseeln&otilde;ude ning neile esitatud muudatusettepanekute alusel koostatud &uuml;he seaduseeln&otilde;u .</s>
+</p>
+<p>
+<s>( 6 ) Seaduseeln&otilde;u teine ja kolmas lugemine toimuvad k&auml;esoleva seaduse 14. peat&uuml;kis s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 152.</s><s>Sama suhet reguleerivate otsuse-eeln&otilde;ude arutamine &uuml;he p&auml;evakorrapunktina eeln&otilde;ude &uuml;hendamise korral</s>
+</p>
+<p>
+<s>( 1 ) Sama suhet reguleerivate otsuse-eeln&otilde;ude arutamisel &uuml;he p&auml;evakorrapunktina v&otilde;ib juhtivkomisjon otsuse-eeln&otilde;ude algatajate n&otilde;usolekul arutamisele esitada sama suhet reguleerivate otsuse-eeln&otilde;ude &uuml;hendamise teel koostatud otsuse eeln&otilde;u .</s>
+</p>
+<p>
+<s>( 2 ) Otsuse eeln&otilde;u arutamine toimub k&auml;esoleva seaduse 8.-9. peat&uuml;kis s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 153.</s><s>Sama suhet reguleerivate otsuse-eeln&otilde;ude arutamine &uuml;he p&auml;evakorrapunktina eeln&otilde;usid &uuml;hendamata</s>
+</p>
+<p>
+<s>( 1 ) Kui sama suhet reguleerivate otsuse-eeln&otilde;ude algatajad ei anna n&otilde;usolekut eeln&otilde;ude &uuml;hendamiseks , esitab juhtivkomisjon arutamiseks k&otilde;ik sama suhet reguleerivad otsuse- eeln&otilde;ud .</s>
+</p>
+<p>
+<s>( 2 ) Eeln&otilde;ude arutamisel &uuml;he p&auml;evakorrapunktina kuulatakse &auml;ra iga sama suhet reguleeriva otsuse-eeln&otilde;u algataja v&otilde;i tema esindaja ettekanne ja juhtivkomisjoni kaasettekanne .</s><s>Ettekandjale v&otilde;ib esitada k&uuml;simusi .</s>
+</p>
+<p>
+<s>( 3 ) Ettekannete &auml;rakuulamise j&auml;rel otsuse-eeln&otilde;ude arutamine katkestatakse ning juhtivkomisjon m&auml;&auml;rab k&otilde;igile arutusel olnud eeln&otilde;udele muudatusettepanekute esitamiseks &uuml;hise t&auml;htaja .</s>
+</p>
+<p>
+<s>( 4 ) Arutelu j&auml;tkamiseks v&otilde;ib juhtivkomisjon esitada otsuse-eeln&otilde;ude algatajate n&otilde;usolekul sama suhet reguleerivate otsuse-eeln&otilde;ude ning muudatusettepanekute alusel koostatud otsuse eeln&otilde;u .</s>
+</p>
+<p>
+<s>( 5 ) Eeln&otilde;u edasine menetlemine toimub k&auml;esoleva seaduse 8.-9. peat&uuml;kis s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 154.</s><s>Sama temaatikat k&auml;sitleva kahe v&otilde;i enama avalduse , p&ouml;&ouml;rdumise v&otilde;i deklaratsiooni eeln&otilde;u arutamine &uuml;he p&auml;evakorrapunktina eeln&otilde;ude &uuml;hendamise korral</s>
+</p>
+<p>
+<s>( 1 ) Sama temaatikat k&auml;sitleva kahe v&otilde;i enama avalduse , p&ouml;&ouml;rdumise v&otilde;i deklaratsiooni eeln&otilde;u arutamisel &uuml;he p&auml;evakorrapunktina v&otilde;ib juhtivkomisjon eeln&otilde;ude algatajate n&otilde;usolekul arutamisele esitada eeln&otilde;ude &uuml;hendamise teel koostatud eeln&otilde;u .</s>
+</p>
+<p>
+<s>( 2 ) Eeln&otilde;u arutamine toimub k&auml;esoleva seaduse 8.-9. peat&uuml;kis s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 155.</s><s>Sama temaatikat k&auml;sitleva kahe v&otilde;i enama avalduse , p&ouml;&ouml;rdumise v&otilde;i deklaratsiooni eeln&otilde;u arutamine &uuml;he p&auml;evakorrapunktina eeln&otilde;usid &uuml;hendamata</s>
+</p>
+<p>
+<s>Kui sama temaatikat k&auml;sitleva kahe v&otilde;i enama avalduse , p&ouml;&ouml;rdumise v&otilde;i deklaratsiooni eeln&otilde;u algataja ei anna n&otilde;usolekut eeln&otilde;ude &uuml;hendamiseks , toimub eeln&otilde;ude arutamine analoogiliselt k&auml;esoleva seaduse paragrahvis 153 s&auml;testatud otsuse-eeln&otilde;ude arutamise korrale .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>15 <hi rend="sup">1</hi> . peat&uuml;kk</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>Eesti vabariigi p&otilde;hiseaduse muutmise seaduse eeln&otilde;u menetlemise kord</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 155 <hi rend="sup">1</hi> .</s><s>P&otilde;hiseaduse muutmise seaduse eeln&otilde;u lugemised</s>
+</p>
+<p>
+<s>( 1 ) P&otilde;hiseaduse muutmise seaduse eeln&otilde;u arutab Riigikogu kolmel lugemisel .</s>
+</p>
+<p>
+<s>( 2 ) Eeln&otilde;u esimese ja teise lugemise vahele peab j&auml;&auml;ma v&auml;hemalt kolm kuud ning teise ja kolmanda lugemise vahele v&auml;hemalt &uuml;ks kuu .</s>
+</p>
+<p>
+<s>( 3 ) Eeln&otilde;u lugemised toimuvad k&auml;esoleva seaduse 14. peat&uuml;kis s&auml;testatud korras , arvestades k&auml;esolevas peat&uuml;kis s&auml;testatud erisusi .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 155 <hi rend="sup">2</hi> .</s><s>P&otilde;hiseaduse muutmise seaduse eeln&otilde;u vastuv&otilde;tmise viisi otsustamine</s>
+</p>
+<p>
+<s>( 1 ) P&otilde;hiseaduse muutmise seaduse eeln&otilde;u vastuv&otilde;tmise viisi otsustab Riigikogu eeln&otilde;u kolmandal lugemisel .</s>
+</p>
+<p>
+<s>( 2 ) Ettepaneku p&otilde;hiseaduse muutmise viisi osas teeb Riigikogule p&otilde;hiseaduskomisjon .</s><s>Ettepanek esitatakse p&otilde;hiseaduse muutmise seaduse eeln&otilde;u kolmandaks lugemiseks ning vormistatakse vastavalt k&auml;esoleva seaduse &sect; 89 2. l&otilde;ikele .</s>
+</p>
+<p>
+<s>( 3 ) Kui p&otilde;hiseaduskomisjon teeb Riigikogule ettepaneku muuta p&otilde;hiseadust rahvah&auml;&auml;letusega , algatab ta enne p&otilde;hiseaduse muutmise seaduse eeln&otilde;u kolmandat lugemist Riigikogu otsuse eeln&otilde;u rahvah&auml;&auml;letuse korraldamiseks .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 3. l&otilde;ikes etten&auml;htud juhul toimub p&otilde;hiseaduse muutmise seaduse eeln&otilde;u kolmandal lugemisel ka rahvah&auml;&auml;letuse korraldamise otsuse eeln&otilde;u arutelu sama p&auml;evakorrapunktina .</s>
+</p>
+<p>
+<s>( 5 ) Kui p&otilde;hiseaduskomisjon on teinud Riigikogule ettepaneku muuta p&otilde;hiseadust rahvah&auml;&auml;letusega , paneb istungi juhataja p&otilde;hiseaduse muutmise seaduse eeln&otilde;u kolmandal lugemisel p&auml;rast muudatusettepanekute l&auml;bivaatamist h&auml;&auml;letusele rahvah&auml;&auml;letuse korraldamise otsuse eeln&otilde;u vastuv&otilde;tmise .</s><s>Otsuse-eeln&otilde;u vastuv&otilde;tmiseks on n&otilde;utav Riigikogu koosseisu kolmeviiendikuline h&auml;&auml;lteenamus .</s><s>Kui otsuse-eeln&otilde;u ei saa n&otilde;utavat h&auml;&auml;lteenamust , loetakse ka p&otilde;hiseaduse muutmise seaduse eeln&otilde;u tagasil&uuml;katuks .</s>
+</p>
+<p>
+<s>( 6 ) Kui p&otilde;hiseaduskomisjon on teinud Riigikogule ettepaneku muuta p&otilde;hiseadust Riigikogu kahe j&auml;rjestikuse koosseisu poolt vastuv&otilde;etava seadusega , paneb istungi juhataja p&otilde;hiseaduse muutmise seaduse eeln&otilde;u kolmandal lugemisel p&auml;rast muudatusettepanekute l&auml;bivaatamist h&auml;&auml;letusele .</s><s>Seadus on saanud Riigikogu selle koosseisu toetuse , kui eeln&otilde;u saab Riigikogu koosseisu h&auml;&auml;lteenamuse .</s><s>Kui eeln&otilde;u ei saa n&otilde;utavat h&auml;&auml;lteenamust , loetakse p&otilde;hiseaduse muutmise seaduse eeln&otilde;u tagasil&uuml;katuks .</s>
+</p>
+<p>
+<s>( 7 ) Kui p&otilde;hiseaduskomisjon on teinud Riigikogule ettepaneku muuta p&otilde;hiseadust kiireloomulisena , paneb istungi juhataja p&otilde;hiseaduse muutmise seaduse eeln&otilde;u kolmandal lugemisel p&auml;rast muudatusettepanekute l&auml;bivaatamist h&auml;&auml;letusele ettepaneku k&auml;sitleda eeln&otilde;u kiireloomulisena .</s><s>Eeln&otilde;u kiireloomulisena k&auml;sitlemise otsuse vastuv&otilde;tmiseks on n&otilde;utav neljaviiendikuline h&auml;&auml;lteenamus .</s><s>Kui nimetatud muutmisviis saab n&otilde;utava h&auml;&auml;lteenamuse , paneb istungi juhataja j&auml;rgnevalt h&auml;&auml;letamisele p&otilde;hiseaduse muutmise seaduse eeln&otilde;u vastuv&otilde;tmise .</s><s>Eeln&otilde;u vastuv&otilde;tmiseks on n&otilde;utav Riigikogu koosseisu kahekolmandikuline h&auml;&auml;lteenamus .</s><s>Kui nimetatud muutmisviis v&otilde;i p&otilde;hiseaduse muutmise seaduse eeln&otilde;u ei saa n&otilde;utavat h&auml;&auml;lteenamust , loetakse p&otilde;hiseaduse muutmise seaduse eeln&otilde;u tagasil&uuml;katuks .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>&sect; 155 <hi rend="sup">3</hi> .</s><s>P&otilde;hiseaduse muutmise seaduse eeln&otilde;u vastuv&otilde;tmine Riigikogu j&auml;rgmise koosseisu poolt</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu eelmise koosseisu enamuse toetuse saanud p&otilde;hiseaduse muutmise seaduse eeln&otilde;u paneb esimeseks lugemiseks p&auml;evakorda Riigikogu juhatus .</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;hiseaduse muutmise seaduse eeln&otilde;u esimesel lugemisel ettekannet ega kaasettekannet ei peeta .</s>
+</p>
+<p>
+<s>( 3 ) P&otilde;hiseaduse muutmise seaduse eeln&otilde;u esimesel lugemisel avatakse l&auml;bir&auml;&auml;kimised .</s><s>Eeln&otilde;u kohta v&otilde;ib s&otilde;na v&otilde;tta vaid iga fraktsiooni selleks volitatud esindaja .</s>
+</p>
+<p>
+<s>( 4 ) P&otilde;hiseaduse muutmise seaduse eeln&otilde;u esimest lugemist ei v&otilde;i katkestada , samuti ei v&otilde;i eeln&otilde;ule esitada muudatusettepanekuid .</s>
+</p>
+<p>
+<s>( 5 ) P&auml;rast l&auml;bir&auml;&auml;kimiste l&otilde;petamist pannakse eeln&otilde;u l&otilde;pph&auml;&auml;letusele .</s><s>P&otilde;hiseaduse muutmise seaduse eeln&otilde;u seadusena vastuv&otilde;tmiseks on n&otilde;utav Riigikogu koosseisu kolmeviiendikuline h&auml;&auml;lteenamus .</s><s>Kui eeln&otilde;u ei saa n&otilde;utavat h&auml;&auml;lteenamust , loetakse p&otilde;hiseaduse muutmise seaduse eeln&otilde;u tagasil&uuml;katuks .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>16. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vaba mikrofon</s>
+</p>
+<p>
+<s>&sect; 156.</s><s>Vaba mikrofon</s>
+</p>
+<p>
+<s>Riigikogu liikmete , fraktsioonide ja komisjonide avalduste &auml;rakuulamiseks toimub Riigikogu t&auml;iskogu iga t&ouml;&ouml;n&auml;dala esmasp&auml;eval vaba mikrofon .</s>
+</p>
+<p>
+<s>&sect; 157.</s><s>Avalduste esitamise kord vaba mikrofoni ajal</s>
+</p>
+<p>
+<s>( 1 ) Avaldused vaba mikrofoni ajal esitatakse Riigikogu istungisaali k&otilde;nepuldist ning selleks antakse aega kuni viis minutit .</s>
+</p>
+<p>
+<s>( 2 ) Kui avalduse esitaja r&auml;&auml;gib &uuml;le lubatud aja , katkestab istungi juhataja k&otilde;ne mikrofoni v&auml;ljal&uuml;litamisega .</s>
+</p>
+<p>
+<s>( 3 ) Avalduse esitajale k&uuml;simusi ei esitata ning l&auml;bir&auml;&auml;kimisi ei avata .</s>
+</p>
+<p>
+<s>17. peat&uuml;kk</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>Riigikogu liikme arup&auml;rimine</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 158.</s><s>Arup&auml;rimine ja selle esitamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liikme arup&auml;rimine on Vabariigi Valitsusele v&otilde;i selle liikmele , Eesti Panga N&otilde;ukogu esimehele , Eesti Panga presidendile , riigikontrol&ouml;rile , &otilde;iguskantslerile ja kaitsev&auml;e juhatajale v&otilde;i &uuml;lemjuhatajale esitatud ning vastavalt vormistatud k&uuml;simus , mis puudutab selle organi v&otilde;i ametiisiku v&otilde;imkonda reguleerivate &otilde;igusaktide t&auml;itmist .</s>
+</p>
+<p>
+<s>( 2 ) Arup&auml;rimine vormistatakse kirjalikult .</s><s>Arup&auml;rimises kirjeldab Riigikogu liige arup&auml;rimise esitamist p&otilde;hjustanud asjaolusid .</s><s>Arup&auml;rimisele v&otilde;ib Riigikogu liige lisada muid materjale , mis on seotud arup&auml;rimises k&auml;sitletava k&uuml;simusega .</s>
+</p>
+<p>
+<s>( 3 ) Arup&auml;rimine esitatakse istungi juhatajale avalikult Riigikogu istungi algul .</s>
+</p>
+<p>
+<s>( 4 ) Kui arup&auml;rimine on esitatud koosk&otilde;las k&auml;esoleva paragrahvi 1.-3. l&otilde;ikes s&auml;testatuga , edastab Riigikogu juhatus arup&auml;rimise selle adressaadile viivitamata .</s><s>Kui arup&auml;rimise esitamisel ei ole Riigikogu liige j&auml;rginud k&auml;esoleva paragrahvi 1.-3. l&otilde;ikes s&auml;testatut , tagastab Riigikogu juhatus arup&auml;rimise selle esitajale puuduste k&otilde;rvaldamiseks v&otilde;i teeb talle ettepaneku esitada antud k&uuml;simus infotundi v&otilde;i kirjaliku k&uuml;simusena .</s>
+</p>
+<p>
+<s>( 5 ) Arup&auml;rimise edastamisest adressaadile teatab istungi juhataja Riigikogu liikmetele j&auml;rgmisel Riigikogu istungil .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 159.</s><s>Arup&auml;rimisele vastamisest teatamine</s>
+</p>
+<p>
+<s>( 1 ) Arup&auml;rimisele tuleb vastata Riigikogu istungil 20 istungip&auml;eva jooksul , arvates arup&auml;rimise adressaadile edastamisest .</s>
+</p>
+<p>
+<s>( 2 ) Arup&auml;rimise adressaat teatab Riigikogu juhatusele kirjalikult hiljemalt arup&auml;rimise edastamisele j&auml;rgneva n&auml;dala viimasel t&ouml;&ouml;p&auml;eval , millal ta arup&auml;rimisele Riigikogu istungil vastab .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 159 <hi rend="sup">1</hi> .</s><s>Arup&auml;rimisele vastamise panemine Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorda</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu juhatus paneb arup&auml;rimisele vastamise Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala p&auml;evakorda arup&auml;rimise adressaadiga kokkulepitud p&auml;eval .</s>
+</p>
+<p>
+<s>( 2 ) Arup&auml;rimisele vastamine toimub esmasp&auml;eval .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 159 <hi rend="sup">2</hi> .</s><s>Arup&auml;rimisele vastamise kord</s>
+</p>
+<p>
+<s>( 1 ) Arup&auml;rimisele vastamine algab arup&auml;rija v&otilde;i arup&auml;rijate esindaja k&otilde;nega , milles tutvustatakse arup&auml;rimist ning p&otilde;hjendatakse selle esitamist .</s><s>K&otilde;ne ei v&otilde;i &uuml;letada viit minutit .</s>
+</p>
+<p>
+<s>( 2 ) Arup&auml;rija v&otilde;i arup&auml;rijate esindaja k&otilde;nele j&auml;rgneb arup&auml;rimise adressaadi vastus .</s><s>Vastus ei v&otilde;i &uuml;letada 15 minutit .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast arup&auml;rimise adressaadi vastust v&otilde;ivad Riigikogu liikmed 20 minuti jooksul esitada arup&auml;rimise adressaadile iga&uuml;ks kuni kaks t&auml;psustavat k&uuml;simust .</s>
+</p>
+<p>
+<s>( 4 ) P&auml;rast t&auml;psustavatele k&uuml;simustele vastamist on arup&auml;rijal v&otilde;i arup&auml;rijate esindajal &otilde;igus esineda kuni viieminutise k&otilde;nega .</s>
+</p>
+<p>
+<s>( 5 ) P&auml;rast arup&auml;rija v&otilde;i arup&auml;rijate esindaja k&otilde;net avab istungi juhataja l&auml;bir&auml;&auml;kimised , mille k&auml;igus fraktsioonide volitatud esindajad v&otilde;ivad esineda k&otilde;nega k&otilde;nepuldist , teised Riigikogu liikmed aga s&otilde;nav&otilde;tuga kohalt .</s>
+</p>
+<p>
+<s>( 6 ) P&auml;rast l&auml;bir&auml;&auml;kimiste l&otilde;petamist on arup&auml;rimise adressaadil ning arup&auml;rijal v&otilde;i arup&auml;rijate esindajal &otilde;igus esineda kuni kolmeminutise l&otilde;pps&otilde;naga .</s>
+</p>
+<p>
+<s>( 7 ) Otsust vastu ei v&otilde;eta .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 159 <hi rend="sup">3</hi> .</s><s>Riigikogu eelmise koosseisu liikmete poolt esitatud arup&auml;rimised</s>
+</p>
+<p>
+<s>Riigikogu uues koosseisus ei vastata arup&auml;rimistele , mille olid esitanud Riigikogu eelmise koosseisu liikmed .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>18. peat&uuml;kk</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>Infotund</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 160.</s><s>Infotunni aeg</s>
+</p>
+<p>
+<s>Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dala kolmap&auml;eval kella 13.00-st kuni 14.00-ni toimub infotund , kus peaminister ja ministrid vastavad Riigikogu liikmete k&uuml;simustele .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 161.</s><s>Valitsusliikmete osalemine infotunnis</s>
+</p>
+<p>
+<s>( 1 ) Infotunnis osaleb v&auml;hemalt kolm Vabariigi Valitsuse liiget .</s>
+</p>
+<p>
+<s>( 16.11.2000 j&otilde;ust.22.12.2000 - RT I 2000 , 95 , 610 )</s>
+</p>
+<p>
+<s>( 2 ) Infotunnis osalevate valitsusliikmete nimed teeb peaminister Riigikogu juhatusele teatavaks hiljemalt eelmise n&auml;dala reedel .</s><s>T&ouml;&ouml;n&auml;dala esimesel istungil teeb istungi juhataja infotunnis osalevate valitsusliikmete nimed teatavaks Riigikogu liikmetele .</s>
+</p>
+<p>
+<s>( 3 ) Peaminister osaleb infotunnis v&auml;hemalt &uuml;he korra Riigikogu t&auml;iskogu &uuml;he t&ouml;&ouml;ts&uuml;kli jooksul .</s><s>Minister osaleb infotunnis v&auml;hemalt &uuml;he korra Riigikogu t&auml;iskogu kahe t&ouml;&ouml;ts&uuml;kli jooksul .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 162.</s><s>Registreerumine k&uuml;simuse esitamiseks</s>
+</p>
+<p>
+<s>( 1 ) Kui Riigikogu liige soovib infotunnis esitada valitsusliikmele k&uuml;simust , esitab ta Riigikogu juhatusele kirjaliku taotluse infotunnile eelneva istungip&auml;eva kella 12.00-ks.</s>
+</p>
+<p>
+<s>( 2 ) Taotluses m&auml;rgib Riigikogu liige valitsusliikme , kellele ta soovib k&uuml;simuse esitada , ning tema valitsemisalast v&otilde;i avaliku elu valdkonnast probleemi , mida k&uuml;simus puudutab .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu liige v&otilde;ib registreeruda ainult &uuml;he k&uuml;simuse esitamiseks .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 163.</s><s>K&uuml;simuste esitamise j&auml;rjekord</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liikmetelt laekunud taotluste alusel koostab Riigikogu juhatus k&uuml;simuste esitamise j&auml;rjekorra .</s>
+</p>
+<p>
+<s>( 2 ) K&uuml;simuste esitamise j&auml;rjekorra koostamisel arvestab juhatus seda , et k&uuml;simusi saaksid esitada k&otilde;igi Riigikogus esindatud erakondade esindajad .</s>
+</p>
+<p>
+<s>( 3 ) K&uuml;simuste esitamise j&auml;rjekorra teeb Riigikogu juhatus teatavaks hiljemalt &uuml;ks tund enne infotunni algust .</s><s>Istungi juhataja tutvustab j&auml;rjekorda infotunni alguses .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 164.</s><s>K&uuml;simustele vastamise kord</s>
+</p>
+<p>
+<s>( 1 ) Istungi juhataja annab s&otilde;na k&uuml;simuse esitamiseks vastavalt j&auml;rjekorrale .</s>
+</p>
+<p>
+<s>( 2 ) Istungi juhataja v&otilde;ib anda v&auml;ljaspool j&auml;rjekorda v&otilde;imaluse esitada k&uuml;simusi ka kohapeal registreerunud Riigikogu liikmetele .</s>
+</p>
+<p>
+<s>( 3 ) K&uuml;simuse esitamiseks annab istungi juhataja aega &uuml;he minuti .</s>
+</p>
+<p>
+<s>( 4 ) K&uuml;simus peab olema l&uuml;hike ning v&otilde;imaldama l&uuml;hikest vastust .</s>
+</p>
+<p>
+<s>( 5 ) Vastamiseks annab istungi juhataja aega kaks minutit .</s>
+</p>
+<p>
+<s>( 6 ) P&auml;rast vastamist v&otilde;ib istungi juhataja anda k&uuml;sijale v&otilde;imaluse esitada t&auml;psustavaid k&uuml;simusi .</s>
+</p>
+<p>
+<s>( 7 ) T&auml;psustavate k&uuml;simuste ning neile antavate vastuste suhtes kohaldatakse k&auml;esoleva paragrahvi 3.-5. l&otilde;ikes s&auml;testatut .</s>
+</p>
+<p>
+<s>( 8 ) Kui istungi juhataja leiab , et valitsusliige on Riigikogu liikme k&uuml;simusele andnud piisava vastuse , l&otilde;petab ta selle k&uuml;simuse k&auml;sitlemise .</s>
+</p>
+<p>
+<s>( 9 ) Valitsusliige v&otilde;ib vastamisest p&otilde;hjendatult keelduda , kui k&uuml;simus ei puuduta taotluses ( paragrahv 162 2. l&otilde;ige ) m&auml;rgitud probleemi v&otilde;i on seotud riigisaladusega v&otilde;i kui sellele vastamine kahjustaks riigi julgeolekut .</s>
+</p>
+<p>
+<s>( 10 ) Kui k&uuml;sija v&otilde;i vastaja r&auml;&auml;gib &uuml;le lubatud aja , katkestab istungi juhataja s&otilde;nav&otilde;tu mikrofoni v&auml;ljal&uuml;litamisega .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>18 <hi rend="sup">1</hi> . peat&uuml;kk</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>Riigikogu liikme kirjalik k&uuml;simus</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 165.</s><s>Kirjalik k&uuml;simus ja selle esitamine</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu liige v&otilde;ib esitada kirjalikult k&uuml;simuse Vabariigi Valitsusele v&otilde;i selle liikmele , Eesti Panga N&otilde;ukogu esimehele , Eesti Panga presidendile , riigikontrol&ouml;rile , &otilde;iguskantslerile ja kaitsev&auml;e juhatajale v&otilde;i &uuml;lemjuhatajale selle organi v&otilde;i ametiisiku v&otilde;imkonda kuuluva &uuml;ksikk&uuml;simuse kohta teabe saamiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&uuml;simus peab olema l&uuml;hike ning v&otilde;imaldama l&uuml;hikest vastust .</s><s>K&uuml;simusele v&otilde;ib Riigikogu liige lisada muid materjale , mis on k&uuml;simusega seotud .</s>
+</p>
+<p>
+<s>( 3 ) K&uuml;simus esitatakse kirjalikult Riigikogu juhatusele , kes edastab selle adressaadile viivitamata .</s>
+</p>
+<p>
+<s>( 4 ) Kui Riigikogu liige ei ole k&uuml;simuse esitamisel j&auml;rginud k&auml;esoleva paragrahvi 1. v&otilde;i 2. l&otilde;ikes s&auml;testatut , tagastab Riigikogu juhatus k&uuml;simuse selle esitajale .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 165 <hi rend="sup">1</hi> .</s><s>Kirjalikule k&uuml;simusele vastamine</s>
+</p>
+<p>
+<s>( 1 ) K&uuml;simuse adressaat vastab k&uuml;simusele kirjalikult 10 t&ouml;&ouml;p&auml;eva jooksul selle edastamisest arvates .</s>
+</p>
+<p>
+<s>( 2 ) K&uuml;simuse adressaat saadab kirjaliku vastuse Riigikogu juhatusele kahes eksemplaris , millest &uuml;ks j&auml;&auml;b juhatusele , teise edastab juhatus k&uuml;sijale viivitamata .</s>
+</p>
+<p>
+<s>( 3 ) Riigikogu juhatus korraldab kirjalike k&uuml;simuste ja neile saabunud vastuste jagamise Riigikogu liikmetele .</s>
+</p>
+<p>
+<s>( 4 ) Riigikogu juhatus peab arvestust vastuste t&auml;htaegse laekumise &uuml;le .</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>19. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 166.</s><s>Seadusega s&auml;testamata protseduurik&uuml;simuste lahendamine</s>
+</p>
+<p>
+<s>( 1 ) Protseduurik&uuml;simused , mis on k&auml;esoleva v&otilde;i m&otilde;ne muu seadusega s&auml;testamata , otsustab Riigikogu juhatus .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>&sect; 167.</s><s>Varasemate &otilde;igusaktide kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tunnistatakse kehtetuks :</s>
+</p>
+<p>
+<s>1 ) Riigikogu kodukorra seadus ( RT 1992 , 46 , 584 ) ;</s>
+</p>
+<p>
+<s>2 ) Riigikogu kodukorra seaduse muutmise seadus ( RT I 1993 , 76 , 1132 ) ;</s>
+</p>
+<p>
+<s>3 ) Riigikogu 1992. aasta 7. oktoobri otsus &ldquo; Alatiste komisjonide moodustamine &rdquo; ( RT 1992 , 40 , 534 ) ;</s>
+</p>
+<p>
+<s>3 <hi rend="sup">1</hi> ) Riigikogu 1992. aasta 22. oktoobri otsus &ldquo; Riigikogu Kantselei struktuuri ja koosseisu kinnitamine &rdquo; ( RT 1992 , 45 , 577 ) ;</s>
+</p>
+<p>
+<s>( 12.01.99 j&otilde;ust.14.03.99 - RT I 1999 , 10 , 148 )</s>
+</p>
+<p>
+<s>4 ) Riigikogu 1992. aasta 1. detsembri otsus &ldquo; M&otilde;nede alatiste komisjonide nimede muutmine &rdquo; ( RT 1992 , 52 , 650 ) ;</s>
+</p>
+<p>
+<s>5 ) Riigikogu 1993. aasta 26. oktoobri otsuse &ldquo; Riigikogu otsuse &ldquo; Alatiste komisjonide moodustamine &rdquo; osaline muutmine &rdquo; ( RT I 1993 , 68 , 976 ) punkt 1 ;</s>
+</p>
+<p>
+<s>6 ) Riigikogu 1993. aasta 25. novembri otsus &ldquo; Riigikogu otsuse &ldquo; Alatiste komisjonide moodustamine &rdquo; osaline muutmine &rdquo; ( RT I 1993 , 75 , 1097 ) .</s>
+</p>
+<p>
+<s>&sect; 168.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub v&auml;ljakuulutamisele j&auml;rgnevast Riigikogu t&auml;iskogu t&ouml;&ouml;n&auml;dalast .</s>
+</p>
+</body>
+   </text>
+</tei.2>

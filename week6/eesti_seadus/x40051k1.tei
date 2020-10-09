@@ -1,0 +1,2695 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Rahvastikuregistri seadus ( terviktekst m&auml;rts 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   13110</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Rahvastikuregistri seadus ( terviktekst m&auml;rts 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=11></tagusage>
+         <tagusage gi=p occurs=863></tagusage>
+         <tagusage gi=s occurs=1013></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Rahvastikuregistri seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 31. mail 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 50 , 317 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. augustil 2000. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>07.03.2001 j&otilde;ust.07.04.2001 - RT I 2001 , 31 , 173.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab rahvastikuregistri andmete koosseisu ja rahvastikuregistri kasutuselev&otilde;tmise , pidamise , andmete t&ouml;&ouml;tlemise , andmetele juurdep&auml;&auml;su , elukoha andmete rahvastikuregistrisse kandmise ja rahvastikuregistri pidamise &uuml;le j&auml;relevalve teostamise korra .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Seaduse eesm&auml;rk</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse eesm&auml;rgiks on tagada Eesti kodaniku ja Eestis elamisloa saanud v&auml;lismaalase peamiste isikuandmete kogumine &uuml;hte andmekogusse riigile ja kohalikule omavalitsusele seadusega s&auml;testatud &uuml;lesannete t&auml;itmiseks isiku &otilde;iguste , vabaduste ja kohustuste realiseerimisel ning Eesti rahvastiku arvestuse pidamine .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Rahvastikuregistri ametlik nimi ja andmekogu liik</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri ametlik nimi on Eesti rahvastikuregister ( edaspidi rahvastikuregister ) .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregister on riigi p&otilde;hiregister .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Rahvastikuregistri objekt</s>
+</p>
+<p>
+<s>Rahvastikuregistri objektiks on Eesti kodanik ja Eestis elamisloa saanud v&auml;lismaalane .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Rahvastikuregistri pidamise &uuml;ldp&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrit peetakse koosk&otilde;las andmekogude seaduse ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ) , isikuandmete kaitse seaduse ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ) ja k&auml;esoleva seadusega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri pidamisel tagatakse :</s>
+</p>
+<p>
+<s>1 ) isiku eraelu kaitse ;</s>
+</p>
+<p>
+<s>2 ) rahvastikuregistri objektide arvestus riigi haldusterritoriaalse korralduse alusel ;</s>
+</p>
+<p>
+<s>3 ) riigi ja kohaliku omavalitsuse asutuste ning f&uuml;&uuml;siliste ja juriidiliste isikute juurdep&auml;&auml;s rahvastikuregistri andmetele neile seadusega v&otilde;i seaduse alusel antud avalik-&otilde;igusliku &uuml;lesande ( edaspidi avalik &uuml;lesanne ) t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>4 ) juriidiliste ja f&uuml;&uuml;siliste isikute juurdep&auml;&auml;s rahvastikuregistri andmetele nende &otilde;igustatud huvi korral .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Rahvastikuregistrisse kantud andmete t&auml;hendus</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrisse kantud andmetel on informatiivne ja statistiline t&auml;hendus .</s>
+</p>
+<p>
+<s>( 2 ) Seadusega etten&auml;htud juhtudel on rahvastikuregistrisse kantud andmetel &otilde;iguslik t&auml;hendus .</s>
+</p>
+<p>
+<s>( 3 ) Kui avaliku &uuml;lesande t&auml;itmisel kasutatakse rahvastikuregistri objekti andmeid , l&auml;htutakse rahvastikuregistrisse kantud andmetest .</s>
+</p>
+<p>
+<s>( 4 ) Rahvastikuregistrisse kantud andmed on riigi ja kohaliku omavalitsuse nende andmekogude aluseks , milles sisalduvad rahvastikuregistri objekti andmed .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Rahvastikuregistri omanik</s>
+</p>
+<p>
+<s>Rahvastikuregistri omanik on riik .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Rahvastikuregistri pidamise ja andmete t&ouml;&ouml;tlemise viis</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrit peetakse elektroonilise andmekoguna .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri andmete t&ouml;&ouml;tlemisel kasutatakse automatiseeritud andmet&ouml;&ouml;tlust .</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistri andmeid v&otilde;ib t&ouml;&ouml;delda sidusp&ouml;&ouml;rdumise teel k&auml;esolevas seaduses s&auml;testatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>( 4 ) Sidusp&ouml;&ouml;rdumine k&auml;esoleva seaduse m&otilde;istes on registriandmete automatiseeritud t&ouml;&ouml;tlemine andmesidev&otilde;rgu kaudu .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Rahvastikuregistri &uuml;lesehitus</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrit peetakse &uuml;htse &uuml;hetasandilise andmekoguna .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri andmete koosseis on &uuml;les ehitatud riigi haldusterritoriaalse korralduse ja rahvastikuregistri andmete liikide alusel .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rahvastikuregistri vastutav ja volitatud t&ouml;&ouml;tleja</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Rahvastikuregistri vastutav t&ouml;&ouml;tleja</s>
+</p>
+<p>
+<s>Rahvastikuregistri vastutava t&ouml;&ouml;tleja &otilde;iguste teostaja ( edaspidi vastutav t&ouml;&ouml;tleja ) on Siseministeerium .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Vastutava t&ouml;&ouml;tleja &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Vastutav t&ouml;&ouml;tleja peab tagama rahvastikuregistri pidamise ja andmete t&ouml;&ouml;tlemise vastavuses seadusega ja seaduse alusel vastuv&otilde;etud &otilde;igusaktidega .</s>
+</p>
+<p>
+<s>( 2 ) Vastutav t&ouml;&ouml;tleja :</s>
+</p>
+<p>
+<s>1 ) korraldab rahvastikuregistri pidamiseks vajalike projekteerimis- ja arendust&ouml;&ouml;de l&auml;biviimise ;</s>
+</p>
+<p>
+<s>2 ) v&otilde;tab aktiga vastu k&auml;esoleva l&otilde;ike punktis 1 nimetatud t&ouml;&ouml;d ;</s>
+</p>
+<p>
+<s>3 ) koordineerib rahvastikuregistri pidamist ;</s>
+</p>
+<p>
+<s>4 ) korraldab rahvastikuregistri andmete kaitset ;</s>
+</p>
+<p>
+<s>5 ) kehtestab rahvastikuregistri pidamise korra v&otilde;i s&otilde;lmib rahvastikuregistri volitatud t&ouml;&ouml;tlejaga rahvastikuregistri pidamise lepingu ;</s>
+</p>
+<p>
+<s>6 ) s&otilde;lmib v&otilde;i volitab volitatud t&ouml;&ouml;tlejat s&otilde;lmima andmete t&ouml;&ouml;tlemise lepinguid ;</s>
+</p>
+<p>
+<s>7 ) teostab j&auml;relevalvet rahvastikuregistri pidamise &uuml;le ;</s>
+</p>
+<p>
+<s>8 ) lahendab andmete esitajate ( edaspidi andmeandjad ) , andmesaajate ja volitatud t&ouml;&ouml;tleja vahelisi rahvastikuregistri pidamisega seotud vaidlusi ;</s>
+</p>
+<p>
+<s>9 ) lahendab rahvastikuregistri pidamisega seotud kaebusi ;</s>
+</p>
+<p>
+<s>10 ) kogub ja anal&uuml;&uuml;sib andmeandjate ja andmesaajate ning volitatud t&ouml;&ouml;tleja rahvastikuregistri pidamist k&auml;sitlevaid ettepanekuid ;</s>
+</p>
+<p>
+<s>11 ) valmistab ette rahvastikuregistri aastaeelarve projekti ;</s>
+</p>
+<p>
+<s>12 ) kinnitab eelarve ning kontrollib selle t&auml;itmist ;</s>
+</p>
+<p>
+<s>13 ) korraldab rahvastikuregistri pidamiseks vajalike &otilde;igusaktide eeln&otilde;ude v&auml;ljat&ouml;&ouml;tamist ;</s>
+</p>
+<p>
+<s>14 ) t&auml;idab teisi &uuml;lesandeid , mis k&auml;esoleva seadusega on tema p&auml;devusse antud .</s>
+</p>
+<p>
+<s>( 3 ) Lisaks k&auml;esoleva paragrahvi l&otilde;ikes 2 etten&auml;htud &otilde;igustele ja kohustustele laienevad vastutavale t&ouml;&ouml;tlejale isikuandmete kaitse seaduses ja andmekogude seaduses etten&auml;htud &otilde;igused ja kohustused , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 4 ) Siseminister m&auml;&auml;rab oma k&auml;skkirjaga vastutava ametniku v&otilde;i ministeeriumi struktuuri&uuml;ksuse vastutava t&ouml;&ouml;tleja kohustuste t&auml;itmise korraldamiseks .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Rahvastikuregistri volitatud t&ouml;&ouml;tleja m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri volitatud t&ouml;&ouml;tlejaks ( edaspidi volitatud t&ouml;&ouml;tleja ) m&auml;&auml;rab siseministri ettepanekul Vabariigi Valitsus oma korraldusega k&auml;esolevas paragrahvis s&auml;testatud n&otilde;uetele vastava riigiasutuse v&otilde;i era&otilde;igusliku juriidilise isiku , kelle k&otilde;ik aktsiad v&otilde;i osad kuuluvad riigile .</s>
+</p>
+<p>
+<s>( 2 ) Volitatud t&ouml;&ouml;tleja m&auml;&auml;ramisel kuulab Vabariigi Valitsus &auml;ra riigi infos&uuml;steemide alaseid t&ouml;id koordineeriva asutuse ja Andmekaitse Inspektsiooni arvamuse .</s>
+</p>
+<p>
+<s>( 3 ) Volitatud t&ouml;&ouml;tleja peab :</s>
+</p>
+<p>
+<s>1 ) omama v&otilde;i tal peab olema v&otilde;imalus kasutada rahvastikuregistri pidamiseks vajalikku infotehnoloogilist riistvara ;</s>
+</p>
+<p>
+<s>2 ) omama automatiseeritud andmet&ouml;&ouml;tlusega andmekogude pidamise kogemusi ;</s>
+</p>
+<p>
+<s>3 ) olema v&otilde;imeline l&auml;bi viima rahvastikuregistri andmete t&ouml;&ouml;tlemiseks vajalikku v&auml;lja&otilde;pet ;</s>
+</p>
+<p>
+<s>4 ) omama rahvastikuregistri andmete kaitse korraldamiseks vajalikke teadmisi ning v&otilde;imalusi ;</s>
+</p>
+<p>
+<s>5 ) omama v&otilde;imalust kasutada t&ouml;&ouml;tajaid , kes tunnevad isikuandmete kaitse ja andmekogude alaseid &otilde;igusakte ning k&otilde;rgtasemel infotehnoloogiat .</s>
+</p>
+<p>
+<s>( 4 ) Era&otilde;iguslikust juriidilisest isikust volitatud t&ouml;&ouml;tlejal ei v&otilde;i olla maksuv&otilde;lgnevusi ja muid varalisi kohustusi , mis takistaksid rahvastikuregistri pidamist .</s>
+</p>
+<p>
+<s>( 5 ) Vastutav t&ouml;&ouml;tleja kontrollib enne Vabariigi Valitsusele ettepaneku esitamist koos infos&uuml;steemidealaseid t&ouml;id koordineeriva asutuse ja Andmekaitse Inspektsiooniga volitatud t&ouml;&ouml;tleja kandidaadi vastavust n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 6 ) Vastutav t&ouml;&ouml;tleja v&otilde;ib t&auml;psustada k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud tingimusi , teatades t&auml;psustatud tingimustest volitatud t&ouml;&ouml;tleja kandidaadile &uuml;ks kuu enne tema n&otilde;uetele vastavuse kontrollimist .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Volitatud t&ouml;&ouml;tleja &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Volitatud t&ouml;&ouml;tleja on kohustatud pidama rahvastikuregistrit vastavuses seadusega ja seaduse alusel antud &otilde;igusaktidega , rahvastikuregistri pidamise korra v&otilde;i rahvastikuregistri pidamise lepinguga ning vastutava t&ouml;&ouml;tleja poolt tema p&auml;devuse piires antud korraldustega .</s>
+</p>
+<p>
+<s>( 2 ) Volitatud t&ouml;&ouml;tleja :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tleb rahvastikuregistri andmeid k&auml;esolevas seaduses , rahvastikuregistri pidamise korras v&otilde;i vastutava t&ouml;&ouml;tlejaga s&otilde;lmitud rahvastikuregistri pidamise lepingus etten&auml;htud juhtudel , ulatuses ja korras ;</s>
+</p>
+<p>
+<s>2 ) tagab rahvastikuregistrisse kantud andmete s&auml;ilimise ;</s>
+</p>
+<p>
+<s>3 ) annab vastutavale t&ouml;&ouml;tlejale aru tehtud t&ouml;&ouml;dest rahvastikuregistri pidamise korras v&otilde;i lepingus kehtestatud korras ja t&auml;htaegadel ;</s>
+</p>
+<p>
+<s>4 ) s&otilde;lmib vastutava t&ouml;&ouml;tleja volitusel lepinguid rahvastikuregistri andmete t&ouml;&ouml;tlemiseks ;</s>
+</p>
+<p>
+<s>5 ) annab juhiseid ja selgitusi andmeandjatele ja andmesaajatele andmete t&ouml;&ouml;tlemise ning andmete &uuml;leandmise tehnilistes k&uuml;simustes ja juhendab neid metoodiliselt ;</s>
+</p>
+<p>
+<s>6 ) esitab andmeandjatele j&auml;relep&auml;rimisi ;</s>
+</p>
+<p>
+<s>7 ) tagab rahvastikuregistri andmete kaitsega seotud teabe saladuse hoidmise ka p&auml;rast volitatud t&ouml;&ouml;tleja volituste l&otilde;ppemist ;</s>
+</p>
+<p>
+<s>8 ) korraldab rahvastikuregistri andmete t&ouml;&ouml;tlejatele , andmeandjatele ja andmesaajatele vajalikku v&auml;lja&otilde;pet ;</s>
+</p>
+<p>
+<s>9 ) teatab vastutavale t&ouml;&ouml;tlejale andmeandjate poolt andmete t&auml;htaegselt esitamata j&auml;tmise v&otilde;i mitten&otilde;uetekohase esitamise juhtumitest ;</s>
+</p>
+<p>
+<s>10 ) t&auml;idab teisi &uuml;lesandeid , mis k&auml;esoleva seadusega on antud tema p&auml;devusse .</s>
+</p>
+<p>
+<s>( 3 ) Kui volitatud t&ouml;&ouml;tleja leiab , et vastutava t&ouml;&ouml;tleja korraldus on vastuolus seadusega , j&auml;tab ta selle t&auml;itmata ja teatab sellest viivitamatult kirjalikult vastutavale t&ouml;&ouml;tlejale ja Andmekaitse Inspektsioonile .</s><s>Kui vastutav t&ouml;&ouml;tleja kordab oma korraldust kirjalikult , on volitatud t&ouml;&ouml;tleja kohustatud selle t&auml;itma , teatades sellest Andmekaitse Inspektsioonile .</s>
+</p>
+<p>
+<s>( 4 ) Volitatud t&ouml;&ouml;tlejal on &otilde;igus n&otilde;uda vastutavalt t&ouml;&ouml;tlejalt kirjalikke korraldusi .</s>
+</p>
+<p>
+<s>( 5 ) Volitatud t&ouml;&ouml;tlejale laienevad lisaks k&auml;esoleva paragrahvi l&otilde;igetes 2-4 s&auml;testatud &otilde;igustele ja kohustustele andmekogude seaduses ja isikuandmete kaitse seaduses etten&auml;htud &otilde;igused ja kohustused , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rahvastikuregistri pidamise tingimused</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Rahvastikuregistri pidamise korra kehtestamine ja lepingu s&otilde;lmimine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri pidamiseks kehtestab siseminister riigiasutusest volitatud t&ouml;&ouml;tleja puhul rahvastikuregistri pidamise korra v&otilde;i s&otilde;lmib era&otilde;iguslikust juriidilisest isikust volitatud t&ouml;&ouml;tlejaga rahvastikuregistri pidamiseks halduslepingu ( edaspidi leping ) .</s>
+</p>
+<p>
+<s>( 2 ) Leping koosk&otilde;lastatakse enne s&otilde;lmimist Andmekaitse Inspektsiooniga .</s>
+</p>
+<p>
+<s>( 3 ) Leping s&otilde;lmitakse kirjalikult viieks aastaks .</s><s>Lepingu t&auml;htaeg pikeneb j&auml;rgmiseks viieks aastaks , kui vastutav t&ouml;&ouml;tleja v&otilde;i era&otilde;iguslikust juriidilisest isikust volitatud t&ouml;&ouml;tleja ei teata kirjalikult lepingu l&otilde;petamisest v&auml;hemalt &uuml;ks aasta enne lepingu t&auml;htaja l&otilde;ppemist .</s>
+</p>
+<p>
+<s>( 4 ) Kui vastutav t&ouml;&ouml;tleja v&otilde;i era&otilde;iguslikust juriidilisest isikust volitatud t&ouml;&ouml;tleja on teatanud lepingu l&otilde;petamisest , m&auml;&auml;ratakse uus volitatud t&ouml;&ouml;tleja ning uus leping s&otilde;lmitakse v&auml;hemalt kuus kuud enne kehtiva lepingu t&auml;htaja l&otilde;ppemist , lepingu ennet&auml;htaegse l&otilde;petamise korral v&auml;hemalt kolm kuud enne lepingu l&otilde;petamist .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Rahvastikuregistri pidamise kord ja lepingu tingimused</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri pidamise korras v&otilde;i lepingus s&auml;testatakse :</s>
+</p>
+<p>
+<s>1 ) rahvastikuregistri pidamise n&otilde;uded ja meetodid ;</s>
+</p>
+<p>
+<s>2 ) andmete t&ouml;&ouml;tlemise maht , ulatus , t&auml;htajad ja tingimused ;</s>
+</p>
+<p>
+<s>3 ) andmete kaitse kord ja n&otilde;uded ;</s>
+</p>
+<p>
+<s>4 ) rahvastikuregistri pidamise ja arendust&ouml;&ouml;de finantseerimise kord ja t&auml;htajad ;</s>
+</p>
+<p>
+<s>5 ) volitatud t&ouml;&ouml;tleja poolt registri pidamisel tehtud t&ouml;&ouml;de kohta aruannete esitamise kord ja t&auml;htajad ;</s>
+</p>
+<p>
+<s>6 ) andmete t&ouml;&ouml;tlemise tellimise tingimused ja kord ;</s>
+</p>
+<p>
+<s>7 ) rahvastikuregistri pidamiseks ja andmete t&ouml;&ouml;tlemiseks vajalike projekteerimist&ouml;&ouml;de , kasutuselev&otilde;tmist tagavate t&ouml;&ouml;de ning arendust&ouml;&ouml;de tegemise kord ;</s>
+</p>
+<p>
+<s>8 ) rahvastikuregistri pidamise uuele volitatud t&ouml;&ouml;tlejale &uuml;leandmise kord ja muud kasutuselev&otilde;etavad abin&otilde;ud rahvastikuregistri pidamise j&auml;rjepidevuse tagamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Lepingus v&otilde;ib t&auml;iendavalt s&auml;testada :</s>
+</p>
+<p>
+<s>1 ) volitatud t&ouml;&ouml;tleja poolt selliste kohustuste v&otilde;tmise piirangud , mis v&otilde;iksid kahjustada k&auml;esolevas seaduses ja lepingus etten&auml;htud volitatud t&ouml;&ouml;tleja kohustuste t&auml;itmist ;</s>
+</p>
+<p>
+<s>2 ) vastutava t&ouml;&ouml;tleja poolt algatatud lepingu l&otilde;petamisest tulenevate volitatud t&ouml;&ouml;tleja rahvastikuregistri pidamisega seotud kulude katmise tingimused , ulatus ja kord .</s>
+</p>
+<p>
+<s>( 3 ) Lepingus v&otilde;ib lepingupoolte kokkuleppel ette n&auml;ha t&auml;iendavaid tingimusi .</s><s>Lepingutingimusi v&otilde;ib muuta poolte kokkuleppel .</s>
+</p>
+<p>
+<s>( 4 ) Lepinguga ei v&otilde;i laiendada ega kitsendada vastutavale t&ouml;&ouml;tlejale ja volitatud t&ouml;&ouml;tlejale seadusega antud &otilde;igusi ja kohustusi rahvastikuregistri pidamisel ja andmete t&ouml;&ouml;tlemisel .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Rahvastikuregistri pidamise lepingu l&otilde;petamise alused</s>
+</p>
+<p>
+<s>( 1 ) Lepingu l&otilde;petamise aluseks vastutava t&ouml;&ouml;tleja algatusel on :</s>
+</p>
+<p>
+<s>1 ) isikuandmete kaitse seaduse , andmekogude seaduse v&otilde;i k&auml;esoleva seaduse korduv rikkumine v&otilde;i &uuml;hekordne rikkumine , mis seisnes volitatud t&ouml;&ouml;tleja poolt andmete kaitse n&otilde;uete eiramises v&otilde;i millega p&otilde;hjustati andmete sattumine isikute k&auml;tte , kellel pole &otilde;igust neid andmeid omada , v&otilde;i millega v&otilde;imaldati seadusest v&otilde;i selle alusel antud &otilde;igusaktist mittetulenevat andmete ristkasutust ;</s>
+</p>
+<p>
+<s>2 ) volitatud t&ouml;&ouml;tleja t&ouml;&ouml;tajate poolt toimepandud arvuti- v&otilde;i andmet&ouml;&ouml;tlusalased &otilde;iguserikkumised ;</s>
+</p>
+<p>
+<s>3 ) lepingus&auml;tete t&auml;itmata j&auml;tmine v&otilde;i mitten&otilde;uetekohane t&auml;itmine p&auml;rast vastutava t&ouml;&ouml;tleja ettekirjutust ;</s>
+</p>
+<p>
+<s>4 ) andmete kaitse v&otilde;i andmete t&ouml;&ouml;tlemise kvaliteedi parandamise eesm&auml;rgil vastutava t&ouml;&ouml;tleja poolt tehtud lepingu muutmise ettepanekuga mitten&otilde;ustumine ;</s>
+</p>
+<p>
+<s>5 ) volitatud t&ouml;&ouml;tleja poolt v&otilde;etud rahalised kohustused , mis seavad ohtu rahvastikuregistri pidamise ;</s>
+</p>
+<p>
+<s>6 ) Andmekaitse Inspektsiooni p&otilde;hjendatud ettepanek lepingu l&otilde;petamiseks volitatud t&ouml;&ouml;tleja poolt andmete kaitse n&otilde;uete t&auml;itmata j&auml;tmise v&otilde;i mittekohase t&auml;itmise korral , millega ohustatakse rahvastikuregistri andmete aktuaalsust v&otilde;i v&otilde;imaldatakse andmete sattumine isikute k&auml;tte , kellel pole &otilde;igust andmeid omada .</s>
+</p>
+<p>
+<s>( 2 ) Lepingu l&otilde;petamise aluseks volitatud t&ouml;&ouml;tleja poolt on :</s>
+</p>
+<p>
+<s>1 ) lepingus etten&auml;htud mahuga v&otilde;rreldes andmete t&ouml;&ouml;tlemise mahu ulatuslik suurenemine , millega ei kaasne t&auml;iendav finantseerimine ;</s>
+</p>
+<p>
+<s>2 ) vastutava t&ouml;&ouml;tleja poolt rahvastikuregistri projekteerimiseks ja kasutuselev&otilde;tmiseks vajalike t&ouml;&ouml;de ja arendust&ouml;&ouml;de l&auml;biviimise ning vastuv&otilde;tmise korraldamata j&auml;tmine v&otilde;i t&auml;htaegadest mittekinnipidamine ;</s>
+</p>
+<p>
+<s>3 ) rahvastikuregistri pidamise lepinguga etten&auml;htud finantseerimise l&otilde;petamine v&otilde;i finantseerimise t&auml;htaegadest korduv mittekinnipidamine ;</s>
+</p>
+<p>
+<s>4 ) otsus mitte pikendada lepingut j&auml;rgmiseks t&auml;htajaks .</s>
+</p>
+<p>
+<s>( 3 ) Lepingu v&otilde;ib l&otilde;petada ennet&auml;htaegselt ja &uuml;hepoolselt k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1 , 3 , 5 ja 6 ning l&otilde;ike 2 punktides 2 ja 3 etten&auml;htud alustel .</s><s>K&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1 , 3 , 5 ja 6 s&auml;testatud alustel lepingu l&otilde;petamisel volitatud t&ouml;&ouml;tlejale lepinguj&auml;rgseid kulutusi ei h&uuml;vitata .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Rahvastikuregistri pidamise lepingu l&otilde;petamisest teatamine</s>
+</p>
+<p>
+<s>Lepingu l&otilde;petamisest teatab lepingu l&otilde;petamise algataja kirjalikult teisele lepingupoolele hiljemalt &uuml;ks aasta enne lepingu t&auml;htaja l&otilde;ppemist , ennet&auml;htaegsest l&otilde;petamisest hiljemalt kuus kuud enne lepingu l&otilde;petamist , viidates k&auml;esoleva seaduse &sect; 16 l&otilde;ikes 1 v&otilde;i 2 s&auml;testatud alusele .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Rahvastikuregistri pidamise lepingu l&otilde;petamise vormistamine</s>
+</p>
+<p>
+<s>( 1 ) Lepingu l&otilde;petamine vormistatakse aktiga , milles s&auml;testatakse :</s>
+</p>
+<p>
+<s>1 ) rahvastikuregistri pidamise uuele volitatud t&ouml;&ouml;tlejale &uuml;leandmise kord ja t&auml;htajad ;</s>
+</p>
+<p>
+<s>2 ) lepingupoolte lepingu l&otilde;petamise j&auml;rgsed &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>( 2 ) Aktile kirjutavad alla vastutava ja volitatud t&ouml;&ouml;tleja volitatud esindajad .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Andmete t&ouml;&ouml;tlemise leping</s>
+</p>
+<p>
+<s>( 1 ) Vastutav t&ouml;&ouml;tleja ja tema igakordsel volitusel volitatud t&ouml;&ouml;tleja v&otilde;ib s&otilde;lmida rahvastikuregistri andmete t&ouml;&ouml;tlemise lepinguid andmeandjate ja andmesaajatega andmete t&ouml;&ouml;tlemiseks piiratud ulatuses .</s><s>Vastutava t&ouml;&ouml;tleja taotlusel s&otilde;lmitakse kolmepoolne leping vastutava t&ouml;&ouml;tleja , volitatud t&ouml;&ouml;tleja ja andmeandja v&otilde;i andmesaaja vahel .</s>
+</p>
+<p>
+<s>( 2 ) Erandina v&otilde;ib volitatud t&ouml;&ouml;tleja andmekaitse j&auml;relevalveasutuse loal ja siseministri igakordsel volitusel s&otilde;lmida andmete t&ouml;&ouml;tlemise lepinguid &uuml;ksikute andmete t&ouml;&ouml;tlemise operatsioonide ulatuses juriidiliste isikutega v&otilde;i andmeandjateks v&otilde;i andmesaajateks mitteolevate asutustega , kes vastavad volitatud t&ouml;&ouml;tlejale k&auml;esoleva seaduse &sect; 12 l&otilde;ike 3 punktides 1 , 2 , 4 ja 5 s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Andmete t&ouml;&ouml;tlemise lepingus s&auml;testatakse :</s>
+</p>
+<p>
+<s>1 ) milliseid rahvastikuregistri andmeid t&ouml;&ouml;deldakse ;</s>
+</p>
+<p>
+<s>2 ) milliseid andmete t&ouml;&ouml;tlemise operatsioone teostatakse , millises ulatuses ja mis t&auml;htaegadel ;</s>
+</p>
+<p>
+<s>3 ) andmete t&ouml;&ouml;tlemise ulatus , kord ja meetodid , kaasa arvatud rahvastikuregistri andmete t&ouml;&ouml;tlemise &otilde;igus sidusp&ouml;&ouml;rdumise teel ;</s>
+</p>
+<p>
+<s>4 ) andmetele juurdep&auml;&auml;su ulatus ;</s>
+</p>
+<p>
+<s>5 ) juurdep&auml;&auml;su v&otilde;imaldamisel saadud andmete kasutamise eesm&auml;rk ( kaasa arvatud teise andmekogusse kandmise &otilde;igus ) ;</s>
+</p>
+<p>
+<s>6 ) tehniliste juhiste andmise ja aruandluse kord ;</s>
+</p>
+<p>
+<s>7 ) t&ouml;&ouml;deldavate andmete kaitse &uuml;ldised tehnilised ja organisatsioonilised abin&otilde;ud ja andmete kaitse abin&otilde;ude rakendamise kord ;</s>
+</p>
+<p>
+<s>8 ) andmete t&ouml;&ouml;tlemise finantseerimise kord ;</s>
+</p>
+<p>
+<s>9 ) lepingu kehtivuse aeg ja lepingu l&otilde;petamise tingimused .</s>
+</p>
+<p>
+<s>( 4 ) Andmete t&ouml;&ouml;tlemise lepingu alusel rahvastikuregistri andmeid t&ouml;&ouml;tlevale isikule v&otilde;i asutusele ( edaspidi lepinguline t&ouml;&ouml;tleja ) laienevad andmete t&ouml;&ouml;tlemise ja andmete kaitse n&otilde;uete t&auml;itmisel tema p&auml;devuse piires k&otilde;ik andmekogude seaduses , isikuandmete kaitse seaduses ja k&auml;esolevas seaduses volitatud t&ouml;&ouml;tlejale etten&auml;htud kohustused ning vastutus , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 5 ) Andmeandjaga s&otilde;lmitakse t&auml;htajatu andmete t&ouml;&ouml;tlemise leping .</s><s>Lepingu l&otilde;petamisel kohaldatakse k&auml;esoleva seaduse &sect; 16 l&otilde;igetes 1 ja 2 s&auml;testatud alustega analoogilisi aluseid , teatades lepingu l&otilde;petamisest teisele poolele v&auml;hemalt kaks n&auml;dalat enne lepingu l&otilde;petamist .</s>
+</p>
+<p>
+<s>( 6 ) Andmeandjaga andmete t&ouml;&ouml;tlemise lepingu l&otilde;petamisel on vastutaval t&ouml;&ouml;tlejal &otilde;igus anda andmeandjale korraldusi andmete t&ouml;&ouml;tlemise j&auml;rjepidevuse kindlustamiseks .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rahvastikuregistri andmete koosseis</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Rahvastikuregistri andmete liigid</s>
+</p>
+<p>
+<s>Rahvastikuregistri andmete liigid on :</s>
+</p>
+<p>
+<s>1 ) rahvastikuregistri objekti isikuandmed ja isikuandmetega seotud andmed , mis on viidud viimasesse faktiliselt dokumenteeritud &otilde;igesse seisu ( edaspidi aktuaalsed andmed ) ;</s>
+</p>
+<p>
+<s>2 ) rahvastikuregistri pidamist abistavad andmed ;</s>
+</p>
+<p>
+<s>3 ) rahvastikuregistri objekti staatust ettevalmistavad andmed ;</s>
+</p>
+<p>
+<s>4 ) rahvastikuregistri arhiivis s&auml;ilitatavad andmed .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Rahvastikuregistrisse kantavad isikuandmed</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrisse kantavad isikuandmed on :</s>
+</p>
+<p>
+<s>1 ) perekonnanimi v&otilde;i perekonnanimed ;</s>
+</p>
+<p>
+<s>2 ) eesnimi v&otilde;i eesnimed ;</s>
+</p>
+<p>
+<s>3 ) sugu ;</s>
+</p>
+<p>
+<s>4 ) s&uuml;nniaeg ;</s>
+</p>
+<p>
+<s>5 ) s&uuml;nnikoha andmed ( s&uuml;nnihetkel kehtinud haldusterritoriaalse jaotuse alusel ) ;</s>
+</p>
+<p>
+<s>6 ) isikukood ;</s>
+</p>
+<p>
+<s>7 ) kodakondsuse andmed ;</s>
+</p>
+<p>
+<s>8 ) v&auml;lismaalase elamis- ja t&ouml;&ouml;loa olemasolu ja t&auml;htaeg ;</s>
+</p>
+<p>
+<s>9 ) elukoha andmed ;</s>
+</p>
+<p>
+<s>10 ) perekonnaseisu andmed ( abielus , lesk , lahutatud ) ;</s>
+</p>
+<p>
+<s>11 ) andmed vanema &otilde;iguste kohta ( kelle suhtes on &auml;ra v&otilde;etud , kelle suhtes on taastatud ) ;</s>
+</p>
+<p>
+<s>12 ) eestkoste andmed ( eestkoste alguse ja l&otilde;ppemise aeg ning eestkostja ) ;</s>
+</p>
+<p>
+<s>13 ) teov&otilde;ime piiramise andmed ( piiratud teov&otilde;imega , teov&otilde;imetu ) ;</s>
+</p>
+<p>
+<s>14 ) isiku surma , surnuks tunnistamise andmed ( surma aeg ja koht v&otilde;i mis ajast on isik surnuks tunnistatud ) ;</s>
+</p>
+<p>
+<s>15 ) isiku teadmata kadunuks tunnistamise andmed ( mis ajast isik on tunnistatud teadmata kadunuks ) ;</s>
+</p>
+<p>
+<s>16 ) isiku ema , isa , abikaasa ja lapse rahvastikuregistrisse kantud isikukoodid v&otilde;i k&auml;esoleva l&otilde;ike punktides 1-5 ja 7-9 s&auml;testatud andmed nende kohta ;</s>
+</p>
+<p>
+<s>17 ) andmed kaitsev&auml;ekohustuse kohta ( kaitsev&auml;eteenistuse kohustuslane , tegevteenistuses , reservi arvatud , kaitsev&auml;ekohustusest vabastatud ) ;</s>
+</p>
+<p>
+<s>18 ) statistilisel eesm&auml;rgil kogutavad ja isiku vabal tahtel antud andmed rahvuse , emakeele , hariduse ja tegevusala kohta .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 7 nimetatud kodakondsuse andmed on :</s>
+</p>
+<p>
+<s>1 ) Eesti v&otilde;i v&auml;lisriigi kodakondsus ;</s>
+</p>
+<p>
+<s>2 ) kodakondsuse puudumine ;</s>
+</p>
+<p>
+<s>3 ) m&auml;&auml;ratlemata kodakondsus ;</s>
+</p>
+<p>
+<s>4 ) Eesti kodakondsuse korral kodakondsuse omandamise , taastamise ja kaotamise aeg ;</s>
+</p>
+<p>
+<s>5 ) isiku eelmised kodakondsused .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 9 nimetatud elukoha andmed on :</s>
+</p>
+<p>
+<s>1 ) elukoha aadressiandmed ;</s>
+</p>
+<p>
+<s>2 ) elukoha aadressiandmete rahvastikuregistrisse kandmise aeg ;</s>
+</p>
+<p>
+<s>3 ) rahvastikuregistrisse kantud elukoha andmete muutumise aeg ;</s>
+</p>
+<p>
+<s>4 ) sideaadress , juhul kui isik elab pikemat aega v&otilde;i aeg-ajalt m&otilde;nes muus kohas v&otilde;i kui tema elukohana on m&auml;rgitud &uuml;ksnes linn , vald , linnaosa v&otilde;i osavald ( isiku vabal tahtel tema avalduse alusel ) ;</s>
+</p>
+<p>
+<s>5 ) v&auml;lisriigis elava v&otilde;i v&auml;lisriigist saabunud elamisluba omava rahvastikuregistri objektiks oleva isiku puhul riigi nimi , haldus&uuml;ksus ja elukoha aadress ( aadressiandmete olemasolu korral ) v&otilde;i sideaadress ;</s>
+</p>
+<p>
+<s>6 ) v&auml;lisriigis p&uuml;sivalt elava h&auml;&auml;le&otilde;igusliku Eesti kodaniku puhul tema v&otilde;i tema vanemate ( vanavanemate ) viimane p&uuml;siv elukoht Eestis , kehtiva haldusterritoriaalse korralduse alusel valla v&otilde;i linna ja Tallinnas linnaosa t&auml;psusega ( isiku avalduse alusel ) .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 3 punktis 1 nimetatud elukoha aadressiandmed on :</s>
+</p>
+<p>
+<s>1 ) maakonna nimi ;</s>
+</p>
+<p>
+<s>2 ) valla v&otilde;i linna nimi ;</s>
+</p>
+<p>
+<s>3 ) linnaosa v&otilde;i osavalla nimi ;</s>
+</p>
+<p>
+<s>4 ) asustus&uuml;ksuse nimi ( k&uuml;la , alevik , alev , vallasisene linn , asum ) ;</s>
+</p>
+<p>
+<s>5 ) aadressikoha nimi ( t&auml;nav , tee , v&auml;ljak , talu v&otilde;i muu aadressis kasutatav v&auml;ikekoht ) ;</s>
+</p>
+<p>
+<s>6 ) elamu ( hoone ) number ;</s>
+</p>
+<p>
+<s>7 ) korteri v&otilde;i muu omaette ruumi number ;</s>
+</p>
+<p>
+<s>8 ) aadressiandmete koodid ( olemasolu korral ) ;</s>
+</p>
+<p>
+<s>9 ) postiindeks .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Isikuandmetega seotud andmed</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrisse kantavad isikuandmetega seotud andmed on :</s>
+</p>
+<p>
+<s>1 ) andme j&otilde;ustumise aeg ( vajaduse korral ) ;</s>
+</p>
+<p>
+<s>2 ) andmed Eestist &uuml;le 183 p&auml;eva aastas ja &uuml;le 90 p&auml;eva pidevalt eemalviibimise kohta ;</s>
+</p>
+<p>
+<s>3 ) andmed isiku valimisnimekirja kandmise kohta ;</s>
+</p>
+<p>
+<s>4 ) andmetele juurdep&auml;&auml;su piirangu andmed ;</s>
+</p>
+<p>
+<s>5 ) millal ja mis riiki lahkus Eestist p&uuml;sivalt elama v&otilde;i millal ja mis riigist saabus Eestisse p&uuml;sivalt elama ;</s>
+</p>
+<p>
+<s>6 ) isikule v&auml;ljaantud dokumentide andmed .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistrisse kantakse andmed riigi v&otilde;i kohaliku omavalitsuse asutuste poolt v&auml;ljaantud j&auml;rgmiste dokumentide kohta :</s>
+</p>
+<p>
+<s>1 ) isikutunnistus ;</s>
+</p>
+<p>
+<s>2 ) Eesti kodaniku pass ;</s>
+</p>
+<p>
+<s>3 ) Eesti kodakondsustunnistus ;</s>
+</p>
+<p>
+<s>4 ) diplomaatiline pass ;</s>
+</p>
+<p>
+<s>5 ) kaitsev&auml;eteenistuse tunnistus ;</s>
+</p>
+<p>
+<s>6 ) meremehe teenistusraamat ;</s>
+</p>
+<p>
+<s>7 ) meres&otilde;idutunnistus ;</s>
+</p>
+<p>
+<s>8 ) v&auml;lismaalase pass ;</s>
+</p>
+<p>
+<s>8 <hi rend="sup">1</hi> ) ajutine reisidokument ;</s>
+</p>
+<p>
+<s>( 07.03.2001 j&otilde;ust.07.04.2001 - RT I 2001 , 31 , 173 )</s>
+</p>
+<p>
+<s>9 ) pagulase reisidokument ;</s>
+</p>
+<p>
+<s>9 <hi rend="sup">1</hi> ) tagasip&ouml;&ouml;rdumistunnistus ;</s>
+</p>
+<p>
+<s>( 07.03.2001 j&otilde;ust.07.04.2001 - RT I 2001 , 31 , 173 )</s>
+</p>
+<p>
+<s>9 <hi rend="sup">2</hi> ) tagasip&ouml;&ouml;rdumise luba ;</s>
+</p>
+<p>
+<s>( 07.03.2001 j&otilde;ust.07.04.2001 - RT I 2001 , 31 , 173 )</s>
+</p>
+<p>
+<s>10 ) s&uuml;nnitunnistus ;</s>
+</p>
+<p>
+<s>11 ) abielutunnistus ;</s>
+</p>
+<p>
+<s>12 ) abielulahutuse tunnistus ;</s>
+</p>
+<p>
+<s>13 ) nimemuutmistunnistus ;</s>
+</p>
+<p>
+<s>14 ) surmatunnistus ;</s>
+</p>
+<p>
+<s>15 ) elamis- ja t&ouml;&ouml;luba koos selle isikut t&otilde;endava dokumendi andmetega , millesse kanti elamis- ja t&ouml;&ouml;loa kleebis ;</s>
+</p>
+<p>
+<s>16 ) juhiluba , mis on isikut t&otilde;endavaks dokumendiks vastavalt isikut t&otilde;endavate dokumentide seaduse ( RT I 1999 , 25 , 365 ; 2000 , 25 , 148 ; 26 , 150 ; 40 , 254 ) &sect; 2 l&otilde;ikele 1.</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistri aktuaalsete andmete hulka kantakse k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud dokumentide kohta k&auml;esoleva seaduse &sect; 23 l&otilde;ike 2 punktides 1-3 s&auml;testatud andmed ja selle isiku isikukood , kellele dokument v&auml;lja anti .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Rahvastikuregistri pidamist abistavad andmed</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri pidamist abistavad andmed on :</s>
+</p>
+<p>
+<s>1 ) andmete alusdokumentide andmed ;</s>
+</p>
+<p>
+<s>2 ) andmete t&ouml;&ouml;tlemise andmed .</s>
+</p>
+<p>
+<s>( 2 ) Andmete alusdokumendi andmed on :</s>
+</p>
+<p>
+<s>1 ) dokumendi liik ( kood ) ja number ;</s>
+</p>
+<p>
+<s>2 ) dokumendi koostamise , v&auml;ljaandmise ja j&otilde;ustumise aeg , kehtivuse t&auml;htaeg v&otilde;i mis ajast on dokument t&uuml;histatud v&otilde;i kehtetuks tunnistatud ;</s>
+</p>
+<p>
+<s>3 ) dokumendi koostanud ja v&auml;lja andnud , t&uuml;histanud v&otilde;i kehtetuks tunnistanud asutuse nimi ning vastava toimingu teostanud isiku ametikoht , ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>4 ) dokumendi ( originaali ) s&auml;ilitamise koht ( asutuse t&auml;psusega ) .</s>
+</p>
+<p>
+<s>( 3 ) Andmete t&ouml;&ouml;tlemise andmed on :</s>
+</p>
+<p>
+<s>1 ) andmete koodid ;</s>
+</p>
+<p>
+<s>2 ) rahvastikuregistrisse kande tegemise aeg ;</s>
+</p>
+<p>
+<s>3 ) rahvastikuregistrisse kande tegija andmed ( volitatud t&ouml;&ouml;tleja poolt omistatud kood v&otilde;i asutuse nimi , kande tegija ametikoht , ees- ja perekonnanimi v&otilde;i isikukood ) ;</s>
+</p>
+<p>
+<s>4 ) andmete &uuml;leandmise andmed ;</s>
+</p>
+<p>
+<s>5 ) andmetele juurdep&auml;&auml;su andmed ;</s>
+</p>
+<p>
+<s>6 ) andmetele juurdep&auml;&auml;su piirangu andmed ;</s>
+</p>
+<p>
+<s>7 ) andmet&ouml;&ouml;tluse tingimustest ( tarkvarast ) tulenevad andmed .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 3 punktis 4 s&auml;testatud andmete &uuml;leandmise andmed on :</s>
+</p>
+<p>
+<s>1 ) andmeandja andmed ( alalise andmeandja korral volitatud t&ouml;&ouml;tleja poolt omistatud andmeandja kood v&otilde;i asutuse nimi ja andmed &uuml;leandnud isiku ametikoht , ees- ja perekonnanimi v&otilde;i isikukood ) ;</s>
+</p>
+<p>
+<s>2 ) millised andmed &uuml;le anti ;</s>
+</p>
+<p>
+<s>3 ) andmete &uuml;leandmise aeg .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ike 3 punktis 5 s&auml;testatud andmetele juurdep&auml;&auml;su andmed on :</s>
+</p>
+<p>
+<s>1 ) andmesaaja andmed ( asutuse andmed ja andmed saanud isikute andmed , alalise andmesaaja korral ka volitatud t&ouml;&ouml;tleja poolt omistatud andmesaaja kood ) ;</s>
+</p>
+<p>
+<s>2 ) viide andmetele , millele v&otilde;imaldati juurdep&auml;&auml;s ;</s>
+</p>
+<p>
+<s>3 ) andmetele juurdep&auml;&auml;su viis ;</s>
+</p>
+<p>
+<s>4 ) andmetele juurdep&auml;&auml;su eesm&auml;rk ja andmete kasutamise tingimused ;</s>
+</p>
+<p>
+<s>5 ) andmete v&auml;ljastamise andmed ( andmete v&auml;ljastamise alus ja aeg ) .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;ike 3 punktis 6 s&auml;testatud andmetele juurdep&auml;&auml;su piirangu andmed on :</s>
+</p>
+<p>
+<s>1 ) juurdep&auml;&auml;su piirangu alus ;</s>
+</p>
+<p>
+<s>2 ) kelle taotlusel juurdep&auml;&auml;su piirang kehtestati ;</s>
+</p>
+<p>
+<s>3 ) mis ajast mis ajani on juurdep&auml;&auml;s piiratud .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Rahvastikuregistri objekti staatust ettevalmistavad andmed</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri objekti staatuse ettevalmistamisel kogutakse rahvastikuregistrisse andmed :</s>
+</p>
+<p>
+<s>1 ) vasts&uuml;ndinu kohta ;</s>
+</p>
+<p>
+<s>2 ) leidlapse kohta ;</s>
+</p>
+<p>
+<s>3 ) elamisloa taotleja kohta ;</s>
+</p>
+<p>
+<s>4 ) isiku kohta , kelle kohta kogutud andmetest ilmneb , et ta on rahvastikuregistri objektiks , kuid puuduvad osaliselt k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-9 s&auml;testatud andmed .</s>
+</p>
+<p>
+<s>( 2 ) Vasts&uuml;ndinu andmed on :</s>
+</p>
+<p>
+<s>1 ) sugu ;</s>
+</p>
+<p>
+<s>2 ) s&uuml;nniaeg ;</s>
+</p>
+<p>
+<s>3 ) isikukood ;</s>
+</p>
+<p>
+<s>4 ) vasts&uuml;ndinu ema k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-10 nimetatud andmed v&otilde;i viide ema andmetele rahvastikuregistris .</s>
+</p>
+<p>
+<s>( 3 ) Leidlapse andmed on :</s>
+</p>
+<p>
+<s>1 ) leidlapse leiukoht valla v&otilde;i linna t&auml;psusega ;</s>
+</p>
+<p>
+<s>2 ) sugu ;</s>
+</p>
+<p>
+<s>3 ) eeldatav s&uuml;nniaeg ;</s>
+</p>
+<p>
+<s>4 ) isik v&otilde;i asutus , kellele leidlaps on kasvatada antud ( eestkostja andmed ) .</s>
+</p>
+<p>
+<s>( 4 ) Elamisloa taotleja andmed on :</s>
+</p>
+<p>
+<s>1 ) millisest v&auml;lisriigist elamisloa taotleja saabub ning elukoha aadress v&auml;lisriigis ;</s>
+</p>
+<p>
+<s>2 ) elamisloa taotluse menetlusse v&otilde;tmise aeg ;</s>
+</p>
+<p>
+<s>3 ) milliseks t&auml;htajaks elamisluba taotletakse ;</s>
+</p>
+<p>
+<s>4 ) otsus elamisloa andmisest keeldumise kohta koos viitega &otilde;iguslikule alusele ;</s>
+</p>
+<p>
+<s>5 ) elamisloa taotleja k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-7 , 9 ja 10 s&auml;testatud andmed .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 4 nimetatud isiku kohta kantakse registrisse rahvastikuregistri objekti staatust ettevalmistavate andmete hulka k&otilde;ik tema kohta kogutud k&auml;esoleva seaduse &sect;-des 21 ja 22 s&auml;testatud andmed .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Rahvastikuregistri arhiivis s&auml;ilitatavad andmed</s>
+</p>
+<p>
+<s>Rahvastikuregistri arhiivis s&auml;ilitatakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) rahvastiku arvestuse andmebaasis arvel olnud isiku isikuandmed ja isikuandmetega seotud andmed ;</s>
+</p>
+<p>
+<s>2 ) Eesti h&auml;&auml;le&otilde;iguslike kodanike riiklikus registris arvel olnud isiku isikuandmed ja isikuandmetega seotud andmed ;</s>
+</p>
+<p>
+<s>3 ) Eesti h&auml;&auml;le&otilde;iguslike v&auml;lismaalaste riiklikus registris arvel olnud isiku isikuandmed ja isikuandmetega seotud andmed ;</s>
+</p>
+<p>
+<s>4 ) rahvastikuregistri objekti aktuaalsuse kaotanud isikuandmed v&otilde;i isikuandmetega seotud andmed ;</s>
+</p>
+<p>
+<s>5 ) rahvastikuregistri objekti staatuse kaotanud isiku isikuandmed ja isikuandmetega seotud andmed ;</s>
+</p>
+<p>
+<s>6 ) rahvastikuregistri objekti staatuse ettevalmistamisel kogutud andmed isikute kohta , kes seda staatust ei saanud ;</s>
+</p>
+<p>
+<s>7 ) moodustatud ja &uuml;le antud isikukoodid ;</s>
+</p>
+<p>
+<s>8 ) avastatud eba&otilde;iged rahvastikuregistri andmed ja andmed selle kohta , kes , millal ja mille t&otilde;ttu eba&otilde;iged andmed rahvastikuregistrisse kandis ;</s>
+</p>
+<p>
+<s>9 ) andmete arhiivi kandmise v&otilde;i sealt aktuaalsesse seisu viimise alus ja aeg .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Andmete &uuml;leandmine rahvastikuregistrisse kandmiseks</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Rahvastikuregistrisse andmete kandmise alusdokumendid</s>
+</p>
+<p>
+<s>( 1 ) Aktuaalsete andmete rahvastikuregistrisse kandmise alusdokumendid on :</s>
+</p>
+<p>
+<s>1 ) meditsiiniline s&uuml;nnit&otilde;end ;</s>
+</p>
+<p>
+<s>2 ) s&uuml;nniakt ;</s>
+</p>
+<p>
+<s>3 ) abieluakt ;</s>
+</p>
+<p>
+<s>4 ) abielulahutuse akt ;</s>
+</p>
+<p>
+<s>5 ) nimemuutmise akt v&otilde;i eestkosteasutuse otsus lapse perekonnanime muutmise kohta ;</s>
+</p>
+<p>
+<s>6 ) arstlik surmat&otilde;end ;</s>
+</p>
+<p>
+<s>7 ) surmaakt ;</s>
+</p>
+<p>
+<s>8 ) perekonnaseisuakti kande parandamise ja muutmise otsus ;</s>
+</p>
+<p>
+<s>9 ) elukohateade elukoha andmete kandmiseks rahvastikuregistrisse ;</s>
+</p>
+<p>
+<s>10 ) kohaliku omavalitsus&uuml;ksuse p&auml;deva asutuse teade elukoha andmete kandmise kohta rahvastikuregistrisse ;</s>
+</p>
+<p>
+<s>11 ) kohaliku omavalitsus&uuml;ksuse p&auml;deva asutuse teade aadressiandmete aluseks olevate nimede ja numbrite muutmise kohta ;</s>
+</p>
+<p>
+<s>12 ) isikutunnistuse , Eesti kodaniku passi , diplomaatilise passi , meremehe teenistusraamatu , meres&otilde;idutunnistuse , v&auml;lismaalase passi , ajutise reisidokumendi , pagulase reisidokumendi , tagasip&ouml;&ouml;rdumistunnistuse ja tagasip&ouml;&ouml;rdumise loa v&auml;ljaandmise , muutmise ja kehtetuks tunnistamise aluseks olevad dokumendid ;</s>
+</p>
+<p>
+<s>( 07.03.2001 j&otilde;ust.07.04.2001 - RT I 2001 , 31 , 173 )</s>
+</p>
+<p>
+<s>13 ) elamisloa ja t&ouml;&ouml;loa andmise aluseks olevad dokumendid ;</s>
+</p>
+<p>
+<s>14 ) v&auml;lisriigi isikut t&otilde;endav dokument , millesse kanti elamis- ja t&ouml;&ouml;luba ;</s>
+</p>
+<p>
+<s>15 ) elamisloa andmete muutmise aluseks olevad dokumendid ;</s>
+</p>
+<p>
+<s>16 ) kodakondsustunnistuse v&auml;ljaandmise aluseks olev dokument v&otilde;i Vabariigi Valitsuse korraldus kodakondsuse andmise kohta ;</s>
+</p>
+<p>
+<s>17 ) teade Eesti kodakondsuse kaotamise kohta ;</s>
+</p>
+<p>
+<s>18 ) Vabariigi Valitsuse korraldus Eesti kodakondsusest vabastamise kohta ;</s>
+</p>
+<p>
+<s>19 ) j&otilde;ustunud kohtuotsus ;</s>
+</p>
+<p>
+<s>20 ) Eesti Vabariigi v&auml;lisesinduse poolt enne Eesti Vabariigi &Uuml;lemn&otilde;ukogu otsust &ldquo; Eesti riiklikust iseseisvusest &rdquo; ( RT 1991 , 25 , 312 ) v&auml;ljaantud Eesti kodakondsust t&otilde;endava dokumendi alusdokumendid ;</s>
+</p>
+<p>
+<s>21 ) teade Eestist &uuml;le 183 p&auml;eva aastas v&otilde;i &uuml;le 90 p&auml;eva pidevalt eemalviibimise kohta ;</s>
+</p>
+<p>
+<s>22 ) Eesti Vabariigi v&auml;lisesinduse teade alaliselt v&auml;lisriigis elava Eesti kodaniku rahvastikuregistrisse kandmisele kuuluvate aktuaalsete andmete kohta ;</s>
+</p>
+<p>
+<s>23 ) teade Eesti kodaniku p&uuml;sivalt elama asumisest v&auml;lisriiki ;</s>
+</p>
+<p>
+<s>24 ) juhiloa v&auml;ljaandmise ja kehtetuks tunnistamise aluseks olevad dokumendid ;</s>
+</p>
+<p>
+<s>25 ) kaitsev&auml;ekohustuse arvestamise dokumendid ;</s>
+</p>
+<p>
+<s>26 ) v&auml;lisriigi asutuse v&auml;ljaantud dokument , mille alusel rahvastikuregistri objektiks oleva isiku isikuandmed tekivad v&otilde;i muutuvad , kui sellise dokumendi tunnustamise aluseks on v&auml;lisleping , v&otilde;i kui see on V&auml;lisministeeriumis v&otilde;i Eesti v&auml;lisesinduses legaliseeritud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 19 nimetatud kohtuotsus on andmete rahvastikuregistrisse kandmise alusdokumendiks , kui sellega :</s>
+</p>
+<p>
+<s>1 ) tunnistatakse abielu kehtetuks ;</s>
+</p>
+<p>
+<s>2 ) lahutatakse abielu ;</s>
+</p>
+<p>
+<s>3 ) tunnistatakse abielulahutus kehtetuks ;</s>
+</p>
+<p>
+<s>4 ) otsustatakse lapsendamine ;</s>
+</p>
+<p>
+<s>5 ) tunnistatakse lapsendamine kehtetuks ;</s>
+</p>
+<p>
+<s>6 ) tuvastatakse isiku p&otilde;lvnemine ;</s>
+</p>
+<p>
+<s>7 ) t&uuml;histatakse isiku p&otilde;lvnemise tuvastamine ;</s>
+</p>
+<p>
+<s>8 ) tunnistatakse kehtetuks perekonnaseisuakti kanne ;</s>
+</p>
+<p>
+<s>9 ) m&auml;&auml;ratakse isikule eestkoste ;</s>
+</p>
+<p>
+<s>10 ) l&otilde;petatakse isikule m&auml;&auml;ratud eestkoste ;</s>
+</p>
+<p>
+<s>11 ) tunnistatakse isik teov&otilde;imetuks ;</s>
+</p>
+<p>
+<s>12 ) t&uuml;histatakse isiku teov&otilde;imetuks tunnistamine ;</s>
+</p>
+<p>
+<s>13 ) piiratakse isiku teov&otilde;imet ;</s>
+</p>
+<p>
+<s>14 ) t&uuml;histatakse isiku teov&otilde;ime piiramine ;</s>
+</p>
+<p>
+<s>15 ) tunnistatakse isik surnuks ;</s>
+</p>
+<p>
+<s>16 ) t&uuml;histatakse isiku surnuks tunnistamine ;</s>
+</p>
+<p>
+<s>17 ) tunnistatakse isik teadmata kadunuks ;</s>
+</p>
+<p>
+<s>18 ) t&uuml;histatakse isiku teadmata kadunuks tunnistamine ;</s>
+</p>
+<p>
+<s>19 ) otsustatakse vanema &otilde;iguste &auml;rav&otilde;tmine ;</s>
+</p>
+<p>
+<s>20 ) t&uuml;histatakse vanema &otilde;iguste &auml;rav&otilde;tmine ;</s>
+</p>
+<p>
+<s>21 ) taastatakse vanema &otilde;igused ;</s>
+</p>
+<p>
+<s>22 ) otsustatakse isiku v&auml;ljat&otilde;stmine elamusuhte objektiks olevast ruumist ;</s>
+</p>
+<p>
+<s>23 ) otsustatakse lapse &auml;rav&otilde;tmine vanemalt vanema &otilde;iguste &auml;rav&otilde;tmiseta ;</s>
+</p>
+<p>
+<s>24 ) otsustatakse lapse tagasiandmine vanemale ;</s>
+</p>
+<p>
+<s>25 ) m&auml;&auml;ratakse lapse elukohaks &uuml;he vanema elukoht ;</s>
+</p>
+<p>
+<s>26 ) tunnistatakse Eestis leitud lapse kodakondsuseks Eesti kodakondsus ;</s>
+</p>
+<p>
+<s>27 ) muul juhul , kui kohtuotsusega muudetakse v&otilde;i t&auml;iendatakse rahvastikuregistrisse kantavaid andmeid .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>&Uuml;leantavad andmed</s>
+</p>
+<p>
+<s>( 1 ) Andmeandjad on kohustatud rahvastikuregistri volitatud t&ouml;&ouml;tlejale &uuml;le andma k&auml;esoleva seaduse &sect;-s 26 nimetatud dokumendi koostamise , v&auml;ljaandmise , muutmise ja t&auml;psustamise korral kogutud ja dokumendile kantud andmed , mis tekitavad , muudavad v&otilde;i t&auml;psustavad rahvastikuregistrisse kantavaid isikuandmeid v&otilde;i isikuandmetega seotud andmeid .</s>
+</p>
+<p>
+<s>( 2 ) Koos l&otilde;ikes 1 nimetatud andmetega on andmeandjad kohustatud &uuml;le andma k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-9 s&auml;testatud isikuandmed ja &sect; 23 l&otilde;ikes 2 s&auml;testatud andmed rahvastikuregistri andmete alusdokumentide kohta , samuti &sect; 22 l&otilde;ikes 2 s&auml;testatud dokumentide kohta , kui neid anti v&auml;lja , muudeti v&otilde;i tunnistati kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Andmeandjad</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrisse andmeandjateks on k&auml;esoleva seaduse &sect; 22 l&otilde;ikes 2 ja &sect;-s 26 nimetatud dokumente v&auml;ljaandvad asutused ja isikud neile dokumentidele kantud ja rahvastikuregistrisse kandmisele kuuluvate andmete osas .</s>
+</p>
+<p>
+<s>( 2 ) Siseminister kehtestab m&auml;&auml;rusega andmeandjate kaupa nende poolt &uuml;leantavate andmete loetelu .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Andmete &uuml;leandmise viisid</s>
+</p>
+<p>
+<s>( 1 ) Andmeandjad annavad andmed &uuml;le :</s>
+</p>
+<p>
+<s>1 ) sidusp&ouml;&ouml;rdumise teel andmete kandmisega rahvastikuregistrisse ;</s>
+</p>
+<p>
+<s>2 ) andmete edastamisega andmesidev&otilde;rgu kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Erandina v&otilde;ib andmeandja kokkuleppel volitatud t&ouml;&ouml;tlejaga &uuml;le anda andmed dokumendi koopiana , v&auml;ljav&otilde;ttena dokumendist v&otilde;i teatena .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Andmete &uuml;leandmise t&auml;htaeg ja kord</s>
+</p>
+<p>
+<s>( 1 ) Andmeandja annab andmed volitatud t&ouml;&ouml;tlejale &uuml;le hiljemalt j&auml;rgmisel t&ouml;&ouml;p&auml;eval p&auml;rast k&auml;esoleva seaduse &sect;-s 26 s&auml;testatud rahvastikuregistri andmete alusdokumendi koostamist , muutmist , t&auml;psustamist , j&otilde;ustumist v&otilde;i saamist .</s><s>Vastavate tehniliste v&otilde;imaluste loomiseni v&otilde;ib vastutav t&ouml;&ouml;tleja andmeandja taotlusel pikendada seda t&auml;htaega kolme t&ouml;&ouml;p&auml;evani .</s>
+</p>
+<p>
+<s>( 2 ) Andmete &uuml;leandmiseks paberkandjal koostab andmeandja kaaskirja , milles esitab &uuml;leantavate dokumentide loetelu .</s>
+</p>
+<p>
+<s>( 3 ) Andmete &uuml;leandmiseks v&otilde;ib volitatud t&ouml;&ouml;tleja koosk&otilde;lastatult vastutava t&ouml;&ouml;tlejaga ette n&auml;ha andmete &uuml;leandmise kodeeritud kuju ja viisi ning t&auml;iendavate andmete kaitse abin&otilde;ude kasutamise .</s>
+</p>
+<p>
+<s>( 4 ) Siseminister v&otilde;ib kehtestada m&auml;&auml;rusega andmete &uuml;leandmiseks vajalikud teadete vormid ja vajadusel nende t&auml;itmise juhendid .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Andmeandja &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Andmeandjal on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) teada saada , milliste tema poolt &uuml;leantud andmete vastuv&otilde;tmise on volitatud t&ouml;&ouml;tleja registreerinud ja millised &uuml;leantud andmed on kantud rahvastikuregistrisse ;</s>
+</p>
+<p>
+<s>2 ) n&otilde;uda volitatud t&ouml;&ouml;tlejalt andmete &uuml;leandmiseks tehnilisi juhiseid ;</s>
+</p>
+<p>
+<s>3 ) p&ouml;&ouml;rduda vastutava t&ouml;&ouml;tleja poole andmete &uuml;leandmisel volitatud t&ouml;&ouml;tlejaga tekkinud vaidluste lahendamiseks ;</s>
+</p>
+<p>
+<s>4 ) n&otilde;uda rahvastikuregistrist oma &uuml;lesannete t&auml;itmiseks vajalikke andmeid .</s>
+</p>
+<p>
+<s>( 2 ) Andmeandja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) tagama &uuml;leantavate andmete vastavuse alusdokumendile kantud andmetega ;</s>
+</p>
+<p>
+<s>2 ) viivitamata teatama rahvastikuregistri volitatud t&ouml;&ouml;tlejale &uuml;leantud andmetes avastatud veast ning andma &uuml;le &otilde;iged andmed ;</s>
+</p>
+<p>
+<s>3 ) vastama vastutava t&ouml;&ouml;tleja v&otilde;i volitatud t&ouml;&ouml;tleja rahvastikuregistrisse andmete andmisega seotud j&auml;relep&auml;rimisele kolme t&ouml;&ouml;p&auml;eva jooksul j&auml;relep&auml;rimise saamisest arvates ;</s>
+</p>
+<p>
+<s>4 ) tagama , et rahvastikuregistri andmete t&ouml;&ouml;tlemise ja kaitse abin&otilde;ud ei satuks isikute k&auml;tte , kellel ei ole &otilde;igust nendele juurde p&auml;&auml;seda ;</s>
+</p>
+<p>
+<s>5 ) viivitamata teatama volitatud t&ouml;&ouml;tlejale andmete &uuml;leandmisel tekkinud takistustest ;</s>
+</p>
+<p>
+<s>6 ) s&auml;ilitama rahvastikuregistri andmete &uuml;leandmise alusdokumendid v&otilde;i nende &auml;rakirjad kuni nende avalikku arhiivi &uuml;leandmiseni ja v&otilde;imaldama nendele juurdep&auml;&auml;su j&auml;relevalve&otilde;igust omavale ametiisikule ;</s>
+</p>
+<p>
+<s>7 ) pidama andmete &uuml;leandmise kohta arvestust .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Andmete kandmine rahvastikuregistrisse</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Isiku rahvastikuregistri objektina arvelev&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Isik v&otilde;etakse rahvastikuregistris objektina arvele , kui tema kohta on kogutud rahvastikuregistrisse v&auml;hemalt k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-9 s&auml;testatud andmed ja :</s>
+</p>
+<p>
+<s>1 ) perekonnaseisuasutus v&otilde;i Eesti v&auml;lisesindus on koostanud s&uuml;nniakti , millele on tema kodakondsuseks m&auml;rgitud Eesti kodakondsus v&otilde;i</s>
+</p>
+<p>
+<s>2 ) talle on v&auml;lja antud Eesti kodakondsust t&otilde;endav dokument v&otilde;i</s>
+</p>
+<p>
+<s>3 ) talle on antud Eesti kodakondsus v&otilde;i</s>
+</p>
+<p>
+<s>4 ) talle on antud elamisluba .</s>
+</p>
+<p>
+<s>( 2 ) Isiku rahvastikuregistri objektina arvelev&otilde;tmisel kantakse rahvastikuregistri aktuaalsete andmete hulka tema kohta kogutud k&auml;esoleva seaduse &sect;-s 21 s&auml;testatud isikuandmed ja &sect;-s 22 s&auml;testatud isikuandmetega seotud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Kui rahvastikuregistri objektiks oleva isiku kohta puudub m&otilde;ni k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-9 s&auml;testatud andmetest , v&otilde;tab volitatud t&ouml;&ouml;tleja viivitamatult kasutusele abin&otilde;ud puuduvate andmete saamiseks , esitades j&auml;relep&auml;rimise vastavale andmeandjale .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Isikuandmete ja nendega seotud andmete kandmine rahvastikuregistri objekti staatust ettevalmistavate andmete hulka</s>
+</p>
+<p>
+<s>Isiku rahvastikuregistri objekti staatuse ettevalmistamisel kantakse rahvastikuregistrisse tema kohta k&auml;esoleva seaduse &sect; 24 vastavalt l&otilde;igetes 2 , 3 v&otilde;i 4 ja l&otilde;ikes 5 etten&auml;htud andmed , kui :</s>
+</p>
+<p>
+<s>1 ) vasts&uuml;ndinu v&otilde;i leidlapse kohta on koostatud meditsiiniline s&uuml;nnit&otilde;end ;</s>
+</p>
+<p>
+<s>2 ) isik on esitanud elamisloa taotluse ja see on menetlusse v&otilde;etud ;</s>
+</p>
+<p>
+<s>3 ) rahvastikuregistri objekti kohta puudub m&otilde;ni k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-9 s&auml;testatud andmetest .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Rahvastikuregistri pidamist abistavate andmete kandmine rahvastikuregistrisse</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect;-s 23 s&auml;testatud vastavad andmed kantakse rahvastikuregistrisse j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) rahvastikuregistri objekti aktuaalsete andmete v&otilde;i nende muudatuste rahvastikuregistrisse kandmisel ;</s>
+</p>
+<p>
+<s>2 ) andmete rahvastikuregistri arhiivi kandmisel ;</s>
+</p>
+<p>
+<s>3 ) andmete arhiivist rahvastikuregistri aktuaalsete andmete hulka kandmisel ;</s>
+</p>
+<p>
+<s>4 ) andmetele juurdep&auml;&auml;su v&otilde;imaldamisel ;</s>
+</p>
+<p>
+<s>5 ) andmetele juurdep&auml;&auml;su sulgemisel .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Andmete rahvastikuregistrisse kandmise korraldamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 21 l&otilde;ikes 1 , &sect; 22 l&otilde;igetes 1 ja 2 ning &sect; 23 l&otilde;ikes 2 s&auml;testatud andmed kantakse rahvastikuregistri aktuaalsete andmete hulka kas andmeandja poolt sidusp&ouml;&ouml;rdumise teel v&otilde;i volitatud v&otilde;i lepingulise t&ouml;&ouml;tleja poolt , kui andmed on &uuml;le antud muul viisil .</s>
+</p>
+<p>
+<s>( 2 ) Andmete t&ouml;&ouml;tlemise andmete kandmine rahvastikuregistrisse v&otilde;i rahvastikuregistri arhiivi toimub rahvastikuregistri tarkvara abil automaatselt v&otilde;i volitatud t&ouml;&ouml;tleja poolt .</s><s>K&auml;esoleva seaduse &sect; 23 l&otilde;ikes 6 s&auml;testatud juurdep&auml;&auml;supiirangu andmed kannab rahvastikuregistrisse volitatud v&otilde;i lepinguline t&ouml;&ouml;tleja .</s>
+</p>
+<p>
+<s>( 3 ) Kui kohaliku omavalitsuse asutusel puuduvad tehnilised v&otilde;imalused andmete kandmiseks rahvastikuregistrisse sidusp&ouml;&ouml;rdumise teel v&otilde;i andmete edastamiseks andmesidev&otilde;rgu kaudu , s&otilde;lmitakse andmete &uuml;leandmiseks kohaliku omavalitsus&uuml;ksuse poolt &uuml;leantavate andmete osas andmete t&ouml;&ouml;tlemise leping .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Andmete kandmine rahvastikuregistri arhiivi</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Andmete rahvastikuregistri arhiivi kandmise alused</s>
+</p>
+<p>
+<s>Isikuandmed , isikuandmetega seotud andmed ja rahvastikuregistri objekti staatust ettevalmistavad andmed kantakse rahvastikuregistri arhiivi , kui :</s>
+</p>
+<p>
+<s>1 ) neid andmeid muudetakse v&otilde;i parandatakse ;</s>
+</p>
+<p>
+<s>2 ) isik lakkab olemast rahvastikuregistri objekt ;</s>
+</p>
+<p>
+<s>3 ) isik , kelle andmed kanti rahvastikuregistrisse rahvastikuregistri objekti staatuse ettevalmistamisel , ei saa rahvastikuregistri objekti staatust ;</s>
+</p>
+<p>
+<s>4 ) t&auml;htajaliste andmete t&auml;htaeg on m&ouml;&ouml;dunud .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Andmete kandmine rahvastikuregistri arhiivi rahvastikuregistri objekti staatuse l&otilde;ppemise t&otilde;ttu</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri objekti staatus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) surma korral ;</s>
+</p>
+<p>
+<s>2 ) surnuks tunnistamisel ;</s>
+</p>
+<p>
+<s>3 ) elamisloa t&auml;htaja l&otilde;ppemisel , kui isik ei ole t&auml;htaegselt esitanud taotlust elamisloa pikendamiseks v&otilde;i alalise elamisloa saamiseks ;</s>
+</p>
+<p>
+<s>4 ) elamisloa t&auml;htaja l&otilde;ppemisel , kui on keeldutud elamisloa t&auml;htaja pikendamisest v&otilde;i alalise elamisloa andmisest ;</s>
+</p>
+<p>
+<s>5 ) Eesti kodakondsuse kaotamisel ;</s>
+</p>
+<p>
+<s>6 ) rahvastikuregistri objekti staatust m&auml;&auml;ratleva alusdokumendi t&uuml;histamisel v&otilde;i kehtetuks tunnistamisel ;</s>
+</p>
+<p>
+<s>7 ) ekslikult arvelev&otilde;tmise tuvastamisel .</s>
+</p>
+<p>
+<s>( 2 ) Isiku rahvastikuregistri objektiks olemise lakkamisel kantakse arhiivi :</s>
+</p>
+<p>
+<s>1 ) k&otilde;ik rahvastikuregistrisse kantud aktuaalsed andmed ;</s>
+</p>
+<p>
+<s>2 ) aktuaalsete andmete alusdokumentide andmed ;</s>
+</p>
+<p>
+<s>3 ) arhiivi kantavate andmete t&ouml;&ouml;tlemise andmed ;</s>
+</p>
+<p>
+<s>4 ) isikuandmete rahvastikuregistri arhiivi kandmise alusdokumendi andmed .</s>
+</p>
+<p>
+<s>( 3 ) Isiku rahvastikuregistri objekti staatuse l&otilde;ppemisel toimub andmete kandmine rahvastikuregistri arhiivi automaatselt koos objekti staatuse l&otilde;ppemist k&auml;sitlevate andmete rahvastikuregistrisse kandmisega v&otilde;i elamisloa t&auml;htaja l&otilde;ppemisega .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktides 6 ja 7 nimetatud alustel kannab rahvastikuregistri arhiivi andmed &uuml;ksnes volitatud t&ouml;&ouml;tleja koos andmetega , kelle poolt , millal ja millistel p&otilde;hjustel t&uuml;histati v&otilde;i tunnistati kehtetuks isiku rahvastikuregistrisse kandmise aluseks olevad dokumendid v&otilde;i millistel p&otilde;hjustel ja kelle vea t&otilde;ttu oli isik rahvastikuregistrisse ekslikult arvele v&otilde;etud .</s><s>Nimetatud asjaoludest informeerib volitatud t&ouml;&ouml;tleja vastutavat t&ouml;&ouml;tlejat igakordselt kirjalikult .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Andmete kandmine rahvastikuregistri arhiivi rahvastikuregistri andmete muutmise v&otilde;i parandamise korral</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri andmete muutmise v&otilde;i parandamise korral kantakse rahvastikuregistri aktuaalsete andmete hulka uued andmed ja rahvastikuregistri arhiivi rahvastikuregistri varasemad andmed .</s>
+</p>
+<p>
+<s>( 2 ) Andmete parandamisel kantakse eba&otilde;iged andmed rahvastikuregistri arhiivi koos andmetega selle kohta , kes , mille t&otilde;ttu ja millal vea tegi .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Rahvastikuregistri arhiivi kantud andmete kandmine aktuaalsete andmete hulka</s>
+</p>
+<p>
+<s>Rahvastikuregistri arhiivi kantud isikuandmed ja isikuandmetega seotud andmed kantakse volitatud t&ouml;&ouml;tleja poolt rahvastikuregistri aktuaalsete andmete hulka , kui :</s>
+</p>
+<p>
+<s>1 ) andmete rahvastikuregistri aktuaalsete andmete hulgast arhiivi kandmise aluseks olnud toiming v&otilde;i dokument on t&uuml;histatud ;</s>
+</p>
+<p>
+<s>2 ) isik , kelle andmed on kantud rahvastikuregistri arhiivi , saab rahvastikuregistri objekti staatuse ;</s>
+</p>
+<p>
+<s>3 ) andmed on rahvastikuregistri arhiivi kantud ekslikult .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Elukoha andmete kandmine rahvastikuregistrisse</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Elukohateade</s>
+</p>
+<p>
+<s>( 1 ) Elukoha andmete kandmiseks rahvastikuregistrisse esitab isik kirjalikult elukohateate elukohaj&auml;rgse kohaliku omavalitsus&uuml;ksuse p&auml;devale asutusele .</s>
+</p>
+<p>
+<s>( 2 ) Perekonnaliikmed v&otilde;ivad esitada &uuml;hise elukohateate .</s>
+</p>
+<p>
+<s>( 3 ) Isik v&otilde;ib esitada elukohateate digitaalallkirjaga , kui kohaliku omavalitsus&uuml;ksuse p&auml;deval asutusel on tehnilised v&otilde;imalused vastavas vormis elukohateate t&ouml;&ouml;tlemiseks .</s>
+</p>
+<p>
+<s>( 4 ) Elukohateates esitatakse &uuml;he elukoha aadressiandmed .</s><s>Elukohateatega v&otilde;ib isik esitada ka teiste tema poolt kasutatavate elukohtade andmed ja oma sideandmed .</s>
+</p>
+<p>
+<s>( 5 ) Ruum , mille aadressiandmed isik elukohateates m&auml;rgib , peab vastama elamuseaduse ( RT 1992 , 17 , 254 ; RT I 1998 , 71 , 1199 ) alusel Vabariigi Valitsuse poolt eluruumidele kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 6 ) Kui isik ei ole elukohateates m&auml;rgitud ruumi omanik , lisab ta elukohateatele ruumi kasutamise &otilde;igust t&otilde;endava dokumendi koopia v&otilde;i ruumi omaniku loa elukohateates nimetatud elukoha andmete kandmiseks rahvastikuregistrisse .</s><s>Kui isik esitab elukohateate posti teel , lisab ta elukohateatele koopia oma isikut t&otilde;endava dokumendi isikuandmetega lehek&uuml;ljest .</s><s>Digitaalallkirjaga elukohateate esitamisel ei lisata koopiat isikut t&otilde;endava dokumendi isikuandmetega lehek&uuml;ljest .</s>
+</p>
+<p>
+<s>( 7 ) Elukohateatega kinnitavad isik ja tema t&auml;isealised perekonnaliikmed senise elukoha rahvastikuregistrisse kantud aadressiandmete muutmise soovi .</s>
+</p>
+<p>
+<s>( 8 ) Elukohateate vormi ja t&auml;itmise juhendi kinnitab siseminister .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Elukoha andmete kandmine rahvastikuregistrisse elukohateate alusel</s>
+</p>
+<p>
+<s>( 1 ) Kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus kontrollib k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul elukohateate saamisest isiku &otilde;igust elukohateates nimetatud ruumi aadressiandmete kandmiseks rahvastikuregistrisse ja elukohateates esitatud isikuandmete vastavust rahvastikuregistrisse kantud isikuandmetele ning esitab elukoha andmed rahvastikuregistrisse kandmiseks v&otilde;i keeldub elukoha andmete kandmisest rahvastikuregistrisse k&auml;esoleva seaduse &sect; 44 l&otilde;ikes 1 s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 2 ) Elukoha andmete kandmiseks rahvastikuregistrisse teeb kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus elukohateatele sellekohase m&auml;rke ning annab elukohateates esitatud andmed &uuml;le rahvastikuregistri volitatud t&ouml;&ouml;tlejale .</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistri volitatud t&ouml;&ouml;tleja teatab elukoha andmete kandmisest rahvastikuregistrisse isiku endise elukoha j&auml;rgsele kohalikule omavalitsus&uuml;ksusele , kui elukoha aadressiandmete kandmisel rahvastikuregistrisse isiku elukohaj&auml;rgne kohalik omavalitsus&uuml;ksus muutub .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Elukoha andmete rahvastikuregistrisse kandmise erisused</s>
+</p>
+<p>
+<s>( 1 ) Meditsiinilise s&uuml;nnit&otilde;endi alusel kantakse vasts&uuml;ndinu elukoha aadressiandmetena rahvastikuregistrisse tema ema elukoha rahvastikuregistrisse kantud aadressiandmed .</s>
+</p>
+<p>
+<s>( 2 ) Leidlapse elukoha aadressiandmetena kantakse rahvastikuregistrisse tema eestkostja elu- v&otilde;i asukoha aadressiandmed .</s>
+</p>
+<p>
+<s>( 3 ) Vanem v&otilde;i eestkostja v&otilde;ib taotleda enda elu- v&otilde;i asukohaks mitteoleva ruumi aadressiandmete kandmist rahvastikuregistrisse oma alaealise lapse v&otilde;i eestkostealuse elukoha aadressiandmetena k&auml;esoleva seaduse &sect;-s 40 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 4 ) 15-17-aastane alaealine v&otilde;ib esitada elukohateate vanemast v&otilde;i eestkostjast erineva elukoha andmete rahvastikuregistrisse kandmiseks vanema v&otilde;i eestkostja n&otilde;usolekul k&auml;esoleva seaduse &sect;-s 40 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 5 ) V&auml;lisriigis p&uuml;sivalt elava Eesti kodaniku elukoha andmed kantakse Eesti rahvastikuregistrisse Eesti v&auml;lisesinduse poolt &uuml;leantud andmete alusel .</s>
+</p>
+<p>
+<s>( 6 ) T&auml;isealise teov&otilde;imetu isiku elukohateate esitab eestkostja k&auml;esoleva seaduse &sect;-s 40 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 7 ) Elamisloa taotleja esitab oma elukohateate k&auml;esoleva seaduse &sect;-s 40 s&auml;testatud korras p&auml;rast seda , kui talle on antud elamisluba .</s>
+</p>
+<p>
+<s>( 8 ) Koos elamisloa andmetega kantakse rahvastikuregistrisse k&auml;esoleva seaduse &sect; 21 l&otilde;ike 3 punktis 5 s&auml;testatud elukoha andmed .</s>
+</p>
+<p>
+<s>( 9 ) Eesti laevaregistrisse kantud laeva laevapere liige v&otilde;ib k&auml;esoleva seaduse &sect;-s 40 s&auml;testatud korras teatada oma elukohaks laeva ja selle kodusadama asukohaj&auml;rgse kohaliku omavalitsus&uuml;ksuse .</s><s>Elukohateatele tuleb lisada laevapere liikmeks olemist t&otilde;endava dokumendi koopia .</s>
+</p>
+<p>
+<s>( 10 ) Isikul on &otilde;igus k&auml;esoleva seaduse &sect;-s 40 s&auml;testatud korras teatada enda ja oma perekonnaliikmete elukoha andmete rahvastikuregistrisse kandmiseks talle kuuluva ehitatava hoone v&otilde;i muu talle kuuluva ruumi aadressiandmed .</s>
+</p>
+<p>
+<s>( 11 ) Isikute , kes asuvad k&auml;esoleva seaduse &sect; 45 l&otilde;ike 3 punktides 1-4 nimetatud asutustes ja kelle elukoha aadressiandmed pole kantud rahvastikuregistrisse ning kelle asutusse asumisele eelnenud elukohta pole v&otilde;imalik m&auml;&auml;rata &uuml;hegi kohaliku omavalitsus&uuml;ksusega , elukoha aadressiandmeteks on see kohalik omavalitsus&uuml;ksus , kelle territooriumil nimetatud asutus paikneb .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Elukoha andmete rahvastikuregistrisse kandmine kohaliku omavalitsus&uuml;ksuse algatusel</s>
+</p>
+<p>
+<s>( 1 ) Kui kohaliku omavalitsus&uuml;ksuse territooriumil p&uuml;sivalt viibiva rahvastikuregistri objektiks oleva isiku elukoha andmed pole kantud rahvastikuregistrisse , peab kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus algatama elukoha andmete rahvastikuregistrisse kandmise sotsiaal- , meditsiini- , p&auml;&auml;ste- v&otilde;i politseiasutuse v&otilde;i muu asutuse v&otilde;i isiku poolt &uuml;leantud andmete alusel k&auml;esolevas paragrahvis s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalhoolekande- , meditsiini- , p&auml;&auml;ste- v&otilde;i politseiasutus teatab kohalikule omavalitsus&uuml;ksusele oma &uuml;lesannete t&auml;itmise k&auml;igus kohaliku omavalitsus&uuml;ksuse territooriumil avastatud p&uuml;sivalt viibivatest isikutest , kelle elukoha andmed pole kantud rahvastikuregistrisse .</s><s>Teates m&auml;rgitakse viibimiskoha aadress v&otilde;i selle puudumine .</s>
+</p>
+<p>
+<s>( 3 ) Kui isiku viibimiskoha aadress on teada , k&uuml;sib kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus enne elukoha andmete rahvastikuregistrisse kandmist isikult ja viibimiskohaks oleva ruumi omanikult kirjalikku n&otilde;usolekut elukoha andmete rahvastikuregistrisse kandmiseks .</s><s>Kui nii isik kui ka ruumi omanik ei teata kohaliku omavalitsus&uuml;ksuse p&auml;deva asutuse j&auml;relep&auml;rimise v&auml;ljasaatmisest arvates 30 p&auml;eva jooksul oma n&otilde;usolekust isiku elukoha aadressiandmete rahvastikuregistrisse kandmisega viibimiskohaks oleva ruumi t&auml;psusega , kantakse rahvastikuregistrisse isiku elukoha aadressiandmed linna v&otilde;i valla ja linnaosa v&otilde;i osavalla ning v&otilde;imaluse korral asustus&uuml;ksuse t&auml;psusega .</s>
+</p>
+<p>
+<s>( 4 ) Ruumi omanik vastab kohaliku omavalitsus&uuml;ksuse p&auml;deva asutuse j&auml;relep&auml;rimisele 30 p&auml;eva jooksul j&auml;relep&auml;rimise v&auml;ljasaatmisest ja teatab ruumis &uuml;&uuml;rilepingu alusel v&otilde;i omaniku loal elavate isikute :</s>
+</p>
+<p>
+<s>1 ) ees- ja perekonnanimed ;</s>
+</p>
+<p>
+<s>2 ) isikukoodid v&otilde;i s&uuml;nniaja andmed .</s>
+</p>
+<p>
+<s>( 5 ) Kui isiku pideva viibimiskoha aadress pole teada , kantakse tema elukoha aadressiandmed rahvastikuregistrisse linna v&otilde;i valla ja linnaosa v&otilde;i osavalla ning v&otilde;imaluse korral asustus&uuml;ksuse t&auml;psusega .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Elukoha aadressiandmete rahvastikuregistrisse kandmisest keeldumise alused</s>
+</p>
+<p>
+<s>( 1 ) Kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus ei esita elukoha andmeid rahvastikuregistrisse kandmiseks , kui :</s>
+</p>
+<p>
+<s>1 ) isik ei ole elukohateates nimetatud ruumi omanik ja tal puudub omaniku luba v&otilde;i leping ruumi kasutamiseks ;</s>
+</p>
+<p>
+<s>2 ) ruum ei vasta eluruumidele kehtestatud n&otilde;uetele ( v&auml;lja arvatud k&auml;esoleva seaduse &sect; 42 l&otilde;ikes 10 s&auml;testatud juhul ) ;</s>
+</p>
+<p>
+<s>3 ) alaealisel v&otilde;i eestkoste all oleval isikul puudub vanema v&otilde;i eestkostja n&otilde;usolek eraldi elukoha aadressiandmete rahvastikuregistrisse kandmiseks ;</s>
+</p>
+<p>
+<s>4 ) elukohateates esitatud andmed on puudulikud ;</s>
+</p>
+<p>
+<s>5 ) isik on esitanud elukohateates valeandmeid ;</s>
+</p>
+<p>
+<s>6 ) kui kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus leiab , et alla 15-aastase alaealise huvid saavad vanematest erineva elukoha aadressiandmete rahvastikuregistrisse kandmisel kahjustatud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 1 toodud alust ei kohaldata isiku suhtes , kelle perekonnaliikmel on &otilde;igus elukohateates nimetatud ruumi aadressiandmete kandmisele rahvastikuregistrisse elukohana .</s>
+</p>
+<p>
+<s>( 3 ) Kui kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus keeldub isiku elukohateates m&auml;rgitud andmete kandmisest rahvastikuregistrisse , teatab ta sellest koos viitega k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud alusele isikule kirjalikult k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul p&auml;rast isiku elukohateate saamist .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Rahvastikuregistrisse kantud elukoha andmete muutmise alused</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrisse kantud elukoha aadressiandmeid v&otilde;ib muuta :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect;-s 40 s&auml;testatud korras esitatud elukohateate alusel ;</s>
+</p>
+<p>
+<s>2 ) ruumi omaniku &otilde;igustatud n&otilde;udmisel ;</s>
+</p>
+<p>
+<s>3 ) kohtuotsuse alusel , millega otsustatakse isiku ruumist v&auml;ljat&otilde;stmine ;</s>
+</p>
+<p>
+<s>4 ) elukoha aadressiandmete aluseks oleva haldusterritoriaalse korralduse v&otilde;i aadressikohaks olevate objektide nimede ja numbrite muutmisel ;</s>
+</p>
+<p>
+<s>5 ) isiku p&uuml;sivalt elama asumisel v&auml;lisriiki .</s>
+</p>
+<p>
+<s>( 2 ) P&uuml;sivalt elama asumisel v&auml;lisriiki teatab isik oma sealse elukoha kohta kohaliku omavalitsus&uuml;ksuse p&auml;devale asutusele k&auml;esoleva seaduse &sect; 21 l&otilde;ike 3 punktis 5 s&auml;testatud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Isiku rahvastikuregistrisse kantud elukoha andmete muutmise aluseks ei ole isiku asumine v&otilde;i paigutamine :</s>
+</p>
+<p>
+<s>1 ) statsionaarsele ravile raviasutusse ;</s>
+</p>
+<p>
+<s>2 ) hoolekandeasutusse ;</s>
+</p>
+<p>
+<s>3 ) eestkosteasutusse ;</s>
+</p>
+<p>
+<s>4 ) kinnipidamisasutusse ;</s>
+</p>
+<p>
+<s>5 ) kaitsev&auml;eteenistusse .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 3 punktides 1-4 s&auml;testatud juhtudel edastab asutus elukohaj&auml;rgsele kohalikule omavalitsus&uuml;ksusele isiku sideaadressi .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Rahvastikuregistrisse kantud elukoha aadressiandmete muutmine omaniku &otilde;igustatud n&otilde;udmisel v&otilde;i kohtuotsuse alusel</s>
+</p>
+<p>
+<s>( 1 ) Ruumi omanikul on &otilde;igus taotleda kohaliku omavalitsus&uuml;ksuse p&auml;devalt asutuselt isiku rahvastikuregistrisse kantud elukoha aadressiandmete muutmist , kui isiku elukohaks on m&auml;rgitud omanikule kuuluv ruum ja isikul ei ole &otilde;igust seda kasutada oma elukohana elamuseaduses s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 2 ) Kui isik kasutas ruumi elamuseaduses s&auml;testatud alusel , esitab ruumi omanik isiku elukoha andmete muutmise taotlemisel ruumi kasutamise &otilde;iguse l&otilde;ppemist t&otilde;endavad dokumendid .</s>
+</p>
+<p>
+<s>( 3 ) Kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus teatab ruumi omaniku taotlusest k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul t&auml;hitud kirjaga isikule rahvastikuregistris m&auml;rgitud elukoha aadressil ja ametlikus v&auml;ljaandes Ametlikud Teadaanded .</s><s>Ametlikes Teadaannetes avaldatakse teadaande avaldamise p&otilde;hjus , isiku ees- ja perekonnanimi ja s&uuml;nniaeg .</s>
+</p>
+<p>
+<s>( 4 ) Kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus ei rahulda ruumi omaniku taotlust , kui :</s>
+</p>
+<p>
+<s>1 ) isik &uuml;he kuu jooksul teate edastamisest v&otilde;i Ametlikes Teadaannetes avaldamisest t&otilde;estab dokumentaalselt oma &otilde;igust kasutada ruumi oma elukohana ;</s>
+</p>
+<p>
+<s>2 ) isik ei n&otilde;ustu ruumi omaniku taotlusega , v&auml;lja arvatud juhul , kui ruumi omanik esitab dokumendid , mis t&otilde;endavad isiku &otilde;iguse l&otilde;ppemist kasutada ruumi elamuseaduse alusel elukohana .</s>
+</p>
+<p>
+<s>( 5 ) Volitatud t&ouml;&ouml;tleja muudab j&otilde;ustunud kohtuotsuse alusel , millega otsustatakse isik ruumist v&auml;lja t&otilde;sta , rahvastikuregistrisse kantud aadressiandmed ja teatab sellest isiku elukohaj&auml;rgsele kohalikule omavalitsus&uuml;ksusele .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esolevas paragrahvis s&auml;testatud korras elukoha aadressiandmete muutmisel s&auml;ilitatakse rahvastikuregistri aktuaalsete andmete hulgas elukoha aadressiandmed valla v&otilde;i linna ja linnaosa v&otilde;i osavalla ning v&otilde;imaluse korral asustus&uuml;ksuse t&auml;psusega .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Elukoha aadressiandmete muutmine kohanime ja aadressikoha andmete muutmisel</s>
+</p>
+<p>
+<s>( 1 ) Elukoha aadressiandmete aluseks oleva haldusterritoriaalse korralduse v&otilde;i aadressikohaks olevate objektide nimede ja numbrite muutmisest teatab kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus volitatud t&ouml;&ouml;tlejale , kes muudab vastavad rahvastikuregistrisse kantud elukoha aadressiandmed .</s>
+</p>
+<p>
+<s>( 2 ) Isikute teavitamise muutunud aadressiandmetest korraldab isikute elukohaj&auml;rgse kohaliku omavalitsus&uuml;ksuse p&auml;dev asutus .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Rahvastikuregistrisse kantud elukoha aadressiandmete t&auml;hendus</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistrisse kantud elukoha aadressiandmed ei anna isikule &otilde;igust aadressij&auml;rgset ruumi elukohana kasutada , kui puudub ruumi kasutamise &otilde;igus elamuseaduses s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 2 ) Elukoha aadressiandmetel on &otilde;iguslik t&auml;hendus :</s>
+</p>
+<p>
+<s>1 ) Riigikogu ja kohaliku omavalitsuse volikogu valimistel , rahvah&auml;&auml;letusel ja rahvak&uuml;sitlusel ;</s>
+</p>
+<p>
+<s>2 ) kohaliku omavalitsuse eelarvesse laekuvate maksude tasumisel maksuseadustes s&auml;testatud alustel ;</s>
+</p>
+<p>
+<s>3 ) avaliku &uuml;lesande t&auml;itmisel , kui selle &uuml;lesande t&auml;itmine on seotud elukohaj&auml;rgsusega .</s>
+</p>
+<p>
+<s>( 3 ) Isiku elukoha aadressiandmete puudumine rahvastikuregistris ei takista kohtu ja eeluurimist v&otilde;i riiklikku j&auml;relevalvet l&auml;biviiva v&otilde;i riiklikku sundi kohaldava asutuse seadusj&auml;rgsete toimingute teostamist .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Isikukood</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Isikukood</s>
+</p>
+<p>
+<s>Isikukood on isiku soo ja s&uuml;nniaja alusel moodustatud isiku &uuml;heselt kindlaksm&auml;&auml;ramist v&otilde;imaldav arv .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Isikukoodi moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Isikukoodi moodustab volitatud t&ouml;&ouml;tleja .</s>
+</p>
+<p>
+<s>( 2 ) Isikukood moodustatakse vasts&uuml;ndinule , leidlapsele , elamisloa taotlejale ning isikukoodi mitteomavale Eesti kodanikule .</s><s>Isikukood moodustatakse asutuse taotluse alusel , kes v&auml;ljastab dokumente , kuhu isikukood kantakse .</s>
+</p>
+<p>
+<s>( 3 ) Isikukoodide moodustamisel peab volitatud t&ouml;&ouml;tleja v&auml;listama sama isikukoodi moodustamise mitmele isikule ja mitme isikukoodi moodustamise samale isikule .</s>
+</p>
+<p>
+<s>( 4 ) Isikukoodide moodustamise , v&auml;ljajagamise ja andmise kord kehtestatakse siseministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Isikukoodi andmine ja kandmine dokumenti</s>
+</p>
+<p>
+<s>( 1 ) Isikukood loetakse antuks selle kandmisel rahvastikuregistrisse rahvastikuregistri objekti staatust ettevalmistavate andmete hulka k&auml;esoleva seaduse &sect;-s 33 s&auml;testatud korras ja rahvastikuregistri isikuandmete hulka isiku arvelev&otilde;tmisel rahvastikuregistris &sect;-s 32 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Isikukood kantakse isikuandmeid sisaldavasse dokumenti , kui seadusega v&otilde;i seaduse alusel on nii ette n&auml;htud .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Uue isikukoodi moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Volitatud t&ouml;&ouml;tleja moodustab ja annab isikule uue isikukoodi :</s>
+</p>
+<p>
+<s>1 ) lapse p&otilde;lvnemise andmete muutmisel vanema v&otilde;i eestkostja avalduse alusel ;</s>
+</p>
+<p>
+<s>2 ) isiku soo andmete muutmisel isiku avalduse ja vastavat litsentsi omava meditsiiniasutuse t&otilde;endi alusel ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 3 ja 4 s&auml;testatud rahvastikuregistrisse kantud isikuandmete parandamisel v&otilde;i muutmisel .</s>
+</p>
+<p>
+<s>( 2 ) Uue isikukoodi andmisest teatab volitatud t&ouml;&ouml;tleja andmesaajatele , kes saavad rahvastikuregistrist andmeid nende poolt peetavatesse andmekogudesse v&otilde;i v&auml;ljaantavatesse dokumentidesse kandmiseks .</s>
+</p>
+<p>
+<s>( 3 ) Uue isikukoodi andmisel korraldab perekonnaseisuasutus uue s&uuml;nnitunnistuse ja isikut t&otilde;endavat dokumenti v&auml;ljaandev asutus uue isikut t&otilde;endava dokumendi v&auml;ljastamise .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Isikukoodi kasutamine</s>
+</p>
+<p>
+<s>Isikult v&otilde;ib n&otilde;uda isikukoodi andmist vaid juhul , kui isiku &uuml;heselt kindlaksm&auml;&auml;ramine on vajalik seadusega v&otilde;i seaduse alusel pandud &uuml;lesande t&auml;itmiseks .</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>Andmete &otilde;igsuse tagamine</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Rahvastikuregistrisse kantud andmete &otilde;igsuse tagamine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri tarkvara abil tagatakse vigade avastamine vastuoluliste ja ilmselt eba&otilde;igete andmete kandmisel rahvastikuregistrisse .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistrisse uute andmete kandmisel ja andmete muutmisel v&otilde;rreldakse rahvastikuregistri tarkvara abil k&otilde;iki rahvastikuregistrisse kantud k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-9 s&auml;testatud andmeid andmeandja poolt &uuml;leantud andmetega .</s>
+</p>
+<p>
+<s>( 3 ) Volitatud t&ouml;&ouml;tleja on kohustatud tegema andmeandjale andmete &otilde;igsuse kohta j&auml;relep&auml;rimise juhul , kui :</s>
+</p>
+<p>
+<s>1 ) isik on vaidlustanud tema kohta rahvastikuregistrisse kantud andmete &otilde;igsuse ;</s>
+</p>
+<p>
+<s>2 ) samade andmete kohta on esitatud mitmed andmekujud ;</s>
+</p>
+<p>
+<s>3 ) esitatud andmed ei ole loogiliselt seotud teiste andmetega ;</s>
+</p>
+<p>
+<s>4 ) andmed on ilmselt eba&otilde;iged .</s>
+</p>
+<p>
+<s>( 4 ) Andmeandjad on kohustatud tagama rahvastikuregistrisse kandmiseks &uuml;leantavate andmete samasuse andmete rahvastikuregistrisse kandmise alusdokumentidesse kantud andmetega ning vigade avastamisel teatama nendest viivitamata volitatud t&ouml;&ouml;tlejale .</s>
+</p>
+<p>
+<s>( 5 ) Kui rahvastikuregistrisse kantud andmed ei vasta rahvastikuregistri alusdokumendi andmetele , loetakse &otilde;igeks alusdokumenti kantud andmed nende andmete osas , mille rahvastikuregistrisse kandmise aluseks alusdokument on .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Eba&otilde;igete andmete parandamine</s>
+</p>
+<p>
+<s>( 1 ) Kui andmeandja avastab rahvastikuregistrisse kantud eba&otilde;iged andmed , parandab ta need sidusp&ouml;&ouml;rdumise teel talle antud andmete t&ouml;&ouml;tlemise &otilde;iguse ulatuses &uuml;he t&ouml;&ouml;p&auml;eva jooksul p&auml;rast vea ilmsiks tulekut .</s><s>Kui andmeandjal puudub &otilde;igus parandada eba&otilde;igeid andmeid , teatab ta viivitamata volitatud t&ouml;&ouml;tlejale rahvastikuregistrisse kantud eba&otilde;igetest andmetest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 54 l&otilde;ikes 3 s&auml;testatud juhtudel v&otilde;i kui andmeandja teatab eba&otilde;igetest andmetest , on volitatud t&ouml;&ouml;tleja kohustatud kontrollima andmete &otilde;igsust ja eba&otilde;iged andmed parandama .</s>
+</p>
+<p>
+<s>( 3 ) Eba&otilde;igete andmete parandaja teeb kindlaks andmetes vea tekkimise asjaolud ja kannab eba&otilde;igete andmete parandamisel rahvastikuregistrisse andmed eba&otilde;igete andmete parandamise aluse kohta .</s>
+</p>
+<p>
+<s>( 4 ) Eba&otilde;igete andmete parandamise kohta peab volitatud t&ouml;&ouml;tleja arvestust rahvastikuregistri tarkvara abil .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Eba&otilde;igete andmete parandamisest teatamine</s>
+</p>
+<p>
+<s>( 1 ) Volitatud t&ouml;&ouml;tleja teatab eba&otilde;igete andmete parandamisest :</s>
+</p>
+<p>
+<s>1 ) isikule , kes on vaidlustanud tema kohta rahvastikuregistrisse kantud andmete &otilde;igsuse ;</s>
+</p>
+<p>
+<s>2 ) andmesaajatele , kes saavad rahvastikuregistrist andmeid nende poolt peetavasse andmekogusse v&otilde;i v&auml;ljaantavatesse dokumentidesse kandmiseks ;</s>
+</p>
+<p>
+<s>3 ) andmesaajatele , kes kasutavad rahvastikuregistrist saadud andmeid avalike &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Eba&otilde;igete andmete parandamisest teatab volitatud t&ouml;&ouml;tleja hiljemalt &uuml;he t&ouml;&ouml;p&auml;eva jooksul p&auml;rast eba&otilde;igete andmete parandamist .</s><s>Isikule , kes on vaidlustanud enda kohta rahvastikuregistrisse kantud andmed , teatab volitatud t&ouml;&ouml;tleja vigade puudumisest vaidlustatud andmetes .</s>
+</p>
+<p>
+<s>( 3 ) Eba&otilde;igete andmete parandamise teates m&auml;rgitakse andmete :</s>
+</p>
+<p>
+<s>1 ) eba&otilde;ige kuju ;</s>
+</p>
+<p>
+<s>2 ) &otilde;ige ( parandatud ) kuju ;</s>
+</p>
+<p>
+<s>3 ) parandamise alus ;</s>
+</p>
+<p>
+<s>4 ) parandamise aeg ;</s>
+</p>
+<p>
+<s>5 ) parandamisest teatava isiku ametikoht , ees- ja perekonnanimi .</s>
+</p>
+<p>
+<s>( 4 ) Eba&otilde;igete andmete esitamisest andmeandjate poolt , nende esinemisest rahvastikuregistris , parandamisest ja tekkimise p&otilde;hjustest ( kes , millal ja mis p&otilde;hjusel on vea teinud ) esitab volitatud t&ouml;&ouml;tleja vastutavale t&ouml;&ouml;tlejale &uuml;ks kord kvartalis aruande .</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Andmete t&ouml;&ouml;tlemise , s&auml;ilitamise ja kaitsmise n&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Andmete t&ouml;&ouml;tlemise n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Volitatud t&ouml;&ouml;tleja ja lepingulised t&ouml;&ouml;tlejad on kohustatud rahvastikuregistrisse kantud andmeid t&ouml;&ouml;tlema ainult k&auml;esolevas seaduses s&auml;testatud eesm&auml;rkidel , korras ning tingimustel ja tagama isikuandmete kaitse seaduses s&auml;testatud n&otilde;uete t&auml;itmise .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri tarkvara abil peab olema v&auml;lditud rahvastikuregistri andmete loata t&ouml;&ouml;tlemine .</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistri andmed korrastatakse rahvastikuregistri tarkvara abil nii , et nende t&ouml;&ouml;tlemine oleks v&otilde;imalikult kiire ja lihtne .</s>
+</p>
+<p>
+<s>( 4 ) Kui andmeandjatele ja andmesaajatele on antud andmete t&ouml;&ouml;tlemise ja andmetele juurdep&auml;&auml;su &otilde;igus sidusp&ouml;&ouml;rdumise teel , peab volitatud t&ouml;&ouml;tleja tagama andmetele juurdep&auml;&auml;su k&auml;esoleva seaduse &sect;-s 19 s&auml;testatud andmete t&ouml;&ouml;tlemise lepinguga etten&auml;htud ulatuses ja mahus .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Andmete t&ouml;&ouml;tlejate v&auml;lja&otilde;pe ja atesteerimine</s>
+</p>
+<p>
+<s>( 1 ) Vastutav t&ouml;&ouml;tleja korraldab rahvastikuregistri andmeid t&ouml;&ouml;tlevate isikute v&auml;lja&otilde;pet ja atesteerimist .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri andmete t&ouml;&ouml;tlejate atesteerimisn&otilde;uded ja atesteerimise l&auml;biviimise korra kehtestab siseminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Isikule andmete t&ouml;&ouml;tlemise &otilde;iguse andmine ja temalt selle &otilde;iguse &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri volitatud t&ouml;&ouml;tleja annab andmete t&ouml;&ouml;tlemise &otilde;iguse volitatud v&otilde;i lepingulise t&ouml;&ouml;tleja t&ouml;&ouml;tajale aktiga , milles s&auml;testatakse &otilde;iguse kasutaja ees- ja perekonnanimi ning isikukood , asutuse v&otilde;i juriidilise isiku nimi ning andmete t&ouml;&ouml;tlemise ulatus ja kord .</s>
+</p>
+<p>
+<s>( 2 ) Andmete t&ouml;&ouml;tlemise ja andmete kaitse abin&otilde;ud antakse k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud akti alusel isiklikult andmete t&ouml;&ouml;tlemisele lubatud t&ouml;&ouml;tajale , kes annab allkirja nende vastuv&otilde;tmise kohta koos kohustusega j&auml;rgida andmete t&ouml;&ouml;tlemise ja andmete kaitse n&otilde;udeid .</s><s>T&ouml;&ouml;taja ei tohi talle aktiga &uuml;leantud abin&otilde;usid &uuml;le anda teisele isikule .</s>
+</p>
+<p>
+<s>( 3 ) Vastutava t&ouml;&ouml;tleja , Andmekaitse Inspektsiooni v&otilde;i lepingulise t&ouml;&ouml;tleja n&otilde;udmisel v&otilde;tab volitatud t&ouml;&ouml;tleja t&ouml;&ouml;tajalt viivitamatult andmete t&ouml;&ouml;tlemise &otilde;iguse .</s>
+</p>
+<p>
+<s>( 4 ) Vastava v&auml;lja&otilde;ppeta ja atesteerimata t&ouml;&ouml;tajatele rahvastikuregistri andmete t&ouml;&ouml;tlemise &otilde;igust ei anta .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Andmete s&auml;ilitamise n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri andmed s&auml;ilitatakse t&auml;htajatult .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri andmeid s&auml;ilitatakse nii , et oleks v&otilde;imalik v&auml;ljastada iga ajahetke andmeid ning k&otilde;ikide andmete muudetud kujud ajalises j&auml;rgnevuses .</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistri andmete s&auml;ilitamisel peab olema v&otilde;imalus teha v&auml;ljav&otilde;tteid selle kohta , kes , millal ja milliseid andmeid on t&ouml;&ouml;delnud ning kellele , millal ja milliseid andmeid on v&auml;ljastatud ( juurdep&auml;&auml;suandmed ) .</s>
+</p>
+<p>
+<s>( 4 ) Rahvastikuregistri andmete s&auml;ilimiseks kopeerib volitatud t&ouml;&ouml;tleja andmed ja korraldab koopiate s&auml;ilitamise vastutava t&ouml;&ouml;tleja poolt antud juhiste kohaselt .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Andmete kaitse n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri andmete kaitsmisel kohaldatakse isikuandmete kaitse seaduses ja andmekogude seaduses s&auml;testatut , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Vastutav t&ouml;&ouml;tleja kehtestab rahvastikuregistri andmete kaitse t&auml;psemad n&otilde;uded volitatud t&ouml;&ouml;tlejaga s&otilde;lmitud lepingus v&otilde;i rahvastikuregistri pidamise korras .</s>
+</p>
+<p>
+<s>( 3 ) Andmete kaitse n&otilde;uded peavad vastama ajakohastele andmete kaitse standarditele .</s>
+</p>
+<p>
+<s>( 4 ) Volitatud t&ouml;&ouml;tleja koostab ja koosk&otilde;lastab vastutava t&ouml;&ouml;tlejaga andmete kaitse tehniliste ja organisatsiooniliste abin&otilde;ude kava .</s><s>Vastutav t&ouml;&ouml;tleja v&otilde;ib volitatud t&ouml;&ouml;tlejale anda korraldusi andmete kaitse t&auml;iendavate abin&otilde;ude kasutuselev&otilde;tmiseks .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Rahvastikuregistri andmete t&ouml;&ouml;tlemises osalevate isikute kohustus hoida andmeid saladuses</s>
+</p>
+<p>
+<s>Rahvastikuregistri andmete t&ouml;&ouml;tlemises osalevad isikud on kohustatud hoidma saladuses neile t&ouml;&ouml;&uuml;lesannete t&auml;itmisel teatavaks saanud rahvastikuregistri andmeid ja teavet andmekaitse abin&otilde;ude kohta .</s><s>Saladuses hoidmise kohustus j&auml;tkub ka p&auml;rast t&ouml;&ouml;- v&otilde;i teenistussuhte l&otilde;ppemist .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Andmete t&ouml;&ouml;tlemise , s&auml;ilitamise ja kaitse n&otilde;uete rikkumise dokumenteerimine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri andmete loata t&ouml;&ouml;tlemise , andmete juhusliku h&auml;vitamise v&otilde;i muutmise v&otilde;i muude andmete t&ouml;&ouml;tlemise , s&auml;ilitamise v&otilde;i kaitse n&otilde;uete rikkumiste kohta koostab volitatud v&otilde;i lepinguline t&ouml;&ouml;tleja rikkumise avastamise p&auml;eval akti .</s>
+</p>
+<p>
+<s>( 2 ) Akti m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) milliseid n&otilde;udeid rikuti ja muud rikkumise asjaolud ;</s>
+</p>
+<p>
+<s>2 ) kes rikkus ( asutuse nimi , isiku ees- ja perekonnanimi ning ametikoht ) ;</s>
+</p>
+<p>
+<s>3 ) kes ja millistel asjaoludel rikkumise avastas ;</s>
+</p>
+<p>
+<s>4 ) rikkumise tagaj&auml;rjed ;</s>
+</p>
+<p>
+<s>5 ) akti koostanud isiku ees- ja perekonnanimi , ametikoht ja allkiri .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Andmete t&ouml;&ouml;tlemise , s&auml;ilitamise ja kaitse n&otilde;uete rikkumisest teatamine</s>
+</p>
+<p>
+<s>( 1 ) Volitatud v&otilde;i lepinguline t&ouml;&ouml;tleja esitab rikkumise kohta koostatud akti viivitamata vastutavale t&ouml;&ouml;tlejale ja Andmekaitse Inspektsioonile .</s><s>Lepinguline t&ouml;&ouml;tleja esitab akti ka volitatud t&ouml;&ouml;tlejale .</s>
+</p>
+<p>
+<s>( 2 ) Viie t&ouml;&ouml;p&auml;eva jooksul , arvates akti koostamisest , esitab volitatud v&otilde;i lepinguline t&ouml;&ouml;tleja vastutavale t&ouml;&ouml;tlejale ja Andmekaitse Inspektsioonile seletuskirja , mis sisaldab muu hulgas analoogiliste rikkumiste v&auml;ltimise abin&otilde;ude kirjelduse ja ettepanekud rikkumises s&uuml;&uuml;diolevate isikute vastutusele v&otilde;tmiseks v&otilde;i teavet sellekohastest tarvitusele v&otilde;etud meetmetest .</s>
+</p>
+<p>
+<s>( 3 ) Vastutav t&ouml;&ouml;tleja ja Andmekaitse Inspektsioon v&otilde;tavad vajadusel kasutusele abin&otilde;ud s&uuml;&uuml;dlaste karistamiseks ja andmete kaitse n&otilde;uete t&auml;iustamiseks .</s>
+</p>
+<p>
+<s>12. peat&uuml;kk</s>
+</p>
+<p>
+<s>Juurdep&auml;&auml;s rahvastikuregistri andmetele ja andmete kasutamine</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Andmetele juurdep&auml;&auml;su &otilde;igus</s>
+</p>
+<p>
+<s>Rahvastikuregistri andmetele juurdep&auml;&auml;su&otilde;igus on k&auml;esolevas peat&uuml;kis s&auml;testatud korras :</s>
+</p>
+<p>
+<s>1 ) t&auml;isealisel isikul tema ja tema alaealiste laste ning eestkostetavate kohta rahvastikuregistrisse kantud andmetele ;</s>
+</p>
+<p>
+<s>2 ) riigi- ja kohaliku omavalitsuse asutusel ning juriidilisel v&otilde;i f&uuml;&uuml;silisel isikul avaliku &uuml;lesande t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>3 ) f&uuml;&uuml;silisel ja juriidilisel isikul &otilde;igustatud huvi korral ;</s>
+</p>
+<p>
+<s>4 ) v&auml;lisriigi asutusel ja isikul , kui see &otilde;igus on s&auml;testatud v&auml;lislepinguga v&otilde;i tagatakse &uuml;ksikjuhtudel vastutava t&ouml;&ouml;tleja korraldusel .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Andmetele juurdep&auml;&auml;su tagamine</s>
+</p>
+<p>
+<s>( 1 ) Volitatud t&ouml;&ouml;tleja on kohustatud tagama juurdep&auml;&auml;su rahvastikuregistri k&otilde;igile andmetele ja lepinguline t&ouml;&ouml;tleja vaid andmetele , mille v&auml;ljastamise &otilde;igus on talle antud andmete t&ouml;&ouml;tlemise lepinguga .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri andmetele juurdep&auml;&auml;su tagamisel on volitatud t&ouml;&ouml;tleja ja lepinguline t&ouml;&ouml;tleja k&auml;esoleva seadusega etten&auml;htud korras kohustatud :</s>
+</p>
+<p>
+<s>1 ) v&auml;ljastama &uuml;ksnes neid andmeid , mille saamise &otilde;igus taotlejal on ;</s>
+</p>
+<p>
+<s>2 ) teavitama andmesaajat v&auml;ljastatavate andmete suhtes kehtivatest juurdep&auml;&auml;supiirangutest .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Andmetele juurdep&auml;&auml;su viisid</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri andmetele v&otilde;imaldavad volitatud t&ouml;&ouml;tleja ja lepinguline t&ouml;&ouml;tleja juurdep&auml;&auml;su k&auml;esoleva seadusega etten&auml;htud korras :</s>
+</p>
+<p>
+<s>1 ) sidusp&ouml;&ouml;rdumise teel andmesidev&otilde;rgu kaudu ;</s>
+</p>
+<p>
+<s>2 ) andmete edastamisega andmesidev&otilde;rgu kaudu ;</s>
+</p>
+<p>
+<s>3 ) digitaalsel teabekandjal v&otilde;i v&auml;ljatr&uuml;kina andmesaajale isiklikult &uuml;leandmisega v&otilde;i edastamisega posti teel ;</s>
+</p>
+<p>
+<s>4 ) telefoni teel .</s>
+</p>
+<p>
+<s>( 2 ) Kui seadusega ei ole s&auml;testatud teisiti , v&otilde;imaldatakse vajalike tehniliste tingimuste olemasolu korral andmetele juurdep&auml;&auml;s taotleja poolt soovitud viisil .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Isiku &otilde;igus saada teavet ja tema kohta rahvastikuregistrisse kantud andmeid</s>
+</p>
+<p>
+<s>( 1 ) T&auml;isealisel isikul on juurdep&auml;&auml;su&otilde;igus k&otilde;igi tema , tema alaealiste laste ja eestkostetavate kohta rahvastikuregistrisse kantud aktuaalsetele andmetele , samuti rahvastikuregistri arhiivi kantud andmetele ja andmete t&ouml;&ouml;tlemise andmetele , v&auml;lja arvatud rahvastikuregistri tarkvarast tulenevatele andmetele ja andmete koodidele .</s>
+</p>
+<p>
+<s>( 2 ) Isiku taotlusel teavitab volitatud t&ouml;&ouml;tleja isikut :</s>
+</p>
+<p>
+<s>1 ) tema kohta rahvastikuregistrisse kantud andmetest v&otilde;i nende puudumisest ;</s>
+</p>
+<p>
+<s>2 ) tema kohta rahvastikuregistrisse kantud andmete t&ouml;&ouml;tlemise eesm&auml;rgist ja &otilde;iguslikest alustest ;</s>
+</p>
+<p>
+<s>3 ) rahvastikuregistri andmete koosseisust , andmeandjatest ja rahvastikuregistri andmete alusdokumentidest ;</s>
+</p>
+<p>
+<s>4 ) rahvastikuregistri andmetele juurdep&auml;&auml;su&otilde;igust omavatest asutustest ja isikutest ;</s>
+</p>
+<p>
+<s>5 ) rahvastikuregistri andmete v&auml;ljastamise korrast ;</s>
+</p>
+<p>
+<s>6 ) rahvastikuregistri andmetele juurdep&auml;&auml;su piiramise korrast ;</s>
+</p>
+<p>
+<s>7 ) rahvastikuregistri andmete kasutamisv&otilde;imalustest ;</s>
+</p>
+<p>
+<s>8 ) rahvastikuregistri pidamise organisatsioonilisest struktuurist .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Isikule tema kohta rahvastikuregistrisse kantud andmetele juurdep&auml;&auml;su v&otilde;imaldamise kord</s>
+</p>
+<p>
+<s>( 1 ) Volitatud t&ouml;&ouml;tleja v&otilde;i lepinguline t&ouml;&ouml;tleja tagab isikule juurdep&auml;&auml;su tema , tema alaealiste laste ja eestkostetavate kohta rahvastikuregistrisse kantud andmetele isiklikult v&otilde;i andmesidev&otilde;rgu kaudu v&otilde;i posti v&otilde;i telefoni teel edastatud avalduse alusel .</s><s>Andmetele juurdep&auml;&auml;su taotledes teatab isik , millisel viisil ja millistele rahvastikuregistrisse kantud andmetele ta juurdep&auml;&auml;su taotleb .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud andmetele on isikul &uuml;ks kord kalendriaastas &otilde;igus tasuta juurde p&auml;&auml;seda .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud andmed v&auml;ljastatakse isikule isiklikult isikut t&otilde;endava dokumendi esitamisel , kui :</s>
+</p>
+<p>
+<s>1 ) isikuandmetele on kehtestatud juurdep&auml;&auml;supiirang ;</s>
+</p>
+<p>
+<s>2 ) tegemist ei ole k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-8 s&auml;testatud andmete v&otilde;i elukoha aadressiandmetega ;</s>
+</p>
+<p>
+<s>3 ) isiku poolt andmesidev&otilde;rgu kaudu v&otilde;i posti v&otilde;i telefoni teel juurdep&auml;&auml;su taotlemisel rahvastikuregistrisse kantud andmetele tekib andmete v&auml;ljastajal kahtlus isiku samasuses .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud andmed v&auml;ljastatakse isikule hiljemalt kolmandal t&ouml;&ouml;p&auml;eval avalduse saamisest arvates .</s>
+</p>
+<p>
+<s>( 5 ) Andmete v&auml;ljastamisel taotlejale isiklikult teatab andmete v&auml;ljastaja isikule hiljemalt kolmandal t&ouml;&ouml;p&auml;eval avalduse saamisest arvates , kus ja millal talle andmed v&auml;ljastatakse .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Rahvastikuregistri andmetele juurdep&auml;&auml;s avalike &uuml;lesannete t&auml;itmiseks</s>
+</p>
+<p>
+<s>( 1 ) Riigi- ja kohaliku omavalitsuse asutusel ning juriidilisel ja f&uuml;&uuml;silisel isikul on &otilde;igus juurde p&auml;&auml;seda rahvastikuregistri andmetele avalike &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud andmesaajatel on keelatud rahvastikuregistrist saadud andmeid v&auml;ljastada kolmandatele isikutele , kui see ei ole ette n&auml;htud seadusega .</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistri andmetele juurdep&auml;&auml;suks s&otilde;lmitakse k&auml;esoleva seaduse &sect;-s 19 etten&auml;htud korras andmete t&ouml;&ouml;tlemise leping .</s>
+</p>
+<p>
+<s>( 4 ) Andmete t&ouml;&ouml;tlemise lepingu puudumisel otsustatakse k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud andmesaaja juurdep&auml;&auml;s rahvastikuregistri andmetele vastutava t&ouml;&ouml;tleja korraldusel igal &uuml;ksikjuhul eraldi .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>F&uuml;&uuml;silise ja juriidilise isiku juurdep&auml;&auml;su&otilde;igus rahvastikuregistri andmetele &otilde;igustatud huvi korral</s>
+</p>
+<p>
+<s>( 1 ) F&uuml;&uuml;silisel ja juriidilisel isikul on &otilde;igustatud huvi korral &otilde;igus juurdep&auml;&auml;suks k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-8 ja 10-16 ning &sect; 22 l&otilde;ikes 2 s&auml;testatud andmetele ja elukoha aadressiandmetele juhul , kui neile andmetele ei ole kehtestatud juurdep&auml;&auml;supiirang .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testamata juurdep&auml;&auml;supiiranguteta andmetele otsustab juurdep&auml;&auml;su v&otilde;imaldamise vastutav t&ouml;&ouml;tleja igal &uuml;ksikjuhul eraldi .</s>
+</p>
+<p>
+<s>( 3 ) F&uuml;&uuml;siline ja juriidiline isik v&otilde;ivad taotleda &uuml;hes aastas kuni saja isiku kohta andmete v&auml;ljastamist .</s><s>Suurema hulga andmete v&auml;ljastamine on lubatud p&otilde;hjendatud taotlusel Andmekaitse Inspektsiooni loal .</s>
+</p>
+<p>
+<s>( 4 ) F&uuml;&uuml;silisel ja juriidilisel isikul ei ole juurdep&auml;&auml;su&otilde;igust teiste isikute andmete t&ouml;&ouml;tlemise andmetele .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>F&uuml;&uuml;silisele ja juriidilisele isikule &otilde;igustatud huvi korral rahvastikuregistri andmetele juurdep&auml;&auml;su v&otilde;imaldamise kord</s>
+</p>
+<p>
+<s>( 1 ) Juurdep&auml;&auml;su saamiseks esitab taotleja avalduse , milles m&auml;rgib :</s>
+</p>
+<p>
+<s>1 ) juriidilisest isikust taotleja puhul juriidilise isiku nime ja andmete saamiseks volitatud isiku ees- ja perekonnanime ;</s>
+</p>
+<p>
+<s>2 ) f&uuml;&uuml;silisest isikust taotleja puhul ees- ja perekonnanime ning isikukoodi ;</s>
+</p>
+<p>
+<s>3 ) andmete kasutamise p&otilde;hjendatud eesm&auml;rgi ja viisi ;</s>
+</p>
+<p>
+<s>4 ) taotletavate andmete koosseisu ja hulga ;</s>
+</p>
+<p>
+<s>5 ) taotletava juurdep&auml;&auml;su viisi ;</s>
+</p>
+<p>
+<s>6 ) allkirja selle kohta , et saadud andmeid kasutatakse vaid taotletaval eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 2 ) Volitatud t&ouml;&ouml;tleja on kohustatud enne andmete v&auml;ljastamist kontrollima taotleja isikut t&otilde;endavat dokumenti , juriidilise isiku puhul ka tema tegutsemise seaduslikkust ( &otilde;iguslikku alust ) ja andmete saamiseks volitatud isikule antud juriidilise isiku p&auml;deva organi volitust .</s>
+</p>
+<p>
+<s>( 3 ) Volitatud t&ouml;&ouml;tleja keeldub andmete v&auml;ljastamisest , kui ta leiab , et taotleja &otilde;igustatud huvi ei ole piisavalt p&otilde;hjendatud v&otilde;i andmete v&auml;ljastamisega v&otilde;ib tekitada kahju isiku huvile , kelle andmetele juurdep&auml;&auml;su taotletakse .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Rahvastikuregistri andmetele juurdep&auml;&auml;s ristkasutuse korras</s>
+</p>
+<p>
+<s>( 1 ) Ristkasutuse korras on rahvastikuregistri andmetele juurdep&auml;&auml;su&otilde;igus :</s>
+</p>
+<p>
+<s>1 ) andmekogude riiklikusse registrisse kantud andmekogu pidamiseks ;</s>
+</p>
+<p>
+<s>2 ) riigi- ja kohaliku omavalitsuse asutusel , juriidilisel ja f&uuml;&uuml;silisel isikul avaliku &uuml;lesande t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas paragrahvis s&auml;testatud ristkasutuse lubamise otsustab Andmekaitse Inspektsioon .</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistrisse kantud andmed on aluseks rahvastikuregistriga ristkasutuses olevates andmekogudes t&ouml;&ouml;deldavatele rahvastikuregistri andmekoosseisu kuuluvatele andmetele .</s>
+</p>
+<p>
+<s>( 4 ) Rahvastikuregistrit ristkasutuse korras kasutavate andmesaajatega s&otilde;lmitakse k&auml;esoleva seaduse &sect;-s 19 s&auml;testatud korras andmete t&ouml;&ouml;tlemise leping .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Rahvastikuregistri andmetele juurdep&auml;&auml;s avalikuks kasutamiseks</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri andmete avalik kasutamine k&auml;esoleva seaduse m&otilde;istes on nende avalikustamine tr&uuml;kiv&auml;ljaandes , elektroonilises meedias v&otilde;i avaliku andmesidev&otilde;rgu kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Avalikuks kasutamiseks v&otilde;ib rahvastikuregistri objekti andmeid v&auml;ljastada &uuml;ksnes tema enda n&otilde;usolekul v&otilde;i riigi- ja kohaliku omavalitsuse asutusele v&otilde;i juriidilisele v&otilde;i f&uuml;&uuml;silisele isikule avaliku &uuml;lesande t&auml;itmiseks .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Rahvastikuregistri andmetele juurdep&auml;&auml;s teaduslikul v&otilde;i statistilisel eesm&auml;rgil</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri andmetele juurdep&auml;&auml;s teaduslikul v&otilde;i statistilisel eesm&auml;rgil on lubatud :</s>
+</p>
+<p>
+<s>1 ) andmesaajale avaliku &uuml;lesande t&auml;itmiseks v&otilde;i</s>
+</p>
+<p>
+<s>2 ) Andmekaitse Inspektsiooni loal .</s>
+</p>
+<p>
+<s>( 2 ) Andmetele peab andmesaaja andma kuju , mis ei v&otilde;imalda &uuml;heselt tuvastada rahvastikuregistri objektiks olevat isikut .</s><s>Kasutamise eesm&auml;rgi saavutamise j&auml;rgselt tuleb rahvastikuregistri objekti &uuml;hest tuvastamist v&otilde;imaldavad andmed arhiveerida v&otilde;i h&auml;vitada .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Juurdep&auml;&auml;s elukoha aadressiandmetele</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri objekti elukoha aadressiandmetele on juurdep&auml;&auml;s lubatud :</s>
+</p>
+<p>
+<s>1 ) avalike &uuml;lesannete t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>2 ) muul juhul , kui elukoha aadressiandmetele ei ole kehtestatud juurdep&auml;&auml;supiirangut .</s>
+</p>
+<p>
+<s>( 2 ) Elukoha aadressiandmeid v&auml;ljastatakse :</s>
+</p>
+<p>
+<s>1 ) etteantud tunnuste alusel koostatud valimisse kantud isikute elukoha aadresside nimekirjana muid rahvastikuregistrisse kantud andmeid v&auml;ljastamata ;</s>
+</p>
+<p>
+<s>2 ) isiku aadressiandmetena , kelle kohta taotleja on esitanud tema &uuml;heselt m&auml;&auml;ratlemiseks piisavalt andmeid , sealhulgas k&auml;esoleva seaduse &sect; 21 punktides 1-3 s&auml;testatud andmed .</s>
+</p>
+<p>
+<s>( 3 ) F&uuml;&uuml;silise v&otilde;i juriidilise isiku poolt k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 2 nimetatud andmetele juurdep&auml;&auml;su taotlemisel , kui juurdep&auml;&auml;su ei taotleta avaliku &uuml;lesande t&auml;itmiseks , rakendatakse k&auml;esoleva seaduse &sect;-des 71 ja 72 s&auml;testatud tingimusi .</s><s>Kui isiku aadressiandmeid v&auml;ljastatakse taotlejale telefoni teel , ei rakendata &sect; 71 l&otilde;ikes 3 s&auml;testatud piirangut , samuti ei ole sel juhul n&otilde;utav taotleja poolt avalduse esitamine kirjalikult ning isikut t&otilde;endava dokumendi esitamine .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Juurdep&auml;&auml;supiirangud rahvastikuregistri aktuaalsetele andmetele</s>
+</p>
+<p>
+<s>( 1 ) Isikul on &otilde;igus kehtestada oma isikuandmetele ja nendega seotud andmetele juurdep&auml;&auml;supiirang , esitades volitatud t&ouml;&ouml;tlejale otse v&otilde;i lepingulise t&ouml;&ouml;tleja kaudu kirjaliku avalduse .</s><s>Avalduses m&auml;rgib isik , mis t&auml;htajaks ja mis eesm&auml;rgil andmete kasutamiseks ta juurdep&auml;&auml;su piirab .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;dev uurimist teostav organ v&otilde;ib kehtestada rahvastikuregistrisse kantud isikuandmetele ja isikule v&auml;ljaantud dokumentide andmetele juurdep&auml;&auml;supiirangu kriminaalmenetluses t&otilde;e v&auml;ljaselgitamiseks kuni kolmeks kuuks .</s><s>Seda t&auml;htaega v&otilde;ib pikendada &uuml;ks kord kolme kuu v&otilde;rra .</s>
+</p>
+<p>
+<s>( 3 ) Andmeid , millele isik v&otilde;i p&auml;dev uurimist teostav organ on kehtestanud juurdep&auml;&auml;supiirangu , on &otilde;igus v&auml;ljastada vaid avalike &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 4 ) Volitatud t&ouml;&ouml;tleja on kohustatud k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 s&auml;testatud juhtudel sulgema rahvastikuregistri andmetele juurdep&auml;&auml;su ja teavitama juurdep&auml;&auml;supiirangust andmesaajaid , kellele p&auml;rast piirangu kehtestamist rahvastikuregistri andmeid v&auml;ljastatakse v&otilde;i kelle peetava andmekoguga on rahvastikuregister ristkasutuses .</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Juurdep&auml;&auml;supiirangud eba&otilde;igetele v&otilde;i mittet&auml;ielikele andmetele</s>
+</p>
+<p>
+<s>( 1 ) Volitatud t&ouml;&ouml;tleja on kohustatud sulgema juurdep&auml;&auml;su k&auml;esoleva seaduse &sect; 54 l&otilde;ikes 3 s&auml;testatud juhtudel mittet&auml;ielikele v&otilde;i eba&otilde;igetele rahvastikuregistri objekti andmetele v&otilde;i andmetele , mille suhtes on tekkinud kahtlus , et nad ei ole &otilde;iged ( edaspidi kaheldavad andmed ) .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri objekti andmed loetakse mittet&auml;ielikeks , kui nende kohta on rahvastikuregistrisse kandmata osa k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-8 s&auml;testatud andmetest ja elukoha aadressiandmed .</s>
+</p>
+<p>
+<s>( 3 ) Kui rahvastikuregistri objekti andmed on mittet&auml;ielikud v&otilde;i k&auml;esoleva seaduse &sect; 21 l&otilde;ike 1 punktides 1-8 s&auml;testatud andmed on eba&otilde;iged v&otilde;i kaheldavad , suleb volitatud t&ouml;&ouml;tleja juurdep&auml;&auml;su k&otilde;igile antud objekti andmetele kuni &otilde;igete andmete kandmiseni rahvastikuregistrisse v&otilde;i kaheldavate andmete &otilde;igsuse tuvastamiseni .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igete 1 ja 3 kohaselt suletud andmetele on juurdep&auml;&auml;su&otilde;igus :</s>
+</p>
+<p>
+<s>1 ) volitatud t&ouml;&ouml;tlejal ja andmeandjal enda poolt &uuml;leantud andmete kontrollimise , parandamise v&otilde;i t&auml;iendamise eesm&auml;rgil ;</s>
+</p>
+<p>
+<s>2 ) andmesaajal avaliku &uuml;lesande t&auml;itmiseks , kusjuures andmete v&auml;ljastamisel on volitatud t&ouml;&ouml;tleja kohustatud andmesaajat informeerima andmete mittet&auml;ielikkusest , eba&otilde;igsusest v&otilde;i kaheldavusest .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Juurdep&auml;&auml;s rahvastikuregistri pidamist abistavatele , rahvastikuregistri objekti staatust ettevalmistavatele ja rahvastikuregistri arhiivis s&auml;ilitatavatele andmetele</s>
+</p>
+<p>
+<s>Juurdep&auml;&auml;s rahvastikuregistri pidamist abistavatele andmetele , rahvastikuregistri objekti staatust ettevalmistavatele andmetele ja rahvastikuregistri arhiivis s&auml;ilitatavatele andmetele on :</s>
+</p>
+<p>
+<s>1 ) isikul enda , oma alaealiste laste ja eestkostetavate kohta k&auml;ivate andmete osas ;</s>
+</p>
+<p>
+<s>2 ) riigi- ja kohaliku omavalitsuse asutusel v&otilde;i juriidilisel v&otilde;i f&uuml;&uuml;silisel isikul , kui andmed on vajalikud avalike &uuml;lesannete t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>3 ) andmeandjatel enda poolt esitatud andmetele nende &otilde;igsuse kontrollimiseks .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Andmesaaja &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Mittet&auml;ielike , eba&otilde;igete v&otilde;i kaheldavate andmete saamise korral rahvastikuregistrist on andmesaajal &otilde;igus saada volitatud t&ouml;&ouml;tlejalt teavet andmete kontrollimise tulemuste v&otilde;i andmete parandamise kohta .</s><s>Andmesaaja taotlusel edastab volitatud t&ouml;&ouml;tleja teabe andmesaajale viie t&ouml;&ouml;p&auml;eva jooksul , arvates andmesaaja poolt volitatud t&ouml;&ouml;tlejale mittet&auml;ielikest , eba&otilde;igetest v&otilde;i kaheldavatest andmetest teatamisest .</s>
+</p>
+<p>
+<s>( 2 ) Andmesaaja , kes kasutab andmeid andmekogude riiklikusse registrisse kantud andmekogu pidamiseks v&otilde;i muu avaliku &uuml;lesande t&auml;itmiseks , on kohustatud volitatud t&ouml;&ouml;tlejale viivitamata teatama avastatud eba&otilde;igetest , kaheldavatest v&otilde;i mittet&auml;ielikest andmetest .</s>
+</p>
+<p>
+<s>( 3 ) Andmesaaja on kohustatud andmeid kasutama &uuml;ksnes taotletaval eesm&auml;rgil ning j&auml;rgima k&auml;esoleva seaduse ja isikuandmete kaitse seadusega s&auml;testatud ja talle andmete &uuml;leandmisel kehtestatud andmete kasutamise piirangutest tulenevaid tingimusi , samuti tagama , et andmed ei satuks t&ouml;&ouml;tlemise &otilde;igust mitteomavate isikute k&auml;tte .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Rahvastikuregistrist v&auml;ljastatud andmete ristkasutus</s>
+</p>
+<p>
+<s>Rahvastikuregistrist v&auml;ljastatud andmete ristkasutus teistest andmekogudest saadud v&otilde;i andmesaaja enda poolt kogutud andmetega on lubatud ainult seaduses v&otilde;i seaduse alusel antud &otilde;igusaktis s&auml;testatud juhtudel Andmekaitse Inspektsiooni loal .</s>
+</p>
+<p>
+<s>13. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve rahvastikuregistri pidamise &uuml;le</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>J&auml;relevalve teostajad rahvastikuregistri pidamise ja andmete t&ouml;&ouml;tlemise &uuml;le</s>
+</p>
+<p>
+<s>J&auml;relevalvet teostavad :</s>
+</p>
+<p>
+<s>1 ) Andmekaitse Inspektsiooni selleks volitatud ametnik k&auml;esoleva seaduse , andmekogude seaduse , isikuandmete kaitse seaduse j&auml;rgimise &uuml;le ;</s>
+</p>
+<p>
+<s>2 ) vastutava t&ouml;&ouml;tleja selleks volitatud ametnik k&auml;esoleva seaduse , rahvastikuregistri pidamise korra v&otilde;i lepingu ja andmete t&ouml;&ouml;tlemise lepingu ning vastutava t&ouml;&ouml;tleja korralduste t&auml;itmise &uuml;le .</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>J&auml;relevalve teostaja &otilde;igused</s>
+</p>
+<p>
+<s>J&auml;relevalvet teostaval ametnikul on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) juurde p&auml;&auml;seda rahvastikuregistri andmete alusdokumentidele , rahvastikuregistrisse kantud andmetele ning rahvastikuregistri pidamise vahenditele ja dokumentidele ;</s>
+</p>
+<p>
+<s>2 ) juurde p&auml;&auml;seda andmete kaitse n&otilde;udeid sisaldavatele dokumentidele , v&auml;lja arvatud sidusp&ouml;&ouml;rdumise &otilde;igust andvatele koodidele ja salas&otilde;nadele ;</s>
+</p>
+<p>
+<s>3 ) p&auml;&auml;seda ruumidesse , kus andmeid t&ouml;&ouml;deldakse v&otilde;i kus paiknevad t&ouml;&ouml;tlemiseks kasutatavad seadmed ;</s>
+</p>
+<p>
+<s>4 ) saada teavet andmete rahvastikuregistrisse kandmiseks &uuml;leandmise , kandmise , rahvastikuregistrist v&auml;ljastamise ja kasutamise kohta .</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>Andmekaitse Inspektsiooni poolt teostatav j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Andmekaitse Inspektsioon teostab j&auml;relevalvet isikuandmete kaitse seaduse ning andmekogude seaduse kohaselt volitatud t&ouml;&ouml;tleja poolt rahvastikuregistri pidamise ning lepingulise t&ouml;&ouml;tleja poolt rahvastikuregistri andmete t&ouml;&ouml;tlemise &uuml;le .</s>
+</p>
+<p>
+<s>( 2 ) Kui ilmneb , et rahvastikuregistri andmete t&ouml;&ouml;tlemine , s&auml;ilitamine v&otilde;i kaitsmine ei toimu seaduse v&otilde;i teiste &otilde;igusaktide kohaselt v&otilde;i pole t&auml;idetud muid andmete kaitse n&otilde;uetega etten&auml;htud kohustusi , teeb Andmekaitse Inspektsioon rahvastikuregistri volitatud v&otilde;i lepingulisele t&ouml;&ouml;tlejale t&auml;itmiseks kohustusliku ettekirjutuse puuduste k&otilde;rvaldamiseks , m&auml;&auml;rates selleks t&auml;htaja .</s>
+</p>
+<p>
+<s>( 3 ) Kui puudused pole ettekirjutuses m&auml;&auml;ratud t&auml;htajaks k&otilde;rvaldatud , koostab j&auml;relevalve teostaja k&auml;esoleva seaduse &sect;-s 86 s&auml;testatud j&auml;relevalve teostamise akti .</s><s>Kui puudused pole j&auml;relevalve aktis m&auml;&auml;ratud t&auml;htajaks k&otilde;rvaldatud , on j&auml;relevalve teostaja kohustatud esitama p&auml;devale asutusele taotluse s&uuml;&uuml;dlaste vastu distsiplinaar- , kriminaal- , v&otilde;i haldus&otilde;igusrikkumise menetluse algatamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Andmekaitse Inspektsioon teavitab igast tema poolt avastatud rahvastikuregistri andmete t&ouml;&ouml;tlemise ja andmete kaitse n&otilde;uete rikkumisest vastutavat ja volitatud t&ouml;&ouml;tlejat .</s>
+</p>
+<p>
+<s>( 5 ) Andmekaitse Inspektsioon v&otilde;ib j&auml;relevalve tulemusena n&otilde;uda vastutavalt t&ouml;&ouml;tlejalt rahvastikuregistri pidamise lepingu l&otilde;petamist ja volitatud t&ouml;&ouml;tlejalt andmete t&ouml;&ouml;tlemise lepingu v&otilde;i sidusp&ouml;&ouml;rdumise &otilde;iguse l&otilde;petamist .</s>
+</p>
+<p>
+<s>( 6 ) Andmekaitse Inspektsioon kontrollib andmekogude seaduse ja isikuandmete kaitse seaduse j&auml;rgimist rahvastikuregistri pidamisel ja andmete t&ouml;&ouml;tlemisel , koostab vastava aruande ning esitab selle vastutavale ja volitatud t&ouml;&ouml;tlejale .</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>Vastutava t&ouml;&ouml;tleja poolne j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Vastutava t&ouml;&ouml;tleja volitatud ametnik kontrollib rahvastikuregistri pidamisel ja andmete t&ouml;&ouml;tlemisel volitatud t&ouml;&ouml;tleja ja andmeandjate ning saajate poolt seadustest ja rahvastikuregistri pidamise korrast v&otilde;i lepingust ning andmete t&ouml;&ouml;tlemise lepingutest ning vastutava t&ouml;&ouml;tleja juhistest ja korraldustest , samuti vastutava t&ouml;&ouml;tleja kinnitatud rahvastikuregistri pidamise eelarvest kinnipidamist .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;relevalve teostamisel vastutav t&ouml;&ouml;tleja :</s>
+</p>
+<p>
+<s>1 ) teeb ettekirjutusi volitatud t&ouml;&ouml;tlejale ning andmeandjatele ja andmesaajatele nende rahvastikuregistri pidamisel ja andmete t&ouml;&ouml;tlemisel teostatavate toimingute koosk&otilde;lla viimiseks seaduste ning lepingutega ;</s>
+</p>
+<p>
+<s>2 ) peatab volitatud t&ouml;&ouml;tleja v&otilde;i andmeandjate ja andmesaajate k&auml;esoleva seadusega v&otilde;i lepingutega vastavuses mitteolevad aktid v&otilde;i toimingud ;</s>
+</p>
+<p>
+<s>3 ) v&otilde;ib n&otilde;uda volitatud t&ouml;&ouml;tlejalt andmete t&ouml;&ouml;tlemise lepingute v&otilde;i sidusp&ouml;&ouml;rdumise &otilde;iguse l&otilde;petamist ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;ib algatada j&auml;relevalve teostamisel ilmnenud rikkumiste t&otilde;ttu k&auml;esoleva seaduse &sect; 16 l&otilde;igetes 1 ja 3 etten&auml;htud alustel rahvastikuregistri pidamise lepingu l&otilde;petamise ;</s>
+</p>
+<p>
+<s>5 ) teeb ettepanekuid p&auml;devale asutusele v&otilde;i ametiisikule avastatud rikkumistes s&uuml;&uuml;diolevate isikute v&auml;ljaselgitamiseks ja vastutusele v&otilde;tmiseks .</s>
+</p>
+<p>
+<s>( 3 ) Vastutav t&ouml;&ouml;tleja on kohustatud lahendama j&auml;relevalve korras kaebusi rahvastikuregistri pidamise ja andmete t&ouml;&ouml;tlemise ning kasutamise kohta .</s><s>J&auml;relevalve tulemustest teatatakse kaebuse esitajale &uuml;he kuu jooksul kaebuse saamisest .</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>J&auml;relevalve teostamise akt</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalve l&auml;biviimisel koostatakse j&auml;relevalve akt ( edaspidi akt ) .</s>
+</p>
+<p>
+<s>( 2 ) Akti m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) akti koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) j&auml;relevalvet teostanud asutuse nimi ja volitatud ametniku ametinimetus , ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>3 ) akti koostamise juures viibinud volitatud t&ouml;&ouml;tleja t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;tajate ametinimetus , ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>4 ) rahvastikuregistri pidamisel , andmete t&ouml;&ouml;tlemisel ja andmete kaitsmisel esinevate puuduste v&otilde;i rikkumiste kirjeldus ;</s>
+</p>
+<p>
+<s>5 ) j&auml;relevalvealuse asutuse v&otilde;i isiku vastutava ametiisiku selgitused puuduste v&otilde;i rikkumiste kohta ;</s>
+</p>
+<p>
+<s>6 ) j&auml;relevalve teostaja ettekirjutus v&otilde;i ettepanekud p&auml;devale asutusele v&otilde;i t&ouml;&ouml;tlejale .</s>
+</p>
+<p>
+<s>( 3 ) Aktile kirjutavad alla j&auml;relevalve teostamiseks volitatud ametnik ja j&auml;relevalve juures viibinud j&auml;relevalvealuse asutuse v&otilde;i isiku vastutav t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;tajad .</s>
+</p>
+<p>
+<s>( 4 ) Akt koostatakse kolmes eksemplaris , millest &uuml;ks j&auml;&auml;b asutusele v&otilde;i isikule , kelle &uuml;le j&auml;relevalvet teostati , teine vastutavale t&ouml;&ouml;tlejale ja kolmas Andmekaitse Inspektsioonile .</s><s>Kui j&auml;relevalvet teostati andmeandja v&otilde;i andmesaaja &uuml;le , edastab vastutav t&ouml;&ouml;tleja akti koopia volitatud t&ouml;&ouml;tlejale kolme t&ouml;&ouml;p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>J&auml;relevalve tulemuste arvestamisest teatamine</s>
+</p>
+<p>
+<s>( 1 ) Aktis m&auml;rgitud puuduste ja rikkumiste k&otilde;rvaldamistest v&otilde;i j&auml;relevalve tulemusel tehtud ettekirjutuste t&auml;itmisest teavitab j&auml;relevalvealune asutus v&otilde;i isik vastutavat t&ouml;&ouml;tlejat ja Andmekaitse Inspektsiooni aktis etten&auml;htud t&auml;htaja jooksul v&otilde;i , kui sellist t&auml;htaega ei m&auml;&auml;ratud , &uuml;he kuu jooksul akti koostamisest .</s>
+</p>
+<p>
+<s>( 2 ) Kui j&auml;relevalvet teostati andmeandja v&otilde;i andmesaaja &uuml;le , teavitatakse j&auml;relevalve tulemustega arvestamisest ka volitatud t&ouml;&ouml;tlejat .</s>
+</p>
+<p>
+<s>14. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rahvastikuregistri pidamise finantseerimine</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>Rahvastikuregistri finantseerimise allikad</s>
+</p>
+<p>
+<s>Rahvastikuregistri pidamist finantseeritakse riigieelarvest Siseministeeriumi eelarves eraldi etten&auml;htud vahenditest ja rahvastikuregistri volitatud t&ouml;&ouml;tleja poolt k&auml;esolevas seaduses rahvastikuregistri andmetele juurdep&auml;&auml;su teenuste osutamise eest saadud tuludest .</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>Andmeandjate ja andmesaajate kulude katmine</s>
+</p>
+<p>
+<s>( 1 ) Andmeandja poolt rahvastikuregistrisse andmete andmisel tehtud kulutused kaetakse riigieelarvest andmeandjale selle &uuml;lesande t&auml;itmiseks eraldatud vahenditest , v&auml;lja arvatud juhul , kui nende kulutuste katmine n&auml;hakse andmete t&ouml;&ouml;tlemise lepinguga ette Siseministeeriumile rahvastikuregistri pidamiseks etten&auml;htud vahenditest .</s>
+</p>
+<p>
+<s>( 2 ) Riigi ja kohaliku omavalitsuse asutuse rahvastikuregistri andmetele juurdep&auml;&auml;su kulud , mis ei ole seotud andmete andmisega rahvastikuregistrisse , kaetakse vastavalt riigiasutuse v&otilde;i kohaliku omavalitsus&uuml;ksuse eelarvetest selleks etten&auml;htud vahenditest .</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>Volitatud t&ouml;&ouml;tleja poolt osutatavate teenuste eest tasumine</s>
+</p>
+<p>
+<s>( 1 ) Kui juurdep&auml;&auml;s rahvastikuregistrile ei ole seotud andmete andmisega rahvastikuregistrisse , tasuvad andmesaajad volitatud t&ouml;&ouml;tlejale neile volitatud t&ouml;&ouml;tleja poolt andmete v&auml;ljastamisega seotud kulud vastutava t&ouml;&ouml;tleja poolt kinnitatud hindade alusel .</s>
+</p>
+<p>
+<s>( 2 ) Avalike &uuml;lesannete t&auml;itmiseks vajalike andmete v&auml;ljastamisel tasutakse volitatud t&ouml;&ouml;tleja kulud andmesaaja poolt vastutava t&ouml;&ouml;tleja poolt kinnitatud kulunormide alusel .</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>Rahvastikuregistri pidamise eelarve kinnitamine</s>
+</p>
+<p>
+<s>Volitatud t&ouml;&ouml;tleja rahvastikuregistri pidamise tulude ja kulude eelarve kinnitab ja eelarve t&auml;itmist kontrollib siseminister .</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>Eelarve t&auml;itmise aruanne</s>
+</p>
+<p>
+<s>Volitatud t&ouml;&ouml;tleja esitab vastutavale t&ouml;&ouml;tlejale rahvastikuregistri eelarve t&auml;itmise aruande v&auml;hemalt &uuml;ks kord aastas , kui vastutava t&ouml;&ouml;tlejaga s&otilde;lmitud rahvastikuregistri pidamise lepingus ei ole ette n&auml;htud sagedamat aruandlust .</s>
+</p>
+<p>
+<s>15. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Rahvastikuregistri moodustamine ja kasutuselev&otilde;tmine</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Rahvastikuregistri moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregister moodustatakse seni peetavate rahvastiku arvestuse andmebaasi , Eesti h&auml;&auml;le&otilde;iguslike kodanike riiklikku registrisse ja Eesti h&auml;&auml;le&otilde;iguslike v&auml;lismaalaste riiklikku registrisse kantud andmete alusel k&auml;esolevas seaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri moodustamisel kantakse rahvastiku arvestuse andmebaasist , Eesti h&auml;&auml;le&otilde;iguslike kodanike riiklikust registrist ja Eesti h&auml;&auml;le&otilde;iguslike v&auml;lismaalaste riiklikust registrist andmed &uuml;le rahvastikuregistri arhiivi .</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistri arhiivist kantakse rahvastikuregistri aktuaalsete andmete hulka nende isikute andmed , kelle kohta on olemas v&auml;hemalt j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) perekonnanimi v&otilde;i perekonnanimed ;</s>
+</p>
+<p>
+<s>2 ) eesnimi v&otilde;i eesnimed ;</s>
+</p>
+<p>
+<s>3 ) s&uuml;nniaeg ;</s>
+</p>
+<p>
+<s>4 ) s&uuml;nnikoht ;</s>
+</p>
+<p>
+<s>5 ) sugu ;</s>
+</p>
+<p>
+<s>6 ) isikukood ;</s>
+</p>
+<p>
+<s>7 ) elukoha aadress v&auml;hemalt kohaliku omavalitsus&uuml;ksuse t&auml;psusega ;</s>
+</p>
+<p>
+<s>8 ) Eesti kodakondsusesse kuulumine v&otilde;i kehtiva elamisloa omamine .</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>Rahvastikuregistri aktuaalsete andmete t&auml;iendamine rahvastikuregistri moodustamisel</s>
+</p>
+<p>
+<s>( 1 ) Kui isikute kohta puuduvad osaliselt k&auml;esoleva seaduse &sect; 93 l&otilde;ikes 3 s&auml;testatud andmed , esitab volitatud t&ouml;&ouml;tleja puuduvate andmete v&auml;ljaselgitamiseks v&auml;hemalt &uuml;heksa kuud enne rahvastikuregistri kasutuselev&otilde;tmist j&auml;relep&auml;rimise vastavatele andmeandjatele .</s>
+</p>
+<p>
+<s>( 2 ) Andmeandjad on kohustatud selgitama v&auml;lja ja esitama &otilde;iged andmed koos k&auml;esoleva seaduse &sect; 26 l&otilde;ikes 1 s&auml;testatud rahvastikuregistri andmete alusdokumendi andmetega kolme kuu jooksul j&auml;relep&auml;rimise saamisest k&auml;esolevas seaduses andmete &uuml;leandmiseks s&auml;testatud korras .</s><s>Kui andmeandjal ei ole m&otilde;ne isiku kohta andmeid , siis teatab ta andmete puudumisest .</s>
+</p>
+<p>
+<s>( 3 ) Isikul on &otilde;igus kontrollida rahvastikuregistrisse kantavate andmete olemasolu rahvastikuregistris ja esitada puuduvad andmed ning n&otilde;uda nende andmete rahvastikuregistrisse kandmist .</s><s>Volitatud t&ouml;&ouml;tleja esitab saadud andmed vastavale andmeandjale kontrollimiseks ja kannab andmed andmeandja poolt esitatud kujul rahvastikuregistrisse v&otilde;i teatab isikule andmete rahvastikuregistrisse kandmata j&auml;tmise p&otilde;hjustest &uuml;he kuu jooksul isikult avalduse saamisest .</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>Rahvastiku arvestuse andmebaasi , Eesti h&auml;&auml;le&otilde;iguslike kodanike riikliku registri ning Eesti h&auml;&auml;le&otilde;iguslike v&auml;lismaalaste riikliku registri pidamine ja selle l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri moodustamisel peetakse samaaegselt rahvastiku arvestuse andmebaasi , Eesti h&auml;&auml;le&otilde;iguslike kodanike riiklikku registrit ja Eesti h&auml;&auml;le&otilde;iguslike v&auml;lismaalaste riiklikku registrit .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri kasutuselev&otilde;tmisest alates l&otilde;petab Vabariigi Valitsus rahvastiku arvestuse andmebaasi , Eesti h&auml;&auml;le&otilde;iguslike kodanike riikliku registri ja Eesti h&auml;&auml;le&otilde;iguslike v&auml;lismaalaste riikliku registri pidamise .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-de 40-48 j&otilde;ustumisel kohaldatakse kuni rahvastikuregistri kasutuselev&otilde;tmiseni rahvastikuregistrisse kantud elukoha andmetena rahvastiku arvestuse andmebaasi vastavaid andmeid .</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Rahvastikuregistri kasutuselev&otilde;tmise aeg</s>
+</p>
+<p>
+<s>Rahvastikuregister v&otilde;etakse kasutusele 2002. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Rahvastikuregistri moodustamise ja kasutuselev&otilde;tmise korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri moodustamiseks ja kasutuselev&otilde;tmiseks korraldab vastutav t&ouml;&ouml;tleja :</s>
+</p>
+<p>
+<s>1 ) rahvastikuregistri eelarve koostamise ;</s>
+</p>
+<p>
+<s>2 ) rahvastikuregistri pidamist tagavate &otilde;igusaktide eeln&otilde;ude , dokumentide vormide ja tehniliste juhendite v&auml;ljat&ouml;&ouml;tamise ;</s>
+</p>
+<p>
+<s>3 ) andmeandjate ja andmesaajate vajaliku v&auml;lja&otilde;ppe ;</s>
+</p>
+<p>
+<s>4 ) rahvastikuregistri tarkvara v&auml;ljat&ouml;&ouml;tamise .</s>
+</p>
+<p>
+<s>( 2 ) Vastutav t&ouml;&ouml;tleja esitab hiljemalt 2000. aasta 1. oktoobril Vabariigi Valitsusele ettepaneku volitatud t&ouml;&ouml;tleja m&auml;&auml;ramiseks .</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>Rahvastikuregistri tarkvara v&auml;ljat&ouml;&ouml;tamine</s>
+</p>
+<p>
+<s>( 1 ) Rahvastikuregistri tarkvara v&auml;ljat&ouml;&ouml;tamisel ja kasutusele v&otilde;tmisel kinnitab vastutav t&ouml;&ouml;tleja rahvastikuregistri andmete t&ouml;&ouml;tlemise tehnoloogilise &uuml;lesehituse , rahvastikuregistri algoritmi , tarkvara kirjelduse ja tarkvara nime ning annab loa rahvastikuregistri moodustamisel tarkvara kasutusele v&otilde;tmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Rahvastikuregistri tarkvara v&auml;ljat&ouml;&ouml;tamisel tuleb tagada rahvastikuregistri ja rahvastiku arvestuse andmebaasi tarkvara &uuml;hilduvus .</s><s>Volitatud t&ouml;&ouml;tleja t&auml;iendab rahvastiku arvestuse andmebaasi tarkvara ulatuses , mis v&otilde;imaldab eristada rahvastikuregistrisse kantud andmeid rahvastiku arvestuse andmebaasi kantud andmetest .</s>
+</p>
+<p>
+<s>( 3 ) Rahvastikuregistri tarkvara t&auml;iendamise vajaduse korral teeb seda vastutava t&ouml;&ouml;tleja korraldusel volitatud t&ouml;&ouml;tleja .</s><s>Tarkvara t&auml;iendamisel lisatakse tarkvara nimele versiooni number ja kasutusele v&otilde;tmise kuup&auml;ev .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Seaduste muutmine</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Perekonnaseaduse muutmine</s>
+</p>
+<p>
+<s>Perekonnaseaduses ( RT I 1994 , 75 , 1326 ; 1996 , 40 , 773 ; 49 , 953 ; 1997 , 28 , 422 ; 35 , 538 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 109 t&auml;iendatakse l&otilde;ikega 1 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 <hi rend="sup">1</hi> ) V&auml;lisriigi p&auml;deva asutuse koostatud dokument on perekonnaseisuakti kande aluseks , kui see on koostatud koosk&otilde;las v&auml;lisriigi seadusega ja seda tunnustatakse v&auml;lislepingu alusel v&otilde;i kui see on V&auml;lisministeeriumis v&otilde;i Eesti v&auml;lisesinduses legaliseeritud . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 109 l&otilde;ikest 2 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; , samuti andmeid isiku kodakondsusest ja isikukoodi kohta &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 109 l&otilde;iget 3 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; notarile &rdquo; s&otilde;nadega &ldquo; , rahvastikuregistri volitatud t&ouml;&ouml;tlejale &rdquo; ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 109 t&auml;iendatakse l&otilde;ikega 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) Perekonnaseisuakti koostamisel kontrollib perekonnaseisuasutuse ametnik esitatud dokumentide andmete vastavust rahvastikuregistrisse kantud andmetele .</s><s>Rahvastikuregistri volitatud t&ouml;&ouml;tlejale antakse &uuml;le perekonnaseisuakti &auml;rakiri v&otilde;i andmed perekonnaseisuaktilt ja perekonnaseisuakti muutmise otsus v&otilde;i akt v&otilde;i andmed sellelt . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 110 t&auml;iendatakse l&otilde;ikega 1 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 <hi rend="sup">1</hi> ) Perekonnaseisuakti v&otilde;ib muuta ja parandada k&auml;esolevas seaduses s&auml;testatud juhtudel kohtu v&otilde;i perekonnaseisuasutuse otsuse alusel , millega parandatakse v&otilde;i muudetakse perekonnaseisuakti kannet . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>Isikuandmete kaitse seaduse muutmine</s>
+</p>
+<p>
+<s>Isikuandmete kaitse seaduses ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) seadust t&auml;iendatakse &sect;-ga 9 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 9 <hi rend="sup">1</hi> .</s><s>Isikukoodi t&ouml;&ouml;tlemise lubatavus</s>
+</p>
+<p>
+<s>Isikukoodi t&ouml;&ouml;tlemine on lubatud ilma isiku n&otilde;usolekuta , kui t&ouml;&ouml;tlemise eesm&auml;rk on :</s>
+</p>
+<p>
+<s>1 ) seaduse v&otilde;i v&auml;lislepinguga etten&auml;htud kohustuse t&auml;itmine ;</s>
+</p>
+<p>
+<s>2 ) avalikku huvi silmas pidava &uuml;lesande t&auml;itmine , mis on seaduse v&otilde;i selle alusel kehtestatud &otilde;igusaktiga pandud vastutavale t&ouml;&ouml;tlejale v&otilde;i kolmandale isikule , kellele andmed &uuml;le antakse . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 22 t&auml;iendatakse l&otilde;ikega 5 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 ) K&auml;esolevas paragrahvis s&auml;testatud vastutava t&ouml;&ouml;tleja kohustused laienevad ka isikuandmeid sisaldavat andmekogu pidavale volitatud t&ouml;&ouml;tlejale . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 23 t&auml;iendatakse l&otilde;ikega 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) K&auml;esolevas paragrahvis s&auml;testatud vastutava t&ouml;&ouml;tleja kohustused laienevad ka isikuandmeid sisaldavat andmekogu pidavale volitatud t&ouml;&ouml;tlejale . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Andmekogude seaduse muutmine</s>
+</p>
+<p>
+<s>Andmekogude seaduses ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 22 l&otilde;iget 2 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; riigieelarvest &rdquo; j&auml;rgmise tekstiga :</s>
+</p>
+<p>
+<s>&ldquo; ja andmekogude pidamisel osutatavate teenuste eest v&otilde;etavate tasude arvel , kui tasuliste teenuste osutamine on s&auml;testatud seadusega . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 22 t&auml;iendatakse l&otilde;ikega 3 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 <hi rend="sup">1</hi> ) Kui andmekogu pidamisel on seadusega s&auml;testatud tasuliste teenuste osutamine , esitatakse andmekogu pidamise eelarve koostamisel andmed vastavate tasude suuruse ja laekumise kohta eelmisel eelarveaastal . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 26 l&otilde;ike 2 punktide 3 , 4 , 6 , 10 ja 11 tekstid muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 3 ) registri vastutav t&ouml;&ouml;tleja - ministeerium ( minister ) ;</s>
+</p>
+<p>
+<s>4 ) registri volitatud t&ouml;&ouml;tlejate m&auml;&auml;ramise kord ; &rdquo; ;</s>
+</p>
+<p>
+<s>&ldquo; 6 ) registri objekt , registriandmete koosseis , registri objekti kohta registrisse kantavad andmed , registrisse kantud andmete &otilde;iguslik t&auml;hendus , andmete registris s&auml;ilitamise t&auml;htaeg ja juhud , mil on lubatud registrisse kantud andmete ristkasutus ; &rdquo; ;</s>
+</p>
+<p>
+<s>&ldquo; 10 ) registriandmetele juurdep&auml;&auml;su &otilde;igus ja kord ;</s>
+</p>
+<p>
+<s>11 ) andmete , millele on tulenevalt isikuandmete kaitse seadusest , riigisaladuse seadusest ja muudest seadustest kehtestatud juurdep&auml;&auml;supiirangud , loetelu ning vastavate juurdep&auml;&auml;supiirangute kehtestamise ja juurdep&auml;&auml;supiirangutega andmetele juurdep&auml;&auml;su v&otilde;imaldamise kord ; &rdquo; ;</s>
+</p>
+<p>
+<s>4 ) paragrahv 28 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 28.</s><s>Riigi p&otilde;hiregistri volitatud t&ouml;&ouml;tleja</s>
+</p>
+<p>
+<s>( 1 ) Riigi p&otilde;hiregistri volitatud t&ouml;&ouml;tlejaks v&otilde;ib olla :</s>
+</p>
+<p>
+<s>1 ) riigiasutus ;</s>
+</p>
+<p>
+<s>2 ) &auml;ri&uuml;hing , mille k&otilde;ik aktsiad v&otilde;i osad kuuluvad riigile .</s>
+</p>
+<p>
+<s>( 2 ) Riigi p&otilde;hiregistri volitatud t&ouml;&ouml;tleja m&auml;&auml;rab vastutava t&ouml;&ouml;tleja ettepanekul oma korraldusega Vabariigi Valitsus , kui seadusega pole s&auml;testatud teisiti . &rdquo;</s>
+</p>
+<p>
+<s>16. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Rahvastikuregistri andmekoosseisu muutmine ja pidamise &uuml;mberkorraldamine</s>
+</p>
+<p>
+<s>Rahvastikuregistri andmekoosseisu muutmine v&otilde;i pidamise &uuml;mberkorraldamine otsustatakse seadusega .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Rahvastikuregistri kasutamise peatamine</s>
+</p>
+<p>
+<s>( 1 ) Kui on oht , et rahvastikuregister muutub s&otilde;jaseisukorras v&otilde;i erakorralises seisukorras ohuks isikute v&otilde;i riigi julgeolekule , peatatakse Vabariigi Valitsuse korraldusega v&otilde;i vastutava t&ouml;&ouml;tleja poolt rahvastikuregistri kasutamine .</s>
+</p>
+<p>
+<s>( 2 ) Vastutav t&ouml;&ouml;tleja on kohustatud s&otilde;jaseisukorra v&otilde;i erakorralise seisukorra ajal kasutusele v&otilde;tma abin&otilde;ud rahvastikuregistri andmete s&auml;ilitamiseks ja kaitsmiseks v&otilde;i h&auml;vitamiseks .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>K&auml;esoleva seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2000. aasta 1. augustil .</s>
+</p>
+<p>
+<s>( 2 ) Paragrahvid 40-48 j&otilde;ustuvad 2001. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

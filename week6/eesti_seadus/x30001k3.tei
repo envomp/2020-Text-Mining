@@ -1,0 +1,1629 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Riikliku pensionikindlustuse seadus ( terviktekst jaan 2001 ) ( Kehtetu - 05.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 100 , 648 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    9110</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Riikliku pensionikindlustuse seadus ( terviktekst jaan 2001 ) ( Kehtetu - 05.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 100 , 648 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=cell occurs=59></tagusage>
+         <tagusage gi=hi occurs=15></tagusage>
+         <tagusage gi=lb occurs=87></tagusage>
+         <tagusage gi=p occurs=505></tagusage>
+         <tagusage gi=row occurs=16></tagusage>
+         <tagusage gi=s occurs=589></tagusage>
+         <tagusage gi=table occurs=2></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Riikliku pensionikindlustuse seadus</s>
+</p>
+<p>
+<s>( Kehtetu - 05.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 100 , 648 )</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 26. juunil 1998. a ,</s>
+</p>
+<p>
+<s>( RT I 1998 , 64/65 , 1009 ; terviktekst RT I 2001 , 9 , 42 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. aprillil 2000.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab riikliku pensioni m&otilde;iste , liigid , riikliku pensionikindlustuse korralduse , riikliku pensionikindlustuse vahendite arvestamise alused , samuti riikliku pensionikindlustuse registri loomise ja pidamise alused ning riikliku pensioni m&auml;&auml;ramise , arvutamise ja maksmise tingimused ning korra .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Riikliku pensioni m&otilde;iste</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse alusel makstav riiklik pension on solidaarsusp&otilde;him&otilde;ttele tuginev igakuine rahaline sotsiaalkindlustush&uuml;vitis vanaduse , t&ouml;&ouml;v&otilde;imetuse v&otilde;i toitja kaotuse korral , mida makstakse riigieelarves riikliku pensionikindlustuse kuludeks m&auml;&auml;ratud vahenditest .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Pensionikindlustatu</s>
+</p>
+<p>
+<s>Pensionikindlustatu on isik :</s>
+</p>
+<p>
+<s>1 ) kes vastavalt sotsiaalmaksuseadusele ( RT I 1998 , 40 , 611 ; 61 , 982 ; 113/114 , 1876 ; 1999 , 29 , 379 ; 71 , 685 ; 82 , 749 ; 88 , 806 ; 97 , 857 ; 101 , 903 ) on maksnud v&otilde;i kelle eest on kohustus maksta sotsiaalmaksu ;</s>
+</p>
+<p>
+<s>2 ) kellel vastavalt k&auml;esolevale seadusele tekib muudel alustel &otilde;igus riiklikule pensionile .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Riikliku pensioni saamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Riiklik pension m&auml;&auml;ratakse ja makstakse Eesti alalisele elanikule v&otilde;i t&auml;htajalise elamisloa alusel Eestis elavale v&auml;lismaalasele pensioni saamise &otilde;iguse tekkimisel k&auml;esoleva seadusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Eestis viibival pagulasel on riikliku pensioni saamise &otilde;igus Eesti alalise elanikuga v&otilde;rdsetel alustel .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse alusel m&auml;&auml;ratakse riiklik pension juhul , kui isik ei saa riiklikku pensioni Eesti teiste seaduste alusel .</s>
+</p>
+<p>
+<s>( 4 ) Kui Eesti Vabariigi poolt s&otilde;lmitud v&auml;lisleping sisaldab pensioni m&auml;&auml;ramiseks ja maksmiseks teistsuguseid s&auml;tteid kui k&auml;esolev seadus , siis kohaldatakse v&auml;lislepingut .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Riikliku pensioni liigid</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab j&auml;rgmised riikliku pensioni liigid :</s>
+</p>
+<p>
+<s>1 ) vanaduspension ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;v&otilde;imetuspension ;</s>
+</p>
+<p>
+<s>3 ) toitjakaotuspension ;</s>
+</p>
+<p>
+<s>4 ) rahvapension .</s>
+</p>
+<p>
+<s>( 2 ) Isikule , kellel on &otilde;igus mitmele k&auml;esolevas paragrahvis loetletud riikliku pensioni liigile , m&auml;&auml;ratakse &uuml;ks liik tema valikul , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud isikule .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 3 ) Alla 18-aastasel v&otilde;i alla 24-aastasel orvul , kes &otilde;pib g&uuml;mnaasiumi v&otilde;i kutse&otilde;ppeasutuse p&auml;evases &otilde;ppevormis v&otilde;i &uuml;likooli v&otilde;i rakendusk&otilde;rgkooli statsionaarses &otilde;ppevormis , v&otilde;i sellest east vanemal orvul , kui ta on tunnistatud t&ouml;&ouml;v&otilde;imetuks enne 18-aastaseks ( p&auml;evases v&otilde;i statsionaarses &otilde;ppevormis &otilde;ppija enne 24-aastaseks ) saamist , on &otilde;igus saada , arvestades k&auml;esoleva seaduse &sect; 14 l&otilde;ike 2 ja &sect; 16 l&otilde;ike 2 punkti 3 s&auml;tteid , samaaegselt kahte toitjakaotuspensioni v&otilde;i kahte rahvapensioni v&otilde;i nii toitjakaotuspensioni kui rahvapensioni s&otilde;ltuvalt tema vanemate pensioni&otilde;iguslikust v&otilde;i pensionikindlustusstaa&zcaron;ist .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 ; 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Riikliku pensionikindlustuse korraldamine</s>
+</p>
+<p>
+<s>Riiklikku pensionikindlustust korraldab Sotsiaalministeeriumi valitsemisalas olev Sotsiaalkindlustusamet elukohaj&auml;rgsete pensioniametite kaudu .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vanaduspension</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>&Otilde;igus vanaduspensionile</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igus vanaduspensionile on 63-aastaseks saanud v&otilde;i k&auml;esoleva paragrahvi l&otilde;ikes 2 m&auml;rgitud vanuses oleval isikul , kellel on v&auml;hemalt 15 aastat Eestis omandatud pensioni&otilde;iguslikku staa&zcaron;i v&otilde;i pensionikindlustusstaa&zcaron;i .</s>
+</p>
+<p>
+<s>Enne k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud ea saabumist tekib meestel ja naistel &otilde;igus vanaduspensionile allj&auml;rgnevalt s&auml;testatud vanuses :</s>
+</p>
+<p>
+<table>
+<row><cell> <lb>Naised</cell><cell> <lb>Mehed</cell></row> <row><cell> <lb>s&uuml;nniaasta</cell><cell> <lb>vanus</cell><cell> <lb>s&uuml;nniaasta</cell><cell> <lb>vanus</cell></row> <row><cell> <lb>1942</cell><cell> <lb>57 a 6 kuud</cell><cell> <lb>1937</cell><cell> <lb>62 a 6 kuud</cell></row> <row><cell> <lb>1943</cell><cell> <lb>58 a</cell><cell> <lb>1938</cell><cell> <lb>63 a</cell></row> <row><cell> <lb>1944</cell><cell> <lb>58 a 6 kuud</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1945</cell><cell> <lb>59 a</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1946</cell><cell> <lb>59 a 6 kuud</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1947</cell><cell> <lb>60 a</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1948</cell><cell> <lb>60 a 6 kuud</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1949</cell><cell> <lb>61 a</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1950</cell><cell> <lb>61 a 6 kuud</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1951</cell><cell> <lb>62 a</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1952</cell><cell> <lb>62 a 6 kuud</cell><cell> <lb></cell><cell> <lb></cell></row> <row><cell> <lb>1953</cell><cell> <lb>63 a</cell><cell> <lb></cell><cell> <lb></cell></row>
+</table>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 3 ) Vanaduspension m&auml;&auml;ratakse eluajaks .</s><s>Vanaduspensioni m&auml;&auml;ramist v&otilde;ib taotleda mis tahes ajal p&auml;rast pensioni saamise &otilde;iguse tekkimist .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Ennet&auml;htaegne vanaduspension</s>
+</p>
+<p>
+<s>( 1 ) Ennet&auml;htaegse vanaduspensioni saamise &otilde;igus tekib mitte varem kui kolm aastat enne k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 1 s&auml;testatud vanusesse j&otilde;udmist isikul , kellel on vanaduspensioni m&auml;&auml;ramiseks n&otilde;utav &sect; 7 l&otilde;ikes 1 s&auml;testatud pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron; .</s>
+</p>
+<p>
+<s>( 2 ) Isikul , kellel tema s&uuml;nniaasta kohaselt tekib &otilde;igus vanaduspensionile vastavalt k&auml;esoleva seaduse &sect; 7 l&otilde;ikele 2 , on ennet&auml;htaegse vanaduspensioni saamise &otilde;igus mitte varem kui kolm aastat enne &sect; 7 l&otilde;ikes 2 s&auml;testatud vanadusse j&otilde;udmist , kui tal on vanaduspensioni m&auml;&auml;ramiseks n&otilde;utav &sect; 7 l&otilde;ikes 1 s&auml;testatud pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron; .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 3 ) Ennet&auml;htaegne vanaduspension arvutatakse k&auml;esolevas seaduses vanaduspensioni arvutamiseks ja &uuml;mberarvutamiseks kehtestatud korras , v&auml;hendades pensioni iga k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 etten&auml;htud pensionieast varem pensionile j&auml;&auml;mise kuu eest 0,4 protsendi v&otilde;rra .</s>
+</p>
+<p>
+<s>( 4 ) Ennet&auml;htaegne vanaduspension m&auml;&auml;ratakse eluajaks ja seda ei arvutata &uuml;mber soodustingimustel vanaduspensioniks v&otilde;i vanaduspensioniks .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>&Otilde;igus soodustingimustel vanaduspensionile</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igus soodustingimustel vanaduspensionile tekib :</s>
+</p>
+<p>
+<s>1 ) emal , isal , v&otilde;&otilde;rasvanemal , eestkostjal v&otilde;i hooldajal - viis aastat enne k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanusesse j&otilde;udmist , kui tal on v&auml;hemalt 15 aastat pensioni&otilde;iguslikku v&otilde;i pensionikindlustusstaa&zcaron;i ja kui ta on kasvatanud v&auml;hemalt kaheksa aastat lapsinvaliidi , alla 18-aastast keskmise , raske v&otilde;i s&uuml;gava puudega last , alla 18-aastast invaliidi lapseeast v&otilde;i viit v&otilde;i enamat last ;</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 ; 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>2 ) emal v&otilde;i isal v&otilde;i v&otilde;&otilde;rasvanemal v&otilde;i eestkostjal v&otilde;i hooldajal , kes on kasvatanud v&auml;hemalt kaheksa aastat nelja last , - kolm aastat v&otilde;i kolme last - &uuml;ks aasta enne k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 etten&auml;htud vanusesse j&otilde;udmist , kui tal on v&auml;hemalt 15 aastat pensioni&otilde;iguslikku v&otilde;i pensionikindlustusstaa&zcaron;i ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>3 ) h&uuml;pof&uuml;saarse k&auml;&auml;buskasvuga isikul - 45-aastaseks saanud naisel v&otilde;i mehel , kellel on v&auml;hemalt 15 aastat pensioni&otilde;iguslikku v&otilde;i pensioni-kindlustusstaa&zcaron;i ;</s>
+</p>
+<p>
+<s>4 ) isikul , kes v&otilde;ttis osa T&scaron;ernob&otilde;li aatomielektrijaama avarii tagaj&auml;rgede likvideerimisest , viis aastat enne k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 etten&auml;htud vanusesse j&otilde;udmist , kui tal on v&auml;hemalt 15 aastat pensioni&otilde;iguslikku v&otilde;i pensionikindlustusstaa&zcaron;i ;</s>
+</p>
+<p>
+<s>5 ) rehabiliteeritud isikul , kes &otilde;igusvastaselt represseerituna on viibinud kinnipidamiskohas v&otilde;i asumisel .</s><s>Temal v&auml;hendatakse k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 1 v&otilde;i 2 etten&auml;htud pensionile &otilde;igust andvat vanust &uuml;he aasta v&otilde;rra iga kinnipidamiskohas v&otilde;i asumisel viibitud t&auml;isaasta eest , ent kokku mitte rohkem kui viie aasta v&otilde;rra , kui tal on v&auml;hemalt 15 aastat pensioni&otilde;iguslikku v&otilde;i pensionikindlustusstaa&zcaron;i .</s>
+</p>
+<p>
+<s>04.04.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 33 , 194</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 n&otilde;utud v&auml;hemalt 15-aastane pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron; peab olema omandatud Eestis .</s>
+</p>
+<p>
+<s>( 3 ) Soodustingimustel vanaduspension m&auml;&auml;ratakse eluajaks .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;v&otilde;imetuspension</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>&Otilde;igus t&ouml;&ouml;v&otilde;imetuspensionile</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igus t&ouml;&ouml;v&otilde;imetuspensionile on v&auml;hemalt 16-aastasel isikul kuni k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka j&otilde;udmiseni , juhul kui ta on Vabariigi Valitsuse kehtestatud korras tunnistatud p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks t&ouml;&ouml;v&otilde;ime kaotusega 40-100 protsenti .</s>
+</p>
+<p>
+<s>P&uuml;siva t&ouml;&ouml;v&otilde;imetuse korral , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 4 ja 4 <hi rend="sup">1</hi> s&auml;testatud juhtudel , on &otilde;igus t&ouml;&ouml;v&otilde;imetuspensionile isikul , kellel pensioni m&auml;&auml;ramise algt&auml;htajaks on Eestis omandatud j&auml;rgmine pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron; :</s>
+</p>
+<p>
+<table>
+<row><cell> <lb>Vanus</cell><cell> <lb>N&otilde;utav pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron;</cell></row> <row><cell> <lb>16-20 aastat <lb>21-23 aastat <lb>24-26 aastat <lb>27-29 aastat <lb>30-32 aastat <lb>33-35 aastat <lb>36-38 aastat <lb>39-41 aastat <lb>42-44 aastat <lb>45-47 aastat <lb>48-50 aastat <lb>51-53 aastat <lb>54-56 aastat <lb>57-59 aastat <lb>60-62 aastat</cell><cell> <lb>staa&zcaron;in&otilde;uet ei ole <lb>1 aasta <lb>2 aastat <lb>3 aastat <lb>4 aastat <lb>5 aastat <lb>6 aastat <lb>7 aastat <lb>8 aastat <lb>9 aastat <lb>10 aastat <lb>11 aastat <lb>12 aastat <lb>13 aastat <lb>14 aastat</cell><cell> <lb></cell></row>
+</table>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 ; 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 3 ) Kui isik , kellele on m&auml;&auml;ratud ja makstud t&ouml;&ouml;v&otilde;imetuspensioni ning kelle &otilde;igus pensionile l&otilde;ppes p&uuml;siva t&ouml;&ouml;v&otilde;imetuse aja l&otilde;ppemise t&otilde;ttu , tunnistatakse korduvalt t&ouml;&ouml;v&otilde;imetuks , suurendatakse t&ouml;&ouml;v&otilde;imetuspensionile &otilde;iguse kindlakstegemisel t&ouml;&ouml;v&otilde;imetuspensioni eelmisel m&auml;&auml;ramisel kohaldatud pensioni&otilde;igusliku v&otilde;i pensionikindlustusstaa&zcaron;i n&otilde;uet &uuml;he aasta v&otilde;rra iga kolme aasta kohta , mis on m&ouml;&ouml;dunud eelmise p&uuml;siva t&ouml;&ouml;v&otilde;imetuse l&otilde;ppemise ajast , kuid mitte enam kui k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud pensioni&otilde;igusliku v&otilde;i pensionikindlustusstaa&zcaron;i n&otilde;udeni .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;vigastuse v&otilde;i kutsehaiguse tagaj&auml;rjel tekkinud p&uuml;siva t&ouml;&ouml;v&otilde;imetuse puhul on &otilde;igus saada t&ouml;&ouml;v&otilde;imetuspensioni pensioni&otilde;iguslikust v&otilde;i pensionikindlustusstaa&zcaron;ist olenemata .</s>
+</p>
+<p>
+<s>( 4 <hi rend="sup">1</hi> ) Kaitsev&auml;eteenistuses teenistus&uuml;lesannete t&auml;itmisel v&otilde;i seoses teenistuskohustustega tekkinud p&uuml;siva t&ouml;&ouml;v&otilde;imetuse puhul on &otilde;igus saada t&ouml;&ouml;v&otilde;imetuspensioni pensioni&otilde;iguslikust v&otilde;i pensionikindlustusstaa&zcaron;ist olenemata .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 5 ) P&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistatud isikule m&auml;&auml;ratakse t&ouml;&ouml;v&otilde;imetuspension kogu t&ouml;&ouml;v&otilde;imetuse ajaks , kuid mitte kauemaks kui k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka j&otilde;udmiseni .</s>
+</p>
+<p>
+<s>( 6 ) T&auml;htajalise elamisloaga Eestis elaval v&auml;lismaalasel on Eestis t&ouml;&ouml;v&otilde;imetuks tunnistamise korral &otilde;igus t&ouml;&ouml;v&otilde;imetuspensionile t&auml;htajalise elamisloa kehtivuse perioodil , kui ta vastab selle pensioni saamiseks k&auml;esolevas seaduses s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>P&uuml;siv t&ouml;&ouml;v&otilde;imetus</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 ) P&uuml;sival t&ouml;&ouml;v&otilde;imetusel on kaks astet - t&auml;ielik t&ouml;&ouml;v&otilde;imetus ja osaline t&ouml;&ouml;v&otilde;imetus .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 3 ) T&auml;ielikult t&ouml;&ouml;v&otilde;imetu on isik , kellel esineb haigusest v&otilde;i vigastusest p&otilde;hjustatud tugevasti v&auml;ljendunud funktsioonih&auml;ire , mille t&otilde;ttu ta ei ole v&otilde;imeline t&ouml;&ouml;ga elatist teenima .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 ) Osaliselt t&ouml;&ouml;v&otilde;imetu on isik , kes on v&otilde;imeline t&ouml;&ouml;ga elatist teenima , kuid kes haigusest v&otilde;i vigastusest p&otilde;hjustatud funktsioonih&auml;ire t&otilde;ttu ei ole v&otilde;imeline tegema talle sobivat t&ouml;&ouml;d t&ouml;&ouml;aja &uuml;ldisele riiklikule normile vastavas mahus .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 <hi rend="sup">1</hi> ) P&uuml;siva t&ouml;&ouml;v&otilde;imetuse ulatust v&auml;ljendatakse t&ouml;&ouml;v&otilde;ime kaotuse protsentides nulliga l&otilde;ppeva arvuna .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 <hi rend="sup">2</hi> ) T&auml;ielikule t&ouml;&ouml;v&otilde;imetusele vastab t&ouml;&ouml;v&otilde;ime kaotus 100 protsenti .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 <hi rend="sup">3</hi> ) Osalisele t&ouml;&ouml;v&otilde;imetusele vastab t&ouml;&ouml;v&otilde;ime kaotus 10-90 protsenti .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 <hi rend="sup">4</hi> ) Isiku v&otilde;ib p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistada kestusega kuus kuud , &uuml;ks aasta , kaks aastat , viis aastat v&otilde;i kuni k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka j&otilde;udmiseni .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 <hi rend="sup">5</hi> ) Isiku p&uuml;siva t&ouml;&ouml;v&otilde;imetuse tekkimise aja v&otilde;ib tuvastada tagasiulatuvalt , ent mitte enam kui kolm aastat arstliku t&ouml;&ouml;v&otilde;imetuse ekspertiisi taotlemise kuup&auml;evast .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 5 ) P&uuml;siva t&ouml;&ouml;v&otilde;imetuse tekkimise aeg , p&uuml;siva t&ouml;&ouml;v&otilde;imetuse p&otilde;hjus ja p&uuml;siva t&ouml;&ouml;v&otilde;imetuse kestus tuvastatakse arstliku t&ouml;&ouml;v&otilde;imetuse ekspertiisiga Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 6 ) T&ouml;&ouml;v&otilde;ime kaotuse protsendi m&auml;&auml;ramise juhendi kinnitab ning arstlikku t&ouml;&ouml;v&otilde;imetuse ekspertiisi suunamiseks vajalikud dokumendid kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 ; 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 7 ) Arstliku t&ouml;&ouml;v&otilde;imetuse ekspertiisi otsuse vormi kinnitab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>T&ouml;&ouml;v&otilde;imetuspensioni arvutamise ja maksmise erisused</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;v&otilde;imetuspensioni arvutamise aluseks v&otilde;etakse suurem j&auml;rgnevatest :</s>
+</p>
+<p>
+<s>1 ) p&uuml;sivalt t&ouml;&ouml;v&otilde;imetu isiku pensioni&otilde;igusliku ja pensionikindlustusstaa&zcaron;i alusel k&auml;esoleva seaduse &sect;-de 21 ja 22 s&auml;tete kohaselt arvutatud pension ;</s>
+</p>
+<p>
+<s>2 ) vanaduspension 30-aastase pensioni&otilde;igusliku staa&zcaron;i korral .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;v&otilde;imetuspension moodustab t&ouml;&ouml;v&otilde;ime kaotusele vastava protsendi k&auml;esoleva paragrahvi l&otilde;ike 1 alusel leitud suurusest .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&auml;esoleva paragrahvi l&otilde;ike 2 alusel arvutatud pension osutub v&auml;iksemaks rahvapensioni m&auml;&auml;rast , makstakse t&ouml;&ouml;v&otilde;imetuspensioni rahvapensioni m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Toitjakaotuspension</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>&Otilde;igus toitjakaotuspensionile</s>
+</p>
+<p>
+<s>( 1 ) Toitjakaotuspension m&auml;&auml;ratakse toitja surma korral tema &uuml;lalpidamisel olnud perekonnaliikmele .</s><s>Lapsele , vanemale v&otilde;i lesele m&auml;&auml;ratakse pension s&otilde;ltumata sellest , kas nad olid toitja &uuml;lalpidamisel v&otilde;i mitte .</s>
+</p>
+<p>
+<s>( 2 ) Eestis t&auml;htajalise elamisloaga elavale v&auml;lismaalasele m&auml;&auml;ratakse toitjakaotuspension t&auml;htajalise elamisloa kehtivuse perioodil , kui &otilde;igus sellele pensionile tekkis Eestis .</s>
+</p>
+<p>
+<s>( 3 ) Toitjakaotuspensionile &otilde;igust omavaks perekonnaliikmeks on :</s>
+</p>
+<p>
+<s>1 ) laps , vend , &otilde;de v&otilde;i lapselaps , kes on alla 18-aastane ( alla 24-aastane g&uuml;mnaasiumi v&otilde;i kutse&otilde;ppeasutuse p&auml;evases &otilde;ppevormis &otilde;ppiv &otilde;pilane v&otilde;i &uuml;likooli v&otilde;i rakendusk&otilde;rgkooli statsionaarses &otilde;ppevormis &otilde;ppiv &uuml;li&otilde;pilane ) v&otilde;i sellest east vanem , kui ta on tunnistatud p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks enne 18-aastaseks ( p&auml;evases v&otilde;i statsionaarses &otilde;ppevormis &otilde;ppija enne 24-aastaseks ) saamist .</s><s>Vennal , &otilde;el v&otilde;i lapselapsel on &otilde;igus pensionile siis , kui tal ei ole t&ouml;&ouml;v&otilde;imelisi vanemaid ;</s>
+</p>
+<p>
+<s>( 13.01.99 j&otilde;ust .</s><s>23.01.99 - RT I 1999 , 10 , 150 ; 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 ; 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>2 ) pensionieas v&otilde;i p&uuml;sivalt t&ouml;&ouml;v&otilde;imetu vanem v&otilde;i lesk , kelle abielu toitjaga oli kestnud v&auml;hemalt viis aastat ;</s>
+</p>
+<p>
+<s>3 ) lahutatud abikaasa , kui ta j&otilde;udis pensioniikka v&otilde;i tunnistati p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks enne abielu lahutamist v&otilde;i enne kolme aasta m&ouml;&ouml;dumist abielu lahutamisest , kui abielu oli kestnud v&auml;hemalt 25 aastat ;</s>
+</p>
+<p>
+<s>4 ) &uuml;ks vanematest , lesk v&otilde;i eestkostja , kes ei t&ouml;&ouml;ta ning kasvatab toitja alla 14-aastast last , venda , &otilde;de v&otilde;i lapselast oma perekonnas .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 loetletud isikutele m&auml;&auml;ratakse toitjakaotuspension , kui toitjal oli surma p&auml;evaks pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron; , mis oleks olnud vajalik temale t&ouml;&ouml;v&otilde;imetuspensioni m&auml;&auml;ramiseks .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esolevas paragrahvis s&auml;testatud tingimustel on &otilde;igus toitjakaotuspensionile samuti :</s>
+</p>
+<p>
+<s>1 ) v&otilde;&otilde;raslapsel v&otilde;i kasulapsel , kelle v&otilde;&otilde;rasvanem v&otilde;i kasuvanem on surnud ja kes ei saa elatist oma vanemalt ;</s>
+</p>
+<p>
+<s>2 ) v&otilde;&otilde;rasvanemal v&otilde;i kasuvanemal , kes on v&otilde;&otilde;raslast v&otilde;i kasulast kasvatanud ja &uuml;lal pidanud v&auml;hemalt kaheksa aastat .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esolevat seadust kohaldatakse toitjakaotuspensioni m&auml;&auml;ramiseks ka siis , kui toitja on kehtestatud korras tunnistatud teadmata kadunuks .</s>
+</p>
+<p>
+<s>( 7 ) Toitjakaotuspension m&auml;&auml;ratakse ajaks , mil isik vastab selle pensioni saamiseks k&auml;esolevas paragrahvis etten&auml;htud tingimustele .</s>
+</p>
+<p>
+<s>( 8 ) P&uuml;sivalt t&ouml;&ouml;v&otilde;imetu isik loetakse k&auml;esoleva paragrahvi l&otilde;ike 3 t&auml;henduses toitjakaotuspensionile &otilde;igust omavaks perekonnaliikmeks juhul , kui tal on &otilde;igus t&ouml;&ouml;v&otilde;imetuspensionile v&otilde;i p&uuml;siva t&ouml;&ouml;v&otilde;imetuse alusel rahvapensionile .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Toitjakaotuspensioni arvutamise erisused</s>
+</p>
+<p>
+<s>( 1 ) Toitjakaotuspensioni arvutamise aluseks v&otilde;etakse suurem j&auml;rgnevatest :</s>
+</p>
+<p>
+<s>1 ) toitja surmap&auml;evani omandatud pensioni&otilde;igusliku ja pensionikindlustusstaa&zcaron;i alusel k&auml;esoleva seaduse &sect;-de 21 ja 22 s&auml;tete kohaselt arvutatud pension ;</s>
+</p>
+<p>
+<s>2 ) vanaduspension 30-aastase pensioni&otilde;igusliku staa&zcaron;i korral .</s>
+</p>
+<p>
+<s>( 2 ) Toitjakaotuspension arvutatakse k&auml;esoleva paragrahvi l&otilde;ike 1 alusel arvutatud pensionist j&auml;rgmistes m&auml;&auml;rades :</s>
+</p>
+<p>
+<s>1 ) &uuml;hele perekonnaliikmele 40 protsenti ;</s>
+</p>
+<p>
+<s>2 ) kahele perekonnaliikmele 70 protsenti ;</s>
+</p>
+<p>
+<s>3 ) kolmele v&otilde;i enamale perekonnaliikmele 100 protsenti .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rahvapension</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>&Otilde;igus rahvapensionile</s>
+</p>
+<p>
+<s>( 1 ) Rahvapension m&auml;&auml;ratakse isikule , kellel ei ole &otilde;igust vanadus- , t&ouml;&ouml;v&otilde;imetus- v&otilde;i toitjakaotuspensionile n&otilde;utava pensioni&otilde;igusliku v&otilde;i pensionikindlustusstaa&zcaron;i puudumise t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igus rahvapensionile on :</s>
+</p>
+<p>
+<s>1 ) ( Kehtetu - 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>2 ) 63-aastaseks saanud isikul , kellel ei ole &otilde;igust teist liiki pensionile ja kes on elanud Eestis alalise elanikuna v&otilde;i t&auml;htajalise elamisloa alusel v&auml;hemalt viis aastat enne pensioni taotlemist , kui ta ei saa m&otilde;ne teise riigi pensioni ;</s>
+</p>
+<p>
+<s>3 ) p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistatud isikul , kelle t&ouml;&ouml;v&otilde;ime kaotuse protsent on v&auml;hemalt 40 ja kellel puudub t&ouml;&ouml;v&otilde;imetuspensioni m&auml;&auml;ramiseks n&otilde;utav pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron; , kui ta ei saa m&otilde;ne teise riigi pensioni ;</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect;-s 13 nimetatud isikul , kellel seoses toitjal n&otilde;utava pensioni&otilde;igusliku v&otilde;i pensionikindlustusstaa&zcaron;i puudumisega ei ole &otilde;igust toitjakaotuspensionile , kui ta ei saa m&otilde;ne teise riigi pensioni ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka j&otilde;udnud isikul , kellele maksti p&uuml;siva t&ouml;&ouml;v&otilde;imetuse alusel rahvapensioni kuni vanaduspensionieani v&otilde;i k&auml;esoleva seaduse &sect; 50 l&otilde;ike 2 alusel endises suuruses s&auml;ilitatud pensioni kuni m&auml;&auml;ratud t&auml;htajani .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 alusel m&auml;&auml;ratakse rahvapension j&auml;rgmiseks t&auml;htajaks :</s>
+</p>
+<p>
+<s>1 ) punktides 2 ja 5 nimetatud isikutele eluajaks ;</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 ; 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>2 ) punktis 3 nimetatud isikule p&uuml;siva t&ouml;&ouml;v&otilde;imetuse ajaks , kuid mitte kauemaks kui vanaduspensionieani ;</s>
+</p>
+<p>
+<s>3 ) punktis 4 nimetatud isikule ajaks , mil ta vastab k&auml;esoleva seaduse &sect;-s 13 etten&auml;htud tingimustele .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Rahvapensioni suurus</s>
+</p>
+<p>
+<s>( 1 ) Rahvapensioni m&auml;&auml;ra kehtestab Riigikogu riigieelarve vastuv&otilde;tmisel .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 ) Rahvapension m&auml;&auml;ratakse j&auml;rgmistes suurustes :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 15 l&otilde;ike 2 punktides 2 ja 5 nimetatud isikule 100 protsenti rahvapensioni m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 ; 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect; 15 l&otilde;ike 2 punktis 3 nimetatud isikule t&ouml;&ouml;v&otilde;ime kaotusele vastav protsent rahvapensioni m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva seaduse &sect; 15 l&otilde;ike 2 punktis 4 nimetatud isikule kolme v&otilde;i enama perekonnaliikme korral 100 protsenti , kahe perekonnaliikme korral 70 protsenti ja &uuml;he perekonnaliikme korral 40 protsenti rahvapensioni m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pensionilisad</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>&Otilde;igus pensionilisale</s>
+</p>
+<p>
+<s>( 1 ) Vanadus- ja t&ouml;&ouml;v&otilde;imetuspensionile arvutatakse juurde j&auml;rgmised pensionilisad :</s>
+</p>
+<p>
+<s>1 ) Vabaduss&otilde;jast osav&otilde;tnule 100 protsenti rahvapensioni m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>2 ) kaitsev&auml;eteenistuses teenistus&uuml;lesannete t&auml;itmisel v&otilde;i seoses teenistuskohustustega saadud vigastuse v&otilde;i sellega seotud haiguse t&otilde;ttu t&ouml;&ouml;v&otilde;ime kaotuse protsendiga v&auml;hemalt 40 protsenti p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistatud isikule 25 protsenti rahvapensioni m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>3 ) tuumakatastroofi , tuumakatsetuse , samuti aatomielektrijaama avarii tagaj&auml;rjel t&ouml;&ouml;v&otilde;ime kaotuse protsendiga v&auml;hemalt 40 protsenti p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistatud isikule 10 protsenti rahvapensioni m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>4 ) II maailmas&otilde;jast osav&otilde;tnule v&otilde;i Omakaitse liikmele 10 protsenti rahvapensioni m&auml;&auml;rast ;</s>
+</p>
+<p>
+<s>5 ) Vabaduss&otilde;jast osav&otilde;tnu lesele 100 protsenti rahvapensioni m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1-4 etten&auml;htud pensionilisa arvutatakse juurde ka nimetatud punktides loetletud isikute perekonnale m&auml;&auml;ratud toitjakaotuspensionile .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 5 etten&auml;htud pensionilisa arvutatakse juurde ka toitjakaotuspensioni saajale , kes vastab nimetatud lisa saamise tingimustele .</s>
+</p>
+<p>
+<s>( 4 ) Rehabiliteeritud isiku v&otilde;i s&otilde;javangis v&otilde;i II maailmas&otilde;ja ajal koonduslaagris , getos , samuti aastatel 1941-1942 t&ouml;&ouml;- ja ehituspataljonis v&otilde;i t&ouml;&ouml;- ja ehituskolonnis viibinud isiku t&ouml;&ouml;v&otilde;imetuspensionile arvutatakse juurde pensionilisa 20 protsenti rahvapensioni m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 5 ) Isikule , kellel on &otilde;igus mitmele k&auml;esolevas paragrahvis loetletud pensionilisale , makstakse &uuml;ks pensionilisa tema valikul .</s>
+</p>
+<p>
+<s>( 6 ) ( Kehtetu - 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pensioni&otilde;iguslik staa&zcaron;</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Pensioni&otilde;igusliku staa&zcaron;i hulka arvatava tegevuse aeg</s>
+</p>
+<p>
+<s>( 1 ) Pensioni&otilde;igusliku staa&zcaron;i hulka arvatakse tegevuse aeg , kui t&ouml;&ouml;andja oli kohustatud maksma sotsiaalmaksu .</s>
+</p>
+<p>
+<s>( 2 ) Pensioni&otilde;igusliku staa&zcaron;i hulka arvatakse samuti :</s>
+</p>
+<p>
+<s>1 ) loomeliitude ja kutse&uuml;hingute liikmete tegevuse aeg alates loometegevuse algusest .</s><s>1991. aasta 1. jaanuarist arvatakse nimetatud isikute loometegevuse aeg staa&zcaron;i hulka juhul , kui maksti sotsiaalmaksu ;</s>
+</p>
+<p>
+<s>2 ) teenistusaeg Eesti kaitsev&auml;es ning koosk&otilde;las kaitsev&auml;eteenistuse seadusega ( RT I 1994 , 23 , 384 ; 1995 , 18 , 240 ; 62 , 1056 ; 1996 , 25 , 519 ; 49 , 953 ; 1997 , 95/96 , 1575 ) nimetatud teenistusega v&otilde;rdsustatud teenistusaeg , samuti teenistusaeg Siseministeeriumi s&uuml;steemis ;</s>
+</p>
+<p>
+<s>3 ) kohustusliku s&otilde;jav&auml;eteenistuse ja asendusteenistuse aeg ;</s>
+</p>
+<p>
+<s>4 ) &otilde;piaeg kutse&otilde;ppeasutuse p&auml;evases &otilde;ppevormis v&otilde;i &uuml;likooli v&otilde;i rakendusk&otilde;rgkooli statsionaarses &otilde;ppevormis v&otilde;i nendega v&otilde;rdsustatud &otilde;ppevormides ;</s>
+</p>
+<p>
+<s>( 13.01.99 j&otilde;ust .</s><s>23.01.99 - RT I 1999 , 10 , 150 )</s>
+</p>
+<p>
+<s>5 ) diplomaadi abikaasa v&auml;lisesinduses oleku aeg ;</s>
+</p>
+<p>
+<s>6 ) I grupi invaliidi , lapsinvaliidi , alla 18-aastase lapseeast invaliidi eest hoolitsemise aeg ning emale , isale , v&otilde;&otilde;rasvanemale , eestkostjale v&otilde;i lapse tegelikule hooldajale v&auml;ikelapse eest hoolitsemise aeg kuni lapse 3-aastaseks saamiseni ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>7 ) riigi t&ouml;&ouml;h&otilde;ivetalituses t&ouml;&ouml;tu abiraha saamise v&otilde;i t&ouml;&ouml;h&otilde;ivetalituse vahendusel t&ouml;&ouml;turukoolituses osalemise aeg ;</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>8 ) t&ouml;&ouml;tamise aeg kirikus ( koguduses ) v&otilde;i muus registreeritud usuorganisatsioonis .</s><s>1991. aasta 1. jaanuarist arvatakse nimetatud t&ouml;&ouml;tamise aeg staa&zcaron;i hulka juhul , kui maksti sotsiaalmaksu ;</s>
+</p>
+<p>
+<s>9 ) t&ouml;&ouml;tamise aeg talus enne talu likvideerimist , kolhoosi , sovhoosi v&otilde;i mujale t&ouml;&ouml;le asumist , kui isik oli v&auml;hemalt 14 aastat vana ;</s>
+</p>
+<p>
+<s>10 ) t&ouml;&ouml;tamise aeg talus , kui koosk&otilde;las Eesti NSV taluseadusega ( ENSV Teataja 1989 , 39 , 611 ; RT I 1993 , 72/73 , 1021 ; 1994 , 30 , 465 ; 66 , 1159 ) oli talu maksude maksmisest vabastatud ;</s>
+</p>
+<p>
+<s>11 ) &uuml;hele vanematest v&otilde;i v&otilde;&otilde;rasvanemale v&otilde;i eestkostjale v&otilde;i peres hooldajale kaks aastat iga lapse kohta , keda ta on kasvatanud v&auml;hemalt kaheksa aastat ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>12 ) Eesti Vabariigi territooriumil v&otilde;&otilde;rriikide okupatsiooni vastases relvastatud vabadusv&otilde;itluses osalenud v&otilde;i ennast &otilde;igusvastaste repressioonide eest varjanud isiku vabadusv&otilde;itluses osalemise v&otilde;i enese varjamise aeg ;</s>
+</p>
+<p>
+<s>13 ) t&ouml;&ouml;tamise aeg f&uuml;&uuml;silisest isikust ettev&otilde;tjana , kui maksti sotsiaalmaksu ;</s>
+</p>
+<p>
+<s>14 ) aeg , mil t&ouml;&ouml;taja v&otilde;i k&auml;esoleva l&otilde;ike punktis 13 nimetatud f&uuml;&uuml;silisest isikust ettev&otilde;tja oli ajutiselt t&ouml;&ouml;v&otilde;imetu .</s>
+</p>
+<p>
+<s>( 3 ) Sooduskorras arvatakse pensioni&otilde;igusliku staa&zcaron;i hulka :</s>
+</p>
+<p>
+<s>1 ) rehabiliteeritud isiku &otilde;igusvastaselt vahi all , kinnipidamiskohas v&otilde;i asumisel oleku aeg kolmekordselt ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;javangis , II maailmas&otilde;ja ajal koonduslaagris , getos , samuti aastatel 1941-1942 t&ouml;&ouml;- ja ehituspataljonis v&otilde;i t&ouml;&ouml;- ja ehituskolonnis viibimise aeg kolmekordselt ;</s>
+</p>
+<p>
+<s>3 ) rehabiliteeritud isiku puhul vahi alt , kinnipidamiskohast v&otilde;i asumiselt vabanemisele j&auml;rgnenud aeg kuni Eestisse elama asumise &otilde;iguse andmiseni , kui isikult oli &otilde;igusvastaselt v&otilde;etud &otilde;igus asuda elama Eestisse , pooleteisekordselt ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>4 ) pidalit&otilde;bilas v&otilde;i katkut&otilde;rjeasutuses t&ouml;&ouml;tamise aeg kahekordselt ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>5 ) 1944. aasta oktoobris v&otilde;i novembris Saaremaalt S&otilde;rve poolsaarelt Saksamaale sunniviisiliselt &uuml;mberasustatud isiku puhul aeg alates &uuml;mberasustamisest kuni Eestisse elama asumiseni , kuid mitte kauem kui 1946. aasta 31. detsembrini , kolmekordselt .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 4 ) Pensioni&otilde;igusliku staa&zcaron;i hulka arvatakse k&auml;esolevas paragrahvis s&auml;testatud tegevus endise NSV Liidu territooriumil kuni 1991. aasta 1. jaanuarini juhul , kui isikul on v&auml;hemalt 15 aastat Eestis omandatud pensioni&otilde;iguslikku v&otilde;i pensionikindlustusstaa&zcaron;i .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esolevas paragrahvis s&auml;testatud pensioni&otilde;iguslikku staa&zcaron;i arvestatakse kuni 1998. aasta 31. detsembrini .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Pensioni&otilde;igusliku staa&zcaron;i arvutamine</s>
+</p>
+<p>
+<s>( 1 ) Pensioni&otilde;iguslik staa&zcaron; arvutatakse t&auml;isaastates .</s><s>T&auml;isaastani &uuml;mardatakse staa&zcaron; , mille pikkus on v&auml;hemalt kuus kuud , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 2 toodud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Vanadus- , t&ouml;&ouml;v&otilde;imetus- v&otilde;i toitjakaotuspensionile &otilde;igust andva staa&zcaron;i kindlakstegemisel l&auml;htutakse &uuml;mardamata pensioni&otilde;iguslikust staa&zcaron;ist .</s>
+</p>
+<p>
+<s>( 3 ) Pensioni&otilde;igusliku staa&zcaron;i t&otilde;endamise juhendi kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pensionikindlustusstaa&zcaron;i arvestamine</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Pensionikindlustusstaa&zcaron;i arvestamine</s>
+</p>
+<p>
+<s>( 1 ) Pensionikindlustusstaa&zcaron;i arvestamise aluseks on andmed pensionikindlustatu poolt v&otilde;i tema eest makstud v&otilde;i arvestatud sotsiaalmaksu ( edaspidi isikustatud sotsiaalmaks ) kohta .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igus pensionikindlustusstaa&zcaron;i &uuml;hele aastale on pensionikindlustatul , kes ise on maksnud v&otilde;i kelle eest on vastavalt sotsiaalmaksuseadusele arvestatud sotsiaalmaksu v&auml;hemalt kuupalga alamm&auml;&auml;ra aastasummalt .</s><s>Isiku puhul , kelle eest sotsiaalmaksu maksab riik vastavalt sotsiaalmaksu seaduse &sect;-le 6 , arvestatakse pensionikindlustusstaa&zcaron;i samav&auml;&auml;rselt sotsiaalmaksu tasumisega kuupalga alamm&auml;&auml;ralt .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Pensionikindlustusstaa&zcaron;i arvutamisel v&otilde;rreldakse pensionikindlustatu iga kalendriaasta isikustatud sotsiaalmaksu vastava aasta jaanuarikuu kaheteistk&uuml;mnekordselt kuupalga alamm&auml;&auml;ralt arvutatud sotsiaalmaksuga .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 3 ) Pensionikindlustusstaa&zcaron;i arvestamise juhendi kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;he kalendriaasta kohta arvestatakse kuni &uuml;ks aasta pensionikindlustusstaa&zcaron;i .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riikliku pensioni arvutamine</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Pensioni koostisosad ja pensioni arvutamine</s>
+</p>
+<p>
+<s>( 1 ) Riiklik pension , v&auml;lja arvatud rahvapension , koosneb kolmest osast :</s>
+</p>
+<p>
+<s>1 ) baasosast , mille suuruse kehtestab Riigikogu riigieelarve vastuv&otilde;tmisel ;</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>2 ) staa&zcaron;iosakust , mille suurus v&otilde;rdub pensioni&otilde;igusliku staa&zcaron;i aastate arvu ja staa&zcaron;iaasta hinde korrutisega .</s><s>Staa&zcaron;iaasta hinde kinnitab Vabariigi Valitsus l&auml;htuvalt riigieelarvega m&auml;&auml;ratud riikliku pensionikindlustuse kuludest ja k&auml;esoleva seaduse &sect;-s 26 s&auml;testatud kulude jaotuse arvestusest ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>3 ) kindlustusosakust , mille suurus v&otilde;rdub pensionikindlustatu aastakoefitsientide summa ja aastakoefitsiendi hinde korrutisega .</s>
+</p>
+<p>
+<s>( 2 ) Kui pensioni taotlejal ei ole pensionikindlustusstaa&zcaron;i , m&auml;&auml;ratakse riiklik pension k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1 ja 2 s&auml;testatud osade alusel .</s>
+</p>
+<p>
+<s>( 3 ) Rahvapension arvutatakse protsentides rahvapensioni m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 4 ) Isikule , kellele v&auml;hemalt 15-aastase pensioni&otilde;igusliku v&otilde;i pensionikindlustusstaa&zcaron;i korral arvutatud vanaduspensioni suurus osutub v&auml;iksemaks k&auml;esoleva seaduse &sect; 16 l&otilde;ike 2 punktis 1 s&auml;testatud rahvapensioni suurusest , makstakse vanaduspensioni suuruses 100 protsenti rahvapensioni m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 5 ) Isikule , kellel puudub pensioni m&auml;&auml;ramiseks n&otilde;utav k&auml;esolevas seaduses s&auml;testatud pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron; , kuid kellel tekib &otilde;igus pensionile vastavalt v&auml;lislepingule , arvutatakse pension Eestis omandatud pensioni&otilde;igusliku v&otilde;i pensionikindlustusstaa&zcaron;i alusel .</s><s>Sellise isiku pensioni baasosa arvutamisel korrutatakse pensioni baasosa suurus Eestis omandatud pensioni&otilde;igusliku ja pensionikindlustusstaa&zcaron;i aastate arvuga ning jagatakse viieteistk&uuml;mnega .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Pensionikindlustatu aastakoefitsiendi ja kindlustusosaku arvutamine</s>
+</p>
+<p>
+<s>( 1 ) Pensionikindlustatu aastakoefitsiendi arvutamiseks liidetakse pensionikindlustatu kohta riikliku pensionikindlustuse registris arvestatud isikustatud sotsiaalmaksu summad ning jagatakse riikliku pensionikindlustuse registrisse kantud isikustatud sotsiaalmaksu keskmise suurusega antud kalendriaastal .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 ) Pensionikindlustuse aastakoefitsiendi hinde kinnitamisel l&auml;htub Vabariigi Valitsus allj&auml;rgnevast :</s>
+</p>
+<p>
+<s>1 ) Sotsiaalkindlustusameti koostatud prognoos pensionikindlustuse aastakoefitsientide kogusumma kohta ;</s>
+</p>
+<p>
+<s>2 ) riigieelarvega m&auml;&auml;ratud riikliku pensionikindlustuse kuludest ja k&auml;esoleva seaduse &sect;-s 26 s&auml;testatud kulude jaotuse arvestusest etten&auml;htud kulud kindlustusosakute maksmiseks .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 3 ) Juhendi kindlustusosaku suuruse arvutamiseks kinnitab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsus kinnitab j&auml;rgmise aasta riikliku pensionikindlustuse registrisse kantava isikustatud sotsiaalmaksu arvestusliku keskmise suuruse hiljemalt 10 kalendrip&auml;eva enne kalendriaasta algust .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 5 ) Eelmise aasta isikustatud sotsiaalmaksu keskmise suuruse kinnitab Vabariigi Valitsus mitte hiljem kui jooksva aasta 20. m&auml;rtsil ning seda rakendatakse pensioni m&auml;&auml;ramisel ja &uuml;mberarvutamisel t&auml;htajaga alates 1. aprillist .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 6 ) Kui pension m&auml;&auml;ratakse tagasiulatuvalt algt&auml;htajaga enne 1. aprilli , v&otilde;etakse pensioni arvutamisel aluseks Vabariigi Valitsuse kinnitatud riikliku pensionikindlustuse registrisse kantava isikustatud sotsiaalmaksu arvestuslik keskmine suurus .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riikliku pensionikindlustuse vahendid</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Riikliku pensionikindlustuse vahendid</s>
+</p>
+<p>
+<s>Vahendid riikliku pensionikindlustuse finantseerimiseks n&auml;hakse ette igaaastases riigieelarves .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Riikliku pensionikindlustuse kulude katteallikad</s>
+</p>
+<p>
+<s>( 1 ) Riikliku pensionikindlustuse kulude katteallikateks riigieelarves on :</s>
+</p>
+<p>
+<s>1 ) sotsiaalmaks vastavalt sotsiaalmaksuseadusele ;</s>
+</p>
+<p>
+<s>2 ) distsiplinaartrahv vastavalt t&ouml;&ouml;tajate distsiplinaarvastutuse seadusele ( RT I 1993 , 26 , 441 ; 1995 , 16 , 228 ; 1998 , 64/65 , 1009 ; 2000 , 102 , 674 ) ;</s>
+</p>
+<p>
+<s>3 ) sihtotstarbelised omatulud ( intressid , dividendid , regresshagidena tagastatavad summad jm ) ;</s>
+</p>
+<p>
+<s>4 ) eraldised eelmiste aastate vabadest vahenditest ;</s>
+</p>
+<p>
+<s>5 ) riigieelarves etten&auml;htud muud vahendid .</s>
+</p>
+<p>
+<s>( 2 ) Riikliku pensionikindlustuse kulude katteallikatena laekuvad tulud on selle eelarveaasta tulud , millal nad eelarvesse laekuvad , olenemata sellest , millise aasta eest nad on arvestatud v&otilde;i millal nad oleksid pidanud laekuma .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Riikliku pensionikindlustuse kulud</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 24 l&otilde;ike 1 punktides 1-4 nimetatud riikliku pensionikindlustuse kulude katteallikate arvel finantseeritakse &uuml;ksnes j&auml;rgmised kulud :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seadusega s&auml;testatud vanaduspensionid , t&ouml;&ouml;v&otilde;imetuspensionid , toitjakaotuspensionid , rahvapensionid ja endises suuruses s&auml;ilitatud pensionid ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljateenitud aastate pensionide seaduses ( RT 1992 , 21 , 294 ; RT I 1993 , 40 , 596 ; 1994 , 24 , 398 ; 51 , 856 ; 83 , 1450 ; 1995 , 61 , 1027 ; 95 , 1631 ; 1996 , 22 , 437 ; 86 , 1539 ; 1997 , 81 , 1366 ; 1998 , 17 , 266 ; 107 , 1767 ; 2000 , 25 , 147 ; 28 , 167 ; 58 , 376 ) ja soodustingimustel vanaduspensionide seaduses ( RT 1992 , 21 , 292 ; RT I 1993 , 40 , 596 ; 1994 , 24 , 398 ; 51 , 856 ; 83 , 1450 ; 1995 , 61 , 1027 ; 95 , 1631 ; 1996 , 22 , 437 ; 86 , 1539 ; 1997 , 81 , 1366 ; 1998 , 17 , 266 ; 107 , 1767 ; 2000 , 25 , 147 ; 28 , 167 ; 58 , 376 ) s&auml;testatud pensionid ;</s>
+</p>
+<p>
+<s>3 ) pensionide v&auml;ljamaksmise panga- ja postikulud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 24 l&otilde;ike 1 punktis 5 nimetatud vahendite arvel finantseeritakse j&auml;rgmised k&auml;esolevast seadusest tulenevad kulud :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 9 l&otilde;ikes 1 s&auml;testatud soodustingimustel vanaduspensionid kuni isiku &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka j&otilde;udmiseni ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 10 l&otilde;igetes 4 ja 4 <hi rend="sup">1</hi> s&auml;testatud t&ouml;&ouml;v&otilde;imetuspensionid ;</s>
+</p>
+<p>
+<s>3 ) paragrahvis 17 s&auml;testatud pensionilisad ;</s>
+</p>
+<p>
+<s>4 ) pensionid ja pensionilisad &sect; 18 l&otilde;ike 2 punktis 12 ning l&otilde;ikes 3 nimetatud pensioni&otilde;igusliku staa&zcaron;i aastate eest ;</s>
+</p>
+<p>
+<s>5 ) pensionikindlustatute informeerimine &sect; 35 alusel .</s>
+</p>
+<p>
+<s>( 3 ) Eesti riigi poolt m&otilde;ne muu seaduse alusel makstavaid pensione ja pensionilisasid finantseeritakse vastavates seadustes etten&auml;htud vahenditest .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Riikliku pensionikindlustuse kulude jaotuse arvestus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 25 s&auml;testatud riikliku pensionikindlustuse kulude &uuml;ldmahust lahutatakse kulud :</s>
+</p>
+<p>
+<s>1 ) pensionilisade maksmiseks ;</s>
+</p>
+<p>
+<s>2 ) rahvapensionide maksmiseks ;</s>
+</p>
+<p>
+<s>3 ) endises suuruses s&auml;ilitatud pensionide maksmiseks ;</s>
+</p>
+<p>
+<s>4 ) pensionide v&auml;ljamaksmise posti- ja pangakuludeks ;</s>
+</p>
+<p>
+<s>5 ) pensionikindlustatute informeerimiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 alusel saadud summa v&otilde;etakse aluseks riiklike pensionide baasosa , staa&zcaron;iosaku ja kindlustusosaku maksmiseks vajalike kulude arvestamisel , l&auml;htudes j&auml;rgmistest piirm&auml;&auml;radest :</s>
+</p>
+<p>
+<s>1 ) kuni 30 protsenti nimetatud summast eraldatakse riiklike pensionide baasosa maksmiseks ;</s>
+</p>
+<p>
+<s>2 ) v&auml;hemalt 70 protsenti nimetatud summast jagatakse proportsionaalselt vastavalt pensioni&otilde;igusliku staa&zcaron;i aastate ja pensionikindlustuse aastakoefitsientide osakaalule nende &uuml;ldarvus .</s>
+</p>
+<p>
+<s>( 3 ) Kui p&auml;rast riigieelarve vastuv&otilde;tmist kehtestatud seaduste alusel riikliku pensionikindlustuse kulude katteallikad v&auml;henevad v&otilde;i kulud suurenevad , s&auml;testatakse k&auml;esolevas seaduses kulude t&auml;iendavad katteallikad .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 27. ( Kehtetu - 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riiklik pensionikindlustuse register</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Registri staatus</s>
+</p>
+<p>
+<s>Riiklik pensionikindlustuse register ( edaspidi register ) on riiklik register andmekogude seaduse ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ) &sect; 31 t&auml;henduses , mis sisaldab andmeid pensionikindlustatute kohta .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Registri eesm&auml;rk</s>
+</p>
+<p>
+<s>Registri eesm&auml;rk on andmete tagamine Sotsiaalkindlustusametile k&auml;esoleva seaduse ja teiste seadustega pandud &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Registri asutamine</s>
+</p>
+<p>
+<s>Registri asutab Vabariigi Valitsus sotsiaalministri ettepanekul andmekogude seadusega kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Kannete tegemine registrisse ja andmete saamine registrist</s>
+</p>
+<p>
+<s>Andmete kandmine registrisse ja andmete saamine registrist toimub vastavalt andmekogude seadusele , isikuandmete kaitse seadusele ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ; 2000 , 50 , 317 ; 92 , 597 ; 104 , 685 ) , sotsiaalmaksuseadusele , k&auml;esolevale seadusele ja teistele seadustele ning riikliku pensionikindlustuse registri pidamise p&otilde;him&auml;&auml;rusele , mille kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Registri vastutav t&ouml;&ouml;tleja</s>
+</p>
+<p>
+<s>Registri vastutav t&ouml;&ouml;tleja on Sotsiaalkindlustusamet .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Andmete koosseis ja allikad</s>
+</p>
+<p>
+<s>Register sisaldab :</s>
+</p>
+<p>
+<s>1 ) isikut identifitseerivaid andmeid , mille allikregistriks on rahvastiku arvestuse andmebaas .</s><s>Isik loetakse registrisse kantuks , kui teda identifitseerivad andmed on registrisse kantud kas rahvastiku arvestuse andmebaasi , passi v&otilde;i s&uuml;nnitunnistuse alusel ;</s>
+</p>
+<p>
+<s>2 ) isiku &uuml;ldandmeid , mille allikregistriks on rahvastiku arvestuse andmebaas ;</s>
+</p>
+<p>
+<s>3 ) isiku sotsiaalmaksualaseid andmeid , mille allikregistriks on maksumaksjate ja maksu kinnipidajate register v&otilde;i t&ouml;&ouml;andja t&otilde;end arvestatud ja makstud sotsiaalmaksu kohta ;</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>4 ) andmeid pensioni m&auml;&auml;ramise ja maksmise kohta .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Sotsiaalmaksu , pensioni&otilde;igusliku ja pensionikindlustusstaa&zcaron;i arvestus</s>
+</p>
+<p>
+<s>( 1 ) Registris peetakse arvestust isiku kohta tema poolt v&otilde;i tema eest makstud ja arvestatud sotsiaalmaksu ning pensioni&otilde;igusliku ja pensionikindlustusstaa&zcaron;i kohta .</s>
+</p>
+<p>
+<s>( 2 ) Registri andmete alusel arvutatakse k&auml;esoleva seaduse &sect;-s 22 s&auml;testatud korras igale pensionikindlustatule kord aastas tema aastakoefitsient .</s>
+</p>
+<p>
+<s>( 3 ) Registri andmete alusel arvutatakse igale pensionikindlustatule tema pensionikindlustuse aastakoefitsientide summa .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Pensionikindlustatu informeerimine</s>
+</p>
+<p>
+<s>Kord aastas teatab register igale pensionikindlustatule tema poolt v&otilde;i tema eest makstud ja arvestatud sotsiaalmaksu summa , pensionikindlustuse aastakoefitsiendi ja pensionikindlustusstaa&zcaron;i .</s>
+</p>
+<p>
+<s>12. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riikliku pensioni taotlemine ja m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Riikliku pensioni taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Riiklikule pensionile &otilde;igust omav isik esitab pensioniavalduse elukohaj&auml;rgsele pensioniametile .</s>
+</p>
+<p>
+<s>( 2 ) Riikliku pensioni taotlemiseks vajalike dokumentide vormid kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) Pensioni taotlemise p&auml;evaks loetakse p&auml;ev , millal elukohaj&auml;rgne pensioniamet v&otilde;tab vastu avalduse koos k&otilde;igi vajalike dokumentidega .</s><s>Dokumentide vastuv&otilde;tmise kohta antakse pensionitaotlejale &otilde;iend .</s>
+</p>
+<p>
+<s>( 4 ) Kui pensionitaotlus on saadetud posti teel ning seejuures on lisatud k&otilde;ik vajalikud dokumendid , loetakse pensioni taotlemise p&auml;evaks taotluse l&auml;htekoha postitempli kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 5 ) Kui pensionitaotlusele ei ole lisatud k&otilde;iki vajalikke dokumente , teatatakse pensioni taotlejale , arvates avalduse saabumisest k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul , missugused dokumendid tuleb esitada t&auml;iendavalt .</s><s>Kui need esitatakse hiljemalt kolme kuu jooksul , arvates t&auml;iendavate dokumentide esitamise vajaduse kohta teatise saamise p&auml;evast , loetakse pensioni taotlemise p&auml;evaks taotluse vastuv&otilde;tmise p&auml;ev v&otilde;i taotluse l&auml;htekoha postitempli kuup&auml;ev .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Riikliku pensioni m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Riikliku pensioni m&auml;&auml;rab elukohaj&auml;rgse pensioniameti direktor v&otilde;i tema aset&auml;itja v&otilde;i pensioniameti direktori poolt volitatud pensioniameti struktuuri&uuml;ksuse juht .</s><s>Pensionitaotleja n&otilde;udmisel , samuti kollegiaalset lahendust n&otilde;udva pensionitaotluse puhul otsustab pensioni m&auml;&auml;ramise pensionikomisjon , mille moodustamise ja t&ouml;&ouml;korra m&auml;&auml;rab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 2 ) Pensionikomisjoni p&auml;devusse kuulub :</s>
+</p>
+<p>
+<s>1 ) k&otilde;ikide k&auml;esoleva seaduse alusel tekkinud pensioni taotlemise , m&auml;&auml;ramise , &uuml;helt pensioniliigilt teisele &uuml;leviimise , pensioni &uuml;mberarvutamise ja pensioni maksmise vaidluste lahendamine ;</s>
+</p>
+<p>
+<s>2 ) pensioni&otilde;igusliku staa&zcaron;i t&otilde;endamiseks esitatud dokumentidele &otilde;igusliku hinnangu andmine ;</s>
+</p>
+<p>
+<s>3 ) seadusliku aluseta m&auml;&auml;ratud pensioni maksmise l&otilde;petamine ; samuti pensioni maksmise peatamine ning liigselt makstud pensionisummade pensionist kinnipidamise otsustamine .</s>
+</p>
+<p>
+<s>( 3 ) Elukohaj&auml;rgne pensioniamet osutab pensionitaotlejale vajadusel kaasabi pensioni taotlemiseks vajalike dokumentide saamisel .</s>
+</p>
+<p>
+<s>( 4 ) Riiklik pension m&auml;&auml;ratakse alates pensioni taotlemise p&auml;evast .</s><s>Varasemast t&auml;htajast m&auml;&auml;ratakse pension j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) vanaduspension m&auml;&auml;ratakse pensioniikka j&otilde;udmise p&auml;evast ( &sect; 7 l&otilde;iked 1 v&otilde;i 2 v&otilde;i &sect; 9 l&otilde;ige 1 ) , t&ouml;&ouml;v&otilde;imetuspension ning rahvapension p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistatud isikule m&auml;&auml;ratakse p&uuml;siva t&ouml;&ouml;v&otilde;imetuse kindlakstegemise p&auml;evast , kui pensionitaotlus on esitatud kolme kuu jooksul , arvates pensioniikka j&otilde;udmise v&otilde;i p&uuml;siva t&ouml;&ouml;v&otilde;imetuse kindlakstegemise p&auml;evast ;</s>
+</p>
+<p>
+<s>2 ) toitjakaotuspension v&otilde;i rahvapension toitja surma v&otilde;i teadmata kadunuks tunnistamise p&auml;evast , kuid mitte &uuml;le 12 kuu enne pensioni taotlemist .</s>
+</p>
+<p>
+<s>( 5 ) Perekonnaliikmetele ja nendega v&otilde;rdsustatud isikutele , kellel on &otilde;igus saada toitjakaotuspensioni v&otilde;i rahvapensioni toitja kaotuse korral , m&auml;&auml;ratakse &uuml;hine pension .</s><s>Perekonnaliikme avalduse alusel eraldatakse toitjakaotuspensionist tema osa ja makstakse see talle eraldi v&auml;lja .</s>
+</p>
+<p>
+<s>( 6 ) Pension&auml;rile antakse pensionitunnistus , mille vormi m&auml;&auml;rab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Pensioni &uuml;mberarvutamise t&auml;htajad</s>
+</p>
+<p>
+<s>( 1 ) Riikliku pensioni v&auml;hendamist v&otilde;i suurendamist tingivate asjaolude tekkimisel arvutatakse pension &uuml;mber .</s>
+</p>
+<p>
+<s>( 2 ) Pensioni v&auml;hendamist tingivate asjaolude tekkimisel arvutatakse pension &uuml;mber nende asjaolude tekkimise kuule j&auml;rgneva kuu esimesest p&auml;evast .</s>
+</p>
+<p>
+<s>( 3 ) Pensioni suurendamist tingivate asjaolude tekkimisel , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 39 l&otilde;ikes 1 toodud juhul , arvutatakse pension &uuml;mber vastava avalduse ja vajalike dokumentide esitamise p&auml;evast , kui avaldus ja vajalikud dokumendid on esitatud &uuml;he kuu jooksul , arvates pensioni suurendamist tingivate asjaolude tekkimisest .</s><s>Hilisemal avalduse ja vajalike dokumentide esitamisel arvutatakse pension &uuml;mber vastava avalduse ja vajalike dokumentide esitamise kuule j&auml;rgneva kuu esimesest kuup&auml;evast .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 4 ) Pension&auml;r on kohustatud k&uuml;mne p&auml;eva jooksul oma elukohaj&auml;rgsele pensioniametile kirjalikult teatama k&otilde;ikidest asjaoludest , mis toovad kaasa riikliku pensioni &uuml;mberarvutamise .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Riikliku pensioni &uuml;mberarvutamine</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;ratud riiklik pension arvutatakse registrisse kantud eelmise aasta isikustatud sotsiaalmaksu andmete alusel &uuml;mber kord aastas alates 1. aprillist .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 ) Rahvapensioni m&auml;&auml;ra , pensioni baasosa suuruse , staa&zcaron;iaasta hinde ning aastakoefitsiendi hinde muutmisel arvutatakse k&otilde;ik pensionid &uuml;mber kord aastas alates 1. aprillist .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>13. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riikliku pensioni maksmine</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Riikliku pensioni maksmine</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku pensioni makstakse elukohaj&auml;rgse pensioniameti kaudu igakuuliselt jooksva kuu eest vastavalt pension&auml;ri soovile panka pension&auml;ri arvele v&otilde;i posti teel .</s>
+</p>
+<p>
+<s>( 2 ) Riikliku pensioni k&auml;ttetoimetamine ja saatmine Eestis toimub maksja arvel .</s>
+</p>
+<p>
+<s>( 3 ) Riikliku pensioni kandmine v&auml;lisriigis asuvasse panka pension&auml;ri arvele toimub saaja arvel .</s>
+</p>
+<p>
+<s>( 4 ) Rahvapensioni ( v&auml;lja arvatud p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistatud isikule ning alla 18-aastasele lapsele v&otilde;i alla 24-aastasele p&auml;evases v&otilde;i statsionaarses &otilde;ppevormis &otilde;ppijale ) ja toitjakaotuspensioni ( v&auml;lja arvatud 18-aastasele lapsele v&otilde;i alla 24-aastasele p&auml;evases v&otilde;i statsionaarses &otilde;ppevormis &otilde;ppijale ) t&ouml;&ouml;tamise korral ei maksta .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 5 ) Ennet&auml;htaegset vanaduspensioni t&ouml;&ouml;tamise korral ei maksta .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Riikliku pensioni maksmine volikirja alusel</s>
+</p>
+<p>
+<s>( 1 ) Volikirja alusel makstakse riiklikku pensioni mitte rohkem kui kolm aastat j&auml;rjest .</s>
+</p>
+<p>
+<s>( 2 ) Kui volikirjas kehtivuse aega pole m&auml;rgitud , kehtib see &uuml;he aasta jooksul t&otilde;estamise p&auml;evast arvates .</s><s>Volikiri peab olema t&otilde;estatud notariaalselt v&otilde;i statsionaarse raviasutuse juhi poolt , kus pension&auml;r on ravil .</s>
+</p>
+<p>
+<s>( 14.12.2000 j&otilde;ust.29.12.2000 - RT I 2000 , 102 , 673 )</s>
+</p>
+<p>
+<s>( 3 ) Kui volikirja t&otilde;estab statsionaarse raviasutuse juht , kehtib see saamata j&auml;&auml;nud pensioni v&auml;ljamaksmiseks .</s>
+</p>
+<p>
+<s>( 14.12.2000 j&otilde;ust.29.12.2000 - RT I 2000 , 102 , 673 )</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Saamata j&auml;&auml;nud pension</s>
+</p>
+<p>
+<s>Kui posti kaudu makstav pension on v&auml;lja v&otilde;tmata v&auml;hemalt kuus kuud , peatatakse pensioni maksmine .</s><s>P&auml;rast vastava avalduse ja isikut t&otilde;endavate dokumentide seaduse ( RT I 1999 , 25 , 365 ; 2000 , 25 , 148 ; 26 , 150 ; 40 , 254 ; 86 , 550 ) &sect; 2 l&otilde;ikes 2 s&auml;testatud dokumendi esitamist makstakse pension tagantj&auml;rele v&auml;lja .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Riikliku pensioni saamise erijuhud</s>
+</p>
+<p>
+<s>( 1 ) Kui kohus m&otilde;istab pension&auml;ri s&uuml;&uuml;di ja karistab teda vabadusekaotusega , peatatakse riikliku pensioni maksmine vabadusekaotuse kandmise ajaks .</s>
+</p>
+<p>
+<s>( 2 ) Kui isiku suhtes on t&otilde;kendina kasutatud vahi alla v&otilde;tmist , peatatakse vahi all oleku ajaks riikliku pensioni maksmine .</s><s>Pension makstakse p&auml;rast isiku &otilde;igeks m&otilde;istmist v&otilde;i kohtuotsuse j&otilde;ustumist tagantj&auml;rele juhul , kui kohus ei karista s&uuml;&uuml;diolevat isikut vabadusekaotusega .</s>
+</p>
+<p>
+<s>( 3 ) Kui kohus m&auml;&auml;rab pension&auml;ri suhtes meditsiinilise iseloomuga m&otilde;jutusvahendi kohaldamise , makstakse nimetatud m&otilde;jutusvahendi kohaldamise ajal pensioni pooles rahvapensioni m&auml;&auml;ras .</s>
+</p>
+<p>
+<s>( 4 ) Kui k&auml;esoleva paragrahvi l&otilde;igetes 1-3 nimetatud pension&auml;ril on k&auml;esoleva seaduse &sect; 13 l&otilde;ike 3 punktis 1 loetletud &uuml;lalpeetavaid , makstakse neile riiklikku pensioni j&auml;rgmises suuruses :</s>
+</p>
+<p>
+<s>1 ) &uuml;he &uuml;lalpeetava puhul 25 protsenti pensionist ;</s>
+</p>
+<p>
+<s>2 ) kahe &uuml;lalpeetava puhul 50 protsenti pensionist ;</s>
+</p>
+<p>
+<s>3 ) kolme ja enama &uuml;lalpeetava puhul 75 protsenti pensionist .</s>
+</p>
+<p>
+<s>( 5 ) Riigieelarvest finantseeritavas hoolekandeasutuses viibivale alaealisele m&auml;&auml;ratud riiklik pension kantakse panka lapse isiklikule arvele .</s>
+</p>
+<p>
+<s>( 6 ) Riikliku pensioni maksmisel &uuml;mardatakse 50 senti ja &uuml;le selle kroonini , summat alla 50 sendi aga ei arvestata .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Riikliku pensioni m&auml;&auml;ramise ja maksmise erijuhud</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 1 ) Liiklus&otilde;nnetuse t&otilde;ttu isiku p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistamise v&otilde;i toitja kaotuse korral n&otilde;utakse v&auml;ljamakstud t&ouml;&ouml;v&otilde;imetus- , toitjakaotus- v&otilde;i rahvapension sisse liikluskindlustusega tegelevalt kindlustusandjalt , kui riiklikku pensioni saaval isikul tekib n&otilde;ude&otilde;igus liikluskindlustusega tegeleva kindlustusandja vastu .</s>
+</p>
+<p>
+<s>( 2 ) Kui isik ei taotlenud m&auml;&auml;ratud t&auml;htajal p&uuml;siva t&ouml;&ouml;v&otilde;imetuse korduvekspertiisi m&otilde;juvatel p&otilde;hjustel ning isik tunnistatakse korduvekspertiisis tagasiulatuvalt p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks , m&auml;&auml;ratakse ja makstakse t&ouml;&ouml;v&otilde;imetuspensioni v&otilde;i p&uuml;siva t&ouml;&ouml;v&otilde;imetuse alusel rahvapensioni p&uuml;siva t&ouml;&ouml;v&otilde;imetuse tekkimise ajast , kuid tagasiulatuvalt mitte &uuml;le &uuml;he aasta .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 ) Lese v&otilde;i lahutatud isiku uuesti abiellumisel s&auml;ilitatakse temale abikaasa surma v&otilde;i teadmata &auml;raolijaks tunnistamise puhul m&auml;&auml;ratud toitjakaotuspension v&otilde;i rahvapension 12 kuuks .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 5 ) Saamata j&auml;&auml;nud riiklik pension makstakse pension&auml;ri surma korral isikule , kellel on &otilde;igus saada toitjakaotuspensioni .</s><s>Vanemal , abikaasal ja teistel perekonnaliikmetel on &otilde;igus saada saamata j&auml;&auml;nud riiklikku pensioni ka siis , kui nad ei kuulu toitjakaotuspensioniga kindlustatavate isikute hulka .</s>
+</p>
+<p>
+<s>( 5 <hi rend="sup">1</hi> ) K&auml;esoleva paragrahvi m&otilde;istes teisteks perekonnaliikmeteks on :</s>
+</p>
+<p>
+<s>1 ) laps , lapselaps , v&otilde;&otilde;raslaps ;</s>
+</p>
+<p>
+<s>2 ) eestkostja , eestkostetav ;</s>
+</p>
+<p>
+<s>3 ) vend , &otilde;de ;</s>
+</p>
+<p>
+<s>4 ) vanavanem , v&otilde;&otilde;rasvanem .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 6 ) Mitme perekonnaliikme samaaegsel p&ouml;&ouml;rdumisel elukohaj&auml;rgse pensioniameti poole pension&auml;ri surma t&otilde;ttu saamata j&auml;&auml;nud riikliku pensioni n&otilde;udega jagatakse saada olev pension nende vahel v&otilde;rdselt .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 7 ) Riiklik pension makstakse p&ouml;&ouml;rdujale v&auml;lja , kui avaldus on esitatud kuue kuu jooksul pension&auml;ri surma p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 8 ) P&auml;rast pension&auml;ri surma alusetult panka tema arvele kantud v&otilde;i volikirja alusel panga v&otilde;i posti kaudu v&auml;ljamakstud riikliku pensioni summad ei kuulu p&auml;randvara koosseisu ning nimetatud summad tagastatakse panga v&otilde;i p&auml;randvara saanud isiku poolt elukohaj&auml;rgse pensioniameti vastava n&otilde;ude saamisel .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Riiklikust pensionist kinnipidamine</s>
+</p>
+<p>
+<s>( 1 ) Riiklikust pensionist v&otilde;ib kinni pidada :</s>
+</p>
+<p>
+<s>1 ) t&auml;itemenetluse seadustiku ( RT I 1993 , 49 , 693 ; 1997 , 43/44 , 723 ; 1998 , 41/42 , 625 ; 51 , 756 ; 61 , 981 ; 103 , 1695 ; 1999 , 18 , 302 ; 27 , 380 ; 95 , 845 ; 2000 , 28 , 167 ; 35 , 222 ; 58 , 376 ) alusel t&auml;itmisele kuuluvate lahendite alusel ;</s>
+</p>
+<p>
+<s>2 ) elukohaj&auml;rgse pensioniameti pensionikomisjoni otsuse alusel selle pensioni sissen&otilde;udmiseks , mis on pension&auml;rile tema kuritarvituse t&otilde;ttu enam makstud .</s>
+</p>
+<p>
+<s>( 2 ) Muid kinnipidamisi riiklikust pensionist pole lubatud teha .</s>
+</p>
+<p>
+<s>( 3 ) Riiklikust pensionist kinnipeetav osa arvutatakse pension&auml;rile maksmiseks etten&auml;htud pensionist .</s>
+</p>
+<p>
+<s>( 4 ) T&auml;itemenetluse seadustiku alusel t&auml;itmisele kuuluvate lahendite alusel v&otilde;idakse kinni pidada kuni 50 protsenti riiklikust pensionist .</s><s>Pension&auml;rile s&auml;ilitatakse v&auml;hemalt 50 protsenti rahvapensioni m&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 5 ) Pensionikomisjoni otsuse alusel peetakse riiklikust pensionist kinni kuni 20 protsenti lisaks kinnipidamisele k&auml;esoleva paragrahvi l&otilde;ike 4 alusel .</s><s>Pension&auml;ri kirjalikul n&otilde;usolekul v&otilde;ib elukohaj&auml;rgse pensioniameti pensionikomisjoni otsuse alusel kinni pidada &uuml;le 20 protsendi pensionist .</s>
+</p>
+<p>
+<s>( 6 ) ( Kehtetu - 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 7 ) Kui riikliku pensioni maksmine l&otilde;petatakse enne , kui pensionikomisjoni otsuse alusel kinnipeetav rohkem makstud summa on t&auml;ielikult kustutatud , n&otilde;utakse maksmata osa sisse kohtu korras .</s>
+</p>
+<p>
+<s>( 8 ) Riiklikust pensionist kinnipeetava summa arvutamisel &uuml;mardatakse 50 senti ja &uuml;le selle kroonini , summat alla 50 sendi ei arvestata .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Vaidluste l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) Elukohaj&auml;rgse pensioniameti pensionikomisjoni otsusega mitten&otilde;ustumisel v&otilde;ib pensionitaotleja ( pension&auml;r ) p&ouml;&ouml;rduda halduskohtusse kolme kuu jooksul , arvates p&auml;evast , millal ta sai teada v&otilde;i pidi teada saama oma &otilde;iguste rikkumisest .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 2 ) Arstliku t&ouml;&ouml;v&otilde;imetuse ekspertiisi otsusega mitten&otilde;ustumisel v&otilde;ib isik p&ouml;&ouml;rduda Sotsiaalkindlustusametisse , kes korraldab t&auml;iendava ekspertiisi .</s><s>T&auml;iendava ekspertiisi otsusega mitten&otilde;ustumisel v&otilde;ib isik p&ouml;&ouml;rduda halduskohtusse kolme kuu jooksul otsusest teada saamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>14. peat&uuml;kk</s>
+</p>
+<p>
+<s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Pensionikindlustusstaa&zcaron;i arvestamine</s>
+</p>
+<p>
+<s>Pensionikindlustusstaa&zcaron;i arvestatakse alates 1999. aasta 1. jaanuarist .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>&Uuml;leminek t&ouml;&ouml;v&otilde;imetuspensionilt vanaduspensionile</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 1 ) Isikule , kellele makstakse kuni vanaduspensionieani t&ouml;&ouml;v&otilde;imetuspensioni , m&auml;&auml;ratakse vanaduspensioniikka j&otilde;udmisel vanaduspension ilma pensionitaotlust n&otilde;udmata .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 toodud juhul arvutatakse vanaduspension , l&auml;htudes vanaduspensioni m&auml;&auml;ramise ajaks olemasolevast pensioni&otilde;iguslikust ja pensionikindlustusstaa&zcaron;ist , vastavalt k&auml;esoleva seaduse &sect;-de 21 ja 22 s&auml;tetele .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 3 ) Kui &uuml;mberarvutatud pension osutub v&auml;iksemaks varemmakstud pensionist , j&auml;tkatakse pensioni maksmist endises suuruses .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>&Uuml;leminek invaliidsusgruppide alusel m&auml;&auml;ratud riiklikelt pensionidelt t&ouml;&ouml;v&otilde;imetuse alusel m&auml;&auml;ratavatele riiklikele pensionidele</s>
+</p>
+<p>
+<s>( 1 ) Riiklike elatusrahade seaduse &sect;-s 9 s&auml;testatud korras m&auml;&auml;ratud invaliidsusgrupid vaadatakse &uuml;mber 3-aastase &uuml;leminekuperioodi jooksul , arvates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 2 ) Isiku suhtes , kellele on riiklike elatusrahade seaduse alusel m&auml;&auml;ratud invaliidsusgrupp t&auml;htajaliselt ja kes selleks t&auml;htajaks ei ole j&otilde;udnud k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioni ikka , viiakse arstliku t&ouml;&ouml;v&otilde;imetuse ekspertiis l&auml;bi m&auml;&auml;ratud t&auml;htajal ja tema invaliidsusgrupp kehtib selle t&auml;htajani .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 3 ) Isiku suhtes , kellele on riiklike elatusrahade seaduse alusel m&auml;&auml;ratud invaliidsusgrupp t&auml;htajatult ja kes k&auml;esoleva seaduse j&otilde;ustumisel ei ole vanaduspensionieas v&otilde;i kes k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud &uuml;leminekuperioodi jooksul ei j&otilde;ua k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka , viiakse arstliku t&ouml;&ouml;v&otilde;imetuse ekspertiis l&auml;bi ajavahemikul 2001. aasta 1. jaanuarist kuni 2003. aasta 31. m&auml;rtsini Pensioniameti poolt teatatud kuup&auml;eval ja tema invaliidsusgrupp kehtib kuni arstliku t&ouml;&ouml;v&otilde;imetuse ekspertiisi l&auml;biviimiseni .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 4 ) Isikul , kellele on riiklike elatusrahade seaduse alusel m&auml;&auml;ratud invaliidsusgrupp t&auml;htajatult ja kes k&auml;esoleva seaduse j&otilde;ustumisel on vanaduspensionieas v&otilde;i kes k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud &uuml;leminekuperioodi jooksul j&otilde;uab k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka , invaliidsusgruppi &uuml;mber ei vaadata ning see kehtib 2003. aasta 31. m&auml;rtsini .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 5 ) Isikul , kes ei ole j&otilde;udnud k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka , arvutatakse riiklike elatusrahade seaduse &sect; 10 kohaselt arvutatud invaliidsuspension &uuml;mber t&ouml;&ouml;v&otilde;imetuspensioniks v&otilde;i p&uuml;siva t&ouml;&ouml;v&otilde;imetuse alusel rahvapensioniks , arvestades k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 2 s&auml;testatud pensioni&otilde;igusliku v&otilde;i pensionikindlustusstaa&zcaron;i n&otilde;uet ning kohaldades j&auml;rgmisi s&auml;tteid :</s>
+</p>
+<p>
+<s>1 ) I invaliidsusgrupile vastab t&ouml;&ouml;v&otilde;ime kaotus 100 protsenti ;</s>
+</p>
+<p>
+<s>2 ) II invaliidsusgrupile vastab t&ouml;&ouml;v&otilde;ime kaotus 80 protsenti ;</s>
+</p>
+<p>
+<s>3 ) III invaliidsusgrupile vastab t&ouml;&ouml;v&otilde;ime kaotus 60 protsenti .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 6 ) V&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 5 s&auml;testatud juhtudel ja k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensioniikka j&otilde;udnud isikute suhtes , loetakse k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud &uuml;leminekuperioodi jooksul invaliidsusgrupid vastavaks p&uuml;siva t&ouml;&ouml;v&otilde;imetuse astmetele j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) I invaliidsusgrupile vastab t&auml;ielik t&ouml;&ouml;v&otilde;imetus t&ouml;&ouml;v&otilde;ime kaotusega 100 protsenti ;</s>
+</p>
+<p>
+<s>2 ) II invaliidsusgrupile vastab osaline t&ouml;&ouml;v&otilde;imetus t&ouml;&ouml;v&otilde;ime kaotusega 80 v&otilde;i 90 protsenti ;</s>
+</p>
+<p>
+<s>3 ) III invaliidsusgrupile vastab osaline t&ouml;&ouml;v&otilde;imetus t&ouml;&ouml;v&otilde;ime kaotusega 40-70 protsenti .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>&sect; 49 <hi rend="sup">1</hi> .</s><s>T&ouml;&ouml;v&otilde;imetuspensioni ja p&uuml;siva t&ouml;&ouml;v&otilde;imetuse alusel rahvapensioni maksmise erijuhud</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 4 ) Juhul kui isiku , kelle invaliidsusgruppi ei ole &uuml;mber vaadatud v&otilde;i kellele m&auml;&auml;ratud t&ouml;&ouml;v&otilde;ime kaotuse protsent on suurem endisest protsendist v&otilde;i v&otilde;rdne endise protsendiga , t&ouml;&ouml;v&otilde;imetuspension v&otilde;i rahvapension osutub v&auml;iksemaks varem makstud pensioni suurusest , j&auml;tkatakse pensioni maksmist endises suuruses kuni m&auml;&auml;ratud t&auml;htajani , kuid mitte kauem kui k&auml;esoleva seaduse &sect; 7 l&otilde;igetes 1 v&otilde;i 2 s&auml;testatud vanaduspensionieani .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 13.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 674 )</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Varemm&auml;&auml;ratud pensionide &uuml;mberarvutamine</s>
+</p>
+<p>
+<s>( 1 ) Pension&auml;rile , kellele oli m&auml;&auml;ratud riiklik pension enne k&auml;esoleva seaduse j&otilde;ustumist ja kellel tekib &otilde;igus saada pensioni k&auml;esoleva seaduse alusel , arvutatakse pension &uuml;mber ning kui &uuml;mberarvutatud pension osutub v&auml;iksemaks varemmakstud pensionist , j&auml;tkatakse pensioni maksmist endises suuruses kuni m&auml;&auml;ratud t&auml;htajani .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 ) Pension&auml;rile , kellel ei teki &otilde;igust saada pensioni k&auml;esoleva seaduse alusel , makstakse pensioni endises suuruses kuni m&auml;&auml;ratud t&auml;htajani , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 4 toodud juhul .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 3 ) Vanaduspension&auml;rile , kellele oli m&auml;&auml;ratud riiklik pension enne k&auml;esoleva seaduse j&otilde;ustumist ja kellel ei teki &otilde;igust saada vanaduspensioni k&auml;esoleva seaduse alusel , s&auml;ilitatakse vanaduspensioni liik ning pension arvutatakse &uuml;mber k&auml;esoleva seadusega s&auml;testatud pensionide arvutamise korra kohaselt .</s><s>Kui &uuml;mberarvutatud pension osutub v&auml;iksemaks varemmakstud pensionist , j&auml;tkatakse pensioni maksmist endises suuruses kuni m&auml;&auml;ratud t&auml;htajani .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 4 ) Pension&auml;rile , kellele makstakse k&auml;esoleva paragrahvi l&otilde;ike 2 alusel abikaasa surma v&otilde;i teadmata &auml;raolijaks tunnistamise korral toitjakaotuspensioni endises suuruses , s&auml;ilitatakse tema uuesti abiellumise korral pensioni maksmine 12 kuuks .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>&sect; 50 <hi rend="sup">1</hi> .</s><s>Riikliku pensioni maksmise erijuhud 2000. aastal</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 8 l&otilde;ikes 2 nimetatud isikutel tekib &otilde;igus ennet&auml;htaegsele vanaduspensionile 2000. aasta 31. detsembrini mitte varem kui kaks aastat enne k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 2 s&auml;testatud vanusesse j&otilde;udmist .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 ) Riigieelarvest finantseeritavas hoolekandeasutuses viibivale alaealisele makstakse 2000. aasta 31. detsembrini 50 protsenti temale m&auml;&auml;ratud pensionist .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-s 17 s&auml;testatud pensionilisad arvutatakse 2000. aastal 410 kroonist .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 4 ) Kindlustusosaku arvutamiseks kinnitab Vabariigi Valitsus pensionikindlustuse registrisse kantava isikustatud sotsiaalmaksu arvestusliku keskmise suuruse hiljemalt 2000. aasta 20. m&auml;rtsiks .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 5 ) Staa&zcaron;iaasta hinne ja aastakoefitsiendi hinne on 2000. aastal 26 krooni 24 senti .</s>
+</p>
+<p>
+<s>( 15.03.2000 j&otilde;ust.01.04.2000 - RT I 2000 , 25 , 146 )</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Riikliku pensioni &uuml;ldsumma</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse alusel riikliku pensioni maksmisel ja riiklikust pensionist kinnipidamisel l&auml;htutakse riikliku pensioni &uuml;ldsummast , mille moodustab isikule m&auml;&auml;ratud riiklik pension koos pensionilisaga .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Vaidlused riiklike elatusrahade seaduse alusel</s>
+</p>
+<p>
+<s>P&auml;rast k&auml;esoleva seaduse j&otilde;ustumist tekkivad vaidlused pensionitaotleja v&otilde;i pension&auml;ri ja piirkondliku pensioniameti vahel , mis tulenevad riiklike elatusrahade seaduse rakendamisest , vaadatakse l&auml;bi k&auml;esoleva seadusega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Riikliku pensioni m&auml;&auml;ramise , &uuml;mberarvutamise ja maksmise kord</s>
+</p>
+<p>
+<s>Riikliku pensioni m&auml;&auml;ramise , &uuml;mberarvutamise ja maksmise korra juhendi kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>15. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Riiklike elatusrahade seaduse muutmine</s>
+</p>
+<p>
+<s>Riiklike elatusrahade seaduses ( RT 1993 , 15 , 256 ; RT I 1993 , 35 , 542 ; 74 , 1055 ; 1994 , 23 , 384 ; 24 , 397 ; 51 , 855 ; 72 , 1261 ; 1995 , 14 , 168 ; 61 , 1027 ; 68 , 1139 ; 95 , 1631 ; 1996 , 22 , 437 ; 45 , 849 ; 86 , 1539 ; 1997 , 77 , 1309 ; 81 , 1366 ; 1998 , 17 , 266 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvides 5 , 5 <hi rend="sup">1</hi> , 6 , 7 ja 41 asendatakse s&otilde;nad &ldquo; pensioni&otilde;iguslik staa&zcaron; &rdquo; s&otilde;nadega &ldquo; pensioni&otilde;iguslik v&otilde;i pensionikindlustusstaa&zcaron; &rdquo; vastavas k&auml;&auml;ndes ;</s>
+</p>
+<p>
+<s>2 ) seadust t&auml;iendatakse &sect;-ga 76 <hi rend="sup">2</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 76 <hi rend="sup">2</hi> .</s><s>Pensionikindlustusstaa&zcaron;i arvestatakse riikliku pensionikindlustuse seaduse &sect;-des 20 ja 47 s&auml;testatud korras . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>T&ouml;&ouml;tajate distsiplinaarvastutuse seaduse muutmine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tajate distsiplinaarvastutuse seaduse ( RT I 1993 , 26 , 441 ; 1995 , 16 , 228 ; 1998 , 64/65 , 1009 ; 2000 , 102 , 674 ) &sect; 17 l&otilde;ike 2 kogu tekstis asendatakse s&otilde;na &ldquo; sotsiaalfondi &rdquo; s&otilde;nadega &ldquo; riikliku pensionikindlustuse eelarvesse &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>&Otilde;igusaktide kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Kehtetuks tunnistatakse :</s>
+</p>
+<p>
+<s>1 ) Eesti Vabariigi pensioniseadus ( RT 1991 , 12 , 169 ; 1993 , 15 , 256 ) ;</s>
+</p>
+<p>
+<s>2 ) Eesti Vabariigi &Uuml;lemn&otilde;ukogu 1991. aasta 15. aprilli otsus &ldquo; Eesti Vabariigi pensioniseaduse rakendamise kohta &rdquo; ( RT 1991 , 12 , 170 ; 40 , 491 ; 1992 , 33 , 422 ; 1993 , 15 , 256 ) ;</s>
+</p>
+<p>
+<s>3 ) riiklike elatusrahade seadus .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2000. aasta 1. aprillil .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 97 , 857 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-d 20 , 28-34 ja 47 ning 54 j&otilde;ustuvad 1999. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

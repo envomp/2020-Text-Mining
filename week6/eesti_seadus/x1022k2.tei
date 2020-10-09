@@ -1,0 +1,604 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Erakonnaseadus ( terviktekst veebr 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    2817</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Erakonnaseadus ( terviktekst veebr 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=24></tagusage>
+         <tagusage gi=p occurs=166></tagusage>
+         <tagusage gi=s occurs=211></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Erakonnaseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 11. mail 1994. a.</s>
+</p>
+<p>
+<s>( RT I 1994 , 40 , 654 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 16. juunil 1994. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>29.01.2002 j&otilde;ust.04.03.2002 - RT I 2002 , 21 , 117 ;</s>
+</p>
+<p>
+<s>17.06.98 j&otilde;ust.10.07.98 - RT I 1998 , 59 , 941 ;</s>
+</p>
+<p>
+<s>06.06.96 j&otilde;ust.01.10.96 - RT I 1996 , 42 , 811 ;</s>
+</p>
+<p>
+<s>16.05.96 j&otilde;ust.08.06.96 - RT I 1996 , 37 , 739 ;</s>
+</p>
+<p>
+<s>17.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 27 , 393.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Erakonna m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Erakond ( partei ) on Eesti kodanike vabatahtlik poliitiline &uuml;hendus , mille eesm&auml;rgiks on oma liikmete ja toetajaskonna poliitiliste huvide v&auml;ljendamine ning riigiv&otilde;imu ja kohaliku omavalitsuse teostamine , ning mis on registreeritud k&auml;esolevas seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Erakond on mittetulundus&uuml;hing .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Erakonna eesm&auml;rkide saavutamise vahendid</s>
+</p>
+<p>
+<s>( 1 ) Erakonna eesm&auml;rkide saavutamise vahendid on :</s>
+</p>
+<p>
+<s>1 ) erakonna kandidaatide esitamine ning valimiskampaania l&auml;biviimine Riigikogu ja kohaliku omavalitsuse volikogude valimistel ;</s>
+</p>
+<p>
+<s>2 ) erakonna osalemine Riigikogusse valitud erakonnaliikmete kaudu Riigikogu tegevuses ; kohaliku omavalitsuse volikogusse valitud erakonnaliikmete kaudu volikogu tegevuses ; Riigikogusse ja kohaliku omavalitsuse volikogusse valitud erakonnaliikmete kaudu vastavalt Vabariigi Presidendi valimisel , Vabariigi Valitsuse ja kohaliku omavalitsuse t&auml;itevorgani moodustamisel ; rahvusvahelises koost&ouml;&ouml;s v&auml;lisriikide erakondadega .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 06.06.96 j&otilde;ust.01.10.96 - RT I 1996 , 42 , 811 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Erakonna moodustamise territoriaalsuse p&otilde;him&otilde;te</s>
+</p>
+<p>
+<s>( 1 ) Erakond moodustatakse territoriaalsuse p&otilde;him&otilde;ttel .</s><s>Erakond ei v&otilde;i asutada oma struktuuri&uuml;ksusi asutustes , ettev&otilde;tetes ega organisatsioonides .</s>
+</p>
+<p>
+<s>( 2 ) Eestis asutatud , registreeritud ja tegutsevate erakondade juhtorganid ning struktuuri&uuml;ksused peavad asuma Eesti Vabariigi jurisdiktsiooni all oleval territooriumil .</s><s>Erakonna struktuuri&uuml;ksus v&otilde;ib asuda ka v&auml;lisriigis , kui see ei ole vastuolus selle riigi seadustega .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Erakonna tegevuse piirangud</s>
+</p>
+<p>
+<s>( 1 ) Keelatud on erakonnad , kelle eesm&auml;rgid v&otilde;i tegevus on suunatud Eesti p&otilde;hiseadusliku korra v&otilde;i territoriaalse terviklikkuse v&auml;givaldsele muutmisele v&otilde;i on muul viisil vastuolus kriminaalseadusega .</s>
+</p>
+<p>
+<s>( 2 ) Relvi valdavad , samuti s&otilde;jav&auml;eliselt korraldatud v&otilde;i s&otilde;jav&auml;elisi harjutusi harrastavad &uuml;hingud v&otilde;i liidud ei v&otilde;i tegutseda erakonnana ega erakonna struktuuri&uuml;ksusena .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on sekkumine erakonna siseasjadesse , v&auml;lja arvatud seadusega lubatud erijuhul .</s>
+</p>
+<p>
+<s>( 4 ) Eesti Vabariigi jurisdiktsiooni all oleval territooriumil on keelatud teise riigi erakonna v&otilde;i selle struktuuri&uuml;ksuse v&otilde;i muu poliitilise &uuml;henduse v&otilde;i selle struktuuri&uuml;ksuse moodustamine ja tegutsemine .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Erakonna liikmed</s>
+</p>
+<p>
+<s>( 1 ) Erakonna liikmeks v&otilde;ib olla v&auml;hemalt 18-aastane teov&otilde;imeline Eesti kodanik .</s><s>&Uuml;heaegselt v&otilde;ib kuuluda ainult &uuml;hte erakonda .</s>
+</p>
+<p>
+<s>( 2 ) Erakonda v&otilde;etakse kodanik tema isikliku kirjaliku avalduse alusel .</s><s>Erakonda astumise , sellest lahkumise ja v&auml;ljaarvamise tingimused ning kord s&auml;testatakse erakonna p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>( 3 ) Erakonna liikmeks ei v&otilde;i olla :</s>
+</p>
+<p>
+<s>1 ) &otilde;iguskantsler ja tema n&otilde;unikud ;</s>
+</p>
+<p>
+<s>2 ) riigikontrol&ouml;r ja Riigikontrolli peakontrol&ouml;r ;</s>
+</p>
+<p>
+<s>( 29.01.2002 j&otilde;ust.04.03.2002 - RT I 2002 , 21 , 117 )</s>
+</p>
+<p>
+<s>3 ) kohtunik ;</s>
+</p>
+<p>
+<s>4 ) prokur&ouml;r ;</s>
+</p>
+<p>
+<s>5 ) politseiametnik ;</s>
+</p>
+<p>
+<s>6 ) tegevteenistuses olev kaitsev&auml;elane ;</s>
+</p>
+<p>
+<s>7 ) piirivalveametnik ja tegevteenistuses olev piirivalvur .</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi President peatab ametisoleku ajaks oma erakondliku kuuluvuse .</s>
+</p>
+<p>
+<s>( 5 ) Erakonnal ei v&otilde;i olla kollektiivliikmeid .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Erakonna asutamine ja selle tegevuse korraldus</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Erakonna asutamine</s>
+</p>
+<p>
+<s>( 1 ) Erakond asutatakse lihtkirjalikus vormis asutamislepinguga .</s><s>Erakonna asutamislepingule kohaldatakse mittetulundus&uuml;hingute seaduses ( RT I 1996 , 42 , 811 ; RT I 1998 , 96 , 1515 ; 1999 , 10 , 155 ; 23 , 355 ; 67 , 658 ; 2000 , 55 , 365 ; 88 , 576 ; 2001 , 56 , 336 ; 93 , 565 ) s&auml;testatut , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 17.06.98 j&otilde;ust.10.07.98 - RT I 1998 , 59 , 941 )</s>
+</p>
+<p>
+<s>( 2 ) Erakond registreeritakse , kui tal on v&auml;hemalt 1000 liiget .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Erakonna p&otilde;hikiri ja programm</s>
+</p>
+<p>
+<s>( 1 ) Erakonna tegevuse aluseks on p&otilde;hikiri .</s>
+</p>
+<p>
+<s>( 06.06.96 j&otilde;ust.01.10.96 - RT I 1996 , 42 , 811 )</s>
+</p>
+<p>
+<s>( 2 ) Erakonna p&otilde;hikirjale kohaldatakse mittetulundus&uuml;hingute seaduses p&otilde;hikirjale s&auml;testatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 06.06.96 j&otilde;ust.01.10.96 - RT I 1996 , 42 , 811 )</s>
+</p>
+<p>
+<s>( 3 ) Erakonna poliitilise tegevuse aluseks on programm .</s><s>Selle kinnitamise ja muutmise kord s&auml;testatakse erakonna p&otilde;hikirjas .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Registrisse kandmise avaldus</s>
+</p>
+<p>
+<s>Erakonna mittetulundus&uuml;hingute ja sihtasutuste registrisse kandmise avaldusele tuleb lisaks mittetulundus&uuml;hingute seaduse &sect;-s 10 s&auml;testatule lisada :</s>
+</p>
+<p>
+<s>1 ) juhatuse liikmete poolt allakirjutatud programm ;</s>
+</p>
+<p>
+<s>2 ) erakonna liikmete nimekiri , mis sisaldab erakonna liikmete nimed , s&uuml;nniaja ja liikmeksastumise p&auml;eva , kuu ja aasta ;</s>
+</p>
+<p>
+<s>( 17.06.98 j&otilde;ust.10.07.98 - RT I 1998 , 59 , 941 )</s>
+</p>
+<p>
+<s>3 ) erakonna s&uuml;mboolika n&auml;idis v&otilde;i kavand , kui need on p&otilde;hikirjaga ette n&auml;htud .</s>
+</p>
+<p>
+<s>( 06.06.96 j&otilde;ust.01.10.96 - RT I 1996 , 42 , 811 )</s>
+</p>
+<p>
+<s>&sect; 8 <hi rend="sup">1</hi> .</s><s>Erakonna liikmeskonna avalikkus</s>
+</p>
+<p>
+<s>( 1 ) Erakonna juhatus peab liikmete nimekirja , millesse kantakse iga&uuml;he nimi , elukoht , isikukood , liikmeksastumise p&auml;ev , kuu ja aasta ning andmed liikmeksoleku peatamise , v&auml;ljaastumise v&otilde;i v&auml;ljaarvamise kohta .</s><s>Nimekirja v&otilde;ib kanda ka muid andmeid , kui see on s&auml;testatud p&otilde;hikirjas ega ole vastuolus seadusega .</s>
+</p>
+<p>
+<s>( 2 ) Mittetulundus&uuml;hingute ja sihtasutuste registri pidajal on &otilde;igus n&otilde;uda registrissekantud erakonna juhatuselt liikmete nimekirjast v&auml;ljav&otilde;tte esitamist , mis sisaldab liikmete nimesid , s&uuml;nniaegu ja liikmeksastumise p&auml;eva , kuud ja aastat .</s>
+</p>
+<p>
+<s>( 17.06.98 j&otilde;ust.10.07.98 - RT I 1998 , 59 , 941 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Erakonna p&otilde;hikirja registreerimise otsustamine</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 06.06.96 j&otilde;ust.01.10.96 - RT I 1996 , 42 , 811 )</s>
+</p>
+<p>
+<s>( 2 ) Erakonda ei registreerita juba registrisse kantud v&otilde;i sellest kustutatud erakonna nime all .</s>
+</p>
+<p>
+<s>&sect; 10. ( Kehtetu - 17.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 27 , 393 )</s>
+</p>
+<p>
+<s>&sect; 11. ( Kehtetu - 17.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 27 , 393 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Erakonna tegevuse seaduslikkuse tagamine , selle &uuml;hinemine , jagunemine ja l&otilde;petamine</s>
+</p>
+<p>
+<s>Erakonna tegevuse seaduslikkuse tagamine ning erakonna &uuml;hinemine , jagunemine ja l&otilde;petamine toimub mittetulundus&uuml;hingute seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 06.06.96 j&otilde;ust.01.10.96 - RT I 1996 , 42 , 811 )</s>
+</p>
+<p>
+<s>2 <hi rend="sup">1</hi> . peat&uuml;kk</s>
+</p>
+<p>
+<s>Erakonna vara ja selle finantseerimine</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">1</hi> .</s><s>Erakonna vara ja selle allikad</s>
+</p>
+<p>
+<s>( 1 ) Erakonnal on &otilde;igus omada p&otilde;hikirjaliste eesm&auml;rkide saavutamiseks vajalikku vallas- ja kinnisvara , v&otilde;ttes arvesse k&auml;esolevas seaduses ja muudes seadustes etten&auml;htud piiranguid .</s>
+</p>
+<p>
+<s>( 2 ) Erakonna vara allikateks v&otilde;ivad olla :</s>
+</p>
+<p>
+<s>1 ) erakonna liikme- ja sisseastumismaksud ;</s>
+</p>
+<p>
+<s>2 ) annetused ( v&auml;lja arvatud anon&uuml;&uuml;msed ) ;</s>
+</p>
+<p>
+<s>3 ) p&auml;rand ;</s>
+</p>
+<p>
+<s>4 ) riigieelarvest vastavalt k&auml;esoleva seaduse &sect;-le 12 <hi rend="sup">6</hi> saadavad eraldised ;</s>
+</p>
+<p>
+<s>5 ) tulu erakonna rahaliste vahendite hoiustamisest Eesti ja v&auml;lisriikide krediidiasutustes ;</s>
+</p>
+<p>
+<s>6 ) laekumised k&auml;esoleva seaduse &sect;-s 12 <hi rend="sup">2</hi> lubatud majandustegevusest .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">2</hi> .</s><s>Erakonna majandustegevus</s>
+</p>
+<p>
+<s>( 1 ) Erakond ei v&otilde;i tegelda majandustegevusega , v&auml;lja arvatud erakonna tegevusega seotud materjalide kirjastamine ja m&uuml;&uuml;k , erakonna s&uuml;mboolikaga pisiesemete m&uuml;&uuml;k ning registreeritud loteriide korraldamine .</s>
+</p>
+<p>
+<s>( 2 ) Erakond ei v&otilde;i olla &uuml;hegi &auml;ri&uuml;hingu osanik v&otilde;i aktsion&auml;r .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">3</hi> .</s><s>Piirangud erakonna varale</s>
+</p>
+<p>
+<s>( 1 ) Erakond ei v&otilde;i omada v&auml;&auml;rtpabereid .</s><s>Kui erakonna omandisse satuvad v&auml;&auml;rtpaberid , peab ta need v&otilde;&otilde;randama &uuml;he kuu jooksul , alates omandi&otilde;iguse tekkimisest .</s>
+</p>
+<p>
+<s>( 2 ) Erakond v&otilde;ib oma rahalisi vahendeid hoida ainult k&auml;esoleva seaduse &sect; 12 <hi rend="sup">4</hi> l&otilde;ikes 4 nimetatud korras avalikult deklareeritud pangakontodel .</s>
+</p>
+<p>
+<s>( 3 ) Erakond ei tohi vastu v&otilde;tta riigiv&otilde;imu- ja kohaliku omavalitsuse organite , riigi v&otilde;i munitsipaalosalusega juriidiliste isikute v&otilde;i asutuste poolt pakutavat raha v&otilde;i muid vahendeid , v&auml;lja arvatud juhul , kui seda pakutakse avalikult ja k&otilde;igile registreeritud erakondadele v&otilde;rdselt .</s>
+</p>
+<p>
+<s>( 4 ) Erakond ei v&otilde;i vastu v&otilde;tta raha ega muud vara v&auml;lisriigi riigiv&otilde;imu- v&otilde;i kohaliku omavalitsuse organilt , v&auml;lisriigi riigi- v&otilde;i munitsipaalomandil p&otilde;hinevalt ettev&otilde;ttelt , asutuselt v&otilde;i organisatsioonilt .</s><s>V&auml;lisriigi erakonnalt v&otilde;i v&auml;lisriigi muudest allikatest laekunud varadest ja rahalistest annetustest ning nende p&auml;ritolust on erakond kohustatud &uuml;he n&auml;dala jooksul teatama mittetulundus&uuml;hingute ja sihtasutuste registri pidajale .</s>
+</p>
+<p>
+<s>( 5 ) Erakonnal on keelatud vastu v&otilde;tta anon&uuml;&uuml;mseid annetusi .</s><s>Anon&uuml;&uuml;msed annetused , mis on erakonnale laekunud , kannab erakond laekumisest alates &uuml;he n&auml;dala jooksul riigieelarvesse .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">4</hi> .</s><s>Erakonna varade avalikkus</s>
+</p>
+<p>
+<s>( 1 ) Iga&uuml;hel on &otilde;igus tutvuda k&auml;esolevas seaduses s&auml;testatud korras erakonna varade koosseisu ja sissetulekuallikatega .</s>
+</p>
+<p>
+<s>( 2 ) Erakond peab raamatupidamisarvestust vastavalt raamatupidamise seaduses ( RT I 1994 , 48 , 790 ; 1995 , 26-28 , 355 ; 92 , 1604 ; 1996 , 40 , 773 ; 42 , 811 ; 49 , 953 ; 1998 , 59 , 941 ; 1999 , 55 , 584 ; 101 , 903 ; 2001 , 87 , 527 ) , k&auml;esolevas seaduses ja muudes &otilde;igusaktides s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Iga kvartali esimese kuu viiendaks kuup&auml;evaks esitab erakond mittetulundus&uuml;hingute ja sihtasutuste registrile t&auml;ieliku aruande k&otilde;igi eelmise kvartali jooksul erakonnale laekunud vahendite kohta .</s><s>Nimetatud aruandes peab olema &auml;ra n&auml;idatud laekumise kuup&auml;ev , liik , rahaline v&auml;&auml;rtus ja allikas .</s><s>Aruandes tuleb kajastada ka vastavalt k&auml;esoleva seaduse &sect; 12 <hi rend="sup">7</hi> l&otilde;ikele 5 riigieelarvesse kantud anon&uuml;&uuml;msed annetused .</s><s>Aruande t&auml;psema vormi kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 4 ) Erakond n&auml;itab k&auml;esoleva paragrahvi l&otilde;ikes 3 toodud aruandes &auml;ra andmed k&otilde;igi erakonna nimel avatud pangakontode kohta nii Eesti kui v&auml;lisriikide pankades , tuues iga konto kohta &auml;ra panga nimetuse ja pangakonto numbri v&otilde;i muu tunnust&auml;hise .</s>
+</p>
+<p>
+<s>( 5 ) Iga&uuml;hel on &otilde;igus tasuta tutvuda nimetatud aruandega mittetulundus&uuml;hingute ja sihtasutuste registris .</s>
+</p>
+<p>
+<s>( 6 ) Valimiskampaaniate ajal toimub erakonna finantstegevuse avalikustamine k&auml;esoleva seaduse &sect;-s 12 <hi rend="sup">5</hi> toodud korras .</s>
+</p>
+<p>
+<s>( 7 ) Erakonna &uuml;ldkoosolek v&otilde;i p&otilde;hikirja j&auml;rgi seda asendav organ kinnitab iga aasta erakonna majandustegevuse aastaaruande .</s><s>Aastaaruanne koos seadusega etten&auml;htud lisadega avaldatakse Riigi Teataja Lisas .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">5</hi> .</s><s>Valimiskampaania rahastamise avalikkus</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu valimise v&otilde;i kohaliku omavalitsuse volikogu valimise v&auml;ljakuulutamise p&auml;evast kuni valimiste p&auml;evani tuleb erakonnal k&auml;esoleva seaduse &sect; 12 <hi rend="sup">4</hi> l&otilde;ikes 3 nimetatud aruanne esitada iga n&auml;dala kohta j&auml;rgmise n&auml;dala esimese t&ouml;&ouml;p&auml;eva l&otilde;puks kella 17.00-ks.</s>
+</p>
+<p>
+<s>( 2 ) Erakond esitab t&auml;iendava aruande Riigikogu v&otilde;i kohaliku omavalitsuse volikogu valimiskampaania l&auml;biviimiseks erakonna ja tema nimekirjas kandideerinud isikute poolt tehtud kulutuste ning kasutatud vahendite p&auml;ritolu kohta Vabariigi Valimiskomisjonile &uuml;he kuu jooksul , arvates valimiste toimumisest .</s><s>Aruande t&auml;psema vormi kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">6</hi> .</s><s>Eraldised riigieelarvest</s>
+</p>
+<p>
+<s>( 1 ) Riigikogus esindatud erakonnal on &otilde;igus eraldistele riigieelarvest .</s><s>Eraldise suurus on proportsionaalne Riigikogu valimisel saadud kohtade arvuga .</s>
+</p>
+<p>
+<s>( 2 ) Erakondade &uuml;hinemisel eraldised liidetakse .</s><s>Erakonna jagunemisel jaotatakse eraldis selliste jagunemisel tekkinud erakondade vahel , mille liikmeteks tunnistavad end jaguneva erakonna esindajad Riigikogus .</s><s>Erakonna l&otilde;petamisel &otilde;igus eraldisele riigieelarvest l&otilde;peb .</s>
+</p>
+<p>
+<s>( 3 ) Erakonnale eraldatavad summad kantakse erakonna arvele Vabariigi Valitsuse poolt m&auml;&auml;ratud valitsusasutuse kaudu , l&auml;htudes Vabariigi Valimiskomisjoni poolt esitatud nimekirjast , mis sisaldab erakondade poolt Riigikogu valimisel saadud kohtade arvu .</s>
+</p>
+<p>
+<s>( 4 ) Riigikogu valimise toimumise aastal muudetakse riigieelarve eraldiste arvestamist valimistulemuse v&auml;ljakuulutamisele j&auml;rgnevast kuust .</s>
+</p>
+<p>
+<s>( 5 ) Erakonna jagunemisel muudetakse riigieelarve eraldiste arvestamist jagunemisele j&auml;rgnevast kuust .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">7</hi> .</s><s>Annetus</s>
+</p>
+<p>
+<s>( 1 ) Annetus erakonnale on rahaline annetus , mitterahaline kingitus v&otilde;i tegevustoetus .</s>
+</p>
+<p>
+<s>( 2 ) Erakonnad peavad pidama eraldi annetuste registrit , mille vormi m&auml;&auml;rab k&auml;esoleva seaduse alusel rahandusminister .</s>
+</p>
+<p>
+<s>( 3 ) Annetuse saamisel registreerib erakond annetuse saamise kuup&auml;eva , annetuse tegija ( nimi , isiku- v&otilde;i registrikood ) ja annetuse liigi ning v&auml;&auml;rtuse kroonides ning juhul , kui annetaja selle m&auml;&auml;rab , annetuse sihtotstarbe erakonna annetuste registris ning annab annetajale annetuse vastuv&otilde;tmist t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 4 ) Annetuse vastuv&otilde;tmisel annab erakond annetaja n&otilde;udmisel annetuse tegemist ja selle vastuv&otilde;tmist erakonna poolt t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 5 ) Erakond ei tohi vastu v&otilde;tta anon&uuml;&uuml;mseid annetusi .</s><s>Anon&uuml;&uuml;mse annetuse kannab erakond seitsme p&auml;eva jooksul riigieelarvesse , kus see lisatakse j&auml;rgmisel eelarveaastal riigieelarvest erakondadele eraldatavate vahendite hulka .</s>
+</p>
+<p>
+<s>( 6 ) Erakonna annetuste register peab olema erakonna asukohas k&otilde;igile erakonna liikmetele k&auml;ttesaadav ja iga kvartali esimese kuu viiendaks kuup&auml;evaks saadab erakond v&auml;ljav&otilde;tte annetuste registrist mittetulundus&uuml;hingute ja sihtasutuste registri pidajale .</s><s>Iga&uuml;hel on &otilde;igus nimetatud aruandega tasuta tutvuda .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">8</hi> .</s><s>Rahaline annetus</s>
+</p>
+<p>
+<s>( 1 ) Erakonnal on &otilde;igus vastu v&otilde;tta ja kasutada rahalisi annetusi , mis ei ole seadusega keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Erakonnal ei ole &otilde;igust vastu v&otilde;tta sularahas annetusi , mis on 1000 krooni v&otilde;i rohkem .</s>
+</p>
+<p>
+<s>( 3 ) Korjanduse k&auml;igus tehtud rahalised annetused v&otilde;ib registreerida korjanduslehtedel .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">9</hi> .</s><s>Mitterahaline kingitus</s>
+</p>
+<p>
+<s>( 1 ) Erakonnal on &otilde;igus v&otilde;tta vastu mitterahalisi kingitusi , kui need on kasutatavad erakonna p&otilde;hikirjaliseks tegevuseks .</s>
+</p>
+<p>
+<s>( 2 ) Mitterahaline kingitus k&auml;esoleva seaduse m&otilde;istes on ka tasuta osutatav teenus erakonnale , kui selle teenuse osutab ettev&otilde;tja , &auml;ri&uuml;hing v&otilde;i asutus , kellel sellise teenuse osutamine on &auml;ritegevus v&otilde;i &uuml;hekordne majandustegevus v&otilde;i kui sellise teenuse eest tasub teenuse osutajale kas t&auml;ielikult v&otilde;i osaliselt kolmas isik .</s>
+</p>
+<p>
+<s>( 3 ) Mitterahalise kingituse rahalise v&auml;&auml;rtuse hindab erakonna juhatuse poolt m&auml;&auml;ratud komisjon v&otilde;i hindaja .</s>
+</p>
+<p>
+<s>( 4 ) Mitterahalise kingituse tegemise ja vastuv&otilde;tmise suhtes kehtivad needsamad n&otilde;uded ja piirangud mis rahalise annetuse suhtes .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">10</hi> .</s><s>Tegevustoetus</s>
+</p>
+<p>
+<s>( 1 ) Tegevustoetus on kauba m&uuml;&uuml;mine v&otilde;i teenuse osutamine turuhinnast madalama hinnaga ettev&otilde;tja , &auml;ri&uuml;hingu v&otilde;i asutuse poolt , kellele selline m&uuml;&uuml;mine v&otilde;i teenuse osutamine on &auml;ritegevus v&otilde;i &uuml;hekordne majandustegevus .</s>
+</p>
+<p>
+<s>( 2 ) Tegevustoetuse v&auml;&auml;rtus on kauba m&uuml;&uuml;mise v&otilde;i teenuse osutamise ajal selle turuhinna ja erakonna poolt tasutud hinna vahe .</s>
+</p>
+<p>
+<s>( 3 ) Tegevustoetuse andja hindab tegevustoetuse rahalise v&auml;&auml;rtuse ja edastab selle erakonnale .</s><s>Erakonna juhatuse poolt m&auml;&auml;ratud komisjon v&otilde;i hindaja esitab oma hinnangu tegevustoetuse v&auml;&auml;rtusele , mis n&auml;idatakse &auml;ra aruandes .</s>
+</p>
+<p>
+<s>( 4 ) Tegevustoetuse andmise ja vastuv&otilde;tmise suhtes kehtivad needsamad n&otilde;uded ja piirangud mis rahalise annetuse suhtes .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">11</hi> .</s><s>Keelatud annetused</s>
+</p>
+<p>
+<s>( 1 ) Erakonnale ei tohi teha annetusi :</s>
+</p>
+<p>
+<s>1 ) valitsusasutus , valitsusasutuse hallatav riigiasutus , riigi tulundusasutus ;</s>
+</p>
+<p>
+<s>2 ) kohalik omavalitsus v&otilde;i selle asutus ;</s>
+</p>
+<p>
+<s>3 ) v&auml;hemusrahvuse kultuurautonoomia v&otilde;i selle asutus ;</s>
+</p>
+<p>
+<s>4 ) avalik-&otilde;iguslik juriidiline isik ;</s>
+</p>
+<p>
+<s>5 ) Eesti &auml;ri&uuml;hing , milles on riigi v&otilde;i omavalitsuse v&otilde;i avalik-&otilde;igusliku juriidilise isiku osalus , v&auml;lja arvatud aktsiaselts , mille aktsiad on vabalt v&otilde;&otilde;randatavad avalikul b&ouml;rsil ;</s>
+</p>
+<p>
+<s>6 ) Eesti mittetulundus&uuml;hing v&otilde;i sihtasutus , mille liikmete hulka kuulub riik , kohalik omavalitsus v&otilde;i avalik-&otilde;iguslik juriidiline isik ;</s>
+</p>
+<p>
+<s>7 ) Eesti ettev&otilde;tja ja juriidiline isik , mis eelneva kahe kalendriaasta jooksul on saanud toetust riigilt , kohalikult omavalitsuselt v&otilde;i avalik-&otilde;iguslikult juriidiliselt isikult v&otilde;i fondidest , millesse on eraldanud raha riik v&otilde;i kohalik omavalitsus oma eelarve v&otilde;i asutuste kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Keelatud on annetused v&auml;lisriigilt v&otilde;i v&auml;lisriigi asutuselt v&otilde;i v&auml;lisriigi tulunduslikult juriidiliselt isikult .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on anon&uuml;&uuml;msed annetused , see t&auml;hendab sellised annetused , kui annetaja ei avalda v&otilde;i ei soovi avaldada enda andmeid .</s>
+</p>
+<p>
+<s>( 4 ) Keelatud on annetused , mille p&auml;ritolu kohta annetaja ei soovi v&otilde;i ei suuda avaldada andmeid .</s>
+</p>
+<p>
+<s>( 5 ) Keelatud on teistelt isikutelt l&auml;htuva annetuse vahendamine .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud isikutelt v&otilde;i asutustelt on annetus lubatud , kui :</s>
+</p>
+<p>
+<s>1 ) selline annetus tehakse k&otilde;igile Eestis registreeritud erakondadele v&otilde;rdselt ;</s>
+</p>
+<p>
+<s>2 ) see tehakse erakondade vahel jaotamiseks erakondadele riigieelarvelisi vahendeid eraldava valitsusasutuse kaudu ;</s>
+</p>
+<p>
+<s>3 ) kui on tegemist avalikult v&auml;ljakuulutatud ja k&otilde;igile erakondadele v&otilde;rdsetel tingimustel pakutava tegevustoetusega .</s>
+</p>
+<p>
+<s>( 7 ) Mitterahalise kingituse ja tegevustoetuse , mille eest kas t&auml;ielikult v&otilde;i osaliselt tasub kolmas isik , andmine on lubatud , kui seejuures tehakse teatavaks selle isiku andmed ja tasu suurus .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">12</hi> .</s><s>Annetuse vastuv&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Erakond , mis saab annetuse pakkumise v&otilde;i annetuse , on kohustatud j&auml;lgima , et tegemist ei ole keelatud annetusega , ja andmete puudulikkuse v&otilde;i kahtluse korral n&otilde;udma annetuse pakkujalt v&otilde;i annetajalt selgitust .</s>
+</p>
+<p>
+<s>( 2 ) Erakond , mis saab keelatud annetuse pakkumise , on kohustatud sellise annetuse vastuv&otilde;tmisest keelduma .</s>
+</p>
+<p>
+<s>( 3 ) Erakond , mis on saanud annetuse , mille suhtes ta on arvamusel , et tegemist on annetusega , mis on keelatud muudel alustel kui need , mis on loetletud &sect; 12 <hi rend="sup">11</hi> l&otilde;ikes 1 , kannab sellise rahalise annetuse &uuml;le &sect; 12 <hi rend="sup">6</hi> l&otilde;ikes 3 nimetatud valitsusasutuse hallata olevale eriarvele ja mitterahalise kingituse annab &uuml;le nimetatud valitsusasutusele .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud eriarvele laekunud summad jaotab arvet haldav valitsusasutus kord aastas erakondade vahel samas proportsioonis nagu eraldised riigieelarvest .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.07.99 - RT I 1999 , 27 , 393 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 17.06.98 j&otilde;ust.10.07.98 - RT I 1998 , 59 , 941 )</s>
+</p>
+<p>
+<s>( 2 ) Kuni VIII Riigikogu valimisteni v&otilde;ib erakondi asutada ja neid registreerida , kui neil on v&auml;hemalt 200 liiget .</s>
+</p>
+<p>
+<s>( 06.06.96 j&otilde;ust.01.10.96 - RT I 1996 , 42 , 811 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 11 rakendatakse VIII Riigikogu valimistulemuste v&auml;ljakuulutamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 4 ) Varem registreeritud erakonna kandmisel mittetulundus&uuml;hingute ja sihtasutuste registrisse tuleb avaldusele lisada &uuml;ldkoosoleku protokoll , millega on kinnitatud erakonna p&otilde;hikirja kehtiv redaktsioon ning valitud mittetulundus&uuml;hingute ja sihtasutuste registrisse kandmise avaldusele allakirjutanud juhatus .</s>
+</p>
+<p>
+<s>( 17.06.98 j&otilde;ust.10.07.98 - RT I 1998 , 59 , 941 )</s>
+</p>
+<p>
+<s>[ &sect; 14 v&auml;lja j&auml;etud ] <hi rend="sup">1</hi></s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> V&auml;ljaj&auml;etud paragrahviga muudetakse varasemaid &otilde;igusakte .</s>
+</p>
+</body>
+   </text>
+</tei.2>

@@ -1,0 +1,727 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Puhkuseseadus ( mai 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3406</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Puhkuseseadus ( mai 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=2></tagusage>
+         <tagusage gi=p occurs=207></tagusage>
+         <tagusage gi=s occurs=276></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Puhkuseseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 4. aprillil 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 42 , 233 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2002. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab t&ouml;&ouml;lepingu alusel t&ouml;&ouml;tavate isikute ja avalike teenistujate ( edaspidi t&ouml;&ouml;taja ) puhkuse kestuse ning korralduse alused .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevat seadust ei kohaldata t&ouml;&ouml;tajatele , kelle puhkus on reguleeritud muude seadustega .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Puhkuse m&otilde;iste ja liigid</s>
+</p>
+<p>
+<s>( 1 ) Puhkus t&auml;hendab t&ouml;&ouml;lepingu v&otilde;i teenistussuhte peatumist k&auml;esoleva seadusega etten&auml;htud korras ja tingimustel .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml; iseloomu ja tingimuste j&auml;rgi antavad puhkused on :</s>
+</p>
+<p>
+<s>1 ) p&otilde;hipuhkus , sealhulgas pikendatud puhkus vastavalt k&auml;esoleva seaduse &sect;-le 9 ;</s>
+</p>
+<p>
+<s>2 ) lisapuhkus vastavalt k&auml;esoleva seaduse &sect;-le 10.</s>
+</p>
+<p>
+<s>( 3 ) Lisaks k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud puhkustele on k&auml;esoleva seaduse reguleerimisobjektiks :</s>
+</p>
+<p>
+<s>1 ) vanemapuhkused vastavalt k&auml;esoleva seaduse &sect;-dele 27-31 ;</s>
+</p>
+<p>
+<s>2 ) palgata puhkus vastavalt k&auml;esoleva seaduse &sect;-dele 32-35.</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Puhkuse andmine t&ouml;&ouml;aasta eest</s>
+</p>
+<p>
+<s>P&otilde;hi- ja lisapuhkust , samuti t&auml;iendavat lapsepuhkust vastavalt k&auml;esoleva seaduse &sect;-le 30 ( v&auml;lja arvatud &sect; 30 l&otilde;ike 1 alusel antav puhkus ) antakse t&ouml;&ouml;aasta eest .</s><s>T&ouml;&ouml;aasta on aeg , mis algab selle t&ouml;&ouml;andja juures t&ouml;&ouml;le asumise p&auml;evast ja kestab j&auml;rgmise aasta sama p&auml;evani .</s><s>Kui selles ajavahemikus on perioode , mida vastavalt k&auml;esoleva seaduse &sect;-le 4 t&ouml;&ouml;aasta hulka ei arvata , l&uuml;kkub t&ouml;&ouml;aasta l&otilde;pp vastava arvu p&auml;evade v&otilde;rra edasi .</s><s>T&ouml;&ouml;aastast l&uuml;hema aja eest antakse puhkust v&otilde;rdeliselt t&ouml;&ouml;tatud ajaga .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>T&ouml;&ouml;aasta arvutamine</s>
+</p>
+<p>
+<s>( 1 ) Lisaks tegelikult t&ouml;&ouml;tatud ajale arvatakse t&ouml;&ouml;aasta hulka :</s>
+</p>
+<p>
+<s>1 ) aeg , mil t&ouml;&ouml;taja on ajutiselt t&ouml;&ouml;v&otilde;imetu ;</s>
+</p>
+<p>
+<s>2 ) puhkuse aeg , v&auml;lja arvatud lapsehoolduspuhkuse ja t&ouml;&ouml;taja soovil antud palgata puhkuse aeg ;</s>
+</p>
+<p>
+<s>3 ) osaliselt tasustatava puhkuse aeg vastavalt k&auml;esoleva seaduse &sect;-le 33 ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;lepingu ebaseadusliku l&otilde;petamise , ebaseaduslikult teenistusest vabastamise v&otilde;i ebaseaduslikult teisele t&ouml;&ouml;le &uuml;leviimise t&otilde;ttu t&ouml;&ouml;lt sunnitud puudumise aeg , kui t&ouml;&ouml;taja on t&ouml;&ouml;le ennistatud ;</s>
+</p>
+<p>
+<s>5 ) muu aeg , mil t&ouml;&ouml;taja on seaduse , muu &otilde;igusakti , kollektiiv- v&otilde;i t&ouml;&ouml;lepinguga etten&auml;htud alustel ajutiselt vabastatud t&ouml;&ouml;&uuml;lesannete t&auml;itmisest .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;andja otsusega v&otilde;ib t&ouml;&ouml;aasta hulka arvata ka muu aja , mil t&ouml;&ouml;taja on poolte kokkuleppel ajutiselt vabastatud t&ouml;&ouml;&uuml;lesannete t&auml;itmisest .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Puhkuse kestuse arvutamine</s>
+</p>
+<p>
+<s>Puhkuse kestust arvutatakse , olenemata t&ouml;&ouml;ajakorraldusest t&ouml;&ouml;andja juures , kalendrip&auml;evades , mille hulka ei arvata rahvusp&uuml;ha ja riigip&uuml;hi .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Puhkuse pikendamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tajale seaduse v&otilde;i muu &otilde;igusaktiga etten&auml;htud puhkust v&otilde;ib pikendada kollektiiv- v&otilde;i t&ouml;&ouml;lepinguga , samuti poolte kokkuleppel .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Puhkuse andmise kohustus ning puhkusest loobumise kehtetus</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andjal ei ole &otilde;igust j&auml;tta puhkust andmata ja t&ouml;&ouml;tajal ei ole &otilde;igust puhkusest loobuda .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Puhkusen&otilde;ude aegumine</s>
+</p>
+<p>
+<s>( 1 ) Puhkusen&otilde;ude &otilde;igus kehtib kuni nelja viimase aasta eest antavale puhkusele .</s>
+</p>
+<p>
+<s>( 2 ) Puhkuse kasutamist takistavate asjaolude tekkimisel hakkab kasutamata j&auml;&auml;nud puhkuse osa aegumist&auml;htaeg kulgema p&auml;rast takistavate asjaolude &auml;ralangemist .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>P&otilde;hi- ja lisapuhkus</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>P&otilde;hipuhkus</s>
+</p>
+<p>
+<s>( 1 ) P&otilde;hipuhkuse kestus on 28 kalendrip&auml;eva , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Pikendatud p&otilde;hipuhkust antakse :</s>
+</p>
+<p>
+<s>1 ) alaealistele 35 kalendrip&auml;eva ;</s>
+</p>
+<p>
+<s>2 ) isikutele , kellele on m&auml;&auml;ratud t&ouml;&ouml;v&otilde;imetuspension v&otilde;i rahvapension t&ouml;&ouml;v&otilde;imetuse alusel vastavalt riikliku pensionikindlustuse seadusele ( RT I 1998 , 64/65 , 1009 ; 2001 , 9 , 42 ) , 35 kalendrip&auml;eva ;</s>
+</p>
+<p>
+<s>3 ) riigi- ja kohaliku omavalitsuse ametnikele 35 kalendrip&auml;eva ;</s>
+</p>
+<p>
+<s>4 ) koolieelsete lasteasutuste , lasteaed-algkoolide , algkoolide , p&otilde;hikoolide ja g&uuml;mnaasiumide , huvialakoolide , kutse&otilde;ppeasutuste , rakendusk&otilde;rgkoolide , &uuml;likoolide ning teadus- ja arendusasutuste juhtidele , &otilde;petajatele , &otilde;ppej&otilde;ududele ja teistele pedagoogidele ning teadust&ouml;&ouml;tajatele kuni 56 kalendrip&auml;eva ;</s>
+</p>
+<p>
+<s>5 ) raviasutuste , sotsiaalhoolekandeasutuste ja lastesanatooriumide pedagoogikaspetsialistidele kuni 56 kalendrip&auml;eva .</s>
+</p>
+<p>
+<s>( 3 ) Ametikohtade loetelu , kus t&ouml;&ouml;tamisel antakse pikendatud puhkust kuni 56 kalendrip&auml;eva , ja puhkuse kestuse konkreetsel ametikohal kehtestab Vabariigi Valitsus oma m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 4 ) Osalise t&ouml;&ouml;ajaga t&ouml;&ouml;taja p&otilde;hipuhkus on sama kestusega kui t&auml;ist&ouml;&ouml;ajaga t&ouml;&ouml;tajal .</s><s>Osalise t&ouml;&ouml;ajaga t&ouml;&ouml;tamisel v&otilde;ib lisapuhkuse kestust l&uuml;hendada ainult seadusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahviga etten&auml;htud puhkuse kestust ei kohaldata t&ouml;&ouml;tajate suhtes , kelle puhkus on reguleeritud eri seadusega .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Lisapuhkus</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igus lisapuhkusele on t&ouml;&ouml;tajatel , kes t&ouml;&ouml;tavad :</s>
+</p>
+<p>
+<s>1 ) allmaat&ouml;&ouml;del ;</s>
+</p>
+<p>
+<s>2 ) tervistkahjustavatel t&ouml;&ouml;del ;</s>
+</p>
+<p>
+<s>3 ) eriiseloomuga t&ouml;&ouml;del .</s>
+</p>
+<p>
+<s>( 2 ) Allmaat&ouml;&ouml;de , tervistkahjustavate t&ouml;&ouml;de ja eriiseloomuga t&ouml;&ouml;de loetelu , kus t&ouml;&ouml;tamisel antakse lisapuhkust , ning nende lisapuhkuste kestuse kehtestab Vabariigi Valitsus oma m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Kollektiiv- ja t&ouml;&ouml;lepinguga v&otilde;ib ette n&auml;ha t&auml;iendavad alused lisapuhkuse andmiseks .</s>
+</p>
+<p>
+<s>( 4 ) Teiste seadustega v&otilde;ib ette n&auml;ha ka muid lisapuhkusi .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Lisapuhkuse andmise tingimused</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tajale , kellele antakse p&otilde;hipuhkus t&auml;ies ulatuses enne t&ouml;&ouml;aasta t&auml;itumist , antakse koos p&otilde;hipuhkusega lisapuhkus samuti t&auml;ies ulatuses .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>P&otilde;hi- ja lisapuhkuse liitmine</s>
+</p>
+<p>
+<s>( 1 ) Lisapuhkus liidetakse p&otilde;hipuhkusele ja antakse sellega koos v&otilde;i poolte kokkuleppel muul ajal.</s>
+</p>
+<p>
+<s>( 2 ) Erinevatel alustel antavad lisapuhkused liidetakse .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Puhkuse andmise kord</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Puhkuse andmine esimesel t&ouml;&ouml;aastal</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tajal , kes on esimesel t&ouml;&ouml;aastal t&ouml;&ouml;tanud v&auml;hemalt kuus kuud , on &otilde;igus saada puhkust v&otilde;rdeliselt t&ouml;&ouml;tatud kuude arvuga .</s><s>Saamata j&auml;&auml;nud puhkuseosa antakse t&ouml;&ouml;aasta kestel m&otilde;nel muul ajal v&otilde;i t&ouml;&ouml;taja n&otilde;usolekul liidetakse j&auml;rgmise t&ouml;&ouml;aasta puhkusega v&otilde;i antakse teise t&ouml;&ouml;aasta kestel m&otilde;nel muul ajal.</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;ltumata t&ouml;&ouml;tatud ajast , on esimesel t&ouml;&ouml;aastal &otilde;igus saada puhkust t&auml;ies ulatuses :</s>
+</p>
+<p>
+<s>1 ) alaealisel ;</s>
+</p>
+<p>
+<s>2 ) isikul , kellele on m&auml;&auml;ratud t&ouml;&ouml;v&otilde;imetuspension v&otilde;i rahvapension t&ouml;&ouml;v&otilde;imetuse alusel vastavalt riikliku pensionikindlustuse seadusele ;</s>
+</p>
+<p>
+<s>3 ) naisel enne v&otilde;i p&auml;rast rasedus- ja s&uuml;nnituspuhkust ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;ga seotud tervisekahjustuse j&auml;rgselt t&ouml;&ouml;v&otilde;ime osaliselt kaotanud t&ouml;&ouml;tajal ;</s>
+</p>
+<p>
+<s>5 ) muudel seaduse , muu &otilde;igusakti , kollektiiv- v&otilde;i t&ouml;&ouml;lepinguga etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) Poolte kokkuleppel v&otilde;ib esimesel t&ouml;&ouml;aastal anda puhkust t&auml;ies ulatuses , s&otilde;ltumata t&ouml;&ouml;tatud ajast .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Puhkuse andmine teise ja j&auml;rgmiste t&ouml;&ouml;aastate eest</s>
+</p>
+<p>
+<s>Puhkust teise ja j&auml;rgmiste t&ouml;&ouml;aastate eest antakse t&auml;ies ulatuses t&ouml;&ouml;aasta kestel vastavalt t&ouml;&ouml;andja juures kehtivale puhkuste ajakavale .</s><s>Poolte kokkuleppel v&otilde;ib puhkuste ajakava muuta .</s><s>Puhkuste ajakava muutmisel tuleb m&auml;&auml;rata uus puhkuse aeg .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Puhkuste ajakava</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja koostab puhkuste ajakava iga kalendriaasta kohta ja teeb selle t&ouml;&ouml;tajale teatavaks jaanuarikuu jooksul .</s><s>Puhkuste ajakava v&otilde;ib muuta poolte kokkuleppel .</s>
+</p>
+<p>
+<s>( 2 ) Puhkuste ajakava koostamisel l&auml;htub t&ouml;&ouml;andja t&ouml;&ouml; korraldamise huvidest , arvestades v&otilde;imaluse korral t&ouml;&ouml;tajate soove .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;andja on kohustatud puhkuste ajakava koostamisel arvestama nende t&ouml;&ouml;tajate soovidega , kellel on vastavalt k&auml;esoleva seaduse &sect; 16 punktidele 3-6 &otilde;igus saada puhkust neile sobival ajal.</s>
+</p>
+<p>
+<s>( 4 ) Kui t&ouml;&ouml;andja ei tee puhkuste ajakava t&ouml;&ouml;tajale teatavaks k&auml;esoleva paragrahvi l&otilde;ikes 1 toodud t&auml;htaja jooksul , on t&ouml;&ouml;tajal &otilde;igus j&auml;&auml;da puhkusele t&ouml;&ouml;taja poolt valitud ajal , teatades sellest t&ouml;&ouml;andjale kirjalikult ette v&auml;hemalt kaks n&auml;dalat .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Puhkuse andmine t&ouml;&ouml;tajale sobival ajal</s>
+</p>
+<p>
+<s>T&ouml;&ouml;taja soovitud ajal on t&ouml;&ouml;andja kohustatud andma puhkust :</s>
+</p>
+<p>
+<s>1 ) naisele vahetult enne ja p&auml;rast rasedus- ja s&uuml;nnituspuhkust v&otilde;i vahetult p&auml;rast lapsehoolduspuhkust ;</s>
+</p>
+<p>
+<s>2 ) mehele vahetult p&auml;rast lapsehoolduspuhkust v&otilde;i naise rasedus- ja s&uuml;nnituspuhkuse ajal ;</s>
+</p>
+<p>
+<s>3 ) vanemale , kes kasvatab kuni 7-aastast last ;</s>
+</p>
+<p>
+<s>4 ) vanemale , kes kasvatab 7-10-aastast last , - lapse koolivaheajal ;</s>
+</p>
+<p>
+<s>5 ) alaealisele ;</s>
+</p>
+<p>
+<s>6 ) t&ouml;&ouml;ga seotud tervisekahjustuse j&auml;rgselt t&ouml;&ouml;v&otilde;ime osaliselt kaotanud t&ouml;&ouml;tajale .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Puhkuse kasutamist takistavad asjaolud</s>
+</p>
+<p>
+<s>( 1 ) Puhkuse kasutamist takistavad asjaolud on :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;taja ajutine t&ouml;&ouml;v&otilde;imetus ;</s>
+</p>
+<p>
+<s>2 ) rasedus- ja s&uuml;nnituspuhkusel viibimine ;</s>
+</p>
+<p>
+<s>3 ) riigi- v&otilde;i kohaliku omavalitsusorgani poolt pandud &uuml;lesannete t&auml;itmine ;</s>
+</p>
+<p>
+<s>4 ) osalemine seaduslikus streigis v&otilde;i t&ouml;&ouml;tajate esindamine kollektiivl&auml;bir&auml;&auml;kimistel seadusega v&otilde;i kollektiivlepinguga etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>5 ) &otilde;ppepuhkusel viibimine .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja on kohustatud t&ouml;&ouml;andjale teatama puhkuse kasutamist takistavatest asjaoludest .</s><s>T&ouml;&ouml;andja v&otilde;ib n&otilde;uda puhkuse kasutamist takistavate asjaolude t&otilde;endamiseks dokumente .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Puhkuse v&otilde;i puhkuseosa &uuml;leviimine muule ajale seoses puhkuse kasutamist takistavate asjaoludega</s>
+</p>
+<p>
+<s>( 1 ) Kui puhkuse kasutamist takistavad asjaolud vastavalt k&auml;esoleva seaduse &sect; 17 l&otilde;ike 1 punktidele 1-4 tekkisid enne puhkuse algust , viiakse puhkus &uuml;le poolte kokkuleppega m&auml;&auml;ratud ajale .</s><s>Kui puhkuse kasutamist takistavad asjaolud tekkisid puhkuse ajal , antakse saamata j&auml;&auml;nud puhkuseosa vahetult p&auml;rast takistavate asjaolude l&otilde;ppemist v&otilde;i viiakse poolte kokkuleppel &uuml;le muule ajale .</s><s>Rasedus- ja s&uuml;nnituspuhkuse t&otilde;ttu puhkuse &uuml;leviimisel teisele ajale kohaldatakse k&auml;esoleva seaduse &sect; 16 punkti 1.</s>
+</p>
+<p>
+<s>( 2 ) Kui pooled ei ole saavutanud kokkulepet saamata j&auml;&auml;nud puhkuse v&otilde;i selle osa &uuml;leviimise kohta , on t&ouml;&ouml;tajal &otilde;igus j&auml;&auml;da puhkusele saamata j&auml;&auml;nud puhkusep&auml;evade ulatuses , teatades sellest t&ouml;&ouml;andjale kirjalikult ette kaks n&auml;dalat .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Puhkuse &uuml;leviimine muule ajale poolte kokkuleppel</s>
+</p>
+<p>
+<s>( 1 ) Poolte kokkuleppel v&otilde;ib puhkuse &uuml;le viia muule ajale samal t&ouml;&ouml;aastal .</s><s>Kui puhkuse &uuml;leviimist taotleb t&ouml;&ouml;andja ja kokkulepet t&ouml;&ouml;tajaga ei saavutata , on t&ouml;&ouml;tajal &otilde;igus j&auml;&auml;da puhkusele puhkuste ajakavas etten&auml;htud ajal.</s>
+</p>
+<p>
+<s>( 2 ) Poolte kokkuleppel v&otilde;ib osa puhkusest &uuml;le viia j&auml;rgmisele t&ouml;&ouml;aastale .</s><s>J&auml;rgmisele t&ouml;&ouml;aastale &uuml;leviidud puhkuse osa liidetakse jooksva t&ouml;&ouml;aasta p&otilde;hipuhkusega v&otilde;i antakse poolte kokkuleppel m&otilde;nel muul ajal t&ouml;&ouml;aasta kestel .</s>
+</p>
+<p>
+<s>( 3 ) Alaealisele antakse puhkust igal t&ouml;&ouml;aastal t&auml;ies ulatuses .</s><s>Puhkuse v&otilde;i selle osa &uuml;leviimine on lubatud vaid seoses rasedus- ja s&uuml;nnituspuhkusel viibimisega .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Puhkuse andmine osadena</s>
+</p>
+<p>
+<s>Poolte kokkuleppel v&otilde;ib puhkust anda osade kaupa , kusjuures &uuml;he katkestamatu osa kestus peab olema v&auml;hemalt 14 kalendrip&auml;eva .</s><s>Teiste puhkuseosade kestus v&otilde;ib olla l&uuml;hem .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Puhkuse katkestamine</s>
+</p>
+<p>
+<s>( 1 ) Puhkuse v&otilde;ib katkestada ja t&ouml;&ouml;taja t&ouml;&ouml;le tagasi kutsuda poolte kokkuleppel .</s>
+</p>
+<p>
+<s>( 2 ) Puhkuse katkestamise t&otilde;ttu kasutamata j&auml;&auml;nud puhkuse osa antakse poolte kokkuleppel sama t&ouml;&ouml;aasta m&otilde;nel muul ajal , liidetakse j&auml;rgmise t&ouml;&ouml;aasta puhkusega v&otilde;i antakse j&auml;rgmise t&ouml;&ouml;aasta kestel m&otilde;nel muul ajal.</s>
+</p>
+<p>
+<s>( 3 ) Kui pooled ei ole saavutanud kokkulepet puhkuse katkestamise t&otilde;ttu kasutamata j&auml;&auml;nud puhkuse v&otilde;i selle osa &uuml;leviimise kohta , on t&ouml;&ouml;tajal &otilde;igus j&auml;&auml;da puhkusele kasutamata j&auml;&auml;nud puhkusep&auml;evade ulatuses , teatades sellest t&ouml;&ouml;andjale kirjalikult ette kaks n&auml;dalat .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Puhkuse andmise vormistamine</s>
+</p>
+<p>
+<s>Puhkus vormistatakse t&ouml;&ouml;andja juures kehtestatud korras .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Puhkusetasu ja kasutamata puhkuse rahaline h&uuml;vitamine</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Puhkusetasu</s>
+</p>
+<p>
+<s>P&otilde;hi- ja lisapuhkuse aja eest maksab t&ouml;&ouml;andja t&ouml;&ouml;tajale puhkusetasu , mille arvutamise korra kehtestab Vabariigi Valitsus oma m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Puhkusetasu maksmine</s>
+</p>
+<p>
+<s>( 1 ) Puhkusetasu makstakse t&auml;ies ulatuses hiljemalt eelviimasel t&ouml;&ouml;p&auml;eval enne puhkuse algust .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja , kellele ei makstud puhkusetasu k&auml;esoleva paragrahvi l&otilde;igetes 1 v&otilde;i 3 etten&auml;htud ajal , v&otilde;ib n&otilde;uda puhkuse pikendamist puhkusetasu maksmisega viivitatud aja v&otilde;rra .</s>
+</p>
+<p>
+<s>( 3 ) Kollektiivlepingus s&auml;testatud tingimustel v&otilde;ib k&auml;esoleva seaduse &sect; 9 l&otilde;ike 2 punktides 4 ja 5 ning &sect; 10 l&otilde;ikes 1 nimetatud t&ouml;&ouml;tajale maksta puhkusetasu kahes osas , kusjuures v&auml;hemalt pool puhkusetasu makstakse hiljemalt eelviimasel t&ouml;&ouml;p&auml;eval enne puhkuse algust .</s><s>Teine osa puhkusetasu makstakse v&auml;lja kollektiivlepingus kokkulepitud ajal.</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Kasutamata puhkuse h&uuml;vitamine t&ouml;&ouml;lepingu v&otilde;i teenistussuhte l&otilde;ppemise korral</s>
+</p>
+<p>
+<s>T&ouml;&ouml;lepingu v&otilde;i teenistussuhete l&otilde;ppemise korral on t&ouml;&ouml;andja kohustatud t&ouml;&ouml;tajale maksma kasutamata j&auml;&auml;nud puhkuse eest rahalist h&uuml;vitist , kuid kokku mitte rohkem kui nelja aasta kasutamata j&auml;&auml;nud puhkuse eest .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Puhkusetasu maksmine riigieelarve vahenditest</s>
+</p>
+<p>
+<s>( 1 ) Riigieelarve vahenditest Sotsiaalministeeriumi eelarve kaudu makstakse :</s>
+</p>
+<p>
+<s>1 ) puhkusetasu ja kasutamata puhkuse rahalist h&uuml;vitist 28 kalendrip&auml;eva &uuml;letava puhkuseosa eest vastavalt k&auml;esoleva seaduse &sect; 9 l&otilde;ike 2 punktidele 1 ja 2 alaealistele ja isikutele , kellele on m&auml;&auml;ratud t&ouml;&ouml;v&otilde;imetuspension v&otilde;i rahvapension t&ouml;&ouml;v&otilde;imetuse alusel ;</s>
+</p>
+<p>
+<s>2 ) puhkusetasu k&auml;esoleva seaduse &sect;-s 30 s&auml;testatud t&auml;iendava lapsepuhkuse eest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1 ja 2 toodud puhkusetasu ja h&uuml;vitised maksab v&auml;lja t&ouml;&ouml;andja .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevas paragrahvis etten&auml;htud puhkusetasu ja h&uuml;vitise suuruse ning maksmise korra kehtestab Vabariigi Valitsus oma m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vanemapuhkused</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Rasedus- ja s&uuml;nnituspuhkus</s>
+</p>
+<p>
+<s>( 1 ) Naisele antakse s&uuml;nnituslehe alusel rasedus- ja s&uuml;nnituspuhkust 126 kalendrip&auml;eva .</s>
+</p>
+<p>
+<s>( 2 ) Mitmikute s&uuml;nni v&otilde;i t&uuml;sistustega s&uuml;nnituse korral antakse rasedus- ja s&uuml;nnituspuhkust 140 kalendrip&auml;eva .</s>
+</p>
+<p>
+<s>( 3 ) Rasedus- ja s&uuml;nnituspuhkus algab v&auml;hemalt 56 kalendrip&auml;eva enne arsti m&auml;&auml;ratud oodatavat s&uuml;nnituse t&auml;htaega .</s>
+</p>
+<p>
+<s>( 4 ) Rasedus- ja s&uuml;nnituspuhkuse aja eest makstakse h&uuml;vitist vastavalt Eesti Vabariigi ravikindlustusseadusele ( RT 1991 , 23 , 272 ; RT I 1999 , 7 , 113 ; 29 , 397 ; 2000 , 57 , 374 ; 84 , 536 ; 102 , 675 ) .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Lapsendaja puhkus</s>
+</p>
+<p>
+<s>Alla 4-aastase lapse lapsendajale antakse puhkust 70 kalendrip&auml;eva , alates lapsendamise p&auml;evast .</s><s>Selle aja eest makstakse h&uuml;vitist vastavalt Eesti Vabariigi ravikindlustusseadusele .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Lapsehoolduspuhkus</s>
+</p>
+<p>
+<s>( 1 ) Lapse emale v&otilde;i isale antakse tema soovil lapsehoolduspuhkust kuni 3-aastase lapse kasvatamiseks .</s><s>Lapsehoolduspuhkus l&otilde;peb hiljemalt lapse 3-aastaseks saamise p&auml;evale j&auml;rgneval p&auml;eval .</s>
+</p>
+<p>
+<s>( 2 ) Kui ema v&otilde;i isa ei kasuta lapsehoolduspuhkust , v&otilde;ib puhkuse anda lapse tegelikule hooldajale , kes seaduslikul alusel elab Eesti Vabariigis .</s>
+</p>
+<p>
+<s>( 3 ) Lapsehoolduspuhkust v&otilde;ib kasutada &uuml;hes osas v&otilde;i osade kaupa igal ajal kuni 3-aastase lapse kasvatamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Lapsehoolduspuhkust ei anta , kui laps elab sotsiaalhoolekandeasutuses .</s>
+</p>
+<p>
+<s>( 5 ) Lapsehoolduspuhkuse ajaks t&ouml;&ouml;leping v&otilde;i teenistussuhe peatub ja t&ouml;&ouml;tajale makstakse selle aja eest lapsehooldustasu vastavalt riiklike peretoetuste seadusele ( RT I 1997 , 42 , 676 ; 77 , 1309 ; 1998 , 86/87 , 1407 ; 1999 , 10 , 150 ; 16 , 273 ; 67 , 657 ; 82 , 749 ; 2000 , 102 , 668 ) .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>T&auml;iendav lapsepuhkus</s>
+</p>
+<p>
+<s>( 1 ) Isal on &otilde;igus saada ema rasedus- ja s&uuml;nnituspuhkuse ajal v&otilde;i kahe kuu jooksul p&auml;rast lapse s&uuml;ndi 14 kalendrip&auml;eva t&auml;iendavat lapsepuhkust .</s>
+</p>
+<p>
+<s>( 2 ) Emale v&otilde;i isale antakse tema soovil igal t&ouml;&ouml;aastal t&auml;iendavat lapsepuhkust :</s>
+</p>
+<p>
+<s>1 ) kolm kalendrip&auml;eva , kui tal on &uuml;ks v&otilde;i kaks alla 14-aastast last ;</s>
+</p>
+<p>
+<s>2 ) kuus kalendrip&auml;eva , kui tal on kolm v&otilde;i enam alla 14-aastast last v&otilde;i v&auml;hemalt &uuml;ks alla 3-aastane laps .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktides 1 ja 2 nimetatud puhkusele on &otilde;igus ka lapse eestkostjal , kes kasvatab last ilma vanemateta .</s>
+</p>
+<p>
+<s>( 4 ) Lapse 3-aastaseks ning 14-aastaseks saamise aastal antakse t&auml;iendav lapsepuhkus , olenemata sellest , kas lapse s&uuml;nnip&auml;ev on enne v&otilde;i p&auml;rast puhkust .</s>
+</p>
+<p>
+<s>( 5 ) T&auml;iendav lapsepuhkus liidetakse p&otilde;hi- ja lisapuhkusele , samuti pikendatud p&otilde;hipuhkusele ja antakse sellega koos v&otilde;i poolte kokkuleppel m&otilde;nel muul ajal samal t&ouml;&ouml;aastal .</s>
+</p>
+<p>
+<s>( 6 ) T&auml;iendavat lapsepuhkust ei anta , kui laps elab sotsiaalhoolekandeasutuses .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>T&auml;iendav palgata lapsepuhkus</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja on kohustatud t&ouml;&ouml;taja soovil andma t&auml;iendavat palgata lapsepuhkust :</s>
+</p>
+<p>
+<s>1 ) kuni 14-aastast last kasvatavale lapsevanemale , samuti eestkostjale v&otilde;i hooldajale , kellega on s&otilde;lmitud sotsiaalhoolekande seaduse ( RT I 1995 , 21 , 323 ; 1996 , 49 , 953 ; 1997 , 35 , 538 ; 77 , 1309 ; 2000 , 33 , 198 ) &sect; 15 l&otilde;ike 2 alusel kirjalik perekonnas hooldamise leping ;</s>
+</p>
+<p>
+<s>2 ) kuni 18-aastast puudega last kasvatavale lapsevanemale , samuti eestkostjale v&otilde;i hooldajale , kellega on s&otilde;lmitud sotsiaalhoolekande seaduse &sect; 15 l&otilde;ike 2 alusel kirjalik perekonnas hooldamise leping .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;iendavat palgata lapsepuhkust antakse kuni 14 kalendrip&auml;eva t&ouml;&ouml;aasta kestel poolte kokkuleppega m&auml;&auml;ratud ajal.</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Palgata ja osaliselt tasustatav puhkus</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Palgata puhkus poolte kokkuleppel</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tajale v&otilde;ib tema soovil anda palgata puhkust poolte kokkuleppega m&auml;&auml;ratud ajaks .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Osaliselt tasustatav puhkus t&ouml;&ouml;andja ettepanekul</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;mahu v&otilde;i tellimuste ajutisel v&auml;henemisel v&otilde;ib poolte kokkuleppel ja t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektori n&otilde;usolekul anda t&ouml;&ouml;tajale osaliselt tasustatavat puhkust kuni kolmeks kuuks , teatades sellest t&ouml;&ouml;tajale kirjalikult ette v&auml;hemalt kaks n&auml;dalat .</s>
+</p>
+<p>
+<s>( 2 ) Osaliselt tasustatava puhkuse ajal makstav puhkusetasu ei v&otilde;i olla v&auml;iksem kui 60 protsenti Vabariigi Valitsuse kehtestatud palga alamm&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud t&ouml;&ouml;korralduse muudatusega mitten&otilde;ustumise korral on t&ouml;&ouml;tajal &otilde;igus t&ouml;&ouml;andjapoolse t&ouml;&ouml;lepingu tingimuste rikkumise t&otilde;ttu t&ouml;&ouml;leping l&otilde;petada Eesti Vabariigi t&ouml;&ouml;lepingu seaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 4 ) Kui t&ouml;&ouml;andja saadab t&ouml;&ouml;taja osaliselt tasustatavale puhkusele ilma t&ouml;&ouml;taja v&otilde;i t&ouml;&ouml;inspektori n&otilde;usolekuta , siis on t&ouml;&ouml;andja kohustatud maksma h&uuml;vitust saamata j&auml;&auml;nud palga suuruses .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Palgata puhkuse andmise kohustus</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja on kohustatud t&ouml;&ouml;taja soovil andma palgata puhkust :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tajale g&uuml;mnaasiumi riigieksamite ning kutse&otilde;ppeasutuse , rakendusliku k&otilde;rgkooli v&otilde;i &uuml;likooli sisseastumiseksamite sooritamiseks ;</s>
+</p>
+<p>
+<s>2 ) muudel seaduse , muu &otilde;igusakti , kollektiiv- v&otilde;i t&ouml;&ouml;lepinguga etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) G&uuml;mnaasiumi riigieksamite ning kutse&otilde;ppeasutuse , rakendusliku k&otilde;rgkooli v&otilde;i &uuml;likooli sisseastumiseksamite sooritamiseks antakse palgata puhkust &otilde;ppeasutuse teatise alusel selles n&auml;idatud ajaks .</s><s>Muudel juhtudel antakse palgata puhkust vastavas seaduses , muus &otilde;igusaktis , kollektiiv- v&otilde;i t&ouml;&ouml;lepingus etten&auml;htud ulatuses .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Palgata puhkuse vormistamine</s>
+</p>
+<p>
+<s>Palgata puhkus vormistatakse t&ouml;&ouml;andja kehtestatud korras .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku j&auml;relevalvet k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide t&auml;itmise &uuml;le teostab T&ouml;&ouml;inspektsioon .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;inspektsiooni kohaliku asutuse juhatajal ja t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektoril on &otilde;igus teha ettekirjutusi k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide rikkumise korral ning kontrollida ettekirjutuse t&auml;itmist .</s><s>T&ouml;&ouml;inspektsiooni kohaliku asutuse juhataja ja t&ouml;&ouml;inspektori ettekirjutused on t&ouml;&ouml;andjale t&auml;itmiseks kohustuslikud .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Ettekirjutuse vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Kui t&ouml;&ouml;andja ei n&otilde;ustu oma asukoha ( elukoha ) t&ouml;&ouml;inspektori ettekirjutusega , on tal &otilde;igus esitada kas T&ouml;&ouml;inspektsiooni kohaliku asutuse juhatajale v&otilde;i halduskohtule kaebus ettekirjutuse saamise p&auml;evast arvates k&uuml;mne kalendrip&auml;eva jooksul .</s><s>Kui ettekirjutuse on teinud T&ouml;&ouml;inspektsiooni kohaliku asutuse juhataja , on t&ouml;&ouml;andjal ettekirjutusega mitten&otilde;ustumise korral &otilde;igus esitada kaebus kas T&ouml;&ouml;inspektsiooni peadirektorile v&otilde;i halduskohtule ettekirjutuse saamise p&auml;evast arvates k&uuml;mne kalendrip&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine ei vabasta kohustusest ettekirjutust t&auml;ita .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;inspektsiooni kohaliku asutuse juhatajal , T&ouml;&ouml;inspektsiooni peadirektoril v&otilde;i halduskohtul on &otilde;igus kaebuse esitaja taotlusel v&otilde;i omal algatusel peatada ettekirjutuse t&auml;itmine kuni kaebuse lahendamiseni .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;inspektsiooni kohaliku asutuse juhataja v&otilde;i T&ouml;&ouml;inspektsiooni peadirektor vaatab kaebuse l&auml;bi ning kaebuse saamise p&auml;evast arvates &uuml;he n&auml;dala jooksul otsustab , kas j&auml;tta ettekirjutus j&otilde;usse , see muuta v&otilde;i t&uuml;histada .</s><s>Otsus tehakse kaebuse esitajale teatavaks allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s><s>Kui kaebuse esitaja T&ouml;&ouml;inspektsiooni kohaliku asutuse juhataja v&otilde;i T&ouml;&ouml;inspektsiooni peadirektori otsusega ei n&otilde;ustu , v&otilde;ib ta selle vaidlustada halduskohtus .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>K&auml;esoleva seaduse &sect; 8 kohaldamine</s>
+</p>
+<p>
+<s>Enne k&auml;esoleva seaduse j&otilde;ustumist tekkinud puhkusen&otilde;udele ei kohaldata aegumist .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Eesti Vabariigi t&ouml;&ouml;lepingu seaduse muutmine</s>
+</p>
+<p>
+<s>Eesti Vabariigi t&ouml;&ouml;lepingu seaduse ( RT 1992 , 15/16 , 241 ; 1993 , 10 , 150 ; RT I 1993 , 26 , 441 ; 1995 , 14 , 170 ; 16 , 228 ; 1996 , 3 , 57 ; 40 , 773 ; 45 , 850 ; 49 , 953 ; 1997 , 5/6 , 32 ; 1998 , 111 , 1829 ; 1999 , 16 , 276 ; 60 , 616 ; 2000 , 25 , 144 ; 51 , 327 ; 57 , 370 ; 102 , 669 ; 2001 , 17 , 78 ) &sect; 92 pealkirjas ja l&otilde;ikes 1 asendatakse s&otilde;na &ldquo; naisega &rdquo; s&otilde;naga &ldquo; isikuga &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Avaliku teenistuse seaduse muutmine</s>
+</p>
+<p>
+<s>Avaliku teenistuse seaduse ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ; 2001 , 7 , 17 ja 18 ; 17 , 78 ) &sect; 133 l&otilde;ikes 2 asendatakse s&otilde;na &ldquo; naist &rdquo; s&otilde;naga &ldquo; isikut &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Palgaseaduse muutmine</s>
+</p>
+<p>
+<s>Palgaseaduse ( RT I 1994 , 11 , 154 ; 1995 , 12 , 120 ; 1999 , 29 , 397 ; 2000 , 10 , 59 ; 40 , 248 ) &sect;-s 31 tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) l&otilde;ikest 1 <hi rend="sup">1</hi> j&auml;etakse v&auml;lja s&otilde;nad &ldquo; , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 6 s&auml;testatud juhul &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) l&otilde;ige 6 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Eesti Vabariigi ravikindlustusseaduse muutmine</s>
+</p>
+<p>
+<s>Eesti Vabariigi ravikindlustusseaduses ( RT 1991 , 23 , 272 ; RT I 1999 , 7 , 113 ; 29 , 397 ; 2000 , 57 , 374 ; 84 , 536 ; 102 , 675 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 8 l&otilde;ike 2 punkt 2 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 8 l&otilde;iget 3 t&auml;iendatakse punktiga 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 4 ) alla 4-aastase lapse lapsendaja puhkuse korral . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 9 l&otilde;ike 3 punkt 2 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 9 l&otilde;iget 4 t&auml;iendatakse punktiga 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 4 ) alla 4-aastase lapse lapsendaja puhkuse korral hoolduslehe alusel 70 kalendrip&auml;eva eest , arvates lapsendamise p&auml;evast . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 10 <hi rend="sup">4</hi> l&otilde;ike 1 punktis 3 asendatakse s&otilde;nad &ldquo; alla 1-aastase &rdquo; s&otilde;nadega &ldquo; alla 4-aastase &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Eesti Vabariigi puhkuseseaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tunnistatakse kehtetuks Eesti Vabariigi puhkuseseadus ( RT 1992 , 37 , 481 ; 1993 , 10 , 150 ; RT I 1994 , 84 , 1474 ; 1995 , 16 , 228 ; 1997 , 74 , 1229 ; 93 , 1560 ; 1999 , 82 , 749 ; 2001 , 17 , 78 ) .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2002. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

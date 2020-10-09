@@ -1,0 +1,2122 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Tolliseadus ( terviktekst juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   12786</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Tolliseadus ( terviktekst juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=9></tagusage>
+         <tagusage gi=p occurs=672></tagusage>
+         <tagusage gi=s occurs=872></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Tolliseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 17. detsembril 1997. a.</s>
+</p>
+<p>
+<s>( RT I 1998 , 3 , 54 ; terviktekst RT I 1999 , 86 , 782 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 19. jaanuaril 1998. a.</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>06.06.2001 j&otilde;ust.01.09.2001 - RT I 2001 , 56 , 335 ;</s>
+</p>
+<p>
+<s>15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 ;</s>
+</p>
+<p>
+<s>15.12.1999 j&otilde;ust.10.01.2000 - RT I 1999 , 102 , 907 ;</s>
+</p>
+<p>
+<s>09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk .</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Kasutatavad m&otilde;isted</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses kasutatakse m&otilde;isteid j&auml;rgmises t&auml;henduses :</s>
+</p>
+<p>
+<s>1 ) deklarant - isik , kes esitab deklareeritava kauba ja tollideklaratsiooni kas enda nimel ja enda eest v&otilde;i enda nimel , kuid m&otilde;ne teise isiku eest ;</s>
+</p>
+<p>
+<s>2 ) deklareerimine - tollieeskirjades etten&auml;htud vormis avaldus v&otilde;i k&auml;itumine , millega isik annab tollikontrolliks n&otilde;utavat informatsiooni ;</s>
+</p>
+<p>
+<s>3 ) deklareeritav kaup - kaup , mille kohta tuleb k&auml;esolevas seaduses v&otilde;i teistes &otilde;igusaktides etten&auml;htud juhtudel esitada tollideklaratsioon ;</s>
+</p>
+<p>
+<s>4 ) impordi- ja ekspordimaksud - tollimaks ja muud maksud , mida v&otilde;etakse seoses kauba sisse- ja v&auml;ljaveoga , kuid mis ei sisalda tolliteenuste eest v&otilde;etavat tasu ;</s>
+</p>
+<p>
+<s>5 ) isik - Eesti v&otilde;i v&auml;lisriigi f&uuml;&uuml;siline v&otilde;i juriidiline isik , riigi- v&otilde;i kohaliku omavalitsuse asutus , samuti rahvusvaheliste organisatsioonide asutused , olenemata sellest , kas need on juriidilised isikud v&otilde;i mitte ;</s>
+</p>
+<p>
+<s>6 ) isiklikud asjad - reisija poolt reisil kasutamiseks m&otilde;eldud esemed , kaasa arvatud tema valduses olev s&otilde;iduk , mis ei ole kommertsveok ;</s>
+</p>
+<p>
+<s>7 ) kauba valdaja - isik , kes hoiab kaupa laos v&otilde;i muul viisil vastutab kauba s&auml;ilimise eest enda juures , toimetab edasi kaupa v&otilde;i teostab kaubaga muid toiminguid , samuti isik , kelle veokis , hoones , rajatises v&otilde;i territooriumil kaup asub , kui isik ei t&otilde;esta tollile , et kaup sattus sinna tema tahte vastaselt ;</s>
+</p>
+<p>
+<s>8 ) kaup - &uuml;le tollipiiri toimetatav v&otilde;i toimetatud vara , sealhulgas asjad , valuuta ja v&auml;&auml;rtpaberid ning loomad ja taimed ; kaubana m&otilde;istetakse ka strateegilist kaupa ;</s>
+</p>
+<p>
+<s>9 ) kommertsveok - iseliikuv , veetav v&otilde;i l&uuml;katav vee- , &otilde;hu- v&otilde;i maantees&otilde;iduk v&otilde;i raudteeveerem , mida kasutatakse inimeste tasuliseks veoks v&otilde;i kauba tasuliseks v&otilde;i tasuta veoks ;</s>
+</p>
+<p>
+<s>10 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 ) ;</s>
+</p>
+<p>
+<s>11 ) printsipaal - isik , kes on v&otilde;tnud endale kohustuse kauba tollitransiitveo korraldamiseks l&auml;htetollipunktist sihttollipunkti ning kellel on tagatis v&otilde;i kes on vabastatud tollile tagatise esitamisest ;</s>
+</p>
+<p>
+<s>12 ) reisija - tollipiiri seaduslikult &uuml;letav f&uuml;&uuml;siline isik , s&otilde;ltumata tollipiiri &uuml;letamise eesm&auml;rgist ;</s>
+</p>
+<p>
+<s>13 ) tagatis - tolli rahuldav rahalise kattega dokument tolliv&otilde;last tuleneva maksusumma tasumise tagamiseks ;</s>
+</p>
+<p>
+<s>14 ) toll - &uuml;ldm&otilde;iste , kui ei ole m&auml;&auml;ratletud , millise Tolliameti struktuuri&uuml;ksusega ( edaspidi tolliasutus ) on tegemist ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>15 ) tollideklaratsioon - tolli poolt n&otilde;utavaid &uuml;ksikasju sisaldav dokument , mis esitatakse kirjalikult v&otilde;i automaatse andmet&ouml;&ouml;tluse s&uuml;steemi sidevahendite kaudu kauba tollivormistuseks ;</s>
+</p>
+<p>
+<s>16 ) tollieeskirjad - tollikorraldust reguleerivad seadused ning Vabariigi Valitsuse ja ministrite m&auml;&auml;rused ;</s>
+</p>
+<p>
+<s>17 ) tolliformaalsused - toimingud , mida tuleb kauba valdajal , deklarandil v&otilde;i muul asjassepuutuval isikul ja tollil teha selleks , et t&auml;ita k&auml;esolevat seadust ja teisi &otilde;igusakte , mille t&auml;itmise eest vastutab toll ning mis on kehtestatud isikute kontrollimiseks tollipiiril ja pagasi , kauba ning transpordivahendi vormistamiseks nende sisse- , v&auml;lja- v&otilde;i transiitveol ;</s>
+</p>
+<p>
+<s>18 ) tolli j&auml;relevalve - tolli poolt rakendatavad meetmed tollikontrolli alla kuuluva kauba v&otilde;i transpordivahendi liikumise ja hoidmise arvestamiseks ;</s>
+</p>
+<p>
+<s>19 ) tollikontroll - meetmed nende seaduste ja teiste &otilde;igusaktide t&auml;itmise tagamiseks , mille rakendamise eest vastutab toll ;</s>
+</p>
+<p>
+<s>20 ) tollikontrolli tsoon - tolliterritooriumi osa , kus kaubale ja isikule v&otilde;ib rakendada k&otilde;iki tollikontrolli meetmeid ;</s>
+</p>
+<p>
+<s>20 <hi rend="sup">1</hi> ) tollik&auml;itlusviis - kaubale tolliprotseduuri kohaldamine , kauba toimetamine vabatsooni , v&auml;ljatoimetamine tolliterritooriumilt , h&auml;vitamine tolli j&auml;relevalve all v&otilde;i &uuml;leandmine riigi omandisse tollieeskirjades etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>21 ) tollil&auml;bivaatus - tolli poolt korraldatav inspekteerimine selleks , et kontrollida , kas tollile deklareeritud andmed vastavad tegelikkusele ;</s>
+</p>
+<p>
+<s>22 ) tollimaakler - kolmas isik , kes seoses kauba Eesti tolliterritooriumile v&otilde;i sellelt v&auml;ljatoimetamisega suhtleb deklarandina vahetult tolliga , korraldades tollivormistust enda nimel teise isiku eest viimasega kokkuleppel ;</s>
+</p>
+<p>
+<s>23 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 ) ;</s>
+</p>
+<p>
+<s>24 ) tolliprotseduur - tolli poolt tollikontrollile allutatud kaubale rakendatav menetlus ;</s>
+</p>
+<p>
+<s>25 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 ) ;</s>
+</p>
+<p>
+<s>26 ) tollitrass - tollieeskirjadega tolliterritooriumil transiitveosele kindlaksm&auml;&auml;ratud liikumistee ;</s>
+</p>
+<p>
+<s>27 ) tollit&otilde;kend - plomm , pitser v&otilde;i muu t&otilde;kkeabin&otilde;u , mis on paigaldatud tolliametniku poolt kauba , kommertsveoki v&otilde;i hoidla puutumatuse tagamiseks ;</s>
+</p>
+<p>
+<s>28 ) tollivormistus - tolliformaalsuste t&auml;itmine selleks , et lubada kaup sisse v&otilde;i v&auml;lja vedada v&otilde;i kohaldada kaubale tolliprotseduuri ;</s>
+</p>
+<p>
+<s>29 ) tolliv&otilde;lg - isiku kohustus maksta kauba sisse- ja v&auml;ljaveol tollile impordi- ja ekspordimaksud ;</s>
+</p>
+<p>
+<s>30 ) vaba ringlus - kauba tollist s&otilde;ltumatu k&auml;sutamine ;</s>
+</p>
+<p>
+<s>31 ) veok - kommertsveok v&otilde;i muu s&otilde;iduk ;</s>
+</p>
+<p>
+<s>32 ) v&otilde;lgnik - isik , kellel lasub tolliv&otilde;last tuleneva maksusumma tasumise kohustus ;</s>
+</p>
+<p>
+<s>33 ) &uuml;le tollipiiri toimetamine - kauba sissevedu Eesti tolliterritooriumile , v&auml;ljavedu sellelt territooriumilt ning transiitvedu &uuml;ksk&otilde;ik missuguse transpordiga , kaasa arvatud torujuhtmetransport ja elektri&uuml;lekandeliinide kasutamine .</s>
+</p>
+<p>
+<s>34 ) &uuml;mberasuja - alalise elukoha vahetusega seoses Eestist lahkuv isik v&otilde;i Eestisse alaliselt elama asuv pidevalt &uuml;le 12 kuu v&auml;lisriigis elanud isik .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Tollipoliitika ja tollikorraldus</s>
+</p>
+<p>
+<s>( 1 ) Eesti Vabariik teostab &uuml;htset tollipoliitikat , mis tagab riigi huvide kaitse ning tollikorralduse arengu koosk&otilde;las rahvusvahelise praktika &uuml;ldtunnustatud normide ja standarditega .</s>
+</p>
+<p>
+<s>( 2 ) Eesti Vabariigi tollipoliitika elluviija ja tollikorralduse vahetu juhtija on Tolliamet .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Tolliterritoorium ja tollipiir</s>
+</p>
+<p>
+<s>( 1 ) Eesti tolliterritoorium ( edaspidi tolliterritoorium ) on Eesti Vabariigi jurisdiktsiooni all olev territoorium , mis h&otilde;lmab maa-ala , territoriaalveed ja &otilde;huruumi nende kohal .</s>
+</p>
+<p>
+<s>( 2 ) Tolliterritooriumi &uuml;mbritseb tollipiir .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsuse korraldusega v&otilde;ib tolliterritooriumil paiknevas sadamas , lennujaamas v&otilde;i vahetult tollipiiri&auml;&auml;rses transpordis&otilde;lmes luua vabatsoone .</s><s>Vabatsoonid luuakse t&auml;htajaliselt .</s>
+</p>
+<p>
+<s>( 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 )</s>
+</p>
+<p>
+<s>( 4 ) Vabatsoon luuakse territooriumil , kus toimub majandustegevus ning on olemas vabatsooni loomiseks vajalikud eeldused : ehitised , teed , infrastruktuur , tootmis- , t&ouml;&ouml;tlemis- ja ladustamisv&otilde;imalused , eraldatus muust tolliterritooriumist ning valves&uuml;steem .</s><s>Vabatsooni loomiseks on vajalik vabatsooni territooriumi seadusliku valdaja ja omaniku , kui ta ei ole valdaja , kirjalik n&otilde;usolek .</s><s>Mitme valdaja ja omaniku korral , kui omanik ei ole valdaja , on vajalik nende k&otilde;igi kirjalik n&otilde;usolek .</s>
+</p>
+<p>
+<s>( 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Vabatsoon</s>
+</p>
+<p>
+<s>( 1 ) Vabatsoon on tolliterritooriumi osa , mis on muust tolliterritooriumist eraldatud p&uuml;siva piirdega ning kus ei paikne avalikult kasutatavaid teid , elamuid ega &uuml;hiskondlikult kasutatavaid hooneid ja kus kehtivad erilised tollikontrolli meetmed .</s><s>Vabatsoonis asuv kaup loetakse impordi- ja ekspordimaksude ning impordi reguleerimiseks kehtestatud kaubanduspoliitika meetmete suhtes v&auml;ljaspool tolliterritooriumi olevaks .</s>
+</p>
+<p>
+<s>( 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 )</s>
+</p>
+<p>
+<s>( 2 ) Vabatsoonist muule tolliterritooriumile ja sealt vabatsooni toimetatav kaup maksustatakse vastavalt seadustele impordi- ja ekspordimaksudega .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lisriigist vabatsooni ja sealt v&auml;lisriiki toimetatav kaup ei kuulu &uuml;ldjuhul tollivormistusele ning v&auml;ljaspool vabatsooni transporditakse seda kaupa tolliterritooriumil tollitransiidiga .</s>
+</p>
+<p>
+<s>( 4 ) Igasugune majandustegevus , hoone v&otilde;i rajatise ehitamine vabatsoonis n&otilde;uab tolli kirjalikku luba .</s><s>Toll v&otilde;ib keelata selle tegevuse j&auml;tkamise vabatsoonis isikul , kes ei t&auml;ida tollieeskirjade n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 5 ) Kauba valdajad , kes on seotud vabatsoonis kauba ladustamise , t&ouml;&ouml;tlemise , m&uuml;&uuml;gi v&otilde;i ostmisega , peavad pidama laoarvestust tolli poolt kinnitatud vormis .</s><s>Kaup tuleb kanda laoregistrisse kohe , kui see on saabunud eelnimetatud isiku valdusesse .</s>
+</p>
+<p>
+<s>( 6 ) Vabatsoonis on keelatud :</s>
+</p>
+<p>
+<s>1 ) kauba jaem&uuml;&uuml;k , v&auml;lja arvatud seal t&ouml;&ouml;tavate isikute toitlustamine ;</s>
+</p>
+<p>
+<s>2 ) selliste teenuste osutamine , mis ei ole otseselt seotud vabatsoonis asuva kauba v&otilde;i vabatsooni tegevusega .</s>
+</p>
+<p>
+<s>( 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 )</s>
+</p>
+<p>
+<s>( 7 ) J&auml;relevalvet vabatsooni piiri ning sisse- ja v&auml;ljap&auml;&auml;sude &uuml;le teostab toll .</s><s>Vabatsooni piiril ja vabatsoonis toimuva tollikontrolli eeskirja kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 8 ) Vabatsoon l&otilde;peb t&auml;htaja l&otilde;ppemisel v&otilde;i l&otilde;petatakse Vabariigi Valitsuse korraldusega ennet&auml;htaegselt , kui vabatsoon ei vastanud tollieeskirjades etten&auml;htud n&otilde;uetele v&otilde;i neid n&otilde;udeid enam ei t&auml;ideta .</s>
+</p>
+<p>
+<s>( 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Tollikontrolli tsoon</s>
+</p>
+<p>
+<s>( 1 ) Tollikontrolli tsoon h&otilde;lmab piiriv&ouml;&ouml;ndi , territoriaalveed , tollitrassid , tollipunktid , tolliterminalid , tollilaod ja mis tahes maa-ala , siseveeala v&otilde;i hoone , mille Tolliamet on koosk&otilde;lastatult selle omaniku ja valdajaga p&uuml;sivalt v&otilde;i ajutiselt m&auml;&auml;ranud tolliformaalsuste l&auml;biviimiseks .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Tolliformaalsuste l&otilde;puleviimise koha tollikontrolli tsoonis m&auml;&auml;rab toll .</s>
+</p>
+<p>
+<s>( 3 ) Tollikontrolli tsoonis on keelatud tolli loata kauba veokilt maha- ja pealelaadimine , samuti kauba tollikontrolli tsoonist v&auml;ljaviimine enne , kui n&otilde;utud tolliformaalsused on t&auml;idetud .</s>
+</p>
+<p>
+<s>( 4 ) Reisijate teenindamiseks etten&auml;htud m&uuml;&uuml;gipunktidel on lubatud tegutseda ainult reisijate liikluseks avatud rahvusvahelise lennujaama tollikontrolli tsoonis .</s><s>Loa m&uuml;&uuml;gipunkti tegutsemiseks v&auml;ljastab ja t&uuml;histab Tolliamet .</s><s>Loa v&otilde;ib t&uuml;histada , kui m&uuml;&uuml;gipunkti omanik v&otilde;i tema t&ouml;&ouml;taja on rikkunud loaga kehtestatud re&zcaron;iimi , on tunnistatud s&uuml;&uuml;di tollieeskirjade v&otilde;i maksuseaduse rikkumises v&otilde;i on loa taotlemisel esitanud Tolliametile andmeid , mis ei vasta tegelikkusele .</s><s>M&uuml;&uuml;gipunkti asutamise , tegutsemise ja tegevuse l&otilde;petamise tingimused ning korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Tollivormistuse keel</s>
+</p>
+<p>
+<s>( 1 ) Tollidokumendid vormistatakse eesti keeles .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lislepingus v&otilde;i tollieeskirjades etten&auml;htud juhtudel v&otilde;ib tollidokumente vormistada ka m&otilde;nes muus keeles .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lisriigist saabuva kauba tollivormistusel v&otilde;ib toll aktsepteerida ka v&otilde;&otilde;rkeelseid dokumente .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Tollis&uuml;mboolika</s>
+</p>
+<p>
+<s>( 1 ) Tolliametil on tollilipp , tollivapp ja tolliembleem .</s>
+</p>
+<p>
+<s>( 2 ) Tollilipu , tollivapi ja tolliembleemi kirjelduse kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Tollilipu , tollivapi ja tolliembleemi kasutamise korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>V&auml;lislepingud</s>
+</p>
+<p>
+<s>Kui v&auml;lislepingus , mis on Eesti Vabariigi suhtes j&otilde;ustunud , on kehtestatud k&auml;esolevas seaduses v&otilde;i teistes tollikorraldust reguleerivates &otilde;igusaktides etten&auml;htust erinevad s&auml;tted , rakendatakse v&auml;lislepingu s&auml;tteid .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Tolliasutused</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Tolliameti struktuur</s>
+</p>
+<p>
+<s>( 1 ) Tolliamet jaguneb osakondadeks ja piirkondlikeks tolliinspektuurideks .</s>
+</p>
+<p>
+<s>( 2 ) Tolliameti &uuml;lesandeid kindlaksm&auml;&auml;ratud piirkondades t&auml;idavad piirkondlikud tolliinspektuurid .</s>
+</p>
+<p>
+<s>( 3 ) Piirkondlik tolliinspektuur viib l&auml;bi tolliformaalsusi tollipunktides .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Tolliasutuste &uuml;lesanded</s>
+</p>
+<p>
+<s>Eesti Vabariigi tollipoliitika elluviimisel t&auml;idavad tolliasutused j&auml;rgmisi &uuml;lesandeid :</s>
+</p>
+<p>
+<s>1 ) tollieeskirjade rakendamine ning kauba tolliterritooriumile ja sellelt v&auml;ljatoimetamise seaduslikkuse kontrollimine ;</s>
+</p>
+<p>
+<s>2 ) tolliformaalsuste t&auml;itmiseks vajaliku informatsiooni k&auml;ttesaadavuse v&otilde;imaldamine k&otilde;igile huvitatud isikutele ;</s>
+</p>
+<p>
+<s>3 ) impordi- ja ekspordimaksude , intresside , riigil&otilde;ivu ning tolliteenuste eest v&otilde;etavate tasude m&auml;&auml;ramine , sissen&otilde;udmine ja vastava arvestuse pidamine ;</s>
+</p>
+<p>
+<s>4 ) tollistatistikaks vajaliku informatsiooni kogumine ;</s>
+</p>
+<p>
+<s>5 ) tollikorraldusse puutuvate Eesti Vabariigi v&auml;lislepingutega v&otilde;etud kohustuste t&auml;itmine ;</s>
+</p>
+<p>
+<s>6 ) tollialane koost&ouml;&ouml; v&auml;lisriikide tolli- ja muude p&auml;devate asutustega ning rahvusvaheliste organisatsioonidega .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Tolliametnikud</s>
+</p>
+<p>
+<s>( 1 ) Tolliametnikud on tolliasutuste ametiisikud ning neile laienevad riigiametnikele kehtestatud n&otilde;uded , &otilde;igused ja kohustused , mida on t&auml;psustatud tollieeskirjadega .</s>
+</p>
+<p>
+<s>( 2 ) Tolliametnikena ning tolliasutuste juures tegutsevate tollilaborite , teadus- ja &otilde;ppeasutuste juhtidena v&otilde;ivad t&ouml;&ouml;tada ainult Eesti kodanikud .</s>
+</p>
+<p>
+<s>( 3 ) Tolliametnikud on kohustatud t&ouml;&ouml;&uuml;lesannete t&auml;itmisel esitama esimesel n&otilde;udmisel ametit&otilde;endi .</s>
+</p>
+<p>
+<s>( 4 ) Tolliametnikud kannavad teenistuses olles etten&auml;htud juhtudel vormiriietust ja relva .</s><s>Relva kandmise ja kasutamise kord kehtestatakse relvaseaduse ( RT I 1995 , 62 , 1056 ; 1997 , 93 , 1564 ; 1999 , 57 , 597 ) ja vastavate Vabariigi Valitsuse &otilde;igusaktidega .</s>
+</p>
+<p>
+<s>( 5 ) Tolliametnikud ei tohi olla seotud &uuml;le tollipiiri toimetatava kaubaga tehtavate tehingutega .</s><s>Tolliametniku t&ouml;&ouml;tamine v&auml;ljaspool tolli tuleb tolliasutuses registreerida .</s>
+</p>
+<p>
+<s>( 6 ) Tolliametnikud on kohustatud hoidma saladuses neile seoses teenistuskohustuste t&auml;itmisega teatavaks saanud riigi- , panga- ja &auml;risaladust ning ametialast informatsiooni .</s>
+</p>
+<p>
+<s>( 7 ) Tolliametnikud on teenistuskohustuste t&auml;itmisel s&otilde;ltumatud ning juhinduvad oma tegevuses k&auml;esolevast seadusest ja teistest &otilde;igusaktidest .</s>
+</p>
+<p>
+<s>( 8 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Tolli koost&ouml;&ouml; teiste t&auml;idesaatva riigiv&otilde;imu asutustega</s>
+</p>
+<p>
+<s>( 1 ) Oma &uuml;lesannete t&auml;itmisel teeb toll koost&ouml;&ouml;d teiste t&auml;idesaatva riigiv&otilde;imu asutustega vastavalt tollieeskirjadele .</s>
+</p>
+<p>
+<s>( 2 ) Eesti piirivalve- ja politseiametnikud on kohustatud oma p&auml;devuse piires abistama tolliametnikke t&ouml;&ouml;&uuml;lesannete t&auml;itmisel , tagamaks avalikku korda , tolliametniku seaduslike n&otilde;udmiste t&auml;itmist ning tollieeskirjade rikkumise t&otilde;kestamist .</s>
+</p>
+<p>
+<s>( 3 ) Piirivalveamet on kohustatud Vabariigi Valitsuse kehtestatud juhtudel ja korras l&auml;bi viima tolliformaalsusi ning t&otilde;kestama kauba ebaseaduslikku tolliterritooriumile v&otilde;i sellelt v&auml;ljatoimetamist tollipunktide vahelisel tollipiiril ja territoriaalvetes .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) Tolliametnikud on kohustatud oma p&auml;devuse piires kaasa aitama f&uuml;&uuml;siliste isikute ebaseaduslike piiri&uuml;letamiskatsete t&otilde;kestamisele ning edastama piirivalvele viivitamatult neile teada oleva asjakohase informatsiooni .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Kaebused tolli tegevuse peale</s>
+</p>
+<p>
+<s>Kaebused tolli tegevuse peale esitatakse k&otilde;rgemalseisvale tolliasutusele 30 kalendrip&auml;eva jooksul arvates p&auml;evast , millal kaebuse esitaja sai v&otilde;i oleks pidanud saama teada oma &otilde;iguste rikkumisest .</s><s>Kaebus vaadatakse l&auml;bi ja selle esitajat informeeritakse l&auml;bivaatamise tulemustest 30 kalendrip&auml;eva jooksul kaebuse saamise p&auml;evast arvates .</s><s>Kaebuse esitajal on &otilde;igus vaidluse igas faasis esitada kaebus kohtule .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Tolli vastutus kahju tekitamise eest</s>
+</p>
+<p>
+<s>Kahju , mida toll on &otilde;igusvastase tegevusega tekitanud , h&uuml;vitatakse tsiviilkorras .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Deklareerimine</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) Kauba tolliterritooriumile v&otilde;i sellelt v&auml;ljatoimetamise loa saamiseks tuleb deklareeritav kaup tollis deklareerida .</s><s>Selleks tuleb tollile kirjalikult v&otilde;i automaatse andmet&ouml;&ouml;tluse s&uuml;steemi sidevahendite kaudu esitada tollideklaratsioon , mis peab sisaldama tollieeskirjades n&otilde;utavaid andmeid .</s>
+</p>
+<p>
+<s>( 2 ) Deklareeritava kauba ja tollideklaratsiooni esitab tollile deklarant v&otilde;i tema volitatud isik .</s><s>Tollieeskirjades etten&auml;htud juhtudel on tollil &otilde;igus n&otilde;uda volitatud isikult notariaalselt t&otilde;estatud volitust .</s>
+</p>
+<p>
+<s>( 3 ) Deklarant ja isik , kelle eest kaubadeklaratsioon esitati , vastutavad tollideklaratsioonis deklareeritud andmete t&auml;ielikkuse ja &otilde;igsuse ning esitatud dokumentide autentsuse eest , samuti &uuml;le tollipiiri toimetatava v&otilde;i toimetatud kauba tollideklaratsioonile vastavuse eest .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) Tollikontrolli tsooni sisenenud reisija , kellel tollipiiri &uuml;letades ei ole kaasas deklareeritavat kaupa , deklareerib sellest tollile tollieeskirjade kohaselt suuliselt v&otilde;i vastava k&auml;itumisega .</s>
+</p>
+<p>
+<s>( 5 ) Eriluba n&otilde;udev kaup on deklareeritav kaup , kui eriloa kehtestaja ei ole m&auml;&auml;ranud teisiti .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Tollimaakler</s>
+</p>
+<p>
+<s>( 1 ) Tollimaakler esitab tollile tollideklaratsiooni enda nimel , kuid m&otilde;ne teise isiku eest ja vastutab kauba tollivormistuse l&auml;biviimise ning tolliv&otilde;last tuleneva maksusumma tasumise eest vastavalt tollieeskirjadele .</s>
+</p>
+<p>
+<s>( 2 ) Tollimaakleri tegevusloa annab v&auml;lja Tolliamet Eestis registreeritud isikule .</s><s>Tollimaakler v&otilde;ib olla ka tolliterminali v&otilde;i tollilao pidaja ja kauba tollitransiitveol printsipaal .</s>
+</p>
+<p>
+<s>( 3 ) Tollimaakleri tegevusloa v&auml;ljaandmise tingimused ja korra ning tegevuse eeskirja kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Tollideklaratsioon</s>
+</p>
+<p>
+<s>( 1 ) Tollikontrollile allutatavale kaubale vormistatakse j&auml;rgmisi tollideklaratsioone :</s>
+</p>
+<p>
+<s>1 ) &uuml;lddeklaratsioon ;</s>
+</p>
+<p>
+<s>2 ) kaubadeklaratsioon ;</s>
+</p>
+<p>
+<s>3 ) tolliv&auml;&auml;rtuse deklaratsioon ;</s>
+</p>
+<p>
+<s>4 ) reisija deklaratsioon ;</s>
+</p>
+<p>
+<s>5 ) postisaadetise deklaratsioon .</s>
+</p>
+<p>
+<s>( 2 ) Tollideklaratsioon v&otilde;i seda asendav tollieeskirjades etten&auml;htud dokument loetakse tollidokumendiks p&auml;rast selles sisalduva informatsiooni ammendavuse ning n&otilde;utavate lisadokumentide olemasolu kontrolli ja aktsepteerimist tolli poolt .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>&Uuml;lddeklaratsioon</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;lddeklaratsioon on kommertsveoki p&otilde;hiline saabumis- v&otilde;i lahkumisdokument , mis sisaldab &uuml;ldisi andmeid kommertsveoki , reisi , tarbevaru , veetava kauba , meeskonna ja reisijate kohta .</s>
+</p>
+<p>
+<s>( 2 ) Tollieeskirjades etten&auml;htud juhtudel v&otilde;ib &uuml;lddeklaratsioonina kasutada selleks etten&auml;htud vormi v&otilde;i rahvusvahelise kaubaveo v&otilde;i tollitransiidi dokumenti , mis sisaldab kaupade identifitseerimiseks vajalikke andmeid .</s><s>&Uuml;lddeklaratsiooni esitab Eestis registreeritud isik , kui tollieeskirjades ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Isik , kes toimetab kauba tolliterritooriumile , on p&auml;rast tollipiiri &uuml;letamist kohustatud esitama &uuml;lddeklaratsiooni ja kauba l&auml;himale selleks etten&auml;htud tolliasutusele v&otilde;i tagama &uuml;lddeklaratsiooni ja kauba esitamise l&auml;himale selleks etten&auml;htud tolliasutusele .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud &uuml;lddeklaratsiooni vormi ja &uuml;lddeklaratsiooni t&auml;itmise juhendi kinnitab rahandusminister .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Kaubadeklaratsioon</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;le tollipiiri toimetatavale v&otilde;i toimetatud kaubale kohaldatava tolliprotseduuri m&auml;&auml;ramiseks esitab deklarant tollile kaubadeklaratsiooni .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Kaubadeklaratsiooni esitab deklarant , kelleks on Eestis registreeritud isik , kui tollieeskirjades ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Enne kaubadeklaratsiooni esitamist tollile on deklarandil &otilde;igus v&otilde;tta kaubast anal&uuml;&uuml;simiseks v&otilde;i uurimiseks proove ja n&auml;idiseid , mis deklareeritakse kaubast eraldi v&otilde;i koos kaubaga .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Kauba &uuml;le tollipiiri toimetamisel peab isik esitama kaubadeklaratsiooni juhul , kui kauba tolliv&auml;&auml;rtus &uuml;letab 1000 krooni .</s><s>Kaubadeklaratsiooni v&otilde;ib esitada ka juhul , kui kauba tolliv&auml;&auml;rtus ei &uuml;leta 1000 krooni .</s>
+</p>
+<p>
+<s>( 4 ) Kaubadeklaratsiooni vormid ja kaubadeklaratsiooni t&auml;itmise juhendi kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 5 ) Kaubadeklaratsiooni ja selles tehtud m&auml;rgete annulleerimise ning kaubadeklaratsioonis p&auml;rast kauba vabastamist paranduste tegemise korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 6 ) P&auml;rast kauba vabastamist on t&auml;iendavalt ilmnenud asjaolude arvestamiseks asjassepuutuval isikul &otilde;igus taotleda tollilt v&otilde;i tollil endal &otilde;igus asjassepuutuvalt isikult n&otilde;uda kaubadeklaratsioonis paranduste tegemist kolme aasta jooksul kaubadeklaratsiooni aktsepteerimise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Tolliv&auml;&auml;rtuse deklaratsioon</s>
+</p>
+<p>
+<s>( 1 ) Kauba tolliv&auml;&auml;rtuse m&auml;&auml;ramiseks esitab deklarant tollile tolliv&auml;&auml;rtuse deklaratsiooni .</s>
+</p>
+<p>
+<s>( 2 ) Tolliv&auml;&auml;rtuse deklaratsioon esitatakse kauba tollivormistusel koos kaubadeklaratsiooniga tolliv&auml;&auml;rtuse m&auml;&auml;ramise seaduses ( RT I 1995 , 20 , 298 ) s&auml;testatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Reisija deklaratsioon</s>
+</p>
+<p>
+<s>( 1 ) Reisija , kellel on tollipiiri &uuml;letades kaasas deklareeritavat kaupa , sealhulgas auhindu ja kingitusi , t&auml;idab ning esitab tollile reisija deklaratsiooni , kui kauba &uuml;le tollipiiri toimetamisel ei peeta silmas kaubanduslikku eesm&auml;rki .</s><s>Kaubandusliku eesm&auml;rgiga &uuml;le tollipiiri toimetatava kauba ja reisijast eraldi liikuva pagasi deklareerimisel kohaldatakse k&auml;esoleva seaduse &sect; 19 l&otilde;ikes 3 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Deklareeritava kauba hulka kuulub tolliterritooriumile toimetatav k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kaup , mille v&auml;&auml;rtus &uuml;letab 5000 krooni v&otilde;i kogus &uuml;letab Vabariigi Valitsuse kehtestatud piirnormi .</s><s>Deklareeritava kauba hulka ei arvata isiklikke asju juhul , kui nende sisse- ja v&auml;ljaveoks ei ole vaja eriluba .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Reisija deklaratsiooni vormi ja reisija deklaratsiooni t&auml;itmise juhendi kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Postisaadetise deklaratsioon</s>
+</p>
+<p>
+<s>( 1 ) Eestist v&auml;ljasaadetava kaupa sisaldava rahvusvahelise postisaadetise kohta t&auml;idab saatja rahvusvahelise postisaadetise deklaratsiooni , mis lisatakse postisaadetisele .</s>
+</p>
+<p>
+<s>( 2 ) Isikule saabuvale v&otilde;i tema poolt v&auml;ljasaadetavale postisaadetisele , mille tolliv&auml;&auml;rtus &uuml;letab k&auml;esoleva seaduse paragrahv 19 l&otilde;ikes 3 nimetatud v&auml;&auml;rtuse v&otilde;i milles sisalduva kauba kogus &uuml;letab Vabariigi Valitsuse kehtestatud piirnormi , vormistatakse t&auml;iendavalt rahvusvahelise postisaadetise deklaratsioonile ka kaubadeklaratsioon .</s>
+</p>
+<p>
+<s>( 3 ) Rahvusvahelise postisaadetise tollivormistuse korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kauba klassifitseerimine</s>
+</p>
+<p>
+<s>( 1 ) Deklarant on kohustatud tollideklaratsioonis kauba klassifitseerima Eesti kaupade nomenklatuuri ( edaspidi EKN ) , k&auml;esoleva seaduse ja teiste seaduste alusel kehtestatud nomenklatuuride kohaselt .</s><s>Nimetatud nomenklatuuride alusel rakendab toll kauba sisse- ja v&auml;ljaveol t&otilde;kestusmeetmeid , teostab tollistatistikat ning n&otilde;uab sisse impordi- ja ekspordimaksud .</s>
+</p>
+<p>
+<s>( 2 ) EKN peab olema vastavuses Euroopa Liidus kauba kirjeldamiseks ja kodeerimiseks kasutatava kombineeritud nomenklatuuriga ( Combined Nomenclature ) .</s><s>K&auml;esoleva seaduse ja teiste seaduste alusel kehtestatud nomenklatuurid peavad olema vastavuses EKN-iga .</s><s>EKN-i kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Kaubapositsioon m&auml;&auml;ratakse kauba klassifitseerimisel k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud nomenklatuuride kohaselt vastavalt EKN-i klassifitseerimisreeglitele .</s><s>Kaupade klassifitseerimisalastele p&auml;ringutele vastamise korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust .</s><s>31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud nomenklatuuride haldamise ja pidamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Kauba p&auml;ritolu</s>
+</p>
+<p>
+<s>( 1 ) Deklarant m&auml;&auml;rab kauba p&auml;ritoluriigi v&auml;lislepingutes etten&auml;htud v&otilde;i Vabariigi Valitsuse poolt kehtestatud p&auml;ritolureeglite kohaselt .</s>
+</p>
+<p>
+<s>( 2 ) Toll v&otilde;ib deklarandilt n&otilde;uda kauba p&auml;ritoluriigi dokumentaalset t&otilde;estamist v&auml;lislepingutest tulenevalt v&otilde;i Vabariigi Valitsuse poolt kehtestatud juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lislepingutest tulenevate tollimaksusoodustuste saamiseks annab toll deklarandi taotlusel v&auml;lja eksporditava kauba soodusp&auml;ritolu t&otilde;endamiseks p&auml;ritolut&otilde;endi ja teostab selle j&auml;relkontrolli .</s><s>V&auml;lislepingutes etten&auml;htud korras v&otilde;ib p&auml;ritolut&otilde;endi v&auml;lja anda ka eksportija .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Eesti p&auml;ritoluga tekstiilitoodete ekspordi korral Euroopa Liidu liikmesriikidesse v&auml;ljastab toll ekspordilitsentsi ja p&auml;ritolusertifikaadi vastavalt Euroopa lepingus ( RT II 1995 , 22-27 , 120 ) s&auml;testatud tingimustele .</s><s>Tekstiilitoodete ekspordilitsentsi ja p&auml;ritolusertifikaadi v&auml;ljastamise ning t&auml;itmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 )</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;ldisest soodustuss&uuml;steemist tulenevate tollimaksusoodustuste saamiseks v&auml;ljastab toll Eesti p&auml;ritoluga eksporditava kauba kohta p&auml;ritolusertifikaadi vorm A , kinnitab selle ning teostab selle j&auml;relkontrolli .</s><s>Kauba p&auml;ritolusertifikaadi vorm A v&auml;ljaandmise ja t&auml;itmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 5 ) Kauba mittesoodusp&auml;ritolu reeglid ning kauba mittesoodusp&auml;ritolu t&otilde;endamiseks p&auml;ritolusertifikaadi v&auml;ljaandmise ja t&auml;itmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 5 <hi rend="sup">1</hi> ) Kauba mittesoodusp&auml;ritolu t&otilde;endava p&auml;ritolusertifikaadi v&auml;ljastab ja kinnitab Eesti Kaubandus-T&ouml;&ouml;stuskoda .</s>
+</p>
+<p>
+<s>( 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 )</s>
+</p>
+<p>
+<s>( 6 ) ( Kehtetu - 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 95 , 608 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Tollikontrolli &uuml;ldeeskirjad</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) Tollikontroll toimub kauba tolliterritooriumile v&otilde;i sellelt v&auml;ljatoimetamise seaduslikkuse kontrollimiseks , kaubale tolliprotseduuri kohaldamiseks ning kauba impordi- ja ekspordimaksudega maksustamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kauba seaduslik tolliterritooriumile v&otilde;i sellelt v&auml;ljatoimetamine toimub tolli j&auml;relevalve all selleks etten&auml;htud tolliasutuste kaudu vastavalt tollieeskirjadele .</s>
+</p>
+<p>
+<s>( 3 ) Tolliterritooriumile v&otilde;i sellelt v&auml;lja toimetada lubatakse kaupa , mille sisse- ja v&auml;ljavedu ei ole keelatud .</s><s>Kauba sisse- ja v&auml;ljaveo keeld laieneb ka tollitransiitveoks v&otilde;etud kaubale .</s>
+</p>
+<p>
+<s>( 4 ) Kaupa , mille sisse- ja v&auml;ljaveol on n&otilde;utav eriluba , lubatakse tolliterritooriumile v&otilde;i sellelt v&auml;lja toimetada eriloa esitamisel tollivormistuse k&auml;igus .</s><s>Esitatud eriluba m&auml;rgistatakse tollis ja tagastatakse selle esitajale .</s><s>Eriloa n&otilde;ue laieneb tollitransiitveoks v&otilde;etud kaubale , kui eriloa kehtestaja ei ole m&auml;&auml;ranud teisiti .</s><s>Vabariigi Valitsus m&auml;&auml;rab kaubad , mille sisse- ja v&auml;ljaveol on n&otilde;utav eriluba , ning ministrid , kes kehtestavad nende kaupade nomenklatuurid ning sisse- ja v&auml;ljaveo korrad .</s>
+</p>
+<p>
+<s>( 5 ) Tollikontrolli teostavad vastavalt oma p&auml;devusele tolliametnikud , kontrollides dokumente ja kaupa ning rakendades muid tollieeskirjades etten&auml;htud tollikontrolli meetmeid .</s>
+</p>
+<p>
+<s>( 6 ) Tollil on &otilde;igus tollikontrolli l&auml;biviimiseks kaasata eksperte .</s><s>Ekspertiisikulud kannab deklarant , kui tollieeskirjades ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 7 ) Tollikontroll ei tohi ohustada inimeste elu ja tervist ega kahjustada kontrollitavat kaupa ja keskkonda .</s>
+</p>
+<p>
+<s>( 8 ) Tollil on &otilde;igus saada tolliterminalis , tollilaos , vabatsoonis , postiettev&otilde;ttes , samuti sadamas , lennujaamas ja raudteejaamas v&otilde;i teistes transpordis&otilde;lmedes nende valdajalt kauba ja reisijate tollikontrolli korraldamiseks vajalikud t&ouml;&ouml;ohutuse ja t&ouml;&ouml;tervishoiu n&otilde;uete kohased ruumid tasuta kasutamiseks , sealhulgas sisustatud b&uuml;rooruumid ja sidevahendid .</s><s>Sideteenuste eest tasub toll .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 26. ( Kehtetu - 06.06.2001 j&otilde;ust.01.09.2001 - RT I 2001 , 56 , 335 )</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Tolli j&auml;relevalve kauba &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) Kaup on tolli j&auml;relevalve all tolliterritooriumile toimetamisest kuni kaubale tollik&auml;itlusviisi kohaldamiseni .</s><s>Tollik&auml;itlusviisi kohaldamisel on kaup tolli j&auml;relevalve all tollieeskirjades etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Kui kaup viiakse ebaseaduslikult tolli j&auml;relevalve alt v&auml;lja v&otilde;i kui tollil on kahtlusi kauba ebaseadusliku tolli j&auml;relevalve alt v&auml;ljaviimise kohta ja v&otilde;lgnik ei suuda tollile t&otilde;endada sellele kaubale tollik&auml;itlusviisi kohaldamist , on v&otilde;lgnik kohustatud viie kalendrip&auml;eva jooksul kauba ebaseaduslikust tolli j&auml;relevalve alt v&auml;ljaviimise v&otilde;i selle avastamise p&auml;evast arvates tasuma tolliv&otilde;last tuleneva maksusumma .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Tolli j&auml;relevalve all oleva kaubaga v&otilde;ib teostada vaid tolli poolt aktsepteeritud toiminguid ja tehinguid .</s>
+</p>
+<p>
+<s>( 4 ) Tolli j&auml;relevalve all oleva kauba h&auml;vimisel v&otilde;i kahjustumisel on kauba valdaja v&otilde;i deklarant kohustatud sellest esimesel v&otilde;imalusel tollile teatama ja esitama t&otilde;endusmaterjalid kauba h&auml;vimise v&otilde;i kahjustumise kohta .</s><s>Kui esitatud t&otilde;endusmaterjalid tolli ei rahulda , loetakse kaup ebaseaduslikult tolli j&auml;relevalve alt v&auml;lja viiduks .</s>
+</p>
+<p>
+<s>( 5 ) Kahtluse korral kauba sisseveo toimumise v&otilde;i kauba sisseveol deklareeritud andmete &otilde;igsuse suhtes v&otilde;ib toll lugeda kauba sisseveo toimumise v&otilde;i deklareeritud andmete &otilde;igsuse t&otilde;endiks :</s>
+</p>
+<p>
+<s>1 ) kauba v&auml;ljaveo registreerimist t&otilde;endavat dokumenti , mille on v&auml;ljastanud selle v&auml;lisriigi toll , kust kaup pidi Eestisse vahetult saabuma ;</s>
+</p>
+<p>
+<s>2 ) kauba v&auml;ljaveo registreerimist v&otilde;i deklareerimist t&otilde;endavat dokumenti , mille on v&auml;ljastanud selle v&auml;lisriigi toll , kust kaup Eestisse deklareeriti .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 6 ) Kahtluse korral kauba v&auml;ljaveo toimumise v&otilde;i kauba v&auml;ljaveol deklareeritud andmete &otilde;igsuse suhtes v&otilde;ib toll lugeda kauba v&auml;ljaveo toimumise v&otilde;i deklareeritud andmete &otilde;igsuse t&otilde;endiks :</s>
+</p>
+<p>
+<s>1 ) kauba sisseveo registreerimist t&otilde;endavat dokumenti , mille on v&auml;ljastanud selle v&auml;lisriigi toll , kuhu kaup pidi Eestist vahetult saabuma ;</s>
+</p>
+<p>
+<s>2 ) kauba sisseveo registreerimist v&otilde;i deklareerimist t&otilde;endavat dokumenti , mille on v&auml;ljastanud selle v&auml;lisriigi toll , kuhu kaup Eestist v&auml;lja deklareeriti .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 7 ) Kui kauba sisse- v&otilde;i v&auml;ljavedu ei ole t&otilde;endatud k&auml;esoleva paragrahvi l&otilde;ikes 5 v&otilde;i 6 s&auml;testatud korras , on tollil &otilde;igus vastav m&auml;rge kaubadeklaratsioonis annulleerida .</s><s>Kui kauba sisse- v&otilde;i v&auml;ljaveol deklareeritud andmete &otilde;igsus ei ole t&otilde;endatud k&auml;esoleva paragrahvi l&otilde;ikes 5 v&otilde;i 6 s&auml;testatud korras , on tollil &otilde;igus teha kaubadeklaratsioonis parandusi .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Etten&auml;gematu olukord</s>
+</p>
+<p>
+<s>( 1 ) Etten&auml;gematu olukord on loodus&otilde;nnetuse , katastroofi v&otilde;i muu v&auml;&auml;ramatu j&otilde;u ( force majeure ) tagaj&auml;rjel toimunud , kommertsveokis v&otilde;i hoidlas olevat kaupa kahjustav s&uuml;ndmus v&otilde;i selle s&uuml;ndmuse toimumise t&otilde;en&auml;osus .</s>
+</p>
+<p>
+<s>( 2 ) Kui tolliterritooriumile toimetatud kauba valdaja ei suuda etten&auml;gematu olukorra t&otilde;ttu toimetada kaupa tolli poolt etten&auml;htud v&otilde;i aktsepteeritud kohta v&otilde;i hoida kaupa selles kohas , on ta kohustatud sellest esimesel v&otilde;imalusel tollile teatama .</s><s>Kauba h&auml;vimisel v&otilde;i kahjustumisel peab kauba valdaja tollile teatama vastavalt kauba h&auml;vimise koha ja s&auml;ilinud kauba asukoha , olles eelnevalt tarvitusele v&otilde;tnud vajalikud meetmed kauba puutumatuse tagamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Kauba h&auml;vimisel etten&auml;gematu olukorra t&otilde;ttu ei maksustata kaupa impordi- ja ekspordimaksudega tingimusel , et h&auml;vimine on kindlaks tehtud tolli rahuldaval viisil .</s><s>Kahjustunud kaup toimetatakse tolliterritooriumilt v&auml;lja , tolliladustatakse , imporditakse vabaks ringluseks v&otilde;i h&auml;vitatakse tolli j&auml;relevalve all .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Tollidokumendid</s>
+</p>
+<p>
+<s>( 1 ) Tollidokument on tolliasutuse luba , t&otilde;end v&otilde;i tema poolt aktsepteeritud tollideklaratsioon v&otilde;i muu dokument , mille alusel tolliametnik lubab kauba sisse- v&otilde;i v&auml;ljaveoks , kohaldab tolliprotseduuri v&otilde;i rakendab maksusoodustusi .</s>
+</p>
+<p>
+<s>( 2 ) Tollieeskirjades etten&auml;htud juhtudel teeb tolliametnik tollidokumentides m&auml;rkeid ja parandusi .</s>
+</p>
+<p>
+<s>( 3 ) Eksportijad , importijad ja teised isikud , kes on seotud kauba toimetamisega tolliterritooriumile v&otilde;i sellelt v&auml;lja , peavad tollidokumente s&auml;ilitama seitsme aasta jooksul tollivormistusele j&auml;rgneva kalendriaasta algusest arvates .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Tollit&otilde;kendid</s>
+</p>
+<p>
+<s>( 1 ) Kommertsveokile , millega veetakse , v&otilde;i hoidlale , kus hoitakse tolli j&auml;relevalve all olevat kaupa , v&otilde;ib toll kommertsveoki v&otilde;i hoidla ning seal asuva kauba puutumatuse tagamiseks panna tollit&otilde;kendi .</s><s>Tollit&otilde;kendi v&otilde;ib panna ka kaubale .</s><s>&Uuml;hele objektile v&otilde;ib panna mitu tollit&otilde;kendit .</s>
+</p>
+<p>
+<s>( 2 ) Tollit&otilde;kendiga kaitstud kommertsveoki v&otilde;i hoidla ja seal asuva kauba puutumatuse ning tollit&otilde;kendi rikkumatuse eest vastutab selle kommertsveoki v&otilde;i hoidla valdaja .</s><s>Tollit&otilde;kendi eemaldamine tolli loata on keelatud , v&auml;lja arvatud etten&auml;gematus olukorras kommertsveokis veetava v&otilde;i hoidlas hoitava kauba s&auml;ilimise tagamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Toll v&otilde;ib aktsepteerida v&auml;lisriigis pandud tollit&otilde;kendeid .</s><s>Tolli poolt aktsepteeritud t&otilde;kend on samav&auml;&auml;rne tolli poolt pandud t&otilde;kendiga .</s>
+</p>
+<p>
+<s>( 4 ) Tollil on &otilde;igus n&otilde;uda asjassepuutuva isiku juuresolekut tollit&otilde;kendi panemisel ja eemaldamisel tolliametniku poolt .</s>
+</p>
+<p>
+<s>( 5 ) Tollit&otilde;kend peab olema pandud nii , et seda rikkumata v&otilde;i kommertsveokile v&otilde;i hoidlale sissemurdmisj&auml;lgi j&auml;tmata ei ole v&otilde;imalik juurdep&auml;&auml;s kaubale .</s><s>Tollit&otilde;kendi paigaldamise viis peab v&auml;listama selle eemaldamise t&otilde;kendit rikkumata .</s><s>Tollit&otilde;kendi panemise kohta teeb tolliametnik m&auml;rke tollidokumendile .</s>
+</p>
+<p>
+<s>( 6 ) Tollit&otilde;kendite panemise ja eemaldamise korra ning n&otilde;uded k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kommertsveokile v&otilde;i hoidlale kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 7 ) Tollit&otilde;kendi purunemisest v&otilde;i kaotsiminekust , samuti sissemurdmisj&auml;lgedest v&otilde;i muudest kahjustustest tollit&otilde;kendiga kaitstud kommertsveokil v&otilde;i hoidlal peab kommertsveoki v&otilde;i hoidla valdaja esimesel v&otilde;imalusel tollile teatama .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Tollivormistuse j&auml;relkontroll</s>
+</p>
+<p>
+<s>( 1 ) Tolliametnikul on &otilde;igus talle Tolliameti peadirektori v&otilde;i piirkondliku tolliinspektuuri juhataja antud volituse alusel oma p&auml;devuse piires kontrollida import- , eksport- v&otilde;i transiitkaupadega teostatavate tehingutega seotud isikute territooriumi , hooneid ja rajatisi ning muid kohti , mis on seotud nende kaupade hoidmise , t&ouml;&ouml;tlemise ja turustamisega , samuti neile kuuluvaid kommertsveokeid .</s>
+</p>
+<p>
+<s>( 2 ) Isik on kohustatud tolli n&otilde;udmisel esitama k&otilde;ik kauba sisse- , v&auml;lja- v&otilde;i transiitveo , hoidmise , t&ouml;&ouml;tlemise , turustamise ning maksetehingute kohta k&auml;ivad dokumendid ja kirjavahetuse ning osutama tollile abi kontrollimisel .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud kontrolli teostamine v&auml;ljaspool isiku t&ouml;&ouml;aega v&otilde;i territooriumi , hoone , rajatise ning muu kaupade hoidmise , t&ouml;&ouml;tlemise ja turustamisega seotud koha lahtioleku v&otilde;i kasutamise aega v&otilde;ib toimuda eelneva hoiatuseta .</s><s>Tolliametnikul on keelatud siseneda eluruumidesse seal elava isiku loata .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Tolliprotseduurid</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) Tolliterritooriumile v&otilde;i sellelt v&auml;lja toimetatavale kaubale kohaldab toll deklarandi taotlusel &uuml;ldjuhul &uuml;ht j&auml;rgmistest tolliprotseduuridest :</s>
+</p>
+<p>
+<s>1.</s><s>Kauba v&auml;ljaveol :</s>
+</p>
+<p>
+<s>1 ) eksport ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljavedu t&ouml;&ouml;tlemiseks taassisseveo kohustusega ;</s>
+</p>
+<p>
+<s>3 ) v&auml;ljavedu taassisseveo kohustusega muutusteta kujul ;</s>
+</p>
+<p>
+<s>4 ) taasv&auml;ljavedu ;</s>
+</p>
+<p>
+<s>5 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 ) ;</s>
+</p>
+<p>
+<s>6 ) tollitransiit .</s>
+</p>
+<p>
+<s>2.</s><s>Kauba sisseveol :</s>
+</p>
+<p>
+<s>1 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 ) ;</s>
+</p>
+<p>
+<s>2 ) import vabaks ringluseks ;</s>
+</p>
+<p>
+<s>3 ) sissevedu t&ouml;&ouml;tlemiseks taasv&auml;ljaveo kohustusega ;</s>
+</p>
+<p>
+<s>4 ) sissevedu taasv&auml;ljaveo kohustusega muutusteta kujul ;</s>
+</p>
+<p>
+<s>5 ) taassissevedu ;</s>
+</p>
+<p>
+<s>6 ) t&ouml;&ouml;tlemine tolli kontrolli all ;</s>
+</p>
+<p>
+<s>7 ) tolliladustamine ;</s>
+</p>
+<p>
+<s>8 ) tollitransiit .</s>
+</p>
+<p>
+<s>( 2 ) Tolliprotseduuride rakendamise eeskirjad kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Tolliprotseduuri tollieeskirjadekohase l&auml;biviimise eest vastutab deklarant .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Kauba eksport</s>
+</p>
+<p>
+<s>( 1 ) Kaup lubatakse eksportida p&auml;rast tollile kaubadeklaratsiooni ja n&otilde;utavate lisadokumentide esitamist ning teiste tollieeskirjades etten&auml;htud tolliformaalsuste t&auml;itmist .</s>
+</p>
+<p>
+<s>( 2 ) Tollivormistus kauba ekspordiks algab kaubadeklaratsiooni esitamisega tollile ja l&otilde;peb tolliasutuses m&auml;rke tegemisega kaubadeklaratsioonile kauba vabastamise kohta tolli j&auml;relevalve alt .</s>
+</p>
+<p>
+<s>( 3 ) Ekspordiks deklareeritud kaup tuleb tolliterritooriumilt v&auml;lja toimetada 15 kalendrip&auml;eva jooksul p&auml;rast kaubadeklaratsiooni aktsepteerimist tollis , kui tollieeskirjades ei ole ette n&auml;htud teisiti .</s><s>Selle t&auml;htaja &uuml;letamisel peab deklarant viie kalendrip&auml;eva jooksul t&auml;htaja &uuml;letamise p&auml;evast arvates taotlema tollis kaubadeklaratsiooni annulleerimist v&otilde;i kauba tolliterritooriumilt v&auml;ljatoimetamise t&auml;htaja pikendamist .</s><s>Kauba v&auml;ljaveo ja tollivormistuse l&otilde;petamise eest vastutab deklarant .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Kauba ajutine v&auml;ljavedu tolliterritooriumilt</s>
+</p>
+<p>
+<s>( 1 ) Alaliselt Eestis asuvale isikule kuuluvat vabas ringluses olevat kaupa lubatakse tolliterritooriumilt ajutiselt v&auml;lja vedada tollieeskirjades kindlaksm&auml;&auml;ratud tingimustel ja eesm&auml;rkidel j&auml;rgmiste tolliprotseduuridega :</s>
+</p>
+<p>
+<s>1 ) v&auml;ljavedu t&ouml;&ouml;tlemiseks taassisseveo kohustusega ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljavedu taassisseveo kohustusega muutusteta kujul .</s>
+</p>
+<p>
+<s>( 2 ) Tollieeskirjades m&auml;&auml;ratud tingimustel v&otilde;ib kaupa tolliterritooriumilt ajutiselt v&auml;lja vedada kuni &uuml;heks aastaks tolli loal kaubale ajutise v&auml;ljaveo tolliprotseduuri kohaldamise v&otilde;i ajutise v&auml;ljaveo loa v&auml;ljastamise p&auml;evast arvates .</s><s>Deklarandi taotluse alusel v&otilde;ib toll t&auml;htaega pikendada .</s>
+</p>
+<p>
+<s>( 3 ) Tolliterritooriumilt ajutiselt v&auml;ljaveetud kaup on tolli j&auml;relevalve all ja tuleb enne v&auml;ljaveo t&auml;htaja m&ouml;&ouml;dumist :</s>
+</p>
+<p>
+<s>1 ) deklareerida taassisseveoks ;</s>
+</p>
+<p>
+<s>2 ) deklareerida ekspordiks .</s>
+</p>
+<p>
+<s>( 4 ) Kindlustamaks tolliv&otilde;last tuleneva maksusumma tasumist juhul , kui ei toimu kauba taassissevedu , on tollil &otilde;igus n&otilde;uda deklarandilt tagatist .</s>
+</p>
+<p>
+<s>( 5 ) Kasutamisk&otilde;lbmatuks muutunud v&otilde;i h&auml;vinenud kauba mahakandmine vormistatakse vastavalt tollieeskirjadele .</s>
+</p>
+<p>
+<s>( 6 ) Kauba v&auml;ljaveo ja tollivormistuse l&otilde;petamise eest vastutab deklarant .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Kauba taasv&auml;ljavedu v&otilde;i taassissevedu</s>
+</p>
+<p>
+<s>( 1 ) Kaubale taasv&auml;ljaveo tolliprotseduuri kohaldamine toimub p&auml;rast j&auml;rgmisi tolliprotseduure :</s>
+</p>
+<p>
+<s>1 ) sissevedu t&ouml;&ouml;tlemiseks taasv&auml;ljaveo kohustusega ;</s>
+</p>
+<p>
+<s>2 ) sissevedu taasv&auml;ljaveo kohustusega muutusteta kujul ;</s>
+</p>
+<p>
+<s>3 ) tolliladustamine .</s>
+</p>
+<p>
+<s>( 2 ) Kaubale taassisseveo tolliprotseduuri kohaldamine toimub p&auml;rast j&auml;rgmisi tolliprotseduure :</s>
+</p>
+<p>
+<s>1 ) v&auml;ljavedu t&ouml;&ouml;tlemiseks taassisseveo kohustusega ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljavedu taassisseveo kohustusega muutusteta kujul .</s>
+</p>
+<p>
+<s>( 3 ) Deklarant vastutab taasv&auml;ljaveol ja taassisseveol vastavalt kauba v&auml;lja- v&otilde;i sisseveo ja tollivormistuse l&otilde;petamise eest .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Kauba ajutine ladustamine</s>
+</p>
+<p>
+<s>( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Kauba import vabaks ringluseks</s>
+</p>
+<p>
+<s>( 1 ) Kaup lubatakse importida vabaks ringluseks p&auml;rast tollile kaubadeklaratsiooni ja n&otilde;utavate lisadokumentide esitamist ning teiste tollieeskirjades etten&auml;htud tolliformaalsuste t&auml;itmist .</s>
+</p>
+<p>
+<s>( 2 ) Kaup lubatakse importida vabaks ringluseks vahetult selle toimetamisel tolliterritooriumile , v&auml;ljatoimetamisel vabatsoonist , p&auml;rast ajutist ladustamist v&otilde;i p&auml;rast j&auml;rgmisi tolliprotseduure :</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>1 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 ) ;</s>
+</p>
+<p>
+<s>2 ) sissevedu t&ouml;&ouml;tlemiseks taasv&auml;ljaveo kohustusega ;</s>
+</p>
+<p>
+<s>3 ) sissevedu taasv&auml;ljaveo kohustusega muutusteta kujul ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;tlemine tolli kontrolli all ;</s>
+</p>
+<p>
+<s>5 ) tolliladustamine ;</s>
+</p>
+<p>
+<s>6 ) tollitransiit .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Kauba ajutine sissevedu tolliterritooriumile</s>
+</p>
+<p>
+<s>( 1 ) Alaliselt v&auml;ljaspool Eestit asuvale isikule kuuluvat kaupa lubatakse Eestis registreeritud isikul tolliterritooriumile ajutiselt sisse vedada tollieeskirjades kindlaksm&auml;&auml;ratud tingimustel ja eesm&auml;rkidel j&auml;rgmiste tolliprotseduuridega :</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>1 ) sissevedu t&ouml;&ouml;tlemiseks taasv&auml;ljaveo kohustusega ;</s>
+</p>
+<p>
+<s>2 ) sissevedu taasv&auml;ljaveo kohustusega muutusteta kujul .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Tollieeskirjades m&auml;&auml;ratud tingimustel v&otilde;ib Eestis registreeritud isiku kaubale tolli loal kohaldada sissevedu t&ouml;&ouml;tlemiseks taasv&auml;ljaveo kohustusega .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Tollieeskirjades m&auml;&auml;ratud tingimustel v&otilde;ib Eestis registreeritud isik kaupa impordimaksudest t&auml;ielikult v&otilde;i osaliselt vabastatuna tolliterritooriumile ajutiselt sisse vedada kuni &uuml;heks aastaks tolli loal kaubale ajutise sisseveo tolliprotseduuri kohaldamise v&otilde;i ajutise sisseveo loa v&auml;ljastamise p&auml;evast arvates .</s><s>Deklarandi taotluse alusel v&otilde;ib toll t&auml;htaega pikendada .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Tolliterritooriumile ajutiselt sisseveetud kaup on tolli j&auml;relevalve all ja tuleb etten&auml;htud tolliformaalsuste t&auml;itmise j&auml;rel enne sisseveo t&auml;htaja m&ouml;&ouml;dumist :</s>
+</p>
+<p>
+<s>1 ) deklareerida taasv&auml;ljaveoks ;</s>
+</p>
+<p>
+<s>2 ) toimetada vabatsooni ;</s>
+</p>
+<p>
+<s>3 ) deklareerida impordiks vabaks ringluseks ;</s>
+</p>
+<p>
+<s>4 ) deklareerida tolliladustamiseks ;</s>
+</p>
+<p>
+<s>5 ) anda &uuml;le tollile , et see l&auml;heks riigi omandisse ;</s>
+</p>
+<p>
+<s>6 ) h&auml;vitada tolli j&auml;relevalve all .</s>
+</p>
+<p>
+<s>( 4 ) Kindlustamaks tolliv&otilde;last tuleneva maksusumma tasumist juhul , kui ei toimu kauba taasv&auml;ljavedu , on tollil &otilde;igus n&otilde;uda deklarandilt tagatist .</s><s>Deklarant vastutab kauba eest kogu ajutise sisseveo t&auml;htaja jooksul ning on kohustatud tagama kauba s&auml;ilimise ja hoiutingimused .</s>
+</p>
+<p>
+<s>( 5 ) Tolliterritooriumile ajutiselt taasv&auml;ljaveo kohustusega muutusteta kujul sisseveetavate kaupade loetelu kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 6 ) T&ouml;&ouml;tlemiseks sisseveetavate kaupade nomenklatuurid ja v&auml;&auml;rtuselised piirnormid ning loa andmise majanduslikud tingimused kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Kauba t&ouml;&ouml;tlemine tolli kontrolli all</s>
+</p>
+<p>
+<s>( 1 ) Kauba t&ouml;&ouml;tlemisel tolli kontrolli all muudetakse tolliterritooriumile toimetatud kauba olemust v&otilde;i seisundit enne kauba vabastamist impordiks vabaks ringluseks .</s><s>Loa t&ouml;&ouml;tlemiseks tolli kontrolli all v&auml;ljastab toll t&ouml;&ouml;tlemist l&auml;biviiva v&otilde;i korraldava Eestis registreeritud isiku kirjaliku taotluse alusel .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;tlemiseks tolli kontrolli all sisseveetud kaup ei kuulu maksustamisele impordimaksudega .</s><s>T&ouml;&ouml;deldud kaup maksustatakse impordimaksudega selle impordil vabaks ringluseks .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;tlemiseks tolli kontrolli all sisseveetava kauba nomenklatuuri ja kaubale rakendatavate t&ouml;&ouml;tlemismenetluste loetelu kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Kauba tolliladustamine</s>
+</p>
+<p>
+<s>( 1 ) Tolliterritooriumile toimetatud v&otilde;i sellelt v&auml;ljatoimetatavat kaupa v&otilde;ib deklareerida tolliladustamisele tollilattu , kus see asub impordimaksude tasumiseta tolli j&auml;relevalve all .</s><s>Tollieeskirjades etten&auml;htud juhtudel v&otilde;ib toll lubada kauba deklareerimist tolliladustamisele kaupa tollilattu paigutamata .</s><s>Tolliladustamisele j&auml;rgneb kauba deklareerimine &uuml;hele j&auml;rgmistest tolliprotseduuridest :</s>
+</p>
+<p>
+<s>1 ) ( Kehtetu - 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 ) ;</s>
+</p>
+<p>
+<s>2 ) taasv&auml;ljavedu ;</s>
+</p>
+<p>
+<s>3 ) import vabaks ringluseks ;</s>
+</p>
+<p>
+<s>4 ) sissevedu t&ouml;&ouml;tlemiseks taasv&auml;ljaveo kohustusega ;</s>
+</p>
+<p>
+<s>5 ) sissevedu taasv&auml;ljaveo kohustusega muutusteta kujul ;</s>
+</p>
+<p>
+<s>6 ) tollitransiit sisetransiidina ( vedu teise tollilattu ) ;</s>
+</p>
+<p>
+<s>7 ) t&ouml;&ouml;tlemine tolli kontrolli all .</s>
+</p>
+<p>
+<s>( 2 ) Tolliladu v&otilde;ib olla &uuml;ldkasutatav ( avalik tolliladu ) v&otilde;i kindlaksm&auml;&auml;ratud kasutajatele ( privaattolliladu ) .</s><s>Loa tollilao asutamiseks annab toll Eestis registreeritud isikule .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Tolliladustamisel oleva kauba t&ouml;&ouml;tlemine on keelatud .</s><s>T&ouml;&ouml;tlemiseks ei loeta kauba pakendi parandamist , kauba komplekteerimist ja sorteerimist ning ettevalmistamist m&uuml;&uuml;giks ja transpordiks .</s><s>Kauba komplekteerimiseks nimetatakse kauba k&auml;itlemist , mille puhul ei muutu kauba kvaliteet ja tehnilised n&auml;itajad .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) Kauba tolliladustamise kestus ei ole piiratud .</s>
+</p>
+<p>
+<s>( 5 ) Tollilao pidaja peab tollilattu paigutatud kauba &uuml;le arvestust tolli poolt aktsepteeritud viisil .</s><s>Tolliladustamisele deklareeritav kaup m&auml;rgitakse laoarvestusse viivitamatult p&auml;rast kauba saabumist tollilattu .</s><s>Tollilao pidajal peab olema tagatis tekkida v&otilde;iva tolliv&otilde;la tagamiseks .</s><s>Tollil on &otilde;igus igal ajal kontrollida tollilaos olevat kaupa ja kaubaga seotud dokumente .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 6 ) Tollilao pidaja vastutab tolliladustamisel oleva kauba puutumatuse , laoarvestuse t&auml;psuse ning temale ja laole tollieeskirjades etten&auml;htud tingimuste t&auml;itmise eest .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 7 ) Tollilao asutamise , tegutsemise ning l&otilde;petamise tingimused ja korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 8 ) Avalikus tollilaos tolliladustamisel oleva kauba omandi&otilde;igus v&otilde;ib &uuml;helt isikult teisele &uuml;le minna .</s><s>Omandi&otilde;iguse &uuml;leminek peab kajastuma laoarvestuses ja tuleb deklarandi poolt tollis viie kalendrip&auml;eva jooksul deklareerida .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Kauba tollitransiit</s>
+</p>
+<p>
+<s>( 1 ) Tolli j&auml;relevalve all oleva kauba vedamiseks tolliterritooriumil kohaldatakse tollitransiiti :</s>
+</p>
+<p>
+<s>1 ) l&auml;biva transiidina - &uuml;hest tollipiiril asuvast tollipunktist teise tollipiiril asuvasse tollipunkti ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>2 ) siseneva transiidina - &uuml;hest tollipiiril asuvast tollipunktist sisemaa tollipunkti ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>3 ) v&auml;ljuva transiidina - sisemaa tollipunktist tollipiiril asuvasse tollipunkti ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>4 ) sisetransiidina - &uuml;hest sisemaa tollipunktist teise sisemaa tollipunkti .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Kauba tollitransiit toimub printsipaali v&otilde;i v&auml;lislepingus m&auml;&auml;ratud isiku vastutusel .</s>
+</p>
+<p>
+<s>( 3 ) Tollitransiitveoks v&otilde;etud kaup ning selle tolli- ja saatedokumendid tuleb esitada l&auml;htetollipunktis m&auml;&auml;ratud aja jooksul sihttollipunktis .</s><s>Sihttollipunktis tollile esitatud kaup ladustatakse ajutiselt v&otilde;i kohaldatakse kaubale tollik&auml;itlusviisi .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) Kindlustamaks tolliv&otilde;last tuleneva maksusumma tasumist , on tollil &otilde;igus n&otilde;uda printsipaalilt tagatist .</s>
+</p>
+<p>
+<s>( 5 ) Tollieeskirjades kehtestatakse Eestit l&auml;bivatele transiitveostele kohustuslikud tollitrassid .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Tollivormistus</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) Loa andmine kauba sisse- ja v&auml;ljaveoks ning kaubale tolliprotseduuri kohaldamine toimub tollivormistusega .</s>
+</p>
+<p>
+<s>( 2 ) Tollivormistuse k&auml;igus viiakse &uuml;ldjuhul l&auml;bi j&auml;rgmised tolliformaalsused :</s>
+</p>
+<p>
+<s>1 ) tollideklaratsiooni t&auml;itmine , tollideklaratsiooni ja selle juurde kuuluvate lisadokumentide esitamine tollile ning nende vastuv&otilde;tmine ja aktsepteerimine tollis ;</s>
+</p>
+<p>
+<s>2 ) kauba sanitaar- , veterinaar- , f&uuml;tosanitaar- ja muu kontroll ;</s>
+</p>
+<p>
+<s>3 ) kauba esitamine tollile ;</s>
+</p>
+<p>
+<s>3 <hi rend="sup">1</hi> ) kauba ajutine ladustamine ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>4 ) kauba tollil&auml;bivaatus ;</s>
+</p>
+<p>
+<s>5 ) veoki tollil&auml;bivaatus ;</s>
+</p>
+<p>
+<s>6 ) isiklike asjade ja reisija tollil&auml;bivaatus ;</s>
+</p>
+<p>
+<s>7 ) proovide ja n&auml;idiste v&otilde;tmine kontrollitavast kaubast ;</s>
+</p>
+<p>
+<s>8 ) impordi- ja ekspordimaksude m&auml;&auml;ramine ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>9 ) impordi- ja ekspordimaksude tasumine v&otilde;i tagatise esitamine tollile ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>10 ) kauba vabastamine .</s>
+</p>
+<p>
+<s>( 3 ) Toimingud ja tehingud tolliterritooriumile toimetatud kaubaga on enne tollivormistuse l&otilde;ppu keelatud , kui toll ei ole m&auml;&auml;ranud teisiti .</s>
+</p>
+<p>
+<s>( 4 ) Tollivormistuse mahu ja tolliformaalsuste l&auml;biviimise korrad kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 5 ) Tollivormistust ei l&otilde;petata enne tolliv&otilde;last tuleneva maksusumma tasumist v&otilde;i tagatise esitamist tolliv&otilde;la tagamiseks .</s>
+</p>
+<p>
+<s>( 6 ) Toll v&otilde;ib vastavalt tollieeskirjadele lubada tolliprotseduuri kohaldamisel lihtsustatud tollivormistust osaliselt t&auml;idetud kaubadeklaratsiooni alusel , kauba perioodilise deklareerimisena v&otilde;i kaubadeklaratsiooni asendamisena m&otilde;ne teise dokumendiga .</s><s>Lihtsustatud tollivormistusel kasutatavates dokumentides m&auml;rgitud andmed peavad v&otilde;imaldama kauba identifitseerimist .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 7 ) Lihtsustatud tollivormistuse korral loetakse kaubadeklaratsiooni aktsepteerimise kuup&auml;evaks osaliselt t&auml;idetud kaubadeklaratsiooni v&otilde;i kaubadeklaratsiooni asendava dokumendi aktsepteerimise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Tollivormistuse aeg ja koht</s>
+</p>
+<p>
+<s>( 1 ) Tollivormistus toimub Tolliameti peadirektori poolt kindlaksm&auml;&auml;ratud kohtades ning ajal.</s>
+</p>
+<p>
+<s>( 2 ) Deklarandi kirjalikul taotlusel toimub tollivormistus p&otilde;hjendatud juhtudel tolliteenusena vastava tasu eest tolliasutusega kokkulepitud kohas v&otilde;i v&auml;ljaspool tolliasutuse tavalist t&ouml;&ouml;aega .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Etten&auml;gematus olukorras lahendab tolliasutus tollivormistuse k&uuml;simused iseseisvalt , l&auml;htudes konkreetsest olukorrast ja riiklikest huvidest .</s>
+</p>
+<p>
+<s>( 4 ) Tolliteenuste loetelu ning v&otilde;etava tasu m&auml;&auml;rad ja maksmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Tollideklaratsiooni vastuv&otilde;tmine ja aktsepteerimine</s>
+</p>
+<p>
+<s>( 1 ) Tollideklaratsiooni vastuv&otilde;tmisel kontrollib toll isiku isikusamasust , isiku volitusi ja tema volitusi konkreetse kauba kohta deklaratsiooni esitamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Toll aktsepteerib esitatud tollideklaratsiooni p&auml;rast selles sisalduva informatsiooni ammendavuse ning tollieeskirjades etten&auml;htud lisadokumentide olemasolu kontrolli , kui on tagatud kauba esitamine tollile .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast tollideklaratsiooni aktsepteerimist v&otilde;ib toll n&otilde;uda t&auml;iendavate dokumentide esitamist tollideklaratsioonis toodud andmete t&auml;psustamiseks , teostada tollil&auml;bivaatust ning v&otilde;tta kaubast proove ja n&auml;idiseid .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 44 <hi rend="sup">1</hi> .</s><s>Kauba ajutine ladustamine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisriigist tolliterritooriumile toimetatud kaup loetakse &uuml;lddeklaratsiooni aktsepteerimisest kuni kaubale tollik&auml;itlusviisi kohaldamiseni ajutiselt ladustatuks .</s>
+</p>
+<p>
+<s>( 2 ) Ajutisel ladustamisel olevat kaupa v&otilde;ib hoida selleks etten&auml;htud laos ( tolliterminalis ) v&otilde;i tolli poolt aktsepteeritud hoiukohas .</s><s>Loa tolliterminali ja hoiukoha asutamiseks annab toll Eestis registreeritud isikule .</s><s>Tolliterminalis v&otilde;ivad kaupa ajutisel ladustamisel hoida k&otilde;ik kaupa tolliterritooriumile toimetavad isikud , hoiukoht on ette n&auml;htud kindlaksm&auml;&auml;ratud kasutajale .</s>
+</p>
+<p>
+<s>( 3 ) Tekkida v&otilde;iva tolliv&otilde;la tagamiseks v&otilde;ib toll n&otilde;uda teda rahuldavat tagatist isikult , kes vastavalt tollieeskirjadele vastutab kauba ajutise ladustamise eest .</s>
+</p>
+<p>
+<s>( 4 ) Kauba ajutise ladustamise eest vastutav isik vastutab kauba puutumatuse , arvestuse t&auml;psuse ning temale ja kauba hoiukohale tollieeskirjades etten&auml;htud tingimuste t&auml;itmise eest .</s>
+</p>
+<p>
+<s>( 5 ) Kauba ajutise ladustamise eest vastutav isik peab kauba &uuml;le pidama arvestust tollieeskirjades etten&auml;htud korras .</s><s>Kaup tuleb m&auml;rkida arvestusse kohe , kui kaup saabub hoidmise kohta .</s><s>Tollil on &otilde;igus igal ajal kontrollida ajutisel ladustamisel hoitavat kaupa ja kaubaga seotud dokumente .</s>
+</p>
+<p>
+<s>( 6 ) Ajutiselt ladustatud kaubale tuleb kohaldada tollik&auml;itlusviisi 15 kalendrip&auml;eva jooksul &uuml;lddeklaratsiooni aktsepteerimise p&auml;evast arvates .</s><s>Sadama territooriumil asuvas tolliterminalis v&otilde;ib tolliterritooriumi transiidina l&auml;bivat ajutiselt ladustatud kaupa hoida kuni 60 kalendrip&auml;eva .</s><s>Kauba ajutise ladustamise aega v&otilde;ib toll &uuml;hekordselt &uuml;lddeklaratsiooni esitanud isiku v&otilde;i muu asjassepuutuva isiku kirjaliku taotluse alusel pikendada kuni 30 kalendrip&auml;eva v&otilde;rra .</s>
+</p>
+<p>
+<s>( 7 ) Ajutiselt ladustatud kaubaga v&otilde;ib teha ainult selliseid toiminguid , mis on vajalikud sama kauba s&auml;ilitamiseks , muutmata selle v&auml;limust v&otilde;i tehnilisi n&auml;itajaid .</s>
+</p>
+<p>
+<s>( 8 ) Ajutisel ladustamisel oleva kauba hoidmise tingimused ja korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Kauba sanitaar- , veterinaar- , f&uuml;tosanitaar- ja muu kontroll</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igusaktides etten&auml;htud toimingud &uuml;le tollipiiri toimetatava v&otilde;i toimetatud kauba sanitaarse , veterinaarse , f&uuml;tosanitaarse , &otilde;igusaktides etten&auml;htud n&otilde;uetele vastavuse ja muu seisundi kindlakstegemiseks , samuti kauba ohutuse m&auml;&auml;ramiseks inimesele ja keskkonnale on tollivormistuse lahutamatud koostisosad ning viiakse l&auml;bi vastavate kontrolliasutuste poolt .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) ( Kehtetu - 06.06.2001 j&otilde;ust.01.09.2001 - RT I 2001 , 56 , 335 )</s>
+</p>
+<p>
+<s>( 2 ) Vastava valdkonna &otilde;igusaktidest tulenevalt esitab deklarant tollile kauba kohta tollivormistuse k&auml;igus &otilde;igusaktides etten&auml;htud n&otilde;uetele vastavuse dokumendi .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Kauba tollil&auml;bivaatus</s>
+</p>
+<p>
+<s>( 1 ) Toll korraldab kauba tollil&auml;bivaatust , kontrollimaks , kas kauba nimetus , p&auml;ritolu , seisund , kogus ja v&auml;&auml;rtus vastavad tollideklaratsioonis esitatud andmetele .</s>
+</p>
+<p>
+<s>( 2 ) Deklarandil v&otilde;i tema poolt volitatud isikul on &otilde;igus viibida kauba tollil&auml;bivaatuse juures .</s>
+</p>
+<p>
+<s>( 3 ) Deklarant ning tolliterminali v&otilde;i tollilao pidaja on tolli n&otilde;udmisel kohustatud korraldama oma kulul ja vastutusel tollil&auml;bivaatusele kuuluva kauba vedamise tolli poolt etten&auml;htud v&otilde;i aktsepteeritud kohta , kauba kommertsveokilt maha- ja sellele pealelaadimise , &uuml;mberlaadimise , kahjustatud pakendi parandamise , pakendi avamise , pakkimise ning &uuml;mberpakkimise ; avama ruume , mahuteid ning muid hoidlaid , mis v&otilde;iksid sisaldada tollil&auml;bivaatusele kuuluvat kaupa , samuti kommertsveoki vastavalt tolli n&otilde;udmisele &uuml;mber paigutama .</s>
+</p>
+<p>
+<s>( 4 ) Kui isik keeldub k&auml;esoleva paragrahvi l&otilde;ikes 3 etten&auml;htud toimingutest , teostab toll need tema kulul .</s>
+</p>
+<p>
+<s>( 5 ) Kaubapartii osalise tollil&auml;bivaatuse tulemusel v&otilde;ib toll teha otsuse terve kaubapartii kohta .</s><s>Toll v&otilde;ib deklarandi taotlusel korraldada terve kaubapartii tollil&auml;bivaatuse , kui on alust arvata , et osalise tollil&auml;bivaatuse tulemusel tehtud otsus ei ole laiendatav tervele kaubapartiile .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Veoki tollil&auml;bivaatus</s>
+</p>
+<p>
+<s>( 1 ) Toll v&otilde;ib teha tolliterritooriumile saabuvate , tolliterritooriumil viibivate ning sealt lahkuvate veokite tollil&auml;bivaatust .</s>
+</p>
+<p>
+<s>( 2 ) Veokid , mis &uuml;letavad Eesti tollipiiri , on kohustatud peatuma seal asuvas tollipunktis , selle puudumisel suunduma kindlaksm&auml;&auml;ratud marsruudil peatumatult selleks etten&auml;htud tollipunkti .</s><s>Sundpeatuse korral tuleb kohe informeerida tolli v&otilde;i piirivalvet .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Sadama , postiettev&otilde;tte , raudtee- ja lennujaama ametiisikud on kohustatud informeerima tolli eelnevalt iga kommertsveoki saabumisest ja lahkumisest ning mitte lubama import- , eksport- v&otilde;i transiitkauba maha- , peale- v&otilde;i &uuml;mberlaadimist tolli loata .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) V&auml;lisriigis registreeritud kommertsveokid lubatakse ajutiselt tolliterritooriumile , kusjuures need kuuluvad tolliterritooriumilt v&auml;ljaviimisele muutusteta kujul .</s><s>Toll v&otilde;ib kehtestada piiraja kommertsveoki taasv&auml;ljaviimiseks tolliterritooriumilt .</s>
+</p>
+<p>
+<s>( 5 ) Ajutiselt tolliterritooriumil viibivaid v&auml;lisriigis registreeritud kommertsveokeid on keelatud kasutada riigi sisevedudel .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Proovide ja n&auml;idiste v&otilde;tmine kontrollitavast kaubast</s>
+</p>
+<p>
+<s>( 1 ) Tollil on &otilde;igus tasuta v&otilde;tta v&otilde;i lasta v&otilde;tta kontrollitavast kaubast proove ja n&auml;idiseid nende laboratoorseks anal&uuml;&uuml;siks v&otilde;i muuks uurimiseks .</s><s>V&otilde;etavate kaubaproovide ja n&auml;idiste kogus ei tohi olla suurem , kui on vajalik nende toimingute l&auml;biviimiseks .</s>
+</p>
+<p>
+<s>( 2 ) Tollil on &otilde;igus n&otilde;uda kauba valdaja v&otilde;i tema esindaja juuresolekut proovide ja n&auml;idiste v&otilde;tmisel .</s>
+</p>
+<p>
+<s>( 3 ) Proovide ja n&auml;idiste uurimise , anal&uuml;&uuml;si ja muu sellise k&auml;sitlemise tulemustest informeerib toll kirjalikult kauba valdajat .</s><s>Kasutamata proovid ja n&auml;idised v&otilde;i nende &uuml;lej&auml;&auml;gid tagastatakse kauba valdajale tema soovil .</s>
+</p>
+<p>
+<s>( 4 ) Proovide ja n&auml;idiste v&otilde;tmise , uurimise ning j&auml;&auml;kide kasutamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Tagatise esitamine tollile</s>
+</p>
+<p>
+<s>( 1 ) Tekkiva v&otilde;i tekkida v&otilde;iva tolliv&otilde;la tagamiseks v&otilde;ib toll n&otilde;uda teda rahuldavat tagatist .</s><s>Tagatissumma ei tohi &uuml;letada tolliv&otilde;last tulenevat maksusummat .</s><s>Tagatise esitab tollile isik , kellel tekib v&otilde;i v&otilde;ib tekkida tolliv&otilde;lg .</s>
+</p>
+<p>
+<s>( 2 ) Tagatist ei n&otilde;uta riigiasutustelt .</s>
+</p>
+<p>
+<s>( 3 ) Toll n&otilde;uab &uuml;he tolliprotseduuri tollivormistusel &uuml;ksiktagatise esitamist .</s><s>Eestis registreeritud isiku taotlusel annab toll loa mitmeid tolliprotseduure h&otilde;lmava &uuml;ldtagatise esitamiseks .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) Toll aktsepteerib tagatisena Tolliameti pangakontole sissemakset t&otilde;endavat dokumenti , samuti Eestis registreeritud isikule garandi v&otilde;i k&auml;endaja poolt v&auml;ljastatud garantiidokumenti .</s><s>Valiku mitme v&otilde;imaliku tagatise esitamise viisi vahel teeb isik , kes esitab tollile tagatise .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 5 ) Garant v&otilde;i k&auml;endaja on tolli poolt aktsepteeritud kolmas isik , kelleks on Eestis registreeritud isik .</s><s>Garant v&otilde;i k&auml;endaja v&auml;ljastab garantiidokumendi , millega ta kohustub solidaarselt isikuga , kellel tekib tolliv&otilde;lg , tasuma tolli esimesel n&otilde;udmisel tolliv&otilde;last tuleneva maksusumma , mille ulatuses esitati tollile tagatis .</s>
+</p>
+<p>
+<s>( 6 ) Toll v&otilde;ib keelduda garandi v&otilde;i k&auml;endaja poolt v&auml;ljastatud tagatist aktsepteerimast , kui :</s>
+</p>
+<p>
+<s>1 ) garant v&otilde;i k&auml;endaja ei ole tolli arvates usaldatav tagama tolliv&otilde;lga ;</s>
+</p>
+<p>
+<s>2 ) garantiidokumendis m&auml;rgitud summa ei ole tolliv&otilde;la tagamiseks piisav .</s>
+</p>
+<p>
+<s>( 7 ) Tolliameti pangakontole sissemaksena tehtud tagatissumma tagastab toll 10 kalendrip&auml;eva jooksul p&auml;rast vastava taotluse esitamist ja isiku poolt tolli ees v&otilde;etud kohustuse t&auml;itmise t&otilde;endamist tollidokumendiga .</s>
+</p>
+<p>
+<s>( 8 ) Kui toll ei n&otilde;ua tagatist , v&otilde;ib ta n&otilde;uda isikult kirjaliku kohustuse andmist tolliv&otilde;last tuleneva maksusumma tasumiseks tolli esimesel n&otilde;udmisel .</s>
+</p>
+<p>
+<s>( 9 ) Tagatise esitamise ja vabastamise korra ning tagatissumma m&auml;&auml;ramise metoodilised alused kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Kauba vabastamine</s>
+</p>
+<p>
+<s>Kauba vabastamine on tolliformaalsus , millega kaup antakse valdaja k&auml;sutusse .</s><s>Kauba vabastamine ei v&auml;lista kauba j&auml;tmist tolli j&auml;relevalve alla juhul , kui see on kaubale kohaldatava tolliprotseduuri rakendamise eeskirjas ette n&auml;htud .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Isiklike asjade tollil&auml;bivaatus</s>
+</p>
+<p>
+<s>( 1 ) Tolliametnikul on &otilde;igus n&otilde;uda tollipiiri &uuml;letavalt ja tollikontrolli tsoonis olevalt reisijalt isiklike asjade ja k&auml;esoleva seaduse paragrahv 60 l&otilde;ike 2 alusel tollikontrollile alluva valuuta ja v&auml;&auml;rtpaberite esitamist tollil&auml;bivaatuseks ning need l&auml;bi vaadata .</s><s>Kontrollitav isik peab tolliametnikule ette n&auml;itama oma pagasi ja veoki ning pakkima pagasi tema korraldusel lahti .</s>
+</p>
+<p>
+<s>( 2 ) Isiklike asjade tollil&auml;bivaatust tehakse nende omaniku v&otilde;i tema volitatud esindaja juuresolekul .</s><s>Kui asjade omanikku ei ole v&otilde;imalik kindlaks teha v&otilde;i kui ta keeldub nende tollil&auml;bivaatuse juures olemast , v&otilde;ib tollipunkti vahetuse vanema korraldusel kahe manuka juuresolekul isiklikke asju l&auml;bi vaadata ka nende omaniku v&otilde;i tema volitatud isiku juuresolekuta .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Sadama v&otilde;i lennujaama transiitreisijate alal viibiva reisija isiklike asjade l&auml;bivaatust teeb toll juhul , kui on alust arvata , et tal on kaasas asju , mille sisse- v&otilde;i v&auml;ljavedu v&otilde;i transiitvedu l&auml;bi tolliterritooriumi on keelatud v&otilde;i piiratud eriloa n&otilde;udega .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Reisija tollil&auml;bivaatus</s>
+</p>
+<p>
+<s>( 1 ) Enne reisija tollil&auml;bivaatust v&otilde;ib temaga samast soost tolliametnik v&auml;liselt kombata l&auml;bivaadatava riideid , et teha kindlaks deklareeritavate , kuid tollil&auml;bivaatuseks esitamata keelatud v&otilde;i eriluba n&otilde;udvate esemete olemasolu .</s>
+</p>
+<p>
+<s>( 2 ) Kui on alust arvata , et tollipiiri &uuml;letav v&otilde;i tollikontrolli tsoonis viibiv reisija varjab tollikontrollile kuuluvat kaupa peidetuna oma kehal v&otilde;i kehas , v&otilde;ib tollipunkti vahetuse vanema korraldusel teha reisija tollil&auml;bivaatust .</s><s>Kui reisija tollil&auml;bivaatuse k&auml;igus avastatakse deklareeritavat kaupa , mida ei esitatud tollile , loetakse l&auml;bivaadatud reisija tegevus kauba ebaseaduslikuks &uuml;le tollipiiri toimetamiseks .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) Reisija tollil&auml;bivaatust tehakse eraldi ruumis selleks volitatud temaga samast soost isiku poolt kahe samast soost manuka juuresolekul .</s><s>Kontrollitava reisija n&otilde;udmisel peab kontrollimise juures viibima tema poolt kohalviibijatest valitud tunnistaja .</s>
+</p>
+<p>
+<s>( 4 ) Reisija tollil&auml;bivaatus viiakse l&auml;bi ja vormistatakse reisijate tollieeskirjaga kehtestatud korras .</s>
+</p>
+<p>
+<s>( 5 ) Enne reisija tollil&auml;bivaatust on tolliametnik kohustatud esitama kontrollitavale reisijale ametit&otilde;endi ja tutvustama talle reisija tollil&auml;bivaatuse korda .</s>
+</p>
+<p>
+<s>( 6 ) Tolliametnikul on reisija tollil&auml;bivaatuse k&auml;igus &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) n&otilde;uda reisijalt lahtir&otilde;ivastumist ning kontrollida teda vaatluse teel ;</s>
+</p>
+<p>
+<s>2 ) otsida l&auml;bi reisija riietusesemed ;</s>
+</p>
+<p>
+<s>3 ) saata reisija raviasutusse kehasisese l&auml;bivaatuse tegemiseks tolliametniku juuresolekul juhul , kui tolliametnikul on kahtlus kauba paiknemise kohta reisija kehas .</s>
+</p>
+<p>
+<s>( 7 ) Kontrollitav reisija peab v&otilde;imalikult t&auml;pselt vastama seoses tekkinud kahtlustega temale esitatud k&uuml;simustele , samuti on ta kohustatud t&auml;itma tolliametniku korraldusi , mis on tehtud peidetud kauba avastamise eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 8 ) Reisijate tollieeskirja kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Postisaadetise tollivormistus</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisriigist saabunud kaupa sisaldava postisaadetise tollil&auml;bivaatus toimub postiettev&otilde;ttes enne selle v&auml;ljastamist saajale , v&auml;lisriiki l&auml;hetataval saadetisel aga p&auml;rast selle vastuv&otilde;tmist postiettev&otilde;ttes v&otilde;i vastuv&otilde;tmisel .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Postisaadetises sisalduv kaup , mille sisse- v&otilde;i v&auml;ljavedu on keelatud v&otilde;i piiratud eriloa taotlemise n&otilde;udega , kuid vastavaid dokumente tollile ei esitata , tagastatakse selle saatjale tema kulul v&otilde;i erikonfiskeeritakse tolli poolt , informeerides sellest kauba saatjat .</s>
+</p>
+<p>
+<s>( 3 ) Postisaadetiste tollivormistus toimub vastavalt tollieeskirjadele .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Tollisoodustused</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) Tollisoodustustega tolliterritooriumile lubatud kaupa v&otilde;ib kasutada ainult neil eesm&auml;rkidel , milleks tollisoodustused on kehtestatud .</s><s>Selle kauba kasutamine muul otstarbel on lubatud ainult p&auml;rast uuest kasutuseesm&auml;rgist tulenevate tolliformaalsuste t&auml;itmist ning impordimaksude tasumist .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Maksuseaduse alusel impordimaksudest vabastatuna Eesti tolliterritooriumile toimetatud kaup loetakse tolliterritooriumile tollisoodustustega lubatud kaubaks .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Kaitsev&auml;e- ja piirivalve&uuml;ksustele ning p&auml;&auml;stemeeskondadele rakendatav tollivormistus</s>
+</p>
+<p>
+<s>( 1 ) Toll ei kontrolli Eesti Vabariigi kaitsev&auml;e teenistus&uuml;lesandeid t&auml;itvaid s&otilde;jalaevu , s&otilde;jalennukeid ja muud s&otilde;jatehnikat , piirivalve teenistus&uuml;lesandeid t&auml;itvaid ujuvvahendeid ja &otilde;hus&otilde;idukeid ning p&auml;&auml;stemeeskondade teenistus&uuml;lesandeid t&auml;itvaid veokeid ja tehnikat , samuti teenistus&uuml;lesandeid t&auml;itva isikkoosseisu asju , kui tollil ei ole alust arvata , et seal leidub kaupa , mis ei ole m&otilde;eldud tarbevaruks .</s><s>Tollipiiri &uuml;letamise deklareerib &uuml;ksuse &uuml;lem tollile tollieeskirjades etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 m&auml;rkimata juhtudel allutatakse kaitsev&auml;e , piirivalve ja p&auml;&auml;stemeeskondade veokid , kaup ning isikkoosseisu asjad lihtsustatud korras tollikontrollile .</s><s>Kaitsev&auml;e , piirivalve ja p&auml;&auml;stemeeskondade veokite , kauba ja isikkoosseisu asjade tollivormistuse korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Tollieeskirjade n&otilde;uete t&auml;itmise eest vastutab tollipiiri &uuml;letava kaitsev&auml;e- v&otilde;i piirivalve&uuml;ksuse v&otilde;i p&auml;&auml;stemeeskonna &uuml;lem .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;lisriikide s&otilde;jalaevade , -lennukite ja muude s&otilde;jav&auml;eveokite , p&auml;&auml;stemeeskondade veokite ja tehnika ning v&auml;lisriikide s&otilde;jav&auml;elastele ja p&auml;&auml;stemeeskondade liikmetele kuuluvate asjade tollikontroll toimub vastavalt tollieeskirjadele v&otilde;i v&auml;lislepingu alusel .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>V&auml;lisriikide diplomaatiliste esinduste kauba tollivormistus</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisriikide diplomaatiliste esinduste &uuml;le tollipiiri toimetatava v&otilde;i toimetatud ametialaseks kasutamiseks etten&auml;htud kauba tollivormistuse korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lisriikide diplomaatiliste esinduste ametlikuks kasutamiseks etten&auml;htud kaup on vabastatud impordi- ja ekspordimaksudest .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>V&auml;lisriikide ja Eesti Vabariigi diplomaatilise posti ning konsulaarsaadetiste tollivormistus</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;le tollipiiri toimetatud v&otilde;i toimetatavat diplomaatilist posti ja konsulaarsaadetisi ei avata ega peeta kinni .</s><s>Kui t&otilde;sised p&otilde;hjused sunnivad oletama , et konsulaarsaadetiste hulgas on kaupa , mida ei ole k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud , on tollil &otilde;igus paluda , et adressaat v&otilde;i l&auml;hetajariigi volitatud isik avaks saadetise tolliametniku juuresolekul .</s><s>Saadetise avamisest keeldumise korral saadetakse see l&auml;hetaja kulul l&auml;htekohta tagasi .</s>
+</p>
+<p>
+<s>( 2 ) Diplomaatiline post ja konsulaarsaadetised v&otilde;ivad sisaldada &uuml;ksnes ametialaseks kasutamiseks etten&auml;htud dokumente ja kaupa .</s>
+</p>
+<p>
+<s>( 3 ) Diplomaatilise posti ning konsulaarsaadetiste k&otilde;ik pakke&uuml;ksused tuleb t&auml;histada h&auml;sti n&auml;htavate , nende sisule viitavate v&auml;liste m&auml;rkidega .</s>
+</p>
+<p>
+<s>( 4 ) Diplomaatilise posti ja konsulaarsaadetiste kohta koostatakse ning esitatakse tollile spetsiaalne tollideklaratsioon , millele kirjutab alla diplomaat .</s><s>N&otilde;utud tolliformaalsused t&auml;idetakse vastavalt tollieeskirjadele .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Tollisoodustused diplomaatiliste ja rahvusvaheliste organisatsioonide esinduste personalile</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisriikide diplomaatiliste ja konsulaaresinduste ning rahvusvaheliste organisatsioonide Eestis asuvate esinduste personalile , v&auml;lisriikide parlamendi- ja valitsusdelegatsioonide liikmetele kohaldatakse v&auml;lislepingutes s&auml;testatud tollisoodustusi .</s>
+</p>
+<p>
+<s>( 2 ) Eesti Vabariigi diplomaatiliste ja konsulaaresinduste personalile kuuluvat vara , mis toimetatakse &uuml;le tollipiiri seoses nimetatud isikute saatmisega v&auml;hemalt 12 kuud kestvasse v&auml;lisl&auml;hetusse v&otilde;i tagasip&ouml;&ouml;rdumisega v&auml;hemalt 12 kuud kestnud v&auml;lisl&auml;hetusest , ei maksustata impordi- ja ekspordimaksudega , kui maksuseaduses ei ole ette n&auml;htud teisiti .</s><s>V&auml;lisriikide diplomaatiliste ja konsulaaresinduste &uuml;le tollipiiri toimetatava v&otilde;i toimetatud isiklikuks kasutuseks etten&auml;htud kauba tollivormistuse eeskirjad kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Tollisoodustused p&auml;randvara ja &uuml;mberasuja vara &uuml;le tollipiiri toimetamisel</s>
+</p>
+<p>
+<s>( 1 ) P&auml;randvara , mis toimetatakse &uuml;le tollipiiri p&auml;rija k&auml;sutusse , ei maksustata impordi- ja ekspordimaksudega , kui maksuseaduses ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Vara , mis on olnud &uuml;mberasuja omandis &uuml;le kuue kuu ja toimetatakse &uuml;le tollipiiri seoses alaliselt elama asumisega , ei maksustata tollile esitatud vastavasisulise taotluse alusel impordi- ja ekspordimaksudega , kui maksuseaduses ei ole ette n&auml;htud teisiti .</s><s>&Uuml;mberasuja vara v&otilde;ib &uuml;le piiri toimetada 12 kuu jooksul taotluse esitamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud vara maksustatakse impordi- ja ekspordimaksudega , kui vara olemusest ja kogusest ilmneb , et tegemist on kaubanduslikul eesm&auml;rgil imporditava v&otilde;i eksporditava kaubaga .</s>
+</p>
+<p>
+<s>( 4 ) P&auml;randvara ja &uuml;mberasuja vara m&auml;&auml;ratlemise ning tollivormistuse mahu ja tolliformaalsuste l&auml;biviimise korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Tollisoodustused Eesti Pangale ning valuuta ja v&auml;&auml;rtpaberite tollivormistus</s>
+</p>
+<p>
+<s>( 1 ) Raha emiteerimiseks ja riigi v&auml;&auml;ringu stabiilsuse tagamiseks vajalikku vara , mis toimetatakse Eesti Panga poolt &uuml;le tollipiiri , ei maksustata impordi- ja ekspordimaksudega .</s><s>Vara nimekirja kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;le tollipiiri toimetatavat valuutat ja v&auml;&auml;rtpabereid ei maksustata impordi- ja ekspordimaksudega ning nende tollivormistus toimub Eesti Panga poolt kehtestatud korras .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Tollimaksustamine</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;le Eesti tollipiiri toimetatav kaup maksustatakse vastavalt seadustele impordi- ja ekspordimaksudega .</s>
+</p>
+<p>
+<s>( 2 ) Kui impordi- ja ekspordimaksude arvestamisel on aluseks kauba v&auml;&auml;rtus ( ad valorem ) , m&auml;&auml;ratakse kauba tolliv&auml;&auml;rtus tolliv&auml;&auml;rtuse m&auml;&auml;ramise seaduse p&otilde;hjal .</s>
+</p>
+<p>
+<s>( 3 ) T&auml;iendavalt ilmnenud asjaolude arvestamiseks on tollil &otilde;igus korrigeerida m&auml;&auml;ratud impordi- ja ekspordimakse omaalgatuslikult v&otilde;i asjassepuutuva isiku taotlusel kolme aasta jooksul nende maksude m&auml;&auml;ramisest arvates .</s><s>Toll v&otilde;ib impordi- ja ekspordimakse mitte korrigeerida , kui korrigeerimisest tulenev tagastatav v&otilde;i sissen&otilde;utav maksusumma on v&auml;iksem kui 200 krooni .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Tolliv&otilde;lg</s>
+</p>
+<p>
+<s>( 1 ) Tolliv&otilde;lg kauba sisseveol tekib :</s>
+</p>
+<p>
+<s>1 ) kaubadeklaratsiooni tollis aktsepteerimise p&auml;evast arvates , kui impordimaksudega maksustatav kaup imporditakse vabaks ringluseks v&otilde;i lubatakse ajutiselt sisse vedada kasutusrendi tingimustel v&otilde;i kui t&ouml;&ouml;tlemiseks v&auml;ljaveetud kaup veetakse taas sisse .</s><s>V&otilde;lgnik on deklarant , samuti isik , kelle eest kaubadeklaratsioon esitati ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>2 ) kauba &uuml;le tollipiiri toimetamise v&otilde;i selle avastamise p&auml;evast arvates , kui impordimaksudega maksustatav kaup toimetatakse ebaseaduslikult &uuml;le tollipiiri v&otilde;i vabatsoonist mujale tolliterritooriumile .</s><s>V&otilde;lgnik on kauba ebaseaduslikult &uuml;le tollipiiri v&otilde;i vabatsoonist mujale tolliterritooriumile toimetanud isik , samuti isik , kes osales selle kauba ebaseaduslikus toimetamises &uuml;le tollipiiri v&otilde;i vabatsoonist mujale tolliterritooriumile v&otilde;i omandas v&otilde;i v&otilde;ttis hoiule ebaseaduslikult &uuml;le tollipiiri v&otilde;i vabatsoonist mujale tolliterritooriumile toimetatud kauba ;</s>
+</p>
+<p>
+<s>3 ) kauba tolli j&auml;relevalve alt ebaseadusliku v&auml;ljaviimise v&otilde;i selle avastamise p&auml;evast arvates , kui kaup viiakse ebaseaduslikult tolli j&auml;relevalve alt v&auml;lja .</s><s>V&otilde;lgnik on isik , kes viis kauba ebaseaduslikult tolli j&auml;relevalve alt v&auml;lja v&otilde;i isik , kes vastutab tolliv&otilde;last tuleneva maksusumma tasumise eest , samuti isik , kes osales selle kauba ebaseaduslikus tolli j&auml;relevalve alt v&auml;ljaviimises v&otilde;i omandas v&otilde;i v&otilde;ttis hoiule ebaseaduslikult tolli j&auml;relevalve alt v&auml;ljaviidud kauba ;</s>
+</p>
+<p>
+<s>4 ) impordimaksudega maksustatava kauba tarbimise v&otilde;i kasutusele v&otilde;tmise p&auml;evast arvates vabatsoonis , kui nimetatud kaup tarbiti v&otilde;i v&otilde;eti kasutusele muudel tingimustel kui need , mis on ette n&auml;htud k&auml;esolevas seaduses ja teistes &otilde;igusaktides .</s><s>V&otilde;lgnik on isik , kellelt n&otilde;utakse selle tingimuse t&auml;itmist , mille eiramisel nimetatud kaup tarbiti v&otilde;i v&otilde;eti kasutusele .</s>
+</p>
+<p>
+<s>( 2 ) Tolliv&otilde;lg kauba v&auml;ljaveol tekib :</s>
+</p>
+<p>
+<s>1 ) kaubadeklaratsiooni tollis aktsepteerimise p&auml;evast arvates , kui ekspordimaksudega maksustatav kaup toimetatakse tolliterritooriumilt v&auml;lja .</s><s>V&otilde;lgnik on deklarant , samuti isik , kelle eest kaubadeklaratsioon esitati ;</s>
+</p>
+<p>
+<s>2 ) kauba &uuml;le tollipiiri toimetamise v&otilde;i selle avastamise p&auml;evast arvates , kui ekspordimaksudega maksustatav kaup toimetatakse ebaseaduslikult &uuml;le tollipiiri .</s><s>V&otilde;lgnik on kauba ebaseaduslikult &uuml;le tollipiiri toimetanud isik , samuti isik , kes osales selle kauba ebaseaduslikus &uuml;le tollipiiri toimetamises .</s>
+</p>
+<p>
+<s>( 3 ) Kui mitu isikut on v&otilde;lgnikud , vastutavad nad tolliv&otilde;last tuleneva maksusumma tasumise eest solidaarselt .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Impordi- ja ekspordimaksude tasumine</s>
+</p>
+<p>
+<s>( 1 ) Impordi- ja ekspordimaksud tasutakse &uuml;ldjuhul tollivormistuse k&auml;igus tolli poolt aktsepteeritud kaubadeklaratsiooni alusel .</s><s>Tollieeskirjades etten&auml;htud juhtudel ja korras v&otilde;ib toll maksude tasumise t&auml;htaega pikendada .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 2 ) Maksude tasumise t&auml;htaja pikendamine v&otilde;imaldatakse tingimusel , et vastava taotluse esitaja esitab tollile tagatise .</s>
+</p>
+<p>
+<s>( 3 ) Tolliprotseduuri kohaldamisel lihtsustatud tollivormistuse korral tasutakse impordi- ja ekspordimaksud tolliprotseduuri rakendamise eeskirjas etten&auml;htud t&auml;htaja jooksul .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) Tasumisele kuuluv impordi- ja ekspordimaksude summa m&auml;&auml;ratakse kindlaks tolliv&otilde;la tekkimise p&auml;eval kehtivates maksuseadustes s&auml;testatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>( 5 ) Tolliv&otilde;last tuleneva maksusumma t&auml;htp&auml;evaks tasumata j&auml;tmisel n&otilde;uab toll selle sisse maksukorralduse seaduses ( RT I 1994 , 1 , 5 ; 1996 , 35 , 714 ; 49 , 953 ; 78 , 1379 ; 81 , 1447 ; 1997 , 24 , 363 ; 29 , 447 ; 48 , 778 ; 51 , 822 ; 73 , 1201 ; 77 , 1313 ; 1998 , 40 ; 611 ; 86/87 , 1409 ; 1999 , 24 , 360 ; 27 , 394 ; 71 , 685 ) s&auml;testatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>( 6 ) Impordi- ja ekspordimaksude tasumise ning korrigeerimise korra kehtestab rahandusminister .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Impordi- ja ekspordimaksude ning tolliteenuste eest v&otilde;etava tasu laekumine</s>
+</p>
+<p>
+<s>Impordi- ja ekspordimaksud ning tolliteenuste eest v&otilde;etav tasu laekuvad Tolliametile , kes kannab need riigieelarvesse .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Tollieeskirjade rikkumine</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Tollieeskirjade rikkumiste loetelu</s>
+</p>
+<p>
+<s>( 1 ) Tollieeskirjade rikkumine on :</s>
+</p>
+<p>
+<s>1 ) tollire&zcaron;iimi n&otilde;uete eiramine ;</s>
+</p>
+<p>
+<s>2 ) tollire&zcaron;iimi n&otilde;uete raske eiramine ;</s>
+</p>
+<p>
+<s>3 ) kauba ebaseaduslik &uuml;le tollipiiri toimetamine v&otilde;i toimetamata j&auml;tmine v&otilde;i tolli j&auml;relevalve all oleva kaubaga toimingute ja tehingute tegemine tolli loata .</s>
+</p>
+<p>
+<s>( 2 ) Tollire&zcaron;iimi n&otilde;uete eiramine on :</s>
+</p>
+<p>
+<s>1 ) veoki peatamata j&auml;tmine tollieeskirjades etten&auml;htud kohas v&otilde;i t&ouml;&ouml;&uuml;lesandeid t&auml;itva tolliametniku m&auml;rguandel ;</s>
+</p>
+<p>
+<s>2 ) tollivormistuses oleva veoki edasis&otilde;it ilma tolli loata ;</s>
+</p>
+<p>
+<s>3 ) tolliametniku takistamine tollil&auml;bivaatusel ;</s>
+</p>
+<p>
+<s>4 ) tolliametniku seadusliku n&otilde;udmise v&otilde;i korralduse tahtlik eiramine f&uuml;&uuml;silise isiku poolt ;</s>
+</p>
+<p>
+<s>5 ) teise ujuvvahendi sildumine tollivormistuses oleva ujuvvahendi poorti ilma tolli loata ;</s>
+</p>
+<p>
+<s>6 ) k&otilde;rvalekaldumine tollitrassist v&otilde;i etten&auml;htud marsruudist liikumisel sihttollipunkti ;</s>
+</p>
+<p>
+<s>7 ) sadama , raudtee- ja lennujaama ametiisiku poolt tolli eelnevalt informeerimata j&auml;tmine kommertsveoki saabumisest v&otilde;i lahkumisest ;</s>
+</p>
+<p>
+<s>8 ) kauba ja tollidokumentide sihttollipunkti esitamise t&auml;htaja &uuml;letamine tollitransiitveol ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>9 ) ajutiselt tolliterritooriumil asuva v&auml;lisriigis registreeritud kommertsveoki kasutamine riigi sisevedudel ;</s>
+</p>
+<p>
+<s>10 ) ajutiselt ladustatud kauba ladustamist&auml;htaja &uuml;letamine ;</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>11 ) tolliterminalis v&otilde;i tollilaos kauba ladustamise ja kauba &uuml;le arvestuse pidamise osas tolli poolt kehtestatud n&otilde;uete eiramine ;</s>
+</p>
+<p>
+<s>12 ) tollile tollivormistuseks vajalike tollidokumentide t&auml;htajaks esitamata j&auml;tmine ;</s>
+</p>
+<p>
+<s>13 ) etten&auml;gematu olukorraga seoses olevate toimingute tegemata j&auml;tmine .</s>
+</p>
+<p>
+<s>( 3 ) Tollire&zcaron;iimi n&otilde;uete raske eiramine on :</s>
+</p>
+<p>
+<s>1 ) tolliametniku seadusliku n&otilde;udmise v&otilde;i korralduse tahtlik eiramine juriidilise isiku poolt ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;rvalehoidmine tollieeskirjades etten&auml;htud kauba sanitaar- , veterinaar- , f&uuml;tosanitaar- ning &otilde;igusaktides etten&auml;htud n&otilde;uetele vastavuse v&otilde;i muust kauba seisundit iseloomustavast kontrollist ;</s>
+</p>
+<p>
+<s>3 ) ajutiselt tolliterritooriumile v&otilde;i sellelt v&auml;lja toimetatud kauba taasv&auml;ljaveo v&otilde;i -sisseveo t&auml;htaja &uuml;letamine ;</s>
+</p>
+<p>
+<s>4 ) tollit&otilde;kendi rikkumine , omavoliline eemaldamine v&otilde;i tungimine tollit&otilde;kendiga kaitstud kommertsveokisse v&otilde;i hoidlasse ;</s>
+</p>
+<p>
+<s>5 ) tolli j&auml;relevalve all oleva veose avamine , &uuml;mberpakkimine , &uuml;mber- v&otilde;i mahalaadimine tolli loata ;</s>
+</p>
+<p>
+<s>6 ) kauba tollieeskirjadevastane tolliterminali v&otilde;i tollilattu hoiule v&otilde;tmine , tolliterminalist v&otilde;i tollilaost v&auml;ljastamine v&otilde;i tolliterminalis v&otilde;i tollilaos ladustamisel oleva kauba v&otilde;i selle koguse mittevastavus lao- v&otilde;i tollidokumentidele ;</s>
+</p>
+<p>
+<s>7 ) vabatsoonis majandustegevus , hoone v&otilde;i rajatise ehitamine tolli kirjaliku loata ;</s>
+</p>
+<p>
+<s>8 ) kauba jaem&uuml;&uuml;k vabatsoonis , v&auml;lja arvatud seal t&ouml;&ouml;tavate isikute toitlustamiseks ;</s>
+</p>
+<p>
+<s>9 ) tollile tollikontrolliks vajalike dokumentide esitamata j&auml;tmine , valeandmeid sisaldavate , kehtetute v&otilde;i v&otilde;ltsitud dokumentide esitamine ;</s>
+</p>
+<p>
+<s>10 ) tolliprotseduuril , mille kohaldamisel ei maksustata kaupa impordimaksudega , oleva vabastatud kauba m&uuml;&uuml;k v&otilde;i muul viisil v&otilde;&otilde;randamine , rikkudes tolli v&auml;ljastatud loa tingimusi , samuti selle kaubaga tehingute tegemine ;</s>
+</p>
+<p>
+<s>11 ) sellise valeandmeid sisaldava dokumendi v&auml;ljastamine , mis t&otilde;endab tolliterritooriumilt eksporditava kauba p&auml;ritolu , et saada soodustusi teises riigis &uuml;ldise soodustuss&uuml;steemi v&otilde;i v&auml;lislepingute alusel ;</s>
+</p>
+<p>
+<s>12 ) tollidokumentide s&auml;ilitamise t&auml;htaja eiramine .</s>
+</p>
+<p>
+<s>( 4 ) Kauba ebaseaduslik &uuml;le tollipiiri toimetamine v&otilde;i toimetamata j&auml;tmine v&otilde;i tolli j&auml;relevalve all oleva kaubaga toimingute ja tehingute tegemine tolli loata on :</s>
+</p>
+<p>
+<s>1 ) kauba &uuml;le tollipiiri toimetamine v&otilde;i toimetamata j&auml;tmine mis tahes salajasel v&otilde;i muul pettuslikul viisil tollikontrollist k&otilde;rvale hoides , selle kauba laadimine , edasitoimetamine , hoiustamine v&otilde;i omandamine ( kuriteo tunnuste puudumisel ) ;</s>
+</p>
+<p>
+<s>2 ) keelatud kauba &uuml;le tollipiiri toimetamine v&otilde;i eriluba n&otilde;udva kauba &uuml;le tollipiiri toimetamine vastava loata , selle laadimine , edasitoimetamine , hoiustamine v&otilde;i omandamine ( kuriteo tunnuste puudumisel ) ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>3 ) &uuml;le tollipiiri toimetatava v&otilde;i toimetatud deklareeritava kauba deklareerimata j&auml;tmine v&otilde;i deklareerimist t&otilde;endavate dokumentide esitamata j&auml;tmine v&otilde;i selle kauba deklareerimine vale nimetuse v&otilde;i kaubapositsiooni all , sealhulgas tollitransiidil l&auml;biva transiidina veetav kaup , v&otilde;i deklarandi v&otilde;i kauba saaja kohta valeandmete deklareerimine ( kuriteo tunnuste puudumisel ) ;</s>
+</p>
+<p>
+<s>4 ) tollisoodustusega tolliterritooriumile toimetatud kauba kasutamine soodustuse tingimusi eirates ( kuriteo tunnuste puudumisel ) ;</s>
+</p>
+<p>
+<s>5 ) tolli j&auml;relevalve all oleva kaubaga toimingute ja tehingute tegemine tolli loata ;</s>
+</p>
+<p>
+<s>6 ) litsentsi , kvaliteedipassi v&otilde;i &otilde;igusaktides etten&auml;htud n&otilde;uetele vastavuse dokumendi puudumine kauba sisse- ja v&auml;ljaveol , kui nende olemasolu on &otilde;igusaktides ette n&auml;htud ;</s>
+</p>
+<p>
+<s>7 ) kauba ebaseaduslik vabatsooni v&otilde;i sealt v&auml;lja toimetamine .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Tollieeskirjade rikkumise subjekt</s>
+</p>
+<p>
+<s>Tollieeskirjade rikkumise eest v&otilde;etakse vastutusele juriidiline isik v&otilde;i v&auml;hemalt 15-aastaseks saanud f&uuml;&uuml;siline isik .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Vastutus tollieeskirjade rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) Tollieeskirjade rikkumise asjas v&otilde;ib toll algatada menetlust seitsme aasta kestel rikkumise p&auml;evast arvates ja m&auml;&auml;rata karistuse kahe aasta jooksul rikkumise avastamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 2 ) Tollieeskirjade rikkumise eest vastutab nii juriidiline isik kui ka f&uuml;&uuml;siline isik k&auml;esoleva seaduse paragrahv 69 alusel , juhul kui see rikkumine ei too kaasa f&uuml;&uuml;silise isiku kriminaalvastutust .</s>
+</p>
+<p>
+<s>( 3 ) Kui f&uuml;&uuml;siline isik , tegutsedes juriidilise isiku nimel v&otilde;i huvides , rikkus tollieeskirju , v&otilde;ib selle rikkumise asjas kohaldada karistust samaaegselt f&uuml;&uuml;silisele ja juriidilisele isikule selleks etten&auml;htud sanktsiooni piires .</s>
+</p>
+<p>
+<s>( 4 ) Isik , kes osales tollieeskirjade rikkumises organisaatorina , kihutajana , kaasaaitajana v&otilde;i teadvalt finantseeris seda rikkumist , vastutab samal alusel kui &otilde;iguserikkumise t&auml;ideviija .</s>
+</p>
+<p>
+<s>( 5 ) Isikut , kes rikkus tollieeskirju h&auml;daseisundis , s&uuml;&uuml;dimatus seisundis v&otilde;i kontrollialuse saadetise edasitoimetamisel , vastutusele ei v&otilde;eta .</s>
+</p>
+<p>
+<s>( 6 ) Karistuse kohaldamisel tollieeskirjade rikkumise eest arvestatakse tollieeskirjade rikkumise raskust ja laadi , s&uuml;&uuml;dlase isikut ning vastutust kergendavaid ja raskendavaid asjaolusid .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Protokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahvis 65 s&auml;testatud tollieeskirjade rikkumiste kohta koostab tolli- , politsei- v&otilde;i piirivalveametnik protokolli , milles tuuakse &auml;ra selle koostamise aeg ja koht , asutuse nimetus ja aadress , kelle nimel protokoll koostatakse , protokolli koostanud isiku ametinimetus , ees- ja perekonnanimi , tollieeskirjade rikkuja nimi ja aadress ( juriidilise isiku , riigi- v&otilde;i kohaliku omavalitsuse asutuse v&otilde;i rahvusvahelise organisatsiooni asutuse puhul tollieeskirjade rikkuja esindaja ees- ja perekonnanimi ning ametikoht ) , tollieeskirjade rikkumise koht , aeg ja kirjeldus , viide k&auml;esoleva seaduse paragrahv 65 l&otilde;igete 2-4 punktile , mis n&auml;eb ette vastutuse selle tollieeskirjade rikkumise eest , tollieeskirjade rikkuja v&otilde;i tema esindaja seletus ja muud andmed , mis on asja lahendamiseks vajalikud .</s>
+</p>
+<p>
+<s>( 2 ) Protokollile kirjutavad alla selle koostanud isik ja tollieeskirjade rikkuja v&otilde;i tema esindaja .</s><s>Kui tollieeskirjade rikkuja v&otilde;i tema esindaja keeldub protokollile alla kirjutamast , tehakse sellesse vastav kanne .</s><s>Protokollile lisatakse tollieeskirjade rikkuja v&otilde;i tema esindaja kirjalikud m&auml;rkused protokolli kohta , samuti protokollile allakirjutamisest keeldumise kohta .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Karistus tollieeskirjade rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) F&uuml;&uuml;silise isiku poolt tollire&zcaron;iimi n&otilde;uete eiramisel k&auml;esoleva seaduse paragrahv 65 l&otilde;ike 2 punktides 1-7 toodud juhtudel m&auml;&auml;ratakse rahatrahv kuni 5000 krooni ulatuses v&otilde;i haldusarest kuni 20 &ouml;&ouml;p&auml;eva .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilise v&otilde;i f&uuml;&uuml;silise isiku poolt :</s>
+</p>
+<p>
+<s>1 ) tollire&zcaron;iimi n&otilde;uete eiramisel k&auml;esoleva seaduse paragrahv 65 l&otilde;ike 2 punktides 8-13 toodud juhtudel - m&auml;&auml;ratakse isikule rahatrahv kuni 10 000 krooni ulatuses v&otilde;i f&uuml;&uuml;silisele isikule haldusarest kuni 30 &ouml;&ouml;p&auml;eva ;</s>
+</p>
+<p>
+<s>2 ) tollire&zcaron;iimi n&otilde;uete raskel eiramisel k&auml;esoleva seaduse paragrahv 65 l&otilde;ikes 3 toodud juhtudel - m&auml;&auml;ratakse isikule rahatrahv kuni 100 000 krooni ulatuses v&otilde;i f&uuml;&uuml;silisele isikule haldusarest kuni 30 &ouml;&ouml;p&auml;eva ;</s>
+</p>
+<p>
+<s>3 ) kauba ebaseaduslikul &uuml;le tollipiiri toimetamisel v&otilde;i toimetamata j&auml;tmisel v&otilde;i tolli j&auml;relevalve all oleva kaubaga toimingute ja tehingute tegemisel tolli loata k&auml;esoleva seaduse paragrahv 65 l&otilde;ikes 4 toodud juhtudel - m&auml;&auml;ratakse rahatrahv tollieeskirjade rikkumise vahetuks objektiks olnud kauba v&auml;&auml;rtuse kuni kolmekordses ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Tollieeskirjade rikkumise asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus on halduskohtunikul , Tolliameti peadirektoril , tema aset&auml;itjal ning piirkondliku tolliinspektuuri juhatajal ja tema poolt volitatud tolliametnikul .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse paragrahv 65 l&otilde;ike 2 punktis 6 nimetatud &otilde;iguserikkumise asjades on asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) politseiprefektil , politseiaseprefektil ;</s>
+</p>
+<p>
+<s>( 13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 )</s>
+</p>
+<p>
+<s>2 ) Piirivalveameti peadirektoril , tema aset&auml;itjal , piirivalve piirkonna&uuml;lemal ning nende poolt volitatud piirivalveametnikul .</s>
+</p>
+<p>
+<s>( 13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 )</s>
+</p>
+<p>
+<s>( 5 ) Tollieeskirjade rikkumise asja , mille kohta politsei- v&otilde;i piirivalveametnik koostas k&auml;esoleva seaduse paragrahv 65 alusel haldus&otilde;iguserikkumise protokolli , v&otilde;ivad arutada k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud isikud .</s>
+</p>
+<p>
+<s>( 6 ) Tolli- , politsei- v&otilde;i piirivalveametnikul on &otilde;igus koostada protokoll tollieeskirjade rikkumise kohta k&auml;esoleva paragrahvi ja k&auml;esoleva seaduse paragrahv 65 alusel .</s>
+</p>
+<p>
+<s>( 7 ) Tolli- v&otilde;i piirivalveametnik v&otilde;ib m&auml;&auml;rata ja sisse n&otilde;uda tollieeskirjade rikkumise kohas kuni 2050 krooni suuruse rahatrahvi .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 8 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktis 3 toodud &otilde;iguserikkumise puhul v&otilde;ib toll kohaldada tollieeskirjade rikkumise vahetu objektina k&auml;sitatava kauba erikonfiskeerimist .</s><s>Esemed , ained ja muud v&auml;&auml;rtused , mis kuuluvad tolli poolt kohustuslikule erikonfiskeerimisele , s&auml;testatakse haldus&otilde;iguserikkumiste seadustiku paragrahv 238 l&otilde;ikes 1.</s><s>Erikonfiskeerimise kohaldamine ei ole seotud karistuse kohaldamisega .</s><s>Erikonfiskeerimist v&otilde;ib kohaldada , s&otilde;ltumata asjaolust , kellele erikonfiskeeritav ese , aine v&otilde;i muu v&auml;&auml;rtus kuulus v&otilde;i kas selle seaduslik valdaja oli tuvastatud .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 9 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 etten&auml;htud sanktsioone rakendatakse ja neid vaidlustatakse haldus&otilde;iguserikkumiste seadustiku ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ) menetluskorda j&auml;rgides .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Vastutus tollieeskirjade rikkumise ettevalmistamise ja rikkumiskatse eest</s>
+</p>
+<p>
+<s>( 1 ) Tollieeskirjade rikkumise ettevalmistamine on s&uuml;&uuml;dlase tahtlik tegevus tingimuste loomisel tollieeskirjade rikkumiseks .</s>
+</p>
+<p>
+<s>( 2 ) Tollieeskirjade rikkumise katse on tollieeskirjade rikkumisele suunatud tahtlik tegu , mis j&auml;i s&uuml;&uuml;dlase tahtest s&otilde;ltumata l&otilde;pule viimata .</s>
+</p>
+<p>
+<s>( 3 ) Karistus tollieeskirjade rikkumise ettevalmistamise v&otilde;i rikkumiskatse eest m&otilde;istetakse k&auml;esoleva seaduse s&auml;tte alusel , mis n&auml;eb ette vastutuse vastava tollieeskirjade rikkumise eest .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Dokumentide v&auml;ljan&otilde;udmine</s>
+</p>
+<p>
+<s>Tolliametnik , kelle menetluses on konkreetne tollieeskirjade rikkumine , on &otilde;igusp&auml;dev v&auml;lja n&otilde;udma asja lahendamiseks vajalikke dokumente .</s><s>Isik , kellelt n&otilde;utakse dokumentide v&auml;ljastamist , on kohustatud esitama need tasuta 10 kalendrip&auml;eva jooksul n&otilde;ude saabumise hetkest arvates .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Vaatlus</s>
+</p>
+<p>
+<s>( 1 ) Tolliametnikul , kelle menetluses on konkreetne tollieeskirjade rikkumine ning kellel on piisavalt andmeid , et isiku territooriumil , talle kuuluvates ruumides v&otilde;i veokites v&otilde;ib leiduda kaupa , mis kujutab endast tollieeskirjade rikkumise objekti , erilisi hoiukohti &uuml;lalmainitud kauba varjatud toimetamiseks &uuml;le tollipiiri v&otilde;i tollieeskirjade rikkumist kajastavaid dokumente , on &otilde;igus tolliasutuse juhataja kirjalikul korraldusel administratsiooni esindaja ja manukate juuresolekul teha territooriumi , ruumide v&otilde;i transpordivahendite vaatlust , kaasates vajaduse korral vastava eriala eksperte .</s>
+</p>
+<p>
+<s>( 2 ) Vaatluse tulemused kantakse vaatlusprotokolli , mille &auml;rakiri antakse 48 tunni jooksul asjaomasele isikule v&otilde;i tema esindajale .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Tollieeskirjadest kinnipidamise kontroll majandustegevuses</s>
+</p>
+<p>
+<s>Tolliametnik , kelle menetluses on konkreetne tollieeskirjade rikkumine , v&otilde;ib kontrollida tollieeskirjadest kinnipidamist isiku majandustegevuses .</s><s>Kontrolli tulemused vormistatakse aktiga ning tehakse kontrollitavale teatavaks p&auml;rast kontrolli l&otilde;ppemist .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Kauba ja veoki kinnipidamine tolli- , politsei- v&otilde;i piirivalveametniku poolt</s>
+</p>
+<p>
+<s>( 1 ) Tollieeskirjade rikkumise korral on tolli- , politsei- ja piirivalveametnikul &otilde;igus kuni tollieeskirjade rikkumise asjas tehtud otsuse t&auml;itmiseni kinni pidada :</s>
+</p>
+<p>
+<s>1 ) rikkumise vahetuks objektiks olnud kaupa ja veokit ;</s>
+</p>
+<p>
+<s>2 ) kaupa ja veokit , mille tollikontrolliga seoses tuvastati tollieeskirjade rikkumine ;</s>
+</p>
+<p>
+<s>3 ) veokit , millega oli kinnipidamisele eelnenud &uuml;he aasta jooksul pandud toime tollieeskirjade rikkumine , mille eest rikkujale on karistus m&auml;&auml;ramata ja veok ei ole l&auml;inud &uuml;le heauskse omaniku k&auml;sutusse , kui k&auml;esoleva seaduse paragrahv 69 l&otilde;ikest 8 ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kauba ja veoki , mis on kinni peetud politsei- v&otilde;i piirivalveametniku poolt , annavad nimetatud ametiisikud &uuml;le tollile .</s><s>&Uuml;leandja ja vastuv&otilde;tja p&auml;devad ametiisikud koostavad &uuml;leandmise kohta akti .</s>
+</p>
+<p>
+<s>( 3 ) Tolli- , politsei- v&otilde;i piirivalveametniku poolt kinnipeetud kaup v&otilde;i veok , mille kohta ei tehtud erikonfiskeerimise otsust , kuid mida valdaja ei ole &uuml;he kuu jooksul p&auml;rast tollieeskirjade rikkumise asjas tehtud otsuse tegemist tollilt v&auml;lja n&otilde;udnud , realiseeritakse k&auml;esoleva seaduse paragrahvis 77 etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 4 ) Tolli- , politsei- v&otilde;i piirivalveametniku poolt ebaseaduslikult kinnipeetud kaup ja veok tagastatakse selle valdajale ning talle h&uuml;vitatakse tekitatud kahju .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Eeluurimine</s>
+</p>
+<p>
+<s>( 13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 )</s>
+</p>
+<p>
+<s>( 1 ) Toll on kohtueelse uurimise asutus tollieeskirjade rikkumise asjades ja ta juhindub oma tegevuses kriminaalmenetlust reguleerivatest &otilde;igusaktidest .</s>
+</p>
+<p>
+<s>( 13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 )</s>
+</p>
+<p>
+<s>( 2 ) Kui tollikontrolliga avastatakse kuriteo tunnuseid , mis ei ole seotud tollieeskirjade rikkumisega , informeerib tolliasutuse juhataja v&otilde;i teda asendav tolliametnik eeluurimisasutust , kelle uurimisalluvusse ja t&ouml;&ouml;piirkonda vastava kuriteo uurimine kuulub , ja v&otilde;tab tarvitusele meetmed kuriteo j&auml;lgede ning asit&otilde;endite s&auml;ilitamiseks ning kahtlustatava kinnipidamiseks .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Halduskaristuse t&auml;itmisele p&ouml;&ouml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Tollieeskirjade rikkumise eest m&auml;&auml;ratud rahatrahv n&otilde;utakse sisse haldus&otilde;iguserikkumiste seadustikus ja t&auml;itemenetluse seadustikus ( RT I 1993 , 49 , 693 ; 1997 , 43/44 , 723 ; 1998 , 51 , 756 ; 61 , 981 ; 103 , 1695 ; 1999 , 18 , 302 ; 27 , 380 ) kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kaup , mille kohta on tehtud erikonfiskeerimise otsus , l&auml;heb koheselt tasuta &uuml;le riigi omandisse .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 ) Tollieeskirjade rikkumise eest m&auml;&auml;ratud rahatrahv laekub riigieelarvesse .</s>
+</p>
+<p>
+<s>( 4 ) Erikonfiskeerimise otsuse t&uuml;histamise korral tagastatakse erikonfiskeeritud kaup ja veok selle valdajale v&otilde;i h&uuml;vitatakse talle tekitatud kahju realiseerimisest laekunud summa ulatuses .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Erikonfiskeeritud ja peremeheta kauba realiseerimine</s>
+</p>
+<p>
+<s>( 1 ) Kaup v&otilde;i veok , mille erikonfiskeerimise otsus on j&otilde;ustunud v&otilde;i mille omanikku ei ole &otilde;nnestunud kindlaks teha &uuml;he kuu jooksul selle tolli poolt h&otilde;ivamise p&auml;evast arvates v&otilde;i mida valdaja ei ole k&auml;esoleva seaduse paragrahvis 74 etten&auml;htud t&auml;htaja jooksul tollilt v&auml;lja n&otilde;udnud , v&otilde;i kaup v&otilde;i veok , mis on k&auml;esoleva seaduse paragrahv 65 l&otilde;ikes 4 nimetatud tollieeskirjade rikkumise vahetuks objektiks ja rikkuja ei ole ilmunud tolliasutusse 10 kalendrip&auml;eva jooksul rikkumise avastamise p&auml;evast arvates , realiseeritakse tollioksjonil v&otilde;i muul viisil v&otilde;i saadetakse v&auml;lislepingus s&auml;testatud tingimustel tagasi v&auml;lisriiki .</s><s>Kiiresti rikneva kauba v&otilde;ib realiseerida l&uuml;hema t&auml;htaja jooksul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kauba v&otilde;i veoki realiseerimine muul viisil kui tollioksjonil toimub Vabariigi Valitsuse kehtestatud korras .</s><s>Seejuures on lubatud sellise kauba v&otilde;i veoki tasuta &uuml;leandmine tervishoiu- v&otilde;i sotsiaalhoolekandeasutusele .</s>
+</p>
+<p>
+<s>( 3 ) Erikonfiskeeritud kaup , millel on kultuuriv&auml;&auml;rtus , v&auml;lja arvatud piraatkoopia , antakse tasuta &uuml;le Kultuuriministeeriumi poolt m&auml;&auml;ratud riigimuuseumile .</s><s>Erikonfiskeeritud arhiiviv&auml;&auml;rtusega avalik arhivaal ja arhiiviregistrisse kantud eraarhivaal antakse tasuta &uuml;le riigiarhivaari poolt m&auml;&auml;ratud avalikule arhiivile .</s>
+</p>
+<p>
+<s>( 25.03.98 j&otilde;ust.01.05.98 - RT I 1998 , 36/37 , 552 ; 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kaup , mis kuulub kaitsealuste liikide hulka v&otilde;i loodusliku loomastiku ja taimestiku ohustatud liikidega rahvusvahelise kaubanduse konventsiooni ( RT II 1993 , 27/28 , 83 ) alla , antakse tasuta &uuml;le Keskkonnaministeeriumi poolt m&auml;&auml;ratud asutusele .</s>
+</p>
+<p>
+<s>( 13.10.99 j&otilde;ust.31.10.99 - RT I 1999 , 79 , 731 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 3 nimetatud kauba v&otilde;i veoki kohta esitab tollioksjoni korraldaja v&otilde;i isik , kellele see kaup v&otilde;i veok realiseeriti , tollile 10 kalendrip&auml;eva jooksul tollioksjoni toimumisest v&otilde;i muul viisil realiseerimisest arvates kaubadeklaratsiooni selle kauba impordiks vabaks ringluseks .</s><s>Kui kaup v&otilde;i veok realiseeriti muul viisil kui tollioksjonil , kantakse realiseerimisest laekunud summa p&auml;rast hoiu- ja transpordikulude mahaarvamist riigieelarvesse , kusjuures hoiu- ja transpordikulud tasutakse realiseerimisest laekunud summa ulatuses .</s>
+</p>
+<p>
+<s>( 5 ) Erikonfiskeeritud v&otilde;i peremeheta kaup , mida ei ole v&otilde;imalik realiseerida , h&auml;vitatakse kaupa &uuml;le tollipiiri toimetada p&uuml;&uuml;dnud isiku kulul .</s><s>Kui kaupa &uuml;le tollipiiri toimetada p&uuml;&uuml;dnud isikut ei ole v&otilde;imalik kindlaks teha , h&auml;vitatakse kaup riigi kulul .</s><s>H&auml;vitamise kohta koostatakse akt , mille kinnitab Tolliameti peadirektor .</s>
+</p>
+<p>
+<s>( 6 ) Kauba v&otilde;i veoki , mille omanikku ei ole &otilde;nnestunud kindlaks teha &uuml;he kuu jooksul tollieeskirjade rikkumise avastamise p&auml;evast arvates v&otilde;i mida valdaja ei ole k&auml;esoleva seaduse paragrahvis 74 etten&auml;htud t&auml;htaja jooksul tollilt v&auml;lja n&otilde;udnud , realiseerimisest riigieelarvesse p&auml;rast k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud mahaarvamisi kantud summa tollilt v&auml;ljan&otilde;udmise &otilde;igus s&auml;ilib kauba v&otilde;i veoki omanikul v&otilde;i valdajal &uuml;he kuu jooksul p&auml;rast kauba v&otilde;i veoki realiseerimist .</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Tollioksjon</s>
+</p>
+<p>
+<s>( 1 ) Kui tollieeskirjad ei n&auml;e ette teisiti , realiseeritakse k&auml;esoleva seaduse paragrahv 77 l&otilde;ikes 1 nimetatud kaup tollioksjonil .</s>
+</p>
+<p>
+<s>( 2 ) Tollioksjoni korraldamise juhendi kinnitab rahandusminister .</s>
+</p>
+<p>
+<s>( 3 ) Tollioksjonil realiseeritud kauba realiseerimisest laekunud summast kuus protsenti laekub tollioksjoni korraldajale .</s><s>&Uuml;lej&auml;&auml;nud summa kantakse p&auml;rast impordimaksude tasumist ning hoiu- ja transpordikulude mahaarvamist riigieelarvesse .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Kontrollialused saadetised</s>
+</p>
+<p>
+<s>Organiseeritud kuritegevusega v&otilde;itlemiseks on Tolliametil &otilde;igus lasta ebaseaduslikult &uuml;le tollipiiri toimetatavat v&otilde;i toimetatud kaupa sisaldavad veosed tolli j&auml;lgimise all takistamatult sihtkohta ( kontrollialuse saadetise meetod ) , koosk&otilde;lastades selle Politseiametiga .</s>
+</p>
+<p>
+<s>10. peat&uuml;kk .</s>
+</p>
+<p>
+<s>Rakenduslikud s&auml;tted</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Seaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tolliseadus ( RT I 1993 , 62 , 891 ; 76 , 1129 ; 1994 , 30 , 466 ; 1995 , 20 , 297 ; 1996 , 83 , 1487 ) tunnistatakse kehtetuks .</s>
+</p>
+</body>
+   </text>
+</tei.2>

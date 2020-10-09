@@ -1,0 +1,1438 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> K&auml;ibemaksuseadus ( terviktekst m&auml;rts 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   11668</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> K&auml;ibemaksuseadus ( terviktekst m&auml;rts 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=2></tagusage>
+         <tagusage gi=p occurs=444></tagusage>
+         <tagusage gi=s occurs=576></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>K&auml;ibemaksuseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 13. juunil 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 64 , 368 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2002. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>19.03.2002 j&otilde;ust.28.03.2002 - RT I 2002 , 30 , 177 ;</s>
+</p>
+<p>
+<s>31.01.2002 j&otilde;ust.02.02.2002 - RT I 2002 , 11 , 60 ;</s>
+</p>
+<p>
+<s>13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 ;</s>
+</p>
+<p>
+<s>17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Maksu objekt</s>
+</p>
+<p>
+<s>K&auml;ibemaksu objekt on k&auml;esoleva seaduse &sect;-s 4 s&auml;testatud maksustatav k&auml;ive .</s><s>K&auml;ibemaksu rakendatakse lisandunud v&auml;&auml;rtuse maksuna , v&auml;lja arvatud k&auml;esolevast seadusest tulenevatel erijuhtudel .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Maksukohustuslane</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ibemaksukohustuslane ( edaspidi maksukohustuslane ) on isik , kaasa arvatud avalik-&otilde;iguslik juriidiline isik , v&otilde;i riigi- , valla- v&otilde;i linnaasutus ( edaspidi isik ) , kellel tekib maksustatav k&auml;ive ettev&otilde;tluse tulemusena , sealhulgas Eestis ettev&otilde;tlusega tegelev mitteresident tulumaksuseaduse ( RT I 1999 , 101 , 903 ; RT I 2001 , 11 , 49 ; 16 , 69 ; 50 , 283 ; 59 , 359 ; 79 , 480 ; 91 , 544 ; 2002 , 23 , 131 ) t&auml;henduses ja Eestisse teenust importiv isik .</s>
+</p>
+<p>
+<s>( 2 ) Riigi- , valla- v&otilde;i linnaasutus on maksukohustuslane sellise maksustatava k&auml;ibe osas , mida saab teostada ka maksukohustuslane , kes ei ole riigi- , valla- ega linnaasutus .</s>
+</p>
+<p>
+<s>( 3 ) Maksukohustuslane peab maksma k&auml;ibemaksu p&auml;rast seda , kui ta on k&auml;esoleva seaduse &sect; 9 kohaselt registreeritud maksukohustuslasena .</s><s>K&auml;ibemaksu peab maksma ka :</s>
+</p>
+<p>
+<s>1 ) isik , kes on k&auml;ibemaksu osas v&otilde;lgnik tolliseadustiku t&auml;henduses ;</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>2 ) maksukohustuslasena registreerimata isik tehingult , mille kohta ta on esitanud arve v&otilde;i muu m&uuml;&uuml;gidokumendi , millele ta on m&auml;rkinud k&auml;ibemaksusumma .</s>
+</p>
+<p>
+<s>( 4 ) Ettev&otilde;tlus k&auml;esoleva seaduse t&auml;henduses on isiku iseseisev majandustegevus , mille tulemusena toimub tasuline v&otilde;i tasuta kauba v&otilde;&otilde;randamine v&otilde;i teenuse osutamine .</s><s>Ettev&otilde;tlusena k&auml;sitatakse ka notari ja kohtut&auml;ituri ametitegevust .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>K&auml;ive</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ive on :</s>
+</p>
+<p>
+<s>1 ) kauba v&otilde;&otilde;randamine ja teenuse osutamine ettev&otilde;tluse korras ;</s>
+</p>
+<p>
+<s>2 ) kauba andmine ja teenuse osutamine maksukohustuslase poolt oma t&ouml;&ouml;tajale , teenistujale v&otilde;i juhtimis- v&otilde;i kontrollorgani liikmele ning teenuse ja ettev&otilde;tluses kasutatava vara hulka kuuluva kauba kasutamine maksukohustuslase v&otilde;i tema t&ouml;&ouml;taja , teenistuja v&otilde;i juhtimis- v&otilde;i kontrollorgani liikme poolt ettev&otilde;tlusega mitteseotud otstarbel , kui maksukohustuslane on selle kauba v&otilde;i teenuse sisendk&auml;ibemaksu k&auml;esoleva seaduse &sect; 20 kohaselt oma k&auml;ibemaksust maha arvanud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;ivet ei teki :</s>
+</p>
+<p>
+<s>1 ) &auml;ri&uuml;hingu osa- v&otilde;i aktsiakapitali tehtavast mitterahalisest sissemaksest ;</s>
+</p>
+<p>
+<s>2 ) vabatsoonis v&otilde;i vabalaos oleva v&auml;lisriigi kauba ( tolliseadustiku t&auml;henduses ) v&otilde;&otilde;randamisest , kui sellele kaubale ei ole rakendatud &uuml;htki tolliprotseduuri ning seda ei ole tarbitud ega kasutatud muudel kui tollieeskirjades etten&auml;htud tingimustel ;</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>3 ) v&auml;lisriigi kauba , sealhulgas vabatsooni v&otilde;i vabalattu paigutatud v&auml;lisriigi kauba , mille suhtes on rakendatud vabasse ringlusse lubamise tolliprotseduurist erinevat tolliprotseduuri , v&otilde;&otilde;randamisest tingimusel , et seda kaupa ei ole viidud tollij&auml;relevalve alt ebaseaduslikult v&auml;lja ja seda ei ole tarbitud ega kasutatud muudel kui tollieeskirjades etten&auml;htud tingimustel ;</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>4 ) kauba Eestist v&auml;ljatoimetamisel kauba omaniku poolt ilma sellega kaasneva v&otilde;i sellele j&auml;rgneva v&otilde;&otilde;randamistehinguta ;</s>
+</p>
+<p>
+<s>5 ) riigivara tasuta kasutusse andmisest riigivaraseaduse ( RT I 1995 , 22 , 327 ; 1996 , 36 , 738 ; 40 , 773 ; 48 , 942 ; 81 , 1446 ; 1997 , 45 , 724 ; 1998 , 30 , 409 ; 1999 , 10 , 155 ; 16 , 271 ; 2000 , 39 , 239 ; 49 , 306 ; 51 , 319 ; 2001 , 7 , 17 ; 93 , 565 ) t&auml;henduses , valla- v&otilde;i linnavara erastamisest ning maareformi k&auml;igus &otilde;igustatud subjektile kinnistusraamatusse kandmata mitmeaastase istanduse &uuml;leandmisest ;</s>
+</p>
+<p>
+<s>6 ) &auml;riseadustiku ( RT I 1995 , 26-28 , 355 ; RT I 1998 , 91-93 , 1500 ; 1999 , 10 , 155 ; 23 , 355 ; 24 , 360 ; 57 , 596 ; 102 , 907 ; 2000 , 29 , 172 ; 49 , 303 ; 55 , 365 ; 57 , 373 ; 2001 , 34 , 185 ; 56 , 332 ja 336 ; 89 , 532 ; 93 , 565 ; 2002 , 3 , 6 ) kohaselt &auml;ri&uuml;hingute &uuml;hinemise v&otilde;i &auml;ri&uuml;hingu jagunemise v&otilde;i &uuml;mberkujundamise korral vara &uuml;leandmisest teisele &auml;ri&uuml;hingule ;</s>
+</p>
+<p>
+<s>7 ) &uuml;he maksukohustuslasena registreeritud isikute omavahelisest tehingust , kui tehingu tulemusena kauba v&otilde;i teenuse saanud isik kasutab selle t&auml;ielikult oma maksustatava k&auml;ibe teostamiseks ;</s>
+</p>
+<p>
+<s>8 ) ettev&otilde;tluse huvides kauba , mille v&auml;&auml;rtus ei &uuml;leta 50 krooni , &uuml;leandmisest reklaami eesm&auml;rgil v&otilde;i kauba tasuta &uuml;leandmisest mittem&uuml;&uuml;dava tooten&auml;idisena ;</s>
+</p>
+<p>
+<s>9 ) raha &uuml;leandmisest ja v&auml;&auml;rtpaberi v&otilde;&otilde;randamisest ;</s>
+</p>
+<p>
+<s>10 ) debitoorse v&otilde;lgnevuse m&uuml;&uuml;gist .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 3 ) Kaup k&auml;esoleva seaduse t&auml;henduses on asi , loom ning elektri- ja soojusenergia .</s>
+</p>
+<p>
+<s>( 4 ) Teenus k&auml;esoleva seaduse t&auml;henduses on selline ettev&otilde;tluse korras osutatav h&uuml;ve v&otilde;i v&otilde;&otilde;randatav &otilde;igus , mida k&auml;esoleva paragrahvi l&otilde;ikes 3 ei ole nimetatud .</s>
+</p>
+<p>
+<s>( 5 ) Kasutusrenti k&auml;sitatakse k&auml;esoleva seaduse t&auml;henduses teenuse osutamisena ja kapitalirenti kauba v&otilde;&otilde;randamisena .</s><s>Kapitalirendina k&auml;sitatakse tehingut , mille puhul rendilepingus on s&auml;testatud kauba v&auml;ljaostmisel selle omandi&otilde;iguse &uuml;leminek rentnikule .</s><s>Muudel juhtudel k&auml;sitatakse tehingut kasutusrendina .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Maksustatav k&auml;ive</s>
+</p>
+<p>
+<s>Maksustatav k&auml;ive on :</s>
+</p>
+<p>
+<s>1 ) k&auml;ive , mille tekkimise koht on Eesti , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 18 l&otilde;igetes 1 ja 2 loetletud maksuvabade kaupade ja teenuste k&auml;ive ;</s>
+</p>
+<p>
+<s>2 ) kauba ja teenuse import Eestisse , v&auml;lja arvatud k&auml;esoleva seaduse &sect;-s 19 s&auml;testatud maksuvaba import ;</s>
+</p>
+<p>
+<s>3 ) teenuse osutamine , mille k&auml;ibe tekkimise koht ei ole Eesti ja mida k&auml;sitatakse teenuse ekspordina ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect; 18 l&otilde;ikes 3 nimetatud kauba v&otilde;i teenuse k&auml;ive , mille maksustatavale v&auml;&auml;rtusele on registreeritud maksukohustuslane lisanud k&auml;ibemaksu .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Eksport</s>
+</p>
+<p>
+<s>( 1 ) Kauba eksport k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) Eesti kauba ( tolliseadustiku t&auml;henduses ) v&auml;ljavedu Eesti tolliterritooriumilt v&otilde;i toimetamine rahvusvahelisi reise teostavale vee- v&otilde;i &otilde;hus&otilde;idukile kaasav&otilde;etava varuna v&otilde;i tarbevaruna , samuti reisijate liikluseks avatud rahvusvahelise lennujaama tollikontrolli tsoonis asuvasse m&uuml;&uuml;gipunkti ekspordi tolliprotseduuri rakendamisega ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lisriigi kauba seest&ouml;&ouml;tlemisel peatamiss&uuml;steemi kohaldamisega saadud kompensatsioonitoote ( tolliseadustiku t&auml;henduses ) v&auml;ljavedu v&otilde;i toimetamine rahvusvahelisi reise teostavale vee- v&otilde;i &otilde;hus&otilde;idukile kaasav&otilde;etava varuna v&otilde;i tarbevaruna , samuti reisijate liikluseks avatud rahvusvahelise lennujaama tollikontrolli tsoonis asuvasse m&uuml;&uuml;gipunkti .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 2 ) Teenuse eksport k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) teenuse osutamine , mille k&auml;ibe tekkimise koht k&auml;esoleva seaduse &sect; 7 l&otilde;ike 2 kohaselt ei ole Eesti ;</s>
+</p>
+<p>
+<s>2 ) Vabariigi Valitsuse v&otilde;i tema volitusel rahandusministri m&auml;&auml;rusega kehtestatud nimekirjas nimetatud , riikidevahelise kauba- v&otilde;i reisijateveoga seotud teenuse osutamine ;</s>
+</p>
+<p>
+<s>3 ) kauba v&otilde;i teenuse m&uuml;&uuml;ja ja ostja vahelise tehingu vahendamine , kui kauba tarbija asub v&auml;lisriigis v&otilde;i kui vahendatakse teenuse eksporti ;</s>
+</p>
+<p>
+<s>4 ) laeva lipu&otilde;iguse ja laevaregistrite seaduses ( RT I 1998 , 23 , 321 ; 59 , 941 ; 1999 , 10 , 149 ; 2000 , 55 , 365 ; 2001 , 56 , 336 ; 93 , 565 ) nimetatud merelaeva , mida kasutatakse avamerenavigatsiooniks , v&otilde;i rahvusvahelisel lennuliinil kasutatava &otilde;hus&otilde;iduki hooldamine , prahtimine , rendile v&otilde;i kasutusvaldusse andmine v&otilde;i sellisel merelaeval v&otilde;i &otilde;hus&otilde;idukis kasutatava varustuse rendile v&otilde;i kasutusvaldusse andmine , parandamine v&otilde;i hooldamine ;</s>
+</p>
+<p>
+<s>5 ) Eestis osutatavate turismiteenuste , sealhulgas pakettreisi m&uuml;&uuml;mine v&auml;lisriigi reisikorraldajale v&otilde;i reisib&uuml;roole vahendamiseks Eestisse siirduvatele mitteresidendist f&uuml;&uuml;silistele isikutele nende teenindamiseks Eestis ;</s>
+</p>
+<p>
+<s>6 ) pakettreisi m&uuml;&uuml;mine Eestist v&auml;lisriiki suunduvale turistile tema teenindamiseks v&auml;ljaspool Eesti tolliterritooriumi .</s>
+</p>
+<p>
+<s>( 3 ) Kauba v&otilde;i teenuse eksporti t&otilde;endavad dokumendid kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktid 5 ja 6 kehtivad 2003. aasta 31. detsembrini .</s><s>Alates 2004. aasta 1. jaanuarist kohaldatakse reisikorraldaja v&otilde;i reisib&uuml;roo teenuse maksustamisel k&auml;esoleva seaduse &sect; 33 s&auml;tteid .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Import</s>
+</p>
+<p>
+<s>( 1 ) Kauba import k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) v&auml;lisriigi kauba vabasse ringlusse lubamine ( tolliseadustiku t&auml;henduses ) ;</s>
+</p>
+<p>
+<s>2 ) Eesti kauba v&auml;list&ouml;&ouml;tlemisel saadud toote vabasse ringlusse lubamine ( tolliseadustiku t&auml;henduses ) ;</s>
+</p>
+<p>
+<s>3 ) muud juhud , millega kaasneb tolliv&otilde;la tekkimine tolliseadustiku t&auml;henduses .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 2 ) Kauba sissevedu ajutise importimise tolliprotseduuriga kasutusrendile andmiseks ei k&auml;sitata k&auml;esoleva seaduse t&auml;henduses kauba impordina .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 3 ) Teenuse import k&auml;esoleva seaduse t&auml;henduses on j&auml;rgmiste teenuste saamine Eesti maksukohustuslase poolt mitteresidendilt , v&auml;lja arvatud nende saamine mitteresidendi Eestis asuva p&uuml;siva tegevuskoha kaudu :</s>
+</p>
+<p>
+<s>1 ) intellektuaalse omandi &otilde;iguse &uuml;leandmine ;</s>
+</p>
+<p>
+<s>2 ) reklaamiteenus ;</s>
+</p>
+<p>
+<s>3 ) konsultatsiooni- , raamatupidamis- , &otilde;igus- , audiitori- , inseneri- , andmet&ouml;&ouml;tlus- v&otilde;i infoteenus v&otilde;i elektroonilisel teel informatsiooni edastamise teenus ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect; 18 l&otilde;ike 2 punktis 5 nimetatud teenus v&otilde;i kindlustusteenus , mille hulka arvatakse ka edasikindlustus .</s><s>Seifi &uuml;&uuml;rimist teenuse impordina ei k&auml;sitata ;</s>
+</p>
+<p>
+<s>5 ) t&ouml;&ouml;j&otilde;u vahendamine ;</s>
+</p>
+<p>
+<s>6 ) vallasasja &uuml;&uuml;rile , rendile v&otilde;i kasutusvaldusse andmine ;</s>
+</p>
+<p>
+<s>7 ) telekommunikatsiooniteenus , kaasa arvatud &uuml;lekandeliinide kasutamise &otilde;iguse loovutamine ;</s>
+</p>
+<p>
+<s>8 ) voliniku teenus , kes hangib volitajale &uuml;ht k&auml;esoleva l&otilde;ike punktides 1-7 nimetatud teenust ;</s>
+</p>
+<p>
+<s>9 ) ( Kehtetu - 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 4 ) Eesti Euroopa Liiduga liitumisest alates ei k&auml;sitata teenuse impordina transpordivahendi &uuml;&uuml;rimist , rentimist v&otilde;i kasutusvaldusse v&otilde;tmist mitteresidendilt .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>K&auml;ibe tekkimise koht</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ibe tekkimise koht on Eesti , kui :</s>
+</p>
+<p>
+<s>1 ) kaup toimetatakse saajale v&otilde;i tehakse talle k&auml;ttesaadavaks Eestis v&otilde;i eksporditakse Eestist ;</s>
+</p>
+<p>
+<s>2 ) ehitatakse , hinnatakse v&otilde;i hooldatakse Eestis asuvat kinnisasja v&otilde;i osutatakse teenust Eestis asuva kinnisasja v&otilde;&otilde;randamiseks v&otilde;i selle ehitamise ettevalmistamiseks v&otilde;i korraldamiseks .</s><s>Kinnisasjana k&auml;sitatakse k&auml;esolevas seaduses ka ehitist kui vallasasja ;</s>
+</p>
+<p>
+<s>3 ) osutatakse Eestis kultuuri- , kunsti- , spordi- , haridus- , teadus- v&otilde;i meelelahutusteenust , mille hulka arvatakse ka asjaomase &uuml;rituse korraldamine ;</s>
+</p>
+<p>
+<s>4 ) hinnatakse v&otilde;i remonditakse Eestis asuvat vallasasja ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva l&otilde;ike punktis 2 , 3 v&otilde;i 4 nimetamata teenuse osutaja asukoht v&otilde;i p&uuml;siv tegevuskoht , mille kaudu teenust osutatakse , asub Eestis , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;ibe tekkimise koht ei ole Eesti , kui Eesti maksukohustuslane osutab j&auml;rgmisi teenuseid :</s>
+</p>
+<p>
+<s>1 ) v&auml;lisriigis asuva kinnisasja ehitamine , hindamine v&otilde;i hooldamine v&otilde;i kinnisasja v&otilde;&otilde;randamiseks , ehitamise ettevalmistamiseks v&otilde;i korraldamiseks osutatav teenus ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lisriigis osutatav kultuuri- , kunsti- , spordi- , haridus- , teadus- v&otilde;i meelelahutusteenus , mille hulka arvatakse ka asjaomase &uuml;rituse korraldamine ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lisriigis asuva vallasasja hindamine v&otilde;i remontimine ;</s>
+</p>
+<p>
+<s>4 ) ( Kehtetu - 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>5 ) mitteresidendile , v&auml;lja arvatud mitteresidendi Eestis asuvale p&uuml;sivale tegevuskohale osutatavad k&auml;esoleva seaduse &sect; 6 l&otilde;ike 3 punktides 1-8 nimetatud teenused .</s>
+</p>
+<p>
+<s>( 3 ) Eesti Euroopa Liiduga liitumisest alates loetakse Eesti maksukohustuslase poolt transpordivahendi mitteresidendile &uuml;&uuml;rile , rendile v&otilde;i kasutusvaldusse andmise k&auml;ibe tekkimise kohaks Eesti .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>K&auml;ibe tekkimise ning kauba ja teenuse importimise aeg</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ive on tekkinud v&otilde;i teenus on imporditud p&auml;eval , mil esimesena sooritati &uuml;ks allj&auml;rgnevaist toiminguist :</s>
+</p>
+<p>
+<s>1 ) kauba ostjale l&auml;hetamine v&otilde;i k&auml;ttesaadavaks tegemine v&otilde;i teenuse osutamine ;</s>
+</p>
+<p>
+<s>2 ) kauba v&otilde;i teenuse eest arve v&auml;ljastamine ;</s>
+</p>
+<p>
+<s>3 ) kauba v&otilde;i teenuse eest osaline v&otilde;i t&auml;ielik maksmine ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect; 3 l&otilde;ike 1 punktis 2 nimetatud juhul kauba andmine v&otilde;i teenuse osutamine maksukohustuslase poolt oma t&ouml;&ouml;tajale , teenistujale v&otilde;i juhtimis- v&otilde;i kontrollorgani liikmele ning teenuse kasutamine v&otilde;i ettev&otilde;tluses kasutatava vara hulka kuuluva kauba kasutuselev&otilde;tmine maksukohustuslase v&otilde;i tema t&ouml;&ouml;taja , teenistuja v&otilde;i juhtimis- v&otilde;i kontrollorgani liikme poolt ettev&otilde;tlusega mitteseotud otstarbel .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva paragrahvi l&otilde;ike 1 kohaselt on k&auml;ibe tekkimise ajaks kauba v&otilde;i teenuse eest osaline v&otilde;i t&auml;ielik maksmine , on k&auml;ive tekkinud makstud osa ulatuses .</s><s>Kauba v&otilde;i teenuse eest mitmes osas maksmise puhul k&auml;ibe tekkimise aja m&auml;&auml;ramise korra kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s><s>Kauba v&otilde;i teenuse harilikust v&auml;&auml;rtusest madalama hinnaga v&otilde;&otilde;randamiseks riigi- , valla- v&otilde;i linnaeelarvest sihtotstarbelise toetuse saamist ei k&auml;sitata selle kauba v&otilde;i teenuse eest maksmisena .</s>
+</p>
+<p>
+<s>( 3 ) Teenus , mille osutamine kestab kauem kui maksustamisperiood , loetakse osutatuks maksustamisperioodil , mil selle teenuse osutamine l&otilde;peb .</s><s>Samale ostjale teenuste osutamisel v&otilde;i kaupade v&otilde;&otilde;randamisel regulaarselt , samuti kauba kapitalirendile andmise korral , loetakse k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 1 nimetatud toimingu sooritamise ajaks maksustamisperiood , mil l&otilde;peb ajavahemik , mille kohta arve esitatakse v&otilde;i mille kestel saadud kaupade v&otilde;i teenuste eest on kokku lepitud tasumine .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 4 ) Kauba eksportimisel on k&auml;ibe tekkimise ajaks p&auml;ev , mil kaup vabastatakse tolliseadustiku t&auml;henduses .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 5 ) Kauba importimisel on k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 punktides 1 ja 2 nimetatud juhtudel k&auml;ibe tekkimise ajaks p&auml;ev , mil kaup vabastatakse tolliseadustiku t&auml;henduses , ja punktis 3 nimetatud juhtudel tolliv&otilde;la tekkimise p&auml;ev .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Maksustamise &uuml;ldp&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Maksukohustuslase registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Kui maksukohustuslase maksustatav k&auml;ive , v&auml;lja arvatud kauba import , &uuml;letab kalendriaasta algusest arvates 250 000 krooni , on ta kohustatud nimetatud suuruses maksustatava k&auml;ibe tekkimise p&auml;evast alates 10 kalendrip&auml;eva jooksul esitama oma elu- v&otilde;i asukohaj&auml;rgsele Maksuameti kohalikule asutusele ( edaspidi Maksuamet ) avalduse enda registreerimiseks maksukohustuslasena .</s><s>Maksuamet registreerib maksukohustuslase ja kannab tema andmed maksukohustuslaste registrisse ( edaspidi registreerimine ) nimetatud suuruses maksustatava k&auml;ibe tekkimise kuule j&auml;rgneva kuu esimese p&auml;eva seisuga .</s>
+</p>
+<p>
+<s>( 2 ) Kui maksukohustuslase maksustatav k&auml;ive ei &uuml;leta kalendriaastal k&auml;esoleva paragrahvi l&otilde;ikes 1 toodud piirm&auml;&auml;ra v&otilde;i kui maksustatavat k&auml;ivet ei ole veel tekkinud , registreerib Maksuamet maksukohustuslase tema sellekohase avalduse alusel .</s><s>Selline maksukohustuslane registreeritakse avalduse esitamise kuule j&auml;rgneva kuu esimese kuup&auml;eva seisuga .</s>
+</p>
+<p>
+<s>( 3 ) Registreerimiseks avalduse esitamisel peab f&uuml;&uuml;siline isik , samuti juriidilise isiku v&otilde;i riigi- , valla- v&otilde;i linnaasutuse esindaja esitama isikut t&otilde;endava dokumendi .</s><s>Juriidilise isiku v&otilde;i riigi- , valla- v&otilde;i linnaasutuse lepinguline esindaja peab koos isikut t&otilde;endava dokumendiga esitama ka volitust t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 4 ) Maksuamet teeb maksukohustuslase registreerimise kohta otsuse ja edastab selle maksukohustuslasele 10 kalendrip&auml;eva jooksul avalduse saamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 5 ) Kui Maksuametil on andmeid , et maksukohustuslasel on tekkinud k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud suuruses maksustatav k&auml;ive , kuid ta ei ole registreerimisavaldust samas l&otilde;ikes s&auml;testatud t&auml;htaja jooksul esitanud , registreerib Maksuamet maksukohustuslase nimetatud suuruses maksustatava k&auml;ibe tekkimise kuule j&auml;rgneva kuu esimese p&auml;eva seisuga oma algatusel .</s>
+</p>
+<p>
+<s>( 6 ) Kui Maksuamet tuvastab p&auml;rast maksukohustuslase registreerimist , et avaldus on esitatud etten&auml;htust hiljem ning maksukohustuslane oleks pidanud hakkama registreeritud maksukohustuslase k&auml;esoleva seaduse &sect; 11 l&otilde;ikes 1 s&auml;testatud kohustusi t&auml;itma enne Maksuameti otsuses nimetatud kuup&auml;eva , t&uuml;histab Maksuamet oma esialgse otsuse ja teeb uue ning registreerib maksukohustuslase k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud suuruses maksustatava k&auml;ibe tekkimise kuule j&auml;rgneva kuu esimese p&auml;eva seisuga .</s>
+</p>
+<p>
+<s>( 7 ) Isiku maksukohustuslasena registreerimise avalduse vormi ja maksukohustuslase registreerimise kohta tehtava Maksuameti otsuse vormi kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Maksukohustuslase registrist kustutamine</s>
+</p>
+<p>
+<s>( 1 ) Kui isik on olnud maksukohustuslaste registris v&auml;hemalt kaks aastat ja tema maksustatav k&auml;ive , v&auml;lja arvatud kauba import , ei ole viimasel kalendriaastal &uuml;letanud ega &uuml;leta tema arvestuste kohaselt ka jooksval kalendriaastal k&auml;esoleva seaduse &sect; 9 l&otilde;ikes 1 toodud piirm&auml;&auml;ra , v&otilde;ib ta esitada Maksuametile avalduse enda registrist kustutamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Maksuametil on &otilde;igus kustutada registrist maksukohustuslane , kes ei ole esitanud k&auml;ibedeklaratsiooni kuue viimase j&auml;rjestikuse maksustamisperioodi kohta .</s>
+</p>
+<p>
+<s>( 3 ) Kui maksukohustuslane v&otilde;i tema tegevus on l&otilde;petatud ja Maksuamet on saanud teate , et l&otilde;petamise kohta tehtud registrikanne on j&otilde;ustunud , kustutab Maksuamet maksukohustuslase maksukohustuslaste registrist .</s>
+</p>
+<p>
+<s>( 4 ) Maksukohustuslane kustutatakse registrist Maksuameti direktori otsuse alusel .</s><s>Enne maksukohustuslase registrist kustutamise otsustamist , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 nimetatud juhtudel , peab Maksuamet tema majandustegevust kontrollima .</s><s>Maksukohustuslane loetakse registrist kustutatuks otsuses nimetatud kuup&auml;eva seisuga .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Maksukohustuslase &otilde;iguste ja kohustuste erisused</s>
+</p>
+<p>
+<s>( 1 ) Registreerimise p&auml;evast alates peab maksukohustuslane t&auml;itma registreeritud maksukohustuslase kohustusi , sealhulgas lisama v&otilde;&otilde;randatava kauba v&otilde;i osutatava teenuse maksustatavale v&auml;&auml;rtusele k&auml;ibemaksu , arvutama tasumisele kuuluva maksusumma k&auml;esoleva seaduse &sect;-s 20 s&auml;testatud korras , s&auml;ilitama dokumente ja pidama arvestust vastavalt &sect;-s 27 s&auml;testatule ning esitama &sect; 28 n&otilde;uete kohaseid arveid .</s><s>Registreerimise p&auml;evast alates v&otilde;ib k&auml;esoleva seaduse &sect; 20 l&otilde;ikes 1 nimetatud mahaarvamisi teha p&auml;rast registreerimist soetatud kauba ja p&auml;rast registreerimist saadud teenuse puhul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 9 l&otilde;ike 5 alusel registreeritud maksukohustuslasel on &otilde;igus teha &sect; 20 l&otilde;ikes 1 nimetatud mahaarvamisi Maksuameti otsuse tegemise kuu esimesest p&auml;evast alates ning &sect; 9 l&otilde;ike 6 alusel registreeritud maksukohustuslasel Maksuameti esialgses otsuses nimetatud p&auml;evast alates .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Maksukohustuslaste registreerimine &uuml;he maksukohustuslasena</s>
+</p>
+<p>
+<s>( 1 ) Maksukohustuslaste &uuml;hise taotluse alusel registreerib Maksuamet &uuml;he maksukohustuslasena emaettev&otilde;tja ja t&uuml;tarettev&otilde;tjad &auml;riseadustiku t&auml;henduses .</s><s>&Uuml;he maksukohustuslasena registreeritakse &uuml;hise taotluse alusel ka maksukohustuslased , kelle puhul esineb v&auml;hemalt &uuml;ks j&auml;rgmistest asjaoludest :</s>
+</p>
+<p>
+<s>1 ) samale isikule kuulub v&auml;hemalt 50 protsenti iga &uuml;he maksukohustuslasena registreeritava aktsiaseltsi aktsiatest v&otilde;i osa- , t&auml;is- v&otilde;i usaldus&uuml;hingu osalusest ;</s>
+</p>
+<p>
+<s>2 ) samale isikule kuulub v&auml;hemalt 50 protsenti iga &uuml;he maksukohustuslasena registreeritava aktsiaseltsi aktsiatega v&otilde;i osa&uuml;hingu osadega v&otilde;i t&auml;is- v&otilde;i usaldus&uuml;hingu sissemaksetega m&auml;&auml;ratud h&auml;&auml;ltest .</s>
+</p>
+<p>
+<s>( 2 ) Maksukohustuslasena registreerimata isikud registreerib Maksuamet enne nende &uuml;he maksukohustuslasena registreerimist eraldi maksukohustuslastena k&auml;esoleva seaduse &sect;-s 9 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Maksuamet tunnistab maksukohustuslaste &uuml;he maksukohustuslasena registreerimise otsuse kehtetuks :</s>
+</p>
+<p>
+<s>1 ) kui Maksuametil on andmeid , et k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud asjaolusid enam ei esine - nende l&otilde;ppemise kuule j&auml;rgneva kuu esimese p&auml;eva seisuga ;</s>
+</p>
+<p>
+<s>2 ) &uuml;he maksukohustuslasena registreeritud maksukohustuslaste &uuml;hise taotluse alusel - selle saamise kuule j&auml;rgneva kuu esimese p&auml;eva seisuga .</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;he maksukohustuslasena registreerimise korra , registreerimisavalduse vormi ning maksukohustuslaste taotlusel nende &uuml;he maksukohustuslasena registreerimise otsuse kehtetuks tunnistamise korra kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 5 ) &Uuml;he maksukohustuslasena registreerimise otsuse kehtetuks tunnistamise p&auml;eva seisuga loetakse maksukohustuslased uuesti registreerituks eraldi maksukohustuslastena .</s>
+</p>
+<p>
+<s>( 6 ) &Uuml;he maksukohustuslasena registreeritud isikud esitavad k&auml;ibedeklaratsioonid eraldi , kuid vastutavad k&auml;ibemaksu t&auml;htaegse tasumise eest solidaarselt .</s><s>&Uuml;he maksukohustuslasena registreerimise otsuse kehtetuks tunnistamise korral vastutavad maksukohustuslased solidaarselt k&auml;ibemaksuv&otilde;la eest , mis on tekkinud nende &uuml;he maksukohustuslasena toimimise ajal.</s>
+</p>
+<p>
+<s>( 7 ) Enammakstud k&auml;ibemaksu arvestust peetakse k&otilde;igi &uuml;he maksukohustuslasena registreeritud maksukohustuslaste kohta eraldi .</s><s>Enammakstud k&auml;ibemaks tagastatakse vastavalt &uuml;he maksukohustuslasena registreeritud maksukohustuslaste esitatud k&auml;ibedeklaratsioonidele .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Maksustamisperiood ja k&auml;ibedeklaratsioon</s>
+</p>
+<p>
+<s>( 1 ) Maksustamisperiood on kalendrikuu .</s><s>K&auml;ibedeklaratsioon esitatakse Maksuametile maksustamisperioodile j&auml;rgneva kuu 20. kuup&auml;evaks .</s><s>K&auml;ibedeklaratsiooni vormi kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;ibedeklaratsiooni on kohustatud esitama :</s>
+</p>
+<p>
+<s>1 ) registreeritud maksukohustuslane ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect; 2 l&otilde;ike 3 punktis 2 nimetatud isik tehingu puhul , mille kohta ta on esitanud arve v&otilde;i muu m&uuml;&uuml;gidokumendi , millele ta on m&auml;rkinud k&auml;ibemaksu summa .</s>
+</p>
+<p>
+<s>( 3 ) Maksuameti direktor v&otilde;ib oma otsusega kehtestada maksukohustuslase motiveeritud taotluse alusel talle kalendrikuust pikema maksustamisperioodi , mis algab kalendrikuu esimesel p&auml;eval ja l&otilde;peb m&otilde;ne sellele j&auml;rgneva kalendrikuu viimasel p&auml;eval .</s><s>Ka sellisel juhul esitatakse k&auml;ibedeklaratsioon Maksuametile maksustamisperioodile j&auml;rgneva kuu 20. kuup&auml;evaks .</s>
+</p>
+<p>
+<s>( 4 ) Kui maksukohustuslane muudab eelmiste maksustamisperioodide kohta esitatud k&auml;ibedeklaratsioonide andmeid , on ta kohustatud vastava maksustamisperioodi kohta esitama Maksuametile uue , muudetud andmetega k&auml;ibedeklaratsiooni .</s><s>Kui maksukohustuslane t&uuml;histab kauba v&otilde;i teenuse kohta esitatud arve v&otilde;i esitab kreeditarve p&auml;rast kauba v&otilde;i teenuse k&auml;ibe tekkimise maksustamisperioodi kohta k&auml;ibedeklaratsiooni esitamist , kajastab nii m&uuml;&uuml;ja kui ka ostja sellest tulenevad muudatused arve t&uuml;histamise v&otilde;i kreeditarve esitamise maksustamisperioodi kohta esitatud k&auml;ibedeklaratsioonis .</s><s>Kreeditarve peab olema esitatud konkreetse arve kohta ja sellel peab olema viide varem esitatud arvele .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>K&auml;ibe ja imporditava teenuse maksustatav v&auml;&auml;rtus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ibe maksustatava v&auml;&auml;rtuse ja imporditava teenuse maksustatava v&auml;&auml;rtuse moodustavad kauba v&otilde;i teenuse m&uuml;&uuml;gihind ning muud summad , mis tuleb kauba v&otilde;i teenuse ostjal v&otilde;i kolmandal isikul seoses vastava kauba soetamise v&otilde;i teenuse saamisega maksta kauba m&uuml;&uuml;jale v&otilde;i teenuse osutajale , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 3-5 nimetatud juhtudel .</s><s>K&auml;esoleva seadusega kehtestatavat maksu ei arvata maksustatava v&auml;&auml;rtuse hulka .</s>
+</p>
+<p>
+<s>( 2 ) Maksustatava v&auml;&auml;rtuse hulka arvatakse ka kauba v&otilde;i teenuse harilikust v&auml;&auml;rtusest madalama hinnaga v&otilde;&otilde;randamiseks riigi- , valla- v&otilde;i linnaeelarvest maksukohustuslasele antav sihtotstarbeline toetus .</s><s>Toetuse maksustatava v&auml;&auml;rtuse hulka arvamise ja maksustamise korra kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister .</s>
+</p>
+<p>
+<s>( 3 ) Kauba j&auml;relmaksuga m&uuml;&uuml;gi korral intressi maksustatava v&auml;&auml;rtuse hulka ei arvata .</s><s>Kauba kapitalirendi korral kuulub intress maksustatava v&auml;&auml;rtuse hulka .</s><s>Kinnisasja kapitalirendile andmisel ning j&auml;relmaksuga m&uuml;&uuml;misel ei arvata maksustatava v&auml;&auml;rtuse hulka ostja poolt m&uuml;&uuml;jale tasutavat maamaksukulu .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 4 ) Faktooringuteenuse maksustatav v&auml;&auml;rtus on lepingutasu ja arvete k&auml;sitlemise tasu .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 5 ) Kauba tasuta v&otilde;i harilikust v&auml;&auml;rtusest madalama hinnaga v&otilde;&otilde;randamise , sealhulgas kapitalirendile andmise v&otilde;i j&auml;relmaksuga m&uuml;&uuml;mise , samuti teenuse , sealhulgas kauba kasutusrendile andmise teenuse v&otilde;i faktooringuteenuse harilikust v&auml;&auml;rtusest madalama hinnaga osutamise korral on maksustatav v&auml;&auml;rtus kauba v&otilde;&otilde;randamise v&otilde;i teenuse osutamise aegne keskmine kohalik m&uuml;&uuml;gihind ( edaspidi turuhind ) .</s><s>K&auml;esoleva seaduse &sect; 3 l&otilde;ike 1 punktis 2 nimetatud k&auml;ibe korral on maksustatav v&auml;&auml;rtus kauba v&otilde;i teenuse turuhind .</s>
+</p>
+<p>
+<s>( 6 ) Kui Maksuamet leiab , et k&auml;esoleva paragrahvi l&otilde;ikes 5 nimetatud juhtudel on kauba v&otilde;i teenuse deklareeritud maksustatav v&auml;&auml;rtus turuhinnast v&auml;iksem , v&otilde;ib Maksuamet m&auml;&auml;rata maksustatavaks v&auml;&auml;rtuseks turuhinna .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 7 ) Maksustatavat v&auml;&auml;rtust v&auml;hendatakse ostjale v&otilde;imaldatava hinnasoodustuse v&otilde;rra , kui soodustust kohaldatakse kauba m&uuml;&uuml;mise v&otilde;i teenuse osutamise ajal k&otilde;igile sama kauba v&otilde;i teenuse ostjatele samadel tingimustel &auml;rilisel eesm&auml;rgil .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Imporditava kauba maksustatav v&auml;&auml;rtus</s>
+</p>
+<p>
+<s>( 1 ) Imporditava kauba maksustatava v&auml;&auml;rtuse moodustavad kauba tolliv&auml;&auml;rtus vastavalt tolliseadustikule ja k&otilde;ik impordimaksud , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 2-4 k&auml;sitletud juhtudel .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 2 ) Imporditud kasutatud mootors&otilde;iduki maksustamisel aluseks v&otilde;etava v&auml;ikseima v&otilde;imaliku maksustatava v&auml;&auml;rtuse m&auml;&auml;ramise korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Reisija poolt &uuml;le k&auml;esoleva seaduse &sect; 19 l&otilde;ikes 3 s&auml;testatud v&auml;&auml;rtuselise piirm&auml;&auml;ra imporditud kauba maksustatava v&auml;&auml;rtuse moodustavad kauba ostuhind ja k&otilde;ik impordimaksud .</s><s>Ostuhinna t&otilde;endab reisija maksedokumentide alusel .</s><s>Kui need puuduvad v&otilde;i kui vastavalt tolliseadustiku &sect; 61 l&otilde;ikele 1 ei ole imporditud kauba deklareeritud v&auml;&auml;rtus tollile vastuv&otilde;etav , v&otilde;etakse maksustamisel aluseks hinnatava kauba v&otilde;i sellega identse v&otilde;i sarnase kauba turuhind .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 4 ) Eesti kauba v&auml;list&ouml;&ouml;tlemisel saadud toote vabasse ringlusse lubamisel moodustavad maksustatava v&auml;&auml;rtuse t&ouml;&ouml;tlemisel lisandunud v&auml;&auml;rtus ning kaubale v&auml;ljaspool Eesti tolliterritooriumi lisandunud laadimis- , pakkimis- , veo- ja kindlustuskulud koos k&otilde;igi impordimaksudega .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva seadusega kehtestatavat maksu ei arvata imporditava kauba maksustatava v&auml;&auml;rtuse hulka .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Eksporditava kauba maksustatav v&auml;&auml;rtus</s>
+</p>
+<p>
+<s>Ekspordi korral kohaldatakse kauba maksustatava v&auml;&auml;rtuse m&auml;&auml;ramisel k&auml;esoleva seaduse &sect; 14 s&auml;tteid , kuid erinevalt &sect; 14 l&otilde;ikes 5 s&auml;testatust loetakse turuhind eksporditava kauba maksustatavaks v&auml;&auml;rtuseks selle harilikust v&auml;&auml;rtusest k&otilde;rgema hinnaga v&otilde;&otilde;randamise korral .</s><s>K&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 2 nimetatud kompensatsioonitoote v&auml;ljaveol ei arvata t&ouml;&ouml;tlemiseks sissetoodud v&auml;lisriigi kauba v&auml;&auml;rtust maksustatava v&auml;&auml;rtuse hulka .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 ; 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>K&auml;ibemaksum&auml;&auml;rad</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ibemaksum&auml;&auml;r on 18 protsenti maksustatavast v&auml;&auml;rtusest , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;ibemaksum&auml;&auml;r on 5 protsenti j&auml;rgmiste kaupade ja teenuste maksustatavast v&auml;&auml;rtusest :</s>
+</p>
+<p>
+<s>1 ) raamat , v&auml;lja arvatud p&otilde;hikooli- ja g&uuml;mnaasiumiseaduse ( RT I 1993 , 63 , 892 ; RT I 1999 , 42 , 497 ; 79 , 730 ; 2000 , 33 , 195 ; 54 , 349 ; 71 , &otilde;iend ; 95 , 611 ; 2001 , 50 , 288 ; 75 , 454 ; 2002 , 25 , 144 ) alusel haridusministri m&auml;&auml;rusega kinnitatud riikliku &otilde;ppekava kohaste &otilde;pikute , t&ouml;&ouml;vihikute ja t&ouml;&ouml;raamatute nimekirja kuuluv &otilde;pik , t&ouml;&ouml;vihik v&otilde;i t&ouml;&ouml;raamat .</s><s>Raamat k&auml;esoleva seaduse t&auml;henduses on Eesti kaupade nomenklatuuri ( edaspidi EKN ) rubriiki 4901 v&otilde;i 4903 kuuluv tr&uuml;kitud ja kaante vahele k&ouml;idetud mitteperioodiline v&auml;ljaanne ;</s>
+</p>
+<p>
+<s>2 ) Vabariigi Valitsuse v&otilde;i tema volitusel sotsiaalministri m&auml;&auml;rusega kehtestatud nimekirjas nimetatud ravim , meditsiiniseade v&otilde;i abivahend sotsiaalhoolekande seaduse ( RT I 1995 , 21 , 323 ; RT I 2001 , 98 , 617 ) t&auml;henduses ;</s>
+</p>
+<p>
+<s>3 ) Tervisekaitseinspektsioonis registreeritud keemiline kahjurit&otilde;rjevahend ( biotsiid ) Vabariigi Valitsuse v&otilde;i tema volitusel sotsiaalministri m&auml;&auml;rusega kehtestatud nimekirja alusel , kui ostjaks on hoolekandeasutus v&otilde;i tervishoiuteenuse osutaja ;</s>
+</p>
+<p>
+<s>( 19.03.2002 j&otilde;ust.28.03.2002 - RT I 2002 , 30 , 177 )</s>
+</p>
+<p>
+<s>4 ) ohtlike j&auml;&auml;tmete k&auml;itlemine ;</s>
+</p>
+<p>
+<s>5 ) Vabariigi Valitsuse v&otilde;i tema volitusel rahandusministri m&auml;&auml;rusega kehtestatud nimekirjas nimetatud matusetarve v&otilde;i -teenus ;</s>
+</p>
+<p>
+<s>6 ) etenduse v&otilde;i kontserdi korraldamine riigi- , munitsipaal- v&otilde;i eraetendusasutuse v&otilde;i rahvusooperi poolt tingimusel , et etenduse v&otilde;i kontserdi korraldajal ei ole maksustamisperioodil teadaolevat samal kalendriaastal tekkinud maksuv&otilde;lga ja riigi- , valla- v&otilde;i linnaeelarvest v&otilde;i Eesti Kultuurkapitalilt saadavad vahendid moodustavad tema kalendriaasta eelarvetulust v&auml;hemalt 10 protsenti ;</s>
+</p>
+<p>
+<s>7 ) f&uuml;&uuml;silisele isikule , elamu- v&otilde;i korteri&uuml;histule , kirikule v&otilde;i kogudusele v&otilde;i riigi- , valla- v&otilde;i linnaeelarvest finantseeritavale asutusele v&otilde;i organisatsioonile m&uuml;&uuml;dav soojusenergia ning f&uuml;&uuml;silisele isikule m&uuml;&uuml;dav k&uuml;tteturvas , brikett , kivis&uuml;si v&otilde;i k&uuml;ttepuit .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;ibemaksum&auml;&auml;r on 0 protsenti j&auml;rgmiste kaupade ja teenuste maksustatavast v&auml;&auml;rtusest :</s>
+</p>
+<p>
+<s>1 ) eksporditav kaup v&otilde;i teenus , kaasa arvatud juhul , kui k&auml;esoleva seaduse &sect; 18 kohaselt on selle kauba v&otilde;i teenuse k&auml;ive maksuvaba ;</s>
+</p>
+<p>
+<s>2 ) avamerenavigatsiooniks kasutatav merelaev ja sellega koos v&otilde;&otilde;randatav varustus ;</s>
+</p>
+<p>
+<s>3 ) rahvusvahelisel lennuliinil kasutatav &otilde;hus&otilde;iduk ja sellega koos v&otilde;&otilde;randatav varustus ;</s>
+</p>
+<p>
+<s>4 ) tuule- v&otilde;i veej&otilde;ul toodetud elektrienergia ;</s>
+</p>
+<p>
+<s>5 ) ettetellitud perioodiline v&auml;ljaanne ;</s>
+</p>
+<p>
+<s>6 ) p&otilde;hikooli- ja g&uuml;mnaasiumiseaduse alusel haridusministri m&auml;&auml;rusega kinnitatud riikliku &otilde;ppekava kohaste &otilde;pikute , t&ouml;&ouml;vihikute ja t&ouml;&ouml;raamatute nimekirja kuuluv &otilde;pik , t&ouml;&ouml;vihik v&otilde;i t&ouml;&ouml;raamat .</s>
+</p>
+<p>
+<s>( 4 ) S&otilde;ltumata k&auml;esoleva paragrahvi l&otilde;ike 3 punktis 1 s&auml;testatust kohaldatakse k&auml;ibemaksum&auml;&auml;ra 0 protsenti asemel maksuvabastust j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) tagasitoodud kauba ( tolliseadustiku t&auml;henduses ) asemel sarnase kauba eksportimisel , kui asendatav kaup toodi tagasi maksuvabalt k&auml;esoleva seaduse &sect; 19 l&otilde;ike 2 punkti 20 alusel ;</s>
+</p>
+<p>
+<s>2 ) Eestisse k&auml;esoleva paragrahvi l&otilde;ike 3 alusel k&auml;ibemaksum&auml;&auml;raga 0 protsenti v&otilde;i k&auml;esoleva seaduse &sect; 19 alusel maksuvabalt imporditud kauba eksportimisel .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 5 ) Alates 2005. aasta 1. juulist on f&uuml;&uuml;silisele isikule , elamu- v&otilde;i korteri&uuml;histule , kirikule v&otilde;i kogudusele v&otilde;i riigi- , valla- v&otilde;i linnaeelarvest finantseeritavale asutusele v&otilde;i organisatsioonile m&uuml;&uuml;dava soojusenergia ning f&uuml;&uuml;silisele isikule m&uuml;&uuml;dava k&uuml;tteturba , briketi , kivis&ouml;e v&otilde;i k&uuml;ttepuidu k&auml;ibemaksum&auml;&auml;r 18 protsenti .</s>
+</p>
+<p>
+<s>( 6 ) Alates 2007. aasta 1. jaanuarist on tuule- v&otilde;i veej&otilde;ul toodetud elektrienergia k&auml;ibemaksum&auml;&auml;r 18 protsenti .</s>
+</p>
+<p>
+<s>( 7 ) Eesti Euroopa Liiduga liitumisest alates on ettetellitud perioodilise v&auml;ljaande ning p&otilde;hikooli- ja g&uuml;mnaasiumiseaduse alusel haridusministri m&auml;&auml;rusega kinnitatud riikliku &otilde;ppekava kohaste &otilde;pikute , t&ouml;&ouml;vihikute ja t&ouml;&ouml;raamatute nimekirja kuuluva &otilde;piku , t&ouml;&ouml;vihiku v&otilde;i -raamatu k&auml;ibemaksum&auml;&auml;r 5 protsenti .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Maksuvaba k&auml;ive</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ibemaksuga ei maksustata j&auml;rgmiste sotsiaalse iseloomuga kaupade ja teenuste k&auml;ivet :</s>
+</p>
+<p>
+<s>1 ) postiteenus ;</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>2 ) tervishoiuteenus , samuti Vabariigi Valitsuse v&otilde;i tema volitusel sotsiaalministri m&auml;&auml;rusega kinnitatud nimekirjas nimetatud inimorgan v&otilde;i -kude , inimveri v&otilde;i inimverest valmistatud veretoode v&otilde;i rinnapiim ;</s>
+</p>
+<p>
+<s>3 ) teenus , mida mittetulundus&uuml;hing tasuta osutab oma liikmele , ning mittetulundus&uuml;hingu poolt f&uuml;&uuml;silisele isikule osutatav spordirajatise v&otilde;i spordivahendite kasutamise teenus ;</s>
+</p>
+<p>
+<s>4 ) sotsiaalhoolekande seaduse &sect; 10 punktis 1 , 3 , 4 , 5 v&otilde;i 6 nimetatud sotsiaalteenus ;</s>
+</p>
+<p>
+<s>5 ) laste ja noorukite kaitsega seotud turvakoduteenus ;</s>
+</p>
+<p>
+<s>6 ) koolitusteenus , sealhulgas p&otilde;hi- , kesk- v&otilde;i k&otilde;rghariduskoolitusega seotud era&otilde;ppetunni andmine ;</s>
+</p>
+<p>
+<s>7 ) haige , vigastatu v&otilde;i puudega inimese vedu selleks kohandatud s&otilde;idukiga , mis vastab liiklusseaduse ( RT I 2001 , 3 , 6 ; 93 , 565 ) alusel kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Samuti ei maksustata k&auml;ibemaksuga j&auml;rgmiste kaupade ja teenuste k&auml;ivet :</s>
+</p>
+<p>
+<s>1 ) kindlustusteenus , sealhulgas kindlustusmaakleri v&otilde;i kindlustusagendi osutatav kindlustusteenus , mille hulka arvatakse ka edasikindlustus ;</s>
+</p>
+<p>
+<s>2 ) kinnisasja &uuml;&uuml;rile , rendile v&otilde;i kasutusvaldusse andmine ning eluruumi hooldusteenuse osutamine eluruumi omanikule , samuti eluruumi &uuml;&uuml;rileandja v&otilde;i hooldusteenuse osutaja poolt teenuse saajalt n&otilde;utavad maamaksu- ja hoonekindlustuskulud .</s><s>Majutusteenuse osutamisele ning s&otilde;idukite parkimismaja v&otilde;i parkimiskoha , statsionaarselt paigaldatud seadme v&otilde;i masina v&otilde;i seifi &uuml;&uuml;rile , rendile v&otilde;i kasutusvaldusse andmisele maksuvabastust ei kohaldata ;</s>
+</p>
+<p>
+<s>3 ) kinnisasi ;</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>4 ) kaup , mille sisendk&auml;ibemaks ei kuulunud seaduse kohaselt mahaarvamisele .</s><s>Kaubale , mille sisendk&auml;ibemaks on maha arvatud osaliselt , k&auml;esoleva punkti alusel maksuvabastust ei kohaldata ;</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>5 ) krediidi- v&otilde;i finantseerimisasutuse teenus , mis on nimetatud Vabariigi Valitsuse v&otilde;i tema volitusel rahandusministri m&auml;&auml;rusega kehtestatud nimekirjas ;</s>
+</p>
+<p>
+<s>6 ) Eesti Vabariigi kehtiv postimaksevahend , kui seda m&uuml;&uuml;akse nimiv&auml;&auml;rtuses ;</s>
+</p>
+<p>
+<s>7 ) loterii v&otilde;i hasartm&auml;ngu korraldamine ja loteriipilet ;</s>
+</p>
+<p>
+<s>8 ) investeeringukuld , investeeringukulla v&otilde;&otilde;randamisega v&otilde;i v&otilde;&otilde;randamislepingu s&otilde;lmimisega seotud teenus v&otilde;i nende k&auml;ibega seotud teenus , mille osutab teise isiku nimel ja arvel tegutsev agent .</s>
+</p>
+<p>
+<s>( 3 ) Maksuametit enne k&auml;ibe toimumist samal maksustamisperioodil v&otilde;i varem sellekohaselt teavitanud maksukohustuslane v&otilde;ib lisada k&auml;ibemaksu j&auml;rgmiste kaupade ja teenuste maksustatavale v&auml;&auml;rtusele :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 2 nimetatud teenus ;</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 3 v&otilde;i 5 nimetatud kaup v&otilde;i teenus ;</s>
+</p>
+<p>
+<s>3 ) investeeringukuld , mille teisele registreeritud maksukohustuslasele v&otilde;&otilde;randab registreeritud maksukohustuslane , kes oma ettev&otilde;tluse k&auml;igus teostab tavaliselt t&ouml;&ouml;stusliku toorainena kasutatava kulla k&auml;ivet , v&otilde;i registreeritud maksukohustuslane , kes toodab investeeringukulda v&otilde;i muudab muul otstarbel kasutatavat kulda investeeringukullaks , v&otilde;i sellise k&auml;ibega seotud teenus , mille osutab teise isiku nimel ja arvel tegutsev agent .</s>
+</p>
+<p>
+<s>( 4 ) Investeeringukuld k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) kullakang v&otilde;i kullatahvel , mille puhta kulla sisaldus on v&auml;hemalt 995 tuhandikku kaaluosa ;</s>
+</p>
+<p>
+<s>2 ) p&auml;rast 1800. aastat m&uuml;nditud ja ametliku maksevahendina k&auml;ibel olev v&otilde;i k&auml;ibel olnud kuldm&uuml;nt , mille puhta kulla sisaldus on v&auml;hemalt 900 tuhandikku kaaluosa ja mida ei m&uuml;&uuml;da numismaatilisel eesm&auml;rgil .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Maksuvaba import</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ibemaksuga ei maksustata j&auml;rgmiste kaupade ja teenuste importi :</s>
+</p>
+<p>
+<s>1 ) kaup v&otilde;i teenus , mille k&auml;ive on maksuvaba k&auml;esoleva seaduse &sect; 18 kohaselt ;</s>
+</p>
+<p>
+<s>2 ) Eesti Panga poolt imporditav kuld , rahat&auml;hed ja m&uuml;ndid ning v&auml;&auml;rtpaberid ;</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>3 ) maksum&auml;rk ;</s>
+</p>
+<p>
+<s>4 ) kaup , mille &uuml;le tollipiiri toimetamisel ei pea vastavalt tollieeskirjadele kaubadeklaratsiooni esitama .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse v&otilde;i tema volitusel rahandusministri m&auml;&auml;rusega kehtestatud tingimustel ja korras ei maksustata k&auml;ibemaksuga j&auml;rgmiste kaupade importi :</s>
+</p>
+<p>
+<s>1 ) Eestisse alaliselt elama asuva , pidevalt &uuml;le 12 kuu v&auml;lisriigis elanud f&uuml;&uuml;silise isiku omandis &uuml;le kuue kuu olnud kaubad , mille olemusest ja hulgast on ilmne , et neid ei impordita kaubanduslikul eesm&auml;rgil .</s><s>Alkoholile ja tubakatoodetele maksuvabastust ei kohaldata ;</s>
+</p>
+<p>
+<s>2 ) abiellumise t&otilde;ttu alaliselt Eestisse elama asuva , pidevalt &uuml;le 12 kuu v&auml;lisriigis elanud f&uuml;&uuml;silise isiku vara , mille olemusest ja hulgast on ilmne , et seda ei impordita kaubanduslikul eesm&auml;rgil .</s><s>Alkoholile ja tubakatoodetele maksuvabastust ei kohaldata ;</s>
+</p>
+<p>
+<s>3 ) Eestis asuvale p&auml;rijale toimetatav p&auml;randvara , mille olemusest ja hulgast on ilmne , et seda ei impordita kaubanduslikul eesm&auml;rgil .</s><s>Alkoholile ja tubakatoodetele maksuvabastust ei kohaldata ;</s>
+</p>
+<p>
+<s>4 ) Eesti &otilde;ppeasutusse &otilde;ppima asuva f&uuml;&uuml;silise isiku vara , &otilde;ppevahendid ja &otilde;ppematerjal ning majapidamistarbed , mille olemusest ja hulgast on ilmne , et neid ei impordita kaubanduslikul eesm&auml;rgil ;</s>
+</p>
+<p>
+<s>5 ) v&auml;hemalt 12 kuu jooksul enne senises asukohariigis ettev&otilde;tluse l&otilde;petamise kuup&auml;eva ettev&otilde;tja tegelikus kasutuses olnud p&otilde;hivara , mille ettev&otilde;tja toimetab Eestisse ettev&otilde;tluse t&auml;ieliku Eestisse &uuml;letoomise t&otilde;ttu .</s><s>P&otilde;hivarana k&auml;sitatakse ka p&otilde;llumajandustootjast ettev&otilde;tja loomi ;</s>
+</p>
+<p>
+<s>6 ) p&otilde;llumajandus- , loomakasvatus- , mesindus- , aiandus- v&otilde;i metsat&ouml;&ouml;stustoode , mille toimetab Eestisse selle tootnud isik oma valdustelt riigist , millel on Eestiga &uuml;hine maismaapiir , v&otilde;i puhtat&otilde;uline kuni kuue kuu vanune hobune , kelle ema oli poegimiseks Eestist ajutiselt v&auml;lja toimetatud ;</s>
+</p>
+<p>
+<s>7 ) Eesti tolliterritooriumiga piirneval veekogul p&uuml;&uuml;tud saak , mille toimetab Eestisse vahetult saagi p&uuml;&uuml;dnud kalur v&otilde;i jahimees ;</s>
+</p>
+<p>
+<s>8 ) seeme , v&auml;etis v&otilde;i mulla v&otilde;i teravilja t&ouml;&ouml;tlemise preparaat , mille toimetab p&otilde;llumajandustootjast ettev&otilde;tja Eestisse riigist , millel on Eestiga &uuml;hine maismaapiir ja kus asub ettev&otilde;tja p&otilde;hitegevuskoht , kui ettev&otilde;tja kasutab seemet , v&auml;etist v&otilde;i mulla v&otilde;i teravilja t&ouml;&ouml;tlemise preparaati nimetatud riigiga piirneval Eestis asuval kinnisomandil ;</s>
+</p>
+<p>
+<s>9 ) inimveri v&otilde;i inimverest valmistatud veretoode ; veregrupi m&auml;&auml;ramise v&otilde;i kudede t&uuml;poloogia reaktiiv ; Vabariigi Valitsuse m&auml;&auml;rusega kehtestatud nimekirjas nimetatud bioloogiline v&otilde;i keemiline aine , mille toimetab Eestisse haridus- v&otilde;i teadusasutus , ning laboratoorseks kasutamiseks Eestisse tasuta toimetatud loom ;</s>
+</p>
+<p>
+<s>10 ) s&uuml;mboolse v&auml;&auml;rtusega auhind v&otilde;i suveniir , mille on Eesti alaline elanik v&auml;lisriigis saanud ettev&otilde;tlusena mittek&auml;sitatava tegevuse eest v&otilde;i tunnustusena kindla s&uuml;ndmusega seotud teene eest ;</s>
+</p>
+<p>
+<s>11 ) kaup ( sealhulgas kingitus ) , mis toimetatakse Eestisse seoses riigi- v&otilde;i valitsusjuhi v&otilde;i rahvusvahelise organisatsiooni juhi ametliku visiidiga , v&otilde;i kingitus , mille on saanud v&auml;lisriigis ametlikul visiidil olnud Eesti ametiisik .</s><s>Aktsiisiga maksustatavale kaubale selle punkti alusel maksuvabastust ei kohaldata ;</s>
+</p>
+<p>
+<s>12 ) Eestisse tasuta jagamiseks saadetavad kataloogid , hinnakirjad , kasutusjuhendid , bro&scaron;&uuml;&uuml;rid ja muud reklaamtr&uuml;kised , mis on seotud Eestis m&uuml;&uuml;dava , rendile v&otilde;i kasutusvaldusse antava kaubaga v&otilde;i n&auml;itusel , messil , laadal v&otilde;i muul sellisel &uuml;ritustel demonstreeritava kaubaga v&otilde;i Eestis osutatava teenusega ;</s>
+</p>
+<p>
+<s>13 ) kaup , mis toimetatakse Eestisse katsetamiseks v&otilde;i anal&uuml;&uuml;side tegemiseks v&otilde;i rahvusvahelise spordiorganisatsiooni egiidi all toimuval rahvusvahelisel spordiv&otilde;istlusel kasutamiseks v&otilde;i Kaitseministeeriumi eriloa alusel korraldatavate s&otilde;jaliste harjutuste l&auml;biviimiseks ning mis katsetuste v&otilde;i anal&uuml;&uuml;side tegemisel v&otilde;i spordiv&otilde;istlusel v&otilde;i s&otilde;jaliste harjutuste l&auml;biviimisel h&auml;vib v&otilde;i kasutatakse t&auml;ielikult &auml;ra ;</s>
+</p>
+<p>
+<s>14 ) t&ouml;&ouml;stusomandi kaitsmiseks vajalikud materjalid ;</s>
+</p>
+<p>
+<s>15 ) Eestisse tasuta jagamiseks toimetatav turismikirjandus ;</s>
+</p>
+<p>
+<s>16 ) tasuta jagamiseks m&otilde;eldud ametlikud dokumendid , dokumendiblanketid ja muud infokandjad , mille on Eestisse saatnud v&auml;lisriigi ametiisik v&otilde;i juriidiline isik v&otilde;i rahvusvaheline organisatsioon ; v&auml;lisriigist Eestisse saadetud valimiskampaania materjal ; kohtule saadetud t&otilde;endusmaterjal ; tasuta informatsiooni edastamiseks Eestisse saadetud andmekandja v&otilde;i helisalvestis v&otilde;i Eestis tegutsevale uudisteagentuurile saadetud foto , slaid v&otilde;i foto stereot&uuml;&uuml;p ;</s>
+</p>
+<p>
+<s>17 ) muuseumile v&otilde;i galeriile tasuta saadetud kollektsiooniese v&otilde;i originaalkunstiteos , kui see ei ole m&otilde;eldud m&uuml;&uuml;giks ;</s>
+</p>
+<p>
+<s>18 ) s&otilde;jaohvrite kalmistu v&otilde;i m&auml;lestusm&auml;rgi ehitamiseks , korrashoiuks v&otilde;i kaunistamiseks Eestisse toimetatav kaup ;</s>
+</p>
+<p>
+<s>19 ) reaktiiv , mikrobioloogilisteks uuringuteks vajalik s&ouml;&ouml;de v&otilde;i diagnostikum , veterinaarkontrolliks v&otilde;i keskkonna , toidu , joogivee , tarbekaupade v&otilde;i teenuste v&otilde;i p&otilde;llumajandustoodangu ohutuse diagnostikaks etten&auml;htud laboratooriumiseade v&otilde;i ravimite ja meditsiiniseadmete kvaliteedikontrolliks Eestisse toimetatav kaup , mille impordib P&otilde;llumajandusministeerium , Sotsiaalministeerium v&otilde;i Keskkonnaministeerium v&otilde;i m&otilde;ne eelnimetatud ministeeriumi valitsemisalas olev amet v&otilde;i inspektsioon ;</s>
+</p>
+<p>
+<s>20 ) Eestisse tagasitoodud ajutiselt eksporditud kaup , kui see on tagasitoomisel samas seisundis tollitariifiseaduse ( RT I 1997 , 78/79 , 1321 ; 1998 , 31/32 , 432 ; 1999 , 82 , 748 ; 2000 , 84 , 535 ; 2001 , 88 , 531 ) t&auml;henduses , lepinguga etten&auml;htud garantii alusel Eestisse tagasitoodud eelnevalt eksporditud kaup , lepinguga etten&auml;htud garantii alusel Eestisse tagasitoodud p&auml;rast importimist garantiiremondi teostamiseks v&auml;ljapoole Eestit toimetatud kaup v&otilde;i kauba , mille import on t&otilde;endatud , garantiiremondi tegemiseks Eestisse toimetatud varuosa .</s><s>Garantiiremondina k&auml;sitatakse ka kauba osalist v&otilde;i t&auml;ielikku v&auml;ljavahetamist v&otilde;i sarnase kaubaga asendamist garantiit&auml;htaja jooksul ;</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>21 ) raamat , perioodiline v&auml;ljaanne v&otilde;i muu teavik , mis on saadetud raamatukogule , teadus- v&otilde;i haridusasutusele v&auml;lisriigist annetusena v&otilde;i vahetuse korras ;</s>
+</p>
+<p>
+<s>22 ) Braille' kirjas raamat , tr&uuml;kis v&otilde;i dokument v&otilde;i Vabariigi Valitsuse v&otilde;i tema volitusel sotsiaalministri m&auml;&auml;rusega kehtestatud nimekirjas nimetatud m&otilde;ni muu pimedate v&otilde;i teiste f&uuml;&uuml;silise v&otilde;i vaimse puudega isikute hariduslikuks , teaduslikuks v&otilde;i kultuuriliseks arendamiseks spetsiaalselt kavandatud kaup ;</s>
+</p>
+<p>
+<s>23 ) kaubam&auml;rgiseaduse ( RT 1992 , 35 , 459 ; RT I 1998 , 15 , 231 ; 1999 , 93 , 834 ; 102 , 907 ; 2001 , 27 , 151 ; 56 , 332 ja 335 ) &sect; 36 <hi rend="sup">3</hi> l&otilde;ikes 3 nimetatud erikonfiskeeritud v&otilde;ltsitud r&otilde;ivad ja jalatsid .</s>
+</p>
+<p>
+<s>( 3 ) Reisija v&otilde;ib &uuml;he kalendrip&auml;eva jooksul k&auml;ibemaksuvabalt importida temaga koos liikuvas pagasis sisalduvat kaupa kuni 5000 krooni v&auml;&auml;rtuses , kui kauba olemusest ja hulgast on ilmne , et seda ei impordita kaubanduslikul eesm&auml;rgil .</s><s>Kui imporditud kauba koguv&auml;&auml;rtus on suurem , maksustatakse k&auml;ibemaksuga piirm&auml;&auml;ra &uuml;letava eseme v&otilde;i piirm&auml;&auml;ra &uuml;letavate esemete v&auml;&auml;rtus tervikuna .</s><s>Reisija isiklikke asju ( tolliseadustiku t&auml;henduses ) , mille vajalikkus on koosk&otilde;las reisi kestuse ja eesm&auml;rgiga , k&auml;ibemaksuga ei maksustata .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 4 ) Eksikombel eba&otilde;igesse sihtpunkti saadetud pagasit k&auml;sitatakse selle j&otilde;udmisel Eestisse reisijaga koos liikuva pagasina .</s>
+</p>
+<p>
+<s>( 5 ) F&uuml;&uuml;silise isiku poolt imporditud kaupa , mis ei vasta k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud tingimustele , ei maksustata k&auml;ibemaksuga juhul , kui kauba tolliv&auml;&auml;rtus ei &uuml;leta 1000 krooni .</s><s>Kui f&uuml;&uuml;silisele isikule saadetud rahvusvahelise postisaadetise tolliv&auml;&auml;rtus on suurem , maksustatakse k&auml;ibemaksuga kogu postisaadetise v&auml;&auml;rtus tervikuna .</s><s>Kui f&uuml;&uuml;silise isiku poolt muul viisil imporditud kauba koguv&auml;&auml;rtus on suurem , maksustatakse k&auml;ibemaksuga piirm&auml;&auml;ra &uuml;letava eseme v&otilde;i piirm&auml;&auml;ra &uuml;letavate esemete v&auml;&auml;rtus tervikuna juhul , kui imporditud kauba puhul on v&otilde;imalik &uuml;ksikute esemete v&auml;&auml;rtust eraldi v&auml;lja tuua , ning imporditud kauba koguv&auml;&auml;rtus tervikuna juhul , kui selle puhul ei ole v&otilde;imalik &uuml;ksikute esemete v&auml;&auml;rtust eraldi v&auml;lja tuua .</s>
+</p>
+<p>
+<s>( 6 ) Peale k&auml;esoleva paragrahvi l&otilde;igetes 3 ja 5 s&auml;testatud v&auml;&auml;rtuseliste piirm&auml;&auml;rade alla kuuluva kauba v&otilde;ib f&uuml;&uuml;siline isik maksuvabalt importida :</s>
+</p>
+<p>
+<s>1 ) alkoholi alkoholiaktsiisi seaduses ( RT I 2000 , 58 , 375 ; 102 , 676 ; 2001 , 88 , 531 ) etten&auml;htud koguses ;</s>
+</p>
+<p>
+<s>2 ) tubakatooteid tubakaaktsiisi seaduses ( RT I 1994 , 54 , 901 ; RT I 2001 , 51 , 296 ; 87 , 528 ; 88 , 531 ) etten&auml;htud koguses ;</s>
+</p>
+<p>
+<s>3 ) mootorik&uuml;tust ja mootori&otilde;li k&uuml;tuseaktsiisi seaduses ( RT I 1993 , 38 , 563 ; RT I 1996 , 90 , 1613 ; 1997 , 73 , 1201 ; 77 , 1314 ; 86 , 1464 ; 1998 , 57 , 862 ; 1999 , 10 , 158 ; 2000 , 33 , 199 ; 59 , 380 ; 2001 , 88 , 531 ) etten&auml;htud koguses ;</s>
+</p>
+<p>
+<s>4 ) EKN gruppidesse 02 , 03 , 04 , 07 , 08 , 09 , 10 , 11 , 12 , 15 , 16 , 17 , 18 , 19 , 20 ja 21 ning rubriikidesse 2201 ja 2202 kuuluvat toidukaupa kokku kuni 10 kilogrammi , sealhulgas EKN gruppidesse 09 ja 12 kuuluvat kaupa kokku kuni 3 kilogrammi , ning rahvusvahelises postisaadetises f&uuml;&uuml;silisele isikule saadetavat EKN gruppidesse 02 , 03 , 04 , 07 , 08 , 09 , 10 , 11 , 12 , 15 , 16 , 17 , 18 , 19 , 20 ja 21 ning rubriikidesse 2201 ja 2202 kuuluvat toidukaupa kokku kuni 5 kilogrammi , sealhulgas EKN gruppidesse 09 ja 12 kuuluvat kaupa kokku kuni 2 kilogrammi .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punkti 5 kohaldatakse alates Eesti Euroopa Liiduga liitumisest .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>K&auml;ibemaksusumma arvutamine</s>
+</p>
+<p>
+<s>( 1 ) Registreeritud maksukohustuslase poolt tasumisele kuuluv k&auml;ibemaksusumma on maksustamisperioodil arvestatud k&auml;ibemaks , millest on maha arvatud sama maksustamisperioodi sisendk&auml;ibemaks .</s>
+</p>
+<p>
+<s>( 2 ) Arvestatud k&auml;ibemaks on registreeritud maksukohustuslase maksustatava k&auml;ibe , v&auml;lja arvatud kauba impordi , maksustatavalt v&auml;&auml;rtuselt arvutatud k&auml;ibemaks .</s>
+</p>
+<p>
+<s>( 3 ) Sisendk&auml;ibemaks on registreeritud maksukohustuslase poolt :</s>
+</p>
+<p>
+<s>1 ) teiselt registreeritud maksukohustuslaselt soetatud v&otilde;i saadud ettev&otilde;tluses kasutatava kauba v&otilde;i teenuse eest tasumisele kuuluv k&auml;ibemaks ;</s>
+</p>
+<p>
+<s>2 ) ettev&otilde;tluses kasutamiseks imporditud teenuse maksustatavalt v&auml;&auml;rtuselt arvutatud v&otilde;i imporditud kauba eest tasutud k&auml;ibemaks .</s>
+</p>
+<p>
+<s>( 4 ) Kui m&uuml;&uuml;jale on ostjalt raha laekunud , kuid kaupa ei ole v&otilde;&otilde;randatud v&otilde;i teenust osutatud , v&otilde;ib m&uuml;&uuml;ja j&auml;tta sellelt kaubalt v&otilde;i teenuselt k&auml;ibemaksu arvestamata juhul , kui ta on laekunud summa ostjale tagastanud .</s><s>Kui m&uuml;&uuml;ja on esitanud ostjale arve , kuid kaupa ei v&otilde;&otilde;randata v&otilde;i teenust ei osutata , v&otilde;ib m&uuml;&uuml;ja teha k&auml;ibemaksu tagasiarvestuse , kui ta t&uuml;histab ostjale esitatud arve .</s>
+</p>
+<p>
+<s>( 5 ) Kui registreeritud maksukohustuslane tegevuse l&otilde;petab , tasub ta k&auml;ibemaksu likvideerimisjaotisena jagatavalt varalt , mille soetamisel oli ta k&auml;ibemaksu maha arvanud .</s><s>Vara maksustatav v&auml;&auml;rtus on selle turuhind .</s>
+</p>
+<p>
+<s>( 6 ) Maksukohustuslase registrist kustutamisel tasub maksukohustuslane k&auml;ibemaksu v&otilde;&otilde;randamata kaupadelt , mille sisendk&auml;ibemaksu ta on arvestatud k&auml;ibemaksust maha arvanud .</s><s>Kaupade maksustatav v&auml;&auml;rtus on nende turuhind .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Sisendk&auml;ibemaksu mahaarvamise piirangud</s>
+</p>
+<p>
+<s>( 1 ) Arvestatud k&auml;ibemaksust ei arvata maha sisendk&auml;ibemaksu , mille registreeritud maksukohustuslane on tasunud k&uuml;laliste vastuv&otilde;tuks , oma t&ouml;&ouml;tajate toitlustamiseks v&otilde;i majutamiseks kasutatud kaupade ja teenuste eest maksmisel .</s><s>Seda s&auml;tet ei kohaldata nende isikute teenindamisel kasutatud kaupade ja teenuste eest tasutud sisendk&auml;ibemaksu mahaarvamisel , kellele maksukohustuslane osutab ettev&otilde;tluse k&auml;igus teenuseid , samuti t&ouml;&ouml;l&auml;hetuses kasutatud majutusteenuse eest tasutud sisendk&auml;ibemaksu mahaarvamisel .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;tluses kasutatava s&otilde;iduauto soetamise v&otilde;i kapitalirendile v&otilde;tmise ning selle s&otilde;iduauto tarbeks mootorik&uuml;tuse soetamise korral arvatakse arvestatud k&auml;ibemaksust maha kaks kolmandikku sisendk&auml;ibemaksust , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 3 ) Arvestatud k&auml;ibemaksust arvatakse maha kogu sisendk&auml;ibemaks , mille s&otilde;iduauto soetamisel v&otilde;i kapitalirendile v&otilde;tmisel on maksnud registreeritud maksukohustuslane :</s>
+</p>
+<p>
+<s>1 ) kelle tegevusala on s&otilde;iduautode m&uuml;&uuml;k v&otilde;i vallasasjade kasutus- v&otilde;i kapitalirendile andmine ja selle tegevusala kohta on &auml;riregistrisse tehtud kanne , tingimusel , et maksukohustuslane ei v&otilde;ta m&uuml;&uuml;giks v&otilde;i rendile andmiseks soetatud s&otilde;iduautosid ise kasutusele ;</s>
+</p>
+<p>
+<s>2 ) kelle tegevusala on teenuse osutamine s&otilde;iduautoga ja selle tegevusala kohta on &auml;riregistrisse tehtud kanne .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Sisendk&auml;ibemaksu mahaarvamise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Teiselt registreeritud maksukohustuslaselt kauba v&otilde;i teenuse saamise korral arvatakse sisendk&auml;ibemaks maha k&auml;esoleva seaduse &sect; 28 l&otilde;ike 1 n&otilde;uete kohase arve originaaleksemplari alusel .</s><s>Teenuse importimise korral arvatakse sisendk&auml;ibemaks maha mitteresidendilt saadud arve alusel ning kauba importimise korral vabasse ringlusse lubamise tollideklaratsiooni ja kauba importimisel k&auml;ibemaksu tasumist t&otilde;endava dokumendi alusel .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 2 ) Kui impordi kaubadeklaratsioonil on imporditud kauba omanikuna m&auml;rgitud kauba saajast erinev isik , on sisendk&auml;ibemaksu mahaarvamise &otilde;igus kaubadeklaratsioonil m&auml;rgitud kauba omanikul , kui ta on registreeritud maksukohustuslane .</s><s>Kui kauba omanikuks on Eestis maksukohustuslasena registreerimata mitteresident , on sisendk&auml;ibemaksu mahaarvamise &otilde;igus kauba saajal .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 3 ) Kui impordimaksud tasutakse tollimaakleri kaudu , on maksukohustuslasel &otilde;igus sisendk&auml;ibemaks maha arvata p&auml;rast seda , kui ta on saanud :</s>
+</p>
+<p>
+<s>1 ) tollideklaratsiooni vormistanud tollimaaklerilt tolli poolt kinnitatud tollideklaratsiooni originaali ;</s>
+</p>
+<p>
+<s>2 ) tollimaaklerilt v&otilde;i Tolliametilt kinnituse , et Tolliametile on k&auml;ibemaks tasutud .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 4 ) Tollimaakler ei v&otilde;i k&auml;sitada teise isiku eest tasutud k&auml;ibemaksu oma ettev&otilde;tluseks imporditud kaubalt tasutud k&auml;ibemaksuna .</s>
+</p>
+<p>
+<s>( 5 ) Kauba importimise korral arvatakse sisendk&auml;ibemaks maha maksustamisperioodil , mil kaup on k&auml;tte saadud ja k&auml;ibemaks tasutud .</s><s>Muudel juhtudel arvatakse sisendk&auml;ibemaks maha maksustamisperioodil , mil kaup v&otilde;i teenus ning arve kauba v&otilde;i teenuse m&uuml;&uuml;jalt on k&auml;tte saadud .</s>
+</p>
+<p>
+<s>( 6 ) Eestist soetatud kauba v&otilde;i saadud teenuse ja selle kohta v&auml;ljastatud arve saamisel erinevatel maksustamisperioodidel arvatakse sisendk&auml;ibemaks maha maksustamisperioodil , mil kaup v&otilde;i teenus k&auml;tte saadi , tingimusel , et arve kauba v&otilde;i teenuse eest on v&auml;ljastatud k&auml;esoleva seaduse &sect; 28 l&otilde;ikes 5 s&auml;testatud t&auml;htaja jooksul .</s><s>Arve hilisema v&auml;ljastamise korral arvatakse sisendk&auml;ibemaks maha maksustamisperioodil , mil arve k&auml;tte saadi .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Sisendk&auml;ibemaksu osaline mahaarvamine</s>
+</p>
+<p>
+<s>( 1 ) Kui registreeritud maksukohustuslane kasutab kaupu ja teenuseid nii maksustatava kui maksuvaba k&auml;ibe teostamiseks , arvatakse sisendk&auml;ibemaks arvestatud k&auml;ibemaksust maha osaliselt .</s><s>Osalisel mahaarvamisel l&auml;htutakse maksukohustuslase maksustatava k&auml;ibe , v&auml;lja arvatud kauba impordi , ning kogu tema Eestis tekkinud k&auml;ibe , millele lisatakse ekspordina k&auml;sitatav v&auml;ljaspool Eestit osutatud teenuste k&auml;ive ja teenuse import , suhtest ( edaspidi maksustatava k&auml;ibe ja kogu k&auml;ibe suhe ) .</s>
+</p>
+<p>
+<s>( 2 ) Maksustatava k&auml;ibe ja kogu k&auml;ibe suhte arvutamisel ei v&otilde;eta arvesse p&otilde;hivara ja kinnisasjade v&otilde;&otilde;randamist , sealhulgas ka juhul , kui maksukohustuslane on k&auml;esoleva seaduse &sect; 18 l&otilde;ike 3 kohaselt kauba maksustatavale v&auml;&auml;rtusele k&auml;ibemaksu lisanud .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 3 ) Sisendk&auml;ibemaksu osalise mahaarvamise korral on maksukohustuslasel lubatud tema p&otilde;hjendatud taotluse alusel Maksuameti direktorilt saadud kirjalikul loal muuta kalendriaasta kestel k&auml;esoleva seaduse &sect; 24 l&otilde;ikes 2 k&auml;sitletud maksustatava k&auml;ibe ja koguk&auml;ibe suhet juhul , kui jooksva kalendriaasta maksustatava k&auml;ibe ja koguk&auml;ibe tegelik suhe sellest oluliselt erineb .</s>
+</p>
+<p>
+<s>( 4 ) Ettev&otilde;tluse teostamiseks p&otilde;hivara soetamisel tasutud sisendk&auml;ibemaksu v&otilde;ib maksukohustuslane maha arvata p&otilde;hivara soetamise kuul , l&auml;htudes p&otilde;hivara maksustatava k&auml;ibe teostamiseks kasutamise prognoositavast osat&auml;htsusest p&otilde;hivara soetamise aastal .</s><s>Mahaarvatud sisendk&auml;ibemaksu korrigeeritakse vastavalt p&otilde;hivara tegelikule maksustatava k&auml;ibe teostamiseks kasutamise osat&auml;htsusele p&otilde;hivara soetamise aastast alates viie kalendriaasta jooksul .</s><s>Esimeseks kalendriaastaks loetakse ajavahemik p&otilde;hivara soetamise p&auml;evast kuni jooksva kalendriaasta l&otilde;puni .</s><s>Sisendk&auml;ibemaksu korrigeeritakse iga kalendriaasta l&otilde;pul , l&auml;htudes p&otilde;hivara maksustatava k&auml;ibe teostamiseks kasutamise tegelikust osat&auml;htsusest sellel kalendriaastal .</s>
+</p>
+<p>
+<s>( 5 ) Enne k&auml;esoleva seaduse j&otilde;ustumist soetatud p&otilde;hivara soetamisel mahaarvatud sisendk&auml;ibemaksu korrigeerimist j&auml;tkatakse k&auml;esoleva seaduse s&auml;tete alusel ainult juhul , kui k&auml;esoleva seaduse j&otilde;ustumise p&auml;evaks on p&otilde;hivara kasutatud ettev&otilde;tluses v&auml;hem kui kolme kalendriaasta jooksul .</s>
+</p>
+<p>
+<s>( 6 ) Osaliselt mahaarvatud sisendk&auml;ibemaksu &uuml;mberarvutuse k&auml;ibedeklaratsioonis kajastamise korra , p&otilde;hivara soetamisel mahaarvatud sisendk&auml;ibemaksu kalendriaasta l&otilde;pul korrigeerimise korra ja v&auml;hem kui viie kalendriaasta jooksul ettev&otilde;tluses kasutatud p&otilde;hivara soetamisel mahaarvatud sisendk&auml;ibemaksu &uuml;mberarvutuse korra kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 7 ) Kinnisasja maksuvabal v&otilde;&otilde;randamisel , mida maksukohustuslane on kasutanud oma ettev&otilde;tluses v&auml;hem kui viie kalendriaasta jooksul , teostab ta selle kinnisasja tarbeks kaupade soetamisel ja teenuste saamisel tasumisele kuulunud ning imporditud kaupade eest tasutud ja imporditud teenuste maksustatavalt v&auml;&auml;rtuselt arvutatud sisendk&auml;ibemaksu &uuml;mberarvutuse vastavalt k&auml;esoleva paragrahvi l&otilde;ike 6 alusel kehtestatud v&auml;hem kui viie kalendriaasta jooksul ettev&otilde;tluses kasutatud p&otilde;hivara soetamisel mahaarvatud sisendk&auml;ibemaksu &uuml;mberarvutuse korra p&otilde;him&otilde;tetele .</s><s>&Uuml;mberarvutust ei tehta ehitise v&otilde;&otilde;randamisel krediidi- v&otilde;i finantseerimisasutusele , kui isik , kes ehitise v&otilde;&otilde;randas , on v&otilde;tnud selle ehitise samal maksustamisperioodil , mil v&otilde;&otilde;randamine toimus , krediidi- v&otilde;i finantseerimisasutuselt kapitalirendile ja j&auml;tkab ehitise kasutamist oma ettev&otilde;tluses v&auml;hemalt viie kalendriaasta jooksul .</s>
+</p>
+<p>
+<s>( 8 ) Kui maksukohustuslane kasutab kaupa v&otilde;i teenust nii ettev&otilde;tluses kui ka muudel eesm&auml;rkidel , arvatakse maksustatavalt k&auml;ibelt maha ainult ettev&otilde;tluses kasutatava kauba soetamisel v&otilde;i teenuse saamisel tasutud sisendk&auml;ibemaks .</s><s>Kui maksukohustuslase raamatupidamises ei ole v&otilde;imalik ettev&otilde;tluskulutusi muudest kulutustest eristada , m&auml;&auml;ratakse sisendk&auml;ibemaksu mahaarvamise kord maksukohustuslase taotluse alusel Maksuameti direktori otsusega , l&auml;htudes kaupade ja teenuste tegelikust kasutusest .</s>
+</p>
+<p>
+<s>( 9 ) Investeeringukulla maksuvaba k&auml;ivet teostaval maksukohustuslasel on lubatud maha arvata :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 18 l&otilde;ike 3 punktis 3 nimetatud &otilde;igust kasutanud registreeritud maksukohustuslaselt soetatud investeeringukulla ostmisel makstud sisendk&auml;ibemaksu ;</s>
+</p>
+<p>
+<s>2 ) tema poolt imporditud v&otilde;i teiselt registreeritud maksukohustuslaselt soetatud investeeringukullana mittekasutatavalt kullalt makstud sisendk&auml;ibemaksu , kui ta muudab selle kulla investeeringukullaks ;</s>
+</p>
+<p>
+<s>3 ) kulla vormi , massi v&otilde;i kullasisalduse muutmisega seotud teenuse saamisel makstud sisendk&auml;ibemaksu .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Sisendk&auml;ibemaksu osalisel mahaarvamisel kasutatavad meetodid</s>
+</p>
+<p>
+<s>( 1 ) Sisendk&auml;ibemaksu osalisel mahaarvamisel k&auml;esoleva seaduse &sect; 23 l&otilde;ikes 1 nimetatud juhul on maksukohustuslasel samal kalendriaastal lubatud kasutada kas proportsionaalse mahaarvamise meetodit v&otilde;i otsearvestuse ja proportsionaalse mahaarvamise segameetodit .</s>
+</p>
+<p>
+<s>( 2 ) Proportsionaalse mahaarvamise puhul rakendatakse maksustatava k&auml;ibe ja koguk&auml;ibe suhet k&otilde;igi kaupade soetamisel ja teenuste saamisel tasumisele kuuluva ning imporditud teenuste maksustatavalt v&auml;&auml;rtuselt arvutatud ja imporditud kaupade eest tasutud sisendk&auml;ibemaksu mahaarvamisel .</s><s>Maksustatava k&auml;ibe ja koguk&auml;ibe suhe m&auml;&auml;ratakse maksukohustuslase eelmise kalendriaasta tegevuse p&otilde;hjal .</s><s>Tulemust korrigeeritakse kalendriaasta l&otilde;pul , l&auml;htudes selle kalendriaasta maksustatava k&auml;ibe ja koguk&auml;ibe suhtest .</s><s>Kui ettev&otilde;tlus on kestnud alla &uuml;he kalendriaasta , m&auml;&auml;rab maksustatava k&auml;ibe ja koguk&auml;ibe suhte Maksuameti direktor oma otsusega maksukohustuslase taotluse alusel tema esimese kalendriaasta maksustatava k&auml;ibe ja koguk&auml;ibe prognoositava suhte p&otilde;hjal .</s>
+</p>
+<p>
+<s>( 3 ) Otsearvestuse ja proportsionaalse mahaarvamise segameetodi puhul arvatakse arvestatud k&auml;ibemaksust t&auml;ielikult maha maksustatava k&auml;ibe teostamiseks kauba soetamisel v&otilde;i teenuse saamisel tasumisele kuuluv ning imporditud teenuse maksustatavalt v&auml;&auml;rtuselt arvutatud v&otilde;i imporditud kauba eest tasutud sisendk&auml;ibemaks .</s><s>Maksuvaba k&auml;ibe teostamiseks kauba soetamisel v&otilde;i teenuse saamisel tasumisele kuuluvat ning imporditud teenuse maksustatavalt v&auml;&auml;rtuselt arvutatud v&otilde;i imporditud kauba eest tasutud sisendk&auml;ibemaksu arvestatud k&auml;ibemaksust maha ei arvata .</s><s>Maksukohustuslane peab raamatupidamises eraldi kajastama maksustatavate ning maksuvabade kaupade m&uuml;&uuml;gi ja teenuste osutamise ning nende tarbeks soetatud kaubad ja saadud teenused , sealhulgas imporditud kaubad ja teenused .</s><s>Nii maksustatava kui ka maksuvaba k&auml;ibe teostamiseks kauba soetamisel v&otilde;i teenuse saamisel tasumisele kuuluv ning imporditud teenuse maksustatavalt v&auml;&auml;rtuselt arvutatud v&otilde;i imporditud kauba eest tasutud sisendk&auml;ibemaks arvatakse maha vastavalt maksustatava k&auml;ibe ja koguk&auml;ibe suhtele k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 4 ) Kui maksukohustuslasel on m&otilde;nes tegevusvaldkonnas &uuml;ksnes maksuvaba k&auml;ive ja m&otilde;nes tegevusvaldkonnas nii maksustatav kui maksuvaba k&auml;ive , v&otilde;ib maksukohustuslane Maksuameti direktori kirjalikul loal selle tegevusvaldkonna nii maksustatava kui ka maksuvaba k&auml;ibe teostamiseks kauba soetamisel v&otilde;i teenuse saamisel tasumisele kuuluva ning imporditud teenuse maksustatavalt v&auml;&auml;rtuselt arvutatud v&otilde;i imporditud kauba eest tasutud sisendk&auml;ibemaksu maha arvata , l&auml;htudes maksustatava k&auml;ibe ja kogu k&auml;ibe suhtest samas tegevusvaldkonnas .</s><s>Muus osas rakendatakse sellisel juhul k&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Registreeritud maksukohustuslasele k&auml;ibemaksu tagastamine</s>
+</p>
+<p>
+<s>( 1 ) Kui maksustamisperioodil arvestatud k&auml;ibemaks on v&auml;iksem maksukohustuslase sama maksustamisperioodi sisendk&auml;ibemaksust , tagastatakse enammakstud k&auml;ibemaks maksukohustuslasele maksukorralduse seaduses ( RT I 1994 , 1 , 5 ; RT I 2000 , 45 , 279 ; 55 , 365 ; 84 , 533 ja 534 ; 2001 , 17 , 76 ; 43 , 242 ; 48 , 266 ; 56 , 335 ; 59 , 360 ; 65 , 378 ; 88 , 531 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Maksuameti direktori otsuse alusel on Maksuametil &otilde;igus seoses maksukohustuslase kontrollimisega pikendada k&auml;ibemaksu tagastamise t&auml;htaega kuni 30 kalendrip&auml;eva v&otilde;rra .</s><s>Sellekohase otsuse peab Maksuamet maksukohustuslasele teatavaks tegema k&auml;ibemaksu tagastamise taotluse saamise p&auml;evast alates 20 kalendrip&auml;eva jooksul .</s><s>Otsuses tuleb t&auml;htaja pikendamist p&otilde;hjendada .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Kauba soetamisel ja teenuse saamisel tasutud k&auml;ibemaksu tagastamine muudel juhtudel</s>
+</p>
+<p>
+<s>( 1 ) Mitteresidendi kirjaliku taotluse alusel ning Vabariigi Valitsuse v&otilde;i tema volitusel rahandusministri m&auml;&auml;rusega kehtestatud tingimustel ja korras tagastatakse Eestis mitteresidendile tema ettev&otilde;tluses kasutatava vallasasja soetamisel v&otilde;i teenuse saamisel tasutud k&auml;ibemaks , kui :</s>
+</p>
+<p>
+<s>1 ) ta on kohustatud oma asukohariigis maksma k&auml;ibemaksu ettev&otilde;tjana ;</s>
+</p>
+<p>
+<s>2 ) ta ei soetanud vallasasja v&otilde;i ei saanud teenust oma Eestis asuva p&uuml;siva tegevuskoha jaoks v&otilde;i selle kaudu ;</s>
+</p>
+<p>
+<s>3 ) Eesti registreeritud maksukohustuslasel on &otilde;igus samadel tingimustel sama vallasasja soetamisel v&otilde;i sama teenuse saamisel tasutud k&auml;ibemaksu k&auml;esoleva seaduse kohaselt oma arvestatud k&auml;ibemaksust maha arvata ;</s>
+</p>
+<p>
+<s>4 ) mitteresidendi asukohariigis on Eesti residentidel &otilde;igus k&auml;ibemaksu tagasi saada .</s>
+</p>
+<p>
+<s>( 2 ) Tagastatav k&auml;ibemaks kantakse Vabariigi Valitsuse v&otilde;i tema volitusel rahandusministri m&auml;&auml;rusega kehtestatud vormis esitatud taotluses nimetatud pangakontole .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsusel on &otilde;igus m&auml;&auml;rusega kehtestada nende vallasasjade ja teenuste nimekiri , mille soetamisel v&otilde;i saamisel tasutud k&auml;ibemaksu ei tagastata mitteresidendile ka siis , kui k&auml;esoleva paragrahvi l&otilde;ike 1 n&otilde;uded on t&auml;idetud .</s>
+</p>
+<p>
+<s>( 4 ) Eesti Euroopa Liiduga liitumisest alates tagastatakse Vabariigi Valitsuse v&otilde;i tema volitusel rahandusministri m&auml;&auml;rusega kehtestatud korras Eestis kauba soetamisel tasutud k&auml;ibemaks isikule , kes ekspordib selle kauba oma heategevusliku tegevuse raames , kui selle kauba eksport on t&otilde;endatud k&auml;esoleva seaduse &sect; 5 l&otilde;ike 3 alusel kehtestatud dokumentidega .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Registreeritud maksukohustuslase arvepidamine</s>
+</p>
+<p>
+<s>( 1 ) Registreeritud maksukohustuslane peab :</s>
+</p>
+<p>
+<s>1 ) kronoloogilises j&auml;rjestuses s&auml;ilitama enda v&auml;ljastatud arvete koopiad ning soetatud kaupade m&uuml;&uuml;jatelt ja saadud teenuste osutajatelt saadud arved nende v&auml;ljastamise v&otilde;i saamise p&auml;evast alates seitsme aasta jooksul .</s><s>Kauba importimist t&otilde;endavad tollideklaratsioonid tuleb s&auml;ilitada tolliformaalsustele j&auml;rgneva kalendriaasta algusest alates seitsme aasta jooksul .</s><s>Elektroonsel kujul s&auml;ilitatavaid arveid peab olema v&otilde;imalik v&auml;lja tr&uuml;kkida ;</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>2 ) pidama maksustatava ja maksuvaba k&auml;ibe , arvestatud k&auml;ibemaksu ning teistelt registreeritud maksukohustuslastelt saadud ettev&otilde;tluses kasutatavate kaupade ja teenuste eest tasumisele kuuluva ning imporditud teenuste maksustatavalt v&auml;&auml;rtuselt arvutatud ja imporditud kaupade eest tasutud sisendk&auml;ibemaksu kohta igap&auml;evast arvestust Vabariigi Valitsuse v&otilde;i tema volitusel rahandusministri m&auml;&auml;rusega kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Maksukohustuslasena registreeritud investeeringukulla m&uuml;&uuml;ja peab pidama arvestust k&otilde;igi investeeringukullaga seotud tehingute ja investeeringukulla ostjate kohta ning s&auml;ilitama konkreetset tehingut puudutava dokumentatsiooni v&auml;hemalt viie aasta jooksul tehingu toimumise p&auml;evast alates .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Arved</s>
+</p>
+<p>
+<s>( 1 ) Registreeritud maksukohustuslane peab esitama kauba v&otilde;&otilde;randamise v&otilde;i teenuse osutamise korral ostjale arve , millele tuleb m&auml;rkida :</s>
+</p>
+<p>
+<s>1 ) m&uuml;&uuml;ja nimi , aadress , registri- v&otilde;i isikukood ja maksukohustuslasena registreerimise number ;</s>
+</p>
+<p>
+<s>2 ) arve number ja arve v&auml;ljastamise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>3 ) ostja nimi ja aadress ;</s>
+</p>
+<p>
+<s>4 ) kauba v&otilde;i teenuse nimetus , kauba kogus , kauba v&otilde;i teenuse hind kroonides ning kaupade ja teenuste kogumaksumus ilma k&auml;ibemaksuta ja koos k&auml;ibemaksuga k&auml;ibemaksum&auml;&auml;rade kaupa ;</s>
+</p>
+<p>
+<s>5 ) kauba v&otilde;i teenuse maksustatav v&auml;&auml;rtus , kui see erineb k&auml;esoleva l&otilde;ike punktis 4 nimetatud hinnast ;</s>
+</p>
+<p>
+<s>6 ) k&auml;ibemaksusumma k&auml;ibemaksum&auml;&auml;rade kaupa ;</s>
+</p>
+<p>
+<s>7 ) kauba v&auml;ljastamise v&otilde;i teenuse osutamise kuup&auml;ev , kui see on varasem arve v&auml;ljastamise kuup&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Jaem&uuml;&uuml;gi korras kauba v&otilde;&otilde;randamisel v&otilde;i teenuse osutamisel f&uuml;&uuml;silisele isikule , kes ei ole maksukohustuslane , on registreeritud maksukohustuslane kohustatud v&auml;ljastama k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud n&otilde;uete kohase arve vaid isiku n&otilde;udmisel .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 4 ) Registreeritud maksukohustuslasel ei ole &otilde;igust arvele v&otilde;i muule m&uuml;&uuml;gidokumendile m&auml;rkida :</s>
+</p>
+<p>
+<s>1 ) k&auml;ibemaksusummat , kui kauba v&otilde;&otilde;randamisest v&otilde;i teenuse osutamisest ei teki k&auml;ivet vastavalt k&auml;esoleva seaduse &sect; 3 l&otilde;ikele 2 v&otilde;i kui kauba v&otilde;i teenuse k&auml;ive on &sect; 18 kohaselt maksuvaba ;</s>
+</p>
+<p>
+<s>2 ) kauba v&otilde;i teenuse k&auml;ibele kehtestatud k&auml;ibemaksum&auml;&auml;rast k&otilde;rgema m&auml;&auml;ra j&auml;rgi arvutatud k&auml;ibemaksusummat .</s>
+</p>
+<p>
+<s>( 5 ) Registreeritud maksukohustuslane peab v&auml;ljastama arve seitsme kalendrip&auml;eva jooksul , alates kauba ostjale l&auml;hetamise v&otilde;i k&auml;ttesaadavaks tegemise v&otilde;i teenuse osutamise p&auml;evast v&otilde;i k&auml;esoleva seaduse &sect; 8 l&otilde;ikes 3 nimetatud maksustamisperioodi viimasest p&auml;evast .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 6 ) ( Kehtetu - 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>K&auml;ibemaksu tasumine ja k&auml;ibemaksu laekumine</s>
+</p>
+<p>
+<s>( 1 ) Registreeritud maksukohustuslane tasub tasumisele kuuluva k&auml;ibemaksusumma k&auml;ibedeklaratsiooni esitamise kuup&auml;evaks .</s><s>Samas korras peab ta tasuma k&auml;ibemaksusumma , mille ta on v&auml;ljastatud arvele v&otilde;i muule m&uuml;&uuml;gidokumendile m&auml;rkinud k&auml;esoleva seaduse &sect; 28 l&otilde;ikes 4 s&auml;testatut eirates .</s>
+</p>
+<p>
+<s>( 2 ) Kauba importimisel makstakse k&auml;ibemaksu ja t&auml;iendavate asjaolude ilmnemise korral korrigeeritakse tollile tasutud maksusummat tollieeskirjades s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 2 l&otilde;ike 3 punktis 2 nimetatud isik tasub k&auml;ibemaksu arve v&otilde;i muu m&uuml;&uuml;gidokumendi v&auml;ljastamise kuule j&auml;rgneva kuu 20. kuup&auml;evaks .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 3 nimetatud juhtudel tasutakse k&auml;ibemaks t&auml;iskroonides Maksuameti pangakontole .</s><s>Seejuures j&auml;etakse v&auml;hem kui 50 senti &auml;ra ning 50 ja rohkem senti &uuml;mardatakse &uuml;heks krooniks .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;ibemaks laekub riigieelarvesse .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Maksustamise eris&auml;tted</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>V&auml;lisesindusele ja diplomaadile kohaldatavad maksusoodustused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ibemaksuga ei maksustata Eestisse akrediteeritud v&auml;lisriigi diplomaatilistele esindajatele , konsulaarametnikele ( v&auml;lja arvatud aukonsulid ) ning erimissioonide ja rahvusvaheliste organisatsioonide esindajatele , v&auml;lisriigi diplomaatilistele esindustele ja konsulaarasutustele , erimissioonidele ning rahvusvaheliste organisatsioonide esindustele , samuti nimetatud esinduste , asutuste ja erimissioonide haldust&ouml;&ouml;tajatele vajaliku kauba importi .</s><s>Sellise kauba , v&auml;lja arvatud toiduainete soetamisel ning teenuste saamisel Eestis tagastatakse nendelt tasutud k&auml;ibemaks k&auml;esoleva seaduse n&otilde;uetele vastava originaalarve alusel juhul , kui kaupade ja teenuste kogumaksumus koos k&auml;ibemaksuga on arve kohaselt v&auml;hemalt 1000 Eesti krooni .</s><s>Kommunaalmaksete , sideteenuste ja k&uuml;tuse puhul tagastatakse k&auml;ibemaks ka v&auml;iksema kogumaksumuse korral .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud esinduse , asutuse , erimissiooni v&otilde;i f&uuml;&uuml;silise isiku imporditava kauba k&auml;ibemaksust vabastamise korra ja tingimused ning k&auml;ibemaksu tagastamise korra ja tingimused kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s><s>Eestis soetatud kauba eest tasutud k&auml;ibemaksu tagastamiseks esitatava taotluse vormi kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;ibemaks tagastatakse vastastikkuse p&otilde;him&otilde;ttel , mille kohaldamist j&auml;lgib ja korraldab v&auml;lisminister .</s>
+</p>
+<p>
+<s>( 4 ) Erandeid k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatust v&otilde;ib teha vastastikkuse p&otilde;him&otilde;ttel v&auml;lisministri ettepanekul Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud esinduse , asutuse , erimissiooni v&otilde;i f&uuml;&uuml;silise isiku &otilde;igust taotleda k&auml;ibemaksuvabastust v&otilde;i k&auml;ibemaksu tagastamist kinnitab V&auml;lisministeerium .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>V&auml;lisabi korras saadud kaubale ning v&auml;lislaenu eest v&otilde;i v&auml;lisabi korras saadud raha eest soetatud kaubale v&otilde;i saadud teenusele kohaldatavad maksusoodustused</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisabi k&auml;esoleva seaduse t&auml;henduses on rahvusvahelise organisatsiooni v&otilde;i v&auml;lisriigi valitsuse , v&auml;lisriigi kohaliku omavalitsuse v&otilde;i v&auml;lisriigi valitsusv&auml;lise organisatsiooni poolt Eesti riigiasutusele v&otilde;i valla- v&otilde;i linnaasutusele , tulumaksuseaduse alusel Vabariigi Valitsuse m&auml;&auml;rusega kinnitatud nimekirja kantud tulumaksusoodustusega mittetulundus&uuml;hingule , sihtasutusele v&otilde;i Eesti kirikute , koguduste ja koguduste liitude registrisse kantud juriidilisele isikule antav tagastamatu abi .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;ibemaksuga ei maksustata aktsiisiga maksustamisele mittekuuluvat kaupa , mille impordib :</s>
+</p>
+<p>
+<s>1 ) riigiasutus v&otilde;i valla- v&otilde;i linnaasutus , tulumaksuseaduse alusel Vabariigi Valitsuse m&auml;&auml;rusega kinnitatud nimekirja kantud tulumaksusoodustusega mittetulundus&uuml;hing , sihtasutus v&otilde;i Eesti kirikute , koguduste ja koguduste liitude registrisse kantud juriidiline isik , kui kaup on saadud v&auml;lisabi korras ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva l&otilde;ike punktis 1 nimetatud isik , kui kaup on soetatud v&auml;lisabi korras saadud v&otilde;i Eesti Vabariigile v&otilde;etud v&auml;lislaenust eraldatud raha eest , v&otilde;i muu isik , kui kaup on soetatud Euroopa Liidu abiprogrammi raames saadud raha eest .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;ibemaksum&auml;&auml;r on 0 protsenti aktsiisiga maksustamisele mittekuuluva kauba v&otilde;&otilde;randamise korral v&otilde;i teenuse osutamise korral :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 1 nimetatud isikule v&otilde;i asutusele , kui kaup v&otilde;i teenus soetatakse Eesti Vabariigile v&otilde;etud v&auml;lislaenust eraldatud v&otilde;i Vabariigi Valitsuse m&auml;&auml;rusega kehtestatud nimekirjas nimetatud organisatsioonilt v&auml;lisabi korras saadud raha eest ;</s>
+</p>
+<p>
+<s>2 ) muule isikule , kui kaup soetatakse v&otilde;i teenus saadakse Euroopa Liidu abiprogrammi raames saadud raha eest .</s>
+</p>
+<p>
+<s>( 4 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud kaubale v&otilde;i teenusele ei ole k&auml;ibemaksum&auml;&auml;ra 0 protsenti kohaldatud , siis kaubalt v&otilde;i teenuselt tasutud k&auml;ibemaks tagastatakse .</s><s>K&auml;ibemaks tagastatakse ka juhul , kui k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 1 nimetatud isik on kauba soetanud v&otilde;i teenuse saanud l&otilde;ike 3 punktis 1 nimetatud nimekirja kandmata organisatsioonilt v&auml;lisabi korras saadud raha eest .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punkt 2 ning l&otilde;iked 3 ja 4 kehtivad kuni Eesti Euroopa Liiduga liitumiseni .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;ibemaksum&auml;&auml;ra 0 protsenti kohaldamise tingimused ja korra , imporditavate kaupade k&auml;ibemaksust vabastamise tingimused ja korra ning k&auml;ibemaksu tagastamise tingimused ja korra kehtestab Vabariigi Valitsus v&otilde;i tema volitusel rahandusminister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva paragrahvi l&otilde;ike 6 alusel kehtestatud tingimused ja kord ei laiene kuni k&auml;esoleva seaduse j&otilde;ustumiseni kehtinud k&auml;ibemaksuseaduse alusel kehtestatud Vabariigi Valitsuse korraldusega erandkorras antud k&auml;ibemaksuvabastusele , k&auml;ibemaksu m&auml;&auml;ra 0 protsenti rakendamise &otilde;igusele v&otilde;i k&auml;ibemaksu tagastamise lubamisele ka juhul , kui tehing v&otilde;i toiming , mida korraldus puudutab , teostatakse p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Kasvava metsa raie&otilde;iguse ning metsamaterjali ja sellega seotud teenuste k&auml;ibemaks</s>
+</p>
+<p>
+<s>( 1 ) Kui &uuml;ks registreeritud maksukohustuslane v&otilde;&otilde;randab teisele registreeritud maksukohustuslasele kasvava metsa raie&otilde;iguse , metsamaterjali v&otilde;i t&ouml;&ouml;deldud metsamaterjali v&otilde;i kui &uuml;ks registreeritud maksukohustuslane osutab teisele registreeritud maksukohustuslasele metsa &uuml;lest&ouml;&ouml;tamise , &uuml;lest&ouml;&ouml;tatud metsa koondamise , v&auml;ljaveo , kokkuveo , pealelaadimise , mahalaadimise , &uuml;mberlaadimise , sorteerimise , virnastamise v&otilde;i metsamaterjali v&otilde;i t&ouml;&ouml;deldud metsamaterjali vedamise teenust , arvestab kauba v&otilde;i teenuse ostja tehingu kohta esitatud arvel m&auml;rgitud k&auml;ibemaksusumma enda tasutava k&auml;ibemaksuna , makstes m&uuml;&uuml;jale ainult kauba v&otilde;i teenuse k&auml;ibemaksuta m&uuml;&uuml;gihinna .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud juhul arvab ostja sisendk&auml;ibemaksu arvestatud k&auml;ibemaksust maha vastavalt k&auml;esolevas seaduses s&auml;testatule samal maksustamisperioodil , mil ta arvestab k&auml;ibemaksusumma enda tasutava k&auml;ibemaksuna .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tehingult tasutava k&auml;ibemaksu kajastab ostja oma k&auml;ibedeklaratsioonis .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 k&auml;sitletud tehingu kohta tuleb esitada eraldi arve , millel peab olema m&auml;rgitud , et ostja arvestab k&auml;ibemaksusumma enda tasutava k&auml;ibemaksuna .</s><s>Eraldi arve ja metsaseaduse ( RT I 1998 , 113/114 , 1872 ; 1999 , 54 , 583 ; 82 , 750 ; 95 , 843 ; 2000 , 51 , 319 ; 102 , 670 ; 2001 , 50 , 282 ) &sect; 33 kohane veoseleht peab metsamaterjali ja t&ouml;&ouml;deldud metsamaterjali kohta olema vormistatud ka nende materjalide vedamisel koos muu kaubaga .</s>
+</p>
+<p>
+<s>( 5 ) Kui Maksuamet registreerib kasvava metsa raie&otilde;iguse , metsamaterjali v&otilde;i t&ouml;&ouml;deldud metsamaterjali m&uuml;&uuml;ja v&otilde;i ostja v&otilde;i metsa &uuml;lest&ouml;&ouml;tamise , &uuml;lest&ouml;&ouml;tatud metsa koondamise , v&auml;ljaveo , kokkuveo , pealelaadimise , mahalaadimise , &uuml;mberlaadimise , sorteerimise , virnastamise v&otilde;i metsamaterjali v&otilde;i t&ouml;&ouml;deldud metsamaterjali vedamise teenuse osutaja v&otilde;i saaja k&auml;esoleva seaduse &sect; 9 l&otilde;ike 5 v&otilde;i 6 alusel , ei kohaldata k&auml;esoleva paragrahvi s&auml;tteid kuni kuup&auml;evani , mil selliselt registreeritud maksukohustuslasel tekib &otilde;igus teha k&auml;esoleva seaduse &sect; 20 l&otilde;ikes 1 nimetatud mahaarvamisi .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) metsamaterjal - maharaiutud puu v&otilde;i selle t&uuml;ve j&auml;rkamisel saadud &uuml;marpuit .</s><s>Metsamaterjali m&otilde;iste ei laiene metsa k&otilde;rvalkasutuse saadustele ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;deldud metsamaterjal - osaliselt v&otilde;i t&auml;ielikult kooritud , teritatud v&otilde;i keemiliselt t&ouml;&ouml;deldud metsamaterjal .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Reisikorraldaja teenuselt tasutav k&auml;ibemaks</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevat paragrahvi kohaldatakse juhul , kui reisikorraldaja s&otilde;lmib kliendiga lepingu oma nimel ning kasutab teiselt maksukohustuslaselt soetatud kaupa v&otilde;i saadud teenust reisijate teenindamiseks .</s><s>Muudele reisikorraldajatele kohaldatakse k&auml;esoleva seaduse &sect;-s 14 k&auml;sitletud maksustatava v&auml;&auml;rtuse arvestamise &uuml;ldist korda .</s>
+</p>
+<p>
+<s>( 2 ) Reisikorraldaja teenuse maksustatava v&auml;&auml;rtuse arvutamiseks tuleb reisijate poolt reisikorraldajale makstavast pakettreisi k&auml;ibemaksuta kogumaksumusest lahutada reisikorraldaja poolt teistelt maksukohustuslastelt reisijate teenindamiseks soetatud kaupade ja saadud teenuste k&auml;ibemaksuga kogumaksumus .</s>
+</p>
+<p>
+<s>( 3 ) Kui teine isik osutab reisikorraldaja tellitud teenust v&auml;ljaspool Eestit , k&auml;sitatakse reisikorraldaja osutatavat vahendusteenust teenuse ekspordina .</s>
+</p>
+<p>
+<s>( 4 ) Reisikorraldajal ei ole &otilde;igust enda arvestatud k&auml;ibemaksust maha arvata k&auml;ibemaksu , mille ta on reisijate teenindamiseks kauba soetamisel v&otilde;i teenuse saamisel maksnud teisele maksukohustuslasele .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi s&auml;tteid kohaldatakse alates 2004. aasta 1. jaanuarist .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Kasutatud kauba , originaalkunstiteose ning kollektsiooni- ja antiikeseme edasim&uuml;&uuml;gilt tasutav k&auml;ibemaks</s>
+</p>
+<p>
+<s>( 1 ) Kollektsiooniese k&auml;esoleva seaduse t&auml;henduses on filateeliakaup v&otilde;i zooloogiline , botaaniline , mineraloogiline , anatoomiline , ajalooline , arheoloogiline , paleontoloogiline , etnograafiline v&otilde;i numismaatiline kollektsioon v&otilde;i selle osa .</s><s>Antiikese k&auml;esoleva seaduse t&auml;henduses on &uuml;le 100 aasta vanune ese .</s>
+</p>
+<p>
+<s>( 2 ) Kasutatud kauba , originaalkunstiteose , kollektsiooni- v&otilde;i antiikeseme edasim&uuml;&uuml;gi korral on registreeritud maksukohustuslasel &otilde;igus arvata oma k&auml;ibe maksustatavaks v&auml;&auml;rtuseks kauba m&uuml;&uuml;gi- ja ostuhinna vahe , kui talle on kauba m&uuml;&uuml;nud &uuml;ks allpool nimetatud isikutest :</s>
+</p>
+<p>
+<s>1 ) isik , kes ei ole maksukohustuslane ;</s>
+</p>
+<p>
+<s>2 ) registreerimata maksukohustuslane ;</s>
+</p>
+<p>
+<s>3 ) registreeritud maksukohustuslane , kes j&auml;rgib kasutatud kaupa , originaalkunstiteost , kollektsiooni- v&otilde;i antiikeset edasi m&uuml;&uuml;es samasugust maksustatava v&auml;&auml;rtuse arvestamise korda .</s>
+</p>
+<p>
+<s>( 3 ) Kui maksukohustuslane on Maksuametit sellekohaselt teavitanud , v&otilde;ib ta v&auml;hemalt kahe j&auml;rjestikuse kalendriaasta jooksul j&auml;rgida k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud maksustatava v&auml;&auml;rtuse arvestamise korda ka j&auml;rgmiste kaupade edasim&uuml;&uuml;gil :</s>
+</p>
+<p>
+<s>1 ) tema enda imporditud originaalkunstiteos , kollektsiooni- v&otilde;i antiikese ;</s>
+</p>
+<p>
+<s>2 ) originaalkunstiteos , mille on maksukohustuslasele m&uuml;&uuml;nud autor v&otilde;i autori&otilde;iguste valdaja .</s>
+</p>
+<p>
+<s>( 4 ) Maksukohustuslase imporditud originaalkunstiteose , kollektsiooni- v&otilde;i antiikeseme k&auml;ibe puhul k&auml;sitatakse ostuhinnana k&auml;esoleva seaduse &sect; 15 l&otilde;ike 1 kohaselt arvestatud maksustatavat v&auml;&auml;rtust , millele on lisatud maksustatavalt v&auml;&auml;rtuselt arvutatud k&auml;ibemaks .</s>
+</p>
+<p>
+<s>( 5 ) Registreeritud maksukohustuslasel ei ole &otilde;igust arvata arvestatud k&auml;ibemaksust maha k&auml;ibemaksu , mille ta on tasunud k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud maksustatava v&auml;&auml;rtuse arvestamise korda kohaldanud maksukohustuslaselt kauba soetamisel .</s>
+</p>
+<p>
+<s>( 6 ) Maksukohustuslasel ei ole &otilde;igust tema poolt teostatava k&auml;ibe maksustamisel k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud maksustatava v&auml;&auml;rtuse arvestamise korra alusel maha arvata k&auml;ibemaksu , mille ta on tasunud :</s>
+</p>
+<p>
+<s>1 ) originaalkunstiteose , kollektsiooni- v&otilde;i antiikeseme importimisel ;</s>
+</p>
+<p>
+<s>2 ) originaalkunstiteose soetamisel , mille on talle m&uuml;&uuml;nud autor v&otilde;i autori&otilde;iguste valdaja ;</s>
+</p>
+<p>
+<s>3 ) originaalkunstiteose soetamisel , mille on talle m&uuml;&uuml;nud registreeritud maksukohustuslane , kes ei kohalda k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud maksustatava v&auml;&auml;rtuse arvestamise korda .</s>
+</p>
+<p>
+<s>( 7 ) Maksukohustuslane on kohustatud sama kalendriaasta jooksul j&auml;rgima kas maksustatava v&auml;&auml;rtuse arvestamise &uuml;ldist korda k&auml;esoleva seaduse &sect; 14 kohaselt , kui ta on Maksuametit sellekohaselt teavitanud , v&otilde;i k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud maksustatava v&auml;&auml;rtuse arvestamise korda .</s><s>Viimasel juhul n&auml;itab ta v&auml;ljastatavatel arvetel ja muudel m&uuml;&uuml;gidokumentidel &uuml;ksnes kauba m&uuml;&uuml;gi- ja ostuhinna vahelt arvutatud k&auml;ibemaksusumma .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Avalikul oksjonil m&uuml;&uuml;dud kasutatud kauba , originaalkunstiteose , kollektsiooni- ja antiikeseme m&uuml;&uuml;gilt tasutav k&auml;ibemaks</s>
+</p>
+<p>
+<s>( 1 ) Kui kasutatud kaup , originaalkunstiteos , kollektsiooni- v&otilde;i antiikese m&uuml;&uuml;akse avalikul oksjonil , on oksjonim&uuml;&uuml;gi korraldaja osutatava teenuse maksustatav v&auml;&auml;rtus summa , mille on ostja tasunud tema v&auml;ljastatud arve v&otilde;i muu m&uuml;&uuml;gidokumendi alusel ning millest on lahutatud avaliku oksjoni korras m&uuml;&uuml;dava kauba algse ostuhinna ja selle komisjonitasu vahe , mille on oksjonim&uuml;&uuml;gi korraldaja lepingu alusel saanud v&otilde;i mille ta saab volitajalt .</s><s>Kauba ostja makstav kogusumma sisaldab kauba oksjonihinda ja muid summasid , mis kauba ostja on oksjonim&uuml;&uuml;gi korraldajale kohustatud seoses kauba soetamisega tasuma .</s><s>Kogusummasse ei arvata k&auml;ibemaksu .</s>
+</p>
+<p>
+<s>( 2 ) Oksjonim&uuml;&uuml;gi korraldajal on &otilde;igus m&auml;rkida ostjale esitataval arvel v&otilde;i muul m&uuml;&uuml;gidokumendil k&auml;ibemaksusumma &uuml;ksnes tema poolt osutatava teenuse kohta .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud maksustatava v&auml;&auml;rtuse arvestamise korda kohaldatakse juhul , kui oksjonim&uuml;&uuml;gi korraldaja tegutseb lepingu alusel , mille kohaselt makstakse kauba avalikul oksjonil m&uuml;&uuml;gilt komisjonitasu , ning esindab &uuml;ht k&auml;esoleva seaduse &sect; 34 l&otilde;ike 2 punktides 1-3 nimetatud isikut .</s>
+</p>
+<p>
+<s>( 4 ) Oksjonim&uuml;&uuml;gi korraldajana tegutsev registreeritud maksukohustuslane , kellele on kaup toimetatud k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud lepingu alusel , peab esitama volitajale aruande , milles on m&auml;rgitud kauba ostuhind ja tulemus , mis saadakse ostuhinnast volitaja makstavat komisjonitasu maha arvates .</s><s>Aruanne on aluseks arvele , mille maksukohustuslasest volitaja peab v&auml;ljastama oksjonim&uuml;&uuml;gi korraldajale .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Enne k&auml;esoleva seaduse j&otilde;ustumist s&otilde;lmitud lepingu alusel toimuva k&auml;ibe maksustamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevat seadust kohaldatakse ka enne selle j&otilde;ustumist s&otilde;lmitud lepingu alusel toimuva k&auml;ibe maksustamisel , kui k&auml;ive on tekkinud k&auml;esoleva seaduse kehtimise ajal.</s>
+</p>
+<p>
+<s>( 2 ) K&auml;ibe tekkimisel k&auml;esoleva seaduse j&otilde;ustumiseni kehtinud k&auml;ibemaksuseaduse ( RT I 1993 , 60 , 847 ; 2000 , 7 , 41 ; 51 , 328 ; 89 , 581 ; 2001 , 16 , 67 ja 69 ; 23 , 129 ; 26 , 148 ; 43 , 242 ) kohaselt enne 2002. aasta 1. jaanuari , kuid k&auml;esolevast seadusest tulenevana 2002. aasta 1. jaanuaril v&otilde;i hiljem , loetakse k&auml;ive tekkinuks ajal , mis tuleneb kuni k&auml;esoleva seaduse j&otilde;ustumiseni kehtinud k&auml;ibemaksuseadusest .</s><s>Sellisel juhul t&auml;idab registreeritud maksukohustuslane k&auml;ibemaksuga seotud kohustusi vastavalt k&auml;ibemaksuseadusele , mis kehtis kuni k&auml;esoleva seaduse j&otilde;ustumiseni .</s>
+</p>
+<p>
+<s>( 3 ) Enne k&auml;esoleva seaduse j&otilde;ustumist s&otilde;lmitud notariaalselt t&otilde;estatud kinnisasja v&otilde;&otilde;randamise asja&otilde;iguslepingu alusel toimuvast kinnisasja v&otilde;&otilde;randamisest ei teki k&auml;ivet , kui maksukohustuslane ei ole selle kinnisasja ehitamiseks v&otilde;i remondiks kaupade soetamisel ja teenuste saamisel tasumisele kuulunud sisendk&auml;ibemaksu maha arvanud .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>( 4 ) Enne k&auml;esoleva seaduse j&otilde;ustumist kapitalirendile antud kinnisasja kapitalirenti ning enne k&auml;esoleva seaduse j&otilde;ustumist valminud kinnisasja v&otilde;&otilde;randamist v&otilde;ib maksukohustuslane k&auml;sitada tehinguna , millest ei teki k&auml;ivet , kui ta ei ole selle kinnisasja ehitamiseks v&otilde;i remondiks kaupade soetamisel ja teenuste saamisel tasumisele kuulunud sisendk&auml;ibemaksu maha arvanud .</s>
+</p>
+<p>
+<s>( 13.12.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 102 , 669 )</s>
+</p>
+<p>
+<s>&sect; 36 <hi rend="sup">1</hi> .</s><s>Ajutised erisused kauba eksportimisel ja vabatsooni paigutatud kauba v&otilde;&otilde;randamisel</s>
+</p>
+<p>
+<s>( 1 ) Kuni 2002. aasta 30. juunini k&auml;sitatakse kauba ekspordina ka kauba toimetamist vabatsooni tolliprotseduuriga &ldquo; eksport &rdquo; tingimusel , et see kaup veetakse Eestist v&auml;lja 15 kalendrip&auml;eva jooksul kaubadeklaratsiooni aktsepteerimisest arvates .</s>
+</p>
+<p>
+<s>( 2 ) Alates 2002. aasta 1. juulist kuni 2003. aasta 30. juunini k&auml;sitatakse kauba ekspordina ka Eesti kauba ( tolliseadustiku t&auml;henduses ) toimetamist vabatsooni ekspordi tolliprotseduuriga tingimusel , et see kaup veetakse Eestist v&auml;lja 15 kalendrip&auml;eva jooksul tollideklaratsiooni aktsepteerimisest arvates .</s>
+</p>
+<p>
+<s>( 3 ) Kuni 2002. aasta 30. juunini ei teki k&auml;ivet Eestist v&auml;ljaveol ( eksportimisel ) vabatsooni paigutatud kauba v&otilde;&otilde;randamisest , kui seda kaupa ei ole viidud vabatsoonist mujale Eesti tolliterritooriumile ega kasutatud muudel kui tollieeskirjades etten&auml;htud tingimustel .</s>
+</p>
+<p>
+<s>( 4 ) Alates 2002. aasta 1. juulist kuni 2003. aasta 30. juunini ei teki k&auml;ivet vabatsoonis oleva Eesti kauba ( tolliseadustiku t&auml;henduses ) v&otilde;&otilde;randamisest , kui selle kauba suhtes rakendatakse samasuguse kauba ekspordi tolliprotseduuriga tavaliselt kaasnevaid meetmeid ja seda kaupa ei ole kasutatud muudel kui tollieeskirjades etten&auml;htud tingimustel .</s>
+</p>
+<p>
+<s>( 31.01.2002 j&otilde;ust.02.02.2002 - RT I 2002 , 11 , 60 )</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse j&otilde;ustumisel k&auml;sitatakse registreeritud maksukohustuslasena isikut , kes on maksukohustuslasena registreeritud enne k&auml;esoleva seaduse j&otilde;ustumist kehtinud k&auml;ibemaksuseaduse alusel ega ole registrist kustutatud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud isiku kohta hakkavad registreeritud maksukohustuslase &otilde;igused ja kohustused kehtima k&auml;esoleva seaduse j&otilde;ustumise kuup&auml;evast alates .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud isik on kohustatud esitama k&auml;ibedeklaratsiooni ning tasuma Maksuametile k&auml;ibemaksu 2001. aasta detsembrikuu , neljanda kvartali v&otilde;i teise poolaasta eest enne k&auml;esoleva seaduse j&otilde;ustumist kehtinud k&auml;ibemaksuseaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Tolliseaduse muutmine</s>
+</p>
+<p>
+<s>Tolliseaduses ( RT I 1998 , 3 , 54 ; 1999 , 86 , 782 ; 90 , &otilde;iend ; 97 , 859 ; 102 , 907 ; 2000 , 95 , 608 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 4 l&otilde;ike 1 teine lause muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; Tolliterritooriumile toimetamisel vabatsooni paigutatud kaup loetakse impordimaksude ja kaubanduspoliitika impordimeetmete kohaldamisel v&auml;ljaspool tolliterritooriumi olevaks tingimusel , et sellele kaubale ei ole kohaldatud &uuml;htki tolliprotseduuri ning seda kaupa ei ole kasutatud ega tarbitud muudel tingimustel peale tollieeskirjades etten&auml;htute . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 4 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Vabatsoonist muule tolliterritooriumile toimetatav kaup maksustatakse vastavalt seadustele impordimaksudega .</s><s>Vabas ringluses olevale kaubale v&otilde;ib selle vabatsooni toimetamisel rakendada tavaliselt sellise kauba ekspordil kohaldatavaid meetmeid , kui see on teistes &otilde;igusaktides s&auml;testatud . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 19 l&otilde;iget 3 t&auml;iendatakse lausega :</s>
+</p>
+<p>
+<s>&ldquo; F&uuml;&uuml;siline isik peab esitama kaubadeklaratsiooni kauba kohta , mille tolliv&auml;&auml;rtus &uuml;letab 1000 krooni ja mis ei vasta k&auml;esoleva seaduse &sect; 21 l&otilde;ikes 1 nimetatud tingimustele . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>4 ) ( Kehtetu - 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>5 ) paragrahvi 62 l&otilde;ike 1 punkt 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 1 ) kaubadeklaratsiooni tollis aktsepteerimise p&auml;evast arvates , kui impordimaksudega maksustatav kaup imporditakse vabaks ringluseks v&otilde;i kui t&ouml;&ouml;tlemiseks v&auml;ljaveetud kaup veetakse taas sisse .</s><s>V&otilde;lgnik on deklarant , samuti isik , kelle eest kaubadeklaratsioon esitati ; &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Varasema &otilde;igusakti kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>K&auml;ibemaksuseadus ( RT I 1993 , 60 , 847 ; 2000 , 7 , 41 ; 51 , 328 ; 89 , 581 ; 2001 , 16 , 67 ja 69 ; 23 , 129 ; 26 , 148 ; 43 , 242 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2002. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

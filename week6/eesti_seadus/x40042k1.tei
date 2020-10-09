@@ -1,0 +1,892 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Autoveoseadus ( terviktekst aprill 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4705</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Autoveoseadus ( terviktekst aprill 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=11></tagusage>
+         <tagusage gi=p occurs=262></tagusage>
+         <tagusage gi=s occurs=324></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Autoveoseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 7. juunil 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 54 , 346 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. oktoobril 2000 a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>21.03.2002 seadus j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 190.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses s&auml;testatakse riigisisese ja rahvusvahelise autoveo korraldamise alused .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolev seadus ei reguleeri kaitsej&otilde;udude autoveo korraldust .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;isted</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses on kasutatud m&otilde;isteid j&auml;rgmises t&auml;henduses :</s>
+</p>
+<p>
+<s>1 ) autovedu - s&otilde;itjate v&otilde;i veose kohaletoimetamine selleks etten&auml;htud ja kehtestatud korras registreeritud s&otilde;idukiga .</s><s>Autovedu h&otilde;lmab ka s&otilde;itjate v&otilde;i veoseta s&otilde;iduki liikumist ;</s>
+</p>
+<p>
+<s>2 ) tasuline autovedu - s&otilde;itjate v&otilde;i veose kohaletoimetamine , mille eest vedaja saab tasu mis tahes vormis ;</s>
+</p>
+<p>
+<s>3 ) oma kulul korraldatav autovedu - s&otilde;itjate v&otilde;i veose kohaletoimetamine , mille eest vedaja tasu ei saa ;</s>
+</p>
+<p>
+<s>4 ) riigisisene autovedu - s&otilde;itjate v&otilde;i veose kohaletoimetamine Eesti piires ;</s>
+</p>
+<p>
+<s>5 ) rahvusvaheline autovedu - s&otilde;itjate v&otilde;i veose kohaletoimetamine riigipiiri &uuml;letades ;</s>
+</p>
+<p>
+<s>6 ) vedaja - autoveo tegevusluba omav &auml;riseadustikus ( RT I 1995 , 26-28 , 355 ; 1998 , 91-93 , 1500 ; 1999 , 10 , 155 ; 23 , 355 ; 24 , 360 ; 57 , 596 ; 102 , 907 ; 2000 , 29 , 172 ; 49 , 303 ; 55 , 365 ; 57 , 373 ; 2001 , 34 , 185 ; 56 , 332 ja 336 ; 89 , 532 ; 93 , 565 ; 2002 , 3 , 6 ) nimetatud ja &auml;riregistrisse kantud ettev&otilde;tja v&otilde;i seaduse alusel teise registrisse kantud isik , oma kulul korraldatava autoveo puhul ka kohalik omavalitsus&uuml;ksus .</s>
+</p>
+<p>
+<s>( 21.03.2002 seadus j&otilde;ust.18.04.2002 - RT I 2002 , 32 , 190 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tasuline autovedu</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva peat&uuml;ki s&auml;tteid kohaldatakse veose tasulise veo korral , mida korraldatakse vedaja omandis oleva v&otilde;i rendile v&otilde;etud auto v&otilde;i autorongiga , mille registrimass &uuml;letab 3500 kilogrammi .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;itjate tasulist autovedu reguleerib &uuml;histranspordiseadus ( RT I 2000 , 10 , 58 ; 2001 , 18 , 85 ) .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Tasulise autoveo tegevusluba ja s&otilde;idukikaart</s>
+</p>
+<p>
+<s>( 1 ) Tasulise autoveo korraldamiseks peavad vedajal olema tegevusluba ja iga kasutatava mootors&otilde;iduki kohta s&otilde;idukikaart .</s>
+</p>
+<p>
+<s>( 2 ) Tasulise autoveo tegevusluba on dokument , mis t&otilde;endab selle omaniku &otilde;igust korraldada autovedu tasu eest .</s>
+</p>
+<p>
+<s>( 3 ) Tasulise autoveo s&otilde;idukikaart on k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud tegevusloa alusel antav dokument , mis t&otilde;endab tegevusloa omaniku &otilde;igust kasutada s&otilde;idukikaardile kantud s&otilde;idukit tegevusloaga lubatud autoveol .</s>
+</p>
+<p>
+<s>( 4 ) Tasulise autoveo tegevusluba ja s&otilde;idukikaart antakse riigisisese v&otilde;i rahvusvahelise autoveo korraldamiseks .</s><s>Tasulise rahvusvahelise autoveo tegevusluba annab &otilde;iguse korraldada ka riigisisest tasulist autovedu .</s>
+</p>
+<p>
+<s>( 5 ) Tasulise autoveo tegevusloa ja s&otilde;idukikaardita v&otilde;ib korraldada vedusid , mis veo iseloomust ja pikkusest tingituna ei oma autoveoturul olulist t&auml;htsust .</s><s>Selliste vedude loetelu kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Tasulise autoveo tegevusloa taotlejale ja selle omanikule esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa taotleja ja selle omaniku majandusseisund peab vastama k&auml;esoleva seaduse &sect;-s 6 s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa omaniku registreeritud tegevusala peab olema autoveoteenuse osutamine v&otilde;i seda h&otilde;lmav muu veondustegevus .</s><s>Tegevusloa omanik peab tegevusala registreerima enne esimese s&otilde;idukikaardi taotluse esitamist .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa taotleja v&otilde;i selle omanik peab m&auml;&auml;rama vedude eest vastutava isiku , kes korraldab vedaja veoteenuste osutamist ja vastab k&auml;esoleva seaduse &sect;-s 7 s&auml;testatud n&otilde;uetele .</s><s>Vedaja v&otilde;ib m&auml;&auml;rata mitu vedude eest vastutavat isikut .</s><s>Vedude eest vastutav isik v&otilde;ib olla ka f&uuml;&uuml;silisest isikust vedaja ise .</s>
+</p>
+<p>
+<s>( 4 ) Tegevusloa omanik v&otilde;ib ajutiselt , kuid mitte &uuml;le &uuml;he aasta , tegutseda vedude eest vastutava isikuta , kui selle p&otilde;hjus on nimetatud isiku pikaajaline t&ouml;&ouml;v&otilde;imetus v&otilde;i surm .</s>
+</p>
+<p>
+<s>( 5 ) Tegevusloa taotleja v&otilde;i selle omanik peab vastama hea maine n&otilde;udele .</s><s>K&auml;esoleva seaduse m&otilde;ttes peetakse isiku mainet heaks , kui teda ei ole seoses varasema majandustegevusega &uuml;le kahe korra halduskorras karistatud maksu- , tolli- , hinna- ja tarbijakaitse ning t&ouml;&ouml;- ja puhkeaja n&otilde;uete rikkumise eest , k&auml;esolevas seaduses etten&auml;htud tegevusloa v&otilde;i s&otilde;idukikaardita veo korraldamise v&otilde;i riiklikku registrisse andmete esitamise korra rikkumise eest v&otilde;i kui karistuse &auml;rakandmisest on m&ouml;&ouml;dunud v&auml;hemalt kolm aastat .</s>
+</p>
+<p>
+<s>( 6 ) F&uuml;&uuml;silisest isikust tegevusloa taotleja v&otilde;i selle omaniku mainet peetakse heaks , kui ta lisaks k&auml;esoleva paragrahvi l&otilde;ikes 5 s&auml;testatule vastab ka k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 2 s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 7 ) Tasulise rahvusvahelise autoveo tegevusloa taotlejal peab olema v&auml;hemalt kaheaastane riigisisese tasulise autoveo kogemus , mida ta t&otilde;endab tegevusloaga v&otilde;i muul viisil .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Tasulise autoveo tegevusloa taotleja ja selle omaniku majandusseisund</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa taotleja v&otilde;i selle omaniku majandusseisund on n&otilde;uetele vastav , kui ta k&auml;esoleva paragrahvi l&otilde;ikes 2 v&otilde;i 3 nimetatud andmetele tuginedes t&otilde;estab , et tal on ettev&otilde;tluse alustamiseks ja vedude n&otilde;uetekohaseks korraldamiseks vajalik rahaline seis .</s>
+</p>
+<p>
+<s>( 2 ) Rahalise seisu hindamisel v&otilde;etakse aluseks raamatupidamise aastaaruanded .</s>
+</p>
+<p>
+<s>( 3 ) Raamatupidamise aastaaruannete puudumise korral v&otilde;etakse aluseks :</s>
+</p>
+<p>
+<s>1 ) raha pangakontol ja muud rahalised vahendid ning v&otilde;lad ja laenud ;</s>
+</p>
+<p>
+<s>2 ) majandustegevuse stabiilsuse tagamiseks etten&auml;htud vara ja muu vara ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;idukite , kinnistute , seadmete ja varustuse ostukulud v&otilde;i esimesed sissemaksed ning k&auml;ibekapital ja muud kulud .</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;hele mootors&otilde;idukile s&otilde;idukikaardi saamiseks peab tegevusloa omanik t&otilde;endama , et tal on omavahendeid v&auml;hemalt 140 000 krooni ulatuses ; igale j&auml;rgmisele mootors&otilde;idukile s&otilde;idukikaardi saamiseks peab omavahendeid iga mootors&otilde;iduki kohta olema v&auml;hemalt 80 000 krooni .</s><s>Omavahendite olemasolu t&otilde;endamiseks esitab tegevusloa omanik s&otilde;idukikaardi andjale j&auml;rgmised dokumendid :</s>
+</p>
+<p>
+<s>1 ) juriidilisest isikust vedaja esitab oma vara ja kohustuste auditeeritud seisu , mille fikseerimisest ei v&otilde;i olla m&ouml;&ouml;dunud rohkem kui kuus kuud .</s><s>Samal eesm&auml;rgil v&otilde;ib s&otilde;idukikaardi andja tunnustada v&otilde;i t&otilde;endusena n&otilde;uda panga v&otilde;i muu asjakohaste volitustega asutuse kinnitust v&otilde;i t&otilde;endit kas garantiikirjana v&otilde;i muul samav&auml;&auml;rsel viisil antud kinnituse v&otilde;i t&otilde;endina ;</s>
+</p>
+<p>
+<s>2 ) f&uuml;&uuml;silisest isikust vedaja esitab panga v&otilde;i muu asjakohaste volitustega asutuse kinnituse v&otilde;i t&otilde;endi kas garantiikirjana v&otilde;i muul samav&auml;&auml;rsel viisil antud kinnituse v&otilde;i t&otilde;endina .</s><s>Samal eesm&auml;rgil v&otilde;ib vedaja esitada oma vara ja kohustuste auditeeritud seisu , mille fikseerimisest ei v&otilde;i olla m&ouml;&ouml;dunud rohkem kui kuus kuud .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Vedude eest vastutav isik</s>
+</p>
+<p>
+<s>( 1 ) Vedude eest vastutav isik peab olema teov&otilde;imeline , vastama k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud hea maine n&otilde;udele ja olema ametialaselt p&auml;dev korraldama tasulist autovedu .</s>
+</p>
+<p>
+<s>( 2 ) Vedude eest vastutava isiku mainet peetakse heaks , kui :</s>
+</p>
+<p>
+<s>1 ) teda ei ole kriminaalkorras karistatud v&otilde;i kui karistuse &auml;rakandmisest on m&ouml;&ouml;dunud v&auml;hemalt kolm aastat ;</s>
+</p>
+<p>
+<s>2 ) tal ei ole seoses ametialase tegevusega &uuml;le kahe haldus&otilde;iguserikkumiste seadustiku ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ; 97 , 605 ; 102 , 677 ; 2002 , 18 , 98 ; 21 , 117 ; 29 , 174 ja 175 ; 30 , 176 ; 32 , 189 ) &sect; 31 kohaselt kehtiva karistuse t&ouml;&ouml;j&otilde;u kasutamise , t&ouml;&ouml;tasustamise , veokorralduse , autojuhi t&ouml;&ouml;- ja puhkeaja reguleerimise , liiklusohutuse , s&otilde;idukite ohutuse v&otilde;i keskkonnakaitse valdkonnas .</s>
+</p>
+<p>
+<s>( 3 ) Vedude eest vastutavat isikut peetakse ametialaselt p&auml;devaks , kui ta on Teede- ja Sideministeeriumi tunnustatud &otilde;ppeasutuses l&auml;binud vedude eest vastutava isiku koolituskursuse ja sooritanud kursuse kirjaliku l&otilde;pueksami .</s>
+</p>
+<p>
+<s>( 4 ) Vedude eest vastutava isiku koolituskursust ei pea l&auml;bima isik , kes on v&auml;hemalt viis aastat olnud vedaja autoveo korraldaja ja on sooritanud k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud koolituskursuse kirjaliku l&otilde;pueksami .</s>
+</p>
+<p>
+<s>( 5 ) Vedude eest vastutava isiku koolituskursust ei ole vaja l&auml;bida ega l&otilde;pueksamit sooritada isikul , kellel on k&otilde;rgkoolidiplom erialal , mis t&otilde;endab piisavaid teadmisi koolituskursuse &otilde;ppekavas loetletud ainetes .</s>
+</p>
+<p>
+<s>( 6 ) Teede- ja sideminister kinnitab vedude eest vastutava isiku kvalifikatsioonin&otilde;uded , koolituskursuse &otilde;ppekava , koolitustunnistuse vormi ning k&otilde;rgkoolide ja nendes ettevalmistatavate erialade loetelu , mille l&otilde;petajale antud k&otilde;rgkoolidiplom vastab k&auml;esoleva paragrahvi l&otilde;ikes 5 s&auml;testatule .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Oma kulul korraldatav autovedu</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva peat&uuml;ki s&auml;tteid kohaldatakse oma kulul korraldatavale s&otilde;itjateveole autoga , milles koos juhikohaga on &uuml;le &uuml;heksa istekoha , ja oma kulul korraldatavale veoseveole auto v&otilde;i autorongiga , mille registrimass &uuml;letab 3500 kilogrammi .</s>
+</p>
+<p>
+<s>( 2 ) Oma kulul s&otilde;itjate- ja veoseveo korraldamiseks peavad olema t&auml;idetud j&auml;rgmised n&otilde;uded :</s>
+</p>
+<p>
+<s>1 ) autovedu on vedaja k&otilde;rvaltegevus ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;itjaid v&otilde;i veost vedav s&otilde;iduk on vedaja omandis v&otilde;i vedaja on v&otilde;tnud selle rendile ;</s>
+</p>
+<p>
+<s>3 ) veol kasutatava s&otilde;iduki juht on vedaja t&ouml;&ouml;taja v&otilde;i vedaja ise ;</s>
+</p>
+<p>
+<s>( 3 ) Oma kulul veoseveo korraldamiseks peavad olema t&auml;idetud j&auml;rgmised lisan&otilde;uded :</s>
+</p>
+<p>
+<s>1 ) veos on vedaja omandis v&otilde;i vedaja on selle m&uuml;&uuml;nud , ostnud , rendile andnud v&otilde;i rendile v&otilde;tnud , tootnud , t&ouml;&ouml;delnud v&otilde;i parandanud ;</s>
+</p>
+<p>
+<s>2 ) veost paigutatakse &uuml;mber ettev&otilde;ttes v&otilde;i v&auml;ljaspool ettev&otilde;tet omatarbeks .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Oma kulul korraldatava autoveo tegevusluba ja s&otilde;idukikaart</s>
+</p>
+<p>
+<s>( 1 ) Oma kulul korraldatavaks riigisiseseks autoveoks ei pea vedajal olema tegevusluba ega s&otilde;idukikaarti .</s>
+</p>
+<p>
+<s>( 2 ) Oma kulul korraldatavaks rahvusvaheliseks autoveoks peavad vedajal olema tegevusluba ja iga kasutatava mootors&otilde;iduki kohta s&otilde;idukikaart .</s>
+</p>
+<p>
+<s>( 3 ) Oma kulul korraldatava rahvusvahelise autoveo tegevusluba on dokument , mis t&otilde;endab tegevusloa omaniku &otilde;igust korraldada rahvusvahelist autovedu oma kulul .</s>
+</p>
+<p>
+<s>( 4 ) Oma kulul korraldatava rahvusvahelise autoveo s&otilde;idukikaart on k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud tegevusloa alusel antav dokument , mis t&otilde;endab tegevusloa omaniku &otilde;igust kasutada s&otilde;idukikaardile kantud s&otilde;idukit tegevusloaga lubatud autoveol .</s>
+</p>
+<p>
+<s>( 5 ) Rahvusvahelist autovedu v&otilde;ib oma kulul korraldada ka s&otilde;idukiga , mille kasutajale on antud s&otilde;idukikaart tasulise rahvusvahelise autoveo tegevusloa alusel .</s>
+</p>
+<p>
+<s>( 6 ) Oma kulul korraldatava rahvusvahelise autoveo tegevusloaga ei v&otilde;i korraldada tasulist vedu ega vedu , mis ei vasta k&auml;esoleva seaduse &sect; 8 l&otilde;igetes 2 ja 3 s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Oma kulul korraldatava rahvusvahelise autoveo tegevusloa taotlejale ja selle omanikule esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Oma kulul korraldatava rahvusvahelise autoveo tegevusloa taotleja peab taotlemisavalduses kinnitama , et ta korraldab vedu ainult oma kulul , ja nimetama tegevusala , millega veod on seotud .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa taotleja peab t&otilde;endama ja selle omanik tagama , et :</s>
+</p>
+<p>
+<s>1 ) autovedu moodustab ainult osa ettev&otilde;tja &auml;ritegevusest , mille tulu ei &uuml;leta 50 protsenti kogu tulust , ning et veokulud kaetakse &auml;ritegevuse arvel ;</s>
+</p>
+<p>
+<s>2 ) autovedu ei ole tema kui ettev&otilde;tja p&otilde;hitegevus , vaid &uuml;ksnes toetab seda .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa andja v&otilde;ib enne selle andmist n&otilde;uda tegevusloa taotlejalt nende dokumentide esitamist , mis t&otilde;endavad k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud n&otilde;uetele vastavust .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kombineeritud vedu</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses m&otilde;istetakse kombineeritud veona veose rahvusvahelist kohaletoimetamist autoga , vedukiga v&otilde;i vedukita poolhaagisega , auto vahetatava kerega v&otilde;i v&auml;hemalt 6,096 m ( 20 jala ) pikkuse konteineriga , kui vedaja kasutab veo alg- v&otilde;i l&otilde;ppetapil maanteed ning &uuml;lej&auml;&auml;nud etappidel raudtee- v&otilde;i mereveoteenust sama saatedokumendi alusel .</s><s>Raudtee- ja mereveoetapi algpunkti ja l&otilde;pp-punkti vaheline kaugus otsejoones m&otilde;&otilde;detuna peab olema &uuml;le 100 kilomeetri .</s>
+</p>
+<p>
+<s>( 2 ) Kombineeritud veo algetapp on teel&otilde;ik veose pealelaadimise kohast kuni &uuml;mberlaadimiseks sobiva l&auml;hima raudteejaama v&otilde;i meresadamani ning l&otilde;ppetapp on teel&otilde;ik veose &uuml;mberlaadimiseks sobivast l&auml;himast raudteejaamast v&otilde;i meresadamast mahalaadimiskohani .</s>
+</p>
+<p>
+<s>( 3 ) Mereveo korral ei tohi kombineeritud veo alg- v&otilde;i l&otilde;ppetapi teel&otilde;igu pikkus peale- v&otilde;i mahalaadimise meresadamast otsejoones m&otilde;&otilde;detuna &uuml;letada 150 kilomeetrit .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kombineeritud veo korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kombineeritud veo puhul korraldab veose saatja veo algetapil vedu k&auml;esoleva seaduse &sect; 8 l&otilde;igete 2 ja 3 kohaselt oma kulul , ei ole nimetatud s&auml;tetega vastuolus veose saaja &otilde;igus toimetada veos veo l&otilde;ppetapil sihtkohta oma kulul .</s><s>Veose saaja peab kasutama autot , mis on tema omandis v&otilde;i mille ta on v&otilde;tnud rendile ning mida juhib tema t&ouml;&ouml;taja v&otilde;i veose saaja ise .</s>
+</p>
+<p>
+<s>( 2 ) Rahvusvahelise kokkuleppe alusel v&otilde;ib kombineeritud autovedu korraldava vedaja vabastada k&auml;esoleva seaduse &sect;-s 21 etten&auml;htud veoloa n&otilde;udest .</s>
+</p>
+<p>
+<s>( 3 ) Kombineeritud veol kasutatavas saatedokumendis peavad olema m&auml;rgitud raudteeveoga seotud peale- ja mahalaadimise raudteejaamad v&otilde;i mereveoga seotud peale- ja mahalaadimise sadamad .</s><s>P&auml;rast veo l&otilde;ppemist teeb raudteejaama v&otilde;i sadama esindaja saatedokumenti sellekohase kande .</s>
+</p>
+<p>
+<s>( 4 ) Kombineeritud veol kasutatavate s&otilde;idukite maksusoodustused s&auml;testatakse maksuseadustes .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Autoveo tegevusloa ja s&otilde;idukikaardi taotlemine ning andmine</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Autoveo tegevusloa ja s&otilde;idukikaardi taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Autoveo tegevusloa taotleja esitab tegevusloa andjale j&auml;rgmised dokumendid , mis on :</s>
+</p>
+<p>
+<s>1 ) avaldus ;</s>
+</p>
+<p>
+<s>2 ) &auml;riregistrisse kantud ettev&otilde;tja puhul registrikaardi &auml;rakiri v&otilde;i seaduse alusel teise registrisse kantud isiku puhul selle registri v&auml;ljav&otilde;te ;</s>
+</p>
+<p>
+<s>3 ) asutatava &auml;ri&uuml;hingu asutamislepingu notariaalselt t&otilde;estatud &auml;rakiri ;</s>
+</p>
+<p>
+<s>4 ) p&otilde;hikiri v&otilde;i &uuml;hinguleping ( v&auml;lja arvatud &auml;riregistrisse kantud ettev&otilde;tja puhul ) ;</s>
+</p>
+<p>
+<s>5 ) tasulise autoveo tegevusloa taotlemiseks k&auml;esoleva seaduse &sect; 6 l&otilde;ikes 2 v&otilde;i 3 nimetatud rahalist seisu t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>6 ) tasulise autoveo tegevusloa taotlemiseks autoveo korraldamise eest vastutava isiku m&auml;&auml;ramist ja tema ametialast p&auml;devust t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>7 ) tasulise rahvusvahelise autoveo tegevusloa taotlemiseks v&auml;hemalt kaheaastase riigisisese tasulise autoveo korraldamist t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>8 ) oma kulul korraldatava rahvusvahelise autoveo tegevusloa taotlemiseks dokument , millega ettev&otilde;tja t&otilde;endab autoveo tuluosa &auml;ritegevuse kogu tulust ;</s>
+</p>
+<p>
+<s>9 ) Maksuameti kohaliku asutuse t&otilde;end maksuv&otilde;lgnevuse puudumise kohta ;</s>
+</p>
+<p>
+<s>10 ) riigil&otilde;ivu tasumise kviitung .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;idukikaardi taotleja esitab s&otilde;idukikaardi andjale j&auml;rgmised dokumendid , mis on :</s>
+</p>
+<p>
+<s>1 ) avaldus ;</s>
+</p>
+<p>
+<s>2 ) esimese s&otilde;idukikaardi taotlemisel &auml;riregistrisse kantud ettev&otilde;tja puhul registrikaardi &auml;rakiri v&otilde;i seaduse alusel teise registrisse kantud isiku puhul selle registri v&auml;ljav&otilde;te ;</s>
+</p>
+<p>
+<s>3 ) tegevusluba ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva seaduse &sect; 6 l&otilde;ikes 4 nimetatud omavahendite olemasolu t&otilde;endavad dokumendid ( v&auml;lja arvatud oma kulul korraldatava rahvusvahelise autoveo puhul ) ;</s>
+</p>
+<p>
+<s>5 ) mootors&otilde;iduki registreerimise tunnistus ;</s>
+</p>
+<p>
+<s>6 ) rahvusvahelisele autoveole lubatud mootors&otilde;iduki tehno&uuml;levaatuse tunnistus ;</s>
+</p>
+<p>
+<s>7 ) renditud mootors&otilde;iduki puhul rendileping ;</s>
+</p>
+<p>
+<s>8 ) Maksuameti kohaliku asutuse t&otilde;end maksuv&otilde;lgnevuse puudumise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Autoveo tegevusloa ja s&otilde;idukikaardi andjale esitatud dokumente ei avaldata kolmandatele isikutele , kui seadusega ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Autoveo tegevusloa ja s&otilde;idukikaardi andja</s>
+</p>
+<p>
+<s>( 1 ) Tasulise riigisisese autoveo tegevusloa ja s&otilde;idukikaardi ning rahvusvahelise autoveo s&otilde;idukikaardi annab taotlejale mittetulundus&uuml;hing , kellega Teede- ja Sideministeerium on riigi nimel s&otilde;lminud sellekohase lepingu .</s><s>Tegevusloa ja s&otilde;idukikaardi andmisega seotud kulud tasub nende saaja .</s>
+</p>
+<p>
+<s>( 2 ) Rahvusvahelise autoveo tegevusloa annab taotlejale Teede- ja Sideministeerium .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa ja s&otilde;idukikaardi andjal on &otilde;igus tegevusloa kehtivuse ajal kontrollida tegevusloa omaniku vastavust k&auml;esoleva seaduse &sect; 5 v&otilde;i 10 n&otilde;uetele .</s><s>Tegevusloa omanik peab kontrollimist v&otilde;imaldama .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Autoveo tegevusloa ja s&otilde;idukikaardi taotluse l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa andja annab tegevusloa v&otilde;i teatab selle taotlejale tegevusloa andmisest keeldumisest kirjalikult 30 kalendrip&auml;eva jooksul p&auml;rast k&auml;esoleva seaduse &sect; 13 l&otilde;ikes 1 nimetatud dokumentide esitamist .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;idukikaardi andja annab s&otilde;idukikaardi v&otilde;i teatab selle taotlejale s&otilde;idukikaardi andmisest keeldumisest kirjalikult 15 kalendrip&auml;eva jooksul p&auml;rast k&auml;esoleva seaduse &sect; 13 l&otilde;ikes 2 nimetatud dokumentide esitamist .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Autoveo tegevusloa andmisest keeldumine</s>
+</p>
+<p>
+<s>Tegevusloa andja keeldub tegevusloa andmisest , kui :</s>
+</p>
+<p>
+<s>1 ) tegevusloa taotleja on maksuv&otilde;lglane , kui talle on v&auml;lja kuulutatud pankrot v&otilde;i kui ettev&otilde;tja eelmise tegevusloa kehtetuks tunnistamise p&otilde;hjus on &otilde;igusnormide rikkumine , millest ei ole m&ouml;&ouml;dunud kahte aastat ;</s>
+</p>
+<p>
+<s>2 ) tegevusloa taotleja ei vasta k&auml;esoleva seaduse &sect;-s 5 v&otilde;i 10 esitatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>3 ) tegevusloa taotlemiseks on esitatud tegelikkusele mittevastavaid andmeid .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Autoveo tegevusloa ja s&otilde;idukikaardi andmed</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloale m&auml;rgitakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) autoveo liik ( riigisisene v&otilde;i rahvusvaheline ) ;</s>
+</p>
+<p>
+<s>2 ) vedaja nimi v&otilde;i &auml;rinimi ning tema registreeritud asukoht ja registrikood ;</s>
+</p>
+<p>
+<s>3 ) tegevusloa number ;</s>
+</p>
+<p>
+<s>4 ) tegevusloa andmise kuup&auml;ev ja selle kehtivusaeg ;</s>
+</p>
+<p>
+<s>5 ) tegevusloa andja nimetus ja pitser ;</s>
+</p>
+<p>
+<s>6 ) tegevusloale alla kirjutava isiku ametinimetus , nimi ja allkiri .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;idukikaardile m&auml;rgitakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) autoveo liik ( riigisisene v&otilde;i rahvusvaheline ) ;</s>
+</p>
+<p>
+<s>2 ) selle vedaja , kelle omandis on v&otilde;i kelle renditud on mootors&otilde;iduk , nimi v&otilde;i &auml;rinimi ja tema registreeritud asukoht ning registrikood ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;idukikaardi number ;</s>
+</p>
+<p>
+<s>4 ) s&otilde;idukikaardi andmise kuup&auml;ev ja selle kehtivusaeg ;</s>
+</p>
+<p>
+<s>5 ) s&otilde;idukikaardi andmise aluseks oleva tegevusloa andja nimetus ja tegevusloa number ;</s>
+</p>
+<p>
+<s>6 ) mootors&otilde;iduki mark ja mudel ning riiklik registreerimism&auml;rk ;</s>
+</p>
+<p>
+<s>7 ) mootors&otilde;iduki omaniku nimi ;</s>
+</p>
+<p>
+<s>8 ) s&otilde;idukikaardi andja nimetus ja pitser ;</s>
+</p>
+<p>
+<s>9 ) s&otilde;idukikaardile alla kirjutava isiku ametinimetus , nimi ja allkiri .</s>
+</p>
+<p>
+<s>( 3 ) Oma kulul korraldatava rahvusvahelise autoveo tegevusloale ja s&otilde;idukikaardile kantakse peale k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud andmete ka tegevusloa ja s&otilde;idukikaardi taotleja tegevusala , millega oma kulul korraldatav autovedu on seotud .</s>
+</p>
+<p>
+<s>( 4 ) Tegevusloa ja s&otilde;idukikaardi vormid kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Autoveo tegevusloa ja s&otilde;idukikaardi kehtivusaeg</s>
+</p>
+<p>
+<s>( 1 ) Tasulise autoveo tegevusluba antakse esmakordselt &uuml;heks aastaks ja j&auml;rgmistel kordadel viieks aastaks , kui tegevusloa taotleja ei soovi seda l&uuml;hemaks ajaks .</s>
+</p>
+<p>
+<s>( 2 ) Oma kulul korraldatava rahvusvahelise autoveo tegevusluba antakse viieks aastaks , kui tegevusloa taotleja ei soovi seda l&uuml;hemaks ajaks .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;idukikaart kehtib &uuml;ksnes tegevusloa kehtivusajal .</s><s>Rendile v&otilde;etud s&otilde;iduki korral kehtib s&otilde;idukikaart tegevusloa kehtivusajal , kuid mitte kauem kui rendilepingu t&auml;htaja l&otilde;puni .</s>
+</p>
+<p>
+<s>( 4 ) Kui tegevusloa v&otilde;i s&otilde;idukikaardi kehtivusaeg on m&ouml;&ouml;dunud , nende kehtivus on peatatud v&otilde;i need on tunnistatud kehtetuks , tuleb dokument selle andjale viie t&ouml;&ouml;p&auml;eva jooksul tagastada .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Autoveo tegevusloa ja s&otilde;idukikaardi kehtivuse peatamine ning nende kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa andja v&otilde;ib selle omanikule teha ettekirjutuse v&otilde;i ta v&otilde;ib tegevusloa v&otilde;i selle alusel antud s&otilde;idukikaardi kehtivuse kindlaksm&auml;&auml;ratud ajaks peatada v&otilde;i tunnistada kehtetuks , kui :</s>
+</p>
+<p>
+<s>1 ) tegevusloa omanik ei vasta enam k&auml;esoleva seaduse &sect;-s 5 v&otilde;i 10 s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) tegevusloa ja s&otilde;idukikaardi omaniku andmed ei vasta tegevusloal ja s&otilde;idukikaardil m&auml;rgitule .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa andja v&otilde;ib tegevusloa kehtivuse peatada v&otilde;i tegevusloa tunnistada kehtetuks ka selle omaniku enda taotlusel .</s>
+</p>
+<p>
+<s>( 3 ) Kui kontrollimise tulemusel selgub , et vedaja majandusseisund ei vasta k&auml;esoleva seaduse &sect;-s 6 s&auml;testatud n&otilde;uetele , kuid tema tegevuse majanduslikud n&auml;itajad t&otilde;endavad , et ta on edaspidi suuteline seda n&otilde;uet t&auml;itma , v&otilde;ib tegevusloa andja j&auml;tta tasulise autoveo tegevusloa kehtivuse peatamata , lubades korraldada autovedu kuni &uuml;ks aasta .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Autoveo korraldamine</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Veoleping</s>
+</p>
+<p>
+<s>( 1 ) Tasuliseks riigisiseseks autoveoks veolepingu s&otilde;lmimist ja saatedokumentide koostamist reguleeritakse teiste &otilde;igusaktidega .</s>
+</p>
+<p>
+<s>( 2 ) Tasulist veose rahvusvahelist autovedu korraldatakse rahvusvahelise kaupade autoveolepingu konventsiooni ( RT II 1995 , 3 , 12 ) kohase veolepingu alusel .</s>
+</p>
+<p>
+<s>( 3 ) Oma kulul korraldataval veose rahvusvahelisel autoveol v&otilde;ib kasutada konventsioonis n&otilde;utust erinevaid saatedokumente , milles peavad olema v&auml;hemalt j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) veose saatja nimi ja aadress ;</s>
+</p>
+<p>
+<s>2 ) veose kirjeldus ja kaal ;</s>
+</p>
+<p>
+<s>3 ) veose vedamiseks vastuv&otilde;tmise koht ja kuup&auml;ev ning veose sihtkoht .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Rahvusvahelisel autoveol vajalik veoluba</s>
+</p>
+<p>
+<s>( 1 ) Rahvusvahelist autovedu korraldaval vedajal peab olema veose siht- ja transiitriigi veoluba , kui rahvusvaheliste kokkulepetega ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Veoluba annab vedajale &otilde;iguse rahvusvaheliseks autoveoks Eesti ja veoloal m&auml;rgitud riigi vahel v&otilde;i l&auml;bi selle riigi territooriumi v&otilde;i veoloal m&auml;rgitud riigi ja kolmanda riigi vahel .</s>
+</p>
+<p>
+<s>( 3 ) Vedajale veoloa andmisel l&auml;htutakse rahvusvahelistest kokkulepetest .</s><s>Veoloa annab k&auml;esoleva seaduse &sect; 14 l&otilde;ike 1 kohaselt m&auml;&auml;ratud mittetulundus&uuml;hing .</s><s>Veoloa andmise ja kasutamise eeskirja kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Autoveo &otilde;igust t&otilde;endavate dokumentide kontrollimiseks esitamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Autojuhil peavad olema ja ta peab esitama teda kontrollivale politseiametnikule v&otilde;i muule teda seaduse alusel kontrollivale ametiisikule j&auml;rgmised dokumendid :</s>
+</p>
+<p>
+<s>1 ) liiklusseadusest ( RT 1992 , 12 , 193 ; RT I 1995 , 2/3 , 3 ; 1996 , 16 , 268 ; 1997 , 86 , 1459 ; 1999 , 16 , 272 ) ja &uuml;histranspordiseadusest tulenevad asjakohased dokumendid ;</s>
+</p>
+<p>
+<s>2 ) autoveo liigile vastav s&otilde;idukikaart ;</s>
+</p>
+<p>
+<s>3 ) rahvusvahelistest kokkulepetest tulenevad asjakohased dokumendid ;</s>
+</p>
+<p>
+<s>4 ) autojuhi ametikoolituse tunnistus ning , olenevalt veo liigist , ohtlikke veoseid vedava autojuhi v&otilde;i alarms&otilde;idukijuhi tunnistus ;</s>
+</p>
+<p>
+<s>5 ) muud veose liigist tulenevad dokumendid .</s>
+</p>
+<p>
+<s>( 2 ) Kui autojuht ja s&otilde;iduki rendile v&otilde;tnud vedaja on eri isikud , peab autojuhil peale k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumentide olema ka t&ouml;&ouml;leping v&otilde;i t&ouml;&ouml;andja kinnitatud v&auml;ljav&otilde;te sellest .</s><s>T&ouml;&ouml;lepingu v&auml;ljav&otilde;ttes peavad olema m&auml;rgitud t&ouml;&ouml;andja ja t&ouml;&ouml;taja nimi , lepingu s&otilde;lmimise kuup&auml;ev ning lepingu kehtivusaeg .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Eeskirjad</s>
+</p>
+<p>
+<s>Teede- ja sideministril on &otilde;igus kehtestada :</s>
+</p>
+<p>
+<s>1 ) eri liiki veoste veoeeskirju ;</s>
+</p>
+<p>
+<s>2 ) veose laadimise ja kinnitamise eeskirja .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Hinnad ja tariifid</s>
+</p>
+<p>
+<s>Autoveo hinnad ja tariifid veose kohaletoimetamiseks m&auml;&auml;ratakse kindlaks poolte kokkuleppel .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>S&otilde;idukile esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Autoveol kasutatava s&otilde;iduki tehnoseisund peab vastama liiklusseaduses s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Autoveol kasutatav auto ja haagis peavad olema kantud Eesti riiklikku autoregistrisse .</s><s>Tasulisel rahvusvahelisel autoveol v&otilde;ib kasutada teises riigis registreeritud haagist .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Riigis ajutiselt oleva autoga riigisisese autoveo korraldamise keeld</s>
+</p>
+<p>
+<s>Riigis ajutiselt oleva v&auml;lisriigis registreeritud autoga on keelatud korraldada riigisisest vedu , kui rahvusvahelistes kokkulepetes ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Autojuhi ametikoolitus</s>
+</p>
+<p>
+<s>( 1 ) Autojuht , kes on l&auml;binud ametikoolituse kursuse Teede- ja Sideministeeriumi tunnustatud &otilde;ppeasutuses ja sooritanud selle kursuse l&otilde;pueksami , v&otilde;ib riigisisesel v&otilde;i rahvusvahelisel autoveol t&ouml;&ouml;tada lepingu alusel v&otilde;i osutada tasulist veoteenust f&uuml;&uuml;silisest isikust ettev&otilde;tjana j&auml;rgmistel juhtudel :</s>
+</p>
+<p>
+<s>1 ) veose veol C- v&otilde;i C1-kategooria auto v&otilde;i CE- v&otilde;i C1E-kategooria autorongiga , mille registrimass &uuml;letab 3500 kilogrammi ;</s>
+</p>
+<p>
+<s>2 ) s&otilde;itjate veol bussi ja s&otilde;iduautoga , kui s&otilde;idukis on koos juhikohaga &uuml;le viie istekoha ;</s>
+</p>
+<p>
+<s>3 ) s&otilde;itjate taksoveol .</s>
+</p>
+<p>
+<s>( 2 ) Autojuht , kes veab ohtlikke veoseid v&otilde;i juhib alarms&otilde;idukit t&ouml;&ouml;lepingu alusel v&otilde;i t&ouml;&ouml;&uuml;lesandest tulenevalt , peab olema l&auml;binud sellekohase koolituskursuse Teede- ja Sideministeeriumi tunnustatud &otilde;ppeasutuses ja sooritanud selle kursuse l&otilde;pueksami .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Autojuhile kohaldatavate kutseoskusn&otilde;uete kehtestamine</s>
+</p>
+<p>
+<s>Autojuhi ametikoolituse ning ohtlikke veoseid vedava autojuhi ja alarms&otilde;idukijuhi koolituse eeskirjad , koolituskursuse &otilde;ppekavad , autojuhi kutseoskusn&otilde;uded ja koolitustunnistuse vormi kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vastutus ja j&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Vastutus k&auml;esoleva seaduse rikkumise eest</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uete rikkumise eest kohaldatakse seadustega s&auml;testatud vastutust .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>( 1 ) Juriidilisele isikule , kes korraldab autovedu tegevusloa v&otilde;i s&otilde;idukikaardita , - m&auml;&auml;ratakse rahatrahv 10 000 kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud haldus&otilde;iguserikkumise asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus on halduskohtunikul .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud haldus&otilde;iguserikkumise kohta on &otilde;igus protokolli koostada politsei- , tolli- v&otilde;i piirivalveametnikul .</s>
+</p>
+<p>
+<s>( 4 ) Haldus&otilde;iguserikkumise protokollis n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) protokolli koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) asutuse nimetus ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ametinimetus ning ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkuja nimi ja aadress ning tema esindaja ametikoht , ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>5 ) haldus&otilde;iguserikkumise aeg ja koht ning &otilde;iguserikkumise kirjeldus ;</s>
+</p>
+<p>
+<s>6 ) viide k&auml;esoleva paragrahvi l&otilde;ikele 1 , mis n&auml;eb ette vastutuse selle haldus&otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>7 ) haldus&otilde;iguserikkumist t&otilde;endavad materjalid nagu tunnistajate seletused ja teised asja lahendamiseks vajalikud andmed ;</s>
+</p>
+<p>
+<s>8 ) haldus&otilde;iguserikkuja esindaja seletus .</s>
+</p>
+<p>
+<s>( 5 ) Protokollile kirjutavad alla selle koostanud ametiisik ja &otilde;iguserikkuja esindaja .</s><s>Kui haldus&otilde;iguserikkuja esindaja keeldub protokollile alla kirjutamast , teeb protokolli koostaja selle kohta protokolli kande .</s><s>Protokollile lisatakse haldus&otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli kohta ning protokollile allakirjutamisest keeldumise motiivid .</s>
+</p>
+<p>
+<s>( 6 ) Menetlus k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud haldus&otilde;iguserikkumise asjas , kaasa arvatud karistuse m&auml;&auml;ramine ja vaidlustamine ning j&otilde;ustunud halduskaristuse otsuse t&auml;itmine toimub haldus&otilde;iguserikkumiste seadustikus ja t&auml;itemenetluse seadustikus ( RT I 1993 , 49 , 693 ; RT I 2001 , 29 , 156 ; 43 , 238 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 7 ) Juriidilisele isikule karistuse m&auml;&auml;ramine ei vabasta haldus&otilde;iguserikkumise toime pannud ametiisikut vastutusest .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>J&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses etten&auml;htud dokumente v&otilde;ivad kontrollida asjaomased ametiisikud j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) politseiametnik s&otilde;idukikaarti , autojuhi ametikoolituse tunnistust , ohtlikke veoseid vedava autojuhi tunnistust ja alarms&otilde;idukijuhi tunnistust ning v&auml;lisriigi autojuhilt veoluba ;</s>
+</p>
+<p>
+<s>2 ) tolliametnik v&auml;lisriigi autojuhilt veoluba ;</s>
+</p>
+<p>
+<s>3 ) piirivalveametnik rahvusvahelise tehno&uuml;levaatuse tunnistust ja rahvusvahelise autoveo s&otilde;idukikaarti .</s>
+</p>
+<p>
+<s>( 2 ) Kui autojuhil ei ole s&otilde;idukikaarti v&otilde;i rahvusvahelise tehno&uuml;levaatuse tunnistust ja v&auml;lisriigi autojuhil veoluba , on k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud ametiisikutel &otilde;igus vedu katkestada kuni katkestamist p&otilde;hjustanud asjaolude &auml;ralangemiseni .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eris&auml;tted</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Andmete esitamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 14 nimetatud autoveo tegevusloa ja s&otilde;idukikaardi andja on kohustatud Riiklikule Statistikaametile esitama veoliikide kaupa andmed tegevuslubade ja s&otilde;idukikaartide andmise kohta poolaasta seisuga .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 31 l&otilde;ikes 1 nimetatud ametiisikud on kohustatud esitama Teede- ja Sideministeeriumile poolaasta seisuga andmed k&auml;esoleva seaduse n&otilde;uete rikkumise kohta Eestis ja teistes riikides registreeritud vedajate poolt .</s>
+</p>
+<p>
+<s>( 3 ) Teede- ja Sideministeerium on kohustatud teise riigi asjaomasele asutusele tegema teatavaks rahvusvaheliste autoveokokkulepete n&otilde;uete rikkumise , mille on Eestis toime pannud selle riigi vedaja .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Riigil&otilde;ivuseaduse muutmine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseaduse ( RT I 1997 , 80 , 1344 ; RT I 2001 , 55 , 331 ; 56 , 332 ; 64 , 367 ; 65 , 377 ; 85 , 512 ; 88 , 531 ; 91 , 543 ; 93 , 565 ; 2002 , 1 , 1 ; 18 , 97 ; 23 , 131 ; 24 , 135 ; 27 , 151 ja 153 ; 30 , 178 ) &sect; 183 t&auml;iendatakse l&otilde;igetega 3 <hi rend="sup">13</hi> ja 3 <hi rend="sup">14</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 <hi rend="sup">13</hi> ) Tasulise rahvusvahelise autoveo tegevusloa v&auml;ljastamise eest tasutakse riigil&otilde;ivu 3000 krooni .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">14</hi> ) Oma kulul korraldatava rahvusvahelise autoveo tegevusloa v&auml;ljastamise eest tasutakse riigil&otilde;ivu 2000 krooni . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Haldus&otilde;iguserikkumiste seadustiku muutmine</s>
+</p>
+<p>
+<s>Haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 and 526 ; 97 , 605 ; 102 , 677 ; 2002 , 18 , 98 ; 21 , 117 ; 29 , 174 ja 175 ; 30 , 176 ; 32 , 189 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) seadustikku t&auml;iendatakse &sect;-dega 120 <hi rend="sup">2</hi> ja 120 <hi rend="sup">3</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 120 <hi rend="sup">2</hi> .</s><s>Autoveo korraldamine tegevusloa v&otilde;i s&otilde;idukikaardita</s>
+</p>
+<p>
+<s>( 1 ) Tasulise riigisisese v&otilde;i rahvusvahelise autoveo korraldamise eest tegevusloa v&otilde;i s&otilde;idukikaardita - m&auml;&auml;ratakse rahatrahv saja kuni kahesaja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Oma kulul rahvusvahelise autoveo korraldamise eest tegevusloa v&otilde;i s&otilde;idukikaardita - m&auml;&auml;ratakse rahatrahv k&uuml;mne kuni viiek&uuml;mne p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>&sect; 120 <hi rend="sup">3</hi> .</s><s>Autovedu s&otilde;idukikaardita</s>
+</p>
+<p>
+<s>Mootors&otilde;idukijuhile , kes osutab s&otilde;idukikaardita tasulist autoveoteenust v&otilde;i teeb oma kulul korraldatavat autovedu s&otilde;idukikaardita - m&auml;&auml;ratakse rahatrahv kahek&uuml;mne kuni saja p&auml;evapalga ulatuses . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 189 l&otilde;iget 1 t&auml;iendatakse p&auml;rast arvu &ldquo; 120 <hi rend="sup">1</hi> , &rdquo; arvudega &ldquo; 120 <hi rend="sup">2</hi> , 120 <hi rend="sup">3</hi> , &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>&Uuml;leminekus&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) Kuni 2001. aasta 1. oktoobrini antavad rahvusvahelise autoveo tegevusload ja s&otilde;idukikaardid kehtivad neil m&auml;rgitud kehtivusaja l&otilde;puni , kuid mitte kauem kui 2002. aasta 1. oktoobrini .</s>
+</p>
+<p>
+<s>( 2 ) Kuni 2002. aasta 1. oktoobrini on rahvusvahelisel autoveol omavahendite n&otilde;utav suurus 48 000 krooni iga kasutatava mootors&otilde;iduki kohta .</s>
+</p>
+<p>
+<s>( 3 ) Enne k&auml;esoleva seaduse j&otilde;ustumist antud rahvusvahelise autoveo tegevusloa aluseks olev ametialast p&auml;devust t&otilde;endav koolitustunnistus kehtib 2003. aasta 1. jaanuarini .</s>
+</p>
+<p>
+<s>( 4 ) Enne k&auml;esoleva seaduse j&otilde;ustumist antud autojuhi rahvusvahelise autoveo koolitustunnistus j&auml;&auml;b kehtima .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2000. aasta 1. oktoobril .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-s 4 s&auml;testatud n&otilde;ue korraldada tasulist riigisisest ja rahvusvahelist autovedu tegevusloa ja s&otilde;idukikaardi alusel ning &sect; 9 l&otilde;ikes 2 s&auml;testatud n&otilde;ue korraldada oma kulul rahvusvahelist autovedu tegevusloa ja s&otilde;idukikaardi alusel j&otilde;ustuvad 2001. aasta 1. oktoobril .</s>
+</p>
+<p>
+<s>( 3 ) Tasulisel riigisisesel autoveol kohaldatakse k&auml;esoleva seaduse &sect; 6 l&otilde;ikes 4 s&auml;testatud omavahendite suuruse n&otilde;uet alates :</s>
+</p>
+<p>
+<s>1 ) 2001. aasta 1. oktoobrist 30 protsendi ulatuses &sect; 6 l&otilde;ikes 4 etten&auml;htud suurusest ;</s>
+</p>
+<p>
+<s>2 ) 2002. aasta 1. oktoobrist 100 protsendi ulatuses &sect; 6 l&otilde;ikes 4 etten&auml;htud suurusest .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 6 l&otilde;ikes 4 s&auml;testatud omavahendite suuruse n&otilde;uet kohaldatakse tasulisel rahvusvahelisel autoveol alates 2002. aasta 1. oktoobrist .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva seaduse &sect; 7 l&otilde;ikes 1 s&auml;testatud ametialase p&auml;devuse n&otilde;uet kohaldatakse tasulisel autoveol alates 2001. aasta 1. oktoobrist .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva seaduse &sect;-des 27 ja 28 s&auml;testatud alarms&otilde;idukijuhi koolituse n&otilde;uet ning &sect;-s 22 s&auml;testatud kohustust koolitustunnistuse kontrollimiseks esitamise kohta kohaldatakse t&ouml;&ouml;le v&otilde;etava alarms&otilde;idukijuhi suhtes alates 2001. aasta 1. juulist ja t&ouml;&ouml;tava alarms&otilde;idukijuhi suhtes alates 2003. aasta 1. jaanuarist .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva seaduse &sect;-des 27 ja 28 s&auml;testatud riigisisese autoveo autojuhi ametikoolituse tunnistuse n&otilde;uet ning &sect;-s 22 s&auml;testatud kohustust koolitustunnistuse kontrollimiseks esitamise kohta kohaldatakse alates 2005. aasta 1. jaanuarist .</s><s>Alates 2002. aasta 1. juulist on vedajal keelatud v&otilde;tta t&ouml;&ouml;le t&ouml;&ouml;lepingu alusel autojuhti , kes ei ole k&auml;esoleva seaduse &sect;-s 27 s&auml;testatud n&otilde;uete kohast koolitust l&auml;binud .</s>
+</p>
+</body>
+   </text>
+</tei.2>

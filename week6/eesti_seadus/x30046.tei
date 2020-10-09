@@ -1,0 +1,693 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Elektriohutusseadus ( dets 1999 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3492</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Elektriohutusseadus ( dets 1999 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=196></tagusage>
+         <tagusage gi=s occurs=236></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Elektriohutusseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 23. veebruaril 1999. a ,</s>
+</p>
+<p>
+<s>( RT I 1999 , 29 , 403 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. mail 1999. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab elektriseadmete , -paigaldiste ja -t&ouml;&ouml;de ning elektromagnetilise &uuml;hilduvuse &uuml;ldn&otilde;uded ning nende n&otilde;uete t&auml;itmise &uuml;le riikliku j&auml;relevalve teostamise korra .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Elektriseade ja elektripaigaldis</s>
+</p>
+<p>
+<s>( 1 ) Elektriseade k&auml;esoleva seaduse m&otilde;istes on elektrienergia tootmiseks , muundamiseks , edastamiseks , jaotamiseks v&otilde;i kasutamiseks m&otilde;eldud elektrilisi v&otilde;i elektroonilisi komponente sisaldav seade v&otilde;i tarvik .</s>
+</p>
+<p>
+<s>( 2 ) Elektripaigaldis k&auml;esoleva seaduse m&otilde;istes on elektriseadmete , -juhtide ja -tarvikute paigaldatud talitluslik kogum .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Elektriohutusn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Elektriohutusn&otilde;uded k&auml;esoleva seaduse m&otilde;istes on tehnilised ja administratiivsed n&otilde;uded , mille eesm&auml;rk on tagada vajalik elektriohutustase .</s>
+</p>
+<p>
+<s>( 2 ) Elektriseadet ja -paigaldist tuleb kavandada , valmistada , paigaldada , kasutada , hooldada , remontida , &uuml;mber ehitada , katsetada ja kontrollida nii , et see :</s>
+</p>
+<p>
+<s>1 ) ei ohustaks elu , tervist , vara ega keskkonda ;</s>
+</p>
+<p>
+<s>2 ) ei tekitaks elektrilisi ega elektromagnetilisi h&auml;ireid ;</s>
+</p>
+<p>
+<s>3 ) oleks h&auml;irekindel .</s>
+</p>
+<p>
+<s>( 3 ) Eri elektriseadmetele ja -paigaldistele esitatavad elektriohutusn&otilde;uded kehtestatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Elektrit&ouml;&ouml;d</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Elektrit&ouml;&ouml;</s>
+</p>
+<p>
+<s>( 1 ) Elektrit&ouml;&ouml; on elektriseadme remontimine ja hooldamine ning elektripaigaldise projekteerimine , ehitamine , kontrollimine , katsetamine , remontimine ja hooldamine .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas peat&uuml;kis s&auml;testatud n&otilde;uded ei laiene elektripaigaldise k&auml;idule , kui tegemist ei ole k&auml;esoleva seaduse &sect; 9 l&otilde;ikes 2 nimetatud paigaldise k&auml;iduga ega k&auml;iduteenuse osutamisega teise isiku valduses olevas paigaldises .</s>
+</p>
+<p>
+<s>( 3 ) Elektrit&ouml;id tegev ettev&otilde;tja peab esitama Tehnilise J&auml;relevalve Inspektsioonile teatise elektrit&ouml;&ouml;dega tegelema hakkamisel , esitatavate andmete muutumisel ja perioodiliselt igal aastal .</s><s>Teatise esitamine ei ole n&otilde;utav lihtsamate elektrit&ouml;&ouml;de puhul .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud lihtsamate elektrit&ouml;&ouml;de loetelu , teatises esitatavate andmete loetelu ja teatise esitamise kord kehtestatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Elektrit&ouml;id juhtiv isik</s>
+</p>
+<p>
+<s>( 1 ) Elektrit&ouml;id peab juhtima vastavat p&auml;devustunnistust omav isik .</s><s>Elektrit&ouml;id juhtiva isiku olemasolu ei ole n&otilde;utav k&auml;esoleva seaduse &sect; 4 l&otilde;ikes 3 nimetatud lihtsamate elektrit&ouml;&ouml;de puhul .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;devustunnistuse saamise eelduseks olevad n&otilde;uded eri elektrit&ouml;id juhtivate isikute eriharidusele , t&ouml;&ouml;kogemusele ja elektriohutusn&otilde;uete tundmisele , samuti p&auml;devuse hindamise kord kehtestatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Isiku vastavust k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud n&otilde;uetele hindab ja p&auml;devustunnistuse v&auml;ljastab selleks volitatud t&otilde;endamisasutus .</s>
+</p>
+<p>
+<s>( 4 ) Elektrit&ouml;id juhtiv isik peab tagama , et :</s>
+</p>
+<p>
+<s>1 ) elektrit&ouml;&ouml;del j&auml;rgitakse elektriohutusn&otilde;udeid ;</s>
+</p>
+<p>
+<s>2 ) elektrit&ouml;id teostab nendeks t&ouml;&ouml;deks piisavat elektriohutusalast ettevalmistust omav isik ;</s>
+</p>
+<p>
+<s>3 ) elektrit&ouml;&ouml; tegijat juhendatakse k&uuml;llaldaselt &uuml;lesannete n&otilde;uetekohaseks t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>4 ) elektrit&ouml;&ouml; tegija k&auml;sutuses on n&otilde;utav dokumentatsioon ja t&ouml;&ouml;de ohutuks teostamiseks vajalikud vahendid ;</s>
+</p>
+<p>
+<s>5 ) n&otilde;utav dokumentatsioon koostatakse ja esitatakse &otilde;igeaegselt .</s>
+</p>
+<p>
+<s>( 5 ) Elektrit&ouml;id juhtiv isik peab olema k&auml;ttesaadav ohutuse tagamiseks ja j&auml;relevalvetoimingute l&auml;biviimiseks .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Elektriseadmed</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>N&otilde;uded elektriseadme tarnimisel</s>
+</p>
+<p>
+<s>( 1 ) Keelatud on importida , m&uuml;&uuml;a v&otilde;i muul viisil Eestis kasutamiseks teisele isikule &uuml;le anda elektriseadet , mis ei vasta k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Elektriseadme valmistaja v&otilde;i importija peab olema v&otilde;imeline t&otilde;endama , et elektriseadmena Eestis kasutamiseks toodetud v&otilde;i imporditud seade vastab k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele .</s><s>Kui valmistajat v&otilde;i importijat pole v&otilde;imalik tuvastada , peab isik , kes paigaldab , m&uuml;&uuml;b v&otilde;i muul viisil annab teisele isikule &uuml;le elektriseadme Eestis kasutamiseks , olema v&otilde;imeline t&otilde;endama , et seade vastab k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Elektriseadmete loetelu , mille m&uuml;&uuml;mise , importimise v&otilde;i muul viisil teisele isikule elektriseadmena Eestis kasutamiseks &uuml;leandmise puhul on n&otilde;utav nende seadmete eelnev n&otilde;uetekohasuse hindamine ja t&otilde;endamine selleks tegevuseks volitatud t&otilde;endamisasutuse poolt , kehtestatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kasutatud elektriseadme m&uuml;&uuml;k ja &uuml;leandmine</s>
+</p>
+<p>
+<s>( 1 ) Kasutatud elektriseadme m&uuml;&uuml;ja v&otilde;i kasutusse andja peab enne selle m&uuml;&uuml;ki v&otilde;i muul viisil teisele isikule elektriseadmena Eestis kasutamiseks &uuml;leandmist ja elektriseadme remontija enne selle remondij&auml;rgset &uuml;leandmist veenduma , et seade vastab k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Juhul kui remontija tuvastab , et remonditud seade ei vasta k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele , peab ta sellest teatama isikule , kellele seade p&auml;rast remonti &uuml;le antakse .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Elektripaigaldised</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Elektripaigaldise kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Elektripaigaldis v&otilde;i selle osa loetakse kasutuselev&otilde;etuks hetkest , mil elektripaigaldis v&otilde;i selle osa pingestatakse .</s>
+</p>
+<p>
+<s>( 2 ) Elektripaigaldise kasutuselev&otilde;tuks ei loeta j&auml;relevalve all toimuvat pingestamist , mis on vajalik seadmestiku katsetamiseks v&otilde;i kasutuselev&otilde;tukontrolli teostamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on kasutada v&otilde;i kasutamise eesm&auml;rgil paigaldada elektriseadet v&otilde;i -paigaldist , mis ei vasta k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Elektripaigaldise kasutuselev&otilde;tukontroll ja n&otilde;uetekohasuse t&otilde;endamine</s>
+</p>
+<p>
+<s>( 1 ) Ehitatud v&otilde;i &uuml;mberehitatud elektripaigaldise v&otilde;i selle osa v&otilde;ib v&otilde;tta kasutusele p&auml;rast paigaldises elektrit&ouml;id teinud ettev&otilde;tja poolt korraldatud kasutuselev&otilde;tukontrolli , mille k&auml;igus veendutakse , et paigaldis vastab k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Elektripaigaldisi , mille kasutamisega kaasnevad k&otilde;rgemad ohud , ei tohi v&otilde;tta kasutusele enne nende n&otilde;uetekohasuse hindamist ja t&otilde;endamist .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud n&otilde;uetekohasuse hindamisel ja t&otilde;endamisel hinnatakse paigaldise ning selle ehitamise v&otilde;i &uuml;mberehitamise ja kasutuselev&otilde;tukontrolli vastavust elektriohutusn&otilde;uetele .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud elektripaigaldiste loetelu , mille puhul n&otilde;uetekohasust hindab ja t&otilde;endab volitatud t&otilde;endamisasutus , ja loetelu , mille puhul n&otilde;uetekohasust hindab ja t&otilde;endab lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja , kehtestatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Teatis elektripaigaldise kasutuselev&otilde;tu kohta ja elektripaigaldiste register</s>
+</p>
+<p>
+<s>( 1 ) Ehitatud v&otilde;i &uuml;mberehitatud elektripaigaldise esmakordse kasutuselev&otilde;tu kohta peab elektripaigaldise valdaja esitama teatise sellele v&otilde;rguettev&otilde;tjale v&otilde;i elektrienergia tootjale , kelle tegevuspiirkonnas elektripaigaldis asub .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 9 l&otilde;ikes 2 nimetatud elektripaigaldise kohta , mille suhtes viidi l&auml;bi n&otilde;uetekohasuse hindamine , peab vastavalt kas volitatud t&otilde;endamisasutus v&otilde;i lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja esitama teatise Tehnilise J&auml;relevalve Inspektsioonile .</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;rguettev&otilde;tjad ja elektrienergia tootjad peavad oma tegevuspiirkonnas asuvate elektripaigaldiste registrit .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 etten&auml;htud teatise esitamise ja l&otilde;ikes 3 nimetatud registrite pidamise kord kehtestatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Elektripaigaldise k&auml;it ja k&auml;idukorraldaja</s>
+</p>
+<p>
+<s>( 1 ) Elektripaigaldise k&auml;it on elektripaigaldise igap&auml;evase k&auml;igus hoidmisega seotud tegevus nagu kasutamine , kontrollimine ja hooldamine .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;idukorraldaja on elektripaigaldise k&auml;itu vahetult korraldav isik .</s>
+</p>
+<p>
+<s>( 3 ) Igas elektripaigaldises peab paigaldise valdaja tagama k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uete , sealhulgas k&auml;esoleva paragrahvi l&otilde;igetes 7 ja 8 s&auml;testatud k&auml;idukorraldaja &uuml;lesannete t&auml;itmise .</s>
+</p>
+<p>
+<s>( 4 ) Elektripaigaldise valdaja v&otilde;ib m&auml;&auml;rata elektripaigaldisele k&auml;idukorraldaja .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva seaduse &sect; 9 l&otilde;ikes 2 nimetatud elektripaigaldisele peab selle valdaja m&auml;&auml;rama k&auml;idukorraldaja , kelleks peab olema k&auml;esoleva seaduse &sect;-s 5 nimetatud p&auml;devustunnistust omav isik .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;idukorraldaja m&auml;&auml;ramisel l&auml;hevad talle &uuml;le k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud kohustused .</s><s>Elektripaigaldise valdaja peab tagama k&auml;idukorraldajale v&otilde;imaluse t&auml;ita k&otilde;iki k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;idukorraldaja &uuml;lesanne on elektripaigaldise k&auml;idul tagada , et :</s>
+</p>
+<p>
+<s>1 ) j&auml;rgitakse k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;udeid ;</s>
+</p>
+<p>
+<s>2 ) ei kasutata elektriseadet ja -paigaldist , mis ei vasta elektriohutusn&otilde;uetele ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;id teostab nendeks t&ouml;&ouml;deks piisavat elektriohutusalast ettevalmistust omav isik ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml; tegijat juhendatakse k&uuml;llaldaselt &uuml;lesannete n&otilde;uetekohaseks t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>5 ) elektripaigaldises on t&ouml;&ouml; tegija k&auml;sutuses vajalik dokumentatsioon ja t&ouml;&ouml;de ohutuks teostamiseks vajalikud vahendid ;</s>
+</p>
+<p>
+<s>6 ) korrap&auml;rast hooldust n&otilde;udva elektripaigaldise v&otilde;i -seadme kohta on hoolduskava ning seda j&auml;rgitakse ;</s>
+</p>
+<p>
+<s>7 ) elektripaigaldise korralist kontrolli teostatakse &otilde;igeaegselt ;</s>
+</p>
+<p>
+<s>8 ) elule , tervisele v&otilde;i varale ohu ilmnemisel peatatakse elektriseadme v&otilde;i -paigaldise kasutamine v&otilde;i t&ouml;&ouml; kuni ohu m&ouml;&ouml;dumise v&otilde;i k&otilde;rvaldamiseni .</s>
+</p>
+<p>
+<s>( 8 ) K&auml;idukorraldaja peab olema k&auml;ttesaadav ohutuse tagamiseks ja j&auml;relevalvetoimingute l&auml;biviimiseks .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Elektripaigaldise korraline kontroll</s>
+</p>
+<p>
+<s>( 1 ) Elektripaigaldise elektriohutusalase korralise kontrolli l&auml;biviimise peab korraldama elektripaigaldise valdaja v&otilde;i tema m&auml;&auml;ratud k&auml;idukorraldaja .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 9 l&otilde;ikes 2 nimetatud elektripaigaldistes teostab korralist kontrolli vastavalt kas volitatud t&otilde;endamisasutus v&otilde;i lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja .</s>
+</p>
+<p>
+<s>( 3 ) Elektripaigaldiste korralise kontrolli l&auml;biviimise kord kehtestatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>H&auml;ired , ohud ja &uuml;mberehitused</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>H&auml;ired ja ohud</s>
+</p>
+<p>
+<s>( 1 ) Juhul kui elektripaigaldis p&otilde;hjustab h&auml;ireid v&otilde;i ohtu teisele elektripaigaldisele v&otilde;i selle k&auml;idule v&otilde;i teise paigaldise vahendusel kolmandale elektripaigaldisele , kusjuures nii h&auml;iriv kui h&auml;iritav elektripaigaldis on n&otilde;uetekohase tehnilise lahendusega ja vastab k&auml;esoleva seaduse &sect;-s 3 s&auml;testatud n&otilde;uetele , peab hiljem valminud elektripaigaldise omanik tegema oma elektripaigaldises h&auml;irete ja ohu v&auml;ltimiseks vajalikud &uuml;mberehitust&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>( 2 ) Juhul kui h&auml;irete v&otilde;i ohu k&otilde;rvaldamine on lihtsam ja odavam varem valminud elektripaigaldise tehnilist struktuuri muutes v&otilde;i t&auml;iendades ning seda on v&otilde;imalik teha paigaldise t&ouml;&ouml;d oluliselt h&auml;irimata , peab varem valminud paigaldise omanik tegema oma paigaldises h&auml;irete ja ohu v&auml;ltimiseks vajalikud &uuml;mberehitust&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>( 3 ) Kahest elektripaigaldisest v&otilde;i selle osast loetakse hiljem valminuks see , mis on liidetud elektriv&otilde;rguga hiljem .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>&Uuml;mberehitusega kaasnevad kulud</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect;-s 13 s&auml;testatud juhtudel peab hiljem valminud elektripaigaldise omanik h&uuml;vitama varem valminud paigaldise omanikule &uuml;mberehitusega tekkinud kulud .</s><s>Kulude m&auml;&auml;ramisel tuleb arvestada &uuml;mberehituse tulemusena varem valminud paigaldise omanikule paigaldise toimev&otilde;ime v&otilde;i k&auml;idukulude suuruse muutumisest tekkinud kasu v&otilde;i kahju .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uete t&auml;itmise &uuml;le teostab riiklikku j&auml;relevalvet Tehnilise J&auml;relevalve Inspektsioon ( edaspidi inspektsioon ) .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Inspektsiooni elektriohutusj&auml;relevalvealane p&auml;devus</s>
+</p>
+<p>
+<s>Inspektsiooni p&auml;devusse kuulub :</s>
+</p>
+<p>
+<s>1 ) elektriseadmete ja -paigaldiste elektriohutusn&otilde;uetele vastavuse j&auml;relevalve ;</s>
+</p>
+<p>
+<s>2 ) elektrit&ouml;&ouml;de k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele vastavuse j&auml;relevalve ;</s>
+</p>
+<p>
+<s>3 ) elektrit&ouml;&ouml;de ettev&otilde;tjale k&auml;esoleva seaduse &sect;-s 22 s&auml;testatud lisakontrolli&otilde;iguse andmine ja t&uuml;histamine ;</s>
+</p>
+<p>
+<s>4 ) j&auml;relevalve volitatud t&otilde;endamisasutuse ja lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja elektriohutusalase hindamis- , t&otilde;endamis- ja kontrollitegevuse &uuml;le ;</s>
+</p>
+<p>
+<s>5 ) elektri&otilde;nnetuste tekkep&otilde;hjuste v&auml;ljaselgitamine .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Inspektsiooni &otilde;igused ja kohustused elektriohutusj&auml;relevalve teostamisel</s>
+</p>
+<p>
+<s>( 1 ) Inspektsioonil on &otilde;igus saada riigiasutustelt elektriohutusalase j&auml;relevalve teostamiseks vajalikku teavet .</s>
+</p>
+<p>
+<s>( 2 ) Inspektsioon teeb majandusministrile ettepaneku volitatud t&otilde;endamisasutuse volituste ulatuse piiramiseks v&otilde;i volituste kehtetuks tunnistamiseks , kui volitatud t&otilde;endamisasutus ei vasta talle esitatavatele k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele v&otilde;i ei t&auml;ida oma hindamis- ja t&otilde;endamistegevuses talle esitatavaid n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 3 ) Inspektsiooni elektriohutusalast j&auml;relevalvet teostaval ametnikul on k&auml;esoleva seaduse alusel inspektsiooni p&auml;devusse kuuluvates k&uuml;simustes &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) siseneda kontrollimise eesm&auml;rgil elektriseadmete ja -paigaldiste valmistamis- , paigaldus- , remondi- , hooldus- , ladustamis- ja m&uuml;&uuml;gikohale ning elektripaigaldiste asukohta ;</s>
+</p>
+<p>
+<s>2 ) saada elektriseadme v&otilde;i -paigaldise valdajalt , elektrit&ouml;&ouml;de ettev&otilde;tjalt , elektriseadme valmistajalt , elektriseadme importijalt , volitatud t&otilde;endamisasutuselt v&otilde;i lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tjalt j&auml;relevalve teostamiseks vajalikku teavet ;</s>
+</p>
+<p>
+<s>3 ) teha ettekirjutusi k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uete rikkumise l&otilde;petamiseks , sealhulgas n&otilde;uda k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele mittevastava elektriseadme v&otilde;i -paigaldise kasutamise peatamist , m&auml;&auml;rates &uuml;htlasi t&auml;htaja ettekirjutuse t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 4 ) Inspektsiooni peadirektoril ja tema aset&auml;itjal on k&auml;esoleva seaduse alusel inspektsiooni p&auml;devusse kuuluvates k&uuml;simustes &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) kohustada seadme valmistajat , importijat v&otilde;i m&uuml;&uuml;jat teatama avalikkusele seadmega seotud ohtudest v&otilde;i edastada selline teade valmistaja , importija v&otilde;i m&uuml;&uuml;ja kulul ;</s>
+</p>
+<p>
+<s>2 ) keelata f&uuml;&uuml;silise isiku tegutsemine k&auml;esoleva seaduse &sect;-s 5 nimetatud elektrit&ouml;id juhtiva isikuna , kui see isik korduvalt rikub k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;udeid , olenevalt rikkumise raskusastmest kuni kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 5 ) Inspektsiooni elektriohutusalast j&auml;relevalvet teostav ametnik on kohustatud oma t&ouml;&ouml;&uuml;lesannete t&auml;itmisel esitama ametit&otilde;endi .</s>
+</p>
+<p>
+<s>( 6 ) Inspektsiooni elektriohutusalast j&auml;relevalvet teostav ametnik on kohustatud tagama talle j&auml;relevalve teostamisel teatavaks saanud &auml;ri- ja tehnikaalase teabe saladuses hoidmise , kui seadused ei n&auml;e ette selle avaldamist .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Katseeksemplaride saamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Inspektsiooni elektriohutusj&auml;relevalvet teostaval ametnikul on &otilde;igus tasu eest v&otilde;tta elektriseadme importijalt , valmistajalt v&otilde;i muul viisil Eestis kasutamiseks &uuml;leandjalt vajalik kogus elektriseadmeid katseeksemplarideks , tuvastamaks nende vastavust elektriohutusn&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Inspektsioon v&otilde;ib tellida elektriseadme ohutuse kontrollimiseks hindamisteenuse volitatud t&otilde;endamisasutuselt .</s>
+</p>
+<p>
+<s>( 3 ) Kui tuvastatakse elektriseadme mittevastavus elektriohutusn&otilde;uetele , on elektriseadme importija , valmistaja v&otilde;i muul viisil Eestis kasutamiseks &uuml;leandja kohustatud tagastama k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tasu ja h&uuml;vitama inspektsioonile k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud hindamisteenuse tellimisel tehtud kulutused .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>N&otilde;uetekohasuse hindamine ja t&otilde;endamine</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Volitatud t&otilde;endamisasutus</s>
+</p>
+<p>
+<s>( 1 ) Volitatud t&otilde;endamisasutus on juriidiline isik , kellele majandusminister on andnud &otilde;iguse tegutseda volitatud t&otilde;endamisasutusena .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igus volitatud t&otilde;endamisasutusena tegutsemiseks antakse eraldi igas k&auml;esoleva paragrahvi l&otilde;ike 4 punktides 1-4 loetletud valdkonnas kuni viieks aastaks .</s>
+</p>
+<p>
+<s>( 3 ) Majandusminister annab &otilde;iguse tegutseda volitatud t&otilde;endamisasutusena oma k&auml;skkirjaga vastavasisulise taotluse alusel , kui isik vastab volitatud t&otilde;endamisasutusele esitatavatele k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele .</s><s>K&auml;skkirjas piiritletakse , missuguses ulatuses ja millise kestusega on isikul &otilde;igus tegutseda vastavates valdkondades k&auml;esoleva seaduse alusel volitatud t&otilde;endamisasutusena .</s>
+</p>
+<p>
+<s>( 4 ) &Otilde;igus volitatud t&otilde;endamisasutusena tegutsemiseks antakse eraldi j&auml;rgmistes valdkondades :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 5 l&otilde;ikes 3 nimetatud p&auml;devuse hindamine ja p&auml;devustunnistuse v&auml;ljastamine ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 6 l&otilde;ikes 3 nimetatud elektriseadmete n&otilde;uetekohasuse hindamine ja t&otilde;endamine ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 9 l&otilde;ikes 2 nimetatud elektripaigaldiste n&otilde;uetekohasuse hindamine ja t&otilde;endamine ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 12 l&otilde;ikes 2 nimetatud elektripaigaldistes korralise kontrolli l&auml;biviimine .</s>
+</p>
+<p>
+<s>( 5 ) Volitatud t&otilde;endamisasutus peab vastama j&auml;rgmistele n&otilde;uetele :</s>
+</p>
+<p>
+<s>1 ) olema oma hindamis- ja t&otilde;endamistegevuses erapooletu ;</s>
+</p>
+<p>
+<s>2 ) omama oma hindamis- ja t&otilde;endamistegevuseks vajaliku hariduse ja kogemustega personali , vajalikku tehnilist varustust ning kontrollitegevuse n&otilde;uetekohasust tagavat s&uuml;steemi ;</s>
+</p>
+<p>
+<s>3 ) olema v&otilde;imeline h&uuml;vitama oma tegevusest tuleneda v&otilde;ivaid kahjusid ;</s>
+</p>
+<p>
+<s>4 ) vastama volitatud t&otilde;endamisasutusele k&auml;esoleva paragrahvi l&otilde;ike 4 punktides 1-4 nimetatud kindlas valdkonnas tegutsemiseks kehtestatud lisan&otilde;uetele .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;ike 5 punktis 4 nimetatud lisan&otilde;uded kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 7 ) Hiljemalt kaks kuud enne volituste l&otilde;ppemist v&otilde;ib volitatud t&otilde;endamisasutus esitada taotluse volituste pikendamiseks .</s>
+</p>
+<p>
+<s>( 8 ) Kui volitatud t&otilde;endamisasutus vastab talle esitatavatele k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele , pikendab majandusminister volituste kestust kuni viieks aastaks .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Volitatud t&otilde;endamisasutuse kohustused n&otilde;uetekohasuse hindamisel ja t&otilde;endamisel</s>
+</p>
+<p>
+<s>( 1 ) Kui volitatud t&otilde;endamisasutus tuvastab hinnatava isiku , elektriseadme v&otilde;i -paigaldise v&otilde;i selle k&auml;idu n&otilde;uetekohasuse , v&auml;ljastab ta sellekohase tunnistuse .</s>
+</p>
+<p>
+<s>( 2 ) Volitatud t&otilde;endamisasutus peab p&otilde;hjendama tunnistuse v&auml;ljastamisest keeldumist .</s>
+</p>
+<p>
+<s>( 3 ) Volitatud t&otilde;endamisasutus on kohustatud tagama oma hindamis- ja t&otilde;endamistegevuse k&auml;igus saadud &auml;ri- ja tehnikaalase teabe saladuses hoidmise , kui seadused ei n&auml;e ette selle avaldamist .</s>
+</p>
+<p>
+<s>( 4 ) Kui volitatud t&otilde;endamisasutus avastab n&otilde;uetekohasuse hindamisel , et elektriseade v&otilde;i -paigaldis ohustab otseselt elu , tervist v&otilde;i vara , peab ta sellest viivitamatult teatama elektriseadme v&otilde;i -paigaldise valdajale ja inspektsioonile .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Volitatud t&otilde;endamisasutuse volituste kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Kui volitatud t&otilde;endamisasutus ei vasta talle esitatavatele k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele v&otilde;i ei t&auml;ida oma hindamis- ja t&otilde;endamistegevuses talle esitatavaid n&otilde;udeid , m&auml;&auml;rab majandusminister oma k&auml;skkirjaga t&auml;htaja puuduste k&otilde;rvaldamiseks , piirab volituste ulatust v&otilde;i tunnistab volitused kehtetuks .</s><s>Kui puudused pole m&auml;&auml;ratud t&auml;htajaks k&otilde;rvaldatud , piirab majandusminister volituste ulatust v&otilde;i tunnistab volitused kehtetuks .</s>
+</p>
+<p>
+<s>( 2 ) Volituste kehtetuks tunnistamisel on volitatud t&otilde;endamisasutus kohustatud andma hindamis- ja t&otilde;endamistegevusega seotud dokumentatsiooni &uuml;le majandusministri poolt volitatud isikutele .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;iguse tegutseda lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tjana annab inspektsiooni peadirektor elektrit&ouml;&ouml;de ettev&otilde;tjale oma k&auml;skkirjaga , kui see ettev&otilde;tja vastab kehtestatud n&otilde;uetele , kuni kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 2 ) Lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja peab :</s>
+</p>
+<p>
+<s>1 ) olema oma kontrollitegevuses erapooletu ;</s>
+</p>
+<p>
+<s>2 ) omama oma kontrollitegevuseks vajaliku hariduse ja kogemustega personali , vajalikku tehnilist varustust ning kontrollitegevuse n&otilde;uetekohasust tagavat s&uuml;steemi ;</s>
+</p>
+<p>
+<s>3 ) hoidma saladuses oma tegevuse k&auml;igus saadud &auml;ri- ja tehnikaalast teavet , kui seadused ei n&auml;e ette selle avaldamist ;</s>
+</p>
+<p>
+<s>4 ) teatama , olles oma kontrollitegevuse k&auml;igus tuvastanud , et elektriseade v&otilde;i -paigaldis ohustab otseselt elu , tervist v&otilde;i vara , sellest viivitamatult elektriseadme v&otilde;i -paigaldise valdajale ja inspektsioonile ;</s>
+</p>
+<p>
+<s>5 ) esitama igal aastal inspektsioonile &uuml;levaate oma kontrollitegevusest .</s>
+</p>
+<p>
+<s>( 3 ) Lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja erapooletusele , personalile , tehnilisele varustusele , kontrollitegevuse n&otilde;uetekohasust tagavale s&uuml;steemile ning kontrollitegevuse &uuml;levaatele esitatavad n&otilde;uded kehtestatakse majandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 4 ) Kui lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja tuvastab hinnatava elektripaigaldise v&otilde;i selle k&auml;idu n&otilde;uetekohasuse , v&auml;ljastab ta n&otilde;uetekohasust t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 5 ) Lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja peab p&otilde;hjendama n&otilde;uetekohasust t&otilde;endava dokumendi v&auml;ljastamisest keeldumist .</s>
+</p>
+<p>
+<s>( 6 ) Kui lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tja ei t&auml;ida k&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 nimetatud n&otilde;udeid , annab inspektsiooni peadirektor oma k&auml;skkirjaga t&auml;htaja puuduste k&otilde;rvaldamiseks v&otilde;i t&uuml;histab &otilde;iguse tegutseda lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tjana .</s><s>Kui puudusi ei ole t&auml;htajaks k&otilde;rvaldatud , t&uuml;histab inspektsiooni peadirektor &otilde;iguse tegutseda lisakontrolli&otilde;igusega elektrit&ouml;&ouml;de ettev&otilde;tjana .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vastutus</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>( 1 ) Ettev&otilde;tja poolt elektrit&ouml;&ouml;dega tegelemisest inspektsioonile mitteteatamise v&otilde;i elektrit&ouml;&ouml;dega tegelemise eest viisil , mis ei vasta k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele , - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele mittevastava elektriseadme v&otilde;i -paigaldise kasutamise v&otilde;i kasutamise eesm&auml;rgil paigaldamise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Ehitatud v&otilde;i &uuml;mberehitatud elektripaigaldise kasutuselev&otilde;tu eest kasutuselev&otilde;tukontrolli v&otilde;i n&otilde;uetekohasuse hindamist ja t&otilde;endamist teostamata - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 4 ) Elektripaigaldise kasutuselev&otilde;tu eest v&otilde;rguettev&otilde;tjale v&otilde;i elektrienergia tootjale teatist esitamata - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 5 ) Elektripaigaldise k&auml;idu k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele mittevastava korralduse eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 6 ) Elektriseadme valmistaja , importija , m&uuml;&uuml;ja v&otilde;i muul viisil Eestis kasutamiseks teisele isikule &uuml;leandja poolt k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uetele mittevastava seadme valmistamise , importimise , m&uuml;&uuml;mise v&otilde;i muul viisil Eestis kasutamiseks teisele isikule &uuml;leandmise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Haldus&otilde;iguserikkumise asja arutamine ja karistuse m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 23 l&otilde;igetes 1-6 s&auml;testatud &otilde;iguserikkumise asjas on arutamise ja karistuse m&auml;&auml;ramise &otilde;igus inspektsiooni peadirektoril v&otilde;i tema aset&auml;itjal ja halduskohtunikul .</s>
+</p>
+<p>
+<s>( 2 ) Inspektsiooni peadirektoril v&otilde;i tema aset&auml;itjal on &otilde;igus k&auml;esoleva seaduse &sect; 23 l&otilde;igetes 1-6 s&auml;testatud &otilde;iguserikkumise asjas m&auml;&auml;rata rahatrahv kuni 20 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatust suurema rahatrahvi m&auml;&auml;ramise &otilde;igus on halduskohtunikul .</s>
+</p>
+<p>
+<s>( 4 ) Menetlus k&auml;esoleva seaduse &sect; 23 l&otilde;igetes 1-6 s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumiste asjades , kaasa arvatud karistuse m&auml;&auml;ramine ja vaidlustamine ning j&otilde;ustunud halduskaristuse otsuse t&auml;itmine , toimub haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1997 , 66-68 , 1109 ; 73 , 1201 ; 81 , 1361 ja 1362 ; 86 , 1459 ja 1461 ; 87 , 1466 ja 1467 ; 93 , 1561 ja 1563-1565 ; 1998 , 2 , 42 ; 17 , 265 ; 23 , 321 ; 30 , 410 ; 34 , 484 ; 36/37 , 552 ja 553 ; 38 , 562 ; 51 , 756 ja 759 ; 52/53 , 771 ; 60 , 951 ja 952 ; 64/65 , 1004 ; 86/87 , 1409 ; 98/99 , 1574 ; 103 , 1695 ; 108/109 , 1783 ; 1999 , 4 , 53 ; 10 , 149 ja 156 ; 16 , 267 , 271 , 272 ja 276 ; 23 , 350 ) kehtestatud korras , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Haldus&otilde;iguserikkumise protokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 23 s&auml;testatud haldus&otilde;iguserikkumiste kohta on &otilde;igus haldus&otilde;iguserikkumise protokoll koostada inspektsiooni elektriohutusalast j&auml;relevalvet teostaval ametnikul .</s>
+</p>
+<p>
+<s>( 2 ) Haldus&otilde;iguserikkumise protokolli m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) haldus&otilde;iguserikkumise protokolli koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) selle asutuse nimetus ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkuja nimetus ja asukoht ;</s>
+</p>
+<p>
+<s>5 ) haldus&otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>6 ) haldus&otilde;iguserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) viide k&auml;esoleva seaduse &sect; 23 vastavale l&otilde;ikele , mis n&auml;eb ette vastutuse selle haldus&otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>8 ) haldus&otilde;iguserikkuja esindaja seletus ;</s>
+</p>
+<p>
+<s>9 ) muud asja lahendamiseks vajalikud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Protokoll esitatakse tutvumiseks juriidilise isiku esindajale , kelle tegevuse v&otilde;i tegevusetuse suhtes on protokoll koostatud .</s><s>Esindaja annab protokolliga tutvumisel allkirja .</s><s>Allkirja andmisest keeldumise korral teeb koostaja protokolli sellekohase m&auml;rkuse .</s><s>Protokolli koopia v&auml;ljastatakse juriidilise isiku esindajale .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Inspektsiooni v&otilde;i tema ametniku ettekirjutuse v&otilde;i muu toimingu vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Isikul on &otilde;igus inspektsiooni v&otilde;i tema ametniku ettekirjutuse v&otilde;i toiminguga mitten&otilde;ustumise korral esitada kaebus inspektsiooni peadirektorile k&uuml;mne kalendrip&auml;eva jooksul , arvates ettekirjutusest v&otilde;i muust toimingust teadasaamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitamine ei v&otilde;ta isikult kohustust t&auml;ita inspektsiooni ametniku ettekirjutust .</s>
+</p>
+<p>
+<s>( 3 ) Inspektsiooni peadirektor vaatab kaebuse l&auml;bi 14 kalendrip&auml;eva jooksul , arvates kaebuse saamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 4 ) Kaebuse l&auml;bivaatamisel otsustab inspektsiooni peadirektor , kas j&auml;tab ettekirjutuse v&otilde;i muu toimingu j&otilde;usse , muudab v&otilde;i t&uuml;histab selle .</s>
+</p>
+<p>
+<s>( 5 ) Otsus tehakse kaebuse esitajale teatavaks ning antakse k&auml;tte allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Muudatus energiaseaduses</s>
+</p>
+<p>
+<s>Energiaseaduse ( RT I 1997 , 52 , 833 ; 1998 , 71 , 1201 ; 113/114 , 1873 ) &sect; 1 t&auml;iendatakse l&otilde;ikega 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) K&auml;esolevat seadust ei kohaldata elektriohutuse tagamiseks k&uuml;tuse- ja energiamajanduses .</s><s>Elektriohutusalane regulatsioon kehtestatakse elektriohutusseadusega . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1999. aasta 1. mail .</s>
+</p>
+</body>
+   </text>
+</tei.2>

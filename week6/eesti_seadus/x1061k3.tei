@@ -1,0 +1,985 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Maakorraldusseadus ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    5435</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Maakorraldusseadus ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=9></tagusage>
+         <tagusage gi=p occurs=293></tagusage>
+         <tagusage gi=s occurs=394></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Maakorraldusseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 25. jaanuaril 1995. a.</s>
+</p>
+<p>
+<s>( RT I 1995 , 14 , 169 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 20. veebruaril 1995. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 ;</s>
+</p>
+<p>
+<s>06.03.2001 j&otilde;ust.29.03.2001 - RT I 2001 , 31 , 171 ;</s>
+</p>
+<p>
+<s>09.06.99 j&otilde;ust.02.07.99 - RT I 1999 , 54 , 580 ;</s>
+</p>
+<p>
+<s>20.01.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 10 , 155 ;</s>
+</p>
+<p>
+<s>30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 ;</s>
+</p>
+<p>
+<s>14.06.95 j&otilde;ust.22.07.95 - RT I 1995 , 59 , 1006.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab maakorralduse l&auml;biviimise korra ja p&otilde;him&otilde;tted .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Maakorralduse m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Maakorraldus k&auml;esoleva seaduse t&auml;henduses on tegevus , mille eesm&auml;rk on maakorraldustoimingute l&auml;biviimisega v&otilde;imaluste loomine kinnisasja otstarbekamaks kasutamiseks ja majandamiseks hajaasustuses .</s>
+</p>
+<p>
+<s>( 14.06.95 j&otilde;ust.22.07.95 - RT I 1995 , 59 , 1006 )</s>
+</p>
+<p>
+<s>( 2 ) Maakorraldustoimingud on kinnisasja &uuml;mberkruntimine , vahetamine , jagamine , kinnisomandi kitsenduste selgitamine ja kinnisasja piiri kindlaksm&auml;&auml;ramine .</s>
+</p>
+<p>
+<s>( 3 ) Maakorralduse l&auml;biviimisel l&auml;htutakse maakorralduse n&otilde;uetest , territoriaalplaneeringuga m&auml;&auml;ratud kinnisasja sihtotstarbest , kinnisasja omaniku &otilde;igustest ja &uuml;ldistest huvidest .</s>
+</p>
+<p>
+<s>( 4 ) ( T&uuml;histatud - 14.06.95 j&otilde;ust.22.07.95 - RT I 1995 , 59 , 1006 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Maakorralduse l&auml;biviimine ja j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduse l&auml;biviimine linna v&otilde;i valla territooriumil kuulub kohaliku omavalitsuse p&auml;devusse .</s>
+</p>
+<p>
+<s>( 2 ) Riiklikku j&auml;relevalvet maakorralduse seaduslikkuse &uuml;le teostab maavanem .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Maakorralduse l&auml;biviijad ning nende &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduse l&auml;biviija on vannutatud maam&otilde;&otilde;tja v&otilde;i vastavat litsentsi omav isik .</s>
+</p>
+<p>
+<s>( 2 ) Maakorralduse l&auml;biviijal on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) maakorralduse l&auml;biviimise eesm&auml;rgil viibida p&auml;ikeset&otilde;usust kuni p&auml;ikeseloojanguni v&otilde;&otilde;ral kinnisasjal ;</s>
+</p>
+<p>
+<s>2 ) saada maakorralduse osalistelt , riigiasutustelt ja kohalikelt omavalitsustelt maakorralduse l&auml;biviimiseks vajalikke andmeid ;</s>
+</p>
+<p>
+<s>3 ) teha kinnisasjade omanikele ettepanekuid kinnisasjade vahelise piiri muutmiseks vastavalt algatatud maakorraldustoimingutele ;</s>
+</p>
+<p>
+<s>4 ) otstarbeka maakorralduse l&auml;biviimiseks teha ettepanekuid riigi reservmaast juurdel&otilde;ike tegemiseks korraldatavale kinnisasjale ;</s>
+</p>
+<p>
+<s>5 ) kinnitada maakorralduskavast tehtavaid v&auml;ljav&otilde;tteid .</s>
+</p>
+<p>
+<s>( 3 ) Maakorralduse l&auml;biviija on kohustatud :</s>
+</p>
+<p>
+<s>1 ) teatama kirjalikult lihtsate maakorraldustoimingute l&auml;biviimisest kahe n&auml;dala jooksul enne toimingu algatamist kohalikule omavalitsusele ;</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>2 ) v&auml;lja selgitama osaliste arvamused maakorralduse l&auml;biviimiseks ;</s>
+</p>
+<p>
+<s>3 ) hoidma temale seoses maakorralduse l&auml;biviimisega teatavaks saanud maakorralduse osaliste saladusi .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Maakorralduse n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduse n&otilde;uded on seadusest , tehnilistest ja majanduslikest teguritest tulenevad tingimused , mille t&auml;itmine tagab kinnisasja otstarbeka kasutamise ja majandamise .</s>
+</p>
+<p>
+<s>( 2 ) Maakorralduse l&auml;biviimisel l&auml;htutakse eelk&otilde;ige j&auml;rgmistest n&otilde;uetest :</s>
+</p>
+<p>
+<s>1 ) omaniku taotlus kinnisasja otstarbekaks kasutamiseks ;</s>
+</p>
+<p>
+<s>2 ) loodusvarade s&auml;&auml;stlik kasutamine , terve elukeskkonna tagamine ja maastiku omap&auml;ra hoidmine ;</s>
+</p>
+<p>
+<s>3 ) kinnisasja sobivus etten&auml;htud sihtotstarbeks ;</s>
+</p>
+<p>
+<s>4 ) kinnisasjale otstarbeka juurdep&auml;&auml;sutee tagamine ;</s>
+</p>
+<p>
+<s>5 ) kinnisasja terviklikkuse ja otstarbeka kuju tagamine , lihtsate ja selgete piiride loomine ning looduslike piiride arvestamine ;</s>
+</p>
+<p>
+<s>6 ) kinnisasja kiildumise ja ribasuse v&auml;ltimine ;</s>
+</p>
+<p>
+<s>7 ) teede , liinide , muude ehitiste ja maaparanduss&uuml;steemide otstarbekas rajamine ja kasutamine .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Maakorralduse finantseerimine</s>
+</p>
+<p>
+<s>( 1 ) Maakorraldust finantseerib kinnisasja omanik , kui seaduse v&otilde;i lepinguga ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Maakorralduse rahastamise , riiklike toetusrahade m&auml;&auml;ramise ja krediteerimise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Kui maakorraldustoimingute l&auml;biviimisel tehtud muudatuste kinnistusraamatusse kandmise ajaks ei ole &uuml;mberkruntimisega seotud kulutused tasutud , kantakse maakorralduse l&auml;biviija avalduse alusel kinnisasja kinnistusregistriossa reaalkoormatis .</s><s>Kande tegemise alus on maakorralduskava v&otilde;i selle v&auml;ljav&otilde;te .</s><s>Kulude m&auml;&auml;ramise alus on maakorraldustoimingute tegelikud teostus- ja menetluskulud .</s><s>Kulude m&auml;&auml;ramise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Maakorralduse osalised</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Maakorralduse osalised</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduse osaline ( edaspidi osaline ) on kinnisasja omanik , kelle &otilde;igusi maakorraldus puudutab .</s>
+</p>
+<p>
+<s>( 2 ) Kinnisasja omandi&otilde;iguse &uuml;leminekul maakorraldustoimingute l&auml;biviimise ajal loetakse uus omanik maakorralduse osaliseks ja talle l&auml;hevad &uuml;le endise omaniku &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>( 3 ) Riiki kui kinnisasja omanikku esindab maakorralduses osalisena kinnisasja valitsejaks m&auml;&auml;ratud riigiasutus .</s><s>Riiki kui kinnistamata kinnisasja omanikku esindab maakorraldustoimingute l&auml;biviimisel osalisena kinnisasja asukohaj&auml;rgne maavanem v&otilde;i tema poolt volitatud isik .</s>
+</p>
+<p>
+<s>( 4 ) Kui osaline on surnud , esindab kuni p&auml;rimis&otilde;iguse tunnistuse v&auml;ljastamiseni osalist maakorraldustoimingu l&auml;biviimisel osalisena kinnisasja asukohaj&auml;rgne maavanem v&otilde;i tema poolt volitatud isik .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Maakorralduse osaliste &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Osalisel on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) tutvuda maakorralduse materjalidega , saada nendest &auml;rakirju ;</s>
+</p>
+<p>
+<s>2 ) saada kohalikult omavalitsuselt , riigiasutustelt ja maakorralduse l&auml;biviijalt informatsiooni l&auml;biviidava maakorralduse kohta ;</s>
+</p>
+<p>
+<s>3 ) v&otilde;tta maakorraldusest osa isiklikult v&otilde;i esindaja kaudu ;</s>
+</p>
+<p>
+<s>4 ) teha ettepanekuid ebaotstarbekate v&otilde;i p&otilde;hjendamatute kinnisomandi kitsenduste muutmiseks v&otilde;i t&uuml;histamiseks ning territoriaalplaneeringu muutmiseks v&otilde;i t&uuml;histamiseks ;</s>
+</p>
+<p>
+<s>5 ) n&otilde;uda kinnisasja piiri looduses k&auml;tten&auml;itamist enne maakorralduskava koosk&otilde;lastamist ;</s>
+</p>
+<p>
+<s>6 ) n&otilde;uda maakorralduse t&otilde;ttu kinnisasja v&auml;&auml;rtuse ja kasutamistingimuste muutumisel rendi- v&otilde;i hoonestus&otilde;iguse tasu muutmist ;</s>
+</p>
+<p>
+<s>7 ) vaidlustada l&auml;biviidava maakorralduse otstarbekust ;</s>
+</p>
+<p>
+<s>8 ) s&otilde;lmida &uuml;hise tegutsemise leping v&otilde;i moodustada maakorraldus&uuml;histu maakorralduskava koostamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Uuel osalisel ei ole &otilde;igust vaidlustada maakorraldustoiminguid , mis on tehtud enne osalise &otilde;iguste &uuml;leminekut .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Maakorraldus&uuml;histu</s>
+</p>
+<p>
+<s>( 1 ) Maakorraldus&uuml;histu liikmeks v&otilde;ib olla kinnisasja omanik , kelle kinnisasjal viiakse l&auml;bi maakorraldustoiminguid .</s>
+</p>
+<p>
+<s>( 2 ) Maakorraldus&uuml;histu liige on kohustatud tasuma &uuml;histule maakorralduse l&auml;biviimisega seotud teostuskulud .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Maakorraldus</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Maakorralduse l&auml;biviimine</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Maakorraldustoimingute l&auml;biviimine</s>
+</p>
+<p>
+<s>( 1 ) Lihtsad maakorraldustoimingud on k&auml;esoleva seaduse paragrahvides 12-15 loetletud toimingud , mis viiakse l&auml;bi korraldatavate kinnisasjade omanike taotlusel .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;mberkruntimist v&otilde;ib algatada k&auml;esoleva seaduse paragrahv 17 2. l&otilde;ikes nimetatud isikute taotlusel .</s>
+</p>
+<p>
+<s>( 3 ) Maakorraldustoimingud viiakse l&auml;bi maakorralduskava alusel .</s><s>Maakorralduskava on &uuml;mberkruntimiskava , kinnisasja vahetus- v&otilde;i jagamisplaan .</s>
+</p>
+<p>
+<s>( 4 ) Lihtsate maakorraldustoimingute l&auml;biviimisel toimub kinnisasjade jagamine , &uuml;hendamine , liitmine ja eraldamine vastavalt asja&otilde;igusseaduse ( RT I 1993 , 39 , 590 ; 1999 , 44 , 509 ; 2001 , 34 , 185 ) ja kinnistusraamatuseadusega ( RT I 1993 , 65 , 922 ; 1999 , 44 , 511 ; 2001 , 21 , 113 ) s&auml;testatud korrale .</s>
+</p>
+<p>
+<s>( 5 ) Maakorraldustoimingute l&auml;biviimise tulemusel m&auml;&auml;rab maakorralduse l&auml;biviija kinnisasjade vahelised piirid looduses ja koostab katastri&uuml;ksuse moodustamise toimiku .</s><s>Moodustatud kinnisasja ulatus maakorralduskaval ja looduses m&otilde;&otilde;distatuna v&otilde;ib erineda kuni 1% , mille ulatuses ei ole osalisel &otilde;igust n&otilde;uda h&uuml;vitust .</s>
+</p>
+<p>
+<s>( 6 ) Kinnisasja katastrim&otilde;&otilde;distamine toimub maakorralduskava alusel seadusega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 7 ) Vaidlused kinnisasja omandi&otilde;iguse &uuml;le ei takista &uuml;mberkruntimise l&auml;biviimist .</s><s>Kuni omaniku selgumiseni esindab osalist maakorraldustoimingu l&auml;biviimisel osalisena kinnisasja asukohaj&auml;rgne maavanem v&otilde;i tema poolt volitatud isik .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Maakorraldustoimingute l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Maakorraldustoimingud loetakse l&otilde;petatuks , kui kinnisasi on registreeritud riigi maakatastris ning maakorraldusest tulenenud muudatused on kantud kinnistusraamatusse .</s>
+</p>
+<p>
+<s>( 2 ) Kui kinnisasja ei pea kinnistusraamatusse kandma , loetakse maakorraldustoimingud l&otilde;petatuks kinnisasja registreerimisega riigi maakatastris .</s>
+</p>
+<p>
+<s>( 3 ) Maakorraldustoimingute l&auml;biviimisel registreeritakse kinnisasi riigi maakatastris maakorralduse l&auml;biviija poolt esitatud katastri&uuml;ksuse moodustamise toimiku alusel .</s>
+</p>
+<p>
+<s>( 4 ) Maakorraldustoimingute l&auml;biviimisel toimunud muudatused kantakse kinnistusraamatusse maakorralduse l&auml;biviija kirjaliku avalduse ja k&auml;esoleva paragrahvi 5. l&otilde;ikes s&auml;testatud v&auml;ljav&otilde;tete alusel .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 5 ) Maakorralduse tulemusena toimunud muudatuste kinnistamiseks teeb maakorralduse l&auml;biviija kehtivast maakorralduskavast vajalikud v&auml;ljav&otilde;tted ja kinnitab need .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Lihtsad maakorraldustoimingud</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kinnisasja vahetamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnisasja vahetamine on see , kui maakorraldustoiming viiakse l&auml;bi kinnisasjade omanike kokkuleppel kinnisasja v&otilde;i selle osa koondamiseks , piiri korrastamiseks v&otilde;i maakorraldusn&otilde;uetega vastavusse viimiseks .</s>
+</p>
+<p>
+<s>( 2 ) Vahetamisel koostab maakorralduse l&auml;biviija kinnisasja v&otilde;i selle osa vahetusplaani , mille koosk&otilde;lastab osalistega .</s>
+</p>
+<p>
+<s>( 3 ) Isikul , kelle kinnisasja v&auml;&auml;rtus vahetuse tulemusena v&auml;heneb , on &otilde;igus n&otilde;uda h&uuml;vitust isikult , kelle kinnisasja v&auml;&auml;rtus suureneb .</s><s>Kinnisasja h&uuml;vitus m&auml;&auml;ratakse kindlaks osaliste kokkuleppel .</s><s>Kui kokkulepet ei saavutata , m&auml;&auml;rab maakorralduse l&auml;biviija h&uuml;vituse erakorralise hindamise alusel .</s><s>H&uuml;vitus kinnisasja eest makstakse rahas , kui pooled ei lepi kokku teisiti .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Kinnisasja jagamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnisasja omaniku soovil jagatakse kinnisasi selle olemust rikkumata kaheks v&otilde;i enamaks reaalosaks , kusjuures p&auml;rast jagamist on iga osa iseseisev kinnisasi .</s>
+</p>
+<p>
+<s>( 2 ) Kinnisasja jagamisel koostab maakorralduse l&auml;biviija jagamisplaani , mille koosk&otilde;lastab osalistega .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;hises omandis oleva kinnisasja jagamisel kohaldatakse asja&otilde;igusseaduse kaasomandis oleva asja jagamise s&auml;tteid .</s>
+</p>
+<p>
+<s>( 4 ) Kinnisasi on jagamatu , kui jagamise tulemusena muutub v&otilde;imatuks kinnisasja kasutamine vastavalt sihtotstarbele v&otilde;i kui ei ole v&otilde;imalik moodustada katastri&uuml;ksust .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Kinnisomandi kitsenduste selgitamine</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduses m&auml;&auml;ratakse kindlaks kinnisomandi kitsendusi p&otilde;hjustava objekti asukoht ja kitsenduse ulatus .</s>
+</p>
+<p>
+<s>( 2 ) Kinnisomandi kitsendusi p&otilde;hjustava objekti asukoht ja ulatus m&auml;&auml;ratakse katastri&uuml;ksuse plaanil .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Kinnisasja piiri kindlaksm&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Kinnisasjade vahelise piiri asukoha teeb kindlaks maakorralduse l&auml;biviija kinnisasja omaniku v&otilde;i koormava asja&otilde;iguse omaja taotlusel , kui sellega on n&otilde;us kinnisasja omanik .</s><s>Piiri asukoht tehakse kindlaks kinnistusraamatus , riigi maakatastris ja arhiivides v&otilde;i teistes registrites leiduvate andmete alusel .</s><s>Eeltoodud andmete puudumisel m&auml;&auml;ratakse piiri asukoht piirim&auml;rkide , valduse ulatuse v&otilde;i piirinaabrite , nende puudumisel v&auml;hemalt kahe tunnistaja &uuml;tluste alusel .</s>
+</p>
+<p>
+<s>( 2 ) Piir k&uuml;lgnevate kinnisasjade vahel m&auml;&auml;ratakse plaanil ja looduses ning n&auml;idatakse k&auml;tte looduses kinnisasja omanikule v&otilde;i koormava asja&otilde;iguse omajale .</s>
+</p>
+<p>
+<s>( 3 ) Andmed kindlakstehtud piiri kohta registreeritakse riigi maakatastris maakorralduse l&auml;biviija esitatud dokumentide alusel .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>&Uuml;mberkruntimine</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>&Uuml;mberkruntimise m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;mberkruntimine on maakorraldustoimingute kogum , millega omanike huvidest l&auml;htuvalt korraldatakse &uuml;mber maakorralduspiirkonda arvatud kinnisasjad ja moodustatakse ning kinnistatakse k&otilde;igile omanikele k&auml;esoleva seaduse paragrahv 5 2. l&otilde;ike s&auml;tetele vastavad uued kinnisasjad .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;mberkruntimine koosneb j&auml;rgmistest etappidest :</s>
+</p>
+<p>
+<s>1 ) &uuml;mberkruntimise taotluse esitamine ;</s>
+</p>
+<p>
+<s>2 ) eelt&ouml;&ouml;d ;</s>
+</p>
+<p>
+<s>3 ) maakorralduspiirkonna ja osaliste selgitamine ;</s>
+</p>
+<p>
+<s>4 ) osaliste koosoleku pidamine ;</s>
+</p>
+<p>
+<s>5 ) &uuml;mberkruntimise algatamine ;</s>
+</p>
+<p>
+<s>6 ) kinnisasja hindamine ;</s>
+</p>
+<p>
+<s>7 ) l&auml;bir&auml;&auml;kimised ;</s>
+</p>
+<p>
+<s>8 ) &uuml;mberkruntimiskava koostamine ;</s>
+</p>
+<p>
+<s>9 ) &uuml;mberkruntimiskava koosk&otilde;lastamine ja kinnitamine ;</s>
+</p>
+<p>
+<s>10 ) &uuml;mberkruntimiskava elluviimine ;</s>
+</p>
+<p>
+<s>11 ) kinnisasja registreerimine riigi maakatastris ja muudatuste kandmine kinnistusraamatusse .</s>
+</p>
+<p>
+<s>( 3 ) Kui &uuml;mberkruntimist ei ole v&otilde;imalik otstarbekalt l&auml;bi viia maakorralduspiirkonda arvatud kinnisasja endise v&auml;&auml;rtuse alusel , v&otilde;ib moodustatava kinnisasja v&auml;&auml;rtus olla kuni 10% v&auml;iksem endise kinnisasja v&auml;&auml;rtusest .</s><s>V&auml;&auml;rtuste vahe ulatuses makstakse osalisele , kelle kinnisasja v&auml;&auml;rtus v&auml;heneb , rahalist h&uuml;vitust .</s><s>H&uuml;vituse tasub osaline , kes saab suurema v&auml;&auml;rtusega kinnisasja .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>&Uuml;mberkruntimise taotluse esitamine</s>
+</p>
+<p>
+<s>( 1 ) Taotlus &uuml;mberkruntimise algatamiseks esitatakse kinnisasja asukohaj&auml;rgsele kohalikule omavalitsusele .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;mberkruntimise taotluse v&otilde;ib esitada kinnisasja omanik , valitsusasutus v&otilde;i riigi omandis oleva kinnisasja valitseja .</s><s>Maavanem v&otilde;ib teha &uuml;mberkruntimise algatamise ettepaneku ilma vastava taotluseta .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 3 ) Taotlus peab sisaldama &uuml;mberkruntimise p&otilde;hjendust ja eesm&auml;rki .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Eelt&ouml;&ouml;d</s>
+</p>
+<p>
+<s>( 1 ) Kohalik omavalitsus v&otilde;i tema volitatud isik viib l&auml;bi eelt&ouml;&ouml;d &uuml;mberkruntimise otstarbekuse , vajalike maakorraldustoimingute ja maakorralduspiirkonna ulatuse m&auml;&auml;ramiseks ning osaliste ja maakorralduskulude selgitamiseks .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus l&uuml;kkab taotluse tagasi , kui :</s>
+</p>
+<p>
+<s>1 ) &uuml;mberkruntimisel ei ole v&otilde;imalik arvestada maakorralduse n&otilde;udeid ;</s>
+</p>
+<p>
+<s>2 ) &uuml;mberkruntimise l&auml;biviimine rikub omaniku &otilde;igusi v&otilde;i kahjustab &uuml;ldisi huvisid .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Maakorralduspiirkonna ja osaliste selgitamine</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduspiirkond on maa-ala , mis h&otilde;lmab &uuml;mberkrunditavaid kinnisasju .</s><s>Maakorralduspiirkonda arvatakse kinnisasjad , mis on vastuolus maakorralduse n&otilde;uetega ning vajalikud &uuml;mberkruntimise otstarbekaks l&auml;biviimiseks .</s><s>Maakorralduspiirkonna minimaalne ulatus on kolme kinnisasja pindala .</s>
+</p>
+<p>
+<s>( 2 ) Maakorralduspiirkonda v&otilde;ib arvata &uuml;ksteisest eraldi asuvaid kinnisasju .</s><s>Kinnisasjad , mis raskendavad &uuml;mberkruntimist , v&otilde;ib t&auml;ielikult v&otilde;i osaliselt maakorralduspiirkonnast v&auml;lja arvata .</s>
+</p>
+<p>
+<s>( 3 ) Maakorralduspiirkonda v&otilde;ib arvata riigi reservmaat&uuml;kke , mis on vajalikud otstarbeka maakorralduse l&auml;biviimiseks .</s><s>Riigi reservmaat&uuml;ki m&uuml;&uuml;gitingimused m&auml;&auml;rab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 4 ) Kohalik omavalitsus v&otilde;i tema volitatud isik selgitab v&otilde;imalikud maakorralduse osalised kolme kuu jooksul p&auml;rast taotluse esitamise p&auml;eva kinnistusraamatu kannete ja riikliku maakatastri andmetel .</s><s>Osalised selgitatakse eelt&ouml;&ouml;de tulemusena m&auml;&auml;ratud maakorralduspiirkonna ulatuse alusel .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 5 ) Kaitstavaid loodusobjekte , kultuurim&auml;lestisi ja muid erilise v&auml;&auml;rtusega kinnisasju v&otilde;ib maakorralduspiirkonda arvata ning &uuml;mberkruntimise otstarbel nende piire muuta keskkonnaministri , kultuurim&auml;lestiste puhul kultuuri- ja haridusministri kirjalikul loal .</s>
+</p>
+<p>
+<s>( 6 ) Kohalik omavalitsus saadab &uuml;mberkruntimise algatamise teate k&otilde;igile eeldatavatele osalistele ning avaldab &uuml;mberkruntimise teate ametlikus v&auml;ljaandes Ametlikud Teadaanded , n&auml;idates &auml;ra selle eesm&auml;rgi ja puudutatud kinnisasjade loetelu .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 ; 20.01.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 10 155 )</s>
+</p>
+<p>
+<s>( 7 ) K&otilde;igil isikutel , kelle &otilde;igusi v&otilde;i huve &uuml;mberkruntimine puudutab , on &otilde;igus kahe kuu jooksul p&auml;rast teate ilmumust Riigi Teataja Lisas esitada kohalikule omavalitsusele avaldus &uuml;mberkruntimises osalemiseks , &uuml;mberkruntimisest keeldumiseks v&otilde;i &uuml;mberkruntimise protestimiseks .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Osaliste koosoleku pidamine</s>
+</p>
+<p>
+<s>( 1 ) Kohalik omavalitsus v&otilde;i tema poolt volitatud isik korraldab p&auml;rast eeldatavate osaliste selgitamist koosoleku &uuml;mberkruntimise eesm&auml;rgi , osaliste ja maakorralduspiirkonna kindlaksm&auml;&auml;ramiseks ning &uuml;mberkruntimise algatamise otsustamiseks .</s><s>Koosolekul valivad osalised maakorralduse l&auml;biviija .</s><s>Koosoleku korraldaja on kohustatud koosolekul informeerima osalisi nende &otilde;igustest ja kohustustest &uuml;mberkruntimise l&auml;biviimisel .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 2 ) Osalisel on &otilde;igus taotleda kinnisasja v&otilde;i selle osa v&auml;ljaarvamist maakorralduspiirkonnast .</s><s>Taotlus esitatakse kohalikule omavalitsusele .</s><s>Otsuse kinnisasja v&auml;ljaarvamise kohta maakorralduspiirkonnast teeb riigi maakorraldusasutus enne &uuml;mberkruntimise algatamist .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 3 ) Koosoleku kohta koostab koosoleku korraldaja protokolli , millele kirjutavad alla koosolekust osav&otilde;tjad .</s><s>Protokolli kantakse koosoleku toimumise aeg ja koht , sellest osav&otilde;tjate nimed , p&auml;evakord ning tehtud otsused .</s><s>Kui koosolekust osav&otilde;tja ei n&otilde;ustu tehtud otsustega , kantakse tema arvamus protokolli .</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;mberkruntimise v&otilde;ib algatada , kui sellega on n&otilde;us v&auml;hemalt 2/3 maakorralduse eeldatavatest osalistest , kelle kinnisasjad h&otilde;lmavad v&auml;hemalt 1/2 maakorralduspiirkonnast .</s>
+</p>
+<p>
+<s>( 5 ) Maakorralduse l&auml;biviija koostab koosoleku protokolli alusel &uuml;mberkruntimise eelkava .</s><s>Eelkava sisaldab andmeid &uuml;mberkruntimise eesm&auml;rgi , maakorralduspiirkonna ulatuse , osaliste , eelarve ning kinnisomandi kitsenduste kohta .</s><s>Eelkava lisa on maakorralduspiirkonna kaart .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>&Uuml;mberkruntimise algatamine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;mberkruntimise algatab kohalik omavalitsus eelkava ja k&auml;esoleva seaduse paragrahv 20 s&auml;testatud osaliste koosoleku protokolli alusel .</s><s>Kohaliku omavalitsuse volikogul on &otilde;igus enne k&auml;esoleva paragrahvi 2. l&otilde;ikes s&auml;testatud &uuml;mberkruntimise algatamist osalise p&otilde;hjendatud taotlusel kinnisasi v&otilde;i selle osa maakorralduspiirkonnast v&auml;lja arvata .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;mberkruntimise algatamiseks kinnitab kohaliku omavalitsuse volikogu &uuml;mberkruntimise eelkava .</s><s>&Uuml;mberkruntimise algatamise otsusest teatatakse k&otilde;igile osalistele kirjalikult .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;mberkruntimise algatamise otsusega kinnitatud maakorralduspiirkonna ulatuse muutmiseks peab l&auml;bi viima t&auml;iendavad k&auml;esoleva seaduse paragrahvides 18 - 20 s&auml;testatud toimingud .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>&Uuml;mberkruntimisega kaasnevad kinnisomandi kitsendused</s>
+</p>
+<p>
+<s>( 1 ) Osaline on kohustatud &uuml;mberkruntimise algatamise otsuse tegemise momendist kuni &uuml;mberkruntimise l&otilde;petamiseni s&auml;ilitama kinnisasja senise seisukorra ja sihtotstarbe ning mitte muutma oma tegevusega kinnisasja v&auml;&auml;rtust .</s>
+</p>
+<p>
+<s>( 2 ) Kulutusi ja parendusi , mis on tehtud kinnisasja v&auml;&auml;rtuse t&otilde;stmiseks p&auml;rast &uuml;mberkruntimise algatamise otsuse tegemist , kinnisasja hindamisel ei arvestata .</s>
+</p>
+<p>
+<s>( 3 ) Kinnisomandi kitsenduste tagamiseks kantakse kinnistusraamatusse &uuml;mberkruntimism&auml;rge kinnisasja omaniku n&otilde;usolekuta .</s><s>M&auml;rge kantakse kinnistusraamatusse kohaliku omavalitsuse kirjaliku avalduse ja &uuml;mberkruntimise algatamise otsuse alusel</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 ; 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;mberkruntimism&auml;rge keelab kinnisasja omanikul kinnisasja v&otilde;&otilde;randamise ja koormamise ilma kohaliku omavalitsuse kirjaliku n&otilde;usolekuta .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 5 ) Kinnisomandi kitsenduste rikkumisel peab rikkuja kohaliku omavalitsuse n&otilde;udel taastama endise olukorra v&otilde;i h&uuml;vitama tekitatud kahju .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kinnisasja hindamine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;mberkruntimisel m&auml;&auml;rab maakorralduse l&auml;biviija kinnisasja v&auml;&auml;rtuse erakorralise hindamise alusel , kui kinnisasja v&auml;&auml;rtus ei ole m&auml;&auml;ratud osaliste kokkuleppel .</s><s>Kinnisasja v&auml;&auml;rtuse m&auml;&auml;ramisel koostab maakorralduse l&auml;biviija kinnisasja hindamisakti .</s>
+</p>
+<p>
+<s>( 2 ) Kinnisasja olulised osad hindab maakorralduse l&auml;biviija Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Maakorralduse l&auml;biviija koostab maakorralduspiirkonda kuuluvate kinnisasjade ja nende oluliste osade v&auml;&auml;rtuste loetelu .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>L&auml;bir&auml;&auml;kimised</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduse l&auml;biviija on &uuml;mberkruntimisel kohustatud arvestama k&otilde;igi osaliste &otilde;igusi ning saavutama &uuml;mberkruntimise eesm&auml;rgi &uuml;ldjuhul osaliste kokkuleppel .</s><s>Kui &uuml;mberkruntimist ei ole v&otilde;imalik endise kinnisasja v&auml;&auml;rtuse alusel otstarbekalt l&auml;bi viia , v&otilde;ib maakorralduse l&auml;biviija teha ettepaneku osalisele , kellele ei ole v&otilde;imalik moodustada samav&auml;&auml;rset kinnisasja , h&uuml;vituse m&auml;&auml;ramiseks koosk&otilde;las paragrahv 16 3. l&otilde;ikega .</s>
+</p>
+<p>
+<s>( 2 ) Maakorralduse l&auml;biviija korraldab osaliste l&auml;bir&auml;&auml;kimised &uuml;mberkruntimiskava koostamiseks ja osalistevaheliste kokkulepete saavutamiseks piiride muutmise , h&uuml;vituste suuruse , tasaarvelduste ja maakorralduse kulude tasumise ning kinnisasja koormavate &otilde;iguste kustutamise v&otilde;i &uuml;lekandmise ja muude asjaolude osas .</s>
+</p>
+<p>
+<s>( 3 ) Osalised v&otilde;ivad l&auml;bir&auml;&auml;kimiste k&auml;igus kirjalikult s&otilde;lmitud kokkulepetest ja n&otilde;usolekutest loobuda kohaliku omavalitsuse kirjalikul loal .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 4 ) Kui &uuml;mberkruntimine osutub t&auml;iendavate asjaolude selgumisel ebaotstarbekaks , on maakorralduse l&auml;biviija kohustatud tegema kohalikule omavalitsusele &uuml;mberkruntimise l&otilde;petamise taotluse .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>&Uuml;mberkruntimiskava koostamine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;mberkruntimiskava ( edaspidi kava ) koostab maakorralduse l&auml;biviija , arvestades &uuml;mberkruntimise eelkava ja l&auml;bir&auml;&auml;kimistel saavutatud kokkuleppeid .</s><s>Maakorralduspiirkonda arvatud kinnisasjadest eraldatakse osalistele maakorralduse n&otilde;uete , endiste kinnisasjade v&auml;&auml;rtuse ja l&auml;bir&auml;&auml;kimiste tulemuste alusel uued kinnisasjad .</s>
+</p>
+<p>
+<s>( 2 ) Kui osalised ei ole l&auml;bir&auml;&auml;kimiste k&auml;igus kokku leppinud kinnisasja koormavate asja&otilde;iguste muutmises , piiride asukohas , h&uuml;vituse suuruses ja tasaarvestuses v&otilde;i muude &uuml;mberkruntimise l&auml;biviimiseks vajalike asjaolude osas , m&auml;&auml;rab need maakorralduse n&otilde;uete ja endiste kinnisasjade v&auml;&auml;rtuse alusel kohalik omavalitsus .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;mberkruntimiskava jaotatakse krundijaotuskavaks - linnades ja v&auml;ljaspool linnu kompaktse hoonestusega aladel - ning maakorralduskavaks - hajaasustusega aladel .</s>
+</p>
+<p>
+<s>( 4 ) Kava koosneb seletavast osast ja kaardist .</s><s>Seletav osa sisaldab j&auml;rgmisi andmeid : kinnisasjade asukoht , suurus , v&auml;&auml;rtus ja sihtotstarve , &uuml;mberkruntimise tulemusena kinnisasjade v&auml;&auml;rtuste vahe tasaarvestamine ja h&uuml;vitamine , kinnisasjade uutes piirides kasutuselev&otilde;tmise kord , kinnisasjade koormamine , &otilde;iguste kustutamine v&otilde;i &uuml;mberkandmine ning muud vajalikud asjaolud .</s><s>Kaardil n&auml;idatakse &uuml;mberkruntimisel moodustatavad kinnisasjad , nende vahelised piirid , k&otilde;lvikud , ehitised ja kinnisomandi kitsendusi p&otilde;hjustavate objektide asukohad ja kitsenduste ulatus .</s>
+</p>
+<p>
+<s>( 5 ) Kavale lisatakse maakorralduse osaliste vahel s&otilde;lmitud kokkulepped , hindamisaktid , &uuml;mberkruntimise eelarve ning kulutuste ja h&uuml;vituste jagamise ettepanekud .</s>
+</p>
+<p>
+<s>( 6 ) Kava koostatakse Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Kava koosk&otilde;lastamine ja kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduse l&auml;biviija kutsub kava koosk&otilde;lastamiseks kokku osaliste koosoleku v&otilde;i saadab k&otilde;igile osalistele sellest v&auml;ljav&otilde;tte .</s>
+</p>
+<p>
+<s>( 2 ) Koosoleku kohta koostab koosoleku korraldaja protokolli , millele kirjutavad alla koosolekust osav&otilde;tjad .</s><s>Protokolli kantakse koosoleku toimumise aeg ja koht , sellest osav&otilde;tjate nimed , p&auml;evakord ning tehtud otsused .</s><s>Protokoll peab sisaldama koosolekul esitatud avalduste ja taotluste sisu .</s><s>Kirjalikult esitatud vastuv&auml;ited lisatakse protokollile .</s>
+</p>
+<p>
+<s>( 3 ) Kava v&otilde;ib muuta kohaliku omavalitsuse kirjalikul n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 4 ) Kui 2/3 maakorralduse osalistest , kelle kinnisasjad h&otilde;lmavad v&auml;hemalt 1/2 maakorralduspiirkonnast , on kava koosk&otilde;lastanud , esitab maakorralduse l&auml;biviija selle kohaliku omavalitsuse volikogule kinnitamiseks .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 ; 09.06.99 j&otilde;ust.02.07.99 - RT I 1999 , 54 , 580 )</s>
+</p>
+<p>
+<s>( 5 ) Kui koosolekul kava ei koosk&otilde;lastata , t&auml;iendab maakorralduse l&auml;biviija kava koosolekul m&auml;&auml;ratud t&auml;htajaks .</s>
+</p>
+<p>
+<s>( 6 ) Kohalik omavalitsus teatab kava kinnitamise otsusest k&otilde;igile osalistele kirjalikult .</s><s>Teates n&auml;idatakse , kus ja millal saab kavaga tutvuda .</s><s>Teade avaldatakse ka kohalikus ajalehes .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 7 ) Puudutatud isikul on &otilde;igus kava vaidlustada &uuml;he kuu jooksul selle kinnitamise j&auml;rgsest p&auml;evast alates .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Kava elluviimine</s>
+</p>
+<p>
+<s>( 1 ) Kava elluviimisel teevad osalised kavas m&auml;&auml;ratud t&auml;htaegadeks omavahelised tasaarveldused ja h&uuml;vitused ning muud kavaga seotud toimingud .</s>
+</p>
+<p>
+<s>( 2 ) Maakorralduse l&auml;biviija teeb katastrim&otilde;&otilde;distamise .</s><s>Uusi kinnisasju v&otilde;ib kasutada , kui maakorralduse l&auml;biviija on nende piirid osalistele looduses k&auml;tte n&auml;idanud .</s>
+</p>
+<p>
+<s>( 3 ) Kui osaline keeldub m&auml;&auml;ratud t&auml;htajaks vabastamast teise isiku valdusse minevat kinnisasja v&otilde;i selle osa , on &otilde;igustatud osalisel &otilde;igus n&otilde;uda rikkumise k&otilde;rvaldamist ja kahju h&uuml;vitamist seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 4 ) Maakorralduse l&auml;biviija on kohustatud kava hoiule andma riigi maakatastri pidajale .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Kannete tegemine kinnistusraamatusse</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;mberkruntimise l&auml;biviimisel asja&otilde;iguse kohta kinnistusraamatusse kande tegemine , muutmine v&otilde;i kustutamine on l&otilde;ivuvaba .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;rast &uuml;mberkruntimise tulemusena toimunud muudatuste kinnistamist kustutab kinnistusamet &uuml;mberkruntimism&auml;rke .</s><s>Kinnistusamet teeb kanded kinnistusregistri osadesse kinnitatud kava alusel .</s><s>P&auml;rast kannete tegemist kustutab kinnistusamet tarbetuks muutunud m&auml;rked .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Teiste isikute &otilde;igused &uuml;mberkruntimise l&auml;biviimisel</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;mberkruntimise l&auml;biviimiseks ei ole vaja piiratud asja&otilde;iguste ja teiste &otilde;iguste omajate n&otilde;usolekut .</s>
+</p>
+<p>
+<s>( 2 ) Reaalservituudid , mis on kava alusel kaotanud oma otstarbe , kustutatakse kinnistusraamatust ilma h&uuml;vituseta .</s>
+</p>
+<p>
+<s>( 3 ) Kui kinnisasja koormavaid &otilde;igusi ei kustutata , laienevad need vahetusel saadud kinnisasjale v&otilde;i kantakse maakorralduskava alusel &uuml;le maakorralduse tulemusena moodustatud kinnisasjale .</s>
+</p>
+<p>
+<s>( 4 ) Kui kinnisasi on koormatud h&uuml;poteegiga ja kinnisasja v&auml;&auml;rtus &uuml;mberkruntimise l&auml;biviimisel v&auml;heneb , tuleb v&auml;&auml;rtuse v&auml;henemise eest saadud h&uuml;vitus kanda h&uuml;poteegi katteks deposiiti , kui osalised ei ole kokku leppinud teisiti .</s>
+</p>
+<p>
+<s>( 5 ) Muus osas kohaldatakse kinnisasjale asja&otilde;igusseaduse ja kinnistusraamatuseaduse kinnisasjade jagamise , &uuml;hendamise , liitmise ja eraldamise kohta k&auml;ivaid s&auml;tteid .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vaidluste lahendamine</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Vaidluste lahendamine</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduse osaliste vahel maakorraldustoimingute l&auml;biviimisel tekkinud vaidlused lahendab maakorralduse l&auml;biviija .</s>
+</p>
+<p>
+<s>( 2 ) Kaebused maakorralduse l&auml;biviija tegevuse peale lahendab maavanem .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 3 ) Kaebused maavanema otsuse peale lahendab keskkonnaminister .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 4 ) Igal maakorralduse osalisel on &otilde;igus oma &otilde;iguste rikkumise korral p&ouml;&ouml;rduda kohtusse .</s>
+</p>
+<p>
+<s>( 5 ) Maakorralduse l&auml;biviija on kohustatud kohtu , kohaliku omavalitsuse , maavanema v&otilde;i keskkonnaministri n&otilde;udmisel esitama kaebuse v&otilde;i vaidluse lahendamiseks vajalikud materjalid ning kuni asja lahendamiseni peatama maakorraldustoimingute l&auml;biviimise vaieldavas piirkonnas .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 )</s>
+</p>
+<p>
+<s>( 6 ) Osalistel on &otilde;igus isiklikult v&otilde;i esindaja kaudu osaleda kaebuse v&otilde;i vaidluse l&auml;bivaatamises .</s><s>Kutsutud asjaosaliste mitteilmumine ei takista asja arutamist .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Seaduse kohaldamine maareformi l&auml;biviimisel</s>
+</p>
+<p>
+<s>Kui maareformi k&auml;igus maa tagastamisel , ostuees&otilde;igusega erastamisel , vaba p&otilde;llumajandusmaa ja vaba metsamaa erastamisel , maa riigi omandisse j&auml;tmisel , munitsipaalomandisse andmisel ja hoonestus&otilde;iguse seadmisel viiakse l&auml;bi maakorraldus , kohaldatakse k&auml;esolevat seadust , arvestades &sect;-des 31 <hi rend="sup">1</hi> -34 <hi rend="sup">1</hi> s&auml;testatud erisusi .</s><s>Sellel juhul rakendatakse k&auml;esoleva seaduse &sect;-des 16-29 s&auml;testatut niiv&otilde;rd , kuiv&otilde;rd see pole vastuolus &sect;-de 31 <hi rend="sup">1</hi> -34 <hi rend="sup">1</hi> s&auml;tetega .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 ; 09.06.99 j&otilde;ust.02.07.99 - RT I 1999 , 54 , 580 )</s>
+</p>
+<p>
+<s>&sect; 31 <hi rend="sup">1</hi> .</s><s>&Uuml;mberkruntimise eelt&ouml;&ouml;d</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;mberkruntimise eelt&ouml;&ouml;d viib l&auml;bi vallavalitsus v&otilde;i tema volitatud isik .</s><s>Eelt&ouml;&ouml;de k&auml;igus selgitatakse &uuml;mberkruntimise otstarbekus ja maakorralduspiirkonna ulatus ning osalised .</s>
+</p>
+<p>
+<s>( 2 ) Osalisteks on maakorralduspiirkonnas oleva maa suhtes maa riigi omandisse j&auml;tmise , munitsipaliseerimise , ostuees&otilde;igusega erastamise v&otilde;i ehitise omaniku kasuks hoonestus&otilde;iguse seadmise avalduse esitanud isikud , Eesti NSV taluseaduse alusel antud maale kasutusvalduse seadmise avalduse esitanud isikud ja maa tagastamise &otilde;igustatud subjektid , kelle katastri&uuml;ksuse moodustamist pole alustatud , ning maa erastamise korraldaja .</s><s>Katastri&uuml;ksuse moodustamine loetakse alustatuks , kui vallavalitsus on koostanud moodustatava katastri&uuml;ksuse asendiplaani .</s>
+</p>
+<p>
+<s>( 3 ) Ettepanek osaleda tehakse isikutele , kelle kinnisasi j&auml;&auml;b maakorralduspiirkonda , ning isikutele , kelle katastri&uuml;ksuse moodustamist on alustatud enne maakorralduspiirkonna m&auml;&auml;ramist .</s><s>Nendele isikutele saadab vallavalitsus kirjaliku ettepaneku osalemiseks .</s><s>Nimetatud isikud saavad osalisteks ainult isikliku avalduse alusel .</s><s>Avaldus osalemiseks tuleb esitada vallavalitsusele p&auml;rast vastavasisulise teate saamist teates m&auml;rgitud t&auml;htajaks .</s>
+</p>
+<p>
+<s>( 4 ) Maakorralduspiirkonnas oleva ehitise omanik v&otilde;i maa Eesti NSV taluseaduse alusel p&otilde;liseks kasutamiseks saanud isik , kes ei ole t&auml;htaegselt esitanud maa ostuees&otilde;igusega erastamise avaldust , ei ole maakorralduse osaline .</s><s>Ehitise omaniku kasuks seatakse hoonestus&otilde;igus asja&otilde;igusseaduse rakendamise seaduse ( RT I 1993 , 72/73 , 1021 ; 1999 , 44 , 510 ; 2000 , 51 , 325 ; 88 , 576 ) &sect; 15 kohaselt ehitise teenindamiseks vajaliku maa ulatuses .</s><s>Eesti NSV taluseaduse alusel maa p&otilde;liseks kasutamiseks saanud isiku kasuks , kes ei soovi maad omandada , seatakse tema ehitisealusele ja ehitise teenindamiseks vajalikule maale hoonestus&otilde;igus ja &uuml;lej&auml;&auml;nud maale kasutusvaldus asja&otilde;igusseaduse rakendamise seaduse &sect; 18 v&otilde;i maareformi seaduse &sect; 34 <hi rend="sup">1</hi> kohaselt .</s>
+</p>
+<p>
+<s>( 5 ) Vallavalitsuse taotlusel on &otilde;igusvastaselt v&otilde;&otilde;randatud vara tagastamise ja kompenseerimise maakonna- ja linnakomisjonid kohustatud eelisj&auml;rjekorras l&auml;bi vaatama maakorralduspiirkonda j&auml;&auml;va maa suhtes esitatud avaldused .</s>
+</p>
+<p>
+<s>( 6 ) Eelt&ouml;&ouml;de tulemusena valmivale ettepanekule lisatakse :</s>
+</p>
+<p>
+<s>1 ) graafiline materjal , kus on &auml;ra n&auml;idatud maakorralduspiirkonna piir ;</s>
+</p>
+<p>
+<s>2 ) osaliste nimekiri , k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud isikute nimekiri ja vallavalitsust esindava isiku nimi ;</s>
+</p>
+<p>
+<s>3 ) seletuskiri , milles m&auml;rgitakse &uuml;mberkruntimise p&otilde;hjendus ja eesm&auml;rk ning antakse k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud isikute kinnisasjade , Eesti NSV taluseaduse alusel antud maa ning &otilde;igustatud subjektide tagastamisn&otilde;udega alade maakorralduspiirkonda kuuluva maa ja kasvava metsa v&auml;&auml;rtus maksustamishinnas ;</s>
+</p>
+<p>
+<s>4 ) vastavasisuline avaldus juhul , kui taotletakse toetusraha .</s>
+</p>
+<p>
+<s>( 09.06.99 j&otilde;ust.02.07.99 - RT I 1999 , 54 , 580 )</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Maakorralduse l&auml;biviija valimine , maakorralduspiirkonna ja osaliste kinnitamine ning &uuml;mberkruntimise algatamine</s>
+</p>
+<p>
+<s>( 1 ) Kui taotletakse toetusraha , korraldab maakorralduse l&auml;biviija leidmiseks v&auml;hempakkumise toetusraha m&auml;&auml;raja v&otilde;i tema poolt volitatud isik .</s>
+</p>
+<p>
+<s>( 2 ) Kui toetusraha ei taotleta ega m&auml;&auml;rata , valib maavanem maakorralduse l&auml;biviija vallavalitsuse poolt esitatud v&auml;hemalt kolme k&auml;esoleva seaduse &sect;-s 4 esitatud n&otilde;uetele vastava kandidaadi hulgast .</s>
+</p>
+<p>
+<s>( 06.03.2001 j&otilde;ust.29.03.2001 - RT I 2001 , 31 , 171 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Kui lisaks era&otilde;iguslikele isikutele on maakorralduse osaline riik , m&auml;&auml;ratakse maakorralduse l&auml;biviija v&auml;hempakkumise alusel .</s>
+</p>
+<p>
+<s>( 06.03.2001 j&otilde;ust.29.03.2001 - RT I 2001 , 31 , 171 )</s>
+</p>
+<p>
+<s>( 3 ) Maakorralduspiirkonna ja osalised kinnitab ning &uuml;mberkruntimise algatab maavanem vallavalitsuse ettepanekul .</s><s>Korralduses peab olema m&auml;rgitud isik , kes esindab riiki vastavalt k&auml;esoleva seaduse &sect; 7 l&otilde;ikele 3.</s>
+</p>
+<p>
+<s>( 4 ) P&auml;rast &uuml;mberkruntimise algatamist ei ole isikul , kes on osaline , &otilde;igust muuta oma maa tagastamise , erastamise v&otilde;i hoonestus&otilde;iguse seadmise avaldust ilma vallavalitsuse kirjaliku n&otilde;usolekuta .</s>
+</p>
+<p>
+<s>( 5 ) &Uuml;mberkruntimise algatamise otsusest teatab vallavalitsus igale osalisele kas allkirja vastu v&otilde;i t&auml;hitud kirjaga .</s><s>&Uuml;mberkruntimise algatamisel ei rakendata &sect; 19 l&otilde;ikes 6 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 ; 09.06.99 j&otilde;ust.02.07.99 - RT I 1999 , 54 , 580 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>&Uuml;mberkruntimiskava koostamine</s>
+</p>
+<p>
+<s>( 1 ) Maakorralduse l&auml;biviija korraldab osalistega l&auml;bir&auml;&auml;kimisi .</s>
+</p>
+<p>
+<s>( 2 ) L&auml;bir&auml;&auml;kimiste k&auml;igus arvestatakse maakorralduspiirkonda j&auml;&auml;va maa suhtes esitatud maa tagastamise , ostuees&otilde;igusega erastamise ja hoonestus&otilde;iguse seadmise avaldusi ning maa riigi omandisse j&auml;tmise ja munitsipaalomandisse andmise taotlusi .</s><s>Maakorralduse l&auml;biviija koostab k&auml;esoleva seaduse &sect; 25 l&otilde;igetes 4 ja 5 nimetatud &uuml;mberkruntimiskava vastavalt maakorralduse n&otilde;uetele , arvestades esitatud taotlusi ja l&auml;bir&auml;&auml;kimiste tulemusi juhul , kui need ei ole vastuolus planeeringu v&otilde;i maakorralduse n&otilde;uetega .</s>
+</p>
+<p>
+<s>( 3 ) Maakorralduspiirkonda arvatud maa hindamisel v&otilde;etakse aluseks maa maksustamishind ja kasvava metsa v&auml;&auml;rtus .</s>
+</p>
+<p>
+<s>( 4 ) Tagastamisele kuuluva maa ja maakorralduse k&auml;igus tagastatava maa ning Eesti NSV taluseaduse alusel antud maa ja maakorralduse k&auml;igus erastatava maa v&auml;&auml;rtus ei tohi erineda &uuml;le 8% .</s>
+</p>
+<p>
+<s>( 5 ) &Uuml;mberkruntimisel arvestatakse notariaalselt t&otilde;estatud kokkuleppeid &otilde;igustatud subjektidele tagastamata j&auml;&auml;va maa kompenseerimiseks isikute poolt , kelle omandisse tagastamata maa kokkuleppe alusel antakse .</s><s>Riik ei kompenseeri &otilde;igustatud subjektile maad , mida nimetatud kokkuleppe alusel &uuml;mberkruntimise k&auml;igus ei tagastata .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 ; 09.06.99 j&otilde;ust.02.07.99 - RT I 1999 , 54 , 580 )</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Kava koosk&otilde;lastamine ja kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) Kava koosk&otilde;lastatakse maavanema v&otilde;i tema volitatud isikuga .</s>
+</p>
+<p>
+<s>( 2 ) Vallavalitsus teeb otsuse &uuml;mberkruntimiskava vastuv&otilde;tmise kohta ja korraldab kava avaliku v&auml;ljapaneku .</s><s>Maakorralduse l&auml;biviija teatab kava avaliku v&auml;ljapaneku koha , alguse ja kestuse igale osalisele kas allkirja vastu v&otilde;i t&auml;hitud kirjaga hiljemalt 10 p&auml;eva enne avaliku v&auml;ljapaneku algust .</s><s>Teatele lisatakse v&auml;ljav&otilde;te kavast .</s><s>V&auml;ljav&otilde;te peab sisaldama informatsiooni :</s>
+</p>
+<p>
+<s>1 ) maa&uuml;ksuse praeguste ja v&otilde;imalusel ka endiste piiride kohta ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;lvikulise jaotuse ja sihtotstarvete kohta ;</s>
+</p>
+<p>
+<s>3 ) maa maksustamishinna ja kasvava metsa v&auml;&auml;rtuse kohta ;</s>
+</p>
+<p>
+<s>4 ) &uuml;mberkruntimise ja katastri&uuml;ksuse moodustamisega seotud kulude ning osalise poolt tasumisele kuuluva summa kohta .</s>
+</p>
+<p>
+<s>( 3 ) Avaliku v&auml;ljapaneku kestus on v&auml;hemalt kaks n&auml;dalat .</s>
+</p>
+<p>
+<s>( 4 ) K&otilde;igil osalistel on &otilde;igus avaliku v&auml;ljapaneku kestel esitada kirjalikke parandus- ja t&auml;iendusettepanekuid .</s><s>K&auml;esoleva seaduse &sect; 31 <hi rend="sup">1</hi> l&otilde;ikes 4 nimetatud isikud , kes ei ole maakorralduse osalised , saavad teha ettepanekuid riigi esindaja kaudu .</s><s>Kirjalikele ettepanekutele vastab vallavalitsus .</s>
+</p>
+<p>
+<s>( 5 ) Avalikul v&auml;ljapanekul esitatud ettepanekud arutab l&auml;bi vallavalitsus .</s><s>Maakorralduse l&auml;biviija on kohustatud tegema kavas vallavalitsuse poolt heakskiidetud parandused ja t&auml;iendused .</s>
+</p>
+<p>
+<s>( 6 ) Kava kinnitab vallavolikogu ja teatab sellest igale osalisele kas allkirja vastu v&otilde;i t&auml;hitud kirjaga .</s>
+</p>
+<p>
+<s>( 7 ) Maavanem v&otilde;ib peatada kava elluviimise 10 p&auml;eva jooksul teate saamisest kuni tema poolt kavas avastatud puuduste k&otilde;rvaldamiseni .</s>
+</p>
+<p>
+<s>( 30.04.96 j&otilde;ust.07.06.96 - RT I 1996 , 36 , 738 ; 09.06.99 j&otilde;ust.02.07.99 - RT I 1999 , 54 , 580 )</s>
+</p>
+<p>
+<s>&sect; 34 <hi rend="sup">1</hi> .</s><s>&Uuml;mberkruntimiskava elluviimine</s>
+</p>
+<p>
+<s>( 1 ) Maa tagastamisel v&otilde;i erastamisel , maa riigi omandisse j&auml;tmisel , munitsipaalomandisse andmisel , hoonestus&otilde;iguse v&otilde;i kasutusvalduse seadmisel l&auml;htutakse kinnitatud &uuml;mberkruntimiskavast .</s>
+</p>
+<p>
+<s>( 2 ) Maakorraldustoimingute l&auml;biviimise tulemusel m&auml;&auml;rab maakorralduse l&auml;biviija kinnisasjade vahelised piirid looduses ja koostab katastri&uuml;ksuse moodustamise toimiku .</s><s>Moodustatud katastri&uuml;ksuse pindala maakorralduskaval ja looduses m&otilde;&otilde;distatuna v&otilde;ib erineda kuni 8% , kuid mitte &uuml;le 5 ha .</s>
+</p>
+<p>
+<s>( 3 ) Maakorralduse osaliste soovil v&otilde;ib kinnitatud &uuml;mberkruntimiskava ja olemasoleva plaanimaterjali alusel katastri&uuml;ksuse moodustada ning registreerida see maakatastris vastavalt maakatastriseaduse ( RT I 1994 , 74 , 1324 ; 1995 , 29 , 356 ; 59 , 1006 ; 1996 , 36 , 738 ; 1997 , 16 , 261 ; 2000 , 54 , 347 ; 92 , 598 ) &sect;-le 20.</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;mberkrunditud kinnisasjade kinnistusraamatusse kandmine toimub vastavalt asja&otilde;igusseaduse rakendamise seadusele ja kinnistusraamatuseadusele ( RT I 1993 , 65 , 922 ; 1999 , 44 , 511 ; 2001 , 21 , 113 ) .</s>
+</p>
+<p>
+<s>( 09.06.99 j&otilde;ust.02.07.99 - RT I 1999 , 54 , 580 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Kehtivuse kaotanud ja muutmisele kuuluvad &otilde;igusaktid</s>
+</p>
+<p>
+<s>( 1 ) Tunnistatakse kehtetuks Eesti NSV maakoodeksi ( ENSV Teataja 1970 , 33 , lisa ; 1980 , 39 , 568 ; 1981 , 25 , 359 ; 1983 , 12 , 146 ; 1984 , 16 , 180 ; 49 , 577 ; 1985 , 27 , 452 ; 1988 , 25 , 295 ; RT I 1993 , 72/73 , 1021 ; 1994 , 13 , 231 ; 24 , 391 ja 74 , 1324 ) paragrahvid 202 - 209 ja 211.</s>
+</p>
+<p>
+<s>( 2 ) T&auml;iendatakse Eesti Vabariigi riigil&otilde;ivuseaduse ( RT 1990 , 11 , 118 ; 1995 , 36 , 465 ; 57 , 981 ; 61 , 1028 ; 1996 , 45 , 851 ; 51 , 969 ; 1997 , 48 , 774 ; 80 , 1344 , 86 , 1461 ; 87 , 1466 , 1467 ; 93 , 1563 ; 1998 , 2 , 47 ; 4 , 63 ; 23 , 321 ; 36/37 , 552 , 553 ; 52/53 , 771 ; 57 , 859 ; 59 , 941 ; 60 , 951 ; 61 , 985 ; 64/65 , 1004 , 1005 , 1008 ; 61 , 979 ; 86/87 , 1408 ; 97 , 1519 ; 103 , 1701 ; 111 , 1829 ; 108/109 , 1783 ; 1999 , 16 , 275 ; 23 , 355 ; 24 , 359 , 360 ; 25 , 364 ; 27 , 380 , 384 , 385 , 386 , 392 ; 29 , 400 , 404 ; 30 , 415 ; 2000 , 5 , 32 ; 10 , 58 ; 19 , 117 ; 26 , 150 ; 29 , 168 ; 29 , 169 ; 39 , 237 ; 49 , 300 ; 54 , 346 ; 54 , 349 ; 55 , 365 ; 57 , 372 ; 57 , 373 ; 59 , 379 ; 78 , 498 ; 84 , 534 ; 92 , 597 ; 92 , 598 ; 95 , 607 ; 95 , 611 ; 2001 , 2 , 2 ; 16 , 72 ) paragrahv 4 6. l&otilde;iget punktiga 5 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 5 ) isik , kes esitab avalduse &uuml;mberkruntimise tulemusena toimunud muudatuste kandmiseks kinnistusraamatusse . &rdquo;</s>
+</p>
+<p>
+<s>( 3 ) T&auml;iendatakse Eesti Vabariigi riigil&otilde;ivuseaduse paragrahv 4 7. l&otilde;iget punktiga 5 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 5 ) &uuml;mberkruntimiskava alusel tehtav sissekanne . &rdquo;</s>
+</p>
+<p>
+<s>( 4 ) T&auml;iendatakse Eesti Vabariigi rendiseaduse ( RT 1990 , 12 , 126 ) paragrahv 19 1. l&otilde;iget punktiga 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 4 ) kui kinnisasja &uuml;mberkruntimisel muutub oluliselt rendilepingu objekt . &rdquo;</s>
+</p>
+</body>
+   </text>
+</tei.2>

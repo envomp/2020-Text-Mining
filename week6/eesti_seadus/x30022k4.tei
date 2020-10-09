@@ -1,0 +1,2302 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kriminaalkoodeks ( terviktekst nov 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   14568</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kriminaalkoodeks ( terviktekst nov 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=155></tagusage>
+         <tagusage gi=p occurs=732></tagusage>
+         <tagusage gi=s occurs=913></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kriminaalkoodeks</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 7. mail 1992. a.</s>
+</p>
+<p>
+<s>( RT 1992 , 20 , 288 ; terviktekst RT I 2001 , 73 , 452 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. juunil 1992. a ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 526 ;</s>
+</p>
+<p>
+<s>01.10.2001 j&otilde;ust.01.11.2001 - RT I 2001 , 85 , 510.</s>
+</p>
+<p>
+<s>( T&otilde;lgitud on peat&uuml;kid 4 , 7 , 8 ja 11 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Isikuvastased kuriteod</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>Tahtlik tapmine</s>
+</p>
+<p>
+<s>Tahtliku tapmise eest - karistatakse vabadusekaotusega viiest kuni kaheteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Tahtlik tapmine raskendavail asjaoludel</s>
+</p>
+<p>
+<s>Tahtliku tapmise eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>1 ) omakasu ajendil v&otilde;i</s>
+</p>
+<p>
+<s>2 ) huligaansel ajendil v&otilde;i</s>
+</p>
+<p>
+<s>3 ) teise kuriteo varjamise v&otilde;i selle toimepanemise h&otilde;lbustamise eesm&auml;rgil v&otilde;i seoses v&auml;gistamisega v&otilde;i</s>
+</p>
+<p>
+<s>4 ) seoses kannatanu poolt teenistusliku v&otilde;i &uuml;hiskondliku kohustuse t&auml;itmisega v&otilde;i</s>
+</p>
+<p>
+<s>5 ) kahe v&otilde;i enama isiku suhtes v&otilde;i</s>
+</p>
+<p>
+<s>6 ) s&uuml;&uuml;dlasele teadvalt raseda naisisiku , rauga v&otilde;i lapseealise suhtes v&otilde;i</s>
+</p>
+<p>
+<s>7 ) eriti piinaval v&otilde;i eriti julmal v&otilde;i paljude inimeste elule ohtlikul viisil v&otilde;i</s>
+</p>
+<p>
+<s>8 ) isiku poolt , kes on varem toime pannud tahtliku tapmise , v&auml;lja arvatud k&auml;esoleva koodeksi paragrahvides 103 ja 104 etten&auml;htud tapmine , v&otilde;i</s>
+</p>
+<p>
+<s>9 ) l&otilde;hkeseadeldise v&otilde;i l&otilde;hkematerjali kasutamisega , - karistatakse vabadusekaotusega kaheksast kuni viieteistk&uuml;mne aastani v&otilde;i eluaegse vabadusekaotusega .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.24.01.97 - RT I 1997 , 5 , 30 ; 12.11.97 j&otilde;ust.01.01.98 - RT I 1997 , 86 , 1461 ; 13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 )</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Ema poolt oma vasts&uuml;ndinud lapse tapmine</s>
+</p>
+<p>
+<s>Ema poolt oma vasts&uuml;ndinud lapse tahtliku tapmise eest s&uuml;nnituse ajal v&otilde;i vahetult p&auml;rast s&uuml;nnitust - karistatakse vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Tapmine hingelise erutuse seisundis</s>
+</p>
+<p>
+<s>Tahtliku tapmise eest &auml;kki tekkinud tugeva hingelise erutuse seisundis , mille p&otilde;hjustas v&auml;givald v&otilde;i raske solvamine kannatanu poolt , - karistatakse vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>Tapmine h&auml;dakaitse piiride &uuml;letamisel</s>
+</p>
+<p>
+<s>Tapmise eest h&auml;dakaitse piiride &uuml;letamisel - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>Surma p&otilde;hjustamine ettevaatamatuse t&otilde;ttu</s>
+</p>
+<p>
+<s>Surma p&otilde;hjustamise eest ettevaatamatuse t&otilde;ttu - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>Enesetapmisele viimine</s>
+</p>
+<p>
+<s>Julma kohtlemise v&otilde;i m&otilde;nitamisega teise isiku enesetapmisele v&otilde;i selle katsele viimise eest - karistatakse vabadusekaotusega kolmest kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>&Uuml;liraske kehavigastuse tahtlik tekitamine</s>
+</p>
+<p>
+<s>( 1 ) Kehavigastuse tahtliku tekitamise eest , mis on eluohtlik v&otilde;i p&otilde;hjustas m&otilde;ne organi kaotuse , selle tegevuse lakkamise , vaimuhaiguse , t&ouml;&ouml;v&otilde;ime p&uuml;siva , mitte alla &uuml;he kolmandiku kaotusega seotud muu terviserikke , raseduse katkemise v&otilde;i n&auml;o parandamatu , inetuks tegeva rikke , - karistatakse vabadusekaotusega kahest kuni kuue aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest :</s>
+</p>
+<p>
+<s>1 ) kui sellega ettevaatamatuse t&otilde;ttu p&otilde;hjustati kannatanu surm v&otilde;i</s>
+</p>
+<p>
+<s>2 ) kui see pandi toime huligaansel ajendil v&otilde;i</s>
+</p>
+<p>
+<s>3 ) seoses kannatanu poolt oma teenistusliku v&otilde;i &uuml;hiskondliku kohustuse t&auml;itmisega v&otilde;i</s>
+</p>
+<p>
+<s>4 ) kahe v&otilde;i enama isiku suhtes v&otilde;i</s>
+</p>
+<p>
+<s>5 ) eriti piinaval v&otilde;i eriti julmal v&otilde;i paljude inimeste elule ohtlikul viisil v&otilde;i</s>
+</p>
+<p>
+<s>6 ) isiku poolt , kes on varem toime pannud tahtliku tapmise v&otilde;i tahtlikult tekitanud &uuml;liraske kehavigastuse , v&auml;lja arvatud k&auml;esoleva koodeksi paragrahvides 103 ja 104 etten&auml;htud tapmine ja paragrahv 109 1. l&otilde;ikes ja paragrahvis 110 etten&auml;htud &uuml;liraske kehavigastuse tekitamine , - karistatakse vabadusekaotusega viiest kuni k&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect;108 .</s><s>Raske kehavigastuse tahtlik tekitamine</s>
+</p>
+<p>
+<s>( 1 ) Kehavigastuse tahtliku tekitamise eest , mis ei ole eluohtlik ega p&otilde;hjustanud k&auml;esoleva koodeksi paragrahvis 107 etten&auml;htud tagaj&auml;rgi , kuid t&otilde;i kaasa pikaajalise terviserikke v&otilde;i terviserikke , mis on seotud t&ouml;&ouml;v&otilde;ime p&uuml;siva , alla &uuml;he kolmandiku olulise kaotusega , - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>1 ) seoses kannatanu poolt oma teenistusliku v&otilde;i &uuml;hiskondliku kohustuse t&auml;itmisega v&otilde;i</s>
+</p>
+<p>
+<s>2 ) kahe v&otilde;i enama isiku suhtes v&otilde;i</s>
+</p>
+<p>
+<s>3 ) eriti piinaval v&otilde;i eriti julmal v&otilde;i paljude inimeste elule ohtlikul viisil v&otilde;i</s>
+</p>
+<p>
+<s>4 ) isiku poolt , kes on varem toime pannud tahtliku tapmise v&otilde;i tahtlikult tekitanud &uuml;liraske v&otilde;i raske kehavigastuse , v&auml;lja arvatud k&auml;esoleva koodeksi paragrahvides 103 ja 104 etten&auml;htud tapmine ning paragrahvides 109 ja 110 etten&auml;htud &uuml;liraske v&otilde;i raske kehavigastuse tekitamine , - karistatakse vabadusekaotusega &uuml;hest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>Kehavigastuse tekitamine hingelise erutuse seisundis</s>
+</p>
+<p>
+<s>Raske v&otilde;i &uuml;liraske kehavigastuse tahtliku tekitamise eest &auml;kki tekkinud tugeva hingelise erutuse seisundis , mille p&otilde;hjustas v&auml;givald v&otilde;i raske solvamine kannatanu poolt , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>&Uuml;liraske kehavigastuse tekitamine h&auml;dakaitse piiride &uuml;letamisel</s>
+</p>
+<p>
+<s>&Uuml;liraske kehavigastuse tekitamise eest h&auml;dakaitse piiride &uuml;letamisel - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 111.</s><s>&Uuml;liraske kehavigastuse tekitamine ettevaatamatuse t&otilde;ttu</s>
+</p>
+<p>
+<s>&Uuml;liraske kehavigastuse tekitamise eest ettevaatamatuse t&otilde;ttu - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kuue kuuni .</s>
+</p>
+<p>
+<s>&sect; 112. ( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 113.</s><s>V&auml;givallateod isiku kallal</s>
+</p>
+<p>
+<s>Kerge kehavigastuse tahtliku tekitamise eest , samuti tahtliku l&ouml;&ouml;mise , peksmise v&otilde;i f&uuml;&uuml;silise valu p&otilde;hjustanud muu v&auml;givallateo eest - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 114.</s><s>Piinamine</s>
+</p>
+<p>
+<s>K&auml;esoleva koodeksi paragrahvis 113 etten&auml;htud tegude eest , kui need olid piinava iseloomuga , - karistatakse vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>&sect; 115.</s><s>V&auml;gistamine</s>
+</p>
+<p>
+<s>( 1 ) Sugu&uuml;henduse eest t&auml;isealise naisisikuga v&auml;givalla v&otilde;i v&auml;givallaga &auml;hvardamise abil v&otilde;i &auml;ra kasutades kannatanu abitut seisundit - karistatakse vabadusekaotusega kahest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;gistamise eest :</s>
+</p>
+<p>
+<s>1 ) isiku poolt , kes on varem toime pannud v&auml;gistamise v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>3 ) alaealise v&auml;gistamise eest v&otilde;i</s>
+</p>
+<p>
+<s>4 ) kui sellega kaasnes raske kehavigastuse tekitamine - karistatakse vabadusekaotusega kolmest kuni k&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;gistamise eest :</s>
+</p>
+<p>
+<s>1 ) kui sellega p&otilde;hjustati raske tagaj&auml;rg v&otilde;i</s>
+</p>
+<p>
+<s>2 ) lapseealise v&auml;gistamise eest - karistatakse vabadusekaotusega kaheksast kuni viieteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect; 115 <hi rend="sup">1</hi> .</s><s>Sugulise kire rahuldamine ebaloomulikul viisil</s>
+</p>
+<p>
+<s>( 1 ) Sugulise kire ebaloomulikul viisil rahuldamise eest v&auml;givalla v&otilde;i v&auml;givallaga &auml;hvardamise abil v&otilde;i &auml;ra kasutades kannatanu abitut seisundit , kui puuduvad k&auml;esoleva koodeksi paragrahvis 118 etten&auml;htud kuriteo tunnused , - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest teadvalt noorema kui kuueteistk&uuml;mneaastase isiku suhtes - karistatakse vabadusekaotusega kahest kuni kuue aastani .</s>
+</p>
+<p>
+<s>&sect; 116.</s><s>Sugu&uuml;hendus noorema kui neljateistk&uuml;mneaastase naissoost isikuga</s>
+</p>
+<p>
+<s>T&auml;isealise poolt sugu&uuml;hendusse astumise eest teadvalt noorema kui neljateistk&uuml;mneaastase naissoost isikuga k&auml;esoleva koodeksi paragrahvis 115 etten&auml;htud kuriteo tunnuste puudumisel - karistatakse arestiga v&otilde;i vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>&sect; 117.</s><s>Suguk&otilde;lvatu tegevus noorema kui kuueteistk&uuml;mneaastase isiku suhtes</s>
+</p>
+<p>
+<s>Suguk&otilde;lvatu tegevuse eest teadvalt noorema kui kuueteistk&uuml;mneaastase isiku suhtes - karistatakse arestiga v&otilde;i vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>&sect; 118.</s><s>Pederastia</s>
+</p>
+<p>
+<s>( 1 ) Pederastia eest v&auml;givalla v&otilde;i v&auml;givallaga &auml;hvardamise abil v&otilde;i &auml;ra kasutades kannatanu abitut seisundit - karistatakse vabadusekaotusega kahest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 2 ) Pederastia eest teadvalt noorema kui kuueteistk&uuml;mneaastase isikuga - karistatakse vabadusekaotusega kahest kuni k&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect; 119.</s><s>Suguhaigusesse nakatamine</s>
+</p>
+<p>
+<s>( 1 ) Sugu&uuml;henduse v&otilde;i muu tegevusega teise isiku teadvalt suguhaigusesse nakatamise ohtu asetamise eest - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Teise isiku nakatamise eest suguhaigusesse isiku poolt , kes teadis selle haiguse olemasolu enesel , - karistatakse arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes etten&auml;htud tegevuse eest isiku poolt , keda on varem karistatud teise isiku suguhaigusesse nakatamise eest , samuti kahe v&otilde;i enama isiku v&otilde;i alaealise nakatamise eest - karistatakse vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>&sect; 119 <hi rend="sup">1</hi> .</s><s>Suguhaiguse ravist k&otilde;rvalehoidumine</s>
+</p>
+<p>
+<s>Suguhaiguse ravist k&otilde;rvalehoidumise eest , mis j&auml;tkub p&auml;rast hoiatuse tegemist tervishoiuorgani poolt , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 119 <hi rend="sup">2</hi> .</s><s>AIDS-i viirusega nakatamine</s>
+</p>
+<p>
+<s>( 1 ) Teise isiku teadvalt AIDS-i nakatumise ohtu asetamise eest - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 2 ) Teise isiku nakatamise eest AIDS-i isiku poolt , kes teadis selle haiguse olemasolust enesel , - karistatakse vabadusekaotusega kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>&sect; 120.</s><s>Raseduse ebaseaduslik katkestamine ja ebaseaduslik steriliseerimine</s>
+</p>
+<p>
+<s>( 1 ) Raseda tahtel tema raseduse katkestamise eest naistearsti poolt hiljem , kui seda seaduse kohaselt v&otilde;ib teha , - karistatakse rahatrahviga v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 2 ) Raseda tahtel tema raseduse katkestamise eest isiku poolt , kellel ei ole seadusest tulenevat &otilde;igust rasedust katkestada - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kaks aastat .</s>
+</p>
+<p>
+<s>( 3 ) Raseda tahtel kauem kui 21 n&auml;dalat kestnud raseduse katkestamise eest isiku poolt , kellel ei ole seadusest tulenevat &otilde;igust rasedust katkestada - karistatakse vabadusekaotusega kuni neli aastat .</s>
+</p>
+<p>
+<s>( 4 ) Raseda tahte vastaselt tema raseduse katkestamise eest - karistatakse vabadusekaotusega kahest kuni kuue aastani .</s>
+</p>
+<p>
+<s>( 5 ) Isiku tahte vastaselt tema steriliseerimise eest - karistatakse vabadusekaotusega kahest kuni kuue aastani .</s>
+</p>
+<p>
+<s>( 25.11.98 j&otilde;ust.21.12.98 - RT I 1998 , 107 , 1766 )</s>
+</p>
+<p>
+<s>&sect; 120 <hi rend="sup">1</hi> .</s><s>V&otilde;&otilde;ra munaraku v&otilde;i sellest loodud embr&uuml;o &uuml;lekandmine naisele</s>
+</p>
+<p>
+<s>V&otilde;&otilde;ra munaraku v&otilde;i sellest loodud embr&uuml;o &uuml;lekandmise eest naisele kunstliku viljastamise ja embr&uuml;okaitse seadust rikkudes , samuti v&otilde;&otilde;ra munaraku v&otilde;i sellest valmistatud embr&uuml;o &uuml;lekandmise eraviisilise vahendamise eest - karistatakse rahatrahvi v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 11.06.97 j&otilde;ust.17.07.97 - RT I 1997 , 51 , 824 )</s>
+</p>
+<p>
+<s>&sect; 120 <hi rend="sup">2</hi> .</s><s>Keelatud toimingud embr&uuml;oga</s>
+</p>
+<p>
+<s>Naise kunstliku viljastamise v&otilde;i kehav&auml;liselt s&auml;ilitatava inimembr&uuml;oga teostatavate toimingute k&auml;igus :</s>
+</p>
+<p>
+<s>1 ) naise munaraku kunstliku viljastamise eest seemnerakuga , mis on v&auml;lja valitud selles sisalduva sugukromosoomi j&auml;rgi , v&auml;lja arvatud juhud , mil sugurakk on v&auml;lja valitud , hoidmaks &auml;ra lapse haigestumist raskesse soolisse p&auml;rilikku haigusesse v&otilde;i</s>
+</p>
+<p>
+<s>2 ) viljastatud munaraku tuuma asendamise eest m&otilde;ne teise embr&uuml;o , loote , elava v&otilde;i surnud inimese keharakuga eesm&auml;rgiga luua selle embr&uuml;o , loote , elava v&otilde;i surnud inimesega samase p&auml;riliku informatsiooniga inimembr&uuml;o v&otilde;i</s>
+</p>
+<p>
+<s>3 ) erineva p&auml;riliku informatsiooniga embr&uuml;ote &uuml;heks raku&uuml;henduseks liitmise eest , kui neist v&auml;hemalt &uuml;ks on inimembr&uuml;o , samuti inimembr&uuml;oga sellise raku liitmise eest , mis sisaldab teistsugust p&auml;rilikku informatsiooni kui embr&uuml;o rakud ja mis v&otilde;ib koos sellega edasi areneda v&otilde;i</s>
+</p>
+<p>
+<s>4 ) arenemisv&otilde;imelise embr&uuml;o loomise eest inimese munaraku viljastamisega looma seemnerakuga v&otilde;i looma munaraku viljastamisega inimese seemnerakuga - karistatakse rahatrahvi v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegutsemisalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 11.06.97 j&otilde;ust.17.07.97 - RT I 1997 , 51 , 824 )</s>
+</p>
+<p>
+<s>&sect; 121.</s><s>Lapsele alimentide maksmisest k&otilde;rvalehoidumine</s>
+</p>
+<p>
+<s>( 1 ) Vanema kuritahtliku k&otilde;rvalehoidumise eest lapsele kohtu poolt v&auml;ljam&otilde;istetud alimentide maksmisest - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest isiku poolt , kellel on karistatus lapsele alimentide maksmisest k&otilde;rvalehoidumise eest , - karistatakse vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>&sect; 122.</s><s>Vanemale alimentide maksmisest k&otilde;rvalehoidumine</s>
+</p>
+<p>
+<s>Lapse kuritahtliku k&otilde;rvalehoidumise eest elatanud v&otilde;i t&ouml;&ouml;v&otilde;imetule vanemale kohtu poolt v&auml;ljam&otilde;istetud alimentide maksmisest - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 123.</s><s>Eestkoste- v&otilde;i hooldus&otilde;iguste kuritarvitamine</s>
+</p>
+<p>
+<s>Eestkoste- v&otilde;i hooldus&otilde;iguste kasutamise eest omakasu eesm&auml;rgil eestkostetava v&otilde;i hooldatava kahjuks - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>&sect; 123 <hi rend="sup">1</hi> .</s><s>Lapse m&uuml;&uuml;mine v&otilde;i ostmine</s>
+</p>
+<p>
+<s>Lapse m&uuml;&uuml;mise v&otilde;i ostmise eest - karistatakse vabadusekaotusega kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 10.02.94 j&otilde;ust.11.03.94 - RT I 1994 , 12 , 202 )</s>
+</p>
+<p>
+<s>&sect; 124.</s><s>Lapse &uuml;mbervahetamine v&otilde;i vargus</s>
+</p>
+<p>
+<s>( 1 ) Lapse &uuml;mbervahetamise v&otilde;i varguse eest k&auml;ttemaksu , omakasu v&otilde;i muul isiklikul ajendil - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest isikute grupi poolt - karistatakse vabadusekaotusega viiest kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>&sect; 124 <hi rend="sup">1</hi> .</s><s>Pantvangi v&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Isiku pantvangi v&otilde;tmise v&otilde;i pantvangina kinnipidamise eest tapmise , kehavigastuse tekitamise v&otilde;i selle isiku kinnipidamise j&auml;tkamise &auml;hvardusel , sundimaks pantvangi vabastamise tingimusena riiki , rahvusvahelist organisatsiooni , f&uuml;&uuml;silist v&otilde;i juriidilist isikut v&otilde;i isikute gruppi mingi tegevuse toimepanemisele v&otilde;i sellest hoidumisele , - karistatakse vabadusekaotusega kuni k&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui see p&otilde;hjustas raske tagaj&auml;rje v&otilde;i pandi toime lapseealise suhtes , - karistatakse vabadusekaotusega kaheksast kuni viieteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>&sect; 124 <hi rend="sup">2</hi> .</s><s>Ebaseaduslik ps&uuml;hhiaatriahaiglasse paigutamine</s>
+</p>
+<p>
+<s>Teadvalt terve isiku ps&uuml;hhiaatriahaiglasse paigutamise eest - karistatakse vabadusekaotusega kuni kolme aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>&sect; 124 <hi rend="sup">3</hi> .</s><s>Ebaseaduslik vabaduse v&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Isikult ebaseaduslikult vabaduse v&otilde;tmise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui see oli seotud elule v&otilde;i tervisele ohtliku v&auml;givalla kasutamisega , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>&sect; 124 <hi rend="sup">4</hi> .</s><s>Geenidoonorlusele kallutamine</s>
+</p>
+<p>
+<s>Ainelise tasu pakkumisega v&otilde;i kahju tekitamisega v&otilde;i sellega &auml;hvardades inimese m&otilde;jutamise eest andma n&otilde;usolekut endalt koeproovi v&otilde;tmiseks geeniuuringute eesm&auml;rgil - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.08.01.2001 - RT I 2000 , 104 , 685 )</s>
+</p>
+<p>
+<s>&sect; 124 <hi rend="sup">5</hi> .</s><s>Ebaseaduslik inimuuringute tegemine</s>
+</p>
+<p>
+<s>Meditsiinilise v&otilde;i teadusliku uuringu tegemise eest inimesega , kes ei olnud selleks andnud oma kehtivat n&otilde;usolekut , - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.08.01.2001 - RT I 2000 , 104 , 685 )</s>
+</p>
+<p>
+<s>&sect; 125.</s><s>Eluohtlikus seisundis oleva isiku abita j&auml;tmine</s>
+</p>
+<p>
+<s>Eluohtlikus seisundis oleva isiku tahtlikult abita j&auml;tmise eest , kui see isik ise ei olnud suuteline tarvitusele v&otilde;tma enesealalhoiu abin&otilde;usid oma abituse t&otilde;ttu ja s&uuml;&uuml;dlasel oli kohustus ja v&otilde;imalus abi anda , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 126.</s><s>Haigele meditsiinilise abi mitteandmine</s>
+</p>
+<p>
+<s>Haigele m&otilde;juva p&otilde;hjuseta meditsiinilise abi mitteandmise eest meditsiini alal t&ouml;&ouml;taja poolt , kellel oli kohustus ja v&otilde;imalus sellist abi anda , kui selle tegevusetuse t&otilde;ttu saabus raske tagaj&auml;rg , - karistatakse vabadusekaotusega kuni kahe aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>&sect; 127.</s><s>Laeva kapteni poolt veeteel hukkumisohus olevale inimesele abi mitteandmine</s>
+</p>
+<p>
+<s>Laeva kapteni poolt merel v&otilde;i muul veeteel hukkumisohus olevale inimesele abi mitteandmise eest , kui sellist abi v&otilde;is anda t&otilde;sise ohuta oma reisijaile , meeskonnale v&otilde;i laevale ja kui selle tegevusetuse tagaj&auml;rjel saabus raske tagaj&auml;rg , - karistatakse vabadusekaotusega kuni kahe aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>&sect; 128.</s><s>&Auml;hvardamine</s>
+</p>
+<p>
+<s>&Auml;hvardamise eest tapmise v&otilde;i &uuml;liraske kehavigastuse tekitamisega v&otilde;i vara h&auml;vitamisega v&otilde;i rikkumisega olulises ulatuses , kui oli alus karta selle &auml;hvarduse t&auml;ideviimist , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui &auml;hvardati kasutada l&otilde;hkeseadeldist v&otilde;i l&otilde;hkematerjali v&otilde;i muud &uuml;ldohtlikku viisi , - karistatakse vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>&sect; 128 <hi rend="sup">1</hi> .</s><s>Kutsetegevuses teatavaks saanud saladuses hoitava teabe avaldamine</s>
+</p>
+<p>
+<s>Arsti , velskri , meditsiini&otilde;e , &auml;mmaemanda , ps&uuml;hholoogi , advokaadi , notari v&otilde;i muu isiku poolt talle kutsealases tegevuses teatavaks saanud saladuses hoitava ning isiku p&auml;ritolu , geeniandmeid , kunstlikku viljastamist , perekonda v&otilde;i tervisesse puutuva teabe avaldamise eest , kui sellega rikuti kutsetegevust reguleerivaid v&otilde;i muid &otilde;igusakte , - karistatakse rahatrahviga v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.08.01.2001 - RT I 2000 , 104 , 685 )</s>
+</p>
+<p>
+<s>&sect; 129.</s><s>Laim</s>
+</p>
+<p>
+<s>( 1 ) Teadvalt vale ja teist isikut h&auml;bistava v&auml;ljam&otilde;eldise levitamise eest - karistatakse rahatrahviga .</s>
+</p>
+<p>
+<s>( 2 ) Laimu eest tr&uuml;kis v&otilde;i muul teel paljudele isikutele k&auml;ttesaadavaks tehtud viisil , samuti riiklikule , &uuml;hiskondlikule v&otilde;i muule organisatsioonile esitatud avalduses v&otilde;i anon&uuml;&uuml;mkirjas - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 130.</s><s>Solvamine</s>
+</p>
+<p>
+<s>Teise isiku au ja v&auml;&auml;rikuse alandamise eest ebas&uuml;ndsas vormis - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Majandusalased kuriteod</s>
+</p>
+<p>
+<s>&sect; 146. ( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 146 <hi rend="sup">1</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 147.</s><s>Mittekvaliteetse toodangu v&auml;ljastamine</s>
+</p>
+<p>
+<s>( 1 ) Tehnilisele normile v&otilde;i kinnitatud retseptuurile mittevastava toodangu v&auml;ljastamise eest tootmis- , teenindus- , kaubandus- v&otilde;i toitlustusettev&otilde;ttest isiku poolt , kellele on pandud vastutus kvaliteetse toodangu v&auml;ljastamise eest , kui mittekvaliteetse toodangu v&auml;ljastamine p&otilde;hjustas ohu inimese elule v&otilde;i tervisele v&otilde;i avalikule julgeolekule , - karistatakse rahatrahviga .</s>
+</p>
+<p>
+<s>( 22.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 29 , 398 )</s>
+</p>
+<p>
+<s>( 2 ) Mittekvaliteetse toodangu v&auml;ljastamise eest , mis p&otilde;hjustas raske tagaj&auml;rje , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>&sect; 147 <hi rend="sup">1</hi> .</s><s>Mittekvaliteetne ehitamine</s>
+</p>
+<p>
+<s>Projektis etten&auml;htud tugevuse , vastupidavuse v&otilde;i ekspluatatsiooni kvaliteedi n&otilde;uetele mittevastava hoone v&otilde;i ehitise p&uuml;stitamise , samuti nende ekspluatatsiooni andmise eest isiku poolt , kellele on pandud vastutus kvaliteetse ehitamise eest , v&otilde;i oma kohustuste rikkumise eest j&auml;relevalve alal kvaliteetse ehitamise &uuml;le , kui k&auml;esolevas paragrahvis etten&auml;htud tegudega p&otilde;hjustati raske tagaj&auml;rg v&otilde;i oht inimese elule v&otilde;i tervisele , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>&sect; 148.</s><s>Ebaseaduslik ettev&otilde;tlus</s>
+</p>
+<p>
+<s>Tootmis- v&otilde;i teenindustegevuse eest alal , mille kohta kehtib erikeeld , samuti tegevusloa v&otilde;i litsentsita tegutsemise eest alal , kus selline tegevusluba v&otilde;i litsents on n&otilde;utav , kui nimetatud tegevuse eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust ja puuduvad k&auml;esoleva koodeksi paragrahvis &sect;-des 148 <hi rend="sup">7</hi> v&otilde;i 152 <hi rend="sup">3</hi> etten&auml;htud kuriteo tunnused , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 28.01.93 j&otilde;ust.04.02.93 - RT I 1993 , 7 , 103 ; 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">1</hi> .</s><s>Maksukorralduse seaduse ja maksuseaduse rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Maksuhaldurile seaduses s&auml;testatud informatsiooni , deklaratsiooni v&otilde;i dokumentide esitamata j&auml;tmise v&otilde;i mittet&auml;htaegse esitamise eest , kui see toimus tahtlikult v&otilde;i kui samasuguse rikkumise eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) Maksuhaldurile valeinformatsiooni v&otilde;i v&otilde;ltsitud dokumentide v&otilde;i deklaratsioonis valeandmete esitamise eest , kui see toimus tahtlikult v&otilde;i kui samasuguse rikkumise eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 3 ) Maksuhalduri ettekirjutuse t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest , kui see toimus tahtlikult v&otilde;i kui samasuguse rikkumise eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 4 ) Maksuhalduri tegevuse takistamise eest kontrolli teostamisel , kui see toimus tahtlikult v&otilde;i kui samasuguse rikkumise eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 5 ) Maksuseaduse kohaselt maksmisele kuuluva maksusumma t&auml;htajaks tasumata j&auml;tmisel v&otilde;i etten&auml;htust v&auml;iksema maksusumma tasumisel , kui see toimus tahtlikult v&otilde;i kui samasuguse rikkumise eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 6 ) Maksuseaduse kohaselt kinnipidamisele kuuluva maksusumma t&auml;htajaks &uuml;le kandmata j&auml;tmisel v&otilde;i etten&auml;htust v&auml;iksema maksusumma &uuml;lekandmisel , kui see toimus tahtlikult v&otilde;i kui samasuguse rikkumise eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 7 ) Maksumaksja v&otilde;i maksu kinnipidaja poolt oma maksev&otilde;imelisuse halvendamise v&otilde;i enda seaduses s&auml;testatud korras ja t&auml;htajal maksuhalduri asutuses registreerimata j&auml;tmise v&otilde;i maksuhalduri eest elu- , t&ouml;&ouml;- v&otilde;i tegevuskoha varjamise v&otilde;i dokumentide h&auml;vitamise eest eesm&auml;rgiga muuta maksu m&auml;&auml;ramine v&otilde;i sissen&otilde;udmine v&otilde;imatuks v&otilde;i seda raskendada , kui see toimus tahtlikult v&otilde;i kui samasuguse rikkumise eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 8 ) Maksukorralduse seadusega v&otilde;i maksuseadusega juriidilisele isikule v&otilde;i asutusele pandud kohustuse t&auml;itmata j&auml;tmise eest selleks kohustatud p&auml;deva ametiisiku poolt , kui see toimus tahtlikult v&otilde;i kui samasuguse rikkumise eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 9 ) Sama tegevuse eest isiku poolt , kes varem on pannud toime k&auml;esoleva paragrahvi 1. , 2. , 3. , 4. , 5. , 6. , 7. v&otilde;i 8. l&otilde;ikes etten&auml;htud kuriteo , millest ei ole m&ouml;&ouml;dunud k&auml;esoleva koodeksi &sect;-s 53 v&otilde;i karistusregistri seaduse ( RT I 1997 , 87 , 1467 ; 1998 , 111 , 1830 ) &sect; 25 1. l&otilde;ikes s&auml;testatud t&auml;htaeg , - karistatakse vabadusekaotusega &uuml;hest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 10 ) K&auml;esoleva paragrahvi 1. , 2. , 3. , 4. , 5. , 6. , 7 v&otilde;i 8. l&otilde;ikes etten&auml;htud tegevuse eest , kui selle tulemusel j&auml;i maksudena laekumata 1 000 000 krooni v&otilde;i enam , - karistatakse vabadusekaotusega kolmest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 09.05.2000 j&otilde;ust.01.06.2000 - RT I 2000 , 40 , 247 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">2</hi> .</s><s>Maksej&otilde;uetuse tahtlik p&otilde;hjustamine</s>
+</p>
+<p>
+<s>Tahtlikult oma maksev&otilde;ime olulise v&auml;hendamise v&otilde;i enda maksej&otilde;uetuks muutmise eest vara h&auml;vitamise v&otilde;i rikkumise , p&otilde;hjendamatu kinkimise v&otilde;i loovutamise v&otilde;i v&auml;lismaale paigutamise v&otilde;i p&otilde;hjendamatute kohustuste v&otilde;tmise teel , samuti soosides &uuml;hte kreeditori teisele v&otilde;lgniku poolt , kes on teadlik , et olemasolevate v&otilde;i oodatavate majandusraskuste t&otilde;ttu tema teod v&otilde;ivad kahjustada kreeditori huve , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">3</hi> .</s><s>Vara v&otilde;i v&otilde;lgade varjamine pankroti- v&otilde;i sissen&otilde;udemenetluses</s>
+</p>
+<p>
+<s>( 1 ) Pankroti- v&otilde;i sissen&otilde;udemenetluses v&otilde;lgniku poolt oma vara v&otilde;i v&otilde;lgade varjamine v&otilde;i nende v&otilde;i muude kreeditori jaoks t&auml;htsust omavate asjaolude kohta eksitavate v&otilde;i teadvalt valeandmete esitamise eest - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;lgnik vabastatakse karistusest , kui ta &otilde;iendab eksitavad v&otilde;i valeandmed v&otilde;i muul viisil hoiab &auml;ra kreeditorile kahjuliku tagaj&auml;rje saabumise enne , kui ta kinnitab kohtus vandega vara ja v&otilde;lgade nimekirja &otilde;igsust .</s>
+</p>
+<p>
+<s>( 08.01.96 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud tegude eest , kui sellega kaasnes kreeditorile oluline kahju v&otilde;i kohtus valevande andmine , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">4</hi> .</s><s>Raamatupidamise ebarahuldav korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Majandus&uuml;ksuste majandusalase , sealhulgas kaubandus- ja finantsalase tegevuse v&otilde;i vara kohta peetavat raamatupidamisarvestust ja aruandlust reguleerivates &otilde;igusaktides s&auml;testatud n&otilde;uete rikkumise eest , kui selle tagaj&auml;rjel pole v&otilde;imalik &otilde;igesti kindlaks teha majandus&uuml;ksuste tegevuse majanduslikke tulemusi , tulusid , kulusid , kasumit , kahjumit , v&otilde;lgnevust , maksev&otilde;imet v&otilde;i vara suurust , - karistatakse rahatrahviga v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 17.06.93 j&otilde;ust.20.07.93 - RT I 1993 , 43 , 620 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 08.01.96 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">5</hi> .</s><s>Raamatupidamisandmete moonutamine , varjamine ja h&auml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Majandus&uuml;ksuse majandusliku , sealhulgas kaubandusliku ja finantsalase tegevuse v&otilde;i vara kohta peetava raamatupidamisarvestuse ja aruannete andmete moonutamise , varjamise v&otilde;i h&auml;vitamise eest , kui selle tagaj&auml;rjel pole v&otilde;imalik kas osaliselt v&otilde;i t&auml;ielikult kindlaks teha majandus&uuml;ksuse tegevuse majanduslikke tulemusi , selle tulusid , kulusid , kasumit , kahjumit , v&otilde;lgnevust ja maksev&otilde;imet v&otilde;i vara suurust , - karistatakse rahatrahviga v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 17.06.93 j&otilde;ust.20.07.93 - RT I 1993 , 43 , 620 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 08.01.96 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">6</hi> .</s><s>Eba&otilde;igete andmete esitamine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalve&otilde;iguslikele riigiasutustele v&otilde;i nende m&auml;&auml;ratud komisjonidele , revidentidele v&otilde;i teistele p&auml;devatele ametiisikutele teadvalt eba&otilde;igete andmete esitamise eest majandus&uuml;ksuse tulude , kulude , kasumi , kahjumi , v&otilde;lgnevuse ja varade kohta - karistatakse rahatrahviga v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 17.06.93 j&otilde;ust.20.07.93 - RT I 1993 , 43 , 620 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 08.01.96 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>( 3 ) Raamatupidamise eest vastutav isik vabaneb karistusest k&auml;esoleva paragrahvi ja kriminaalkoodeksi paragrahvides 148 <hi rend="sup">4</hi> ja 148 <hi rend="sup">5</hi> nimetatud tegude eest kas t&auml;ielikult v&otilde;i osaliselt , kui ta teatab raamatupidamisandmete toimunud , teoksil olevast v&otilde;i kavatsetavast moonutamisest , varjamisest v&otilde;i h&auml;vitamisest &otilde;igeaegselt politseile v&otilde;i muule p&auml;devale organile .</s><s>&Otilde;igeaegne on teatamine ajal , millal saadud informatsioon on v&otilde;i oli oluliselt kasulik teo v&auml;ltimisel v&otilde;i teo toimepanijate kindlakstegemisel .</s>
+</p>
+<p>
+<s>( 17.06.93 j&otilde;ust.20.07.93 - RT I 1993 , 43 , 620 ; 08.01.96 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">7</hi> .</s><s>Loterii korraldamise n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>Loterii korraldamisel loterii korraldamise n&otilde;uete v&otilde;i korraldusloa v&auml;ljaandja poolt kehtestatud eritingimuste rikkumise eest v&otilde;i loterii korraldamise eest ilma korraldusloata , kui nimetatud tegevuse eest oli s&uuml;&uuml;dlase suhtes kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 15.06.94 j&otilde;ust.21.07.94 - RT I 1994 , 50 , 845 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">8</hi> .</s><s>Rahapesu t&otilde;kestamise seaduse n&otilde;uete mittet&auml;itmine</s>
+</p>
+<p>
+<s>( 1 ) Krediidi- v&otilde;i finantseerimisasutuse v&otilde;i rahapesu t&otilde;kestamise seaduse ( RT I 1998 , 110 , 1811 ; 2000 , 84 , 533 ) &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja t&ouml;&ouml;taja poolt rahapesu t&otilde;kestamise seaduses s&auml;testatud isikusamasuse tuvastamise kohustuse mittet&auml;itmise eest - karistatakse rahatrahviga koos teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 2 ) Krediidi- v&otilde;i finantseerimisasutuse juhi v&otilde;i kontaktisiku poolt rahapesukahtlusest rahapesu andmeb&uuml;roole tahtliku mitteteatamise eest - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni &uuml;he aastani koos vastaval ametikohal t&ouml;&ouml;tamise v&otilde;i vastaval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 3 ) Krediidi- v&otilde;i finantseerimisasutuse v&otilde;i rahapesu t&otilde;kestamise seaduse ( RT I 1998 , 110 , 1811 ; 2000 , 84 , 533 ) &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja juhi v&otilde;i kontaktisiku poolt rahapesu andmeb&uuml;roole teadvalt eba&otilde;igete andmete esitamise eest - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kahe aastani koos vastaval ametikohal t&ouml;&ouml;tamise v&otilde;i vastaval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>( 4 ) Krediidi- v&otilde;i finantseerimisasutuse v&otilde;i rahapesu t&otilde;kestamise seaduse ( RT I 1998 , 110 , 1811 ; 2000 , 84 , 533 ) &sect; 5 l&otilde;ikes 1 nimetatud ettev&otilde;tja juhi , kontaktisiku v&otilde;i muu t&ouml;&ouml;taja poolt isiku , kelle tegevuse suhtes on rahapesukahtlus , v&otilde;i kolmanda isiku informeerimise eest rahapesu andmeb&uuml;roole andmete edastamisest - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kahe aastani koos vastaval ametikohal t&ouml;&ouml;tamise v&otilde;i vastaval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 25.01.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 267 ; 18.10.2000 j&otilde;ust.17.11.2000 - RT I 2000 , 84 , 533 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">9</hi> .</s><s>Eba&otilde;igete andmete esitamine kohturegistri pidajale ja Eesti v&auml;&auml;rtpaberite keskregistri pidajale</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 57 , 373 )</s>
+</p>
+<p>
+<s>&Auml;riregistri pidajale , mittetulundus&uuml;hingute ja sihtasutuste registri pidajale , laevakinnistusraamatu pidajale , Eesti v&auml;&auml;rtpaberite keskregistri pidajale ning kommertspandiregistri pidajale eba&otilde;igete andmete tahtliku esitamise eest - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 11.02.98 j&otilde;ust.22.03.98 - RT I 1998 , 23 , 321 ; 14.06.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 57 , 373 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">10</hi> .</s><s>Eba&otilde;igete andmete esitamine osanikele , aktsion&auml;ridele , liikmetele v&otilde;i n&otilde;ukogule</s>
+</p>
+<p>
+<s>&Auml;ri&uuml;hingu juhatuse v&otilde;i n&otilde;ukogu liiget v&otilde;i likvideerijat , kes on osanikele v&otilde;i aktsion&auml;ridele v&otilde;i liikmetele tahtlikult esitanud valeandmeid &auml;ri&uuml;hingu varalise seisundi kohta v&otilde;i &auml;ri&uuml;hingu v&otilde;i sihtasutuse juhatuse liiget , kes on n&otilde;ukogule tahtlikult esitanud valeandmeid &auml;ri&uuml;hingu v&otilde;i sihtasutuse varalise seisundi kohta - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 17.06.98 j&otilde;ust.10.07.98 - RT I 1998 , 59 , 941 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">11</hi> .</s><s>Teatamis- v&otilde;i avaldamiskohustuse j&auml;rgimata j&auml;tmine</s>
+</p>
+<p>
+<s>Osa&uuml;hingu v&otilde;i aktsiaseltsi juhatuse liiget , kes ei kutsu kokku osanike koosolekut v&otilde;i aktsion&auml;ride &uuml;ldkoosolekut , kui bilansist selgub , et vara on v&auml;hem kui pool osa- v&otilde;i aktsiakapitalist v&otilde;i vara on alla seadusega kehtestatud osa- v&otilde;i aktsiakapitali alamm&auml;&auml;ra , samuti &auml;ri&uuml;hingu , mittetulundus&uuml;hingu v&otilde;i sihtasutuse juhatuse liiget v&otilde;i likvideerijat , kes ei esitanud seaduses s&auml;testatud pankrotiavaldust , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 17.06.98 j&otilde;ust.10.07.98 - RT I 1998 , 59 , 941 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">12</hi> .</s><s>&Auml;risaladuse avaldamine</s>
+</p>
+<p>
+<s>Osa&uuml;hingu v&otilde;i aktsiaseltsi juhatuse v&otilde;i n&otilde;ukogu liiget v&otilde;i likvideerijat , kes on &otilde;igustamatult avaldanud talle teatavaks saanud &uuml;hingu &auml;risaladuse , samuti isikut , kes kasutab talle sel viisil teatavaks saanud &auml;risaladust , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 15.02.95 j&otilde;ust.01.09.95 - RT I 1995 , 26 , 355 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">13</hi> .</s><s>Audiitori vastutus</s>
+</p>
+<p>
+<s>Audiitorit , kes esitab aruandes tahtlikult eba&otilde;igesti talle audiitorkontrolli teostamisel teatavaks saanud asjaolusid , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 15.02.95 j&otilde;ust.01.09.95 - RT I 1995 , 26 , 355 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">14</hi> .</s><s>Investeerimisfondi fondijuhi vastutus</s>
+</p>
+<p>
+<s>Investeerimisfondi fondijuhti , kes on investeerimisfondi vara investeerimisel tahtlikult rikkunud seaduses s&auml;testatud piiranguid , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 09.04.97 j&otilde;ust.19.05.97 - RT I 1997 , 34 , 535 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">15</hi> .</s><s>Rahapesu</s>
+</p>
+<p>
+<s>( 1 ) Rahapesu eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest :</s>
+</p>
+<p>
+<s>1 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) korduvalt - karistatakse vabadusekaotusega kahest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 3 ) Rahapesu eest :</s>
+</p>
+<p>
+<s>1 ) suures ulatuses v&otilde;i</s>
+</p>
+<p>
+<s>2 ) kuritegeliku &uuml;henduse poolt - karistatakse vabadusekaotusega kolmest kuni k&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 25.01.99 j&otilde;ust.01.07.99 - RT I 1999 , 16 , 267 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">16</hi> .</s><s>Turguvalitseva seisundi kuritarvitamine</s>
+</p>
+<p>
+<s>Juriidilise isiku juhatuse , seda asendava organi v&otilde;i n&otilde;ukogu liikme poolt eba&otilde;iglaste &auml;ritingimuste kehtestamise v&otilde;i ostjate kahjuks tootmise , teenindamise , kaubaturu , tehnilise arengu v&otilde;i investeerimise piiramise v&otilde;i muu turguvalitseva seisundi otsest v&otilde;i kaudset kuritarvitamist kaubaturul p&otilde;hjustava tegevuse eest - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 05.06.2001 j&otilde;ust.01.10.2001 - RT I 2001 , 56 , 332 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">17</hi> .</s><s>Konkurentsi kahjustav kokkulepe , tegevus v&otilde;i otsus</s>
+</p>
+<p>
+<s>Juriidilise isiku juhatuse , seda asendava organi v&otilde;i n&otilde;ukogu liikme poolt konkurentsi kahjustava kokkuleppe , tegevuse v&otilde;i otsuse keelu rikkumise eest , samuti erandit vajava kokkuleppe , tegevuse v&otilde;i otsuse eest ilma erandi loata v&otilde;i erandi loa tingimuste rikkumise eest - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 05.06.2001 j&otilde;ust.01.10.2001 - RT I 2001 , 56 , 332 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">18</hi> .</s><s>Koondumisega seotud kohustuste t&auml;itmata j&auml;tmine</s>
+</p>
+<p>
+<s>Juriidilise isiku juhatuse , seda asendava organi v&otilde;i n&otilde;ukogu liikme poolt koondumisest t&auml;htaegselt teatamata j&auml;tmise , samuti koondumise keelu v&otilde;i koondumise loa tingimuste rikkumise eest - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 05.06.2001 j&otilde;ust.01.10.2001 - RT I 2001 , 56 , 332 )</s>
+</p>
+<p>
+<s>&sect; 148 <hi rend="sup">19</hi> .</s><s>Eri- v&otilde;i ainu&otilde;igust v&otilde;i olulist vahendit omava juriidilise isiku poolt raamatupidamises selge vahe mittehoidmine</s>
+</p>
+<p>
+<s>Juriidilise isiku juhatuse , seda asendava organi v&otilde;i n&otilde;ukogu liikme poolt eri- v&otilde;i ainu&otilde;igust v&otilde;i olulist vahendit omava juriidilise isiku raamatupidamises erinevate p&otilde;hi- ja lisategevusalade vahel selge vahe mittehoidmist p&otilde;hjustava tegevuse eest - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 05.06.2001 j&otilde;ust.01.10.2001 - RT I 2001 , 56 , 332 )</s>
+</p>
+<p>
+<s>&sect; 149.</s><s>Kodusel teel valmistatava kange alkohoolse joogi ajamine , turustamine v&otilde;i hoidmine</s>
+</p>
+<p>
+<s>Puskari , meski v&otilde;i muu kodusel teel valmistatava kange alkohoolse joogi ajamise v&otilde;i hoidmise eest turustamise eesm&auml;rgil v&otilde;i selle ajamiseks kasutatava aparaadi valmistamise v&otilde;i hoidmise eest turustamise eesm&auml;rgil , samuti t&auml;hendatud alkohoolsete jookide v&otilde;i aparaatide turustamise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>&sect; 149 <hi rend="sup">1</hi> .</s><s>Alkoholi ebaseaduslik tootmine</s>
+</p>
+<p>
+<s>( 1 ) Alkoholi , mille etanoolisisaldus on &uuml;le 15% mahust , ebaseadusliku tootmise eest turustamise eesm&auml;rgil tegevusloata k&auml;esoleva koodeksi paragrahvis 149 etten&auml;htud kuriteo tunnuste puudumisel - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest :</s>
+</p>
+<p>
+<s>1 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isiku poolt , kes on varem toime pannud k&auml;esoleva paragrahvi l&otilde;ikes 1 etten&auml;htud kuriteo , - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 18.12.96 j&otilde;ust.24.01.97 - RT I 1997 , 5 , 30 )</s>
+</p>
+<p>
+<s>&sect; 149 <hi rend="sup">2</hi> .</s><s>Tubakatoodete k&auml;itlemise korra rikkumine</s>
+</p>
+<p>
+<s>Maksum&auml;rgiga m&auml;rgistamata v&otilde;i teistele kohustuslikele n&otilde;uetele mittevastavas m&uuml;&uuml;gipakendis tubakatootega kauplemise , hoidmise , ladustamise v&otilde;i edasitoimetamise eest suures ulatuses - karistatakse rahatrahviga v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 23.11.94 j&otilde;ust.30.12.94 - RT I 1994 , 91 , 1529 )</s>
+</p>
+<p>
+<s>&sect; 152. ( Kehtetu - 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 156 )</s>
+</p>
+<p>
+<s>&sect; 152 <hi rend="sup">1</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 152 <hi rend="sup">2</hi> .</s><s>( Kehtetu - 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 156 )</s>
+</p>
+<p>
+<s>&sect; 152 <hi rend="sup">3</hi> .</s><s>Metallide kokkuostu , ekspordi , reekspordi v&otilde;i nendega kauplemise eeskirjade rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Musta v&otilde;i v&auml;rvilise metalli v&otilde;i vanametalli v&otilde;i metallij&auml;&auml;tmete kokkuostu , ekspordi , reekspordi v&otilde;i nendega kauplemise eeskirjade rikkumise eest , kui s&uuml;&uuml;dlase suhtes oli samasuguse tegevuse eest kohaldatud halduskaristust , - karistatakse rahatrahviga v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest isiku poolt , kellel on karistatus k&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud kuriteo eest , - karistatakse vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 3 ) Musta v&otilde;i v&auml;rvilise metalli v&otilde;i vanametalli v&otilde;i metallij&auml;&auml;tmete kokkuostu , ekspordi , reekspordi v&otilde;i nendega kauplemise eeskirjade rikkumise eest suures ulatuses , - karistatakse vabadusekaotusega &uuml;hest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 28.01.93 j&otilde;ust.04.02.93 - RT I 1993 , 7 , 103 )</s>
+</p>
+<p>
+<s>&sect; 153. ( Tunnistatud kehtivuse kaotanuks Eesti Vabariigi &Uuml;lemn&otilde;ukogu Presiidiumi 1990. aasta 13. detsembri seadlusega . )</s>
+</p>
+<p>
+<s>&sect; 153 <hi rend="sup">1</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks Eesti NSV &Uuml;lemn&otilde;ukogu Presiidiumi 1977. aasta 25. veebruari seadlusega . )</s>
+</p>
+<p>
+<s>&sect; 154. ( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 154 <hi rend="sup">1</hi> .</s><s>Maaomandi&otilde;iguse rikkumine</s>
+</p>
+<p>
+<s>Maat&uuml;ki omavolilise h&otilde;ivamise v&otilde;i vahetamise eest , samuti maat&uuml;ki ostmise ja m&uuml;&uuml;mise , pantimise , kinkimise , rentimise v&otilde;i muu tegevuse eest , mis rikub omandi&otilde;igust maale , - karistatakse rahatrahviga .</s>
+</p>
+<p>
+<s>&sect; 154 <hi rend="sup">2</hi> .</s><s>Maakasutuse n&otilde;uete v&otilde;i maakatastri pidamise korra rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Maa ja mulla kaitse v&otilde;i maakasutuse muude n&otilde;uete v&otilde;i maakatastri pidamise korra rikkumise eest , kui sellega p&otilde;hjustati oluline kahju v&otilde;i kui s&uuml;&uuml;dlase suhtes oli samasuguse rikkumise eest kohaldatud distsiplinaar- v&otilde;i halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui sellega p&otilde;hjustati suur kahju v&otilde;i muu raske tagaj&auml;rg , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 12.10.94 j&otilde;ust.08.11.94 - RT I 1994 , 74 , 1324 )</s>
+</p>
+<p>
+<s>&sect; 154 <hi rend="sup">3</hi> .</s><s>Maap&otilde;ue kaitse ja kasutamise n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Maap&otilde;ue kaitse ja kasutamise n&otilde;uete rikkumise eest , kui sellega p&otilde;hjustati oluline kahju , v&otilde;i kui s&uuml;&uuml;dlase suhtes oli samasuguse rikkumise eest kohaldatud distsiplinaar- v&otilde;i halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui sellega p&otilde;hjustati suur kahju v&otilde;i muu raske tagaj&auml;rg , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>&sect; 155.</s><s>Ebaseaduslik raie</s>
+</p>
+<p>
+<s>( 1 ) Metsa , puude v&otilde;i p&otilde;&otilde;saste ebaseadusliku raie eest , kui sellega p&otilde;hjustati oluline kahju keskkonnale v&otilde;i kui s&uuml;&uuml;dlase suhtes oli samasuguse rikkumise eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest :</s>
+</p>
+<p>
+<s>1 ) kui sellega p&otilde;hjustati suur kahju keskkonnale v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isiku poolt , kes on varem toime pannud k&auml;esolevas paragrahvis etten&auml;htud kuriteo , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 04.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 193 )</s>
+</p>
+<p>
+<s>&sect; 155 <hi rend="sup">1</hi> .</s><s>Metsa , puude v&otilde;i p&otilde;&otilde;saste tahtlik h&auml;vitamine v&otilde;i kahjustamine</s>
+</p>
+<p>
+<s>( 1 ) Metsa , puude v&otilde;i p&otilde;&otilde;saste tahtliku h&auml;vitamise v&otilde;i kahjustamise eest , kui sellega p&otilde;hjustati oluline kahju keskkonnale , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui sellega p&otilde;hjustati suur kahju keskkonnale , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 04.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 193 )</s>
+</p>
+<p>
+<s>&sect; 155 <hi rend="sup">2</hi> .</s><s>Metsa , puude v&otilde;i p&otilde;&otilde;saste h&auml;vitamine v&otilde;i kahjustamine ettevaatamatusest</s>
+</p>
+<p>
+<s>Metsa , puude v&otilde;i p&otilde;&otilde;saste h&auml;vitamise v&otilde;i kahjustamise eest ettevaatamatusest , kui sellega p&otilde;hjustati suur kahju keskkonnale , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 04.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 193 )</s>
+</p>
+<p>
+<s>&sect; 155 <hi rend="sup">3</hi> .</s><s>Metsamaterjali veo v&otilde;i kasvava metsa raie&otilde;iguse ja metsamaterjaliga sooritatavate tehingute ning kasvava metsa raieks andmise n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>Metsamaterjali veo v&otilde;i kasvava metsa raie&otilde;iguse ja metsamaterjaliga sooritatavate tehingute ning kasvava metsa raieks andmise n&otilde;uete rikkumise eest , kui s&uuml;&uuml;dlase suhtes oli samasuguse rikkumise eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 04.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 193 )</s>
+</p>
+<p>
+<s>&sect; 156.</s><s>K&uuml;lvi v&otilde;i istandiku kahjustamine</s>
+</p>
+<p>
+<s>K&uuml;lvi v&otilde;i puuvilja- , marjap&otilde;&otilde;sa- v&otilde;i muu istandiku tahtliku kahjustamise eest , kui sellega tahtlikult v&otilde;i ettevaatamatuse t&otilde;ttu p&otilde;hjustati suur varaline kahju , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 157.</s><s>Loodusliku loomastiku kaitse ja kasutamise n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Jahiuluki , kala v&otilde;i muu loodusliku loomastiku kaitse n&otilde;uete v&otilde;i k&uuml;ttimise , p&uuml;&uuml;gi v&otilde;i kasutamise muude n&otilde;uete rikkumise eest , kui sellega p&otilde;hjustati oluline kahju keskkonnale v&otilde;i kui s&uuml;&uuml;dlase suhtes oli samasuguse rikkumise eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui sellega p&otilde;hjustati suur kahju keskkonnale , samuti ebaseadusliku jahipidamise v&otilde;i kalap&uuml;&uuml;gi eest &uuml;ldohtlikul viisil , - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 04.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 193 )</s>
+</p>
+<p>
+<s>&sect; 158.</s><s>Veeobjekti saastamine , risustamine v&otilde;i veehulga lubamatu v&auml;hendamine v&otilde;i atmosf&auml;&auml;ri&otilde;hu saastamine</s>
+</p>
+<p>
+<s>( 1 ) Veeobjekti saastamise , risustamise v&otilde;i veehulga lubamatu v&auml;hendamise eest , kui sellega p&otilde;hjustati oluline kahju , samuti atmosf&auml;&auml;ri&otilde;hu saastamise eest , kui sellega p&otilde;hjustati oluline kahju , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui sellega p&otilde;hjustati suur kahju v&otilde;i muu raske tagaj&auml;rg , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>&sect; 158 <hi rend="sup">1</hi> .</s><s>Kalavarude h&auml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Kalavarude h&auml;vitamise eest kalavarude kaitseks kehtestatud eeskirjade rikkumise tagaj&auml;rjel , kui sellega p&otilde;hjustati oluline kahju kalamajandusele , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui sellega p&otilde;hjustati suur kahju kalamajandusele , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>&sect; 158 <hi rend="sup">2</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 158 <hi rend="sup">3</hi> .</s><s>Ebaseaduslik majandus- v&otilde;i uurimistegevus majandusv&ouml;&ouml;ndis</s>
+</p>
+<p>
+<s>Loodusvarade ebaseadusliku uurimise v&otilde;i kasutamise eest Eesti Vabariigi majandusv&ouml;&ouml;ndis , kui sellega p&otilde;hjustati oluline kahju , v&otilde;i kui s&uuml;&uuml;dlase suhtes oli samasuguse tegevuse eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>&sect; 159.</s><s>Postimaksum&auml;rgi v&otilde;i transpordidokumendi v&otilde;ltsimine v&otilde;i v&otilde;ltsitud postimaksum&auml;rgi v&otilde;i transpordidokumendi kasutamine v&otilde;i k&auml;ibelelaskmine</s>
+</p>
+<p>
+<s>( 1 ) Postm&auml;rgi , kuigi see oli k&auml;ibelt k&otilde;rvaldatud v&otilde;i ei olnud kasutamisel , postiteenistuses kasutatava isikut&otilde;endi , vastuskupongi , vinjeti v&otilde;i frankeerimis- v&otilde;i tr&uuml;kimasina postm&auml;rgij&auml;ljendi v&otilde;ltsimise eest omakasu ajendil v&otilde;i postiteenistuses kasutamise eesm&auml;rgil , samuti teadvalt v&otilde;ltsitud postimaksum&auml;rgi k&auml;ibelelaskmise eest s&uuml;stemaatiliselt v&otilde;i selle kasutamise eest postiteenistuses - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Raudtee- , vee- v&otilde;i muu transpordi s&otilde;idupileti v&otilde;i veodokumendi v&otilde;ltsimise eest omakasu ajendil - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 )</s>
+</p>
+<p>
+<s>&sect; 159 <hi rend="sup">1</hi> .</s><s>Maksum&auml;rgi v&otilde;ltsimine v&otilde;i teadvalt v&otilde;ltsitud maksum&auml;rgiga kauba hoidmine , edasitoimetamine v&otilde;i m&uuml;&uuml;mine</s>
+</p>
+<p>
+<s>( 1 ) Maksum&auml;rgi , v&auml;lja arvatud k&auml;esoleva koodeksi paragrahvis 159 t&auml;hendatud maksum&auml;rgi v&otilde;ltsimise v&otilde;i teadvalt v&otilde;ltsitud maksum&auml;rgiga kauba hoidmise v&otilde;i edasitoimetamise v&otilde;i m&uuml;&uuml;mise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest suures ulatuses v&otilde;i isikute grupi poolt - karistatakse vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Ametialased kuriteod</s>
+</p>
+<p>
+<s>&sect; 160.</s><s>Ametiisiku m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Ametiisik on isik , kellel on ametiseisund &uuml;ksk&otilde;ik millisel omandivormil p&otilde;hinevas asutuses , ettev&otilde;ttes v&otilde;i organisatsioonis , kui temale on riigi v&otilde;i omaniku poolt pandud haldamis- , j&auml;relevalve- , juhtimis- , operatiivsed , organisatsioonilised , materiaalsete v&auml;&auml;rtuste liikumist korraldavad v&otilde;i v&otilde;imuesindaja &uuml;lesanded .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva koodeksi paragrahv 164 <hi rend="sup">2</hi> rakendamisel on ametiisikuna k&auml;sitatud korruptsioonivastase seaduse ( RT I 1995 , 14 , 170 ; 68 , 1142 ) paragrahvis 4 loetletud isikuid .</s>
+</p>
+<p>
+<s>( 19.01.95 j&otilde;ust.20.02.95 - RT I 1995 , 14 , 170 )</s>
+</p>
+<p>
+<s>&sect; 161.</s><s>Ametiseisundi kuritarvitamine</s>
+</p>
+<p>
+<s>Ametiisiku poolt oma ametiseisundi tahtliku &auml;rakasutamise eest , kui sellega p&otilde;hjustati oluline kahju isiku , ettev&otilde;tte , asutuse v&otilde;i organisatsiooni seadusega kaitstud &otilde;igustele ja huvidele v&otilde;i riigi huvidele , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 ; 08.01.96 nr. 90 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>&sect; 161 <hi rend="sup">1</hi> .</s><s>V&otilde;imuliialdus</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>Oma ametialaseid &uuml;lesandeid t&auml;itva ametiisiku poolt relva ebaseadusliku kasutamise , v&auml;givalla tarvitamise v&otilde;i kannatanut piinava v&otilde;i solvava teo eest - karistatakse vabadusekaotusega kuni kuue aastani .</s>
+</p>
+<p>
+<s>&sect; 161 <hi rend="sup">2</hi> .</s><s>Emitendi v&auml;&auml;rtpaberit ja sellise v&auml;&auml;rtpaberi emitenti puudutava siseteabe kasutamine</s>
+</p>
+<p>
+<s>Siseteavet kasutades emitendi v&auml;&auml;rtpaberitega oma nimel v&otilde;i kolmanda isiku kaudu tehingu tegemise , siseteabe kolmandale isikule &otilde;igustamatu edastamise v&otilde;i siseteabe alusel kolmandale isikule tehingu tegemise soovituse andmise eest sellist siseteavet omava isiku poolt - karistatakse rahatrahviga v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 526 )</s>
+</p>
+<p>
+<s>&sect; 161 <hi rend="sup">3</hi> .</s><s>Reguleeritud v&auml;&auml;rtpaberituruga manipuleerimine</s>
+</p>
+<p>
+<s>Reguleeritud v&auml;&auml;rtpaberituruga manipuleerimise eest - karistatakse rahatrahviga v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 526 )</s>
+</p>
+<p>
+<s>&sect; 162.</s><s>Ametialane lohakus</s>
+</p>
+<p>
+<s>Ametiisiku poolt oma ametialaste kohustuste t&auml;itmata j&auml;tmise v&otilde;i mittevastava t&auml;itmise eest nendesse kohusetundetu v&otilde;i hooletu suhtumise tagaj&auml;rjel , kui sellega p&otilde;hjustati suur varaline kahju v&otilde;i muu raske tagaj&auml;rg isiku , ettev&otilde;tte , asutuse v&otilde;i organisatsiooni seadusega kaitstud &otilde;igustele ja huvidele v&otilde;i riigi huvidele , - karistatakse rahatrahviga v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>&sect; 162 <hi rend="sup">1</hi> .</s><s>Seadusega kehtestatud t&ouml;&ouml;koha- , tegevus- v&otilde;i toimingupiirangute rikkumine</s>
+</p>
+<p>
+<s>Seadusega kehtestatud t&ouml;&ouml;koha- , tegevus- v&otilde;i toimingupiirangute rikkumise eest , kui :</s>
+</p>
+<p>
+<s>1 ) sellega p&otilde;hjustati oluline varaline kahju v&otilde;i muu raske tagaj&auml;rg isiku , riigi v&otilde;i kohaliku omavalitsuse seadusega kaitstud &otilde;igustele v&otilde;i huvidele v&otilde;i kui</s>
+</p>
+<p>
+<s>2 ) s&uuml;&uuml;dlasele oli samasuguse tegevuse eest kohaldatud halduskaristust , - karistatakse vabadusekaotusega kuni kahe aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise v&otilde;i avalikus teenistuses olemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 07.06.2001 j&otilde;ust.03.07.2001 - RT I 2001 , 58 , 357 )</s>
+</p>
+<p>
+<s>&sect; 162 <hi rend="sup">2</hi> .</s><s>Korruptsiooniohtlikust suhtest teatamata j&auml;tmine</s>
+</p>
+<p>
+<s>Korruptsiooniohtlikust suhtest teatamata j&auml;tmise eest , kui</s>
+</p>
+<p>
+<s>1 ) sellega p&otilde;hjustati oluline varaline kahju v&otilde;i muu raske tagaj&auml;rg isiku , riigi v&otilde;i kohaliku omavalitsuse seadusega kaitstud &otilde;igustele v&otilde;i huvidele v&otilde;i kui</s>
+</p>
+<p>
+<s>2 ) s&uuml;&uuml;dlasele oli samasuguse tegevuse eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni &uuml;he aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise v&otilde;i avalikus teenistuses olemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 162 <hi rend="sup">3</hi> .</s><s>Majanduslike huvide deklaratsioonide kogumise , hoidmise ja kontrolli teostamisega seotud &uuml;lesannete t&auml;itmata j&auml;tmine</s>
+</p>
+<p>
+<s>Asutuse juhi v&otilde;i muu korruptsioonivastases seaduses nimetatud majanduslike huvide deklaratsiooni kogumise , hoidmise v&otilde;i kontrolli teostamise eest vastutava isiku poolt majanduslike huvide deklaratsioonide kogumise , hoidmise v&otilde;i kontrolliga seotud &uuml;lesannete t&auml;itmata j&auml;tmise v&otilde;i mittekohase t&auml;itmise eest , kui sellega p&otilde;hjustati oluline varaline kahju v&otilde;i muu raske tagaj&auml;rg isiku , riigi v&otilde;i kohaliku omavalitsuse seadusega kaitstud &otilde;igustele v&otilde;i huvidele , - karistatakse vabadusekaotusega kuni kahe aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise v&otilde;i avalikus teenistuses olemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 163. ( Tunnistatud kehtivuse kaotanuks Eesti NSV &Uuml;lemn&otilde;ukogu Presiidiumi 1962. aasta 5. novembri seadlusega . )</s>
+</p>
+<p>
+<s>&sect; 164.</s><s>Altk&auml;emaksu v&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Vara , varalise &otilde;iguse v&otilde;i muu varalise kasu altk&auml;emaksuna saamise eest isiklikult v&otilde;i vahendaja kaudu altk&auml;emaksu andja huvides mingi teo toimepanemise v&otilde;i toime panemata j&auml;tmise eest , mida ametiisik pidi tegema v&otilde;i v&otilde;is teha oma ametiseisundit kasutades , - karistatakse vabadusekaotusega kuni nelja aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest :</s>
+</p>
+<p>
+<s>1 ) korduvalt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>3 ) suures ulatuses v&otilde;i</s>
+</p>
+<p>
+<s>4 ) v&auml;ljapressimisega - karistatakse vabadusekaotusega kuni seitsme aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>( 3 ) Altk&auml;emaksu v&otilde;tja vabastatakse karistusest , kui ta esimesena p&auml;rast vara , varalise &otilde;iguse v&otilde;i muu varalise kasu saamist , kuid enne altk&auml;emaksu andja huvides teo toimepanemist v&otilde;i toime panemata j&auml;tmist vabatahtlikult teatas toimunust kirjalikult .</s>
+</p>
+<p>
+<s>( 08.01.96 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>&sect; 164 <hi rend="sup">1</hi> .</s><s>Altk&auml;emaksu vahendus</s>
+</p>
+<p>
+<s>( 1 ) Altk&auml;emaksu vahenduse eest - karistatakse vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>( 2 ) Altk&auml;emaksu vahenduse eest - karistatakse vabadusekaotusega kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 3 ) Altk&auml;emaksu vahendaja vabastatakse karistusest , kui temalt altk&auml;emaksu vahendust v&auml;lja pressiti v&otilde;i kui ta p&auml;rast altk&auml;emaksu vahendust , kuid enne altk&auml;emaksu andja huvides altk&auml;emaksu saaja poolt teo toimepanemist v&otilde;i toime panemata j&auml;tmist esimesena vabatahtlikult teatas toimunust kirjalikult .</s>
+</p>
+<p>
+<s>( 08.01.96 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>&sect; 164 <hi rend="sup">2</hi> .</s><s>Korruptiivne tegu</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>( 1 ) Korruptiivne tegu k&auml;esoleva seaduse t&auml;henduses on ametiisiku poolt korruptiivse tulu saamise v&otilde;i muul omakasup&uuml;&uuml;dlikul eesm&auml;rgil oma ametiseisundit kasutades p&otilde;hjendamatute v&otilde;i &otilde;igusvastaste otsuste v&otilde;i toimingute tegemine v&otilde;i p&otilde;hjendatud &otilde;igusp&auml;raste otsuste v&otilde;i toimingute tegemata j&auml;tmine .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>( 2 ) Korruptiivse teo eest - karistatakse rahatrahvi v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmise v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>( 3 ) Korruptiivse teo eest , kui sellega tekitatakse olulist kahju , - karistatakse rahatrahviga &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmise v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>( 4 ) Sama teo eest :</s>
+</p>
+<p>
+<s>1 ) korduvalt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>3 ) kui sellega tekitatakse suurt kahju v&otilde;i</s>
+</p>
+<p>
+<s>4 ) v&auml;ljapressimisega - karistatakse vabadusekaotusega kuni kuue aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 19.01.95 j&otilde;ust.20.02.95 - RT I 1995 , 14 , 170 )</s>
+</p>
+<p>
+<s>&sect; 164 <hi rend="sup">3</hi> .</s><s>Avalikustamisele kuuluvas majanduslike huvide deklaratsioonis mittet&auml;ielike v&otilde;i valeandmete esitamine</s>
+</p>
+<p>
+<s>( 1 ) Avalikustamisele kuuluvas majanduslike huvide deklaratsioonis mittet&auml;ielike v&otilde;i valeandmete esitamise eest - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 07.06.2001 j&otilde;ust.03.07.2001 - RT I 2001 , 58 , 357 )</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui sellega p&otilde;hjustati oluline varaline kahju v&otilde;i muu raske tagaj&auml;rg isiku , riigi v&otilde;i kohaliku omavalitsuse seadusega kaitstud &otilde;igustele v&otilde;i huvidele , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni &uuml;he aastani &uuml;hes vastaval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise v&otilde;i avalikus teenistuses olemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 19.01.95 j&otilde;ust.20.02.95 - RT I 1995 , 14 , 170 ; 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 164 <hi rend="sup">4</hi> .</s><s>Avalikustamisele mittekuuluva majanduslike huvide deklaratsiooni esitamata j&auml;tmine v&otilde;i selles valeandmete esitamine</s>
+</p>
+<p>
+<s>N&otilde;uetekohase avalikustamisele mittekuuluva majanduslike huvide deklaratsiooni t&auml;htajaks esitamata j&auml;tmise v&otilde;i selles valeandmete esitamise eest , kui</s>
+</p>
+<p>
+<s>1 ) sellega p&otilde;hjustati oluline varaline kahju v&otilde;i muu raske tagaj&auml;rg isiku , riigi v&otilde;i kohaliku omavalitsuse seadusega kaitstud &otilde;igustele v&otilde;i huvidele v&otilde;i kui</s>
+</p>
+<p>
+<s>2 ) s&uuml;&uuml;dlasele oli samasuguse tegevuse eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni &uuml;he aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise v&otilde;i avalikus teenistuses olemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 164 <hi rend="sup">5</hi> .</s><s>Valeandmete esitamine majanduslike huvide deklaratsiooni kontrollivale isikule v&otilde;i asutusele v&otilde;i komisjonile</s>
+</p>
+<p>
+<s>( 1 ) Mittet&auml;ielike v&otilde;i valeandmete esitamise eest v&otilde;i andmete &otilde;igeaegselt esitamata j&auml;tmise eest majanduslike huvide deklaratsiooni &uuml;le seaduslikult kontrolli teostavale isikule v&otilde;i asutusele v&otilde;i korruptsioonivastases seaduses m&auml;rgitud komisjonile - karistatakse aresti v&otilde;i vabadusekaotusega kuni kuue kuuni .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui sellega p&otilde;hjustati oluline varaline kahju v&otilde;i muu raske tagaj&auml;rg isiku , riigi v&otilde;i kohaliku omavalitsuse seadusega kaitstud &otilde;igustele v&otilde;i huvidele , - karistatakse vabadusekaotusega kuuest kuust kuni kahe aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 164 <hi rend="sup">6</hi> .</s><s>M&otilde;juv&otilde;imuga kauplemine</s>
+</p>
+<p>
+<s>Ametiisiku poolt tasu v&otilde;tmise eest , lubades m&otilde;jutada teist ametiisikut tasuandjale soodsa otsuse tegemiseks , - karistatakse vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 165.</s><s>Altk&auml;emaksu andmine</s>
+</p>
+<p>
+<s>( 1 ) Altk&auml;emaksu andmise eest - karistatakse vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>( 2 ) Altk&auml;emaksu andmise eest :</s>
+</p>
+<p>
+<s>1 ) korduvalt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isiku poolt , kellel on karistatus altk&auml;emaksu eest - karistatakse vabadusekaotusega kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 3 ) Altk&auml;emaksu andja vabastatakse karistusest , kui temalt altk&auml;emaksu v&auml;lja pressiti v&otilde;i kui ta p&auml;rast altk&auml;emaksu andmist , kuid enne altk&auml;emaksu saaja poolt tema huvides teo toimepanemist v&otilde;i selle tegemata j&auml;tmist esimesena vabatahtlikult teatas toimunust kirjalikult .</s>
+</p>
+<p>
+<s>( 08.01.96 j&otilde;ust.05.02.96 - RT I 1996 , 6 , 101 )</s>
+</p>
+<p>
+<s>&sect; 165 <hi rend="sup">1</hi> .</s><s>Altk&auml;emaksu andmine v&auml;lismaisele ametiisikule</s>
+</p>
+<p>
+<s>( 1 ) Altk&auml;emaksu andmise eest v&auml;lisriigi v&otilde;i rahvusvahelise organisatsiooni ametiisikule - karistatakse vabadusekaotusega kuni nelja aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest :</s>
+</p>
+<p>
+<s>1 ) korduvalt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isiku poolt , kellel on karistatus altk&auml;emaksu eest - karistatakse vabadusekaotusega kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud teo toimepanija vabastatakse karistusest , kui temalt altk&auml;emaksu v&auml;lja pressiti v&otilde;i kui ta p&auml;rast altk&auml;emaksu andmist , kuid enne altk&auml;emaksu saaja poolt tema huvides teo toimepanemist v&otilde;i selle tegemata j&auml;tmist , esimesena vabatahtlikult teatas toimunust kirjalikult .</s>
+</p>
+<p>
+<s>( 13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 )</s>
+</p>
+<p>
+<s>&sect; 166.</s><s>Ametialane v&otilde;ltsimine</s>
+</p>
+<p>
+<s>( 1 ) Dokumendi ametialase v&otilde;ltsimise eest , kui sellega p&otilde;hjustati oluline kahju isiku , ettev&otilde;tte , asutuse v&otilde;i organisatsiooni seadusega kaitstud &otilde;igustele v&otilde;i huvidele v&otilde;i riigi huvidele , - karistatakse rahatrahviga &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i vabadusekaotusega kuni kolme aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>( 2 ) Maksude &otilde;igsuse kontrollimiseks vajaliku arve , muu maksedokumendi , deklaratsiooni , bilansi v&otilde;i muu raamatupidamisdokumendi ametialase v&otilde;ltsimise eest eesm&auml;rgiga maksta v&auml;hem makse v&otilde;i kui selle tagaj&auml;rjel maksti v&auml;hem makse - karistatakse rahatrahviga &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i vabadusekaotusega kuni kolme aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.13.01.95 - RT I 1995 , 5 , 40 )</s>
+</p>
+<p>
+<s>&sect; 166 <hi rend="sup">1</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 166 <hi rend="sup">2</hi> .</s><s>Ettev&otilde;tluskeelu v&otilde;i teataval erialal v&otilde;i ametikohal t&ouml;&ouml;tamise keelu rikkumine</s>
+</p>
+<p>
+<s>Seaduses toodud v&otilde;i kohtu kohaldatud ettev&otilde;tluskeelu v&otilde;i teataval erialal v&otilde;i ametikohal t&ouml;&ouml;tamise keelu rikkumise eest - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 13.05.98 j&otilde;ust.19.06.98 - RT I 1998 , 51 , 756 )</s>
+</p>
+<p>
+<s>&sect; 166 <hi rend="sup">3</hi> .</s><s>Seadusevastane tasuv&otilde;tmine ametiisiku poolt</s>
+</p>
+<p>
+<s>Ametiisiku poolt teenuste osutamisel v&otilde;i otsuste langetamisel seaduses v&otilde;i muus &otilde;igusaktis m&auml;&auml;ratud tasust suurema tasu v&otilde;tmise eest v&otilde;i tasuta teenuste eest tasuv&otilde;tmise eest , kui</s>
+</p>
+<p>
+<s>1 ) kui sellega p&otilde;hjustati oluline varaline kahju v&otilde;i muu raske tagaj&auml;rg isiku , riigi v&otilde;i kohaliku omavalitsuse seadusega kaitstud &otilde;igustele v&otilde;i huvidele v&otilde;i kui</s>
+</p>
+<p>
+<s>2 ) s&uuml;&uuml;dlasele oli samasuguse tegevuse eest kohaldatud halduskaristust , - karistatakse vabadusekaotusega kuni kahe aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 27.01.99 j&otilde;ust.28.02.99 - RT I 1999 , 16 , 276 )</s>
+</p>
+<p>
+<s>&sect; 167.</s><s>Avaldamisele mittekuuluvate andmete avaldamine</s>
+</p>
+<p>
+<s>Riigisaladust mittesisaldavate , kuid avaldamisele mittekuuluvate andmete avaldamise eest ametiisiku poolt , kui sellega p&otilde;hjustati suur varaline kahju v&otilde;i muu raske tagaj&auml;rg , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kahe aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>&sect; 167 <hi rend="sup">1</hi> .</s><s>Riigi v&otilde;i kohaliku omavalitsuse andmekogu pidamise v&otilde;i selles asuvate andmete kasutamise korra rikkumine</s>
+</p>
+<p>
+<s>( 12.03.97 j&otilde;ust.19.04.97 - RT I 1997 , 28 , 423 )</s>
+</p>
+<p>
+<s>Riigi v&otilde;i kohaliku omavalitsuse andmekogu pidamise v&otilde;i selles asuvate andmete kasutamise korra rikkumise eest , kui sellega kaasnes isiku p&otilde;hi&otilde;iguste rikkumine v&otilde;i olulise kahju tekitamine riigi huvidele , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 ; 12.03.97 j&otilde;ust.19.04.97 - RT I 1997 , 28 , 423 )</s>
+</p>
+<p>
+<s>&sect; 167 <hi rend="sup">2</hi> .</s><s>V&auml;&auml;rtpaberite avaliku pakkumise n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>V&auml;&auml;rtpaberite pakkuja , tema ametniku v&otilde;i t&ouml;&ouml;taja poolt v&auml;&auml;rtpaberite avalikul pakkumisel avaliku pakkumise prospekti v&otilde;i noteerimisprospekti inspektsioonis eelnevalt registreerimata j&auml;tmise eest , v&auml;&auml;rtpaberite ilma prospektita avaliku pakkumise eest , prospekti avalikkusele k&auml;ttesaadavaks tegemata j&auml;tmise eest pakkumise v&auml;ljakuulutamisel v&otilde;i prospekti eest tasu v&otilde;tmise eest , kui s&uuml;&uuml;dlase suhtes oli samasuguse teo eest kohaldatud halduskaristust , - karistatakse rahatrahviga v&otilde;i arestiga &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 526 )</s>
+</p>
+<p>
+<s>&sect; 167 <hi rend="sup">3</hi> .</s><s>Avaliku teabe avalikustamise ja v&auml;ljastamise n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>Teadvalt eba&otilde;ige avaliku teabe v&auml;ljastamise v&otilde;i asutusesiseseks kasutamiseks etten&auml;htud teabe avalikustamise v&otilde;i v&auml;ljastamise eest , kui sellega on tekitatud oluline kahju teise isiku seadusega kaitstud &otilde;igustele v&otilde;i huvidele v&otilde;i avalikele huvidele , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 15.11.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 92 , 597 )</s>
+</p>
+<p>
+<s>&sect; 167 <hi rend="sup">4</hi> .</s><s>Investorite v&otilde;rdsetel alustel teavitamise kohustuse rikkumine</s>
+</p>
+<p>
+<s>V&auml;&auml;rtpaberite pakkuja , tema ametniku v&otilde;i t&ouml;&ouml;taja poolt v&auml;&auml;rtpaberite avaliku pakkumise k&auml;igus k&otilde;igi v&otilde;imalike investorite v&otilde;rdsetel alustel teavitamise kohustuse rikkumise eest - karistatakse rahatrahviga v&otilde;i teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 526 )</s>
+</p>
+<p>
+<s>&sect; 167 <hi rend="sup">5</hi> .</s><s>&Uuml;lev&otilde;tmispakkumisn&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Isiku poolt &uuml;lev&otilde;tmispakkumise tegemise kohustuse rikkumise eest , kui isikule ei olnud antud n&otilde;usolekut loobuda kohustusliku &uuml;lev&otilde;tmispakkumise tegemisest , - karistatakse rahatrahviga v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;lev&otilde;tmispakkumise teinud isiku ( edaspidi &uuml;lev&otilde;tja ) poolt &uuml;lev&otilde;tmispakkumise raames samaliigiliste aktsiate omanike ebav&otilde;rdse kohtlemise eest , isiku v&otilde;i sihtemitendi poolt sihtisikutele &uuml;lev&otilde;tmispakkumise kaalumiseks olulise , &otilde;ige , t&auml;pse , t&auml;ieliku v&otilde;i &uuml;hesuguse teabe andmata j&auml;tmise eest v&otilde;i eksitava , eba&otilde;ige v&otilde;i ebat&auml;pse teabe andmise eest v&otilde;i erinevatele sihtisikutele erisuguse teabe andmise eest v&otilde;i sihtisikutel &uuml;lev&otilde;tmispakkumise kaalumise takistamise eest - karistatakse rahatrahviga v&otilde;i arestiga &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;lev&otilde;tja , juriidilisest isikust &uuml;lev&otilde;tja juhatuse liikme , n&otilde;ukogu liikme v&otilde;i neid asendava organi liikme , sihtemitendi , selle sihtemitendi juhatuse liikme v&otilde;i n&otilde;ukogu liikme , eelnimetatutega koosk&otilde;lastatult tegutseva isiku v&otilde;i sihtemitendi aktsion&auml;ri poolt &uuml;lev&otilde;tmispakkumisreeglite v&otilde;i sihtemitendi aktsiaid noteeriva b&ouml;rsi reglemendi &uuml;lev&otilde;tmispakkumist reguleerivate s&auml;tete rikkumise eest - karistatakse rahatrahviga v&otilde;i arestiga &uuml;hes teataval ametikohal t&ouml;&ouml;tamise v&otilde;i teataval tegevusalal tegutsemise &otilde;iguse &auml;rav&otilde;tmisega v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 526 )</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kuriteod avaliku korra ja &uuml;hiskondliku julgeoleku vastu</s>
+</p>
+<p>
+<s>&sect; 195.</s><s>Huligaansus</s>
+</p>
+<p>
+<s>( 1 ) Huligaansuse eest , s.o. tahtliku tegevuse eest , mis j&auml;medalt rikub avalikku korda ja v&auml;ljendab ilmset lugupidamatust &uuml;hiskonna vastu , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Kuritahtliku huligaansuse , s.o. sama tegevuse eest , mis oma sisult on eriti k&uuml;&uuml;niline v&otilde;i eriti j&otilde;hker v&otilde;i on seotud vastuhakkamisega v&otilde;imuesindajale v&otilde;i avalikku korda kaitsvale &uuml;ldsuse esindajale v&otilde;i teisele isikule , kes t&otilde;kestab huligaanset tegevust , samuti huligaansuse eest , mille pani toime isik , kellel on karistatus huligaansuse eest , - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. v&otilde;i 2. l&otilde;ikes etten&auml;htud tegevuse eest , kui selle toimepanemisel kasutati v&otilde;i p&uuml;&uuml;ti kasutada tulirelva , k&uuml;lmrelva v&otilde;i kehavigastuse tekitamiseks k&uuml;lmrelvana kasutatavat v&otilde;i selleks spetsiaalselt kohandatud eset , - karistatakse vabadusekaotusega &uuml;hest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>&sect; 195 <hi rend="sup">1</hi> .</s><s>Loomade julm kohtlemine</s>
+</p>
+<p>
+<s>Looma suhtes lubamatu teo toimepanemise eest , kui s&uuml;&uuml;dlase suhtes on samasuguse teo eest kohaldatud halduskaristust , v&otilde;i samasuguse teo eest avalikus kohas - karistatakse arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 06.06.2000 j&otilde;ust.29.06.2000 - RT I 2000 , 49 , 301 )</s>
+</p>
+<p>
+<s>&sect; 195 <hi rend="sup">2</hi> .</s><s>Omavoliline tungimine v&otilde;&otilde;rasse hoonesse , ruumi , s&otilde;idukisse v&otilde;i piirdega territooriumile</s>
+</p>
+<p>
+<s>Omavolilise tungimise eest v&otilde;&otilde;rasse hoonesse , ruumi , s&otilde;idukisse v&otilde;i piirdega territooriumile &auml;hvardusega kasutada v&auml;givalda isiku kallal v&otilde;i t&otilde;kke v&otilde;i lukustuse rikkumise v&otilde;i selle k&otilde;rvaldamisega , kui see oli toime pandud isikute grupi v&otilde;i relvastatud v&otilde;i maskis isiku poolt , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>&sect; 196. ( Tunnistatud kehtivuse kaotanuks Eesti NSV &Uuml;lemn&otilde;ukogu Presiidiumi 1966. aasta 24. detsembri seadlusega . )</s>
+</p>
+<p>
+<s>&sect; 196 <hi rend="sup">1</hi> .</s><s>Kuritegelikku &uuml;hendusse kuulumine v&otilde;i selle organiseerimine v&otilde;i sellesse liikmete v&auml;rbamine v&otilde;i sellise &uuml;henduse v&otilde;i selle osa juhtimine</s>
+</p>
+<p>
+<s>( 1 ) Kuritegelikku &uuml;hendusse - kolmest v&otilde;i enamast isikust koosnevasse p&uuml;sivasse , isikutevahelise &uuml;lesannete jaotusega &uuml;hendusse - , mille eesm&auml;rk v&otilde;i tegevus oli suunatud esimese v&otilde;i teise astme kuritegude toimepanemisele , kuulumise eest , - karistatakse vabadusekaotusega kolmest kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes t&auml;hendatud &uuml;henduse organiseerimise v&otilde;i sellesse liikmete v&auml;rbamise , samuti sellise &uuml;henduse v&otilde;i selle osa juhtimise eest - karistatakse vabadusekaotusega viiest kuni k&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 3 ) Kuritegeliku &uuml;henduse liige , kes ei ole osa v&otilde;tnud &uuml;hestki selle &uuml;henduse poolt toimepandud kuriteo ettevalmistamisest , katsest v&otilde;i t&auml;ideviimisest , vabastatakse karistusest , kui ta vabatahtlikult teatab enda kuulumisest sellesse &uuml;hendusse .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>&sect; 197.</s><s>Mootors&otilde;iduki &auml;randamine</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;iduki &auml;randamise eest selle ajutise kasutamise eesm&auml;rgil - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest :</s>
+</p>
+<p>
+<s>1 ) v&auml;hemalt teistkordselt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>2 <hi rend="sup">1</hi> ) kui see oli seotud n&auml;o varjamisega n&auml;okatte v&otilde;i maskiga v&otilde;i muul viisil , mis takistas isiku tuvastamist , v&otilde;i</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>3 ) kui see oli seotud v&auml;givallaga , mis ei olnud ohtlik elule ega tervisele , v&otilde;i &auml;hvardusega vahetult kasutada sellist v&auml;givalda - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kuue aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>( 3 ) Sama tegevuse eest , kui see pandi toime , kasutades elule v&otilde;i tervisele ohtlikku v&auml;givalda v&otilde;i &auml;hvardusega vahetult kasutada sellist v&auml;givalda - karistatakse vabadusekaotusega kolmest kuni kaheteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect; 197 <hi rend="sup">1</hi> .</s><s>&Otilde;hus&otilde;iduki ebaseaduslik h&otilde;ivamine</s>
+</p>
+<p>
+<s>( 1 ) Maal v&otilde;i lennus oleva &otilde;hus&otilde;iduki ebaseadusliku h&otilde;ivamise eest - karistatakse vabadusekaotusega kuni kuue aastani .</s>
+</p>
+<p>
+<s>( 2 ) Maal v&otilde;i lennus oleva &otilde;hus&otilde;iduki ebaseadusliku h&otilde;ivamise eest v&otilde;i sellise s&otilde;iduki h&otilde;ivamise eest &auml;randamise eesm&auml;rgil , mis pandi toime v&auml;givalda v&otilde;i &auml;hvardust kasutades v&otilde;i t&otilde;i kaasa &otilde;hus&otilde;iduki avarii v&otilde;i muu raske tagaj&auml;rje , - karistatakse vabadusekaotusega viiest kuni kaheteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. v&otilde;i 2. l&otilde;ikes etten&auml;htud tegude eest , kui need t&otilde;id kaasa inimese hukkumise v&otilde;i p&otilde;hjustasid &uuml;liraske kehavigastuse , - karistatakse vabadusekaotusega kaheksast kuni viieteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect; 198.</s><s>Kultuurim&auml;lestise v&otilde;i looduskaitseobjekti h&auml;vitamine v&otilde;i rikkumine</s>
+</p>
+<p>
+<s>Riikliku kaitse alla v&otilde;etud kultuurim&auml;lestise v&otilde;i looduskaitseobjekti h&auml;vitamise v&otilde;i rikkumise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 09.03.94 j&otilde;ust.16.04.94 - RT I 1994 , 24 , 391 )</s>
+</p>
+<p>
+<s>&sect; 198 <hi rend="sup">1</hi> .</s><s>Inimsusvastaste v&otilde;i s&otilde;jakuritegude toimepanemist kajastavate dokumentide h&auml;vitamine , rikkumine v&otilde;i peitmine</s>
+</p>
+<p>
+<s>( 1 ) Toimepandud inimsusevastaseid v&otilde;i s&otilde;jakuritegusid kajastavate dokumentide tahtliku h&auml;vitamise , rikkumise v&otilde;i peitmise eest - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 2 ) Samasuguse tegevuse eest ametiisiku poolt - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 09.11.94 j&otilde;ust.09.12.94 - RT I 1994 , 83 , 1447 )</s>
+</p>
+<p>
+<s>&sect; 199.</s><s>Hauar&uuml;&uuml;stamine v&otilde;i maetute m&auml;lestuse muu teotamine</s>
+</p>
+<p>
+<s>Kalmistule , hauale v&otilde;i muule viimseks puhkepaigaks tunnistatud kohale p&uuml;stitatud m&auml;lestusm&auml;rgi v&otilde;i muu kaunistuse r&uuml;&uuml;stamise v&otilde;i viimse puhkepaiga puutumatuse muu rikkumise , sealhulgas sukeldumise , vrakist v&otilde;i merep&otilde;hjast laevahuku ohvrite v&otilde;i vara &uuml;lestoomise eesm&auml;rgil toimuva muu tegevuse eest , samuti kalmistul , haual v&otilde;i hauas v&otilde;i muus viimses puhkepaigas oleva eseme salajase varguse v&otilde;i maetute m&auml;lestuse muu teotamise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.27.07.95 - RT I 1995 , 60 , 1018 )</s>
+</p>
+<p>
+<s>&sect; 199 <hi rend="sup">1</hi> .</s><s>Laiba teotamine</s>
+</p>
+<p>
+<s>Laiba teotamise eest selle moonutamisega v&otilde;i kehaosade eraldamisega v&otilde;i t&uuml;keldamisega v&otilde;i p&otilde;letamisega v&otilde;i muu teotava tegevusega - karistatakse vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>&sect; 200.</s><s>Alaealist erootilises v&otilde;i pornograafilises situatsioonis kujutava teose omandamine , hoidmine ja levitamine</s>
+</p>
+<p>
+<s>( 16.12.97 j&otilde;ust.01.05.98 - RT I 1998 , 2 , 42 )</s>
+</p>
+<p>
+<s>( 1 ) Alaealist erootilises v&otilde;i pornograafilises situatsioonis kujutava teose omandamise , hoidmise , veo , edasiandmise , levitamise , demonstreerimise v&otilde;i muul viisil k&auml;ttesaadavaks tegemise eest - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 16.12.97 j&otilde;ust.01.05.98 - RT I 1998 , 2 , 42 )</s>
+</p>
+<p>
+<s>( 3 ) Alaealist erootilises v&otilde;i pornograafilises situatsioonis kujutava teose levitamise v&otilde;i demonstreerimise eest v&otilde;i muul viisil alaealisele k&auml;ttesaadavaks tegemise eest - karistatakse vabadusekaotusega &uuml;hest kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 21.02.95 j&otilde;ust.24.03.95 - RT I 1995 , 24 , 336 )</s>
+</p>
+<p>
+<s>&sect; 200 <hi rend="sup">1</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 200 <hi rend="sup">2</hi> .</s><s>Hasartm&auml;ngu ebaseaduslik korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Keelatud hasartm&auml;ngu korraldamise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest isiku poolt , kellel on karistatus keelatud hasartm&auml;ngu korraldamise eest , - karistatakse vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 14.06.95 j&otilde;ust.21.07.95 - RT I 1995 , 58 , 1005 )</s>
+</p>
+<p>
+<s>&sect; 200 <hi rend="sup">3</hi> .</s><s>Alaealist erootilises v&otilde;i pornograafilises situatsioonis kujutava teose valmistamine</s>
+</p>
+<p>
+<s>( 1 ) Alaealist erootilises v&otilde;i pornograafilises situatsioonis kujutava teose v&otilde;i selle koopia valmistamise eest alaealist erootilise v&otilde;i pornograafilise tegevuse objektina kasutamata - karistatakse aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 2 ) Alaealise kasutamise eest erootilist v&otilde;i pornograafilist situatsiooni kujutava teose valmistamisel erootilise v&otilde;i pornograafilise tegevuse objektina - karistatakse vabadusekaotusega kahest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 21.02.95 j&otilde;ust.24.03.95 - RT I 1995 , 24 , 336 )</s>
+</p>
+<p>
+<s>&sect; 200 <hi rend="sup">4</hi> .</s><s>Pornograafilise sisuga v&otilde;i v&auml;givalda v&otilde;i julmust propageeriva teose levitamine ja demonstreerimine ning pornograafilise sisuga ja v&auml;givalda v&otilde;i julmust propageeriva televisiooni- v&otilde;i raadiosaate edastamine</s>
+</p>
+<p>
+<s>( 1 ) Pornograafilise sisuga v&otilde;i v&auml;givalda v&otilde;i julmust propageeriva teose demonstreerimise eest v&auml;ljaspool spetsialiseeritud tegevuskohta - karistatakse rahatrahviga .</s>
+</p>
+<p>
+<s>( 2 ) Pornograafilise sisuga v&otilde;i v&auml;givalda v&otilde;i julmust propageeriva teose v&otilde;i selle koopiate m&uuml;&uuml;mise , rentimise , laenutamise v&otilde;i muul viisil alaealisele &uuml;leandmise eest v&otilde;i alaealisele demonstreerimise eest , samuti pornograafilise sisuga v&otilde;i v&auml;givalda v&otilde;i julmust propageeriva televisiooni- v&otilde;i raadiosaate v&otilde;i sellise teose reklaami edastamise eest Eestis televisiooni v&otilde;i raadiosaate edastamise &otilde;igust omava isiku poolt - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. v&otilde;i 2. l&otilde;ikes t&auml;hendatud teo eest , kui see pandi toime v&auml;hemalt teistkordselt - karistatakse arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 16.12.97 j&otilde;ust.01.05.98 - RT I 1998 , 2 , 42 ; 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 201.</s><s>Isikule kuuluvates ruumides seadusega keelatud tegevuse v&otilde;imaldamine</s>
+</p>
+<p>
+<s>Isikule kuuluvates eluruumides v&otilde;i mitteeluruumides narkootilise v&otilde;i ps&uuml;hhotroopse aine v&otilde;i muu uimastava toimega aine ebaseadusliku tarvitamise v&otilde;i ebaseaduslike hasartm&auml;ngude v&otilde;i prostitutsiooni v&otilde;i seadusega keelatud muu tegevuse v&otilde;imaldamise ees - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 21.02.95 j&otilde;ust.24.03.95 - RT I 1995 , 24 , 336 ; 11.06.97 j&otilde;ust.01.11.97 - RT I 1997 , 52 , 834 )</s>
+</p>
+<p>
+<s>&sect; 201 <hi rend="sup">1</hi> .</s><s>Avaliku korra rikkumine v&otilde;i r&uuml;nne isikule v&otilde;i tema &otilde;igustele usutalituse t&auml;itmise n&auml;ol</s>
+</p>
+<p>
+<s>( 1 ) Grupi organiseerimise v&otilde;i juhtimise eest , kui grupi tegevus religioosse &otilde;petuse kuulutamise v&otilde;i usutalituse n&auml;ol on seotud avaliku korra rikkumisega v&otilde;i kahju tekitamisega isiku tervisele v&otilde;i muu r&uuml;ndega isiku elule v&otilde;i &otilde;igustele , samuti isiku kallutamisega keeldumisele kodanikukohustuste t&auml;itmisest , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes t&auml;hendatud grupi tegevusest aktiivse osav&otilde;tu eest , samuti selle grupi religioosses &otilde;petuses ja usutalituses etten&auml;htud tegude toimepanemise propageerimise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>&sect; 201 <hi rend="sup">2</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks Eesti NSV &Uuml;lemn&otilde;ukogu Presiidiumi 1975. aasta 9. detsembri seadlusega . )</s>
+</p>
+<p>
+<s>&sect; 201 <hi rend="sup">3</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 201 <hi rend="sup">4</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 202.</s><s>Alaealise kaasat&otilde;mbamine kuritegevusele v&otilde;i prostitutsioonile</s>
+</p>
+<p>
+<s>Alaealise kaasat&otilde;mbamise eest kuriteo toimepanemisele v&otilde;i prostitutsioonile , samuti alaealise kasutamise eest prostitutsiooniks - karistatakse vabadusekaotusega kahest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 10.02.94 j&otilde;ust.11.03.94 - RT I 1994 , 12 , 202 )</s>
+</p>
+<p>
+<s>&sect; 202 <hi rend="sup">1</hi> .</s><s>Alaealise kaasat&otilde;mbamine joomisele</s>
+</p>
+<p>
+<s>Alaealise s&uuml;stemaatilise kallutamise eest alkoholijoogi pruukimisele vanema v&otilde;i muu t&auml;isealise isiku poolt , kellest alaealine oli teenistuslikus v&otilde;i muus s&otilde;ltuvuses , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 202 <hi rend="sup">2</hi> .</s><s>Alaealise kallutamine narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamisele</s>
+</p>
+<p>
+<s>Alaealise kallutamise eest narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamisele - karistatakse vabadusekaotusega kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>&sect; 202 <hi rend="sup">3</hi> .</s><s>Kallutamine narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamisele</s>
+</p>
+<p>
+<s>( 1 ) Kallutamise eest narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamisele - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>Sama teo eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>kahe v&otilde;i enama isiku suhtes v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isiku poolt , keda varem on karistatud kallutamise eest narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamisele , samuti isiku poolt , kes varem on toime pannud mingi k&auml;esoleva koodeksi paragrahvides 210 <hi rend="sup">2</hi> - 210 <hi rend="sup">5</hi> etten&auml;htud kuriteo - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>&sect; 202 <hi rend="sup">4</hi> .</s><s>Alaealise kaasat&otilde;mbamine ravimi v&otilde;i muu uimastava toimega aine mittemeditsiinilisele tarvitamisele</s>
+</p>
+<p>
+<s>Alaealise kaasat&otilde;mbamise eest mittenarkootilise ravimi v&otilde;i muu uimastava toimega aine mittemeditsiinilisele tarvitamisele - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 11.06.97 j&otilde;ust.01.11.97 - RT I 1997 , 52 , 834 )</s>
+</p>
+<p>
+<s>&sect; 202 <hi rend="sup">5</hi> .</s><s>Narkootilise v&otilde;i ps&uuml;hhotroopse aine ebaseaduslik omandamine v&otilde;i hoidmine v&otilde;i narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamine arsti ettekirjutuseta</s>
+</p>
+<p>
+<s>( 11.06.97 j&otilde;ust.01.11.97 - RT I 1997 , 52 , 834 ; 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 1 ) Narkootilise v&otilde;i ps&uuml;hhotroopse aine v&auml;ikeses koguses ebaseadusliku omandamise v&otilde;i hoidmise eest ilma edasiandmise eesm&auml;rgita v&otilde;i arsti ettekirjutuseta narkootilise v&otilde;i ps&uuml;hhotroopse aine tarvitamise eest isiku poolt , kellel on kehtiv halduskaristus samasuguse tegevuse eest , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 14.06.2001 j&otilde;ust.13.07.2001 - RT I 2001 , 65 , 378 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115</s>
+</p>
+<p>
+<s>( 3 ) Narkootilise v&otilde;i ps&uuml;hhotroopse aine suures koguses omandamise v&otilde;i hoidmise eest ilma edasiandmise eesm&auml;rgita - karistatakse rahatrahvi v&otilde;i aresti v&otilde;i vabadusekaotusega &uuml;hest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 m&auml;rgitud tegevuse eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>1 ) v&auml;hemalt teistkordselt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isiku poolt , kes on varem toime pannud mingi k&auml;esoleva koodeksi &sect;-des 202 <hi rend="sup">2</hi> , 202 <hi rend="sup">3</hi> , 202 <hi rend="sup">5</hi> , 210 <hi rend="sup">1</hi> , 210 <hi rend="sup">2</hi> , 210 <hi rend="sup">3</hi> v&otilde;i 210 <hi rend="sup">4</hi> etten&auml;htud teo , - karistatakse vabadusekaotusega kolmest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>&sect; 202 <hi rend="sup">6</hi> .</s><s>Isiku kallutamine prostitutsioonile v&otilde;i prostitutsiooni vahendamine</s>
+</p>
+<p>
+<s>( 1 ) Isiku kallutamise eest prostitutsioonile v&otilde;i prostitutsiooni vahendamise eest - karistatakse vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) 18- kuni 21-aastase isiku kallutamise eest prostitutsioonile v&otilde;i tema prostitutsiooni vahendamise eest - karistatakse vabadusekaotusega &uuml;hest kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 3 ) Isiku kallutamise eest prostitutsioonile v&otilde;i prostitutsiooni vahendamise eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>1 ) v&auml;givalda v&otilde;i muud sundi kasutades v&otilde;i</s>
+</p>
+<p>
+<s>2 ) alaealise suhtes v&otilde;i</s>
+</p>
+<p>
+<s>3 ) kahe v&otilde;i enama isiku suhtes v&otilde;i</s>
+</p>
+<p>
+<s>4 ) isiku poolt , keda varem on karistatud sama teo eest , - karistatakse vabadusekaotusega kolmest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 21.02.95 j&otilde;ust.24.03.95 - RT I 1995 , 24 , 336 )</s>
+</p>
+<p>
+<s>&sect; 203.</s><s>Teadvalt kuritegelikul teel saadud vara omandamine v&otilde;i turustamine</s>
+</p>
+<p>
+<s>( 1 ) Teadvalt kuritegelikul teel saadud vara omandamise , edasitoimetamise , hoidmise v&otilde;i turustamise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest s&uuml;stemaatiliselt - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 3 ) Sama tegevuse eest suures ulatuses - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>&sect; 204.</s><s>Mootors&otilde;iduki ohutu liiklemise v&otilde;i k&auml;ituseeskirjade rikkumine isiku poolt , kelle juhtimisel on mootors&otilde;iduk</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>( 1 ) Mootors&otilde;iduki ohutu liiklemise v&otilde;i k&auml;ituseeskirjade rikkumise eest isiku poolt , kelle juhtimisel on mootors&otilde;iduk , kui selle rikkumisega p&otilde;hjustati kannatanu surm v&otilde;i tekitati talle &uuml;liraske v&otilde;i raske kehavigastus , - karistatakse vabadusekaotusega kuni viie aastani ja v&otilde;etakse &auml;ra mootors&otilde;iduki juhtimise &otilde;igus kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 RT I 1993 , 33 , 539 ; 16.12.98 j&otilde;ust.23.01.99 - RT I 1999 , 4 , 53 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud teo eest , kui sellega p&otilde;hjustati kahe v&otilde;i enama isiku surm , - karistatakse vabadusekaotusega kolmest kuni kaheteistk&uuml;mne aastani ja v&otilde;etakse &auml;ra mootors&otilde;iduki juhtimise &otilde;igus kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 16.12.98 j&otilde;ust.23.01.99 - RT I 1999 , 4 , 53 )</s>
+</p>
+<p>
+<s>( 3 ) Mootors&otilde;iduki juhtimise eest joobeseisundis isiku poolt , kes on tarvitanud alkoholi , narkootilist v&otilde;i ps&uuml;hhotroopset ainet , ja kui isikul on kehtiv halduskaristus mootors&otilde;iduki juhtimise eest joobeseisundis , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kahe aastani ja v&otilde;etakse &auml;ra mootors&otilde;iduki juhtimise &otilde;igus &uuml;hest kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 13.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 116 )</s>
+</p>
+<p>
+<s>&sect; 204 <hi rend="sup">1</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks Eesti Vabariigi &Uuml;lemn&otilde;ukogu Presiidiumi 1990. aasta 13. detsembri seadlusega . )</s>
+</p>
+<p>
+<s>&sect; 204 <hi rend="sup">2</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks Eesti Vabariigi &Uuml;lemn&otilde;ukogu Presiidiumi 1990. aasta 13. detsembri seadlusega . )</s>
+</p>
+<p>
+<s>&sect; 205.</s><s>Liiklusvahendi ohutu liiklemise v&otilde;i k&auml;ituseeskirjade muu rikkumine</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.23.03.99 - RT I 1999 , 26 , 377 )</s>
+</p>
+<p>
+<s>( 1 ) Raudtee- , &otilde;hu- , veeliiklusvahendi , mootors&otilde;iduki ohutu liiklemise v&otilde;i k&auml;ituseeskirjade rikkumise eest juhtudel , mis ei ole ette n&auml;htud k&auml;esoleva koodeksi paragrahvides 83 , 84 , 204 v&otilde;i 205.1 , kui selle rikkumisega tekitati kannatanule raske kehavigastus , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.23.03.99 - RT I 1999 , 26 , 377 )</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui sellega p&otilde;hjustati eriti raske tagaj&auml;rg , - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>&sect; 205 <hi rend="sup">1</hi> .</s><s>Rongi omavoliline ilma vajaduseta peatamine</s>
+</p>
+<p>
+<s>( 1 ) Rongi omavolilise ilma vajaduseta peatamise eest h&auml;dapiduriga , &otilde;hkpidurmagistraali lahutamise teel v&otilde;i m&otilde;nel muul viisil , kui see p&otilde;hjustas normaalse rongiliikluse rikkumise , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui see p&otilde;hjustas &otilde;nnetusjuhtumi inimesega , katastroofi , veereva koosseisu vigastamise v&otilde;i m&otilde;ne muu raske tagaj&auml;rje , - karistatakse vabadusekaotusega kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>&sect; 206.</s><s>Eeskirjade rikkumine ehitust&ouml;&ouml;l</s>
+</p>
+<p>
+<s>( 1 ) Ehitust&ouml;&ouml;l ohutustehnika- v&otilde;i ehituseeskirjade v&otilde;i ehitusmehhanismide k&auml;ituseeskirjade rikkumise eest , kui sellega tekitati kahju inimese tervisele , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama rikkumise eest , kui see t&otilde;i kaasa inimese hukkumise v&otilde;i muu raske tagaj&auml;rje , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>&sect; 206 <hi rend="sup">1</hi> .</s><s>Tuleohutuse eeskirjade kuritahtlik rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Tuleohutuse eeskirjade kuritahtliku rikkumise eest , mis p&otilde;hjustas tulekahju tekkimise ohu , kui s&uuml;&uuml;dlase suhtes oli samade eeskirjade rikkumise eest kohaldatud distsiplinaar- v&otilde;i halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes t&auml;hendatud eeskirjade rikkumise eest , kui see p&otilde;hjustas tulekahju tekkimise , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes t&auml;hendatud eeskirjade rikkumise eest , kui see p&otilde;hjustas raske tagaj&auml;rje , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>&sect; 206 <hi rend="sup">2</hi> .</s><s>Sideliinide kaitse eeskirjade rikkumine</s>
+</p>
+<p>
+<s>Sideliinide kaitse eeskirjade rikkumise eest , mis p&otilde;hjustas kaabel- v&otilde;i raadioreleeliinide vigastamise ja side katkemise , v&auml;lja arvatud k&auml;esoleva koodeksi paragrahvides 84 ja 193 t&auml;hendatud juhud , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>&sect; 206 <hi rend="sup">3</hi> .</s><s>M&auml;et&ouml;&ouml;de ohutuseeskirjade rikkumine</s>
+</p>
+<p>
+<s>( 1 ) M&auml;et&ouml;&ouml;de ohutuseeskirjade rikkumise eest , kui sellega p&otilde;hjustati kahju inimese tervisele , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama rikkumise eest , kui see t&otilde;i kaasa inimese hukkumise v&otilde;i muu raske tagaj&auml;rje , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>&sect; 206 <hi rend="sup">4</hi> .</s><s>Ohutuseeskirjade rikkumine plahvatusohtlikus ettev&otilde;ttes v&otilde;i plahvatusohtlikus tsehhis</s>
+</p>
+<p>
+<s>( 1 ) Plahvatusohtlikus ettev&otilde;ttes v&otilde;i plahvatusohtlikus tsehhis tootmise ohutust tagava tootmis-tehnilise distsipliini v&otilde;i ohutuseeskirjade rikkumise eest - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama rikkumise eest , kui see t&otilde;i kaasa inimese hukkumise v&otilde;i muu raske tagaj&auml;rje , - karistatakse rahatrahviga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>&sect; 207.</s><s>Tulirelva v&otilde;i laskemoona ebaseaduslik valmistamine , omandamine , hoidmine , kandmine , kasutamine , edasitoimetamine , vedamine , m&uuml;&uuml;mine v&otilde;i edasiandmine</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ; 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 ; 12.11.97 j&otilde;ust.01.01.98 - RT I 1997 , 86 , 1461 )</s>
+</p>
+<p>
+<s>( 1 ) Tulirelva v&otilde;i laskemoona ebaseadusliku valmistamise , omandamise , hoidmise , kasutamise , vedamise , m&uuml;&uuml;mise v&otilde;i edasiandmise , samuti laskemoona ebaseadusliku kandmise v&otilde;i edasitoimetamise eest - karistatakse rahatrahvi v&otilde;i vabadusekaotusega &uuml;hest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ; 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 ; 12.11.97 j&otilde;ust.01.01.98 - RT I 1997 , 86 , 1461 )</s>
+</p>
+<p>
+<s>( 2 ) Tulirelva ebaseadusliku kandmise v&otilde;i edasitoimetamise eest - karistatakse vabadusekaotusega &uuml;hest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ; 12.11.97 j&otilde;ust.01.01.98 - RT I 1997 , 86 , 1461 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes m&auml;rgitud tegevuse eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>1 ) teistkordselt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>3 ) siis , kui nimetatud tegevuse objektiks olid tulirelvad v&otilde;i laskemoon suures koguses , - karistatakse vabadusekaotusega kahest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ; 12.11.97 j&otilde;ust.01.01.98 - RT I 1997 , 86 , 1461 )</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) K&auml;esoleva paragrahvi 1. , 2. ja 3. l&otilde;ikes m&auml;rgitud tegude eest , kui nende objektiks olid lahingurelvaks v&otilde;i teenistusrelvaks tunnistatud tulirelvad v&otilde;i nende laskemoon - karistatakse vabadusekaotusega viiest kuni viieteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 22.10.98 j&otilde;ust.22.11.98 - RT I 1998 , 98/99 , 1576 )</s>
+</p>
+<p>
+<s>( 4 ) Isik , kes on vabatahtlikult &auml;ra andnud ilma vastava loata hoitud tulirelva v&otilde;i laskemoona , vabastatakse kriminaalkaristusest .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ; 12.11.97 j&otilde;ust.01.01.98 - RT I 1997 , 86 , 1461 )</s>
+</p>
+<p>
+<s>&sect; 207 <hi rend="sup">1</hi> .</s><s>Tulirelva , laskemoona , l&otilde;hkematerjali vargus v&otilde;i r&ouml;&ouml;vimine</s>
+</p>
+<p>
+<s>( 1 ) Tulirelva , laskemoona v&otilde;i l&otilde;hkematerjali salajase varguse eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 10.02.94 j&otilde;ust.11.03.94 - RT I 1994 , 12 , 202 )</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest :</s>
+</p>
+<p>
+<s>1 ) korduvalt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>3 ) isiku poolt , kellele tulirelv , laskemoon v&otilde;i l&otilde;hkematerjal oli v&auml;lja antud teenistusalaseks kasutamiseks v&otilde;i kelle valve alla see oli usaldatud - karistatakse rahatrahviga v&otilde;i vabadusekaotusega &uuml;hest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 )</s>
+</p>
+<p>
+<s>( 3 ) Tulirelva , laskemoona v&otilde;i l&otilde;hkematerjali avaliku varguse v&otilde;i r&ouml;&ouml;vimise eest - karistatakse vabadusekaotusega kahest kuni kaheteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 10.02.94 j&otilde;ust.11.03.94 - RTI 1994 , 12 , 202 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 1. , 2. ja 3. l&otilde;ikes m&auml;rgitud tegude eest , kui nende objektiks olid lahingurelvaks v&otilde;i teenistusrelvaks tunnistatud tulirelvad v&otilde;i nende laskemoon v&otilde;i tsiviilk&auml;ibes keelatud l&otilde;hkematerjal - karistatakse vabadusekaotusega viiest kuni viieteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 22.10.98 j&otilde;ust.22.11.98 - RT I 1998 , 98/99 , 1576 )</s>
+</p>
+<p>
+<s>&sect; 207 <hi rend="sup">2</hi> .</s><s>Tulirelva helisummuti v&otilde;i &ouml;&ouml;sihiku ebaseaduslik kandmine , hoidmine , omandamine , valmistamine , m&uuml;&uuml;mine v&otilde;i edasiandmine</s>
+</p>
+<p>
+<s>( 1 ) Tulirelva helisummuti v&otilde;i &ouml;&ouml;sihiku ebaseadusliku kandmise , hoidmise , omandamise , valmistamise , m&uuml;&uuml;mise v&otilde;i edasiandmise eest - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>Isik , kes on vabatahtlikult &auml;ra andnud tema juures ebaseaduslikult hoitud tulirelva helisummuti v&otilde;i &ouml;&ouml;sihiku , vabastatakse kriminaalkaristusest .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>&sect; 207 <hi rend="sup">3</hi> .</s><s>L&otilde;hkematerjali ebaseaduslik valmistamine , omandamine , hoidmine , edasitoimetamine , vedamine , m&uuml;&uuml;mine v&otilde;i edasiandmine</s>
+</p>
+<p>
+<s>( 1 ) L&otilde;hkematerjali ebaseadusliku valmistamise , omandamise , hoidmise , edasitoimetamise , vedamise , m&uuml;&uuml;mise v&otilde;i &uuml;leandmise eest - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kahest kuni kuue aastani .</s>
+</p>
+<p>
+<s>( 01.10.2001 j&otilde;ust.01.11.2001 - RT I 2001 , 85 , 510 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 m&auml;rgitud tegevuse eest , kui nimetatud tegevuse objektiks oli tsiviilk&auml;ibes keelatud l&otilde;hkematerjal , - karistatakse vabadusekaotusega viiest kuni viieteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 12.11.97 j&otilde;ust.01.01.98 - RT I 1997 , 86 , 1461 )</s>
+</p>
+<p>
+<s>&sect; 207 <hi rend="sup">4</hi> .</s><s>L&otilde;hkeseadeldise v&otilde;i selle valmistamiseks vajaliku osa ebaseaduslik valmistamine , omandamine , hoidmine , edasitoimetamine , m&uuml;&uuml;mine v&otilde;i &uuml;leandmine</s>
+</p>
+<p>
+<s>L&otilde;hkeseadeldise v&otilde;i selle valmistamiseks vajaliku osa ebaseadusliku valmistamise , omandamise , hoidmise , edasitoimetamise , m&uuml;&uuml;mise v&otilde;i &uuml;leandmise eest - karistatakse vabadusekaotusega kolmest kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 ; 22.10.98 j&otilde;ust.22.11.98 - RT I 1998 , 98/99 , 1576 )</s>
+</p>
+<p>
+<s>&sect; 208.</s><s>Tulirelva lohakas hoidmine</s>
+</p>
+<p>
+<s>( 1 ) Tulirelva lohaka hoidmise eest , kui selle t&otilde;ttu sai v&otilde;imalikuks selle kasutamine teise isiku poolt , kui sellega kaasnes kehavigastuse tekitamine v&otilde;i raske tagaj&auml;rg v&otilde;i kuriteo toimepanemine - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest isiku poolt , kellele tulirelv oli antud t&ouml;&ouml;- v&otilde;i teenistuskohustuste t&auml;itmiseks , kui sellega kaasnes kehavigastuse tekitamine v&otilde;i raske tagaj&auml;rg v&otilde;i kuriteo toimepanemine - karistatakse rahatrahvi , aresti v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 10.02.94 j&otilde;ust.11.03.94 - RT I 1994 , 12 , 202 )</s>
+</p>
+<p>
+<s>&sect; 208 <hi rend="sup">1</hi> .</s><s>( Kehtetu - 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>&sect; 208 <hi rend="sup">2</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 208 <hi rend="sup">3</hi> .</s><s>Radioaktiivse materjali ebaseaduslik omandamine , hoidmine , kasutamine , edasiandmine v&otilde;i l&otilde;hkumine</s>
+</p>
+<p>
+<s>( 1 ) Radioaktiivse materjali ( seadmes v&otilde;i tootes mis tahes f&uuml;&uuml;sikalises seisundis olevate v&otilde;i muul kujul esinevate ioniseeriva kiirguse allikate , radioaktiivsete ainete ja tuumamaterjalide ) ebaseadusliku omandamise , hoidmise , kasutamise , edasiandmise v&otilde;i l&otilde;hkumise eest - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui see t&otilde;i kaasa inimese hukkumise v&otilde;i muu raske tagaj&auml;rje , - karistatakse vabadusekaotusega kuni k&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect; 208 <hi rend="sup">4</hi> .</s><s>Radioaktiivse materjali omandamine kuritegelikul teel</s>
+</p>
+<p>
+<s>Radioaktiivse materjali omandamise eest kuritegelikul teel - karistatakse vabadusekaotusega kolmest kuni kaheteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect; 208 <hi rend="sup">5</hi> .</s><s>&Auml;hvardamine omandada kuritegelikul teel radioaktiivset materjali v&otilde;i kasutada seda materjali kuritegelikul eesm&auml;rgil</s>
+</p>
+<p>
+<s>( 1 ) &Auml;hvarduse eest omandada kuritegelikul teel radioaktiivset materjali , sundimaks riiki , rahvusvahelist organisatsiooni , f&uuml;&uuml;silist v&otilde;i juriidilist isikut midagi toime panema v&otilde;i toimepanemisest hoiduma , kui on alust karta selle &auml;hvarduse teostamist , - karistatakse vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 2 ) &Auml;hvarduse eest kasutada radioaktiivseid materjale inimeste hukkumise v&otilde;i muu raske tagaj&auml;rje p&otilde;hjustamiseks , kui oli alust karta selle &auml;hvarduse teostamist , - karistatakse vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>&sect; 208 <hi rend="sup">6</hi> .</s><s>Radioaktiivse materjali hoidmise , kasutamise , arvestamise , veo v&otilde;i nendega &uuml;mberk&auml;imise muude eeskirjade rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Radioaktiivse materjali hoidmise , kasutamise , arvestamise , veo v&otilde;i nendega &uuml;mberk&auml;imise muude eeskirjade rikkumise eest , kui see tegevus oleks v&otilde;inud kaasa tuua inimeste hukkumise v&otilde;i muu raske tagaj&auml;rje , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui see t&otilde;i kaasa inimese hukkumise v&otilde;i muu raske tagaj&auml;rje , - karistatakse vabadusekaotusega kuni k&uuml;mne aastani .</s>
+</p>
+<p>
+<s>&sect; 209.</s><s>Ohtlike kemikaalide k&auml;itlemise n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>( 1 ) L&otilde;hkematerjali v&otilde;i muu ohtliku kemikaali k&auml;itlemise n&otilde;uete rikkumise eest , kui sellega p&otilde;hjustati oht inimeste elule , tervisele , varale v&otilde;i keskkonnale v&otilde;i kui s&uuml;&uuml;dlase suhtes oli samasuguse rikkumise eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui see t&otilde;i kaasa raske tagaj&auml;rje , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni viie aastani .</s>
+</p>
+<p>
+<s>( 04.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 193 )</s>
+</p>
+<p>
+<s>&sect; 209 <hi rend="sup">1</hi> .</s><s>Reisija poolt l&otilde;hkematerjali v&otilde;i kergesti s&uuml;ttiva v&otilde;i s&ouml;&ouml;biva aine vedu &otilde;hus&otilde;idukis</s>
+</p>
+<p>
+<s>( 1 ) Reisija poolt l&otilde;hkematerjali v&otilde;i kergesti s&uuml;ttiva v&otilde;i s&ouml;&ouml;biva aine veo eest &otilde;hus&otilde;idukis - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui see t&otilde;i kaasa raske tagaj&auml;rje , - karistatakse vabadusekaotusega kolmest kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>&sect; 209 <hi rend="sup">2</hi> .</s><s>Narkootilise v&otilde;i ps&uuml;hhotroopse aine valmistamise , tootmise , omandamise , hoidmise , arvestamise , v&auml;ljastamise , veo v&otilde;i edasisaatmise eeskirjade rikkumine</s>
+</p>
+<p>
+<s>Narkootilise v&otilde;i ps&uuml;hhotroopse aine valmistamise , tootmise , omandamise , hoidmise , arvestamise , v&auml;ljastamise , veo v&otilde;i edasisaatmise kohta kehtestatud eeskirjade rikkumise eest - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kahe aastani .</s>
+</p>
+<p>
+<s>( 11.06.97 j&otilde;ust.01.11.97 - RT I 1997 , 52 , 834 )</s>
+</p>
+<p>
+<s>&sect; 209 <hi rend="sup">3</hi> .</s><s>Geneetiliselt muundatud organismi keskkonda viimise v&otilde;i turustamise n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Geneetiliselt muundatud organismi keskkonda viimise v&otilde;i geneetiliselt muundatud organismi sisaldavate v&otilde;i nendest koosnevate toodete turustamise n&otilde;uete rikkumise eest , kui s&uuml;&uuml;dlase suhtes oli samasuguse rikkumise eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui sellega p&otilde;hjustati oht inimese elule , tervisele v&otilde;i keskkonnale - karistatakse rahatrahvi v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 04.04.2000 j&otilde;ust.04.05.2000 - RT I 2000 , 33 , 193 )</s>
+</p>
+<p>
+<s>&sect; 210.</s><s>Mittenarkootilise ravimi v&otilde;i m&uuml;rkaine ebaseaduslik valmistamine , omandamine , hoidmine , vedu , edasisaatmine v&otilde;i edasiandmine</s>
+</p>
+<p>
+<s>Mittenarkootilise ravimi v&otilde;i m&uuml;rkaine , mis ei ole ps&uuml;hhotroopne aine , ebaseadusliku valmistamise , omandamise , hoidmise , veo v&otilde;i edasisaatmise eest edasiandmise eesm&auml;rgil , samuti mittenarkootilise ravimi v&otilde;i m&uuml;rkaine ebaseadusliku edasiandmise eest - karistatakse arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 19.12.95 j&otilde;ust.01.04.96 - RT I 1996 , 3 , 56 )</s>
+</p>
+<p>
+<s>&sect; 210 <hi rend="sup">1</hi> .</s><s>Narkootilise v&otilde;i ps&uuml;hhotroopse aine ebaseaduslik valmistamine , &uuml;mbert&ouml;&ouml;tamine , vedu v&otilde;i edasisaatmine edasiandmise eesm&auml;rgita</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 1 ) Narkootilise v&otilde;i ps&uuml;hhotroopse aine v&auml;ikeses koguses ebaseadusliku valmistamise , &uuml;mbert&ouml;&ouml;tamise , veo v&otilde;i edasisaatmise eest edasiandmise eesm&auml;rgita - karistatakse vabadusekaotusega &uuml;hest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>1 ) teistkordselt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isiku poolt , kes on varem toime pannud mingi k&auml;esoleva koodeksi &sect;-des 202 <hi rend="sup">2</hi> , 202 <hi rend="sup">3</hi> , 202 <hi rend="sup">5</hi> 210 <hi rend="sup">2</hi> , 210 <hi rend="sup">3</hi> v&otilde;i 210 <hi rend="sup">4</hi> etten&auml;htud kuriteo , v&otilde;i</s>
+</p>
+<p>
+<s>3 ) siis , kui nimetatud tegevuse objektiks oli narkootiline v&otilde;i ps&uuml;hhotroopne aine suures koguses , - karistatakse vabadusekaotusega kolmest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>&sect; 210 <hi rend="sup">2</hi> .</s><s>Narkootilise v&otilde;i ps&uuml;hhotroopse aine ebaseaduslik valmistamine , &uuml;mbert&ouml;&ouml;tamine , omandamine , hoidmine , vedu , edasisaatmine edasiandmise eesm&auml;rgil</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 1 ) Narkootilise v&otilde;i ps&uuml;hhotroopse aine v&auml;ikeses koguses ebaseadusliku valmistamise , &uuml;mbert&ouml;&ouml;tamise , omandamise , hoidmise , veo v&otilde;i edasisaatmise eest edasiandmise eesm&auml;rgil , samuti narkootilise v&otilde;i ps&uuml;hhotroopse aine ebaseadusliku edasiandmise eest - karistatakse vabadusekaotusega kolmest kuni seitsme aastani .</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>1 ) teistkordselt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>3 ) isiku poolt , kes on varem toime pannud mingi k&auml;esoleva koodeksi &sect;-des 202 <hi rend="sup">2</hi> , 202 <hi rend="sup">3</hi> , 202 <hi rend="sup">5</hi> , 210 <hi rend="sup">1</hi> , 210 <hi rend="sup">3</hi> v&otilde;i 210 <hi rend="sup">4</hi> etten&auml;htud kuriteo , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) siis , kui nimetatud tegevuse objektiks oli narkootiline v&otilde;i ps&uuml;hhotroopne aine suures koguses , - karistatakse vabadusekaotusega viiest kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 11.06.97 j&otilde;ust.01.11.97 - RT I 1997 , 52 , 834 )</s>
+</p>
+<p>
+<s>&sect; 210 <hi rend="sup">3</hi> .</s><s>Narkootilise v&otilde;i ps&uuml;hhotroopse aine vargus v&otilde;i r&ouml;&ouml;vimine</s>
+</p>
+<p>
+<s>( 1 ) Narkootilise v&otilde;i ps&uuml;hhotroopse aine varguse eest - karistatakse vabadusekaotusega kolmest kuni kuue aastani .</s>
+</p>
+<p>
+<s>( 22.10.98 j&otilde;ust.22.11.98 - RT I 1998 , 98/99 , 1576 ; 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 2 ) Sama teo eest , kui see pandi toime :</s>
+</p>
+<p>
+<s>1 ) korduvalt v&otilde;i</s>
+</p>
+<p>
+<s>2 ) isikute grupi poolt v&otilde;i</s>
+</p>
+<p>
+<s>3 ) kasutades v&auml;givalda , mis ei olnud ohtlik elule ega tervisele , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) isiku poolt , kellele t&auml;hendatud aine oli usaldatud seoses tema ametiseisundiga v&otilde;i valve alla , v&otilde;i</s>
+</p>
+<p>
+<s>5 ) isiku poolt , kes on varem toime pannud mingi k&auml;esoleva koodeksi paragrahvides 202 <hi rend="sup">2</hi> , 202 <hi rend="sup">3</hi> , 210 <hi rend="sup">2</hi> v&otilde;i 210 <hi rend="sup">4</hi> etten&auml;htud kuriteo , v&otilde;i</s>
+</p>
+<p>
+<s>( 11.06.97 j&otilde;ust.01.11.97 - RT I 1997 , 52 , 834 )</s>
+</p>
+<p>
+<s>6 ) suures koguses - karistatakse vabadusekaotusega viiest kuni kaheksa aastani .</s>
+</p>
+<p>
+<s>( 17.04.96 j&otilde;ust.24.05.96 - RT I 1996 , 31 , 631 ; 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>( 3 ) Narkootilise v&otilde;i ps&uuml;hhotroopse aine r&ouml;&ouml;vimise eest - karistatakse vabadusekaotusega seitsmest kuni kaheteistk&uuml;mne aastani .</s>
+</p>
+<p>
+<s>( 08.02.2001 j&otilde;ust.10.03.2001 - RT I 2001 , 21 , 115 )</s>
+</p>
+<p>
+<s>&sect; 210 <hi rend="sup">4</hi> .</s><s>Unimaguna , kanepi v&otilde;i kokap&otilde;&otilde;sa ebaseaduslik k&uuml;lvamine v&otilde;i kasvatamine</s>
+</p>
+<p>
+<s>( 22.03.2000 j&otilde;ust.17.04.2000 - RT I 2000 , 29 , 173 )</s>
+</p>
+<p>
+<s>( 1 ) Unimaguna , kanepi v&otilde;i kokap&otilde;&otilde;sa ebaseadusliku k&uuml;lvamise v&otilde;i kasvatamise eest - karistatakse vabadusekaotusega kuuest kuust kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 22.03.2000 j&otilde;ust.17.04.2000 - RT I 2000 , 29 , 173 )</s>
+</p>
+<p>
+<s>( 2 ) Sama tegevuse eest isiku poolt , kes on varem toime pannud mingi k&auml;esolevas paragrahvis v&otilde;i k&auml;esoleva koodeksi paragrahvides 202 <hi rend="sup">2</hi> , 202 <hi rend="sup">3</hi> , 210 <hi rend="sup">2</hi> v&otilde;i 210 <hi rend="sup">3</hi> etten&auml;htud kuriteo , - karistatakse vabadusekaotusega kahest kuni viie aastani .</s>
+</p>
+<p>
+<s>( 11.06.97 j&otilde;ust.01.11.97 - RT I 1997 , 52 , 834 )</s>
+</p>
+<p>
+<s>&sect; 210 <hi rend="sup">5</hi> .</s><s>( Kehtetu - 11.06.97 j&otilde;ust.01.11.97 - RT I 1997 , 52 , 834 )</s>
+</p>
+<p>
+<s>&sect; 211.</s><s>Epideemia- v&otilde;i epizootiavastast v&otilde;itlust s&auml;testavate eeskirjade rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Epideemiliste ja muude nakkushaiguste ning loomataudide vastast v&otilde;itlust s&auml;testavate eeskirjade rikkumise eest , mis p&otilde;hjustas ohtliku nakkushaiguse v&otilde;i loomataudi leviku ohu , kui s&uuml;&uuml;dlase suhtes oli samade eeskirjade rikkumise eest kohaldatud halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 16.06.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 57 , 598 )</s>
+</p>
+<p>
+<s>( 2 ) Epideemiliste v&otilde;i epizootiliste haiguste vastast v&otilde;itlust s&auml;testavate eeskirjade rikkumise eest , kui selle tagaj&auml;rjeks oli nimetatud haiguste v&otilde;i loomataudide levik , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 16.06.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 57 , 598 )</s>
+</p>
+<p>
+<s>&sect; 211 <hi rend="sup">1</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 211 <hi rend="sup">2</hi> .</s><s>( Tunnistatud kehtivuse kaotanuks . )</s>
+</p>
+<p>
+<s>&sect; 211 <hi rend="sup">3</hi> .</s><s>Vastutavate ametiisikute poolt inimeste tervisele v&otilde;i mere elusressurssidele kahjulike ainete v&otilde;i muude j&auml;&auml;tmete ja materjalide vettejuhtimisest mitteteatamine</s>
+</p>
+<p>
+<s>Laevade ja muude ujuvvahendite , &otilde;hus&otilde;idukite , platvormide ja teiste merre paigutatud tehisrajatiste vastutavate ametiisikute poolt l&auml;hima Eesti Vabariigi sadama administratsioonile , aga matmise eesm&auml;rgil vettejuhtimisel ka vettejuhtimiseks loa andvale organisatsioonile andmete mitteteatamise eest nende poolt Eesti Vabariigi sisemerel , territoriaalvetes v&otilde;i majandusv&ouml;&ouml;ndis &auml;&auml;rmise h&auml;davajaduse t&otilde;ttu kavatsetava v&otilde;i toime pandud inimeste tervisele v&otilde;i mere elusressurssidele kahjulike ainete v&otilde;i selliseid aineid &uuml;le kehtestatud normi sisaldava segu v&otilde;i muude j&auml;&auml;tmete ja materjalide , mis v&otilde;ivad tekitada kahju puhketsoonidele v&otilde;i takistada mere kasutamise muid seaduslikke viise , vettejuhtimise v&otilde;i v&auml;ltimatu kaotuse kohta , samuti Eesti Vabariigi laevade ja muude ujuvvahendite , &otilde;hus&otilde;idukite , platvormide ja teiste merre paigutatud tehisrajatiste vastutavate ametiisikute poolt l&auml;hima Eesti Vabariigi sadama administratsioonile , aga matmise eesm&auml;rgil vettejuhtimisel ka vettejuhtimiseks loa andvale organisatsioonile andmete mitteteatamise eest nimetatud ainete , segude , j&auml;&auml;tmete v&otilde;i materjalide &auml;&auml;rmise h&auml;davajaduse t&otilde;ttu kavatsetava v&otilde;i toimepandud vettejuhtimise kohta avamerel - karistatakse rahatrahvi v&otilde;i arestiga .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+<p>
+<s>&sect; 211 <hi rend="sup">4</hi> .</s><s>J&auml;&auml;tmete k&auml;itlemise korra rikkumine</s>
+</p>
+<p>
+<s>J&auml;&auml;tmete k&auml;itlemise korra rikkumise eest , kui samasuguse rikkumise eest oli kohaldatud s&uuml;&uuml;dlase suhtes halduskaristust , - karistatakse rahatrahvi v&otilde;i arestiga v&otilde;i vabadusekaotusega kuni kolme aastani .</s>
+</p>
+<p>
+<s>( 19.05.93 j&otilde;ust.27.06.93 - RT I 1993 , 33 , 539 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

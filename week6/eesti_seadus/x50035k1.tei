@@ -1,0 +1,730 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> P&uuml;siliini- ja sidumisteenuste tasude arvestamise metoodika ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4141</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> P&uuml;siliini- ja sidumisteenuste tasude arvestamise metoodika ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=9></tagusage>
+         <tagusage gi=p occurs=208></tagusage>
+         <tagusage gi=s occurs=291></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>P&uuml;siliini- ja sidumisteenuste tasude arvestamise metoodika <hi rend="sup">1</hi></s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 4. detsembri 2000. a m&auml;&auml;rus nr 397</s>
+</p>
+<p>
+<s>( RT I 2000 , 94 , 605 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 15. detsembril 2000. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste m&auml;&auml;rustega :</s>
+</p>
+<p>
+<s>18.12.2001 j&otilde;ust.24.12.2001 - RT I 2001 , 99 , 637 ;</s>
+</p>
+<p>
+<s>03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 200.</s>
+</p>
+<p>
+<s>M&auml;&auml;rus kehtestatakse &ldquo; Telekommunikatsiooniseaduse &rdquo; ( RT I 2000 , 18 , 116 ; 78 , 495 ) &sect; 51 l&otilde;ike 7 alusel .</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;ldosa</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>M&auml;&auml;ruse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;rusega kehtestatakse p&uuml;siliini- v&otilde;i sidumisteenuse turul olulise turuj&otilde;uga &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatori poolt rakendatavate p&uuml;siliini- v&otilde;i sidumisteenuse tasude arvestamise metoodika .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;rus rakendub p&uuml;siliini- v&otilde;i sidumisteenuste turul &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 8 kohaselt Sideameti poolt olulise turuj&otilde;uga ettev&otilde;tjaks tunnistatud &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatori ( edaspidi OTE ) suhtes .</s>
+</p>
+<p>
+<s>( 3 ) OTE p&uuml;siliini- ja sidumisteenuse tasude arvestuse metoodika baseerub Euroopa Komisjoni soovituste <hi rend="sup">2</hi> p&otilde;him&otilde;tetel , mis tagavad p&uuml;siliini- ja sidumisteenuse tasude l&auml;bipaistvuse ja kulup&otilde;hisuse .</s>
+</p>
+<p>
+<s>( 4 ) OTE peab t&otilde;estama , et tema poolt rakendatud p&uuml;siliini- ja sidumisteenuse tasud on arvestatud objektiivsete kriteeriumide alusel ning on l&auml;bipaistvad ja kulup&otilde;hised .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;isted</s>
+</p>
+<p>
+<s>( 1 ) Sidumisteenus k&auml;esoleva m&auml;&auml;ruse t&auml;henduses on telekommunikatsiooniteenus , mis seisneb kahe telekommunikatsiooniv&otilde;rgu vastastikuses sidumises ja nende v&otilde;rkude vahel signaalide suunamises , kommuteerimises v&otilde;i edastamises .</s>
+</p>
+<p>
+<s>( 2 ) Sidumispunkt k&auml;esoleva m&auml;&auml;ruse t&auml;henduses on telekommunikatsiooniv&otilde;rgu f&uuml;&uuml;siline punkt , mille kaudu toimub sidumine ning tagatakse telekommunikatsiooniv&otilde;rkude ja osutatavate telekommunikatsiooniteenuste koostalitusv&otilde;ime .</s>
+</p>
+<p>
+<s>( 3 ) Sidumisliin k&auml;esoleva m&auml;&auml;ruse t&auml;henduses on sidumiseks kasutatav p&uuml;siliin , mis l&auml;bib sidumispunkti .</s>
+</p>
+<p>
+<s>( 4 ) Ajalooline kuluarvestus ( historic cost accounting ) on kuluarvestusbaas , mille puhul koostatakse finantsaruandeid , l&auml;htudes varade v&auml;&auml;rtusest , mis neil oli soetusmomendil ja mida on amortiseeritud minevikus m&auml;&auml;ratletud amortisatsiooninormide alusel .</s>
+</p>
+<p>
+<s>( 5 ) &Auml;rivaldkonnad k&auml;esoleva m&auml;&auml;ruse t&auml;henduses on &uuml;lekandev&otilde;rgu&auml;ri , juurdep&auml;&auml;suv&otilde;rgu&auml;ri , teenuste osutamine tarbijale ( edaspidi jaem&uuml;&uuml;k ) ja muud tegevused .</s>
+</p>
+<p>
+<s>( 6 ) Eraldiseisev kulu ( stand alone cost ) m&otilde;&otilde;dab kulusid &uuml;he toote v&otilde;i teenuse osutamiseks , eraldatuna &uuml;lej&auml;&auml;nud &auml;ritegevusest .</s><s>See t&auml;hendab , et k&otilde;ik kulud omistatakse &uuml;hele teenusele ja muid teenuseid ei eksisteeri .</s>
+</p>
+<p>
+<s>( 7 ) &Uuml;ldkulud ( common fixed costs ) on kulud , mis on seotud k&otilde;igi teenuste tootmisega ega ole otseselt jagatavad konkreetsele tootele v&otilde;i teenusele .</s>
+</p>
+<p>
+<s>( 8 ) Omistatavad p&uuml;sikulud ( shared fixed costs ) on p&uuml;sikulud , mis on seotud mingi teenustegrupiga .</s><s>Need sisaldavad enam kui &uuml;he teenuse osutamisega seotud kulusid , kuid pole &uuml;hised k&otilde;igile teenustele .</s>
+</p>
+<p>
+<s>( 9 ) Transferthind ( transfer price ) ehk &uuml;lekandmishind on arvestuslik hind teenuse osutamise eest ettev&otilde;ttesiseselt &uuml;helt majandus&uuml;ksuselt teisele majandus&uuml;ksusele .</s>
+</p>
+<p>
+<s>( 10 ) Juurdep&auml;&auml;suv&otilde;rk on telekommunikatsiooniv&otilde;rgu osa l&otilde;pp-punkti ja sellele l&auml;hima telefonijaama vahel .</s><s>Juurdep&auml;&auml;suv&otilde;rk algab l&otilde;pp-punktis oleva jaotusraami tarbijapoolsetelt klemmidelt ja l&otilde;peb tarbijaliidese v&auml;ljundklemmidel .</s><s>K&auml;esolevas l&otilde;igus nimetatud jaotusraam ja tarbijaliides on defineeritud &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 4 l&otilde;ike 5 ja &sect; 7 l&otilde;ike 2 alusel kehtestatud m&auml;&auml;rustes .</s>
+</p>
+<p>
+<s>( 11 ) Kuluarvestus jooksevhindades ( current cost accounting - CCA ) on kuluarvestusbaas , kus varasid hinnatakse ja amortiseeritakse , l&auml;htudes nende t&auml;nasest asendusv&auml;&auml;rtusest .</s><s>Arvestusaluse vara hinnaks loetakse kaasaegse samav&auml;&auml;rse vara hind .</s>
+</p>
+<p>
+<s>( 12 ) Telekommunikatsiooniv&otilde;rgu s&otilde;lmed k&auml;esoleva m&auml;&auml;ruse t&auml;henduses on telefonijaamad ja olemasolu korral telefonijaamade f&uuml;&uuml;siliselt eraldiseisvad osad .</s>
+</p>
+<p>
+<s>( 13 ) &ldquo; K&otilde;rbenud &rdquo; maa meetod ( scorched earth assumption ) on modelleerimise meetod , kus modelleeritakse t&auml;ielikult uus ja optimaalne telekommunikatsiooniv&otilde;rk , kaasa arvatud k&otilde;ik s&otilde;lmed .</s>
+</p>
+<p>
+<s>( 14 ) &ldquo; K&otilde;rbenud &rdquo; s&otilde;lme meetod ( scorched node assumption ) on modelleerimise meetod , mis eeldab optimaalsete tehnoloogiate kasutamist telekommunikatsiooniv&otilde;rgu s&otilde;lmedes nii , et s&auml;ilitatakse olemasolev tehnoloogia funktsionaalne tase telekommunikatsiooniv&otilde;rgu erinevates s&otilde;lmedes ja nende s&otilde;lmede omavahelised &uuml;hendused .</s><s>Selle meetodi puhul toimub ka m&otilde;nede telekommunikatsiooniv&otilde;rgu s&otilde;lmede funktsioonide muutmine .</s>
+</p>
+<p>
+<s>( 15 ) Kogu teenuse tulevane pikaajaline lisanduv kulu ( total service long run incremental cost ) on sama mis tulevane pikaajaline keskmine lisanduv kulu .</s>
+</p>
+<p>
+<s>( 16 ) L&uuml;hiajaline periood ( short run ) on periood , mille jooksul v&auml;hemalt &uuml;he sisendfaktori vajadus pole muudetav ning see tuleneb asjaolust , et k&otilde;ik investeerimisotsused ei ole l&uuml;hikeses perioodis muudetavad .</s>
+</p>
+<p>
+<s>( 17 ) Pikk periood ( long run ) on piisav ajaperiood , mille jooksul k&otilde;ik tootmisfaktorid , sh kapital , on muudetavad .</s><s>Pika perioodi pikkus on v&auml;hemalt &uuml;ks aasta .</s>
+</p>
+<p>
+<s>( 18 ) Lisanduvad kulud ( incremental costs ) on kulud , mis kasvavad seoses toodangumahu kasvuga .</s>
+</p>
+<p>
+<s>( 19 ) Mastaabis&auml;&auml;st ( economies of scale ) on majanduslik efekt , mis v&auml;ljendub toodangu&uuml;hiku keskmise kulu v&auml;henemises toodangumahu suurenedes .</s>
+</p>
+<p>
+<s>( 20 ) Modifitseeritud &ldquo; k&otilde;rbenud &rdquo; s&otilde;lme meetod ( modified scorched node assumption ) on modelleerimise meetod , mis eeldab , et olemasolevaid telekommunikatsiooniv&otilde;rgu s&otilde;lmesid v&otilde;etakse kui statsionaarseid ning uuendatakse seadmeid nendes s&otilde;lmedes .</s><s>Seejuures ei muudeta telekommunikatsiooniv&otilde;rgu s&otilde;lmede funktsioone .</s>
+</p>
+<p>
+<s>( 21 ) Pikaajalised keskmised lisanduvad kulud ( edaspidi LRAIC ) ( long run average incremental costs ) on sisuliselt LRIC , kui lisanduvust ( increment ) defineerida teenuse kogumahtu arvestades .</s>
+</p>
+<p>
+<s>( 22 ) Piirkulu ( marginal cost ) on kulu , mis lisandub &uuml;he t&auml;iendava &uuml;hiku tootmisel .</s>
+</p>
+<p>
+<s>( 23 ) Pikaajalised lisanduvad kulud ( long run incremental costs - LRIC ) on kulud , mis lisanduvad pikaajalises perioodis t&auml;nu toodete v&otilde;i teenuste mahu kasvule .</s>
+</p>
+<p>
+<s>( 24 ) Teenuse-spetsiifilised p&uuml;sikulud ( service-specific fixed costs ) on p&uuml;sikulud , mis seostuvad kindla teenusega .</s>
+</p>
+<p>
+<s>( 25 ) T&auml;ielikult jaotatavate kulude ( fully allocated costs ) puhul jaotatakse kulud t&auml;ielikult k&otilde;igi teenuste v&otilde;i toodete vahel vastavalt nende osakaalule teenuses v&otilde;i tootes .</s>
+</p>
+<p>
+<s>( 26 ) &Uuml;hiskulud ( joint costs ) on kulud , mida ei omistata &uuml;ksikule teenusele , vaid kahele v&otilde;i enamale teenusele .</s>
+</p>
+<p>
+<s>( 27 ) V&otilde;rguseadmed on telekommunikatsiooniv&otilde;rgu osad : &uuml;lekandes&uuml;steem koos selle juurde kuuluvate l&uuml;litusseadmetega , muud abis&uuml;steemid ja rajatised , mis v&otilde;imaldavad telekommunikatsiooniv&otilde;rgu kindlaksm&auml;&auml;ratud l&otilde;pp-punktide ja sidumispunktide vahel elektriliste v&otilde;i elektromagnetiliste signaalide edastamist kaabli kaudu , raadio , optiliste v&otilde;i muude vahenditega .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>P&uuml;siliini- ja sidumisteenuse tasude esitus</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Signaalide edastus</s>
+</p>
+<p>
+<s>Signaalide edastuse teenused jagunevad :</s>
+</p>
+<p>
+<s>1 ) signaali algatamine ( call origination ) - sidumisteenus , mis seisneb signaali edastamises telekommunikatsiooniv&otilde;rgu l&otilde;pp-punktist sidumispunkti ;</s>
+</p>
+<p>
+<s>2 ) signaali l&otilde;petamine ( call termination ) - sidumisteenus , mis seisneb signaali edastamises sidumispunktist telekommunikatsiooniv&otilde;rgu l&otilde;pp-punkti ;</s>
+</p>
+<p>
+<s>3 ) transiit - sidumisteenus , mis seisneb signaali edastamises kahe sidumispunkti vahel .</s>
+</p>
+<p>
+<s>( 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 200 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Sidumise ja sidumisteenuste tasud</s>
+</p>
+<p>
+<s>Sidumise ja sidumisteenuse tasud on :</s>
+</p>
+<p>
+<s>1 ) telekommunikatsiooniv&otilde;rkude vastastikuse sidumise kulu kattev &uuml;hekordne tasu ;</s>
+</p>
+<p>
+<s>2 ) seotud telekommunikatsiooniv&otilde;rkude vahel liikluse vastastikuse suunamise , kommuteerimise ja signaalide edastamise tasu , mis jaguneb signaalide algatamise , signaalide l&otilde;petamise ja signaalide transiidi tasudeks ;</s>
+</p>
+<p>
+<s>3 ) tasu telekommunikatsiooniv&otilde;rgu seadmete , hoonete ja rajatiste ning liinirajatiste rendi eest , kui sidumislepingu osapooled ei ole kokku leppinud teisiti ;</s>
+</p>
+<p>
+<s>4 ) muud tasud osutatavate lisateenuste eest .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Sidumine ja sidumisteenuste tasude esitus</s>
+</p>
+<p>
+<s>( 1 ) Sidumisteenuste tasud peavad olema esitatud edastatava signaali kestust v&otilde;i mahtu v&auml;ljendava arveldus&uuml;hiku kohta &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 39 <hi rend="sup">1</hi> l&otilde;igetes 6 , 7 ja 8 nimetatud telekommunikatsiooniv&otilde;rgu tasandite l&otilde;ikes , kus sidumine on teostatud ( edaspidi sidumise tasand ) .</s>
+</p>
+<p>
+<s>( 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 200 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 200 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 200 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva &sect; l&otilde;ikes 1 nimetatud sidumisteenuste tasud peab OTE esitama oma telekommunikatsiooniteenuste kasutajatele kehtestatud normaalaja ja soodusaja erinevuse l&otilde;ikes .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>T&auml;iendavad n&otilde;uded sidumisele ja sidumisteenuse tasudele</s>
+</p>
+<p>
+<s>( 1 ) Sidumisteenuse tasu ei tohi s&otilde;ltuda sidumispunkti l&auml;biva s&otilde;numi sisust .</s>
+</p>
+<p>
+<s>( 2 ) K&otilde;ne alustamise lisanduvate kuludega seotud sidumisteenuse tasu osa v&otilde;ib olulise turuj&otilde;uga &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatori sidumisteenuse tasudes sisalduda ainult Sideameti kirjalikul n&otilde;usolekul , kui selleks on eelnevalt Sideametile esitatud vastav p&otilde;hjendatud taotlus .</s>
+</p>
+<p>
+<s>( 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 200 )</s>
+</p>
+<p>
+<s>( 3 ) Sidumisteenuse tasude arvestamisel tuleb kulukomponentidena arvestada prognoositavaid optimaalseid t&auml;iendavaid kulusid ja investeeringuid ( sh kapitalikulu ) , mida tuleks teha , et sidumise t&otilde;ttu tekkivat t&auml;iendavat liiklust edastada .</s>
+</p>
+<p>
+<s>( 4 ) Sidumisteenuse tasud ei v&otilde;i sisaldada :</s>
+</p>
+<p>
+<s>1 ) kulukomponenti , mis ei ole seotud sidumisteenusega , vaid on seotud olulise turuj&otilde;uga ettev&otilde;tte enda klientide teenindamisega ;</s>
+</p>
+<p>
+<s>2 ) juurdep&auml;&auml;suv&otilde;rguga seotud kulukomponente ;</s>
+</p>
+<p>
+<s>3 ) universaalteenuse osutamisega seotud kulusid ;</s>
+</p>
+<p>
+<s>4 ) sidumisteenuse osas kulusid olulise turuj&otilde;uga ettev&otilde;tte telekommunikatsiooniv&otilde;rgus katkenud k&otilde;nede eest ;</s>
+</p>
+<p>
+<s>5 ) muid antud teenusega mitteseotud kulukomponente .</s>
+</p>
+<p>
+<s>( 5 ) Olulise turuj&otilde;uga ettev&otilde;tjast &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaator on kohustatud k&otilde;igile seotavatele pakkuma sidumisteenust &uuml;hesuguse arveldusperioodiga , tasum&auml;&auml;raga ja tasumise t&auml;htajaga .</s>
+</p>
+<p>
+<s>( 6 ) Sidumisliini v&auml;ljaehitamise kulud olulise turuj&otilde;uga ettev&otilde;tjaga sidumisel tasuvad seotavad telekommunikatsiooniv&otilde;rgud v&otilde;rdeliselt sidumisliini l&auml;biva liikluse mahuga kolme aasta jooksul , arvates telekommunikatsiooniv&otilde;rkude tegelikust sidumisest , kui ei ole kokku lepitud teisiti .</s>
+</p>
+<p>
+<s>( 7 ) Sidumisliini opereerimise kulud kaetakse osapoolte vahel v&otilde;rdeliselt liiklusele sidumisliinis .</s>
+</p>
+<p>
+<s>( 8 ) Olulise turuj&otilde;uga ettev&otilde;tja kohalikus tariifipiirkonnas &uuml;ldkasutatava telekommunikatsiooniteenuse osutamise tasum&auml;&auml;ra v&otilde;rgu opereerimisega seotud kulukomponent ei tohi olla suurem kui kohalikul tasandil seotud telekommunikatsiooniv&otilde;rgu operaatorilt k&otilde;ne algatamise ja l&otilde;petamise teenuse eest kokku v&otilde;etav tasum&auml;&auml;r .</s>
+</p>
+<p>
+<s>( 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 200 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>P&uuml;siliiniteenuse tasude esitus</s>
+</p>
+<p>
+<s>( 1 ) P&uuml;siliiniteenuse tasud peavad olema esitatud kasutaja poolt tellitud sidekanali mahu ning p&uuml;siliini pikkuse l&otilde;ikes .</s>
+</p>
+<p>
+<s>( 2 ) P&uuml;siliiniteenuse tasum&auml;&auml;r v&otilde;ib koosneda &uuml;hekordsest tasust , mis katab p&uuml;siliini loomisega seotud &uuml;hekordsed kulutused , ning perioodilisest tasust , mis katab p&uuml;siliini opereerimisega seotud kulutused .</s>
+</p>
+<p>
+<s>( 3 ) P&uuml;siliiniteenuse tasudes ei tohi arvestada selle teenusega mitteseotud kulukomponente .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Teenuse hindade avaldamine</s>
+</p>
+<p>
+<s>( 1 ) OTE poolt kehtestatud sidumisteenuse tasud avaldatakse n&auml;idissidumislepingus , mis on k&auml;ttesaadav k&otilde;igile huvitatud isikutele .</s>
+</p>
+<p>
+<s>( 2 ) OTE poolt kehtestatud p&uuml;siliinitasud avaldatakse &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 33 l&otilde;ike 3 kohaselt .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Kuluaruannete lahusus</s>
+</p>
+<p>
+<s>( 1 ) Kuluaruannete lahususe eesm&auml;rk on tasude kulup&otilde;hisuse , l&auml;bipaistvuse ja nende mittediskrimineeriva iseloomu tagamine .</s><s>Informatsiooni piisav k&auml;ttesaadavus peab tagama teistele operaatoritele kindlustunde , et sidumisteenuse tasud on kulup&otilde;hised ega sisalda OTE telekommunikatsiooniv&otilde;rgu kulude ala- ega &uuml;lekaetust .</s>
+</p>
+<p>
+<s>( 2 ) OTE peab jagama oma p&otilde;hilised tegevusalad j&auml;rgmisteks tegevusvaldkondadeks : &uuml;lekandev&otilde;rguks , juurdep&auml;&auml;suv&otilde;rguks , jaem&uuml;&uuml;giks ja muudeks tegevusteks .</s><s>Toodud jaotuse t&auml;psem selgitus on esitatud &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 53 l&otilde;ike 6 alusel Vabariigi Valitsuse kehtestatud telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodikas .</s><s>Vajaduse korral v&otilde;ib OTE toodud jaotust detailiseerida .</s>
+</p>
+<p>
+<s>( 3 ) OTE peab koostama ka aruanded , mis arvestavad k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud erinevate tegevusvaldkondade omavahelisi seoseid ja on selguse tagamiseks n&otilde;utavad Sideameti poolt .</s><s>Nimetatud aruannetele esitatavad n&otilde;uded on toodud &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 50 l&otilde;ike 4 alusel kehtestatud m&auml;&auml;ruses .</s>
+</p>
+<p>
+<s>( 4 ) Tegevuste lahususe p&otilde;him&otilde;ttest l&auml;htuv lisanduvate kulude teoreetiline kontseptsioon on toodud k&auml;esoleva m&auml;&auml;ruse lisas 1.</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Transferthindade esitamine kuluaruannetes</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Transferthindade kujundamise p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Transferthindade s&uuml;steemi rakendatakse hinnakujunduseks toodete ja teenuste osutamisel peamiste tegevusvaldkondade ja seotud tegevusvaldkondade vahel .</s><s>OTE &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatori transferthindade aruannete s&uuml;steemi kujundamisel tuleb j&auml;lgida m&auml;&auml;ruse lisas 2 toodud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) OTE &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatori transferthindade s&uuml;steem peab vastama j&auml;rgmistele p&otilde;him&otilde;tetele :</s>
+</p>
+<p>
+<s>1 ) transferthinnad , mis on kajastatud tehtud kuluna v&otilde;i saadud tuluna , tuleb omistada kulukandjatele koosk&otilde;las tegevustega , mis p&otilde;hjustasid tulu teenimise v&otilde;i kulu tekkimise ;</s>
+</p>
+<p>
+<s>2 ) tulude ja kulude omistamine peab olema objektiivne ega tohi olla m&auml;&auml;ratud mingi konkreetse &auml;ritegevuse v&otilde;i seotud tegevuse kasusaamise eesm&auml;rgist l&auml;htuvalt ;</s>
+</p>
+<p>
+<s>3 ) transferthindade kujundamisel tuleb j&auml;lgida j&auml;rjepidevuse p&otilde;him&otilde;tet ;</s>
+</p>
+<p>
+<s>4 ) transferthindade kujundamise meetodid peavad olema selgelt m&otilde;istetavad , kajastamaks nende kulup&otilde;hisuse n&otilde;ude t&auml;itmist ;</s>
+</p>
+<p>
+<s>5 ) enda tarbeks osutatavate teenuste transferthinnad peavad olema sama suured kui nende samade teenuste eest teiselt operaatorilt v&otilde;i teenuse osutajalt v&otilde;etav tasum&auml;&auml;r .</s>
+</p>
+<p>
+<s>( 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 200 )</s>
+</p>
+<p>
+<s>( 3 ) Konkurentsi tingimustes peab aruannetes kajastuv transferthind v&otilde;rduma turuhinnaga .</s><s>Turuhindade ebaobjektiivsuse korral tuleb OTE &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatoril kehtestada transferthinnad t&auml;iskulude baasil .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&auml;henemised LRAIC metoodika kehtestamiseks</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>LRAIC p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) P&uuml;siliini- ja sidumisteenuse tasum&auml;&auml;rad arvutatakse k&auml;esoleva metoodika kohaselt .</s><s>Kogu teenuse lisanduv kulu ( total service incremental cost ) defineeritakse LRAIC kontseptsioonist l&auml;htuvalt kui senisele kulude mahule lisanduv kulu , mida kantakse teenust osutades ja mida ei eksisteeri , kui teenust ei osutata .</s><s>P&uuml;siliini- ja sidumisteenuse kulude kalkuleerimine ei l&auml;htu t&auml;isomahinna kontseptsioonist , vaid LRAIC kulude kalkuleerimise ja omahinna kujundamise kontseptsioonist .</s>
+</p>
+<p>
+<s>( 2 ) Kogu teenuse lisanduv kulu sisaldab k&uuml;ll teenuse-spetsiifilisi p&uuml;sikulusid , aga ei sisalda tavaliselt &uuml;ldisi p&uuml;sikulusid ja jagatavaid p&uuml;sikulusid ( need , mis on jagatavad erinevatele toote- v&otilde;i teenusegruppidele ) .</s>
+</p>
+<p>
+<s>( 3 ) Kui antud teenusele vastav osa &uuml;ldkulusid ikkagi sisaldub kuludefinitsioonis , siis saame t&auml;ielikult jaotatavate kulude ( fully allocated cost ) kontseptsiooni .</s><s>Nii kujuneb t&auml;isomahind , kuhu on arvatud perioodikulud ehk ettev&otilde;tte &uuml;ldkulud .</s>
+</p>
+<p>
+<s>( 4 ) Kui k&otilde;ik &uuml;ldised ja jagatavad p&uuml;sikulud omistatakse &uuml;hele teenusele v&otilde;i tootele , siis tulemuseks on eraldiseisvad kulud ( stand alone cost ) - kulud , mida kantakse , kui osutatakse ainult &uuml;hte teenust .</s>
+</p>
+<p>
+<s>( 5 ) LRIC mudel eeldab , kasutades kogu teenuse definitsiooni , et jagatavad p&uuml;sikulud ja &uuml;ldkulud ei sisaldu sidumisteenuse kulukalkulatsioonides .</s><s>Et operaator saaks katta k&otilde;ik oma p&otilde;hjendatud kulud , tuleb sidumisteenuse tasudes arvesse v&otilde;tta OTE ettevaatavad jagatavad p&uuml;sikulud ja osa &uuml;ldkuludest , mis l&uuml;litatakse vastava hinnalisandina ( mark-up ) tasum&auml;&auml;ra .</s>
+</p>
+<p>
+<s>( 6 ) Kogu teenuse lisanduv kulu peab arvestama mastaabis&auml;&auml;stu .</s><s>Pikas perspektiivis on lisanduv kulu kui kogu teenuse pikaajaliselt lisanduv kulu ( total service long run incremental cost - TS-LRIC ) ( vt m&auml;&auml;ruse lisa 3 ) .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>L&auml;henemised LRAIC metoodikale</s>
+</p>
+<p>
+<s>( 1 ) Kaks v&otilde;imalikku l&auml;henemist tulevikku suunatud LRAIC s&uuml;steemi kehtestamiseks p&uuml;siliini- ja sidumisteenuste arvestamiseks on &uuml;lalt-alla- ja alt-&uuml;les-metoodika .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;lalt-alla ( top-down ) l&auml;henemise korral tulenevad algandmed juhtimisarvestuse aruannetest , kohaldades neid vastavalt hetkev&auml;&auml;rtusele , mitte kasutades ajaloolisi v&auml;&auml;rtusi .</s><s>J&auml;rgneb kulude omistamise protsess erinevatele teenustele , mis p&otilde;hineb kulude ja mahtude vahelistel seostel .</s><s>&Uuml;lalt-alla l&auml;henemine algab OTE finantsaruannetest ja j&auml;rjest toimub nende kulude eraldamine , mis ei lisandu antud teenusele .</s>
+</p>
+<p>
+<s>( 3 ) Alt-&uuml;les ( bottom-up ) l&auml;henemine n&otilde;uab mudelite arendamist , mida kasutatakse vajalike v&otilde;rguelementide ja erinevate teenuste kulude kalkuleerimiseks .</s><s>Selle l&auml;henemise korral tuleb teha kalkulatsioonid operatiivkulude muutuste ja kulutuste efektiivsuse muutumise kohta ning prognoosida tulevikus toimuvaid muutusi tehnoloogias .</s><s>Esmalt tuleb identifitseerida vajalikud elemendid v&otilde;rgu ehitamiseks ja seej&auml;rel tuletatakse vastavalt sellele kulud efektiivselt t&ouml;&ouml;tava OTE jaoks .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lalt-alla l&auml;henemine LRAIC metoodikale</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>&Uuml;ldp&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Sidumisteenuse tasude arvestamisel tuleb kulukomponentidena arvestada prognoositavaid optimaalseid t&auml;iendavaid kulusid ja investeeringuid ( sh kapitalikulu ) , mida tuleks teha , et sidumise t&otilde;ttu tekkivat t&auml;iendavat liiklust edastada .</s><s>V&otilde;rgu planeerimisel peab l&auml;htuma kaasaegsest ja majanduslikult otstarbekast tehnoloogiast .</s>
+</p>
+<p>
+<s>( 2 ) Kapitalikulu all m&otilde;istetakse sidumisteenusega seotud kapitali kasutusest ( capital employed ) tekkivat kulu .</s><s>See saadakse oma- ja laenukapitali kaalutud keskmise hinna ( WACC ) rakendamisel kapitalikasutuse mahule .</s><s>Vastav arvutusmetoodika on toodud &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 53 l&otilde;ike 6 alusel Vabariigi Valitsuse kehtestatud telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodikas .</s><s>Selliselt arvutatud kapitali hind sisaldab aktivaomanike tulunormi ja seega sisaldab kapitalikulu m&otilde;istlikku kasumit .</s>
+</p>
+<p>
+<s>( 3 ) LRAIC kalkulatsioonides on eraldi k&auml;sitluse objektiks operaatori &uuml;ldkulud kui omistamatud kulud .</s><s>Et operaator saaks katta k&otilde;ik oma p&otilde;hjendatud kulud , tuleb sidumisteenuste hinnas arvesse v&otilde;tta ka nn efektiivse operaatori planeeritavad &uuml;ldkulud .</s><s>Need lisanduvad hinnalisandina ( mark-up ) iga teenuse otseselt ja kaudselt jagatud LRAIC kuludele .</s><s>OTE poolt kasutatav kuluarvestuss&uuml;steem peab tagama , et sellised kulud ei &uuml;letaks 5% kogukuludest .</s><s>Erinevaid kulukomponente hinnakujunduses on k&auml;sitletud ka &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 53 l&otilde;ike 6 alusel Vabariigi Valitsuse poolt kehtestatud telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodikas .</s>
+</p>
+<p>
+<s>( 4 ) LRIC kalkuleerimine n&otilde;uab kulude jagamist kolme gruppi :</s>
+</p>
+<p>
+<s>1 ) operatiivkulud ;</s>
+</p>
+<p>
+<s>2 ) p&otilde;hivara s&auml;ilitamise ja hoolduse kulud ;</s>
+</p>
+<p>
+<s>3 ) kapitalikulud .</s>
+</p>
+<p>
+<s>( 5 ) Sidumisteenuse tasud peavad p&otilde;hinema varade hetkev&auml;&auml;rtusel , mitte ajaloolisel v&auml;&auml;rtusel .</s><s>Kaasaegse samav&auml;&auml;rse vara hinnad ( modern equivalent asset values ) n&auml;itavad hinda , mis tuleks maksta , kui vahetada olemasolev seade kaasaegsema seadmega , mis t&auml;idaks samu funktsioone .</s><s>Ajaloolistel kuludel p&otilde;hinevad sidumisteenuse tasud kajastavad suuremaid kulutusi kui need oleksid kaasaegsema seadme puhul , mis v&otilde;ib maksta v&auml;hem .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>&Uuml;lalt-alla l&auml;henemise etapid</s>
+</p>
+<p>
+<s>( 1 ) Kulude ja mahu vahelised seosed peavad olema defineeritud iga kulut&uuml;&uuml;bi ja iga investeerimisliigi jaoks .</s><s>Erinevate kulut&uuml;&uuml;pide kasvudest tulenevat lisanduvat kulu kirjeldab joonis k&auml;esoleva m&auml;&auml;ruse lisas 4.</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;lalt-alla lisanduvate kulude s&uuml;steemi metoodika teostamise etapid on j&auml;rgmised :</s>
+</p>
+<p>
+<s>1 ) lisanduvate kulude kontseptuaalse raamistiku defineerimine .</s><s>See on aluseks lisanduvate kulude arvutamisel .</s><s>Selle etapi k&auml;igus tuleb k&auml;sitleda muu hulgas j&auml;rgmisi teemasid :</s>
+</p>
+<p>
+<s>a ) kuluobjektide m&auml;&auml;ratlemine ;</s>
+</p>
+<p>
+<s>b ) kulude juurdekasvude m&auml;&auml;ratlemine ;</s>
+</p>
+<p>
+<s>c ) kulude juurdekasvude eristamine pikaajalises ja l&uuml;hiajalises perspektiivis ;</s>
+</p>
+<p>
+<s>d ) tulevaste kulude m&otilde;&otilde;tmine ;</s>
+</p>
+<p>
+<s>e ) fikseeritud &uuml;ldkulude k&auml;sitlemine ;</s>
+</p>
+<p>
+<s>2 ) oletatavate muutuste prognoosimine .</s><s>See etapp sisaldab muutuste prognoosimist j&auml;rgmistes k&uuml;simustes :</s>
+</p>
+<p>
+<s>a ) &ldquo; k&otilde;rbenud s&otilde;lme &rdquo; meetod v&otilde;rgu modelleerimisel ;</s>
+</p>
+<p>
+<s>b ) erinevad mahtude muutused ;</s>
+</p>
+<p>
+<s>c ) teenuste kvaliteedi muutuste prognoosimine ;</s>
+</p>
+<p>
+<s>d ) tarbijate struktuuri muutuste prognoosimine ;</s>
+</p>
+<p>
+<s>3 ) kulude , varade v&auml;&auml;rtuste ja v&otilde;lgade suuruste t&auml;psustamine .</s><s>Selles etapis tegeldakse kulude vajalikul m&auml;&auml;ral eristamisega , et neid omistada kulukandjatele .</s><s>Aluseks peavad olema j&auml;rgmised p&otilde;him&otilde;tted :</s>
+</p>
+<p>
+<s>a ) eristatavus ;</s>
+</p>
+<p>
+<s>b ) p&otilde;hjuslikkus ;</s>
+</p>
+<p>
+<s>c ) selgus ;</s>
+</p>
+<p>
+<s>d ) materiaalsus ;</s>
+</p>
+<p>
+<s>4 ) kuluk&auml;iturite ja s&otilde;ltuvuste m&auml;&auml;ramine .</s><s>Iga kuluartikli jaoks on vaja leida kuluk&auml;itur ja kulukandja , et v&otilde;imaldada kulude jaotamist .</s><s>Lisanduvate kulude modelleerimisel tuleb prognoosida kulude muutusi erinevates tingimustes .</s><s>Selleks , et kaudkulude puhul seda teha , tuleb konstrueerida erinevaid kulu-mahu suhete anal&uuml;&uuml;se ;</s>
+</p>
+<p>
+<s>5 ) kulu-mahu vaheliste suhete konstrueerimine .</s><s>Seda saab teha , kasutades varem koostatud ja t&auml;iendatud spetsiaalseid mudeleid , v&otilde;i statistilise anal&uuml;&uuml;si abil .</s><s>Ka uuringute kasutamine v&otilde;ib osutuda vajalikuks .</s><s>Selle etapi jooksul tuleb identifitseerida iga konkreetse juurdekasvu jaoks spetsiifilised fikseeritud kulud ;</s>
+</p>
+<p>
+<s>6 ) aruandlus ja s&uuml;steemi v&auml;ljundid .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>&Uuml;lalt-alla-mudeli rakendamine</s>
+</p>
+<p>
+<s>( 1 ) T&auml;iendava kulu kalkuleerimine sisaldab :</s>
+</p>
+<p>
+<s>1 ) kulukohtade m&auml;&auml;ratlemist ;</s>
+</p>
+<p>
+<s>2 ) hetkekulude suurust m&auml;&auml;ratletud kulukohtades olemasoleva liikluse alusel ;</s>
+</p>
+<p>
+<s>3 ) eeldatava liikluse muutuse m&auml;&auml;ratlemist iga v&otilde;rguseadme kohta ;</s>
+</p>
+<p>
+<s>4 ) liikluse muutusest tuleneva lisanduvate kulude muutuse m&auml;&auml;ratlemist kulukohtades ;</s>
+</p>
+<p>
+<s>5 ) summaarse lisanduva kulu tuletamist erinevate tegevusvaldkondade l&otilde;ikes , summeerides erinevate kulugruppide lisanduvad kulud .</s>
+</p>
+<p>
+<s>( 2 ) Telekommunikatsiooniv&otilde;rgu uuendamine p&otilde;hineb modifitseeritud &ldquo; k&otilde;rbenud &rdquo; s&otilde;lme meetodil ja kaasaegse samav&auml;&auml;rse tehnoloogia p&otilde;him&otilde;tetel .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;lalt-alla-meetodi puhul saadakse telekommunikatsiooniv&otilde;rgu seadmete kulu , summeerides :</s>
+</p>
+<p>
+<s>1 ) amortisatsiooni , mis arvutatakse l&auml;htuvalt p&otilde;hivarade jooksevhindadest ;</s>
+</p>
+<p>
+<s>2 ) operatiivkulud , mis on otse omistatavad v&otilde;rguseadmetele ;</s>
+</p>
+<p>
+<s>3 ) kapitalikulu , mis saadakse , kui mingi vara kasutus korrutada kapitali hinnaga .</s><s>Kapitali hinda on k&auml;sitletud l&auml;hemalt &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 53 l&otilde;ike 6 alusel Vabariigi Valitsuse kehtestatud telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodikas .</s>
+</p>
+<p>
+<s>( 4 ) Lisanduvate kulude m&auml;&auml;ramise n&auml;ide &uuml;lalt-alla l&auml;henemise korral on toodud k&auml;esoleva m&auml;&auml;ruse lisas 5.</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>M&auml;&auml;ruse rakendamine</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>LRAIC s&uuml;steemi l&auml;henemiste rakendamine</s>
+</p>
+<p>
+<s>OTE on kohustatud LRAIC s&uuml;steemi rakendamiseks kasutama &uuml;lalt-alla l&auml;henemist 1. jaanuarist 2001. a.&Uuml;lalt-alla l&auml;henemise p&otilde;him&otilde;tted lisaks &uuml;ldistele n&otilde;uetele on toodud k&auml;esolevas m&auml;&auml;ruses .</s>
+</p>
+<p>
+<s>( 18.12.2001 j&otilde;ust.24.12.2001 - RT I 2001 , 99 , 637 )</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> Direktiiv 97/33/EC 30.06.1997. a ( nn &ldquo; Interconnection Directive &rdquo; ) , mis antud m&auml;&auml;ruse kontekstis s&auml;testab &uuml;ldised juhised ja n&otilde;uded telekommunikatsiooniv&otilde;rkude sidumisele ;</s>
+</p>
+<p>
+<s><hi rend="sup">2</hi></s>
+</p>
+<p>
+<s>1 ) C(1997 ) 3148 15.10.1997. a ( &ldquo; Commission Recommendation on Interconnection in a liberalised telecommunications market .</s><s>Part 1 - Interconnection Pricing &rdquo; ) koos lisadega ;</s>
+</p>
+<p>
+<s>2 ) C(1998 ) 960 08.04.1998. a ( &ldquo; Commission Recommendation on Interconnection in a liberalised telecommunications market .</s><s>Part 2 - Accounting separation and cost accounting &rdquo; ) koos lisadega ;</s>
+</p>
+<p>
+<s>3 ) C(2000 ) 263 20.03.2000. a ( &ldquo; Commission Recommendation on Interconnection in a liberalised telecommunications market .</s><s>Part 1 - Interconnection Pricing &rdquo; ) koos lisadega ;</s>
+</p>
+<p>
+<s>4 ) C(1999 ) 3863 24.11.1999. a ( &ldquo; Commission Recommendation on Leased lines interconnection pricing in a liberalised telecommunications market &rdquo; ) .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 4. detsembri 2000. a m&auml;&auml;ruse nr 397 &ldquo; P&uuml;siliini- ja sidumisteenuste tasude arvestamise metoodika &rdquo; lisa 1</s>
+</p>
+<p>
+<s>Lisanduvate kulude teoreetiline kontseptsioon</s>
+</p>
+<p>
+<s>( vt joonist RT I 2000 , 94 , 605 )</s>
+</p>
+<p>
+<s>Joonis .</s><s>Lisanduvate kulude m&otilde;&otilde;tmine</s>
+</p>
+<p>
+<s>Joonise j&auml;rgi saab &uuml;ksiku tegevuse lisanduvad kulud tuletada j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>- Identifitseerida jooksev &uuml;ldkasutatava telefoniv&otilde;rgu ( PSTN ) v&otilde;i &uuml;ldkasutatava mobiiltelefoniv&otilde;rgu opereerimisega mitteseotud tegevuste kulumaht <hi rend="sup">1</hi> ja piir &uuml;ldkasutatava telefoniv&otilde;rgu opereerimisega seotud kulumahu ja sellega mitteseotud tegevuse kulude vahel .</s><s>Muutus mitte-PSTN tegevustega seotud lisanduvates kuludes ( joonisel a-b ) on defineeritud kui PSTN opereerimisega mitteseotud tegevuste lisanduv kulu ( incremental cost of non-PSTN activities ) .</s>
+</p>
+<p>
+<s>- Identifitseerida jooksev &uuml;lekandev&otilde;rgu opereerimisega seotud kulude kogum ja leida kulude maht , mis j&auml;&auml;ks olemata , kui ei eksisteeriks &uuml;lekandev&otilde;rgu opereerimisega seotud tegevusi .</s><s>Erinevus PSTN v&otilde;rgu kulude ja niisuguse v&otilde;rgu kulude vahel , mis on v&auml;hendatud &uuml;lekandev&otilde;rgu opereerimisega seotud tegevuste v&otilde;rra ( joonisel c-d ) , ongi &uuml;lekandev&otilde;rgu opereerimisega seotud tegevuste lisanduvad kulud .</s>
+</p>
+<p>
+<s>- Identifitseerida jooksev juurdep&auml;&auml;suv&otilde;rgu hooldamisega seotud tegevuste kulukogum ja leida kulude maht , mis j&auml;&auml;ksid olemata , kui hoolitsetakse vajalikul tasemel k&uuml;ll PSTN v&otilde;rgu eest , aga ei eksisteeriks juurdep&auml;&auml;suv&otilde;rku .</s><s>Sellisel juhul juurdep&auml;&auml;su v&otilde;imaldamise lisanduvad kulud on vaheks PSTN v&otilde;rgu kulude ja sellise PSTN v&otilde;rgu vahel , mis koosneb ainult &uuml;lekandev&otilde;rgust ( joonisel d-e ) .</s>
+</p>
+<p>
+<s>Individuaalsete tegevuste lisanduvate kulude summa on kogukuludest v&auml;iksem summa v&otilde;rra , mis v&auml;ljendab &uuml;ldkulusid ( joonisel f-g ) .</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> Kus PSTN ( Public Switched Telephone Network ) on &uuml;ldkasutatav telefoniv&otilde;rk .</s><s>&Uuml;ldkasutatava mobiiltelefoniv&otilde;rgu operaatori korral on &uuml;ldkasutatava telefoniv&otilde;rgu ( PSTN ) asemel antud joonisel &uuml;ldkasutatav mobiiltelefoniv&otilde;rk .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 4. detsembri 2000. a m&auml;&auml;ruse nr 397 &ldquo; P&uuml;siliini- ja sidumisteenuste tasude arvestamise metoodika &rdquo; lisa 2</s>
+</p>
+<p>
+<s>&Uuml;lekandev&otilde;rgu teenuste kasutamine</s>
+</p>
+<p>
+<s>( vt joonist RT I 2000 , 94 , 605 )</s>
+</p>
+<p>
+<s>&Uuml;lekandev&otilde;rk m&uuml;&uuml;b suurt hulka teenuseid , et rahuldada teiste operaatorite ja jaem&uuml;&uuml;gi n&otilde;udmisi .</s><s>Iga teenuse hind baseerub v&otilde;rgukomponentide ja v&otilde;rguosade t&auml;ielikult jaotatud kuludel ( t&auml;isomahind ) , sisaldades ka m&otilde;istlikku tulu kapitalilt , mida kasutatakse teenuse tootmiseks ( return on capital ) .</s>
+</p>
+<p>
+<s>Joonisel A-ga t&auml;histatud maksed baseeruvad sidumistariifidel , mida OTE kajastab n&auml;idissidumislepingus .</s><s>B-ga t&auml;histatud maksed on sisemised transferthinnad , mis p&otilde;him&otilde;tteliselt ei erine sidumistariifidest</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 4. detsembri 2000. a m&auml;&auml;ruse nr 397 &ldquo; P&uuml;siliini- ja sidumisteenuste tasude arvestamise metoodika &rdquo; lisa 3</s>
+</p>
+<p>
+<s>Lisanduv kulu</s>
+</p>
+<p>
+<s>( vt joonist RT I 2000 , 94 , 605 )</s>
+</p>
+<p>
+<s>Joonis .</s><s>Mastaabis&auml;&auml;st olulise faktorina keskmise ja lisanduva kulu kirjeldamiseks</s>
+</p>
+<p>
+<s>Praktikas arvutatakse kogu teenuse lisanduv kulu &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatori jaoks , arvestades v&auml;lditavaid kulusid , kui seda teenust poleks osutatud .</s><s>Kui defineerida juurdekasvu kogu teenusele , siis kogu teenuse lisanduvad kulud erinevad traditsioonilisest keskmisest piirkulust lisanduvate teenuse-spetsiifiliste fikseeritud kulude v&otilde;rra ( vt lisa 2 ) .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 4. detsembri 2000. a m&auml;&auml;ruse nr 397 &ldquo; P&uuml;siliini- ja sidumisteenuste tasude arvestamise metoodika &rdquo; lisa 4</s>
+</p>
+<p>
+<s>Lisanduv kulu &uuml;lalt-alla-meetodi puhul</s>
+</p>
+<p>
+<s>( vt joonist RT I 2000 , 94 , 605 )</s>
+</p>
+<p>
+<s>Lisanduv kulu v&auml;ljendab siin mingi teenuse osutamisel tekkivat lisakulu ( kogu teenuse tasandil ) .</s><s>See koosneb erinevatest kulutustest , mida tuleb teha , et antud teenust osutada .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 4. detsembri 2000. a m&auml;&auml;ruse nr 397 &ldquo; P&uuml;siliini- ja sidumisteenuste tasude arvestamise metoodika &rdquo; lisa 5</s>
+</p>
+<p>
+<s>Lisanduvate kulude m&auml;&auml;ramise n&auml;ide &uuml;lalt-alla l&auml;henemise korral</s>
+</p>
+<p>
+<s>1 ) &Auml;ritegevuse kulud on 1000.</s>
+</p>
+<p>
+<s>2 ) 50% ( s.o 500 ) sellest on &uuml;ldkasutatava telefoniv&otilde;rgu ( PSTN ) v&otilde;i &uuml;ldkasutatava mobiiltelefoniv&otilde;rgu opereerimisega mitteseotud tegevuste kulumaht <hi rend="sup">1</hi> .</s>
+</p>
+<p>
+<s>3 ) &Uuml;ldkasutatava telefoniv&otilde;rgu opereerimisega seotud tegevuste kulumahust on &uuml;lekandev&otilde;rguga seotud 80% ( 400 ) ja juurdep&auml;&auml;suga seotud 20% ( 100 ) .</s>
+</p>
+<p>
+<s>4 ) Kulude ja mahu seos v&auml;ljendub graafiliselt sirgjoonena , mille alguspunkt on vertikaalteljel 200 juures ( st 200 on &uuml;ldkulud ) .</s><s>Nurk antud sirgjoone ja horisontaaltelje vahel ongi kulude ja mahu vaheline seos ( graafilises v&auml;ljenduses ) .</s>
+</p>
+<p>
+<s>( vt joonist RT I 2000 , 94 , 605 )</s>
+</p>
+<p>
+<s>Joonis .</s><s>V&otilde;rgukomponentidel p&otilde;hinevad lisanduvad kulud</s>
+</p>
+<p>
+<s>Mingi tegevuse PSTN opereerimisega mitteseotud tegevuste kulud ongi vaheks selle tegevuse kogukulude ja PSTN opereerimisega seotud eraldiseisvate kulude vahel .</s><s>Antud juhul saab selle arvutada , korrutades PSTN opereerimisega mitteseotud teenuse mahu ( 500 ) kulude ja mahu seosega 0,8 ( joonisel &agr; , mis matemaatiliselt vordub arctan 0,8 ) .</s><s>Need PSTN opereerimisega mitteseotud tegevuse lisanduvad kulud on 400 ( kuna 100 ehk 20% on &oacgr;ldkulude osa ) .</s>
+</p>
+<p>
+<s>&Uuml;lekandev&otilde;rgu opereerimisega seotud tegevuse lisanduvad kulud saab arvutada , vaadates l&auml;bi erinevuse mingi tegevuse X kogukulude ja sama teenuse osutamise vahel .</s><s>Kui on lineaarne kulude ja mahu vaheline seos , saab selle arvutada kui 400&times;0 , 8 = 320 ( sellest 20% on &uuml;ldkulud ) .</s><s>Juurdep&auml;&auml;suv&otilde;rguga seotud lisanduva kulu saab arvutada analoogiliselt 100&times;0 , 8=80 .</s><s>Nende eespool nimetatud lisanduvate kulude summa kokku on 800 , mis on 200 v&otilde;rra v&auml;hem antud tegevuse kogukuludest .</s><s>See vahe ( 200 ) on tegevuse &uuml;ldkulud .</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> &Uuml;ldkasutatava mobiiltelefoniv&otilde;rgu operaatori korral on &uuml;ldkasutatava telefoniv&otilde;rgu ( PSTN ) asemel antud joonisel &uuml;ldkasutatav mobiiltelefoniv&otilde;rk .</s>
+</p>
+</body>
+   </text>
+</tei.2>

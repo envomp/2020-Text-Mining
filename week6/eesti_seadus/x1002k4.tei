@@ -1,0 +1,2287 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kinnistusraamatuseadus ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   10816</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kinnistusraamatuseadus ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=60></tagusage>
+         <tagusage gi=p occurs=727></tagusage>
+         <tagusage gi=s occurs=908></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kinnistusraamatuseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 15. septembril 1993. a.</s>
+</p>
+<p>
+<s>( RT I 1993 , 65 , 922 ; terviktekst RT I 1999 , 44 , 511 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. detsembril 1993. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 ;</s>
+</p>
+<p>
+<s>06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 ;</s>
+</p>
+<p>
+<s>06.03.2001 j&otilde;ust.29.03.2001 - RT I 2001 , 31 , 171 ;</s>
+</p>
+<p>
+<s>07.02.2001 j&otilde;ust.01.03.2001 - RT I 2001 , 21 , 113.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Kinnistusraamatuseaduse &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusraamatuseadus s&auml;testab kinnistusraamatu pidamise korra .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) K&auml;esolevas seaduses s&auml;testamata k&uuml;simustes juhindutakse tsiviilkohtumenetluse kohta k&auml;ivast seadusest .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) Kinnistusraamatut peetakse kirjalikus menetluses , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 2 ) Justiitsministril on &otilde;igus anda m&auml;&auml;rusi k&auml;esoleva seaduse ellurakendamiseks ning kinnistusametite tegevuse korraldamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Justiitsminister v&otilde;ib oma m&auml;&auml;rusega kehtestada :</s>
+</p>
+<p>
+<s>1 ) arvutit&ouml;&ouml;tluseks vajalikud vormin&otilde;uded kinnistusametile esitatavate dokumentide kohta ;</s>
+</p>
+<p>
+<s>2 ) n&otilde;ude , mille kohaselt kinnistusametile esitatava avalduse ja muu notariaalselt kinnitatava dokumendi projekti peab koostama notar .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 4 ) Kinnistusraamatule ja selle pidamisele ei kohaldata andmekogude seadust ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ; 2001 , 7 , 17 ; 17 , 77 ) , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Kinnistusametid</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusraamatuid peavad maa- ja linnakohtutes asuvad kinnistusametid .</s>
+</p>
+<p>
+<s>( 2 ) Kinnistusamet peab kinnistusraamatuid tema kinnistuspiirkonnas asuvate kinnistute kohta .</s>
+</p>
+<p>
+<s>( 3 ) Kinnistusameti &otilde;igusvastase tegevuse tagaj&auml;rjel tekitatud kahju eest vastutab riik .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Kinnistusameti koosseis</s>
+</p>
+<p>
+<s>Kinnistusameti koosseisu s&auml;testab kohtute seadus ( RT 1991 , 38 , 472 ; 1993 , 1 , 2 ; RT I 1993 , 24 , 429 ; 65 , 922 ; 1994 , 81 , 1382 ; 86/87 , 1487 ; 94 , 1609 ; 1995 , 29 , 358 ; 87 , 1540 ; 1996 , 31 , 631 ; 42 , 811 ; 51 , 967 ; 1998 , 4 , 62 ; 2000 , 35 , 219 ; 51 , 321 ; 2001 , 21 , 113 ; 43 , 240 ; 48 , 264 ) .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Kinnistusameti pitsat</s>
+</p>
+<p>
+<s>Kinnistusametil on pitsat , mille j&auml;lg ( edaspidi pitser ) koos kinnistamiseks p&auml;devate isikute allkirjan&auml;idistega saadetakse k&otilde;igile kinnistusametitele .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Kinnistuspiirkond</s>
+</p>
+<p>
+<s>( 1 ) Kinnistuspiirkond on vastava maa- v&otilde;i linnakohtu t&ouml;&ouml;piirkond .</s><s>Justiitsminister v&otilde;ib oma m&auml;&auml;rusega teha sellest erandeid .</s>
+</p>
+<p>
+<s>( 2 ) Justiitsministri m&auml;&auml;rusega v&otilde;ib kinnistuspiirkonna jaotada kinnistusjaoskondadeks , kus peetakse eraldi kinnistusraamatuid .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Kinnistuspiirkonna vahetus</s>
+</p>
+<p>
+<s>( 1 ) Kinnistuspiirkonna muutumisel l&auml;heb kinnistu kohta kinnistusraamatu pidamine &uuml;le kinnistusametile , mille t&ouml;&ouml;piirkonda j&auml;&auml;b kinnistu .</s>
+</p>
+<p>
+<s>( 2 ) Senises kinnistusametis peetud kinnistusregistriosad ja kinnistustoimikud antakse &uuml;le uuele kinnistusametile .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;leantud kinnistusregistriosa ja kinnistustoimiku pealkirjas muudetakse kinnistuspiirkond , kinnistusjaoskond ja kinnistu number .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 1.-4.l&otilde;ikes s&auml;testatu kehtib ka kinnistu &uuml;leminekul teise kinnistusjaoskonda sama kinnistuspiirkonna piires .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Mitmes kinnistuspiirkonnas asuvad kinnistud</s>
+</p>
+<p>
+<s>Kui kinnistu asub mitmes kinnistuspiirkonnas , peetakse selle kohta kinnistusraamatut ainult &uuml;hes kinnistusametis , mille suhtes teeb valiku omanik kinnistusregistriosa avamisel .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Kinnistusraamatusse kantavad kinnisasjad</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusraamatusse kantakse k&otilde;ik kinnisasjad , kui seaduses ei ole s&auml;testatud teisiti .</s><s>Iga kinnistusraamatusse kantud kinnisasja kohta avatakse iseseisev registriosa ja sellele antakse eraldi number ( kinnistu number ) .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1.l&otilde;ikes nimetatud registriosa loetakse kinnisasja suhtes kinnistusraamatuks .</s>
+</p>
+<p>
+<s>( 3 ) Avalik-&otilde;iguslikule isikule kuuluv kinnisasi kantakse kinnistusraamatusse , kui seda koormatakse asja&otilde;igusega v&otilde;i kui seda soovib omanik , samuti siis , kui kinnisasi antakse teise isiku valdusse .</s>
+</p>
+<p>
+<s>( 4 ) Kinnistusregistriosa avatakse omaniku avalduse alusel .</s>
+</p>
+<p>
+<s>&sect; 8 <hi rend="sup">1</hi> .</s><s>Registriosa avamine</s>
+</p>
+<p>
+<s>( 1 ) Enne registriosa avamist kinnistusraamatusse kandmata kinnisasja kohta avaldab kinnistusamet selle kohta teate Riigi Teataja Lisas ja justiitsministri poolt iga aasta 1. detsembriks m&auml;&auml;ratud ajalehes ning vajadusel muul puudutatud isikutele k&auml;ttesaadaval viisil .</s>
+</p>
+<p>
+<s>( 2 ) Teates m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) sissekantava kinnisasja asukoht ja pindala ;</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>2 ) omanikuna sissekantava isiku nimi ;</s>
+</p>
+<p>
+<s>3 ) ettepanek isikutele teatada kinnistusametile &uuml;he kuu jooksul , arvates teate avaldamisest Riigi Teataja Lisas , oma &otilde;igustest ja vastuv&auml;idetest ;</s>
+</p>
+<p>
+<s>4 ) kinnistusameti nimetus ja asukoht .</s>
+</p>
+<p>
+<s>( 3 ) Registriosa avamise ja tehtava kande suhtes esitatud kaebus ei takista registriosa avamist .</s><s>Kaebuse esitanud isik v&otilde;ib n&otilde;uda m&auml;rke tegemist avatavasse kinnistusregistri ossa .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Kinnistusraamatusse kantavad asja&otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusraamatusse kantakse kinnisasjaga seotud asja&otilde;igused .</s>
+</p>
+<p>
+<s>( 2 ) Asja&otilde;iguse kanne tehakse koormatava kinnisasja kinnistusregistriossa .</s>
+</p>
+<p>
+<s>( 3 ) Kinnistu igakordsele omanikule kuuluvate piiratud asja&otilde;iguste kohta tehakse kinnistu omaniku avalduse alusel m&auml;rge ka tema kinnistu kinnistusregistriossa .</s><s>Avaldus v&otilde;ib olla lihtkirjalik .</s>
+</p>
+<p>
+<s>( 4 ) Kui k&auml;esoleva paragrahvi 3.l&otilde;ikes nimetatud asja&otilde;igus muudetakse v&otilde;i l&otilde;petatakse , on kinnistusamet kohustatud m&auml;rke parandama .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kinnistusraamatu sisu</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Kinnistusraamatu koosseis</s>
+</p>
+<p>
+<s>Kinnistusraamatu koosseisu kuuluvad :</s>
+</p>
+<p>
+<s>1 ) kinnistusregister ;</s>
+</p>
+<p>
+<s>2 ) kinnistusp&auml;evik ;</s>
+</p>
+<p>
+<s>3 ) kinnistustoimik .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Kinnistusregister</s>
+</p>
+<p>
+<s>( 1 ) Kanded tehakse kinnistusregistrisse .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hes kinnistuspiirkonnas , kinnistusjaoskondade olemasolul kinnistusjaoskonnas , on kinnistutel &uuml;htne numeratsioon .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>( 4 ) Kinnistusregistriosal on pealkiri ja neli jagu , jaod jagunevad lahtriteks .</s>
+</p>
+<p>
+<s>( 5 ) Kinnistusregistreid peetakse v&auml;ljav&otilde;etavate vahelehtedega vihikutena .</s>
+</p>
+<p>
+<s>( 6 ) Kui registriosa m&otilde;nes jaos ei ole kannete jaoks enam ruumi , lisatakse registriossa vastav lisaleht .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Registriosa pealkiri</s>
+</p>
+<p>
+<s>Kinnistusregistriosa pealkirjas n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) kinnistuspiirkond ;</s>
+</p>
+<p>
+<s>2 ) kinnistusjaoskond , kui see on olemas ;</s>
+</p>
+<p>
+<s>3 ) kinnistu number ;</s>
+</p>
+<p>
+<s>4 ) kinnistu nimetus , kui see on olemas ;</s>
+</p>
+<p>
+<s>5 ) lisalehed .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Registriosa esimene jagu</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusregistriosa esimesse jakku &ldquo; Kinnistu koosseis &rdquo; kantakse :</s>
+</p>
+<p>
+<s>1 ) kinnistu katastritunnus ;</s>
+</p>
+<p>
+<s>2 ) kinnistu sihtotstarve ;</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>3 ) kinnistu asukoht ;</s>
+</p>
+<p>
+<s>4 ) kinnistu kasuks seatud piiratud asja&otilde;igused ( paragrahv 9 lg. 3 ) ;</s>
+</p>
+<p>
+<s>5 ) kinnistu pindala ;</s>
+</p>
+<p>
+<s>6 ) kinnistute &uuml;hendamine ja jagamine , samuti kinnistuga kinnistu osa liitmine ja kinnistu osa eraldamine .</s>
+</p>
+<p>
+<s>( 2 ) Esimese l&otilde;ike punktides 1 , 2 , 3 ja 5 s&auml;testatud andmed esitab enne kinnistamist riigi maakatastri pidaja , kes vastutab nende andmete &otilde;igsuse eest .</s><s>Nimetatud andmed ei ole kanneteks asja&otilde;igusseaduse ( RT I 1993 , 39 , 590 ; RT I 1999 , 44 , 509 ; 2001 , 34 , 185 ; 93 , 565 ) ja k&auml;esoleva seaduse t&auml;henduses .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud andmete muutumisel , kui sellega ei kaasne kinnistu piiride muutumist katastri&uuml;ksuse plaanil , parandab kinnistamiseks p&auml;dev isik need andmed registriosa esimeses jaos riigi maakatastri pidaja kirjaliku taotluse alusel .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 4 ) Kui kinnistu pindala muutumisega kaasneb kinnistu piiride muutumine katastri&uuml;ksuse plaanil , esitab riigi maakatastri pidaja koos andmete parandamise taotlusega kinnistu omaniku ja teiste kinnistusraamatust n&auml;htuvate puudutatud isikute n&otilde;usoleku nende andmete parandamiseks kinnistusregistris .</s><s>Omaniku ja puudutatud isiku n&otilde;usolek peab olema notariaalselt kinnitatud .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 ; 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Registriosa teine jagu</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusregistriosa teise jakku &ldquo; Omanik &rdquo; kantakse :</s>
+</p>
+<p>
+<s>1 ) f&uuml;&uuml;silisest isikust omaniku puhul nimi ja isikukood ( selle puudumisel s&uuml;nniaeg ) , juriidilisest isikust omaniku puhul nimi , asukoht , registrikood v&otilde;i registreerimistunnistuse number selle seadusega s&auml;testatud kehtivusaja l&otilde;puni ning avalik-&otilde;igusliku juriidilise isiku puhul nimi ;</s>
+</p>
+<p>
+<s>2 ) kui kinnistu on &uuml;hises omandis - omanike nimed , see , kas kinnistu on &uuml;his- v&otilde;i kaasomandis , ning kaasomandi korral kaasomanike osade suurus ;</s>
+</p>
+<p>
+<s>3 ) kande &otilde;iguslik alus .</s>
+</p>
+<p>
+<s>( 2 ) Isikukoodi t&auml;iendav sissekandmine ja isikuandmete parandamine toimub omaniku lihtkirjaliku avalduse ja isikuandmeid parandanud ametiasutuse t&otilde;endi alusel .</s>
+</p>
+<p>
+<s>( 3 ) Registrikoodi t&auml;iendav sissekandmine ja parandamine toimub juriidilise isiku esindaja lihtkirjaliku avalduse ja vastava registri registrikaardi kinnitatud &auml;rakirja alusel .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 ; 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Registriosa kolmas jagu</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusregistriosa kolmandasse jakku &ldquo; Koormatised ja kitsendused &rdquo; kantakse :</s>
+</p>
+<p>
+<s>1 ) kinnistut koormavad piiratud asja&otilde;igused , v&auml;lja arvatud h&uuml;poteek , kinnisomandi kitsendused ja m&auml;rked nende kohta ;</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>2 ) kinnistu omaniku k&auml;sutus&otilde;iguse kitsendused , samuti muud m&auml;rked omandi kohta ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva paragrahvi punktides 1 ja 2 nimetatud kannete muudatused , sealhulgas puudutatud isikute kitsendused oma &otilde;iguste k&auml;sutamisel ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva paragrahvi punktides 1-3 nimetatud kannete kustutamine .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 2 ) Riigi omandis oleva kinnistu korral kantakse k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud jakku m&auml;rkus riigivara valitseja kohta .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Registriosa neljas jagu</s>
+</p>
+<p>
+<s>Kinnistusregistriosa neljandasse jakku &ldquo; H&uuml;poteegid &rdquo; kantakse :</s>
+</p>
+<p>
+<s>1 ) h&uuml;poteegipidaja ;</s>
+</p>
+<p>
+<s>2 ) h&uuml;poteegi rahaline suurus ( h&uuml;poteegi summa ) ;</s>
+</p>
+<p>
+<s>3 ) intressim&auml;&auml;rad ;</s>
+</p>
+<p>
+<s>4 ) muude k&otilde;rvaln&otilde;uete rahaline suurus ;</s>
+</p>
+<p>
+<s>5 ) m&auml;rked h&uuml;poteegi kohta ;</s>
+</p>
+<p>
+<s>6 ) k&auml;esoleva paragrahvi punktides 1-5 nimetatud kannete muudatused ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>7 ) k&auml;esoleva paragrahvi punktides 1-6 nimetatud kannete kustutamine .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Abiregistrid</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusregistrile lisatakse kaks abiregistrit , millest &uuml;ks koostatakse omanike nimede , teine kinnistute j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Abiregistrid on ette n&auml;htud ainult kinnistusameti t&ouml;&ouml; h&otilde;lbustamiseks ja nendega tutvumist ei v&otilde;imaldata .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Registri asendusosa</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnistusregistriosa on h&auml;vinud , kadunud v&otilde;i rikutud , seab kohus erimenetluse korras sisse asendusosa .</s>
+</p>
+<p>
+<s>( 2 ) Menetlus algatatakse kinnistusameti juhataja v&otilde;i puudutatud isiku avalduse alusel .</s><s>V&auml;hemalt kolm kuud enne avalduse sisulist l&auml;bivaatamist avaldab kohus Riigi Teataja Lisas ja justiitsministri poolt iga aasta 1. detsembriks m&auml;&auml;ratud ajalehes teate , milles m&auml;rgitakse avalduse sisu .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 ; 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 3 ) Asendusosa sisseseadmise otsuse teeb maa- v&otilde;i linnakohtu esimehe nimetatud kohtunik .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 ; 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Kinnistusp&auml;evik</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusp&auml;evikus registreeritakse kinnistamisavaldused ( paragrahv 34 ) , milles on v&auml;ljendatud soov kande tegemiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kinnistusp&auml;evikusse kantakse lisaks avalduse vastuv&otilde;tmise kuup&auml;ev , puudutatud kinnistu number , m&auml;&auml;ruse tegemise aeg , kestus , t&auml;iendavate dokumentide saabumise aeg , kinnistamisotsuse tegemise , sissekandmise ja teatavakstegemise aeg , kinnistamist l&auml;biviivate isikute allkirjad , tehinguv&auml;&auml;rtus ja riigil&otilde;iv .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Kinnistustoimik</s>
+</p>
+<p>
+<s>( 1 ) Kinnistu jaoks seatakse sisse kinnistustoimik , mis t&auml;histatakse selle kinnistu kinnistusregistriosa numbriga .</s>
+</p>
+<p>
+<s>( 2 ) Kinnistustoimikusse pandud dokumendid nummerdatakse jooksvalt .</s>
+</p>
+<p>
+<s>( 3 ) Kinnistustoimik koosneb :</s>
+</p>
+<p>
+<s>1 ) registriosa &auml;rakirjast ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;igist kinnistu kohta k&auml;ivatest dokumentidest .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 4 ) Kinnistusamet tagab kinnistustoimikus oleva registriosa &auml;rakirja ja muude dokumentide vastavuse algdokumentidele .</s>
+</p>
+<p>
+<s>&sect; 21. ( Kehtetu - 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Kinnistusameti arhiiv</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusraamatud s&auml;ilitatakse alaliselt kinnistusametis asuvas arhiivis .</s>
+</p>
+<p>
+<s>( 2 ) Kinnistusameti arhiivi pidamise korra ja arhiivile esitatavad n&otilde;uded m&auml;&auml;rab justiitsminister .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kinnistusregistri kanded</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kande sisu</s>
+</p>
+<p>
+<s>Kinnistusregistri kanne sisaldab :</s>
+</p>
+<p>
+<s>1 ) kande teksti ;</s>
+</p>
+<p>
+<s>2 ) kande tegemise kuup&auml;eva ;</s>
+</p>
+<p>
+<s>3 ) kande teinud isikute allkirja .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Kande tekst</s>
+</p>
+<p>
+<s>Kande tekst sisaldab :</s>
+</p>
+<p>
+<s>1 ) kinnistatud asja&otilde;iguse sisu , selle isiku nime , kelle kasuks kanne tehakse , ning f&uuml;&uuml;silise isiku puhul isikukoodi , selle puudumisel s&uuml;nniaega , ja juriidilise isiku puhul asukohta ja registrikoodi v&otilde;i registreerimistunnistuse numbrit selle seadusega s&auml;testatud t&auml;htaja l&otilde;puni ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>2 ) viidet algdokumendile ja dokumendile , mille alusel soovitakse asja&otilde;iguse sisu t&auml;psemalt t&otilde;endada ;</s>
+</p>
+<p>
+<s>3 ) viidet j&auml;rjekohale , kui samal p&auml;eval tehakse samasse registriossa mitu kannet ( paragrahv 49 ) .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Kinnistusregistri kannete numeratsioon</s>
+</p>
+<p>
+<s>Kanded kinnistusregistriosas nummerdatakse iga registrijao piires nende tegemise j&auml;rjekorras .</s><s>Muutmise ja kustutamise kanded saavad selle kande numbri , mille kohta need k&auml;ivad .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Kande vormistamine</s>
+</p>
+<p>
+<s>( 1 ) Kanded tuleb teha selgelt ja l&uuml;henditeta , v&auml;lja arvatud &uuml;ldkasutatavad l&uuml;hendid .</s>
+</p>
+<p>
+<s>( 2 ) Mahat&otilde;mbamised ja juurdekirjutused kande tekstis , v&auml;lja arvatud &otilde;iguslikku t&auml;hendust mitteomavate kirjavigade parandamine , samuti teksti kustutamine v&otilde;i muul viisil loetamatuks muutmine ei ole lubatud .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>M&auml;rke kandmine kinnistusregistrisse</s>
+</p>
+<p>
+<s>( 1 ) M&auml;rge kantakse kinnistusregistrisse kinnisasja omaniku v&otilde;i puudutatud asja&otilde;iguse omaja n&otilde;usolekul , kui seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Eelm&auml;rge ja vastuv&auml;ide kantakse kinnistusregistrisse :</s>
+</p>
+<p>
+<s>1 ) selle isiku avalduse alusel v&otilde;i n&otilde;usolekul , kelle omandit v&otilde;i piiratud asja&otilde;igust see puudutab , v&otilde;i</s>
+</p>
+<p>
+<s>2 ) hagi tagamise m&auml;&auml;ruse alusel .</s>
+</p>
+<p>
+<s>( 3 ) Keelum&auml;rge kantakse kinnistusregistrisse hagi tagamise m&auml;&auml;ruse v&otilde;i muul seaduses s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 4 ) M&auml;rkus kantakse kinnistusregistrisse seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 5 ) Registrisse ei ole lubatud kanda m&auml;rget , milles ei ole &auml;ra n&auml;idatud isikut , kelle kasuks m&auml;rge tehakse .</s>
+</p>
+<p>
+<s>( 6 ) M&auml;rke kandmise avaldus peab olema notariaalselt kinnitatud , kui seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>M&auml;rke asukoht registris</s>
+</p>
+<p>
+<s>M&auml;rge kantakse :</s>
+</p>
+<p>
+<s>1 ) kinnistusregistriosa kolmandasse jakku , kui m&auml;rge tagab omandi &uuml;lekandmise n&otilde;uet ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>2 ) l&otilde;pliku kande jaoks etten&auml;htud lahtrisse , kui m&auml;rge tagab n&otilde;uet mingi muu &otilde;iguse seadmiseks kinnistule v&otilde;i seda koormavale &otilde;igusele ;</s>
+</p>
+<p>
+<s>3 ) &uuml;lej&auml;&auml;nud juhtudel muudatuste lahtritesse selles jaos , kuhu on kantud &otilde;igus , mille kohta m&auml;rge k&auml;ib .</s>
+</p>
+<p>
+<s>&sect; 29. ( Kehtetu - 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Kande j&auml;rjekoht ja selle t&auml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnistusregistriosa &uuml;hte jakku tehakse mitu kannet , saavad need j&auml;rjekoha , mis vastab registreerimise j&auml;rjekohale kinnistusp&auml;evikus .</s><s>Kui avaldused on esitatud samaaegselt , antakse neile &uuml;ks ja sama j&auml;rjekoht .</s>
+</p>
+<p>
+<s>( 2 ) Kui eri aegadel esitatud kinnistamisavalduste alusel tehakse kandeid eri jagudesse samal p&auml;eval , tuleb neis &auml;ra n&auml;idata , et hiljem taotletud kanne asub varem taotletud kandest j&auml;rjekohas tagapool .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;iget ei kohaldata , kui asjaosalised on m&auml;&auml;ranud teisiti .</s>
+</p>
+<p>
+<s>( 4 ) Kohtu v&otilde;i pankrotihalduri poolt pankrotimenetluse k&auml;igus taotletud keelum&auml;rge kantakse kinnistusregistrisse kohe m&auml;&auml;ruse v&otilde;i avalduse saabumisel , arvestamata kinnistamisavaldusi , mis on varem saabunud .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 5 ) Kui kinnistusametil ei ole v&otilde;imalik k&auml;esoleva paragrahvi 4. l&otilde;ikes nimetatud kannet teha m&auml;&auml;ruses v&otilde;i avalduses sisalduva k&otilde;rvaldatava puuduse t&otilde;ttu , teatab kinnistusamet sellest viivitamatult avaldajale ning kannab ameti&uuml;lesande korras registriossa ajutise m&auml;rke keelum&auml;rke kohta .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 6 ) Kui k&auml;esoleva paragrahvi 4. l&otilde;ikes nimetatud kande tegemise puudus on k&otilde;rvaldatud , tehakse taotletud kanne , mis omandab ajutise m&auml;rke j&auml;rjekoha .</s><s>Ajutine m&auml;rge kustutatakse ameti&uuml;lesande korras .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 7 ) Kui k&auml;esoleva paragrahvi 4. l&otilde;ikes nimetatud kande tegemise puudust ei ole k&otilde;rvaldatud kuu aja jooksul , arvates puudusest teatamise hetkest , kustutab kinnistusamet ajutise m&auml;rke ameti&uuml;lesande korras .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Mitme isiku asja&otilde;iguse kanne</s>
+</p>
+<p>
+<s>&Uuml;heaegselt mitmele isikule kuuluva asja&otilde;iguse kinnistusregistrisse kandmisel m&auml;rgitakse &auml;ra vastav &otilde;igussuhe ja iga isiku osa suurus .</s><s>Kui kinnistamise aluseks olnud dokumentidest ei n&auml;htu , mis osades &otilde;igus igale isikule kuulub , eeldatakse , et &otilde;igus kuulub isikuile v&otilde;rdsetes osades .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Mitme kinnistu koormamise kanne</s>
+</p>
+<p>
+<s>( 1 ) Kui mitut kinnistut koormatakse sama asja&otilde;igusega , m&auml;rgitakse igas registriosas teised sama &otilde;igusega koormatud kinnistud .</s><s>Sama kehtib ka siis , kui &uuml;hte kinnistut koormava &otilde;igusega koormatakse hiljem veel teist kinnistut v&otilde;i kui kinnistu osa &uuml;lekandmisel teise kinnistusregistriossa kantakse &uuml;le ka seda koormav asja&otilde;igus .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva paragrahvi 1.l&otilde;ikes nimetatud koormatis m&otilde;ne kinnistu suhtes kustutatakse , tuleb see m&auml;rkida teiste kinnistute registriosades .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kinnistamine</s>
+</p>
+<p>
+<s>&sect; 32 <hi rend="sup">1</hi> .</s><s>Kohtunikuabi ja kohtuniku p&auml;devus kinnistamisel</s>
+</p>
+<p>
+<s>( 1 ) Kohtunikuabi on p&auml;dev tegema kinnistamisotsuseid ning kinnistusraamatu pidamisega seotud kohtum&auml;&auml;rusi .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 2 ) Kohtunikuabi peab kinnistamisotsuse tegemise andma vastava kohtu esimehe poolt m&auml;&auml;ratud kohtunikule , kui :</s>
+</p>
+<p>
+<s>1 ) ta soovib k&otilde;rvale kalduda talle teadaolevast kohtuniku seisukohast ;</s>
+</p>
+<p>
+<s>2 ) kinnistamisavalduse l&auml;bivaatamisel ilmnevad &otilde;iguslikud raskused .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 3 ) Kohtunik v&otilde;ib kinnistamisotsuse tegemise tagasi anda kohtunikuabile .</s><s>Sellisel juhul on kohtunikuabi kohustuslikult seotud kohtuniku kirjaliku seisukohaga .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 ; 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 4 ) Kinnistamisotsus , mille kohtunik tegi kohtunikuabi p&auml;devuses oleva kinnistamisavalduse kohta , on kehtiv .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 5 ) Kinnistamisotsus , mille kohtunikuabi tegi kinnistamisavaldust 2. l&otilde;ike kohaselt &uuml;le andmata , on kehtiv .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 6 ) Kohtunikuabi peab kinnistamismenetluses oma allkirjale lisama s&otilde;na &ldquo; kohtunikuabi &rdquo; .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 7 ) Kinnistamiseks p&auml;dev isik ei v&otilde;i teha kandeotsust , kui ta on poolte sugulane v&otilde;i h&otilde;imlane v&otilde;i kui muud asjaolud tekitavad kahtlust tema erapooletuses .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 32 <hi rend="sup">2</hi> .</s><s>Kinnistussekret&auml;ri p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Kinnistussekret&auml;r on p&auml;dev l&auml;bi vaatama kinnistamisavaldusi ja tegema kinnistamisotsuse eeln&otilde;usid .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 3 ) Kinnistusameti juhataja v&otilde;ib lubada kinnistussekret&auml;ril teha k&otilde;iki kohtunikuabi p&auml;devuses olevaid t&ouml;id peale kinnistamisotsuse tegemise .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Kinnistamine</s>
+</p>
+<p>
+<s>( 1 ) Kinnistamine on kinnistamiseks p&auml;deva isiku otsuse alusel kinnistusraamatusse kande tegemine , sealhulgas kande muutmine v&otilde;i kustutamine .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 2 ) Kanne tehakse p&auml;rast l&otilde;ivu tasumist , kui seaduses ei ole s&auml;testatud teisiti .</s><s>Kui ei ole kokku lepitud teisiti , tasub l&otilde;ivu isik , kelle kasuks kinnistamine toimub .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Kinnistamisavalduse esitamine</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igustloova kande korral on kinnistamisavalduse esitamise &otilde;igus vahetutel asjaosalistel , kelle vahel &otilde;igusemuutus toimub .</s>
+</p>
+<p>
+<s>( 2 ) Kande muutmise v&otilde;i kustutamise korral v&otilde;ib kinnistamisavalduse esitada iga isik , kelle kinnistusregistrisse kantud &otilde;iguslik seisund selle tagaj&auml;rjel muutub .</s>
+</p>
+<p>
+<s>( 3 ) Kinnistu v&otilde;i piiratud asja&otilde;iguse &uuml;lekandmisel teisele isikule v&otilde;i koormamisel teise isiku kasuks peab vastav kinnistamisavaldus olema notariaalselt t&otilde;estatud .</s>
+</p>
+<p>
+<s>( 4 ) Kande muutmisel v&otilde;i kustutamisel peab vastav kinnistamisavaldus olema notariaalselt kinnitatud .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 5 ) Ametiasutus ja kohtut&auml;itur v&otilde;ib seaduses s&auml;testatud juhtudel esitada kinnistamisavalduse lihtkirjalikus vormis .</s><s>Sellisel juhul peab avaldus olema allkirjastatud selleks p&auml;deva isiku poolt ja varustatud pitseriga .</s><s>Kinnistusamet peab kahtluse korral kontrollima allakirjutanud isiku p&auml;devust .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>( 6 ) Kinnistamisavaldus peab sisaldama f&uuml;&uuml;silisest isikust avaldaja puhul nime , isikukoodi ( selle puudumisel s&uuml;nniaega ) ja aadressi ( elukohta ) , era&otilde;igusliku juriidilise isiku puhul nime , aadressi ja registrikoodi v&otilde;i registreerimistunnistuse numbrit selle seadusega s&auml;testatud kehtivusaja l&otilde;puni ning avalik-&otilde;igusliku isiku puhul nime .</s><s>Kinnistamisavalduses peavad olema n&auml;idatud kinnistu registriosa number , millesse taotletakse kande tegemist ( v&auml;lja arvatud kande taotlemisel avatavasse registriossa ) , ning taotletava asja&otilde;iguse sisu .</s>
+</p>
+<p>
+<s>( 7 ) Kuni kinnistamisotsuse tegemiseni v&otilde;ib kinnistamisavalduse esitaja selle osaliselt v&otilde;i t&auml;ielikult tagasi v&otilde;tta .</s><s>Tagasiv&otilde;tmise avaldus , samuti volitus kinnistamisavalduse tagasiv&otilde;tmiseks peab olema samas vormis nagu kinnistamisavaldus .</s>
+</p>
+<p>
+<s>( 8 ) Kui notarit on volitatud kinnistamisavaldust esitama ja ta on seda teinud , siis on avalduse tagasiv&otilde;tmise &otilde;igus kas ainult sellel notaril v&otilde;i asja&otilde;iguslepingu osalisel teiste osaliste notariaalselt kinnitatud n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 34 <hi rend="sup">1</hi> .</s><s>Puudutatud isiku n&otilde;usolek</s>
+</p>
+<p>
+<s>( 1 ) Kande tegemiseks , muutmiseks v&otilde;i kustutamiseks on n&otilde;utav selle isiku n&otilde;usolek , kelle kinnistusregistriossa kantud &otilde;igust kanne kahjustaks ( puudutatud isik ) .</s>
+</p>
+<p>
+<s>( 2 ) Kui seaduses ei ole s&auml;testatud teisiti , on puudutatud isikuks :</s>
+</p>
+<p>
+<s>1 ) keelum&auml;rke muutmisel v&otilde;i kustutamisel isik , kelle kasuks keelum&auml;rge on tehtud ;</s>
+</p>
+<p>
+<s>2 ) kolmanda isiku &otilde;igusega koormatud asja&otilde;iguse muutmisel v&otilde;i kustutamisel see kolmas isik ;</s>
+</p>
+<p>
+<s>3 ) kannete j&auml;rjekohtade muutmisel isik , kelle asja&otilde;iguse j&auml;rjekoht halveneb ;</s>
+</p>
+<p>
+<s>4 ) teised isikud , kelle kinnistusregistrist n&auml;htuvat &otilde;igust taotletav kanne kahjustab .</s>
+</p>
+<p>
+<s>( 3 ) Puudutatud isiku n&otilde;usolek v&otilde;ib sisalduda ka kinnistamisavalduses .</s>
+</p>
+<p>
+<s>( 4 ) Hoonestus&otilde;iguse ja h&uuml;poteegi kustutamiseks vastavalt hoonestaja v&otilde;i h&uuml;poteegipidaja avalduse alusel on vaja kinnisasja omaniku n&otilde;usolekut .</s>
+</p>
+<p>
+<s>( 5 ) Puudutatud isiku n&otilde;usolek peab olema notariaalselt kinnitatud .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 6 ) Puudutatud isiku n&otilde;usolek ei ole tagasiv&otilde;etav .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 7 ) Puudutatud isiku n&otilde;usolekut ei ole vaja , kui kanne tehakse , muudetakse v&otilde;i kustutatakse kohtut&auml;ituri avalduse alusel .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 336 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Kinnistamiseks vajalikud dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Kinnistamisavaldusele tuleb lisada j&auml;rgmised dokumendid :</s>
+</p>
+<p>
+<s>1 ) asja&otilde;iguse omandamist &otilde;igustav dokument ;</s>
+</p>
+<p>
+<s>2 ) dokument , mille alusel soovitakse kokkulepitud asja&otilde;iguse sisu t&auml;psemalt t&otilde;endada ( asja&otilde;igusseaduse paragrahv 58 lg 2 ) ;</s>
+</p>
+<p>
+<s>3 ) kohtuotsuse v&otilde;i sundenampakkumise akti &auml;rakiri , kui kinnistamist taotletakse kohtuotsuse v&otilde;i sundenampakkumise akti alusel ;</s>
+</p>
+<p>
+<s>( 07.02.2001 j&otilde;ust.01.03.2001 - RT I 2001 , 21 , 113 )</s>
+</p>
+<p>
+<s>4 ) muu dokument , mis t&otilde;endab m&auml;rkega tagatavat asja&otilde;igust ;</s>
+</p>
+<p>
+<s>5 ) ( Kehtetu - 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>6 ) t&otilde;end l&otilde;ivu tasumise kohta ;</s>
+</p>
+<p>
+<s>7 ) muud seadusest tulenevad kinnistamiseks vajalikud dokumendid .</s>
+</p>
+<p>
+<s>( 2 ) Kui dokument asub selles kinnistusametis , kus kinnistamist sooritatakse , ei ole seda dokumenti vaja uuesti esitada .</s><s>Kinnistamisavalduses tuleb m&auml;rkida selle dokumendi asukoht .</s>
+</p>
+<p>
+<s>&sect; 35 <hi rend="sup">1</hi> .</s><s>Kohtu eelteade</s>
+</p>
+<p>
+<s>( 1 ) Kohus v&otilde;ib edastada eelteate keelum&auml;rke v&otilde;i kohtuliku h&uuml;poteegi sissekandmiseks registriossa telefaksi teel v&otilde;i elektrooniliselt , saates m&auml;&auml;ruse posti v&otilde;i muul teel j&auml;rele .</s><s>Telefaksi teel v&otilde;i elektrooniliselt saadud eelteade kantakse kinnistusp&auml;evikusse ning kanne kinnistusregistrisse tehakse m&auml;&auml;ruse saabumisel varem saabunud teate kuup&auml;evaga .</s>
+</p>
+<p>
+<s>( 2 ) Justiitsministril on &otilde;igus anda m&auml;&auml;rusi k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud eelteatamise korraldamiseks .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Plaani esitamine</s>
+</p>
+<p>
+<s>( 1 ) Maat&uuml;ki kinnistusregistrisse kandmiseks on n&otilde;utav katastri&uuml;ksuse plaani koopia , mis on kinnitatud riigi maakatastri pidaja poolt .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud plaani koopia on n&otilde;utav ka kinnistu jagamise , kinnistust osa eraldamise ja kinnistule maat&uuml;ki liitmise kande tegemisel .</s>
+</p>
+<p>
+<s>( 3 ) Muude kannete tegemisel esitatakse kinnistu plaani koopia v&otilde;i skeem siis , kui see on vajalik kande m&otilde;istmiseks .</s>
+</p>
+<p>
+<s>( 4 ) Notariaalsel t&otilde;estamisel kasutatud kinnistu plaani koopia v&otilde;i skeem on notariaalakti osa .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 36 <hi rend="sup">1</hi> .</s><s>Muud dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Kui isik tegutseb teise isiku nimel , peab ta kinnistusametile esitama vormikohased esindus&otilde;igust t&otilde;endavad dokumendid .</s><s>Nendeks v&otilde;ivad olla registrikaardi kinnitatud &auml;rakiri , notariaalselt t&otilde;estatud volikiri v&otilde;i muu seadusega etten&auml;htud dokument .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 2 ) Seadusest tulenevast erinevaid abikaasade varalisi suhteid t&otilde;endatakse abieluvararegistri kinnitatud v&auml;ljav&otilde;ttega .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rimisj&auml;rglust t&otilde;endatakse p&auml;rimis&otilde;iguse tunnistusega .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Kinnistusraamatu kannete keel</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusraamatut peetakse eesti keeles .</s>
+</p>
+<p>
+<s>( 2 ) V&otilde;&otilde;rkeelsed dokumendid esitatakse koos notariaalselt kinnitatud eestikeelse t&otilde;lkega .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 3 ) ( V&auml;lja j&auml;etud - 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 37 <hi rend="sup">1</hi> .</s><s>Kasutatav v&auml;&auml;ring</s>
+</p>
+<p>
+<s>Rahasummad kantakse kinnistusregistrisse Eesti kroonides .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Kinnistamisavalduste vastuv&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Kinnistamisavaldus loetakse kinnistusametile esitatuks , kui see on esitatud kinnistusametis p&auml;devale t&ouml;&ouml;tajale ja vastab k&auml;esoleva seaduse paragrahvis 34 toodud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>( 2 ) Esitatud avaldusele teeb kinnistusameti p&auml;dev t&ouml;&ouml;taja kohe oma allkirjaga pealdise selle avalduse saamise kuup&auml;eva ja kellaaja kohta .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Kinnistamisavalduse registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusametisse saabunud kinnistamisavaldus registreeritakse kohe kinnistusp&auml;evikus ja nummerdatakse vastavalt avalduse saabumise ajale .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>( 2 ) Samal p&auml;eval posti teel saabunud kinnistamisavaldused loetakse &uuml;heaegselt saabunuiks ja registreeritakse p&auml;evikus sellel p&auml;eval saabunud avaldustest viimastena .</s><s>Vastuv&otilde;tmise kellaajaks m&auml;rgitakse kinnistamisavalduste vastuv&otilde;tu l&otilde;petamise kellaaeg .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>T&otilde;end kinnistamisavalduse vastuv&otilde;tmise kohta</s>
+</p>
+<p>
+<s>Kinnistamisavalduse vastuv&otilde;tmisel v&auml;ljastab kinnistusamet avaldaja soovil t&otilde;endi , mis kinnitab avalduse vastuv&otilde;tmist .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Kinnistamisavalduse l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 2 ) Kui &uuml;he kinnistu kohta on esitatud mitu kinnistamisavaldust , ei tohi hiljem esitatud avalduse alusel teha kannet enne varem esitatud avalduse alusel kande tegemist .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 ; 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Tingimuslik avaldus</s>
+</p>
+<p>
+<s>( 1 ) Kinnistamisavaldust , mille t&auml;itmine on seotud tingimusega , ei rahuldata .</s>
+</p>
+<p>
+<s>( 2 ) Kui kinnistamisavalduses soovitakse mitut kannet , v&otilde;ib avaldaja seada tingimuseks , et &uuml;hte kannet ei tehtaks teist kannet tegemata .</s>
+</p>
+<p>
+<s>&sect; 42 <hi rend="sup">1</hi> .</s><s>Mitme kandetaotlusega kinnistamisavaldus</s>
+</p>
+<p>
+<s>Kui kinnistamisavalduses taotletakse mitme kande tegemist kinnistusregistrisse , tuleb iga taotletav kanne eraldi v&auml;lja tuua .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>T&auml;iendavate dokumentide esitamine</s>
+</p>
+<p>
+<s>Kuni kinnistamisotsuse tegemiseni v&otilde;ib kinnistamisavalduse esitanud isik esitada kinnistusametile t&auml;iendavaid dokumente .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Kande tegemise takistus</s>
+</p>
+<p>
+<s>( 1 ) Kui soovitud kande tegemine ei ole v&otilde;imalik k&otilde;rvaldatava takistuse t&otilde;ttu , m&auml;&auml;rab kinnistamiseks p&auml;dev isik piisava t&auml;htaja takistuse k&otilde;rvaldamiseks ( m&auml;&auml;rus ) .</s><s>Kui avaldaja selle aja jooksul takistust ei k&otilde;rvalda , teeb kinnistamiseks p&auml;dev isik otsuse avalduse rahuldamata j&auml;tmise kohta .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 ; 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 2 ) Kui &uuml;he kinnisasja kohta on esitatud mitu kinnistamisavaldust ja kui takistusega seotud avaldus on registreeritud kinnistusp&auml;evikus varem , v&otilde;ib kande teha hiljem laekunud avalduse alusel , kandes enne varem esitatud avalduses taotletava kande kohta kinnistusregistri kande jaoks etten&auml;htud veergu ameti&uuml;lesande korras eelm&auml;rke v&otilde;i vastuv&auml;ite .</s><s>Eelm&auml;rge v&otilde;i vastuv&auml;ide kustutatakse ameti&uuml;lesande korras , kui takistusega seotud kanne tehakse v&otilde;i kui avaldus tagasi l&uuml;katakse .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 45. ( Kehtetu - 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Kinnistamisotsuse tegemise eeldused</s>
+</p>
+<p>
+<s>Kinnistamisavalduse l&auml;bivaatamisel selgitab kinnistamiseks p&auml;dev isik v&auml;lja , kas :</s>
+</p>
+<p>
+<s>1 ) on esitatud n&otilde;utavad dokumendid ( paragrahv 35 ) , mis vastavad n&otilde;utavale vormile ;</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>2 ) kinnistamine on lubatud , arvestades kinnistusraamatusse kantud v&otilde;i m&auml;rkega tagatud &otilde;igusi v&otilde;i seadusest tulenevaid piiranguid , sealhulgas k&auml;esoleva seaduse paragrahvis 34 <hi rend="sup">1</hi> nimetatud isikute n&otilde;usoleku olemasolu , kelle &otilde;igusi kande tegemine puudutaks ;</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 ; 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>3 ) avalduse esitanud riigi- v&otilde;i omavalitsuse asutusel v&otilde;i kohtul v&otilde;i juriidilisel isikul on avalduse esitamise &otilde;igus .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 ; 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Kinnistamisotsuse tegemine</s>
+</p>
+<p>
+<s>( 1 ) Vaadanud kinnistamisavalduse l&auml;bi , teeb kinnistamiseks p&auml;dev isik hiljemalt kolme kuu jooksul , avalduse laekumise p&auml;evast arvates , kinnistamisotsuse , millega rahuldab avalduse t&auml;ielikult v&otilde;i osaliselt v&otilde;i j&auml;tab avalduse rahuldamata v&otilde;i m&auml;&auml;rab vastavalt k&auml;esoleva seaduse paragrahv 44 1. l&otilde;ikele t&auml;htaja takistuse k&otilde;rvaldamiseks .</s><s>Kinnistamisotsus on maa- v&otilde;i linnakohtu lahend .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 ; 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) M&auml;&auml;ruses m&auml;rgitud puuduste k&otilde;rvaldamisel vaatab kinnistamiseks p&auml;dev isik kinnistamisavalduse l&auml;bi hiljemalt kolme kuu jooksul , arvates t&auml;iendavate dokumentide saabumisest kinnistusametisse .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 2 ) Kinnistamiseks p&auml;dev isik teeb otsuse kinnistamisavalduse rahuldamata j&auml;tmise kohta , kui :</s>
+</p>
+<p>
+<s>1 ) kinnistu ei asu selle kinnistusameti kinnistuspiirkonnas ;</s>
+</p>
+<p>
+<s>2 ) kui isik ei ole &otilde;igustatud n&otilde;udma kande tegemist ;</s>
+</p>
+<p>
+<s>3 ) kande tegemise takistust ei ole k&otilde;rvaldatud m&auml;&auml;ratud t&auml;htaja jooksul ( paragrahv 44 ) .</s>
+</p>
+<p>
+<s>4 ) esitatud dokumentidest ei selgu soovitava kande &otilde;iguslik alus ;</s>
+</p>
+<p>
+<s>5 ) esineb muu takistus , mille t&otilde;ttu ei ole v&otilde;imalik kannet teha .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 3 ) Kinnistamisotsus j&otilde;ustub otsuse tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Kinnistamisotsuse sisu</s>
+</p>
+<p>
+<s>Kinnistamisotsuses peab sisalduma :</s>
+</p>
+<p>
+<s>1 ) otsuse tegemise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) kande tekst , samuti viide kinnistusregistriosale , selle jaole ja lahtrile , kuhu kanne tehakse ;</s>
+</p>
+<p>
+<s>3 ) otsuse p&otilde;histus ja &otilde;iguslik alus , kui kinnistamisavaldust ei rahuldata ;</s>
+</p>
+<p>
+<s>4 ) otsuse peale edasikaebamise kord ja t&auml;htaeg ;</s>
+</p>
+<p>
+<s>5 ) otsuse teinud isiku nimi ja ametikoht .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Kande tegemine kinnistusregistrisse</s>
+</p>
+<p>
+<s>( 1 ) Kinnistamisotsuse alusel tehakse kanne kinnistusregistrisse .</s>
+</p>
+<p>
+<s>( 2 ) Kui kinnistusregistriossa tehakse mitu kannet , siis saavad need j&auml;rjekorra , mis vastab avalduse esitamise ajalisele j&auml;rjekorrale .</s>
+</p>
+<p>
+<s>( 3 ) Kui &uuml;he kinnistusregistriosa erinevatesse jagudesse tehakse samal p&auml;eval mitu kannet , mille avaldused polnud esitatud &uuml;heaegselt , siis kantakse muudatuste veergu ameti&uuml;lesande korras m&auml;rkus , et hiljem esitatud avalduse alusel tehtav kanne on varem esitatud avalduse alusel tehtavast kandest j&auml;rjekohas tagapool .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 2. ja 3.l&otilde;iget ei rakendata , kui sissekantavate &otilde;iguste vahel pole j&auml;rjekohasuhet v&otilde;i puudutatud isikute poolt on kannete tegemise j&auml;rjekohad m&auml;&auml;ratud .</s>
+</p>
+<p>
+<s>( 5 ) Kandele kirjutavad alla esmalt kande teostanud isik ja peale kande kinnistamisotsusele vastavuses veendumist kinnistamisotsuse teinud isik .</s><s>Kandel on allakirjutamise kuup&auml;ev .</s><s>Kanne j&otilde;ustub p&auml;evast , mil kinnistamisotsuse teinud isik sellele alla kirjutab .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 6 ) Kui kande teostab kinnistamisotsuse teinud isik , kirjutab kandele alla vaid see isik .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 49 <hi rend="sup">1</hi> .</s><s>Kanne j&auml;relp&auml;rija kohta ja eelp&auml;rija vabastamise kohta kitsendustest ja kohustustest</s>
+</p>
+<p>
+<s>( 1 ) Eelp&auml;rija kandmisel kinnistusregistrisse kantakse sinna ka m&auml;rkus j&auml;relp&auml;rija kohta .</s>
+</p>
+<p>
+<s>( 2 ) Kui testaator on eelp&auml;rija seaduses s&auml;testatud kitsendustest ja kohustustest vabastanud , kantakse koos eelp&auml;rijaga kinnistusregistrisse ka m&auml;rkus tema vabastamise kohta nimetatud kitsendustest ja kohustustest .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud m&auml;rkused kantakse ameti&uuml;lesande korras :</s>
+</p>
+<p>
+<s>1 ) kinnistusregistri kolmandasse jakku , kui p&auml;rimise esemeks on kinnisasi ;</s>
+</p>
+<p>
+<s>2 ) kinnistusregistri kolmanda jao muudatuste veergu , kui p&auml;rimise esemeks on kolmandasse jakku kantud &otilde;igus ;</s>
+</p>
+<p>
+<s>3 ) kinnistusregistri neljanda jao muudatuste veergu , kui p&auml;rimise esemeks on h&uuml;poteek .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 49 <hi rend="sup">2</hi> .</s><s>Kanne testamendit&auml;itja kohta</s>
+</p>
+<p>
+<s>( 1 ) Kui testaator on testamendit&auml;itjale andnud &otilde;iguse osaleda p&auml;rimise eseme k&auml;sutamisel , kantakse koos p&auml;rijaga kinnistusregistrisse m&auml;rkus testamendit&auml;itja kohta .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;rkus testamendit&auml;itja kohta kantakse s&otilde;ltuvalt p&auml;rimise esemest ameti&uuml;lesande korras kinnistusregistri samadesse jagudesse ja veergudesse nagu k&auml;esoleva seaduse paragrahv 49 <hi rend="sup">1</hi> l&otilde;ikes 2 nimetatud m&auml;rkused .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 49 <hi rend="sup">3</hi> .</s><s>Hoonestus&otilde;iguse kandmine kinnistusregistrisse</s>
+</p>
+<p>
+<s>( 1 ) Kinnistu koormamisel hoonestus&otilde;igusega avatakse hoonestus&otilde;igusele ameti&uuml;lesande korras iseseisev registriosa .</s>
+</p>
+<p>
+<s>( 2 ) Hoonestus&otilde;igusele avatud registriosale antakse number &uuml;ldises j&auml;rjekorras .</s>
+</p>
+<p>
+<s>Registriosa pealkirjas n&auml;idatakse , et registriosa on avatud hoonestus&otilde;igusele .</s>
+</p>
+<p>
+<s>( 3 ) Registriosa esimesse jakku kantakse :</s>
+</p>
+<p>
+<s>1 ) s&otilde;na &ldquo; hoonestus&otilde;igus &rdquo; , samuti koormatud kinnistu koosseisuandmed vastava registriosa esimese jao lahtritest 2 ja 3 ;</s>
+</p>
+<p>
+<s>2 ) hoonestus&otilde;iguse sisu ;</s>
+</p>
+<p>
+<s>3 ) koormatud kinnistu omanik ;</s>
+</p>
+<p>
+<s>4 ) k&auml;esoleva l&otilde;ike punktide 1-3 muudatused .</s>
+</p>
+<p>
+<s>( 4 ) Hoonestus&otilde;iguse sisu osas v&otilde;ib kandes viidata kinnistamisavaldusele .</s><s>K&auml;sutuspiirangud ning piirangud hoonestus&otilde;iguse tingimuste ja t&auml;htaegade osas peavad kandest otseselt n&auml;htuma .</s>
+</p>
+<p>
+<s>( 5 ) Kui hoonestus&otilde;iguse sisu osas on hoonestus&otilde;iguse ja hoonestus&otilde;igusega koormatud maat&uuml;ki registriosade kannetes erinevusi , on m&auml;&auml;ravaks hoonestus&otilde;iguse registriosas olev kanne .</s>
+</p>
+<p>
+<s>( 6 ) Muus osas kohaldatakse kannete tegemisel hoonestus&otilde;iguse registriossa kinnisomandi registriosade suhtes s&auml;testatut .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 49 <hi rend="sup">4</hi> .</s><s>Kande kustutamine &otilde;igustatud isiku surma j&auml;rel</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igust , mis on piiratud &otilde;igustatud isiku elueaga ja mille korral on v&otilde;imalikud tema kasuks tehtavate soorituste v&otilde;lgnevused , v&otilde;ib aasta jooksul &otilde;igustatud isiku surmast v&otilde;i surnukstunnistamisest arvates kustutada ainult tema p&auml;rija n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;rijal , kes ei anna n&otilde;usolekut k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &otilde;iguse kustutamiseks kinnistusregistrist , on &otilde;igus n&otilde;uda v&otilde;lguolevate soorituste tagamiseks vastuv&auml;ite kandmist kinnistusregistrisse .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud n&otilde;usolek pole vajalik , kui kinnistusregistrisse on kantud m&auml;rkus , et &otilde;iguse kustutamiseks piisab &otilde;igustatud isiku surma t&otilde;endamisest .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 49 <hi rend="sup">5</hi> .</s><s>Kande kustutamine t&auml;htp&auml;eva saabumisel</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse paragrahv 49 <hi rend="sup">4</hi> s&auml;tteid rakendatakse vastavalt ka &otilde;iguse suhtes , mis kustub &otilde;igustatud isiku j&otilde;udmisel teatud vanuseni v&otilde;i m&otilde;ne muu kindlaksm&auml;&auml;ratud tingimuse t&auml;itumisel .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 49 <hi rend="sup">6</hi> .</s><s>Kohtum&auml;&auml;ruse alusel tehtud m&auml;rke kustutamine</s>
+</p>
+<p>
+<s>Kohtum&auml;&auml;ruse alusel tehtud m&auml;rke kustutamiseks ei ole vaja &otilde;igustatud isiku n&otilde;usolekut , kui m&auml;&auml;rus , mille alusel m&auml;rge tehti , on t&uuml;histatud j&otilde;ustunud kohtuotsusega .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Kinnistamisotsuse teatavakstegemine</s>
+</p>
+<p>
+<s>P&auml;rast kande tegemist antakse v&otilde;i saadetakse kinnistamisotsuse &auml;rakiri kohe avalduse esitanud isikutele , kinnistu omanikule , k&otilde;igile kinnistusregistrist n&auml;htuvatele isikutele , kelle kasuks kanne tehti v&otilde;i kelle kinnistusregistrisse kantud &otilde;igust kanne kahjustab , ja teistele seaduses s&auml;testatud isikutele ning ametiasutustele .</s><s>Kinnistamisotsuse &auml;rakirjale m&auml;rgitakse kinnistusregistrisse vastava kande tegemise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 ; 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Dokumentide ja l&otilde;ivu tagastamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnistamiseks p&auml;dev isik j&auml;tab kinnistamisavalduse rahuldamata , tagastatakse avaldajale allkirja vastu avaldus ning koos sellega esitatud dokumendid .</s>
+</p>
+<p>
+<s>( 2 ) Avalduse t&auml;ielikul v&otilde;i osalisel rahuldamata j&auml;tmisel tagastatakse tasutud l&otilde;iv kinnistusameti &otilde;iendi alusel .</s><s>Tagastatavast l&otilde;ivust arvatakse maha kinnistamismenetluse tegelikud kulud .</s>
+</p>
+<p>
+<s>( 3 ) Tagastatud dokumentide &auml;rakirjad lisatakse kinnistustoimikule .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Kustutamine</s>
+</p>
+<p>
+<s>( 1 ) Kannete kustutamine toimub vastava kustutuskande tegemisega kinnistusregistri osa vastavasse jakku .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>( 2 ) Kanne v&otilde;i selle osa , mis kustutatakse , t&otilde;mmatakse punase joonega alla .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kinnistute jagamine ja &uuml;hendamine</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Uue registriosa avamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnistu jagamisel soovitakse eraldatud osast moodustada uus kinnistu , avab kinnistusamet uue registriosa .</s>
+</p>
+<p>
+<s>( 2 ) Endises kinnistusregistriosas n&auml;idatakse pindala v&auml;henemine jagamise tulemusena ja uue kinnistu number .</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Kinnistamiseks p&auml;dev isik v&otilde;ib kinnistusregistri &uuml;levaatlikkuse huvides otsustada avada k&otilde;igi kinnistu jagamisel tekkinud kinnistute kohta uued registriosad .</s><s>Sel juhul endine registriosa suletakse .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 3 ) Uutes kinnistusregistriosades viidatakse endise kinnistusregistriosa numbrile .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Kinnistu osa koormamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnistu osa soovitakse koormata piiratud asja&otilde;igusega , tuleb see osa eraldada kinnistust ja sisse kanda iseseisva kinnistuna .</s>
+</p>
+<p>
+<s>( 2 ) Kinnistu osa koormamisel servituudiga ei ole jagamine n&otilde;utav , kui sellest ei teki segadust .</s><s>Koormatud osa t&auml;histatakse kinnistamisavalduse juurde kuuluval kinnistu plaani koopial v&otilde;i skeemil .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Piiratud asja&otilde;iguste kannete &uuml;lekandmine jagamisel</s>
+</p>
+<p>
+<s>( 1 ) Piiratud asja&otilde;igusega koormatud kinnistu jagamisel j&auml;etakse vastav kanne endises registriosas p&uuml;sima ja &uuml;htlasi tehakse kanne ka uude registriossa , kui kinnistu omaniku ja puudutatud isiku vahelise notariaalselt t&otilde;estatud kokkuleppega ei ole m&auml;&auml;ratud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>( 3 ) Kui puudub asja&otilde;igusseaduse paragrahv 356 1.l&otilde;ikes nimetatud kokkulepe , tuleb kinnistusametile esitada dokument kinnistu jagamisel tekkivate osade v&auml;&auml;rtuste kohta .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>M&auml;rke &uuml;lekandmine</s>
+</p>
+<p>
+<s>( 1 ) Kinnistu jagamisel j&auml;&auml;b m&auml;rge p&uuml;sima endises registriosas ja kantakse &uuml;le ka uutesse registriosadesse .</s>
+</p>
+<p>
+<s>( 2 ) Kui m&auml;rge k&auml;ib kinnistu &uuml;he osa kohta , kantakse see kinnistu jagamisel isiku n&otilde;usolekul , kelle kasuks m&auml;rge tehti , ainult vastavasse registriossa .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Kinnistu osa liitmine teise kinnistuga</s>
+</p>
+<p>
+<s>( 1 ) Kui &uuml;he kinnistu osa liidetakse teise kinnistuga , tehakse muudatus m&otilde;lema kinnistu kannetes ja m&auml;rgitakse nendes m&otilde;lema kinnistu number .</s>
+</p>
+<p>
+<s>( 2 ) Muus osas kohaldatakse vastavalt paragrahvide 53-56 ja 59-60 s&auml;tteid .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Kinnistute &uuml;hendamine</s>
+</p>
+<p>
+<s>( 1 ) Mitme kinnistu &uuml;hendamisel &uuml;heks kinnistuks tuleb kinnistusregistris sulgeda &uuml;hendatava kinnistu registriosa , m&auml;rkides selles , millise kinnistuga nimetatud kinnistu &uuml;hendati .</s>
+</p>
+<p>
+<s>( 2 ) Kinnistusregistriosas , mida edasi peetakse , m&auml;rgitakse kinnistu pindala suurenemine ja suletud registriosa number .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;hendada saab kinnistuid , mis asuvad &uuml;hes kinnistuspiirkonnas v&otilde;i kinnistusjaoskondade olemasolul &uuml;hes kinnistusjaoskonnas .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Kannete &uuml;lekandmine &uuml;hendamisel</s>
+</p>
+<p>
+<s>( 1 ) Kinnistute &uuml;hendamisel kantakse kanded edasi peetavasse kinnistusregistriossa &uuml;le ja need kehtivad kogu kinnistu kohta .</s>
+</p>
+<p>
+<s>( 2 ) Reaalservituudid , reaalkoormatised ja ostuees&otilde;igus , mis koormavad &uuml;hte &uuml;hendatavat kinnistut teise &uuml;hendatava kinnistu kasuks , kustutatakse kinnistusameti poolt , kui omanik ei m&auml;&auml;ra teisiti .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Kinnistusdokumentide esitamine</s>
+</p>
+<p>
+<s>Kinnistu jagamisel ja &uuml;hendamisel tuleb esitada k&auml;esoleva seaduse paragrahvides 35 ja 36 nimetatud dokumendid .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kinnistusregistri kande parandamine</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Kande parandamine enne allakirjutamist</s>
+</p>
+<p>
+<s>Kui kinnistusregistriosa kanne ei vasta kinnistamisotsusele ja kande eba&otilde;igsus ilmneb enne , kui kinnistamisotsuse teinud isik sellele alla kirjutab , tehakse parandus uut kinnistamisotsust tegemata .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Kande parandamine p&auml;rast allakirjutamist</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>Kui kinnistusregistriosa kanne ei vasta kinnistamisotsusele ja kande eba&otilde;igsus ilmneb p&auml;rast seda , kui kinnistamisotsuse teinud isik sellele alla kirjutab , kannab kinnistusamet kinnistusregistrisse ameti&uuml;lesande korras vastuv&auml;ite eba&otilde;igesti sissekantud &otilde;iguse parandamise tagamiseks ja teatab parandusettepanekust puudutatud isikutele , kellel on tema poolt m&auml;&auml;ratud aja jooksul &otilde;igus esitada vastuv&auml;iteid .</s><s>T&auml;htaja m&ouml;&ouml;dumisel otsustab kinnistamiseks p&auml;dev isik kande parandamise .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 ; 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 63. ( Kehtetu - 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>&sect; 63 <hi rend="sup">1</hi> .</s><s>Eba&otilde;ige kinnistamisotsus</s>
+</p>
+<p>
+<s>Kui kinnistusregistri kanne on eba&otilde;ige kinnistamisotsuse eba&otilde;igsuse t&otilde;ttu ja kinnistamisotsuse eba&otilde;igsus ilmneb p&auml;rast kandele allakirjutamist kinnistamiseks p&auml;deva isiku poolt , kannab kinnistusamet kinnistusregistrisse ameti&uuml;lesande korras vastuv&auml;ite eba&otilde;ige kande parandamise tagamiseks ja teatab parandusettepanekust puudutatud isikutele , kellel on tema poolt m&auml;&auml;ratud aja jooksul &otilde;igus esitada vastuv&auml;iteid .</s><s>T&auml;htaja m&ouml;&ouml;dumisel otsustab kinnistamiseks p&auml;dev isik kande parandamise .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 64. ( Kehtetu - 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Kande kustutamine &otilde;igusliku t&auml;henduse kadumisel</s>
+</p>
+<p>
+<s>( 1 ) Kui kanne on kaotanud t&auml;ielikult &otilde;igusliku t&auml;henduse , teeb kinnistamiseks p&auml;dev isik otsuse kande kustutamiseks kandest puudutatud isiku avalduse ja vastava kohtuotsuse alusel .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud isiku kande kustutamise avalduse tagasil&uuml;kkamise korral peab kinnistusamet seda p&otilde;hjendama .</s>
+</p>
+<p>
+<s>( 3 ) Kui kinnistusamet saab teada , et mingi kanne on kaotanud &otilde;igusliku t&auml;henduse , kohaldatakse vastavalt k&auml;esoleva seaduse paragrahvis 63 <hi rend="sup">1</hi> s&auml;testatut .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 65 <hi rend="sup">1</hi> .</s><s>Kande parandamine omandi kinnistusraamatuv&auml;lise &uuml;lemineku korral</s>
+</p>
+<p>
+<s>Kui kinnistusraamat on muutunud valeks omandi kinnistusraamatuv&auml;lise &uuml;lemineku t&otilde;ttu , v&otilde;ib kinnistusamet kohustada omanikku v&otilde;i testamendit&auml;itjat esitama avaldust kinnistusraamatu parandamiseks .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Kande parandamise viis</s>
+</p>
+<p>
+<s>( 1 ) Kande parandamiseks t&otilde;mmatakse eba&otilde;igele kandele joon alla ja tehakse &otilde;ige kanne vastavalt k&auml;esoleva seaduse paragrahvile 23.</s>
+</p>
+<p>
+<s>( 2 ) Uues kandes m&auml;rgitakse , et see asendab eelmist .</s>
+</p>
+<p>
+<s>( 3 ) Kande parandamine muul viisil on keelatud .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;mberkirjutamine ja -s&otilde;nastamine</s>
+</p>
+<p>
+<s>&sect; 67. ( Kehtetu - 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>&Uuml;mberkirjutamine eba&uuml;levaatlikkuse t&otilde;ttu</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnistusregistriosa jagu on muutunud eba&uuml;levaatlikuks , kirjutatakse see ameti&uuml;lesande korras &uuml;mber .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 3 ) Kustutatud kanne kirjutatakse uude registrijakku &uuml;mber , kui see on vajalik kehtivate kannete m&otilde;istmiseks .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>&Uuml;mbers&otilde;nastamine</s>
+</p>
+<p>
+<s>Kui registri kannete m&otilde;istmine on raskendatud , v&otilde;ib need &uuml;mberkirjutamisel kinnistamiseks p&auml;deva isiku otsuse alusel &uuml;mber s&otilde;nastada nende sisu muutmata .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kaebused</s>
+</p>
+<p>
+<s>&sect; 69 <hi rend="sup">1</hi> .</s><s>Vastulause kohtunikuabi otsuse peale</s>
+</p>
+<p>
+<s>( 1 ) Kohtunikuabi otsuse peale v&otilde;ib esitada &uuml;he kuu jooksul , arvates otsuse &auml;rakirja saamisest , vastulause .</s><s>Vastulause vaatab kahe n&auml;dala jooksul l&auml;bi otsuse teinud kohtunikuabi .</s><s>Vastulause rahuldamise korral teeb kohtunikuabi uue otsuse .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Kohtunikuabi tehtud m&auml;&auml;ruse peale v&otilde;ib esitada vastulause m&auml;&auml;ruses n&auml;idatud aja jooksul , kuid mitte hiljem kui kuu aja jooksul , arvates m&auml;&auml;ruse saamisest .</s><s>Vastulause vaatab kahe n&auml;dala jooksul l&auml;bi m&auml;&auml;ruse teinud kohtunikuabi .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) L&otilde;igetes 1 ja 1 <hi rend="sup">1</hi> nimetatud kohtunikuabi ajutisel &auml;raolekul kauem kui viis p&auml;eva annab kinnistusameti juhataja vastulause lahendada teisele kohtunikuabile .</s><s>K&otilde;igi kohtunikuabide &auml;raolekul kauem kui viis p&auml;eva vaatab vastulause l&auml;bi kohtunik k&auml;esoleva paragrahvi 2. l&otilde;ikes s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 2 ) Kui kohtunikuabi ei rahulda vastulauset , peab ta selle esitama l&auml;bivaatamiseks kinnistamiseks p&auml;devale kohtunikule .</s><s>Kohtunik vaatab vastulause l&auml;bi kahe n&auml;dala jooksul .</s><s>Kohtuniku otsuse peale v&otilde;ib kaevata paragrahvis 70 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Kaebus kohtuniku otsuse peale</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 1 ) Kohtuniku otsuse peale v&otilde;ib edasi kaevata ringkonnakohtule &uuml;he kuu jooksul , arvates otsuse &auml;rakirja saamisest .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 )</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitaja v&otilde;ib n&otilde;uda vastuv&auml;ite kandmist kinnistusregistrisse selle kande parandamise tagamiseks , mille kohta kaebus on esitatud .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Keelum&auml;rge selle &otilde;iguse k&auml;sutamise keelamiseks , mille kohta kaebus on esitatud , kantakse kinnistusregistrisse ringkonnakohtu m&auml;&auml;ruse alusel .</s><s>Kinnistusamet kustutab keelum&auml;rke ameti&uuml;lesande korras , kui kaebus tagasi v&otilde;etakse v&otilde;i tagasi l&uuml;katakse .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 3 ) Ringkonnakohus vaatab kaebuse l&auml;bi tsiviilkohtupidamise seadustikus ( RT I 1993 , 31/32 , 538 ) s&auml;testatud apellatsioonimenetluses .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 71. ( Kehtetu - 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kinnistusregistriosa sulgemine</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Kinnistusregistriosa sulgemise alused</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusregistriosa suletakse :</s>
+</p>
+<p>
+<s>1 ) kinnistu &uuml;hendamisel teise kinnistuga ;</s>
+</p>
+<p>
+<s>2 ) kinnistusregistriosa &uuml;mberkirjutamisel ;</s>
+</p>
+<p>
+<s>3 ) kinnistuspiirkonna vahetumisel ( paragrahv 6 ) ;</s>
+</p>
+<p>
+<s>4 ) kohapeal kinnistu mittet&otilde;endamisel ;</s>
+</p>
+<p>
+<s>5 ) muudel seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 06.03.2001 j&otilde;ust.29.03.2001 - RT I 2001 , 31 , 171 )</s>
+</p>
+<p>
+<s>( 2 ) Avalik-&otilde;iguslikule isikule kuuluva kinnisasja kohta avatud registriosa suletakse omaniku lihtkirjaliku avalduse alusel , kui kinnisasja kinnistusraamatusse kandmine ei ole k&auml;esoleva seaduse &sect; 8 3. l&otilde;ike j&auml;rgi kohustuslik ning kinnisasi ei ole koormatud piiratud asja&otilde;igustega ega antud teise isiku valdusse .</s>
+</p>
+<p>
+<s>( 06.03.2001 j&otilde;ust.29.03.2001 - RT I 2001 , 31 , 171 )</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Sulgemise viis</s>
+</p>
+<p>
+<s>Kinnistusregistriosa sulgemisel kriipsutatakse k&otilde;ik selle osa lehed punase joonega diagonaalselt l&auml;bi ja tehakse pealkirjas m&auml;rge sulgemise kohta .</s><s>Sulgemise m&auml;rkes n&auml;idatakse sulgemise alus ja kuup&auml;ev , sellele kirjutavad alla kinnistamiseks p&auml;dev isik ja sulgemise teostanud isik .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tutvumine ja v&auml;ljav&otilde;tted</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>&Otilde;igus tutvuda kinnistusraamatuga ja saada v&auml;ljav&otilde;tteid</s>
+</p>
+<p>
+<s>( 1 ) Iga&uuml;ks v&otilde;ib kinnistusregistriga tutvuda ja saada sellest v&auml;ljav&otilde;tteid .</s><s>Tutvumiseks piisab kinnistu registriosa numbri , aadressi v&otilde;i omaniku nime teadmisest .</s><s>Teiste kinnistusraamatu koosseisus olevate dokumentidega v&otilde;ib tutvuda ja saada v&auml;ljav&otilde;tteid &otilde;igustatud huvi olemasolul .</s>
+</p>
+<p>
+<s>( 14.12.94 j&otilde;ust.29.12.94 - RT I 1994 , 94 , 1609 ; 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1.l&otilde;ikes s&auml;testatu kehtib ka k&auml;esoleva seaduse paragrahvis 4 nimetatud pitseri ning kinnistamiseks p&auml;devate isikute allkirja n&auml;idiste suhtes .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 3 ) Kinnistusraamatuga tutvumiseks ja v&auml;ljav&otilde;tte saamiseks tuleb esitada isikut t&otilde;endav dokument .</s><s>Kinnistusregistriosaga tutvumiseks ja sellest v&auml;ljav&otilde;tte saamiseks ei pea dokumenti esitama .</s><s>Tutvumise ja v&auml;ljav&otilde;tte andmise kord s&auml;testatakse kinnistusameti reglemendis .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>V&auml;ljav&otilde;tte tegemine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;ljav&otilde;tteid kinnistusraamatust tehakse &auml;rakirjadena .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ljav&otilde;te peab sisaldama kinnistusregistriosa vastava jao k&otilde;iki kehtivaid kandeid .</s><s>Keelatud on v&auml;ljav&otilde;tte tegemine &uuml;ksikutest kannetest .</s>
+</p>
+<p>
+<s>( 3 ) Taotleja soovil v&otilde;ib v&auml;ljav&otilde;te sisaldada ka kustutatud kandeid .</s>
+</p>
+<p>
+<s>( 4 ) Kinnistusraamatu v&auml;ljav&otilde;tte kinnitab kohtunikuabi v&otilde;i kinnistussekret&auml;r .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 ; 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Viide esitatud avaldusele</s>
+</p>
+<p>
+<s>Kui kinnistusametile on esitatud kinnistamisavaldus , mille kohta ei ole veel tehtud kinnistamisotsust , peab kinnistusraamatu v&auml;ljav&otilde;te sisaldama viidet kinnistamisavaldusele , mis on kantud kinnistusp&auml;evikusse .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Kinnistusraamatu hoidmine</s>
+</p>
+<p>
+<s>Kinnistusraamatuid hoitakse kinnistusameti arhiivis ja neid on keelatud sealt v&auml;lja viia , kui seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>10 <hi rend="sup">1</hi> . peat&uuml;kk</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>Elektrooniline kinnistusraamat</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">1</hi> .</s><s>M&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Elektroonilise kinnistusraamatu puhul on kinnistusraamatuks k&auml;esoleva seaduse paragrahv 8 l&otilde;ike 2 m&otilde;ttes selleks m&auml;&auml;ratud andmekandjale salvestatud kinnistusregistriosa , mida on v&otilde;imalik kestvalt muutumatuna loetavas vormis taasesitada .</s>
+</p>
+<p>
+<s>( 2 ) Elektroonilise kinnistusraamatu korral peetakse elektrooniliselt ka kinnistusp&auml;evikut , mis on ette n&auml;htud kinnistusametisiseseks kasutamiseks ja millega tutvumist ei v&otilde;imaldata .</s><s>Elektroonilise kinnistusp&auml;eviku pidamise korra kinnitab justiitsminister .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse paragrahvis 17 nimetatud abiregistreid elektroonilise kinnistusraamatu korral ei peeta .</s>
+</p>
+<p>
+<s>( 4 ) Elektroonilise kinnistusraamatu suhtes kohaldatakse k&auml;esoleva seaduse paragrahvide 1-77 s&auml;tteid , kui k&auml;esolevast peat&uuml;kist ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">2</hi> .</s><s>Elektroonilise kinnistusraamatu pidamine ja paiknemine</s>
+</p>
+<p>
+<s>( 1 ) Kinnistusametid peavad elektroonilist kinnistusraamatut oma kinnistuspiirkonna kohta .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 2 ) K&otilde;igi kinnistusametite registriosade andmed salvestatakse ja s&auml;ilitatakse &uuml;hes andmet&ouml;&ouml;tluskeskuses , millega kinnistusametitel on otseside ja mille m&auml;&auml;rab justiitsminister .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 ; 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Andmet&ouml;&ouml;tluskeskus ei ole kinnistusamet ega pea kinnistusregistrit , vaid tagab &uuml;ksnes kinnistusregistri andmete elektroonilise salvestamise , kestvalt muutumatu s&auml;ilitamise ja taasesitamise kinnistusametitele ning &otilde;igustatud ametiasutustele ja isikutele .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 3 ) Justiitsministril on &otilde;igus anda m&auml;&auml;rusi andmet&ouml;&ouml;tluse korraldamiseks .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">3</hi> .</s><s>Andmet&ouml;&ouml;tluse n&otilde;uded</s>
+</p>
+<p>
+<s>Kinnistusraamatu t&ouml;&ouml;tlemisel tuleb :</s>
+</p>
+<p>
+<s>1 ) tarvitusele v&otilde;tta abin&otilde;ud informatsiooni kadumise vastu , tehes iga t&ouml;&ouml;p&auml;eva l&otilde;pus andmekogudest vajalikud koopiad ning tagades originaalandmete ja koopiate n&otilde;uetekohase s&auml;ilitamise ;</s>
+</p>
+<p>
+<s>2 ) kindlustada kannete tegemine , muutmine ja kustutamine ainult selleks p&auml;devate isikute poolt ning v&auml;listada mittep&auml;devate isikute juurdep&auml;&auml;s andmetele ;</s>
+</p>
+<p>
+<s>3 ) tagada elektroonilise kinnistusraamatu andmete t&otilde;rgeteta taasesitamise v&otilde;imalused kuvaril ja v&auml;ljatr&uuml;kis ;</s>
+</p>
+<p>
+<s>4 ) protokollida k&otilde;ik p&ouml;&ouml;rdumised kinnistusraamatu poole .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">4</hi> .</s><s>Kannete v&auml;line vorm</s>
+</p>
+<p>
+<s>Kande taasesituse v&auml;lise vormi m&auml;&auml;rab k&auml;esoleva seaduse 3. peat&uuml;kk .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">5</hi> .</s><s>Registriosa vormi erisus</s>
+</p>
+<p>
+<s>Registriosa pealkiri ei pea asuma iseseisval lehek&uuml;ljel .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">6</hi> .</s><s>M&auml;rge sissetulnud kinnistamisavalduse kohta</s>
+</p>
+<p>
+<s>( 1 ) Kinnistamisavalduse registreerimisel tuleb kanda registriosa pealkirja viide esitatud avaldusele ( plomm ) .</s><s>Plomm koosneb kinnistusp&auml;eviku jooksvast numbrist ja aastaarvust .</s>
+</p>
+<p>
+<s>( 2 ) Plomm peab olema n&auml;htav nii kinnistusraamatuga tutvumisel kui ka kinnistusraamatu v&auml;ljatr&uuml;kil .</s>
+</p>
+<p>
+<s>( 3 ) Plomm kustutatakse kas p&auml;rast eitava kinnistamisotsuse v&otilde;i kinnistuskande tegemist .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">7</hi> .</s><s>Kinnistamisotsuse tegemine</s>
+</p>
+<p>
+<s>( 1 ) Elektroonilise kinnistusraamatu korral tehakse eraldi vaid eitav otsus .</s>
+</p>
+<p>
+<s>( 2 ) Jaatava kinnistamisotsuse asemel teeb kinnistamiseks p&auml;dev isik kohe registrikande .</s><s>Kandele kirjutab erinevalt paragrahv 49 l&otilde;ikest 5 alla vaid kande teinud isik .</s>
+</p>
+<p>
+<s>( 3 ) Justiitsminister v&otilde;ib kinnistusameti juhataja avalduse alusel m&auml;&auml;rata , et kinnistusametis rakendatakse elektroonilise kinnistusraamatu pidamisel kinnistusraamatuseaduse paragrahvides 47 ja 49 s&auml;testatud korda .</s>
+</p>
+<p>
+<s>( 4 ) Kannet teostav isik peab kontrollima kande &otilde;igsust , t&auml;ielikkust ja andmekandjale vastuv&otilde;tmist .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">8</hi> .</s><s>Elektrooniline allkiri</s>
+</p>
+<p>
+<s>( 1 ) Registrikandele lisatakse kande teinud isikut identifitseeriv teave .</s><s>Kanne ja identifitseeriv teave salvestatakse elektroonilise allkirjaga , mis moodustatakse kande tekstist ja allakirjutajast s&otilde;ltuvana .</s>
+</p>
+<p>
+<s>( 2 ) Elektroonilist allkirja peab saama kontrollida p&auml;dev asutus .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">9</hi> .</s><s>Kande j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Kande j&otilde;ustumise eelduseks on selle allakirjutamine kinnistamiseks p&auml;deva isiku poolt .</s>
+</p>
+<p>
+<s>( 2 ) Kanne j&otilde;ustub vastuv&otilde;tmisel kinnistusraamatu kannetele m&auml;&auml;ratud andmekandjale .</s>
+</p>
+<p>
+<s>( 3 ) K&otilde;ik kanded , v&auml;lja arvatud paragrahv 13 l&otilde;ikes 2 nimetatud , peavad olema varustatud j&otilde;ustumise kuup&auml;evaga .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">10</hi> .</s><s>Teatamine</s>
+</p>
+<p>
+<s>Jaatava kinnistamisotsuse korral saadetakse puudutatud ja teistele seaduses s&auml;testatud isikutele ning asutustele paragrahvis 50 nimetatud kinnistamisotsuse &auml;rakirja asemel registrikande v&auml;ljatr&uuml;kk .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">11</hi> .</s><s>Kande muutmine ja kustutamine</s>
+</p>
+<p>
+<s>( 1 ) Elektroonilise kinnistusraamatu kande muutmine toimub senise kande kustutamise ja uue kande tegemise teel .</s><s>Senist kannet asendav uus kanne omandab senise kande j&auml;rjekoha .</s>
+</p>
+<p>
+<s>( 2 ) Kande muutmisel ja kustutamisel peab kustutatud osa olema v&otilde;imalik kestvalt taasesitada .</s>
+</p>
+<p>
+<s>( 3 ) Kinnistusraamatuga tutvumisel ja v&auml;ljatr&uuml;kil esitatakse kustutatud kanded vaid siis , kui seda eraldi taotletakse .</s>
+</p>
+<p>
+<s>( 4 ) Kustutatud kannete taasesitamisel peavad need kuvaril ja v&auml;ljatr&uuml;kil olema alla joonitud .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">12</hi> .</s><s>Kinnistustoimik</s>
+</p>
+<p>
+<s>( 1 ) Kinnistustoimikut peetakse ka p&auml;rast elektroonilise kinnistusraamatu sisseseadmist vastavalt k&auml;esoleva seaduse paragrahvile 20.</s>
+</p>
+<p>
+<s>( 2 ) Kinnistustoimikus s&auml;ilitatakse k&otilde;ik eitavad kinnistamisotsused ja m&auml;&auml;rused .</s><s>Jaatav kinnistamisotsus s&auml;ilitatakse kinnistamistoimikus vaid siis , kui see on eelnevalt paberil koostatud .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 3 ) Elektroonilise kinnistusraamatu korral ei hoita kinnistustoimikus registriosa &auml;rakirja .</s>
+</p>
+<p>
+<s>( 4 ) Justiitsministril on &otilde;igus kehtestada kord kinnistusraamatu edasipidamiseks mittevajalike dokumentide kinnistustoimikust eraldamiseks .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">13</hi> .</s><s>Koost&ouml;&ouml; katastripidajaga</s>
+</p>
+<p>
+<s>( 1 ) Kui kinnistusraamat on elektrooniliselt seotud maakatastriga , siis kutsub kinnistusamet kinnistusraamatu I jao pidamiseks vajalikud maakatastriseaduse ( RT I 1994 , 74 , 1324 ; 2001 , 9 , 41 ; 93 , 565 ) paragrahv 4 l&otilde;ikes 2 nimetatud andmed maakatastrist ise v&auml;lja .</s>
+</p>
+<p>
+<s>( 2 ) Kui kinnistusraamat on elektrooniliselt seotud maakatastriga , siis kutsub katastripidaja katastri pidamiseks vajalikud maakatastriseaduse paragrahv 4 l&otilde;ikes 3 nimetatud kinnistusregistri esimese ja teise jao andmed ise v&auml;lja .</s>
+</p>
+<p>
+<s>( 3 ) Andmete v&auml;ljakutsumiseks k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud juhtudel ei ole vaja eraldi luba v&otilde;i kokkulepet .</s>
+</p>
+<p>
+<s>( 4 ) Kinnistusameti teatamiskohustus ei kehti k&auml;esoleva paragrahvi l&otilde;ike 1 kohaselt maakatastrist kinnistusraamatusse &uuml;lev&otilde;etud andmete kinnistusraamatusse kandmise kohta .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">14</hi> .</s><s>Tutvumine</s>
+</p>
+<p>
+<s>( 1 ) Iga&uuml;ks v&otilde;ib tutvuda elektroonilise kinnistusraamatuga ja saada sellest v&auml;ljav&otilde;tteid .</s>
+</p>
+<p>
+<s>( 2 ) Tutvumine toimub vastava registriosa taasesitamise teel kuvaril .</s><s>Tutvuv isik v&otilde;ib registriosa ise esile kutsuda , kui tehniliselt tagatakse , et lubatud tutvumise mahtu ei &uuml;letata ja et tutvujal ei ole v&otilde;imalik muuta kinnistusraamatu sisu .</s>
+</p>
+<p>
+<s>( 3 ) Taasesitamise asemel kuvaril v&otilde;ib lubada ka tutvumist v&auml;ljatr&uuml;kiga .</s>
+</p>
+<p>
+<s>( 4 ) Elektroonilise kinnistusraamatuga v&otilde;ib tehniliste v&otilde;imaluste olemasolu korral k&auml;esoleva paragrahvi l&otilde;igete 1 v&otilde;i 2 j&auml;rgi tutvuda ka kinnistusametis , kus vastavat registriosa ei peeta .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">15</hi> .</s><s>V&auml;ljatr&uuml;kk</s>
+</p>
+<p>
+<s>( 1 ) Elektroonilise kinnistusraamatu korral asendab &auml;rakirja v&auml;ljatr&uuml;kk ning kinnitatud &auml;rakirja kinnitatud v&auml;ljatr&uuml;kk .</s><s>Kinnitamata v&auml;ljatr&uuml;kile alla ei kirjutata .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ljatr&uuml;kk elektroonilisest kinnistusraamatust tuleb varustada pealkirjaga &ldquo; V&auml;ljatr&uuml;kk &rdquo; ja v&auml;ljatr&uuml;ki tegemise kuup&auml;evaga .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;ljatr&uuml;ki v&otilde;ib avalduse esitajale edastada ka elektroonilisel teel .</s>
+</p>
+<p>
+<s>( 4 ) Ametlikus v&auml;ljatr&uuml;kis v&otilde;ib pitseri asemel vormile olla eelnevalt tr&uuml;kitud v&otilde;i tr&uuml;kitakse v&auml;ljatr&uuml;ki valmistamise k&auml;igus kinnistusameti pitsati j&auml;ljend .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">16</hi> .</s><s>P&auml;ringu&otilde;iguse andmine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;ringu&otilde;iguse andmine elektroonilisest kinnistusraamatust andmete saamiseks on lubatav , kui on tagatud , et :</s>
+</p>
+<p>
+<s>1 ) p&auml;ringute esitamine ei &uuml;leta seadusega lubatud kinnistusraamatuga tutvumist ning</s>
+</p>
+<p>
+<s>2 ) p&auml;ringute lubatavust on v&otilde;imalik kontrollida .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;ringu&otilde;iguse annab justiitsminister .</s>
+</p>
+<p>
+<s>( 3 ) Luba antakse ametiasutustele , notaritele , vannutatud maam&otilde;&otilde;tjatele , kinnistu suhtes asja&otilde;iguslikult &otilde;igustatud isikutele ja nende poolt volitatud isikutele v&otilde;i asutustele avalduse alusel .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud luba eeldab , et :</s>
+</p>
+<p>
+<s>1 ) p&auml;ringu&otilde;iguse andmisega ei riivata puudutatud isikute seadusega kaitstavaid huve ;</s>
+</p>
+<p>
+<s>2 ) selline andmete vahendamise vorm on kohane p&auml;ringute suure arvu v&otilde;i kiireloomulisuse t&otilde;ttu ;</s>
+</p>
+<p>
+<s>3 ) vastuv&otilde;tja peab kinni loas etten&auml;htud andmet&ouml;&ouml;tluse p&otilde;him&otilde;tetest ning</s>
+</p>
+<p>
+<s>4 ) on olemas tehnilised v&otilde;imalused p&auml;ringumenetluse sisseviimiseks ja teostamiseks ning see ei h&auml;iri kinnistust&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>( 5 ) J&auml;relevalveasutused , kohtud ja notarid ei pea p&auml;ringu&otilde;iguse olemasolu korral t&otilde;endama konkreetse p&auml;ringu tegemisel &otilde;igustatud huvi olemasolu .</s>
+</p>
+<p>
+<s>( 6 ) Luba v&otilde;etakse tagasi , kui langevad &auml;ra k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud eeltingimused .</s><s>Loa v&otilde;ib tagasi v&otilde;tta , kui p&auml;ringuv&otilde;imalust kuritarvitatakse .</s>
+</p>
+<p>
+<s>( 7 ) Kui elektroonilises p&auml;ringumenetluses antakse edasi isikuandmeid , siis tohib vastuv&otilde;tja neid kasutada ainult sel eesm&auml;rgil , milleks neid talle vahendati .</s>
+</p>
+<p>
+<s>( 8 ) P&auml;ringud tuleb automaatselt protokollida .</s><s>Protokollist peab olema n&auml;ha p&auml;ringu teostaja , p&auml;ringu sisu ja p&auml;ringu teostamise aeg .</s><s>Informatsiooni saamise &otilde;igus p&auml;ringute protokollist vastavas ulatuses on k&otilde;igil isikutel , kelle &otilde;iguste kohta p&auml;ringud tehti .</s><s>P&auml;ringuprotokolli pidamise ja hoidmise korra kehtestab justiitsminister .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">17</hi> .</s><s>Asenduskinnistusraamat</s>
+</p>
+<p>
+<s>Kui kannete tegemine elektroonilises kinnistusraamatus pole ajutiselt v&otilde;imalik , siis v&otilde;ib kandeid teha kinnistusameti juhataja loal paberil olevasse asenduskinnistusraamatusse .</s><s>Need v&otilde;etakse &uuml;le elektroonilisse kinnistusraamatusse niipea , kui see on j&auml;lle v&otilde;imalik .</s><s>Justiitsministril on &otilde;igus reguleerida m&auml;&auml;rusega menetluse &uuml;ksikasju .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 77 <hi rend="sup">18</hi> .</s><s>Elektroonilise kinnistusraamatu sulgemine</s>
+</p>
+<p>
+<s>( 1 ) Suletud elektroonilise kinnistusraamatu sisu peab olema v&otilde;imalik kestvalt taasesitada .</s>
+</p>
+<p>
+<s>( 2 ) Registriosa loetakse suletuks , kui kuvarilt ja v&auml;ljatr&uuml;kilt n&auml;htub , et registriosa lehed on diagonaalselt l&auml;bi joonitud .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Kohtute seaduses ( RT 1991 , 38 , 472 ; 1993 , 1 , 2 ; RT I 1993 , 24 , 429 ; 65 , 922 ; 1994 , 81 , 1382 ; 86/87 , 1487 ; 94 , 1609 ; 1995 , 29 , 358 ; 87 , 1540 ; 1996 , 31 , 631 ; 42 , 811 ; 51 , 967 ; 1998 , 4 , 62 ; 2000 , 35 , 219 ; 51 , 321 ; 2001 , 21 , 113 ; 43 , 240 ; 48 , 264 ) tehtavad muudatused ja t&auml;iendused</s>
+</p>
+<p>
+<s>( 1 ) Paragrahvis 7 tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) Paragrahvi t&auml;iendatakse 2. l&otilde;ikega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Kinnistusraamatuseaduses s&auml;testatud korras asja&otilde;iguse kandmise ja muu kande tegemise kinnistusraamatusse ning kinnistusraamatu kande kustutamise ja muutmise otsustab kohtunik ainuisikuliselt . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) senised 2. ja 3. l&otilde;ige loetakse vastavalt 3. ja 4. l&otilde;ikeks .</s>
+</p>
+<p>
+<s>Paragrahvis 17 tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) Paragrahvi t&auml;iendatakse uue , 2.l&otilde;ikega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Maa- ja linnakohtu esimees v&otilde;i tema m&auml;&auml;ramisel &uuml;ks v&otilde;i mitu vastava maa- ja linnakohtu kohtunikku otsustavad kohtu t&ouml;&ouml;piirkonnale vastavas kinnistuspiirkonnas asuvate kinnistute kohta peetavatesse kinnistusraamatutesse asja&otilde;iguse kandmise , nendesse muu kande tegemise ning kande kustutamise ja muutmise . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) senine tekst loetakse 1.l&otilde;ikeks.</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Kinnistusameti koosseisu erisused</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>( 4 ) Kinnistussekret&auml;riks v&otilde;ib nimetada isiku , kes on t&ouml;&ouml;tanud v&auml;hemalt kolm kuud kinnistusameti tehnilise t&ouml;&ouml;tajana ja sooritanud seej&auml;rel kinnistussekret&auml;ri eksami justiitsministri moodustatud eksamikomisjoni ees .</s><s>Kinnistussekret&auml;ri eksam h&otilde;lmab kinnistusraamatu pidamiseks vajalikku materiaal- ja menetlus&otilde;igust kinnistussekret&auml;ri p&auml;devuse piires .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 5 ) Kinnistussekret&auml;ri nimetab ametisse ja vabastab ametist justiitsminister kohtu esimehe ettepanekul .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 79 <hi rend="sup">1</hi> .</s><s>Andmekandja</s>
+</p>
+<p>
+<s>Kuni &uuml;leriigilise kinnistusraamatute andmet&ouml;&ouml;tluskeskuse loomiseni v&otilde;ib justiitsminister lubada elektroonilise kinnistusraamatu pidamist kohalikel andmekandjatel , mis paiknevad kas kinnistusametis v&otilde;i m&otilde;nes teises riigiasutuses .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 79 <hi rend="sup">2</hi> .</s><s>Elektroonilise kinnistusraamatu j&otilde;ustamine</s>
+</p>
+<p>
+<s>( 1 ) Elektrooniline kinnistusraamat astub paberkinnistusraamatu asemele , kui :</s>
+</p>
+<p>
+<s>1 ) kinnistusameti k&otilde;igi registriosade kanded on andmekandjale salvestatud ;</s>
+</p>
+<p>
+<s>2 ) on tagatud salvestatud andmete s&auml;ilivus ja muutumatul kujul taasesitamise v&otilde;imalus ;</s>
+</p>
+<p>
+<s>3 ) kinnistusamet on ette valmistatud elektroonilise kinnistusraamatu pidamiseks .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 2 ) Elektroonilise kinnistusraamatu avamise otsustab justiitsminister .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 3 ) Elektroonilise kinnistusraamatu katselisel rakendamisel enne avamist v&otilde;ib justiitsminister lubada jaatava kinnistamisotsuse tegemist ja teatavakstegemist k&auml;esoleva seaduse paragrahv 77 <hi rend="sup">7</hi> 2. l&otilde;ikes ja paragrahvis 77 <hi rend="sup">10</hi> s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 79 <hi rend="sup">3</hi> .</s><s>Registriosa &uuml;mberkirjutamine ja avamine ameti&uuml;lesande korras</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 1 ) Paberil peetava registriosa kanded kirjutatakse ja vajadusel s&otilde;nastatakse &uuml;mber vastavalt k&auml;esoleva seaduse paragrahvidele 68 ja 69.</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Muudetud kande &uuml;mberkirjutamisel kantakse elektroonilisse kinnistusraamatusse &uuml;le ainult kande kehtiv s&otilde;nastus , lisades muudatuste veergu m&auml;rkuse kande &uuml;mberkirjutamise ja muutmise kohta .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) Kui kanne s&otilde;nastatakse &uuml;mberkirjutamisel &uuml;mber , kantakse muudatuste veergu m&auml;rkus &uuml;mberkirjutamise ja &uuml;mbers&otilde;nastamise kohta .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">3</hi> ) Kande kustutamise korral kantakse elektroonilisse kinnistusraamatusse &uuml;le ainult kande jooksev number ja sulgemise kuup&auml;ev .</s><s>Kustutatud kanne kantakse tervikuna &uuml;le vaid siis , kui see on vajalik kehtivate kannete m&otilde;istmiseks .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">4</hi> ) Suletud registriosi &uuml;mber ei kirjutata .</s><s>Nende alusel avatud registriosades n&auml;idatakse suletud registriosa number .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;mberkirjutatud registriosa suletakse vastavalt k&auml;esoleva seaduse paragrahvile 73 ja s&auml;ilitatakse kinnistusameti arhiivis .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 3 ) Sulgemism&auml;rkele senises kinnistusraamatus kirjutavad alla k&auml;esoleva seaduse paragrahv 49 l&otilde;ikes 5 nimetatud isikud .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 4 ) Andmekandjale salvestatud registriosa s&auml;ilitab oma senise numbri .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>( 5 ) Korteriomandi ja -hoonestus&otilde;iguse registriosade avamisel kinnistusraamatusse kandmata maat&uuml;kkidel avab kinnistusamet vastava maat&uuml;ki registriosa ameti&uuml;lesande korras .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>( 6 ) Justiitsminister kehtestab registriosade &uuml;mberkirjutamise korra .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.18.03.99 - RT I 1999 , 27 , 380 )</s>
+</p>
+<p>
+<s>&sect; 79 <hi rend="sup">4</hi> .</s><s>Asja&otilde;igusseaduse ( RT I 1993 , 39 , 590 ; RT I 1999 , 44 , 509 ; 2001 , 34 , 185 ; 93 , 565 ) paragrahv 56 kehtivuse peatamine</s>
+</p>
+<p>
+<s>Kuue kuu jooksul p&auml;rast elektroonilise kinnistusraamatu avamist ei kohaldata asja&otilde;igusseaduse paragrahv 56.</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 79 <hi rend="sup">5</hi> .</s><s>Riigi vastutus</s>
+</p>
+<p>
+<s>Riik vastutab elektroonilisele kinnistusraamatule &uuml;leminekuga seotud kahjude eest , mis tulenevad kinnistusraamatu pidamise , automatiseeritud andmet&ouml;&ouml;tluse v&otilde;i andmet&ouml;&ouml;tlusseadme vigadest .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.29.07.96 - RT I 1996 , 51 , 967 )</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Eesti Vabariigi kohtute arvu ja nende koosseisude ning maa- ja linnakohtute kohtukaasistujate arvu kindlaksm&auml;&auml;ramise seaduses ( RT 1993 , 1 , 1 ; RT I 1993 , 24 , 429 ; 43 , 622 ; 65 , 922 ; 76 , 1131 ; 1994 , 81 , 1382 ; 1995 , 29 , 358 ; 97 , 1664 ; 1996 , 31 , 631 ; 42 , 811 ; 1999 , 88 , 809 ; 2000 , 102 , 678 ) tehtavad t&auml;iendused</s>
+</p>
+<p>
+<s>( 1 ) Paragrahvi 1 t&auml;iendatakse 2.l&otilde;ikega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Seoses kinnistusameti moodustamisega v&otilde;ib maa- ja linnakohtute kohtunike arvu suurendada 10 kohtuniku v&otilde;rra lisaks k&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatule .</s><s>T&auml;iendavate kohtunike jaotuse maa- ja linnakohtute vahel otsustab justiitsminister koosk&otilde;lastatult Riigikohtuga . &rdquo;</s>
+</p>
+<p>
+<s>( 2 ) Paragrahvi senine tekst loetakse 1. l&otilde;ikeks .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub asja&otilde;igusseaduse rakendamise seaduse j&otilde;ustumisega .</s>
+</p>
+</body>
+   </text>
+</tei.2>

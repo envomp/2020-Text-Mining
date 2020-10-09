@@ -1,0 +1,1747 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Taimekaitseseadus ( terviktekst nov 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    9239</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Taimekaitseseadus ( terviktekst nov 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=7></tagusage>
+         <tagusage gi=p occurs=547></tagusage>
+         <tagusage gi=s occurs=749></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Taimekaitseseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 15. m&auml;rtsil 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 29 , 169 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 17. aprillil 2000. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 ;</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab taimetervisen&otilde;uded ja taimekaitsevahendite inimeste ja loomade tervisele ning keskkonnale ohutuse tagamise alused ning reguleerib taimetervise kaitse korraldust .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Taim ja taimne saadus</s>
+</p>
+<p>
+<s>( 1 ) Taim on kasvukohas kinnitunud v&otilde;i sellelt ajutiselt eraldatud elusorganism , mis s&uuml;nteesib anorgaanilisest ainest oma eluks vajalikke orgaanilisi aineid , v&otilde;i selle osa .</s>
+</p>
+<p>
+<s>( 2 ) Taimeosadeks k&auml;esoleva seaduse t&auml;henduses loetakse :</s>
+</p>
+<p>
+<s>1 ) puu- ja k&ouml;&ouml;giviljad ning marjad , v&auml;lja arvatud s&uuml;gavk&uuml;lmutatud kujul ;</s>
+</p>
+<p>
+<s>2 ) juurviljad , v&auml;lja arvatud s&uuml;gavk&uuml;lmutatud kujul ;</s>
+</p>
+<p>
+<s>3 ) mugulad , mugulsibulad , sibulad ning muud juure osad ja teisendid ;</s>
+</p>
+<p>
+<s>4 ) varred , risoomid ja muud varreteisendid ;</s>
+</p>
+<p>
+<s>5 ) l&otilde;ikelilled ;</s>
+</p>
+<p>
+<s>6 ) langetatud puud koos lehtedega ;</s>
+</p>
+<p>
+<s>7 ) lehtedega oksad ;</s>
+</p>
+<p>
+<s>8 ) meristeemkultuurid ja muud taimsed koekultuurid ;</s>
+</p>
+<p>
+<s>9 ) k&uuml;lviseemned .</s>
+</p>
+<p>
+<s>( 3 ) Taimseks saaduseks k&auml;esoleva seaduse t&auml;henduses loetakse t&ouml;&ouml;tlemata v&otilde;i esmat&ouml;&ouml;deldud taimse p&auml;ritoluga materjal , mis ei ole eluv&otilde;imeline , kuid mille kaudu v&otilde;ib levida taimekahjustaja .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Toorpuit</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses k&auml;sitatakse toorpuiduna langetatud &uuml;mara v&auml;lispinnaga koorega v&otilde;i kooritud puud , laaste , t&uuml;kke , saepuru ja puiduj&auml;&auml;tmeid ning pakkepuitu ja separeerimismaterjali .</s>
+</p>
+<p>
+<s>( 2 ) Esmat&ouml;&ouml;tlemise astmest s&otilde;ltuvalt kohaldatakse toorpuidu suhtes kas taime v&otilde;i taimse saaduse kohta kehtivaid n&otilde;udeid , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Taimekahjustaja ja ohtlik taimekahjustaja</s>
+</p>
+<p>
+<s>( 1 ) Taimekahjustaja on taime v&otilde;i taimset saadust kahjustav loom , teine taim , seen , mikroorganism v&otilde;i viirus .</s>
+</p>
+<p>
+<s>( 2 ) Ohtlikuks loetakse Eestis mitteesinev taimekahjustaja , samuti Eestis esinev taimekahjustaja , mille leviku &uuml;le teostatakse j&auml;relevalvet ja mille suhtes t&otilde;rjeabin&otilde;ude rakendamine on kohustuslik .</s>
+</p>
+<p>
+<s>( 3 ) Ohtlike taimekahjustajate nimekiri kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Taimekaitsevahend ja selle toimeaine</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahend on &uuml;hte v&otilde;i mitut toimeainet sisaldav toode , mis on ette n&auml;htud taimede ja taimsete saaduste kaitsmiseks taimekahjustajate eest ning mittesoovitavate taimede , taimeosade v&otilde;i taimekahjustajate h&auml;vitamiseks .</s><s>Taimekaitsevahendina k&auml;sitatakse ka taimede elutegevuse m&otilde;jutamiseks etten&auml;htud kasvuregulaatorit , v&auml;lja arvatud toiteelemendid ja -ained .</s>
+</p>
+<p>
+<s>( 2 ) Toimeaine on aine v&otilde;i mikroorganism , mis on m&otilde;eldud &uuml;ldise v&otilde;i spetsiifilise m&otilde;ju avaldamiseks taimekahjustajale , taimele v&otilde;i taimsele saadusele .</s>
+</p>
+<p>
+<s>( 3 ) Geneetiliselt muundatud organisme sisaldavate taimekaitsevahendite suhtes kohaldatakse k&auml;esolevat seadust niiv&otilde;rd , kuiv&otilde;rd geneetiliselt muundatud organismide keskkonda viimise seaduses ( RT I 1999 , 10 , 151 ; 2001 , 23 , 130 ) ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Taimekosutusvahend ja abiaine</s>
+</p>
+<p>
+<s>( 1 ) Taimekosutusvahend on aine , mis on ette n&auml;htud taime vastupanuv&otilde;ime suurendamiseks kahjulike organismide suhtes , v&auml;lja arvatud toiteelemendid ja -ained .</s>
+</p>
+<p>
+<s>( 2 ) Abiaine on looduslik v&otilde;i s&uuml;nteetiline aine , mida lisatakse taimekaitsevahendi toime parandamiseks , kuid mida ei kasutata iseseisvalt v&otilde;i taimekaitsevahendi p&otilde;hikoostisosana .</s>
+</p>
+<p>
+<s>( 3 ) Taimekaitsevahendist eraldi toodetava , imporditava v&otilde;i turustatava taimekosutusvahendi ja abiaine suhtes kohaldatakse taimekaitsevahendi kohta kehtivaid n&otilde;udeid , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Taimekaitseseade</s>
+</p>
+<p>
+<s>Taimekaitseseade on taimekahjustaja t&otilde;rjeks v&otilde;i taimekaitsevahendi kasutamiseks etten&auml;htud masin v&otilde;i seade .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Taimetervis</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Taimetervise kaitse korraldus</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Taimetervis</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse t&auml;henduses k&auml;sitatakse taimetervisena taime , taimse saaduse , samuti maat&uuml;ki , mulla , istanduste , k&uuml;lvide , taime kasvusubstraadi ja muu ohtliku taimekahjustajaga saastuda v&otilde;iva objekti ( edaspidi muu objekt ) seisundit .</s>
+</p>
+<p>
+<s>( 2 ) Taim , taimne saadus ja muu objekt on kas ohtlikust taimekahjustajast vaba v&otilde;i ohtliku taimekahjustajaga saastunud , saastumisohus v&otilde;i saastumiskahtlane .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Taimetervise &uuml;ldn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Taim , taimne saadus ja muu objekt peavad olema vabad ohtlikest taimekahjustajatest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud taimetervisen&otilde;ude t&auml;itmise peab tagama isik , kelle valduses taim , taimne saadus v&otilde;i muu objekt on , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Taimetervise erin&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Taimetervise erin&otilde;uded kehtestatakse taime , taimse saaduse v&otilde;i muu objekti p&auml;ritolu , omaduste ja t&ouml;&ouml;tlemisviisi ning neid asjaolusid t&otilde;endava dokumendi kohta .</s>
+</p>
+<p>
+<s>( 2 ) Taimetervise erin&otilde;uded kehtivad taime , taimse saaduse v&otilde;i muu objekti sisseveol , tootmisel , ladustamisel ja turustamisel ning muul etapil , l&auml;htudes erin&otilde;ude olemusest .</s>
+</p>
+<p>
+<s>( 3 ) Taimetervise erin&otilde;uded kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Taimekahjustaja levitamise keeld</s>
+</p>
+<p>
+<s>( 1 ) Ohtlikku taimekahjustajat levitada on keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Ohtliku taimekahjustaja levitamiseks loetakse ka selle levikuks soodsate tingimuste loomine , mis v&auml;ljendub ohtlikust taimekahjustajast teatamata v&otilde;i t&otilde;rjeabin&otilde;ude rakendamata j&auml;tmises .</s>
+</p>
+<p>
+<s>( 3 ) Isik , kes on s&uuml;&uuml;di ohtliku taimekahjustaja levitamises , on kohustatud h&uuml;vitama selle t&otilde;rje kulud ja tekitatud kahju .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Teatamiskohustus</s>
+</p>
+<p>
+<s>Isik , kes tuvastab ohtliku taimekahjustaja esinemise v&otilde;i kellel on ohtliku taimekahjustaja esinemise kahtlus , peab sellest viivitamatult j&auml;relevalveasutusele teatama .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Saastatus , saastumisoht ja saastumiskahtlus</s>
+</p>
+<p>
+<s>( 1 ) Taim , taimne saadus v&otilde;i muu objekt , millele on levinud ohtlik taimekahjustaja , loetakse saastunuks .</s><s>Selle l&auml;heduses asuv maat&uuml;kk , hoone v&otilde;i rajatis , kus leidub ohtliku taimekahjustaja levikuks sobivaid taimi , on saastumisohus .</s>
+</p>
+<p>
+<s>( 2 ) Saastumiskahtlane on taim , taimne saadus v&otilde;i muu objekt , mille j&auml;relevalveametnik on vaatlusandmete ja muude asjakohaste andmete p&otilde;hjal selliseks tunnistanud .</s><s>Samuti on saastumiskahtlane saastunud taime , taimse saaduse v&otilde;i muu objektiga kokku puutunud asi , millele ohtlik taimekahjustaja v&otilde;is levida , v&otilde;i koht , kuhu on saastunud taim , taimne saadus v&otilde;i muu objekt viidud .</s>
+</p>
+<p>
+<s>( 3 ) Saastumisoht p&uuml;sib kuni ohtliku taimekahjustaja h&auml;vitamiseni .</s><s>Saastumiskahtlus p&uuml;sib kuni nende j&auml;relevalvetulemuste selgumiseni , mis kinnitavad saastatust v&otilde;i ohtliku taimekahjustaja puudumist .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Ohtliku taimekahjustaja t&otilde;rjeabin&otilde;u</s>
+</p>
+<p>
+<s>( 1 ) Ohtliku taimekahjustaja t&otilde;rjeabin&otilde;una k&auml;sitatakse selle leviku v&auml;ltimiseks rakendatavat piirangut v&otilde;i selle h&auml;vitamist etten&auml;htud viisil .</s>
+</p>
+<p>
+<s>( 2 ) Ohtliku taimekahjustaja t&otilde;rjeabin&otilde;u v&otilde;ib olla :</s>
+</p>
+<p>
+<s>1 ) t&auml;htajaline viljeluspiirang ;</s>
+</p>
+<p>
+<s>2 ) resistentse kultuuri v&otilde;i sordi valiku kohustus ;</s>
+</p>
+<p>
+<s>3 ) saastunud , saastumisohus v&otilde;i saastumiskahtlase kauba kasutamise ja &uuml;leandmise keeld ;</s>
+</p>
+<p>
+<s>4 ) saastunud kauba puhastamise v&otilde;i h&auml;vitamise kohustus ;</s>
+</p>
+<p>
+<s>5 ) t&otilde;rje korraldamise kohustus ;</s>
+</p>
+<p>
+<s>6 ) peremeestaimede h&auml;vitamise kohustus .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Ohtliku taimekahjustaja t&otilde;rje</s>
+</p>
+<p>
+<s>( 1 ) Ohtliku taimekahjustaja esinemise korral rakendatakse k&auml;esoleva seaduse alusel kehtestatud t&otilde;rjeabin&otilde;u .</s>
+</p>
+<p>
+<s>( 2 ) Ohtliku taimekahjustajaga saastunud , saastumisohus v&otilde;i saastumiskahtlasel taimel , taimsel saadusel v&otilde;i muul objektil leiduva ohtliku taimekahjustaja liigile kohased t&otilde;rjeabin&otilde;ud kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Ohtlike taimekahjustajate nimekiri</s>
+</p>
+<p>
+<s>Ohtlike taimekahjustajate nimekirjas loetletakse :</s>
+</p>
+<p>
+<s>1 ) ohtlikud taimekahjustajad , mille sissevedu on keelatud ;</s>
+</p>
+<p>
+<s>2 ) ohtlikud taimekahjustajad , mille sissevedu taime , taimse saaduse v&otilde;i muu objektiga on keelatud .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kaitstav ala</s>
+</p>
+<p>
+<s>( 1 ) Ohtliku taimekahjustaja levikuks soodsas majandusliku t&auml;htsusega piirkonnas , kus taimekahjustaja ei ole kohanenud , v&otilde;ib Vabariigi Valitsuse m&auml;&auml;rusega luua selle ohtliku taimekahjustaja suhtes kaitstava ala .</s><s>Kaitstav ala v&otilde;ib olla riigi territoorium v&otilde;i selle osa .</s><s>Kaitstavaid alasid v&otilde;ib olla mitu .</s>
+</p>
+<p>
+<s>( 2 ) Ohtlik taimekahjustaja loetakse kohanenuks , kui t&otilde;rjeabin&otilde;udega ei ole sellest kahe aasta jooksul vabanetud .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Kaitstaval alal kehtivad taimetervisen&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Ohtlikust taimekahjustajast ja kaitstava ala asukohast l&auml;htudes ning v&auml;ltimaks ohtliku taimekahjustaja levikut ja kohanemist , v&otilde;ib taime , taimse saaduse v&otilde;i muu objekti sissevedu kaitstavale alale korraldada &uuml;ksnes kaitstava ala taimetervisen&otilde;udeid j&auml;rgides .</s><s>Taimetervisen&otilde;uded kehtestatakse nende taimede , taimsete saaduste ja muude objektide kohta , millega ohtlik taimekahjustaja v&otilde;ib levida .</s>
+</p>
+<p>
+<s>( 2 ) Kaitstava ala taimetervisen&otilde;uded kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Ohtlike taimekahjustajate kasutamine sordiaretuseks , katseteks ja muuks teadust&ouml;&ouml;ks</s>
+</p>
+<p>
+<s>( 1 ) Sordiaretajal ning teadus- ja arendusasutusel on lubatud sordiaretuseks , katseteks ja muuks teadust&ouml;&ouml;ks korraldada ohtlike taimekahjustajate ning nende peremeestaimede sissevedu , kui nad j&auml;rgivad taimetervisen&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ltimaks ohtlike taimekahjustajate ja nende peremeestaimede levikut v&auml;ljapoole sordiaretuseks , katseteks v&otilde;i muuks teadust&ouml;&ouml;ks etten&auml;htud kohta , kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega ohtlike taimekahjustajate ja nende peremeestaimede sisseveo ning sordiaretuses , katsetes ja muus teadust&ouml;&ouml;s kasutamise n&otilde;uded .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Taimetervise kaitse korraldus sisseveol</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Sisseveokeeld</s>
+</p>
+<p>
+<s>Keelatud on sisse vedada :</s>
+</p>
+<p>
+<s>1 ) ohtlikku taimekahjustajat , v&auml;lja arvatud k&auml;esoleva seaduse &sect;-s 19 s&auml;testatud juhul ja korras ;</s>
+</p>
+<p>
+<s>2 ) ohtliku taimekahjustajaga saastunud taime , taimset saadust v&otilde;i muud objekti ;</s>
+</p>
+<p>
+<s>3 ) saastumiskahtlast taime , taimset saadust v&otilde;i muud objekti ;</s>
+</p>
+<p>
+<s>4 ) taime , taimset saadust v&otilde;i muud objekti v&auml;lisriigist v&otilde;i selle piirkonnast , mille kohta on kehtestatud sisseveokeeld .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Sisseveokeelu kehtestamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 20 punktis 4 nimetatud sisseveokeeld kehtestatakse v&auml;lisriigi v&otilde;i selle piirkonna kohta , kust ohtlik taimekahjustaja v&otilde;ib sisseveetava taime , taimse saaduse v&otilde;i muu objektiga levida Eestisse .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse m&auml;&auml;rusega kehtestatakse v&auml;lisriigi v&otilde;i selle piirkonna kohta nende taimede , taimsete saaduste v&otilde;i muude objektide , millega taimekahjustaja v&otilde;ib levida , sisseveo keeld .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Sisseveo kord</s>
+</p>
+<p>
+<s>( 1 ) Taime , taimse saaduse ja muu objekti sissevedu on lubatud piiril asuvate selleks etten&auml;htud tollipunktide kaudu .</s><s>Sisseveost tuleb tollipunkti j&auml;relevalveametnikule teatada v&auml;hemalt 24 tundi enne sissevedu .</s>
+</p>
+<p>
+<s>( 2 ) Taime , taimse saaduse ja muu objekti sisseveoks etten&auml;htud piiril asuvate tollipunktide loetelu ning piiril asuvatele tollipunktidele esitatavad n&otilde;uded kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s><s>N&otilde;uete kehtestamise eesm&auml;rk on tagada j&auml;relevalve teostamine k&auml;esoleva seaduse alusel .</s>
+</p>
+<p>
+<s>( 3 ) Taimetoodangu Inspektsioonil on &otilde;igus saada sadamas , lennujaamas , raudteejaamas v&otilde;i teistes transpordis&otilde;lmedes , mis asuvad tollipiiril , nende valdajalt kauba j&auml;relevalve teostamiseks vajalikud t&ouml;&ouml;ohutuse ja t&ouml;&ouml;tervishoiu kohased ruumid tasuta kasutamiseks .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kaubasaadetise ( taimede , taimsete saaduste ja muude objektide partii ) n&otilde;uetekohasuse t&otilde;endamine sisseveol</s>
+</p>
+<p>
+<s>( 1 ) Sisseveetava kaubasaadetise juures peab olema p&auml;ritoluriigi j&auml;relevalveasutuse v&auml;ljastatud f&uuml;tosanitaarsertifikaat , mis t&otilde;endab kaubasaadetise koosseisu kuuluvate taimede , taimsete saaduste ja muude objektide taimetervise n&otilde;uetekohasust .</s>
+</p>
+<p>
+<s>( 2 ) Kui kaubasaadetis on enne Eestisse saabumist v&auml;hemalt &uuml;hes l&auml;bitud riigis &uuml;mber laaditud , ladustatud , lahti v&otilde;etud v&otilde;i l&auml;binud muu seda laadi protseduuri , peab kaubasaadetise juures olema p&auml;ritoluriigi f&uuml;tosanitaarsertifikaadi koopia ning viimati l&auml;bitud riigi , kus seda laadi protseduur tehti , v&auml;ljastatud f&uuml;tosanitaarsertifikaat .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Taimetervise kontroll sisseveol ja sisseveo lihtsustatud kord</s>
+</p>
+<p>
+<s>( 1 ) Saastumiskahtluse korral kontrollitakse kaubasaadetist enne sisseveo lubamist .</s>
+</p>
+<p>
+<s>( 2 ) Piiril asuvas tollipunktis kontrollitavate taimede , taimsete saaduste ja muude objektide loetelu kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Taimede , taimsete saaduste ja muude objektide sisseveo kord ning lihtsustatud korras sisseveoks lubatud taimede , taimsete saaduste ja muude objektide loetelu , lubatud kogused ja lihtsustatud kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Saastumiskahtlase kaubasaadetise kontrollimine</s>
+</p>
+<p>
+<s>( 1 ) Saastumiskahtlasest kaubasaadetisest v&otilde;tab j&auml;relevalveametnik kontrollproovi ja peatab sisseveo kuni kontrollproovi tulemuste selgumiseni , kuid mitte kauemaks kui k&uuml;mneks t&ouml;&ouml;p&auml;evaks .</s><s>Kui kaubasaadetist on vaja uurida kauem , v&otilde;ib t&auml;htaega pikendada kuni &uuml;he kuuni .</s><s>Sellest tuleb sissevedajale kohe kirjalikult teatada .</s>
+</p>
+<p>
+<s>( 2 ) Kaubasaadetis , mille sissevedu on peatatud , saadetakse j&auml;relevalveametniku m&auml;&auml;ratud kohta .</s><s>Saastumiskahtlast kaubasaadetist ei ole lubatud saata kohta , kus see v&otilde;ib p&otilde;hjustada teise kauba saastumise ohtliku taimekahjustajaga .</s><s>Saastumiskahtlase kaubasaadetise plommib v&otilde;i pitseerib j&auml;relevalveametnik ja tema loata on kaubasaadetist kasutada v&otilde;i &uuml;le anda keelatud .</s><s>Saastumiskahtlase kaubasaadetise tolliformaalsused v&otilde;ib l&otilde;petada j&auml;relevalveametniku n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 3 ) Kontrollproovi tulemuste alusel teeb j&auml;relevalveametnik otsuse n&otilde;uetekohase kaubasaadetise sisseveo lubamise kohta v&otilde;i otsustab k&auml;esoleva seaduse &sect; 26 alusel saastunud kaubasaadetise sisseveo keelamise ja kaubasaadetise edasise kasutamise .</s>
+</p>
+<p>
+<s>( 4 ) Kauba , mille sissevedu on peatatud , hoiu- ja veokulud tasub sissevedaja .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Saastatuse kindlakstegemine sisseveol</s>
+</p>
+<p>
+<s>( 1 ) Saastunud kaubasaadetise kindlakstegemise korral otsustab j&auml;relevalveametnik selle puhastamisele , tagasisaatmisele v&otilde;i h&auml;vitamisele saatmise .</s><s>Otsust tehes v&otilde;ib j&auml;relevalveametnik arvestada sissevedaja sooviga .</s>
+</p>
+<p>
+<s>( 2 ) Kui saastunud kaubasaadetise koosseisus on saastumata osa ja seda on v&otilde;imalik eraldada , v&otilde;ib j&auml;relevalveametnik anda saastumata osa sisseveo loa .</s><s>Saastumata osa eraldamise kulud tasub sissevedaja .</s>
+</p>
+<p>
+<s>( 3 ) Otsus kaubasaadetise desinfitseerimisele v&otilde;i muul seda laadi viisil puhastamisele saatmise kohta tehakse , kui kaubasaadetist etten&auml;htud vahendiga ning n&otilde;utud viisil ja korras puhastades on v&otilde;imalik saavutada taimetervisen&otilde;uete t&auml;itmine .</s><s>Kaubasaadetise puhastamise kulud tasub sissevedaja .</s>
+</p>
+<p>
+<s>( 4 ) Saastunud kaubasaadetise tagasisaatmise ja h&auml;vitamisele saadetud taime , taimse saaduse v&otilde;i muu objekti erikonfiskeerimise korraldab toll , kohaldades tolliseadustikku .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>J&auml;relevalvetoimingud transiidil , seest&ouml;&ouml;tlemisel ja ajutisel importimisel</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 1 ) Transiidi korras Eestit l&auml;biva kaubasaadetise puhul kontrollitakse f&uuml;tosanitaarsertifikaadi olemasolu ja kaubasaadetise vastavust saatedokumentidele .</s><s>J&auml;relevalveametnik teeb kauba saatedokumentidele m&auml;rke kaubasaadetise transiidiks lubamise kohta .</s><s>Kontroll on tolliprotseduuri lahutamatu osa .</s>
+</p>
+<p>
+<s>( 2 ) Kaubasaadetise seest&ouml;&ouml;tlemisel ja ajutisel importimisel kontrollitakse f&uuml;tosanitaarsertifikaadi olemasolu ja kaubasaadetise vastavust saatedokumentidele .</s><s>Kui kaubasaadetis kuulub enne taasv&auml;ljavedu Eestis ladustamisele v&otilde;i &uuml;mberpakendamisele v&otilde;i selle Eestis asumise ajal m&ouml;&ouml;dub rohkem kui 14 p&auml;eva f&uuml;tosanitaarsertifikaadi v&auml;ljastamisest , v&otilde;ib j&auml;relevalveametnik teostada ka muud k&auml;esoleva seaduse &sect;-s 25 nimetatud j&auml;relevalvetoimingud .</s><s>Kaubasaadetisele lisatakse kontrollimise k&auml;igus v&auml;ljastatav f&uuml;tosanitaarsertifikaat .</s><s>Kontroll on tolliprotseduuri rakendamise lahutamatu osa .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Taimetervise kaitse erijuhud</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>T&otilde;rjeabin&otilde;ude rakendamine riigimaal ja riigimetsas</s>
+</p>
+<p>
+<s>( 1 ) Riigimaal , mida ei ole kasutusse antud , korraldab t&otilde;rjeabin&otilde;ude rakendamist Taimetoodangu Inspektsioon .</s>
+</p>
+<p>
+<s>( 2 ) Riigimetsas , mida ei ole kasutusse antud , korraldab t&otilde;rjeabin&otilde;ude rakendamist Metsakaitse- ja Metsauuenduskeskus .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>T&otilde;rjeabin&otilde;ude rakendamine munitsipaalmaal</s>
+</p>
+<p>
+<s>Munitsipaalmaal , mida ei ole kasutusse antud , korraldab t&otilde;rjeabin&otilde;ude rakendamist kohalik omavalitsus .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>T&otilde;rjeabin&otilde;ude rakendamine isiku eest</s>
+</p>
+<p>
+<s>Kui k&auml;esoleva seaduse &sect; 9 l&otilde;ikes 2 nimetatud isik ei t&auml;ida oma kohustusi t&otilde;rjeabin&otilde;ude rakendamisel ning ohtliku taimekahjustaja ulatuslik levik v&otilde;ib p&otilde;hjustada olulist majanduslikku kahju , korraldab isiku eest t&otilde;rjeabin&otilde;ude rakendamist j&auml;relevalveasutus selleks riigieelarves etten&auml;htud vahendite arvel .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>T&otilde;rjeabin&otilde;ude rakendamise kulude tasumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 30 nimetatud juhul esitab j&auml;relevalveasutus isikule riigieelarve vahenditega tehtud t&otilde;rje kulude kohta arve , mis tuleb tasuda &uuml;he kuu jooksul p&auml;rast arve saamist .</s>
+</p>
+<p>
+<s>( 2 ) Kui ohtliku taimekahjustaja levitamises s&uuml;&uuml;di olev isik on teada , esitab j&auml;relevalveasutus k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud arve talle .</s>
+</p>
+<p>
+<s>( 3 ) Kui arve saanud isik ei h&uuml;vita t&otilde;rjeabin&otilde;ude rakendamise kulusid , n&otilde;utakse need v&auml;lja kohtu kaudu .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>T&otilde;rjeabin&otilde;ude rakendamine isiku eest taimekarantiini ajal</s>
+</p>
+<p>
+<s>Taimekarantiini ajal v&otilde;ib isiku eest t&otilde;rjeabin&otilde;ude rakendamist korraldada j&auml;relevalveasutus selleks kehtestatud korras riigieelarves etten&auml;htud vahendite arvel .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>T&otilde;rjeabin&otilde;ude rakendamine ja finantseerimine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect;-des 28 , 30 ja 32 nimetatud juhul t&otilde;rjeabin&otilde;ude rakendamise ja t&otilde;rjeabin&otilde;ude rakendamise finantseerimise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Taimekarantiin</s>
+</p>
+<p>
+<s>( 1 ) Kui ohtliku taimekahjustaja leviala ei ole t&auml;pselt teada ja kui selle kindlakstegemine n&otilde;uab aega v&otilde;i on raskendatud v&otilde;i kui ohtliku taimekahjustaja levik v&otilde;ib p&otilde;hjustada olulist majanduslikku kahju , kuulutab Vabariigi Valitsus v&auml;lja taimekarantiini .</s>
+</p>
+<p>
+<s>( 2 ) Taimekarantiin kuulutatakse v&auml;lja , kui muul viisil ei ole v&otilde;imalik v&auml;ltida ohtliku taimekahjustaja edasist ulatuslikku levikut ega korraldada ohtliku taimekahjustaja t&otilde;rjet .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Piirangud taimekarantiini ajal</s>
+</p>
+<p>
+<s>( 1 ) Taimekarantiini v&auml;ljakuulutamise korral kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega karantiinipiirkond ning t&otilde;rjeabin&otilde;ud ja nende rakendamise kord toodetavate , esmaselt t&ouml;&ouml;deldavate , ladustatavate , pakendatavate , sisse- ja v&auml;ljaveetavate ning turustatavate taimede , taimsete saaduste v&otilde;i muude objektide suhtes .</s>
+</p>
+<p>
+<s>( 2 ) Taimekarantiini korral rakendatavad t&otilde;rjeabin&otilde;ud m&auml;&auml;ratakse ohtliku taimekahjustaja liigi j&auml;rgi .</s>
+</p>
+<p>
+<s>( 3 ) Taimi , taimseid saadusi ja muid objekte v&otilde;ib karantiinipiirkonnast v&auml;lja vedada &uuml;ksnes j&auml;relevalveametniku loal .</s><s>Luba antakse , kui taimede , taimsete saaduste v&otilde;i muude objektide partii ei ole saastunud ja kui puudub ohtliku taimekahjustaja leviku oht .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Taimekarantiini l&otilde;ppemine</s>
+</p>
+<p>
+<s>Kui taimekarantiini v&auml;ljakuulutamise p&otilde;hjused on kadunud , kuulutab Vabariigi Valitsus m&auml;&auml;rusega taimekarantiini l&otilde;ppenuks .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>T&otilde;rjekulude osaline h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Taimekarantiini ajal ohtliku taimekahjustaja t&otilde;rjel tehtud kulud h&uuml;vitatakse isikule kuni 50 protsendi ulatuses p&auml;rast taimekarantiini l&otilde;ppemist .</s><s>T&otilde;rjekulusid ei h&uuml;vitata isikule , kelle eest on rakendanud t&otilde;rjeabin&otilde;usid j&auml;relevalveasutus , ega isikule , kes p&otilde;hjustas ohtliku taimekahjustaja leviku .</s>
+</p>
+<p>
+<s>( 2 ) T&otilde;rjekulude h&uuml;vitamise m&auml;&auml;ra arvutades l&auml;htutakse riigieelarves selleks etten&auml;htud vahenditest ja taotletavast kogusummast ning aluseks v&otilde;etakse hektarite arv , millel isik on teinud ohtliku taimekahjustaja t&otilde;rjet , taimekaitsevahendi keskmine hind , taimekaitsevahendi kulu &uuml;he hektari kohta ja t&otilde;rjet&ouml;&ouml;de keskmine tasu .</s>
+</p>
+<p>
+<s>( 3 ) T&otilde;rjekulude osalise h&uuml;vitamise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>Taimepass ja f&uuml;tosanitaarsertifikaat</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Taimepass ja f&uuml;tosanitaarsertifikaat</s>
+</p>
+<p>
+<s>( 1 ) Taimepass on siseriigis kasutatav taime , taimse saaduse v&otilde;i muu objekti taimetervise n&otilde;uetekohasust t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;tosanitaarsertifikaat on taime , taimse saaduse v&otilde;i muu objekti taimetervise n&otilde;uetekohasust t&otilde;endav dokument , mida kasutatakse sisse- ja v&auml;ljaveol .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Taimepassi ja f&uuml;tosanitaarsertifikaadi v&auml;ljastamine</s>
+</p>
+<p>
+<s>( 1 ) Taimepass v&auml;ljastatakse taimetervise registrisse kantud isikule .</s><s>Taimepassi v&auml;ljastab j&auml;relevalveametnik v&otilde;i taimetervise registrisse kantud isik , kellele on antud taimepassi v&auml;ljastamise &otilde;igus .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;tosanitaarsertifikaadi v&auml;ljastab j&auml;relevalveametnik kaubasaadetise kohta .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;relevalveametnik keeldub taimepassi ja f&uuml;tosanitaarsertifikaadi v&auml;ljastamisest , kui isik ei t&auml;ida k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides etten&auml;htud kohustusi v&otilde;i taimetervisen&otilde;udeid .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Taimepassi ja f&uuml;tosanitaarsertifikaadi kehtivus</s>
+</p>
+<p>
+<s>( 1 ) Taimepass ja f&uuml;tosanitaarsertifikaat kehtivad selle kaubakoguse n&otilde;uetekohasuse t&otilde;endamiseks , mille kohta nad on v&auml;ljastatud .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;tosanitaarsertifikaat ei tohi olla v&auml;ljastatud varem kui 14 p&auml;eva enne kaubasaadetise v&auml;ljavedu .</s>
+</p>
+<p>
+<s>( 3 ) Taimepass kehtib v&auml;ljastaja poolt m&auml;&auml;ratud ajani .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Taimepassi v&auml;ljastamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Taimetoodangu Inspektsioon annab taimetervise registrisse kantud isikule tema taotlusel taimepassi v&auml;ljastamise &otilde;iguse , kui kalendriaasta jooksul tema tegevuse j&auml;relevalve tulemusena ei ole avastatud k&auml;esoleva seaduse v&otilde;i selle alusel kehtestatud &otilde;igusaktide rikkumisi .</s>
+</p>
+<p>
+<s>( 2 ) Taimepassi v&auml;ljastamise &otilde;iguse kohta tehakse kanne taimetervise registrisse .</s><s>Taimepassi v&auml;ljastamise &otilde;iguse saanud isik v&otilde;ib varustada taimepassiga vaid tema enda turustatavaid taimi , taimseid saadusi ja muid objekte .</s>
+</p>
+<p>
+<s>( 3 ) Kui taimepassi v&auml;ljastamise &otilde;iguse saanud isik rikub k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatut , tunnistab Taimetoodangu Inspektsioon antud &otilde;iguse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Taimepassi ja f&uuml;tosanitaarsertifikaadi kasutamine</s>
+</p>
+<p>
+<s>( 1 ) F&uuml;tosanitaarsertifikaat ja taimepass peavad olema kaubasaadetise juures .</s><s>Kaubasaadetis peab olema identifitseeritav .</s><s>Taimepass v&otilde;ib olla ka taimele kinnitatud v&otilde;i kleebitud taimse saaduse v&otilde;i muu objekti pakendile .</s>
+</p>
+<p>
+<s>( 2 ) Muudetud v&otilde;i parandatud f&uuml;tosanitaarsertifikaat v&otilde;i taimepass on kehtetu .</s><s>J&auml;relevalveametniku poolt tehtud f&uuml;tosanitaarsertifikaadi koopia kinnitatakse j&auml;relevalveametkonna pitseri ja m&auml;rkega &ldquo; Koopia &rdquo; .</s>
+</p>
+<p>
+<s>( 3 ) Tootmise asukohas kontrollitavate ja taimepassiga varustatavate taimede , taimsete saaduste ja muude objektide nimekiri , taimepassi ja f&uuml;tosanitaarsertifikaadi sisu- ja vormin&otilde;uded ning nimetatud dokumentide v&auml;ljastamise , asendamise ja s&auml;ilitamise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Taimepassi v&auml;ljastamise keeld</s>
+</p>
+<p>
+<s>( 1 ) Ohtliku taimekahjustaja leviku tuvastamise korral v&otilde;ib keelata taimepassi v&auml;ljastamise neile taimedele , taimsetele saadustele v&otilde;i muudele objektidele , mille kaudu ohtlik taimekahjustaja levib , ja v&auml;ljastatud taimepassi kasutamise .</s><s>Asjakohase otsuse teeb j&auml;relevalveametnik ja teatab sellest kohe taimepassi v&otilde;i taimepasside v&auml;ljastamise &otilde;iguse saanud isikule kirjalikult .</s>
+</p>
+<p>
+<s>( 2 ) Kui taimepassi v&auml;ljastamise ja kasutamise keelamise p&otilde;hjused on kadunud , teeb j&auml;relevalveametnik otsuse taimepassi kasutamise lubamise kohta ja teatab sellest kohe isikule kirjalikult .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Taimepassi ja f&uuml;tosanitaarsertifikaadi asendamine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalveametnik asendab taimepassi v&otilde;i f&uuml;tosanitaarsertifikaadi uuega n&otilde;uetekohase kaubasaadetise osadeks jaotamise v&otilde;i &uuml;hendamise korral , samuti juhul , kui kaubasaadetise seisund on muutunud .</s><s>Nimetatud dokumendid v&otilde;ib asendada , kui ohtliku taimekahjustaja leviku ohtu ei ole .</s>
+</p>
+<p>
+<s>( 2 ) Taimepassi ja f&uuml;tosanitaarsertifikaati ei asendata , kui taim , taimne saadus v&otilde;i muu objekt on saastunud v&otilde;i saastumiskahtlane .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Taimepassi ja f&uuml;tosanitaarsertifikaadi s&auml;ilitamine</s>
+</p>
+<p>
+<s>Taime , taimse saaduse v&otilde;i muu objekti n&otilde;uetekohasust t&otilde;endavat taimepassi v&otilde;i f&uuml;tosanitaarsertifikaati s&auml;ilitatakse &uuml;ks aasta .</s>
+</p>
+<p>
+<s>5. jagu</s>
+</p>
+<p>
+<s>Taimetervise register</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Taimetervise register</s>
+</p>
+<p>
+<s>( 1 ) Taimetervise register on riiklik register , mille vastutav t&ouml;&ouml;tleja on P&otilde;llumajandusministeerium ja volitatud t&ouml;&ouml;tleja Taimetoodangu Inspektsioon .</s>
+</p>
+<p>
+<s>( 2 ) Taimetervise registri asutab ja selle pidamise p&otilde;him&auml;&auml;ruse kehtestab Vabariigi Valitsus p&otilde;llumajandusministri ettepanekul .</s>
+</p>
+<p>
+<s>( 3 ) Taimetervise registri andmed on ristkasutuses teistes andmekogudes , mille vastutavaks t&ouml;&ouml;tlejaks on P&otilde;llumajandusministeerium , s&auml;ilitatavate andmetega .</s><s>Andmete ristkasutuse teise ministeeriumi valitsemisalas olevas andmekogus s&auml;ilitatavate andmetega v&otilde;ib kehtestada Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Andmete kandmine taimetervise registrisse</s>
+</p>
+<p>
+<s>( 1 ) Taimetoodangu Inspektsioon kannab andmed taimetervise registrisse isiku taotluse alusel .</s><s>Taotlusele lisatakse dokumendid , mis kajastavad registrisse kantavaid andmeid .</s>
+</p>
+<p>
+<s>( 2 ) Kui andmed on juba k&auml;esoleva seaduse &sect; 46 l&otilde;ikes 3 nimetatud andmekogus , ei pea isik neid taimetervise registrisse kandmiseks taasesitama , vaid v&otilde;ib neile viidata .</s><s>Sellisel juhul kannab Taimetoodangu Inspektsioon taimetervise registrisse teisest andmekogust saadud andmed .</s>
+</p>
+<p>
+<s>( 3 ) Taimetervise registrisse kantakse :</s>
+</p>
+<p>
+<s>1 ) toodetava , esmat&ouml;&ouml;deldava , sisseveetava , ladustatava , pakendatava v&otilde;i turustatava taime botaanilise taksoni nimetus ladina ja eesti keeles ning taimse saaduse v&otilde;i muu objekti nimetus .</s><s>Taime , taimse saaduse v&otilde;i muu objekti nimetus peab olema sidestatud kannet taotleva isiku nimega ;</s>
+</p>
+<p>
+<s>2 ) taime , taimse saaduse v&otilde;i muu objekti tootja , esmat&ouml;&ouml;tleja , ladustaja , pakendaja , sissevedaja , turustaja ja vajaduse korral isiku esindaja nimi , asukoht , tema sidevahendite numbrid , &auml;riregistri kood , tegevusala , taotluse esitamise kuup&auml;ev ja registrikande number .</s><s>Sissevedaja puhul kantakse registrisse ka taime , taimse saaduse v&otilde;i muu objekti p&auml;ritoluriik ning sealse tootja nimi ja asukoht ;</s>
+</p>
+<p>
+<s>3 ) toodetava , esmat&ouml;&ouml;deldava , sisseveetava , ladustatava , pakendatava v&otilde;i turustatava taime , taimse saaduse v&otilde;i muu objekti kavandatav kogus kalendriaasta kohta ;</s>
+</p>
+<p>
+<s>4 ) tootmis- , esmat&ouml;&ouml;tlemis- , ladustamis- , pakendamis- ja turustamistingimuste kirjeldus ;</s>
+</p>
+<p>
+<s>5 ) j&auml;relevalve teostamise aeg ja j&auml;relevalve tulemused .</s>
+</p>
+<p>
+<s>( 4 ) Andmed kantakse taimetervise registrisse m&auml;&auml;ramata ajaks ning isiku taotlusel v&auml;ljastab Taimetoodangu Inspektsioon sellekohase registreerimistunnistuse .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Registreerimiskohustuse ulatus</s>
+</p>
+<p>
+<s>( 1 ) Tooted , mille tootmise , esmat&ouml;&ouml;tlemise , sisseveo , ladustamise , pakendamise v&otilde;i turustamisega tegeleva isiku andmed peavad olema kantud taimetervise registrisse , on :</s>
+</p>
+<p>
+<s>1 ) potililled ;</s>
+</p>
+<p>
+<s>2 ) l&otilde;ikelilled ja l&otilde;ikeroheline ;</s>
+</p>
+<p>
+<s>3 ) lillesibulad , mugulsibulad ja muud varreteisendid ;</s>
+</p>
+<p>
+<s>4 ) viljapuude , k&ouml;&ouml;giviljade , marja- ja dekoratiivkultuuride istutus- ning paljundusmaterjal ;</s>
+</p>
+<p>
+<s>5 ) seemnekartul ;</s>
+</p>
+<p>
+<s>6 ) tarbekartul ;</s>
+</p>
+<p>
+<s>7 ) s&ouml;&ouml;dapeet ja suhkrupeet , mida kasutatakse s&ouml;&ouml;daks v&otilde;i t&ouml;&ouml;tlemiseks ;</s>
+</p>
+<p>
+<s>8 ) tsitrusviljad ;</s>
+</p>
+<p>
+<s>9 ) toorpuit ja puukoor ;</s>
+</p>
+<p>
+<s>10 ) muld ja kasvusubstraat .</s>
+</p>
+<p>
+<s>( 2 ) Registreerimiskohustus laieneb ka isikule , kes tegeleb k&auml;esoleva seaduse &sect; 24 l&otilde;ikes 2 nimetatud loetelusse kuuluva taime , taimse saaduse v&otilde;i muu objekti sisseveoga .</s>
+</p>
+<p>
+<s>( 3 ) Registreerimiskohustust ei ole isikul , kes :</s>
+</p>
+<p>
+<s>1 ) turustab omatoodetud taimi , taimseid saadusi , mulda v&otilde;i kasvusubstraati ainult taimetervise registrisse kantud isikule , sama piirkonna turustajale v&otilde;i tarbijale siseturul v&otilde;i kasutab neid ise ;</s>
+</p>
+<p>
+<s>2 ) toob taimi , taimseid saadusi ja muid objekte sisse isiklikuks tarbimiseks ;</s>
+</p>
+<p>
+<s>3 ) turustab registrisse kantud isikult v&otilde;i sama piirkonna tootjalt saadud taimi , taimseid saadusi , mulda v&otilde;i kasvusubstraati tarbijatele siseturul jaem&uuml;&uuml;gi korras ;</s>
+</p>
+<p>
+<s>4 ) turustab talle kuuluvast metsast p&auml;rit toorpuitu Eestis asuvale kokkuostjale v&otilde;i tarbijale .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Taimetervise registrisse kantud isiku kohustused</s>
+</p>
+<p>
+<s>Taimetervise registrisse kantud isik on kohustatud :</s>
+</p>
+<p>
+<s>1 ) pidama maakasutuskava tema kasutuses olevate maat&uuml;kkide kohta ;</s>
+</p>
+<p>
+<s>2 ) pidama arvestust toodetud , esmat&ouml;&ouml;deldud , ladustatud , pakendatud , sisse- ja v&auml;ljaveetud ning turustatud toodete &uuml;le , s&auml;ilitades nende saatedokumente ja taimetervise n&otilde;uetekohasust kinnitavaid dokumente v&auml;hemalt &uuml;he aasta ;</s>
+</p>
+<p>
+<s>3 ) pidama arvestust ostetud , kasvatatud ja turustatud taimede ja taimsete saaduste &uuml;le , s&auml;ilitades nende saatedokumente ja taimetervise n&otilde;uetekohasust kinnitavaid dokumente v&auml;hemalt &uuml;he aasta ;</s>
+</p>
+<p>
+<s>4 ) viima l&auml;bi k&auml;esoleva seaduse alusel etten&auml;htud vaatlusi ;</s>
+</p>
+<p>
+<s>5 ) v&otilde;imaldama j&auml;relevalveametniku juurdep&auml;&auml;su kontrollitavale objektile ;</s>
+</p>
+<p>
+<s>6 ) tegema j&auml;relevalveasutusega koost&ouml;&ouml;d taimetervise hindamisel .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Registrikande tegemisest keeldumine ja registris kajastatavad piirangud</s>
+</p>
+<p>
+<s>( 1 ) Taimetoodangu Inspektsioon keeldub registrikande tegemisest , kui kande taotleja :</s>
+</p>
+<p>
+<s>1 ) ei ole esitanud n&otilde;utud dokumente v&otilde;i on esitanud valeandmeid ;</s>
+</p>
+<p>
+<s>2 ) tootmis- , esmat&ouml;&ouml;tlemis- ladustamis- , pakendamis- v&otilde;i turustamistingimused ei v&otilde;imalda t&auml;ita taimetervisen&otilde;udeid ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva seaduse &sect; 48 l&otilde;ike 1 punktides 1-10 nimetatud taimed , taimsed saadused v&otilde;i muud objektid ei vasta taimetervise n&otilde;uetele ;</s>
+</p>
+<p>
+<s>4 ) ei ole tasunud riigil&otilde;ivu .</s>
+</p>
+<p>
+<s>( 2 ) Registreerimisest keeldumise p&otilde;hjendatud otsus tehakse kirjalikult ja edastatakse kohe kande taotlejale .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1-3 nimetatud juhul on j&auml;relevalveametnik teinud ettekirjutuse isiku tegevuse piiramise , sealhulgas peatamise kohta , kajastatakse see registris .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Registrikande muutmine ja kande kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Registrikannet muudetakse v&otilde;i kanne tunnistatakse kehtetuks taotleja soovil , kui kande andmed on muutunud v&otilde;i kui taotleja l&otilde;petab taimede , taimsete saaduste v&otilde;i muude objektide tootmise , esmat&ouml;&ouml;tlemise , sisseveo , ladustamise , pakendamise v&otilde;i turustamise .</s>
+</p>
+<p>
+<s>( 2 ) Taimetervise registrisse kantud isik vastutab tema poolt esitatud andmete &otilde;igsuse eest ja nende muutumise korral peab kohe taotlema muudatuste tegemist registris .</s>
+</p>
+<p>
+<s>( 3 ) Eba&otilde;igete andmete avastamise korral teeb Taimetoodangu Inspektsioon registrisse kantud isikule ettekirjutuse .</s><s>Kui isik ettekirjutuse saamisest arvates viie t&ouml;&ouml;p&auml;eva jooksul ei ole taotlenud registrikande muutmist v&otilde;i kehtetuks tunnistamist v&otilde;i kui ta ei ole ettekirjutust vaidlustanud , v&otilde;ib Taimetoodangu Inspektsioon teadaolevate andmete alusel registrikande muuta v&otilde;i kehtetuks tunnistada .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Registreeritud andmete kaitse</s>
+</p>
+<p>
+<s>Registrisse kantud andmed , v&auml;lja arvatud andmed , mis isiku taotluses p&otilde;hjendatult &auml;risaladuseks nimetati , on avalikud .</s><s>Nende andmete k&auml;ttesaadavus on piiratud , neid v&otilde;ivad kasutada vaid Taimetoodangu Inspektsiooni ja Metsakaitse- ja Metsauuenduskeskuse j&auml;relevalveametnikud ning teised selleks volitatud ametnikud .</s><s>Isik v&otilde;ib igal ajal taotleda &auml;risaladust sisaldavate andmete avalikustamist .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Taimekaitsevahendid ja -seadmed</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Taimekaitsevahendite ja -seadmete kohta kehtivad n&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Taimekaitsevahendite kohta kehtivad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahend peab olema sobiv Eestis kasutamiseks .</s><s>Vahend ei tohi n&otilde;uetekohase kasutamise korral olla ohtlik inimesele ega keskkonnale ning ta peab olema k&auml;esolevas seaduses ja teistes &otilde;igusaktides s&auml;testatud n&otilde;uete kohane .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendi omadused peavad v&otilde;imaldama selle kasutamist etten&auml;htud eesm&auml;rgil ja viisil ning see peab t&otilde;husalt m&otilde;juma taimekahjustajale .</s>
+</p>
+<p>
+<s>( 3 ) Taimekaitsevahend ei tohi p&otilde;hjustada piina t&otilde;rjutavatel selgroogsetel loomadel , m&otilde;juda kahjulikult mittet&otilde;rjutavatele taimedele ja loomadele , samuti inimeste tervisele ega &uuml;mbritsevale keskkonnale .</s>
+</p>
+<p>
+<s>( 4 ) Importida , turustada ja kasutada on lubatud vaid taimekaitsevahendite registrisse kantud taimekaitsevahendit , v&auml;lja arvatud k&auml;esoleva seaduse &sect;-s 55 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esolevas peat&uuml;kis s&auml;testatud n&otilde;udeid ei kohaldata olmekahjurite t&otilde;rjeks kasutatavatele vahenditele ja biotsiididele ega taimekaitsevahendite transiidi ja ekspordi korral .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Taimekaitsevahendi toimeained</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendis sisalduvad toimeained peavad olema tootja deklareeritud kvaliteediga .</s><s>Taimekaitsevahend ei tohi sisaldada keelatud toimeaineid .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendi toimeainete omadusi ja hulka ning vahendi abiaineid ja vahendi kasutamisel tekkinud j&auml;&auml;ke peab olema v&otilde;imalik m&auml;&auml;rata rahvusvaheliselt tunnustatud meetoditega .</s>
+</p>
+<p>
+<s>( 3 ) Taimekaitsevahendites keelatud toimeainete nimekiri kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Registreerimata taimekaitsevahend</s>
+</p>
+<p>
+<s>( 1 ) Registreerimata taimekaitsevahendit v&otilde;ib importida ja kasutada :</s>
+</p>
+<p>
+<s>1 ) Taimetoodangu Inspektsiooni loal teadus- ja arendusasutustes ;</s>
+</p>
+<p>
+<s>2 ) Taimetoodangu Inspektsiooni loal ja j&auml;relevalveametniku juhendamisel ohtliku taimekahjustaja t&otilde;rjeks .</s>
+</p>
+<p>
+<s>( 2 ) Registreerimata taimekaitsevahendi importimiseks ning kasutamiseks uurimist&ouml;&ouml; eesm&auml;rgil p&otilde;ldkatsetes kuni &uuml;he hektari suurusel maat&uuml;kil annab teadus- ja arendusasutusele loa Taimetoodangu Inspektsioon .</s>
+</p>
+<p>
+<s>( 3 ) Taimetoodangu Inspektsioon annab registreerimata taimekaitsevahendi importimise ja kasutamise loa , kui ohtlikku taimekahjustajat ei ole v&otilde;imalik registreeritud taimekaitsevahendiga t&otilde;rjuda v&otilde;i kui t&otilde;rje ei ole t&otilde;hus .</s><s>Luba antakse kuni 120 p&auml;evaks .</s>
+</p>
+<p>
+<s>( 4 ) Registreerimata taimekaitsevahendi importimise ja kasutamise luba ei anta , kui vahend sisaldab keelatud toimeaineid .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Taimekaitsevahendite liigitamine</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendid liigitatakse , l&auml;htudes nende m&otilde;just p&uuml;sisoojastele organismidele .</s><s>Taimekaitsevahendid liigituvad v&auml;ga m&uuml;rgisteks , m&uuml;rgisteks ja v&auml;hem&uuml;rgisteks .</s>
+</p>
+<p>
+<s>( 2 ) Turustamisviisi j&auml;rgi on taimekaitsevahendid taimekaitsetunnistuse alusel ja vabalt turustatavad .</s>
+</p>
+<p>
+<s>( 3 ) Taimekaitsevahendite klassifitseerimise kord ja meetodid kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Taimekaitsevahendi pakend</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi pakend peab vastama pakendiseaduse ( RT I 1995 , 47 , 739 ; 1997 , 53 , 836 ) ja k&auml;esoleva seaduse n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Pakend peab tagama taimekaitsevahendi omaduste s&auml;ilimise , vahendi ohutuse inimese tervisele ja keskkonnale ning olema n&otilde;uetekohaselt m&auml;rgistatud .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Taimekaitsevahendi pakendi m&auml;rgistus</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi pakendi m&auml;rgistus peab andma taimekaitsevahendi ostjale piisavat teavet taimekaitsevahendi ohtlikkuse , muude omaduste , vahendi s&auml;ilitamise aja ja n&otilde;uete ning kasutamisviiside kohta .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendi pakendile ja m&auml;rgistusele ( etiketile ) esitatavad n&otilde;uded kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Taimekaitsetunnistus</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsetunnistus t&otilde;endab , et isik on l&auml;binud taimekaitsekoolituse ning v&otilde;ib turustada , osta ja kasutada k&otilde;iki taimekaitsevahendeid .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsekoolituse programmid ning taimekaitsetunnistuse saamise n&otilde;uded ja tunnistuse andmise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Taimekaitsevahendi turustamine</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi turustaja peab ostja soovil andma talle &uuml;ksikasjalikku teavet taimekaitsevahendi kohta .</s><s>Taimekaitsevahendit on keelatud turustada :</s>
+</p>
+<p>
+<s>1 ) iseteenindamise ja postim&uuml;&uuml;gi korras ;</s>
+</p>
+<p>
+<s>2 ) ilmses joobes isikule ;</s>
+</p>
+<p>
+<s>3 ) alaealisele .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsetunnistuse alusel turustatava taimekaitsevahendi ostjal peab olema taimekaitsetunnistus .</s><s>Selliseid taimekaitsevahendeid turustades tuleb pidada turustatud taimekaitsevahendite arvestust .</s><s>Taimekaitsetunnistuse alusel turustatavate taimekaitsevahendite m&uuml;&uuml;gi arvestuse pidamise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Taimekaitsevahendi turustamise n&otilde;uded kehtivad ka vahendi muul viisil tasu eest v&otilde;i tasuta &uuml;leandmise korral .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Taimekaitsevahendi hoiu- ja turustuskoht</s>
+</p>
+<p>
+<s>( 1 ) Ruum , kus hoitakse ja turustatakse taimekaitsevahendeid , peab vastama tervisekaitse- , keskkonna- ja tuleohutusn&otilde;uetele .</s><s>Turustatavaid taimekaitsevahendeid hoitakse ja turustatakse toidutoormest , toidust , ravimitest ja s&ouml;&ouml;tadest eraldi , v&auml;ltides toidutoorme , toidu , ravimite ja s&ouml;&ouml;tade saastumist taimekaitsevahendiga .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendite hoiu- ja turustamiskohas ei tohi olla taimekaitsevahendi avatud pakendeid .</s><s>Taimekaitsevahend , mille pakend on purunenud , tuleb viivitamatult turustamiselt k&otilde;rvaldada ning esimesel v&otilde;imalusel tagastada tarnijale , kes on kohustatud selle tagasi v&otilde;tma ning n&otilde;uetekohaselt k&auml;itlema .</s><s>Kui tarnijale tagastamine ja ohutu k&auml;itlemine ei ole v&otilde;imalik , tuleb taimekaitsevahend kahjutustada kemikaaliseaduses ( RT I 1998 , 47 , 697 ; 1999 , 45 , 512 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Taimekaitsevahendi turustaja peab enne turustamist tegema turustamiskoha teatavaks Taimetoodangu Inspektsioonile .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>T&auml;htaja &uuml;letanud taimekaitsevahendi turustamine</s>
+</p>
+<p>
+<s>( 1 ) N&otilde;uetekohaseid taimekaitsevahendeid , mis registreerimist&auml;htaja m&ouml;&ouml;dumise ajaks on j&auml;&auml;nud turustamata , v&otilde;ib Taimetoodangu Inspektsiooni teadmisel turustada kuni varude l&otilde;ppemiseni , kuid mitte kauem kui registreerimist&auml;htaja l&otilde;ppemisele j&auml;rgneva aasta l&otilde;puni .</s>
+</p>
+<p>
+<s>( 2 ) S&auml;ilivust&auml;htaja &uuml;letanud , kuid n&otilde;uetekohase taimekaitsevahendi turustamist v&otilde;ib j&auml;tkata &uuml;he aasta jooksul .</s><s>Taimekaitsevahendi pakendile tuleb teha sellekohane m&auml;rge .</s>
+</p>
+<p>
+<s>( 3 ) S&auml;ilivust&auml;htaja &uuml;letanud taimekaitsevahendi n&otilde;uetekohasus tuleb t&otilde;endada k&auml;esoleva seaduse &sect; 90 l&otilde;ikes 2 nimetatud laboratooriumi uuringuga , mille tulemus peab olema ostjale turustamiskohas k&auml;ttesaadav .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Taimekaitsevahendi kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendit tohib kasutada ainult m&auml;rgistusel nimetatud otstarbel , viisil ja kulunormide piires , pidades kinni t&ouml;&ouml;tlemiskordade arvust ja vahendi kasutamise j&auml;rgsetest ooteaegadest .</s>
+</p>
+<p>
+<s>( 2 ) Linnas ja muus asulas , samuti mujal elamute vahetus l&auml;heduses on keelatud kasutada taimekaitsetunnistuse alusel turustatavat taimekaitsevahendit .</s><s>Erandina v&otilde;ib niisugust taimekaitsevahendit kasutada aedades ning haljasaladel muttide ja m&uuml;gride t&otilde;rjeks , kui t&otilde;rje muu taimekaitsevahendiga ei ole tulemuslik ja t&otilde;rjet viib l&auml;bi taimekaitsetunnistusega isik .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on taimekahjustajate t&otilde;rje lennukilt .</s>
+</p>
+<p>
+<s>( 4 ) Taimekaitsevahendi kasutajal tuleb pidada kasutatud taimekaitsevahendite arvestust .</s><s>Taimekaitsetunnistuse alusel turustatavat taimekaitsevahendit v&otilde;ib kasutada vaid isik , kellel on taimekaitsetunnistus .</s>
+</p>
+<p>
+<s>( 5 ) Taimekaitsevahendite ohutu kasutamise eeskiri kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Taimekaitseseadme kohta kehtivad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitseseade ja selle kasutusviis peavad olema ohutud inimese tervisele ja keskkonnale ning vastama k&auml;esolevas seaduses ja teistes &otilde;igusaktides s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitseseadme kasutusviis ei tohi p&otilde;hjustada taimekaitsevahendi kahjulikku m&otilde;ju mittet&otilde;rjutavatele taimedele ja loomadele ning ohtu inimese tervisele ja keskkonnale .</s>
+</p>
+<p>
+<s>( 3 ) Ohutusn&otilde;uded taimekaitseseadmete kasutamisel , hoidmisel ja puhastamisel kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 4 ) Taimekaitseseadme n&otilde;uetekohasust t&otilde;endatakse taimekaitseseadme vastavusdeklaratsiooniga v&otilde;i katsete tulemusena antud vastavussertifikaadiga .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Taimekaitseseadme vastavusdeklaratsioon</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitseseadme vastavusdeklaratsiooni esitab tootja v&otilde;i importija .</s><s>Deklaratsioon peab sisaldama selle esitaja nime ja aadressi ning taimekaitseseadme t&uuml;&uuml;bi ja kasutusala kirjelduse .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitseseadme vastavusdeklaratsioonile tuleb lisada eestikeelne kasutusjuhend ja seadme t&uuml;&uuml;bi kirjeldus ning teised seadet iseloomustavad dokumendid .</s>
+</p>
+<p>
+<s>( 3 ) Kui seadme t&uuml;&uuml;p muutub ja see m&otilde;jutab taimekaitsevahendi kasutamist , tuleb taimekaitseseadme vastavusdeklaratsioon uuendada .</s>
+</p>
+<p>
+<s>( 4 ) Taimekaitseseadme vastavusdeklaratsiooni ei pea esitama k&auml;si- ja selgpritsi kohta ega juhul , kui seadet kasutatakse uuringus , katses v&otilde;i n&auml;idisena .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Taimekaitseseadme tootmine , importimine ja turustamine ning tootmise , importimise ja turustamise keelamine</s>
+</p>
+<p>
+<s>( 1 ) Toota , importida ja turustada v&otilde;ib taimekaitseseadet , mille n&otilde;uetekohasus on t&otilde;endatud vastavusdeklaratsiooni v&otilde;i vastavussertifikaadiga .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitseseadme tootja , importija ja turustaja on kohustatud oma tegevusest kirjalikult teatama Taimetoodangu Inspektsioonile .</s>
+</p>
+<p>
+<s>( 3 ) Kui j&auml;relevalveametnik avastab , et taimekaitseseade ei ole n&otilde;uetekohane , v&otilde;ib ta seadme tootmise , importimise v&otilde;i turustamise keelata , kuni isik esitab taimekaitseseadme n&otilde;uetekohasust t&otilde;endava vastavussertifikaadi .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Taimekaitseseadme katsetamine ja vastavussertifikaat</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 66 l&otilde;ikes 3 nimetatud juhul v&otilde;ib j&auml;relevalveametnik saata taimekaitseseadme selle n&otilde;uetekohasuse hindamiseks ja t&otilde;endamiseks katsetamisele .</s>
+</p>
+<p>
+<s>( 2 ) Katsetamisele saatmiseks peab olema taimekaitseseadme omaniku n&otilde;usolek .</s><s>Katsetamise kulud tasub katsetatava seadme omanik .</s>
+</p>
+<p>
+<s>( 3 ) Katsetamisel n&otilde;uetekohaseks osutunud taimekaitseseadme kohta v&auml;ljastatakse vastavussertifikaat .</s><s>Eestis tunnustatakse v&auml;lisriigis v&auml;ljastatud vastavussertifikaate .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Taimekaitseseadme &uuml;levaatus</s>
+</p>
+<p>
+<s>( 1 ) Kasutuses olev taimekaitseseade , v&auml;lja arvatud taimekaitseseade , mille kohta vastavalt k&auml;esoleva seaduse &sect; 65 l&otilde;ikele 4 vastavusdeklaratsiooni ei esitata , peab l&auml;bima &uuml;levaatuse iga kolme aasta j&auml;rel .</s><s>&Uuml;levaatusel kontrollitakse taimekaitseseadme tehnilise seisundi n&otilde;uetekohasust .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitseseade , mis ei ole &uuml;levaatust l&auml;binud , loetakse mitten&otilde;uetekohaseks .</s><s>&Uuml;levaatusel mitten&otilde;uetekohaseks osutunud taimekaitseseadet on keelatud kasutada .</s>
+</p>
+<p>
+<s>( 3 ) Taimekaitseseadme katsetamise , &uuml;levaatuse ja tehnilise kontrolli kord kehtestatakse ning katsetamist , &uuml;levaatust ja tehnilist kontrolli korraldavad asutused m&auml;&auml;ratakse p&otilde;llumajandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Taimekaitsevahendite register</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Taimekaitsevahendite register</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendite register on riiklik register , mille vastutav t&ouml;&ouml;tleja on P&otilde;llumajandusministeerium ja volitatud t&ouml;&ouml;tleja Taimetoodangu Inspektsioon .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendite registri asutab ja selle pidamise p&otilde;him&auml;&auml;ruse kehtestab Vabariigi Valitsus p&otilde;llumajandusministri ettepanekul .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Taimekaitsevahendi registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi tootja v&otilde;i tema volitatud isik ( edaspidi taotleja ) on kohustatud esitama imporditava v&otilde;i turustatava taimekaitsevahendi registreerimiseks taotluse .</s><s>Taotlusele lisatakse taimekaitsevahendi n&auml;idis ja taimekaitsevahendi toimeaine anal&uuml;&uuml;sistandardid .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;uetekohase taimekaitsevahendi registreerib Taimetoodangu Inspektsioon taimekaitsevahendite registris &uuml;he kuu jooksul p&auml;rast taotluse ja registreeritavaid andmeid sisaldavate dokumentide saamist .</s><s>Taimekaitsevahendi n&otilde;uetekohasuse tuvastamiseks v&otilde;ib korraldada taimekaitsevahendi katse .</s>
+</p>
+<p>
+<s>( 3 ) Registreerimistaotluse ning selle lisade sisu- ja vormin&otilde;uded , registrisse kandmise kord ning esitatud andmete hindamise p&otilde;him&otilde;tted kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Registreeritavad andmed</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendite registrisse kantakse taimekaitsevahendi ja selle abiaine ning taimekosutusvahendi ja nende tootjate , importijate ning turustajate kohta j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) taimekaitsevahendi nimetus ja t&uuml;&uuml;p , pakendi t&uuml;&uuml;p ja suurus ning selle m&auml;rgistus , vahendi koostis ning keemilised , f&uuml;&uuml;sikalised , toksikoloogilised ja &ouml;kotoksikoloogilised omadused , preparatiivne vorm , kasutamise aeg ja viis , kulunormid , pritsimiskordade arv , kasutamisj&auml;rgsed ooteajad ning katsete tulemused ;</s>
+</p>
+<p>
+<s>2 ) taimekaitsevahendi tootja , importija ja turustaja nimi , asukoht , sidevahendite numbrid ning &auml;riregistri kood ;</s>
+</p>
+<p>
+<s>3 ) imporditud ja Eestis turustatud taimekaitsevahendite nimistu ning kogused .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendi registreerimist taotlev tootja v&otilde;ib nimetada tema volitatavad importijad ja turustajad , kelle andmed kantakse registrisse tootja taotluse alusel .</s><s>Taimetoodangu Inspektsioon teatab sellest isikutele , kes tootja taotluse alusel registrisse kanti .</s>
+</p>
+<p>
+<s>( 3 ) Registreeritud taimekaitsevahendi importija on kohustatud esitama registrisse kandmise taotluse ning enda ja tema volitatud turustajate kohta j&auml;rgmised andmed : nimi , asukoht , sidevahendite numbrid ja &auml;riregistri kood .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 3 nimetatud andmed aasta kohta tuleb registrisse kantud importijatel ja turustajatel esitada j&auml;rgmise aasta jaanuarikuu jooksul .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Registriandmete kasutamine teise taimekaitsevahendi registreerimisel</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi registrisse kandmist taotledes v&otilde;ib kasutada selles taimekaitsevahendis sisalduva toimeainega samasuguse toimeaine kohta tehtud uuringute ja katsete registrisse kantud andmeid .</s><s>Toimeainete samasuse t&otilde;endab taotleja .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud andmete kasutamiseks peab olema selle isiku n&otilde;usolek , kelle taotlusel on toimeaine taimekaitsevahendite registrisse kantud .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Taimekaitsevahendi registreerimise tunnistus ja t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Taotleja soovil antakse talle taimekaitsevahendi registreerimise tunnistus .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahend registreeritakse k&uuml;mneks aastaks .</s><s>Kui t&auml;htaeg on m&ouml;&ouml;dunud , v&otilde;ib selle taotleja soovil uuendada .</s><s>Uus t&auml;htaeg m&auml;&auml;ratakse taimekaitsevahendi registreerimisega samas korras .</s><s>T&auml;htaja uuendamise taotlus esitatakse v&auml;hemalt kaks aastat enne registreerimist&auml;htaja l&otilde;ppemist .</s><s>T&auml;htaja uuendamise korral ei pea andmeid esitama , kui registrikanded ei ole muutunud .</s>
+</p>
+<p>
+<s>( 3 ) Kui taotleja ei soovi t&auml;htaega uuendada , kustutab Taimetoodangu Inspektsioon taimekaitsevahendi p&auml;rast registreerimist&auml;htaja m&ouml;&ouml;dumist registrist .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Registreerimisest keeldumine ja registrist kustutamine</s>
+</p>
+<p>
+<s>( 1 ) Taimetoodangu Inspektsioon keeldub taimekaitsevahendi registreerimisest , kui :</s>
+</p>
+<p>
+<s>1 ) taotleja ei ole esitanud taimekaitsevahendi n&auml;idist , toimeaine anal&uuml;&uuml;sistandardeid v&otilde;i muid n&otilde;utud dokumente v&otilde;i on esitanud valeandmeid ;</s>
+</p>
+<p>
+<s>2 ) taimekaitsevahend ei ole n&otilde;uetekohane ;</s>
+</p>
+<p>
+<s>3 ) registrisse on kantud sama t&otilde;hus taimekaitsevahend , mis on inimese tervisele ja keskkonnale ohutum ;</s>
+</p>
+<p>
+<s>4 ) taotleja ei ole tasunud riigil&otilde;ivu .</s>
+</p>
+<p>
+<s>( 2 ) Kui taotleja ei ole ettekirjutustele vaatamata k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1-2 nimetatud juhul t&otilde;eseid andmeid esitanud v&otilde;i korduvalt taimekaitsevahendi n&otilde;uetekohasust taganud , v&otilde;ib Taimetoodangu Inspektsioon teha otsuse taimekaitsevahendi registrist kustutamise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Registreerimisest keeldumise v&otilde;i registrist kustutamise p&otilde;hjendatud kirjalik otsus edastatakse kohe asjaomasele isikule .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Registrikande muutmine ja kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Registrikanne muudetakse v&otilde;i tunnistatakse kehtetuks taotleja soovil .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendite registrisse kantud isik vastutab tema esitatud andmete &otilde;igsuse eest .</s><s>Andmete muutumise korral peab ta kohe taotlema registris muudatuste tegemist .</s>
+</p>
+<p>
+<s>( 3 ) Eba&otilde;igete andmete avastamise korral teeb Taimetoodangu Inspektsioon registrisse kantud isikule ettekirjutuse .</s><s>Kui isik ei ole ettekirjutuse saamisest arvates k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul taotlenud registrikande muutmist v&otilde;i kehtetuks tunnistamist v&otilde;i kui ta ei ole ettekirjutust vaidlustanud , v&otilde;ib Taimetoodangu Inspektsioon teadaolevate andmete alusel kande muuta v&otilde;i kehtetuks tunnistada .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>N&otilde;uete muutmine</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi kohta kehtivate n&otilde;uete muutmise korral on Taimetoodangu Inspektsioonil &otilde;igus n&otilde;uda registrisse kantud isikult taimekaitsevahendi kohta lisaandmete esitamist v&otilde;i taimekaitsevahendi katse korraldamist .</s>
+</p>
+<p>
+<s>( 2 ) Registreeritud taimekaitsevahendi kohta v&otilde;ib n&otilde;uda lisaandmete esitamist , kui muutunud n&otilde;uete kohaselt tuleb taimekaitsevahendi registreerimiseks esitada teistsuguseid andmeid v&otilde;i senisest rohkem andmeid .</s>
+</p>
+<p>
+<s>( 3 ) Registreeritud taimekaitsevahendi katse korraldamist v&otilde;ib n&otilde;uda , kui muutunud n&otilde;uete j&auml;rgi tuleb taimekaitsevahendi n&otilde;uetekohasust tuvastades arvestada teistsuguseid asjaolusid v&otilde;i senisest rohkem asjaolusid .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Registreeritud andmete kaitse</s>
+</p>
+<p>
+<s>( 1 ) Registrisse kantud andmed , v&auml;lja arvatud andmed , mis isiku taotluses p&otilde;hjendatult &auml;risaladusena nimetati , on avalikud .</s><s>Isik v&otilde;ib igal ajal taotleda &auml;risaladust sisaldavate andmete avalikustamist .</s>
+</p>
+<p>
+<s>( 2 ) &Auml;risaladuseks ei saa olla j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) taimekaitsevahendi nimetus ning vahendi toimeaine nimetus ja sisaldus taimekaitsevahendis ning taimekaitsevahendis sisalduva ohtliku aine nimetus klassifikatsiooni alusel ;</s>
+</p>
+<p>
+<s>2 ) taimekaitsevahendi toimeaine f&uuml;&uuml;sikalis-keemiliste omaduste kirjeldus ;</s>
+</p>
+<p>
+<s>3 ) taimekaitsevahendi ohutu kasutamise meetodid ;</s>
+</p>
+<p>
+<s>4 ) taimekaitsevahendi ja selle toimeaine t&otilde;husus ning ohutuse tuvastamiseks korraldatud katse tulemuste kokkuv&otilde;te ;</s>
+</p>
+<p>
+<s>5 ) taimekaitsevahendi pakkimisel , ladustamisel , transportimisel ja turustamisel rakendatavad ohutusabin&otilde;ud ;</s>
+</p>
+<p>
+<s>6 ) anal&uuml;&uuml;simeetodid ;</s>
+</p>
+<p>
+<s>7 ) taimekaitsevahendi p&otilde;hjustatud reostuse k&otilde;rvaldamise meetodid ;</s>
+</p>
+<p>
+<s>8 ) m&uuml;rgituse korral antava esmaabi ja ravi meetodid .</s>
+</p>
+<p>
+<s>( 3 ) &Auml;risaladuseks nimetatud andmete k&auml;ttesaadavus on piiratud , neid v&otilde;ivad kasutada vaid taimekaitse- , tervisekaitse- ja keskkonnaj&auml;relevalve ametnikud ning teised selleks volitatud ametnikud .</s>
+</p>
+<p>
+<s>( 4 ) Taimetoodangu Inspektsioon koostab ja avaldab kord aastas &uuml;levaate registrisse kantud taimekaitsevahendite ning nende kasutamistingimuste kohta , koosk&otilde;lastades Metsakaitse- ja Metsauuenduskeskusega metsanduses kasutatavate taimekaitsevahendite osa .</s>
+</p>
+<p>
+<s>( 5 ) Taimetoodangu Inspektsioon teatab Tervisekaitseinspektsioonile uute taimekaitsevahendite ja nende toimeainete registreerimisest ning annab andmeid toimeainete sisalduse ja anal&uuml;&uuml;sistandardite ning teiste avalike registriandmete kohta .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Taimekaitsevahendi katse</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Taimekaitsevahendi katse</s>
+</p>
+<p>
+<s>Taimekaitsevahendi katse korraldatakse taimekaitsevahendi n&otilde;uetekohasuse tuvastamiseks enne vahendi registreerimist .</s><s>Taimetoodangu Inspektsioon arvestab katse tulemust taimekaitsevahendi registreerimist otsustades .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Taimekaitsevahendi katse korraldamata j&auml;tmine</s>
+</p>
+<p>
+<s>Taimekaitsevahendi katset ei korraldata :</s>
+</p>
+<p>
+<s>1 ) kui registrisse on kantud sama laadi taimekaitsevahendi andmed v&otilde;i kui taimekaitsevahendi n&otilde;uetekohasus on teada muudel asjaoludel v&otilde;i kui taimekaitsevahendi katse on korraldatud varem Eestis v&otilde;i Eesti oludega sarnaste p&otilde;llumajandus- , taimetervise- ja keskkonnaoludega riigis ;</s>
+</p>
+<p>
+<s>2 ) katseloomi kasutades , kui selline katse on varem korraldatud ja tulemused on teada .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Taimekaitsevahendi katsetaja</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi katse teeb volitatud teadus- ja arendusasutus .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud katseks volitatud teadus- ja arendusasutus m&auml;&auml;ratakse p&otilde;llumajandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Taimekaitsevahendi katse t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi katse tuleb teha t&auml;htajal , mis tavaliselt kulub sama laadi taimekaitsevahendi n&otilde;uetekohasuse tuvastamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva seaduse &sect; 79 punktis 1 nimetatud juhul saab varem korraldatud katse tulemusi taimekaitsevahendi n&otilde;uetekohasuse hindamisel osaliselt kasutada , l&uuml;hendatakse taimekaistevahendi katse t&auml;htaega ajavahemiku v&otilde;rra , mis oleks kulunud nende tulemuste saamiseks katset korraldades .</s>
+</p>
+<p>
+<s>( 3 ) Katse eba&otilde;nnestumise korral v&otilde;ib katse t&auml;htaega pikendada korduskatse tegemiseks vajaliku aja v&otilde;rra .</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>Taimekaitsevahendi katse dokument ja katse kulud</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitsevahendi katse dokumenteeritakse ja selle kohta esitatakse Taimetoodangu Inspektsioonile ning taotlejale koondprotokoll , mis sisaldab katse ning tuvastatud asjaolude kirjelduse ja j&auml;relduse .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendi katse kulud tasub taotleja teadus- ja arendusasutusele .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>J&auml;relevalveasutused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uete t&auml;itmise j&auml;relevalvet teostab Taimetoodangu Inspektsioon .</s>
+</p>
+<p>
+<s>( 2 ) Metsakultiveerimismaterjali , sealhulgas metsaseemne ja -paljundusmaterjali ning toorpuidu kohta kehtivate n&otilde;uete t&auml;itmise j&auml;relevalve teostamisele siseriigis ja v&auml;ljaveol on kaasatud Metsakaitse- ja Metsauuenduskeskus .</s>
+</p>
+<p>
+<s>( 3 ) Metsakultiveerimismaterjali ning toorpuidu sisseveol k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uete t&auml;itmise j&auml;relevalvet teostab Taimetoodangu Inspektsioon .</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>J&auml;relevalveametnikud</s>
+</p>
+<p>
+<s>( 1 ) Taimetoodangu Inspektsiooni ning Metsakaitse- ja Metsauuenduskeskuse j&auml;relevalveametnikud teostavad oma p&auml;devuse piires j&auml;relevalvet isikute tegevuse &uuml;le , kes on kohustatud t&auml;itma taimetervise ning taimekaitsevahendite ja -seadmete kohta kehtestatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) Oma &uuml;lesandeid t&auml;ites teevad j&auml;relevalveametnikud koost&ouml;&ouml;d teiste t&auml;idesaatva riigiv&otilde;imu asutustega .</s><s>Politseiameti , Tolliameti ja P&auml;&auml;steameti ametnikud abistavad j&auml;relevalveametnikke nende teenistus&uuml;lesannete t&auml;itmisel oma p&auml;devuse piires .</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>J&auml;relevalveametniku &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Ametit&otilde;endi esitanud j&auml;relevalveametnikul on &otilde;igus takistamatult kontrollida , kas isik t&auml;idab oma territooriumi ja ruumide , transpordivahendite , sisseseade ning muu inventari , toorme ja valmistoodangu ning teiste seda laadi objektide ja asjaolude kohta kehtivaid n&otilde;udeid ning muid taimetervise ja taimekaitsevahendite ning -seadmete kohta kehtestatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;relevalveametnikul on &otilde;igus n&otilde;uda isikult v&auml;ljav&otilde;tteid ja koopiaid asjakohastest dokumentidest ning muud j&auml;relevalveks vajalikku kirjalikku ja suulist teavet ning teha vaatlusi ja talletada nende tulemusi , kasutades selleks isiku v&otilde;i tema esindaja teadmisel j&auml;relevalveasutuse poolt selleks etten&auml;htud tehnilisi vahendeid .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;relevalveametnik on kohustatud hoidma talle j&auml;relevalve ajal teatavaks saanud &auml;risaladust .</s><s>Teabe v&otilde;ib avalikustada , kui selle hoidmine ohustaks inimese tervist v&otilde;i keskkonda .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;relevalveametnik peab p&otilde;hjendama k&auml;esoleva seaduse alusel tehtud otsust , vormistama selle kirjalikult ja edastama kohe isikule , kelle suhtes see tehti .</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>Taimetoodangu Inspektsiooni j&auml;relevalveametniku ametiriietus</s>
+</p>
+<p>
+<s>J&auml;relevalvetoimingute tegemise ajal peab Taimetoodangu Inspektsiooni j&auml;relevalveametnik ja taimekaitseteenistuja kandma ametiriietust .</s><s>Ametiriietuse kirjeldus kehtestatakse p&otilde;llumajandusministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>Taimekaitseteenistuja</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitseteenistuja on Taimetoodangu Inspektsiooni koosseisuv&auml;line teenistuja , kellele on antud vaatluste tegemise ja nende tulemuste talletamise ning kontrollproovide v&otilde;tmise volitus .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitseteenistujal on k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud p&auml;devuse piires j&auml;relevalveametniku &otilde;igused ja kohustused .</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>Volituse andmine ja selle kehtivus</s>
+</p>
+<p>
+<s>( 1 ) Volitus antakse teenistusse v&otilde;etud taimekaitseteenistujale Taimetoodangu Inspektsiooni peadirektori k&auml;skkirjaga , arvestades tema kvalifikatsiooni .</s><s>Volitust andes m&auml;&auml;ratakse taimekaitseteenistuja tegevuspiirkond v&otilde;i tegevuskoht v&otilde;i -kohad .</s>
+</p>
+<p>
+<s>( 2 ) Volitus kehtib kuni taimekaitseteenistuja teenistussuhte l&otilde;puni .</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>Taimekaitseteenistuja muud kohustused</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitseteenistuja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) osalema Taimetoodangu Inspektsiooni korraldataval t&auml;iend&otilde;ppel ;</s>
+</p>
+<p>
+<s>2 ) t&auml;itma &uuml;lesandeid , milleks volitus on antud ;</s>
+</p>
+<p>
+<s>3 ) hoidma talle teatavaks saanud &auml;risaladust ;</s>
+</p>
+<p>
+<s>4 ) koostama ja esitama Taimetoodangu Inspektsioonile oma tegevuse aruandeid .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitseteenistujal on keelatud teha j&auml;relevalvet selle isiku tegevuse &uuml;le , kellega teda seob majanduslik v&otilde;i muu huvi .</s>
+</p>
+<p>
+<s>( 3 ) Taimekaitseteenistujal on keelatud esitada isikule j&auml;relevalvetoimingu eest arvet ja v&otilde;tta temalt vastu tasu .</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>Kontrollproovid ja nende anal&uuml;&uuml;simine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalvetoiminguid tehes on j&auml;relevalveametnikul &otilde;igus k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uete mittet&auml;itmise p&otilde;hjendatud kahtluse korral v&otilde;tta isiku kulul vajalikus koguses kontrollproove laboratoorseks anal&uuml;&uuml;simiseks .</s>
+</p>
+<p>
+<s>( 2 ) Anal&uuml;&uuml;se tehakse rahvusvaheliste n&otilde;uete kohaselt akrediteeritud laboratooriumis .</s>
+</p>
+<p>
+<s>( 3 ) Taimedest , taimsetest saadustest ja muudest objektidest ning taimekaitsevahenditest v&otilde;etavate kontrollproovide kogused ja nende v&otilde;tmise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>J&auml;relevalveametniku ettekirjutus</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;iguserikkumise avastamise korral teeb j&auml;relevalveametnik ettekirjutuse , milles :</s>
+</p>
+<p>
+<s>1 ) juhib t&auml;helepanu &otilde;iguserikkumisele ;</s>
+</p>
+<p>
+<s>2 ) esitab n&otilde;ude &otilde;iguserikkumise l&otilde;petamiseks ;</s>
+</p>
+<p>
+<s>3 ) kohustab tegema &otilde;iguserikkumise l&otilde;petamiseks v&otilde;i edasiste &otilde;iguserikkumiste &auml;rahoidmiseks vajalikke toiminguid .</s>
+</p>
+<p>
+<s>( 2 ) Ettekirjutuses m&auml;&auml;rab j&auml;relevalveametnik selle t&auml;itmise t&auml;htaja .</s><s>J&auml;relevalveametnik teeb ettekirjutuse isikule v&otilde;i tema esindajale teatavaks allkirja vastu .</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>Ettekirjutuse ja otsuse vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Kui isik ei n&otilde;ustu j&auml;relevalveametniku ettekirjutuse v&otilde;i k&auml;esoleva seaduse alusel tehtud otsusega , v&otilde;ib ta selle vaidlustada , esitades kirjaliku kaebuse j&auml;relevalveasutuse peadirektorile .</s>
+</p>
+<p>
+<s>( 2 ) Ettekirjutuse v&otilde;i otsuse v&otilde;ib vaidlustada selle teatavaks tegemise p&auml;evast alates k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul .</s><s>Vaidlustamine ei vabasta isikut ettekirjutuse v&otilde;i otsuse t&auml;itmisest .</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Kaebuse lahendamine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalveasutuse peadirektor vaatab kaebuse l&auml;bi selle saamisest alates k&uuml;mne t&ouml;&ouml;p&auml;eva jooksul .</s><s>Kaebuse asjaolude p&otilde;hjalikuks uurimiseks v&otilde;ib kaebuse l&auml;bivaatamise t&auml;htaega pikendada kuni 30 t&ouml;&ouml;p&auml;evani .</s><s>Kaebuse esitanud isikule tuleb sellest kohe kirjalikult teatada .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;rast kaebuse l&auml;bivaatamist teeb j&auml;relevalveasutuse peadirektor otsuse j&auml;tta ettekirjutus v&otilde;i otsus j&otilde;usse , see muuta v&otilde;i t&uuml;histada .</s><s>Otsusest teatatakse isikule kirjalikult .</s><s>Otsusest s&otilde;ltumata v&otilde;ib isik p&ouml;&ouml;rduda vaidluse lahendamiseks kohtu poole .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vastutus</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>Vastutuse alused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide rikkumise eest kannab f&uuml;&uuml;siline isik distsiplinaar- , tsiviil- , haldus- v&otilde;i kriminaalvastutust seadusega etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 2 ) Juriidiline isik vastutab k&auml;esoleva seaduse kohaselt .</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>Juriidilise isiku poolt k&auml;esolevas seaduses v&otilde;i selle alusel kehtestatud &otilde;igusaktides s&auml;testatud :</s>
+</p>
+<p>
+<s>1 ) taimetervisen&otilde;uete rikkumise ja ohtlikust taimekahjustajast teatamata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni 10 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) ohtliku taimekahjustaja t&otilde;rjeabin&otilde;ude rakendamata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni 10 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) kaitstava ala taimetervisen&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 20 000 krooni ;</s>
+</p>
+<p>
+<s>4 ) saastumiskahtlase kaubasaadetise j&auml;relevalveametniku loata kasutamise v&otilde;i &uuml;leandmise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>5 ) taimekarantiini ajal t&otilde;rjeabin&otilde;ude rakendamata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni 25 000 krooni ;</s>
+</p>
+<p>
+<s>6 ) taimepassi ja f&uuml;tosanitaarsertifikaadi kasutamise , asendamise ja s&auml;ilitamise n&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 10 000 krooni ;</s>
+</p>
+<p>
+<s>7 ) taimetervise registrisse kandmise ja sellest tulenevate kohustuste t&auml;itmata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni 10 000 krooni ;</s>
+</p>
+<p>
+<s>8 ) taimekaitsevahendi ning selle pakendamise , pakendi m&auml;rgistamise , turustamise ja kasutamise kohta kehtivate n&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>9 ) taimekaitseseadme ning selle tootmise , importimise , turustamise ja &uuml;levaatuse kohta kehtivate n&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 25 000 krooni ;</s>
+</p>
+<p>
+<s>10 ) j&auml;relevalveametniku tegevuse takistamise , samuti j&auml;relevalveametniku otsuse v&otilde;i ettekirjutuse t&auml;itmata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni 25 000 krooni ;</s>
+</p>
+<p>
+<s>11 ) ohtliku taimekahjustaja levitamise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Juriidilise isiku haldus&otilde;iguserikkumise asja menetlemine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 95 nimetatud haldus&otilde;iguserikkumiste asjades on &otilde;igus asja arutada ja karistus m&auml;&auml;rata :</s>
+</p>
+<p>
+<s>1 ) Taimetoodangu Inspektsiooni peadirektoril ja tema volitatud aset&auml;itjal ning inspektoril ;</s>
+</p>
+<p>
+<s>2 ) halduskohtunikul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 1 nimetatud ametnikel on &otilde;igus m&auml;&auml;rata rahatrahv kuni 10 000 krooni .</s><s>Sellest suurema rahatrahvi v&otilde;ib m&auml;&auml;rata halduskohtunik .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-s 95 nimetatud haldus&otilde;iguserikkumiste asjades on protokolli koostamise &otilde;igus Taimetoodangu Inspektsiooni peadirektoril ja tema volitatud aset&auml;itjal ning inspektoril .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilise isiku &otilde;iguserikkumise asja menetletakse haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ) s&auml;testatud korras , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Haldus&otilde;iguserikkumise protokoll</s>
+</p>
+<p>
+<s>( 1 ) Protokollis m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) selle koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) selle asutuse nimetus ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ning ametinimetus ;</s>
+</p>
+<p>
+<s>4 ) &otilde;iguserikkujast juriidilise isiku nimi ja aadress ;</s>
+</p>
+<p>
+<s>5 ) &otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>6 ) &otilde;iguserikkumise aeg ja koht ning rikkumise kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) viide seaduses&auml;ttele , mis n&auml;eb ette vastutuse selle &otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>8 ) tunnistajate seletused , ekspertiisi ja anal&uuml;&uuml;si andmed ning muu &otilde;iguserikkumist t&otilde;endav materjal ;</s>
+</p>
+<p>
+<s>9 ) haldus&otilde;iguserikkuja esindaja seletus ja m&auml;rge , et &otilde;iguserikkuja esindajale on tutvustatud tema &otilde;igust kasutada &otilde;igusabi ;</s>
+</p>
+<p>
+<s>10 ) vajaduse korral muud andmed .</s>
+</p>
+<p>
+<s>( 2 ) Protokollile kirjutavad alla selle koostanud ametnik ja &otilde;iguserikkuja esindaja .</s><s>Kui &otilde;iguserikkuja esindaja keeldub protokollile alla kirjutamast , tehakse protokolli selle kohta m&auml;rge .</s><s>Protokollile lisatakse &otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli kohta ja sellele allakirjutamisest keeldumise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Kui &otilde;iguserikkuja on juriidilise isiku ametiisik , v&otilde;ib m&auml;&auml;rata halduskaristuse juriidilisele isikule k&auml;esolevas seaduses s&auml;testatud korras v&otilde;i ametiisikule haldus&otilde;iguserikkumiste seadustikus s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>Erikonfiskeerimine</s>
+</p>
+<p>
+<s>( 1 ) Kui k&auml;esoleva seaduse &sect; 95 punktides 1 , 4 , 8 ja 9 nimetatud haldus&otilde;iguserikkumiste korral on haldus&otilde;iguserikkumise objekt ohtlik inimese tervisele v&otilde;i keskkonnale , v&otilde;ib selle h&auml;vitamiseks kohaldada erikonfiskeerimist .</s>
+</p>
+<p>
+<s>( 2 ) Erikonfiskeerimisele kuuluva objekti v&otilde;tab &auml;ra j&auml;relevalveametnik , kellel on k&auml;esoleva seaduse &sect; 96 l&otilde;ike 3 j&auml;rgi &otilde;igus koostada haldus&otilde;iguserikkumise protokolli .</s>
+</p>
+<p>
+<s>( 3 ) Kuni &otilde;iguserikkumise asja arutamiseni hoitakse &auml;rav&otilde;etud objekti kohas , mille m&auml;&auml;rab j&auml;relevalveametnik .</s><s>Hoiukoht plommitakse v&otilde;i pitseeritakse .</s>
+</p>
+<p>
+<s>( 4 ) Erikonfiskeerimisega seotud haldus&otilde;iguserikkumise asja arutab halduskohtunik .</s><s>Erikonfiskeerimise otsuse t&auml;itmise menetlus toimub haldus&otilde;iguserikkumiste seadustikus s&auml;testatud korras .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Teavitamine</s>
+</p>
+<p>
+<s>( 1 ) Ohtliku taimekahjustaja leviku korral teatab Taimetoodangu Inspektsioon sellest teiste riikide j&auml;relevalveasutustele v&auml;lislepingutes s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Saastunud kaubasaadetise avastamise ja sisseveo peatamise korral teatab Taimetoodangu Inspektsioon sellest kaubasaadetise p&auml;ritoluriigi j&auml;relevalveasutusele .</s>
+</p>
+<p>
+<s>( 3 ) Taimetoodangu Inspektsioon avaldab v&auml;hemalt &uuml;ks kord aastas ametlikus v&auml;ljaandes Ametlikud Teadaanded taimetervise registrisse kantud j&auml;relevalvetulemuste p&otilde;hjal koostatud &uuml;levaate ohtlike taimekahjustajate levikust Eestis .</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>&Uuml;leminekuaeg taimetervise registrisse kandmiseks</s>
+</p>
+<p>
+<s>Taimetervise registrisse kandmisele kuuluv isik on kohustatud esitama registreerimistaotluse ja registrisse kantavad andmed k&auml;esoleva seaduse j&otilde;ustumisest alates kahe aasta jooksul v&otilde;i l&otilde;petama k&auml;esoleva seaduse &sect;-s 48 nimetatud toodete tootmise , esmat&ouml;&ouml;tlemise , sisseveo , ladustamise , pakendamise v&otilde;i turustamise .</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>V&auml;lisriigi laboratooriumist anal&uuml;&uuml;side tellimise rahastamine</s>
+</p>
+<p>
+<s>( 1 ) Kuni k&auml;esoleva seaduse &sect; 90 l&otilde;ike 2 j&otilde;ustumiseni Eestis asuvate laboratooriumide suhtes v&otilde;ib anal&uuml;&uuml;si teha muus laboratooriumis v&otilde;i tellida anal&uuml;&uuml;s v&auml;lisriigis asuvast rahvusvaheliste n&otilde;uete kohaselt akrediteeritud laboratooriumist .</s><s>Edaspidi tellitakse v&auml;lisriigi laboratooriumist anal&uuml;&uuml;se , mida Eestis ei ole v&otilde;imalik n&otilde;uetekohaselt teha .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lisriigis asuvast rahvusvaheliste n&otilde;uete kohaselt akrediteeritud laboratooriumist anal&uuml;&uuml;side tellimiseks kasutatakse selleks riigieelarves etten&auml;htud vahendeid .</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Taimekaitsevahendi registreerimise taotluse menetlemise ja taimekaitsevahendi katse j&auml;tkumine</s>
+</p>
+<p>
+<s>Enne k&auml;esoleva seaduse j&otilde;ustumist alustatud taimekaitsevahendi registreerimise taotluse menetlemine ja taimekaitsevahendi katse viiakse l&otilde;pule k&auml;esoleva seaduse alusel .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Kasutatavate taimekaitseseadmete &uuml;levaatuse aja arvutamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse j&otilde;ustumisel kasutusel olevate taimekaitseseadmete puhul arvutatakse &sect; 68 kohast &uuml;levaatuse aega viimasest testimisest arvates , mis viidi l&auml;bi kehtetuks tunnistatava taimekaitseseaduse ( RT I 1994 , 28 , 427 ; 1996 , 49 , 953 ; 1998 , 13 , 163 ; 97 , 1519 ; 1999 , 95 , 843 ) alusel .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>Taimekaitsevahendite registrisse kantud taimekaitsevahendid</s>
+</p>
+<p>
+<s>Kehtetuks tunnistatava taimekaitseseaduse alusel taimekaitsevahendite registrisse kantud taimekaitsevahend viiakse j&auml;relej&auml;&auml;nud registreerimist&auml;htajaks ilma t&auml;iendava taotluseta &uuml;le k&auml;esoleva seaduse alusel asutatavasse taimekaitsevahendite registrisse .</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>Tehnilise normi ja standardi seaduse muutmine</s>
+</p>
+<p>
+<s>Tehnilise normi ja standardi seaduses ( RT I 1999 , 29 , 398 ; 2000 , 29 , 169 ; 78 , 495 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>( 1 ) Paragrahvi 1 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Seadust ei kohaldata riigikaitset k&auml;sitlevale standardile .</s><s>Sanitaar- ja f&uuml;tosanitaarmeetmeid k&auml;sitlevale &otilde;igusaktile laieneb k&auml;esoleva seaduse &sect; 8. &rdquo;</s>
+</p>
+<p>
+<s>( 2 ) Paragrahvi 8 :</s>
+</p>
+<p>
+<s>1 ) l&otilde;iked 1-3 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Teavitada tuleb k&auml;esoleva seaduse &sect; 4 l&otilde;ikes 1 s&auml;testatud &otilde;igusaktide ja v&auml;lislepingute eeln&otilde;udest , mis sisaldavad tehnilisi norme , ning sanitaar- ja f&uuml;tosanitaarmeetmeid k&auml;sitlevate &otilde;igusaktide ja v&auml;lislepingute eeln&otilde;udest .</s>
+</p>
+<p>
+<s>( 2 ) Tehnilist normi v&otilde;i sanitaar- ja f&uuml;tosanitaarmeedet sisaldava &otilde;igusakti v&otilde;i v&auml;lislepingu eeln&otilde;u ettevalmistaja on kohustatud esitama selle teavitamist koordineerivale asutusele .</s>
+</p>
+<p>
+<s>( 3 ) Tehnilist normi sisaldava &otilde;igusakti ja v&auml;lislepingu eeln&otilde;ust teavitamise korra kehtestab ja teabevahetust koordineeriva asutuse m&auml;&auml;rab Vabariigi Valitsus . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) t&auml;iendatakse l&otilde;ikega 3 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 <hi rend="sup">1</hi> ) Sanitaar- ja f&uuml;tosanitaarmeedet sisaldava &otilde;igusakti ja v&auml;lislepingu eeln&otilde;ust teavitamise korra kehtestab ja teabevahetust koordineeriva asutuse m&auml;&auml;rab Vabariigi Valitsus . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>Haldus&otilde;iguserikkumiste seadustiku muutmine</s>
+</p>
+<p>
+<s>Haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahv 76 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 76.</s><s>Taimekaitseseaduse n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Taimetervise registrisse kandmise kohustuse t&auml;itmata j&auml;tmise v&otilde;i registrile valeandmete esitamise , samuti j&auml;relevalveametniku tegevuse takistamise eest ning ettekirjutuse ja otsuse t&auml;itmata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni saja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Taimekaitsevahendi pakendi ja selle m&auml;rgistuse kohta kehtivate n&otilde;uete ning taimekaitsevahendi turustamise ja kasutamise n&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni saja viiek&uuml;mne p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Taimede , taimsete saaduste ja muude objektide tootmisel , esmat&ouml;&ouml;tlemisel , ladustamisel , pakendamisel , sisseveol ja turustamisel taimetervisen&otilde;uete rikkumise eest ning taimepassi kasutamise , asendamise ja s&auml;ilitamise n&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni saja viiek&uuml;mne p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 4 ) Taimekaitseseadme ohutusn&otilde;uete , samuti selle tootmise , importimise , turustamise ja &uuml;levaatuse n&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses .</s>
+</p>
+<p>
+<s>( 5 ) Ohtliku taimekahjustaja levitamise , samuti ohtliku taimekahjustaja t&otilde;rjeabin&otilde;ude rakendamata j&auml;tmise eest taimekarantiini ajal - m&auml;&auml;ratakse rahatrahv kuni kahesaja p&auml;evapalga ulatuses . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 216 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Halduskaristuse m&auml;&auml;ramise &otilde;igus on Taimetoodangu Inspektsiooni peadirektoril , tema volitatud aset&auml;itjal ning inspektoril . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahv 216 <hi rend="sup">1</hi> tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>Riigil&otilde;ivuseaduse muutmine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseadust ( RT I 1997 , 80 , 1344 ; RT I 2001 , 55 , 331 ; 56 , 332 ; 64 , 367 ; 65 , 377 ; 85 , 512 ; 88 , 531 ) t&auml;iendatakse &sect;-dega 190 <hi rend="sup">3</hi> ja 190 <hi rend="sup">4</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 190 <hi rend="sup">3</hi> .</s><s>Taimetervise registri toimingud</s>
+</p>
+<p>
+<s>( 1 ) Taimetervise registrisse kandmise eest tasutakse riigil&otilde;ivu 1500 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Registrikannete muutmise eest tasutakse riigil&otilde;ivu 100 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Registrikannetest tehtava v&auml;ljav&otilde;tte iga formaadis A4 lehek&uuml;lje eest tasutakse riigil&otilde;ivu 25 krooni .</s>
+</p>
+<p>
+<s>&sect; 190 <hi rend="sup">4</hi> .</s><s>Taimepassi ja f&uuml;tosanitaarsertifikaadi v&auml;ljastamine , taimepassi v&auml;ljastamise &otilde;iguse saamine ning teravilja kontrollimine</s>
+</p>
+<p>
+<s>( 1 ) Taimepasside v&auml;ljastamise korral tasutakse riigil&otilde;ivu iga k&uuml;mne taimepassi eest 5 krooni .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;tosanitaarsertifikaadi v&auml;ljastamise eest tasutakse riigil&otilde;ivu 200 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Taimepassi v&auml;ljastamise &otilde;iguse saamise eest tasutakse riigil&otilde;ivu 1000 krooni .</s>
+</p>
+<p>
+<s>( 4 ) Taasv&auml;ljaveo kohustusega v&otilde;i transiidi korras sisseveetava teravilja kontrollimise eest piiripunktis tasutakse riigil&otilde;ivu 1 kroon 50 senti tonni kohta . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>Seemne ja taimse paljundusmaterjali seaduse muutmine</s>
+</p>
+<p>
+<s>Seemne ja taimse paljundusmaterjali seaduses ( RT I 1998 , 52/53 , 771 ; 1999 , 95 , 843 ; 2000 , 29 , 169 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>( 1 ) Paragrahvi 12 l&otilde;iget 1 t&auml;iendatakse kolmanda lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; P&otilde;llu- , aia- ja metsakultuuride paljundusmaterjali tootmiseks ja pakendamiseks v&auml;ljastatakse tegevuslube taimetervise registrisse kantud isikutele . &rdquo;</s>
+</p>
+<p>
+<s>( 2 ) Paragrahvi 18 :</s>
+</p>
+<p>
+<s>1 ) l&otilde;ike 1 esimest lauset t&auml;iendatakse p&auml;rast s&otilde;nu &ldquo; n&otilde;uetekohase etiketiga &rdquo; s&otilde;nadega &ldquo; v&otilde;i taimepassiga &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) l&otilde;ike 3 esimest lauset t&auml;iendatakse p&auml;rast s&otilde;nu &ldquo; etiketi v&otilde;i tootekirjeldusega &rdquo; s&otilde;nadega &ldquo; , millel tuleb eraldi kajastada taimepassil n&otilde;utud andmed &rdquo; .</s>
+</p>
+<p>
+<s>( 3 ) Paragrahvi 19 l&otilde;iget 1 t&auml;iendatakse kolmanda lausega j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; Importida ei tohi keelatud toimeaineid sisaldava taimekaitsevahendiga t&ouml;&ouml;deldud seemet ega taimset paljundusmaterjali . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>Taimekaitseseaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Taimekaitseseadus ( RT I 1994 , 28 , 427 ; 1996 , 49 , 953 ; 1998 , 13 , 163 ; 97 , 1519 ; 1999 , 95 , 843 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud seaduse alusel kehtestatud Vabariigi Valitsuse ja p&otilde;llumajandusministri m&auml;&auml;rused kehtivad niiv&otilde;rd , kuiv&otilde;rd need ei ole vastuolus k&auml;esoleva seadusega , kuni nende muutmise v&otilde;i kehtetuks tunnistamiseni , kuid mitte kauem kui 2000. aasta 1. septembrini .</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect;-d 28-37 j&otilde;ustuvad 2001. aasta 1. jaanuaril ja &sect; 90 l&otilde;ige 2 j&otilde;ustub 2002. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

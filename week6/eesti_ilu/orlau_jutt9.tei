@@ -1,0 +1,123 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Maha hirmus j&otilde;ul ! </title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 15923; s&otilde;nu: 1492</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Maha hirmus j&otilde;ul ! </title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=30></tagusage>
+         <tagusage gi=s occurs=115></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body>
+<div0 type='tervikteos'><head>Maha hirmus j&otilde;ul ! </head>
+<p><bibl><author><s>Karen Orlau</s></author></bibl></p>
+<p> <s>J&otilde;ule kartsid sadistp&auml;kapikud k&otilde;ige enam . </s> <s> Kui inimesed neid m&otilde;nel muul ajal m&auml;rkasid , peeti neid enamasti viinakuraditeks ja see tegi p&auml;kapikkudele ainult r&otilde;&otilde;mu . </s> <s> T&otilde;epoolest , peletiste pulstunud habemetest , punastest silmadest , mis hiilgasid nagu kaks tulitigedat rubiini , ja lillakassinisest ninast , mis kogu selle segadiku keskel k&otilde;rgus , ei oleks &uuml;kski m&otilde;istusega inimene v&auml;lja lugenud mitte midagi head . </s> <s> Lapsed hakkasid nutma , t&auml;did minestasid ... ja p&auml;kapikud tundsid r&otilde;&otilde;mu . </s> </p>
+<p> <s>J&otilde;ulude ajal oli inimestel terve m&otilde;istusega midagi t&otilde;siselt lahti . </s> <s> P&auml;kapikke kohates ei p&otilde;genetud , vastupidi ... </s> <s> Juhtus ennekuulmatuid asju . </s> <s> K&otilde;ige hullemad olid t&auml;did , kes tavaliselt v&auml;ikest kurja p&auml;katsit n&auml;hes ruttu teadvuse kaotasid . </s> <s> J&otilde;ulude l&auml;henedes muutusid t&auml;did lausa solvavalt immuunseks . </s> <s> M&ouml;rravat p&auml;kapikku silmates hakkasid nad heldinult todisema ja ei hoolinud sellestki , kui pahur mehike haljast s&otilde;jakirvest vuhistas . </s> <s> Hullem veel , see leiti t&otilde;eliselt armas olevat ja &otilde;nn , kui sadistp&auml;kapikk p&auml;&auml;ses h&auml;bistavast " plutiplutist " ja prullakatest n&auml;ppudest oma habeme kallal . </s> <s> V&auml;lk ja pauk ! </s> <s> Tuli ette , et p&auml;kapikk , kes m&otilde;ne eriti ettev&otilde;tliku t&auml;di k&uuml;&uuml;si sattus , pidi igasuguse v&auml;&auml;rikuse minetanult oma habeme au p&auml;&auml;stmiseks m&ouml;&ouml;da maja joosta leekima , endal hing paelaga kaelas . </s> <s> Lugupidamist ei mingisugust ! </s> </p>
+<p> <s>Nii pikaks ajaks hoopis maa alla peitu j&auml;&auml;da ei olnud kuidagi v&otilde;imalik . </s> <s> Pidevalt toimus pangar&ouml;&ouml;ve , mida pidi valvama , et &otilde;igel hetkel kullalaadungid oma hoole alla toimetada ja ikka tuli turule v&auml;&auml;rtuslikumaid v&auml;&auml;riskive , mille asemele osavad n&auml;pud v&otilde;isid v&otilde;ltsingu poetada ... </s> </p>
+<p> <s>K&otilde;rgendatud t&auml;helepanu takistas t&ouml;&ouml;tegemist k&otilde;vasti . </s> <s> Ja need p&ouml;&ouml;rases kommivalus lastekarjad ! </s> <s> Viimased olid eriti t&uuml;&uuml;tud , kui p&auml;kapikk , taskud kullakangidest ligi maad , p&uuml;&uuml;dis v&otilde;imalikult m&auml;rkamatult esimese kloaagitoru poole vudida . </s> <s> Sadistp&auml;kapikule iseloomulike k&otilde;verate jalgadega oli s&auml;&auml;rane ettev&otilde;tmine niigi t&uuml;likas ja ebakindel t&ouml;&ouml; , j&otilde;nglastekarjad tegid selle aga sada korda hullemaks . </s> <s> Lapsed ei kartnud ei l&otilde;ikeriistu ega p&uuml;ssirohtu ja tegid uskumatult k&otilde;va k&auml;ra . </s> <s> Nende peale v&otilde;is uriseda ja m&otilde;nd jultunumat hammustadagi , kuid mitte miski ei aidanud . </s> <s> M&otilde;ned eriti juhmid p&otilde;ngerjad h&uuml;ppasid p&auml;kapikule isegi kanalisatsioonitorru j&auml;rgi . </s> <s> &Otilde;nnetuseks &otilde;ngitseti nad k&otilde;ik j&auml;lle elusalt ja tervelt v&auml;lja ning nende pimedat kommi-iha ei kustutanud miski . </s> </p>
+<p> <s>Asi l&auml;ks &uuml;ha hullemaks , sest j&otilde;uluettevalmistused venisid aasta viimaselt kuult &uuml;ha varasemaks ja varasemaks . </s> <s> J&otilde;ulud laiendasid oma m&otilde;juala nagu hirmus epideemia ja p&auml;kapikkude kannatus oli pingul kui pillikeel . </s> <s> Torssis mehikesed peitusid &uuml;ha s&uuml;gavamale katakombidesse , kaevasid &uuml;ha s&uuml;ngemaid k&auml;ike , l&otilde;id &uuml;ha &otilde;elamaid piinariistu , aga mitte miski ei aidanud j&otilde;uluaegset kroonilist pahurust leevendada . </s> </p>
+<p> <s>Kui valvep&auml;kapikk juba septembrikuus kaubamaja aknal esimest oksat&otilde;mmatud h&otilde;imlasetopist n&auml;gi ( v&auml;ikeseks leevenduseks oli k&uuml;ll , et sealsamas k&otilde;rval k&otilde;lkusid kaelapidi n&ouml;&ouml;ri otsas ka paar p&otilde;tra ja &uuml;ks roosa panter ) , l&auml;ks kannatuse pillikeel kurjakuulutava pinina saatel katki . </s> <s> Inimesed olid kaotanud igasuguse m&otilde;&otilde;dutunde ja neid tuli &otilde;petada . </s> </p>
+<p> <s>Sadistp&auml;kapikud kogunesid Alpide all asuvatesse n&otilde;upidamissaalidesse . </s> <s> Koobaste graniitseintesse hoole ja armastusega graveeritud j&otilde;uludevastased loosungid : " Maha hirmus j&otilde;ul ! " , " V&otilde;itlusse habemete v&auml;&auml;rikuse eest ! " ja " T&auml;did seebiks ! " v&auml;ljendasid &uuml;ldiseid meeleolusid . </s> <s> P&auml;kapikud ei teinud t&uuml;hje s&otilde;nu : t&auml;didest tehtava seebi retsept oli &uuml;hele peasaali suuremale marmorpiilarile raiutud ja t&auml;hthaaval &uuml;le kullatud . </s> <s> T&otilde;si k&uuml;ll , peale suure l&otilde;kke , katla , ja sellesse mahtuva t&auml;dikoguse retseptis muid vajalikke komponente polnudki , aga sadistp&auml;kapikkud pole kunagi armastanud lihtsaid asju keeruliseks ajada . </s> </p>
+<p> <s>Kaua tuha all h&otilde;&otilde;gunud j&otilde;uluvaenul oli teisigi vilju . </s> <s> Igal p&auml;kapikul oli v&auml;lja pakkuda m&otilde;ni eriti &otilde;el j&otilde;ulurelv : pommikomm , j&otilde;uluvanarauad , purgeenpiparkoogid , spetsiaalselt aretatud maltoosaskarabeus , kaak , mille j&otilde;uluterroriste t&auml;isriputatud rattakujuline kandemehhanism keereldes tasast j&otilde;ulumuusikat tinistab ... relvastus t&otilde;otas kujuneda fantaasiarikkaks . </s> </p>
+<p> <s>Kolmandal p&auml;eval v&otilde;ttis K&otilde;ige Peamine Pealik l&uuml;hidalt s&otilde;na . </s> <s> ( Kuna k&otilde;ik sadistp&auml;kapikud on isiksused , on iga&uuml;ks neist v&auml;hemalt Pealik , m&otilde;ned vanemad ja visamad on Peamised Pealikud . </s> <s> K&otilde;ige Peamiseks Pealikuks tr&uuml;givad aga ainult need , kes on k&otilde;va tiitli nimel n&otilde;us ka v&auml;ga rahutu ja v&auml;ga l&uuml;hikese eluga . ) </s> </p>
+<p> <s> " Me oleme v&otilde;imsad s&otilde;jamehed ! " teatas Pealik . </s> <s> " Need , kes meid k&auml;kerdavad , nupsutavad ja puputavad , peavad saama karistatud ! </s> <s> T&auml;did peavad &otilde;ppima , et sadistp&auml;kapiku habemest pohli ei otsita ! " l&otilde;petas ta v&auml;&auml;rikalt . </s> <s> See huvitav kujund j&auml;i kuulajatele k&uuml;ll arusaamatuks , kuigi Pealik &uuml;tles seda s&otilde;na otseses m&otilde;ttes ja &uuml;he oma koledama kogemuse najal . </s> <s> Pohlad v&otilde;i mitte , aga see habemepilastus tuleb l&otilde;petada ! </s> </p>
+<p> <s>Valjude ovatsioonide saatel kuulutas K&otilde;ige Peamine Pealik vastupanuliikumise ametlikult avatuks . </s> <s> Peamiseks strateegiaks sai , eks ikka selle t&otilde;ttu , et iga sadistp&auml;kapikk on loovisiksus , igamehe iseseisev r&uuml;nnak vabas stiilis . </s> <s> Rahvas oli otsusega rahul , t&auml;ristas verejanuliselt relvi ja jooksis organiseeritult laiali . </s> </p>
+<p> <s>Sadistp&auml;kapikkude r&uuml;nnak oli ootamatu ja v&otilde;imas . </s> <s> Nad haarasid enda k&auml;tte k&otilde;ik rinded ning ei kohanud peaaegu mingit vastupanu . </s> <s> See oleks olnud suurep&auml;rane v&otilde;it . </s> <s> Oleks ... </s> <s> Kui poleks &uuml;hte saatuslikku valearvestust . </s> <s> Sadistp&auml;kapikud ei arvestanud &uuml;he hirmu&auml;ratava loodusj&otilde;uga &mdash; j&otilde;uluhullusega . </s> </p>
+<p> <s>V&otilde;imsate v&auml;gede haledad riismed kogunesid n&otilde;upidamistesaali . </s> <s> Aeg-ajalt luukas m&otilde;ni sant lisaks , k&auml;si kaelas , kark kaenlas ja silmad maas . </s> <s> J&otilde;uluhullus oli suurejoonelistele k&auml;ttemaksuplaanidele kriipsu peale t&otilde;mmanud . </s> </p>
+<p> <s>Nukralt meenutati langenud kangelasi ja nende v&auml;gitegusid ... </s> </p>
+<p> <s>&Otilde;llevaadis kihavaid maltoosaskarabeuseid ei pannud humalased mehepojad t&auml;helegi ... </s> <s> H&otilde;iskasid aga laule laulda ja kummutasid kappa , ise kiitsid perenaist , kes &otilde;lle sisse mahlaseid rosinaid m&otilde;istis visata . </s> <s> Laua all v&otilde;imetust vihast podisev sadistp&auml;kapikk sidus k&auml;ttemaksuks meeste kingapaelad kokku , kuid need jumalavallatud ei m&otilde;elnudki p&uuml;sti karata ja kaklusse asuda , vaid j&auml;id sinnasamma norisema . </s> <s> &Auml;rkasid aga hommikul uuesti , et j&auml;rgmist kapat&auml;it n&otilde;uda . </s> <s> Ja nii p&auml;evast p&auml;eva ... </s> <s> Kangete kodu&otilde;lleaurude k&auml;tte too vaene p&auml;kapikk langeski . </s> </p>
+<p> <s>Purgeenpiparkoogid l&auml;ksid poes nagu soojad saiad . </s> <s> Kui relva leiutaja k&otilde;rvu j&otilde;udis , et neid tarvitatakse liigs&ouml;&ouml;misest tekkivate seedeh&auml;irete leevendamiseks , ei olnud mehest enam s&otilde;dijat . </s> <s> Murtud p&auml;kapikk l&auml;ks Piinade Aeda n&auml;rve tohterdama ja peagi pakkus talle seal seltsi ka p&auml;kapikkude l&otilde;ksumeister . </s> </p>
+<p> <s>Nimelt tervitasid pereisad uste taha peidetud j&otilde;uluvanaraudu madalah&auml;&auml;lsete r&otilde;&otilde;muh&otilde;isetega ja kasutasid neid kuusepuude p&uuml;stiseadmiseks . </s> <s> Raudadel olid head teravad hambad ja &uuml;kski kuusk , vabandust , j&otilde;uluvana , ei oleks end suutnud raudade haardest vabaks v&otilde;idelda . </s> </p>
+<p> <s>Keerleva kaagi s&auml;ttisid sadistp&auml;kapikud &uuml;les &uuml;he rahvarohke linna raeplatsile , et selle rafineeritult v&otilde;ika atraktsiooniga j&otilde;ulumeeleolu laastada . </s> <s> Paraku saatis neidki kuulsusetu l&auml;bikukkumine . </s> <s> Esimesed m&ouml;&ouml;dujad k&uuml;ll ehmusid tilpnevate keeltega pooduid n&auml;hes , kuid niipea , kui ratta all s&uuml;ttisid tulukesed ja kaak hakkas pooduid tasakesi keerutades j&otilde;ululaulu tinistama , rauges paanika . </s> <s> Publiku silmad muutusid uduseks , n&auml;od vajusid naerule ning rahvas hakkas innukalt kaasa laulma . </s> <s> Inimesi tuli &uuml;ha juurde , k&otilde;ik &auml;raseletatud ilmega . </s> <s> Hajameelselt tallati maha m&otilde;ned kerjused , kaks vanamutti ja &uuml;ks p&auml;kapikk . </s> <s> Kui inimesed ilmutusele j&auml;rgneval p&auml;eval veidi kainenenuna leidsid , et r&uuml;seluses oli ka hukkasaanuid , kuulutati need pikemalt kaalumata p&uuml;hakuteks . </s> <s> P&auml;kapikuga oli veidi raske , sest keegi ei teadnud ta nime , kuid ka sellest saadi &uuml;le ning nimetati ta P&uuml;haks Tundmatuks P&auml;kapikuks . </s> </p>
+<p> <s>Maa-alune tehas , mis pommikomme tootis , t&ouml;&ouml;tas t&auml;ie hooga . </s> <s> J&otilde;ulup&auml;evaks oli neid salarelvi poetatud kommikottidesse pea igas koolis ja lasteaias . </s> <s> Selle plaaniga lihtsalt ei saanud midagi juhtuda . </s> <s> Juhtus . </s> </p>
+<p> <s>Tagantj&auml;rgi targad v&auml;itsid , et algusest peale oleks pidanud arvestama j&otilde;ulude erit&otilde;vega &mdash; suure shokolaadin&auml;ljaga , millel oli kohati lausa silman&auml;gemist kahjustav toime . </s> <s> S&ouml;&ouml;di ju muule lihtsale kommile lisaks ka shokolaadist j&otilde;uluvanakujusid , r&auml;&auml;kimata shokolaadist oravatest , lumivalgekestest ja isegi p&auml;kapikkudest . </s> </p>
+<p> <s>Asjalood kulgesid j&auml;rgmiselt : salarelvaga kingipaki k&auml;ttesaaja rebis paki lahti ja ahmis esimese hinget&otilde;mbega paar peot&auml;it shokolaadi sisse . </s> <s> Seni kulges k&otilde;ik plaanikohaselt . </s> <s> Allaneelatud pomm plahvatas ja s&ouml;&ouml;ja lendas pisikeste t&uuml;kkidena rahva hulka laiali , m&auml;&auml;rides k&otilde;ik koosolijad vere , sisikonna ja muu paksu ja vedelaga kokku . </s> <s> Ka see oli plaanikohane . </s> <s> K&otilde;ik j&auml;rgnev oli t&auml;ielik l&auml;bikukkumine . </s> <s> K&otilde;iki kohalviibijaid pimestas veendumus , tegemist on kindlasti mingi toreda &uuml;llatusega . </s> <s> M&otilde;ni ettev&otilde;tlikum maitses uudishimulikult tumedaid t&uuml;kikesi ja leidis , et neil oli kerge magusamaitse k&uuml;ljes . </s> </p>
+<p> <s> " Shokolaad ! " r&ouml;&ouml;gatas maitsja ja siis p&auml;&auml;ses rajuliselt m&otilde;jule sadistp&auml;kapikkude poolt unustatud kommi-isu ja silman&auml;gemist reguleeriv j&otilde;ulut&otilde;bi . </s> <s> N&auml;ljane rahvas ei l&otilde;petanud enne , kui k&otilde;ik shokolaadine oli kinni pistetud . </s> <s> Viimseni . </s> <s> &Auml;ra s&ouml;&ouml;di ka m&otilde;ned v&auml;iksemad lapsed ja k&otilde;ik varitsevad p&auml;kapikud . </s> </p>
+<p> <s>&Uuml;ks leiduritest p&auml;&auml;ses ainult hammustusj&auml;lgedega , aga temagi oli murtud mees ja ei saanud tast enam asja . </s> </p>
+<p> <s>Ka t&auml;didest seebikeetmine ei l&otilde;ppenud &otilde;nnelikult . </s> <s> P&uuml;&uuml;ti k&uuml;ll kinni tosin t&auml;di ja pisteti nad patta , aga t&auml;did muudkui kepslesid pajas &uuml;les-alla ja kiljusid , et hoogu juurde , hoogu juurde . </s> <s> Kui katlak&uuml;tja p&auml;ris &auml;ra v&auml;sis , ronisid t&auml;did pajast v&auml;lja , patsutasid teda j&otilde;uetust vastupanust hoolimata p&otilde;sele , n&auml;pistasid l&otilde;uast ning &uuml;tlesid , et tahavad varsti j&auml;lle tulla , sest miski pole nende tselluliidi peale veel nii h&auml;sti m&otilde;junud . </s> <s> Vaene p&auml;kapikk kaotas seda kuuldes viimasegi eluisu . </s> <s> Mehike h&uuml;ppas ise patta ja t&otilde;mbas ka kaane peale . </s> </p>
+<p> <s>Haavulakkuvad sadistp&auml;kapikud leidsid mornilt , et enne , kui j&otilde;ulu veelkord avalikult r&uuml;nnata , peab k&otilde;vasti j&otilde;udu koguma . </s> <s> L&uuml;&uuml;asaamine kisendas aga k&auml;ttemaksu j&auml;rele ja niisama ei kavatsenud nad seda j&auml;tta . </s> </p>
+<p> <s>Vahetpidamata tigedalt turtsudes m&uuml;ttasid vigased leidurid aasta otsa p&auml;kapikuriigi k&otilde;ige s&uuml;gavamates koobastes . </s> <s> L&otilde;puks oli leiutis valmis ja &otilde;iglus jalule seatud . </s> <s> M&otilde;ni v&auml;heke vahetum p&auml;kapikk n&auml;itas inimeste maailmale kanalisatsiooniaugust v&otilde;idur&otilde;&otilde;msalt tr&auml;&auml;sa , et siis naeru k&otilde;kutades ruttu maa-alustesse k&auml;ikudesse kaduda . </s> <s> Oma igap&auml;evaste asjatoimetuste kallale . </s> </p>
+<p> <s>P&auml;kapikud olid nimelt leiutanud erilise k&auml;ttemaksupommi . </s> <s> L&otilde;hkelaengud asusid otse maakera keskel ja neid oli palju . </s> <s> Nii palju , et kui pomm plahvataks , lendaks maakera sajaks t&uuml;kiks ja kukuks alla . </s> <s> S&uuml;&uuml;teseade oli pommi k&otilde;ige geniaalsem osa . </s> <s> Sepistatud oli see suurtest r&auml;nikivilahmakatest ja haljast terasest ning p&auml;kapikkude k&otilde;ige osavamad v&auml;ljam&otilde;tlejad olid selle t&ouml;&ouml;korda seadmisega aasta otsa vaeva n&auml;inud . </s> <s> Parimad sepad katsid selle kaunite sepismustritega ja bardid l&otilde;id suurep&auml;rasest seadmest lugulaule . </s> </p>
+<p> <s>Laulud r&auml;&auml;givad j&auml;rgmist : kui inimsugu kord nii jultunuks l&auml;heb , et j&otilde;ulupidustused juba suvisel p&ouml;&ouml;rip&auml;eval peale hakkavad , plahvatab p&auml;kapikkude k&auml;ttemaksupomm ja maakera lendab k&otilde;rvulukustava k&auml;rakaga vastu taevast . </s> <s> Hirmsad tulise shokolaadi laamad uputavad siis k&otilde;ik t&auml;did ja k&otilde;ik linnad ja ainsatki elushinge ei j&auml;&auml; alles ja p&auml;kapikkude k&auml;ttemaks on kole . </s> <s> See , et nad ise ka kogu t&auml;iega vastu taevast lendavad , ei h&auml;irinud neid hoopiski , sest pidevalt kestva j&otilde;ulu tingimustes ei ole p&auml;kapikuelu niikuinii elamist v&auml;&auml;rt . </s> </p>
+<p> <s>Hoolimata oma kangest meelest ja k&otilde;vast k&auml;ttemaksuhimust lootsid p&auml;kapikud s&uuml;dames , et suure pauguni l&auml;heb siiski veel natukenegi aega ning et nad saavad veel m&otilde;ned aastakesed rahumeelselt r&ouml;&ouml;vida , varastada , piinariistu sepistada , t&auml;disid hirmutada ja muid eluterveid sigadusi teha . </s> </p> </div0> </body> </text> 

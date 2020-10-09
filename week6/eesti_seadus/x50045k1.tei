@@ -1,0 +1,1092 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Mereteenistuse seadus ( terviktekst jaan 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    6177</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Mereteenistuse seadus ( terviktekst jaan 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=329></tagusage>
+         <tagusage gi=s occurs=440></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Mereteenistuse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 8. veebruaril 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 21 , 114 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. aprillil 2001. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses s&auml;testatakse Eesti laevakinnistusraamatusse v&otilde;i laevapereta prahitud laevade registrisse kantud laevadel ( edaspidi Eestis registreeritud laevad ) t&ouml;&ouml;tavate isikute t&ouml;&ouml;suhtega seonduvad erisused .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevat seadust kohaldatakse &sect; 3 l&otilde;ikes 1 s&auml;testatud laevapere liikmele .</s><s>Muu isiku t&ouml;&ouml;suhtele kohaldatakse k&auml;esolevat seadust seadusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>T&ouml;&ouml;seaduste kohaldamise erisused</s>
+</p>
+<p>
+<s>T&ouml;&ouml;suhet reguleerivaid seadusi kohaldatakse k&auml;esoleva seaduse &sect; 1 l&otilde;ikes 2 nimetatud isikutele k&auml;esolevas seaduses s&auml;testatud erisustega .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Laevapere liige</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikmeks k&auml;esoleva seaduse t&auml;henduses on iga laeval t&ouml;&ouml;tav isik , kellega on s&otilde;lmitud meret&ouml;&ouml;leping .</s>
+</p>
+<p>
+<s>( 2 ) Laev mehitatakse meres&otilde;iduohutuse seadusega ( RT I 1998 , 2 , 47 ; 1999 , 95 , 843 ; 2000 , 29 , 171 ) kehtestatud korras laeva k&auml;itamiseks ja ohutuks kasutamiseks vajalike t&ouml;&ouml;tajatega ning vajaduse korral abit&ouml;&ouml;deks ja teenuste osutamiseks teiste t&ouml;&ouml;tajatega , kelle ettevalmistus peab vastama nende t&ouml;&ouml;&uuml;lesannetele .</s>
+</p>
+<p>
+<s>( 3 ) Laevapere liikmed kantakse munsterrolli , mille vormi kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Reeder</s>
+</p>
+<p>
+<s>Reeder k&auml;esoleva seaduse t&auml;henduses on ettev&otilde;tja , kes valdab laeva ja kasutab seda enda nimel ja arvel oma majandustegevuses ja s&otilde;lmib laevapere liikmega meret&ouml;&ouml;lepingu .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Laeva s&otilde;idupiirkonnad</s>
+</p>
+<p>
+<s>( 1 ) Laeva s&otilde;idupiirkonnad k&auml;esoleva seaduse t&auml;henduses on kohaliku rannas&otilde;idu , l&auml;his&otilde;idu- ja rahvusvahelise meres&otilde;idu piirkond .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik rannas&otilde;it on meres&otilde;it Eesti rannikul&auml;hedastes vetes kaugenemisega kaldast kuni 20 miili .</s>
+</p>
+<p>
+<s>( 3 ) L&auml;his&otilde;it on meres&otilde;it L&auml;&auml;nemerel sisenemiseta Kieli kanalisse ja Kattegati v&auml;inas Skageni neeme paralleelist l&otilde;una poole j&auml;&auml;des .</s>
+</p>
+<p>
+<s>( 4 ) Rahvusvaheline meres&otilde;it on meres&otilde;it v&auml;ljaspool kohaliku rannas&otilde;idu piirkonda , mille ajal peatutakse v&auml;lisriigi sadamas .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Seaduse imperatiivsus</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses s&auml;testatust k&otilde;rvalekalduvad kokkulepped laevapere liikme v&otilde;i muu laeval t&ouml;&ouml;tava isiku kahjuks on t&uuml;hised , kui seadusega ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Meret&ouml;&ouml;leping</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Meret&ouml;&ouml;lepingu pooled</s>
+</p>
+<p>
+<s>( 1 ) Meret&ouml;&ouml;lepingu pooled on laevapere liige , kes on v&auml;hemalt 18-aastane , ja reeder v&otilde;i muu t&ouml;&ouml;andja .</s>
+</p>
+<p>
+<s>( 2 ) Erandina v&otilde;ib meret&ouml;&ouml;lepingu s&otilde;lmida reederi loal kapten , kui see on tingitud ohutu meres&otilde;idu j&auml;tkamise vajadusest .</s><s>Meret&ouml;&ouml;lepingu s&otilde;lmimise vajadusest tuleb v&otilde;imaluse korral reederile eelnevalt teatada .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud juhul v&otilde;ib meret&ouml;&ouml;lepingu s&otilde;lmida kuni neljaks kuuks .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevas paragrahvis s&auml;testatud n&otilde;uete rikkumine ei too kaasa meret&ouml;&ouml;lepingu t&uuml;hisust .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Meret&ouml;&ouml;lepingu m&otilde;iste , tingimused ja vorm</s>
+</p>
+<p>
+<s>( 1 ) Meret&ouml;&ouml;leping on reederi v&otilde;i muu t&ouml;&ouml;andja ja laevapere liikme vaheline kokkulepe , mille kohaselt laevapere liige kohustub t&ouml;&ouml;tama reederi huvides , alludes tema juhtimisele ja kontrollimisele , reeder aga kohustub maksma laevapere liikmele t&ouml;&ouml; eest tasu ning tagama talle seaduse , muu &otilde;igusakti , meret&ouml;&ouml;- ja kollektiivlepinguga ning poolte kokkuleppel etten&auml;htud t&ouml;&ouml;tingimused .</s>
+</p>
+<p>
+<s>( 2 ) Meret&ouml;&ouml;leping s&otilde;lmitakse kirjalikult kahes eksemplaris , millest &uuml;ks j&auml;&auml;b reederile , teine laevapere liikmele .</s>
+</p>
+<p>
+<s>( 3 ) Meret&ouml;&ouml;lepingus peavad sisalduma v&auml;hemalt j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) meret&ouml;&ouml;lepingu pooled , sealhulgas laevapere liikme isikuandmed ja isikukood ;</s>
+</p>
+<p>
+<s>2 ) meret&ouml;&ouml;lepingu s&otilde;lmimise aeg ja koht ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;le asumise aeg ja koht ;</s>
+</p>
+<p>
+<s>4 ) m&auml;&auml;ratud ajaks s&otilde;lmitud meret&ouml;&ouml;lepingu l&otilde;ppemise t&auml;htaeg ;</s>
+</p>
+<p>
+<s>5 ) esimene laev , millel laevapere liige t&ouml;&ouml;le asub ;</s>
+</p>
+<p>
+<s>6 ) amet ja t&ouml;&ouml; kirjeldus v&otilde;i viide ametijuhendile ;</s>
+</p>
+<p>
+<s>7 ) t&ouml;&ouml;tasu , t&ouml;&ouml;tasu maksmise viis ja aeg ;</s>
+</p>
+<p>
+<s>8 ) t&ouml;&ouml;aeg ;</s>
+</p>
+<p>
+<s>9 ) laevapere liikme iga-aastase puhkuse kestus ;</s>
+</p>
+<p>
+<s>10 ) meret&ouml;&ouml;lepingu l&otilde;petamisest etteteatamise t&auml;htajad ;</s>
+</p>
+<p>
+<s>11 ) poolte allkirjad .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevas paragrahvis nimetatud vormin&otilde;uete eiramine ei too kaasa lepingu t&uuml;hisust .</s><s>Laevapere liige v&otilde;ib n&otilde;uda meret&ouml;&ouml;lepingu vormistamist vastavalt k&auml;esolevas paragrahvis s&auml;testatule .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Meret&ouml;&ouml;lepingu t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Meret&ouml;&ouml;leping s&otilde;lmitakse :</s>
+</p>
+<p>
+<s>1 ) m&auml;&auml;ramata ajaks ;</s>
+</p>
+<p>
+<s>2 ) m&auml;&auml;ratud ajaks , kuid mitte kauemaks kui viieks aastaks .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;ratud ajaks v&otilde;ib meret&ouml;&ouml;lepingu s&otilde;lmida :</s>
+</p>
+<p>
+<s>1 ) kindlaksm&auml;&auml;ratud reisiks v&otilde;i reisideks ;</s>
+</p>
+<p>
+<s>2 ) teatud t&ouml;&ouml; tegemise ajaks ;</s>
+</p>
+<p>
+<s>3 ) ajutiselt &auml;raoleva laevapere liikme asendamiseks ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;de mahu ajutise suurenemise korral ;</s>
+</p>
+<p>
+<s>5 ) meret&ouml;&ouml;lepingus laevapere liikmele erisoodustuste etten&auml;gemise korral ;</s>
+</p>
+<p>
+<s>6 ) navigatsiooniperioodiks .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Meret&ouml;&ouml;lepingu s&otilde;lmimiseks n&otilde;utavad dokumendid</s>
+</p>
+<p>
+<s>Reeder v&otilde;i muu t&ouml;&ouml;andja v&otilde;ib meret&ouml;&ouml;lepingu s&otilde;lmimiseks laevapere liikmelt n&otilde;uda j&auml;rgmisi dokumente :</s>
+</p>
+<p>
+<s>1 ) isikut t&otilde;endav dokument ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;raamat ;</s>
+</p>
+<p>
+<s>3 ) teenistusraamat v&otilde;i meres&otilde;idutunnistus ;</s>
+</p>
+<p>
+<s>4 ) meres&otilde;idudiplom v&otilde;i kutsetunnistus n&otilde;utava kvalifikatsiooni ja hariduse kohta ;</s>
+</p>
+<p>
+<s>5 ) terviset&otilde;end ;</s>
+</p>
+<p>
+<s>6 ) v&auml;lismaalase puhul elamis- v&otilde;i t&ouml;&ouml;luba ;</s>
+</p>
+<p>
+<s>7 ) muud Veeteede Ameti poolt n&otilde;utavad kvalifikatsiooni t&otilde;endavad dokumendid .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Kohales&otilde;idukulud meret&ouml;&ouml;lepingu s&otilde;lmimisel</s>
+</p>
+<p>
+<s>Kui laevapere liige peab t&ouml;&ouml;le asuma laeval , mis ei asu meret&ouml;&ouml;lepingu s&otilde;lmimise kohas , peab reeder korraldama oma kulul laevapere liikme s&otilde;idu laeva asukohta ning tagama talle toidu ja majutuse kohales&otilde;idu ajal.</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Laevapere liikme &otilde;igused , kohustused ja vastutus</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Laevapere liikme kohustused</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liige on kohustatud :</s>
+</p>
+<p>
+<s>1 ) tegema meret&ouml;&ouml;lepingus ja ametijuhendis etten&auml;htud t&ouml;&ouml;d ;</s>
+</p>
+<p>
+<s>2 ) osalema p&auml;&auml;ste- ja tulet&otilde;rjeharjutustes ;</s>
+</p>
+<p>
+<s>3 ) t&auml;itma ilma erikorralduseta &uuml;lesandeid , mis tulenevad t&ouml;&ouml; iseloomust v&otilde;i t&ouml;&ouml; &uuml;ldisest k&auml;igust ;</s>
+</p>
+<p>
+<s>4 ) hoidma laeva ja sellel olevat vara ;</s>
+</p>
+<p>
+<s>5 ) kandma t&ouml;&ouml;ajal reederi m&auml;&auml;ratud t&ouml;&ouml;- ja eririietust .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liige peab t&auml;itma &otilde;igeaegselt ja t&auml;pselt kapteni v&otilde;i muu p&auml;deva isiku seaduslikke korraldusi .</s>
+</p>
+<p>
+<s>( 3 ) Laevapere liige peab t&auml;itma t&ouml;&ouml;&uuml;lesandeid meret&ouml;&ouml;lepingus etten&auml;htud mahus ning j&auml;rgima kehtestatud sisekorraeeskirju ja t&ouml;&ouml;aega .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Laeva ohutusega seotud korralduste t&auml;itmine</s>
+</p>
+<p>
+<s>( 1 ) Lisaks k&auml;esoleva seaduse &sect;-s 12 nimetatule on laevapere liige kohustatud j&auml;rgima kapteni v&otilde;i muu p&auml;deva isiku korraldusi , mis on vajalikud :</s>
+</p>
+<p>
+<s>1 ) laeval olevaid v&otilde;i teisi isikuid &auml;hvardava ohu v&auml;ltimiseks ;</s>
+</p>
+<p>
+<s>2 ) laeva ohutuse tagamiseks ;</s>
+</p>
+<p>
+<s>3 ) lasti riknemise v&otilde;i h&auml;vimise v&auml;ltimiseks ;</s>
+</p>
+<p>
+<s>4 ) teisi laevu &auml;hvardava ohu v&auml;ltimiseks .</s>
+</p>
+<p>
+<s>( 2 ) Laevahuku korral on laevapere liige kohustatud osalema laeval olevate isikute ja laeva lasti p&auml;&auml;stmisel .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>K&auml;itumine laeval</s>
+</p>
+<p>
+<s>Laevapere liikmed k&auml;ituvad &uuml;ksteise suhtes usalduslikult ja vajaliku viisakusega , edendavad koost&ouml;&ouml;d ning tagavad laeval korra ja ohutuse .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>T&ouml;&ouml; tegemise koht</s>
+</p>
+<p>
+<s>( 1 ) Kui meret&ouml;&ouml;lepingus ei ole kokku lepitud teisiti , on laevapere liige kohustatud t&ouml;&ouml;tama &uuml;ksnes lepingus m&auml;rgitud laeval .</s>
+</p>
+<p>
+<s>( 2 ) Laeva juhtkonda kuuluva isiku v&otilde;ib reeder oma ettev&otilde;tte piires &uuml;mber paigutada teisele laevale , s&auml;ilitades talle v&auml;hemalt senised meret&ouml;&ouml;lepinguga m&auml;&auml;ratud t&ouml;&ouml;tingimused , kui &uuml;mberpaigutamine on ettev&otilde;tte t&ouml;&ouml;korraldust arvestades vajalik ja meret&ouml;&ouml;lepingus ei ole kokku lepitud teisiti .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Laevaloleku kohustus laeva &auml;hvardava ohu korral</s>
+</p>
+<p>
+<s>&Auml;hvardava laevahuku v&otilde;i muu laeval olevaid isikuid &auml;hvardava otsese ohu korral ei lahku laevapere liige laevalt ilma kapteni v&otilde;i teda asendava isiku loata .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Maalemineku&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikmel on laeva sadamas v&otilde;i reidil seismise ajal &otilde;igus v&auml;ljaspool oma t&ouml;&ouml;aega kapteni v&otilde;i teda asendava isiku loal maale minna .</s><s>Loa andmisest v&otilde;ib keelduda , kui kapteni v&otilde;i teda asendava isiku arvates on laevapere liikme laevale j&auml;&auml;mine vajalik laeva , laeval oleva isiku v&otilde;i lasti ohutuse tagamiseks v&otilde;i laeva eelseisva v&auml;ljumisega seotud t&ouml;&ouml;kohustuste t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Vajaduse korral peab kapten korraldama laevapere liikmete maalemineku viisil , mis ei takista t&ouml;&ouml;d laeval ega ole seotud ebam&otilde;istlike kulutustega .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Laevapere liikme &otilde;igus lahkuda laevalt</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liige v&otilde;ib lahkuda laevalt ja n&otilde;uda reederilt t&ouml;&ouml;koha muutmist , kui :</s>
+</p>
+<p>
+<s>1 ) laev , millel laevapere liige on kohustatud t&ouml;&ouml;tama , ei ole merek&otilde;lblik ja kapten ei t&auml;ida oma kohustust kontrollida laeva merek&otilde;lblikkust vastavalt k&auml;esoleva seaduse &sect;-s 33 s&auml;testatule ning kavatseb v&auml;ljuda sadamast ;</s>
+</p>
+<p>
+<s>2 ) laevapere elamistingimused laeval ohustavad laevapere liikme elu v&otilde;i tervist ning reeder ei rakenda olukorra parandamiseks vajalikke abin&otilde;usid ;</s>
+</p>
+<p>
+<s>3 ) laevapere liiget on laeval v&auml;&auml;rkoheldud ja kaptenil ei ole &otilde;nnestunud pakkuda talle kaitset , kuigi kaptenile on vastavatest asjaoludest teatatud ;</s>
+</p>
+<p>
+<s>4 ) laev kaotab &otilde;iguse s&otilde;ita Eesti lipu all ;</s>
+</p>
+<p>
+<s>5 ) meret&ouml;&ouml;leping on s&otilde;lmitud kindlaksm&auml;&auml;ratud reisiks ja laeva s&otilde;idu sihtkohta muudetakse ;</s>
+</p>
+<p>
+<s>6 ) p&auml;rast t&ouml;&ouml; alustamist laeval selgub , et laev v&otilde;ib sattuda v&otilde;&otilde;rv&otilde;imu kontrolli alla v&otilde;i saada vigastada s&otilde;japiirkonnas v&otilde;i et nimetatud oht on m&auml;rgatavalt suurenenud ;</s>
+</p>
+<p>
+<s>7 ) p&auml;rast t&ouml;&ouml; alustamist laeval selgub , et sadam , kuhu on kavas suunduda , on kuulutatud epideemiapiirkonnaks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud juhtudel on laevapere liikmel &otilde;igus laevalt lahkuda enne s&otilde;idu algust v&otilde;i esimeses sadamas , kus laev sildub p&auml;rast nimetatud asjaoludest teadasaamist .</s>
+</p>
+<p>
+<s>( 3 ) Kui laevapere liige k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud juhtudel lahkub laevalt , on reeder kohustatud korraldama oma kulul laevapere liikme kojus&otilde;idu vastavalt k&auml;esoleva seaduse &sect;-s 57 s&auml;testatule v&otilde;i paigutama laevapere liikme t&ouml;&ouml;le muule laevale oma ettev&otilde;ttes .</s><s>Kui laevapere liige asub t&ouml;&ouml;le muul laeval , h&uuml;vitab reeder laevapere liikmele laeva vahetamisega seotud kulud .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Laevapere liikme vastutus reederile tekitatud kahju eest</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liige vastutab meret&ouml;&ouml;lepingu rikkumise korral reederile s&uuml;&uuml;liselt tekitatud kahju eest .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liige , kes t&ouml;&ouml;&uuml;lesannete t&auml;itmisel on kerge hooletusega tekitanud reederile kahju , vastutab reederile tekitatud kahju eest kuni oma keskmise kuupalga ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Laevapere liige , kes t&ouml;&ouml;&uuml;lesannete t&auml;itmisel on raske hooletusega tekitanud reederile kahju , vastutab reederile tekitatud kahju eest kuni oma kaheteistk&uuml;mne keskmise kuupalga ulatuses .</s>
+</p>
+<p>
+<s>( 4 ) Kui laevapere liige on t&ouml;&ouml;&uuml;lesannete t&auml;itmisel tekitanud reederile tahtlikult kahju , on ta kohustatud h&uuml;vitama reederile tekitatud kahju t&auml;ies ulatuses .</s>
+</p>
+<p>
+<s>( 5 ) Laevapere liikme s&uuml;&uuml; t&otilde;endamise kohustus lasub reederil .</s><s>Kui kahju tekkimises on s&uuml;&uuml;di nii reeder kui ka laevapere liige , vastutavad nad proportsionaalselt oma s&uuml;&uuml; astmele .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Reederi ja kapteni kohustused ja vastutus</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Reederi kohustused</s>
+</p>
+<p>
+<s>Reeder on kohustatud :</s>
+</p>
+<p>
+<s>1 ) tagama kaptenile vajalike vahendite olemasolu seadusega etten&auml;htud kohustuste t&auml;itmiseks ;</s>
+</p>
+<p>
+<s>2 ) tagama laevapere liikmele kokkulepitud t&ouml;&ouml; ning andma selgelt ja &otilde;igeaegselt vajalikke korraldusi ;</s>
+</p>
+<p>
+<s>3 ) maksma t&ouml;&ouml; eest tasu meret&ouml;&ouml;lepinguga kindlaksm&auml;&auml;ratud tingimustel ja ajal ;</s>
+</p>
+<p>
+<s>4 ) tagama laeval ohutud t&ouml;&ouml;- ja elamistingimused ;</s>
+</p>
+<p>
+<s>5 ) tutvustama t&ouml;&ouml;lev&otilde;tmisel ja t&ouml;&ouml;tamise ajal laevapere liikmetele sisekorra- , t&ouml;&ouml;ohutus- , t&ouml;&ouml;tervishoiu- , keskkonna- ja tuleohutusn&otilde;udeid laeval ning t&ouml;&ouml;keskkonna ohtlike ja kahjulike m&otilde;jurite taset t&ouml;&ouml;- ja olmeruumides ;</s>
+</p>
+<p>
+<s>6 ) andma etten&auml;htud puhkust ja maksma puhkusetasu ;</s>
+</p>
+<p>
+<s>7 ) tagama t&ouml;&ouml;- ja puhkeaja re&zcaron;iimi ;</s>
+</p>
+<p>
+<s>8 ) t&auml;itma teisi seaduse , muu &otilde;igusakti ning kollektiivlepinguga etten&auml;htud kohustusi .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>T&ouml;&ouml;tasu arvestamise kohustuse tekkimise aeg</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tasu arvestamise kohustus tekib alates laevapere liikme t&ouml;&ouml;le asumise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Kui laev , millel laevapere liige peab t&ouml;&ouml;le asuma , asub v&auml;lisriigis ja meret&ouml;&ouml;lepingu s&otilde;lmimine ei toimu laeva asukohas , tekib t&ouml;&ouml;tasu arvestamise kohustus laevale kohales&otilde;idu alustamise hetkest , kui meret&ouml;&ouml;lepingus ei ole kokku lepitud teisiti .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>T&ouml;&ouml;tasu maksmise aja ja viisiga seonduvad erisused</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tasu makstakse laevapere liikmele iga kuu l&otilde;pus , kui t&ouml;&ouml;tasu maksmiseks ei ole kokku lepitud l&uuml;hemat t&auml;htaega v&otilde;i muud t&auml;htp&auml;eva v&otilde;i kui muu t&auml;htp&auml;ev ei ole m&auml;&auml;ratud seaduse , meret&ouml;&ouml;- v&otilde;i kollektiivlepinguga .</s><s>T&ouml;&ouml;tasu maksmist sularahas v&otilde;ib laevapere liige n&otilde;uda &uuml;ksnes laeva sadamas v&otilde;i reidil seismise ajal.</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liikme avalduse alusel kantakse t&ouml;&ouml;tasu &uuml;le laevapere liikme m&auml;&auml;ratud pangaarvele .</s>
+</p>
+<p>
+<s>( 3 ) Laevapere liikme n&otilde;usolekul v&otilde;ib t&ouml;&ouml;tasu maksta riigi valuutas , mille territoriaalvetes laev t&ouml;&ouml;tasun&otilde;ude tekkimise ajal asub , v&otilde;i muus vabalt konverteeritavas valuutas .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;tasu maksmisega seotud kulud kannab reeder .</s>
+</p>
+<p>
+<s>( 5 ) Kui laevapere liikmete arv etten&auml;gematu s&uuml;ndmuse t&otilde;ttu reisi kestel v&auml;heneb ja seet&otilde;ttu suureneb laevapere liikmete t&ouml;&ouml;koormus , makstakse neile lisatasu laevapere v&auml;henemise t&otilde;ttu reederi poolt v&auml;ljamaksmata t&ouml;&ouml;tasude arvel s&auml;&auml;stetud summa ulatuses .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Teadetetahvel laeva t&ouml;&ouml;korraldusega</s>
+</p>
+<p>
+<s>( 1 ) Teadetetahvel laeva t&ouml;&ouml;korraldusega paigutatakse kergesti ligip&auml;&auml;setavasse kohta ja sellel peab olema :</s>
+</p>
+<p>
+<s>1 ) iga teenistuskoha kohta v&auml;hemalt t&ouml;&ouml;tamise ajakava merel ja sadamas ;</s>
+</p>
+<p>
+<s>2 ) maksimaalne t&ouml;&ouml;aeg ja minimaalne puhkeaeg vastavalt seadusele , muule &otilde;igusaktile v&otilde;i kollektiivlepingule ;</s>
+</p>
+<p>
+<s>3 ) meret&ouml;&ouml;lepingu vorm ;</s>
+</p>
+<p>
+<s>4 ) koopiad t&ouml;&ouml;- ja puhkeaega reguleerivatest seadustest , muudest &otilde;igusaktidest ning vastavad kollektiivlepingud .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud teadetetahvlil peab informatsioon olema eesti ja inglise keeles .</s><s>Teadetetahvel koostatakse standardformaadis .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Laevapere liikme t&ouml;&ouml;- ja eririietus</s>
+</p>
+<p>
+<s>Reeder tagab oma kulul laevapere liikmele t&ouml;&ouml; tegemiseks vajaliku t&ouml;&ouml;- ja eririietuse ning kaitsevahendid .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Ametiriietus</s>
+</p>
+<p>
+<s>Laeva juhtkonna liikmel on kohustus kanda ametiriietust .</s><s>Laeva juhtkonna liikme ametiriietuse ja ametialase eraldusm&auml;rkide kirjelduse kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Toitlustamine</s>
+</p>
+<p>
+<s>( 1 ) Kapten korraldab reederi kulul laevaperele toidu varumise ja laevapere liikme korrap&auml;rase toitlustamise laeval .</s><s>Laevapere liikme toidunormid ja toitlustamise korra laeval kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liikmel on keelatud toitlustamiseks &uuml;leantut v&otilde;&otilde;randamise eesm&auml;rgil laevalt v&auml;lja viia .</s>
+</p>
+<p>
+<s>( 3 ) Kohalikku rannas&otilde;itu sooritaval laeval , kus laevapere liiget ei toitlustata , maksab reeder laevapere liikmele &auml;raj&auml;&auml;nud toitlustamise korral saamata j&auml;&auml;nud toidu eest h&uuml;vitist , mis lisatakse sama kuu t&ouml;&ouml;tasule .</s>
+</p>
+<p>
+<s>( 4 ) Reisi ajal erandlike asjaolude t&otilde;ttu tekkinud toidu- v&otilde;i joogiveevarude ebapiisavuse korral v&otilde;ib kapten toidunorme v&auml;hendada .</s><s>Nimetatud juhul h&uuml;vitatakse laevapere liikmele saamata j&auml;&auml;nud toit reederi ja laevapere liikme vahel kokkulepitud viisil .</s><s>Kapten korraldab erandlike asjaolude t&otilde;ttu tekkinud toidu- v&otilde;i joogiveevarude ebapiisavuse korral laevapere toidu- ja joogiveevarude &uuml;le arvestuse pidamist logiraamatus .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;igetes 3 ja 4 nimetatud h&uuml;vitis maksustatakse samadel alustel nagu toiduratsiooni maksumuse maksustamine .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Majutus</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikmel on laevaloleku ajal &otilde;igus n&otilde;uetele vastavale majutusele .</s><s>N&otilde;uded laevapere liikme laeval majutamise tingimustele kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liikmel on kohustus hoida tema kasutusse antud ruume korras .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>T&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikmele tagatakse meditsiiniabi andmine laeval .</s><s>Meditsiiniabi korraldamise n&otilde;uded laeval ja Eestis registreeritud laeval n&otilde;utava meditsiinivarustuse nimekirja kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liige l&auml;bib eelneva ja perioodilise tervisekontrolli meres&otilde;iduohutuse seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Reederi v&otilde;i kapteni n&otilde;udmisel l&auml;bib laevapere liige ennet&auml;htaegse tervisekontrolli , kui on p&otilde;hjendatud kahtlusi laevapere liikme tervisliku seisundi mittevastavuse suhtes t&ouml;&ouml;ks laeval .</s>
+</p>
+<p>
+<s>4.</s><s>K&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 nimetatud tervisekontrolli kulud kannab reeder , v&auml;lja arvatud meret&ouml;&ouml;lepingu s&otilde;lmimisele eelnev arstlik kontroll , mille kulud kannab isik , kes taotleb meret&ouml;&ouml;lepingu s&otilde;lmimist .</s>
+</p>
+<p>
+<s>( 5 ) Eestis registreeritud laeval tagatakse v&auml;ltimatu arstiabi saamiseks tervishoiuasutuse &ouml;&ouml;p&auml;evaringse riigikeelse raadiokonsultatsiooni v&otilde;imalus .</s><s>Tervishoiuasutuse raadiokonsultatsioonikeskuse asutab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 6 ) Reeder tagab t&ouml;&ouml;tingimused , mis ei kahjusta laevapere liikme elu ja tervist , l&auml;htudes t&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse seadusega ( RT I 1999 , 60 , 616 ; 2000 , 55 , 362 ; 2001 , 17 , 78 ) kehtestatud n&otilde;uetest .</s>
+</p>
+<p>
+<s>( 7 ) Laevapere liikme t&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalast v&auml;lja&otilde;pet korraldab reeder .</s><s>Kapten korraldab laevapere liikme t&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalast juhendamist laeval .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Haigele v&otilde;i vigastatud laevapere liikmele arstiabi andmine</s>
+</p>
+<p>
+<s>( 1 ) Reeder v&otilde;i kapten korraldab merereisi ajal haigestunud v&otilde;i vigastatud laevapere liikmele meditsiiniabi andmist ja laevapere liikme ravi laeval v&otilde;i maal .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liikmele merereisi ajal meditsiiniabi osutamisega seotud kulud ja laevapere liikme vajalikud ravikulud kannab reeder .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Haige v&otilde;i vigastatud laevapere liikme tervishoiuasutusse saatmine</s>
+</p>
+<p>
+<s>( 1 ) Kui laevapere liikme haigus v&otilde;i vigastus ei v&otilde;imalda tema ravimist laeval v&otilde;i kui laevapere liikme haigus on ohtlik tema v&otilde;i teiste laeval olevate isikute elule v&otilde;i tervisele v&otilde;i kui ei ole v&otilde;imalik v&otilde;tta tarvitusele abin&otilde;usid haiguse leviku v&auml;ltimiseks , saadab kapten laevapere liikme tervishoiuasutusse .</s>
+</p>
+<p>
+<s>( 2 ) Kui haige v&otilde;i vigastatud laevapere liige j&auml;etakse ravile v&auml;lisriiki , korraldab kapten temale arstiabi andmise vastavas tervishoiuasutuses ja teatab sellest reederile .</s><s>Kapten teatab laevapere liikme haigusest v&otilde;i vigastusest laevapere liikme nimetatud isikule .</s>
+</p>
+<p>
+<s>( 3 ) Kui haige v&otilde;i vigastatud laevapere liige ei saa hoolitseda laeval oleva oma vara eest , korraldab kapten vara s&auml;ilimise .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevas seaduses s&auml;testatud reederi v&otilde;i kapteni kohustus korraldada haigele v&otilde;i vigastatud laevapere liikmele arsti- ja meditsiiniabi andmist l&otilde;peb , kui laevapere liige lahkub laevalt Eesti Vabariigi territooriumil .</s>
+</p>
+<p>
+<s>( 5 ) Kui laevapere liige on j&auml;etud ravile v&auml;lisriigis , l&otilde;peb reederi v&otilde;i kapteni kohustus korraldada talle arsti- ja meditsiiniabi andmist , kui laevapere liige on j&otilde;udnud Eesti Vabariigi territooriumile .</s>
+</p>
+<p>
+<s>( 6 ) Kui laevapere liige on j&auml;etud ravile v&auml;lisriigis , l&otilde;peb reederi v&otilde;i kapteni kohustus korraldada talle arsti- ja meditsiiniabi andmist ka juhul , kui laevapere liige on &otilde;igustamatult ravi katkestanud .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Tagasis&otilde;idukulud haigestumise v&otilde;i vigastuse korral</s>
+</p>
+<p>
+<s>( 1 ) Haigestumise v&otilde;i vigastuse t&otilde;ttu tervishoiuasutusse saadetud laevapere liikme laevale tagasis&otilde;idu kulud koos kulutustega toidule ja majutusele tagasis&otilde;idu ajal kannab reeder .</s>
+</p>
+<p>
+<s>( 2 ) Kui haigestumise v&otilde;i vigastuse t&otilde;ttu v&auml;lisriigis ravile j&auml;etud laevapere liige ei saa p&auml;rast ravi l&otilde;ppemist laevale tagasi p&ouml;&ouml;rduda , korraldab reeder tema tagasis&otilde;idu vastavalt k&auml;esoleva seaduse &sect;-s 57 s&auml;testatule .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Laevapere liikme p&otilde;hjustatud haigus v&otilde;i vigastus</s>
+</p>
+<p>
+<s>Kui haigus v&otilde;i vigastus tekkis laevapere liikme tahtlikkuse v&otilde;i raske hooletuse tagaj&auml;rjel , samuti juhul , kui laevapere liige on tahtlikult varjanud oma tervislikku seisundit , v&otilde;ib reeder n&otilde;uda laevapere liikmelt enda kantud , k&auml;esoleva seaduse &sect;-des 29-31 s&auml;testatud kulude h&uuml;vitamist vastavalt k&auml;esoleva seaduse &sect; 19 l&otilde;ikele 1.</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Laeva merek&otilde;lblikkuse kontrollimine</s>
+</p>
+<p>
+<s>( 1 ) Kui &uuml;le poole laevapere liikmetest n&otilde;uab kaptenilt laeva merek&otilde;lblikkuse kontrollimist v&otilde;i kui seda n&otilde;uab vanemt&uuml;&uuml;rimees v&otilde;i vanemmehaanik nende vastutusel oleva laevaosa v&otilde;i varustuse suhtes , p&ouml;&ouml;rdub kapten merek&otilde;lblikkuse kontrollimiseks Eestis registreeritud laeva &uuml;le riiklikku j&auml;relevalvet teostava asutuse poole .</s>
+</p>
+<p>
+<s>( 2 ) Kui kontrollimise tulemusena selgub , et k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud n&otilde;ue esitati pahauskselt , h&uuml;vitavad n&otilde;ude esitanud laevapere liikmed sellega reederile tekitatud kahju .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Kord laeval</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikmed ja teised laeval viibivad isikud peavad alluma kapteni &otilde;igusp&auml;rastele korraldustele .</s>
+</p>
+<p>
+<s>( 2 ) Kapten tagab korra ja julgeoleku laeval ning on seadusega etten&auml;htud juhtudel ja korras &otilde;igustatud v&otilde;tma selleks tarvitusele vajalikke abin&otilde;usid .</s>
+</p>
+<p>
+<s>( 3 ) Laeva , sellel viibivat isikut v&otilde;i lasti &auml;hvardava ohu korral , samuti laevapere liikme allumatuse v&otilde;i vastuhaku korral v&otilde;i muudel h&auml;dajuhtudel v&otilde;ib kapten ohu t&otilde;rjumiseks kasutada vajalikke sunnivahendeid .</s>
+</p>
+<p>
+<s>( 4 ) Sunnivahendite kohaldamine v&otilde;i korda rikkuvalt isikult vabaduse ajutine v&otilde;tmine on lubatud , kui muude sunnivahendite kasutamine ei ole otstarbekas v&otilde;i v&otilde;imalik .</s><s>Vabaduse v&otilde;tmist v&otilde;ib kohaldada &uuml;ksnes juhul , kui see on vajalik k&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 nimetatud kohustuste t&auml;itmiseks .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Isikute laevale toomine</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liige ei v&otilde;i ilma kapteni v&otilde;i teda asendava isiku loata tuua laevale k&otilde;rvalisi isikuid .</s>
+</p>
+<p>
+<s>( 2 ) Kui laev asub sadamas , ei v&otilde;i kapten v&otilde;i teda asendav isik keelduda loa andmisest laevapere liikme perekonnaliikme laevale toomiseks , kui see ei takista t&ouml;&ouml;d laeval .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Asjade laevale toomine</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liige v&otilde;ib laevale tuua isiklikuks tarbimiseks v&otilde;i kasutamiseks m&otilde;eldud asju koguses , mis on reisi kestust ja iseloomu arvestades m&otilde;istlik .</s><s>Laevapere liikmele tagatakse kindel panipaik isiklike asjade hoidmiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetamata asju v&otilde;ib laevapere liige laevale tuua kapteni n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 3 ) Keelatud on laevale tuua asju , mille hoidmine v&otilde;i vedamine laeval on keelatud v&otilde;i mis ohustavad laeva , laeval viibivat isikut v&otilde;i lasti .</s><s>Alkoholi v&otilde;i narkootilisi aineid sisaldava ravimi laevale toomine laevapere liikme poolt on lubatud &uuml;ksnes kapteni loal .</s>
+</p>
+<p>
+<s>( 4 ) Kui asi on laevale toodud k&auml;esoleva paragrahvi l&otilde;igetes 1-3 s&auml;testatut rikkudes , v&otilde;ib kapten selle enda valdusse v&otilde;tta ja hoiustada .</s><s>Kui asi ohustab laeva , laeval viibivat isikut v&otilde;i lasti v&otilde;i kui asja hoidmine laeval v&otilde;ib kaasa tuua ametiv&otilde;imude sekkumise , v&otilde;ib kapten n&otilde;uda asja k&otilde;rvaldamist laevalt .</s><s>Kui laevapere liige asja ei k&otilde;rvalda , v&otilde;ib kapten v&otilde;tta tarvitusele meetmed selle k&otilde;rvaldamiseks laevalt v&otilde;i asja h&auml;vitada .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;igetes 1-3 s&auml;testatut rikkudes laevale toodud asja eest peab laevapere liige maksma reederile tavaliselt selletaolise asja vedamise eest v&otilde;lgnetavat tasu .</s>
+</p>
+<p>
+<s>( 6 ) Kui kaptenil on p&otilde;hjendatud kahtlusi , et laevale on toodud asju k&auml;esoleva paragrahvi l&otilde;igetes 1-3 s&auml;testatut rikkudes , v&otilde;ib ta korraldada laevapere ruumide ja panipaikade l&auml;biotsimise asjassepuutuvate isikute juuresolekul .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Laevapere liikme asjade h&auml;vimine v&otilde;i kahjustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 36 l&otilde;ikes 1 nimetatud asjade h&auml;vimise v&otilde;i kahjustumise korral laeva&otilde;nnetuse , laevahuku v&otilde;i reederist tuleneva asjaolu t&otilde;ttu , h&uuml;vitab reeder laevapere liikmele tekkinud kahju kaubandusliku meres&otilde;idu koodeksis ( RT 1991 , 46-48 , 577 ; RT I 1993 , 65 , 923 ; 1995 , 54 , 882 ; 1996 , 78 , 1380 ; 1997 , 77 , 1315 ; 1998 , 2 , 47 ; 23 , 321 ; 30 , 409 ; 2000 , 35 , 221 ; 2001 , 21 , 114 ; 93 , 565 ; 2002 , 1 , 1 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Muude asjade h&auml;vimise v&otilde;i kahjustumise korral h&uuml;vitatakse kahju laevapere liikmele vastavalt poolte kokkuleppele .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Reederi ja kapteni kohustused laevapere liikme surma korral</s>
+</p>
+<p>
+<s>( 1 ) Kui laevapere liige sureb laeval v&otilde;i v&auml;ljaspool Eesti Vabariigi territooriumi laeval t&ouml;&ouml;tamise ajal v&otilde;i ajal , kui reeder v&otilde;i kapten on kohustatud korraldama haigele v&otilde;i vigastatud laevapere liikmele arstiabi andmist , v&otilde;i ajal , kui laevapere liige s&otilde;idab reederi kulul t&ouml;&ouml;tamiskohta v&otilde;i tagasi , teatab reeder v&otilde;i kapten laevapere liikme surmast tema perekonnaliikmele ja korraldab surnukeha toimetamise Eesti Vabariigi territooriumile .</s>
+</p>
+<p>
+<s>( 2 ) Kui surnukeha ei ole v&otilde;imalik toimetada Eesti Vabariigi territooriumile , v&otilde;ib surnu perekonnaliikme n&otilde;usolekul korraldada surnukeha tuhastamise .</s>
+</p>
+<p>
+<s>( 3 ) Kui surnukeha ei ole v&otilde;imalik hoida laeval kuni laeva v&auml;lisriigi sadamasse sisenemiseni v&otilde;i see ohustab laeval viibivate isikute tervist v&otilde;i elu- ja t&ouml;&ouml;keskkonda , v&otilde;ib surnukeha matta merel .</s><s>Matmise merel v&otilde;ib korraldada ka surnud laevapere liikme perekonnaliikme taotlusel .</s>
+</p>
+<p>
+<s>( 4 ) Matmine merel on keelatud , kui tegemist on kuriteo ohvriga v&otilde;i kui surma p&otilde;hjus on teadmata .</s>
+</p>
+<p>
+<s>( 5 ) Surnud laevapere liikme vara hoidmise korraldab ja vara s&auml;ilimise eest vastutab kapten .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Laevapere liikme surmaga kaasnevate kulude kandmine</s>
+</p>
+<p>
+<s>( 1 ) Reeder kannab laevapere liikme surnukeha Eesti Vabariigi territooriumile toimetamise kulud .</s>
+</p>
+<p>
+<s>( 2 ) Kui laevapere liikme surnukeha ei tooda Eesti Vabariigi territooriumile v&otilde;i kui laevapere liige suri t&ouml;&ouml;kohustuste t&auml;itmisel , kannab reeder laevapere liikme matmise v&otilde;i surnukeha tuhastamise kulud .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Puhkusega seonduvad erisused</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Laevapere liikme puhkus</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikmel on &otilde;igus iga-aastasele tasustatud p&otilde;hipuhkusele kestusega 28 p&auml;eva v&otilde;i vastavalt t&ouml;&ouml;tatud ajale , kui on t&ouml;&ouml;tatud alla &uuml;he aasta .</s>
+</p>
+<p>
+<s>( 2 ) Iga-aastast tasustatud p&otilde;hipuhkust ei v&otilde;i h&uuml;vitada rahas , v&auml;lja arvatud t&ouml;&ouml;suhte l&otilde;petamisel .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Puhkuse andmise koht</s>
+</p>
+<p>
+<s>( 1 ) Puhkus tuleb laevapere liikmele anda Eesti Vabariigi territooriumil , kui pooled ei ole kokku leppinud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Puhkuse andmisel peab reeder korraldama laevapere liikme kojus&otilde;idu k&auml;esoleva seaduse &sect;-s 57 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Puhkuse kestuse aja hulka ei arvata laevapere liikme kojus&otilde;idu ja laevale tagasis&otilde;idu aega .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 s&auml;testatut kohaldatakse juhul , kui laev , millel laevapere liige peab p&auml;rast puhkuse l&otilde;ppemist t&ouml;&ouml;le asuma , asub v&auml;ljaspool Eesti Vabariigi territooriumi .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Laevapere liikme &otilde;igus puhkusele p&auml;rast kuuekuulist katkestuseta t&ouml;&ouml;tamist</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikmel on p&auml;rast kuuekuulist katkestuseta t&ouml;&ouml;tamist samal laeval v&otilde;i sama reederi laeval &otilde;igus puhkusele .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liige peab k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud juhul puhkuse soovist kaptenile teatama kaks n&auml;dalat ette .</s>
+</p>
+<p>
+<s>( 3 ) Puhkuse andmise kohustus tekib p&auml;rast k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud t&auml;htaja m&ouml;&ouml;dumist , kui laev siseneb sadamasse .</s><s>Puhkuse andmise kohustust ei teki sadamas , kuhu laev siseneb punkerdamiseks , haige v&otilde;i vigastatud isiku kaldale viimiseks v&otilde;i m&otilde;ne muu etten&auml;gematu s&uuml;ndmuse t&otilde;ttu ja kust laevapere liikme kojusaatmine ei ole m&otilde;istlikult korraldatav .</s>
+</p>
+<p>
+<s>( 4 ) Laevapere liige j&auml;tkab p&auml;rast talle puhkuse andmise kohustuse tekkimist t&ouml;&ouml;d maksimaalselt &uuml;he kuu jooksul , kui talle ei leita vajalikku asendajat v&otilde;i kui on alust arvata , et selle aja jooksul j&otilde;utakse sadamasse , kust laevapere liikme kojus&otilde;itu vastavalt k&auml;esoleva seaduse &sect;-s 57 s&auml;testatule on lihtsam ja odavam korraldada .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;ajaga seonduvad erisused</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>T&ouml;&ouml;aja summeeritud arvestuse kohaldamise erisused</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikmele on lubatud kohaldada t&ouml;&ouml;aja summeeritud arvestust kuni kuuekuulise ajavahemiku ulatuses k&auml;esolevast seadusest tulenevate erisustega .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;aja summeeritud arvestuse arvestusperioodi m&auml;&auml;ramisel ei kohaldata t&ouml;&ouml;- ja puhkeaja seaduse ( RT I 1994 , 2 , 12 ; 1995 , 12 , 120 ) &sect; 23 l&otilde;ikes 3 s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>T&ouml;&ouml;- ja puhkeaja piirangud</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;aja summeeritud arvestuse kohaldamisel ei v&otilde;i laevapere liikme t&ouml;&ouml;aeg &uuml;letada 12 tundi mis tahes 24-tunnise perioodi jooksul ja 60 tundi mis tahes seitsmep&auml;evase perioodi jooksul tingimusel , et j&auml;rgitakse k&auml;esoleva paragrahvi l&otilde;ikes 3 , k&auml;esoleva seaduse &sect; 45 l&otilde;ikes 2 ja &sect; 48 l&otilde;ikes 1 s&auml;testatud piiranguid .</s>
+</p>
+<p>
+<s>( 2 ) L&auml;his&otilde;itu sooritaval laeval , mille laevapere liikmete t&ouml;&ouml;ts&uuml;kli pikkus ei &uuml;leta kahte n&auml;dalat , ei v&otilde;i t&ouml;&ouml;aeg &uuml;letada 14 tundi mis tahes 24-tunnise perioodi jooksul ja 72 tundi mis tahes seitsmep&auml;evase perioodi jooksul .</s><s>&Uuml;letunnit&ouml;&ouml; tegemine k&auml;esolevas l&otilde;ikes s&auml;testatud piirnorme &uuml;letavalt on keelatud .</s>
+</p>
+<p>
+<s>( 3 ) Laevapere liikme puhkeaja mis tahes 24-tunnise perioodi jooksul v&otilde;ib jagada kaheks osaks , millest &uuml;he pikkus peab olema v&auml;hemalt kuus tundi .</s><s>J&auml;rjestikuste puhkeajaperioodide vaheline ajavahemik ei v&otilde;i &uuml;letada 14 tundi .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>( 4 ) Laevapere liikmete suhtes on t&ouml;&ouml;andja asukoha ( elukoha ) t&ouml;&ouml;inspektori n&otilde;usolekul erandina lubatud rakendada k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatust pikema t&ouml;&ouml;tundide arvuga t&ouml;&ouml;p&auml;eva .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Vahiteenistuses osalevate laevapere liikmete t&ouml;&ouml;aja re&zcaron;iim</s>
+</p>
+<p>
+<s>( 1 ) Vahiteenistuses osalevate laevapere liikmete t&ouml;&ouml;aeg tuleb jagada vahtidesse , kui merereis kestab katkestamatult v&auml;hemalt 12 tundi .</s>
+</p>
+<p>
+<s>( 2 ) Vahiteenistuses osalevate laevapere liikmete vahtide vahelise puhkeaja mis tahes 24-tunnise perioodi jooksul v&otilde;ib jagada kaheks osaks , millest &uuml;he pikkus peab olema v&auml;hemalt kuus tundi .</s><s>J&auml;rjestikuste puhkeajaperioodide vaheline ajavahemik ei v&otilde;i &uuml;letada 14 tundi .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Vahiteenistuses mitteosalevate laevapere liikmete t&ouml;&ouml;aja re&zcaron;iim</s>
+</p>
+<p>
+<s>( 1 ) Vahiteenistuses mitteosalevate laevapere liikmete t&ouml;&ouml;aeg peab olema ajavahemikus kella 6.00-st kuni 20.00-ni laeva aja j&auml;rgi , kui see on t&ouml;&ouml; iseloomu arvestades v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 2 ) Ajavahemikus kella 20.00-st kuni 6.00-ni ning p&uuml;hap&auml;eval v&otilde;i riigip&uuml;hal v&otilde;ib vahiteenistuses mitteosalevaid laevapere liikmeid rakendada t&ouml;&ouml;le &uuml;ksnes edasil&uuml;kkamatute t&ouml;&ouml;de tegemiseks , v&auml;lja arvatud juhul , kui laevapere liikme t&ouml;&ouml; iseloom n&otilde;uab t&ouml;&ouml;tamist vastaval ajal.</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Valveaeg</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikme valveajaks on aeg , millal ta on vastavalt temaga s&otilde;lmitud meret&ouml;&ouml;lepingule kohustatud t&ouml;&ouml;ts&uuml;kli ajal viibima laeval ka oma puhkeajal , olemaks k&auml;ttesaadav etten&auml;gematute ja edasil&uuml;kkamatute t&ouml;&ouml;de tegemiseks .</s><s>Valveaega ei arvata t&ouml;&ouml;aja hulka .</s>
+</p>
+<p>
+<s>( 2 ) Valveaja eest maksab reeder laevapere liikmele lisatasu v&otilde;i h&uuml;vitab valveaja lisapuhkeaja andmisega .</s>
+</p>
+<p>
+<s>( 3 ) Valveaja kestus , rakendamise kord ja lisatasu suurus v&otilde;i lisapuhkeaja kestus m&auml;&auml;ratakse meret&ouml;&ouml;- v&otilde;i kollektiivlepinguga .</s>
+</p>
+<p>
+<s>( 4 ) Laevapere liikme suhtes ei kohaldata t&ouml;&ouml;- ja puhkeaja seaduses s&auml;testatud valveaja piirangut .</s>
+</p>
+<p>
+<s>( 5 ) Kapten v&otilde;i teda asendav isik on kohustatud andma k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud juhul laevapere liikmele loa v&auml;ljaspool t&ouml;&ouml;aega maaleminekuks v&auml;hemalt &uuml;ks kord kuuajalise t&ouml;&ouml;ts&uuml;kli jooksul samadel tingimustel teiste laevapere liikmetega .</s><s>Kui t&ouml;&ouml;ts&uuml;kli pikkus on l&uuml;hem kui &uuml;ks kuu , antakse luba v&auml;hemalt &uuml;ks kord &uuml;he t&ouml;&ouml;ts&uuml;kli jooksul .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>&Uuml;letunnit&ouml;&ouml; tegemine</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liige v&otilde;ib &uuml;letunnit&ouml;&ouml;d teha kuni kuus tundi mis tahes 24-tunnise perioodi jooksul , kusjuures laevapere liikme t&ouml;&ouml;aeg koos &uuml;letunnit&ouml;&ouml;ga ei v&otilde;i &uuml;letada 14 tundi mis tahes 24-tunnise perioodi jooksul ja 72 tundi mis tahes seitsmep&auml;evase perioodi jooksul .</s><s>T&ouml;&ouml;tajale tuleb tagada k&auml;esoleva seaduse &sect; 44 l&otilde;ikes 3 ja &sect; 45 l&otilde;ikes 2 s&auml;testatud puhkeaeg .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liikme suhtes ei kohaldata t&ouml;&ouml;- ja puhkeaja seaduses s&auml;testatud &uuml;letunnit&ouml;&ouml; piirnorme .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Laeva ohutusega seotud edasil&uuml;kkamatud t&ouml;&ouml;d</s>
+</p>
+<p>
+<s>( 1 ) Kapten v&otilde;ib laevapere liikmelt n&otilde;uda t&ouml;&ouml; tegemist , kui see on seotud laeva , selle pardal olevate isikute v&otilde;i lasti ohutuse tagamisega v&otilde;i eesm&auml;rgiga abistada mereh&auml;das olevaid isikuid v&otilde;i laevu .</s><s>T&ouml;&ouml; tegemist v&otilde;ib n&otilde;uda seni , kuni on taastunud normaalne olukord .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-des 44-48 s&auml;testatud piiranguid t&ouml;&ouml;ajale ei kohaldata laeva ohutusega seotud edasil&uuml;kkamatute t&ouml;&ouml;de tegemisel .</s><s>Nimetatud alusel tehtud t&ouml;&ouml; ei ole &uuml;letunnit&ouml;&ouml; .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud t&ouml;&ouml;de l&otilde;petamist peab kapten laevapere liikmele , kes oli t&ouml;&ouml;l graafikuj&auml;rgselt etten&auml;htud puhkeajal , v&otilde;imaldama sama pikkusega puhkeajaperioodi .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 12 l&otilde;ike 1 punktis 2 nimetatud p&auml;&auml;ste- ja tulet&otilde;rjeharjutused tuleb v&otilde;imaluse korral korraldada viisil , mis v&otilde;imalikult v&auml;he segaks laevapere liikme puhkeaja kasutamist .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>&Otilde;htuse ja &ouml;&ouml;t&ouml;&ouml; h&uuml;vitamise erisused</s>
+</p>
+<p>
+<s>Laevapere liikme suhtes ei kohaldata palgaseaduses ( RT I 1994 , 11 , 154 ; 1995 , 12 , 120 ; 1999 , 29 , 397 ; 2000 , 10 , 59 ; 40 , 248 ; 2001 , 42 , 233 ; 50 , 287 ) s&auml;testatud lisatasu maksmist &otilde;htuse ja &ouml;&ouml;t&ouml;&ouml; eest .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Arvestuse pidamine laevapere liikme t&ouml;&ouml;- ja puhkeaja kohta</s>
+</p>
+<p>
+<s>Kapten peab laevapere liikme t&ouml;&ouml;- ja puhkeaja arvestust .</s><s>Laevapere liikmel on &otilde;igus saada arvestuse koopia .</s><s>T&ouml;&ouml;- ja puhkeaja arvestuse pidamise korra ja vormi kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Distsiplinaarkaristuse m&auml;&auml;ramisega seonduvad erisused</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Laevapere liikme s&uuml;&uuml;teo arutamise kord merereisi ajal</s>
+</p>
+<p>
+<s>( 1 ) Kui laevapere liiget kahtlustatakse merereisi ajal distsiplinaars&uuml;&uuml;teo toimepanemises , arutatakse seda tegu ja langetatakse otsus 14 p&auml;eva jooksul komisjonis , mis koosneb kolmest laevapere liikmest .</s>
+</p>
+<p>
+<s>( 2 ) Komisjoni esimeheks on kapten .</s><s>Kui teo toimepanemises kahtlustatakse laevapere liiget , kes kuulub laeva juhtkonda , nimetab kapten &uuml;lej&auml;&auml;nud kaks komisjoni liiget laeva juhtkonda kuuluvate isikute hulgast .</s><s>Kui teo toimepanemises kahtlustatakse laevapere liiget , kes ei kuulu laeva juhtkonda , nimetab kapten &uuml;he komisjoni liikme laeva juhtkonda kuuluvate isikute hulgast , teise valivad laevapere liikmed .</s><s>Komisjoni esimees nimetab laevapere liikmete hulgast protokollija .</s>
+</p>
+<p>
+<s>( 3 ) Teo arutamisel on asjaomasel laevapere liikmel &otilde;igus anda seletusi .</s><s>Komisjoni liikmed v&otilde;ivad esitada k&uuml;simusi nii asjaomasele laevapere liikmele kui ka teistele isikutele , kelle &uuml;tlustel v&otilde;ib teo arutamisel t&auml;htsust olla .</s><s>Otsus tehakse h&auml;&auml;lteenamusega .</s><s>K&uuml;simused , seletused , vastused ja komisjoni p&otilde;hjendatud otsus protokollitakse ning loetakse asjaosalisele ette .</s><s>Protokolli &otilde;igsust kinnitavad komisjoni liikmed oma allkirjaga .</s><s>Protokollile v&otilde;etakse ka asjaomase laevapere liikme allkiri .</s><s>Kui asjaomane laevapere liige keeldub protokollile alla kirjutamast , teeb protokollija selle kohta protokolli m&auml;rkuse .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Distsiplinaarkaristuse m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Kui komisjon tuvastab laevapere liikme s&uuml;&uuml; , m&auml;&auml;ratakse talle distsiplinaarkaristus , informeerides sellest reederit enne kapteni k&auml;skkirja kehtestamist .</s>
+</p>
+<p>
+<s>( 2 ) Kui komisjon otsustab , et distsiplinaarkaristusena tuleb kohaldada meret&ouml;&ouml;lepingu l&otilde;petamist , edastab kapten komisjoni kogutud materjalid reederile .</s><s>Reeder peab tegema otsuse kohaldatava distsiplinaarkaristuse kohta 30 p&auml;eva jooksul materjalide k&auml;ttesaamisest arvates , aga mitte hiljem kui kuue kuu jooksul teo toimepanemisest arvates .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast reederi poolt otsuse langetamist toimib kapten reederilt saadud korralduste alusel .</s>
+</p>
+<p>
+<s>( 4 ) Komisjoni otsusega mitten&otilde;ustumise korral on asjaomasel laevapere liikmel &otilde;igus p&ouml;&ouml;rduda t&ouml;&ouml;vaidluskomisjoni v&otilde;i kohtusse &uuml;he kuu jooksul , arvates p&auml;evast , mis j&auml;rgnes p&auml;evale , millal ta p&ouml;&ouml;rdus tagasi Eesti Vabariigi territooriumile .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Meret&ouml;&ouml;lepingu l&otilde;ppemisega seonduvad erisused</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Laevapere liikme j&auml;me t&ouml;&ouml;kohustuste rikkumine</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liikme j&auml;medaks t&ouml;&ouml;kohustuste rikkumiseks k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) tahtlik v&otilde;i raskelt hooletu laevale saabumata j&auml;&auml;mine oma t&ouml;&ouml;aja alguseks v&otilde;i laeva v&auml;ljumise ajaks ;</s>
+</p>
+<p>
+<s>2 ) omavoliline lahkumine laevalt oma t&ouml;&ouml;ajal ;</s>
+</p>
+<p>
+<s>3 ) laeval olemine alkohoolses , narkootilises v&otilde;i toksilises joobes ;</s>
+</p>
+<p>
+<s>4 ) narkootiliste v&otilde;i ohtlike ainete laevale toomine ;</s>
+</p>
+<p>
+<s>5 ) tegelemine salakaubaveoga ;</s>
+</p>
+<p>
+<s>6 ) tegevus , mis seab reaalsesse ohtu laeva , laeval viibiva isiku v&otilde;i laeva lasti .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud alustel on reederil v&otilde;i muul t&ouml;&ouml;andjal &otilde;igus l&otilde;petada meret&ouml;&ouml;leping ette teatamata ja h&uuml;vitist maksmata .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Meret&ouml;&ouml;lepingu l&otilde;ppemine laeva merek&otilde;lbmatuks muutumise ja laevahuku korral</s>
+</p>
+<p>
+<s>( 1 ) Kui laev muutub merek&otilde;lbmatuks v&otilde;i toimub laevahukk , on reederil &otilde;igus l&otilde;petada meret&ouml;&ouml;leping laevapere liikmega koondamise t&otilde;ttu , kui reederil ei ole v&otilde;imalik pakkuda laevapere liikmele t&ouml;&ouml;d muul laeval oma ettev&otilde;ttes .</s>
+</p>
+<p>
+<s>( 2 ) Laevahuku korral on reederil &otilde;igus l&otilde;petada meret&ouml;&ouml;leping laevapere liikmele ette teatamata .</s>
+</p>
+<p>
+<s>( 3 ) Laeva merek&otilde;lbmatuks muutumise korral avarii tagaj&auml;rjel teatab reeder meret&ouml;&ouml;lepingu l&otilde;petamisest laevapere liikmele viis p&auml;eva ette .</s>
+</p>
+<p>
+<s>( 4 ) Laevapere liikmega kindlaksm&auml;&auml;ratud reisiks s&otilde;lmitud meret&ouml;&ouml;leping l&otilde;peb seda reisi tegeva laeva avarii tagaj&auml;rjel merek&otilde;lbmatuks muutumise v&otilde;i laevahuku korral .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Meret&ouml;&ouml;lepingu pikenemine</s>
+</p>
+<p>
+<s>( 1 ) Kui meret&ouml;&ouml;lepingu l&otilde;ppemise aeg saabub laeva mereloleku ajal , loetakse leping pikenenuks kuni laeva esimesse sadamasse j&otilde;udmiseni .</s>
+</p>
+<p>
+<s>( 2 ) Meret&ouml;&ouml;leping ei l&otilde;pe k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud juhtudel sadamas , kuhu laev siseneb ainult punkerdamiseks , haige v&otilde;i vigastatud isiku kaldale viimiseks v&otilde;i m&otilde;ne muu etten&auml;gematu s&uuml;ndmuse t&otilde;ttu ja kui laevapere liikme kojusaatmine ei ole m&otilde;istlikult korraldatav .</s>
+</p>
+<p>
+<s>( 3 ) Kui laevapere liige j&auml;tkab t&ouml;&ouml;d p&auml;rast k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud sadamasse j&otilde;udmist reederi v&otilde;i kapteni ettepanekul , loetakse meret&ouml;&ouml;leping pikenenuks m&auml;&auml;ramata ajaks , kui ei ole kokku lepitud teisiti .</s><s>Kui t&ouml;&ouml;d j&auml;tkatakse reederi v&otilde;i kapteni n&otilde;udmisel asendaja leidmiseni , kohaldatakse k&auml;esoleva paragrahvi l&otilde;ikes 4 s&auml;testatut .</s>
+</p>
+<p>
+<s>( 4 ) Laevapere liige peab reederi v&otilde;i kapteni n&otilde;udmisel p&auml;rast k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud sadamasse j&otilde;udmist j&auml;tkama t&ouml;&ouml;tamist kuni n&auml;dal aega , kui laevapere liikme ametikohale ei ole leitud asendajat .</s>
+</p>
+<p>
+<s>( 5 ) Kui v&auml;lisriigi v&otilde;imud ei luba laevapere liiget maale t&ouml;&ouml;lt lahkumise kohal v&otilde;i n&otilde;uavad tema k&auml;est tagatisi , mida laevapere liige ei saa anda , loetakse meret&ouml;&ouml;leping pikenenuks kuni laeva j&otilde;udmiseni sadamasse , kus ei ole k&auml;esolevas l&otilde;ikes nimetatud takistusi .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Laevapere liikme kojus&otilde;idu korraldamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Meret&ouml;&ouml;lepingu l&otilde;ppemisel korraldab reeder oma kulul laevapere liikme s&otilde;idu , eelistatult &otilde;hutransporti kasutades , tema soovil kas :</s>
+</p>
+<p>
+<s>1 ) Eesti Vabariigi territooriumile ,</s>
+</p>
+<p>
+<s>2 ) laevapere liikme elukohariiki ,</s>
+</p>
+<p>
+<s>3 ) kollektiivlepingus kindlaksm&auml;&auml;ratud kohta ,</s>
+</p>
+<p>
+<s>4 ) laeva v&auml;ljas&otilde;idu sadamasse ,</s>
+</p>
+<p>
+<s>5 ) meret&ouml;&ouml;lepingu s&otilde;lmimise kohta v&otilde;i</s>
+</p>
+<p>
+<s>6 ) kohta , milles lepiti kokku meret&ouml;&ouml;lepingu s&otilde;lmimisel .</s>
+</p>
+<p>
+<s>( 2 ) Reeder kannab laevapere liikme toidu- ja majutuskulud alates tema lahkumisest laevalt kuni saabumiseni sihtkohta ning laevapere liikme kuni 20 kg raskuse pagasi sihtkohta transportimise kulud .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud reederi kohustused loetakse t&auml;idetuks ka siis , kui laevapere liige on keeldunud temale vastavalt l&otilde;ikele 1 korraldatavast s&otilde;idust .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud reederi kohustused ei ole t&auml;idetud , kui laevapere liiget ei lubata l&otilde;ikes 1 nimetatud riigi territooriumile v&otilde;i n&otilde;utakse selleks tagatisi , mida laevapere liige ei ole suuteline andma .</s>
+</p>
+<p>
+<s>( 5 ) Kui laevapere liikmega s&otilde;lmitud meret&ouml;&ouml;leping l&otilde;petati laevapere liikme t&ouml;&ouml;kohustuste rikkumise , laevapere liikme suhtes usalduse kaotamise v&otilde;i laevapere liikme haiguse v&otilde;i vigastuse t&otilde;ttu , mida ta meret&ouml;&ouml;lepingu s&otilde;lmimisel varjas v&otilde;i mille ta iseendale tahtlikult tekitas , v&otilde;ib reeder n&otilde;uda temalt vastavalt k&auml;esoleva paragrahvi l&otilde;ikele 2 kantud kulude h&uuml;vitamist ja vajaliku asendaja laevale toimetamiseks kantud kulude h&uuml;vitamist k&auml;esoleva seaduse &sect;-s 19 s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 6 ) Laevapere liikme , kes on v&auml;lisriigi sadamas mitte oma s&uuml;&uuml; t&otilde;ttu laevalt maha j&auml;&auml;nud , toimetab reeder oma kulul Eesti Vabariigi territooriumile v&otilde;i j&auml;rgmisesse sadamasse , kuhu laev siirdub .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Meret&ouml;&ouml;lepingu l&otilde;ppemise aeg</s>
+</p>
+<p>
+<s>( 1 ) Meret&ouml;&ouml;lepingu l&otilde;ppemise p&auml;evaks on p&auml;ev , millal laevapere liige j&otilde;uab k&auml;esoleva seaduse &sect; 57 l&otilde;ikes 1 nimetatud kohta .</s>
+</p>
+<p>
+<s>( 2 ) Kui laevapere liige keeldub temale vastavalt k&auml;esoleva seaduse &sect; 57 l&otilde;ikele 1 v&otilde;imaldatavast s&otilde;idust , loetakse meret&ouml;&ouml;lepingu l&otilde;ppemise p&auml;evaks laevapere liikme t&ouml;&ouml;loleku viimane p&auml;ev .</s>
+</p>
+<p>
+<s>( 3 ) Kui laevapere liikmega s&otilde;lmitud meret&ouml;&ouml;leping l&otilde;petati laevapere liikme algatusel v&otilde;i laevapere liikme t&ouml;&ouml;kohustuste rikkumise , laevapere liikme suhtes usalduse kaotamise v&otilde;i laevapere liikme haiguse v&otilde;i vigastuse t&otilde;ttu , mida ta meret&ouml;&ouml;lepingu s&otilde;lmimisel varjas v&otilde;i mille ta iseendale tahtlikult tekitas , loetakse meret&ouml;&ouml;lepingu l&otilde;ppemise p&auml;evaks laevapere liikme t&ouml;&ouml;loleku viimane p&auml;ev .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Meret&ouml;&ouml;lepingu l&otilde;petamine laevapere liikme algatusel</s>
+</p>
+<p>
+<s>( 1 ) Laevapere liige v&otilde;ib l&otilde;petada meret&ouml;&ouml;lepingu , kui reeder rikub meret&ouml;&ouml;lepingut ning lepingu rikkumise p&otilde;hjusteks on k&auml;esoleva seaduse &sect; 18 l&otilde;ikes 1 nimetatud asjaolud .</s><s>Laevapere liige peab meret&ouml;&ouml;lepingu l&otilde;petamisest teatama viis p&auml;eva ette .</s>
+</p>
+<p>
+<s>( 2 ) Kui meret&ouml;&ouml;leping l&otilde;petatakse k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud alustel , maksab reeder laevapere liikmele h&uuml;vitist kahe keskmise kuupalga ulatuses .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>T&ouml;&ouml;- ja puhkeaja seaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;- ja puhkeaja seaduse ( RT I 1994 , 2 , 12 ; 1995 , 12 , 120 ) &sect; 12 l&otilde;iget 4 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; erandina &rdquo; s&otilde;nadega &ldquo; seadusega kehtestatud juhtudel v&otilde;i &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Kaubandusliku meres&otilde;idu koodeksi muutmine</s>
+</p>
+<p>
+<s>Kaubandusliku meres&otilde;idu koodeksis ( RT 1991 , 46-48 , 577 ; RT I 1993 , 65 , 923 ; 1995 , 54 , 882 ; 1996 , 78 , 1380 ; 1997 , 77 , 1315 ; 1998 , 2 , 47 ; 23 , 321 ; 30 , 409 ; 2000 , 35 , 221 ; 2001 , 21 , 114 ; 93 , 565 ; 2002 , 1 , 1 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvist 50 j&auml;etakse v&auml;lja s&otilde;na &ldquo; munsterrolli , &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahv 57 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 57.</s><s>Laevapere liikme ja laevaomaniku vahelisi t&ouml;&ouml;suhteid reguleerivad mereteenistuse seadus ja t&ouml;&ouml;seadused . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahv 61 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2001. aasta 1. aprillil .</s>
+</p>
+<p>
+<s>( 2 ) Laevapere liikme ja reederi v&otilde;i muu t&ouml;&ouml;andja vahel s&otilde;lmitud meret&ouml;&ouml;leping peab olema viidud koosk&otilde;lla k&auml;esoleva seaduse &sect;-s 8 s&auml;testatuga 2001. aasta 1. oktoobriks .</s>
+</p>
+<p>
+<s>( 3 ) Enne 2001. aasta 1. aprilli toimepandud distsiplinaars&uuml;&uuml;tegude menetlemine toimub vastavalt t&ouml;&ouml;tajate distsiplinaarvastutuse seaduses ( RT I 1993 , 26 , 441 ; 1995 , 16 , 228 ; 1998 , 64/65 , 1009 ; 2000 , 102 , 674 ) s&auml;testatud korrale .</s>
+</p>
+</body>
+   </text>
+</tei.2>

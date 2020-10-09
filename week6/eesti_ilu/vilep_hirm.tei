@@ -1,0 +1,527 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Hirm</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 56973; s&otilde;nu: 6902</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Hirm</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=div1 occurs=5></tagusage>
+         <tagusage gi=head occurs=6></tagusage>
+         <tagusage gi=p occurs=410></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text>
+<body>
+<div0 type='tervikteos'><head>Hirm</head>
+<p><bibl><author>Heiki Vilep</author></bibl></p>
+<p>Ma ei tea, kes ma olen. Kas teie teate? Ma ei tea, miks ma olen. Aga teie? Jah, mul on nimi, elukoht, t&ouml;&ouml; ja pere. &Uuml;hel heal p&auml;eval aga juhtub, n&auml;iteks, et t&ouml;&ouml;d enam pole. V&otilde;i peret. V&otilde;i elukohta. V&otilde;i mitte midagi. Ja milleks siis nimigi? Milleks siis &uuml;ldse k&otilde;ik? Kui oleks olemas midagi niiv&otilde;rd elamist v&auml;&auml;rivat, et tema nimel v&otilde;iks surra, siis milleks &uuml;ldse elada? J&auml;relikult pole mitte tuhkagi t&otilde;eliselt elamist v&auml;&auml;rivat olemas. &Uuml;ks paremaid nippe, et selle paradoksi raskuse alt pakku saada - millel muidugi puudub m&otilde;te - on iseendale valetamine. Valetada tuleb nii palju, et ise ka uskuma hakkad ja sinu vale-mina r&auml;nga t&otilde;e tahaplaanile surub, edasi l&uuml;kkab, ajutiselt leevendab. Teatud piirini, mis &uuml;kskord siiski enamusel meist saabub. Siis ei aita enam midagi. Siis muutud sa parasiidiks. Kas p&otilde;genemise l&auml;bi v&auml;ljam&otilde;eldud &uuml;liolevuse juurde, kellele toetudes v&otilde;id julmalt kasv&otilde;i &uuml;le laipade minnes pika putukaelu maha elada v&otilde;i ise &uuml;liolevuseks hakates surmani elu p&otilde;letama j&auml;&auml;da. Siis oled sa maailma t&otilde;eliselt funktsioneeriv osake: ei punni vastu tema igavesele ringk&auml;igule.</p>
+<p>Kindlasti peksab suurem jagu lugejaid endale vastu rinda ja v&auml;idab, et k&otilde;ige t&auml;htsam siinilmas on iseenda vastu ausaks j&auml;&auml;da. Milleks? Just iseendale valetamine ongi alustuseks k&otilde;ige efektiivsem. "Ma ei valeta iseendale kunagi!" &uuml;tleb inimene ja juba tuleb tal suust suitsu. V&auml;hesed hakkavad selle lause peale ise naerma. Filosoofia, loobumine, p&uuml;hendumus, p&otilde;hjuste p&otilde;hjalik uurimine teadusliku tasandini v&auml;lja - k&otilde;ik see on &uuml;ks suur iseendale valetamine. Valetamine selleks, et leevendada hirmu surelikkuse ees. Seep&auml;rast, kallid s&otilde;brad, v&auml;hem hirmu ja rohkem valet! Kui ma teile ausalt &uuml;tlen, siis mina endale ei valeta, aga miks ma ikkagi elan - seda ma teile ei &uuml;tle, sest ma ei tea. Usute?</p>
+
+<div1 type='alaosa'><head>1. peat&uuml;kk</head>
+
+<p>&Uuml;hel hommikul oli k&otilde;ik teisiti. Kell tirises kaks tundi hiljem kui tavaliselt. Eerik viskas teki pealt, h&uuml;ppas voodist v&auml;lja ja vaatas &uuml;le k&otilde;ik kellad - mis t&otilde;si, see t&otilde;si! Ta oli lootusetult hiljaks j&auml;&auml;nud l&auml;bir&auml;&auml;kimistele, kus oleks talle l&otilde;puks ometi pakutud t&ouml;&ouml;kohta, millest ta oli aastaid unistanud. Helistaks - m&otilde;tles ta korraks - ja &uuml;tleks, et olen haigestunud. Jama! Seda oleks pidanud kohe tegema.</p>
+<p>Masendunult l&auml;ks ta trepist alla esimesele korrusele ja h&uuml;&uuml;dis naist:</p>
+<p>"Anu! Kus sa oled?"</p>
+<p>Kogu majas valitses t&auml;elik vaikus.</p>
+<p>"Ilmselt l&auml;ks poissi kooli viima ja k&auml;ib poest l&auml;bi," m&otilde;tles ta valjult ja keeras raadio k&auml;ima.</p>
+<p>"Ja n&uuml;&uuml;d politseiuudised," &ouml;eldi k&uuml;lma ja hoolimatu h&auml;&auml;lega eetrisse. "Hommikul kella seitsme paiku s&otilde;itis Tallinn-Tartu maanteel Tiksoja l&auml;hedal teelt v&auml;lja tumesinine "Audi". Roolis olnud naisterahvas toimetati raskete vigastustega haiglasse."</p>
+<p>Kuum piste k&auml;is Eerikul s&uuml;dame alt l&auml;bi.</p>
+<p>"Tumesiniseid "Audisid" on ju palju," p&uuml;&uuml;dis ta &uuml;ha kasvavat &auml;revust alla suruda. "Miks kuradi p&auml;rast peab see just Anu olema?"</p>
+<p>Ta pani kohvivee tulele ja kobistas halba aimates &uuml;lakorrusele, et k&uuml;tmata k&ouml;&ouml;gi jaheduse eest midagi selga t&otilde;mmata.</p>
+<p>"Huvitav, miks ta t&auml;na tuld pliidi alla ei teinud?" m&otilde;tles Eerik dressip&uuml;kse jalga sikutades. "Tavaliselt paneb ta &auml;rgates kohe pliidi k&uuml;tte ja alles siis hakkab asjatama." Talle hakkas kohale j&otilde;udma, et midagi on t&otilde;epoolest v&auml;ga valesti.</p>
+<p>"Ja millal ma suitsud &auml;ra t&otilde;mbasin?" imestas Eerik. "Eile j&auml;i ju veel &uuml;le poole paki &hellip;"</p>
+<p>Heitnud pilgu naise &ouml;&ouml;kapile, m&auml;rkas ta konisid t&auml;is tuhatoosi all neljaks kokkumurtud paberilehte. Ta voltis lehe kiiruga lahti ja luges:</p>
+<p>"Ma ei suuda seda k&otilde;ike enam taluda. Sa pole mind kunagi t&otilde;eliselt armastanud. Pealegi on mul juba ammu keegi, kellest ma r&auml;&auml;kinud pole. Tema armastab mind t&otilde;eliselt. Enno v&otilde;ib esialgu sinu juurde j&auml;&auml;da, eks hiljem vaatame. Auto toon sulle t&auml;na tagasi. Poisi viisin kooli. Kapis on kruupe ja makarone v&auml;hemalt kuuks ajaks, edasi vaata ise. Ma ei suuda sulle enam lapsehoidja eest olla. &Auml;ra siis pikka viha pea - elus juhtub nii m&otilde;ndagi. Anu."</p>
+<p>See oli juba liig mis liig. Ta v&otilde;ttis telefoni ja valis teadete numbri.</p>
+<p>"Kas ma traumapunkti saaksin?"</p>
+<p>Talle &ouml;eldi number ja &uuml;llatavalt ruttu sai ta &uuml;henduse.</p>
+<p>"Tervist! Ega teile pole t&auml;na hommikul toodud sisse Heina nimelist? Anu Hein."</p>
+<p>"On k&uuml;ll, jah," vastati teisest otsast. "Vasak jalaluu, parem k&auml;eluu, kaks roiet ja peap&otilde;rutus."</p>
+<p>"Kus ma teda n&auml;ha v&otilde;iksin?"</p>
+<p>"Kes te talle olete?"</p>
+<p>"Mees," vastas Eerik mitte eriti veendunult ja k&ouml;hatas justkui kinnituseks.</p>
+<p>"Mees just hiljuti k&uuml;sis ta j&auml;rele," kostis segaduses &otilde;de.</p>
+<p>"Vabandage siis," ei osanud Eerik enam seletada. Ta l&uuml;litas telefoni v&auml;lja ja istus voodiservale. Tuli hakata rahulikult asju l&auml;bi m&otilde;tlema.</p>
+<p>"Naist mul ei ole - see on punkt &uuml;ks," tegi ta algust.</p>
+<p>"Autot pole ka, v&auml;hemalt ajutiselt mitte - see on teiseks."</p>
+<p>"T&ouml;&ouml;kohta pole ka, sest selle magasin ma m&uuml;stilistel asjaoludel maha - see on kolmandaks. Kuradi kurat, ma &uuml;tlen!"</p>
+<p>"Neljandaks ei ole suitsu ja viiendaks &hellip;" Ta hakkas paaniliselt m&ouml;&ouml;da taskuid sorima. Teinud p&otilde;hjaliku ringi peale, pidi ta kibedusega nentima:</p>
+<p>"Viiendaks ei ole raha ka. Vot nii on lood."</p>
+<p>K&otilde;ige selle krooniks oli asjaolu, et Eerik elas maal. Kaksk&uuml;mmend viis kilomeetrit Tartu linnast. Linna poole l&auml;ks kolm bussi p&auml;evas ja linnast tuli kolm. Esimesed kaks olid juba l&auml;inud ja kolmas l&auml;ks &otilde;htul peale tavalist t&ouml;&ouml;p&auml;eva. Sellega tuleb juba Enno - s&uuml;gas ta kukalt - ja kus ma siis enam lapsega m&ouml;&ouml;da linna kondama hakkan &hellip;</p>
+<p>"Kus emme on?" k&uuml;sis k&uuml;mneaastane Enno koolikotti nurka visates.</p>
+<p>"Emmega juhtus v&auml;ike &otilde;nnetus ja ta on haiglas," ei hakanud Eerik keerutama.</p>
+<p>"Kui v&auml;ike &otilde;nnetus?" vaatas poeg isale kahtlustavalt otsa.</p>
+<p>"Paar kuud peab ikka haiglas vedelema," p&uuml;&uuml;dis Eerik v&otilde;imalikult pehmelt asja serveerida.</p>
+<p>"Homme peab s&ouml;&ouml;giraha &auml;ra maksma," pistis Enno &otilde;pilasp&auml;eviku isale nina alla.</p>
+<p>"Tead, seekord vist j&auml;&auml;b maksmata, sest &hellip;" Ta ei osanudki kohe p&otilde;hjendust leida ja j&auml;tkas v&otilde;imalikult optimistlikult:</p>
+<p>"S&ouml;&ouml;me lihtsalt kodus kere k&otilde;vasti t&auml;is ja &hellip;"</p>
+<p>Ennole ei pidanudki &otilde;nneks enam eriti pikalt asju lahti seletama.</p>
+<p>"Homme on mul k&otilde;vasti tegemist, nii et v&otilde;ib-olla ma viieks tagasi ei j&otilde;ua. Pane siis ise makaronid keema ja &hellip; ah, mis ma siin &otilde;petan, sa ju suur mees."</p>
+<p>Enno oli juba arvuti taga ja tuiskas kolle maha k&otilde;mmutades katakombides ringi.</p>
+<p>"Issi!"</p>
+<p>"No r&auml;&auml;gi."</p>
+<p>"Kas sa ka m&otilde;nikord p&auml;ris t&otilde;eliselt ehmud, kui siin m&auml;ngus m&otilde;ni skorpion sulle j&auml;rsku nurga tagant n&auml;kku h&uuml;ppab?"</p>
+<p>"Ikka ehmun," vastas Eerik.</p>
+<p>"Aga ise sa r&auml;&auml;gid, et televiisorit vaadates tuleb m&otilde;elda, et see on l&otilde;ppude l&otilde;puks ikkagi vaid film, mitte t&otilde;elisus."</p>
+<p>"Noojah, aga ehmuda v&otilde;ib ju isegi halva m&otilde;tte v&otilde;i kujutluse peale."</p>
+<p>"Issi, mis vahe on ehmatusel t&otilde;elise peale ja ehmatusel kujutluse peale?"</p>
+<p>Eerik oli nurka surutud. "Ega suurt vahet vist olegi," j&auml;i ta m&otilde;ttesse. "Ainult et t&otilde;eline v&otilde;ib sulle t&otilde;eliselt viga teha. Kujutlus vaevalt."</p>
+<p>"Hardi isa &uuml;tles, et need m&auml;ngud v&otilde;ivad &uuml;kskord n&auml;rvid persse keerata. See ju on t&otilde;eline viga?"</p>
+<p>"Sellep&auml;rast ma r&auml;&auml;gingi, et filmisse tuleb suhtuda nagu filmi ja m&auml;ngusse nagu m&auml;ngu."</p>
+<p>"Siis ma pean oma kujutlusv&otilde;imet vaos hoidma?"</p>
+<p>"Teatud asjade puhul vist jah," kippus Eerik vastamisega j&auml;nni j&auml;&auml;ma ja p&uuml;&uuml;dis ruttu l&auml;bi m&otilde;elda, et kustmaalt, kurat v&otilde;taks, jookseb see piir.</p>
+<p>"Issi!"</p>
+<p>"Mis veel?"</p>
+<p>"Kustsaadik on lubatud vabalt kujutleda?"</p>
+<p>Nonii - m&otilde;tles Eerik - n&uuml;&uuml;d on see aeg k&auml;es, kus ma enam omaenda pojale vastata ei oska.</p>
+<p>"Sealtsaadik vist, kust sa enam kujutleda ei taha," p&uuml;&uuml;dis ta haltuurat teha ja sedapuhku p&auml;&auml;ses edasisest pinnimisest.</p>
+<p>"Tead," r&auml;&auml;kis Enno edasi. "Tegelikult ongi nii, et kui vaatad seda ekraani, nagu arvutiekraani ikka ja vaatad neid kolle siin nagu programmeeritud joonistusi, siis mitte ei v&otilde;itle nendega, hirm nahas, vaid lahendad programmi poolt ette antud &uuml;lesannet."</p>
+<p>"Mida sa s&ouml;&ouml;d, et sa nii tark oled?" k&uuml;sis isa ilma erilise pilketa.</p>
+<p>"Makarone," vastas poeg ilmselge pilkega.</p>
+<p>"Issi!" j&auml;tkas Enno p&auml;rast m&otilde;ningast vaikimist. "Kas sa midagi &uuml;ldse p&auml;riselt kardad?"</p>
+<p>"Sellist inimest, kes &uuml;ldse midagi ei karda, pole vist olemas," arvas Eerik.</p>
+<p>"Mina kardan pimedust," tunnistas poeg. "Ja natuke sind ka kui sa pahas tujus oled ja ma midagi valetanud olen."</p>
+<p>"&Auml;ra siis valeta," soovitas issi. "Hirmust pidigi niimoodi jagu saama, et otsid ta ise &uuml;les ja vaatad talle otsa."</p>
+<p>"Ja kaua sa teda niimoodi vahtima pead?" k&uuml;sis Enno.</p>
+<p>"Niikaua kui &uuml;le l&auml;heb," arvas Eerik.</p>
+<p>"Aga kui ei l&auml;he?" pinnis poeg edasi.</p>
+<p>"Too n&auml;ide, sul on vist midagi konkreetset hinge peal?"</p>
+<p>"No seesama pimedus," &uuml;tles poeg.</p>
+<p>"Ehhee, see on omaette ooper," lohutas issi. "Pimedus on teadmatus. Teadmatuse ees tunneb inimene k&otilde;ige suuremat hirmu."</p>
+<p>"Mis ma siis tegema pean?" k&uuml;sis Enno.</p>
+<p>"Teada saama," vastas Eerik. "N&auml;iteks. Lebad pimedas toas oma voodis ja hakkavad igasugused kujutlused tekkima. Sina t&otilde;used &uuml;les, paned tule p&otilde;lema ja veendud, et toas pole kedagi. Lihtne ju?"</p>
+<p>"See on toas. Aga metsas?"</p>
+<p>"Sellega on tsutsu keerulisem. Aga teadmine p&auml;&auml;stab ikkagi. Elus &otilde;pid teadma, et enamus loomi, eriti meil siin Eestimaal, kardab rohkem sind kui sinul neid p&otilde;hjust karta on. Ja vaenlastega on lugu selline, et pimedus on nendele sama palju relvaks kui sullegi."</p>
+<p>"Aga kui on lihtsalt hirm. Kui ma ei karda ei vaenlast ega loomi?" ei j&auml;tnud poeg k&uuml;simist.</p>
+<p>"Natuke vist peabki olema," m&otilde;tles issi j&auml;rele. "P&auml;ris ilma hirmuta ei saa, see on nagu v&auml;ike kaitsevahend ka - oled ootamatuste vastu rohkem valmis."</p>
+<p>Ennol oli n&uuml;&uuml;d piisavalt m&otilde;tlemisainet ja ta j&auml;ttis isa m&otilde;neks ajaks rahule.</p>
+<p>Eerikut ennast valdas veider tunne. Tal polnud enam nagu midagi karta. K&otilde;ik, mida ta hirmuga oodanud oli, oli n&uuml;&uuml;d k&auml;es. Naine oli teise oma, poeg v&otilde;etakse ka &uuml;kskord &auml;ra, auto oli hunnikus ja t&ouml;&ouml;koht l&auml;inud. Ainuke, mis veel tulla v&otilde;is, oli n&auml;lg. See oli siiski teadaolev asi, selle vastu v&otilde;is hakata sihip&auml;raselt tegutsema.</p>
+</div1>
+
+<div1 type='alaosa'><head>2. peat&uuml;kk</head>
+
+<p>Hommikul &auml;rkas Eerik, vaatamata poolunetule &ouml;&ouml;le, tund aega varem kui muidu. Ta pani pliidi alla tule, t&otilde;i vett ja keeras raadio k&auml;ima. Pojal lasen veel veidi magada - m&otilde;tles ta omaette - ja hakkas p&auml;eva planeerima.</p>
+<p>"1. Reinult raha laenata," kirjutas ta hariliku pliiatsiga kollasele pakkepaberile.</p>
+<p>"2. Auto tasulisest parklast &auml;ra v&otilde;tta ja kuhugi remonti panna."</p>
+<p>"3. Lehte t&ouml;&ouml;kuulutus."</p>
+<p>"4. Rita &uuml;les otsida." Selle rea t&otilde;mbas ta siiski kohe rasvaselt maha ja asendas uuega:"4. Anut vaatamas k&auml;ia. T&auml;pselt."</p>
+<p>"5. Suitsud." Jupp aega pliiatsit n&auml;rinud, t&otilde;mbas ta ka selle rea maha.</p>
+<p>"5. Kui raha saab, siis midagi poest." Midagi peale makaronide - m&otilde;tles ta muigega.</p>
+<p>"Tshau!" ilmus Enno silmi h&otilde;&otilde;rudes k&ouml;&ouml;giuksele.</p>
+<p>"Kus emme on?" Ta j&auml;i korraks isa askeldamist vaatama ja alles siis talle meenus:</p>
+<p>"Ahjaa &hellip;" Ta kadus peldikusse ja tagasi tulles t&otilde;i kaasa valge kassipoja, kes v&auml;lisukse taga juba ammu p&otilde;rgul&auml;rmi oli teinud. Kassipoeg, nuusutanud taldrikule pandud makarone, turtsatas korra, taganes veidi maad, t&otilde;i esile pika haleda "mj&auml;uu" ja hakkas siis ikkagi servast nosima.</p>
+<p>"T&auml;na viskab ehk raha," p&uuml;&uuml;dis Eerik poja ees vabandada kui see oli k&auml;itunud enam-v&auml;hem samuti nagu kassipoeg.</p>
+<p>Bussipeatusse oli kolm kilomeetrit astuda ja nad tegid seda vaikides. J&otilde;udnud postkastini, koukis Eerik sellest v&auml;lja kolm &uuml;mbrikku.</p>
+<p>"Telefoniarve, maamaks, meeldetuletus pangast, et eelmise kuu laenusumma on tasumata."</p>
+<p>"Kokku viis tuhat krooni," arvutas Eerik endamisi.</p>
+<p>Nad olid maja peale laenu v&otilde;tnud ja seda oli veel kokku k&uuml;mne tuhande eest j&auml;&auml;nud. Talle meenus, kuidas Anu oli kord karjunud kui ta purjusp&auml;i koju tuli:</p>
+<p>"Ilma minuta oleksid sa ammu rentslis olnud!"</p>
+<p>Oleks n&uuml;&uuml;d Eerikul saba olnud, oleks ta selle jalgevahele t&otilde;mmanud. Praegu aga oli tema ainukeseks sabaks Enno.</p>
+<p>P&auml;ev kulus enamalt jaolt autoga j&auml;ndamisele. Seda polnud m&otilde;tet enam remonti viia ja Eerik m&uuml;&uuml;s ta lammutusse maha. Raha sai parasjagu niipalju, et maksta &auml;ra k&otilde;ik v&otilde;lad ja maksud. Autost oli ta n&uuml;&uuml;d ilma aga v&otilde;lgadest lahti.</p>
+<p>"Let's go!" m&otilde;tles ta endamisi. "Alustame siis pealegi otsast."</p>
+<p>J&auml;relej&auml;&auml;nud raha eest ostis ta paki paberit ja printeritinti. Kui muud ei suuda teha, hakkan kirjutama - m&otilde;tles ta endamisi ja koduteel bussis loksudes kangastusid talle kuulsusrikas tulevik ja suured honorarid.</p>
+<p>Enno vaatas isa murelikult ja kui k&uuml;lmkapis poleks olnud igasugust lihakraami, oleks ta arvanud, et vanamees on &auml;ra p&ouml;&ouml;ranud: s&ouml;&ouml;b makarone ja laenab raha, et tundide kaupa arvuti ees istuda, t&uuml;hja ekraani vahtida ja muusa suudlust oodata.</p>
+<p>Kaks p&auml;eva ja paraja lahmaka kummastki &ouml;&ouml;st istus vanamees t&otilde;epoolest arvuti taga ja vahtis &uuml;le kuvari tapeedimustrit. Siis korraga kl&otilde;bistas ta esimese rea:</p>
+<p>"Vaatamata k&otilde;igile vastuargumentidele pidi ta tunnistama, et surra on t&auml;pselt samapalju m&otilde;tet kui eladagi."</p>
+<p>Eerik arvutas v&auml;lja, kui kaua ta sellises tempos kirjutab kolmesajalehek&uuml;ljelist romaani. Ta sai aukartust&auml;ratava numbri - 6300 p&auml;eva. See tegi &uuml;le 17 aasta. Rikkaks niimoodi ei saa - arvas ta neljandat suitsupakki avades - peab v&auml;hem m&otilde;tlema ja rohkem kirjutama.</p>
+<p>Talle meenus &uuml;ks loetud raamat, kus autor astus &uuml;le surnud filosoofide peade, nii et varbad aeg-ajalt m&otilde;nele suhu v&otilde;i silma sattusid. Alul &uuml;tles maha, et mitte millelgi pole m&otilde;tet ja siis kukkus kirjeldama kuidas k&otilde;ik mineviku filosoofid enam v&otilde;i v&auml;hem t&auml;ielikku jama on ajanud. Seda tegi ta niisuguse p&otilde;hjalikkuse ja kirega, et alles raamatu l&otilde;puks sai Eerik aru kui m&otilde;ttetu see k&otilde;ik on. Mis siis, et Schopenhauer lookas pidulaua taga enesetappu &uuml;listas. Veelgi n&otilde;medam oli juurelda miks ta seda tegi.</p>
+<p>M&ouml;&ouml;dus kolmas &ouml;&ouml;p&auml;ev ja vastu &otilde;htut kirjutas Eerik kolmanda rea:</p>
+<p>"Ja kui ta veel surnud ei ole, siis ei ela ta kah teps mitte."</p>
+<p>Nii see asi n&uuml;&uuml;d k&uuml;ll ei l&auml;he - leidis ta l&otilde;puks ja otsustas kergema zhanri kasuks. S&uuml;ndmustikku on rohkem vaja - m&otilde;tiskles ta enne magamaj&auml;&auml;mist - ja tulistamist.</p>
+<p>Hommikul vaatas koer talle l&otilde;pmata nukrate silmadega otsa ja siis tuli Eerikule meelde, et see elajas tahab ju ka s&uuml;&uuml;a. Kassipoeg oli k&otilde;hna nagu roots ja Enno k&auml;is rohkem k&uuml;la peal, sest arvuti oli tulevase surematu kirjaniku t&ouml;&ouml;vahendiks muutunud.</p>
+<p>"Issi, sa peaks midagi tegema hakkama!" oli poiss kooli minnes ukse vahelt poetanud.</p>
+<p>"Sa vaata, et sa kolmede sisse &auml;ra ei upu!" oli Eerik ennast kaitsnud.</p>
+<p>Molutanud pool p&auml;eva arvuti taga, tegi ta uuesti katset:</p>
+<p>"Enne kui mustas nahkjopes p&auml;ikseprillidega mees oli j&otilde;udnud k&auml;e sirutada, et v&otilde;tta talt diplomaadikohver, riivas kuul nende peade kohal krohvi ja m&otilde;lemad mehed tardusid korraks paigale. Harry laskis kohvril kukkuda ja p&otilde;genes pimesi seljataha tulistades &uuml;le aedade kesklinna poole. Alles p&otilde;ksuva s&uuml;damega autosse istudes taipas ta t&auml;ie teravusega, millise vea oli teinud."</p>
+<p>See oli ilmne edusamm! Eerik l&auml;ks k&ouml;&ouml;ki ja pani kohvivee &uuml;les. Kuus ja pool rida &uuml;he minutiga! Nii v&otilde;ib veel ratsa rikkaks saada. Ta r&uuml;&uuml;pas hoogsalt kuuma kohvi ja k&otilde;rvetas keele &auml;ra.</p>
+<p>"L&auml;bi t&auml;htede raskuste poole!" leiutas Eerik uue lipukirja ja p&uuml;&uuml;dis samas vaimus j&auml;tkata:</p>
+<p>"J&otilde;udnud hotellituppa, pakkis ta kiiruga asjad ja lahkus v&otilde;imalikult m&auml;rkamatult. Diplomaadikohvri sisust polnud tal &otilde;rna aimugi. Ainuke, milles ta seda raputades selgusele oli j&otilde;udnud, oli see, et midagi ei kolisenud nagu metall ja midagi ei krabisenud nagu paber. Tundus, et kohver sisaldas poolekiloseid jahukotte. Narkots - oli ta enam-v&auml;hem kindel.</p>
+<p>Linna piiridest v&auml;lja j&otilde;udnud, rahunes ta veidi ja l&auml;itis suitsu. Annaks jumal, et ta enne p&otilde;genemist kohvri k&auml;tte sai - oli ainuke m&otilde;te, mis pidevalt peas vasardas. Vastasel juhul olen ma n&uuml;&uuml;d kahe tule vahel."</p>
+<p>Eerik oli &uuml;llatunud. Oleks tal koolikirjandite kirjutamine nii ladusalt l&auml;inud, poleks tal k&uuml;mmet ametit tarvis olnud pidada. M&otilde;istnud, et on tarvis m&otilde;tteid koguda, l&auml;ks ta &otilde;ue ja vaatas koeraga t&otilde;tt.</p>
+<p>"Miks sa silmad &auml;ra p&ouml;&ouml;rad, lontrus!" tundis ta &uuml;le pika aja vajadust kellegagi r&auml;&auml;kida. "Ise tahad veel hunt olla &hellip;"</p>
+<p>Hommikuse kruubipudru k&auml;tte saanud lontrus oli k&otilde;igega n&otilde;us ja t&otilde;mbas k&uuml;kitaval peremehel keelega &uuml;le n&auml;o, nii et see kuklani maas &auml;ra k&auml;is.</p>
+<p>"Kui sa veel nii teed, lasen su kuudi &otilde;hku!" noomis Eerik ja m&otilde;tles, et &uuml;ksinda on maakohas p&auml;ris hea elada. V&auml;hemalt ei kuule keegi mis lollusi sa suust v&auml;lja ajad.</p>
+<p>Saanud viimasest m&otilde;ttest julgustust, hakkas ta veiderdama. P&ouml;&ouml;rdudes oletatava naisterahva poole, lausus ta nuga ja kahvlit k&auml;tte kujutledes:</p>
+<p>"Olge nii kena ja ulatage mulle, palun, pool perset!" Teinud renessaansiaegse kummarduse lahkele daamile, l&otilde;i ta jalaga saadud kehaosa nagu jalgpalli ja juubeldas l&ouml;&ouml;dud v&auml;rava &uuml;le nagu t&otilde;eline fanaatik.</p>
+<p>Karjunud ennast t&uuml;hjaks, m&auml;rkas ta ehmatusega, et v&auml;raval seisab Enno naabrit&uuml;druku ja mingisuguse s&otilde;braga.</p>
+<p>"Me siin vestlesime pisut," viipas ta koera poole, kes oli kuuti peitu pagenud ja tegi ruttu majja asja.</p>
+<p>"Vanamees rabeleb veits," ei osanud ka Enno s&otilde;pradele n&auml;htut paremini lahti seletada.</p>
+<p>"Kas ta t&ouml;&ouml;l ei k&auml;igi?" k&uuml;sis naabriplika.</p>
+<p>"Ta kirjutab raamatut," &uuml;tles Enno nagu muuseas ja hakkas palavikuliselt muud teemat otsima.</p>
+<p>"Minu oma laulab roppe laule," tunnistas naabrit&uuml;druk.</p>
+<p>"See on veel hullem," lisas ta justkui lohutavalt.</p>
+<p>Eerik aga kirjutas:</p>
+<p>"Helises telefon.</p>
+<p>"Seekord l&auml;ks &otilde;nneks. Raha on &uuml;le kantud." Harry hingas s&uuml;gavalt sisse ja hoidis t&uuml;kk aega hinge kinni.</p>
+<p>"Huuuuh!" hingas ta pikalt v&auml;lja ja vajutas gaasi. "25000."</p>
+<p>&Otilde;htuh&auml;maruses j&otilde;udis ta N. linna ja parkis auto &ouml;&ouml;klubi "Las Vegas" tagaukse l&auml;hedale. Kontrollinud padrunipidet, pistis ta p&uuml;stoli selja taha p&uuml;ksiv&auml;rvli vahele ja koputas metalluksele parooli.</p>
+<p>"Sind oodatakse," &uuml;tles suurt kasvu turvamees ja saatis teda kuni k&otilde;rvalsaali ukseni.</p>
+<p>Nahkdiivanil istusid Ralf ja Tom. Eemal, akna juures, seisis v&otilde;&otilde;ras mees seljaga teiste poole. Harry muutus valvsaks.</p>
+<p>"Oleksid &auml;&auml;re pealt k&otilde;ik kihva keeranud, mis?" k&uuml;sis Ralf k&uuml;lma ja v&otilde;&otilde;ra h&auml;&auml;lega. "Nagu sa esimest korda &uuml;leandmisel oleksid k&auml;inud!"</p>
+<p>"Kurat, ma tegin kogu kvartalile ringi peale, enne kui sinna nina julgesin pista."</p>
+<p>"Ok, n&uuml;&uuml;d asjast. Kusagilt tilgub l&auml;bi. Kui sul on kahtlusi, &uuml;tle v&auml;lja. Vastasel juhul peame p&otilde;hjaliku puhastuse tegema ja sellest ei p&auml;&auml;se ka sina. V&otilde;ib juhtuda, et paljud saavad ilmaasjata viga. R&auml;&auml;gi!"</p>
+<p>Harry vaatas v&otilde;&otilde;ra poole ja lausus rahulikult:</p>
+<p>"Ma pean k&otilde;ik l&auml;bi m&otilde;tlema. Mina see ei ole."</p>
+<p>"&Auml;ra sa t&auml;na igaks juhuks koju mine," tegi Tom suu lahti.</p>
+<p>"Ole &ouml;&ouml; m&otilde;ne tibi pool, m&otilde;tle asja &uuml;le j&auml;rele ja hommikul kell 10.00 saame kokku. Koha suhtes helistame ette."</p>
+<p>Harry astus vaikides ukseni ja tundis k&otilde;igi nende seitsme sammu jooksul akna all seisva mehe hindavat k&otilde;&otilde;rdpilku."</p>
+<p>Eerik aga tundis, et kaelasooned j&auml;&auml;vad valusaks. Raske f&uuml;&uuml;siline t&ouml;&ouml; - m&otilde;tles ta muigega - ja suitsu l&auml;heb palju. Ta j&otilde;i k&uuml;lma kohvip&auml;ra &auml;ra ja sai suhu rohkem kohvipaksu kui muidu. Stenografisti v&otilde;iks palgata - oli j&auml;rgmine t&auml;helepanek - m&otilde;te liigub kiiremini kui n&auml;pud. Ta v&otilde;ttis nurgast l&otilde;&otilde;tspilli, istus voodiservale ja laulis t&auml;iest k&otilde;rist:</p>
+<p>"Vooolga, Vooolga, matt radnaaaja</p>
+<p>Vooolga ruuuskaja rekaaaaaa."</p>
+<p>Trepilt kostis samme ja ta pani ruttu l&otilde;&otilde;tsa k&auml;est, j&auml;i akna alla seisma ja kujutas ette, et on palgam&otilde;rvar.</p>
+<p>"Issi!"</p>
+<p>"Mis lahti?"</p>
+<p>"Kuna me emmet vaatama l&auml;heme?" Enno seisis ukse peal sihitu igatsusega pilgus nagu lastekodu laps ja Eerik tuli maa peale tagasi.</p>
+<p>"Homme," &uuml;tles ta otsustavalt ja luges m&otilde;ttes oma viimaseid rahasid &uuml;le.</p>
+<p>"Kas ma m&auml;ngida v&otilde;in?" k&uuml;sis Enno ja vaatas igatsevalt arvuti poole.</p>
+<p>"Olgu," lausus Eerik. "T&auml;na on sinu &otilde;htu."</p>
+<p>Ta laskis printerist kirjutatu v&auml;lja ja enn&auml;e - t&auml;pselt lehek&uuml;lg! Nii mahub ju &uuml;he aasta sisse &auml;ragi!</p>
+</div1>
+
+<div1 type='alaosa'><head>3. peat&uuml;kk</head>
+
+<p>Harry vahtis lakke ja kuulatas h&auml;&auml;li akna taga.</p>
+<p>"See on kindlasti Sten, kes informatsiooni lekitab," oli ta kindel. "Sten armastab topeltm&auml;ngu."</p>
+<p>Blond tibi ta k&otilde;rval kippus norskama ja Harry pigistas tal nina kinni. Tibi korsatas ja ajas automaatselt k&auml;e Harryle jalgevahele.</p>
+<p>Harry l&uuml;kkas k&auml;e &auml;ra ja t&otilde;usis, et akna juures v&auml;rsket &otilde;hku hingata.</p>
+<p>"Homme annan Steni v&auml;lja," otsustas ta. "Seadis mu elu ohtu ja nii tasuvast t&ouml;&ouml;st pole mul reeturi p&auml;rast m&otilde;tet loobuda."</p>
+<p>Harry t&ouml;&ouml; &uuml;ks plusse v&otilde;i miinuseid - kuidas v&otilde;tta - oli see, et ta ei teadnud kunagi, mis lukustatud diplomaadikohvris on. Ta oli kuller. Viis oma kraami &otilde;igeaegselt kohale ja raha sai k&auml;tte tillukesest lillepoest kesklinnas. Bossi ennast polnud ta kunagi n&auml;inud ega lootnud n&auml;hagi. Ainukesed, kellega ta l&auml;bi k&auml;is, olid Ralf ja Tom.</p>
+<p>T&auml;pselt kell 9.30 helises telefon.</p>
+<p>"Poole tunni p&auml;rast v&auml;etiseladude juures." See oli &uuml;ks paljudest v&auml;ljakujunenud kokkusaamiskohtadest.</p>
+<p>S&ouml;&ouml;nud vaikides &auml;ra kohustusliku omleti, suudles Harry k&uuml;lmalt tibi otsaesist ja s&otilde;itis liftiga alla. P&uuml;stol oli igaks juhuks &uuml;le k&auml;sivarre heidetud tolmumantli all peos. Tema t&ouml;&ouml;s tuli nii m&otilde;ndagi ette. &Otilde;nneks ei teadnud selle tibi olemasolust isegi Sten.</p>
+<p>Kirsipunane Nissan Maxima oli talle k&auml;tte antud avansina. Praeguseks oli ta juba pool selle maksumusest tasa teeninud.</p>
+<p>"S&otilde;idad M. linna. Homme," &uuml;tles Ralf lakooniliselt nagu alati. "Paberikraam on siin, kauba saad lillepoest."</p>
+<p>Harry viskas paberitele pilgu peale. Kohad, ajad, s&otilde;iduplaanid, paroolid, piletid. Peale s&otilde;iduplaanide ja piletite tuli k&otilde;ik p&auml;he &otilde;ppida. Sellega oli ta harjunud.</p>
+<p>"Kes on lekitaja?" k&uuml;sis Tom, kui Harry juba minekule oli p&ouml;&ouml;rdunud.</p>
+<p>"Sten," vastas Harry ilma v&auml;himagi k&otilde;hkluseta.</p>
+<p>"Ok, lase k&auml;ia. Enne &auml;ra helista kui tagasi oled v&otilde;i kui midagi valesti l&auml;heb. On k&otilde;ik arusaadav?"</p>
+<p>"T&auml;iesti," vastas Harry.</p>
+<p>"Harry!" h&uuml;&uuml;dis Ralf j&auml;rele.</p>
+<p>"Kuulen."</p>
+<p>"Seekord on su kohver eriti hinnaline."</p>
+<p>"Sain aru."</p>
+<p>Paberitest selgus, et ta peab loksuma &uuml;histranspordis ja &ouml;&ouml;bima v&otilde;&otilde;ra nime all odavas &auml;&auml;relinnahotellis. Olgu peale - asi on seda v&auml;&auml;rt.</p>
+<p>Lillepoest oli ta saanud taas kopsaka &uuml;mbriku ja viinud selle Herberti k&auml;tte. Herbert oli kuuek&uuml;mne viie aastane m&otilde;nus vanamees. Kusagilt otsast kauge sugulane. Harry k&auml;is tihti tema juures juttu ajamas kui elust t&uuml;lpinud oli.</p>
+<p>"Mul pole teilt enam midagi vaja ja teie ei saa mult ka mitte sittagi," tavatses Herbert alatihti &ouml;elda, kuigi keegi talt midagi ei k&uuml;sinud.</p>
+<p>Peale kahetunnist s&otilde;itu j&otilde;udis Harry M. linna, parkis auto odavast hotellist poole kilomeetri kaugusele tasulisse parklasse ja esitanud valepassi, seadis ennast kriuksuva voodi ja mustvalge telekaga toakesse sisse. Nagu vanadel headel aegadel, mil ta Stellaga tiiba oli ripsutanud.</p>
+<p>Kokkusaamine pidi toimuma v&auml;ikeses restoranis linna teises otsas. Sedapuhku oli kohvri vastuv&otilde;tjaks naisterahvas. Kena kleenuke br&uuml;nett teraste silmadega. Harry tundis ta kohe &auml;ra foto j&auml;rgi, mille ta eile enne lahkumist N. linnast &auml;ra oli p&otilde;letanud. N&auml;gude peale oli tal &uuml;ldiselt halb m&auml;lu ja seep&auml;rast p&otilde;letas ta fotod alati viimasena.</p>
+<p>"Harry," tutvustas Harry end k&auml;tt sirutamata nagu neil kombeks oli.</p>
+<p>"Miks sul lipsu ees ei ole?" k&uuml;sis naine kohustusliku k&uuml;simuse.</p>
+<p>"Ei leidnud &otilde;iget," vastas Harry p&auml;he&otilde;pitud vastuse.</p>
+<p>"J&auml;ta kohver tooli k&otilde;rvale ja t&otilde;mba lesta!" manas naine ette v&otilde;ltsnaeratuse. Elusuuruses oli ta niiv&otilde;rd v&otilde;luv, et Harryt ei kangutanud &uuml;kski v&otilde;im nii j&auml;rsku tooli k&uuml;ljest lahti.</p>
+<p>"Ehk s&ouml;&ouml;ks midagi?" k&uuml;sis ta t&auml;iesti programmiv&auml;liselt.</p>
+<p>"Ma teen v&auml;lja," lisas ta kiiruga, n&auml;hes, et naise silmis vilksatas s&auml;de alltekstiga "saadetakse ka igasuguseid idioote!"</p>
+<p>"Ma olen t&otilde;epoolest eilsest saati s&ouml;&ouml;mata," m&auml;ngis ta oma rolli kangekaelselt edasi.</p>
+<p>"Mul on t&auml;pselt pool tundi aega," leebus naine ja lisas:</p>
+<p>"Ethel."</p>
+<p>Harry viipas kelnerile, pani sajalise lauale ja vaatas tollele sisendava pilguga otsa:</p>
+<p>"Meil on aega t&auml;pselt pool tundi. Kaks praadi ja kaks klaasi valget veini."</p>
+<p>Kelner t&otilde;stis k&auml;e kujutletava m&uuml;tsi &auml;&auml;rde ja pistis osava liigutusega raha rinnatasku.</p>
+<p>"Mul ei ole &uuml;htegi naisterahvast, kellega isegi r&auml;&auml;kida," valetas Harry alustuseks.</p>
+<p>"Kui sa tahad muga magada, &uuml;tle kohe," vastas Ethel talle otse silma vaadates.</p>
+<p>"Sa oled nii ilus!" kokutas Harry.</p>
+<p>"Ma tean," vastas Ethel m&otilde;tlemata.</p>
+<p>"Sul pole ju aega &hellip;" j&auml;tkas Harry.</p>
+<p>"Helista homme sellel numbril." Ethel ulatas Harryle k&auml;ekotist visiitkaardi, millel oli ainult mobiiltelefoni number ja nimi Ethel.</p>
+<p>S&ouml;&ouml;mise ajal oli naine vait ja Harry pidas targemaks peale kogetud otsekohesust asja mitte lurri keerata.</p>
+<p>J&auml;rgmise p&auml;eva hommikul &auml;rkas Harry taas telefonihelina peale.</p>
+<p>"Raadiot kuulad?" k&uuml;sis Tomi k&auml;hisev h&auml;&auml;l.</p>
+<p>"Vahel ikka," vastas Harry unesegaselt.</p>
+<p>"Siis kuula," k&auml;hises Tom ja pani toru &auml;ra.</p>
+<p>Harry keeras raadio lahti ja m&otilde;ne minuti p&auml;rast &ouml;eldi politseiuudistes maha, et avarii tagaj&auml;rjel oli s&uuml;ttinud nii- ja niisugune auto. Omanik olevat sisse p&otilde;lenud.</p>
+<p>"Sten," oli Harryle kohe asi selge. Kerge v&auml;rin l&auml;bis ta keha ja tulevik tundus juba pisut v&auml;hem turvaline. Aga mis siis kui kunagi osutab keegi tema peale s&otilde;rmega &hellip;</p>
+<p>"Saan auto tasa, kogun natuke raha ja astun m&auml;ngust v&auml;lja," heietas ta tulevikuplaane. "Kes minusugust putukat p&otilde;letama hakkab," p&uuml;&uuml;dis ta end lohutada. "Ma ei tea isegi mis kohvris on."</p>
+<p>"Sten ei teadnud ju ka," tuli tal korraga vannitoas hambaid pestes p&auml;he. "Aga tema ei osanud suud pidada," lohutas ta end j&auml;lle. "Ja tahtis kahest kohast raha saada."</p>
+<p>Helises uksekell ja Harry pani p&uuml;stoli valmis.</p>
+<p>"Kes seal on?" k&uuml;sis ta kaugelt.</p>
+<p>"Teile on kiri," kostus ukse tagant flegmaatiline bariton.</p>
+<p>Harry keeras ettevaatlikult lukku ja umbes neljak&uuml;mneaastane nohiku olemisega hall kuju ulatas talle &uuml;mbriku. Vaadanud mehe lahkudes trepikoja t&auml;helepanelikult &uuml;le, istus ta voodiservale ja luges:</p>
+<p>"&Uuml;kskord tuled mulle j&auml;rele. Sten."</p>
+<p>"Raisk!" r&ouml;&ouml;gatas Harry ja adus, et n&uuml;&uuml;d on see k&auml;es. Rahulik tulevikuvisioon pl&auml;rtsatas puruks, nii et s&uuml;lge pritsis kahte lehte.</p>
+<p>"Kas on t&otilde;esti v&otilde;imalik, et maha p&otilde;les vale mees?" m&otilde;tles ta palavikuliselt. "Siis on mul l&otilde;pp!" Ta vooris n&auml;rviliselt toast k&ouml;&ouml;ki ja tagasi. "Korter vahetada! Ei, m&uuml;&uuml;a!" parandas ta k&auml;igupealt. "Auto v&auml;lja vahetada &hellip;"</p>
+<p>Ta j&auml;i ootamatust m&otilde;ttest halvatuna keset tuba seisma, hiilis siis piki seina akna juurde ja piilus ettevaatlikult kardina tagant v&auml;lja. "Puhas," pidi ta esialgu nentima. "Ma j&otilde;uan veel &hellip;" Ta pani minutiga riidesse, toppis kiiruga kotti k&otilde;ige h&auml;dap&auml;rasema ja ronis j&auml;reletehtud v&otilde;tmega naaberkorterisse sisenedes maja otsaaknast m&ouml;&ouml;da kastanit kolmandalt korruselt alla. Selle p&otilde;genemisvariandi oli ta ammu valmis m&otilde;elnud. Oli veel teinegi - &uuml;le katuste - aga seda ei l&auml;inud praegu tarvis. Autot hoidis ta peaaegu iga p&auml;ev eri kohas ja see tuli n&uuml;&uuml;d l&otilde;puks kasuks.</p>
+<p>"Vaevalt, et Stengi praegu vabalt ringi jalutab," m&otilde;tles Harry ja peatas auto kahe kvartali kaugusel Herberti majast. Enne kui rooli tagant t&otilde;usis, valis ta Ralfi numbri.</p>
+<p>"Ta on elus," p&uuml;&uuml;dis ta olla lakooniline ja j&auml;i kuulama reaktsiooni teises otsas.</p>
+<p>"&Auml;ra sabista," vastati rahulikult. "Aga &auml;ra ennast lehvita ka. Ole m&otilde;ni aeg redus. Tom korraldab su korteri m&uuml;&uuml;gi ja auto vahetuse."</p>
+<p>"Nad ei kanna mind kohe maha kui liikuvat m&auml;rklauda," m&otilde;tles Harry kergendusega ja hiilis l&auml;bi tagahoovide Herberti majani.</p>
+<p>"Noh, kuidas maffia k&auml;si k&auml;ib?"</p>
+<p>"Herbert, ma olen sulle ju &ouml;elnud! &Auml;ra nimeta asju valede nimedega. Ma olen tavaline spekulant ja parseldan turu taga suitsude ja viinaga."</p>
+<p>"Mina ei taha teilt nagunii mitte midagi ja minult ei saa te ka mitte sittagi," tegi Herbert tavap&auml;rase kokkuv&otilde;tte.</p>
+<p>"Herbert, kas sul sugulase jaoks m&otilde;neks &ouml;&ouml;ks koiku leidub?"</p>
+<p>"Eks sa ole, kui mujale minna pole. Ons midagi t&otilde;sist lahti?" Herbert vaatas uurivalt Harry s&otilde;rmi, mis trummeldasid lauale tundmatut bluesi.</p>
+<p>"Tead, ma m&uuml;&uuml;n korterit ja kola on juba kokku pakitud &hellip;" keerutas Harry.</p>
+<p>"&Auml;ra sa mulle k&uuml;ll pudrutama tule!" l&otilde;i Herbert k&auml;ega.</p>
+<p>"Herbert!" vahetas Harry tooni.</p>
+<p>"R&auml;&auml;gi!" Herbert istus laua taha Harry vastu.</p>
+<p>"Herbert, kui minuga midagi juhtuma peaks &hellip;" ta k&otilde;hkles pisut ja vaatas vilksamisi akna poole. "Kui minuga midagi juhtuma peaks, siis pane k&otilde;ik raha sellele arvele." Ta v&otilde;ttis taskust Steni pooleksmurtud kirja ja maalis sellele hoolikalt pangakonto numbrid. &Otilde;nneks oli Herbert k&uuml;llalt kaua ja keeruliselt elanud, et seletusi oodata. Ta murdis paberi veelkord kokku ja peitis selle kummutisahtlisse.</p>
+<p>"Ole mureta!" oli k&otilde;ik, mis ta asja kohta kostis.</p>
+<p>Nad m&otilde;lemad m&otilde;tlesid Harry t&uuml;trele, kes teises linnas oma elu algust p&uuml;&uuml;dis korraldada.</p>
+<p>"Oled sa kahe tule vahel?" k&uuml;sis Herbert ainult.</p>
+<p>"Veel mitte," vastas Harry ja sellega nende jutuajamine antud teemal piirdus. Herbert v&otilde;ttis k&ouml;&ouml;gikapist viskipudeli ja pani lauale.</p>
+<p>"Tahad elada, oska keerutada - &uuml;tlevad venelased."</p>
+</div1>
+
+<div1 type='alaosa'><head>4. peat&uuml;kk</head>
+
+<p>Eerik ja Enno seisid Anu haigevoodi jalutsis nagu oleks see surivoodi. N&auml;od t&otilde;sised ja juttu ei tulnud ka suuremat.</p>
+<p>"Sa pole ju kunagi varem proosat kirjutanud," p&uuml;&uuml;dis Anu Enno &ouml;eldut Eerikuga vestelda proovides &auml;ra kasutada.</p>
+<p>"Sul pole enne mitut meest ka olnud," ei saanud Eerik valusast teemast &uuml;le ega &uuml;mber.</p>
+<p>"Ega mul mitut olegi," t&ouml;gas Anu vastu. "Mul &uuml;ks mees ja kaks last."</p>
+<p>"Me t&otilde;ime sulle siin tr&auml;na, tead." Eerik pani kilekoti kommikarbi ja saiakestega &ouml;&ouml;kapi k&otilde;rvale.</p>
+<p>"Kuidas teil muidu l&auml;heb ka?" k&uuml;sis Anu.</p>
+<p>"Emme, kaua sa siin olema pead?" vastas Enno k&uuml;simusega.</p>
+<p>"Kaks kuud pidi &auml;ra minema," ohkas emme. "Kuidas koolis lood on?"</p>
+<p>"Ah, on kah&hellip;" Ennol kakkus meel nukraks. "Me s&ouml;&ouml;me issiga makarone."</p>
+<p>"Issi v&otilde;iks kuhugi t&ouml;&ouml;le minna," arvas emme. "Igasuguseid otsi on v&otilde;imalik saada."</p>
+<p>Eerik oli pikalt Anut j&auml;lginud ja tal hakkas kuidagi hale. Siin ta n&uuml;&uuml;d on - emantsipeerunud naine. J&auml;ttis mehe-lapse maha, pani autoga kraavi ja peab veel jalutsis seisvale minevikule loengut ka. Elu &otilde;nn k&auml;es nagu niuhti.</p>
+<p>"Kes ta &uuml;ldse on, millega tegeleb?" k&uuml;sis Eerik &auml;&auml;riveeri.</p>
+<p>"Ta t&ouml;&ouml;tab kinnisvarafirmas. On &uuml;ks omanikke," vastas Anu ilma otsa vaatamata. "K&auml;is just enne teid siin."</p>
+<p>"Emme, kas sa koju tagasi ei tulegi?" k&uuml;sis Enno.</p>
+<p>"Ei, poja. Kui siit v&auml;lja saan, tulen sulle j&auml;rele." Ta m&otilde;tles natuke aega ja lisas siis veidi vaiksemalt:</p>
+<p>"Kui sa tahad."</p>
+<p>"Ma ei tea," oli Enno esimest korda nii raskes olukorras.</p>
+<p>Raske s&uuml;damega lonkisid nad vaikides bussipeatusse.</p>
+<p>"Lilled oleks pidanud kohe vette panema," tegi suurem mees juttu.</p>
+<p>"Tal oli neid seal niigi," arvas v&auml;iksem.</p>
+<p>"Need olid tema enda istutatud," r&otilde;hutas suurem.</p>
+<p>"Ma ei taha uut issit," r&otilde;hutas v&auml;iksem.</p>
+<p>"Ega sa ei pea," &uuml;tles suurem.</p>
+<p>"Aga ma ei taha uut emmet ka," &uuml;tles v&auml;iksem.</p>
+<p>"Ega neid nii v&auml;ga v&otilde;tta polegi," arvas Eerik ja t&auml;nas jumalat, et buss tuli.</p>
+<p>Nad j&otilde;udsid kesklinna ja Eerik m&otilde;tles, et peaks enne t&uuml;hja majja naasmist pojal veidi tuju t&otilde;stma.</p>
+<p>"Kuule, Enno!"</p>
+<p>"Mis on?"</p>
+<p>"Kui &otilde;ige pummeldaks veidi?"</p>
+<p>"Raha on ju otsas."</p>
+<p>"Ma siin m&uuml;&uuml;sin &uuml;htteist maha&hellip;"</p>
+<p>"Satelliidiv&auml;rgi, jah?" teadis Enno. "Ma m&auml;rkasin."</p>
+<p>"Ega me teda nagunii ei vaadanud ju!" oli Eerik v&otilde;imalikult &uuml;ksk&otilde;ikne.</p>
+<p>"Ega k&uuml;ll," oli Enno solidaarne.</p>
+<p>Nad istusid kohvikusse maha ja tellisid j&auml;&auml;tist maasikamoosiga.</p>
+<p>"Issi," tegi Enno juttu. "Sul peaks ikka m&otilde;ni naine olema. Muidu hakkad veel jooma. Egoni isa hakkas."</p>
+<p>"Kui sina ei hakka, ei hakka mina ka," p&uuml;&uuml;dis Eerik nalja visata.</p>
+<p>Esimest korda &uuml;le pika aja said nad naerda.</p>
+<p>"Ma olen selle &uuml;le m&otilde;elnud," torkas Enno veel lisaks. Ja nad muudkui naersid.</p>
+<p>"Kui &otilde;ige koliks linna elama?" k&uuml;sis Eerik j&auml;rsku.</p>
+<p>Enno j&auml;i kuidagi nukraks ja arvas, et paremat kodu neil enam kunagi olema ei saa.</p>
+<p>"Olgu peale," &uuml;tles Eerik. "Saame hakkama. Ja kuhu me Pitsu ja Miisu siin linnas panemegi &hellip;"</p>
+<p>"Ma v&otilde;in minna ajalehti m&uuml;&uuml;ma," tegi Enno t&ouml;&ouml;st juttu.</p>
+<p>"Ja mina v&otilde;in hakata t&otilde;lkima," plahvatas Eerikul j&auml;rsku.</p>
+<p>"Kas sa kirjutad nagu p&auml;ris raamatut?" k&uuml;sis Enno.</p>
+<p>"Eks ta p&auml;rast n&auml;ha ole," arvas Eerik. "Igatahes on niimoodi kergem &uuml;ksinda hakkama saada, kui midagi kirjutad."</p>
+<p>"Aga mina olen sul ju ka!" h&uuml;&uuml;atas poeg ja k&otilde;rvallauas istuvad vanadaamid j&auml;id neid pikalt passima.</p>
+<p>"L&auml;hme n&uuml;&uuml;d &auml;ra," pidas isa targemaks ja nad lonkisid j&auml;llegi bussi peale. Suurem veidi maad ees ja v&auml;iksem varbaga kive toksides j&auml;rel.</p>
+<p>"Issi!" h&uuml;&uuml;dis Enno. "Kas sa seda anekdooti m&auml;letad, mis sa s&uuml;nnip&auml;eval r&auml;&auml;kisid?"</p>
+<p>"Ei," vastas Eerik huupi ja m&otilde;tles juba ammu omi m&otilde;tteid.</p>
+<p>"Noh, et kui on armuke, siis on takso ja restoran. Kui on emme, siis on liinibuss ja s&ouml;&ouml;kla."</p>
+<p>"Terane," m&otilde;tles Eerik endamisi.</p>
+<p>"Aga kui pole kumbagi?" k&uuml;sis Enno.</p>
+<p>"Siis on liinibuss ja restoran," arvas Eerik. "Nagu t&auml;na."</p>
+<p>"Ma pean sulle armukese muretsema," tegi Enno kokkuv&otilde;tte ja l&otilde;i kivikese isale vastu jalga.</p>
+<p>Eerik istus arvuti taga ja toksis oma kriminulli.</p>
+<p>"Mis kuradi p&auml;rast ma mingist reamehest kirjutan," arutles ta omaette. "Keda see huvitab? Rahvas tahab James Bondisid ja Supermanne, traagilist algust ja &otilde;nnelikku l&otilde;ppu." Ta pani suitsu ette j&auml; l&auml;ks &otilde;ue koeraga t&otilde;tt vaatama. See tegevus rahustas sama palju kui tullevaatamine.</p>
+<p>Pitsu oli peremehe k&auml;itumisest viimastel p&auml;evadel ilmselt &uuml;llatunud, sest kunagi enne polnud talle niipalju t&auml;helepanu p&ouml;&ouml;ratud, et tuldi mitu korda p&auml;evas t&otilde;tt vahtima.</p>
+<p>"Eksootikat on vaja," seletas peremees teda k&otilde;rvatagant s&uuml;gades. "Eksootikat ja m&uuml;stikat. See kuradi karm reaalsus on vanamoodne." Ta v&otilde;ttis puutoika ja viskas selle &uuml;le &otilde;ue. Pitsu vaatas tema liigutust t&uuml;lpinud pilguga pealt ja pani k&auml;pa Eerikule s&uuml;lle.</p>
+<p>"Arvad?" k&uuml;sis Eerik. "Hea k&uuml;ll, sa saad oma tahtmise!" Ta l&auml;ks &uuml;lakorrusele tagasi ja kirjutas:</p>
+<p>"Kui Harry oli kaks p&auml;eva Herberti juures redus vedelenud, v&otilde;ttis Ralf temaga l&otilde;puks &uuml;hendust.</p>
+<p>"Sinu allkirja on vaja. Kell &uuml;ks ole notari juures!"</p>
+<p>Harry ajas habeme &auml;ra ja tegi nagu k&auml;stud. Vormistamine l&auml;ks kiiremini kui ta lootis ja peagi oli tal Herberti nimel uus kahetoaline korter ja Nissan Maxima, ainult sedapuhku s&uuml;simust.</p>
+<p>"Homme s&otilde;idad M. linna. Tavaar on poes," k&auml;hises Ralf ja pani vastust ootamata toru &auml;ra.</p>
+<p>Ethel &hellip;Ethel &hellip;Ehee! Ta oli oma surmahirmus unustanud kena kontaktisiku. Ehk on seegi kord j&auml;lle tema."</p>
+<p>Teel M. linna tulid Harryle p&auml;he kummalised m&otilde;tted. Kui ta elaks tulevikus &hellip; Kes ta siis oleks? Parseldaks mikroskeeme? V&otilde;i s&otilde;idaks planeetide vahet ja toimetaks alatedvusse talletatult kohale strateegiliselt t&auml;htsat informatsiooni? J&otilde;uad kohale, pannakse sind skafandritaolise aparaadi alla ja imetakse info v&auml;lja &hellip;Kogemata magatakse &otilde;ige murdosa sekundist maha ja pool lapsep&otilde;lve l&auml;heb samuti kaasa. K&uuml;mnenda korra j&auml;rel ei tee enam ise ka vahet, kes sa olid v&otilde;i oled. Sisses&ouml;&ouml;tmisel v&otilde;ib ju ka apsakaid tulla. N&auml;iteks satub Valge Maja plaan sulle varajaste m&auml;lestuste sekka. Ja hakkadki seda oma s&uuml;nnikoduks pidama. V&otilde;i satub m&otilde;ni KGB agent sulle isaks. Veel hullem on kui asjad satuvad valesse kohta. N&auml;iteks &uuml;tled peale naasmist kodus k&uuml;lalistega vesteldes automaatselt, et mingi h&auml;vituslennuki juhtimiss&uuml;steemi skeemiosa on su naabri koer. V&otilde;i et Bill Clinton su t&uuml;tar ja salan&otilde;upidamine on delfinaarium. L&otilde;puks viib k&otilde;ik selleni, et paned supi lusikaga suhu ja ei m&otilde;ista ise ka, miks sa proovilendude ajal muinasjuttu vikatiga robotile saapasse topid.</p>
+<p>Harry otsustas, et kui ta &otilde;nnelikult vanaduseni vastu peab, siis hakkab ulmejutte kirjutama. Paneb soojad suure tutiga toatuvlid jalga, istub k&otilde;rgesse pehmesse tugitooli ja muudkui fantaseerib ja fantaseerib &hellip;</p>
+<p>Korraga m&auml;rkas ta, et taga s&otilde;idab t&ouml;&ouml;tavate vilkuritega politseiauto. Harry m&otilde;tles korraks, et n&uuml;&uuml;d on l&otilde;pp. Tal k&auml;isid peast l&auml;bi kohvri peidukoht istme sees, juhtn&ouml;&ouml;ride ja fotode p&otilde;letamine, k&uuml;mneaastane vanglakaristus ja allmaailma k&auml;ttemaks.</p>
+<p>"Inspektor Kask liikluspolitseist. Teie s&otilde;idudokumendid, palun! Mis te arvate, palju teil kiiruseks oli?"</p>
+<p>Harry tuli hetkega infarktieelsest seisundist tagasi ja tegi patukahetseja n&auml;o:</p>
+<p>"Eks ta vist sada kakkus &auml;ra k&uuml;ll. S&otilde;bral hea auto, teate, ei saanud kiusatusest m&ouml;&ouml;da."</p>
+<p>"Sada nelik&uuml;mmend seitse oli," lausus inspektor ja ulatas Harryle protokolli. "Kirjutage siia alla, palun!"</p>
+<p>Harry kirjutas alla ja &uuml;tles tahtmatult:</p>
+<p>"Ma t&auml;nan teid!"</p>
+<p>Politseinik vaatas Harryt uurival pilgul ja soovis kuidagi mitte eriti veendunult head reisi.</p>
+<p>"Hoidke edaspidi kiirusest kinni. Teete s&otilde;brale karuteene&hellip;"</p>
+<p>Harry l&auml;itis suitsu ja auto liikus eriti sujuvalt paigast.</p>
+<p>Eerik vaatas Pitsule otsa ja tema ehmatuseks ei p&ouml;&ouml;ranudki see nii ruttu pead &auml;ra kui tavaliselt.</p>
+<p>"Sinust hakkab ka inimene saama," silitas Eerik koera pead.</p>
+<p>"Vaatad ausalt silma ja ei valeta otse suu sisse."</p>
+<p>"Muidugi ei valeta. Ma pole kunagi valetanud," &uuml;tles Pitsu ja istus peremehele varba peale.</p>
+<p>Eerik oli viimati sama jahmunud olnud kui pohmellis peaga t&auml;iesti v&otilde;&otilde;ras metsatalus &uuml;les &auml;rkas. Ta oli siis joomingu k&auml;igus mingi juhututtavaga teise linna kaasa s&otilde;itnud, see oli teda omakorda m&ouml;&ouml;da tuttavaid vedanud ja l&otilde;puks kui t&uuml;lika jahukoti suvalise traktoristi poole magama j&auml;tnud.</p>
+<p>Eerik taganes selg ees maja poole nagu marut&otilde;bise eest ja l&auml;ks kiiruga peegli ette.</p>
+<p>"Mina olen Eerik Hein, Arturi poeg. Kolmk&uuml;mmend &uuml;heksa aastat vana, seitseteist aastat haridust omandanud ja kahe lapse isa. Ma ei ole ju hull. Ega ju?" Ta tegi virila grimassi nagu oleks ahvist tagasi poisiks palunud ja istus siis otse p&otilde;randale maha. Ta piilus kardina vahelt &otilde;ue ja pidi nentima, et taevas on sinine, muru roheline ja Pitsu, kes majesteetlikumalt kui muidu ringi jalutas, ikkagi koer mis koer.</p>
+<p>"&Uuml;lepingutus," tegi ta j&auml;relduse. "Kui see kordub, p&ouml;&ouml;rdun arsti poole." Ta heitis pikali ja pani kraadiklaasi kaenla alla.</div1>
+
+<div1 type='alaosa'><head>5. peat&uuml;kk</head>
+
+<p>Harry sisenes taas &auml;&auml;relinnarestorani, sedapuhku M. linna teises otsas.</p>
+<p>"Sa ei helistanud!" heitis Ethel kohe ette.</p>
+<p>"E.S.A. oli," tegi Harry Kalle Blomkvistiliku n&auml;o.</p>
+<p>"Misasi?" ei saanud Ethel aru.</p>
+<p>"Erakordsete s&uuml;ndmuste ahel," seletas Harry ja tal hakkas h&auml;bi nagu James Bondil oleks hakanud paberlennukit toas ringi lennutades.</p>
+<p>"Armunud oled v&otilde;i?" t&ouml;gas Ethel.</p>
+<p>"Millest sa seda j&auml;reldad?"</p>
+<p>"Armunud peast muutuvad mehed lapsikuks ja hakkavad lauseid konstrueerima."</p>
+<p>"Miks sa ei k&uuml;si mu &uuml;likonna kohta midagi?" ehmatas Harry.</p>
+<p>"Ahjaa, kus su &uuml;likond on?" tegi Ethel kelmika n&auml;o. Harry k&otilde;hkles pisut.</p>
+<p>"Milline?" k&uuml;sis ta kohe.</p>
+<p>"Helesinine muidugi." K&otilde;ik oli &otilde;ige. Harry vastas:</p>
+<p>"Laenasin s&otilde;brale."</p>
+<p>"Kas ma ikka veel ilus olen?" k&uuml;sis n&uuml;&uuml;d Ethel.</p>
+<p>"Ilusam kui eelmine kord."</p>
+<p>"Ma olen tunni aja p&auml;rast vaba," tegi Ethel ettepaneku. "Viskan ainult selle &auml;ra."</p>
+<p>"Saame kuskil kokku," vastas Harry kutsele.</p>
+<p>"Mis me keerutame, mul on number hotellis K. homseni kinni pandud."</p>
+<p>"Mul ka, hotellis S." Esimest korda n&auml;gi Harry Etheli avalat ja vaba naeratust.</p>
+<p>"Mis me ikka pinget krutime, kell 11.00 hotelli K. ees, OK?"</p>
+<p>Ethel t&otilde;usis ja t&auml;nas kohvi eest.</p>
+<p>"Otsekohene tots!" arvas Harry ja tundis, et miski kogu selle asja juures teeb teda valvsaks. Ta maksis arve ja s&otilde;itis m&otilde;ne aja m&ouml;&ouml;da t&uuml;hjemaid t&auml;navaid. Saba igatahes ei olnud.</p>
+<p>Veerand tundi kokkulepitust varem parkis ta oma Maxima taas paari kvartali jagu hotellist K. eemale ja muukis ennast sisse hotelli tagauksest. K&uuml;llap ta juba teadis, miks talle nii h&auml;sti maksti. Ta lukustas uuesti ukse ja l&auml;ks trepist korruse v&otilde;rra &uuml;les. Siit p&auml;&auml;ses teise korruse numbritubadega koridori. Ta pani suitsu ette ja ei j&otilde;udnud seda l&otilde;puni t&otilde;mmatagi kui kuulis alt muukimist. K&auml;sipuude vahelt piilus ta ettevaatlikult tagavaraust ja oli valmis vajadusel pead kohe tagasi t&otilde;mbama.</p>
+<p>Uks avanes h&auml;&auml;letult ja selle vahelt sisenis kollases tolmumantlis rohelise sonim&uuml;tsiga kleenuke figuur. Kahtlust polnud - see oli Sten. Harry astus nii vaikselt kui nahktallad v&otilde;imaldasid teise korruse koridori ja jooksis alul kikivarvul, siis t&auml;istallaga p&otilde;randat m&uuml;distades peatrepist alla.</p>
+<p>Oodanud peldikus kuni kell l&otilde;i &uuml;ksteist, astus ta rahvale n&auml;htamatu ettevaatusega hotellist v&auml;lja, lehvitas Ethelile ja see astus &uuml;le s&otilde;idutee tema juurde.</p>
+<p>"Ootasid?" k&uuml;sis Ethel n&auml;iliselt muretult.</p>
+<p>"Sain kaks minutit varem, jah" vastas Harry sama tooniga.</p>
+<p>"Tead, meil tuleb kahjuks ikkagi S. hotelli s&otilde;ita: pean kaks tundi peale meie kokkusaamist helistama tingimata hotelli S. numbrilt. Saad aru k&uuml;ll ju?" Ta &uuml;tles seda t&auml;iesti rahulikult ja tegi veel vastava n&auml;o sinna juurde. "Poolteist tundi on juba &uuml;le ja ma ei tahaks sinuga kiirustada. V&otilde;i mis sa ise arvad?"</p>
+<p>Kummaline vari libises &uuml;le Etheli n&auml;o, kuid ta kogus ennast kohe ja naeratas.</p>
+<p>"Eks s&otilde;idame siis!"</p>
+<p>Harry t&auml;nas jumalat, et tee peale j&auml;i mitu v&auml;iksema liiklusega t&auml;navat ja patras terve tee t&uuml;hjast-t&auml;hjast.</p>
+<p>J&otilde;udnud hotelli S., j&auml;ttis ta Etheli numbrituppa ootama ja l&auml;ks helistamise ettek&auml;&auml;ndel alakorrusele. Tagasi ta muidugi ei tulnud. Poole tunni p&auml;rast oli M. linn juba kaugel seljataga. Ta lootis, et ei n&auml;e enam Ethelit kunagi.</p>
+<p>Eerik ei julenud enam koeraga t&otilde;tt vaadata. Ta oli tule pliidi alla teinud ja vahtis seda.</p>
+<p>"Mis on hullem, kas hirm v&auml;givaldse surma ees v&otilde;i hirm &uuml;ksinduse ees?" Ta kohendas roobiga tuld ja p&uuml;&uuml;dis ise vastata:</p>
+<p>"Sellel, kes teistest rohkem surma kardab, on ilmselt ka &uuml;ksindusega samuti. Peab olema vastava n&auml;rvikavaga inimene. Enesekesksed ja enda vastu ausad inimesed kardavad m&otilde;lemat ilmselt v&auml;hem. Kes mina olen?" Ta p&uuml;&uuml;dis huumoriga asjast v&auml;lja tulla:</p>
+<p>"Mina olen mees, kelle koerad r&auml;&auml;givad ja keda naised maha j&auml;tavad." See ei tundunud eriti lohutav.</p>
+<p>"OK, t&auml;nasest v&otilde;tan k&auml;tte ja ei valeta ega ilusta endale enam &uuml;htegi asja."</p>
+<p>"Aga kuidas j&auml;&auml;b lootuste ja fantaasiatega?" k&uuml;sis korraga Harry, kes oleks justkui seljataga istunud. Huvitaval kombel ei &uuml;llatanud see Eerikut sugugi. Lihtsalt hea kujutlusv&otilde;ime - arvas ta v&auml;ljavabandavalt.</p>
+<p>"Ainult lootuste ja fantaasiatega reaalses elus kaugele ei j&otilde;ua," vastas ta k&uuml;simusele ja ehmus pisut tundest, et ta r&auml;&auml;gib mitte enda kujutlusv&otilde;ime viljaga, vaid justkui reaalse isikuga. Kiiruga vaatas ta seljataha. Seal ei olnud kedagi.</p>
+<p>"Nii see asi n&uuml;&uuml;d k&uuml;ll ei l&auml;he!" &uuml;tles ta resoluutselt ja kuuldavalt. "Ma sulle veel teen lootusi ja fantaasiaid!"</p>
+<p>Eerik istus arvuti taha ja tippis veendunult:</p>
+<p>"Ethel ja Sten m&auml;ngivad kokku - oli Harryle pilt selgemast selgem. Ta helistas Ralfile ja n&otilde;udis kokkusaamist.</p>
+<p>"Ta tuli mind maha laskma," lausus ta v&otilde;imalikult rahulikult.</p>
+<p>"Sina poe j&auml;lle urgu ja j&auml;ta &uuml;lej&auml;&auml;nu meie hooleks," k&auml;histas Ralf ja pani seekord ise &uuml;mbriku lauale. "&Auml;ra sa poodi ka enne n&auml;gu n&auml;ita kui ma &uuml;tlen."</p>
+<p>Harry oli sunnitud tegevusetult voodis vedelema ja lakke vahtima.</p>
+<p>"Herbert!"</p>
+<p>"Mul pole teilt midagi vaja ja teie ei saa ka &hellip;"</p>
+<p>"Oota, seda ma tean! Kuule, Herbert, kas sa oled m&otilde;elnud, et tulnukad on olemas?"</p>
+<p>"Olen ikka," vastas Herbert.</p>
+<p>"Noh? On v&otilde;i ei ole?"</p>
+<p>"Ei ole."</p>
+<p>"Miks sa nii arvad?"</p>
+<p>"Mina, vana mees, ei usu enne mitte sittagi kui oma silmaga n&auml;inud pole."</p>
+<p>"&Auml;kki neid pole n&auml;ha?"</p>
+<p>"Mismoodi?"</p>
+<p>"&Auml;kki nad on meil peas?"</p>
+<p>"Sul on vist k&uuml;ll," vastas Herbert kulme nii k&otilde;rgele kergitades kui sai.</p>
+<p>"Sest vaata," ei j&auml;tnud Harry rahule. "Misasi on &uuml;ldse m&otilde;tlemine? Kas sina tead?"</p>
+<p>"Ajudega liigutamine," arvas Herbert.</p>
+<p>"H&auml;h! Sa v&otilde;id oma ajud pesumasinasse panna ja v&auml;lja v&auml;&auml;nata, ikkagi ei tule sinna &uuml;kski m&otilde;te," seletas Harry isegi p&auml;ris kindel olemata.</p>
+<p>"Tead, sulle kuluks see k&uuml;ll &auml;ra," p&uuml;&uuml;dis Herbert t&uuml;&uuml;tut pinnijat maha raputada. "Kui sa napsu tahad, siis &uuml;tle kohe."</p>
+<p>"Ah, anna pealegi &uuml;ks pisar!" Harry j&otilde;i korraga &auml;ra pool teeklaasi l&auml;ilat lik&ouml;&ouml;ri ja j&auml;ttis Herberti rahule. Ta sirutas ennast m&otilde;nusalt voodil v&auml;lja ja j&auml;tkas oma M. linna s&otilde;itmise ajal katkestatud fantaseerimist.</p>
+<p>Ta on saadetud planeedile X &uuml;lit&auml;htsat infot edastama. Aju on t&auml;is laaditud nagu v&otilde;imas akumulaator. Maandumisel v&otilde;tab teda vastu p&otilde;rsan&auml;oga mees, kes tutvustab talle ennast tema enda nimega, muigab teda vaadates ja itsitab pihku.</p>
+<p>"Tema peas ongi mu koolip&otilde;lve patud!" taipab kuller. "Ja v&otilde;ib-olla isegi poissmeeste&otilde;htu!" Ta haarab mehel rinnust ja sisistab:</p>
+<p>"Kes viimasena naerab, naerab paremini!" ja lisab eriti vaenulikult:</p>
+<p>"Peale sinu j&auml;rgmist reisi tean ma v&otilde;ib-olla su naise intiimsustest rohkem kui sa ise!" P&otilde;rsan&auml;gu j&auml;&auml;b t&otilde;siseks ja nad astuvad vaikides m&ouml;&ouml;da pikka koridori m&auml;luaparaatide ruumi poole.</p>
+<p>Harry paneb suitsu ette. Ka Eerik s&uuml;&uuml;tab sigareti. Nad m&otilde;tlevad.</p>
+<p>"Kuidas saab valet meest maha p&otilde;letada?" m&otilde;tleb Harry.</p>
+<p>"Kuidas saab koer r&auml;&auml;kida?" m&otilde;tleb Eerik.</p>
+<p>"Kuidas panna idiooti koerale s&uuml;&uuml;a andma?" m&otilde;tleb Pitsu.</p>
+<p>"Ja mis lolli nime ta mulle pani - Pitsu! Ma olen v&auml;hemalt Richardit v&auml;&auml;rt!"</p>
+<p>"Ta magab oma sekret&auml;riga!" m&otilde;tleb Anu.</p>
+<p>"Esivanemad on lolliks l&auml;inud!" m&otilde;tleb Enno ja l&otilde;petab tahtmatult selle lausega klassikirjandi teemal "Minu kodu".</p>
+<p>Herbert teab seda k&otilde;ike aga tema k&auml;est ei saa me keegi mitte sittagi.</p>
+<p>Harry v&auml;ljam&otilde;eldud kosmiline kuller m&otilde;tleb, et ta peaks hakkama oma m&auml;lestusi kirja panema. Siis saaks v&auml;hemalt paberilt lugeda kes v&otilde;i mis sa olid ja oled. Juhtub n&auml;iteks, et l&auml;heb naise nimi ja v&auml;limus &uuml;hisesse katlasse tuumareaktorite paigutusega Vaikse ookeani N. saarestikus. Siis v&otilde;tad taskust elegantse liigutusega m&auml;rkmiku ja loed: punap&auml;ine, roheliste silmadega, 30/170/59, nimi see ja see - minu ametlik abikaasa. Embad siis juba veendunult oma naist ja sosistad kuumalt k&otilde;rva:</p>
+<p>"Kallis! Kuidas ma su j&auml;rele igatsenud olen!"</p>
+<p>Need k&uuml;mmekond kullerit, kes salateenistuses t&ouml;&ouml;tavad, on kahtlemata m&auml;&auml;ratud taastusravile. Ravi seisneb hullumajja paigutamisel. Seal jaotavad nad kompetentsete isikute j&auml;relvalve all oma m&auml;lestused uuesti &uuml;mber. &Uuml;ks paigutab oma mosaiiki puuduva osa lapsep&otilde;lvest, teine &otilde;pingud, kolmas kodumasinate otstarbe jne. L&otilde;puks teavad nad &uuml;ksteisest k&otilde;ike ja moodustavad justkui terviku. K&auml;ivad perekonniti l&auml;bi ja &uuml;ks ei suuda hoiduda teise lapsel nina p&uuml;hkimast v&otilde;i naisele k&auml;tt p&uuml;ksi ajamast.</p>
+<p>Harry oli juba peaaegu otsustanud naist enam mitte v&otilde;tta kui Herbert h&otilde;ikas k&ouml;&ouml;gist:</p>
+<p>"Su tiblafon piiksub! Kas sa ei kuule siis?"</p>
+<p>"Siin Harry isiklikult," v&auml;itis Harry surmkindlalt aparaati.</p>
+<p>"Ma kuulen k&uuml;ll, jah!" k&auml;hises Ralf teises otsas. "Pead &uuml;mber kolima! Esialgu K. linna. Korteri saime."</p>
+<p>"Teda seega k&auml;tte ei saanud?!" &auml;rkas Harry.</p>
+<p>"Ei. Aga ole mureta, poisid tegelevad sellega. Sina paki asjad ja koli &uuml;mber. K&otilde;ik vajalik on bussijaamas, kamber 321."</p>
+<p>"Ole mureta?" Harry s&uuml;litas p&otilde;randale ja h&otilde;&otilde;rus jalaga laiali.</p>
+<p>"Mis sa tatistad?" tuli Herbert k&ouml;&ouml;gist. "Kogu su maffiale kuluks &uuml;ks suur pomm autosse &auml;ra!"</p>
+<p>"K&auml;i p&otilde;rgu!" l&otilde;i Harry k&auml;ega ja viskas uuesti siruli.</p>
+<p>"Abikaasa. Punased juuksed, 30/170/59. Silmad rohelised. Gertrud. Igal v&otilde;imalusel itsitab, parema kannika peal s&uuml;nnim&auml;rk," kirjutas Thor - see oli kosmilise infokulleri nimi - m&auml;rkmikusse esimese sissekande. Ta m&otilde;tles veidi ja maalis siis rasvaste t&auml;htedega esilehele: "Thor - mina. S&uuml;ndinud 27.03.2345. Br&uuml;nett, 33/180/80. Silmad hallid. Arm vasakul p&otilde;sel (kaklus Q. planeedil)."</p>
+<p>Eerik t&otilde;usis, l&auml;ks peegli ette ja kirjeldas end diktori korrektse h&auml;&auml;ldusega:</p>
+<p>"Eerik Hein. Hallisegused juuksed, 39/180/80. Silmad sinised. Prillipapa. S&uuml;nnim&auml;rk s&uuml;dametunnistuse asemel. Jalad k&otilde;verad. Minuga r&auml;&auml;givad koerad ja v&auml;ljam&otilde;eldised." Korraga tundis ta j&auml;llegi veidrat hirmu. Tema kuju peeglis oleks justkui elustunud. Tundus nagu oleks see liigutanud pisut teistmoodi kui ta ise.</p>
+<p>"Aga ma ei taha kedagi teist!" karjus ta t&auml;iest k&otilde;rist."Las ma siis l&auml;hen hulluks!"</p>
+</div1>
+</div0>
+</body>
+</text>
+

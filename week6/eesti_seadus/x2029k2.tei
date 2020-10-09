@@ -1,0 +1,472 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Sadamaseadus ( terviktekst jaan 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    1768</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Sadamaseadus ( terviktekst jaan 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=6></tagusage>
+         <tagusage gi=p occurs=122></tagusage>
+         <tagusage gi=s occurs=156></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Sadamaseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 22. oktoobril 1997. a.</s>
+</p>
+<p>
+<s>( RT I 1997 , 77 , 1315 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 1998. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 ;</s>
+</p>
+<p>
+<s>17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 ;</s>
+</p>
+<p>
+<s>10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 805.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted ja kasutatud m&otilde;isted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse eesm&auml;rk</s>
+</p>
+<p>
+<s>Seadus reguleerib sadama valdaja kohustusi ohutusn&otilde;uete t&auml;itmisel ja riikliku j&auml;relevalvega seonduvaid toiminguid sadamas .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Sadam</s>
+</p>
+<p>
+<s>Sadam on laevanduslikuks ja kaubanduslikuks tegevuseks , laevaremondiks v&otilde;i harrastuslikuks laevas&otilde;iduks v&otilde;i muuks merendusalaseks tegevuseks kohandatud piiritletud alal asuv hoonete ja rajatiste kompleks koos selle juurde kuuluva akvatooriumiga .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Sadamaala</s>
+</p>
+<p>
+<s>Sadamaala on sadama funktsionaalseks tegevuseks kasutatav maa ja akvatoorium koos sinna juurde kuuluvate kaide , lainemurdjate , kaldatammide , sadama piiridesse j&auml;&auml;vate sisse- ja v&auml;ljas&otilde;iduteedega , mida kasutatakse laevade ja kauba t&ouml;&ouml;tlemiseks , reisijate teenindamiseks ning muuks laevaliiklusega seotud tegevuseks .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Sadama akvatoorium</s>
+</p>
+<p>
+<s>( 1 ) Akvatoorium on piiritletud , p&uuml;sivalt veega kaetud ala , mida kasutatakse laevaliikluseks v&otilde;i muuks sadama funktsionaalseks tegevuseks .</s>
+</p>
+<p>
+<s>( 2 ) Meresadama akvatooriumi piirid m&auml;&auml;rab teede- ja sideministri ettepaneku ja kohaliku omavalitsuse volikogu koosk&otilde;lastuse alusel Vabariigi Valitsus .</s><s>Siseveekogudel m&auml;&auml;rab akvatooriumi piirid veekogu v&otilde;i selle osa omanik koosk&otilde;lastatult kohaliku omavalitsuse volikoguga .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Sadama valdaja</s>
+</p>
+<p>
+<s>Sadama valdaja on isik , kes valdab sadamat ning korraldab sadama tegevust tervikuna .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Sadamakapten</s>
+</p>
+<p>
+<s>( 1 ) Sadamakapten on sadama valdajaga t&ouml;&ouml;- v&otilde;i teenistussuhetes olev isik , kelle &uuml;lesandeks on korraldada ohutut laevaliiklust &uuml;hes v&otilde;i mitmes tema t&ouml;&ouml;piirkonnaks m&auml;&auml;ratud sadamas .</s><s>Igale sadamale peab olema m&auml;&auml;ratud sadamakapten .</s>
+</p>
+<p>
+<s>( 2 ) Sadamakapteniks v&otilde;ib olla Eesti kodanik , kellel on selleks t&ouml;&ouml;ks vajalikud teadmised .</s><s>Sadamakapteni kvalifikatsioonin&otilde;uded ja atesteerimise tingimused kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Sadamakapteni &uuml;lesandeks on tagada tingimused laevade ohutuks man&ouml;&ouml;verdamiseks ja seismiseks sadamas , reidil v&otilde;i dokis , lastimiseks ning teisteks vajalikeks toiminguteks .</s>
+</p>
+<p>
+<s>( 4 ) Sadamakaptenil on &otilde;igus anda korraldusi k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud &uuml;lesannete t&auml;itmiseks , juhindudes sadama eeskirjast ja heast merepraktikast .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kaubandusliku meres&otilde;idu &uuml;lesannetega sadam</s>
+</p>
+<p>
+<s>( 1 ) Kaubandusliku meres&otilde;idu &uuml;lesannetega sadamaks on sadam , kus toimub kauba &uuml;mberlaadimine , ladustamine ja t&ouml;&ouml;tlemine , laevade varustamine ja teenindamine , reisijate laevale minek ja laevalt tulek , kala vastuv&otilde;tt kalalaevadelt v&otilde;i kus v&otilde;imaldatakse harrastuslike meres&otilde;itjate ja kalurite paatide , kaatrite ja jahtide sildumist v&otilde;i randumist ning muud nimetatud &uuml;lesannetega seonduvat tegevust .</s>
+</p>
+<p>
+<s>( 2 ) Kaubandusliku meres&otilde;idu &uuml;lesannetega sadam on avatud rahvusvaheliseks kaubanduslikuks meres&otilde;iduks .</s><s>Vabariigi Valitsusel on &otilde;igus kehtestada piiranguid k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud tegevustele sadamas perioodiks , mil sadamas baseeruvad riigikaitselisi &uuml;lesandeid t&auml;itvad laevad .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus kehtestab radioaktiivsete v&otilde;i eriti ohtlike ainete loetelu , mille sissevedu sadamatesse on keelatud v&otilde;i piiratud .</s>
+</p>
+<p>
+<s>( 4 ) Kaubandusliku meres&otilde;idu &uuml;lesannetega sadamad , kus osutatakse sadamateenuseid valdavalt sadamat k&uuml;lastavatele harrastusmeres&otilde;itjatele , klassifitseeritakse nendes osutatavate teenuste mahu ja kvaliteedi j&auml;rgi .</s><s>K&auml;esolevas l&otilde;ikes nimetatud sadamate klassifikatsiooni ning nendes sadamates osutatavate teenuste &uuml;ld- ja miinimumn&otilde;uded kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Riigikaitse &uuml;lesannetega sadam</s>
+</p>
+<p>
+<s>( 1 ) Riigikaitse &uuml;lesannetega sadamad m&auml;&auml;rab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 2 ) Riigikaitse &uuml;lesannetega sadam on suletud kaubanduslikuks meres&otilde;iduks ja sellega seonduvaks tegevuseks .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus v&otilde;ib anda loa riigikaitse &uuml;lesannetega sadama kasutamiseks kaubandusliku meres&otilde;idu alaseks tegevuseks , kinnitades vastavad tingimused .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Sadama eeskiri</s>
+</p>
+<p>
+<s>( 1 ) Sadama eeskiri s&auml;testab sadamateenuste osutamisel esitatavad tehnoloogilised , ekspluatatsioonilised , navigatsioonilised ja keskkonnaalased n&otilde;uded ning sadamatasude ja pilsivee , fekaalvee , pr&uuml;gi ja muude saasteainete vastuv&otilde;tmise tasude m&auml;&auml;rad .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>( 2 ) Sadama eeskirja ja selle muudatused kinnitab sadama valdaja , koosk&otilde;lastades eeskirja Veeteede Ametiga .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;uded sadama eeskirjale kinnitab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 4 ) Sadama eeskirjas m&auml;rgitud n&otilde;uded on kohustuslikud k&otilde;igile sadamas tegutsevatele v&otilde;i viibivatele isikutele .</s>
+</p>
+<p>
+<s>( 5 ) Sadama valdaja on kohustatud informeerima k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud isikuid sadamas kehtivast sadama eeskirjast ja muudest kohustuslikest eeskirjadest .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Sadamate laevaliikluseks avamine .</s><s>Sadamapass</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Sadama laevaliikluseks avamine</s>
+</p>
+<p>
+<s>( 1 ) Sadama laevaliikluseks avamise korra kehtestab Vabariigi Valitsus .</s><s>Sadamate suhtes , mida k&uuml;lastavad valdavalt v&auml;ikelaevad , rakendatakse lihtsustatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse moodustatud komisjon koostab sadama laevaliikluseks avamise akti .</s>
+</p>
+<p>
+<s>( 3 ) Teede- ja sideminister kinnitab laevaliikluseks avamise akti alusel sadama valdaja koostatud sadamapassi .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Sadamapass</s>
+</p>
+<p>
+<s>( 1 ) Sadamapass on dokument , mis t&otilde;endab , et sadam vastab &otilde;igusaktidega kehtestatud normidele ning on avatud ohutuks laevaliikluseks ja sadama funktsionaalseks tegevuseks .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;uded sadamapassile kinnitab teede- ja sideminister l&auml;htuvalt sadamas osutatavate teenuste liigist ja mahust .</s>
+</p>
+<p>
+<s>( 3 ) Ilma sadamapassita v&otilde;i erinevalt sadamapassis toodud tingimustest on sadama kasutamine sadamateenuste osutamiseks keelatud .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Sadama valdaja kohustused sadamas</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Ohutu laevaliikluse ja korra kindlustamine sadamas</s>
+</p>
+<p>
+<s>( 1 ) Sadama valdaja on kohustatud tagama :</s>
+</p>
+<p>
+<s>1 ) h&uuml;drotehniliste ehitiste korrashoiu sadamaalal ;</s>
+</p>
+<p>
+<s>2 ) navigatsioonim&auml;rkide paigaldamise ja korrashoiu sadamaalal ning v&auml;ljaspool seda nende m&auml;rkide osas , mis teenindavad ainult vastavat sadamat ;</s>
+</p>
+<p>
+<s>3 ) deklareeritud s&uuml;gavused sadama akvatooriumil ja sisses&otilde;iduteel vastavalt s&uuml;gavuste m&otilde;&otilde;tkavalisele kaardile ;</s>
+</p>
+<p>
+<s>4 ) kontrolli ohtlike kaupade sadamasse sisseveo , ladustamise , hoiustamise ja &uuml;mberlaadimise &uuml;le ;</s>
+</p>
+<p>
+<s>5 ) sadamaalal puhtuse ja korra ning tuleohutus- ja keskkonnan&otilde;uete t&auml;itmise .</s>
+</p>
+<p>
+<s>( 2 ) Sadama valdaja korraldab sadama sisses&otilde;idutee ja akvatooriumi rekonstrueerimist , j&auml;lgib deklareeritud andmete &otilde;igsust ning vastutab deklareeritud andmete &otilde;igsuse eest .</s>
+</p>
+<p>
+<s>( 3 ) Sadama valdaja korraldab laevadelt pilsivee , fekaalvee , pr&uuml;gi ja muude saasteainete vastuv&otilde;tmise .</s><s>Vastava korra kehtestab teede- ja sideminister koosk&otilde;lastatult keskkonnaministriga .</s>
+</p>
+<p>
+<s>( 4 ) Sadama valdaja korraldab reostuse k&otilde;rvaldamise operatsioone sadamaalal , informeerides olukorrast Keskkonnaministeeriumi ning koosk&otilde;lastades oma tegevuse asukohaj&auml;rgse tulet&otilde;rje- ja p&auml;&auml;steasutusega .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riiklik j&auml;relevalve sadamas</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Riiklike j&auml;relevalveasutuste &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku j&auml;relevalvet teostavatel isikutel on &otilde;igus vabale juurdep&auml;&auml;sule j&auml;relevalveobjektiks olevatele laevadele , sadamaehitistele , kaubale ja dokumentidele .</s>
+</p>
+<p>
+<s>( 2 ) Veeteede Ametil , Piirivalveametil , Tolliametil ja teistel riiklikel j&auml;relevalveasutustel on &otilde;igus n&otilde;uda sadama valdajalt eelnevat teavet sadama t&ouml;&ouml;mahu eeldatava muutumise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Teede- ja sideminister kinnitab korra , millega reguleeritakse riiklike j&auml;relevalveorganite teavitamine Eesti Vabariigi sadamatesse saabuvatest ja nendest lahkuvatest laevadest .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Riiklik j&auml;relevalve ohtliku kauba k&auml;itlemisel sadamas</s>
+</p>
+<p>
+<s>Riiklikku j&auml;relevalvet ohtliku kauba sadamas vastuv&otilde;tu , t&ouml;&ouml;tlemise , hoiustamise ja v&auml;ljastamise &uuml;le teostab Veeteede Amet .</s><s>N&otilde;uded ohtliku kauba sadamas vastuv&otilde;tu , t&ouml;&ouml;tlemise , hoiustamise ja v&auml;ljastamise kohta kehtestab teede- ja sideminister koosk&otilde;lastatult keskkonnaministriga .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Sadamaregister</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Sadamaregister</s>
+</p>
+<p>
+<s>( 1 ) Sadamaregister on riiklik register , kus registreeritakse sadamapassi omavad sadamad .</s>
+</p>
+<p>
+<s>( 2 ) Sadamaregister asutatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Sadamaregistri vastutav t&ouml;&ouml;tleja on Teede- ja Sideministeerium ning volitatud t&ouml;&ouml;tleja on Veeteede Amet .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Avalikud tollilaod , tolliterminalid , vabatsoonid ja vabalaod</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Avalikud tollilaod , tolliterminalid , vabatsoonid ja vabalaod sadamates</s>
+</p>
+<p>
+<s>( 1 ) Avalikud tollilaod , tolliterminalid ja vabatsoonid luuakse ning vabalaod asutatakse sadamates kaubanduse edendamiseks tolliseadustikuga kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Taotluse sadamaalal vabatsooni loomiseks v&otilde;i vabalao asutamiseks esitab sadama valdaja teede- ja sideministrile .</s>
+</p>
+<p>
+<s>( 3 ) Avalike tolliladude , tolliterminalide ja vabatsoonide loomise ning vabaladude asutamisega ei tohi kaasneda sadamateenuste osutamise vabaduse piiramine ning ebaausat konkurentsi p&otilde;hjustavate tingimuste loomine .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>6 <hi rend="sup">1</hi> . peat&uuml;kk</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>Vastutus</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>&sect; 16 <hi rend="sup">1</hi> .</s><s>Sadamateenuste osutamine sadamapassita</s>
+</p>
+<p>
+<s>Sadama valdajale , kes osutab sadamateenuseid sadamapassita v&otilde;i sadamapassis toodud tingimustest erinevalt , - m&auml;&auml;ratakse rahatrahv 5000 - 100 000 krooni .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>&sect; 16 <hi rend="sup">2</hi> .</s><s>Sadama eeskirja puudumine</s>
+</p>
+<p>
+<s>Sadama valdajale , kelle sadamal puudub sadama eeskiri v&otilde;i sadama eeskirjas olevad andmed ei vasta tegelikkusele , - m&auml;&auml;ratakse rahatrahv 5000 - 100 000 krooni .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>&sect; 16 <hi rend="sup">3</hi> .</s><s>Navigatsioonim&auml;rkide paigaldamise ja korrashoiu n&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>Sadama valdajale , kes rikub k&auml;esoleva seaduse &sect; 12 l&otilde;ike 1 punkti 2 n&otilde;udeid , - m&auml;&auml;ratakse rahatrahv 5000 - 150 000 krooni .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>&sect; 16 <hi rend="sup">4</hi> .</s><s>J&auml;relevalveasutustele seadusega etten&auml;htud andmete ja dokumentide esitamisest keeldumine v&otilde;i valeandmete esitamine</s>
+</p>
+<p>
+<s>Sadama valdajale , kes keeldub esitamast j&auml;relevalveasutustele seadusega etten&auml;htud andmeid ja dokumente v&otilde;i esitab teadvalt valeandmeid , - m&auml;&auml;ratakse rahatrahv 1000 - 50 000 krooni .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>&sect; 16 <hi rend="sup">5</hi> .</s><s>Puhtuse- , korra- , tuleohutus- ja keskkonnakaitsen&otilde;uete rikkumine</s>
+</p>
+<p>
+<s>Sadama valdajale , kes j&auml;tab t&auml;itmata puhtuse- , korra- , tuleohutus- v&otilde;i keskkonnakaitsen&otilde;uded sadama territooriumil , - m&auml;&auml;ratakse rahatrahv 1000 - 50 000 krooni .</s>
+</p>
+<p>
+<s>( 12.12.2001 j&otilde;ust.01.01.2003 - RT I 2002 , 1 , 1 )</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>K&auml;esoleva seaduse &sect; 12 l&otilde;ike 1 punkti 2 rakendamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse j&otilde;ustumisel antakse riigi omandis olevad ainult sadamat teenindavad navigatsioonim&auml;rgid Vabariigi Valitsuse kehtestatud korras &uuml;he aasta jooksul tasuta &uuml;le vastava sadama valdajale .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Sadamaalusele maale hoonestus&otilde;iguse seadmine</s>
+</p>
+<p>
+<s>Vabariigi Valitsus v&otilde;ib otsustada sadamaalusele riigi omandis olevale maale hoonestus&otilde;iguse seadmise sadama valdaja kasuks ilma enampakkumiseta ja eell&auml;bir&auml;&auml;kimisteta pakkumiseta juhul , kui sadama valdajaks on &auml;ri&uuml;hing , mille osadest v&otilde;i aktsiatest &uuml;le poole kuulub riigile .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Varasemate &otilde;igusaktide muutmine</s>
+</p>
+<p>
+<s>Tunnistatakse kehtetuks :</s>
+</p>
+<p>
+<s>1 ) kaubandusliku meres&otilde;idu koodeksi ( RT 1991 , 46-48 , 577 ; RT I 1993 , 65 , 923 ; 1995 , 54 , 882 ; 1996 , 78 , 1380 ; 1997 , 77 , 1315 ; 1998 , 2 , 47 ; 23 , 321 ; 30 , 409 ; 2000 , 35 , 221 ; 2001 , 21 , 114 ; 93 , 565 ; 2002 , 1 , 1 ) IV peat&uuml;kk &ldquo; Meresadamad &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) riigipiiri seaduse ( RT I 1994 , 54 , 902 ; 1997 , 77 , 1315 ; 1999 , 25 , 365 ; 2000 , 86 , 550 ; 2001 , 23 , 126 ) &sect; 14 l&otilde;ike 2 punkt 2.</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 1998. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 11 l&otilde;ige 3 j&otilde;ustub 2001. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 805 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

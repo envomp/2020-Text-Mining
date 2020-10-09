@@ -1,0 +1,967 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kaabelleviseadus ( juuli 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4645</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kaabelleviseadus ( juuli 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=10></tagusage>
+         <tagusage gi=p occurs=287></tagusage>
+         <tagusage gi=s occurs=337></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kaabelleviseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 31. mail 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 53 , 310 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 20. juulil 2001. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &uuml;lesanne on luua tingimused kaabelleviteenuse osutamiseks ja tarbija kaitseks .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Kaabelleviteenus</s>
+</p>
+<p>
+<s>Kaabelleviteenus k&auml;esoleva seaduse t&auml;henduses on televisiooni- v&otilde;i raadiosaadete ja televisiooni- v&otilde;i raadioprogrammide ( edaspidi programmid ) tasuline v&otilde;i tasuta edastamine tarbijale kaabelleviv&otilde;rgu v&otilde;i &uuml;hisantennis&uuml;steemi kaudu .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Kaabelleviv&otilde;rk</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rk k&auml;esoleva seaduse t&auml;henduses on territoriaalselt piiritletud tehniliste vahendite kogum , mille kaudu v&otilde;etakse vastu ja edastatakse tarbijale programme , mis on :</s>
+</p>
+<p>
+<s>1 ) v&auml;ljastatud maapealsete ringh&auml;&auml;lingusaatjate abil ;</s>
+</p>
+<p>
+<s>2 ) v&auml;ljastatud satelliitide abil v&otilde;i</s>
+</p>
+<p>
+<s>3 ) antud edastamiseks ringh&auml;&auml;linguorganisatsioonide poolt .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rgu kaudu telekommunikatsiooniteenuse osutamisel peab ettev&otilde;tja t&auml;itma telekommunikatsiooniseaduses ( RT I 2000 , 18 , 116 ; 78 , 495 ; 2001 , 23 , 125 ) s&auml;testatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 3 ) Kaabelleviv&otilde;rgu kasutamine ei v&otilde;i kahjustada programmide vastuv&otilde;tmist v&otilde;i edastamist teiste &otilde;iguslikul alusel rajatud kaabelleviv&otilde;rkude , &uuml;hisantennis&uuml;steemide v&otilde;i individuaalvastuv&otilde;tus&uuml;steemide kaudu ega tekitada raadioh&auml;ireid .</s>
+</p>
+<p>
+<s>( 4 ) Kaabelleviv&otilde;rgule esitatavad tehnilised n&otilde;uded kehtestab teede- ja sideminister , l&auml;htudes j&auml;rgmistest p&otilde;him&otilde;tetest :</s>
+</p>
+<p>
+<s>1 ) toimimise turvalisuse tagamine ;</s>
+</p>
+<p>
+<s>2 ) terviklikkuse s&auml;ilitamine ;</s>
+</p>
+<p>
+<s>3 ) tervise- ja keskkonnan&otilde;uete j&auml;rgimine ;</s>
+</p>
+<p>
+<s>4 ) planeeringu ja maakorraldusn&otilde;uete j&auml;rgimine ;</s>
+</p>
+<p>
+<s>5 ) raadiov&otilde;rkude ning maailmaruumis v&otilde;i Maal asuvate muude tehniliste s&uuml;steemide vahel kahjulike ja h&auml;irivate m&otilde;jutuste v&auml;ltimine ;</s>
+</p>
+<p>
+<s>6 ) avaliku korra ja riikliku julgeoleku tagamine ;</s>
+</p>
+<p>
+<s>7 ) kehtivate n&otilde;uete j&auml;rgimise kontrollimine ;</s>
+</p>
+<p>
+<s>8 ) vaba konkurentsi kahjustava tegevuse v&auml;ltimine .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>&Uuml;hisantennis&uuml;steem</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;hisantennis&uuml;steem k&auml;esoleva seaduse t&auml;henduses on tehniliste vahendite kogum , mille abil v&otilde;etakse vastu ja edastatakse ainult &uuml;he kinnisasja , ehitise v&otilde;i &uuml;histu piires asuvatele tarbijatele programme , mis on v&auml;ljastatud :</s>
+</p>
+<p>
+<s>1 ) maapealsete ringh&auml;&auml;lingusaatjate abil v&otilde;i</s>
+</p>
+<p>
+<s>2 ) satelliitide abil .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hisantennis&uuml;steemi kasutamine ei v&otilde;i kahjustada programmide vastuv&otilde;tmist v&otilde;i edastamist teiste &otilde;iguslikul alusel rajatud kaabelleviv&otilde;rkude , &uuml;hisantennis&uuml;steemide v&otilde;i individuaalvastuv&otilde;tus&uuml;steemide kaudu ega tekitada raadioh&auml;ireid .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;hisantennis&uuml;steemile esitatavad tehnilised n&otilde;uded kehtestab teede- ja sideminister , l&auml;htudes k&auml;esoleva seaduse &sect; 3 l&otilde;ikes 4 s&auml;testatud p&otilde;him&otilde;tetest .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Individuaalvastuv&otilde;tus&uuml;steem</s>
+</p>
+<p>
+<s>( 1 ) Individuaalvastuv&otilde;tus&uuml;steem k&auml;esoleva seaduse t&auml;henduses on tehniliste vahendite kogum , mille abil isik v&otilde;i isikud &uuml;hiselt v&otilde;tavad ainult &uuml;he kinnisasja v&otilde;i ehitise piires oma tarbeks vastu programme , mis on v&auml;ljastatud :</s>
+</p>
+<p>
+<s>1 ) maapealsete ringh&auml;&auml;lingusaatjate abil v&otilde;i</s>
+</p>
+<p>
+<s>2 ) satelliitide abil .</s>
+</p>
+<p>
+<s>( 2 ) Individuaalvastuv&otilde;tus&uuml;steemi kaudu programmide edastamine teisele isikule ei ole lubatud .</s>
+</p>
+<p>
+<s>( 3 ) Individuaalvastuv&otilde;tus&uuml;steemi kasutamine ei v&otilde;i kahjustada programmide vastuv&otilde;tmist v&otilde;i edastamist teiste &otilde;iguslikul alusel rajatud kaabelleviv&otilde;rkude , &uuml;hisantennis&uuml;steemide v&otilde;i individuaalvastuv&otilde;tus&uuml;steemide kaudu ega tekitada raadioh&auml;ireid .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Tarbija</s>
+</p>
+<p>
+<s>( 1 ) Tarbija k&auml;esoleva seaduse t&auml;henduses on isik , kes on liitunud kaabelleviv&otilde;rgu v&otilde;i &uuml;hisantennis&uuml;steemiga ja kellel on kaabelleviv&otilde;rguloa omaniku , &uuml;hisantennis&uuml;steemi omaniku v&otilde;i kaabelleviteenuse osutajaga s&otilde;lmitud liitumisleping v&otilde;i teenuse osutamise leping .</s>
+</p>
+<p>
+<s>( 2 ) Tarbijal ei ole &otilde;igust edastada programme teisele isikule .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kaabelleviv&otilde;rgu v&otilde;i &uuml;hisantennis&uuml;steemi omanik</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rgu omanikuks v&otilde;ib olla &auml;riregistrisse kantud ettev&otilde;tja v&otilde;i seaduse alusel teise registrisse kantud juriidiline isik , kellele on k&auml;esoleva seaduse alusel v&auml;ljastatud kaabelleviv&otilde;rguluba .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rgu omanik ei tohi olla Eestis telekommunikatsiooniv&otilde;rgu baasil osutatava telefoniteenuse k&auml;ibest rohkem kui 40 protsenti omav ettev&otilde;tja v&otilde;i sellises &auml;ri&uuml;hingus vahetult v&otilde;i osanike , aktsion&auml;ride v&otilde;i kolmandate isikute kaudu &uuml;le 10 protsendi suurust osalust omav ettev&otilde;tja .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;hisantennis&uuml;steemi omanikuks v&otilde;ib olla f&uuml;&uuml;silisest isikust ettev&otilde;tja v&otilde;i juriidiline isik , kes on seaduses s&auml;testatud n&otilde;uetele vastavalt registreeritud .</s>
+</p>
+<p>
+<s>( 4 ) Kaabelleviv&otilde;rgu v&otilde;i &uuml;hisantennis&uuml;steemi omanik korraldab ja vastutab kaabelleviv&otilde;rgu v&otilde;i &uuml;hisantennis&uuml;steemi loomise , arendamise ja kasutamise eest .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Kaabelleviteenuse osutaja</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviteenuse osutaja on ettev&otilde;tja , kes edastab kaabellevi- v&otilde;i telekommunikatsiooniv&otilde;rgu v&otilde;i &uuml;hisantennis&uuml;steemi kaudu tarbijale programme .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviteenuse osutajaks v&otilde;ib olla kaabelleviv&otilde;rgu omanik v&otilde;i kaabelleviv&otilde;rguloa omanikuga vastava lepingu s&otilde;lminud ettev&otilde;tja .</s>
+</p>
+<p>
+<s>( 3 ) Kaabelleviteenuse osutajaks ei tohi olla Eestis telekommunikatsiooniv&otilde;rgu baasil osutatava telefoniteenuse k&auml;ibest rohkem kui 40 protsenti omav ettev&otilde;tja v&otilde;i sellises &auml;ri&uuml;hingus vahetult v&otilde;i osanike , aktsion&auml;ride v&otilde;i kolmandate isikute kaudu &uuml;le 10 protsendi suurust osalust omav ettev&otilde;tja .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Kaabellevi programmide pakett ja p&otilde;hipakett</s>
+</p>
+<p>
+<s>( 1 ) Kaabellevi programmide pakett on kaabelleviv&otilde;rgu kaudu tarbijale edastatavate programmide kogum .</s>
+</p>
+<p>
+<s>( 2 ) Kaabellevi programmide p&otilde;hipakett on kaabellevi programmide pakett , mida kaabelleviv&otilde;rgu omanik peab edastama temaga liitumislepingu s&otilde;lminud tarbijale .</s>
+</p>
+<p>
+<s>( 3 ) Kaabellevi programmide p&otilde;hipaketti mittekuuluvate programmide edastamiseks s&otilde;lmitakse tarbijaga eraldi teenuse osutamise leping v&otilde;i liitumislepingu lisa .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kaabelleviv&otilde;rguluba</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Kaabelleviv&otilde;rguluba</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rguluba on Sideameti poolt v&auml;ljastatud tegevusluba , mis annab sellel m&auml;rgitud isikule &otilde;iguse kaabelleviv&otilde;rgu loomiseks , arendamiseks ja kasutamiseks loaga m&auml;&auml;ratud tingimustel .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rguluba v&auml;ljastatakse t&auml;htajaga 10 aastat , kui selle loa taotleja ei soovi l&uuml;hemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 3 ) Kaabelleviv&otilde;rguluba ei ole &uuml;leantav .</s>
+</p>
+<p>
+<s>( 4 ) Kui kaabelleviv&otilde;rk v&otilde;i selle osa v&otilde;&otilde;randatakse teisele isikule ja kui uus omanik esitab Sideametile kahe n&auml;dala jooksul , arvates omandi &uuml;leminekust , kaabelleviv&otilde;rguloa taotluse , kehtivad eelmisele omanikule v&auml;ljastatud kaabelleviv&otilde;rguloast tulenevad &otilde;igused ja kohustused uue omaniku suhtes kuni taotluse l&auml;bivaatamiseni Sideameti poolt .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Kaabelleviv&otilde;rguloaga m&auml;&auml;ratavad tingimused</s>
+</p>
+<p>
+<s>Kaabelleviv&otilde;rguloaga m&auml;&auml;ratakse kindlaks :</s>
+</p>
+<p>
+<s>1 ) tegevuse geograafiline piirkond ;</s>
+</p>
+<p>
+<s>2 ) kaabelleviv&otilde;rgule esitatavad tehnilised n&otilde;uded ;</s>
+</p>
+<p>
+<s>3 ) tegevuse alustamise aeg ;</s>
+</p>
+<p>
+<s>4 ) muud k&auml;esoleva seadusega s&auml;testatud n&otilde;uded .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kaabelleviv&otilde;rguloa taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rku luua , arendada ja kasutada sooviv isik esitab Sideametile vormikohase taotluse kaabelleviv&otilde;rguloa v&auml;ljastamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rguloa v&auml;ljastamise taotlus peab sisaldama taotleja kohta j&auml;rgmisi andmeid :</s>
+</p>
+<p>
+<s>1 ) nimi ja registrikood ;</s>
+</p>
+<p>
+<s>2 ) aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>3 ) tegevuse alustamise aeg ;</s>
+</p>
+<p>
+<s>4 ) tegevuse geograafiline piirkond .</s>
+</p>
+<p>
+<s>( 3 ) Kaabelleviv&otilde;rguloa taotlusele tuleb lisada :</s>
+</p>
+<p>
+<s>1 ) kaabelleviv&otilde;rgu ja osutatava kaabelleviteenuse kirjeldus ;</s>
+</p>
+<p>
+<s>2 ) juriidilisel isikul v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tjal t&otilde;estatud v&auml;ljav&otilde;te registrist , kus isik on registreeritud , v&otilde;i juriidilise isiku asutamisel s&otilde;lmitud asutamislepingu t&otilde;estatud &auml;rakiri ;</s>
+</p>
+<p>
+<s>3 ) juriidilisel isikul aktsion&auml;ride v&otilde;i osanike nimekiri , kellel on v&auml;hemalt 10-protsendiline osalus aktsia- v&otilde;i osakapitalis ;</s>
+</p>
+<p>
+<s>4 ) riigil&otilde;ivu tasumist t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 4 ) Kaabelleviv&otilde;rguloa ja taotluse vormid kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Kaabelleviv&otilde;rguloa v&auml;ljastamine</s>
+</p>
+<p>
+<s>( 1 ) Sideamet v&auml;ljastab kaabelleviv&otilde;rguloa koos kaabelleviv&otilde;rgule esitatavate n&otilde;uetega .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rguluba v&auml;ljastatakse hiljemalt kaheksa n&auml;dala jooksul , arvates n&otilde;uetekohase taotluse ja k&otilde;igi n&otilde;utavate dokumentide laekumisest Sideametile .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Kaabelleviv&otilde;rguloa v&auml;ljastamisest keeldumine</s>
+</p>
+<p>
+<s>( 1 ) Sideamet keeldub kaabelleviv&otilde;rguloa v&auml;ljastamisest , kui :</s>
+</p>
+<p>
+<s>1 ) taotluse esitaja ei suuda tagada k&auml;esoleva seaduse alusel kehtestatud n&otilde;uete t&auml;itmist ;</s>
+</p>
+<p>
+<s>2 ) esitatud taotlus ei vasta seaduses s&auml;testatud n&otilde;uetele v&otilde;i</s>
+</p>
+<p>
+<s>3 ) taotluses v&otilde;i sellele lisatuna on esitatud eba&otilde;igeid v&otilde;i ebat&auml;pseid andmeid .</s>
+</p>
+<p>
+<s>( 2 ) Sideamet v&otilde;ib anda taotluse esitajale t&auml;htaja kaabelleviv&otilde;rguloa v&auml;ljastamist takistavate asjaolude k&otilde;rvaldamiseks .</s><s>T&auml;htaja andmisest teatab Sideamet kirjalikult taotluse esitajale , m&auml;rkides t&auml;htaja andmise aluse ja aja , mille jooksul tuleb puudused k&otilde;rvaldada .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Kaabelleviv&otilde;rguloa kehtivuse pikendamine</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rguloa kehtivuse pikendamiseks esitab kaabelleviv&otilde;rgu omanik hiljemalt kolm kuud enne loa kehtivust&auml;htaja l&otilde;ppemist vabas vormis kirjaliku taotluse kaabelleviv&otilde;rguloa t&auml;htaja pikendamiseks koos riigil&otilde;ivu tasumist t&otilde;endava dokumendiga .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rguloa kehtivuse pikendab Sideamet &uuml;he kuu jooksul , arvates k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumentide laekumisest .</s>
+</p>
+<p>
+<s>( 3 ) Kaabelleviv&otilde;rguloa kehtivuse pikendamisel j&auml;&auml;vad kehtima k&otilde;ik kaabelleviv&otilde;rguloaga m&auml;&auml;ratud tingimused .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Kaabelleviv&otilde;rguloa tingimuste muutmine</s>
+</p>
+<p>
+<s>( 1 ) Sideamet v&otilde;ib muuta kaabelleviv&otilde;rguloa tingimusi , kui muudatustega ei rikuta v&otilde;rdse kohtlemise ja vaba konkurentsi p&otilde;him&otilde;tteid ning kui muutmine on p&otilde;hjustatud :</s>
+</p>
+<p>
+<s>1 ) kaabelleviv&otilde;rguloa vastavusse viimisest teiste &otilde;igusaktidega v&otilde;i</s>
+</p>
+<p>
+<s>2 ) tehnoloogia arengust .</s>
+</p>
+<p>
+<s>( 2 ) Sideamet teavitab kirjalikult kaabelleviv&otilde;rguloa omanikku k&auml;esoleva paragrahvi l&otilde;ike 1 alusel kaabelleviv&otilde;rguloa tingimuste muutmise kavatsusest ja p&otilde;hjendab oma kavatsust v&auml;hemalt kolm kuud enne tingimuste muutmise otsustamist , kui seaduses ei ole s&auml;testatud teistsugust t&auml;htaega .</s>
+</p>
+<p>
+<s>( 3 ) Kaabelleviv&otilde;rguloa omanik v&otilde;ib kahe kuu jooksul esitada Sideametile kirjaliku arvamuse kavandatavate muudatuste kohta , kui Sideamet ei ole arvamuse esitamiseks andnud pikemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 4 ) Sideamet vaatab t&auml;htaegselt laekunud arvamuse l&auml;bi ja teatab selle esitajale arvamuse esitamisest &uuml;he kuu jooksul kirjalikult oma seisukoha selle suhtes ning p&otilde;hjendab oma seisukohta .</s>
+</p>
+<p>
+<s>( 5 ) Ajavahemik kaabelleviv&otilde;rguloa tingimuste muutmise otsustamisest kaabelleviv&otilde;rguloa omanikule teatamise ja muudatuste j&otilde;ustumise vahel peab olema kuus kuud , kui k&auml;esolevas seaduses ei ole s&auml;testatud teistsugust t&auml;htaega .</s>
+</p>
+<p>
+<s>( 6 ) Kaabelleviv&otilde;rguloa omanik v&otilde;ib esitada Sideametile taotluse kaabelleviv&otilde;rguloa tingimuste muutmiseks .</s><s>Sideamet on kohustatud otsustama tingimuste muutmise v&otilde;i muutmata j&auml;tmise ning saatma Sideameti peadirektori vastava k&auml;skkirja v&auml;ljav&otilde;tte taotluse esitajale &uuml;he kuu jooksul , arvates taotluse esitamisest .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kaabelleviv&otilde;rguloa kehtivuse l&otilde;ppemine ja kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rguloa kehtivus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) kehtivust&auml;htaja m&ouml;&ouml;dumisel , kui enne selle t&auml;htaja l&otilde;ppemist ei ole kaabelleviv&otilde;rguluba pikendatud ;</s>
+</p>
+<p>
+<s>2 ) f&uuml;&uuml;silisest isikust kaabelleviv&otilde;rguloa omaniku surmaga v&otilde;i teov&otilde;imetuks tunnistamisega ;</s>
+</p>
+<p>
+<s>3 ) juriidilisest isikust kaabelleviv&otilde;rguloa omaniku l&otilde;ppemisega ;</s>
+</p>
+<p>
+<s>4 ) kaabelleviv&otilde;rguloa kehtetuks tunnistamisega ;</s>
+</p>
+<p>
+<s>5 ) kaabelleviv&otilde;rguloa omaniku taotluse alusel , kui ta ei soovi enam tegevusloaga m&auml;&auml;ratud tegevusalal tegutseda v&otilde;i</s>
+</p>
+<p>
+<s>6 ) kaabelleviv&otilde;rgu v&otilde;&otilde;randamisel teisele isikule k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 4 s&auml;testatud erisusega .</s>
+</p>
+<p>
+<s>( 2 ) Sideamet v&otilde;ib tunnistada kaabelleviv&otilde;rguloa kehtetuks , kui loale m&auml;rgitud isik :</s>
+</p>
+<p>
+<s>1 ) ei t&auml;ida kaabelleviv&otilde;rguloaga m&auml;&auml;ratud tingimusi ;</s>
+</p>
+<p>
+<s>2 ) ei t&auml;ida oma tegevuses k&auml;esolevast seadusest tulenevaid n&otilde;udeid ;</s>
+</p>
+<p>
+<s>3 ) esitas Sideametile valeandmeid ;</s>
+</p>
+<p>
+<s>4 ) kahjustab oma tegevuse v&otilde;i tegevusetusega samas kaabelleviv&otilde;rgu piirkonnas programmide vastuv&otilde;tmist v&otilde;i edastamist teiste &otilde;iguslikul alusel rajatud kaabelleviv&otilde;rkude , &uuml;hisantennis&uuml;steemide v&otilde;i individuaalvastuv&otilde;tus&uuml;steemide kaudu v&otilde;i</s>
+</p>
+<p>
+<s>5 ) tekitab raadioh&auml;ireid .</s>
+</p>
+<p>
+<s>( 3 ) Sideameti peadirektor tunnistab kaabelleviv&otilde;rguloa kehtetuks k&auml;skkirjaga , milles on &auml;ra n&auml;idatud ja p&otilde;hjendatud loa kehtetuks tunnistamise &otilde;iguslik alus .</s>
+</p>
+<p>
+<s>( 4 ) Kaabelleviv&otilde;rguloa kehtetuks tunnistamise k&auml;skkirja v&auml;ljav&otilde;te v&auml;ljastatakse kaabelleviv&otilde;rguloa omanikule .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;hisantennis&uuml;steemi registreerimine</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>&Uuml;hisantennis&uuml;steemi registreerimine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;hisantennis&uuml;steemi omanik peab kaabelleviteenuse osutamiseks registreerima &uuml;hisantennis&uuml;steemi Sideametis .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hisantennis&uuml;steemi registreerimiseks saadab &uuml;hisantennis&uuml;steemi omanik Sideametile registreerimisteatise , milles peab sisalduma :</s>
+</p>
+<p>
+<s>1 ) omaniku nimi ja isiku- v&otilde;i registrikood ;</s>
+</p>
+<p>
+<s>2 ) aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>3 ) &uuml;hisantennis&uuml;steemi asukoha aadress ;</s>
+</p>
+<p>
+<s>4 ) tegevuse alustamise aeg .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;hisantennis&uuml;steemi registreerimisteatisele tuleb lisada :</s>
+</p>
+<p>
+<s>1 ) juriidilisel isikul v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tjal t&otilde;estatud v&auml;ljav&otilde;te registrist , kus isik on registreeritud , v&otilde;i juriidilise isiku asutamisel s&otilde;lmitud asutamislepingu t&otilde;estatud &auml;rakiri ;</s>
+</p>
+<p>
+<s>2 ) riigil&otilde;ivu tasumist t&otilde;endav dokument ;</s>
+</p>
+<p>
+<s>3 ) &uuml;hisantennis&uuml;steemi kirjeldus .</s>
+</p>
+<p>
+<s>( 4 ) Sideamet registreerib k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &uuml;hisantennis&uuml;steemi ja saadab teatise esitajale Sideameti peadirektori vastava k&auml;skkirja v&auml;ljav&otilde;tte nelja n&auml;dala jooksul , arvates n&otilde;uetekohase teatise ja k&otilde;igi n&otilde;utavate dokumentide laekumisest Sideametile .</s>
+</p>
+<p>
+<s>( 5 ) Sideamet v&otilde;ib keelduda k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &uuml;hisantennis&uuml;steemi registreerimisest juhul , kui :</s>
+</p>
+<p>
+<s>1 ) ei ole tagatud kehtestatud n&otilde;uete t&auml;itmine v&otilde;i</s>
+</p>
+<p>
+<s>2 ) teatis v&otilde;i sellele lisatud dokumendid ei vasta kehtestatud n&otilde;uetele v&otilde;i teatisele ei ole lisatud k&auml;esolevas seaduses s&auml;testatud dokumente .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud isik v&otilde;ib alustada kaabelleviteenuse osutamist p&auml;rast &uuml;hisantennis&uuml;steemi registreerimist Sideametis .</s>
+</p>
+<p>
+<s>( 7 ) &Uuml;hisantennis&uuml;steemi registreerimise teatise vormi kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kaabelleviv&otilde;rgu loomine , arendamine ja kasutamine ning kaabelleviteenuse osutamine</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Kaabelleviv&otilde;rgu kasutamise ja kaabelleviteenuse osutamise kohustuslikud tingimused</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rguloa omanik peab tagama j&auml;rgmiste programmide pideva edastamise kaabellevi programmide p&otilde;hipaketis :</s>
+</p>
+<p>
+<s>1 ) Eesti avalik-&otilde;iguslike ringh&auml;&auml;linguorganisatsioonide programmid ;</s>
+</p>
+<p>
+<s>2 ) maapealsete ringh&auml;&auml;lingusaatjate poolt edastatavad ja kaabelleviv&otilde;rguloaga m&auml;&auml;ratud piirkonnas tehnilistele n&otilde;uetele vastava signaalitugevuse juures vastuv&otilde;etavad televisiooniprogrammid , mille edastamise eest programmi omanik ei n&otilde;ua tasu .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rguloa omanik v&otilde;i kaabelleviteenuse osutaja peab tarbijale tagama kaabelleviteenuse &ouml;&ouml;p&auml;ev l&auml;bi v&otilde;i programmide eetrisoleku ajalise mahu ulatuses , kui lepingu pooled ei ole kokku leppinud teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Enda loodud programmide edastamiseks peab kaabelleviv&otilde;rguloa omanikul v&otilde;i kaabelleviteenuse osutajal olema ringh&auml;&auml;linguseaduses ( RT I 1994 , 42 , 680 ; 66 , 1145 ; 1995 , 83 , 1437 ; 97 , 1664 ; 1996 , 49 , 953 ; 1997 , 29 , 448 ; 52 , 834 ; 93 , 1564 ; 1998 , 2 , 42 ja 44 ; 1999 , 16 , 268 ; 25 , 364 ; 59 , 613 ; 2000 , 25 , 143 ; 35 , 220 ; 102 , 666 ) s&auml;testatud ringh&auml;&auml;linguluba .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 2 s&auml;testatud tehnilised n&otilde;uded kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Liitumislepingu v&otilde;i teenuse osutamise lepingu s&otilde;lmimine ja liitumine kaabelleviv&otilde;rguga</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rguloa omanik v&otilde;i kaabelleviteenuse osutaja peab teatama avalduse esitanud isikule kaabelleviv&otilde;rguga liitumise ja kaabelleviteenuse osutamise v&otilde;imalusest ning t&auml;htaegadest 15 p&auml;eva jooksul , arvates avalduse esitamise kuup&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Tarbija liitumisel kaabelleviv&otilde;rguga s&otilde;lmitakse tema ja kaabelleviv&otilde;rguloa omaniku vahel kirjalik liitumisleping , mis peab s&auml;testama poolte vastastikused &otilde;igused ja kohustused , sealhulgas :</s>
+</p>
+<p>
+<s>1 ) kaabelleviv&otilde;rguga liitumise viisi , t&auml;htaja ja selle eest makstava tasu ;</s>
+</p>
+<p>
+<s>2 ) &uuml;henduse korrashoiu ja selle eest makstava tasu ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;hipaketis edastatavate programmide nimetused ;</s>
+</p>
+<p>
+<s>4 ) kasutamiseks lubatud vastuv&otilde;tuseadmete liigid ;</s>
+</p>
+<p>
+<s>5 ) kaabelleviv&otilde;rgu &uuml;henduspunkti asukoha ;</s>
+</p>
+<p>
+<s>6 ) kaabelleviteenuse eest makstava tasu ;</s>
+</p>
+<p>
+<s>7 ) k&auml;esoleva l&otilde;ike punktides 1 , 2 ja 6 nimetatud tasu maksmise korra ;</s>
+</p>
+<p>
+<s>8 ) lepingu muutmise ja t&auml;iendamise korra ning poolte vastutuse ;</s>
+</p>
+<p>
+<s>9 ) kaebuste esitamise ja vaidluste lahendamise korra .</s>
+</p>
+<p>
+<s>( 3 ) P&otilde;hipaketti mittekuuluvate programmide edastamiseks tarbija avalduse alusel s&otilde;lmitav kirjalik teenuse osutamise leping peab s&auml;testama poolte vastastikused &otilde;igused ja kohustused , sealhulgas :</s>
+</p>
+<p>
+<s>1 ) paketis edastatavate programmide nimetused ;</s>
+</p>
+<p>
+<s>2 ) kaabelleviteenuse kasutamise eest makstava tasu ;</s>
+</p>
+<p>
+<s>3 ) lepingu muutmise ja t&auml;iendamise korra ning poolte vastutuse ;</s>
+</p>
+<p>
+<s>4 ) kaebuste esitamise ja vaidluste lahendamise korra .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Vastuv&otilde;tuseadme &uuml;hendamine kaabelleviv&otilde;rguga</s>
+</p>
+<p>
+<s>Kaabelleviv&otilde;rguloa omanik peab tagama vastuv&otilde;tuseadme &uuml;hendamise kaabelleviv&otilde;rguga 10 t&ouml;&ouml;p&auml;eva jooksul , arvates liitumislepingu s&otilde;lmimisest , kui lepingu osapooled ei ole kokku leppinud teisiti .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Kaabelleviteenuse osutamise piiramine ja peatamine</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rguloa omanik v&otilde;i kaabelleviteenuse osutaja v&otilde;ib tarbijale kaabelleviteenuse osutamist piirata v&otilde;i selle peatada juhul , kui :</s>
+</p>
+<p>
+<s>1 ) tarbija ei ole tasunud temale osutatud teenuse eest &otilde;igeaegselt ;</s>
+</p>
+<p>
+<s>2 ) tarbija on kaabelleviv&otilde;rguga &uuml;hendanud mittet&ouml;&ouml;korras v&otilde;i n&otilde;uetele mittevastava vastuv&otilde;tuseadme ;</s>
+</p>
+<p>
+<s>3 ) tarbija h&auml;irib vastuv&otilde;tuseadme kasutamisega kaabelleviv&otilde;rgu t&ouml;&ouml;d ;</s>
+</p>
+<p>
+<s>4 ) kaabelleviteenuse osutamise piiramine v&otilde;i peatamine on vajalik kaabelleviv&otilde;rgu seadme v&otilde;i rajatise paigaldamiseks , remondiks , vahetamiseks v&otilde;i hooldamiseks ;</s>
+</p>
+<p>
+<s>5 ) tarbija rikub liitumislepingu v&otilde;i teenuse osutamise lepingu tingimusi v&otilde;i</s>
+</p>
+<p>
+<s>6 ) tarbija on liitumislepingu v&otilde;i teenuse osutamise lepingu s&otilde;lmimisel esitanud eba&otilde;igeid andmeid v&otilde;i dokumente .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rguloa omanik v&otilde;ib kaabelleviteenuse osutamist piirata v&otilde;i selle peatada &uuml;ksnes siis , kui ta on tarbijale sellest teatanud v&auml;hemalt viis t&ouml;&ouml;p&auml;eva enne kaabelleviteenuse osutamise piiramist v&otilde;i peatamist , teatades &uuml;htlasi piiramise v&otilde;i peatamise aja ning p&otilde;hjused , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 2 ja 3 s&auml;testatud juhtudel , kui on vaja kohe kaabelleviteenuse osutamist piirata v&otilde;i see peatada .</s>
+</p>
+<p>
+<s>( 3 ) Kaabelleviteenuse osutamist ei v&otilde;i piirata ega peatada , kui tarbija k&otilde;rvaldab enne kaabelleviteenuse osutamise piiramise v&otilde;i peatamise algust kavandatava piiramise v&otilde;i peatamise aluseks olnud asjaolu ning on sellest teavitanud kaabelleviv&otilde;rguloa omanikku v&otilde;i kaabelleviteenuse osutajat .</s>
+</p>
+<p>
+<s>( 4 ) Kaabelleviv&otilde;rguloa omanik v&otilde;i kaabelleviteenuse osutaja ei v&otilde;i piirata ega peatada kaabelleviteenuse osutamist , kui tarbija vaidlustab kirjalikult osutatud kaabelleviteenuse tasu suuruse enne makset&auml;htp&auml;eva saabumist ning tasub &otilde;igeaegselt osutatud kaabelleviteenuste eest osas , milles ta tasu ei vaidlusta .</s>
+</p>
+<p>
+<s>( 5 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud tasu ja selle suuruse vaidlustamine ning tasu osaline tasumata j&auml;tmine tarbija poolt osutub alusetuks , on tarbija kohustatud tasumata summa tasuma hiljemalt j&auml;rgmiseks makset&auml;htp&auml;evaks .</s>
+</p>
+<p>
+<s>( 6 ) Kui kaabelleviteenuse osutamise piiramine v&otilde;i peatamine toimus k&auml;esoleva paragrahvi l&otilde;ike 1 punkti 4 alusel , ei v&otilde;eta selle perioodi eest tarbijalt tasu .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Liitumislepingu v&otilde;i teenuse osutamise lepingu peatamine ning l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Tarbijal on &otilde;igus peatada liitumisleping v&otilde;i teenuse osutamise leping tema poolt soovitud ajaks &uuml;hest kuust kuni &uuml;he aastani , teatades sellest v&auml;hemalt 10 p&auml;eva ette , kui ta on t&auml;itnud kaabelleviv&otilde;rguloa omaniku v&otilde;i kaabelleviteenuse osutaja ees k&otilde;ik liitumislepingust v&otilde;i teenuse osutamise lepingust tulenevad kohustused .</s>
+</p>
+<p>
+<s>( 2 ) Liitumislepingu peatamisel :</s>
+</p>
+<p>
+<s>1 ) peatatakse kaabelleviteenuse osutamine ;</s>
+</p>
+<p>
+<s>2 ) vastuv&otilde;tuseade v&otilde;i selle &uuml;hendus &uuml;hendatakse kaabelleviv&otilde;rgust lahti ;</s>
+</p>
+<p>
+<s>3 ) tarbija ei pea maksma kaabelleviteenuse osutamise selle aja eest , millal leping oli peatatud ;</s>
+</p>
+<p>
+<s>4 ) kaabelleviv&otilde;rguloa omanik v&otilde;i kaabelleviteenuse osutaja v&otilde;ib v&otilde;rgu vastuv&otilde;tuseadme &uuml;hendamiseks v&otilde;i teenuse osutamiseks vajalikud seadmed , mis kuuluvad kaabelleviv&otilde;rguloa omanikule v&otilde;i kaabelleviteenuse osutajale , anda kasutamiseks teisele tarbijale .</s>
+</p>
+<p>
+<s>( 3 ) Teenuse osutamise lepingu peatamisel :</s>
+</p>
+<p>
+<s>1 ) peatatakse kaabelleviteenuse osutamine ;</s>
+</p>
+<p>
+<s>2 ) tarbija ei pea maksma kaabelleviteenuse osutamise selle aja eest , millal leping oli peatatud .</s>
+</p>
+<p>
+<s>( 4 ) Kui liitumislepingu v&otilde;i teenuse osutamise lepingu peatamine l&otilde;petatakse , peab kaabelleviv&otilde;rguloa omanik v&otilde;i kaabelleviteenuse osutaja tarbija vastava avalduse alusel j&auml;tkama kaabelleviteenuse osutamist viie t&ouml;&ouml;p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 5 ) Tarbijal on &otilde;igus liitumisleping v&otilde;i teenuse osutamise leping l&otilde;petada , teavitades sellest kaabelleviv&otilde;rgu omanikku v&otilde;i kaabelleviteenuse osutajat 10 p&auml;eva ette .</s>
+</p>
+<p>
+<s>( 6 ) Kaabelleviv&otilde;rguloa omanikul v&otilde;i kaabelleviteenuse osutajal on &otilde;igus liitumisleping v&otilde;i teenuse osutamise leping l&otilde;petada , kui :</s>
+</p>
+<p>
+<s>1 ) &uuml;letatakse k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud t&auml;htaeg v&otilde;i</s>
+</p>
+<p>
+<s>2 ) kaabelleviteenuse osutamist on piiratud v&otilde;i see on peatatud k&auml;esoleva seaduse &sect; 22 l&otilde;ike 1 punktide 1-3 , 5 v&otilde;i 6 alusel ning piiramise v&otilde;i peatamise alus ei ole &auml;ra langenud &uuml;he kuu jooksul .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Liitumislepingust tulenevate &otilde;iguste ja kohustuste &uuml;leminek kaabelleviv&otilde;rgu omaniku vahetumisel</s>
+</p>
+<p>
+<s>Kaabelleviv&otilde;rgu omandi&otilde;iguse &uuml;leminekul teisele isikule j&auml;&auml;b liitumisleping j&otilde;usse ka uue omaniku suhtes , kui kaabelleviv&otilde;rgu uus omanik ja tarbija ei lepi kokku teisiti .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Kaabelleviv&otilde;rgu rikete k&otilde;rvaldamine</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rguloa omanik peab korraldama tarbijatelt rikketeadete vastuv&otilde;tmise , teavitama tarbijaid teadete vastuv&otilde;tmise korrast ja aegadest ning konkreetse rikke k&otilde;rvaldamise t&auml;htajast .</s>
+</p>
+<p>
+<s>( 2 ) Tarbija peab kaabelleviv&otilde;rgu rikke korral v&otilde;imaldama kaabelleviv&otilde;rguloa omaniku esindajale juurdep&auml;&auml;su kaabelleviv&otilde;rgu osaks olevale seadmele ja vastuv&otilde;tuseadmele nende kontrollimiseks ja rikke asukoha selgitamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Kaabelleviv&otilde;rguloa omanik on kohustatud rikkest teadasaamisel korraldama kaabelleviv&otilde;rgu ja tarbija vastuv&otilde;tuseadme &uuml;henduse rikke k&otilde;rvaldamise hiljemalt rikkest teatamise p&auml;evale j&auml;rgneva t&ouml;&ouml;p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 4 ) Tarbijale kuuluva vastuv&otilde;tuseadme &uuml;henduse ja vastuv&otilde;tuseadme rikke k&otilde;rvaldamise kulud kannab tarbija , v&auml;lja arvatud juhul , kui rikke tekkimises on s&uuml;&uuml;di kaabelleviv&otilde;rguloa omanik .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve ja vastutus</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Riiklik j&auml;relevalve seaduse t&auml;itmise &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku j&auml;relevalvet k&auml;esoleva seaduse ja sellest tulenevate &otilde;igusaktide t&auml;itmise &uuml;le teostab Sideamet .</s>
+</p>
+<p>
+<s>( 2 ) Riiklikku j&auml;relevalvet teostavad ametnikud k&auml;esoleva seaduse t&auml;henduses on Sideameti peadirektor ja tema poolt j&auml;relevalve teostamiseks volitatud ametnik ( edaspidi ametnik ) .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;relevalve teostamise k&auml;igus Sideamet :</s>
+</p>
+<p>
+<s>1 ) kontrollib kaabelleviv&otilde;rgu ja &uuml;hisantennis&uuml;steemi vastavust &otilde;igusaktidega kehtestatud tehnilistele n&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) kontrollib kaabelleviteenuse osutamise vastavust k&auml;esolevale seadusele .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;relevalvet kaabelleviv&otilde;rgu loomise , arendamise ja kasutamise ning kaabelleviteenuse osutamise &uuml;le teostab Sideamet seaduse alusel ning teede- ja sideministri kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Ettekirjutus</s>
+</p>
+<p>
+<s>( 1 ) Ametnikul on &otilde;igus teha kaabelleviv&otilde;rguloa , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi omanikule kohustuslikke ettekirjutusi &otilde;iguserikkumise l&otilde;petamiseks , teatud toimingute sooritamiseks v&otilde;i tegevuse peatamiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud ettekirjutuses peab sisalduma :</s>
+</p>
+<p>
+<s>1 ) ettekirjutuse koostanud ametniku nimi ja ametikoht ;</s>
+</p>
+<p>
+<s>2 ) ettekirjutuse tegemise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>3 ) kaabelleviv&otilde;rguloa , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi omaniku &auml;rinimi v&otilde;i nimi ;</s>
+</p>
+<p>
+<s>4 ) &otilde;iguserikkumise koht ;</s>
+</p>
+<p>
+<s>5 ) ettekirjutuse tegemise &otilde;iguslikud alused ja ettekirjutuse tegemist tingivad asjaolud ;</s>
+</p>
+<p>
+<s>6 ) ettekirjutuse t&auml;itmise t&auml;htaeg ;</s>
+</p>
+<p>
+<s>7 ) viide ettekirjutuse t&auml;itmata j&auml;tmisel rakendatavatele sanktsioonidele .</s>
+</p>
+<p>
+<s>( 3 ) Ettekirjutus antakse kaabelleviv&otilde;rguloa , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi omanikule v&otilde;i tema esindajale k&auml;tte vahetult allkirja vastu v&otilde;i saadetakse posti teel v&auml;ljastusteatega .</s>
+</p>
+<p>
+<s>( 4 ) Sideametil on ettekirjutuse tinginud asjaolude muutumisel &otilde;igus ettekirjutust muuta v&otilde;i see t&uuml;histada .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Seadusest tulenevate n&otilde;uete t&auml;itmise kontrollimine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uete t&auml;itmise kontrollimiseks on ametnikul &otilde;igus kontrollida kaabelleviv&otilde;rgu , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi tehnilist seisundit ning teha dokumentidest v&auml;ljav&otilde;tteid ja &auml;rakirju .</s>
+</p>
+<p>
+<s>( 2 ) Raadioh&auml;irete kindlakstegemiseks v&otilde;i k&otilde;rvaldamiseks on kaabelleviv&otilde;rguloa , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi omanik v&otilde;i tema esindaja kohustatud ametniku esimesel n&otilde;udmisel v&otilde;imaldama ametnikule juurdep&auml;&auml;su kaabelleviv&otilde;rgule , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemile .</s>
+</p>
+<p>
+<s>( 3 ) Ametnik on kohustatud hoidma kontrollimise k&auml;igus talle teatavaks saanud kaabelleviv&otilde;rgu v&otilde;i &uuml;hisantennis&uuml;steemiga seotud konfidentsiaalset informatsiooni ning kasutama saadud teavet ainult riikliku j&auml;relevalve teostamisel .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Teabe andmise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rguloa ja &uuml;hisantennis&uuml;steemi omanik on kohustatud teavitama Sideametit &uuml;he kuu jooksul kirjalikult enda kohta k&auml;ivates andmetes toimunud muudatustest , v&otilde;rreldes tema poolt Sideametile k&auml;esoleva seaduse alusel esitatud andmetega .</s>
+</p>
+<p>
+<s>( 2 ) Kaabelleviv&otilde;rguloa omanik on kohustatud iga aasta 1. veebruariks teavitama Sideametit eelmisel kalendriaastal kaabelleviv&otilde;rgus toimunud muudatustest ning eelmisel kalendriaastal temaga liitumislepingu s&otilde;lminud ja liitumislepingu l&otilde;petanud tarbijate arvust .</s>
+</p>
+<p>
+<s>( 3 ) Sideameti n&otilde;udel on kaabelleviv&otilde;rguloa , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi omanik v&otilde;i tema esindaja kohustatud :</s>
+</p>
+<p>
+<s>1 ) ilmuma Sideametisse selgituste andmiseks ;</s>
+</p>
+<p>
+<s>2 ) esitama Sideametile tema valduses olevaid kaabelleviv&otilde;rgu , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi tehnilisi projekte ning liitumislepinguid ja muid dokumente , mis puudutavad kaabelleviteenuse osutamisega seotud tegevust .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 1-3 nimetatud n&otilde;ude t&auml;itmata j&auml;tmisel v&otilde;ib Sideamet rakendada sunniraha asendust&auml;itmise ja sunniraha seaduses ( RT I 2001 , 50 , 283 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud sunniraha &uuml;lemm&auml;&auml;r on 10 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>Juriidilisele isikule kohaldatakse haldusvastutust j&auml;rgmiste &otilde;iguserikkumiste korral :</s>
+</p>
+<p>
+<s>1 ) ilma k&auml;esoleva seaduse &sect;-s 10 s&auml;testatud kaabelleviv&otilde;rguloata kaabelleviv&otilde;rgu loomise , arendamise v&otilde;i kasutamise eest - m&auml;&auml;ratakse rahatrahv 10 000 kuni 1 000 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) &uuml;hisantennis&uuml;steemi abil kaabelleviteenuse osutamise eest ilma k&auml;esoleva seaduse &sect;-s 18 s&auml;testatud registreerimiseta , kui sama tegevuse l&otilde;petamiseks on tehtud ettekirjutus ja isik ei ole seda ettekirjutust t&auml;itnud , - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) kaabelleviv&otilde;rguloa omaniku v&otilde;i &uuml;hisantennis&uuml;steemi omaniku poolt Sideametile valeandmete esitamisel - m&auml;&auml;ratakse rahatrahv 5000 kuni 100 000 krooni ;</s>
+</p>
+<p>
+<s>4 ) kaabelleviv&otilde;rgu , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi poolt raadioh&auml;irete tekitamise eest - m&auml;&auml;ratakse kaabelleviv&otilde;rgu , &uuml;hisantenni- v&otilde;i individuaalvastuv&otilde;tus&uuml;steemi omanikule rahatrahv 1000 kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva paragrahvi punktides 1-4 nimetamata , kuid k&auml;esolevast seadusest tulenevate n&otilde;uete rikkumise eest , kui sama teo v&otilde;i tegevusetuse l&otilde;petamiseks on tehtud ettekirjutus ja isik ei ole seda ettekirjutust t&auml;itnud , - m&auml;&auml;ratakse rahatrahv 1000 kuni 100 000 krooni .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Haldus&otilde;iguserikkumise protokolli koostamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 30 s&auml;testatud haldus&otilde;iguserikkumiste kohta koostab haldus&otilde;iguserikkumise protokolli riiklikku j&auml;relevalvet teostav ametnik .</s>
+</p>
+<p>
+<s>( 2 ) Haldus&otilde;iguserikkumise protokolli m&auml;rgitakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) selle ametiasutuse nimetus ja aadress , kes protokolli koostab ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ametinimetus , ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkuja nimetus v&otilde;i &auml;rinimi , registrikood ja asukoht ;</s>
+</p>
+<p>
+<s>5 ) haldus&otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>6 ) haldus&otilde;iguserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) viide k&auml;esoleva seaduse s&auml;tetele , mille alusel haldusvastutust kohaldatakse ;</s>
+</p>
+<p>
+<s>8 ) haldus&otilde;iguserikkuja esindaja seletus v&otilde;i m&auml;rge seletuse andmisest loobumise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Protokollile kirjutavad alla selle koostanud isik ja haldus&otilde;iguserikkuja esindaja .</s><s>Kui haldus&otilde;iguserikkuja esindaja keeldub protokollile alla kirjutamast , tehakse sellesse vastav kanne .</s><s>Protokollile lisatakse haldus&otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli , samuti protokollile allakirjutamisest keeldumise kohta .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Menetlus juriidilise isiku haldus&otilde;iguserikkumise asjas</s>
+</p>
+<p>
+<s>( 1 ) Menetlus k&auml;esoleva seaduse &sect;-s 30 s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumiste asjades , sealhulgas karistuse m&auml;&auml;ramine ja vaidlustamine , toimub haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 45 , &otilde;iend ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 49 , 301 ja 305 ; 51 , 321 ; 54 , 346 , 348 ja 351 ; 55 , 361 ; 58 , 376 ; 84 , 533 ; 86 , 544 ja 548 ; 89 , 578 ; 95 , 609 ja 613 ; 2001 , 3 , 5 ; 17 , 76 ; 18 , 87 ; 21 , 115 ja 116 ; 31 , 174 ; 42 , 236 ; 52 , 303 ; 53 , 312 , 313 ja 314 ; 56 , 333 , 335 ja 339 ; 58 , 356 ) ja t&auml;itemenetluse seadustikus ( RT I 1993 , 49 , 693 ; 2001 , 29 , 156 ; 43 , 238 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-s 30 s&auml;testatud haldus&otilde;iguserikkumiste asjade arutamise ja karistuse m&auml;&auml;ramise &otilde;igus on Sideameti peadirektoril ja maa- v&otilde;i linnakohtul .</s><s>Sideameti peadirektoril on &otilde;igus m&auml;&auml;rata rahatrahv kuni 20 000 krooni ulatuses .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Enne k&auml;esoleva seaduse j&otilde;ustumist v&auml;ljastatud ajutised t&auml;htajalised load , kaabeltelevisiooniv&otilde;rgu load ja kaabeltelevisiooniv&otilde;rgu kasutusload</s>
+</p>
+<p>
+<s>( 1 ) Enne k&auml;esoleva seaduse j&otilde;ustumist Sideameti poolt v&auml;ljastatud ajutise t&auml;htajalise loa , kaabeltelevisiooniv&otilde;rgu loa v&otilde;i kaabeltelevisiooniv&otilde;rgu kasutusloa alusel v&otilde;ib kaabelleviv&otilde;rgu opereerimist j&auml;tkata kuni kaabelleviv&otilde;rguloa v&auml;ljastamiseni tingimusel , et kolme kuu jooksul k&auml;esoleva seaduse j&otilde;ustumisest arvates esitab nimetatud loa omanik taotluse kaabelleviv&otilde;rguloa v&auml;ljastamiseks .</s><s>Sideamet v&auml;ljastab kaabelleviv&otilde;rguloa hiljemalt kuue kuu jooksul taotluse esitamisest arvates .</s>
+</p>
+<p>
+<s>( 2 ) Kui ajutise t&auml;htajalise loa , kaabeltelevisiooniv&otilde;rgu loa v&otilde;i kaabeltelevisiooniv&otilde;rgu kasutusloa omanik ei esita kolme kuu jooksul k&auml;esoleva seaduse j&otilde;ustumisest arvates taotlust kaabelleviv&otilde;rguloa v&auml;ljastamiseks , kaotab ajutine t&auml;htajaline luba , kaabeltelevisiooniv&otilde;rgu luba v&otilde;i kaabeltelevisiooniv&otilde;rgu kasutusluba kehtivuse k&auml;esoleva seaduse j&otilde;ustumisest kolme kuu m&ouml;&ouml;dumisel .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Enne k&auml;esoleva seaduse j&otilde;ustumist v&auml;ljastatud &uuml;hisantennis&uuml;steemi kasutusload</s>
+</p>
+<p>
+<s>( 1 ) Enne k&auml;esoleva seaduse j&otilde;ustumist v&auml;ljastatud &uuml;hisantennis&uuml;steemi kasutusloa alusel registreerib Sideamet &uuml;hisantennis&uuml;steemi nelja n&auml;dala jooksul , arvates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &uuml;hisantennis&uuml;steemi kasutusluba tunnistatakse kehtetuks k&auml;esoleva seaduse &sect; 18 l&otilde;ikes 4 nimetatud k&auml;skkirjaga .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Enne k&auml;esoleva seaduse j&otilde;ustumist kohaliku omavalitsuse poolt taotletud kaabeltelevisiooniv&otilde;rgu loa avalikud konkursid</s>
+</p>
+<p>
+<s>( 1 ) Enne k&auml;esoleva seaduse j&otilde;ustumist kohaliku omavalitsuse poolt taotletud kaabeltelevisiooniv&otilde;rgu loa avalikud konkursid , mis ei ole k&auml;esoleva seaduse j&otilde;ustumise ajaks v&auml;lja kuulutatud , t&uuml;histatakse .</s>
+</p>
+<p>
+<s>( 2 ) Enne k&auml;esoleva seaduse j&otilde;ustumist kohaliku omavalitsuse poolt taotletud kaabeltelevisiooniv&otilde;rgu loa avalikud konkursid , mis on k&auml;esoleva seaduse j&otilde;ustumise ajaks v&auml;lja kuulutatud ja ei ole l&otilde;ppenud , t&uuml;histatakse .</s><s>T&uuml;histamise teade avaldatakse samades v&auml;ljaannetes , kus konkursi teade .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Enne k&auml;esoleva seaduse j&otilde;ustumist tarbijaga s&otilde;lmitud kaabelleviteenuse osutamise lepingud</s>
+</p>
+<p>
+<s>Enne k&auml;esoleva seaduse j&otilde;ustumist tarbijaga s&otilde;lmitud kaabelleviteenuse osutamise lepingud tuleb viia k&auml;esoleva seaduse n&otilde;uetega vastavusse &uuml;he aasta jooksul , arvates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Riigil&otilde;ivuseaduse muutmine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; 2001 , 55 , 331 ; 56 , 332 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 183 l&otilde;ige 3 <hi rend="sup">4</hi> muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 <hi rend="sup">4</hi> ) Kaabelleviv&otilde;rguloa v&auml;ljastamise v&otilde;i kaabelleviv&otilde;rguloa omaniku taotluse alusel selle muutmise eest tasutakse riigil&otilde;ivu 1000 krooni . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 183 l&otilde;ige 3 <hi rend="sup">5</hi> tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 183 l&otilde;iked 3 <hi rend="sup">6</hi> ja 3 <hi rend="sup">7</hi> muudetakse ning s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 <hi rend="sup">6</hi> ) &Uuml;hisantennis&uuml;steemi registreerimise eest tasutakse riigil&otilde;ivu 300 krooni .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">7</hi> ) Kaabelleviv&otilde;rguloa pikendamise eest tasutakse riigil&otilde;ivu 500 krooni . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>4 ) paragrahv 197 <hi rend="sup">3</hi> tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Telekommunikatsiooniseaduse muutmine</s>
+</p>
+<p>
+<s>Telekommunikatsiooniseaduse ( RT I 2000 , 18 , 116 ; 78 , 495 ; 2001 , 23 , 125 ) &sect; 7 t&auml;iendatakse l&otilde;ikega 1 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 <hi rend="sup">1</hi> ) Telekommunikatsiooniv&otilde;rgu kaudu kaabelleviteenuse osutamisel peab ettev&otilde;tja t&auml;itma kaabelleviseaduses s&auml;testatud n&otilde;udeid . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Ringh&auml;&auml;linguseaduse muutmine</s>
+</p>
+<p>
+<s>Ringh&auml;&auml;linguseaduse ( RT I 1994 , 42 , 680 ; 66 , 1145 ; 1995 , 83 , 1437 ; 97 , 1664 ; 1996 , 49 , 953 ; 1997 , 29 , 448 ; 52 , 834 ; 93 , 1564 ; 1998 , 2 , 42 ja 44 ; 1999 , 16 , 268 ; 25 , 364 ; 59 , 613 ; 2000 , 25 , 143 ; 35 , 220 ; 102 , 666 ) &sect; 37 l&otilde;ike 3 punkt 6 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 6 ) ringh&auml;&auml;linguluba - kaabelleviv&otilde;rgus . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Kaabelleviseaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Kaabelleviseadus ( RT I 1999 , 25 , 364 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub &uuml;he kuu m&ouml;&ouml;dumisel Riigi Teatajas avaldamise p&auml;evast .</s>
+</p>
+</body>
+   </text>
+</tei.2>

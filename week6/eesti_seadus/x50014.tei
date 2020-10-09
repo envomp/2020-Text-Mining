@@ -1,0 +1,783 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Eesti v&auml;&auml;rtpaberite keskregistri pidamise kord ( m&auml;rts 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4033</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Eesti v&auml;&auml;rtpaberite keskregistri pidamise kord ( m&auml;rts 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=226></tagusage>
+         <tagusage gi=s occurs=259></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Eesti v&auml;&auml;rtpaberite keskregistri pidamise kord</s>
+</p>
+<p>
+<s>Rahandusministri 28. detsembri 2000. a m&auml;&auml;rus nr 116</s>
+</p>
+<p>
+<s>( RTL 2000 , 139 , 2210 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2001. a.</s>
+</p>
+<p>
+<s>M&auml;&auml;rus kehtestatakse &ldquo; Eesti v&auml;&auml;rtpaberite keskregistri seaduse &rdquo; ( RT I 2000 , 57 , 373 ) paragrahvi 3 l&otilde;ike 2 ning paragrahvi 8 l&otilde;ike 1 alusel ja koosk&otilde;las paragrahvi 6 l&otilde;ikega 1 , paragrahvi 12 l&otilde;igetega 1 ja 2 , paragrahvi 15 l&otilde;igetega 1 ja 2 , paragrahvi 19 l&otilde;ikega 1 , paragrahvi 20 l&otilde;igetega 2 ja 6 , paragrahvi 30 l&otilde;ikega 3 , paragrahvi 31 l&otilde;ikega 2 , paragrahvi 32 l&otilde;ikega 3 , paragrahvi 35 l&otilde;ikega 3 , paragrahvi 36 l&otilde;ikega 6 , paragrahvi 37 l&otilde;ikega 5 ning paragrahvi 42 l&otilde;ikega 4.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev Eesti v&auml;&auml;rtpaberite keskregistri pidamise kord ( edaspidi kord ) m&auml;&auml;rab kindlaks Eesti v&auml;&auml;rtpaberite keskregistri ( edaspidi register ) pidamise korra , registrisse t&auml;iendavalt kantavate andmete loetelu , registrisse kannete tegemise korra , t&auml;iendavad n&otilde;uded kontohaldurile ning esindajakonto omanikule , samuti n&otilde;uded v&auml;&auml;rtpaberikonto omanikele suunatud teatistele .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Registriandmete t&ouml;&ouml;tlemine</s>
+</p>
+<p>
+<s>( 1 ) Registriandmete t&ouml;&ouml;tlemine toimub automatiseeritud andmet&ouml;&ouml;tluse teel vastavalt registripidaja poolt kehtestatud andmet&ouml;&ouml;tluse reeglitele ( edaspidi andmet&ouml;&ouml;tlusreeglid ) .</s>
+</p>
+<p>
+<s>( 2 ) Muudatustest andmet&ouml;&ouml;tlusreeglites , samuti registriandmete t&ouml;&ouml;tlemise tehniliste vahenditega seotud &uuml;mberkorraldustest , mis m&otilde;jutavad kontohaldurite tegevust , informeerib registripidaja kontohaldureid hiljemalt kaks kuud enne vastava muudatuse j&otilde;ustumist v&otilde;i tehnilise &uuml;mberkorralduse tegemist .</s><s>Eelnimetatud etteteatamist&auml;htaeg v&otilde;ib olla l&uuml;hem , kui selle kohta on andnud oma n&otilde;usoleku v&auml;hemalt 2/3 kontohalduritena tegutsevatest isikutest .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Registriandmete s&auml;ilitamine</s>
+</p>
+<p>
+<s>( 1 ) Registripidaja korraldab registriandmete s&auml;ilitamise viisil , mis tagab registriandmete kestvalt muutumatu s&auml;ilimise ning taasesitamise &otilde;igustatud isikutele ja ametiasutustele .</s>
+</p>
+<p>
+<s>( 2 ) Kande tegemiseks registripidajale esitatud andmeid ja dokumente s&auml;ilitab registripidaja &ldquo; Eesti v&auml;&auml;rtpaberite keskregistri seaduse &rdquo; ( edaspidi seadus ) paragrahvi 30 l&otilde;ikes 2 s&auml;testatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Registrisse kantavad andmed</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Andmed v&auml;&auml;rtpaberite kohta</s>
+</p>
+<p>
+<s>( 1 ) V&auml;&auml;rtpaberite registreerimisel kantakse registrisse :</s>
+</p>
+<p>
+<s>1 ) emitendi nimi , asukoht ja v&otilde;imaluse korral registrikood ;</s>
+</p>
+<p>
+<s>2 ) v&auml;&auml;rtpaberite liik , nimiv&auml;&auml;rtus ( koos v&auml;&auml;ringuga ) ja kogus ;</s>
+</p>
+<p>
+<s>3 ) v&auml;&auml;rtpaberi omanike nimed , aadressid ja isiku- v&otilde;i registrikoodid , isikukoodi puudumisel s&uuml;nniaeg ;</s>
+</p>
+<p>
+<s>4 ) andmed v&auml;&auml;rtpaberite pantimise kohta ;</s>
+</p>
+<p>
+<s>5 ) registripidaja poolt omistatud rahvusvaheline v&auml;&auml;rtpaberite identifitseerimisnumber ( ehk ISIN kood , edaspidi registrikood ) , mis eristab k&otilde;iki vastava emitendi samaliigilisi ja samav&auml;&auml;rsete &otilde;igustega v&auml;&auml;rtpabereid teistest registris registreeritud v&auml;&auml;rtpaberitest .</s>
+</p>
+<p>
+<s>( 2 ) Registripidaja kannab v&auml;&auml;rtpaberite kohta registrisse vastavasisulise m&auml;rke kui :</s>
+</p>
+<p>
+<s>1 ) emitendi p&otilde;hikirja v&otilde;i emissioonitingimustega on v&auml;&auml;rtpaberi v&otilde;&otilde;randamine piiratud kolmandate isikute suhtes kehtiva ostuees&otilde;igusega ;</s>
+</p>
+<p>
+<s>2 ) emitendi p&otilde;hikirja v&otilde;i emissioonitingimustega on piiratud v&auml;&auml;rtpaberi koormamine pandiga ;</s>
+</p>
+<p>
+<s>3 ) osa v&otilde;&otilde;randamisel teisele osanikule on n&otilde;utav teiste osanike n&otilde;usolek .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Andmed v&auml;&auml;rtpaberikonto kohta</s>
+</p>
+<p>
+<s>( 1 ) V&auml;&auml;rtpaberikonto kohta kantakse registrisse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;rtpaberikonto omaniku nimi ;</s>
+</p>
+<p>
+<s>2 ) v&auml;&auml;rtpaberikonto omaniku aadress ;</s>
+</p>
+<p>
+<s>3 ) f&uuml;&uuml;silisest isikust v&auml;&auml;rtpaberikonto omaniku isikukood , selle puudumisel s&uuml;nniaeg ;</s>
+</p>
+<p>
+<s>4 ) juriidilisest isikust v&auml;&auml;rtpaberikonto omaniku puhul viide registrile , kus juriidiline isik on registreeritud , ja registrikood , kui juriidiline isik on registreeritud ;</s>
+</p>
+<p>
+<s>5 ) v&auml;&auml;rtpaberikonto omaniku pangakonto number registriga seotud arveldusi teostavas krediidiasutuses ja selle krediidiasutuse &auml;rinimi ;</s>
+</p>
+<p>
+<s>6 ) v&auml;&auml;rtpaberikonto number ja v&auml;&auml;rtpaberikonto avamise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>7 ) v&auml;&auml;rtpaberikontol olevate v&auml;&auml;rtpaberite kogus ja t&auml;histus ;</s>
+</p>
+<p>
+<s>8 ) v&auml;&auml;rtpaberi mitmele isikule kuulumise korral v&auml;&auml;rtpaberi &uuml;histe omanike nimed , aadressid , isiku- v&otilde;i registrikoodid ( isikukoodi puudumisel s&uuml;nniaeg ) ning kaasomandi korral iga kaasomaniku proportsionaalne osa v&auml;&auml;rtpaberist v&otilde;i v&auml;&auml;rtpaberitest ;</s>
+</p>
+<p>
+<s>9 ) v&auml;&auml;rtpaberite omandamise aeg ja muude kannete tegemise ajad ;</s>
+</p>
+<p>
+<s>10 ) muud seadusega s&auml;testatud andmed ;</s>
+</p>
+<p>
+<s>11 ) taotleja residentriik , mis avaldatakse tagamaks v&auml;&auml;rtpaberil p&otilde;hineva v&auml;ljamakse tegijale tulumaksu kinnipidamiseks vajaliku informatsiooni k&auml;ttesaadavus registri kaudu ;</s>
+</p>
+<p>
+<s>12 ) taotleja n&otilde;usolekul andmed tema sidevahendite ( telefoni ja/v&otilde;i telefaksi number ning v&otilde;imalusel elektronposti aadress ) kohta ;</s>
+</p>
+<p>
+<s>13 ) andmed v&auml;&auml;rtpaberikonto v&auml;ljav&otilde;tte ning teiste v&auml;&auml;rtpaberikonto omanikule suunatud teatiste edastamise tingimuste kohta ;</s>
+</p>
+<p>
+<s>14 ) &uuml;hise v&auml;&auml;rtpaberikonto korral informatsioon selle kohta , kes on &otilde;igustatud k&auml;sutama &uuml;hisesse omandisse kuuluvaid v&auml;&auml;rtpabereid .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ike 1 punktides 11-14 loetletud andmed kantakse registrisse v&auml;&auml;rtpaberikontot omada sooviva isiku poolt kontohaldurile esitatud v&auml;&auml;rtpaberikonto avamise taotluses n&auml;idatud andmete alusel .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;hise v&auml;&auml;rtpaberikonto korral kantakse l&otilde;ike 1 punktis 11 nimetatud andmed registrisse nii isiku kohta , kelle nimel &uuml;hine v&auml;&auml;rtpaberikonto avati , kui ka iga &uuml;hise omaniku kohta .</s>
+</p>
+<p>
+<s>( 4 ) Kui &otilde;igusaktide kohaselt on olulise osaluse omandamiseks n&otilde;utav luba ( edaspidi olulise osaluse omandamise luba ) , kannab registripidaja selleks p&auml;deva j&auml;relevalve teostaja taotluses n&auml;idatud v&auml;&auml;rtpaberikonto juurde olulise osaluse omandamise loa numbri , selle v&auml;ljaandmise kuup&auml;eva , vastava v&auml;&auml;rtpaberi registrikoodi ja osaluse suuruse , mille suhtes luba anti .</s>
+</p>
+<p>
+<s>( 5 ) Kui v&auml;&auml;rtpaberid , mille suhtes olulise osaluse omandamise luba v&auml;lja anti , on registreeritud esindajakontol , kantakse eelmises l&otilde;ikes nimetatud andmed p&auml;deva j&auml;relevalve teostaja taotluses n&auml;idatud esindajakonto juurde koos olulise osaluse omandamise loa saanud isiku nime , isiku- v&otilde;i registrikoodi ning aadressiga .</s>
+</p>
+<p>
+<s>( 6 ) V&auml;&auml;rtpaberikonto omanik teavitab kontohaldurit viivitamatult igast muudatusest tema poolt v&auml;&auml;rtpaberikonto avamisel avaldatud andmetes .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Andmed v&auml;&auml;rtpaberi&uuml;lekande kohta</s>
+</p>
+<p>
+<s>Lisaks seaduse s&auml;testatud andmetele kantakse v&auml;&auml;rtpaberi&uuml;lekande kohta registrisse m&auml;rge , kui v&auml;&auml;rtpaberi&uuml;lekande objektiks olnud v&auml;&auml;rtpaberid omandati v&otilde;i v&otilde;&otilde;randati tasuta .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kannete tegemise kord</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Kannete tegemine emitendi taotlusel</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Emitendi taotlusel tehtavad kanded</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva korra paragrahvi 4 l&otilde;ike 1 punktides 1 ja 2 ning paragrahvi 4 l&otilde;ikes 2 nimetatud andmete registreerimine ja muudatuste tegemine nimetatud andmetes toimub emitendi taotlusel .</s><s>Taotluse vormi , taotlusele lisatavate dokumentide ning andmete loetelu kehtestab registripidaja .</s>
+</p>
+<p>
+<s>( 2 ) Registripidaja teeb kanded taotluses s&auml;testatud tingimustel ja korras , kui &otilde;igusaktides pole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Kui isikud , kelle v&auml;&auml;rtpaberikontodele tuleb kanded teha , m&auml;&auml;ratakse kindlaks emitendi taotluses n&auml;idatud fikseerimisp&auml;eva alusel , v&otilde;etakse kannete tegemise aluseks registriandmed fikseerimisp&auml;eva alguse seisuga ( kell 0.00 ) , kui emitent pole taotluses m&auml;&auml;ranud teist kellaaega .</s>
+</p>
+<p>
+<s>( 4 ) Registripidaja keeldub kannete tegemisest , kui taotlus ei vasta registripidaja kehtestatud v&otilde;i &otilde;igusaktides s&auml;testatud n&otilde;uetele v&otilde;i kui taotluses n&otilde;utud kannete tegemine oleks vastuolus seadusega .</s><s>Kannete tegemisest keeldumisest ning selle p&otilde;hjustest tuleb taotluse esitajat viivitamatult teavitada .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>V&auml;&auml;rtpaberite t&auml;iendava emissiooni registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Registris eelnevalt registreeritud v&auml;&auml;rtpaberite t&auml;iendava emissiooni ( edaspidi t&auml;iendavad v&auml;&auml;rtpaberid ) registreerib registripidaja hiljemalt viie t&ouml;&ouml;p&auml;eva jooksul , arvates taotluse vastuv&otilde;tmisest , kui emitent pole taotluses m&auml;&auml;ranud kannete tegemiseks pikemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 2 ) Kui t&auml;iendavate v&auml;&auml;rtpaberite omandamiseks &otilde;igustatud isikud m&auml;&auml;ratakse kindlaks emitendi taotluses n&auml;idatud fikseerimisp&auml;eva alusel , teeb registripidaja t&auml;iendavate v&auml;&auml;rtpaberite registreerimiseks vajalikud kanded hiljemalt kahe t&ouml;&ouml;p&auml;eva jooksul , arvates fikseerimisp&auml;eva saabumisest .</s>
+</p>
+<p>
+<s>( 3 ) T&auml;iendavate aktsiate ja osade registreerimisel teeb registripidaja vastavalt t&auml;iendavatele aktsiatele v&otilde;i osadele m&auml;rke ( edaspidi ajutine registrikood ) .</s>
+</p>
+<p>
+<s>( 4 ) Ajutise registrikoodiga aktsiatele v&otilde;i osadele annab registripidaja eelnevalt registreeritud aktsiate v&otilde;i osade registrikoodi , kui aktsia- v&otilde;i osakapitali suurendamise kanne on tehtud &auml;riregistrisse ning kui t&auml;iendavatest aktsiatest v&otilde;i osadest tulenevad &otilde;igused ei erine eelnevalt registreeritud aktsiatest v&otilde;i osadest tulenevatest &otilde;igustest .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>V&auml;&auml;rtpaberite nimiv&auml;&auml;rtuse muutmine</s>
+</p>
+<p>
+<s>( 1 ) Registripidaja teeb v&auml;&auml;rtpaberite nimiv&auml;&auml;rtuse muutmiseks vajalikud kanded hiljemalt 2 t&ouml;&ouml;p&auml;eva jooksul , arvates taotluse vastuv&otilde;tmisest , kui emitent pole taotluses m&auml;&auml;ranud kannete tegemiseks pikemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 2 ) Kui isikud , kelle v&auml;&auml;rtpabereid nimiv&auml;&auml;rtuse muutmine puudutab , m&auml;&auml;ratakse kindlaks emitendi taotluses n&auml;idatud fikseerimisp&auml;eva alusel , teeb registripidaja v&auml;&auml;rtpaberi nimiv&auml;&auml;rtuse muutmiseks vajalikud kanded hiljemalt kahe t&ouml;&ouml;p&auml;eva jooksul , arvates fikseerimisp&auml;eva saabumisest .</s>
+</p>
+<p>
+<s>( 3 ) Osa nimiv&auml;&auml;rtuse suurendamisel seoses osakapitali suurendamisega annab registripidaja osa nimiv&auml;&auml;rtuse suurendamise arvel saadud osale ajutise registrikoodi .</s><s>Ajutise registrikoodiga t&auml;histatud osadele annab registripidaja eelnevalt registreeritud osade registrikoodi , kui osakapitali suurendamise kanne on tehtud &auml;riregistrisse ning kui osa suurendamise arvel saadud osadest tulenevad &otilde;igused ei erine eelnevalt registreeritud osadest tulenevatest &otilde;igustest .</s>
+</p>
+<p>
+<s>( 4 ) Osade nimiv&auml;&auml;rtuse v&auml;hendamisel seoses osakapitali v&auml;hendamisega annab registripidaja osa nimiv&auml;&auml;rtuse v&auml;hendamise suurust v&auml;ljendavatele osadele ajutise registrikoodi .</s><s>Ajutise registrikoodiga t&auml;histatud osad kustutab registripidaja registrist p&auml;rast seda , kui osakapitali v&auml;hendamise kanne on tehtud &auml;riregistrisse .</s>
+</p>
+<p>
+<s>( 5 ) Aktsiate nimiv&auml;&auml;rtuse muutmiseks vajalikud kanded teeb registripidaja esimesel v&otilde;imalusel p&auml;rast seda , kui aktsia nimiv&auml;&auml;rtuse muutmise otsuse j&otilde;ustumiseks vajalik kanne on tehtud &auml;riregistrisse .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>V&auml;&auml;rtpaberite vahetamine</s>
+</p>
+<p>
+<s>Registripidaja teeb v&auml;&auml;rtpaberite vahetamiseks vajalikud kanded hiljemalt viie t&ouml;&ouml;p&auml;eva jooksul , arvates taotluse vastuv&otilde;tmisest , kui emitent pole taotluses m&auml;&auml;ranud kannete tegemiseks pikemat t&auml;htaega .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>V&auml;&auml;rtpaberite kustutamine</s>
+</p>
+<p>
+<s>( 1 ) Registripidaja teeb v&auml;&auml;rtpaberite kustutamise kanded hiljemalt kahe t&ouml;&ouml;p&auml;eva jooksul , arvates taotluse vastuv&otilde;tmisest , kui emitent pole taotluses m&auml;&auml;ranud kannete tegemiseks pikemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 2 ) Kui isikud , kelle v&auml;&auml;rtpaberid kuuluvad kustutamisele , m&auml;&auml;ratakse kindlaks emitendi taotluses n&auml;idatud fikseerimisp&auml;eva alusel , teeb registripidaja v&auml;&auml;rtpaberite kustutamise kanded hiljemalt kahe t&ouml;&ouml;p&auml;eva jooksul , arvates fikseerimisp&auml;eva saabumisest .</s>
+</p>
+<p>
+<s>( 3 ) Aktsiate ja osade kustutamisel seoses aktsia- v&otilde;i osakapitali v&auml;hendamisega , annab registripidaja vastavalt kustutamisele kuuluvatele aktsiatele v&otilde;i osadele ajutise registrikoodi .</s><s>Ajutise registrikoodiga t&auml;histatud aktsiad v&otilde;i osad kustutab registripidaja p&auml;rast seda , kui aktsia v&otilde;i osakapitali v&auml;hendamise kanne on tehtud &auml;riregistrisse .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Kannete tegemine kontohalduri , v&auml;&auml;rtpaberib&ouml;rsi korraldaja ja kontos&uuml;steemi pidaja korraldusel</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kande tegemine kontohalduri korraldusel</s>
+</p>
+<p>
+<s>( 1 ) Kontohalduri poolt registripidajale korralduse andmine , kande tegemise ja v&auml;&auml;rtpaberi blokeerimise ajaline re&zcaron;iim ning kandega seotud rahalised arveldused toimuvad vastavalt seaduses , k&auml;esolevas korras ja andmet&ouml;&ouml;tlusreeglites s&auml;testatule .</s>
+</p>
+<p>
+<s>( 2 ) Kontohaldur on kohustatud registritoimingu tegemiseks talle antud korralduse registripidajale andma viivitamatult p&auml;rast korralduse saamist selleks &otilde;igustatud isikult , kui viimane pole korralduse registripidajale edastamiseks antud k&auml;sundis ette n&auml;inud teistsugust t&auml;htaega .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&otilde;ik kande tegemiseks vajalikud , &otilde;igusaktides ja andmet&ouml;&ouml;tlusreeeglites s&auml;testatud eeldused ja n&otilde;uded on t&auml;idetud , teeb registripidaja kande kontohalduri poolt antud korralduse alusel esimesel andmet&ouml;&ouml;tlusreeglites s&auml;testatud v&otilde;imalusel , kui korralduses endas ei ole m&auml;&auml;ratud kande tegemiseks hilisemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 4 ) Kui kontohalduri korralduse kohaselt on v&auml;&auml;rtpaberi&uuml;lekande tegemise tingimuseks rahaliste kohustuste eelnev arveldamine , teeb registripidaja v&auml;&auml;rtpaberi&uuml;lekande juhul , kui on toimunud &uuml;lekandekorralduse andnud kontohaldurite vaheliste rahaliste n&otilde;uete ja kohustuste arveldamine .</s><s>&Uuml;lekande objektiks olevad v&auml;&auml;rtpaberid blokeerib registripidaja enne v&auml;&auml;rtpaberi&uuml;lekande tegemist debiteeritaval v&auml;&auml;rtpaberikontol .</s>
+</p>
+<p>
+<s>( 5 ) Korraldamaks v&auml;&auml;rtpaberi&uuml;lekannete tegemisega seotud rahalisi arveldusi , s&otilde;lmib registripidaja lepingu Eesti Panga ja/v&otilde;i isikuga , kellel on &otilde;igusaktide kohaselt &otilde;igus teha rahaliste arvelduste korraldamiseks vajalikke tehinguid ja toiminguid .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Kande tegemine v&auml;&auml;rtpaberib&ouml;rsi korraldaja ja kontos&uuml;steemi pidaja korraldusel</s>
+</p>
+<p>
+<s>( 1 ) Lisaks seaduse paragrahvi 12 l&otilde;ikes 1 s&auml;testatud alustele v&otilde;ib kande aluseks olla &ldquo; V&auml;&auml;rtpaberituru seaduse &rdquo; ( RT I 1993 , 35 , 543 ; 1995 , 22 , 328 ; 1996 , 26 , 528 ; 1997 , 34 , 535 ; 1998 , 61 , 979 ; 2000 , 10 , 55 ) paragrahvi 2 l&otilde;ike 1 punktis 1 nimetatud v&auml;&auml;rtpaberib&ouml;rsi ( edaspidi v&auml;&auml;rtpaberib&ouml;rsi korraldaja ) ja v&auml;&auml;rtpaberite v&otilde;i sarnaste finantsinstrumentide registri , v&auml;&auml;rtpaberiarvelduss&uuml;steemi haldaja v&otilde;i keskdepositooriumi pidaja ( edaspidi kontos&uuml;steemi pidaja ) korraldus .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;&auml;rtpaberib&ouml;rsi korraldaja poolt korralduste registripidajale andmise viis , n&otilde;uded korraldustes sisalduva informatsiooni sisule , kande tegemise tingimused ja kord ning vajadusel ka kannetega seotud rahaliste arvelduste kord n&auml;hakse ette registripidaja ja vastava v&auml;&auml;rtpaberib&ouml;rsi korraldaja vahelises lepingus .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;&auml;rtpaberite kontos&uuml;steemi pidaja korralduste registripidajale andmise viis , n&otilde;uded korraldustes sisalduva informatsiooni sisule , kande tegemise tingimused ja kord , sealhulgas kontos&uuml;steemis registreeritud v&auml;&auml;rtpaberite &uuml;lekandmine v&auml;&auml;rtpaberite kontos&uuml;steemist registrisse ja/v&otilde;i registrist v&auml;&auml;rtpaberite kontos&uuml;steemi ning vajadusel ka kandega seotud rahaliste arvelduste kord n&auml;hakse ette registripidaja ja vastava v&auml;&auml;rtpaberite kontos&uuml;steemi pidaja vahelises lepingus .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kontohaldur</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Kontohalduri staatuse taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Kontohalduri staatuse taotlemiseks esitatakse registripidajale j&auml;rgmised dokumendid :</s>
+</p>
+<p>
+<s>1 ) kirjalik taotlus ;</s>
+</p>
+<p>
+<s>2 ) taotleja p&otilde;hikiri ;</s>
+</p>
+<p>
+<s>3 ) taotluse esitaja volitusi t&otilde;endav registri v&auml;ljav&otilde;te ;</s>
+</p>
+<p>
+<s>4 ) t&otilde;estatud koopia v&auml;&auml;rtpaberituru kutselise osalise tegevusloast ;</s>
+</p>
+<p>
+<s>5 ) aktsia- v&otilde;i osakapitali suurust t&otilde;endav registri v&auml;ljav&otilde;te ;</s>
+</p>
+<p>
+<s>6 ) selgitav &uuml;levaade sellest , kuidas tagatakse &otilde;igusaktidest ja andmet&ouml;&ouml;tlusreeglitest tulenevate kohustuste ja n&otilde;uete t&auml;itmine ning v&auml;&auml;rtpaberite ja v&auml;&auml;rtpaberi&uuml;lekannetega seotud rahaliste arvelduste korraldamine .</s>
+</p>
+<p>
+<s>( 2 ) Euroopa Liidu liikmesriigis registreeritud &auml;ri&uuml;hing , millele on antud v&auml;&auml;rtpaberituru kutselise osalise tegevusluba , samuti &auml;ri&uuml;hing , mis on registreeritud riigis , mis ei ole Euroopa Liidu liikmesriik , kuid millega Eesti Vabariigil on j&otilde;ustunud vastastikuse &otilde;igusabi osutamise leping , ning millele on antud v&auml;&auml;rtpaberituru kutselise osalise tegevusluba , lisab eelmise l&otilde;ike punktis 1 nimetatud taotlusele tema asukohariigi p&auml;deva j&auml;relevalve teostaja kinnituse selle kohta , et taotlejale asukohariigi &otilde;iguse kohaselt antud v&auml;&auml;rtpaberituru kutselise osalise tegevusluba annab &otilde;iguse tegutseda kontohaldurina .</s>
+</p>
+<p>
+<s>( 3 ) Registripidaja v&otilde;ib n&otilde;uda lisaks eelloetletud dokumentidele t&auml;iendavaid andmeid v&otilde;i dokumente , samuti teostada kokkuleppel taotlejaga viimase juures kohapealset kontrolli , kui see on vajalik veendumaks kontohalduri kohustuste t&auml;itmiseks vajalike eelduste olemasolus v&otilde;i esitatud dokumentide v&otilde;i neis sisalduvate andmete &otilde;igsuses .</s>
+</p>
+<p>
+<s>( 4 ) Otsuse kontohalduri staatuse andmise v&otilde;i sellest keeldumise kohta teeb registripidaja n&otilde;ukogu hiljemalt 20 t&ouml;&ouml;p&auml;eva jooksul , arvates l&otilde;igetes 1-3 nimetatud teabe ja dokumentide laekumisest .</s>
+</p>
+<p>
+<s>( 5 ) Registripidaja n&otilde;ukogu keeldub kontohalduri staatuse andmisest , kui :</s>
+</p>
+<p>
+<s>1 ) registripidaja n&otilde;ukogu hinnangul ei ole t&auml;idetud k&otilde;ik eeldused &otilde;igusaktidest ning andmet&ouml;&ouml;tlusreeglitest tulenevate kohustuste ja n&otilde;uete t&auml;itmiseks ning v&auml;&auml;rtpaberite ja v&auml;&auml;rtpaberi&uuml;lekannetega seotud rahaliste arvelduste korraldamiseks ;</s>
+</p>
+<p>
+<s>2 ) taotleja aktsia- v&otilde;i osakapital ei ole ekvivalentne v&auml;hemalt 125 000 euroga vastavalt Eesti Panga kursile .</s>
+</p>
+<p>
+<s>( 6 ) Kontohalduri staatuse andmise otsus v&otilde;i kontohalduri staatuse andmisest keeldumise motiveeritud otsus saadetakse viivitamatult taotlejale .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Kontohalduri staatuses tegutsemise leping</s>
+</p>
+<p>
+<s>( 1 ) Kontohalduri staatuse omandanud isik ja registripidaja s&otilde;lmivad lepingu , kus n&auml;hakse muuhulgas ette kontohalduri staatuse omandanud isiku poolt vahendatavad teenused , tegevuse alustamise tingimused ( kindlustus ) ja kord ning muud seaduses s&auml;testatud tingimused .</s>
+</p>
+<p>
+<s>( 2 ) Kontohalduri staatuse omandanud isik peab alustama oma tegevust kontohaldurina l&otilde;ikes 1 nimetatud lepingus etten&auml;htud t&auml;htaja jooksul .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Kontohalduri staatuse peatamine</s>
+</p>
+<p>
+<s>( 1 ) Registripidajal on &otilde;igus peatada kontohalduri staatus seaduse paragrahvi 35 l&otilde;ikes 1 s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 2 ) Kontohalduri staatuse peatamine seisneb piirangute seadmises kontohalduri korralduste ja/v&otilde;i p&auml;ringute vastuv&otilde;tmisele ja/v&otilde;i t&auml;itmisele registripidaja n&otilde;ukogu otsuse alusel otsuses n&auml;idatud ulatuses kas osaliselt ( edaspidi osaline peatamine ) v&otilde;i t&auml;ielikult ( edaspidi t&auml;ielik peatamine ) .</s>
+</p>
+<p>
+<s>( 3 ) Kontohalduri staatuse peatamise otsustab registripidaja n&otilde;ukogu .</s>
+</p>
+<p>
+<s>( 4 ) Olles saanud p&otilde;hjendatud taotluse kontohalduri staatuse peatamise kohta , kutsub n&otilde;ukogu esimees v&otilde;i teda asendav n&otilde;ukogu liige kokku registripidaja n&otilde;ukogu koosoleku , millel otsustatakse kontohalduri staatuse peatamise &uuml;le .</s>
+</p>
+<p>
+<s>( 5 ) Otsuses kontohalduri staatuse peatamise kohta tuleb n&auml;idata :</s>
+</p>
+<p>
+<s>1 ) kontohalduri staatuse peatamise p&otilde;hjendus ;</s>
+</p>
+<p>
+<s>2 ) kontohalduri staatuse peatamise ulatus ( t&auml;ielik v&otilde;i osaline ) ;</s>
+</p>
+<p>
+<s>3 ) osalise peatamise korral piirangute kirjeldus ;</s>
+</p>
+<p>
+<s>4 ) t&auml;htaeg kontohalduri staatuse peatamist tinginud asjaolude k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 6 ) Kontohalduri staatuse peatamise otsus saadetakse viivitamatult kontohaldurile , kelle staatus peatati , samuti teistele tegutsevatele kontohalduritele .</s>
+</p>
+<p>
+<s>( 7 ) Kontohalduri staatuse peatamisest teavitatakse avalikkust &uuml;ldsusele avatud arvutis&uuml;steemi kaudu .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kontohalduri staatuse t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Registripidaja t&uuml;histab kontohalduri staatuse seaduse paragrahvi 36 l&otilde;ikes 1 s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 2 ) Kontohalduri staatuse t&uuml;histamise otsustab registripidaja n&otilde;ukogu .</s>
+</p>
+<p>
+<s>( 3 ) Olles saanud p&otilde;hjendatud taotluse kontohalduri staatuse t&uuml;histamise kohta , kutsub n&otilde;ukogu esimees v&otilde;i teda asendav n&otilde;ukogu liige kokku registripidaja n&otilde;ukogu koosoleku , millel otsustatakse kontohalduri staatuse t&uuml;histamise &uuml;le .</s>
+</p>
+<p>
+<s>( 4 ) Otsuses kontohalduri staatuse t&uuml;histamise kohta tuleb n&auml;idata :</s>
+</p>
+<p>
+<s>1 ) kontohalduri staatuse t&uuml;histamise p&otilde;hjendus ;</s>
+</p>
+<p>
+<s>2 ) seaduse paragrahvi 36 l&otilde;ike 3 punktides 1 ja 2 s&auml;testatud andmed ning muud v&auml;&auml;rtpaberikontode haldamis&otilde;iguse &uuml;leandmisega seotud tingimused ja asjaolud .</s>
+</p>
+<p>
+<s>( 5 ) Kontohalduri staatuse t&uuml;histamise otsus saadetakse viivitamatult isikule , kelle kontohalduri staatus t&uuml;histati , samuti teistele tegutsevatele kontohalduritele .</s>
+</p>
+<p>
+<s>( 6 ) Kontohalduri staatuse t&uuml;histamisest teavitatakse avalikkust seaduse paragrahvi 36 l&otilde;ikes 5 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Kontohalduri staatuse kaotanud v&otilde;i sellest loobunud isiku kohustused</s>
+</p>
+<p>
+<s>( 1 ) Isik , kelle kontohalduri staatus on t&uuml;histatud , samuti isik , kes on kontohalduri staatusest loobunud , on kohustatud t&auml;itma registripidaja korraldusi ja n&otilde;udeid , mille eesm&auml;rgiks on tagada v&auml;&auml;rtpaberikonto omanike huvide kaitse ning teiste kontohaldurite h&auml;irimatu tegevus .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ikes 1 nimetatud isik korraldab k&otilde;igi temale registritoimingute ja p&auml;ringute tegemiseks antud korralduste aluseks olevate andmete ja dokumentide arhiveerimise viisil , mis tagab eelnimetatud andmete ja dokumentide s&auml;ilimise ning k&auml;ttesaadavuse &otilde;igustatud isikutele ja ametiasutustele v&auml;hemalt k&uuml;mne aasta jooksul , arvates kontohalduri staatuse t&uuml;histamise otsuse tegemisest v&otilde;i registripidaja ja kontohaldurina tegutsenud isiku vahelise lepingu l&otilde;ppemisest .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>N&otilde;uded esindajakonto omanikule</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Esindajakonto avamise ja omamise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Kontohaldur edastab registripidajale esindajakonto avamise taotluse &uuml;ksnes juhul , kui esindajakontot omada sooviv isik vastab seaduses ja k&auml;esolevas korras s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Esindajakonto aktsia- v&otilde;i osakapital peab olema ekvivalentne v&auml;hemalt 730 000 euroga vastavalt Eesti Panga kursile .</s>
+</p>
+<p>
+<s>( 3 ) Esindajakonto omanik on kohustatud &otilde;igusaktides s&auml;testatud n&otilde;uetest k&otilde;rvalekaldumisest viivitamatult teavitama seaduse paragrahvi 38 l&otilde;ikes 1 nimetatud j&auml;relevalve teostajat , registripidajat ja kontohaldurit .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Andmete avaldamine esindajakonto omaniku poolt</s>
+</p>
+<p>
+<s>( 1 ) Esindajakonto omanik avaldab seaduse paragrahv 6 l&otilde;ikes 7 nimetatud andmed ( edaspidi andmed ) j&auml;relevalve teostajale , samuti registripidajale kirjaliku v&otilde;i kirjalikku taasesitamist ja isiku identifitseerimist v&otilde;imaldava n&otilde;ude alusel .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ikes 1 nimetatud n&otilde;udes tuleb n&auml;idata :</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;rtpaberi registrikood , mille kohta andmeid n&otilde;utakse ;</s>
+</p>
+<p>
+<s>2 ) kuup&auml;ev ja kellaaeg , millise seisuga andmeid n&otilde;utakse ;</s>
+</p>
+<p>
+<s>3 ) informatsioon selle kohta , kas andmeid n&otilde;utakse k&otilde;igi klientide , &uuml;ksnes kindlaksm&auml;&auml;ratud tunnustele vastavate klientide v&otilde;i konkreetse kliendi kohta ;</s>
+</p>
+<p>
+<s>4 ) informatsioon n&otilde;utavate andmete ulatuse ja vormi kohta ;</s>
+</p>
+<p>
+<s>5 ) informatsioon andmete j&auml;relevalve teostajale v&otilde;i registripidajale edastamise viisi ja t&auml;htaja kohta ;</s>
+</p>
+<p>
+<s>6 ) muu asjakohane informatsioon .</s>
+</p>
+<p>
+<s>( 3 ) Esindajakonto omanik edastab andmed j&auml;relevalve teostajale v&otilde;i registripidajale n&otilde;udes n&auml;idatud tingimustel hiljemalt eelmise l&otilde;ike punktis 5 s&auml;testatud t&auml;htaja jooksul , mis ei v&otilde;i olla l&uuml;hem kui kolm t&ouml;&ouml;p&auml;eva .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Andmete avaldamine ja teatiste v&auml;ljastamine registripidaja poolt</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Registritoiminguid iseloomustavate andmete avaldamine</s>
+</p>
+<p>
+<s>( 1 ) Emitendi taotlusel tehtavate registritoimingute kohta avaldab registripidaja &uuml;ldsusele avatud arvutis&uuml;steemis teate , milles n&auml;idatakse registritoimingut taotlev emitent ( emitendi nimi ja v&otilde;imalusel registrikood ) ning muud k&auml;esolevas korras s&auml;testatud andmed .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;&auml;rtpaberite registreerimise , samuti t&auml;iendavalt emiteeritud v&auml;&auml;rtpaberite registreerimise kohta avaldatavas teates n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;rtpaberile antud registrikood ;</s>
+</p>
+<p>
+<s>2 ) t&auml;iendavate v&auml;&auml;rtpaberite registreerimisel ajutine registrikood , kui see antakse t&auml;iendavalt emiteeritud v&auml;&auml;rtpaberitele ;</s>
+</p>
+<p>
+<s>3 ) registreeritava v&auml;&auml;rtpaberi liiki kajastav nimetus ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;imalusel v&auml;&auml;rtpaberi nimiv&auml;&auml;rtus koos v&auml;&auml;ringuga ;</s>
+</p>
+<p>
+<s>5 ) v&auml;&auml;rtpaberite kogus ;</s>
+</p>
+<p>
+<s>6 ) v&otilde;imalusel kannete tegemise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;&auml;rtpaberite nimiv&auml;&auml;rtuse muutmise kohta avaldatavas teates n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;rtpaberi registrikood ja nimetus ;</s>
+</p>
+<p>
+<s>2 ) v&auml;&auml;rtpaberi endine ja uus nimiv&auml;&auml;rtus ;</s>
+</p>
+<p>
+<s>3 ) ajutine registrikood , kui nimiv&auml;&auml;rtuse v&auml;hendamise v&otilde;i suurendamise kohta kantakse registrisse ajutine registrikood ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;imalusel kannete tegemise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;&auml;rtpaberite asendamise kohta avaldatavas teates n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) asendatava v&auml;&auml;rtpaberi registrikood ;</s>
+</p>
+<p>
+<s>2 ) asendava v&auml;&auml;rtpaberi registrikood , kui asendav v&auml;&auml;rtpaber on registris registreeritud ;</s>
+</p>
+<p>
+<s>3 ) asendava v&auml;&auml;rtpaberi emitendi nimi ja v&otilde;imalusel registrikood , kui asendava v&auml;&auml;rtpaberi emitent ja asendatava v&auml;&auml;rtpaberi emitent on erinevad ;</s>
+</p>
+<p>
+<s>4 ) asendussuhe ;</s>
+</p>
+<p>
+<s>5 ) v&otilde;imalusel kannete tegemise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 5 ) V&auml;&auml;rtpaberite kustutamise kohta avaldatavas teates n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) registrist kustutamisele kuuluva v&auml;&auml;rtpaberi registrikood ja nimetus ;</s>
+</p>
+<p>
+<s>2 ) kustutamisele kuuluvate v&auml;&auml;rtpaberite arv ;</s>
+</p>
+<p>
+<s>3 ) kui v&auml;&auml;rtpaberite kustutamise kohta kantakse registrisse ajutine registrikood - ajutine registrikood ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;imalusel kannete tegemise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 6 ) Lisaks l&otilde;igetes 2-5 nimetatud andmetele v&otilde;ib registripidaja avaldada k&auml;esolevas korras nimetamata andmeid , kui need omavad t&auml;htsust seonduvalt registritoimingu t&auml;itmiseks tehtavate kannetega .</s>
+</p>
+<p>
+<s>( 7 ) Lisaks k&auml;esolevas paragrahvis s&auml;testatud andmetele v&otilde;ib registripidaja avaldada informatsiooni , mis on seotud registris registreeritud v&auml;&auml;rtpaberitest tulenevate &otilde;igustega ( dividendi maksmine jms ) .</s>
+</p>
+<p>
+<s>( 8 ) Registripidaja avaldab registritoiminguga seotud andmeid sisaldava teate &uuml;ksnes juhul , kui registritoimingu t&auml;itmiseks vajalike kannete tegemiseks on t&auml;idetud k&otilde;ik &otilde;igusaktides etten&auml;htud ja registripidaja poolt kehtestatud n&otilde;uded .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>V&auml;&auml;rtpaberite v&auml;ljav&otilde;tte edastamine emitendile</s>
+</p>
+<p>
+<s>( 1 ) Seaduse paragrahvi 19 l&otilde;ikes 1 nimetatud v&auml;ljav&otilde;tte v&auml;ljastab registripidaja emitendi kirjaliku v&otilde;i kirjalikku taasesitamist ja isiku identifitseerimist v&otilde;imaldava n&otilde;ude alusel .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ikes 1 nimetatud n&otilde;udes tuleb n&auml;idata :</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;rtpaberi registrikood , mille kohta v&auml;ljav&otilde;tet soovitakse ;</s>
+</p>
+<p>
+<s>2 ) kuup&auml;ev ja kellaaeg , millise seisuga v&auml;ljav&otilde;tet soovitakse ;</s>
+</p>
+<p>
+<s>3 ) m&auml;rge v&auml;ljav&otilde;tte vormi kohta ( kas v&auml;ljav&otilde;tet soovitakse paberkujul v&otilde;i elektroonsel andmekandjal ) ;</s>
+</p>
+<p>
+<s>4 ) informatsioon v&auml;ljav&otilde;tte edastamise v&otilde;i &uuml;leandmise tingimuste kohta l&auml;htuvalt l&otilde;ikes 3 s&auml;testatust ;</s>
+</p>
+<p>
+<s>5 ) muud n&otilde;ude sisu t&auml;psustavad andmed .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;&auml;rtpaberite v&auml;ljav&otilde;te edastatakse emitendile turvalist andmevahetust v&otilde;imaldaval viisil arvutiv&otilde;rgu kaudu , antakse &uuml;le emitendi selleks volitatud esindajale allkirja vastu v&otilde;i edastatakse emitendile posti teel .</s>
+</p>
+<p>
+<s>( 4 ) Registripidaja keeldub v&auml;ljav&otilde;tte edastamisest v&otilde;i &uuml;leandmisest , kui emitendi n&otilde;ue ei vasta k&auml;esolevas korras s&auml;testatud tingimustele v&otilde;i kui emitent keeldub registripidaja hinnakirjas s&auml;testatud tasu maksmisest .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Teatis v&auml;&auml;rtpaberikonto avamise kohta</s>
+</p>
+<p>
+<s>( 1 ) Seaduse paragrahvi 20 l&otilde;ikes 1 nimetatud teatis v&auml;&auml;rtpaberikonto avamise kohta peab sisaldama allj&auml;rgnevaid andmeid :</s>
+</p>
+<p>
+<s>1 ) avatud v&auml;&auml;rtpaberikonto number ja v&auml;&auml;rtpaberikonto avamise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>2 ) v&auml;&auml;rtpaberikonto avamise taotluse registripidajale edastanud kontohalduri &auml;rinimi ;</s>
+</p>
+<p>
+<s>3 ) juriidilisest isikust v&auml;&auml;rtpaberikonto omaniku puhul registrikood , kui juriidiline isik on registreeritud ;</s>
+</p>
+<p>
+<s>4 ) muud teatises sisalduva informatsiooni m&otilde;istmise seisukohalt registripidaja hinnangul t&auml;htsust omavad andmed .</s>
+</p>
+<p>
+<s>( 2 ) Kui v&auml;&auml;rtpaberikonto omanik ei ole teatise saamise &otilde;igusest loobunud , edastatakse see olenevalt v&auml;&auml;rtpaberikonto omaniku poolt avaldatud ning registrisse kantud valikust kas posti teel v&otilde;i &uuml;ldkasutatava arvutiv&otilde;rgu kaudu elektroonsel kujul vastaval posti v&otilde;i elektronposti aadressil .</s>
+</p>
+<p>
+<s>( 3 ) Ajutise v&auml;&auml;rtpaberikonto korral edastatakse teatis v&auml;&auml;rtpaberikonto avamise kohta emitendile , kelle taotlusel ajutine v&auml;&auml;rtpaberikonto avati , kui emitent pole sellest &otilde;igusest loobunud .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Teatis v&auml;&auml;rtpaberikontol olevate v&auml;&auml;rtpaberite j&auml;&auml;gi kohta</s>
+</p>
+<p>
+<s>( 1 ) Seaduse paragrahvi 20 l&otilde;ikes 4 nimetatud v&auml;&auml;rtpaberikonto j&auml;&auml;gi kohta edastatav teatis ( edaspidi saldoteatis ) peab sisaldama allj&auml;rgnevaid andmeid :</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;rtpaberikonto number ;</s>
+</p>
+<p>
+<s>2 ) v&auml;&auml;rtpaberikonto omaniku nimi ;</s>
+</p>
+<p>
+<s>3 ) v&auml;&auml;rtpaberikontol registreeritud v&auml;&auml;rtpaberi registrikood , nimetus , vastava registrikoodiga v&auml;&auml;rtpaberite arv ( v&auml;lja arvatud osa korral ) nimiv&auml;&auml;rtus ja v&auml;&auml;ring ;</s>
+</p>
+<p>
+<s>4 ) pandiga koormatud v&auml;&auml;rtpaberi registrikood ning panditud v&auml;&auml;rtpaberite arv ;</s>
+</p>
+<p>
+<s>5 ) teatise koostamise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>6 ) kuup&auml;ev , millise seisuga v&auml;&auml;rtpaberikonto j&auml;&auml;ki koostatud teatis kajastab ;</s>
+</p>
+<p>
+<s>7 ) muud teatises sisalduva informatsiooni m&otilde;istmise seisukohalt registripidaja hinnangul t&auml;htsust omavad andmed .</s>
+</p>
+<p>
+<s>( 2 ) Kui v&auml;&auml;rtpaberikonto omanik ei ole saldoteatise saamise &otilde;igusest loobunud , edastatakse see olenevalt v&auml;&auml;rtpaberikonto omaniku poolt avaldatud ning registrisse kantud valikust kas posti teel v&otilde;i arvutiv&otilde;rgu kaudu elektroonsel kujul vastaval posti v&otilde;i elektronposti aadressil .</s>
+</p>
+<p>
+<s>( 3 ) Ajutise v&auml;&auml;rtpaberikonto korral edastatakse saldoteatis v&auml;&auml;rtpaberikonto j&auml;&auml;gi kohta emitendile , kelle taotlusel ajutine v&auml;&auml;rtpaberikonto avati , kui emitent pole sellest &otilde;igusest loobunud .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>V&auml;&auml;rtpaberikonto v&auml;ljav&otilde;te</s>
+</p>
+<p>
+<s>( 1 ) Seaduse paragrahvi 20 l&otilde;ikes 5 nimetatud v&auml;&auml;rtpaberikonto v&auml;ljav&otilde;te peab sisaldama allj&auml;rgnevaid andmeid ::</s>
+</p>
+<p>
+<s>1 ) v&auml;&auml;rtpaberikonto number ;</s>
+</p>
+<p>
+<s>2 ) v&auml;&auml;rtpaberikonto omaniku nimi ;</s>
+</p>
+<p>
+<s>3 ) v&auml;&auml;rtpaberikonto omaniku aadress ;</s>
+</p>
+<p>
+<s>4 ) vastavalt v&auml;&auml;rtpaberikonto omaniku poolt teatatud ning registrisse kantud edastusre&zcaron;iimile k&otilde;ik registrisse kantud ning m&auml;&auml;ratud ajavahemiku sees v&auml;&auml;rtpaberikontol tehtud kanded , koos iga kande tegemise aja ja kande sisu selgitava m&auml;rkega ;</s>
+</p>
+<p>
+<s>5 ) v&auml;ljav&otilde;tte koostamise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>6 ) periood ( v&auml;ljav&otilde;tte periood ) , millises ajavahemikus tehtud kandeid koostatud v&auml;ljav&otilde;te kajastab ;</s>
+</p>
+<p>
+<s>7 ) muud v&auml;ljav&otilde;ttes sisalduva informatsiooni m&otilde;istmise seisukohalt registripidaja hinnangul t&auml;htsust omavad andmed .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;&auml;rtpaberikonto v&auml;ljav&otilde;te edastatakse olenevalt v&auml;&auml;rtpaberikonto omaniku poolt avaldatud ning registrisse kantud valikust kas posti teel v&otilde;i &uuml;ldkasutatava arvutiv&otilde;rgu kaudu elektroonsel kujul vastaval posti v&otilde;i elektronposti aadressil .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;&auml;rtpaberikonto v&auml;ljav&otilde;te edastatakse perioodiliselt vastavalt v&auml;&auml;rtpaberikonto omaniku poolt teatatud ning registrisse kantud edastusre&zcaron;iimi valikust :</s>
+</p>
+<p>
+<s>1 ) iga kalendrip&auml;eva kohta , kui selle sees tehti v&auml;&auml;rtpaberikontole kanne ;</s>
+</p>
+<p>
+<s>2 ) iga kalendaarse dekaadi kohta , kui selle sees tehti v&auml;&auml;rtpaberikontole kanne ;</s>
+</p>
+<p>
+<s>3 ) iga kalendrikuu kohta , kui selle sees tehti v&auml;&auml;rtpaberikontole kanne ;</s>
+</p>
+<p>
+<s>4 ) iga kalendaarse kvartali kohta , kui selle sees tehti v&auml;&auml;rtpaberikontole kanne v&otilde;i</s>
+</p>
+<p>
+<s>5 ) iga kalendriaasta kohta , kui selle sees tehti v&auml;&auml;rtpaberikontole kanne .</s>
+</p>
+<p>
+<s>( 4 ) Ajutise v&auml;&auml;rtpaberikonto korral edastatakse v&auml;&auml;rtpaberikonto v&auml;ljav&otilde;te emitendile , kelle taotlusel ajutine v&auml;&auml;rtpaberikonto avati .</s><s>V&auml;&auml;rtpaberikonto v&auml;ljav&otilde;te edastatakse emitendile vastavalt l&otilde;ike 3 punktis 5 s&auml;testatud edastusre&zcaron;iimile , kui emitent pole sellest &otilde;igusest loobunud .</s>
+</p>
+<p>
+<s>( 5 ) Registripidajal on &otilde;igus peatada v&auml;&auml;rtpaberikonto v&auml;ljav&otilde;tete edastamine , kui on ilmnenud , et v&auml;&auml;rtpaberikonto omanik v&otilde;i tema poolt nimetatud ja registrisse kantud isik pole saanud v&auml;ljav&otilde;tet l&otilde;ikes 2 nimetatud aadressi eba&otilde;igsuse t&otilde;ttu .</s>
+</p>
+</body>
+   </text>
+</tei.2>

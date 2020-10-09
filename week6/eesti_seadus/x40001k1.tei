@@ -1,0 +1,925 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kodakondsuse seadus ( terviktekst juuni 2000 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4461</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kodakondsuse seadus ( terviktekst juuni 2000 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=3></tagusage>
+         <tagusage gi=p occurs=273></tagusage>
+         <tagusage gi=s occurs=338></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kodakondsuse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 19. jaanuaril 1995. a.</s>
+</p>
+<p>
+<s>( RT I 1995 , 12 , 122 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. aprillil 1995. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>14.06.2000 j&otilde;ust .</s><s>10.07.2000 - RT I 2000 , 51 , 323 ;</s>
+</p>
+<p>
+<s>08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 ;</s>
+</p>
+<p>
+<s>18.10.95 j&otilde;ust .</s><s>20.11.95 - RT I 1995 , 83 , 1442.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Eesti kodanik</s>
+</p>
+<p>
+<s>( 1 ) Eesti kodanik on isik , kes k&auml;esoleva seaduse j&otilde;ustumisel on Eesti kodakondsuses , samuti isik , kes on k&auml;esoleva seaduse alusel omandanud , saanud v&otilde;i taastanud Eesti kodakondsuse .</s>
+</p>
+<p>
+<s>( 2 ) Eesti kodanik ei v&otilde;i olla samal ajal m&otilde;ne muu riigi kodakondsuses .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Eesti kodakondsuse omandamine , saamine , taastamine ja kaotamine</s>
+</p>
+<p>
+<s>( 1 ) Eesti kodakondsus :</s>
+</p>
+<p>
+<s>1 ) omandatakse s&uuml;nniga ;</s>
+</p>
+<p>
+<s>2 ) saadakse naturalisatsiooni korras ;</s>
+</p>
+<p>
+<s>3 ) taastatakse isikule , kes on kaotanud Eesti kodakondsuse alaealisena ;</s>
+</p>
+<p>
+<s>4 ) kaotatakse Eesti kodakondsusest vabastamise , selle &auml;rav&otilde;tmise v&otilde;i m&otilde;ne muu riigi kodakondsuse vastuv&otilde;tmisega .</s>
+</p>
+<p>
+<s>( 2 ) Eesti kodakondsus omandatakse , saadakse , taastatakse ja kaotatakse k&auml;esolevas seaduses s&auml;testatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Mitme kodakondsuse v&auml;ltimine</s>
+</p>
+<p>
+<s>Isik , kes lisaks Eesti kodakondsusele omandab s&uuml;nniga ka m&otilde;ne muu riigi kodakondsuse , peab 18-aastaseks saamisel kolme aasta jooksul loobuma kas Eesti v&otilde;i m&otilde;ne muu riigi kodakondsusest .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Kodakondsustunnistus</s>
+</p>
+<p>
+<s>Eesti kodakondsuse saanud v&otilde;i taastanud isikule antakse k&auml;esolevas seaduses s&auml;testatud korras kodakondsustunnistus .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eesti kodakondsuse omandamise ja saamise tingimused</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Eesti kodakondsuse omandamine s&uuml;nniga</s>
+</p>
+<p>
+<s>( 1 ) S&uuml;nniga omandab Eesti kodakondsuse :</s>
+</p>
+<p>
+<s>1 ) laps , kelle s&uuml;ndimise ajal v&auml;hemalt &uuml;ks tema vanematest on Eesti kodakondsuses ;</s>
+</p>
+<p>
+<s>2 ) p&auml;rast isa surma s&uuml;ndinud laps , kelle isa oli surma hetkel Eesti kodakondsuses .</s>
+</p>
+<p>
+<s>( 2 ) Eestis leitud laps , kelle vanemad ei ole teada , tunnistatakse lapse eestkostja v&otilde;i eestkosteasutuse taotlusel kohtu korras Eesti kodakondsuse omandanuks s&uuml;nniga , kui ei ole t&otilde;endatud , et laps on m&otilde;ne muu riigi kodakondsuses .</s>
+</p>
+<p>
+<s>( 3 ) Kelleltki ei tohi v&otilde;tta s&uuml;nniga omandatud Eesti kodakondsust .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Tingimused Eesti kodakondsuse saamiseks</s>
+</p>
+<p>
+<s>V&auml;lismaalane , kes soovib saada Eesti kodakondsust , peab :</s>
+</p>
+<p>
+<s>1 ) olema v&auml;hemalt 15-aastane ;</s>
+</p>
+<p>
+<s>2 ) olema viibinud alalise elamisloa alusel Eestis v&auml;hemalt viis aastat enne Eesti kodakondsuse saamise sooviavalduse esitamise p&auml;eva ja &uuml;ks aasta p&auml;rast sooviavalduse registreerimisele j&auml;rgnevat p&auml;eva ;</s>
+</p>
+<p>
+<s>3 ) oskama eesti keelt vastavalt k&auml;esoleva seaduse paragrahvis 8 s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>4 ) tundma Eesti Vabariigi p&otilde;hiseadust ja kodakondsuse seadust vastavalt k&auml;esoleva seaduse paragrahvis 9 s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>5 ) omama legaalset p&uuml;sivat sissetulekut , mis tagab tema ja tema &uuml;lalpeetavate &auml;raelamise ;</s>
+</p>
+<p>
+<s>6 ) olema lojaalne Eesti riigile ;</s>
+</p>
+<p>
+<s>7 ) andma vande : &ldquo; Taotledes Eesti kodakondsust , t&otilde;otan olla ustav Eesti p&otilde;hiseaduslikule korrale . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Legaalne p&uuml;siv sissetulek</s>
+</p>
+<p>
+<s>Legaalseks p&uuml;sivaks sissetulekuks loetakse :</s>
+</p>
+<p>
+<s>1 ) seaduslikult teenitud tasu t&ouml;&ouml;- , teenistus- v&otilde;i tsiviil&otilde;igusliku lepingu v&otilde;i liikmelisuse alusel ;</s>
+</p>
+<p>
+<s>2 ) seaduslikust &auml;ritegevusest v&otilde;i omandist saadav tulu ;</s>
+</p>
+<p>
+<s>3 ) pension ;</s>
+</p>
+<p>
+<s>4 ) stipendium ;</s>
+</p>
+<p>
+<s>5 ) elatis ;</s>
+</p>
+<p>
+<s>6 ) riiklikud toetused , sealhulgas t&ouml;&ouml;tu abiraha ning lastetoetus ;</s>
+</p>
+<p>
+<s>7 ) &uuml;lalpidamine Eestis legaalse p&uuml;siva sissetulekuga perekonnaliikmelt .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Eesti keele oskuse n&otilde;uded ja hindamine</s>
+</p>
+<p>
+<s>( 1 ) Eesti keele oskus k&auml;esoleva seaduse m&otilde;istes on eesti &uuml;ldkeele igap&auml;evaeluks vajalik oskus .</s>
+</p>
+<p>
+<s>( 2 ) Eesti keele oskuse n&otilde;uded on j&auml;rgmised :</s>
+</p>
+<p>
+<s>1 ) kuuldu m&otilde;istmine ( ametlik avaldus ja teadaanne ; ohu- ja hoiatusteated , uudised , s&uuml;ndmuste kirjeldused ja n&auml;htuste seletused ) ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;nelemine ( vestlus ja jutustus ; k&uuml;simuste , seletuste , oletuste ja k&auml;skude esitamine ; arvamuse avaldamine ; soovide v&auml;ljendamine ) ;</s>
+</p>
+<p>
+<s>3 ) loetu m&otilde;istmine ( ametlik avaldus ja teadaanne ; avalik teade , uudis , n&auml;idisvorm , ajakirjanduslik artikkel , s&otilde;num , kataloog , kasutusjuhend , liiklusteave , k&uuml;sitlus , protokoll , eeskiri ) ;</s>
+</p>
+<p>
+<s>4 ) kirjutamine ( avalduse , volituse , seletuskirja , eluloo kirjutamine ; ankeedi , elukondliku blanketi , testi t&auml;itmine ) .</s>
+</p>
+<p>
+<s>( 3 ) Eesti keele oskust hinnatakse eksamil .</s><s>Eksami l&auml;biviimise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 4 ) Eksami sooritanud isikule antakse vastav tunnistus .</s>
+</p>
+<p>
+<s>( 5 ) Eksamit ei pea sooritama isik , kes on omandanud eesti keeles p&otilde;hi- , kesk- v&otilde;i k&otilde;rghariduse .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Eesti Vabariigi p&otilde;hiseaduse ja kodakondsuse seaduse tundmise n&otilde;uded ja hindamine</s>
+</p>
+<p>
+<s>( 1 ) Isik , kes soovib saada Eesti kodakondsust , peab tundma :</s>
+</p>
+<p>
+<s>1 ) Eesti riigikorra p&otilde;hialuseid , mis on s&auml;testatud Eesti Vabariigi p&otilde;hiseaduse I ja III peat&uuml;kis ;</s>
+</p>
+<p>
+<s>2 ) iga&uuml;he p&otilde;hi&otilde;igusi , vabadusi ja kohustusi , mis on s&auml;testatud Eesti Vabariigi p&otilde;hiseaduse II peat&uuml;kis ;</s>
+</p>
+<p>
+<s>3 ) Riigikogu , Vabariigi Presidendi , Vabariigi Valitsuse ja kohtu p&auml;devust vastavalt Eesti Vabariigi p&otilde;hiseadusele ;</s>
+</p>
+<p>
+<s>4 ) Eesti kodakondsuse omandamise , saamise , taastamise ja kaotamise tingimusi ning korda vastavalt kodakondsuse seadusele .</s>
+</p>
+<p>
+<s>( 2 ) Eesti Vabariigi p&otilde;hiseaduse ja kodakondsuse seaduse tundmist hinnatakse eksamil , mis toimub eesti keeles .</s><s>Eksami l&auml;biviimise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Eksami sooritanud isikule antakse vastav tunnistus .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Eesti kodakondsuse saamine eriliste teenete eest</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse Paragrahv 6 punktides 2-4 s&auml;testatud tingimused v&otilde;idakse j&auml;tta kohaldamata isiku puhul , kes viibib p&uuml;sivalt Eestis ja kellel on erilisi teeneid Eesti riigi ees .</s>
+</p>
+<p>
+<s>( 2 ) Erilisteks teeneteks loetakse saavutusi teaduse , kultuuri , spordi v&otilde;i muul alal , mis on t&otilde;stnud Eesti rahvusvahelist mainet .</s>
+</p>
+<p>
+<s>( 3 ) Eesti kodakondsus v&otilde;idakse eriliste teenete eest anda mitte rohkem kui k&uuml;mnele isikule aastas .</s>
+</p>
+<p>
+<s>( 18.10.95 j&otilde;ust .</s><s>20.11.95 - RT I 1995 , 83 , 1442 )</s>
+</p>
+<p>
+<s>( 4 ) Ettepaneku Eesti kodakondsuse andmiseks eriliste teenete eest v&otilde;ib teha Vabariigi Valitsuse liige .</s>
+</p>
+<p>
+<s>( 5 ) Eesti kodakondsuse andmist eriliste teenete eest peab Vabariigi Valitsus p&otilde;hjendama .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>P&uuml;sivalt Eestis viibimine</s>
+</p>
+<p>
+<s>P&uuml;sivalt Eestis viibimine k&auml;esoleva seaduse m&otilde;istes on seaduslik Eestis viibimine v&auml;hemalt 183 p&auml;eva aastas , kusjuures Eestist eemalviibimine ei v&otilde;i aastas &uuml;letada 90 p&auml;eva j&auml;rjest .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Eesti kodakondsuse saamiseks esitatavad dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Isik esitab Eesti kodakondsuse saamiseks omak&auml;eliselt eesti keeles kirjutatud sooviavalduse , milles on m&auml;rgitud :</s>
+</p>
+<p>
+<s>1 ) ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>2 ) andmed ees- ja perekonnanime muutmise kohta ;</s>
+</p>
+<p>
+<s>3 ) s&uuml;nniaeg ja -koht ;</s>
+</p>
+<p>
+<s>4 ) emakeel ;</s>
+</p>
+<p>
+<s>5 ) kodakondsus ;</s>
+</p>
+<p>
+<s>6 ) elukoht ;</s>
+</p>
+<p>
+<s>7 ) ustavusvanne vastavalt k&auml;esoleva seaduse paragrahv 6 punktile 7 ;</s>
+</p>
+<p>
+<s>8 ) allkiri .</s>
+</p>
+<p>
+<s>( 2 ) Isik esitab lisaks sooviavaldusele :</s>
+</p>
+<p>
+<s>1 ) kaks fotot ( 4x5 cm ) ;</s>
+</p>
+<p>
+<s>2 ) isikut ja kodakondsust t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>3 ) dokumendi , mis t&otilde;endab , et isik viibib Eestis vastavalt k&auml;esolevas seaduses s&auml;testatud tingimustele ;</s>
+</p>
+<p>
+<s>4 ) omak&auml;eliselt eesti keeles kirjutatud elulookirjelduse , milles on m&auml;rgitud taotleja teenistusk&auml;ik , Eestisse elama asumise aeg ja asjaolud , temaga koos saabunud isikud , taotleja perekonnaseis ja selle muudatused Eestis elamise ajal , k&otilde;ik senised elukohad Eestis , andmed l&auml;hedaste sugulaste kohta , samuti seosed v&auml;lisriikide s&otilde;jav&auml;e- , luure- ja julgeolekuorganisatsioonidega ; Eestis s&uuml;ndinul lisaks vanemate Eestisse elama asumise aeg ja asjaolud ;</s>
+</p>
+<p>
+<s>5 ) haridust ja teenistusk&auml;iku t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>6 ) t&otilde;endi legaalse p&uuml;siva sissetuleku kohta ;</s>
+</p>
+<p>
+<s>7 ) eesti keele oskuse tunnistuse vastavalt k&auml;esoleva seaduse paragrahvile 8 v&otilde;i eestikeelse p&otilde;hi- , kesk- v&otilde;i k&otilde;rghariduse omandamist t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>8 ) Eesti Vabariigi p&otilde;hiseaduse ja kodakondsuse seaduse tundmise tunnistuse vastavalt k&auml;esoleva seaduse paragrahvile 9 ;</s>
+</p>
+<p>
+<s>9 ) riigil&otilde;ivu tasumise kviitungi .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Alaealisena Eesti kodakondsuse saamise tingimused</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Alaealisena Eesti kodakondsuse saamine</s>
+</p>
+<p>
+<s>( 1 ) Alla 15-aastane alaealine saab Eesti kodakondsuse , kui seda taotlevad alaealisele tema vanemad , kes on Eesti kodakondsuses , v&otilde;i Eesti kodakondsuses olev vanem notariaalselt t&otilde;estatud kokkuleppel Eesti kodakondsuses mitteoleva vanemaga v&otilde;i alaealist &uuml;ksi kasvatav vanem v&otilde;i lapsendaja , kes on Eesti kodakondsuses .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>( 2 ) Alla 15-aastane alaealine , kellele vastavalt k&auml;esoleva paragrahvi 1. l&otilde;ikele taotletakse Eesti kodakondsust , peab viibima p&uuml;sivalt Eestis ning olema vabastatud senisest kodakondsusest v&otilde;i tunnistatud kodakondsuseta isikuks v&otilde;i peab olema t&otilde;endatud , et ta vabastatakse senisest kodakondsusest seoses Eesti kodakondsuse saamisega .</s>
+</p>
+<p>
+<s>( 3 ) Alla 15-aastane alaealine , kelle vanemad on surnud , tunnistatud teadmata kadunuks v&otilde;i teov&otilde;imetuks v&otilde;i kelle vanematelt on v&otilde;etud vanema &otilde;igused , saab Eesti kodakondsuse eestkosteasutuse v&otilde;i alaealise Eesti kodakondsuses oleva eestkostja taotlusel , kui alaealine viibib p&uuml;sivalt Eestis ning ei ole t&otilde;endatud , et ta on m&otilde;ne muu riigi kodakondsuses , v&otilde;i t&otilde;endatakse , et ta vabastatakse muu riigi kodakondsusest seoses Eesti kodakondsuse saamisega .</s>
+</p>
+<p>
+<s>( 4 ) Alla 15-aastane alaealine , kes on s&uuml;ndinud Eestis p&auml;rast 1992. aasta 26. veebruari , saab Eesti kodakondsuse naturalisatsiooni korras , kui :</s>
+</p>
+<p>
+<s>1 ) seda taotlevad temale vanemad , kes sooviavalduse esitamise hetkeks on elanud Eestis seaduslikult v&auml;hemalt viis aastat ja keda &uuml;kski riik ei pea kehtivate seaduste alusel oma kodanikuks ;</s>
+</p>
+<p>
+<s>2 ) seda taotleb temale teda &uuml;ksi kasvatav vanem v&otilde;i lapsendaja , kes sooviavalduse esitamise hetkeks on elanud Eestis seaduslikult v&auml;hemalt viis aastat ja keda &uuml;kski riik ei pea kehtivate seaduste alusel oma kodanikuks .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>( 5 ) Alla 15-aastane alaealine , kellele vastavalt k&auml;esoleva paragrahvi 4. l&otilde;ikele taotletakse Eesti kodakondsust , peab viibima p&uuml;sivalt Eestis ning &uuml;kski riik ei v&otilde;i olla pidanud teda kehtivate seaduste alusel oma kodanikuks .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi 4. l&otilde;ikes s&auml;testatud m&auml;&auml;ratlus isikutest , keda &uuml;kski riik ei pea kehtivate seaduste alusel oma kodanikuks , h&otilde;lmab ka isikuid , kes olid enne 1991. aasta 20. augustit NSV Liidu kodanikud ja keda &uuml;kski muu riik ei ole pidanud kehtivate seaduste alusel oma kodanikuks .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Alaealisena Eesti kodakondsuse saamine koos vanema v&otilde;i lapsendajaga</s>
+</p>
+<p>
+<s>Alla 15-aastane alaealine saab koos oma Eesti kodakondsust taotleva vanema v&otilde;i lapsendajaga Eesti kodakondsuse vanemate v&otilde;i alaealist &uuml;ksi kasvatava vanema v&otilde;i lapsendaja taotlusel , kui alaealine viibib p&uuml;sivalt Eestis ning on vabastatud senisest kodakondsusest v&otilde;i vabastatakse sellest seoses Eesti kodakondsuse saamisega v&otilde;i on tunnistatud kodakondsuseta isikuks .</s>
+</p>
+<p>
+<s>&sect; 14 <hi rend="sup">1</hi> .</s><s>Alaealist &uuml;ksi kasvatav vanem</s>
+</p>
+<p>
+<s>Alaealist &uuml;ksi kasvatavaks loetakse vanem , kui :</s>
+</p>
+<p>
+<s>1 ) lapse s&uuml;nniaktis puudub kanne teise vanema kohta v&otilde;i see on tehtud vanema &uuml;tluse alusel ;</s>
+</p>
+<p>
+<s>2 ) teiselt vanemalt on v&otilde;etud vanema &otilde;igused ;</s>
+</p>
+<p>
+<s>3 ) teine vanem on seadusega kehtestatud korras tunnistatud tagaotsitavaks ja ta on olnud tagaotsitav &uuml;he aasta jooksul ;</s>
+</p>
+<p>
+<s>4 ) teine vanem on tunnistatud teov&otilde;imetuks v&otilde;i teadmata kadunuks ;</s>
+</p>
+<p>
+<s>5 ) teine vanem on surnud ;</s>
+</p>
+<p>
+<s>6 ) vanemate abielu ei ole s&otilde;lmitud v&otilde;i j&auml;i laps abielu lahutamisel Eestis elava vanema juurde , kusjuures teine vanem ei ela Eestis ning on kaotanud kontakti lapse ja last kasvatava vanemaga .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Alaealisele kodakondsuse saamiseks esitatavad dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Alla 15-aastasele alaealisele k&auml;esoleva seaduse paragrahvis 13 v&otilde;i 14 s&auml;testatud juhtudel Eesti kodakondsuse saamiseks esitatud sooviavalduses peab olema m&auml;rgitud :</s>
+</p>
+<p>
+<s>1 ) alaealise ees- ja perekonnanimi , s&uuml;nniaeg ja -koht ;</s>
+</p>
+<p>
+<s>2 ) vanemate v&otilde;i lapsendaja v&otilde;i eestkostja ees- ja perekonnanimi , s&uuml;nniaeg ja -koht v&otilde;i eestkosteasutuse nimi ;</s>
+</p>
+<p>
+<s>3 ) alaealise ja tema vanemate v&otilde;i lapsendaja v&otilde;i eestkostja elukoht v&otilde;i eestkosteasutuse asukoht ;</s>
+</p>
+<p>
+<s>4 ) alaealise ja tema vanemate v&otilde;i lapsendaja v&otilde;i eestkostja kodakondsus ;</s>
+</p>
+<p>
+<s>5 ) alaealise vanemate v&otilde;i lapsendaja v&otilde;i eestkostja v&otilde;i eestkosteasutuse juhi kinnitus selle kohta , et alaealine ja alaealise vanemad v&otilde;i lapsendaja v&otilde;i eestkostja vastavad k&auml;esoleva seaduse paragrahvis 13 v&otilde;i 14 s&auml;testatud tingimustele ;</s>
+</p>
+<p>
+<s>6 ) alaealise vanemate v&otilde;i lapsendaja v&otilde;i eestkostja v&otilde;i eestkosteasutuse juhi allkiri .</s>
+</p>
+<p>
+<s>( 2 ) Sooviavaldusele lisatakse :</s>
+</p>
+<p>
+<s>1 ) alaealise kaks fotot ( 4x5 cm ) ;</s>
+</p>
+<p>
+<s>2 ) alaealise s&uuml;nnitunnistus v&otilde;i isikut ja kodakondsust t&otilde;endav dokument ;</s>
+</p>
+<p>
+<s>3 ) dokumendid , mis t&otilde;endavad , et alaealine vastab k&auml;esoleva seaduse paragrahvis 13 v&otilde;i 14 s&auml;testatud tingimustele ;</s>
+</p>
+<p>
+<s>4 ) dokumendid , mis t&otilde;endavad , et alaealise vanemad v&otilde;i lapsendaja v&otilde;i eestkostja vastavad k&auml;esoleva seaduse paragrahvis 13 v&otilde;i 14 s&auml;testatud tingimustele ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva seaduse paragrahv 13 1. l&otilde;ikes nimetatud juhul vanemate notariaalselt t&otilde;endatud kokkulepe .</s>
+</p>
+<p>
+<s>( 3 ) Alaealist &uuml;ksi kasvatav vanem esitab lisaks k&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatule dokumendi , mis t&otilde;endab k&auml;esoleva seaduse paragrahvis 14 <hi rend="sup">1</hi> s&auml;testatud fakti olemasolu .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eesti kodakondsuse taastamise tingimused</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Eesti kodakondsuse taastamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Iga&uuml;hel , kes on alaealisena kaotanud Eesti kodakondsuse , on &otilde;igus selle taastamisele .</s>
+</p>
+<p>
+<s>( 2 ) Eesti kodakondsust taastada sooviv isik peab viibima p&uuml;sivalt Eestis ning olema vabastatud senisest kodakondsusest v&otilde;i t&otilde;endama , et ta vabastatakse sellest seoses Eesti kodakondsuse taastamisega .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Eesti kodakondsuse taastamiseks esitatavad dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Eesti kodakondsust taastada sooviv isik esitab omak&auml;eliselt kirjutatud sooviavalduse , milles on m&auml;rgitud :</s>
+</p>
+<p>
+<s>1 ) ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>2 ) andmed ees- ja perekonnanime muutmise kohta ;</s>
+</p>
+<p>
+<s>3 ) s&uuml;nniaeg ja -koht ;</s>
+</p>
+<p>
+<s>4 ) kodakondsus ;</s>
+</p>
+<p>
+<s>5 ) elukoht ;</s>
+</p>
+<p>
+<s>6 ) ustavusvanne vastavalt k&auml;esoleva seaduse paragrahv 6 punktile 7 ;</s>
+</p>
+<p>
+<s>7 ) allkiri .</s>
+</p>
+<p>
+<s>( 2 ) Isik esitab lisaks sooviavaldusele :</s>
+</p>
+<p>
+<s>1 ) kaks fotot ( 4x5 cm ) ;</s>
+</p>
+<p>
+<s>2 ) isikut ja kodakondsust t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>3 ) dokumendi , mis t&otilde;endab isiku p&uuml;sivat viibimist Eestis ;</s>
+</p>
+<p>
+<s>4 ) Eesti kodakondsuse kaotamist t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>5 ) riigil&otilde;ivu tasumise kviitungi .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eesti kodakondsuse saamise ja taastamise kord</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Dokumentide esitamine</s>
+</p>
+<p>
+<s>( 1 ) Eesti kodakondsuse saamiseks v&otilde;i taastamiseks vajalikud dokumendid esitab isik Vabariigi Valitsuse poolt volitatud valitsusasutusele .</s>
+</p>
+<p>
+<s>( 2 ) Alla 15-aastase alaealise v&otilde;i t&auml;isealise teov&otilde;imetu isiku eest esitab k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud dokumendid ja sooritab k&auml;esolevas seaduses s&auml;testatud toimingud tema vanem , lapsendaja , Eesti kodakondsuses olev eestkostja v&otilde;i eestkosteasutus .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Eesti kodakondsuse saamiseks v&otilde;i taastamiseks esitatud dokumentide registreerimine ja menetlemine</s>
+</p>
+<p>
+<s>( 1 ) Sooviavaldus Eesti kodakondsuse saamiseks v&otilde;i taastamiseks registreeritakse ja v&otilde;etakse menetlusse Vabariigi Valitsuse poolt volitatud valitsusasutuses , kui isik esitab koos sooviavaldusega kodakondsuse saamiseks k&otilde;ik k&auml;esoleva seaduse paragrahvis 12 , alla 15-aastase alaealise puhul paragrahvis 15 ning kodakondsuse taastamiseks k&otilde;ik paragrahvis 17 loetletud dokumendid .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse poolt volitatud valitsusasutus v&auml;ljastab isikule tema sooviavalduse registreerimise ja menetlusse v&otilde;tmise kohta t&otilde;endi , mille vormi kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Eesti kodakondsust saada sooviv isik kinnitab kirjalikult Vabariigi Valitsuse poolt volitatud valitsusasutuses &uuml;he aasta m&ouml;&ouml;dumisel Eesti kodakondsuse saamise sooviavalduse registreerimise p&auml;evast , et ta j&auml;tkuvalt soovib saada Eesti kodakondsust ning vastab k&auml;esolevas seaduses s&auml;testatud tingimustele , ja esitab t&otilde;endi selle kohta , et ta on vabastatud senisest kodakondsusest v&otilde;i vabastatakse sellest seoses Eesti kodakondsuse saamisega v&otilde;i on tunnistatud kodakondsuseta isikuks .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>( 4 ) Kui Eesti kodakondsust saada sooviv isik on t&auml;itnud k&auml;esoleva paragrahvi 3. l&otilde;ikes s&auml;testatud tingimused &uuml;he kuu jooksul &uuml;heaastase t&auml;htaja l&otilde;ppemisest arvates , esitab Vabariigi Valitsuse poolt volitatud valitsusasutus kuue kuu jooksul isiku dokumendid koos omapoolse p&otilde;hjendatud ettepanekuga Vabariigi Valitsusele Eesti kodakondsuse andmise otsustamiseks .</s><s>Kui isik ei t&auml;ida k&auml;esoleva paragrahvi 3. l&otilde;ikes s&auml;testatud tingimusi k&auml;esolevas l&otilde;ikes s&auml;testatud t&auml;htajal , siis tema sooviavalduse menetlemine l&otilde;petatakse ning talle teatatakse sellest kirjalikult .</s>
+</p>
+<p>
+<s>( 4 <hi rend="sup">1</hi> ) Vabariigi Valitsuse poolt volitatud valitsusasutus esitab sooviavalduse alla 15-aastasele alaealisele Eesti kodakondsuse saamiseks koos p&otilde;hjendatud ettepanekuga Eesti kodakondsuse andmise otsustamiseks Vabariigi Valitsusele kuue kuu jooksul sooviavalduse registreerimisest arvates .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>( 5 ) Kui Eesti kodakondsust taastada sooviv isik esitab Vabariigi Valitsuse poolt volitatud valitsusasutusele &uuml;he aasta jooksul , arvates Eesti kodakondsuse taastamise sooviavalduse registreerimise p&auml;evast , t&otilde;endi selle kohta , et ta on vabastatud senisest kodakondsusest v&otilde;i vabastatakse sellest seoses Eesti kodakondsuse taastamisega v&otilde;i on tunnistatud kodakondsuseta isikuks , esitab Vabariigi Valitsuse volitatud valitsusasutus kuue kuu jooksul isiku dokumendid koos omapoolse p&otilde;hjendatud ettepanekuga Vabariigi Valitsusele Eesti kodakondsuse taastamise otsustamiseks .</s>
+</p>
+<p>
+<s>( 6 ) Kui Eesti kodakondsust taastada sooviv isik ei esita k&auml;esoleva paragrahvi 5. l&otilde;ikes nimetatud t&otilde;endit &uuml;he aasta jooksul Eesti kodakondsuse taastamise sooviavalduse registreerimise p&auml;evast arvates , siis tema sooviavalduse menetlemine l&otilde;petatakse ning talle teatatakse sellest kirjalikult .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Eesti kodakondsuse andmise v&otilde;i taastamise otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Eesti kodakondsuse andmise v&otilde;i taastamise otsustab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse Eesti kodakondsuse andmise v&otilde;i taastamise korraldus j&otilde;ustub allakirjutamise p&auml;eval , kui korralduses eneses ei s&auml;testata muud t&auml;htaega .</s>
+</p>
+<p>
+<s>( 3 ) Vastavalt Vabariigi Valitsuse korraldusele anda v&otilde;i taastada Eesti kodakondsus seda soovivale isikule , annab Vabariigi Valitsuse poolt volitatud valitsusasutus talle kodakondsustunnistuse .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Eesti kodakondsuse andmisest v&otilde;i taastamisest keeldumine</s>
+</p>
+<p>
+<s>( 1 ) Eesti kodakondsust ei anta ega taastata isikule , kes :</s>
+</p>
+<p>
+<s>1 ) on Eesti kodakondsuse v&otilde;i seda t&otilde;endava dokumendi taotlemisel valeandmete esitamisega varjanud asjaolusid , mis v&auml;listavad talle Eesti kodakondsuse andmise v&otilde;i taastamise v&otilde;i oleksid v&auml;listanud talle Eesti kodakondsust t&otilde;endava dokumendi v&auml;ljastamise ;</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>2 ) ei j&auml;rgi Eesti p&otilde;hiseaduslikku korda v&otilde;i ei t&auml;ida Eesti seadusi ;</s>
+</p>
+<p>
+<s>3 ) on tegutsenud Eesti riigi ja tema julgeoleku vastu ;</s>
+</p>
+<p>
+<s>4 ) on toime pannud kuriteo , mille eest talle on m&otilde;istetud vabadusekaotus kestusega &uuml;le &uuml;he aasta ja kelle karistatus ei ole kustunud v&otilde;i keda on kriminaalkorras korduvalt karistatud tahtlike kuritegude eest ;</s>
+</p>
+<p>
+<s>5 ) on t&ouml;&ouml;tanud v&otilde;i t&ouml;&ouml;tab v&auml;lisriigi luure- v&otilde;i julgeolekuteenistuses ;</s>
+</p>
+<p>
+<s>6 ) on teeninud kaadris&otilde;jav&auml;elasena v&auml;lisriigi relvaj&otilde;ududes , sealt reservi arvatud v&otilde;i erru l&auml;inud , samuti tema abikaasale , kes on saabunud Eestisse seoses s&otilde;jav&auml;elase l&auml;hetamisega teenistusse , reservi v&otilde;i erru .</s>
+</p>
+<p>
+<s>( 2 ) Eesti kodakondsus v&otilde;idakse anda v&otilde;i taastada v&auml;lisriigi relvaj&otilde;ududest erru l&auml;inud isikule , kes on olnud s&uuml;nniga Eesti kodakondsuse omandanud isikuga abielus v&auml;hemalt viis aastat ja see abielu ei ole lahutatud .</s>
+</p>
+<p>
+<s>( 3 ) Eesti kodakondsust ei anta isikule , kelle vanemad v&otilde;i lapsendaja v&otilde;i eestkostja v&otilde;i eestkosteasutus esitas talle Eesti kodakondsuse taotlemisel valeandmeid asjaolude kohta , mis omavad t&auml;htsust Eesti kodakondsuse andmise otsustamisel .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eesti kodakondsuse kaotamise tingimused ja kord</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Eesti kodakondsuse kaotamine</s>
+</p>
+<p>
+<s>Eesti kodakondsus kaob :</s>
+</p>
+<p>
+<s>1 ) Eesti kodakondsusest vabastamisega ;</s>
+</p>
+<p>
+<s>2 ) Eesti kodakondsuse &auml;rav&otilde;tmisega ;</s>
+</p>
+<p>
+<s>3 ) m&otilde;ne muu riigi kodakondsuse vastuv&otilde;tmisega .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Eesti kodakondsusest vabastamiseks esitatavad dokumendid</s>
+</p>
+<p>
+<s>Isik esitab Eesti kodakondsusest vabastamiseks :</s>
+</p>
+<p>
+<s>1 ) sooviavalduse , milles on m&auml;rgitud ees- ja perekonnanimi , s&uuml;nniaeg ja -koht , elukoht , taotletav kodakondsus ja allkiri ;</s>
+</p>
+<p>
+<s>2 ) isikut ja kodakondsust t&otilde;endavad dokumendid ;</s>
+</p>
+<p>
+<s>3 ) t&otilde;endi selle kohta , et ta on saanud m&otilde;ne muu riigi kodakondsuse v&otilde;i saab selle seoses Eesti kodakondsusest vabastamisega .</s>
+</p>
+<p>
+<s>4 ) riigil&otilde;ivu tasumise kviitungi .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Dokumentide esitamine</s>
+</p>
+<p>
+<s>( 1 ) Dokumendid Eesti kodakondsusest vabastamiseks esitatakse Vabariigi Valitsuse poolt volitatud valitsusasutusele v&otilde;i Eesti v&auml;lisesindusele , kui isik elab p&uuml;sivalt v&auml;lisriigis .</s>
+</p>
+<p>
+<s>( 2 ) Alla 15-aastase alaealise v&otilde;i t&auml;isealise teov&otilde;imetu isiku eest esitab k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud dokumendid tema vanem , lapsendaja , eestkostja v&otilde;i eestkosteasutus .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Eesti kodakondsusest vabastamiseks esitatud dokumentide registreerimine ja menetlemine</s>
+</p>
+<p>
+<s>( 1 ) Eesti kodakondsusest vabastamiseks esitatud dokumendid registreeritakse ja v&otilde;etakse menetlusse Vabariigi Valitsuse poolt volitatud valitsusasutuses .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsuse poolt volitatud valitsusasutus v&auml;ljastab isikule tema dokumentide registreerimise ja menetlusse v&otilde;tmise kohta t&otilde;endi , mille vormi kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsuse poolt volitatud valitsusasutus esitab isiku dokumendid &uuml;he aasta jooksul nende registreerimise p&auml;evast arvates Vabariigi Valitsusele Eesti kodakondsusest vabastamise otsustamiseks .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Piirangud Eesti kodakondsusest vabastamisel</s>
+</p>
+<p>
+<s>Isikut v&otilde;idakse Eesti kodakondsusest mitte vabastada , kui :</s>
+</p>
+<p>
+<s>1 ) tagaj&auml;rjeks on kodakondsusetus ;</s>
+</p>
+<p>
+<s>2 ) isikul on t&auml;itmata kohustused Eesti riigi ees ;</s>
+</p>
+<p>
+<s>3 ) isik on Eesti kaitsej&otilde;udude tegevteenistuses .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Eesti kodakondsusest vabastamise otsustamine</s>
+</p>
+<p>
+<s>Eesti kodakondsusest vabastamise otsustab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Eesti kodakondsuse &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Eesti kodakondsus v&otilde;etakse &auml;ra Vabariigi Valitsuse korraldusega isikult , kes on :</s>
+</p>
+<p>
+<s>1 ) astunud Eesti kodanikuna v&auml;lisriigi riigi- v&otilde;i s&otilde;jav&auml;eteenistusse Vabariigi Valitsuse loata ;</s>
+</p>
+<p>
+<s>2 ) astunud v&auml;lisriigi luure- v&otilde;i julgeolekuteenistusse v&otilde;i relvi valdavasse ja s&otilde;jav&auml;eliselt korraldatud v&otilde;i s&otilde;jalisi harjutusi harrastavasse v&auml;lisriigi organisatsiooni ;</s>
+</p>
+<p>
+<s>3 ) p&uuml;&uuml;dnud v&auml;givaldsel teel muuta Eesti p&otilde;hiseaduslikku korda ;</s>
+</p>
+<p>
+<s>4 ) Eesti kodakondsuse saamisel v&otilde;i taastamisel varjanud valeandmete esitamisega asjaolusid , mis oleksid v&auml;listanud talle Eesti kodakondsuse andmise v&otilde;i taastamise ;</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>5 ) m&otilde;ne muu riigi kodakondsuses , kuid ei ole vabastatud Eesti kodakondsusest .</s>
+</p>
+<p>
+<s>( 2 ) Kelleltki ei tohi veendumuste p&auml;rast v&otilde;tta Eesti kodakondsust .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ige ei laiene isikutele , kes on omandanud Eesti kodakondsuse s&uuml;nniga .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Eesti kodakondsuse kaotamine m&otilde;ne muu riigi kodakondsuse vastuv&otilde;tmise v&otilde;i Eesti kodakondsusest loobumisega</s>
+</p>
+<p>
+<s>Isik loetakse Vabariigi Valitsuse volitatud valitsusasutuse poolt Eesti kodakondsuse kaotanuks m&otilde;ne muu riigi kodakondsuse vastuv&otilde;tmise v&otilde;i Eesti kodakondsusest loobumisega m&otilde;ne muu riigi kodakondsuse kasuks .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Eesti kodakondsust t&otilde;endavate dokumentide tagastamine</s>
+</p>
+<p>
+<s>Isik , kes on kaotanud Eesti kodakondsuse , tagastab Eesti kodakondsust t&otilde;endavad dokumendid Vabariigi Valitsuse poolt volitatud valitsusasutusele .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>N&otilde;usolek alaealisele Eesti kodakondsuse andmiseks , taastamiseks v&otilde;i tema Eesti kodakondsusest vabastamiseks</s>
+</p>
+<p>
+<s>15-18-aastasele alaealisele Eesti kodakondsuse andmiseks , taastamiseks v&otilde;i tema Eesti kodakondsusest vabastamiseks peab olema tema vanema , lapsendaja , eestkostja v&otilde;i eestkosteasutuse n&otilde;usolek .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Eesti kodakondsuse saamine enne k&auml;esoleva seaduse j&otilde;ustumist kehtinud korras</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lismaalane , kes esitas n&otilde;utavad dokumendid Eesti kodakondsuse saamiseks enne k&auml;esoleva seaduse j&otilde;ustumist kehtinud korras , saab Eesti kodakondsuse dokumentide menetlusse v&otilde;tmisel kehtinud tingimustel ja korras .</s>
+</p>
+<p>
+<s>( 2 ) Enne k&auml;esoleva seaduse j&otilde;ustumist alusetult Eesti kodaniku passi saanud isiku avaldus Eesti kodaniku passi saamiseks loetakse Eesti kodakondsuse saamise sooviavalduseks varem kehtinud kodakondsuse seaduse paragrahv 6 v&otilde;i paragrahv 7 punkti 1 alusel , kui ta esitab Vabariigi Valitsuse kehtestatud korras kirjaliku taotluse ja varem kehtinud seaduse paragrahvis 6 v&otilde;i paragrahvis 7 punktis 1 s&auml;testatud n&otilde;uete t&auml;itmist t&otilde;endavad dokumendid , kusjuures eesti keele tundmist hinnatakse k&auml;esoleva seaduse paragrahvis 8 kehtestatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;iget rakendatakse ka isiku suhtes , keda p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist on alusetult loetud Eesti kodanikuks 1. l&otilde;ikes nimetatud isiku j&auml;rgi .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esolevas paragrahvis nimetatud isikule ei anta Eesti kodakondsust , kui tema suhtes tuvastatakse k&auml;esoleva seaduse paragrahv 21 1. l&otilde;ikes nimetatud asjaolu .</s>
+</p>
+<p>
+<s>( 08.12.1998 j&otilde;ust .</s><s>12.07.1999 - RT I 1998 , 111 , 1827 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Dokumentide vastuv&otilde;tmise eritingimused ja aja arvestamine</s>
+</p>
+<p>
+<s>Enne 1990. aasta 1. juulit Eestisse asunud isiku suhtes , kes taotleb Eesti kodakondsust , ei rakendata k&auml;esoleva seaduse paragrahv 6 punktis 2 s&auml;testatud alalise elamisloa alusel elamise n&otilde;uet , kui ta viibib p&uuml;sivalt Eestis v&auml;lismaalaste seaduses ( RT I 1993 , 44 , 637 ; 1994 , 41 , 658 ; 1995 , 57 , 981 ; 1997 , 19 , 306 ; 53 , 857 ; 73 , 1202 ; 1998 , 98/99 , 1575 ) s&auml;testatud tingimustel .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Eesti keele oskuse erin&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Enne 1930. aasta 1. jaanuari s&uuml;ndinud Eesti kodakondsust taotlev isik on keeleeksamil vabastatud k&auml;esoleva seaduse paragrahv 8 2. l&otilde;ike punktis 4 s&auml;testatud n&otilde;uetest .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 14.06.2000 j&otilde;ust .</s><s>10.07.2000 - RT I 2000 , 51 , 323 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 14.06.2000 j&otilde;ust .</s><s>10.07.2000 - RT I 2000 , 51 , 323 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 14.06.2000 j&otilde;ust .</s><s>10.07.2000 - RT I 2000 , 51 , 323 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Eesti kodakondsuse saamise eritingimused</s>
+</p>
+<p>
+<s>( 1 ) T&auml;isealine teov&otilde;imetu Eesti kodakondsust taotlev isik on vabastatud k&auml;esoleva seaduse &sect; 6 punktides 3-7 s&auml;testatud tingimuste t&auml;itmisest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 6 punktides 3 ja 4 s&auml;testatud tingimuste t&auml;itmisest on vabastatud :</s>
+</p>
+<p>
+<s>1 ) raske v&otilde;i s&uuml;gava puudega isik , kes tervisliku seisundi t&otilde;ttu pole v&otilde;imeline neid n&otilde;udeid t&auml;itma ;</s>
+</p>
+<p>
+<s>2 ) keskmise puudega isik , kes n&auml;gemis- , kuulmis- v&otilde;i k&otilde;nepuude t&otilde;ttu pole v&otilde;imeline neid n&otilde;udeid t&auml;itma .</s>
+</p>
+<p>
+<s>( 3 ) T&auml;isealisele teov&otilde;imetule isikule Eesti kodakondsuse taotlemisel kirjutab k&auml;esoleva seaduse &sect; 12 1. l&otilde;ikes nimetatud sooviavalduse ja 2. l&otilde;ike punktis 4 nimetatud elulookirjelduse tema seaduslik esindaja ning &sect; 12 2. l&otilde;ike punktides 6-8 nimetatud dokumentide asemel esitatakse kohtuotsus isiku teov&otilde;imetuks tunnistamise ja seadusliku esindaja m&auml;&auml;ramise kohta .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud raske , s&uuml;gava v&otilde;i keskmise puudega isik esitab k&auml;esoleva seaduse &sect; 12 2. l&otilde;ike punktides 7 ja 8 nimetatud dokumentide asemel riikliku pensionikindlustuse seaduse ( RT I 1998 , 64/65 , 1009 ; 2000 , 36 , 226 ) alusel m&auml;&auml;ratud korras tehtud arstliku ekspertiisi otsuse raske , s&uuml;gava v&otilde;i keskmise puude olemasolu kohta ja raviarsti teatise , mis kinnitab v&otilde;imetust t&auml;ita k&auml;esoleva seaduse &sect; 6 punktides 3 ja 4 s&auml;testatud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud raske , s&uuml;gava v&otilde;i keskmise puudega isiku eest v&otilde;ib k&auml;esoleva seaduse &sect; 12 1. l&otilde;ikes nimetatud sooviavalduse ja 2. l&otilde;ike punktis 4 nimetatud elulookirjelduse kirjutada ja dokumendid esitada tema notariaalselt volitatud esindaja .</s>
+</p>
+<p>
+<s>( 14.06.2000 j&otilde;ust .</s><s>10.07.2000 - RT I 2000 , 51 , 323 )</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Halduskohtusse p&ouml;&ouml;rdumise &otilde;igus</s>
+</p>
+<p>
+<s>Kui isik leiab , et Vabariigi Valitsuse v&otilde;i Vabariigi Valitsuse poolt volitatud valitsusasutuse v&otilde;i selle ametniku &otilde;igusakti v&otilde;i toiminguga on rikutud tema k&auml;esolevas seaduses s&auml;testatud &otilde;igusi v&otilde;i piiratud tema vabadusi , v&otilde;ib ta p&ouml;&ouml;rduda kaebusega halduskohtusse halduskohtumenetluse seadustikus ( RT I 1993 , 50 , 694 ; 1994 , 16 , 290 ; 28 , 425 ; 1995 , 29 , 358 ja 359 ; 1996 , 37 , 739 ; 1997 , 16 , 260 ; 30 , 472 ; 87 , 1468 ; 95/96 , 1575 ; 93 , 1557 ; 1998 , 17 , 265 ; 61 , 981 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Varasemate &otilde;igusaktide kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tunnistatakse kehtetuks :</s>
+</p>
+<p>
+<s>1 ) kodakondsuse seadus ( RT 1938 , 39 , 357 ; 43 , 404 ja 405 XVI ) ;</s>
+</p>
+<p>
+<s>2 ) kodakondsuse seaduse muutmise seadus ( RT 1939 , 114 , 882 ) ;</s>
+</p>
+<p>
+<s>3 ) Eesti Vabariigi &Uuml;lemn&otilde;ukogu otsus &ldquo; Kodakondsuse seaduse rakendamise kohta &rdquo; ( RT 1992 , 7 , 109 ) ;</s>
+</p>
+<p>
+<s>4 ) kodakondsuse taotlejale esitatavate eesti keele tundmise n&otilde;uete seadus ( RT 1993 , 11 , 171 ) ;</s>
+</p>
+<p>
+<s>5 ) Eesti Vabariigi &Uuml;lemn&otilde;ukogu otsuse &ldquo; Kodakondsuse seaduse rakendamise kohta &rdquo; muutmise seadus ( RT 1993 , 13 , 204 ) ;</s>
+</p>
+<p>
+<s>6 ) kodakondsuse seaduse muutmise seadus ( RT 1993 , 17 , 272 ) ;</s>
+</p>
+<p>
+<s>7 ) kodakondsust k&auml;sitlevate &otilde;igusaktide osalise muutmise ja kehtetuks tunnistamise seadus ( RT I 1994 , 88 , 1491 ) .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1995. aasta 1. aprillil .</s>
+</p>
+</body>
+   </text>
+</tei.2>

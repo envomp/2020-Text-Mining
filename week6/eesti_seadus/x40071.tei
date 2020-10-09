@@ -1,0 +1,2028 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Haldusmenetluse seadus ( okt 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   10029</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Haldusmenetluse seadus ( okt 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=641></tagusage>
+         <tagusage gi=s occurs=822></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Haldusmenetluse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 6. juunil 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 58 , 354 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2002. a.</s>
+</p>
+<p>
+<s>1. osa</s>
+</p>
+<p>
+<s>&Uuml;ldosa</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Haldusmenetlus</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>K&auml;esolev seadus on suunatud isiku &otilde;iguste kaitse tagamisele &uuml;htlase , isiku osalust ja kohtulikku kontrolli v&otilde;imaldava haldusmenetluse korra loomise teel .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Haldusmenetluse m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetlus on haldusorgani ( &sect; 8 ) tegevus m&auml;&auml;ruse ( &sect; 88 ) v&otilde;i haldusakti ( &sect;-d 51 ja 52 ) andmisel , toimingu ( &sect; 106 ) sooritamisel v&otilde;i halduslepingu ( &sect; 95 ) s&otilde;lmimisel .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;&auml;rteomenetlus ja s&uuml;&uuml;tegude kohtueelne uurimine ei ole haldusmenetlus k&auml;esoleva seaduse t&auml;henduses .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Haldusmenetluse p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>&Otilde;iguste kaitse</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetluses v&otilde;ib piirata isiku p&otilde;hi&otilde;igusi ja -vabadusi ning tema muid subjektiivseid &otilde;igusi ainult seaduse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Halduse &otilde;igusakt ja toiming peab olema kohane , vajalik ning proportsionaalne seatud eesm&auml;rgi suhtes .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Kaalutlus&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Kaalutlus&otilde;igus ( diskretsioon ) on haldusorganile seadusega antud volitus kaaluda otsustuse tegemist v&otilde;i valida erinevate otsustuste vahel .</s>
+</p>
+<p>
+<s>( 2 ) Kaalutlus&otilde;igust tuleb teostada koosk&otilde;las volituse piiride , kaalutlus&otilde;iguse eesm&auml;rgi ning &otilde;iguse &uuml;ldp&otilde;him&otilde;tetega , arvestades olulisi asjaolusid ning kaaludes p&otilde;hjendatud huve .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Vormivabadus ja eesm&auml;rgip&auml;rasus</s>
+</p>
+<p>
+<s>( 1 ) Menetlustoimingu vormi ja muud haldusmenetluse &uuml;ksikasjad m&auml;&auml;rab haldusorgan kaalutlus&otilde;iguse alusel , kui seaduse v&otilde;i m&auml;&auml;rusega ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Haldusmenetlus viiakse l&auml;bi eesm&auml;rgip&auml;raselt ja efektiivselt , samuti v&otilde;imalikult lihtsalt ja kiirelt , v&auml;ltides &uuml;leliigseid kulutusi ja ebameeldivusi isikutele .</s>
+</p>
+<p>
+<s>( 3 ) Menetlustoimingute sooritamise eest v&otilde;ib haldusorgan tasu v&otilde;tta &uuml;ksnes seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 4 ) Menetlustoimingud viiakse l&auml;bi viivituseta , kuid mitte hiljem kui seaduses s&auml;testatud t&auml;htaja jooksul .</s>
+</p>
+<p>
+<s>( 5 ) Kui haldusmenetlust reguleerivad &otilde;igusnormid muutuvad menetluse ajal , kohaldatakse menetluse alguses kehtinud &otilde;igusnorme .</s>
+</p>
+<p>
+<s>( 6 ) Elektrooniline asjaajamine on haldusmenetluses v&otilde;rdsustatud kirjaliku asjaajamisega .</s><s>Digitaalallkirja kasutatakse haldusmenetluses digitaalallkirja seaduses ( RT I 2000 , 26 , 150 ; 92 , 597 ) ja teistes &otilde;igusaktides s&auml;testatud korras .</s><s>&Otilde;igusakti v&otilde;i volikirja v&otilde;ib anda elektroonilises vormis seaduses v&otilde;i m&auml;&auml;ruses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Uurimisp&otilde;him&otilde;te</s>
+</p>
+<p>
+<s>Haldusorgan on kohustatud v&auml;lja selgitama menetletavas asjas olulise t&auml;hendusega asjaolud ja vajaduse korral koguma selleks t&otilde;endeid oma algatusel .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Avalikkus ja andmekaitse</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetlus on avalik .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan hoolitseb haldusmenetlust k&auml;sitleva olulise teabe ( dokumentide esitamise juhendid , n&auml;idisvormide t&auml;itmise juhendid , blanketid , k&auml;esoleva seaduse &sect;-s 36 s&auml;testatud selgitused jms ) v&auml;ljapaneku eest oma asukohas ning avaldab selle teabe oma ametlikul veebilehel , kui see on haldusorganil olemas .</s>
+</p>
+<p>
+<s>( 3 ) Haldusorgan on kohustatud hoidma riigi- ja &auml;risaladust ning hoidma saladuses asutusesiseseks kasutamiseks tunnistatud andmed , sealhulgas eraelulised isikuandmed .</s>
+</p>
+<p>
+<s>( 4 ) Haldusmenetluses tuleb j&auml;rgida isikuandmete t&ouml;&ouml;tlemise korda vastavalt isikuandmete kaitse seadusele ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ; 2000 , 50 , 317 ; 92 , 597 ; 104 , 685 ) .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Haldusorgan</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Haldusorgan</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan on seadusega , selle alusel antud m&auml;&auml;rusega v&otilde;i halduslepinguga avaliku halduse &uuml;lesandeid t&auml;itma volitatud asutus , kogu v&otilde;i isik .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorganisiseselt m&auml;&auml;ratakse isikud , kes tegutsevad haldusmenetluses haldusorgani nimel , kui seaduses v&otilde;i m&auml;&auml;ruses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Asja alluvuse m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Kui sama haldusmenetluse asi on mitme haldusorgani p&auml;devuses , viib :</s>
+</p>
+<p>
+<s>1 ) haldusorganile taotluse esitamisega algava haldusmenetluse l&auml;bi haldusorgan , kellele on esimesena esitatud taotlus haldusmenetluse algatamiseks ;</s>
+</p>
+<p>
+<s>2 ) haldusorgani initsiatiivil algava haldusmenetluse l&auml;bi haldusorgan , kes on esimesena saanud teada asjaoludest , mis on tinginud v&otilde;i tingivad haldusmenetluse algatamise .</s>
+</p>
+<p>
+<s>( 2 ) Asja alluvuse m&auml;&auml;ratlemisel erinevate t&ouml;&ouml;piirkondadega haldusorganite vahel viib haldusmenetluse seoses :</s>
+</p>
+<p>
+<s>1 ) isikuga v&otilde;i tema vallasvaraga l&auml;bi haldusorgan , kelle t&ouml;&ouml;piirkonnas on v&otilde;i viimati oli isiku elu- v&otilde;i asukoht ;</s>
+</p>
+<p>
+<s>2 ) kinnisvaraga l&auml;bi haldusorgan , kelle t&ouml;&ouml;piirkonnas vara asub .</s>
+</p>
+<p>
+<s>( 3 ) Haldusorgani p&auml;devuse muutumisel peab asja menetlusse v&otilde;tnud haldusorgan viima menetluse l&otilde;pule .</s><s>Kui haldusorgani tegevus l&otilde;petatakse , l&auml;heb asja lahendamine &uuml;le p&auml;devale haldusorganile .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Taandamine</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgani nimel tegutsev isik ei v&otilde;i haldusmenetlusest osa v&otilde;tta , kui :</s>
+</p>
+<p>
+<s>1 ) ta on asjas menetlusosaline v&otilde;i menetlusosalise esindaja ;</s>
+</p>
+<p>
+<s>2 ) ta on asjas menetlusosalise v&otilde;i menetlusosalise esindaja sugulane ( vanem , laps , lapsendaja , lapsendatu , vend , &otilde;de , vanavanem , lapselaps ) , abikaasa , h&otilde;imlane ( abikaasa vanem , laps , lapsendaja , lapsendatu , vend , &otilde;de , vanavanem , lapselaps ) v&otilde;i perekonnaliige ;</s>
+</p>
+<p>
+<s>3 ) ta on menetlusosalisest v&otilde;i selle esindajast t&ouml;&ouml;alases , teenistuslikus v&otilde;i muus s&otilde;ltuvuses ;</s>
+</p>
+<p>
+<s>4 ) ta on muul viisil isiklikult huvitatud asja lahendist v&otilde;i kui muud asjaolud tekitavad kahtlust tema erapooletuses .</s>
+</p>
+<p>
+<s>( 2 ) Perekonnaliige k&auml;esoleva seaduse t&auml;henduses on isik , kes elab menetlusosalisega koos ja neil on &uuml;hine majapidamine .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1-3 nimetatud menetlusosalisena ei k&auml;sitata haldusorganit , kes peab esitama menetlevale haldusorganile arvamuse v&otilde;i koosk&otilde;lastuse haldusakti andmiseks , halduslepingu s&otilde;lmimiseks v&otilde;i toimingu sooritamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Kui ilmnevad k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud asjaolud v&otilde;i kui menetlusosaline on k&auml;esoleva paragrahvi l&otilde;ikes 1 loetletud alustel esitanud ametiisiku taandamise taotluse , on ametiisik kohustatud sellest teatama tema ametisse nimetamise v&otilde;i valimise &otilde;igusega ametiisikule .</s><s>Nimetatud isik peab otsustama taanduse esitamisest kolme t&ouml;&ouml;p&auml;eva jooksul taandamise vajalikkuse .</s>
+</p>
+<p>
+<s>( 5 ) Isikut ei taandata , kui teda ei ole v&otilde;imalik asendada .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esolevat paragrahvi ei rakendata Vabariigi Valitsuse ning kohaliku omavalitsuse volikogu ja valitsuse liikmete suhtes .</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>Menetlusosaline</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Menetlusosalised</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetluses on menetlusosalised :</s>
+</p>
+<p>
+<s>1 ) haldusakti andmist v&otilde;i toimingu sooritamist taotlev v&otilde;i halduslepingu s&otilde;lmimiseks ettepaneku teinud isik ( taotleja ) ;</s>
+</p>
+<p>
+<s>2 ) isik , kellele haldusakt v&otilde;i toiming on suunatud v&otilde;i kellele haldusorgan on teinud ettepaneku halduslepingu s&otilde;lmimiseks ( adressaat ) ;</s>
+</p>
+<p>
+<s>3 ) isik , kelle &otilde;igusi v&otilde;i kohustusi haldusakt , haldusleping v&otilde;i toiming v&otilde;ib puudutada ( kolmas isik ) ;</s>
+</p>
+<p>
+<s>4 ) haldusorgan , kes peab seaduse v&otilde;i m&auml;&auml;ruse kohaselt esitama menetlevale haldusorganile arvamuse v&otilde;i koosk&otilde;lastuse &otilde;igusakti andmiseks v&otilde;i toimingu sooritamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan v&otilde;ib menetlusosalisena kaasata muid isikuid ja organeid , kelle huve haldusakt , haldusleping v&otilde;i toiming v&otilde;ib puudutada .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>&Otilde;igus- ja teov&otilde;ime haldusmenetluses</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetluses kohaldatakse &otilde;igus- ja teov&otilde;imele tsiviilseadustiku &uuml;ldosa seaduse ( RT I 1994 , 53 , 889 ; 65 , &otilde;iend ; 89 , 1516 ; 1995 , 26-28 , 355 ; 49 , 749 ; 87 , 1540 ; 1996 , 40 , 773 ; 42 , 811 ; 1998 , 30 , 409 ; 59 , 941 ; 1999 , 10 , 155 ) s&auml;tteid .</s>
+</p>
+<p>
+<s>( 2 ) Alaealine ja piiratud teov&otilde;imega v&otilde;i teov&otilde;imetuks tunnistatud isik ei v&otilde;i haldusmenetluses iseseisvalt menetlustoiminguid teha , kui seadusega ei ole ette n&auml;htud teisiti .</s><s>Seadusliku esinduse haldusmenetluses tagab haldusorgan .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Esindus ja volitus haldusmenetluses</s>
+</p>
+<p>
+<s>( 1 ) Menetlusosalisel on &otilde;igus kasutada haldusmenetluses esindajat .</s><s>Esindaja v&otilde;ib esindada menetlusosalist k&otilde;igis menetlustoimingutes , mida seadusest tulenevalt ei pea menetlusosaline tegema isiklikult .</s>
+</p>
+<p>
+<s>( 2 ) Esindaja t&otilde;endab haldusmenetluses oma volitust lihtkirjaliku volikirjaga .</s>
+</p>
+<p>
+<s>( 3 ) Haldusmenetluses kohaldatakse esindusele tsiviilseadustiku &uuml;ldosa seaduse s&auml;tteid .</s>
+</p>
+<p>
+<s>5. jagu</s>
+</p>
+<p>
+<s>Asjaajamine haldusmenetluses</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Taotlus</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetluse algatamiseks v&otilde;i haldusmenetluse k&auml;igus esitatakse haldusorganile avaldus ( taotlus ) vabas vormis .</s><s>Seadusega v&otilde;i selle alusel v&otilde;ib taotlusele ette n&auml;ha kohustusliku vormi .</s><s>Isik on kohustatud taotluse esitamiseks ilmuma haldusorgani asukohta &uuml;ksnes seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Suulise taotluse protokollib haldusorgan .</s>
+</p>
+<p>
+<s>( 3 ) Kirjalik taotlus peab sisaldama :</s>
+</p>
+<p>
+<s>1 ) esitaja nime ;</s>
+</p>
+<p>
+<s>2 ) taotluse selgelt s&otilde;nastatud sisu ;</s>
+</p>
+<p>
+<s>3 ) taotluse esitamise kuup&auml;eva ja taotleja allkirja ;</s>
+</p>
+<p>
+<s>4 ) haldusakti v&otilde;i muu dokumendi k&auml;ttetoimetamise soovitavat viisi ning selleks vajalikke kontaktandmeid ;</s>
+</p>
+<p>
+<s>5 ) muid &otilde;igusaktidega etten&auml;htud andmeid .</s>
+</p>
+<p>
+<s>( 4 ) Elektrooniliselt edastatud taotlusele lisatakse digitaalallkiri .</s>
+</p>
+<p>
+<s>( 5 ) Taotluse esitamise t&auml;htaeg kehtestatakse seadusega v&otilde;i selle alusel .</s>
+</p>
+<p>
+<s>( 6 ) Haldusorgan tagastab taotluse l&auml;bi vaatamata :</s>
+</p>
+<p>
+<s>1 ) kui taotluse esitamise t&auml;htaeg on m&ouml;&ouml;dunud ja seda ei ennistata ;</s>
+</p>
+<p>
+<s>2 ) teistel seadusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 7 ) Taotluse l&auml;bi vaatamata j&auml;tmisest teavitatakse taotlejat .</s><s>Haldusakti andmise taotluse l&auml;bi vaatamata j&auml;tmist peab kirjalikult p&otilde;hjendama .</s>
+</p>
+<p>
+<s>( 8 ) Taotleja v&otilde;ib enne haldusmenetluse l&otilde;ppemist oma taotluse igal ajal tagasi v&otilde;tta .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Puudused taotluses</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan on kohustatud talle esitatud taotluse vastu v&otilde;tma , s&otilde;ltumata selle puudustest , kui seadusega ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Kui isik j&auml;tab koos taotlusega esitamata n&otilde;utud andmed v&otilde;i dokumendid v&otilde;i kui taotluses on muid puudusi , m&auml;&auml;rab haldusorgan taotluse esitajale esimesel v&otilde;imalusel t&auml;htaja puuduste k&otilde;rvaldamiseks , selgitades , et t&auml;htp&auml;evaks puuduste k&otilde;rvaldamata j&auml;tmisel v&otilde;ib haldusorgan j&auml;tta taotluse l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 3 ) Kui puudus k&otilde;rvaldatakse m&auml;&auml;ratud t&auml;htaja jooksul , loetakse taotlus &otilde;igeaegselt esitatuks .</s><s>Kui puudust ei k&otilde;rvaldata t&auml;htaegselt , v&otilde;ib haldusorgan j&auml;tta taotluse l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 4 ) Kui taotluse lahendamine ei kuulu haldusorgani p&auml;devusse , j&auml;tab haldusorgan taotluse l&auml;bi vaatamata , selgitades , millise haldusorgani p&auml;devusse asi kuulub , v&otilde;i edastab taotluse p&auml;devale haldusorganile , teatades sellest taotlejale .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Koosk&otilde;lastus ja arvamus</s>
+</p>
+<p>
+<s>( 1 ) Kui taotluse lahendamiseks on vaja teise haldusorgani koosk&otilde;lastust v&otilde;i arvamust ja seda ei ole antud , edastab haldusorgan taotluse koopia koos dokumentidega teisele haldusorganile , n&auml;idates &auml;ra t&auml;htaja , mille jooksul tuleb teha otsus koosk&otilde;lastuse andmise kohta v&otilde;i esitada arvamus .</s><s>Taotleja v&otilde;ib ise korraldada koosk&otilde;lastuse v&otilde;i arvamuse saamise , kui see on menetluse kiiruse ja &ouml;konoomia huvides vajalik .</s>
+</p>
+<p>
+<s>( 2 ) Kui teine haldusorgan ei ole koosk&otilde;lastamisest m&auml;&auml;ratud t&auml;htajaks keeldunud ega t&auml;htaega pikendanud , loetakse koosk&otilde;lastus antuks .</s><s>Kui teine haldusorgan ei ole arvamust m&auml;&auml;ratud t&auml;htajaks andnud ega t&auml;htaega pikendanud , v&otilde;ib taotluse lahendada teise haldusorgani arvamuseta .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kutse</s>
+</p>
+<p>
+<s>( 1 ) Haldusorganil on &otilde;igus kutsuda isik v&auml;lja menetlusosalise , tunnistaja , eksperdi v&otilde;i t&otilde;lgina .</s>
+</p>
+<p>
+<s>( 2 ) Kutse on kirjalik ja selles peavad olema m&auml;rgitud :</s>
+</p>
+<p>
+<s>1 ) haldusorgani nimetus ;</s>
+</p>
+<p>
+<s>2 ) kutsutava isiku nimi ;</s>
+</p>
+<p>
+<s>3 ) ilmumise koht ja aeg ;</s>
+</p>
+<p>
+<s>4 ) selgitus , mis asjas , kellena ja millise eesm&auml;rgiga isik v&auml;lja kutsutakse ;</s>
+</p>
+<p>
+<s>5 ) ilmumata j&auml;&auml;mise tagaj&auml;rjed .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Protokoll</s>
+</p>
+<p>
+<s>( 1 ) Menetlustoiming protokollitakse , kui :</s>
+</p>
+<p>
+<s>1 ) menetlusosaline esitab selleks p&otilde;hjendatud taotluse ;</s>
+</p>
+<p>
+<s>2 ) seda peab vajalikuks asja menetlev haldusorgan ;</s>
+</p>
+<p>
+<s>3 ) toimingu sisu on &uuml;tluse , arvamuse v&otilde;i seletuse andmine haldusorganile ;</s>
+</p>
+<p>
+<s>4 ) protokollimise kohustus tuleneb seadusest v&otilde;i m&auml;&auml;rusest .</s>
+</p>
+<p>
+<s>( 2 ) Protokoll peab sisaldama :</s>
+</p>
+<p>
+<s>1 ) menetlustoimingu teostamise aega ja kohta ;</s>
+</p>
+<p>
+<s>2 ) menetlustoimingut l&auml;biviiva haldusorgani nime ning kohalviibivate menetlusosaliste , t&otilde;lkide , ekspertide ja tunnistajate nimesid ;</s>
+</p>
+<p>
+<s>3 ) menetlustoimingu eesm&auml;rki ;</s>
+</p>
+<p>
+<s>4 ) menetlustoimingu k&auml;igus esitatud taotlusi ;</s>
+</p>
+<p>
+<s>5 ) menetlusosalise seletuste , eksperdi v&otilde;i tunnistaja &uuml;tluste sisu v&otilde;i paikvaatluse tulemust .</s>
+</p>
+<p>
+<s>( 3 ) Protokollile kirjutab alla selle koostanud isik .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Haldusmenetluses t&auml;htsust omavate dokumentide s&auml;ilitamine</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan s&auml;ilitab avaldused , taotlused , t&otilde;endid , protokollid , andmed kutsete saatmise ja dokumentide k&auml;ttetoimetamise kohta ning muud haldusmenetluses t&auml;htsust omavad dokumendid , luues vajadusel toimiku .</s>
+</p>
+<p>
+<s>( 2 ) Haldusmenetluses t&auml;htsust omavate asjaolude kohta , mida toimikus olevatest dokumentidest ei n&auml;htu , teeb haldusorgan m&auml;rkused toimikusse .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumente s&auml;ilitatakse haldusmenetluse l&otilde;ppemisest arvates v&auml;hemalt 10 aastat .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Haldusmenetluse keel</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetluse keel on eesti keel .</s>
+</p>
+<p>
+<s>( 2 ) Haldusmenetluses kasutatakse v&otilde;&otilde;rkeeli keeleseaduses ( RT I 1995 , 23 , 334 ; 1996 , 37 , 739 ; 40 , 773 ; 1997 , 69 , 1110 ; 1998 , 98/99 , 1618 ; 1999 , 1 , 1 ; 16 , 275 ; 2000 , 51 , 326 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>T&otilde;lk</s>
+</p>
+<p>
+<s>( 1 ) Kui menetlusosaline v&otilde;i tema esindaja ei valda keelt , milles asja menetletakse , kaasatakse menetlusosalise taotlusel asja menetlemisele t&otilde;lk .</s>
+</p>
+<p>
+<s>( 2 ) T&otilde;lgi kaasamise kulud katab t&otilde;lgi kaasamist taotlenud menetlusosaline , kui seaduse v&otilde;i m&auml;&auml;rusega ei ole s&auml;testatud teisiti v&otilde;i kui haldusorgan ei otsusta teisiti .</s><s>Haldusorgan v&otilde;ib kehtestada tingimuse , et haldusaktiga isikule antav &otilde;igus ei teki enne t&otilde;lgi kaasamise kulude katmist .</s>
+</p>
+<p>
+<s>6. jagu</s>
+</p>
+<p>
+<s>Ametlik kinnitamine</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Ametlik kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) Ametlik kinnitamine on allkirja , &auml;rakirja , v&auml;ljatr&uuml;ki v&otilde;i v&auml;ljav&otilde;tte &otilde;igsuse kinnitamine haldusorgani poolt .</s>
+</p>
+<p>
+<s>( 2 ) Ametliku kinnitamise t&otilde;endusj&otilde;ud on piiratud kinnitusm&auml;rkes nimetatud asjaoludega .</s>
+</p>
+<p>
+<s>( 3 ) Ametlik kinnitamine ei asenda notariaalset kinnitamist .</s>
+</p>
+<p>
+<s>( 4 ) Notariaalne kinnitamine asendab ametlikku kinnitamist .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Allkirja ametlik kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse m&auml;&auml;ratud haldusorgan v&otilde;ib ametlikult kinnitada allkirja &otilde;igsust , kui allkirjastatud dokument tuleb esitada teisele haldusorganile .</s><s>Ametlikult ei v&otilde;i kinnitada :</s>
+</p>
+<p>
+<s>1 ) juurdekuuluva tekstita allkirja ;</s>
+</p>
+<p>
+<s>2 ) allkirja , mille &otilde;igsust tuleb notariaalselt kinnitada .</s>
+</p>
+<p>
+<s>( 2 ) Allkirja &otilde;igsust kinnitatakse &uuml;ksnes juhul , kui allkiri on antud v&otilde;i omaks v&otilde;etud kinnitava isiku juuresolekul .</s>
+</p>
+<p>
+<s>( 3 ) Allkirja &otilde;igsust kinnitatakse vahetult allkirja j&auml;rele lisatava kinnitusm&auml;rkega , mis peab sisaldama :</s>
+</p>
+<p>
+<s>1 ) kinnitust , et allkiri on &otilde;ige ;</s>
+</p>
+<p>
+<s>2 ) selle isiku nime ja isikukoodi , kelle allkirja kinnitatakse ; isikukoodi puudumisel s&uuml;nniaastat , -kuud ja -p&auml;eva ;</s>
+</p>
+<p>
+<s>3 ) kinnitust , et allakirjutanu isikusamasus on tuvastatud ja et allkiri on antud v&otilde;i omaks v&otilde;etud kinnitava isiku juuresolekul ;</s>
+</p>
+<p>
+<s>4 ) kinnitamise kohta ja aega , kinnituse andnud isiku nime ja allkirja ning asutuse ametipitsati j&auml;ljendit .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>&Auml;rakirja , v&auml;ljav&otilde;tte ja v&auml;ljatr&uuml;ki ametlik kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan , kellel on &otilde;igus v&auml;ljastada ametlik dokument , v&otilde;ib v&auml;ljastada ka sellise dokumendi &auml;rakirja v&otilde;i v&auml;ljav&otilde;tte ning selle &otilde;igsust ametlikult kinnitada .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan , kes v&otilde;tab isikult vastu dokumendi , v&otilde;ib teha sellest &auml;rakirja v&otilde;i v&auml;ljav&otilde;tte ning selle &otilde;igsust ametlikult kinnitada .</s><s>Kui haldusorganile esitatakse koos &auml;rakirjaga dokumendi originaal , ei v&otilde;i haldusorgan n&otilde;uda &auml;rakirja ametlikku ega notariaalset kinnitamist .</s>
+</p>
+<p>
+<s>( 3 ) Haldusorgan v&otilde;ib ametlikult kinnitada enda peetava automatiseeritud andmekogu v&auml;ljatr&uuml;ki &otilde;igsust .</s>
+</p>
+<p>
+<s>( 4 ) Haldusorgan v&otilde;ib seaduse v&otilde;i m&auml;&auml;rusega s&auml;testatud juhtudel ametlikult kinnitada teise haldusorgani v&auml;ljastatud dokumendi &auml;rakirja v&otilde;i v&auml;ljav&otilde;tte &otilde;igsust v&otilde;i teise haldusorgani peetava automatiseeritud andmekogu v&auml;ljatr&uuml;ki &otilde;igsust .</s>
+</p>
+<p>
+<s>( 5 ) &Auml;rakirja &otilde;igsuse ametlikuks kinnitamiseks tuleb sellel oleva teksti l&otilde;ppu lisada kinnitusm&auml;rge , mis peab sisaldama :</s>
+</p>
+<p>
+<s>1 ) selle dokumendi v&auml;ljaandjat , v&auml;ljaandmise kuup&auml;eva , toimikunumbrit , mille &auml;rakirja &otilde;igsust kinnitatakse ;</s>
+</p>
+<p>
+<s>2 ) kinnitust , et &auml;rakiri on originaaliga samane ;</s>
+</p>
+<p>
+<s>3 ) kui originaali ei ole v&auml;ljastanud &auml;rakirja &otilde;igsust kinnitav haldusorgan , siis m&auml;rkust , et &auml;rakiri on v&auml;ljastatud esitamiseks &uuml;ksnes m&auml;rkuses nimetatud haldusorganitele ;</s>
+</p>
+<p>
+<s>4 ) andmeid dokumendis sisalduvate l&uuml;nkade , l&auml;bikriipsutuste , vahelekirjutuste , loetamatute tekstiosade , kustutamisj&auml;lgede , muude dokumendi esialgse sisu muutmisele viitavate asjaolude v&otilde;i mitmelehelise dokumendi lahtik&ouml;itmise kohta ;</s>
+</p>
+<p>
+<s>5 ) kinnitamise kohta ja aega , kinnituse andnud isiku nime ja allkirja ning asutuse ametipitsati j&auml;ljendit .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;iget 5 kohaldatakse ka v&auml;ljav&otilde;tte ja v&auml;ljatr&uuml;ki ametlikule kinnitamisele .</s>
+</p>
+<p>
+<s>7. jagu</s>
+</p>
+<p>
+<s>Dokumendi k&auml;ttetoimetamine</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>K&auml;ttetoimetamise viisid</s>
+</p>
+<p>
+<s>( 1 ) Haldusakt , kutse , teade v&otilde;i muu dokument toimetatakse menetlusosalisele k&auml;tte vastavalt taotluses tehtud valikule kas postiga , dokumendi v&auml;ljastanud haldusorgani poolt v&otilde;i elektrooniliselt .</s>
+</p>
+<p>
+<s>( 2 ) Seaduses s&auml;testatud juhtudel antakse dokument allkirja vastu k&auml;tte v&auml;ljakutsutud menetlusosalisele v&otilde;i avaldatakse ajalehes .</s>
+</p>
+<p>
+<s>( 3 ) Dokument toimetatakse k&auml;tte juhul , kui see on seaduse v&otilde;i m&auml;&auml;rusega ette n&auml;htud .</s><s>Muudel juhtudel piisab dokumendi teatavakstegemisest vabas vormis .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>K&auml;ttetoimetamine postiga</s>
+</p>
+<p>
+<s>( 1 ) Dokumendi postiga k&auml;ttetoimetamise korral saadetakse dokument menetlusosalisele taotluses m&auml;rgitud aadressil t&auml;hitud kirjaga .</s>
+</p>
+<p>
+<s>( 2 ) Kui menetlusosalisel on esindaja , v&otilde;ib dokumendi saata ka &uuml;ksnes esindajale .</s>
+</p>
+<p>
+<s>( 3 ) Dokument loetakse menetlusosalisele k&auml;ttetoimetatuks , kui see on kohale toimetatud menetlusosalise elu- v&otilde;i asukoha aadressil v&otilde;i kui see on menetlusosalisele postiasutuses allkirja vastu &uuml;le antud .</s>
+</p>
+<p>
+<s>( 4 ) Kui menetlusosaline ei ole haldusorganile oma aadressi muutmisest teatanud , saadetakse dokument viimasel haldusorganile teadaoleval aadressil ja sellega loetakse dokument k&auml;ttetoimetatuks .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Elektrooniline k&auml;ttetoimetamine</s>
+</p>
+<p>
+<s>Dokumendi elektroonilise k&auml;ttetoimetamise korral saadetakse dokument taotleja poolt taotluses n&auml;idatud elektronposti aadressil .</s><s>Dokumendile peab olema lisatud digitaalallkiri .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>K&auml;ttetoimetamine haldusorgani poolt</s>
+</p>
+<p>
+<s>( 1 ) Dokumendi k&auml;ttetoimetamisel menetlusosalisele dokumendi v&auml;ljastanud haldusorgani poolt antakse dokument menetlusosalisele k&auml;tte allkirja vastu teatisel , millel m&auml;rgitakse dokumendi &uuml;leandmise aeg .</s><s>Teatist s&auml;ilitatakse vastavalt k&auml;esoleva seaduse &sect;-le 19.</s>
+</p>
+<p>
+<s>( 2 ) Dokument loetakse dokumendi v&auml;ljastanud haldusorgani poolt menetlusosalisele k&auml;ttetoimetatuks ka juhul , kui selle toimetab ametiabi korras k&auml;tte teine haldusorgan .</s>
+</p>
+<p>
+<s>( 3 ) Menetlusosalise esindajale dokumendi k&auml;tteandmisel loetakse dokument ka tema volitajale k&auml;ttetoimetatuks .</s>
+</p>
+<p>
+<s>( 4 ) Dokument loetakse menetlusosalisele k&auml;ttetoimetatuks ka siis , kui see on allkirja vastu k&auml;tte antud menetlusosalisega koos elavale v&auml;hemalt 10-aastasele perekonnaliikmele .</s>
+</p>
+<p>
+<s>( 5 ) Menetlusosalise ajutise &auml;raoleku korral , kui dokumenti ei olnud v&otilde;imalik k&auml;tte anda ka k&auml;esoleva paragrahvi l&otilde;ikes 3 v&otilde;i 4 m&auml;rgitud isikule , m&auml;rgib dokumenti k&auml;ttetoimetav haldusorgan dokumendile lisatud teatisele kellaaja ja kuup&auml;eva , millal dokumendi k&auml;ttetoimetamine eba&otilde;nnestus .</s><s>Kirjeldatud juhul v&otilde;ib menetlusosalise dokumendi k&auml;tteandmiseks v&auml;lja kutsuda .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Haldusorgani poolt k&auml;ttetoimetamise aeg</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan v&otilde;ib dokumendi k&auml;tte toimetada t&ouml;&ouml;p&auml;eviti ajavahemikul kella 8.00-st 20.00-ni.</s>
+</p>
+<p>
+<s>( 2 ) Ajavahemikul kella 20.00-st 8.00-ni v&otilde;i puhkep&auml;evadel v&otilde;ib dokumendi k&auml;tte toimetada adressaadi n&otilde;usolekul v&otilde;i viivitusest tuleneva kahju v&auml;ltimiseks haldusorgani juhi loal .</s>
+</p>
+<p>
+<s>( 3 ) Dokumendi k&auml;ttetoimetamisel ajavahemikul kella 20.00-st 8.00-ni v&otilde;i puhkep&auml;evadel tuleb esitada k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud luba .</s>
+</p>
+<p>
+<s>( 4 ) Kui dokument toimetati k&auml;tte k&auml;esoleva paragrahvi s&auml;tteid rikkudes , kuid dokumendi vastuv&otilde;tja ei keeldunud dokumendi vastuv&otilde;tmisest , loetakse dokument k&auml;ttetoimetatuks .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Dokumendi vastuv&otilde;tmisest keeldumise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>Kui menetlusosaline keeldub dokumenti vastu v&otilde;tmast , teeb dokumendi k&auml;ttetoimetaja kindlaks keelduja isiku ning teeb dokumendile m&auml;rke , mille kinnitab oma allkirjaga .</s><s>M&auml;rkega dokumendi tagastab ta haldusorganile .</s><s>Sel juhul loetakse dokument menetlusosalisele k&auml;tte toimetatuks , v&auml;lja arvatud juhul , kui dokumendi vastuv&otilde;tmisest keelduti k&auml;esoleva seaduse &sect; 29 l&otilde;igete 1-3 rikkumise t&otilde;ttu .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Dokumendi avaldamine ajalehes</s>
+</p>
+<p>
+<s>( 1 ) Dokumendi resolutiivosa avaldatakse &uuml;leriigilise levikuga ajalehes v&otilde;i seaduses s&auml;testatud juhtudel ametlikus v&auml;ljaandes Ametlikud Teadaanded , kui :</s>
+</p>
+<p>
+<s>1 ) dokument on vaja k&auml;tte toimetada enam kui sajale isikule ;</s>
+</p>
+<p>
+<s>2 ) puuduvad andmed menetlusosalise aadressi kohta v&otilde;i kui menetlusosaline ei ela teadaoleval aadressil ja tema tegelik viibimiskoht ei ole teada ning dokumenti ei ole muul viisil v&otilde;imalik k&auml;tte toimetada ;</s>
+</p>
+<p>
+<s>3 ) haldusakt on vaja avalikult teatavaks teha ja haldusakt ei kuulu avaldamisele Riigi Teatajas .</s>
+</p>
+<p>
+<s>( 2 ) Kui dokument puudutab ainult kohaliku elu k&uuml;simusi , v&otilde;ib dokumendi resolutiivosa avaldada kohalikus lehes .</s>
+</p>
+<p>
+<s>( 3 ) Dokumendi resolutiivosa avaldatakse v&auml;hemalt kahel korral ja v&auml;hemalt kahen&auml;dalase vahega .</s>
+</p>
+<p>
+<s>( 4 ) Dokumendi avaldamise kulud kannab k&auml;ttetoimetaja .</s>
+</p>
+<p>
+<s>( 5 ) Avaldamisega loetakse dokument k&auml;ttetoimetatuks , arvates teisest avaldamise korrast .</s>
+</p>
+<p>
+<s>( 6 ) Dokument avaldatakse ulatuses , mis ei sisalda k&auml;esoleva seaduse &sect; 7 l&otilde;ikes 3 nimetatud andmeid .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>K&auml;ttetoimetamine v&auml;lisriigis</s>
+</p>
+<p>
+<s>( 1 ) Dokumendi k&auml;ttetoimetamine v&auml;lisriigis toimub v&auml;lislepingus s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud lepingut ei ole s&otilde;lmitud , toimub dokumendi k&auml;ttetoimetamine diplomaatilisi kanaleid kaudu .</s><s>P&auml;dev asutus edastab dokumendi vastava taotlusega V&auml;lisministeeriumile , kes edastab dokumendi v&auml;lisesindusele .</s>
+</p>
+<p>
+<s>8. jagu</s>
+</p>
+<p>
+<s>Menetlust&auml;htaja arvestamine ja ennistamine</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Menetlust&auml;htaja algus ja l&otilde;pp</s>
+</p>
+<p>
+<s>( 1 ) T&auml;htaegade arvutamisel haldusmenetluses kohaldatakse tsiviilkohtumenetluse seadustiku ( RT I 1998 , 43-45 , 666 ; 108/109 , 1783 ; 1999 , 16 , 271 ; 31 , 425 ; 2000 , 51 , 319 ; 55 , 365 ; 2001 , 21 , 113 ; 34 , 186 ; 53 , 313 ) s&auml;tteid .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;htaeg algab j&auml;rgmisel p&auml;eval p&auml;rast selle kalendrip&auml;eva v&otilde;i s&uuml;ndmuse saabumist , millega m&auml;&auml;rati kindlaks t&auml;htaja algus .</s><s>P&auml;evadega m&auml;&auml;ratud t&auml;htaeg l&otilde;peb t&auml;htaja viimasel p&auml;eval .</s>
+</p>
+<p>
+<s>( 3 ) Kui menetlust&auml;htaja l&otilde;pp ei lange t&ouml;&ouml;p&auml;evale , l&otilde;peb t&auml;htaeg esimesel t&auml;htp&auml;evale j&auml;rgneval t&ouml;&ouml;p&auml;eval .</s>
+</p>
+<p>
+<s>( 4 ) Kui haldusorganile esitatav taotlus on v&otilde;&otilde;rkeelne ning haldusorgan n&otilde;uab t&otilde;lke esitamist , algab menetlust&auml;htaeg taotluse t&otilde;lke haldusorganisse saabumise p&auml;evale j&auml;rgneval p&auml;eval .</s>
+</p>
+<p>
+<s>( 5 ) Haldusorgan v&otilde;ib enda m&auml;&auml;ratud menetlust&auml;htaegu oma algatusel pikendada .</s>
+</p>
+<p>
+<s>( 6 ) Haldusorgan v&otilde;ib menetlust&auml;htaja pikendamise siduda k&auml;esoleva seaduse &sect; 53 l&otilde;ikes 1 loetletud k&otilde;rvaltingimustega .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Menetlust&auml;htaja ennistamine</s>
+</p>
+<p>
+<s>( 1 ) Kui menetlust&auml;htaeg on m&ouml;&ouml;da lastud m&otilde;juval p&otilde;hjusel , v&otilde;ib haldusorgan oma algatusel v&otilde;i menetlusosalise taotlusel t&auml;htaja ennistada .</s>
+</p>
+<p>
+<s>( 2 ) Menetlust&auml;htaja ennistamise p&otilde;hjendatud taotlus tuleb esitada kahe n&auml;dala jooksul p&auml;rast menetlustoimingu sooritamist takistava asjaolu &auml;ralangemist .</s><s>Haldusorgan v&otilde;ib menetlusosaliselt ennistamise taotluse esitamisega &uuml;heaegselt n&otilde;uda menetlustoimingu sooritamist , mille t&auml;htaja ennistamist taotletakse .</s>
+</p>
+<p>
+<s>( 3 ) Menetlust&auml;htaega ei ennistata , kui esialgsest menetlustoimingu teostamiseks etten&auml;htud t&auml;htp&auml;evast on m&ouml;&ouml;dunud rohkem kui &uuml;ks aasta .</s>
+</p>
+<p>
+<s>( 4 ) Menetlust&auml;htaja ennistamise &uuml;le otsustab menetlustoimingut l&auml;biviiva haldusorgani juht v&otilde;i tema poolt volitatud isik .</s>
+</p>
+<p>
+<s>( 5 ) Seaduses v&otilde;ib ette n&auml;ha juhud , millal ei saa menetlust&auml;htaega ennistada .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Haldusmenetluse l&auml;biviimine</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Menetluse algus</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetlus haldusakti andmiseks v&otilde;i toimingu sooritamiseks algab :</s>
+</p>
+<p>
+<s>1 ) taotluse esitamisega haldusorganile ;</s>
+</p>
+<p>
+<s>2 ) haldusorgani initsiatiivil algatatud haldusmenetluses menetlusosalise teavitamisega menetlusest ;</s>
+</p>
+<p>
+<s>3 ) haldusorgani initsiatiivil algatatud haldusmenetluses menetlusosalise suhtes esimese menetlustoimingu sooritamisega .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan teatab menetlusosalistele haldusakti andmiseks v&otilde;i toimingu sooritamiseks taotluse esitamisest .</s>
+</p>
+<p>
+<s>( 3 ) Haldusmenetlus halduslepingu s&otilde;lmimiseks algab halduslepingu s&otilde;lmimise ettepaneku tegemisega .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Haldusorgani selgitamiskohustus</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan selgitab menetlusosalisele v&otilde;i taotluse esitamist kaaluvale isikule nende soovil :</s>
+</p>
+<p>
+<s>1 ) millised &otilde;igused ja kohustused on menetlusosalisel haldusmenetluses ;</s>
+</p>
+<p>
+<s>2 ) millise t&auml;htaja jooksul haldusmenetlus eeldatavasti l&auml;bi viiakse ja millised on v&otilde;imalused haldusmenetluse kiirendamiseks ;</s>
+</p>
+<p>
+<s>3 ) millised taotlused , t&otilde;endid ja muud dokumendid tuleb haldusmenetluses esitada ;</s>
+</p>
+<p>
+<s>4 ) milliseid menetlustoiminguid peavad menetlusosalised sooritama .</s>
+</p>
+<p>
+<s>( 2 ) Kui taotletava haldusakti andmiseks v&otilde;i toimingu sooritamiseks on vajalik eelnevalt m&otilde;ne muu haldusakti andmine , selgitab haldusorgan viivitamatult vajaliku haldusakti taotlemise ja taotluse l&auml;bivaatamise korda ning muu haldusakti andmise tingimusi .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Dokumentidega tutvumine</s>
+</p>
+<p>
+<s>( 1 ) Iga&uuml;hel on &otilde;igus igas menetlusstaadiumis tutvuda haldusorganis s&auml;ilitatavate asjas t&auml;htsust omavate dokumentide ja toimikuga , kui see on olemas .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan keelab toimiku , dokumendi v&otilde;i selle osaga tutvumise , kui selles sisalduvate andmete avaldamine on seadusega v&otilde;i selle alusel keelatud .</s>
+</p>
+<p>
+<s>( 3 ) Toimikuga ja dokumentidega tutvumine toimub &uuml;ldjuhul haldusorgani t&ouml;&ouml;ruumides ametiisiku juuresolekul .</s><s>Haldusorgan v&otilde;ib teha sellest korrast erandeid .</s>
+</p>
+<p>
+<s>( 4 ) Dokumentidest v&auml;ljav&otilde;tete v&otilde;i koopiate tegemine ning kulude h&uuml;vitamine toimub avaliku teabe seaduses ( RT I 2000 , 92 , 597 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>T&otilde;endid</s>
+</p>
+<p>
+<s>( 1 ) Haldusorganil on &otilde;igus n&otilde;uda haldusmenetluse k&auml;igus menetlusosalistelt ning muudelt isikutelt nende k&auml;sutuses olevate t&otilde;endite ja andmete esitamist , mille alusel haldusorgan teeb kindlaks asja lahendamiseks olulised asjaolud .</s>
+</p>
+<p>
+<s>( 2 ) T&otilde;endiks v&otilde;ib olla menetlusosalise seletus , dokumentaalne t&otilde;end , asit&otilde;end , paikvaatlus , tunnistaja &uuml;tlus ning eksperdi arvamus .</s>
+</p>
+<p>
+<s>( 3 ) Menetlusosaline on kohustatud haldusorganile esitama ja teatavaks tegema talle teada olevad menetluses t&auml;htsust omavad asjaolud ja t&otilde;endid .</s><s>Selle kohustuse t&auml;itmata j&auml;tmisel v&otilde;ib haldusorgan soodustava haldusakti andmisel j&auml;tta taotluse l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Ekspert ja tunnistaja haldusmenetluses</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan kaasab eksperdi v&otilde;i tunnistaja haldusmenetlusse tema n&otilde;usolekul , kui seadus ei n&auml;e ette tema menetluses osalemise kohustust .</s><s>Tunnistajana ei v&otilde;i menetlusse kaasata isikuid , keda keelab tunnistajana &uuml;le kuulata tsiviilkohtumenetluse seadustik .</s>
+</p>
+<p>
+<s>( 2 ) Kui eksperdi osav&otilde;tt haldusmenetlusest on ette n&auml;htud seadusega , v&otilde;ib ekspert arvamuse andmisest keelduda tsiviilkohtumenetluse seadustikus s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 3 ) Tunnistaja kuulatakse &uuml;le tsiviilkohtumenetluse seadustikuga s&auml;testatud korras .</s><s>Tunnistaja v&otilde;ib &uuml;tluste andmisest keelduda , kui ta on menetlusosalisega seotud tsiviilkohtumenetluse seadustiku &sect; 103 l&otilde;ikes 1 s&auml;testatud viisil v&otilde;i tema poolt &uuml;tluste andmisega v&otilde;iks kaasneda tsiviilkohtumenetluse seadustiku &sect; 103 l&otilde;ikes 2 nimetatud tagaj&auml;rg .</s>
+</p>
+<p>
+<s>( 4 ) Eksperdil ja tunnistajal on &otilde;igus oma &uuml;lesannete t&auml;itmise eest saada tasu v&otilde;i h&uuml;vitist tsiviilkohtumenetluse seadustikus s&auml;testatud alustel .</s>
+</p>
+<p>
+<s>( 5 ) Tunnistajale ja eksperdile raha v&auml;ljamaksmise korra m&auml;&auml;rab Vabariigi Valitsus .</s><s>V&auml;ljaspool oma elukohta haldusmenetluses osalevale eksperdile v&otilde;i tunnistajale makstakse s&otilde;idu- , korteri- ja p&auml;evaraha Vabariigi Valitsuse m&auml;&auml;rusega kehtestatud suuruses .</s>
+</p>
+<p>
+<s>( 6 ) Eksperdi v&otilde;i tunnistaja kaasamise kulud kannab isik v&otilde;i haldusorgan , kelle taotlusel tunnistaja v&otilde;i ekspert kaasati .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Menetlusosalise arvamuse ja vastuv&auml;idete &auml;rakuulamine</s>
+</p>
+<p>
+<s>( 1 ) Enne haldusakti andmist peab haldusorgan andma menetlusosalisele v&otilde;imaluse esitada kirjalikus , suulises v&otilde;i muus sobivas vormis asja kohta oma arvamus ja vastuv&auml;ited .</s>
+</p>
+<p>
+<s>( 2 ) Enne menetlusosalise suhtes sellise toimingu sooritamist , mis v&otilde;ib kahjustada tema &otilde;igusi , peab haldusorgan andma talle v&otilde;imaluse arvamuse ja vastuv&auml;idete esitamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Haldusmenetluse v&otilde;ib l&auml;bi viia menetlusosalise arvamust ja vastuv&auml;iteid &auml;ra kuulamata , kui :</s>
+</p>
+<p>
+<s>1 ) viivitusest tuleneva kahju &auml;rahoidmiseks v&otilde;i avalike huvide kaitseks on vaja viivitamatult tegutseda ;</s>
+</p>
+<p>
+<s>2 ) menetlusosalise poolt taotluses v&otilde;i seletuses esitatud andmetest ei kalduta k&otilde;rvale ning puudub vajadus lisaandmete saamiseks ;</s>
+</p>
+<p>
+<s>3 ) asja ei otsustata selle menetlusosalise kahjuks ;</s>
+</p>
+<p>
+<s>4 ) arvamuse v&otilde;i vastuv&auml;idete esitamise v&otilde;imaldamisega kaasnev haldusaktist v&otilde;i toimingust teavitamine ei v&otilde;imalda saavutada haldusakti v&otilde;i toimingu eesm&auml;rki ;</s>
+</p>
+<p>
+<s>5 ) menetlusosaline ei ole teada v&otilde;i kui sooritatav toiming puudutab m&auml;&auml;ratlemata hulka isikuid ja nende kindlakstegemine ei ole m&otilde;istliku aja jooksul v&otilde;imalik ;</s>
+</p>
+<p>
+<s>6 ) haldusakt antakse &uuml;ldkorraldusena v&otilde;i menetlusosaliste arv on suurem kui 50 ;</s>
+</p>
+<p>
+<s>7 ) muudel seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Haldusmenetluse l&auml;biviimise t&auml;htaeg</s>
+</p>
+<p>
+<s>Kui haldusakti v&otilde;i toimingut ei ole v&otilde;imalik anda v&otilde;i sooritada etten&auml;htud t&auml;htaja jooksul , peab haldusorgan viivituseta tegema teatavaks haldusakti andmise v&otilde;i toimingu sooritamise t&otilde;en&auml;olise aja ning n&auml;itama etten&auml;htud t&auml;htajast mittekinnipidamise p&otilde;hjuse .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Menetlustoimingule ilmumata j&auml;&auml;mine</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgani kutse peale on isik kohustatud ilmuma kutses m&auml;rgitud ajal kutses etten&auml;htud kohta .</s>
+</p>
+<p>
+<s>( 2 ) Kui menetlusosalisel ei ole m&otilde;juval p&otilde;hjusel v&otilde;imalik kutse peale ilmuda , peab ta sellest viivitamata teatama haldusorganile .</s><s>P&otilde;hjuse m&otilde;juvuse &uuml;le otsustab haldusorgan , teatades sellest viivitamata menetlusosalisele .</s>
+</p>
+<p>
+<s>( 3 ) Kui menetlusosaline j&auml;&auml;b menetlustoimingule m&otilde;juva p&otilde;hjuseta ilmumata , lahendab haldusorgan asja tema kohalolekuta .</s>
+</p>
+<p>
+<s>( 4 ) Kui haldusakti andmiseks v&otilde;i toimingu sooritamiseks taotluse esitanud isik j&auml;&auml;b menetlustoimingule m&otilde;juva p&otilde;hjuseta ilmumata , v&otilde;ib haldusorgan j&auml;tta taotluse l&auml;bi vaatamata ja l&otilde;petada haldusmenetluse .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Menetluse l&otilde;ppemine</s>
+</p>
+<p>
+<s>( 1 ) Haldusakti andmise menetlus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) haldusakti teatavakstegemisega ;</s>
+</p>
+<p>
+<s>2 ) taotleja poolt taotluse tagasiv&otilde;tmisega ;</s>
+</p>
+<p>
+<s>3 ) haldusorgani poolt taotluse l&auml;bi vaatamata j&auml;tmisega ;</s>
+</p>
+<p>
+<s>4 ) haldusakti adressaadi surma v&otilde;i l&otilde;ppemise korral , kui haldusakt on seotud adressaadi isikuga .</s>
+</p>
+<p>
+<s>( 2 ) Kui taotletud haldusakt otsustatakse j&auml;tta andmata , antakse selle kohta haldusakt .</s><s>Kui haldusorgani initsiatiivil algatatud haldusmenetluses otsustatakse j&auml;tta haldusakt andmata , teavitatakse sellest adressaati ja haldusmenetlus l&otilde;peb .</s>
+</p>
+<p>
+<s>( 3 ) Halduslepingu s&otilde;lmimise menetlus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) halduslepingu s&otilde;lmimisega ;</s>
+</p>
+<p>
+<s>2 ) kokkuleppega v&otilde;i &uuml;he poole otsusega j&auml;tta haldusleping s&otilde;lmimata ;</s>
+</p>
+<p>
+<s>3 ) halduslepingu poole surma v&otilde;i l&otilde;ppemise korral .</s>
+</p>
+<p>
+<s>( 4 ) Toimingu menetlus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) toimingu sooritamisega ;</s>
+</p>
+<p>
+<s>2 ) p&otilde;hjendatud otsusega toimingut mitte sooritada ;</s>
+</p>
+<p>
+<s>3 ) taotleja poolt taotluse tagasiv&otilde;tmisega ;</s>
+</p>
+<p>
+<s>4 ) haldusorgani poolt taotluse l&auml;bi vaatamata j&auml;tmisega ;</s>
+</p>
+<p>
+<s>5 ) toimingu adressaadi surma v&otilde;i l&otilde;ppemise korral , kui toiming on seotud adressaadi isikuga .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Menetluse uuendamine</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan uuendab menetlusosalise taotlusel haldusmenetluse , kui :</s>
+</p>
+<p>
+<s>1 ) taotluse esitaja &otilde;igusi kestvalt piirava haldusakti andmise aluseks olnud asjaolu v&otilde;i &otilde;igusnorm on &auml;ra langenud ;</s>
+</p>
+<p>
+<s>2 ) asjas ilmnevad uued olulised t&otilde;endid , mis ei olnud isikule haldusmenetluse ajal teada ;</s>
+</p>
+<p>
+<s>3 ) j&otilde;ustunud kohtuotsusega on tuvastatud , et haldusakt on antud v&otilde;i toiming on sooritatud pettuse v&otilde;i &auml;hvardusega v&otilde;i muul viisil haldusorgani &otilde;igusvastase m&otilde;jutamise tulemusena v&otilde;i et haldusorgani nimel tegutsenud isik on haldusmenetluse k&auml;igus pannud toime kuriteo ;</s>
+</p>
+<p>
+<s>4 ) j&otilde;ustunud kohtuotsusega on t&uuml;histatud kohtuotsus , millel haldusakt p&otilde;hines .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan vaatab uuendatud menetluses asja l&auml;bi , arvestades k&auml;esoleva seaduse 4. peat&uuml;ki 3. ja 4. jaos s&auml;testatut .</s>
+</p>
+<p>
+<s>( 3 ) Haldusmenetluse uuendamise taotlus tuleb esitada haldusmenetluse l&auml;biviinud haldusorganile &uuml;he kuu jooksul haldusmenetluse uuendamise asjaolude teadasaamisest alates .</s>
+</p>
+<p>
+<s>( 4 ) Menetlustoiminguid , mida menetluse uuendamise p&otilde;hjused ei puuduta , ei korrata .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Asja arutamine istungil</s>
+</p>
+<p>
+<s>( 1 ) Haldusmenetluse asja arutatakse istungil :</s>
+</p>
+<p>
+<s>1 ) menetlusosaliste vastanduvate huvide korral , kui see ei p&otilde;hjusta menetluse &uuml;lem&auml;&auml;rast venimist ;</s>
+</p>
+<p>
+<s>2 ) seaduse v&otilde;i m&auml;&auml;rusega etten&auml;htud juhtudel ;</s>
+</p>
+<p>
+<s>3 ) juhtudel , kui see on haldusorgani otsusel vajalik asja kiireks ja &otilde;igeks lahendamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Istungi viib haldusorgan l&auml;bi v&otilde;imalikult kiiresti ja lihtsalt , tagades sealjuures menetlusosaliste &otilde;igused .</s>
+</p>
+<p>
+<s>( 3 ) Istungil v&otilde;ivad peale haldusorgani esindajate ja menetlusosaliste viibida ka haldusorgani &uuml;le j&auml;relevalvet teostava haldusorgani esindajad .</s><s>Haldusorgan v&otilde;ib lubada istungist osa v&otilde;tta ka muudel isikutel , kui sellele ei ole vastu &uuml;kski menetlusosaline .</s>
+</p>
+<p>
+<s>( 4 ) Istungi juhataja v&otilde;ib istungilt k&otilde;rvaldada isiku , kes ei allu istungi juhataja poolt kindlaksm&auml;&auml;ratud istungi l&auml;biviimise korrale .</s>
+</p>
+<p>
+<s>( 5 ) Istung protokollitakse .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Avatud menetlus</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Avatud menetluse l&auml;biviimine</s>
+</p>
+<p>
+<s>( 1 ) Seaduses s&auml;testatud juhtudel viiakse haldusmenetlus &otilde;igusakti andmiseks l&auml;bi avatud menetlusena .</s><s>Kui see on vajalik asja lahendamiseks ega kahjusta oluliselt menetlusosaliste huve , v&otilde;ib haldusorgan viia avatud menetluse l&auml;bi ka muudel juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Kui avatud menetluse l&auml;biviimine on kohustuslik &otilde;igusakti andmiseks , viiakse avatud menetlus l&auml;bi ka &otilde;igusakti muutmiseks ja kehtetuks tunnistamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Ilmselgelt p&otilde;hjendamatu taotluse v&otilde;ib haldusorgan j&auml;tta rahuldamata avatud menetlust l&auml;bi viimata .</s><s>Taotluse esitaja arvamus ja vastuv&auml;ited tuleb sel juhul &auml;ra kuulata .</s>
+</p>
+<p>
+<s>( 4 ) Peale k&auml;esoleva peat&uuml;ki s&auml;tete kohaldatakse avatud menetluse suhtes ka muid haldusmenetlust reguleerivaid s&auml;tteid vastavalt avatud menetluse eesm&auml;rgile ja olemusele .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Avatud menetluse algatamine ja sellest teatamine</s>
+</p>
+<p>
+<s>( 1 ) Taotlus avatud menetluses antava &otilde;igusakti andmiseks esitatakse kirjalikult .</s>
+</p>
+<p>
+<s>( 2 ) Avatud menetluse algatamisest teatab haldusorgan kirjalikult :</s>
+</p>
+<p>
+<s>1 ) avatud menetluses antava haldusakti adressaadile ;</s>
+</p>
+<p>
+<s>2 ) isikule , kelle &otilde;igusi haldusakt v&otilde;ib piirata ;</s>
+</p>
+<p>
+<s>3 ) haldusorganile , kes peab &otilde;igusakti andmise koosk&otilde;lastama v&otilde;i selle eeln&otilde;u kohta arvamust avaldama , samuti haldusorganile , kelle haldusakti eeldab avatud menetluse korras &otilde;igusakti andmine .</s>
+</p>
+<p>
+<s>( 3 ) Haldusorgan avaldab menetluse algatamise kohta teate v&auml;hemalt &uuml;hes &uuml;leriigilise levikuga ajalehes .</s><s>Kohalikku elu puudutavas k&uuml;simuses avatud menetluse algatamise teate v&otilde;ib avaldada kohalikus v&otilde;i maakondlikus ajalehes .</s>
+</p>
+<p>
+<s>( 4 ) Teates m&auml;rgitakse l&uuml;hidalt taotluse sisu , avatud menetluse korras antava &otilde;igusakti eeln&otilde;u ja taotluse v&auml;ljapaneku aeg ja koht ning ettepanekute ja vastuv&auml;idete esitamise t&auml;htaeg .</s>
+</p>
+<p>
+<s>( 5 ) Teate avaldamise kulud kannab taotleja .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>&Otilde;igusakti eeln&otilde;u ja taotluse v&auml;ljapanek</s>
+</p>
+<p>
+<s>( 1 ) Taotlus &otilde;igusakti andmiseks ja &otilde;igusakti eeln&otilde;u koos seletuskirjaga pannakse avalikkusele tutvumiseks v&auml;lja , tagades avalikkusele nimetatud dokumentidega tutvumise v&otilde;imaluse v&auml;hemalt kuni ettepanekute ja vastuv&auml;idete esitamise t&auml;htaja l&otilde;puni .</s>
+</p>
+<p>
+<s>( 2 ) Lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 m&auml;rgitud dokumentidele pannakse avalikkusele tutvumiseks v&auml;lja ka taotlusele lisatud ning menetluse k&auml;igus haldusorganile esitatud v&otilde;i tema poolt koostatud muud asjassepuutuvad olulised dokumendid .</s>
+</p>
+<p>
+<s>( 3 ) Avalikkusele tutvumiseks ei panda v&auml;lja andmeid , mille avaldamine on seadusega v&otilde;i selle alusel keelatud .</s>
+</p>
+<p>
+<s>( 4 ) Eeln&otilde;u v&otilde;i taotluse v&auml;ljapaneku eest vastutab avatud menetlust l&auml;biviiv haldusorgan .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Ettepanekute ja vastuv&auml;idete esitamine avatud menetluses</s>
+</p>
+<p>
+<s>( 1 ) Huvitatud isikul ja isikul , kelle &otilde;igusi v&otilde;ib avatud menetluse korras antav &otilde;igusakt puudutada , on &otilde;igus m&auml;&auml;ratud t&auml;htaja jooksul esitada menetlust l&auml;biviivale haldusorganile eeln&otilde;u v&otilde;i taotluse kohta ettepanekuid ja vastuv&auml;iteid .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan m&auml;&auml;rab ettepanekute ja vastuv&auml;idete esitamiseks t&auml;htaja , mis ei v&otilde;i olla l&uuml;hem kui kaks n&auml;dalat v&auml;ljapaneku algusest arvates .</s><s>Kui menetluse algatamisest teatatakse p&auml;rast v&auml;ljapaneku algust , ei v&otilde;i t&auml;htaeg olla l&uuml;hem kui kaks n&auml;dalat teatamisest arvates .</s>
+</p>
+<p>
+<s>( 3 ) Taotluse esitajale tuleb anda v&otilde;imalus enne asja otsustamist ettepanekute ja vastuv&auml;idetega tutvumiseks ning nende kohta arvamuse avaldamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Kui eeln&otilde;u v&otilde;i taotlust muudetakse p&auml;rast v&auml;ljapanekut isiku kahjuks , kelle &otilde;igusi eeln&otilde;u v&otilde;i taotlus puudutab , teavitab haldusorgan teda sellest kirjalikult ning annab talle v&otilde;imaluse tutvuda eeln&otilde;u v&otilde;i taotlusega ja esitada selle kohta ettepanekuid ja vastuv&auml;iteid .</s>
+</p>
+<p>
+<s>( 5 ) Suuliselt esitatud arvamused , ettepanekud ja vastuv&auml;ited protokollitakse .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Asja arutamine avalikul istungil</s>
+</p>
+<p>
+<s>( 1 ) Avatud menetluse korral otsustab haldusorgan &otilde;igusakti andmise p&auml;rast asja arutamist avalikul istungil .</s><s>Istungist teatab haldusorgan k&auml;esoleva seaduse &sect;-s 47 etten&auml;htud korras .</s><s>Menetlusosalisel on &otilde;igus avaldada istungil asja kohta suuliselt arvamust .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igusakti andmise v&otilde;ib otsustada ilma avalikul istungil arutamiseta , kui :</s>
+</p>
+<p>
+<s>1 ) t&auml;htaja jooksul ettepanekuid v&otilde;i vastuv&auml;iteid ei esitatud ja menetlusosalised loobusid asja arutamisest avalikul istungil ;</s>
+</p>
+<p>
+<s>2 ) see v&otilde;imalus on ette n&auml;htud seadusega .</s>
+</p>
+<p>
+<s>( 3 ) Menetlusosaline loetakse asja arutamisest avalikul istungil loobunuks , kui haldusorgan on v&auml;ljapaneku alguses v&otilde;i menetlusest teatamisel teinud ettepaneku asja arutamiseks ilma avalikku istungit l&auml;bi viimata ja menetlusosaline ei ole ettepanekute ja vastuv&auml;idete esitamise t&auml;htajaks esitanud selle suhtes vastuv&auml;iteid .</s>
+</p>
+<p>
+<s>( 4 ) Kui avaliku istungi toimumise aega ei ole teatavaks tehtud menetluse algatamise teates , saadetakse menetlusosalisele kutse k&auml;esoleva seaduse 1. peat&uuml;ki 7. jaos s&auml;testatud korras v&auml;hemalt 10 p&auml;eva enne istungit .</s><s>Kui avatud menetlus on ette n&auml;htud seaduse v&otilde;i m&auml;&auml;rusega , v&otilde;ib haldusorgan kohustada istungil osalema tunnistajaid .</s>
+</p>
+<p>
+<s>2. osa</s>
+</p>
+<p>
+<s>Eriosa</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Haldusakt</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Haldusakti m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Haldusakt on haldusorgani poolt haldus&uuml;lesannete t&auml;itmisel avalik&otilde;iguslikus suhtes &uuml;ksikjuhtumi reguleerimiseks antud , isiku &otilde;iguste v&otilde;i kohustuste tekitamisele , muutmisele v&otilde;i l&otilde;petamisele suunatud korraldus , otsus , ettekirjutus , k&auml;skkiri v&otilde;i muu &otilde;igusakt .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;ldkorraldus on haldusakt , mis on suunatud &uuml;ldiste tunnuste alusel kindlaksm&auml;&auml;ratud isikutele v&otilde;i asja avalik-&otilde;igusliku seisundi muutmisele .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Osahaldusakt ja eelhaldusakt</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan v&otilde;ib enne asja l&otilde;plikku lahendamist :</s>
+</p>
+<p>
+<s>1 ) lahendada asja osaliselt ( osahaldusakt ) ;</s>
+</p>
+<p>
+<s>2 ) teha &otilde;iguslikult siduvalt kindlaks asja l&otilde;plikul lahendamisel t&auml;htsust omava asjaolu ( eelhaldusakt ) .</s>
+</p>
+<p>
+<s>( 2 ) Osahaldusakti ja eelhaldusakti suhtes kohaldatakse haldusakti s&auml;tteid .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Haldusakti k&otilde;rvaltingimus</s>
+</p>
+<p>
+<s>( 1 ) Haldusakti k&otilde;rvaltingimus on :</s>
+</p>
+<p>
+<s>1 ) haldusakti kehtivusaja piiramine kindlaksm&auml;&auml;ratud t&auml;htp&auml;evast v&otilde;i tulevikus aset leida v&otilde;ivast s&uuml;ndmusest l&auml;htudes ;</s>
+</p>
+<p>
+<s>2 ) haldusakti p&otilde;hiregulatsiooniga seotud lisakohustus ;</s>
+</p>
+<p>
+<s>3 ) lisatingimus haldusakti p&otilde;hiregulatsioonist tuleneva &otilde;iguse tekkimiseks ;</s>
+</p>
+<p>
+<s>4 ) haldusakti hilisema muutmise , kehtetuks tunnistamise v&otilde;i k&otilde;rvaltingimuse kehtestamise v&otilde;imaluse j&auml;tmine .</s>
+</p>
+<p>
+<s>( 2 ) Haldusaktile v&otilde;ib kehtestada k&otilde;rvaltingimuse :</s>
+</p>
+<p>
+<s>1 ) seaduses v&otilde;i m&auml;&auml;ruses s&auml;testatud juhul ;</s>
+</p>
+<p>
+<s>2 ) kui k&otilde;rvaltingimuseta tuleks haldusakt j&auml;tta andmata ;</s>
+</p>
+<p>
+<s>3 ) kui haldusakti andmine tuleb otsustada halduse kaalutlus&otilde;iguse alusel .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&otilde;rvaltingimuse kehtivuse l&otilde;ppemisel muutub haldusakt &otilde;igusvastaseks , tunnistab haldusorgan haldusakti viivitamatult kehtetuks v&otilde;i kehtestab uue k&otilde;rvaltingimuse .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Haldusakti &otilde;igusp&auml;rasus</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Haldusakti &otilde;igusp&auml;rasuse eeldused</s>
+</p>
+<p>
+<s>Haldusakt on &otilde;igusp&auml;rane , kui ta on antud p&auml;deva haldusorgani poolt andmise hetkel kehtiva &otilde;iguse alusel ja sellega koosk&otilde;las , proportsionaalne , kaalutlusvigadeta ning vastab vormin&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Haldusakti vorm</s>
+</p>
+<p>
+<s>( 1 ) Haldusakt peab olema selge ja &uuml;heselt m&otilde;istetav .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakt antakse kirjalikus vormis , kui seaduse v&otilde;i m&auml;&auml;rusega ei ole s&auml;testatud teisiti .</s><s>Haldusakti v&otilde;ib anda muus vormis edasil&uuml;kkamatu korralduse tegemiseks .</s><s>Isiku taotlusel , kellel on selleks p&otilde;hjendatud huvi , tuleb muus vormis antud haldusakt tagantj&auml;rele viivituseta kirjalikult vormistada .</s>
+</p>
+<p>
+<s>( 3 ) Kirjalikus vormis v&otilde;ib haldusakti anda ainult elektrooniliselt , kui adressaat on sellega n&otilde;us ja haldusakt ei kuulu avaldamisele .</s><s>Elektroonilise haldusakti suhtes kohaldatakse kirjalikule haldusaktile esitatavaid n&otilde;udeid , arvestades dokumendi elektroonilisest vormist tingitud erisusi .</s>
+</p>
+<p>
+<s>( 4 ) Kirjalikus haldusaktis m&auml;rgitakse selle andnud haldusorgani nimetus , haldusorgani juhi v&otilde;i tema volitatud isiku nimi ja allkiri , haldusakti v&auml;ljaandmise aeg ning muud &otilde;igusaktiga etten&auml;htud andmed .</s>
+</p>
+<p>
+<s>( 5 ) Haldusakti andmise kohta v&auml;ljastatud t&otilde;end ei ole haldusakt .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Haldusakti p&otilde;hjendamine</s>
+</p>
+<p>
+<s>( 1 ) Kirjalik haldusakt ja soodustava haldusakti andmisest keeldumine peab olema kirjalikult p&otilde;hjendatud .</s><s>Haldusakti p&otilde;hjendus esitatakse haldusaktis v&otilde;i menetlusosalisele k&auml;ttesaadavas dokumendis , millele on haldusaktis viidatud .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakti p&otilde;hjenduses tuleb m&auml;rkida haldusakti andmise faktiline ja &otilde;iguslik alus .</s>
+</p>
+<p>
+<s>( 3 ) Kaalutlus&otilde;iguse alusel antud haldusakti p&otilde;hjenduses tuleb m&auml;rkida kaalutlused , millest haldusorgan on haldusakti andmisel l&auml;htunud .</s>
+</p>
+<p>
+<s>( 4 ) Haldusakti andmise faktilist alust ei pea p&otilde;hjenduses n&auml;itama , kui haldusakti adressaadi taotlus rahuldati ja kolmanda isiku &otilde;igusi ega vabadusi ei piirata .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Vaidlustamisviide</s>
+</p>
+<p>
+<s>( 1 ) Haldusaktis peab olema viide haldusakti vaidlustamise v&otilde;imaluste , koha , t&auml;htaja ja korra kohta .</s>
+</p>
+<p>
+<s>( 2 ) Vaidlustamisviite puudumine ei m&otilde;juta haldusakti kehtivust , vaidlustamise t&auml;htaega ega too kaasa muid &otilde;iguslikke tagaj&auml;rgi .</s>
+</p>
+<p>
+<s>( 3 ) Vaidlustamisviite puudumist v&otilde;ib pidada haldusakti vaidlustamise t&auml;htaja m&ouml;&ouml;dalaskmise m&otilde;juvaks p&otilde;hjuseks , kui t&auml;htaja m&ouml;&ouml;dalaskmine on tingitud vaidlustamisviite puudumisest .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Menetlus- ja vormin&otilde;uete rikkumise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>Haldusakti kehtetuks tunnistamist ei saa n&otilde;uda &uuml;ksnes p&otilde;hjusel , et haldusakti andmisel rikuti menetlusn&otilde;udeid v&otilde;i et haldusakt ei vasta vormin&otilde;uetele , kui eelnimetatud rikkumised ei v&otilde;inud m&otilde;jutada asja otsustamist .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Ilmse ebat&auml;psuse parandamine haldusaktis</s>
+</p>
+<p>
+<s>Haldusorgan parandab seadusega haldusakti muutmiseks etten&auml;htud menetluskorda j&auml;rgimata haldusaktis kirjavea ja muu ilmse ebat&auml;psuse , mis ei m&otilde;juta haldusakti sisu .</s><s>Haldusorgan teeb haldusakti parandamise teatavaks haldusakti adressaadile .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Haldusakti kehtivus</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Kehtivuse sisu</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;iguslikke tagaj&auml;rgi loob ja t&auml;itmiseks on kohustuslik ainult kehtiv haldusakt .</s>
+</p>
+<p>
+<s>( 2 ) Kehtiva haldusakti resolutiivosa on kohustuslik iga&uuml;hele , sealhulgas haldus- ja riigiorganitele .</s><s>Haldusakti resolutiivosa on haldusaktiga kindlaksm&auml;&auml;ratavaid &otilde;igusi ja kohustusi sisaldav osa .</s><s>Haldusakti muudel osadel , sealhulgas haldusakti p&otilde;hjenduses tuvastatud asjaoludel on iseseisev &otilde;iguslik t&auml;hendus ainult seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Kehtivuse eeldused</s>
+</p>
+<p>
+<s>( 1 ) Haldusakt kehtib adressaadile teatavaks tegemisest v&otilde;i k&auml;ttetoimetamisest alates , kui haldusaktis ei ole ette n&auml;htud hilisemat kehtima hakkamist .</s><s>Kui seaduses ei ole s&auml;testatud teisiti , hakkab avalikult teatavaks tehtud haldusakt kehtima 10. p&auml;eval p&auml;rast avaldamist .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakt kehtib kuni kehtetuks tunnistamiseni , kehtivusaja l&otilde;ppemiseni , haldusaktiga antud &otilde;iguse l&otilde;pliku realiseerimiseni v&otilde;i kohustuse t&auml;itmiseni , kui seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Haldusakti v&otilde;i selle andmisest keeldumise teatavakstegemine</s>
+</p>
+<p>
+<s>( 1 ) Haldusakt tehakse menetlusosalisele teatavaks vabas vormis , kui seaduses v&otilde;i m&auml;&auml;ruses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakt tehakse k&auml;ttetoimetamisega teatavaks k&auml;esoleva seaduse 1. peat&uuml;ki 7. jaos s&auml;testatud korras isikule :</s>
+</p>
+<p>
+<s>1 ) kelle &otilde;igusi haldusaktiga piiratakse v&otilde;i kellele pannakse haldusaktiga t&auml;iendavaid kohustusi ;</s>
+</p>
+<p>
+<s>2 ) kelle kahjuks tunnistatakse kehtetuks v&otilde;i muudetakse varasem haldusakt .</s>
+</p>
+<p>
+<s>( 3 ) Haldusorgan teeb haldusakti avalikult teatavaks :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 31 l&otilde;ike 1 punktides 1 ja 2 s&auml;testatud juhtudel ;</s>
+</p>
+<p>
+<s>2 ) kui seda n&otilde;uab isik , kellel on selleks p&otilde;hjendatud huvi ;</s>
+</p>
+<p>
+<s>3 ) kui haldusakti avalik teatavakstegemine on ette n&auml;htud seaduse v&otilde;i m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 3 punktis 2 s&auml;testatud juhul kannab haldusakti avalikult teatavaks tegemise kulud isik , kes avalikult teatavakstegemist n&otilde;udis .</s>
+</p>
+<p>
+<s>( 5 ) Isikule , kelle taotlus haldusakti andmiseks j&auml;etakse rahuldamata , tehakse k&auml;ttetoimetamisega teatavaks haldusakti andmisest keeldumine .</s>
+</p>
+<p>
+<s>( 6 ) Haldusakti avalikul teatavakstegemisel avaldatakse haldusakti andnud haldusorgani nimetus , haldusakti adressaadi nimi , haldusakti resolutiivosa ja viide kogu haldusaktiga tutvumise v&otilde;imalustele .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>T&uuml;hine haldusakt</s>
+</p>
+<p>
+<s>( 1 ) T&uuml;hine haldusakt on kehtetu algusest peale .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakt on t&uuml;hine , kui :</s>
+</p>
+<p>
+<s>1 ) sellest ei selgu haldusakti andnud haldusorgan ;</s>
+</p>
+<p>
+<s>2 ) sellest ei selgu haldusakti adressaat ;</s>
+</p>
+<p>
+<s>3 ) seda ei ole andnud p&auml;dev haldusorgan ;</s>
+</p>
+<p>
+<s>4 ) see kohustab toime panema &otilde;igusrikkumise ;</s>
+</p>
+<p>
+<s>5 ) sellest ei selgu &otilde;igused ja kohustused , kohustused on vastuk&auml;ivad v&otilde;i seda ei ole muul objektiivsel p&otilde;hjusel kellelgi v&otilde;imalik t&auml;ita .</s>
+</p>
+<p>
+<s>( 3 ) Haldusakti osa t&uuml;hisus toob kaasa kogu haldusakti t&uuml;hisuse , kui t&uuml;hise osata ei oleks haldusakti antud .</s>
+</p>
+<p>
+<s>( 4 ) Haldusakti andnud organ v&otilde;ib haldusakti t&uuml;hisuse igal ajal kindlaks teha .</s><s>Isik , kellel on selleks p&otilde;hjendatud huvi , v&otilde;ib n&otilde;uda haldusorganilt ja halduskohtult haldusakti t&uuml;hisuse kindlakstegemist .</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>Haldusakti muutmine ja kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Kehtetuks tunnistamise lubatavus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva jao s&auml;tteid kohaldatakse haldusakti kehtetuks tunnistamisele haldusorgani poolt .</s><s>Kehtetuks tunnistamise kohta s&auml;testatut kohaldatakse ka haldusorgani poolt haldusakti muutmise ja haldusakti kehtivuse peatamise suhtes .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan otsustab haldusakti kehtetuks tunnistamise kaalutlus&otilde;iguse kohaselt , kui seadus ei keela haldusakti kehtetuks tunnistada v&otilde;i ei kohusta haldusakti kehtetuks tunnistama .</s>
+</p>
+<p>
+<s>( 3 ) Kaalutlus&otilde;iguse teostamisel tuleb arvestada haldusakti andmise ja haldusakti kehtetuks tunnistamise tagaj&auml;rgi isikule , haldusakti andmise menetluse p&otilde;hjalikkust , haldusakti kehtetuks tunnistamise p&otilde;hjuste olulisust ning nende seost isiku osalemisega haldusakti andmise menetluses ja isiku muu tegevusega , haldusakti andmisest m&ouml;&ouml;dunud aega ning muid t&auml;htsust omavaid asjaolusid .</s>
+</p>
+<p>
+<s>( 4 ) Kui kehtetuks tunnistamine toimub &uuml;he isiku kasuks ja teise isiku kahjuks , l&auml;htutakse s&auml;tetest , mis reguleerivad haldusakti kehtetuks tunnistamist isiku kahjuks .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Kehtetuks tunnistamine isiku kasuks</s>
+</p>
+<p>
+<s>( 1 ) Haldusakti , mis andmise ajal oli &otilde;igusvastane , v&otilde;ib isiku kasuks tunnistada kehtetuks nii edasiulatuvalt kui ka tagasiulatuvalt .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igusp&auml;rase haldusakti v&otilde;ib edasiulatuvalt kehtetuks tunnistada isiku kasuks , v&auml;lja arvatud juhul , kui sama sisuga haldusakt tuleks uuesti v&auml;lja anda v&otilde;i kui kehtetuks tunnistamine oleks vastuolus seadusega .</s>
+</p>
+<p>
+<s>( 3 ) Kui langeb &auml;ra kestvalt &otilde;igusi piirava haldusakti andmise alus &otilde;iguslike v&otilde;i faktiliste asjaolude muutumise t&otilde;ttu , tuleb haldusakt isiku taotlusel tunnistada kehtetuks asjaolude muutumisest alates .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Kehtetuks tunnistamine isiku kahjuks</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igusvastase haldusakti v&otilde;ib , arvestades k&auml;esoleva seaduse &sect;-s 67 s&auml;testatut , isiku kahjuks kehtetuks tunnistada nii edasiulatuvalt kui ka tagasiulatuvalt , kui seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakti , mis andmise ajal oli &otilde;igusp&auml;rane , v&otilde;ib tunnistada isiku kahjuks edasiulatuvalt kehtetuks , kui :</s>
+</p>
+<p>
+<s>1 ) see on lubatud seadusega v&otilde;i kui selleks on j&auml;etud v&otilde;imalus haldusaktis ;</s>
+</p>
+<p>
+<s>2 ) haldusorganil oleks olnud &otilde;igus j&auml;tta haldusakt hiljem muutunud faktiliste asjaolude t&otilde;ttu v&otilde;i hiljem muudetud &otilde;igusnormi alusel v&auml;lja andmata ja avalik huvi haldusakti kehtetuks tunnistamiseks kaalub &uuml;les isiku usalduse , et haldusakt j&auml;&auml;b kehtima ;</s>
+</p>
+<p>
+<s>3 ) haldusaktiga on seotud lisakohustus ja isik ei ole seda t&auml;itnud ;</s>
+</p>
+<p>
+<s>4 ) isik ei kasuta haldusakti alusel &uuml;leantud raha v&otilde;i asja eesm&auml;rgip&auml;raselt .</s>
+</p>
+<p>
+<s>( 3 ) Haldusakti , mis andmise ajal oli &otilde;igusp&auml;rane , v&otilde;ib tunnistada isiku kahjuks tagasiulatuvalt kehtetuks k&auml;esoleva paragrahvi l&otilde;ike 2 punktides 1 , 3 ja 4 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 4 ) Haldusakti v&otilde;ib k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 2 s&auml;testatud juhul tunnistada kehtetuks asjaolude muutumisest alates , kui isik , kelle kahjuks haldusakt kehtetuks tunnistatakse , on j&auml;tnud s&uuml;&uuml;liselt t&auml;itmata kohustuse teatada asjaolude olulisest muutumisest .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Usalduse arvestamine</s>
+</p>
+<p>
+<s>( 1 ) Isiku kahjuks haldusakti kehtetuks tunnistamist otsustades arvestab haldusorgan peale k&auml;esoleva seaduse &sect; 64 l&otilde;ikes 3 s&auml;testatu ka isiku usaldust , et haldusakt j&auml;&auml;b kehtima , avalikku huvi ja haldusaktiga koormatud isiku huvi , et haldusakt tunnistataks kehtetuks .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakti ei tohi tunnistada kehtetuks isiku kahjuks , kui isik on haldusakti kehtima j&auml;&auml;mist usaldades kasutanud &auml;ra haldusakti alusel saadud vara , teinud tehingu oma vara k&auml;sutamiseks v&otilde;i on muul viisil muutnud oma elukorraldust ja tema huvi haldusakti kehtima j&auml;&auml;miseks kaalub &uuml;les avaliku huvi haldusakti kehtetuks tunnistamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Kui &uuml;lekaalukast avalikust huvist tulenevalt tunnistatakse haldusakt isiku kahjuks kehtetuks , h&uuml;vitatakse isikule varaline kahju , mis tal haldusakti kehtima j&auml;&auml;mise usaldamise t&otilde;ttu on tekkinud v&otilde;i kindlasti tekib .</s>
+</p>
+<p>
+<s>( 4 ) Isik ei saa haldusakti kehtetuks tunnistamisel tugineda usaldusele , kui :</s>
+</p>
+<p>
+<s>1 ) halduskohtule haldusakti kehtetuks tunnistamiseks kaebuse esitamise t&auml;htaeg ei ole veel m&ouml;&ouml;dunud , samuti haldusakti kehtetuks tunnistamise kaebuse l&auml;bivaatamise ajal ;</s>
+</p>
+<p>
+<s>2 ) kehtetuks tunnistamise v&otilde;imalus on ette n&auml;htud seaduses v&otilde;i selleks on j&auml;etud v&otilde;imalus haldusaktis ;</s>
+</p>
+<p>
+<s>3 ) isik ei ole t&auml;itnud haldusaktiga seotud lisakohustust ;</s>
+</p>
+<p>
+<s>4 ) isik ei ole kasutanud haldusakti alusel &uuml;le antud raha v&otilde;i asja eesm&auml;rgip&auml;raselt ;</s>
+</p>
+<p>
+<s>5 ) isik oli haldusakti &otilde;igusvastasusest teadlik v&otilde;i ei olnud sellest oma s&uuml;&uuml; t&otilde;ttu teadlik ;</s>
+</p>
+<p>
+<s>6 ) haldusakt on antud isiku esitatud eba&otilde;igete v&otilde;i mittet&auml;ielike andmete alusel v&otilde;i pettuse v&otilde;i &auml;hvardusega v&otilde;i muul viisil haldusorgani &otilde;igusvastase m&otilde;jutamise tulemusena .</s>
+</p>
+<p>
+<s>( 5 ) Eba&otilde;igete andmete esitamine ei v&auml;lista usalduse arvestamist , kui eba&otilde;igete v&otilde;i mittet&auml;ielike andmete esitamise on p&otilde;hjustanud haldusorgan ja isik ei olnud ega pidanud olema haldusakti &otilde;igusvastasusest teadlik .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Kehtetuks tunnistamise taotlemine ja otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Isikul on &otilde;igus taotleda haldusakti kehtetuks tunnistamist &uuml;ksnes juhul , kui ta v&otilde;ib taotleda k&auml;esoleva seaduse &sect; 44 alusel haldusmenetluse uuendamist .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakti kehtetuks tunnistamise otsustab haldusorgan , kelle p&auml;devuses oleks haldusakti andmine kehtetuks tunnistamise ajal.</s><s>Muu haldusorgan v&otilde;ib haldusakti kehtetuks tunnistada ainult seaduses s&auml;testatud juhul .</s><s>P&auml;devust &uuml;letades antud haldusakti v&otilde;ib tunnistada kehtetuks ka haldusakti andnud haldusorgan .</s>
+</p>
+<p>
+<s>( 3 ) Haldusakt loetakse kehtetuks kehtetuks tunnistamise j&otilde;ustumise hetkest , kui haldusorgan ei kehtesta teist ajamomenti .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Kehtetuks tunnistamisest tulenev tagastamine ja h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Tagasiulatuvalt kehtetuks tunnistatud haldusakti alusel isikule &uuml;le antud asi , raha v&otilde;i muu soodustus tagastatakse v&otilde;i h&uuml;vitatakse era&otilde;iguses alusetu rikastumise kohta kehtivate s&auml;tete kohaselt .</s>
+</p>
+<p>
+<s>( 2 ) Tagasiulatuvalt kehtetuks tunnistatud haldusakti alusel isiku poolt haldusorganile &uuml;le antud asjade v&otilde;i raha tagastamise v&otilde;i h&uuml;vitamise osas kohaldatakse riigivastutuse seadust ( RT I 2001 , 15 , 69 ) .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Muud n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Haldusakt tunnistatakse kehtetuks iseseisva haldusaktiga , mille suhtes kohaldatakse peale k&auml;esoleva jao s&auml;tete ka muid haldusakti kohta kehtivaid n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) Seadusega v&otilde;ib haldusakti kehtetuks tunnistamise aluseid , v&otilde;rreldes k&auml;esoleva jao s&auml;tetega , piirata v&otilde;i laiendada .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vaidemenetlus</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Vaidemenetluse algatamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Isik , kes leiab , et haldusaktiga v&otilde;i haldusmenetluse k&auml;igus on rikutud tema &otilde;igusi v&otilde;i piiratud tema vabadusi , v&otilde;ib esitada vaide .</s>
+</p>
+<p>
+<s>( 2 ) Vaiet ei saa esitada riikliku j&auml;relevalve korras antud akti v&otilde;i sooritatud toimingu peale ega haldusorgani , kelle &uuml;le teostab teenistuslikku j&auml;relevalvet Vabariigi Valitsus , akti v&otilde;i toimingu peale .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Vaidemenetluse ese</s>
+</p>
+<p>
+<s>( 1 ) Vaidemenetluse korras v&otilde;ib taotleda :</s>
+</p>
+<p>
+<s>1 ) haldusakti kehtetuks tunnistamist ;</s>
+</p>
+<p>
+<s>2 ) haldusakti osa kehtetuks tunnistamist , kui seadus ei piira haldusakti osalist vaidlustamist ;</s>
+</p>
+<p>
+<s>3 ) ettekirjutuse tegemist haldusakti andmiseks , asja uueks otsustamiseks v&otilde;i toimingu sooritamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Haldusmenetluse toiming vaidlustatakse koos haldusaktiga ( sisulise otsusega ) .</s>
+</p>
+<p>
+<s>( 3 ) Haldusaktist eraldi v&otilde;ib vaidlustada :</s>
+</p>
+<p>
+<s>1 ) viivituse ;</s>
+</p>
+<p>
+<s>2 ) tegevusetuse ;</s>
+</p>
+<p>
+<s>3 ) ametiisiku taandamisest keeldumise ;</s>
+</p>
+<p>
+<s>4 ) haldusakti andmise taotluse tagastamise ;</s>
+</p>
+<p>
+<s>5 ) muu seaduses s&auml;testatud toimingu .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Vaidealluvus</s>
+</p>
+<p>
+<s>( 1 ) Kui seadusega ei ole s&auml;testatud teistsugust vaidealluvust , esitatakse vaie haldusakti andnud v&otilde;i toimingu sooritanud haldusorgani kaudu haldusorganile , kes teostab haldusakti andnud v&otilde;i toimingu sooritanud haldusorgani &uuml;le teenistuslikku j&auml;relevalvet .</s>
+</p>
+<p>
+<s>( 2 ) Kui haldusakti andnud v&otilde;i toimingu sooritanud haldusorgani &uuml;le teenistuslikku j&auml;relevalvet teostavat organit ei ole , lahendab vaide haldusakti andnud v&otilde;i toimingu sooritanud haldusorgan .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Vaidemenetluse algatamine</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Vaidemenetluse algus</s>
+</p>
+<p>
+<s>Vaidemenetlus algab vaide esitamisega haldusorganile .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Vaide esitamise t&auml;htaeg</s>
+</p>
+<p>
+<s>Vaie haldusaktile v&otilde;i toimingule tuleb esitada 30 p&auml;eva jooksul , kui seadus ei s&auml;testa teisiti , arvates p&auml;evast , millal isik vaidlustatavast haldusaktist v&otilde;i toimingust teada sai v&otilde;i oleks pidanud teada saama .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Vaidele esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Vaie esitatakse kirjalikult v&otilde;i suuliselt .</s><s>Suuline vaie protokollitakse haldusorganis ning sellele v&otilde;etakse esitaja allkiri .</s>
+</p>
+<p>
+<s>( 2 ) Vaides m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) haldusorgani nimetus , kellele vaie on esitatud ;</s>
+</p>
+<p>
+<s>2 ) vaide esitaja nimi v&otilde;i nimetus , postiaadress ja sidevahendite numbrid ;</s>
+</p>
+<p>
+<s>3 ) vaidlustatava haldusakti v&otilde;i toimingu sisu ;</s>
+</p>
+<p>
+<s>4 ) p&otilde;hjused , miks vaide esitaja leiab , et haldusakt v&otilde;i toiming rikub tema &otilde;igusi ;</s>
+</p>
+<p>
+<s>5 ) vaide esitaja selgelt v&auml;ljendatud taotlus ;</s>
+</p>
+<p>
+<s>6 ) vaide esitaja kinnitus selle kohta , et vaieldavas asjas ei ole j&otilde;ustunud kohtuotsust ega toimu kohtumenetlust ;</s>
+</p>
+<p>
+<s>7 ) vaidele lisatud dokumentide loetelu .</s>
+</p>
+<p>
+<s>( 3 ) Vaidele kirjutab alla selle esitaja v&otilde;i tema esindaja .</s><s>Vaide esitaja esindaja lisab volikirja v&otilde;i muu volitust t&otilde;endava dokumendi , kui seda ei ole esitatud varem .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Vaide t&auml;htaja ennistamine</s>
+</p>
+<p>
+<s>Vaide esitamise t&auml;htaja v&otilde;ib ennistada k&auml;esoleva seaduse &sect;-s 34 s&auml;testatud tingimustel .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Ettevalmistav menetlus</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Puudused vaides</s>
+</p>
+<p>
+<s>Kui vaie ei vasta k&auml;esoleva seaduse &sect;-s 76 s&auml;testatud n&otilde;uetele , aitab haldusorgan puudused k&otilde;rvaldada v&otilde;i annab isikule 10-p&auml;evase t&auml;htaja puuduste k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Vaide tagastamine</s>
+</p>
+<p>
+<s>( 1 ) Vaie tagastatakse , kui :</s>
+</p>
+<p>
+<s>1 ) isikul puudub &otilde;igus vaie esitada ;</s>
+</p>
+<p>
+<s>2 ) vaide esitaja ei ole m&auml;&auml;ratud t&auml;htajaks vaide puudusi k&otilde;rvaldanud ;</s>
+</p>
+<p>
+<s>3 ) m&ouml;&ouml;da on lastud vaide esitamise t&auml;htaeg ning seda ei ennistata ;</s>
+</p>
+<p>
+<s>4 ) samas asjas on olemas j&otilde;ustunud kohtuotsus ;</s>
+</p>
+<p>
+<s>5 ) samas asjas toimub kohtumenetlus .</s>
+</p>
+<p>
+<s>( 2 ) Kui vaie ei kuulu haldusorgani p&auml;devusse , tagastab haldusorgan vaide , selgitades , kuhu isik peab p&ouml;&ouml;rduma , v&otilde;i edastab vaide p&auml;devale haldusorganile , teatades sellest vaide esitajale .</s>
+</p>
+<p>
+<s>( 3 ) Vaide tagastamisest teatatakse isikule kirjalikult vaide esitamisest alates seitsme p&auml;eva jooksul .</s><s>Teates tuleb vaide tagastamist p&otilde;hjendada ning selgitada edasikaebamise korda .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Vaide edastamine</s>
+</p>
+<p>
+<s>( 1 ) Kui vaie vastab k&auml;esolevas seaduses s&auml;testatud n&otilde;uetele , edastab haldusorgan vaide koos vajalike dokumentidega vaide saamisest alates seitsme p&auml;eva jooksul haldusorganile , kes teostab haldusakti andnud v&otilde;i toimingu sooritanud haldusorgani &uuml;le teenistuslikku j&auml;relevalvet .</s>
+</p>
+<p>
+<s>( 2 ) Kui haldusakti andnud v&otilde;i toimingu sooritanud haldusorgan leiab , et vaie on p&otilde;hjendatud , v&otilde;ib ta ise selle rahuldada .</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Haldusakti t&auml;itmise peatumine</s>
+</p>
+<p>
+<s>Vaiet lahendav haldusorgan v&otilde;ib haldusakti t&auml;itmise peatada , kui see on vajalik avaliku huvi , haldusakti adressaadi v&otilde;i kolmanda isiku &otilde;iguste kaitseks .</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>Vaide l&auml;bivaatamise ettevalmistamine</s>
+</p>
+<p>
+<s>Vaiet l&auml;bivaatav haldusorgan :</s>
+</p>
+<p>
+<s>1 ) n&otilde;uab vajaduse korral asjaomaselt haldusorganilt v&auml;lja haldusakti kohta k&auml;ivad dokumendid ;</s>
+</p>
+<p>
+<s>2 ) teostab vajaduse korral paikvaatlust ;</s>
+</p>
+<p>
+<s>3 ) kasutab vajaduse korral eksperti ;</s>
+</p>
+<p>
+<s>4 ) n&otilde;uab vajaduse korral haldusakti andnud haldusorganilt kirjalikke selgitusi ;</s>
+</p>
+<p>
+<s>5 ) kuulab &auml;ra asjast huvitatud isikute seletused ;</s>
+</p>
+<p>
+<s>6 ) lahendab haldusakti t&auml;itmise peatamise k&uuml;simusi ;</s>
+</p>
+<p>
+<s>7 ) teeb vaide esitanud isikule ja teistele asjast huvitatud isikutele teatavaks asja arutamise aja ja koha ;</s>
+</p>
+<p>
+<s>8 ) sooritab teisi seaduses s&auml;testatud toiminguid .</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>Vaide l&auml;bivaatamine</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>Vaide l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) Vaiet l&auml;bi vaadates kontrollitakse haldusakti andmise &otilde;igusp&auml;rasust ja otstarbekust .</s>
+</p>
+<p>
+<s>( 2 ) Vaiet l&auml;bi vaadates uuritakse dokumentaalseid t&otilde;endeid , kuulatakse &auml;ra asjast huvitatud isikute seletused ja ekspertide arvamused ning tunnistajate &uuml;tlused , vaadeldakse asit&otilde;endeid ja teostatakse paikvaatlusi .</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>Vaide l&auml;bivaatamise t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Kui seadus ei s&auml;testa teisiti , lahendatakse vaie 10 p&auml;eva jooksul , arvates vaide edastamisest vaiet l&auml;bivaatavale haldusorganile .</s>
+</p>
+<p>
+<s>( 2 ) Kui vaiet on vaja t&auml;iendavalt uurida , v&otilde;ib vaiet l&auml;bivaatav haldusorgan vaide l&auml;bivaatamise t&auml;htaega pikendada kuni 30 p&auml;eva v&otilde;rra .</s><s>T&auml;htaja pikendamisest tuleb vaide esitajale kirjalikult teatada .</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>Haldusorgani volitused vaide l&auml;bivaatamisel</s>
+</p>
+<p>
+<s>Vaiet sisuliselt lahendades on haldusorganil &otilde;igus vaideotsusega :</s>
+</p>
+<p>
+<s>1 ) rahuldada vaie ja tunnistada haldusakt kas t&auml;ielikult v&otilde;i osaliselt kehtetuks ning k&otilde;rvaldada haldusakti faktilised tagaj&auml;rjed ;</s>
+</p>
+<p>
+<s>2 ) teha ettekirjutus haldusakti andmiseks , toimingu sooritamiseks v&otilde;i asja uueks otsustamiseks ;</s>
+</p>
+<p>
+<s>3 ) teha ettekirjutus toimingu tagasit&auml;itmiseks ;</s>
+</p>
+<p>
+<s>4 ) j&auml;tta vaie rahuldamata .</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>Vaideotsus</s>
+</p>
+<p>
+<s>( 1 ) Vaideotsus vormistatakse kirjalikult ja selles m&auml;rgitakse resolutsioon vaide lahendamise kohta .</s><s>Vaideotsus toimetatakse vaide esitajale ja kolmandale isikule k&auml;tte .</s>
+</p>
+<p>
+<s>( 2 ) Vaide rahuldamata j&auml;tmisel peab vaideotsus lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud n&otilde;uetele olema p&otilde;hjendatud ja sisaldama selgituse halduskohtule kaebuse esitamise kohta .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igete 1 ja 2 kohaselt vormistatakse ka vaide tagastamine haldusorgani poolt .</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>Edasikaebamise &otilde;igus</s>
+</p>
+<p>
+<s>Isikul , kelle vaie j&auml;&auml;b vaidemenetluses rahuldamata v&otilde;i kelle &otilde;igusi on vaidemenetluses rikutud , on &otilde;igus p&ouml;&ouml;rduda halduskohtumenetluse seadustikus ( RT I 1999 , 31 , 425 ; 33 , &otilde;iend ; 40 , &otilde;iend ; 96 , 846 ; 2000 , 51 , 321 ) s&auml;testatud tingimustel ja korras kaebusega halduskohtusse .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>M&auml;&auml;rus</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>M&auml;&auml;rus</s>
+</p>
+<p>
+<s>M&auml;&auml;rus on &otilde;igusakt , mille haldusorgan annab piiritlemata arvu juhtude reguleerimiseks .</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>M&auml;&auml;ruse &otilde;igusp&auml;rasus</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;rus on &otilde;igusp&auml;rane , kui see on koosk&otilde;las kehtiva &otilde;igusega , vastab vormin&otilde;uetele ja kui selle on seaduses etten&auml;htud korras volitusnormi alusel andnud volitusnormis nimetatud haldusorgan .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;ruse andmisele ei kohaldata k&auml;esoleva seaduse 1. osas s&auml;testatut , v&auml;lja arvatud 1. peat&uuml;ki 1. ja 2. jao ning 3. peat&uuml;ki s&auml;tted .</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>Volitusnorm</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;ruse v&otilde;ib anda ainult seaduses sisalduva volitusnormi olemasolul ja koosk&otilde;las volitusnormi piiride , m&otilde;tte ja eesm&auml;rgiga .</s>
+</p>
+<p>
+<s>( 2 ) Kohaliku elu k&uuml;simuse korraldamiseks v&otilde;ib kohaliku omavalitsuse organ anda m&auml;&auml;ruse volitusnormita , v&auml;lja arvatud juhul , kui seaduses on volitusnorm olemas .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;iget 1 ei kohaldata volitusnormita antud m&auml;&auml;ruse kehtetuks tunnistamisel haldusorgani poolt .</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>Edasivolitus</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan , keda on volitatud m&auml;&auml;rust andma , v&otilde;ib m&auml;&auml;ruse andmise teisele haldusorganile edasi volitada ainult juhul , kui see v&otilde;imalus on volitusnormis ette n&auml;htud .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&uuml;simuse otsustamine on seadusega antud kohaliku omavalitsuse p&auml;devusse , siis igal konkreetsel juhul , kui k&uuml;simus ei ole seadusega antud valla- v&otilde;i linnavolikogu ainup&auml;devusse , v&otilde;ib valla- v&otilde;i linnavolikogu m&auml;&auml;ruse andmise edasi volitada valla- v&otilde;i linnavalitsusele .</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>M&auml;&auml;ruse vorm</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;rus antakse kirjalikult .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;ruses tuleb viidata m&auml;&auml;ruse andmise aluseks olevale volitusnormile .</s><s>Kui m&auml;&auml;ruse annab haldusorgan edasivolituse alusel , tuleb viidata ka edasivolitusele .</s><s>Seda n&otilde;uet ei kohaldata volitusnormita antud m&auml;&auml;ruse kehtetuks tunnistamise suhtes .</s>
+</p>
+<p>
+<s>( 3 ) M&auml;&auml;ruses m&auml;rgitakse selle andnud haldusorgani nimetus ning m&auml;&auml;ruse andmise kuup&auml;ev ja number .</s><s>M&auml;&auml;rus pealkirjastatakse .</s>
+</p>
+<p>
+<s>( 4 ) M&auml;&auml;rust muutvas v&otilde;i kehtetuks tunnistavas m&auml;&auml;ruses tuleb nimetada ka muudetava v&otilde;i kehtetuks tunnistatava m&auml;&auml;ruse pealkiri ja number ning m&auml;&auml;ruse andmise kuup&auml;ev ja m&auml;&auml;ruse avaldamism&auml;rge .</s>
+</p>
+<p>
+<s>( 5 ) M&auml;&auml;rusele kirjutatakse alla ja m&auml;&auml;rus avaldatakse seaduses etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>M&auml;&auml;ruse kehtivuse tingimused</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;rus kehtib , kuni selle tunnistab kehtetuks haldusorgan v&otilde;i Riigikohus v&otilde;i kehtivusaja l&otilde;ppemiseni v&otilde;i volitusnormi kehtetuks tunnistamiseni .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;rus hakkab kehtima ( j&otilde;ustub ) kolmandal p&auml;eval p&auml;rast kehtivas korras avaldamist , kui seaduses v&otilde;i m&auml;&auml;ruses endas ei ole s&auml;testatud hilisemat t&auml;htp&auml;eva .</s><s>Seaduses etten&auml;htud juhul j&otilde;ustub m&auml;&auml;rus k&auml;esolevas l&otilde;ikes s&auml;testatust varem .</s>
+</p>
+<p>
+<s>( 3 ) Kui m&auml;&auml;rus on antud volitusnormi alusel , mis sisaldub Vabariigi Presidendi poolt v&auml;ljakuulutatud , kuid veel j&otilde;ustumata seaduses , ei j&otilde;ustu m&auml;&auml;rus enne seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>M&auml;&auml;ruse t&uuml;hisus</s>
+</p>
+<p>
+<s>( 1 ) Kui m&auml;&auml;rus on t&uuml;hine , siis loetakse , et ta ei ole kunagi kehtinud .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;rus on t&uuml;hine , kui :</s>
+</p>
+<p>
+<s>1 ) seda ei ole kehtivas korras avaldatud ;</s>
+</p>
+<p>
+<s>2 ) m&auml;&auml;rusest ei n&auml;htu selle andnud haldusorgan .</s>
+</p>
+<p>
+<s>( 3 ) T&uuml;hist m&auml;&auml;rust ei rakendata .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Haldusleping</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>Halduslepingu m&otilde;iste</s>
+</p>
+<p>
+<s>Haldusleping on kokkulepe , mis reguleerib haldus&otilde;igussuhteid .</s><s>Halduslepingu v&otilde;ib s&otilde;lmida kas &uuml;ksikjuhtumi v&otilde;i piiritlemata arvu juhtumite reguleerimiseks .</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Halduslepingu pooled</s>
+</p>
+<p>
+<s>( 1 ) V&auml;hemalt &uuml;ks halduslepingu pool on riik , kohaliku omavalitsuse &uuml;ksus , muu avalik-&otilde;iguslik juriidiline isik , era&otilde;iguslik juriidiline isik v&otilde;i f&uuml;&uuml;siline isik , kes seaduse alusel t&auml;idab avaliku halduse &uuml;lesandeid .</s>
+</p>
+<p>
+<s>( 2 ) Avalik-&otilde;igusliku juriidilise isiku nimel s&otilde;lmib halduslepingu haldusorgan , kelle p&auml;devuses on t&auml;ita halduslepingu esemeks olev &uuml;lesanne .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Halduslepingu s&otilde;lmimise lubatavus</s>
+</p>
+<p>
+<s>( 1 ) Piiritlemata arvu juhtumite reguleerimiseks v&otilde;ib s&otilde;lmida halduslepingu vaid seaduses sisalduva volitusnormi alusel .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan v&otilde;ib s&otilde;lmida halduslepingu &uuml;ksnes oma p&auml;devuse piirides .</s><s>Haldusorgan ei v&otilde;i v&otilde;tta endale halduslepinguga kohustusi , mis &uuml;letavad tema p&auml;devuse .</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>Halduslepingu s&otilde;lmimine haldusakti andmise asemel</s>
+</p>
+<p>
+<s>( 1 ) Haldusorgan v&otilde;ib haldusakti andmise asemel s&otilde;lmida &uuml;ksikjuhtumi reguleerimiseks halduslepingu isikuga , kellele haldusakt oleks muidu suunatud , kui seadus v&otilde;i m&auml;&auml;rus ei n&auml;e otseselt ette &uuml;ksnes haldusakti andmist .</s>
+</p>
+<p>
+<s>( 2 ) Haldusakti andmise asemel s&otilde;lmitud halduslepinguga isikule pandavad kohustused peavad olema vastavuses lepingu eesm&auml;rgiga ja lepingust tulenevate haldusorgani kohustustega .</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Halduslepingu s&otilde;lmimine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;ksikjuhtumi reguleerimiseks halduslepingu s&otilde;lmimisele kohaldatakse k&auml;esoleva seaduse 1. osas s&auml;testatut niiv&otilde;rd , kuiv&otilde;rd see ei ole vastuolus halduslepingu olemusega .</s>
+</p>
+<p>
+<s>( 2 ) Piiritlemata arvu juhtumite reguleerimiseks s&otilde;lmitakse haldusleping tsiviil&otilde;iguslike lepingute s&otilde;lmimiseks etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 3 ) Haldusleping s&otilde;lmitakse kirjalikult .</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>Halduslepingu &otilde;igusp&auml;rasus</s>
+</p>
+<p>
+<s>Haldusleping on &otilde;igusp&auml;rane , kui ta vastab k&auml;esoleva seaduse &sect;-des 54-57 v&otilde;i &sect;-des 89-91 ja &sect; 92 l&otilde;ikes 2 s&auml;testatud n&otilde;uetele .</s><s>Nimetatud n&otilde;udeid kohaldatakse halduslepingule niiv&otilde;rd , kuiv&otilde;rd need ei ole vastuolus halduslepingu olemusega .</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Halduslepingu j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;ksikjuhtumit reguleeriv haldusleping j&otilde;ustub tsiviil&otilde;iguslike lepingute j&otilde;ustumiseks etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud haldusleping piirab kolmanda isiku &otilde;igusi , j&otilde;ustub leping alates kolmanda isiku poolt sellekohase kirjaliku n&otilde;usoleku andmisest .</s>
+</p>
+<p>
+<s>( 3 ) Kui teise haldusorgani n&otilde;usolekul antava haldusakti andmise asemel s&otilde;lmitakse haldusleping , ei j&otilde;ustu see enne teise haldusorgani n&otilde;usoleku saamist .</s>
+</p>
+<p>
+<s>( 4 ) Piiritlemata arvu juhtumeid reguleeriv haldusleping j&otilde;ustub m&auml;&auml;ruse j&otilde;ustumiseks etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Halduslepingu muutmine ja l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Halduslepingut muudetakse ja see l&otilde;petatakse tsiviilseadustes s&auml;testatud korras , arvestades k&auml;esolevas paragrahvis kehtestatud erisusi .</s>
+</p>
+<p>
+<s>( 2 ) Haldusorgan v&otilde;ib halduslepingut &uuml;hepoolselt muuta v&otilde;i halduslepingu l&otilde;petada , kui see on tingimata vajalik , et v&auml;ltida &uuml;lekaaluka avaliku huvi rasket kahjustamist .</s>
+</p>
+<p>
+<s>( 3 ) Halduslepingu muutmise v&otilde;i l&otilde;petamise korral k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud juhul peab haldusorgan halduslepingu muutmist v&otilde;i l&otilde;petamist p&otilde;hjendama .</s><s>Halduslepingu muutmise v&otilde;i l&otilde;petamise korral peab haldusorgan h&uuml;vitama lepingu teisele poolele sellega tekitatud varalise kahju .</s>
+</p>
+<p>
+<s>( 4 ) Kui halduslepingu t&auml;itmine on p&auml;rast selle s&otilde;lmimist muutunud oluliselt raskemaks , v&otilde;ib raskustesse sattunud pool , keda ei ole k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud , n&otilde;uda halduslepingu muutmist vastavalt uutele oludele .</s><s>Kui see ei ole v&otilde;imalik v&otilde;i kui teine pool sellest keeldub , v&otilde;ib raskustesse sattunud pool p&ouml;&ouml;rduda kohtusse halduslepingu l&otilde;petamise taotlusega .</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Halduslepingu t&uuml;hisus</s>
+</p>
+<p>
+<s>( 1 ) Haldusleping on t&uuml;hine :</s>
+</p>
+<p>
+<s>1 ) kui t&uuml;hine oleks sama sisuga haldusakt ;</s>
+</p>
+<p>
+<s>2 ) kui esinevad asjaolud , mis tingivad tsiviil&otilde;igusliku lepingu t&uuml;hisuse .</s>
+</p>
+<p>
+<s>( 2 ) T&uuml;hisele halduslepingule kohaldatakse tsiviil&otilde;iguslike lepingute t&uuml;hisuse kohta s&auml;testatut .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>&Otilde;igusvastane haldusleping</s>
+</p>
+<p>
+<s>( 1 ) Halduslepingu &otilde;igusp&auml;rasuse n&otilde;uetele mittevastav , kuid mitte t&uuml;hine haldusleping kehtib ja seda tuleb t&auml;ita , v&auml;lja arvatud juhul , kui &uuml;ksikisikust lepingupool oli halduslepingu s&otilde;lmimisel halduslepingu &otilde;igusvastasusest teadlik v&otilde;i kui haldusleping s&otilde;lmiti tema poolt esitatud vale- v&otilde;i mittet&auml;ielike andmete alusel v&otilde;i haldusorgani &auml;hvardamise , petmise v&otilde;i muul viisil &otilde;igusvastase m&otilde;jutamise tulemusel .</s>
+</p>
+<p>
+<s>( 2 ) Kui haldusleping ei kuulu k&auml;esoleva paragrahvi l&otilde;ikes 1 loetletud p&otilde;hjustel t&auml;itmisele , muudetakse haldusleping &otilde;igusp&auml;raseks v&otilde;i l&otilde;petatakse haldusorgani otsusel .</s><s>Halduslepingu l&otilde;petamisel tagastavad pooled lepingu j&auml;rgi saadu , tagastamise v&otilde;imatuse korral h&uuml;vitavad saadu rahas .</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>Muud halduslepingutele kohaldatavad s&auml;tted</s>
+</p>
+<p>
+<s>( 1 ) Halduslepingutele kohaldatakse tsiviil&otilde;iguslike lepingute kohta k&auml;ivaid s&auml;tteid , arvestades k&auml;esoleva seadusega kehtestatud erisusi .</s>
+</p>
+<p>
+<s>( 2 ) Halduslepingutele , mille esemeks on riigi v&otilde;i kohaliku omavalitsuse haldus&uuml;lesannete t&auml;itmiseks &uuml;leandmine muule isikule , kohaldatakse lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatule ka haldus&uuml;lesannete &uuml;leandmist reguleeriva seaduse n&otilde;udeid .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Toiming</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>Toimingu m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Toiming on haldusorgani tegevus , mis ei ole &otilde;igusakti andmine ja mida ei sooritata tsiviil&otilde;igussuhtes .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva peat&uuml;ki s&auml;tteid ei kohaldata menetlustoimingule .</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>Toimingu &otilde;iguslik siduvus ja kaalutlus&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Toiming peab olema koosk&otilde;las &otilde;igusaktidega .</s><s>Toiming v&otilde;ib piirata &otilde;igusi v&otilde;i vabadusi ainult siis , kui selleks on seaduslik alus .</s>
+</p>
+<p>
+<s>( 2 ) Toimingu sooritamise viisi , ulatuse ja aja ning menetlemise korra m&auml;&auml;rab haldusorgan oma &auml;ran&auml;gemisel , j&auml;rgides kaalutlus&otilde;iguse piire ja v&otilde;rdse kohtlemise ning proportsionaalsuse p&otilde;him&otilde;tteid .</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>Toimingu p&otilde;hjendamine</s>
+</p>
+<p>
+<s>( 1 ) Kui toiminguga piiratakse isiku &otilde;igusi , on isikul &otilde;igus n&otilde;uda toimingu kirjalikku p&otilde;hjendamist .</s>
+</p>
+<p>
+<s>( 2 ) Toimingu p&otilde;hjendamise n&otilde;ue tuleb esitada haldusorganile kirjalikult viivitamata p&auml;rast toimingust teadasaamist .</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>&Otilde;iguste kaitse</s>
+</p>
+<p>
+<s>Kui toiminguga rikutakse isiku &otilde;igusi , v&otilde;ib isik n&otilde;uda haldusorganilt v&otilde;i kohtult toimingu &auml;raj&auml;tmist v&otilde;i l&otilde;petamist ning toimingu tagaj&auml;rgede k&otilde;rvaldamist ja kahju h&uuml;vitamist vastavalt riigivastutuse seadusele ning p&ouml;&ouml;rduda selleks halduskohtusse halduskohtumenetluse seadustikus etten&auml;htud korras .</s>
+</p>
+<p>
+<s>3. osa</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>Avaldustele vastamise seaduse muutmine</s>
+</p>
+<p>
+<s>Avaldustele vastamise seaduse ( RT I 1994 , 51 , 857 ; 1996 , 49 , 953 ; 2000 , 49 , 304 ; 92 , 597 ) &sect; 9 l&otilde;ige 1 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 111.</s><s>Keeleseaduse muutmine</s>
+</p>
+<p>
+<s>Keeleseaduse ( RT I 1995 , 23 , 334 ; 1996 , 37 , 739 ; 40 , 773 ; 1997 , 69 , 1110 ; 1998 , 98/99 , 1618 ; 1999 , 1 , 1 ; 16 , 275 ; 2000 , 51 , 326 ) &sect; 8 tekst muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Kui riigiasutusele v&otilde;i kohalikule omavalitsusele esitatav avaldus , taotlus v&otilde;i muu dokument on v&otilde;&otilde;rkeelne , on asutusel &otilde;igus n&otilde;uda dokumendi esitajalt dokumendi t&otilde;lget eesti keelde , v&auml;lja arvatud k&auml;esoleva seaduse &sect;-s 10 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Kui riigiasutus v&otilde;i kohalik omavalitsus ei n&otilde;ua kohe avalduse , taotluse v&otilde;i muu dokumendi t&otilde;lget eesti keelde , loetakse v&otilde;&otilde;rkeelne dokument asutuse poolt vastuv&otilde;etuks .</s>
+</p>
+<p>
+<s>( 3 ) Seaduses s&auml;testatud juhtudel on riigiasutusel v&otilde;i kohalikul omavalitsusel &otilde;igus n&otilde;uda t&otilde;lke notariaalset kinnitamist .</s><s>Kui n&otilde;utud t&otilde;lget ei esitata , v&otilde;ib riigiasutus v&otilde;i kohalik omavalitsus dokumendi tagastada v&otilde;i selle t&otilde;lkida esitaja n&otilde;usolekul ja kulul .</s>
+</p>
+<p>
+<s>( 4 ) Eesti keelt mittevaldavad isikud v&otilde;ivad suulises suhtlemises riigiasutuse ja kohaliku omavalitsuse teenistujate v&otilde;i t&ouml;&ouml;tajatega poolte kokkuleppel kasutada ka v&otilde;&otilde;rkeelt , mida teenistujad v&otilde;i t&ouml;&ouml;tajad oskavad .</s><s>Kui kokkulepet ei saavutata , suheldakse t&otilde;lgi vahendusel ning kulud katab eesti keelt mittevaldav isik , kui seadusega ei s&auml;testata teisiti . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 112.</s><s>Seaduse j&otilde;ustumine ja rakendamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2002. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 2 ) Eriseadusega reguleeritud haldusmenetlusele kohaldatakse k&auml;esolevat seadust juhul , kui seda n&auml;eb ette eriseadus .</s>
+</p>
+</body>
+   </text>
+</tei.2>

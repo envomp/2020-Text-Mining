@@ -1,0 +1,435 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> T&ouml;&ouml;tu sotsiaalse kaitse seadus ( terviktekst juuli 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    1726</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> T&ouml;&ouml;tu sotsiaalse kaitse seadus ( terviktekst juuli 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=110></tagusage>
+         <tagusage gi=s occurs=137></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>T&ouml;&ouml;tu sotsiaalse kaitse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 14. juunil 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2000 , 57 , 371 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. oktoobril 2000. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359.</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus reguleerib t&ouml;&ouml;tuna arvelolekut ja t&ouml;&ouml;tu riikliku abiraha , &uuml;hekordse toetuse ning &otilde;ppestipendiumi maksmist t&ouml;&ouml;h&otilde;iveameti kaudu .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>&Otilde;igus saada t&ouml;&ouml;tu riiklikku abiraha</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses etten&auml;htud juhtudel on &otilde;igus saada t&ouml;&ouml;tu riiklikku abiraha :</s>
+</p>
+<p>
+<s>1 ) Eesti alalisel elanikul ;</s>
+</p>
+<p>
+<s>2 ) t&auml;htajalise elamisloa alusel Eestis elavale v&auml;lismaalasele ;</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>3 ) Eestis viibival pagulasel kuni elamisloa t&auml;htaja l&otilde;ppemiseni .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>T&ouml;&ouml;tuna arvelev&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tu on t&auml;ieliku v&otilde;i osalise t&ouml;&ouml;v&otilde;imega isik , kelle vanus on 16 aastat v&otilde;i &uuml;le selle kuni vanaduspensioni eani , kes on t&ouml;&ouml;ta , valmis kohe t&ouml;&ouml;le asuma ning otsib t&ouml;&ouml;d .</s><s>Isik otsib t&ouml;&ouml;d , kui ta p&ouml;&ouml;rdub t&ouml;&ouml;h&otilde;iveametisse v&auml;hemalt kord 30 p&auml;eva jooksul sooviga kohe t&ouml;&ouml;le asuda ning on valmis osalema t&ouml;&ouml;turukoolituses .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;tu v&otilde;tab arvele elukohaj&auml;rgne t&ouml;&ouml;h&otilde;iveamet .</s>
+</p>
+<p>
+<s>( 3 ) Isik v&otilde;etakse t&ouml;&ouml;h&otilde;iveametis t&ouml;&ouml;tuna arvele , kui ta p&ouml;&ouml;rdub t&ouml;&ouml;h&otilde;iveametisse ja esitab vajalikud dokumendid Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>( 4 ) Isikut ei v&otilde;eta t&ouml;&ouml;tuna arvele , kui ta :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tab t&ouml;&ouml;- v&otilde;i teenistuslepingu v&otilde;i tsiviil&otilde;igusliku lepingu alusel v&otilde;i riigi v&otilde;i kohaliku omavalitsuse ametiasutuses ;</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>2 ) tegutseb ettev&otilde;tjana ;</s>
+</p>
+<p>
+<s>3 ) &otilde;pib &otilde;ppeasutuses p&auml;evases v&otilde;i statsionaarses &otilde;ppevormis ;</s>
+</p>
+<p>
+<s>4 ) teenib kaitsev&auml;es v&otilde;i asendusteenistuses ;</s>
+</p>
+<p>
+<s>5 ) on rase ja kellel arsti m&auml;&auml;ratud s&uuml;nnitust&auml;htajani on j&auml;&auml;nud v&auml;hem kui 70 kalendrip&auml;eva .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>T&ouml;&ouml;tuna arveloleku l&otilde;petamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tuna arvelolek l&otilde;petatakse , kui isik :</s>
+</p>
+<p>
+<s>1 ) katkestab t&ouml;&ouml;otsingu rohkem kui 30 p&auml;evaks ;</s>
+</p>
+<p>
+<s>2 ) j&otilde;uab vanaduspensioniikka v&otilde;i talle on m&auml;&auml;ratud ennet&auml;htaegne vanaduspension ;</s>
+</p>
+<p>
+<s>3 ) teist korda keeldub pakutud sobivast t&ouml;&ouml;st v&otilde;i t&ouml;&ouml;turukoolitusest ;</s>
+</p>
+<p>
+<s>4 ) katkestab t&ouml;&ouml;turukoolituse t&ouml;&ouml;h&otilde;iveameti n&otilde;usolekuta ;</s>
+</p>
+<p>
+<s>5 ) saab t&ouml;&ouml;turutoetust v&otilde;i</s>
+</p>
+<p>
+<s>6 ) k&auml;esoleva seaduse &sect; 3 l&otilde;ike 4 punktides 1-4 loetletud juhtudel ;</s>
+</p>
+<p>
+<s>7 ) k&auml;esoleva seaduse &sect; 15 l&otilde;ikes 1 loetletud juhtudel .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>T&ouml;&ouml;tu &otilde;ppestipendium</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tu &otilde;ppestipendiumi makstakse isikule , kes t&ouml;&ouml;h&otilde;iveameti kaudu osaleb v&auml;hemalt 80 tundi kestval t&ouml;&ouml;turukoolitusel .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;ppestipendiumi arvutatakse t&ouml;&ouml;tule iga &otilde;ppet&ouml;&ouml;l oldud &otilde;ppep&auml;eva eest koolitaja esitatud andmete alusel .</s>
+</p>
+<p>
+<s>( 3 ) &Otilde;ppestipendiumi m&auml;&auml;ra ja maksmise korra kehtestab Vabariigi Valitsus .</s><s>&Otilde;ppestipendiumi m&auml;&auml;r ei v&otilde;i olla v&auml;iksem kui t&ouml;&ouml;tu riikliku abiraha pooleteisekordne m&auml;&auml;r .</s>
+</p>
+<p>
+<s>( 4 ) &Otilde;ppestipendiumi m&auml;&auml;rab , arvutab ja maksab t&ouml;&ouml;tu elukohaj&auml;rgne t&ouml;&ouml;h&otilde;iveamet .</s><s>&Otilde;ppestipendiumi makstakse t&ouml;&ouml;tu elukohaj&auml;rgse t&ouml;&ouml;h&otilde;iveameti kaudu t&ouml;&ouml;tu soovil tema pangakontole v&otilde;i posti teel .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>T&ouml;&ouml;tu riikliku abiraha m&auml;&auml;r ja abiraha maksmise aeg</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tu riikliku abiraha m&auml;&auml;rab , arvutab ja maksab t&ouml;&ouml;tu elukohaj&auml;rgne t&ouml;&ouml;h&otilde;iveamet .</s><s>Abiraha makstakse t&ouml;&ouml;tu elukohaj&auml;rgse t&ouml;&ouml;h&otilde;iveameti kaudu t&ouml;&ouml;tu soovil tema pangakontole v&otilde;i posti teel .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;tu riikliku abiraha m&auml;&auml;ra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Abiraha makstakse t&ouml;&ouml;tuna arveloleku ajal &uuml;ldjuhul kuni 270 p&auml;eva .</s><s>T&ouml;&ouml;tul , kellele t&ouml;&ouml;tuskindlustush&uuml;vitist maksti l&uuml;hema perioodi jooksul kui 270 p&auml;eva , on &otilde;igus abirahale kuni 270 p&auml;eva t&auml;itumiseni .</s><s>Abiraha hakatakse arvestama kaheksandast p&auml;evast selle m&auml;&auml;ramisest arvates .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>T&ouml;&ouml;tu riikliku abiraha saamise tingimused</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igus saada t&ouml;&ouml;tu riiklikku abiraha on isikul , kes t&ouml;&ouml;tuna arvelev&otilde;tmisele eelnenud 12 kuu jooksul on olnud h&otilde;ivatud t&ouml;&ouml;ga v&otilde;i t&ouml;&ouml;ga v&otilde;rdsustatud tegevusega v&auml;hemalt 180 p&auml;eva , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 3 loetletud juhud .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml; ja t&ouml;&ouml;ga v&otilde;rdsustatud tegevus on :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tamine t&ouml;&ouml;- v&otilde;i teenistuslepingu v&otilde;i tsiviil&otilde;igusliku lepingu alusel Eestis v&otilde;i l&auml;hetatud t&ouml;&ouml;tajana v&auml;lismaal ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;tamine riigi- v&otilde;i kohaliku omavalitsuse asutuses avaliku teenistuse seaduse ( RT I 1995 , 16 , 228 ; RT I 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ; 2001 , 7 , 17 ja 18 ; 17 , 78 ; 42 , 233 ; 47 , 260 ) v&otilde;i avalikku teenistust reguleerivate seaduste alusel ;</s>
+</p>
+<p>
+<s>3 ) tegutsemine ettev&otilde;tjana Eestis ;</s>
+</p>
+<p>
+<s>4 ) &otilde;ppimine &otilde;ppeasutuses p&auml;evases v&otilde;i statsionaarses &otilde;ppevormis ;</s>
+</p>
+<p>
+<s>5 ) teenimine kaitsev&auml;es v&otilde;i asendusteenistuses .</s>
+</p>
+<p>
+<s>( 3 ) Varasemat t&ouml;&ouml;ga v&otilde;i t&ouml;&ouml;ga v&otilde;rdsustatud tegevusega h&otilde;ivatust ei n&otilde;uta isikult , kes t&ouml;&ouml;tuna arvelev&otilde;tmisele eelnenud 12 kuu jooksul v&auml;hemalt 180 p&auml;eva :</s>
+</p>
+<p>
+<s>1 ) on &uuml;he vanemana v&otilde;i eestkostjana kasvatanud kuni 18-aastast keskmise , raske v&otilde;i s&uuml;gava puudega last , alla 8-aastast last v&otilde;i 8-aastast last kuni esimese klassi l&otilde;petamiseni ;</s>
+</p>
+<p>
+<s>2 ) on olnud haiglaravil ;</s>
+</p>
+<p>
+<s>3 ) on hooldanud haiget , p&uuml;sivalt t&ouml;&ouml;v&otilde;imetut isikut v&otilde;i vanurit sotsiaalhoolekande seaduse ( RT I 1995 , 21 , 323 ; 1996 , 49 , 953 ; 1997 , 35 , 538 ; 77 , 1309 ; 2000 , 33 , 198 ) &sect; 15 l&otilde;ike 2 alusel kirjalikult s&otilde;lmitud perekonnas hooldamise lepingu alusel ;</s>
+</p>
+<p>
+<s>4 ) ei ole t&ouml;&ouml;tanud invaliidsuse v&otilde;i p&uuml;sivalt t&ouml;&ouml;v&otilde;imetuks tunnistamise t&otilde;ttu ;</s>
+</p>
+<p>
+<s>5 ) on olnud vahi all v&otilde;i kandnud karistust vanglas .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;tu abiraha ei maksta perioodil , mil t&ouml;&ouml;tule makstakse t&ouml;&ouml;tuskindlustush&uuml;vitist t&ouml;&ouml;tuskindlustuse seaduse alusel .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>T&ouml;&ouml;tu riikliku abiraha m&auml;&auml;ramine ja maksmine</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igus saada t&ouml;&ouml;tu riiklikku abiraha on t&ouml;&ouml;tuna arvel oleval isikul , kes t&ouml;&ouml;h&otilde;iveameti m&auml;&auml;ratud ajal p&ouml;&ouml;rdub sinna v&auml;hemalt kord 30 p&auml;eva jooksul ja kellel puudub sissetulek t&ouml;&ouml;tu riikliku abiraha ulatuses , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud t&ouml;&ouml;tul .</s><s>Sissetuleku hulka ei arvata riiklikke toetusi .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>( 2 ) Abiraha ei maksta selle saamise &otilde;iguse tekkest alates 60 p&auml;eva jooksul isikule , kes :</s>
+</p>
+<p>
+<s>1 ) &otilde;ppis enne t&ouml;&ouml;tuna arvele v&otilde;tmist &otilde;ppeasutuses p&auml;evases v&otilde;i statsionaarses &otilde;ppevormis ;</s>
+</p>
+<p>
+<s>2 ) l&otilde;petas t&ouml;&ouml;tamise v&otilde;i teenistuse t&ouml;&ouml;andja algatusel viimases t&ouml;&ouml;kohas t&ouml;&ouml;kohustuste rikkumise , usalduse kaotamise v&otilde;i v&auml;&auml;ritu teo t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;tu riiklikku abiraha ei maksta t&ouml;&ouml;tule , kes saab riiklikku pensioni v&otilde;i stipendiumi v&otilde;i on riiklikul &uuml;lalpidamisel v&otilde;i kellel on v&auml;hemalt t&ouml;&ouml;tu abiraha suurune sissetulek .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;tu riikliku abiraha maksmise korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>T&ouml;&ouml;tu riikliku abiraha maksmise peatamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tu riikliku abiraha maksmine peatatakse :</s>
+</p>
+<p>
+<s>1 ) kui isik esmakordselt keeldub talle pakutud sobivast t&ouml;&ouml;st - k&uuml;mneks kalendrip&auml;evaks ;</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>2 ) kui isik esmakordselt keeldub t&ouml;&ouml;turukoolitusest , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 10 l&otilde;ikes 1 loetletud p&otilde;hjustel - k&uuml;mneks kalendrip&auml;evaks ;</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;tu haigestumise korral - arsti v&auml;ljastatud dokumentide alusel haiguse ajaks , kusjuures t&ouml;&ouml;tu riikliku abiraha saamise aeg pikeneb haigusaja v&otilde;rra .</s><s>T&ouml;&ouml;tu , kellel puudub sissetulek , v&otilde;ib haiguse aja eest taotleda k&auml;esoleva seaduse &sect;-s 12 etten&auml;htud &uuml;hekordset toetust .</s><s>Sel juhul tema t&ouml;&ouml;tu riikliku abiraha saamise aeg ei pikene .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>4 ) m&auml;&auml;ratud ajal t&ouml;&ouml;h&otilde;iveametisse m&otilde;juva p&otilde;hjuseta ilmumata j&auml;tmise korral - viimasest p&ouml;&ouml;rdumisest kuni uue p&ouml;&ouml;rdumiseni .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>T&ouml;&ouml;tu riikliku abiraha saamise &otilde;iguse s&auml;ilimine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tul s&auml;ilib &otilde;igus saada t&ouml;&ouml;tu riiklikku abiraha , kui ta on keeldunud t&ouml;&ouml;turukoolitusest j&auml;rgmistel p&otilde;hjustel :</s>
+</p>
+<p>
+<s>1 ) vanaduspensionieani on j&auml;&auml;nud v&auml;hem kui viis aastat ;</s>
+</p>
+<p>
+<s>2 ) &otilde;pitav eriala v&otilde;i amet ei sobi t&ouml;&ouml;tule tema terviseseisundi t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;tul s&auml;ilib &otilde;igus saada t&ouml;&ouml;tu riiklikku abiraha , kui ta on keeldunud h&auml;daabit&ouml;&ouml;st .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;tul s&auml;ilib &otilde;igus saada t&ouml;&ouml;tu riiklikku abiraha h&auml;daabit&ouml;&ouml;l v&otilde;i t&ouml;&ouml;turukoolitusel osalemise ajal.</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;tul on &otilde;igus saada riiklikku abiraha p&auml;rast abiraha saamise 270-p&auml;evast ajavahemikku v&otilde;i k&auml;esoleva seaduse &sect; 8 l&otilde;ikes 2 nimetatud 210-p&auml;evast ajavahemikku :</s>
+</p>
+<p>
+<s>1 ) pensioniikka j&otilde;udmiseni , kui tal on vanaduspensionieani j&auml;&auml;nud v&auml;hem kui 180 kalendrip&auml;eva ;</s>
+</p>
+<p>
+<s>2 ) s&uuml;nnituseni , kui tal on arsti m&auml;&auml;ratud s&uuml;nnitust&auml;htajani j&auml;&auml;nud v&auml;hem kui 70 kalendrip&auml;eva ;</s>
+</p>
+<p>
+<s>3 ) 90 p&auml;eva , eestkostjal v&otilde;i &uuml;hel vanematest , kes kasvatab v&auml;hemalt kolme v&otilde;i enamat alla 18-aastast last ;</s>
+</p>
+<p>
+<s>4 ) kui ta ei ole 270 p&auml;eva jooksul leidnud sobivat t&ouml;&ouml;d temast olenematul p&otilde;hjusel .</s><s>Sel juhul v&otilde;ib t&ouml;&ouml;h&otilde;iveamet tema t&ouml;&ouml;tu abiraha saamise &otilde;igust pikendada sotsiaalministri kehtestatud korras ja tingimustel kuni 90 p&auml;eva .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>T&ouml;&ouml;tu riikliku abiraha maksmise l&otilde;petamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;tu riikliku abiraha maksmine l&otilde;petatakse , kui :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tul tekib v&auml;hemalt t&ouml;&ouml;tu riikliku abiraha suurune sissetulek , mille hulka ei arvata riiklikke toetusi ;</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;tu abiraha on makstud k&auml;esoleva seaduse &sect; 6 l&otilde;ikes 3 etten&auml;htud aja eest ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;tuna arvelolek l&otilde;petatakse k&auml;esoleva seaduse &sect;-s 4 loetletud juhtudel .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>&Uuml;hekordne toetus</s>
+</p>
+<p>
+<s>T&ouml;&ouml;h&otilde;iveamet v&otilde;ib maksta t&ouml;&ouml;tule &uuml;hekordset toetust Vabariigi Valitsuse kehtestatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>T&ouml;&ouml;h&otilde;iveametite ja t&ouml;&ouml;tu sotsiaalse kaitse kulude rahastamine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;turuameti ja t&ouml;&ouml;h&otilde;iveametite &uuml;lalpidamise ning t&ouml;&ouml;tu abirahaks , &otilde;ppestipendiumiks ja &uuml;hekordseks toetuseks etten&auml;htud kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Vaidluste lahendamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse kohaldamisel tekkinud vaidlused lahendab kohus .</s>
+</p>
+<p>
+<s>( 2 ) Pooltel on &otilde;igus p&ouml;&ouml;rduda kohtusse nelja kuu jooksul , alates p&auml;evast , millal nad on saanud teada v&otilde;i oleksid pidanud teada saama oma &otilde;iguste rikkumisest .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Eba&otilde;igete andmete esitamisega t&ouml;&ouml;tuna arvelev&otilde;tmist , t&ouml;&ouml;tu riiklikku abiraha , &otilde;ppestipendiumi v&otilde;i &uuml;hekordset toetust taotlenud isik</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;tuna arvelev&otilde;tmist , t&ouml;&ouml;tu riiklikku abiraha , &otilde;ppestipendiumi v&otilde;i &uuml;hekordset toetust teadlikult eba&otilde;igete andmete esitamise teel taotlenud isiku t&ouml;&ouml;tuna arvelolek l&otilde;petatakse ning ta kaotab kaheks aastaks &otilde;iguse olla t&ouml;&ouml;h&otilde;iveametis t&ouml;&ouml;tuna arvel .</s>
+</p>
+<p>
+<s>( 13.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 59 , 359 )</s>
+</p>
+<p>
+<s>( 2 ) Eba&otilde;igete andmete esitamisega saadu tuleb h&uuml;vitada v&otilde;i see n&otilde;utakse tagasi kohtu korras .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>T&ouml;&ouml;tu sotsiaalse kaitse seaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tunnistada kehtetuks t&ouml;&ouml;tu sotsiaalse kaitse seadus ( RT I 1994 , 81 , 1381 ; 1995 , 89 , 1572 ; 1996 , 42 , 810 ; 49 , 953 ; 1997 , 77 , 1309 ; 1999 , 10 , 150 ; 58 , 609 ; 82 , 749 ; 2000 , 35 , 218 ) .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2000. aasta 1. oktoobril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

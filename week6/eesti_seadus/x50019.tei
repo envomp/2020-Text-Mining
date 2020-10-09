@@ -1,0 +1,514 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> T&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalase v&auml;lja&otilde;ppe ja t&auml;iend&otilde;ppe kord ( mai 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    1498</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> T&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalase v&auml;lja&otilde;ppe ja t&auml;iend&otilde;ppe kord ( mai 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=cell occurs=8></tagusage>
+         <tagusage gi=hi occurs=1></tagusage>
+         <tagusage gi=lb occurs=14></tagusage>
+         <tagusage gi=p occurs=134></tagusage>
+         <tagusage gi=row occurs=8></tagusage>
+         <tagusage gi=s occurs=167></tagusage>
+         <tagusage gi=table occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>T&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalase v&auml;lja&otilde;ppe ja t&auml;iend&otilde;ppe kord</s>
+</p>
+<p>
+<s>Sotsiaalministri 14. detsembri 2000. a m&auml;&auml;rus nr 80</s>
+</p>
+<p>
+<s>( RTL 2000 , 136 , 2157 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. m&auml;rtsil 2001. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise m&auml;&auml;rusega :</s>
+</p>
+<p>
+<s>27.02.2001 j&otilde;ust.17.03.2001 - RTL 2001 , 35 , 469.</s>
+</p>
+<p>
+<s>M&auml;&auml;rus kehtestatakse &ldquo; T&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse seaduse &rdquo; ( RT I 1999 , 60 , 616 ; 2000 , 55 , 362 ) paragrahvi 2 l&otilde;ike 3 alusel .</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev kord reguleerib :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;keskkonnavoliniku ja t&ouml;&ouml;keskkonnan&otilde;ukogu liikmete t&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalast v&auml;lja&otilde;pet ning t&auml;iend&otilde;pet ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;keskkonnaspetsialisti t&auml;iend&otilde;pet ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;andja ( t&ouml;&ouml;andja esindaja ) t&auml;iend&otilde;pet , kui ta t&auml;idab t&ouml;&ouml;keskkonnaspetsialisti kohustusi ;</s>
+</p>
+<p>
+<s>4 ) ettev&otilde;ttes esmaabiandja v&auml;lja&otilde;pet ja t&auml;iend&otilde;pet ;</s>
+</p>
+<p>
+<s>5 ) t&ouml;&ouml;taja t&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalast juhendamist ja v&auml;lja&otilde;pet t&ouml;&ouml;kohal .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Otilde;pe koolitusasutuses</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>&Otilde;ppe korraldamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja korraldab t&ouml;&ouml;keskkonnavolinikule ja t&ouml;&ouml;keskkonnan&otilde;ukogu liikmetele t&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalase v&auml;lja&otilde;ppe hiljemalt kahe kuu jooksul alates nende valimisest v&otilde;i m&auml;&auml;ramisest .</s><s>Nende v&auml;lja&otilde;pet v&otilde;ib teha koolitaja ( edaspidi koolitusasutus ) 24-tunnise &otilde;ppekava alusel ( lisa 1 ) .</s>
+</p>
+<p>
+<s>( 27.02.2001 j&otilde;ust.17.03.2001 - RTL 2001 , 35 , 469 )</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;keskkonnavolinike ja t&ouml;&ouml;keskkonnan&otilde;ukogu liikmete t&auml;iend&otilde;pe korraldatakse kursusena , mille teemad ja &otilde;ppekava kinnitab koolitusasutus , l&auml;htudes t&ouml;&ouml;andjate ja t&ouml;&ouml;tajate vajadustest .</s><s>T&ouml;&ouml;andja suunab t&ouml;&ouml;keskkonnavoliniku ja t&ouml;&ouml;keskkonnan&otilde;ukogu liikmed t&auml;iend&otilde;ppele , kui :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;keskkonnas on toimunud olulisi muudatusi ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;kohas vahetatakse v&otilde;i uuendatakse tehnoloogiat v&otilde;i t&ouml;&ouml;vahendeid ;</s>
+</p>
+<p>
+<s>3 ) t&ouml;&ouml;tervishoidu ja t&ouml;&ouml;ohutust reguleerivates &otilde;igusaktides on toimunud olulisi muudatusi ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;inspektor peab seda vajalikuks ;</s>
+</p>
+<p>
+<s>5 ) t&ouml;&ouml;keskkonnavolinik v&otilde;i t&ouml;&ouml;keskkonnan&otilde;ukogu peab seda vajalikuks .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;keskkonnaspetsialist peab l&auml;bima t&auml;iend&otilde;ppe koolitusasutuses mitte harvem kui kord viie aasta jooksul , vajadusel ka l&otilde;ike 2 punktides 1-4 nimetatud juhtudel .</s><s>T&auml;iend&otilde;ppe teemad valib ja &otilde;ppekava kinnitab koolitusasutus t&ouml;&ouml;andja ja t&ouml;&ouml;tajate vajadusest l&auml;htuvalt .</s>
+</p>
+<p>
+<s>( 4 ) Juhul kui t&ouml;&ouml;andja ( t&ouml;&ouml;andja esindaja ) t&auml;idab t&ouml;&ouml;keskkonnaspetsialisti kohustusi ise , peab ta l&auml;bima t&auml;iend&otilde;ppe koolitusasutuses mitte harvem kui kord viie aasta jooksul , vajadusel ka l&otilde;ike 2 punktides 1-4 nimetatud juhtudel .</s>
+</p>
+<p>
+<s>( 5 ) Iga v&auml;lja&otilde;ppekursus l&otilde;peb osalejate teadmiste kontrolliga .</s>
+</p>
+<p>
+<s>( 6 ) Koolitusasutus peab v&auml;ljastama igale &otilde;ppekursuse l&otilde;petajale v&otilde;i &otilde;ppep&auml;eval osalejale tunnistuse , kus on m&auml;rgitud l&auml;bitud teemad ja nende mahud , tunnistuse number ja koolitusasutuse nimi .</s>
+</p>
+<p>
+<s>( 27.02.2001 j&otilde;ust.17.03.2001 - RTL 2001 , 35 , 469 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Esmaabiandja v&auml;lja&otilde;pe ja t&auml;iend&otilde;pe</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;andja korraldab ettev&otilde;ttes esmaabi andvale t&ouml;&ouml;tajale v&auml;lja&otilde;ppe hiljemalt &uuml;he kuu jooksul alates tema m&auml;&auml;ramisest .</s>
+</p>
+<p>
+<s>( 2 ) Ettev&otilde;ttes esmaabiandja v&auml;lja&otilde;ppe eesm&auml;rk on p&otilde;hiteadmiste ja praktiliste oskuste andmine kannatanu elu p&auml;&auml;stmiseks &otilde;nnetusjuhtumi korral ning esmaabi osutamiseks .</s><s>V&auml;lja&otilde;ppekursuse aluseks on Eesti Punase Risti 16-tunnine &otilde;ppekava ( lisa 2 ) .</s>
+</p>
+<p>
+<s>( 3 ) T&ouml;&ouml;andja suunab esmaabiandja t&auml;iend&otilde;ppele iga kolme aasta j&auml;rel .</s><s>T&auml;iend&otilde;ppe eesm&auml;rk on korrata ja s&uuml;vendada v&auml;lja&otilde;ppekursusel omandatud teadmisi ja oskusi .</s><s>Esmaabiandjate t&auml;iend&otilde;ppekursuse minimaalne kestus on kuus tundi .</s>
+</p>
+<p>
+<s>( 4 ) Esmaabiandjate v&auml;lja&otilde;pet ja t&auml;iend&otilde;pet koolitusasutuses v&otilde;ib l&auml;bi viia meditsiinit&ouml;&ouml;taja , kes on l&auml;binud Eesti Punase Risti v&otilde;i muu p&auml;deva asutuse esmaabi&otilde;petajate koolituskursuse ning omab sellekohast tunnistust .</s>
+</p>
+<p>
+<s>( 5 ) Koolitusasutus peab kursuse l&otilde;petanud esmaabiandjale v&auml;ljastama p&auml;rast teadmiste kontrolli tunnistuse .</s>
+</p>
+<p>
+<s>&sect; 3 <hi rend="sup">1</hi> .</s><s>Koolitusasutuse registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Paragrahvi 1 l&otilde;ike 1 punktides 1-4 nimetatud koolitusega v&otilde;ivad tegelda Sotsiaalministeeriumis registreeritud koolitusasutused .</s>
+</p>
+<p>
+<s>( 2 ) Registreerimiseks esitab koolitusasutus Sotsiaalministeeriumile avalduse , milles m&auml;rgitakse &auml;ra :</s>
+</p>
+<p>
+<s>1 ) koolitusasutuse nimi , tegevuskoha aadress ja kontaktandmed ;</s>
+</p>
+<p>
+<s>2 ) &otilde;ppekavad ( teemad ja nende maht ) ;</s>
+</p>
+<p>
+<s>3 ) lektorite nimed ja kontaktandmed ;</s>
+</p>
+<p>
+<s>4 ) kasutatavate &otilde;ppematerjalide loetelu .</s>
+</p>
+<p>
+<s>( 3 ) Avaldusele tuleb lisada lektorite p&auml;devust t&otilde;endavate dokumentide koopiad ja v&auml;ljastatava tunnistuse n&auml;idis .</s>
+</p>
+<p>
+<s>( 4 ) Sotsiaalministeeriumi p&auml;deval ametnikul on &otilde;igus kontrollida t&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalase koolituse kvaliteeti .</s>
+</p>
+<p>
+<s>( 27.02.2001 j&otilde;ust.17.03.2001 - RTL 2001 , 35 , 469 )</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;taja juhendamine ja v&auml;lja&otilde;pe t&ouml;&ouml;kohal</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Sissejuhatav juhendamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;taja sissejuhatava juhendamise viib l&auml;bi t&ouml;&ouml;keskkonnaspetsialist t&ouml;&ouml;andja kinnitatud juhendi alusel enne t&ouml;&ouml;taja t&ouml;&ouml;le asumist .</s>
+</p>
+<p>
+<s>( 2 ) Sissejuhatav juhendamine peab sisaldama :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tte t&ouml;&ouml;korralduse , sisekorraeeskirjade ning t&ouml;&ouml;tervishoidu ja t&ouml;&ouml;ohutust reguleerivate &otilde;igusaktide tutvustamist ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse tagamiseks rakendatavate abin&otilde;ude tutvustamist ;</s>
+</p>
+<p>
+<s>3 ) juhiseid k&auml;itumiseks &otilde;nnetusohu v&otilde;i t&ouml;&ouml;&otilde;nnetuse korral ;</s>
+</p>
+<p>
+<s>4 ) juhiseid keskkonna saastamisest hoidumiseks ;</s>
+</p>
+<p>
+<s>5 ) t&ouml;&ouml;taja kohustusi ja &otilde;igusi vastavalt &otilde;igusaktides s&auml;testatule ;</s>
+</p>
+<p>
+<s>6 ) t&ouml;&ouml;keskkonnavoliniku , esmaabiandja ja t&ouml;&ouml;inspektsiooni kohaliku asutuse kontaktandmete tutvustamist .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Esmajuhendamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;taja esmajuhendamise t&ouml;&ouml;tamiskohal , kus t&ouml;&ouml;taja hakkab oma t&ouml;&ouml;&uuml;lesandeid t&auml;itma , viib l&auml;bi t&ouml;&ouml;andja poolt m&auml;&auml;ratud p&auml;dev isik .</s>
+</p>
+<p>
+<s>( 2 ) Esmajuhendamisel tutvustatakse t&ouml;&ouml;tajale :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;andja poolt koostatud ja kinnitatud ohutusjuhendeid tehtava t&ouml;&ouml; v&otilde;i kasutatavate seadmete , masinate , t&ouml;&ouml;riistade , veokite ja muude t&ouml;&ouml;vahendite kohta ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;keskkonna ohutegureid ja vajalike isikukaitsevahendite kasutamist ;</s>
+</p>
+<p>
+<s>3 ) ergonoomiliselt &otilde;igeid t&ouml;&ouml;asendeid ja -v&otilde;tteid ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;tajale etten&auml;htud t&ouml;&ouml;korraldust ;</s>
+</p>
+<p>
+<s>5 ) tule- ja elektriohutusn&otilde;udeid ;</s>
+</p>
+<p>
+<s>6 ) h&auml;daabitelefoni , esmaabivahendite ja tulekustutusvahendite asukohta ;</s>
+</p>
+<p>
+<s>7 ) t&ouml;&ouml;kohal kasutatavaid ohum&auml;rguandeid ning evakuatsioonip&auml;&auml;sude ja -teede asukohta .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>V&auml;lja&otilde;pe</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lja&otilde;pe ohutute t&ouml;&ouml;v&otilde;tete omandamiseks korraldatakse t&ouml;&ouml;tajale p&auml;rast esmajuhendamist , vajadusel ka p&auml;rast t&auml;iendjuhendamist .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lja&otilde;pe toimub t&ouml;&ouml;ajal t&ouml;&ouml;andja poolt m&auml;&auml;ratud spetsialisti v&otilde;i kogenud t&ouml;&ouml;taja juhendamisel .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lja&otilde;ppe kestuse m&auml;&auml;rab t&ouml;&ouml;andja s&otilde;ltuvalt ameti- v&otilde;i kutseala spetsiifikast , keerukusest ning t&ouml;&ouml; ohtlikkusest .</s>
+</p>
+<p>
+<s>( 4 ) T&ouml;&ouml;taja lubatakse iseseisvale t&ouml;&ouml;le , kui juhendaja on veendunud , et t&ouml;&ouml;taja tunneb t&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse n&otilde;udeid ja oskab neid praktikas rakendada .</s>
+</p>
+<p>
+<s>( 5 ) T&ouml;&ouml;andja v&otilde;ib t&ouml;&ouml;tajale v&auml;lja&otilde;pet mitte korraldada , kui t&ouml;&ouml;taja on t&ouml;&ouml;tanud eelnevalt samalaadsel t&ouml;&ouml;l , tunneb ohutuid t&ouml;&ouml;v&otilde;tteid v&otilde;i kui tema t&ouml;&ouml; laad seda ei n&otilde;ua .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>T&auml;iendjuhendamine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;taja t&auml;iendjuhendamine korraldatakse :</s>
+</p>
+<p>
+<s>1 ) uute t&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse juhendite v&otilde;i &otilde;igusaktide kehtestamisel v&otilde;i kehtivate n&otilde;uete muutumisel ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;korralduse muutmisel v&otilde;i kui tema t&ouml;&ouml;s on olnud kolmest kuust pikem vaheaeg ;</s>
+</p>
+<p>
+<s>3 ) tehnoloogia v&otilde;i t&ouml;&ouml;vahendite vahetamisel v&otilde;i uuendamisel ;</s>
+</p>
+<p>
+<s>4 ) t&ouml;&ouml;taja &uuml;mberpaigutamisel teisele t&ouml;&ouml;le v&otilde;i tema t&ouml;&ouml;&uuml;lesannete olulisel muutumisel ;</s>
+</p>
+<p>
+<s>5 ) kui t&ouml;&ouml;taja rikkus t&ouml;&ouml;ohutusn&otilde;udeid , mis p&otilde;hjustas v&otilde;i oleks v&otilde;inud p&otilde;hjustada t&ouml;&ouml;&otilde;nnetuse ;</s>
+</p>
+<p>
+<s>6 ) t&ouml;&ouml;de v&otilde;i tegevuse puhul , mis ei kuulu t&ouml;&ouml;taja t&ouml;&ouml;lepinguga m&auml;&auml;ratud t&ouml;&ouml;de v&otilde;i ametikohustuste hulka ;</s>
+</p>
+<p>
+<s>7 ) kui struktuuri&uuml;ksuse juht v&otilde;i t&ouml;&ouml;taja ise peab seda vajalikuks ;</s>
+</p>
+<p>
+<s>8 ) kui t&ouml;&ouml;inspektor peab seda vajalikuks .</s>
+</p>
+<p>
+<s>( 2 ) T&auml;iendjuhendamise sisu ja mahu m&auml;&auml;rab t&ouml;&ouml;andja .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Juhendamise , v&auml;lja&otilde;ppe ja iseseisvale t&ouml;&ouml;le lubamise registreerimine</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;taja sissejuhatav , esma- ja t&auml;iendjuhendamine , v&auml;lja&otilde;pe ning t&ouml;&ouml;taja iseseisvale t&ouml;&ouml;le lubamine registreeritakse sellekohases p&auml;evikus v&otilde;i andmebaasis , kuhu m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) juhendamise v&otilde;i v&auml;lja&otilde;ppe kuup&auml;ev ja kestus ;</s>
+</p>
+<p>
+<s>2 ) juhendatava ja juhendaja ees- ja perekonnanimi ning amet ;</s>
+</p>
+<p>
+<s>3 ) struktuuri&uuml;ksus , kuhu t&ouml;&ouml;taja t&ouml;&ouml;le suunati ;</s>
+</p>
+<p>
+<s>4 ) t&auml;iendjuhendamise p&otilde;hjus ;</s>
+</p>
+<p>
+<s>5 ) t&ouml;&ouml;tajale tutvustatud juhendite ja &otilde;igusaktide nimetused ;</s>
+</p>
+<p>
+<s>6 ) iseseisvale t&ouml;&ouml;le lubamise kuup&auml;ev .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;taja kinnitab l&otilde;ikes 1 nimetatud juhendamist , v&auml;lja&otilde;pet ning iseseisvale t&ouml;&ouml;le lubamist oma allkirjaga .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>M&auml;&auml;ruse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev m&auml;&auml;rus j&otilde;ustub 1. m&auml;rtsil 2001. a.</s>
+</p>
+<p>
+<s>Sotsiaalministri 14. detsembri 2000. a m&auml;&auml;ruse nr 80 &ldquo; T&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalase v&auml;lja&otilde;ppe ja t&auml;iend&otilde;ppe kord &rdquo; lisa 1</s>
+</p>
+<p>
+<s>T&ouml;&ouml;keskkonnavolinike ja t&ouml;&ouml;keskkonnan&otilde;ukogu liikmete v&auml;lja&otilde;ppekursuse 24-tunnine &otilde;ppekava</s>
+</p>
+<p>
+<s>1. teema : &Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>1.1.</s><s>T&ouml;&ouml;keskkonna m&otilde;iste</s>
+</p>
+<p>
+<s>1.2.</s><s>T&ouml;&ouml;keskkonnas esinevad ohud</s>
+</p>
+<p>
+<s>1.3.</s><s>T&ouml;&ouml;olme</s>
+</p>
+<p>
+<s>1.4.</s><s>T&ouml;&ouml;andja ja t&ouml;&ouml;taja kohustused ja &otilde;igused</s>
+</p>
+<p>
+<s>1.5.</s><s>T&ouml;&ouml;&otilde;nnetus ja kutsehaigestumine ( registreerimine , teatamine , uurimine )</s>
+</p>
+<p>
+<s>1.6.</s><s>&Otilde;nnetusoht</s>
+</p>
+<p>
+<s>1.7.</s><s>T&ouml;&ouml;andja ja t&ouml;&ouml;taja vastutus</s>
+</p>
+<p>
+<s>1.8.</s><s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>2. teema : T&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse korraldus</s>
+</p>
+<p>
+<s>2.1.</s><s>Riigi tasandil :</s>
+</p>
+<p>
+<s>- struktuur t&ouml;&ouml;keskkonnas&uuml;steemis</s>
+</p>
+<p>
+<s>- &otilde;iguslikud alused</s>
+</p>
+<p>
+<s>2.2.</s><s>Ettev&otilde;tte tasandil :</s>
+</p>
+<p>
+<s>- t&ouml;&ouml;keskkonnaspetsialist</s>
+</p>
+<p>
+<s>- t&ouml;&ouml;keskkonnavolinik</s>
+</p>
+<p>
+<s>- t&ouml;&ouml;keskkonnan&otilde;ukogu</s>
+</p>
+<p>
+<s>2.3.</s><s>Sisekontroll , t&ouml;&ouml;tervishoiu ja t&ouml;&ouml;ohutuse tegevuskava</s>
+</p>
+<p>
+<s>2.4.</s><s>T&ouml;&ouml;tajate tervisekontroll</s>
+</p>
+<p>
+<s>2.5.</s><s>Koost&ouml;&ouml;</s>
+</p>
+<p>
+<s>3. teema : Riskianal&uuml;&uuml;s</s>
+</p>
+<p>
+<s>3.1.</s><s>Riskianal&uuml;&uuml;si m&otilde;iste</s>
+</p>
+<p>
+<s>3.2.</s><s>T&ouml;&ouml;keskkonna ohutegurid , nende m&otilde;ju tervisele :</s>
+</p>
+<p>
+<s>- f&uuml;&uuml;sikalised ohutegurid</s>
+</p>
+<p>
+<s>- keemilised ohutegurid</s>
+</p>
+<p>
+<s>- bioloogilised ohutegurid</s>
+</p>
+<p>
+<s>- f&uuml;sioloogilised ja ps&uuml;hholoogilised ohutegurid</s>
+</p>
+<p>
+<s>3.3.</s><s>Riski hindamise meetodid</s>
+</p>
+<p>
+<s>3.4.</s><s>Riskide ohjamise abin&otilde;ud</s>
+</p>
+<p>
+<s>3.5.</s><s>Ergonoomia</s>
+</p>
+<p>
+<s>Kursuse omandamise kontroll</s>
+</p>
+<p>
+<s>Sotsiaalministri 14. detsembri 2000. a m&auml;&auml;ruse nr 80 &ldquo; T&ouml;&ouml;tervishoiu- ja t&ouml;&ouml;ohutusalase v&auml;lja&otilde;ppe ja t&auml;iend&otilde;ppe kord &rdquo; lisa 2</s>
+</p>
+<p>
+<s>Ettev&otilde;ttes esmaabiandjate v&auml;lja&otilde;ppekursuse 16-tunnine &otilde;ppekava</s>
+</p>
+<p>
+<s>&Otilde;ppekava aluseks on v&otilde;etud Eesti Punase Risti poolt koostatud esmaabi p&otilde;hikursus , millele omistati 12. oktoobril 1997. a sertifikaat , mis on koosk&otilde;las Euroopa Punase Risti ja Punase Poolkuu esmaabi &otilde;petamise standardiga .</s>
+</p>
+<p>
+<table>
+<row><cell> <lb>Teema , sisu</cell></row> <row><cell> <lb>1. Sissejuhatus <lb>Esmaabi olemus , kannatanu seisundi hindamine , esmaabi andmise taktika .</cell></row> <row><cell> <lb>2. Elustamine <lb>Uppunu elustamine ; elustamine elektriga seotud &otilde;nnetuste ja s&uuml;dameinfarkti korral ; v&otilde;&otilde;rkeha eemaldamine hingamisteedest ; esmaabi osutamine ajukahjustuse korral .</cell></row> <row><cell> <lb>3. V&auml;lised verejooksud ja &scaron;okk <lb>Verejooksu peatamise v&otilde;tted ; &scaron;oki olemus ja selle tunnused .</cell></row> <row><cell> <lb>4. Haavad <lb>Haavade teke ; sidumise tehnika ja reeglid ; kolmnurkr&auml;tiku kasutamine ; praktiliste oskuste omandamine sidumisel .</cell></row> <row><cell> <lb>5. Traumad ja luumurrud <lb>Lahtiste ja kinniste luumurdude iseloomustus ; luumurdudega kaasnevad ohud ; liigesetraumad ( nihestused , nikastused , p&otilde;rutused ) ; lahastamise viisid .</cell></row> <row><cell> <lb>6. M&uuml;rgistused , s&ouml;&ouml;vitused , p&otilde;letused , k&uuml;lmakahjustused</cell></row> <row><cell> <lb>7. Kursuse omandamise kontroll <lb>Teoreetiliste teadmiste ja praktiliste oskuste kontrollimine testide abil .</cell></row>
+</table>
+</p>
+</body>
+   </text>
+</tei.2>

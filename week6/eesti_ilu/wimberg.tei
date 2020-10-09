@@ -1,0 +1,497 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>ONN KARJA-ARUS</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 92185; s&otilde;nu: 9719</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>ONN KARJA-ARUS</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=404></tagusage>
+         <tagusage gi=s occurs=1075></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body>
+<div0 type='tervikteos'><head>ONN KARJA-ARUS</head>
+<p><bibl><author><s>Wimberg</s></author></bibl></p>
+<p> <s>peat&uuml;kk romaanist " Lipam&auml;e " ( Varrak , 2002 ) </s> </p>
+<p> <s>Sellel p&auml;eval juuni alguses oli vanaema s&uuml;nnip&auml;ev . </s> </p>
+<p> <s>Ma &auml;rkkasin &uuml;les selle peale , et telefon r&ouml;&ouml;kis . </s> <s> Teadsin , et kui n&uuml;&uuml;d vanaema kohe k&ouml;&ouml;gist tuppa ei jookse , siis on ta &otilde;ues &ndash; nagu vanaisagi , kes toimetab sel ajal veel laudas mingeid asju . </s> <s> Ja et siis pean voodist v&auml;lja h&uuml;ppama ja ise telefoni vastu v&otilde;tma . </s> <s> Lasin kutsuda t&auml;pselt kolm korda . </s> <s> Siis haarasin halli raske toru : </s> </p>
+<p> <s> " Halloo ? " </s> </p>
+<p> <s> " Alevi kortter ? " p&auml;ris sealt &uuml;ks naish&auml;&auml;l . </s> </p>
+<p> <s> " Jaa . " </s> </p>
+<p> <s> " Kas Linda v&otilde;i Verner on ka l&auml;heduses ? " </s> </p>
+<p> <s> " Ma arvan , et nad on &otilde;ues . " </s> </p>
+<p> <s> " Palun ole nii kena ja mine &uuml;tle ruttu neile , et pullid p&auml;&auml;sesid koplist lahti ja on teel teie maja suunas . </s> <s> J&auml;i meelde ? " </s> </p>
+<p> <s> " Jaa . " </s> </p>
+<p> <s> " No mine siis n&uuml;&uuml;d h&auml;sti ruttu ! " </s> </p>
+<p> <s>Ja teises otsas pandi toru &auml;ra . </s> </p>
+<p> <s>Jooksingi s&auml;rgiv&auml;el nobedalt trepile ja h&uuml;&uuml;dsin t&auml;iest k&otilde;rist : " Vanaema ! </s> <s> V&auml;rni ! </s> <s> Pullid p&auml;&auml;sesid lahti ! " </s> </p>
+<p> <s>Kaevuheki tagant ilmuski kohe vanaema &ndash; ta oli aiamaal k&auml;inud murulaukku tooomas &ndash; ja k&uuml;sis : " Oota ... ; mida ? " </s> </p>
+<p> <s> " Sohvoosist helistati , et pullid p&auml;&auml;sesid lahti . " </s> </p>
+<p> <s>Vanaema j&auml;ttis murulaugud kaevule ja l&auml;ks h&otilde;ikkudes lauda suunas : " V&auml;rni , ae ! </s> <s> Pullid olla lahti p&auml;&auml;send ! </s> <s> Kuuled , jah ? " </s> </p>
+<p> <s>Vanaisa astus k&uuml;&uuml;nist v&auml;lja ning pani t&uuml;hja rohukorvi lauda seina &auml;&auml;rde . </s> </p>
+<p> <s> " Ah v&otilde;i pullid , raisad , lahti j&auml;lle ! " kirus ta ja l&auml;ks peldiku juurde v&auml;rava peale vahtima , kuda lood on . </s> <s> Seisin ise juba vanaema k&otilde;rval ja mul oli p&otilde;nev . </s> </p>
+<p> <s> " Kassa saad tuppa , marss ! </s> <s> Pullid v&otilde;ivad &otilde;ue ka tulla , kui neid palju on , torkkavad su surnuks v&otilde;i trambivad jalge alla . </s> <s> Siukseid asju on ennegi juhtund , et pullid on &otilde;ue murdnud ! " kurjustas vanaema . </s> <s> Vanaisa tuli imelikult kiirel k&otilde;nnakul v&auml;rava pealt tagasi . </s> <s> " Sa raisk , " vandus ta , " ongi juba otsapidi siinmail . " </s> <s> Ta peaaegu jooksis kuuriotsa juurde ja ma n&auml;gin teda valimas sealt &uuml;ht korralikku madjakat . </s> </p>
+<p> <s> " Noh , l&auml;hme tuppa , " t&otilde;mbas vanaema mind natist . </s> </p>
+<p> <s>Kiikasin minnes k&otilde;ikse aeg &uuml;le &otilde;la , et mis juhtuma hakkab , ja et kuda need pullid aeda r&uuml;ndavad . </s> <s> A midagi sellist ma ei n&auml;inud , v&auml;he sellest &ndash; ma ei n&auml;inud isegi pulle , r&auml;&auml;kimata siis sellest , et n&auml;ha , kuda need aeda r&uuml;ndavad , sest laut ja tihe kuusehekk varjasid minu eest kogu vaatev&auml;lja . </s> <s> N&auml;gin aint , kuda vanaisa tuli kuuri poolt puhkides , t&uuml;&uuml;akas latt k&auml;es . </s> </p>
+<p> <s> " Ole ettevaatlik ! " h&uuml;&uuml;dis vanaema talle veel trepiesiselt ja juba k&ouml;&ouml;gis me olimegi . </s> <s> Ma teadsin , et pole p&otilde;hjust muretseda vanaisa p&auml;rast , sest et ta on vana kolhoosiesimees ja siukseid asju k&uuml;llalt teind ja n&auml;ind . </s> </p>
+<p> <s>Olin veel eila &otilde;hta m&otilde;eld t&auml;nasest p&auml;evast kui mingist erilisel moel pidulikust , mis kohe hommikul s&uuml;nnip&auml;evana pihta hakkab . </s> <s> A ei . </s> <s> Pold midagi nii erilist . </s> <s> K&otilde;ikk oli &uuml;sna harilik . </s> <s> Ilm oli , jah , ilus , taevas oli pilvedest lage , tuult kah eriti pold , linnud laulsid igal pool nagu meeletud &ndash; nagu peabki olema , kui on s&uuml;nnip&auml;ev . </s> </p>
+<p> <s>Pliida &auml;&auml;rel n&auml;gin suurt kaussi , mis oli t&auml;is munaputru , ja selle k&otilde;rval oli pott keevate karttulatega . </s> <s> See hakkas &uuml;le ajama . </s> </p>
+<p> <s> " T&otilde;mba see k&otilde;rvale ! " palus vanaema , kes parajasti hakkis laua taga murulaukku , kuna mina seisin sealsamas pliida &auml;&auml;res ja kallasin &auml;mbrist vett kraanikaussi , et pesta silmi . </s> <s> T&otilde;mbasin . </s> </p>
+<p> <s> " Katsu , kas on pehmed . </s> <s> Kui on siis mine , kurna &auml;ra . " </s> </p>
+<p> <s>Panin kopsiku k&auml;est , t&otilde;in laualt noa ja suskisin mugulaid . </s> <s> Olid k&uuml;ll pehmed juba . </s> <s> V&otilde;tsin k&auml;ter&auml;tiku , m&auml;ssisin poti sangade &uuml;mber , viisin trepile ja kurnasin &auml;ra . </s> <s> Kuuseheki tagant kostus inimeste h&uuml;&uuml;deid ja autom&uuml;rinat . </s> <s> Vanaisa marssis v&auml;ravast sisse . </s> </p>
+<p> <s> " Ei l&auml;indki mind seekord tarvis , " t&auml;hendas ta , kui oli k&ouml;&ouml;ki j&otilde;udnud ja oma v&otilde;idund soni puhvetikapi peale minu kaheksakandile seltsiks heitnud , " ei mind ega minu kaigast . " </s> </p>
+<p> <s> " Kas saadi kinni v&otilde;i ? " k&uuml;sis vanaema . </s> </p>
+<p> <s> " Kus sellega ! </s> <s> Panid Esna poole ! </s> <s> Siukkest tralli pole minu silm elu sees n&auml;ind . </s> <s> Seal oli v&auml;hemalt sada pulli kui mitte rohkem . </s> <s> Ei tea , kelle lohakus see oli , " arutas vanaisa . </s> <s> Ta v&otilde;ttis koha pliida ette pingile , sikutas pikkamisi s&auml;&auml;rikud jalast ja toppis need puukasti . </s> </p>
+<p> <s> " &Auml;&auml; topi neid puukasti , " &otilde;iendasin mina , " puukastis k&auml;ivad puud . </s> <s> K&uuml;ll on juba r&auml;&auml;gitud sellest ! " </s> </p>
+<p> <s> " &Auml;hh , " tegi vanaisa , riputas jalanartsudki puukasti servale ja p&uuml;hkis &uuml;hte r&auml;tikusse n&auml;gu . </s> </p>
+<p> <s> " See oli juhuslikult n&otilde;uder&auml;tik , " m&auml;rkkis vanaema vihaselt p&otilde;rnitsedes , " sa &auml;ra p&uuml;hi sellesse oma sitast l&otilde;usta . </s> <s> Kas ma pean n&uuml;&uuml;d sellega veel n&otilde;usid kuivatama v&otilde;i ? " </s> </p>
+<p> <s> " &Auml;hh , " tegi vanaisa , urgitses hambad suust ja lodistas neid kraanikausi &auml;&auml;res , kus mina olin &auml;sja l&otilde;petand pesemise . </s> <s> Siis istusime lauda . </s> <s> Vanaema tuli sahvrist eilase rabarbarikisselliga . </s> </p>
+<p> <s> " Mmm , " laususin mina . </s> <s> Vanaisa ei lausund midagi , vaid k&auml;&auml;nas taskunoa lahti . </s> </p>
+<p> <s>P&auml;rast s&ouml;&ouml;mist , keskhommikul , lesisin mina koikul jahedas tagatoas . </s> <s> Vanaisa oli l&auml;inud sauna , et seal tunnike-poolteist liha luusse lasta ja siis vaadata , mis edasi saab . </s> <s> Vanaema oli alustand ettevalmistusi &otilde;htaks &ndash; k&uuml;lalised pidid saabuma kell seitse . </s> </p>
+<p> <s>Kuulsin , kuda suures toas eestiaegse riidekapi uks kriuksuv-kr&auml;ginal avanes . </s> <s> Juurdlesin , mida vanaemale siis l&otilde;ppude l&otilde;puks kinkkida . </s> <s> Lilli k&uuml;ll ei sobi &ndash; arvestades praegust lillek&uuml;llasust . </s> <s> Mis kinkk see on , kui v&otilde;ib minna aasale ja t&otilde;mmata vikatiga paar korda siuh-s&auml;uh ja ongi k&auml;ru t&auml;is . </s> <s> Kinkk on ikka midagi haruldast . </s> <s> Lilled , jah , k&uuml;ll ei sobi . </s> </p>
+<p> <s>Ajasin verandalt jalgratta v&auml;lja . </s> <s> Et kui teeks &otilde;ige &uuml;he tuhiseva tiiru ? </s> <s> Keerasin v&auml;ravast v&auml;lja , J&otilde;ngu teele . </s> <s> Minu selja taga keeras samal hetkel suurelt teelt J&otilde;ngu teele naabri-Priidu Belaruss , hiigelsuur silok&auml;ru j&auml;rel . </s> <s> Priit tuli koju l&otilde;unale . </s> </p>
+<p> <s>&Otilde;hk , jahe &otilde;hk ! </s> <s> Ma uhasin nii , et k&otilde;rvad lipendasid ja jahe &otilde;hk pressis mulle vastu ! </s> <s> J&otilde;ngu talu juures vajutasin pedaalidel &auml;kiliselt tagasi ja tekitasin kummisahinal mitmemeetrise pidurdusj&auml;lje . </s> </p>
+<p> <s>J&otilde;ngu &otilde;ues pold n&auml;ha kedagi , ainult k&otilde;ikk kolm koera l&otilde;ugasid &uuml;ksteise v&otilde;idu . </s> <s> Tulin rattalt maha , panin selle puu najale , l&auml;ksin v&auml;ravast sisse . </s> <s> Otsekui tellimise peale k&auml;is majauks &ndash; prauhh ! &ndash; ristseliti ja J&otilde;ngu poiss tormas &otilde;ue . </s> </p>
+<p> <s> " N&auml;gin sind aknast ! " h&uuml;&uuml;dis ta tervituseks , " ma sind sisse ei kutsu , oota , ma v&otilde;tan ratta , l&auml;hme Evelini poole , mh ? " </s> <s> Siis ta oligi kadund majanuka taha . </s> </p>
+<p> <s>Lonkkisin v&auml;rava poole tagasi . </s> <s> Ootasin ratta k&otilde;rval , kuni J&otilde;ngu poiss taas n&auml;htavale ilmus , ratast k&auml;ek&otilde;rval l&uuml;kates . </s> </p>
+<p> <s>S&otilde;tkusime hoo sisse ja v&otilde;tsime sihi K&auml;rpide suunas . </s> </p>
+<p> <s> " Tead , ma tegin karja-arusse onni , kahe p&auml;evaga , oi sa ei tea , kui viimase peal kift see on , ja tead , mis ideele ma tulin , tead ega me seda onni teistele ei n&auml;ittagi , kui ainult Evelinile , et see on siukke salajane peakortter , ja tead , hehee , siis paneme endile " Kapten Tenkese " nimed ja hakkame kellegiga s&otilde;da pidama . </s> <s> Mina olen kapten Tenkes ja sina , kes sina tahad olla ? </s> <s> Tead , sina ole Jan&oacute;s . </s> <s> See piitsaga mees , kellel siukke must kitli moodi asi kogu aeg seljas on , ah ? </s> <s> Ja Evelin on Veronika , " vuristas &otilde;nnelik onniehitaja . </s> </p>
+<p> <s>M&otilde;tlesin , et imelik &ndash; miks mina k&uuml;ll niisugust vaimustust ei tunne . </s> <s> Vist sellep&auml;rast , et linnas tehakse selles vanuses juba teistmoodi asju . </s> <s> A J&otilde;ngu poiss on ju pesueht maakas . </s> <s> Olgugi , et elab talvel T&uuml;ril . </s> </p>
+<p> <s> " Noh , jah , okei . </s> <s> A kellega me peame s&otilde;da ? </s> <s> Siin ei ole rohkem meievanuseid , " pistsingi vahele . </s> <s> J&otilde;ngu poiss j&auml;i vait . </s> <s> Sellele polnud ta vist oma &otilde;hinas tulnudki , et s&otilde;dida ei ole kellegiga . </s> </p>
+<p> <s> " No siis ei s&otilde;di . </s> <s> Siis lihtsalt ... ; " </s> </p>
+<p> <s>S&otilde;itsime m&otilde;nda aega s&otilde;nagi lausumata . </s> <s> Tee viis metsa &auml;&auml;rest l&auml;bi , &uuml;hel pool oli odraoras , teisal lepav&otilde;sa ja suured p&otilde;llukivid &uuml;ksteise otsa hunnikusse l&uuml;katud . </s> <s> Siin kasvab palju pihlakaid ja kevadeti ma ikka k&auml;in neilt &otilde;isi korjamas . </s> <s> &Otilde;iget teed siin ei l&auml;hegi , on aint suurte traktorite poolt aukkuk&uuml;nttud roobastik , pidevalt poril ja lomppis &ndash; isegi p&otilde;ualisematel aegadel . </s> <s> Sellep&auml;rast oli raske ennast edasi v&auml;ndata ja n&otilde;nda p&uuml;sisime vait ja ainult hingeldasime , raami vahelt poolp&uuml;sti pedaale tallates . </s> </p>
+<p> <s>L&otilde;puks j&otilde;udsime taas normaalsele kruusateele ja sai sisse v&otilde;tta suurema hoo . </s> <s> Selja taha j&auml;i Lepiku talu ja otse ette K&auml;rbi . </s> </p>
+<p> <s> " Su vanaemal on t&auml;na s&uuml;nnip&auml;ev , " mainis siis J&otilde;ngu poiss . </s> </p>
+<p> <s> " Ait&auml;h , et &uuml;tlesid , " ilkkusin mina . </s> </p>
+<p> <s> " Ei , t&otilde;siselt , tuleb siis suur ja v&otilde;imas pidu v&otilde;i ? " </s> </p>
+<p> <s> " Mis ta t&uuml;hi ikka tuleb . </s> <s> Nagu alati on old . </s> <s> Nagu ikka on . </s> <s> Tead k&uuml;ll . " </s> </p>
+<p> <s> " Mh&uuml;h&uuml;h . " </s> </p>
+<p> <s> " Eks sa tuled ju ka . " </s> </p>
+<p> <s> " Mh&uuml;h&uuml;h . " </s> </p>
+<p> <s> " Ja Rein tuleb ja sinu isa ja ema ja vanaema ja . " </s> </p>
+<p> <s> " J&auml;hh . " </s> </p>
+<p> <s> " Kuule , aga miks Reinu J&otilde;ngu Reinuks kutsutakse , kui ta tegelt hoopis Lepikul elab ? " k&uuml;sisin . </s> </p>
+<p> <s> " Noh , ta on meile sugulane , minu isa vend ju , ja see nimi on talle vanast ajast vist k&uuml;lge j&auml;&auml;nud , sellest ajast , mil isa ja Rein m&otilde;lemad veel J&otilde;ngul elasid . </s> <s> A siis ehitas Rein endale Lepiku . </s> <s> Ja eks &otilde;igem oleks muidugi Lepiku Rein . </s> <s> Tema naist h&uuml;&uuml;takse k&uuml;ll Lepiku Annaks . " </s> </p>
+<p> <s> " Ahaa . " </s> </p>
+<p> <s>K&auml;rbi oli k&auml;ega katsuda &ndash; sada meetrit veel . </s> </p>
+<p> <s> " Oled sa terve suve siin ? " k&uuml;sisin . </s> </p>
+<p> <s> " Vahepeal k&auml;in T&uuml;ril ka . </s> <s> Sa ei k&auml;i siis vahepeal Tallinnas ? </s> <s> Oled siin terve suve ? " </s> </p>
+<p> <s> " Noh ... ; jah , " &uuml;tlesin , hoogu maha v&otilde;ttes . </s> </p>
+<p> <s>Kummide sahinal peattusime m&otilde;lemad ja v&otilde;rdlesime pidurdusj&auml;lgesid . </s> <s> Minu oma oli pikem ! </s> </p>
+<p> <s>K&auml;rbi &otilde;uel oli must Volga . </s> <s> Silmasime seda alles n&uuml;&uuml;d , sest enne oli see j&auml;&auml;nud lauda nuka taha varju . </s> </p>
+<p> <s> " N&auml;&auml; , isa on kodus , " &uuml;tles J&otilde;ngu poiss , " ei tahaks nagu h&auml;sti tema silma alla sattuda . " </s> </p>
+<p> <s> " L&ouml;&ouml;b veel maha jah , " pilkkasin . </s> </p>
+<p> <s> " &Auml;hh , &auml;ra irise ... ; a ta on siukke ... ; nagu kuri kogu aeg v&otilde;i . </s> <s> Ma ei saa aru , miks . " </s> </p>
+<p> <s> " Jajah , see on t&otilde;esti imelik . </s> <s> Ma ei olegi teda vist kunagi naeratamas n&auml;inud . </s> <s> Ega ta vist ei oskagi . " </s> </p>
+<p> <s>Parkkisime rattad v&auml;ravasse ja astusime nii tasa kui v&otilde;imalik K&auml;rbi &otilde;ue . </s> <s> K&auml;rbi koer , segavereline hunt Pontu tuli keti kolinal kuudist v&auml;lja , kuid ei iitsatanudki vanade tuttavate peale . </s> <s> Passis vaid m&otilde;ne hetke ja puges lolli n&auml;oga kuuti tagasi . </s> </p>
+<p> <s> " Mida teie siin hiilite ? " kostus garaa&zcaron;i poolt . </s> <s> See oli Evelini isa . </s> </p>
+<p> <s> " Eee --- me tulime Evelinile k&uuml;lla , " vastasin mina . </s> <s> Evelini isa sammus meie suunas , uuris meid t&otilde;redalt ja l&auml;ks majja . </s> <s> T&auml;pselt k&uuml;mne sekundi p&auml;rast ilmus trepile Evelin . </s> </p>
+<p> <s> " Hahaa ! </s> <s> V&otilde;i teie ! </s> <s> Tulge sisse ! " kutsus ta . </s> </p>
+<p> <s>A J&otilde;ngu poiss &uuml;tles : " Sa tule parem v&auml;lja , meiega . </s> <s> Me n&auml;ittame sulle &uuml;ht &uuml;llatust . " </s> </p>
+<p> <s> " Oo ! </s> <s> &Uuml;ht &uuml;llatust ? " imestas Evelin , " kusse on ? " </s> </p>
+<p> <s> " Seda ei ole siin . </s> <s> See on karja-arus . " </s> </p>
+<p> <s> " Aaa . " </s> </p>
+<p> <s>Sel hetkel ilmus trepile Evelini isa . </s> </p>
+<p> <s> " Misasja ? </s> <s> Kuhugi ei roni ! </s> <s> Alles siin jooksid pullikarjad ringi ! </s> <s> Pealegi &ndash; karja-arus olla alles hiljuti karu n&auml;htud . </s> <s> Kuhugi ei ole vaja ronida , " p&otilde;ristas Evelini isa . </s> <s> " Kuulge , teie ! " p&ouml;&ouml;rdus ta siis minu ja J&otilde;ngu poisi poole , " mida te siin ahvatlete ? </s> <s> Mis &uuml;llatus see on ? </s> <s> Kindlasti mingi poisikeste jama . " </s> </p>
+<p> <s> " Ahh , ei midagi , " pobises J&otilde;ngu poiss vaevukuuldavalt . </s> </p>
+<p> <s> " Mida ? </s> <s> Meheh&auml;&auml;lt ei kuule ! " </s> </p>
+<p> <s> " Ahh , ei midagi ! " p&otilde;rutas J&otilde;ngu poiss seekord ja vaatas Evelini isale vapralt silma sisse . </s> </p>
+<p> <s> " Vat nii . </s> <s> Siin v&otilde;ite olla , kuid sina seni v&auml;lja ei l&auml;he , kuni pullid ei ole kinni p&uuml;&uuml;tud . </s> <s> Ma imestan , kuidas teie vanemad " &ndash; ta p&ouml;&ouml;rdus taas minu ja J&otilde;ngu poisi poole &ndash; " lasevad teil niimoodi ringi uhada , kui pullikari lahti . " </s> </p>
+<p> <s>Evelin oli kohmetu . </s> <s> Vist oli tal natuke oma t&otilde;reda isa p&auml;rast piinlik . </s> <s> Isa n&auml;gi ka , et on veidi &uuml;le pingutand . </s> </p>
+<p> <s> " Minge sisse . </s> <s> Evelini ema tegi just mannavahtu . </s> <s> Ma l&auml;hen n&uuml;&uuml;d pullide p&uuml;&uuml;dmist organiseerima . </s> <s> Viisust on tarvis loomavaguneid tuua , ega muidu neid tagasi ei saa . </s> <s> Siukkest asja pole veel kunagi juhtund , et kogu kari plehku paneb . " </s> <s> &Uuml;tles jah nii ja l&auml;ks l&otilde;i oma Volgale h&auml;&auml;led sisse . </s> </p>
+<p> <s> " &Auml;rge pange t&auml;hele , " s&otilde;nas Evelin , kui auto oli v&auml;ravast v&auml;lja tagurdand ja eemaldus , tolmusaba j&auml;rel . </s> <s> " Ta on t&auml;na hommikust saati selline . </s> <s> Ta ju vastutab k&otilde;ige selle eest , et pullid lahti p&auml;&auml;sesid . </s> <s> Oleks &otilde;ige verandal ja s&ouml;&ouml;ks natikese mannavahtu , mh ? </s> <s> Oi see on hea mannavaht ! </s> <s> Minge te ees , ma tulen ka kohe . " </s> </p>
+<p> <s>Evelin kalpsas trepist &uuml;les ja kadus tuppa . </s> <s> Meie k&otilde;ndisime maja taha , kus oli suur ja sopiline aed . </s> <s> K&auml;rbi tagaaedas on &uuml;ks v&auml;ike elupuuheki sisse &auml;rapeidetud bassein . </s> <s> See on muust aedast omaette koht ja tihedad elupuud annavad sellele veel mingi salap&auml;rase , mystilise ilme . </s> <s> Bassein on k&uuml;ll pisike ja vesi selles tavaliselt l&auml;bipaistmatult must , aga me k&uuml;lastame Evelini pool olles alati seda kohta kui v&auml;hegi v&otilde;imalik . </s> <s> Sest et terves k&uuml;las ei ole midagi niisugust . </s> <s> Ning sellega asi veel ei piirdu ! </s> <s> Basseini &auml;&auml;rest p&auml;&auml;seb mehek&otilde;rguste sirelitega varjatud lehtlasse , kus on aialaud , pingid , v&auml;ike grillimisahi ja suvel kuumaga &ndash; nagu t&auml;nagi &ndash; hea jahe . </s> <s> Sinna lehtlasse n&uuml;&uuml;d istusimegi . </s> </p>
+<p> <s> " Kui ma suureks saan , siis teen oma aeda ka basseini , hekid ja lehtla , " &uuml;tlesin . </s> </p>
+<p> <s> " Sinu aeda ei mahu . </s> <s> Sul on liiga v&auml;ike aed , " v&auml;ittis J&otilde;ngu poiss . </s> </p>
+<p> <s> " Siis teen aia suuremaks , " kinnitasin ja kujutasin vaimusilmas ette , kuhu midagi paigutan . </s> <s> A J&otilde;ngu poiss j&auml;tkas : </s> </p>
+<p> <s> " Pealegi on su maja kohe suure tee &auml;&auml;res . </s> <s> Istud oma lehtlas vaikkuses ja k&otilde;ikk on hea &ndash; kuid siis j&auml;rsku m&uuml;riseb m&otilde;ni Kirovets m&ouml;&ouml;da ja kallab kogu aia tolmuga &uuml;le . </s> <s> Mis siis , ah ? </s> <s> Kas sa leiutad mingi riistapuu , millega saaks maja paarsada meetrit eemale vedada ? " </s> </p>
+<p> <s> " Selliseid riistu pole vaja leiutada , need on juba olemas . " </s> </p>
+<p> <s> " On nad jah ! " </s> </p>
+<p> <s> " Ei , p&auml;riselt on . </s> <s> A parem on maja eest lihtsalt tee &auml;ra asfalteerida . </s> <s> Siis ei ole enam mingit tolmu . " </s> </p>
+<p> <s> " Kesse sul k&uuml;lateed ikka asfalteerib ? </s> <s> Ja m&uuml;rin j&auml;&auml;b ikka alles . " </s> </p>
+<p> <s> " &Auml;hh , sitta see m&uuml;rin . </s> <s> Ja tead , mis ? </s> <s> Ma k&uuml;lvan aeda sellist muru , mis ei kasva pikemaks kui paar sentimeetrit . </s> <s> Siis ei pea enam vikatiga valvet pidama ja ei ole ka mingit n&otilde;gesev&otilde;sa enam . </s> <s> Aiateed katan &uuml;ldse punase killustikuga . </s> <s> Ja siis on mu aed nagu inglise filmides on . " </s> </p>
+<p> <s> " Tore on k&uuml;ll , jah , killustiku seest umbrohtu k&otilde;blada . " </s> </p>
+<p> <s> " A kuda need Inglismaal siis saavad ? " </s> </p>
+<p> <s> " No eks neil on siuksed killustikud , millest rohi l&auml;bi ei kasva . " </s> </p>
+<p> <s> " Ma v&otilde;tan ka sellise . " </s> </p>
+<p> <s> " Sina ja su unistused ! " &uuml;tles J&otilde;ngu poiss , " alles tahtsid ju verandakatusele r&otilde;du ehitada . " </s> </p>
+<p> <s> " R&otilde;du tuleb nigunii . </s> <s> Iga &otilde;ige veranda katusel peab olema r&otilde;du , kui teda seal veel ei ole . </s> <s> Nagu Evelinil on . </s> <s> Ma teen t&auml;pselt samasuguse . </s> <s> Ma ei teagi , miks meil ei ole . </s> <s> Vist sai raha enne otsa . " </s> </p>
+<p> <s> " Jaa-jaa , " irvitas J&otilde;ngu poiss , " sa tead , mis tee parem &ndash; sa abiellu Eveliniga ! </s> <s> Siis saad selle k&otilde;ikk siin endale . </s> <s> Ei pea ise rabelema ega midagi . " </s> </p>
+<p> <s> " Sa &auml;ra m&ouml;lise ! </s> <s> Sa ise abiellu oma Eveliniga ! </s> <s> Ja &uuml;ldse &ndash; ma teen ise ja teen paremini ! </s> <s> Vat . " </s> </p>
+<p> <s>J&otilde;ngu poiss oli leidnud grillimisahju juurest &uuml;he kalapea ja viskas mind sellega . </s> </p>
+<p> <s> " Misasja ? " h&uuml;&uuml;atasin pahaselt ja virutasin selle talle tagasi &ndash; otse vastu vahtimist . </s> <s> Kuid Evelini h&auml;&auml;l katkestas meie tegevuse . &ndash; " Kus te olete ? </s> <s> Uuu ? " </s> <s> Ja juba ta tuligi &ndash; ta ju teadis , kus me oleme . </s> <s> " ... ; minu isa teine vend on miljon&auml;r Alaskal ... ; " laulis t&uuml;druk tulles ja imestas : " Et teie ka sellest lehtlast &auml;ra ei t&uuml;dine ! </s> <s> Mul juba ammu siiber . " </s> <s> Ta pani lauale suure kandiku , keset mida oli suur pott t&auml;is v&auml;&auml;rt rooga . </s> <s> Poti k&otilde;rval olid piimakann , taldrekud ja lusikad . </s> </p>
+<p> <s> " Mis &uuml;llatus see oli , mida te mulle n&auml;idata tahtsite ? " k&uuml;sis Evelin ja kattis lauda . </s> </p>
+<p> <s> " Me tegime karja-arusse onni , " &uuml;tles J&otilde;ngu poiss ja tal n&auml;is olevat veidi kahjugi , et ta sedasi lehtlalaua taga peab oma saladuselt katte kergitama . </s> </p>
+<p> <s> " Ahaa ! " &uuml;tles Evelin , " ja siis ? </s> <s> Mis me teeme selle onniga ? </s> <s> Kas me kavatseme p&otilde;geneda kodust &auml;ra ja minna metsa elama ? </s> <s> Ja indiaanlasi m&auml;ngida ? " </s> </p>
+<p> <s> " Ei ! </s> <s> Muidugi mitte ! " t&auml;hendas J&otilde;ngu poiss h&auml;iritult , " muidugi ei kavatse me p&otilde;geneda kodust ja minna elama metsa ! </s> <s> Aga minu meelest on lihtsalt vahva omada onni . " </s> </p>
+<p> <s> " Me teeme vibud ja hakkame igast asjade pihta laskma m&auml;rkki , " seletasin , " ma &otilde;ppisin noolele naela otsa kinnitama . </s> <s> See on l&otilde;pp kerge . " </s> </p>
+<p> <s> " Just ! " kinnitas J&otilde;ngu poiss , " siis teeme l&otilde;ket ja k&uuml;psetame karttulaid . " </s> </p>
+<p> <s> " K&otilde;igepealt laseme &uuml;ksteisel silmad peast v&auml;lja ja siis p&otilde;letame metsa maha ? </s> <s> T&otilde;esti vahva ! " &otilde;rritas Evelin ja laud oli kaettud . </s> </p>
+<p> <s> " See'i ole midagi nii keset metsa . </s> <s> See on t&auml;itsa metsa serva l&auml;hedal . </s> <s> Lepiku karjamaa paistab puude vahelt . " </s> </p>
+<p> <s> " No siis jah , " &uuml;tles Evelin selle peale vaid ja kallas meile k&otilde;igile taldrekusse mannavahu peale piima . </s> <s> J&otilde;ngu poiss tonksas talle k&uuml;&uuml;narnuki pihta . </s> <s> Tagaj&auml;rjeks oli sorts piima minu p&uuml;kstel . </s> <s> " &Auml;hh , idikas oled ! </s> <s> Pesed n&uuml;&uuml;d ise Jaagu p&uuml;ksid puhtaks ! " pahandas Evelin . </s> <s> A mina teattasin : " See on t&uuml;hiasi ! " &ndash; ja rapsisin p&uuml;kstelt piima , " sa v&otilde;id isegi sutsu veel valada . " </s> </p>
+<p> <s> " Tahad , ma valan sulle ka piima p&uuml;ksi ? " pakkus Evelin J&otilde;ngu poisile . </s> </p>
+<p> <s> " Ei , ait&auml;h , " vastas see ja v&auml;&auml;nutas s&uuml;&uuml;dlaslikult kulme . </s> <s> " Ma enam ei tee . </s> <s> Saame s&otilde;pradeks . " </s> <s> Ja naeris oma multifilmilike s&otilde;nade &uuml;le . </s> <s> Mina naersin ka . </s> <s> Evelin oli demonstratiivselt t&otilde;sine . </s> <s> " Te olete nagu v&auml;ikkesed lapsed ! " hurjutas ta , " tahate , ma toon luti ? " &ndash; " &Auml;ra m&auml;ngi ema ! " hurjutas J&otilde;ngu poiss talle vastu . </s> </p>
+<p> <s>---</s> </p>
+<p> <s> " Kell on kaks , " teavitas Evelin . </s> </p>
+<p> <s> " Kust sa tead ? " </s> </p>
+<p> <s> " Kas pole see mitte postimehe p&otilde;rin ? " </s> </p>
+<p> <s>Kuulatasime ja veendusime , et see nii t&otilde;esti on . </s> </p>
+<p> <s> " No siis on jah kaks . " </s> </p>
+<p> <s>P&auml;rast s&ouml;&ouml;ki olime veel veidi lehtlas vedelend ja oma r&ouml;hitsemisega Evelini kiusand , a siis l&auml;ksime aia peale kondama . </s> <s> Uurisime t&uuml;kk aega uhket p&auml;ikkesekella tikrip&otilde;&otilde;saste vahel ja Evelin seletas meile selle t&ouml;&ouml;tamise p&otilde;him&otilde;tet . </s> <s> Seej&auml;rel heitsime end kolmekesi veranda trepi ette l&uuml;hikeseksp&ouml;ettud murule ja lihtsalt peesitasime . </s> <s> Nii saigi kell kaks . </s> </p>
+<p> <s> " Kui see seak&auml;rsa moodi pilv meieni j&otilde;uab , siis ma t&otilde;usen p&uuml;sti ja l&auml;hen &uuml;tlen linnapeale , et ta on k&otilde;nts . </s> <s> See t&auml;hendab muidugi , et ma hakkan siis minema &auml;ra koju . </s> <s> Kuna ma nimelt pean , " heietas J&otilde;ngu poiss . </s> <s> Pilv venis ja venis ja kohal oligi &ndash; olles muutunud seak&auml;rsa asemel pigem mingiks pikaks ja muhklikuks kahuritoruks . </s> <s> J&otilde;ngu poiss t&otilde;usiski otsustavalt p&uuml;sti . </s> <s> Murum&auml;tas oli ta seljale j&auml;tnud peenikese ehiskirja . </s> </p>
+<p> <s>Ta sikutas s&auml;rgi &uuml;le pea ja uuris : " Noh , Jaak ? " </s> </p>
+<p> <s>Ajasin ennastki jalule ja Evelin t&otilde;usis ka . </s> <s> Silme ees virvendasid mustad laigud . </s> </p>
+<p> <s> " Mul on t&otilde;esti kahju , et sa &auml;ra pead minema , siin on nii igav &uuml;ksi olla , " &uuml;tles Evelin J&otilde;ngu poisile , " a homseks p&uuml;&uuml;ab isa pullid kinni ja siis l&auml;hme onni vaatama . " </s> </p>
+<p> <s> " Igatahes , " kinnitas J&otilde;ngu poiss , " aga hoiame saladuses , eks ? </s> <s> Aint meie kolm ... ; " </s> </p>
+<p> <s> " Just ! " t&otilde;ottas Evelin . </s> </p>
+<p> <s>J&otilde;ngu poiss v&otilde;ttis suuna teise &otilde;ue poole , kus olid meie rattad . </s> <s> Astusin talle j&auml;rele . </s> </p>
+<p> <s> " Oota , Jaak , " s&otilde;nas Evelin , " sina ei pea ju minema , ega ju ? " </s> </p>
+<p> <s>J&auml;in seisma . </s> </p>
+<p> <s> " See , et ... ; ma ei taha t&otilde;esti &uuml;ksi kodus istuda . </s> <s> Ma suren igavusest , kui te &auml;ra l&auml;hete . </s> <s> Teeme koeraga &uuml;he ringi S&otilde;erus ? " </s> </p>
+<p> <s> " Oota ! " h&uuml;&uuml;dsin J&otilde;ngu poissi , kes oli kohe kadumas maja nuka taha . </s> <s> " Ma j&auml;&auml;n siia . </s> <s> &Otilde;hta n&auml;eme ! " &ndash; " Okei , " s&otilde;nas J&otilde;ngu poiss ja p&ouml;&ouml;rdus taas minekule . </s> <s> N&auml;gin , et ta oli natike solvund . </s> <s> M&otilde;istsin teda t&auml;iesti . </s> <s> " Ma toon lehtlast n&otilde;ud &auml;ra ja siis kohe l&auml;hme , " h&otilde;igati juba eemalt basseini juurest . </s> </p>
+<p> <s>Evelin p&auml;&auml;stis Pontu ketist lahti ja see lidus otsemaid minema . </s> </p>
+<p> <s> " Jookseb esimese tuhina v&auml;lja , siis tuleb ise meile j&auml;rele , " kommenteeris t&uuml;druk . </s> </p>
+<p> <s>Keerasime tee peale . </s> <s> Evelin oli paljajalu . </s> <s> Kodustes tingimustes ei pannud ma seda t&auml;helegi , kuid n&uuml;&uuml;d n&auml;gin kohe . </s> <s> Vaatasin tenniseid oma jalas . </s> <s> Vaatasin , kuda nad koos minu jalaga painduvad . </s> <s> Siis vaatasin Evelini paljaid varbaid . </s> </p>
+<p> <s> " Missa vahid ? " </s> </p>
+<p> <s> " Ei midagi . </s> <s> Sa usse ei karda ? " </s> </p>
+<p> <s> " S&otilde;erus ei ole usse . " </s> </p>
+<p> <s> " On k&uuml;ll . </s> <s> Vanaisa r&auml;&auml;kis . </s> <s> Ta ise n&auml;gi . " </s> </p>
+<p> <s> " Uss tuleb ligi siis , kui sa ussi kardad . " </s> </p>
+<p> <s> " Minu vanaisa ei karda mitte midagi . " </s> </p>
+<p> <s> " Oi , vabandust , ma ei m&otilde;eld seda &uuml;ldse nii . </s> <s> Aga ... ; see , et ... ; sina k&auml;id ju ka suvel paljajalu ? " </s> </p>
+<p> <s> " Muidugist k&auml;in . </s> <s> Kodus . </s> <s> A mitte rattaga uhama minnes . " </s> </p>
+<p> <s> " Miks siis mitte ? " </s> </p>
+<p> <s> " Noh , ega ei tea ju , kust p&auml;rap&otilde;rgust l&auml;bi peab ragistama . " </s> </p>
+<p> <s>Evelin ei vastanud sellele enam midagi . </s> <s> Ta vahetas sujuvalt teemat ja mainis : </s> </p>
+<p> <s> " Varsti on k&auml;es heinaaeg . " </s> </p>
+<p> <s> " Nooh ? " </s> </p>
+<p> <s> " Kassa hobust oled juhtinud ? " </s> </p>
+<p> <s> " Ei ole . " </s> </p>
+<p> <s> " Ma olen . </s> <s> Ma olen iga kord natuke hobust juhtinud , kui heina veetakse . </s> <s> Muidu tellib isa sohvoosist mehed ja traktori , kuid m&otilde;nda kohta ei p&auml;&auml;se traktoriga h&auml;sti ligi . </s> <s> Seal soopoolses S&otilde;erus . " </s> </p>
+<p> <s> " Ja oskadki ? " </s> </p>
+<p> <s> " See on t&uuml;hiasi . </s> <s> Kui on rahulik hobune . " </s> </p>
+<p> <s> " Ranna hobune ? " </s> </p>
+<p> <s> " Nende jah . </s> <s> Neil on vist terves k&uuml;las ainuke hobune . </s> <s> See on tark loom . </s> <s> &Otilde;pib ruttu tee selgeks ja l&auml;heb ise &ndash; pole endal mingit muret . " </s> </p>
+<p> <s>Selja tagant saabus suure m&uuml;dinaga Pontu . </s> <s> Ta kargles paar kord &uuml;mber minu ja Evelini ja pistis siis taas galopis minema . </s> </p>
+<p> <s> " Kuule , miks su isa siukke on ? " </s> </p>
+<p> <s> " Miukke ? " </s> </p>
+<p> <s> " Siukke kuri v&otilde;i ... t&otilde;re . " </s> </p>
+<p> <s> " T&auml;na olid need pullid . </s> <s> Ta on muidu ikka lahkem . </s> <s> A eks see on ta t&ouml;&ouml; , mis ta selliseks on teind . </s> <s> T&ouml;&ouml; juures peabki tal olema k&otilde;va h&auml;&auml;l ja k&otilde;va k&auml;si . </s> <s> Ilma ei saa korda majja . </s> <s> Vaata , kassa seda kuulsat " Estonia " kolhoosi kunagist esimeest tead ? " </s> </p>
+<p> <s> " Heino Marrandit ? " </s> </p>
+<p> <s> " Jah . " </s> </p>
+<p> <s> " Nalja teed ? </s> <s> Kes siis teda ei tea ? </s> <s> Ta oli kunagi minu vanaema t&ouml;&ouml;kaaslane . </s> <s> Viiek&uuml;mnendate alguses . </s> <s> Enne , kui vanaema siia tuli . </s> <s> Mis siis on ? " </s> </p>
+<p> <s> " Vat kus sellel mehel oli alles k&otilde;va k&auml;si . </s> <s> &Uuml;ks tema t&ouml;&ouml;taja , keegi naine , varastand kord midagi kolhoosi tagant . </s> <s> Midagi &uuml;sna t&auml;htsusetut , mingi &auml;mbrit&auml;ie rukkeid v&otilde;i umbes nii . </s> <s> Ja mitte niisama , vaid et n&auml;lg olnud majas ja laps toitta . </s> <s> Marrandi sai j&auml;lile ja &uuml;tles : " T&auml;na t&ouml;&ouml;tage l&otilde;puni , homsest olete vallandatud . " </s> <s> Vat kus oli karm mees . </s> <s> Ei hoolind sellest midagi , et naisel n&auml;lgiv laps ja . </s> <s> Minu isa k&uuml;ll nii karm ei ole . </s> <s> Minu isa &uuml;tleb , et praegu varastavad k&otilde;ikk . </s> <s> Natuke . </s> <s> Sest natuke v&otilde;ib &ndash; see on juba ette n&auml;htud . </s> <s> Aga palju ei tohi . " </s> </p>
+<p> <s> " Kusjuures ma tean seda lugu k&uuml;ll . </s> <s> Vanaema r&auml;&auml;kis . </s> <s> Ja &uuml;tles veel seda ka , et paar aastat varem oleks see naine hoopis maha lastud . " </s> </p>
+<p> <s> " Ongi nii ? " </s> </p>
+<p> <s> " Nojah . </s> <s> See oli see viie viljapea seadus . </s> <s> Varastad riigi tagant peot&auml;iegi &ndash; oled riigivaenlane . </s> <s> Ja riigivaenlane lasti kohapeal maha . " </s> </p>
+<p> <s> " Karm seadus . " </s> </p>
+<p> <s> " Karm , aga t&otilde;hus . </s> <s> N&auml;ljaga s&otilde;id inimesed viimases h&auml;das &otilde;lgi , kuid kolhoosi p&otilde;llud j&auml;id puutumata . " </s> </p>
+<p> <s> " Praegu on ikka hea elada . " </s> </p>
+<p> <s> " Praegu on ikka jah v&auml;ga hea elada . </s> <s> A kassa pole m&otilde;eld , et just sellep&auml;rast ongi ? " </s> </p>
+<p> <s> " Et kunagi sellised seadused olid ? " </s> </p>
+<p> <s> " Nojah . " </s> </p>
+<p> <s>M&otilde;tlesime selle &uuml;le , kui hea on ikka praegust elada , ja t&uuml;kk aega ei kostnud kumbki musta ega valget . </s> <s> J&otilde;udsime suure k&uuml;lavaheteeni ja &uuml;letasime selle siloaukkude juures . </s> <s> S&otilde;eru oli juba kiviga visata . </s> <s> Astusime l&auml;bi odraorase . </s> <s> " Kui sina tuled , tule kardulast l&auml;bi , &auml;ra sina vilja talla , " laulsin mina . </s> <s> Siis k&uuml;sis Evelin : " A kas sinu isa siis ei ole kuri ? " </s> </p>
+<p> <s> " Minu isa ? </s> <s> Ma ... ei tea . " </s> </p>
+<p> <s> " Mismoodi &ndash; ei tea ? " </s> </p>
+<p> <s> " Ahh ! " rapsasin k&auml;ega , " see'i ole jutt ega midagi . " </s> </p>
+<p> <s>Evelin j&auml;tkas pinnimist . </s> </p>
+<p> <s> " Sul venda ei ole ju , eks ? " </s> </p>
+<p> <s> " Ei . " </s> </p>
+<p> <s> " &Otilde;de ka mitte ? " </s> </p>
+<p> <s> " Jah . " </s> </p>
+<p> <s> " Kus su ema t&ouml;&ouml;tab ? " </s> </p>
+<p> <s> " Raamatupidaja . " </s> </p>
+<p> <s> " A isa ? " </s> </p>
+<p> <s> " Mingi aeg ta t&ouml;&ouml;tas kuskil ETKVL-is . " </s> </p>
+<p> <s> " Mmm . " </s> </p>
+<p> <s> " Mis " mmm " ? " </s> </p>
+<p> <s> " Ei midagi . " </s> </p>
+<p> <s>Siis ta k&uuml;sis : " Mis klassi sa s&uuml;gisel l&auml;hed ? " </s> </p>
+<p> <s> " Kaheksandasse . " </s> </p>
+<p> <s> " Aa . </s> <s> Mina ka . " </s> </p>
+<p> <s>Vaatasin , kuda Pontu must selg eemal odraorase sees v&auml;lkkus . </s> <s> " Oota , " pidasin t&uuml;druku kinni , " heida orase sisse . " </s> </p>
+<p> <s> " Mis ? " </s> </p>
+<p> <s> " M&auml;ngime Pontuga . </s> <s> Heida . " </s> </p>
+<p> <s>Heitsin ise ja Evelin heittis ka . </s> <s> Vilistasin ja h&uuml;&uuml;dsin : " Pooon-tuu ! " </s> <s> Siis olin h&auml;sti vait ja andsin Evelinile m&auml;rkku samaks . </s> <s> Ootasime ja kuulatasime . </s> <s> Sekundid l&auml;ksid . </s> <s> Kuulsin s&uuml;dant pumppamas , v&otilde;ppusin selle taktis . </s> <s> Raske oli hingamist tagasi hoida . </s> <s> Evelini huuled liikusid : " &Auml;kki ta ei otsigi ? " &ndash; " K&uuml;ll ta otsib , " vastasin . </s> </p>
+<p> <s>Nii oligi . </s> </p>
+<p> <s>Keegi sahistas ja puhkis j&auml;rjest l&auml;hemal ja l&auml;hemal . </s> <s> Siis madistas &uuml;ks m&uuml;tsakas meist juba p&auml;ris l&auml;hedalt m&ouml;&ouml;da ja &ndash; leittud me olimegi ! </s> <s> Pontu kl&auml;hvis ja kargles meie &uuml;mber suurest r&otilde;&otilde;must ja lippas siis j&auml;lle oma teed . </s> </p>
+<p> <s> " K&uuml;ll need koerad v&otilde;ivad ikka l&otilde;pmatult rabeleda , " &uuml;tlesin mina . </s> <s> Evelin ei &ouml;eld midagi . </s> <s> Vaikkides j&auml;tkasime teed S&otilde;eru poole . </s> </p>
+<p> <s>---</s> </p>
+<p> <s>L&otilde;puks koju j&otilde;udes oli kell neli l&auml;bi . </s> <s> K&otilde;igepealt kiskusin tennised jalast . </s> <s> Siis paigutasin s&uuml;nnip&auml;evakingituse p&ouml;&ouml;ningule salajasse kohta &auml;ra &ndash; enne veel , kui &uuml;ldse vanaema ja vanaisa ette ilmusin . </s> </p>
+<p> <s>&Otilde;ues n&auml;gin , et vanaisa parandas lammaste aedikut , k&otilde;ikjal l&auml;heduses vedelemas t&ouml;&ouml;riistu ja valgeid laastusid . </s> <s> Vanaema lappis tikrip&otilde;&otilde;saste vahel kirudes aiakastmisvoolikut . </s> </p>
+<p> <s> " Vat siin sa oledki ! </s> <s> Palun kasta n&uuml;&uuml;d peenrad &auml;ra ja lase p&auml;rast t&uuml;nn j&auml;lle vett t&auml;is . </s> <s> Ma pean minema toittu vaaritama . " </s> </p>
+<p> <s>S&uuml;da kippus k&uuml;ll vanaisa juude aedikut parandama &ndash; kuulsin teda mingit vaia maasse tagumas , nii et heledad plaksuvad l&ouml;&ouml;gid v&otilde;nkkusid kutsuvalt &uuml;le &otilde;ue . </s> </p>
+<p> <s>Peenraid oli palju : maasikad , kurgid , herned , oad , kaalid , peedid , porgandid , till , salat , varajane kapsas , petersell , sibul , lisaks eemal veel paar vagu varast karttulat &ndash; a noid pold vaja kasta . </s> <s> Ohates ammutasin suurest roostes t&uuml;nnist kastekannuga vett ja alustasin kurkkidest . </s> <s> Kahe t&auml;iega sain kurgid kastetud ja j&auml;tkasin maasikatega . </s> <s> Mul tiksus peas &uuml;ks vahva idee , kuda orjat&ouml;&ouml; &auml;ra ratsjonaliseerida . </s> <s> Kastan maasikad &auml;ra &ndash; nendega peab olema eriti hoolikas , ei tohi vett &otilde;itele lasta , ja siis ... &ndash; hahaa ! </s> <s> Maasikatega valmis , virutasingi kastekannu eemale ja urgitsesin tikrip&otilde;&otilde;sastest v&auml;lja voolikuotsa . </s> <s> Keerasin kaevust vee jooksma . </s> <s> Vajutasin n&uuml;&uuml;d p&ouml;idlaga vooliku suudmele , sihtisin ja &ndash; k&otilde;rges kaares rabises veejuga &uuml;le aia ! </s> <s> Reguleerisin joa v&otilde;imalikult &otilde;hukeseks , et peenraid ja noori taimekribulaid mitte sodiks pommitada . </s> <s> N&otilde;nda said k&otilde;ikk kaugemad peenrad paari hetkega kastetud ! </s> </p>
+<p> <s>&Auml;kki oli vanaema mu selja taga . </s> <s> " Mida sa teed , armas laps ! " h&uuml;&uuml;atas ta , " see on kaevuk&uuml;lm vesi , see tapab taimed &auml;ra ! </s> <s> L&otilde;peta otsekohe ! " </s> <s> Ja haaras mu k&auml;est vooliku . </s> <s> Lonttis k&otilde;rvu p&uuml;&uuml;dsin vabandada : " Noh , ma tahtsin ... " &ndash; " Jaa-jaa , rutemini kaelast &auml;ra saada &ndash; seda sa tahtsid . </s> <s> A kas ma pean tulema ikkagi ise kastma v&otilde;i ? " </s> </p>
+<p> <s> " Ei . " </s> </p>
+<p> <s> " V&auml;ga hea siis . </s> <s> Kasta n&uuml;&uuml;d korralikult . " </s> <s> &ndash; Ja l&auml;ks &auml;mbriga kaevule &ndash; oli tulnud tuppa vett viima . </s> </p>
+<p> <s>Kui peenarde kastmisega &uuml;hele poole sain , l&otilde;petas ka vanaisa lammaste aediku parandamise . </s> <s> Ta korjas t&ouml;&ouml;riistad kokku ja viis saunak&ouml;&ouml;ki , marssides seej&auml;rel joonelt lautta . </s> <s> J&auml;rgnesin talle , lootuses veeta aeg k&uuml;laliste tulekuni v&otilde;imalikult huvitavalt . </s> <s> A vanaisa v&otilde;ttis k&uuml;&uuml;ni seina &auml;&auml;rest hoopis sitahargi ja l&auml;ks l&uuml;kkas lauda tagaukse lahti . </s> <s> Selge see , et l&auml;heb sitaviskamiseks . </s> <s> Ja on's sitaviskamine huvitav ? </s> <s> Ronisingi hoopis laudalakka &ndash; sinna , kus mul on p&otilde;hupakkidest meisterdatud &uuml;ks hea olemine . </s> <s> Istusin seal ja veri surises soontes . </s> <s> Vaatasin aknast v&auml;lja , m&otilde;tlesin pullidele &ndash; on nad n&uuml;&uuml;dseks juba kinni saadud ? </s> <s> Kaugel metsa &auml;&auml;res liikus mingi sinine laikk &ndash; mingi traktor . </s> <s> Varsti on t&otilde;esti heinaaeg , m&otilde;elda vaid . </s> <s> Juba n&auml;dala p&auml;rast hakkab vanaisa soos niitmas k&auml;ima . </s> <s> Ja siis kokku panemas . </s> <s> Ega ta &uuml;ksi j&otilde;uagi . </s> <s> Tuleb appi kutsuda vana-Toomas v&otilde;i T&uuml;ri Jaak . </s> <s> Toomas on &uuml;ksik vanamees , kes teenib k&uuml;lainimestele suurematel t&ouml;&ouml;del abiks k&auml;ies pensjonilisa . </s> <s> Naine oli tal ka kunagi , a l&auml;ks &auml;ra . </s> <s> Ja poeg on . </s> <s> Borka , umbes kaksk&uuml;mmend ja midagi vana . </s> <s> R&auml;&auml;gitakse , et ta olla v&auml;ikese kiiksuga . </s> <s> Noh , mina pole sellest eriti aru saand , a palju ma's teda ikka n&auml;ind olen . </s> <s> Niipalju , kui mina teda n&auml;ind olen , on ta tubli poiss &ndash; murrab t&ouml;&ouml;d teha nagu h&auml;rg . </s> <s> A r&auml;&auml;gitakse ka teisiti . </s> <s> T&uuml;ri Jaak on vanaema vennapoeg ja ka veidi imelik . </s> <s> No tema on t&otilde;esti imelik , seda on ta olekust , jah , juba eemalt n&auml;ha . </s> <s> Imelik on ta sellest ajast , kui ta veel teenis aega N&otilde;ukogude Armees ja m&auml;&auml;rati vangivalvuriks . </s> <s> Seal oli midagi , et vangid p&otilde;genesid &auml;ra ja midagi juhtus veel ja p&auml;rast seda ongi T&uuml;ri Jaak imelik . </s> <s> Nagu vana-Tooma Borka , nii on ka T&uuml;ri Jaak muidu igati tore &ndash; kui just n&auml;rvi ei aja . </s> </p>
+<p> <s>M&otilde;tlesin , et &otilde;igupoolest v&otilde;iks ju minna tuppa &ndash; &auml;kki saab midagi n&auml;ksida . </s> <s> N&auml;ksiks midagi ja loeks m&otilde;nda head raamatut k&otilde;rvale &ndash; see oleks tibens . </s> </p>
+<p> <s>Ronisin lakast alla , astusin kanasita sisse , kraapisin pahaselt nohisedes jala rohu sisse puhtaks ja l&auml;ksingi &auml;&auml; tuppa . </s> </p>
+<p> <s>---</s> </p>
+<p> <s>Kella seitsmeks olin pestud , klanitud , kammitud ja piduliku puhu kohaselt igati korralikult riides . </s> <s> L&uuml;kandsein vanaisa toa ja suure toa vahel oli t&otilde;mmatud lahti , et teha ruumi pikale peolauale . </s> <s> Oi see peolaud ! </s> <s> See oli ju tihedalt kaettud igasugu toittudega ! </s> <s> Seal leidus mitut liiki v&otilde;idleibu ja -saiu k&otilde;ikkm&otilde;eldavate lisanditega nagu muna , kilu , juust , vorst , kalamari ja pasteet ; seal leidus sealiha-s&uuml;ltti ja kuut sortti salatit : karttula- , heeringa- , riisi- , makaroni- ja aedviljasalatit ja rosoljet ; seal leidus veel rulaadi ja l&otilde;hefileed , k&uuml;lmi kanakoibi loorberikallerdises ja sibulaga marineeritud seent , pirukaid liha , riisi , kapsa ja seentega , saiapurus veeretatud r&auml;imerulle &ndash; oi , seal leidus veel nii paljut ! </s> <s> Laual oli aukohal tohutu vaagen seakarbonaadi jaoks ja selle vaagna k&otilde;rval oli terve hulkk v&auml;iksemaid kausse ja potikesi , mis olid m&auml;&auml;ratud keedekarttulatele ja praekapsale . </s> <s> Terve maja oli t&auml;idetud isu&auml;ratava praadimisvinuga ja mul hakkas juba ainu&uuml;ksi sellest suu metsikult vett jooksma , sest et ma kujutlesin endale ette seda suurt ja kr&otilde;bedat ja mahlast karbonaadi oma taldrekul ! </s> <s> Ja egas siis road ainult soolasega piirdu ! </s> <s> On ju sahver ja kelder t&auml;is torttisid , kooke , k&uuml;psetisi ja puuvilju ja mahlu ! </s> <s> Oh oleks mul t&auml;na maailma k&otilde;ige n&auml;ljasem k&otilde;ht t&auml;is s&uuml;&uuml;a ! </s> </p>
+<p> <s>K&ouml;&ouml;gis oli karbonaad juba pliidale t&otilde;stetud . </s> <s> Ma vahtisin seda &uuml;ksisilmi , suutmata kangutada sellelt pilkku . </s> </p>
+<p> <s> " No n&uuml;&uuml;d on valmis . </s> <s> T&auml;pselt &otilde;igel ajal , " &otilde;hkas vanaema ja istus higi p&uuml;hkides toolile . </s> <s> Temalgi olid peoriided seljas &ndash; k&ouml;&ouml;giohtude eest kaitses neid suur lohmakas p&otilde;ll . </s> <s> Muki hakkas &otilde;ues haukkuma . </s> </p>
+<p> <s> " Ma arvan , et see on esimene k&uuml;laline , " pakkus vanaema , " mine k&auml;hku ja &uuml;tle vanaisale , et ta sitaviskamise l&otilde;petaks ja prooviks seltskonda ilmudes v&otilde;imalikult inimese moodi v&auml;lja n&auml;ha . </s> <s> A tee siva ! " </s> </p>
+<p> <s>Lippasin uksest v&auml;lja . </s> <s> &Otilde;ues trepi ees seisid Aavikud ja Rannad . </s> </p>
+<p> <s> " Noh , tere , Jaak-poiss , " &uuml;tles Aaviku Lisette , " ei tea , kas v&otilde;ib sisse ka tulla ? " </s> </p>
+<p> <s>Tahtsin talle vastata , et ja-jaa &ndash; palun olge nii lahke , kuid juba oligi vanaema k&uuml;lalistel vastas . </s> <s> V&auml;ravasse pidurdasid valge &Zcaron;iguli ja punane Moskvit&scaron; &ndash; need olid R&auml;&auml;gud ja Saarepuud , nende j&auml;rel saabusid kohe ka naabrid &ndash; Priit , Juku ja Linda . </s> <s> Leitti , et ei tasugi veel minna sisse , kus on palav , vaid et oleks m&otilde;ttekas oodata &otilde;ues v&auml;rske &otilde;hu k&auml;es , kuni k&otilde;ikk k&uuml;lalised on saabund . </s> <s> Seepeale pistsid mehed suitsud n&auml;kku ja hakkasid ajaviiteks tossutama . </s> <s> Tiirutati aedas ja vaadati , kus mis kasvab ja kuidas kasvab ja kuidas meil k&uuml;ll niimoodi &ndash; et vat neil on hoopis naamoodi ja . </s> </p>
+<p> <s>RAF-bussiga saabusid T&uuml;rilt sealsed pidulised &ndash; T&uuml;ri t&auml;did ja onud ja igasugu pojad ja t&uuml;tred ja vanad koolivennad ja -&otilde;ed ja mingid inimesed veel &ndash; kes neid seal nii t&auml;pselt teabki , kes on kes ja kelle poeg v&otilde;i t&uuml;tar v&otilde;i midagi . </s> <s> " Kust teie k&uuml;ll saite sellise bussi ? " imestas vanaisa , kes oli ennast vahepeal kibek&auml;hku " inimeseks " teinud . &ndash; " See , kas tead , on ju limpsivabriku buss . </s> <s> See s&otilde;idab &uuml;ldiselt kohe tagasi ka , " seletas onu Jaan Belamorkanali filtrit volttides ja uuris minu k&auml;est lustakalt : " Kuule , tahad T&uuml;rile s&otilde;itta ? </s> <s> Noh ? </s> <s> Istu aga peale . </s> <s> Ega piletit ei pea ostma . " </s> </p>
+<p> <s>Melu &otilde;ues t&otilde;usis ja majast kostus askeldamist . </s> <s> &Uuml;ksteise j&auml;rel saabusid Hallim&auml;ed ja N&otilde;lvakud , Kaenalid ja Lepikud , Taadad ja V&auml;ljavahid , Murakad ja Ojalilled , Alliksaared ja Kruusam&auml;ed , Punapardid ja J&otilde;ngud , Orbi &Otilde;ie ja T&otilde;nise Mart , N&auml;pu Hilda ja Vankri Otto , Vaadami V&auml;rdi ja Brennari Bruno , Neetari Linda ja Miku Lilli , Lodi Heino ja R&uuml;&uuml;tli Villu , Ugari Arved ja Kilgi Kalju , postimees naisega ja velsker Jaan M&otilde;tus naisega ja Ornefeldt J&uuml;ri ja Palloni-poiss ja vana-Toomas &ndash; igasugu inimesed l&auml;hemalt ja kaugemalt . </s> <s> K&uuml;lalisi , jah , tuli ja tuli &ndash; kas neid v&otilde;is olla viisk&uuml;mmend v&otilde;i kuusk&uuml;mmend v&otilde;i &ndash; hoidku k&uuml;ll ! &ndash; vahest koguni seitsek&uuml;mmend , seda ei osand mitte arvata . </s> <s> Autod keerutasid ja tuututasid ja p&uuml;&uuml;dsid ennast kudagi mahutada &auml;ra , ja autouksed m&uuml;rtsusid ja autode seest ukerdasid ennast v&auml;lja peremehed ja perenaised ja lapsed ja vanavanemad . </s> <s> Paljud , kes elasid l&auml;hemal , need olid tulnud jala , ja teised , kes elasid kaugemal &ndash; n&auml;itteks Paides v&otilde;i Rakveres v&otilde;i Tamsalus v&otilde;i Ardus &ndash; , ja kellel endal autot polnud , need olid saabunud taksodega . </s> </p>
+<p> <s>J&otilde;ngude saabudes t&otilde;mbas J&otilde;ngu poiss mind k&otilde;rvale ja k&uuml;sis , mida me p&auml;rast tema lahkumist ka tegime . </s> <s> Ah , ei midagi erilist , vastasin mina &ndash; Pontuga &uuml;he tiiru S&otilde;erus . </s> </p>
+<p> <s>Vanaema h&uuml;&uuml;dis k&otilde;ikki lauda . </s> <s> N&auml;gin , et vanaisa tuli keldrist viinapudelitega . </s> </p>
+<p> <s>---</s> </p>
+<p> <s> " Tule , kaome v&auml;lja , teeme tordile ruumi , " m&uuml;ksasin J&otilde;ngu poissi , ise surmani t&auml;is &otilde;gitud . </s> </p>
+<p> <s>K&otilde;ndisime &uuml;mber maja nuka ja istusime veranda trepile . </s> <s> J&otilde;ngu poisil olid jalas pikad viigip&uuml;ksid ja ta laskis n&uuml;&uuml;d neilt p&uuml;ksirihma j&auml;rele . </s> <s> Minul olid tavalised l&uuml;hikesed p&uuml;ksid &ndash; minul pold lasta midagi . </s> </p>
+<p> <s> " See ongi s&uuml;nnip&auml;evade juures parim osa , " &auml;gises J&otilde;ngu poiss , " et saab s&uuml;&uuml;a igast h&auml;id asju , l&otilde;hkemiseni . " </s> </p>
+<p> <s> " Mh&uuml;h&uuml;h , " tegin mina . </s> </p>
+<p> <s> " Ma ei tea , kudas ma homme &uuml;ldse maast lahti saan . " </s> </p>
+<p> <s> " Hommikul on veel peo teine osa . </s> <s> &Ouml;&ouml;seks l&auml;heb enamik oma koju ja tuleb hommiku tagasi . </s> <s> Mitte k&otilde;ikk muidugi . </s> <s> A naabrid , Aavikud , Rannad ... " </s> </p>
+<p> <s>J&otilde;ngu poiss ei &ouml;eld midagi , aint puhkis vaikselt . </s> </p>
+<p> <s>Ma r&auml;&auml;kisin edasi : " Tead , mida mina m&otilde;tlesin ? </s> <s> Et v&otilde;iks teha &uuml;he pikniku siitkandist kaugemal . </s> <s> Kuskil , kus on mingit j&otilde;ge . </s> <s> Et s&otilde;idaks kolmekesi n&auml;itteks , ja s&ouml;&ouml;ks ja supleks ja molutaks niisama . </s> <s> Mh ? </s> <s> Vat . </s> <s> Ja siis mina m&otilde;tlesin , et vaata , metsa taga on m&otilde;ned vanad varemed , mida me vist ei olegi veel l&auml;bi uurind . </s> <s> Et minu meelest on see karjuv hooletus . </s> <s> Et seda tuleks teha . </s> <s> Ja siis on veel turbaraba t&auml;iesti l&auml;bi vaatamata . </s> <s> Seal on igast vahvaid masinaid , siukseid imelikke , mida ainult turbarabas leidubki . " </s> </p>
+<p> <s>&Auml;kki ilmus nagu maa alt J&otilde;ngu Rein . </s> </p>
+<p> <s> " Noh , mis salaplaane te siin peate ? " k&auml;ratses ta l&otilde;busalt . </s> </p>
+<p> <s> " Ah , ei midagi . " </s> </p>
+<p> <s>Ta istus meie k&otilde;rvale . </s> </p>
+<p> <s> " A tegelikult ? " </s> </p>
+<p> <s> " Me arutasime , mida me k&otilde;ikke sellel suvel teeme , " andsin selgitust , " et l&auml;heme piknikule ja turbarappa . " </s> </p>
+<p> <s> " Ja istume onnis , laseme m&auml;rkki ja k&uuml;psetame karttulaid ja &uuml;hel &ouml;&ouml;l tuleme sinu skalbi j&auml;rele , " naljatas J&otilde;ngu poiss . </s> </p>
+<p> <s> " Oo ? </s> <s> Teil on kogunisti onn olemas ? </s> <s> Ja kas nooltel on ikka naelad otsas &ndash; nagu olema peavad ? </s> <s> V&otilde;i lasete mingite pulkkadega ? " </s> </p>
+<p> <s> " Ei , &otilde;iged nooled on . " </s> </p>
+<p> <s>J&otilde;ngu Rein m&otilde;tles mingi asja &uuml;le j&auml;rele , kulm kortsus , ja t&otilde;sines &uuml;ha . </s> <s> Ta pilkk h&uuml;ples rahutult . </s> </p>
+<p> <s> " Kuulge ... </s> <s> Kas see teie onn , kas see'i olnud juhuslikult minu karjamaa l&auml;heduses ? " </s> </p>
+<p> <s>Minu ja J&otilde;ngu poisi silmad l&auml;ksid &uuml;llatusest suureks . </s> </p>
+<p> <s> " Aaahh ? </s> <s> Kuda sa teadsid ? " k&auml;histas J&otilde;ngu poiss . </s> </p>
+<p> <s> " Ai-ai-ai , " &uuml;tles Rein , " mul on v&auml;ga kahju , aga --- ee --- ma vedasin t&auml;na metsakuiva ja tagurdasin ZIL-iga kogemata &uuml;he onni moodi asja maatasa . </s> <s> See oli muidu t&auml;itsa h&auml;sti &auml;ra peidetud , vaarikav&otilde;sa sisse . </s> <s> M&otilde;tlesin veel , et huvitav kelle . </s> <s> Et igasugu Alliku kaake kolab aeg-ajalt metsas ringi , et kas siis ... </s> <s> Aga ma , jah , palun t&otilde;esti vabandust . " </s> </p>
+<p> <s> " Oh , ei ole h&auml;da midagi , " &uuml;tles J&otilde;ngu poiss mehiselt , aga tabasin ta h&auml;&auml;lest siiski &uuml;he umbse noodi &ndash; nagu l&auml;mmataks kurgus . </s> <s> Mul oli ka natike kahju &ndash; et mul ei &otilde;nnestundki seda onni n&auml;ha . </s> <s> Ja kahju oli J&otilde;ngu poisist . </s> <s> Ehitad &otilde;hinal ja oled vaimustunud ja siis tuleb &auml;kki kurb ja troostitu l&otilde;pp . </s> <s> Kas t&uuml;dined ise &ndash; nagu tavaliselt ikka juhtub &ndash; v&otilde;i s&otilde;idab keegi &uuml;le . </s> </p>
+<p> <s>Ja siis ma m&otilde;tlesin , et kui imelik tegelt . </s> <s> Hommiku oli J&otilde;ngu poiss pilgand minu lehtlaid ja basseine , hekke ja p&ouml;ettud muruplatse , punasekruusalisi aiateid ja r&otilde;dusid . </s> <s> Ja Evelin oli pilgand J&otilde;ngu poisi onni . </s> <s> Minul ei olnud tol hetkel midagi , aga J&otilde;ngu poisil oli onn ja Evelinil lehtla ja bassein . </s> <s> Nii nad v&otilde;isidki pilgata &uuml;ksteist ja mind &ndash; sest minul ei olnud ju midagi , ja see , kellel on , see v&otilde;ib ikka pilgata omasugust v&otilde;i seda , kellel ei ole &uuml;ldse midagi . </s> <s> N&uuml;&uuml;d aga oli J&otilde;ngu poiss minuga v&otilde;rdne &ndash; tal ei olnud enam midagi ja mul ei olnud ka midagi . </s> <s> Kui enne olid omavahel liidus Evelin ja J&otilde;ngu poiss , siis n&uuml;&uuml;d oleme meie . </s> </p>
+<p> <s>Aga &uuml;le selle , mis on ja mis ei ole , seisab minu p&uuml;ha ja puutumatu liit Eveliniga . </s> <s> Minu liit Eveliniga lehtlate ja basseinide kaudu . </s> <s> See liit ei kao . </s> <s> Ja sellest liidust ei saa s&otilde;itta &uuml;le veoautod ega ka mitte traktorid ! </s> </p>
+<p> <s>Ma m&otilde;tlesin liidule Eveliniga ja mul oli hea . </s> </p>
+<p> <s>Ja ma &uuml;tlesin : " Kui l&auml;heks majja ? </s> <s> Ma ei tahaks kingituste avamist maha magada . " </s> </p>
+<p> <s>T&otilde;usime p&uuml;sti ja p&uuml;hkisime p&uuml;ksipersed puhtaks . </s> <s> J&otilde;ngu poiss surus k&auml;ed s&uuml;gavale taskutesse . </s> <s> Ta oli s&uuml;nge . </s> </p>
+<p> <s> " K&auml;mmoon ! " &uuml;tlesin talle ja tema m&uuml;hatas leplikult . </s> </p>
+<p> <s>K&ouml;&ouml;gitoimkonna olid priitahtlikult &uuml;le v&otilde;tnud T&uuml;ri t&auml;did . </s> <s> Paar erandit v&auml;lja arvatud , istusid k&uuml;lalised k&otilde;ikk ilusti lauas t&uuml;hjaks j&auml;ratud taldrekute taga ja ootasid tortti . </s> <s> Kingitusi ei olnud veel avatud . </s> <s> Sosistasin vanaemale : " Milla sa kingitused lahti teed ? " </s> </p>
+<p> <s>Vanaema &uuml;tles : " Jaa ? </s> <s> Seda v&otilde;ib ju teha kohe praegu . " </s> </p>
+<p> <s>Rahulikult v&auml;ljusin toast ja ronisin p&ouml;&ouml;ningule &ndash; tooma sealt &auml;ra oma kingitust . </s> <s> T&uuml;kk aega juurdlesin , kas panna sellele kaart juurde v&otilde;i mitte . </s> <s> Otsustasin , et siiski mitte . </s> <s> Punase atlass-paela riba olin ammu k&uuml;lge siudund . </s> <s> T&otilde;in kingituse alla , k&ouml;&ouml;gi ukse taha . </s> <s> K&otilde;ikk oli n&uuml;&uuml;d valmis . </s> <s> Toast kuuldus juba kaugele just niisugust melu , mida tekitab kingituste avamine . </s> <s> L&uuml;hikeste vaheaegade j&auml;rel k&uuml;&uuml;ndis sellest melust esile vanaema " oo ! " v&otilde;i " ahaa ! " . </s> <s> J&auml;lgisin seda tseremoonjat uksepiida najal kibeledes . </s> <s> Kirevatest paberikuhjadest koorus v&auml;lja portselani ja kristalli , riidekraami ja raamatuid , lauan&otilde;usid , majapidamistehnikat ja nipsasjakesi &ndash; noh , nagu ikka kingitakse . </s> <s> Ja nagu ikka , nii v&otilde;ttis ka seekord kingituste avamine tohutult aega . </s> <s> Ega ei saa ju teha lahti ja kohe panna k&otilde;rvale ! </s> <s> Peab ikka enne mudima k&auml;es ja imetlema ja katsuma ja kommenteerima , et " ai-jaa ! &ndash; n&auml;edsa siis , seda mul just vaja oligi &ndash; selle meie eelmise , selle n&auml;ris ju koer , va sunnik , puruks &ndash; aga no mis n&uuml;&uuml;d viga ! " </s> </p>
+<p> <s>Oh ! </s> <s> L&otilde;puks pani vanaema k&auml;est &auml;ra viimasegi kingituse &ndash; J&otilde;ngude kingitud raadjoaparaadi OKEAN 214. </s> <s> Ootasin veel hetke ja astusin piida varjust v&auml;lja , kingitus k&auml;es . </s> <s> K&uuml;mned ja k&uuml;mned silmapaarid haakusid hoobilt minu k&uuml;lge . </s> <s> Laskus &uuml;llatund ja uudishimulik vaikkus . </s> </p>
+<p> <s>Soovisin : " Palju &otilde;nne ! " ja ulatasin oma kingituse suure lillepoti sees vanaemale . </s> <s> Vanaema oli sama rabatud kui k&otilde;ikk teisedki . </s> <s> Ta &uuml;tles : " Ait&auml;h ! </s> <s> Mis ... mis puu see on ? " </s> </p>
+<p> <s> " See on ungari sirel , " seletasin . </s> <s> S&uuml;nnip&auml;evaliste seas tekkis &auml;rev kahin . </s> </p>
+<p> <s> " Ungari sirel ! </s> <s> Oi , ait&auml;h &ndash; " ja naeris hammaste v&auml;lkkudes , " mulle ei ole veel kunagi kingitud puid ! </s> <s> Tead , mis ? </s> <s> Me istutame selle juba homme aeda maha . " </s> <s> Ta pani minu kingitusegi teiste juurde ja imetles veelkord : " M&otilde;elda vaid , ungari sirel ! " </s> <s> Laudkond muigas ja hakkas l&otilde;busalt sumisema . </s> <s> S&auml;rasin rahulolust . </s> <s> Istusin otsekui unes lauda ja v&auml;risesin natike &ndash; erutusest , &otilde;nnest . </s> </p>
+<p> <s>See sirel , see sirel p&auml;rines Evelini aiast . </s> <s> See p&auml;rines Evelini aiast &ndash; ja n&uuml;&uuml;d siis ... </s> </p>
+<p> <s>---</s> </p>
+<p> <s>Tortt oli s&ouml;&ouml;dud . </s> <s> Istusime viiekesi &ndash; vanaisa , mina , J&otilde;ngu poiss , Ranna Leo ja R&auml;&auml;gu Madis &ndash; &otilde;ues suure p&auml;rna all pingil . </s> <s> T&auml;istuledes maja ning kiiskav latern &otilde;ueposti otsas heitsid tumedasse juunialguse &ouml;&ouml;sse valgust ja varje . </s> <s> Ritsikad siristasid ja ajuti huikkas hekis &uuml;ks lind . </s> <s> Me j&otilde;ime vanaisa tehtud &otilde;lut ja puhusime tasasel h&auml;&auml;lel juttu . </s> <s> Majas olid k&otilde;ikk uksed p&auml;rani lahti ja me kuulsime , kuda s&uuml;nnip&auml;eva-laudkond Saarepuu Jaani l&otilde;&otilde;tsa saatel laulis : </s> </p>
+<p> <s>seal , kus rukkiv&auml;li lagendikul heljub , </s> </p>
+<p> <s>k&otilde;rge kuusik kohab m&auml;en&otilde;lvakul , </s> </p>
+<p> <s>v&auml;ike majakene maantee &auml;&auml;res seisab &ndash;</s> </p>
+<p> <s>lapsep&otilde;lvekodu oli seal kord mul ... </s> </p>
+<p> <s>KOMBAINID</s> </p>
+<p> <s>peat&uuml;kk romaanist " Lipam&auml;e " ( Varrak , 2002 ) </s> </p>
+<p> <s>Mind &auml;ratas see , et tuba rappus mingist pl&auml;risev-vilistavast m&uuml;rast . </s> <s> Veel polnud ma teinud lahti silmigi , veel polnud j&otilde;udnud mu m&otilde;istus virguda , kui ma juba l&auml;bi une taippasin &ndash; kombainid ! </s> <s> Siin ei ole v&otilde;imalik eksida &ndash; see m&uuml;ra on &auml;ravahetamatu ! </s> <s> Kombainid ! </s> <s> Ma virutasin teki pealt ja s&ouml;&ouml;stsin aknale . </s> <s> Kombainid ! </s> <s> R&ouml;&ouml;gatasin ja tormasin k&ouml;&ouml;ki , k&ouml;&ouml;gist &otilde;ue , karjudes : " Kombainid ! </s> <s> Kombainid ! " </s> </p>
+<p> <s>Nad tulid Esna poolt ja neid oli palju , palju &ndash; ma ei suutnud muud , kui ainult silmadega &otilde;gida ja k&auml;hiseda : " Kombainid ! " </s> </p>
+<p> <s>Nad keerasid Ugari k&auml;&auml;nust meie majatagusesse otra ! </s> <s> Jah , k&otilde;ikk nad keerasid , &uuml;ksteise j&auml;rel &ndash; nad hakkavad l&otilde;ikkama t&auml;na meie majatagust otra ! </s> <s> Olin juba lauda taga ja k&otilde;ikk , mida ma n&auml;gin , olid kombainid &ndash; need suured , punased , v&otilde;imsad , majesteetlikud , uhked , kaunid ! </s> <s> Kombainid ! </s> <s> V&auml;risesin erutusest ja &auml;revusest , ahmisin neid ammulisilmi , ma tahtsin joosta nende juurde , neid k&auml;ega puudutada , neid korraga s&uuml;lle v&otilde;tta , neid kaisutada &ndash; kuid nad olid liiga kaugel , nad olid liiga rasked ja suured . </s> <s> Niisiis ma vaid vahtisin neid ja mu suu oli lahti vajund , ma hingeldasin , suutmata &ouml;elda ainsatki s&otilde;na . </s> <s> Suutsin vaid m&otilde;elda : kombainid ! kombainid ! </s> <s> L&otilde;puks ometi ! </s> </p>
+<p> <s>Alles siis virgus mu m&otilde;istus ja rahunesin . </s> <s> N&auml;gin , et olen paljajalu ja s&auml;rgiv&auml;el &otilde;ue jooksnud . </s> <s> Saatsin veel &uuml;he ahne pilgu kombainide suunas ja lippasin tuppa . </s> <s> Vanaema ja vanaisa olid m&otilde;lemad k&ouml;&ouml;gis . </s> <s> Kell oli k&uuml;mme l&auml;bi ja vanaema pani hommikueineks n&otilde;usid lauale . </s> </p>
+<p> <s> " Nooh ? </s> <s> Mis sul's hakkas ? " imestas vanaisa , " n&auml;gid halba und v&otilde;i ? " </s> </p>
+<p> <s> " Kombainid tulid , " vastasin , " nad hakkavad n&uuml;&uuml;d siin heki taga l&otilde;ikkama . " </s> </p>
+<p> <s>Selle peale ei &uuml;teld vanaisa enam midagi , vaid istus edasi puudekastil , s&auml;ttides jalanartse pliidavarda vahele kuivama . </s> </p>
+<p> <s> " Kussa neid topid ? " t&auml;nitas vanaema , kes k&otilde;listas eemal nugade-kahvlitega , " seal on kotletid ! </s> <s> Pane jah oma nartsud kotlettide peale . </s> <s> Pane jah ! " </s> </p>
+<p> <s> " &Auml;&auml; irise ! " &uuml;tles vanaisa . </s> </p>
+<p> <s> " No aga &auml;ra pane siis neid sinna . " </s> </p>
+<p> <s> " Ma ei panegi ju ! </s> <s> T&auml;itsa eemal on ! " </s> </p>
+<p> <s> " Jaah ! </s> <s> &Auml;kki sa t&otilde;staksid oma saapad ka veel soustikaussi ? </s> <s> Siis oleks t&auml;isv&auml;rk ! " </s> </p>
+<p> <s> " Tahad , jah ? </s> <s> No ma t&otilde;stan ! " </s> </p>
+<p> <s> " No t&otilde;sta ! " </s> </p>
+<p> <s>Vanaisa l&otilde;i k&auml;ega ja kadus teise tuppa . </s> </p>
+<p> <s> " N&auml;edsa , Jaak , selline p&otilde;rsas su vanaisa ongi . </s> <s> Mitte p&otilde;rsas , vaid koguni r&auml;pasiga . </s> <s> Kuule , aga ruttu tuleb s&uuml;&uuml;a &ndash; t&auml;na tuleb ju onu Mihkel . </s> <s> Ossa issand &ndash; kell juba k&uuml;mme l&auml;bi ! </s> <s> Kuda t&auml;na see s&ouml;&ouml;mine nii hilja peale on j&auml;&auml;nud ? </s> <s> K&auml;hku lauda ! </s> <s> Ae , vanamees ! " </s> </p>
+<p> <s>See , et onu Mihkel t&auml;na saabub , oli minu jaoks kahtlemata kauaoodatud suurs&uuml;ndmus , kuid n&uuml;&uuml;d j&auml;ttis kombainide ilmumine enda varju k&otilde;ikk muu . </s> <s> Isegi s&ouml;&ouml;k ei maitsend eriti &ndash; ja see on minu puhul eriti ebatavaline . </s> </p>
+<p> <s> " Milla ta's tuleb ? " k&uuml;sisin . </s> </p>
+<p> <s> " Peaks juba siin olema . </s> <s> Tea , kas midagi juhtund v&otilde;i ? " muretses vanaema ja kiikas kella . </s> </p>
+<p> <s>Aga ma ei j&otilde;udnud veel s&ouml;&ouml;mist l&otilde;petadagi , kui Muki &otilde;ues haukkuma pistis . </s> </p>
+<p> <s> " No see on k&uuml;ll Mihkel , " arvas vanaema . </s> </p>
+<p> <s>Jah ! </s> <s> See oligi onu Mihkel ! </s> <s> Tema h&auml;&auml;l j&otilde;rises &uuml;le kogu &otilde;ue , kui ta soovis , et siitmaja rahvale j&otilde;udu kah ! </s> <s> Onu Mihkel on karm ja vali mees , seep&auml;rast pole miskit imestada , et tal on karm ja vali h&auml;&auml;l . </s> <s> Ta oli v&otilde;tnud n&otilde;uks tulla &uuml;le pika aja taas vaatama Kaaruka inimesi &ndash; ja siin ta n&uuml;&uuml;d seisiski . </s> <s> Muidu elab ju kogu aeg koos t&auml;di Kadiga Tootsis ja on mingis pumbajaamas mehhaanik . </s> </p>
+<p> <s>Tootsi on siukke imelik koht , mis asub P&auml;rnu l&auml;hedal ja kus k&otilde;ikk asjad on k&auml;e-jala juures . </s> <s> Tahad n&auml;itteks minna poodi &ndash; aga palun , sada meetrit koduuksest . </s> <s> V&otilde;i raamatukokku &ndash; sada meetrit teisale . </s> <s> S&ouml;&ouml;kla ? </s> <s> Kino ? </s> <s> Bussijaam ? </s> <s> V&otilde;ta heaks &ndash; sealsamas . </s> <s> Ei mingit pikka k&otilde;mppimist l&auml;bi linna . </s> </p>
+<p> <s>T&auml;di Kadi ise t&ouml;&ouml;tab briketitehases raamatupidajana &ndash; aga tal olevat praegu t&ouml;&ouml; juures kiire aeg ja n&otilde;nda ei saagi ta seekord tulla , vaid peab j&auml;&auml;ma &uuml;ksinda Tootsi . </s> </p>
+<p> <s>Hoolimata sellest , et Mihkel on karm ja vali mees , ei ole ta siiski hirmus . </s> <s> Kus on teha nalja , seal ta teeb , ja kus on midagi naerda , seal ta naerab . </s> <s> Ja kui on vaja panna kedagi paikka v&otilde;i &ouml;elda muidu sitasti , siis onu Mihkel ei m&otilde;tle pikalt , vaid paneb ja &uuml;tleb . </s> <s> Vat siukke mees on onu Mihkel . </s> </p>
+<p> <s>N&uuml;&uuml;d &uuml;tles vanaisa : " Vaata kui hea , et sa tulid . </s> <s> Teine &otilde;u on t&auml;is puid , mis k&otilde;ikk tahavad kiiremas korras &auml;rasaagimist . " </s> </p>
+<p> <s> " Ahaa ! " &uuml;tles onu Mihkel , " nende puudega teeme nagu naksti . " </s> <s> &ndash; " K&otilde;igepealt s&ouml;&ouml;me , " &uuml;tles vanaema , " ja alles siis hakkame naksutama . " </s> </p>
+<p> <s> " Kuule , k&otilde;ht on jah na hele , " tunnistas Mihkel , " ma v&otilde;tsin kah &uuml;ht-teist s&ouml;&ouml;gipoolist kaasa . </s> <s> Mis ma's , juhm , ise oleks taibandki &ndash; a , n&auml;e , Kadi pani ja puha . " </s> </p>
+<p> <s> " Eh , mis te's n&uuml;&uuml;d ! " t&otilde;rjus vanaema , lauale neljandat taldrekut tuues , " &auml;rge te meie p&auml;rast siin muretsege , vaadake , kuda ise paremini hakkama saate . </s> <s> Kuule , poiss , v&otilde;ta end &otilde;ige koomale . " </s> <s> &ndash; " Ma s&otilde;in juba &auml;ra , ait&auml;h . </s> <s> Ma l&auml;hen n&uuml;&uuml;d &otilde;ue , " vastasin ja luristasin tassist viimase viljakohvitilga . </s> </p>
+<p> <s>Kombainid polnud veel p&otilde;llule s&otilde;itnud , vaid ootasid kobaras koos &ndash; k&otilde;ikk kaheksa t&uuml;kki ja kaks veoautot &ndash; , kuni rohi kastest p&auml;ris kuiv on . </s> <s> Kostus haamriga vastu plekki kopsimist . </s> <s> Eks m&otilde;ni juht k&otilde;pitses seal igaks juhuks oma masina kallal , et ei tekiks jandamist kallil t&ouml;&ouml;ajal . </s> <s> Ma teadsin , et p&otilde;llules&otilde;it on l&auml;himinutite k&uuml;simus &ndash; p&auml;ev oli ilus p&auml;iksene ja tuul m&otilde;&otilde;dukas , taevas kaettud valgehallide heailma-pilvedega , &otilde;hk oli siukke augustiliselt l&auml;mbe . </s> <s> Ronisin lambasara katusele ja j&auml;lgisin &uuml;ksisilmi , kuda kombainid seal p&otilde;lluveeres seisid ja t&ouml;&ouml;p&auml;evaks valmistusid . </s> <s> Seletamatu nauding haaras mind , kirjeldamatu lummus . </s> </p>
+<p> <s>Aahh ! &ndash; Ja m&ouml;iratas esimene kombain ! </s> <s> Tohutu masina kohale tekkis must suitsuvine ja see asi seal ees hakkas p&ouml;&ouml;rlema . </s> </p>
+<p> <s>Ja esimene kombain alustas liikumist ! </s> <s> Taas m&ouml;iratus ! &ndash; Liikumist alustas j&auml;rgmine kombain . </s> <s> Siis kolmas ! </s> <s> Ja neljas ! &ndash; &Uuml;ksteise j&auml;rel startisid punased majesteetlikud kolossid p&otilde;lluveerelt , sukeldudes m&uuml;rina ja undamise saatel odra kuldsesse voogamisse . </s> <s> Kolbid , v&otilde;llid ja &uuml;lekanded l&otilde;gisesid ja vilistasid . </s> <s> &Uuml;htlases tempos ja &uuml;htlaste vahedega eemaldusid nad ja m&uuml;rin vaibus &uuml;ha . </s> <s> Kaheksa kombaini l&auml;ksid ja esimesed kaheksa p&otilde;huvaalu j&auml;id neist maha helkkima . </s> <s> Pinge l&otilde;dvenes . </s> <s> Hingasin j&auml;lle rahulikult sisse-v&auml;lja , sisse-v&auml;lja . </s> <s> Aeglaselt ja m&otilde;&otilde;detud liigutustega ronisin lambasara katuselt maha . </s> </p>
+<p> <s>K&ouml;&ouml;gis &uuml;tles Mihkel parajasti : " Noh , l&auml;hme paneme n&uuml;&uuml;d sae huugama . " </s> </p>
+<p> <s>Mina &uuml;tlesin : " Ma tulen ka appi . " </s> </p>
+<p> <s>Mihkel vastas : " Sina tuledki appi . </s> <s> V&auml;rni , n&auml;e , peab veini jaoks tikreid korjama , enne kui need p&otilde;&otilde;sast maha kukuvad . " </s> </p>
+<p> <s> " Ohoo ! " r&otilde;&otilde;mustasin mina . </s> </p>
+<p> <s>Vanaema kahtles : " Kuule , Mihkel ! </s> <s> V&auml;ike poiss n&uuml;&uuml;d puid saagima ? " </s> </p>
+<p> <s> " Oh , egas need mingid t&uuml;mikad pole , " rahustas vanaisa . </s> </p>
+<p> <s> " Ja mis v&auml;ike enam , " &uuml;tles ka Mihkel , " mina tema vanuses juba ... " &ndash; " Ja-jaa , " s&otilde;nas vanaema . </s> </p>
+<p> <s> " L&auml;hme siis ja toome sae &auml;ra , " &uuml;tles vanaisa . </s> </p>
+<p> <s>Saag oli naabrite juures . </s> <s> Selline suur ja v&otilde;imas kreissaag nagu nad ikka on . </s> <s> See oli naabrite saag &ndash; sellep&auml;rast oligi see nende kuuri all . </s> <s> Aga naabri-Juku oli ju vanaisa vend ja egas keela vend vennale oma kreissaagi ! </s> </p>
+<p> <s>Mihkel kergitas sae kangiga &uuml;les ja mina s&otilde;itsin kaherattalise vedamisriistapuuga alla . </s> <s> Juku ja vanaisa vahtisid samas k&otilde;rval pealt . </s> </p>
+<p> <s> " Te tulge l&otilde;unaks minu poole , " kutsus Juku , " mul on praegu k&otilde;ikk &otilde;lut tehtud ja . " </s> <s> Ta urgitses oma kepiga midagi saepurus . </s> <s> Teadsin , et kui &uuml;ldse leidub l&auml;hikonnas keegi , kes suudab teha sama head ja kanget &otilde;lut nagu minu vanaisa , siis on selleks minu vanaisa vend Tuigani-Juku . </s> </p>
+<p> <s> " Nat&uuml;rlich , " vastas Mihkel ja t&otilde;mbas sae liikuma . </s> <s> Meie vanaisaga l&uuml;kkasime tagant ja siis juba l&auml;ks mis ludin . </s> </p>
+<p> <s>Pinumaale j&otilde;udes v&otilde;ttis Mihkel saekaabli ja l&auml;ks &uuml;hendas selle posti k&uuml;lge . </s> <s> See on tasuta elekter , mis sealt posti k&uuml;ljest tuleb , sest ei surise m&otilde;&otilde;tjast l&auml;bi . </s> <s> Aga m&otilde;tle ometi , palju v&otilde;tab voolu siukke tegevus ! </s> <s> Pealegi on kaabelt posti k&uuml;lge monteerida mugavam kui kuhugi mujale &ndash; krutid kaane maha , nugistad nati ja valmis ! </s> </p>
+<p> <s>See on alati veidi jube , kui kreissaag k&auml;ima l&auml;heb , aga siis kohe harjub juba &auml;ra ka . </s> <s> Seal ei ole tegelt ju midagist kartta ! </s> <s> Ei pea ju toppima k&auml;tt saehammaste ette ! </s> <s> Aint , et siukseid rippuvaid v&otilde;i tilppnevaid asju ei tohi seljas olla &ndash; nii v&otilde;ib juhtuda &otilde;nnetus k&uuml;ll . </s> </p>
+<p> <s>Vanaisa otsis &auml;mbri , pingi ning l&auml;ks k&uuml;kitas p&otilde;&otilde;sastesse . </s> <s> Vanaemagi oli aedas &ndash; korjas moosipanemise &otilde;unu . </s> <s> Igal&uuml;hel oli n&uuml;&uuml;d tegevust &ndash; ega ei ole siis meie peres laiskvorstisi ! </s> </p>
+<p> <s>Krrrr-&scaron;&scaron;&scaron;hhh-fffff &ndash; v&otilde;ttis saag tuure &uuml;lesse . </s> <s> Mihkel seadis ennast puki juures hakkama ja mina tarisin juba esimest notti ligemale . </s> </p>
+<p> <s>Umbes tunni aja p&auml;rast seiskas Mihkel sae , et seda pisut edasi kangutada . </s> <s> Mina toetusin &uuml;hele j&auml;medale kuusepalgile ja imetlesin kordasaadetut . </s> <s> Vanaema tuli ja t&otilde;i morssi . </s> <s> " Ega sa suhkurt sisse pand ? " uuris Mihkel . </s> <s> Tema ju tahab t&ouml;&ouml;d murdes kangesti haput . </s> <s> " Peaaegu &uuml;ldse , " vastas vanaema ja ladus puid p&otilde;lle sisse . </s> <s> Kull-kull-kull &ndash; kulistas Mihkel &ndash; &auml;hh ! &ndash; ja andis kannu mulle . </s> </p>
+<p> <s>Saagisime edasi . </s> </p>
+<p> <s>Silmanurgast m&auml;rkkasin , et v&auml;ravasse s&otilde;ittis sinise ristiga villis . </s> <s> See oli velsker Jaan M&otilde;tus ja mulle meenus hoobilt , et ta pidigi ju t&auml;na tulema t&auml;na ja viima &auml;ra &uuml;he hulkkuva mesilastes&uuml;lemi , mis oli end sisse seadnud meie korstnas &ndash; nii et l&otilde;&otilde;rides puha sumises , kui tahmaluugi lahti tegid ja kuulatasid . </s> <s> Velsker Jaan M&otilde;tus on ju suur mesilastearmastaja &ndash; niipea , kui kuskil k&uuml;la peal on m&otilde;ni s&uuml;lem ripakil , siis kutsutakse kohe tema . </s> <s> Jaan k&auml;ib ju muidu ka &ndash; kui seal on punataud v&otilde;i lambal gaasid k&otilde;hus v&otilde;i lehmal udarap&otilde;letik v&otilde;i midagi . </s> <s> Ja siis on ta samuti platsis , kui lehm poegima hakkab . </s> <s> &Uuml;hekorra ma olin juures ja vaatasin , kuda Jaan , endal k&auml;ised k&uuml;&uuml;narnukkideni &uuml;les k&auml;&auml;ritud , lehma seest &uuml;hte ilast tomppu v&auml;lja tiris . </s> <s> See ilane tompp oli vasikas . </s> <s> Velsker Jaan M&otilde;tuse juures on eriti imelik see , kuda ta r&auml;&auml;gib . </s> <s> Tal on siukke k&otilde;rgev&otilde;ittu , meloodiline , laulev ja muhe h&auml;&auml;l , mida kuuldes tekib paratamatult tunne , et muretsemiseks puudub igasugune p&otilde;hjus , et k&otilde;ikk on t&auml;itsa h&auml;sti , ja pole n&auml;ha , et asjalood tulevikuski teisiti v&otilde;iksid kulgeda &ndash; noh , ja kui peakski &auml;kitse seisu p&ouml;&ouml;rama halvaks , siis selle t&uuml;hja v&otilde;tab ju k&auml;tte ja ajab taas jonksu , asi see's n&uuml;&uuml;d ! </s> </p>
+<p> <s>Jaan astus v&auml;ravast sisse ja h&otilde;ikkas &uuml;le sae vingumise : " Tervist ! " </s> <s> Viipasime vastu ning j&auml;tkasime t&ouml;&ouml;d , sest ka Jaan r&uuml;hkis maja suunas , k&auml;e otsas keskmist m&otilde;&otilde;tu kast . </s> <s> Oleks ju taht kangesti n&auml;ha , kuda see mesilastes&uuml;lemi korstnast v&auml;ljakupatamine k&auml;ib ! </s> <s> A kui teed t&ouml;&ouml;d , siis tuleb tehagi t&ouml;&ouml;d , mitte joosta edasi-tagasi nagu munas kana v&otilde;i haige j&auml;nes . </s> <s> Nii ma siis tegingi t&ouml;&ouml;d , lastes end haarata lausa sportlikul hasardil . </s> <s> Kujutlesin , et iga puunott on paha inimene , vaenlase spjoon , bandiit , kes tuleb ruttu kahjutuks teha &ndash; t&uuml;kkideks saagida . </s> <s> Rassisin &ndash; ja &uuml;ha j&otilde;udsamalt kahanes saagimata puude virn . </s> </p>
+<p> <s>Mingi aja p&auml;rast tuli r&otilde;&otilde;must s&auml;rav velsker maja poolt , k&auml;e otsas kast mesilastega , viipas h&uuml;vastij&auml;tuks ja ronis villisesse . </s> </p>
+<p> <s>Onu Mihkel lasi selle noti , mis tal parajasti k&auml;es oli , veel l&otilde;ks-l&otilde;ks-l&otilde;ks sae alt l&auml;bi ning keeras tuurid maha . </s> </p>
+<p> <s>Laskus vaikkus &ndash; ebaloomulikuna tunduv vaikkus , sest k&otilde;rv oli sael&auml;rmiga juba niiv&otilde;rd harjund . </s> <s> T&uuml;kk aega ei kuuld midagi . </s> <s> A siis j&otilde;udis teadvusse kombainide tasane ja &uuml;htlane m&uuml;rin heki tagant p&otilde;llult . </s> <s> &Uuml;htlane m&uuml;rin &ndash; sekka kiledaid signaalikatkeid , kui trummel t&auml;is , ja GAZ-ide podinat . </s> </p>
+<p> <s> " Suitsupaus , " &uuml;tles onu Mihkel , puudevirnu takseerides , " lippa ringi , siruta jalgu . </s> <s> &Uuml;le poole on tehtud . " </s> </p>
+<p> <s>J&auml;tsin Mihkli sae juurde suitsetama ja l&auml;ksin ise majja . </s> <s> Tikrip&otilde;&otilde;saste vahel koogutas vanaisa ja pusis marju korjata nii et sahises . </s> <s> N&auml;gin , kuda k&otilde;rgel-k&otilde;rgel &uuml;leval vedas &uuml;ks tilluke lennuk &uuml;le sinise laottuse pikka , vatt-valget ja id&uuml;llset viirgu . </s> </p>
+<p> <s>Terve k&ouml;&ouml;kk oli l&auml;mmatavkuumaks k&ouml;ettud ja t&auml;is v&auml;nget &auml;&auml;dikahaisu . </s> <s> Vanaema segas pliida &auml;&auml;res moosi . </s> <s> Laual olid puhtusest sillerdavad purgid , rattalohvist l&otilde;igatud kummid , tsellofaanirull ja kuhil plastmasskaani . </s> <s> Ja &ndash; t&otilde;sijutt ! &ndash; sealsamas kollendasid ilusti ritta s&auml;titult kuus esimest purgit&auml;it &otilde;unamoosi . </s> <s> Kuskil pidi n&uuml;&uuml;d leiduma veel &uuml;ks v&auml;&auml;rtuslik potsik , kuhu on kogutud k&otilde;ikse vaht moosi pealt . </s> </p>
+<p> <s>See potsik oli vanaema k&auml;es . </s> </p>
+<p> <s>&Uuml;tlesin : " Anna ! " </s> </p>
+<p> <s>Vanaema &uuml;tles : " Anna j&auml;i Tartu rongi alla ! " </s> </p>
+<p> <s>Mina &uuml;tlesin : " Palun anna ! " </s> </p>
+<p> <s>Siis vanaema andis ja ma tegin paari saiat&uuml;ki kaasabil potsikule k&auml;hku p&otilde;hja peale . </s> </p>
+<p> <s> " T&auml;na mul l&otilde;unas&ouml;&ouml;giks aega ei ole , " lausus vanaema , " proovige kudagi l&auml;bi ajada . </s> <s> &Otilde;htaks teen kukesuppi . " </s> <s> &ndash; " Ahah , " m&otilde;misesin mina suurest potis moosi juurde &otilde;ngitsedes . </s> <s> " &Auml;kki j&auml;tad purkkipanemiseks ka ? " k&uuml;sis vanaema ja t&otilde;rjus mu pliida &auml;&auml;rest minema . </s> </p>
+<p> <s> " Palju kell oli ? " h&otilde;igati tikrip&otilde;&otilde;sastest , kui puukuuri poole sammusin . </s> </p>
+<p> <s> " Veerand kaks v&otilde;i midagi , " vastasin . </s> <s> Vanaisa ju ootab postimeest . </s> <s> T&auml;na eriti &ndash; sest t&auml;na peaks ilmuma lehes loteriiv&otilde;ittude tabel ja vanaisal on tervenisti kuus piletit ! </s> <s> Ega ta kunagi ei v&otilde;ida midagi , aga , n&auml;&auml; , ikka m&auml;ngib . </s> <s> Mul on alati kole kahju vaadata , kuda vanaisa &otilde;hinal tabelist n&auml;puga j&auml;rge ajab , aga l&otilde;puks n&auml;gu krimpsutades ikkagi &uuml;he pileti teise j&auml;rel kokku k&auml;gardab ja pliida ette viskab . </s> <s> Vanaema on k&uuml;ll korra v&otilde;itnud &ndash; meeste vihmavarju . </s> <s> Ja T&uuml;ri Mai v&otilde;ittis kunagi kristallkausi . </s> </p>
+<p> <s>Tahtsin j&otilde;uda vaatama , kui kaugel on kombainid , ent Mihkel tuli juba lauda ette v&auml;ravale ja kutsus : " Noh , Jaak-paak ! " </s> </p>
+<p> <s>J&auml;rgmised kolmveerand tundi aina saagisime et huugas . </s> <s> Aeg-ajalt ujutasid autode m&ouml;&ouml;dudes meid &uuml;le tolmupilved maanteelt . </s> <s> Eriti tihkelt oli tolmu just t&auml;na , sest viljaveoautod k&auml;isid peaaegu k&otilde;ikk J&otilde;ngu teed pidi ja uhasid n&otilde;nda meie maja eest l&auml;bi . </s> <s> Mina katsin siis n&auml;o k&auml;sivarrega , kuid Mihkel sae juures ainult p&ouml;&ouml;ras pea k&otilde;rvale , tegi puhh ! ja m&otilde;nikord koguni kirus endamisi . </s> </p>
+<p> <s> " Postimees ! " karjusin . </s> <s> Ja ei olnud midagi muud tarvis &ouml;elda . </s> </p>
+<p> <s>Iga t&ouml;&ouml;p&auml;e ja lauba t&auml;pselt &uuml;hel ja samal ajal &ndash; kell kaks &ndash; l&ouml;&ouml;di sassi kogu k&uuml;la argiselt &uuml;htlane elur&uuml;tm , l&otilde;igati pooleks k&otilde;ikk toimetused . </s> <s> Kui kuuldavale j&otilde;udis postimehe v&otilde;rri madalatooniline p&otilde;rin , pandi k&auml;est t&ouml;&ouml;riistad , visati eest kitlid ja p&otilde;lled , mehed v&otilde;tsid peast m&uuml;tsi , et p&uuml;hkida sellesse higist n&auml;gu , naised panid k&auml;ed puusa , et ohates ringutada . </s> <s> V&auml;rskete ajalehtede saabudes katkestati k&otilde;ikk , mida oli tehtud , otsiti &uuml;les prillid ja mindi postkasti t&uuml;hjendama . </s> <s> J&auml;rgmise tunni aja v&auml;lttel valitses kogu k&uuml;las justkui mingi p&uuml;ha . </s> <s> V&auml;rskete ajalehtede p&uuml;ha . </s> </p>
+<p> <s>Nii ka n&uuml;&uuml;d . </s> <s> Hirmus riistapuu meie kuuriesisel j&auml;i paugupealt vakka . </s> <s> Me m&otilde;lemad t&otilde;mbasime korraks hinge . </s> <s> Siis kiirustasime maja poole . </s> <s> Tikrip&otilde;&otilde;saste vahelt ragistas ennast v&auml;lja vanaisa ja liitus meiega . </s> <s> Vanaema seisis s&otilde;natult trepil , moosine kulp k&auml;es . </s> <s> " Jaak , too lehed &auml;ra , " &uuml;tles vanaisa &otilde;&otilde;nsal h&auml;&auml;lel ja neelatas . </s> <s> Mihkel v&otilde;ttis p&auml;rna all pingil istet . </s> <s> Vanaema n&auml;perdas kulppi ja toksis sellega vastu k&auml;sipuud . </s> </p>
+<p> <s>Vaibus aja m&uuml;risev langemine &uuml;le olemise serva . </s> <s> Kellegi k&auml;si sulges luugi kaduviku kohal . </s> </p>
+<p> <s>Ka seekord ei v&otilde;itnud vanaisa midagi . </s> <s> Ta noppis tusaselt prillid ninalt ja k&auml;kerdas piletid tasku . </s> </p>
+<p> <s> " L&auml;hme teistele , " &uuml;tles ta . </s> </p>
+<p> <s>Nii nagu on meil pink &otilde;ues majatrepi ees suure p&auml;rnapuu all , nii on teistel pink rehetoa ees kirsipuu all . </s> <s> Seal Juku , ajalehed k&otilde;rval , meid oodates jalgu puhkaski . </s> </p>
+<p> <s>Ning m&otilde;ne aja p&auml;rast v&otilde;ib sellesinatse kirsipuu all pingil n&auml;ha j&auml;rgmist piltti . </s> <s> K&otilde;igepealt istun mina , j&auml;lgides pilguga k&otilde;nniteekivide vahel sibavaid sipelgaid ja k&otilde;rvadega teiste juttu . </s> <s> Kohe minu k&otilde;rvale j&auml;&auml;b Juku &ndash; tsipa k&ouml;ssis , k&auml;ed p&otilde;lvede vahele pihkusidpidi kokku surutud ja kepp samas k&otilde;rval . </s> <s> Temagi vaatab enese ette , n&auml;ides samal huviga kuulavat , mida r&auml;&auml;gib temast kohe edasi istuv onu Mihkel . </s> <s> Onu Mihkel jah jutustab midagi , endal &uuml;ks jalg uljalt &uuml;le teise visatud ning l&otilde;ug kergelt paremale randmele toetatud . </s> <s> Tal on silmis kaval muie , samuti on &uuml;ks ta kulm teisest k&otilde;rgemale veetud . </s> <s> Nii teeb onu Mihkel ikka parajasti siis , kui keegi tema suu l&auml;bi p&otilde;rmustava pilkkamise-t&ouml;gamise osaliseks saab . </s> <s> Onu Mihklist &otilde;ite pisut eemale on platseerund vanaisa , kaheliitrine emailp&uuml;tt sangapidi k&auml;es . </s> <s> Selle p&uuml;ti sees on &otilde;lut . </s> <s> Vanaisa pea on arupidavalt kaldu langend , kuid temalgi on suu &uuml;le-n&auml;o-irves . </s> </p>
+<p> <s>No mida's nii irvitatakse ? </s> </p>
+<p> <s> " ... ; noh , ja siis &ouml;eldi mulle , et oma viga &ndash; astugu ma ka parteisse . </s> <s> A mina &uuml;tlesin , et mul pole nii pika s&auml;&auml;rega saapaid , et parteisse astuda , " pajatab onu Mihkel . </s> </p>
+<p> <s> " H&ouml;h-h&ouml;h-h&ouml;h , " naerdakse . </s> </p>
+<p> <s> " A kuda sa's ilma said ? " k&uuml;sib Juku siis . </s> </p>
+<p> <s> " Ega ma saandki . </s> <s> Siiamaani puhastusseadmete peal . " </s> </p>
+<p> <s> " Jah , " v&otilde;tab s&otilde;na ka vanaisa , " mind , n&auml;&auml; , p&otilde;rutati kolhoosiesimehe koha pealtki sellep&auml;rast minema , et parteilane pold . " </s> </p>
+<p> <s> " Jah , " n&otilde;ustuvad teised . </s> </p>
+<p> <s>Siis m&ouml;&ouml;dub iga&uuml;hel m&otilde;ni aeg vaikselt endamisi m&otilde;lgutades . </s> <s> Tuul vaid kahistab kirsipuid ja meeste juukseid . </s> </p>
+<p> <s> " See Hans Leberecht , teate , jah &ndash; see kuulus kirjanik &ndash; oli alles &uuml;ks imelik vennike , " s&otilde;lmib siis vanaisa taas juttu . </s> <s> " Ta ju elas siinsamas Koordis , kohe S&otilde;eru taga &ndash; seal , kus praegu suured turbarabad on &ndash; , kirjutas k&otilde;ikk meie kolhoosist raamatu ja . </s> <s> Noh . </s> <s> A muud sel Leberechtil pold , kui et karttis hirmsasti pisikuid . </s> <s> P&uuml;hkis k&otilde;ikseaeg ukselinkke puhtaks ja puha . </s> <s> K&otilde;ige naljakam oli muidugi , kuda tal kusemine k&auml;is . </s> <s> Siidin&ouml;&ouml;ri ja h&otilde;belusika abil &ndash; et pisikuid ei satuks . " </s> </p>
+<p> <s> " Mih ? " teeb onu Mihkel imestusest suured silmad . </s> <s> Juku ainult muigab &ndash; vististi teab juba seda juttu . </s> <s> Ikkagi siitnurga mehed . </s> </p>
+<p> <s> " Tilli k&uuml;lge oli siuttud siukke siidin&ouml;&ouml;r , millega ta tilli p&uuml;ksist v&auml;lja t&otilde;mbas , " seletab vanaisa , " ja kui asi aettud , topiti h&otilde;belusika abil till j&auml;lle p&uuml;ksi tagasi . </s> <s> H&otilde;belusikat kandis ta alati hoolega rinnataskus igal pool kaasas . " </s> </p>
+<p> <s> " Kuda sa seda k&otilde;ikke nii t&auml;pselt tead ? " uurib onu Mihkel , " tundsid isiklikult v&otilde;i ? " </s> </p>
+<p> <s> " Noh , kuda v&otilde;tta , " naeratab vanaisa , " k&auml;is meil korra vaatamas , kuda me normip&auml;evi teeme . " </s> </p>
+<p> <s> " Aga " Valgus Koordis " oli sellest hoolimata p&auml;ris hea raamat , " s&otilde;nab Juku . </s> </p>
+<p> <s> " Jumal t&auml;natud , ei ole lugend , " vastab Mihkel , " &uuml;ldse &ndash; mida v&auml;hem loetakse , seda parem . </s> <s> Ega lugemine ei ole veel tarkkus . </s> <s> Mina tundsin kunagi &uuml;ht t&uuml;drukut , kes luges nii palju , et l&auml;ks peast hoopis segi &ndash; passis p&auml;evade viisi aknal ja pidas arvet m&ouml;&ouml;dujate &uuml;le . </s> <s> L&auml;ks keegi vasakult paremale , t&otilde;mbas tema vihikusse kriipsu , l&auml;ks keegi paremalt vasakule , t&otilde;mbas kriipsust teise l&auml;bi . </s> <s> Selline oli siis tema tarkkus . </s> <s> T&auml;nan , ei . </s> <s> Ma olen parema meelega puhastusseadmete peal . " </s> </p>
+<p> <s> " See oli erand ! " v&auml;ittis Juku . </s> <s> Kuid vanaisa &uuml;tles : " Mina kah ei ole aastaid enam lugend muud kui kalendri-raamatut ja ajalehti . " </s> </p>
+<p> <s> " Matsid ! " aasis Juku onu Mihklit ja vanaisa . </s> </p>
+<p> <s> " Intelligendin&auml;ru ! " nokkisid need vastu . </s> </p>
+<p> <s>R&uuml;&uuml;bati &otilde;lut . </s> <s> Kui kann t&uuml;hjaks sai , t&auml;heldas Juku : " N&auml;hh , t&uuml;hi . </s> <s> Toon uue . " </s> <s> &ndash; Kuid Mihkel &uuml;tles : " Kuule , ei . </s> <s> T&ouml;&ouml; kutsub . " </s> <s> Ja Juku k&uuml;sis : " Sa , Mihkel , j&auml;&auml;d ju ka homseks siia ? " &ndash; " Jah , kuid &otilde;hta l&auml;hen tagasi , " vastas see . </s> </p>
+<p> <s>Kella poole viieks olid k&otilde;ikk puud l&auml;bi saettud . </s> <s> Ffffff-hhhh-&scaron;&scaron;-rr &ndash; vaibus sae vihin . </s> <s> Seadsime end pakkude vahele istuma , et s&uuml;gavas rahuldustundes silmitseda tehtut ja lasta t&ouml;&ouml;hoost &otilde;hetaval nahal maha jahtuda . </s> <s> Kanad tilberdasid &uuml;mberringi ja siblisid palkkide all olnud mullas vihmausse . </s> <s> Kanade komand&ouml;r kukk viibis eilsest p&auml;rastl&otilde;unast saati majakeldris &uuml;he poti sees . </s> <s> A usinad nokalised n&auml;isid ka ilma kuke juhtiva rollita h&auml;sti hakkama saavat . </s> <s> See kukk , see oligi siukke tige ja s&otilde;jakas , kippus muudku riidu &ndash; m&otilde;nikord ei julgend vanaema lauda&otilde;ues ilma toikkata liikudagi . </s> <s> Nii viidi kukepontsik viksimaid kombeid &otilde;ppima . </s> </p>
+<p> <s>Lauda tagant vahtisid lambad meid &uuml;le aediku , lollid n&auml;od peas . </s> <s> " M&auml;&auml; ! " tegi onu Mihkel neile . </s> <s> Kuid lambad j&otilde;llitasid veelgi lollima n&auml;oga ja lingutasid k&otilde;rvu . </s> </p>
+<p> <s> " Lammas on ikka loll loom , " arutas onu Mihkel ja s&uuml;litas saepurusse , " te varuge saepuru kokku &ndash; hea loomadele alla panna . " </s> </p>
+<p> <s>Ta t&otilde;usis ja l&auml;ks saekaabelt posti k&uuml;ljest lahti &uuml;hendama . </s> <s> Mina sain ometigi kord aega , et minna vaatama kombaine . </s> </p>
+<p> <s>Poole p&auml;evaga oli &uuml;le k&auml;idud juba suurest lahmakast p&otilde;llust . </s> <s> Vaalude vahel patseerisid toonekured , keset p&otilde;ldu ootasid kobaras koos viljaveoautod . </s> <s> K&otilde;ikk oli t&auml;is p&otilde;hutolmu p&otilde;letavat l&otilde;hna . </s> <s> Hingasin seda sisse . </s> <s> V&auml;risesin naudingust . </s> <s> Ma ahmisin ja ahmisin kombaine , nende rahulikku liikumist , pikki &otilde;ieli torusid nende k&uuml;ljes . </s> <s> Andusin vaatepildile j&auml;&auml;gitult &ndash; olin ainult mina ja nemad , mina ja see p&otilde;ld . </s> <s> Ei eksisteerind midagi muud . </s> <s> Maa m&uuml;rises , taevas m&uuml;rises , terve ilmaruum m&uuml;rises &ndash; ning minu sees m&uuml;rises . </s> </p>
+<p> <s>Ma ei tea , kuidas , aga avastasin end &auml;kki kaevu eest . </s> <s> Vanaisa pesi suurt veinin&otilde;ud ja Mihkel mugis ta k&otilde;rval seistes isukalt &otilde;unavissi . </s> </p>
+<p> <s> " Kuule , " s&otilde;nas vanaisa mind m&auml;rgates , " sa pead t&auml;na &ouml;&ouml;si magama lakas . </s> <s> Mihkel magab sinu voodis , sest suure toa voodis on vedru lahti ja verandas on veel v&auml;rvil&otilde;hn . </s> <s> Sul on lakas hea magada k&uuml;ll . </s> <s> Vanasti magatigi lakas . </s> <s> V&auml;rske &otilde;hk ja v&auml;rsked heinad &ndash; see v&otilde;rdub karastund tervis . </s> <s> Vot . " </s> </p>
+<p> <s>Lakas on v&auml;ga tore magada . </s> <s> Tavaliselt magan ma iga aasta p&auml;rast heinte kojutoomist lakas &ndash; kuid t&auml;navu pole veel j&otilde;ud . </s> <s> P&auml;eval pole old meeles ja &otilde;hta on ikka nii suur v&auml;simus keres , et ei jaksa kolimist ette v&otilde;tta . </s> </p>
+<p> <s>N&otilde;ustusin : " Okei . " </s> </p>
+<p> <s>Vanaema tuli kaevule vee j&auml;rele ja palus mind : " Ole nii hea , korja supi sisse porgandeid . " </s> <s> Nii tegingi . </s> <s> Ja siis &ndash; et veeta aeg supi valmimiseni v&otilde;imalikult sisukalt &ndash; ajasin verandalt v&auml;lja oma rohelise " Ereliukase " . </s> <s> Plaanisin teha &uuml;hte tuhisevat tiiru J&otilde;ngu teel ja vaadata , kuda p&otilde;llul rabatakse teha t&ouml;&ouml;d . </s> <s> Egas ei saagi ju rabamata &ndash; tuleb &auml;ra kasutada , kuni siukkest ilusat p&auml;ikselist ilma hoiab ! </s> <s> Misse Sellin lubaski augusti l&otilde;puks &ndash; et kisub vihmaseks ? </s> <s> Oi-jaa &ndash; siis ei tohi olla t&otilde;esti mingit venitamist ! </s> </p>
+<p> <s>Veidi enne &otilde;htas&ouml;&ouml;gi l&otilde;ppu tuli meile k&uuml;lla R&uuml;&uuml;tli Villu . </s> <s> Tuli jah kohe uksest sisse , soovis j&auml;tku leiba ja imestas : " K&uuml;ll teil siin on ikka tublid t&ouml;&ouml;mehed ! </s> <s> Alles hommiku s&otilde;itsin m&ouml;&ouml;da , vaatan &ndash; &otilde;u puid t&auml;is . </s> <s> A n&uuml;&uuml;d ! " </s> </p>
+<p> <s> " Jaah ? " naljatas vanaisa , " me v&otilde;tsime endale siukse sulase , kes murrab k&uuml;mne eest ! " </s> </p>
+<p> <s> " &Auml;hh ! " k&auml;ratses Villu , " ei see pole mingi sulane , see on ju Tootsi Mihkel ! </s> <s> Vaat kus alles ! </s> <s> Ega n&uuml;&uuml;d ei ole muud , kui et hakkame jooma ! </s> <s> Mul k&otilde;ikk neli pudelit peeti &uuml;hes ja . " </s> </p>
+<p> <s> " Kuss , Villu ! " pahandas vanaema , " mis juttu sa ajad s&ouml;&ouml;gilaua &auml;&auml;res ? </s> <s> Rikud poisi ka &auml;ra ! " </s> </p>
+<p> <s> " Mis poisi ? </s> <s> Selle poisi ? </s> <s> Mis poiss see enam on ! </s> <s> See tuleb juba meiega koos jooma ! " praalis Villu . </s> </p>
+<p> <s> " &Auml;&auml; pl&auml;rise , istu maha ja t&otilde;sta suppi , " &uuml;tles vanaema , " oled minu k&ouml;&ouml;gis , siis ole inimese moodi . </s> <s> Kui p&auml;rast kuuri taha lakkuma l&auml;hed , siis ole minu p&auml;rast kasv&otilde;i siga . " </s> </p>
+<p> <s> " &Auml;&auml; pahanda , Linda , " vastas Villu leplikult , " a t&auml;na on juba siukke lakkumise tuju , missa's teha saad . </s> <s> Ja egas meie V&auml;rniga pole mingid mandund k&otilde;rid &ndash; meie oleme intelligentsed joodikud ! </s> <s> Jaa ! " </s> </p>
+<p> <s> " Intelligentsed joodikud ! " porises vanaema , " h&auml;h ! " </s> </p>
+<p> <s>Vanaisa aga ainult vaatas ja irvitas hambaid . </s> <s> Irvitas jah hambaid ja luristas siis j&auml;lle suppi , nii et aknaruudud klirisesid-t&auml;risesid . </s> </p>
+<p> <s>Supp s&ouml;&ouml;dud , l&auml;ks vanaema sauna k&uuml;tma . </s> <s> Mihkel &uuml;tles , et l&auml;heb laseb vanamehe voodis tunnikeseks silma looja . </s> <s> Vanaisa ja Villu kadusid puukuuri taha ja mina leidsin , et on , jah , t&otilde;esti &otilde;ige aeg veidikese lesida , kui ei taha just raske k&otilde;huga lavale minna &ndash; mis ei ole kasulik tervisele . </s> </p>
+<p> <s>Nii ma siis lesisingi , aga und ei tulnud . </s> <s> Vahtisin &uuml;le voodi serva p&otilde;randale ja m&otilde;lgutasin . </s> <s> Valitses vaikkus . </s> <s> Vahtisin raamatute selgasid riiulis . </s> <s> Vahtisin l&ouml;mastatud k&auml;rppsetest m&auml;&auml;rdund korstnajalga ja siis j&auml;lle p&otilde;randat . </s> </p>
+<p> <s>J&otilde;udsin otsusele , et siukke asi ei v&otilde;i kesta kaua ja ronisin maast lahti . </s> </p>
+<p> <s>&Otilde;ues oli l&auml;ind viluks . </s> <s> Kombainid olid p&auml;eva jooksul majast kaugenend ja nende m&uuml;rin ei olnud enam nii tugev kui hommikul . </s> <s> Vanaema oli saunas suurde pajja ning vanni juba veed &auml;ra lasnud ja krabistas n&uuml;&uuml;d ahjudesse tuld s&uuml;&uuml;data . </s> <s> Hiiilisin vargsi puukuuri poole . </s> <s> Kuulatasin nuka taga . </s> <s> Kostus k&otilde;nej&otilde;minat . </s> </p>
+<p> <s> " ... ; mina olin siis Kuramaal , " &uuml;tles vanaisa h&auml;&auml;l , " sakslane oli visa taganema , a me siiski rappisime neid k&otilde;vasti . </s> <s> Noh , ja &uuml;ks &ouml;&ouml;si me ... ; " Astusin kuurinuka tagant v&auml;lja . </s> <s> Vanaisa jutt katkes . </s> <s> Ta k&uuml;sis : " Jaak , mis sina siin ? </s> <s> Kas vanaemal abi pole tarvis ? " &ndash; " Ma kuulan , mida te r&auml;&auml;gite , " vastasin . &ndash; " Kuule , mine aitta vanaemal sauna k&uuml;tta v&otilde;i midagi , lase me siin ajame veidi juttu , " &uuml;tles vanaisa . &ndash; " Okei , " kohmasin mina ebamugavust tundes ja lippasingi minema . </s> </p>
+<p> <s>Saun tuli v&auml;gev . </s> <s> Kogu eesruum oli t&auml;is paksu tossu , ning v&otilde;is kuulda , kuda tagaruumis ahi kuumusest nagises . </s> </p>
+<p> <s>K&otilde;igepealt k&auml;isid saunas &auml;ra vanaisa ja Villu , siirdudes p&auml;rast l&otilde;busas meeleolus tuppa viimast peeti l&otilde;petama . </s> <s> Siis k&auml;is Mihkel &ndash; minnes k&uuml;ll unisust kurttes , kuid tulles tegutsemisinnust pakatades . </s> <s> Kuna vanaema rihib oma saunask&auml;igud alati k&otilde;ige viimaseks , jahtunuma leili aega &ndash; ta ei taha riskida oma k&otilde;rge verer&otilde;huga &ndash; , siis v&otilde;tsin p&auml;rast Mihklit saunatee ette mina . </s> </p>
+<p> <s>Koorisin riided maha , ronisin lavale ja virutasin leili et paukkus . </s> <s> Higi n&otilde;rises ojadena . </s> <s> Ega ma kaua korraga lavakuumuses passindki , vaid k&auml;isin end aeg-ajalt &otilde;ues trepi peal pimedas augusti&otilde;htas jahutamas . </s> </p>
+<p> <s>Kombainid olid l&otilde;petand t&ouml;&ouml;p&auml;eva juba tund aega tagasi . </s> <s> P&otilde;llumehed olid enne veel pisut tulede valguses masinate kallal kopsind , aga siis l&otilde;puks &auml;ra l&auml;inud koju &ndash; j&auml;ttes kombainid suurte , massiivsete ja salap&auml;raste elukatena minu maja l&auml;hedusse p&otilde;lluveerele hommikut ootama . </s> </p>
+<p> <s>Mu keha auras pimeduses saunatrepil . </s> </p>
+<p> <s>Astusin trepist alla , k&otilde;ndisin v&auml;ravani . </s> <s> Vaatasin , kuda s&uuml;nged ja &uuml;ksildased , tummad ja elutud , mahaj&auml;ettud ja p&otilde;hutolmuga &uuml;le puistatud kombainid majast vaid paarisaja meetri kaugusel tardunult enese ette p&otilde;rnitsesid , teravad ja kummastavad kontuurid laskuvasse &ouml;&ouml;sse sulandumas . </s> <s> Ritsikad siristasid . </s> </p>
+<p> <s>Peaaegu eneselegi m&auml;rkkamatult olingi l&auml;binud selle paarsada meetrit ja viibisin n&uuml;&uuml;d ihualasti otsekui mingis iidses templis . </s> <s> Seletamatu tung , haaramatu erutus tuksus mu veresoontes , kui k&otilde;ndisin ringi nende eelajalooliste monoliitide vahel , &otilde;ndsakstegev &auml;ngistus valdas mind , kui ronisin &uuml;he kombaini trepist &uuml;les . </s> <s> Minu jalge all tukkus mehhaanilises unes metallne saurus . </s> <s> Saatsin ta kukilt pilgu &uuml;le p&otilde;ldude , &uuml;le k&uuml;la . </s> </p>
+<p> <s>Siis ronisin ettevaatlikult alla ja silkkasin tagasi sauna . </s> </p>
+<p> <s>Kuid isegi veel siis , kui m&auml;sserdasin heinavirna otsas nohisedes aset valmistada , ja ka siis , kui olin aseme valmis saand , tule kustu keerand ja teki alla pugend , surises mu peas ainult &uuml;ks m&otilde;te . </s> <s> See m&otilde;te oli : kombainid ! </s> </p>
+<p> <s>M&otilde;elda vaid ! </s> <s> Kombainid ! </s> </p> </div0> </body> </text>

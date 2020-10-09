@@ -1,0 +1,583 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kohtuekspertiisiseadus ( okt 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    1983</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kohtuekspertiisiseadus ( okt 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=1></tagusage>
+         <tagusage gi=p occurs=159></tagusage>
+         <tagusage gi=s occurs=203></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kohtuekspertiisiseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 30. mail 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 53 , 309 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2002. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>Kohtuekspertiisiseaduses s&auml;testatakse kohtueksperdi , riikliku ekspertiisiasutuse ja riiklikult tunnustatud eksperdi &otilde;iguslik seisund ning eksperdi &otilde;iguste ja kohustuste tekke alused kriminaalmenetluses , tsiviil- ja halduskohtumenetluses ning haldus&otilde;iguserikkumise asja menetluses ( edaspidi menetlusasi ) .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Kohtuekspertiis</s>
+</p>
+<p>
+<s>Kohtuekspertiis on menetlusasjas eksperdiks m&auml;&auml;ratud isiku erialane tegevus , mille eesm&auml;rk on uurida esitatud materjali ja anda ekspertiisi&uuml;lesandest l&auml;htudes teaduslikult p&otilde;hjendatud eksperdiarvamus .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Eksperdiarvamus</s>
+</p>
+<p>
+<s>Eksperdiarvamus on t&otilde;endamisel t&auml;htsa asjaolu kohta tehtud ja ekspertiisiaktis v&auml;ljendatud kategooriline v&otilde;i t&otilde;en&auml;oline eksperdij&auml;reldus .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Ekspert</s>
+</p>
+<p>
+<s>( 1 ) Ekspert on isik , kes kohtuekspertiisi ( edaspidi ekspertiis ) tehes kasutab mitte&otilde;iguslikke eriteadmisi .</s>
+</p>
+<p>
+<s>( 2 ) Eksperdiks v&otilde;ib olla kohtuekspert , riiklikult tunnustatud ekspert v&otilde;i menetleja m&auml;&auml;ratud muu isik .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohtuekspert ja ekspertiisiasutus</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Kohtuekspert</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Kohtuekspert</s>
+</p>
+<p>
+<s>Kohtuekspert on riiklikus ekspertiisiasutuses t&ouml;&ouml;tav isik , kelle t&ouml;&ouml;&uuml;lesanne on teha ekspertiise .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Kohtueksperdile esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Kohtueksperdina v&otilde;ib t&ouml;&ouml;tada isik , kes :</s>
+</p>
+<p>
+<s>1 ) on teov&otilde;imeline ;</s>
+</p>
+<p>
+<s>2 ) valdab eesti keelt seadusega v&otilde;i seaduse alusel kehtestatud ulatuses ;</s>
+</p>
+<p>
+<s>3 ) on omandanud ekspertiisialal n&otilde;utava k&otilde;rghariduse Eesti Vabariigi k&otilde;rgkoolis v&otilde;i kelle haridus vastab sellele tasemele ;</s>
+</p>
+<p>
+<s>4 ) on t&ouml;&ouml;tanud ekspertiisi- v&otilde;i teadusasutuses v&otilde;i muul t&ouml;&ouml;kohal sellel ekspertiisialal v&auml;hemalt kaks aastat vahetult enne kohtueksperdina t&ouml;&ouml;le asumist .</s>
+</p>
+<p>
+<s>( 2 ) Kohtueksperdina ei v&otilde;i t&ouml;&ouml;tada isik :</s>
+</p>
+<p>
+<s>1 ) kes on s&uuml;&uuml;di m&otilde;istetud tahtlikult toimepandud kuriteo eest ;</s>
+</p>
+<p>
+<s>2 ) keda on korruptsioonivastase seaduse ( RT I 1999 , 16 , 276 ; 87 , 791 ; 2000 , 25 , 145 ) rikkumise eest karistatud halduskorras ;</s>
+</p>
+<p>
+<s>3 ) kes on l&auml;hedases suguluses ( vanavanemad , vanemad , vennad , &otilde;ed , lapsed ja lapselapsed ) v&otilde;i h&otilde;imluses ( abikaasa , abikaasa vanemad , vennad , &otilde;ed ja lapsed ) t&ouml;&ouml;kohta vahetult kontrolliva t&ouml;&ouml;taja v&otilde;i vahetu &uuml;lemusega ;</s>
+</p>
+<p>
+<s>4 ) kes tervise t&otilde;ttu ei saa kohtueksperdina t&ouml;&ouml;tada .</s><s>Kahtluse korral teeb isiku terviseseisundi kindlaks arstlik komisjon .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktides 1 ja 2 s&auml;testatud keeld ei laiene isikule , kelle karistusandmed on kustutatud karistusregistrist karistusregistri seaduse ( RT I 1997 , 87 , 1467 ; 1998 , 111 , 1830 ) kohaselt .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kohtueksperdi vanne</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu s&otilde;lmimisel annab kohtuekspert t&ouml;&ouml;andjale j&auml;rgmise vande :</s>
+</p>
+<p>
+<s>&ldquo; Mina , ( nimi ) , t&otilde;otan t&auml;ita kohtueksperdi &uuml;lesanded ausalt ning anda eksperdiarvamuse erapooletult , oma eriteadmiste ja s&uuml;dametunnistuse kohaselt .</s><s>Olen teadlik , et teadvalt vale eksperdiarvamuse andmise eest kohaldatakse karistust vastavalt kriminaalkoodeksi &sect;-s 175 s&auml;testatule . &rdquo;</s>
+</p>
+<p>
+<s>( 2 ) Kohtuekspert kirjutab vandele alla ja kuup&auml;evastab selle .</s><s>Vande allkirjastatud tekst lisatakse t&ouml;&ouml;andja k&auml;es olevale t&ouml;&ouml;lepingu eksemplarile .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Riiklik ekspertiisiasutus</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Riiklik ekspertiisiasutus</s>
+</p>
+<p>
+<s>( 1 ) Riiklik ekspertiisiasutus ( edaspidi ekspertiisiasutus ) on riigiasutus , mille tegevuse p&otilde;hieesm&auml;rk on teha ekspertiise .</s>
+</p>
+<p>
+<s>( 2 ) Ekspertiisiasutuse juhina saab t&ouml;&ouml;tada isik , kes vastab k&auml;esoleva seaduse &sect; 6 n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Ekspertiisiasutuste nimekirja ja ekspertiisiasutuses t&ouml;&ouml;tavate ekspertide palgaastmed kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Ekspertiisiasutuste p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Ekspertiisiasutused teevad j&auml;rgmisi ekspertiise :</s>
+</p>
+<p>
+<s>1 ) kohtuarstlikke ekspertiise ;</s>
+</p>
+<p>
+<s>2 ) kohtubioloogiaekspertiise ;</s>
+</p>
+<p>
+<s>3 ) kohtukeemiaekspertiise ;</s>
+</p>
+<p>
+<s>4 ) kriminalistikaekspertiise ;</s>
+</p>
+<p>
+<s>5 ) muid ekspertiisiasutuse p&otilde;him&auml;&auml;ruses etten&auml;htud ekspertiise .</s>
+</p>
+<p>
+<s>( 2 ) Kohtuarstlike , kohtukeemia- , kohtubioloogiaekspertiiside loetelu kinnitab Vabariigi Valitsus v&otilde;i tema m&auml;&auml;ratud p&auml;dev minister .</s><s>Vabariigi Valitsus v&otilde;i tema m&auml;&auml;ratud p&auml;dev minister v&otilde;ib kehtestada kohtuarstlike , kohtukeemia- ja kohtubioloogiaekspertiisidele esitatavad n&otilde;uded .</s>
+</p>
+<p>
+<s>( 3 ) Kriminalistikaekspertiiside loetelu kinnitab Vabariigi Valitsus v&otilde;i tema m&auml;&auml;ratud p&auml;dev minister .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riiklikult tunnustatud ekspert</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Riiklikult tunnustatud ekspert</s>
+</p>
+<p>
+<s>Riiklikult tunnustatud ekspert on isik , kes on kantud riiklikult tunnustatud ekspertide nimekirja .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Riiklikult tunnustatud ekspertide nimekiri</s>
+</p>
+<p>
+<s>( 1 ) Riiklikult tunnustatud ekspertide nimekirja ( edaspidi nimekiri ) koostamise eesm&auml;rk on tagada &uuml;levaade asjatundjatest , keda saab kasutada ekspertiiside tegemisel .</s>
+</p>
+<p>
+<s>( 2 ) Riiklikult tunnustatud eksperdid kantakse nimekirja teadusvaldkonniti ning nende kohta esitatakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>2 ) kontaktaadress ja sidevahendi number ;</s>
+</p>
+<p>
+<s>3 ) nimekirja kandmise ja riikliku tunnustuse l&otilde;ppemise aeg .</s>
+</p>
+<p>
+<s>Vajaduse korral kantakse nimekirja ka m&auml;rkused eksperdi kitsama eriala kohta .</s>
+</p>
+<p>
+<s>( 3 ) Nimekirja peab Justiitsministeerium .</s>
+</p>
+<p>
+<s>( 4 ) Justiitsministeerium avaldab riiklikult tunnustatud ekspertide vajaduse kohta teateid &uuml;leriigilises p&auml;evalehes .</s>
+</p>
+<p>
+<s>( 5 ) Nimekirja pidamise korra kinnitab Vabariigi Valitsus v&otilde;i tema m&auml;&auml;ratud p&auml;dev minister .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Riiklikult tunnustatud eksperdi nimekirja kandmine</s>
+</p>
+<p>
+<s>( 1 ) Nimekirja kantakse isik , kes vastab k&auml;esoleva seaduse &sect; 6 l&otilde;ike 1 punktides 1-3 ja l&otilde;ike 2 punktides 1 ja 2 nimetatud n&otilde;uetele ning :</s>
+</p>
+<p>
+<s>1 ) kes on v&auml;hemalt kolm aastat vahetult enne nimekirja kandmise taotlemist t&ouml;&ouml;tanud teadusvaldkonnas , milles taotletakse riiklikku tunnustamist ning mis annab ekspertiisi tegemiseks siseriiklikult tunnustatud n&otilde;uete kohase kvalifikatsiooni ;</s>
+</p>
+<p>
+<s>2 ) kellel on v&otilde;imalik kasutada eksperdiuuringuteks vajalikke tehnikavahendeid ;</s>
+</p>
+<p>
+<s>3 ) kellel on alaline sissetulek .</s>
+</p>
+<p>
+<s>( 2 ) Nimekirja ei kanta isikut , kes t&ouml;&ouml;tab kohtueksperdina ekspertiisiasutuses .</s>
+</p>
+<p>
+<s>( 3 ) Teenistus- v&otilde;i t&ouml;&ouml;suhtes oleva isiku v&otilde;ib kanda nimekirja vaid siis , kui on kindlaks tehtud , et ta vabastatakse ekspertiisi tegemise ajaks teenistus- v&otilde;i t&ouml;&ouml;&uuml;lesannete t&auml;itmisest .</s>
+</p>
+<p>
+<s>( 4 ) Isikud kantakse nimekirja teadusvaldkondades , milles tavatsetakse m&auml;&auml;rata ekspertiise .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Avaldus</s>
+</p>
+<p>
+<s>( 1 ) Isik kantakse nimekirja tema kirjaliku avalduse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Avaldus esitatakse Justiitsministeeriumile .</s>
+</p>
+<p>
+<s>( 3 ) Avalduses tuleb m&auml;rkida j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) ees- ja perekonnanimi ;</s>
+</p>
+<p>
+<s>2 ) isikukood ;</s>
+</p>
+<p>
+<s>3 ) teadusvaldkond v&otilde;i -valdkonnad , milles riiklikku tunnustamist taotletakse ;</s>
+</p>
+<p>
+<s>4 ) haridusk&auml;ik ja erialase teenistusk&auml;igu kirjeldus ;</s>
+</p>
+<p>
+<s>5 ) kontaktaadress ja sidevahendi number ;</s>
+</p>
+<p>
+<s>6 ) isiku omak&auml;eline kinnitus , et ta vastab k&auml;esoleva seaduse &sect; 12 n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 4 ) Avaldusele lisatakse erialast haridust t&otilde;endav dokument , teave ekspertiisi tegemiseks vajalike tehnikavahendite kasutamise v&otilde;imaluse ja alalise sissetuleku kohta , t&ouml;&ouml;andja v&otilde;i teenistuja vahetu &uuml;lemuse kinnitus k&auml;esoleva seaduse &sect; 12 l&otilde;ikes 3 nimetatud n&otilde;ude j&auml;rgimise kohta ning soovitus erialaselt kutse&uuml;hingult v&otilde;i kaks soovitust erialal tunnustatud asjatundjatelt v&otilde;i andmed vastava asutuse v&otilde;i volitatud juriidilise isiku poolt tunnustamise ( atesteerimine , litsentseerimine v&otilde;i muu vorm ) kohta .</s><s>Avaldusele v&otilde;ib erialase sobivuse kohta lisada ka muid andmeid .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Avalduse l&auml;bivaatamine</s>
+</p>
+<p>
+<s>Avalduse p&otilde;hjal kontrollitakse isiku vastavust k&auml;esoleva seaduse &sect; 12 n&otilde;uetele .</s><s>Justiitsministeerium v&otilde;ib selle kohta koguda lisaandmeid j&auml;relep&auml;rimiste kaudu ja n&otilde;uda lisaandmeid ka avalduse esitajalt .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Nimekirja kandmise otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Isiku nimekirja kandmise otsustab justiitsminister kahe kuu jooksul , arvates avalduse saabumisest .</s><s>K&auml;esoleva seaduse &sect;-s 14 nimetatud lisaandmete kogumisel v&otilde;ib Justiitsministeerium t&auml;htaega pikendada kuni kolme kuuni .</s>
+</p>
+<p>
+<s>( 2 ) Isiku nimekirja kandmisest keeldumise otsust peab p&otilde;hjendama .</s><s>Nimekirja kandmisest keeldumise otsus tehakse teatavaks viivituseta .</s>
+</p>
+<p>
+<s>( 3 ) Isiku nimekirja kandmisest keeldumise otsuse peale v&otilde;ib esitada kaebuse halduskohtule .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Nimekirja avalikustamine</s>
+</p>
+<p>
+<s>( 1 ) Justiitsministeerium tagab nimekirja k&auml;ttesaadavuse kohtutele ja Politseiametile .</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;imaldab kohtu ruumides nimekirjaga tutvuda k&otilde;igil soovijatel .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Riiklikult tunnustatud eksperdi vanne</s>
+</p>
+<p>
+<s>( 1 ) Enne nimekirja kandmist annab isik justiitsministrile j&auml;rgmise vande :</s>
+</p>
+<p>
+<s>&ldquo; Mina , ( nimi ) , t&otilde;otan t&auml;ita riiklikult tunnustatud eksperdi &uuml;lesanded ausalt ning anda eksperdiarvamuse erapooletult oma eriteadmiste ja s&uuml;dametunnistuse kohaselt .</s><s>Olen teadlik , et teadvalt vale eksperdiarvamuse andmise eest kohaldatakse karistust vastavalt kriminaalkoodeksi &sect;-s 175 s&auml;testatule . &rdquo;</s>
+</p>
+<p>
+<s>( 2 ) Isik kirjutab vandetekstile alla ja kuup&auml;evastab selle .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 18 kohaselt riikliku tunnustuse t&auml;htaja pikendamise korral uut vannet ei anta .</s><s>Kui isik nimekirjast kustutatakse , kaotab vanne kehtivuse .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Riikliku tunnustuse t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Isik kantakse nimekirja kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 2 ) Riiklik tunnustus l&otilde;peb nimekirja kandmisest alates kolmanda aasta 15. detsembril .</s>
+</p>
+<p>
+<s>( 3 ) Riiklikult tunnustatud eksperdi kirjalikul taotlusel v&otilde;ib riikliku tunnustuse t&auml;htaega korduvalt pikendada , kui on t&auml;idetud k&auml;esoleva seaduse &sect; 12 n&otilde;uded .</s><s>Riiklikult tunnustatud ekspert annab k&auml;esoleva seaduse &sect; 12 n&otilde;uete t&auml;itmise kohta kirjaliku kinnituse .</s>
+</p>
+<p>
+<s>( 4 ) Riikliku tunnustuse t&auml;htaja pikendamise taotlus tuleb esitada Justiitsministeeriumile hiljemalt kolm kuud enne riikliku tunnustuse t&auml;htaja l&otilde;ppemist .</s>
+</p>
+<p>
+<s>( 5 ) Taotluses loetletakse menetlusasjad , milles isik on riiklikult tunnustatud eksperdina ekspertiise teinud , ning tema sagedase m&auml;&auml;ramise korral viimase kalendriaasta menetlusasjad .</s>
+</p>
+<p>
+<s>( 6 ) Riikliku tunnustuse pikendamise otsus tehakse k&auml;esoleva seaduse &sect;-s 14 ja &sect; 15 l&otilde;ikes 1 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Riikliku tunnustuse l&otilde;ppemine</s>
+</p>
+<p>
+<s>( 1 ) Riiklik tunnustus l&otilde;peb ja isik kustutatakse nimekirjast , kui :</s>
+</p>
+<p>
+<s>1 ) riiklikult tunnustatud ekspert esitab Justiitsministeeriumile kirjaliku avalduse enda nimekirjast kustutamise kohta ;</s>
+</p>
+<p>
+<s>2 ) m&ouml;&ouml;dub tunnustuse t&auml;htaeg ja t&auml;htaja pikendamise taotlust ei ole esitatud v&otilde;i kui taotlust ei rahuldata ;</s>
+</p>
+<p>
+<s>3 ) riiklikult tunnustatud ekspert sureb .</s>
+</p>
+<p>
+<s>( 2 ) Riikliku tunnustuse l&otilde;ppemine ei takista ekspertiisi tegemist pooleliolevas menetlusasjas .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Riikliku tunnustuse t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Riikliku tunnustuse t&uuml;histamise otsustab justiitsminister ja isik kustutatakse nimekirjast , kui :</s>
+</p>
+<p>
+<s>1 ) ilmneb , et isiku nimetamise ajal ei olnud k&auml;esoleva seaduse &sect; 12 l&otilde;igetes 1 ja 3 nimetatud n&otilde;uded t&auml;idetud v&otilde;i kui need on hiljem &auml;ra langenud , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 19 l&otilde;ike 1 punktis 3 nimetatud juhul ;</s>
+</p>
+<p>
+<s>2 ) riiklikult tunnustatud ekspert keeldub seadusliku aluseta ekspertiisi tegemast v&otilde;i kui ta m&otilde;juva p&otilde;hjuseta viivitab ekspertiisi tegemisega v&otilde;i ei ilmu menetleja kutsel ning menetleja teeb ettepaneku riikliku tunnustuse t&uuml;histamiseks .</s>
+</p>
+<p>
+<s>( 2 ) T&uuml;histamisotsust peab p&otilde;hjendama .</s>
+</p>
+<p>
+<s>( 3 ) T&uuml;histamisotsuse peale v&otilde;ib esitada kaebuse halduskohtule .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Teatamiskohustus</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect; 13 l&otilde;ikes 3 nimetatud andmete muutumisest on riiklikult tunnustatud ekspert kohustatud viivitamata kirjalikult teatama Justiitsministeeriumile .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Eksperdi &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Eksperdi &otilde;iguste ja kohustuste tekke alus</s>
+</p>
+<p>
+<s>Eksperdi &otilde;igused ja kohustused tekivad kohtueksperdil ekspertiisim&auml;&auml;rusele m&auml;rgitud ekspertiisikorralduse alusel ja muul isikul menetleja ekspertiisim&auml;&auml;ruse alusel .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Eksperdi &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Eksperdi &otilde;igused ja kohustused ekspertiisi tegemisel s&auml;testatakse menetlusseadustes .</s>
+</p>
+<p>
+<s>( 2 ) Lisaks menetlusseadustes s&auml;testatule on ekspert kohustatud :</s>
+</p>
+<p>
+<s>1 ) ekspertiisi tegemisel juhendama ja kontrollima abipersonali tegevust ;</s>
+</p>
+<p>
+<s>2 ) s&auml;ilitama ekspertiisiandmed vastavalt k&auml;esoleva seaduse &sect;-s 25 s&auml;testatule .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Abipersonali kasutamine</s>
+</p>
+<p>
+<s>Eksperdil on &otilde;igus kasutada eksperdiuuringutes abipersonali .</s><s>Ekspert juhendab eksperdiuuringute tegemisel abipersonali ja kontrollib nende tegevust .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Andmete s&auml;ilitamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Riiklikult tunnustatud ekspert peab tehtud ekspertiiside arvestust ja s&auml;ilitab arvestusandmetena :</s>
+</p>
+<p>
+<s>1 ) ekspertiisi m&auml;&auml;ranud menetleja nime ;</s>
+</p>
+<p>
+<s>2 ) menetlusasja numbri ;</s>
+</p>
+<p>
+<s>3 ) ekspertiisim&auml;&auml;ruse kuup&auml;eva ;</s>
+</p>
+<p>
+<s>4 ) ekspertiisi liigi ;</s>
+</p>
+<p>
+<s>5 ) ekspertiisiobjekti v&otilde;i isiku andmed , kelle kohta ekspertiis on m&auml;&auml;ratud ;</s>
+</p>
+<p>
+<s>6 ) ekspertiisiakti v&otilde;i ekspertiisist keeldumise akti koostamise kuup&auml;eva .</s>
+</p>
+<p>
+<s>( 2 ) Ekspert on kohustatud s&auml;ilitama arvestusandmeid viis aastat .</s>
+</p>
+<p>
+<s>( 3 ) Ekspertiisiasutuses s&auml;ilitatakse arvestusandmeid ja ekspertiisiakti koopia v&otilde;i ekspertiisi tegemisest keeldumise akti koopia seadusega v&otilde;i seaduse alusel s&auml;testatud korras .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Ekspertiisi rahastamine</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Ekspertiisiasutuse kulud seoses ekspertiisi tegemisega menetlusasjas</s>
+</p>
+<p>
+<s>( 1 ) Kohtueksperdi tehtud ekspertiisi maksumuse m&auml;&auml;rab kindlaks ekspertiisiasutus , arvestades ekspertiisile kulutatud aega ja vahendeid ning menetleja kutsel kohtueksperdi ilmumise kulusid .</s><s>Selle kohta lisatakse &otilde;iend ekspertiisiaktile v&otilde;i ekspertiisi tegemisest keeldumise aktile .</s>
+</p>
+<p>
+<s>( 2 ) Ekspertiisiasutuse kulude arvestamise ja h&uuml;vitamise korra kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Ekspertiisiasutustes tehtavate ekspertiiside hinnakirja kinnitab justiitsministri ettepanekul Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Riiklikult tunnustatud eksperdi ja eksperdiks m&auml;&auml;ratud muu isiku kulud</s>
+</p>
+<p>
+<s>Riiklikult tunnustatud eksperdi ja menetleja poolt eksperdiks m&auml;&auml;ratud muu isiku tehtud ekspertiisi kulud h&uuml;vitatakse menetlusseadustes s&auml;testatud korras .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Ps&uuml;hhiaatrilise abi seaduse muutmine</s>
+</p>
+<p>
+<s>Ps&uuml;hhiaatrilise abi seaduse ( RT I 1997 , 16 , 260 ; 1999 , 31 , 425 ; 2001 , 50 , 284 ) &sect; 13 l&otilde;ikes 6 <hi rend="sup">1</hi> asendatakse s&otilde;nad &ldquo; kohtups&uuml;hhiaatrilise ekspertiisi &rdquo; s&otilde;naga &ldquo; kohtups&uuml;hhiaatriaekspertiisi &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Kohtueksperdi vande andmise erisused</s>
+</p>
+<p>
+<s>Ekspertiiside tegemiseks t&ouml;&ouml;le v&otilde;etud isik , kes vastab kohtueksperdile esitatavatele n&otilde;uetele , annab temaga t&ouml;&ouml;lepingu s&otilde;lminud isikule k&auml;esoleva seaduse &sect;-s 7 nimetatud vande seaduse j&otilde;ustumisest alates kuue kuu jooksul .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Ekspertiisiasutuse p&otilde;him&auml;&auml;ruse seadusega koosk&otilde;lla viimine</s>
+</p>
+<p>
+<s>Ekspertiisiasutuse p&otilde;him&auml;&auml;rus viiakse k&auml;esoleva seaduse n&otilde;uetega koosk&otilde;lla seaduse j&otilde;ustumisest alates kuue kuu jooksul .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2002. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

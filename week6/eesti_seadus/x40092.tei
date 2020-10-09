@@ -1,0 +1,561 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Turvateenistuse seadus ( m&auml;rts 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    2284</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Turvateenistuse seadus ( m&auml;rts 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=152></tagusage>
+         <tagusage gi=s occurs=180></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Turvateenistuse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 10. novembril 1993. a.</s>
+</p>
+<p>
+<s>( RT I 1993 , 75 , 1100 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 13.detsembril 1993. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ;</s>
+</p>
+<p>
+<s>28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056.</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab turvaettev&otilde;tete ning asutuste , ettev&otilde;tete ja organisatsioonide ( edaspidi organisatsioon ) sisevalveteenistuste , samuti &uuml;ksikisikute tegevuse tingimused ja korra j&auml;rgmiste alaliste v&otilde;i ajutiste turvateenuste osutamisel v&otilde;i turva&uuml;lesannete t&auml;itmisel :</s>
+</p>
+<p>
+<s>1 ) vallas- ja kinnisvara valve ja kaitse ;</s>
+</p>
+<p>
+<s>2 ) isikukaitse ;</s>
+</p>
+<p>
+<s>3 ) veoste valve ja kaitse ;</s>
+</p>
+<p>
+<s>4 ) korra kindlustamine tellija v&otilde;i t&ouml;&ouml;andja &uuml;ritustel ja objektidel ;</s>
+</p>
+<p>
+<s>5 ) turvakonsultatsioon ja -uuringud objekti puutumatuse ja ohutuse tagamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Turvaettev&otilde;tetele ning turvateenuseid osutavatele &uuml;ksikisikutele laienevad k&otilde;ik ettev&otilde;tlust reglementeerivad seadused koos k&auml;esolevast seadusest tulenevate erisustega .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolev seadus ei k&auml;sitle kaitsej&otilde;udude ja politsei tegevust objektide valve ja kaitse tagamisel .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;isted</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses kasutatakse m&otilde;isteid allj&auml;rgnevas t&auml;henduses :</s>
+</p>
+<p>
+<s>1 ) turvateenistuse subjekt - turvaettev&otilde;te , sisevalveteenistus ja turvateenuste osutamisega tegelev &uuml;ksikisik ;</s>
+</p>
+<p>
+<s>2 ) turvaettev&otilde;tlus - ettev&otilde;tte v&otilde;i &uuml;ksikisiku tegevus turvateenuste osutamisel ;</s>
+</p>
+<p>
+<s>3 ) turvateenus - k&auml;esoleva seaduse paragrahv 1 1.l&otilde;ike punktides 1-5 nimetatud teenus , mida osutab turvaettev&otilde;tlusega tegelev isik ;</s>
+</p>
+<p>
+<s>4 ) turva&uuml;lesanne - k&auml;esoleva seaduse paragrahv 1 1.l&otilde;ike punktides 1-5 nimetatud &uuml;lesanne , mida t&auml;idab sisevalveteenistus ;</s>
+</p>
+<p>
+<s>5 ) turvateenistus - turvateenistuse subjektide tegevus turvateenuste osutamisel v&otilde;i turva&uuml;lesannete t&auml;itmisel ;</s>
+</p>
+<p>
+<s>6 ) turvalitsents - riiklik tegevuslitsents , mis annab turvateenuste osutamise v&otilde;i turva&uuml;lesannete t&auml;itmise &otilde;iguse ;</s>
+</p>
+<p>
+<s>7 ) valveobjekt - inimene , vara , veos , ruum , ehitis , rajatis , territoorium v&otilde;i muu asi , kelle v&otilde;i mille valveks ja kaitseks on turvateenistus suunatud , samuti valveobjektil v&otilde;i seal l&auml;biviidaval &uuml;ritusel viibimise v&otilde;i k&auml;itumise kord ;</s>
+</p>
+<p>
+<s>8 ) isikukaitse - t&auml;iskasvanud isiku soovil tema v&otilde;i ta alaealise lapse ohutuse tagamiseks rakendatud meetmete kogum ;</s>
+</p>
+<p>
+<s>9 ) valve - tegevus valveobjekti ja selle &uuml;mbruse j&auml;lgimisel , ohu v&otilde;i kallaletungi avastamiseks objektile v&otilde;i objekti puutumatuse tagamiseks ;</s>
+</p>
+<p>
+<s>10 ) kaitse - meetmete rakendamine valveobjekti &auml;hvardava ohu v&otilde;i r&uuml;nde t&otilde;kestamiseks ning puutumatuse tagamiseks ;</s>
+</p>
+<p>
+<s>11 ) tehniline valve - valveseadmete ja h&auml;ires&uuml;steemide kogum valveobjekti puutumatuse j&auml;lgimiseks ja r&uuml;nnete avastamiseks ;</s>
+</p>
+<p>
+<s>12 ) h&auml;ires&uuml;steem - signalisatsiooniseadmete ja -ahelate kogum h&auml;iresignaali edastamiseks valveobjektilt ;</s>
+</p>
+<p>
+<s>13 ) tsentraliseeritud h&auml;ires&uuml;steem - signalisatsiooniseadmete ja -ahelate kogum h&auml;iresignaali edastamiseks ja registreerimiseks mitmelt valveobjektilt .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Objekti turvalisuse tagamise korraldus</s>
+</p>
+<p>
+<s>( 1 ) Organisatsioonid korraldavad vahetult neile kuuluva v&otilde;i nende valduses oleva vara , territooriumi ja muu objekti turvalisuse ( valve ja kaitse ) tagamist k&auml;esolevas seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Mainitud eesm&auml;rgil v&otilde;ib organisatsioon moodustada oma koosseisus spetsiaalse struktuuri&uuml;ksuse - sisevalveteenistuse - v&otilde;i kasutada lepingu alusel turvaettev&otilde;tlusega tegeleva isiku teenuseid , samuti kasutada tehnilist valvet ja teenistuskoeri .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus v&otilde;ib kehtestada m&otilde;nda liiki objekti tehnilise kindlustatuse ning turvalisuse tagamise erin&otilde;uded :</s>
+</p>
+<p>
+<s>1 ) valitsusasutustele ja riigiettev&otilde;tetele , samuti muudele organisatsioonidele , mille tegevus on seotud k&otilde;rgendatud ohuga inimestele v&otilde;i keskkonnale ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;rgendatud ohustatusega objekti vastu suunatud kuritegeliku r&uuml;nde t&otilde;kestamiseks .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Valveobjekti turvalisuse tagamise viisid</s>
+</p>
+<p>
+<s>Valveobjekti turvalisust tagatakse :</s>
+</p>
+<p>
+<s>1 ) turvat&ouml;&ouml;tajate poolt vahetult ;</s>
+</p>
+<p>
+<s>2 ) tehnilise valve abil ;</s>
+</p>
+<p>
+<s>3 ) teenistusloomade abil .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Turvateenistuse subjekti p&otilde;hi&uuml;lesanded ja tegevuspiirangud</s>
+</p>
+<p>
+<s>( 1 ) Turvateenistuse subjekti &uuml;lesandeks on :</s>
+</p>
+<p>
+<s>1 ) valveobjekti ohutuse ja puutumatuse tagamine ;</s>
+</p>
+<p>
+<s>2 ) valveobjekti vastu suunatud v&otilde;i seda ohustava &otilde;iguserikkumise ennetamine , t&otilde;kestamine ja t&otilde;rjumine ;</s>
+</p>
+<p>
+<s>3 ) valveobjekti vastu suunatud &otilde;iguserikkumise s&uuml;ndmuskoha puutumatuse tagamine .</s>
+</p>
+<p>
+<s>( 2 ) Turvateenistuse subjektil ei ole &otilde;igust t&auml;ita riigikaitse v&otilde;i politsei v&otilde;imkonda kuuluvaid funktsioone .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Turvaettev&otilde;te</s>
+</p>
+<p>
+<s>( 1 ) Turvaettev&otilde;tteks k&auml;esoleva seaduse m&otilde;istes on ettev&otilde;te , millel on litsents turvateenuste osutamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Turvaettev&otilde;te ei tohi tegelda relvade v&otilde;i laskemoona tootmise , hulgi- v&otilde;i jaem&uuml;&uuml;giga ning eradetektiivteenuste osutamisega .</s>
+</p>
+<p>
+<s>( 3 ) Turvaettev&otilde;te peab olema registreeritud ettev&otilde;ttena Eestis .</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsus v&otilde;ib kehtestada piiranguid v&auml;liskapitali osaluse kohta turvaettev&otilde;tte vara koosseisus .</s>
+</p>
+<p>
+<s>( 5 ) Turvalitsents annab turvaettev&otilde;ttele &uuml;htlasi &otilde;iguse sisevalveteenistuse korraldamiseks ettev&otilde;ttes endas .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Sisevalveteenistus</s>
+</p>
+<p>
+<s>( 1 ) Sisevalveteenistus valvab ja kaitseb objekte , mida organisatsiooni juht ( juhtorgan ) on valveobjektiks m&auml;&auml;ranud .</s>
+</p>
+<p>
+<s>( 2 ) Sisevalveteenistus v&otilde;ib valvata ja kaitsta ainult oma organisatsiooni objekte , sealhulgas kaitsta organisatsiooni t&ouml;&ouml;tajaid .</s><s>T&ouml;&ouml;tajat v&otilde;ib ta ilma viimase loata kaitsta juhul , kui t&ouml;&ouml;taja t&ouml;&ouml;lepingus on isikukaitse tagamine ette n&auml;htud .</s>
+</p>
+<p>
+<s>( 3 ) Sisevalveteenistus peab turva&uuml;lesannete t&auml;itmiseks omama turvalitsentsi vaid Vabariigi Valitsuse poolt kehtestatud juhtudel .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Turvat&ouml;&ouml;taja</s>
+</p>
+<p>
+<s>( 1 ) Turvat&ouml;&ouml;tajaks k&auml;esoleva seaduse m&otilde;istes on turvaettev&otilde;tte v&otilde;i sisevalveteenistuse juht , turvaala juhtivt&ouml;&ouml;taja ning t&ouml;&ouml;taja , kes vahetult valvab ja kaitseb valveobjekte , samuti &uuml;ksikisik , kellel on &otilde;igus turvateenuste osutamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Valvur on turvat&ouml;&ouml;taja , kes ei oma &otilde;igust teostada isikukaitset ning valvata ja kaitsta neid valveobjekte , mille loetelu kehtestab Vabariigi Valitsus .</s><s>Valvurina v&otilde;ib t&ouml;&ouml;tada 18-65-aastane Eesti alaline elanik .</s>
+</p>
+<p>
+<s>( 3 ) Turvat&ouml;&ouml;tajana v&otilde;ib t&ouml;&ouml;tada 20-65-aastane isik , kes on Eesti kodanik , omab vastavat kvalifikatsioonitunnistust ja turvat&ouml;&ouml;taja kaarti ning on aus ja usaldusv&auml;&auml;rne .</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;ksikisik , kes soovib osutada turvateenuseid , peab vastama k&auml;esoleva paragrahvi 2. v&otilde;i 3.l&otilde;ikes etten&auml;htud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 5 ) Turvat&ouml;&ouml;tajana ei ole &otilde;igust t&ouml;&ouml;tada isikul :</s>
+</p>
+<p>
+<s>1 ) kes kannab karistust v&otilde;i omab karistatust tahtlikult toimepandud kuriteo eest ;</s>
+</p>
+<p>
+<s>2 ) kes tegeleb relvade v&otilde;i laskemoona tootmise , hulgi- v&otilde;i jaem&uuml;&uuml;giga v&otilde;i t&ouml;&ouml;tab eradetektiivina ;</s>
+</p>
+<p>
+<s>3 ) kes on politseiametnik v&otilde;i t&auml;itevametnik ;</s>
+</p>
+<p>
+<s>4 ) kes on kaitsev&auml;e teenistuses ;</s>
+</p>
+<p>
+<s>5 ) kelle vabastamisest politsei teenistusest mittevastavuse t&otilde;ttu oma ametikohale v&otilde;i distsipliinirikkumise eest on m&ouml;&ouml;dunud v&auml;hem kui viis aastat ;</s>
+</p>
+<p>
+<s>6 ) kes on vabastatud teenistusest lojaalsusvande rikkumise t&otilde;ttu ;</s>
+</p>
+<p>
+<s>7 ) kes on vabastatud politseist , turvaettev&otilde;ttest v&otilde;i sisevalveteenistusest usalduse kaotuse t&otilde;ttu .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi 3.l&otilde;ike n&otilde;uded kvalifikatsioonitunnistusele ja turvat&ouml;&ouml;taja kaardile ei laiene sisevalveteenistuse turvat&ouml;&ouml;tajale , kes ei ole kohustatud turvalitsentsi omama .</s>
+</p>
+<p>
+<s>( 7 ) Kvalifikatsioonin&otilde;uded turvat&ouml;&ouml;tajatele ning vastava kvalifikatsioonitunnistuse v&auml;ljaandmise korra kehtestab Vabariigi Valitsus v&otilde;i tema poolt volitatud ametkond .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Turvat&ouml;&ouml;taja kaart</s>
+</p>
+<p>
+<s>( 1 ) Turvat&ouml;&ouml;tajale ( v&auml;lja arvatud valvur ) , kes vastab k&auml;esoleva seaduse paragrahvis 8 m&auml;rgitud n&otilde;uetele , v&auml;ljastatakse turvat&ouml;&ouml;taja kaart elukohaj&auml;rgse politseiprefektuuri poolt turvaettev&otilde;tte v&otilde;i sisevalveteenistust omava organisatsiooni juhi ( juhtorgani ) taotlusel , samuti &uuml;ksikisiku avalduse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Turvat&ouml;&ouml;tajate kaartide v&auml;ljaandmise , kehtivuse peatamise ja t&uuml;histamise korra kehtestab Vabariigi Valitsus v&otilde;i tema poolt volitatud ametkond .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Turvalitsents .</s><s>Turvateenuste osutamine</s>
+</p>
+<p>
+<s>( 1 ) Turvaettev&otilde;te v&otilde;ib turvateenuseid osutada turvalitsentsi omamise korral .</s>
+</p>
+<p>
+<s>( 2 ) Turvaettev&otilde;ttele ja sisevalveteenistusele antakse turvalitsents , kui on tuvastatud , et taotlejal on seaduslikuks ja n&otilde;uetekohaseks turvateenuste osutamiseks v&otilde;i turva&uuml;lesannete t&auml;itmiseks piisavalt vahendeid , teadmisi , oskusi , kogemusi ja personali .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;ksikisik v&otilde;ib turvateenuseid osutada turvat&ouml;&ouml;taja kaardi omamise korral .</s>
+</p>
+<p>
+<s>( 4 ) Turvateenistuse subjekt v&otilde;ib osutada neid turvateenuseid v&otilde;i t&auml;ita neid turva&uuml;lesandeid , mis on lubatud turvalitsentsi v&otilde;i turvat&ouml;&ouml;taja kaardiga .</s>
+</p>
+<p>
+<s>( 5 ) Turvalitsentse annab v&auml;lja politseiprefekt .</s>
+</p>
+<p>
+<s>( 6 ) Juhul kui turvateenistus , v&auml;lja arvatud veoste valve ja kaitse , h&otilde;lmab mitme politseiprefektuuri teenistuspiirkonda , antakse turvalitsents politsei peadirektori poolt .</s>
+</p>
+<p>
+<s>( 7 ) Turvalitsentside v&auml;ljaandmise kehtivuse peatamise ja t&uuml;histamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 8 ) Turvateenuseid osutatakse ainult kirjaliku lepingu alusel .</s>
+</p>
+<p>
+<s>( 9 ) Turvateenuste osutamise v&otilde;i turva&uuml;lesannete t&auml;itmisega seotud dokumentatsiooni koostamise ja hoidmise korra ja t&auml;htajad kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 10 ) Turvalitsentsi ei v&auml;ljastata ettev&otilde;ttele , mille omaniku v&otilde;i omanike m&otilde;ne teise turvaettev&otilde;tte turvalitsents on t&uuml;histatud seaduserikkumise v&otilde;i usalduse kaotuse t&otilde;ttu .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Piirangud t&ouml;&ouml;&uuml;lesannete t&auml;itmisel</s>
+</p>
+<p>
+<s>Turvateenistuse subjektil :</s>
+</p>
+<p>
+<s>1 ) ei ole &otilde;igust t&ouml;&ouml;&uuml;lesannete t&auml;itmisel heli- , foto- , kino- , video- , side- , valve- ja muud tehnikat kasutades rikkuda kellegi p&otilde;hiseaduslikke &otilde;igusi ja vabadusi ;</s>
+</p>
+<p>
+<s>2 ) ei ole &otilde;igust teostada operatiivj&auml;lituslikke toiminguid .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Turvateenistuse subjekti ja turvat&ouml;&ouml;taja kohustused</s>
+</p>
+<p>
+<s>Turvateenistuse subjekt v&otilde;i turvat&ouml;&ouml;taja :</s>
+</p>
+<p>
+<s>1 ) on kohustatud hoidma saladuses temale seoses turvateenuste osutamise v&otilde;i turva&uuml;lesannete t&auml;itmisega teatavaks saanud &auml;ri- v&otilde;i muud informatsiooni ;</s>
+</p>
+<p>
+<s>2 ) peab informeerima koheselt politseid k&otilde;igist valveobjekti vastu toimepandud , toimepandavatest v&otilde;i kavandatavatest kuritegudest ;</s>
+</p>
+<p>
+<s>3 ) ei tohi oma tegevusega takistada riigi- ja kohaliku omavalitsuse organite ja asutuste , riikliku kontrolli- ja j&auml;relevalveorganite , kohtueelse uurimise organite , kohtute ning ametiisikute tegevust ;</s>
+</p>
+<p>
+<s>4 ) ei tohi tegutseda poliitilistel eesm&auml;rkidel ;</s>
+</p>
+<p>
+<s>5 ) ei tohi oma tegevuse k&auml;igus lubada endale teiste isikute au ja v&auml;&auml;rikust alandavat kohtlemist , rikkuda eluruumi puutumatust , kirjavahetuse- , riigi- v&otilde;i &auml;risaladust ning muid p&otilde;hiseadusega kaitstud &otilde;igusi ja vabadusi .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Turvat&ouml;&ouml;taja &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Turvat&ouml;&ouml;tajal on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) t&otilde;kestada p&auml;&auml;s valvatavale objektile isikutel , kes p&uuml;&uuml;avad sinna siseneda vastava loata v&otilde;i seadusliku aluseta ;</s>
+</p>
+<p>
+<s>2 ) kinni pidada isikuid , kes ebaseaduslikult tungivad v&otilde;i on tunginud valvatavale objektile v&otilde;i viibivad seal vastava loata v&otilde;i seadusliku aluseta ;</s>
+</p>
+<p>
+<s>3 ) kinni pidada isikuid , kes oma k&auml;itumisega ohustavad valveobjekti turvalisust v&otilde;i segavad turvat&ouml;&ouml;tajat tema &uuml;lesannete t&auml;itmisel .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;ltuvalt kinnipeetava poolt toimepandud teo iseloomust on turvat&ouml;&ouml;tajal &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) kinnipeetav objektilt &auml;ra saata ;</s>
+</p>
+<p>
+<s>2 ) tuvastada kinnipeetava isik kohapeal ;</s>
+</p>
+<p>
+<s>3 ) anda kinnipeetav viivitamatult &uuml;le politseile isiku tuvastamiseks ning vajalike meetmete v&otilde;tmiseks .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Tehniline valve</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsusel on &otilde;igus kehtestada tehnilise valve seadmete ja h&auml;ires&uuml;steemide projekteerimise , paigaldamise ja hooldamise kord .</s>
+</p>
+<p>
+<s>( 2 ) Tsentraliseeritud h&auml;ires&uuml;steemide ehitamise ja kasutamise korra , kui selle s&uuml;steemi toimimine on seotud &uuml;ldkasutatava traatside , samuti raadiosidega , kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Relvad ja erivahendid</s>
+</p>
+<p>
+<s>( 1 ) Turvateenistuse subjekt v&otilde;ib relvaseadusega etten&auml;htud alustel ja korras soetada ja hoida relvi ja laskemoona ning neid v&auml;lja anda kandmiseks oma t&ouml;&ouml;tajatele .</s>
+</p>
+<p>
+<s>( 2 ) Turvateenistuse subjekt v&otilde;ib objekti valveks ja kaitseks kasutada j&auml;rgmisi erivahendeid :</s>
+</p>
+<p>
+<s>1 ) kaitsekiivreid ;</s>
+</p>
+<p>
+<s>2 ) kuulikindlaid veste ;</s>
+</p>
+<p>
+<s>3 ) eriotstarbelisi m&auml;rgistus- ja v&auml;rvimisseadmeid ;</s>
+</p>
+<p>
+<s>4 ) k&auml;eraudu ;</s>
+</p>
+<p>
+<s>5 ) teenistuskoeri .</s>
+</p>
+<p>
+<s>( 3 ) Turvateenistuse subjektile lubatud erivahendite liigid ( k&auml;esoleva paragrahvi 2. l&otilde;ige ) ja arv , nende soetamise , hoidmise , kandmise ja kasutamise tingimused ja kord ning n&otilde;uded erivahenditele kehtestatakse Vabariigi Valitsuse v&otilde;i tema volitusel siseministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 4 ) Erivahendi kasutamise juhtude registreerimise ja politseile teatamise kord kehtestatakse siseministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 5 ) Turvalitsentsi t&uuml;histamisel , turvaettev&otilde;tte l&otilde;ppemisel v&otilde;i l&otilde;petamisel ning sisevalveteenistuse likvideerimisel kuuluvad turvaettev&otilde;tte v&otilde;i sisevalveteenistuse omandis olevad erivahendid realiseerimisele kolme kuu jooksul , arvates litsentsi t&uuml;histamisest , turvaettev&otilde;tte l&otilde;ppemisest v&otilde;i l&otilde;petamisest ning sisevalveteenistuse likvideerimisest korras , mille kehtestab siseminister .</s><s>Juhul kui erivahendid realiseerib politseiasutus , h&uuml;vitab realiseerimise kulud turvateenistuse subjekt .</s>
+</p>
+<p>
+<s>( 6 ) Kui erivahendeid ei &otilde;nnestu realiseerida nimetatud t&auml;htaja jooksul , kuuluvad need h&auml;vitamisele korras , mille kehtestab siseminister .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Turvat&ouml;&ouml;taja vormiriietus ning dokumendid</s>
+</p>
+<p>
+<s>( 1 ) Turvat&ouml;&ouml;taja vormiriietuse kirjeldus ja kandmise kord kinnitatakse Vabariigi Valitsuse poolt kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Turvat&ouml;&ouml;tajal peab t&ouml;&ouml;&uuml;lesannete t&auml;itmisel kaasas olema turvat&ouml;&ouml;taja kaart , turvaettev&otilde;tte ja sisevalveteenistuse turvat&ouml;&ouml;tajal aga ka t&ouml;&ouml;t&otilde;end .</s><s>Samuti peab tal kaasas olema n&otilde;utav luba kaasasoleva relva v&otilde;i erivahendi kandmiseks v&otilde;i teenistuskoera kasutamiseks .</s>
+</p>
+<p>
+<s>( 28.06.95 j&otilde;ust.01.01.96 - RT I 1995 , 62 , 1056 )</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Turvat&ouml;&ouml;taja v&auml;lja&otilde;pe ja t&auml;ienduskoolitus</s>
+</p>
+<p>
+<s>( 1 ) Tegevuslitsents turvat&ouml;&ouml;taja v&auml;lja&otilde;ppe ja t&auml;ienduskoolitusega tegelemiseks antakse Vabariigi Valitsuse poolt kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Isikutel , kes tegelevad turvat&ouml;&ouml;tajate turvaalase v&auml;lja&otilde;ppe ja t&auml;ienduskoolitusega , peab olema turvaettev&otilde;tte v&otilde;i sisevalveteenistuse juhi v&otilde;i turvaala juhtivt&ouml;&ouml;taja kvalifikatsioonitunnistus ja politsei poolt v&auml;lja antud kehtiv turvat&ouml;&ouml;taja kaart ( paragrahv 9 ) .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Riiklik j&auml;relvalve turvateenistuse osutamise &uuml;le</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku j&auml;relevalvet turvateenuste osutamise n&otilde;uete t&auml;itmise &uuml;le teostab Politseiamet .</s><s>Politseiameti volitatud ametiisikutel on &otilde;igus peatada turvalitsentsi v&otilde;i turvat&ouml;&ouml;taja kaardi kehtivus kuni kuueks kuuks v&otilde;i nende kehtivus t&uuml;histada juhul , kui turvateenistuse subjekt v&otilde;i turvat&ouml;&ouml;taja :</s>
+</p>
+<p>
+<s>1 ) ei t&auml;ida k&auml;esoleva seaduse s&auml;tteid v&otilde;i tegutseb avalikku korda eirates v&otilde;i riigi julgeolekut ohustades ;</s>
+</p>
+<p>
+<s>2 ) ei vasta enam n&otilde;uetele , mis oli turvalitsentsi v&otilde;i turvat&ouml;&ouml;taja kaardi v&auml;ljaandmise aluseks ;</s>
+</p>
+<p>
+<s>3 ) kui turvaettev&otilde;tte v&otilde;i sisevalveteenistuse tegevus on katkenud rohkem kui kuueks kuuks .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>( 2 ) Turvalitsentsi v&otilde;i turvat&ouml;&ouml;taja kaardi v&auml;ljaandjal on &otilde;igus litsentsi v&otilde;i kaardi kehtivuse peatamise v&otilde;i t&uuml;histamise asemel teha turvateenistuse subjektile v&otilde;i turvat&ouml;&ouml;tajale kirjalik hoiatus , kui avastatud rikkumine on suhteliselt v&auml;ike v&otilde;i on toime pandud ettevaatamatuse t&otilde;ttu .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Turvateenistuse subjekti ja turvat&ouml;&ouml;taja vastutus</s>
+</p>
+<p>
+<s>Turvateenistuse subjekt ja turvat&ouml;&ouml;taja kannavad vastutust seaduses ja/v&otilde;i lepingus etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Turvat&ouml;&ouml;taja tagatised ja &otilde;iguslik kaitse</s>
+</p>
+<p>
+<s>( 1 ) Turvat&ouml;&ouml;tajale , kellele t&ouml;&ouml;&uuml;lesannete t&auml;itmisel tekitati seoses kallaletungiga kehavigastus , mis p&otilde;hjustas invaliidistumise , maksab t&ouml;&ouml;andja &uuml;hekordset toetust allj&auml;rgnevalt :</s>
+</p>
+<p>
+<s>1 ) I ja II grupi invaliidsuse korral - kahe ja poole aasta palga ulatuses ;</s>
+</p>
+<p>
+<s>2 ) III grupi invaliidsuse korral - &uuml;he aasta palga ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Turvat&ouml;&ouml;taja hukkumisel t&ouml;&ouml;&uuml;lesannete t&auml;itmisel kallaletungi tagaj&auml;rjel maksab t&ouml;&ouml;andja tema &uuml;lalpidamisel olevatele perekonnaliikmetele v&otilde;i omastele &uuml;hekordset toetust viie aasta palga ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. ja 2.l&otilde;ikes m&auml;rgitud toetuste arvutamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 4 ) Kellelgi pole &otilde;igust kohustada turvat&ouml;&ouml;tajat t&auml;itma seadusega vastuolus olevaid &uuml;lesandeid .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>V&auml;lisriigi turvateenistus</s>
+</p>
+<p>
+<s>V&auml;lisriigi turvateenistus v&otilde;ib Eestis ajutiselt osutada turvateenuseid v&otilde;i t&auml;ita turva&uuml;lesandeid Vabariigi Valitsuse poolt kehtestatud juhtudel ja korras .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>Seniste valveettev&otilde;tete , -talituste ja -t&ouml;&ouml;tajate tegevuse , valvet&ouml;&ouml;tajate v&auml;lja&otilde;ppe ja t&auml;ienduskoolituse ning neile esitatud n&otilde;uete k&auml;esoleva seadusega koosk&otilde;lla viimise korra ja t&auml;htajad kehtestab Vabariigi Valitsus , kusjuures koosk&otilde;lla viimise t&auml;htaeg ei v&otilde;i &uuml;letada &uuml;hte aastat , arvates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+</body>
+   </text>
+</tei.2>

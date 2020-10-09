@@ -1,0 +1,766 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Patendivoliniku seadus ( veebr 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3244</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Patendivoliniku seadus ( veebr 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=6></tagusage>
+         <tagusage gi=p occurs=220></tagusage>
+         <tagusage gi=s occurs=267></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Patendivoliniku seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 21. veebruaril 2001. a</s>
+</p>
+<p>
+<s>( RT I 2001 , 27 , 151 )</s>
+</p>
+<p>
+<s>j&otilde;ustunud 20. aprillil 2001. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab patendivoliniku tegevuse &otilde;iguslikud alused .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Patendivolinik</s>
+</p>
+<p>
+<s>( 1 ) Patendivolinik on isik , kes osutab &otilde;igusteenust t&ouml;&ouml;stusomandi alal ( edaspidi &otilde;igusteenus ) .</s>
+</p>
+<p>
+<s>( 2 ) Patendivolinikuna v&otilde;ib tegutseda isik , kellele on k&auml;esolevas seaduses s&auml;testatud alustel ja korras antud patendivoliniku kutse tegutsemiseks &uuml;hes v&otilde;i m&otilde;lemas patendivoliniku kutsetegevuse valdkonnas .</s>
+</p>
+<p>
+<s>( 3 ) Patendivoliniku kutsetegevuse valdkonnad on :</s>
+</p>
+<p>
+<s>1 ) leiutis ja mikrol&uuml;lituse topoloogia ;</s>
+</p>
+<p>
+<s>2 ) kaubam&auml;rk , t&ouml;&ouml;stusdisainilahendus ja geograafiline t&auml;his .</s>
+</p>
+<p>
+<s>( 4 ) Seadusega etten&auml;htud juhtudel v&otilde;ib isikule &otilde;igusteenust osutada &uuml;ksnes patendivolinik .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Volituse kehtivus</s>
+</p>
+<p>
+<s>( 1 ) Kui seadusega on ette n&auml;htud , et patendivolinik v&otilde;ib esitada volikirja p&auml;rast toimingu tegemist , loetakse volituse andmise p&auml;evaks toimingu tegemise p&auml;ev , s&otilde;ltumata volikirja allakirjutamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Volitus l&otilde;peb :</s>
+</p>
+<p>
+<s>1 ) kui patendivolinik loobub isiku esindamisest k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 4 nimetatud juhtudel ;</s>
+</p>
+<p>
+<s>2 ) kui patendivoliniku kohta tehtud registreeringu andmed kustutatakse riiklikust patendivolinike registrist ( edaspidi register ) ;</s>
+</p>
+<p>
+<s>3 ) patendivoliniku kutsetegevuse peatamise korral ;</s>
+</p>
+<p>
+<s>4 ) muudel seadusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud juhtudel peab patendivolinik teda volitanud isikut juhtunust viivitamata teavitama .</s>
+</p>
+<p>
+<s>( 4 ) Patendivoliniku surma v&otilde;i tema teov&otilde;imetuks tunnistamise v&otilde;i teov&otilde;ime piiramise korral peab patendivoliniku p&auml;rija v&otilde;i eestkostja , samuti patendivoliniku &auml;ri&uuml;hing viivitamata teavitama juhtunust majandusministrit v&otilde;i tema volitatud ametnikku .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Patendivoliniku kutsetegevus ja j&auml;relevalve patendivoliniku kutsetegevuse &uuml;le</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Patendivoliniku &otilde;igusp&auml;devus</s>
+</p>
+<p>
+<s>Oma kutsetegevuse valdkonnas on patendivolinik p&auml;dev :</s>
+</p>
+<p>
+<s>1 ) osutama &otilde;igusteenust ;</s>
+</p>
+<p>
+<s>2 ) esindama isikut riigiasutustes ja kohtus ning muudel juhtudel ;</s>
+</p>
+<p>
+<s>3 ) koguma t&otilde;endeid ;</s>
+</p>
+<p>
+<s>4 ) vabalt valima ja kasutama isikule &otilde;igusteenuse osutamisel seadusega etten&auml;htud vahendeid ja viise ;</s>
+</p>
+<p>
+<s>5 ) kinnitama asutustele esitatavate t&ouml;&ouml;stusomandialaste dokumentide t&otilde;lkeid ja &auml;rakirju .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.02.2002 - RT I 2001 , 93 , 565 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Patendivoliniku kohustused</s>
+</p>
+<p>
+<s>( 1 ) Patendivolinik on kohustatud :</s>
+</p>
+<p>
+<s>1 ) kasutama teda volitanud isiku huvides k&otilde;iki seadusega etten&auml;htud vahendeid ja viise , s&auml;ilitades kutseau ja v&auml;&auml;rikuse ;</s>
+</p>
+<p>
+<s>2 ) teavitama teda volitanud isikut &otilde;igusteenuse osutamisega seotud toimingutest ;</s>
+</p>
+<p>
+<s>3 ) pidama &otilde;igusteenuse osutamisega seotud toimingute nimekirja .</s>
+</p>
+<p>
+<s>( 2 ) Patendivolinik ei omanda isikule &otilde;igusteenust osutades tema &otilde;igusi .</s>
+</p>
+<p>
+<s>( 3 ) Patendivolinik ei v&otilde;i &otilde;igusteenust osutada isikule , kelle huvid on vastuolus teise isiku huvidega , kellele sama patendivolinik samas asjas &otilde;igusteenust osutab v&otilde;i on osutanud , samuti muudel seadusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 4 ) Patendivolinik v&otilde;ib oma algatusel loobuda isikule &otilde;igusteenuse osutamisest , kui isik on :</s>
+</p>
+<p>
+<s>1 ) esitanud n&otilde;ude , mille t&auml;itmiseks patendivolinik peab rikkuma seadust v&otilde;i kutse-eetika n&otilde;udeid ;</s>
+</p>
+<p>
+<s>2 ) j&auml;tnud korduvalt &otilde;igusteenuse eest t&auml;htaegselt tasumata ;</s>
+</p>
+<p>
+<s>3 ) oma tegevusega muutnud v&otilde;imatuks temale &otilde;igusteenuse osutamise ;</s>
+</p>
+<p>
+<s>4 ) kuritarvitanud patendivoliniku nime v&otilde;i kutset .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Patendivoliniku kutsetegevuse tagatised</s>
+</p>
+<p>
+<s>( 1 ) Patendivolinik on &otilde;igusteenust osutades s&otilde;ltumatu ja juhindub seadustest , samuti kutse-eetika n&otilde;uetest , headest kommetest ja s&uuml;dametunnistusest .</s>
+</p>
+<p>
+<s>( 2 ) Patendivolinikule usaldatud andmed on konfidentsiaalsed .</s><s>Asjaolude kohta , mis on patendivolinikule v&otilde;i patendivoliniku &auml;ri&uuml;hingu t&ouml;&ouml;tajale saanud teatavaks &otilde;igusteenust osutades , ei saa teda tunnistajana &uuml;le kuulata ega temalt seletust n&otilde;uda .</s>
+</p>
+<p>
+<s>( 3 ) Patendivolinikult v&otilde;i patendivoliniku &auml;ri&uuml;hingu t&ouml;&ouml;tajalt , samuti patendivoliniku &auml;ri&uuml;hingult ei v&otilde;i &auml;ra v&otilde;tta &otilde;igusteenuse osutamise k&auml;igus saadud teabekandjaid .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kutsesaladuse hoidmine</s>
+</p>
+<p>
+<s>( 1 ) Patendivolinik on kohustatud hoidma saladuses &otilde;igusteenust osutades temale teatavaks saanud &auml;risaladust .</s><s>Nimetatud kohustus ei ole ajaliselt piiratud ja kehtib ka p&auml;rast patendivoliniku kutsetegevuse l&otilde;ppemist .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kohustus kehtib ka patendivoliniku &auml;ri&uuml;hingu t&ouml;&ouml;taja , samuti avaliku teenistuja suhtes , kellele patendivoliniku kutsesaladus on teatavaks saanud seoses teenistuskohustuste t&auml;itmisega .</s>
+</p>
+<p>
+<s>( 3 ) Isik v&otilde;i tema &otilde;igusj&auml;rglane v&otilde;ib kirjaliku n&otilde;usolekuga vabastada patendivoliniku kutsesaladuse hoidmise kohustusest .</s>
+</p>
+<p>
+<s>( 4 ) Kutsesaladuse hoidmise kohustus ei laiene kulude sissen&otilde;udmisele patendivoliniku &otilde;igusteenuse eest .</s>
+</p>
+<p>
+<s>( 5 ) Kutsesaladuse rikkumiseks ei loeta andmete avaldamist patendivoliniku kutsetegevuse &uuml;le riiklikku j&auml;relevalvet teostavale ametiisikule .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Patendivoliniku kutsetegevuse viisid</s>
+</p>
+<p>
+<s>( 1 ) Patendivolinik v&otilde;ib tegutseda f&uuml;&uuml;silisest isikust ettev&otilde;tjana , patendivoliniku &auml;ri&uuml;hingu kaudu v&otilde;i , patendivoliniku kutset omades , teise isikuga s&otilde;lmitud t&ouml;&ouml;lepingu alusel .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;&uuml;silisest isikust ettev&otilde;tjana tegutseva patendivoliniku andmed peavad olema kantud &auml;riregistrisse .</s>
+</p>
+<p>
+<s>( 3 ) F&uuml;&uuml;silisest isikust ettev&otilde;tjana tegutsev patendivolinik v&otilde;i patendivoliniku &auml;ri&uuml;hing peab teatama registrile oma ja &auml;ri&uuml;hingu kontaktandmed .</s><s>Andmed patendivoliniku &auml;ri&uuml;hingu kaudu tegutsevate patendivolinike kohta edastab registrile &auml;ri&uuml;hing .</s><s>Patendivoliniku kutset omav teise isikuga s&otilde;lmitud t&ouml;&ouml;lepingu alusel tegutsev isik peab registrile teatama oma ja t&ouml;&ouml;andja kontaktandmed .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Patendivoliniku &auml;ri&uuml;hing</s>
+</p>
+<p>
+<s>( 1 ) Patendivoliniku &auml;ri&uuml;hing v&otilde;ib osutada vaid &otilde;igusteenust .</s>
+</p>
+<p>
+<s>( 2 ) Patendivoliniku &auml;ri&uuml;hing v&otilde;ib &uuml;hineda ainult teise patendivoliniku &auml;ri&uuml;hinguga .</s>
+</p>
+<p>
+<s>( 3 ) T&auml;is&uuml;hingu v&otilde;i usaldus&uuml;hinguna tegutseva patendivoliniku &auml;ri&uuml;hingu &uuml;hinguleping s&otilde;lmitakse kirjalikult ja see lisatakse &uuml;hingu &auml;riregistrisse kandmise avaldusele .</s>
+</p>
+<p>
+<s>( 4 ) Patendivoliniku &auml;ri&uuml;hingu v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tjana tegutseva patendivoliniku &auml;rinimes peab sisalduma s&otilde;na &ldquo; patendib&uuml;roo &rdquo; v&otilde;i &ldquo; patendivolinik &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Varaline vastutus</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igusteenuse osutamise korral vastutab patendivolinik s&uuml;&uuml;liselt tekitatud varalise kahju eest .</s>
+</p>
+<p>
+<s>( 2 ) Kui patendivolinik osutab &otilde;igusteenust patendivoliniku &auml;ri&uuml;hingu kaudu , vastutavad patendivolinik ja &auml;ri&uuml;hing k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kahju eest solidaarselt .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Patendivoliniku kutsekindlustus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 10 nimetatud kahju h&uuml;vitamise tagamiseks on patendivolinik v&otilde;i patendivoliniku &auml;ri&uuml;hing kohustatud s&otilde;lmima lepingu patendivoliniku vastutuse kindlustamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kindlustussumma alamm&auml;&auml;r on &uuml;ks miljon krooni .</s>
+</p>
+<p>
+<s>( 3 ) Kindlustusandjal on tagasin&otilde;ude&otilde;igus f&uuml;&uuml;silisest isikust ettev&otilde;tjana tegutseva patendivoliniku ja patendivoliniku &auml;ri&uuml;hingu v&otilde;i patendivoliniku vastu , kui kindlustush&uuml;vitis on v&auml;lja makstud patendivoliniku tahtliku teo tagaj&auml;rjel tekkinud kahju h&uuml;vitamiseks .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Patendivoliniku reklaam</s>
+</p>
+<p>
+<s>( 1 ) Patendivolinikul ja patendivoliniku &auml;ri&uuml;hingul on keelatud ennast ja oma tegevust reklaamida .</s>
+</p>
+<p>
+<s>( 2 ) Reklaamiks k&auml;esoleva seaduse t&auml;henduses ei loeta teavet patendivoliniku ja patendivoliniku &auml;ri&uuml;hingu nime , kutsetegevuse valdkondade , kontaktandmete ega patendivoliniku &auml;ri&uuml;hingu t&ouml;&ouml;tajate kohta .</s>
+</p>
+<p>
+<s>( 3 ) Teave k&otilde;ikide patendivolinike ja patendivoliniku &auml;ri&uuml;hingute nimede , tegevusvaldkondade ning kontaktandmete kohta avaldab Patendiamet oma ametlikus v&auml;ljaandes ja registri Interneti-lehel .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Riiklik j&auml;relevalve patendivoliniku kutsetegevuse &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku j&auml;relevalvet patendivoliniku kutsetegevuse &uuml;le teostab majandusminister v&otilde;i tema volitatud ametnik .</s>
+</p>
+<p>
+<s>( 2 ) Patendivolinik , kelle kutsetegevuse &uuml;le riiklikku j&auml;relevalvet teostatakse , on majandusministri v&otilde;i tema volitatud ametniku n&otilde;udel kohustatud :</s>
+</p>
+<p>
+<s>1 ) ilmuma Majandusministeeriumi ;</s>
+</p>
+<p>
+<s>2 ) esitama majandusministrile v&otilde;i tema volitatud ametnikule patendivoliniku kutsetegevusega , samuti sellega seonduva patendivoliniku &auml;ri&uuml;hingu asjaajamisega seotud dokumendid ;</s>
+</p>
+<p>
+<s>3 ) andma selgitusi patendivoliniku kutsetegevuse kohta .</s>
+</p>
+<p>
+<s>( 3 ) Majandusminister v&otilde;i tema volitatud ametnik v&otilde;ib :</s>
+</p>
+<p>
+<s>1 ) teha patendivolinikule hoiatuse ja n&otilde;uda , et patendivolinik k&otilde;rvaldaks kutsetegevuses ilmnenud puudused majandusministri v&otilde;i tema volitatud ametniku m&auml;&auml;ratud t&auml;htaja jooksul ;</s>
+</p>
+<p>
+<s>2 ) peatada patendivoliniku kutsetegevuse k&auml;esoleva seaduse &sect;-s 19 s&auml;testatud juhtudel ;</s>
+</p>
+<p>
+<s>3 ) teha patendivoliniku kutse &auml;rav&otilde;tmise otsuse k&auml;esoleva seaduse &sect;-s 20 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Patendivoliniku kutse andmine</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Patendivoliniku kutse andmise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Patendivoliniku kutse v&otilde;ib saada isik , kes :</s>
+</p>
+<p>
+<s>1 ) on teov&otilde;imeline ;</s>
+</p>
+<p>
+<s>2 ) on Eesti v&otilde;i Euroopa Liidu liikmesriigi kodanik ja kelle p&uuml;siv elukoht on Eestis ;</s>
+</p>
+<p>
+<s>3 ) omab k&otilde;rgharidust ;</s>
+</p>
+<p>
+<s>4 ) valdab k&otilde;nes ja kirjas eesti keelt ;</s>
+</p>
+<p>
+<s>5 ) on t&ouml;&ouml;tanud enne patendivoliniku kutse taotlemist selles valdkonnas , milles ta kutset taotleb , v&auml;hemalt viimased neli aastat patendivoliniku juures v&otilde;i patendivoliniku &auml;ri&uuml;hingus ;</s>
+</p>
+<p>
+<s>6 ) valdab patendivoliniku kutsetegevuseks vajalikus ulatuses kahte v&otilde;&otilde;rkeelt , millest v&auml;hemalt &uuml;ks on Euroopa Patendiameti ametlik t&ouml;&ouml;keel ;</s>
+</p>
+<p>
+<s>7 ) ei ole kriminaalkorras karistatud tahtlikult toimepandud kuriteo eest .</s>
+</p>
+<p>
+<s>( 2 ) Patendivoliniku juures v&otilde;i patendivoliniku &auml;ri&uuml;hingus t&ouml;&ouml;tamise aja hulka arvestatakse Patendiametis vastavas valdkonnas t&ouml;&ouml;tamise aeg , kuid mitte rohkem kui kaks aastat .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Patendivoliniku kutsekomisjon</s>
+</p>
+<p>
+<s>( 1 ) Patendivoliniku kutse andmiseks moodustab majandusminister v&auml;hemalt kuueliikmelise patendivoliniku kutsekomisjoni ( edaspidi komisjon ) , kinnitab selle koosseisu ning m&auml;&auml;rab komisjoni esimehe .</s>
+</p>
+<p>
+<s>( 2 ) Komisjoni koosseisu m&auml;&auml;ratakse kaks Patendiameti teenistujat ja kaks patendivolinikku .</s>
+</p>
+<p>
+<s>( 3 ) Komisjon on p&auml;dev otsustama , kui otsustamises osaleb komisjoni esimees v&otilde;i esimehe &auml;raolekul komisjoni liige , kelle komisjoni esimees on m&auml;&auml;ranud ennast asendama , ning v&auml;hemalt neli komisjoni liiget .</s>
+</p>
+<p>
+<s>( 4 ) Komisjoni otsused v&otilde;etakse vastu lihth&auml;&auml;lteenamusega .</s><s>H&auml;&auml;lte v&otilde;rdsel jaotumisel on otsustavaks komisjoni esimehe v&otilde;i teda asendava komisjoni liikme h&auml;&auml;l .</s>
+</p>
+<p>
+<s>( 5 ) Komisjoni p&otilde;him&auml;&auml;ruse kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 6 ) Komisjoni tegevust finantseeritakse riigieelarvest Majandusministeeriumi eelarve kaudu .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Patendivoliniku kutse taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Patendivoliniku kutse taotleja esitab komisjonile :</s>
+</p>
+<p>
+<s>1 ) kirjaliku avalduse ;</s>
+</p>
+<p>
+<s>2 ) dokumendid , mis t&otilde;endavad k&auml;esoleva seaduse &sect; 14 l&otilde;ike 1 punktides 2 , 3 ja 5 s&auml;testatud n&otilde;uetele vastavust ;</s>
+</p>
+<p>
+<s>3 ) patendivoliniku juures t&ouml;&ouml;tamise ajal tehtud toimingute aruande tema poolt tehtud t&ouml;&ouml;stusomandialastest toimingutest ( edaspidi aruanne ) ;</s>
+</p>
+<p>
+<s>4 ) riigil&otilde;ivu tasumist t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 2 ) Patendivoliniku kutse taotlemise avaldus peab sisaldama v&auml;hemalt :</s>
+</p>
+<p>
+<s>1 ) &uuml;hte k&auml;esoleva seaduse &sect; 2 l&otilde;ikes 3 nimetatud valdkonda , milles tegutsemiseks kutset taotletakse ;</s>
+</p>
+<p>
+<s>2 ) kutse taotleja kinnitust selle kohta , et ta vastab k&auml;esoleva seaduse &sect; 14 l&otilde;ike 1 punktides 1 , 4 , 6 ja 7 s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Kui patendivoliniku kutse taotlemise avaldus v&otilde;i aruanne ei vasta k&auml;esolevas paragrahvis s&auml;testatud n&otilde;uetele , teeb komisjon patendivoliniku kutse taotlemise avalduse menetlusse v&otilde;tmisest keeldumise otsuse ja saadab selle kutse taotlejale viie t&ouml;&ouml;p&auml;eva jooksul otsuse tegemise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Patendivoliniku kutseeksam</s>
+</p>
+<p>
+<s>( 1 ) Patendivoliniku kutseeksam ( edaspidi eksam ) on patendivoliniku kutse taotleja teadmiste kontrollimine patendivoliniku kutsetegevuse valdkonnas , milles ta kutset taotleb .</s>
+</p>
+<p>
+<s>( 2 ) Eksam toimub vastavalt vajadusele , kuid mitte harvemini kui &uuml;ks kord aastas .</s>
+</p>
+<p>
+<s>( 3 ) Eksami toimumise aja ja koha m&auml;&auml;rab komisjon .</s>
+</p>
+<p>
+<s>( 4 ) Eksam on kirjalik .</s><s>Eksam koosneb eksamineeritava teoreetiliste teadmiste kontrollimisest ja t&ouml;&ouml;stusomandialaste kaasus&uuml;lesannete lahendamisest .</s>
+</p>
+<p>
+<s>( 5 ) Eksamitulemust hinnatakse hindega &uuml;hest k&uuml;mneni .</s>
+</p>
+<p>
+<s>( 6 ) Eksamihinne on komisjoniliikmete antud hinnete keskmine , mis &uuml;mardatakse t&auml;isarvuks .</s><s>Hinne alla viie loetakse mitterahuldavaks .</s>
+</p>
+<p>
+<s>( 7 ) Kui eksamineeritav on saanud mitterahuldava hinde , ei ole patendivoliniku kutse taotleja eksamit sooritanud .</s>
+</p>
+<p>
+<s>( 8 ) Kui patendivoliniku kutse taotleja ei sooritanud eksamit , v&otilde;ib ta eksami uuesti teha kolme kuu p&auml;rast .</s>
+</p>
+<p>
+<s>( 9 ) Kolmandat v&otilde;i enamat korda v&otilde;ib patendivoliniku kutse taotleja teha eksami viimasest eksamist kolme aasta m&ouml;&ouml;dumisel .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Otsus</s>
+</p>
+<p>
+<s>( 1 ) Komisjon teeb patendivoliniku kutse andmise otsuse , kui patendivoliniku kutse taotleja :</s>
+</p>
+<p>
+<s>1 ) vastab k&auml;esoleva seaduse &sect; 14 l&otilde;ike 1 punktides 2 , 3 ja 5 s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) on kinnitanud oma vastavust k&auml;esoleva seaduse &sect; 14 l&otilde;ike 1 punktides 1 , 4 , 6 ja 7 s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>3 ) on sooritanud eksami .</s>
+</p>
+<p>
+<s>( 2 ) Komisjon teeb patendivoliniku kutse andmisest keeldumise otsuse , kui patendivoliniku kutse taotleja ei vasta k&auml;esoleva seaduse &sect; 14 l&otilde;ikes 1 s&auml;testatud n&otilde;uetele v&otilde;i ei soorita eksamit .</s>
+</p>
+<p>
+<s>( 3 ) Patendivoliniku kutse andmise otsus j&otilde;ustub patendivoliniku kutse andmise otsuse registreeringu tegemisel registris .</s>
+</p>
+<p>
+<s>( 4 ) Patendivoliniku kutse andmisest keeldumise otsus j&otilde;ustub selle tegemise p&auml;evast .</s>
+</p>
+<p>
+<s>( 5 ) Patendivoliniku kutse andmise otsuse &auml;rakiri saadetakse patendivoliniku kutse taotlejale ja registrile kolme t&ouml;&ouml;p&auml;eva jooksul patendivoliniku kutse andmise otsuse tegemise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 6 ) Patendivoliniku kutse andmisest keeldumise otsuse &auml;rakiri saadetakse patendivoliniku kutse taotlejale kolme t&ouml;&ouml;p&auml;eva jooksul patendivoliniku kutse andmisest keeldumise otsuse j&otilde;ustumise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 7 ) Patendivoliniku kutse taotlemise eest tasutud riigil&otilde;ivu ei tagastata .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Patendivoliniku kutsetegevuse peatamine ja taastamine</s>
+</p>
+<p>
+<s>( 1 ) Patendivoliniku kutsetegevus peatatakse , kui :</s>
+</p>
+<p>
+<s>1 ) patendivolinik ei saa tervislikel v&otilde;i muudel p&otilde;hjustel t&auml;ita patendivoliniku kohustusi j&auml;rjest rohkem kui kuus kuud ;</s>
+</p>
+<p>
+<s>2 ) patendivolinik on pankrotiv&otilde;lgnik ;</s>
+</p>
+<p>
+<s>3 ) patendivoliniku &auml;ri&uuml;hing , mille kaudu patendivolinik osutab &otilde;igusteenust , on pankrotiv&otilde;lgnik ;</s>
+</p>
+<p>
+<s>4 ) patendivolinik on registrile esitanud peatamise taotluse .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktides 2-4 nimetatud juhtudel peab patendivolinik esitama majandusministrile v&otilde;i tema volitatud ametnikule patendivoliniku kutsetegevuse peatamise avalduse ja peatamise alust t&otilde;endava dokumendi viie t&ouml;&ouml;p&auml;eva jooksul kutsetegevuse peatamise aluse tekkimise p&auml;evast arvates .</s><s>Patendivolinik peab teavitama tema esitatud patendivoliniku kutsetegevuse peatamise avaldusest isikuid , kellele ta osutab &otilde;igusteenust , viie t&ouml;&ouml;p&auml;eva jooksul kutsetegevuse peatamise aluse tekkimise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 3 ) Patendivoliniku kutsetegevuse peatamise otsuse teeb majandusminister v&otilde;i tema volitatud ametnik viie t&ouml;&ouml;p&auml;eva jooksul patendivoliniku kutsetegevuse peatamise avalduse esitamise p&auml;evast arvates v&otilde;i 10 t&ouml;&ouml;p&auml;eva jooksul patendivoliniku kutsetegevuse peatamise aluse tekkimise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 4 ) Patendivoliniku kutsetegevuse peatamise otsuse &auml;rakiri saadetakse patendivolinikule ja registrile kolme t&ouml;&ouml;p&auml;eva jooksul patendivoliniku kutsetegevuse peatamise otsuse tegemise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 5 ) Patendivoliniku kutsetegevuse taastamiseks esitab patendivolinik majandusministrile v&otilde;i tema volitatud ametnikule avalduse ja dokumendid , mis t&otilde;endavad , et kutsetegevuse peatamise alus on &auml;ra langenud .</s>
+</p>
+<p>
+<s>( 6 ) Majandusminister v&otilde;i tema volitatud ametnik teeb avalduse alusel patendivoliniku kutsetegevuse taastamise v&otilde;i taastamisest keeldumise otsuse .</s>
+</p>
+<p>
+<s>( 7 ) Kui patendivoliniku kutse on peatatud enamaks kui viis aastat , taastatakse patendivoliniku kutse p&auml;rast k&auml;esoleva seaduse &sect;-s 17 nimetatud eksami sooritamist .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Patendivoliniku kutse &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Patendivoliniku kutse v&otilde;etakse &auml;ra , kui patendivolinik :</s>
+</p>
+<p>
+<s>1 ) on patendivoliniku kutsetegevuses rikkunud seadust ;</s>
+</p>
+<p>
+<s>2 ) ei ole korduvalt t&auml;itnud k&auml;esoleva seaduse &sect; 5 l&otilde;ikes 1 s&auml;testatud kohustusi ;</s>
+</p>
+<p>
+<s>3 ) ei vasta k&auml;esoleva seaduse &sect; 14 l&otilde;ikes 1 s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>4 ) esitab patendivoliniku kutsest loobumise avalduse .</s>
+</p>
+<p>
+<s>( 2 ) Majandusminister v&otilde;i tema volitatud ametnik teeb patendivoliniku kutse &auml;rav&otilde;tmise otsuse 10 t&ouml;&ouml;p&auml;eva jooksul patendivoliniku kutse &auml;rav&otilde;tmise alusest teada saamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 3 ) Patendivoliniku kutse &auml;rav&otilde;tmise otsus j&otilde;ustub patendivoliniku kutse &auml;rav&otilde;tmise otsuse registreeringu tegemisel registris .</s>
+</p>
+<p>
+<s>( 4 ) Patendivoliniku kutse &auml;rav&otilde;tmise otsuse &auml;rakiri saadetakse patendivolinikule ja registrile kolme t&ouml;&ouml;p&auml;eva jooksul patendivoliniku kutse &auml;rav&otilde;tmise otsuse tegemise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Riiklik patendivolinike register</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Registri asutamine</s>
+</p>
+<p>
+<s>( 1 ) Registri asutab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 2 ) Registri p&otilde;him&auml;&auml;ruse kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Registri pidamine</s>
+</p>
+<p>
+<s>( 1 ) Registri vastutav t&ouml;&ouml;tleja on Patendiamet .</s>
+</p>
+<p>
+<s>( 2 ) Registrikanded on :</s>
+</p>
+<p>
+<s>1 ) registreeringu andmete kanne ,</s>
+</p>
+<p>
+<s>2 ) registreeringu andmete muutmise kanne ja</s>
+</p>
+<p>
+<s>3 ) registreeringu kustutamise kanne .</s>
+</p>
+<p>
+<s>( 3 ) Registrikanne tehakse komisjoni , majandusministri v&otilde;i tema volitatud ametniku v&otilde;i kohtu otsuse alusel viie t&ouml;&ouml;p&auml;eva jooksul registrikande aluseks olevate dokumentide registrisse j&otilde;udmise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 4 ) Registrikanne j&otilde;ustub selle tegemise p&auml;eval .</s>
+</p>
+<p>
+<s>( 5 ) Registrikande teade avaldatakse Patendiameti ametlikus v&auml;ljaandes .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Registri avalikkus ja teabe v&auml;ljastamine</s>
+</p>
+<p>
+<s>( 1 ) Register on avalik .</s><s>Iga&uuml;hel on &otilde;igus tutvuda registrikannetega ja saada neist &auml;rakirju .</s>
+</p>
+<p>
+<s>( 2 ) Registrist kirjaliku teabe v&auml;ljastamise eest v&otilde;etakse riigil&otilde;ivu , v&auml;lja arvatud teabe v&auml;ljastamise eest j&auml;relevalve&otilde;iguslikule ametiisikule v&otilde;i kohtule .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Registreeringu andmed</s>
+</p>
+<p>
+<s>Registreeringu andmed on :</s>
+</p>
+<p>
+<s>1 ) patendivoliniku registrinumber ;</s>
+</p>
+<p>
+<s>2 ) patendivoliniku nimi , isikukood ja kontaktandmed ;</s>
+</p>
+<p>
+<s>3 ) andmed patendivoliniku hariduse kohta ;</s>
+</p>
+<p>
+<s>4 ) patendivoliniku kutsetegevuse valdkond ;</s>
+</p>
+<p>
+<s>5 ) v&otilde;&otilde;rkeeled , mida patendivolinik valdab kutsetegevuseks vajalikus ulatuses ;</s>
+</p>
+<p>
+<s>6 ) patendivoliniku kutse andmise otsuse tegemise p&auml;ev ;</s>
+</p>
+<p>
+<s>7 ) patendivoliniku v&otilde;i patendivoliniku &auml;ri&uuml;hingu , mille kaudu patendivolinik tegutseb , &auml;riregistri registrikaardi andmed , tegevuskoha aadress ja muud kontaktandmed ;</s>
+</p>
+<p>
+<s>8 ) andmed patendivoliniku kutsetegevuse peatamise , patendivoliniku kutsetegevuse taastamise , patendivoliniku kutsetegevuse taastamisest keeldumise ja patendivoliniku kutse &auml;rav&otilde;tmise otsuse kohta .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Seaduse kohaldamine enne k&auml;esoleva seaduse j&otilde;ustumist registrisse kantud patendivolinike suhtes</s>
+</p>
+<p>
+<s>Eesti Vabariigi riiklikku patendivolinike registrisse kantud patendivolinikud registreeritakse &uuml;mber k&auml;esoleva seaduse alusel asutatud registris samades tegevusvaldkondades , milles neil oli &otilde;igus tegutseda enne k&auml;esoleva seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Riigil&otilde;iv</s>
+</p>
+<p>
+<s>K&auml;esolevas seaduses etten&auml;htud toimingute sooritamise eest v&otilde;etakse riigil&otilde;ivu riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; 2000 , 5 , 32 ; 10 , 58 ; 19 , 117 ; 26 , 150 ; 29 , 168 ja 169 ; 39 , 237 ; 49 , 300 ; 54 , 346 ja 349 ; 55 , 365 ; 57 , 372 ja 373 ; 59 , 379 ; 60 , &otilde;iend ; 78 , 498 ; 84 , 534 ; 92 , 597 ja 598 ; 95 , 607 ja 611 ; 2001 , 2 , 2 ; 3 , 4 ; 16 , 69 ja 72 ) s&auml;testatud m&auml;&auml;rade j&auml;rgi .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Riigil&otilde;ivuseaduse muutmine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseadust ( RT I 1997 , 80 , 1344 ; 2000 , 5 , 32 ; 10 , 58 ; 19 , 117 ; 26 , 150 ; 29 , 168 ja 169 ; 39 , 237 ; 49 , 300 ; 54 , 346 ja 349 ; 55 , 365 ; 57 , 372 ja 373 ; 59 , 379 ; 60 , &otilde;iend ; 78 , 498 ; 84 , 534 ; 92 , 597 ja 598 ; 95 , 607 ja 611 ; 2001 , 2 , 2 ; 3 , 4 ; 16 , 69 ja 72 ) t&auml;iendatakse &sect;-dega 147 <hi rend="sup">18</hi> ja 147 <hi rend="sup">19</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 147 <hi rend="sup">18</hi> .</s><s>Patendivoliniku kutse taotlemine</s>
+</p>
+<p>
+<s>Patendivoliniku kutse taotlemise avalduse esitamise eest tasutakse riigil&otilde;ivu 1000 krooni iga avalduses m&auml;rgitud t&ouml;&ouml;stusomandi valdkonna eest .</s>
+</p>
+<p>
+<s>&sect; 147 <hi rend="sup">19</hi> .</s><s>Teabe v&auml;ljastamine riiklikust patendivolinike registrist</s>
+</p>
+<p>
+<s>Kirjaliku teabe v&auml;ljastamise eest riiklikust patendivolinike registrist tasutakse riigil&otilde;ivu 120 krooni iga dokumendi eest . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Kaubam&auml;rgiseaduse muutmine</s>
+</p>
+<p>
+<s>Kaubam&auml;rgiseaduses ( RT 1992 , 35 , 459 ; RT I 1998 , 15 , 231 ; 1999 , 93 , 834 ; 102 , 907 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 9 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Taotleja v&otilde;ib kaubam&auml;rgi registreerimise taotluse esitada ja ajada kaubam&auml;rgi registreerimisega ning registreeringu j&otilde;ushoidmisega seotud asju ise v&otilde;i patendivoliniku kaudu .</s><s>V&auml;lisriikide f&uuml;&uuml;silised ja juriidilised isikud ajavad kaubam&auml;rgi Eesti Vabariigis registreerimise ja registreeringu j&otilde;ushoidmisega seotud asju ainult patendivoliniku kaudu . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahv 9 <hi rend="sup">1</hi> tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Patendiseaduse muutmine</s>
+</p>
+<p>
+<s>Patendiseaduse ( RT I 1994 , 25 , 406 ; 1998 , 74 , 1227 ; 107 , 1768 ; 1999 , 84 , 764 ) &sect; 20 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Patenditaotleja v&otilde;ib esitada patenditaotluse ning ajada patendi taotlemise ja patendi j&otilde;ushoidmisega seotud asju ise v&otilde;i patendivoliniku kaudu . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Kasuliku mudeli seaduse muutmine</s>
+</p>
+<p>
+<s>Kasuliku mudeli seaduse ( RT I 1994 , 25 , 407 ; 2000 , 60 , 388 ) &sect; 18 <hi rend="sup">1</hi> l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Kasuliku mudeli registreerimise ja registreeringu j&otilde;ushoidmisega seotud toiminguid teostab taotleja v&otilde;i tema volitatud patendivolinik . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>T&ouml;&ouml;stusdisaini kaitse seaduse muutmine</s>
+</p>
+<p>
+<s>T&ouml;&ouml;stusdisaini kaitse seaduse ( RT I 1997 , 87 , 1466 ; 1998 , 108/109 , 1783 ) &sect; 25 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) T&ouml;&ouml;stusdisainilahenduse registreerimise ja registreeringu j&otilde;ushoidmisega seotud toiminguid teostab taotleja v&otilde;i tema volitatud patendivolinik . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Mikrol&uuml;lituse topoloogia kaitse seaduse muutmine</s>
+</p>
+<p>
+<s>Mikrol&uuml;lituse topoloogia kaitse seaduse ( RT I 1998 , 108/109 , 1783 ) &sect; 19 l&otilde;ike 1 punkt 4 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 4 ) volikiri , kui registreerimistaotlus esitatakse patendivoliniku kaudu v&otilde;i kui taotlejatel on &uuml;hine esindaja . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Geograafilise t&auml;hise kaitse seaduse muutmine</s>
+</p>
+<p>
+<s>Geograafilise t&auml;hise kaitse seaduse ( RT I 1999 , 102 , 907 ; 2000 , 40 , 252 ) &sect; 28 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Geograafilise t&auml;hise registreerimise ja registreeringu j&otilde;ushoidmisega seotud toiminguid teostab taotleja v&otilde;i tema volitatud patendivolinik . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub &uuml;he kuu m&ouml;&ouml;dumisel Riigi Teatajas avaldamise p&auml;evast .</s>
+</p>
+</body>
+   </text>
+</tei.2>

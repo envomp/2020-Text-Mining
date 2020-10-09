@@ -1,0 +1,909 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Keskkonnaj&auml;relevalve seadus ( okt 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    5512</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Keskkonnaj&auml;relevalve seadus ( okt 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=268></tagusage>
+         <tagusage gi=s occurs=328></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Keskkonnaj&auml;relevalve seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 6. juunil 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 56 , 337 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 7. juulil 2001. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus m&auml;&auml;ratleb keskkonnaj&auml;relevalve olemuse ja kehtestab keskkonnaj&auml;relevalvet teostavate , samuti keskkonnaj&auml;relevalvele allutatud isikute ning asutuste &otilde;igused ja kohustused ning j&auml;relevalvetoimingute korra .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Keskkonnaj&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnaj&auml;relevalve on :</s>
+</p>
+<p>
+<s>1 ) loodusressursse kasutava isiku v&otilde;i asutuse tegevuse seaduslikkuse kontrollimine ning ebaseadusliku tegevuse peatamine v&otilde;i l&otilde;petamine ;</s>
+</p>
+<p>
+<s>2 ) keskkonna seisundit m&otilde;jutava v&otilde;i m&otilde;jutada v&otilde;iva isiku v&otilde;i asutuse tegevuse seaduslikkuse kontrollimine , sealhulgas saasteainete , j&auml;&auml;tmete , energia v&otilde;i organismide keskkonda viimise seaduslikkuse kontrollimine ning ebaseadusliku tegevuse peatamine v&otilde;i l&otilde;petamine ;</s>
+</p>
+<p>
+<s>3 ) loodussaaduste valdamise ja nendega sooritatavate tehingute seaduslikkuse kontrollimine ning ebaseadusliku tegevuse peatamine v&otilde;i l&otilde;petamine ;</s>
+</p>
+<p>
+<s>4 ) keskkonda m&otilde;jutava v&otilde;i m&otilde;jutada v&otilde;iva ehitise , tehnov&otilde;rgu v&otilde;i seadme kasutamise v&otilde;i tehnoloogilise protsessi seaduslikkuse kontrollimine ning ebaseadusliku tegevuse peatamine ;</s>
+</p>
+<p>
+<s>5 ) planeeringu- , maakasutuse , maakorralduse ja maa-arvestuse n&otilde;uetest kinnipidamise kontrollimine ning seaduses s&auml;testatud abin&otilde;ude rakendamine n&otilde;uetest kinnipidamise tagamiseks ;</s>
+</p>
+<p>
+<s>6 ) kohustuslike keskkonnakaitseabin&otilde;ude rakendamise kontrollimine ning kohustuste t&auml;itmata j&auml;tmisel seaduses s&auml;testatud abin&otilde;ude rakendamine nende t&auml;itmise tagamiseks ;</s>
+</p>
+<p>
+<s>7 ) taime , looma v&otilde;i muu organismi , mille kasutamine on reguleeritud seadusega v&otilde;i rahvusvahelise lepinguga , v&otilde;i nendest valmistatud toodete Eestisse sisse- v&otilde;i v&auml;ljaveo , kasutamise v&otilde;i nendega sooritatavate tehingute , samuti geneetiliselt muundatud organismide ja neid sisaldavate toodete kasutamise v&otilde;i selliste organismide v&otilde;i toodetega sooritatavate tehingute kontrollimine ning ebaseadusliku tegevuse peatamine v&otilde;i l&otilde;petamine .</s>
+</p>
+<p>
+<s>( 2 ) Loodussaadus k&auml;esoleva seaduse t&auml;henduses on looduslikust leiu- , kasvu- v&otilde;i elukohast eemaldatud :</s>
+</p>
+<p>
+<s>1 ) maavara , vesi , muld , maa-aines , kivistis ja mineraal ;</s>
+</p>
+<p>
+<s>2 ) looduses vabalt elavad v&otilde;i kasvavad loomad ja taimed , sealhulgas puud ja kalad , ning seened v&otilde;i nende osad v&otilde;i nende mis tahes arenguj&auml;rgus isendid .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Keskkonnaj&auml;relevalve asutused ja nende &uuml;lesanded</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Keskkonnaj&auml;relevalve teostajad</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnaj&auml;relevalvet teostavad Keskkonnainspektsioon , Maa-amet ja kohalik omavalitsusorgan v&otilde;i -asutus .</s>
+</p>
+<p>
+<s>( 2 ) Seadusega v&otilde;idakse ka teistele valitsusasutustele anda keskkonnaj&auml;relevalve &uuml;lesandeid .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Keskkonnainspektsioon keskkonnaj&auml;relevalve teostajana</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnainspektsioon tegutseb keskkonnakaitse k&otilde;igis valdkondades .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnainspektsioon :</s>
+</p>
+<p>
+<s>1 ) rakendab seaduses s&auml;testatud abin&otilde;usid ebaseadusliku tegevuse t&otilde;kestamiseks ja kohustuslike keskkonnakaitseabin&otilde;ude elluviimiseks ;</s>
+</p>
+<p>
+<s>2 ) peatab nii keskkonda kahjustava v&otilde;i ohustava &otilde;igusvastase tegevuse kui ka loodusressursi kasutamisega seotud &otilde;igusp&auml;rase tegevuse , kui see seab ohtu inimeste elu , tervise v&otilde;i vara ;</s>
+</p>
+<p>
+<s>3 ) korraldab selguseta kuuluvusega loodussaaduse ja selguseta kuuluvusega loodussaaduse hankimise vahendi v&otilde;i riista hoidmist , m&uuml;&uuml;mist , tagastamist seaduslikule valdajale v&otilde;i h&auml;vitamist .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Maa-amet keskkonnaj&auml;relevalve teostajana</s>
+</p>
+<p>
+<s>Maa-amet rakendab seaduses s&auml;testatud abin&otilde;usid maakasutuse , maakorralduse ja maa-arvestuse n&otilde;uete ning maareformi toimingute seaduslikkuse kontrollimiseks ja ebaseadusliku tegevuse peatamiseks v&otilde;i l&otilde;petamiseks .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Omavalitsuslik keskkonnaj&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Kohaliku omavalitsus&uuml;ksuse volikogu kehtestatud keskkonnakaitse- ja -kasutusalaste otsuste j&auml;rgimist kontrollivad volikogu poolt selleks volitatud isikud v&otilde;i asutused , v&otilde;i kui neid ei ole m&auml;&auml;ratud , valla- ja linnavalitsus .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohalikule omavalitsus&uuml;ksusele on pandud seadusega ka k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetamata keskkonnaj&auml;relevalve &uuml;lesandeid , v&otilde;i kui ta on need endale seaduse alusel ise v&otilde;tnud , m&auml;&auml;rab volikogu ka nende teostamiseks vajalikud isikud v&otilde;i asutused v&otilde;i teostab j&auml;relevalvet valla- v&otilde;i linnavalitsus .</s>
+</p>
+<p>
+<s>( 3 ) Kohalik omavalitsus&uuml;ksus :</s>
+</p>
+<p>
+<s>1 ) rakendab seaduses s&auml;testatud abin&otilde;usid ebaseadusliku tegevuse t&otilde;kestamiseks ja kohustuslike keskkonnakaitseabin&otilde;ude elluviimiseks ;</s>
+</p>
+<p>
+<s>2 ) teavitab Keskkonnainspektsiooni keskkonda kahjustavast v&otilde;i ohustavast &otilde;igusvastasest tegevusest v&otilde;i loodusressursi kasutamisega seotud &otilde;igusp&auml;rasest tegevusest , kui selline tegevus seab ohtu inimeste elu , tervise v&otilde;i vara , ning Maa-ametit maakasutuse , maakorralduse , maa-arvestuse ning maareformi toimingute n&otilde;uete rikkumise juhtumitest .</s>
+</p>
+<p>
+<s>( 4 ) Kui kohaliku omavalitsus&uuml;ksuse volikogu ei ole otsustanud teisiti , toimub k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud keskkonnaj&auml;relevalve samaselt riigiasutuse korraldatava j&auml;relevalvega ning j&auml;relevalve teostajal on oma haldusterritooriumil v&otilde;rdsed &otilde;igused riigi keskkonnaj&auml;relevalve asutuse ja keskkonnakaitseinspektoriga .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Keskkonnainspektsiooni ja Maa-ameti j&auml;relevalvep&auml;devus kohaliku omavalitsus&uuml;ksuse tegevuse &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnainspektsioonil on &otilde;igus kontrollida seadusega kohalikule omavalitsus&uuml;ksusele pandud v&otilde;i kohaliku omavalitsus&uuml;ksuse poolt halduslepinguga v&otilde;etud keskkonnakaitse- ja -kasutusalaste &uuml;lesannete t&auml;itmist ning kohaliku omavalitsus&uuml;ksuse volikogu ja valitsuse keskkonnakaitse- ja -kasutusalaste &uuml;ksikaktide seaduslikkust , Maa-ametil on &otilde;igus kontrollida toiminguid maakorralduse , maade eraldamise , arvestuse ja kasutuse ning maareformi valdkonnas ning kohaliku omavalitsus&uuml;ksuse volikogu ja valitsuse vastavate &uuml;ksikaktide seaduslikkust .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnainspektsioonil ja Maa-ametil on &otilde;igus n&otilde;uda kohaliku omavalitsus&uuml;ksuse volikogu ja valitsuse poolt antud , k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &uuml;ksikakti &auml;rakirja , Keskkonnainspektsioonil on &otilde;igus n&otilde;uda antud keskkonnaloa &auml;rakirja .</s>
+</p>
+<p>
+<s>( 3 ) Kohaliku omavalitsus&uuml;ksuse volikogu ja valitsus on k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud &auml;rakirja kohustatud esitama hiljemalt seitsmendal p&auml;eval , arvates Keskkonnainspektsiooni v&otilde;i Maa-ameti kirjaliku n&otilde;ude saamisest .</s>
+</p>
+<p>
+<s>( 4 ) Kui Keskkonnainspektsioon v&otilde;i Maa-amet leiab , et kohaliku omavalitsus&uuml;ksuse volikogu v&otilde;i valitsuse &uuml;ksikakt v&otilde;i antud keskkonnaluba ei vasta kas t&auml;ielikult v&otilde;i osaliselt seadusele v&otilde;i seaduse alusel antud muule &otilde;igusaktile , esitab ta kirjaliku ettepaneku viia akt nendega vastavusse .</s><s>Kui omavalitsus&uuml;ksuse volikogu v&otilde;i valitsus ei ole 15 p&auml;eva jooksul , arvates Keskkonnainspektsiooni v&otilde;i Maa-ameti kirjaliku ettepaneku saamisest , akti v&otilde;i selle s&auml;tet seaduse v&otilde;i muu &otilde;igusaktiga koosk&otilde;lla viinud v&otilde;i on keeldunud seda tegemast , p&ouml;&ouml;rdub Keskkonnainspektsioon v&otilde;i Maa-amet halduskohtumenetluse seadustikus ( RT I 1999 , 31 , 425 ; 33 , &otilde;iend ; 40 , &otilde;iend ; 96 , 846 ; 2000 , 51 , 321 ) s&auml;testatud korras protestiga halduskohtusse .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Keskkonna&otilde;igusnormide rakendamise anal&uuml;&uuml;s</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnainspektsioon ja Maa-amet anal&uuml;&uuml;sivad oma tegutsemisvaldkonnas keskkonna&otilde;igusnormide toimet enda vaatluste ning teistelt isikutelt , asutustelt ja andmekogudelt saadud andmete ja ettepanekute alusel , kusjuures Keskkonnainspektsioonil lasub kohustus koguda keskkonnaj&auml;relevalve andmeid .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonna&otilde;igusnormide anal&uuml;&uuml;si tulemusel teevad Keskkonnainspektsioon ja Maa-amet ettepanekuid &otilde;iguskaitse t&otilde;hustamiseks ning &otilde;igusaktide muutmiseks v&otilde;i t&auml;iendamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Keskkonnaj&auml;relevalve asutus ja keskkonnaj&auml;relevalve &uuml;lesandega valitsusasutus on kohustatud esitama Keskkonnainspektsioonile andmed keskkonnaj&auml;relevalvealase tegevuse kohta keskkonnaministri kehtestatud t&auml;htajaks ja vormi kohaselt .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Keskkonnakaitseinspektorid ja nende &uuml;lesanded</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Keskkonnakaitseinspektor</s>
+</p>
+<p>
+<s>Keskkonnakaitseinspektor on :</s>
+</p>
+<p>
+<s>1 ) riigi keskkonnakaitseinspektor ;</s>
+</p>
+<p>
+<s>2 ) kohaliku omavalitsuse keskkonnakaitseinspektor .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Riigi keskkonnakaitseinspektor</s>
+</p>
+<p>
+<s>Riigi keskkonnakaitseinspektor on Keskkonnainspektsiooni , Maa-ameti v&otilde;i muu seaduse alusel keskkonnaj&auml;relevalve kohustust omava valitsusasutuse ametnik , kellele j&auml;relevalvekohustus on pandud ametijuhendiga .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Kohaliku omavalitsuse keskkonnakaitseinspektor</s>
+</p>
+<p>
+<s>Kohaliku omavalitsuse keskkonnakaitseinspektor on linna- v&otilde;i vallavalitsuse v&otilde;i muu omavalitsusasutuse ametnik , kellele j&auml;relevalvekohustus on pandud t&ouml;&ouml;&uuml;lesannete asutusesisese jaotuse v&otilde;i volikogu otsusega .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Keskkonnakaitseinspektori j&auml;relevalvepiirkond</s>
+</p>
+<p>
+<s>( 1 ) Riigi keskkonnakaitseinspektoril on tegutsemis&otilde;igus kogu Eesti Vabariigi jurisdiktsiooni all oleval alal ning Eesti Vabariigis registreeritud laevadel , s&otilde;ltumata nende asukohast .</s>
+</p>
+<p>
+<s>( 2 ) Kohaliku omavalitsuse keskkonnakaitseinspektoril on tegutsemis&otilde;igus t&ouml;&ouml;kohaj&auml;rgse omavalitsus&uuml;ksuse territooriumil .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Keskkonnakaitseinspektori tegutsemis&otilde;iguse t&otilde;endamine</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnakaitseinspektori tegutsemis&otilde;igust keskkonna kaitsel t&otilde;endab inspektori t&otilde;end ja tunnusm&auml;rk .</s>
+</p>
+<p>
+<s>( 2 ) Riigi keskkonnakaitseinspektori t&otilde;endi vormi ning valmistamise , v&auml;ljaandmise ja &auml;rav&otilde;tmise korra kehtestab keskkonnaminister , omavalitsuse keskkonnakaitseinspektori t&otilde;endi vormi ning valmistamise , v&auml;ljaandmise ja &auml;rav&otilde;tmise korra kehtestab valla- v&otilde;i linnavalitsus .</s>
+</p>
+<p>
+<s>( 3 ) Keskkonnakaitseinspektori tunnusm&auml;rk on k&otilde;igil inspektoritel &uuml;hesugune .</s><s>Selle kujunduse ning valmistamise , v&auml;ljaandmise ja &auml;rav&otilde;tmise korra kehtestab keskkonnaminister .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Keskkonnakaitseinspektori vormi- ja eririietus</s>
+</p>
+<p>
+<s>( 1 ) Riigi keskkonnakaitseinspektorile v&auml;ljastatakse tasuta vormi- ja eririietus .</s><s>Riigi keskkonnakaitseinspektori vormiriietuse ja ametitunnuste kirjelduse kehtestab Vabariigi Valitsus , vormi- ja eririietuse v&auml;ljaandmise ja kandmise korra kehtestab keskkonnaminister .</s><s>Vormi- ja eririietuse valmistamise kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 2 ) Kohaliku omavalitsuse keskkonnakaitseinspektorile v&auml;ljastatakse vormi- ja eririietus kohaliku omavalitsuse kehtestatud korras ja kujunduses .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Keskkonnakaitseinspektori relvad ja erivahendid</s>
+</p>
+<p>
+<s>( 1 ) Riigi ja kohaliku omavalitsuse keskkonnakaitseinspektoril , kelle ametikohustuseks on kasvava metsa , jahiuluki- ja kalavaru kaitse , on lubatud ameti&uuml;lesannete t&auml;itmisel kanda teenistusrelva ning kasutada erivahendina teenistuskoera ja k&auml;eraudu .</s>
+</p>
+<p>
+<s>( 2 ) Teenistusrelva kasutab keskkonnakaitseinspektor enda ja teiste inimeste julgeoleku tagamiseks , erivahendeid &otilde;iguserikkuja kinnipidamisel ning politseiasutusse v&otilde;i muusse teenistusruumi toimetamisel , kui &otilde;iguserikkuja ei allu keskkonnakaitseinspektori korraldusele .</s><s>Teenistuskoera kasutatakse ka peidetud loodussaaduse ning selle hankimise vahendi v&otilde;i riista leidmiseks .</s>
+</p>
+<p>
+<s>( 3 ) Teenistusrelva kasutamise korra ning teenistusrelvana lubatud relvade loetelu kehtestab Vabariigi Valitsus .</s><s>Relva soetamine ja relvaloa andmine toimub relvaseaduses ( RT I 1995 , 62 , 1056 ; 1997 , 93 , 1564 ; 1999 , 57 , 597 ; 2001 , 7 , 17 ) v&otilde;i selle alusel kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Keskkonnakaitseinspektori &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Riigi ja kohaliku omavalitsuse keskkonnakaitseinspektoril on &otilde;igus kontrollida f&uuml;&uuml;silist ning era- ja avalik-&otilde;iguslikku juriidilist isikut , riigiasutust ja omavalitsusorganit v&otilde;i -asutust ning nende tegevuskohta , kui isiku v&otilde;i asutuse tegevus m&otilde;jutab v&otilde;i v&otilde;ib m&otilde;jutada keskkonda ning ohustab v&otilde;i v&otilde;ib ohustada inimeste elu , tervist v&otilde;i vara v&otilde;i kui isik v&otilde;i asutus varub loodussaadust v&otilde;i varjab v&otilde;i oletatavalt varjab ebaseaduslikult hangitud loodussaadust .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnakaitseinspektor oma p&auml;devuse piires :</s>
+</p>
+<p>
+<s>1 ) kontrollib keskkonnakaitse- ja -kasutusalaste &otilde;igusaktide n&otilde;uetest kinnipidamist ;</s>
+</p>
+<p>
+<s>2 ) peatab keskkonnakaitse- v&otilde;i -kasutusalaste n&otilde;uetega vastuolus oleva tegevuse ja &otilde;igusp&auml;rase tegevuse , kui see ohustab inimeste elu , tervist v&otilde;i vara ;</s>
+</p>
+<p>
+<s>3 ) v&otilde;tab keskkonnakaitsealastest n&otilde;uetest kinnipidamise kontrollimisel kontrollproove ja teeb m&otilde;&otilde;tmisi ning n&otilde;uab keskkonna kaitsega seotud v&otilde;i loodussaaduste kasutamise , vedamise ja s&auml;ilitamisega v&otilde;i loodussaadustega tehtavate tehingutega seotud dokumentide esitamist ;</s>
+</p>
+<p>
+<s>4 ) ebaseadusliku tegevuse avastamise v&otilde;i kohustuslike keskkonnakaitseabin&otilde;ude rakendamata j&auml;tmise tuvastamise korral teavitab &otilde;iguserikkujat tema tegevuse v&otilde;i tegevusetuse lubamatusest ning teeb vajadusel ettekirjutuse v&otilde;i annab suulise korralduse ebaseadusliku tegevuse l&otilde;petamiseks v&otilde;i kohustuslike abin&otilde;ude rakendamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Kella 6-st hommikul kuni kella 22-ni &otilde;htul ( edaspidi p&auml;evane aeg ) , on keskkonnakaitseinspektoril koos temaga kaasas olevate isikutega k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud eesm&auml;rgil &otilde;igus minna tegevuskohta , kui on alust arvata , et seal :</s>
+</p>
+<p>
+<s>1 ) toimub loodussaaduste varumine , t&ouml;&ouml;tlemine ja hoidmine ;</s>
+</p>
+<p>
+<s>2 ) paiknevad seadmed v&otilde;i ained , mis v&otilde;ivad ohustada keskkonda v&otilde;i inimeste elu , tervist ja vara ;</s>
+</p>
+<p>
+<s>3 ) toimub keskkonda kahjustav v&otilde;i kahjustada v&otilde;iv tegevus ;</s>
+</p>
+<p>
+<s>4 ) asuvad keskkonnakaitse seadmed v&otilde;i rajatised .</s>
+</p>
+<p>
+<s>( 4 ) Kella 22-st &otilde;htul kuni kella 6-ni hommikul ( edaspidi &ouml;ine aeg ) , on keskkonnakaitseinspektoril koos temaga kaasas olevate isikutega k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud eesm&auml;rgil &otilde;igus kontrollida sel ajal t&ouml;&ouml;tavat ettev&otilde;tet v&otilde;i k&auml;silolevat loodussaaduse varumist , nagu kalap&uuml;&uuml;k , jaht , puude raie , samaselt p&auml;evasel ajal toimuva kontrollimisega .</s><s>Muul juhul on &otilde;igus minna &ouml;isel ajal tegevuskohta ainult riigi ja kohaliku omavalitsuse keskkonnakaitseinspektoril ja temaga kaasas olevatel isikutel , kui on alust arvata , et :</s>
+</p>
+<p>
+<s>1 ) seal paiknevad ebaseaduslikult hangitud loodussaadused ;</s>
+</p>
+<p>
+<s>2 ) sealt levivad kahjulikud m&otilde;jud ohustavad inimeste tervist v&otilde;i vara .</s>
+</p>
+<p>
+<s>( 5 ) Kui keskkonnakaitseinspektorile ja temaga kaasas olevatele isikutele ei v&otilde;imaldata ligip&auml;&auml;su objektile k&auml;esoleva paragrahvi l&otilde;igetes 3 ja 4 nimetatud &uuml;lesannete t&auml;itmiseks , on tal &otilde;igus kasutada sisenemiseks sundi f&uuml;&uuml;silise j&otilde;u kasutamise teel .</s>
+</p>
+<p>
+<s>( 6 ) Keskkonnakaitseinspektoril on &otilde;igus saada keskkonna kaitse v&otilde;i loodusressursi v&otilde;i loodussaaduse kasutamise seaduslikkuse kontrollimiseks vajalikku teavet kolmandalt isikult , sealhulgas riigi ja kohaliku omavalitsuse keskkonnakaitseinspektoril ka Maksuameti kohalikult asutuselt , samuti n&otilde;uda nimetatud tegevusvaldkondade kohta k&auml;ivate dokumentide esitamist .</s>
+</p>
+<p>
+<s>( 7 ) Tegevuskoht on k&auml;esoleva seaduse t&auml;henduses loodusressursi uurimise ja kasutamise , loodussaaduse hoidmise , vedamise ja t&ouml;&ouml;tlemise , puhastusseadme , heitveesuubla , loodust ohustava seadme v&otilde;i keskkonnakaitserajatise asukoht v&otilde;i koht , kus toimub keskkonna kahjustamine ( edaspidi objekt ) .</s><s>S&otilde;iduk , traktor , liikurmasin , erit&ouml;&ouml;masin v&otilde;i ujuvvahend , millega varutakse v&otilde;i veetakse loodussaadust , on v&otilde;rdsustatud tegevuskohaga .</s>
+</p>
+<p>
+<s>( 8 ) Ujuvvahend on k&auml;esoleva seaduse t&auml;henduses laev , v&auml;ikelaev , paat , skuuter v&otilde;i muu tehislik ujuvobjekt v&otilde;i h&otilde;ljuk .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalvetoimingud</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>S&otilde;iduki , traktori , liikurmasina , erit&ouml;&ouml;masina ja ujuvvahendi kontrollimine</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnakaitseinspektoril on &otilde;igus kontrollida s&otilde;idukit , traktorit , liikurmasinat , erit&ouml;&ouml;masinat v&otilde;i ujuvvahendit , s&otilde;ltumata selle paiknemise kohast , kui on alust arvata , et :</s>
+</p>
+<p>
+<s>1 ) see kahjustas , kahjustab v&otilde;i v&otilde;ib kahjustada keskkonda ;</s>
+</p>
+<p>
+<s>2 ) seda kasutatakse jahipidamisel , kalap&uuml;&uuml;gil v&otilde;i loodussaaduse loodusest muul viisil hankimisel ;</s>
+</p>
+<p>
+<s>3 ) sellega veetakse loodussaadust , kaitsealuse v&otilde;i muu liigi isendit , geneetiliselt muundatud organismi v&otilde;i seda sisaldavat toodet , kiirgusallikat , j&auml;&auml;tmeid v&otilde;i ohtlikku ainet v&otilde;i valmistist , mille soetamise , hoidmise , vedamise , kasutamise v&otilde;i riiki sissetoomise v&otilde;i v&auml;ljaviimise kord on reguleeritud .</s>
+</p>
+<p>
+<s>( 2 ) S&otilde;iduki , traktori , liikurmasina , erit&ouml;&ouml;masina v&otilde;i ujuvvahendi peatamiseks peab keskkonnakaitseinspektor olema vormiriietuses ja kandma inspektori tunnusm&auml;rki .</s><s>S&otilde;iduk , traktor , liikurmasin v&otilde;i erit&ouml;&ouml;masin peatatakse helkurketta viipega , millel on pealdis &ldquo; Keskkonnakaitse &rdquo; , ujuvvahend raadio teel antava korraldusega v&otilde;i muul arusaadaval viisil .</s><s>Raudteeveeremit keskkonnakaitseinspektor ei peata .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>F&uuml;&uuml;silise isiku kontrollimise kord</s>
+</p>
+<p>
+<s>F&uuml;&uuml;silise isiku kontrollimisel on keskkonnakaitseinspektor kohustatud :</s>
+</p>
+<p>
+<s>1 ) ennast kontrollitavale isikule tutvustama , esitades inspektorit&otilde;endi , ning selgitama kontrollimise eesm&auml;rki ;</s>
+</p>
+<p>
+<s>2 ) andma kontrollitavale tema n&otilde;udmisel t&auml;iendavaid selgitusi kontrollimise kohta ;</s>
+</p>
+<p>
+<s>3 ) kontrollitava n&otilde;udmisel koostama &otilde;iendi kontrollimise tulemuste kohta ning esitama selle kontrollitavale tutvumiseks ja allakirjutamiseks ;</s>
+</p>
+<p>
+<s>4 ) &auml;ra kuulama ning kontrollitava n&otilde;udmisel protokollima v&otilde;i kirjalikul esitamisel vastu v&otilde;tma kaebuse v&otilde;i muu esildise ning esitama selle seisukohav&otilde;tmiseks teenistuskohaj&auml;rgse keskkonnaj&auml;relevalve asutuse v&otilde;i k&otilde;rgemalseisva asutuse juhatajale .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Objekti kontrollimise kord</s>
+</p>
+<p>
+<s>( 1 ) Objekti kontrollimisel on keskkonnakaitseinspektor kohustatud :</s>
+</p>
+<p>
+<s>1 ) objekti valdaja v&otilde;i tema volitatud esindaja ( edaspidi objekti valdaja ) kohalolekul ennast talle esitlema , esitades inspektorit&otilde;endi , ning selgitama kontrollimise eesm&auml;rki ja kontrollimise viisi ;</s>
+</p>
+<p>
+<s>2 ) selgitama objekti valdajale tema &otilde;igust viibida k&otilde;ikide kontrollitoimingute juures , saada toimingute kohta t&auml;iendavaid selgitusi , vaidlustada keskkonnakaitseinspektori toimingud ning teha kontrollimise kohta avaldusi , mis kontrollitava n&otilde;udmisel protokollitakse ja antakse seisukoha v&otilde;tmiseks keskkonnakaitseinspektori teenistuskohaj&auml;rgse keskkonnaj&auml;relevalve asutuse v&otilde;i k&otilde;rgemalseisva asutuse juhatajale ;</s>
+</p>
+<p>
+<s>3 ) objekti valdaja n&otilde;udmisel koostama kontrollimise kohta &otilde;iendi ning andma selle talle tutvumiseks ja allakirjutamiseks ;</s>
+</p>
+<p>
+<s>4 ) &auml;ra kuulama ning objekti valdaja n&otilde;udmisel protokollima v&otilde;i kirjalikul esitamisel vastu v&otilde;tma kaebuse v&otilde;i muu esildise ning esitama selle seisukohav&otilde;tmiseks teenistuskohaj&auml;rgse keskkonnaj&auml;relevalve asutuse v&otilde;i k&otilde;rgemalseisva asutuse juhatajale ;</s>
+</p>
+<p>
+<s>5 ) teatama kolmandale isikule kontrollimisel avastatud tema &otilde;iguste v&otilde;i huvide kahjustamisest .</s>
+</p>
+<p>
+<s>( 2 ) Objekti valdaja kohal mitteviibimine ei v&auml;lista objekti kontrollimist , v&auml;lja arvatud juhul , kui objekti kontrollimine eeldab takistuse k&otilde;rvaldamist suletud ruumi sisenemiseks .</s><s>Muul juhul vaadatakse objekti valdaja v&otilde;i tema volitatud esindaja puudumisel &uuml;le :</s>
+</p>
+<p>
+<s>1 ) lahtise ruumi v&otilde;i piirdega piiratud tootmisobjekti territoorium kahe erapooletu manuka osalemisel ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva l&otilde;ike punktis 1 nimetamata tegevuskoht keskkonnakaitseinspektori poolt , kaasates manukad &otilde;iguserikkumise avastamisele , kui asja vormistamist pole v&otilde;imalik edasi l&uuml;kata objekti valdaja kohaleilmumiseni .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 18 punktis 4 ja k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 4 nimetatud kaebuse v&otilde;i esildise saamisel lahendab keskkonnakaitseinspektorist k&otilde;rgemalseisev ametiisik need avaldustele vastamise seaduses ( RT I 1994 , 51 , 857 ; 1996 , 49 , 953 ; 2000 , 49 , 304 ; 92 , 597 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Kontrollproovi v&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Materjali v&otilde;i aine kontrollproov v&otilde;etakse asjaolude selgitamiseks minimaalses vajalikus koguses tasuta ning tagastatakse vajaduse m&ouml;&ouml;dumisel valdajale tema soovil niiv&otilde;rd , kuiv&otilde;rd see on v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 2 ) Kontrollproovi v&otilde;tmise kohta koostatakse protokoll , milles m&auml;rgitakse &auml;ra :</s>
+</p>
+<p>
+<s>1 ) kontrollproovi v&otilde;tja ees- ja perekonnanimi , t&ouml;&ouml;koht ja amet ;</s>
+</p>
+<p>
+<s>2 ) kontrollproovi v&otilde;tmisel osalenud teiste isikute ees- ja perekonnanimed ning t&ouml;&ouml;kohad ja ametid ;</s>
+</p>
+<p>
+<s>3 ) kontrollproovi v&otilde;tmise koht koos objekti nimetamisega ning asjaolu , millega seoses kontrollproov v&otilde;eti ;</s>
+</p>
+<p>
+<s>4 ) kontrollproovi v&otilde;tmise viis ja aeg ;</s>
+</p>
+<p>
+<s>5 ) kontrollproovi kirjeldus ;</s>
+</p>
+<p>
+<s>6 ) kontrollproovi pakkimise kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) osalejate allkirjad .</s>
+</p>
+<p>
+<s>( 3 ) Kontrollproov peab olema pakitud viisil , mis v&auml;listab selle vahetamist v&otilde;i muutmist pakendit rikkumata .</s>
+</p>
+<p>
+<s>( 4 ) Kontrollproovi &uuml;leandmisel teisele isikule v&otilde;i tagastamisel koostatakse &uuml;leandmise-vastuv&otilde;tmise akt , milles peab olema n&auml;idatud kontrollproovi ja selle pakendi seisukord .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Keskkonnaj&auml;relevalvealased ettekirjutused</s>
+</p>
+<p>
+<s>( 1 ) Keskkonna kaitse ja loodusressursside kasutamise seaduslikkuse tagamiseks teeb keskkonnakaitseinspektor vajadusel ettekirjutuse .</s>
+</p>
+<p>
+<s>( 2 ) Ettekirjutusi tehakse :</s>
+</p>
+<p>
+<s>1 ) samaaegselt &otilde;iguserikkumise materjali vormistamisega , kui &otilde;iguserikkumise p&otilde;hjustanud asjaolusid pole v&otilde;imalik kohe k&otilde;rvaldada , kuid see on vajalik ja seda on v&otilde;imalik teha keskkonnakaitseinspektori poolt ettekirjutatud m&otilde;istliku aja jooksul ;</s>
+</p>
+<p>
+<s>2 ) keskkonnaloa alusel toimuva tegevuse kohese peatamise vajadusel , kui tegevuse j&auml;tkamine seab otseselt ohtu inimeste elu , tervise v&otilde;i vara v&otilde;i v&otilde;ib keskkonnale p&otilde;hjustada korvamatut kahju ;</s>
+</p>
+<p>
+<s>3 ) inimese elu , tervist v&otilde;i vara v&otilde;i keskkonda ohustava tegevuse seadusega koosk&otilde;lla viimiseks , kui tegevust ei saa k&auml;esoleva seaduse &sect; 22 l&otilde;ike 2 kohaselt peatada ;</s>
+</p>
+<p>
+<s>4 ) objekti kontrollimise vajadusel selle omaniku , kontrollitava tegevuse eest vastutava isiku v&otilde;i nende volitatud esindaja objektil kohalolekuks , kui keskkonnakaitseinspektor ei pea otstarbekaks kontrollida objekti ette teatamata ;</s>
+</p>
+<p>
+<s>5 ) loodusressursse kasutava v&otilde;i keskkonnakaitse abin&otilde;ude rakendamiseks kohustust omava isiku v&otilde;i tema volitatud esindaja ilmumiseks keskkonnakaitseinspektori t&ouml;&ouml;ruumi isiku v&otilde;i objekti tegevust puudutavate andmete andmiseks ning dokumentide esitamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Ettekirjutus koostatakse kahes eksemplaris , millest &uuml;ks j&auml;&auml;b ettekirjutuse tegijale ja teine kohustatud subjektile .</s><s>Kui on vajadus informeerida ettekirjutusest kolmandat isikut , tehakse sellest ettekirjutuse tegija poolt kinnitatud &auml;rakiri .</s><s>Kui ettekirjutus tehakse keskkonnaloa alusel toimuva tegevuse kohta , siis saadetakse &auml;rakiri loa andjale .</s>
+</p>
+<p>
+<s>( 4 ) Ettekirjutuses m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) keskkonnaj&auml;relevalve asutuse nimetus , mille nimel ettekirjutus tehakse ;</s>
+</p>
+<p>
+<s>2 ) ettekirjutuse tegija ees- ja perekonnanimi ning ametinimetus ;</s>
+</p>
+<p>
+<s>3 ) ettekirjutuse tegemise kuup&auml;ev ja vajadusel kellaaeg ;</s>
+</p>
+<p>
+<s>4 ) f&uuml;&uuml;silise isiku nimi v&otilde;i juriidilise isiku nimetus , kellele ettekirjutus tehakse ;</s>
+</p>
+<p>
+<s>5 ) ettekirjutuse aluseks olevad asjaolud ja seaduss&auml;tted , millele ettekirjutus tugineb ;</s>
+</p>
+<p>
+<s>6 ) ettekirjutuse resolutsioon , milles tuuakse &uuml;heselt m&otilde;istetavalt v&auml;lja kohustatud subjekti ettekirjutusest tulenevad kohustused ;</s>
+</p>
+<p>
+<s>7 ) selgitus v&otilde;imalike tagaj&auml;rgede kohta ettekirjutuse t&auml;itmata j&auml;tmise korral ;</s>
+</p>
+<p>
+<s>8 ) ettekirjutuse vaidlustamise kord ja t&auml;htaeg ;</s>
+</p>
+<p>
+<s>9 ) ettekirjutuse tegija allkiri .</s>
+</p>
+<p>
+<s>( 5 ) Kohustatud subjekt annab keskkonnakaitseinspektorile j&auml;&auml;vale ettekirjutuse eksemplarile allkirja ettekirjutuse k&auml;ttesaamise kohta v&otilde;i tehakse sinna m&auml;rge ettekirjutuse muul viisil k&auml;ttetoimetamise kohta .</s><s>Kui kohustatud subjekt keeldub allkirja andmast v&otilde;i ettekirjutust vastu v&otilde;tmast , teeb keskkonnakaitseinspektor ettekirjutusele sellekohase m&auml;rke , mille kinnitab enda allkirjaga .</s><s>Ettekirjutus loetakse sel juhul ikkagi k&auml;tteantuks .</s>
+</p>
+<p>
+<s>( 6 ) Ettekirjutus loetakse k&auml;tteantuks ka siis , kui see on juriidilisele isikule kohale toimetatud registrisse kantud aadressil v&otilde;i kui see on allkirja vastu k&auml;tte antud f&uuml;&uuml;silise isikuga koos elavale v&auml;hemalt 15-aastasele perekonnaliikmele ja ka siis , kui adressaat on keeldunud seda vastu v&otilde;tmast .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktides 4 ja 5 nimetatud kohustatud subjekt , saades ettekirjutuse kontrollimise ajal objektil viibimiseks v&otilde;i keskkonnakaitseinspektori juurde ilmumiseks , v&otilde;ib seadusliku takistuse v&otilde;i muu argumenteeritud p&otilde;hjenduse olemasolul taotleda selleks teist aega , milleks ta teeb suulise v&otilde;i kirjaliku avalduse hiljemalt m&auml;&auml;ratud p&auml;evale eelneval t&ouml;&ouml;p&auml;eval .</s><s>Avaldusega n&otilde;ustumise korral saadab keskkonnakaitseinspektor kohustatud subjektile uue ettekirjutuse uue t&auml;htajaga .</s><s>Kui asja lahendamise edasil&uuml;kkamine on v&otilde;imatu , vaadatakse objekt &uuml;le kohustatud subjekti osav&otilde;tuta .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Keskkonda kahjustava tegevuse peatamine</s>
+</p>
+<p>
+<s>( 1 ) Keskkonda kahjustav tegevus peatatakse , kui see :</s>
+</p>
+<p>
+<s>1 ) ei vasta keskkonnanormatiivile v&otilde;i keskkonnaloaga lubatud m&auml;&auml;rale ;</s>
+</p>
+<p>
+<s>2 ) toimub keskkonnaloa alusel , kuid ohustab keskkonda v&otilde;i inimeste elu , tervist v&otilde;i vara ja seda ohtu ei saa kohe k&otilde;rvaldada ;</s>
+</p>
+<p>
+<s>3 ) on lubatud ainult keskkonnaloa alusel , kuid luba puudub v&otilde;i seda ei esitata v&otilde;i on luba antud ebap&auml;deva isiku poolt v&otilde;i seadusega v&otilde;i seaduse alusel kehtestatud keskkonnan&otilde;udeid arvestamata ;</s>
+</p>
+<p>
+<s>4 ) on lubatud vaid teatud ajal v&otilde;i tingimustel , kuid ei vasta tegevuse lubatud ajale v&otilde;i tingimustele .</s>
+</p>
+<p>
+<s>( 2 ) Peatada ei tohi inimeste vara v&otilde;i keskkonda ohustavat tegevust , mille peatamine v&otilde;ib p&otilde;hjustada &uuml;ldistele huvidele suuremat kahju , kui p&otilde;hjustaks tegevuse j&auml;tkumine .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud tegevuse avastamisest teavitab keskkonnaj&auml;relevalve asutus kohalikku omavalitsusorganit , maavanemat ja keskkonnaministrit ning , kui tegevus toimus keskkonnaloa alusel , loa andjat .</s>
+</p>
+<p>
+<s>( 4 ) Inimest v&otilde;i keskkonda ohustavast tegevusest , mida ei tohi k&auml;esoleva paragrahvi l&otilde;ike 2 kohaselt peatada , teavitab piirkonna elanikkonda kohalik omavalitsusorgan ohtu p&otilde;hjustava isiku kulul .</s>
+</p>
+<p>
+<s>( 5 ) Keskkonnaloa andja , saades teate keskkonnaloa alusel toimuva tegevuse peatamisest , on kohustatud informeerima keskkonnaj&auml;relevalve asutust tegevuse seadustamiseks rakendatud abin&otilde;udest .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Ettekirjutuse vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Ettekirjutuse kohustatud subjektil on &otilde;igus 30 p&auml;eva jooksul , arvates ettekirjutuse saamisest , esitada taotlus ettekirjutuse muutmiseks keskkonnakaitseinspektorist k&otilde;rgemalseisvale ametnikule .</s><s>Nimetatud ametniku otsusega mitten&otilde;ustumisel , v&otilde;i kui ettekirjutuse oli teinud keskkonnaj&auml;relevalve asutuse juht ise , on kohustatud subjektil &otilde;igus esitada kaebus halduskohtule halduskohtumenetluse seadustikus s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Ettekirjutuse vaidlustamine ei peata selle t&auml;itmise kohustust kohustatud subjekti poolt ega t&auml;itmise tagamiseks vajalike abin&otilde;ude rakendamist keskkonnaj&auml;relevalve asutuse poolt , v&auml;lja arvatud kinnisasja v&otilde;&otilde;randamise algatamine v&otilde;i asja halduskohtu poolt peatamise korral .</s>
+</p>
+<p>
+<s>( 3 ) Ettekirjutuste kohta saadetud kaebused ja avaldused vaadatakse keskkonnaj&auml;relevalve asutuses l&auml;bi ja vastatakse avaldajale avaldustele vastamise seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Ettekirjutuse t&uuml;histamine v&otilde;i muutmine</s>
+</p>
+<p>
+<s>( 1 ) Ettekirjutus v&otilde;idakse t&uuml;histada , muuta v&otilde;i peatada :</s>
+</p>
+<p>
+<s>1 ) kohtuotsuse alusel ;</s>
+</p>
+<p>
+<s>2 ) ettekirjutuse aluseks olnud asjaolude &auml;ralangemisel ;</s>
+</p>
+<p>
+<s>3 ) kohustatud subjekti p&otilde;hjendatud taotluse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Ettekirjutuse t&uuml;histab , muudab v&otilde;i peatab :</s>
+</p>
+<p>
+<s>1 ) ettekirjutuse teinud keskkonnakaitseinspektor ;</s>
+</p>
+<p>
+<s>2 ) keskkonnakaitseinspektorist k&otilde;rgemalseisev keskkonnaj&auml;relevalve ametnik .</s>
+</p>
+<p>
+<s>( 3 ) Ettekirjutus t&uuml;histatakse , muudetakse v&otilde;i peatatakse resolutsiooni koostamisega ettekirjutuse m&otilde;lemale eksemplarile , millele kirjutavad alla otsuse teinud isik ja kohustatud subjekt .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Toimingud selguseta kuuluvusega loodussaaduse ja loodussaaduse hankimise vahendi v&otilde;i riistaga</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Selguseta kuuluvusega loodussaaduse v&otilde;i selle hankimise vahendi v&otilde;i riista &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Looduses m&auml;rgatud selguseta kuuluvusega kalap&uuml;&uuml;gi- v&otilde;i jahipidamisvahendi v&otilde;i muu loodussaaduse ebaseadusliku hankimise eseme v&otilde;i aine v&otilde;tab keskkonnakaitseinspektor paiknemiskohast &auml;ra .</s>
+</p>
+<p>
+<s>( 2 ) Samuti v&otilde;tab keskkonnakaitseinspektor &auml;ra loodussaaduse , mida v&otilde;ib loodusest hankida , vedada , t&ouml;&ouml;delda v&otilde;i hoiustada ainult loaga v&otilde;i kindlaks m&auml;&auml;ratud korras vormistatud akti , lepingu v&otilde;i muu dokumendiga , mille kaasaskandmine ja esitamine on kohustuslik , kuid mille valdajal puuduvad nimetatud dokumendid , ja loodussaaduse , mida keegi ei tunnista oma valduses olevaks .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud eseme , aine v&otilde;i loodussaaduse &auml;rav&otilde;tmise kohta koostab keskkonnakaitseinspektor protokolli , milles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) protokolli koostamise aeg ;</s>
+</p>
+<p>
+<s>2 ) keskkonnakaitseinspektorile j&auml;relevalvekohustuse pannud keskkonnaj&auml;relevalve asutuse nimetus ja aadress ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ja ametinimetus ;</s>
+</p>
+<p>
+<s>4 ) loodussaaduse v&otilde;i muu eseme v&otilde;i aine &auml;rav&otilde;tmise juures viibinud isikute olemasolu korral nende ees- ja perekonnanimed ja postiaadressid ning loodussaaduse senise valdaja kohta lisaks eelnimetatutele isikusamasuse tuvastamise viis , elukoha aadress ja v&otilde;imaluse korral isikukood ;</s>
+</p>
+<p>
+<s>5 ) loodussaaduse v&otilde;i muu eseme v&otilde;i aine &auml;rav&otilde;tmise asjaolud ning aeg ja koht ;</s>
+</p>
+<p>
+<s>6 ) loodussaaduse v&otilde;i muu eseme v&otilde;i aine nimetus , nende individuaalsed tunnused , kogused ja seisukord ning ligikaudne harilik v&auml;&auml;rtus , kui protokolli koostaja suudab seda &auml;rav&otilde;tmisel kindlaks m&auml;&auml;rata .</s>
+</p>
+<p>
+<s>( 4 ) Loodussaaduse v&otilde;i muu eseme v&otilde;i aine &auml;rav&otilde;tmise protokollile kirjutavad alla protokolli koostaja ja &auml;rav&otilde;tmise juures viibinud isikud , kaasa arvatud senine valdaja .</s><s>Kui senine valdaja keeldub protokollile alla kirjutamast , teeb protokolli koostaja protokollile sellekohase m&auml;rke .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>&Auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine hoiuleandmine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 25 nimetatud loodussaaduse , eseme v&otilde;i aine annab need &auml;rav&otilde;tnud keskkonnakaitseinspektor hoiule :</s>
+</p>
+<p>
+<s>1 ) temale j&auml;relevalvekohustuse pannud keskkonnaj&auml;relevalve asutusele ;</s>
+</p>
+<p>
+<s>2 ) muule isikule kirjaliku lepingu alusel v&otilde;i muu v&otilde;imaluse puudumisel kirjaliku lepingu alusel isikule , kelle valdusest loodussaadus , ese v&otilde;i aine &auml;ra v&otilde;eti .</s>
+</p>
+<p>
+<s>( 2 ) Loodussaadus v&otilde;i muu ese v&otilde;i aine antakse hoiule keskkonnakaitseinspektorile j&auml;relevalvekohustuse pannud keskkonnaj&auml;relevalve asutuse kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>&Auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine h&auml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnaj&auml;relevalve asutus h&auml;vitab k&auml;esoleva seaduse &sect;-s 25 nimetatud loodussaaduse , mis on riknenud , millele ei leidu ostjat v&otilde;i mille hoidmine , vedu v&otilde;i m&uuml;&uuml;k p&otilde;hjustab ilmselt selle harilikku v&auml;&auml;rtust &uuml;letavaid kulutusi , samuti hoiulev&otilde;etud eseme v&otilde;i aine , millel ei ole v&auml;&auml;rtust v&otilde;i mida saab kasutada ainult ebaseaduslikus tegevuses .</s>
+</p>
+<p>
+<s>( 2 ) H&auml;vitamise kohta koostatakse protokoll , milles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) protokolli koostamise aeg ;</s>
+</p>
+<p>
+<s>2 ) keskkonnaj&auml;relevalve asutuse nimetus ja aadress ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ja ametinimetus ;</s>
+</p>
+<p>
+<s>4 ) loodussaaduse v&otilde;i muu eseme v&otilde;i aine h&auml;vitamise juures viibinud isikute ees- ja perekonnanimed ning postiaadressid ;</s>
+</p>
+<p>
+<s>5 ) loodussaaduse v&otilde;i muu eseme v&otilde;i aine v&otilde;i loodussaaduse nimetus , individuaalsed tunnused , kogus ja seisukord ning nende ligikaudne harilik v&auml;&auml;rtus ;</s>
+</p>
+<p>
+<s>6 ) h&auml;vitamise viis , aeg ja koht .</s>
+</p>
+<p>
+<s>( 3 ) H&auml;vitamise kohta koostatud protokollile kirjutavad alla protokolli koostaja ja h&auml;vitamise juures viibinud isikud .</s>
+</p>
+<p>
+<s>( 4 ) H&auml;vitamisele ei kuulu esemed , mille suhtes on keskkonnakaitseinspektoril arvamus , et neil on ajalooline , teaduslik , kunsti- v&otilde;i muu kultuuriv&auml;&auml;rtus .</s><s>Need antakse sel juhul &uuml;le kohasele asutusele v&otilde;i s&auml;ilitatakse sellise leidmiseni keskkonnaj&auml;relevalve asutuses .</s><s>Hinnangu saamisel eseme v&auml;&auml;rtusetuse kohta v&otilde;tab keskkonnaj&auml;relevalve asutus eseme tagasi ja h&auml;vitab selle .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Teatamiskohustus</s>
+</p>
+<p>
+<s>Kui keskkonnaj&auml;relevalve asutuses hoiule v&otilde;etud k&auml;esoleva seaduse &sect;-s 25 nimetatud selguseta kuuluvusega loodussaadusel v&otilde;i muul esemel v&otilde;i ainel v&otilde;ib olla seaduslik omanik ja loodussaadus v&otilde;i muu ese v&otilde;i aine ei kuulu h&auml;vitamisele k&auml;esoleva seaduse &sect; 27 kohaselt , teatab keskkonnaj&auml;relevalve asutus loodussaaduse v&otilde;i muu eseme v&otilde;i aine oma valdusesse v&otilde;tmisest politseile .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>&Auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine endise valduse taastamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect; 25 alusel &auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine endise &otilde;igusp&auml;rase valdaja selgumisel taastatakse tema soovil valdus loodussaaduse v&otilde;i muu eseme v&otilde;i aine suhtes v&otilde;i selle m&uuml;&uuml;mise korral h&uuml;vitatakse &auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine harilik v&auml;&auml;rtus , millest on maha arvatud hoidmis- , veo- ja m&uuml;&uuml;gikulud .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Taotlus loodussaaduse v&otilde;i muu eseme v&otilde;i aine valduse taastamiseks</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 25 nimetatud loodussaaduse v&otilde;i muu eseme v&otilde;i aine suhtes valduse kaotanud ja oma valdust taastada sooviv isik ( edaspidi taotleja ) esitab keskkonnaj&auml;relevalve asutusele kirjaliku taotluse , milles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) keskkonnaj&auml;relevalve asutuse nimi , kuhu taotlus esitatakse ;</s>
+</p>
+<p>
+<s>2 ) taotleja nimi , elukoha aadress , t&ouml;&ouml;koht ja amet v&otilde;i tegevusala , sidevahendite numbrid ning juriidilise isiku puhul nimetus , asukoha aadress ja sidevahendite numbrid ;</s>
+</p>
+<p>
+<s>3 ) loodussaaduse v&otilde;i muu eseme v&otilde;i aine nimetus , individuaalsed tunnused , kogus ja seisukord , samuti ligikaudne harilik v&auml;&auml;rtus ning oletatav valdusest v&auml;ljumise aeg , koht ja asjaolud ;</s>
+</p>
+<p>
+<s>4 ) valduse aluseks olevad asjaolud ;</s>
+</p>
+<p>
+<s>5 ) t&otilde;endid , mis kinnitavad valdamis&otilde;iguse aluseks olevaid asjaolusid ;</s>
+</p>
+<p>
+<s>6 ) taotlusele lisatud dokumentaalsete t&otilde;endite loetelu .</s>
+</p>
+<p>
+<s>( 2 ) Taotlusele lisatakse dokumentaalsed t&otilde;endid , mis taotluses lisana on m&auml;rgitud .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Taotlusele vastamine</s>
+</p>
+<p>
+<s>( 1 ) Kui k&auml;esoleva seaduse &sect;-s 30 nimetatud taotluses m&auml;rgitud loodussaaduse v&otilde;i muu eseme v&otilde;i aine nimetus , individuaalsed tunnused , kogus ja seisukord , samuti ligikaudne harilik v&auml;&auml;rtus , oletatav valdusest v&auml;ljumise aeg , koht ja asjaolud vastavad keskkonnaj&auml;relevalve asutuses hoiul oleva loodussaaduse v&otilde;i muu eseme v&otilde;i ainega seonduvatele asjaoludele , vastab keskkonnaj&auml;relevalve asutus taotlejale tarbetu viivituseta kirjalikult .</s>
+</p>
+<p>
+<s>( 2 ) Kui &auml;rav&otilde;etud loodussaadus v&otilde;i muu ese v&otilde;i aine on s&auml;ilinud , teatab keskkonnaj&auml;relevalve asutus oma vastuses :</s>
+</p>
+<p>
+<s>1 ) &auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine hoidmiseks ja veoks tehtud kulude suurusest ja kohustusest need enne valduse taastamist h&uuml;vitada ;</s>
+</p>
+<p>
+<s>2 ) aja ja koha , kus taotleja v&otilde;ib kontrollida loodussaaduse v&otilde;i muu eseme v&otilde;i aine samasust tema valdusest v&auml;lja l&auml;inud loodussaaduse v&otilde;i muu eseme v&otilde;i ainega ja &auml;rav&otilde;etu k&auml;tte saada .</s>
+</p>
+<p>
+<s>( 3 ) Kui loodussaadust v&otilde;i muud eset v&otilde;i ainet polnud v&otilde;imalik s&auml;ilitada ja see m&uuml;&uuml;di , siis keskkonnaj&auml;relevalve asutus oma vastuses :</s>
+</p>
+<p>
+<s>1 ) teatab taotlejale &auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine hinnatud hariliku v&auml;&auml;rtuse ja selle hoidmiseks , veoks ja m&uuml;&uuml;miseks tehtud kulutuste suuruse , mis arvatakse maha &auml;rav&otilde;etu harilikust v&auml;&auml;rtusest ;</s>
+</p>
+<p>
+<s>2 ) palub summa &uuml;lekandmiseks teatada taotleja pangaarve , kui loodussaaduse v&otilde;i muu eseme v&otilde;i aine v&auml;&auml;rtus h&uuml;vitatakse &uuml;lekandega .</s>
+</p>
+<p>
+<s>( 4 ) Taotlejale tagastatava loodussaaduse v&otilde;i muu eseme v&otilde;i aine &auml;ravedamise kulu keskkonnaj&auml;relevalve asutus ei h&uuml;vita .</s>
+</p>
+<p>
+<s>( 5 ) Keskkonnaj&auml;relevalve asutusel on &otilde;igus taotlejalt n&otilde;uda taotluses ilmnenud puuduste k&otilde;rvaldamist ja t&auml;iendavate t&otilde;endite esitamist .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>&Auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine taotlejale &uuml;leandmisest v&otilde;i selle v&auml;&auml;rtuse v&auml;ljamaksmisest keeldumine</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnaj&auml;relevalve asutus keeldub k&auml;esoleva seaduse &sect; 25 alusel &auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine &uuml;leandmisest taotlejale v&otilde;i selle v&auml;&auml;rtuse v&auml;ljamaksmisest , kui :</s>
+</p>
+<p>
+<s>1 ) esitatud taotluses m&auml;rgitud loodussaaduse v&otilde;i muu eseme v&otilde;i aine nimetus , individuaalsed tunnused , kogus ja seisukord , samuti ligikaudne harilik v&auml;&auml;rtus , oletatav valdusest v&auml;ljumise aeg , koht ja asjaolud ei vasta keskkonnaj&auml;relevalve asutuses hoiul oleva loodussaaduse v&otilde;i muu eseme v&otilde;i ainega seonduvatele asjaoludele ;</s>
+</p>
+<p>
+<s>2 ) taotleja ei t&otilde;enda oma &otilde;igust vallata &auml;rav&otilde;etud loodussaadust v&otilde;i muud eset v&otilde;i ainet ;</s>
+</p>
+<p>
+<s>3 ) taotleja keeldub h&uuml;vitamast &auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine hoidmise , vedamise ja m&uuml;&uuml;mise kulusid nende tagastamise korral ;</s>
+</p>
+<p>
+<s>4 ) ilmneb selguseta kuuluvusega loodussaaduse v&otilde;i muu eseme v&otilde;i aine t&auml;htsus t&otilde;endina algatatud haldus&otilde;iguserikkumise asja v&otilde;i kriminaalasja menetluses , millest tulenevalt toimitakse &auml;rav&otilde;etuga vastavat menetlust reguleeriva seadusega s&auml;testatud korras ;</s>
+</p>
+<p>
+<s>5 ) &auml;rav&otilde;etud loodussaadus v&otilde;i muu ese v&otilde;i aine on juba &uuml;le antud v&otilde;i selle v&auml;&auml;rtus on v&auml;lja makstud teisele taotlejale tolle p&otilde;hjendatud taotluse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Oma keeldumisest &auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine taotlejale &uuml;leandmisest v&otilde;i v&auml;&auml;rtuse v&auml;ljamaksmise kohta teatab keskkonnaj&auml;relevalve asutus tarbetu viivituseta kirjalikult , n&auml;idates &auml;ra keeldumise p&otilde;hjused .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>&Auml;rav&otilde;etud loodussaaduse v&otilde;i muu eseme v&otilde;i aine &uuml;leandmine tagastamist taotlevale isikule</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 25 nimetatud loodussaaduse v&otilde;i muu eseme v&otilde;i aine tagastamise kohta selle seadusj&auml;rgsele valdajale koostatakse akt kahes eksemplaris , millest &uuml;ks j&auml;&auml;b &uuml;leandjale , teine vastuv&otilde;tjale ja milles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) akti koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) loodussaadust v&otilde;i muud eset v&otilde;i ainet tagastava keskkonnaj&auml;relevalve asutuse nimetus ja asukoht ;</s>
+</p>
+<p>
+<s>3 ) akti koostanud ametiisiku ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>4 ) loodussaaduse v&otilde;i muu eseme v&otilde;i aine vastuv&otilde;tja nimi ja elukoht v&otilde;i juriidilise isiku nimetus ja asukoht ;</s>
+</p>
+<p>
+<s>5 ) f&uuml;&uuml;silisest isikust vastuv&otilde;tja puhul tema isikusamasuse tuvastamise viis , juriidilisest isikust vastuv&otilde;tja puhul tema esindaja isikusamasuse tuvastamise viis ja volituste alus ;</s>
+</p>
+<p>
+<s>6 ) &uuml;leantava loodussaaduse v&otilde;i muu eseme v&otilde;i aine nimetus , individuaalsed tunnused , kogus ja seisukord ning ligikaudne harilik v&auml;&auml;rtus ;</s>
+</p>
+<p>
+<s>7 ) loodussaadust v&otilde;i muud eset v&otilde;i ainet ebaseaduslikult vallanud isiku ees- ja perekonnanimi , isikukood ja elukoht v&otilde;i juriidilise isiku nimetus , registrikood ja asukoht , kui &uuml;leantav loodussaadus v&otilde;i muu ese v&otilde;i aine v&otilde;eti &auml;ra kellegi ebaseaduslikust valdusest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud aktile kirjutavad alla loodussaaduse v&otilde;i selle hankimise eseme v&otilde;i aine &uuml;leandja ja vastuv&otilde;tja .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Selguseta kuuluvusega loodussaaduse v&otilde;i muu eseme v&otilde;i aine m&uuml;&uuml;mine</s>
+</p>
+<p>
+<s>( 1 ) Selguseta kuuluvusega loodussaaduse v&otilde;i muu eseme v&otilde;i aine , mida pole taotlejale &uuml;le antud ja mis ei kuulu k&auml;esoleva seaduse alusel h&auml;vitamisele , v&otilde;i eseme , mida pole &uuml;le antud kui ajaloolist , teaduslikku , kunsti- v&otilde;i muud kultuuriv&auml;&auml;rtust omavat eset , m&uuml;&uuml;b keskkonnaj&auml;relevalve asutus :</s>
+</p>
+<p>
+<s>1 ) viivitamata , kui loodussaadus on kiiresti riknev v&otilde;i kujunevad hoidmise , veo v&otilde;i enampakkumisega m&uuml;&uuml;gi kulud suuremaks selle harilikust v&auml;&auml;rtusest ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva l&otilde;ike punktis 1 nimetamata juhul kuue kuu m&ouml;&ouml;dumisel , arvates &auml;rav&otilde;tmise teatamisest politseile .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud loodussaaduse v&otilde;i muu eseme v&otilde;i aine m&uuml;&uuml;mise kohta koostatakse protokoll , milles peab olema kirjas :</s>
+</p>
+<p>
+<s>1 ) m&uuml;&uuml;gi korraldanud keskkonnaj&auml;relevalve asutuse nimetus ja aadress ning ametiisiku ees- ja perekonnanimi ning ametinimetus ;</s>
+</p>
+<p>
+<s>2 ) m&uuml;&uuml;gi aeg , koht ja viis ;</s>
+</p>
+<p>
+<s>3 ) m&uuml;&uuml;dud loodussaaduse v&otilde;i muu eseme v&otilde;i aine nimetus ja kogus ning hind , tasumise viis , sularaha eest m&uuml;&uuml;misel ka saadud rahasumma ;</s>
+</p>
+<p>
+<s>4 ) loodussaaduse v&otilde;i muu eseme v&otilde;i aine m&uuml;&uuml;gi ning eelneva hoidmisega seotud kulutuste suurus ning kulu t&otilde;endavate dokumentide nimetus .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud protokollile kirjutavad alla m&uuml;&uuml;gi korraldanud ametiisik , tunnistaja ja hulgim&uuml;&uuml;gi korral ostja .</s>
+</p>
+<p>
+<s>( 4 ) Kui m&uuml;&uuml;k toimus sularaha eest , annab m&uuml;&uuml;ki korraldanud isik saadud rahasumma koos k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud protokolliga &uuml;le keskkonnaj&auml;relevalve asutuse raamatupidamisele hiljemalt esimesel m&uuml;&uuml;gile j&auml;rgneval t&ouml;&ouml;p&auml;eval v&otilde;i saadab samal t&auml;htajal raha &auml;ra posti teel v&otilde;i &uuml;lekandega .</s>
+</p>
+<p>
+<s>( 5 ) M&uuml;&uuml;gist saadud raha hoitakse loodussaaduse v&otilde;i muu eseme v&otilde;i aine m&uuml;&uuml;ki korraldanud keskkonnaj&auml;relevalve asutuse arvel kuus kuud selle m&uuml;&uuml;gi p&auml;evast alates v&auml;ljamaksmise v&otilde;imaldamiseks loodussaaduse v&otilde;i muu eseme v&otilde;i aine valdamise &otilde;igust omavale isikule tema selgumisel , olles saadud rahast eelnevalt maha arvanud loodussaaduse v&otilde;i muu eseme v&otilde;i aine hoidmise ja m&uuml;&uuml;gi kulud .</s><s>Nimetatud t&auml;htaja m&ouml;&ouml;dumisel kantakse raha riigieelarvesse .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Riigi keskkonnakaitseinspektorite varustamine vormiriietusega</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect; 14 kohast riigi keskkonnakaitseinspektorite vormiriietusega t&auml;ies ulatuses varustamist alustatakse 2003. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Kaitstavate loodusobjektide seaduse muutmine</s>
+</p>
+<p>
+<s>Kaitstavate loodusobjektide seaduse ( RT I 1994 , 46 , 773 ; 1998 , 36/37 , 555 ; 1999 , 54 , 583 ; 95 , 843 ; 2001 , 50 , 286 ) &sect; 6 l&otilde;ige 5 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Kiirgusseaduse muutmine</s>
+</p>
+<p>
+<s>Kiirgusseaduse ( RT I 1997 , 37/38 , 569 ; 1998 , 97 , 1520 ; 1999 , 88 , 804 ; 2000 , 102 , 670 ) &sect; 4 l&otilde;ige 3 tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Senise keskkonnaj&auml;relevalve seaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnaj&auml;relevalve seadus ( RT I 1997 , 86 , 1460 ; 1999 , 54 , 583 ; 95 , 843 ; 2000 , 51 , 319 ; 2001 , 50 , 283 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud seaduse alusel kehtestatud Vabariigi Valitsuse ja keskkonnaministri m&auml;&auml;rused kehtivad niiv&otilde;rd , kuiv&otilde;rd need ei ole vastuolus k&auml;esoleva seadusega , kuni nende muutmise v&otilde;i kehtetuks tunnistamiseni .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsus kehtestab k&auml;esoleva seaduse &sect; 15 l&otilde;ikes 3 nimetatud m&auml;&auml;ruse kolme kuu jooksul k&auml;esoleva seaduse j&otilde;ustumisest arvates .</s>
+</p>
+</body>
+   </text>
+</tei.2>

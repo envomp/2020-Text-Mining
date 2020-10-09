@@ -1,0 +1,1432 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> J&auml;&auml;tmeseadus ( terviktekst juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    7989</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> J&auml;&auml;tmeseadus ( terviktekst juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=23></tagusage>
+         <tagusage gi=p occurs=442></tagusage>
+         <tagusage gi=s occurs=524></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>J&auml;&auml;tmeseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 10. juunil 1998. a.</s>
+</p>
+<p>
+<s>( RT I 1998 , 57 , 861 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. detsembril 1998. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>12.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 340 ;</s>
+</p>
+<p>
+<s>11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 ;</s>
+</p>
+<p>
+<s>17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 ;</s>
+</p>
+<p>
+<s>08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 ;</s>
+</p>
+<p>
+<s>20.01.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 10 , 155 ;</s>
+</p>
+<p>
+<s>17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab &uuml;ldn&otilde;uded j&auml;&auml;tmete tekke ning neist tuleneva tervise- ja keskkonnaohu v&auml;ltimiseks ning j&auml;&auml;tmehoolduse korralduse j&auml;&auml;tmete ohtlikkuse ja koguse v&auml;hendamiseks , samuti vastutuse kehtestatud n&otilde;uete rikkumise korral .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse reguleerimisalasse ei kuulu :</s>
+</p>
+<p>
+<s>1 ) v&auml;lis&otilde;hku suunatavad saasteained ;</s>
+</p>
+<p>
+<s>2 ) reovesi ja koos reoveega k&auml;itlemisele v&otilde;i keskkonda suunatavad j&auml;&auml;tmed ;</s>
+</p>
+<p>
+<s>3 ) radioaktiivsed j&auml;&auml;tmed ;</s>
+</p>
+<p>
+<s>4 ) l&otilde;hkematerjalij&auml;&auml;kidest koosnevad ja l&otilde;hkematerjale sisaldavad j&auml;&auml;tmed ;</s>
+</p>
+<p>
+<s>5 ) loomakorjuste k&auml;itlemine muude &otilde;igusaktidega reguleeritud osas ;</s>
+</p>
+<p>
+<s>6 ) mullaviljakuse parandamiseks v&otilde;i mujal p&otilde;llumajanduses taaskasutatud s&otilde;nnik ning muud p&otilde;llu- ja metsamajanduses tekkinud looduss&otilde;bralikud tavaj&auml;&auml;tmed .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktis 2 nimetatu ei h&otilde;lma reovee k&auml;itlemisel tekkinud j&auml;&auml;tmeid .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>J&auml;&auml;tmed</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmed on mis tahes vallasasjad , mille nende valdaja on kasutuselt k&otilde;rvaldanud v&otilde;i kavatseb seda teha v&otilde;i on kohustatud seda tegema .</s>
+</p>
+<p>
+<s>( 2 ) Ohtlikud j&auml;&auml;tmed on j&auml;&auml;tmed , mis v&auml;hemalt &uuml;he k&auml;esoleva seaduse paragrahv 25 l&otilde;ikes 1 loetletud ohtliku omaduse t&otilde;ttu v&otilde;ivad p&otilde;hjustada kahju tervisele ja keskkonnale .</s>
+</p>
+<p>
+<s>( 3 ) Tavaj&auml;&auml;tmed on k&otilde;ik j&auml;&auml;tmed , mis ei kuulu ohtlike j&auml;&auml;tmete hulka .</s>
+</p>
+<p>
+<s>( 4 ) Olmej&auml;&auml;tmed on kodumajapidamises tekkinud j&auml;&auml;tmed ning kaubanduses , teeninduses v&otilde;i mujal tekkinud oma koostiselt ja omadustelt samalaadsed j&auml;&auml;tmed .</s><s>Olmej&auml;&auml;tmetes v&otilde;ib sisalduda nii tava- kui ka ohtlikke j&auml;&auml;tmeid .</s>
+</p>
+<p>
+<s>( 5 ) Vabariigi Valitsuse m&auml;&auml;rusega kehtestatakse nimistud :</s>
+</p>
+<p>
+<s>1 ) j&auml;&auml;tmekategooriatest ;</s>
+</p>
+<p>
+<s>2 ) j&auml;&auml;tmeliikidest ;</s>
+</p>
+<p>
+<s>3 ) ohtlikest j&auml;&auml;tmetest .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>J&auml;&auml;tmevaldaja</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmevaldaja on j&auml;&auml;tmetekitaja v&otilde;i muu isik , kelle valduses on j&auml;&auml;tmed .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmetekitaja on isik , kelle tegevuses tekivad j&auml;&auml;tmed , v&otilde;i isik , kelle sihip&auml;rase tegevuse tulemusel j&auml;&auml;tmete olemus v&otilde;i koostis muutub .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>J&auml;&auml;tmehooldus</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmehooldus on j&auml;&auml;tmek&auml;itlus , j&auml;relevalve j&auml;&auml;tmek&auml;itluse &uuml;le ja j&auml;&auml;tmek&auml;itluskohtade j&auml;relhooldus .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmek&auml;itlus on j&auml;&auml;tmete kogumine , vedu , taaskasutamine ja k&otilde;rvaldamine .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmek&auml;itluskohtade j&auml;relhooldus on suletud j&auml;&auml;tmek&auml;itluskohtade keskkonnaseire ning v&otilde;imalike keskkonnah&auml;iringute t&otilde;rjega seotud tegevus .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;&auml;tmete kogumine on j&auml;&auml;tmete kokkukorjamine , sorteerimine ja segamine nende veo v&otilde;i kohapealse taaskasutamise v&otilde;i k&otilde;rvaldamise eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 5 ) J&auml;&auml;tmete k&otilde;rvaldamine on toiming , millega j&auml;&auml;tmed viiakse keskkonda .</s>
+</p>
+<p>
+<s>( 6 ) J&auml;&auml;tmete taaskasutamine on toiming , millega j&auml;&auml;tmed v&otilde;i neis sisalduv aine v&otilde;etakse kasutusele toodete valmistamisel , t&ouml;&ouml; tegemisel v&otilde;i energia saamisel .</s>
+</p>
+<p>
+<s>( 7 ) Vabariigi Valitsus kehtestab oma m&auml;&auml;rusega j&auml;&auml;tmete k&otilde;rvaldamis- ja taaskasutamistoimingute nimistud .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;&auml;tmete tekke v&auml;ltimine , nende koguse ja ohtlikkuse v&auml;hendamine</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>&Uuml;ldn&otilde;uded j&auml;&auml;tmete tekke v&auml;ltimiseks ja v&auml;hendamiseks</s>
+</p>
+<p>
+<s>( 1 ) Iga tegevuse juures tuleb rakendada k&otilde;iki sobivaid j&auml;&auml;tmetekke v&auml;ltimise ja j&auml;&auml;tmete hulga v&auml;hendamise v&otilde;imalusi , samuti kanda hoolt , et j&auml;&auml;tmed ei p&otilde;hjustaks &uuml;lem&auml;&auml;rast ohtu tervisele ega keskkonnale .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud eesm&auml;rkide saavutamiseks tuleb iga tegevuse juures v&otilde;imaluste piires :</s>
+</p>
+<p>
+<s>1 ) rakendada loodusvarade ja toorme s&auml;&auml;stlikku kasutamist v&otilde;imaldavat tehnoloogiat , sealhulgas tehnoloogiat , milles v&otilde;imalikult suures ulatuses taaskasutatakse j&auml;&auml;tmeid ;</s>
+</p>
+<p>
+<s>2 ) valmistada ja sisse vedada eesk&auml;tt selliseid tooteid , mis on pikaealised ja korduvalt kasutatavad ning mille kasutuselt k&otilde;rvaldamisel tekkinud j&auml;&auml;tmed on taaskasutatavad v&otilde;imalikult suurel m&auml;&auml;ral .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Meetmed j&auml;&auml;tmete tekke v&auml;ltimiseks v&otilde;i v&auml;hendamiseks</s>
+</p>
+<p>
+<s>( 1 ) Keelatud on toodete valmistamine , sisse- ja v&auml;ljavedu , m&uuml;&uuml;k ning kasutamine , kui sealjuures tekkinud j&auml;&auml;tmete k&auml;itlemisel pole v&otilde;imalik t&auml;ita k&auml;esoleva seaduse paragrahv 11 l&otilde;ikes 2 kehtestatud n&otilde;udeid ja sellest on tekkinud v&otilde;i v&otilde;ib tekkida tervise- ja keskkonnaoht .</s><s>Vabariigi Valitsus kehtestab m&auml;&auml;rusega &uuml;lalnimetatud toodete loetelu , samuti piirangud ja eritingimused toodete valmistamisel , sisse- ja v&auml;ljaveol , m&uuml;&uuml;gil ning kasutamisel , kui see on vajalik Eesti Vabariigi suhtes j&otilde;ustunud v&auml;lislepingute t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnaminister annab m&auml;&auml;rusi toodete m&auml;rgistamise kohta nende keskkonnaohtlikkuse seisukohalt ja kehtestab kasutuselt k&otilde;rvaldatud toodete tagastamise korra , kui need j&auml;&auml;tmetena v&otilde;ivad p&otilde;hjustada tervise- v&otilde;i keskkonnaohtu .</s>
+</p>
+<p>
+<s>( 3 ) Majandusminister m&auml;&auml;rab k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud toodetele pandi v&otilde;i tagatisraha , mis lisatakse toote hinnale ja kompenseeritakse tarbijale toote tagastamisel .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;&auml;tmehoolduse planeerimine</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>J&auml;&auml;tmekava</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadusega m&auml;&auml;ratud eesm&auml;rkide saavutamiseks koostatakse &uuml;leriigiline , maakonna ning valla ja linna j&auml;&auml;tmekava .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmekava k&auml;sitleb j&auml;&auml;tmehoolduse olukorda riigis v&otilde;i haldus&uuml;ksuses , kavandatavaid eesm&auml;rke j&auml;&auml;tmehoolduse korraldamisel ja t&otilde;hustamisel ning meetmeid nende eesm&auml;rkide saavutamiseks .</s><s>J&auml;&auml;tmekava peab sisaldama :</s>
+</p>
+<p>
+<s>1 ) olemasoleva j&auml;&auml;tmehoolduse olukorra kirjeldust ning p&otilde;hiliste taaskasutatavate ja k&otilde;rvaldatavate j&auml;&auml;tmete liike ja koguseid ;</s>
+</p>
+<p>
+<s>2 ) j&auml;&auml;tmek&auml;itlemiseks vajamineva loodusvara kasutamise mahu hinnangut ;</s>
+</p>
+<p>
+<s>3 ) hinnangut j&auml;&auml;tmek&auml;itluse m&otilde;ju kohta keskkonna seisundile ;</s>
+</p>
+<p>
+<s>4 ) kavandatavaid eesm&auml;rke , nagu j&auml;&auml;tmekoguste ja j&auml;&auml;tmete ohtlikkuse v&auml;hendamine , j&auml;&auml;tmete taaskasutamine , j&auml;&auml;tmete keskkonnaohutu k&otilde;rvaldamine ja j&auml;&auml;tmevedude optimeerimine ;</s>
+</p>
+<p>
+<s>5 ) eesm&auml;rkide realiseerimise vahendeid ja meetmeid , nagu j&auml;&auml;tmek&auml;itlusmenetluse valik , j&auml;&auml;tmek&auml;itluskohtade ja -seadmete v&otilde;rgustik ning nende paigutus , erimeetmed ohtlike ja muude oluliste j&auml;&auml;tmeliikide k&auml;itlemiseks , keskkonna- ja tervisekaitse meetmed ning nende tagamise tehnoloogilised vahendid , meetmete rakendamise eeldatav maksumus .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmekavade koostamisel tuleb arvesse v&otilde;tta j&auml;rgmisi j&auml;&auml;tmek&auml;itluse p&otilde;hin&otilde;udeid :</s>
+</p>
+<p>
+<s>1 ) j&auml;&auml;tmek&auml;itluses tuleb kasutada parimat v&otilde;imalikku tehnoloogiat , kui sellega ei kaasne &uuml;lem&auml;&auml;raseid kulutusi ;</s>
+</p>
+<p>
+<s>2 ) j&auml;&auml;tmed tuleb taaskasutada , kui see on tehnoloogiliselt v&otilde;imalik ning sellega ei kaasne &uuml;lem&auml;&auml;raseid kulutusi , v&otilde;rreldes teiste j&auml;&auml;tmek&auml;itlusviisidega ;</s>
+</p>
+<p>
+<s>3 ) j&auml;&auml;tmetest energia saamisele tuleb eelistada nende taaskasutamist toorme v&otilde;i materjalina ;</s>
+</p>
+<p>
+<s>4 ) j&auml;&auml;tmeid tuleb taaskasutada v&otilde;i k&otilde;rvaldada nende tekkekohale v&otilde;imalikult l&auml;hedal asuvas tehnoloogiliselt ja keskkonnakaitseliselt sobivas j&auml;&auml;tmek&auml;itluskohas .</s>
+</p>
+<p>
+<s>( 4 ) Kui &otilde;igusaktiga ei ole t&auml;htaega m&auml;&auml;ratud , kavandatakse j&auml;&auml;tmekavaga :</s>
+</p>
+<p>
+<s>1 ) j&auml;&auml;tmete sorteerimise ja liigiti kogumise rakendamine ;</s>
+</p>
+<p>
+<s>2 ) toodete puhul , mis ise v&otilde;i j&auml;&auml;tmetena v&otilde;ivad p&otilde;hjustada tervise- v&otilde;i keskkonnaohtu , pandi v&otilde;i tagatisrahaga tasustamine .</s>
+</p>
+<p>
+<s>( 5 ) Kohalik omavalitsus annab vajalikku teavet maakonna ja &uuml;leriigilise j&auml;&auml;tmekava koostamiseks .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 6 ) J&auml;&auml;tmekavas etten&auml;htud meetmete rakendamiseks algatatakse vajadusel planeering planeerimis- ja ehitusseadusega ( RT I 1995 , 59 , 1006 ; 1996 , 36 , 738 ; 49 , 953 ; 1999 , 27 , 380 ; 29 , 398 ; 399 ; 95 , 843 ; 2000 , 54 , 348 ; 2001 , 42 , 234 ; 50 , 283 ; 65 , 377 ) m&auml;&auml;ratud korras .</s>
+</p>
+<p>
+<s>( 7 ) Keskkonnaministeerium koordineerib valdade ning linnade ja nende &uuml;henduste tegevust j&auml;&auml;tmekavade koostamisel ja elluviimisel .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>&Uuml;leriigiline j&auml;&auml;tmekava</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;leriigiline j&auml;&auml;tmekava on s&auml;&auml;stva arengu seaduse ( RT I 1995 , 31 , 384 ; 1997 , 48 , 772 ; 1999 , 29 , 398 ; 2000 , 54 , 348 ) paragrahv 12 kohaselt koostatud j&auml;&auml;tmehoolduse arengukava , mis h&otilde;lmab kogu riigi territooriumi ning k&auml;sitleb lisaks k&auml;esoleva seaduse paragrahv 7 l&otilde;ikes 2 nimetatule ka riikidevahelist j&auml;&auml;tmek&auml;itluse optimeerimist ja j&auml;&auml;tmealast koost&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;leriigilise j&auml;&auml;tmekava eeln&otilde;u avalikustatakse maavalitsuste ning kohalike omavalitsuste kaudu .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;leriigiline j&auml;&auml;tmekava koostatakse kahe aasta jooksul p&auml;rast k&auml;esoleva seaduse j&otilde;ustumist ning vaadatakse &uuml;le v&auml;hemalt iga viie aasta tagant .</s>
+</p>
+<p>
+<s>( 4 ) &Uuml;leriigilise j&auml;&auml;tmekava koostamist ning selle avalikustamist ja t&auml;itmist korraldab keskkonnaminister .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Maakonna j&auml;&auml;tmekava</s>
+</p>
+<p>
+<s>( 1 ) Maakonna j&auml;&auml;tmekava koostatakse &uuml;leriigilise j&auml;&auml;tmekava alusel kogu maakonna v&otilde;i mitme maakonna territooriumi kohta .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 2 ) Maakonna j&auml;&auml;tmekava koostatakse &uuml;he aasta jooksul p&auml;rast &uuml;leriigilise j&auml;&auml;tmekava vastuv&otilde;tmist ning vaadatakse &uuml;le v&auml;hemalt iga viie aasta tagant .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 4 ) Maakonna j&auml;&auml;tmekava koostamist ja selle avalikustamist korraldab Keskkonnaministeerium .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Valla ja linna j&auml;&auml;tmekava</s>
+</p>
+<p>
+<s>( 1 ) Kohalik omavalitsus koostab valla v&otilde;i linna j&auml;&auml;tmekava oma arengukava osana , juhindudes maakonna j&auml;&auml;tmekavast .</s>
+</p>
+<p>
+<s>( 2 ) Valla v&otilde;i linna j&auml;&auml;tmekava avalikustatakse kohaliku omavalitsuse korralduse seaduse ( RT I 1993 , 37 , 558 ; 1999 , 82 , 755 ; 2000 , 51 , 322 ; 2001 , 24 , 133 ) paragrahv 37 l&otilde;ikes 2 s&auml;testatu kohaselt .</s>
+</p>
+<p>
+<s>( 3 ) Kohalik omavalitsus v&otilde;ib k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &uuml;lesande t&auml;itmiseks n&otilde;uda oma haldusterritooriumil tegutsevalt ettev&otilde;tjalt j&auml;&auml;tmekava , mis k&auml;sitleb ettev&otilde;tja tegevusega seotud j&auml;&auml;tmek&auml;itlust .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;&auml;tmehoolduse korraldamine</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>J&auml;&auml;tmehoolduse korraldamise p&otilde;hin&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmevaldaja on kohustatud korraldama j&auml;&auml;tmete &uuml;leandmise j&auml;&auml;tmeluba omavale v&otilde;i j&auml;&auml;tmeregistris registreeritud j&auml;&auml;tmek&auml;itlejale v&otilde;i taaskasutama v&otilde;i k&otilde;rvaldama j&auml;&auml;tmed vastavalt k&auml;esoleva seaduse n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmek&auml;itlusega ei tohi kaasneda normatiive &uuml;letavat m&otilde;ju tervisele ega keskkonnale .</s>
+</p>
+<p>
+<s>( 3 ) Keskkonnaminister annab m&auml;&auml;rusi t&auml;iendavate n&otilde;uete kehtestamiseks teatud j&auml;&auml;tmeliikide k&auml;itlemise kohta , kui :</s>
+</p>
+<p>
+<s>1 ) k&auml;itlemisest on tekkinud v&otilde;i v&otilde;ib tekkida oht tervisele ja keskkonnale ;</s>
+</p>
+<p>
+<s>2 ) t&auml;iendavad n&otilde;uded on vajalikud Eesti Vabariigi suhtes j&otilde;ustunud v&auml;lislepingute t&auml;itmiseks .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>J&auml;&auml;tmek&auml;itluskoht</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmek&auml;itluskoht on tehniliselt varustatud v&otilde;i sisustatud ehitis j&auml;&auml;tmete kogumiseks , taaskasutamiseks v&otilde;i k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmeid v&otilde;ib taaskasutada v&otilde;i k&otilde;rvaldada vaid j&auml;&auml;tmeloaga m&auml;&auml;ratud j&auml;&auml;tmek&auml;itluskohtades .</s><s>J&auml;&auml;tmete h&uuml;lgamine v&otilde;i keskkonda viimine v&auml;ljaspool selleks etten&auml;htud j&auml;&auml;tmek&auml;itluskohti on keelatud .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmek&auml;itluskoha asukoht koosk&otilde;lastatakse ja kinnitatakse planeerimis- ja ehitusseadusega m&auml;&auml;ratud korras .</s>
+</p>
+<p>
+<s>( 4 ) Keskkonnaminister kehtestab oma m&auml;&auml;rusega n&otilde;uded j&auml;&auml;tmete k&otilde;rvaldamiseks etten&auml;htud j&auml;&auml;tmek&auml;itluskohtade rajamiseks , kasutamiseks ja sulgemiseks , et tagada j&auml;&auml;tmek&auml;itluskohtade ohutus tervisele ja keskkonnale nii j&auml;&auml;tmete k&auml;itlemise ajal kui ka p&auml;rast selle l&otilde;petamist .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>J&auml;&auml;tmeveo korraldamine</s>
+</p>
+<p>
+<s>J&auml;&auml;tmeveo korraldab j&auml;&auml;tmevaldaja , v&auml;lja arvatud olmej&auml;&auml;tmete korraldatud vedu j&auml;&auml;tmek&auml;itluskohtadesse ( edaspidi korraldatud olmej&auml;&auml;tmevedu ) .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Korraldatud olmej&auml;&auml;tmevedu</s>
+</p>
+<p>
+<s>( 1 ) Kohalik omavalitsus korraldab oma haldusterritooriumil korraldatud olmej&auml;&auml;tmeveo .</s><s>Korraldatud olmej&auml;&auml;tmevedu v&otilde;ib h&otilde;lmata ka muid j&auml;&auml;tmeid .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus v&otilde;ib j&auml;tta korraldatud olmej&auml;&auml;tmeveo korraldamata haldusterritooriumi osades , kus :</s>
+</p>
+<p>
+<s>1 ) j&auml;&auml;tmetekitajate v&auml;hesuse , nende hajutatuse v&otilde;i veetavate j&auml;&auml;tmete v&auml;ikeste koguste t&otilde;ttu oleks korraldatud olmej&auml;&auml;tmevedu &uuml;lem&auml;&auml;ra kulukas ;</s>
+</p>
+<p>
+<s>2 ) korraldatud olmej&auml;&auml;tmeveoks puudub keskkonna- ja tervisekaitseline vajadus .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Korraldatud olmej&auml;&auml;tmeveoga liitumine</s>
+</p>
+<p>
+<s>( 1 ) Olmej&auml;&auml;tmete valdaja on kohustatud liituma korraldatud olmej&auml;&auml;tmeveoga , s&otilde;lmides sellekohase lepingu kohaliku omavalitsusega v&otilde;i tema poolt seadusega etten&auml;htud korras valitud veoettev&otilde;tjaga .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus v&otilde;ib korraldatud olmej&auml;&auml;tmeveoga &uuml;hinemise kohustusest vabastada olmej&auml;&auml;tmete valdaja , kes korraldab ise olmej&auml;&auml;tmete veo v&otilde;i k&auml;itluse , andes sellest n&otilde;udmisel aru kohalikule omavalitsusele .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>J&auml;&auml;tmeveo p&otilde;hin&otilde;uded ja j&auml;&auml;tmevedaja kohustused</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmeveol peab v&auml;ltima &uuml;lem&auml;&auml;raste kahjulike m&otilde;jutuste , nagu m&uuml;ra ja hais teket .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmeid peab vedama kinnises veovahendis , pakitult v&otilde;i muul asjakohasel viisil , mis hoiab &auml;ra j&auml;&auml;tmete sattumise keskkonda veo , sealhulgas laadimise k&auml;igus .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmevedaja vastutab veo ohutusn&otilde;uete t&auml;itmise eest ning j&auml;&auml;tmete toimetamise eest j&auml;&auml;tmed vedamiseks &uuml;le andnud isiku , linna- v&otilde;i vallavalitsuse v&otilde;i p&auml;deva riigiametniku poolt m&auml;&auml;ratud j&auml;&auml;tmek&auml;itluskohta .</s>
+</p>
+<p>
+<s>( 4 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud j&auml;&auml;tmek&auml;itluskohas j&auml;&auml;tmeid vastu ei v&otilde;eta , tagastab j&auml;&auml;tmevedaja j&auml;&auml;tmed isikule , kes j&auml;&auml;tmed &uuml;le andis ning kes on kohustatud j&auml;&auml;tmed tagasi v&otilde;tma .</s><s>J&auml;&auml;tmete tagasiv&otilde;tmise kohustus ei laiene korraldatud olmej&auml;&auml;tmeveoga h&otilde;lmatud olmej&auml;&auml;tmetele .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>J&auml;&auml;tmete kogumine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmete kogumise korraldab j&auml;&auml;tmevaldaja .</s>
+</p>
+<p>
+<s>( 2 ) Korraldatud olmej&auml;&auml;tmeveoga h&otilde;lmatud j&auml;&auml;tmete kogumise korraldab kinnisasja omanik , kelle kinnisasjal j&auml;&auml;tmed tekivad , v&otilde;i tema poolt volitatud isik , ning m&auml;&auml;rab kinnisasjal tekkinud j&auml;&auml;tmete kogumiskoha .</s><s>J&auml;&auml;tmetekitaja on kohustatud toimetama j&auml;&auml;tmed kindlaksm&auml;&auml;ratud kogumiskohta .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatu laieneb ka hoone kui vallasasja omanikule .</s>
+</p>
+<p>
+<s>( 4 ) Kohalik omavalitsus v&otilde;ib kindlaks m&auml;&auml;rata j&auml;&auml;tmete kogumiskoha , kuhu tuleb korraldatud olmej&auml;&auml;tmeveoga h&otilde;lmatud j&auml;&auml;tmed nende edasise veo eesm&auml;rgil toimetada .</s>
+</p>
+<p>
+<s>( 5 ) Kohalik omavalitsus edendab j&auml;&auml;tmete liigiti kogumist , et v&otilde;imaldada nende edasist taaskasutamist v&otilde;imalikult suures ulatuses .</s>
+</p>
+<p>
+<s>( 6 ) J&auml;&auml;tmevaldaja on kohustatud j&auml;rgima kohaliku omavalitsuse n&otilde;udeid j&auml;&auml;tmete segunemise v&auml;ltimiseks nende tekkekohas ja j&auml;&auml;tmete liigiti kogumiseks selleks etten&auml;htud mahutitesse .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>J&auml;&auml;tmete taaskasutamine ja k&otilde;rvaldamine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmevaldaja korraldab oma j&auml;&auml;tmete taaskasutamise v&otilde;i l&otilde;pliku k&otilde;rvaldamise .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus korraldab oma haldusterritooriumil korraldatud olmej&auml;&auml;tmeveoga h&otilde;lmatud j&auml;&auml;tmete taaskasutamise v&otilde;i k&otilde;rvaldamise .</s><s>Kohalik omavalitsus v&otilde;ib korraldada ka muude j&auml;&auml;tmete taaskasutamist v&otilde;i k&otilde;rvaldamist .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>J&auml;&auml;tmete &uuml;leandmine k&auml;itlemiseks</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmevaldaja annab j&auml;&auml;tmed k&auml;itlemiseks &uuml;le j&auml;&auml;tmeluba omavale v&otilde;i j&auml;&auml;tmeregistris registreeritud isikule .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmete &uuml;leandmisel k&auml;itlemiseks , mille puhul j&auml;&auml;tmeluba ei vajata , peab j&auml;&auml;tmeid &uuml;leandev isik veenduma , et vastuv&otilde;tjal on selleks tegevuseks piisavad tehnilised ja keskkonnakaitselised vahendid .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Kohalike omavalitsuste koost&ouml;&ouml;</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadusega s&auml;testatud n&otilde;uete t&auml;itmiseks teevad kohalikud omavalitsused vajaduse korral koost&ouml;&ouml;d , juhindudes muuhulgas kohaliku omavalitsuse korralduse seaduse paragrahvidest 62-64.</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus v&otilde;i omavalitsuste &uuml;hendus ei v&otilde;i keelduda koost&ouml;&ouml;st , mis on ette n&auml;htud &uuml;leriigilise j&auml;&auml;tmekavaga k&auml;esoleva seaduse n&otilde;uete rakendamiseks , kui keeldumine v&otilde;ib kaasa tuua ohtu tervisele v&otilde;i keskkonnale .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Kohaliku omavalitsuse j&auml;&auml;tmehoolduseeskiri</s>
+</p>
+<p>
+<s>( 1 ) Linna v&otilde;i valla volikogu kehtestab m&auml;&auml;rusega k&auml;esoleva seaduse j&otilde;ustumisest &uuml;he aasta jooksul oma haldusterritooriumil j&auml;&auml;tmehoolduseeskirja , mis peab s&auml;testama :</s>
+</p>
+<p>
+<s>1 ) j&auml;&auml;tmete kogumise , veo , hoidmise , taaskasutamise ja k&otilde;rvaldamise korralduse ning nende tegevustega seotud tehnilised n&otilde;uded ;</s>
+</p>
+<p>
+<s>2 ) j&auml;&auml;tmetest tervisele ja keskkonnale p&otilde;hjustatud ohu v&auml;ltimise v&otilde;i v&auml;hendamise meetmed .</s>
+</p>
+<p>
+<s>( 2 ) Korraldatud olmej&auml;&auml;tmeveo kohta v&otilde;ib kohalik omavalitsus j&auml;&auml;tmehoolduseeskirjaga kehtestada tingimusi , mis k&auml;sitlevad j&auml;&auml;tmevaldaja ja j&auml;&auml;tmek&auml;itleja vahelisi suhteid , j&auml;&auml;tmeveo korraldust ning korraldatud olmej&auml;&auml;tmeveoga h&otilde;lmatud piirkondi .</s>
+</p>
+<p>
+<s>( 3 ) Kohaliku omavalitsuse j&auml;&auml;tmehoolduseeskirja eeln&otilde;u esitatakse enne kehtestamist maavanemale , kes v&otilde;ib teha ettepanekuid nende t&auml;iendamiseks v&otilde;i muutmiseks , l&auml;hetades need eeln&otilde;u esitamisest &uuml;he kuu jooksul kohalikule omavalitsusele .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>J&auml;&auml;tmek&auml;itluse finantseerimine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmek&auml;itluse kulud kannab j&auml;&auml;tmevaldaja v&otilde;i seadusega s&auml;testatud juhtudel isik , kelle valduses k&auml;ideldavad j&auml;&auml;tmed on olnud .</s>
+</p>
+<p>
+<s>( 2 ) Kui tootest tekkivate j&auml;&auml;tmete k&auml;itlemine v&otilde;ib p&otilde;hjustada tervise- v&otilde;i keskkonnaohtu , korraldab toote valmistaja v&otilde;i importija kas osaliselt v&otilde;i t&auml;ielikult tootest tekkinud j&auml;&auml;tmete k&auml;itluse v&otilde;i kannab j&auml;&auml;tmehooldusega seonduvad kulud .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud toodete loetelu kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Korraldatud olmej&auml;&auml;tmeveoga h&otilde;lmatud j&auml;&auml;tmete k&auml;itlemise teenustasu</s>
+</p>
+<p>
+<s>( 1 ) Kohalik omavalitsus v&otilde;ib kehtestada korraldatud olmej&auml;&auml;tmeveoga h&otilde;lmatud j&auml;&auml;tmete k&auml;itlemise eest v&otilde;etava teenustasu &uuml;lempiiri .</s>
+</p>
+<p>
+<s>( 2 ) Teenustasu suuruse kindlaksm&auml;&auml;ramisel juhindutakse j&auml;&auml;tmete liigist , kogusest ja omadustest ning teenindussagedusest .</s><s>Arvestada v&otilde;idakse ka veokaugust , kogumiskonteinerite olemasolu ja nende kasutamist ning kogumis- ja vedamistingimusi kinnisasjal , j&auml;&auml;tmek&auml;itluskohta vedamise tingimusi ning teisi asjaolusid , mis oluliselt m&otilde;jutavad k&auml;itlemise kulukust .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmete k&otilde;rvaldamisel peab teenustasu suuruse kindlaksm&auml;&auml;ramisel arvestama j&auml;&auml;tmek&auml;itluskohtade rajamis- , kasutus- , sulgemis- ning j&auml;relhoolduskulusid .</s>
+</p>
+<p>
+<s>( 4 ) Kui j&auml;&auml;tmete liiki v&otilde;i kogust ei ole v&otilde;imalik ilma liigsete kulutusteta usaldusv&auml;&auml;rselt kindlaks teha , v&otilde;ib teenustasu suurus olla kindlaks m&auml;&auml;ratud teenindatava kinnisasja suuruse , seal asuvate elanike arvu v&otilde;i muul sellisel alusel .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 4 s&auml;testatut v&otilde;ib kohalik omavalitsus rakendada ka siis , kui see on vajalik keskkonnakaitse v&otilde;i j&auml;&auml;tmehoolduse korraldamise huvides .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Kohaliku omavalitsuse kasuks seatav reaalkoormatis j&auml;&auml;tmehoolduse korraldamiseks</s>
+</p>
+<p>
+<s>( 1 ) Kohalikul omavalitsusel on &otilde;igus n&otilde;uda tema haldusterritooriumil asuva kinnisasja omanikult reaalkoormatisena perioodilisi rahalisi makseid v&auml;hemalt &uuml;ks kord aastas v&otilde;i nimetatud maksetega v&otilde;rdseks hinnatavat tegevust j&auml;&auml;tmehoolduse korraldamiseks kohaliku omavalituse haldusterritooriumil , juhindudes asja&otilde;igusseaduse ( RT I 1993 , 39 , 590 ; 1999 , 44 , 509 ; 2001 , 34 , 185 ) paragrahvidest 229-240.</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud summa v&otilde;i sellega v&otilde;rdseks hinnatav tegevus seatakse s&otilde;ltuvusse kinnisasja sihtotstarbest , suurusest ning seal tekkivate j&auml;&auml;tmete liigist ja hulgast .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Ohtlikud j&auml;&auml;tmed</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Ohtlike j&auml;&auml;tmete liigitamine</s>
+</p>
+<p>
+<s>( 1 ) Ohtlikud omadused , mille alusel j&auml;&auml;tmed vastavalt paragrahv 2 l&otilde;ikele 2 m&auml;&auml;ratletakse ohtlike j&auml;&auml;tmetena , on :</s>
+</p>
+<p>
+<s>1 ) H1 - plahvatusohtlikud ained ja valmistised , mis v&otilde;ivad leegiga kokkupuutel plahvatada v&otilde;i mis on l&ouml;&ouml;kidele ja h&otilde;&otilde;rdumisele tundlikumad kui dinitrobenseen ;</s>
+</p>
+<p>
+<s>2 ) H2 - oks&uuml;deerivad ained ja valmistised , mis kokkupuutel muude , eriti kergestis&uuml;ttivate ainetega vallandavad tugevalt eksotermilise reaktsiooni ;</s>
+</p>
+<p>
+<s>3 ) H3A - kergestis&uuml;ttivad vedelad ained ja valmistised , mille leekt&auml;pp on alla 21 oC ( kaasa arvatud eriti kergesti s&uuml;ttivad vedelikud ) , ning ained ja valmistised , mis v&otilde;ivad normaaltemperatuuril iseenesest kuumeneda ja &otilde;huga kokkupuutel l&otilde;puks s&uuml;ttida lisaenergiat vajamata , ning tahked ained v&otilde;i valmistised , mis v&otilde;ivad kergesti s&uuml;ttida p&auml;rast l&uuml;hiajalist kokkupuudet mingi p&otilde;leva allikaga ja mis p&otilde;levad edasi v&otilde;i kuluvad , kui see allikas on k&otilde;rvaldatud , ning gaasilises olekus ained v&otilde;i valmistised , mis p&otilde;levad &otilde;hu k&auml;es normaalr&otilde;hul , ning ained ja valmistised , mis kokkupuutel niiske &otilde;hu v&otilde;i veega v&otilde;ivad eraldada ohtlikul hulgal kergestis&uuml;ttivaid gaase ;</s>
+</p>
+<p>
+<s>4 ) H3B - s&uuml;ttivad vedelad ained ja valmistised , mille leekt&auml;pp on v&otilde;rdne v&otilde;i &uuml;le 21 oC ja v&otilde;rdne v&otilde;i alla 55 oC ;</s>
+</p>
+<p>
+<s>5 ) H4 - &auml;rritavad mittes&ouml;&ouml;bivad ained ja valmistised , mis v&otilde;ivad hetkelises , kestvas v&otilde;i korduvas kontaktis naha v&otilde;i limaskestaga esile kutsuda p&otilde;letikku ;</s>
+</p>
+<p>
+<s>6 ) H5 - kahjulikud ained ja valmistised , mis hingamisteede , seedeelundite v&otilde;i naha kaudu organismi sattudes v&otilde;ivad p&otilde;hjustada piiratud terviseriski ;</s>
+</p>
+<p>
+<s>7 ) H6 - m&uuml;rgised ained ja valmistised , mis hingamisteede , seedeelundite v&otilde;i naha kaudu organismi sattudes v&otilde;ivad p&otilde;hjustada raskeid , &auml;gedaid v&otilde;i kroonilisi terviseh&auml;ireid v&otilde;i isegi surma ;</s>
+</p>
+<p>
+<s>8 ) H7 - kantserogeensed ained ja valmistised , mis hingamisteede , seedeelundite v&otilde;i naha kaudu organismi sattudes v&otilde;ivad p&otilde;hjustada v&auml;hkt&otilde;ppe haigestumist v&otilde;i suurendada selle haiguse esinemissagedust ;</s>
+</p>
+<p>
+<s>9 ) H8 - s&ouml;&ouml;bivad ained v&otilde;i valmistised , mis vahetul kokkupuutel eluskudedega v&otilde;ivad neid h&auml;vitada ;</s>
+</p>
+<p>
+<s>10 ) H9 - nakkusttekitavad , elus mikroorganisme v&otilde;i nende toksiine sisaldavad ained , mida teatakse kindlasti v&otilde;i t&otilde;en&auml;oliselt p&otilde;hjustavat inimeste v&otilde;i muude elusorganismide haigestumist ;</s>
+</p>
+<p>
+<s>11 ) H10 - teratogeensed ained ja valmistised , mis hingamisteede , seedeelundite v&otilde;i naha kaudu organismi sattudes v&otilde;ivad esile kutsuda mittep&auml;rilikke kaasas&uuml;ndinud v&auml;&auml;rarenguid v&otilde;i suurendada nende esinemissagedust ;</s>
+</p>
+<p>
+<s>12 ) H11 - mutageensed ained ja valmistised , mis hingamisteede v&otilde;i seedeelundite kaudu organismi sattudes v&otilde;ivad esile kutsuda p&auml;rilikke geneetilisi defekte v&otilde;i suurendada nende esinemissagedust ;</s>
+</p>
+<p>
+<s>13 ) H12 - ained ja valmistised , mille kokkupuutel vee , &otilde;hu v&otilde;i hapetega vabanevad m&uuml;rgised v&otilde;i v&auml;ga m&uuml;rgised gaasid ;</s>
+</p>
+<p>
+<s>14 ) H13 - ained ja valmistised , millest p&auml;rast nende k&otilde;rvaldamist v&otilde;ivad eralduda , n&auml;iteks leostumise teel , muud ained , millel on mis tahes k&auml;esoleva l&otilde;ike punktides 1-13 loetletud omadused ;</s>
+</p>
+<p>
+<s>15 ) H14 - &ouml;kotoksilised ained ja valmistised , mis p&otilde;hjustavad v&otilde;i v&otilde;ivad p&otilde;hjustada kas kohe v&otilde;i aja jooksul ohtu &uuml;hele v&otilde;i mitmele keskkonnakomponendile .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus kehtestab oma m&auml;&auml;rusega ohtlike j&auml;&auml;tmete m&auml;&auml;ratlemise ja liigitamise korra , l&auml;htudes j&auml;&auml;tmete p&auml;ritolust , koostisest , vajaduse korral ka ohtlike komponentide kontsentratsiooni piirv&auml;&auml;rtusest ja kahjuliku toime tugevusest .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud kord vaadatakse v&auml;hemalt iga kolme aasta tagant Vabariigi Valitsuse poolt &uuml;le ja tehakse vajadusel selles muudatused .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Ohtlike j&auml;&auml;tmete k&auml;itluse eritingimused</s>
+</p>
+<p>
+<s>( 1 ) Tuleb v&auml;ltida ohtlike j&auml;&auml;tmete segunemist omavahel v&otilde;i tavaj&auml;&auml;tmetega v&otilde;i muude ainete v&otilde;i asjadega .</s>
+</p>
+<p>
+<s>( 2 ) Juba segunenud j&auml;&auml;tmed tuleb lahutada , kui see on tehnoloogiliselt v&otilde;imalik ja sellega ei kaasne &uuml;lem&auml;&auml;raseid kulutusi ning kui see on vajalik tervise- ja keskkonnaohu v&auml;ltimiseks .</s>
+</p>
+<p>
+<s>( 3 ) Ohtlike j&auml;&auml;tmete segamine omavahel v&otilde;i tavaj&auml;&auml;tmetega v&otilde;i muude asjadega on lubatud , kui sellega ei kasva oht tervisele ja keskkonnale ning see on tehniliselt ja majanduslikult p&otilde;hjendatud .</s>
+</p>
+<p>
+<s>( 4 ) Ohtlike j&auml;&auml;tmete kogumisel , s&auml;ilitamisel ja veol tuleb j&auml;&auml;tmed pakendada asjakohasel viisil , et v&auml;ltida neist tulenevat ohtu tervisele ja keskkonnale , ning v&otilde;imaldada nende hilisemat taaskasutamist v&otilde;i k&otilde;rvaldamist .</s>
+</p>
+<p>
+<s>( 5 ) Ohtlikud j&auml;&auml;tmed , v&auml;lja arvatud olmes tekkinud ohtlikud j&auml;&auml;tmed v&otilde;i nende pakendid , peab j&auml;&auml;tmevaldaja enne &uuml;leandmist j&auml;&auml;tmek&auml;itlejale m&auml;rgistama vastavalt keskkonnaministri m&auml;&auml;rusega kehtestatud korrale .</s>
+</p>
+<p>
+<s>( 6 ) Ohtlike j&auml;&auml;tmete vedu maanteedel , raudteedel , &otilde;hu- ja veeteedel toimub ohtlikke veoseid k&auml;sitlevate &otilde;igusaktidega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Ohtlike j&auml;&auml;tmete saatekiri</s>
+</p>
+<p>
+<s>( 1 ) Ohtlike j&auml;&auml;tmete saatekiri on dokument , mis sisaldab andmeid &uuml;leantavate j&auml;&auml;tmete valdaja , tekitaja , vedaja , vastuv&otilde;tja ja vedamiseks &uuml;leandnud isiku kohta , samuti andmeid ohtlike j&auml;&auml;tmete liigi , koostise , koguse ja p&otilde;hiomaduste kohta .</s>
+</p>
+<p>
+<s>( 2 ) Saatekirja koostab j&auml;&auml;tmete &uuml;leandja ja see antakse vastuv&otilde;tjale &uuml;le koos iga ohtlike j&auml;&auml;tmete saadetisega .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatut ei rakendata kodumajapidamises tekkinud ohtlike j&auml;&auml;tmete esmakordsel &uuml;leandmisel j&auml;&auml;tmeloa alusel tegutsevale j&auml;&auml;tmek&auml;itlejale .</s>
+</p>
+<p>
+<s>( 4 ) Saatekirja vorm ning koostamise , k&auml;sitlemise ja registreerimise kord kehtestatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Ohtlike j&auml;&auml;tmete k&auml;itluse korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnaministeerium koostab &uuml;leriigilise ohtlike j&auml;&auml;tmete k&auml;itluse arengukava .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnaministeerium korraldab ohtlike j&auml;&auml;tmete k&auml;itluskohtade v&otilde;rgustiku ( ohtlike j&auml;&auml;tmete k&auml;itluss&uuml;steem ) v&auml;ljaarendamist .</s>
+</p>
+<p>
+<s>( 3 ) Kohalikud omavalitsused korraldavad oma haldusterritooriumil kodumajapidamises tekkivate ohtlike j&auml;&auml;tmete kogumist ja nende &uuml;leandmist j&auml;&auml;tmek&auml;itlejatele .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>J&auml;&auml;tmete riikidevaheline vedu</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmete vedu &uuml;le riigipiiri toimub koosk&otilde;las Eesti Vabariigi suhtes j&otilde;ustunud v&auml;lislepingutega ja Eesti seaduste alusel .</s>
+</p>
+<p>
+<s>( 2 ) T&otilde;kestamaks illegaalset riikidevahelist j&auml;&auml;tmevedu , tohib ohtlikke ja muid k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud v&auml;lislepingute ning &otilde;igusaktide alusel kontrollitavaid j&auml;&auml;tmeid Eestisse sisse vedada , Eestist v&auml;lja vedada ja Eesti territooriumi kaudu l&auml;bi vedada loa alusel , mille annab Keskkonnaministeerium .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud luba antakse tingimusel , et j&auml;&auml;tmete riikidevahelisel veol ja nende k&auml;itlemisel j&auml;rgitakse k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide ning Eesti Vabariigi suhtes j&otilde;ustunud v&auml;lislepingute n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;&auml;tmete riikidevahelise veoloa taotluse menetlemise eest tasub riigil&otilde;ivu Eesti Vabariigis registreeritud taotleja .</s>
+</p>
+<p>
+<s>( 5 ) Olemasoleva j&auml;&auml;tmete riikidevahelise veoloa v&otilde;ib selle v&auml;ljaandja peatada v&otilde;i t&uuml;histada , sellest loa omajat eelnevalt informeerides , kui :</s>
+</p>
+<p>
+<s>1 ) loa taotlemisel on esitatud tegelikkusele mittevastavaid andmeid ;</s>
+</p>
+<p>
+<s>2 ) loa omaja ei t&auml;ida k&auml;esoleva paragrahvi l&otilde;ikes 3 esitatud tingimusi ning ta tegevus ohustab keskkonda , inimese tervist v&otilde;i vara .</s>
+</p>
+<p>
+<s>( 6 ) J&auml;&auml;tmete , kaasa arvatud ohtlikud j&auml;&auml;tmed , sisse- , v&auml;lja- ja l&auml;biveo kord ning loa andmise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;&auml;tmeluba ja ohtlike j&auml;&auml;tmete k&auml;itluslitsents</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>J&auml;&auml;tmeluba</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmeluba on dokument , mis annab &otilde;iguse &uuml;heks v&otilde;i rohkemaks k&auml;esoleva paragrahvi l&otilde;igetes 3 ja 7 nimetatud tegevuseks ning m&auml;&auml;rab selle &otilde;iguse realiseerimise tingimused .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmeluba on n&otilde;utav :</s>
+</p>
+<p>
+<s>1 ) j&auml;&auml;tmete k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>2 ) j&auml;&auml;tmete taaskasutamiseks ;</s>
+</p>
+<p>
+<s>3 ) ohtlike j&auml;&auml;tmete kogumiseks ja veoks , v&auml;lja arvatud kodumajapidamises tekkinud ohtlike j&auml;&auml;tmete kogumine , kuni nende &uuml;leandmiseni j&auml;&auml;tmeloa alusel tegutsevale j&auml;&auml;tmek&auml;itlejale ;</s>
+</p>
+<p>
+<s>4 ) tavaj&auml;&auml;tmete veoks teenust&ouml;&ouml;na ;</s>
+</p>
+<p>
+<s>5 ) teiste isikute poolt tekitatud ja &uuml;leantud metallij&auml;&auml;tmete kogumiseks v&otilde;i veoks j&auml;&auml;tmete edasise kaubandusliku vahendamise v&otilde;i taaskasutamise eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Metallij&auml;&auml;tmed on oma p&otilde;hikoostiselt ehedatest must- v&otilde;i mittemustmetallidest v&otilde;i nende sulamitest koosnevad j&auml;&auml;tmed .</s><s>Metallij&auml;&auml;tmete t&auml;psustatud nimistu kehtestab oma m&auml;&auml;rusega keskkonnaminister vastavuses k&auml;esoleva seaduse &sect; 2 l&otilde;ike 5 alusel koostatud j&auml;&auml;tmeliikide ja ohtlike j&auml;&auml;tmete nimistuga .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>( 4 ) Keskkonnaminister v&otilde;ib m&auml;&auml;rusega kehtestada teatud liiki ja koguses tavaj&auml;&auml;tmete kohta taaskasutamise v&otilde;i tekkekohas k&otilde;rvaldamise tingimused , millele vastava k&auml;itlemise korral pole j&auml;&auml;tmeloa olemasolu kohustuslik .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatuga tegelevad isikud , kellele vastavalt k&auml;esoleva paragrahvi l&otilde;ikele 4 j&auml;&auml;tmeloa omamise n&otilde;ue ei laiene , samuti isikud , kes korraldavad j&auml;&auml;tmete k&otilde;rvaldamist v&otilde;i taaskasutamist teiste nimel ( vahendajad ) , registreeritakse riikliku j&auml;&auml;tmeregistri maakonna alamregistris riikliku registri p&otilde;him&auml;&auml;rusega kehtestatud korras .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;ikes 4 kehtestatud korras m&auml;&auml;ratakse juhud , millal j&auml;&auml;tmek&auml;itlusega tegelevaid isikuid ei kanta registrisse .</s>
+</p>
+<p>
+<s>( 7 ) J&auml;&auml;tmete tekitamiseks on j&auml;&auml;tmeluba n&otilde;utav tegutsemisel j&auml;rgmistes keskkonnakaitse ja j&auml;&auml;tmek&auml;itluse seisukohalt olulistes valdkondades :</s>
+</p>
+<p>
+<s>1 ) energeetika ja k&uuml;tuset&ouml;&ouml;stus ;</s>
+</p>
+<p>
+<s>2 ) metallide tootmine ja t&ouml;&ouml;tlemine ;</s>
+</p>
+<p>
+<s>3 ) mineraalsete materjalide tootmine ja t&ouml;&ouml;tlemine ;</s>
+</p>
+<p>
+<s>4 ) keemiat&ouml;&ouml;stus ;</s>
+</p>
+<p>
+<s>5 ) puidu- , tselluloosi- ja paberit&ouml;&ouml;stus ;</s>
+</p>
+<p>
+<s>6 ) loomakasvatus ja toiduainet&ouml;&ouml;stus ;</s>
+</p>
+<p>
+<s>7 ) maavarade kaevandamine ja rikastamine ;</s>
+</p>
+<p>
+<s>8 ) naha , tekstiili ja kiu parkimine v&otilde;i t&ouml;&ouml;tlemine ;</s>
+</p>
+<p>
+<s>9 ) pinnat&ouml;&ouml;tlus ja -viimistlus orgaaniliste lahustite kasutamisega ;</s>
+</p>
+<p>
+<s>10 ) ohtlike kemikaalide , sealhulgas k&uuml;tuse ladustamine .</s>
+</p>
+<p>
+<s>( 8 ) Tegutsemise korral k&auml;esoleva paragrahvi l&otilde;ikes 6 nimetatud valdkonnas ei n&otilde;uta j&auml;&auml;tmeluba j&auml;&auml;tmete tekitamiseks isikult , kelle konkreetset tegevusala ei ole nimetatud Vabariigi Valitsuse m&auml;&auml;rusega kehtestatud eelnimetatud tegevusvaldkondi t&auml;psustavas loetelus , v&otilde;i kelle tootmismahtu iseloomustavad n&auml;itajad v&otilde;i tekitatud j&auml;&auml;tmekogused on v&auml;iksemad Vabariigi Valitsuse m&auml;&auml;rusega kehtestatud arvulistest v&auml;&auml;rtustest .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>J&auml;&auml;tmeloa sisu</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmeloaga m&auml;&auml;ratakse :</s>
+</p>
+<p>
+<s>1 ) tekkivate ja k&auml;ideldavate j&auml;&auml;tmete liigid ja kogused , sealhulgas lubatud piirkogused , mida v&otilde;ib viia keskkonda ;</s>
+</p>
+<p>
+<s>2 ) j&auml;&auml;tmek&auml;itluskohad ;</s>
+</p>
+<p>
+<s>3 ) j&auml;&auml;tmek&auml;itlustoimingud ;</s>
+</p>
+<p>
+<s>4 ) tehnilised ja keskkonnakaitsen&otilde;uded j&auml;&auml;tmeloaga lubatud tegevuse korral ;</s>
+</p>
+<p>
+<s>5 ) keskkonnaseiren&otilde;uded ;</s>
+</p>
+<p>
+<s>6 ) tegevuse juures rakendatavad ohutusmeetmed .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmeloaga m&auml;&auml;ratav ei tohi olla vastuolus j&auml;&auml;tmeloaga antava &otilde;iguse olemusega .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>J&auml;&auml;tmeloa andmine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmeloa annab loa taotleja tegevuskohaj&auml;rgne keskkonnateenistus .</s><s>Kui p&uuml;sivat tegevuskohta ei ole , annab loa taotleja asukohaj&auml;rgne keskkonnateenistus .</s><s>Loa andmiseks vajaliku taotlusmaterjali koostab taotleja oma kulul .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) J&auml;&auml;tmeluba teiste isikute poolt tekitatud ning &uuml;leantud k&auml;esoleva seaduse &sect; 43 <hi rend="sup">1</hi> l&otilde;igetes 2 ja 3 nimetatud metallij&auml;&auml;tmete kogumiseks v&otilde;i veoks edasise kaubandusvahendamise v&otilde;i taaskasutamise eesm&auml;rgil antakse &uuml;heks aastaks .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmeloa taotlused esitab loa taotleja eelnevalt oma tegevus- v&otilde;i asukohaj&auml;rgsele linna- v&otilde;i vallavalitsusele , kes annab oma seisukoha taotluse suhtes kolme n&auml;dala jooksul ning edastab need keskkonnateenistus .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>J&auml;&auml;tmeloa andmise tingimused</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmeloa taotlemisel ohtlike j&auml;&auml;tmete k&auml;itlemiseks teenust&ouml;&ouml;na peab taotlejal olema ohtlike j&auml;&auml;tmete k&auml;itluslitsents .</s>
+</p>
+<p>
+<s>( 2 ) Tekkivate ja keskkonda viidavate j&auml;&auml;tmete lubatud kogused m&auml;&auml;rab loa andja taotleja esitatud tehnoloogiliselt ja keskkonnakaitseliselt p&otilde;hjendatud arvutuste alusel , v&otilde;ttes muuhulgas arvesse parima keskkonnapraktika ja parima v&otilde;imaliku tehnoloogia kriteeriume ning k&auml;esoleva seaduse paragrahvide 5 ja 11 s&auml;tteid .</s>
+</p>
+<p>
+<s>( 3 ) Et kindlaks m&auml;&auml;rata taotluse vastavust k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatule , v&otilde;ib loa andja n&otilde;uda enne loa andmist kavandatava tegevuse keskkonnam&otilde;ju hindamist loa taotleja kulul .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 32 l&otilde;ikes 1 <hi rend="sup">1</hi> nimetatud j&auml;&auml;tmeloa taotleja peab olema &auml;riregistrisse kantud aktsiaselts v&otilde;i osa&uuml;hing aktsia- v&otilde;i osakapitaliga v&auml;hemalt 1 miljon krooni .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>J&auml;&auml;tmeloa andmisest keeldumine</s>
+</p>
+<p>
+<s>J&auml;&auml;tmeloa andmisest tuleb motiveeritult keelduda , kui taotletud tegevus :</s>
+</p>
+<p>
+<s>1 ) ei ole koosk&otilde;las kehtivate &otilde;igusaktidega ;</s>
+</p>
+<p>
+<s>2 ) p&otilde;hjustab teistele isikutele varalist kahju ;</s>
+</p>
+<p>
+<s>3 ) ohustab keskkonda , inimese tervist v&otilde;i vara ;</s>
+</p>
+<p>
+<s>4 ) p&otilde;hineb j&auml;&auml;tmerikastel , loodusvarasid ja muud tooret ning materjale pillavatel menetlustel ja tehnoloogilistel protsessidel ;</s>
+</p>
+<p>
+<s>5 ) ei ole koosk&otilde;las omavalitsuse j&auml;&auml;tmekavaga ;</s>
+</p>
+<p>
+<s>6 ) ei ole taotleja tegevusvaldkonnana teenuste osutamise eesm&auml;rgil kantud &auml;riregistrisse .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>J&auml;&auml;tmeloa kehtivuse peatamine ja j&auml;&auml;tmeloa t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmeloa kehtivuse v&otilde;ib j&auml;&auml;tmeloa andja peatada v&otilde;i j&auml;&auml;tmeloa t&uuml;histada sellest loa omajat eelnevalt informeerides , kui :</s>
+</p>
+<p>
+<s>1 ) loa taotlemisel on esitatud tegelikkusele mittevastavaid andmeid ;</s>
+</p>
+<p>
+<s>2 ) loa omaja tegevuses ilmnevad paragrahvis 34 nimetatud asjaolud ;</s>
+</p>
+<p>
+<s>3 ) loa omaja ei t&auml;ida loa v&auml;ljaandmisel esitatud n&otilde;udeid ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>4 ) loa omajat karistati kriminaalkorras j&auml;&auml;tmek&auml;itluse n&otilde;uete rikkumise eest .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>( 2 ) Loa omaja tegevuse vastavuse hindamiseks k&auml;esoleva seaduse n&otilde;uetele ja loa tingimustele v&otilde;ib loa andja n&otilde;uda keskkonnaauditi tegemist loa omaja kulul .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>J&auml;&auml;tmeloa andmise , muutmise , peatamise ja t&uuml;histamise kord</s>
+</p>
+<p>
+<s>J&auml;&auml;tmeloa andmise , muutmise , peatamise ja t&uuml;histamise kord , j&auml;&auml;tmeloa taotlemiseks vajalike materjalide loetelu ja j&auml;&auml;tmeloa vorm kehtestatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Ohtlike j&auml;&auml;tmete k&auml;itluslitsents</s>
+</p>
+<p>
+<s>( 1 ) Ohtlike j&auml;&auml;tmete k&auml;itluslitsents on tegevusluba , mis annab &otilde;iguse teiste isikute poolt tekitatud ja &uuml;leantud ohtlike j&auml;&auml;tmete k&auml;itlemiseks teenust&ouml;&ouml;na ning m&auml;&auml;rab selle &otilde;iguse realiseerimise tingimused .</s>
+</p>
+<p>
+<s>( 2 ) Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi annab keskkonnaminister .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi andmise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi andmise tingimusteks on :</s>
+</p>
+<p>
+<s>1 ) j&auml;&auml;tmek&auml;itluskoha , -tehnoloogia ja -seadmete vastavus keskkonnan&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;tajate asjakohane kvalifikatsioon , kutseharidus v&otilde;i -oskus ;</s>
+</p>
+<p>
+<s>3 ) rahaline tagatis v&otilde;i sellega v&otilde;rdse suurusega kindlustus v&otilde;imalike avariide v&otilde;i &otilde;nnetusjuhtumite puhuks , mille v&auml;&auml;rtuse m&auml;&auml;ramise kord ja p&otilde;him&otilde;tted s&otilde;ltuvalt tegevuse iseloomust ja ulatusest kehtestatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi andja v&otilde;ib enne litsentsi andmist n&otilde;uda kavandatava tegevuse keskkonnam&otilde;ju hindamist litsentsi taotleja kulul .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi andmisest keeldumine</s>
+</p>
+<p>
+<s>Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi andmisest tuleb motiveeritult keelduda , kui :</s>
+</p>
+<p>
+<s>1 ) j&auml;&auml;tmek&auml;itluskoht , -tehnoloogia ja -seadmed ei vasta keskkonnan&otilde;uetele v&otilde;i ohustavad inimese tervist v&otilde;i vara ;</s>
+</p>
+<p>
+<s>2 ) litsentsi taotleja ei tunne piisavalt j&auml;&auml;tmek&auml;itluslitsentside tehnilisi , tehnoloogilisi v&otilde;i keskkonnakaitselisi aspekte ;</s>
+</p>
+<p>
+<s>3 ) taotlusj&auml;rgne j&auml;&auml;tmek&auml;itlus ei ole koosk&otilde;las &uuml;leriigilise ohtlike j&auml;&auml;tmete k&auml;itlemise arengukavaga ;</s>
+</p>
+<p>
+<s>4 ) taotleja on varasema majandustegevusega rikkunud seadusi v&otilde;i andmete esitamise korda v&otilde;i on tema eelmine litsents t&uuml;histatud v&otilde;i on tema osanik , kellele kuulub 30% p&otilde;hikapitalist , maksuv&otilde;lglane ;</s>
+</p>
+<p>
+<s>5 ) ohtlike j&auml;&auml;tmete k&auml;itlemine ei ole taotleja tegevusvaldkonnana kantud &auml;riregistrisse ;</s>
+</p>
+<p>
+<s>6 ) taotlejal puudub piisav rahaline tagatis v&otilde;i kindlustus v&otilde;imalike avariide v&otilde;i &otilde;nnetusjuhtumite puhuks .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi kehtivuse peatamine ja litsentsi t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi kehtivuse v&otilde;ib selle andja peatada v&otilde;i litsentsi t&uuml;histada sellest litsentsi omajat eelnevalt informeerides , kui :</s>
+</p>
+<p>
+<s>1 ) litsentsi taotlemisel on esitatud tegelikkusele mittevastavaid andmeid ;</s>
+</p>
+<p>
+<s>2 ) litsentsi omaja tegevuses ilmnevad k&auml;esoleva seaduse paragrahvis 39 nimetatud asjaolud ;</s>
+</p>
+<p>
+<s>3 ) litsentsi omaja ei t&auml;ida litsentsi v&auml;ljaandmisel esitatud n&otilde;udeid ;</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>4 ) ilmnevad muud vastuolud &otilde;igusaktidega .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>( 2 ) Litsentsi omaja tegevuse vastavuse hindamiseks k&auml;esoleva seaduse n&otilde;uetele ja litsentsi tingimustele v&otilde;ib litsentsi andja n&otilde;uda litsentsi kehtivuse ajal keskkonnaauditi tegemist litsentsi omaja kulul .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi andmise , muutmise , peatamise ja t&uuml;histamise kord</s>
+</p>
+<p>
+<s>Ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi andmise , muutmise , peatamise ja t&uuml;histamise kord ning litsentsi taotlemiseks vajalike materjalide loetelu kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>J&auml;&auml;tmeloa ja ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi avalikustamine</s>
+</p>
+<p>
+<s>( 1 ) J&auml;&auml;tmeloa ja ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi taotlused , antud load ja litsentsid ning j&auml;&auml;tmeloaga m&auml;&auml;ratud keskkonnaseire tulemused on avalikud .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;&auml;tmeloa taotlused ja antud load avalikustatakse , kuulutades loa taotlemisest v&otilde;i andmisest taotleja v&otilde;i loa saaja kulul ametlikus v&auml;ljaandes Ametlikud Teadaanded &uuml;he kuu jooksul p&auml;rast taotluse esitamist v&otilde;i loa andmist .</s>
+</p>
+<p>
+<s>( 20.01.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 10 , 155 )</s>
+</p>
+<p>
+<s>( 3 ) Ohtlike j&auml;&auml;tmete k&auml;itluslitsentside taotlused ja antud litsentsid avalikustatakse Vabariigi Valitsuse m&auml;&auml;rusega kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Huvitatud isikute &otilde;igus &auml;rakuulamisele v&otilde;i seisukoha esitamisele</s>
+</p>
+<p>
+<s>Isikutel , kellele j&auml;&auml;tmeloa v&otilde;i ohtlike j&auml;&auml;tmete k&auml;itluslitsentsiga reguleeritud tegevus v&otilde;ib p&otilde;hjustada varalist kahju v&otilde;i muul viisil kahjustada nende huve , on &otilde;igus esitada loa v&otilde;i litsentsi andjale omapoolseid kirjalikke seisukohti v&otilde;i n&otilde;uda enda &auml;rakuulamist .</s>
+</p>
+<p>
+<s>6 <hi rend="sup">1</hi> . peat&uuml;kk</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>Metallij&auml;&auml;tmete kogumise ja selleks j&auml;&auml;tmeloa andmise eritingimused</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 43 <hi rend="sup">1</hi> .</s><s>Metallij&auml;&auml;tmete kogumise piirang</s>
+</p>
+<p>
+<s>( 1 ) Mis tahes isikult on keelatud j&auml;&auml;tmetena kokku osta ilmset kunsti- v&otilde;i ajaloov&auml;&auml;rtust omavaid metallesemeid .</s>
+</p>
+<p>
+<s>( 2 ) Vasest v&otilde;i alumiiniumist elektrijuhtme ja kaabli kokkuost j&auml;&auml;tmetena on lubatud vaid seadusj&auml;rgset turuluba omavalt v&otilde;rguettev&otilde;tjalt v&otilde;i tegevusluba omavalt telekommunikatsiooniv&otilde;rgu operaatorilt .</s>
+</p>
+<p>
+<s>( 3 ) Alumiiniumist liiklusm&auml;rkide ja teeviitade ning raudteer&ouml;&ouml;baste kokkuost j&auml;&auml;tmetena on lubatud vaid j&auml;&auml;tmeluba omavalt ettev&otilde;tjalt .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 43 <hi rend="sup">2</hi> .</s><s>Metallij&auml;&auml;tmete kokkuostu dokumenteerimine</s>
+</p>
+<p>
+<s>( 1 ) Metallij&auml;&auml;tmete kokkuostu kohta koostatakse isiku , kes kogub ja veab teiste isikute poolt tekitatud ja &uuml;leantud metallij&auml;&auml;tmeid nende edasise kaubandusliku vahendamise ja taaskasutamise eesm&auml;rgil ( edaspidi metallij&auml;&auml;tmete koguja ) , ja metallij&auml;&auml;tmete &uuml;leandja vahel kahepoolselt allkirjastatud dokument , kus peab lisaks muudele &otilde;igusaktides s&auml;testatud n&otilde;uetele olema kirjas :</s>
+</p>
+<p>
+<s>1 ) metallij&auml;&auml;tmete &uuml;leandja registri- v&otilde;i isikukood ja elu- v&otilde;i asukoht ;</s>
+</p>
+<p>
+<s>2 ) metallij&auml;&auml;tmete l&uuml;hikirjeldus , liik ja kogus ;</s>
+</p>
+<p>
+<s>3 ) metallij&auml;&auml;tmed kohale toimetanud s&otilde;iduki riiklik registreerimisnumber ;</s>
+</p>
+<p>
+<s>4 ) metallij&auml;&auml;tmete maksumus .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumendi v&auml;hemalt &uuml;ks allkirjastatud originaaleksemplar j&auml;&auml;b metallij&auml;&auml;tmete kogujale ning sellele lisatakse &uuml;leandja isikut t&otilde;endava dokumendi v&otilde;i &auml;riregistrikaardi koopia ( passi esitamise korral koopia sellest lehek&uuml;ljest , millel asub isiku foto ) .</s>
+</p>
+<p>
+<s>( 3 ) Metallij&auml;&auml;tmete koguja on kohustatud s&auml;ilitama k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumenti koos lisaga v&auml;hemalt viis aastat , tagades isikuandmete kaitse .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 43 <hi rend="sup">3</hi> .</s><s>Arveldamine metallij&auml;&auml;tmete kokkuostul</s>
+</p>
+<p>
+<s>Metallij&auml;&auml;tmete kokkuostul ja kokkuostetud metallij&auml;&auml;tmete kaubanduslikul vahendamisel tasutakse metallij&auml;&auml;tmete eest ostja pangakontolt m&uuml;&uuml;ja pangakontole sularahata arveldamise korras .</s><s>Sularahas arveldamine metallij&auml;&auml;tmete kokkuostul ja edasisel vahendamisel on keelatud .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 43 <hi rend="sup">4</hi> .</s><s>Lisamaterjalid metallij&auml;&auml;tmete kogumise j&auml;&auml;tmeloa taotlemisel</s>
+</p>
+<p>
+<s>Lisaks k&auml;esoleva seaduse &sect; 36 alusel kehtestatud loetelus s&auml;testatud materjalidele peab ettev&otilde;tja , kes taotleb metallij&auml;&auml;tmete kogumise j&auml;&auml;tmeluba vastavalt k&auml;esoleva seaduse &sect; 30 l&otilde;ike 3 punktile 5 , esitama j&auml;&auml;tmeloa andjale :</s>
+</p>
+<p>
+<s>1 ) Maksuameti kohaliku asutuse &otilde;iendi maksuv&otilde;lgnevuse puudumise kohta v&otilde;i n&otilde;usoleku j&auml;&auml;tmeloa andmiseks , kui ettev&otilde;tjal on maksuv&otilde;lg ja selle tasumine on ajatatud ning ettev&otilde;tja t&auml;idab maksuv&otilde;la tasumise ajakava , samuti juhul , kui ettev&otilde;tja ei ole tegutsenud , kuid on registreeritud maksumaksjate ja maksu kinnipidajate riiklikus registris ;</s>
+</p>
+<p>
+<s>2 ) tegevuskohaj&auml;rgse politseiprefektuuri seisukoha j&auml;&auml;tmeloaga m&auml;&auml;ratava tegevuse suhtes ;</s>
+</p>
+<p>
+<s>3 ) &auml;ri&uuml;hingu juhatuse ja , n&otilde;ukogu olemasolu korral , selle liikmete nimistu , v&auml;lja arvatud juhul , kui j&auml;&auml;tmeluba taotleb f&uuml;&uuml;silisest isikust ettev&otilde;tja ;</s>
+</p>
+<p>
+<s>4 ) kohaliku omavalitsuse &otilde;iendi j&auml;&auml;tmek&auml;itluskohaks oleva kinnistu v&otilde;i ruumide omaniku kohta ;</s>
+</p>
+<p>
+<s>5 ) dokumendi , mis kinnitab taotleja &otilde;igust kasutada k&auml;esoleva paragrahvi punktis 4 nimetatud kinnistut v&otilde;i ruume , kui taotleja ei ole ise omanik ;</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>6 ) upon application for a waste permit specified in subsection 32 ( 1 <hi rend="sup">1</hi> ) of this Act , k&auml;esoleva seaduse &sect; 32 l&otilde;ikes 1 <hi rend="sup">1</hi> nimetatud j&auml;&auml;tmeloa taotlemisel tuleb lisaks k&auml;esoleva paragrahvi punktides 1-5 s&auml;testatule esitada j&auml;&auml;tmeloa andjale registripidaja poolt mitte rohkem kui 15 p&auml;eva tagasi t&otilde;estatud &auml;rakiri j&auml;&auml;tmeloa taotleja &auml;riregistri registrikaardist .</s>
+</p>
+<p>
+<s>( 11.04.2001 j&otilde;ust.17.05.2001 - RT I 2001 , 43 , 239 )</s>
+</p>
+<p>
+<s>&sect; 43 <hi rend="sup">5</hi> .</s><s>Metallij&auml;&auml;tmete kogumise j&auml;&auml;tmeloa andmisest keeldumine kehtiva karistuse korral</s>
+</p>
+<p>
+<s>J&auml;&auml;tmeloa andja on kohustatud karistusregistrile tehtud p&auml;ringu alusel kontrollima , kas j&auml;&auml;tmeluba k&auml;esoleva seaduse &sect; 30 l&otilde;ike 3 punkti 5 alusel taotlev f&uuml;&uuml;silisest isikust ettev&otilde;tja v&otilde;i j&auml;&auml;tmeluba taotleva &auml;ri&uuml;hingu juhatuse v&otilde;i n&otilde;ukogu liige v&otilde;i &auml;ri&uuml;hingu j&auml;&auml;tmeloaga m&auml;&auml;ratud tegevuse eest vastutav isik on pannud toime kriminaalkoodeksi ( RT 1992 , 20 , 287 ; RT I 1999 , 38 , 485 ; 57 , 595 ; 597 ; 598 ; 60 , 616 ; 97 , 859 ; 102 , 907 ; 2000 , 10 , 55 ; 28 , 167 ; 29 , 173 ; 33 , 193 ; 40 , 247 ; 49 , 301 ; 305 ; 54 , 351 ; 57 , 373 ; 58 , 376 ; 84 , 533 ; 92 , 597 ; 104 , 685 ; 2001 , 9 , 41 ; 21 , 115 ; 116 ; 29 , 156 ; 31 , 174 ; 52 , 303 ; 53 , 306 ; 313 ; 56 , 332 ; 335 ; 58 , 357 ; 65 , 378 ) &sect;-de 84 , 144 , 1481 , 1484 , 1485 , 1486 , 14815,1523 , 186 , 196 <hi rend="sup">1</hi> v&otilde;i 203 j&auml;rgi kvalifitseeritud kuriteo .</s><s>Kui eelnimetatud toimepandud kuriteost ei ole m&ouml;&ouml;dunud kriminaalkoodeksi &sect;-s 53 v&otilde;i karistusregistri seaduse ( RT I 1997 , 87 , 1467 ; 1998 , 111 , 1830 ) &sect; 25 l&otilde;ikes 1 etten&auml;htud t&auml;htaeg , tuleb j&auml;&auml;tmeloa andmisest keelduda .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 43 <hi rend="sup">6</hi> .</s><s>Riigil&otilde;iv metallij&auml;&auml;tmete kogumise j&auml;&auml;tmeloa taotlemisel</s>
+</p>
+<p>
+<s>( 1 ) Metallij&auml;&auml;tmete kogumise j&auml;&auml;tmeloa taotlemisel vastavalt k&auml;esoleva seaduse &sect; 30 l&otilde;ike 3 punktile 5 peab taotleja tasuma riigil&otilde;ivu vastavalt riigil&otilde;ivuseaduses ( RT I 1997 , 80 , 1344 ; 2001 , 55 , 331 ; 56 , 332 ; 64 , 367 ; 65 , 377 ) s&auml;testatule .</s>
+</p>
+<p>
+<s>( 2 ) Dokumendi riigil&otilde;ivu tasumise kohta esitab j&auml;&auml;tmeloa taotleja j&auml;&auml;tmeloa andjale koos taotlusmaterjalidega .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;&auml;tmeloa muutmisel , kui muutmise aluseks on j&auml;&auml;tmeloa omaja teatis muudatustest loal esitatud andmetes ning loa andja ei muuda loa kehtivusaega , antakse muudetud luba riigil&otilde;ivuvabalt .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 43 <hi rend="sup">7</hi> .</s><s>Metallij&auml;&auml;tmete kogumiseks antud j&auml;&auml;tmeloa asukoht</s>
+</p>
+<p>
+<s>Metallij&auml;&auml;tmete kogumiseks vastavalt k&auml;esoleva seaduse &sect; 30 l&otilde;ike 3 punktile 5 antud j&auml;&auml;tmeloa originaaleksemplar v&otilde;i j&auml;&auml;tmeloa andja poolt kinnitatud koopia peab asuma metallij&auml;&auml;tmete koguja tegevuskohas ning see tuleb esitada j&auml;relevalveametnikule v&otilde;i metallij&auml;&auml;tmeid &uuml;leandvale isikule tema soovi korral .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Arvestus , aruandlus ja andmekogud</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Arvestuse pidamine</s>
+</p>
+<p>
+<s>( 1 ) Iga j&auml;&auml;tmevaldaja peab olema piisaval m&auml;&auml;ral teadlik oma valduses olevate j&auml;&auml;tmete liigist , hulgast , p&auml;ritolust , j&auml;&auml;tmek&auml;itluse seisukohalt olulistest omadustest ja neist tulenevast tervise- v&otilde;i keskkonnaohust .</s>
+</p>
+<p>
+<s>( 2 ) K&otilde;ik j&auml;&auml;tmeluba omavad isikud ning vastavalt k&auml;esoleva seaduse paragrahv 30 l&otilde;ikele 5 registreeritud isikud , samuti ohtlike j&auml;&auml;tmete tekitajad , v&auml;lja arvatud kodumajapidamised , on kohustatud pidama regulaarset arvestust oma tegevuses tekkinud , kogutud , hoitud v&otilde;i vaheladustatud , veetud , taaskasutatud v&otilde;i k&otilde;rvaldatud j&auml;&auml;tmete liigi , hulga , omaduste ja tekke kohta .</s><s>Kui j&auml;&auml;tmed antakse &uuml;le muudele j&auml;&auml;tmek&auml;itlejatele , tuleb arvestust pidada ka j&auml;&auml;tmete sihtkoha , kogumissageduse , veomooduste ning taaskasutamis- ja k&otilde;rvaldamistoimingute kohta .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud arvestuse algdokumente ja koondandmeid peab s&auml;ilitama v&auml;hemalt viie aasta jooksul .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>J&auml;&auml;tmearuandlus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahv 44 l&otilde;ikes 2 nimetatud isik esitab v&auml;hemalt &uuml;ks kord aastas keskkonnateenistusele aruande oma j&auml;&auml;tmealase tegevuse kohta j&auml;&auml;tmeregistrisse kandmiseks .</s><s>Aruande vormi ja esitamise korra kehtestab keskkonnaminister .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 )</s>
+</p>
+<p>
+<s>( 3 ) Keskkonnaministeeriumil ja keskkonnaj&auml;relevalve asutusel on &otilde;igus saada toodete valmistajalt v&otilde;i importijalt ning teiselt riigivalitsus- v&otilde;i kohaliku omavalitsuse asutuselt andmeid Eestis valmistatavate v&otilde;i Eestisse sisseveetavate toodete ja nende valmistamisel kasutatavate ainete kohta ning neist tekkivate j&auml;&auml;tmete ja nende k&auml;itluse kohta .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;&auml;tmealaseid statistilisi vaatlusi korraldatakse riikliku statistika seadusega ( RT I 1997 , 51 , 822 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Riiklik j&auml;&auml;tmeregister</s>
+</p>
+<p>
+<s>( 1 ) Riiklik j&auml;&auml;tmeregister on andmekogu , kuhu koondatakse andmed Eestis tekkivate ja k&auml;ideldavate j&auml;&auml;tmete liigi , hulga ja p&auml;ritolu , j&auml;&auml;tmek&auml;itlusega tegelevate isikute , j&auml;&auml;tmete k&otilde;rvaldamiseks etten&auml;htud j&auml;&auml;tmek&auml;itluskohtade , j&auml;&auml;tmelubade ja ohtlike j&auml;&auml;tmete k&auml;itluslitsentside ning j&auml;&auml;tmete riikidevaheliste vedude kohta .</s>
+</p>
+<p>
+<s>( 2 ) Riiklik j&auml;&auml;tmeregister koosneb keskregistrist , mille vastutav t&ouml;&ouml;tleja on Keskkonnaministeerium , ja maakonna alamregistritest , mida haldavad keskkonnateenistused .</s>
+</p>
+<p>
+<s>( 08.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 3 ) Riikliku j&auml;&auml;tmeregistri asutab Vabariigi Valitsus andmekogude seadusega ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ; 2001 , 7 , 17 ; 17 , 77 ; 24 , 133 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 4 ) Rahvusvaheliselt n&otilde;utava teabe edastamise korra m&auml;&auml;rab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve ja vastutus</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>J&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalve k&auml;esoleva seaduse n&otilde;uete t&auml;itmise &uuml;le toimub keskkonnaj&auml;relevalve seadusega ( RT I 1997 , 86 , 1460 ; 1999 , 54 , 583 ; 95 , 843 ; 2000 , 51 , 319 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Keskkonnainspektsioon ja valla- v&otilde;i linnavalitsus on kohustatud kontrollima j&auml;&auml;tmeloaga m&auml;&auml;ratud j&auml;&auml;tmek&auml;itlustingimuste t&auml;itmist v&auml;hemalt &uuml;ks kord aastas .</s>
+</p>
+<p>
+<s>( 20.01.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 95 , 843 )</s>
+</p>
+<p>
+<s>( 3 ) Registreeritud j&auml;&auml;tmek&auml;itlejate ja ohtlike j&auml;&auml;tmete tekitajate &uuml;le teostatakse j&auml;relevalvet perioodiliselt vastavalt vajadusele , kusjuures olmes tekkinud ohtlikke j&auml;&auml;tmeid j&auml;relevalvekohustus ei h&otilde;lma .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Vastutus j&auml;&auml;tmeseaduse rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktidega s&auml;testatud n&otilde;uete rikkumise eest kannavad f&uuml;&uuml;silised isikud rikkumise asjaoludest s&otilde;ltuvalt distsiplinaar- , haldus- , kriminaal- v&otilde;i tsiviilvastustust .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktidega s&auml;testatud n&otilde;uete rikkumise eest kannavad juriidilised isikud haldus- v&otilde;i tsiviilvastutust .</s>
+</p>
+<p>
+<s>( 3 ) Kui f&uuml;&uuml;siline isik , tegutsedes juriidilise isiku nimel v&otilde;i huvides , rikub j&auml;&auml;tmeseaduses ja selle alusel kehtestatud &otilde;igusaktidega s&auml;testatud n&otilde;udeid , v&otilde;ib selle rikkumise asjas kohaldada karistust f&uuml;&uuml;silisele ja juriidilisele isikule samaaegselt selleks etten&auml;htud sanktsiooni piires .</s>
+</p>
+<p>
+<s>&sect; 48 <hi rend="sup">1</hi> .</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>( 1 ) Juriidilise isiku poolt j&auml;&auml;tmetealase arvestuse ja aruande esitamise n&otilde;ude eiramise v&otilde;i eba&otilde;igete andmete esitamise eest - m&auml;&auml;ratakse rahatrahv kuni 20 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilise isiku poolt j&auml;&auml;tmete k&otilde;rvaldamiseks etten&auml;htud j&auml;&auml;tmek&auml;itluskohtade rajamiseks , kasutamiseks ja sulgemiseks kehtestatud n&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Juriidilise isiku poolt toodete valmistamise , sisse- ja v&auml;ljaveo , m&uuml;&uuml;gi ning kasutamise eest , mille suhtes kehtib k&auml;esoleva seaduse &sect; 6 l&otilde;ikes 1 s&auml;testatud keeld , v&otilde;i Vabariigi Valitsuse poolt selleks kehtestatud piirangute ja eritingimuste rikkumise eest , - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilise isiku poolt j&auml;&auml;tmete k&auml;itlemise eest j&auml;&auml;tmeloata , kui see luba on n&otilde;utav , - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 5 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 5 ) Juriidilise isiku poolt metallij&auml;&auml;tmete kogumise eest j&auml;&auml;tmeloata - m&auml;&auml;ratakse rahatrahv kuni 75 000 krooni .</s>
+</p>
+<p>
+<s>( 6 ) Juriidilise isiku poolt ohtlike j&auml;&auml;tmete k&auml;itlemine k&auml;itluslitsentsita , kui see litsents on n&otilde;utav , - m&auml;&auml;ratakse rahatrahv kuni 75 000 krooni .</s>
+</p>
+<p>
+<s>( 7 ) Juriidilise isiku poolt ohtlike ja muude rahvusvaheliselt kontrollitavate j&auml;&auml;tmete &uuml;le riigipiiri veo eest vastava loata - m&auml;&auml;ratakse rahatrahv kuni 100 000 krooni .</s>
+</p>
+<p>
+<s>( 8 ) Juriidilise isiku poolt j&auml;&auml;tmeloa v&otilde;i ohtlike j&auml;&auml;tmete k&auml;itluslitsentsi n&otilde;uete rikkumise v&otilde;i j&auml;&auml;tmete keskkonda viimise eest v&auml;ljaspool selleks etten&auml;htud j&auml;&auml;tmek&auml;itluskohti , kui see t&otilde;i kaasa keskkonnareostuse v&otilde;i sellega p&otilde;hjustati kahju inimese tervisele , keskkonnale v&otilde;i varale , - m&auml;&auml;ratakse rahatrahv kuni 200 000 krooni .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 48 <hi rend="sup">2</hi> .</s><s>Juriidilise isiku haldus&otilde;iguserikkumise protokoll</s>
+</p>
+<p>
+<s>( 1 ) Juriidilise isiku haldus&otilde;iguserikkumise protokolli m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) protokolli koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) asutuse nimetus ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ning ametinimetus ;</s>
+</p>
+<p>
+<s>4 ) haldus&otilde;iguserikkuja nimi ja aadress ;</s>
+</p>
+<p>
+<s>5 ) haldus&otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>6 ) haldus&otilde;iguserikkumise aeg , koht ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) viide seaduses&auml;ttele , mis n&auml;eb ette vastutuse selle haldus&otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>8 ) haldus&otilde;iguserikkuja esindaja seletus ;</s>
+</p>
+<p>
+<s>9 ) m&auml;rge , et haldus&otilde;iguserikkuja esindajale on tutvustatud tema &otilde;igust kasutada &otilde;igusabi ;</s>
+</p>
+<p>
+<s>10 ) muud haldus&otilde;iguserikkumise asja &otilde;igeks lahendamiseks vajalikud andmed .</s>
+</p>
+<p>
+<s>( 2 ) Haldus&otilde;iguserikkumise protokollile kirjutavad alla selle koostanud ametiisik ja haldus&otilde;iguserikkuja esindaja .</s>
+</p>
+<p>
+<s>( 3 ) Kui haldus&otilde;iguserikkuja esindaja keeldub haldus&otilde;iguserikkumise protokollile alla kirjutamast , teeb protokolli koostaja selle kohta protokolli vastava kande .</s><s>Haldus&otilde;iguserikkumise protokollile lisatakse haldus&otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli kohta , samuti protokollile allakirjutamisest keeldumise motiivid .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilise isiku haldus&otilde;iguserikkumiste kohta on haldus&otilde;iguserikkumise protokolli koostamise &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) keskkonnainspektsiooni ametiisikutel ;</s>
+</p>
+<p>
+<s>2 ) politsei- , tolli- ja piirivalveametnikel ;</s>
+</p>
+<p>
+<s>3 ) kohaliku omavalitsuse volikogu poolt volitatud ametiisikutel .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 48 <hi rend="sup">3</hi> .</s><s>Juriidilise isiku haldus&otilde;iguserikkumise asja menetlus</s>
+</p>
+<p>
+<s>Menetlus k&auml;esoleva seaduse &sect;-s 48 <hi rend="sup">1</hi> s&auml;testatud juriidilise isiku haldus&otilde;iguserikkumise asjas , kaasa arvatud karistuse m&auml;&auml;ramine ja vaidlustamine , toimub haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 50 , 548 ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 45 , 279 ; 49 , 301 ; 305 ; 51 , 321 ; 54 , 346 ; 348 ; 351 ; 55 , 361 ; 58 , 376 ; 84 , 533 ; 86 , 544 ; 548 ; 89 , 578 ; 95 , 609 ; 613 ; 2001 , 3 , 5 ; 9 , 41 ; 17 , 76 ; 18 , 87 ; 21 , 115 ; 116 ; 31 , 174 ; 42 , 236 ; 52 , 303 ; 53 , 312 ; 313 ; 314 ; 56 , 333 ; 335 ; 339 ; 58 , 356 ; 65 , 378 ) kehtestatud korras .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 48 <hi rend="sup">4</hi> .</s><s>Juriidilise isiku haldus&otilde;iguserikkumise asja arutamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 48 <hi rend="sup">1</hi> nimetatud juriidilise isiku haldus&otilde;iguserikkumiste asju arutab maa- v&otilde;i linnakohus .</s>
+</p>
+<p>
+<s>( 2 ) Haldus&otilde;iguserikkumise asja arutamisel kuuluvad erikonfiskeerimisele :</s>
+</p>
+<p>
+<s>1 ) haldus&otilde;iguserikkumise vahend ;</s>
+</p>
+<p>
+<s>2 ) haldus&otilde;iguserikkumise l&auml;bi omandatud vara ;</s>
+</p>
+<p>
+<s>3 ) haldus&otilde;iguserikkumise vahetu objekt .</s>
+</p>
+<p>
+<s>( 3 ) Rahatrahv , mis on m&auml;&auml;ratud juriidilisele isikule kohaliku omavalitsuse volikogu poolt volitatud ametiisiku koostatud haldus&otilde;iguserikkumise protokolli alusel , laekub haldus&otilde;iguserikkumise toimepanemise koha j&auml;rgse kohaliku omavalitsuse eelarvesse .</s>
+</p>
+<p>
+<s>( 17.01.2001 j&otilde;ust.16.02.2001 - RT I 2001 , 16 , 72 )</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>J&auml;&auml;tmetest p&otilde;hjustatud keskkonnareostuse likvideerimine</s>
+</p>
+<p>
+<s>( 1 ) Ebaseaduslikult keskkonda viidud j&auml;&auml;tmed k&otilde;rvaldab ja nendest p&otilde;hjustatud keskkonnareostuse likvideerimise korraldab j&auml;&auml;tmete ebaseaduslikult keskkonda viija ( edaspidi reostuse tekitaja ) oma kulul keskkonnaj&auml;relevalve asutuse otsuse alusel .</s>
+</p>
+<p>
+<s>( 2 ) Reostuse tekitaja h&uuml;vitab reostusega p&otilde;hjustatud kahju t&auml;ies ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Kui reostuse tekitaja k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kohustust ei t&auml;ida , korraldab reostuse likvideerimise reostuse tekitaja kulul reostatud kinnisasja omanik .</s>
+</p>
+<p>
+<s>( 4 ) Kui reostuse tekitajat pole v&otilde;imalik kindlaks teha , korraldab reostatud kinnisasja omanik reostuse likvideerimise oma kulul .</s>
+</p>
+<p>
+<s>( 5 ) Kui reostatud kinnisasja omanik ei t&auml;ida k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud kohustust , korraldab reostuse likvideerimise reostatud kinnisasja omaniku kulul kohalik omavalitsus .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Eesti Vabariigi j&auml;&auml;tmeseaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Eesti Vabariigi j&auml;&auml;tmeseadus ( RT 1992 , 21 , 296 ; RT I 1994 , 74 , 1323 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>J&auml;&auml;tmelubade ja ohtlike j&auml;&auml;tmete k&auml;itluslitsentside kehtivus</s>
+</p>
+<p>
+<s>Enne k&auml;esoleva seaduse j&otilde;ustumist antud j&auml;&auml;tmeload ja ohtlike j&auml;&auml;tmete k&auml;itluslitsentsid j&auml;&auml;vad kehtima kuni nende v&auml;ljavahetamiseni k&auml;esoleva seaduse n&otilde;uetele vastavate j&auml;&auml;tmelubade ja ohtlike j&auml;&auml;tmete k&auml;itluslitsentsidega .</s><s>Taotluste vastuv&otilde;tmine j&auml;&auml;tmelubade ja ohtlike j&auml;&auml;tmete k&auml;itluslitsentside v&auml;ljavahetamiseks l&otilde;petatakse 1999. aasta 31. detsembril .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 12.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 340 )</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahv 38 l&otilde;ike 1 punktis 3 ja paragrahv 39 punktis 6 s&auml;testatut rakendatakse kahe aasta m&ouml;&ouml;dumisel k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.19.03.99 - RT I 1999 , 23 , 353 ; 12.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 340 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 43 <hi rend="sup">1</hi> l&otilde;ikes 2 nimetatud vasest v&otilde;i alumiiniumist elektrijuhtme v&otilde;i kaabli kokkuostmine , mis tahes muul viisil j&auml;&auml;tmetena vastuv&otilde;tmine v&otilde;i hoidmine k&auml;esoleva seaduse &sect;-s 43 <hi rend="sup">7</hi> nimetatud tegevuskohas on keelatud kuni 2003. aasta 31. detsembrini .</s>
+</p>
+<p>
+<s>( 12.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 340 )</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1998. aasta 1. detsembril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

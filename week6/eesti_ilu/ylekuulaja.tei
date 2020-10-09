@@ -1,0 +1,202 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>&Uuml;lekuulaja</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 30804; s&otilde;nu: 3261</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>&Uuml;lekuulaja</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=div1 occurs=8></tagusage>
+         <tagusage gi=head occurs=9></tagusage>
+         <tagusage gi=p occurs=111></tagusage>
+         <tagusage gi=s occurs=424></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+
+<text>
+<body>
+<div0 type='tervikteos'><head>&Uuml;lekuulaja</head>
+<p> <bibl> <author> <s>Simo Runnel</s> </author> </bibl> </p> <div1 type='alaosa'> <head>1 . </head> <p> <s>Kutsun Lenini v&auml;lja . </s> </p>
+<p> <s> " Miks sa oktoobrirevolutsiooni korraldasid ? " k&uuml;sin . </s> </p>
+<p> <s> " Kas sa ei saaks minuga vene keeles r&auml;&auml;kida ? " k&uuml;sib ta . </s> </p>
+<p> <s> " Ei saa . </s> <s> Ma ei oska eriti vene keelt . </s> <s> Ma &otilde;ppisin koolis esimesest klassist peale vene keelt nii v&auml;he kui v&otilde;imalik , et minust ei saaks venelast . </s> <s> Oskan vene keeles vaid pisut lugeda , " vastan . </s> </p>
+<p> <s> " H&auml;sti , " &uuml;tleb Lenin . </s> <s> " R&auml;&auml;gime siis eesti keeles . </s> <s> Ma arvasin , et ma seda keelt ei oska , aga ma olen v&auml;ga haritud ja saan praegu sellega hakkama . </s> <s> Ju ma olen seda ikka kunagi &otilde;ppinud , ainult &otilde;ppimise fakti &auml;ra unustanud . </s> <s> " </s> </p>
+<p> <s> " Sa r&auml;&auml;gid ja m&otilde;istad eesti keelt praegu t&auml;nu minule , " &uuml;tlen . </s> <s> " Kui sa siit lahkud , unustad selle v&otilde;ibolla t&auml;ielikult . </s> <s> Mul on v&otilde;imeid , millest sina pole kunagi m&otilde;elnudki . </s> <s> Aga miks sa oktoobrirevolutsiooni korraldasid ? " </s> </p>
+<p> <s> " Vaata , " &uuml;tleb Lenin . </s> <s> Ma ei ole kunagi selle &uuml;le s&uuml;gavalt m&otilde;elnud , kuidas selle korraldamist p&otilde;hjendada . </s> <s> Mulle tundus , et oktoobrirevolutsioon on vajalik , ja nii ma selle l&auml;bi viisingi . </s> <s> Aga sinu soovile vastu tulles ma p&uuml;ian oma tegevust veidi anal&uuml;&uuml;sida . </s> <s> Me m&otilde;lemad oleme l&auml;htunud tahtest . </s> <s> Mina ei tahtnud , et endine kord p&uuml;sima j&auml;&auml;ks , sina ei tahtnud saada venelaseks . </s> <s> Siin on selge paralleel . </s> <s> Kui sa n&uuml;&uuml;d ise oma tahtmise &auml;ra oskaksid p&otilde;hjendada , siis ehk oskaksin minagi oma tegevuse seletamiseks p&otilde;hjenduse leida . </s> <s> Sa veensid mind , et sul on suured v&otilde;imed . </s> <s> Kui sul nii suured v&otilde;imed on , miks sa siis ikkagi venelaseks ei hakanud ? </s> <s> Sa oleksid sellega kindlasti hakkama saanud , kui sa juba teisigi inimesi eestlaseks teed ja p&auml;rast tagasigi muudad . </s> <s> Miks sa k&uuml;ll venelaseks saada ei tahtnud ? " </s> <s> Vastan : </s> </p>
+<p> <s> " Ma suudan teha ainult seda , mida ma tahan . </s> <s> Venelaseks ei taha ma saada sellep&auml;rast , et venelasi on niigi palju , eestlasi aga v&auml;he . </s> <s> Ma tahan , et maailmas oleks palju v&auml;ikseid rahvusi , aga et nad ei oleks nii v&auml;iksed , et nad v&auml;lja surevad . </s> <s> Kuidas siis sinuga &otilde;ieti on ? " </s> <s> Lenin &uuml;tleb : </s> </p>
+<p> <s> " Minu v&otilde;imed on selgelt sinu v&otilde;imetest v&auml;iksemad . </s> <s> Kui juba sina ei suutnud teha seda , mida sa ei taha , siis ei suutnud ka mina vastu tahtmist oktoobrirevolutsiooni l&auml;bi viimata j&auml;tta . </s> <s> Mulle ilmselt lihtsalt meeldis selline revolutsioon . </s> <s> Sain selle m&otilde;tte Marxi teoseid lugedes , ja mulle meeldis Marxi stiil . </s> <s> Siis pidin need tema ideed , millest ma aru sain , ka omaks v&otilde;tma . </s> <s> V&otilde;ibolla sain muidugi millestki valesti aru . </s> <s> Aga ma ju n&auml;gin Venemaal juba enne kahte revolutsiooni . </s> <s> Siis ma m&otilde;tlesingi , et Marx vist midagi sellist tahtiski . </s> <s> Ja mulle ei meeldinud , et revolutsiooni alustavad alati teised ilma minule &uuml;tlemata . </s> <s> M&otilde;tlesin , et teen ise &uuml;he ilma teistele &uuml;tlemata . </s> <s> " </s> </p>
+<p> <s>Saadan Lenini &auml;ra . </s> <s> Ta ei suutnud kummutada minu teooriat k&otilde;ige juhtuva paratamatusest . </s> <s> Aga kas oktoobrirevolutsiooni ei korraldanud hoopis Trotski oma s&uuml;nnip&auml;eva t&auml;histamiseks ? </s> <s> Ei , siis oleks Lenin seda &ouml;elnud . </s> </p> </div1> <div1 type='alaosa'> <head>2 . </head> <p> <s>Keegi koputab uksele . </s> </p>
+<p> <s> " Sisse ! " h&uuml;ian . </s> <s> Uks l&auml;heb aeglaselt praokile , ja ukseprakku ilmub Hitleri pea . </s> </p>
+<p> <s> " Tule julgelt edasi ! " &uuml;tlen talle . </s> <s> Hitler astub sisse , aga j&auml;&auml;b ukse k&otilde;rvale seisma . </s> </p>
+<p> <s> " Kas saapad peab &auml;ra v&otilde;tma ? " k&uuml;sib ta . </s> </p>
+<p> <s> " Ei ole vaja . </s> <s> Ja v&otilde;id istuda , " &uuml;tlen talle . </s> <s> Kui ta on istunud , k&uuml;sin : </s> </p>
+<p> <s> " Mis sind siis siia t&otilde;i ? " </s> <s> Hitler vastab : </s> </p>
+<p> <s> " Ma ei tahtnud t&uuml;litada , ma tahtsin ainult k&uuml;sida , miks Lenin siin k&auml;is ? </s> <s> N&auml;gin teda siitpoolt tulemas . </s> <s> " </s> </p>
+<p> <s> " Aga miks see sulle muret teeb ? " k&uuml;sin vastu . </s> </p>
+<p> <s> " Teeb ikka muret k&uuml;ll , " &uuml;tleb Hitler , kelle h&auml;&auml;l hakkab enesekindlamaks muutuma . </s> <s> " Teie , eestlased , s&otilde;disite ju minu poolel N&otilde;ukogude Liidu vastu . </s> <s> Kas te hakkate siis n&uuml;&uuml;d kommunistidega koost&ouml;&ouml;d tegema ? " </s> <s> Vastan : </s> </p>
+<p> <s> " Lenini kutsusin ma siia k&uuml;ll ise , aga teised eestlased ei tea sellest midagi . </s> <s> Ja Lenin ei olnud ju algusest peale kommunist , vaid Venemaal tegutses sotsiaaldemokraatlik partei , nagu sina olid natsionaalsotsialist . </s> <s> Kas teie , kaks vana sotsialisti siis sugugi teineteist ei m&otilde;ista ? " </s> <s> Hitler &uuml;tleb : </s> </p>
+<p> <s> " Just nimelt , Lenin reetis sotsialismi , mina j&auml;in aga l&otilde;puni sotsialistiks . </s> <s> Miks ma peaksin reeturit usaldama ? " </s> <s> &Uuml;tlen : </s> </p>
+<p> <s> " Oleks v&otilde;inud arvata , et teie erimeelsused tulevad rohkem sellest , et Lenin oli internatsionalist , sina aga rahvuslane ja rassist . " </s> <s> Hitler hakkab kiiremini r&auml;&auml;kima : </s> </p>
+<p> <s> " Lenin internatsionalist ja mina mitte ? </s> <s> Ma ju hoolitsesin kogu Euroopa rahvaste eest . </s> <s> Ma valitsesin kogu Euroopat ja oleksin v&otilde;inud teiste rahvaste elu p&otilde;rguks teha , aga ma lasin neil elada ja s&otilde;jas vereau kanda . " </s> <s> Vastan : </s> </p>
+<p> <s> " Aga juute sa ju hakkasid h&auml;vitama . " </s> <s> Hitler vaidleb vastu : </s> </p>
+<p> <s> " Ega ma k&otilde;iki juute ei h&auml;vitanud . </s> <s> Mu eesm&auml;rk oli rohkem , et nad Ameerikasse p&otilde;geneksid . </s> <s> Pealegi olen kuulnud , et mu enda esivanemate hulgas oli ka juute , aga ma ei hakanud sellep&auml;rast ennast tapma . </s> <s> " </s> </p>
+<p> <s> " Sa ju l&otilde;puks tapsid ennast , " &uuml;tlen . </s> </p>
+<p> <s> " Ei tapnud , " &uuml;tleb Hitler . </s> <s> " See , kes ennast tappis , oli minu teisik , kes arvas , et teda hakatakse minu p&auml;he piinama . </s> <s> Ise varjasin ennast kuni loomuliku surmani heade sakslaste kodudes . " </s> <s> Vastan : </s> </p>
+<p> <s> " Lugesin , et tapsid ise oma teisiku ja varjasid ennast peale seda Franco juures Hispaanias . </s> <s> Aga pidasin seda ilukirjanduseks . " </s> <s> Hitler t&auml;psustab : </s> </p>
+<p> <s> " Ma ei saanud ju p&otilde;geneda l&auml;bi vaenlaste vallutatud alade Hispaaniasse . </s> <s> Pealegi , Francot ma ka ei usaldanud , sest ta ei n&otilde;ustunud kellelegi s&otilde;da kuulutama ja saatis rindele ainult &uuml;he vabatahtlike diviisi . </s> <s> Varjasin ennast lihtsate sakslaste juures . </s> <s> Enamus rahvast oli minu poolt , seega keegi mind &uuml;les andma ei hakanud ja k&otilde;iki kodusid l&auml;bi otsida ka ei j&otilde;utud . " </s> <s> Esitan uue k&uuml;simuse : </s> </p>
+<p> <s> " Kui enamus sakslasi oli sinu poolt , kuidas siis Jumal sinusse suhtub ? </s> <s> Kas elad n&uuml;&uuml;d taevas v&otilde;i p&otilde;rgus ? " </s> <s> Hitler vastab : </s> </p>
+<p> <s> " Raske &ouml;elda , kumba ma l&otilde;puks l&auml;hen . </s> <s> Viimset kohtup&auml;eva ei ole ju veel olnud . " </s> <s> &Uuml;tlen : </s> </p>
+<p> <s> " H&auml;sti , sa vastasid n&uuml;&uuml;d minu k&uuml;simused &auml;ra . </s> <s> Omalt poolt &uuml;tlen , et Lenini p&auml;rast ei pea sa v&auml;ga muretsema . </s> <s> Kutsusin ta siia samasuguse uudishimu p&auml;rast . </s> <s> Mingit koost&ouml;&ouml;d ma temaga ei arutanud . " </s> <s> Lenini nime mainimise p&auml;rast muutub Hitler j&auml;lle nagu kartlikumaks , aga &uuml;tleb : </s> </p>
+<p> <s> " See on t&otilde;esti kergendus . </s> <s> Ma siis n&uuml;&uuml;d l&auml;hen , " ja lahkubki kiirel sammul . </s> </p> </div1> <div1 type='alaosa'> <head>3 . </head> <p> <s>Kuidas nende taevassemineku asjadega ikkagi on ? </s> <s> K&uuml;siks m&otilde;nelt usumehelt . </s> <s> Otsustan kutsuda Lutheri . </s> <s> Enne kui ma seda teha j&otilde;uan , sajab Luther ise l&auml;bi lae t&uuml;hjale toolile . </s> <s> Ta &uuml;tleb : </s> </p>
+<p> <s> " N&auml;gin , et tahtsid mind kutsuda . </s> <s> Siin ma olen . </s> <s> Hitler valetas , et tema &uuml;le veel kohut m&otilde;istetud ei ole . </s> <s> Ta elab muidugi p&otilde;rgus . </s> <s> Inimese &uuml;le m&otilde;istetakse kohut kohe peale tema surma . </s> <s> " </s> </p>
+<p> <s> " Ja sina sadasid siia taevast ? " k&uuml;sin . </s> </p>
+<p> <s> " Jah , " vastab Luther . </s> <s> " Miks Hitler t&auml;pselt p&otilde;rgusse l&auml;ks ? " k&uuml;sin " Millal ta tegi otsustava vea ? " </s> <s> Luther vastab : </s> </p>
+<p> <s> " Otsustav viga oli see , et ta ristiti katoliiklaseks . </s> <s> Tal oli veel surmani v&otilde;imalus p&ouml;&ouml;rduda minu usku ja sellega p&otilde;rgust p&auml;&auml;seda , aga ta ei teinud seda . </s> <s> " </s> </p>
+<p> <s> " Aga ta on &ouml;elnud , et luteri usk on parem kui katoliiklus , sest katoliiklaste keskus on Rooma , luterlaste oma asub Saksamaal . " </s> <s> Luther vaidleb vastu : </s> </p>
+<p> <s> " Ta valetas &uuml;ldse palju , sest ta oli katoliiklane . </s> <s> Kui ta &uuml;tles , et ta nii m&otilde;tleb , siis ta valetas . </s> <s> Tegelikult ta ju s&otilde;lmis paavstiga konkordaadi ja &uuml;hendas Saksamaa katoliikliku Austriaga . </s> <s> Ja ta v&otilde;ttis oma poliitikas eeskuju Itaalia fa&Uuml;istidelt , kes olid k&otilde;ik katoliiklased . " </s> <s> Mulle meenub , et Luther elas enne Hitlerit . </s> <s> K&uuml;sin : </s> </p>
+<p> <s> " Aga kuidas sa &uuml;ldse midagi Hitlerist tead ? </s> <s> Kui ma sind kutsuda otsustasin , ei tulnud mulle &uuml;ldse meelde , et sa surid enne Hitleri s&uuml;ndimist . </s> <s> Minust sa muidugi v&otilde;isid teada , sest olen v&otilde;ibolla kogemata oma tegevusest sulle varemgi m&auml;rku andnud . </s> <s> Oleks v&otilde;inud arvata , et tead Hitlerist ainult seda , mida ta siin olles r&auml;&auml;kis . " </s> <s> Luther k&uuml;sib : </s> </p>
+<p> <s> " Kas sa t&otilde;esti pead ennast Hitlerist millegi poolest paremaks ? </s> <s> Olen j&auml;lginud pilve pealt nii sinu kui ka Hitleri kogu tegevust . </s> <s> Ma ei tea ainult neid asju , mis juhtusid enne minu s&uuml;ndimist v&otilde;i minu eluajal . </s> <s> Aga k&otilde;ike , mis on juhtunud peale minu surma , olen ma n&auml;inud . </s> <s> " </s> </p>
+<p> <s> " Ma ei ole Hitlerist parem ? " k&uuml;sin . </s> <s> " Kas mina l&auml;hen siis ka p&otilde;rgusse ? " </s> </p>
+<p> <s> " Seda otsustab Jumal , " vastab Luther . </s> <s> " N&auml;en sinu tegusid , aga mitte seda , kas sa Jumalat &otilde;ieti usud . </s> <s> " </s> </p>
+<p> <s> " Aga surnute kohta sa v&auml;idad end teadvat . </s> <s> Kas on nii , et luteri usk on &otilde;ige usk , teised valed ? " </s> <s> Luther vastab : </s> </p>
+<p> <s> " P&otilde;him&otilde;tteliselt k&uuml;ll . </s> <s> Aga p&otilde;rgusse on l&auml;inud ka ristitud luterlasi . " </s> <s> K&uuml;sin : </s> </p>
+<p> <s> " Aga kuidas on nendega , kes elasid enne reformatsiooni algust ? " </s> </p>
+<p> <s> " Tol ajal polnud luterlased veel lihtsalt oma kirikut asutanud , aga Piiblis olid ju &otilde;ige usu alused toodud , nii et taevasse mindi ka varem . </s> <s> Piiblis on ju &ouml;eldud , et Jeesus l&auml;ks ka taevasse . </s> <s> " </s> </p>
+<p> <s> " Katoliku kiriku rajas Peetrus , " &uuml;tlen . </s> <s> " Kas tema on n&uuml;&uuml;d p&otilde;rgus ? " </s> <s> Luther vastab : </s> </p>
+<p> <s> " Peetrus oli tegelikult luterlane , aga teda ei m&otilde;istetud , ja tema j&auml;rglastest said katoliiklased . </s> <s> Peetrus ise on taevas . </s> <s> " </s> </p>
+<p> <s> " T&auml;nan , " &uuml;tlen . </s> <s> Luther t&otilde;useb toolilt , h&uuml;ppab &otilde;hku ja lendab l&auml;bi lae . </s> </p> </div1> <div1 type='alaosa'> <head>4 . </head> <p> <s>Vaevalt on Lutheri varbaotsad lakke kadunud , kui p&otilde;randast hakkab t&otilde;usma sinist suitsu . </s> <s> Algul arvan , et see on seotud Lutheri minekuga , siis aga kerkib p&otilde;randast m&uuml;rina saatel Stalin . </s> <s> Pakun talle tooli , aga ta istub irvitades ja s&otilde;nagi lausumata lauale . </s> </p>
+<p> <s> " Mis sind veel siia t&otilde;i ? " k&uuml;sin . </s> <s> Stalin ei kiirusta vastamisega , vaid v&otilde;tab taskust piibu , paneb selle suhu , ja piip l&auml;heb iseenesest p&otilde;lema . </s> <s> Kui ta on paar korda suitsu v&auml;lja puhunud , vastab ta alles : </s> </p>
+<p> <s> " Tulin &uuml;tlema , et Luther ei tea p&otilde;rgu asjadest midagi . </s> <s> Hitler ei ole mitte lihtsalt p&otilde;rgus , vaid seitsmendas p&otilde;rgus , k&otilde;ige alumises . " </s> <s> K&uuml;sin : </s> </p>
+<p> <s> " Mitmendas sa ise oled ? " </s> <s> Stalin vastab : </s> </p>
+<p> <s> " Viiendas . </s> <s> Selles on &uuml;sna inimlikud tingimused ja palju hukkam&otilde;istetuid . </s> <s> Aga Hitler on seitsmendas p&otilde;rgus peaaegu &uuml;ksi . </s> <s> Peale tema on seal veel ainult Trotski ja paar teist k&otilde;ige suuremat s&uuml;&uuml;dlast . </s> <s> " </s> </p>
+<p> <s> " Aga kuidas sina ja Hitler tulete p&otilde;rgust v&auml;lja , millal ise tahate ? </s> <s> Siis on see ju &otilde;ige leebe re&zcaron;iimiga koht . </s> <s> " </s> </p>
+<p> <s> " Me ei tulegi v&auml;lja , millal ise tahame , vaid kokkuleppel Saatanaga . </s> <s> Tema on huvitatud , et tema firma maine hea oleks . </s> <s> Hitler saab v&auml;lja harva , sest ei austa Saatanat . </s> <s> Mina aga s&otilde;lmisin juba eluajal Saatanaga koost&ouml;&ouml;lepingu ja pole seda kordagi rikkunud . </s> <s> " </s> </p>
+<p> <s> " Nii et sa tulid v&otilde;imule t&auml;nu Saatanaga s&otilde;lmitud lepingule ? " </s> </p>
+<p> <s> " Ei , t&auml;nu Leninile . </s> <s> Ma olin piisavalt tugev , et p&uuml;sida ainult oma j&otilde;ule toetudes v&otilde;imul ka peale Lenini surma . </s> <s> Aga Suure Isamaas&otilde;ja ajal , kui sakslased l&auml;henesid Moskvale , sain aru , et kuna protsessid on &uuml;ldjuhul p&ouml;&ouml;rdumatud , siis &uuml;ksi ma enam Hitleri vastu ei saa . </s> <s> Siis otsustasin l&otilde;puks Saatana pakutud lepingule alla kirjutada . </s> <s> " </s> </p>
+<p> <s> " Millal Saatan selle pakkumise tegi ? " </s> </p>
+<p> <s> " Ta saatis oma esindaja minu isaga r&auml;&auml;kima juba enne minu s&uuml;ndimist . </s> <s> Isa n&otilde;ustuski mind Saatana sulaseks andma . </s> <s> Kui sain kolme aastaseks , tuli Saatan isiklikult mulle j&auml;rgi . </s> <s> Aga ma keeldusin temaga kaasa minemast , sest minu arvamust poldud k&uuml;situd . </s> <s> Isa ja Saatan kimbutasid mind edasi . </s> <s> Enda kaitsmiseks otsustasin minna vaimulikku kooli . </s> <s> " </s> </p>
+<p> <s> " Nii et vanemad sind sinna ei pannudki ? " </s> </p>
+<p> <s> " Vanemate juurest p&otilde;genesin kohe peale Saatana k&uuml;lask&auml;iku . </s> <s> Elasin vahel t&auml;naval , vahel s&otilde;prade pool . </s> <s> Vanemad j&auml;litasid mind ja said vahel k&auml;tte , aga p&otilde;genesin alati uuesti . </s> <s> " </s> </p>
+<p> <s> " Aga milles see Saatanaga s&otilde;lmitud leping seisnes ? " </s> </p>
+<p> <s> " Kohustusin loobuma maailmarevolutsiooni l&auml;biviimisest ja piirduma ainult naaberriikide vallutamisega , teiseks pidin talle oma s&otilde;dureid ohverdama , kolmandaks pean p&otilde;rgus l&auml;bi viima ideoloogilist kasvatust . </s> <s> See pole enam kommunistlik , vaid Saatana ideoloogia . </s> <s> " </s> </p>
+<p> <s> " Esimene punkt tundub imelik . </s> <s> &Uuml;tlesid ju , et sakslased oleks sind ilma selle lepinguta v&otilde;itnud . </s> <s> Miks oli siis vaja tingimata maailmarevolutsioonist loobumist kuulutada ? " </s> </p>
+<p> <s> " M&otilde;tle loogiliselt . </s> <s> Kui ma Saatanaga juba lepingu s&otilde;lmisin , omandasin ka j&otilde;u maailmarevolutsiooni l&auml;biviimiseks . </s> <s> Revolutsiooni oleksin saanud alustada ka &uuml;leni vallutatud maal , aga ma ei tahtnud hetkekski l&uuml;iasaamist tunnistada . </s> <s> Aga Saatan juba kutsub mind . " </s> <s> Ta sukeldus p&otilde;randasse ja ruum t&auml;itus m&otilde;neks ajaks uuesti sinise suitsuga . </s> </p></div1> <div1 type='alaosa'> <head>5 . </head> <p> <s>Hakkan l&otilde;puks oma teooriates kahtlema . </s> <s> Arvasin varem , et k&otilde;ik ajaloos toimuv on ette m&auml;&auml;ratud . </s> <s> Minu erinevad k&uuml;lalised r&auml;&auml;givad aga selle kohta erinevaid jutte , erinevusi on ka loetuga . </s> <s> V&otilde;ibolla siis polegi olemas k&otilde;ikem&auml;&auml;ravat algp&otilde;hjust , vaid iga isik on tegutsenud erinevas reaalsuses ? </s> <s> Sel juhul olen saanud kontakti ainult nendega , kellega minu reaalsus kokku puutub , samal ajal kui sellest v&auml;ljaspool v&otilde;ib olla v&auml;gevamaid tegelasi . </s> <s> V&otilde;i saan tungida k&otilde;igisse reaalsustesse ja olengi sisenenud erinevatesse , mis on omavahel vastuolus ? </s> <s> Tuleb j&auml;rele m&otilde;elda . </s> <s> Kes j&auml;&auml;vad minu reaalsusest v&auml;ljapoole ? </s> <s> Kunagi arvasin , et olemas pole Jumalat ega Saatanat , seega minu tolleaegses reaalsuses neid ei olnud . </s> <s> Ja neid pole ma veel v&auml;lja kutsunud , seega puudub mul nendega ka praegu &otilde;ige kontakt . </s> <s> Ajalooraamatutes on neist juttu kui kuskil kaugemal viibijatest . </s> <s> Jumalast on veel juttu , Jeesust on peetud isegi tema maapealseks kehastuseks . </s> <s> Saatan j&auml;&auml;b aga kaugeks . </s> <s> V&otilde;taks k&otilde;igepealt kontakti Saatanaga . </s> <s> Kui see &otilde;nnestub , siis m&otilde;tleks m&otilde;ne ajaloolise isiku ise v&auml;lja ja prooviks temaga kontakti saada , v&otilde;i siis p&uuml;iaks kontakteeruda kellegagi , keda ma ei oska isegi v&auml;lja m&otilde;elda . </s> <s> Aga Saatana siiatulek v&otilde;iks mulle ohtlikuks kujuneda . </s> <s> Parem helistan talle , enne kui ta minu m&otilde;tete peale ise kohale tuleb . </s> <s> Valin Saatana oletatava numbri . </s> </p>
+<p> <s> " Hallo ! " kostab torust . </s> </p>
+<p> <s> " Kas Saatan ? " k&uuml;sin . </s> </p>
+<p> <s> " Ei , Jumal , " vastatakse torust . </s> </p>
+<p> <s> " Vabandust , ma vist eksisin numbriga . </s> <s> Jumalat ennast ei tahtnud ma k&uuml;ll t&uuml;litada , " &uuml;tlen . </s> </p>
+<p> <s> " Kulla s&otilde;ber , " kostab torust . </s> <s> " Kas sa siis ei ole kuulnud , et Saatan ja Jumal on &uuml;ks ja sama . </s> <s> M&otilde;tle ise , miks on maailmas muidu nii palju h&auml;da ja viletsust . </s> <s> Kui Jumal oleks hea ja k&otilde;ikv&otilde;imas , kuidas ta oleks saanud siis sellise maailma luua ? " </s> </p>
+<p> <s> " Aga paljud inimesed on eluga rahul , " &uuml;tlen . </s> <s> " Ei saa &ouml;elda ka , et maailm oleks t&auml;iuslikult halb . </s> <s> V&otilde;ibolla on paradiis siiski olemas ? </s> <s> Luther ise &uuml;tles , et ta elab taevas . </s> <s> Kas ta siis valetas ? " </s> <s> Torust kostab naeru . </s> </p>
+<p> <s> " Sa k&uuml;sid Saatana k&auml;est , kas keegi valetas . </s> <s> Miks peaks Saatan sulle t&otilde;tt &uuml;tlema . </s> <s> Kui Saatan &uuml;tleb sulle , et ta on sama , kes Jumal , miks sa siis kohe teda usud ? </s> <s> Miks sa ei helistanud Jumalale endale , kui eeldasid tema olemasolu . </s> <s> Tema oleks sulle ju t&otilde;tt r&auml;&auml;kinud . </s> <s> " </s> </p>
+<p> <s> " Kuidas siis on , kas on Jumal Saatanast eraldi olemas v&otilde;i ei ole ? </s> <s> Minu ettekujutuses ei tohi Jumalat ilmaasjata t&uuml;litada . </s> <s> " </s> </p>
+<p> <s> " Niisiis , sa unustad juba minu argumendid Jumala olemasolu vastu . </s> <s> Aga miks sa ei v&otilde;iks tema poole p&ouml;&ouml;rduda . </s> <s> Iga usklik ju p&ouml;&ouml;rdub palvetes Jumala poole . </s> <s> Sina suudad rohkem . </s> <s> Sa suudad &auml;ra arvata k&otilde;igi telefoninumbrid . </s> <s> M&otilde;tle , kas sa ei sooviks minu n&otilde;uannet j&auml;rgida . " </s> <s> Torust kostab uuesti naeru ja toru pannakse hargile . </s> </p> </div1> <div1 type='alaosa'> <head>6 . </head> <p> <s>Oleksin tahtnud Saatanalt k&uuml;sida veel Stalini ja Hitleri kohta . </s> <s> Helistan &otilde;ige talle uuesti ? </s> <s> Aga ta ise &uuml;tles , et tema s&otilde;nu pole vaja uskuda . </s> <s> Ja ta oli esimene , kes selgelt endale vastu r&auml;&auml;kis , seega ta pidi v&auml;hemalt mingil hetkel valetama . </s> <s> Kas ei peaks j&auml;rgima tema soovitust helistada Jumalale ? </s> <s> Jah , ma aiman , mis on Jumala number . </s> <s> Aga kui sellel soovitab helistada Saatan , siis on see arvatavasti l&otilde;ks . </s> <s> Ta tahab , et Jumal minu peale vihastaks , v&otilde;i on ta t&otilde;esti ise Jumal ja sellel ahvatlevamal numbril talle helistamine oleks nagu kolme veretilga andmine . </s> <s> Aga kui Saatan ja Jumal on &uuml;ks , kas ei oleks siis targem temaga h&auml;sti l&auml;bi saada p&uuml;&uuml;da ja tema soovitusi j&auml;rgida ? </s> <s> Siiski , kui ta on olemuselt kuri , ei aitaks tema kurjuse vastu arvatavasti ka talle kuuletumine . </s> <s> See , et ta pole suutnud kogu maailma p&otilde;rguks muuta , n&auml;itab , et teda peab taskaalustama mingi heatahtlikum jumal . </s> <s> V&otilde;ibolla suudan seda kuidagi ka ise teha . </s> <s> Igatahes kohe praegu ma Jumalale ei helista , sest praegu oleks see selgesti lihtsalt Saatanale kuuletumine . </s> <s> Kui Jumal on Jumal , siis n&auml;eb ta ise , milles on probleem ja saadab mulle signaali , kui tahab , et ma talle helistaksin . </s> </p>
+<p> <s>Aga n&uuml;&uuml;d prooviks v&otilde;tta &uuml;hendust m&otilde;ne v&auml;ljam&otilde;eldud ajaloolise isikuga . </s> <s> M&otilde;tlen n&auml;iteks v&auml;lja , et Marsil on elu ja k&otilde;ik sealsed riigid on &uuml;hendanud kuningas Fath . </s> <s> Kutsun ta siia . </s> <s> Proovin teda kutsuda , aga ta ei tule . </s> <s> Heliseb hoopis telefon . </s> <s> V&otilde;tan toru ja kuulen kurja h&auml;&auml;lt : </s> </p>
+<p> <s> " Siin kuningas Fath Marsilt . </s> <s> Mis sul arus on , et sa elusat inimest kutsud ? </s> <s> Mul on praegu koosolek . </s> <s> Terve planeedi asjad tahavad otsustamist . </s> <s> Tegele parem oma surnutega . </s> <s> V&otilde;i kui sul t&otilde;esti on m&otilde;ni hea ettepanek , siis helista . </s> <s> Sinna ma ei saa tulla . </s> <s> Ja sa solvasid mind , kutsudes mind kuningana . </s> <s> Olin oma esialgses kuningriigis t&otilde;esti kuningas , aga p&auml;rast planeedi vallutamist peavad alamad ja v&otilde;&otilde;rad mind keisrina k&otilde;netama . " </s> <s> Vastan : </s> </p>
+<p> <s> " Jah , mul on ettepanek . </s> <s> Ettepanek seisneb selles , et teeksime koost&ouml;&ouml;d Maa ja Marsi ajalugude v&otilde;rdlemisel . </s> <s> &Uuml;ks olulisemaid k&uuml;simusi on seejuures , miks su riiki ega mingisugust Marsi elu Maal m&auml;rgata ei ole . </s> <s> Alles sinu telefonik&otilde;ne on esimene signaal sealt . " </s> <s> Fath vastab : </s> </p>
+<p> <s> " Sa tuled v&auml;gevama tsivilisatsiooni esindajale rumalaid k&uuml;simusi esitama . </s> <s> Kas ma peaksin sulle k&otilde;ik oma teadmised edasi andma , et tekitada konkurentsi Universumi vallutamisel ? </s> <s> H&auml;sti , k&otilde;ige elementaarsematest asjadest v&otilde;in ma ju r&auml;&auml;kida . </s> <s> Ega meie Marsi astronoomid ka Maal elu pole avastanud . </s> <s> Erinevad tsivilisatsioonid koosnevad erinevast mateeriast , mist&otilde;ttu ei ole &uuml;ksteisele n&auml;htavad . </s> <s> Vaimsed isikud teavad seda , aga neid on v&auml;he . </s> <s> Minuga on Maalt kontakti v&otilde;tnud ainult Jumal ja Saatan , sest Maa on ilmselt k&otilde;ige mahaj&auml;&auml;num planeet terves Universumis . </s> <s> Alles t&auml;na muutusid ka sina kontakteerumisv&otilde;imeliseks . </s> <s> " </s> </p>
+<p> <s> " Kas sa oled siis v&auml;gevam ka meie Jumalast ja Saatanast ja kavatsed nad koos kogu Universumiga oma v&otilde;imule allutada ? " </s> </p>
+<p> <s> " Ma pole midagi &ouml;elnud ! " karjutakse torru . </s> <s> J&auml;lle pannakse toru hargile . </s> </p> </div1> <div1 type='alaosa'> <head>7 . </head> <p> <s>N&uuml;&uuml;d on p&otilde;hjus Jumalale helistamiseks olemas . </s> <s> Teda tuleb Fathi eest hoiatada . </s> <s> Fathi olemasolu osutus ju t&otilde;eks , siis v&otilde;ib ka k&otilde;ik , mis ta r&auml;&auml;kis , t&otilde;de olla . </s> <s> Ja t&otilde;endeid sellest , et Jumal on vaid kohaliku t&auml;htsusega tegelane , oleks v&otilde;inud ju ka varem leida . </s> <s> Miks peaks olema meie planeet maailma kese , kui ta ei asu ei Universumi ega Galaktika keskpunktis ? </s> <s> On &ouml;eldud , et Jumal elab taevas . </s> <s> Miks peaks taeva all m&otilde;eldama maailmaruumi Maa atmosf&auml;&auml;ri asemel ? </s> <s> Ja Luther ju &uuml;tles , et ta elab pilvel , mitte Universumist v&auml;ljas . </s> <s> Ja Stalin tuli oma jutu j&auml;rgi p&otilde;rgust , kui ta tuli maa alt . </s> <s> See t&auml;hendab , et teistel planeetidel peavad oma p&otilde;rgud olema . </s> </p>
+<p> <s>Valin Jumala numbri . </s> <s> Torust kostab erakordselt vali h&auml;&auml;l : </s> </p>
+<p> <s> " Mis on sul mureks , mu poeg ? " </s> <s> K&uuml;sin : </s> </p>
+<p> <s> " Jumal vist ? </s> <s> Kas sa tead , et Fath haudub terve maailma vallutamise plaane ? " </s> <s> Jumal vastab : </s> </p>
+<p> <s> " Selle maailma vallutamise . </s> <s> Ja kas ei hakkaks ka sa ise meeleldi Jumalale vastu ? </s> <s> Miks ei kuule ma su palveid ? " </s> <s> K&uuml;sin : </s> </p>
+<p> <s> " Kas telefonik&otilde;ne ei v&otilde;i k&auml;sitleda palvena ? </s> <s> Miljonid inimesed palvetavad , aga tulemust ei ole . </s> <s> Fathi j&auml;rgi olen mina v&auml;gevaim inimene . </s> <s> Kas ma ei peaks siis kogu oma j&otilde;udu m&auml;ngu panema , et teisi aidata ? " </s> <s> Jumal k&uuml;sib : </s> </p>
+<p> <s> " Teisi aidata ? </s> <s> Kas sa ei pidanud alles hiljuti oma eesm&auml;rgiks k&otilde;igest ajaloo uurimist ? </s> <s> Isegi Leniniga ei tahtnud sa koost&ouml;&ouml;d teha . " </s> <s> K&uuml;sin : </s> </p>
+<p> <s> " Kas teiste aitamine ikka ongi nii halb ? </s> <s> Varem ma ei teadnud , mida ma saan teiste heaks teha . </s> <s> N&uuml;&uuml;d v&otilde;tsin kontakti &uuml;he elavaga ja mulle hakkas tunduma , et ta on ohtlik . </s> <s> Ja ma unistasin , et kui saan kontakti Jumalaga , siis saan teada p&otilde;hilised t&otilde;ed maailma kohta . </s> <s> Ega sa viimati Saatan ei ole ? " </s> <s> Jumal vastab : </s> </p>
+<p> <s> " Ma olen juba kolmas elav , kellega sa telefonis r&auml;&auml;gid . </s> <s> Ja mina pole &ouml;elnud , et teisi ei tohi aidata . </s> <s> Aga selle tegemiseks on teatavad reeglid . </s> <s> Mina olen sind aidanud sellega , et l&otilde;in Saatana ja Fathi . </s> <s> Jah , Saatan on Jumal , nii nagu ka sina oled Jumal . </s> <s> Kogu maailm on Jumal . </s> <s> " </s> </p>
+<p> <s> " Kui olen osa Jumalast , siis k&otilde;netan oma teist osa juba julgemalt . </s> <s> Mul on veel &uuml;ks mure . </s> <s> Ma tahaksin teada , kas ma l&auml;hen taevasse v&otilde;i p&otilde;rgusse . </s> <s> Kas selle kohta on juba mingit selgust ? " </s> </p>
+<p> <s> " Oota , &uuml;hel p&auml;eval saad sa teada . </s> <s> Palveta ja ole telefoniga ettevaatlik . " </s> <s> Mulle tundub , et see on vihje , et ma k&otilde;ne l&otilde;petaksin . </s> <s> &Uuml;tlen : </s> </p>
+<p> <s> " H&auml;sti , ma l&otilde;petan , " ja panen ise toru &auml;ra . </s> </p> </div1> <div1 type='alaosa'> <head>8 . </head> <p> <s>N&uuml;&uuml;d prooviks veel kutsuda v&auml;lja kellegi , keda ma ei oska v&auml;lja m&otilde;elda . </s> <s> V&otilde;ibolla on k&otilde;ik senised vestluspartnerid olnud mu enda v&auml;ljam&otilde;eldised . </s> <s> Aga kujutlematut ma ei oska ju v&auml;lja kutsuda . </s> <s> Ka tema telefoninumbrit ei tea . </s> <s> Aga v&otilde;in v&auml;lja m&otilde;elda isiku , kes k&otilde;iki telefoninumbreid teab . </s> <s> See peab olema elus isik , et olla kursis uuemate numbritega . </s> <s> Fath soovitas mul kutsuda v&auml;lja ainult surnuid , aga m&otilde;tlen v&auml;lja , et see isik on s&otilde;bralikum . </s> </p>
+<p> <s>Niisiis , kutsun ta . </s> <s> Sein minu ees hakkab lainetama . </s> <s> Kui lainetamine l&otilde;ppeb , n&auml;en seinal peeglit ja selles enda peegelpilti . </s> <s> K&uuml;sin : </s> </p>
+<p> <s> " Kas ma m&otilde;tlesin n&uuml;&uuml;d v&auml;lja ennast , peegli v&otilde;i enda peegelpildi ? " </s> <s> Peegelpilt vastab : </s> </p>
+<p> <s> " Sa m&otilde;tlesid v&auml;lja ennast . </s> <s> Kui sina neid numbreid ei tea , ei tea neid keegi . </s> <s> Proovi v&auml;lja m&otilde;elda . </s> <s> Ma saan muidugi aru , et m&otilde;tlemine on raske . </s> <s> Aga l&otilde;puks v&otilde;ib suure pingutusega j&otilde;uda tulemuseni , mida algul ei ole . " </s> <s> &Uuml;tlen : </s> </p>
+<p> <s> " Aga ma tahan ju selle numbrit , keda ma ei suuda v&auml;lja m&otilde;elda . </s> <s> Kui ma ta v&auml;lja m&otilde;tleksin , oleks ta keegi teine . " </s> <s> Peegelpilt vastab : </s> </p>
+<p> <s> " Proovi . </s> <s> Katsu leida lahendus . " </s> <s> Mul tekib &uuml;ks lootus : </s> </p>
+<p> <s> " Aga kas Jumal ei saaks seda numbrit &ouml;elda ? " </s> <s> Peegelpilt vastab : </s> </p>
+<p> <s> " Jumal teab ainult reaalse maailma asju . </s> <s> Ta on loonud k&otilde;ik , mida ta v&auml;hegi luua oskas . </s> <s> " </s> </p>
+<p> <s> " Niisiis , mina pean suutma v&auml;lja m&otilde;elda rohkem kui Jumal luua ? </s> <s> Ja see , mille ma v&auml;lja m&otilde;tlen , on samas kohe olemas . </s> <s> Ega sa ei taha &ouml;elda , et mina olengi ainuke &otilde;ige Jumal , mitte ainult osa Jumalast ? " </s> <s> Peegel kukub p&otilde;randale kildudeks . </s> <s> V&otilde;tan maast &uuml;he killu ja &uuml;tlen selles asuvale peegelpildile : </s> </p>
+<p> <s> " Sa oled endiselt siin . </s> <s> Vasta ! " </s> <s> Peegelpilt &uuml;tleb : </s> </p>
+<p> <s> " Ei vasta . </s> <s> Mina olen k&otilde;igest peegelpilt . </s> <s> Kui sa ise ei vasta , kuidas saaksin siis mina vastata ? " </s> <s> Panen killu k&auml;est . </s> <s> Mida Jumal mulle &uuml;tleski ? </s> <s> Et ma palvetaksin . </s> <s> Laskun p&otilde;randale p&otilde;lvili , panen k&auml;ed kokku ja &uuml;tlen lae poole vaadates : </s> </p>
+<p> <s> " Jumal , palun anna mulle kellegi telefoninumber , keda ma ei oska v&auml;lja m&otilde;elda ! " </s> </p>
+<p> <s>Keegi ei vasta . </s> <s> Ja ometi ma ju tahan , et keegi vastaks . </s> </p> </div1> </div0>
+</body>
+</text>
+</tei.2>

@@ -1,0 +1,934 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Julgeolekuasutuste seadus ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    4940</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Julgeolekuasutuste seadus ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=19></tagusage>
+         <tagusage gi=p occurs=276></tagusage>
+         <tagusage gi=s occurs=368></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Julgeolekuasutuste seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 20. detsembril 2000. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 7 , 17 ) .</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. m&auml;rtsil 2001. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>05.12.2001 j&otilde;ust.06.01.2002 - RT I 2001 , 100 , 643.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Reguleerimisala</s>
+</p>
+<p>
+<s>K&auml;esolev seadus s&auml;testab julgeolekuasutuste &uuml;lesanded ja p&auml;devuse riigi julgeoleku ja p&otilde;hiseadusliku korra tagamisel ning julgeolekuasutuste tegevuse &uuml;le j&auml;relevalve teostamise korra .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Julgeolekuasutuste tegevuse eesm&auml;rk</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutuste tegevuse eesm&auml;rk on tagada riigi julgeolek p&otilde;hiseadusliku korra p&uuml;simisega mittes&otilde;jaliste ennetavate vahendite kasutamise abil ning julgeolekupoliitika kujundamiseks ja riigikaitseks vajaliku teabe kogumine ja t&ouml;&ouml;tlemine .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud eesm&auml;rkide t&auml;itmise kaitsev&auml;es s&auml;testab seadus .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Julgeolekuasutuse tegevuse p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutus kogub ja t&ouml;&ouml;tleb teavet , sealhulgas isikuandmeid , kui see on vajalik tema &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuasutus kasutab ainult oma &uuml;lesannete t&auml;itmiseks vajalikke abin&otilde;usid .</s><s>Mitme v&otilde;imaliku abin&otilde;u olemasolul kasutab ta sellist , mis isikute p&otilde;hi&otilde;igusi seoses julgeolekuasutuse &uuml;lesande t&auml;itmisega v&otilde;imalikult v&auml;he piirab .</s><s>Kasutada v&otilde;ib abin&otilde;u , mis ei piira &uuml;ksikisiku p&otilde;hi&otilde;igusi &uuml;lem&auml;&auml;raselt , v&otilde;rreldes julgeolekuasutuse taotletava eesm&auml;rgiga .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Kuriteo t&otilde;kestamine</s>
+</p>
+<p>
+<s>Kuriteo t&otilde;kestamine k&auml;esoleva seaduse t&auml;henduses on kuriteo &auml;rahoidmine mis tahes seaduslikul viisil enne selle toimepanemist .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Julgeolekuasutuste korraldus ja &uuml;lesanded</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Julgeolekuasutused</s>
+</p>
+<p>
+<s>Julgeolekuasutused on Kaitsepolitseiamet ja Teabeamet .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Kaitsepolitseiameti &uuml;lesanded</s>
+</p>
+<p>
+<s>Kaitsepolitseiameti &uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) riigi p&otilde;hiseadusliku korra ja territoriaalse terviklikkuse v&auml;givaldsele muutmisele suunatud tegevust puudutava teabe kogumine ja t&ouml;&ouml;tlemine ;</s>
+</p>
+<p>
+<s>2 ) riigi vastu suunatud luuretegevuse ennetamine ja t&otilde;kestamine , sealhulgas riigisaladuse kaitse riigisaladuse seaduses ( RT I 1999 , 16 , 271 ; 82 , 752 ) etten&auml;htud juhtudel ja korras ( vastuluure ) , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 7 l&otilde;ike 1 punktides 2 ja 3 nimetatud juhtudel ;</s>
+</p>
+<p>
+<s>3 ) nende kuritegude t&otilde;kestamine , mille kohtueelne uurimine on Kaitsepolitseiameti p&auml;devuses , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 7 l&otilde;ike 1 punktides 2 ja 3 nimetatud juhtudel ;</s>
+</p>
+<p>
+<s>4 ) seadusega etten&auml;htud juhtudel kuritegude kohtueelne uurimine .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Teabeameti &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Teabeameti &uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) riigile v&auml;lis- , majandus- ja riigikaitsepoliitika kujundamiseks ning riigikaitseks vajaliku v&auml;lisriike , v&auml;lismaiseid tegureid v&otilde;i tegevust puudutava teabe kogumine ja t&ouml;&ouml;tlemine ;</s>
+</p>
+<p>
+<s>2 ) vastuluure teostamine riigi v&auml;lisesinduste ja nende kaitsev&auml;e&uuml;ksuste kaitseks , mis asuvad v&auml;ljaspool riigi territooriumi ;</s>
+</p>
+<p>
+<s>3 ) vastuluure teostamine oma teenistujate , koost&ouml;&ouml;le kaasatud isikute ja valduse kaitseks ;</s>
+</p>
+<p>
+<s>4 ) Riigikogu , Vabariigi Presidenti , Vabariigi Valitsust , Riigikontrolli , &otilde;iguskantslerit , Riigikohut ja Vabariigi Valitsuse m&auml;&auml;ratud teisi riigi ametiasutusi teenindavate elektersiderajatiste , -v&otilde;rkude ja -seadmete ( sideobjektide ) t&ouml;&ouml; korraldamine , sealhulgas neile eri- ja asendusside tagamise korraldamine ning edastatava teabe elektrooniline kaitse ;</s>
+</p>
+<p>
+<s>5 ) andmeturbeseadmete kasutamise korraldamine ja teabe elektrooniline salastamine .</s>
+</p>
+<p>
+<s>( 2 ) Teabeamet kogub lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud &uuml;lesannetele Kaitsepolitseiameti taotlusel Kaitsepolitseiameti p&auml;devuse piires v&otilde;i kaitsev&auml;e &uuml;lesannete t&auml;itmiseks teavet elektroonilisel viisil ( signaalluure ) .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 4 s&auml;testatud eri- ja asendusside tagamiseks v&otilde;ib Teabeamet s&otilde;lmida halduslepingu selleks riigi poolt asutatud juriidilise isikuga .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Julgeolekuasutuse teenistujate arv</s>
+</p>
+<p>
+<s>Julgeolekuasutuse teenistujate arvu m&auml;&auml;rab Vabariigi Valitsus korraldusega .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Julgeolekuasutuste t&ouml;&ouml; suunamine ja &uuml;htlustamine</s>
+</p>
+<p>
+<s>( 1 ) Peaminister ja ministrid , kelle juhitavate ministeeriumide valitsemisalas asuvad julgeolekuasutused , teevad omavahel alaliselt koost&ouml;&ouml;d julgeolekuasutuste t&ouml;&ouml; suunamiseks ja &uuml;htlustamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus kehtestab korraldusega iga aasta kohta riigi teabehanke eelistuskava .</s><s>Riigi teabehanke eelistuskavas s&auml;testatakse julgeolekuasutustele esitatavad &uuml;lesanded ja kogutava teabe kava vastavalt selle olulisusele .</s>
+</p>
+<p>
+<s>( 05.12.2001 j&otilde;ust.06.01.2002 - RT I 2001 , 100 , 643 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Vabariigi Valitsuse julgeolekukomisjon</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutuste tegevuse koordineerimiseks tegutseb Vabariigi Valitsuse juures julgeolekukomisjon .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekukomisjon :</s>
+</p>
+<p>
+<s>1 ) anal&uuml;&uuml;sib ja hindab riigi julgeolekuolukorda ;</s>
+</p>
+<p>
+<s>2 ) m&auml;&auml;rab kindlaks riigi julgeolekualase teabe vajadused ;</s>
+</p>
+<p>
+<s>3 ) t&auml;idab teiste seadustega ning Vabariigi Valitsuse poolt talle pandud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>( 3 ) Julgeolekukomisjoni kuuluvad peaminister , justiitsminister , kaitseminister , rahandusminister , siseminister ja v&auml;lisminister .</s>
+</p>
+<p>
+<s>( 4 ) Julgeolekukomisjoni istungeid juhatab peaminister ja tema &auml;raolekul kaitseminister .</s>
+</p>
+<p>
+<s>( 5 ) Julgeolekukomisjoni liikme ettepanekul v&otilde;ivad komisjoni istungitel s&otilde;na&otilde;igusega osaleda teised isikud .</s>
+</p>
+<p>
+<s>( 6 ) Julgeolekukomisjon on otsustusv&otilde;imeline , kui kohal on v&auml;hemalt pool komisjoni liikmetest .</s>
+</p>
+<p>
+<s>( 7 ) Julgeolekukomisjoni p&otilde;him&auml;&auml;ruse kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 8 ) Julgeolekukomisjoni asjaajamist korraldab Riigikantselei .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Julgeolekuasutuste koost&ouml;&ouml;</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutused teevad &uuml;ksteisega koost&ouml;&ouml;d vastastikuse abistamise ja teabevahetuse kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuasutuste teabevahetus toimub riigi teabehanke eelistuskava alusel .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Teenistus julgeolekuasutuses</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Teenistuse erisused julgeolekuasutuses</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutuse teenistujatele laieneb avaliku teenistuse seadus ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ) k&auml;esolevast seadusest tulenevate erisustega .</s><s>Teabeameti kaitsev&auml;elastele laieneb kaitsev&auml;eteenistuse seadus ( RT I 2000 , 28 , 167 ) k&auml;esolevast seadusest tulenevate erisustega .</s>
+</p>
+<p>
+<s>( 2 ) Kaitsepolitseiameti politseiametnikule ei laiene k&auml;esoleva seaduse &sect;-d 17-20.</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Teenistuse erisused Riigikantseleis</s>
+</p>
+<p>
+<s>Riigikantselei teenistujale , kelle &uuml;lesanne on julgeolekuasutuste t&ouml;&ouml; koordineerimine , laienevad julgeolekuasutuse teenistuja kohta s&auml;testatud erisused ja politseiametnikule politseiteenistuse seaduses ( RT I 1998 , 50 , 753 ; 104 , 1742 ; 2000 , 10 , 57 ; 28 , 167 ) s&auml;testatud ametih&uuml;ved .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Teenistusse v&otilde;tmine</s>
+</p>
+<p>
+<s>Julgeolekuasutuse ametnikule ei kohaldata avaliku konkursi korras teenistusse v&otilde;tmist .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Julgeolekuasutuse juhi ametissenimetamine</s>
+</p>
+<p>
+<s>Vabariigi Valitsus nimetab julgeolekuasutuse juhi ametisse viieks aastaks asjaomase ministri ettepanekul , kuulates &auml;ra Riigikogu julgeolekuasutuste j&auml;relevalve komisjoni seisukoha .</s><s>Julgeolekuasutuse juhti ei nimetata ametisse rohkem kui kaheks ametiajaks j&auml;rjestikku .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Ametipalk</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutuste ametnike ametikohtadele vastavate palgaastmete siseselt v&otilde;idakse kehtestada diferentseeritud palgam&auml;&auml;rad .</s><s>Nende rakendamise alused ja erisused l&auml;htuvalt ametialaste &uuml;lesannete iseloomust kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuasutuste ametnike , kes ei ole politsei- ega kaitsev&auml;eteenistuses , palgaastmetele vastavad , sealhulgas diferentseeritud palgam&auml;&auml;rad kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Julgeolekuasutuse ametniku palgaastmele vastavat palgam&auml;&auml;ra suurendatakse julgeolekualaste &uuml;lesannete t&auml;itmise eest 10-50% ulatuses nimetatud palgam&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud ametnikule ei maksta lisatasu &uuml;letunnit&ouml;&ouml; , samuti t&ouml;&ouml;tamise eest &otilde;htusel ja &ouml;isel ajal ning puhkep&auml;eval ja riiklikul p&uuml;hal .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Toetus julgeolekuasutuse ametniku haigestumise v&otilde;i talle kehavigastuse tekitamise korral</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutuse ametnikule , kellele teenistuskohustuse t&auml;itmisel v&otilde;i seoses teenistusega julgeolekasutuses tekitati terviserikkega kehavigastus , millega ei kaasnenud invaliidsust , maksab riik &uuml;hekordset toetust &uuml;he kuu palga ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) Teenistuskohustuse t&auml;itmisel v&otilde;i seoses teenistusega julgeolekuasutuses vigastada saanud v&otilde;i haigestunud ametniku ravi- ja ravimikulud kannab riik .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevas paragrahvis s&auml;testatud toetuste ja kulude arvutamise ja maksmise korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Varalise kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Teenistus&uuml;lesande t&auml;itmise k&auml;igus julgeolekuasutuse ametnikule v&otilde;i tema perekonnaliikmele tekitatud otsese varalise kahju h&uuml;vitab riik .</s>
+</p>
+<p>
+<s>( 2 ) Varalise kahju h&uuml;vitamise piirm&auml;&auml;ra ja korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Julgeolekuasutuse ametniku terviseuuringud</s>
+</p>
+<p>
+<s>( 1 ) Riigi kulul julgeolekuasutuse ametniku terviseuuringute tegemise alused , perioodilisuse ja korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s><s>Asjaomane minister kinnitab m&auml;&auml;rusega nende ametikohtade loetelu , kus terviseuuringutes osalemine on kohustuslik .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ige 1 ei laiene terviseuuringutele , mis on ette n&auml;htud muu seaduse alusel .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Teenistusega seotud piirangud julgeolekuasutuses</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutuse ametnik ei v&otilde;i :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;tada teise t&ouml;&ouml;andja juures , v&auml;lja arvatud asutuse juhi n&otilde;usolekul pedagoogilisel , teaduslikul v&otilde;i loomingulisel t&ouml;&ouml;l ;</s>
+</p>
+<p>
+<s>2 ) osaleda streikides ;</s>
+</p>
+<p>
+<s>3 ) kuuluda erakonda .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuasutuse ametnikule ei v&auml;ljastata tema teenistusse v&otilde;tmise , teisele ametikohale &uuml;leviimise ja teenistusest vabastamise v&otilde;i temale distsiplinaarkaristuse m&auml;&auml;ramise k&auml;skkirja koopiat , kui k&auml;skkiri sisaldab riigisaladust v&otilde;i muud avalikustamisele mittekuuluvat teavet .</s><s>Sellisel juhul v&auml;ljastatakse talle v&auml;ljav&otilde;te k&auml;skkirjast , millest on v&auml;lja j&auml;etud riigisaladust sisaldav teave .</s>
+</p>
+<p>
+<s>( 3 ) Julgeolekualaseid &uuml;lesandeid t&auml;itnud julgeolekuasutuse ametnik ei v&otilde;i kolme aasta jooksul p&auml;rast ametist vabastamist t&ouml;&ouml;tada turvateenuseid v&otilde;i eradetektiiviteenuseid osutavates era&otilde;iguslikes juriidilistes isikutes .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Julgeolekuasutuse volitused</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Kaitsepolitseiameti politseiametniku &otilde;igused</s>
+</p>
+<p>
+<s>Kaitsepolitseiametil ja selle politseiametnikul on oma &uuml;lesannete t&auml;itmisel seadusega vastavalt politseile ja politseiametnikule antud &otilde;igused .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Julgeolekuasutusele abi osutamine</s>
+</p>
+<p>
+<s>( 1 ) Riigi- ja kohaliku omavalitsuse asutused ning ametnikud , samuti avalik-&otilde;iguslikud juriidilised isikud osutavad julgeolekuasutusele selle &uuml;lesannete t&auml;itmisel oma p&auml;devuse piires abi .</s><s>Kohaliku omavalitsuse asutuse ja avalik-&otilde;igusliku juriidilise isiku kulud abi osutamisel h&uuml;vitatakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 2 ) Kui muid vahendeid ei leidu , v&otilde;ib julgeolekuasutus otsese ohu korral riigi julgeolekule n&otilde;uda oma &uuml;lesannete t&auml;itmiseks vastava abi osutamist &uuml;ksikisikult .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud abi osutamise kulude h&uuml;vitamise korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Isiku , asutuse ja organi teesklemine</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutuse &uuml;lesannete t&auml;itmiseks vajaliku isiku teesklemiseks tehakse asjaomase ministri avalduse alusel vastav kanne &auml;riregistrisse v&otilde;i mittetulundus&uuml;hingute ja sihtasutuste registrisse .</s><s>Kanne kustutatakse teesklemisvajaduse l&otilde;ppemisel asjaomase ministri avalduse alusel &uuml;ldises korras .</s>
+</p>
+<p>
+<s>( 2 ) Minister esitab isiku registrisse kandmise avalduse julgeolekuasutuse juhi taotlusel .</s><s>Taotluses n&auml;idatakse :</s>
+</p>
+<p>
+<s>1 ) isiku teesklemise vajadus ;</s>
+</p>
+<p>
+<s>2 ) teeseldava isiku liik ;</s>
+</p>
+<p>
+<s>3 ) isiku teesklemise kulud ;</s>
+</p>
+<p>
+<s>4 ) isiku teesklemise kestus ;</s>
+</p>
+<p>
+<s>5 ) andmed , mis kantakse &auml;riregistri &auml;ritoimikusse v&otilde;i mittetulundus&uuml;hingute ja sihtasutuste registrisse ( sealhulgas kandeavaldus ) .</s>
+</p>
+<p>
+<s>( 3 ) Asutuse v&otilde;i organi teesklemise julgeolekuasutuste &uuml;lesannete t&auml;itmiseks otsustab asjaomane minister k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud asjaolude alusel .</s>
+</p>
+<p>
+<s>( 4 ) Teeseldud isiku , asutuse v&otilde;i organi nimel tehtud tehing loetakse julgeolekuasutuse tehtud tehinguks .</s>
+</p>
+<p>
+<s>( 5 ) Julgeolekuasutuse juht esitab iga nelja kuu j&auml;rel asjaomasele ministeeriumile &uuml;levaate julgeolekuasutuse poolt teeseldud isikute , asutuste ja organite tegevuse kohta .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Teabe kogumise viis</s>
+</p>
+<p>
+<s>( 1 ) Teabe , sealhulgas isikuandmete kogumine toimub julgeolekuasutuse &uuml;lesannete t&auml;itmiseks vahetult julgeolekuasutuse v&otilde;i selleks volitatud asutuse v&otilde;i koost&ouml;&ouml;le kaasatud isiku poolt .</s>
+</p>
+<p>
+<s>( 2 ) Teabe kogumine ei tohi kahjustada isiku elu , tervist , vara ega keskkonda .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>S&otilde;numi saladuse &otilde;iguse piiramine</s>
+</p>
+<p>
+<s>( 1 ) Isiku &otilde;igust tema poolt v&otilde;i temale posti , telegraafi , telefoni v&otilde;i muul &uuml;ldkasutataval teel edastatava s&otilde;numi saladusele on lubatud julgeolekuasutusel piirata k&auml;esolevas paragrahvis s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuasutus v&otilde;ib oma p&auml;devuse piires kuriteo t&otilde;kestamiseks piirata isiku &otilde;igust s&otilde;numi saladusele , kui on olemas piisavad andmed ettevalmistatava v&otilde;i toimepandava kuriteo kohta .</s>
+</p>
+<p>
+<s>( 3 ) Isiku &otilde;igust s&otilde;numi saladusele piiratakse :</s>
+</p>
+<p>
+<s>1 ) postisaadetise l&auml;bivaatusega ;</s>
+</p>
+<p>
+<s>2 ) telegraafi , telefoni v&otilde;i muu tehnilise sidekanali kaudu edastatava s&otilde;numi v&otilde;i muu teabe pealtkuulamise , -vaatamise v&otilde;i salvestamisega ;</s>
+</p>
+<p>
+<s>3 ) muul viisil edastatava teabe pealtkuulamise , -vaatamise v&otilde;i salvestamisega .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Kodu , perekonna- v&otilde;i eraelu puutumatuse &otilde;iguse piiramine</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutus v&otilde;ib piirata isiku &otilde;igust kodu , perekonna- v&otilde;i eraelu puutumatusele k&auml;esolevas paragrahvis s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuasutuse ametnik v&otilde;ib oma p&auml;devuse piires kuriteo t&otilde;kestamiseks siseneda isiku eluruumi , valdusse v&otilde;i t&ouml;&ouml;kohta ilma isiku n&otilde;usolekuta v&otilde;i neid l&auml;bi otsida julgeolekuasutuse juhi korraldusel riigi julgeoleku tagamiseks v&otilde;i kui on olemas piisavad andmed ettevalmistatava v&otilde;i toimepandava kuriteo kohta ning kui andmete kogumine on vajalik kuriteo t&otilde;kestamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Isiku &otilde;igust kodu , perekonna- v&otilde;i eraelu puutumatusele piiratakse :</s>
+</p>
+<p>
+<s>1 ) isikuandmete kogumisega ;</s>
+</p>
+<p>
+<s>2 ) varjatud j&auml;lgimisega ;</s>
+</p>
+<p>
+<s>3 ) isiku samasuse varjatud tuvastamisega ;</s>
+</p>
+<p>
+<s>4 ) telekommunikatsiooniv&otilde;rgu kaudu edastatavate s&otilde;numite edastamise fakti , kestuse ja viisi ning edastaja v&otilde;i vastuv&otilde;tja kohta andmete kogumisega ;</s>
+</p>
+<p>
+<s>5 ) varjatud sisenemisega eluruumi , muusse ehitisse v&otilde;i valdusse , andmekogusse , t&ouml;&ouml;kohta v&otilde;i s&otilde;idukisse teabe varjatud kogumiseks v&otilde;i salvestamiseks v&otilde;i selleks vajalike abivahendite paigaldamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Julgeolekuasutusega s&otilde;lmitud kirjaliku lepingu alusel v&otilde;ib julgeolekuasutuse p&auml;devuse piires k&auml;esoleva seaduse &sect;-s 27 s&auml;testatud korras piirata isiku &otilde;igust kodu , perekonna- v&otilde;i eraelu puutumatusele ka salajasele koost&ouml;&ouml;le kaasatud isik .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>S&otilde;numi saladuse ja kodu , perekonna- v&otilde;i eraelu puutumatuse &otilde;iguse piiramise kord</s>
+</p>
+<p>
+<s>( 1 ) Kui tekib vajadus piirata isiku &otilde;igust s&otilde;numi saladusele v&otilde;i k&auml;esoleva seaduse &sect; 26 l&otilde;ike 3 punktis 5 nimetatud viisil &otilde;igust kodu , perekonna- v&otilde;i eraelu puutumatusele , esitab julgeolekuasutuse juht halduskohtu esimehele v&otilde;i tema m&auml;&auml;ratud halduskohtunikule p&otilde;hjendatud kirjaliku taotluse vastava loa saamiseks .</s><s>Taotluses n&auml;idatakse &auml;ra nimetatud &otilde;iguse piiramise viis .</s>
+</p>
+<p>
+<s>( 2 ) Loa andmine , pikendamine ja t&uuml;histamine ning isiku &otilde;iguse piiramise s&otilde;numi saladusele v&otilde;i k&auml;esoleva seaduse &sect; 26 l&otilde;ike 3 punktis 5 nimetatud viisil kodu , perekonna- v&otilde;i eraelu puutumatusele &otilde;igustatuks tunnistamine otsustatakse viivituseta , kohtuistungit korraldamata halduskohtumenetluse seadustiku ( RT I 1999 , 31 , 425 ; 33 , &otilde;iend ; 40 , &otilde;iend ; 96 , 846 ; 2000 , 51 , 321 ) haldustoiminguks loa andmise s&auml;tete j&auml;rgi .</s><s>Loa v&otilde;ib anda kuni kaheks kuuks v&otilde;i pikendada iga kord sama t&auml;htaja v&otilde;rra .</s>
+</p>
+<p>
+<s>( 3 ) Isiku &otilde;iguse piiramise kodu , perekonna- v&otilde;i eraelu puutumatusele otsustab julgeolekuasutuse juht v&otilde;i tema poolt volitatud ametnik kirjaliku p&otilde;hjendatud korraldusega .</s><s>Korraldus kehtib selles m&auml;rgitud t&auml;htaja jooksul , kuid mitte kauem kui kaks kuud .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Teabe varjatud kogumise meetodid ja vahendid</s>
+</p>
+<p>
+<s>Julgeolekuasutuste poolt teabe varjatud kogumisel kasutatavad meetodid ja vahendid m&auml;&auml;rab kindlaks asjaomane minister m&auml;&auml;rusega .</s><s>M&auml;&auml;rus esitatakse teadmiseks Riigikogu julgeolekuasutuste j&auml;relevalve komisjonile .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Isiku teavitamine kasutatud vahenditest</s>
+</p>
+<p>
+<s>Julgeolekuasutus teavitab isikut , kelle p&otilde;hi&otilde;igusi k&auml;esoleva seaduse &sect;-s 25 v&otilde;i 26 s&auml;testatud viisil piiratakse , kasutatud abin&otilde;udest ja p&otilde;hi&otilde;iguste piiramise asjaoludest viivitamatult , kui see ei ohusta piirangu eesm&auml;rki , v&otilde;i sellise ohu l&otilde;ppemisel .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Teabe s&auml;ilitamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect;-des 25 v&otilde;i 26 s&auml;testatud viisil kogutud teavet s&auml;ilitatakse teabetoimikutes .</s><s>Teabetoimik avatakse iga juhtumi kohta eraldi .</s><s>Toimiku pidamise ja s&auml;ilitamise korra kehtestab vastav minister m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Teabe edastamine julgeolekuasutusele</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutus v&otilde;ib oma &uuml;lesannete t&auml;itmiseks vajalike isikuandmete saamiseks p&ouml;&ouml;rduda riigi- v&otilde;i kohaliku omavalitsuse asutuse v&otilde;i avalik-&otilde;igusliku juriidilise isiku poole , kui nende andmete saamine ei ole v&otilde;imalik &uuml;ldiselt k&auml;ttesaadavast allikast v&otilde;i oleks seotud liigsete kulutuste v&otilde;i isikut , kelle isikuandmeid edastatakse , rohkem koormavate abin&otilde;udega ning kui seadusega ei ole selliste andmete &uuml;leandmine keelatud .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuasutusel on oma &uuml;lesannete t&auml;itmiseks &otilde;igus saada f&uuml;&uuml;siliselt v&otilde;i era&otilde;iguslikult juriidiliselt isikult vajalikku teavet .</s><s>Isikuandmete andmise kohustust ei ole , kui julgeolekuasutus ei p&otilde;hjenda isikuandmete saamise vajadust v&otilde;i isikuandmete andmine ei ole lubatud .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Teabe edastamine julgeolekuasutuse poolt</s>
+</p>
+<p>
+<s>Julgeolekuasutuse &uuml;lesannete t&auml;itmisel saadud teavet , mis ei puuduta isikuandmeid , v&otilde;ib edastada teisele riigiasutusele , kui see on vajalik selle &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Teabe riigiorganitevahelise elektroonilise edastamise kaitse</s>
+</p>
+<p>
+<s>N&otilde;uded riigi ametiasutusi teenindavate sideobjektide parameetritele , riigihangetele , ehitamisele , opereerimisele ja neile ligip&auml;&auml;sule ning andmeturbeseadmetele ja nende kasutamise korra kehtestab Vabariigi Valitsus m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Andmete edastamine v&auml;lisriigile ja rahvusvahelisele organisatsioonile</s>
+</p>
+<p>
+<s>Julgeolekuasutus v&otilde;ib edastada kogutud teavet v&auml;lisriigi asutusele v&otilde;i rahvusvahelisele organisatsioonile , kui see on vajalik riigi julgeoleku tagamiseks v&otilde;i suurendamiseks rahvusvahelise lepingu alusel .</s><s>Edastamine toimub kirjalikult , kui rahvusvahelises lepingus ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Tulirelva kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutuse ametnikul on &otilde;igus kanda tulirelva ja kasutada seda &auml;&auml;rmise abin&otilde;una , kui teisiti ei ole elu v&otilde;i tervist ohtu panemata v&otilde;imalik t&auml;ita temale pandud teenistus&uuml;lesandeid :</s>
+</p>
+<p>
+<s>1 ) kuritegeliku r&uuml;nde t&otilde;kestamisel , kui ohus on teise inimese v&otilde;i julgeolekuasutuse ametniku enda elu ;</s>
+</p>
+<p>
+<s>2 ) relvastatud kurjategija relvitustamisel ja kinnipidamisel ;</s>
+</p>
+<p>
+<s>3 ) julgeolekuasutuse ametnikule grupiviisilise v&otilde;i relvastatud kallaletungi t&otilde;rjumisel .</s>
+</p>
+<p>
+<s>( 2 ) Tulirelva ei tohi kasutada :</s>
+</p>
+<p>
+<s>1 ) lapse , vanuri ega ilmse raseduse tunnusega naise vastu , v&auml;lja arvatud temapoolse relvastatud r&uuml;nde v&otilde;i grupiviisilise r&uuml;nde t&otilde;rjumiseks v&otilde;i t&otilde;kestamiseks v&otilde;i tema relvitustamiseks ;</s>
+</p>
+<p>
+<s>2 ) v&auml;lisriigi diplomaatilises v&otilde;i konsulaaresinduses ega rahvusvahelise leppe alusel puutumatust omava esinduse hoones , ruumis ega territooriumil , samuti diplomaatilist puutumatust omava s&otilde;iduki suhtes , v&auml;lja arvatud selle esinduse juhi n&otilde;usolekul v&otilde;i muu rahvusvahelise kokkuleppega etten&auml;htud juhul ;</s>
+</p>
+<p>
+<s>3 ) ehitises ega ruumis , kus toodetakse v&otilde;i hoitakse l&otilde;hkeainet v&otilde;i kergesti s&uuml;ttivat v&otilde;i m&uuml;rgist ainet , mis tulirelva kasutamisel v&otilde;ib ohustada isiku elu v&otilde;i tervist .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Riigikogu julgeolekuasutuste j&auml;relevalve komisjon</s>
+</p>
+<p>
+<s>( 1 ) Riigikogu julgeolekuasutuste j&auml;relevalve komisjon on Riigikogu erikomisjon , kes teostab j&auml;relevalvet t&auml;idesaatva riigiv&otilde;imu asutuste &uuml;le julgeolekuasutuste ja j&auml;litusametkondade tegevusega , sealhulgas p&otilde;hi&otilde;iguste tagamisega ja julgeolekuasutuste ning j&auml;litusametkondade t&ouml;&ouml; t&otilde;hususega , samuti nende &uuml;le teostatava j&auml;relevalvega seonduvates k&uuml;simustes .</s>
+</p>
+<p>
+<s>( 2 ) Peaminister ja asjaomane minister teavitavad komisjoni julgeolekuasutuste ja j&auml;litusametkondade tegevusest ja j&auml;relevalvest nende tegevuse &uuml;le , sealhulgas esitavad v&auml;hemalt kord kuue kuu jooksul &uuml;levaate nimetatud k&uuml;simustes .</s>
+</p>
+<p>
+<s>( 3 ) Komisjonil on komisjoni t&ouml;&ouml;ga seotud &uuml;lesannete t&auml;itmiseks &otilde;igus v&auml;lja kutsuda isikuid ja n&otilde;uda tutvumiseks dokumente .</s>
+</p>
+<p>
+<s>( 4 ) Komisjon arutab julgeolekuasutuse eelarve eeln&otilde;u &uuml;heaegselt riigieelarve eeln&otilde;u arutamisega Riigikogus .</s>
+</p>
+<p>
+<s>( 5 ) Komisjon esitab v&auml;hemalt &uuml;ks kord aastas Riigikogule &uuml;levaate komisjoni tegevusest ja tulemustest .</s>
+</p>
+<p>
+<s>( 6 ) Seaduserikkumise avastamise korral on komisjon kohustatud edastama vastavad materjalid uurimisasutusele v&otilde;i &otilde;iguskantslerile .</s>
+</p>
+<p>
+<s>( 7 ) Komisjoni liikmed ja ametnikud on kohustatud hoidma neile t&ouml;&ouml; k&auml;igus teatavaks saanud riigi- ja eraisiku saladust .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Julgeolekuasutuste j&auml;relevalve komisjonile teabe edastamise piirangud</s>
+</p>
+<p>
+<s>( 1 ) Peaministri v&otilde;i asjaomase ministri otsusel v&otilde;ib julgeolekuasutuste j&auml;relevalve komisjonile konkreetse toimingu kohta teabe andmisest keelduda , kui see teave puudutab :</s>
+</p>
+<p>
+<s>1 ) julgeolekualase teabe allikat ;</s>
+</p>
+<p>
+<s>2 ) julgeolekuasutuse tegevuse meetodit , kui selle kasutamine pole veel l&otilde;ppenud ;</s>
+</p>
+<p>
+<s>3 ) julgeolekuasutuse poolt teabe kogumist k&auml;esoleva seaduse &sect;-des 25 ja 26 s&auml;testatud viisil , kui see pole veel l&otilde;ppenud ;</s>
+</p>
+<p>
+<s>4 ) teavet , mis on saadud teiselt riigilt tingimusega , et edastatav teave j&auml;&auml;b saladuseks .</s>
+</p>
+<p>
+<s>( 2 ) Teabe andmisest keeldumist p&otilde;hjendatakse .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Kaitsepolitsei tegevuse ja j&auml;litustegevuse seaduslikkuse kontrollimiseks moodustatud Riigikogu erikomisjoni &uuml;mberkujundamine</s>
+</p>
+<p>
+<s>Riigikogu 1999. aasta 29. aprilli otsusega ( RT I 1999 , 43 , 503 ) moodustatud erikomisjon kaitsepolitsei tegevuse ja j&auml;litustegevuse seaduslikkuse kontrollimiseks kujundatakse &uuml;mber k&auml;esoleva seaduse &sect;-s 36 s&auml;testatud komisjoniks .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Avaliku teenistuse seaduse muutmine</s>
+</p>
+<p>
+<s>Avaliku teenistuse seaduse ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ) &sect;-s 39 <hi rend="sup">1</hi> asendatakse s&otilde;na &ldquo; politseiametnik &rdquo; s&otilde;nadega &ldquo; julgeolekuasutuse ametnik &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>J&auml;litustegevuse seaduse muutmine</s>
+</p>
+<p>
+<s>J&auml;litustegevuse seaduses ( RT I 1994 , 16 , 290 ; 1995 , 15 , 173 ; 1996 , 49 , 955 ; 1997 , 81 , 1361 ; 93 , 1557 ; 1998 , 47 , 698 ; 50 , 753 ; 51 , 756 ; 61 , 981 ; 98/99 , 1575 ; 101 , 1663 ; 1999 , 16 , 271 ; 31 , 425 ; 95 , 845 ; 2000 , 35 , 222 ; 40 , 251 ; 102 , 671 ; 2001 , 3 , 9 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 6 t&auml;iendatakse l&otilde;ikega 5 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 ) Kaitsepolitseiamet on j&auml;litusametkond kriminaalasjade kohtueelsel uurimisel .</s><s>Muude tema p&auml;devusse kuuluvate &uuml;lesannete lahendamisele kohaldatakse julgeolekuasutuste seadust . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 7 <hi rend="sup">1</hi> l&otilde;ikes 1 asendatakse s&otilde;nad &ldquo; Kaitsepolitseiamet ja Politseiamet &rdquo; s&otilde;nadega &ldquo; Politseiamet ja kuritegude kohtueelsel uurimisel Kaitsepolitseiamet &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 9 l&otilde;ige 1 <hi rend="sup">1</hi> muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 <hi rend="sup">1</hi> ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 7 nimetatud j&auml;litusmenetlust teostavad Politseiamet ja viimase poolt volitatud politseiasutused . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 12 l&otilde;ikes 2 asendatakse s&otilde;nad &ldquo; Kaitsepolitseiametil ja Politseiametil &rdquo; s&otilde;nadega &ldquo; Politseiametil ja kuritegude kohtueelsel uurimisel Kaitsepolitseiametil &rdquo; ;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 19 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) J&auml;relevalvet kohtueelse uurimise asutuseks oleva j&auml;litusametkonna j&auml;litustegevuse seaduslikkuse &uuml;le kuritegude avastamisel v&otilde;i kriminaalasjade kohtueelses menetluses teostab prokuratuur . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>6 ) sama paragrahvi l&otilde;ikes 4 asendatakse s&otilde;nad &ldquo; Politseiseaduse &sect;-s 7 &rdquo; s&otilde;nadega &ldquo; Julgeolekuasutuste seaduse &sect;-s 36 &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Riigivaraseaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Riigivaraseaduses ( RT I 1995 , 22 , 327 ; 1996 , 36 , 738 ; 40 , 773 ; 48 , 942 ; 81 , 1446 ; 1997 , 45 , 724 ; 1998 , 30 , 409 ; 1999 , 10 , 155 ; 16 , 271 ; 2000 , 39 , 239 ; 49 , 306 ; 51 , 319 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 3 t&auml;iendatakse l&otilde;igetega 1 <hi rend="sup">2</hi> ja 1 <hi rend="sup">3</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 <hi rend="sup">2</hi> ) Julgeolekuasutuse valdusse antud kinnisasja ega sellega seotud asja&otilde;igust , samuti Vabariigi Valitsuse m&auml;&auml;rusega kehtestatud tingimustele vastavat vallasasja , rahaliselt hinnatavat &otilde;igust ega kohustust ei kanta riigivara registrisse v&otilde;i need kantakse riigivara registrisse , kasutades variandmeid .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">3</hi> ) K&auml;esoleva paragrahvi l&otilde;ikes 1 <hi rend="sup">2</hi> nimetatud riigivara kohta peetakse eraldi registrit , mille asutab ja mille pidamise p&otilde;him&auml;&auml;ruse kinnitab Vabariigi Valitsus .</s><s>Registrisse m&auml;rgitakse riigivara kandmine riigivara registrisse , samuti variandmete kasutamine .</s><s>Register asub julgeolekuasutuses . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 19 t&auml;iendatakse l&otilde;ikega 9 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 9 ) K&auml;esolev paragrahv ei laiene julgeolekuasutustele . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 22 t&auml;iendatakse l&otilde;ikega 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) K&auml;esolev paragrahv ei laiene julgeolekuasutustele . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 34 t&auml;iendatakse l&otilde;ikega 3 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 3 ) K&auml;esoleva seaduse &sect;-d 28 ja 30-32 ei laiene julgeolekuasutustele . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Relvaseaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Relvaseaduse ( RT I 1995 , 62 , 1056 ; 1997 , 93 , 1564 ; 1999 , 57 , 597 ) &sect; 1 l&otilde;ike 2 punkti 6 ja l&otilde;iget 3 t&auml;iendatakse p&auml;rast s&otilde;nu &ldquo; sisekaitse&uuml;ksuse &rdquo; s&otilde;naga &ldquo; , julgeolekuasutuste &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Andmekogude seaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Andmekogude seadust ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ) t&auml;iendatakse &sect;-ga 11 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 11 <hi rend="sup">1</hi> .</s><s>Piirangud julgeolekuasutust puudutavate andmete kajastamisel riigi andmekogudes</s>
+</p>
+<p>
+<s>( 1 ) Julgeolekuasutust puudutavaid riigisaladuseks tunnistatud v&otilde;i ametialaseks kasutamiseks etten&auml;htud andmeid kajastatakse &uuml;ksnes julgeolekuasutuste andmekogudes .</s>
+</p>
+<p>
+<s>( 2 ) Julgeolekuasutust puudutavate muude andmete kajastamisel riigi andmekogudes v&otilde;ib vajaduse korral kasutada variandmeid .</s>
+</p>
+<p>
+<s>( 3 ) Variandmete kasutamine toimub julgeolekuasutuse juhi salajase k&auml;skkirja alusel , milles n&auml;idatakse &auml;ra julgeolekuasutust puudutavad tegelikud andmed ja nende kajastamisel riigi andmekogudes kasutatavad variandmed . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Politseiseaduse muutmine</s>
+</p>
+<p>
+<s>Politseiseaduses ( RT 1990 , 10 , 113 ; 1991 , 10 , 152 ; RT I 1993 , 20 , 355 ; 1994 , 34 , 533 ; 40 , 654 ; 86/87 , 1487 ; 1995 , 62 , 1056 ; 1996 , 49 , 953 ; 1998 , 50 , 753 ; 51 , 756 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 7 l&otilde;ige 3 , &sect; 8 l&otilde;ike 2 punkt 2 ja &sect; 11 tunnistatakse kehtetuks ;</s>
+</p>
+<p>
+<s>2 ) paragrahv 11 <hi rend="sup">6</hi> muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 11 <hi rend="sup">6</hi> .</s><s>Politseiasutuste teenistujate arv</s>
+</p>
+<p>
+<s>Politseiasutuste politseiametnike ja teiste teenistujate arvu kehtestab Vabariigi Valitsus . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 12 l&otilde;iget 2 t&auml;iendatakse punktiga 5 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 5 ) julgeolekuasutusi nende &uuml;lesannete t&auml;itmisel . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Politseiteenistuse seaduse muutmine</s>
+</p>
+<p>
+<s>Politseiteenistuse seaduses ( RT I 1998 , 50 , 753 ; 104 , 1742 ; 2000 , 10 , 57 ; 28 , 167 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 2 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; politseiasutuses &rdquo; s&otilde;nadega &ldquo; Kaitsepolitseiametis , Riigikantselei julgeolekuasutuste t&ouml;&ouml; koordineerimisega seotud ametikohal &rdquo; ning p&auml;rast s&otilde;na &ldquo; politsei&otilde;ppeasutuses &rdquo; s&otilde;nadega &ldquo; ( edaspidi asutus ) &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 11 l&otilde;iget 4 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; siseminister &rdquo; s&otilde;nadega &ldquo; v&otilde;i Kaitsepolitseiameti &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 12 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Politseiameti juhi nimetab ametisse viieks aastaks Vabariigi Valitsus siseministri ettepanekul , kuulates &auml;ra Riigikogu &otilde;iguskomisjoni seisukoha .</s><s>Politseiameti juhti ei tohi nimetada ametisse rohkem kui kaheks ametiajaks j&auml;rjestikku .</s><s>Kaitsepolitseiameti peadirektor nimetatakse ametisse julgeolekuasutuste seaduses etten&auml;htud korras . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 12 l&otilde;ige 4 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) Teised k&otilde;rgemad politseiametnikud nimetab ametisse vastavalt Politseiameti ja Kaitsepolitseiameti juht . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 12 l&otilde;ikes 6 asendatakse s&otilde;nad &ldquo; politseiasutuse ja politsei&otilde;ppeasutuse &rdquo; s&otilde;naga &ldquo; asutuse &rdquo; ;</s>
+</p>
+<p>
+<s>6 ) paragrahvi 14 l&otilde;ikes 1 asendatakse s&otilde;nad &ldquo; , v&auml;lja arvatud Kaitsepolitseiamet , samuti &rdquo; s&otilde;naga &ldquo; ja &rdquo; ;</s>
+</p>
+<p>
+<s>7 ) paragrahvi 18 l&otilde;ikes 1 asendatakse s&otilde;nad &ldquo; Politseiasutuse politseiametnikule &rdquo; s&otilde;naga &ldquo; Politseiametnikule &rdquo; ;</s>
+</p>
+<p>
+<s>8 ) paragrahvi 19 t&auml;iendatakse l&otilde;ikega 5 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 <hi rend="sup">1</hi> ) Juhul kui politseiametniku palgaastmestiku j&auml;rgset palgam&auml;&auml;ra v&otilde;idakse diferentseerida ( suurendada ) kahel v&otilde;i enamal alusel , siis liidetakse diferentseerimise m&auml;&auml;rad ( protsendid ) &uuml;htseks diferentseerimise m&auml;&auml;raks ( protsendiks ) , mille alusel arvutatakse diferentseeritud palgam&auml;&auml;r . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>9 ) paragrahvi 20 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) J&auml;litustegevust teostava politseiametniku , v&auml;lja arvatud Kaitsepolitseiameti politseiametniku ametipalka suurendatakse 10 kuni 50 protsenti .</s><s>Nende ametikohtade loetelu v&otilde;i loetelusse arvamise tingimused kehtestab siseminister k&auml;skkirjaga . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>10 ) paragrahvi 22 l&otilde;iget 1 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; tekitatud &rdquo; s&otilde;naga &ldquo; otsese &rdquo; ;</s>
+</p>
+<p>
+<s>11 ) sama paragrahvi l&otilde;iget 2 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; tingimused &rdquo; s&otilde;naga &ldquo; , piirm&auml;&auml;ra &rdquo; ;</s>
+</p>
+<p>
+<s>12 ) paragrahvi 29 l&otilde;ikes 1 asendatakse s&otilde;na &ldquo; politseiasutuse &rdquo; s&otilde;naga &ldquo; asutuse &rdquo; ;</s>
+</p>
+<p>
+<s>13 ) paragrahvi 31 l&otilde;ikes 2 asendatakse s&otilde;nad &ldquo; Politseiasutuse v&otilde;i politsei&otilde;ppeasutuse &rdquo; s&otilde;naga &ldquo; Asutuse &rdquo; ;</s>
+</p>
+<p>
+<s>14 ) paragrahvi 38 l&otilde;iget 1 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; teostavad &rdquo; s&otilde;nadega &ldquo; Siseministeeriumi konkursi- ja atesteerimiskomisjon ning &rdquo; ;</s>
+</p>
+<p>
+<s>15 ) paragrahvi 39 l&otilde;ike 1 punktist 4 j&auml;etakse v&auml;lja s&otilde;na &ldquo; politsei &rdquo; ;</s>
+</p>
+<p>
+<s>16 ) paragrahvi 39 l&otilde;ikest 2 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; aukirja kirjelduse , politsei &rdquo; ;</s>
+</p>
+<p>
+<s>17 ) paragrahvi 44 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) K&auml;esoleva seaduse &sect; 42 punktides 1 ja 2 nimetatud distsiplinaarkaristuse m&auml;&auml;ramise &otilde;igus on asutuse juhil ning punktis 3 nimetatud distsiplinaarkaristuse m&auml;&auml;ramise &otilde;igus on politseiametniku ametikohale nimetamise &otilde;igust omaval asutuse juhil . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>18 ) paragrahvi 45 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Distsiplinaarjuurdluse algatamise &otilde;igus alluvate politseiametnike suhtes on :</s>
+</p>
+<p>
+<s>1 ) siseministril ;</s>
+</p>
+<p>
+<s>2 ) Politseiameti juhil ;</s>
+</p>
+<p>
+<s>3 ) asutuse juhil . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Riigisaladuse seaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Riigisaladuse seaduses ( RT I 1999 , 16 , 271 ; 82 , 752 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) seaduse tekstis asendatakse s&otilde;na &ldquo; Valitsusside &rdquo; s&otilde;naga &ldquo; Teabeamet &rdquo; vastavas k&auml;&auml;ndes ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 5 punkti 1 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; Kaitsepolitseiameti &rdquo; s&otilde;nadega &ldquo; ning Teabeameti &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) sama paragrahvi punkti 16 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; Kaitsepolitseiameti &rdquo; s&otilde;nadega &ldquo; ja Teabeameti &rdquo; ;</s>
+</p>
+<p>
+<s>4 ) paragrahvi 6 punkti 9 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; teave &rdquo; s&otilde;nadega &ldquo; , samuti Kaitsepolitseiameti ja Teabeameti poolt julgeolekuasutuste seaduse &sect;-des 25 ja 26 s&auml;testatud viisil kogutud teave &rdquo; ;</s>
+</p>
+<p>
+<s>5 ) sama paragrahvi punkte 11 , 13 , 14 ja 16 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; Kaitsepolitseiameti &rdquo; s&otilde;nadega &ldquo; ja Teabeameti &rdquo; ;</s>
+</p>
+<p>
+<s>6 ) sama paragrahvi punkti 18 esimene lause muudetakse ja s&otilde;nastatakse j&auml;rgmiselt : &ldquo; Kaitsej&otilde;udude Peastaabi , Kaitsepolitseiameti , Teabeameti v&otilde;i Riigikantselei koostatud ohuprognoos ja riigi teabehanke eelistuskava . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>7 ) sama paragrahvi punktis 19 asendatakse s&otilde;nad &ldquo; ja Riigikantselei koordinatsioonib&uuml;roo &rdquo; s&otilde;nadega &ldquo; , Teabeameti v&otilde;i Riigikantselei julgeolekuasutuste t&ouml;&ouml; koordineerimisega tegeleva ametniku &rdquo; ;</s>
+</p>
+<p>
+<s>8 ) sama paragrahvi t&auml;iendatakse punktiga 20 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 20 ) Kaitsepolitseiameti v&otilde;i Teabeameti valdusse antud riigivara kohta peetava registri andmed .</s><s>Seda teavet sisaldav teabekandja salastatakse 25 aastaks . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>9 ) paragrahvi 7 punkti 2 esimest lauset t&auml;iendatakse s&otilde;nadega &ldquo; , samuti Kaitsepolitseiameti v&otilde;i Teabeameti poolt julgeolekuasutuste seaduse &sect;-des 25 ja 26 s&auml;testatud viisil teabe kogumise meetodid ja taktika ning teabe kogumisel kasutatavad tehnilised vahendid &rdquo; ;</s>
+</p>
+<p>
+<s>10 ) sama paragrahvi punkti 3 esimest lauset t&auml;iendatakse s&otilde;nadega &ldquo; , samuti Kaitsepolitseiameti v&otilde;i Teabeameti poolt julgeolekuasutuste seaduse &sect;-des 25 ja 26 s&auml;testatud viisil teabe kogumine koost&ouml;&ouml;s v&auml;lisriikide julgeolekuasutustega ning selle k&auml;igus vahetatav teave &rdquo; ;</s>
+</p>
+<p>
+<s>11 ) sama paragrahvi punkti 4 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; teabest &rdquo; s&otilde;nadega &ldquo; , samuti Kaitsepolitseiameti v&otilde;i Teabeameti poolt julgeolekuasutuste seaduse &sect;-des 25 ja 26 s&auml;testatud viisil kogutud teabest &rdquo; ;</s>
+</p>
+<p>
+<s>12 ) sama paragrahvi punkti 5 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; Peastaabi &rdquo; s&otilde;naga &ldquo; , Teabeameti &rdquo; ;</s>
+</p>
+<p>
+<s>13 ) sama paragrahvi punkti 6 esimest lauset t&auml;iendatakse s&otilde;nadega &ldquo; , samuti Kaitsepolitseiameti v&otilde;i Teabeameti &uuml;lesannete t&auml;itmiseks vajaliku isiku , asutuse v&otilde;i organi teesklemine &rdquo; ;</s>
+</p>
+<p>
+<s>14 ) paragrahvi 17 l&otilde;ike 2 punkti 5 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; Kaitsepolitseiameti &rdquo; s&otilde;nadega &ldquo; ja Teabeameti &rdquo; ;</s>
+</p>
+<p>
+<s>15 ) sama paragrahvi l&otilde;iget 3 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; Peastaabi &rdquo; s&otilde;naga &ldquo; , Teabeameti &rdquo; ;</s>
+</p>
+<p>
+<s>16 ) seadust t&auml;iendatakse &sect;-ga 26 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 26 <hi rend="sup">1</hi> .</s><s>Riigisaladuse edastamine v&auml;lisriigile ja rahvusvahelisele organisatsioonile</s>
+</p>
+<p>
+<s>Riigikantselei v&otilde;i julgeolekuasutus v&otilde;ib edastada riigisaladuseks tunnistatud teavet v&auml;lisriigile v&otilde;i rahvusvahelisele organisatsioonile julgeolekuasutuste seaduses etten&auml;htud juhtudel ja korras , kui v&auml;lislepinguga on tagatud kaitse edastatava teabe avalikuks tulemise eest . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>17 ) paragrahvi 29 l&otilde;ige 4 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 4 ) Julgeolekukontrolli teostatakse j&auml;litustegevuse seaduses ( RT I 1994 , 16 , 290 ; 1995 , 15 , 173 ; 1996 , 49 , 955 ; 1997 , 81 , 1361 ; 93 , 1557 ; 1998 , 47 , 698 ; 50 , 753 ; 51 , 756 ; 61 , 981 ; 98/99 , 1575 ; 101 , 1663 ; 1999 , 16 , 271 ; 31 , 425 ; 95 , 845 ; 2000 , 35 , 222 ; 40 , 251 ; 102 , 671 ; 2001 , 3 , 9 ) ja julgeolekuasutuste seaduses s&auml;testatud korras . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Riigihangete seaduse muutmine</s>
+</p>
+<p>
+<s>Riigihangete seaduse ( RT I 1995 , 54 , 883 ; 1997 , 9 , 79 ; 1998 , 38 , 561 ; 1999 , 16 , 271 ; 92 , 824 ; 97 , 859 ; 2000 , 57 , 374 ; 84 , 534 ) &sect; 4 l&otilde;ike 3 punkt 1 <hi rend="sup">1</hi> muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; 1 <hi rend="sup">1</hi> ) julgeolekuasutuse hanked ; &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 2001. aasta 1. m&auml;rtsil .</s>
+</p>
+</body>
+   </text>
+</tei.2>

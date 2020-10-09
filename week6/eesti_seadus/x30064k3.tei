@@ -1,0 +1,1612 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Loomataudit&otilde;rje seadus ( terviktekst veebr 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    9110</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Loomataudit&otilde;rje seadus ( terviktekst veebr 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=6></tagusage>
+         <tagusage gi=p occurs=502></tagusage>
+         <tagusage gi=s occurs=616></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Loomataudit&otilde;rje seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 16. juunil 1999. a.</s>
+</p>
+<p>
+<s>( RT I 1999 , 57 , 598 ; terviktekst RT I 2002 , 13 , 80 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2000.a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;ldosa</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab loomataudit&otilde;rje meetmed ja reguleerib nende rakendamist , samuti loomataudist p&otilde;hjustatud kahjude h&uuml;vitamist .</s>
+</p>
+<p>
+<s>( 2 ) Loomataudit&otilde;rjeks rakendatavate meetmete eesm&auml;rgiks on &auml;ra hoida ja likvideerida loomade nakkushaigusi ning kaitsta inimest loomadega &uuml;histe ja loomade kaudu levivate haiguste eest .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Loom</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses k&auml;sitletakse looma , loomseid saadusi ja nende k&auml;itlemist ning loomseid j&auml;&auml;tmeid veterinaarkorralduse seaduse &sect;-s 2 esitatud t&auml;henduses .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas seaduses koduloomade kohta s&auml;testatut rakendatakse k&otilde;igi tehistingimustes elavate loomade suhtes ( kaasa arvatud tehistingimustes peetavad metsloomad ) ja metsloomade kohta s&auml;testatut looduses vabalt elavate loomade suhtes .</s>
+</p>
+<p>
+<s>( 3 ) Tapaloom k&auml;esoleva seaduse t&auml;henduses on liha ja lihasaaduste tootmise eesm&auml;rgil tapmisele m&auml;&auml;ratud loom .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Loomataud</s>
+</p>
+<p>
+<s>( 1 ) Loomataudiks loetakse looma haigus , mis on p&otilde;hjustatud bioloogiliste haigusetekitajate poolt , mis v&otilde;ivad kas otseselt v&otilde;i keskkonna vahendusel kanduda &uuml;helt loomalt teisele , loomalt inimesele ja vastupidi .</s><s>K&auml;esoleva seaduse t&auml;henduses loetakse loomataudiks ka selline loomade massiline haigestumine , mida p&otilde;hjustaval teguril puudub omadus &uuml;le kanduda .</s>
+</p>
+<p>
+<s>( 2 ) Loomataudide kohta k&auml;ivaid s&auml;tteid kohaldatakse ka zoonooside suhtes .</s><s>Zoonoosiks loetakse mis tahes haigus v&otilde;i nakkus , mis v&otilde;ib loomulikul teel loomalt inimesele &uuml;le kanduda .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse t&auml;henduses loetakse loomataud eriti ohtlikuks , kui selle tekitajal on omadus kiiresti levida loomapopulatsioonis , p&otilde;hjustada ulatuslikku haigestumist ja suurt suremust ning millega v&otilde;ib kaasneda suur majanduslik kahju , samuti kui loomataud kujutab t&otilde;sist ohtu inimese elule ja tervisele .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Loomapidaja</s>
+</p>
+<p>
+<s>Loomapidaja k&auml;esoleva seaduse m&otilde;istes on isik , kellele loom kuulub ( loomaomanik ) v&otilde;i kes &otilde;igussuhte alusel loomaomanikuga vastutab viimasele kuuluva looma eest .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Veterinaarj&auml;relevalve</s>
+</p>
+<p>
+<s>J&auml;relevalve k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktidest tulenevate n&otilde;uete t&auml;itmise &uuml;le toimub veterinaarkorralduse seaduses s&auml;testatud korras , kui k&auml;esolevast seadusest ei tulene teisiti .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Veterinaarpraksisega tegelevate isikute &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Veterinaarpraksisega tegelevad isikud ( tegevusluba omavad veterinaararstid ja veterinaarlaboratooriumid ) on kohustatud juhtima loomapidaja ja loomsete saaduste k&auml;itleja t&auml;helepanu k&auml;esolevast seadusest ja selle alusel kehtestatud &otilde;igusaktidest tulenevate n&otilde;uete rikkumistele ja tegema ettepanekuid puuduste k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&otilde;ik veterinaarpraksisega tegelevad isikud on kohustatud eriti ohtliku loomataudi puhkemise korral tegema koost&ouml;&ouml;d j&auml;relevalveametnikega loomataudi leviku peatamiseks ja selle likvideerimiseks .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusluba omaval veterinaararstil on &otilde;igus taotleda loomataudi ennetamise ja t&otilde;rje toimingus osalemise &otilde;igust .</s><s>Taotluse rahuldamise v&otilde;i sellest keeldumise otsustab Veterinaar- ja Toiduameti kohaliku asutuse juht , m&auml;&auml;rates nimetatud toimingus osalemise tingimused .</s>
+</p>
+<p>
+<s>( 4 ) Loomataudide ennetamise ja t&otilde;rje toimingutele kaasatud veterinaarpraksisega tegelevatel isikutel on &otilde;igus saada nimetatud toimingute eest tasu .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Loomataudi ennetamine</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Loomade pidamine</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Loomade pidamise veterinaarn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Loomakasvatushooned ja -rajatised ning loomade pidamiseks piiritletud alad peavad oma asukoha , projektlahenduse , tehnoloogia ja mikrokliima poolest vastama veterinaarn&otilde;uetele ja olema j&auml;relevalveasutuse poolt tunnustatud v&otilde;i seal registreeritud .</s><s>Uusehitise ja p&otilde;hjaliku tehnoloogilise &uuml;mberkorralduse projekt tuleb koosk&otilde;lastada Veterinaar- ja Toiduametiga .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 ; 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Loomakasvatushoonete ja -rajatiste ning loomade pidamiseks piiritletud alade veterinaarn&otilde;uded , samuti loomade pidamisele , tunnustamisele v&otilde;i registreerimisele kuuluvate loomakasvatushoonete ja -rajatiste ning loomade pidamiseks piiritletud alade loetelu ning nende tunnustamise ja registreerimise korra kehtestab Vabariigi Valitsus v&otilde;i tema volitatud minister .</s><s>Loomade pidamise veterinaarn&otilde;uetena k&auml;sitatakse ka n&otilde;udeid loomade ning nende paljundamisega seotud tegevuste kohta , nagu haudemunade tootmine ja hautamine , embr&uuml;ote kogumine ja siirdamine ja muu taoline .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 3 ) Loomapidaja on kohustatud rakendama meetmeid , v&auml;ltimaks k&otilde;rvaliste isikute vaba sissep&auml;&auml;su loomakasvatushoonetesse ja -rajatistesse .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;lisriikidest saabunud isikutel ei ole lubatud siseneda loomakasvatushoonetesse ja -rajatistesse enne 48 tunni m&ouml;&ouml;dumist Eestisse saabumisest .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>P&otilde;llumajandusloomade pidamisel ja loomsete saaduste k&auml;itlemisel osalevate isikute meditsiiniline kontroll</s>
+</p>
+<p>
+<s>( 1 ) Oma t&ouml;&ouml;&uuml;lesannete t&otilde;ttu p&otilde;llumajandusloomade ja loomsete saadustega vahetult kokkupuutuv isik peab nakkus- ja parasitaarhaiguste tuvastamiseks ning nende leviku t&otilde;kestamiseks k&auml;ima enne t&ouml;&ouml;suhte algust ja t&ouml;&ouml;suhte ajal korrap&auml;raselt tervisekontrollis ning tal peab vastavalt rahvatervise seadusele ( RT I 1995 , 57 , 978 ; 1996 , 3 , 56 ; 49 , 953 ; 1997 , 37/38 , 569 ; 1999 , 30 , 415 ; 88 , 804 ; 2001 , 23 , 128 ) ja selle alusel kehtestatud &otilde;igusaktidele olema terviset&otilde;end .</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;llumajandusloomade omanik ja loomsete saaduste k&auml;itleja peab n&otilde;udma oma t&ouml;&ouml;&uuml;lesannete t&otilde;ttu p&otilde;llumajandusloomade ja loomsete saadustega vahetult kokkupuutuvalt isikult k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kohustuse t&auml;itmist .</s>
+</p>
+<p>
+<s>( 3 ) P&otilde;llumajandusloomade pidamises ja loomsete saaduste k&auml;itlemises osalev isik peab teavitama p&otilde;llumajandusloomade omanikku v&otilde;i loomsete saaduste k&auml;itlejat v&otilde;i tema esindajat oma terviseh&auml;irest , haigusest , kontakteerumisest nakkushaigega v&otilde;i muudest ohtudest , mis v&otilde;ivad p&otilde;hjustada p&otilde;llumajandusloomade haigestumise v&otilde;i loomsete saaduste saastumise .</s>
+</p>
+<p>
+<s>( 4 ) Isikut , kellel puudub kehtiv terviset&otilde;end , kes v&otilde;ib levitada haigusetekitajaid v&otilde;i parasiite v&otilde;i kellel on p&otilde;llumajandusloomade ja inimeste tervise seisukohalt muu ohtlik terviseh&auml;ire v&otilde;i haigus , ei tohi lubada t&ouml;&ouml;le , kus ta puutub vahetult kokku p&otilde;llumajandusloomade v&otilde;i loomsete saadustega .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Loomapidajate kohustused</s>
+</p>
+<p>
+<s>Lisaks veterinaarkorralduse seaduse &sect;-s 35 s&auml;testatule on loomapidaja kohustatud :</s>
+</p>
+<p>
+<s>1 ) teavitama kohe veterinaararsti p&otilde;llumajanduslooma surmast , loomade ulatuslikust haigestumisest v&otilde;i hukkumisest ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>2 ) teavitama j&auml;relevalveametnikku v&otilde;i volitatud veterinaararsti metslooma r&uuml;nnakust talle kuuluvale loomale ;</s>
+</p>
+<p>
+<s>3 ) pidama kinni k&auml;esolevast seadusest ja selle alusel kehtestatud &otilde;igusaktidest tulenevatest n&otilde;uetest loomataudide ennetamisel ja t&otilde;rjel ning j&auml;rgima loomataudi esinemise t&otilde;ttu kehtestatud kitsendusi .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Loomade identifitseerimine ja registreerimine</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Identifitseerimisviisid</s>
+</p>
+<p>
+<s>( 1 ) Loomade identifitseerimisviisid on looma m&auml;rgistamine , looma kirjeldamine v&otilde;i looma kuuluvuse m&auml;&auml;ratlemine .</s>
+</p>
+<p>
+<s>( 2 ) Looma m&auml;rgistamine on tema varustamine eristamist v&otilde;imaldava p&uuml;siva ning kordumatu kunstliku tunnusega .</s>
+</p>
+<p>
+<s>( 3 ) Looma kirjeldamist tema eristamise eesm&auml;rgil kasutatakse loomade puhul , keda ei ole v&otilde;imalik v&otilde;i otstarbekas m&auml;rgistada .</s>
+</p>
+<p>
+<s>( 4 ) Loomad , keda ei ole v&otilde;imalik v&otilde;i otstarbekas m&auml;rgistada ja kelle kohta ei saa selle loomaliigi isendite suure v&auml;lise sarnasuse t&otilde;ttu koostada kirjeldust , identifitseeritakse nende kuuluvuse kaudu .</s>
+</p>
+<p>
+<s>( 5 ) Kuuluvuse kaudu identifitseerimisel loetakse loom kuuluvaks isikule , kelle valduses , sealhulgas kelle kinnisel territooriumil v&otilde;i kellele kuuluvas hoones v&otilde;i rajatises ta asub , kui looma kuuluvusest huvitatud isik ei t&otilde;enda vastupidist .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Koduloomade identifitseerimine ja registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Loomaomanik on kohustatud tagama oma koduloomade identifitseeritavuse vastavalt k&auml;esoleva seaduse &sect;-le 10.</s><s>Identifitseerimiseks vajalikud vahendid v&auml;ljastatakse loomapidaja kulul .</s><s>P&otilde;llumajandusloomade omanik on kohustatud pidama oma p&otilde;llumajandusloomade kohta arvestust ja registreerima nad k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud korras riiklikus registris .</s><s>Kohalik omavalitsus korraldab koerte ja vajaduse korral teiste lemmikloomade &uuml;le arvestuse pidamist .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 ; 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Identifitseerimisele kuuluvate p&otilde;llumajandusloomade liikide loetelu , nende identifitseerimise ning registreerimise viisid ja korra , registreerimistunnistuse v&auml;ljastamise korra , samuti p&otilde;llumajanduslooma kirjelduse koostamise eeskirja ning p&otilde;llumajandusloomade arvestuse pidamise korra kehtestab Vabariigi Valitsus v&otilde;i tema volitatud minister .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 3 ) P&otilde;llumajandusloomade register on vastavalt andmekogude seadusele ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ; 2001 , 7 , 17 ; 17 , 77 ) p&otilde;llumajandusministri ettepanekul asutatud riiklik register .</s>
+</p>
+<p>
+<s>( 4 ) P&otilde;llumajandusloomade registri vastutavaks t&ouml;&ouml;tlejaks on P&otilde;llumajandusministeerium ja volitatud t&ouml;&ouml;tlejaks P&otilde;llumajanduse Registrite ja Informatsiooni Amet .</s>
+</p>
+<p>
+<s>( 11.10.2000 j&otilde;ust.02.11.2000 - RT I 2000 , 82 , 526 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Omanikuta ja loomapidaja juurest lahti p&auml;&auml;senud koduloomad</s>
+</p>
+<p>
+<s>( 1 ) Omanikuta koduloomaks loetakse identifitseerimata koduloom , kelle omanikku ei ole v&otilde;imalik tuvastada .</s>
+</p>
+<p>
+<s>( 2 ) Loomapidaja juurest lahti p&auml;&auml;senud koduloomaks loetakse loom , kes viibib omaniku v&otilde;i looma eest vastutava isiku juuresolekuta v&auml;ljaspool loomapidajale kuuluvat v&otilde;i tema kasutuses olevat territooriumi .</s>
+</p>
+<p>
+<s>( 3 ) Kohalik omavalitsus korraldab omanikuta koduloomade p&uuml;&uuml;dmist , pidamist ja hukkamist vastavalt loomakaitseseadusele .</s><s>Loomapidaja juurest lahti p&auml;&auml;senud kodulooma p&uuml;&uuml;dmist korraldab loomapidaja .</s><s>Kui loomapidaja juurest lahti p&auml;&auml;senud kodulooma kinnip&uuml;&uuml;dmise korraldas kohalik omavalitsus , kannab kodulooma p&uuml;&uuml;dmise ja pidamisega seotud kulud loomaomanik .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Loomade liikumise ning looman&auml;ituste , -v&otilde;istluste , -laatade ja -oksjonite korraldamise veterinaarn&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>P&otilde;llumajandusloomade liikumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses m&otilde;istetakse loomade liikumise all p&otilde;llumajandusloomade asukoha ajutist v&otilde;i p&uuml;sivat muutmist nende v&otilde;&otilde;randamisel v&otilde;i m&otilde;nel muul p&otilde;hjusel , millega kaasneb loomade &uuml;leviimine &uuml;hest karjast teise .</s>
+</p>
+<p>
+<s>( 2 ) Loomi on keelatud v&auml;lja viia piirkonnast ja karjast , kus on loomataudi kahtluse v&otilde;i esinemise t&otilde;ttu kehtestatud loomade liikumise piirangud .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse t&auml;henduses loetakse karjaks &uuml;hte liiki p&otilde;llumajandusloomade r&uuml;hma , keda peetakse &uuml;hises hoones v&otilde;i rajatises v&otilde;i v&auml;ljaspool neid &uuml;hisel territooriumil v&otilde;i m&otilde;nel muul viisil kontaktis olevat loomar&uuml;hma , kes nakkuse leviku seisukohalt moodustab &uuml;htse terviku .</s><s>K&auml;esoleva seaduse t&auml;henduses moodustab karja ka &uuml;ks loom .</s>
+</p>
+<p>
+<s>( 4 ) Karjast on lubatud v&auml;lja viia vaid kliiniliselt tervet looma , kes on identifitseeritud ja registreeritud k&auml;esoleva seaduse &sect; 11 alusel kehtestatud korra kohaselt ning kes vastab k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 5 ) Loomade &uuml;hest karjast teise ja tapamajja saatmise korra ning nendele loomadele esitatavad veterinaarn&otilde;uded kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 6 ) Looma vastavust k&auml;esolevas seaduses ja selle alusel kehtestatud veterinaarn&otilde;uetele t&otilde;endab k&auml;esoleva seaduse &sect;-s 28 s&auml;testatud korras v&auml;ljastatud veterinaart&otilde;end .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Looman&auml;ituse , -v&otilde;istluse , -laada ja -oksjoni korraldamise veterinaarn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Looman&auml;ituse , -v&otilde;istluse , -laada v&otilde;i -oksjoni korraldamiseks peab korraldajal olema korraldusluba , mis on koosk&otilde;lastatud selle Veterinaar- ja Toiduameti kohaliku asutusega , kelle j&auml;relevalvealal &uuml;ritus toimub .</s>
+</p>
+<p>
+<s>( 2 ) Looman&auml;ituse , -v&otilde;istluse , -laada v&otilde;i -oksjoni korraldamine on lubatud &uuml;ksnes korraldusloal n&auml;idatud kohas ning kuup&auml;evadel .</s>
+</p>
+<p>
+<s>( 3 ) N&auml;itusel v&otilde;i v&otilde;istlusel osalemiseks on lubatud looma Eestisse tuua ajutise importimise korras koosk&otilde;las k&auml;esoleva seaduse &sect;-dega 20 , 21 ja 23.</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 )</s>
+</p>
+<p>
+<s>( 4 ) Looman&auml;itusele , -v&otilde;istlusele , -laadale v&otilde;i -oksjonile on lubatud tuua kliiniliselt tervet ning k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uetele vastavat looma .</s>
+</p>
+<p>
+<s>( 5 ) Looman&auml;ituse , -v&otilde;istluse , -laada v&otilde;i -oksjoni korraldaja on kohustatud tagama looma tervislikku seisundit ja veterinaarn&otilde;uetele vastavust t&otilde;endavate veterinaart&otilde;endite v&otilde;i sellega v&otilde;rdsustatud dokumentide kontrolli .</s>
+</p>
+<p>
+<s>( 6 ) Looma viimisel looman&auml;ituselt , -v&otilde;istluselt , -laadalt v&otilde;i -oksjonilt tema alalisse asukohta peab loomapidaja tagama ennetusabin&otilde;ude rakendamise nakkushaiguste sissetoomise v&auml;ltimiseks nimetatud loomadega .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Loomadega kauplev isik ja loomadega kauplemise veterinaarn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Loomadega kauplev isik on ettev&otilde;tja , kelle tegevusalaks on loomapidajalt v&otilde;i loomadega kauplevalt isikult ostetud loomade m&uuml;&uuml;k tapmiseks , teisele loomadega kauplevale isikule v&otilde;i loomapidajale .</s><s>Loomadega kaupleva isiku ettev&otilde;te peab olema tunnustatud .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 2 ) Kauplemise objektiks olev loom peab olema identifitseeritud ja registreeritud k&auml;esolevas seaduses s&auml;testatud korras ning vastama k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud veterinaarn&otilde;uetele , mida t&otilde;endatakse k&auml;esoleva seaduse &sect;-des 28 ja 29 s&auml;testatud veterinaart&otilde;endi v&otilde;i veterinaarsertifikaadiga .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;uded loomadega kauplevale isikule ja tema ettev&otilde;tte tunnustamise korra kehtestab Vabariigi Valitsus v&otilde;i tema volitatud minister .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>Loomade ja loomsete saaduste veo veterinaarn&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Veo veterinaarn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) P&otilde;llumajandusloomade ja loomsete saaduste veoks peab kasutama selleks etten&auml;htud v&otilde;i kohandatud veovahendeid .</s><s>Loomade veol tuleb v&auml;ltida keskkonna reostumist loomade v&auml;ljaheidetega .</s><s>P&auml;rast iga p&otilde;llumajandusloomade vedu v&otilde;i vajaduse korral ka enne j&auml;rgmist loomade vedu , kui veovahendiga on veetud kaupa , mis v&otilde;ib olla loomade tervist ohustav , tuleb veovahend puhastada ja desinfitseerida Veterinaar- ja Toiduameti veebilehel avalikustatud loetelus oleva desinfektsioonivahendiga .</s><s>Loetelus nimetamata desinfektsioonivahendit v&otilde;ib kasutada j&auml;relevalveametniku n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 2 ) Haigeid v&otilde;i haiguskahtlasi loomi tuleb vedada eraldi veosena veterinaararsti kontrolli all .</s><s>Kui loom haigestub veo ajal , peab vedaja sellest kohe teavitama veterinaararsti .</s>
+</p>
+<p>
+<s>( 3 ) Vedaja peab tagama veovahendi puhastamise ja desinfitseerimise ning kasutatud allapanu ladestamise .</s>
+</p>
+<p>
+<s>( 4 ) Vedaja peab pidama dokumenteeritud arvestust p&otilde;llumajandusloomade laadimise aja ja koha , veetud p&otilde;llumajandusloomade , nende saatja ja saaja ning veovahendi puhastamise ja desinfitseerimise aja ja koha kohta .</s><s>Nimetatud dokumente tuleb s&auml;ilitada v&auml;hemalt kolm aastat .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>5. jagu</s>
+</p>
+<p>
+<s>Loomsete saaduste k&auml;itlemine</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Loomsete saaduste k&auml;itleja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Lisaks veterinaarkorralduse seaduse &sect;-s 35 s&auml;testatule on loomsete saaduste k&auml;itleja kohustatud tagama veterinaarn&otilde;uete t&auml;itmise talle kuuluvas ettev&otilde;ttes .</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;llumajandusminister v&otilde;ib kehtestada veterinaarn&otilde;uded loomsete saaduste k&auml;itlemisega tegelevatele ettev&otilde;tetele k&auml;itlemisvaldkondade kaupa , m&auml;&auml;rates nende kuulumise tunnustamisele v&otilde;i registreerimisele , ning kehtestab tunnustamise v&otilde;i registreerimise korra .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Tapaloomade ja loomsete saaduste veterinaarkontroll</s>
+</p>
+<p>
+<s>( 1 ) Loomi v&otilde;ib loomsete saaduste saamise eesm&auml;rgil tappa ainult tunnustatud tapamajades .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 3 ) Tapamajja tapmiseks l&auml;hetatav loom peab olema kliiniliselt terve ning p&auml;rinema karjast ja piirkonnast , millele ei ole loomataudi esinemise v&otilde;i kahtluse t&otilde;ttu kehtestatud loomade liikumise piirangut .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;relevalveametniku v&otilde;i volitatud veterinaararsti poolt tapmisele saadetud v&otilde;i tapamajas avastatud kliiniliselt haigeid ja taudikahtlasi loomi tapetakse eraldi tervetest loomadest j&auml;relevalveametniku v&otilde;i volitatud veterinaararsti j&auml;relevalve all .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 6 ) Loomsete saaduste ja nende k&auml;itlemise veterinaarn&otilde;uded kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 7 ) Haigetelt ja taudikahtlastelt loomadelt p&auml;rinevate saaduste k&auml;itlemise ja kasutamise veterinaarn&otilde;uded s&auml;testatakse k&auml;esoleva seaduse &sect; 43 l&otilde;ike 2 alusel kehtestatud loomataudit&otilde;rje eeskirjades .</s>
+</p>
+<p>
+<s>( 8 ) Tapaloomade ja loomsete saaduste vastavust k&auml;esolevas seaduses ja selle alusel kehtestatud veterinaarn&otilde;uetele t&otilde;endab k&auml;esoleva seaduse &sect;-s 28 s&auml;testatud korras v&auml;ljastatud veterinaart&otilde;end .</s>
+</p>
+<p>
+<s>6. jagu</s>
+</p>
+<p>
+<s>Loomsete j&auml;&auml;tmete k&auml;itlemine</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Loomsete j&auml;&auml;tmete k&auml;itlemise veterinaarn&otilde;uded ja selle korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Loomsed j&auml;&auml;tmed ja toitlustamisel tekkivad j&auml;&auml;tmed kuuluvad kogumisele , transportimisele , s&auml;ilitamisele , &uuml;mbert&ouml;&ouml;tamisele , kahjutustamisele ja kasutamisele ( edaspidi loomsete j&auml;&auml;tmete k&auml;itlemine ) viisil , mis v&auml;listab haigusetekitajate ja muude kahjulike ainete leviku .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 2 ) Loomsete j&auml;&auml;tmete valdaja korraldab tema valduses olevate loomsete j&auml;&auml;tmete k&auml;itlemise .</s><s>Loomsete j&auml;&auml;tmete matmisel tuleb matmispaiga suhtes arvestada kohaliku omavalitsuse poolt kehtestatud heakorran&otilde;udeid .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 3 ) Toitlustamisel tekkivate j&auml;&auml;tmete kasutamine loomas&ouml;&ouml;dana on lubatud Veterinaar- ja Toiduameti loa alusel .</s><s>N&otilde;uded toitlustamisel tekkivate j&auml;&auml;tmete k&auml;itlemisele ja laboratoorsele uurimisele ning nende kasutamise loa v&auml;ljastamise tingimused ja korra kehtestab Vabariigi Valitsus v&otilde;i tema volitatud minister .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 4 ) Loomsete j&auml;&auml;tmete liigituse , nende k&auml;itlemise veterinaarn&otilde;uded ning k&auml;itlemisega tegelevate ettev&otilde;tete tunnustamise korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 5 <hi rend="sup">1</hi> ) Loomsete j&auml;&auml;tmete matmispaik peab vastama keskkonnan&otilde;uetele .</s><s>Loomsete j&auml;&auml;tmete kavandatava matmispaiga keskkonnan&otilde;uetele vastavuse kohta annab arvamuse maakonna keskkonnateenistus .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 6 ) Loomataudi puhkemisel on loomsete j&auml;&auml;tmete k&auml;itlemisega tegelevad isikud kohustatud oma k&auml;itlemisvaldkonna ulatuses osalema loomataudi tagaj&auml;rgede likvideerimises vastavalt Veterinaar- ja Toiduameti ettekirjutusele .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 7 ) Loomsete j&auml;&auml;tmete k&auml;itlemise kulud kannab nende valdaja , v&auml;lja arvatud k&auml;esoleva seaduse &sect;-s 57 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>7. jagu</s>
+</p>
+<p>
+<s>Loomade ja loomsete saaduste sisse- ja v&auml;ljavedu</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>N&otilde;uded loomade ja loomsete saaduste sisse- ja v&auml;ljaveol</s>
+</p>
+<p>
+<s>( 1 ) Loomade ja loomsete saaduste sissevedu Eestisse on lubatud riigist v&otilde;i selle piirkonnast , mille episotoloogiline olukord vastab Eestis kehtivatele n&otilde;uetele .</s><s>Veterinaarn&otilde;uetele mittevastavaid loomi ja loomseid saadusi on keelatud sisse vedada .</s>
+</p>
+<p>
+<s>( 2 ) Riigi v&otilde;i selle piirkonna episotoloogilise olukorra vastavuse Eestis kehtivatele n&otilde;uetele teeb kindlaks Veterinaar- ja Toiduamet , l&auml;htudes riigi poolt esitatavatest rahvusvaheliselt heakskiidetud loomatervishoiualastest garantiidest , arvestades sealjuures :</s>
+</p>
+<p>
+<s>1 ) loomataudide esinemist riigis v&otilde;i selle piirkonnas ;</s>
+</p>
+<p>
+<s>2 ) loomataudide esinemise kohta esitatava teabe regulaarsust ja kiirust ;</s>
+</p>
+<p>
+<s>3 ) riigi poolt rakendatavaid loomataudide seire programme ja taudit&otilde;rjemeetmeid ;</s>
+</p>
+<p>
+<s>4 ) riigi veterinaarj&auml;relevalve korraldust ;</s>
+</p>
+<p>
+<s>5 ) riigist v&otilde;i selle piirkonnast v&auml;ljaveetava kauba liiki ja selle sisseveoga Eestisse inimeste ning loomade tervisele kaasnevaid riske .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaar- ja Toiduamet koostab loetelud riikidest ja piirkondadest , millest on lubatud sisse vedada teatud loomaliiki kuuluvat looma v&otilde;i loomset saadust ning avalikustab need oma veebilehel .</s>
+</p>
+<p>
+<s>( 4 ) Sisse- ja v&auml;ljaveol kontrollitavate kaupade loetelu kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 5 ) Sisseveetavate loomade ja loomsete saaduste veterinaarn&otilde;uded kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 6 ) Kui riigis v&otilde;i selle piirkonnas , kust sisseveetavad loomad v&otilde;i loomsed saadused on p&auml;rit , ilmneb v&otilde;i levib rahvusvaheliselt teatamiskohustuslikuks tunnistatud loomataud , zoonoos v&otilde;i muu haigus v&otilde;i asjaolu , mis kujutab t&otilde;sist ohtu looma v&otilde;i inimese tervisele , on Veterinaar- ja Toiduameti peadirektoril &otilde;igus viivitamata peatada loomade ja loomsete saaduste sissevedu k&otilde;nesolevast riigist v&otilde;i selle piirkonnast v&otilde;i piirata nende edasist kasutamist .</s><s>Kehtestatud piirangud tuleb viivitamata avalikustada Veterinaar- ja Toiduameti veebilehel ning teavitada nendest selle riigi p&auml;devat j&auml;relevalveasutust .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Eriluba</s>
+</p>
+<p>
+<s>( 1 ) Loomade ja loomsete saaduste sisseveoks peab olema Veterinaar- ja Toiduameti ( edaspidi eriloa v&auml;ljaandja ) eriluba ning neid veetakse sisse k&auml;esolevas seaduses ja teistes &otilde;igusaktides s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hekordseks loomade ja loomsete saaduste sisseveoks v&auml;ljastatakse eriluba , mille kehtivusaja m&auml;&auml;rab eriloa v&auml;ljaandja .</s>
+</p>
+<p>
+<s>( 3 ) Korduvaks loomsete saaduste sisseveoks v&otilde;ib v&auml;ljastada eriloa kehtivusajaga kuni &uuml;ks aasta .</s>
+</p>
+<p>
+<s>( 4 ) Loomsete saaduste sisseveol seest&ouml;&ouml;tlemiseks tuleb eriloa taotlemisel esitada andmed t&ouml;&ouml;tlemise kohta .</s>
+</p>
+<p>
+<s>( 5 ) Eriloa taotlemise ning v&auml;ljaandmise korra , samuti loa sisun&otilde;uded kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 6 ) Eriloa saaja loetakse loomade v&otilde;i loomsete saaduste sisseveo eest vastutavaks isikuks .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Sisse- ja v&auml;ljavedu</s>
+</p>
+<p>
+<s>( 1 ) Veterinaar- ja Toiduamet teavitab importijat tema soovil sisseveetavatelele loomadele ja loomsetele saadustele esitatavatest n&otilde;uetest .</s>
+</p>
+<p>
+<s>( 2 ) Kavandatavast sisseveost tuleb teavitada piiripunkti j&auml;relevalveametnikku v&auml;hemalt 24 tundi ette .</s>
+</p>
+<p>
+<s>( 3 ) Loomade ja loomsete saaduste eksportijale v&auml;ljastab Veterinaar- ja Toiduamet loomade ja loomsete saaduste sihtriigis kehtestatud n&otilde;uete kohasuse t&otilde;endamiseks k&auml;esoleva seaduse &sect;-s 29 nimetatud veterinaarsertifikaadi .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Piiripunktid</s>
+</p>
+<p>
+<s>( 1 ) Loomade ja loomsete saaduste sisse- ja v&auml;ljavedu on lubatud selleks etten&auml;htud piiripunktide kaudu .</s>
+</p>
+<p>
+<s>( 2 ) N&otilde;uded loomade ja loomsete saaduste sisse- ja v&auml;ljaveoks etten&auml;htud piiripunktidele ja nende piiripunktide loetelu kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Piiripunktis peavad olema vajalikud ruumid ja vahendid k&auml;esolevas seaduses ja teistes veterinaariaalastes &otilde;igusaktides s&auml;testatud j&auml;relevalvetoimingute tegemiseks .</s><s>Piiripunkti valdaja on kohustatud tagama j&auml;relevalveametnikule j&auml;relevalvetoimingute teostamiseks vajalike t&ouml;&ouml;ohutuse ja t&ouml;&ouml;tervishoiu n&otilde;uete kohased ruumid tasuta kasutamiseks , sealhulgas vajaduse korral sisustatud b&uuml;rooruumid ja sidevahendid .</s><s>Sideteenuse eest tasub j&auml;relevalveasutus .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>J&auml;relevalvetoimingud piiripunktis</s>
+</p>
+<p>
+<s>( 1 ) Loomade ja loomsete saaduste n&otilde;uetekohasuse t&otilde;endamiseks esitab loomade v&otilde;i loomsete saaduste sisseveo eest vastutav isik nende p&auml;ritoluriigi volitatud j&auml;relevalveasutuse v&auml;ljastatud veterinaarsertifikaadi piiripunkti j&auml;relevalveametnikule .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;relevalveametnik kontrollib :</s>
+</p>
+<p>
+<s>1 ) n&otilde;utavate dokumentide olemasolu ja n&otilde;uetekohasust ;</s>
+</p>
+<p>
+<s>2 ) loomade ja loomsete saaduste vastavust dokumentides esitatud kirjeldusele ;</s>
+</p>
+<p>
+<s>3 ) loomade tervislikku seisundit ja sisseveol vajaduse korral ka loomsete saaduste n&otilde;uetekohasust .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;relevalveametnikul on loomataudi kahtluse korral v&otilde;i loomade tervisliku seisundi v&otilde;i loomsete saaduste n&otilde;uetekohasuse kontrollimiseks &otilde;igus laboratoorseks uurimiseks v&otilde;tta sisseveetavatelt loomadelt ja loomsetest saadustest loomade ja loomsete saaduste sisseveo eest vastutava isiku kulul kontrollproove .</s>
+</p>
+<p>
+<s>( 4 ) Loomade ja loomsete saaduste &uuml;le sisse- ja v&auml;ljaveol piiripunktis tehtava veterinaarj&auml;relevalve korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 5 ) Sisseveo lubamise korral v&auml;ljastab j&auml;relevalveametnik t&otilde;endi vastavalt k&auml;esoleva paragrahvi l&otilde;ike 4 alusel kehtestatud korrale .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>N&otilde;uetele mittevastavad loomad ja loomsed saadused</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalveametnik koostab looma &uuml;le tehtud j&auml;relevalve ja selle tulemuste kohta akti ning , l&auml;htudes looma ohtlikkusest , otsustab n&otilde;uetele mittevastava looma sisseveo keelamise v&otilde;i loomakaitseseaduse ( RT I 2001 , 3 , 4 ; 93 , 565 ) &sect;-s 10 s&auml;testatud hukkamisele saatmise , arvestades v&otilde;imaluse korral looma eest vastutava isiku sooviga , ja teeb vastava m&auml;rke loomaga kaasasolevatele dokumentidele .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;relevalveametnik koostab loomsete saaduste &uuml;le tehtud j&auml;relevalve ja selle tulemuste kohta akti ning , l&auml;htudes loomsete saaduste ohtlikkusest , otsustab n&otilde;uetele mittevastavate loomsete saaduste sisseveo keelamise v&otilde;i &uuml;mbert&ouml;&ouml;tamisele v&otilde;i h&auml;vitamisele saatmise , arvestades v&otilde;imaluse korral loomsete saaduste eest vastutava isiku sooviga , ja teeb vastava m&auml;rke loomsete saadustega kaasasolevatele dokumentidele .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;relevalveametnik keelab sisseveo :</s>
+</p>
+<p>
+<s>1 ) kui loom v&otilde;i loomsed saadused p&auml;rinevad riigist v&otilde;i selle piirkonnast , kust ei ole lubatud sisse vedada sellesse loomaliiki kuuluvat looma v&otilde;i sellist loomset saadust ;</s>
+</p>
+<p>
+<s>2 ) loomataudi kahtluse korral ;</s>
+</p>
+<p>
+<s>3 ) kui dokumendid ei ole n&otilde;uetekohased ;</s>
+</p>
+<p>
+<s>4 ) kui sisseveetav loom v&otilde;i loomsed saadused ei ole n&otilde;uetekohased v&otilde;i on sellekohane p&otilde;hjendatud kahtlus ;</s>
+</p>
+<p>
+<s>5 ) kui looma tervislik seisund ei luba vedu j&auml;tkata .</s>
+</p>
+<p>
+<s>( 4 ) Kui looma v&otilde;i loomsete saaduste sisseveo eest vastutav isik ei t&auml;ida k&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud j&auml;relevalveametniku otsust , kuuluvad n&otilde;uetele mittevastav loom ja loomsed saadused erikonfiskeerimisele .</s>
+</p>
+<p>
+<s>( 5 ) Kui looma v&otilde;i loomsete saaduste sisseveo eest vastutavat isikut ei ole v&otilde;imalik kindlaks teha , suunatakse loomsed saadused &uuml;mbert&ouml;&ouml;tamisele v&otilde;i h&auml;vitamisele ja loom hukkamisele riigi kulul .</s><s>&Uuml;mbert&ouml;&ouml;tamise , h&auml;vitamise v&otilde;i hukkamise kohta koostatakse akt , mille kinnitab Veterinaar- ja Toiduameti peadirektor .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Prof&uuml;laktiline karantiin</s>
+</p>
+<p>
+<s>( 1 ) Prof&uuml;laktiline karantiin on karja juurdetoodavate v&otilde;i &auml;rilisel eesm&auml;rgil vabaks ringluseks sisseveetavate loomade pidamine karja &uuml;lej&auml;&auml;nud loomadest eraldi kindlaksm&auml;&auml;ratud ajavahemiku v&auml;ltel , millal selgitatakse diagnostiliste uurimistega loomade tervislik seisund ja teostatakse veterinaarprof&uuml;laktilised menetlused .</s>
+</p>
+<p>
+<s>( 2 ) Loomade sisseveo eest vastutav isik on kohustatud paigutama vabaks ringluseks sisseveetud p&otilde;llumajandusloomad , v&auml;lja arvatud hobused , prof&uuml;laktilisse karantiini .</s><s>Prof&uuml;laktilist karantiini l&auml;bimata lubatakse vabaks ringluseks sisse vedada tapaloomi , kui nad saadetakse kohe tapamajja tapmisele .</s><s>Veterinaar- ja Toiduametil on &otilde;igus vajaduse korral n&otilde;uda prof&uuml;laktilise karantiini rakendamist k&otilde;igi sisseveetavate loomade puhul .</s>
+</p>
+<p>
+<s>( 3 ) N&otilde;uded loomade prof&uuml;laktilise karantiini l&auml;biviimisele ja karantiinilautadele kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 4 ) Prof&uuml;laktilise karantiini n&otilde;uetekohase l&auml;biviimise eest vastutab ja sellega kaasnevad kulud katab loomade sisseveo eest vastutav isik .</s>
+</p>
+<p>
+<s>( 5 ) Veterinaar- ja Toiduamet v&otilde;ib , l&auml;htudes looma p&auml;ritoluriigi episotoloogilisest olukorrast , n&otilde;uda loomade sisseveo eest vastutavalt isikult enne loomade sissevedu vabaks ringluseks nende paigutamist prof&uuml;laktilisse karantiini p&auml;ritoluriigis .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Loomade ja loomsete saaduste ekspordi j&auml;relevalve</s>
+</p>
+<p>
+<s>Loomade ja loomsete saaduste vastavuse korral sihtriigi n&otilde;uetele v&auml;ljastatakse loomade ja loomsete saaduste eksportijale k&auml;esoleva seaduse &sect;-s 29 nimetatud veterinaarsertifikaat .</s>
+</p>
+<p>
+<s>8. jagu</s>
+</p>
+<p>
+<s>Veterinaart&otilde;endid</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Veterinaart&otilde;end</s>
+</p>
+<p>
+<s>( 1 ) Veterinaart&otilde;end on looma v&otilde;i loomse saaduse k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud veterinaarn&otilde;uetele vastavust t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaart&otilde;endi v&auml;ljaandmise &otilde;igus on j&auml;relevalveametnikul ja volitatud veterinaararstil , kellele on antud vastav kontrollip&auml;devus ja kelle j&auml;relevalvealases piirkonnas loom v&otilde;i loomne saadus asub .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaart&otilde;endite vormi- ja sisun&otilde;uded ning v&auml;ljaandmise tingimused ja korra kehtestab Veterinaar- ja Toiduameti peadirektor .</s>
+</p>
+<p>
+<s>( 4 ) Veterinaart&otilde;endi v&auml;ljastamine on tasuline .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Veterinaarsertifikaat</s>
+</p>
+<p>
+<s>( 1 ) Veterinaarsertifikaat on imporditavate ja eksporditavate loomade ja loomsete saaduste k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud veterinaarn&otilde;uetele vastavust t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 2 ) Ekspordiks veterinaarsertifikaadi v&auml;ljaandmise &otilde;igus on Veterinaar- ja Toiduameti kohaliku asutuse juhil ja tema volitatud j&auml;relevalveametnikul .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaarsertifikaadi vormi- ja sisun&otilde;uded ning nende v&auml;ljaandmise tingimused ja korra kehtestab Veterinaar- ja Toiduameti peadirektor .</s>
+</p>
+<p>
+<s>( 4 ) Veterinaarsertifikaadi v&auml;ljastamine on tasuline .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Loomataudi laboratoorne uurimine</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Loomataudi laboratoorse uurimisega tegelevad asutused</s>
+</p>
+<p>
+<s>( 1 ) Loomataudi laboratoorne diagnoosimine , samuti veterinaarj&auml;relevalve toiminguna v&otilde;etud proovide uurimine on lubatud veterinaarkorralduse seaduse &sect; 5 l&otilde;ikes 5 loetletud laboratooriumides .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toidulaboratoorium tagab riiklikus loomataudit&otilde;rje programmis etten&auml;htud laboratoorsete uurimiste teostamise Veterinaar- ja Toiduameti esitatud mahtudes ja t&auml;htaegadel .</s>
+</p>
+<p>
+<s>( 3 ) Loomataudi kahtluse v&otilde;i puhkemise korral kindlustab Veterinaar- ja Toidulaboratoorium Veterinaar- ja Toiduameti korralduse alusel laboratoorse uurimise ja saadab kohale erialaspetsialistid .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Teaduslik uurimine</s>
+</p>
+<p>
+<s>( 1 ) Teaduslik uurimine , milleks on vajalik ohtlikke loomataude p&otilde;hjustavate haigusetekitajate isoleerimine v&otilde;i kultiveerimine , on lubatud ainult selleks eriluba omavates teaduslaboratooriumides .</s>
+</p>
+<p>
+<s>( 2 ) Haigusetekitajate loetelu , mille isoleerimiseks ja kultiveerimiseks vajab laboratoorium eriluba , samuti n&otilde;uded loomataudialase teadusliku uurimist&ouml;&ouml;ga tegelevale laboratooriumile ja eriloa v&auml;ljaandmise korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>&sect; 32. ( Kehtetu - 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Loomataudi leviku t&otilde;kestamine ja taudipunkti likvideerimine</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Meetmed loomataudi kahtluse korral</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Loomataudi kahtlus</s>
+</p>
+<p>
+<s>S&otilde;ltuvalt haigusetekitaja iseloomust loetakse loomataudi kahtlus tekkinuks &uuml;hel v&otilde;i mitmel loomal esinevate haigusele omaste kliiniliste tunnuste , lahanguleiu v&otilde;i laboratoorse uurimise tulemuste alusel , samuti otsese v&otilde;i kaudse kontakti t&otilde;ttu nakatunud karja v&otilde;i loomaga .</s><s>Loomataudi kahtluse p&uuml;stitab veterinaararst ja otsustab j&auml;relevalveametnik .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Loomataudi tekitajate esinemise kahtlus loomsete saaduste puhul</s>
+</p>
+<p>
+<s>Loomataudi tekitajate esinemise kahtlus loomsete saaduste puhul loetakse tekkinuks j&auml;relevalveametniku otsusel , kui temale teada olevatel andmetel v&otilde;ivad need sisaldada haigusetekitajaid v&otilde;i olla nendega saastunud .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Loomataudi kahtluse korral rakendatavad meetmed</s>
+</p>
+<p>
+<s>( 1 ) Loomataudi kahtluse korral rakendatavad meetmed kehtestatakse selle loomataudi t&otilde;rje-eeskirjas .</s>
+</p>
+<p>
+<s>( 2 ) Loomataudi kahtluse korral tuleb haiguse kliiniliseks diagnoosimiseks , vajalike proovide v&otilde;tmiseks , episotoloogilise uurimise l&auml;biviimiseks ja loomataudi leviku v&auml;ltimiseks vajalike abin&otilde;ude rakendamiseks viivitamatult kohale kutsuda piirkonda teenindav volitatud veterinaararst v&otilde;i j&auml;relevalveametnik .</s>
+</p>
+<p>
+<s>( 3 ) Loomataudi kahtluse tekkimisel tapamajja toodud loomadel tapaeelset v&otilde;i tapaj&auml;rgset kontrolli teostanud j&auml;relevalveametnik v&otilde;i volitatud veterinaararst korraldab taudikahtlaste loomade ja nendelt p&auml;rinevate saaduste isoleerimise , peatab loomade ja loomsete saaduste t&ouml;&ouml;tlemise ning v&otilde;tab tarvitusele abin&otilde;ud loomataudi leviku t&otilde;kestamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Veterinaararst informeerib loomapidajat ja loomsete saaduste k&auml;itlejat loomataudiga kaasnevatest ohtudest ning annab tegevusjuhised oletatava loomataudi leviku v&auml;ltimiseks .</s>
+</p>
+<p>
+<s>( 5 ) Veterinaar- ja Toiduameti kohaliku asutuse juht kehtestab p&auml;rast loomataudi kahtlusest teate saamist vajaduse korral diagnoosi t&auml;psustamiseni karjale , ettev&otilde;ttele v&otilde;i piirkonnale kitsendused .</s>
+</p>
+<p>
+<s>( 6 ) Kitsenduste kehtestamisest teatab j&auml;relevalveametnik loomapidajale kirjalikult .</s>
+</p>
+<p>
+<s>( 7 ) J&auml;relevalveametnik informeerib loomapidajat ja loomsete saaduste k&auml;itlejat temale kuuluvate loomadega v&otilde;i loomsete saadustega ning loomapidamishoones ja -rajatises v&otilde;i loomsete saaduste k&auml;itlemise ettev&otilde;ttes teostatavatest toimingutest .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Loomataudi kahtluse l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Otsuse loomataudi kahtluse korral kehtestatud kitsenduste t&uuml;histamiseks teeb Veterinaar- ja Toiduameti kohaliku asutuse juht laboratoorse uurimise tulemuste v&otilde;i k&auml;esoleva seaduse &sect; 37 l&otilde;ikes 3 nimetatud komisjoni otsuse alusel , kui need v&auml;listavad loomataudi puhkemise .</s>
+</p>
+<p>
+<s>( 2 ) Loomataudi kahtluse l&otilde;petamisest teatab Veterinaar- ja Toiduameti kohaliku asutuse juht loomapidajale ja loomsete saaduste k&auml;itlejale kirjalikult 24 tunni jooksul p&auml;rast otsuse tegemist .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Loomataudi diagnoosimine</s>
+</p>
+<p>
+<s>( 1 ) Loomataudi diagnoosib veterinaararst episootilise olukorra , kliiniliste tunnuste , lahanguleiu ja laboratoorse uurimise tulemuste p&otilde;hjal .</s>
+</p>
+<p>
+<s>( 2 ) Vajadusel v&otilde;idakse proovide v&otilde;tmise eesm&auml;rgil teha loomade kontrolltapmisi .</s><s>Kontrolltapmine on looma tapmine taudikahtluse kontrollimiseks lubatud uimastamis- ja tapmisvahendiga ning lubatud uimastamis- ja tapmismeetodil .</s><s>Looma kontrolltapmisele m&auml;&auml;ramise &otilde;igus on Veterinaar- ja Toiduameti kohaliku asutuse juhil ja tema volitatud j&auml;relevalveametnikul .</s><s>Looma kontrolltapmisele m&auml;&auml;ramise otsusest teatab Veterinaar- ja Toiduameti kohaliku asutuse juht v&otilde;i tema volitatud j&auml;relevalveametnik loomapidajale kirjalikult .</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>( 3 ) Loomataudi ametliku diagnoosi teatamiskohustuslike loomataudide puhul paneb Veterinaar- ja Toiduameti kohaliku asutuse juht v&otilde;i tema volitatud j&auml;relevalveametnik loomataudi kliiniliste tunnuste , lahanguleiu , episotoloogiliste andmete ja laboratoorse uurimise tulemuste alusel v&otilde;i Veterinaar- ja Toiduameti m&auml;&auml;ratud ekspertide komisjon kliiniliste tunnuste , lahanguleiu ja episotoloogiliste andmete alusel .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 4 ) Eriti ohtliku loomataudi korral kinnitab loomataudi ametliku diagnoosi Veterinaar- ja Toiduamet .</s>
+</p>
+<p>
+<s>( 5 ) Veterinaar- ja Toiduametil ning Veterinaar- ja Toidulaboratooriumil on &otilde;igus saata proove loomataudi diagnoosimiseks v&auml;lisriigi tunnustatud laboratooriumisse v&otilde;i rahvusvahelisse referentlaboratooriumisse .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Loomataudi kahtlusest ja selle puhkemisest teatamine</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Teatamiskohustuslikud ja registreerimiskohustuslikud loomataudid</s>
+</p>
+<p>
+<s>( 1 ) Teatamiskohustusliku loomataudi kahtlusest v&otilde;i diagnoosimisest peavad j&auml;relevalveametnikud , volitatud veterinaararstid ja veterinaararstid , samuti veterinaarlaboratooriumid ja teised isikud viivitamatult teavitama Veterinaar- ja Toiduameti kohalikku asutust .</s>
+</p>
+<p>
+<s>( 2 ) Registreerimiskohustusliku loomataudi diagnoosimise juhud registreeritakse ja neist teavitatakse Veterinaar- ja Toiduameti kohalikku asutust regulaarse aruandluse korras , kui loomataudi t&otilde;rje-eeskiri ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Teatamiskohustuslikeks on k&otilde;ik eriti ohtlikud loomataudid , inimesele ohtlikud loomataudid ja loomataudid , mida eesti loomapopulatsioonides pole kunagi v&otilde;i pikema aja v&auml;ltel diagnoositud .</s>
+</p>
+<p>
+<s>( 4 ) Teatamiskohustuslike ja registreerimiskohustuslike loomataudide loetelu kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Veterinaararstide kohustused loomataudi kahtlusest ja diagnoosimisest teavitamisel</s>
+</p>
+<p>
+<s>( 1 ) Teatamiskohustusliku loomataudi kahtluse korral on veterinaararst kohustatud teavitama sellest kohe j&auml;relevalveametnikku v&otilde;i volitatud veterinaararsti ja loomapidajat .</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toiduameti kohaliku asutuse juhile esitatava loomataudi teatise vormi- ja sisun&otilde;uded ning esitamise korra kehtestab Veterinaar- ja Toiduameti peadirektor .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Veterinaar- ja Toiduameti kohaliku asutuse juhi kohustused loomataudi kahtlusest ja diagnoosimisest teavitamisel</s>
+</p>
+<p>
+<s>( 1 ) Veterinaar- ja Toiduameti kohaliku asutuse juht on kohustatud viivitamatult informeerima teatamiskohustusliku loomataudi kahtlusest ja selle diagnoosimisest Veterinaar- ja Toiduameti peadirektorit , tema &auml;raolekul tema aset&auml;itjat ning naaberpiirkondade Veterinaar- ja Toiduameti kohalike asutuste juhte .</s><s>Teatamiskohustusliku zoonoosi v&otilde;i zoonoosse haigusetekitaja diagnoosimisest on Veterinaar- ja Toiduameti kohaliku asutuse juht kohustatud viivitamata teavitama Tervisekaitseinspektsiooni kohalikku asutust .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toiduameti kohaliku asutuse juht esitab aruande Veterinaar- ja Toiduametile registreeritud loomataudide ning Tervisekaitseinspektsiooni kohalikule asutusele registreeritud zoonooside kohta tema j&auml;relevalvealasel territooriumil .</s><s>Aruande esitamise korra kehtestab Veterinaar- ja Toiduameti peadirektor .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Laboratooriumide &uuml;lesanded loomataudi kahtlusest ja diagnoosimisest teavitamisel</s>
+</p>
+<p>
+<s>( 1 ) Veterinaarkorralduse seaduse &sect; 5 l&otilde;ikes 5 loetletud laboratooriumid on kohustatud teatama teatamiskohustusliku loomataudi kahtlusest v&otilde;i laboratoorsest diagnoosimisest viivitamatult Veterinaar- ja Toiduameti peadirektorile , tema &auml;raolekul tema aset&auml;itjale ning selle Veterinaar- ja Toiduameti kohaliku asutuse juhile , kelle j&auml;relevalvealalt uurimismaterjal p&auml;rines .</s><s>Esitatava teatise vormi- ja sisun&otilde;uded ning esitamise korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Teatamiskohustus kehtib , olenemata sellest , kas materjal toodi uurimiseks riikliku loomataudit&otilde;rje programmi raames , diagnostiliseks uurimiseks v&otilde;i ettev&otilde;tte enesekontrolliks .</s>
+</p>
+<p>
+<s>( 3 ) Registreerimiskohustusliku loomataudi laboratoorsest diagnoosimisest teatab k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud laboratoorium Veterinaar- ja Toiduametile regulaarse aruandluse korras , kui selle loomataudi t&otilde;rje-eeskiri ei n&auml;e ette teisiti .</s><s>Esitatava teatise vormi- ja sisun&otilde;uded ning esitamise korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 4 ) Loomsete saaduste k&auml;itlemisega tegelevate ettev&otilde;tete toodangu kvaliteeti kontrollivad laboratooriumid on kohustatud teavitama teatamis- v&otilde;i registreerimiskohustuslike loomataudide tekitajate isoleerimisest v&otilde;i nende esinemise kahtlusest toormes v&otilde;i toodangus Veterinaar- ja Toiduametit vastavalt k&auml;esoleva paragrahvi l&otilde;igetele 1-3.</s>
+</p>
+<p>
+<s>( 5 ) Teaduslaboratooriumid , kus diagnoositakse teatamis- v&otilde;i registreerimiskohustuslik loomataud uurimist&ouml;&ouml; k&auml;igus , peavad teavitama sellest Veterinaar- ja Toiduametit vastavalt k&auml;esoleva paragrahvi l&otilde;igetele 1-3.</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Veterinaar- ja Toiduameti kohustused loomataudidest teavitamisel</s>
+</p>
+<p>
+<s>( 1 ) Veterinaar- ja Toiduamet teatab rahvusvahelistele veterinaarorganisatsioonidele , Euroopa Liidu Komisjonile , Euroopa Liidu liikmesriikide ja naaberriikide veterinaarteenistustele rahvusvaheliselt teatamiskohustuslikeks tunnistatud loomataudide puhkemisest 24 tunni jooksul p&auml;rast ametliku diagnoosi panemist esmases taudipunktis ning uutest taudipunktidest hiljemalt iga n&auml;dala esimesel t&ouml;&ouml;p&auml;eval .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toiduamet teatab rahvusvahelistele veterinaarorganisatsioonidele ja naaberriikide veterinaarteenistustele rahvusvaheliselt teatamiskohustuslikeks tunnistatud loomataudide t&otilde;rjealaste kitsenduste l&otilde;petamisest 24 tunni jooksul p&auml;rast k&auml;esoleva seaduse &sect; 53 l&otilde;ikes 3 nimetatud korralduse avalikustamist .</s>
+</p>
+<p>
+<s>&sect; 42 <hi rend="sup">1</hi> .</s><s>Tervisekaitseinspektsiooni kohustused zoonoosidest teavitamisel</s>
+</p>
+<p>
+<s>( 1 ) Tervisekaitseinspektsiooni kohalik asutus on kohustatud teatama zoonooside diagnoosimisest inimestel sellele Veterinaar- ja Toiduameti kohalikule asutusele , kelle j&auml;relevalvealasel territooriumil zoonoos diagnoositi .</s>
+</p>
+<p>
+<s>( 2 ) Teatamiskohustuslike zoonooside loetelu ning Veterinaar- ja Toiduameti kohalikule asutusele esitatava asjakohase teatise vormi n&otilde;uded ning esitamise korra kehtestab sotsiaalminister koosk&otilde;lastatult p&otilde;llumajandusministriga .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Loomataudit&otilde;rje</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Loomataudit&otilde;rje eeskirjad</s>
+</p>
+<p>
+<s>( 1 ) Loomataudit&otilde;rje eeskirjades s&auml;testatakse tegutsemisjuhised erinevate loomataudide ennetamiseks ja t&otilde;rjeks ning taudikahtlastelt ja taudistunud loomadelt p&auml;rinevate saaduste k&auml;itlemiseks .</s><s>Loomataudit&otilde;rje eeskirjad on kohustuslikud t&auml;itmiseks k&otilde;igile loomapidajatele , loomsete saaduste k&auml;itlejatele , loomataudi levialal viibivatele isikutele , j&auml;relevalveametnikele , volitatud veterinaararstidele , tegevusluba omavatele veterinaararstidele ja veterinaarlaboratooriumidele ning teistele oma t&ouml;&ouml;&uuml;lesannete t&otilde;ttu loomataudit&otilde;rjega seotud isikutele .</s>
+</p>
+<p>
+<s>( 2 ) Loomataudit&otilde;rje eeskirjad kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>&sect; 43 <hi rend="sup">1</hi> .</s><s>Loomataudit&otilde;rje programm</s>
+</p>
+<p>
+<s>( 1 ) Loomataudit&otilde;rje programm on loomataudide ennetamise ja t&otilde;rjemenetluste t&auml;psustatud kava , milles s&auml;testatakse loomataudide ennetamise ja t&otilde;rjemenetluste loetelu ning vastavate menetluste mahud loomataudide kaupa iga aasta kohta .</s>
+</p>
+<p>
+<s>( 2 ) Loomataudit&otilde;rje programmi kehtestab Veterinaar- ja Toiduameti peadirektor .</s>
+</p>
+<p>
+<s>( 3 ) Loomataudit&otilde;rje programmi rakendamisega seotud kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Loomataudit&otilde;rje situatsioonplaan</s>
+</p>
+<p>
+<s>( 1 ) Loomataudit&otilde;rje situatsioonplaan ( edaspidi situatsioonplaan ) on eriti ohtlike loomataudide puhkemisel rakendatav t&otilde;rjemeetmete t&auml;psustatud kava loomataudi kiireks ja efektiivseks likvideerimiseks .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Situatsioonplaani koostab ning selle tegelikkusele vastavuse eest vastutab Veterinaar- ja Toiduamet .</s><s>Situatsioonplaani kinnitab Veterinaar- ja Toiduameti peadirektor .</s><s>Situatsioonplaani avalikustab Veterinaar- ja Toiduamet oma veebilehel .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 3 ) Situatsioonplaanis peavad olema j&auml;rgmised osad :</s>
+</p>
+<p>
+<s>1 ) riikliku loomataudit&otilde;rje komisjoni moodustamine ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>2 ) kohalike loomataudit&otilde;rje komisjonide nimekiri ;</s>
+</p>
+<p>
+<s>3 ) &uuml;ksikasjalik informatsioon loomataudit&otilde;rjes osalevate isikute , sealhulgas nende kvalifikatsiooni ja kohustuste kohta ;</s>
+</p>
+<p>
+<s>4 ) kohalike loomataudit&otilde;rje komisjonide v&otilde;imalused kontakteerumiseks loomataudit&otilde;rjega seotud isikutega ;</s>
+</p>
+<p>
+<s>5 ) loomataudit&otilde;rjemeetmete n&otilde;uetekohaseks rakendamiseks vajalik varustus ja materjalid ;</s>
+</p>
+<p>
+<s>6 ) &uuml;ksikasjalikud juhised loomataudi kahtluse v&otilde;i loomataudi puhkemise korral tegutsemiseks , sealhulgas loomakorjuste k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>7 ) &otilde;ppeprogrammid , mille eesm&auml;rgiks on s&auml;ilitada loomataudit&otilde;rjel vajalikke praktilisi ja administratiivseid oskusi ;</s>
+</p>
+<p>
+<s>8 ) loomataudit&otilde;rjel osalevad laboratooriumid ja nende v&otilde;imalused , meetmed laboratooriumide valmisoleku s&auml;ilitamiseks ning laboratoorseteks uurimisteks v&otilde;etavate proovide kiire transportimise v&otilde;imalused ;</s>
+</p>
+<p>
+<s>9 ) konkreetsete loomataudide t&otilde;rjeks vajaminevate vaktsiinide kogused ja nende hanke allikad ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>10 ) erinevate ametiasutuste loomataudi likvideerimisalase koost&ouml;&ouml; p&otilde;him&otilde;tted .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Veterinaar- ja Toiduameti p&auml;devus loomataudi ennetamise , selle leviku t&otilde;kestamise ja likvideerimise korral</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 1 ) Veterinaar- ja Toiduameti p&auml;devus loomataudi leviku t&otilde;kestamise ja likvideerimise korral on , kuiv&otilde;rd see ei ole m&auml;&auml;ratletud loomataudi t&otilde;rje-eeskirjaga :</s>
+</p>
+<p>
+<s>1 ) teha k&auml;esolevast seadusest l&auml;htuvaid loomataudit&otilde;rjealaseid korraldusi , mis on kohustuslikud loomapidajale , loomade ostu , m&uuml;&uuml;gi ja transpordiga tegelevatele isikutele , looman&auml;ituste , -v&otilde;istluste , -laatade ja -oksjonite korraldajatele , loomsete saaduste k&auml;itlejatele , k&otilde;ikidele taudipunktis , ohustatud v&otilde;i j&auml;relevalvetsoonis viibivatele isikutele ;</s>
+</p>
+<p>
+<s>2 ) kohustada loomapidajat erim&auml;rgistama loomad nende identifitseerimise v&otilde;imaldamiseks ja n&otilde;uda loomapidajalt loomade loendi pidamist ;</s>
+</p>
+<p>
+<s>3 ) kohustada loomapidajat v&otilde;imaldama taudikahtlaste ja haigete loomade diagnostilist uurimist , immuniseerimist v&otilde;i ravi v&otilde;i keelata nimetatud tegevused ;</s>
+</p>
+<p>
+<s>4 ) n&otilde;uda loomade pidamise korralduse ja tingimuste muutmist ettev&otilde;ttes v&otilde;i loomapidamishoonetes ja -rajatistes ;</s>
+</p>
+<p>
+<s>5 ) kehtestada loomade karjatamise kord ;</s>
+</p>
+<p>
+<s>6 ) kehtestada loomade v&auml;ljaheidete s&auml;ilitamise ja kasutamise kord ;</s>
+</p>
+<p>
+<s>7 ) kehtestada t&auml;iendavaid veterinaarn&otilde;udeid ettev&otilde;tte tegevusele ;</s>
+</p>
+<p>
+<s>8 ) kehtestada erin&otilde;uded loomadega kauplemiseks , looman&auml;ituste ning -v&otilde;istluste korraldamiseks ja nende m&otilde;nel muul p&otilde;hjusel alalisest asukohast v&auml;ljaviimiseks v&otilde;i keelata loetletud tegevused ;</s>
+</p>
+<p>
+<s>9 ) n&otilde;uda taudipunktis viibivatelt isikutelt kaitseriietuse kasutamist , m&auml;&auml;rata kaitseriietuse ja varustuse kasutamise ja desinfitseerimise kord ;</s>
+</p>
+<p>
+<s>10 ) teha korraldusi loomakasvatushoonete ja -rajatiste korrastamiseks , desinfektsiooniks , desinsektsiooniks ja deratisatsiooniks ;</s>
+</p>
+<p>
+<s>11 ) teha korraldusi v&auml;ljaheidete kahjutustamiseks , saastunud toodangu ja inventari kahjutustamiseks v&otilde;i h&auml;vitamiseks ;</s>
+</p>
+<p>
+<s>12 ) piirata ja keelata loomataudile vastuv&otilde;tlike v&otilde;i loomataudi levitada v&otilde;ivate loomade ja neilt p&auml;rinevate saaduste k&auml;itlemist ja transporti ;</s>
+</p>
+<p>
+<s>13 ) m&auml;&auml;rata loomi tapmisele t&auml;iendavate diagnostiliste uurimiste teostamiseks v&otilde;i loomataudi leviku t&otilde;kestamiseks ;</s>
+</p>
+<p>
+<s>14 ) kehtestada metsloomade tapmise kord ;</s>
+</p>
+<p>
+<s>15 ) kehtestada loomsete saaduste ja loomsete j&auml;&auml;tmete kasutamise , k&otilde;rvaldamise v&otilde;i kahjutustamise kord ;</s>
+</p>
+<p>
+<s>16 ) kaasata loomataudi ennetamise ja t&otilde;rje toimingutele tegevusluba omavat veterinaararsti viimase taotluse alusel v&otilde;i n&otilde;usoleku korral , m&auml;&auml;rates kirjalikus lepingus teostatava toimingu ulatuse ja tegevuspiirkonna .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Loomataudi leviku t&otilde;kestamiseks ja selle likvideerimiseks vajalike meetmete rakendamisel teeb Veterinaar- ja Toiduamet koost&ouml;&ouml;d Politseiameti , P&auml;&auml;steameti , Piirivalveameti ja teiste riigiasutuste ning kohaliku omavalitsuse asutustega nende p&auml;devuse piires .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Meetmed eriti ohtliku loomataudi puhkemisel</s>
+</p>
+<p>
+<s>( 1 ) Eriti ohtliku loomataudi puhkemisel :</s>
+</p>
+<p>
+<s>1 ) kehtestatakse taudipunktis karantiin ;</s>
+</p>
+<p>
+<s>2 ) m&auml;&auml;ratletakse ohustatud tsoon taudipunkti &uuml;mber ning j&auml;relevalvetsoon ohustatud tsooni &uuml;mber ;</s>
+</p>
+<p>
+<s>3 ) viiakse l&auml;bi episotoloogiline uurimine loomataudi v&otilde;imaliku leviala selgitamiseks ;</s>
+</p>
+<p>
+<s>4 ) moodustatakse riiklik ja kohalik loomataudit&otilde;rje komisjon , mis juhivad kogu tegevust taudipunkti likvideerimisel ja loomataudi leviku t&otilde;kestamisel .</s>
+</p>
+<p>
+<s>( 2 ) Eriti ohtliku loomataudi likvideerimiseks on Veterinaar- ja Toiduametil &otilde;igus t&auml;iendavalt k&auml;esoleva seaduse &sect;-s 45 s&auml;testatule :</s>
+</p>
+<p>
+<s>1 ) kohustada j&auml;relevalveametnikke ja volitatud veterinaararste teostama taudit&otilde;rjetoiminguid ka v&auml;ljaspool tema t&ouml;&ouml;piirkonda ;</s>
+</p>
+<p>
+<s>2 ) kaasata menetluste teostamisse tegevusluba omavaid veterinaararste ;</s>
+</p>
+<p>
+<s>3 ) teostada vajalikke taudit&otilde;rjetoiminguid ilma loomapidaja v&otilde;i loomsete saaduste k&auml;itleja kohalolekuta ja teda sellest eelnevalt teavitamata .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Loomataudide ennetamine ja t&otilde;rje metsloomade populatsioonis</s>
+</p>
+<p>
+<s>( 1 ) Loomataudide ennetamist ja t&otilde;rjet metsloomade populatsioonis korraldab Veterinaar- ja Toiduamet koost&ouml;&ouml;s Keskkonnainspektsiooni ning jahipidamise ja kalap&uuml;&uuml;gi &otilde;igust omavate f&uuml;&uuml;siliste ja juriidiliste isikutega .</s>
+</p>
+<p>
+<s>( 2 ) Haigustunnustega metslooma avastamisest , samuti metslooma r&uuml;ndest tuleb kohe teavitada veterinaararsti .</s>
+</p>
+<p>
+<s>( 3 ) Metslooma p&uuml;&uuml;dmine &uuml;hest piirkonnast teise &uuml;mberasustamise v&otilde;i tehistingimustes pidamise eesm&auml;rgil ning metsloomade &uuml;mberasustamine &uuml;hest piirkonnast teise on lubatud &otilde;igusaktides s&auml;testatud n&otilde;uete kohaselt ning koosk&otilde;lastatult Veterinaar- ja Toiduametiga .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Kohalik loomataudit&otilde;rje komisjon</s>
+</p>
+<p>
+<s>( 1 ) Kohaliku loomataudit&otilde;rje komisjoni moodustab p&auml;rast eriti ohtliku loomataudi ametliku diagnoosi panemist Veterinaar- ja Toiduameti kohaliku asutuse juhi ettepanekul maavanem .</s>
+</p>
+<p>
+<s>( 2 ) Kohalikku loomataudit&otilde;rje komisjoni kuuluvad maavalitsuse ja kohaliku omavalitsuse esindaja , Veterinaar- ja Toiduameti kohaliku asutuse juht ja j&auml;relevalveametnikud , Veterinaar- ja Toidulaboratooriumi esindaja v&auml;hemalt peaspetsialisti tasemel , taudipunkti piirkonda teenindav volitatud veterinaararst ning Politseiameti ja P&auml;&auml;steameti esindaja v&auml;hemalt kohaliku asutuse juhi aset&auml;itja tasemel .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 3 ) Kohaliku loomataudit&otilde;rje komisjoni t&ouml;&ouml;d juhib Veterinaar- ja Toiduameti kohaliku asutuse juht ja selle t&ouml;&ouml;korraldus kehtestatakse loomataudit&otilde;rje situatsioonplaanis .</s>
+</p>
+<p>
+<s>( 4 ) Kohaliku loomataudit&otilde;rje komisjoni &uuml;lesandeks on :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 52 alusel episotoloogilise uurimise l&auml;biviimine ;</s>
+</p>
+<p>
+<s>2 ) ohustatud ja j&auml;relevalvetsooni piiritlemine ;</s>
+</p>
+<p>
+<s>3 ) loomataudit&otilde;rje meetmete rakendamise koordineerimine , korraldamine ja kontroll .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Riiklik loomataudit&otilde;rje komisjon</s>
+</p>
+<p>
+<s>( 1 ) Riikliku loomataudit&otilde;rje komisjoni moodustab p&auml;rast eriti ohtliku loomataudi ametliku diagnoosi panemist Veterinaar- ja Toiduameti peadirektori ettepanekul p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 2 ) Riiklikku loomataudit&otilde;rje komisjoni kuuluvad Veterinaar- ja Toiduameti peadirektor ja j&auml;relevalveametnikud , Veterinaar- ja Toiduameti Piiriteenistuse juht , Veterinaar- ja Toidulaboratooriumi esindaja v&auml;hemalt peaspetsialisti tasemel , loomataudi levipiirkonna Veterinaar- ja Toiduameti kohaliku asutuse juht ning Politseiameti ja P&auml;&auml;steameti esindajad v&auml;hemalt peadirektori aset&auml;itja tasemel .</s><s>Komisjoni t&ouml;&ouml;d juhib Veterinaar- ja Toiduameti peadirektor .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 3 ) Riikliku loomataudit&otilde;rje komisjoni &uuml;lesandeks on :</s>
+</p>
+<p>
+<s>1 ) t&otilde;rjemeetmete rakendamise koordineerimine ja tulemuste anal&uuml;&uuml;s ;</s>
+</p>
+<p>
+<s>2 ) loomataudi likvideerimiseks eraldatud riiklike ressursside suunamine ;</s>
+</p>
+<p>
+<s>3 ) riikidevaheline koost&ouml;&ouml; loomataudi edasise leviku t&otilde;kestamiseks ;</s>
+</p>
+<p>
+<s>4 ) p&otilde;llumajandusministrile ettepanekute tegemine Vabariigi Valitsuse tasandil lahendamist vajavate k&uuml;simuste lahendamiseks ;</s>
+</p>
+<p>
+<s>5 ) taudikahju h&uuml;vituste taotluste l&auml;bivaatamine .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Karantiini , ohustatud ja j&auml;relevalvetsooni kehtestamise kord</s>
+</p>
+<p>
+<s>( 1 ) Karantiin on teatud perioodiks taudipunktis kehtestatav loomade , loomsete saaduste , s&ouml;&ouml;tade , seadmete ja inventari v&auml;ljaviimise keeld ning inimeste liikumise piiramine .</s>
+</p>
+<p>
+<s>( 2 ) Taudipunkt on piiritletud territoorium , kus haiged v&otilde;i nakatunud loomad asuvad .</s>
+</p>
+<p>
+<s>( 3 ) Karantiin kehtestatakse ettev&otilde;ttele v&otilde;i tabandunud piirkonnale p&auml;rast eriti ohtliku loomataudi diagnoosi ametlikku kinnitamist vastavalt k&auml;esoleva seaduse &sect;-le 37.</s>
+</p>
+<p>
+<s>( 4 ) Karantiini kehtestab Veterinaar- ja Toiduameti kohaliku asutuse juhi ettepanekul maavanem kirjaliku korraldusega , mis antakse &uuml;le loomapidajale v&otilde;i ettev&otilde;tte omanikule allkirja vastu ja millest teavitatakse elanikkonda massiteabevahendite kaudu .</s>
+</p>
+<p>
+<s>( 5 ) Maavanem kehtestab kirjaliku korraldusega Veterinaar- ja Toiduameti kohaliku asutuse juhi ettepanekul taudipunkti &uuml;mber ohustatud ja j&auml;relevalvetsooni , millest teavitatakse elanikkonda massiteabevahendite kaudu .</s>
+</p>
+<p>
+<s>( 6 ) Vajadusel muudetakse ohustatud ja j&auml;relevalvetsooni ulatust maavanema kirjaliku korraldusega k&auml;esoleva paragrahvi l&otilde;ikes 5 kehtestatud korras .</s>
+</p>
+<p>
+<s>( 7 ) Ohustatud tsoon on piiritletud ala taudipunkti &uuml;mber , kus kehtestatakse loomade , loomsete saaduste ja inimeste liikumise piirangud ja kus viiakse l&auml;bi loomataudile vastuv&otilde;tlike loomaliikide ulatuslik uurimine uute taudipunktide &otilde;igeaegseks avastamiseks .</s>
+</p>
+<p>
+<s>( 8 ) J&auml;relevalvetsoon on piiritletud ala ohustatud tsooni &uuml;mber , kus kehtestatakse inimeste ja transpordi liikumise piiranguid ja kus loomakarju hoitakse k&otilde;rgendatud veterinaarj&auml;relevalve all .</s>
+</p>
+<p>
+<s>( 9 ) Karantiinitingimused ning tingimused ohustatud ja j&auml;relevalvetsoonis m&auml;&auml;ratakse kindlaks loomataudi t&otilde;rje-eeskirjas v&otilde;i selle puudumisel Veterinaar- ja Toiduameti poolt kehtestatud n&otilde;uetes .</s>
+</p>
+<p>
+<s>( 10 ) Kitsendused taudipunktis hakkavad kehtima alates kirjaliku korralduse &uuml;leandmisest loomapidajale .</s>
+</p>
+<p>
+<s>( 11 ) Kitsendused ohustatud ja j&auml;relevalvetsoonis hakkavad kehtima massiteabevahendite kaudu teatamisest alates .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>J&auml;relevalve loomataudi puhkemisel kehtestatud piirangutest kinnipidamise &uuml;le</s>
+</p>
+<p>
+<s>( 1 ) J&auml;relevalvet karantiiniga kehtestatud meetmete t&auml;itmise &uuml;le teostab Veterinaar- ja Toiduameti kohalik asutus .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;relevalvet transpordivahendite , loomade ja inimeste liikumise piirangute t&auml;itmise &uuml;le taudipunktis , ohustatud ja j&auml;relevalvetsoonis teostab Politseiamet .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Loomataudi leviala m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Eriti ohtliku loomataudi puhkemisel viib kohalik loomataudit&otilde;rje komisjon l&auml;bi episotoloogilise uurimise , mille k&auml;igus selgitab v&auml;lja v&otilde;imalikud nakatumise p&otilde;hjused , ajavahemiku loomade nakatumise ja selle avastamise vahel , nakkuse leviku teed , kontaktsed karjad ja loomad ning selle alusel loomataudi v&otilde;imaliku leviala .</s>
+</p>
+<p>
+<s>( 2 ) Kontaktseks loetakse kari ja loom , kellega nakatunud loom v&otilde;i kari on olnud otseses v&otilde;i kaudses kokkupuutes ajal , mil nakatumine t&otilde;en&auml;oliselt toimus , ja p&auml;rast seda .</s><s>Kontaktsed karjad ja loomad loetakse taudikahtlasteks ning neilt v&otilde;etakse proovid laboratoorseks uurimiseks .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Karantiini ning kitsenduste l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Karantiin ja kitsendused l&otilde;petatakse p&auml;rast loomataudi likvideerimist ja selle loomataudi t&otilde;rje-eeskirja v&otilde;i Veterinaar- ja Toiduameti kehtestatud n&otilde;uete t&auml;itmist .</s>
+</p>
+<p>
+<s>( 2 ) Kitsendused l&otilde;petab Veterinaar- ja Toiduameti kohaliku asutuse juht .</s>
+</p>
+<p>
+<s>( 3 ) Karantiini l&otilde;petab Veterinaar- ja Toiduameti kohaliku asutuse juhi ettepanekul maavanem kirjaliku korraldusega ning sellest teavitatakse elanikkonda massiteabevahendite kaudu .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Loomataudit&otilde;rje eriolukorras</s>
+</p>
+<p>
+<s>( 1 ) Kui on tegemist eriti ohtliku loomataudiga v&otilde;i kui loomataud levib ulatuslikult , informeerib Veterinaar- ja Toiduameti peadirektor sellest p&otilde;llumajandusministrit , kes teeb vajaduse korral Vabariigi Valitsusele ettepaneku kuulutada v&auml;lja eriolukord vastavalt eriolukorra seadusele ( RT I 1996 , 8 , 164 ; 1999 , 57 , 598 ) .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Eriolukorra v&auml;ljakuulutamisel kehtestab Vabariigi Valitsus , arvestades kujunenud olukorda , vajaduse korral :</s>
+</p>
+<p>
+<s>1 ) loomataudi leviku t&otilde;kestamise ja taudipunktide likvideerimise juhendid ;</s>
+</p>
+<p>
+<s>2 ) inimeste ja transpordivahendite liikumise piirangud loomataudi levialal ;</s>
+</p>
+<p>
+<s>3 ) loomade liikumise , sealhulgas sisse- ja v&auml;ljaveo piirangud ja keelud .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsusel on &otilde;igus anda loomataudit&otilde;rje komisjonidele t&otilde;rje l&auml;biviimiseks t&auml;iendavaid volitusi .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Loomataudit&otilde;rje finantseerimine riigieelarvest ja taudikahjude h&uuml;vitamine</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Loomataudi ennetamise ja t&otilde;rje kulud</s>
+</p>
+<p>
+<s>Loomataudi ennetamise ja t&otilde;rje kuludeks loetakse :</s>
+</p>
+<p>
+<s>1 ) proovide v&otilde;tmisega seotud kulud ;</s>
+</p>
+<p>
+<s>2 ) diagnostilise uurimise kulud ;</s>
+</p>
+<p>
+<s>3 ) vaktsineerimise ja passiivse immuniseerimise kulud ;</s>
+</p>
+<p>
+<s>4 ) taudikahju h&uuml;vitus kohustuslikus korras hukatud loomade eest ;</s>
+</p>
+<p>
+<s>5 ) loomade hukkamise , korjuste ja loomsete saaduste kahjutustamise v&otilde;i &uuml;mbert&ouml;&ouml;tamise kulud ;</s>
+</p>
+<p>
+<s>6 ) desinfektsiooni- , desinsektsiooni- ja deratisatsioonikulud taudipunktis ;</s>
+</p>
+<p>
+<s>7 ) haigete ja taudikahtlaste loomade tapamajas tapmisega ning haigusetekitajaid sisaldavate v&otilde;i nendega saastunud ja selles osas kahtlaste loomsete saaduste k&auml;itlemisest ja ringlusest k&otilde;rvaldamisega seotud kulud ;</s>
+</p>
+<p>
+<s>8 ) taudikahju h&uuml;vitus h&auml;vitamisele kuuluva haigusetekitajatega saastunud inventari , s&ouml;&ouml;da ja toodangu eest ;</s>
+</p>
+<p>
+<s>9 ) loomataudi ennetamise ja t&otilde;rje toimingutele kaasatud isikute tehtud kulutused ja t&ouml;&ouml;tasu .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Loomataudit&otilde;rje finantseerimine riigieelarvest</s>
+</p>
+<p>
+<s>( 1 ) Eriti ohtlike loomataudide nimekirja kantud loomataudide ennetamise ja t&otilde;rjega seotud kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>( 2 ) Eriti ohtlike loomataudide nimekirja ning loomataudi ennetamise ja t&otilde;rjega seotud kulude h&uuml;vitamise tingimused ja korra kehtestab Vabariigi Valitsus v&otilde;i tema m&auml;&auml;ratud valitsusasutus .</s>
+</p>
+<p>
+<s>( 3 ) Muude loomataudide ennetamist ja t&otilde;rjet finantseeritakse riigieelarvest p&otilde;llumajandusministri kehtestatud korras , milles m&auml;&auml;ratakse eraldi iga loomataudi kohta finantseerimisele kuuluvad kulud .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Taudikahju ja selle h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Riik h&uuml;vitab eriti ohtlike loomataudide ennetamise ja t&otilde;rjega seotud p&otilde;llumajandusloomade taudikahju k&auml;esoleva seaduse &sect;-s 55 loetletud kulud ning muude loomataudide ennetamise ja t&otilde;rjega seotud p&otilde;llumajandusloomade taudikahju k&auml;esoleva seaduse &sect; 56 l&otilde;ike 3 alusel kehtestatud korras s&auml;testatud kulud .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toiduameti kohaliku asutuse juhi , tema aset&auml;itja v&otilde;i j&auml;relevalveametniku ettekirjutusel loomataudit&otilde;rje k&auml;igus loomataudi avastamiseks ning leviku t&otilde;kestamiseks hukatud p&otilde;llumajandusloomade arvestuslik v&auml;&auml;rtus loetakse isikule tekkinud taudikahjuks .</s>
+</p>
+<p>
+<s>( 3 ) Veterinaar- ja Toiduameti kohaliku asutuse juhi , tema aset&auml;itja v&otilde;i j&auml;relevalveametniku ettekirjutusel loomataudit&otilde;rje k&auml;igus loomataudi avastamiseks ning leviku t&otilde;kestamiseks hukatud p&otilde;llumajandusloomade maksumus h&uuml;vitatakse isikule tema taotluse alusel vastavalt kehtestatud arvestuslikule v&auml;&auml;rtusele .</s><s>P&otilde;llumajandusloomade v&auml;&auml;rtuse arvutamise ning taudikahjude h&uuml;vitamise korra kehtestab p&otilde;llumajandusminister .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 4 ) Lisaks k&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 s&auml;testatule h&uuml;vitatakse taudikahju p&otilde;llumajanduslooma eest , kes suri loomataudi tagaj&auml;rjel p&auml;rast ettekirjutuse tegemist tema hukkamise kohta .</s>
+</p>
+<p>
+<s>( 5 ) Taudikahjuks loetakse ka :</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>1 ) haigusetekitajatega saastunud inventar , loomas&ouml;&ouml;t ja loomsed saadused , mis on Veterinaar- ja Toiduameti kohaliku asutuse juhi , tema aset&auml;itja v&otilde;i j&auml;relevalveametniku korraldusel h&auml;vitatud ;</s>
+</p>
+<p>
+<s>2 ) loomsete saaduste k&auml;itlemisega tegelevates ettev&otilde;tetes kohustuslikus korras h&auml;vitatud toodang ;</s>
+</p>
+<p>
+<s>3 ) tapamajade lisakulutused haigete ja taudikahtlaste loomade kohustuslikus korras hukkamisel ;</s>
+</p>
+<p>
+<s>4 ) kohustuslikus korras hukatud loomade korjuste utiliseerimise kulud .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>H&uuml;vitamisele mittekuuluv taudikahju</s>
+</p>
+<p>
+<s>Taudikahju ei h&uuml;vitata :</s>
+</p>
+<p>
+<s>1 ) kui loomataudi t&otilde;ttu surnud v&otilde;i h&auml;datapetud looma kasutati loomkatsetes loomataudi teaduslikuks uurimiseks ;</s>
+</p>
+<p>
+<s>2 ) kui loom oli toodud Eestisse &otilde;igusevastaselt ;</s>
+</p>
+<p>
+<s>3 ) kui isik rikkus v&otilde;i t&auml;itis mitten&otilde;uetekohaselt k&auml;esolevas seaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;udeid v&otilde;i j&auml;relevalveametniku ettekirjutusi ;</s>
+</p>
+<p>
+<s>( 13.12.2000 j&otilde;ust.01.07.2001 - RT I 2001 , 3 , 4 )</s>
+</p>
+<p>
+<s>4 ) vabalt looduses elavate loomade eest ;</s>
+</p>
+<p>
+<s>5 ) enne loomataudi kahtluse p&uuml;stitamist hukkunud loomade eest .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vastutus</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>F&uuml;&uuml;silise isiku vastutus</s>
+</p>
+<p>
+<s>F&uuml;&uuml;silised isikud vastutavad k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide rikkumise eest haldus&otilde;iguserikkumiste seadustikus ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ; 97 , 605 ; 102 , 677 ) ja kriminaalkoodeksis ( RT 1992 , 20 , 288 ; RT I 2001 , 73 , 452 ; 85 , 510 ; 87 , 526 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Juriidilise isiku haldusvastutus k&auml;esoleva seaduse rikkumise eest</s>
+</p>
+<p>
+<s>Juriidilise isiku poolt :</s>
+</p>
+<p>
+<s>1 ) loomakasvatushoonetele ja -rajatistele kehtestatud veterinaarn&otilde;uete rikkumise eest - m&auml;&auml;ratakse rahatrahv kuni 40 000 krooni ;</s>
+</p>
+<p>
+<s>2 ) loomade m&auml;rgistusn&otilde;uete ning identifitseerimis- ja registreerimiskohustuse t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;llumajanduslooma surmast , loomade ulatuslikust haigestumisest v&otilde;i hukkumisest ja metslooma r&uuml;nnakust teatamata j&auml;tmise eest - m&auml;&auml;ratakse rahatrahv kuni 40 000 krooni ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>4 ) looman&auml;ituste , -v&otilde;istluste , -laatade ja -oksjonite korraldamise n&otilde;uete rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise ja korraldaja poolt oma kohustuste t&auml;itmata j&auml;tmise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>5 ) loomade ja loomsete saaduste veon&otilde;uete rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni 40 000 krooni ;</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>6 ) loomsete saaduste k&auml;itlemise veterinaarn&otilde;uete rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>7 ) sisse- ja v&auml;ljaveo n&otilde;uete ja tingimuste ning prof&uuml;laktilise karantiini tingimuste rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni 50 000 krooni ;</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.07.2002 - RT I 2001 , 88 , 531 ; 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>8 ) loomataudit&otilde;rje meetmete rakendamata j&auml;tmise ja loomataudit&otilde;rje eeskirjade mittej&auml;rgimise v&otilde;i mitten&otilde;uetekohase j&auml;rgimise eest - m&auml;&auml;ratakse rahatrahv kuni 100 000 krooni ;</s>
+</p>
+<p>
+<s>9 ) muude k&auml;esolevast seadusest tulenevate veterinaarn&otilde;uete rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest - m&auml;&auml;ratakse rahatrahv kuni 40 000 krooni ;</s>
+</p>
+<p>
+<s>10 ) looma v&otilde;i loomsete saaduste veterinaarn&otilde;uete rikkumise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest viisil , mis ohustab inimese v&otilde;i looma tervist v&otilde;i keskkonda , - m&auml;&auml;ratakse rahatrahv kuni 100 000 krooni .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Menetlus juriidilise isiku haldus&otilde;iguserikkumise asjas</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 60 nimetatud haldus&otilde;iguserikkumiste asjades on asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus Veterinaar- ja Toiduameti peadirektoril , tema aset&auml;itjal ja j&auml;relevalveametnikul ning Veterinaar- ja Toiduameti kohaliku asutuse juhil , tema aset&auml;itjal ja j&auml;relevalveametnikul ning maa- v&otilde;i linnakohtul .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 ) Veterinaar- ja Toiduameti peadirektoril , tema aset&auml;itjal ning Veterinaar- ja Toiduameti kohaliku asutuse juhil on &otilde;igus k&auml;esoleva seaduse &sect;-s 60 nimetatud haldus&otilde;iguserikkumiste asjades m&auml;&auml;rata rahatrahvi kuni 15 000 krooni , sellest suurema rahatrahvi v&otilde;ib kohaldada ainult maa- v&otilde;i linnakohus .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Erikonfiskeerimisega seotud haldus&otilde;iguserikkumise asja arutab maa- v&otilde;i linnakohus .</s><s>Erikonfiskeerimisega seotud haldus&otilde;iguserikkumise asja arutamisel v&otilde;ib erikonfiskeerimist kohaldada ka Veterinaar- ja Toiduameti peadirektor , tema aset&auml;itja ja j&auml;relevalveametnik ning Veterinaar- ja Toiduameti kohaliku asutuse juht , tema aset&auml;itja ja j&auml;relevalveametnik .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect;-s 60 nimetatud haldus&otilde;iguserikkumiste asjades on protokolli koostamise &otilde;igus Veterinaar- ja Toiduameti peadirektoril , tema aset&auml;itjal ning Veterinaar- ja Toiduameti kohaliku asutuse juhil , tema aset&auml;itjal ning j&auml;relevalveametnikul .</s>
+</p>
+<p>
+<s>( 4 ) Protokollis m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) selle koostamise aeg ja koht ;</s>
+</p>
+<p>
+<s>2 ) asutuse nimi ja aadress , kelle nimel protokoll koostatakse ;</s>
+</p>
+<p>
+<s>3 ) protokolli koostanud isiku ees- ja perekonnanimi ning ametinimetus ;</s>
+</p>
+<p>
+<s>4 ) &otilde;iguserikkujast juriidilise isiku nimi ja aadress ;</s>
+</p>
+<p>
+<s>5 ) &otilde;iguserikkuja esindaja ees- ja perekonnanimi ning ametikoht ;</s>
+</p>
+<p>
+<s>6 ) &otilde;iguserikkumise koht , aeg ja kirjeldus ;</s>
+</p>
+<p>
+<s>7 ) viide seaduses&auml;ttele , mis n&auml;eb ette vastutuse selle &otilde;iguserikkumise eest ;</s>
+</p>
+<p>
+<s>8 ) &otilde;iguserikkuja esindaja seletus ja m&auml;rge , et &otilde;iguserikkuja esindajale on tutvustatud tema &otilde;igust kasutada &otilde;igusabi ;</s>
+</p>
+<p>
+<s>9 ) &otilde;iguserikkumist t&otilde;endavad materjalid ;</s>
+</p>
+<p>
+<s>10 ) muud vajalikud andmed .</s>
+</p>
+<p>
+<s>( 5 ) Protokollile kirjutavad alla selle koostanud ametnik ja &otilde;iguserikkuja esindaja .</s><s>Kui &otilde;iguserikkuja esindaja keeldub protokollile alla kirjutamast , tehakse protokolli selle kohta kanne .</s><s>Protokollile lisatakse &otilde;iguserikkuja esindaja kirjalikud m&auml;rkused protokolli ning protokollile allakirjutamisest keeldumise kohta .</s>
+</p>
+<p>
+<s>( 6 ) Kui &otilde;iguserikkuja on juriidilise isiku ametiisik , v&otilde;ib selle rikkumise asjas m&auml;&auml;rata halduskaristuse f&uuml;&uuml;silisele isikule ja juriidilisele isikule samaaegselt seadusega etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 7 ) Juriidilise isiku &otilde;iguserikkumise asja menetletakse haldus&otilde;iguserikkumiste seadustikus s&auml;testatud korras , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>&sect; 61 <hi rend="sup">1</hi> .</s><s>Haldus&otilde;iguserikkumise objektiks oleva looma v&otilde;i loomsete saaduste erikonfiskeerimine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 60 punktis 10 nimetatud haldus&otilde;iguserikkumise korral v&otilde;ib kohaldada &otilde;iguserikkumise objektiks olnud looma v&otilde;i loomsete saaduste erikonfiskeerimist .</s>
+</p>
+<p>
+<s>( 2 ) Erikonfiskeerimisele kuuluva looma v&otilde;i loomsed saadused v&otilde;tab &auml;ra ametnik , kellel on k&auml;esoleva seaduse &sect; 61 l&otilde;ike 3 j&auml;rgi haldus&otilde;iguserikkumise protokolli koostamise &otilde;igus .</s>
+</p>
+<p>
+<s>( 3 ) &Auml;rav&otilde;etud looma v&otilde;i loomseid saadusi hoitakse kuni haldus&otilde;iguserikkumise asja arutamiseni kohas , mille m&auml;&auml;rab looma v&otilde;i loomsed saadused &auml;rav&otilde;tnud ametnik .</s><s>&Auml;rav&otilde;etud looma v&otilde;i loomsed saadused v&otilde;ib j&auml;tta ka &otilde;iguserikkuja hoiule .</s><s>Hoiukoht plommitakse v&otilde;i pitseeritakse .</s>
+</p>
+<p>
+<s>( 4 ) Loom v&otilde;i loomsed saadused , mille kohta on tehtud erikonfiskeerimise otsus , l&auml;heb kohe tasuta &uuml;le riigi omandisse .</s>
+</p>
+<p>
+<s>( 5 ) Looma erikonfiskeerimise otsuse , milles n&auml;hakse ette looma hukkamine , ja kiirestiriknevate loomsete saaduste erikonfiskeerimise otsuse , milles n&auml;hakse ette nende h&auml;vitamine , v&otilde;ib t&auml;ide viia enne erikonfiskeerimise otsuse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>( 6 ) Erikonfiskeerimise otsuse t&auml;itmise menetlus toimub haldus&otilde;iguserikkumiste seadustikus etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Rahvusvahelised kokkulepped</s>
+</p>
+<p>
+<s>Kui rahvusvahelise kokkuleppe s&auml;tted erinevad k&auml;esolevas seaduses v&otilde;i sellest tulenevates &otilde;igusaktides kehtestatud veterinaarn&otilde;uetest , samuti koost&ouml;&ouml; ja teavitamise n&otilde;uetest , kohaldatakse rahvusvahelise kokkuleppe s&auml;tteid .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Kriminaalkoodeksi t&auml;iendamine</s>
+</p>
+<p>
+<s>Kriminaalkoodeksi ( RT 1992 , 20 , 288 ; RT I 2001 , 73 , 452 ; 85 , 510 ; 87 , 526 ) &sect;-s 211 :</s>
+</p>
+<p>
+<s>1 ) l&otilde;iget 1 t&auml;iendatakse p&auml;rast s&otilde;nu &ldquo; muude nakkushaiguste &rdquo; s&otilde;nadega &ldquo; ning loomataudide &rdquo; ja p&auml;rast s&otilde;nu &ldquo; ohtliku nakkushaiguse &rdquo; s&otilde;nadega &ldquo; v&otilde;i loomataudi &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) l&otilde;iget 2 t&auml;iendatakse p&auml;rast s&otilde;nu &ldquo; nimetatud haiguste &rdquo; s&otilde;nadega &ldquo; v&otilde;i loomataudide &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Eriolukorra seaduse muutmine</s>
+</p>
+<p>
+<s>Eriolukorra seaduse ( RT I 1996 , 8 , 164 ; 1999 , 57 , 598 ) &sect; 5 punkti 1 t&auml;iendatakse p&auml;rast s&otilde;na &ldquo; taudina &rdquo; s&otilde;nadega &ldquo; , kaasa arvatud loomataudina , &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 64 <hi rend="sup">1</hi> .</s><s>Kasutuses olevate loomakasvatushoonete ja -rajatiste tunnustamine ja registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Registreerimisele kuuluvad loomakasvatushooned ja -rajatised ning loomade pidamiseks piiritletud alad , mis on kasutuses 2002. aasta 1. jaanuaril , peavad olema registreeritud hiljemalt 2003. aasta 1. jaanuariks .</s>
+</p>
+<p>
+<s>( 2 ) Tunnustamisele kuuluvad loomakasvatushooned ja -rajatised ning loomade pidamiseks piiritletud alad , mis on kasutuses k&auml;esoleva seaduse &sect; 7 l&otilde;ike 2 alusel kehtestatud vastavate veterinaarn&otilde;uete j&otilde;ustumise hetkel , peavad olema tunnustatud hiljemalt 2003. aasta 1. jaanuariks .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2000. aasta 1. jaanuaril , v&auml;lja arvatud &sect; 15 l&otilde;ige 1 , mis j&otilde;ustub 2002. aasta 1. juulil ning &sect; 18 l&otilde;ige 1 , mis j&otilde;ustub 2003. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect; 7 l&otilde;ike 2 alusel kehtestatud veterinaarn&otilde;uded j&otilde;ustuvad 2002. aasta 1. jaanuaril , kui nende kehtestamisel ei ole ette n&auml;htud j&otilde;ustumise hilisemat t&auml;htp&auml;eva .</s>
+</p>
+<p>
+<s>( 14.11.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 93 , 566 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

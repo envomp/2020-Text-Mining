@@ -1,0 +1,504 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Koondumise teate esitamise juhend ( okt 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    2415</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Koondumise teate esitamise juhend ( okt 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=133></tagusage>
+         <tagusage gi=s occurs=171></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Koondumise teate esitamise juhend</s>
+</p>
+<p>
+<s>Rahandusministri 27. augusti 2001. a m&auml;&auml;rus nr 75</s>
+</p>
+<p>
+<s>( RTL 2001 , 105 , 1451 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. oktoobril 2001. a.</s>
+</p>
+<p>
+<s>M&auml;&auml;rus kehtestatakse &ldquo; Konkurentsiseaduse &rdquo; ( RT I 2001 , 56 , 332 ) &sect; 26 l&otilde;ike 5 alusel .</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;te</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>M&auml;&auml;ruses sisalduva juhendiga s&auml;testatakse koondumise teate ( edaspidi teade ) ja sellele lisatud dokumentide esitamise kord .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Teate esitajad</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Koondumisest teatavad selleks kohustatud koondumise osalised :</s>
+</p>
+<p>
+<s>1 ) ettev&otilde;tjate &uuml;hinemisel &auml;riseadustiku ( RT I 1995 , 26-28 , 355 ; 1998 , 91-93 , 1500 ; 1999 , 10 , 155 ; 23 , 355 ; 24 , 360 ; 57 , 596 ; 102 , 907 ; 2000 , 29 , 172 ; 49 , 303 ; 55 , 365 ; 57 , 373 ; 2001 , 34 , 185 ) t&auml;henduses koondumise osalised &uuml;hiselt ;</s>
+</p>
+<p>
+<s>2 ) &uuml;he ettev&otilde;tja poolt valitseva m&otilde;ju omandamisel teise ettev&otilde;tja v&otilde;i tema osa &uuml;le valitsevat m&otilde;ju omandav ettev&otilde;tja ;</s>
+</p>
+<p>
+<s>3 ) ettev&otilde;tjate poolt &uuml;hiselt valitseva m&otilde;ju omandamisel kolmanda ettev&otilde;tja v&otilde;i tema osa &uuml;le &uuml;hist valitsevat m&otilde;ju omandavad ettev&otilde;tjad &uuml;hiselt ;</s>
+</p>
+<p>
+<s>4 ) f&uuml;&uuml;siline isik , kes juba omab v&auml;hemalt &uuml;he ettev&otilde;tja &uuml;le valitsevat m&otilde;ju , valitseva m&otilde;ju omandamisel teise ettev&otilde;tja v&otilde;i tema osa &uuml;le ;</s>
+</p>
+<p>
+<s>5 ) f&uuml;&uuml;silised isikud &uuml;hiselt , kes juba omavad v&auml;hemalt &uuml;he ettev&otilde;tja &uuml;le valitsevat m&otilde;ju , valitseva m&otilde;ju omandamisel teise ettev&otilde;tja v&otilde;i tema osa &uuml;le ;</s>
+</p>
+<p>
+<s>6 ) ettev&otilde;tjad v&otilde;i f&uuml;&uuml;silised isikud &uuml;hiselt nende poolt &uuml;hise ettev&otilde;tja asutamisel ;</s>
+</p>
+<p>
+<s>7 ) v&auml;&auml;rtpaberite avaliku ostupakkumise teel ettev&otilde;tja &uuml;le valitseva m&otilde;ju omandamisel pakkumist tegev isik .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Esitatava teate sisu</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Isikute andmed</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva m&auml;&auml;ruse &sect;-s 2 nimetatud teatamiskohustusega isikud esitavad enda kohta j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) &auml;rinimi ( nimi ) ja registrikood ;</s>
+</p>
+<p>
+<s>2 ) tegevusalad ;</s>
+</p>
+<p>
+<s>3 ) aadress ;</s>
+</p>
+<p>
+<s>4 ) telefoni ja faksi number ning e-posti aadress ;</s>
+</p>
+<p>
+<s>5 ) esindaja ( nimi , amet , aadress , telefoni ja faksi number ning e-posti aadress ) ;</s>
+</p>
+<p>
+<s>6 ) kontaktisik v&otilde;i volitatud isik ( nimi , amet , aadress , telefoni ja faksi number ning e-posti aadress ) .</s>
+</p>
+<p>
+<s>( 2 ) Teiste koondumise osaliste kohta esitatakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) &auml;rinimi ja registrikood ;</s>
+</p>
+<p>
+<s>2 ) tegevusalad ;</s>
+</p>
+<p>
+<s>3 ) aadress ;</s>
+</p>
+<p>
+<s>4 ) telefoni ja faksi number ning e-posti aadress ;</s>
+</p>
+<p>
+<s>5 ) esindaja ( nimi , amet , aadress , telefoni ja faksi number ning e-posti aadress ) ;</s>
+</p>
+<p>
+<s>6 ) kontaktisik v&otilde;i volitatud isik ( nimi , amet , aadress , telefoni ja faksi number ning e-posti aadress ) .</s>
+</p>
+<p>
+<s>( 3 ) Ettev&otilde;tja v&otilde;i isiku kohta , kes loobub valitsevast m&otilde;just teise ettev&otilde;tja v&otilde;i tema osa &uuml;le , esitatakse teates :</s>
+</p>
+<p>
+<s>1 ) &auml;rinimi ( nimi ) ja registrikood ;</s>
+</p>
+<p>
+<s>2 ) tegevusalad ;</s>
+</p>
+<p>
+<s>3 ) aadress ;</s>
+</p>
+<p>
+<s>4 ) telefoni ja faksi number ning e-posti aadress ;</s>
+</p>
+<p>
+<s>5 ) esindaja ( nimi , amet , aadress , telefoni ja faksi number ning e-posti aadress ) ;</s>
+</p>
+<p>
+<s>6 ) kontaktisik v&otilde;i volitatud isik ( nimi , amet , aadress , telefoni ja faksi number ning e-posti aadress ) .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Koondumise kirjeldus</s>
+</p>
+<p>
+<s>( 1 ) Teates tuleb m&auml;rkida koondumise viis vastavalt &ldquo; Konkurentsiseaduse &rdquo; &sect;-le 19.</s>
+</p>
+<p>
+<s>( 2 ) Koondumise kohta esitatakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) koondumise majanduslik ja finantsiline struktuur ;</s>
+</p>
+<p>
+<s>2 ) koondumise ajagraafik ;</s>
+</p>
+<p>
+<s>3 ) koondumisega seotud &auml;ritegevuse kirjeldus ;</s>
+</p>
+<p>
+<s>4 ) tehingueelne ja -j&auml;rgne omandisuhe ja valitseva m&otilde;ju struktuur ;</s>
+</p>
+<p>
+<s>5 ) &uuml;levaade koondumiseni viinud asjaoludest ja eesm&auml;rkidest .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;hise ettev&otilde;tja asutamisel esitatakse lisaks l&otilde;ikes 2 nimetatud teabele j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) &uuml;hise ettev&otilde;tja kavandatud tegutsemisaeg ;</s>
+</p>
+<p>
+<s>2 ) &uuml;hise ettev&otilde;tja &auml;ritegevuse iseloomustus ;</s>
+</p>
+<p>
+<s>3 ) &uuml;hise ettev&otilde;tja olulisemad kliendid ja tarnijad ;</s>
+</p>
+<p>
+<s>4 ) &uuml;hise ettev&otilde;tja iseseisva ja p&uuml;siva &auml;ritegevuse kirjeldus ;</s>
+</p>
+<p>
+<s>5 ) &uuml;hise ettev&otilde;tja juhtimise kirjeldus .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Koondumise osaliste k&auml;ive</s>
+</p>
+<p>
+<s>( 1 ) K&auml;ibe kohta esitatakse andmed vastavalt &ldquo; Konkurentsiseaduse &rdquo; &sect;-le 24 ja rahandusministri m&auml;&auml;rusega kinnitatud k&auml;ibe arvutamise juhendile .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;ibe kohta esitatakse j&auml;rgmised andmed :</s>
+</p>
+<p>
+<s>1 ) iga koondumise osalise eelmise majandusaasta &uuml;lemaailmne k&auml;ive ;</s>
+</p>
+<p>
+<s>2 ) iga koondumise osalise eelmise majandusaasta k&auml;ive Eestis .</s>
+</p>
+<p>
+<s>( 3 ) Kui koondumisele eelnenud aruandlusperiood on olnud erinev kui 12 kuud v&otilde;i kui koondumise osaline on p&auml;rast aruandlusperioodi l&otilde;ppu osalenud m&otilde;nes teises koondumises , siis esitatakse selgitus k&auml;ibe arvestamise kohta .</s>
+</p>
+<p>
+<s>( 4 ) Kui koondumisele eelnenud kahe aasta jooksul on k&auml;esoleva m&auml;&auml;ruse &sect;-s 2 nimetatud koondumise osaline saavutanud valitseva m&otilde;ju teise ettev&otilde;tja v&otilde;i selle osa &uuml;le &ldquo; Konkurentsiseaduse &rdquo; &sect; 24 l&otilde;igetes 4 ja 5 s&auml;testatud viisil , siis esitatakse selgitus k&auml;ibe arvutamise kohta .</s>
+</p>
+<p>
+<s>( 5 ) Kui koondumise osaline v&otilde;i temaga samasse kontserni kuuluv ettev&otilde;tja on aruandlusperioodil saanud riigiabi &ldquo; Konkurentsiseaduse &rdquo; &sect; 30 l&otilde;ike 1 t&auml;henduses , siis esitatakse andmed riigiabi laadi ja m&auml;&auml;ra kohta ning selgitus , kas riigiabi arvestati koondumise osalise v&otilde;i temaga samasse kontserni kuuluva ettev&otilde;tja k&auml;ibe hulka .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Osalus ja valitsev m&otilde;ju</s>
+</p>
+<p>
+<s>( 1 ) Iga koondumise osalisega samasse kontserni kuuluvate ettev&otilde;tjate kohta esitatakse loetelu .</s><s>Kui need ettev&otilde;tjad tegutsevad k&auml;esoleva m&auml;&auml;ruse &sect; 7 l&otilde;ikes 3 ja 4 nimetatud kaubaturgudel , siis esitatakse teave iga ettev&otilde;tja ja koondumise osalise vahelise valitseva m&otilde;ju iseloomu ja teostamise vahendite kohta .</s>
+</p>
+<p>
+<s>( 2 ) Lisaks l&otilde;ikes 1 nimetatud teabele esitatakse andmed :</s>
+</p>
+<p>
+<s>1 ) iga koondumise osalise ja temaga samasse kontserni kuuluva ettev&otilde;tja kohta , kes kahe eelmise aasta jooksul on omandanud valitseva m&otilde;ju ettev&otilde;tjate &uuml;le , kes tegutsevad k&auml;esoleva m&auml;&auml;ruse &sect; 7 l&otilde;ikes 3 nimetatud kaubaturgudel ;</s>
+</p>
+<p>
+<s>2 ) iga koondumise osalise ja temaga samasse kontserni kuuluva ettev&otilde;tja kohta , kellel on v&auml;hemalt 10 protsendiline osalus ettev&otilde;tjas , kes tegutseb k&auml;esoleva m&auml;&auml;ruse &sect; 7 l&otilde;ikes 3 nimetatud kaubaturgudel ;</s>
+</p>
+<p>
+<s>3 ) iga koondumise osalise ja temaga samasse kontserni kuuluva ettev&otilde;tja juhtimisorganite liikmete kohta , kes kuuluvad m&otilde;ne teise ettev&otilde;tja juhtimisorganitesse , kes tegutseb k&auml;esoleva m&auml;&auml;ruse &sect; 7 l&otilde;ikes 3 nimetatud kaubaturgudel .</s>
+</p>
+<p>
+<s>( 3 ) Teates esitatakse iga l&otilde;ikes 1 ja 2 nimetatud ettev&otilde;tja &auml;rinimi ja l&otilde;ike 2 punktis 3 nimetatud juhtimisorgani liikme nimi ja ametikoht .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Andmed kaubaturgude kohta</s>
+</p>
+<p>
+<s>( 1 ) Esitatakse andmed kaubaturgude kohta , mis v&otilde;imaldavad kindlaks m&auml;&auml;rata need tooted ja teenused , mis konkureerivad v&otilde;i v&otilde;ivad konkureerida koondumise osaliste poolt valmistatud , hangitud v&otilde;i tarnitud kaupade ja teenustega .</s>
+</p>
+<p>
+<s>( 2 ) Andmed esitatakse l&auml;htudes &ldquo; Konkurentsiseaduse &rdquo; &sect;-s 3 s&auml;testatud kaubaturu m&otilde;istest .</s>
+</p>
+<p>
+<s>( 3 ) Esitatakse andmed kaubaturgude kohta , mida koondumine m&otilde;jutab ( edaspidi m&otilde;jutatud kaubaturud ) , j&auml;rgnevalt :</s>
+</p>
+<p>
+<s>1 ) iga kaubaturu kohta , kus tegutseb v&auml;hemalt kaks koondumise osalist v&otilde;i nendega samasse kontserni kuuluvat ettev&otilde;tjat ning koondumine viib v&auml;hemalt 15 protsendilise turuosani ( horisontaalsed suhted ) ;</s>
+</p>
+<p>
+<s>2 ) iga kaubaturu kohta , kus tegutseb &uuml;ks koondumise osaline v&otilde;i temaga samasse kontserni kuuluv ettev&otilde;tja ning mis on tootmise v&otilde;i kauba turustamise eelneval v&otilde;i j&auml;rgneval tasandil seotud kaubaturuga , kus tegutseb koondumise teine osaline v&otilde;i temaga samasse kontserni kuuluv ettev&otilde;tja .</s><s>Andmed tuleb esitada , kui koondumise osaliste v&otilde;i nendega samasse kontserni kuuluvate ettev&otilde;tjate turuosad kokku on v&auml;hemalt 25 protsenti ( vertikaalsed suhted ) .</s>
+</p>
+<p>
+<s>( 4 ) Esitatakse andmed muude kaubaturgude kohta , mis on seotud l&otilde;ikes 3 s&auml;testatud kaubaturgudega .</s><s>Nimetatakse p&otilde;hjused , miks sellele kaubaturule kuuluvaid tooteid ei peaks arvestama l&otilde;ikes 3 nimetatud kaubaturgudel .</s>
+</p>
+<p>
+<s>( 5 ) Esitatakse hinnang iga m&otilde;jutatud kaubaturu mahu kohta rahaliselt ( realiseerimise netok&auml;ive ) ja koguseliselt viimase kolme aasta l&otilde;ikes ning antakse hinnang , kuidas iga m&otilde;jutatud kaubaturg v&otilde;iks areneda j&auml;rgnevatel aastatel .</s><s>Lisatakse teabe aluseks olevad dokumendid .</s>
+</p>
+<p>
+<s>( 6 ) Esitatakse hinnang iga l&otilde;ikes 4 nimetatud kaubaturu mahu kohta rahaliselt ( realiseerimise netok&auml;ive ) ja koguseliselt viimase kolme aasta l&otilde;ikes ning antakse hinnang , kuidas nimetatud kaubaturg v&otilde;iks areneda j&auml;rgnevatel aastatel .</s><s>Lisatakse teabe aluseks olevad dokumendid .</s>
+</p>
+<p>
+<s>( 7 ) Esitatakse andmed iga koondumise osalise ja temaga samasse kontserni kuuluva ettev&otilde;tja k&auml;ibe kohta igal m&otilde;jutatud kaubaturul rahaliselt ( realiseerimise netok&auml;ive ) ja koguseliselt ning antakse hinnang koondumise osalise ja temaga samasse kontserni kuuluva ettev&otilde;tja turuosa kohta igal m&otilde;jutatud kaubaturul viimase kolme aasta l&otilde;ikes .</s><s>Lisatakse teabe aluseks olevad dokumendid .</s>
+</p>
+<p>
+<s>( 8 ) Nimetatakse viis olulisemat konkurenti igal m&otilde;jutatud kaubaturul ning antakse hinnang nende turuosa kohta kolme viimase aasta l&otilde;ikes .</s><s>Kui v&otilde;imalik , nimetatakse iga konkurendi puhul tema &auml;rinimi , aadress , telefoni ja faksi number ning e-posti aadress , kontaktisiku nimi ja amet .</s><s>Lisatakse teabe aluseks olevad dokumendid .</s>
+</p>
+<p>
+<s>( 9 ) Esitatakse andmed viie olulisema kliendi kohta , kes ei kuulu koondumise osalisega samasse kontserni , igal m&otilde;jutatud kaubaturul .</s><s>Iga kliendi puhul nimetatakse &auml;rinimi , aadress , telefoni ja faksi number ning e-posti aadress , kontaktisiku nimi ja amet .</s><s>Samuti esitatakse andmed iga kliendi ostude osakaalu kohta l&otilde;ikes 7 m&auml;&auml;ratletud k&auml;ibest kolme viimase aasta l&otilde;ikes .</s>
+</p>
+<p>
+<s>( 10 ) Esitatakse andmed viie olulisema tarnija kohta , kes ei kuulu koondumise osalisega samasse kontserni , igal m&otilde;jutatud kaubaturul .</s><s>Iga tarnija puhul nimetatakse &auml;rinimi , aadress , telefoni ja faksi number ning e-posti aadress , kontaktisiku nimi ja amet .</s><s>Samuti esitatakse andmed iga tarnija tarnete osakaalu kohta iga koondumise osalise ja temaga samasse kontserni kuuluva ettev&otilde;tja hankest kokku igal m&otilde;jutatud kaubaturul kolme viimase aasta l&otilde;ikes .</s>
+</p>
+<p>
+<s>( 11 ) Esitatakse andmed v&auml;liskaubanduse osat&auml;htsuse kohta , sealhulgas antakse hinnang impordi ja ekspordi v&auml;&auml;rtuse kohta rahaliselt ( realiseerimise netok&auml;ive ) ja koguseliselt igal m&otilde;jutatud kaubaturul p&auml;ritolu- ja sihtkohamaa kohta eraldi .</s><s>Koondumise osalise ja temaga samasse kontserni kuuluvate ettev&otilde;tjate osat&auml;htsus impordis ja ekspordis .</s><s>Andmed esitatakse kolme viimase aasta l&otilde;ikes .</s><s>Samuti antakse hinnang kvootide , tollimaksude , transpordikulude ja muude seadusandlike tegurite m&otilde;ju kohta impordile .</s><s>Lisatakse teabe aluseks olevad dokumendid .</s>
+</p>
+<p>
+<s>( 12 ) Esitatakse andmed kaubaturule sisenemist ja sealt lahkumist m&otilde;jutavate tegurite kohta , sealhulgas :</s>
+</p>
+<p>
+<s>1 ) teate esitajale teadaolevate ettev&otilde;tjate kohta , kes on viimase kolme aasta jooksul alustanud &auml;ritegevust m&otilde;jutatud kaubaturgudel v&otilde;i ettev&otilde;tjate kohta , kes on sama aja jooksul sealt lahkunud ;</s>
+</p>
+<p>
+<s>2 ) asjaolude kohta , mis m&otilde;jutavad kaubaturule sisenemist ja sealt lahkumist .</s>
+</p>
+<p>
+<s>( 13 ) Esitatakse andmed &uuml;ldiste asjaolude kohta igal m&otilde;jutatud kaubaturul , sealhulgas :</s>
+</p>
+<p>
+<s>1 ) kaubaturu arengufaas , kaupade n&otilde;udluse ja pakkumise struktuur ja nende eeldatav areng j&auml;rgneva kolme aasta jooksul ;</s>
+</p>
+<p>
+<s>2 ) kaupade pakkumise turustuskanalid ja teenindusv&otilde;rgud ning vertikaalse koost&ouml;&ouml; laad ja ulatus ;</s>
+</p>
+<p>
+<s>3 ) klientide eelistuste ja tarbimisharjumuste t&auml;htsus ;</s>
+</p>
+<p>
+<s>4 ) klientide jagunemine erinevatesse r&uuml;hmadesse ja nende r&uuml;hmade iseloomulikud jooned ;</s>
+</p>
+<p>
+<s>5 ) avaliku sektori t&auml;htsus kliendina ;</s>
+</p>
+<p>
+<s>6 ) klientide ja tarnijate koondumise aste ja selle m&otilde;ju koondumise osalise tegevusvabadusele ;</s>
+</p>
+<p>
+<s>7 ) uurimist&ouml;&ouml; ja tootearenduse t&auml;htsus ja osakaal k&auml;ibest kaubaturul &uuml;ldiselt ja koondumise osalistel ;</s>
+</p>
+<p>
+<s>8 ) ainu&otilde;iguslike turustuslepingute ja teiste pikaajaliste lepingute t&auml;htsus ;</s>
+</p>
+<p>
+<s>9 ) kehtiv hinnatase igal m&otilde;jutatud kaubaturul v&otilde;rreldes geograafiliselt l&auml;hedaste kaubaturgude hinnatasemega ;</s>
+</p>
+<p>
+<s>10 ) muud asjaolud , mis on olulised koondumisele hinnangu andmisel .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Koondumise m&otilde;ju kaubaturule</s>
+</p>
+<p>
+<s>( 1 ) Esitatakse hinnang koondumise m&otilde;just m&otilde;jutatud kaubaturgudele .</s>
+</p>
+<p>
+<s>( 2 ) Esitatakse hinnang antud koondumisele ja p&otilde;hjendused , miks tuleks koondumisele luba anda .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Kuulumine ettev&otilde;tjate &uuml;hendustesse</s>
+</p>
+<p>
+<s>( 1 ) Nimetatakse kodu- ja v&auml;lismaised ettev&otilde;tjate &uuml;hendused , mille liikmeks on m&otilde;jutatud kaubaturul tegutsev koondumise osaline .</s>
+</p>
+<p>
+<s>( 2 ) L&otilde;ikes 1 nimetatud ettev&otilde;tjate &uuml;henduste kohta esitatakse nimi , aadress , telefoni ja faksi number , e-posti aadress ning kontaktisik .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Koondumisega seotud konkurentsipiirangud</s>
+</p>
+<p>
+<s>Teates nimetatakse koondumise j&otilde;ustamise aluseks olevates lepingutes v&otilde;i muudes dokumentides sisalduvad koondumisega otseselt seotud ja selle j&otilde;ustamiseks vajalikud konkurentsipiirangud nende esinemisel ja p&otilde;hjendus konkurentsipiirangute vajalikkuse kohta .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Muud koondumisega seotud asjaolud</s>
+</p>
+<p>
+<s>Muude koondumisega seotud asjaolude kohta esitatakse ettepanekud koondumisega otseselt seotud tingimuste ja kohustuste osas , kui antud koondumine v&otilde;ib tekitada v&otilde;i tugevdada turguvalitsevat seisundit , mis oluliselt kahjustab konkurentsi kaubaturul .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Teate esitamine</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Teate esitamine</s>
+</p>
+<p>
+<s>( 1 ) Konkurentsiametile esitatakse teade ja &ldquo; Konkurentsiseaduse &rdquo; &sect; 26 l&otilde;ikes 2 nimetatud dokumendid ( edaspidi lisatud dokumendid ) &uuml;hes eksemplaris .</s>
+</p>
+<p>
+<s>( 2 ) Teade peab sisaldama teavet vastavalt k&auml;esoleva m&auml;&auml;ruse 3. peat&uuml;ki s&auml;tetele .</s>
+</p>
+<p>
+<s>( 3 ) Teade ja sellele lisatud dokumendid esitatakse eesti keeles .</s><s>Kokkuleppel Konkurentsiametiga v&otilde;ib teatele lisatud dokumendid esitada m&otilde;nes muus keeles .</s>
+</p>
+<p>
+<s>( 4 ) Kokkuleppel Konkurentsiametiga v&otilde;ivad lisatud dokumendid olla &auml;rakirjad , mille vastavust originaalile kinnitab nende esitaja oma allkirjaga .</s><s>&Auml;rakirja esitamise korral on Konkurentsiametil &otilde;igus n&otilde;uda algdokumenti &auml;rakirja &otilde;igsuse kontrollimiseks .</s>
+</p>
+<p>
+<s>( 5 ) Koondumise osalise kirjaliku taotluse alusel v&otilde;ib Konkurentsiameti peadirektor v&otilde;i tema aset&auml;itja vastavalt &ldquo; Konkurentsiseaduse &rdquo; &sect; 26 l&otilde;ikele 8 vabastada koondumise osalise m&otilde;nede andmete ja dokumentide esitamise kohustusest , kui need ei ole vajalikud antud koondumise menetlemisel .</s>
+</p>
+<p>
+<s>( 6 ) Teatel peab olema selle esitamise kuup&auml;ev ja allkiri .</s><s>Teatele alla kirjutanud ettev&otilde;tja(te ) v&otilde;i isiku(te ) esindaja esitab oma volitusi t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 7 ) &Uuml;hisel teatamisel esitatakse &uuml;ks teade ning koondumise osalised volitavad end esindama &uuml;hel esindajal .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Teate esitamise kuup&auml;ev</s>
+</p>
+<p>
+<s>( 1 ) Teade loetakse esitatuks selle Konkurentsiametisse saabumise kuup&auml;eval , mis on fikseeritud Konkurentsiameti dokumendiregistris .</s>
+</p>
+<p>
+<s>( 2 ) Kui teade ja lisatud dokumendid ei vasta &ldquo; Konkurentsiseaduse &rdquo; &sect; 26 l&otilde;igetes 1 kuni 4 s&auml;testatud n&otilde;uetele ja k&auml;esolevale juhendile loetakse teade mitteesitatuks .</s>
+</p>
+<p>
+<s>( 3 ) Kui teates sisalduv teave ja lisatud dokumendid on mittet&auml;ielikud teatab Konkurentsiameti peadirektor v&otilde;i tema aset&auml;itja sellest teatajale kirjalikult ning v&otilde;ib m&auml;&auml;rata t&auml;htaja teate puuduste k&otilde;rvaldamiseks .</s><s>Sellisel juhul loetakse teade esitatuks kuup&auml;evast , mil kogu k&auml;esoleva m&auml;&auml;ruse 3. peat&uuml;kis s&auml;testatud teave ja lisatud dokumendid on saadud , v&auml;lja arvatud k&auml;esoleva m&auml;&auml;ruse &sect; 12 l&otilde;ikes 5 kirjeldatud juhul .</s>
+</p>
+<p>
+<s>( 4 ) Juhul , kui teates sisalduvates faktides on p&auml;rast teate esitamist toimunud muutused , tuleb sellest viivitamata Konkurentsiametile teatada .</s><s>Kui need muutused omavad olulist m&otilde;ju koondumise hindamisel , v&otilde;ib Konkurentsiamet lugeda teate esitatuks kuup&auml;evast , millal teade muutustest j&otilde;udis Konkurentsiametisse .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Teates sisalduvad &auml;risaladused</s>
+</p>
+<p>
+<s>( 1 ) Konkurentsiametil ei ole &otilde;igust ilma teate esitaja n&otilde;usolekuta avaldada teisele isikule teates ja sellele lisatud dokumentides sisalduvaid &auml;risaladusi ega neid avalikustada .</s>
+</p>
+<p>
+<s>( 2 ) Teate esitaja peab selgelt piiritlema teabe ja lisatud dokumendid , mida ta k&auml;sitleb &auml;risaladusena , tehes neile vastava m&auml;rke v&otilde;i esitades selle teabe eraldi lisana .</s><s>&Auml;risaladuseks ei loeta andmeid koondumise osaliste kohta , koondumise kirjeldust , andmeid koondumise osaliste eelmise majandusaasta k&auml;ibe kohta , andmeid koondumise osalistega samasse kontserni kuuluvate ettev&otilde;tjate ja ettev&otilde;tjate valitseva m&otilde;ju ja osaluse kohta teistes ettev&otilde;tjates .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>M&auml;&auml;ruse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Rahandusministri 24. septembri 1998. a m&auml;&auml;rus nr 80 &ldquo; Ettev&otilde;tjate &uuml;hinemisest teatamise juhendi kinnitamine &rdquo; ( RTL 1998 , 292/293 , 1192 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>M&auml;&auml;ruse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev m&auml;&auml;rus j&otilde;ustub 2001. aasta 1. oktoobril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

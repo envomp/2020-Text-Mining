@@ -1,0 +1,121 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Oraakli surm Arvustused</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 13160; s&otilde;nu: 1394</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Oraakli surm Arvustused</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=28></tagusage>
+         <tagusage gi=s occurs=107></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body>
+<div0 type='tervikteos'><head>Oraakli surm Arvustused</head>
+<p><bibl><author><s>Karen Orlau</s></author></bibl></p>
+<p> <s>Oraakel kartis . </s> <s> Oraakel kartis hullup&ouml;&ouml;ra , sest iga j&auml;rgmine etteaste oli raskem kui eelmine ja nii l&otilde;putult , nii juba aastaid . </s> <s> Aeg , mil ta kasvavale pingele vastu ei suuda seista ning murdub , oli hirmu&auml;ratavalt l&auml;hedal &mdash; vahest ehk mitte veel j&auml;rgmine kord aga juba &otilde;ige pea ... </s> <s> Ta tajus surma l&auml;hedust , tundes selle k&uuml;lma hinge&otilde;hku otse kuklas , endal liikmed j&auml;isest hingusest kangestumas . </s> </p>
+<p> <s>Vaikse alistumisega vaatas Oraakel lossi&otilde;uel k&otilde;rguvat platvormi : kitsast torni keset hiiglaslikku l&otilde;vipuuri . </s> <s> Ebakindlalt k&otilde;ikuvale platvormile mahtus &uuml;ks inimene h&auml;davaevu seisma ning sinna p&auml;&auml;ses ainult m&ouml;&ouml;da allalastavat silda . </s> <s> Kui kindlust k&uuml;lastas m&otilde;ni r&auml;ndr&uuml;&uuml;tel , lasti l&otilde;vitorni rippsild alla ning Oraakel viidi platvormile . </s> <s> Iga kord , kui Oraakel ennustuse l&otilde;petas ning r&uuml;&uuml;tel mineviku kohta kuuldu &otilde;igeks tunnistas , lasti rippsild uuesti alla ning ennustaja v&otilde;is v&auml;risevijalu platvormilt lahkuda . </s> <s> Nende kahe hetke vahele mahtus piinavalt pikk aeg , mil Oraakel , endal hirmuhigi m&ouml;&ouml;da n&auml;gu alla voolamas , s&otilde;nu ettevaatlikult ritta seadis , p&uuml;&uuml;des surmahirmust teravnenud meeltega r&auml;ndr&uuml;&uuml;tli n&auml;oilmest , liigutustest ja hoiakust v&auml;lja lugeda , mida peaks &uuml;tlema . </s> </p>
+<p> <s>K&otilde;igepealt p&uuml;&uuml;dis ta vaid vihjata &mdash; m&otilde;nikord oli kuulaja n&auml;ost selgelt n&auml;ha , millal ta t&otilde;de tabas , siis pidi vaid sobivaid seoseid leidma . </s> <s> Hirm tegi silmad selgeks ja m&otilde;tted kiireks ja seep&auml;rast oli r&auml;ndr&uuml;&uuml;tel peagi kui avatud raamat ta ees , tema p&ouml;&ouml;ras vaid lehti ja sai neile kirjutatud s&otilde;nadele h&auml;&auml;leks . </s> <s> Inimlike kirgede ja needuste maailm ei olnud ju eriti suur ning oh kui leidlikuks tegid need suured kr&auml;unuvad k&otilde;rbekassid platvormi all ... </s> </p>
+<p> <s>Teinekord aga n&auml;gi ta kuulaja liikumatust n&auml;ost v&auml;himagi tundevirve tabamiseks nii r&auml;nka vaeva , et kui ta l&otilde;puks s&otilde;rmed r&uuml;&uuml;tli raamatukaane vahele sai , tundis ta , et on &uuml;le noatera p&auml;&auml;senud . </s> <s> Siis oli ta h&auml;&auml;l ebakindel ja k&otilde;latu , kuid r&auml;ndr&uuml;&uuml;tel sulges siiski ennustuse l&otilde;ppedes n&otilde;usoleku m&auml;rgiks silmad ja lahkus vaikides &mdash; mingi ime l&auml;bi ei olnud Oraakel eksinud . </s> </p>
+<p> <s>Miks ei lasknud nad tal lihtsalt tulevikku ennustada ? ! </s> <s> Kui lihtne see oleks olnud ! </s> <s> Kui palju raskem oli m&ouml;&ouml;dunust r&auml;&auml;kida ... </s> <s> Ometi &ouml;eldi , et ei saa uskuda tulevikuennustust , kui Oraakel ei oska n&auml;ha minevikku . </s> <s> Ning oraaklil , kes v&auml;&auml;ratab , ei ole jumalikku valgust , petis aga on surma v&auml;&auml;rt ... </s> </p>
+<p> <s>Oraakel oli l&otilde;puks oma osaga leppinud : k&uuml;llap oligi temale m&auml;&auml;ratud pidada igap&auml;evast r&auml;nka v&otilde;itlust , andes inimestele usku jumala h&auml;&auml;lesse ning kandes h&auml;biv&auml;&auml;rse saladusena teadmist , kui ekslikud ja juhuslikud olid ta ennustused . </s> <s> Ta oli loobunud palumast jumalikku valgust ning lootis pimesi , et huupi &ouml;eldu oligi mingil arusaamatul viisil k&otilde;rgemalt poolt juhitud . </s> <s> Liiga r&auml;nk oleks olnud selles kahelda &mdash; ometi seisis ta iga kord , kui ennustust lausus , silmitsi t&otilde;ega , et ainsaks abimeheks oli ta enda n&otilde;der m&otilde;istus ning surmakartusest s&uuml;ndinud leidlikkus , seet&otilde;ttu ootas ta iga kord eheda hirmuhigiga , kas &ouml;eldu ikka &otilde;igeks kuulutatakse . </s> </p>
+<p> <s>Ja n&uuml;&uuml;d ratsutas too hallikspleekinud pleedi m&auml;hkunud kuivetu r&auml;ndur kantsiv&auml;ravast sisse , andis valdjale v&auml;&auml;rilise andami ning n&otilde;udis oraakli ennustust . </s> <s> R&auml;ndr&uuml;&uuml;tlid ei palu iialgi . </s> <s> Oraakel ei &uuml;tle kunagi ei ... </s> <s> Isegi mitte siis , kui k&uuml;lalise n&auml;gu on nagu raudkivist tahutud ning ta k&auml;ed on elutud nagu laibad k&otilde;rbeliival . </s> <s> Kui ta kilp ei kanna vappi ja ta r&otilde;ivad on &uuml;hegi tikandita , kui ta kaelas pole talismani ega s&otilde;rmedel s&otilde;rmuseid ning kui ta kulmude vahele ei ole p&otilde;letatud ta usutunnistust . </s> <s> Mida v&otilde;ib Oraakel &ouml;elda ? </s> <s> " Oled r&auml;ndur ja su selja taga on pikk teekond ... " </s> <s> Seda Oraakel l&otilde;vitorni &uuml;tlema l&auml;kski &mdash; mis edasi , sellest ei olnud tal aimugi . </s> <s> Oli vaid lootus , et ehk aitab juhus teda selgi korral ... </s> </p>
+<p> <s> " Oled r&auml;ndur ja su selja taga on pikk teekond , " lausus Oraakel , p&uuml;&uuml;des kitsukesel platvormil tasakaalu hoida . </s> <s> L&otilde;vid jooksid puuris rahutult ringi . </s> <s> Hoovi kogunenud &otilde;ukond kuulas hinge kinni pidades Oraakli iga s&otilde;na , sest tema suu l&auml;bi k&otilde;neles ju jumal . </s> </p>
+<p> <s>R&auml;ndr&uuml;&uuml;tel seisis vaikides , liikumatult nagu raidkuju . </s> <s> N&auml;is , et ka ta pikad tumedad juuksed j&auml;id tasasest k&otilde;rbetuulest puutumata ning et isegi ta riidevoldid olid tardunud . </s> <s> Higi voolas &uuml;le Oraakli otsaesise . </s> <s> Mitte midagi . </s> <s> Ta ei osanud mitte midagi &ouml;elda . </s> </p>
+<p> <s>&Otilde;ukond ootas . </s> <s> Oraakel otsis ikka veel ... </s> <s> Higinired valgusid ta p&ouml;etud kulmudelt silmisse ning ta pilgutas neid hirmunult , sest teraselt n&auml;ha oli ta ainus lootus . </s> <s> Ta uuris pingsalt r&uuml;&uuml;tli n&auml;ojooni , vahtis talle januse h&auml;bitusega otse silma , p&uuml;&uuml;des tabada mingitki virvendust . </s> <s> Vahepealne aeg tuli t&auml;ita lihtsamate oletustega , mida kuuldes &otilde;ukondlasedki k&otilde;veralt muigasid , kuid mis ometi valed ei saanud olla &mdash; vaja vaid &otilde;igesti s&otilde;nastada . </s> </p>
+<p> <s> " Sa kuuletud iseendale ja oma p&uuml;hendumisele " &mdash; see kehtis k&otilde;igi r&auml;ndr&uuml;&uuml;tlite kohta , nii et see ei saanud valesti minna . </s> </p>
+<p> <s> " Sa oled aja m&ouml;&ouml;dudes &otilde;ppinud vaikima , su &otilde;ppetund on olnud r&auml;nk ja j&auml;&auml;nud h&auml;sti meelde ... " </s> <s> Kui olukord polnuks nii t&otilde;sine , oleks Oraakel muianud , oma k&otilde;ige suuremat muret niiviisi enda kasuks p&ouml;&ouml;rates , kuid hetkel ei pannud ta irooniat isegi t&auml;hele . </s> <s> Sest see oli viimane asi , mida ta &ouml;elda oskas . </s> <s> Senini&ouml;eldu oli v&auml;&auml;rtusetu , t&auml;iesti v&auml;&auml;rtusetu . </s> <s> Ta t&otilde;mbas hetkeks hinge . </s> <s> Avas suu , et veel midagi lausuda , kuid m&otilde;tles siis &uuml;mber . </s> <s> Mitte kunagi varem ei olnud ta n&auml;inud n&auml;gu , mis oleks nii suletud ja ilmetu . </s> <s> Vaikus venis aina pikemaks . </s> <s> &Otilde;ukond hakkas rahutult nihelema . </s> <s> R&uuml;&uuml;tel seisis l&otilde;vipuuri ees ja ootas kannatlikult . </s> <s> Ta ei pilgutanud isegi silmi mitte . </s> </p>
+<p> <s>Siis Oraakel otsustas . </s> <s> Ta ei osanud rohkemat &ouml;elda , seep&auml;rast oli tal vaid &uuml;ksainus v&otilde;imalus : t&uuml;hjast tuulest tuld v&otilde;tta ja midagi kokku luuletada , tuginedes vaid muljele , mis tal s&uuml;ngelt vaikivast r&auml;ndajast oli . </s> <s> &Otilde;nnetuseks oli see mulje enam kui halb , k&auml;tkedes endas ka teravat k&auml;ttemaksujanu oma surmahirmu &mdash; ja v&otilde;ibolla ka surma &mdash; p&otilde;hjustaja vastu . </s> <s> Sel hetkel ta t&otilde;epoolest vihkas v&otilde;&otilde;rast r&uuml;&uuml;tlit . </s> </p>
+<p> <s>Oraakel alustas : </s> </p>
+<p> <s> " Su minevik on olnud rahutu , t&auml;is veriseid taplusi ning alatut reetmist . </s> <s> &Uuml;kski inimlik madalus ei ole sulle v&otilde;&otilde;ras . </s> <s> Su hing on kantsiks s&uuml;ngetele m&auml;lestustele , mis sind eales maha ei j&auml;ta . </s> <s> Sa oled oma s&otilde;jateel n&auml;inud nii palju kannatusi , et kaasinimeste valu j&auml;tab sind &uuml;ksk&otilde;ikseks . </s> <s> Seep&auml;rast oled sa alati &uuml;ksi , nii &uuml;ksi , et sa isegi ei oska enam loota kedagi enese k&otilde;rvale . </s> <s> Sa ei peatu kusagil k&uuml;llalt kaua , et seda kohta koduks nimetada , igavene rahutus ajab sind &uuml;ha edasi , sa h&uuml;ppad taas sadulasse ja s&otilde;idad , ilma et sa isegi teaks , kuhu ja misp&auml;rast ning millal sa kord taas peatud . </s> <s> Su sihitus on su eesm&auml;rk . </s> <s> Sinna , kust sa l&auml;bi oled r&auml;nnanud , j&auml;&auml;b maha &otilde;nnetus ning su nime tuletatakse needes meelde ... " </s> </p>
+<p> <s>Kohkunult kuulis &otilde;ukond Oraakli r&auml;nki s&otilde;nu , kuid too ei suutnud enam peatuda , sest tundis , et imel&uuml;hikeseks hetkeks ilmus r&uuml;&uuml;tli silmadesse tume s&auml;ratus , mis ta s&otilde;nad &otilde;igeks tunnistas . </s> <s> Seep&auml;rast , kiindudes pilguga kuulaja silmavaatesse , julges Oraakel selle h&auml;marust inimkeelde &uuml;mber panna . </s> <s> Ta tundis , et p&auml;&auml;semine ei olegi enam nii v&otilde;imatu : r&uuml;&uuml;tel oli ta vihast kantud ennustuse peaaegu &otilde;igeks kinnitanud . </s> </p>
+<p> <s> " Su relv on alati haljas ning kord m&otilde;&otilde;ga t&otilde;stnuna ei halasta sa eales seda taas langetades . </s> <s> Kuningad peavad sind hinnaliseks ning iga&uuml;ks tahab , et v&otilde;itleksid tema poolel . </s> <s> Sina ei tea aga pooltest ega s&otilde;jas&otilde;pradest , vaid v&otilde;itled ainu&uuml;ksi iseenda jaoks ja selle tasu eest , mida sa v&otilde;itjana saad . " </s> </p>
+<p> <s>&Otilde;ukond ahhetas : r&uuml;&uuml;tlid olid k&uuml;ll t&otilde;epoolest palgas&otilde;durid , kuid ... seda niiviisi n&auml;kku &ouml;elda ? </s> <s> Oraakel aga ei l&otilde;petanud ikka veel . </s> </p>
+<p> <s> " Su tulevik on l&otilde;putu r&auml;nnak , sa ei saa iial teada , mis on &otilde;nn ja rahu , eales ei aita sa kedagi ja eales ei aita sind keegi . </s> <s> R&otilde;&otilde;mud p&otilde;genevad sind n&auml;hes ning haarates s&auml;deluse j&auml;rgi , kustutad sa selle . </s> <s> Kui p&uuml;&uuml;ad midagi ehitada , siis variseb see liivaks . </s> <s> Sa eksled l&auml;bi elu kardetu ja neetuna . </s> <s> Kui sa kord h&auml;&auml;bud , siis s&uuml;nnib see nii r&auml;ngas &uuml;ksinduses , mida ei saa v&otilde;rrelda isegi mitte selle eraldatusega , mida sa elu jooksul tundma saad . " </s> </p>
+<p> <s>Oraakel v&auml;rises . </s> <s> Ta oli v&otilde;&otilde;ra silmis s&auml;hvatanud tumeduse l&auml;bi iseenese hirmu ja viha s&otilde;nadesse pannud ning lausunud needmise , mille &otilde;udus halvas kogu &otilde;ukonna . </s> <s> Ta oli s&uuml;&uuml;distanud r&uuml;&uuml;tlit ebainimlikes julmustes , m&otilde;istnud ta igavesse &uuml;ksindusse ... ja n&uuml;&uuml;d ootas ta seda , et r&uuml;&uuml;tel selle &otilde;igeks tunnistaks ... </s> </p>
+<p> <s>R&uuml;&uuml;tel seisis hoovi hingematvas vaikuses . </s> <s> K&otilde;igi pilgud olid tema poole p&ouml;&ouml;ratud . </s> <s> Oraakel ootas hingetuna otsust ... </s> <s> Kui k&otilde;ik , mis ta r&uuml;&uuml;tli kohta oli &ouml;elnud , oli t&otilde;epoolest t&otilde;si , siis ... oleks parem , kui ta oleks meelega valetanud . </s> </p>
+<p> <s>L&otilde;puks hakkas r&uuml;&uuml;tel k&otilde;nelema . </s> <s> Oraakel tundis , kuidas s&uuml;da j&auml;ttis l&ouml;&ouml;gi vahele , kui ta m&auml;rkas kuratlikku s&auml;delust r&uuml;&uuml;tli silmades . </s> </p>
+<p> <s> " Sa oled suur Oraakel , suurim , keda ma eales n&auml;inud olen , " &uuml;tles r&uuml;&uuml;tel ilmetul h&auml;&auml;lel . </s> <s> " L&auml;bi sinu suu k&otilde;neleb jumal . " </s> </p>
+<p> <s>&Otilde;ukond ahhetas , m&otilde;&otilde;tes r&uuml;&uuml;tlit &otilde;uduses pilkudega . </s> <s> Lausutud tunnustuse t&auml;hendus oli kurjakuulutav . </s> <s> R&uuml;&uuml;tli l&auml;hedus t&auml;itis neid hirmu- ja vastikustundega , nagu oleks ta laibas&ouml;&ouml;jast raisakull . </s> <s> M&otilde;ni heitunum joonistas j&otilde;um&auml;rke &otilde;hku , lootes kurje vaime eemale ajada , ammed peitsid lapsi selja taha , r&uuml;&uuml;tlid m&otilde;&otilde;tsid v&otilde;&otilde;rast &auml;hvardavate pilkudega , k&auml;mblad valvsana m&otilde;&otilde;gapidemeil . </s> </p>
+<p> <s>Oraakel ei suutnud aga oma k&otilde;rvu uskuda . </s> <s> Ta oli p&auml;&auml;senud ! </s> <s> Ta oli ka see kord p&auml;&auml;senud ! </s> </p>
+<p> <s>R&uuml;&uuml;tel ei olnud aga veel l&otilde;petanud : " Ma olen ekselnud igaviku , kuid ometi , kuigi mul ei ole &uuml;hte kindlat eesm&auml;rki , on mul eesm&auml;rgid . </s> <s> Siiski . </s> <s> Uskuge ! " </s> </p>
+<p> <s>Kibeda naeratusega vaatas ta Oraaklile otsa , justkui kaheldes , kas suudab teda veenda . </s> <s> Siis &uuml;tles ta ohates : " Ma olen surm . </s> <s> Ma tulin sulle j&auml;rele . " </s> </p> </div0> </body> </text> 

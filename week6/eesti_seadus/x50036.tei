@@ -1,0 +1,739 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika ( sept 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    5012</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika ( sept 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=cell occurs=335></tagusage>
+         <tagusage gi=hi occurs=15></tagusage>
+         <tagusage gi=lb occurs=284></tagusage>
+         <tagusage gi=p occurs=207></tagusage>
+         <tagusage gi=row occurs=83></tagusage>
+         <tagusage gi=s occurs=265></tagusage>
+         <tagusage gi=table occurs=4></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika <hi rend="sup">1</hi></s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;rus nr 411</s>
+</p>
+<p>
+<s>( RT I 2000 , 94 , 606 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 15. detsembril 2000. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise m&auml;&auml;rusega :</s>
+</p>
+<p>
+<s>03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 197.</s>
+</p>
+<p>
+<s>M&auml;&auml;rus kehtestatakse &ldquo; Telekommunikatsiooniseaduse &rdquo; ( RT I 2000 , 18 , 116 ; 78 , 495 ) &sect; 53 l&otilde;ike 6 alusel .</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>Metoodika &uuml;ldp&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>M&auml;&auml;ruse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;rusega kehtestatakse kulude omistamise ja kulude arvestamise metoodika telefoni- , p&uuml;siliini- v&otilde;i sidumisteenuse turul olulise turuj&otilde;uga ettev&otilde;tjast &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatori poolt , kes osutab telefoni- , p&uuml;siliini- v&otilde;i sidumisteenust .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;rus rakendub telefoni- , p&uuml;siliini- v&otilde;i sidumisteenuse turul &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 8 kohaselt Sideameti poolt olulise turuj&otilde;uga ettev&otilde;tjaks ( edaspidi OTE ) tunnistatud &uuml;ldkasutatava telekommunikatsiooniv&otilde;rgu operaatori suhtes .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolev OTE poolt kulude arvestamise ja kulude omistamise metoodika ( edaspidi metoodika ) on koosk&otilde;las Euroopa Komisjoni soovitustega . <hi rend="sup">2</hi></s>
+</p>
+<p>
+<s>( 4 ) Metoodika n&otilde;uded p&otilde;hinevad OTE erinevate &auml;rivaldkondade kulude arvestamise lahususel .</s><s>Aruandluss&uuml;steemis peavad olema eristatud OTE erinevad &auml;rivaldkonnad , mis on defineeritud m&auml;&auml;ruse &sect; 2 l&otilde;ikes 4 , sealhulgas tuleb ka eristada erinevaid kuluelemente seoses erinevate tegevustega , tagades transferthindade selguse ja kulup&otilde;hisuse .</s>
+</p>
+<p>
+<s>( 5 ) Lisaks metoodika n&otilde;uetele tuleb OTE-l arvestada ka &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 51 l&otilde;ike 7 alusel Vabariigi Valitsuse kehtestatud p&uuml;siliini- ja sidumisteenuse tasude arvestamise metoodikat ja selle p&otilde;him&otilde;tteid .</s>
+</p>
+<p>
+<s>( 6 ) Metoodikas on toodud OTE kuluarvestuss&uuml;steemi v&auml;ljat&ouml;&ouml;tamise &uuml;ldp&otilde;him&otilde;tted .</s><s>Kulude omistamist puudutavate spetsiifiliste k&uuml;simuste &uuml;le peab otsustama OTE , konsulteerides vajaduse korral Sideametiga .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&otilde;isted</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;lekandev&otilde;rk kuluarvestuse t&auml;henduses on telekommunikatsiooniv&otilde;rgu osa , mis &uuml;hendab telefonijaamu v&otilde;i juurdep&auml;&auml;suv&otilde;rke ning mis algab signaali algatajale l&auml;hima telefoniv&otilde;rgus&otilde;lme tarbijaliidese v&auml;ljundis ja l&otilde;peb sama telefoniv&otilde;rgu signaali l&otilde;petava telefoniv&otilde;rgus&otilde;lme tarbijaliidese v&auml;ljundis v&otilde;i sidumispunktis .</s><s>Tarbijaliidese tehniline m&otilde;iste on s&auml;testatud &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 4 l&otilde;ike 5 alusel kehtestatud &otilde;igusaktis .</s>
+</p>
+<p>
+<s>( 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 197 )</s>
+</p>
+<p>
+<s>( 2 ) Eriteenuste v&otilde;rk t&auml;hendab k&auml;esolevas m&auml;&auml;ruses mitte-&uuml;ldkasutatavat telekommunikatsiooniv&otilde;rku , mida kasutatakse eriteenuste osutamiseks ja millele esitatakse erin&otilde;udeid , nagu t&auml;iendavad turvan&otilde;uded , t&auml;iendavad operatiivsusn&otilde;uded jms ning millel on piiratud kasutus&otilde;igus .</s>
+</p>
+<p>
+<s>( 3 ) Faktooring on suunatud teenuste m&uuml;&uuml;jatele ning p&otilde;hineb v&otilde;lan&otilde;uete , mille makset&auml;htaeg ei ole veel saabunud , teatud tasu eest loovutamisel finantseerimisasutusele .</s>
+</p>
+<p>
+<s>( 4 ) Omistatavad kulud t&auml;hendavad k&auml;esolevas m&auml;&auml;ruses otsekulusid , otseselt omistatavaid kulusid ja kaudselt omistatavaid kulusid .</s>
+</p>
+<p>
+<s>( 5 ) Teenuse osutamine tarbijale ( edaspidi jaem&uuml;&uuml;k ) kui &auml;rivaldkond k&auml;esoleva m&auml;&auml;ruse t&auml;henduses on telefoniteenuse osutamine tarbijale .</s><s>Sellele valdkonnale omistatavad kulud sisaldavad &uuml;lekandev&otilde;rgu ja juurdep&auml;&auml;suv&otilde;rgu kasutamise transferthindu , samuti tarbijaga seotud turunduse ja arvelduskulusid .</s>
+</p>
+<p>
+<s>( 6 ) &Auml;rivaldkonnad k&auml;esoleva m&auml;&auml;ruse t&auml;henduses on &uuml;lekandev&otilde;rguga seotud teenuste osutamine , juurdep&auml;&auml;suv&otilde;rguga seotud teenuste osutamine , teenuste osutamine tarbijale ja muud tegevused .</s>
+</p>
+<p>
+<s>( 7 ) Telekommunikatsiooniv&otilde;rgu l&otilde;pp-punkt ( edaspidi l&otilde;pp-punkt ) on telekommunikatsiooniv&otilde;rgu f&uuml;&uuml;siliselt m&auml;&auml;ratletav punkt , kus on telekommunikatsiooniteenuse kasutajale loodud juurdep&auml;&auml;s v&otilde;i v&otilde;imalus juurdep&auml;&auml;suks telekommunikatsiooniv&otilde;rgule .</s>
+</p>
+<p>
+<s>( 8 ) Juurdep&auml;&auml;suv&otilde;rk kuluarvestuse t&auml;henduses on telekommunikatsiooniv&otilde;rgu osa l&otilde;pp-punkti ja sellele l&auml;hima telefonijaama vahel .</s><s>Juurdep&auml;&auml;suv&otilde;rk algab telefoniv&otilde;rgu l&otilde;pp-punktis asuva jaotusseadme tarbijapoolsetelt klemmidelt ja l&otilde;peb l&otilde;pp-punktile l&auml;hima telefoniv&otilde;rgus&otilde;lme tarbijaliidese v&auml;ljundklemmidel .</s><s>Jaotusseadme tehniline m&otilde;iste on s&auml;testatud &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 4 l&otilde;ike 5 alusel kehtestatud &otilde;igusaktis .</s>
+</p>
+<p>
+<s>( 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 197 )</s>
+</p>
+<p>
+<s>( 9 ) Kuluk&auml;itur on p&otilde;hjuslik tegur , mis m&otilde;jutab kulusid .</s><s>Kuluk&auml;iturid jagunevad mahup&otilde;histeks ja tegevusp&otilde;histeks .</s>
+</p>
+<p>
+<s>( 10 ) Kulukogum ( cost pool ) on kulude grupp , mille k&auml;itumise m&auml;&auml;rab &uuml;ks ja sama kuluk&auml;itur .</s>
+</p>
+<p>
+<s>( 11 ) Kuluarvestus jooksevhindades ( current cost accounting - CCA ) on kuluarvestusbaas kiiresti muutuva majanduskeskkonna jaoks , kui kuluarvestus ajaloolistes hindades ( historical cost accounting - HCA ) ei anna adekvaatseid tulemusi .</s>
+</p>
+<p>
+<s>( 12 ) Muud tegevused on &auml;rivaldkond , kuhu kuuluvad k&otilde;ik &uuml;lej&auml;&auml;nud teenused , mis ei ole seotud &uuml;lekandev&otilde;rgus , juurdep&auml;&auml;suv&otilde;rgus ega jaem&uuml;&uuml;gis osutatavate teenustega .</s>
+</p>
+<p>
+<s>( 13 ) Transferthind ehk &uuml;lekandmishind on arvestuslik hind teenuse osutamise eest ettev&otilde;ttesiseselt &uuml;helt majandus&uuml;ksuselt teisele majandus&uuml;ksusele .</s>
+</p>
+<p>
+<s>( 14 ) V&otilde;rguseadmed on telekommunikatsiooniv&otilde;rgu osad : &uuml;lekandes&uuml;steem koos selle juurde kuuluvate l&uuml;litusseadmetega , muud abis&uuml;steemid ja rajatised , mis v&otilde;imaldavad telekommunikatsiooniv&otilde;rgu kindlaksm&auml;&auml;ratud l&otilde;pp-punktide ja sidumispunktide vahel elektriliste v&otilde;i elektromagnetiliste signaalide edastamist kaabli kaudu , raadio , optiliste v&otilde;i muude vahenditega .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kulude omistamine</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Kulude omistamise p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Kulude omistamise protsess peab p&otilde;hinema kulude p&otilde;hjusliku seose anal&uuml;&uuml;sil , mille alusel peab kulud omistama nendele teenustele ja toodetele , mis on p&otilde;hjustanud nende kulude tekkimise .</s><s>Selleks peab kasutusele v&otilde;tma tegevusp&otilde;hise kuluarvestuse ( activity based costing - ABC ) printsiibid , mille n&auml;ide on toodud lisas 6.</s>
+</p>
+<p>
+<s>( 2 ) P&otilde;hjuslikkuse n&otilde;ue kulude omistamisel n&otilde;uab OTE-lt kohase ja detailse kulude jaotamise metoodika kehtestamist oma kuluarvestuss&uuml;steemis , milleks on vaja :</s>
+</p>
+<p>
+<s>1 ) iga kulu- ja tuluartikli ning kapitali kasutuse omistamise anal&uuml;&uuml;si ;</s>
+</p>
+<p>
+<s>2 ) k&auml;ituri m&auml;&auml;ratlemist , mis on aluseks kulude omistamisel ;</s>
+</p>
+<p>
+<s>3 ) m&auml;&auml;ratletud k&auml;ituri kasutamist kuluartiklite omistamisel ;</s>
+</p>
+<p>
+<s>4 ) kulude , mida ei ole v&otilde;imalik p&otilde;hjuslikkuse seosest l&auml;htuvalt omistada , koondamist eraldi kulukogumisse .</s>
+</p>
+<p>
+<s>( 3 ) Kulude omistamisel peab j&auml;lgima kolme p&otilde;hiprintsiipi :</s>
+</p>
+<p>
+<s>1 ) selgus : OTE peab avaldama t&auml;iendatud versiooni oma kulude omistamise metoodikast , kui selles tehakse olulisi muudatusi .</s><s>OTE teavitab muudatuste tegemisest Sideametit v&auml;hemalt 10 kalendrip&auml;eva ette ;</s>
+</p>
+<p>
+<s>2 ) j&auml;rjepidevus : samu omistamise p&otilde;him&otilde;tteid tuleb kasutada aastast aastasse .</s><s>Kui tehakse muudatusi , peab OTE &uuml;mber arvestama ka eelneva aasta aruanded uute p&otilde;him&otilde;tete alusel ;</s>
+</p>
+<p>
+<s>3 ) olulisus : spetsiaalsete omistamisp&otilde;him&otilde;tete kasutamine ei ole vajalik , kui nende kasutamisest tulenev m&otilde;ju v&auml;ljundile ei ole oluline .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Kulude liigitamine</s>
+</p>
+<p>
+<s>( 1 ) Kulud jagunevad mitme toote ja teenuse vahel .</s><s>Iga kuluartikkel kuulub &uuml;hte j&auml;rgmistest kategooriatest :</s>
+</p>
+<p>
+<s>1 ) operatiivkulud ehk otsesed kulud ( direct and directly attributable costs ) on kulud , mida saab otse ja &uuml;heselt seostada mingi teenuse v&otilde;i tootega ning mis on kajastatud OTE aruandluss&uuml;steemis mingi toote v&otilde;i teenuse tootmiskuludena ;</s>
+</p>
+<p>
+<s>2 ) kaudselt omistatavad kulud ( edaspidi kaudkulud ) ehk tootmise &uuml;ldkulud ( indirectly attributable costs ) , mille kohta kasutatakse ka terminit pool-otsekulud ( semidirect costs ) , mille hulka kuuluvad ka &uuml;hiskulud ( joint costs ) , on kulud , mida saab siduda teenuse v&otilde;i tootega , kasutades vastavat kuluk&auml;iturit ;</s>
+</p>
+<p>
+<s>3 ) adresseerimatud kulud ( edaspidi &uuml;ldkulud ) ( unattributable costs ) on kulud , mida ei saa toote v&otilde;i teenusega seostada ei otseselt ega kaudselt , mist&otilde;ttu neid kulusid ei saa omistada toodetele v&otilde;i teenustele p&otilde;hjuslikkuse seose alusel .</s><s>&Uuml;ldkulud tuleb kuluaruandes selgelt identifitseerida ja esitada sama aruande eraldi kirjetel .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;ldkulude omistamiseks toodetele ning teenustele kasutatakse peamiselt j&auml;rgmisi meetodeid :</s>
+</p>
+<p>
+<s>1 ) brutotulu meetod - k&auml;ibe alusel omistamine , kus &uuml;ldkulud omistatakse teenustele vastavalt mingi teenuse k&auml;ibeosa proportsioonile koguk&auml;ibes ;</s>
+</p>
+<p>
+<s>2 ) netotulu meetod - &uuml;ldkulud omistatakse toodetele ja teenustele vastavalt mingi teenuse panusele netotulusse ;</s>
+</p>
+<p>
+<s>3 ) jaotatavate kulude meetod - &uuml;ldkulud omistatakse jaotatavate kuludega* samas proportsioonis .</s>
+</p>
+<p>
+<s>( 3 ) Detailsete ja l&auml;bipaistvate teenuste omahinna kalkuleerimiseks peab k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 2 nimetatud kaudkulusid omistama ABC p&otilde;him&otilde;tetest l&auml;htuvalt .</s><s>ABC-l p&otilde;hineva kaudkulude omistamise printsiibid on toodud lisas 6.</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 1 punktis 3 nimetatud &uuml;ldkulud peab omistama k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 3 esitatud jaotatavate kulude meetodil .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Kulude omistamise protsess</s>
+</p>
+<p>
+<s>( 1 ) Kulude omistamisel peab l&auml;htuma lisas 1 toodud kulude omistamise etappidest , mida v&otilde;ib vajaduse korral detailiseerida .</s>
+</p>
+<p>
+<s>( 2 ) Kuluarvestuslik informatsioon , mis sisaldub kulu- ja finantsaruannetes , tuleb jaotada operatiivkulusid ja kapitalikulusid puudutavaks informatsiooniks ning raamatupidamiskirjeteks .</s>
+</p>
+<p>
+<s>( 3 ) Kulusid peab omistama j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) telekommunikatsiooniteenustele omistatakse kulud , mida saab otseselt siduda konkreetse telekommunikatsiooniteenusega ;</s>
+</p>
+<p>
+<s>2 ) v&otilde;rgukomponentidele omistatakse kulud , mis seonduvad mitme teenusega , mis k&otilde;ik kasutavad antud v&otilde;rgukomponenti ning seet&otilde;ttu ei saa neid otse konkreetsele teenusele kanda ;</s>
+</p>
+<p>
+<s>3 ) seotud funktsioonidele omistatakse erinevate funktsioonide t&auml;itmiseks sooritatavate tegevuste kulud , mis on vajalikud teenuse osutamiseks ;</s>
+</p>
+<p>
+<s>4 ) muudele funktsioonidele omistatakse erinevate tegevuste kulud , mis ei ole seotud konkreetse teenuse osutamisega , kuid on olulised ettev&otilde;tte edasiseks funktsioneerimiseks .</s>
+</p>
+<p>
+<s>( 4 ) Kulude omistamine toimub j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) muude funktsioonide t&auml;itmisega seotud kulude omistamine seotud funktsioonidele , v&otilde;rgukomponentidele ja teenustele ;</s>
+</p>
+<p>
+<s>2 ) seotud funktsioonide t&auml;itmisega tekkinud kulude omistamine v&otilde;rgukomponentidele ja teenustele ;</s>
+</p>
+<p>
+<s>3 ) v&otilde;rgukomponentide kulude ja teenuste otsekulude omistamine teenustele ;</s>
+</p>
+<p>
+<s>4 ) erinevate teenuste kulude omistamine neljale &auml;rivaldkonnale - &uuml;lekandev&otilde;rgu&auml;rile , juurdep&auml;&auml;suv&otilde;rgu&auml;rile , jaem&uuml;&uuml;gile ja muudele tegevustele .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Operatiivkulude liigitus</s>
+</p>
+<p>
+<s>( 1 ) Operatiivkulude liigitus on j&auml;rgmine :</s>
+</p>
+<p>
+<s>1 ) amortisatsioon ;</s>
+</p>
+<p>
+<s>2 ) varustamise , paigaldamise ja hoolduskulud ;</s>
+</p>
+<p>
+<s>3 ) v&otilde;rgu planeerimis- ja arenduskulud ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;rgu juhtimiskulud ;</s>
+</p>
+<p>
+<s>5 ) marketingi- ja m&uuml;&uuml;gikulud ;</s>
+</p>
+<p>
+<s>6 ) faktooringu- ja inkassokulud ;</s>
+</p>
+<p>
+<s>7 ) operaatorteenuse kulud ;</s>
+</p>
+<p>
+<s>8 ) teatmike v&auml;ljaandmisega seotud kulud ;</s>
+</p>
+<p>
+<s>9 ) maksed teistele operaatoritele ;</s>
+</p>
+<p>
+<s>10 ) muud operatiivkulud .</s>
+</p>
+<p>
+<s>( 2 ) Lisas 2 kajastatakse eespool nimetatud operatiivkulusid , kohustuslikke meetodeid nende omistamiseks ja valdkondi , kuhu neid peab omistama .</s><s>Toodud jaotust v&otilde;ib vajaduse korral t&auml;iendada ja all-liigendada .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kapitali hind ja kapitali kasutuse omistamine</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kapitali hinna arvestamine</s>
+</p>
+<p>
+<s>( 1 ) Kapitali hinda peab kohaldama vastavalt kapitali kasutusele v&otilde;rgukomponentides ja muudes seotud varades .</s>
+</p>
+<p>
+<s>( 2 ) OTE kapitali kaalutud keskmine hind peegeldab v&otilde;rgukomponentidesse ja muudesse seotud varadesse investeeritud fondide alternatiivkulu j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) v&otilde;&otilde;rkapitali kaalutud keskmine hind ;</s>
+</p>
+<p>
+<s>2 ) omakapitali kaalutud keskmine hind kui omanike n&otilde;utav tulunorm investeeringute eest ettev&otilde;ttesse antud riskitaseme juures ;</s>
+</p>
+<p>
+<s>3 ) v&otilde;&otilde;rkapitali ja omakapitali proportsioonid kogukapitalis .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Kapitali hinna arvutamine</s>
+</p>
+<p>
+<s>( 1 ) WACC-i arvutamine on kohustuslik kapitali hindamiseks erinevate v&otilde;rgukomponentide ja muude seotud varade jaoks , eesm&auml;rgiga tuletada tulum&auml;&auml;ra , mida tahetakse saada sidumisteenuse tasude kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Omades &sect; 7 l&otilde;ikes 2 toodud informatsiooni , saab leida ettev&otilde;tte kapitali kaalutud keskmise hinna ( weighted average cost of capital - WACC ) valemiga :</s>
+</p>
+<p>
+<s>WACC = r <hi rend="sub"> e </hi> &times;E/(D+E ) &times;1/(1-T <hi rend="sub"> d </hi> ) &times;d <hi rend="sub"> v </hi> +r <hi rend="sub"> d </hi> &times;D/(D+E ) &times;(1-T ) ,</s>
+</p>
+<p>
+<s>kus :</s>
+</p>
+<p>
+<s>r <hi rend="sub"> e </hi> on omakapitali hind ( % ) ;</s>
+</p>
+<p>
+<s>r <hi rend="sub"> d </hi> on v&otilde;&otilde;rkapitali hind ( % ) ;</s>
+</p>
+<p>
+<s>E on omakapitali maht ( EEK ) ;</s>
+</p>
+<p>
+<s>D on v&otilde;&otilde;rkapitali maht ( EEK ) ;</s>
+</p>
+<p>
+<s>T on tulumaksum&auml;&auml;r ( % ) ;</s>
+</p>
+<p>
+<s>T <hi rend="sub"> d </hi> on tulumaks dividendidelt ( % ) ;</s>
+</p>
+<p>
+<s>d <hi rend="sub"> v </hi> on dividendide v&auml;ljamaksekordaja .</s>
+</p>
+<p>
+<s>( 3 ) WACC-i formeerimisel v&otilde;ib vajadusel olla ka rohkem tegureid .</s><s>Erinevate tegevuste eest n&otilde;utakse erinevaid riskipreemiaid , mis peegeldub erinevates omakapitali hindades r <hi rend="sub"> e </hi> , isegi siis , kui finantsstruktuur on sama .</s><s>Oluliste erinevuste puhul riskiastmes valdkonniti tuleb kasutada erinevat WACC-i .</s><s>Sidumisteenuse puhul kasutatakse teenust osutava ettev&otilde;tte &uuml;ldist kapitali hinda .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Kapitali jaotamine</s>
+</p>
+<p>
+<s>Hinna kujundamise eesm&auml;rgil peab kasutama kapitali kvartali kaalutud keskmist n&auml;itajat , mitte kapitali kasutuse m&auml;&auml;ra mingil ajahetkel .</s><s>Lisas 3 kirjeldatakse kapitalikasutuse kohustuslikke omistamise meetodeid , mida OTE v&otilde;ib vastavalt vajadusele all-liigendada .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Jooksevhindades kuluarvestuse aruandlus</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Amortisatsioon ja jooksevhindades kuluarvestus</s>
+</p>
+<p>
+<s>( 1 ) Amortisatsiooni hindamine ja omistamine sisaldab kolme olulist faktorit :</s>
+</p>
+<p>
+<s>1 ) tulutoovate varade maksumust ;</s>
+</p>
+<p>
+<s>2 ) varade oodatava majanduslikult kasuliku kasutusea kestust ;</s>
+</p>
+<p>
+<s>3 ) vara prognoositavat j&auml;&auml;kv&auml;&auml;rtust majanduslikult kasuliku kasutusea l&otilde;ppemisel .</s>
+</p>
+<p>
+<s>( 2 ) &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 51 l&otilde;ikes 7 nimetatud tulevastest pikaajalistest keskmistest lisanduvatest kuludest ( LRAIC ) l&auml;htuval metoodikal p&otilde;hinev kuluarvestuss&uuml;steem kasutab tegevustel baseeruvat jooksevkulude omistamist .</s><s>Varasid hinnatakse turuv&auml;&auml;rtuses ning amortisatsiooni ja kapitali kasutust kajastatakse jooksevhindades .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Varade v&auml;&auml;rtuse hindamine</s>
+</p>
+<p>
+<s>( 1 ) Varade v&auml;&auml;rtuse hindamisel peab l&auml;htuma j&auml;rgmistest p&otilde;him&otilde;tetest :</s>
+</p>
+<p>
+<s>1 ) puhas asendusv&auml;&auml;rtus ( net replacement cost ) on kulu , mis tuleb teha vara asendamiseks teise varaga , mis on samade omaduste ja eaga .</s><s>Kui vara ei saa asendada samasugusega , tuleb kalkuleerida kaasaegse samav&auml;&auml;rse vara ( modern equivalent asset - MEA ) v&auml;&auml;rtus , mille korral asendusvara funktsioneerib samal tasemel , aga v&otilde;ib uue tehnoloogia t&otilde;ttu omada tunduvalt suuremat erinevust hinnas ;</s>
+</p>
+<p>
+<s>2 ) vara loobumisv&auml;&auml;rtus ( deprival value - DV ) v&auml;ljendab OTE vara taastamisv&auml;&auml;rtust , milleks on kas vara majanduslik v&otilde;i puhas realiseerimisv&auml;&auml;rtus ( net realisable value - NRV ) , olenevalt sellest , milline neist on suurem ;</s>
+</p>
+<p>
+<s>3 ) vara majanduslik v&auml;&auml;rtus ( economic value - EV ) arvutatakse varast saadavate tulevaste rahavoogude n&uuml;&uuml;disv&auml;&auml;rtusena .</s>
+</p>
+<p>
+<s>( 2 ) Vara hindamismeetodi reegel on j&auml;rgmine :</s>
+</p>
+<p>
+<s>1 ) kui EV on suurem kui NRV , siis OTE hoiab vara kasutuses edasi ;</s>
+</p>
+<p>
+<s>2 ) kui NRV on suurem kui EV , siis ettev&otilde;te m&uuml;&uuml;b vara kohe .</s>
+</p>
+<p>
+<s>( 3 ) Vara loobumisv&auml;&auml;rtus on kas majanduslik v&auml;&auml;rtus v&otilde;i puhas realiseerimisv&auml;&auml;rtus , olenevalt sellest , milline neist on suurem .</s><s>Vara jooksevkulu on madalaim puhtast asendusv&auml;&auml;rtusest v&otilde;i vara loobumisv&auml;&auml;rtusest .</s><s>K&auml;esolevas paragrahvis kirjeldatud varade hindamise etapid on toodud lisas 4.</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kohandused jooksva kuluaruandluse raames</s>
+</p>
+<p>
+<s>( 1 ) Jooksevhindades kuluaruandlusel on j&auml;rgmised kontseptsioonid :</s>
+</p>
+<p>
+<s>1 ) k&auml;ibekapitali s&auml;ilitamine ( operating capital maintenance - OCM ) arvestab OTE l&uuml;hiajalist likviidsust .</s><s>Kapitali teenindamine sellise l&auml;henemise korral n&otilde;uab OTE-lt l&uuml;hiajalise likviidsuse sama suurt olemasolu perioodi l&otilde;pus , kui oli perioodi alguses ;</s>
+</p>
+<p>
+<s>2 ) finantskapitali s&auml;ilitamine ( financial capital maintenance - FCM ) arvestab , et OTE finantskapitali on s&auml;ilitatud jooksevhindade alusel .</s><s>Eeldatakse kapitali s&auml;ilitamist nii , et perioodi l&otilde;pul on aktivaomanike vara samal tasemel kui perioodi alguses .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;leminek t&auml;ielikult jaotatavatelt ajaloolistelt kuludelt ( t&auml;isomahinna meetod ) &ldquo; Telekommunikatsiooniseaduse &rdquo; &sect; 51 l&otilde;ikes 7 nimetatud LRAIC metoodikale , mis on aluseks p&uuml;siliini- ja sidumisteenuse tasum&auml;&auml;rade m&auml;&auml;ramisele , n&otilde;uab varade hindamist nende turuv&auml;&auml;rtuses , see t&auml;hendab jooksevkulude leidmist .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>K&auml;ibekapitali s&auml;ilitamise peamised kohandused</s>
+</p>
+<p>
+<s>( 1 ) OCM kontseptsioon l&auml;htub OTE tootliku v&otilde;imsuse s&auml;ilitamisest .</s><s>Oluline on p&otilde;hivarade &uuml;mberhindamine jooksevhindadesse .</s><s>T&auml;nu &uuml;mberhindlusele on vajalikud t&auml;iendavad kohandused , et &uuml;mber arvestada amortisatsioonisummad .</s>
+</p>
+<p>
+<s>( 2 ) OCM puhul hinnatakse &uuml;mber varade raamatupidamislikud brutov&auml;&auml;rtused , arvestades spetsiifilisi varade hinnamuutusi ja muutusi tehnoloogias .</s><s>&Uuml;ks v&otilde;imalus varade jooksva v&auml;&auml;rtuse arvutamiseks on spetsiaalsete hinnaindeksite kohaldamine olemasolevatele varade raamatupidamislikele brutov&auml;&auml;rtustele .</s>
+</p>
+<p>
+<s>( 3 ) Kasutades OCM metoodikat tasum&auml;&auml;rade tuletamisel , kujuneb n&otilde;utava tulu suurus j&auml;rgmiste komponentide summana ( vastavalt v&otilde;rguseadmete kasutusmahu alusel ) : kapitalikulud , operatiivkulud , jooksev amortisatsioon ja proportsioon &uuml;ldkuludest ehk hinnalisand &uuml;ldkulude katteks .</s>
+</p>
+<p>
+<s>( 4 ) Aastane amortisatsioonisumma on arvutatud uute varahinnangute ( v&auml;&auml;rtus jooksevhinnas ja majanduslik eluiga ) alusel .</s><s>See tagab p&otilde;hivarade jooksevkulu &otilde;ige kajastamise .</s><s>T&auml;iendav amortisatsioon ( supplementary depreciation ) on ajaloolise amortisatsiooni ja jooksva kuluamortisatsiooni vahe .</s><s>See v&otilde;ib olla nii positiivne kui ka negatiivne , s&otilde;ltuvalt sellest , kas vara v&auml;&auml;rtus kasvab v&otilde;i kahaneb .</s><s>Lisas 5 on toodud k&auml;esolevas paragrahvis nimetatud varade &uuml;mberhindamine .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Finantskapitali s&auml;ilitamise peamised kohandused</s>
+</p>
+<p>
+<s>( 1 ) FCM puhul toimub varade &uuml;mberhindamine , t&auml;iendava amortisatsiooni ja mahaj&auml;&auml;muse leidmine vastavalt &sect;-le 13 , v&otilde;ttes eraldi arvesse kasu v&otilde;i kahju , mis tekib vara spetsiifilise inflatsiooni t&otilde;ttu , ning aktivaomanike varale m&otilde;juvat &uuml;ldist inflatsiooni .</s>
+</p>
+<p>
+<s>( 2 ) Aktivaomanike fondide v&auml;&auml;rtus muutub &uuml;ldise inflatsiooni alusel .</s><s>FCM v&otilde;tab seda muutust arvesse .</s><s>Aktivaomanike fondide v&auml;&auml;rtuse muutus on tingitud asjaolust , et &uuml;mberhinnatavate varade turuhinnad ei pruugi j&auml;lgida &uuml;ldist inflatsiooni v&otilde;i ei tee seda samal m&auml;&auml;ral .</s>
+</p>
+<p>
+<s>( 3 ) Kasutades FCM metoodikat , kujuneb n&otilde;utava tulu suurus j&auml;rgmiste komponentide summana : kapitalikulud , operatiivkulud , jooksev amortisatsioon ja hinnalisand &uuml;ldkulude katteks , millest peab lahutama kasumi v&otilde;i millele peab liitma kahjumi , mis tekib varaspetsiifilise ja &uuml;ldinflatsiooni vahest ( vt lisa 7 ) .</s>
+</p>
+<p>
+<s>( 4 ) OCM kontseptsiooni puhul v&otilde;ib ilmneda , et tasum&auml;&auml;rad alahindavad v&otilde;i &uuml;lehindavad tegelikult vajalikku teenitavat tulu , mist&otilde;ttu peab OTE kasutama FCM kapitali s&auml;ilitamise kontseptsiooni .</s>
+</p>
+<p>
+<s>( 5 ) Jooksvat kuluarvestust peab rakendama olemasolevat ajaloolist kuluarvestuss&uuml;steemi aluseks v&otilde;ttes .</s><s>Uut kuluarvestuss&uuml;steemi peab rakendama etappide kaupa , kus esmalt hinnatakse &uuml;mber k&otilde;ik &uuml;lekandev&otilde;rgu varad .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tulude omistamine</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Tulu telekommunikatsiooniteenustega seotud tegevustest</s>
+</p>
+<p>
+<s>( 1 ) Tulud , mida teenitakse telekommunikatsiooniteenuste m&uuml;&uuml;gist , on otse omistatavad teenustele , millega seoses nad tekkisid .</s>
+</p>
+<p>
+<s>( 2 ) Kui tulusid ei ole v&otilde;imalik otse omistada , tuleb need omistada p&otilde;hjuslikkuse seose alusel .</s><s>Telekommunikatsiooniteenuste osutamisest saadava tulu omistamine OTE p&otilde;hilistele &auml;rivaldkondadele on toodud summaarselt lisas 8.</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Muu tulu k&auml;sitlemine</s>
+</p>
+<p>
+<s>( 1 ) L&auml;htudes p&otilde;hjuslikust seosest , tuleb mitte-telefoniteenuste osutamisest saadavad tulud vastandada nende tegevustega , millega seoses nad tekkisid .</s><s>Seda tulu peab kajastama &ldquo; muude tegevuste &rdquo; all .</s>
+</p>
+<p>
+<s>( 2 ) Mitte-telefoniteenuste tulusid ja kulusid peab kajastama j&auml;rjepidevuse p&otilde;him&otilde;tet arvestades .</s>
+</p>
+<p>
+<s>( 3 ) Sissetulekut p&otilde;hivara investeeringutelt tuleb omistada samuti nagu investeeringuid , millega seoses nad tekkisid .</s><s>Sissetulek p&otilde;hivarainvesteeringutelt tuleb omistada juurdep&auml;&auml;suv&otilde;rgule , &uuml;lekandev&otilde;rgule v&otilde;i jaem&uuml;&uuml;gile , kui nendega seotud investeeringuid on sel viisil omistatud .</s>
+</p>
+<p>
+*<s>Sisaldavad otseselt ja kaudselt omistatavaid kulusid .</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> Direktiiv 97/33/EC 30.06.1997. a ( &ldquo; Interconnection Directive &rdquo; )</s>
+</p>
+<p>
+<s><hi rend="sup">2</hi></s>
+</p>
+<p>
+<s>1 ) C(1997 ) 3148 15.10.1997. a ( &ldquo; Commission Recommendation on Interconnection in a liberalised telecommunications market .</s><s>Part 1 - Interconnection Pricing &rdquo; koos lisadega ) ;</s>
+</p>
+<p>
+<s>2 ) C(1998 ) 195 08.01.1998. a ( &ldquo; Commission Recommendation on Interconnection in a liberalised telecommunications market .</s><s>Part 1 - Interconnection Pricing &rdquo; ) ;</s>
+</p>
+<p>
+<s>3 ) C(1998 ) 960 08.04.1998. a ( &ldquo; Commission Recommendation on Interconnection in a liberalised telecommunications market .</s><s>Part 2 - Accounting separation and cost accounting &rdquo; koos lisadega ) .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;ruse nr 411 &ldquo; Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika &rdquo; lisa 1</s>
+</p>
+<p>
+<s>Kulude omistamise protsessi t&uuml;&uuml;pskeem</s>
+</p>
+<p>
+<s>( vt RT I 2000 , 94 , 606 )</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;ruse nr 411 &ldquo; Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika &rdquo; lisa 2</s>
+</p>
+<p>
+<s>Operatiivkulude omistamise meetodid</s>
+</p>
+<p>
+<table>
+<row><cell> <lb>Operatiivkulu liik</cell><cell> <lb>Kirjeldus</cell><cell> <lb>Omistamise meetod</cell><cell> <lb>P&otilde;hiline &auml;rivaldkond</cell></row> <row><cell> <lb>Amortisatsioon</cell><cell> <lb>Amortisatsioon</cell><cell> <lb>Amortisatsiooni omistamine peab j&auml;rgima p&otilde;hivarade jaotust vastavalt seotusele mingi p&otilde;hivaraga ( vt ka m&auml;&auml;ruse 3. peat&uuml;kk )</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>Seadmete hankimine ja installeerimine</cell><cell> <lb>Kulud sellega seotud personalile</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik ; muul juhul omistada kulud vastavalt installeerimisele kulutatud ajale</cell><cell> <lb>&Uuml;lekandev&otilde;rk , juurdep&auml;&auml;suv&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Installeerimise , lepingu- ja hoolduskulud ( s&auml;ilituskulud )</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik</cell><cell> <lb>&Uuml;lekandev&otilde;rk , juurdep&auml;&auml;suv&otilde;rk</cell></row> <row><cell> <lb>Hooldus ja parandus</cell><cell> <lb>Kulud sellega seotud personalile</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik ; muul juhul omistada kulud vastavalt hooldus- ja parandust&ouml;&ouml;dele kulutatud ajale</cell><cell> <lb>&Uuml;lekandev&otilde;rk , juurdep&auml;&auml;suv&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Muud kulud</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik</cell><cell> <lb>&Uuml;lekandev&otilde;rk , juurdep&auml;&auml;suv&otilde;rk</cell></row> <row><cell> <lb>V&otilde;rgu planeerimine ja arendamine</cell><cell> <lb>Kulud sellega seotud personalile ja kulud v&auml;ljastpoolt ostetud planeerimisteenustele</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik</cell><cell> <lb>&Uuml;lekandev&otilde;rk , juurdep&auml;&auml;suv&otilde;rk</cell></row> <row><cell> <lb>Jaem&uuml;&uuml;gi planeerimine ja areng</cell><cell> <lb>Kulud sellega seotud personalile ja kulud v&auml;ljastpoolt ostetud planeerimisteenustele</cell><cell> <lb>Otse toodetele/teenustele , kus v&otilde;imalik</cell><cell> <lb>Jaem&uuml;&uuml;k</cell></row> <row><cell> <lb>V&otilde;rgu administreerimine</cell><cell> <lb>Kulud sellega seotud personalile</cell><cell> <lb>Omistada v&otilde;rguseadmetele nii , et baasiks oleks aeg , mida personal kulutas vastava seadme administreerimisele , kus v&otilde;imalik</cell><cell> <lb>&Uuml;lekandev&otilde;rk , juurdep&auml;&auml;suv&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Muud kulud</cell><cell> <lb>Omistada v&otilde;rguseadmetele administreerimise kuludega samas proportsioonis</cell><cell> <lb>&Uuml;lekandev&otilde;rk , juurdep&auml;&auml;suv&otilde;rk</cell></row> <row><cell> <lb>Marketing ja m&uuml;&uuml;k</cell><cell> <lb>Kulud sellega seotud personalile</cell><cell> <lb>Otse toodetele ja teenustele , kus v&otilde;imalik ; muul juhul omistada kulud toodete vahel vastavalt t&ouml;&ouml;ajale</cell><cell> <lb>Jaem&uuml;&uuml;k</cell></row> <row><cell></cell><cell> <lb>Seadmete m&uuml;&uuml;gikulud</cell><cell> <lb>Kulud omistada tarbijaseadmete m&uuml;&uuml;giteenusele &ldquo; muude tegevuste &rdquo; raames</cell><cell> <lb>Muud tegevused</cell></row> <row><cell></cell><cell> <lb>Publikatsioonid <lb>Reklaam jm m&uuml;&uuml;gitoetus <lb>Turu-uuringud <lb>Levitajate t&ouml;&ouml;tasud <lb>Muud kulud</cell><cell> <lb>Otse toodetele ja teenustele , kus v&otilde;imalik</cell><cell> <lb>Jaem&uuml;&uuml;k</cell></row> <row><cell> <lb>Faktooringu/inkasso kasutamine</cell><cell> <lb>Kulud sellega seotud personalile</cell><cell> <lb>Otse toodetele ja teenustele , kus v&otilde;imalik</cell><cell> <lb>Jaem&uuml;&uuml;k ( m&otilde;ned kulud &uuml;lekandev&otilde;rku )</cell></row> <row><cell></cell><cell> <lb>Muud laekumisega seotud kulud ( sisaldades halbu v&otilde;lgu )</cell><cell> <lb>Otse toodetele ja teenustele , kus v&otilde;imalik ; muul juhul omistada kulud toodete ja teenuste vahel kasutuse alusel ( nt arvete arvu alusel )</cell><cell> <lb>Jaem&uuml;&uuml;k ( m&otilde;ned kulud &uuml;lekandev&otilde;rku )</cell></row> <row><cell> <lb>Operaatori teenused</cell><cell> <lb>Kulud sellega seotud personalile</cell><cell> <lb>Otse toodetele ja teenustele , kus v&otilde;imalik . Personalikulud , kui personal t&auml;idab mitmeid operaatori teenuseid puudutavaid t&ouml;&ouml;&uuml;lesandeid , tuleb omistada seotud teenustele , v&otilde;ttes aluseks aja , mis kulutati erinevatele t&ouml;&ouml;&uuml;lesannetele</cell><cell> <lb>Jaem&uuml;&uuml;k</cell></row> <row><cell> <lb>Numbriinfo teatmike v&auml;ljaandmine</cell><cell> <lb>Kulud antud teenusega seotud personalile ja muud kulud</cell><cell> <lb>Otse toodetele ja teenustele</cell><cell> <lb>Jaem&uuml;&uuml;k</cell></row> <row><cell> <lb>Maksed teistele operaatoritele</cell><cell> <lb>V&auml;ljamaksed rahvusvahelise liikluse edastamise eest</cell><cell> <lb>Otse toodetele ja teenustele</cell><cell> <lb>Jaem&uuml;&uuml;k</cell></row> <row><cell></cell><cell> <lb>Maksed sidumislepingu eest</cell><cell> <lb>Otse toodetele ja teenustele</cell><cell> <lb>Jaem&uuml;&uuml;k</cell></row> <row><cell> <lb>Ettev&otilde;tluse toetus</cell><cell> <lb>Muud kulud personali j&auml;relevalve ja varustusega tegelevatele t&ouml;&ouml;tajatele</cell><cell> <lb>Kulud omistatakse t&ouml;&ouml;tajatele , kes tegelevad tootmispersonali eest hoolitsemisega . &Uuml;ldiselt omistatakse samadel alustel kui palgakulu personalile</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Muud peakorterit toetavad funktsioonid</cell><cell> <lb>Kui on seotud spetsiaalselt mingi toote/teenusega , siis omistada kulud vastavalt antud tootele/teenusele</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Hoonete kulud ja rent</cell><cell> <lb>Kulud tuleb omistada nagu maale ja hoonetele/ehitistele</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Arvutuskeskuse /IT kulud</cell><cell> <lb>Kulud omistada vastavalt nendele teenustele ja toodetele , mis vajavad IT ja arvutipargi toetust</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>S&uuml;steemi toetus</cell><cell> <lb>Kulud varustamise , installeerimise ja hooldamise toetusfunktsioonidele</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>Tarbijatele m&otilde;eldud teenused</cell><cell> <lb>Kulud multifunktsioonide t&auml;itmiseks , nagu tellimuste vastuv&otilde;tmine , vigadest teatamine , arvete j&auml;relep&auml;rimised jne</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>Haldus</cell><cell> <lb>Hankimine , turustus , laomajandus ja logistika</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>Transport</cell><cell> <lb>Transpordi organiseerimise ja hooldamisega seotud kulud</cell><cell> <lb>Otse v&otilde;rguseadmetele v&otilde;i teenustele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>&Uuml;ldine juhtimine</cell><cell> <lb>&Uuml;ldise juhtimise ja administreerimise personalikulud ( rahalised ja mitterahalised )</cell><cell> <lb>Otse v&otilde;rguseadmetele v&otilde;i teenustele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>T&ouml;&ouml;tajate vallandamine</cell><cell> <lb>Koondamistasud jms</cell><cell> <lb>Otse v&otilde;rguseadmetele v&otilde;i teenustele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>Korporatsiooni &uuml;ldkulud</cell><cell> <lb>Juhatuse esimehe b&uuml;roo , sekret&auml;ri t&ouml;&ouml;koht , finantstegevus ( rahavoogude juhtimine )</cell><cell> <lb>Jaotatavate kulude baasil</cell><cell></cell></row> <row><cell> <lb>L&uuml;hiajalised intressimaksed</cell><cell></cell><cell> <lb>Otse tegevustele , kus otsest seost saab tuvastada</cell><cell> <lb>K&otilde;ik</cell></row>
+</table>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;ruse nr 411 &ldquo; Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika &rdquo; lisa 3</s>
+</p>
+<p>
+<s>Kapitali kasutuse omistamise meetodid</s>
+</p>
+<p>
+<table>
+<row><cell> <lb>Vara ja kohustuse kategooria</cell><cell> <lb>Kirjeldus</cell><cell> <lb>Omistamise meetod</cell><cell> <lb>P&otilde;hiline &auml;rivaldkond</cell></row> <row><cell> <lb>Materiaalsed varad</cell><cell></cell><cell></cell><cell></cell></row> <row><cell> <lb>P&otilde;hiseadmed</cell><cell></cell><cell></cell><cell></cell></row> <row><cell> <lb>L&uuml;litusseadmed</cell><cell> <lb>Tarbijamahu v&auml;ljaviik</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik . Muul juhul omistada juurdep&auml;&auml;suv&otilde;rgu teenustele ja v&otilde;rguseadmetele , v&otilde;ttes aluseks kulud , mida on vaja vastavalt kas siis klientidele liinide rajamiseks v&otilde;i v&otilde;rguosadele , mida on vaja liikluse suunamiseks . Kohalikud l&uuml;litusseadmed saab omistada toodetele ja teenustele kasutatud sekundite alusel</cell><cell> <lb>&Uuml;lekandev&otilde;rk ( m&otilde;ned kulud juurdep&auml;&auml;suv&otilde;rku )</cell></row> <row><cell></cell><cell> <lb>Kohalik telefonijaam , transiitkaugejaam*</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik , muul juhul omistada baseeruvalt kasutatud ajale sekundites</cell><cell> <lb>&Uuml;lekandev&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Rahvusvaheline kaugejaam</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik , muul juhul omistada baseeruvalt kasutatud ajale sekundites</cell><cell> <lb>&Uuml;lekandev&otilde;rk</cell></row> <row><cell></cell><cell> <lb>L&uuml;litusseadmestik eriteenuste v&otilde;rkudele</cell><cell> <lb>Otse &uuml;lekandev&otilde;rgu seadmetele v&otilde;i spetsiifilistele teenustele , mida osutatakse muude v&otilde;rkude kaudu</cell><cell> <lb>&Uuml;lekandev&otilde;rk , muud tegevused</cell></row> <row><cell></cell><cell> <lb>Muu l&uuml;litusseadmestik</cell><cell> <lb>Otse v&otilde;rguteenustele , kus v&otilde;imalik , muul juhul muudele v&otilde;rgu l&uuml;litusseadmetele vastavalt seadmete kasutusajale</cell><cell> <lb>&Uuml;lekandev&otilde;rk</cell></row> <row><cell> <lb>&Uuml;lekandeliinid</cell><cell> <lb>Sidumiseks ja transiidi pakkumiseks vajalikud &uuml;lekandeseadmed ja liinid</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik , muul juhul omistada kanalite kasutuse alusel</cell><cell> <lb>&Uuml;lekandev&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Kaabel ja &otilde;huliinid</cell><cell> <lb>Otse juurdep&auml;&auml;su- v&otilde;i v&otilde;rguseadmetele , kus v&otilde;imalik , muul juhul omistada v&otilde;rguseadmetele vastavalt kasutatud kaabli mahule , mida vajati mingi erineva teenuse osutamiseks</cell><cell> <lb>Juurdep&auml;&auml;suv&otilde;rk , &uuml;lekandev&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Juurdep&auml;&auml;suv&otilde;rgu &uuml;lekandeseadmed ja -liinid</cell><cell> <lb>Otse toodetele , kus v&otilde;imalik ( nt ISDN seadmed ) , muul juhul omistada juurdep&auml;&auml;suteenustele vastavalt liini kasutusele</cell><cell> <lb>Juurdep&auml;&auml;suv&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Raadio- ja satelliitseadmed</cell><cell> <lb>Otse v&otilde;rgukomponentidele , kus v&otilde;imalik , muul juhul omistada baseeruvalt kanali kasutusele</cell><cell> <lb>&Uuml;lekandev&otilde;rk</cell></row> <row><cell></cell><cell> <lb>&Uuml;lekandeseadmed ja -liinid eriteenuste v&otilde;rkude jaoks</cell><cell> <lb>Otse spetsiifilisele v&otilde;rgu poolt toodetud mitte-PSTN/mitte-ISDN teenustele</cell><cell> <lb>&Uuml;lekandev&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Rahvusvaheline kaabel ja rahvusvahelise transiidi pakkumiseks vajalikud seadmed</cell><cell> <lb>Otse v&otilde;rguseadmetele , kus v&otilde;imalik , muul juhul omistada kasutusmahu alusel</cell><cell> <lb>&Uuml;lekandev&otilde;rk</cell></row> <row><cell> <lb>Muud primaarsed v&otilde;rgu varad</cell><cell></cell><cell></cell><cell></cell></row> <row><cell></cell><cell> <lb>&Uuml;ldkasutatavad telefonid ( taksofonid ) ja seotud seadmed</cell><cell> <lb>Otse teenusele</cell><cell> <lb>Jaem&uuml;&uuml;k</cell></row> <row><cell> <lb>Toetavad seadmed</cell><cell> <lb>Kaablitunnelid v&otilde;i kanalisatsioon , postid ja raadio- <lb>mastid</cell><cell> <lb>Omistada kaablile ja &otilde;huliinidele , mille toetuseks nad on m&otilde;eldud , ja omistada toodetele samal moel nagu kaabel ja &otilde;huliinid</cell><cell> <lb>Juurdep&auml;&auml;suv&otilde;rk , <lb>&uuml;lekandev&otilde;rk</cell></row> <row><cell></cell><cell> <lb>Energiaseadmed</cell><cell> <lb>Omistada primaarsetele seadmegruppidele vastavalt energiaseadmete kasutusele iga seadme toetuseks - nt kilovatt/tundi . Varad omistatakse seej&auml;rel toodetele samal moel nagu asjassepuutuvad esmased seadmegrupid</cell><cell> <lb>Juurdep&auml;&auml;suv&otilde;rk , <lb>&uuml;lekandev&otilde;rk</cell></row> <row><cell></cell><cell> <lb>V&otilde;rgu haldamise seadmed</cell><cell> <lb>Omistada esmasele seadmele , millega erinevaid v&otilde;rke varustatakse ja mille baasiks on mingi s&uuml;steemi kasutus antud seadme haldamiseks</cell><cell> <lb>&Uuml;lekandev&otilde;rk</cell></row> <row><cell> <lb>Mitte v&otilde;rguga seotud p&otilde;hivarad</cell><cell> <lb>Maa ja hooned</cell><cell> <lb>Omistada toodetele , teenustele ja v&otilde;rguseadmetele ruumikasutuse alusel ( s.t p&otilde;randapind ) , mida on vaja iga toote , teenuse v&otilde;i v&otilde;rguseadme toetamiseks</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Arvutid &uuml;ldkasutuses</cell><cell> <lb>Omistada baseeruvalt arvutite kasutusmahule , et toetada igat rakendust ( tegevusfunktsiooni ) . Kulud , mis on omistatud funktsioonidele ja tegevustele , saab omistada seej&auml;rel toodetele ja teenustele , mida need funktsioonid toetavad</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Mootors&otilde;idukid</cell><cell> <lb>Omistada toodetele ja v&otilde;rgukomponentidele kasutuse alusel</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>M&ouml;&ouml;bel ja kontoriseadmed</cell><cell> <lb>Omistada toodetele ja v&otilde;rguseadmetele kasutuse alusel</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>Immateriaalne p&otilde;hivara</cell><cell> <lb>Immateriaalne p&otilde;hivara</cell><cell> <lb>Otse toodetele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell> <lb>K&auml;ibekapital</cell><cell></cell><cell></cell><cell></cell></row> <row><cell></cell><cell> <lb>P&otilde;hivara investeeringud :</cell><cell></cell><cell></cell></row> <row><cell></cell><cell> <lb>Finantsinvesteeringud</cell><cell> <lb>Otse &ldquo; Muudele tegevustele &rdquo;</cell><cell> <lb>Muud tegevused</cell></row> <row><cell></cell><cell> <lb>Investeeringud mitteseotud tegevustele .</cell><cell> <lb>Otse &ldquo; Muudele tegevustele &rdquo;</cell><cell> <lb>Muud tegevused</cell></row> <row><cell></cell><cell> <lb>Muud investeeringud</cell><cell> <lb>Otse teenustele , millega need investeeringud on seotud , muul juhul omistada kasutusmahu alusel</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>L&uuml;hiajalised investeeringud ( sisaldades raha pangas ja sularaha )</cell><cell> <lb>Otse &auml;rivaldkondadele , kus v&otilde;imalik , muul juhul omistada vastavalt iga &auml;rivaldkonna ekspluatatsioonivajadustele</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Varud , reserv , aktsiad</cell><cell> <lb>Tuleb omistada otse teenustele ja toodetele</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Debitoorne v&otilde;lg ( n&otilde;uded ostjate vastu )</cell><cell> <lb>Debitoorse v&otilde;la v&otilde;ib omistada toodetele ja teenustele baseeruvalt arvelduss&uuml;steemi informatsioonile , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Muu saadaolev v&otilde;lg ( ostjate vekslid )</cell><cell> <lb>Muu debitoorne v&otilde;lg tuleb omistada toodetele ja teenustele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Ettemakstud tulevaste perioodide kulud</cell><cell> <lb>Tulevaste perioodide kulud tuleb omistada otse toodetele ja teenustele , kus v&otilde;imalik</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Pikaajalised reservid</cell><cell> <lb>Otse tegevustele , mis p&otilde;hjustavad pikaajaliste reservide tekkimise</cell><cell> <lb>K&otilde;ik</cell></row> <row><cell></cell><cell> <lb>Viitv&otilde;lad ( dividendid , maksuv&otilde;lad )</cell><cell> <lb>Omistamist ei n&otilde;uta . Selle asemel peab keskmised v&otilde;lad arvestama koosk&otilde;las vajadusega l&uuml;hiajalistele k&auml;ibevahenditele iga &auml;rivaldkonna kohta ( vt &ldquo; l&uuml;hiajalised investeeringud &rdquo; )</cell><cell> <lb>K&otilde;ik</cell></row>
+</table>
+</p>
+<p>
+<s>( 03.04.2001 j&otilde;ust.08.04.2001 - RT I 2001 , 35 , 197 )</s>
+</p>
+<p>
+*<s>Telefonijaamad on defineeritud &ldquo; Telekommunikatsiooniseaduse &rdquo; ( RT I 2000 , 18 , 116 ) &sect; 4 l&otilde;ike 5 ja &sect; 7 l&otilde;ike 2 alusel kehtestatud m&auml;&auml;ruses</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;ruse nr 411 &ldquo; Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika &rdquo; lisa 4</s>
+</p>
+<p>
+<s>Varade hindamise etapid</s>
+</p>
+<p>
+<s>( vt RT I 2000 , 94 , 606 )</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;ruse nr 411 &ldquo; Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika &rdquo; lisa 5</s>
+</p>
+<p>
+<s>Varade &uuml;mberhindamine</s>
+</p>
+<p>
+<s>N&auml;ide</s>
+</p>
+<p>
+<s>Vara ostetakse 10 000 krooni eest .</s><s>Vara eeldatav eluiga on 4 aastat .</s><s>Lihtsustamiseks eeldatakse vara lineaarset amortiseerimist .</s><s>Tabelis 3 eeldatakse veel , et vara asendusv&auml;&auml;rtus langeb 10% aastas .</s><s>Tabelis 4 aga eeldatakse vara asendusv&auml;&auml;rtuse 5%-list kasvu aastas .</s>
+</p>
+<p>
+<s>Asenduskulu langeb 10% aastas</s>
+</p>
+<p>
+<table>
+<row><cell> <lb>Aasta</cell><cell> <lb>Asenduskulu</cell><cell> <lb>Amortisatsioon</cell></row> <row><cell> <lb>Jooksevkulu</cell><cell> <lb>Ajalooline</cell><cell> <lb>T&auml;iendav</cell><cell> <lb>Kumulatiivne</cell><cell> <lb>'N&otilde;utav'</cell><cell> <lb>Mahaj&auml;&auml;mus</cell></row> <row><cell> <lb>0</cell><cell> <lb>10,000</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row> <row><cell> <lb>1</cell><cell> <lb>9,000</cell><cell> <lb>2,250</cell><cell> <lb>2,500</cell><cell> <lb>( 250 )</cell><cell> <lb>2,250</cell><cell> <lb>2,250</cell><cell> <lb>0</cell></row> <row><cell> <lb>2</cell><cell> <lb>8,100</cell><cell> <lb>2,025</cell><cell> <lb>2,500</cell><cell> <lb>( 475 )</cell><cell> <lb>4,275</cell><cell> <lb>4,050</cell><cell> <lb>( 225 )</cell></row> <row><cell> <lb>3</cell><cell> <lb>7,290</cell><cell> <lb>1,822 . 50</cell><cell> <lb>2,500</cell><cell> <lb>( 677.50 )</cell><cell> <lb>5,872 . 5</cell><cell> <lb>5,467 . 50</cell><cell> <lb>( 405 )</cell></row> <row><cell> <lb>4</cell><cell> <lb>6,561</cell><cell> <lb>1,640 . 25</cell><cell> <lb>2,500</cell><cell> <lb>( 859.75 )</cell><cell> <lb>7,107 . 75</cell><cell> <lb>6,561</cell><cell> <lb>( 546.75 )</cell></row>
+</table>
+</p>
+<p>
+<s>Asenduskulu t&otilde;useb 5% aastas</s>
+</p>
+<p>
+<s>( vt RT I 2000 , 94 , 606 )</s>
+</p>
+<p>
+<s>Seletus :</s>
+</p>
+<p>
+<s>- Jooksevkulu on vara asendamise puhaskulu , s.t jooksevkulu <hi rend="sub"> i </hi> = jooksevkulu <hi rend="sub"> i-1 </hi> &times;0 , 9 ( teises tabelis korrutatud 1,05 -ga ) .</s>
+</p>
+<p>
+<s>- Jooksevkulu ( vara asendamise kulu ) amortisatsioon on tuletatud kui bruto asenduskulu jagatud vara elueaga , s.t jooksevkulu / 4.</s>
+</p>
+<p>
+<s>- Ajalooline amortisatsioon on v&otilde;rdne soetusmaksumus jagatud kasutusajaga , s.t 10 000 / 4.</s>
+</p>
+<p>
+<s>- T&auml;iendav amortisatsioon on lisanduv amortisatsioon , mis on saadud varade &uuml;mberhindamise tulemusena ( seda v&otilde;ib ka tuletada jooksevkulu amortisatsioon , s.t vara asenduskulu amortisatsioon lahutatud ajalooline kuluamortisatsioon ) .</s>
+</p>
+<p>
+<s>- Kumulatiivne amortisatsioon on asenduskulu amortisatsiooni summa k&auml;esoleval perioodil , pluss ajaloolise amortisatsiooni kumulatiivne summa eelneva perioodi l&otilde;puks ja liita t&auml;iendav amortisatsioon eelneva perioodi l&otilde;puks ( kui eelnevaid perioode on n&auml;iteks kaks , siis t&auml;iendav amortisatsioon eelneva perioodi l&otilde;puks = t&auml;iendav amortisatsioon eelneval perioodil &times;2 ) .</s><s>Selgitus arvutamise kohta on toodud tabelis 4 , kus nooled n&auml;itavad arvutusprotsessi suunda .</s>
+</p>
+<p>
+<s>- &ldquo; N&otilde;utav &rdquo; amortisatsioon on kumulatiivne amortisatsioon , mis on arvutatud antud varade jooksevhinna p&otilde;hjal - teisis&otilde;nu on see kumulatiivne vara amortisatsioon k&auml;esolevaks hetkeks , mis on arvutatud tegeliku asenduskulu p&otilde;hjal antud hetkel ( l&auml;htutakse tegelikust turusituatsioonist ) .</s><s>Matemaatiliselt v&auml;ljendab seda valem : jooksevkulu amortisatsioon &times;n , kus n on vara kasutatud aastate arv antud hetkeks .</s>
+</p>
+<p>
+<s>- Mahaj&auml;&auml;mus amortisatsioonis on vahe n&otilde;utava amortisatsiooni ja kumulatiivse amortisatsiooni vahel .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;ruse nr 411 &ldquo; Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika &rdquo; lisa 6</s>
+</p>
+<p>
+<s>Tegevusp&otilde;hise kuluarvestuse ( activity based costing ) printsiipide n&auml;ide</s>
+</p>
+<p>
+<s>Tegevusp&otilde;hise kuluarvestuse raames omistatakse tootmise &uuml;ldkulud ( kaudkulud ) :</s>
+</p>
+<p>
+<s>I tegevustele ;</s>
+</p>
+<p>
+<s>II teenustele .</s>
+</p>
+<p>
+<s>Esimene etapp koosneb j&auml;rgmistest sammudest :</s>
+</p>
+<p>
+<s>1 ) homogeensete kulukogumite loomine ;</s>
+</p>
+<p>
+<s>2 ) kulukogumi m&auml;&auml;rade leidmine , mille k&auml;igus kulukogumi kulude maht omistatakse sobiva kuluk&auml;ituri mahuga ning saadakse kulukogumi m&auml;&auml;r .</s>
+</p>
+<p>
+<s>Teise etapi k&auml;igus omistatakse kulukogumid teenustele , mille aluseks v&otilde;etakse kulukogumi m&auml;&auml;r ja ressursside hulk kasutatuna iga teenuse poolt .</s>
+</p>
+<p>
+<s>Kehtib seos :</s>
+</p>
+<p>
+<s>Kaudkulu = kulukogumi m&auml;&auml;r &times; kuluk&auml;ituri maht .</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;ruse nr 411 &ldquo; Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika &rdquo; lisa 7</s>
+</p>
+<p>
+<s>N&auml;ide &sect; 12 , &sect; 13 ja &sect; 14 toodud n&otilde;utava tulu komponentide OCM ja FCM metoodika alusel leidmiseks</s>
+</p>
+<p>
+<s>Kui kasutada OCM metoodikat tasum&auml;&auml;rade tuletamisel , siis n&otilde;utava tulu suurus toote/teenuse kohta vastavalt v&otilde;rguseadmete kasutusmahule kujuneb nagu j&auml;rgnevate komponentide summa :</s>
+</p>
+<p>
+<s>kapitalikulud + operatiivkulud + jooksev amortisatsioon + hinnalisand &uuml;ldkulude katteks = n&otilde;utav tulu</s>
+</p>
+<p>
+<s>Kui kasutada FCM metoodikat , siis n&otilde;utava tulu suurus toote/teenuse kohta vastavalt v&otilde;rguseadmete kasutusmahule kujuneb nagu j&auml;rgmiste komponentide summa :</s>
+</p>
+<p>
+<s>kapitalikulud + operatiivkulud + jooksev amortisatsioon + hinnalisand &uuml;ldkulude katteks - kasum/(- ) kahjum varaspetsiifilise inflatsiooni ja &uuml;ldinflatsiooni vahest = n&otilde;utav tulu ,</s>
+</p>
+<p>
+<s>kus :</s>
+</p>
+<p>
+<s>jooksev amortisatsioon = ajalooline amortisatsioon + t&auml;iendav amortisatsioon</s>
+</p>
+<p>
+<s>kapitalikulud = kapitali kasutus &times; WACC</s>
+</p>
+<p>
+<s>Vabariigi Valitsuse 8. detsembri 2000. a m&auml;&auml;ruse nr 411 &ldquo; Telekommunikatsiooniv&otilde;rgu operaatori poolt kulude arvestamise ja kulude omistamise metoodika &rdquo; lisa 8</s>
+</p>
+<p>
+<s>Tulude omistamine</s>
+</p>
+<p>
+<table>
+<row><cell> <lb>&Uuml;hendustasud</cell><cell> <lb>Tasud uue &uuml;henduse loomise eest fikseeritud telefoniv&otilde;rgus ( muu kui sidumispunkti paigaldamine v&otilde;i loomine ) tuleb kanda jaem&uuml;&uuml;ki .</cell></row> <row><cell> <lb>Tarbija liini renditasu</cell><cell> <lb>Liini renditasud tuleb kanda jaem&uuml;&uuml;gi alla .</cell></row> <row><cell> <lb>Tulud p&uuml;siliiniteenuse osutamisest</cell><cell> <lb>P&uuml;siliiniteenuse osutamise tulud tuleb kanda jaem&uuml;&uuml;gi alla .</cell></row> <row><cell> <lb>Tulu liinide rentimisest teistele operaatoritele</cell><cell> <lb>Liinide rentimise tulu eraldiseisvatest kohalikest v&otilde;rkudest , millega varustatakse teisi turul opereerijaid , tuleb kanda juurdep&auml;&auml;suv&otilde;rgu alla .</cell></row> <row><cell> <lb>Sidumisteenuse tasud</cell><cell> <lb>Sidumisteenuse tasud , sisaldades &uuml;hekordseid sidumispunkti kulusid ja mahuga seotud tasusid , tuleb kanda &uuml;lekandev&otilde;rgule .</cell></row> <row><cell> <lb>K&otilde;netasud ( Eestis : minutihind + k&otilde;nealustustasu )</cell><cell> <lb>Tulu k&otilde;netasudest tuleb omistada sobivale teenusele jaem&uuml;&uuml;gi all .</cell></row> <row><cell> <lb>Seadmete rent ja m&uuml;&uuml;k</cell><cell> <lb>Tulu seadmete rentimisest ja m&uuml;&uuml;misest , nt telefonid , tuleb omistada sobivale teenusele &ldquo; muude tegevuste &rdquo; all .</cell></row> <row><cell> <lb>Tulu reklaamist kataloogides ja teatmikes</cell><cell> <lb>Tulu reklaamist kataloogides ja teatmikes tuleb omistada kataloogide tootmisele &ldquo; muude tegevuste &rdquo; all .</cell></row> <row><cell> <lb>Projekteerimisteenused/konsulteerimine</cell><cell> <lb>Tulu projekteerimisteenustest v&otilde;i konsulteerimisest , mis ei ole seotud sidumisteenusega , tuleb omistada &ldquo; muudele tegevustele &rdquo; .</cell></row>
+</table>
+</p>
+</body>
+   </text>
+</tei.2>

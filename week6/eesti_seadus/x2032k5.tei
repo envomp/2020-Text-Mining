@@ -1,0 +1,931 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kiirgusseadus ( terviktekst jaan 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3676</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kiirgusseadus ( terviktekst jaan 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=1></tagusage>
+         <tagusage gi=p occurs=275></tagusage>
+         <tagusage gi=s occurs=321></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kiirgusseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 23. aprillil 1997. a.</s>
+</p>
+<p>
+<s>( RT I 1997 , 37/38 , 569 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 26. mail 1997. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>16.01.2002 j&otilde;ust.10.02.2002 - RT I 2002 , 9 , 46 ;</s>
+</p>
+<p>
+<s>06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 337 ;</s>
+</p>
+<p>
+<s>12.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 670 ;</s>
+</p>
+<p>
+<s>10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 ;</s>
+</p>
+<p>
+<s>15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &uuml;lesanne on inimeste ja keskkonna kaitsmine kiirguse kahjustava m&otilde;ju eest .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus k&auml;sitleb :</s>
+</p>
+<p>
+<s>1 ) gammakiirgust , r&ouml;ntgenikiirgust , korpuskulaarset kiirgust v&otilde;i mistahes muud koes ioone tekitavat kiirgust ( ioniseeriv kiirgus ) ;</s>
+</p>
+<p>
+<s>2 ) ultravioletset kiirgust , n&auml;htavat valgust , infrapunast kiirgust , raadiosageduslikku kiirgust ja madalsageduslikke ning staatilisi elektri- ja magnetv&auml;lju ( mitteioniseeriv kiirgus ) niiv&otilde;rd , kuiv&otilde;rd see pole reguleeritud teiste seadustega ;</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>3 ) iseeneslikult lagunevate aatomituumadega ja lagunemise k&auml;igus ioniseerivat kiirgust kiirgavat ainet , sealhulgas tuumamaterjale U-233 , U-235 ja Pu-239 sisaldavat ainet ( radioaktiivne aine ) .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolev seadus reguleerib :</s>
+</p>
+<p>
+<s>1 ) inimest ioniseeriva kiirgusega ohustavat kiirgusallikaga seotud mistahes tegevust ( kiirgustegevus ) ;</s>
+</p>
+<p>
+<s>2 ) inimese ohtlikku kiiritamist looduskiirgusega p&otilde;hjustavaid v&otilde;i p&otilde;hjustada v&otilde;ivaid tingimusi ;</s>
+</p>
+<p>
+<s>3 ) kiirgusohutuse erimeetmete rakendamist radioaktiivsete ainetega ohtlikult saastunud keskkonnas ( sekkumistegevus ) .</s>
+</p>
+<p>
+<s>( 3 ) Mitteioniseeriva kiirguse kasutamise terviseohutust reguleerib rahvatervise seadus ( RT I 1995 , 57 , 978 ; 1996 , 3 , 56 ; 49 , 953 ; 1997 , 37/38 , 569 ; 1999 , 30 , 415 ; 88 , 804 ; 2001 , 23 , 128 ) .</s>
+</p>
+<p>
+<s>( 10.11.99 j&otilde;ust.10.12.99 - RT I 1999 , 88 , 804 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Kiirgustegevuse lubatavuse p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) Kiirgusallikas k&auml;esoleva seaduse t&auml;henduses on :</s>
+</p>
+<p>
+<s>1 ) radioaktiivne aine ;</s>
+</p>
+<p>
+<s>2 ) radioaktiivset ainet sisaldav seade ;</s>
+</p>
+<p>
+<s>3 ) ioniseerivat kiirgust tekitav elektriline kiirgusseade , mille kiirguse energia &uuml;letab viis kiloelektronvolti .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgustegevus on lubatav , kui :</s>
+</p>
+<p>
+<s>1 ) tegevuse loodetav tulemus &otilde;igustab tekitatavat v&otilde;imalikku kahju ;</s>
+</p>
+<p>
+<s>2 ) kahjulik m&otilde;ju hoitakse nii v&auml;iksena , kui see on teaduse ja tehnoloogia taset ning sotsiaalmajanduslikke v&otilde;imalusi arvestades saavutatav ;</s>
+</p>
+<p>
+<s>3 ) elanike ja kiirgust&ouml;&ouml;tajate kiiritus ei &uuml;leta k&auml;esolevas seaduses ja selle alusel kehtestatud piirm&auml;&auml;rasid .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktides 1 ja 2 s&auml;testatud p&otilde;him&otilde;tteid rakendatakse k&otilde;ikide kiiritusliikide puhul .</s><s>K&auml;esoleva paragrahvi l&otilde;ike 2 punktis 3 s&auml;testatud piirm&auml;&auml;rade kehtestamise p&otilde;him&otilde;tet ei rakendata :</s>
+</p>
+<p>
+<s>1 ) meditsiinikiiritusele ;</s>
+</p>
+<p>
+<s>2 ) avariikiiritusele ;</s>
+</p>
+<p>
+<s>3 ) nendele looduskiirituse juhtudele , kus looduslikke radioaktiivseid aineid ei kasutata kiirgusallikatena teadlikult .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>P&auml;dev riigiasutus</s>
+</p>
+<p>
+<s>( 1 ) Kiirgustegevuse ja kiirguskaitsega seotud riiklikke &uuml;lesandeid t&auml;idab Kiirguskeskus .</s><s>Kiirguskeskus on Keskkonnaministeeriumi hallatav riigiasutus .</s>
+</p>
+<p>
+<s>( 2 ) Kiirguskaitsega seoses tagab riik :</s>
+</p>
+<p>
+<s>1 ) kiirgustegevuslubade andmise ;</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>2 ) doosiregistri ja kiirgusallikate registri pidamise ;</s>
+</p>
+<p>
+<s>3 ) kiirituse hindamise ja kiirgusseire ;</s>
+</p>
+<p>
+<s>4 ) kiirgusavariidest teavitamise s&uuml;steemi ;</s>
+</p>
+<p>
+<s>5 ) rahvusvaheliste kohustuste t&auml;itmise ja selle kontrollimise ;</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>6 ) riikliku j&auml;relevalve ;</s>
+</p>
+<p>
+<s>7 ) kiirgusallikate ja kiirgusallikaid sisaldavate toodete kiirgusohutuse n&otilde;uetele vastavuse t&otilde;endamise tunnistuste andmise .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 06.06.2001 j&otilde;ust.07.07.2001 - RT I 2001 , 56 , 337 )</s>
+</p>
+<p>
+<s>( 4 ) Kiirguskeskus annab v&auml;lja juhendmaterjale kiirgustegevusloa saanud isikute n&otilde;ustamiseks , et tagada k&auml;esoleva seaduse n&otilde;uete t&auml;itmine hea praktika v&otilde;tete , protseduuride ja muude meetmete rakendamisega .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>&sect; 4 <hi rend="sup">1</hi> .</s><s>Kiirgustegevuskava</s>
+</p>
+<p>
+<s>( 1 ) Kiirgusohutuse tagamiseks vajalike abin&otilde;ude rakendamist kavandatakse kiirgustegevuskavaga .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgustegevuskava on arengukava s&auml;&auml;stva arengu seaduse ( RT I 1995 , 31 , 384 ; 1997 , 48 , 772 ; 1999 , 29 , 398 ; 2000 , 54 , 348 ) t&auml;henduses .</s><s>Selle koostamine ja heakskiitmine toimub s&auml;&auml;stva arengu seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kiirgustegevuse n&otilde;uded</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Kiirgustegevusluba</s>
+</p>
+<p>
+<s>( 1 ) Kiirgustegevus tohib toimuda kiirgustegevusloa alusel , v&auml;lja arvatud k&auml;esoleva seaduse paragrahvis 6 s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgustegevusluba on n&otilde;utav :</s>
+</p>
+<p>
+<s>1 ) tuumarajatiste ehitamiseks , ekspluateerimiseks ja tegevuse l&otilde;petamiseks ;</s>
+</p>
+<p>
+<s>2 ) radioaktiivse aine v&otilde;i radioaktiivset ainet sisaldava materjali k&auml;itlemiseks ;</s>
+</p>
+<p>
+<s>3 ) radioaktiivse aine lisamiseks meditsiinitoodete ning tarbekaupade tootmisel ja valmistamisel ;</s>
+</p>
+<p>
+<s>4 ) radioaktiivse aine manustamiseks inimesele ja loomale diagnostika , ravi ja teadusuurimise otstarbel ;</s>
+</p>
+<p>
+<s>5 ) r&ouml;ntgeniseadme , kiirendi ning radioaktiivset ainet sisaldava kiirgusseadme kasutamiseks tootmistegevuses , meditsiinis ja teadusuuringutel .</s>
+</p>
+<p>
+<s>( 3 ) Kiirgustegevusluba v&otilde;ib taotleda juriidiline isik v&otilde;i ettev&otilde;tjaks olev f&uuml;&uuml;siline isik .</s><s>Riigi- ja omavalitsusasutusel on &otilde;igus saada kiirgustegevusluba juhul , kui kiirgustegevus on p&otilde;hikirjas ette n&auml;htud .</s>
+</p>
+<p>
+<s>( 4 ) Kiirgustegevusluba tohib anda , kui :</s>
+</p>
+<p>
+<s>1 ) tegevusloa taotlejal on n&otilde;utava erialase ettevalmistusega personal ;</s>
+</p>
+<p>
+<s>2 ) tegevuseks taotletav koht ja muud tingimused kindlustavad ohutusn&otilde;uete t&auml;itmise .</s>
+</p>
+<p>
+<s>( 5 ) Kiirgustegevusluba tuumarajatiste ehitamiseks saab v&auml;lja anda Riigikogu n&otilde;usolekul .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Kiirgustegevusloata lubatud kiirgustegevus</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsuse m&auml;&auml;rusega kehtestatakse radioaktiivsete ainete summaarsete koguste ja nende ainete eriaktiivsuse piirm&auml;&auml;rad , millest v&auml;iksemate v&auml;&auml;rtuste puhul kiirgustegevusluba ei n&otilde;uta .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgustegevusluba ei n&otilde;uta k&auml;esoleva paragrahvi l&otilde;ike 1 kohaselt kehtestatud piirm&auml;&auml;rasid &uuml;letava radioaktiivse aine sisaldusega kiirgusallika kasutamiseks , kui see rahuldab &uuml;heaegselt j&auml;rgmisi tingimusi :</s>
+</p>
+<p>
+<s>1 ) on valmistatud kinnise kiirgusallikana nii , et igasugune kontakt radioaktiivse ainega ja radioaktiivse aine leke on v&auml;listatud ;</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>2 ) normaalsetes kasutustingimustes ei &uuml;leta doosikiirus 0,1 meetri kaugusel kiirgusallika pinnast &uuml;hte mikrosiivertit tunnis ;</s>
+</p>
+<p>
+<s>3 ) omab kiirgusohutuse n&otilde;uetele vastavuse tunnistust .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>( 3 ) Kiirgustegevusluba ei n&otilde;uta elektriliste kiirgusseadmete kasutamiseks , mille poolt normaalsetes kasutustingimustes tekitatav doosikiirus 0,1 meetri kaugusel kiirgusseadme pinnast ei &uuml;leta &uuml;hte mikrosiivertit tunnis .</s>
+</p>
+<p>
+<s>( 4 ) Kiirgusallika kasutustingimused on normaalsed , kui need vastavad k&auml;esoleva seaduse paragrahv 23 l&otilde;ike 1 alusel kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Kiirgustegevusloa andmine</s>
+</p>
+<p>
+<s>( 1 ) Kiirgustegevusloa v&auml;ljaandmise kord kehtestatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgustegevusloa v&auml;ljastab Kiirguskeskus .</s>
+</p>
+<p>
+<s>( 3 ) Kiirgustegevusloaga m&auml;&auml;ratakse :</s>
+</p>
+<p>
+<s>1 ) kiirgusohutust tagavad meetmed ning vahendid t&ouml;&ouml;kohal ja selle &uuml;mbruses ;</s>
+</p>
+<p>
+<s>2 ) kiirgusallikate ning nende asukoharuumide n&otilde;uetekohane m&auml;rgistus ;</s>
+</p>
+<p>
+<s>3 ) kiirgusallikatele k&otilde;rvaliste isikute juurdep&auml;&auml;su v&auml;listavad hoidmistingimused ;</s>
+</p>
+<p>
+<s>4 ) kiirgusseire ja spetsiaalne ohusignalisatsioon t&ouml;&ouml;kohal ;</s>
+</p>
+<p>
+<s>5 ) kiirgusohtlike alade kindlustamine kiirguskaitse- ja m&otilde;&otilde;teseadmetega ;</s>
+</p>
+<p>
+<s>6 ) kontrolli korraldamine t&ouml;&ouml;kohal ;</s>
+</p>
+<p>
+<s>7 ) avariiolukorras sekkumistegevuse plaani vajadus .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Kiirgustegevusloa saanud isiku kohustused</s>
+</p>
+<p>
+<s>( 1 ) Kiirgustegevusloa saanud isik on kohustatud :</s>
+</p>
+<p>
+<s>1 ) registreerima kiirgusallikad ja radioaktiivsed j&auml;&auml;tmed keskkonnaministri m&auml;&auml;rusega kehtestatud korras ;</s>
+</p>
+<p>
+<s>2 ) kindlustama kiirgust&ouml;&ouml;tajatele t&ouml;&ouml; iseloomu ja t&ouml;&ouml;koha tingimusi arvestava koolituse ning kiirgusohutusalase instrueerimise ;</s>
+</p>
+<p>
+<s>3 ) korraldama kiirgust&ouml;&ouml;tajate arstliku kontrolli ;</s>
+</p>
+<p>
+<s>4 ) andma kiirgusallika omaniku vahetumisel &uuml;leandjale ja vastuv&otilde;tjale ammendavat teavet kiirgusohutuse tagamiseks ;</s>
+</p>
+<p>
+<s>5 ) viivitamatult teatama kiirgusavariidest teavitamise s&uuml;steemis etten&auml;htud organitele kiirgustegevuse k&auml;igus toimunud &otilde;nnetustest ja avariidest ning piirm&auml;&auml;rasid &uuml;letavatest kiirituse juhtumitest ;</s>
+</p>
+<p>
+<s>6 ) kontrollima kiirgusseaduse n&otilde;uete ja kiirgustegevusloaga m&auml;&auml;ratud n&otilde;uete t&auml;itmist t&ouml;&ouml;kohal ja kiirgusallika m&otilde;jupiirkonnas .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgusohutust korraldava isiku ametisse m&auml;&auml;ramine ei vabasta kiirgustegevusloa saanud isikut vastutusest .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Kiirgustegevuse peatamine ja kiirgustegevusloa t&uuml;histamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kiirgustegevusloa saanud isik ei t&auml;ida k&auml;esolevas seaduses v&otilde;i selle alusel s&auml;testatud kiirgusohutuse n&otilde;udeid ja kiirgustegevusloaga m&auml;&auml;ratud tingimusi , peatab j&auml;relevalvet teostav isik kiirgustegevuse kuni kuueks kuuks ja teeb ettekirjutuse rikkumise l&otilde;petamiseks ning n&otilde;uete ja tingimuste t&auml;itmist takistavate asjaolude ilmnemisel nende asjaolude k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kui kiirgustegevusloa saanud isik ei ole m&auml;&auml;ratud t&auml;htajaks ettekirjutust t&auml;itnud , t&uuml;histab Kiirguskeskus j&auml;relevalvet teostava isiku ettepanekul kiirgustegevusloa kolme p&auml;eva jooksul , arvates ettepaneku saamisest .</s>
+</p>
+<p>
+<s>( 3 ) Kiirgustegevuse peatamist v&otilde;i kiirgustegevusloa t&uuml;histamist on &otilde;igus vaidlustada halduskohtus .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kiiritus</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Kiirituse liigid</s>
+</p>
+<p>
+<s>( 1 ) Kiiritus on inimese m&otilde;jutamine ioniseeriva kiirgusega .</s><s>Kiirituse toimet m&otilde;&otilde;detakse doosi suurusega .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolev seadus eristab :</s>
+</p>
+<p>
+<s>1 ) kutsekiiritust ;</s>
+</p>
+<p>
+<s>2 ) looduskiiritust ;</s>
+</p>
+<p>
+<s>3 ) elanikukiiritust ;</s>
+</p>
+<p>
+<s>4 ) meditsiinikiiritust ;</s>
+</p>
+<p>
+<s>5 ) avariikiiritust .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Kiirituse piirm&auml;&auml;rad</s>
+</p>
+<p>
+<s>( 1 ) Kiirituse piirm&auml;&auml;rad kehtestatakse :</s>
+</p>
+<p>
+<s>1 ) inimese elundi v&otilde;i koe massi&uuml;hikus neeldunud ioniseeriva kiirgusenergia ning toimivat kiirgusliiki iseloomustava kiirgusfaktori korrutisele ( elundi ekvivalentdoos ) ;</s>
+</p>
+<p>
+<s>2 ) inimese elundite ja kudede erinevat kiirgustundlikkust iseloomustavate koefaktoritega kaalutud ekvivalentdooside summale ( efektiivdoos ) .</s>
+</p>
+<p>
+<s>( 2 ) Euroopa N&otilde;ukogu 1996. aasta 13. mai direktiiviga 96/29/Euratom m&auml;&auml;ratud kiirgusfaktori , koefaktori ja muude doosifaktorite suurused j&otilde;ustatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Kutsekiiritus</s>
+</p>
+<p>
+<s>( 1 ) Kutsekiiritus on see osa kiiritusest , mida saab kiirgust&ouml;&ouml;taja k&auml;esoleva seaduse n&otilde;uete kohaselt registreeritud kiirgusallikatelt nendega t&ouml;&ouml;tamisel .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgust&ouml;&ouml;taja on isik , kes oma t&ouml;&ouml;&uuml;lesandeid t&auml;idab kiirgusallika m&otilde;jupiirkonnas .</s><s>Kiirgust&ouml;&ouml;taja tohib kiirgustegevuse k&auml;igus saada elanikukiirituse lubatud piirm&auml;&auml;ra &uuml;letavat kiiritust .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Kutsekiirituse piirm&auml;&auml;rad</s>
+</p>
+<p>
+<s>( 1 ) Aastane efektiivdoos ei tohi &uuml;letada :</s>
+</p>
+<p>
+<s>1 ) viie j&auml;rjestikuse aasta kutsekiirituse keskmisena 20 millisiivertit ;</s>
+</p>
+<p>
+<s>2 ) &uuml;helgi k&auml;esoleva l&otilde;ike punktis 1 nimetatud aastatest 50 millisiivertit ;</s>
+</p>
+<p>
+<s>3 ) kutsealases v&auml;lja&otilde;ppes osalevatele 16 kuni 18 aasta vanustele isikutele kuus millisiivertit .</s>
+</p>
+<p>
+<s>( 2 ) Elundi aastane ekvivalentdoos ei tohi &uuml;letada :</s>
+</p>
+<p>
+<s>1 ) kiirgust&ouml;&ouml;taja silmal&auml;&auml;tses 150 millisiivertit ;</s>
+</p>
+<p>
+<s>2 ) kiirgust&ouml;&ouml;taja nahas ja j&auml;semetes 500 millisiivertit ;</s>
+</p>
+<p>
+<s>3 ) rasedate naist&ouml;&ouml;tajate alakehas raseduse kestel &uuml;hte millisiivertit tingimusel , et rasedate naiste kiirgust&ouml;&ouml; korraldus raseduse kestel v&auml;listaks loote kiirguskahjustuse ;</s>
+</p>
+<p>
+<s>4 ) kutsealases v&auml;lja&otilde;ppes osalevate 16 kuni 18 aasta vanuste isikute silmal&auml;&auml;tses 50 millisiivertit ;</s>
+</p>
+<p>
+<s>5 ) kutsealases v&auml;lja&otilde;ppes osalevate 16 kuni 18 aasta vanuste isikute nahas ja j&auml;semetes 150 millisiivertit .</s>
+</p>
+<p>
+<s>( 3 ) Vabariigi Valitsusel on &otilde;igus kehtestada t&auml;iendavaid normatiive ja nende rakendamise korda , et tagada k&auml;esolevas paragrahvis nimetatud kutsekiirituse piirm&auml;&auml;radest kinnipidamine .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Looduskiiritus</s>
+</p>
+<p>
+<s>( 1 ) Looduskiiritus on kosmilisest kiirgusest v&otilde;i teadlikult kiirgusallikatena mittekasutatavatest looduslikest radioaktiivsetest ainetest p&otilde;hjustatud kiiritus .</s>
+</p>
+<p>
+<s>( 2 ) Looduskiiritust v&otilde;ib lugeda kutsekiirituseks :</s>
+</p>
+<p>
+<s>1 ) t&ouml;&ouml;del mineraalveeallikatel , koobastes , kaevandustes ja allmaarajatistel ;</s>
+</p>
+<p>
+<s>2 ) t&ouml;&ouml;del selliste tavaliselt mitteradioaktiivsete ainetega , mis sisaldavad lisandina looduslikke radioaktiivseid aineid ;</s>
+</p>
+<p>
+<s>3 ) lennumeeskonna t&ouml;&ouml;l k&otilde;rglendudel .</s>
+</p>
+<p>
+<s>( 3 ) Kui tekib kahtlus , et looduskiiritus kahjustab v&otilde;i v&otilde;ib kahjustada k&auml;esoleva paragrahvi l&otilde;ikes 2 loetletud t&ouml;id tegevate t&ouml;&ouml;tajate tervist , m&auml;&auml;rab keskkonnaminister Kiirguskeskuse ettepanekul ekspertiisi .</s>
+</p>
+<p>
+<s>( 4 ) Keskkonnaminister otsustab k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud ekspertiisi tulemuste alusel , kas on tegemist kutsekiiritusega v&otilde;i mitte .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud ekspertiisi tegemise kulud kannab t&ouml;&ouml;andja .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Doosiregister</s>
+</p>
+<p>
+<s>( 1 ) Kiirgust&ouml;&ouml;tajate saadud kutsekiirituse dooside kohta peab doosiregistrit Kiirguskeskus .</s>
+</p>
+<p>
+<s>( 2 ) Doosiregister on riiklik register , mille asutab ja p&otilde;him&auml;&auml;ruse kinnitab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Vanusepiirang kiirgust&ouml;&ouml;le lubamisel</s>
+</p>
+<p>
+<s>( 1 ) Alalisele kiirgust&ouml;&ouml;le v&otilde;ib lubada isiku alates 18. eluaastast .</s>
+</p>
+<p>
+<s>( 2 ) Kutsealase v&auml;lja&otilde;ppe eesm&auml;rgil v&otilde;ib kiirgust&ouml;&ouml;le lubada isiku alates 16. eluaastast , kuid mitte kauemaks kui kuueks kuuks .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kiirgust&ouml;&ouml;taja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Kiirgust&ouml;&ouml;taja on kohustatud kasutama kiirguskaitsevahendeid ega tohi oma tegevusega p&otilde;hjustada enda , teiste inimeste ja keskkonna ohustamist kiirguse kahjustava m&otilde;juga .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgust&ouml;&ouml;tajal peab olema kiirgustegevuse tingimustele vastavaid t&ouml;&ouml;oskusi ja teadmisi kinnitav kehtiv tunnistus .</s><s>Kiirgust&ouml;&ouml;tajate atesteerimise ja tunnistuse v&auml;ljastamise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud n&otilde;uete t&auml;itmise tagab ja finantseerib kiirgustegevusloa saanud isik .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Kiirgust&ouml;&ouml;tajate arstlik kontroll</s>
+</p>
+<p>
+<s>( 1 ) Kiirgust&ouml;&ouml;tajate arstliku kontrolli kord kehtestatakse sotsiaalministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Kui on alust arvata , et kiirgust&ouml;&ouml;taja on saanud kehtestatud piirm&auml;&auml;radest suuremat kiiritust , ei tohi ta kiirgust&ouml;&ouml;d j&auml;tkata enne , kui kiirituse asjaolusid ja p&otilde;hjusi on uuritud ning sotsiaalministri m&auml;&auml;ratud korras on t&ouml;&ouml; j&auml;tkamiseks antud luba .</s>
+</p>
+<p>
+<s>( 3 ) Kehtestatud piirm&auml;&auml;radest suurema kiirituse tuvastamise korral on kiirgustegevusloa saanud isik kohustatud peatama kiiritust p&otilde;hjustanud kiirgustegevuse ja suunama kiirgust&ouml;&ouml;tajad viivitamatult arstlikku kontrolli .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Elanikukiirituse piirm&auml;&auml;rad</s>
+</p>
+<p>
+<s>( 1 ) Elaniku poolt saadavat kiiritust , mida p&otilde;hjustab lubatud kiirgustegevus , k&auml;sitletakse elanikukiiritusena .</s><s>Elanikukiirituseks ei arvestata kutse- , meditsiini- ja looduskiiritust .</s>
+</p>
+<p>
+<s>( 2 ) Elanikukiirituse viie j&auml;rjestikuse aasta keskmine aastane efektiivdoos ei tohi &uuml;letada &uuml;hte millisiivertit .</s>
+</p>
+<p>
+<s>( 3 ) Elanikukiirituse aastane ekvivalentdoos ei tohi &uuml;letada :</s>
+</p>
+<p>
+<s>1 ) silmal&auml;&auml;tses 15 millisiivertit ;</s>
+</p>
+<p>
+<s>2 ) nahas ja j&auml;semetes 50 millisiivertit .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Elanikukiirituse hindamine</s>
+</p>
+<p>
+<s>( 1 ) Looduskiirgusest , kiirgustegevusest , kiirgusallikatest ja avariidest elanikkonnale p&otilde;hjustatud kiirgusdooside seire ja hindamise kord kehtestatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Elanikukiirituse v&otilde;imalikult madalal tasemel hoidmisel tuleb kiirgustegevuslubade v&auml;ljaandmisel samaaegselt arvesse v&otilde;tta :</s>
+</p>
+<p>
+<s>1 ) looduskiirituse taset ;</s>
+</p>
+<p>
+<s>2 ) kavandatavast kiirgustegevusest lisanduvat kiiritust ;</s>
+</p>
+<p>
+<s>3 ) kavandatava kiirgustegevuse tulemusena tekkivatest radioaktiivsetest j&auml;&auml;tmetest tulenevat riski .</s>
+</p>
+<p>
+<s>( 3 ) Elanikukiirituse hindamise andmed on avalikud .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Meditsiinikiiritus</s>
+</p>
+<p>
+<s>( 1 ) Meditsiinikiiritust saab :</s>
+</p>
+<p>
+<s>1 ) patsient haiguse diagnoosimisel ja ravimisel ;</s>
+</p>
+<p>
+<s>2 ) kiiritatavat patsienti hooldav isik , kui hooldamine ei ole tema kutset&ouml;&ouml; ja ta on teadlik patsiendi kiiritamisest ;</s>
+</p>
+<p>
+<s>3 ) isik , kes on vabatahtlikult andnud n&otilde;usoleku osaleda bioloogilistes v&otilde;i meditsiinilistes uuringutes .</s>
+</p>
+<p>
+<s>( 2 ) Kiirguse kasutamise n&otilde;uded haiguste ravimisel ja diagnoosimisel ning meditsiinikiiritust saavate isikute kaitse n&otilde;uded kehtestatakse sotsiaalministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Avariikiiritus</s>
+</p>
+<p>
+<s>( 1 ) Viivitamatuid kaitsemeetmeid n&otilde;udva avarii tagaj&auml;rjel saadud kiiritust k&auml;sitletakse avariikiiritusena .</s>
+</p>
+<p>
+<s>( 2 ) Plaanip&auml;rases sekkumistegevuses osaleva kiirgust&ouml;&ouml;taja avariikiiritus ei tohi &uuml;letada kutsekiirituse aastase efektiivdoosi piirm&auml;&auml;ra , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud juhtudel .</s>
+</p>
+<p>
+<s>( 3 ) Kui inimelude p&auml;&auml;stmise v&otilde;i inimeste t&otilde;siste vigastuste &auml;rahoidmise , elanikukiirituse suurte dooside v&otilde;i katastroofi v&auml;ltimise t&otilde;ttu ei ole v&otilde;imalik kutsekiirituse aastase efektiivdoosi piirm&auml;&auml;rast kinni pidada , tuleb sellises sekkumistegevuses osaleva kiirgust&ouml;&ouml;taja tervise kaitseks rakendada k&otilde;iki v&otilde;imalikke meetmeid .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 nimetatud kiirgust&ouml;&ouml;tajad allutatakse kohustuslikule arstlikule kontrollile .</s>
+</p>
+<p>
+<s>( 5 ) Kiirguskeskus otsustab arstliku uurimise alusel igal &uuml;ksikjuhul eraldi , kas sekkumistegevuses &uuml;lem&auml;&auml;raseid doose saanud kiirgust&ouml;&ouml;taja tohib enam kiirgust&ouml;&ouml;d j&auml;tkata .</s>
+</p>
+<p>
+<s>( 6 ) K&otilde;iki avarii m&otilde;jupiirkonnas olnud isikuid teavitatakse avariist ja nende suhtes kohaldatakse viivitamatult arstlikku kontrolli avarii tekitaja kulul .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kiirgusallikad</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>&Uuml;ldn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Kiirgusallika asukohaks olevate ruumide ja ehitiste ning nende konstruktsioonielementide ja kiirgusallika ohutu kasutamise n&otilde;uded kehtestatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgusallika valdaja on kiirgusallika ekspluatatsiooni l&otilde;petamisel kohustatud muutma kiirgusallika kiirgusohutuks .</s>
+</p>
+<p>
+<s>( 3 ) Kiirgusallika valdaja on kohustatud vastavaid volitusi omava riigiasutuse n&otilde;udmisel t&otilde;endama radioaktiivse aine v&otilde;i radioaktiivset ainet sisaldava kiirgusseadme valdamise seaduslikkust .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Ohutuse tagamine</s>
+</p>
+<p>
+<s>Pakend , m&auml;rgistus ja kaitsevahendid peavad tagama kiirgusallika ohutuse .</s><s>Kiirgusallika pakendamise , m&auml;rgistamise ja kaitsevahenditega varustamise n&otilde;uded kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Kiirgusallika paigaldamine , remont ja hooldus</s>
+</p>
+<p>
+<s>( 1 ) Kiirgusallikat tohib paigaldada , remontida ja hooldada kiirgustegevusloa valdaja .</s>
+</p>
+<p>
+<s>( 2 ) Remondi- ja hooldust&ouml;id , mis ei ole seotud kiirgusallikate kiirgusttekitavate osadega , tohib teha kiirgustegevusloata .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Kiirgusohutuse t&otilde;endamine</s>
+</p>
+<p>
+<s>( 1 ) Kiirgusallikate , kiirgusseadmete , kiirguskaitseseadmete , muude kiirgusohutuse seisukohalt oluliste aparaatide ja materjalide ning kiirgusallikaid sisaldavate tarbekaupade vastavust kiirgusohutuse n&otilde;uetele ei saa t&otilde;endada volitatud hindamisasutust kaasamata .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud toodete nomenklatuur kehtestatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Vastavustunnistuse annab volitatud hindamisasutusena Kiirguskeskus toote n&otilde;uetekohasuse t&otilde;endamise seaduses ( RT I 1997 , 81 , 1362 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Radioaktiivsete ainete , radioaktiivseid aineid sisaldavate kiirgusseadmete ja radioaktiivsete j&auml;&auml;tmete vedu ning ohum&auml;rgisega varustamine</s>
+</p>
+<p>
+<s>( 1 ) Radioaktiivsete ainete , radioaktiivseid aineid sisaldavate kiirgusallikate ja radioaktiivsete j&auml;&auml;tmete vedu tohib korraldada ainult kiirgustegevusloa alusel .</s>
+</p>
+<p>
+<s>( 2 ) Radioaktiivsete ainete konteinerid tuleb veol , ekspordil ja impordil , m&uuml;&uuml;gil v&otilde;i &uuml;leandmisel m&auml;rgistada ohum&auml;rgisega ning varustada kiirgusohutusalase dokumentatsiooniga .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 16.01.2002 j&otilde;ust.10.02.2002 - RT I 2002 , 9 , 46 )</s>
+</p>
+<p>
+<s>( 4 ) Radioaktiivsete ainete pakendamise ja ohum&auml;rgisega varustamise kord ning lisatava kiirgusohutusalase dokumentatsiooni n&otilde;uded kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Radioaktiivsed j&auml;&auml;tmed</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Radioaktiivsete j&auml;&auml;tmete m&otilde;iste</s>
+</p>
+<p>
+<s>Radioaktiivsed j&auml;&auml;tmed on :</s>
+</p>
+<p>
+<s>1 ) radioaktiivseid aineid sisaldavad v&otilde;i nendega saastunud ained ja esemed , milles radioaktiivse aine hulk on suurem k&auml;esoleva seaduse paragrahvis 6 kehtestatud piirm&auml;&auml;radest ja mida ei kavatseta tulevikus kasutada ;</s>
+</p>
+<p>
+<s>2 ) radioaktiivsed ained v&otilde;i radioaktiivseid aineid sisaldavad kiirgusseadmed , mille omanikku ei &otilde;nnestu tuvastada ;</s>
+</p>
+<p>
+<s>3 ) tuumarajatistes tekkinud radioaktiivsed ained v&otilde;i radioaktiivsete ainetega saastunud materjalid ning kasutusest l&otilde;plikult v&auml;lja viidud tuumarajatiste radioaktiivsed koostisosad .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Radioaktiivsete j&auml;&auml;tmete k&auml;itlemise p&otilde;hin&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Radioaktiivsete j&auml;&auml;tmete k&auml;itlemine on nende t&ouml;&ouml;tlemine , isoleerimine , &uuml;mberpaigutamine , hoidmine , l&otilde;pphoiustamine v&otilde;i nende kasutamise t&otilde;kestamine .</s>
+</p>
+<p>
+<s>( 2 ) Radioaktiivsete j&auml;&auml;tmete k&auml;itlemisel vastutab kiirgusohutuse eest kiirgustegevusloa saanud isik .</s>
+</p>
+<p>
+<s>( 3 ) Kui kiirgustegevusloa saanud isik ei t&auml;ida radioaktiivsete j&auml;&auml;tmete k&auml;itlemise n&otilde;udeid , t&auml;idetakse need tema kulul riigihanke korras .</s>
+</p>
+<p>
+<s>( 4 ) Kui radioaktiivsete j&auml;&auml;tmete omanik on teadmata v&otilde;i nende tekkimise eest vastutavat isikut ei &otilde;nnestu tuvastada , k&auml;ideldakse j&auml;&auml;tmed riigi kulul .</s>
+</p>
+<p>
+<s>( 5 ) Kui kiirgusallika v&otilde;i radioaktiivsete j&auml;&auml;tmete omandamine v&otilde;i valdusse v&otilde;tmine on vastuolus k&auml;esoleva seadusega , tuleb kiirgusallikas v&otilde;i radioaktiivsed j&auml;&auml;tmed anda &uuml;le radioaktiivsete j&auml;&auml;tmete k&auml;itlemisega tegelevale asutusele .</s>
+</p>
+<p>
+<s>( 6 ) Radioaktiivsete j&auml;&auml;tmete l&otilde;pphoiustamist korraldab riik , paigutades radioaktiivsed j&auml;&auml;tmed alatiseks l&otilde;pphoidlasse .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>( 7 ) Radioaktiivsete j&auml;&auml;tmete k&auml;itlemise kord ja radioaktiivsete j&auml;&auml;tmete eriaktiivsuse piirm&auml;&auml;rad radioaktiivsete j&auml;&auml;tmete k&auml;itlemisel kehtestatakse keskkonnaministri m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Radioaktiivsete j&auml;&auml;tmete &uuml;leandmise ja vastuv&otilde;tu kitsendused</s>
+</p>
+<p>
+<s>( 1 ) Radioaktiivsete j&auml;&auml;tmete &uuml;leandmine toimub keskkonnaministri kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Radioaktiivsete j&auml;&auml;tmete vastuv&otilde;tjal peab olema kiirgustegevusluba j&auml;&auml;tmete k&auml;itlemiseks .</s>
+</p>
+<p>
+<s>( 3 ) Radioaktiivsete j&auml;&auml;tmete vastuv&otilde;tja on kohustatud vastavaid volitusi omava riigiasutuse n&otilde;udmisel t&otilde;endama nende omamise seaduslikkust .</s>
+</p>
+<p>
+<s>( 4 ) Riik v&otilde;tab radioaktiivsed ained ja radioaktiivsed j&auml;&auml;tmed tasuta oma valdusse , kui :</s>
+</p>
+<p>
+<s>1 ) need on omandatud ebaseaduslikult ;</s>
+</p>
+<p>
+<s>2 ) neid kasutatakse inimese tervisele ja keskkonnale ohtlikul viisil .</s>
+</p>
+<p>
+<s>3 ) nende omanik on teadmata v&otilde;i nende tekkimise eest vastutavat isikut ei &otilde;nnestu tuvastada .</s>
+</p>
+<p>
+<s>( 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>( 5 ) Riigi valdusse v&otilde;etud radioaktiivsete ainete ja radioaktiivsete j&auml;&auml;tmete edasise k&auml;itlemise otsustab keskkonnaminister .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Radioaktiivsete j&auml;&auml;tmete eksport</s>
+</p>
+<p>
+<s>( 1 ) Radioaktiivsete j&auml;&auml;tmete ekspordiks peab olema luba , mille v&auml;ljaandja ja v&auml;ljaandmise kord kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 2 ) Radioaktiivsete j&auml;&auml;tmete eksport on keelatud :</s>
+</p>
+<p>
+<s>1 ) piirkondadesse , mis asuvad l&otilde;una pool 60o l&otilde;unalaiust ;</s>
+</p>
+<p>
+<s>2 ) Euroopa Liiduga mitte&uuml;hinenud riikidesse , mis on s&otilde;lminud Euroopa Liiduga vastava lepingu ;</s>
+</p>
+<p>
+<s>3 ) riikidesse , mis oma seadusega keelavad radioaktiivsete j&auml;&auml;tmete impordi ;</s>
+</p>
+<p>
+<s>4 ) riikidesse , mille puhul on alust arvata , et seal puudub v&otilde;imalus nende j&auml;&auml;tmete ohutuks k&auml;itlemiseks .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Radioaktiivsete j&auml;&auml;tmete impordi keeld</s>
+</p>
+<p>
+<s>Radioaktiivsete j&auml;&auml;tmete import Eestisse nende l&otilde;pphoiustamiseks on keelatud .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Riiklik j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Riiklikku j&auml;relevalvet k&auml;esoleva seaduse ja sellest tulenevate kiirgustegevuse n&otilde;uete t&auml;itmise &uuml;le teostatakse seadusega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Radioaktiivse aine , radioaktiivset ainet sisaldava kiirgusseadme ja radioaktiivsete j&auml;&auml;tmete omamise seaduslikkuse t&otilde;endamist saavad n&otilde;uda politseiasutused , keskkonnaj&auml;relevalveasutused ja Kiirguskeskus .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Seaduse rakendamise erijuhud</s>
+</p>
+<p>
+<s>( 1 ) Olemasolevad kiirgustegevusload tuleb &uuml;mber vahetada k&auml;esoleva seaduse n&otilde;uetele vastavateks kiirgustegevuslubadeks kolme aasta jooksul , arvates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>( 2 ) Arvates k&auml;esoleva seaduse j&otilde;ustumisest , rakendada :</s>
+</p>
+<p>
+<s>1 ) doosiregister &uuml;he aasta jooksul ;</s>
+</p>
+<p>
+<s>2 ) ( Kehtetu - 15.10.98 j&otilde;ust.13.11.98 - RT I 1998 , 97 , 1520 )</s>
+</p>
+<p>
+<s>3 ) kiirgust&ouml;&ouml;tajate atesteerimise kord kahe aasta jooksul .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Muudatused varasemates &otilde;igusaktides</s>
+</p>
+<p>
+<s>Rahvatervise seaduse ( RT I 1995 , 57 , 978 ; 1996 , 3 , 56 ; 49 , 953 ; 1997 , 37/38 , 569 ; 1999 , 30 , 415 ; 88 , 804 ; 2001 , 23 , 128 ) :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 4 punktist 5 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; ja kiirgusohtlike seadmete &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 12 l&otilde;ike 1 punktist 2 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; radionukliide sisaldavate ainete v&otilde;i seadmete , &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 19 l&otilde;ike 3 punktist 3 j&auml;etakse v&auml;lja s&otilde;nad &ldquo; ja kiirgusohtlike ainete v&otilde;i seadmete &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Juriidilise isiku vastutus kiirgusseaduse rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) Kiirgusallika kasutamise eest kiirgustegevusloata v&otilde;i aegunud kiirgustegevusloaga m&auml;&auml;ratakse juriidilisele isikule rahatrahv kuni 30 000 krooni .</s>
+</p>
+<p>
+<s>( 2 ) Kiirgusallika kasutamiseks antud kiirgustegevusloaga kehtestatud tingimuste v&otilde;i kiirgusseaduses ja selle alusel kehtestatud &otilde;igusaktides s&auml;testatud n&otilde;uete rikkumise eest m&auml;&auml;ratakse rahatrahv 10 000 kuni 20 000 krooni v&otilde;i v&otilde;etakse &auml;ra kiirgustegevusluba kuni kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 3 ) Radioaktiivsete ainete , neid sisaldavate v&otilde;i radioaktiivsete j&auml;&auml;tmete &uuml;leandmise eest isikutele , kellel puudub kiirgustegevusluba kiirgusallika kasutamiseks , m&auml;&auml;ratakse rahatrahv kuni 20 000 krooni .</s>
+</p>
+<p>
+<s>( 4 ) Radioaktiivse aine hoidmise , kasutamise , arvestamise , veo v&otilde;i k&auml;itlemise muude n&otilde;uete rikkumise eest , kui see tegevus ei toonud kaasa inimeste hukkumist v&otilde;i muud rasket tagaj&auml;rge , m&auml;&auml;rataks rahatrahv 10 000 kuni 20 000 krooni v&otilde;i v&otilde;etakse &auml;ra kiirgustegevusluba kuni kolmeks aastaks .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 , 2 , 3 , 4 nimetatud &otilde;iguserikkumiste asjades on haldus&otilde;iguse rikkumise protokolli koostamise &otilde;igus Keskkonnainspektsioonil .</s>
+</p>
+<p>
+<s>( 6 ) Asja arutamise ja karistuse m&auml;&auml;ramise &otilde;igus k&auml;esoleva paragrahvi l&otilde;igetes 1-4 nimetatud &otilde;iguserikkumiste asjades on maa- v&otilde;i linnakohtul .</s>
+</p>
+<p>
+<s>( 12.12.2000 j&otilde;ust.01.01.2001 - RT I 2000 , 102 , 670 )</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 , 2 , 3 , 4 loetletud juriidilise isiku haldus&otilde;iguserikkumise asjades , kaasa arvatud karistuse m&auml;&auml;ramine ja vaidlustamine ning j&otilde;ustunud halduskaristuse otsuste t&auml;itmine , toimub haldus&otilde;iguserikkumiste seadustikus ja t&auml;itemenetluse seadustikus etten&auml;htud korras .</s>
+</p>
+</body>
+   </text>
+</tei.2>

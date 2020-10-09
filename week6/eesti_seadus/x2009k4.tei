@@ -1,0 +1,1840 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Kohaliku omavalitsuse korralduse seadus ( terviktekst dets 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   10071</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Kohaliku omavalitsuse korralduse seadus ( terviktekst dets 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=9></tagusage>
+         <tagusage gi=p occurs=578></tagusage>
+         <tagusage gi=s occurs=711></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Kohaliku omavalitsuse korralduse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 2. juunil 1993. a.</s>
+</p>
+<p>
+<s>( RT I 1993 , 37 , 558 ; terviktekst RT I 1999 , 82 , 755 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 28. juunil 1993. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>04.12.2001 j&otilde;ust.21.10.2002 - RT I 2001 , 100 , 642 ;</s>
+</p>
+<p>
+<s>27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 ;</s>
+</p>
+<p>
+<s>13.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 322.</s>
+</p>
+<p>
+<s>I peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse eesm&auml;rk</s>
+</p>
+<p>
+<s>Kohaliku omavalitsuse korralduse seadus m&auml;&auml;rab kindlaks kohaliku omavalitsuse &uuml;lesanded , vastutuse ja korralduse ning omavalitsus&uuml;ksuste suhted omavahel ja riigiorganitega .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Kohaliku omavalitsuse m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Kohalik omavalitsus on p&otilde;hiseaduses s&auml;testatud omavalitsus&uuml;ksuse - valla v&otilde;i linna - demokraatlikult moodustatud v&otilde;imuorganite &otilde;igus , v&otilde;ime ja kohustus seaduste alusel iseseisvalt korraldada ja juhtida kohalikku elu , l&auml;htudes valla- v&otilde;i linnaelanike &otilde;igustatud vajadustest ja huvidest ning arvestades valla v&otilde;i linna arengu ise&auml;rasusi .</s>
+</p>
+<p>
+<s>( 2 ) Kohalik omavalitsus :</s>
+</p>
+<p>
+<s>1 ) rajaneb riigi territooriumi haldusjaotusel ;</s>
+</p>
+<p>
+<s>2 ) teostub demokraatlikult moodustatud esindus- ja v&otilde;imuorganite kaudu , samuti kohaliku elu k&uuml;simustes rahvak&uuml;sitluse v&otilde;i rahvaalgatuse teel .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Kohaliku omavalitsuse p&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>Kohalik omavalitsus rajaneb j&auml;rgmistel p&otilde;him&otilde;tetel :</s>
+</p>
+<p>
+<s>1 ) kohaliku elu k&uuml;simuste iseseisev ja l&otilde;plik otsustamine ja korraldamine ;</s>
+</p>
+<p>
+<s>2 ) iga&uuml;he seaduslike &otilde;iguste ja vabaduste kohustuslik tagamine vallas ja linnas ;</s>
+</p>
+<p>
+<s>3 ) seaduste j&auml;rgimine oma &uuml;lesannete ja kohustuste t&auml;itmisel ;</s>
+</p>
+<p>
+<s>4 ) valla- ja linnaelanike &otilde;igus osaleda kohaliku omavalitsuse teostamisel ;</s>
+</p>
+<p>
+<s>5 ) vastutus oma &uuml;lesannete t&auml;itmise eest ;</s>
+</p>
+<p>
+<s>6 ) tegevuse avalikkus ;</s>
+</p>
+<p>
+<s>7 ) avalike teenuste osutamine soodsaimatel tingimustel .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Omavalitsusorganid</s>
+</p>
+<p>
+<s>Omavalitsusorganid on :</s>
+</p>
+<p>
+<s>1 ) volikogu - kohaliku omavalitsus&uuml;ksuse esinduskogu , mis valitakse valla v&otilde;i linna h&auml;&auml;le&otilde;iguslike elanike poolt kohaliku omavalitsuse volikogu valimise seaduse alusel ;</s>
+</p>
+<p>
+<s>2 ) valitsus - volikogu poolt moodustatav t&auml;itevorgan .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Valla ja linna eelarve ning &otilde;igus kehtestada makse ja panna peale koormisi</s>
+</p>
+<p>
+<s>( 1 ) Vallal ja linnal on k&auml;esolevast seadusest ja eelarve- ning maksuseadustest l&auml;htuv iseseisev eelarve .</s>
+</p>
+<p>
+<s>( 2 ) Volikogul on seaduse alusel &otilde;igus kehtestada makse ja panna peale koormisi .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Omavalitsus&uuml;ksuse &uuml;lesanded ja p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Omavalitsus&uuml;ksuse &uuml;lesandeks on korraldada antud vallas v&otilde;i linnas sotsiaalabi ja -teenuseid , vanurite hoolekannet , noorsoot&ouml;&ouml;d , elamu- ja kommunaalmajandust , veevarustust ja kanalisatsiooni , heakorda , territoriaalplaneerimist , valla- v&otilde;i linnasisest &uuml;histransporti ning valla teede ja linnat&auml;navate korrashoidu , juhul kui need &uuml;lesanded ei ole seadusega antud kellegi teise t&auml;ita .</s>
+</p>
+<p>
+<s>( 17.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 27 , 392 )</s>
+</p>
+<p>
+<s>( 2 ) Omavalitsus&uuml;ksuse &uuml;lesandeks on korraldada antud vallas v&otilde;i linnas koolieelsete lasteasutuste , p&otilde;hikoolide , g&uuml;mnaasiumide ja huvialakoolide , raamatukogude , rahvamajade , muuseumide , spordibaaside , turva- ja hooldekodude , tervishoiuasutuste ning teiste kohalike asutuste &uuml;lalpidamist , juhul kui need on omavalitsus&uuml;ksuse omanduses .</s><s>Nimetatud asutuste osas v&otilde;idakse seadusega ette n&auml;ha teatud kulude katmist kas riigieelarvest v&otilde;i muudest allikatest .</s>
+</p>
+<p>
+<s>( 09.02.94 j&otilde;ust.11.03.94 - RT I 1994 , 12 , 200 )</s>
+</p>
+<p>
+<s>( 3 ) Lisaks k&auml;esoleva paragrahvi 1. ja 2.l&otilde;ikes s&auml;testatud &uuml;lesannetele otsustab ja korraldab omavalitsus&uuml;ksus neid kohaliku elu k&uuml;simusi :</s>
+</p>
+<p>
+<s>1 ) mis on talle pandud teiste seadustega ;</s>
+</p>
+<p>
+<s>2 ) mis ei ole seadusega antud kellegi teise otsustada ja korraldada .</s>
+</p>
+<p>
+<s>( 4 ) Omavalitsus&uuml;ksus t&auml;idab riiklikke kohustusi :</s>
+</p>
+<p>
+<s>1 ) mis on talle pandud seadusega ;</s>
+</p>
+<p>
+<s>2 ) mis tulenevad selleks volitatud riigiorgani ja antud volikogu vahelisest lepingust .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 4.l&otilde;ike punkti 1 alusel kohalikule omavalitsusele pandud kohustustega seotud kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Volikogu ja valitsuse &otilde;igusaktid</s>
+</p>
+<p>
+<s>( 1 ) Volikogul ja valitsusel on &otilde;igus anda &uuml;ldaktidena m&auml;&auml;rusi .</s>
+</p>
+<p>
+<s>( 2 ) Volikogul on &otilde;igus &uuml;ksikaktidena vastu v&otilde;tta otsuseid , valitsusel anda korraldusi .</s>
+</p>
+<p>
+<s>( 3 ) Volikogu ja valitsuse &otilde;igusaktid kehtivad antud omavalitsus&uuml;ksuse haldusterritooriumil .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Valla ja linna p&otilde;him&auml;&auml;rus</s>
+</p>
+<p>
+<s>Valla v&otilde;i linna p&otilde;him&auml;&auml;rus on &otilde;igusakt , milles s&auml;testatakse antud valla v&otilde;i linna omavalitsusorganite , nende komisjonide ning valla v&otilde;i linna ametiasutuste moodustamise kord , &otilde;igused , kohustused ja t&ouml;&ouml;kord .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Arengukava</s>
+</p>
+<p>
+<s>Valla v&otilde;i linna arengukava on dokument , mis sisaldab antud omavalitsus&uuml;ksuse majandusliku ja sotsiaalse olukorra ning keskkonnaseisundi anal&uuml;&uuml;si , pikemaajalise tegevuse kavandamise ning edasise arengu suundi ja eelistusi .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Vald ja linn avalik-&otilde;igusliku isikuna</s>
+</p>
+<p>
+<s>( 1 ) Nii vald kui ka linn on avalik-&otilde;iguslik isik , keda esindavad seaduste ja omavalitsus&uuml;ksuse p&otilde;him&auml;&auml;ruse alusel ning kehtestatud korras oma p&auml;devuse piires volikogu , volikogu esimees , valla- v&otilde;i linnavalitsus ning vallavanem v&otilde;i linnapea .</s>
+</p>
+<p>
+<s>( 2 ) Vallal ja linnal on avalik-&otilde;igusliku isikuna iseseisev eelarve , arveldusarve pangas ja oma s&uuml;mboolika .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Maakogu</s>
+</p>
+<p>
+<s>( Kehtetu - 23.11.94 j&otilde;ust.12.12.94 - RT I 1994 , 84 , 1475 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Omavalitsus&uuml;ksuste &otilde;igus moodustada liite ja &uuml;hisasutusi</s>
+</p>
+<p>
+<s>Omavalitsus&uuml;ksustel on &otilde;igus moodustada teiste omavalitsus&uuml;ksustega liite ja &uuml;hisasutusi &otilde;igusaktides s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Omavalitsus&uuml;ksuse &otilde;igus osaleda rahvusvahelistes organisatsioonides</s>
+</p>
+<p>
+<s>( 1 ) Omavalitsus&uuml;ksusel on &otilde;igus astuda vastavate rahvus- vaheliste organisatsioonide liikmeks v&otilde;i arendada nendega koost&ouml;&ouml;d .</s>
+</p>
+<p>
+<s>( 2 ) Suhetes rahvusvaheliste organisatsioonidega esindab omavalitsus&uuml;ksust tema volikogu v&otilde;i viimase poolt m&auml;&auml;ratud esindus .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Omavalitsus&uuml;ksuse vapp ja lipp</s>
+</p>
+<p>
+<s>( 1 ) Omavalitsus&uuml;ksusel v&otilde;ivad olla oma vapp ja lipp , mis kuuluvad koosk&otilde;lastamisele , kinnitamisele ja registreerimisele vastavalt seadusele .</s>
+</p>
+<p>
+<s>( 2 ) Vapi ja lipu kasutamine s&auml;testatakse seadusega ning valla v&otilde;i linna p&otilde;him&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Omavalitsus&uuml;ksuse lipp ei tohi normaalm&otilde;&otilde;tmetelt olla suurem riigilipust .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Omavalitsus&uuml;ksuse &otilde;iguste kaitse</s>
+</p>
+<p>
+<s>( 1 ) Omavalitsus&uuml;ksust likvideerida v&otilde;i selle piire v&otilde;i nime muuta ei tohi ilma antud valla v&otilde;i linna volikogu arvamust &auml;ra kuulamata .</s>
+</p>
+<p>
+<s>( 2 ) Volikogul on &otilde;igus antud omavalitsus&uuml;ksuse territooriumil korraldada olulistes k&uuml;simustes elanike k&uuml;sitlusi .</s>
+</p>
+<p>
+<s>( 3 ) Omavalitsus&uuml;ksusel on oma seaduslike &otilde;iguste kaitseks v&otilde;i vaidluste lahendamiseks &otilde;igus p&ouml;&ouml;rduda kohtusse .</s>
+</p>
+<p>
+<s>II peat&uuml;kk</s>
+</p>
+<p>
+<s>Volikogu</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Volikogu moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Volikogu valitakse kohaliku omavalitsuse volikogu valimise seaduse alusel &uuml;ldistel , &uuml;hetaolistel ja otsestel valimistel kolmeks aastaks , kusjuures h&auml;&auml;letamine on salajane .</s>
+</p>
+<p>
+<s>( 2 ) Volikogu liikmete arvu m&auml;&auml;rab volikogu eelmine koosseis .</s>
+</p>
+<p>
+<s>( 3 ) Volikogus peab olema v&auml;hemalt 7 liiget .</s><s>Liikmete arv m&auml;&auml;ratakse valla- v&otilde;i linnaelanike arvust l&auml;htudes valimiste aasta 1.jaanuari seisuga j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) &uuml;le 2000 elaniku , v&auml;hemalt 13-liikmeline volikogu ;</s>
+</p>
+<p>
+<s>2 ) &uuml;le 5000 elaniku , v&auml;hemalt 17-liikmeline volikogu ;</s>
+</p>
+<p>
+<s>3 ) &uuml;le 10000 elaniku , v&auml;hemalt 21-liimeline volikogu ;</s>
+</p>
+<p>
+<s>4 ) &uuml;le 50000 elaniku , v&auml;hemalt 31-liikmeline volikogu .</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Kui valimised toimuvad kohaliku omavalitsuse &uuml;ksuste &uuml;hinemise t&otilde;ttu , m&auml;&auml;ratakse valitava volikogu liikmete arv &uuml;hinemisel moodustatud valla v&otilde;i linna elanike arvust l&auml;htuvalt .</s>
+</p>
+<p>
+<s>( 25.02.98 j&otilde;ust.30.03.98 - RT I 1998 , 28 , 356 )</s>
+</p>
+<p>
+<s>( 4 ) Volikogu uue koosseisu ja tema liikmete volitused algavad ning volikogu eelmise koosseisu ja tema liikmete volitused l&otilde;pevad valimistulemuste v&auml;ljakuulutamise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Volikogu liige</s>
+</p>
+<p>
+<s>( 1 ) Volikogu liige on isik , kes on osutunud valituks vastavalt kohaliku omavalitsuse volikogu valimise seadusele ( RT I 1996 , 37 , 739 ; RT I 1999 , 60 , 618 ; 2001 , 95 , 588 ) .</s>
+</p>
+<p>
+<s>( 2 ) Volikogu liige juhindub seadusest , valla v&otilde;i linna &otilde;igusaktidest ning valla- v&otilde;i linnaelanike vajadustest ja huvidest .</s>
+</p>
+<p>
+<s>( 3 ) Volikogul on &otilde;igus maksta oma liikmetele h&uuml;vitust volikogu &uuml;lesannete t&auml;itmisel tehtud kulutuste ning p&otilde;hit&ouml;&ouml;kohal saamata j&auml;&auml;nud t&ouml;&ouml;tasu eest volikogu kehtestatud m&auml;&auml;ras ja korras .</s>
+</p>
+<p>
+<s>( 4 ) Volikogu esimehe v&otilde;i &uuml;he volikogu aseesimehe ametikoht v&otilde;ib volikogu otsusel olla palgaline .</s>
+</p>
+<p>
+<s>( 5 ) Volikogu liige ei tohi osa v&otilde;tta volikogu sellise &uuml;ksikakti arutamisest ja otsustamisest , mille suhtes on tal huvide konflikt vastavalt korruptsioonivastase seaduse ( RT I 1999 , 16 , 276 ; 87 , 791 ; 2000 , 25 , 145 ; 2001 , 58 , 357 ) paragrahv 25 l&otilde;ikele 1.</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;ikes 5 s&auml;testatud juhul on volikogu liige kohustatud enne k&uuml;simuse arutelu algust tegema avalduse enda mitteosalemise kohta antud p&auml;evakorrapunkti arutamisel .</s><s>Vastav m&auml;rge fikseeritakse volikogu istungi protokollis .</s><s>K&uuml;simuste arutamiseks ja otsustamiseks vajalik kvoorum on selle volikogu liikme v&otilde;rra v&auml;iksem .</s>
+</p>
+<p>
+<s>( 7 ) Volikogu liige on kohustatud esitama majanduslike huvide deklaratsiooni korruptsioonivastases seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Volikogu liikme volituste ennet&auml;htaegne l&otilde;ppemine</s>
+</p>
+<p>
+<s>Volikogu liikme volitused l&otilde;pevad enne t&auml;htaega seoses :</s>
+</p>
+<p>
+<s>1 ) volikogu tegutsemisv&otilde;imetusega ;</s>
+</p>
+<p>
+<s>2 ) tagasiastumisega ;</s>
+</p>
+<p>
+<s>3 ) v&auml;ljalangemisega Eesti h&auml;&auml;le&otilde;iguslike kodanike riiklikust registrist antud vallas v&otilde;i linnas ;</s>
+</p>
+<p>
+<s>4 ) nimetamisega kohtunikuks ;</s>
+</p>
+<p>
+<s>5 ) tahtliku kuriteo eest s&uuml;&uuml;dim&otilde;istva kohtuotsuse j&otilde;ustumisega ;</s>
+</p>
+<p>
+<s>6 ) j&otilde;ustunud kohtuotsusega , millega t&uuml;histati valla v&otilde;i linna valimiskomisjoni otsus tema registreerimise kohta volikogu liikmeks ;</s>
+</p>
+<p>
+<s>7 ) teov&otilde;imetuks tunnistamisega ;</s>
+</p>
+<p>
+<s>8 ) surmaga .</s>
+</p>
+<p>
+<s>( 2 ) Valla- v&otilde;i linnasekret&auml;r saadab hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul k&auml;esoleva paragrahvi 1. l&otilde;ike punktis 1 s&auml;testatud asjaolude teatavaks saamisest vastava teate valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ike punktis 2 s&auml;testatud juhul esitab volikogu liige vastava avalduse valla- v&otilde;i linnasekret&auml;rile , kes saadab selle hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul k&auml;ttesaamisest arvates valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 4 ) Valla- v&otilde;i linnasekret&auml;r saadab hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul k&auml;esoleva paragrahvi 1. l&otilde;ike punktides 3 , 4 ja 8 s&auml;testatud asjaolude teatavaks saamisest vastava teate valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 1. l&otilde;ike punktides 5-7 s&auml;testatud juhtudel saadab valla- v&otilde;i linnasekret&auml;r vastava kohtuotsuse hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul selle k&auml;ttesaamisest arvates valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 ; 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Volikogu liikme volituste peatumine</s>
+</p>
+<p>
+<s>Volikogu liikme volituste peatumine t&auml;hendab volikogu liikme ajutist vabanemist volikogu liikme &uuml;lesannete t&auml;itmisest .</s>
+</p>
+<p>
+<s>( 2 ) Volikogu liikme volitused peatuvad :</s>
+</p>
+<p>
+<s>1 ) valimisega Vabariigi Presidendiks , nimetamisega Vabariigi Valitsuse liikmeks , riigisekret&auml;riks , riigikontrol&ouml;riks , &otilde;iguskantsleriks v&otilde;i maavanemaks ;</s>
+</p>
+<p>
+<s>2 ) nimetamisega prokur&ouml;riks ;</s>
+</p>
+<p>
+<s>3 ) valimisega vallavanemaks v&otilde;i linnapeaks , kinnitamisega valla- v&otilde;i linnavalitsuse liikmeks ;</s>
+</p>
+<p>
+<s>4 ) nimetamisega valla- v&otilde;i linnaametnikuks ;</s>
+</p>
+<p>
+<s>5 ) asumisega tegevteenistusse kaitsev&auml;es v&otilde;i sellega v&otilde;rdsustatud teenistuses ;</s>
+</p>
+<p>
+<s>6 ) tema suhtes t&otilde;kendina vahi alla v&otilde;tmise kohaldamisega &uuml;le kolme kuu ;</s>
+</p>
+<p>
+<s>7 ) t&ouml;&ouml;&uuml;lesannete , &otilde;pingute t&otilde;ttu v&otilde;i muul p&otilde;hjusel , mis takistab volikogu istungitel osalemist v&auml;hemalt kolme j&auml;rjestikuse kuu ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ike punktis 3 s&auml;testatud piirang ei kehti volikogu uude koosseisu valitud eelmise koosseisu vallavanema , linnapea ja valitsuse liikmete suhtes , kes on esitanud lahkumispalve , kuid j&auml;tkavad oma tegevust kuni volikogu poolt uue valitsuse kinnitamiseni .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 2. l&otilde;ike punktides 1 ja 2 s&auml;testatud asjaolusid kinnitava dokumendi saamisel , kuid mitte hiljem kui kolme t&ouml;&ouml;p&auml;eva jooksul p&auml;rast Riigi Teatajas avaldamist saadab valla- v&otilde;i linnasekret&auml;r vastava teate valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 2. l&otilde;ike punktis 4 s&auml;testatud juhul saadab valla- v&otilde;i linnasekret&auml;r hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul p&auml;rast vastava korralduse vastuv&otilde;tmist selle valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi 2. l&otilde;ike punktides 5 ja 7 s&auml;testatud juhtudel saadab valla- v&otilde;i linnasekret&auml;r vastava avalduse hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva paragrahvi 2. l&otilde;ike punktis 6 s&auml;testatud juhul saadab valla- v&otilde;i linnasekret&auml;r hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul p&auml;rast vastava kohtum&auml;&auml;ruse k&auml;ttesaamist selle valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 ; 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Volikogu asendusliige</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-des 18 ja 19 s&auml;testatud juhtudel astub volikogu liikme asemele volikogu asendusliige .</s><s>Asendusliige m&auml;&auml;ratakse valimiskomisjoni otsusega valimiskomisjoni kinnitatud asendusliikmete nimekirja alusel .</s>
+</p>
+<p>
+<s>( 2 ) Volikogu liikme volitused l&otilde;pevad enne t&auml;htaega k&auml;esoleva seaduse &sect; 18 l&otilde;ikes 1 s&auml;testatud juhtudel .</s><s>Asendusliikme volitused volikogu liikmena algavad valla v&otilde;i linna valimiskomisjoni otsuse j&otilde;ustumise hetkest .</s>
+</p>
+<p>
+<s>( 3 ) Volikogu liikme volitused peatuvad ning asendusliikme volitused volikogu liikmena algavad valla v&otilde;i linna valimiskomisjoni otsuse j&otilde;ustumise hetkest .</s><s>Volikogu liikme volituste peatumine ja asendusliikme m&auml;&auml;ramine vormistatakse &uuml;he otsusega .</s>
+</p>
+<p>
+<s>( 4 ) Valla v&otilde;i linna valimiskomisjon teeb &sect;-des 18 , 19 ja 20 <hi rend="sup">1</hi> etten&auml;htud otsused viie t&ouml;&ouml;p&auml;eva jooksul p&auml;rast vastava otsuse aluseks oleva dokumendi k&auml;ttesaamist ja saadab need viivitamata valla- v&otilde;i linnasekret&auml;rile .</s><s>Kui valla v&otilde;i linna valimiskomisjon on valitud volikogu liikme registreerimisel teadlik sellest , et k&auml;esoleva seaduse &sect; 18 1. l&otilde;ikes v&otilde;i &sect; 19 2. l&otilde;ikes s&auml;testatud asjaolude t&otilde;ttu volikogu liige ei saa volikogu t&ouml;&ouml;s osaleda v&otilde;i on esitanud loobumisavalduse , m&auml;&auml;rab valimiskomisjon tema asemele kohe asendusliikme .</s>
+</p>
+<p>
+<s>( 5 ) Volikogu liikme volituste ennet&auml;htaegsel l&otilde;ppemisel v&otilde;i peatumisel saab volikogu liikmeks esimene sama erakonna v&otilde;i valimisliidu valimata j&auml;&auml;nud kandidaat , kes kandideeris samas valimisringkonnas , milles kandideeris asendatav volikogu liige .</s><s>Kui esimene asendusliige loobub v&otilde;i ei saa volikogu t&ouml;&ouml;s osaleda k&auml;esoleva seaduse &sect; 18 1. l&otilde;ikes v&otilde;i &sect; 19 2. l&otilde;ikes m&auml;rgitud p&otilde;hjustel , saab volikogu liikmeks j&auml;rgmine sama erakonna v&otilde;i valimisliidu samas valimisringkonnas valimata j&auml;&auml;nud kandidaat .</s>
+</p>
+<p>
+<s>( 6 ) Kui asendusliige teatab kirjalikult oma loobumisest v&otilde;i ei saa volikogu t&ouml;&ouml;s osaleda k&auml;esoleva seaduse &sect; 18 1. l&otilde;ikes m&auml;rgitud p&otilde;hjustel , kaotab asendusliige oma koha asendusliikmete nimekirjas .</s>
+</p>
+<p>
+<s>( 7 ) Kui esimene asendusliige ei saa volikogu t&ouml;&ouml;s osaleda k&auml;esoleva seaduse &sect; 19 2. l&otilde;ikes m&auml;rgitud p&otilde;hjustel , j&auml;&auml;b esimene asendusliige asendusliikmete nimekirja .</s>
+</p>
+<p>
+<s>( 8 ) Kui asendatav volikogu liige kandideeris &uuml;ksikkandidaadina v&otilde;i kui selles valimisringkonnas samal erakonnal v&otilde;i valimisliidul rohkem asendusliikmeid ei ole , saab volikogu liikmeks asendusliige , kes on m&auml;&auml;ratud erakondade ja valimisliitude vahel jaotatud lisamandaadi alusel , mille on registreerinud valla v&otilde;i linna valimiskomisjon .</s><s>Kui selles valimisringkonnas &uuml;helgi erakonnal v&otilde;i valimisliidul rohkem asendusliikmeid ei ole , saab volikogu liikmeks selles valimisringkonnas valimata j&auml;&auml;nud kandidaatidest k&otilde;ige rohkem h&auml;&auml;li saanud kandidaat .</s>
+</p>
+<p>
+<s>( 9 ) Kui valimisringkonna kandidaatide koondnimekirjas on ainult &uuml;ksikkandidaadid , on volikogu liikmeks esimene samas valimisringkonnas valimata j&auml;&auml;nud &uuml;ksikkandidaat .</s><s>Kui esimene valimata j&auml;&auml;nud &uuml;ksikkandidaat loobub v&otilde;i tema volitused l&otilde;pevad v&otilde;i peatuvad , on volikogu liikmeks j&auml;rgmine valimata j&auml;&auml;nud &uuml;ksikkandidaat .</s>
+</p>
+<p>
+<s>( 10 ) Kui &uuml;ksikkandidaat teatab kirjalikult oma loobumisest v&otilde;i ei saa volikogu t&ouml;&ouml;s osaleda k&auml;esoleva seaduse &sect; 18 1. l&otilde;ikes m&auml;rgitud p&otilde;hjustel , ei saa teda hiljem enam volikogu liikmeks m&auml;&auml;rata .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 20 <hi rend="sup">1</hi> .</s><s>Volikogu liikme volituste taastumine</s>
+</p>
+<p>
+<s>( 1 ) Volikogu liikme volituste taastumiseks esitab ta vastava avalduse valla- v&otilde;i linnasekret&auml;rile , kes saadab selle hiljemalt kolme t&ouml;&ouml;p&auml;eva jooksul valla v&otilde;i linna valimiskomisjonile .</s>
+</p>
+<p>
+<s>( 2 ) Volikogu liikme volituste taastumisel l&otilde;pevad selle asendusliikme volitused , kes on viimasena m&auml;&auml;ratud asendama lisamandaadi alusel v&otilde;i samas erakonnas v&otilde;i valimisliidus kandideerinud volikogu liiget sellest valimisringkonnast .</s>
+</p>
+<p>
+<s>( 3 ) Kui valimisringkonna kandidaatide koondnimekirjas on ainult &uuml;ksikkandidaadid , l&otilde;pevad volikogu liikme volituste taastumisel selle volikogu liikme volitused , kes on viimasena m&auml;&auml;ratud asendama volikogu liiget sellest valimisringkonnast .</s>
+</p>
+<p>
+<s>( 4 ) Volikogu liikme volitused taastuvad ja teda asendanud volikogu liikme volitused l&otilde;pevad valla v&otilde;i linna valimiskomisjoni otsuse j&otilde;ustumise hetkest .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 21. ( Kehtetu - 16.05.96 j&otilde;ust.08.06.96 - RT I 1996 , 37 , 739 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Volikogu p&auml;devus</s>
+</p>
+<p>
+<s>Volikogu ainup&auml;devusse kuulub j&auml;rgmiste k&uuml;simuste otsustamine :</s>
+</p>
+<p>
+<s>1 ) valla- v&otilde;i linnaeelarve vastuv&otilde;tmine ja muutmine ning selle t&auml;itmise aruande kinnitamine ning audiitori m&auml;&auml;ramine ;</s>
+</p>
+<p>
+<s>2 ) kohalike maksude kehtestamine , muutmine ja kehtetuks tunnistamine ;</s>
+</p>
+<p>
+<s>3 ) valla v&otilde;i linna eelarvesse laekuvate kohalike maksude puhul soodustuste andmise korra kehtestamine ;</s>
+</p>
+<p>
+<s>4 ) koormiste m&auml;&auml;ramine ;</s>
+</p>
+<p>
+<s>5 ) toetuste andmise ja valla v&otilde;i linna eelarvest finantseeritavate teenuste osutamise korra kehtestamine ;</s>
+</p>
+<p>
+<s>6 ) valla- v&otilde;i linnavara valitsemise , kasutamise ja k&auml;sutamise korra kehtestamine ;</s>
+</p>
+<p>
+<s>7 ) valla v&otilde;i linna arengukava vastuv&otilde;tmine ja muutmine ;</s>
+</p>
+<p>
+<s>8 ) laenude ja teiste varaliste kohustuste v&otilde;tmine ;</s>
+</p>
+<p>
+<s>9 ) valla v&otilde;i linna p&otilde;him&auml;&auml;ruse kinnitamine , muutmine ja kehtetuks tunnistamine ;</s>
+</p>
+<p>
+<s>10 ) taotluse esitamine v&otilde;i arvamuse andmine valla v&otilde;i linna piiride v&otilde;i valla v&otilde;i linna nime muutmiseks ning sellega seotud varaliste v&otilde;i muude vaidluste lahendamiseks ;</s>
+</p>
+<p>
+<s>11 ) osavalla ja linnaosa moodustamine ja l&otilde;petamine , tema p&auml;devuse kindlaksm&auml;&auml;ramine ja p&otilde;him&auml;&auml;ruse kinnitamine ;</s>
+</p>
+<p>
+<s>12 ) volikogu j&auml;rgmise koosseisu liikmete arvu m&auml;&auml;ramine ;</s>
+</p>
+<p>
+<s>13 ) valimisringkondade arvu , piiride ja &uuml;htse numeratsiooni ning igas valimisringkonnas mandaatide arvu m&auml;&auml;ramine , valla v&otilde;i linna valimiskomisjoni ja jaoskonnakomisjoni moodustamine ;</s>
+</p>
+<p>
+<s>14 ) volikogu esimehe , aseesimehe v&otilde;i aseesimeeste valimine ;</s>
+</p>
+<p>
+<s>15 ) vallavanema v&otilde;i linnapea valimine ja ametist vabastamine ;</s>
+</p>
+<p>
+<s>16 ) valitsuse liikmete arvu ja valitsuse struktuuri kinnitamine ;</s>
+</p>
+<p>
+<s>17 ) valitsuse liikmete kinnitamine ja nende vabastamine valitsuse liikmete kohustustest ning palgaliste valitsusliikmete ametisse nimetamine ja ametist vabastamine ;</s>
+</p>
+<p>
+<s>18 ) umbusalduse avaldamine volikogu esimehele , volikogu aseesimehele , volikogu komisjoni esimehele , volikogu komisjoni aseesimehele , revisjonikomisjoni liikmele , valitsusele , vallavanemale v&otilde;i linnapeale v&otilde;i valitsuse liikmele ;</s>
+</p>
+<p>
+<s>19 ) vallavanemale v&otilde;i linnapeale ja palgalistele valitsusliikmetele t&ouml;&ouml;tasu m&auml;&auml;ramine ning teistele valitsusliikmetele h&uuml;vituse maksmise otsustamine ja selle suuruse m&auml;&auml;ramine ;</s>
+</p>
+<p>
+<s>20 ) volikogu komisjonide moodustamine ja tegevuse l&otilde;petamine , nende esimeeste ja aseesimeeste valimine volikogu liikmete hulgast ja komisjonide koosseisu kinnitamine ;</s>
+</p>
+<p>
+<s>21 ) volikogu esimehele v&otilde;i &uuml;hele aseesimehele t&ouml;&ouml;tasu v&otilde;i h&uuml;vituse m&auml;&auml;ramine v&otilde;i aseesimeestele h&uuml;vituse m&auml;&auml;ramine ;</s>
+</p>
+<p>
+<s>22 ) volikogu liikmetele volikogu &uuml;lesannete t&auml;itmisel tehtud kulutuste ning volikogu t&ouml;&ouml;st osav&otilde;tu eest h&uuml;vituse suuruse ja maksmise korra kehtestamine ;</s>
+</p>
+<p>
+<s>23 ) valla v&otilde;i linna esindamise korra kehtestamine ;</s>
+</p>
+<p>
+<s>24 ) valla v&otilde;i linna poolt &auml;ri&uuml;hingu ja sihtasutuse asutamine , l&otilde;petamine ning p&otilde;hikirja kinnitamine ja muutmine ;</s>
+</p>
+<p>
+<s>25 ) valla v&otilde;i linna osalemise otsustamine &auml;ri&uuml;hingus , sihtasutuses , mittetulundus&uuml;hingus ning nendes osalemise l&otilde;petamise otsustamine ;</s>
+</p>
+<p>
+<s>26 ) kohtukaasistujate valimine ;</s>
+</p>
+<p>
+<s>27 ) Vabariigi Presidendi valimiskogusse volikogu esindaja v&otilde;i esindajate valimine ;</s>
+</p>
+<p>
+<s>28 ) maavanema kandidatuuri koosk&otilde;lastamiseks volikogu esindaja valimine ;</s>
+</p>
+<p>
+<s>29 ) valla v&otilde;i linna ehitusm&auml;&auml;ruse kinnitamine , muutmine ja t&uuml;histamine ;</s>
+</p>
+<p>
+<s>30 ) kinnisasja sundv&otilde;&otilde;randamise taotluse esitamine ;</s>
+</p>
+<p>
+<s>31 ) &uuml;ldplaneeringu algatamine , kehtestamine ja t&uuml;histamine ;</s>
+</p>
+<p>
+<s>32 ) &uuml;ldplaneeringu projekti vastuv&otilde;tmine ja avaliku v&auml;ljapaneku v&auml;ljakuulutamine ;</s>
+</p>
+<p>
+<s>33 ) detailplaneeringu kehtestamine ja t&uuml;histamine ;</s>
+</p>
+<p>
+<s>34 ) valla v&otilde;i linna ametiasutuse ja valla v&otilde;i linna ametiasutuse hallatava asutuse moodustamine , &uuml;mberkorraldamine ja tegevuse l&otilde;petamine ning ametiasutuse p&otilde;him&auml;&auml;ruse kinnitamine ;</s>
+</p>
+<p>
+<s>35 ) valla- v&otilde;i linnaametnikele sotsiaalsete garantiide kehtestamine ;</s>
+</p>
+<p>
+<s>36 ) valla v&otilde;i linna ametiasutuste struktuuri ja teenistujate koosseisu ning palgam&auml;&auml;rade ja palgatingimuste kinnitamine ;</s>
+</p>
+<p>
+<s>37 ) muud seadusega volikogu ainup&auml;devusse antud k&uuml;simused .</s>
+</p>
+<p>
+<s>Seadusega kohaliku omavalitsuse , kohaliku omavalitsus&uuml;ksuse v&otilde;i kohaliku omavalitsusorgani p&auml;devusse antud k&uuml;simusi otsustab kohaliku omavalitsuse volikogu , kes v&otilde;ib delegeerida nende k&uuml;simuste lahendamise valitsusele .</s>
+</p>
+<p>
+<s>( 3 ) Kohaliku omavalitsuse volikogu v&otilde;ib delegeerida valla- v&otilde;i linnavalitsusele muudatuste tegemise aasta jooksul ametiasutuste struktuuris ja teenistujate koosseisus volikogu poolt kinnitatud teenistujate &uuml;ldarvu ja palgafondi piires .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Volikogu &otilde;igusaktidele esitatavad n&otilde;uded ja &otilde;igusaktide j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Volikogu &otilde;igusaktid avalikustatakse valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras .</s><s>Kui valla v&otilde;i linna p&otilde;him&auml;&auml;ruses ei ole s&auml;testatud teisiti , loetakse volikogu m&auml;&auml;rus avalikustatuks p&auml;rast tema v&auml;ljapanekut valla- v&otilde;i linnakantseleis .</s><s>Volikogu m&auml;&auml;rused j&otilde;ustuvad kolmandal p&auml;eval p&auml;rast nende avalikustamist , kui &otilde;igusaktis eneses ei ole s&auml;testatud hilisemat j&otilde;ustumise t&auml;htaega .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;&auml;ruses ei saa kehtestada tagasiulatuvalt s&auml;tteid , mis toovad kaasa isikute kohustuste ja vastutuse suurenemise .</s>
+</p>
+<p>
+<s>( 3 ) Volikogu otsused j&otilde;ustuvad neis s&auml;testatud t&auml;htajal ning need tuleb saata t&auml;itjatele ja asjaosalistele .</s>
+</p>
+<p>
+<s>( 4 ) Volikogu m&auml;&auml;rustele ja otsustele kirjutab alla volikogu esimees v&otilde;i tema asendaja .</s>
+</p>
+<p>
+<s>( 5 ) Volikogu m&auml;&auml;rused ja otsused ning istungite protokollid peavad olema seaduses ja valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras k&auml;ttesaadavad k&otilde;igile isikutele .</s>
+</p>
+<p>
+<s>( 6 ) &Uuml;ldist t&auml;htsust omavad volikogu m&auml;&auml;rused saadetakse Riigikantseleile avaldamiseks kinnitatud &auml;rakirjana nii paberkandjal kui elektroonilisel kujul Riigikantselei poolt antud tehniliste juhiste kohaselt n&auml;dala jooksul p&auml;rast aktile allakirjutamist .</s>
+</p>
+<p>
+<s>( 7 ) Volikogu m&auml;&auml;rused ja otsused ning istungite protokollid vormistatakse ja avalikustatakse eesti keeles .</s><s>Omavalitsus&uuml;ksustes , mille p&uuml;sielanike enamiku keel ei ole eesti keel , v&otilde;idakse volikogu istungite protokollid lisaks eesti keelele vormistada ka selle omavalitsus&uuml;ksuse p&uuml;sielanike enamiku moodustava v&auml;hemusrahvuse keeles .</s>
+</p>
+<p>
+<s>( 04.12.2001 j&otilde;ust.21.10.2002 - RT I 2001 , 100 , 642 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>&Otilde;igusaktide t&auml;itmise kontroll</s>
+</p>
+<p>
+<s>Seaduste ja volikogu m&auml;&auml;ruste ning otsuste ja valla- v&otilde;i linnavalitsuse m&auml;&auml;ruste ning korralduste t&auml;itmist kontrollivad seaduses ja valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras volikogu ja valitsus .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>T&ouml;&ouml;andja kohustus volikogu liikme ees</s>
+</p>
+<p>
+<s>T&ouml;&ouml;andja on kohustatud v&otilde;imaldama volikogu liikmel osa v&otilde;tta volikogu istungitest ja tema komisjonide koosolekutest ning t&auml;ita volikogu antud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Volikogu liikme &otilde;igus saada teavet</s>
+</p>
+<p>
+<s>Volikogu liikmel on &otilde;igus saada volikogu ja valitsuse &otilde;igusakte , dokumente ja muud teavet , v&auml;lja arvatud andmed , mille v&auml;ljastamine on seadusega keelatud .</s>
+</p>
+<p>
+<s>III peat&uuml;kk</s>
+</p>
+<p>
+<s>Valitsus</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Vallavanema ja linnapea valimine</s>
+</p>
+<p>
+<s>Vallavanema v&otilde;i linnapea valib volikogu k&auml;esolevas seaduses ja valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud tingimustel ja korras kuni kolmeks aastaks .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Vallavanema ja linnapea &otilde;igus moodustada valitsus</s>
+</p>
+<p>
+<s>( 1 ) Vallavanemal v&otilde;i linnapeal on valituks osutumise p&auml;evast volitus moodustada valitsus .</s>
+</p>
+<p>
+<s>( 2 ) Valitsuse moodustamise &uuml;ksikasjaline kord s&auml;testatakse valla v&otilde;i linna p&otilde;him&auml;&auml;ruses .</s>
+</p>
+<p>
+<s>( 3 ) Seaduses ja valla v&otilde;i linna p&otilde;him&auml;&auml;ruses etten&auml;htud volitused saab vallavanem v&otilde;i linnapea valitsuse ametisse kinnitamise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Valitsuse volituste t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Valla- v&otilde;i linnavalitsus saab oma volitused volikogu poolt valitsuse ametisse kinnitamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Valitsus esitab lahkumispalve volikogu uue koosseisu esimesel istungil .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast lahkumispalve esitamist t&auml;idab valla- v&otilde;i linnavalitsus oma &uuml;lesandeid ja tema volitused kehtivad kuni uue valitsuse ametisse kinnitamiseni .</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Valla- ja linnavalitsuse p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Valla- v&otilde;i linnavalitsus :</s>
+</p>
+<p>
+<s>1 ) valmistab ette volikogus arutamisele tulevaid k&uuml;simusi , l&auml;htudes valitsuse seisukohtadest v&otilde;i volikogu otsustest ;</s>
+</p>
+<p>
+<s>2 ) lahendab ja korraldab kohaliku elu k&uuml;simusi , mis volikogu m&auml;&auml;ruste v&otilde;i otsustega v&otilde;i valla v&otilde;i linna p&otilde;him&auml;&auml;rusega on pandud t&auml;itmiseks valitsusele ;</s>
+</p>
+<p>
+<s>3 ) lahendab ja korraldab kohaliku elu k&uuml;simusi , mis ei kuulu volikogu p&auml;devusse ;</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>4 ) lahendab k&uuml;simusi , mis on k&auml;esoleva seaduse &sect; 22 2. l&otilde;ike alusel delegeeritud valitsusele .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 2 ) Valitsus v&otilde;ib taotleda volikogu ees volikogu poolt vastuv&otilde;etud m&auml;&auml;ruse v&otilde;i otsuse uuesti l&auml;bivaatamist .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Valla- ja linnavalitsuse m&auml;&auml;rustele ning korraldustele esitatavad n&otilde;uded ja nende j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) M&auml;&auml;rused ja korraldused peavad olema valla v&otilde;i linna p&otilde;him&auml;&auml;ruses kehtestatud korras avalikustatud enne nende j&otilde;ustumist ja k&auml;ttesaadavad k&otilde;igile isikutele .</s>
+</p>
+<p>
+<s>( 2 ) Ei avalikustata andmeid , mille v&auml;ljastamine on seadusega keelatud v&otilde;i m&otilde;eldud &uuml;ksnes valla v&otilde;i linna ametiasutuse siseseks kasutamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Valla- ja linnavalitsuse m&auml;&auml;rused ja korraldused vormistatakse ja avalikustatakse eesti keeles .</s>
+</p>
+<p>
+<s>( 4 ) M&auml;&auml;rus j&otilde;ustub kolmandal p&auml;eval p&auml;rast avalikustamist , kui m&auml;&auml;ruses eneses ei ole s&auml;testatud hilisemat t&auml;htp&auml;eva .</s>
+</p>
+<p>
+<s>( 20.01.99 j&otilde;ust.01.03.99 - RT I 1999 , 10 , 155 )</s>
+</p>
+<p>
+<s>( 5 ) Valitsuse korraldused j&otilde;ustuvad neis etten&auml;htud t&auml;htajal ning need tuleb saata t&auml;itjatele ja teistele asjaosalistele .</s>
+</p>
+<p>
+<s>M&auml;&auml;rustele ja teistele valitsuse dokumentidele kirjutab alla vallavanem v&otilde;i linnapea ja valla- v&otilde;i linnasekret&auml;r .</s>
+</p>
+<p>
+<s>IV peat&uuml;kk</s>
+</p>
+<p>
+<s>Valla- v&otilde;i linnaelanike osalemine kohaliku omavalitsuse teostamises</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>&Otilde;igusaktide algatamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) V&auml;hemalt &uuml;hel protsendil h&auml;&auml;le&otilde;iguslikel valla- v&otilde;i linnaelanikel , kuid mitte v&auml;hem kui viiel h&auml;&auml;le&otilde;iguslikul valla- v&otilde;i linnaelanikul , on &otilde;igus teha kohaliku elu k&uuml;simustes valla- v&otilde;i linnavolikogu v&otilde;i -valitsuse &otilde;igusaktide vastuv&otilde;tmiseks , muutmiseks v&otilde;i t&uuml;histamiseks algatusi , mis v&otilde;etakse arutusele hiljemalt kolme kuu jooksul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud algatus esitatakse valla- v&otilde;i linnavalitsusele vastava eeln&otilde;una , millele lisatakse allkirjadega varustatud algatuse esitajate nimekiri .</s><s>Kui algatatud k&uuml;simus kuulub volikogu p&auml;devusse , esitab valitsus selle &uuml;he kuu jooksul volikogule lahendamiseks koos omapoolse seisukohaga .</s>
+</p>
+<p>
+<s>( 3 ) Algatuse esitajate esindajal on &otilde;igus osaleda algatuse arutelus volikogus v&otilde;i valitsuses .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Muudatuste taotlemine volikogu ja valitsuse &otilde;igusaktides</s>
+</p>
+<p>
+<s>( 1 ) Iga&uuml;hel on &otilde;igus taotleda volikogult v&otilde;i valitsuselt nende poolt vastuv&otilde;etud &otilde;igusaktidesse muudatuste tegemist v&otilde;i nende t&uuml;histamist , kui nendega on seadusvastaselt kitsendatud tema &otilde;igusi .</s>
+</p>
+<p>
+<s>( 2 ) Kui volikogu v&otilde;i valitsus j&auml;tab antud &otilde;igusakti muutmata v&otilde;i t&uuml;histamata , on taotlejal &otilde;igus p&ouml;&ouml;rduda k&uuml;simuse lahendamiseks kohtusse .</s>
+</p>
+<p>
+<s>V peat&uuml;kk</s>
+</p>
+<p>
+<s>Majandus ja eelarve</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Munitsipaalomand</s>
+</p>
+<p>
+<s>( 1 ) Munitsipaalomand on vallale v&otilde;i linnale kuuluv vara .</s>
+</p>
+<p>
+<s>( 2 ) Oma vara valdamise , kasutamise ja k&auml;sutamise korra s&auml;testab valla- v&otilde;i linnavolikogu vastavalt seadusele valla v&otilde;i linna p&otilde;him&auml;&auml;ruses .</s>
+</p>
+<p>
+<s>( 3 ) Kohalik omavalitsus v&otilde;ib talle riigi poolt tasuta omandisse antud kinnisasja v&otilde;&otilde;randada juhul , kui kinnisasi ei ole enam vajalik v&otilde;i on muutunud k&otilde;lbmatuks kohaliku omavalitsus&uuml;ksuse &uuml;lesannete t&auml;itmiseks .</s><s>Riigi poolt tasuta antud kinnisasja v&otilde;ib v&otilde;&otilde;randada ainult kohaliku omavalitsuse volikogu poolt kehtestatud korras .</s>
+</p>
+<p>
+<s>( 29.01.97 j&otilde;ust.02.03.97 - RT I 1997 , 13 , 210 )</s>
+</p>
+<p>
+<s>( 4 ) Kohalikul omavalitsus&uuml;ksusel on ostuees&otilde;igus tema haldusterritooriumil asuva ehitise v&otilde;&otilde;randamisel era&otilde;iguslike isikute poolt , kui seda ehitist on osaliselt v&otilde;i tervikuna enne v&otilde;&otilde;randamist v&auml;hemalt &uuml;he aasta jooksul kasutatud haridus- , tervishoiu- , kultuuri- v&otilde;i kasvatusasutusena .</s><s>Muus osas kohaldatakse ostuees&otilde;igusele asja&otilde;igusseaduse ( RT I 1993 , 39 , 590 ; RT I 1999 , 44 , 509 ; 2001 , 34 , 185 ; 93 , 565 ) s&auml;tteid .</s>
+</p>
+<p>
+<s>( 29.01.97 j&otilde;ust.02.03.97 - RT I 1997 , 13 , 210 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Majandustegevus ja osalemine juriidilistes isikutes</s>
+</p>
+<p>
+<s>( 1 ) Vald v&otilde;i linn v&otilde;ib teenuste osutamiseks asutada valla v&otilde;i linna ametiasutuse hallatavaid asutusi , mis ei ole juriidilised isikud , olla osanikuks v&otilde;i aktsion&auml;riks valla v&otilde;i linna arengu seisukohast olulises &auml;ri&uuml;hingus , samuti asutada sihtasutusi ja olla mittetulundus&uuml;hingu liikmeks .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>( 2 ) Valla v&otilde;i linna ametiasutuse hallatava asutuse asutamise ja selle tegevuse l&otilde;petamise otsustab volikogu .</s><s>Hallatava asutuse p&otilde;him&auml;&auml;ruse kinnitamine ja selle muutmine toimub volikogu poolt s&auml;testatud korras .</s><s>Valla v&otilde;i linna ametiasutus ja ametiasutuse hallatav asutus registreeritakse riigi ja kohaliku omavalitsuse asutuste registris .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>( 3 ) Sihtasutuse , mille ainuasutajaks on vald v&otilde;i linn , samuti osa&uuml;hingu v&otilde;i aktsiaseltsi , mille ainsaks osanikuks v&otilde;i aktsion&auml;riks on vald v&otilde;i linn , asutamise , &uuml;hinemise , jagunemise ja &uuml;mberkujundamise ja l&otilde;petamise otsustab ning p&otilde;hikirja ja selle muudatused kinnitab kohaliku omavalitsuse volikogu .</s><s>Sihtasutuse , osa&uuml;hingu v&otilde;i aktsiaseltsi n&otilde;ukogu liikmed nimetab , samuti muid asutaja , osaniku v&otilde;i aktsion&auml;ri &otilde;igusi teostab valla- v&otilde;i linnavalitsus .</s><s>Kui osa&uuml;hingul ei ole n&otilde;ukogu , nimetab valla- v&otilde;i linnavalitsus osa&uuml;hingu juhatuse liikmed .</s>
+</p>
+<p>
+<s>( 12.06.96 j&otilde;ust.19.07.96 - RT I 1996 , 48 , 942 ; 17.06.98 j&otilde;ust 10.07.98 - RT I 1998 , 59 , 941 )</s>
+</p>
+<p>
+<s>( 4 ) Kui sihtasutusel on mitu asutajat v&otilde;i kui &auml;ri&uuml;hingus osaleb lisaks linnale v&otilde;i vallale ka teisi osanikke v&otilde;i aktsion&auml;re , samuti kui vald v&otilde;i linn osaleb liikmena mittetulundus&uuml;hingus , otsustab osalemise ja selle l&otilde;petamise valla- v&otilde;i linnavolikogu .</s><s>Muus osas teostab osaniku- , aktsion&auml;ri- , asutaja- v&otilde;i liikme&otilde;igusi valla- v&otilde;i linnavalitsuse poolt nimetatud isik .</s>
+</p>
+<p>
+<s>( 12.06.96 j&otilde;ust.19.07.96 - RT I 1996 , 48 , 942 )</s>
+</p>
+<p>
+<s>( 5 ) Vallal v&otilde;i linnal on &otilde;igus oma &uuml;lesannete t&auml;itmiseks s&otilde;lmida lepinguid .</s><s>Lepingute s&otilde;lmimiseks volitatud isikud m&auml;&auml;ratakse valla v&otilde;i linna p&otilde;him&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Maksud ja koormised</s>
+</p>
+<p>
+<s>( 1 ) Kohalikud maksud ja maksum&auml;&auml;rade muudatused kehtestatakse enne valla- v&otilde;i linnaeelarve v&otilde;i lisaeelarve vastuv&otilde;tmist v&otilde;i eelarve muutmist ja neid rakendatakse eelarveaasta algusest v&otilde;i koos lisaeelarve v&otilde;i eelarve muutmisega .</s>
+</p>
+<p>
+<s>( 2 ) Koormis on kohustus , mis seaduse alusel kehtestatakse volikogu m&auml;&auml;rusega f&uuml;&uuml;silistele v&otilde;i juriidilistele isikutele kohustuslike t&ouml;&ouml;de tegemiseks valla v&otilde;i linna territooriumil kehtestatud heakorraeeskirjade t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 3 ) Koormise v&otilde;ib kehtestada f&uuml;&uuml;silistele ja juriidilistele isikutele nende omandis v&otilde;i valduses oleva kinnistu v&otilde;i muu nende kasutuses oleva territooriumi ning sellega vahetult piirneva &uuml;ldkasutatava territooriumi heakorra tagamiseks .</s>
+</p>
+<p>
+<s>( 4 ) Koormise m&auml;&auml;ramisel kehtestatakse koormise olemus , ulatus , t&auml;itmise tingimused ja kord .</s>
+</p>
+<p>
+<s>( 5 ) Isik , kellel koormise t&auml;itmine lasub , v&otilde;ib oma arvel lasta selle t&auml;ita teisel isikul .</s><s>Isiku p&otilde;hjendatud taotlusel on volikogul &otilde;igus lubada isikul koormise t&auml;itmise eest maksta raha , mida peab kasutama selle koormise t&auml;itmiseks .</s><s>Koormise t&auml;itmiseks vajalike t&ouml;&ouml;de maksumus m&auml;&auml;ratakse koormise kehtestamisel .</s>
+</p>
+<p>
+<s>( 6 ) Koormise t&auml;itmist kontrollib valla- v&otilde;i linnavalitsus vastavalt valla v&otilde;i linna p&otilde;him&auml;&auml;ruses kehtestatud korrale .</s>
+</p>
+<p>
+<s>( 7 ) Koormist ei v&otilde;i asendada maksuga kohalikku eelarvesse .</s>
+</p>
+<p>
+<s>( 8 ) Koormisena ei v&otilde;i kehtestada trahve , teenustasusid , l&otilde;ive ega muu nimetusega rahalisi makseid .</s>
+</p>
+<p>
+<s>( 9 ) Koormis ei v&otilde;i olla lepingu objektiks .</s>
+</p>
+<p>
+<s>( 09.02.95 j&otilde;ust.10.03.95 - RT I 1995 , 17 , 237 )</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Arengukava vastuv&otilde;tmine ja muutmine</s>
+</p>
+<p>
+<s>( 1 ) Vallal v&otilde;i linnal peab olema arengukava v&auml;hemalt kolmeks j&auml;rgnevaks aastaks .</s><s>Kui vallal v&otilde;i linnal on kolmest aastast pikemaajalisi varalisi kohustusi v&otilde;i neid kavandatakse pikemaks perioodiks , peab arengukava olema kavandatud selleks perioodiks .</s>
+</p>
+<p>
+<s>( 2 ) Arengukava ja selle muutmise eeln&otilde;u avalikustatakse enne selle vastuv&otilde;tmist volikogus valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Hiljemalt iga aasta 1. oktoobriks vaatab volikogu l&auml;bi ja v&otilde;tab vastu otsuse arengukava muutmise kohta .</s>
+</p>
+<p>
+<s>( 4 ) Arengukava on aluseks :</s>
+</p>
+<p>
+<s>1 ) valla- v&otilde;i linnaeelarve koostamisele ;</s>
+</p>
+<p>
+<s>2 ) investeeringute kavandamisele ja nende jaoks rahaliste ja muude vahendite taotlemisele , s&otilde;ltumata nende allikast ;</s>
+</p>
+<p>
+<s>3 ) laenude v&otilde;tmisele ja v&otilde;lakirjade emiteerimisele eelarveaastast pikemaks perioodiks .</s>
+</p>
+<p>
+<s>( 5 ) Valla v&otilde;i linna &uuml;ldplaneering ja arengukava ei tohi olla vastuolus .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Valla ja linna eelarve</s>
+</p>
+<p>
+<s>( 1 ) Valla v&otilde;i linna iseseisev eelarve koosneb &uuml;he eelarveaasta tuludest ja kuludest , mis kokkuv&otilde;ttes viiakse tasakaalu .</s>
+</p>
+<p>
+<s>( 2 ) Vallal v&otilde;i linnal on keelatud laenu andmine v&otilde;i tagamine .</s><s>Laenu v&otilde;ib anda &uuml;ksnes &otilde;ppelaenuks linna- v&otilde;i vallaeelarves selleks otstarbeks etten&auml;htud summa piirides .</s>
+</p>
+<p>
+<s>( 11.10.94 j&otilde;ust.10.11.94 - RT I 1994 , 72 , 1263 )</s>
+</p>
+<p>
+<s>( 3 ) Eelarve projekt , vastuv&otilde;etud eelarve ning eelarve muudatused ja eelarve t&auml;itmise aruanne avaldatakse &uuml;ldiseks teadmiseks valla- v&otilde;i linnaelanikele .</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 09.02.95 j&otilde;ust.10.03.95 - RT I 1995 , 17 , 237 )</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Valla ja linna eelarve koostamine ja j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Valla v&otilde;i linna eelarve koostatakse seaduses s&auml;testatud korras , arvestades valla v&otilde;i linna arengukava .</s>
+</p>
+<p>
+<s>( 2 ) Eelarve v&otilde;i selle projekti muutmise ettepanekule , mis tingib nendes etten&auml;htud tulude v&auml;hendamise , kulude suurendamise v&otilde;i kulude &uuml;mberjaotamise , tuleb algatajal lisada rahalised arvestused , mis n&auml;itavad &auml;ra kulude katteks vajalikud tuluallikad .</s>
+</p>
+<p>
+<s>( 3 ) Valla v&otilde;i linna eelarve j&otilde;ustub seaduses etten&auml;htud t&auml;htajast .</s>
+</p>
+<p>
+<s>&sect; 39.1.</s><s>Eelarve t&auml;itmise aruande kinnitamine</s>
+</p>
+<p>
+<s>( 1 ) Volikogule kinnitamiseks esitatavale eelarve t&auml;itmise aruandele peab olema lisatud volikogu poolt m&auml;&auml;ratud audiitori arvamus aruande kohta .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.01.01.2001 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>( 2 ) Eelarve t&auml;itmise aruande kinnitab volikogu hiljemalt 1. juuniks , olles eelnevalt &auml;ra kuulanud revisjonikomisjoni vastava arvamuse .</s><s>Eelarve t&auml;itmise aruanne avalikustatakse valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>VI peat&uuml;kk</s>
+</p>
+<p>
+<s>T&ouml;&ouml;korraldus</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>T&ouml;&ouml;vormid</s>
+</p>
+<p>
+<s>Volikogu ja valitsuse t&ouml;&ouml; vorm on istung .</s><s>Volikogu ja valitsuse komisjoni t&ouml;&ouml; vorm on koosolek .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Keelekasutus kohalikes omavalitsustes</s>
+</p>
+<p>
+<s>( 1 ) Asjaajamiskeel kohalikes omavalitsustes on eesti keel .</s><s>Iga&uuml;hel on &otilde;igus p&ouml;&ouml;rduda kohalike omavalitsuste ja nende ametiisikute poole eesti keeles ja saada eestikeelseid vastuseid .</s>
+</p>
+<p>
+<s>( 2 ) Volikogu ja valitsuse istungid toimuvad eesti keeles .</s>
+</p>
+<p>
+<s>( 3 ) V&otilde;&otilde;rkeelte , sealhulgas v&auml;hemusrahvuste keelte kasutamise kohalikes omavalitsustes s&auml;testab keeleseadus ( RT I 1995 , 23 , 334 ; 1996 , 37 , 739 ; 40 , 773 ; 1997 , 69 , 1110 ; 1998 , 98/99 , 1618 ; 1999 , 1 , 1 ; 16 , 275 ; 2000 , 51 , 326 ; 2001 , 58 , 354 ; 65 , 375 ; 93 , 565 ) .</s><s>Keeleseaduse &sect; 11 alusel kohaliku omavalitsuse volikogu ettepanekul antud luba kasutada vastava kohaliku omavalitsuse sisemise asjaajamise keelena omavalitsus&uuml;ksuse p&uuml;sielanike enamiku moodustava v&auml;hemusrahvuse keelt kehtib kuni vastava volikogu volituste l&otilde;ppemiseni .</s>
+</p>
+<p>
+<s>( 4 ) Kui omavalitsus&uuml;ksus on vastavalt k&auml;esoleva paragrahvi 3. l&otilde;ikele saanud n&otilde;usoleku kasutada sisemise asjaajamise keelena eesti keele k&otilde;rval omavalitsus&uuml;ksuse p&uuml;sielanike enamiku moodustava v&auml;hemusrahvuse keelt , v&otilde;ivad volikogu ja valitsus otsustada vastavalt volikogu ja valitsuse istungi t&ouml;&ouml; osalise v&otilde;i t&auml;ieliku t&otilde;lkimise v&auml;hemusrahvuse keelde .</s>
+</p>
+<p>
+<s>( 04.12.2001 j&otilde;ust.21.10.2002 - RT I 2001 , 100 , 642 )</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Volikogu esimees</s>
+</p>
+<p>
+<s>Volikogu esimees :</s>
+</p>
+<p>
+<s>1 ) korraldab volikogu t&ouml;&ouml;d , kutsub kokku ja juhatab volikogu istungeid ning korraldab nende ettevalmistamist ;</s>
+</p>
+<p>
+<s>2 ) esindab omavalitsus&uuml;ksust ja selle volikogu vastavalt seadusega , valla v&otilde;i linna p&otilde;him&auml;&auml;rusega ning volikogu poolt antud p&auml;devusele ;</s>
+</p>
+<p>
+<s>3 ) kirjutab alla volikogu poolt vastuv&otilde;etud m&auml;&auml;rustele ja teistele volikogu dokumentidele ;</s>
+</p>
+<p>
+<s>4 ) t&auml;idab muid talle seaduse alusel ja valla v&otilde;i linna p&otilde;him&auml;&auml;rusega pandud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Volikogu kokkukutsumine</s>
+</p>
+<p>
+<s>( 1 ) Volikogu istungi kutsub kokku selle esimees v&otilde;i tema asendaja , nende puudumisel volikogu vanim liige volikogu poolt kehtestatud korras .</s><s>Volikogu esimese istungi kutsub kokku valla v&otilde;i linna valimiskomisjoni esimees hiljemalt seitsmendal p&auml;eval p&auml;rast valimistulemuste v&auml;ljakuulutamist .</s><s>Volikogu esimese istungi ning k&auml;esoleva seaduse &sect; 52 2. l&otilde;ike alusel kokkukutsutava istungi kutse saatmisel ei ole vaja j&auml;rgida k&auml;esoleva paragrahvi 3. l&otilde;ikes etten&auml;htud n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 2 ) Kehtetu - 16.05.96 j&otilde;ust.08.06.96 - RT I 1996 , 37 , 739 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) K&auml;esoleva seaduse &sect; 52 2. l&otilde;ike alusel kokkukutsutava volikogu istungi kutsub kokku valla v&otilde;i linna valimiskomisjoni esimees hiljemalt seitsmendal p&auml;eval p&auml;rast asendusliikmete m&auml;&auml;ramist .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 3 ) Volikogu kokkukutsumisel tuleb kutses &auml;ra n&auml;idata arutusele tulevad k&uuml;simused ja kutse peab olema volikogu liikmetele teatavaks tehtud v&auml;hemalt neli p&auml;eva enne volikogu istungit .</s>
+</p>
+<p>
+<s>( 4 ) Volikogu esimees v&otilde;i tema asendaja kutsub volikogu kokku valla- v&otilde;i linnavalitsuse v&otilde;i v&auml;hemalt neljandiku volikogu koosseisu ettepanekul nende poolt t&otilde;statatud k&uuml;simuste arutamiseks .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>K&uuml;simuste arutelu volikogus</s>
+</p>
+<p>
+<s>( 1 ) Volikogu t&ouml;&ouml;d korraldab ja istungeid juhatab volikogu esimees v&otilde;i tema asendaja .</s>
+</p>
+<p>
+<s>( 2 ) Volikogu esimees korraldab vajadusel arutusele tulevate k&uuml;simuste ettevalmistamist volikogu poolt .</s><s>Volikogu v&otilde;ib valitsusele anda ettevalmistamiseks volikogus arutusele tulevaid k&uuml;simusi .</s>
+</p>
+<p>
+<s>( 3 ) Volikogu esimest istungit juhatab kuni volikogu esimehe valimiseni valla v&otilde;i linna valimiskomisjoni esimees .</s><s>Esimese istungi p&auml;evakorras on volikogu esimehe ja aseesimehe v&otilde;i aseesimeeste valimine ning valitsuse lahkumispalve &auml;rakuulamine .</s><s>Sama kord kehtib ka k&auml;esoleva seaduse &sect; 52 2. l&otilde;ike alusel kokkukutsutud uue volikogu esimese istungi p&auml;evakorra suhtes , v&auml;lja arvatud valitsuse lahkumispalve &auml;rakuulamine .</s><s>Volikogu esimehe ja aseesimehe valimised korraldab valla v&otilde;i linna valimiskomisjon ning valimistulemused tehakse kindlaks valimiskomisjoni otsusega .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 4 ) Volikogu istungid on avalikud .</s><s>Volikogu v&otilde;ib kuulutada istungi k&uuml;simuse arutelu osas kinniseks , kui selle poolt h&auml;&auml;letab v&auml;hemalt kaks korda enam volikogu liikmeid kui vastu v&otilde;i kui k&uuml;simust puudutavate andmete avalikustamine on seadusega keelatud v&otilde;i piiratud .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 5 ) Volikogu arutab istungi kutses m&auml;rgitud ja volikogu poolt n&otilde;utavas korras ettevalmistatud k&uuml;simusi .</s>
+</p>
+<p>
+<s>( 6 ) Volikogu istungist v&otilde;ivad s&otilde;na&otilde;igusega osa v&otilde;tta valla- v&otilde;i linnavalitsuse liikmed , valla- v&otilde;i linnasekret&auml;r , samuti volikogu poolt istungile kutsutud isikud .</s><s>S&otilde;na andmise otsustab istungi juhataja .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>H&auml;&auml;letamine volikogus</s>
+</p>
+<p>
+<s>( 1 ) Volikogu ainup&auml;devusse kuuluvaid k&uuml;simusi otsustatakse h&auml;&auml;letamise teel .</s><s>Muudes k&uuml;simustes h&auml;&auml;letatakse juhul , kui v&auml;hemalt &uuml;ks volikogu liige seda n&otilde;uab .</s>
+</p>
+<p>
+<s>( 2 ) H&auml;&auml;letamine volikogus on avalik .</s>
+</p>
+<p>
+<s>( 3 ) Isikuvalimised otsustatakse salajasel h&auml;&auml;letamisel .</s>
+</p>
+<p>
+<s>( 16.06.98 j&otilde;ust.16.07.98 - RT I 1998 , 61 , 984 )</s>
+</p>
+<p>
+<s>( 4 ) Volikogu otsustused fikseerib istungi juhataja .</s>
+</p>
+<p>
+<s>( 5 ) Volikogu otsustused tehakse poolth&auml;&auml;lte enamusega .</s><s>K&auml;esoleva seaduse paragrahv 22 1. l&otilde;ike punktides 2 , 4 , 6-10 , 14 , 15 , 18 ja 24 etten&auml;htud k&uuml;simustes otsustuste vastuv&otilde;tmiseks on vajalik volikogu koosseisu h&auml;&auml;lteenamus .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Umbusaldusmenetlus volikogus</s>
+</p>
+<p>
+<s>( 1 ) V&auml;hemalt neljandik volikogu koosseisust v&otilde;ib algatada umbusalduse avaldamise volikogu esimehele , volikogu aseesimehele , volikogu komisjoni esimehele , volikogu komisjoni aseesimehele , revisjonikomisjoni liikmele , valitsusele , vallavanemale , linnapeale v&otilde;i valitsuse liikmele .</s>
+</p>
+<p>
+<s>( 2 ) Umbusalduse avaldamise k&uuml;simus l&uuml;litatakse volikogu j&auml;rgmise istungi p&auml;evakorda .</s>
+</p>
+<p>
+<s>( 3 ) Umbusaldush&auml;&auml;letus on avalik .</s><s>Umbusalduse avaldamine vabastab volikogu esimehe v&otilde;i aseesimehe tema kohustustest ja ametist v&otilde;i volikogu komisjoni esimehe , komisjoni aseesimehe v&otilde;i revisjonikomisjoni liikme tema kohustustest .</s><s>Volikogu esimehele umbusalduse avaldamise korral t&auml;idab volikogu esimehe &uuml;lesandeid kuni uue esimehe valimiseni volikogu m&auml;&auml;ratud &uuml;ks volikogu aseesimeestest v&otilde;i tema puudumisel volikogu vanim liige .</s>
+</p>
+<p>
+<s>( 4 ) Umbusalduse avaldamine vabastab vallavanema , linnapea v&otilde;i valitsuse liikme vallavanema , linnapea v&otilde;i valitsuse liikme kohustustest ja ametist .</s><s>Vallavanemale v&otilde;i linnapeale umbusalduse avaldamise korral valib volikogu samal istungil uue vallavanema v&otilde;i linnapea v&otilde;i m&auml;&auml;rab &uuml;he valitsuse liikmetest vallavanema v&otilde;i linnapea asendajaks kuni uue vallavanema v&otilde;i linnapea valimiseni .</s>
+</p>
+<p>
+<s>( 5 ) Valitsusele umbusalduse avaldamise korral t&auml;idab valitsus oma &uuml;lesandeid edasi ja valitsuse volitused kehtivad kuni uuele valitsusele volituste andmiseni k&auml;esolevas seaduses s&auml;testatud korras .</s><s>Valitsuse volituste l&otilde;ppemine seoses umbusalduse avaldamisega toob kaasa k&otilde;igi valitsuse liikmete vabastamise valitsuse liikme kohustustest ning palgaliste valitsuse liikmete ametist vabastamise .</s>
+</p>
+<p>
+<s>( 6 ) Kui volikogu avaldab umbusaldust m&otilde;nele valitsuse liikmele ning k&auml;esoleva seaduse &sect; 49 6. l&otilde;ikes s&auml;testatud kvoorum j&auml;&auml;b alles , j&auml;tkab valitsus oma tegevust ning vabad kohad t&auml;idetakse k&auml;esoleva seaduse &sect;-s 28 s&auml;testatud korras v&otilde;i muudetakse s&auml;testatud korras valitsuse liikmete arvu ja valitsuse struktuuri .</s>
+</p>
+<p>
+<s>( 7 ) Kui valitsuse liikmetele avaldatud umbusalduse tagaj&auml;rjel ei ole t&auml;idetud k&auml;esoleva seaduse &sect; 49 6. l&otilde;ikes s&auml;testatud kvoorumin&otilde;ue , loetakse valitsus tervikuna tagasiastunuks .</s>
+</p>
+<p>
+<s>( 8 ) Kui umbusalduse avaldamine ei leidnud volikogu istungil toetust , siis ei saa samale isikule kolme kuu jooksul samal p&otilde;hjusel algatada uut umbusalduse avaldamist .</s>
+</p>
+<p>
+<s>( 9 ) Umbusalduse avaldamine on volikogu esimehe , aseesimehe , vallavanema , linnapea v&otilde;i valitsuse liikme ametist vabastamise eraldi alus avaliku teenistuse seaduses ( RT I 1995 , 16 , 228 ; RT I 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ja 276 ; 2000 , 25 , 144 ja 145 ; 28 , 167 ; 102 , 672 ; 2001 , 7 , 17 ja 18 ; 17 , 78 ; 42 , 233 ; 47 , 260 ) s&auml;testatud ametist vabastamise aluste k&otilde;rval .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Volikogu komisjonid</s>
+</p>
+<p>
+<s>( 1 ) Volikogu v&otilde;ib moodustada nii alatisi kui ka ajutisi komisjone .</s><s>Komisjonide esimehed tuleb valida volikogu liikmete hulgast .</s><s>Teised komisjoni liikmed kinnitatakse komisjoni esimehe esildusel .</s>
+</p>
+<p>
+<s>( 2 ) Volikogu komisjoni tegevuse alused ja kord s&auml;testatakse valla v&otilde;i linna p&otilde;him&auml;&auml;ruses .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Revisjonikomisjon</s>
+</p>
+<p>
+<s>( 1 ) Volikogu moodustab oma volituste ajaks v&auml;hemalt kolmeliikmelise revisjonikomisjoni .</s>
+</p>
+<p>
+<s>( 2 ) Revisjonikomisjoni esimees ja liikmed valitakse volikogu liikmete hulgast .</s>
+</p>
+<p>
+<s>( 3 ) Revisjonikomisjon kontrollib :</s>
+</p>
+<p>
+<s>1 ) valla- v&otilde;i linnavalitsuse tegevuse vastavust volikogu m&auml;&auml;rustele ja otsustele ;</s>
+</p>
+<p>
+<s>2 ) valla v&otilde;i linna ametiasutuste ja nende hallatavate asutuste raamatupidamise &otilde;igsust ja valla v&otilde;i linna vara kasutamise sihip&auml;rasust ;</s>
+</p>
+<p>
+<s>3 ) tulude t&auml;htaegset sissen&otilde;udmist ja arvelev&otilde;tmist ning kulude vastavust valla v&otilde;i linna eelarvele ;</s>
+</p>
+<p>
+<s>4 ) valla v&otilde;i linna poolt s&otilde;lmitud lepingute t&auml;itmist ;</s>
+</p>
+<p>
+<s>5 ) valla- v&otilde;i linnavalitsuse ja nende ametiasutuste tegevuse seaduslikkust ning otstarbekust .</s>
+</p>
+<p>
+<s>( 4 ) Revisjonikomisjon kontrollib k&auml;esoleva paragrahvi 3. l&otilde;ikes nimetatud asutusi valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras ja oma t&ouml;&ouml;plaani alusel v&otilde;i volikogu &uuml;lesandel .</s>
+</p>
+<p>
+<s>( 5 ) Revisjonikomisjoni otsus ja revisjoniakt saadetakse valla- v&otilde;i linnavalitsusele , kes v&otilde;tab revisjoniakti suhtes seisukoha ja esitab selle k&uuml;mne p&auml;eva jooksul revisjonikomisjonile .</s><s>Revisjonikomisjon esitab eelnimetatud dokumendid volikogule otsuse tegemiseks kontrolli tulemuste realiseerimise kohta , lisades nendele dokumentidele otsuse tegemiseks vajaliku volikogu &otilde;igusakti eeln&otilde;u .</s>
+</p>
+<p>
+<s>( 6 ) Revisjonikomisjonil on &otilde;igus saada teavet ja k&otilde;iki oma t&ouml;&ouml;ks vajalikke dokumente .</s>
+</p>
+<p>
+<s>( 7 ) Revisjonikomisjon esitab v&auml;hemalt kord aastas aruande oma tegevuse kohta volikogu istungil .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Valitsuse t&ouml;&ouml; korraldamine</s>
+</p>
+<p>
+<s>( 1 ) Vallavalitsuse juht on vallavanem ning linnavalitsuse juht linnapea , kes esindab valitsust .</s>
+</p>
+<p>
+<s>( 2 ) Vallavanem v&otilde;i linnapea annab valitsuse ja valla v&otilde;i linna ametiasutuste sisemise t&ouml;&ouml; korraldamiseks k&auml;skkirju .</s>
+</p>
+<p>
+<s>( 3 ) Valitsuse juht ei v&otilde;i olla volikogu esimees .</s>
+</p>
+<p>
+<s>( 4 ) Valitsuse koosseisu kuuluvad vallavanem v&otilde;i linnapea , valitsuse liikmed .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>( 5 ) Vallavanema v&otilde;i linnapea asendamine toimub valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 6 ) Valla- v&otilde;i linnavalitsus on otsustusv&otilde;imeline , kui tema istungist v&otilde;tab peale vallavanema v&otilde;i linnapea v&otilde;i nende asendaja osa v&auml;hemalt pool valitsuse kooseisust .</s>
+</p>
+<p>
+<s>( 7 ) Valitsuse otsustused tehakse poolth&auml;&auml;lte enamusega .</s>
+</p>
+<p>
+<s>( 8 ) Valitsuse istungid on kinnised , kui valitsus ei otsusta teisiti .</s>
+</p>
+<p>
+<s>( 9 ) Vallavanem v&otilde;i linnapea v&otilde;i nende asendaja v&otilde;ib istungile kutsuda ka teisi isikuid .</s>
+</p>
+<p>
+<s>( 10 ) Valla- v&otilde;i linnavalitsuse m&auml;&auml;rusele ja teistele dokumentidele kirjutavad alla vallavanem v&otilde;i linnapea v&otilde;i nende asendaja ning valla- v&otilde;i linnasekret&auml;r .</s>
+</p>
+<p>
+<s>( 11 ) Valla- ja linnavalitsuse t&auml;psem t&ouml;&ouml;kord , komisjonide moodustamise alused ja kord ning tegevuse alused s&auml;testatakse valla v&otilde;i linna p&otilde;him&auml;&auml;ruses .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Vallavanem ja linnapea</s>
+</p>
+<p>
+<s>( 1 ) Vallavanem v&otilde;i linnapea :</s>
+</p>
+<p>
+<s>1 ) korraldab valla- v&otilde;i linnavalitsuse t&ouml;&ouml;d ja valla- v&otilde;i linnavalitsuse istungite ettevalmistamist ;</s>
+</p>
+<p>
+<s>2 ) esindab omavalitsus&uuml;ksust ja valla- v&otilde;i linnavalitsust vastavalt seadusega , valla v&otilde;i linna p&otilde;him&auml;&auml;rusega ning volikogu poolt antud p&auml;devusele ;</s>
+</p>
+<p>
+<s>3 ) annab valla- v&otilde;i linnavalitsuse ja tema ametiasutuste sisemise t&ouml;&ouml; korraldamiseks k&auml;skkirju ;</s>
+</p>
+<p>
+<s>4 ) kirjutab alla valla- v&otilde;i linnavalitsuse m&auml;&auml;rustele ja korraldustele ning teistele valitsuse dokumentidele ;</s>
+</p>
+<p>
+<s>5 ) esitab volikogule kinnitamiseks valla- v&otilde;i linnavalitsuse koosseisu ;</s>
+</p>
+<p>
+<s>6 ) esitab volikogule ettepaneku valitsuse t&auml;iendava liikme kinnitamiseks ja valitsuse liikme vabastamiseks valitsuse liikme kohustustest ning palgalise valitsuse liikme ametisse nimetamiseks ja ametist vabastamiseks ;</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>7 ) esitab valla- v&otilde;i linnavalitsusele ametisse kinnitamiseks ametiasutuse hallatava asutuse juhi kandidaadi ;</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>7 <hi rend="sup">1</hi> ) esitab majanduslike huvide deklaratsiooni korruptsioonivastases seaduses s&auml;testatud korras ;</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>8 ) t&auml;idab muid talle seaduse alusel ja valla v&otilde;i linna p&otilde;him&auml;&auml;rusega pandud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 2 ) Vallavanem v&otilde;i linnapea ei tohi olla &uuml;heski muus riigi- v&otilde;i kohaliku omavalitsuse ametis , riigi v&otilde;i kohaliku omavalitsuse hallatava asutuse t&ouml;&ouml;taja ega kuuluda kohaliku omavalitsuse osalusega &auml;ri&uuml;hingu juhtorganisse .</s><s>Ta on kohustatud viie t&ouml;&ouml;p&auml;eva jooksul p&auml;rast valimistulemuste kinnitamist teavitama enda valimisest asutust , kus ta on antud hetkel teenistuses v&otilde;i omab t&ouml;&ouml;lepingut .</s><s>Tema t&ouml;&ouml;leping l&otilde;petatakse t&ouml;&ouml;lepingu seaduse ( RT 1992 , 15/16 , 241 ; 1993 , 10 , 150 ; RT I 1993 , 26 , 441 ; 1995 , 14 , 170 ; 16 , 228 ; 1996 , 3 , 57 ; 40 , 773 ; 45 , 850 ; 49 , 953 ; 1997 , 5/6 , 32 ; 1998 , 111 , 1829 ; 1999 , 16 , 276 ; 60 , 616 ; 2000 , 25 , 144 ; 51 , 327 ; 57 , 370 ; 102 , 669 ; 2001 , 17 , 78 ; 42 , 233 ; 53 , 311 ) &sect; 85 alusel v&otilde;i ta vabastatakse ametist avaliku teenistuse seaduse &sect; 127 alusel .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Istungi ja koosoleku protokoll</s>
+</p>
+<p>
+<s>( 1 ) Volikogu istungi protokollile kirjutab alla volikogu esimees v&otilde;i tema asendaja .</s>
+</p>
+<p>
+<s>( 2 ) Valla- v&otilde;i linnavalitsuse istungi protokollile kirjutavad alla vallavanem v&otilde;i linnapea v&otilde;i nende asendaja ja protokollija .</s>
+</p>
+<p>
+<s>( 3 ) Volikogu v&otilde;i valitsuse komisjoni koosoleku protokollile kirjutab alla koosoleku juhataja .</s>
+</p>
+<p>
+<s>( 4 ) Protokollile allakirjutanud isikud vastutavad protokollis sisalduvate andmete &otilde;igsuse eest .</s>
+</p>
+<p>
+<s>( 5 ) Protokolli kantakse istungi v&otilde;i koosoleku toimumise aeg ja koht , osav&otilde;tjate nimed , arutlusele tulevad k&uuml;simused , nende kohta esitatud ettepanekud ja vastuv&otilde;etud otsused , h&auml;&auml;letustulemused ning otsustajate v&otilde;i k&uuml;simuste algatajate eriarvamused .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>( 6 ) Volikogu istungite protokollid peavad olema k&auml;ttesaadavad iga&uuml;hele .</s>
+</p>
+<p>
+<s>( 7 ) Valla- v&otilde;i linnavalitsuse istungite ning volikogu ja valitsuse komisjonide koosolekute protokollid peavad olema iga&uuml;hele k&auml;ttesaadavad valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 8 ) &Uuml;ldk&auml;ttesaadavaks ei tehta protokollides sisalduvaid andmeid , mille v&auml;ljastamine on seadusega piiratud v&otilde;i m&otilde;eldud valla v&otilde;i linna ametiasutuste siseseks kasutamiseks .</s>
+</p>
+<p>
+<s>( 9 ) Protokollid ja teised dokumendid peavad vastama haldusdokumentidele kehtestatud p&otilde;hin&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Volikogu tegutsemisv&otilde;imetus</s>
+</p>
+<p>
+<s>( 1 ) Volikogu on tegutsemisv&otilde;imetu , kui ta :</s>
+</p>
+<p>
+<s>1 ) pole vastu v&otilde;tnud valla v&otilde;i linna eelarvet kolme kuu jooksul eelarveaasta algusest v&otilde;i riigieelarve vastuv&otilde;tmisest arvates , kui riigieelarvet ei olnud vastu v&otilde;etud eelarveaasta alguseks ;</s>
+</p>
+<p>
+<s>2 ) pole kahe kuu jooksul uue koosseisu esimese istungi kokkutulemise p&auml;evast arvates valinud volikogu esimeest ja vallavanemat v&otilde;i linnapead v&otilde;i pole nelja kuu jooksul uue koosseisu esimese istungi kokkutulemise p&auml;evast arvates kinnitanud valitsuse liikmeid ;</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>3 ) pole kahe kuu jooksul volikogu esimehe , vallavanema v&otilde;i linnapea ametist vabastamisest arvates valinud uut volikogu esimeest , vallavanemat v&otilde;i linnapead v&otilde;i pole nelja kuu jooksul vallavanema v&otilde;i linnapea vabastamisest arvates kinnitanud valitsuse liikmeid ;</s>
+</p>
+<p>
+<s>4 ) pole kahe kuu jooksul vallavanemale , linnapeale v&otilde;i valitsusele umbusalduse avaldamise p&auml;evast arvates valinud uut vallavanemat v&otilde;i linnapead ja pole nelja kuu jooksul umbusalduse avaldamise p&auml;evast arvates kinnitanud valitsuse liikmeid .</s>
+</p>
+<p>
+<s>( 2 ) Kui volikogu osutub tegutsemisv&otilde;imetuks , loetakse k&otilde;igi tema liikmete volitused ennet&auml;htaegselt l&otilde;ppenuks ning nende asemele astuvad asendusliikmed k&auml;esoleva seaduse Paragrahvis 20 s&auml;testatud korras .</s><s>Sellisel juhul kutsub volikogu istungi kokku ja seda juhatab kuni volikogu esimehe valimiseni valla v&otilde;i linna valimiskomisjoni esimees v&otilde;i tema asendaja .</s>
+</p>
+<p>
+<s>( 3 ) Kui volikogu muutub tegutsemisv&otilde;imetuks v&auml;hem kui kuus kuud enne kohaliku omavalitsuse volikogude korralisi valimisi ning volikogu liikmete kohtade t&auml;itmiseks ei piisa volikogu asendusliikmeid , otsustab k&auml;esoleva seaduse paragrahv 22 1. l&otilde;ike punktis 13 ja 2. l&otilde;ikes nimetatud k&uuml;simusi valitsus .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 53. ( Kehtetu - 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>VII peat&uuml;kk</s>
+</p>
+<p>
+<s>Omavalitsusteenistuse p&otilde;hialused</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Omavalitsusteenistus</s>
+</p>
+<p>
+<s>( 1 ) Omavalitsusteenistust valla ja linna ametiasutustes reguleerib avalikku teenistust k&auml;sitlev seadus ja k&auml;esolev seadus .</s>
+</p>
+<p>
+<s>( 2 ) Vallavanem ja linnapea ning nende abid , samuti valla- ja linnasekret&auml;r peavad valdama eesti keelt k&otilde;nes ja kirjas .</s>
+</p>
+<p>
+<s>&sect; 54 <hi rend="sup">1</hi> .</s><s>Volikogu poolt valitud ja ametisse nimetatud isikute sotsiaalsed garantiid</s>
+</p>
+<p>
+<s>( 1 ) Palgalisel ametikohal t&ouml;&ouml;tavale volikogu esimehele v&otilde;i tema aset&auml;itjale , vallavanemale v&otilde;i linnapeale ja volikogu poolt ametisse nimetatud valitsuse liikmele v&otilde;ib volikogu otsusega maksta ametist vabastamisel h&uuml;vitust kuni kolme kuu ametipalga ulatuses , kui ta on t&ouml;&ouml;tanud kaks kuni kaheksa aastat , ja kuni kuue kuu ametipalga ulatuses , kui ta on t&ouml;&ouml;tanud vastaval ametikohal rohkem kui kaheksa aastat ning vabastamine toimub :</s>
+</p>
+<p>
+<s>seoses volituste t&auml;htajalise l&otilde;ppemisega ;</s>
+</p>
+<p>
+<s>2 ) tema enda algatusel seoses terviseseisundiga , mis ei v&otilde;imalda p&uuml;sivalt oma teenistuskohustusi t&auml;ita ;</s>
+</p>
+<p>
+<s>3 ) seoses umbusalduse avaldamisega .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud h&uuml;vitust ei maksta , kui volikogu poolt ametisse valitud v&otilde;i nimetatud isik :</s>
+</p>
+<p>
+<s>1 ) vabastatakse ametist tema enda algatusel , v.a k&auml;esoleva paragrahvi 1. l&otilde;ike punktis 2 toodud juhul ;</s>
+</p>
+<p>
+<s>2 ) valitakse v&otilde;i nimetatakse volikogu poolt ametisse uueks t&auml;htajaks .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Valla- ja linnasekret&auml;r</s>
+</p>
+<p>
+<s>Valla- v&otilde;i linnasekret&auml;ri nimetab ametisse ja vabastab ametist seaduses s&auml;testatud korras vallavanem v&otilde;i linnapea .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>( 2 ) Valla- v&otilde;i linnasekret&auml;riks v&otilde;ib nimetada v&auml;hemalt 21-aastase Eesti kodaniku , kellel on juristi kvalifikatsioon v&otilde;i tunnistus Vabariigi Valitsuse poolt kehtestatud kutsen&otilde;uetele vastavuse kohta .</s><s>Valla- ja linnasekret&auml;ride vastavust kehtestatud kutsen&otilde;uetele kontrollib ja sellekohaseid tunnistusi annab v&auml;lja Vabariigi Valitsuse moodustatud valla- ja linnasekret&auml;ride kutsekomisjon .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>( 3 ) Valla- v&otilde;i linnasekret&auml;r ei kuulu valitsuse koosseisu , kuid ta v&otilde;tab s&otilde;na&otilde;igusega osa valitsuse istungitest .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>( 4 ) Valla- v&otilde;i linnasekret&auml;r :</s>
+</p>
+<p>
+<s>1 ) juhib valla- v&otilde;i linnakantseleid ning esitab vallavanemale v&otilde;i linnapeale ettepanekuid valla- v&otilde;i linnakantselei &uuml;lesannete , struktuuri ja teenistujate koosseisu kohta ;</s>
+</p>
+<p>
+<s>2 ) annab kaasallkirja valitsuse m&auml;&auml;rustele ja korraldustele ;</s>
+</p>
+<p>
+<s>3 ) korraldab valitsuse &otilde;igusaktide avaldamist ja t&ouml;&ouml; avalikustamist ;</s>
+</p>
+<p>
+<s>4 ) korraldab volikogu &otilde;igusaktide avaldamist ja t&ouml;&ouml; avalikustamist ;</s>
+</p>
+<p>
+<s>5 ) saadab &otilde;iguskantslerile valla v&otilde;i linna &otilde;igustloovate aktide &auml;rakirjad 10 p&auml;eva jooksul nende vastuv&otilde;tmisest arvates ;</s>
+</p>
+<p>
+<s>6 ) esindab valda v&otilde;i linna kohtus v&otilde;i volitab selleks teisi isikuid ;</s>
+</p>
+<p>
+<s>7 ) hoiab valla v&otilde;i linna vapipitsatit ;</s>
+</p>
+<p>
+<s>8 ) osaleb valitsuse istungite ettevalmistamisel ja korraldab istungite protokollimist ;</s>
+</p>
+<p>
+<s>9 ) annab valla- v&otilde;i linnakantselei sisemise t&ouml;&ouml; korraldamiseks k&auml;skkirju ;</s>
+</p>
+<p>
+<s>9 <hi rend="sup">1</hi> ) registreerib kriminaalmenetluse koodeksi ( ENSV &Uuml;T 1961 , 1 , 4 ja lisa ; RT I 2000 , 56 , 369 ; 75 , &otilde;iend ; 84 , 533 ; 86 , 542 ; 2001 , 3 , 9 ; 53 , 306 ja 313 ; 56 , 333 ; 65 , 378 ) &sect;-s 129 s&auml;testatud juhul uurija kirjaliku m&auml;&auml;ruse alusel vallavanema v&otilde;i linnapea teenistussuhte peatumise m&auml;&auml;ruse saamisele j&auml;rgnevast t&ouml;&ouml;p&auml;evast ;</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>10 ) t&auml;idab teisi seaduses , valla v&otilde;i linna p&otilde;him&auml;&auml;ruses ja valitsuse t&ouml;&ouml;korras pandud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>( 5 ) Valla- v&otilde;i linnasekret&auml;ri asendamise korra m&auml;&auml;rab vallavanem v&otilde;i linnapea .</s><s>Valla- v&otilde;i linnasekret&auml;ri asendajal on k&otilde;ik valla- v&otilde;i linnasekret&auml;ri &otilde;igused ja kohustused ning ta peab vastama k&auml;esoleva paragrahvi 2. l&otilde;ikes s&auml;testatud tingimustele .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 , teine lause j&otilde;ustub 01.01.2002 , - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>VIII peat&uuml;kk</s>
+</p>
+<p>
+<s>Osavalla ja linnaosa moodustamine ning t&ouml;&ouml;korraldus</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Osavald ja linnaosa</s>
+</p>
+<p>
+<s>Osvald v&otilde;i linnaosa on valla v&otilde;i linna maa-alal ja koosseisus volikogu poolt kinnitatud osavalla v&otilde;i linnaosa p&otilde;him&auml;&auml;ruse alusel tegutsev &uuml;ksus .</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Osavalla ja linnaosa moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Osavalla v&otilde;i linnaosa moodustamise v&otilde;ivad algatada :</s>
+</p>
+<p>
+<s>1 ) &uuml;ks neljandik volikogu liikmetest ;</s>
+</p>
+<p>
+<s>2 ) taotluse korras v&auml;hemalt &uuml;ks protsent h&auml;&auml;le&otilde;iguslikest valla- v&otilde;i linnaelanikest , kuid mitte v&auml;hem kui viis h&auml;&auml;le&otilde;iguslikku valla- v&otilde;i linnaelanikku ;</s>
+</p>
+<p>
+<s>3 ) valla- v&otilde;i linnavalitsus .</s>
+</p>
+<p>
+<s>( 2 ) Osavalla v&otilde;i linnaosa p&otilde;him&auml;&auml;ruses s&auml;testatakse :</s>
+</p>
+<p>
+<s>( 27.09.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 82 , 498 )</s>
+</p>
+<p>
+<s>1 ) osavalla v&otilde;i linnaosa piiride kirjeldus ;</s>
+</p>
+<p>
+<s>2 ) osavalla v&otilde;i linnaosa valitsuse moodustamise kord ;</s>
+</p>
+<p>
+<s>3 ) osavalla v&otilde;i linnaosa vanema ametisse nimetamise kord , kusjuures vanema volituste t&auml;htaeg ei tohi &uuml;letada antud valla v&otilde;i linna volikogu volituste t&auml;htaega ;</s>
+</p>
+<p>
+<s>4 ) osavalla v&otilde;i linnaosa valitsuse ja vanema volitused ning nende teostamiseks vajalikud antud valla v&otilde;i linna eelarvelised vahendid ;</s>
+</p>
+<p>
+<s>5 ) osavalla v&otilde;i linnaosa valitsuse ja vanema tegevuse j&auml;relevalve ning osavalla v&otilde;i linnaosa likvideerimise alused ja kord .</s>
+</p>
+<p>
+<s>( 3 ) Taotluse alusel otsustab volikogu osavalla v&otilde;i linnaosa moodustamise v&otilde;i l&uuml;kkab taotluse tagasi .</s><s>Vajaduse korral v&otilde;ib volikogu korraldada nimetatud k&uuml;simuses elanike k&uuml;sitluse .</s>
+</p>
+<p>
+<s>( 4 ) Osavalla v&otilde;i linnaosa valitsusel ja vanemal pole &otilde;igustloova akti andmise &otilde;igust .</s>
+</p>
+<p>
+<s>( 23.11.94 j&otilde;ust.12.12.94 - RT I 1994 , 84 , 1475 )</s>
+</p>
+<p>
+<s>( 5 ) Osavalla v&otilde;i linnaosa vanem v&otilde;ib oma volituste piires ja &uuml;lesannete t&auml;itmiseks anda &uuml;ksikaktina korraldusi ning valitsuse sisemise t&ouml;&ouml; korraldamiseks k&auml;skkirju .</s>
+</p>
+<p>
+<s>( 23.11.94 j&otilde;ust.12.12.94 - RT I 1994 , 84 , 1475 )</s>
+</p>
+<p>
+<s>( 6 ) Osavalla v&otilde;i linnaosa vanema korraldustele kohaldatakse k&auml;esoleva seaduse paragrahv 31 1.-5. l&otilde;ikes s&auml;testatud n&otilde;udeid .</s><s>Korraldusele kirjutab alla osavalla v&otilde;i linnaosa vanem .</s>
+</p>
+<p>
+<s>( 23.11.94 j&otilde;ust.12.12.94 - RT I 1994 , 84 , 1475 )</s>
+</p>
+<p>
+<s>( 7 ) Osavalla v&otilde;i linnaosa vanema korralduste &uuml;le teostab kontrolli vallavanem v&otilde;i linnapea valla v&otilde;i linna p&otilde;him&auml;&auml;ruses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 23.11.94 j&otilde;ust.12.12.94 - RT I 1994 , 84 , 1475 )</s>
+</p>
+<p>
+<s>( 8 ) Valla v&otilde;i linna eelarveaasta jooksul ei tohi piirata osavalla v&otilde;i linnaosa valitsuse ja vanema volitusi ega v&auml;hendada neile eraldatud eelarvelisi vahendeid .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Aleviku- ja k&uuml;lavanem</s>
+</p>
+<p>
+<s>( 1 ) Aleviku v&otilde;i k&uuml;la koosolekul v&otilde;idakse valida aleviku- v&otilde;i k&uuml;lavanem .</s>
+</p>
+<p>
+<s>( 2 ) Vallavalitsuse &uuml;lesannete t&auml;itmine aleviku- v&otilde;i k&uuml;lavanema poolt s&auml;testatakse lepinguga .</s>
+</p>
+<p>
+<s>( 3 ) Aleviku- v&otilde;i k&uuml;lavanema volituste kestus ei ole piiratud volikogu volituste kestusega .</s>
+</p>
+<p>
+<s>IX peat&uuml;kk</s>
+</p>
+<p>
+<s>Maakogu</s>
+</p>
+<p>
+<s>( Kehtetu - 23.11.94 j&otilde;ust.12.12.94 - RT I 1994 , 84 , 1475 )</s>
+</p>
+<p>
+<s>X peat&uuml;kk</s>
+</p>
+<p>
+<s>Omavalitsus&uuml;ksuste koost&ouml;&ouml;</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Koost&ouml;&ouml;vormid</s>
+</p>
+<p>
+<s>( 1 ) Vallad ja linnad v&otilde;ivad &uuml;histe huvide v&auml;ljendamiseks , esindamiseks ja kaitsmiseks ning &uuml;histe &uuml;lesannete t&auml;itmiseks :</s>
+</p>
+<p>
+<s>1 ) tegutseda &uuml;hiselt ;</s>
+</p>
+<p>
+<s>2 ) anda sellekohased volitused m&otilde;nele vallale v&otilde;i linnale ;</s>
+</p>
+<p>
+<s>3 ) moodustada omavalitsus&uuml;ksuste liite .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes t&auml;hendatud koost&ouml;&ouml; korral v&otilde;ivad vallad ja linnad n&auml;ha lepinguga ette &uuml;hisasutuste moodustamise .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Omavalitsus&uuml;ksuste liidu asutamine</s>
+</p>
+<p>
+<s>( 1 ) Omavalitsus&uuml;ksuste liidu asutamise aluseks on omavalitsus&uuml;ksuste vahel s&otilde;lmitud asutamisleping ja ta tegutseb seaduse ja registreeritud p&otilde;hikirja alusel .</s>
+</p>
+<p>
+<s>( 2 ) Omavalitsus&uuml;ksuste liidu p&otilde;hikirjas s&auml;testatakse :</s>
+</p>
+<p>
+<s>1 ) liidu nimi ja aadress ;</s>
+</p>
+<p>
+<s>2 ) liidu liikmed ;</s>
+</p>
+<p>
+<s>3 ) liidu &uuml;lesanded ;</s>
+</p>
+<p>
+<s>4 ) liidu organid ;</s>
+</p>
+<p>
+<s>5 ) liidu esinduskogu ja teiste organite esindusnormid ning h&auml;&auml;letamise p&otilde;him&otilde;tted ;</s>
+</p>
+<p>
+<s>6 ) liidu organite volitused ;</s>
+</p>
+<p>
+<s>7 ) liikmemaksude kehtestamise p&otilde;him&otilde;tted ja liidu liikmete osalus liidu vara soetamisel ja kasutamisel ning liidu v&otilde;lgade tasumisel ;</s>
+</p>
+<p>
+<s>8 ) uute liikmete vastuv&otilde;tmise ja liidust v&auml;ljaastumise kord ;</s>
+</p>
+<p>
+<s>9 ) p&otilde;hikirja muutmise kord ;</s>
+</p>
+<p>
+<s>10 ) liidu tegevuse revideerimise kord ;</s>
+</p>
+<p>
+<s>11 ) liidu likvideerimise alused ja kord .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Lepingud riigiorganitega</s>
+</p>
+<p>
+<s>( 1 ) Omavalitsus&uuml;ksuste liidu esinduskogul v&otilde;i tema volitusel m&otilde;nel teisel liidu organil on &otilde;igus s&otilde;lmida liidu nimel lepinguid riigi valitsusasutustega riikliku kohustuse t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Riiklikke kohustusi v&otilde;tab omavalitsus&uuml;ksuste liit t&auml;itmiseks juhul , kui selle poolt on k&otilde;ik liitu kuuluvad volikogud .</s>
+</p>
+<p>
+<s>XI peat&uuml;kk</s>
+</p>
+<p>
+<s>Suhted riigiorganitega ja j&auml;relevalve</s>
+</p>
+<p>
+<s>( 23.11.94 j&otilde;ust.12.12.94 - RT I 1994 , 84 , 1475 )</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Omavalitsus&uuml;ksuse suhted riigiorganitega</s>
+</p>
+<p>
+<s>( 1 ) Kohalike omavalitsusorganite ning riigi valitsusasutuste suhted p&otilde;hinevad seadusel ja lepingul .</s>
+</p>
+<p>
+<s>( 2 ) Kohalikud omavalitsusorganid ei tohi delegeerida oma &uuml;lesandeid ja p&auml;devust ning nende t&auml;itmiseks seadusega etten&auml;htud vahendeid riigi valitsusasutustele .</s>
+</p>
+<p>
+<s>( 23.11.94 j&otilde;ust.12.12.94 - RT I 1994 , 84 , 1475 )</s>
+</p>
+<p>
+<s>( 3 ) Valla v&otilde;i linna volikogul on &otilde;igus esitada Vabariigi Valitsusele ettepanekuid seaduste ning teiste &otilde;igusaktide vastuv&otilde;tmiseks v&otilde;i muutmiseks .</s>
+</p>
+<p>
+<s>( 4 ) Kohalike v&otilde;imuorganitega konsulteeritakse &otilde;igeaegselt ja sobival viisil k&otilde;igi neid otseselt puudutavate k&uuml;simuste planeerimise ja otsustamise puhul .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Kohaliku omavalitsuse tegevuse j&auml;relevalve ja kontroll</s>
+</p>
+<p>
+<s>( 1 ) Maavanem teostab j&auml;relevalvet kohaliku omavalitsuse tegevuse &uuml;le seadusega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Valla v&otilde;i linna valdusse antud riigivara kasutamist ja k&auml;sutamist kontrollib Riigikontroll vastavalt oma p&auml;devusele .</s>
+</p>
+<p>
+<s>( 3 ) J&auml;relevalvet valla v&otilde;i linna &otilde;igustloovate aktide vastavuse &uuml;le Eesti Vabariigi p&otilde;hiseadusele ja seadustele teostab &otilde;iguskantsler .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>&sect; 66 <hi rend="sup">1</hi> .</s><s>Teenistuslik j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) Teenistuslik j&auml;relevalve on valitsuse poolt valla v&otilde;i linna ametiasutuste ja nende ametiisikute ning ametiasutuste hallatavate asutuste ja nende juhtide tegevuse seaduslikkuse ja otstarbekuse &uuml;le teostatav kontroll .</s>
+</p>
+<p>
+<s>( 2 ) Teenistusliku j&auml;relevalve teostamisel on valitsusel &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) teha ettekirjutus akti v&otilde;i toimingu puuduste k&otilde;rvaldamiseks ;</s>
+</p>
+<p>
+<s>2 ) peatada toimingu sooritamine v&otilde;i akti kehtivus ;</s>
+</p>
+<p>
+<s>3 ) tunnistada akt kehtetuks .</s>
+</p>
+<p>
+<s>( 3 ) Teenistusliku j&auml;relevalve korras tehtud otsused peavad olema motiveeritud .</s>
+</p>
+<p>
+<s>( 4 ) Valla v&otilde;i linna ametiasutuse ja nende ametiisikute ning ametiasutuse hallatava asutuse juhi akti t&auml;itmise ja toimingu v&otilde;ib peatada kuni k&uuml;mneks t&ouml;&ouml;p&auml;evaks akti v&otilde;i toimingu seaduslikkuse ja otstarbekuse t&auml;iendavaks kontrollimiseks v&otilde;i vajalike t&auml;iendavate andmete kogumiseks , sealhulgas akti andja v&otilde;i toimingu sooritaja selgituste saamiseks .</s>
+</p>
+<p>
+<s>( 5 ) Akti t&auml;itmise v&otilde;i toimingu sooritamise peatamisel teenistusliku j&auml;relevalve korras peatub seaduse ning nende alusel ja t&auml;itmiseks antud &otilde;igusaktidega vastava toimingu sooritamiseks kehtestatud t&auml;htaja kulgemine .</s>
+</p>
+<p>
+<s>( 6 ) Valitsus tunnistab kehtetuks valla v&otilde;i linna ametiasutuste ning nende ametiisikute ja ametiasutuste hallatavate asutuste juhtide akte ja toiminguid , mis ei ole vastavuses Eesti Vabariigi p&otilde;hiseaduse , seaduste ning nende alusel ja t&auml;itmiseks antud &otilde;igusaktide ning valla v&otilde;i linna &otilde;igusaktidega .</s>
+</p>
+<p>
+<s>( 7 ) Valitsus tunnistab ebaotstarbekuse motiivil kehtetuks valla v&otilde;i linna ametiasutuste ning nende ametiisikute ja ametiasutuste hallatavate asutuste juhtide akte ja toiminguid juhul , kui akt v&otilde;i toiming ilmselt ei vasta kohaliku omavalitsuse p&otilde;him&otilde;tetele v&otilde;i p&otilde;hjustab valla- v&otilde;i linnavara ja eelarveliste vahendite ebaratsionaalset kasutamist .</s>
+</p>
+<p>
+<s>( 8 ) Ebaotstarbekuse motiivil ei saa tunnistada kehtetuks akte ja toiminguid , mille andmise tingimused tulenevad seadusest ning nende alusel ja t&auml;itmiseks antud &otilde;igusaktidest .</s>
+</p>
+<p>
+<s>( 9 ) K&auml;esoleva seaduse alusel ei teostata teenistuslikku j&auml;relevalvet haldus&otilde;iguserikkumiste seadustiku ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ; 87 , 524 ja 526 ; 97 , 605 ; 102 , 677 ) paragrahvides 189-216 s&auml;testatud ametiisikute aktide ja toimingute &uuml;le .</s>
+</p>
+<p>
+<s>( 30.09.99 j&otilde;ust.15.10.99 - RT I 1999 , 75 , 705 )</s>
+</p>
+<p>
+<s>XII peat&uuml;kk</s>
+</p>
+<p>
+<s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse Riigi Teatajas avaldamise p&auml;evast j&otilde;ustuvad paragrahvid 1-5 , 7 , 10 , 12-15 , 23-26 , 31 , 33-37 , 40-42 , 50 , 51 , 56-58 , 62-64 ja 66.</s><s>Seaduse paragrahv 55 2. l&otilde;ige j&otilde;ustub alates 1997.aasta 1. jaanuarist .</s><s>Teised seaduse paragrahvid j&otilde;ustuvad k&auml;esoleva seaduse vastuv&otilde;tmisele j&auml;rgnevate kohalike omavalitsuste volikogude valimiste tulemuste v&auml;ljakuulutamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohaliku omavalitsuse volikogu valimised on j&auml;&auml;nud m&otilde;nes omavalitsus&uuml;ksuses toimumata v&otilde;i valimistulemused v&auml;lja kuulutamata , valitakse k&auml;esoleva seaduse paragrahvi 59 1. l&otilde;ikes nimetatud maakonna omavalitsus&uuml;ksuse esindaja maakogusse volikogu eelmise koosseisu poolt .</s>
+</p>
+<p>
+<s>( 08.03.94 j&otilde;ust.29.03.94 - RT I 1994 , 19 , 340 )</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Alevite ja vabariiklike linnade staatus</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse j&otilde;ustumisega saavad alevid valla staatuse ja vabariiklikud linnad linna staatuse .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Volikogude volituste l&otilde;ppemine</s>
+</p>
+<p>
+<s>Valla- , alevi- , linna- ja maavolikogude k&auml;esoleva koosseisu ja nende liikmete volitused l&otilde;pevad seaduse j&otilde;ustumisele j&auml;rgnevate kohalike omavalitsuste volikogude valimiste tulemuste v&auml;ljakuulutamise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Maavanemate ja maavalitsuste volituste aeg</s>
+</p>
+<p>
+<s>Maavolikogude k&auml;esoleva koosseisu poolt ametisse kinnitatud maavanemate , abimaavanemate ja maavalitsuse n&otilde;unike volitused l&otilde;pevad seaduse j&otilde;ustumisele j&auml;rgnevate kohalike omavalitsuste volikogude valimiste tulemuste v&auml;ljakuulutamise p&auml;evast .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Omavalitsus&uuml;ksuste p&otilde;him&auml;&auml;rused</s>
+</p>
+<p>
+<s>Omavalitsus&uuml;ksuste p&otilde;him&auml;&auml;rused tuleb kinnitada v&otilde;i viia koosk&otilde;lla k&auml;esoleva seadusega kolme kuu jooksul j&auml;rgmiste kohalike omavalitsuste volikogude valimiste tulemusena moodustatud volikogude poolt valla- v&otilde;i linnavalitsuse ametisse kinnitamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Omavalitsus&uuml;ksuste liitude p&otilde;hikirjad</s>
+</p>
+<p>
+<s>Enne k&auml;esoleva seaduse vastuv&otilde;tmist moodustatud omavalitsuste liitude p&otilde;hikirjad tuleb kolme kuu jooksul viia koosk&otilde;lla k&auml;esoleva seaduse paragrahv 63 2. l&otilde;ikes s&auml;testatud n&otilde;uetega .</s>
+</p>
+<p>
+<s>&sect; 72 <hi rend="sup">1</hi> .</s><s>Omavalitsus&uuml;ksuste liidu &uuml;mberregistreerimine</s>
+</p>
+<p>
+<s>Eesti Vabariigi ettev&otilde;tete , asutuste ja organisatsioonide registris registreeritud kohalike omavalitsus&uuml;ksuste liidud kuuluvad &uuml;mberregistreerimisele 2002. aasta 1. oktoobriks .</s>
+</p>
+<p>
+<s>( 13.06.2000 j&otilde;ust.10.07.2000 - RT I 2000 , 51 , 322 )</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>&Otilde;igusaktide kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Eesti N&otilde;ukogude Sotsialistliku Vabariigi kohaliku omavalitsuse aluste seadus ( ENSV Teataja 1989 , 34 , 517 ) ja Eesti Vabariigi 1991.aasta 21.augusti seadus &ldquo; Eesti NSV kohaliku omavalitsuse aluste seaduse osalise muutmise kohta &rdquo; ( RT 1991 , 27 , 324 ) tunnistatakse kehtetuks k&auml;esoleva seaduse vastuv&otilde;tmisele j&auml;rgnevate kohalike omavalitsuste volikogude valimiste tulemuste v&auml;ljakuulutamise p&auml;evast .</s><s>Samast p&auml;evast tunnistatakse kehtetuks :</s>
+</p>
+<p>
+<s>1 ) ENSV &Uuml;lemn&otilde;ukogu Presiidiumi 1989.aasta 6.detsembri seadlus &ldquo; Omavalitsusliku halduss&uuml;steemi loomisest &rdquo; ( ENSV Teataja 1989 , 40 , 614 ) ;</s>
+</p>
+<p>
+<s>2 ) ENSV &Uuml;lemn&otilde;ukogu Presiidiumi 1990.aasta 22.jaanuari seadlus &ldquo; Kohaliku omavalitsuse juhtivt&ouml;&ouml;tajate staatuse kohta &rdquo; ( Eesti Vabariigi Teataja 1990 , 14 , 236 ) ;</s>
+</p>
+<p>
+<s>3 ) ENSV &Uuml;lemn&otilde;ukogu 1989.aasta 8.augusti otsus &ldquo; Haldusreformi l&auml;biviimisest Eesti NSV-s &rdquo; ( ENSV Teataja 1989 , 26 , 348 ) ;</s>
+</p>
+<p>
+<s>4 ) EV &Uuml;lemn&otilde;ukogu Presiidiumi 1991.aasta 11.juuli otsus &ldquo; Omavalitsuslikku staatust taotlevate linna- , alevi- ja k&uuml;lan&otilde;ukogude p&otilde;him&auml;&auml;ruste ning arengukavade vastuv&otilde;tmise , registreerimise ja l&auml;bivaatamise kohta &rdquo; ( RT 1991 , 24 , 289 ) .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Vastuolude lahendamine</s>
+</p>
+<p>
+<s>Vastuolu korral k&auml;esoleva seaduse paragrahvis 67 loetletud s&auml;tete ja Eesti N&otilde;ukogude Sotsialistliku Vabariigi kohaliku omavalitsuse aluste seaduse ning teiste seaduste ja &otilde;igusaktide s&auml;tete vahel loetakse kehtivateks k&auml;esoleva seaduse s&auml;tted .</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>&Otilde;igusaktide koosk&otilde;lla viimine</s>
+</p>
+<p>
+<s>Vabariigi Valitsus esitab ettepanekud seaduste ja teiste &otilde;igusaktide koosk&otilde;lla viimiseks k&auml;esoleva seadusega .</s>
+</p>
+</body>
+   </text>
+</tei.2>

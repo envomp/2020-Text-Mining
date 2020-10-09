@@ -1,0 +1,2995 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Eesti Vabariigi autori&otilde;iguse seadus ( terviktekst juuni 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   20062</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Eesti Vabariigi autori&otilde;iguse seadus ( terviktekst juuni 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=52></tagusage>
+         <tagusage gi=p occurs=963></tagusage>
+         <tagusage gi=s occurs=1178></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Autori&otilde;iguse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 11. novembril 1992. a.</s>
+</p>
+<p>
+<s>( RT 1992 , 49 , 615 ; terviktekst RT I 2000 , 16 , 109 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 12. detsembril 1992. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>06.06.2001 j&otilde;ust.01.09.2001 - RT I 2001 , 56 , 335 ;</s>
+</p>
+<p>
+<s>16.05.2001 j&otilde;ust.11.06.2001 - RT I 2001 , 50 , 289 ;</s>
+</p>
+<p>
+<s>27.09.2000 j&otilde;ust.22.10.2000 - RT I 2000 , 78 , 497.</s>
+</p>
+<p>
+<s>I peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Autori&otilde;iguse seaduse eesm&auml;rk ja &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;iguse seaduse eesm&auml;rk on tagada kultuuri j&auml;rjepidevus ja kultuurisaavutuste kaitse , autori&otilde;igusel p&otilde;hinevate tootmisharude ja rahvusvahelise kaubanduse areng ning luua autoritele , teose esitajatele , fonogrammitootjatele , raadio- ja televisiooniorganisatsioonidele , filmi esmasalvestuse tootjatele , andmebaasi tegijatele ning teistele k&auml;esolevas seaduses nimetatud isikutele soodsad tingimused teoste ja muude kultuurisaavutuste loomiseks ja kasutamiseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Autori&otilde;iguse seadus s&auml;testab :</s>
+</p>
+<p>
+<s>1 ) kirjandus- , kunsti- ja teadusteoste autoritele spetsiifilise &otilde;iguse ( autori&otilde;iguse ) kaitse oma loomet&ouml;&ouml; tulemustele ;</s>
+</p>
+<p>
+<s>2 ) isikute ringi , kes v&otilde;ivad omandada &otilde;igusi autori poolt loodud kirjandus- , kunsti- ja teadusteostele ning nende &otilde;igused ;</s>
+</p>
+<p>
+<s>3 ) &otilde;igused teoste esitajatele , fonogrammide tootjatele ning raadio- ja televisiooniorganisatsioonidele ( autori&otilde;igusega kaasnevad &otilde;igused ) ;</s>
+</p>
+<p>
+<s>3 <hi rend="sup">1</hi> ) andmebaasi tegija &otilde;igused , nende teostamise tingimused ja kaitse ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>3 <hi rend="sup">2</hi> ) filmi esmasalvestuse tootja ning teiste k&auml;esolevas seaduses nimetatud isikute autori&otilde;igusega kaasnevad &otilde;igused ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>4 ) autori&otilde;iguse ja autori&otilde;igusega kaasnevate &otilde;iguste teostamise piirangud teoste kasutamisel &uuml;hiskonna huvides ;</s>
+</p>
+<p>
+<s>5 ) autori&otilde;iguse ja autori&otilde;igusega kaasnevate &otilde;iguste teostamise garantiid ja kaitse .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Autori&otilde;igusaktid</s>
+</p>
+<p>
+<s>( 1 ) Eesti Vabariigi autori&otilde;igusaktid koosnevad k&auml;esolevast seadusest , selle alusel v&auml;ljat&ouml;&ouml;tatavatest teistest seadustest , Vabariigi Valitsuse , ministeeriumide ja ametite muudest &otilde;igusaktidest .</s>
+</p>
+<p>
+<s>( 2 ) Autori&otilde;igusakti vastuolu korral Eesti Vabariigi v&auml;lislepinguga kohaldatakse v&auml;lislepingu s&auml;tteid .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse s&auml;tted ei kitsenda teiste intellektuaalse omandi valdkonnas vastuv&otilde;etud eri seaduste kohaldamist .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Autori&otilde;iguse seaduse kehtivus</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;iguse seadust kohaldatakse teostele :</s>
+</p>
+<p>
+<s>1 ) mille autoriks on Eesti Vabariigi kodanik v&otilde;i Eesti Vabariigis alaliselt elav isik ;</s>
+</p>
+<p>
+<s>2 ) mis on esmakordselt avaldatud Eesti Vabariigi territooriumil v&otilde;i mis on avaldamata , kuid asuvad Eesti Vabariigi territooriumil , s&otilde;ltumata teoste looja kodakondsusest v&otilde;i alalisest elukohast ;</s>
+</p>
+<p>
+<s>3 ) mida tuleb kaitsta vastavalt Eesti Vabariigi v&auml;lislepingule .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Teostele , mis on esmakordselt avalikustatud v&auml;lisriigis v&otilde;i mis on avalikustamata , kuid asuvad v&auml;lisriigi territooriumil ja mille autoriks on isik , kelle alaline elukoht v&otilde;i asukoht on v&auml;lisriigi territooriumil , ning millele ei laiene k&auml;esoleva paragrahvi 1. l&otilde;ike punkt 3 , kohaldatakse k&auml;esolevat seadust ainult juhul , kui see riik garanteerib samasuguse kaitse Eesti Vabariigi autorite teostele ja teostele , mis on esmakordselt avaldatud Eesti Vabariigis .</s>
+</p>
+<p>
+<s>( 3 ) ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>II peat&uuml;kk</s>
+</p>
+<p>
+<s>Autori&otilde;igusega kaitstavad teosed</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Teosed , millele tekib autori&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;igus tekib kirjandus- , kunsti- ja teadusteostele .</s>
+</p>
+<p>
+<s>( 2 ) Teoseks k&auml;esoleva seaduse t&auml;henduses loetakse mis tahes originaalset tulemust kirjanduse , kunsti v&otilde;i teaduse valdkonnas , mis on v&auml;ljendatud mingisuguses objektiivses vormis ja on selle vormi kaudu tajutav ning reprodutseeritav kas vahetult v&otilde;i mingi tehnilise vahendi abil .</s><s>Teos on originaalne , kui see on autori enda intellektuaalse loomingu tulemus .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Teosed , millele tekib autori&otilde;igus , on :</s>
+</p>
+<p>
+<s>1 ) ilukirjandus- , publitsistika- , poliitika- , haridusalased jms. kirjalikud teosed ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>2 ) teaduslikud ja populaarteaduslikud kirjalikud ja kolmem&otilde;&otilde;tmelised teosed ( monograafiad , artiklid , teadusliku t&ouml;&ouml; aruanded , plaanid , skeemid , maketid , mudelid , testid jms. ) ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>3 ) arvutiprogrammid , mida kaitstakse nagu kirjandusteoseid .</s><s>Kaitse laieneb arvutiprogrammi mis tahes v&auml;ljendusvormile ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>4 ) k&otilde;ned , loengud , ettekanded , jutlused jt. teosed , mis koosnevad s&otilde;nadest ja on v&auml;ljendatud suuliselt ( suulised teosed ) ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>5 ) stsenaariumid ja stsenaariumi plaanid , libretod ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>6 ) draama- ja muusikalised draamateosed ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>7 ) muusikateosed tekstiga ja ilma tekstita ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>8 ) koreograafiateosed ja pantomiimid ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>9 ) audiovisuaalsed teosed ( &sect; 33 ) ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>10 ) ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>11 ) maalikunstiteosed , graafikateosed , tr&uuml;kikunstiteosed , joonistused , illustratsioonid ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>12 ) lavastused ja lavakujunduslikud teosed ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>13 ) skulptuuriteosed ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>14 ) arhitektuurne graafika ( joonistused , eskiisid , skeemid , joonised , plaanid , projektid jm. ) , projekti sisu lahtim&otilde;testavad seletuskirjad , tekstilisad , programmid , arhitektuursed plastikateosed ( mudelid , maketid jm. ) , arhitektuuri- ja maastikuarhitektuuriteosed ( hooned , rajatised , pargid , haljasalad jm. ) , linnaehitusansamblid ja kompleksid ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>15 ) tarbekunstiteosed ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>16 ) disaini- ja moekunstiteosed ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>17 ) fotograafiateosed ja fotograafiaga analoogilisel viisil saadud teosed , slaidid ja slaidifilmid ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>18 ) kartograafiateosed ( topograafilised , geograafilised , geoloogilised jt. kaardid , atlased , maketid ) ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>19 ) &otilde;igusaktide projektid ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>19 <hi rend="sup">1</hi> ) standardid ja standardite kavandid ;</s>
+</p>
+<p>
+<s>( 22.02.99 j&otilde;ust.01.04.99 - RT I 1999 , 29 , 398 )</s>
+</p>
+<p>
+<s>20 ) arvamused , retsensioonid , eksperthinnangud jms. ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>21 ) tuletatud teosed , see on teose t&otilde;lge , algse teose kohandus ( adaptsioon ) , t&ouml;&ouml;tlus ( arran&zcaron;eering ) ja teose muu t&ouml;&ouml;tlus ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>22 ) teoste kogumikud ja informatsiooni kogumikud ( sealhulgas andmebaasid ) .</s><s>Andmebaas k&auml;esoleva seaduse t&auml;henduses on s&uuml;stemaatiliselt v&otilde;i metoodiliselt korrastatud iseseisvate teoste , andmete v&otilde;i muu materjali kogu , mis on individuaalselt k&auml;ttesaadav elektrooniliste v&otilde;i muude vahendite abil .</s><s>Andmebaasi m&otilde;iste ei h&otilde;lma selle tegemiseks ega k&auml;ivitamiseks vajaminevat arvutiprogrammi .</s><s>K&auml;esoleva seaduse alusel kaitstakse autori&otilde;igusega andmebaasi , mis oma sisu valiku ja korralduse t&otilde;ttu on autori enda intellektuaalse loomingu tulemus , ning ei kohaldata mingit muud kriteeriumi</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 ) ;</s>
+</p>
+<p>
+<s>23 ) muud teosed .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 4 ) Autoril tekib autori&otilde;igus ka teose loomise vaheetappide resultaatidele ( eskiisile , visandile , plaanile , joonisele , peat&uuml;kile , arvutiprogrammi loomise l&auml;htematerjal jms. ) , kui need vastavad k&auml;esoleva paragrahvi 2.l&otilde;ikes s&auml;testatule .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 5 ) Teose originaalne pealkiri ( nimetus ) kuulub kaitsmisele teosega v&otilde;rdsetel alustel .</s>
+</p>
+<p>
+<s>( 6 ) Teose kaitstust autori&otilde;igusega eeldatakse , v&auml;lja arvatud juhul , kui k&auml;esolevast seadusest v&otilde;i muudest autori&otilde;igusaktidest tulenevalt esineb seda v&auml;listav ilmne asjaolu .</s><s>T&otilde;endamiskohustus lasub teose autori&otilde;igusega kaitstuse vaidlustajal .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Intellektuaalse tegevuse tulemused , millele k&auml;esolevat seadust ei kohaldata</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevat seadust ei kohaldata :</s>
+</p>
+<p>
+<s>1 ) ideedele , kujunditele , m&otilde;istetele , teooriatele , protsessidele , s&uuml;steemidele , meetoditele , kontseptsioonidele , printsiipidele , avastistele , leiutistele jms. intellektuaalse tegevuse resultaatidele , mis on kirjeldatud , selgitatud v&otilde;i muul viisil v&auml;ljendatud teoses ;</s>
+</p>
+<p>
+<s>2 ) rahvaloominguteostele ;</s>
+</p>
+<p>
+<s>3 ) &otilde;igusaktidele ja haldusdokumentidele ( seadused , seadlused , m&auml;&auml;rused , p&otilde;him&auml;&auml;rused , juhendid , k&auml;skkirjad ) ning nende ametlikele t&otilde;lgetele ;</s>
+</p>
+<p>
+<s>4 ) kohtulahenditele ning nende ametlikele t&otilde;lgetele ;</s>
+</p>
+<p>
+<s>5 ) riigi ametlikele s&uuml;mbolitele ja organisatsioonide s&uuml;mboolikale ( lipud , vapid , ordenid , medalid , m&auml;rgid jne. ) ;</s>
+</p>
+<p>
+<s>( 27.09.2000 j&otilde;ust.22.10.2000 - RT I 2000 , 78 , 497 )</s>
+</p>
+<p>
+<s>6 ) p&auml;evauudistele ;</s>
+</p>
+<p>
+<s>7 ) faktidele ja andmetele ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>8 ) ideedele ja p&otilde;him&otilde;tetele , millele rajanevad arvutiprogrammi elemendid , kaasa arvatud programmi kasutajaliidese aluseks olevad ideed ja p&otilde;him&otilde;tted .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Autori&otilde;iguse tekkimine , s&otilde;ltumata teose eesm&auml;rgist , v&auml;&auml;rtusest , v&auml;ljendusvormist ja fikseerimise viisist</s>
+</p>
+<p>
+<s>Teose eesm&auml;rk , v&auml;&auml;rtus , konkreetne v&auml;ljendusvorm v&otilde;i fikseerimise viis ei saa olla aluseks autori&otilde;iguse mittetunnustamisele .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Autori&otilde;iguse tekkemoment</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;igus teosele tekib teose loomisega .</s>
+</p>
+<p>
+<s>( 2 ) Teos loetakse looduks hetkel , mil see on v&auml;ljendatud mingis objektiivses , tajumist ja reprodutseerimist v&otilde;i fikseerimist v&otilde;imaldavas vormis .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Autori&otilde;iguse tekkimiseks ning teostamiseks ei n&otilde;uta teose registreerimist , deponeerimist v&otilde;i muude formaalsuste t&auml;itmist .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Autori&otilde;igus avalikustamata ja avalikustatud teostele</s>
+</p>
+<p>
+<s>Autori&otilde;igus tekib nii avalikustamata kui ka avalikustatud ( avaldatud , avalikult esitatud , &uuml;ldsusele n&auml;idatud ja &uuml;ldsusele edastatud ) teostele .</s><s>&Uuml;ldsuseks loetakse m&auml;&auml;ramata isikute ringi v&auml;ljaspool perekonda ja l&auml;himat tutvusringkonda .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Avaldatud teosed</s>
+</p>
+<p>
+<s>( 1 ) Teos loetakse avaldatuks , kui teos v&otilde;i teose mis tahes vormis reprodutseeritud koopiad on autori n&otilde;usolekul antud &uuml;ldsusele kasutamiseks koguses , mis v&otilde;imaldab &uuml;ldsusel sellega tutvuda v&otilde;i seda omandada .</s><s>Teose avaldamiseks loetakse muu hulgas teose tr&uuml;kis v&auml;ljaandmist , teose eksemplaride panemist m&uuml;&uuml;gile , jaotamist , laenutamist , rentimist ja muul viisil tasuta v&otilde;i tasu eest kasutada andmist .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Teos loetakse avaldatuks , kui see on salvestatud arvutis&uuml;steemi , mis on &uuml;ldsusele avatud .</s>
+</p>
+<p>
+<s>( 3 ) Teose avaldamiseks ei loeta draamateose ja muusikalise draamateose ning muusikateose esitamist , audiovisuaalse teose demonstreerimist , kirjandusteose avalikku esitamist , kirjandus- ja kunstiteose edastamist raadios ja televisioonis v&otilde;i teose edastamist kaabelleviv&otilde;rgu kaudu , kunstiteose eksponeerimist ja arhitektuuriteose ehitamist , v&auml;lja arvatud k&auml;esoleva paragrahvi 2. l&otilde;ikes toodud juhul .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Avalikult esitatud , &uuml;ldsusele n&auml;idatud ja &uuml;ldsusele edastatud teosed</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 ) Teos loetakse esitatuks , kui see on ette loetud , m&auml;ngitud , tantsitud , n&auml;ideldud v&otilde;i muul viisil ette kantud kas vahetult v&otilde;i mis tahes tehnilise vahendi v&otilde;i protsessi vahendusel .</s>
+</p>
+<p>
+<s>( 2 ) Teos loetakse n&auml;idatuks ( eksponeerituks ) , kui teost v&otilde;i selle koopiat on demonstreeritud kas vahetult v&otilde;i filmi , slaidi , televisiooni v&otilde;i mis tahes muu tehnilise vahendi v&otilde;i protsessi abil .</s>
+</p>
+<p>
+<s>( 3 ) Teos loetakse edastatuks , kui see on avalikustatud raadio , televisiooni , satelliidi , kaabelv&otilde;rgu vahendusel v&otilde;i muul viisil , mis ei ole seotud teose koopiate levitamisega .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) Teose avalikuks esitamiseks , &uuml;ldsusele n&auml;itamiseks v&otilde;i &uuml;ldsusele edastamiseks loetakse :</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>1 ) teose avalikustamist kohas , mis on &uuml;ldsusele avatud v&otilde;i ka kohas , mis pole k&uuml;ll laiemale &uuml;ldsusele avatud , kuid kus viibib m&auml;&auml;ramata arv isikuid v&auml;ljastpoolt perekonda ja l&auml;himat tutvusringkonda ;</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>2 ) teose edastamist v&otilde;i taasedastamist &uuml;ldsusele mis tahes tehnilise vahendi v&otilde;i protsessi vahendusel , s&otilde;ltumata sellest , kas &uuml;ldsus teost tegelikult tajus v&otilde;i mitte .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 ; 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 10 <hi rend="sup">1</hi> .</s><s>( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 10 <hi rend="sup">2</hi> .</s><s>&Uuml;ldsusele edastamine satelliidi kaudu</s>
+</p>
+<p>
+<s>( 1 ) Satelliidina k&auml;esoleva seaduse t&auml;henduses k&auml;sitatakse mis tahes sidesatelliiti , mis edastab avalikuks vastuv&otilde;tuks m&otilde;eldud signaale selleks etten&auml;htud sagedusaladel , samuti &uuml;hest geograafilisest punktist teise geograafilisse punkti toimuva suletud &uuml;hendusega signaale edastavat satelliiti tingimusel , et nende signaalide individuaalvastuv&otilde;tt nendes geograafilistes punktides on teatud asjaoludel v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;ldsusele edastamine satelliidi kaudu k&auml;esoleva seaduse t&auml;henduses on akt , mille k&auml;igus avalikuks vastuv&otilde;tuks etten&auml;htud programmi sisaldavad signaalid sisestatakse raadio- v&otilde;i televisiooniorganisatsiooni kontrolli all ja vastutusel katkematusse sideahelasse satelliidi ja satelliidi maajaama vahel .</s>
+</p>
+<p>
+<s>( 3 ) Satelliidi kaudu &uuml;ldsusele edastamise akt leiab aset ainult selles riigis , kus programmi sisaldavad signaalid sisestatakse raadio- ja televisiooniorganisatsiooni kontrolli all ja vastutusel katkematusse sideahelasse satelliidi ja satelliidi maajaama vahel .</s>
+</p>
+<p>
+<s>( 4 ) Kodeeritud programmi sisaldavate signaalide puhul on satelliidi kaudu teose &uuml;ldsusele edastamise tingimuseks &uuml;ldsuse teavitamine dekodeerimisvahendite olemasolust kas raadio- v&otilde;i televisiooniorganisatsiooni poolt v&otilde;i tema n&otilde;usolekul .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 10 <hi rend="sup">3</hi> .</s><s>Taasedastamine kaabellevi kaudu</s>
+</p>
+<p>
+<s>Taasedastamine kaabellevi kaudu k&auml;esoleva seaduse t&auml;henduses on &uuml;ldsusele vastuv&otilde;tmiseks etten&auml;htud tele- v&otilde;i raadioprogrammi samaaegne , muutumatu ja t&auml;ielik taasedastamine traatside v&otilde;i &otilde;hu , sealhulgas satelliidi kaudu &uuml;ldsusele k&auml;ttesaadava kaabel- v&otilde;i mikrolaines&uuml;steemi vahendusel .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>III peat&uuml;kk</s>
+</p>
+<p>
+<s>Teose loomisel tekkivad &otilde;igused</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Autori&otilde;iguse sisu</s>
+</p>
+<p>
+<s>( 1 ) Teose autoril tekib teose loomisega autori&otilde;igus sellele teosele .</s><s>Autori&otilde;iguse sisu moodustavad isiklikud &otilde;igused ja varalised &otilde;igused .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Autori isiklikud &otilde;igused on autori isikust lahutamatud ning ei ole &uuml;leantavad .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Autori varalised &otilde;igused on &uuml;leantavad kas &uuml;ksikute &otilde;igustena v&otilde;i &otilde;iguste kogumina , kas tasu eest v&otilde;i tasuta .</s>
+</p>
+<p>
+<s>( 4 ) Autori isiklike ja varaliste &otilde;iguste piiramine v&otilde;ib toimuda ainult k&auml;esolevas seaduses etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Isiklikud &otilde;igused</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 ) Teose autoril on &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) esineda &uuml;ldsuse ees teose loojana ja n&otilde;uda teose loomise fakti tunnustamist teose autorsuse seostamise teel tema isiku ja nimega teose mis tahes kasutamisel ( &otilde;igus autorsusele ) ;</s>
+</p>
+<p>
+<s>2 ) otsustada , millisel viisil peab olema t&auml;histatud autori nimi teose kasutamisel - kas autori kodanikunimega , autorim&auml;rgiga , varjunimega ( pseudon&uuml;&uuml;miga ) v&otilde;i ilma nimeta ( anon&uuml;&uuml;mselt ) ( &otilde;igus autorinimele ) ;</s>
+</p>
+<p>
+<s>3 ) teha ise v&otilde;i lubada teha teistel isikutel teoses endas , tema pealkirjas ( nimetuses ) v&otilde;i autorinime t&auml;histuses mis tahes muudatusi ning &otilde;igus vaidlustada ilma autori n&otilde;usolekuta tehtud muudatusi ( &otilde;igus teose puutumatusele ) ;</s>
+</p>
+<p>
+<s>4 ) lubada lisada oma teosele teiste autorite teoseid ( illustratsioone , eess&otilde;nasid , j&auml;rels&otilde;nasid , kommentaare , selgitusi , uusi osasid jms. ) ( &otilde;igus teose lisadele ) ;</s>
+</p>
+<p>
+<s>5 ) vaidlustada mis tahes moonutusi ja teisi ebat&auml;psusi teoses endas , selle pealkirjas v&otilde;i autorinime t&auml;histamises ning autorile v&otilde;i tema teosele antud hinnanguid , mis kahjustavad autori au ja v&auml;&auml;rikust ( &otilde;igus autori au ja v&auml;&auml;rikuse kaitsele ) ;</s>
+</p>
+<p>
+<s>6 ) otsustada , millal teos on valmis &uuml;ldsusele esitamiseks ( &otilde;igus teose avalikustamisele ) ;</s>
+</p>
+<p>
+<s>7 ) oma avalikustatud teost t&auml;iendada ja parandada ( &otilde;igus teose t&auml;iendamisele ) ;</s>
+</p>
+<p>
+<s>8 ) n&otilde;uda teose kasutamise l&otilde;petamist ( &otilde;igus teos tagasi v&otilde;tta ) ;</s>
+</p>
+<p>
+<s>9 ) n&otilde;uda oma autorinime k&otilde;rvaldamist kasutatavalt teoselt .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ike punktides 7 , 8 ja 9 fikseeritud &otilde;iguste teostamine toimub autori kulul ning autor on kohustatud h&uuml;vitama kahju , mis tekib isikul , kes teost kasutas .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Varalised &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Autorile kuulub ainu&otilde;igus igal moel ise oma teost kasutada , lubada ja keelata oma teose samaviisilist kasutamist teiste isikute poolt ja saada tulu oma teose sellisest kasutamisest , v&auml;lja arvatud k&auml;esoleva seaduse IV peat&uuml;kis etten&auml;htud juhud .</s><s>Sealhulgas kuulub autorile &otilde;igus lubada ja keelata :</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>1 ) reprodutseerida oma teost ( &otilde;igus teose reprodutseerimisele ) .</s><s>Reprodutseerimiseks loetakse &uuml;he v&otilde;i mitme ajutise v&otilde;i alalise koopia tegemist teosest v&otilde;i teose osast mis tahes vormis v&otilde;i mis tahes viisil ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>2 ) levitada oma teost v&otilde;i selle koopiaid ( &otilde;igus teose levitamisele ) .</s><s>Levitamiseks loetakse teose v&otilde;i selle koopia omandi&otilde;iguse &uuml;leandmist v&otilde;i &uuml;ldsusele kasutada andmist mis tahes viisil , sealhulgas rentimist ja laenutamist , v&auml;lja arvatud arhitektuuriteose ja tarbekunstiteose rentimine ja laenutamine .</s><s>P&auml;rast teose koopia esmam&uuml;&uuml;ki Eestis autori poolt v&otilde;i tema loal l&otilde;peb k&auml;esolevas punktis nimetatud &otilde;igus ja teose koopiat v&otilde;ib Eestis edasi levitada autori n&otilde;usolekuta .</s><s>Autorile kuulub ainu&otilde;igus lubada v&otilde;i keelata oma teose koopia rentimist ja laenutamist &uuml;ldsusele ka juhul , kui &otilde;igus teose levitamisele on l&otilde;ppenud , v&auml;lja arvatud k&auml;esoleva paragrahvi 6. l&otilde;ikes s&auml;testatud juhud ;</s>
+</p>
+<p>
+<s>( 27.09.2000 j&otilde;ust.22.10.2000 - RT I 2000 , 78 , 497 )</s>
+</p>
+<p>
+<s>3 ) ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>4 ) t&otilde;lkida oma teos ( &otilde;igus teose t&otilde;lkimisele ) ;</s>
+</p>
+<p>
+<s>5 ) teha teosest kohandusi ( adaptsioone ) , t&ouml;&ouml;tlusi ( arran&zcaron;eeringuid ) ja teisi t&ouml;&ouml;tlusi ( &otilde;igus teose t&ouml;&ouml;tlemisele ) ;</s>
+</p>
+<p>
+<s>6 ) koostada ja v&auml;lja anda oma teoste kogumikke ja s&uuml;stematiseerida oma teoseid ( &otilde;igus teoste kogumikele ) ;</s>
+</p>
+<p>
+<s>7 ) teost avalikult esitada kas elavas v&otilde;i tehniliselt vahendatud ettekandes ( &otilde;igus avalikule esitamisele ) ;</s>
+</p>
+<p>
+<s>8 ) teost &uuml;ldsusele n&auml;idata ( &otilde;igus teose eksponeerimisele ) .</s><s>Teose eksponeerimine t&auml;hendab teose v&otilde;i tema koopia n&auml;itamist kas vahetult v&otilde;i filmi , slaidi , televisiooni v&otilde;i mis tahes muu tehnilise vahendi v&otilde;i protsessi abil ;</s>
+</p>
+<p>
+<s>9 ) edastada teos raadio , televisiooni , kaabelleviv&otilde;rgu , satelliidi ja muude tehnikavahendite vahendusel ( &otilde;igus teose edastamisele ) ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>10 ) teostada oma arhitektuurne projekt seaduses etten&auml;htud korras ;</s>
+</p>
+<p>
+<s>11 ) teostada oma disaini- , tarbekunstiteose jms. projekt .</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 27.09.2000 j&otilde;ust.22.10.2000 - RT I 2000 , 78 , 497 )</s>
+</p>
+<p>
+<s>( 3 ) Rentimine k&auml;esoleva seaduse t&auml;henduses on teose , selle koopia v&otilde;i k&auml;esolevas seaduses nimetatud muu resultaadi andmine ajutiseks kasutamiseks otsese v&otilde;i kaudse varalise v&otilde;i &auml;rilise kasu saamise eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) Laenutamine k&auml;esoleva seaduse t&auml;henduses on teose , selle koopia v&otilde;i k&auml;esolevas seaduses nimetatud muu resultaadi andmine ajutiseks kasutamiseks &uuml;ldsusele avatud asutuse kaudu otsese v&otilde;i kaudse varalise v&otilde;i &auml;rilise kasu saamise eesm&auml;rgita .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 5 ) Andmebaasi koopia esmane m&uuml;&uuml;k vastavalt k&auml;esoleva paragrahvi 1. l&otilde;ike punktile 2 l&otilde;petab &otilde;iguse kontrollida selle andmebaasi koopia edasist m&uuml;&uuml;ki .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 6 ) Autoril ei ole &otilde;igust keelata oma teose koopia laenutamist avalikest raamatukogudest , kuid autoril on &otilde;igus seaduses s&auml;testatud korras saada &otilde;iglast tasu sellise laenutamise eest .</s><s>Avalike raamatukogude nimekiri , millest laenutamisel tasu makstakse , tasu suurus , v&auml;ljamaksmise tingimused ja kord kehtestatakse Vabariigi Valitsuse poolt .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 13 <hi rend="sup">1</hi> .</s><s>Autori varaliste &otilde;iguste teostamine</s>
+</p>
+<p>
+<s>( 1 ) Autor teostab oma varalisi &otilde;igusi kas iseseisvalt v&otilde;i kollektiivse esindamise organisatsioonide ( IX peat&uuml;kk ) kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Teose avalik esitamine v&otilde;ib toimuda ainult juhul , kui teose avalikku esitamist korraldav isik on saanud autorilt , tema &otilde;igusj&auml;rglaselt v&otilde;i autorit esindavalt kollektiivse esindamise organisatsioonilt eelnevalt loa ( litsentsi ) teose avalikuks esitamiseks .</s><s>Kui teose avalikku esitamist korraldab &uuml;heaegselt mitu isikut , siis vastavalt isikute omavahelisele kokkuleppele taotleb loa &uuml;ks nendest .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes etten&auml;htud kord kehtib ka juhul , kui teost kavatsetakse avalikult esitada tehnilise vahendi ( plaadi- , kasseti- v&otilde;i CD-m&auml;ngija jms ) vahendusel &uuml;ldsusele avatud kohas .</s>
+</p>
+<p>
+<s>( 4 ) Teose edastamine raadio , televisiooni , kaabelleviv&otilde;rgu , satelliidi v&otilde;i muude tehnikavahendite vahendusel v&otilde;ib toimuda ainult juhul , kui teost edastav isik on saanud autorilt , tema &otilde;igusj&auml;rglaselt v&otilde;i autorit esindavalt kollektiivse esindamise organisatsioonilt eelnevalt loa ( litsentsi ) teose edastamiseks .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes etten&auml;htud kord kehtib ka juhul , kui k&auml;esoleva paragrahvi 4. l&otilde;ikes nimetatud viisil edastatud teost kavatsetakse esitada raadio , televisiooni v&otilde;i kaabelleviv&otilde;rgu vahendusel &uuml;ldsusele avatud kohas v&otilde;i sellisel viisil , et isikud saavad teoseid kasutada nende poolt individuaalselt valitud kohas ja ajal.</s>
+</p>
+<p>
+<s>( 6 ) &Uuml;ldsusele avatud kohaks k&auml;esoleva paragrahvi 3. ja 5. l&otilde;ike t&auml;henduses loetakse territoorium , ehitis v&otilde;i ruum , mis on avalik asi v&otilde;i mis on antud &uuml;ldiseks kasutamiseks v&otilde;i kuhu sellise koha omanik v&otilde;i valdaja v&otilde;imaldab sissep&auml;&auml;su individuaalselt ( t&auml;nav , v&auml;ljak , park , spordirajatis , lauluv&auml;ljak , turg , puhkeala , teater , kino , klubi , diskoteek , kauplus , toitlustus&auml;ri , teenindusettev&otilde;te , &uuml;hiss&otilde;iduk , hotell , motell jms ) .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Autori &otilde;igus saada autoritasu</s>
+</p>
+<p>
+<s>( 1 ) Autoril on &otilde;igus saada tasu teose kasutamise eest teiste isikute poolt ( autoritasu ) , v&auml;lja arvatud k&auml;esoleva seadusega etten&auml;htud juhud .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 2 ) Autoritasu , sealhulgas rendi suurus , selle kogumise ja v&auml;ljamaksmise kord , m&auml;&auml;ratakse kindlaks autori ning teose kasutaja vahelise kokkuleppega ( lepinguga ) v&otilde;i autori volitusel autoreid esindava kollektiivse esindamise organisatsiooni v&otilde;i muu isiku ja teose kasutaja vahelise kokkuleppega k&auml;esoleva seaduse paragrahv 76 3. l&otilde;ikes ning paragrahv 77 3. l&otilde;ikes s&auml;testatud erisusi arvestades .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 ; 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Kuni ei ole saavutatud k&auml;esoleva paragrahvi 2. l&otilde;ikes m&auml;rgitud kokkulepet , on teose kasutamine keelatud .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 4 ) Kui pooled on autoritasus kokku leppinud , kuid kohustatud pool ei t&auml;ida t&auml;htp&auml;evaks temal lasuvat kohustust osaliselt v&otilde;i t&auml;ielikult , peab kohustatud pool teose kasutamise l&otilde;petama , kui ei ole &otilde;igustatud poolega kokku lepitud teisiti .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 4. l&otilde;ikes s&auml;testatu eiramine loetakse teose kasutamiseks ilma autori v&otilde;i tema &otilde;iguste valdaja loata .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 6 ) Kui autor on audiovisuaalse teose produtsendile &uuml;le andnud ( loovutanud ) oma varalised &otilde;igused v&otilde;i andnud loa ( litsentsi ) audiovisuaalse teose originaali v&otilde;i koopiat kasutada ( sealhulgas rentida ) v&otilde;i sellist &otilde;iguste &uuml;leandmist v&otilde;i loa andmist eeldatakse , j&auml;&auml;b autorile &otilde;igus saada &otilde;iglast tasu televisiooniorganisatsioonilt , rendile andjalt v&otilde;i muult isikult , kes audiovisuaalset teost kasutab .</s><s>Kokkulepe loobumise kohta &otilde;igusest saada &otilde;iglast tasu on kehtetu .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 7 ) Kui autor on fonogrammitootjale &uuml;le andnud ( loovutanud ) &otilde;iguse v&otilde;i andnud loa ( litsentsi ) fonogrammi koopiat rentida v&otilde;i sellist &otilde;iguse &uuml;leandmist v&otilde;i loa andmist eeldatakse , j&auml;&auml;b autorile &otilde;igus saada sellise rentimise eest rendile andjalt &otilde;iglast tasu .</s><s>Kokkulepe loobumise kohta &otilde;igusest saada &otilde;iglast tasu on kehtetu .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Tasu kujutava kunsti teose edasim&uuml;&uuml;mise eest</s>
+</p>
+<p>
+<s>( 1 ) Kujutava kunsti teose originaali edasim&uuml;&uuml;misel avalikul enampakkumisel ( oksjonil ) , kaubandus- v&otilde;i kunstiorganisatsioonide kaudu on teose autoril &otilde;igus saada viis protsenti m&uuml;&uuml;gisummast .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud autoritasu tuleb teose edasim&uuml;&uuml;ki korraldanud isikul kanda autoreid esindava kollektiivse esindamise organisatsiooni pangakontole tervikuna hiljemalt 10. p&auml;eval m&uuml;&uuml;gi toimumise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 ; 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Autori&otilde;igus ja omandi&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;igus teosele kuulub autorile v&otilde;i tema p&auml;rijale s&otilde;ltumata sellest , kellel on omandi&otilde;igus sellele materiaalsele objektile , milles teos on v&auml;ljendatud .</s><s>Autori v&otilde;i tema p&auml;rija varaliste &otilde;iguste teostamise viis m&auml;&auml;ratakse kindlaks autori v&otilde;i tema p&auml;rija ja omaniku vahelise kokkuleppega .</s>
+</p>
+<p>
+<s>( 2 ) Kujutava kunsti teose autoril on &otilde;igus n&otilde;uda oma teosest koopia valmistamiseks juurdep&auml;&auml;su teose originaalile , mis on teise isiku omanduses v&otilde;i tiitlip&auml;rases valduses .</s>
+</p>
+<p>
+<s>( 3 ) Omaniku n&otilde;usolekul v&otilde;ib autor parandada , t&auml;iendada v&otilde;i muul viisil &uuml;mber t&ouml;&ouml;tada oma kujutava kunsti teost , arhitektuuri- , tarbekunsti- , disaini- jms. teost .</s>
+</p>
+<p>
+<s>IV peat&uuml;kk</s>
+</p>
+<p>
+<s>Autori varaliste &otilde;iguste teostamise piiramine ( teose vaba kasutamine )</s>
+</p>
+<p>
+<s>1.</s><s>P&otilde;his&auml;tted</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Autori varaliste &otilde;iguste piiramine</s>
+</p>
+<p>
+<s>Erandina k&auml;esoleva seaduse &sect;-dest 13-15 , kuid tingimusel , et see ei ole vastuolus teose tavap&auml;rase kasutamisega v&otilde;i ei kahjusta p&otilde;hjendamatult autori seaduslikke huve , on lubatud teose kasutamine autori n&otilde;usolekuta ja autoritasu maksmiseta ainult k&auml;esoleva seaduse &sect;-des 18-25 otseselt etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Teose vaba kasutamine isiklikeks vajadusteks</s>
+</p>
+<p>
+<s>( 1 ) Autori n&otilde;usolekuta ja autoritasu maksmiseta on lubatud teise isiku &otilde;igusp&auml;raselt avaldatud teose reprodutseerimine isiklikeks vajadusteks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Ei ole lubatud reprodutseerida isiklikeks vajadusteks ilma autori n&otilde;usolekuta ja autoritasu maksmiseta :</s>
+</p>
+<p>
+<s>1 ) arhitektuuriteoseid hoonetena v&otilde;i muude analoogiliste rajatistena ;</s>
+</p>
+<p>
+<s>2 ) piiratud tiraa&zcaron;iga kujutava kunsti teoseid ;</s>
+</p>
+<p>
+<s>3 ) elektroonilisi andmebaase ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>4 ) arvutiprogramme , v&auml;lja arvatud k&auml;esoleva seaduse paragrahvides 24 ja 25 etten&auml;htud juhud ;</s>
+</p>
+<p>
+<s>5 ) muid teoseid juhul , kui see on vastuolus teose kasutamisega v&otilde;i kitsendab autori seaduslikke huvisid .</s>
+</p>
+<p>
+<s>( 3 ) Audiovisuaalset teost v&otilde;i teose helisalvestist on lubatud kasutada isiklikeks vajadusteks k&auml;esoleva seaduse paragrahvides 26 ja 27 etten&auml;htud korras .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 1.l&otilde;ige ei laiene juriidilistele isikutele .</s>
+</p>
+<p>
+<s>2.</s><s>Teose kasutamine autori n&otilde;usolekuta ja tasu maksmiseta</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Teose vaba reprodutseerimine teaduslikel , hariduslikel , informatsioonilistel , &otilde;igusem&otilde;istmise ja halduslikel eesm&auml;rkidel</s>
+</p>
+<p>
+<s>Autori n&otilde;usolekuta ja autoritasu maksmiseta , kuid kasutatud teose autori nime v&otilde;i nimetuse , kui see on teosel n&auml;idatud , teose pealkirja ( nimetuse ) ning avaldamisallika kohustusliku &auml;ran&auml;itamisega on lubatud :</s>
+</p>
+<p>
+<s>1 ) &otilde;igusp&auml;raselt avaldatud teoste refereerimine ja tsiteerimine motiveeritud mahus ja j&auml;rgides refereeritava v&otilde;i tsiteeritava teose kui terviku m&otilde;tte &otilde;ige edasiandmise kohustust , sealhulgas ajalehtede ja ajakirjade artiklite refereerimine ja tsiteerimine ajakirjandusest &uuml;levaate andmise eesm&auml;rgil ;</s>
+</p>
+<p>
+<s>2 ) &otilde;igusp&auml;raselt avaldatud teose v&otilde;i selle osa kasutamine illustreeriva materjalina &otilde;ppe- v&otilde;i teaduslikel eesm&auml;rkidel nende eesm&auml;rkidega motiveeritud mahus ja tingimusel , et selline kasutamine ei taotle &auml;rilisi eesm&auml;rke ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>3 ) ajalehtedes , ajakirjades jm perioodilistes v&auml;ljaannetes &otilde;igusp&auml;raselt avaldatud artiklite ja avaldatud teostest katkendite reprograafiline reprodutseerimine eranditult &otilde;ppe- ja teaduslikel eesm&auml;rkidel haridus- ja teadusasutustes , mille tegevus ei taotle &auml;rilisi eesm&auml;rke ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>3 <hi rend="sup">1</hi> ) ajalehtedes , ajakirjades jm perioodilistes v&auml;ljaannetes p&auml;evakajalisel majanduslikul , poliitilisel v&otilde;i religioossel teemal avaldatud artiklite reprodutseerimine ja levitamine ajakirjanduses v&otilde;i samal teemal eetrisse antud raadio- ja televisioonisaadete edastamine &uuml;ldsusele raadio , televisiooni v&otilde;i kaabellevi vahendusel , v&auml;lja arvatud juhud , kui teose autor v&otilde;i autori&otilde;iguse valdaja on sellise reprodutseerimise v&otilde;i edastamise &otilde;iguse s&otilde;naselgelt endale j&auml;tnud ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>3 <hi rend="sup">2</hi> ) p&auml;evas&uuml;ndmuste kajastamisel nende s&uuml;ndmuste k&auml;igus n&auml;htud v&otilde;i kuuldud kirjandus- ja kunstiteoste osaline reprodutseerimine ja &uuml;ldsusele edastamine fotograafia , kino , raadio ja televisiooni ning kaabelleviv&otilde;rgu vahendusel , kuid sellises vormis ja ulatuses , mis vastab p&auml;evas&uuml;ndmuste kajastamise vajadustele ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>4 ) ( Kehtetu - 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>5 ) ( Kehtetu - 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>6 ) ( Kehtetu - 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>7 ) avalikult peetud k&otilde;nede , ettekannete , jutluste , kohtuk&otilde;nede jms. suuliste teoste reprodutseerimine ajakirjanduses , kinos , raadios , televisioonis v&otilde;i kaabelv&otilde;rgu vahendusel p&auml;evas&uuml;ndmuste kohta informatsiooni edasiandmise eesm&auml;rgil ulatuses , mis vastab sellise informatsiooni edasiandmise vajadustele .</s><s>K&auml;esolevas punktis nimetatud avalikult esitatud teoste kogumike v&auml;ljaandmise &otilde;igus kuulub autorile ;</s>
+</p>
+<p>
+<s>8 ) teose reprodutseerimine &otilde;igusem&otilde;istmise v&otilde;i haldustegevuse k&auml;igus v&otilde;i avaliku julgeoleku tagamise eesm&auml;rgil ulatuses , mis vastab &otilde;igusem&otilde;istmise v&otilde;i haldusfunktsioonide teostamise v&otilde;i avaliku julgeoleku tagamise eesm&auml;rkidele ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>9 ) avalikustatud teoste v&auml;ljaandmine reljeefses punktkirjas v&otilde;i muul tehnilisel viisil pimedate jaoks , v&auml;lja arvatud teosed , mis on spetsiaalselt loodud pimedate jaoks sellistel viisidel reprodutseerimiseks .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Teose reprodutseerimine raamatukogu , arhiivi v&otilde;i muuseumi poolt</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 ) Autori n&otilde;usolekuta ja autoritasu maksmiseta on lubatud reprodutseerida raamatukogu , arhiivi v&otilde;i muuseumi kogus v&otilde;i kollektsioonis olevat teost &uuml;he koopiana , selleks et :</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>1 ) asendada kadunud , h&auml;vinud v&otilde;i kasutamisk&otilde;lbmatuks muutunud teos v&otilde;i selle koopia v&otilde;i , sellise ohu t&otilde;en&auml;osuse korral , teha koopia teose s&auml;ilimise tagamiseks .</s><s>Oht on t&otilde;en&auml;oline , kui teos v&otilde;i selle koopia on raamatukogus , arhiivis v&otilde;i muuseumis ainueksemplarina ning selle laenutamise v&otilde;i eksponeerimise l&otilde;petamine on vastuolus raamatukogu , arhiivi v&otilde;i muuseumi p&otilde;hikirjaliste &uuml;lesannetega ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>2 ) asendada m&otilde;ne teise raamatukogu , arhiivi v&otilde;i muuseumi p&uuml;sikollektsiooni kuulunud teos v&otilde;i selle koopia juhul , kui see on kadunud , h&auml;vinud v&otilde;i muutunud kasutamisk&otilde;lbmatuks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1.l&otilde;ikes etten&auml;htud teose reprodutseerimine on lubatud tingimusel , et antud raamatukogu , arhiivi v&otilde;i muuseumi tegevus ei taotle otsest ega kaudset majanduslikku kasu ja on v&otilde;imatu omandada teose uut koopiat .</s>
+</p>
+<p>
+<s>( 3 ) Raamatukogul , arhiivil v&otilde;i muuseumil on &otilde;igus reprodutseerida oma kogusse v&otilde;i kollektsiooni kuuluvat teost v&otilde;i selle osa f&uuml;&uuml;silise isiku tellimuse alusel isiklikeks vajadusteks kasutamise eesm&auml;rgil ( &sect; 18 1. l&otilde;ige ) .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) Raamatukogul , arhiivil v&otilde;i muuseumil on &otilde;igus reprodutseerida oma kogusse v&otilde;i kollektsiooni kuuluvat teost v&otilde;i selle osa kohtu v&otilde;i riigiasutuse tellimuse alusel k&auml;esoleva seaduse &sect; 19 punktis 8 etten&auml;htud eesm&auml;rkidel .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 3. ja 4. l&otilde;ikes etten&auml;htud tegevus ei v&otilde;i toimuda &auml;rilisel eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 20 <hi rend="sup">1</hi> .</s><s>&Uuml;ldsusele k&uuml;lastamiseks avatud kohtades asuvate teoste kujutiste vaba kasutamine</s>
+</p>
+<p>
+<s>Autori n&otilde;usolekuta ja autoritasu maksmiseta on lubatud &uuml;ldsusele k&uuml;lastamiseks avatud kohtades alaliselt asuva arhitektuuriteose , kujutava kunsti teose , tarbekunstiteose ja fotograafiateose reprodutseerimine &uuml;ksk&otilde;ik millisel viisil peale mehaanilise kontaktkopeerimise ja selle teose kujutise edastamine &uuml;ldsusele , v&auml;lja arvatud juhul , kui selline teos moodustab kujutise p&otilde;himotiivi ja seda kavatsetakse kasutada otsesel &auml;rilisel eesm&auml;rgil .</s><s>Kui k&auml;esolevas l&otilde;ikes s&auml;testatud teosel on nimetatud autori nimi , tuleb see lisada kujutise &uuml;ldsusele edastamisel .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 21. ( Kehtetu - 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Teose vaba avalik esitamine</s>
+</p>
+<p>
+<s>Autori n&otilde;usolekuta ja autoritasu maksmiseta , kuid kasutatud teose autori nime v&otilde;i nimetuse , kui see on teosel n&auml;idatud , kohustusliku &auml;ran&auml;itamisega on lubatud teose avalik esitamine &otilde;ppeasutustes vahetus &otilde;ppeprotsessis nende asutuste &otilde;petava personali ja &otilde;pilaste poolt ning tingimusel , et kuulajaskonna v&otilde;i vaatajaskonna moodustavad &otilde;petav personal ja &otilde;pilased v&otilde;i teised isikud ( lapsevanemad , eestkostjad , hooldajad jne. ) , kes on otseselt seotud &otilde;ppeasutusega , kus teost avalikult esitatakse .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Teose ajutise salvestise kasutamine raadio ja televisiooni poolt</s>
+</p>
+<p>
+<s>( 1 ) Autori n&otilde;usolekuta ja t&auml;iendava autoritasu maksmiseta on raadiol ja televisioonil lubatud teha ajutine salvestis teosest , millele tal on eetrisseandmise &otilde;igus , tingimusel , et selline salvestis tehakse raadio ja televisiooni oma tehniliste vahenditega ja enda poolt kasutamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Raadio ja televisioon on kohustatud k&auml;esoleva paragrahvi 1.l&otilde;ikes etten&auml;htud salvestise h&auml;vitama 30 p&auml;eva m&ouml;&ouml;dumisel selle tegemisest , kui selliselt salvestatud teose autoriga ei ole kokku lepitud teisiti .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevas paragrahvis etten&auml;htud ajutine salvestis ei kuulu h&auml;vitamisele juhul , kui sellel on suur kultuurilooline v&auml;&auml;rtus .</s><s>Nimetatud juhul kuulub salvestis s&auml;ilitamisele raadio ja televisiooni arhiivis kui eranditult dokumentaalset iseloomu omav teos ilma selleks autorilt n&otilde;usolekut k&uuml;simata .</s><s>Arhiivis s&auml;ilitamisele kuuluvate teoste kohta teeb otsuse raadio- ja televisiooniorganisatsioon , vaidluse korral aga riigiarhivaar .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ; 25.03.98 j&otilde;ust.01.05.98 - RT I 1998 , 36/37 , 552 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Arvutiprogrammi vaba kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Kui lepinguga ei ole ette n&auml;htud teisiti , on arvutiprogrammi &otilde;igusp&auml;rasel kasutajal &otilde;igus ilma programmi autori n&otilde;usolekuta ja t&auml;iendava autoritasu maksmiseta programmi reprodutseerida , t&otilde;lkida , kohandada ( adaptsioon ) ning muul viisil &uuml;mber t&ouml;&ouml;tada ja saadud tulemusi reprodutseerida tingimusel , et see on vajalik :</s>
+</p>
+<p>
+<s>1 ) programmi kasutamiseks seadmel v&otilde;i seadmetel , ulatuses ja eesm&auml;rkidel , milleks programm omandati ;</s>
+</p>
+<p>
+<s>2 ) programmis esinevate vigade parandamiseks .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 2 ) Arvutiprogrammi &otilde;igusp&auml;rasel kasutajal on ilma programmi autori v&otilde;i tema &otilde;igusj&auml;rglase n&otilde;usolekuta ja t&auml;iendava autoritasu maksmiseta &otilde;igus teha programmist varukoopia tingimusel , et see on vajalik arvutiprogrammi kasutamiseks v&otilde;i kadunud , h&auml;vinud v&otilde;i kasutamisk&otilde;lbmatuks muutunud programmi taastamiseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Arvutiprogrammi &otilde;igusp&auml;rasel kasutajal on &otilde;igus ilma programmi autori n&otilde;usolekuta ja t&auml;iendava autoritasu maksmiseta j&auml;lgida , uurida v&otilde;i katsetada arvutiprogrammi toimimist eesm&auml;rgil selgitada v&auml;lja programmelemendi aluseks olnud ideed ja p&otilde;him&otilde;tted juhul , kui ta teeb seda programmi laadimise , esitamise , k&auml;itamise , &uuml;lekandmise v&otilde;i talletamise k&auml;igus , mille tegemiseks ta on &otilde;igustatud .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 5 ) Lepingu tingimus , mis piirab k&auml;esoleva paragrahvi 2. v&otilde;i 3. l&otilde;ikes nimetatud &otilde;iguste teostamist , on t&uuml;hine .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Arvutiprogrammi vaba p&ouml;&ouml;rdprojekteerimine ( dekompileerimine )</s>
+</p>
+<p>
+<s>( 1 ) Arvutiprogrammi &otilde;igusp&auml;rasel kasutajal on &otilde;igus ilma programmi autori n&otilde;usolekuta ja t&auml;iendava autoritasu maksmiseta reprodutseerida programmi ning seda t&otilde;lkida juhul , kui see on h&auml;davajalik informatsiooni saamiseks algsest programmist s&otilde;ltumatult loodud programmi &uuml;hilduvuse tagamiseks teiste programmidega , kui on t&auml;idetud j&auml;rgmised tingimused :</s>
+</p>
+<p>
+<s>1 ) seda teeb programmi &otilde;igusp&auml;rane kasutaja v&otilde;i tema &uuml;lesandel m&otilde;ni teine vastavat luba omav isik ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>2 ) programmide &uuml;hilduvust tagav informatsioon ei ole olnud k&auml;esoleva l&otilde;ike punktis 1 nimetatud isikutele eelnevalt k&auml;ttesaadav ;</s>
+</p>
+<p>
+<s>3 ) selline tegevus piirdub algse programmi osadega , mis on vajalikud &uuml;hilduvuse tagamiseks .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 2 ) Informatsiooni , mis on saadud k&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud tegevusega , ei tohi :</s>
+</p>
+<p>
+<s>1 ) kasutada muuks otstarbeks kui s&otilde;ltumatult loodud programmi &uuml;hilduvuse tagamiseks ;</s>
+</p>
+<p>
+<s>2 ) &uuml;le anda kolmandatele isikutele , v&auml;lja arvatud juhul , kui see on vajalik s&otilde;ltumatult loodud programmi &uuml;hilduvuse tagamiseks ;</s>
+</p>
+<p>
+<s>3 ) kasutada oma olemuselt sarnase programmi arendamiseks , tootmiseks , realiseerimiseks v&otilde;i muude algse programmi autori autori&otilde;igust rikkuvate tegude sooritamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Lepingu tingimus , mis piirab k&auml;esolevas paragrahvis nimetatud &otilde;iguste teostamist , on t&uuml;hine .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 25 <hi rend="sup">1</hi> .</s><s>Andmebaasi vaba kasutamine</s>
+</p>
+<p>
+<s>Andmebaasi v&otilde;i selle koopia &otilde;igusp&auml;rasel kasutajal on &otilde;igus ilma autori n&otilde;usolekuta ja t&auml;iendavat autoritasu maksmata teostada k&otilde;iki tegusid , mis on vajalikud juurdep&auml;&auml;suks andmebaasi sisule ja selle sisu tavap&auml;raseks kasutamiseks .</s><s>Kui nimetatud isik on &otilde;igustatud kasutama andmebaasi ainult osaliselt , kohaldatakse k&auml;esolevas paragrahvis s&auml;testatut ainult andmebaasi v&otilde;i selle koopia vastava osa suhtes .</s><s>Lepingu tingimus , mis piirab nimetatud &otilde;iguse teostamist , on t&uuml;hine .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>3.</s><s>Teose kasutamine autori n&otilde;usolekuta , kuid tasu maksmisega</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Audiovisuaalse teose ja teose helisalvestise kasutamine isiklikeks vajadusteks</s>
+</p>
+<p>
+<s>( 1 ) Autori n&otilde;usolekuta on lubatud reprodutseerida audiovisuaalset teost v&otilde;i teose helisalvestist kasutaja enda isiklikeks vajadusteks ( teaduslikuks uurimist&ouml;&ouml;ks , &otilde;ppet&ouml;&ouml;ks jms. ) .</s><s>Autoril , aga samuti teose esitajal ja fonogrammitootjal on &otilde;igus saada &otilde;iglast tasu teose v&otilde;i fonogrammi sellise kasutamise eest ( paragrahv 27 ) .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1.l&otilde;ige ei laiene juriidilistele isikutele .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Tasu audiovisuaalse teose ja teose helisalvestise kasutamise eest isiklikeks vajadusteks</s>
+</p>
+<p>
+<s>( 1 ) Paragrahvis 26 etten&auml;htud teoste kasutamise kompenseerimiseks autoritele , aga samuti teoste esitajatele ja fonogrammide tootjatele , maksavad isiklikuks reprodutseerimiseks m&otilde;eldud salvestusseadmete ( magnetofonide , videomagnetofonide jms. ) ja t&uuml;hjade ( salvestuseta ) audio- ja videosalvestuseks m&otilde;eldud vahendite ( lintide , kassettide jms. ) tootjad ning importijad vastavat tasu , mis jaotatakse &otilde;iglaselt autorite , teoste esitajate ja fonogrammide tootjate vahel , l&auml;htudes teoste ja fonogrammide kasutamisest .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud tasu v&otilde;tmise ja maksmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Kultuuriminister m&auml;&auml;rab igal aastal tasu suuruse , olles selle eelnevalt koosk&otilde;lastanud k&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud tootjate ja importijatega ning autoreid esindavate kollektiivse esindamise organisatsioonidega .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 <hi rend="sup">1</hi> ) Kultuuriminister kinnitab hiljemalt kolm kuud p&auml;rast eelarveaasta l&otilde;ppu k&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud tasu jaotamise , olles selle eelnevalt koosk&otilde;lastanud autorite , teoste esitajate ja fonogrammitootjate esindajatega .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud tasu ei v&otilde;eta salvestusseadmetelt ja t&uuml;hjadelt ( salvestuseta ) audio- ja videosalvestuseks m&otilde;eldud vahenditelt :</s>
+</p>
+<p>
+<s>1 ) mis on eksporditud ;</s>
+</p>
+<p>
+<s>2 ) mida kasutatakse professionaalseks salvestamiseks ;</s>
+</p>
+<p>
+<s>3 ) mida kasutatakse salvestiste tegemiseks n&auml;gemis- ja kuulmispuuetega inimestele ;</s>
+</p>
+<p>
+<s>4 ) mis on seadustega etten&auml;htud korras vabastatud tasust .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 1.l&otilde;ikes etten&auml;htud tasu kogujaks m&auml;&auml;ratud autoreid esindav kollektiivse esindamise organisatsioonil on &otilde;igus saada tolli- ja statistikaorganitelt , tootja- ja impordiorganisatsioonidelt k&otilde;iki vajalikke andmeid tasu kogumiseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 27 <hi rend="sup">1</hi> .</s><s>Teose reprograafiline reprodutseerimine</s>
+</p>
+<p>
+<s>( 1 ) Autoril ja kirjastajal on &otilde;igus saada &otilde;iglast tasu teose reprograafilise reprodutseerimise ( fotokopeerimise v&otilde;i muul analoogilisel meetodil paberile v&otilde;i muule materjalile reprodutseerimise ) eest ( &sect; 13 1. l&otilde;ike punkt 1 ) .</s><s>Tasu suuruse m&auml;&auml;ramisel arvestatakse teose mahtu , paljundatud koopiate arvu ja &uuml;he koopialehe hinda .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud tasu maksavad isikud ( seadmete operaatorid ) , kes paljundavad k&auml;esoleva seadusega kaitstud kirjandus- , kunsti- ja teadusteoseid .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud tasu arvestamise , kogumise ja jaotamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud tasu kogub kultuuriministri poolt m&auml;&auml;ratud kollektiivse esindamise organisatsioon .</s><s>Nimetatud organisatsioonil on &otilde;igus saada seadmete operaatoritelt k&otilde;iki vajalikke andmeid tasu kogumiseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>V peat&uuml;kk</s>
+</p>
+<p>
+<s>Isikud , kellele kuulub autori&otilde;igus</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Teose autor</s>
+</p>
+<p>
+<s>( 1 ) Autori isiklikud &otilde;igused ja varalised &otilde;igused kuuluvad algselt teose autorile , kui k&auml;esoleva seadusega autori varaliste &otilde;iguste osas ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Teose autoriks on f&uuml;&uuml;siline isik v&otilde;i f&uuml;&uuml;silised isikud , kes on selle teose loonud .</s>
+</p>
+<p>
+<s>( 3 ) Juriidilisele isikule kuulub autori&otilde;igus vaid k&auml;esoleva seadusega etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 4 ) Riigile kuulub autori&otilde;igus vaid k&auml;esolevas seaduses etten&auml;htud juhtudel .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Autorsuse presumptsioon</s>
+</p>
+<p>
+<s>( 1 ) Isiku , kes avaldab teose oma nime all v&otilde;i oma &uuml;ldtuntud pseudon&uuml;&uuml;mi v&otilde;i autorim&auml;rgi all , autorsust presumpeeritakse ( eeldatakse ) , kuni pole t&otilde;endatud vastupidist .</s><s>T&otilde;endamiskohustus lasub autorsuse vaidlustajal .</s>
+</p>
+<p>
+<s>( 2 ) Anon&uuml;&uuml;mselt , pseudon&uuml;&uuml;mi v&otilde;i autorim&auml;rgi all avalikustatud teose autoril on autori&otilde;igus sellele teosele .</s><s>Momendini , mil autor avab oma kodanikunime ja t&otilde;estab oma autorsust , teostab autori varalisi &otilde;igusi teose &otilde;igusp&auml;raselt avaldanud isik .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 ) Autorit k&auml;esoleva paragrahvi 2. l&otilde;ikes etten&auml;htud juhtudel esindanud isik s&auml;ilitab tema poolt esindajaks olemise ajal omandatud &otilde;igused teose kasutamiseks , kui tema ja autori vahelise kokkuleppega ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>&Uuml;hine autorsus</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;igus teosele , mille on loonud kaks v&otilde;i enam isikut oma &uuml;hise loomingulise tegevusega , kuulub selle autoritele &uuml;hiselt .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hise loomingulise tegevusega loodud teos v&otilde;ib moodustada &uuml;he jagamatu terviku ( &uuml;hisautorsus ) v&otilde;i koosneda osadest , millest iga&uuml;hel on samuti iseseisev t&auml;hendus ( kaasautorsus ) .</s><s>Teose osa loetakse iseseisvat t&auml;hendust omavaks , kui seda saab kasutada s&otilde;ltumatult selle teose teistest osadest .</s>
+</p>
+<p>
+<s>( 3 ) Igale kaasautorile kuulub autori&otilde;igus ka tema poolt loodud iseseisva t&auml;hendusega osale teoses ning ta v&otilde;ib kasutada seda teose osa iseseisvalt .</s><s>Selline kasutamine ei tohi kahjustada teiste kaasautorite &otilde;igusi ega olla vastuolus teose kaasautorite poolt &uuml;hise kasutamise huvidega .</s>
+</p>
+<p>
+<s>( 4 ) Suhted &uuml;histe autorite vahel autori&otilde;iguse teostamisel , sealhulgas autoritasu jagamisel , m&auml;&auml;ratakse kindlaks nende kokkuleppega .</s><s>Sellise kokkuleppe puudumisel teostavad autori&otilde;igust teosele k&otilde;ik autorid &uuml;hiselt , autoritasu aga jagatakse nende vahel v&otilde;rdsetes osades .</s>
+</p>
+<p>
+<s>( 5 ) Iga&uuml;ks &uuml;histest autoritest v&otilde;ib p&ouml;&ouml;rduda kohtusse v&otilde;i v&otilde;tta tarvitusele muid abin&otilde;usid &uuml;hiselt loodud teose kaitseks ning autori&otilde;iguse rikkumise k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>( 6 ) Autorite konsulteerimine , administratiivse juhtimise funktsioonide t&auml;itmine , teose redigeerimine , graafikute , skeemide jms. joonestamine ja muu tehnilise abi osutamine autoritele ei ole aluseks &uuml;hise autorsuse tekkimisele .</s>
+</p>
+<p>
+<s>( 7 ) T&ouml;&ouml;lepingu alusel oma otseste t&ouml;&ouml;&uuml;lesannete t&auml;itmise korras teose loomisel on autorikollektiivi moodustamisel vaja isiku eelnevat n&otilde;usolekut tema autorikollektiivi l&uuml;litamiseks .</s><s>Autorikollektiivi t&ouml;&ouml;s osalemisest keeldumist m&otilde;juvatel p&otilde;hjustel ei loeta t&ouml;&ouml;distsipliini rikkumiseks .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Autori&otilde;igus kollektiivsele teosele</s>
+</p>
+<p>
+<s>( 1 ) Kollektiivseks teoseks loetakse teost , mis koosneb erinevate autorite kaast&ouml;&ouml;dest , mis on &uuml;hendatud &uuml;htseks tervikuks f&uuml;&uuml;silise v&otilde;i juriidilise isiku poolt tema initsiatiivil ja juhtimisel ning mis antakse v&auml;lja selle f&uuml;&uuml;silise v&otilde;i juriidilise isiku nime v&otilde;i nimetuse all ( teatmeteosed , teaduslik kogumik , ajaleht , ajakiri ja teised perioodilised v&otilde;i j&auml;tkuv&auml;ljaanded jms. ) .</s>
+</p>
+<p>
+<s>( 2 ) Autori&otilde;igus kollektiivsele teosele kuulub isikule , kelle initsiatiivil ja juhtimisel selline teos loodi ja kelle nime v&otilde;i nimetuse all see v&auml;lja anti , kui lepinguga pole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Kollektiivsesse teosesse v&otilde;etud teoste ( kaast&ouml;&ouml;de ) autoritele kuulub autori&otilde;igus oma teosele ning nad v&otilde;ivad oma teoseid kasutada iseseisvalt , kui lepinguga ei ole kindlaks m&auml;&auml;ratud teisiti .</s><s>Kaast&ouml;&ouml;de autoreid ei loeta &uuml;histeks autoriteks .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Autori&otilde;igus t&ouml;&ouml;kohustuste t&auml;itmise korras loodud teosele</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 ) T&ouml;&ouml;lepingu alusel v&otilde;i avalikus teenistuses oma otseste t&ouml;&ouml;&uuml;lesannete t&auml;itmise korras loodud teose autoril tekib autori&otilde;igus sellele teosele , kuid autori varalised &otilde;igused teose kasutamiseks t&ouml;&ouml;&uuml;lesannetega etten&auml;htud eesm&auml;rgil ja piirides l&auml;hevad &uuml;le t&ouml;&ouml;andjale , kui lepingus ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Autor v&otilde;ib iseseisvalt kasutada oma otseste t&ouml;&ouml;&uuml;lesannete t&auml;itmise korras loodud teost t&ouml;&ouml;&uuml;lesannetega etten&auml;htud eesm&auml;rgil ainult t&ouml;&ouml;andja eelneval n&otilde;usolekul , n&auml;idates &auml;ra t&ouml;&ouml;andja nime v&otilde;i nimetuse .</s><s>Sellisel juhul on autoril &otilde;igus saada autoritasu teose kasutamise eest .</s>
+</p>
+<p>
+<s>( 3 ) Autor v&otilde;ib iseseisvalt kasutada oma t&ouml;&ouml;&uuml;lesannete t&auml;itmise korras loodud teost eesm&auml;rgil , mis ei ole tema t&ouml;&ouml;&uuml;lesannetega ette n&auml;htud , kui t&ouml;&ouml;lepingus ei ole ette n&auml;htud teisiti .</s><s>Sellisel teose kasutamisel tuleb &auml;ra n&auml;idata t&ouml;&ouml;andja nimi v&otilde;i nimetus .</s>
+</p>
+<p>
+<s>( 4 ) &Otilde;igusaktides etten&auml;htud juhtudel makstakse t&ouml;&ouml;&uuml;lesannete t&auml;itmise korras loodud teose autorile lisaks t&ouml;&ouml;tasule ( palgale ) ka autoritasu teose kasutamise eest .</s><s>Autoritasu maksmine v&otilde;idakse ette n&auml;ha ka t&ouml;&ouml;andja ja autori vahelise kokkuleppega .</s>
+</p>
+<p>
+<s>( 5 ) Arvutiprogrammi autoril v&otilde;i andmebaasi autoril , kes loob programmi v&otilde;i andmebaasi oma t&ouml;&ouml;&uuml;lesannete t&auml;itmise k&auml;igus v&otilde;i j&auml;rgides t&ouml;&ouml;andjalt saadud juhiseid , tekib autori&otilde;igus sellele programmile v&otilde;i andmebaasile , kuid t&ouml;&ouml;andjale kuulub ainulitsents k&otilde;igi varaliste &otilde;iguste teostamiseks , kui lepingus ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 6 ) Varalised &otilde;igused avalikus teenistuses loodud teosele l&auml;hevad &uuml;le riigile , kui lepingus ei ole ette n&auml;htud teisiti .</s><s>Neid &otilde;igusi teostab see riigiasutus , kelle &uuml;lesandel , tellimisel v&otilde;i juhendamisel teos loodi .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Autori&otilde;igus audiovisuaalsele teosele</s>
+</p>
+<p>
+<s>( 1 ) Audiovisuaalseks teoseks loetakse mis tahes teost , mis koosneb korrap&auml;raselt seotud kujutistest koos neid saatvate helidega v&otilde;i ilma helideta , ja mis on ette n&auml;htud n&auml;itamiseks vastavate tehniliste vahenditega ( kinofilm , telefilm , videofilm jne. ) .</s>
+</p>
+<p>
+<s>( 2 ) Autori&otilde;igus audiovisuaalsele teosele kuulub selle autorile v&otilde;i &uuml;histele autoritele - re&zcaron;iss&ouml;&ouml;rile , stsenaariumi autorile , dialoogi autorile , muusikateose autorile , kui see teos on loodud spetsiaalselt selle audiovisuaalse teose jaoks , operaatorile ja kunstnikule .</s><s>Re&zcaron;iss&ouml;&ouml;ri , stsenaariumi autori , dialoogi autori , operaatori ja kunstniku varalised &otilde;igused l&auml;hevad &uuml;le teose produtsendile , kui lepinguga ei ole kindlaks m&auml;&auml;ratud teisiti .</s><s>Produtsendile ei l&auml;he &uuml;le audiovisuaalses teoses kasutatud muusikateose autori varalised &otilde;igused , s&otilde;ltumata sellest , kas see teos on loodud spetsiaalselt selle audiovisuaalse teose jaoks v&otilde;i mitte .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Teose produtsendiks loetakse f&uuml;&uuml;silist v&otilde;i juriidilist isikut , kelle finantseerimisel v&otilde;i juhtimisel on teos loodud ja kelle nimi on fikseeritud selles audiovisuaalses teoses .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 4 ) Selle isiku produtsendiks olemist , kelle nimi v&otilde;i nimetus on n&auml;idatud audiovisuaalses teoses , presumpeeritakse ( eeldatakse ) , kuni pole t&otilde;endatud vastupidist .</s><s>T&otilde;endamiskohustus lasub produtsendiks olemise vaidlustajal .</s>
+</p>
+<p>
+<s>( 5 ) Re&zcaron;iss&ouml;&ouml;rile , stsenaariumi autorile ja heliloojale , aga samuti stsenaariumi plaani , dialoogi ja diktoriteksti autorile , kunstnikule , operaatorile , koreograafile , helioperaatorile ja teistele audiovisuaalse teose loomises osalenud isikutele kuulub autori&otilde;igus oma teosele , mis moodustab iseseisva t&auml;hendusega osa audiovisuaalses teoses ja mida saab kasutada s&otilde;ltumatult teosest kui tervikust .</s><s>Sellise teose osas varaliste &otilde;iguste teostamine v&otilde;ib toimuda iseseisvalt , kui lepinguga pole ette n&auml;htud teisiti , kuid tingimusel , et selline kasutamine ei kahjusta teose kui terviku kasutamise huvisid .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Kogumiku koostaja autori&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Isikul , kes oma loomingulise tegevuse tulemusena materjali valikul v&otilde;i s&uuml;stematiseerimisel on loonud kogumiku ( kogumiku koostajal ) , tekib autori&otilde;igus sellele kogumikule .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Intellektuaalse tegevuse tulemusi , millele k&auml;esolevat seadust ei kohaldata ( paragrahv 5 ) , v&otilde;ib kogumiku koostaja iseseisvalt s&uuml;stematiseerida ja &uuml;mber t&ouml;&ouml;tada .</s>
+</p>
+<p>
+<s>( 3 ) Teoseid , mille osas autori&otilde;iguse kehtivuse t&auml;htaeg on m&ouml;&ouml;dunud , v&otilde;ib kogumiku koostaja iseseisvalt s&uuml;stematiseerida ja &uuml;mber t&ouml;&ouml;tada , j&auml;rgides k&auml;esoleva seaduse paragrahv 44 s&auml;tteid .</s>
+</p>
+<p>
+<s>( 4 ) Autori&otilde;igusega kaitstavaid teoseid v&otilde;ib s&uuml;stematiseerida ja l&uuml;litada kogumikku kas originaalis v&otilde;i &uuml;mbert&ouml;&ouml;tatud kujul vaid teose autori v&otilde;i tema &otilde;igusj&auml;rglase n&otilde;usolekul , v&auml;lja arvatud k&auml;esoleva seaduse IV peat&uuml;kis etten&auml;htud juhud .</s><s>Kogumiku koostaja on kohustatud j&auml;rgima kogumikku v&otilde;etud teose autori autori&otilde;igust .</s>
+</p>
+<p>
+<s>( 5 ) &Uuml;he isiku poolt kogumiku avaldamine ei piira teisi isikuid sama materjali kasutamisel iseseisva kogumiku loomiseks vastavalt k&auml;esoleva paragrahvi 1. ja 4. l&otilde;ike s&auml;tetele .</s>
+</p>
+<p>
+<s>( 6 ) &Uuml;he isiku poolt koostatud kogumiku &uuml;mbert&ouml;&ouml;tamine teiste isikute poolt v&otilde;ib toimuda ainult algse kogumiku koostaja autori&otilde;igust j&auml;rgides .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Autori&otilde;igus tuletatud teosele</s>
+</p>
+<p>
+<s>( 1 ) Teise autori teosest tuletatud teose autoril tekib autori&otilde;igus oma teosele .</s>
+</p>
+<p>
+<s>( 2 ) Tuletatud teose loomine , sealhulgas jutustava teose &uuml;mbert&ouml;&ouml;tamine draamateoseks v&otilde;i stsenaariumiks , draamateose v&otilde;i stsenaariumi &uuml;mbert&ouml;&ouml;tamine jutustavaks teoseks , draamateose &uuml;mbert&ouml;&ouml;tamine stsenaariumiks ja stsenaariumi &uuml;mbert&ouml;&ouml;tamine draamateoseks , v&otilde;ib toimuda ainult k&auml;esoleva seaduse VII peat&uuml;kis etten&auml;htud korras ja algse teose looja autori&otilde;igusi j&auml;rgides .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Isikul , kes on loonud teise autori teose ( algse teose ) alusel uue , loominguliselt iseseisva ja algsest teosest s&otilde;ltumatu teose , tekib autori&otilde;igus sellele teosele .</s><s>Sellisel juhul tuleb &auml;ra n&auml;idata algse teose autori nimi , teose pealkiri ( nimetus ) ja allikas , kus teos on avaldatud .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 1.l&otilde;ike s&auml;tteid kohaldatakse ka teostele , mille autorid ei ole teada ( rahvaloominguteosed , anon&uuml;&uuml;msed teosed jms. ) , teostele , mille autori&otilde;igusega kaitsmise t&auml;htaeg on m&ouml;&ouml;dunud , ja intellektuaalse tegevuse tulemustele , millele k&auml;esolevat seadust ei kohaldata ( paragrahv 5 ) .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>P&auml;rija &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;iguse p&auml;rimine toimub vastavalt p&auml;rimis&otilde;iguse &uuml;lds&auml;tetele kas seaduse v&otilde;i testamendi j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Seadusj&auml;rgsele p&auml;rijale l&auml;hevad autori&otilde;iguse kehtivuse t&auml;htajaks &uuml;le k&auml;esoleva seaduse paragrahvides 13 - 15 fikseeritud autori varalised &otilde;igused , kui testamendiga ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Kui autor ei ole oma eluajal ette n&auml;inud teisiti , l&auml;hevad tema isiklikest mittevaralistest &otilde;igustest p&auml;rijale &uuml;le :</s>
+</p>
+<p>
+<s>1 ) &otilde;igus lubada lisada autori teosele teiste autorite teoseid ( illustratsioone , eess&otilde;nasid , j&auml;rels&otilde;nasid , kommentaare , selgitusi , uusi osasid jms. ) ( &otilde;igus teose lisadele ) ;</s>
+</p>
+<p>
+<s>2 ) &otilde;igus vaidlustada mis tahes moonutusi , muudatusi ja teisi ebat&auml;psusi teoses endas , tema pealkirjas ( nimetuses ) v&otilde;i autorinime t&auml;histamises ning autorile v&otilde;i tema teosele antud hinnanguid , mis kahjustavad autori au ja v&auml;&auml;rikust ( &otilde;igus autori au ja v&auml;&auml;rikuse kaitsele ) ;</s>
+</p>
+<p>
+<s>3 ) &otilde;igus avalikustada avaldamata teos ( &otilde;igus teose avalikustamisele ) .</s>
+</p>
+<p>
+<s>( 4 ) Autoril on &otilde;igus samasuguses korras , millega m&auml;&auml;ratakse testamendi t&auml;itja , nimetada isik , kellele ta paneb oma teose puutumatuse ning autori au ja v&auml;&auml;rikuse kaitsmise p&auml;rast oma surma .</s><s>See isik teostab oma volitusi eluaegselt .</s>
+</p>
+<p>
+<s>( 5 ) Riigile p&auml;rimise teel &uuml;le l&auml;inud autori&otilde;igust teostab Kultuuriministeerium .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>P&auml;rijateks mitteolevate autori &otilde;igusj&auml;rglaste autori&otilde;igus</s>
+</p>
+<p>
+<s>F&uuml;&uuml;silistele ja juriidilistele isikutele , kes ei ole autori p&auml;rijateks , v&otilde;ivad autoriga s&otilde;lmitud lepingu alusel v&otilde;i k&auml;esolevas seaduses otseselt etten&auml;htud juhtudel &uuml;le minna vaid autori varalised &otilde;igused .</s>
+</p>
+<p>
+<s>VI peat&uuml;kk</s>
+</p>
+<p>
+<s>Autori&otilde;iguse ajaline kehtivus</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Autori&otilde;iguse kehtivuse t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;igus kehtib autori kogu eluaja jooksul ja 70 aastat p&auml;rast tema surma , olenemata kuup&auml;evast , millal teos on &otilde;igusp&auml;raselt avalikustatud , v&auml;lja arvatud k&auml;esoleva seaduse &sect;-des 39-42 etten&auml;htud juhud .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Kui teose p&auml;ritolumaaks Berni kirjandus- ja kunstiteoste kaitse konventsiooni artikli 5 l&otilde;ike 4 t&auml;henduses on kolmas riik ja teose autor ei ole Eesti kodanik v&otilde;i Eesti Vabariigis alaliselt elav isik , siis kehtib autori&otilde;igus t&auml;htaja jooksul , mille n&auml;eb ette p&auml;ritolumaa seadus , kuid mitte &uuml;le k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud t&auml;htaja .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Autori&otilde;iguse kehtivus &uuml;hise autorsuse korral</s>
+</p>
+<p>
+<s>Autori&otilde;igus teosele , mille on loonud kaks v&otilde;i enam isikut oma &uuml;hise loomingulise tegevusega ( paragrahv 30 ) , kehtib teisi autoreid &uuml;leelanud &uuml;hise autori eluajal ja 70 aastat p&auml;rast tema surma .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Autori&otilde;iguse kehtivus anon&uuml;&uuml;mselt v&otilde;i pseudon&uuml;&uuml;mi all avalikustatud teosele</s>
+</p>
+<p>
+<s>Autori&otilde;igus teosele , mis on avalikustatud anon&uuml;&uuml;mselt v&otilde;i pseudon&uuml;&uuml;mi all , kehtib 70 aastat p&auml;rast selle teose &otilde;igusp&auml;rast avalikustamist .</s><s>Kui selle t&auml;htaja jooksul teose autor teeb &uuml;ldsusele teatavaks oma kodanikunime v&otilde;i teose autorsuse seostamine teose loonud isikuga ei tekita enam kahtlusi , siis kohaldatakse paragrahvide 38 ja 39 s&auml;tteid .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Autori&otilde;iguse kehtivus kollektiivsele teosele , t&ouml;&ouml;kohustuste t&auml;itmise korras loodud teosele , audiovisuaalsele teosele ja j&auml;tkuv&auml;ljaandele</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;igus kollektiivsele teosele ( &sect; 31 ) ja t&ouml;&ouml;kohustuste t&auml;itmise korras loodud teosele ( &sect; 32 ) kehtib 70 aastat p&auml;rast selle teose &otilde;igusp&auml;rast avalikustamist .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Autori&otilde;igus audiovisuaalsele teosele ( &sect; 33 ) kehtib 70 aastat p&auml;rast viimase teisi autoreid &uuml;leelanud autori ( re&zcaron;iss&ouml;&ouml;r , stsenaariumi autor , dialoogi autor , muusikateose autor , kui see teos on loodud spetsiaalselt selle audiovisuaalse teose jaoks ) surma .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva paragrahvi 1. l&otilde;ikes fikseeritud teos ei ole avalikustatud 50 aasta jooksul p&auml;rast selle loomist , siis kehtib autori&otilde;igus 70 aastat p&auml;rast teose loomist .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Kui teos avaldatakse j&auml;tkuv&auml;ljaandena ( k&ouml;idetena , osadena , annetena , jagudena jne ) ja autori&otilde;iguse kehtivuse t&auml;htaega arvestatakse teose &otilde;igusp&auml;rasest avalikustamisest , siis kehtib autori&otilde;igus igale osale 70 aastat p&auml;rast selle osa &otilde;igusp&auml;rast avalikustamist .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) Kollektiivsesse teosesse , t&ouml;&ouml;kohustuste t&auml;itmise korras loodud teosesse ja audiovisuaalsesse teosesse v&otilde;etud iseseisvat t&auml;hendust omavate teoste suhtes , mis ei ole avalikustatud anon&uuml;&uuml;mselt v&otilde;i pseudon&uuml;&uuml;mi all , kehtib autori&otilde;igus k&auml;esoleva seaduse &sect; 38 1. l&otilde;ikes s&auml;testatud t&auml;htaja jooksul .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 42. ( Kehtetu - 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Autori&otilde;iguse kehtivuse t&auml;htaja kulgemise algus</s>
+</p>
+<p>
+<s>K&auml;esolevas peat&uuml;kis etten&auml;htud t&auml;htaja kulgemine algab autori surma-aastale j&auml;rgneva aasta ( paragrahvid 38 lg.1 ja 39 ) v&otilde;i teose &otilde;igusp&auml;rasele avalikustamisele v&otilde;i loomisele j&auml;rgneva aasta ( paragrahv 38 lg. 2 ; paragrahvid 40 , 41 ja 42 ) 1.jaanuarist.</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Teose autorsuse , autori nime , autori au ja v&auml;&auml;rikuse ning teose pealkirja t&auml;htajatu kaitse</s>
+</p>
+<p>
+<s>( 1 ) Isiku konkreetse teose autoriks olemist ( teose autorsust ) , autori nime ning autori au ja v&auml;&auml;rikust kaitstakse t&auml;htajatult .</s>
+</p>
+<p>
+<s>( 2 ) Autori&otilde;iguse t&auml;htaja l&otilde;ppemisel ei ole lubatud teose pealkirja ( nimetuse ) kasutamine teise autori poolt samaliigilisel teosel , kui selline kasutamine v&otilde;ib kaasa tuua &uuml;ldsust eksitava autorite samastamise .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Teose kasutamine p&auml;rast autori&otilde;iguse kehtivuse t&auml;htaja l&otilde;ppemist</s>
+</p>
+<p>
+<s>Teost , mille suhtes autori&otilde;iguse kehtivuse t&auml;htaeg on l&otilde;ppenud , v&otilde;ivad vabalt kasutada k&otilde;ik isikud , j&auml;rgides k&auml;esoleva seaduse paragrahv 44 ning muinsuskaitseseaduse ( RT I 1994 , 24 , 391 ; 1996 , 49 , 953 ; 86 , 1538 ; 1997 , 93 , 1559 ) s&auml;tteid .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>VII peat&uuml;kk</s>
+</p>
+<p>
+<s>Teose kasutamine</s>
+</p>
+<p>
+<s>1.</s><s>P&otilde;his&auml;tted</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Teose kasutamine teiste isikute poolt</s>
+</p>
+<p>
+<s>( 1 ) Teose kasutamist teiste isikute poolt ei lubata teisiti kui autori poolt oma varaliste &otilde;iguste &uuml;leandmise ( loovutamise ) korral v&otilde;i autori poolt antud loa ( litsentsi ) alusel , v&auml;lja arvatud k&auml;esoleva seaduse IV peat&uuml;kis etten&auml;htud juhud .</s>
+</p>
+<p>
+<s>( 2 ) Autori poolt oma varaliste &otilde;iguste &uuml;leandmine v&otilde;i luba teose kasutamiseks peab olema vormistatud kirjalikult , v&auml;lja arvatud k&auml;esoleva seaduse paragrahv 49 2.l&otilde;ikes etten&auml;htud juhud .</s>
+</p>
+<p>
+<s>( 3 ) Autori poolt oma varaliste &otilde;iguste &uuml;leandmine v&otilde;i loa andmine teose kasutamiseks v&otilde;ib olla piiratud konkreetsete &otilde;iguste osas , samuti teose kasutamise eesm&auml;rgi , t&auml;htaja , kasutamise territooriumi , ulatuse , viiside ja vahendite osas .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Luba ( litsents ) teose kasutamiseks</s>
+</p>
+<p>
+<s>( 1 ) Luba ( litsents ) teose kasutamiseks t&auml;hendab v&otilde;imalust sooritada tegusid autori &otilde;iguste piirides .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Loa andmisel v&otilde;ib autor endale j&auml;tta samasugused &otilde;igused , mille ta andis teisele isikule teose kasutamiseks , ning v&otilde;imaluse anda samasugused &otilde;igused kolmandale isikule ( lihtlitsents ) v&otilde;i loobuda oma &uuml;leantud &otilde;iguste teostamisest lepinguga konkreetselt kindlaksm&auml;&auml;ratud ulatuses ja tingimustel ( ainulitsents ) .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Teose kasutamiseks loa saanud isik v&otilde;ib lubada kolmandal isikul teost kasutada ( litsentsi loovutada ) ainult autori eelneval n&otilde;usolekul ( sublitsents ) .</s>
+</p>
+<p>
+<s>2.</s><s>Autorileping</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Autorilepingu m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Autorileping on autori v&otilde;i tema &otilde;igusj&auml;rglase ja teost kasutada sooviva isiku vaheline kokkulepe teose kasutamiseks , mille alusel autor v&otilde;i tema &otilde;igusj&auml;rglane annab teisele poolele oma varalised &otilde;igused v&otilde;i loa teose kasutamiseks lepingu tingimustega etten&auml;htud ulatuses ja korras .</s>
+</p>
+<p>
+<s>( 2 ) Autorilepingu v&otilde;ib s&otilde;lmida juba olemasoleva teose kasutamiseks v&otilde;i uue teose loomiseks ja kasutamiseks .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Autorilepingu vorm</s>
+</p>
+<p>
+<s>( 1 ) Autorileping peab olema s&otilde;lmitud kirjalikus vormis .</s>
+</p>
+<p>
+<s>( 2 ) Kirjalik vorm ei ole kohustuslik lihtlitsentsi andmisel , sealhulgas lepingute suhtes teose avaldamise kohta perioodilises v&auml;ljaandes v&otilde;i teatmeteoses , ning suuliste teoste &uuml;hekordse edastamise kohta raadios ja televisioonis .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>T&uuml;&uuml;p-autorileping</s>
+</p>
+<p>
+<s>( 1 ) Autoreid esindav kollektiivse esindamise organisatsiooni ja teoste kasutajaid &uuml;hendavate organisatsioonide kokkuleppel v&otilde;idakse kinnitada t&uuml;&uuml;p-autorilepingud teoste kasutamise &uuml;ksikute viiside kohta .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Autorileping v&otilde;ib sisaldada tingimusi , mis ei ole k&auml;esoleva seadusega v&otilde;i t&uuml;&uuml;p-autorilepinguga ette n&auml;htud .</s><s>Autoriga s&otilde;lmitud lepingu tingimused , mis halvendavad autori olukorda , v&otilde;rreldes k&auml;esolevas seaduses v&otilde;i t&uuml;&uuml;plepingus kindlaksm&auml;&auml;ratud olukorraga , on kehtetud ja asendatakse seaduse v&otilde;i t&uuml;&uuml;plepinguga kindlaksm&auml;&auml;ratud tingimustega .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Autorilepingu s&otilde;lmimine</s>
+</p>
+<p>
+<s>( 1 ) Autorileping loetakse s&otilde;lmituks , kui autori v&otilde;i tema &otilde;igusj&auml;rglase ja teost kasutada sooviva isiku vahel on k&auml;esoleva seaduse paragrahvis 49 etten&auml;htud vormis saavutatud kokkulepe k&otilde;igis lepingu olulistes tingimustes .</s>
+</p>
+<p>
+<s>( 2 ) Autorilepingu olulised tingimused , s&otilde;ltuvalt teose liigist , on :</s>
+</p>
+<p>
+<s>1 ) kasutamisele kuuluva teose t&auml;pne kirjeldus ( &zcaron;anr , maht , nimetus jne. ) ;</s>
+</p>
+<p>
+<s>2 ) teose kasutamise ulatus , eesm&auml;rk , viis ja vahendid ;</s>
+</p>
+<p>
+<s>3 ) teose kasutamise territoorium ;</s>
+</p>
+<p>
+<s>4 ) autorilepingu kehtivuse t&auml;htaeg ja teose kasutamise algust&auml;htaeg ;</s>
+</p>
+<p>
+<s>5 ) &uuml;leantavad &otilde;igused ;</s>
+</p>
+<p>
+<s>6 ) kasutusloa liik ( lihtlitsents , ainulitsents ) ning loa edasiloovutamise &otilde;iguse andmine ( sublitsents ) ;</s>
+</p>
+<p>
+<s>7 ) teose kasutamise piiramine kolmandate isikute suhtes ;</s>
+</p>
+<p>
+<s>8 ) autoritasu suurus , selle v&auml;ljamaksmise t&auml;htaeg ja kord ;</s>
+</p>
+<p>
+<s>9 ) poolte vastutus lepingutingimuste mittet&auml;itmise korral ;</s>
+</p>
+<p>
+<s>10 ) muud tingimused , mille suhtes &uuml;ks pool n&otilde;uab kokkuleppe saavutamist .</s>
+</p>
+<p>
+<s>( 3 ) Autorilepingus v&otilde;idakse ette n&auml;ha leppetrahv , trahv v&otilde;i viivis lepingu mittet&auml;itmise v&otilde;i mitten&otilde;uetekohase t&auml;itmise eest .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Autorilepingu kehtivuse t&auml;htaeg</s>
+</p>
+<p>
+<s>Autorilepingu kehtivuse t&auml;htaeg m&auml;&auml;ratakse poolte kokkuleppel .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Teose kasutamise algust&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Autorilepingu j&auml;rgi on teost kasutada sooviv isik kohustatud alustama teose kasutamist lepinguga kokkulepitud viisil ja t&auml;htajal , v&auml;lja arvatud k&auml;esoleva seaduse paragrahv 56 1. l&otilde;ikes etten&auml;htud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Teose kasutamise algust&auml;htaeg ei tohi &uuml;letada kolme aastat , alates autori poolt teose kasutajale &uuml;leandmise momendist .</s>
+</p>
+<p>
+<s>( 3 ) Arvestades teose mahtu ja selle kasutamise iseloomu , v&otilde;idakse t&uuml;&uuml;p-autorilepinguga ette n&auml;ha l&uuml;hemad piirt&auml;htajad , kui on ette n&auml;htud k&auml;esolevas paragrahvis .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Teose kasutamise piiramine kolmandate isikute suhtes</s>
+</p>
+<p>
+<s>Autorilepingu j&auml;rgi varaliste &otilde;iguste &uuml;leandmise v&otilde;i ainulitsentsi andmise kohta ei ole autoril ega tema &otilde;igusj&auml;rglasel &otilde;igust teise poole kirjaliku n&otilde;usolekuta anda lepingus nimetatud teost v&otilde;i selle osa kolmandatele isikutele samal viisil kasutamiseks , nagu oli lepingus kokku lepitud , kui lepinguga ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Autoritasu maksmine</s>
+</p>
+<p>
+<s>( 1 ) Autoritasu maksmise viis ( protsent teose m&uuml;&uuml;gihinnast , konkreetselt kindlaksm&auml;&auml;ratud summa , protsent teose kasutamisel saadavast kasumist jne. ) , tasu suurus , selle v&auml;ljamaksmise t&auml;htaeg ja kord m&auml;&auml;ratakse autorilepingus poolte kokkuleppel .</s>
+</p>
+<p>
+<s>( 2 ) Kui Eesti Vabariigi &otilde;igusaktidega on kehtestatud autoritasu alamm&auml;&auml;rad , ei tohi autorilepingus kokkulepitud tasum&auml;&auml;rad olla nendest v&auml;iksemad .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Autorileping uue teose loomiseks ( tellimusleping )</s>
+</p>
+<p>
+<s>( 1 ) Autorilepingu j&auml;rgi uue teose loomiseks kohustub autor looma teose lepinguga kindlaksm&auml;&auml;ratud tingimustel ja t&auml;htajaks ning selle tellijale kokkulepitud viisil &uuml;le andma , tellija kohustub maksma autorile tasu ning alustama teose kasutamist lepinguga kindlaksm&auml;&auml;ratud t&auml;htajal , kui teose kasutamise osas ei ole kokku lepitud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Autor on kohustatud looma teose isiklikult , kui lepinguga ei ole ette n&auml;htud teisiti .</s><s>Teiste isikute kaasamine teose loomisele ja autorikollektiivi muutmine v&otilde;ivad toimuda vaid teose tellija eelneval n&otilde;usolekul , mis vormistatakse autorilepingu muudatusena .</s>
+</p>
+<p>
+<s>( 3 ) Teose tellija on kohustatud lepingus kindlaksm&auml;&auml;ratud t&auml;htajaks teose l&auml;bi vaatama ja autorile kirjalikult teatama &uuml;leantud teose heakskiitmisest v&otilde;i tagasil&uuml;kkamisest lepingus etten&auml;htud alustel v&otilde;i vajadusest teha teoses parandusi koos lepingu tingimustele vastavate paranduste sisu &auml;ran&auml;itamisega .</s><s>Kui autorile lepinguga kindlaksm&auml;&auml;ratud t&auml;htajaks kirjalikku teadet ei saadetud , loetakse teos tellija poolt heakskiidetuks .</s>
+</p>
+<p>
+<s>( 4 ) Autorile lepingus etten&auml;htud autoritasu arvel makstava avansi suurus , v&auml;ljamaksmise t&auml;htajad ja kord m&auml;&auml;ratakse kindlaks autorilepingus .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Lepinguga teose kasutajale &uuml;leminevad &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Omandi&otilde;igus teose k&auml;sikirjale , eskiisile , joonisele , magnetlindile , arvutidisketile jms. materiaalsele objektile , mille vahendusel teos reprodutseeritakse , l&auml;heb &uuml;le teose kasutajale ainult autorilepingus otseselt etten&auml;htud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Kui autor v&otilde;&otilde;randab oma teose originaali v&otilde;i koopia , siis ei t&auml;henda see tema varaliste &otilde;iguste &uuml;leandmist v&otilde;i loa andmist teose kasutamiseks , kui lepinguga ei ole kindlaks m&auml;&auml;ratud teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Tellimuslepingu alusel loodud kujutava kunsti teos l&auml;heb &uuml;le tellija omandusse v&otilde;i valdusse , kui lepinguga ei ole kindlaks m&auml;&auml;ratud teisiti .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 2. ja 3. l&otilde;ike alusel on teose omandajal &otilde;igus sellist teost &uuml;ldsusele n&auml;idata ( eksponeerida ) autorile selle eest t&auml;iendavat tasu maksmata , kui lepinguga ei ole kindlaks m&auml;&auml;ratud teisiti .</s><s>Sellist &otilde;igust ei ole isikul , kes valdab teose originaali v&otilde;i selle koopiat rendilepingu , tasuta varakasutuse lepingu jms. alusel .</s>
+</p>
+<p>
+<s>( 5 ) Kui autorileping on s&otilde;lmitud kirjandus- v&otilde;i kunstiteose kasutamiseks audiovisuaalse teose loomiseks , kuulub sellise teose kasutajale &otilde;igus audiovisuaalset teost &uuml;ldsusele n&auml;idata kinos , televisioonis , kaabelleviv&otilde;rgu kaudu v&otilde;i muude tehniliste vahenditega , dubleerida see teos teise keelde , varustada subtiitritega ning seda teost reprodutseerida ja levitada , kui lepinguga ei ole ette n&auml;htud teisiti .</s><s>Autoril on &otilde;igus saada &otilde;iglast tasu teose rentimise eest ( &sect; 14 6. l&otilde;ige ) .</s><s>K&auml;esoleva l&otilde;ike s&auml;tteid ei kohaldata muusikateoste suhtes .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Autori v&otilde;i tema &otilde;igusj&auml;rglase vastutus autorilepingu rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) Autor v&otilde;i tema &otilde;igusj&auml;rglane on kohustatud autorilepingu j&auml;rgi saadud autoritasu tagastama juhul , kui teose kasutaja l&otilde;petas lepingu seet&otilde;ttu , et :</s>
+</p>
+<p>
+<s>1 ) autor v&otilde;i tema &otilde;igusj&auml;rglane ei andnud teost &uuml;le lepinguga kindlaksm&auml;&auml;ratud t&auml;htajaks ;</s>
+</p>
+<p>
+<s>2 ) autori poolt lepingu t&auml;itmiseks loodud teos ei vasta lepingu tingimustele ;</s>
+</p>
+<p>
+<s>3 ) autor ei teinud kokkulepitud t&auml;htajaks , korras ja ulatuses talle esitatud lepingust tulenevaid parandusi ;</s>
+</p>
+<p>
+<s>4 ) autor rikkus kohustust teha t&ouml;&ouml; isiklikult ;</s>
+</p>
+<p>
+<s>5 ) autor v&otilde;i tema &otilde;igusj&auml;rglane rikkus k&auml;esoleva seaduse paragrahv 54 s&auml;tteid .</s>
+</p>
+<p>
+<s>( 2 ) Kui autor ei tagasta temale v&auml;ljamakstud tasu vabatahtlikult , n&otilde;utakse see sisse kohtu korras .</s>
+</p>
+<p>
+<s>( 3 ) Kui teose kasutaja ei t&otilde;enda kohtus autori v&otilde;i tema &otilde;igusj&auml;rglase s&uuml;&uuml;d lepingu t&auml;itmata j&auml;tmisel v&otilde;i mitten&otilde;uetekohasel t&auml;itmisel , j&auml;etakse lepingu j&auml;rgi saadud tasu autorile .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Teose kasutaja vastutus autorilepingu rikkumise eest</s>
+</p>
+<p>
+<s>( 1 ) Kui teose kasutaja ei kasuta tema poolt heakskiidetud teost v&otilde;i ei alusta selle kasutamist autorilepinguga kindlaksm&auml;&auml;ratud t&auml;htajal , on ta kohustatud autorile v&otilde;i tema &otilde;igusj&auml;rglasele v&auml;lja maksma lepingus kokkulepitud tasu t&auml;ies ulatuses .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1.l&otilde;ikes etten&auml;htud juhtudel on autoril v&otilde;i tema &otilde;igusj&auml;rglasel &otilde;igus loobuda lepingust ja n&otilde;uda lepingu j&auml;rgi &uuml;leantud teose v&otilde;i selle koopiate tagastamist .</s>
+</p>
+<p>
+<s>( 3 ) Teose kasutaja ei pea maksma autorile v&otilde;i tema &otilde;igusj&auml;rglasele seda osa tasust , mis kuulunuks v&auml;ljamaksmisele p&auml;rast teose kasutamise algust , kui ta t&otilde;endab , et ta ei saanud teost kasutada autorist v&otilde;i tema &otilde;igusj&auml;rglasest olenevate asjaolude t&otilde;ttu .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Kahju h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Autorilepingu m&otilde;lemal poolel on &otilde;igus n&otilde;uda teiselt lepingupoolelt viimase s&uuml;&uuml; t&otilde;ttu lepingu t&auml;itmata j&auml;tmisel v&otilde;i mitten&otilde;uetekohasel t&auml;itmisel tekitatud kahju h&uuml;vitamist .</s>
+</p>
+<p>
+<s>( 2 ) Teise poole s&uuml;&uuml; ja kahju suuruse t&otilde;endamise kohustus lasub kahju h&uuml;vitamise n&otilde;ude esitanud poolel .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Autori &otilde;igused organisatsiooni reorganiseerimisel ja likvideerimisel</s>
+</p>
+<p>
+<s>( 1 ) Kui teose tellijaks v&otilde;i kasutajaks olev organisatsioon reorganiseeritakse , siis l&auml;heb autori poolt &uuml;leantud varaline &otilde;igus v&otilde;i luba teose kasutamiseks &uuml;le organisatsiooni &otilde;igusj&auml;rglasele , kes vastutab autorilepingust tulenevate kohustuste t&auml;itmise eest .</s>
+</p>
+<p>
+<s>( 2 ) Organisatsiooni likvideerimisel v&otilde;i pankrotistumisel on autoril v&otilde;i tema &otilde;igusj&auml;rglasel &otilde;igus saada autoritasu organisatsioonile &uuml;leantud teose eest lepingus kokkulepitud tasu t&auml;ies ulatuses .</s>
+</p>
+<p>
+<s>VIII peat&uuml;kk</s>
+</p>
+<p>
+<s>Teose esitaja , fonogrammitootja ning raadio- ja televisiooniorganisatsiooni &otilde;igused ( autori&otilde;igusega kaasnevad &otilde;igused )</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Autori&otilde;igusega kaasnevate &otilde;iguste m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Teose esitajal , fonogrammitootjal , raadio- ja televisiooniorganisatsioonil , filmi esmasalvestuse tootjal , isikul , kes p&auml;rast autori&otilde;iguse kehtivuse t&auml;htaja l&otilde;ppemist esimesena &otilde;igusp&auml;raselt avaldab v&otilde;i edastab &uuml;ldsusele varem avaldamata teose , ja isikul , kes annab v&auml;lja autori&otilde;igusega mittekaitstava teose kirjanduskriitilise v&otilde;i teadusliku v&auml;ljaande , on k&auml;esolevas peat&uuml;kis etten&auml;htud &otilde;igused tema loodud resultaadile ( autori&otilde;igusega kaasnevate &otilde;iguste objektile ) .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Autori&otilde;igusega kaasnevate &otilde;iguste teostamine ei piira autori v&otilde;i tema &otilde;igusj&auml;rglase autori&otilde;iguse teostamist .</s>
+</p>
+<p>
+<s>( 3 ) Levitamine k&auml;esoleva peat&uuml;ki t&auml;henduses on autori&otilde;igusega kaasnevate &otilde;iguste objekti originaali v&otilde;i koopia &uuml;ldsusele k&auml;ttesaadavaks tegemine m&uuml;&uuml;mise v&otilde;i muul viisil omandi&otilde;iguse &uuml;leandmise teel .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) P&auml;rast autori&otilde;igusega kaasnevate &otilde;iguste objekti esmam&uuml;&uuml;ki Eestis &otilde;iguste valdaja poolt v&otilde;i tema n&otilde;usolekul k&auml;esolevas peat&uuml;kis etten&auml;htud &otilde;igus levitamisele l&otilde;peb ja autori&otilde;igusega kaasnevate &otilde;iguste objekti v&otilde;ib Eestis edasi levitada &otilde;iguste valdaja n&otilde;usolekuta ja tasu maksmiseta .</s>
+</p>
+<p>
+<s>( 27.09.2000 j&otilde;ust.22.10.2000 - RT I 2000 , 78 , 497 )</s>
+</p>
+<p>
+<s>( 5 ) Teose esitaja , fonogrammitootja , raadio- ja televisiooniorganisatsioon , filmi esmasalvestuse tootja , isik , kes p&auml;rast autori&otilde;iguse kehtivuse t&auml;htaja l&otilde;ppemist esimesena &otilde;igusp&auml;raselt avaldab v&otilde;i edastab &uuml;ldsusele varem avaldamata teose , ja isik , kes annab v&auml;lja autori&otilde;igusega mittekaitstava teose kirjanduskriitilise v&otilde;i teadusliku v&auml;ljaande , v&otilde;ib k&auml;esolevas peat&uuml;kis s&auml;testatud varalised &otilde;igused &uuml;le anda ( loovutada ) v&otilde;i anda loa ( litsentsi ) autori&otilde;igusega kaasnevate &otilde;iguste objekti kasutamiseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Autori&otilde;igusega kaasnevate &otilde;iguste kehtivus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva peat&uuml;ki s&auml;tted kehtivad teose esitaja suhtes juhul , kui :</s>
+</p>
+<p>
+<s>1 ) teose esitajaks on Eesti Vabariigi kodanik v&otilde;i Eesti Vabariigis alaliselt elav isik ;</s>
+</p>
+<p>
+<s>2 ) teose esitus ( lavastus ) toimus Eesti Vabariigi territooriumil v&otilde;i</s>
+</p>
+<p>
+<s>3 ) teose esitus ( lavastus ) on salvestatud fonogrammile , mida kaitstakse vastavalt k&auml;esoleva paragrahvi 2. l&otilde;ikele , v&otilde;i</s>
+</p>
+<p>
+<s>4 ) teose esitus ( lavastus ) , mis pole salvestatud fonogrammile , on v&otilde;etud raadio- v&otilde;i telesaatesse , mida kaitstakse vastavalt k&auml;esoleva paragrahvi 3. l&otilde;ikele .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva peat&uuml;ki s&auml;tted kehtivad fonogrammitootja suhtes juhul , kui :</s>
+</p>
+<p>
+<s>1 ) fonogrammitootja on Eesti Vabariigi kodanik , Eesti Vabariigis alaliselt elav isik v&otilde;i Eesti Vabariigis asuv juriidiline isik v&otilde;i</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>2 ) helide esmakordne fikseerimine fonogrammil toimus Eesti Vabariigi territooriumil v&otilde;i</s>
+</p>
+<p>
+<s>3 ) fonogramm avaldati esmakordselt Eesti Vabariigi territooriumil .</s><s>Avaldamise all m&otilde;eldakse fonogrammi koopiate pakkumist &uuml;ldsusele n&otilde;udlust rahuldavas koguses .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva peat&uuml;ki s&auml;tted kehtivad raadio- ja televisiooniorganisatsiooni suhtes juhul , kui :</s>
+</p>
+<p>
+<s>1 ) selle organisatsiooni asukoht on Eesti Vabariigi territooriumil v&otilde;i</s>
+</p>
+<p>
+<s>2 ) teos edastatakse saatja kaudu , mis asub Eesti Vabariigi territooriumil .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva peat&uuml;ki s&auml;tteid kohaldatakse v&auml;lisriikide kodanike ja juriidiliste isikute suhtes vastavalt rahvusvahelistele lepingutele , millega Eesti Vabariik on &uuml;hinenud .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Teose esitaja m&otilde;iste</s>
+</p>
+<p>
+<s>Teose esitajaks k&auml;esoleva seaduse t&auml;henduses loetakse n&auml;itlejat , lauljat , muusikut , tantsijat , muud isikut v&otilde;i kollektiivi , kes n&auml;itleb , laulab , deklameerib , m&auml;ngib muusikariistal v&otilde;i muul viisil esitab kirjandus- , kunsti- v&otilde;i rahvaloominguteoseid v&otilde;i juhendab teisi isikuid teoste esitamisel , aga samuti isikut , kes esitab estraadi- , tsirkuse- , nukuteatri- jms. numbreid .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Teose esitaja &otilde;igused</s>
+</p>
+<p>
+<s>Teose esitajal tekivad teose esituse ( interpretatsiooni ) suhtes isiklikud mittevaralised ja varalised &otilde;igused .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Teose esitaja isiklikud &otilde;igused</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>Teose esitajale kuuluvad :</s>
+</p>
+<p>
+<s>1 ) &otilde;igus esituse autorsusele ;</s>
+</p>
+<p>
+<s>2 ) &otilde;igus esitajanimele ;</s>
+</p>
+<p>
+<s>3 ) &otilde;igus esituse puutumatusele ;</s>
+</p>
+<p>
+<s>4 ) &otilde;igus esitaja au ja v&auml;&auml;rikuse kaitsele oma esituse suhtes .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Teose esitaja varalised &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Teose esitajal on ainu&otilde;igus ise kasutada , lubada kasutada ja keelata kasutada teose esitust ning saada poolte vahel kokkulepitud tasu sellise kasutamise eest , v&auml;lja arvatud k&auml;esoleva seadusega ja poolte kokkuleppega etten&auml;htud juhud .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Vaid teose esitaja n&otilde;usolekul on lubatud :</s>
+</p>
+<p>
+<s>1 ) seni fikseerimata esituse salvestamine heliplaadile , heli- ja videolindile , filmile jms. viisil ;</s>
+</p>
+<p>
+<s>2 ) esituse raadios v&otilde;i televisioonis edastamine , kaasa arvatud satelliidi vahendusel , v&auml;lja arvatud juhud , kui edastatakse esituse salvestiselt v&otilde;i toimub esituse taasedastamine , milleks on loa andnud raadio- ja televisiooniorganisatsioon , kes esituse esmakordselt edastas ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>3 ) esituse edastamine &uuml;ldsusele mis tahes tehnilise vahendi abil v&auml;ljaspool paika , kus esitus toimub , v&auml;lja arvatud juhud , kui edastatakse esituse salvestiselt v&otilde;i edastamine toimub raadio v&otilde;i televisiooni vahendusel ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>4 ) esituse heli ja kujutise eraldi kasutamine juhul , kui need on salvestatud koos ja moodustavad &uuml;htse terviku ;</s>
+</p>
+<p>
+<s>5 ) esituse salvestise otsene v&otilde;i kaudne , ajutine v&otilde;i alaline reprodutseerimine ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>6 ) salvestise levitamine &uuml;ldsusele ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>7 ) esituse salvestise rentimine ja laenutamine .</s><s>Rentimise &otilde;igus l&auml;heb &uuml;le audiovisuaalse teose produtsendile ( &sect; 33 3. l&otilde;ige ) vastava individuaalse v&otilde;i kollektiivse lepingu s&otilde;lmimisel audiovisuaalse teose loomiseks , kui lepingus ei ole ette n&auml;htud teisiti .</s><s>Teose esitajal s&auml;ilib &otilde;igus saada &otilde;iglast tasu ( &sect; 68 4. l&otilde;ige ) .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Teose esitaja v&otilde;ib volitada teisi isikuid , sealhulgas autoreid esindavat kollektiivset esindamise organisatsiooni , andma luba k&auml;esoleva paragrahvi 2. l&otilde;ikes etten&auml;htud tegude sooritamiseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) ( Kehtetu - 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 5 ) Oma otseste t&ouml;&ouml;&uuml;lesannete t&auml;itmise korras teoste esitamisel m&auml;&auml;ratakse t&ouml;&ouml;andja ja teose esitaja &otilde;igused poolte kokkuleppega .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Luba esituse kasutamiseks</s>
+</p>
+<p>
+<s>( 1 ) Esitaja n&otilde;usolek esituse kasutamiseks peab olema antud kirjalikult v&otilde;i vormistatud lepinguga .</s>
+</p>
+<p>
+<s>( 2 ) Kollektiivi poolt esitatud teose kasutamiseks peab olema k&otilde;igi selle kollektiivi liikmete n&otilde;usolek .</s><s>Kollektiivi nimel v&otilde;ib anda loa ansambli juht , dirigent , koorijuht , lavastaja v&otilde;i muu isik , kes on selleks kollektiivi poolt volitatud .</s>
+</p>
+<p>
+<s>( 3 ) Kui lepinguga ei ole ette n&auml;htud teisiti , siis</s>
+</p>
+<p>
+<s>1 ) luba teose esituse raadio v&otilde;i televisiooni kaudu edastamiseks ei anna raadio- ja televisiooniorganisatsioonile &otilde;igust esituse salvestamiseks ega teistele organisatsioonidele loa andmiseks teost edastada ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>2 ) luba teose esituse raadio v&otilde;i televisiooni kaudu edastamiseks ja esituse fikseerimiseks ei anna raadio- ja televisiooniorganisatsioonile &otilde;igust salvestise reprodutseerimiseks ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>3 ) luba teose esituse salvestamiseks ja salvestise reprodutseerimiseks ei anna &otilde;igust selle salvestise v&otilde;i tema koopia raadio v&otilde;i televisiooni kaudu edastamiseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) Kui teose esitaja on &uuml;le andnud ( loovutanud ) &otilde;iguse v&otilde;i andnud loa fonogrammi , audiovisuaalse teose originaali v&otilde;i koopiat rentida v&otilde;i sellist &uuml;leandmist v&otilde;i loa andmist eeldatakse , j&auml;&auml;b esitajale &otilde;igus saada sellise rentimise eest &otilde;iglast tasu .</s><s>Kokkulepe loobumise kohta &otilde;igusest saada &otilde;iglast tasu on kehtetu .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Fonogrammitootja m&otilde;iste</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>Fonogrammitootja ( helisalvestise ) k&auml;esoleva seaduse t&auml;henduses on f&uuml;&uuml;siline v&otilde;i juriidiline isik , kes esimesena &otilde;igusp&auml;raselt salvestas teose esitamisest l&auml;htuva heli v&otilde;i loodusliku heli .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Fonogrammitootja &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Fonogrammitootjal on ainu&otilde;igus lubada ja keelata :</s>
+</p>
+<p>
+<s>1 ) fonogrammi otsene v&otilde;i kaudne , ajutine v&otilde;i alaline reprodutseerimine ;</s>
+</p>
+<p>
+<s>2 ) fonogrammi koopiate importimine ;</s>
+</p>
+<p>
+<s>3 ) fonogrammi levitamine &uuml;ldsusele ;</s>
+</p>
+<p>
+<s>4 ) fonogrammi koopiate rentimine v&otilde;i laenutamine .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Tasu suurus , selle maksmise viisid ja kord fonogrammi kasutamise eest m&auml;&auml;ratakse kindlaks fonogrammitootja ja kasutaja vahelise kokkuleppega .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Fonogrammi kaitse t&auml;his</s>
+</p>
+<p>
+<s>Oma &otilde;iguste ja fonogrammile salvestatud esitajate &otilde;iguste tagamiseks on fonogrammitootjal &otilde;igus oma &auml;rilisel eesm&auml;rgil tehtud salvestisele v&otilde;i selle &uuml;mbrisele kanda s&uuml;mboli P ( t&auml;ht P ringis ) , millele on lisatud fonogrammi esmakordse avaldamise aasta .</s><s>Nimetatud t&auml;hisele lisatakse fonogrammitootja nimi v&otilde;i nimetus ja salvestatud teoste peamised esitajad , kui need ei ole fonogrammil v&otilde;i selle &uuml;mbrisel otseselt fikseeritud .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Tasu fonogrammi kasutamise eest</s>
+</p>
+<p>
+<s>( 1 ) Kui kaubanduslikul eesm&auml;rgil avaldatud fonogrammi v&otilde;i selle reproduktsiooni ( koopiat ) kasutatakse raadios v&otilde;i televisioonis v&otilde;i muude tehniliste vahendite kaudu &uuml;ldsusele edastamiseks , siis on teose esitajal ja fonogrammitootjal &otilde;igus saada fonogrammi kasutajalt &otilde;iglast tasu iga sellise edastamise eest .</s><s>Selline tasu makstakse v&auml;lja &uuml;he maksena fonogrammitootjale .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Fonogrammitootja maksab poole k&auml;esoleva paragrahvi 1. l&otilde;ikes etten&auml;htud tasust fonogrammile salvestatud teose esitajatele , kui teose esitajate ja fonogrammitootja kokkuleppega ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Fonogrammitootjalt saadud tasu jagatakse fonogrammile salvestatud teoste esitajate vahel v&otilde;i kasutatakse &uuml;hiselt vastavalt esitajate kokkuleppele .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Raadio- ja televisiooniorganisatsiooni &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Raadio- ja televisiooniorganisatsioonil on ainu&otilde;igus lubada ja keelata :</s>
+</p>
+<p>
+<s>1 ) saate taasedastamine ;</s>
+</p>
+<p>
+<s>2 ) saate salvestamine , olenemata sellest , kas nimetatud saade edastatakse raadio v&otilde;i televisiooni vahendusel , kaasa arvatud kaabelleviv&otilde;rgu v&otilde;i satelliidi kaudu ;</s>
+</p>
+<p>
+<s>3 ) saate salvestise otsene v&otilde;i kaudne , ajutine v&otilde;i alaline reprodutseerimine vastavalt k&auml;esoleva l&otilde;ike punktis 2 toodud tingimustele ;</s>
+</p>
+<p>
+<s>4 ) saate edastamine &uuml;ldsusele juhul , kui selline edastamine toimub kohas , mis on &uuml;ldsusele avatud sisenemistasu eest ;</s>
+</p>
+<p>
+<s>5 ) saate salvestise levitamine &uuml;ldsusele .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) Tasu suurus , selle maksmise viisid ja kord saate salvestise kasutamise eest m&auml;&auml;ratakse kindlaks raadio- ja televisiooniorganisatsiooni ning kasutaja vahelise kokkuleppega .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud &otilde;igused ei laiene kaabelleviv&otilde;rgu operaatorile , kes teostab kaabelleviv&otilde;rgu vahendusel raadio- v&otilde;i televisiooniorganisatsiooni saate taasedastamise .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 73 <hi rend="sup">1</hi> .</s><s>Filmi esmasalvestuse tootja &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Filmi esmasalvestuse tootjal on ainu&otilde;igus lubada ja keelata :</s>
+</p>
+<p>
+<s>1 ) filmi originaali v&otilde;i selle koopia otsene v&otilde;i kaudne , ajutine v&otilde;i alaline reprodutseerimine ;</s>
+</p>
+<p>
+<s>2 ) filmi originaali v&otilde;i selle koopia levitamine &uuml;ldsusele ;</s>
+</p>
+<p>
+<s>3 ) filmi originaali v&otilde;i selle koopia rentimine v&otilde;i laenutamine .</s>
+</p>
+<p>
+<s>( 2 ) Film k&auml;esoleva paragrahvi t&auml;henduses on audiovisuaalne teos v&otilde;i liikuvad kujutised koos neid saatvate helidega v&otilde;i ilma helideta , mis pole teos .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Autori&otilde;igusega kaasnevate &otilde;iguste t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas peat&uuml;kis etten&auml;htud &otilde;igused kehtivad 50 aastat :</s>
+</p>
+<p>
+<s>1 ) teose esitaja suhtes - teose esmakordsest esitamisest arvates .</s><s>Kui selle t&auml;htaja jooksul toimub esituse salvestise &otilde;igusp&auml;rane avaldamine v&otilde;i &otilde;igusp&auml;rane &uuml;ldsusele edastamine , kehtivad esitaja &otilde;igused 50 aastat p&auml;rast sellist avaldamist v&otilde;i &uuml;ldsusele edastamist , olenevalt sellest , milline neist oli varajasem ;</s>
+</p>
+<p>
+<s>2 ) fonogrammitootja suhtes - fonogrammi esmakordsest salvestamisest arvates .</s><s>Kui selle t&auml;htaja jooksul toimub fonogrammi salvestise &otilde;igusp&auml;rane avaldamine v&otilde;i &otilde;igusp&auml;rane &uuml;ldsusele edastamine , kehtivad fonogrammitootja &otilde;igused 50 aastat p&auml;rast sellist avaldamist v&otilde;i &uuml;ldsusele edastamist , olenevalt sellest , milline neist oli varajasem ;</s>
+</p>
+<p>
+<s>3 ) raadio- ja televisiooniorganisatsiooni suhtes - saate esmakordsest edastamisest arvates , s&otilde;ltumata sellest , kas saade edastati juhtme v&otilde;i &otilde;hu kaudu , kaasa arvatud kaabli v&otilde;i satelliidi vahendusel ;</s>
+</p>
+<p>
+<s>4 ) filmi esmasalvestuse tootja suhtes - filmi esmakordsest j&auml;&auml;dvustamisest arvates .</s><s>Kui selle t&auml;htaja jooksul toimub filmi &otilde;igusp&auml;rane avaldamine v&otilde;i &otilde;igusp&auml;rane &uuml;ldsusele edastamine , kehtivad esmasalvestuse tootja &otilde;igused 50 aastat p&auml;rast sellist avaldamist v&otilde;i &uuml;ldsusele edastamist , olenevalt sellest , milline neist oli varajasem .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) T&auml;htaja kulgemine algab 1.jaanuarist , mis j&auml;rgneb aastale , millal toimusid k&auml;esoleva paragrahvi 1.l&otilde;ikes nimetatud teod .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolevas paragrahvis etten&auml;htud t&auml;htajaks l&auml;hevad autori&otilde;igusega kaasnevad varalised &otilde;igused &uuml;le p&auml;rimise teel .</s>
+</p>
+<p>
+<s>( 4 ) Teose esitaja autorsust , esitajanime ning esitaja au ja v&auml;&auml;rikust kaitstakse t&auml;htajatult .</s>
+</p>
+<p>
+<s>&sect; 74 <hi rend="sup">1</hi> .</s><s>Autori&otilde;igusega kaasnevad &otilde;igused varem avaldamata teosele , kirjanduskriitilisele v&otilde;i teaduslikule v&auml;ljaandele</s>
+</p>
+<p>
+<s>( 1 ) Isikul , kes p&auml;rast autori&otilde;iguse kehtivuse t&auml;htaja l&otilde;ppemist esimesena &otilde;igusp&auml;raselt avaldab v&otilde;i edastab &uuml;ldsusele varem avaldamata teose , on 25 aasta jooksul sellise teose esmakordsest avaldamisest v&otilde;i &uuml;ldsusele edastamisest autori varaliste &otilde;igustega ( &sect; 13 ) v&otilde;rdsed &otilde;igused sellele teosele .</s>
+</p>
+<p>
+<s>( 2 ) Isikul , kes annab v&auml;lja autori&otilde;igusega mittekaitstava teose kirjanduskriitilise v&otilde;i teadusliku v&auml;ljaande , on 30 aasta jooksul selle v&auml;ljaande esmakordsest avaldamisest autori varaliste &otilde;igustega ( &sect; 13 ) v&otilde;rdsed &otilde;igused sellele v&auml;ljaandele .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Autori&otilde;igusega kaasnevate &otilde;iguste piiramine</s>
+</p>
+<p>
+<s>( 1 ) Teose esitaja , fonogrammitootja , raadio- ja televisiooniorganisatsiooni , filmi esmasalvestuse tootja , isiku , kes p&auml;rast autori&otilde;iguse kehtivuse t&auml;htaja l&otilde;ppemist esimesena &otilde;igusp&auml;raselt avaldab v&otilde;i edastab &uuml;ldsusele varem avaldamata teose , ja isiku , kes annab v&auml;lja autori&otilde;igusega mittekaitstava teose kirjanduskriitilise v&otilde;i teadusliku v&auml;ljaande , loata ning tasu maksmiseta on lubatud teose esituse , fonogrammi , raadio- v&otilde;i telesaate ning nende salvestiste ja filmi kasutamine , sealhulgas reprodutseerimise teel :</s>
+</p>
+<p>
+<s>1 ) oma isiklikeks vajadusteks , arvestades k&auml;esoleva seaduse &sect;-de 26 ja 27 s&auml;tteid ;</s>
+</p>
+<p>
+<s>2 ) eranditult hariduslikel ja teaduslikel eesm&auml;rkidel ;</s>
+</p>
+<p>
+<s>3 ) l&uuml;hikeste v&auml;ljav&otilde;tetena l&uuml;litamiseks p&auml;evas&uuml;ndmuste &uuml;levaatesse ;</s>
+</p>
+<p>
+<s>4 ) l&uuml;hikeste v&auml;ljav&otilde;tetena ( tsitaatidena ) informatsiooni andmise eesm&auml;rgil , j&auml;rgides esituse , fonogrammi , raadio- ja telesaate kui terviku m&otilde;tte &otilde;ige edasiandmise kohustust ;</s>
+</p>
+<p>
+<s>5 ) raadio- ja televisiooniorganisatsiooni poolt ajutise salvestise tegemiseks ja selle reprodutseerimiseks oma tehniliste vahenditega ja oma saadete tarbeks esitusest , saatest v&otilde;i fonogrammist , mida tal on &otilde;igus eetrisse anda .</s><s>Selline salvestis ja selle reproduktsioon ( koopiad ) tuleb h&auml;vitada 30 p&auml;eva m&ouml;&ouml;dumisel selle tegemisest , v&auml;lja arvatud &uuml;ks koopia , mida v&otilde;ib s&auml;ilitada arhiivieksemplarina ;</s>
+</p>
+<p>
+<s>6 ) muudel juhtudel , mil teoste autorite &otilde;igusi on piiratud k&auml;esoleva seaduse IV peat&uuml;kis .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas paragrahvis etten&auml;htud vaba kasutamine on lubatud vaid tingimusel , et ei piirata p&otilde;hjendamatult teose esitaja , fonogrammitootja v&otilde;i raadio- ja televisiooniorganisatsiooni seaduslikke huvisid ja selline kasutamine pole vastuolus nende resultaatide normaalse majandusliku kasutamisega .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>VIII <hi rend="sup">1</hi> peat&uuml;kk</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>Andmebaasi tegija &otilde;igused</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 75 <hi rend="sup">1</hi> .</s><s>K&auml;esoleva peat&uuml;ki eesm&auml;rk</s>
+</p>
+<p>
+<s>K&auml;esoleva peat&uuml;ki eesm&auml;rk on kehtestada iseseisev kaitse andmebaasile , s&auml;testades andmebaasi tegijale eri&otilde;igused tema poolt tehtud investeeringu kaitseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 75 <hi rend="sup">2</hi> .</s><s>Andmebaasi m&otilde;iste</s>
+</p>
+<p>
+<s>Andmebaas k&auml;esoleva peat&uuml;ki t&auml;henduses on teoste , andmete v&otilde;i muu materjali s&uuml;stemaatiliselt v&otilde;i metoodiliselt korraldatud kogu , mis on individuaalselt kasutatav elektrooniliste v&otilde;i muude vahendite abil .</s><s>Andmebaasi m&otilde;iste ei h&otilde;lma selle tegemiseks ega k&auml;ivitamiseks vajaminevat arvutiprogrammi .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 75 <hi rend="sup">3</hi> .</s><s>Andmebaasi tegija</s>
+</p>
+<p>
+<s>( 1 ) Andmebaasi tegija on isik , kes on teinud kas laadilt , v&auml;&auml;rtuselt v&otilde;i suuruselt olulise investeeringu selle andmebaasi sisuks olevate andmete kogumiseks , omandamiseks , kontrollimiseks , s&uuml;stematiseerimiseks v&otilde;i k&auml;ttesaadavaks tegemiseks .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva peat&uuml;ki s&auml;tteid kohaldatakse juhul , kui :</s>
+</p>
+<p>
+<s>1 ) andmebaasi tegijaks v&otilde;i &otilde;iguste valdajaks on Eesti kodanik v&otilde;i Eesti Vabariigis alaliselt elav isik ;</s>
+</p>
+<p>
+<s>2 ) andmebaasi tegijaks v&otilde;i &otilde;iguste valdajaks on &auml;ri&uuml;hing , mis on asutatud vastavalt Eesti seadusele ja mille registreeritud asukoht , juhatus v&otilde;i peamine tegevuskoht on Eesti Vabariigi territooriumil .</s><s>Kui &auml;ri&uuml;hingul on Eesti Vabariigi territooriumil ainult registreeritud asukoht , peab sellise &auml;ri&uuml;hingu tegevus olema Eesti majandusega t&otilde;husalt ja p&uuml;sivalt seotud ;</s>
+</p>
+<p>
+<s>3 ) andmebaasi tuleb kaitsta vastavalt Eesti Vabariigi v&auml;lislepingule .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 75 <hi rend="sup">4</hi> .</s><s>Andmebaasi tegija &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) Andmebaasi tegijale kuulub ainu&otilde;igus lubada ja keelata andmebaasi kasutamist k&auml;esoleva paragrahvi 2. l&otilde;ikes etten&auml;htud viisil ning saada sellise kasutamise eest poolte vahel kokkulepitud tasu , v&auml;lja arvatud k&auml;esolevas peat&uuml;kis v&otilde;i poolte kokkuleppega etten&auml;htud juhud .</s>
+</p>
+<p>
+<s>( 2 ) Ainult andmebaasi tegija n&otilde;usolekul on lubatud :</s>
+</p>
+<p>
+<s>1 ) v&auml;ljav&otilde;tte tegemine andmebaasist v&otilde;i selle olulisest osast .</s><s>V&auml;ljav&otilde;tte tegemiseks loetakse andmebaasi kogu sisu v&otilde;i selle olulise osa mis tahes viisil v&otilde;i mis tahes vormis ajutine v&otilde;i alaline &uuml;lekandmine teise v&auml;ljendusvormi ;</s>
+</p>
+<p>
+<s>2 ) andmebaasi v&otilde;i selle olulise osa taaskasutamine .</s><s>Taaskasutamiseks loetakse andmebaasi kogu sisu v&otilde;i selle olulise osa avalikustamine &uuml;ldsusele kas koopiate levitamise , rentimise , sidusliini kaudu edastamise v&otilde;i muul viisil &uuml;lekandmise teel .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast andmebaasi koopia esmam&uuml;&uuml;ki andmebaasi tegija poolt v&otilde;i tema loal , l&otilde;peb k&auml;esoleva paragrahvi 2. l&otilde;ike punktis 2 s&auml;testatud andmebaasi tegija &otilde;igus kontrollida selle andmebaasi v&otilde;i koopia edasim&uuml;&uuml;ki .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes nimetatud ainu&otilde;igus kuulub andmebaasi tegijale , olenemata sellest , kas andmebaasi ennast v&otilde;i tema sisu kaitstakse k&auml;esoleva seadusega v&otilde;i muude &otilde;igusaktide alusel .</s>
+</p>
+<p>
+<s>( 5 ) Avalikku laenutamist ei loeta v&auml;ljav&otilde;tte tegemiseks ega andmebaasi v&otilde;i selle olulise osa taaskasutamiseks .</s>
+</p>
+<p>
+<s>( 6 ) Andmebaasi tegija v&otilde;ib k&auml;esoleva paragrahvi 2. l&otilde;ikes s&auml;testatud &otilde;iguse &uuml;le anda ( loovutada ) v&otilde;i anda loa ( litsentsi ) selle &otilde;iguse kasutamiseks .</s><s>Nimetatud juhtudele kohaldatakse k&auml;esoleva seaduse VII peat&uuml;ki s&auml;tteid .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 75 <hi rend="sup">5</hi> .</s><s>Andmebaasi &otilde;igusp&auml;raste kasutajate &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Andmebaasi &otilde;igusp&auml;rasel kasutajal on &otilde;igus teha v&auml;ljav&otilde;tteid ja taaskasutada igal eesm&auml;rgil &uuml;ldsusele mis tahes viisil &otilde;igusp&auml;raselt avalikustatud andmebaasi sisuks olevaid kvantiteedilt v&otilde;i kvaliteedilt mitteolulisi osi .</s><s>Kui isik on &otilde;igustatud k&auml;esolevas l&otilde;ikes etten&auml;htud viisil kasutama ainult andmebaasi teatud osa , kehtib k&auml;esolevas l&otilde;ikes s&auml;testatu vaid andmebaasi selle osa suhtes .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;ldsusele mis tahes viisil avalikustatud andmebaasi &otilde;igusp&auml;rane kasutaja ei tohi kahjustada andmebaasis sisalduvate teoste v&otilde;i muu materjali suhtes tekkinud autori&otilde;igust v&otilde;i autori&otilde;igusega kaasnevaid &otilde;igusi .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;ldsusele mis tahes viisil avalikustatud andmebaasi &otilde;igusp&auml;rane kasutaja ei tohi teha tegusid , mis on vastuolus andmebaasi tavap&auml;rase kasutamisega v&otilde;i kahjustavad p&otilde;hjendamatult andmebaasi tegija seaduslikke huve .</s>
+</p>
+<p>
+<s>( 4 ) Lepingu tingimus , mis piirab k&auml;esolevas paragrahvis s&auml;testatud &otilde;iguse teostamist andmebaasi &otilde;igusp&auml;rase kasutaja poolt , on t&uuml;hine .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 75 <hi rend="sup">6</hi> .</s><s>Andmebaasi tegija &otilde;iguse piiramine</s>
+</p>
+<p>
+<s>&Uuml;ldsusele mis tahes viisil &otilde;igusp&auml;raselt avalikustatud andmebaasi &otilde;igusp&auml;rane kasutaja v&otilde;ib ilma andmebaasi tegija n&otilde;usolekuta ja tasu maksmiseta teha v&auml;ljav&otilde;tteid andmebaasi sisu olulisest osast v&otilde;i seda taaskasutada juhul , kui :</s>
+</p>
+<p>
+<s>1 ) mitte-elektroonilise andmebaasi sisust tehakse v&auml;ljav&otilde;te isiklikeks vajadusteks ;</s>
+</p>
+<p>
+<s>2 ) koos andmebaasi avaldamisallika kohustusliku &auml;ran&auml;itamisega tehakse andmebaasist v&auml;ljav&otilde;te illustreeriva materjalina &otilde;ppe- v&otilde;i teadusliku uurimist&ouml;&ouml; eesm&auml;rkidel , nende eesm&auml;rkidega motiveeritud mahus ja tingimusel , et selline kasutamine ei taotle &auml;rilisi eesm&auml;rke ;</s>
+</p>
+<p>
+<s>3 ) v&auml;ljav&otilde;tte tegemine v&otilde;i taaskasutamine toimub avaliku julgeoleku , haldustegevuse v&otilde;i &otilde;igusem&otilde;istmise k&auml;igus ulatuses , mis vastab &uuml;hiskondliku julgeoleku kaitse , haldusfunktsioonide teostamise ja &otilde;igusem&otilde;istmise eesm&auml;rkidele .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 75 <hi rend="sup">7</hi> .</s><s>Andmebaasi tegija &otilde;iguste kaitse t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Andmebaasi tegija &otilde;igused tekivad andmebaasi valmimise p&auml;eval , milleks on andmebaasi tegemise l&otilde;petamise p&auml;ev .</s>
+</p>
+<p>
+<s>( 2 ) Andmebaasi tegija &otilde;igused kehtivad 15 aastat , arvates andmebaasi valmimise p&auml;evale j&auml;rgneva aasta 1. jaanuarist .</s>
+</p>
+<p>
+<s>( 3 ) Andmebaasi &uuml;ldsusele mis tahes viisil avalikustamise korral k&auml;esoleva paragrahvi 2. l&otilde;ikes s&auml;testatud t&auml;htaja jooksul kehtivad andmebaasi tegija &otilde;igused 15 aastat , arvates andmebaasi avalikustamise p&auml;evale j&auml;rgneva aasta 1. jaanuarist .</s>
+</p>
+<p>
+<s>( 4 ) Kui andmebaasi sisu oluliselt muutub kvalitatiivselt v&otilde;i kvantitatiivselt , sealhulgas t&auml;ieneb , l&uuml;heneb v&otilde;i muutub , mille tagaj&auml;rjel andmebaasi tehtud investeering oluliselt suureneb kvalitatiivselt v&otilde;i kvantitatiivselt , kehtivad muudetud andmebaasi tegija &otilde;igused sellise muudetud andmebaasi suhtes 15 aastat , arvates vastavate muudatuste tegemisest .</s><s>Sellisel juhul arvestatakse t&auml;htaja kulgemise algust k&auml;esoleva paragrahvi 2. v&otilde;i 3. l&otilde;ikes s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>IX peat&uuml;kk</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&Otilde;iguste kollektiivne teostamine</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Autoreid , teoste esitajaid , fonogrammide tootjaid , raadio- ja televisiooniorganisatsioone ning teisi &otilde;iguste valdajaid esindavad organisatsioonid</s>
+</p>
+<p>
+<s>( 1 ) Autoritel , teoste esitajatel , fonogrammide tootjatel , raadio- ja televisiooniorganisatsioonidel ning teistel autori&otilde;iguste ja autori&otilde;igusega kaasnevate &otilde;iguste valdajatel on &otilde;igus &otilde;igusaktidega kehtestatud korras luua &uuml;hinguid oma autori&otilde;iguste ja muude k&auml;esolevast seadusest tulenevate &otilde;iguste &uuml;hiseks teostamiseks ning loominguliste ja majanduslike huvide tagamiseks .</s><s>Nimetatud kollektiivse esindamise organisatsioonid on mittetulundus&uuml;hingud , kelle asutamise , tegevuse ja l&otilde;petamise suhtes kohaldatakse mittetulundus&uuml;hingute seadust ( RT I 1996 , 42 , 811 ; 1998 , 96 , 1515 ; 1999 , 10 , 155 ; 23 , 355 ; 67 , 658 ; 2000 , 55 , 365 ; 88 , 576 ; 2001 , 24 , 133 ) k&auml;esolevast seadusest tulenevate erisustega .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;iguste kollektiivne esindamine toimub j&auml;rgmiste valdkondadega seonduvalt :</s>
+</p>
+<p>
+<s>1 ) muusika- ja kirjandusteoste avalik esitamine ;</s>
+</p>
+<p>
+<s>2 ) muusika- , kirjandus- ja kunstiteoste edastamine raadio , televisiooni , kaabelleviv&otilde;rgu , satelliidi ja muude tehnikavahendite vahendusel ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>3 ) kujutava kunsti teoste edasim&uuml;&uuml;mise eest tasu kogumine ja jaotamine ;</s>
+</p>
+<p>
+<s>4 ) audiovisuaalse teose ja teose helisalvestise isiklikeks vajadusteks kasutamise eest etten&auml;htud tasu kogumine ;</s>
+</p>
+<p>
+<s>5 ) raadio- ja televisioonisaadete ning -programmide ( sealhulgas neis sisalduvate teoste ) kaabelleviv&otilde;rgu vahendusel taasedastamine ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>6 ) muusika- ja kirjandusteoste helisalvestiste reprodutseerimine ning muusika- , kirjandus- ja muude kunstiteoste audiovisuaalne reprodutseerimine ;</s>
+</p>
+<p>
+<s>7 ) perioodiliste v&auml;ljaannete poolt kujutava kunsti teoste ja fotograafiateoste reprodutseerimine ;</s>
+</p>
+<p>
+<s>7 <hi rend="sup">1</hi> ) tasu kogumine ja v&auml;ljamaksmine autoritele ja teoste esitajatele audiovisuaalsete teoste ja fonogrammide kasutamise ( sealhulgas rentimise ) eest ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>7 <hi rend="sup">2</hi> ) fonogrammide , filmide ja arvutiprogrammide laenutamine ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>8 ) teoste ja autori&otilde;igusega kaasnevate &otilde;iguste objektide muu kasutamine .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ike punktides 3-5 ja punktis 7 <hi rend="sup">1</hi> nimetatud valdkondadega seonduvaid &otilde;igusi teostatakse ainult kollektiivse esindamise organisatsioonide kaudu .</s><s>Seejuures on nendel organisatsioonidel &otilde;igus saada k&otilde;ikidelt avalik-&otilde;iguslikelt ja era&otilde;iguslikelt isikutelt vajalikku t&otilde;ep&auml;rast suulist ja dokumentaalset teavet teoste kasutamise eest etten&auml;htud tasu kogumise ja jaotamisega seotud mahus .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 ; 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) Raadio- ja televisiooniorganisatsioon v&otilde;ib iseseisvalt teostada oma &otilde;igusi , mis seonduvad k&auml;esoleva paragrahvi 2. l&otilde;ike punktis 5 nimetatud valdkonnaga .</s><s>Seejuures ei ole oluline , kas need &otilde;igused on raadio- ja televisiooniorganisatsioonile seadusega s&auml;testatud v&otilde;i on talle seaduse v&otilde;i lepingu alusel &uuml;le l&auml;inud .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Kollektiivse esindamise organisatsioonide tegevuse printsiibid ja viisid</s>
+</p>
+<p>
+<s>( 1 ) Kollektiivse esindamise organisatsioonid teostavad ja kaitsevad oma liikmete varalisi ja isiklikke mittevaralisi &otilde;igusi organisatsiooni p&otilde;hikirjas ja liikmelepingus etten&auml;htud korras , sealhulgas :</s>
+</p>
+<p>
+<s>1 ) annavad n&otilde;usoleku teose v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste objekti ( esituse , fonogrammi , raadio- ja televisioonisaate v&otilde;i -programmi ) kasutamiseks , s&otilde;lmides selleks kasutajaga vastava lepingu ;</s>
+</p>
+<p>
+<s>2 ) otsustavad autoritasu , litsentsitasu , esitajatasu v&otilde;i muu tasu suuruse , pidades vajaduse korral sellealaseid l&auml;bir&auml;&auml;kimisi ;</s>
+</p>
+<p>
+<s>3 ) koguvad ja maksavad v&auml;lja tasu teoste v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste objektide kasutamise eest ;</s>
+</p>
+<p>
+<s>4 ) loovad ja k&auml;sutavad sihtasutusi Eesti autorite ning teose esitajate loometingimuste parandamiseks ja sotsiaalseks kindlustamiseks ning nende teoste tutvustamiseks v&auml;lismaal ;</s>
+</p>
+<p>
+<s>5 ) kaitsevad ja teostavad autorite ning autori&otilde;igusega kaasnevate &otilde;iguste valdajate &otilde;igusi kohtus ja muudes institutsioonides ;</s>
+</p>
+<p>
+<s>6 ) arendavad muud tegevust autori&otilde;iguste ja autori&otilde;igusega kaasnevate &otilde;iguste teostamise alal vastavalt autoritelt saadud volitustele .</s>
+</p>
+<p>
+<s>( 2 ) Kollektiivse esindamise organisatsioonid v&otilde;ivad vastava lepingu alusel v&otilde;i seaduses s&auml;testatud juhtudel esindada ka oma liikmeks mitteolevaid autoreid ja autori&otilde;igustega kaasnevate &otilde;iguste valdajaid .</s>
+</p>
+<p>
+<s>( 3 ) Ajal , mil autorite v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste valdajate esindamise &otilde;igus on kollektiivse esindamise organisatsioonil kas vastavalt seadusele v&otilde;i lepingule , ei saa autor v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste valdaja oma sellekohaseid &otilde;igusi ise teostada .</s>
+</p>
+<p>
+<s>( 4 ) Autorite ja autori&otilde;igusega kaasnevate &otilde;iguste valdajate &otilde;iguste ning seaduslike huvide ilmse rikkumise juhtudel on kollektiivse esindamise organisatsioonidel &otilde;igus esindada k&otilde;iki autoreid ja autori&otilde;igusega kaasnevate &otilde;iguste valdajaid ilma volituseta .</s>
+</p>
+<p>
+<s>( 5 ) Kollektiivse esindamise organisatsioonid esindavad v&auml;lisriigi autoreid ja autori&otilde;igusega kaasnevate &otilde;iguste valdajaid v&auml;lisriikide kollektiivse esindamise organisatsioonidega s&otilde;lmitud kahepoolsete v&otilde;i mitmepoolsete kokkulepete alusel .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Kollektiivse esindamise organisatsioonide liikmete garantiid</s>
+</p>
+<p>
+<s>Autori&otilde;iguste ja autori&otilde;igusega kaasnevate &otilde;iguste ebaseaduslike ja p&otilde;hjendamatute piirangute &auml;rahoidmiseks :</s>
+</p>
+<p>
+<s>1 ) tuleb k&otilde;ik otsused tasu ( autoritasu , litsentsitasu , esitajatasu v&otilde;i muu tasu ) ja sellest tasust organisatsiooni halduskulude katteks mahaarvatava protsendi ( vahendustasu ) suuruse , tasu kogumise , jaotamise ja v&auml;ljamaksmise viiside , samuti kogutud tasu sotsiaalsetel , kultuurilistel , sihtasutuste loomise v&otilde;i muudel organisatsiooni liikmete &uuml;hishuvisid puudutavatel eesm&auml;rkidel kasutamise kohta v&otilde;tta vastu organisatsiooni liikmete &uuml;ldkoosolekul v&otilde;i nende poolt volitatud liikmete poolt ( volinike v&otilde;i juhatuse koosolekul ) ;</s>
+</p>
+<p>
+<s>2 ) tuleb kogutud tasu autorite ja autori&otilde;igusega kaasnevate &otilde;iguste valdajate vahel jaotada v&otilde;imalikult proportsionaalselt , s&otilde;ltuvalt teose tegelikust kasutamisest , arvestades sellest maha organisatsiooni liikmete poolt &uuml;hiselt otsustatud protsendi halduskulude katteks ja muudeks k&auml;esoleva paragrahvi punktis 1 etten&auml;htud eesm&auml;rkideks ;</s>
+</p>
+<p>
+<s>3 ) peab organisatsiooni liikmetel olema v&otilde;imalus saada regulaarset ja t&auml;ielikku informatsiooni organisatsiooni kogu tegevuse ja oma teose kasutamise ning selle eest saada oleva tasu kohta ;</s>
+</p>
+<p>
+<s>4 ) tuleb v&auml;lisriikide autorite ja autori&otilde;igusega kaasnevate &otilde;iguste valdajate suhtes kohaldada samu eeskirju , mis Eesti autorite suhtes ;</s>
+</p>
+<p>
+<s>5 ) tuleb v&auml;lisriikide kollektiivse esindamise organisatsioonidele , kellega on s&otilde;lmitud kahepoolsed v&otilde;i mitmepoolsed kokkulepped , anda nende n&otilde;udmisel kogu vajalik informatsioon nende riikide autorite ja autori&otilde;igusega kaasnevate &otilde;iguste valdajate &otilde;iguste teostamise kohta Eestis .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Kaabelleviv&otilde;rgu vahendusel taasedastamisega seonduvate &otilde;iguste teostamine kollektiivse esindamise organisatsiooni kaudu</s>
+</p>
+<p>
+<s>( 1 ) Kaabelleviv&otilde;rgu vahendusel taasedastamisega seonduvate &otilde;iguste ( &sect; 76 2. l&otilde;ike punkt 5 ) valdaja , v&auml;lja arvatud raadio- ja televisiooniorganisatsioon , saab neid &otilde;igusi teostada ainult k&auml;esoleva seaduse &sect;-s 76 nimetatud kollektiivse esindamise organisatsiooni kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Kui k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud &otilde;iguste valdaja , v&auml;lja arvatud raadio- ja televisiooniorganisatsioon , ei ole oma &otilde;iguste teostamiseks s&otilde;lminud lepingut &uuml;hegi kollektiivse esindamise organisatsiooniga , on teda volitatud esindama see organisatsioon , kes esindab sama kategooria &otilde;iguste valdajaid .</s><s>Kui selliseid kollektiivse esindamise organisatsioone on mitu , v&otilde;ib &otilde;iguste valdaja valida , kes neist on volitatud teda esindama .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ike alusel esindataval &otilde;iguste valdajal on kollektiivse esindamise organisatsiooni ja kaabellevi operaatori vahelisest lepingust tulenevalt samad &otilde;igused ning kohustused kui selle kollektiivse esindamise organisatsiooni poolt liikme- v&otilde;i muu vastava lepingu alusel esindataval &otilde;iguste valdajal .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 2. l&otilde;ike alusel esindatav &otilde;iguste valdaja v&otilde;ib n&otilde;uda kollektiivse esindamise organisatsiooni ja kaabellevi operaatori vahelisest lepingust tulenevate &otilde;iguste tunnustamist ja nendele &otilde;igustele vastavate kohustuste t&auml;itmist kolme aasta jooksul , arvates tema k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud &otilde;iguste objekti sisaldava taasedastamise toimumise p&auml;evast .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 79 <hi rend="sup">1</hi> .</s><s>&Otilde;iguse teose edastamisele teostamine kollektiivse esindamise organisatsiooni kaudu</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 79 2. , 3. ja 4. l&otilde;ikes s&auml;testatut kohaldatakse ka autori poolt &otilde;iguse teose edastamisele teostamisel satelliidi vahendusel tingimusel , et raadio- v&otilde;i televisiooniorganisatsiooni poolt &uuml;ldsusele edastamine satelliidi kaudu on samaaegne edastamisega maapealse s&uuml;steemi kaudu .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;iguste valdajal , keda kollektiivse esindamise organisatsioon esindab k&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud korras , on igal ajal &otilde;igus n&otilde;uda sellise esindamise l&otilde;petamist ja teostada oma &otilde;igusi individuaalselt v&otilde;i kollektiivselt .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 1. ja 2. l&otilde;iget ei kohaldata audiovisuaalse teose suhtes .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>X peat&uuml;kk</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&Otilde;iguste kaitse ja vastutus</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Vastutuse &uuml;ldp&otilde;him&otilde;tted</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevas seaduses ja muudes autori&otilde;igusaktides s&auml;testatud autori&otilde;iguse , autori&otilde;igusega kaasnevate &otilde;iguste v&otilde;i andmebaasi tegija &otilde;iguste rikkumine , samuti autori&otilde;igusaktides s&auml;testatud n&otilde;uete rikkumine toob kaasa tsiviil- , kriminaal- v&otilde;i haldusvastutuse .</s>
+</p>
+<p>
+<s>( 2 ) Andmebaasi tegija &otilde;iguste ( VIII <hi rend="sup">1</hi> peat&uuml;kk ) kaitsele kohaldatakse autori&otilde;iguse ja autori&otilde;igusega kaasnevate &otilde;iguste kaitse kohta k&auml;ivaid s&auml;tteid , kui seaduses ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 80 <hi rend="sup">1</hi> .</s><s>Piraatkoopia</s>
+</p>
+<p>
+<s>( 1 ) Piraatkoopia k&auml;esoleva seaduse t&auml;henduses on teose v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste objekti mis tahes vormis ilma teose autori , tema &otilde;iguste valdaja v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste valdaja loata mis tahes riigis reprodutseeritud koopia &uuml;hes vastava pakendiga v&otilde;i ilma selleta .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 ; 27.09.2000 j&otilde;ust.22.10.2000 - RT I 2000 , 78 , 497 )</s>
+</p>
+<p>
+<s>( 2 ) Piraatkoopiaks loetakse ka teose v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste objekti selline koopia , mis on reprodutseeritud v&auml;lisriigis teose autori , tema &otilde;iguste valdaja v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste valdaja loal , kuid mida levitatakse v&otilde;i kavatsetakse levitada Eestis ilma autori , tema &otilde;iguste valdaja v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste valdaja loata .</s>
+</p>
+<p>
+<s>( 27.09.2000 j&otilde;ust.22.10.2000 - RT I 2000 , 78 , 497 )</s>
+</p>
+<p>
+<s>&sect; 80 <hi rend="sup">2</hi> .</s><s>Piraatkoopiaga kauplemine</s>
+</p>
+<p>
+<s>Piraatkoopiaga kauplemiseks loetakse piraatkoopia m&uuml;&uuml;k , rentimine , m&uuml;&uuml;gile pakkumine v&otilde;i rendile pakkumine , samuti piraatkoopia ladustamine , hoidmine v&otilde;i edasitoimetamine &auml;rilisel eesm&auml;rgil .</s>
+</p>
+<p>
+<s>( 27.09.2000 j&otilde;ust.22.10.2000 - RT I 2000 , 78 , 497 )</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Autori&otilde;iguste ja autori&otilde;igusega kaasnevate &otilde;iguste tsiviil&otilde;iguslik kaitse</s>
+</p>
+<p>
+<s>( 1 ) Autori&otilde;iguste v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste rikkumise ja k&auml;esoleva seaduse ning muude autori&otilde;igusaktide t&auml;itmisel tekkinud vaidluse korral v&otilde;ib &uuml;ks pool v&otilde;i m&otilde;lemad pooled p&ouml;&ouml;rduda vaidluse lahendamiseks kohtusse .</s>
+</p>
+<p>
+<s>( 2 ) Tsiviil&otilde;iguslikult kaitstakse rikutud &otilde;igusi lisaks tsiviilseadustiku &uuml;ldosa seaduse ( RT I 1994 , 53 , 889 ; 89 , 1516 ; 1995 , 26/28 , 355 ; 49 , 749 ; 87 , 1540 ; 1996 , 40 , 773 ; 42 , 811 ; 52/54 , 993 ; 1998 , 30 , 409 ; 59 , 941 ; 91/93 , 1500 ; 96 , 1515 ; 1999 , 10 , 155 ; 2001 , 24 , 133 ) paragrahvis 112 loetletud viisidele veel :</s>
+</p>
+<p>
+<s>1 ) moraalse kahju eest materiaalse h&uuml;vitise v&auml;ljam&otilde;istmisega ;</s>
+</p>
+<p>
+<s>2 ) &otilde;iguserikkumise l&auml;bi omandatud vara v&auml;ljam&otilde;istmisega ;</s>
+</p>
+<p>
+<s>3 ) lepingu l&otilde;petamisega ;</s>
+</p>
+<p>
+<s>4 ) &otilde;igustrikkuva tegevuse keelamisega .</s>
+</p>
+<p>
+<s>( 3 ) Kui &otilde;igustatud isiku v&otilde;i tema esindaja poolt k&auml;esoleva paragrahvi 2. l&otilde;ike punkti 2 alusel esitatud n&otilde;ue on kaasatud autori&otilde;igusaktide rikkumisest tulenevasse kriminaalasja v&otilde;i haldus&otilde;iguserikkumise asja , siis antud asjas kuriteo v&otilde;i haldus&otilde;iguserikkumise l&auml;bi saadud vara erikonfiskeerimise otsuse tegemisel m&otilde;istetakse &otilde;igustatud isiku kasuks sama otsusega v&auml;lja sama rahasumma v&otilde;i erikonfiskeeritud muu vara ekvivalent rahas .</s>
+</p>
+<p>
+<s>( 4 ) Kui teos on autori&otilde;igusakte rikkudes avalikustatud , salvestatud , reprodutseeritud , levitatud , imporditud , muudetud jne , v&otilde;ib &otilde;igustatud isik n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) teose taastamist esialgsel kujul v&otilde;i</s>
+</p>
+<p>
+<s>2 ) teose koopia muutmist spetsiifiliste vahenditega v&otilde;i</s>
+</p>
+<p>
+<s>3 ) piraatkoopia h&auml;vitamist .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi 4. l&otilde;ike punktides 2 ja 3 s&auml;testatut ei kohaldata arhitektuuriteose suhtes .</s>
+</p>
+<p>
+<s>( 6 ) Piraatkoopia &uuml;leandmine autorile , autori&otilde;igusega kaasnevate &otilde;iguste valdajale v&otilde;i nende esindajale ei ole lubatud .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>Autori&otilde;iguste ja autori&otilde;igusega kaasnevate &otilde;iguste karistus&otilde;iguslik kaitse</s>
+</p>
+<p>
+<s>( 1 ) Kui f&uuml;&uuml;siline isik on rikkunud autori&otilde;igusi v&otilde;i autori&otilde;igusega kaasnevaid &otilde;igusi , samuti autori&otilde;igusaktis s&auml;testatud n&otilde;udeid juriidilise isiku huvides , v&otilde;ib kohaldada &uuml;heaegselt f&uuml;&uuml;silise isiku kriminaalvastutust ja juriidilise isiku haldusvastutust .</s>
+</p>
+<p>
+<s>( 2 ) Piraatkoopia sisse- ja v&auml;ljavedu loetakse tollieeskirjade rikkumiseks .</s><s>Isiku vastutus piraatkoopia sisse- ja v&auml;ljaveo eest s&auml;testatakse tolliseaduses ( RT I 1998 , 3 , 54 ; 1999 , 86 , 782 ; 90 , &otilde;iend ; 97 , 859 ; 102 , 907 ; 2000 , 95 , 608 ) ja kriminaalkoodeksis ( RT 1992 , 20 , 287 ja 288 ; RT I 1999 , 38 , 485 ; 57 , 595 , 597 ja 598 ; 60 , 616 ; 97 , 859 ; 102 , 907 ; 2000 , 10 , 55 ; 28 , 167 ; 29 , 173 ; 33 , 193 ; 40 , 247 ; 49 , 301 ja 305 ; 54 , 351 ; 57 , 373 ; 58 , 376 ; 84 , 533 ; 92 , 597 ; 104 , 685 ; 2001 , 21 , 115 ja 116 ; 31 , 174 ) .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.09.2001 - RT I 2001 , 56 , 335 )</s>
+</p>
+<p>
+<s>( 3 ) Juriidilise isiku k&auml;esoleva paragrahvi 2. l&otilde;ikes nimetamata haldus&otilde;iguserikkumise menetlemisel juhindutakse k&auml;esoleva seaduse paragrahvides 83 ja 84 s&auml;testatust ning haldus&otilde;iguserikkumiste seadustikust ( RT 1992 , 29 , 396 ; RT I 1999 , 41 , 496 ; 50 , 548 ; 58 , 608 ; 60 , 616 ; 87 , 792 ; 92 , 825 ; 95 , 843 ; 2000 , 10 , 58 ; 25 , 141 ; 28 , 167 ; 29 , 169 ; 40 , 247 ; 45 , 279 ; 49 , 301 ; 305 ; 51 , 321 ; 54 , 346 ; 348 ; 351 ; 55 , 361 ; 58 , 376 ; 84 , 533 ; 86 , 544 ; 548 ; 89 , 578 ; 95 , 609 ; 613 ; 2001 , 3 , 5 ; 9 , 41 ; 17 , 76 ; 18 , 87 ; 21 , 115 ; 116 ; 31 , 174 ; 42 , 236 ) k&auml;esolevast seadusest tulenevate erisustega .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilisest isikust haldus&otilde;iguserikkujale kohaldatud rahatrahvi otsuse , samuti k&auml;esoleva seaduse paragrahv 81 3. l&otilde;ikes s&auml;testatud korras tehtud otsuse t&auml;itmisel juhindutakse t&auml;itemenetluse seadustikust ( RT I 1993 , 49 , 693 ; 2001 , 29 , 156 ; 43 , 238 ) .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>Juriidilise isiku haldusvastutus</s>
+</p>
+<p>
+<s>( 1 ) Juriidilise isiku poolt autori&otilde;iguste v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste , samuti autori&otilde;igusaktis s&auml;testatud n&otilde;uete rikkumise eest , v&auml;lja arvatud k&auml;esoleva paragrahvi 2.-6. l&otilde;ikes nimetatud juhul , - m&auml;&auml;ratakse rahatrahv 20 000 kuni 50 000 krooni .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 2 ) Juriidilise isiku poolt piraatkoopiaga kauplemise eest - m&auml;&auml;ratakse rahatrahv 50 000 kuni 100 000 krooni .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 ) Juriidilise isiku poolt teose avaliku esitamise , &uuml;ldsusele n&auml;itamise v&otilde;i &uuml;ldsusele edastamise eest , kui seejuures kasutati piraatkoopiat , - m&auml;&auml;ratakse rahatrahv 50 000 kuni 150 000 krooni .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 ; 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) Juriidilise isiku poolt teose ebaseadusliku reprodutseerimise vastase kaitsevahendi , samuti satelliidi v&otilde;i kaabli vahendusel edastatava signaali ebaseadusliku vastuv&otilde;tmise vastase kaitsevahendi k&otilde;rvaldamiseks m&otilde;eldud tehnilise vahendi v&otilde;i seadme valmistamise , omandamise , hoidmise , kasutamise , edasitoimetamise , m&uuml;&uuml;mise v&otilde;i &uuml;leandmise eest , - m&auml;&auml;ratakse rahatrahv 150 000 kuni 200 000 krooni .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 ; 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 5 ) Juriidilise isiku poolt arvutiprogrammi valdamise eest &auml;rilisel eesm&auml;rgil v&otilde;i kasutamise eest , kui arvutiprogramm on reprodutseeritud ( installeeritud ) arvutisse ilma autori v&otilde;i tema &otilde;iguste valdaja loata , - m&auml;&auml;ratakse rahatrahv 7500 kuni 100 000 krooni iga ebaseaduslikult reprodutseeritud ( installeeritud ) programmi kohta , kuid kokku mitte rohkem kui 500 000 krooni .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 6 ) Juriidilise isiku poolt teose v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste objekti ilma teose autori , tema &otilde;iguste valdaja v&otilde;i autori&otilde;igusega kaasnevate &otilde;iguste valdaja loata reprodutseerimise eest - m&auml;&auml;ratakse rahatrahv 250 000 kuni 500 000 krooni .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 ; 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>Menetlus juriidilise isiku haldus&otilde;iguserikkumise asjas</s>
+</p>
+<p>
+<s>( 1 ) Juriidilise isiku haldus&otilde;iguserikkumise korral on protokolli koostamise &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) Kultuuriministeeriumi levitalituse ametiisikul - k&auml;esoleva seaduse paragrahv 83 1.-3. l&otilde;ikes nimetatud juhul ;</s>
+</p>
+<p>
+<s>2 ) politseiametnikul .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 2 ) Protokollis n&auml;idatakse selle koostamise aeg ja koht ; asutuse nimi ja aadress , kelle nimel protokoll koostatakse ; protokolli koostanud isiku ametinimetus ja ees- ning perekonnanimi ; &otilde;iguserikkuja ( &auml;ri ) nimi , asukoht ja registrikood ; &otilde;iguserikkuja p&auml;deva esindaja ametikoht ja ees- ning perekonnanimi ; &otilde;iguserikkumise koht , aeg ja kirjeldus ; viide k&auml;esoleva seaduse paragrahv 83 vastavale l&otilde;ikele , mis n&auml;eb ette vastutuse selle haldus&otilde;iguserikkumise eest ; &otilde;iguserikkuja esindaja seletus ja muud andmed , mis on vajalikud asja &otilde;igeks lahendamiseks .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse paragrahvis 83 nimetatud haldus&otilde;iguserikkumise asja arutab halduskohtunik .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse paragrahvis 83 nimetatud haldus&otilde;iguserikkumise asja arutamisel kuuluvad erikonfiskeerimisele :</s>
+</p>
+<p>
+<s>1 ) haldus&otilde;iguserikkumise toimepanemise vahend , v&auml;lja arvatud &sect; 83 l&otilde;ikes 5 toodud juhud , mil kohus v&otilde;ib erikonfiskeerida haldus&otilde;iguserikkumise toimepanemise vahendiks oleva arvutis&uuml;steemi ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>2 ) haldus&otilde;iguserikkumise l&auml;bi omandatud vara ;</s>
+</p>
+<p>
+<s>3 ) teose ebaseadusliku reprodutseerimise vastase kaitsevahendi , samuti satelliidi v&otilde;i kaabli vahendusel edastatava signaali ebaseadusliku vastuv&otilde;tmise vastase kaitsevahendi k&otilde;rvaldamiseks m&otilde;eldud tehniline vahend v&otilde;i seade ;</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>4 ) piraatkoopia .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 84 <hi rend="sup">1</hi> .</s><s>Teatud kaubaga kauplemise keeld</s>
+</p>
+<p>
+<s>( 1 ) Kui haldus&otilde;iguserikkumise protokoll on koostatud k&auml;esoleva seaduse &sect; 83 2. l&otilde;ikes nimetatud haldus&otilde;iguserikkumise kohta ja asja menetlemisel on kindlaks tehtud , et kauplemise objektiks oli piraatkoopia , v&otilde;ib juriidilise isiku haldus&otilde;iguserikkumise asja menetleva ametiisiku asutus esitada kauplemisloa v&auml;ljastajale p&otilde;hjendatud taotluse keelata kauplemisluba omaval juriidilisel isikul kuni asjas tehtud otsuse j&otilde;ustumiseni kauplemine Eesti Kaupade Nomenklatuuri ( edaspidi EKN ) selles rubriigis nimetatud kaubaga , mille hulka kuulub kauplemise objektiks olnud piraatkoopia .</s><s>Taotlusele lisatakse haldus&otilde;iguserikkumise protokolli &auml;rakiri .</s>
+</p>
+<p>
+<s>( 2 ) Kauplemisloa v&auml;ljastaja v&otilde;ib k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud taotluse alusel tunnistada juriidilise isiku kauplemisloa kehtetuks , v&auml;ljastades samas uue kauplemisloa , millele on m&auml;rgitud keeld kaubelda EKN-i selles rubriigis nimetatud kaubaga , mille hulka kuulub kauplemise objektiks olnud piraatkoopia .</s>
+</p>
+<p>
+<s>( 3 ) Kui menetlus juriidilise isiku suhtes k&auml;esoleva seaduse &sect; 83 2. l&otilde;ikes nimetatud haldus&otilde;iguserikkumise kohta l&otilde;petatakse , saadab kohus viivitamata kauplemisloa v&auml;ljastajale m&auml;&auml;ruse v&otilde;i otsuse asjas menetluse l&otilde;petamise kohta .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 3. l&otilde;ikes s&auml;testatud juhul tunnistatakse keelum&auml;rget kandev kauplemisluba kehtetuks ja juriidilisele isikule v&auml;ljastatakse ilma keelum&auml;rketa kauplemisluba .</s>
+</p>
+<p>
+<s>( 5 ) Juriidilisel isikul , kelle karistamise kohta k&auml;esoleva seaduse &sect; 83 2. l&otilde;ike j&auml;rgi on j&otilde;ustunud kohtuotsus , on keelatud kauplemine EKN-i selles rubriigis nimetatud kaubaga , mille hulka kuulub haldus&otilde;iguserikkumise vahetuks objektiks olnud piraatkoopia .</s><s>Keeld kehtib , s&otilde;ltumata haldus&otilde;iguserikkumise toimepanemise kohast , kolme aasta v&auml;ltel kohtuotsuse j&otilde;ustumise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 6 ) Kohus saadab k&auml;esoleva paragrahvi 5. l&otilde;ikes nimetatud kohtuotsuse &auml;rakirja viivitamata kauplemisloa v&auml;ljastajale .</s>
+</p>
+<p>
+<s>( 7 ) Kauplemisloa v&auml;ljastaja tunnistab k&auml;esoleva paragrahvi 5. l&otilde;ikes s&auml;testatud alusel juriidilise isiku kauplemisloa kehtetuks , v&auml;ljastades samas uue kauplemisloa kehtivusega kuni kolm aastat , millele on m&auml;rgitud keeld kaubelda EKN-i selles rubriigis nimetatud kaubaga , mille hulka kuulub haldus&otilde;iguserikkumise vahetuks objektiks olnud piraatkoopia .</s>
+</p>
+<p>
+<s>( 8 ) Kui juriidilist isikut on teist korda karistatud k&auml;esoleva seaduse &sect; 83 2. l&otilde;ike j&auml;rgi ja selle kohta on j&otilde;ustunud kohtuotsus ning karistusandmed eelmise karistuse kohta &sect; 83 2. l&otilde;ike j&auml;rgi ei ole karistusregistrist karistusregistri seaduse ( RT I 1997 , 87 , 1467 ; 1998 , 111 , 1830 ) kohaselt kustutatud , v&otilde;ib kauplemisloa v&auml;ljastaja tunnistada kauplemisloa kehtetuks ja keelduda talle uue kauplemisloa v&auml;ljastamisest kuni kolme aasta jooksul kauplemisloa kehtetuks tunnistamise p&auml;evast arvates .</s>
+</p>
+<p>
+<s>( 9 ) Kauplemise keelamisega tekitatud kahju h&uuml;vitatakse seadusega s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>( 16.05.2001 j&otilde;ust.11.06.2001 - RT I 2001 , 50 , 289 )</s>
+</p>
+<p>
+<s>XI peat&uuml;kk</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>Piraatkoopia tuvastamine ja selle edasise k&auml;ibe t&otilde;kestamine</s>
+</p>
+<p>
+<s>( 1 ) Tsiviilkohtu- ja kriminaalmenetluses ning menetluses haldus&otilde;iguserikkumiste asjades l&auml;htutakse teose koopia k&auml;sitamisel piraatkoopiana :</s>
+</p>
+<p>
+<s>1 ) autori , tema &otilde;iguste valdaja , autori&otilde;igusega kaasnevate &otilde;iguste valdaja v&otilde;i nende esindajate poolt antavatest &uuml;tlustest , esitatavatest dokumentidest , teose legaalsest koopiast v&otilde;i muudest eelnimetatud isikutelt l&auml;htuvatest faktilistest andmetest v&otilde;i</s>
+</p>
+<p>
+<s>2 ) autori&otilde;igusega kaasnevate &otilde;iguste objektil v&otilde;i selle pakendil n&otilde;uetekohase erim&auml;rgistuse puudumisest .</s>
+</p>
+<p>
+<s>( 2 ) Piraatkoopia erikonfiskeerimist kohaldatakse , s&otilde;ltumata karistuse kohaldamisest .</s>
+</p>
+<p>
+<s>( 3 ) Piraatkoopia erikonfiskeerimist kohaldatakse , s&otilde;ltumata asjaolust , kellele see piraatkoopia kuulus .</s>
+</p>
+<p>
+<s>( 4 ) Arhitektuuriteose ebaseadusliku koopia suhtes erikonfiskeerimist ei kohaldata .</s>
+</p>
+<p>
+<s>( 5 ) Erikonfiskeeritud piraatkoopia h&auml;vitatakse .</s>
+</p>
+<p>
+<s>( 6 ) Heauskselt piraatkoopia soetanud isikul on &otilde;igus esitada kohtusse hagi temale piraatkoopia m&uuml;&uuml;nud v&otilde;i muul viisil &uuml;le andnud isiku vastu .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>Erikonfiskeeritud arvutis&uuml;steemi edasine k&auml;itlemine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahvis 83 nimetatud haldus&otilde;iguserikkumise asjas haldus&otilde;iguserikkumise toimepanemise vahendina erikonfiskeeritud arvutis&uuml;steem antakse tasuta &uuml;le Haridusministeeriumile .</s>
+</p>
+<p>
+<s>( 2 ) Haridusministeerium k&otilde;rvaldab k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud arvutis&uuml;steemi osaks olevast arvutist sinna ilma autori v&otilde;i tema &otilde;iguste valdaja loata installeeritud arvutiprogrammi ja annab selle arvutis&uuml;steemi tasuta riigi- , munitsipaal- v&otilde;i avalik-&otilde;iguslikule &otilde;ppeasutusele alaliseks kasutamiseks &ldquo; tiigrih&uuml;ppe &rdquo; sihtprogrammi raames .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>Autori&otilde;iguse komisjon</s>
+</p>
+<p>
+<s>( 1 ) Kultuuriministeeriumi juurde luuakse autori&otilde;iguse komisjon ( edaspidi komisjon ) , mis tegutseb asjatundjate komisjoni &otilde;igustes .</s><s>Vabariigi Valitsus nimetab komisjoni liikmed viieaastaseks perioodiks .</s><s>Komisjon :</s>
+</p>
+<p>
+<s>( 16.05.2001 j&otilde;ust.11.06.2001 - RT I 2001 , 50 , 289 )</s>
+</p>
+<p>
+<s>1 ) j&auml;lgib autori&otilde;iguse ja autori&otilde;igusega kaasnevate &otilde;iguste kaitse taseme vastavust Eesti Vabariigi poolt v&otilde;etud rahvusvahelistele kohustustele ;</s>
+</p>
+<p>
+<s>2 ) anal&uuml;&uuml;sib autori&otilde;igusaktide kohaldamise praktikat ;</s>
+</p>
+<p>
+<s>3 ) teeb Vabariigi Valitsusele ettepanekuid autori&otilde;igusaktide t&auml;iendamiseks ja muutmiseks ning &uuml;hinemiseks rahvusvaheliste lepingutega ;</s>
+</p>
+<p>
+<s>4 ) lahendab vaidlevate poolte taotlusel autori&otilde;iguse ja autori&otilde;igusega kaasnevate &otilde;igustega seotud vaidlusi poolte lepitamise teel ;</s>
+</p>
+<p>
+<s>5 ) t&auml;idab muid Vabariigi Valitsuse poolt antud &uuml;lesandeid .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Vaidluse lahendamisel autori&otilde;iguse komisjoni poolt tegutseb komisjon koosseisus , mille s&otilde;ltumatus ja erapooletus on v&auml;ljaspool m&otilde;istlikku kahtlust .</s><s>Vajadusel kaasatakse kultuuriministri korraldusega komisjoni tegevusse s&otilde;ltumatuid eksperte v&auml;ljastpoolt komisjoni .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) Komisjon lahendab vaidluse otsusega , milles teeb pooltele konkreetsed ettepanekud vaidluse lahendamiseks .</s><s>Otsus antakse kummalegi poolele k&auml;tte allkirja vastu .</s><s>Eeldatakse , et kui kumbki pool ei ole esitanud autori&otilde;iguse komisjoni otsusele kirjalikke vastuv&auml;iteid kolme kuu jooksul , arvates otsuse k&auml;ttesaamisele j&auml;rgnevast p&auml;evast , on nad otsuses esitatud ettepanekud vastu v&otilde;tnud .</s><s>Kui pool ei teata kolme kuu jooksul otsusega mitten&otilde;ustumisest v&otilde;i teatab otsusega n&otilde;ustumisest ja m&otilde;lemal juhul p&ouml;&ouml;rdub samas vaidluses kohtu poole , on teisel poolel &otilde;igus n&otilde;uda sellelt poolelt talle tekitatud varalise ja moraalse kahju h&uuml;vitamist .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud vaidlustes komisjoni poolt tehtud lahendiga mitten&otilde;ustumise korral on asjast huvitatud isikul &otilde;igus p&ouml;&ouml;rduda samas vaidluses kohtu poole .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>( 3 ) Komisjon annab Vabariigi Valitsusele kaks korda aastas &uuml;levaate olukorrast autori&otilde;iguse ja autori&otilde;igusega kaasnevate &otilde;iguste kaitse taseme vastavusest Eesti Vabariigi poolt v&otilde;etud rahvusvahelistele kohustustele ning autori&otilde;igusaktide kohaldamise praktikast , esitades vajaduse korral samas ettepanekuid sellealase tegevuse t&otilde;hustamiseks .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 4 ) Kohus kaasab sellekohase vajaduse puhul komisjoni liikmeid eksperdina k&auml;esolevas seaduses ja muudes autori&otilde;igusaktides s&auml;testatud n&otilde;uete rikkumisest tulenevates tsiviil- , kriminaal- ja haldus&otilde;iguserikkumiste asjades .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 87 <hi rend="sup">1</hi> .</s><s>L&auml;bir&auml;&auml;kimised ja vaidluste lahendamine ainult kollektiivse esindamise organisatsioonide kaudu teostatavate &otilde;iguste puhul</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 76 2. l&otilde;ike punktides 3-5 ja 7 <hi rend="sup">1</hi> s&auml;testatud juhtudel on kollektiivse esindamise organisatsioon ja kasutaja kohustatud astuma l&auml;bir&auml;&auml;kimistesse ja pidama l&auml;bir&auml;&auml;kimisi heas usus .</s><s>Pooled ei tohi v&auml;ltida l&auml;bir&auml;&auml;kimistesse astumist ega tohi l&auml;bir&auml;&auml;kimisi takistada ilma m&otilde;juva p&otilde;hjuseta .</s>
+</p>
+<p>
+<s>( 2 ) Pool , kes ei t&auml;ida k&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud kohustust , on kohustatud teisele poolele h&uuml;vitama sellega seonduva kahju .</s>
+</p>
+<p>
+<s>( 3 ) Kui kollektiivse esindamise organisatsioon ja kasutaja ei ole saavutanud kokkulepet , on &uuml;hel v&otilde;i m&otilde;lemal poolel &otilde;igus p&ouml;&ouml;rduda vaidluse lahendamiseks vahendaja poole .</s><s>Vahendajaks v&otilde;ib olla autori&otilde;iguse komisjon ( &sect; 87 ) v&otilde;i poolte valitud &uuml;ks v&otilde;i mitu isikut , kelle s&otilde;ltumatus ja erapooletus on v&auml;ljaspool m&otilde;istlikku kahtlust .</s><s>Kui pooled ei p&ouml;&ouml;rdu autori&otilde;iguse komisjoni poole , kohaldatakse vahendaja otsuse suhtes k&auml;esoleva seaduse &sect; 87 l&otilde;ike 1 <hi rend="sup">2</hi> s&auml;tteid .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>Enne k&auml;esoleva seaduse j&otilde;ustumist loodud teoste ja teoste esitajate , fonogrammitootjate ning raadio- ja televisiooniorganisatsioonide poolt loodud resultaatide kaitse</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus laieneb ka nendele teostele ja teose esitajate , fonogrammitootjate ning raadio- ja televisiooniorganisatsioonide poolt loodud resultaatidele , mis on loodud enne 1992. aasta 12. detsembrit .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 ; 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seadusega teoste ja teose esitajate , fonogrammitootjate ning raadio- ja televisiooniorganisatsioonide poolt loodud resultaatide kasutamisele kehtestatud n&otilde;uded ei laiene juhtumitele , mil nende kasutamine leidis aset enne 1992. aasta 12. detsembrit .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156</s>
+</p>
+<p>
+<s>09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>( 3 ) Teoste osas , mille autori&otilde;iguse kehtivuse t&auml;htaeg on l&otilde;ppenud , kaitseb teose autorsust , autori nime ning autori au ja v&auml;&auml;rikust Kultuuriministeerium ( paragrahv 44 1. l&otilde;ige ) .</s><s>Seda s&auml;tet kohaldatakse ka teoste esitajate suhtes ( paragrahv 74 4. l&otilde;ige ) .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>&sect; 88 <hi rend="sup">1</hi> .</s><s>Seaduse m&otilde;nede s&auml;tete kohaldamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 15 kohaldatakse samuti Berni kirjandus- ja kunstiteoste kaitse konventsiooni nende liikmesriikide suhtes , kes garanteerivad Eesti kodanikele v&otilde;i Eesti Vabariigis alaliselt elavatele isikutele analoogilise kaitse , mis vastab Berni kirjandus- ja kunstiteoste kaitse konventsiooni artiklile 14 <hi rend="sup"> ter </hi> .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse autori&otilde;iguse kohta k&auml;ivaid s&auml;tteid kohaldatakse samuti Maailma Kaubandusorganisatsiooni ( WTO ) asutamislepingu ( Marrake&scaron;i lepingu ) lisa 1C intellektuaalomandi &otilde;iguste kaubandusaspektide lepingu kohaselt Maailma Kaubandusorganisatsiooni liikmesriikide kodanike ja seal alaliselt elavate isikute suhtes .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse &sect; 15 kohaldatakse nende Maailma Kaubandusorganisatsiooni liikmesriikide suhtes , kes garanteerivad Eesti kodanikele v&otilde;i Eesti Vabariigis alaliselt elavatele isikutele analoogilise kaitse , mis vastab Berni kirjandus- ja kunstiteoste kaitse konventsiooni artiklile 14 <hi rend="sup"> ter </hi> .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva seaduse &sect; 74 <hi rend="sup">1</hi> ei kohaldata Berni kirjandus- ja kunstiteoste kaitse konventsiooni ja Maailma Kaubandusorganisatsiooni liikmesriikide suhtes .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva seaduse &sect; 67 2. l&otilde;ike punktide 1-3 ja 7 ning teisi k&auml;esoleva seaduse nimetatud paragrahvist tulenevaid s&auml;tteid kohaldatakse isikute suhtes , kes on Maailma Kaubandusorganisatsiooni liikmesriigi kodanikud .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva seaduse &sect; 70 1. l&otilde;ike punktide 1 ja 4 ning teisi k&auml;esoleva seaduse nimetatud paragrahvist tulenevaid s&auml;tteid kohaldatakse fonogrammitootjate suhtes , kes on Maailma Kaubandusorganisatsiooni liikmesriigi kodanikud , v&otilde;i juriidiliste isikute suhtes , mille asukoht on Maailma Kaubandusorganisatsiooni liikmesriigis .</s>
+</p>
+<p>
+<s>( 7 ) K&auml;esoleva seaduse &sect; 73 1. l&otilde;ike punktide 1 , 2 , 4 ja 5 ning teisi k&auml;esoleva seaduse nimetatud paragrahvist tulenevaid s&auml;tteid kohaldatakse raadio- ja televisiooniorganisatsioonide suhtes , mille peakorter on Maailma Kaubandusorganisatsiooni liikmesriigi territooriumil .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>Seaduse rakendusaktid</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahvides 13 ja 15 s&auml;testatud autori&otilde;iguste rakendamiseks v&otilde;ib Vabariigi Valitsus v&otilde;i tema volitusel kultuuriminister anda m&auml;&auml;rusi .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) K&auml;esoleva seaduse &sect; 13 6. l&otilde;ige ja &sect; 27 <hi rend="sup">1</hi> j&otilde;ustuvad 2002. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 15.02.2000 j&otilde;ust.22.02.2000 - RT I 2000 , 13 , 94 )</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsusel on &otilde;igus kehtestada n&otilde;uded autori&otilde;igusega kaasnevate &otilde;iguste teatud objektide k&auml;ibe dokumenteerimisele .</s>
+</p>
+<p>
+<s>( 21.01.99 j&otilde;ust.15.02.99 - RT I 1999 , 10 , 156 )</s>
+</p>
+<p>
+<s>XII peat&uuml;kk</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>S&auml;tted , mis j&otilde;ustuvad &uuml;hinemisel Euroopa Liiduga</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>Andmebaaside kaitse</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast andmebaasi koopia esmam&uuml;&uuml;ki Euroopa Liidu liikmesriigis autori poolt v&otilde;i tema loal , l&otilde;peb k&auml;esoleva seaduse &sect; 13 1. l&otilde;ike punktis 2 s&auml;testatud autori &otilde;igus kontrollida selle andmebaasi koopia edasim&uuml;&uuml;ki Euroopa Liidus .</s>
+</p>
+<p>
+<s>( 2 ) P&auml;rast andmebaasi koopia esmam&uuml;&uuml;ki Euroopa Liidu liikmesriigis andmebaasi tegija poolt v&otilde;i tema loal l&otilde;peb k&auml;esoleva seaduse &sect; 75 <hi rend="sup">4</hi> 2. l&otilde;ike punktis 2 s&auml;testatud andmebaasi tegija &otilde;igus kontrollida selle andmebaasi koopia edasim&uuml;&uuml;ki Euroopa Liidus .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse VIII <hi rend="sup">1</hi> peat&uuml;ki s&auml;tteid kohaldatakse samuti juhul , kui :</s>
+</p>
+<p>
+<s>1 ) andmebaasi tegijaks v&otilde;i &otilde;iguste valdajaks on Euroopa Liidu liikmesriigi kodanik v&otilde;i Euroopa Liidu territooriumil alaliselt elav isik ;</s>
+</p>
+<p>
+<s>2 ) andmebaasi tegijaks v&otilde;i &otilde;iguste valdajaks on &auml;ri&uuml;hing , mis on asutatud vastavalt Euroopa Liidu liikmesriigi seadusele ja mille registreeritud asukoht , juhatus v&otilde;i peamine tegevuskoht on Euroopa Liidu territooriumil .</s><s>Kui &auml;ri&uuml;hingul on Euroopa Liidu territooriumil ainult registreeritud asukoht , peab sellise &auml;ri&uuml;hingu tegevus olema Euroopa Liidu &uuml;he liikmesriigi majandusega t&otilde;husalt ja p&uuml;sivalt seotud .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>Arvutiprogrammide kaitse</s>
+</p>
+<p>
+<s>P&auml;rast arvutiprogrammi koopia esmam&uuml;&uuml;ki Euroopa Liidu liikmesriigis autori poolt v&otilde;i tema loal l&otilde;peb k&auml;esoleva seaduse &sect; 13 1. l&otilde;ike punktis 2 s&auml;testatud autori &otilde;igus arvutiprogrammi koopia levitamisele Euroopa Liidus , v&auml;lja arvatud &otilde;igus programmi v&otilde;i selle koopia rentimisele .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>T&auml;htajad</s>
+</p>
+<p>
+<s>( 1 ) Kui teose p&auml;ritolumaaks Berni kirjandus- ja kunstiteoste kaitse konventsiooni artikli 5 l&otilde;ike 4 t&auml;henduses on kolmas riik ja teose autor ei ole Euroopa Liidu liikmesriigi kodanik , kehtib autori&otilde;igus Euroopa Liidus t&auml;htaja jooksul , mille n&auml;eb ette p&auml;ritolumaa seadus , kuid mitte &uuml;le k&auml;esoleva seaduse &sect; 38 1. l&otilde;ikes nimetatud t&auml;htaja .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-s 74 etten&auml;htud t&auml;htajad kehtivad ka autori&otilde;igusega kaasnevate &otilde;iguste valdajate suhtes , kes ei ole Euroopa Liidu liikmesriigi kodanikud , juhul , kui Euroopa Liidu liikmesriigid tagavad neile kaitse .</s><s>Nimetatud &otilde;igused kehtivad t&auml;htaja jooksul , mille n&auml;eb ette selle riigi seadus , mille kodanikuks on &otilde;iguste valdaja , kuid mitte &uuml;le &sect;-s 74 etten&auml;htud t&auml;htaja , kui v&auml;lislepinguga ei ole ette n&auml;htud teisiti .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seaduse VI peat&uuml;kis ning &sect;-des 74 ja 75 <hi rend="sup">7</hi> s&auml;testatud kaitse t&auml;htajad kehtivad k&otilde;igi teoste ja autori&otilde;igusega kaasnevate &otilde;iguste objektide kohta , mida kaitstakse v&auml;hemalt &uuml;hes Euroopa Liidu liikmesriigis .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Autori&otilde;igusega kaasnevad &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect; 74 <hi rend="sup">1</hi> ja peat&uuml;kki VIII <hi rend="sup">1</hi> kohaldatakse samuti Euroopa Liidu liikmesriikide kodanike ja alaliste elanike suhtes ning juriidiliste isikute suhtes , kelle asukoht on Euroopa Liidu liikmesriigis .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus v&otilde;i tema volitusel kultuuriminister informeerib Euroopa Liidu Komisjoni igast kavatsusest kehtestada uusi autori&otilde;igusega kaasnevaid &otilde;igusi , nimetades nende kehtestamise peamised p&otilde;hjused ja kaitse kehtivuse kavandatava t&auml;htaja .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>Rentimise ja levitamise &otilde;igus</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse VIII peat&uuml;kis etten&auml;htud &otilde;igus teose levitamisele l&otilde;peb vaid juhul , kui autori&otilde;igusega kaasnevate &otilde;iguste objekti esimene m&uuml;&uuml;k on toimunud Euroopa Liidu territooriumil &otilde;iguste valdaja poolt v&otilde;i tema n&otilde;usolekul , v&auml;lja arvatud &otilde;igus teose rentimisele , mis ei l&otilde;pe .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>Satelliidi kaudu &uuml;ldsusele edastamine</s>
+</p>
+<p>
+<s>( 1 ) Satelliidi kaudu &uuml;ldsusele edastamise akt leiab aset ainult selles liikmesriigis , kus programmi sisaldavad signaalid sisestatakse raadio- ja televisiooniorganisatsiooni kontrolli all ja vastutusel katkematusse sideahelasse satelliidi ja satelliidi maajaama vahel .</s>
+</p>
+<p>
+<s>( 2 ) Kui satelliidi kaudu &uuml;ldsusele edastamise akt toimub Euroopa Liidu liikmeks mitteolevas riigis , mis ei paku sellist kaitse taset nagu on s&auml;testatud k&auml;esolevas seaduses , siis :</s>
+</p>
+<p>
+<s>1 ) kui programmi sisaldavad signaalid antakse satelliidile edasi Euroopa Liidu liikmesriigis paiknevast maajaamast , loetakse , et satelliidi kaudu &uuml;ldsusele edastamise akt on toimunud selles liikmesriigis ja k&auml;esolevas seaduses s&auml;testatud &otilde;igused on realiseeritavad selle isiku vastu , kes juhib seda maajaama ;</s>
+</p>
+<p>
+<s>2 ) kui ei kasutata Euroopa Liidu liikmesriigis paiknevat maajaama , kuid liikmesriigis moodustatud raadio- v&otilde;i televisiooniorganisatsioon on tellinud satelliidi kaudu &uuml;ldsusele edastamise akti , siis loetakse , et see akt on toimunud selles liikmesriigis , milles sellel raadio- v&otilde;i televisiooniorganisatsioonil on tema p&otilde;hiline asukoht Euroopa &Uuml;henduses ja k&auml;esolevas seaduses s&auml;testatud &otilde;igused on realiseeritavad selle raadio- v&otilde;i televisiooniorganisatsiooni vastu .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Taasedastamine kaabellevi kaudu</s>
+</p>
+<p>
+<s>Taasedastamine kaabellevi kaudu k&auml;esoleva seaduse t&auml;henduses on teisest Euroopa Liidu liikmesriigist edastatud ja &uuml;ldsusele vastuv&otilde;tmiseks etten&auml;htud tele- v&otilde;i raadioprogrammi samaaegne , muutumatu ja t&auml;ielik taasedastamine traatside v&otilde;i &otilde;hu , sealhulgas satelliidi kaudu &uuml;ldsusele k&auml;ttesaadava kaabel- v&otilde;i mikrolaines&uuml;steemi vahendusel .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>K&auml;esoleva peat&uuml;ki kohaldamine Euroopa Vabakaubanduse Assotsiatsiooni ( European Free Trade Association - EFTA ) riikidele</s>
+</p>
+<p>
+<s>K&auml;esolevat peat&uuml;kki kohaldatakse vastavalt Eesti Vabariigi v&auml;lislepingule Euroopa majanduspiirkonna territooriumil , mis lisaks Euroopa Liidu liikmesriikidele h&otilde;lmab Islandi Vabariigi , Liechtensteini V&uuml;rstiriigi ja Norra Kuningriigi .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>K&auml;esoleva peat&uuml;ki j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esoleva peat&uuml;ki s&auml;tted j&otilde;ustuvad eraldi seadusega .</s>
+</p>
+<p>
+<s>( 09.12.1999 j&otilde;ust.06.01.2000 - RT I 1999 , 97 , 859 )</s>
+</p>
+<p>
+<s><hi rend="sup">1</hi> RT = Riigi Teataja = State Gazette</s>
+</p>
+</body>
+   </text>
+</tei.2>

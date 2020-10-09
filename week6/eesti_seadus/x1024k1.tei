@@ -1,0 +1,844 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Muinsuskaitseseadus ( okt 1999 ) ( Kehtetu - 27.02.2002 j&otilde;ust.01.04.2002 - RT I 2002 , 27 , 153 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    3728</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Muinsuskaitseseadus ( okt 1999 ) ( Kehtetu - 27.02.2002 j&otilde;ust.01.04.2002 - RT I 2002 , 27 , 153 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=2></tagusage>
+         <tagusage gi=p occurs=246></tagusage>
+         <tagusage gi=s occurs=349></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Muinsuskaitseseadus</s>
+</p>
+<p>
+<s>( Kehtetu - 27.02.2002 j&otilde;ust.01.04.2002 - RT I 2002 , 27 , 153 )</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 9. m&auml;rtsil 1994. a.</s>
+</p>
+<p>
+<s>( RT I 1994 , 24 , 391 )</s>
+</p>
+<p>
+<s>j&otilde;ustunud 16. aprillil 1994. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>03.12.97 j&otilde;ust .</s><s>03.01.98 RT I 1997 , 93 , 1559</s>
+</p>
+<p>
+<s>03.12.96 j&otilde;ust .</s><s>23.12.96 RT I 1996 , 86 , 1538</s>
+</p>
+<p>
+<s>26.06.96 j&otilde;ust .</s><s>26.07.96 RT I 1996 , 49 , 953</s>
+</p>
+<p>
+<s>( Seaduse tekstis asendatakse s&otilde;na &ldquo; Muinsuskaitseamet &rdquo; s&otilde;naga &ldquo; Muinsuskaitseinspektsioon &rdquo; vastavas k&auml;&auml;ndes )</s>
+</p>
+<p>
+<s>( 03.12.97 j&otilde;ust .</s><s>03.01.98 - RT I 1997 , 93 , 1559 )</s>
+</p>
+<p>
+<s>( Seaduse tekstis on asendatud s&otilde;nad &ldquo; kohaliku omavalitsuse t&auml;itevorgan &rdquo; s&otilde;nadega &ldquo; valla- v&otilde;i linnavalitsus &rdquo; vastavas k&auml;&auml;ndes . )</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>I peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>Muinsuskaitseseaduse &uuml;lesanne on tagada kultuurim&auml;lestiste ( edaspidi m&auml;lestised ) s&auml;ilimine ning reguleerida m&auml;lestiste kaitse korraldamisel tekkivaid suhteid .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>M&auml;lestise m&otilde;iste</s>
+</p>
+<p>
+<s>M&auml;lestis k&auml;esoleva seaduse m&otilde;istes on riigi kaitse all olev kinnis- v&otilde;i vallasasi , nende osa v&otilde;i asjade kogum , mis on seotud ajaloo oluliste protsesside , s&uuml;ndmuste v&otilde;i isikutega v&otilde;i millel on ajalooline , arheoloogiline , etnograafiline , linnaehituslik , arhitektuuriline , kunstiline , teaduslik v&otilde;i muu kultuuriline v&auml;&auml;rtus , mille t&otilde;ttu see on k&auml;esolevas seaduses s&auml;testatud korras m&auml;lestiseks tunnistatud .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>M&auml;lestise liigid</s>
+</p>
+<p>
+<s>( 1 ) M&auml;lestis on kinnis- v&otilde;i vallasm&auml;lestis vastavalt asjade liigitusele kinnis- ja vallasasjadeks .</s>
+</p>
+<p>
+<s>( 2 ) Kinnism&auml;lestiseks v&otilde;ivad olla j&auml;rgmised asjad :</s>
+</p>
+<p>
+<s>1 ) muinas- ja keskaegsed asulakohad , linnused , pelgupaigad , kultusekohad , matusepaigad , muistsed p&otilde;llud , teed , sillad , sadamakohad , veealused rajatised , t&ouml;&ouml;ndusega seotud kohad ;</s>
+</p>
+<p>
+<s>2 ) arhitektuuriajaloolise v&auml;&auml;rtusega tsiviil- , t&ouml;&ouml;stus- , kaitse- ja kultuseehitised ning nende ansamblid ja kompleksid ;</s>
+</p>
+<p>
+<s>3 ) teaduse , tehnika ja tootmise arengut kajastavad ehitised ;</s>
+</p>
+<p>
+<s>4 ) monumentaalkunsti teosed ;</s>
+</p>
+<p>
+<s>5 ) ajaloolise v&auml;&auml;rtusega ehitised , m&auml;lestusm&auml;rgid , kalmistud , paigad ( maa-alad ) , loodusobjektid .</s>
+</p>
+<p>
+<s>( 3 ) Vallasm&auml;lestiseks v&otilde;ivad olla j&auml;rgmised asjad :</s>
+</p>
+<p>
+<s>1 ) kinnism&auml;lestisest eemaldatud osad ;</s>
+</p>
+<p>
+<s>2 ) arheoloogilised leiud , etnograafilised ja ajaloolised asjad ning nende kollektsioonid ;</s>
+</p>
+<p>
+<s>3 ) kunsti- ja kultuuriloolise v&auml;&auml;rtusega kujutava ja tarbekunsti teosed ning nende kollektsioonid ;</s>
+</p>
+<p>
+<s>4 ) teaduse , tehnika ja tootmise arengut kajastavad masinad ja seadmed .</s>
+</p>
+<p>
+<s>( 4 ) M&auml;lestised liigitatakse arheoloogia- , arhitektuuri- , kunsti- , tehnika- ja ajaloom&auml;lestisteks .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Muinsuskaitseala</s>
+</p>
+<p>
+<s>( 1 ) Ajaloolised asulad , nende osad ning looduse ja inimese koostegevuse tulemusel kujunenud alad , mis omavad kultuuriv&auml;&auml;rtust , v&otilde;idakse tunnistada muinsuskaitsealadeks .</s>
+</p>
+<p>
+<s>( 2 ) Muinsuskaitseala k&auml;esoleva seaduse m&otilde;istes v&otilde;ib koosneda kinnism&auml;lestistest v&otilde;i kinnism&auml;lestistest ja teistest asjadest , mis koos maa-ala ja loodusobjektidega , samuti t&auml;navatev&otilde;rgu , hoonestuskvartalite ja kruntide ( kinnistute ) struktuuriga moodustavad kultuuriv&auml;&auml;rtusliku terviku .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>M&auml;lestise v&otilde;i selle t&auml;hise h&auml;vitamise v&otilde;i rikkumise keeld</s>
+</p>
+<p>
+<s>M&auml;lestist v&otilde;i selle t&auml;hist on keelatud h&auml;vitada v&otilde;i rikkuda .</s><s>Rikutud m&auml;lestise v&otilde;i selle t&auml;hise endine seisukord tuleb taastada Vabariigi Valitsuse kehtestatud korras .</s><s>Kui taastamine ei ole v&otilde;imalik , tuleb kahju h&uuml;vitada vastavalt seadusele .</s>
+</p>
+<p>
+<s>II peat&uuml;kk</s>
+</p>
+<p>
+<s>Muinsuskaitse korraldus</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Muinsuskaitset korraldavad organid</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>Muinsuskaitset korraldavad Kultuuriministeerium ja kohalikud omavalitsused .</s><s>Kultuuriministeerium korraldab muinsuskaitset Muinsuskaitseinspektsiooni kaudu , kohalik omavalitsus korraldab muinsuskaitset valla- v&otilde;i linnavalitsuse kaudu .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust .</s><s>26.07.96 - RT I 1996 , 49 , 953 ; 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Muinsuskaitseinspektsioon</s>
+</p>
+<p>
+<s>Muinsuskaitseinspektsiooni p&otilde;hi&uuml;lesanne on riikliku j&auml;relevalve teostamine m&auml;lestiste ja muinsuskaitsealade &uuml;le ning kultuurim&auml;lestiste riikliku registri pidamine .</s>
+</p>
+<p>
+<s>( 03.12.97 j&otilde;ust .</s><s>03.01.98 - RT I 1997 , 93 , 1559 )</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Muinsuskaitse n&otilde;ukogu</s>
+</p>
+<p>
+<s>( 1 ) Muinsuskaitseinspektsiooni juures tegutseb muinsuskaitse n&otilde;ukogu , kuhu kuuluvad eksperdid arheoloogia , etnograafia , arhitektuuri , kunsti- , teadus- ja tehnikaajaloo alalt .</s><s>Vajaduse korral kaasatakse n&otilde;ukogu t&ouml;&ouml;sse teiste erialade spetsialiste .</s>
+</p>
+<p>
+<s>( 2 ) Muinsuskaitse n&otilde;ukogu p&otilde;hi&uuml;lesanded on :</s>
+</p>
+<p>
+<s>1 ) arvamuse andmine kultuuriv&auml;&auml;rtusega asja m&auml;lestise tunnustele vastavuse kohta ;</s>
+</p>
+<p>
+<s>2 ) ettepanekute tegemine m&auml;lestiste kasutamise korra ja tingimuste kindlaksm&auml;&auml;ramiseks ;</s>
+</p>
+<p>
+<s>3 ) m&auml;lestiste v&auml;&auml;rtuse hindamine .</s>
+</p>
+<p>
+<s>( 3 ) Muinsuskaitse n&otilde;ukogu p&otilde;him&auml;&auml;ruse kinnitab ning n&otilde;ukogu koosseisu m&auml;&auml;rab kultuuriminister .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust .</s><s>26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Valla- v&otilde;i linnavalitsus</s>
+</p>
+<p>
+<s>( 1 ) Valla- v&otilde;i linnavalitsus :</s>
+</p>
+<p>
+<s>1 ) peab arvestust oma maa-alal asuvate m&auml;lestiste &uuml;le ;</s>
+</p>
+<p>
+<s>2 ) v&otilde;tab territoriaalplaneerimise , maakasutuse ja muude projektide koostamisel ja koosk&otilde;lastamisel arvesse kinnism&auml;lestistest ning muinsuskaitsealadest ja nende kaitsev&ouml;&ouml;nditest ( paragrahv 25 ) tulenevad muinsuskaitselised n&otilde;uded ;</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>3 ) teeb muinsuskaitseinspektsioonile ettepanekuid kultuuriv&auml;&auml;rtusega asjade ajutise kaitse alla v&otilde;tmiseks ;</s>
+</p>
+<p>
+<s>4 ) kontrollib m&auml;lestistega seotud t&ouml;&ouml;de teostajatel kehtestatud korras v&auml;lja antud uurimislubade ja litsentside olemasolu ;</s>
+</p>
+<p>
+<s>5 ) kontrollib m&auml;lestistega seotud t&ouml;&ouml;de ja vastavate projektide koosk&otilde;lastatust muinsuskaitseinspektsiooniga ;</s>
+</p>
+<p>
+<s>6 ) informeerib muinsuskaitseinspektsiooni k&auml;esoleva seaduse rikkumise juhtudest , m&auml;lestisi kahjustavatest muutustest ja kultuuriv&auml;&auml;rtusega leidudest ;</s>
+</p>
+<p>
+<s>7 ) peatab m&auml;lestisi v&otilde;i kultuuriv&auml;&auml;rtusega leide ohustavad t&ouml;&ouml;d ja muu tegevuse ;</s>
+</p>
+<p>
+<s>7 <hi rend="sup">1</hi> ) t&auml;idab muinsuskaitseala p&otilde;him&auml;&auml;rusest tulenevaid &uuml;lesandeid ;</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>8 ) j&auml;rgib oma &uuml;lesannete ja kohustuste t&auml;itmisel muid k&auml;esolevast seadusest tulenevaid n&otilde;udeid .</s>
+</p>
+<p>
+<s>( 2 ) Valla- v&otilde;i linnavalitsus v&otilde;ib t&auml;ita muinsuskaitsealaseid riiklikke kohustusi , kui need tulenevad muinsuskaitseinspektsiooi ja kohaliku omavalitsuse volikogu vahelisest lepingust .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Muinsuskaitse usaldusmehed</s>
+</p>
+<p>
+<s>&Uuml;hiskondlikel alustel osalevad muinsuskaitses usaldusmehed , kelle &otilde;igused ja kohustused m&auml;&auml;rab kindlaks Muinsuskaitseinspektsioon .</s>
+</p>
+<p>
+<s>III peat&uuml;kk</s>
+</p>
+<p>
+<s>M&auml;lestiseks tunnistamine</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Ajutine kaitse</s>
+</p>
+<p>
+<s>( 1 ) Muinsuskaitseinspektsioon v&otilde;tab kultuuriv&auml;&auml;rtusega asja ajutise kaitse alla , et kindlaks teha selle vastavus m&auml;lestise tunnustele .</s>
+</p>
+<p>
+<s>( 2 ) Ajutise kaitse alla v&otilde;tmisel m&auml;&auml;ratakse kindlaks ajutise kaitse kord .</s>
+</p>
+<p>
+<s>( 3 ) Ajutise kaitse alla v&otilde;etud asjade suhtes rakendatakse m&auml;lestise kohta k&auml;ivaid k&auml;esolevas seaduses s&auml;testatud n&otilde;udeid ja omandikitsendusi .</s><s>Ajutise kaitse alla v&otilde;etud asja omanikul ( valdajal ) on m&auml;lestise omaniku ( valdaja ) &otilde;igused .</s>
+</p>
+<p>
+<s>( 4 ) Ajutise kaitse alla v&otilde;ib asja v&otilde;tta kuni kuueks kuuks , v&auml;lja arvatud k&auml;esoleva seaduse paragrahvis 38 nimetatud juhul .</s>
+</p>
+<p>
+<s>( 5 ) Ajutise kaitse alla v&otilde;tmine ja kaitse l&otilde;petamine toimub Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>M&auml;lestiseks tunnistamine ja m&auml;lestiseks olemise l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Asi tunnistatakse m&auml;lestiseks , kui see vastab m&auml;lestise tunnustele .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;lestiseks tunnistatud asi on riigi kaitse all vastavalt k&auml;esolevale seadusele .</s>
+</p>
+<p>
+<s>( 3 ) Asi lakkab olemast m&auml;lestis , kui see on h&auml;vinud v&otilde;i t&auml;ielikult kaotanud m&auml;lestise tunnused ning selle taastamine ei ole v&otilde;imalik .</s>
+</p>
+<p>
+<s>( 4 ) M&auml;lestiseks tunnistamise ja m&auml;lestiseks olemise l&otilde;petamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>M&auml;lestiste arvestus</s>
+</p>
+<p>
+<s>( 1 ) Andmed m&auml;lestise kohta kantakse kultuurim&auml;lestiste riiklikku registrisse .</s>
+</p>
+<p>
+<s>( 2 ) Kinnism&auml;lestise asukoht , kitsenduste ulatus ja iseloom kantakse riiklikku maakatastrisse .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>M&auml;lestise t&auml;histamine</s>
+</p>
+<p>
+<s>( 1 ) M&auml;lestisi t&auml;histatakse kaitsetahvli , m&auml;lestustahvli , m&auml;lestuskivi v&otilde;i muu t&auml;hisega .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;lestiste t&auml;histamist kaitsetahvliga korraldab Muinsuskaitseinspektsioon .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Muinsuskaitsealaks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Muinsuskaitsealaks tunnistamine toimub Kultuuriministeeriumi ettepanekul Vabariigi Valitsuse m&auml;&auml;rusega , milles n&auml;idatakse &auml;ra muinsuskaitseala ja selle kaitsev&ouml;&ouml;ndi piirid .</s>
+</p>
+<p>
+<s>( 2 ) Muinsuskaitseala p&otilde;him&auml;&auml;ruse , mis on koosk&otilde;lastatud kohaliku omavalitsuse volikoguga , kinnitab Vabariigi Valitsus , m&auml;&auml;rates k&auml;esolevast seadusest tulenevalt kindlaks muinsuskaitsealal ja selle kaitsev&ouml;&ouml;ndis kehtivad n&otilde;uded ja kitsendused ning muinsuskaitset korraldavate organite t&ouml;&ouml;jaotuse .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>IV peat&uuml;kk</s>
+</p>
+<p>
+<s>M&auml;lestise s&auml;ilimise tagamine .</s><s>Omandikitsendused</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>M&auml;lestise ja muinsuskaitsealal paikneva ehitise omaniku ( valdaja ) kohustused</s>
+</p>
+<p>
+<s>( 1 ) M&auml;lestise s&auml;ilimise tagab omanik ( valdaja ) , kes on kohustatud :</s>
+</p>
+<p>
+<s>1 ) m&auml;lestist hooldama kaitsekohustuse teatises kindlaks m&auml;&auml;ratud korras ;</s>
+</p>
+<p>
+<s>2 ) kinni pidama kaitsekohustuse teatises kindlaks m&auml;&auml;ratud kitsendustest ;</s>
+</p>
+<p>
+<s>3 ) informeerima viivitamatult Muinsuskaitseinspektsiooni ja valla- v&otilde;i linnavalitsust m&auml;lestist kahjustavatest muutustest , samuti m&auml;lestise valduse kaotamisest tema tahte vastaselt ;</s>
+</p>
+<p>
+<s>4 ) v&otilde;imaldama muinsuskaitset korraldava organi ametnikul v&otilde;i Muinsuskaitseinspektsiooni volitatud isikul kokkulepitud ajal m&auml;lestist &uuml;le vaadata ja uurida ;</s>
+</p>
+<p>
+<s>5 ) tagama m&auml;lestise t&auml;hise s&auml;ilimise ja korrashoiu ;</s>
+</p>
+<p>
+<s>6 ) teatama muinsuskaitseinspektsioonile eelnevalt m&auml;lestise p&auml;randamisest , piiratud asja&otilde;igustega koormamisest , rendile- , &uuml;&uuml;rile- v&otilde;i hoiuleandmisest .</s>
+</p>
+<p>
+<s>( 2 ) Muinsuskaitsealal paikneva ehitise , mis ei ole m&auml;lestis ( edaspidi muinsuskaitsealal paiknev ehitis ) , korrashoiu tagab omanik ( valdaja ) , kellele laienevad k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 3 ja 4 s&auml;testatud kohustused .</s>
+</p>
+<p>
+<s>( 3 ) Muinsuskaitsealal paikneva ehitise omanik on kohustatud Muinsuskaitseinspektsioonile eelnevalt teatama ehitise v&otilde;&otilde;randamisest , p&auml;randamisest , piiratud asja&otilde;igusega koormamisest v&otilde;i rendileandmisest .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kaitsekohustuse teatis</s>
+</p>
+<p>
+<s>( 1 ) Muinsuskaitseinspektsioon koostab m&auml;lestiseks tunnistamise akti alusel omanikule ( valdajale ) kaitsekohustuse teatise , milles m&auml;&auml;ratakse kindlaks omaniku ( valdaja ) kohustused m&auml;lestise s&auml;ilimise tagamiseks , samuti toetused ja soodustused vastavalt k&auml;esoleva seaduse paragrahvile 29.</s>
+</p>
+<p>
+<s>( 2 ) Kaitsekohustuse teatises tuleb &auml;ra n&auml;idata :</s>
+</p>
+<p>
+<s>1 ) m&auml;lestise nimetus , asukoht , number , m&auml;lestiseks tunnistamise akti nimetus , number ja kuup&auml;ev ;</s>
+</p>
+<p>
+<s>2 ) m&auml;lestise seisukord ;</s>
+</p>
+<p>
+<s>3 ) m&auml;lestise hooldamiseks vajalike t&ouml;&ouml;de loetelu ;</s>
+</p>
+<p>
+<s>4 ) m&auml;lestise kasutamise kitsendused ( paragrahv 24 ) ;</s>
+</p>
+<p>
+<s>5 ) kaitsev&ouml;&ouml;ndi ulatus ning seal kehtivad kitsendused ( paragrahv 25 ) ;</s>
+</p>
+<p>
+<s>6 ) toetused ja soodustused m&auml;lestise s&auml;ilimise tagamiseks .</s>
+</p>
+<p>
+<s>( 3 ) Kaitsekohustuse teatis koostatakse v&auml;hemalt kolmes eksemplaris , millest &uuml;he saab omanik ( valdaja ) , teise kohaliku omavalitsuse t&auml;itevorgan ja kolmanda Muinsuskaitseinspektsioon .</s><s>Kaitsekohustuse teatises etten&auml;htud &otilde;igused ja kohustused kehtivad teatise allakirjutamise p&auml;evast .</s>
+</p>
+<p>
+<s>( 4 ) Kui kaitsev&ouml;&ouml;nd ulatub naaberkinnisasjale , koostatakse kaitsekohustuse teatis ka naaberkinnisasja omanikule ( valdajale ) .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>M&auml;lestise valduse &uuml;leminek</s>
+</p>
+<p>
+<s>( 1 ) Vallasm&auml;lestise v&otilde;&otilde;randamise leping peab olema notariaalselt t&otilde;estatud .</s><s>Notar teatab v&otilde;&otilde;randaja kulul m&auml;lestise v&otilde;&otilde;randamisest Muinsuskaitseinspektsioonile ja vastavale linna- v&otilde;i vallavalitsusele .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 2 ) M&auml;lestise valduse &uuml;leminekul l&auml;heb m&auml;lestise s&auml;ilimise tagamise kohustus &uuml;le uuele omanikule v&otilde;i valdajale , keda omanik peab m&auml;lestise olemasolust eelnevalt informeerima .</s>
+</p>
+<p>
+<s>( 3 ) Senine omanik peab omandajale v&otilde;i uuele valdajale &uuml;le andma kaitsekohustuse teatise .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Vallasm&auml;lestise hoiulepaigutamine</s>
+</p>
+<p>
+<s>Kui vallasm&auml;lestise s&auml;ilimiseks puuduvad vajalikud tingimused ja kui omanik ( valdaja ) ei ole m&auml;&auml;ratud t&auml;htaja jooksul kaitsekohustuse teatises n&otilde;utavaid abin&otilde;usid rakendanud , v&otilde;ib Muinsuskaitseinspektsioon korraldada m&auml;lestise omanikule ( valdajale ) tasuta hoiulepaigutamise seniks , kuni omanik ( valdaja ) tagab m&auml;lestise n&otilde;uetekohase s&auml;ilimise .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Asjade kogumi s&auml;ilitamise n&otilde;ue</s>
+</p>
+<p>
+<s>Vallasm&auml;lestisi , mis koos moodustavad asjade kogumi , on lubatud &uuml;ksikult v&otilde;&otilde;randada v&otilde;i p&auml;randada v&otilde;i p&auml;randi jagamisel jaotada ainult Muinsuskaitseinspektsiooni loal .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Vallasm&auml;lestise riigist v&auml;ljaviimise keeld</s>
+</p>
+<p>
+<s>Vallasm&auml;lestist v&otilde;ib riigist v&auml;lja viia ainult t&auml;htajaliselt Muinsuskaitseinspektsiooni loal .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Vallasm&auml;lestise kasutamise kitsendused</s>
+</p>
+<p>
+<s>Muinsuskaitseinspektsiooni loata on keelatud :</s>
+</p>
+<p>
+<s>1 ) vallasm&auml;lestise eemaldamine kinnism&auml;lestisest , mille juurde see olemuse j&auml;rgi kuulub ;</s>
+</p>
+<p>
+<s>2 ) m&auml;lestise restaureerimine , konserveerimine , remontimine v&otilde;i muul viisil m&auml;lestise ilme muutmine ;</s>
+</p>
+<p>
+<s>3 ) kasutamine algsel v&otilde;i muul otstarbel .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kinnism&auml;lestise kasutamise kitsendused</s>
+</p>
+<p>
+<s>( 1 ) Muinsuskaitseinspektsiooni loata on kinnism&auml;lestise ja selle kaitsev&ouml;&ouml;ndi ulatuses keelatud :</s>
+</p>
+<p>
+<s>1 ) maaharimine , ehitiste p&uuml;stitamine , teede , kraavide , trasside rajamine ning muud mulla- ja ehitust&ouml;&ouml;d ;</s>
+</p>
+<p>
+<s>2 ) puude ja p&otilde;&otilde;saste istutamine , mahav&otilde;tmine ja juurimine .</s>
+</p>
+<p>
+<s>( 2 ) Muinsuskaitseinspektsiooni ja valla- v&otilde;i linnavalitsuse loata on keelatud kinnism&auml;lestise &uuml;mberpaigutamine , &uuml;mber- ja sisseehitamine , konserveerimine , restaureerimine ja remontimine , m&auml;lestisele seda kahjustavate v&otilde;i selle ilmet muutvate objektide paigaldamine , samuti muul viisil m&auml;lestise ilme muutmine .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 3. l&otilde;ige kehtetu - 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 23 <hi rend="sup">1</hi> .</s><s>Muinsuskaitsealal kehtivad kitsendused</s>
+</p>
+<p>
+<s>( 1 ) Muinsuskaitseinspektsiooi ja valla- v&otilde;i linnavalitsuse loata on muinsuskaitsealal keelatud :</s>
+</p>
+<p>
+<s>1 ) ajalooliselt v&auml;ljakujunenud t&auml;navatev&otilde;rgu ehitusjoone ja kruntide ( kinnistute ) piiride muutmine ning kruntimine ;</s>
+</p>
+<p>
+<s>2 ) ehitiste p&uuml;stitamine ;</s>
+</p>
+<p>
+<s>3 ) ehitistele peale- ja juurdeehitamine , katusealuste v&auml;ljaehitamine ja &otilde;uede kasutamine ;</s>
+</p>
+<p>
+<s>4 ) ehitiste lammutamine ;</s>
+</p>
+<p>
+<s>5 ) krundi maakasutuse sihtotstarbe muutmine .</s>
+</p>
+<p>
+<s>( 2 ) Ehitamine , konserveerimine ja restaureerimine muinsuskaitsealal peab toimuma viisil ja materjalidega , mis arvestavad nii ehitise kui ka muinsuskaitseala arhitektuurilist ja ajaloolist v&auml;&auml;rtust .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Kitsenduste kindlaksm&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) M&auml;lestise kasutamise kitsendused m&auml;&auml;rab kindlaks Muinsuskaitseinspektsioon kaitsekohustuse teatises .</s>
+</p>
+<p>
+<s>( 2 ) Muinsuskaitseinspektsioon v&otilde;ib k&auml;esoleva seaduse paragrahvides 22 ja 23 s&auml;testatud kitsendusi leevendada .</s><s>Kinnism&auml;lestise puhul kantakse kitsenduste leevendused Muinsuskaitseinspektsiooni volitatud isiku &uuml;hepoolse avalduse ja kaitsekohustuse teatise alusel kinnistusraamatusse .</s><s>Kinnistamine on l&otilde;ivuvaba .</s>
+</p>
+<p>
+<s>( 3 ) Kui m&auml;lestis on &uuml;mber paigutatud v&otilde;i sellest on eemaldatud osi m&auml;lestise s&auml;ilimist ohustanud h&auml;daseisundi t&otilde;ttu , tuleb sellest viivitamatult teatada Muinsuskaitseinspektsioonile .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Kaitsev&ouml;&ouml;nd</s>
+</p>
+<p>
+<s>( 1 ) Kinnism&auml;lestise kaitseks kehtestatakse kaitsev&ouml;&ouml;nd , millele laienevad kaitsekohustuse teatises esitatud kitsendused .</s><s>Kui m&auml;lestiseks tunnistamise aktis ei ole m&auml;rgitud teisiti , on kaitsev&ouml;&ouml;ndiks 50 m laiune maa-ala m&auml;lestise v&auml;liskontuurist v&otilde;i piirist arvates .</s>
+</p>
+<p>
+<s>( 2 ) Muinsuskaitsealale kehtestatakse kaitsev&ouml;&ouml;nd , milles kehtivad muinsuskaitseala p&otilde;him&auml;&auml;ruses kindlaksm&auml;&auml;ratud n&otilde;uded ja kitsendused .</s><s>Kaitsev&ouml;&ouml;ndi kehtestamata j&auml;tmine on v&otilde;imalik ainult Vabariigi Valitsuse sellekohase otsusega .</s>
+</p>
+<p>
+<s>( 03.12.97 j&otilde;ust .</s><s>03.01.98 - RT I 1997 , 93 , 1559 )</s>
+</p>
+<p>
+<s>3.</s><s>Muinsuskaitsealal paiknevatele kinnism&auml;lestistele kaitsev&ouml;&ouml;ndit ei kehtestata , kui muinsuskaitseala p&otilde;him&auml;&auml;ruses pole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Juurdep&auml;&auml;s kinnism&auml;lestisele</s>
+</p>
+<p>
+<s>( 1 ) Avalik-&otilde;igusliku isiku omandis oleval kinnisasjal asuva kinnism&auml;lestise juurde on iga&uuml;hel vaba juurdep&auml;&auml;s .</s>
+</p>
+<p>
+<s>( 2 ) Era&otilde;iguslik isik , kelle kinnisasjal m&auml;lestis asub v&otilde;i kelle kinnisasja tavakohane juurdep&auml;&auml;sutee m&auml;lestiseni viib , peab tagama iga&uuml;he vaba l&auml;bip&auml;&auml;su m&auml;lestiseni p&auml;ikeset&otilde;usust loojanguni .</s>
+</p>
+<p>
+<s>( 3 ) M&auml;lestiseks olevasse ehitisse v&otilde;i selle &otilde;ue p&auml;&auml;seb omaniku ( valdaja ) poolt lubatud ajal ja korras .</s>
+</p>
+<p>
+<s>( 4 ) Muinsuskaitseinspektsioon v&otilde;ib juurdep&auml;&auml;su kinnism&auml;lestisele piirata , kui sellega ohustatakse m&auml;lestist .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Ostuees&otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Vallasm&auml;lestise v&otilde;&otilde;randamisel on riigil ostuees&otilde;igus .</s><s>Vallasm&auml;lestise ostuees&otilde;igusele kohaldatakse kinnisasja ostuees&otilde;iguse s&auml;tteid vastavalt asja&otilde;igusseadusele ( RT I 1993 , 39 , 590 ; 1995 , 26-28 , 355 ; 57 , 976 ; 1996 , 45 , 848 ; 51 , 967 ; 1997 , 52 , 833 ) .</s>
+</p>
+<p>
+<s>( 2 ) Kinnisasja v&otilde;&otilde;randamisel , millel kinnism&auml;lestis asub , on riigil , seej&auml;rel kohalikul omavalitsusel ostuees&otilde;igus .</s><s>Ostuees&otilde;iguse teostamine toimub asja&otilde;igusseaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Riigil ja kohalikul omavalitsusel ei ole ostuees&otilde;igust , kui v&otilde;&otilde;randamine toimub abikaasale , alanejatele sugulastele ja vanematele .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Kinnism&auml;lestise sundv&otilde;&otilde;randamine</s>
+</p>
+<p>
+<s>Kui omanik ( valdaja ) ei taga kinnism&auml;lestise s&auml;ilimist ega pea kinni kasutamise kitsendustest , keelab m&auml;lestise teaduslikku uurimist v&otilde;i p&otilde;hjendamatult ei v&otilde;imalda juurdep&auml;&auml;su m&auml;lestisele , v&otilde;ib Vabariigi Valitsus kinnisasja , millel kinnism&auml;lestis asub , &uuml;ldistes huvides selle omaniku n&otilde;usolekuta &otilde;iglase ja kohese h&uuml;vituse eest v&otilde;&otilde;randada seaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Omaniku ( valdaja ) &otilde;igused</s>
+</p>
+<p>
+<s>( 1 ) M&auml;lestise omanikul ( valdajal ) on &otilde;igus saada tasuta Muinsuskaitseinspektsioonilt v&otilde;i tema kaudu :</s>
+</p>
+<p>
+<s>1 ) m&auml;lestisega seonduvat teaduslikku ja muud informatsiooni ;</s>
+</p>
+<p>
+<s>2 ) konsultatsioone m&auml;lestise hooldamiseks ja kasutamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Muinsuskaitseinspektsioon on kohustatud omaniku ( valdaja ) soovil vallasm&auml;lestise tasuta hoiule paigutama .</s>
+</p>
+<p>
+<s>( 3 ) M&auml;lestise omanik ( valdaja ) v&otilde;ib saada riigieelarvest Muinsuskaitseinspektsiooni kaudu v&otilde;i valla- v&otilde;i linnaeelarvest toetust m&auml;lestise hooldamiseks , konserveerimiseks v&otilde;i restaureerimiseks , samuti valve- ja signalisatsioonis&uuml;steemi paigaldamiseks .</s><s>Riigieelarvest toetuse andmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 4 ) Kinnism&auml;lestise ja selle kaitsev&ouml;&ouml;ndis oleva kinnisasja kasutamise kitsendused kompenseeritakse vastavalt seadustele maa maksustamishinna v&auml;hendamise v&otilde;i maamaksust vabastamisega .</s>
+</p>
+<p>
+<s>( 5 ) Vabariigi Valitsus v&otilde;ib m&auml;lestise omanikule ( valdajale ) kehtestada muid soodustusi .</s>
+</p>
+<p>
+<s>V peat&uuml;kk</s>
+</p>
+<p>
+<s>Kultuuriv&auml;&auml;rtusega leid</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Kultuuriv&auml;&auml;rtusega leiu m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Kultuuriv&auml;&auml;rtusega leid on maa seest , selle pinnalt , rajatistest , veest v&otilde;i veekogude p&otilde;hjaladestustest leitud looduslik v&otilde;i ajaloolise , arheoloogilise , teadusliku , kunstilise v&otilde;i muu kultuuriv&auml;&auml;rtusega vallasasi , millel ei ole omanikku v&otilde;i mille omanikku ei ole v&otilde;imalik kindlaks teha .</s>
+</p>
+<p>
+<s>( 2 ) Kultuuriv&auml;&auml;rtusega leid kuulub riigile .</s>
+</p>
+<p>
+<s>( 3 ) Kultuuriv&auml;&auml;rtusega leiu suhtes rakendatakse asja&otilde;igusseaduse paragrahv 105 s&auml;tteid .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Kultuuriv&auml;&auml;rtusega leiu ajutine kaitse</s>
+</p>
+<p>
+<s>Kultuuriv&auml;&auml;rtusega leid loetakse ajutise kaitse all olevaks selle leidmise hetkest .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Leidja kohustused</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahv 30 1.l&otilde;ikes nimetatud asja leidja on kohustatud s&auml;ilitama leiukoha muutumatul kujul ning leiust viivitamatult teatama Muinsuskaitseinspektsioonile ja kohaliku omavalitsuse t&auml;itevorganile .</s><s>Leidjal on &otilde;igus j&auml;&auml;da anon&uuml;&uuml;mseks .</s>
+</p>
+<p>
+<s>( 2 ) Leitud asi tuleb kuni Muinsuskaitseinspektsioonile &uuml;leandmiseni j&auml;tta leiukohta .</s><s>Leitud asja v&otilde;ib leiukohast eemaldada ainult juhul , kui tekib oht asja s&auml;ilimisele .</s><s>Seda ei tohi puhastamise , haljastamise , murdmise v&otilde;i muul teel rikkuda ega selle &uuml;ksikuid osi &uuml;ksteisest eemaldada .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>&Otilde;igus tasule</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahv 30 1.l&otilde;ikes nimetatud asja leidjal on &otilde;igus saada tasu asja pooles v&auml;&auml;rtuses .</s><s>Asja v&auml;&auml;rtuse m&auml;&auml;rab kindlaks Muinsuskaitseinspektsioon muinsuskaitse n&otilde;ukogu ettepanekul .</s><s>Tasu maksmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 2 ) Tasu ei maksta isikule , kelle kohustuste hulka kuulub k&auml;esoleva seaduse paragrahv 30 1.l&otilde;ikes nimetatud asjade otsimine v&otilde;i v&auml;ljakaevamine , samuti m&auml;lestiste uurimine v&otilde;i j&auml;relevalve nende &uuml;le .</s>
+</p>
+<p>
+<s>VI peat&uuml;kk</s>
+</p>
+<p>
+<s>M&auml;lestiste kaitse tagamine m&auml;lestistega seotud t&ouml;&ouml;de tegemisel ja projekteerimisel</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>M&auml;lestise uurimine</s>
+</p>
+<p>
+<s>( 1 ) M&auml;lestise uurimist , mis toob kaasa selle muutuse , v&otilde;ib teostada ainult Muinsuskaitseinspektsiooni loal ja kohaliku omavalitsuse t&auml;itevorgani teadmisel .</s><s>Selliste uurimist&ouml;&ouml;de programmid tuleb esitada Muinsuskaitseinspektsioonile .</s>
+</p>
+<p>
+<s>( 2 ) M&auml;lestise omanik on kohustatud uurimist&ouml;&ouml;de tegemist lubama , kui temale h&uuml;vitatakse nende t&ouml;&ouml;dega tekitatav kahju .</s><s>Kahju ei h&uuml;vitata k&auml;esoleva seaduse paragrahv 35 l&otilde;ikes 3 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>M&auml;lestise ja muinsuskaitsealal paikneva ehitise konserveerimine , restaureerimine ja remont</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 1 ) M&auml;lestise konserveerimine , restaureerimine ja remont v&otilde;ib toimuda ainult projekti alusel ja erialaspetsialisti j&auml;relevalve all .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 2 ) M&auml;lestise konserveerimise , restaureerimise ja remondi projektid , samuti m&auml;lestisega seotud mulla- ja ehitust&ouml;&ouml;de projektid tuleb koosk&otilde;lastada Muinsuskaitseinspektsiooniga .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 3 ) Muinsuskaitseinspektsioonil on &otilde;igus n&otilde;uda enne k&auml;esoleva paragrahvi 2.l&otilde;ikes loetletud t&ouml;&ouml;de alustamist m&auml;lestises arheoloogiliste kaevamiste v&otilde;i muude uuringute l&auml;biviimist t&ouml;&ouml;de tellija kulul .</s>
+</p>
+<p>
+<s>( 4 ) M&auml;lestise konserveerimise , restaureerimise ja remondi projekte ning k&auml;esoleva seaduse paragrahv 34 l&otilde;ikes 1 nimetatud uurimist&ouml;&ouml;de programme v&otilde;ib koostada ja nimetatud t&ouml;id teostada ainult kehtestatud korras v&auml;lja antud litsentsi alusel .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 kuni 4 m&auml;lestiste suhtes s&auml;testatud n&otilde;udeid rakendatakse ka muinsuskaitsealal paiknevate ehitiste suhtes .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 6 ) M&auml;lestiste ja muinsuskaitsealal paiknevate ehitiste konserveerimise , restaureerimise , remondi ja ehitamise projektide koostamise korra kehtestab Vabariigi Valitsus v&otilde;i tema volitusel kultuuriminister .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 7 ) Riiklikku j&auml;relevalvet teostavate organite n&otilde;uetest m&auml;lestiste ja muinsuskaitsealal paiknevate ehitiste suhtes informeeritakse Muinsuskaitseinspektsiooni .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Ehitus- ja muude t&ouml;&ouml;de teostamise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Ehitus- , maaparandus- , tee- ja muid m&auml;lestist ohustada v&otilde;ivaid t&ouml;id tehakse Muinsuskaitseinspektsiooni loal tingimustel , mis tagavad m&auml;lestise s&auml;ilimise .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1.l&otilde;ikes nimetatud t&ouml;&ouml;de teostamise loa taotleja on kohustatud :</s>
+</p>
+<p>
+<s>1 ) tellima ja finantseerima m&auml;lestise v&otilde;imalikku kahjustamist ennetavad t&ouml;&ouml;d ning tagama nende l&auml;biviimiseks vajalikud tingimused ;</s>
+</p>
+<p>
+<s>2 ) informeerima t&ouml;&ouml;de teostajat m&auml;lestise olemasolust ja sellega seonduvatest kitsendustest .</s>
+</p>
+<p>
+<s>( 3 ) M&auml;lestise s&auml;ilimise eest seda ohustavate t&ouml;&ouml;de tegemise ajal vastutab t&ouml;&ouml;de teostaja , k&auml;esoleva paragrahvi 2.l&otilde;ike punktis 2 nimetatud kohustuse t&auml;itmata j&auml;tmisel aga loa taotleja .</s>
+</p>
+<p>
+<s>( 4 ) Kinnisasjas , kus Muinsuskaitseinspektsiooni andmeil v&otilde;ib ilmsiks tulla seni teadmata kultuuriv&auml;&auml;rtusega leid , tuleb enne t&ouml;&ouml;de alustamist l&auml;bi viia uuringud .</s><s>Uuringud viiakse l&auml;bi loa taotleja kulul .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Ehitus- ja muude t&ouml;&ouml;de seiskamine</s>
+</p>
+<p>
+<s>Kui t&ouml;&ouml;de k&auml;igus avastatakse inimtegevuse tagaj&auml;rjel ladestunud arheoloogiline kultuurkiht , sealhulgas inimluud , v&otilde;i kultuuriv&auml;&auml;rtusega leid , on t&ouml;&ouml;de teostaja kohustatud t&ouml;&ouml;d seiskama , s&auml;ilitama leiukoha muutumatul kujul ning viivitamatult informeerima Muinsuskaitseinspektsiooni ja kohaliku omavalitsuse t&auml;itevorganit .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Ehitus- ja muude t&ouml;&ouml;de peatamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse paragrahvis 37 nimetatud asjade avastamise korral on Muinsuskaitseinspektsioonil &otilde;igus peatada t&ouml;&ouml;d kuni kaheks n&auml;dalaks , et teha kindlaks asja vastavus m&auml;lestise tunnustele .</s>
+</p>
+<p>
+<s>( 2 ) T&ouml;&ouml;de peatamisega tekitatud kahju h&uuml;vitatakse Vabariigi Valitsuse kehtestatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>M&auml;lestise ja muinsuskaitseala silueti n&auml;htavuse ja vaadeldavuse tagamine</s>
+</p>
+<p>
+<s>M&auml;lestise ja muinsuskaitseala silueti n&auml;htavuse ja vaadeldavuse tagamiseks tuleb &uuml;ld- ja detailplaneeringute koostamisel arvestada Muinsuskaitseinspektsiooni poolt koosk&otilde;lastatud eritingimusi .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Muinsuskaitsen&otilde;uetega vastuolus oleva tegevuse peatamine</s>
+</p>
+<p>
+<s>Muinsuskaitseinspektsioon ja valla- v&otilde;i linnavalitsus on kohustatud viivitamatult peatama k&otilde;ik t&ouml;&ouml;d ja igasuguse tegevuse , mis ohustaks m&auml;lestist v&otilde;i kultuuriv&auml;&auml;rtusega leidu v&otilde;i on muul viisil vastuolus k&auml;esoleva seadusega .</s>
+</p>
+<p>
+<s>VII peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Vastutus</s>
+</p>
+<p>
+<s>Isikud , kes on s&uuml;&uuml;di k&auml;esoleva seaduse rikkumises , kannavad tsiviil- , kriminaal- v&otilde;i haldusvastutust vastavalt seadusele .</s>
+</p>
+<p>
+<s>[ &sect;&sect; 42-44 v&auml;lja j&auml;etud ] *</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Eesti NSV seaduse &ldquo; Ajaloo- ja kultuurim&auml;lestiste kaitse ja kasutamise kohta &rdquo; osaliselt kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Eesti NSV seadus &ldquo; Ajaloo- ja kultuurim&auml;lestiste kaitse ja kasutamise kohta &rdquo; ( ENSV Teataja 1977 , 51 , 647 ; 1984 , 20 , 232 ) tunnistatakse kehtetuks ajaloo- , arheoloogia- , linnaehitus- ja arhitektuuri- ning kunstim&auml;lestiste osas .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) Seaduse &ldquo; Ajaloo- ja kultuurim&auml;lestiste kaitse ja kasutamise kohta &rdquo; alusel kohalike omavalitsuste t&auml;itevorganite otsustega kinnitatud kohaliku t&auml;htsusega ajaloo- ja kultuurim&auml;lestiste nimekirjad tuleb Muinsuskaitseinspektsioonile &uuml;le anda kolme kuu jooksul k&auml;esoleva seaduse j&otilde;ustumisest arvates .</s>
+</p>
+<p>
+<s>( 2 ) Seaduse &ldquo; Ajaloo- ja kultuurim&auml;lestiste kaitse ja kasutamise kohta &rdquo; alusel vabariikliku ja kohaliku t&auml;htsusega ajaloo- ja kultuurim&auml;lestiste nimekirjadesse kantud objektid peab Muinsuskaitseinspektsioon &uuml;le vaatama ja kindlaks tegema nende vastavuse m&auml;lestise tunnustele 1997. aasta 1. juuliks .</s><s>Nimekirjades olevad objektid kas tunnistatakse m&auml;lestisteks v&otilde;i l&otilde;petatakse nende kaitse .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+<p>
+<s>( 3 ) Enne k&auml;esoleva seaduse j&otilde;ustumist moodustatud Tallinna vanalinna riiklik kaitsetsoon , linnade ja alevite ajalooliste keskuste kaitsetsoonid ning Rebala ajaloolis-kultuuriline kaitsealune territoorium on muinsuskaitsealad vastavalt k&auml;esoleva seaduse paragrahvile 4.</s><s>Nende p&otilde;him&auml;&auml;rused tuleb vastavusse viia k&auml;esoleva seadusega 1997. aasta 1. jaanuariks .</s>
+</p>
+<p>
+<s>( 03.12.96 j&otilde;ust .</s><s>23.12.96 - RT I 1996 , 86 , 1538 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

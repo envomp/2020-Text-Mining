@@ -1,0 +1,1090 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Lennundusseadus ( terviktekst nov 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    5583</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Lennundusseadus ( terviktekst nov 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=3></tagusage>
+         <tagusage gi=p occurs=328></tagusage>
+         <tagusage gi=s occurs=414></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Lennundusseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 17. veebruaril 1999. a ,</s>
+</p>
+<p>
+<s>( RT I 1999 , 26 , 376 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. septembril 1999. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus s&auml;testab lennundustegevuse korraldamise ja lennuohutuse tagamise alused .</s>
+</p>
+<p>
+<s>( 2 ) Lennundustegevuseks loetakse tegevusvaldkonda , mis on seotud &otilde;hus&otilde;iduki k&auml;itamise , mehitamise , ehitamise ja hoolduse , lennuliikluse teenindamise , lennuv&auml;ljade ja -v&auml;ljakute k&auml;itamise ning lennundusspetsialistide koolitamisega .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Seaduse kehtivus</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse s&auml;tteid rakendatakse tsiviillennunduses .</s><s>Riiklikele &otilde;hus&otilde;idukitele ja nende k&auml;itamisele laienevad k&auml;esoleva seaduse s&auml;tted niiv&otilde;rd , kuiv&otilde;rd seda ei ole reguleeritud teiste &otilde;igusaktidega .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse s&auml;tted laienevad Eesti ja v&auml;lisriigi &otilde;hus&otilde;idukitele Eesti &otilde;huruumis ja Eesti &otilde;hus&otilde;idukitele v&auml;ljaspool Eesti &otilde;huruumi .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esolev seadus ja sellest tulenevad &otilde;igusaktid laienevad Eesti &otilde;hus&otilde;idukitega teostatavale veondusele v&auml;lisriigi &otilde;huruumis , kui seaduses ei ole s&auml;testatud teisiti v&otilde;i kui see ei ole vastuolus selle v&auml;lisriigi seadusega , mida rakendatakse vastastikusel kokkuleppel selle riigiga v&otilde;i rahvusvahelise &otilde;iguse &uuml;ldtunnustatud printsiipide kohaselt .</s>
+</p>
+<p>
+<s>( 4 ) Vabariigi Valitsus v&otilde;ib vastastikusel kokkuleppel v&auml;lisriigiga kehtestada k&auml;esoleva seaduse s&auml;tete rakendamise &otilde;hus&otilde;idukite suhtes , mis on selle v&auml;lisriigi registris , kuid mis on renditud v&otilde;i muul viisil Eesti k&auml;itaja kasutusse antud .</s>
+</p>
+<p>
+<s>( 5 ) Vabariigi Valitsus v&otilde;ib vastastikusel kokkuleppel v&auml;lisriigiga kehtestada , et k&auml;esoleva seaduse s&auml;tteid ei rakendata nende &otilde;hus&otilde;idukite suhtes , mis on registreeritud Eestis , kuid on renditud v&otilde;i muul viisil v&auml;lismaise k&auml;itaja kasutusse antud .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Eesti &otilde;huruum</s>
+</p>
+<p>
+<s>Eesti &otilde;huruum on Eesti maa-ala , territoriaal- ja sisevete ning piiriveekogude Eestile kuuluvate osade kohal asuv &otilde;huruum .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Eesti &otilde;huruumi kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Eesti &otilde;huruumi kasutamise ja lennuliikluse teenindamise tagamise korra ning lennupiirangud kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 2 ) Eesti &otilde;huruumi kasutamist korraldab Lennuamet ning lennuliikluse teenindamise tsiviil- ja riiklikus lennunduses tagavad sertifitseeritud lennuliiklusteenistust omavad ettev&otilde;tjad .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 3 ) Lendamisel Eesti &otilde;huruumis tuleb juhinduda lennureeglitest .</s><s>Lennureeglid kinnitab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 4 ) Eesti &otilde;huruumis v&otilde;ib lennata &otilde;hus&otilde;idukiga , millel on Eesti riikkondsus , Rahvusvahelise Tsiviillennunduse Organisatsiooni liikmesmaa riikkondsus v&otilde;i Eestiga sellekohase lepingu s&otilde;lminud v&auml;lisriigi riikkondsus .</s>
+</p>
+<p>
+<s>( 5 ) V&auml;lisriikide s&otilde;jav&auml;e v&otilde;i eriotstarbeks kasutatava &otilde;hus&otilde;iduki sisenemise Eesti &otilde;huruumi ja v&auml;ljumise &otilde;huruumist otsustab Vabariigi Valitsus igal &uuml;ksikjuhul eraldi .</s>
+</p>
+<p>
+<s>( 6 ) Lennuamet v&otilde;ib anda lennuloa &otilde;hus&otilde;idukile , mis ei vasta k&auml;esoleva paragrahvi l&otilde;ikes 4 toodud n&otilde;uetele , kui lend on seotud sanitaar- , avarii- , otsingu- ja p&auml;&auml;stet&ouml;&ouml;de sooritamisega .</s>
+</p>
+<p>
+<s>( 7 ) Eesti &otilde;huruumis on &otilde;hus&otilde;idukite lend &uuml;lehelikiirusel lubatud Vabariigi Valitsuse loal , kui see ei ohusta keskkonda ja teiste &otilde;hus&otilde;idukite lende .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>&Otilde;hus&otilde;iduk</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduk on seade , mille t&otilde;stej&otilde;ud atmosf&auml;&auml;ris moodustub &otilde;hu vastum&otilde;jul , v&auml;lja arvatud maa- v&otilde;i veepinnalt p&otilde;rkunud &otilde;hu vastum&otilde;jul .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;idukid jagunevad riiklikeks ja tsiviil&otilde;hus&otilde;idukiteks .</s>
+</p>
+<p>
+<s>( 3 ) Riiklik &otilde;hus&otilde;iduk on &otilde;hus&otilde;iduk , mida kasutatakse kaitsev&auml;e- , tolli- v&otilde;i politseiteenistuses .</s>
+</p>
+<p>
+<s>( 4 ) &Otilde;hus&otilde;iduk , mis ei kuulu k&auml;esoleva paragrahvi l&otilde;ikes 3 toodud kategooriasse , loetakse tsiviil&otilde;hus&otilde;idukiks .</s>
+</p>
+<p>
+<s>( 5 ) Ebaharilike omadustega &otilde;hus&otilde;iduk on &otilde;hus&otilde;iduk , mille k&auml;itamine erineb tavap&auml;raste &otilde;hus&otilde;idukite k&auml;itamisest hoolduse , lennuomaduste v&otilde;i piloteerimise poolest .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>&Otilde;hus&otilde;iduki riikkondsus</s>
+</p>
+<p>
+<s>Eestis registreeritud &otilde;hus&otilde;idukil on Eesti riikkondsus .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Tsiviillennunduse riiklik juhtimine</s>
+</p>
+<p>
+<s>( 1 ) Tsiviillennunduse riiklikku juhtimist teostavad Teede- ja Sideministeerium ning Lennuamet k&auml;esoleva seadusega s&auml;testatud p&auml;devuse piires .</s>
+</p>
+<p>
+<s>( 2 ) Teede- ja sideminister kehtestab 1944. aasta Chicago rahvusvahelise tsiviillennunduse konventsiooni ( RT 1992 , 6 , 85 ; RT II 2000 , 2 , 12 ) ja 1990. aasta K&uuml;prose &uuml;htsete lennundusn&otilde;uete v&auml;ljat&ouml;&ouml;tamise , vastuv&otilde;tmise ja rakendamise kokkuleppe ( RT II 2000 , 2 , 13 ) rakendamiseks :</s>
+</p>
+<p>
+<s>1 ) &uuml;htsetes lennundusn&otilde;uetes kasutatavad m&otilde;isted ja l&uuml;hendid ;</s>
+</p>
+<p>
+<s>2 ) n&otilde;uded lennukitele , tiivik&otilde;hus&otilde;idukitele , nende mootoritele , abimootoritele , propelleritele , lennuki lennusimulaatoritele ning lennu- ja navigatsiooniprotseduuride treeningvahenditele ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;uded &otilde;hus&otilde;iduki minimaalvarustusele ning varustusele lendamiseks erinevates ilmastikutingimustes ;</s>
+</p>
+<p>
+<s>4 ) tehnilised n&otilde;uded &otilde;hus&otilde;iduki seadmetele ja varustusele ;</s>
+</p>
+<p>
+<s>5 ) k&auml;esoleva l&otilde;ike punktides 2-4 loetletud n&otilde;uetele vastavuse t&otilde;endamise korra .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Otilde;hus&otilde;iduki ehitamine , hooldamine , lennu- ja keskkonnas&otilde;bralikkus</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>&Otilde;hus&otilde;iduki ehitamine ja hooldamine</s>
+</p>
+<p>
+<s>( 1 ) Eestis on lubatud ehitada , valmistada ja hooldada &otilde;hus&otilde;idukeid ning nende osi ja varustust Lennuameti v&otilde;i v&auml;lisriigi vastava asutuse v&auml;ljaantud ning Eestis tunnustatud , selleks t&ouml;&ouml;ks n&otilde;utava lennundusloa v&otilde;i ettev&otilde;tja sertifikaadi olemasolul ning neis dokumentides m&auml;rgitud &otilde;iguste piires .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduki ehitamiseks , valmistamiseks ja hooldamiseks sertifikaadi v&auml;ljaandmise tingimused kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Sertifitseerimist viib l&auml;bi ja sertifikaate v&auml;ljastab Lennuamet .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;relevalve teostamiseks peab k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud t&ouml;&ouml;de tegija v&otilde;imaldama Lennuameti tehnilist j&auml;relevalvet teostavale vastutavale t&ouml;&ouml;tajale vaba juurdep&auml;&auml;su t&ouml;&ouml;kohale , t&ouml;&ouml;vahenditele , &otilde;hus&otilde;iduki ehitamise , hooldamise , selle osade ja varustuse valmistamisega seonduvale teabele ning selleks kasutatavatele dokumentidele .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>&Otilde;hus&otilde;iduki lennuk&otilde;lblikkus</s>
+</p>
+<p>
+<s>( 1 ) Eestis registreeritud ja k&auml;itatav &otilde;hus&otilde;iduk peab olema lennuk&otilde;lblik .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduk tunnistatakse lennuk&otilde;lblikuks , kui on tuvastatud , et see on projekteeritud , valmistatud , varustatud ja tehniliselt hooldatud vastavuses 1944. aasta Chicago rahvusvahelise tsiviillennunduse konventsiooni n&otilde;uetega .</s>
+</p>
+<p>
+<s>( 3 ) &Otilde;hus&otilde;iduki lennuk&otilde;lblikkusn&otilde;uded kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>&Otilde;hus&otilde;iduki lennuk&otilde;lblikkuse tuvastamine</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduki lennuk&otilde;lblikkuse tuvastab Lennuamet .</s>
+</p>
+<p>
+<s>( 2 ) Lennuk&otilde;lblikkuse tuvastamiseks :</s>
+</p>
+<p>
+<s>1 ) annab k&auml;itaja &uuml;levaate &otilde;hus&otilde;iduki tehnilise hoolduse korraldamisest ;</s>
+</p>
+<p>
+<s>2 ) kontrollitakse &otilde;hus&otilde;iduki tehnilise hoolduse dokumente ;</s>
+</p>
+<p>
+<s>3 ) tehakse &otilde;hus&otilde;iduki ja selle varustuse &uuml;levaatus ja vajaduse korral sooritatakse kontroll-lend .</s>
+</p>
+<p>
+<s>( 3 ) Lennuametil on &otilde;igus &otilde;hus&otilde;iduki lennuk&otilde;lblikkust tuvastada lennuk&otilde;lblikkussertifikaadi kehtivusaja jooksul nii omal algatusel kui ka &otilde;hus&otilde;iduki omaniku v&otilde;i k&auml;itaja vastava taotluse alusel .</s>
+</p>
+<p>
+<s>( 4 ) &Otilde;hus&otilde;iduki k&auml;itaja on kohustatud esitama lennuk&otilde;lblikkust tuvastavale isikule tema n&otilde;udmisel kogu &otilde;hus&otilde;iduki lennuk&otilde;lblikkust , tehnilist hooldust , &otilde;hus&otilde;idukile tehtud muudatusi ja parandusi , &otilde;hus&otilde;iduki k&auml;itamist ja selle statistilisi andmeid puudutava teabe , samuti v&otilde;imaldama talle vaba juurdep&auml;&auml;su &otilde;hus&otilde;idukile , selle k&auml;itamisega seotud seadmetele , vajaduse korral ka lennu ajal , ning osutama talle &uuml;lesannete t&auml;itmisel vajalikku abi .</s>
+</p>
+<p>
+<s>( 5 ) Lennuk&otilde;lblikkuse tuvastamisega seotud otsesed kulud kannab selle taotleja .</s><s>Kui seda tehakse lennuk&otilde;lblikkussertifikaadi kehtivusaja jooksul Lennuameti algatusel ja &otilde;hus&otilde;iduk osutub lennuk&otilde;lblikuks , kannab kulud Lennuamet .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>&Otilde;hus&otilde;iduki lennuk&otilde;lblikkussertifikaat</s>
+</p>
+<p>
+<s>( 1 ) Lennuamet v&auml;ljastab lennuk&otilde;lblikuks tunnistatud &otilde;hus&otilde;idukile t&auml;htajalise lennuk&otilde;lblikkussertifikaadi , mis peab olema k&auml;itamise ajal &otilde;hus&otilde;iduki pardal .</s>
+</p>
+<p>
+<s>( 2 ) Lennuk&otilde;lblikkussertifikaadi kehtivusaega pikendatakse &otilde;hus&otilde;iduki omaniku v&otilde;i valdaja kirjaliku taotluse alusel , kui &otilde;hus&otilde;iduk on tuvastamisel tunnistatud lennuk&otilde;lblikuks .</s>
+</p>
+<p>
+<s>( 3 ) Lennuk&otilde;lblikkussertifikaati m&auml;rgitakse &otilde;hus&otilde;iduki k&auml;itamise piirangud , kui &otilde;hus&otilde;iduk ei vasta t&auml;ielikult lennuk&otilde;lblikkusn&otilde;uetele .</s>
+</p>
+<p>
+<s>( 4 ) Eestis k&auml;itatava v&auml;lisriigi &otilde;hus&otilde;iduki pardal peab olema selle riigi poolt v&auml;ljaantud lennuk&otilde;lblikkussertifikaat .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Vastutus &otilde;hus&otilde;iduki lennuk&otilde;lblikkuse eest</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduki lennuk&otilde;lblikkuse eest vastutab selle k&auml;itaja .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduki k&auml;itaja on kohustatud viivitamata teatama Lennuametile k&otilde;igist &otilde;hus&otilde;iduki lennuk&otilde;lblikkust ohustavatest asjaoludest .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>&Otilde;hus&otilde;iduki lennuk&otilde;lblikkussertifikaadi kehtivuse peatamine v&otilde;i kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduki v&otilde;i selle varustuse lennuk&otilde;lblikkusn&otilde;uetele mittevastava hooldamise , etten&auml;htud muudatuste v&otilde;i n&otilde;uetekohase tehnilise kontrolli tegemata j&auml;tmise , keelatud muudatuste tegemise v&otilde;i keskkonnak&otilde;lblikkuse n&otilde;uete t&auml;itmata j&auml;tmise korral tunnistatakse &otilde;hus&otilde;iduk lennuk&otilde;lblikkusn&otilde;uetele mittevastavaks .</s>
+</p>
+<p>
+<s>( 2 ) Lennuk&otilde;lblikkusn&otilde;uetele mittevastavaks tunnistatud &otilde;hus&otilde;iduki lennuk&otilde;lblikkussertifikaadi kehtivus peatatakse &otilde;hus&otilde;iduki lennuk&otilde;lblikuks tunnistamiseni .</s><s>Kui lennuk&otilde;lblikkust ei ole v&otilde;imalik taastada v&otilde;i seda ei tehta , tunnistatakse lennuk&otilde;lblikkussertifikaat kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>V&auml;lisriigi &otilde;hus&otilde;iduki lennuk&otilde;lblikkuse tuvastamine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisriigi &otilde;hus&otilde;iduki lennuk&otilde;lblikkus tuvastatakse :</s>
+</p>
+<p>
+<s>1 ) Lennuameti algatusel ;</s>
+</p>
+<p>
+<s>2 ) kui seda taotleb &otilde;hus&otilde;iduki omanik v&otilde;i k&auml;itaja ;</s>
+</p>
+<p>
+<s>3 ) kui seda taotleb &otilde;hus&otilde;iduki lennuk&otilde;lblikkuse &uuml;le j&auml;relevalvet teostava v&auml;lisriigi vastav asutus .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lisriigi &otilde;hus&otilde;iduki lennuk&otilde;lblikkus tuvastatakse ka siis , kui tekib vajadus tunnustada v&auml;lisriigi &otilde;hus&otilde;iduki lennuk&otilde;lblikkussertifikaati v&otilde;i anda v&auml;lja Eesti lennuk&otilde;lblikkussertifikaat v&otilde;i &uuml;hekordne lennuluba .</s>
+</p>
+<p>
+<s>( 3 ) Kui v&auml;lisriigi &otilde;hus&otilde;iduk tunnistatakse lennuk&otilde;lblikkusn&otilde;uetele mittevastavaks , keelatakse selle lennud ja teatatakse sellest &otilde;hus&otilde;iduki registreerimisriigi p&auml;devale asutusele .</s>
+</p>
+<p>
+<s>( 4 ) Kui Rahvusvahelise Tsiviillennunduse Organisatsiooni liikmesriigi lennundusasutus leiab , et &otilde;hus&otilde;iduk on lennuk&otilde;lblik , lubatakse &otilde;hus&otilde;idukil v&auml;lja lennata .</s><s>Kui v&auml;lisriigi p&auml;deva lennundusasutuse hinnangul &otilde;hus&otilde;iduki tehniline seisukord ei vasta lennuk&otilde;lblikkusn&otilde;uetele , kuid selle &uuml;lelend reisijateta ja vajalikke piiranguid j&auml;rgides on ohutu , annab Lennuamet loa &otilde;hus&otilde;iduki lennuks sihtkohta , kus on v&otilde;imalik lennuk&otilde;lblikkus taastada .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>&Otilde;hus&otilde;iduki keskkonnak&otilde;lblikkus</s>
+</p>
+<p>
+<s>( 1 ) Eestis k&auml;itatav mootoriga &otilde;hus&otilde;iduk on keskkonnak&otilde;lblik , kui selle m&uuml;rataseme ja mootorite emissiooni arvulised n&auml;itajad vastavad kehtestatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Mootoriga &otilde;hus&otilde;iduki keskkonnak&otilde;lblikkusn&otilde;uded kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Mootoriga &otilde;hus&otilde;iduki keskkonnak&otilde;lblikkusele vastavust tunnistab sertifikaat , milles sisalduvad andmed &otilde;hus&otilde;iduki kohta , sertifitseerimise aluseks olevad normid ning m&uuml;rataseme ja mootorite emissiooni arvulised n&auml;itajad .</s>
+</p>
+<p>
+<s>( 4 ) Mootoriga &otilde;hus&otilde;iduki keskkonnak&otilde;lblikkussertifikaadi v&auml;ljastab Lennuamet .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tsiviil&otilde;hus&otilde;idukite registreerimine</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Tsiviil&otilde;hus&otilde;idukite riiklik register</s>
+</p>
+<p>
+<s>( 1 ) Tsiviil&otilde;hus&otilde;idukite riiklik register on Vabariigi Valitsuse poolt andmekogude seaduse ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ; 2001 , 7 , 17 ; 17 , 77 ) alusel asutatud andmekogu tsiviil&otilde;hus&otilde;idukitele riikkondsuse andmiseks ja nende omandi&otilde;iguse rahvusvaheliseks tunnustamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Tsiviil&otilde;hus&otilde;idukite riiklikku registrit peab Lennuamet .</s>
+</p>
+<p>
+<s>( 3 ) Tsiviil&otilde;hus&otilde;idukite riikliku registri pidamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Tsiviil&otilde;hus&otilde;iduki registrisse kandmine</s>
+</p>
+<p>
+<s>( 1 ) Tsiviil&otilde;hus&otilde;iduki k&auml;itamiseks tuleb see kanda tsiviil&otilde;hus&otilde;idukite riiklikusse registrisse v&otilde;i registri lisasse koosk&otilde;las k&auml;esoleva seaduse s&auml;tetega .</s>
+</p>
+<p>
+<s>( 2 ) Tsiviil&otilde;hus&otilde;iduki registrisse kandmist v&otilde;ib taotleda &otilde;hus&otilde;iduki omanik v&otilde;i tema poolt kirjalikult volitatud isik .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>&Otilde;hus&otilde;iduki registrisse kandmise n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduk kantakse tsiviil&otilde;hus&otilde;idukite riiklikusse registrisse taotluse alusel , kui :</s>
+</p>
+<p>
+<s>1 ) &otilde;hus&otilde;iduki omanik on Eesti kodanik v&otilde;i isik , kellel on alaline elamisluba Eestis , v&otilde;i Eestis registreeritud juriidiline isik v&otilde;i kohalik omavalitsus v&otilde;i Eesti riik ;</s>
+</p>
+<p>
+<s>2 ) &otilde;hus&otilde;idukil on Eestis v&auml;ljaantud lennuk&otilde;lblikkussertifikaat v&otilde;i m&otilde;ne teise riigi p&auml;deva asutuse v&auml;ljaantud ja Eestis tunnustatud lennuk&otilde;lblikkussertifikaat ;</s>
+</p>
+<p>
+<s>3 ) &otilde;hus&otilde;iduki t&uuml;&uuml;p on sertifitseeritud Eestis tunnustatud lennuk&otilde;lblikkusn&otilde;uete alusel .</s>
+</p>
+<p>
+<s>( 2 ) Registrisse v&otilde;ib kanda &otilde;hus&otilde;iduki , mis ei vasta k&auml;esoleva paragrahvi l&otilde;ike 1 punktis 1 s&auml;testatud n&otilde;uetele , juhul kui &otilde;hus&otilde;iduki baaslennuv&auml;li asub Eestis .</s>
+</p>
+<p>
+<s>( 3 ) Registrisse ei kanta &otilde;hus&otilde;idukit , mis on teise riigi registris .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Tsiviil&otilde;hus&otilde;idukite riiklikus registris sisalduv teave</s>
+</p>
+<p>
+<s>( 1 ) Registrisse kantakse teave :</s>
+</p>
+<p>
+<s>1 ) &otilde;hus&otilde;iduki , selle omaniku ja k&auml;itaja ning seda teavet puudutavate muutuste kohta ;</s>
+</p>
+<p>
+<s>2 ) &otilde;hus&otilde;idukile seatud pandi&otilde;iguste kohta .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 2 ) Registri lisasse kantakse :</s>
+</p>
+<p>
+<s>1 ) ehitamisel olev &otilde;hus&otilde;iduk , mis on juba identifitseeritav &otilde;hus&otilde;idukina ;</s>
+</p>
+<p>
+<s>2 ) &otilde;hus&otilde;iduk , mida Eesti omanikule ehitatakse v&auml;lismaal v&otilde;i mis on Eesti omanikule &uuml;le antud , juhul kui k&auml;esoleva seaduse &sect; 18 l&otilde;ike 1 punktis 1 s&auml;testatud tingimused on t&auml;idetud ;</s>
+</p>
+<p>
+<s>3 ) v&auml;lismaal asuv &otilde;hus&otilde;iduk , mis vastab k&auml;esoleva seaduse &sect; 18 l&otilde;ike 1 punktis 1 s&auml;testatud tingimustele ja millele Lennuamet on andnud &uuml;hekordse lennuloa .</s>
+</p>
+<p>
+<s>( 3 ) &Otilde;hus&otilde;iduki k&auml;itaja on kohustatud registripidajale viivitamata teatama registrisse kantud andmete muutumisest .</s>
+</p>
+<p>
+<s>( 4 ) &Otilde;hus&otilde;iduki omaniku vahetumise korral peavad sellest Lennuametile k&uuml;mne p&auml;eva jooksul teatama nii &otilde;hus&otilde;iduki uus kui endine omanik .</s><s>Teatele peavad olema lisatud uue omaniku omandi&otilde;igust ning vastavust k&auml;esoleva seaduse &sect; 18 l&otilde;ikes 1 esitatud n&otilde;uetele t&otilde;endavad dokumendid .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>&Otilde;hus&otilde;iduki kustutamine registrist</s>
+</p>
+<p>
+<s>&Otilde;hus&otilde;iduk kustutatakse tsiviil&otilde;hus&otilde;idukite riiklikust registrist , kui :</s>
+</p>
+<p>
+<s>1 ) seda taotleb &otilde;hus&otilde;iduki omanik v&otilde;i tema poolt kirjalikult volitatud isik ;</s>
+</p>
+<p>
+<s>2 ) &otilde;hus&otilde;iduk ei vasta enam k&auml;esoleva seaduse &sect;-s 18 esitatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>3 ) &otilde;hus&otilde;iduk on h&auml;vinud , lammutatud v&otilde;i kadunud ja selle otsingud on l&otilde;petatud ;</s>
+</p>
+<p>
+<s>4 ) &otilde;hus&otilde;iduki lennuk&otilde;lblikkussertifikaadi kehtivusaja l&otilde;ppemisest on m&ouml;&ouml;dunud kolm aastat ja &otilde;hus&otilde;iduki omanik ei ole esitanud taotlust selle pikendamiseks ;</s>
+</p>
+<p>
+<s>5 ) &otilde;hus&otilde;iduk on teise riigi registris .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>&Otilde;hus&otilde;iduki registreerimissertifikaat</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduki kandmisel tsiviil&otilde;hus&otilde;idukite riiklikusse registrisse v&auml;ljastatakse &otilde;hus&otilde;iduki omanikule v&otilde;i tema poolt kirjalikult volitatud isikule registreerimissertifikaat .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduki kandmisel registri lisasse v&auml;ljastatakse &otilde;hus&otilde;iduki omanikule v&otilde;i tema poolt kirjalikult volitatud isikule ajutine registreerimissertifikaat .</s>
+</p>
+<p>
+<s>( 3 ) &Otilde;hus&otilde;iduki registreerimissertifikaate v&auml;ljastab Lennuamet .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>&Otilde;hus&otilde;iduki m&auml;rgistamine</s>
+</p>
+<p>
+<s>( 1 ) Eestis registreeritud &otilde;hus&otilde;iduk peab olema m&auml;rgistatud riikliku registreerimistunnusega , mis koosneb riigi tunnusest ES ja registreerimistunnusest , mille annab &otilde;hus&otilde;idukile registripidaja .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduki m&auml;rgistamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lennunduspersonali load</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Lennunduslubade kohustuslikkus</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduki lennundustehnilise t&ouml;&ouml;taja , lennuliikluse lennujuhi ja -informaatori , lendude korraldaja ning k&auml;esoleva seaduse &sect; 27 l&otilde;ikes 2 <hi rend="sup">1</hi> m&auml;&auml;ratletud lennumeeskonna liikmena ( edaspidi lennundusspetsialistid ) on lubatud tegutseda isikul , kellel on kehtiv ja Eestis tunnustatud lennundusluba .</s>
+</p>
+<p>
+<s>( 2 ) Eesti &otilde;hus&otilde;idukit v&otilde;ib &auml;rilistel eesm&auml;rkidel k&auml;itada isik , kellel on Eestis v&auml;ljaantud v&otilde;i v&auml;lisriigis v&auml;ljaantud ja Eestis tunnustatud kehtiv lennundusluba .</s><s>V&auml;lisriigi &otilde;hus&otilde;idukit v&otilde;ib Eestis &auml;rilistel eesm&auml;rkidel k&auml;itada isik , kellel on selles v&auml;lisriigis v&auml;ljaantud v&otilde;i selles v&auml;lisriigis tunnustatud kehtiv lennundusluba .</s>
+</p>
+<p>
+<s>( 3 ) Lennundusspetsialistide atesteerimist , lennunduslubade v&auml;ljaandmist ja v&auml;lisriigis v&auml;ljaantud lennunduslubade tunnustamist ning nende kohta arvestuse pidamist teostab Lennuamet .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Lennunduslubade v&auml;ljaandmise n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) ( Kehtetu - 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 2 ) Lennundusspetsialistide vanusele ja kvalifikatsioonile , nende koolitusele ja eksamineerimisele esitatavad n&otilde;uded ning lennundusspetsialistidele lennunduslubade v&auml;ljaandmise ja v&auml;lisriikides v&auml;ljaantud lennunduslubade tunnustamise eeskirja kehtestab teede- ja sideminister , l&auml;htudes 1944. aasta Chicago rahvusvahelise tsiviillennunduse konventsiooni lisas I s&auml;testatud n&otilde;uetest .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 24 <hi rend="sup">1</hi> .</s><s>Lennundusspetsialistide terviseseisund ja terviseuuringud</s>
+</p>
+<p>
+<s>( 1 ) Lennundusspetsialistide ja k&auml;esoleva seaduse &sect; 24 l&otilde;ikes 2 nimetatud koolitusele asuvate isikute terviseseisund peab vastama k&auml;esoleva paragrahvi l&otilde;ike 2 alusel kehtestatud tervisen&otilde;uetele ja seda t&otilde;endab sellekohane terviset&otilde;end .</s>
+</p>
+<p>
+<s>( 2 ) Lennundusspetsialistide tervisen&otilde;uded , terviseuuringute loetelu ja mahu ning arstliku l&auml;bivaatuse , selle sageduse ning eriarsti otsuse tegemise korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) Terviset&otilde;endi vormistab ja v&auml;ljastab lennundusloa taotlejale v&otilde;i k&auml;esoleva seaduse &sect; 24 l&otilde;ikes 2 nimetatud koolitusele asujale enne t&ouml;&ouml;le v&otilde;i koolitusele asumist ning perioodiliselt lennundusspetsialistidele eriarsti otsuse alusel Lennuameti t&ouml;&ouml;tervishoiuarst .</s>
+</p>
+<p>
+<s>( 4 ) J&auml;relevalvet lennundusspetsialistide terviseuuringute kvaliteedi &uuml;le teostatakse vastavalt tervishoiuteenuste korraldamise seadusele ( RT I 2001 , 50 , 284 ) .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Lennundusloa kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Lennundusluba v&otilde;i kehtivust&otilde;end tunnistatakse kehtetuks v&otilde;i selle kehtivus peatatakse , kui selle omanik :</s>
+</p>
+<p>
+<s>1 ) on rikkunud lennuohutuse n&otilde;udeid , sealhulgas juhtinud &otilde;hus&otilde;idukit v&otilde;i t&auml;itnud ameti&uuml;lesandeid alkoholi , narkootikumide , ps&uuml;hhotroopsete , ps&uuml;hhotoksiliste v&otilde;i teiste lennuohutust m&otilde;jutada v&otilde;ivate ainete m&otilde;ju all , k&auml;itanud &otilde;hus&otilde;idukit haigena , v&auml;sinuna v&otilde;i muul p&otilde;hjusel seisundis , kui isik ei saa t&auml;ita oma &uuml;lesandeid ohutul viisil ;</s>
+</p>
+<p>
+<s>2 ) on rikkunud lennundusalaste &otilde;igusaktide s&auml;tteid ;</s>
+</p>
+<p>
+<s>3 ) on tunnistatud tervislikel p&otilde;hjustel sobimatuks t&auml;itma oma &uuml;lesandeid ;</s>
+</p>
+<p>
+<s>4 ) on tunnistatud eksamite v&otilde;i kontroll-lendude alusel oma teadmiste v&otilde;i oskuste poolest mittevastavaks lennundusloas v&otilde;i kehtivust&otilde;endis m&auml;rgitud tegevusele .</s>
+</p>
+<p>
+<s>( 2 ) Lennuamet v&otilde;ib ametkondliku uurimise ajaks peatada lennundusloa v&otilde;i kehtivust&otilde;endi kehtivuse uurimise l&otilde;puni .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Lennundustegevust m&otilde;jutavatest asjaoludest teatamine</s>
+</p>
+<p>
+<s>( 1 ) Lennundusluba v&otilde;i kehtivust&otilde;endit omav isik on kohustatud Lennuametile teatama asjaoludest , mis v&otilde;ivad m&otilde;jutada tema k&otilde;lblikkust lennundusloas v&otilde;i kehtivust&otilde;endis m&auml;rgitud tegevuseks .</s>
+</p>
+<p>
+<s>( 2 ) M&otilde;juvate p&otilde;hjuste ilmnemisel korraldab Lennuamet lennundusluba v&otilde;i kehtivust&otilde;endit omava isiku tervisliku seisundi uurimise v&otilde;i kontrollib tema teoreetilisi teadmisi ja praktilisi oskusi .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Otilde;hus&otilde;iduki mehitamine ja kapteni kohustused &otilde;hus&otilde;iduki pardal</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>&Otilde;hus&otilde;iduki mehitamine</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduki mehitamine on &otilde;hus&otilde;iduki komplekteerimine p&auml;deva , lennuohutust tagava meeskonnaga .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduki meeskonnaliige on isik , kelle &otilde;hus&otilde;iduki omanik v&otilde;i valdaja on m&auml;&auml;ranud t&auml;itma t&ouml;&ouml;kohustusi &otilde;hus&otilde;iduki pardal lennu&uuml;lesande t&auml;itmise ajal.</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 2 <hi rend="sup">1</hi> ) Lennumeeskonna liige on kehtivat lennundusluba omav &otilde;hus&otilde;iduki meeskonnaliige , kelle kohustuseks on &otilde;hus&otilde;iduki k&auml;itamisega seotud tegevus lennu&uuml;lesande t&auml;itmise ajal.</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 3 ) &Otilde;hus&otilde;iduki k&auml;itaja peab tagama &otilde;hus&otilde;iduki mehitamise lennundusspetsialistidega , kes omavad kehtivat lennundusluba ja keda volitatakse t&auml;itma erialaseid &uuml;lesandeid lennu ajal.</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>&Otilde;hus&otilde;iduki kapten</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduki kapten on &otilde;hus&otilde;iduki omaniku v&otilde;i valdaja m&auml;&auml;ratud piloot , kes juhib meeskonna t&ouml;&ouml;d ja vastutab lennu ohutu kulgemise eest .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduki kapten vastutab meeskonnaliikmete , reisijate ja pardal oleva lasti ohutuse eest &otilde;hus&otilde;iduki uste sulgemise momendist alates ning &otilde;hus&otilde;iduki ohutu k&auml;itamise eest , alates &otilde;hus&otilde;iduki liikumapanekust startimiseks kuni peatumiseni ja mootorite seiskamiseni p&auml;rast lennu l&otilde;ppu .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 3 ) Kapteni korraldused , mis on seotud lennu ohutu sooritamisega , on k&otilde;igile &otilde;hus&otilde;iduki pardal viibivatele isikutele kohustuslikud .</s>
+</p>
+<p>
+<s>( 4 ) Kaptenil on &otilde;igus keelduda meeskonnaliikme , reisija v&otilde;i lasti pardale v&otilde;tmisest v&otilde;i k&otilde;rvaldada see isik v&otilde;i last pardalt enne lendu v&otilde;i p&auml;rast maandumist , kui seda n&otilde;uab lennuohutus .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>&Otilde;hus&otilde;iduki kapteni kohustused</s>
+</p>
+<p>
+<s>Kapten on kohustatud :</s>
+</p>
+<p>
+<s>1 ) kindlustama enne lendu , et &otilde;hus&otilde;iduk on lennuk&otilde;lblik , n&otilde;uetekohaselt varustatud , mehitatud , lastitud ja lend on ette valmistatud , ning sooritama lennu vastavalt kehtestatud eeskirjadele ;</s>
+</p>
+<p>
+<s>2 ) j&auml;lgima , et &otilde;hus&otilde;iduki pardal on etten&auml;htud dokumendid ning sissekanded nendesse on tehtud vastavalt kehtestatud eeskirjadele ;</s>
+</p>
+<p>
+<s>3 ) teatama k&otilde;igist &otilde;hus&otilde;iduki lennuk&otilde;lblikkust ohustavatest asjaoludest Lennuametile .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>&Otilde;hus&otilde;iduki kapteni ja meeskonna &uuml;hised kohustused</s>
+</p>
+<p>
+<s>Kapten ja meeskond on kohustatud hoolitsema &otilde;hus&otilde;iduki ning selle pardal olevate reisijate , posti ja lasti eest .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>&Otilde;hus&otilde;iduki kapteni &otilde;igused ohuolukorras</s>
+</p>
+<p>
+<s>&Otilde;hus&otilde;iduki sattumisel ohuolukorda on kaptenil &otilde;igus rakendada k&otilde;iki lennuohutuse seisukohalt vajalikke meetmeid kuuletumise ja korra tagamiseks .</s><s>Iga meeskonnaliige on kohustatud osutama kaptenile vajalikku abi .</s><s>Sellist abi on kaptenil &otilde;igus n&otilde;uda ka reisijatelt .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>&Otilde;hus&otilde;iduki kapteni kohustused kuriteo v&otilde;i haldus&otilde;iguserikkumise korral</s>
+</p>
+<p>
+<s>( 1 ) Kui &otilde;hus&otilde;iduki pardal on toime pandud kuriteo v&otilde;i haldus&otilde;iguserikkumise tunnustega tegu , on kapten kohustatud teatama sellest politseile ja rakendama meetmeid kuriteo v&otilde;i haldus&otilde;iguserikkumise asjaolude v&auml;ljaselgitamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kapten on kohustatud rakendama meetmeid kuriteos v&otilde;i haldus&otilde;iguserikkumises kahtlustatava kinnipidamiseks ning &uuml;leandmiseks Eesti politseile , Eesti konsulaarametile v&otilde;i v&auml;lisriigi vastavale asutusele .</s>
+</p>
+<p>
+<s>( 3 ) Kapten on kohustatud tagama &otilde;iguserikkumise vahendite ja teiste asit&otilde;endite &uuml;leandmise p&auml;devale asutusele .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Lennu&otilde;nnetusest v&otilde;i selle ohust teatamine</s>
+</p>
+<p>
+<s>Kapten v&otilde;i , kui temal ei ole see v&otilde;imalik , &otilde;hus&otilde;iduki omanik , valdaja v&otilde;i k&auml;itaja on kohustatud viivitamata teatama lennu&otilde;nnetusest v&otilde;i selle ohust Lennuametile ning esitama juhtunust 24 tunni jooksul kirjaliku ettekande .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lennuv&auml;ljad , lennuv&auml;ljakud ja lennuteenistused</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Lennuv&auml;ljad , lennuv&auml;ljakud ja lennuteenistused</s>
+</p>
+<p>
+<s>( 1 ) Lennuv&auml;li on teatud maa- v&otilde;i veeala koos ehitiste , seadmete ja varustusega , mis on ette n&auml;htud &otilde;hus&otilde;idukite saabumiseks , v&auml;ljumiseks ja maal v&otilde;i veel liikumiseks .</s>
+</p>
+<p>
+<s>( 2 ) Baaslennuv&auml;li on lennuv&auml;li , mille k&auml;itaja on s&otilde;lminud &otilde;hus&otilde;iduki k&auml;itajaga lepingu &otilde;hus&otilde;iduki alaliseks baseerumiseks sellel lennuv&auml;ljal .</s>
+</p>
+<p>
+<s>( 3 ) Lennuv&auml;ljak on piiratud varustuse ja m&otilde;&otilde;tmetega maa- v&otilde;i veeala koos ehitiste , seadmete ja varustusega , mis on ette n&auml;htud &otilde;hus&otilde;idukite saabumiseks , v&auml;ljumiseks ja maal v&otilde;i veel liikumiseks .</s>
+</p>
+<p>
+<s>( 4 ) Lennuliiklusteenistuse all m&otilde;istetakse lennuinformatsiooni- , h&auml;ire- , lennuliikluse n&otilde;ustamise ja lennuliikluse juhtimise teenistusi .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Lennuv&auml;lja ja lennuv&auml;ljaku ehitamine ja kasutuselev&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Lennuv&auml;lja ja lennuv&auml;ljaku planeerimine , projekteerimine , ehitamine ja ehitusliku kasutusloa v&auml;ljaandmine toimub vastavuses planeerimis- ja ehitusseadusega ( RT I 1995 , 59 , 1006 ; 1996 , 36 , 738 ; 49 , 953 ; 1999 , 27 , 380 ; 29 , 398 ja 399 ; 95 , 843 ; 2000 , 54 , 348 ; 2001 , 42 , 234 ; 50 , 283 ; 65 , 377 ) .</s><s>Projekt esitatakse enne l&otilde;plikku kinnitamist Lennuametile , kes teeb ekspertiisi lennuv&auml;lja v&otilde;i lennuv&auml;ljaku ja sellel kavandatava tegevuse hindamiseks aeronavigatsiooni , lennuliikluse ja lennuohutuse osas .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus kehtestab lennuohutuse tagamiseks lennuv&auml;lja l&auml;hi&uuml;mbruse m&auml;&auml;ratlemise ja kasutamise korra .</s>
+</p>
+<p>
+<s>( 3 ) Lennuv&auml;lja v&otilde;i lennuv&auml;ljaku projekti ekspertiisi tegemiseks v&otilde;ib Lennuamet kaasata teiste asutuste esindajaid .</s><s>Ekspertiisi otsusej&auml;rgne lubatav lennundustegevus peab olema esitatud nii projektis , ehitusloas kui ehituslikus kasutuselev&otilde;tuloas .</s>
+</p>
+<p>
+<s>( 4 ) K&otilde;ik v&auml;ljaspool lennuv&auml;lja l&auml;hi&uuml;mbrust asuvaid maapinnast &uuml;le 45 m k&otilde;rguseid ehitisi h&otilde;lmavad detailplaneeringud ja selliste ehitiste ehitusprojektid tuleb koosk&otilde;lastada Lennuametiga lennuohutusalase hinnangu ja vajaduse korral lennuohutust puudutavate tingimuste saamiseks .</s><s>Maapinnast &uuml;le 100 m k&otilde;rguste ehitiste puhul on Lennuametil &otilde;igus n&otilde;uda valminud ehitise asukoha ja k&otilde;rguse m&otilde;&otilde;distamist ehitise omaniku kulul .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Lennuv&auml;lja v&otilde;i lennuv&auml;ljaku sertifikaat</s>
+</p>
+<p>
+<s>( 1 ) Lennuv&auml;lja v&otilde;i lennuv&auml;ljaku kasutamiseks &otilde;hus&otilde;idukite lennutegevuse korraldamisel peab lennuv&auml;ljal v&otilde;i lennuv&auml;ljakul olema sertifikaat , mis kinnitab selle vastavust &otilde;hus&otilde;idukite ohutu k&auml;itamise n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Lennuv&auml;ljade ja lennuv&auml;ljakute sertifitseerimise korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Lennuv&auml;lju ja lennuv&auml;ljakuid sertifitseerib ja sertifikaate v&auml;ljastab Lennuamet .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Lennuliiklusteenistuse sertifikaat</s>
+</p>
+<p>
+<s>( 1 ) Lennuliikluse n&otilde;uetekohaseks korraldamiseks ja lennuohutuse tagamiseks peab ettev&otilde;tja omama sertifikaati , mis kinnitab , et tal on selleks tegevuseks piisavate teadmiste ja kogemustega personal , talitused , vajalikud seadmed , rajatised ja varustus ning v&auml;lja t&ouml;&ouml;tatud vajalikud protseduurid .</s>
+</p>
+<p>
+<s>( 2 ) Lennuliiklusteenistuste sertifitseerimise korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Lennuliiklusteenistusi sertifitseerib ja sertifikaate v&auml;ljastab Lennuamet .</s>
+</p>
+<p>
+<s>( 4 ) Lennujuhtimis- ja raadionavigatsiooniseadmeid sertifitseerib ja sertifikaate v&auml;ljastab Lennuamet .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lennuettev&otilde;tjad</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Lennuettev&otilde;tja</s>
+</p>
+<p>
+<s>Lennuettev&otilde;tjaks k&auml;esoleva seaduse t&auml;henduses v&otilde;ib olla f&uuml;&uuml;siline isik , tulunduslik v&otilde;i mittetulunduslik juriidiline isik , kes omab kehtivat lennutegevusluba .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Riiklikud load</s>
+</p>
+<p>
+<s>Tsiviil&otilde;hus&otilde;idukite k&auml;itamiseks &auml;rilistel eesm&auml;rkidel peab ettev&otilde;tja omama j&auml;rgmisi riiklikke lubasid :</s>
+</p>
+<p>
+<s>1 ) lennutegevusluba ;</s>
+</p>
+<p>
+<s>2 ) lennuettev&otilde;tja sertifikaati ;</s>
+</p>
+<p>
+<s>3 ) regulaarlennuliini pidamisel liiniluba .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Lennutegevusluba</s>
+</p>
+<p>
+<s>( 1 ) Lennutegevusluba on teede- ja sideministri poolt lennuettev&otilde;tjale v&auml;ljaantud dokument , mis lubab loas m&auml;rgitud tegevusaladel &otilde;hu teel vedada reisijaid , posti ja/v&otilde;i lasti tasu v&otilde;i h&uuml;vituse eest .</s>
+</p>
+<p>
+<s>( 2 ) Lennuettev&otilde;tja lennutegevusloa v&auml;ljaandmise , kehtivuse peatamise ja kehtetuks tunnistamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Lennutegevusloa v&otilde;ib anda :</s>
+</p>
+<p>
+<s>1 ) Eesti kodanikule v&otilde;i isikule , kellel on alaline elamisluba Eestis ;</s>
+</p>
+<p>
+<s>2 ) Eestis registreeritud &auml;ri&uuml;hingule , mis on otseselt v&otilde;i enamusaktsiate kaudu Eesti riigi , kohaliku omavalitsus&uuml;ksuse ja/v&otilde;i Eesti kodanike omandis .</s>
+</p>
+<p>
+<s>( 4 ) Lennutegevusluba antakse ettev&otilde;tjale , kui :</s>
+</p>
+<p>
+<s>1 ) tema peamine &auml;ritegevuse koht v&otilde;i registreeritud asukoht on Eestis ja peamine tegevusala on &otilde;huveondus eraldi v&otilde;i &uuml;hendatult m&otilde;ne muu &otilde;hus&otilde;idukite k&auml;itamise v&otilde;i hooldusega seotud &auml;ritegevusega ;</s>
+</p>
+<p>
+<s>2 ) tema k&auml;itada on &uuml;ks v&otilde;i enam &otilde;hus&otilde;idukit , mis on ettev&otilde;tja omandis v&otilde;i lepingu alusel valduses ;</s>
+</p>
+<p>
+<s>3 ) ta omab kehtivat lennuettev&otilde;tja sertifikaati ;</s>
+</p>
+<p>
+<s>4 ) ta on suuteline t&auml;itma esimese kahe aasta &auml;riplaanist tulenevaid kohustusi , sealhulgas katma kolme esimese tegutsemiskuu jooksul p&uuml;siv- ja muutuvkulud omavahendite arvelt , arvestamata antud perioodil teenitud tulusid .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Lennutegevusloa kehtivuse peatamine v&otilde;i kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Lennutegevusluba tunnistatakse kehtetuks , kui ettev&otilde;tja tegevus ei vasta k&auml;esoleva seaduse &sect; 40 l&otilde;igetes 3 ja 4 s&auml;testatule .</s>
+</p>
+<p>
+<s>( 2 ) Lennuettev&otilde;tja majanduslike raskuste ilmnemisel v&otilde;ib tegevusloa v&auml;ljaandja selle kehtivuse peatada ja v&auml;ljastada ajutise t&auml;htajalise tegevusloa tingimusel , et on tagatud lennuohutus .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Lennuettev&otilde;tja sertifikaat</s>
+</p>
+<p>
+<s>( 1 ) Lennuettev&otilde;tjaid sertifitseerib Lennuamet .</s>
+</p>
+<p>
+<s>( 2 ) Lennuettev&otilde;tjate sertifitseerimise tingimused ja korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) Lennuettev&otilde;tja sertifikaat on Lennuameti poolt v&auml;ljaantud dokument , mis kinnitab , et lennuettev&otilde;tjal on sellise tegevuse ohutuks ja seaduslikuks korraldamiseks vajalikud talitused , rajatised , seadmed ja varustus ning piisavate teadmiste , oskuste ja kogemustega personal .</s>
+</p>
+<p>
+<s>( 4 ) Lennuettev&otilde;tja sertifikaadi juurde kuuluvad k&auml;itamistingimused .</s>
+</p>
+<p>
+<s>( 5 ) Lennuettev&otilde;tja sertifikaat peab olema ka nendel isikutel , kes teevad &otilde;hus&otilde;idukilt v&otilde;i &otilde;hus&otilde;idukiga tasu eest t&ouml;id , mis ei ole k&auml;sitatavad reisijate , posti ja/v&otilde;i lasti veona .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Lennuettev&otilde;tja sertifikaadi kehtivuse peatamine v&otilde;i kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Lennuettev&otilde;tja sertifikaat tunnistatakse kehtetuks v&otilde;i peatatakse ajutiselt puuduste k&otilde;rvaldamiseni v&otilde;i muudetakse selles esitatud k&auml;itamistingimusi , kui :</s>
+</p>
+<p>
+<s>1 ) lennuettev&otilde;tja ei vasta k&auml;esoleva seaduse &sect; 42 l&otilde;ikes 3 nimetatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) on rikutud lennuettev&otilde;tja sertifikaadi juurde kuuluvaid k&auml;itamistingimusi .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Muutused lennutegevusloa ja lennuettev&otilde;tja sertifikaadi alustes</s>
+</p>
+<p>
+<s>Lennutegevusluba ja lennuettev&otilde;tja sertifikaati omav ettev&otilde;tja on kohustatud Lennuametile viivitamata kirjalikult teatama k&otilde;igist muutustest andmetes , mis olid aluseks tegevusloa ja sertifikaadi v&auml;ljaandmisel .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Lennutegevusluba ja lennuettev&otilde;tja sertifikaati omavate ettev&otilde;tjate kontrollimine</s>
+</p>
+<p>
+<s>Lennutegevusluba ja lennuettev&otilde;tja sertifikaati omav ettev&otilde;tja on kohustatud Lennuameti j&auml;relevalve vastutavale t&ouml;&ouml;tajale kontrolli teostamiseks v&otilde;imaldama juurdep&auml;&auml;su k&otilde;igile vastavatele hoonetele , ruumidele , seadmetele , dokumentatsioonile ja arvutiteabele , samuti esitama vajalikku teavet kirjalikult .</s><s>Kontrolli teostatakse lennuettev&otilde;tja t&ouml;&ouml; ajal.</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Liiniluba</s>
+</p>
+<p>
+<s>( 1 ) Liiniluba on Lennuameti v&auml;ljaantud t&auml;htajaline dokument regulaarse lennuliini pidamiseks kindlal marsruudil .</s><s>Liiniluba antakse v&auml;lja lennuettev&otilde;tjale , kellel on lennutegevusluba reisilendude teostamiseks , vastava kvalifikatsiooniga lennundusspetsialistid , sertifitseeritud vastava kategooria &otilde;hus&otilde;idukid ning lennuliini pidamiseks vajalik aeronavigatsioonialane teave .</s>
+</p>
+<p>
+<s>( 2 ) Liinilubade v&auml;ljaandmise korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lisriikide lennuettev&otilde;tjad v&otilde;ivad vastavalt v&auml;lislepingule pidada regulaarset lennuliini Eesti territooriumile , territooriumil v&otilde;i territooriumilt .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lennu&otilde;nnetused ja -intsidendid</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Otsingu- ja p&auml;&auml;stet&ouml;&ouml;d lennu&otilde;nnetuste ja -intsidentide puhul</s>
+</p>
+<p>
+<s>( 1 ) Otsingu- ja p&auml;&auml;stet&ouml;&ouml;d lennu&otilde;nnetuse korral on ohuolukorda sattunud v&otilde;i kadumal&auml;inud &otilde;hus&otilde;iduki ning sellel olnud inimeste otsimine ja p&auml;&auml;stmine .</s>
+</p>
+<p>
+<s>( 2 ) Otsingut&ouml;id lennu&otilde;nnetuse korral korraldab maismaal ja siseveekogudel , sise- ja territoriaalmeres , majandusv&ouml;&ouml;ndis ning Peipsi , L&auml;mmi- ja Pihkva j&auml;rvel Piirivalveamet .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 3 ) P&auml;&auml;stet&ouml;id lennu&otilde;nnetuse korral korraldab maismaal ja siseveekogudel P&auml;&auml;steamet , sise- ja territoriaalmeres , majandusv&ouml;&ouml;ndis ning Peipsi , L&auml;mmi- ja Pihkva j&auml;rvel Piirivalveamet .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 4 ) Otsingu- ja p&auml;&auml;stet&ouml;&ouml;del lennuv&auml;ljade piirkonnas raadiusega kuni 5 meremiili on Piirivalveameti ja P&auml;&auml;steameti korraldusel kohustatud osalema ka lennuv&auml;ljade valdajad ja sertifitseeritud lennuliiklusteenistused .</s><s>Tekkinud kulude h&uuml;vitamine toimub vastavalt p&auml;&auml;steseadusele ( RT I 1994 , 28 , 424 ; 1998 , 39 , 598 ; 2000 , 50 , 316 ; 2001 , 50 , 283 ) .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Lennu&otilde;nnetuse ja -intsidendi uurimine</s>
+</p>
+<p>
+<s>( 1 ) Lennu&otilde;nnetus on &otilde;hus&otilde;iduki kasutamisega seotud &otilde;nnetusjuhtum , mis toimub ajavahemikus alates hetkest , mil keegi isik astub &otilde;hus&otilde;iduki pardale kavatsusega sooritada lend , kuni k&otilde;igi pardal viibinud isikute &otilde;hus&otilde;idukist lahkumise hetkeni ja mille kestel keegi isikutest saab surma , surmavalt v&otilde;i raskesti vigastada v&otilde;i &otilde;hus&otilde;iduk saab t&otilde;siseid vigastusi , on teadmata kadunud v&otilde;i asub ligip&auml;&auml;smatus kohas .</s>
+</p>
+<p>
+<s>( 2 ) Lennuintsident on &otilde;hus&otilde;iduki kasutamisega seotud , lennuohutust m&otilde;jutav , kuid mitte lennu&otilde;nnetusega l&otilde;ppenud s&uuml;ndmus , mis toimub ajavahemikus alates hetkest , mil keegi isik astub &otilde;hus&otilde;iduki pardale kavatsusega sooritada lend , kuni k&otilde;igi pardal viibinud isikute &otilde;hus&otilde;idukist lahkumise hetkeni .</s>
+</p>
+<p>
+<s>( 3 ) Eesti territooriumil v&otilde;i &otilde;huruumis toimunud lennu&otilde;nnetuste ja -intsidentide uurimise korraldamiseks moodustab Vabariigi Valitsus s&otilde;ltumatu alalise struktuuri&uuml;ksuse ( edaspidi uurimis&uuml;ksus ) Teede- ja Sideministeeriumis .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 4 ) Uurimis&uuml;ksusel on &otilde;igus kaasata uurimisse eksperte ja teha ettepanekuid teede- ja sideministrile uurimiskomisjonide moodustamiseks .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 5 ) Lennu&otilde;nnetuse v&otilde;i -intsidendi uurimise peamine eesm&auml;rk on kindlaks teha lennu&otilde;nnetuse v&otilde;i -intsidendi p&otilde;hjused , et v&auml;ltida selliseid &otilde;nnetusi ja intsidente tulevikus .</s>
+</p>
+<p>
+<s>( 6 ) Uurimisega seotud asutused on oma p&auml;devuse piires kohustatud osutama uurimiskomisjonile v&otilde;i eksperdile vajalikku kaasabi .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>( 7 ) Lennuamet peab vastavalt 1944. aasta Chicago rahvusvahelise tsiviillennunduse konventsiooni n&otilde;uetele informeerima lennu&otilde;nnetusega seotud riikide lennundusasutusi ja Rahvusvahelist Tsiviillennunduse Organisatsiooni .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Teabe ja t&otilde;endite tagamine</s>
+</p>
+<p>
+<s>( 1 ) Uurimiskomisjonil v&otilde;i eksperdil on &otilde;igus k&uuml;sitleda k&otilde;iki isikuid , kellel on uurimise seisukohalt t&auml;htsat teavet .</s><s>Uurimiskomisjonil v&otilde;i eksperdil on &otilde;igus iseseisvalt v&otilde;i koost&ouml;&ouml;s kriminaalasja eeluurimist teostava asutusega juurdep&auml;&auml;suks kogu asjassepuutuvale teabele ja dokumentidele .</s>
+</p>
+<p>
+<s>( 2 ) Kui on leitud &otilde;hus&otilde;iduk , sellel veetud kaupa v&otilde;i muud &otilde;hus&otilde;iduki juurde kuuluvat ja on k&uuml;llaldaselt alust arvata , et on toimunud lennu&otilde;nnetus , on keelatud leitut &auml;ra viia v&otilde;i &uuml;mber paigutada uurimiskomisjoni v&otilde;i eksperdi loata .</s><s>Need n&otilde;uded ei kehti inimelu p&auml;&auml;stmise ja kannatanule abi osutamise korral .</s>
+</p>
+<p>
+<s>( 3 ) Isik , kes on v&otilde;tnud enda valdusesse k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud vara , on kohustatud viivitamata sellest teatama politseile , uurimis&uuml;ksusele v&otilde;i eksperdile , kes peavad v&otilde;tma meetmeid vara s&auml;ilitamiseks .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Uurimisaruanne</s>
+</p>
+<p>
+<s>Uurimistulemuste kohta koostab uurimis&uuml;ksus uurimisaruande , mille sisu vastab lennu&otilde;nnetuse v&otilde;i -intsidendi iseloomule ja raskusastmele ning mis avalikustatakse .</s><s>Uurimisaruande lahutamatuks osaks on lennuohutusalased soovitused .</s><s>Uurimisaruandeid kasutab Lennuamet lennuohutuse tagamise meetmete v&auml;ljat&ouml;&ouml;tamisel .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Lennunduse muud s&auml;tted</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>&Uuml;hekordne luba</s>
+</p>
+<p>
+<s>( 1 ) Lennuv&otilde;istluste v&otilde;i -vaatem&auml;ngude ja erilise iseloomuga lennundus&uuml;rituste korraldamiseks peab olema Lennuameti &uuml;hekordne luba .</s><s>See on n&otilde;utav ka katselennu sooritamiseks , lennuks maapealsete seadmete kontrollimiseks v&otilde;i m&otilde;neks muuks erakordseks lennuks .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hekordse lennuloa v&otilde;ib v&auml;lja anda &otilde;hus&otilde;idukile , millel ei ole kehtivat lennuk&otilde;lblikkussertifikaati , kuid mille lend teatud piirangutega on ohutu .</s><s>Piirangute ulatuse ja mahu m&auml;&auml;rab Lennuamet vastavalt Vabariigi Valitsuse kehtestatud lennuk&otilde;lblikkusn&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>&Otilde;hus&otilde;iduki sundmaandamine</s>
+</p>
+<p>
+<s>( 1 ) Lennuohutuse tagamiseks ning julgeoleku ja avaliku korra huvides on lennujuhil &otilde;igus n&otilde;uda &otilde;hus&otilde;iduki kaptenilt &otilde;hus&otilde;iduki sundmaandumist l&auml;himal sobival lennuv&auml;ljal .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduki sundmaandamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Siseriiklikud &otilde;huveod</s>
+</p>
+<p>
+<s>( 1 ) Siseriiklike &otilde;huvedude puhul rakendatakse rahvusvaheliste &otilde;huvedude reeglite &uuml;htlustamise konventsiooni ja Varssavi konventsiooni t&auml;iendava , lepinguv&auml;lise vedaja teostatavate rahvusvaheliste &otilde;huvedude reeglite &uuml;htlustamise konventsiooni s&auml;tteid ( RT II 1998 , 2-4 , 7 ja 9 ) .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;huvedude eeskirja kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Ohtlike ainete &otilde;huvedu</s>
+</p>
+<p>
+<s>Ohtlike ainete vedu tsiviil&otilde;hus&otilde;idukitega toimub Lennuameti kirjaliku loa alusel 1944. aasta Chicago rahvusvahelise tsiviillennunduse konventsiooni n&otilde;uete kohaselt .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>&Otilde;hus&otilde;iduki kasutamise keelamine</s>
+</p>
+<p>
+<s>( 1 ) Keelatud on :</s>
+</p>
+<p>
+<s>1 ) &otilde;hus&otilde;iduki start , kui &otilde;hus&otilde;iduk ei ole lennuk&otilde;lblik v&otilde;i n&otilde;uetekohaselt mehitatud , varustatud ja lastitud v&otilde;i ilmnevad muud &otilde;hus&otilde;iduki k&auml;itamist takistavad asjaolud , v&auml;lja arvatud k&auml;esoleva seaduse &sect; 14 l&otilde;ikes 4 nimetatud juhtudel ;</s>
+</p>
+<p>
+<s>2 ) kasutada tsiviil&otilde;hus&otilde;idukit Eesti Vabariigi &otilde;igusaktidega keelatud esemete v&otilde;i ainete vedamiseks ;</s>
+</p>
+<p>
+<s>3 ) &otilde;hus&otilde;iduki k&auml;itamine alkoholi , narkootikumide , ps&uuml;hhotroopsete , ps&uuml;hhotoksiliste v&otilde;i teiste lennuohutust m&otilde;jutada v&otilde;ivate ainete m&otilde;ju all ;</s>
+</p>
+<p>
+<s>4 ) &otilde;hus&otilde;iduki k&auml;itamine haigena , v&auml;sinuna v&otilde;i muul p&otilde;hjusel seisundis , kui isik ei saa t&auml;ita oma &uuml;lesandeid ohutul viisil .</s>
+</p>
+<p>
+<s>( 2 ) Lennuv&auml;lja k&auml;itajal v&otilde;i tema poolt kirjalikult volitatud isikul on &otilde;igus keelduda &otilde;hus&otilde;iduki teenindamisest , kui kehtestatud maksed , mis on seotud &otilde;hus&otilde;iduki viimase maandumisega lennuv&auml;ljale , viibimisega seal v&otilde;i lahkumisega sealt , ei ole tasutud v&otilde;i ei ole esitatud tagatist nende tasumise kohta .</s>
+</p>
+<p>
+<s>( 3 ) Lennuliikluse juhtimise teenuse osutajal on &otilde;igus keelduda &otilde;hus&otilde;iduki teenindamisest , mille k&auml;itaja ei ole tasunud varasema lennuliikluse juhtimise teenuse eest , kui sellega ei seata ohtu inimeste elu ja tervist ega tekitata kahju keskkonnale ega kolmandatele isikutele .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Ebaharilike &otilde;hus&otilde;idukite kasutamine</s>
+</p>
+<p>
+<s>( 1 ) Piloodita , mootorita v&otilde;i muude ebaharilike omadustega &otilde;hus&otilde;idukite k&auml;itamiseks kehtestab teede- ja sideminister eeskirjad , mis v&otilde;ivad erineda k&auml;esoleva seaduse 2.-7. peat&uuml;ki s&auml;tetest , tingimusel , et oleks tagatud lennuohutus .</s>
+</p>
+<p>
+<s>( 2 ) Teede- ja sideminister kehtestab eeskirjad , millega reguleeritakse &otilde;huruumi kasutamist selliste lennuvahendite poolt , mida ei saa klassifitseerida &otilde;hus&otilde;idukitena .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Aeronavigatsioonialane teave ja meteoroloogiaalase teeninduse tagamine</s>
+</p>
+<p>
+<s>( 1 ) Eesti asutused ja ettev&otilde;tjad , kes on aeronavigatsioonialase teabe t&ouml;&ouml;tlejad ja koostajad , on kohustatud teavet &otilde;igeaegselt edastama lennuliiklusteenistusele .</s>
+</p>
+<p>
+<s>( 2 ) Aeronavigatsioonialase teabe edastamise ja meteoroloogiaalase teeninduse tagamise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Kindlustus</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;hus&otilde;iduki k&auml;itamiseks rahvusvahelistel , &auml;ri- ja koolituslendudel on n&otilde;utav k&auml;itaja tsiviilvastutuskindlustuslepingu s&otilde;lmimine kolmandate isikute kasuks , et h&uuml;vitada &otilde;hus&otilde;iduki tekitatud kahju .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;hus&otilde;iduki k&auml;itamisel reisijate , pagasi , lasti ja/v&otilde;i posti veoks tasu v&otilde;i muu h&uuml;vituse eest on lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kindlustusele n&otilde;utav ka k&auml;itaja vastutuskindlustuslepingu s&otilde;lmimine reisijate , pagasi , lasti ja/v&otilde;i posti suhtes , et h&uuml;vitada &otilde;huveo k&auml;igus tekitatud kahjud reisijate surma v&otilde;i vigastada saamise ning pagasi , lasti ja/v&otilde;i posti kaduma mineku v&otilde;i kahjustumise korral .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud kindlustuslepingu ning l&otilde;ikes 2 nimetatud pagasi , lasti ja/v&otilde;i posti suhtes s&otilde;lmitud kindlustuslepingu kindlustussumma peab olema v&auml;hemalt 10 miljonit Eesti krooni &uuml;he kindlustusjuhtumi ja &uuml;he kindlustush&uuml;vitise taotleja kohta .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud reisijate elu ja tervise suhtes s&otilde;lmitud k&auml;itaja vastutuskindlustuslepingu kindlustussumma peab olema Eesti kroonides v&otilde;rdne v&auml;hemalt 100 000 SDR-iga ( Special Drawing Right - Rahvusvahelise Valuutafondi arvestus&uuml;hik ) &uuml;he kindlustusjuhtumi ja &uuml;he kindlustush&uuml;vitise taotleja kohta .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud kohustusliku kindlustuse lepingud s&otilde;lmitakse kindlustustegevuse seaduse ( RT I 2000 , 53 , 343 ; 2001 , 43 , 238 ; 48 , 268 ; 59 , 359 ) &sect;-s 6 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 17.10.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 87 , 525 )</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Lennuliiklustasud</s>
+</p>
+<p>
+<s>Lennuliiklustasudeks on marsruudi navigatsioonitasu , terminali navigatsioonitasu ja lennuv&auml;ljatasud .</s><s>Lennuliiklustasude m&auml;&auml;ramise , maksmise ja maksmisest vabastamise korra kehtestab teede- ja sideminister .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Lennundusjulgestus</s>
+</p>
+<p>
+<s>Lennundusjulgestuse korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Lennundusalaste dokumentide koosk&otilde;lla viimine k&auml;esoleva seadusega</s>
+</p>
+<p>
+<s>Enne k&auml;esoleva seaduse j&otilde;ustumist v&auml;ljaantud lennundusalased m&auml;&auml;rused , litsentsid , sertifikaadid , tunnistused ja load vaadatakse l&auml;bi , tunnistatakse kehtetuks v&otilde;i viiakse koosk&otilde;lla k&auml;esoleva seadusega kuue kuu jooksul , arvates seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Seaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse j&otilde;ustudes tunnistatakse lennundusseadus ( RT I 1993 , 36 , 557 ) kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1999. aasta 1. septembril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

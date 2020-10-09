@@ -1,0 +1,780 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> V&auml;listeenistuse seadus ( terviktekst mai 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    2734</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> V&auml;listeenistuse seadus ( terviktekst mai 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=225></tagusage>
+         <tagusage gi=s occurs=283></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>V&auml;listeenistuse seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 25. jaanuaril 1995. a.</s>
+</p>
+<p>
+<s>( RT I 1995 , 15 , 172 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 1996. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>17.04.2001 j&otilde;ust.01.09.2001 - RT I 2001 , 43 , 240 ;</s>
+</p>
+<p>
+<s>26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 ;</s>
+</p>
+<p>
+<s>24.05.95 j&otilde;ust.02.06.95 - RT I 1995 , 50 , 764.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadusega reguleeritakse v&auml;listeenistust .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;listeenistus on riigiteenistus diplomaatilisel ametikohal .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>V&auml;listeenistuse jaotus</s>
+</p>
+<p>
+<s>V&auml;listeenistus jaguneb diplomaatiliseks ja konsulaarteenistuseks .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Diplomaat</s>
+</p>
+<p>
+<s>Diplomaat on diplomaatilises v&otilde;i konsulaarteenistuses olev ametnik , kellele on antud diplomaatiline au- v&otilde;i teenistusaste ning kes on volitatud esindama Eesti Vabariiki v&auml;lissuhtlemises .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Diplomaadile laienevad &otilde;igusaktid</s>
+</p>
+<p>
+<s>( 1 ) Diplomaadile laienevad avaliku teenistuse seadus ja muud riigiteenistust reguleerivad &otilde;igusaktid , kui k&auml;esolevas seaduses ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lisriigis viibiv diplomaat juhindub oma tegevuses diplomaatiliste suhete Viini konventsioonist ( RT II 1993 , 24 , 56 ) ja konsulaarsuhete Viini konventsioonist ( RT II 1993 , 23 , 53 ) ning muudest &otilde;igusaktidest .</s><s>Talle laienevad rahvusvahelise tava ja praktikaga etten&auml;htud puutumatus ja ees&otilde;igused .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Diplomaatiline ja konsulaarteenistus</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>V&auml;lisministeeriumi diplomaatilise koosseisu ametiastmed</s>
+</p>
+<p>
+<s>V&auml;lisministeeriumi diplomaatilise koosseisu ametiastmed on :</s>
+</p>
+<p>
+<s>1 ) kantsler - secr&eacute;taire g&eacute;n&eacute;ral , permanent under secretary ;</s>
+</p>
+<p>
+<s>2 ) osakonna peadirektor - directeur g&eacute;n&eacute;ral de d&eacute;partement , director general of department ;</s>
+</p>
+<p>
+<s>3 ) b&uuml;roo direktor - directeur de bureau , director of division ;</s>
+</p>
+<p>
+<s>4 ) n&otilde;unik - conseiller , counsellor ;</s>
+</p>
+<p>
+<s>5 ) ministeeriumi esimene ( I ) sekret&auml;r - premier secr&eacute;taire de minist&egrave;re , first secretary of ministry ;</s>
+</p>
+<p>
+<s>6 ) ministeeriumi teine ( II ) sekret&auml;r - deuxi&egrave;me secr&eacute;taire de minist&egrave;re , second secretary of ministry ;</s>
+</p>
+<p>
+<s>7 ) ministeeriumi kolmas ( III ) sekret&auml;r - troisi&egrave;me secr&eacute;taire de minist&egrave;re , third secretary of ministry ;</s>
+</p>
+<p>
+<s>8 ) ministeeriumi ata&scaron;ee - attach&eacute; de minist&egrave;re , attach&eacute; of ministry .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>V&auml;lisesinduse diplomaatilise ja konsulaarkoosseisu ametiastmed</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisesinduse diplomaatilise koosseisu ametiastmed on :</s>
+</p>
+<p>
+<s>1 ) erakorraline ja t&auml;ievoliline suursaadik - ambassadeur extraordinaire et pl&eacute;nipotentiaire , ambassador extraordinary and plenipotentiary ;</s>
+</p>
+<p>
+<s>2 ) minister-n&otilde;unik - ministre-conseiller , minister-counsellor ;</s>
+</p>
+<p>
+<s>3 ) suursaatkonna n&otilde;unik - conseiller d'ambassade , counsellor of embassy ;</s>
+</p>
+<p>
+<s>4 ) suursaatkonna esimene ( I ) sekret&auml;r - premier secr&eacute;taire d'ambassade , first secretary of embassy ;</s>
+</p>
+<p>
+<s>5 ) suursaatkonna teine ( II ) sekret&auml;r - deuxi&egrave;me secr&eacute;taire d'ambassade , second secretary of embassy ;</s>
+</p>
+<p>
+<s>6 ) suursaatkonna kolmas ( III ) sekret&auml;r - troisi&egrave;me secr&eacute;taire d'ambassade , third secretary of embassy ;</s>
+</p>
+<p>
+<s>7 ) suursaatkonna ata&scaron;ee - attach&eacute; d'ambassade , attach&eacute; of embassy .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lisesinduse konsulaarkoosseisu ametiastmed on :</s>
+</p>
+<p>
+<s>1 ) peakonsul - consul g&eacute;n&eacute;ral , consul general ;</s>
+</p>
+<p>
+<s>2 ) konsul - consul ;</s>
+</p>
+<p>
+<s>3 ) asekonsul - vice-consul .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Diplomaatilise ja konsulaarkoosseisu ametiastmete vastavus</s>
+</p>
+<p>
+<s>V&auml;lisministeeriumi diplomaatilise koosseisu ametiastmetele vastavad v&auml;lisesinduse diplomaatilise ja konsulaarkoosseisu ametiastmed j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) osakonna peadirektor - erakorraline ja t&auml;ievoliline suursaadik ;</s>
+</p>
+<p>
+<s>2 ) b&uuml;roo direktor - minister-n&otilde;unik ;</s>
+</p>
+<p>
+<s>3 ) ministeeriumi n&otilde;unik - suursaatkonna n&otilde;unik ; peakonsul ;</s>
+</p>
+<p>
+<s>4 ) ministeeriumi I sekret&auml;r - suursaatkonna I sekret&auml;r ; konsul ;</s>
+</p>
+<p>
+<s>5 ) ministeeriumi II sekret&auml;r - suursaatkonna II sekret&auml;r ; asekonsul ;</s>
+</p>
+<p>
+<s>6 ) ministeeriumi III sekret&auml;r - suursaatkonna III sekret&auml;r ;</s>
+</p>
+<p>
+<s>7 ) ministeeriumi ata&scaron;ee - suursaatkonna ata&scaron;ee .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>V&auml;listeenistuse diplomaatiliste ametikohtade kehtestamine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;listeenistuse diplomaatilised ametikohad vastavalt k&auml;esolevas seaduses s&auml;testatud ametiastmetele kehtestab v&auml;lisminister .</s>
+</p>
+<p>
+<s>( 2 ) Minister-n&otilde;uniku ametiastmele vastava ametikoha v&otilde;ib v&auml;lisminister kehtestada v&auml;lisesinduses , mille koosseisus on v&auml;lisministri poolt ette n&auml;htud v&auml;hemalt kuue diplomaadi ametikohad .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Asjur</s>
+</p>
+<p>
+<s>( 1 ) Erakorralise ja t&auml;ievolilise suursaadiku nimetamiseni , samuti tema &auml;raolekul juhib Eesti v&auml;lisesindust v&auml;lisministri poolt ja Vabariigi Presidendi teadmisel m&auml;&auml;ratud ajutine asjur ( charg&eacute; d'affaires ad interim ) .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lisriikidesse ja rahvusvaheliste organisatsioonide juurde , kus Vabariigi Valitsuse poolt ei ole ette n&auml;htud erakorralise ja t&auml;ievolilise suursaadiku kohta , nimetab v&auml;lisminister Vabariigi Presidendi teadmisel asjuri ( charg&eacute; d'affaires ) .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Diplomaatilised au- ja teenistusastmed</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Diplomaatiliste au- ja teenistusastmete nimetused</s>
+</p>
+<p>
+<s>( 1 ) Diplomaatilisteks auastmeteks on :</s>
+</p>
+<p>
+<s>1 ) suursaadik - ambassadeur , ambassador ;</s>
+</p>
+<p>
+<s>2 ) saadik - envoy&eacute; , envoy .</s>
+</p>
+<p>
+<s>( 2 ) Diplomaatilisteks teenistusastmeteks on :</s>
+</p>
+<p>
+<s>1 ) n&otilde;unik - conseiller , counsellor ;</s>
+</p>
+<p>
+<s>2 ) esimene sekret&auml;r - premier secr&eacute;taire , first secretary ;</s>
+</p>
+<p>
+<s>3 ) teine sekret&auml;r - deuxi&egrave;me secr&eacute;taire , second secretary ;</s>
+</p>
+<p>
+<s>4 ) kolmas sekret&auml;r - troisi&egrave;me secr&eacute;taire , third secretary ;</s>
+</p>
+<p>
+<s>5 ) ata&scaron;ee - attach&eacute; .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Diplomaatilise auastme andmine</s>
+</p>
+<p>
+<s>( 1 ) Diplomaatiline auaste antakse Vabariigi Presidendi otsusega eluaegselt .</s>
+</p>
+<p>
+<s>( 2 ) Ettepaneku diplomaatilise auastme andmiseks teeb Vabariigi Presidendile Vabariigi Valitsus .</s><s>Sellekohase taotluse esitab Vabariigi Valitsusele v&auml;lisminister V&auml;lisministeeriumi atesteerimiskomisjoni otsuse alusel .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Diplomaatilise teenistusastme andmise tingimused</s>
+</p>
+<p>
+<s>( 1 ) Ata&scaron;ee diplomaatiline teenistusaste v&otilde;idakse V&auml;lisministeeriumi atesteerimiskomisjoni otsuse alusel anda isikule , kes on ametnikuna olnud V&auml;lisministeeriumi teenistuses v&auml;hemalt kuus kuud .</s>
+</p>
+<p>
+<s>( 2 ) J&auml;rgneva diplomaatilise teenistusastme v&otilde;ib anda , kui diplomaat on teeninud :</s>
+</p>
+<p>
+<s>1 ) ata&scaron;eena v&auml;hemalt kaks aastat ;</s>
+</p>
+<p>
+<s>2 ) III sekret&auml;rina v&auml;hemalt kolm aastat ;</s>
+</p>
+<p>
+<s>3 ) II sekret&auml;rina v&auml;hemalt neli aastat ;</s>
+</p>
+<p>
+<s>4 ) I sekret&auml;rina v&auml;hemalt neli aastat .</s>
+</p>
+<p>
+<s>( 3 ) Erandkorras v&otilde;ib V&auml;lisministeeriumi atesteerimiskomisjoni otsuse alusel anda diplomaatilise teenistusastme k&auml;esoleva paragrahvi 1. ja 2. l&otilde;ikes s&auml;testatud n&otilde;udeid j&auml;rgimata isikule , kes on rahvusvaheliselt tunnustatud v&otilde;i v&auml;lissuhtlemises vajalike kogemustega spetsialist .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Diplomaatilise teenistusastme andmine</s>
+</p>
+<p>
+<s>( 1 ) Diplomaatiline teenistusaste antakse v&auml;lisministri k&auml;skkirjaga v&auml;listeenistuses t&ouml;&ouml;tamise ajaks .</s><s>V&auml;listeenistusest pensionile j&auml;&auml;misel diplomaatiline teenistusaste s&auml;ilib .</s>
+</p>
+<p>
+<s>( 2 ) Ettepaneku diplomaatilise teenistusastme andmiseks teeb v&auml;lisministrile kantsler V&auml;lisministeeriumi atesteerimiskomisjoni otsuse alusel .</s>
+</p>
+<p>
+<s>( 3 ) Isiku vabastamisel v&auml;listeenistusest kaotab diplomaatiline teenistusaste oma kehtivuse .</s><s>Isiku taasnimetamisel v&auml;listeenistusse diplomaatiline teenistusaste ennistatakse , v&auml;lja arvatud juhul , kui diplomaatiline teenistusaste on &auml;ra v&otilde;etud m&otilde;nel k&auml;esoleva seaduse paragrahv 15 1. l&otilde;ikes s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Diplomaatilise auastme &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Diplomaatiline auaste v&otilde;idakse &auml;ra v&otilde;tta Vabariigi Presidendi otsusega , kui diplomaat on kohtu korras karistatud .</s>
+</p>
+<p>
+<s>( 2 ) Ettepaneku diplomaatilise auastme &auml;rav&otilde;tmiseks teeb Vabariigi Presidendile Vabariigi Valitsus .</s><s>Sellekohase taotluse esitab Vabariigi Valitsusele v&auml;lisminister V&auml;lisministeeriumi atesteerimiskomisjoni otsuse alusel .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Diplomaatilise teenistusastme madaldamine v&otilde;i &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Diplomaatilist teenistusastet v&otilde;idakse madaldada v&otilde;i &auml;ra v&otilde;tta v&auml;lisministri k&auml;skkirjaga , kui diplomaat on :</s>
+</p>
+<p>
+<s>1 ) kohtu korras karistatud ;</s>
+</p>
+<p>
+<s>2 ) j&auml;medalt rikkunud teenistuskohustusi ;</s>
+</p>
+<p>
+<s>3 ) kaotanud usalduse ;</s>
+</p>
+<p>
+<s>4 ) toime pannud v&auml;&auml;ritu teo .</s>
+</p>
+<p>
+<s>( 2 ) Ettepaneku diplomaatilise teenistusastme madaldamiseks v&otilde;i &auml;rav&otilde;tmiseks teeb v&auml;lisministrile kantsler V&auml;lisministeeriumi atesteerimiskomisjoni otsuse alusel .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Diplomaatilise au- ja teenistusastme tasu</s>
+</p>
+<p>
+<s>Diplomaatilise au- ja teenistusastme tasu makstakse Vabariigi Valitsuse poolt kehtestatud korras .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>V&auml;listeenistusse v&otilde;tmine ja teenistusk&auml;ik</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>V&auml;listeenistusse v&otilde;tmise n&otilde;uded</s>
+</p>
+<p>
+<s>V&auml;listeenistusse v&otilde;idakse v&otilde;tta isik , kes vastab j&auml;rgmistele n&otilde;uetele :</s>
+</p>
+<p>
+<s>1 ) tervislik seisund v&otilde;imaldab t&ouml;&ouml;tamist v&auml;listeenistuses ;</s>
+</p>
+<p>
+<s>2 ) oskab suuliselt ja kirjalikult v&auml;hemalt kaht v&otilde;&otilde;rkeelt , millest &uuml;ks peab olema kas prantsuse v&otilde;i inglise keel ;</s>
+</p>
+<p>
+<s>3 ) on k&otilde;rgharidusega ;</s>
+</p>
+<p>
+<s>4 ) ei ole sattunud majanduslike v&otilde;i muude kohustuste t&otilde;ttu olukorda , mis takistaks v&auml;listeenistuse &uuml;lesannete t&auml;itmist ;</s>
+</p>
+<p>
+<s>5 ) on ametnikuna olnud V&auml;lisministeeriumi teenistuses v&auml;hemalt kuus kuud .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>V&auml;listeenistusse v&otilde;tmise kord</s>
+</p>
+<p>
+<s>V&auml;listeenistusse v&otilde;etakse ametisse nimetamisega V&auml;lisministeeriumi atesteerimiskomisjoni otsuse alusel .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Ametisse nimetamise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisministeeriumi kantsler ja osakonna peadirektor nimetatakse ametisse Vabariigi Valitsuse seaduses ( RT I 1995 , 94 , 1628 ) s&auml;testatud korras ja nad peavad vastama k&auml;esolevas seaduses s&auml;testatud n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Teised diplomaadid nimetab ametisse V&auml;lisministeeriumi kantsler .</s>
+</p>
+<p>
+<s>( 26.06.96 j&otilde;ust.26.07.96 - RT I 1996 , 49 , 953 )</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>V&auml;lisesindusse l&auml;hetamise ja tagasikutsumise kord</s>
+</p>
+<p>
+<s>( 1 ) Erakorralise ja t&auml;ievolilise suursaadiku nimetab ja kutsub tagasi Vabariigi President Vabariigi Valitsuse ettepanekul .</s>
+</p>
+<p>
+<s>( 2 ) Asjuri nimetab ja kutsub tagasi v&auml;lisminister Vabariigi Presidendi teadmisel .</s>
+</p>
+<p>
+<s>( 3 ) Konsulaarasutuse juhi nimetab ja kutsub tagasi v&auml;lisminister kantsleri ettepanekul .</s>
+</p>
+<p>
+<s>( 4 ) V&auml;lisministeeriumi teenistuses oleva diplomaadi l&auml;hetab V&auml;lisministeeriumist v&auml;lisesindusse ja kutsub v&auml;lisesindusest tagasi kantsler .</s>
+</p>
+<p>
+<s>( 5 ) L&auml;hetusaja kestusega kuni neli aastat ja l&auml;hetuskohta saabumise kuup&auml;eva m&auml;&auml;rab kindlaks kantsler .</s>
+</p>
+<p>
+<s>( 6 ) V&auml;lisesindusse l&auml;hetamine ning tagasikutsumine toimub regulaarselt ning h&otilde;lmab k&otilde;iki teenistuses olevaid diplomaate .</s>
+</p>
+<p>
+<s>( 7 ) L&auml;hetamisest v&otilde;i tagasikutsumisest teatatakse diplomaadile v&auml;hemalt &uuml;ks kuu ette ning talle antakse aega isiklike asjade korraldamiseks v&auml;hemalt &uuml;ks n&auml;dal , mille jooksul ta on ametikohustustest vabastatud .</s>
+</p>
+<p>
+<s>( 8 ) V&auml;lisesindusest tagasikutsumise aluseks v&otilde;ib olla :</s>
+</p>
+<p>
+<s>1 ) l&auml;hetusaja l&otilde;ppemine ;</s>
+</p>
+<p>
+<s>2 ) ametniku isiklik palve ;</s>
+</p>
+<p>
+<s>3 ) asukohariigi palve ;</s>
+</p>
+<p>
+<s>4 ) nimetamine , &uuml;mberpaigutamine v&otilde;i valimine teisele ametikohale riigiteenistuses ;</s>
+</p>
+<p>
+<s>5 ) V&auml;lisministeeriumi k&auml;sutusse kutsumine .</s>
+</p>
+<p>
+<s>( 9 ) V&auml;lisesinduses t&ouml;&ouml;tav diplomaat peab l&auml;hetuse kestel v&auml;hemalt &uuml;he korra kogukestusega &uuml;ks kuu viibima V&auml;lisministeeriumis t&auml;iend&otilde;ppel v&otilde;i -koolitusel .</s><s>Sel perioodil diplomaadile v&auml;listeenistustasu ei maksta .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>V&auml;lisministeeriumi k&auml;sutusse kutsumine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisminister v&otilde;ib Vabariigi Presidendi teadmisel kutsuda v&auml;lisesinduse juhi ajutiselt kuni kolmeks kuuks V&auml;lisministeeriumi k&auml;sutusse .</s><s>Sama &otilde;igus on kantsleril k&otilde;igi teiste v&auml;lisesinduse diplomaatide suhtes .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi 1. l&otilde;ikes s&auml;testatud t&auml;htaega v&otilde;ib erakorralisest rahvusvahelisest olukorrast v&otilde;i riikidevahelistest suhetest tingitud asjaoludel pikendada kuni &uuml;he aastani .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lisministeeriumi k&auml;sutusse kutsutu t&auml;idab v&auml;lisministri v&otilde;i kantsleri antud &uuml;lesandeid ning talle s&auml;ilitatakse senine ametipalk ilma v&auml;listeenistustasuta .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Atesteerimine</s>
+</p>
+<p>
+<s>( 1 ) Atesteerimist viib l&auml;bi V&auml;lisministeeriumi atesteerimiskomisjon .</s>
+</p>
+<p>
+<s>( 2 ) Atesteerimiskomisjoni t&ouml;&ouml;korra , -p&otilde;him&otilde;tted ja koosseisu kinnitab v&auml;lisminister .</s>
+</p>
+<p>
+<s>( 3 ) Atesteerimine toimub :</s>
+</p>
+<p>
+<s>1 ) v&auml;hemalt &uuml;ks kord kahe teenistusaasta jooksul ;</s>
+</p>
+<p>
+<s>2 ) kui diplomaadi suhtes on tehtud edutamisettepanek ;</s>
+</p>
+<p>
+<s>3 ) diplomaatilise auastme andmise v&otilde;i &auml;rav&otilde;tmise ettepaneku tegemisel ;</s>
+</p>
+<p>
+<s>4 ) diplomaatilise teenistusastme andmise , madaldamise v&otilde;i &auml;rav&otilde;tmise ettepaneku tegemisel .</s>
+</p>
+<p>
+<s>( 4 ) Atesteerimisel hinnatakse diplomaadi vastavust ametikohale , tema isikuomadusi , kutse- ja suhtlemisoskust ning tervislikku seisundit .</s>
+</p>
+<p>
+<s>( 5 ) Atesteerimiskomisjoni otsus on aluseks ettepaneku tegemisel :</s>
+</p>
+<p>
+<s>1 ) v&auml;listeenistusse nimetamiseks , edutamiseks , &uuml;mberpaigutamiseks v&otilde;i ametikohalt vabastamiseks ;</s>
+</p>
+<p>
+<s>2 ) diplomaatilise auastme andmiseks v&otilde;i &auml;rav&otilde;tmiseks ;</s>
+</p>
+<p>
+<s>3 ) diplomaatilise teenistusastme andmiseks , madaldamiseks v&otilde;i &auml;rav&otilde;tmiseks ;</s>
+</p>
+<p>
+<s>4 ) t&auml;iend&otilde;ppele v&otilde;i -koolitusele l&auml;hetamiseks .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Diplomaadi &otilde;igused ja sotsiaalsed tagatised</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Tasustamine</s>
+</p>
+<p>
+<s>Diplomaat saab ametipalka ja muid tasusid vastavalt riigiteenistust k&auml;sitlevatele &otilde;igusaktidele ning k&auml;esolevas seaduses s&auml;testatud eranditele .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>V&auml;listeenistustasu</s>
+</p>
+<p>
+<s>V&auml;listeenistustasu makstakse diplomaadile v&auml;lisesinduses t&ouml;&ouml;tamise ajal Vabariigi Valitsuse poolt kehtestatud ulatuses ja korras .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Esindustasu</s>
+</p>
+<p>
+<s>V&auml;listeenistusse v&otilde;tmisel ja iga j&auml;rgneva teenistusaasta algul makstakse diplomaadile esindustasu kahe kuu ametipalga ulatuses .</s><s>Esindustasu ei kuulu maksustamisele .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Diplomaatilise staa&zcaron;i arvestamine ja diplomaatilise teenistusastme s&auml;ilitamine</s>
+</p>
+<p>
+<s>( 1 ) Diplomaadi valimisel v&otilde;i nimetamisel rahvusvahelise organisatsiooni diplomaatilisele ametikohale arvestatakse nimetatud periood diplomaatilise staa&zcaron;i hulka ja tema diplomaatiline teenistusaste s&auml;ilib .</s>
+</p>
+<p>
+<s>( 2 ) Diplomaadi suunamisel t&auml;iend&otilde;ppele v&otilde;i -koolitusele arvestatakse nimetatud periood diplomaatilise staa&zcaron;i hulka ja tema diplomaatiline teenistusaste s&auml;ilib .</s>
+</p>
+<p>
+<s>( 3 ) Diplomaadi nimetamisel ametisse Vabariigi Presidendi Kantseleisse v&otilde;i peaministri b&uuml;roosse arvestatakse seal t&ouml;&ouml;tamise aeg diplomaatilise staa&zcaron;i hulka ja tema diplomaatiline teenistusaste s&auml;ilib .</s>
+</p>
+<p>
+<s>( 17.04.2001 j&otilde;ust.01.09.2001 - RT I 2001 , 43 , 240 )</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>T&ouml;&ouml;andja eluruum</s>
+</p>
+<p>
+<s>Diplomaadile v&otilde;idakse vajaduse korral anda t&ouml;&ouml;andja eluruum .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Diplomaadi ja tema perekonnaliikmete h&uuml;vitused</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisesinduses t&ouml;&ouml;tavale diplomaadile h&uuml;vitatakse :</s>
+</p>
+<p>
+<s>1 ) reisi- ja kolimiskulud ;</s>
+</p>
+<p>
+<s>2 ) majutuskulud ;</s>
+</p>
+<p>
+<s>3 ) tervisekindlustus ja ravikulud ;</s>
+</p>
+<p>
+<s>4 ) alaealiste laste koolituskulud .</s>
+</p>
+<p>
+<s>( 2 ) Diplomaadile ja tema perekonnaliikmetele makstavate h&uuml;vituste suuruse ja maksmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 3 ) Abikaasa v&auml;lisesinduses kaasasoleku korral suurendatakse diplomaadi v&auml;listeenistustasu 35% v&otilde;rra ning abikaasa v&auml;lisesinduses oleku aeg arvestatakse tema t&ouml;&ouml;staa&zcaron;i hulka .</s><s>Kui diplomaadi abikaasa t&ouml;&ouml;tab v&auml;lisesinduses , siis diplomaadi v&auml;listeenistustasu ei suurendata .</s><s>Diplomaadi abikaasale tagatakse ravi- ja tervisekindlustus .</s>
+</p>
+<p>
+<s>( 4 ) Alaealise lapse v&auml;lisesinduses kaasasoleku korral suurendatakse diplomaadi v&auml;listeenistustasu 15% v&otilde;rra lapse kohta .</s><s>Diplomaadi lapsele tagatakse ravi- ja tervisekindlustus .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Diplomaadi puhkus</s>
+</p>
+<p>
+<s>( 1 ) Puhkusel viibimise ajal on diplomaat kohustatud teatama vahetule &uuml;lemusele oma asukoha .</s>
+</p>
+<p>
+<s>( 2 ) Teenistuse huvides v&otilde;ib kantsler v&otilde;i v&auml;lisesinduse juht diplomaadi puhkuse katkestada .</s><s>Vastavalt diplomaadi soovile liidetakse puhkuse katkemise t&otilde;ttu kasutamata j&auml;&auml;nud puhkuse osa j&auml;rgmise aasta puhkusega v&otilde;i antakse samal teenistusaastal .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lisesinduses t&ouml;&ouml;tava diplomaadi puhkust pikendatakse Eestisse ja teenistuskohta tagasi s&otilde;iduks kulunud aja v&otilde;rra .</s><s>Isiklikes k&uuml;simustes Eestisse s&otilde;idu puhul v&otilde;idakse &uuml;ks kord aastas osaliselt v&otilde;i t&auml;ielikult h&uuml;vitada s&otilde;idukulud kantsleri loal .</s>
+</p>
+<p>
+<s>( 4 ) Diplomaadi puhkuse kogupikkus ei v&otilde;i &uuml;letada 56 p&auml;eva .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Sotsiaalsed tagatised diplomaatiliste &uuml;lesannete t&auml;itmisel</s>
+</p>
+<p>
+<s>( 1 ) Kui diplomaat hukkub diplomaatiliste &uuml;lesannete t&auml;itmisel v&auml;lisriigis , maksab riik tema &uuml;lalpidamisel olevatele perekonnaliikmetele v&otilde;i omastele &uuml;hekordset toetust diplomaadi k&uuml;mne aasta ametipalga ulatuses .</s><s>Matused korraldatakse riigi kulul .</s>
+</p>
+<p>
+<s>( 2 ) Kui diplomaat invaliidistub diplomaatiliste &uuml;lesannete t&auml;itmisel v&auml;lisriigis , mis toob kaasa t&ouml;&ouml;v&otilde;ime t&auml;ieliku kaotuse , maksab riik diplomaadile &uuml;hekordset toetust viie aasta ametipalga ulatuses .</s>
+</p>
+<p>
+<s>( 3 ) Kui diplomaat invaliidistub diplomaatiliste &uuml;lesannete t&auml;itmisel v&auml;lisriigis , mis toob kaasa t&ouml;&ouml;v&otilde;ime osalise kaotuse , maksab riik diplomaadile &uuml;hekordset toetust &uuml;he aasta ametipalga ulatuses .</s>
+</p>
+<p>
+<s>( 4 ) Diplomaat kuulub riigi poolt kohustuslikule kindlustamisele rahvusvahelise isiku- ja reisikindlustuslepingu alusel .</s>
+</p>
+<p>
+<s>( 5 ) Riik tagab diplomaadile tasuta iga-aastased terviseuuringud ja ravi .</s>
+</p>
+<p>
+<s>( 6 ) Diplomaadi &uuml;mberpaigutamisel V&auml;lisministeeriumist v&auml;lisesindusse v&otilde;i vastupidi tagatakse talle tema ametiastmele vastav ametipalk .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Diplomaadi kohustused</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>&Uuml;ldn&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Diplomaat peab olema ustav Eesti p&otilde;hiseaduslikule korrale ja kaitsma Eesti iseseisvust , j&auml;rgima demokraatliku &uuml;hiskonna v&auml;&auml;rtusi ning olema oma tegevuses kindel , korrektne ja v&auml;&auml;rikas , hoides k&otilde;rgel Eesti Vabariigi rahvusvahelist mainet .</s><s>Diplomaat on kohustatud j&auml;rgima asukohariigi seadusi ja muid &otilde;igusakte , austama sealseid tavasid ja kombeid ning mitte sekkuma asukohariigi siseasjadesse .</s>
+</p>
+<p>
+<s>( 2 ) Diplomaat peab t&auml;itma riigiteenistust k&auml;sitlevatest ja muudest &otilde;igusaktidest tulenevaid n&otilde;udeid , kui k&auml;esoleva seadusega ei ole s&auml;testatud teisiti .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>Sisekorraeeskiri ja ametijuhend</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisministeeriumi ja v&auml;lisesinduse t&ouml;&ouml;alused ning V&auml;lisministeeriumi sisekorraeeskirja kinnitab v&auml;lisminister .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;lisesinduse sisekorraeeskirja kinnitab v&auml;lisesinduse juht kantsleriga koosk&otilde;lastatult .</s>
+</p>
+<p>
+<s>( 3 ) V&auml;lisministri poolt ametisse nimetatud diplomaadi ametijuhendi kinnitab v&auml;lisminister .</s>
+</p>
+<p>
+<s>( 4 ) Kantsleri poolt ametisse nimetatud diplomaadi ametijuhendi kinnitab kantsler .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Riigisaladus ja konfidentsiaalne informatsioon</s>
+</p>
+<p>
+<s>( 1 ) Diplomaat on kohustatud kasutama ja hoidma riigisaladust seadusega s&auml;testatud korras ning mitte avalikustama talle teenistusega seoses teatavaks saanud konfidentsiaalset informatsiooni .</s>
+</p>
+<p>
+<s>( 2 ) Konfidentsiaalse informatsiooni hoidmise korra V&auml;lisministeeriumis ja v&auml;lisesinduses kinnitab v&auml;lisminister .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Ametialane l&auml;hetus</s>
+</p>
+<p>
+<s>Diplomaat on kohustatud suunduma kuni &uuml;hekuulisesse l&auml;hetusse v&auml;lisesindusse , kui sellest on talle ette teatatud v&auml;hemalt kolm p&auml;eva .</s><s>Diplomaadi n&otilde;usolekul v&otilde;ib kantsler l&auml;hetuse aega pikendada kuni kolme kuuni .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>V&auml;listeenistusest vabastamine</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Diplomaadi vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Diplomaat vabastatakse v&auml;listeenistusest avaliku teenistuse seaduses s&auml;testatud alustel ja korras , samuti temalt diplomaatilise au- v&otilde;i teenistusastme &auml;rav&otilde;tmisel vastavalt k&auml;esoleva seaduse paragrahvile 14 v&otilde;i 15.</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse paragrahv 17 punktis 4 s&auml;testatud n&otilde;udele mittevastava diplomaadi v&otilde;ib v&auml;listeenistusest vabastada .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>V&auml;listeenistusest vabastatud diplomaadi edasine teenistusk&auml;ik</s>
+</p>
+<p>
+<s>V&auml;listeenistusest vabastatud diplomaat v&otilde;idakse nimetada teisele ametikohale riigiteenistuses v&otilde;i arvata ametnike reservi avaliku teenistuse seaduses s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>V&auml;listeenistusse v&otilde;tmise n&otilde;uete rakendamine</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse paragrahv 17 punktis 3 s&auml;testatud n&otilde;uet ei rakendata k&auml;esoleva seaduse j&otilde;ustumisel v&auml;listeenistuses olevate ametnike suhtes kolme aasta jooksul , arvates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Atesteerimine ja diplomaatilise teenistusastme andmine</s>
+</p>
+<p>
+<s>( 1 ) V&auml;lisministeeriumis 1994. aastal toimunud atesteerimine loetakse kehtivaks ning j&auml;rgmine atesteerimine toimub k&auml;esolevas seaduses s&auml;testatud korras .</s><s>Ametnikud , keda 1994. aastal ei atesteeritud , atesteeritakse 1995. aasta jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Atesteeritud ametnikule , kes on k&auml;esoleva seaduse j&otilde;ustumisel v&auml;listeenistuses , antakse vastavalt tema ametiastmele j&auml;rgmine teenistusaste :</s>
+</p>
+<p>
+<s>1 ) kantslerile , osakonna peadirektorile , b&uuml;roo direktorile , minister-n&otilde;unikule , ministeeriumi n&otilde;unikule , suursaatkonna n&otilde;unikule ja peakonsulile - n&otilde;unik ;</s>
+</p>
+<p>
+<s>2 ) ministeeriumi esimesele ( I ) sekret&auml;rile , suursaatkonna esimesele ( I ) sekret&auml;rile ja konsulile - esimene sekret&auml;r ;</s>
+</p>
+<p>
+<s>3 ) ministeeriumi teisele ( II ) sekret&auml;rile , suursaatkonna teisele ( II ) sekret&auml;rile ja asekonsulile - teine sekret&auml;r ;</s>
+</p>
+<p>
+<s>4 ) ministeeriumi kolmandale ( III ) sekret&auml;rile , suursaatkonna kolmandale ( III ) sekret&auml;rile - kolmas sekret&auml;r ;</s>
+</p>
+<p>
+<s>5 ) ministeeriumi ata&scaron;eele , suursaatkonna ata&scaron;eele - ata&scaron;ee .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ige ei laiene ametnikule , kellele on Vabariigi Presidendi otsusega antud diplomaatiline auaste .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>L&auml;hetusaeg v&auml;lisesinduses</s>
+</p>
+<p>
+<s>V&auml;lisesinduses t&ouml;&ouml;tava diplomaadi l&auml;hetusaeg vastavalt k&auml;esoleva seaduse paragrahv 20 5. l&otilde;ikele m&auml;&auml;ratakse kolme kuu jooksul , arvates k&auml;esoleva seaduse j&otilde;ustumisest .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>Vabariigi Valitsusel ja v&auml;lisministril on &otilde;igus anda k&auml;esoleva seaduse t&auml;itmiseks &otilde;igusakte .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub 1996. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 24.05.95 j&otilde;ust.02.06.95 - RT I 1995 , 50 , 764 )</s>
+</p>
+</body>
+   </text>
+</tei.2>

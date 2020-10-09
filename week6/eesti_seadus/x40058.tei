@@ -1,0 +1,1357 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Tervishoiuteenuste korraldamise seadus ( veebr 2002 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    6087</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Tervishoiuteenuste korraldamise seadus ( veebr 2002 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=9></tagusage>
+         <tagusage gi=p occurs=417></tagusage>
+         <tagusage gi=s occurs=518></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Tervishoiuteenuste korraldamise seadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 9. mail 2001. a.</s>
+</p>
+<p>
+<s>( RT I 2001 , 50 , 284 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2002. a.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>( 1 ) Seadus s&auml;testab tervishoiuteenuste osutamise korralduse ja n&otilde;uded ning tervishoiu juhtimise , rahastamise ja j&auml;relevalve korra .</s>
+</p>
+<p>
+<s>( 2 ) Seadust ei kohaldata tervishoiuteenuste osutamise korraldusele kaitsev&auml;es , v&auml;lja arvatud tervishoiut&ouml;&ouml;tajate registreerimise ning ruumide , sisseseade ja aparatuuri j&auml;relevalve osas .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Tervishoiuteenus</s>
+</p>
+<p>
+<s>( 1 ) Tervishoiuteenus on tervishoiut&ouml;&ouml;taja tegevus haiguse , vigastuse v&otilde;i m&uuml;rgituse ennetamiseks , diagnoosimiseks ja ravimiseks eesm&auml;rgiga leevendada inimese vaevusi , hoida &auml;ra tema tervise seisundi halvenemist v&otilde;i haiguse &auml;genemist ning taastada tervist .</s><s>Tervishoiuteenuste loetelu kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 2 ) Statsionaarne on tervishoiuteenus , mille osutamiseks on vajalik inimese &ouml;&ouml;p&auml;evaringne viibimine haiglas .</s>
+</p>
+<p>
+<s>( 3 ) Ambulatoorne on tervishoiuteenus , mille osutamiseks inimese &ouml;&ouml;p&auml;evaringne viibimine haiglas ei ole vajalik .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Tervishoiut&ouml;&ouml;taja</s>
+</p>
+<p>
+<s>( 1 ) Tervishoiut&ouml;&ouml;tajad k&auml;esoleva seaduse t&auml;henduses on arst , hambaarst , &otilde;de ja &auml;mmaemand , kui nad on registreeritud Tervishoiuametis .</s>
+</p>
+<p>
+<s>( 2 ) Tervishoiut&ouml;&ouml;taja v&otilde;ib osutada tervishoiuteenuseid omandatud eriala piirides , mille kohta talle on v&auml;ljastatud Tervishoiuameti t&otilde;end tervishoiut&ouml;&ouml;tajana registreerimise kohta .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Tervishoiuteenuse osutaja</s>
+</p>
+<p>
+<s>Tervishoiuteenuse osutaja on tervishoiut&ouml;&ouml;taja v&otilde;i tervishoiuteenuseid osutav juriidiline isik .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tervishoiuteenuste osutamise korraldus</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>V&auml;ltimatu abi</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>V&auml;ltimatu abi m&otilde;iste</s>
+</p>
+<p>
+<s>V&auml;ltimatu abi k&auml;esoleva seaduse t&auml;henduses on tervishoiuteenus , mida tervishoiut&ouml;&ouml;taja osutab olukorras , kus abi edasil&uuml;kkamine v&otilde;i selle andmata j&auml;tmine v&otilde;ib p&otilde;hjustada abivajaja surma v&otilde;i p&uuml;siva tervisekahjustuse .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>V&auml;ltimatu abi osutamine</s>
+</p>
+<p>
+<s>( 1 ) Igal Eesti Vabariigi territooriumil viibival inimesel on &otilde;igus saada v&auml;ltimatut abi .</s>
+</p>
+<p>
+<s>( 2 ) Tervishoiut&ouml;&ouml;taja on kohustatud osutama v&auml;ltimatut abi oma p&auml;devuse ja tema kasutuses olevate v&otilde;imaluste piires .</s>
+</p>
+<p>
+<s>( 3 ) Kohustusliku ravikindlustusega kindlustatud isikule ja temaga v&otilde;rdsustatud isikule ( edaspidi ravikindlustusega h&otilde;lmatud isik ) osutatud v&auml;ltimatu abi eest tasutakse riigieelarves ravikindlustuseks etten&auml;htud vahenditest .</s>
+</p>
+<p>
+<s>( 4 ) Ravikindlustusega h&otilde;lmamata isikule osutatud v&auml;ltimatu abi eest tasutakse riigieelarvest selleks etten&auml;htud vahenditest Sotsiaalministeeriumi ja Eesti Haigekassa vahel s&otilde;lmitud lepingu alusel Eesti Haigekassa poolt vastavalt Eesti Vabariigi ravikindlustusseaduse ( RT 1991 , 23 , 272 ; RT I 1999 , 7 , 113 ; 29 , 397 ; 2000 , 57 , 374 ; 84 , 536 ; 102 , 675 ; 2001 , 42 , 233 ) &sect; 12 l&otilde;ike 2 alusel Vabariigi Valitsuse kehtestatud tervishoiuteenuste hindade ja nende eest tasumise korrale .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>&Uuml;ldarstiabi</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>&Uuml;ldarstiabi m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;ldarstiabi on ambulatoorne tervishoiuteenus , mida osutavad perearst ja temaga koos t&ouml;&ouml;tavad tervishoiut&ouml;&ouml;tajad .</s>
+</p>
+<p>
+<s>( 2 ) Perearst on sellekohase eriala omandanud eriarst , kes tegutseb :</s>
+</p>
+<p>
+<s>1 ) perearsti nimistu alusel ;</s>
+</p>
+<p>
+<s>2 ) nimistuta eriarstina .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ike 2 punktis 2 nimetatud perearsti tegevusele kohaldatakse k&auml;esoleva seaduse haiglav&auml;lise eriarstiabi osutamist reguleerivaid s&auml;tteid .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Perearsti nimistu</s>
+</p>
+<p>
+<s>( 1 ) Perearsti nimistu on k&auml;esoleva seaduse alusel perearsti teenindamisele kuuluvate isikute nimekiri .</s>
+</p>
+<p>
+<s>( 2 ) Igal perearstil on &uuml;ks nimistu .</s>
+</p>
+<p>
+<s>( 3 ) Igal ravikindlustusega h&otilde;lmatud Eesti kodanikul ja elamisloa alusel Eestis viibival v&auml;lismaalasel on &otilde;igus registreeruda perearsti nimistusse ja vahetada kirjaliku avalduse alusel perearsti .</s><s>Isiku &uuml;leminekut uue perearsti nimistusse arvestatakse j&auml;rgmise kalendrikuu esimesest p&auml;evast .</s>
+</p>
+<p>
+<s>( 4 ) Perearsti nimistu moodustub perearsti juurde registreerunud isikutest ja maavanema poolt nimistu piirsuurust arvestades alalise elukoha alusel m&auml;&auml;ratud isikutest .</s><s>Nimistu piirsuuruse , moodustamise , muutmise ja v&otilde;rdlemise alused ning korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 5 ) Nimistute piirarvu maakondade kaupa kinnitab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 6 ) Perearst tagab tema nimistusse kantud inimestele tervishoiuteenuste k&auml;ttesaadavuse ning j&auml;rjepidevuse perearsti t&ouml;&ouml;juhendis etten&auml;htud ulatuses ja korras .</s><s>Perearsti t&ouml;&ouml;juhendi kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 7 ) Perearst teavitab tema nimistusse kantud inimesi , kuhu ja kelle poole saab isik p&ouml;&ouml;rduda arstiabi saamiseks v&auml;ljaspool perearsti vastuv&otilde;tuaega .</s><s>Eesti Haigekassa v&otilde;ib s&otilde;lmida perearstiga lepingu &uuml;ldarstiabi osutamiseks &otilde;htu- ja &ouml;&ouml;tundidel ning puhkep&auml;evadel .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Perearsti teeninduspiirkond</s>
+</p>
+<p>
+<s>Perearsti teeninduspiirkond on maavanema m&auml;&auml;ratud omavalitsus&uuml;ksuse ala , kus elavale v&otilde;i ajutiselt viibivale isikule , kes ei kuulu perearsti nimistusse , osutab perearst &uuml;ldarstiabi .</s><s>Perearsti nimistusse mittekuuluvatele isikutele &uuml;ldarstiabi eest tasumise korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>Perearsti tegevuskoht</s>
+</p>
+<p>
+<s>Perearsti tegevuskoha ruumidele , sisseseadele ja aparatuurile esitatavad n&otilde;uded kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>&Uuml;ldarstiabi rahastamine</s>
+</p>
+<p>
+<s>( 1 ) Ravikindlustusega h&otilde;lmatud isikule osutatud &uuml;ldarstiabi eest tasutakse riigieelarves ravikindlustuseks etten&auml;htud vahenditest ulatuses , mille eest tasumise kohustuse on &uuml;le v&otilde;tnud Eesti Haigekassa .</s>
+</p>
+<p>
+<s>( 2 ) Ravikindlustusega h&otilde;lmamata isik tasub &uuml;ldarstiabi eest ise .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Perearstina tegutsemise &otilde;iguslik vorm</s>
+</p>
+<p>
+<s>Perearstid v&otilde;ivad tegutseda f&uuml;&uuml;silisest isikust ettev&otilde;tjana v&otilde;i asutada &uuml;ldarstiabi osutava &auml;ri&uuml;hingu .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>&Uuml;ldarstiabi osutava &auml;ri&uuml;hingu erisused</s>
+</p>
+<p>
+<s>( 1 ) T&auml;is&uuml;hingu v&otilde;i usaldus&uuml;hinguna tegutseva &auml;ri&uuml;hingu &uuml;hinguleping s&otilde;lmitakse kirjalikult ja lisatakse &uuml;hingu &auml;riregistrisse kandmise avaldusele .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;ldarstiabi osutav &auml;ri&uuml;hing v&otilde;ib &uuml;hineda ainult teise &uuml;ldarstiabi osutava &auml;ri&uuml;hinguga .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;ldarstiabi osutav &auml;ri&uuml;hing ei v&otilde;i olla osanikuks v&otilde;i aktsion&auml;riks eriarstiabi osutavas &auml;ri&uuml;hingus .</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Tegevusala</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;ldarstiabi osutaval &auml;ri&uuml;hingul ei v&otilde;i olla teist tegevusala peale &uuml;ldarstiabi ja sotsiaalteenuste osutamise ning tervishoiualase &otilde;ppe- ja teadust&ouml;&ouml; .</s>
+</p>
+<p>
+<s>( 2 ) F&uuml;&uuml;silisest isikust ettev&otilde;tjana &auml;riregistrisse kantud perearst v&otilde;ib &auml;riregistrisse kantud &auml;rinime all osutada ainult &uuml;ldarstiabi , sotsiaalteenuseid ning tegeleda tervishoiualase &otilde;ppe- ja teadust&ouml;&ouml;ga .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>&Uuml;ldarstiabi osutava &auml;ri&uuml;hingu osanik ja aktsion&auml;r</s>
+</p>
+<p>
+<s>( 1 ) &Uuml;ldarstiabi osutava &auml;ri&uuml;hingu osanik v&otilde;i aktsion&auml;r v&otilde;ib olla &uuml;ksnes selle &uuml;hingu kaudu tervishoiuteenuseid osutav perearst .</s>
+</p>
+<p>
+<s>( 2 ) Kui osanikult v&otilde;i aktsion&auml;rilt on perearstina tegutsemise &otilde;igus &auml;ra v&otilde;etud , peab ta oma osa v&otilde;i aktsia v&otilde;&otilde;randama kolme kuu jooksul perearstile , kes hakkab selle &uuml;hingu kaudu tervishoiuteenuseid osutama .</s><s>Kui osa v&otilde;i aktsiat ei ole kolme kuu jooksul v&otilde;&otilde;randatud , on &auml;ri&uuml;hing kohustatud osa v&otilde;i aktsia t&uuml;histama ja h&uuml;vitama perearstile osa v&otilde;i aktsia v&auml;&auml;rtuse .</s>
+</p>
+<p>
+<s>( 3 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud osanik v&otilde;i aktsion&auml;r oli &auml;ri&uuml;hingu ainus osanik v&otilde;i aktsion&auml;r , peab ta oma osa v&otilde;i aktsia v&otilde;&otilde;randama kolme kuu jooksul perearstile , kes hakkab selle &uuml;hingu kaudu tervishoiuteenuseid osutama , v&otilde;i otsustama &auml;ri&uuml;hingu l&otilde;petamise .</s><s>Kui perearst nimetatud &otilde;igust ei kasuta , l&otilde;petatakse &auml;ri&uuml;hing nimistu moodustamise &otilde;iguse andja n&otilde;udel kohtuotsusega .</s>
+</p>
+<p>
+<s>( 4 ) Osaniku v&otilde;i aktsion&auml;ri surma korral l&auml;heb &auml;ri&uuml;hingu osa v&otilde;i aktsia &uuml;le tema p&auml;rijale juhul , kui p&auml;rija on perearst ja hakkab osutama selle &uuml;hingu kaudu tervishoiuteenuseid .</s><s>Muudel juhtudel peab perearsti p&auml;rija v&otilde;&otilde;randama osa v&otilde;i aktsia p&auml;randi vastuv&otilde;tmisest alates kolme kuu jooksul perearstile , kes hakkab selle &uuml;hingu kaudu tervishoiuteenuseid osutama .</s><s>Kui osa v&otilde;i aktsia ei ole selle aja jooksul v&otilde;&otilde;randatud , on &auml;ri&uuml;hing kohustatud osa v&otilde;i aktsia t&uuml;histama ja h&uuml;vitama p&auml;rijale osa v&otilde;i aktsia v&auml;&auml;rtuse .</s>
+</p>
+<p>
+<s>( 5 ) Kui k&auml;esoleva paragrahvi l&otilde;ikes 4 nimetatud osanik v&otilde;i aktsion&auml;r oli &auml;ri&uuml;hingu ainus osanik v&otilde;i aktsion&auml;r , v&otilde;ib p&auml;rija p&auml;randi vastuv&otilde;tmisest alates kuue kuu jooksul v&otilde;&otilde;randada osa v&otilde;i aktsia perearstile , kes hakkab selle &uuml;hingu kaudu tervishoiuteenuseid osutama , v&otilde;i otsustada &auml;ri&uuml;hingu l&otilde;petamise .</s><s>Kui p&auml;rija ei kasuta nimetatud &otilde;igusi , l&otilde;petatakse &auml;ri&uuml;hing nimistu moodustamise &otilde;iguse andja n&otilde;udel kohtuotsusega .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Kiirabi</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>Kiirabi m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Kiirabi on ambulatoorne tervishoiuteenus eluohtliku haigestumise , vigastuse v&otilde;i m&uuml;rgituse esmaseks diagnoosimiseks ja raviks ning vajaduse korral abivajaja transpordiks haiglasse .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;igus saada kiirabiteenust on igal Eesti Vabariigi territooriumil viibival isikul .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>Kiirabi osutamine</s>
+</p>
+<p>
+<s>( 1 ) Kiirabi osutab kiirabibrigaad p&auml;&auml;steasutuse h&auml;irekeskuselt saadud v&auml;ljas&otilde;idukorralduse v&otilde;i muul viisil saadud teabe alusel .</s>
+</p>
+<p>
+<s>( 2 ) Vabariigi Valitsus kehtestab kiirabi , haiglate ning p&auml;&auml;ste- ja politseiasutuste kiirabialase koost&ouml;&ouml; korra .</s>
+</p>
+<p>
+<s>( 3 ) Sotsiaalminister kehtestab :</s>
+</p>
+<p>
+<s>1 ) riigieelarvest rahastatavate avaliku konkursiga valitavate kiirabibrigaadide arvu ;</s>
+</p>
+<p>
+<s>2 ) riigieelarvest rahastatavate avaliku konkursita valitavate riigi p&auml;&auml;steasutuste kiirabibrigaadide arvu ;</s>
+</p>
+<p>
+<s>3 ) kiirabibrigaadi t&ouml;&ouml;juhendi ;</s>
+</p>
+<p>
+<s>4 ) kiirabibrigaadi koosseisule ja varustusele , sealhulgas kiirabiautodele ja meditsiiniseadmetele esitatavad n&otilde;uded ;</s>
+</p>
+<p>
+<s>5 ) kiirabi koost&ouml;&ouml; ja vastastikuse tasaarveldamise korra perearstidega ;</s>
+</p>
+<p>
+<s>6 ) avaliku konkursi l&auml;biviimise korra kiirabi osutajate valimiseks .</s>
+</p>
+<p>
+<s>( 4 ) Tervishoiuamet :</s>
+</p>
+<p>
+<s>1 ) korraldab sotsiaalministri kehtestatud korras avaliku konkursi riigieelarvest rahastatava kiirabi osutajate valimiseks ;</s>
+</p>
+<p>
+<s>2 ) kinnitab riigieelarvest rahastatavate kiirabibrigaadide teeninduspiirkondade arvu ja paiknemise ning kiirabibrigaadide jaotuse teeninduspiirkondade kaupa ;</s>
+</p>
+<p>
+<s>3 ) korraldab kiirabibrigaadide ajutist asendamist ;</s>
+</p>
+<p>
+<s>4 ) s&otilde;lmib k&auml;esoleva l&otilde;ike punktis 1 nimetatud avaliku konkursi v&otilde;itnud kiirabibrigaadi pidajaga kiirabi osutamise lepingu konkursitingimustes m&auml;&auml;ratud t&auml;htajaks , kuid mitte kauemaks kui viieks aastaks .</s>
+</p>
+<p>
+<s>( 5 ) P&auml;&auml;steasutuse h&auml;irekeskusel on &otilde;igus suunata kiirabibrigaad abi kohese k&auml;ttesaadavuse tagamiseks teise teeninduspiirkonda .</s>
+</p>
+<p>
+<s>( 6 ) Riigi p&auml;&auml;steasutuse kiirabibrigaad peab vastama k&auml;esoleva seadusega ja selle alusel kiirabibrigaadile kehtestatavatele n&otilde;uetele .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Kiirabi osutamise &otilde;iguslik vorm</s>
+</p>
+<p>
+<s>( 1 ) Kiirabibrigaadi pidaja v&otilde;ib olla sellekohase tegevusloaga &auml;ri&uuml;hing , f&uuml;&uuml;silisest isikust ettev&otilde;tja , sihtasutus , riigi v&otilde;i kohaliku omavalitsuse p&auml;&auml;steasutus .</s>
+</p>
+<p>
+<s>( 2 ) Kiirabibrigaadi pidaval juriidilisel isikul ei v&otilde;i olla teist tegevusala peale kiirabi osutamise .</s><s>Kiirabibrigaadi pidav f&uuml;&uuml;silisest isikust ettev&otilde;tja v&otilde;ib &auml;riregistrisse kantud &auml;rinime all osutada ainult kiirabi .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud tegevusala piirang ei laiene kiirabibrigaadi pidavatele eriarstiabi osutajatele .</s>
+</p>
+<p>
+<s>( 4 ) Tervishoiuamet s&otilde;lmib k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud isikuga lepingu kiirabi osutamiseks sotsiaalministri kehtestatud tingimustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Kiirabi rahastamine</s>
+</p>
+<p>
+<s>( 1 ) Kiirabi eest tasutakse riigieelarvest Sotsiaalministeeriumi kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Kiirabi rahastamise korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>4. jagu</s>
+</p>
+<p>
+<s>Eriarstiabi</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Eriarstiabi m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Eriarstiabi on ambulatoorne v&otilde;i statsionaarne tervishoiuteenus , mida osutavad eriarst v&otilde;i hambaarst ja temaga koos t&ouml;&ouml;tavad tervishoiut&ouml;&ouml;tajad .</s>
+</p>
+<p>
+<s>( 2 ) Eriarstiabi erialade loetelu kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Haiglav&auml;lise eriarstiabi osutamine</s>
+</p>
+<p>
+<s>( 1 ) Haiglav&auml;list eriarstiabi v&otilde;ib osutada sellekohase tegevusloaga &auml;ri&uuml;hing v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tja .</s>
+</p>
+<p>
+<s>( 2 ) Haiglav&auml;lise eriarstiabi osutamiseks vajalikele ruumidele , sisseseadele ja aparatuurile esitatavad n&otilde;uded kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Haigla</s>
+</p>
+<p>
+<s>( 1 ) Haigla on ambulatoorsete ja statsionaarsete tervishoiuteenuste osutamiseks moodustatud majandus&uuml;ksus .</s>
+</p>
+<p>
+<s>( 2 ) Haiglat v&otilde;ib pidada sellekohase tegevusloaga aktsiaselts v&otilde;i sihtasutus .</s>
+</p>
+<p>
+<s>( 3 ) Haiglat pidaval aktsiaseltsil v&otilde;i sihtasutusel ei v&otilde;i olla teist tegevusala peale eriarstiabi , kiirabi ja sotsiaalteenuste osutamise ning tervishoiualase &otilde;ppe- ja teadust&ouml;&ouml; .</s>
+</p>
+<p>
+<s>( 4 ) Haigla liigid on piirkondlik haigla , keskhaigla , erihaigla , &uuml;ldhaigla , taastusravihaigla ja hooldushaigla .</s><s>N&otilde;uded haigla liikidele kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Eriarstiabi rahastamine</s>
+</p>
+<p>
+<s>( 1 ) Ravikindlustusega h&otilde;lmatud isikule osutatud eriarstiabi eest tasutakse riigieelarves ravikindlustuseks etten&auml;htud vahenditest ulatuses , mille eest tasumise kohustuse on &uuml;le v&otilde;tnud Eesti Haigekassa .</s>
+</p>
+<p>
+<s>( 2 ) Ravikindlustusega h&otilde;lmamata isik tasub eriarstiabi eest ise .</s>
+</p>
+<p>
+<s>5. jagu</s>
+</p>
+<p>
+<s>&Otilde;endusabi</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>&Otilde;endusabi m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;endusabi on ambulatoorne v&otilde;i statsionaarne tervishoiuteenus , mida osutavad &otilde;de ja &auml;mmaemand koos pere- , eri- v&otilde;i hambaarstiga v&otilde;i iseseisvalt .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;endusabi erialade loetelu kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>&Otilde;endusabi iseseisev osutamine</s>
+</p>
+<p>
+<s>( 1 ) Iseseisvalt v&otilde;ib &otilde;endusabi osutada sellekohase tegevusloaga &auml;ri&uuml;hing v&otilde;i f&uuml;&uuml;silisest isikust ettev&otilde;tja .</s>
+</p>
+<p>
+<s>( 2 ) &Otilde;endusabi iseseisvaks osutamiseks vajalikele ruumidele , sisseseadele ja aparatuurile esitatavad n&otilde;uded kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) &Otilde;endusabi tervishoiuteenuste loetelu , mida lubatakse osutada iseseisvalt , kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Iseseisva &otilde;endusabi rahastamine</s>
+</p>
+<p>
+<s>( 1 ) Ravikindlustusega h&otilde;lmatud isikule osutatud iseseisva &otilde;endusabi eest tasutakse riigieelarves ravikindlustuseks etten&auml;htud vahenditest ulatuses , mille eest tasumise kohustuse on &uuml;le v&otilde;tnud Eesti Haigekassa .</s>
+</p>
+<p>
+<s>( 2 ) Ravikindlustusega h&otilde;lmamata isik tasub iseseisva &otilde;endusabi eest ise .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tervishoiuteenuste osutamiseks esitatavad n&otilde;uded</s>
+</p>
+<p>
+<s>1. jagu</s>
+</p>
+<p>
+<s>Tervishoiut&ouml;&ouml;taja registreerimine</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Registreerimise &otilde;iguslik t&auml;hendus</s>
+</p>
+<p>
+<s>Registreerimine annab tervishoiut&ouml;&ouml;tajale &otilde;iguse osutada tervishoiuteenuseid kvalifikatsiooni t&otilde;endavas dokumendis ja registreerimisel v&auml;ljastatavas t&otilde;endis m&auml;rgitud erialal .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Registreerimismenetlus</s>
+</p>
+<p>
+<s>( 1 ) Registreerimist taotlev isik esitab Tervishoiuametile registreerimistaotluse ja kvalifikatsiooni t&otilde;endava dokumendi &auml;rakirja .</s>
+</p>
+<p>
+<s>( 2 ) Registreerimistaotluses esitatavate andmete loetelu kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) Tervishoiut&ouml;&ouml;tajate registreerimise aluseks olevate kvalifikatsiooni t&otilde;endavate dokumentide loetelu kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 4 ) Tervishoiuamet kontrollib kvalifikatsiooni t&otilde;endavas dokumendis esitatud andmete ehtsust ja teeb registreerimisotsuse k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud dokumentide esitamisest alates &uuml;he kuu jooksul .</s>
+</p>
+<p>
+<s>( 5 ) Kui registreerimistaotluses esitatud andmed on puudulikud , m&auml;&auml;rab Tervishoiuamet taotluse esitajale t&auml;htaja puuduste k&otilde;rvaldamiseks , ent mitte rohkem kui kaks n&auml;dalat .</s><s>Isikut ei registreerita tervishoiut&ouml;&ouml;tajana , kui ta esitab valeandmeid .</s>
+</p>
+<p>
+<s>( 6 ) Kui isikut Tervishoiuametis ei registreerita , siis teatatakse talle sellest kirjalikult otsuse tegemise p&auml;evast alates 10 t&ouml;&ouml;p&auml;eva jooksul .</s><s>Teates esitatakse registreerimisest keeldumise p&otilde;hjused .</s>
+</p>
+<p>
+<s>( 7 ) Registreerimata j&auml;tmise otsuse v&otilde;ib isik vaidlustada halduskohtus .</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Euroopa Liidu liikmesriigis omandatud kvalifikatsiooniga isiku registreerimine</s>
+</p>
+<p>
+<s>( 1 ) Euroopa Liidu liikmesriigis kvalifikatsiooni omandanud isiku registreerimise suhtes kohaldatakse k&auml;esoleva seaduse &sect; 28 l&otilde;ikeid 1-2 ning 4-7.</s>
+</p>
+<p>
+<s>( 2 ) Euroopa Liidu liikmesriigis omandatud kvalifikatsiooni t&otilde;endab dokument , mis annab tervishoiut&ouml;&ouml;tajale &otilde;iguse osutada dokumendis m&auml;rgitud erialal tervishoiuteenuseid selles Euroopa Liidu liikmesriigis , kus kvalifikatsioon omandati .</s><s>Registreerimise aluseks olevate Euroopa Liidu liikmesriigis kvalifikatsiooni omandamist t&otilde;endavate dokumentide loetelu kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 3 ) Euroopa Liidu liikmesriigis kvalifikatsiooni omandanud isiku suhtes , kelle kvalifikatsiooni t&otilde;endav dokument ei sisaldu k&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud loetelus , kohaldatakse k&auml;esoleva seaduse &sect; 30 l&otilde;ikeid 2-3.</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Muus v&auml;lisriigis omandatud kvalifikatsiooniga isiku registreerimine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse &sect;-s 29 nimetamata v&auml;lisriigis kvalifikatsiooni omandanud isiku registreerimise suhtes kohaldatakse k&auml;esoleva seaduse &sect; 28 l&otilde;ikeid 1-2 ja 5-7.</s>
+</p>
+<p>
+<s>( 2 ) Tervishoiuamet v&otilde;rdleb registreerimist taotleva isiku kvalifikatsiooni Eestis n&otilde;utavaga sotsiaalministri kehtestatud korras , kontrollib kvalifikatsiooni t&otilde;endavas dokumendis esitatud andmete ehtsust ning teeb registreerimisotsuse k&auml;esoleva seaduse &sect; 28 l&otilde;ikes 1 nimetatud dokumentide esitamisest alates kahe kuu jooksul .</s>
+</p>
+<p>
+<s>( 3 ) Kvalifikatsiooni vastavuse hindamiseks v&otilde;ib k&auml;esoleva seaduse &sect;-s 29 nimetamata v&auml;lisriigis kvalifikatsiooni omandanud isikutelt n&otilde;uda sobivustesti tegemist v&otilde;i kohanemisaja l&auml;bimist .</s><s>Sobivustesti koostamise , korraldamise ja hindamise korra ning kohanemisaja l&auml;bimise n&otilde;uded ja hindamise korra kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>( 4 ) Isikut ei registreerita tervishoiut&ouml;&ouml;tajana , kui ta on esitanud valeandmeid v&otilde;i kui isiku kvalifikatsioon ei vasta Eestis sellel erialal t&ouml;&ouml;tamiseks n&otilde;utavale kvalifikatsioonile .</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>T&otilde;end</s>
+</p>
+<p>
+<s>( 1 ) Tervishoiut&ouml;&ouml;tajale v&auml;ljastatakse registreerimise kohta t&otilde;end .</s>
+</p>
+<p>
+<s>( 2 ) T&otilde;endis esitatakse :</s>
+</p>
+<p>
+<s>1 ) t&otilde;endi number ;</s>
+</p>
+<p>
+<s>2 ) tervishoiut&ouml;&ouml;taja isikuandmed ;</s>
+</p>
+<p>
+<s>3 ) tervishoiut&ouml;&ouml;taja eriala ;</s>
+</p>
+<p>
+<s>4 ) t&otilde;endi v&auml;ljastamise aeg ja koht .</s>
+</p>
+<p>
+<s>( 3 ) T&otilde;endi vormi kehtestab sotsiaalminister .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>T&otilde;endi kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tervishoiuamet tunnistab registreerimist&otilde;endi kehtetuks , kui tervishoiut&ouml;&ouml;taja suhtes on j&otilde;ustunud s&uuml;&uuml;dim&otilde;istev kohtuotsus , millega on isikult &auml;ra v&otilde;etud kvalifikatsiooni t&otilde;endavas dokumendis ja registreerimist&otilde;endis m&auml;rgitud erialal tegutsemise &otilde;igus .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Tervishoiuteenuste osutamise &otilde;igus ilma registreerimise kohustuseta</s>
+</p>
+<p>
+<s>( 1 ) Euroopa Liidu liikmesriigis kvalifikatsiooni omandanud isik , kelle Eestis viibimise periood aastas ei &uuml;leta &uuml;hte kuud , v&otilde;ib Eestis osutada tervishoiuteenuseid ilma registreerimise kohustuseta selle perearsti v&otilde;i tegevusloaga isiku vastutusel , kelle juures ta t&ouml;&ouml;tab .</s>
+</p>
+<p>
+<s>( 2 ) Perearst v&otilde;i tegevusloaga isik teatab viivitamata Tervishoiuametile k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud isikust .</s><s>Teatamine v&otilde;rdsustatakse k&auml;esoleva seaduse &sect;-des 36 ja 47 etten&auml;htud teatamisega .</s>
+</p>
+<p>
+<s>2. jagu</s>
+</p>
+<p>
+<s>Perearstina tegutsemise &otilde;igus</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Nimistu moodustamine</s>
+</p>
+<p>
+<s>( 1 ) Nimistu moodustamise &otilde;iguse andmiseks viib maavanem l&auml;bi avaliku konkursi sotsiaalministri kehtestatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Nimistu moodustamise &otilde;iguse taotleja esitab maavanemale j&auml;rgmised dokumendid ja andmed :</s>
+</p>
+<p>
+<s>1 ) avalduse , milles m&auml;rgitakse &auml;ra taotleja nimi , isikukood , elukoht ning kavandatava tegevuskoha asukoht ja aadress ;</s>
+</p>
+<p>
+<s>2 ) perearsti ja temaga koos t&ouml;&ouml;tavate tervishoiut&ouml;&ouml;tajate registreerimist&otilde;endite &auml;rakirjad ;</s>
+</p>
+<p>
+<s>3 ) taotleja sidevahendite numbrid .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Perearstina tegutsemise &otilde;iguse andmine</s>
+</p>
+<p>
+<s>( 1 ) Perearsti nimistu kinnitab ja perearsti teeninduspiirkonna m&auml;&auml;rab maavanem korraldusega .</s>
+</p>
+<p>
+<s>( 2 ) Perearstina tegutsemise &otilde;igus tekib k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud korralduse j&otilde;ustumisel .</s>
+</p>
+<p>
+<s>( 3 ) Perearst on kohustatud k&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud korralduse j&otilde;ustumisest alates kahe kuu jooksul viima oma tegevuskoha ruumid , sisseseade ja aparatuuri vastavusse k&auml;esoleva seaduse alusel kehtestatud n&otilde;uetega ning registreerima andmekaitse j&auml;relevalve asutuses delikaatsete isikuandmete t&ouml;&ouml;tlemise .</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Andmete edastamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Maavanem on kohustatud teatama Tervishoiuametile perearsti tegevuskoha ja aadressi ning perearstiga koos t&ouml;&ouml;tavate tervishoiut&ouml;&ouml;tajate koosseisu perearstile tegutsemise &otilde;iguse andmisest alates &uuml;he kuu jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Perearst on kohustatud teatama kirjalikult Tervishoiuametile muudatustest temaga koos t&ouml;&ouml;tavate tervishoiut&ouml;&ouml;tajate koosseisus v&otilde;i tegevuskohas ja aadressis muutuste toimumisest alates 30 p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 3 ) Perearst on kohustatud k&auml;esoleva seaduse &sect; 56 l&otilde;ike 1 punkti 1 alusel kehtestatud n&otilde;uete kohaselt koostama tervishoiustatistika ja tervishoiualase majandustegevuse aruandeid ning esitama need maavanemale .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Maavanem annab korralduse perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmiseks , kui :</s>
+</p>
+<p>
+<s>1 ) seda taotleb perearst ise ;</s>
+</p>
+<p>
+<s>2 ) perearsti suhtes on j&otilde;ustunud s&uuml;&uuml;dim&otilde;istev kohtuotsus , millega temalt on &auml;ra v&otilde;etud perearstina tegutsemise &otilde;igus ;</s>
+</p>
+<p>
+<s>3 ) perearst ei ole nimistu kinnitamisest ja teeninduspiirkonna m&auml;&auml;ramisest alates kahe kuu jooksul viinud oma tegevuskoha ruume , sisseseadet v&otilde;i aparatuuri vastavusse k&auml;esoleva seaduse alusel kehtestatud n&otilde;uetega ;</s>
+</p>
+<p>
+<s>4 ) perearsti tegevuskoha ruumid , sisseseade v&otilde;i aparatuur ei vasta k&auml;esoleva seaduse alusel kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>5 ) osutatavate tervishoiuteenuste kvaliteet ei vasta k&auml;esoleva seaduse &sect; 56 l&otilde;ike 1 punkti 7 alusel kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>6 ) perearsti ei ole v&otilde;imalik tema pikaajalise t&ouml;&ouml;v&otilde;imetuse korral asendada ;</s>
+</p>
+<p>
+<s>7 ) perearst on tunnistatud teadmata kadunuks ;</s>
+</p>
+<p>
+<s>8 ) perearst on surnud v&otilde;i tunnistatud surnuks ;</s>
+</p>
+<p>
+<s>9 ) perearst saab 65 aastat vanaks .</s>
+</p>
+<p>
+<s>( 2 ) Perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmise korralduses esitatakse perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmist tinginud asjaolud viitega sellekohasele seaduses&auml;ttele .</s>
+</p>
+<p>
+<s>( 3 ) Perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmise korraldus tehakse perearstile k&auml;esoleva paragrahvi l&otilde;ike 1 punktides 1-6 ja 9 nimetatud juhtudel teatavaks korralduse andmisest alates viie t&ouml;&ouml;p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Toimingud perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmisel</s>
+</p>
+<p>
+<s>( 1 ) Perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmise korral korraldab maavanem perearsti nimistusse kuuluvate isikute ja teeninduspiirkonna teenindamise kuni uue perearsti tegutsemise &otilde;iguse kinnitamiseni .</s>
+</p>
+<p>
+<s>( 2 ) Perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmisel on perearst v&otilde;i tema p&auml;rija kohustatud andma nimistut puudutavad dokumendid &uuml;le maavanemale sotsiaalministri kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Perearsti tegutsemise piirangud</s>
+</p>
+<p>
+<s>Perearst ei v&otilde;i olla eriarstiabi osutamisega tegeleva &auml;ri&uuml;hingu osanik v&otilde;i aktsion&auml;r , sellise &auml;ri&uuml;hingu osanikuks v&otilde;i aktsion&auml;riks oleva &auml;ri&uuml;hingu osanik v&otilde;i aktsion&auml;r .</s>
+</p>
+<p>
+<s>3. jagu</s>
+</p>
+<p>
+<s>Tegevusluba</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Tegevusloa taotlemise kohustus</s>
+</p>
+<p>
+<s>Tegevusluba on n&otilde;utav :</s>
+</p>
+<p>
+<s>1 ) kiirabi osutamiseks ;</s>
+</p>
+<p>
+<s>2 ) eriarstiabi osutamiseks ;</s>
+</p>
+<p>
+<s>3 ) iseseisvalt &otilde;endusabi osutamiseks .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Tegevusloa taotlemine</s>
+</p>
+<p>
+<s>Tegevusloa saamiseks esitab taotleja tegevusloa v&auml;ljaandjale j&auml;rgmised dokumendid ja andmed :</s>
+</p>
+<p>
+<s>1 ) avalduse , milles m&auml;rgitakse &auml;ra taotleja nimi ning tegevuskoha asukoht ja aadress ;</s>
+</p>
+<p>
+<s>2 ) asutamisel oleva juriidilise isiku asutamislepingu v&otilde;i -otsuse ja p&otilde;hikirja v&otilde;i &uuml;hingulepingu &auml;rakirjad ;</s>
+</p>
+<p>
+<s>3 ) f&uuml;&uuml;silisest isikust ettev&otilde;tja puhul ettev&otilde;tja nime , isikukoodi , elukoha ja &auml;rinime ;</s>
+</p>
+<p>
+<s>4 ) kiirabi osutamise loa taotlemise korral riigi p&auml;&auml;steasutuse poolt selle asutuse asukoha , riigi- ja kohaliku omavalitsuse asutuste riiklikus registris registreerimise numbri , p&otilde;him&auml;&auml;ruse ja k&otilde;rgemalseisva valitsusasutuse nimetuse ;</s>
+</p>
+<p>
+<s>5 ) tervishoiuteenuste loetelu , mille osutamiseks tegevusluba taotletakse ;</s>
+</p>
+<p>
+<s>6 ) tervishoiut&ouml;&ouml;tajate nimed ja registreerimist&otilde;endite numbrid ;</s>
+</p>
+<p>
+<s>7 ) kiirabi osutamise loa taotlemise korral taotletavate kiirabibrigaadide arvu , koosseisu ja varustuse ;</s>
+</p>
+<p>
+<s>8 ) haiglas eriarstiabi osutamise loa taotlemise korral taotletava haigla liigi ;</s>
+</p>
+<p>
+<s>9 ) ruumide meditsiinitehnoloogia osa projekti , milles on andmed ruumide , sisseseade ja aparatuuri kohta ;</s>
+</p>
+<p>
+<s>10 ) andmed andmekaitse j&auml;relevalve asutuses delikaatsete isikuandmete t&ouml;&ouml;tlemise registreerimise kohta ;</s>
+</p>
+<p>
+<s>11 ) taotleja sidevahendite numbrid ;</s>
+</p>
+<p>
+<s>12 ) riigil&otilde;ivu tasumise kviitungi .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Tegevusloa v&auml;ljaandmise otsustamine</s>
+</p>
+<p>
+<s>Tegevusloa v&auml;ljaandja kontrollib taotleja esitatud dokumente ja andmeid ning teeb otsuse tegevusloa v&auml;ljaandmise v&otilde;i sellest keeldumise kohta k&auml;esoleva seaduse &sect;-s 41 nimetatud dokumentide ja andmete esitamisest alates kahe kuu jooksul .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Tegevusloa v&auml;ljaandmine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa annab v&auml;lja Tervishoiuamet .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusluba antakse v&auml;lja vastava otsuse tegemisest alates 10 t&ouml;&ouml;p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa v&auml;ljaandmise otsus avaldatakse ametlikus v&auml;ljaandes Ametlikud Teadaanded .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Tegevusloas esitatavad andmed ja tingimused</s>
+</p>
+<p>
+<s>Tegevusloas esitatakse :</s>
+</p>
+<p>
+<s>1 ) tegevusloa omaja nimi ning tegevuskoht ja aadress , f&uuml;&uuml;silisest isikust ettev&otilde;tja puhul tema nimi , isikukood , elukoht ja &auml;rinimi ;</s>
+</p>
+<p>
+<s>2 ) tegevusloa number ja v&auml;ljaandmise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>3 ) eriarstiabi osutamise loa korral nende tervishoiuteenuste loetelu , mida isikul on lubatud osutada ;</s>
+</p>
+<p>
+<s>4 ) kiirabi osutamise loa korral kiirabibrigaadide arv ;</s>
+</p>
+<p>
+<s>5 ) haiglas eriarstiabi osutamise loa korral haigla liik .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Tegevusloa v&auml;ljaandmisest keeldumine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusluba ei v&auml;ljastata , kui tegevusloa taotleja :</s>
+</p>
+<p>
+<s>1 ) ei ole esitanud k&auml;esoleva seaduse &sect;-s 41 nimetatud dokumente v&otilde;i andmeid ;</s>
+</p>
+<p>
+<s>2 ) ei vasta n&otilde;uetele , mis esitatakse taotletavate tervishoiuteenuste osutamiseks ;</s>
+</p>
+<p>
+<s>3 ) on pankrotis ;</s>
+</p>
+<p>
+<s>4 ) esitab teadlikult valeandmeid ;</s>
+</p>
+<p>
+<s>5 ) varasem tegevusluba on k&auml;esoleva seaduse &sect; 48 l&otilde;ike 1 punktides 2-5 nimetatud alustel tunnistatud kehtetuks ja kehtetuks tunnistamisest on m&ouml;&ouml;dunud v&auml;hem kui &uuml;ks aasta .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa v&auml;ljaandja teatab tegevusloa taotlejale tegevusloa v&auml;ljaandmisest keeldumisest kirjalikult keeldumisotsuse tegemisest alates 10 t&ouml;&ouml;p&auml;eva jooksul .</s><s>Teates esitatakse tegevusloa v&auml;ljaandmisest keeldumise p&otilde;hjused viitega sellekohasele seaduses&auml;ttele .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Tegevusloa kehtivus</s>
+</p>
+<p>
+<s>Tegevusluba kehtib tema v&auml;ljaandmisest alates viis aastat .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Andmete edastamise kohustus</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa omaja on kohustatud teatama kirjalikult Tervishoiuametile muudatustest tervishoiut&ouml;&ouml;tajate koosseisus v&otilde;i tegevuskohas muutuste toimumisest alates 30 p&auml;eva jooksul .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa omaja on kohustatud k&auml;esoleva seaduse &sect; 56 l&otilde;ike 1 punkti 1 alusel kehtestatud n&otilde;uete kohaselt koostama tervishoiustatistikat ja tervishoiualase majandustegevuse aruandeid ning esitama need maavanemale .</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Tegevusloa kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa v&auml;ljaandja tunnistab tegevusloa kehtetuks , kui :</s>
+</p>
+<p>
+<s>1 ) seda taotleb tegevusloa omaja ise ;</s>
+</p>
+<p>
+<s>2 ) eriarstiabi v&otilde;i iseseisvalt &otilde;endusabi osutamise ruumid , sisseseade v&otilde;i aparatuur ei vasta k&auml;esoleva seaduse alusel kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>3 ) kiirabibrigaadi koosseis ja varustus ei vasta k&auml;esoleva seaduse alusel kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>4 ) muudatused tervishoiut&ouml;&ouml;tajate koosseisus ei v&otilde;imalda t&auml;ita tegevusloas toodud tingimusi ;</s>
+</p>
+<p>
+<s>5 ) kui tervishoiuteenuste kvaliteet ei vasta k&auml;esoleva seaduse &sect; 56 l&otilde;ike 1 punkti 7 alusel kehtestatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>6 ) tegevusloa omaja ei ole alustanud tegevusloas nimetatud tervishoiuteenuste osutamist tegevusloa v&auml;ljaandmisest alates &uuml;he aasta jooksul ;</s>
+</p>
+<p>
+<s>7 ) tervishoiuteenuse osutaja osutab tervishoiuteenuseid , mis ei ole loetletud talle v&auml;ljastatud tegevusloas .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa kehtetuks tunnistamise otsuses esitatakse :</s>
+</p>
+<p>
+<s>1 ) tegevusloa omaja nimi , tegevuskoht ja aadress , f&uuml;&uuml;silisest isikust ettev&otilde;tja puhul tema nimi , isikukood , elukoht ja &auml;rinimi ;</s>
+</p>
+<p>
+<s>2 ) tegevusloa number ja v&auml;ljaandmise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>3 ) tegevusloa kehtetuks tunnistamise tinginud asjaolud ja viide seaduses&auml;ttele , mille alusel tegevusluba kehtetuks tunnistatakse ;</s>
+</p>
+<p>
+<s>4 ) otsuse tegemise kuup&auml;ev ;</s>
+</p>
+<p>
+<s>5 ) otsuse tegija nimi , ametinimetus ja allkiri .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa kehtetuks tunnistamise otsus tehakse tegevusloa omajale teatavaks otsuse tegemisest alates viie t&ouml;&ouml;p&auml;eva jooksul .</s><s>Tegevusloa kehtetuks tunnistamise otsus avaldatakse ametlikus v&auml;ljaandes Ametlikud Teadaanded .</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Tegevusloa osaline kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>( 1 ) Kui tegevusloa kehtetuks tunnistamise alused esinevad vaid m&otilde;nede osutatavate tervishoiuteenuste osas , v&otilde;ib tegevusloa tunnistada osaliselt kehtetuks , piirates tegevusloas esitatud tervishoiuteenuste loetelu .</s>
+</p>
+<p>
+<s>( 2 ) Tegevusloa osaliselt kehtetuks tunnistamisel esitatakse vastavas otsuses lisaks k&auml;esoleva seaduse &sect; 48 l&otilde;ikes 2 nimetatud andmetele need tervishoiuteenused , mille kohta tegevusloa kehtetuks tunnistamise otsus kehtib .</s>
+</p>
+<p>
+<s>( 3 ) Tegevusloa osaliselt kehtetuks tunnistamise otsus tehakse tegevusloa omajale teatavaks otsuse tegemisest alates viie t&ouml;&ouml;p&auml;eva jooksul .</s><s>Tegevusloa osaliselt kehtetuks tunnistamise otsus avaldatakse ametlikus v&auml;ljaandes Ametlikud Teadaanded .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Uue tegevusloa taotlemine</s>
+</p>
+<p>
+<s>( 1 ) Tegevusloa omaja peab taotlema uue tegevusloa v&auml;ljaandmist , kui :</s>
+</p>
+<p>
+<s>1 ) loa kehtivusaeg l&otilde;peb ;</s>
+</p>
+<p>
+<s>2 ) ta soovib muuta loas esitatud tervishoiuteenuste loetelu ;</s>
+</p>
+<p>
+<s>3 ) kiirabi osutaja soovib muuta kiirabibrigaadide arvu ;</s>
+</p>
+<p>
+<s>4 ) haiglas eriarstiabi osutaja soovib muuta haigla liiki .</s>
+</p>
+<p>
+<s>( 2 ) Uus tegevusluba antakse v&auml;lja k&auml;esoleva seaduse &sect;-des 41-45 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tervishoiu rahastamine</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Tervishoiu rahastamise allikad</s>
+</p>
+<p>
+<s>Tervishoidu rahastatakse :</s>
+</p>
+<p>
+<s>1 ) riigieelarvest ;</s>
+</p>
+<p>
+<s>2 ) valla- ja linnaeelarvest ;</s>
+</p>
+<p>
+<s>3 ) patsiendi poolt ;</s>
+</p>
+<p>
+<s>4 ) muudest allikatest .</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Tervishoiu rahastamine riigieelarvest</s>
+</p>
+<p>
+<s>( 1 ) Riigieelarvest Sotsiaalministeeriumi kaudu rahastatakse :</s>
+</p>
+<p>
+<s>1 ) kiirabi osutamist ;</s>
+</p>
+<p>
+<s>2 ) riigireservi ravimite ja meditsiinivahendite julgeolekuvaru moodustamist , hoidmist ja uuendamist ;</s>
+</p>
+<p>
+<s>3 ) arstiabi kvaliteedi ekspertkomisjoni tellitud ekspertiisi ;</s>
+</p>
+<p>
+<s>4 ) riiklikke tervishoiuprogramme ;</s>
+</p>
+<p>
+<s>5 ) tervishoiualast teadus- ja arendustegevust ;</s>
+</p>
+<p>
+<s>6 ) riiklikke investeeringuid Vabariigi Valitsuse kinnitatud haiglav&otilde;rgu arengukava alusel ;</s>
+</p>
+<p>
+<s>7 ) valmisolekut tervishoiuteenuste osutamiseks h&auml;daolukorras ;</s>
+</p>
+<p>
+<s>8 ) ravikindlustusega h&otilde;lmamata isikutele v&auml;ltimatu abi osutamist .</s>
+</p>
+<p>
+<s>( 2 ) Riigieelarvest Justiitsministeeriumi kaudu rahastatakse :</s>
+</p>
+<p>
+<s>1 ) kinnipeetavatele tervishoiuteenuste osutamist ;</s>
+</p>
+<p>
+<s>2 ) kohtuotsuse alusel m&auml;&auml;ratud meditsiiniliste m&otilde;jutusvahendite kohaldamist ja kohtups&uuml;hhiaatriaekspertiisi ;</s>
+</p>
+<p>
+<s>3 ) kohtuarstlikku ekspertiisi .</s>
+</p>
+<p>
+<s>( 3 ) Riigieelarves ravikindlustuseks etten&auml;htud vahenditest rahastatakse tervishoidu Eesti Vabariigi ravikindlustusseaduses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Tervishoiu rahastamine valla- ja linnaeelarvest</s>
+</p>
+<p>
+<s>Valla- v&otilde;i linnaeelarvest rahastatakse tervishoiuteenuste osutamist ja muid tervishoiukulusid valla- v&otilde;i linnavolikogu otsuse alusel .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Patsient tervishoiu rahastajana</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &sect;-des 52 ja 53 s&auml;testamata juhtudel maksab tervishoiuteenuse osutamise eest patsient .</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Tervishoiu juhtimine</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Haiglav&otilde;rgu arengukava</s>
+</p>
+<p>
+<s>( 1 ) Vabariigi Valitsus kehtestab m&auml;&auml;rusega haiglav&otilde;rgu arengukava , milles m&auml;&auml;ratakse :</s>
+</p>
+<p>
+<s>1 ) tervishoiuteenuste &uuml;htlase k&auml;ttesaadavuse tagamiseks piirkondlike haiglate , keskhaiglate , erihaiglate ja &uuml;ldhaiglate loetelu ( edaspidi haiglate loetelu ) ;</s>
+</p>
+<p>
+<s>2 ) vajalikud investeeringud haiglate loetelus nimetatud haiglate ehitamiseks , renoveerimiseks ja &uuml;mberprofileerimiseks .</s>
+</p>
+<p>
+<s>( 2 ) Eesti Haigekassa s&otilde;lmib haiglate loetelus nimetatud haiglatega tervishoiuteenuste ostmise lepingud v&auml;hemalt kolmeks aastaks .</s><s>Haiglate loetelus nimetamata haiglatega s&otilde;lmitakse tervishoiuteenuste ostmise lepingud kuni &uuml;heks aastaks .</s>
+</p>
+<p>
+<s>( 3 ) Haiglav&otilde;rgu arengukava t&ouml;&ouml;tatakse v&auml;lja v&auml;hemalt 15 aastaks ning Vabariigi Valitsus teeb selles vajaduse korral t&auml;iendusi ja muudatusi .</s><s>Haiglav&otilde;rgu arengukava koostamist korraldab Sotsiaalministeerium , kaasates sellesse asjassepuutuvaid valitsusv&auml;liseid organisatsioone .</s>
+</p>
+<p>
+<s>( 4 ) Haiglav&otilde;rgu arengukavas toodud haiglate loetelu v&otilde;ib t&auml;iendada ning muuta Eesti Haigekassa ja Sotsiaalministeeriumi &uuml;hisettepaneku alusel .</s>
+</p>
+<p>
+<s>( 5 ) Eesti Haigekassal ja Sotsiaalministeeriumil on &otilde;igus teha Vabariigi Valitsusele ettepanek haiglate loetelu t&auml;iendamiseks juhul , kui haiglat pidav isik on tegutsenud koosk&otilde;las seadusega ja talle v&auml;ljastatud tegevusloaga ning ta ei ole rikkunud tervishoiuteenuste tasustamise lepingut Eesti Haigekassaga .</s>
+</p>
+<p>
+<s>( 6 ) Eesti Haigekassal ja Sotsiaalministeeriumil on &otilde;igus teha Vabariigi Valitsusele ettepanek tervishoiuteenuse osutaja haiglate loetelust v&auml;lja arvamiseks , kui haiglat pidav isik ei tegutse koosk&otilde;las seadusega , talle v&auml;ljastatud tegevusloaga v&otilde;i ta rikub tervishoiuteenuste tasustamise lepingut Eesti Haigekassaga .</s>
+</p>
+<p>
+<s>( 7 ) Eesti Haigekassa ja Sotsiaalministeerium teevad Vabariigi Valitsusele ettepaneku tervishoiuteenuse osutaja haiglate loetelust koheseks v&auml;ljaarvamiseks , kui haiglat pidava isiku tegevusluba on tunnistatud kehtetuks v&otilde;i haigla tegevus on l&otilde;petatud .</s>
+</p>
+<p>
+<s>( 8 ) Haiglate loetelus nimetatud haiglatesse riigieelarve vahenditest investeerimise tingimused ja korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>( 9 ) Haiglav&otilde;rgu arengukava v&auml;ljat&ouml;&ouml;tamise kulud kaetakse riigieelarvest .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Sotsiaalministri &uuml;lesanded</s>
+</p>
+<p>
+<s>( 1 ) Lisaks k&auml;esolevas seaduses nimetatud &otilde;igusaktidele kehtestab sotsiaalminister :</s>
+</p>
+<p>
+<s>1 ) tervishoiustatistika ja tervishoiualase majandustegevuse aruannete vormid ning nende esitamise korra ;</s>
+</p>
+<p>
+<s>2 ) riigieelarve vahendite ja riigieelarves ravikindlustuseks etten&auml;htud vahendite eest meditsiiniseadmete soetamise korra ;</s>
+</p>
+<p>
+<s>3 ) haigla funktsionaalse arengukava ja ehitusprojekti meditsiinitehnoloogia osa kinnitamise korra ;</s>
+</p>
+<p>
+<s>4 ) tervishoiuteenuste k&auml;ttesaadavuse n&otilde;uded ;</s>
+</p>
+<p>
+<s>5 ) tervishoiuteenuste dokumenteerimise korra ning nende osutamist t&otilde;endavate dokumentide loetelu ja vormid ;</s>
+</p>
+<p>
+<s>6 ) tervishoiut&ouml;&ouml;tajate kvalifikatsiooni omandamisele eelneva ja j&auml;rgneva koolituse &otilde;ppebaasiks olevate haiglate , &uuml;ldarstiabi ja eriarstiabi osutavate ettev&otilde;tjate loetelu ja &otilde;ppebaasina tegutsemise korra ;</s>
+</p>
+<p>
+<s>7 ) tervishoiuteenuste kvaliteedi tagamise n&otilde;uded ;</s>
+</p>
+<p>
+<s>8 ) arsti- ja &otilde;endusala erialade arengukavad .</s>
+</p>
+<p>
+<s>( 2 ) Sotsiaalminister avaldab eelmise kalendriaasta tervishoiu statistilised andmed iga aasta teises kvartalis Internetis ja kolmandas kvartalis tr&uuml;kitud v&auml;ljaandena .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Tervishoiuamet</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse 2. peat&uuml;ki 3. jaos ning 3. peat&uuml;ki 1. ja 3. jaos s&auml;testatud &uuml;lesandeid t&auml;idab Tervishoiuamet .</s>
+</p>
+<p>
+<s>( 2 ) Tervishoiuamet peab koosk&otilde;las isikuandmete kaitse seadusega ( RT I 1996 , 48 , 944 ; 1998 , 59 , 941 ; 111 , 1833 ; 2000 , 50 , 317 ; 92 , 597 ; 104 , 685 ) ja andmekogude seadusega ( RT I 1997 , 28 , 423 ; 1998 , 36/37 , 552 ; 1999 , 10 , 155 ; 2000 , 50 , 317 ; 57 , 373 ; 92 , 597 ; 2001 , 7 , 17 ; 17 , 77 ) tervishoiut&ouml;&ouml;tajate ja tegevuslubade registreid , olles nimetatud riiklike registrite vastutavaks t&ouml;&ouml;tlejaks .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Maavanema &uuml;lesanded</s>
+</p>
+<p>
+<s>Maavanema &uuml;lesanded k&auml;esoleva seaduse alusel on :</s>
+</p>
+<p>
+<s>1 ) koguda maakonnast tervishoiustatistika ja tervishoiualase majandustegevuse aruandeid , koostada koondaruanne ning edastada need k&auml;esoleva seaduse &sect; 56 l&otilde;ike 1 punkti 1 alusel kehtestatud korra kohaselt sotsiaalministrile ;</s>
+</p>
+<p>
+<s>2 ) korraldada maakonnas perearsti nimistu alusel tegutsevate perearstide ajutist asendamist .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Tervishoiukorraldus h&auml;daolukorras</s>
+</p>
+<p>
+<s>( 1 ) Tervishoiukorraldus h&auml;daolukorras kehtestatakse Vabariigi Valitsuse m&auml;&auml;rusega , milles m&auml;&auml;ratakse :</s>
+</p>
+<p>
+<s>1 ) Vabariigi Valitsuse , sotsiaalministri , Tervishoiuameti ja tervishoiuteenuse osutajate p&auml;devus ja &uuml;lesanded h&auml;daolukorra lahendamisel ning h&auml;daolukorraks valmisoleku korraldamisel ;</s>
+</p>
+<p>
+<s>2 ) riigireservi ravimite ja meditsiinivahendite julgeolekuvaru uuendamise , hoidmise ja kasutamise kord ning riigireservi ravimite ja meditsiinivahendite julgeolekuvaru uuendamisest laekuva tulu kasutamise kord ;</s>
+</p>
+<p>
+<s>3 ) tervishoiuteenuse osutaja ravimite ja meditsiinivahendite tegevusvaru moodustamise t&auml;htajad , kogused ja kord .</s>
+</p>
+<p>
+<s>( 2 ) Tervishoiuteenuse osutajad on kohustatud tegutsema h&auml;daolukorraks valmistumisel ja h&auml;daolukorras vastavalt k&auml;esoleva paragrahvi l&otilde;ike 1 alusel kehtestatud Vabariigi Valitsuse m&auml;&auml;rusele .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Tervishoiu j&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadusega tervishoiuteenuste osutajatele s&auml;testatud n&otilde;uete t&auml;itmise &uuml;le teostavad j&auml;relevalvet maavanem ja Tervishoiuameti selleks volitatud ametnikud .</s>
+</p>
+<p>
+<s>( 2 ) Maavanem teostab j&auml;relevalvet maakonnas perearsti nimistu alusel tegutsevate perearstide tegevuse &uuml;le .</s>
+</p>
+<p>
+<s>( 3 ) Tervishoiuameti selleks volitatud ametnikud teostavad j&auml;relevalvet perearstide , kiirabi osutajate , eriarstiabi osutajate ja iseseisvalt &otilde;endusabi osutajate tegevuse &uuml;le .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>J&auml;relevalve teostaja &otilde;igused</s>
+</p>
+<p>
+<s>J&auml;relevalve teostajal on k&auml;esolevast seadusest tulenevate &uuml;lesannete t&auml;itmiseks &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) siseneda etteteatamisel kontrollitava isiku tegevuskohta ;</s>
+</p>
+<p>
+<s>2 ) tutvuda tervishoiuteenuste osutamist t&otilde;endavate dokumentidega ;</s>
+</p>
+<p>
+<s>3 ) saada seletusi kontrollitava isiku juhtorganitelt ja tervishoiut&ouml;&ouml;tajatelt ;</s>
+</p>
+<p>
+<s>4 ) teha kontrollitavale isikule ettepanekuid tegevuse parandamiseks ning ettekirjutusi puuduste k&otilde;rvaldamiseks .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Ettekirjutus</s>
+</p>
+<p>
+<s>( 1 ) Ettekirjutus peab olema kirjalik .</s>
+</p>
+<p>
+<s>( 2 ) Ettekirjutus peab sisaldama j&auml;rgmisi andmeid :</s>
+</p>
+<p>
+<s>1 ) isiku andmed , kellele ettekirjutus tehakse ;</s>
+</p>
+<p>
+<s>2 ) andmed n&otilde;utud toimingu kohta ;</s>
+</p>
+<p>
+<s>3 ) ettekirjutuse t&auml;itmise t&auml;htaeg ;</s>
+</p>
+<p>
+<s>4 ) ettekirjutuse tegemise p&otilde;hjendus ;</s>
+</p>
+<p>
+<s>5 ) ettekirjutuse tegemise kuup&auml;ev , ettekirjutuse teinud isiku nimi , ametikoht , ametinimetus ja allkiri .</s>
+</p>
+<p>
+<s>( 3 ) Ettekirjutuse saanud isik v&otilde;ib ettekirjutuse vaidlustada halduskohtus .</s>
+</p>
+<p>
+<s>( 4 ) Ettekirjutuse t&auml;itmata j&auml;tmise korral teeb j&auml;relevalve teostaja ettepaneku perearstina tegutsemise &otilde;iguse &auml;rav&otilde;tmiseks v&otilde;i tegevusloa kehtetuks tunnistamiseks .</s>
+</p>
+<p>
+<s>( 5 ) Ettekirjutuse t&auml;itmata j&auml;tmise korral kaitsev&auml;es on j&auml;relevalve teostajal &otilde;igus peatada tervishoiuteenuste osutamine kuni puuduste k&otilde;rvaldamiseni .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Tervishoiut&ouml;&ouml;tajate registreerimine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seaduse j&otilde;ustumise ajaks kvalifikatsiooni omandanud isik peab taotlema enda registreerimist Tervishoiuametis seaduse j&otilde;ustumisest alates kolme aasta jooksul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud t&auml;htaja jooksul taotluse esitamata j&auml;tmise korral kaotab isik &otilde;iguse osutada tervishoiuteenuseid .</s>
+</p>
+<p>
+<s>( 3 ) Isiku tervishoiut&ouml;&ouml;tajana registreerimisest v&otilde;ib keelduda , kui ta ei ole viie aasta jooksul t&ouml;&ouml;tanud kvalifikatsiooni t&otilde;endavas dokumendis esitatud erialal .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;igetes 2 ja 3 nimetatud juhtudel v&otilde;ib isik taotleda enda registreerimist Tervishoiuametis , kui ta sooritab teooria- ja praktikaeksami sotsiaalministri kehtestatud korras ning esitab eksami sooritamist t&otilde;endava dokumendi Tervishoiuametile .</s>
+</p>
+<p>
+<s>( 5 ) Isik , kelle kvalifikatsiooni t&otilde;endav dokument ei sisaldu k&auml;esoleva seaduse &sect; 28 l&otilde;ike 3 alusel kehtestatud loetelus , peab enda tervishoiut&ouml;&ouml;tajana registreerimise taotlemiseks sooritama k&auml;esoleva seaduse j&otilde;ustumisest alates kolme aasta jooksul teooria- ja praktikaeksami sotsiaalministri kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Tegevusloa v&auml;ljaandmine</s>
+</p>
+<p>
+<s>( 1 ) Isik , kelle tegevusala k&auml;esoleva seaduse j&otilde;ustumise ajal on tervishoiuteenuste osutamine ning kellel selle seaduse kohaselt on tervishoiuteenuste osutamiseks vaja tegevusluba , peab tegevusloa taotlema seaduse j&otilde;ustumisest alates kolme aasta jooksul .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;ikes 1 nimetatud t&auml;htaja jooksul taotluse esitamata j&auml;tmise korral v&otilde;i juhul , kui isikule ei v&auml;ljastata tegevusluba k&auml;esoleva seaduse &sect; 45 l&otilde;ike 1 punktides 1-4 loetletud alustel , kaotab isik &otilde;iguse osutada tervishoiuteenuseid .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Perearstina tegutsemine</s>
+</p>
+<p>
+<s>Kuni 2003. aasta 1. jaanuarini v&otilde;ivad nimistu alusel perearstina tegutseda &uuml;ldarst ja lastearst , kes on saanud perearstina tegutsemise &otilde;iguse enne k&auml;esoleva seaduse j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Riigi ja kohalike omavalitsuste hallatavate tervishoiuasutuste &uuml;mberkujundamine</s>
+</p>
+<p>
+<s>( 1 ) Riigi hallatavate tervishoiuasutuste &uuml;mberkujundamine era&otilde;iguslikeks juriidilisteks isikuteks toimub riigi poolt era&otilde;iguslike juriidiliste isikute asutamise ja nendes osalemise seaduses ( RT I 1996 , 48 , 942 ; 73 , &otilde;iend ; 1998 , 59 , 941 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kohalike omavalitsuste hallatavate tervishoiuasutuste &uuml;mberkujundamine era&otilde;iguslikeks juriidilisteks isikuteks toimub kohaliku omavalitsuse korralduse seaduses ( RT I 1993 , 37 , 558 ; 1999 , 82 , 755 ; 2000 , 51 , 322 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Riigi v&otilde;i kohalike omavalitsuste hallatavate tervishoiuasutuste &uuml;mberkujundamisel era&otilde;iguslikeks juriidilisteks isikuteks l&auml;hevad kehtivad t&ouml;&ouml;lepingud &uuml;le asutatavatele era&otilde;iguslikele juriidilistele isikutele .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Ps&uuml;hhiaatrilise abi seaduse muutmine</s>
+</p>
+<p>
+<s>Ps&uuml;hhiaatrilise abi seaduses ( RT I 1997 , 16 , 260 ; 1999 , 31 , 425 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 8 l&otilde;ige 1 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Kohaliku omavalitsuse tasandil korraldab ps&uuml;hhiaatrilist abi valla- v&otilde;i linnavalitsus koosk&otilde;lastatult maavanemaga . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 13 l&otilde;ige 9 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 9 ) J&auml;relevalvet tahtest olenematu ravi &uuml;le teostab Tervishoiuamet . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Reklaamiseaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Reklaamiseadust ( RT I 1997 , 52 , 835 ; 1999 , 27 , 388 ; 30 , 415 ; 2001 , 23 , 127 ) t&auml;iendatakse &sect;-ga 14 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 14 <hi rend="sup">1</hi> .</s><s>Tervishoiuteenuse reklaam</s>
+</p>
+<p>
+<s>( 1 ) Tervishoiuteenuse pakkujatena v&otilde;ivad end reklaamida ainult tervishoiuteenuste korraldamise seadusega koosk&otilde;las tegutsevad tervishoiuteenuste osutajad .</s>
+</p>
+<p>
+<s>( 2 ) Tervishoiuteenuse reklaamis v&otilde;ivad sisalduda ainult tervishoiuteenuse osutaja nimi , t&ouml;&ouml;aeg , tegevuskoht , eriala , tervishoiut&ouml;&ouml;tajate nimed , erialad ja akadeemilised kraadid ning osutatavad tervishoiuteenused .</s>
+</p>
+<p>
+<s>( 3 ) Tervishoiuteenuse reklaamis peab sisalduma tervishoiuteenuse pakkuja tegevusloa number . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Riigil&otilde;ivuseaduse t&auml;iendamine</s>
+</p>
+<p>
+<s>Riigil&otilde;ivuseadust ( RT I 1997 , 80 , 1344 ; 2000 , 5 , 32 ; 10 , 58 ; 19 , 117 ; 26 , 150 ; 29 , 168 ja 169 ; 39 , 237 ; 49 , 300 ; 54 , 346 ja 349 ; 55 , 365 ; 57 , 372 ja 373 ; 59 , 379 ; 60 , &otilde;iend ; 78 , 498 ; 84 , 534 ; 92 , 597 ja 598 ; 95 , 607 ja 611 ; 2001 , 2 , 2 ; 3 , 4 ; 16 , 69 ja 72 ; 27 , 151 ; 31 , 171 ; 34 , 188 ja 189 ; 36 , 201 ; 42 , 235 ; 43 , 238 ja 239 ) t&auml;iendatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 3 l&otilde;iget 2 t&auml;iendatakse punktiga 13 <hi rend="sup">2</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 13 <hi rend="sup">2</hi> ) tervishoiuteenuste korraldamise seaduse alusel teostatavad toimingud &rdquo; ;</s>
+</p>
+<p>
+<s>2 ) 7. peat&uuml;kki t&auml;iendatakse 6 <hi rend="sup">2</hi> . jaoga j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 6 <hi rend="sup">2</hi> . jagu</s>
+</p>
+<p>
+<s>Tervishoiuteenuste korraldamise seaduse alusel teostatavad toimingud</s>
+</p>
+<p>
+<s>&sect; 92 <hi rend="sup">3</hi> .</s><s>Kiirabi , eriarstiabi ja &otilde;endusabi osutamise tegevusloa v&auml;ljastamine</s>
+</p>
+<p>
+<s>Kiirabi , eriarstiabi ja iseseisvalt &otilde;endusabi osutamise tegevusloa v&auml;ljastamise eest tasutakse riigil&otilde;ivu j&auml;rgmistes summades :</s>
+</p>
+<p>
+<s>1 ) kiirabi osutamise tegevusluba - 1000 krooni iga kiirabibrigaadi kohta ;</s>
+</p>
+<p>
+<s>2 ) haiglav&auml;lise eriarstiabi osutamise tegevusluba - 1000 krooni ;</s>
+</p>
+<p>
+<s>3 ) haiglas eriarstiabi osutamise tegevusluba - 5000 krooni iga 100 voodikoha kohta ;</s>
+</p>
+<p>
+<s>4 ) iseseisvalt &otilde;endusabi osutamise tegevusluba - 500 krooni .</s>
+</p>
+<p>
+<s>&sect; 92 <hi rend="sup">4</hi> .</s><s>Tegevusloa dublikaadi v&auml;ljastamine</s>
+</p>
+<p>
+<s>Tegevusloa dublikaadi v&auml;ljastamise eest tasutakse riigil&otilde;ivu j&auml;rgmistes summades :</s>
+</p>
+<p>
+<s>1 ) kiirabi osutamise tegevusloa dublikaat - 500 krooni ;</s>
+</p>
+<p>
+<s>2 ) haiglav&auml;lise eriarstiabi osutamise tegevusloa dublikaat - 500 krooni ;</s>
+</p>
+<p>
+<s>3 ) haiglas eriarstiabi osutamise tegevusloa dublikaat - 500 krooni ;</s>
+</p>
+<p>
+<s>4 ) iseseisvalt &otilde;endusabi osutamise tegevusloa dublikaat - 150 krooni .</s>
+</p>
+<p>
+<s>&sect; 92 <hi rend="sup">5</hi> .</s><s>Registreerimise t&otilde;endi t&otilde;estatud &auml;rakirja v&auml;ljastamine</s>
+</p>
+<p>
+<s>Registreerimise t&otilde;endi t&otilde;estatud &auml;rakirja v&auml;ljastamise eest tasutakse riigil&otilde;ivu 100 krooni . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Riigihangete seaduse muutmine</s>
+</p>
+<p>
+<s>Riigihangete seaduse ( RT I 2000 , 84 , 534 ; 2001 , 40 , 224 ) &sect; 2 l&otilde;ige 2 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Riigihangeteks ei ole k&auml;esoleva seaduse &sect; 5 l&otilde;ike 1 punktis 1 nimetatud ostja ja Eesti Panga poolt asjade ostmine v&otilde;i teenuste tellimine riigiasutuselt , linna- v&otilde;i vallavalitsuselt v&otilde;i kohaliku omavalitsuse asutuselt ning Eesti Panga poolt asjade ostmine ja teenuste tellimine Eesti Panga seaduse ( RT I 1993 , 28 , 498 ; 30 , &otilde;iend ; 1994 , 30 , 463 ; 1998 , 64/65 , 1006 ; 1999 , 16 , 271 ) &sect;-s 2 nimetatud &uuml;lesannete t&auml;itmiseks , samuti Tervishoiuameti poolt kiirabiteenuse ja Eesti Haigekassa poolt raviteenuste , tervise edendamise ja haiguste ennetamise teenuste tellimine , v&auml;lja arvatud ravimite ostmine ning meditsiinitehnika ja nendega seonduvate &otilde;iguste ostmine ja rendile v&otilde;tmine . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>Eesti N&otilde;ukogude Sotsialistliku Vabariigi tervishoiuseaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Eesti N&otilde;ukogude Sotsialistliku Vabariigi tervishoiuseadus ( ENSV Teataja 1971 , 29 , 326 ja lisa ; 1974 , 37 , 369 ; 1980 , 18 , 315 ; 1984 , 24 , 292 ; 1985 , 37 , 579 ; 1986 , 11 , 143 ; 1988 , 6 , 68 ; RT I 1995 , 57 , 978 ; 1997 , 16 , 260 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Tervishoiukorralduse seaduse kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Tervishoiukorralduse seadus ( RT I 1994 , 10 , 133 ; 1995 , 57 , 978 ; 1997 , 86 , 1462 ; 1999 , 18 , 305 ; 23 , 351 ; 97 , 860 ; 2000 , 57 , 374 ; 58 , 376 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Seaduse j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolev seadus j&otilde;ustub 2002. aasta 1. jaanuaril .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seaduse &sect;-d 12-15 ja &sect; 22 l&otilde;ige 2 j&otilde;ustuvad 2003. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

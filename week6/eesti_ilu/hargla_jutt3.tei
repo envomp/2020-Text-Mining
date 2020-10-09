@@ -1,0 +1,175 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Deja-vu</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 31351; s&otilde;nu: 3359</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Deja-vu</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=82></tagusage>
+         <tagusage gi=s occurs=380></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body> 
+<div0 type='tervikteos'><head>Deja-vu</head>
+<p><bibl><author><s>Indrek Hargla</s></author></bibl></p>
+<p>Tegelased</p>
+<p> <s>Adrian Adojan --mdash ; ajateadlane , 42-aastane , kahtlev , kuid uskuv , toriseja ja edasip&uuml;&uuml;dlik ajateadlaste grand old man ja skeptik nr 1 , otsib lahendusi ja leiab , aga m&otilde;nikord liiga hilja . </s> <s> Mihhail Puhhov --mdash ; surnud , aga enne surma teadis ta ajast rohkem kui keegi teine . </s> <s> John Keyes --mdash ; &Uuml;lemaailmse Ajaakadeemia Esimees , andekas teadlane kuid liialt ambitsioonikas , tahab saada ajast v&otilde;itu ja olla See Mees , Kes Sellega Hakkama Sai . </s> <s> Duncan Jordan --mdash ; teaduspoliitik , teised teevad teadust , tema teeb teadlasi ja annab Presidendile n&otilde;u . </s> <s> Victor N'Mwana --mdash ; President . </s> <s> See , kes otsustab . </s> </p>
+<p> <s>&Uuml;lemaailmne Ajaakadeemia Rae , Canada , McKenzie district aasta 2179 , 12. juuli , kl 8.30</s> </p>
+<p> <s>Tibutas vihma , h&auml;sti kergelt ja mahedalt . </s> <s> K&otilde;ik l&otilde;hnas &otilde;rnalt niiskete m&auml;ndide j&auml;rele . </s> <s> Asfalt sulas sulnilt Adojani h&auml;&auml;letu autoga &uuml;hte . </s> <s> Karge , p&otilde;hjamaiselt veetlev hommik . </s> </p>
+<p> <s>Adojan ei pidanud p&otilde;rmugi juhtimisele m&otilde;tlema --mdash ; h&auml;&auml;letu " Turan " kihutas metsavaheteel omap&auml;i m&ouml;&ouml;da teed , mida masin juba aastaid tundis . </s> <s> Tee keerles kunstlike kurvide peal , pakkudes s&otilde;itjale meeli&uuml;lendavat vaatepilti P&otilde;hja-Canada loodusest , kus ilusat suveilma jagus vaid m&otilde;neks kuuks . </s> <s> Adojanile meeldis siin Canadas , meeldis nagu l&otilde;unamaalasele p&otilde;hjas ikka , meeldis nagu teadlasele maailma kalleimas teadusasutuses . </s> </p>
+<p> <s>K&otilde;ik oli nii nagu enne , kuid miski ei pruukinud enam endiseks j&auml;&auml;da . </s> <s> See kauni Canada kolkanurk pidi t&auml;na saama kohaks , milles viiakse l&auml;bi ehk suurim eksperiment maailma ajaloos . </s> <s> Siin , Suure Orjaj&auml;rve &auml;&auml;res paiknevas Ajaakadeemias ( kui totakas nimi , Adojan kortsutas kulmu ) toimub t&auml;na See . </s> <s> Projekt koodnimetusega TWAIN . </s> <s> Kui Adojan &otilde;ieti m&auml;letas , andis selle nime projektile t&otilde;hk Jordan . </s> <s> Jordan oli tema p&auml;risnimi , " t&otilde;hk " Adojani poolt antud h&uuml;&uuml;dnimi . </s> <s> T&otilde;hk t&auml;hendas Adojanile rumalat ja ebaeetilist inimt&uuml;&uuml;pi , sellist , kes ise suurt korda midagi ei saada . </s> <s> Midagi suurt ja head . </s> </p>
+<p> <s>Jordan arvas , et projekti TWAINi tuleb kuni positiivse tulemuse saavutamiseni salajas hoida . </s> <s> See vist t&auml;hendab , et mitte&otilde;nnestumise puhul ei saa keegi sellest teada . </s> <s> &Otilde;nnestumise puhul aga saavad k&otilde;ik teada , et just tema , Jordani hoole , t&auml;helepanu ja juhtimise all &otilde;nnestus l&auml;bi viia maailma ajaloos esimene ... </s> </p>
+<p> <s> " P&otilde;rgusse , " m&otilde;tles Adojan . </s> <s> " Poliitilist r&auml;mpsu on asja &uuml;mber rohkem kui vaja . </s> <s> K&otilde;ik see salastatus , p&auml;&auml;sukaardid , h&auml;&auml;leidentifitseerimisdetektorid . </s> <s> Kaks tundi roni oma laborisse ja pool tundi peldikusse . </s> <s> Igal pool mingid kontrollpunktid . </s> <s> Et keegi teada ei saaks ... </s> <s> Ja T&otilde;hk elab keset Akadeemiat luksuskorteris , kamandab ja juhib . </s> <s> Keyes poeb tema &uuml;mber ja sisse nagu viimane krants . </s> <s> &Auml;kki saab Keyeski osa kuulsusevihmast . </s> <s> Et olla See Mees , Kes Sellega Hakkama Sai . </s> </p>
+<p> <s>TWAINi finantseeris Globorg otse , Globorgi president " Geenius " N'Mwana'l on ainu&otilde;igus anda k&auml;sk " Jah " . </s> <s> Ja seepeale hakkavad t&ouml;&ouml;le hiigelgeneraatorid , mis Suure Orjaj&auml;rve vee muudavad aatomienergiaks . </s> <s> Ja see energia annab impulsi Puhhovi Kompressorile . </s> <s> Ja siis juhtub ... </s> <s> V&otilde;i ei juhtu ... , m&otilde;tles Adojan . </s> <s> Keyes arvab , et juhtub , mina , et ei juhtu . </s> <s> V&otilde;i kes &otilde;ieti teab , arutles Adojan . </s> </p>
+<p> <s>Adojan polnud endale p&auml;riselt selgitanud oma positsiooni kogu m&auml;ngus . </s> <s> Ta oli teadlane ja teda huvitas asja teaduslik k&uuml;lg . </s> <s> Ta oli olnud Puhhovi &otilde;pilane , kuid Puhhov oli poolel teel seisma j&auml;&auml;nud . </s> <s> Puhhov suri ja Adojan oli olnud ainuke , kes Puhhovi valemeist edasi oskas m&otilde;elda , kuni temagi j&otilde;udis ummikusse . </s> <s> " Tal on lahendus olemas , algusest peale oli tal lahendus olemas , aga keegi ei oska seda n&auml;ha , " nii arvas Adojan ja nii ta ise ka uskus . </s> <s> Puhhovi-Adojani teoreemid j&auml;id ummikusse paradoks-konstandi n&auml;htavale ilmumisega . </s> <s> Keyes kuulutas selle kohe ebaoluliseks , mis ei suuda muuta ekspermendi l&auml;biviidavuse toimumist . </s> <s> Adojan kehitas &otilde;lgu --mdash ; " Teie otsustate " , Jordan halleluujatas ( ta oli poliitik ja pidi seep&auml;rast jumalat uskuma ) . </s> <s> Ja Akadeemia ? </s> <s> Akadeemia tormas innuga projekti kallale ning Adojan vist ka . </s> </p>
+<p> <s>Eemalt , k&uuml;nka tagant hakkasid paistma Reaktori tornid . </s> <s> Puude vahelt libisesid m&ouml;&ouml;da Suure Orjaj&auml;rve siniveed , veed , mis peaksid k&auml;ivitama maailma ajaloo esimese ajas liikumise eksperimendi . </s> </p>
+<p> <s>9.10</s> </p>
+<p> <s>Adojan istus Akadeemia s&ouml;&ouml;klas ja j&otilde;i oma hommikust neljandat kefiiri . </s> <s> " Teid k&otilde;iki tapab &uuml;kskord kohv , " tavatses ta kolleegidele &ouml;elda , " kas te joote teda v&otilde;i mitte . </s> <s> Kefiir aga hoiab mind elus . " </s> <s> &Otilde;hk oli &auml;revust t&auml;is . </s> <s> Sebiti ringi , t&otilde;ugeldi , visati n&auml;rviliselt nalja . </s> <s> Kuid Adojan ei suutnud tabada optimismi ega l&otilde;bususenooti . </s> <s> Ebm&auml;&auml;rasust oli liiga palju . </s> <s> Ta polnud endale kunagi tahtnud tunnistada , et tema autoriteet oli tegelikult niiv&otilde;rd k&otilde;rge , et skepsis oli ka kollegidesse imbunud . </s> </p>
+<p> <s>Adojan j&otilde;i v&auml;ikeste s&otilde;&otilde;mudega kefiiri ja ootas Keyesi v&auml;ljakutset . </s> <s> Ta pidi siin istuma ja oma kefiiriga m&otilde;tteid koguma . </s> <s> Aeg tuli hetkeks maha v&otilde;tta , kuigi ajal ei pruukinud varsti enam mingit t&auml;htsust olla . </s> <s> Adojan oli TWAINi teadusjuht , kuid mitte poliitikajuht . </s> <s> T&auml;naseks oli m&auml;&auml;ratud TWAINi k&auml;ivitamine , tema ei saanud seda &auml;ra hoida . </s> <s> Kui Adojani k&auml;est k&uuml;siti , kas saab eksperimenti l&auml;bi viia , pidi ta vastama " Jah " . </s> <s> Sest sai k&uuml;ll . </s> <s> Aga kui k&uuml;siti , mis juhtub , pidi ta vastama " Ei tea " . </s> <s> Sest ta ei teadnud . </s> <s> Tema poolt edasiarendatud Puhhovi teoreemid ei andnud vastust paradoks-konstandile . </s> </p>
+<p> <s>TWAINi sai k&auml;ivitada , aga keegi ei saanud &ouml;elda , mis juhtub . </s> <s> Poliitikud ja Globorg arvasid , et teaduses on k&otilde;ige t&auml;htsam eksperiment l&auml;bi viia . </s> <s> Adojani arvates oli teaduses k&otilde;ige t&auml;htsam teada , mida seni ei teatud . </s> <s> M&otilde;nikord tundus Adojanile , et riiklikult finantseeritav teadus polegi &otilde;ieti teadus . </s> <s> Kopernik ja da Vinci olid erakud , keegi ei andnud neile raha . </s> <s> Nad ei t&auml;itnud tellimust . </s> <s> Ja olid seet&otilde;ttu vabad . </s> <s> Teadus on m&otilde;tlemine , filosoofia kvintessents , filosoofia pole teadus , vaid seisund . </s> <s> Ja teadus pole mitte iialgi poliitika , v&auml;hemalt oma ideaalkujul . </s> <s> Samas on teadusel iseeneslik v&auml;&auml;rtus . </s> <s> Ta areneb , sest inimesed arendavad teda . </s> <s> Kui ollakse mingi avastuse l&auml;vel , siis pole m&otilde;tet enam k&otilde;helda . </s> <s> Edasi ! </s> <s> Aga ikkagi teeb murelikuks teaduse forsseerimine . </s> <s> Materiaalsed v&auml;&auml;rtused teaduse stiimulina o n ohtlikud , leidis Adojan . </s> <s> Leiutatakse raha p&auml;rast . </s> <s> Mitte iseenesliku m&otilde;ttelahvatuse valgusel . </s> </p>
+<p> <s>Adojani randmel s&uuml;ttis rihma otsas pisike punane paneel . </s> <s> " Adrian , saad sa tulla , jah ? " </s> <s> " Keyes , " m&otilde;tles Adojan , " siin ta siis ongi . " </s> <s> Ta l&otilde;petas kiiruga kefiiri . </s> <s> " Puhhov uskus , et ma saan sellega hakkama , " m&otilde;tles ta , " Kuid mida ta k&uuml;ll tahtis mulle &ouml;elda ... ? " </s> <s> Vana teadlase loppis n&auml;gu kerkis ajusopist ta silme ette ... </s> </p>
+<p> <s>See oli vaevalt kaks aastat tagasi , siis kui Puhhov oli veel elus . </s> <s> Nad olid Puhhoviga Moskva &Uuml;likooli Ajateaduskonna &otilde;ppen&otilde;ukogu saalis . </s> <s> Konverents oli just l&otilde;ppenud . </s> <s> Puhhov imes oma sigaretti ja p&otilde;rnitses paari sirgeldust , mida ta nimetas valemiks . </s> </p>
+<p> <s> " Sellel k&otilde;igel ei ole lahendust , Adik , " &uuml;tles Puhhov vaikselt . </s> <s> " Ma saan l&auml;bi integraalide leida vajaliku energiahulga , ma saan l&auml;bi energia leida temporaalt&uuml;hiku ja l&otilde;puks Ajavektori koordinaadid , aga see viib k&otilde;ik j&auml;lle algusesse v&auml;lja . </s> <s> Ajas saab liikuda ja ajas ei saa liikuda . </s> <s> Mida ma tegema pean , Adik ? </s> <s> Nad usuvad ainult esimesse valemisse - ajas saab liikuda . </s> <s> Ma olen geenius ja mees , kes leidis tee ajas liikumiseks . </s> <s> Muu neid ei huvita . </s> <s> Ma andsin neile v&otilde;imaluse ja nad kasutavad seda . " </s> </p>
+<p> <s> " Miks nad ? " k&uuml;sis Adojan . </s> <s> " Miks mitte meie ? " </s> </p>
+<p> <s> " Meie , teadlased , oleme alati need , kes ei oma oma leiutatut . </s> <s> Meie saame osa teadmisest , aga meie teadmised kuuluvad teistele . </s> <s> Poliitikutel on oma plaan . " </s> <s> Puhhov muigas nukralt . </s> <s> " Ma tean , mida nad tahavad --mdash ; nad tahavad maailma parandada . </s> <s> Nad tahavad minna ajas tagasi ja teha maailma paremaks . </s> <s> Kujutad ette , nad on hullud . </s> <s> Minna minevikku , v&otilde;i saata midagi minevikku , et see muutuks . </s> <s> See on absurd . " </s> </p>
+<p> <s>Adojan l&otilde;i k&auml;ega . </s> <s> " J&auml;ta , sa ei usu seda isegi . </s> <s> Nad ei ole ometi nii rumalad . </s> <s> Me saadame midagi ajas tagasi , seda k&uuml;ll . </s> <s> Kuid mitte ometi selleks , et olevikku muuta . " </s> </p>
+<p> <s> " Nojah , " Puhhov kustutas sigareti , " nad ei &uuml;tle seda otse v&auml;lja . </s> <s> Aga poliitikud annavad raha , ja nende s&otilde;nade taga on just see --mdash ; minna , kurat v&otilde;taks , ajas tagasi . </s> <s> Seal midagi &auml;ra tsurkida ja j&auml;&auml;da ootama , et see kuradima maailm l&auml;heks paremaks . </s> <s> Kui naiivne ... ja kui ohtlik . " </s> </p>
+<p> <s>Puhhov t&otilde;usis ja astus akna juurde . </s> <s> " Kui me ainult teaksime , miks miski eksisteerib , v&otilde;iks see ju teoreetiliselt v&otilde;imalik olla . </s> <s> Aga me ju ei tea . </s> <s> Jah , ma olen geniaalne teadlane , ma avastasin " Aja saladuse " , nagu kirjutatakse , aga mulle pakkus see teoreetilist , teadlase naudingut . </s> <s> Siis hakkasid &auml;kitselt laekuma hullumeelsed summad , loodi see teie akadeemia seal Canada p&auml;rap&otilde;rgus , l&auml;ks lahti kogu see tingel-tangel . </s> <s> Ja olgu ma neetud , kui selle taga ei ole Globorgi soov maailma parandada . " </s> </p>
+<p> <s>Adojan &uuml;ritas Puhhovi juttu sekkuda . </s> <s> " Aga , Mihhail , " peatas ta teadlase k&otilde;nevoolu k&auml;ega vehkides , " l&otilde;ppeks selleks me teadusega tegelemegi . </s> <s> Et maailma parandada . </s> <s> Kui inimesele on juba m&otilde;istus antud , peab ta seda kasutama . </s> <s> Selles ongi tsivilisatsiooni m&otilde;te . " </s> </p>
+<p> <s>Puhhov vaatas nukralt t&uuml;hjusesse . </s> <s> " Me ei tea , milles on tsivilisatsiooni m&otilde;te . </s> <s> V&otilde;ibolla selles see m&otilde;te ongi . </s> <s> Mitte teada . </s> <s> Teadmatus suunab ja sunnib arengut . </s> <s> Teadlikkus kultiveerib religiooni ja unustust , sest &otilde;iget teadmist ei saa kunagi olemas olla . </s> <s> Areng ja tsivilisatsioon pole samased , arenguga ei saa m&otilde;&otilde;ta tsivilisatsiooni edukust , sest arusaam edukusest tuleneb arengust . </s> <s> Meile on m&otilde;istus antud , jah . </s> <s> Inimkond leiutas ratta , &otilde;ppis kasutama tuld , avastas triibulise hambapasta , lendas kosmosesse ja nagu ma kuulnud olen , aretab kodustatud alligaatoreid . </s> <s> Aga kas me oleme n&uuml;&uuml;d sellep&auml;rast rohkem inimesed ? " </s> </p>
+<p> <s>Adojan naeris , p&auml;ris s&uuml;damest . </s> <s> " Ei , ei . </s> <s> Lihtsalt m&otilde;istusega kaasneb teadmistejanu . </s> <s> Soov n&auml;ha silmapiiri taha . " </s> </p>
+<p> <s>Puhhov vastas samuti l&otilde;busamalt . </s> <s> " Minult imevad nad selle k&otilde;ik v&auml;lja . </s> <s> Egas ma t&otilde;rgugi vastu , ma annan neile Aja Saladuse . </s> <s> See on veel poolik , seda k&uuml;ll . </s> <s> Aga keegi kindlasti j&otilde;uab kunagi lahenduseni . </s> <s> Kuid kas sa suudad ette kujutada , mis k&otilde;ik juhtuda v&otilde;ib , kui neil &otilde;nnestub midagi ajas tagasi saata ? </s> <s> Mis juhtuks , kui see avalikuks saaks ? </s> <s> Ma ei m&otilde;tle siin kihlvedudes&otilde;lmijaid ega antiigikaupmehi , kes ilmselt ajasr&auml;ndamist rahaks hakkavad p&ouml;&ouml;rama . </s> <s> Ei , k&otilde;ige hirmsam on teadmatus , v&otilde;i &otilde;igemini hirmu puudumine seesuguste eksperimentide ees . </s> <s> Ma kardan kohutvalt oma valemit , seda , mis &uuml;tleb , et aeg on universaalne . </s> <s> Ma ei tea , mida see t&auml;hendab , aga ma kardan . </s> <s> Olgu , sa tead , et mind pole kauaks . </s> <s> Sina pead v&otilde;tma teadusliku vastutuse kogu selle eksperimendi eest . </s> <s> Sa pead seda mulle lubama ! " </s> </p>
+<p> <s>Adojan lubas . </s> </p>
+<p> <s>9.45</s> </p>
+<p> <s>Keyes ja Adojan istusid Keyesi kabinetis . </s> <s> Keyesi tuju oli v&otilde;rdlemisi hea , kuid Adojan teadis , et Keyes peidab tegelikult l&otilde;busa olemise taha oma n&auml;rvilisust . </s> <s> &Uuml;ldiselt hakkas Adojanile k&otilde;ik juba n&auml;rvidele k&auml;ima ja ta p&otilde;rnitses Akadeemia esimeest t&uuml;lgastunult . </s> <s> Keyesi laual tiksus neljasaja aasta vanune kell . </s> <s> Kell oli v&auml;ga ilus ja v&auml;ga kallis . </s> <s> Selle oli Keyesile kinkinud Globorg . </s> <s> " Minevik n&auml;itab meile olevikku , kuid mitte tulevikku , " m&otilde;tles Adojan alati , kui ta seda kella n&auml;gi . </s> </p>
+<p> <s> " N&uuml;&uuml;d on nii , Adrian , " lausus Keyes , " et kui alt , Suurest Auditooriumist , tuleb signaal , et TWAINi tarbeks on k&otilde;ik nii&ouml;elda valmis seatud , helistan ma Globorgi Jordanile . </s> <s> Kannan talle ette nii&ouml;elda asjade seisu . </s> <s> Ja N'Mwana annab korralduse nii&ouml;elda nupule vajutada . " </s> </p>
+<p> <s> " Nii&ouml;elda " oli Keyesi lemmiks&otilde;na . </s> <s> Adojanil k&auml;is iga kord , kui ta seda s&otilde;na kuulis , ihust v&auml;rin l&auml;bi . </s> </p>
+<p> <s> " Mul ei ole veel l&otilde;plikke tulemusi , " &uuml;tles Adojan , " me ei tea , mis juhtub . </s> <s> Me saame ajavektori suunata x- punktile minevikus ja nii&ouml;elda nupule vajutada aga me ei v&otilde;i teada , mis juhtub . " </s> </p>
+<p> <s>Keyes neelas " nii&ouml;elda " torke alla . </s> <s> " Ehhee , just siis me saame teada , mis juhtub , " pareeris ta . </s> <s> " Just siis me saamegi teada , kui me nupule vajutame . </s> <s> &Auml;ra seda &auml;ra unusta . </s> <s> Kui katse k&auml;ik oleks 100% ette teada , poleks &uuml;ldse m&otilde;tet seda l&auml;bi viia . " </s> </p>
+<p> <s> " Ma arvan , et me ei arvesta piisavalt vastutusega , mis kaasneb , " vastas Adojan . </s> <s> " Ma arvan , et meil pole &otilde;igust seda eksperimenti veel l&auml;bi viia . </s> <s> Isegi , kui meil &otilde;nnestub see objekt minevikku saata , pole mingit garantiid selle ohutuses . </s> <s> Ma ... " </s> </p>
+<p> <s>Keyes katkestas Adojani . </s> <s> " &Auml;ra unusta , et kogu eksperimendi nii&ouml;elda logistika on Puhhovi enda poolt , nii&ouml;elda postuumselt kinnitatud . " </s> </p>
+<p> <s>Siin kasutas Keyes Adojani arvates oma " nii&ouml;elda " fraasi &otilde;igustatult . </s> <s> Peale Puhhovi surma sai Adojan Puhhovi depositeeritud p&auml;randi , mis sisaldas tema viimaseid arvutusi ja TWAINi logistikat , millest kellelgi seni veel aimu polnud . </s> <s> Ese X , milleks Puhhv oli valinud k&otilde;ige harilikuma kustukummi , asetatakse ajareaktorisse . </s> <s> Siis vajutatakse seda Keyesi " nii&ouml;elda " nuppu , ning kustukumm sooritab esimese ajareisi maailma ajaloos . </s> <s> Ajareaktor ise , kuhu kustukumm asetatakse , on suur ja v&otilde;imas seadeldis . </s> <s> Kuid tema sees on kaks uraaniga taadeldud seifi , neist &uuml;he , seifi " A " sisse ese X asetubki . </s> <s> Kustukumm X saadetakse seifist " A " seifi " B " . </s> <s> Ajas tagasir&auml;nde aeg on 10 minutit . </s> <s> Seega peaks ju olema 10 minutit enne eksperimendi algust kustukumm juba seifis " B " . </s> <s> Puhhov oli aga kategooriliselt keelanud seifi " B " avamise e n n e TWAINi algust . </s> <s> See p&otilde;hjustavat eksperimendi kordasaatmise v&otilde;imatuse . </s> <s> Kuid m&otilde;lemale seifile on installeeritud taimerid ja sensorid , mis n&auml;itavad t&auml;pselt eseme " &uuml;lekandmise " ja " laekumise " kellaaega . </s> <s> Kumbagi seifi ei saa avada enne eksperimendi l&auml;biviimise algust . </s> <s> Niisiis p&otilde;hjustab nii&ouml;elda nupulevajutamine kustukummi kandumise seifi " B " 10 minutit ajas tagasi . </s> <s> See Puhhovi skeem oli vastuvaidlemata Akadeemia juhtkonna poolt heakskiidetud . </s> <s> Tagatud oli nii turvalisus , diskreetsus kui teaduslik t&otilde;estatus . </s> <s> M&otilde;lemad seifid olid &uuml;lirange elekroonilise ja inimeste valve all . </s> <s> Elektroonika kontrollis seife , inimesed elektroonikat , teised inimesed kontrollijaid ja Keyes kontrollijate kontrollijaid . </s> <s> Pealegi oli ilmselt ainult elektroonikal aimu , millega ta t&auml;pselt tegeleb ja mida valvab . </s> <s> K&otilde;ik &uuml;lej&auml;&auml;nud kontrollmeeskonnad tegutsesid " tarvis teada " p&otilde;him&otilde;tte alusel . </s> <s> See t&auml;hendab , nad ei teadnud midagi . </s> </p>
+<p> <s>Adojan l&otilde;i resigneerunult k&auml;ega . </s> <s> " Puhhovi viimaseid valemeid pole mul nagunii &otilde;nnestunud l&otilde;puni lahti m&otilde;testada . </s> <s> Niipalju kui ma neist m&otilde;istan , ei v&auml;lista nad ajar&auml;nnu v&otilde;imalust per se , l&otilde;ppeks annavad nad ju selle t&auml;pse mehhanismi . </s> <s> Kuid nad sisaldavad iseenesliku paradoksi . </s> <s> Valemid v&auml;listavad iseenda , kui nad on t&otilde;ep&auml;rased . </s> <s> Ja nad on . " </s> </p>
+<p> <s>Kuid Keyes oli juba k&otilde;ik l&auml;bi m&otilde;elnud . </s> <s> " Me avastame siin uut ajastut , mees . </s> <s> Puhhov , sina ja meie k&otilde;ik saame surematuks . </s> <s> See paradoks on normaalne . </s> <s> Sa tead , et Kaufmani anal&uuml;&uuml;sigrupp on paradoksi seletanud kui t&auml;iesti loomuliku nii&ouml;elda murdepunkti . </s> <s> Sest ajas r&auml;ndamine pole ju loogiliselt v&otilde;ttes v&otilde;imalik . </s> <s> Ei saa kohtuda iseendaga . </s> <s> Ei saa tappa oma esivanemaid . </s> <s> &Uuml;ldsegi ei saa mitte midagi ajaloos muuta , sest k&otilde;ik , mis juhtub , juhtub seep&auml;rast , et k&otilde;ik eelnev on juhtunud . </s> <s> Sellep&auml;rast ongi paradoks-konstant loomulik . </s> <s> Ajavektori koordinaadid ei saa eksisteerida . </s> <s> Aga neid saab energiaga suunata . " </s> </p>
+<p> <s> " Suunata saab vektorid , kuid mitte mateeriat , " vastas Adojan . </s> <s> " Ja sa tead sama h&auml;sti kui mina , et Kaufmani grupp andis sellised vastused , nagu neilt oodati . </s> <s> Kuigi , mnjah , nad on loogilselt formuleeritud ja suures osas paikapidavad . </s> <s> Siiski ei lahenda nad paradoks-konstandi olemust . " </s> </p>
+<p> <s> " Adrian , " Adojanile tundus , et Keyes hakkab nagu &otilde;hku t&auml;is minema . </s> <s> " Adrian , me viime TWAINi l&auml;bi . </s> <s> Ma ootan vaid &uuml;hte kinnitust . </s> <s> See toimub ja see &otilde;nnestub . </s> <s> Pealegi ei kavatse ma sinuga siin vaidlema hakata . </s> <s> Ma kutsusin su selleks , et sulle t&auml;nu avaldada . " </s> </p>
+<p> <s>Keyes t&otilde;usis p&uuml;sti ja asetas &uuml;he k&auml;e oma iidsele lauakellale . </s> <s> " Adrian , " j&auml;tkas ta , " Suur t&ouml;&ouml; on tehtud , palju higi valatud ja energiat ohverdatud . </s> <s> Kui p&otilde;hiline ohverdus on veel ees . </s> <s> T&auml;na avaneb inimkonnale nii&ouml;elda uks aega , ajalukku ja tulevikku . </s> <s> Sinu panus selle k&otilde;ige juures on &uuml;sna suur . </s> <s> Ma &uuml;tleksin isegi , et hindamatult suur , ja on arusaadav , et praegu on k&otilde;ige ebasobivam aeg r&auml;&auml;kida nii&ouml;elda materiaalsetest ergutustest , mis meie suure projektiga kaasnevad . </s> <s> Siiski tahaksin ma , et nii&ouml;elda inimkonna senise eksistentsi nii&ouml;elda alustalasid vapustava s&uuml;ndmuse teokstegemine ei m&ouml;&ouml;duks meie usinale teadlaskonnale nii&ouml;elda stiimulita . </s> <s> Kuna sinu panus on olnud , nagu ma juba mainisin , hindamatult suur , siis on mul hea meel sulle teatavaks teha , et Globorgi juhtkond on otsustanud TWAINi eduka kordamineku , milles me keegi ei kahtle , korral , paljudele meie teadlastele ... " </s> </p>
+<p> <s>Adojanil l&auml;ks summa suurus k&otilde;rvust m&ouml;&ouml;da . </s> <s> Midagi nende jutuajamise alguses oli talle k&otilde;rvu j&auml;&auml;nud , midagi olulist . </s> <s> Midagi , mis oli k&auml;ivitanud kiire m&otilde;teteahela , mille otsad oleksid pidanud kokku jooksma , kuid ei jooksnud . </s> <s> Midagi , mis oli ... </s> </p>
+<p> <s>Telefon tegi h&auml;&auml;lt . </s> </p>
+<p> <s> " ... saab areneda ja &otilde;itseda , sest teadus on oma olemuselt ... " </s> <s> Keyes vakatas ja haaras toru ja kuulas kulme kortsutades . </s> <s> Seegi on n&auml;rvilisuse tundem&auml;rk , teadis Adojan . </s> <s> Ilmselt oli helistajaks Suur Auditoorium ja s&otilde;numiks valmisolek number &uuml;ks , sest Keyes ei vastanud helistajale midagi , vaid valis kiiresti uue numbri . </s> </p>
+<p> <s>Adojan m&otilde;tles , et milleks k&otilde;ik see satelliittelefonidega helistamine , kui visuaalfoniga oleks palju otstarbekam kohtumisi korraldada . </s> <s> Siis tuli talle meelde , et satelliit tagab suurima julgeoleku ja ta ohkas . </s> </p>
+<p> <s>Loomulikult oli see t&otilde;hk Jordan , kellele Keyes n&uuml;&uuml;d helistas . </s> <s> Kes muu . </s> <s> Adojan n&auml;gi aupaistet Keyesi n&auml;ol , esimehe silmad t&auml;itusid pisaratega . </s> <s> Tundus , et Keyesil on raske hingata . </s> <s> Adojan teadis , et n&uuml;&uuml;d on tema koht all , Suures Auditooriumis , seal kus TWAIN teoks saab . </s> <s> V&otilde;i ei saa . </s> <s> Kuid enne peab ta oma laboratooriumist l&auml;bi minema , sest see miski , mis oli ta alateadvusele mingi saladuse v&otilde;tit andmas , tahtis meeldetuletamist . </s> </p>
+<p> <s> " Loomulikult , " kuulis Adojan Akadeemia esimeest r&auml;&auml;kimas . </s> <s> " Loomulikult . </s> <s> See on suur au . </s> <s> K&otilde;ik plaanip&auml;raselt . </s> <s> Jah ... </s> <s> Me saame sellega hakkama . </s> <s> Jah ... </s> <s> Ma t&auml;nan , ma olen v&auml;ga t&auml;nulik . " </s> <s> Keyes pani toru hargile . </s> <s> " President andis loa , " &uuml;tles ta . </s> </p>
+<p> <s>Kell sai 9.50. </s> </p>
+<p> <s> " Me peaksime n&uuml;&uuml;d alla minema , " &uuml;tles Keyes . </s> <s> Ja enam ei suutnud ta pisaraid tagasi hoida . </s> </p>
+<p> <s> " Pagan v&otilde;taks , " m&otilde;tles Adojan , kui ta esimehe kabinetist v&auml;ljus , " see t&auml;hendab talle ikka meeletult palju . " </s> </p>
+<p> <s>Globorgi Peakorter Washington DC , USA aasta 2179 , 12. juuli , kl 9.50</s> </p>
+<p> <s>President N'Mwana ja n&otilde;unik Jordan seisid p&uuml;sti . </s> <s> M&otilde;lemal oli k&auml;es pokaal mineraalveega . </s> <s> Nad vaatasid seinal asuvat suurt ekraani , millelt kuvus Ajaakadeemia Suur Auditoorium , kus oli k&otilde;ik TWAINi jaoks valmis seatud . </s> <s> Globorgi peakorter asus P&otilde;hja-Canadast umbes 5000 kilomeetrit eemal Washingtonis . </s> <s> Jordan oli nii igaks juhuks oma luksuskorteri Akadeemias h&uuml;ljanud ja s&otilde;itnud Presidendi juurde . </s> <s> Tema esindas teadlastegruppi , kes TWAINi ette valmistasid , k&otilde;ige k&otilde;rgemal tasemel . </s> </p>
+<p> <s>Jordan vaatas , kuidas president r&auml;&auml;kis telefoniga . </s> </p>
+<p> <s>Otsus oli tehtud , k&auml;sk oli antud . </s> <s> Kell 10.00 vajutatakse Ajaakadeemias nupule . </s> </p>
+<p> <s> " See oli &otilde;ige otsus , Victor , " lausus Jordan , kui N'Mwana oli toru &auml;ra pannud , " ainu&otilde;ige otsus . </s> <s> Niipalju raha on kulutatud , niipalju energiat raisatud . </s> <s> Me oleme kogu aeg olnud &otilde;igel teel . </s> <s> See Adojan on ammu reaalsustaju kaotanud . </s> <s> Ainult Keyes tunneb endal lasuvat vastutuskoormat . " </s> </p>
+<p> <s> " Jah , " vastas president vaikselt , " jah , ma tean . </s> <s> Ja ma t&auml;nan jumalat et ta on selle vastutuse ka minu peale pannud . " </s> </p>
+<p> <s>M&otilde;lemad vaikisid , keskendudes oma t&auml;helepanu kuvarile . </s> <s> Minutid kulusid . </s> </p>
+<p> <s> " Praegu on see ainult kustukumm , " m&otilde;tiskles N'Mwana kuuldavalt , " homme juba kogu minevik , olevik ja t&auml;nap&auml;ev . " </s> <s> Ta vaatas verdt&auml;isvalgunud silmadega oma k&auml;e all olevale v&auml;rvifotole , mis kujutas noorepoolset pikkade juustega ja habemega napis riietuses meest . </s> <s> " Ja meie p&auml;&auml;semine , " lisas ta m&otilde;ttes . </s> </p>
+<p> <s> " N&uuml;&uuml;d , Victor , n&uuml;&uuml;d kohe , " h&uuml;&uuml;atas Jordan , " vaata , Keyes l&auml;heneb puldile . </s> <s> Kohe n&uuml;&uuml;d see juhtub ! " </s> <s> Erutusest pillas ta oma veepokaali k&auml;est . </s> <s> See kukkus pehmelt vaibale ja kihisev vedelik valgus vaibale . </s> </p>
+<p> <s>&Uuml;lemaailmne Ajaakadeemia Rae , Canada , McKenzie district 12. juuli , kl 9.57</s> </p>
+<p> <s>Adojan l e n d a s oma laboratooriumist v&auml;lja . </s> <s> MA PEAN J&Otilde;UDMA , karjus ta m&otilde;ttes . </s> <s> Ta jooksis , tormas meeleheitlikult l&auml;bi t&uuml;hjade koridoride Suure Auditooriumi poole . </s> <s> K&otilde;ik majasisesed kommunikatsioonivahendid olid turvalisuse huvides v&auml;lja l&uuml;litatud . </s> <s> Ta pidi f &uuml; &uuml; s i l i s e l t kohale minema , ta ei saanud helistada . </s> <s> KURADI HULLUD OMA JULGEOLEKUGA . </s> <s> Mitte iialgi varem , mitte iialgi polnud kogu maailma saatus olnud &uuml;he inimese k&auml;tes . </s> <s> &Otilde;igemini jalgades . </s> </p>
+<p> <s>Kui h&auml;mmastav see on , et lahendus , mis on nii lihtne ja elementaarne ja mis on kogu aeg olemas , j&otilde;uab su m&otilde;istuse teadvustavasse osasse alles p&auml;rast mingi IMBETSILLI juhuslikku m&otilde;tteavaldust . </s> </p>
+<p> <s>Kuidas oligi Keyes oma kabinetis vaevalt k&uuml;mme minutit tagasi &ouml;elnud ? </s> <s> EHHEE , JUST SIIS ME SAAMEGI TEADA , MIS JUHTUB , JUST SIIS ME SAAMEGI TEADA , KUI ME NUPULE VAJUTAME ! </s> </p>
+<p> <s>Ja tema , Adojan , oli vastu v&otilde;tnud mingi &otilde;hk&otilde;rna signaali alatedvuses vasts&uuml;ndinud kontaktist , kuid oma melanhoolias ei suutnud ta sellele keskenduda . </s> <s> Laste suust pead sa seda kuulma ... </s> </p>
+<p> <s>JUST SIIS ME SAAMEGI TEADA , MIS JUHTUB , KUI ME NUPULE VAJUTAME ! </s> <s> Nii oli Keyes &ouml;elnud . </s> <s> AGA EI SAA JU , oli siis Adojani alateadvus vastu kriisanud . </s> <s> Sest paradoks-konstant ... </s> <s> MITTE IIALGI EI SAA ! </s> </p>
+<p> <s>Adojan oli Keyesi kabinetist oma laboratooriumisse jooksnud . </s> <s> Ta kuvas kiiresti Puhhovi valemid . </s> <s> NII , SIIN SEE PARADOKS OLIGI . </s> <s> L&auml;bi integraalide saab leida vajaliku energiahulga , l&auml;bi energia saab leida temporaalt&uuml;hiku ja l&otilde;puks Ajavektori koordinaadid , aga see viib k&otilde;ik j&auml;lle algusesse v&auml;lja . </s> <s> Ajas saab liikuda ja ajas ei saa liikuda . </s> <s> Ta oli vaadanud Puhhovi arvutusi uue , VALGUSTATUD pilguga . </s> <s> N&uuml;&uuml;d oli k&otilde;ik lihtsamast lihtsam . </s> <s> Aeg on universaalne , kehtib ALATI JA K&Otilde;IKJAL . </s> <s> Ajas saab liikuda j a ei saa liikuda . </s> <s> Eset saab ajas liigutada ja ei saa liigutada . </s> <s> SELLEP&Auml;RAST , ET ESE LIIGUB KOOS AJAGA JA AEG KOOS ESEMEGA . </s> <s> Ei saa olla minevikku ja tulevikku , ON AINULT OLEVIK , SEST AEG ON UNIVERSAALNE . </s> <s> Ta eksisteerib AINULT siin ja praegu . </s> <s> Ja Adojan hakkas jooksma . </s> <s> Kui ma saaksin v&auml;hemalt selle m&otilde;tte l&otilde;puni m&otilde;elda , EDASI EI TULE JU MIDAGI . </s> </p>
+<p> <s>See on APOKAL&Uuml;PSIS , m&otilde;tles Adojan , kui ta jooksis . </s> <s> HULLEM KUI APOKAL&Uuml;PSIS . </s> </p>
+<p> <s>KUI ME SAADAME AJAS MIDAGI TAGASI , SAADAME ENNAST KOOS AJAGA TAGASI . </s> <s> ME PEATAME AJA . </s> <s> SEE ON SURNUD RING , AEG KESTAB SIIS MINEVIKUST AINULT SELLE HETKENI , MIL TA TAGASI SUUNATAKSE . </s> <s> Kustukumm l&otilde;petab aja ja meie maailma ! </s> </p>
+<p> <s>Adojan n&auml;gi koridori l&otilde;pus Suure Auditooriumi ust . </s> <s> Siis kuulis ta sireeni . </s> <s> Keyes vajutas " nii&ouml;elda " nupule . </s> <s> 10 minutit ! </s> <s> Kogu edasise aja pikkus . </s> </p>
+<p> <s>&Uuml;lemaailmne Ajaakadeemia aasta 2179 , 12. juuli , kl 9.50</s> </p>
+<p> <s> " Me peaksime n&uuml;&uuml;d alla minema , " &uuml;tles Keyes . </s> <s> Ja pisarad voolasid ta silmist . </s> </p>
+<p> <s> " Pagan v&otilde;taks , " m&otilde;tles Adojan " See t&auml;hendab talle ikka meeletult palju . " </s> <s> Mingi alateadvuses v&auml;lgatanud s&auml;hvatus ei andnud talle rahu . </s> <s> Ta pidi veelkord oma laboratooriumisse minema . </s> <s> Ta hakkas jooksma . </s> </p>
+<p> <s>Globorgi Peakorter aasta 2179 , 12. juuli , kl 9.50</s> </p>
+<p> <s>President N'Mwana ja n&otilde;unik Jordan seisid p&uuml;sti . </s> <s> M&otilde;lemal oli k&auml;es pokaal mineraalveega . </s> <s> Nad vaatasid seinal asuvat suurt ekraani , millelt kuvus Ajaakadeemia Suur Auditoorium , kus oli k&otilde;ik TWAINi jaoks valmis seatud . </s> </p>
+<p> <s>Jordan vaatas , kuidas president r&auml;&auml;kis telefoniga . </s> </p>
+<p> <s>Otsus oli tehtud , k&auml;sk oli antud . </s> <s> Kell 10.00 vajutatakse Ajaakadeemias nupule . </s> </p>
+<p> <s> " See oli &otilde;ige otsus , Victor , " lausus Jordan , kui N'Mwana oli toru &auml;ra pannud . </s> <s> K&uuml;mne minuti p&auml;rast vajutas Keyes Ajaakadeemias nupule ... </s> </p>
+<p> <s>&Uuml;lemaailmne Ajaakadeemia aasta 2179 , 12. juuli , kl 9.59</s> </p>
+<p> <s>Adojan jooksis . </s> <s> Koridori l&otilde;pust paistis Suure Auditooriumi uks . </s> <s> Keyes vajutas " nii&ouml;elda " nupule . </s> <s> KUI ME SAADAME AJAS MIDAGI TAGASI , SAADAME ENNAST KOOS AJAGA TAGASI . </s> <s> ME PEATAME AJA . </s> <s> SEE ON SURNUD RING , AEG KESTAB SIIS MINEVIKUST AINULT SELLE HETKENI , MIL TA TAGASI SUUNATAKSE . </s> </p>
+<p> <s>Kui ma ei j&otilde;ua neid peatada , siis j&auml;&auml;vad mulle veel k&uuml;mme minutit , m&otilde;tles Adojan . </s> <s> J&Auml;&Auml;VAD IGAVESEKS . </s> </p> </div0> </body> </text>

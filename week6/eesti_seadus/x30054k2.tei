@@ -1,0 +1,2299 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Halduskohtumenetluse seadustik ( terviktekst juuli 2001 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:   14082</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Halduskohtumenetluse seadustik ( terviktekst juuli 2001 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=hi occurs=26></tagusage>
+         <tagusage gi=p occurs=731></tagusage>
+         <tagusage gi=s occurs=1003></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Halduskohtumenetluse seadustik</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 25. veebruaril 1999. a.</s>
+</p>
+<p>
+<s>( RT I 1999 , 31 , 425 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 1. jaanuaril 2000. a. ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmiste seadustega :</s>
+</p>
+<p>
+<s>06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 ;</s>
+</p>
+<p>
+<s>07.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 321 ;</s>
+</p>
+<p>
+<s>15.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 96 , 846.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seadustiku &uuml;lesanne</s>
+</p>
+<p>
+<s>K&auml;esolev seadustik s&auml;testab halduskohtu p&auml;devuse , halduskohtusse p&ouml;&ouml;rdumise ja halduskohtumenetluse korra .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Halduskohus</s>
+</p>
+<p>
+<s>Halduskohtuks on eraldi moodustatud halduskohtud ning haldusasjade l&auml;bivaatamisel ringkonnakohtu halduskolleegiumid ja Riigikohus .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Halduskohtu p&auml;devus</s>
+</p>
+<p>
+<s>( 1 ) Halduskohtu p&auml;devusse kuulub :</s>
+</p>
+<p>
+<s>1 ) avalik-&otilde;iguslike vaidluste lahendamine ;</s>
+</p>
+<p>
+<s>2 ) seadusega s&auml;testatud juhtudel haldustoiminguks loa andmine ;</s>
+</p>
+<p>
+<s>3 ) seadusega halduskohtu p&auml;devusse antud muude asjade lahendamine .</s>
+</p>
+<p>
+<s>( 2 ) Halduskohtu p&auml;devusse ei kuulu avalik-&otilde;iguslike vaidluste lahendamine , milleks seadus n&auml;eb ette teistsuguse menetluskorra .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Haldusaktid ja toimingud</s>
+</p>
+<p>
+<s>( 1 ) Haldusaktiks , mille peale v&otilde;ib halduskohtusse kaevata v&otilde;i protestida , on avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itva asutuse , ametniku v&otilde;i muu isiku korraldus , k&auml;skkiri , otsus , ettekirjutus v&otilde;i muu &otilde;igusakt , mis on antud avalik-&otilde;iguslikes suhetes &uuml;ksikjuhtumi reguleerimiseks .</s><s>Haldusaktiks k&auml;esoleva seadustiku m&otilde;ttes on ka haldusleping .</s><s>Haldusleping on avalik-&otilde;iguslikke suhteid reguleeriv leping .</s>
+</p>
+<p>
+<s>( 2 ) Toiminguks , mille peale v&otilde;ib halduskohtusse kaevata v&otilde;i protestida , on avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itva asutuse , ametniku v&otilde;i muu isiku tegevus v&otilde;i tegevusetus v&otilde;i viivitus avalik-&otilde;iguslikus suhtes .</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Tsiviilkohtumenetluse s&auml;tete kohaldamine</s>
+</p>
+<p>
+<s>( 1 ) Halduskohus juhindub k&auml;esoleva seadustikuga reguleerimata k&uuml;simustes tsiviilkohtumenetluse s&auml;tetest .</s>
+</p>
+<p>
+<s>( 2 ) Tsiviilkohtumenetluse s&auml;tetest juhindudes arvestab halduskohus halduskohtumenetluse erisusi .</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>Halduskohtusse p&ouml;&ouml;rdumine</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>Kaebus ja protest</s>
+</p>
+<p>
+<s>( 1 ) Halduskohus algatab haldusasja kaebuse v&otilde;i protesti alusel .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse v&otilde;i protestiga v&otilde;ib taotleda :</s>
+</p>
+<p>
+<s>1 ) haldusakti v&otilde;i selle osa t&uuml;histamist ;</s>
+</p>
+<p>
+<s>2 ) peatatud haldusakti t&auml;itmist v&otilde;i v&auml;lja andmata j&auml;etud haldusakti v&auml;ljaandmist , peatatud v&otilde;i sooritamata toimingu sooritamist .</s>
+</p>
+<p>
+<s>( 3 ) Lisaks k&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatule v&otilde;ib kaebusega taotleda :</s>
+</p>
+<p>
+<s>1 ) haldusakti v&otilde;i toimingu &otilde;igusvastasuse kindlakstegemist ;</s>
+</p>
+<p>
+<s>2 ) &otilde;igusvastase haldusakti v&otilde;i toiminguga tekitatud kahju h&uuml;vitamist ;</s>
+</p>
+<p>
+<s>3 ) avalik-&otilde;igusliku suhte olemasolu v&otilde;i puudumise kindlakstegemist .</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Halduskohtusse p&ouml;&ouml;rdumise &otilde;igus</s>
+</p>
+<p>
+<s>( 1 ) Kaebusega v&otilde;ib halduskohtusse p&ouml;&ouml;rduda isik , kes leiab , et haldusakti v&otilde;i toiminguga on rikutud tema &otilde;igusi v&otilde;i piiratud tema vabadusi .</s><s>Kaebuse avalik-&otilde;igusliku suhte olemasolu v&otilde;i selle puudumise v&otilde;i haldusakti v&otilde;i toimingu &otilde;igusvastasuse kindlakstegemiseks v&otilde;ib esitada isik , kellel on selleks p&otilde;hjendatud huvi .</s>
+</p>
+<p>
+<s>( 2 ) Protesti v&otilde;ib halduskohtusse haldusakti v&otilde;i toimingu peale esitada asutus v&otilde;i ametnik , kellele see &otilde;igus on antud seadusega .</s>
+</p>
+<p>
+<s>( 3 ) Kaebusega v&otilde;ib halduskohtusse p&ouml;&ouml;rduda oma liikmete v&otilde;i muude isikute huvides isikute &uuml;hendus , sealhulgas juriidiliseks isikuks mitteolev &uuml;hendus , kui seadus talle sellise &otilde;iguse annab .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Kohtualluvus</s>
+</p>
+<p>
+<s>( 1 ) Kui seadusega ei ole s&auml;testatud teistsugust kohtualluvust , esitatakse k&auml;esoleva seadustiku &sect; 6 l&otilde;ikes 2 ja l&otilde;ike 3 punktides 1 ja 2 t&auml;hendatud kaebus v&otilde;i protest halduskohtule asutuse , ametniku v&otilde;i muu isiku asu- v&otilde;i teenistuskoha j&auml;rgi , kelle haldusakti v&otilde;i toimingu peale kaevatakse v&otilde;i protestitakse .</s><s>Kaebus v&otilde;i protest mitme asutuse , ametniku v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itva muu isiku haldusakti v&otilde;i toimingu peale , kelle asu- v&otilde;i teenistuskoht on erinevate kohtute t&ouml;&ouml;piirkonnas , esitatakse kaebuse v&otilde;i protesti esitaja valikul &uuml;he asutuse , ametniku v&otilde;i muu isiku asu- v&otilde;i teenistuskoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 2 ) Kaebus avalik-&otilde;igusliku suhte olemasolu v&otilde;i selle puudumise kindlakstegemiseks esitatakse halduskohtule avaldaja elu- v&otilde;i asukoha j&auml;rgi .</s>
+</p>
+<p>
+<s>( 3 ) Haldustoiminguks annab loa halduskohus , kelle t&ouml;&ouml;piirkonnas asub luba taotlev asutus v&otilde;i ametnik , kui seaduses ei ole s&auml;testatud teistsugust kohtualluvust .</s>
+</p>
+<p>
+<s>( 4 ) Halduslepingust tulenevad vaidlused alluvad halduskohtule , kelle t&ouml;&ouml;piirkonnas leping s&otilde;lmiti .</s><s>Halduslepingu v&otilde;i seadusega v&otilde;idakse s&auml;testada teistsugune kohtualluvus .</s>
+</p>
+<p>
+<s>( 5 ) Kui kohus on p&auml;rast kaebuse v&otilde;i protesti vastuv&otilde;tmist kindlaks teinud , et asi ei allu sellele kohtule , teeb kohus m&auml;&auml;ruse asja &uuml;leandmiseks kohtualluvuse j&auml;rgi .</s><s>Eelnimetatud kohtum&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse ringkonnakohtule .</s><s>Ringkonnakohtu m&auml;&auml;ruse peale erikaebuse lahendamise kohta edasi kaevata ei saa .</s>
+</p>
+<p>
+<s>( 6 ) K&otilde;rgema astme kohus ei muuda omal algatusel kohtualluvust , kui keegi pooltest ei ole kohtualluvuse kohta tehtud kohtum&auml;&auml;ruse peale kaevanud .</s>
+</p>
+<p>
+<s>( 7 ) &Uuml;hest kohtust teise antud asja peab kohus , kellele see on antud , l&auml;bi vaatama .</s><s>Alluvusvaidlused kohtute vahel ei ole lubatud .</s>
+</p>
+<p>
+<s>( 8 ) Kui haldusasja menetlusse v&otilde;tmisest on keeldunud mitu kohut , m&auml;&auml;rab kohtualluvuse kaebuse v&otilde;i protesti esitaja taotlusel Riigikohtu halduskolleegiumi esimees .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Kaebuse esitamise t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Kaebuse haldusakti t&uuml;histamiseks v&otilde;ib halduskohtule esitada 30 p&auml;eva jooksul haldusakti teatavakstegemisest arvates , kui seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Kui haldusorgan on keeldunud haldusakti v&auml;ljaandmisest v&otilde;i toimingu sooritamisest , v&otilde;ib kaebuse haldusakti andmiseks v&otilde;i toimingu sooritamiseks kohustamiseks esitada 30 p&auml;eva jooksul , arvates keeldumise teatavakstegemisest , kui seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Kohtueelse menetluse l&auml;bimisel v&otilde;ib halduskohtusse kaebuse esitada 30 p&auml;eva jooksul , arvates p&auml;evast , mil isikule tehti teatavaks otsus kohtueelses menetluses kaebuses sisalduva taotluse osalise v&otilde;i t&auml;ieliku rahuldamata j&auml;tmise kohta .</s>
+</p>
+<p>
+<s>( 4 ) Kaebuse haldusakti v&otilde;i toiminguga tekitatud kahju h&uuml;vitamiseks v&otilde;ib esitada kolme aasta jooksul , arvates p&auml;evast , millal kaebuse esitaja kahjust ja selle p&otilde;hjustanud isikust teada sai v&otilde;i pidi teada saama , kuid mitte hiljem kui k&uuml;mne aasta jooksul haldusakti andmisest v&otilde;i toimingu sooritamisest arvates .</s>
+</p>
+<p>
+<s>( 5 ) Kaebuse haldusakti v&otilde;i toimingu &otilde;igusvastaseks tunnistamiseks v&otilde;ib esitada kolme aasta jooksul haldusakti andmisest v&otilde;i toimingu sooritamisest arvates .</s>
+</p>
+<p>
+<s>( 6 ) Kaebuse avalik-&otilde;igusliku suhte olemasolu v&otilde;i puudumise kindlakstegemiseks v&otilde;ib esitada t&auml;htajatult .</s>
+</p>
+<p>
+<s>( 7 ) Kaebus isiku v&auml;lisriigile v&auml;ljaandmise otsuse peale esitatakse halduskohtule kolme p&auml;eva jooksul v&auml;ljaandmise otsuse teatavakstegemisest arvates .</s>
+</p>
+<p>
+<s>( 8 ) Kui kaebuses on esitatud mitu taotlust , kohaldatakse igale taotlusele vastavat t&auml;htaega .</s><s>Kaebust v&otilde;ib t&auml;iendada uue taotlusega ainult koosk&otilde;las k&auml;esolevas paragrahvis s&auml;testatud t&auml;htaegadega .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>&sect; 9 <hi rend="sup">1</hi> .</s><s>Kaebuse esitamine maa- v&otilde;i linnakohtu kaudu</s>
+</p>
+<p>
+<s>( 1 ) Kaebuse v&otilde;ib esitada halduskohtule vahetult v&otilde;i maa- v&otilde;i linnakohtu kaudu .</s>
+</p>
+<p>
+<s>( 2 ) Maa- v&otilde;i linnakohus saadab kaebuse ja sellele lisatud dokumendid viivitamatult halduskohtule .</s>
+</p>
+<p>
+<s>( 07.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 321 )</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>N&otilde;uded kaebusele ja protestile</s>
+</p>
+<p>
+<s>( 1 ) Kaebus ja protest esitatakse kirjalikult ning selles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) halduskohtu nimetus ;</s>
+</p>
+<p>
+<s>2 ) kaebuse v&otilde;i protesti esitaja nimi , alaline elu- v&otilde;i asukoht ( postiaadress ) , protesti esitaja ametikoht ning sidevahendite numbrid ;</s>
+</p>
+<p>
+<s>3 ) kaebuse v&otilde;i protesti esitaja selgelt v&auml;ljendatud taotlus vastavalt k&auml;esoleva seadustiku &sect;-le 6 ;</s>
+</p>
+<p>
+<s>4 ) kaebusele v&otilde;i protestile lisatud dokumentide loetelu .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuses ja protestis haldusakti v&otilde;i toimingu peale m&auml;rgitakse lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatule :</s>
+</p>
+<p>
+<s>1 ) asutuse v&otilde;i ametniku v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itva muu isiku nimi ja ameti- v&otilde;i teenistuskoht , kelle haldusakti v&otilde;i toimingut vaidlustatakse ;</s>
+</p>
+<p>
+<s>2 ) vaidlustatava haldusakti v&otilde;i toimingu sisu ;</s>
+</p>
+<p>
+<s>3 ) p&otilde;hjused , miks kaebuse v&otilde;i protesti esitaja leiab , et haldusakt v&otilde;i toiming on &otilde;igusvastane ;</s>
+</p>
+<p>
+<s>4 ) milliseid kaebuse esitaja &otilde;igusi vaidlustatav haldusakt v&otilde;i toiming rikub v&otilde;i milliseid vabadusi piirab , samuti asjaolud , millal isik sai teada kaevatavast haldusaktist v&otilde;i toimingust , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ikes 3 s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 3 ) Kaebuses avalik-&otilde;igusliku suhte olemasolu v&otilde;i selle puudumise , samuti haldusakti v&otilde;i toimingu &otilde;igusvastasuse kindlakstegemiseks m&auml;rgitakse lisaks k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatule kaebuse esitaja p&otilde;hjendatud huvi vastava asjaolu kindlakstegemiseks .</s>
+</p>
+<p>
+<s>( 4 ) Kui kaebus esitatakse p&auml;rast halduskohtusse kaebuse esitamise t&auml;htaja m&ouml;&ouml;dumist , tuleb kaebuses esitada t&auml;htaja ennistamise taotlus ning t&auml;htaja m&ouml;&ouml;dalaskmise p&otilde;hjused .</s>
+</p>
+<p>
+<s>( 5 ) Kaebus v&otilde;i protest koos &auml;rakirjadega esitatakse vastavalt protsessiosaliste arvule .</s>
+</p>
+<p>
+<s>( 6 ) Koos kaebusega esitatakse kohtule t&otilde;end riigil&otilde;ivu tasumise kohta .</s><s>Protest on l&otilde;ivuvaba .</s>
+</p>
+<p>
+<s>( 7 ) Iga isik esitab kohtule individuaalse kaebuse .</s><s>Kaebusele v&otilde;i protestile kirjutab alla selle esitaja v&otilde;i tema esindaja .</s><s>Juriidilise isiku ja juriidiliseks isikuks mitteoleva &uuml;henduse nimel esitatud kaebusele kirjutab alla selleks volitatud isik .</s><s>Kaebuse esitaja esindaja lisab volikirja v&otilde;i muu volitusi t&otilde;endava dokumendi .</s>
+</p>
+<p>
+<s>( 8 ) Kui kaebus esitatakse teise isiku huvides , m&auml;rgitakse selle isiku nimi ja elu- v&otilde;i asukoht ( postiaadress ) , kelle huvides kaebus esitatakse .</s><s>Kaebusele lisatakse volitusi t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Menetlus esimese astme halduskohtus</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Asja kohtuliku l&auml;bivaatamise ettevalmistamine</s>
+</p>
+<p>
+<s>( 1 ) Kaebuse v&otilde;i protesti saanud halduskohus :</s>
+</p>
+<p>
+<s>1 ) kontrollib , kas kaebus v&otilde;i protest vastab k&auml;esoleva seadustiku &sect;-s 10 s&auml;testatud n&otilde;uetele ning kas on tasutud riigil&otilde;iv ;</s>
+</p>
+<p>
+<s>2 ) kontrollib , kas kaebus v&otilde;i protest kuulub halduskohtu p&auml;devusse .</s>
+</p>
+<p>
+<s>( 2 ) Kui halduskohus leiab , et kaebuses v&otilde;i protestis on k&otilde;rvaldatavaid puudusi , teeb ta selle k&auml;iguta j&auml;tmise m&auml;&auml;ruse , annab puuduste k&otilde;rvaldamiseks kuni 15-p&auml;evase t&auml;htaja ja saadab m&auml;&auml;ruse viivitamata t&auml;itmiseks kaebuse v&otilde;i protesti esitajale .</s>
+</p>
+<p>
+<s>( 3 ) Kui kaebuse v&otilde;i protesti esitaja ei ole m&auml;&auml;ratud t&auml;htajaks puudusi k&otilde;rvaldanud , tagastab halduskohus kaebuse v&otilde;i protesti m&auml;&auml;rusega selle esitajale .</s>
+</p>
+<p>
+<s>( 4 ) Halduskohus tagastab m&auml;&auml;rusega kaebuse v&otilde;i protesti , mille lahendamine ei ole halduskohtu p&auml;devuses , n&auml;idates v&otilde;imaluse korral m&auml;&auml;ruses , kuhu tuleb p&ouml;&ouml;rduda .</s>
+</p>
+<p>
+<s>( 5 ) Kui halduskohus leiab , et kaebuse v&otilde;i protesti lahendamine kuulub tsiviilasju lahendava kohtu p&auml;devusse ja tsiviilasju lahendav kohus on eelnevalt samas asjas leidnud , et see ei kuulu tsiviilasju lahendava kohtu p&auml;devusse , m&auml;&auml;rab asja lahendamiseks p&auml;deva kohtu Riigikohtu tsiviil- ja halduskolleegiumi vaheline erikogu tsiviilkohtumenetluses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 6 ) K&auml;esoleva paragrahvi l&otilde;ikes 5 nimetatud asjaolude ilmnemisel edastab halduskohus asja viivituseta Riigikohtule , teavitades sellest protsessiosalisi .</s>
+</p>
+<p>
+<s>( 7 ) Kaebuse v&otilde;i protesti tagastamine ei v&otilde;ta selle esitajalt &otilde;igust seadusega s&auml;testatud korras p&ouml;&ouml;rduda uuesti halduskohtusse .</s>
+</p>
+<p>
+<s>( 8 ) K&auml;esoleva paragrahvi l&otilde;igetes 3 ja 4 nimetatud halduskohtu m&auml;&auml;ruste peale v&otilde;ib esitada erikaebuse ringkonnakohtule k&uuml;mne p&auml;eva jooksul , arvates m&auml;&auml;ruse k&auml;ttesaamisest .</s>
+</p>
+<p>
+<s>( 9 ) P&auml;rast asja kohtulikuks arutamiseks ettevalmistamist teeb halduskohus asja menetlusse v&otilde;tmise m&auml;&auml;ruse , kui k&auml;esoleva paragrahvi l&otilde;ikest 3 v&otilde;i 4 ei tulene teisiti .</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Eelmenetlus halduskohtus</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast haldusasja menetlusse v&otilde;tmist toimub eelmenetlus , millega kohus valmistab asja ette nii , et seda saaks katkestamatult lahendada &uuml;hel kohtuistungil .</s>
+</p>
+<p>
+<s>( 2 ) Eelmenetluses halduskohus :</s>
+</p>
+<p>
+<s>1 ) teeb kindlaks , millise asutuse v&otilde;i ametniku v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itva muu isiku haldusakti v&otilde;i toimingu peale kaebus v&otilde;i protest on esitatud , saadab talle ning teistele protsessiosalistele kaebuse v&otilde;i protesti &auml;rakirja ;</s>
+</p>
+<p>
+<s>2 ) n&otilde;uab vajadusel vastavalt asutuselt v&otilde;i ametnikult v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itvalt muult isikult v&auml;lja kaevatava v&otilde;i protestitava haldusakti v&otilde;i toimingut k&auml;sitlevad dokumendid , samuti kirjaliku seletuse kaebuse v&otilde;i protesti kohta , m&auml;&auml;rates nende esitamise t&auml;htaja ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;uab vajadusel teiselt p&auml;devalt asutuselt v&otilde;i ametnikult v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itvalt muult isikult v&auml;lja kirjalikke t&otilde;endeid , m&auml;&auml;rab koosk&otilde;las tsiviilkohtumenetlusega ekspertiisi , teostab paikvaatlust ;</s>
+</p>
+<p>
+<s>4 ) otsustab k&auml;esoleva seadustiku &sect; 14 l&otilde;ikes 3 nimetatud isikute kaasamise ;</s>
+</p>
+<p>
+<s>5 ) otsustab , kas kaebus v&otilde;i protest vaadatakse l&auml;bi halduskohtuniku poolt ainuisikuliselt v&otilde;i kolmeliikmelises koosseisus ;</s>
+</p>
+<p>
+<s>6 ) n&otilde;uab teistelt protsessiosalistelt kirjaliku seisukoha kaebuse esitamise t&auml;htaja ennistamise taotluse kohta ;</s>
+</p>
+<p>
+<s>7 ) teeb protsessiosalistele teatavaks asja kohtus l&auml;bivaatamise aja ja koha .</s>
+</p>
+<p>
+<s>( 3 ) Halduskohus kontrollib eelmenetluses , kas kaebus on esitatud t&auml;htaegselt ja lahendab p&auml;rast teiste protsessiosaliste arvamuse saamist kaebuse esitamise t&auml;htaja ennistamise taotluse .</s><s>Halduskohus rahuldab t&auml;htaja ennistamise taotluse , kui ta loeb t&auml;htaja m&ouml;&ouml;dalastuks m&otilde;juval p&otilde;hjusel .</s><s>Kui halduskohus leiab , et kaebus on esitatud t&auml;htaega rikkudes ja taotlust t&auml;htaja ennistamiseks ei ole esitatud , samuti juhul , kui halduskohus j&auml;tab t&auml;htaja ennistamise taotluse rahuldamata , l&otilde;petab ta m&auml;&auml;rusega asja menetluse .</s><s>T&auml;htaja ennistamise taotluse lahendamise ja menetluse l&otilde;petamise m&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse ringkonnakohtule k&uuml;mne p&auml;eva jooksul , arvates m&auml;&auml;ruse k&auml;ttesaamisest .</s>
+</p>
+<p>
+<s>( 4 ) Halduskohus teatab protsessiosalistele ekspertiisi m&auml;&auml;ramisest ja paikvaatluse teostamisest , andes neile v&otilde;imaluse eksperdile k&uuml;simusi esitada ja osa v&otilde;tta paikvaatlusest .</s>
+</p>
+<p>
+<s>( 5 ) ( Kehtetu - 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>( 6 ) Asutus v&otilde;i ametnik v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itev muu isik , kellelt halduskohus n&otilde;udis t&otilde;endite ja kirjaliku seletuse esitamist , on kohustatud need esitama m&auml;&auml;ratud t&auml;htajaks .</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">1</hi> .</s><s>Esialgne &otilde;iguskaitse</s>
+</p>
+<p>
+<s>( 1 ) Kaebuse v&otilde;i protesti esitamine ei takista kaevatava haldusakti t&auml;itmist ega andmist v&otilde;i toimingu sooritamist , kui seadus ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 2 ) Halduskohus v&otilde;ib kaebuse esitaja p&otilde;hjendatud taotluse alusel v&otilde;i oma algatusel teha igas menetlusstaadiumis m&auml;&auml;ruse kaebuse esitaja &otilde;iguste esialgse kaitse kohta , kui vastasel juhul oleks kohtuotsuse t&auml;itmine raskendatud v&otilde;i osutuks see v&otilde;imatuks .</s>
+</p>
+<p>
+<s>( 3 ) Esialgse &otilde;iguskaitse m&auml;&auml;rusega v&otilde;ib halduskohus :</s>
+</p>
+<p>
+<s>1 ) peatada vaidlustatava haldusakti kehtivuse v&otilde;i t&auml;itmise ;</s>
+</p>
+<p>
+<s>2 ) keelata vaidlustatava haldusakti andmise v&otilde;i toimingu sooritamise ;</s>
+</p>
+<p>
+<s>3 ) kohustada haldusorganit taotletavat haldusakti v&auml;lja andma , toimingut sooritama v&otilde;i j&auml;tkuvat toimingut l&otilde;petama ;</s>
+</p>
+<p>
+<s>4 ) rakendada tsiviilkohtumenetluse seadustiku ( RT I 1998 , 43/45 , 666 ; 108/109 , 1783 ; 1999 , 16 , 271 ; 31 , 425 ; 2000 , 51 , 319 ; 55 , 365 ; 2001 , 21 , 113 ; 34 , 186 ) &sect; 156 l&otilde;ike 1 punktides 1-3 hagi tagamiseks etten&auml;htud abin&otilde;usid .</s>
+</p>
+<p>
+<s>( 4 ) Halduskohus v&otilde;ib esialgse &otilde;iguskaitse m&auml;&auml;ruses rakendada mitut abin&otilde;u .</s>
+</p>
+<p>
+<s>( 5 ) Esialgse &otilde;iguskaitse m&auml;&auml;rusest tulenev &otilde;igus , kohustus ja keeld , samuti esialgse &otilde;iguskaitse m&auml;&auml;ruse alusel antud haldusakt kehtib kuni kohtuotsuse v&otilde;i kaebuse tagastamise v&otilde;i asja l&otilde;petamise m&auml;&auml;ruse j&otilde;ustumiseni , kui kohus ei m&auml;&auml;ra l&uuml;hemat t&auml;htaega .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>&sect; 12 <hi rend="sup">2</hi> .</s><s>Esialgse &otilde;iguskaitse taotlus ja menetlus</s>
+</p>
+<p>
+<s>( 1 ) Esialgse &otilde;iguskaitse m&auml;&auml;ruse tegemiseks v&otilde;ib taotluse esitada koos kaebusega v&otilde;i p&auml;rast kaebuse v&otilde;i kohustuslikus kohtueelses menetluses vaide esitamist .</s>
+</p>
+<p>
+<s>( 2 ) Esialgse &otilde;iguskaitse taotlus vaadatakse l&auml;bi kirjalikus menetluses v&otilde;i kohtuistungil .</s><s>T&otilde;endite esitamist ja teiste protsessiosaliste arvamust v&otilde;ib n&otilde;uda &uuml;ksnes juhul , kui see on v&otilde;imalik ilma viivituseta .</s><s>Esialgse &otilde;iguskaitse m&auml;&auml;ruse tegemisel tuleb arvestada avalikku huvi ja kolmanda isiku &otilde;igusi .</s><s>M&auml;&auml;rus v&otilde;ib olla tingimuslik .</s><s>Esialgse &otilde;iguskaitse m&auml;&auml;rus j&otilde;ustub teatavakstegemise hetkest .</s>
+</p>
+<p>
+<s>( 3 ) Kohus v&otilde;ib protsessiosalise taotluse alusel v&otilde;i oma algatusel esialgse &otilde;iguskaitse m&auml;&auml;ruse igas menetlusstaadiumis t&uuml;histada v&otilde;i seda muuta .</s>
+</p>
+<p>
+<s>( 4 ) Esialgse &otilde;iguskaitse m&auml;&auml;ruse saadab halduskohus viivitamata t&auml;itmiseks vastavale asutusele v&otilde;i ametnikule v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itvale muule isikule .</s>
+</p>
+<p>
+<s>( 5 ) Esialgse &otilde;iguskaitse m&auml;&auml;ruse v&otilde;i esialgse &otilde;iguskaitse taotluse rahuldamata j&auml;tmise m&auml;&auml;ruse peale v&otilde;ib protsessiosaline esitada erikaebuse .</s><s>Ringkonnakohtu m&auml;&auml;ruse peale erikaebuse kohta edasi kaevata ei saa .</s><s>Kui m&auml;&auml;ruse esialgse &otilde;iguskaitse kohta tegi ringkonnakohus , v&otilde;ib selle peale esitada erikaebuse Riigikohtule .</s>
+</p>
+<p>
+<s>( 6 ) Esialgse &otilde;iguskaitse m&auml;&auml;ruse t&auml;itmata j&auml;tmise eest v&otilde;ib halduskohus isikut trahvida vastavalt k&auml;esoleva seadustiku &sect;-le 98.</s><s>Kaebuse esitajal on &otilde;igus n&otilde;uda , et isik , kelle s&uuml;&uuml;l esialgse &otilde;iguskaitse m&auml;&auml;rus j&auml;i t&auml;itmata , h&uuml;vitaks sellega tekitatud kahju .</s>
+</p>
+<p>
+<s>( 7 ) Esialgse &otilde;iguskaitse m&auml;&auml;ruse ja selle alusel antud haldusakti alusel saadu tuleb vastavas osas kaebuse rahuldamata j&auml;tmisel tagastada .</s><s>Tagastamise kohustuse suhtes kohaldatakse vastavalt era&otilde;iguses alusetu rikastumise kohta s&auml;testatut .</s><s>Halduskohus v&otilde;ib oma algatusel v&otilde;i huvitatud isiku taotlusel otsuses v&otilde;i eraldi m&auml;&auml;ruses kohustada esialgse &otilde;iguskaitse m&auml;&auml;ruse v&otilde;i selle alusel antud haldusakti alusel saadu tagastamiseks .</s><s>Kahju h&uuml;vitamise n&otilde;udeid esialgse &otilde;iguskaitse m&auml;&auml;ruse t&auml;itmisest ei tulene , kui t&auml;itmine toimus &otilde;igusp&auml;raselt .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Asja l&auml;bivaatamise t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Kui seadusega ei ole s&auml;testatud teistsugust t&auml;htaega , vaatab halduskohus asja l&auml;bi mitte hiljem kui kahe kuu jooksul n&otilde;uetekohase kaebuse v&otilde;i protesti vastuv&otilde;tmisest halduskohtus .</s><s>Asja erilise keerukuse korral v&otilde;ib halduskohtu esimees seda t&auml;htaega pikendada kuni kolme kuuni .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse isiku v&auml;lisriigile v&auml;ljaandmise otsuse peale vaatab halduskohus l&auml;bi viie t&ouml;&ouml;p&auml;eva jooksul n&otilde;uetekohase kaebuse vastuv&otilde;tmisest halduskohtus .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>Protsessiosalised</s>
+</p>
+<p>
+<s>( 1 ) Halduskohtumenetluses on protsessiosalisteks pooled ja kohtu poolt kaasatud isikud .</s>
+</p>
+<p>
+<s>( 2 ) Poolteks on :</s>
+</p>
+<p>
+<s>1 ) kaebuse v&otilde;i protesti esitaja ;</s>
+</p>
+<p>
+<s>2 ) asutus , ametnik v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itev muu isik , kelle haldusakti v&otilde;i toimingu peale kaebus v&otilde;i protest on esitatud ;</s>
+</p>
+<p>
+<s>3 ) halduslepingu pooled .</s>
+</p>
+<p>
+<s>( 3 ) Kaasatud isikuteks on :</s>
+</p>
+<p>
+<s>1 ) kolmas isik , kui asja arutamisel v&otilde;idakse otsustada tema seadusega kaitstud &otilde;iguste ja vabaduste &uuml;le ;</s>
+</p>
+<p>
+<s>2 ) j&auml;relevalvet teostav asutus v&otilde;i ametnik ;</s>
+</p>
+<p>
+<s>3 ) riigi v&otilde;i kohaliku omavalitsuse asutuse esindaja .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ike 3 punktides 2 ja 3 nimetatud isikuid v&otilde;ib halduskohus kaasata asjas arvamuse andmiseks .</s>
+</p>
+<p>
+<s>( 5 ) Protsessiosaline v&otilde;ib halduskohtus asja ajada isiklikult v&otilde;i esindaja kaudu .</s><s>Esindusele kohaldatakse tsiviilkohtumenetluse s&auml;tteid , arvestades k&auml;esoleva seadustikuga s&auml;testatud erisusi .</s><s>Haldus&uuml;lesandeid t&auml;itva asutuse seaduslik esindaja halduskohtus on asutuse juht .</s><s>Haldus&uuml;lesandeid t&auml;itvat ametnikku v&otilde;ib esindada isik , keda on selleks volitanud asutus , kus ametnik t&ouml;&ouml;tab .</s>
+</p>
+<p>
+<s>( 6 ) Teistes riikides v&auml;ljaantud dokumente ja t&otilde;estatud volikirju v&otilde;tab kohus vastu siis , kui need on kehtivas korras legaliseeritud , kui v&auml;lislepingust ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 7 ) Protsessiosalised kutsutakse kohtuistungile tsiviilkohtumenetluses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Protsessiosaliste &otilde;igused ja kohustused</s>
+</p>
+<p>
+<s>( 1 ) Protsessiosalisel on &otilde;igus tutvuda toimikuga , teha sellest &auml;rakirju , v&otilde;tta osa kohtuistungitest , teada asja arutava kohtu koosseisu , esitada taandusi ja taotlusi , anda kohtule seletusi , esitada p&otilde;hjendusi ja kaalutlusi k&otilde;igi asja kohtulikul arutamisel t&otilde;usetunud k&uuml;simuste kohta , esitada t&otilde;endeid , osa v&otilde;tta t&otilde;endite vaatlusest ja uurimisest , vaielda vastu teiste protsessiosaliste taotlustele , p&otilde;hjendustele ja kaalutlustele , esitada k&uuml;simusi teistele protsessiosalistele , tunnistajatele ning ekspertidele , saada eraldi dokumendina vormistatud kohtulahendi t&otilde;estatud &auml;rakirju .</s><s>Protsessiosalisel on ka muud k&auml;esolevas seadustikus s&auml;testatud protsessi&otilde;igused .</s>
+</p>
+<p>
+<s>( 2 ) Protsessiosaline on kohustatud kasutama oma protsessi&otilde;igusi heauskselt .</s>
+</p>
+<p>
+<s>( 3 ) Kaebuse v&otilde;i protesti esitaja on kohustatud p&otilde;hjendama oma v&auml;iteid vastavate t&otilde;enditega .</s><s>Kui t&otilde;endite esitamine ei ole v&otilde;imalik , tuleb n&auml;idata p&otilde;hjused , miks neid t&otilde;endeid esitada ei saa , ja teatada , kus nad asuvad .</s><s>Sama kohustus on vastuv&auml;idete esitamisel asutusel v&otilde;i ametnikul v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itval muul isikul , kelle haldusakti v&otilde;i toimingu peale on kaevatud .</s>
+</p>
+<p>
+<s>( 4 ) Protsessiosaliste kohtuistungile mitteilmumine ei takista kaebuse v&otilde;i protesti l&auml;bivaatamist , kui nendele on asja arutamise aeg ja koht teatavaks tehtud .</s><s>Halduskohtunik v&otilde;ib aga tunnistada nende kohtusse ilmumise kohustuslikuks .</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>T&otilde;endid</s>
+</p>
+<p>
+<s>( 1 ) Halduskohtumenetluses on t&otilde;enditeks k&otilde;ik tsiviilkohtumenetluses lubatud t&otilde;endid .</s>
+</p>
+<p>
+<s>( 2 ) T&otilde;endeid esitavad protsessiosalised .</s><s>Halduskohus v&otilde;ib teha neile ettepaneku esitada t&auml;iendavaid t&otilde;endeid .</s><s>Halduskohus v&otilde;ib koguda t&otilde;endeid ja kutsuda uusi tunnistajaid ka omal algatusel .</s>
+</p>
+<p>
+<s>( 3 ) &Uuml;helgi t&otilde;endil ei ole halduskohtu jaoks ette kindlaks m&auml;&auml;ratud j&otilde;udu .</s><s>Kohus hindab k&otilde;iki t&otilde;endeid nende kogumis ja vastastikuses seoses .</s>
+</p>
+<p>
+<s>( 4 ) Tunnistajad kutsutakse halduskohtu istungile kohtukutsega ja kuulatakse kohtus &uuml;le tsiviilkohtumenetluses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 5 ) T&otilde;endeid tagatakse tsiviilkohtumenetluse s&auml;tete kohaselt .</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>T&otilde;endamisest vabastamise alused</s>
+</p>
+<p>
+<s>Asjaolud , mis on tuvastatud j&otilde;ustunud kohtuotsusega tsiviil- v&otilde;i kriminaal- v&otilde;i haldus- v&otilde;i haldus&otilde;iguserikkumise asjas , ei vaja t&otilde;endamist halduskohtumenetluse asjas , kui sellest v&otilde;tavad osa samad protsessiosalised .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Halduskohtu erin&otilde;ue</s>
+</p>
+<p>
+<s>( 1 ) Kui t&otilde;endeid on vaja koguda teise kohtu t&ouml;&ouml;piirkonnas , teeb asja l&auml;bivaatav halduskohus vastavale halduskohtule &uuml;lesandeks sooritada need protsessitoimingud .</s>
+</p>
+<p>
+<s>( 2 ) Halduskohtu erin&otilde;ude m&auml;&auml;ruses kirjeldatakse l&uuml;hidalt asja sisu , n&auml;idatakse v&auml;ljaselgitamisele kuuluvad asjaolud ja t&otilde;endid , mida erin&otilde;uet t&auml;itval kohtul tuleb koguda .</s><s>See m&auml;&auml;rus on kohustuslik halduskohtule , kellele see saadeti , ja kuulub t&auml;itmisele viivitamata .</s>
+</p>
+<p>
+<s>( 3 ) Eesti halduskohtu erin&otilde;uded v&auml;lisriigi &otilde;igusorganitele ja v&auml;lisriigi &otilde;igusorganite erin&otilde;uded Eesti halduskohtule esitatakse ja t&auml;idetakse k&auml;esoleva seadustiku ning v&auml;lislepingutega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Asja kohtulik l&auml;bivaatamine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast eelmenetlust vaadatakse asi l&auml;bi kohtuistungil .</s><s>Halduskohus v&otilde;ib kaebaja taotlusel v&otilde;i omal algatusel ning koosk&otilde;lastatult vastava maa- v&otilde;i linnakohtu esimehega otsustada kohtuistungi pidamise kaebajale l&auml;hima maa- v&otilde;i linnakohtu ruumides .</s>
+</p>
+<p>
+<s>( 07.06.2000 j&otilde;ust.01.07.2000 - RT I 2000 , 51 , 321 )</s>
+</p>
+<p>
+<s>( 2 ) Esimese astme halduskohtus vaatab kaebuse v&otilde;i protesti l&auml;bi kohtunik ainuisikuliselt .</s>
+</p>
+<p>
+<s>( 3 ) Halduskohtu m&auml;&auml;rusega v&otilde;idakse kaebus v&otilde;i protest anda l&auml;bivaatamiseks halduskohtule kolmeliikmelises kohtukoosseisus .</s>
+</p>
+<p>
+<s>( 4 ) Asja arutatakse avalikul kohtuistungil suuliselt .</s><s>Kinnisel istungil v&otilde;ib asja arutada tsiviilkohtumenetluses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 5 ) Asja l&auml;bivaatamisel uurib halduskohus t&otilde;endeid vahetult .</s><s>Kohus kuulab &auml;ra protsessiosaliste seletused , tunnistajate &uuml;tlused , uurib ekspertide arvamusi ja dokumentaalseid t&otilde;endeid , vaatleb asit&otilde;endeid ning teeb paikvaatlusi .</s>
+</p>
+<p>
+<s>( 6 ) Kui asutus , ametnik v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itev muu isik on volitatud tegutsema diskretsiooni ( suva&otilde;iguse ) alusel , kontrollib kohus ka seda , kas haldusakti andmisel v&otilde;i toimingu sooritamisel on j&auml;rgitud diskretsiooni piire , eesm&auml;rki ning proportsionaalsuse , v&otilde;rdse kohtlemise ja muid &otilde;iguse &uuml;ldtunnustatud p&otilde;him&otilde;tteid .</s>
+</p>
+<p>
+<s>( 7 ) Halduskohus vaatab asja l&auml;bi kaebuses v&otilde;i protestis esitatud taotluse ulatuses .</s><s>Halduskohus ei ole seotud kaebuse v&otilde;i protesti s&otilde;nastusega .</s>
+</p>
+<p>
+<s>( 8 ) Kaebuses v&otilde;i protestis esitatud taotlust v&otilde;ib kaebuse v&otilde;i protesti esitaja muuta kuni kohtuvaidluseni halduskohtus , kui &uuml;lej&auml;&auml;nud protsessiosalised annavad selleks n&otilde;usoleku v&otilde;i kui kohus peab seda otstarbekaks .</s>
+</p>
+<p>
+<s>( 9 ) Protsessiosalise n&otilde;usolekut kaebuses v&otilde;i protestis esitatud taotluse muutmiseks eeldatakse , kui ta ei ole taotluse muutmisele vastu vaielnud v&otilde;i on kohtule esitatud dokumendis v&otilde;i asja suulisel arutamisel kohtuistungil end muudetud kaebuse v&otilde;i protestiga sidunud .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Protokoll</s>
+</p>
+<p>
+<s>( 1 ) Halduskohtu istungit protokollib kohtuistungi sekret&auml;r v&otilde;i halduskohtunik kohtuistungil v&otilde;i v&auml;ljaspool kohtuistungit toimuva protsessitoimingu ajal.</s>
+</p>
+<p>
+<s>( 2 ) Tunnistaja vande all antud &uuml;tlused , protsessiosaliste seletused ja eksperdi suuline arvamus protokollitakse sellises ulatuses , millises neil on t&auml;htsust asja lahendamisel .</s><s>Protokollitu tehakse kohe istungil teatavaks ja esitatakse allakirjutamiseks isikule , kelle &ouml;eldu on protokollitud .</s><s>Protokolli tehakse parandused selle isiku vastuv&auml;idete alusel , kui kohus nendega n&otilde;ustub .</s><s>Paranduse &otilde;igsust kinnitab oma allkirjaga isik , kelle &ouml;eldu on parandatud .</s><s>Vastuv&auml;ited , millega kohus ei n&otilde;ustu , kantakse protokolli v&otilde;i lisatakse protokollile , kui vastuv&auml;ited on esitatud kirjalikult .</s>
+</p>
+<p>
+<s>( 3 ) Protsessiosalistel on &otilde;igus n&otilde;uda selliste asjaolude protokollimist , mida nad oluliseks peavad .</s>
+</p>
+<p>
+<s>( 4 ) Protsessiosaliste seletused , tunnistajate &uuml;tlused ja eksperdi suuline arvamus v&otilde;idakse halduskohtu korraldusel stenografeerida , heli- v&otilde;i videosalvestada vastavalt tsiviilkohtumenetluse s&auml;tetele .</s>
+</p>
+<p>
+<s>( 5 ) Protokoll peab vastama tsiviilkohtumenetluses s&auml;testatud n&otilde;uetele .</s><s>Protokollile kirjutab alla eesistuja ja protokolli koostaja .</s><s>Kohtuistungi protokoll kirjutatakse alla viivituseta p&auml;rast istungit .</s><s>Hilisem protokolli parandamine ei ole lubatud .</s>
+</p>
+<p>
+<s>&sect; 21.</s><s>Kaebusest v&otilde;i protestist loobumine ja kokkulepe</s>
+</p>
+<p>
+<s>( 1 ) Kaebuse v&otilde;i protesti esitajal on &otilde;igus kaebusest v&otilde;i protestist loobuda kuni asja l&auml;bivaatamise l&otilde;petamiseni kohtuistungil .</s><s>Halduskohus v&otilde;tab loobumise vastu , kui see ei kahjusta teiste isikute &otilde;igusi v&otilde;i vabadusi .</s>
+</p>
+<p>
+<s>( 2 ) Protsessiosalistel on &otilde;igus kuni asja l&auml;bivaatamise l&otilde;petamiseni kohtuistungil s&otilde;lmida vaidluse t&auml;ielikuks v&otilde;i osaliseks lahendamiseks kokkulepe , kui see ei ole vastuolus seadusega .</s><s>Kohus v&otilde;ib teha protsessiosalistele ettepaneku s&otilde;lmida kokkulepe .</s>
+</p>
+<p>
+<s>( 3 ) Enne kaebusest v&otilde;i protestist loobumise vastuv&otilde;tmist v&otilde;i kokkuleppe kustutamist selgitab halduskohus kaebuse v&otilde;i protesti esitajale kaebusest loobumise v&otilde;i protsessiosaliste kokkuleppe tagaj&auml;rgi .</s>
+</p>
+<p>
+<s>( 4 ) Kaebusest v&otilde;i protestist loobumise v&otilde;i kokkuleppe kinnitab kohus m&auml;&auml;rusega , millega l&otilde;petab asja menetluse .</s><s>Kohus ei kinnita poolte kokkulepet , mis on vastuolus seadusega .</s>
+</p>
+<p>
+<s>( 5 ) Kohtu m&auml;&auml;rus , millega ei v&otilde;eta kaebusest v&otilde;i protestist loobumist vastu v&otilde;i ei kinnitata kokkulepet , peab olema p&otilde;hjendatud ja sellele saab esitada erikaebuse .</s>
+</p>
+<p>
+<s>&sect; 22.</s><s>Menetluse peatamine</s>
+</p>
+<p>
+<s>( 1 ) Halduskohus peatab menetluse :</s>
+</p>
+<p>
+<s>1 ) kaebuse esitaja surma korral , kui vaieldav &otilde;igussuhe v&otilde;imaldab &otilde;igusj&auml;rglust , samuti juriidilise isiku l&otilde;ppemise korral &otilde;igusj&auml;rglusega , kuni &otilde;igusj&auml;rglase kindlakstegemiseni ;</s>
+</p>
+<p>
+<s>2 ) kaebuse esitaja teov&otilde;imetuks tunnistamise korral , kuni teov&otilde;imetule eestkostja m&auml;&auml;ramiseni ;</s>
+</p>
+<p>
+<s>3 ) asja l&auml;bivaatamise v&otilde;imatuse korral enne teise kohtuasja lahendamist kuni kohtulahendi j&otilde;ustumiseni .</s>
+</p>
+<p>
+<s>( 2 ) Halduskohus v&otilde;ib menetluse peatada :</s>
+</p>
+<p>
+<s>1 ) kaebuse esitaja haigestumise korral kuni kaebuse esitaja tervenemiseni ;</s>
+</p>
+<p>
+<s>2 ) kaebuse esitaja pikaajalise teenistus- , t&ouml;&ouml;- v&otilde;i &auml;rialase l&auml;hetuse korral kuni kaebuse esitaja l&auml;hetusest tagasip&ouml;&ouml;rdumiseni , kui halduskohus on tunnistanud tema kohtusse ilmumise kohustuslikuks ning ilma tema kohalolekuta ei saa asja arutada ;</s>
+</p>
+<p>
+<s>3 ) halduslepingu poolte taotluse korral , kuni poolte avalduses m&auml;rgitud ajani .</s>
+</p>
+<p>
+<s>( 3 ) Menetlus peatatakse halduskohtu m&auml;&auml;rusega .</s><s>Menetluse peatamise m&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse , v&auml;lja arvatud k&auml;esoleva paragrahvi l&otilde;ike 2 punktis 3 nimetatud juhul .</s>
+</p>
+<p>
+<s>( 4 ) Menetlus uuendatakse protsessiosalise taotlusel v&otilde;i kohtu algatusel p&auml;rast seda , kui menetluse peatamise aluseks olnud asjaolud on &auml;ra langenud .</s><s>Menetlus uuendatakse halduskohtu m&auml;&auml;rusega .</s><s>Menetlus j&auml;tkub sealt , kus see pooleli j&auml;i .</s>
+</p>
+<p>
+<s>&sect; 23.</s><s>Kaebuse v&otilde;i protesti l&auml;bi vaatamata j&auml;tmine</s>
+</p>
+<p>
+<s>( 1 ) Halduskohus j&auml;tab oma m&auml;&auml;rusega kaebuse v&otilde;i protesti l&auml;bi vaatamata , kui ta on tunnistanud kaebuse v&otilde;i protesti esitaja kohtusse ilmumise kohustuslikuks ja viimane ei ilmunud sellele vaatamata kohtuistungile ega teatanud kohtule ilmumise v&otilde;imatusest .</s>
+</p>
+<p>
+<s>( 2 ) Kui kaebuse v&otilde;i protesti esitaja t&otilde;endab , et tal oli kohtusse ilmumata j&auml;&auml;miseks m&otilde;juv p&otilde;hjus , on tal &otilde;igus taotleda menetluse taastamist samas kohtus 15 p&auml;eva jooksul m&otilde;juva p&otilde;hjuse &auml;ralangemisest .</s><s>Kohus taastab menetluse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Kaebuse v&otilde;i protesti l&auml;bi vaatamata j&auml;tmise ning menetluse taastamise taotluse rahuldamata j&auml;tmise m&auml;&auml;ruse peale on &otilde;igus esitada erikaebus .</s>
+</p>
+<p>
+<s>&sect; 24.</s><s>Menetluse l&otilde;petamine</s>
+</p>
+<p>
+<s>( 1 ) Halduskohus l&otilde;petab menetluse , kui :</s>
+</p>
+<p>
+<s>1 ) asi ei kuulu halduskohtu p&auml;devusse ;</s>
+</p>
+<p>
+<s>2 ) kaebuse v&otilde;i protesti esitaja loobub kaebusest v&otilde;i protestist ja kohus v&otilde;tab loobumise vastu ;</s>
+</p>
+<p>
+<s>3 ) kaevatav v&otilde;i protestitav haldusakt on kehtetuks tunnistatud v&otilde;i v&auml;lja andmata j&auml;etud haldusakt v&auml;lja antud v&otilde;i peatatud haldusakt t&auml;idetud v&otilde;i toiming sooritatud , v&auml;lja arvatud , kui kaebuse v&otilde;i protesti esitaja taotleb asja l&auml;bivaatamist ;</s>
+</p>
+<p>
+<s>4 ) samas asjas on olemas j&otilde;ustunud kohtulahend v&otilde;i kohtum&auml;&auml;rusega on samas asjas kaebusest v&otilde;i protestist loobumine vastu v&otilde;etud ;</s>
+</p>
+<p>
+<s>5 ) kaebuse esitaja surma korral , kui vaieldav &otilde;igussuhe ei v&otilde;imalda &otilde;igusj&auml;rglust v&otilde;i juriidilise isiku l&otilde;ppemisel &otilde;igusj&auml;rgluseta ;</s>
+</p>
+<p>
+<s>6 ) kui protsessiosalised s&otilde;lmisid kokkuleppe ja kohus kinnitab selle .</s>
+</p>
+<p>
+<s>( 2 ) Kohus l&otilde;petab menetluse m&auml;&auml;rusega .</s><s>Menetluse l&otilde;petamise korral ei saa isik uuesti p&ouml;&ouml;rduda kohtusse samas asjas .</s>
+</p>
+<p>
+<s>( 3 ) Menetluse l&otilde;petamise m&auml;&auml;ruse peale on &otilde;igus esitada erikaebus .</s>
+</p>
+<p>
+<s>( 4 ) Kui menetluse l&otilde;petamisel ilmnevad k&auml;esoleva seadustiku &sect; 11 l&otilde;ikes 5 t&auml;hendatud asjaolud , m&auml;&auml;rab asja lahendamiseks p&auml;deva kohtu Riigikohtu tsiviil- ja halduskolleegiumi vaheline erikogu tsiviilkohtumenetluses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 25.</s><s>Kohtulahend</s>
+</p>
+<p>
+<s>( 1 ) Kohtulahend , millega halduskohus lahendab kaebuse v&otilde;i protesti sisuliselt , vormistatakse kohtuotsusena .</s>
+</p>
+<p>
+<s>( 2 ) Kohtulahend , millega halduskohus l&otilde;petab menetluse v&otilde;i tagastab kaebuse v&otilde;i protesti l&auml;bivaatamatult v&otilde;i otsustab muude protsessitoimingute tegemise v&otilde;i tegemata j&auml;tmise , vormistatakse m&auml;&auml;rusena .</s>
+</p>
+<p>
+<s>( 3 ) Otsuse v&otilde;i m&auml;&auml;ruse tegemisel kohaldatakse k&auml;esoleva seadustikuga reguleerimata k&uuml;simustes tsiviilkohtumenetluse s&auml;tteid .</s><s>Otsus v&otilde;i m&auml;&auml;rus vormistatakse kirjalikult ning sellele kirjutavad alla asja l&auml;bivaadanud kohtunikud ( kohtunik ) .</s>
+</p>
+<p>
+<s>( 4 ) Otsuse tegemisel hindab kohus t&otilde;endeid , tuvastab asja lahendamiseks olulised asjaolud , otsustab , millist seadust v&otilde;i seaduse alusel antud haldusakti tuleb asjas kohaldada ja kas kaebus v&otilde;i protest tuleb rahuldada .</s>
+</p>
+<p>
+<s>( 5 ) Halduskohus j&auml;tab kohtuasja lahendamisel kohaldamata iga seaduse v&otilde;i muu &otilde;igustloova akti , kui see on vastuolus Eesti Vabariigi p&otilde;hiseadusega ( edaspidi p&otilde;hiseadus ) .</s>
+</p>
+<p>
+<s>( 6 ) Kui kohtuotsusega seadusevastaseks tunnistatud haldusakti v&auml;ljaandmise aluseks oli p&otilde;hiseadusega vastuolus olev seadus v&otilde;i muu &otilde;igustloov akt , mille halduskohus j&auml;ttis kohaldamata , teeb halduskohus oma otsuse teatavaks Riigikohtule ja &otilde;iguskantslerile , millega k&auml;ivitub p&otilde;hiseaduslikkuse j&auml;relevalve menetlus Riigikohtus .</s>
+</p>
+<p>
+<s>&sect; 26.</s><s>Halduskohtu volitused</s>
+</p>
+<p>
+<s>( 1 ) Kaebuse v&otilde;i protesti sisulisel lahendamisel on halduskohtul &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) t&uuml;histada &otilde;igusvastane haldusakt kas t&auml;ielikult v&otilde;i osaliselt ning teha v&otilde;imaluse korral ettekirjutus haldusakti tagasit&auml;itmise kohta , n&auml;idates &auml;ra selle l&auml;biviimise viisi ;</s>
+</p>
+<p>
+<s>2 ) teha ettekirjutus &otilde;igusvastaselt peatatud haldusakti t&auml;itmiseks , v&auml;lja andmata j&auml;etud haldusakti v&auml;ljaandmiseks v&otilde;i sooritamata toimingu sooritamiseks ;</s>
+</p>
+<p>
+<s>3 ) tunnistada haldusakt v&otilde;i toiming &otilde;igusvastaseks , kui kaebuse v&otilde;i protesti esitajal on sellise konstateeringu suhtes kaebuses v&otilde;i protestis v&auml;ljendatud p&otilde;hjendatud huvi ;</s>
+</p>
+<p>
+<s>4 ) m&otilde;ista v&auml;lja h&uuml;vitus &otilde;igusvastase haldusakti v&otilde;i toiminguga tekitatud kahju eest ;</s>
+</p>
+<p>
+<s>5 ) tunnistada avalik-&otilde;igusliku suhte olemasolu v&otilde;i selle puudumist ;</s>
+</p>
+<p>
+<s>6 ) j&auml;tta kaebus v&otilde;i protest rahuldamata .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Halduskohtul on &otilde;igus t&uuml;histada ainult haldusakti k&otilde;rvaltingimus , kui :</s>
+</p>
+<p>
+<s>1 ) haldusakti andnud asutus , ametiisik v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itev muu isik oli kohustatud haldusakti andma ilma k&otilde;rvaltingimuseta ;</s>
+</p>
+<p>
+<s>2 ) k&otilde;rvaltingimuse t&uuml;histamine haldusaktist eraldi ei kahjusta avalikku huvi ega piira kolmanda isiku &otilde;igusi .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">2</hi> ) Muudel k&otilde;rvaltingimuse vaidlustamise juhtudel v&otilde;ib halduskohus t&uuml;histada haldusakti t&auml;ielikult ja teha ettekirjutuse uue haldusakti v&auml;ljaandmiseks .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>( 2 ) Kui kaebuse esitaja taotleb haldusakti t&auml;ielikku v&otilde;i osalist t&uuml;histamist v&otilde;i toimingu sooritamist ning taotlus on seotud teatud rahasumma v&auml;ljamaksmisega , m&auml;&auml;rab halduskohus kaebuse rahuldamise korral otsuses kindlaks v&auml;ljamaksmisele kuuluva summa suuruse ja m&otilde;istab selle kaebuse esitaja kasuks v&auml;lja .</s>
+</p>
+<p>
+<s>( 3 ) Kohus v&otilde;ib asutusele , ametnikule v&otilde;i muule avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itvale isikule teha motiveeritud ettekirjutuse v&auml;ljamaksmisele kuuluva rahasumma kindlaksm&auml;&auml;ramiseks ja v&auml;ljamaksmiseks , kui rahasumma kindlakstegemine kohtu poolt n&otilde;uaks suurt ajakulu ja kahjustaks sellega kaebuse esitaja huvisid .</s><s>Ettekirjutuses m&auml;&auml;rab kohus &auml;ra summa kindlaksm&auml;&auml;ramise ja v&auml;ljamaksmise &uuml;ldtingimused .</s>
+</p>
+<p>
+<s>&sect; 27.</s><s>Juurdep&auml;&auml;s riigisaladusele</s>
+</p>
+<p>
+<s>( 1 ) Kohtunikul on ametikohaj&auml;rgne &otilde;igus juurdep&auml;&auml;suks riigisaladusele p&otilde;hiseaduse ja seadustega ning nende alusel antud &otilde;igusaktidega talle pandud &uuml;lesannete t&auml;itmiseks .</s>
+</p>
+<p>
+<s>( 2 ) Protsessiosalisel on &otilde;igus juurdep&auml;&auml;suks riigisaladusele p&otilde;hjendatud teadmisvajadusel vastava tasemega riigisaladusele juurdep&auml;&auml;su loa olemasolu korral v&otilde;i &ldquo; konfidentsiaalse &rdquo; v&otilde;i &ldquo; salajase &rdquo; tasemega riigisaladusele kohtu p&otilde;histatud m&auml;&auml;ruse alusel , kui see on haldusasja lahendamisel v&auml;ltimatult vajalik .</s>
+</p>
+<p>
+<s>( 3 ) Kohtu m&auml;&auml;ruse alusel ei lubata juurdep&auml;&auml;su &ldquo; konfidentsiaalse &rdquo; v&otilde;i &ldquo; salajase &rdquo; tasemega riigisaladusele , kui see seab ohtu j&auml;litustegevuse seaduse ( RT I 1994 , 16 , 290 ; 1995 , 15 , 173 ; 1996 , 49 , 955 ; 1997 , 81 , 1361 ; 93 , 1557 ; 1998 , 47 , 698 ; 50 , 753 ; 51 , 756 ; 61 , 981 ; 98/99 , 1575 ; 101 , 1663 ; 1999 , 16 , 271 ; 31 , 425 ; 95 , 845 ; 2000 , 35 , 222 ; 40 , 251 ; 102 , 671 ; 2001 , 3 , 9 ; 7 , 17 ; 58 , 353 ) &sect; 8 l&otilde;ike 1 punktides 2 , 3 ja 4 s&auml;testatud kohustuste t&auml;itmise , ja &ldquo; t&auml;iesti salajase &rdquo; tasemega riigisaladusele .</s>
+</p>
+<p>
+<s>&sect; 28.</s><s>Kohtuotsuse kuulutamine ja kohtuotsuse v&otilde;i -m&auml;&auml;ruse &auml;rakirja saatmine</s>
+</p>
+<p>
+<s>( 1 ) Halduskohtu otsus kuulutatakse kohtusaalis v&otilde;i tehakse avalikult teatavaks kohtu kantseleis 15 p&auml;eva jooksul p&auml;rast kohtuistungi l&otilde;ppu .</s><s>Kohtuistungi l&otilde;petamisel teatab kohus otsuse kuulutamise v&otilde;i avalikult teatavakstegemise aja ja koha .</s>
+</p>
+<p>
+<s>( 2 ) Protsessiosalised v&otilde;ivad soovi korral saada kohtuotsuse v&otilde;i -m&auml;&auml;ruse &auml;rakirja kohtu kantseleist p&auml;rast selle kuulutamist v&otilde;i avalikult teatavakstegemist .</s>
+</p>
+<p>
+<s>( 3 ) Kohtuotsuse v&otilde;i -m&auml;&auml;ruse &auml;rakiri saadetakse viivitamata sellele asutusele v&otilde;i ametnikule v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itvale muule isikule , kelle haldusakti v&otilde;i toimingu peale kaebus v&otilde;i protest oli esitatud , samuti protesti esitajale .</s>
+</p>
+<p>
+<s>( 4 ) Kui kohtuotsus sisaldab andmeid , mis v&otilde;ivad olla aluseks kohtuistungi kinniseks kuulutamisel , v&otilde;ib protsessiosaline n&otilde;uda ka kohtuotsuse v&auml;ljav&otilde;tet .</s><s>V&auml;ljav&otilde;te peab sisaldama kohtuotsuse sissejuhatust ja resolutsiooni .</s>
+</p>
+<p>
+<s>( 5 ) Kohtuotsuse resolutsioon avaldatakse kohtuteadete avaldamiseks etten&auml;htud ajalehes , kui protsessiosaline kutsuti kohtusse ajalehe kuulutusega , kuid ta ei ilmunud kohtusse ja asi lahendati tema osav&otilde;tuta .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Haldustoiminguks loa andmine</s>
+</p>
+<p>
+<s>&sect; 29.</s><s>Haldustoiminguks loa andmise otsustamine</s>
+</p>
+<p>
+<s>( 1 ) Seadusega s&auml;testatud juhtudel annab ja pikendab halduskohtunik loa haldustoimingu sooritamiseks v&otilde;i tunnistab haldustoimingu &otilde;igustatuks ( edaspidi annab loa haldustoiminguks ) .</s>
+</p>
+<p>
+<s>( 2 ) Taotluse v&otilde;i avalduse loa andmiseks esitab selleks volitatud asutus , ametnik v&otilde;i muu isik ( edaspidi taotleja ) kirjalikult koos p&otilde;hjendusega ning seaduses etten&auml;htud ja asja otsustamiseks vajalike t&otilde;endite ja seletustega .</s><s>Halduskohtunik v&otilde;ib n&otilde;uda t&auml;iendavate t&otilde;endite v&otilde;i seletuste esitamist .</s>
+</p>
+<p>
+<s>( 3 ) Isik , kelle suhtes sooritatavaks toiminguks loa andmist otsustakse , esitab seletuse seaduses s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 4 ) Halduskohtunik vaatab taotluse l&auml;bi ja otsustab haldustoiminguks loa andmise ainuisikuliselt ilma viivituseta ja kohtuistungit korraldamata , kui seadus ei n&auml;e ette teisiti .</s><s>Kohtuistungit korraldamata v&otilde;ib loa andmise erandkorras otsustada v&auml;ljaspool kohtu t&ouml;&ouml;aega .</s>
+</p>
+<p>
+<s>( 5 ) Kui haldustoiminguks loa andmine otsustatakse kohtuistungil , v&otilde;ivad istungist osa v&otilde;tta taotleja ning isik , kelle suhtes sooritatavaks haldustoiminguks loa andmist otsustatakse , ja nende esindajad .</s>
+</p>
+<p>
+<s>( 6 ) Otsuses haldustoiminguks loa andmise kohta m&auml;rgitakse otsuse tegemise aeg ja koht , otsuse teinud kohtu nimetus , halduskohtuniku ja kohtuistungi sekret&auml;ri nimi , taotleja , isiku , kelle suhtes sooritatavaks toiminguks luba anti , nimi , s&uuml;nniaeg- ja koht , kohtu resolutsioon , otsuse aluseks olevad asjaolud , kohaldatavad &otilde;igusnormid ja muud seadusega s&auml;testatud andmed .</s><s>Otsuse &auml;rakiri saadetakse taotlejale .</s>
+</p>
+<p>
+<s>&sect; 30.</s><s>Haldustoiminguks antud loa t&uuml;histamine ja otsuse vaidlustamine</s>
+</p>
+<p>
+<s>( 1 ) Haldustoiminguks antud loa v&otilde;ib halduskohtunik oma otsusega t&uuml;histada seadusega s&auml;testatud juhul .</s>
+</p>
+<p>
+<s>( 2 ) Haldustoiminguks loa andmise otsusele , loa andmisest keeldumise otsusele ja loa t&uuml;histamise otsusele v&otilde;ib k&auml;esolevas seadustikus s&auml;testatud korras esitada apellatsioonkaebuse :</s>
+</p>
+<p>
+<s>1 ) taotleja ;</s>
+</p>
+<p>
+<s>2 ) isik , kelle suhtes haldustoiminguks luba anti , kui loa andmine otsustati kohtuistungil v&otilde;i kui ta v&otilde;is esitada seletuse vastavalt k&auml;esoleva seadustiku &sect; 29 l&otilde;ikele 3.</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>Apellatsioonimenetlus</s>
+</p>
+<p>
+<s>&sect; 31.</s><s>Apellatsiooni korras edasikaebamine</s>
+</p>
+<p>
+<s>( 1 ) Poolel ja kolmandal isikul on &otilde;igus halduskohtu otsuse peale apellatsiooni korras edasi kaevata ringkonnakohtusse , kui halduskohus on eba&otilde;igesti kohaldanud materiaal&otilde;iguse normi , eba&otilde;igesti hinnanud t&otilde;endeid v&otilde;i oluliselt rikkunud kohtumenetluse normi .</s>
+</p>
+<p>
+<s>( 2 ) Apellatsioonkaebuse v&otilde;ib esitada ka protsessi kaasamata j&auml;&auml;nud kolmas isik , kui halduskohus otsustas tema seadusega kaitstud &otilde;iguste ja vabaduste &uuml;le .</s>
+</p>
+<p>
+<s>( 3 ) Poolel ja kolmandal isikul on &otilde;igus esitada halduskohtule eraldi dokumendina vormistatud m&auml;&auml;ruse peale erikaebus , kui see &otilde;igus on s&auml;testatud k&auml;esolevas seadustikus .</s>
+</p>
+<p>
+<s>( 4 ) Apellatsioonkaebuse esitamisest tuleb asja otsustanud halduskohtule kirjalikult teatada k&uuml;mne p&auml;eva jooksul kohtuotsuse kuulutamisest v&otilde;i avalikult teatavakstegemisest arvates .</s><s>Teadet ei ole vaja esitada , kui teate esitamise t&auml;htaja jooksul esitatakse apellatsioonkaebus .</s>
+</p>
+<p>
+<s>( 5 ) Apellatsioonkaebuse v&otilde;ib esitada &uuml;ksnes teate esitanud isik .</s><s>Apellatsioonkaebus tuleb esitada 30 p&auml;eva jooksul kohtuotsuse kuulutamisest v&otilde;i avalikult teatavakstegemisest arvates otsuse teinud halduskohtu kaudu .</s><s>Kui teate esitaja t&auml;htaja jooksul apellatsioonkaebust ei esita , loetakse , et ta ei ole kohtuotsust vaidlustanud .</s>
+</p>
+<p>
+<s>( 5 <hi rend="sup">1</hi> ) Apellatsioonkaebus halduskohtu otsuse peale isiku v&auml;lisriigile v&auml;ljaandmise kohta tuleb esitada ringkonnakohtule kolme p&auml;eva jooksul kohtuotsuse kuulutamisest v&otilde;i avalikult teatavakstegemisest arvates .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>( 6 ) Erikaebus esitatakse k&uuml;mne p&auml;eva jooksul m&auml;&auml;ruse avalikult teatavakstegemisest arvates m&auml;&auml;ruse teinud halduskohtu kaudu .</s><s>Kui m&auml;&auml;rus tehti pooli kohtusse kutsumata , arvestatakse kaebuse esitamise t&auml;htaega m&auml;&auml;ruse k&auml;tteandmisest .</s><s>Erikaebuse k&auml;esoleva seadustiku &sect; 11 l&otilde;igetes 3 ja 4 ja &sect; 12 l&otilde;ikes 3 s&auml;testatud juhtudel v&otilde;ib esitada vahetult ringkonnakohtule , lisades erikaebuse halduskohtu m&auml;&auml;ruse ja halduskohtu poolt tagastatud dokumendid .</s>
+</p>
+<p>
+<s>( 7 ) Erikaebusele ja selle l&auml;bivaatamisele kohaldatakse apellatsioonkaebuse ja selle l&auml;bivaatamise kohta s&auml;testatud n&otilde;udeid , kui need ei ole vastuolus erikaebuse olemusega .</s>
+</p>
+<p>
+<s>&sect; 32.</s><s>N&otilde;uded apellatsioonkaebusele</s>
+</p>
+<p>
+<s>( 1 ) Apellatsioonkaebus esitatakse kirjalikult ja selles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) ringkonnakohtu nimetus ;</s>
+</p>
+<p>
+<s>2 ) kaebuse esitaja nimi , alaline elu- v&otilde;i asukoht ( postiaadress ) ning sidevahendi number ;</s>
+</p>
+<p>
+<s>3 ) teiste protsessiosaliste nimed , aadressid ja seisund protsessis , samuti sidevahendite numbrid , kui need on teada ;</s>
+</p>
+<p>
+<s>4 ) halduskohtu otsus , mille peale kaevatakse ja haldusasja number ;</s>
+</p>
+<p>
+<s>5 ) kas kaevatakse halduskohtu otsuse peale tervikuna v&otilde;i m&otilde;ne selle osa peale , samuti , millise osa peale ;</s>
+</p>
+<p>
+<s>6 ) millist materiaal&otilde;iguse normi on halduskohus eba&otilde;igesti kohaldanud v&otilde;i millist kohtumenetluse normi on kohus oluliselt rikkunud v&otilde;i milles seisnes t&otilde;endite eba&otilde;ige hindamine ;</s>
+</p>
+<p>
+<s>7 ) apellandi selgelt v&auml;ljendatud taotlus ;</s>
+</p>
+<p>
+<s>8 ) kaebusele lisatud dokumentide loetelu .</s>
+</p>
+<p>
+<s>( 2 ) Apellatsioonkaebus koos &auml;rakirjadega esitatakse vastavalt protsessiosaliste arvule .</s>
+</p>
+<p>
+<s>( 3 ) Koos apellatsioonkaebusega esitab apellant kohtule t&otilde;endi riigil&otilde;ivu tasumise kohta .</s><s>Erikaebus on l&otilde;ivuvaba .</s>
+</p>
+<p>
+<s>( 4 ) Kui apellatsioonkaebuses esitatakse uusi t&otilde;endeid , mida ei olnud esimese astme kohtus esitatud , v&otilde;i taotletakse &uuml;le kuulata uusi tunnistajaid , tuleb apellatsioonkaebuses n&auml;idata p&otilde;hjused , miks neid ei saadud esitada v&otilde;i &uuml;le kuulata esimese astme halduskohtus .</s>
+</p>
+<p>
+<s>( 5 ) Apellant peab apellatsioonkaebuses m&auml;rkima , kas ta soovib v&otilde;i ei soovi kohtuistungist osa v&otilde;tta .</s>
+</p>
+<p>
+<s>( 6 ) Apellatsioonkaebusele kirjutab alla selle esitaja .</s><s>Apellatsioonkaebuse esitaja poolt volitatud isik lisab kaebusele volikirja v&otilde;i esindaja volitust t&otilde;endava muu dokumendi , kui seda ei ole tehtud esimese astme kohtus .</s><s>Teistes riikides t&otilde;estatud volikiri v&otilde;i esindaja volitust t&otilde;endav muu dokument peab olema kehtivas korras legaliseeritud , kui v&auml;lislepingust ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 7 ) Apellatsioonimenetluses kohaldatakse esindusele k&auml;esoleva seadustiku &sect; 14 l&otilde;ike 5 s&auml;tteid .</s>
+</p>
+<p>
+<s>&sect; 33.</s><s>Halduskohtu toimingud apellatsioonkaebuse saamisel</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast apellatsioonkaebuse saamist halduskohus :</s>
+</p>
+<p>
+<s>1 ) kontrollib apellatsioonkaebuse vastavust k&auml;esoleva seadustiku &sect;-s 32 s&auml;testatud n&otilde;uetele ;</s>
+</p>
+<p>
+<s>2 ) saadab viivitamata protsessiosalistele kirjaliku teate apellatsioonkaebuse saabumisest &uuml;hes apellatsioonkaebuse &auml;rakirjadega ;</s>
+</p>
+<p>
+<s>3 ) n&otilde;uab protsessiosalistelt kirjalikku vastust apellatsioonkaebusele .</s>
+</p>
+<p>
+<s>( 2 ) Kui apellatsioonkaebus ei vasta k&auml;esoleva seadustiku &sect;-s 32 s&auml;testatud n&otilde;uetele , teatab halduskohus sellest oma m&auml;&auml;rusega apellandile ja m&auml;&auml;rab puuduste k&otilde;rvaldamiseks kuni k&uuml;mnep&auml;evase t&auml;htaja .</s><s>Kui apellant on puudused k&otilde;rvaldanud ja apellatsioonkaebus vastab n&otilde;uetele , saadab halduskohus apellatsioonkaebuse koos kohtutoimikuga viivitamata ringkonnakohtule .</s>
+</p>
+<p>
+<s>( 3 ) Halduskohus tagastab kaebuse selle esitajale m&auml;&auml;rusega , kui apellant ei k&otilde;rvalda puudusi m&auml;&auml;ratud t&auml;htajaks .</s><s>Halduskohtu m&auml;&auml;ruse peale kaebuse tagastamise kohta v&otilde;ib esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 4 ) Halduskohus lahendab apellandi taotluse apellatsioonit&auml;htaja ennistamise kohta .</s><s>Halduskohus ennistab t&auml;htaja , kui ta loeb selle m&ouml;&ouml;dalastuks m&otilde;juval p&otilde;hjusel .</s><s>Halduskohtu m&auml;&auml;ruse peale apellatsioonit&auml;htaja ennistamise v&otilde;i ennistamata j&auml;tmise kohta v&otilde;ib esitada ringkonnakohtule erikaebuse .</s>
+</p>
+<p>
+<s>( 5 ) Protsessiosalise vastuses apellatsioonkaebusele m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) ringkonnakohtu nimi ;</s>
+</p>
+<p>
+<s>2 ) protsessiosalise nimi , postiaadress ja seisund protsessis , samuti sidevahendi number ;</s>
+</p>
+<p>
+<s>3 ) otsus , mille peale esitatud kaebuse kohta vastus antakse , ja haldusasja number ;</s>
+</p>
+<p>
+<s>4 ) kas peetakse kaebust &otilde;igeks v&otilde;i vaieldakse sellele vastu ;</s>
+</p>
+<p>
+<s>5 ) p&otilde;hjendatud vastuv&auml;ited kaebuse n&otilde;udmiste ja p&otilde;hjenduste kohta ning asjaolud , millele protsessiosaline oma vastuv&auml;ited rajab ;</s>
+</p>
+<p>
+<s>6 ) kas protsessiosaline soovib kohtuistungist osa v&otilde;tta .</s>
+</p>
+<p>
+<s>( 6 ) Vastusele kirjutab alla protsessiosaline v&otilde;i tema esindaja .</s><s>Kui vastuse esitab esindaja , lisatakse volikiri v&otilde;i esindaja volitusi t&otilde;endav muu dokument , kui seda ei ole varem esitatud .</s><s>Vastus esitatakse ringkonnakohtule kirjalikult vastavalt protsessiosaliste arvule .</s>
+</p>
+<p>
+<s>&sect; 34.</s><s>Ringkonnakohtu p&auml;devus haldusasjades</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohus vaatab k&auml;esoleva seadustikuga s&auml;testatud korras l&auml;bi apellatsioonkaebusi halduskohtu otsuste peale ning erikaebusi halduskohtu m&auml;&auml;ruste peale .</s>
+</p>
+<p>
+<s>( 2 ) Ringkonnakohus kontrollib apellatsiooni korras esimese astme kohtu lahendi seaduslikkust ja p&otilde;hjendatust apellatsioonkaebuse ja sellele esitatud vastuv&auml;idete piires .</s><s>Kui ringkonnakohus tuvastab k&auml;esoleva seadustiku &sect;-s 45 s&auml;testatud kohtumenetluse normide rikkumise , ei ole ta seotud apellatsioonkaebuse ja vastuv&auml;idete piiridega .</s>
+</p>
+<p>
+<s>( 3 ) Ringkonnakohus v&otilde;tab arvesse uusi t&otilde;endeid , mida ei olnud esimese astme kohtule esitatud , kui ta loeb nende mitteesitamise p&otilde;hjendatuks .</s><s>Ringkonnakohtus ei saa esitada n&otilde;udeid , mida esimese astme kohtus ei esitatud .</s>
+</p>
+<p>
+<s>( 4 ) Ringkonnakohus v&otilde;ib kaasata apellatsioonimenetlusse k&auml;esoleva seadustiku &sect; 14 l&otilde;ikes 3 nimetatud isikuid .</s>
+</p>
+<p>
+<s>&sect; 35.</s><s>Eelmenetlus ringkonnakohtus</s>
+</p>
+<p>
+<s>( 1 ) Apellatsioonkaebuse saabumisel kontrollib ringkonnakohus selle vastavust k&auml;esoleva seadustiku &sect;-s 32 s&auml;testatud n&otilde;uetele .</s><s>Kui ta leiab , et apellatsioonkaebus on puudulik , v&otilde;ib ta n&otilde;uda apellandilt kaebuse t&auml;iendamist m&auml;&auml;ratud t&auml;htajaks .</s>
+</p>
+<p>
+<s>( 2 ) Kui apellant ei vasta ringkonnakohtu n&otilde;udmistele , tagastab ringkonnakohus m&auml;&auml;rusega apellatsioonkaebuse l&auml;bivaatamatult .</s>
+</p>
+<p>
+<s>( 3 ) Vajadusel selgitab ringkonnakohus asja ettevalmistamise k&auml;igus v&auml;lja teiste protsessiosaliste seisukohad apellatsioonkaebuse kohta ja nende soovi kohtuistungist osa v&otilde;tta .</s>
+</p>
+<p>
+<s>( 4 ) Kui ringkonnakohus asja ettevalmistamisel leiab , et esimese astme halduskohtu poolt kontrollitud , samuti protsessiosaliste poolt t&auml;iendavalt esitatud t&otilde;endid ei ole k&uuml;llaldased asja &otilde;igeks otsustamiseks , v&otilde;ib ta teha protsessiosalistele ettepaneku esitada t&auml;iendavaid t&otilde;endeid v&otilde;i koguda neid omal algatusel koosk&otilde;las k&auml;esoleva seadustiku &sect;-dega 16-18.</s>
+</p>
+<p>
+<s>( 5 ) Ringkonnakohtul on &otilde;igus rakendada esialgset &otilde;iguskaitset vastavalt k&auml;esoleva seadustiku &sect;-dele 12 <hi rend="sup">1</hi> ja 12 <hi rend="sup">2</hi> .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>&sect; 36.</s><s>Asja otsustamine &uuml;ksnes kaebuse p&otilde;hjal</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohus v&otilde;ib asja otsustada &uuml;ksnes kaebuse p&otilde;hjal ilma protsessiosalisi v&auml;lja kutsumata , kui ta &uuml;ksmeelselt leiab , et halduskohus on oluliselt rikkunud kohtumenetluse norme , mis vastavalt k&auml;esoleva seadustiku &sect; 45 l&otilde;ikele 1 toob igal juhul endaga kaasa kohtuotsuse t&uuml;histamise .</s><s>Sel juhul kaevatud otsus v&otilde;i m&auml;&auml;rus t&uuml;histatakse ja asi saadetakse esimese astme kohtusse uueks l&auml;bivaatamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Ilma protsessiosalisi v&auml;lja kutsumata tehtud ringkonnakohtu otsuse v&otilde;i m&auml;&auml;ruse &auml;rakiri saadetakse protsessiosalistele viie p&auml;eva jooksul otsuse v&otilde;i m&auml;&auml;ruse allakirjutamisest .</s>
+</p>
+<p>
+<s>&sect; 37.</s><s>Asja lahendamine kirjalikus menetluses</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohus v&otilde;ib kohtuistungit korraldamata lahendada apellatsioonkaebuse kirjalikus menetluses , kui kohus on saatnud apellatsioonkaebuse &auml;rakirja teistele protsessiosalistele ja selgitanud nende seisukoha apellatsioonkaebuse kohta ning apellant ja teised protsessiosalised on apellatsioonkaebuses v&otilde;i vastuses apellatsioonkaebusele teatanud , et nad ei soovi kohtuistungist osa v&otilde;tta .</s>
+</p>
+<p>
+<s>( 2 ) Kui kohus kirjalikus menetluses leiab , et asja tuleb lahendada kohtuistungil , m&auml;&auml;rab ta kohtuistungi .</s><s>Kui protsessiosaline on ringkonnakohtule esitanud uue t&otilde;endi , mille kohus vastu v&otilde;tab , v&otilde;ib asja lahendada kirjalikus menetluses &uuml;ksnes siis , kui m&otilde;ni protsessiosalistest ei taotle uue t&otilde;endi hindamiseks asja arutamist kohtuistungil .</s>
+</p>
+<p>
+<s>( 3 ) Erikaebused v&otilde;ib ringkonnakohus lahendada kirjalikus menetluses , s&otilde;ltumata protsessiosaliste taotlustest .</s>
+</p>
+<p>
+<s>( 4 ) Kui apellatsioonkaebus lahendati kirjalikus menetluses , saadetakse otsuse v&otilde;i m&auml;&auml;ruse &auml;rakiri protsessiosalistele viie p&auml;eva jooksul otsuse v&otilde;i m&auml;&auml;ruse allakirjutamisest .</s>
+</p>
+<p>
+<s>&sect; 38.</s><s>Apellatsioonkaebusest loobumine</s>
+</p>
+<p>
+<s>Apellatsioonkaebuse v&otilde;i erikaebuse esitajal on &otilde;igus loobuda kaebusest kuni asja l&auml;bivaatamise l&otilde;petamiseni kohtuistungil .</s><s>Kui teised protsessiosalised ei ole kohtuotsuse v&otilde;i -m&auml;&auml;ruse peale kaevanud v&otilde;i teised kaebuse esitajad on n&otilde;us menetluse l&otilde;petamisega , l&otilde;petab ringkonnakohus m&auml;&auml;rusega apellatsioonimenetluse .</s>
+</p>
+<p>
+<s>&sect; 39.</s><s>Apellatsioonimenetluse uuendamine</s>
+</p>
+<p>
+<s>Kui apellatsioonkaebus tagastati apellandile halduskohtu v&otilde;i ringkonnakohtu n&otilde;udmistele vastamata j&auml;tmise t&otilde;ttu ( &sect; 33 l&otilde;ige 3 ja &sect; 35 l&otilde;ige 2 ) , uuendab ringkonnakohus apellandi taotlusel apellatsioonimenetluse , kui apellandil ei olnud v&otilde;imalik t&auml;ita kohtu n&otilde;udmisi m&auml;&auml;ratud t&auml;htajaks ja ta ei saanud sellest halduskohtule v&otilde;i ringkonnakohtule &otilde;igeaegselt teatada .</s>
+</p>
+<p>
+<s>&sect; 40.</s><s>Ringkonnakohtu istungi m&auml;&auml;ramine ja kohtusse kutsumine</s>
+</p>
+<p>
+<s>( 1 ) Kui asi on eelmenetluse korras ette valmistatud , m&auml;&auml;rab ringkonnakohus kindlaks asja arutamise aja ja koha ning teeb selle teatavaks protsessiosalistele .</s>
+</p>
+<p>
+<s>( 2 ) Apellant ja teised protsessiosalised kutsutakse ringkonnakohtusse tsiviilkohtumenetluses s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Kui apellant ega tema esindaja kohtuistungile ei ilmu , v&otilde;ib ringkonnakohus j&auml;tta kaebuse oma m&auml;&auml;rusega l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 4 ) Kui ringkonnakohus pidas teiste protsessiosaliste kohtuistungile ilmumist vajalikuks , kuid nad j&auml;tsid ilmumata , v&otilde;ib kohus neid trahvida .</s>
+</p>
+<p>
+<s>&sect; 41.</s><s>Apellatsioonkaebuse ja erikaebuse l&auml;bivaatamise t&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohus vaatab asja l&auml;bi kahe kuu jooksul , arvates n&otilde;uetekohase kaebuse vastuv&otilde;tmisest ringkonnakohtus .</s><s>Asja erilise keerukuse korral v&otilde;ib ringkonnakohtu esimees seda t&auml;htaega pikendada kuni kolme kuuni .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Apellatsioonkaebuse halduskohtu otsuse peale isiku v&auml;lisriigile v&auml;ljaandmise kohta vaatab ringkonnakohus l&auml;bi viie t&ouml;&ouml;p&auml;eva jooksul , arvates n&otilde;uetekohase kaebuse vastuv&otilde;tmisest ringkonnakohtus .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>( 2 ) Ringkonnakohus vaatab erikaebuse l&auml;bi 15 p&auml;eva jooksul , arvates n&otilde;uetekohase erikaebuse vastuv&otilde;tmisest ringkonnakohtus .</s>
+</p>
+<p>
+<s>&sect; 42.</s><s>Ringkonnakohtu istungi kord</s>
+</p>
+<p>
+<s>( 1 ) Apellatsioonkaebus vaadatakse l&auml;bi ringkonnakohtu halduskolleegiumi istungil kollegiaalselt v&auml;hemalt kolme kohtuniku osav&otilde;tul .</s>
+</p>
+<p>
+<s>( 2 ) Kohtuistungi korraldamisel ringkonnakohtus juhindutakse k&auml;esoleva seadustikuga reguleerimata k&uuml;simustes tsiviilkohtumenetluse s&auml;tetest .</s>
+</p>
+<p>
+<s>( 3 ) T&otilde;endite uurimine ringkonnakohtus toimub j&auml;rgmises j&auml;rjekorras : k&otilde;igepealt uuritakse esimese astme kohtus kontrollitud t&otilde;endeid , teiseks apellandi ja teiste protsessiosaliste poolt t&auml;iendavalt esitatud t&otilde;endeid ning seej&auml;rel ringkonnakohtu algatusel kogutud t&auml;iendavaid t&otilde;endeid .</s>
+</p>
+<p>
+<s>( 4 ) Tunnistaja ja eksperdi &uuml;lekuulamisel juhindutakse tsiviilkohtumenetluse s&auml;tetest .</s>
+</p>
+<p>
+<s>&sect; 43.</s><s>Apellatsioonkaebus t&otilde;endite hindamise peale</s>
+</p>
+<p>
+<s>Kui apellatsioonkaebuses vaidlustatakse kohtuotsuse p&otilde;hjendatust motiivil , et halduskohus on andnud tunnistaja &uuml;tlustele , eksperdi arvamusele v&otilde;i protsessiosalise seletusele v&auml;&auml;ra hinnangu , ei v&otilde;i ringkonnakohus kohtuotsust muuta , t&uuml;histada v&otilde;i ka muutmata j&auml;tta , ilma neid t&otilde;endeid vahetult kontrollimata ja esitamata motiive , miks neid t&otilde;endeid tuleb teisiti hinnata .</s>
+</p>
+<p>
+<s>&sect; 44.</s><s>Menetluse peatamine</s>
+</p>
+<p>
+<s>Ringkonnakohus v&otilde;ib menetluse peatada k&auml;esoleva seadustiku &sect;-s 22 s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 45.</s><s>Kohtumenetluse normide rikkumise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohus t&uuml;histab esimese astme kohtu lahendi kaebuse ja vastuv&auml;idete p&otilde;hjendustest ja n&otilde;udmistest olenemata ja saadab asja uueks arutamiseks esimese astme kohtusse , kui :</s>
+</p>
+<p>
+<s>1 ) asja lahendas kohus ( kohtunik ) , kellel seaduse j&auml;rgi ei olnud &otilde;igust asja lahendada ;</s>
+</p>
+<p>
+<s>2 ) kohtulahend on tehtud isiku suhtes , keda seaduse n&otilde;uete kohaselt kohtusse ei kutsutud ;</s>
+</p>
+<p>
+<s>3 ) kohtunik ei ole otsusele alla kirjutanud v&otilde;i m&otilde;ni kohtunikest ei ole otsusele alla kirjutanud v&otilde;i otsusele on alla kirjutanud mitte selles m&auml;rgitud kohtunikud ( kohtunik ) ;</s>
+</p>
+<p>
+<s>4 ) asjas puudub kohtuistungi protokoll .</s>
+</p>
+<p>
+<s>( 2 ) Ringkonnakohtul on &otilde;igus kaebuse ja vastuv&auml;idete p&otilde;hjendustest ja taotlusest olenemata kohtulahend t&uuml;histada ja saata asi uueks arutamiseks esimese astme kohtule , kui :</s>
+</p>
+<p>
+<s>1 ) kohus otsustas kolmanda isiku &otilde;iguste ja kohustuste &uuml;le , keda asja arutamisele halduskohtus ei kaasatud ja kelle kaasamine apellatsioonimenetluses ei v&otilde;imalda asja kiiremini ja &otilde;igemini lahendada ;</s>
+</p>
+<p>
+<s>2 ) kohtumenetluse normide muid olulisi rikkumisi ei ole v&otilde;imalik apellatsioonimenetluses k&otilde;rvaldada .</s>
+</p>
+<p>
+<s>&sect; 46.</s><s>Ringkonnakohtu volitused</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohtul on haldusasja apellatsiooni korras l&auml;bivaatamisel &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) j&auml;tta kaebus rahuldamata ja halduskohtu otsus v&otilde;i m&auml;&auml;rus muutmata ;</s>
+</p>
+<p>
+<s>2 ) muuta v&otilde;i t&uuml;histada halduskohtu otsus v&otilde;i m&auml;&auml;rus ja teha uus otsus asja uueks l&auml;bivaatamiseks saatmata ;</s>
+</p>
+<p>
+<s>3 ) t&uuml;histada halduskohtu otsus osaliselt v&otilde;i t&auml;ies ulatuses ja saata asi esimese astme kohtule uueks l&auml;bivaatamiseks ;</s>
+</p>
+<p>
+<s>4 ) j&auml;tta kaebus l&auml;bi vaatamata k&auml;esoleva seadustiku &sect; 40 l&otilde;ikes 3 nimetatud alustel ;</s>
+</p>
+<p>
+<s>5 ) t&uuml;histada halduskohtu otsus v&otilde;i m&auml;&auml;rus ja l&otilde;petada menetlus k&auml;esoleva seadustiku &sect;-s 24 nimetatud alustel .</s>
+</p>
+<p>
+<s>( 2 ) Kui ringkonnakohus j&auml;ttis apellatsioonkaebuse l&auml;bi vaatamata seet&otilde;ttu , et apellant ja tema esindaja kohtuistungile ei ilmunud , uuendab kohus menetluse apellandi avalduse alusel , kui istungilt puudumiseks oli m&otilde;juv p&otilde;hjus , millest ei saadud kohtule teatada .</s><s>Avaldus menetluse uuendamiseks tuleb esitada 15 p&auml;eva jooksul , arvates m&otilde;juva p&otilde;hjuse &auml;ralangemisest .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seadustiku &sect; 30 l&otilde;ikes 2 nimetatud isiku apellatsioonkaebuse l&auml;bivaatamisel on ringkonnakohtul k&otilde;ik k&auml;esolevas paragrahvis s&auml;testatud volitused .</s>
+</p>
+<p>
+<s>&sect; 47.</s><s>Ringkonnakohtu lahend</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohtu lahend , millega otsustatakse apellatsioon halduskohtu otsuse peale , vormistatakse otsusega .</s>
+</p>
+<p>
+<s>( 2 ) Ringkonnakohtu lahend , millega otsustatakse erikaebus halduskohtu m&auml;&auml;ruse peale , vormistatakse m&auml;&auml;rusega .</s>
+</p>
+<p>
+<s>( 3 ) Otsus v&otilde;i m&auml;&auml;rus tehakse tsiviilkohtumenetluses s&auml;testatud korras , vormistatakse kirjalikult ning sellele kirjutavad alla k&otilde;ik asja l&auml;bivaatamisest osav&otilde;tnud kohtunikud .</s>
+</p>
+<p>
+<s>( 4 ) Kui ringkonnakohus teeb otsuse asja uueks l&auml;bivaatamiseks saatmata , kohaldatakse k&auml;esoleva seadustiku &sect; 26 l&otilde;iget 1.</s>
+</p>
+<p>
+<s>( 5 ) Ringkonnakohtu otsus kuulutatakse kohtusaalis v&otilde;i tehakse avalikult teatavaks kohtu kantseleis 15 p&auml;eva jooksul p&auml;rast kohtuistungi l&otilde;ppu .</s><s>Kohtuistungi l&otilde;petamisel teatab kohus otsuse kuulutamise v&otilde;i avalikult teatavakstegemise aja ja koha .</s>
+</p>
+<p>
+<s>( 6 ) Ringkonnakohtu otsuse v&otilde;i m&auml;&auml;ruse &auml;rakirja saamisele v&otilde;i ajalehes avaldamisele kohaldatakse k&auml;esoleva seadustiku &sect; 28 l&otilde;iget 2 , 4 , ja 5 , &sect; 36 l&otilde;iget 2 ja &sect; 37 l&otilde;iget 4.</s>
+</p>
+<p>
+<s>&sect; 48.</s><s>Ringkonnakohtu protokoll</s>
+</p>
+<p>
+<s>Ringkonnakohtus protokollitakse &uuml;ksnes need seletused ja &uuml;tlused , millel on ringkonnakohtu arvates t&auml;htsust asja kassatsiooni korras l&auml;bivaatamisel .</s><s>Protokolli koostamisel juhindutakse k&auml;esoleva seadustiku &sect; 20 s&auml;tetest .</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>Menetlus riigikohtus</s>
+</p>
+<p>
+<s>&sect; 49.</s><s>Riigikohtu p&auml;devus haldusasjades</s>
+</p>
+<p>
+<s>Riigikohtu p&auml;devuses on :</s>
+</p>
+<p>
+<s>1 ) ringkonnakohtu lahendite peale esitatud kaebuste kassatsiooni korras l&auml;bivaatamine ;</s>
+</p>
+<p>
+<s>2 ) j&otilde;ustunud kohtulahendite peale esitatud teistmisavalduste l&auml;bivaatamine ;</s>
+</p>
+<p>
+<s>3 ) kohtuvigade parandamine ;</s>
+</p>
+<p>
+<s>4 ) asja lahendamiseks p&auml;deva kohtu m&auml;&auml;ramine kohtute seaduses ( RT 1991 , 38 , 472 ; RT I 1993 , 1 , 2 ; 24 , 429 ; 65 , 922 ; 1994 , 81 , 1382 ; 86/87 , 1487 ; 94 , 1609 ; 1995 , 29 , 358 ; 1996 , 31 , 631 ; 42 , 811 ; 51 , 967 ; 1998 , 4 , 62 ; 96 , 1515 ; 1999 , 44 , 511 ; 2000 , 35 , 219 ; 51 , 321 ; 2001 , 21 , 113 ; 43 , 240 ; 48 , 264 ) s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 50.</s><s>Haldusasja l&auml;bivaatamine Riigikohtus</s>
+</p>
+<p>
+<s>( 1 ) Haldusasja vaatab l&auml;bi Riigikohtu halduskolleegium kolmeliikmelises koosseisus v&otilde;i k&auml;esoleva seadustiku &sect;-s 67 s&auml;testatud juhtudel halduskolleegium kogu koosseisus .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esolevas seadustikus s&auml;testatud juhtudel vaatab haldusasju l&auml;bi Riigikohtu erikogu v&otilde;i Riigikohtu &uuml;ldkogu .</s>
+</p>
+<p>
+<s>&sect; 51.</s><s>Esindaja Riigikohtus</s>
+</p>
+<p>
+<s>( 1 ) Esindajaks Riigikohtus v&otilde;ib olla vandeadvokaat v&otilde;i vandeadvokaadi vanemabi .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva paragrahvi l&otilde;iget 1 ei kohaldata asutuse , ametniku v&otilde;i haldus&uuml;lesandeid t&auml;itva muu isiku ( &sect; 14 l&otilde;ige 2 punkt 2 ) esindaja suhtes , samuti kohtu poolt kaasatud j&auml;relevalvet teostava ( &sect; 14 l&otilde;ige 3 punkt 2 ) v&otilde;i riigi v&otilde;i kohaliku omavalitsuse asutuse ( &sect; 14 l&otilde;ige 3 punkt 3 ) esindaja suhtes .</s>
+</p>
+<p>
+<s>7. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kassatsioonimenetlus</s>
+</p>
+<p>
+<s>&sect; 52.</s><s>Kassatsiooni korras edasikaebamine</s>
+</p>
+<p>
+<s>( 1 ) Poolel ja kolmandal isikul on &otilde;igus ringkonnakohtu otsuse peale kassatsiooni korras edasi kaevata Riigikohtusse , kui ringkonnakohus on eba&otilde;igesti kohaldanud materiaal&otilde;iguse normi v&otilde;i oluliselt rikkunud kohtumenetluse normi .</s>
+</p>
+<p>
+<s>( 2 ) Poolel ja kolmandal isikul on &otilde;igus esitada ringkonnakohtu eraldi dokumendina vormistatud m&auml;&auml;ruse peale erikaebus , kui k&auml;esolev seadustik ei s&auml;testa teisiti .</s>
+</p>
+<p>
+<s>( 3 ) Kassatsioon- v&otilde;i erikaebus esitatakse otsuse v&otilde;i m&auml;&auml;ruse teinud ringkonnakohtu kaudu .</s>
+</p>
+<p>
+<s>&sect; 53.</s><s>Kassatsioonit&auml;htaeg</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohtu otsuse peale v&otilde;ib pool v&otilde;i kolmas isik edasi kaevata 30 p&auml;eva jooksul kohtuotsuse teatavakstegemisest , kui asi lahendati kirjalikus menetluses , siis kohtuotsuse k&auml;ttesaamisest .</s>
+</p>
+<p>
+<s>( 1 <hi rend="sup">1</hi> ) Kassatsioonkaebus ringkonnakohtu otsuse peale isiku v&auml;lisriigile v&auml;ljaandmise kohta tuleb esitada 10 p&auml;eva jooksul kohtuotsuse teatavakstegemisest , kui asi lahendati kirjalikus menetluses , siis kohtuotsuse k&auml;ttesaamisest .</s>
+</p>
+<p>
+<s>( 06.06.2001 j&otilde;ust.01.01.2002 - RT I 2001 , 58 , 355 )</s>
+</p>
+<p>
+<s>( 2 ) Ringkonnakohtu m&auml;&auml;ruse peale v&otilde;ib edasi kaevata 15 p&auml;eva jooksul m&auml;&auml;ruse avalikult teatavakstegemisest .</s><s>Kirjalikus menetluses tehtud m&auml;&auml;ruse peale 15 p&auml;eva jooksul selle saamisest .</s>
+</p>
+<p>
+<s>( 3 ) Ringkonnakohus v&otilde;ib kassatsioon- v&otilde;i erikaebuse esitaja taotlusel m&auml;&auml;rusega t&auml;htaja ennistada , kui ta loeb selle m&ouml;&ouml;dalastuks m&otilde;juval p&otilde;hjusel .</s><s>Kassatsioon- v&otilde;i erikaebuse t&auml;htaja ennistamata j&auml;tmise m&auml;&auml;rusele v&otilde;ib esitada Riigikohtule erikaebuse .</s>
+</p>
+<p>
+<s>&sect; 54.</s><s>Kassatsioonkaebus</s>
+</p>
+<p>
+<s>( 1 ) Kassatsioonkaebus esitatakse kirjalikult ja selles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) adressaadina Riigikohus ;</s>
+</p>
+<p>
+<s>2 ) kassatsioonkaebuse esitaja nimi , elukoht ( juriidilise isiku asukoht ) , postiaadress ja seisund protsessis , samuti sidevahendite numbrid ;</s>
+</p>
+<p>
+<s>3 ) teiste protsessiosaliste nimed , aadressid ja seisund protsessis , samuti sidevahendite numbrid , kui need on teada ;</s>
+</p>
+<p>
+<s>4 ) ringkonnakohtu otsus , mille peale kaevatakse , ja haldusasja number ;</s>
+</p>
+<p>
+<s>5 ) kas kaevatakse kogu ringkonnakohtu otsuse peale v&otilde;i m&otilde;ne selle osa peale , samuti , millise osa peale ;</s>
+</p>
+<p>
+<s>6 ) millist materiaal&otilde;iguse normi on ringkonnakohus eba&otilde;igesti kohaldanud v&otilde;i millist kohtumenetluse normi on ringkonnakohus oluliselt rikkunud ja milles see rikkumine seisnes ;</s>
+</p>
+<p>
+<s>7 ) kassatsioonkaebuse esitaja selgelt v&auml;ljendatud taotlus ;</s>
+</p>
+<p>
+<s>8 ) kassatsioonkaebusele lisatud dokumentide loetelu .</s>
+</p>
+<p>
+<s>( 2 ) Kassatsioonkaebuse esitaja peab kaebuses m&auml;rkima , kas ta soovib kohtuistungist osa v&otilde;tta .</s><s>Kui kassatsioonkaebuse esitaja ei ole kaebuses m&auml;rkinud , et ta soovib kohtuistungist osa v&otilde;tta , loetakse , et ta seda ei soovi .</s>
+</p>
+<p>
+<s>( 3 ) Kassatsioonkaebusele lisatakse kautsjoni tasumist t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 4 ) Kaebusele kirjutab alla kassatsioonkaebuse esitaja v&otilde;i tema esindaja .</s><s>Kui kaebuse esitab esindaja , lisatakse volikiri v&otilde;i esindaja volitust t&otilde;endav muu dokument , kui seda ei ole tehtud apellatsiooni- v&otilde;i esimese astme kohtus .</s><s>Teistes riikides t&otilde;estatud volikiri v&otilde;i esindaja volitust t&otilde;endav muu dokument peab olema kehtivas korras legaliseeritud , kui v&auml;lislepingust ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 5 ) Kassatsioonkaebus esitatakse kohtule koos &auml;rakirjadega vastavalt protsessiosaliste arvule .</s>
+</p>
+<p>
+<s>&sect; 55.</s><s>Erikaebus</s>
+</p>
+<p>
+<s>( 1 ) Erikaebusele ja selle l&auml;bivaatamisele kohaldatakse kassatsioonkaebuse ja selle l&auml;bivaatamise kohta s&auml;testatud n&otilde;udeid , kui need ei ole vastuolus erikaebuse olemusega .</s>
+</p>
+<p>
+<s>( 2 ) Erikaebusele lisatakse ringkonnakohtu m&auml;&auml;rus ja ringkonnakohtu poolt tagastatud dokumendid ja kautsjoni tasumist t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 3 ) Erikaebus esitatakse kohtule koos &auml;rakirjadega vastavalt protsessiosaliste arvule .</s>
+</p>
+<p>
+<s>&sect; 56.</s><s>Kassatsioon- ja erikaebuse edastamine</s>
+</p>
+<p>
+<s>( 1 ) Ringkonnakohus edastab p&auml;rast kassatsioonit&auml;htaja m&ouml;&ouml;dumist kassatsioonkaebuse viivitamata Riigikohtule koos esimese astme kohtu ja ringkonnakohtu toimikuga .</s>
+</p>
+<p>
+<s>( 2 ) Ringkonnakohus edastab erikaebuse viivitamata Riigikohtule koos kohtutoimikutega .</s>
+</p>
+<p>
+<s>&sect; 57.</s><s>Kassatsioon- ja erikaebuse tagastamine l&auml;bivaatamatult</s>
+</p>
+<p>
+<s>( 1 ) Riigikohtu loakogu tagastab kassatsioon- v&otilde;i erikaebuse l&auml;bivaatamatult , kui see ei vasta k&auml;esoleva seadustiku &sect; 54 v&otilde;i &sect; 55 n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 2 ) Riigikohtu loakogu v&otilde;ib kassatsioonkaebuse esitajale m&auml;&auml;rata puuduste k&otilde;rvaldamiseks t&auml;htaja , kui Riigikohtule edastatud kassatsioon- v&otilde;i erikaebus ei vasta k&auml;esoleva seadustiku &sect; 54 v&otilde;i &sect; 55 n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 3 ) Riigikohtu loakogu tagastab kassatsioon- v&otilde;i erikaebuse l&auml;bivaatamatult , kui kassatsioonkaebuse esitaja j&auml;tab loakogu n&otilde;udmise t&auml;htajaks t&auml;itmata ja kaebust ei ole seet&otilde;ttu v&otilde;imalik l&auml;bi vaadata .</s>
+</p>
+<p>
+<s>&sect; 58.</s><s>Kassatsioonkaebuse saatmine protsessiosalistele</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast seaduse n&otilde;uetele vastava kassatsioonkaebuse vastuv&otilde;tmist saadab loakogu kassatsioonkaebuse &auml;rakirja teistele protsessiosalistele .</s>
+</p>
+<p>
+<s>( 2 ) &Uuml;hes kaebuse saatmisega v&otilde;ib loakogu n&otilde;uda protsessiosalistelt loakogu m&auml;&auml;ratud t&auml;htajaks kirjalikku vastust kassatsioonkaebusele .</s><s>Protsessiosalised v&otilde;ivad esitada kirjalikud vastuv&auml;ited ka omal algatusel .</s>
+</p>
+<p>
+<s>&sect; 59.</s><s>Vastus kassatsioonkaebusele ja kohtu k&uuml;simustele</s>
+</p>
+<p>
+<s>( 1 ) Vastuses kassatsioonkaebusele ja kohtu k&uuml;simustele tuleb m&auml;rkida :</s>
+</p>
+<p>
+<s>1 ) adressaadina Riigikohus ;</s>
+</p>
+<p>
+<s>2 ) protsessiosalise nimi , postiaadress ja seisund protsessis , samuti sidevahendi number ;</s>
+</p>
+<p>
+<s>3 ) otsus , mille peale esitatud kaebuse kohta vastus antakse , ja haldusasja number ;</s>
+</p>
+<p>
+<s>4 ) kas peetakse kaebust &otilde;igeks v&otilde;i vaieldakse sellele vastu ;</s>
+</p>
+<p>
+<s>5 ) p&otilde;hjendatud vastuv&auml;ited kaebuse n&otilde;udmiste ja p&otilde;hjenduste kohta ning asjaolud ja seadus , millele protsessiosaline oma vastuv&auml;ited rajab .</s>
+</p>
+<p>
+<s>( 2 ) Kui protsessiosaline soovib kohtuistungist osa v&otilde;tta , peab ta seda vastuses m&auml;rkima .</s><s>Kui protsessiosaline ei ole vastuses m&auml;rkinud , et ta soovib kohtuistungist osa v&otilde;tta , loetakse , et ta seda ei soovi .</s>
+</p>
+<p>
+<s>( 3 ) Vastusele kirjutab alla protsessiosaline v&otilde;i tema esindaja .</s><s>Kui vastuse esitab esindaja , lisatakse volikiri v&otilde;i esindaja volitust t&otilde;endav muu dokument , kui seda ei ole tehtud apellatsiooni- v&otilde;i esimese astme kohtus .</s><s>Teistes riikides t&otilde;estatud volikiri v&otilde;i esindaja volitust t&otilde;endav muu dokument peab olema kehtivas korras legaliseeritud , kui v&auml;lislepingust ei tulene teisiti .</s>
+</p>
+<p>
+<s>( 4 ) Vastus esitatakse kohtule koos &auml;rakirjadega vastavalt protsessiosaliste arvule .</s>
+</p>
+<p>
+<s>( 5 ) Vajaduse korral v&otilde;ib loakogu n&otilde;uda protsessiosalistelt m&auml;&auml;ratud t&auml;htajaks kirjalikku vastust kohtu k&uuml;simustele .</s>
+</p>
+<p>
+<s>&sect; 60.</s><s>Menetlusloa andmine</s>
+</p>
+<p>
+<s>( 1 ) Riigikohtu loakogu annab menetlusloa , kui :</s>
+</p>
+<p>
+<s>1 ) kaebuses vaidlustatakse materiaal&otilde;iguse normi kohaldamise &otilde;igsust v&otilde;i taotletakse kohtulahendi t&uuml;histamist kohtumenetluse seaduste s&auml;tete olulise rikkumise t&otilde;ttu , mis on toonud kaasa v&otilde;i oleks v&otilde;inud kaasa tuua eba&otilde;ige kohtulahendi ;</s>
+</p>
+<p>
+<s>2 ) Riigikohtu otsus on oluline seaduse &uuml;hetaolise kohaldamise seisukohalt .</s>
+</p>
+<p>
+<s>( 2 ) Menetlusluba ei anta , kui loakogu &uuml;ksmeelselt veendub kaebuse ilmses p&otilde;hjendamatuses .</s>
+</p>
+<p>
+<s>( 3 ) Loakogu otsustab menetlusloa andmise protsessiosalisi v&auml;lja kutsumata .</s><s>Menetlusloa andmine otsustatakse p&auml;rast k&auml;esoleva seadustiku &sect; 58 l&otilde;ikes 2 nimetatud dokumentide n&otilde;udmist .</s><s>Kui loakogule on selge menetlusloa taotluse p&otilde;hjendatus v&otilde;i p&otilde;hjendamatus , v&otilde;ib loakogu anda menetlusloa v&otilde;i j&auml;tta menetlusloa andmata dokumente eelnevalt n&otilde;udmata .</s>
+</p>
+<p>
+<s>( 4 ) Menetlusloa andmise otsustab loakogu kahe kuu jooksul resolutsiooniga .</s><s>Menetlusloa mitteandmisel m&auml;rgitakse resolutsioonis &auml;ra menetlusloa mitteandmise alus .</s>
+</p>
+<p>
+<s>( 5 ) Kui menetlusluba ei anta , tagastatakse kohtutoimikud vastavatesse kohtutesse ja kaebus &uuml;hes resolutsiooniga j&auml;&auml;b ringkonnakohtu toimikusse .</s><s>Resolutsiooni &auml;rakiri saadetakse k&otilde;igile protsessiosalistele .</s>
+</p>
+<p>
+<s>( 6 ) Loakogu v&otilde;ib kassatsioonkaebuse esitaja taotlusel v&otilde;i omal algatusel kohtuotsuse t&auml;itmise peatada .</s>
+</p>
+<p>
+<s>&sect; 61.</s><s>Asja lahendamine kirjalikus menetluses</s>
+</p>
+<p>
+<s>( 1 ) Riigikohus v&otilde;ib kohtuistungit korraldamata lahendada kassatsioonkaebuse kirjalikus menetluses , kui kassatsioonkaebuse esitaja v&otilde;i teised protsessiosalised ei ole k&auml;esoleva seadustiku &sect; 54 l&otilde;ike 2 ja &sect; 59 l&otilde;ike 2 kohaselt avaldanud soovi kohtuistungist osa v&otilde;tta .</s>
+</p>
+<p>
+<s>( 2 ) Erikaebuse v&otilde;ib Riigikohus l&auml;bi vaadata kirjalikus menetluses , s&otilde;ltumata protsessiosaliste taotlustest .</s>
+</p>
+<p>
+<s>( 3 ) Kirjalikus menetluses tehtud otsuse v&otilde;i m&auml;&auml;ruse &auml;rakiri saadetakse protsessiosalistele viie p&auml;eva jooksul otsuse v&otilde;i m&auml;&auml;ruse tegemisest .</s><s>Otsuse v&otilde;i m&auml;&auml;ruse tegemise p&auml;evaks on selle allakirjutamise p&auml;ev .</s>
+</p>
+<p>
+<s>&sect; 62.</s><s>Riigikohtu istungi m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>( 1 ) Riigikohtu halduskolleegium vaatab kassatsioonkaebuse kohtuistungil l&auml;bi kahe kuu jooksul menetlusloa andmisest .</s><s>Asja erilise keerukuse korral v&otilde;ib Riigikohtu esimees seda t&auml;htaega pikendada .</s>
+</p>
+<p>
+<s>( 2 ) Riigikohtu halduskolleegium teatab protsessiosalistele istungi aja ja koha .</s><s>Koos teatisega kohtuistungi aja ja koha kohta saadetakse kassatsioonkaebuse esitajale &auml;rakirjad vastustest kassatsioonkaebusele .</s><s>Kui kaebus vaadatakse l&auml;bi kirjalikus menetluses , kohtuistungit ei korraldata .</s>
+</p>
+<p>
+<s>( 3 ) Protsessiosalisele saadetakse kohtukutse , kui Riigikohtu halduskolleegium peab tema isiklikku osav&otilde;ttu kohtuistungist vajalikuks .</s><s>Kohtukutses n&auml;idatakse &auml;ra v&otilde;imalikud &otilde;iguslikud tagaj&auml;rjed , kui protsessiosaline kohtuistungile ei ilmu .</s>
+</p>
+<p>
+<s>( 4 ) Protsessiosalise puudumine kohtuistungilt ei takista asja l&auml;bivaatamist .</s>
+</p>
+<p>
+<s>&sect; 63.</s><s>Kassatsioonkaebusest loobumine</s>
+</p>
+<p>
+<s>( 1 ) Kassatsioonkaebuse esitajal on &otilde;igus kassatsioonkaebusest loobuda kuni asja l&auml;bivaatamise l&otilde;petamiseni kohtuistungil .</s><s>Kaebusest loobumise avaldus esitatakse Riigikohtule kirjalikult .</s>
+</p>
+<p>
+<s>( 2 ) Kaebusest loobumise avalduse alusel l&otilde;petab kohus m&auml;&auml;rusega kassatsioonimenetluse , kui teised protsessiosalised ei ole esitanud kassatsioonkaebust v&otilde;i kui teised kaebuse esitajad esitavad kaebusest loobumise avalduse .</s>
+</p>
+<p>
+<s>&sect; 64.</s><s>Asja l&auml;bivaatamise ulatus</s>
+</p>
+<p>
+<s>( 1 ) Riigikohus kontrollib kassatsioonkaebuse alusel , kas ringkonnakohus ja esimese astme kohus on j&auml;rginud kohtumenetluse seaduse s&auml;tteid ja &otilde;igesti kohaldanud seadust .</s>
+</p>
+<p>
+<s>( 2 ) Riigikohtu otsus p&otilde;hineb alama astme kohtu otsusega tuvastatud faktilistel asjaoludel .</s><s>Riigikohus ei tuvasta kaebuse aluseks olevaid faktilisi asjaolusid .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva seadustiku &sect;-s 45 nimetatud kohtumenetluse normide rikkumise korral ei ole Riigikohus seotud kaebuse piiridega ja otsus kuulub igal juhul t&uuml;histamisele .</s><s>Kui esimese astme kohus rikkus k&auml;esoleva seadustiku &sect; 45 l&otilde;ike 1 s&auml;tteid ja ringkonnakohus ei ole otsust t&uuml;histanud ega asja uueks l&auml;bivaatamiseks saatnud , t&uuml;histab Riigikohus alama astme kohtute otsused ja saadab asja l&auml;bivaatamiseks esimese astme kohtule .</s>
+</p>
+<p>
+<s>&sect; 65.</s><s>Asja l&auml;bivaatamine Riigikohtu halduskolleegiumi istungil</s>
+</p>
+<p>
+<s>( 1 ) Asja l&auml;bivaatamine kohtuistungil algab kohtuniku ettekandega asja kohta .</s>
+</p>
+<p>
+<s>( 2 ) Asja ettekandev kohtunik esitab vajalikus ulatuses ringkonnakohtu otsuse , kassatsioonkaebuse ja kaebusele esitatud vastuv&auml;idete sisu .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast ettekannet k&otilde;neleb kassatsioonkaebuse esitaja , seej&auml;rel vastustaja ja tema j&auml;rel teised protsessiosalised .</s><s>Kohus v&otilde;ib kohtuk&otilde;ne kestust piirata , tagades k&otilde;igile protsessiosalistele v&otilde;rdse k&otilde;neaja ja teatades sellest kohtuistungi alguses .</s>
+</p>
+<p>
+<s>( 4 ) Kohus v&otilde;ib protsessiosalisi k&uuml;sitleda .</s><s>Poolte vaidlusi Riigikohtu istungil ei toimu .</s>
+</p>
+<p>
+<s>&sect; 66.</s><s>Riigikohtu lahendi tegemine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast protsessiosaliste &auml;rakuulamist asub Riigikohus lahendit tegema .</s>
+</p>
+<p>
+<s>( 2 ) Istungi l&otilde;ppedes teatab kohus , millal ja kuidas kohtulahend teatavaks tehakse .</s><s>Kohtulahend tehakse avalikult teatavaks hiljemalt 30 p&auml;eva jooksul kohtuistungi l&otilde;ppemisest .</s><s>Kohtulahendi &auml;rakiri antakse protsessiosalistele halduskolleegiumi kantseleis v&otilde;i soovi korral saadetakse postiga viie p&auml;eva jooksul lahendi tegemisest .</s><s>Lahendi tegemise p&auml;evaks on selle allakirjutamise p&auml;ev .</s>
+</p>
+<p>
+<s>&sect; 67.</s><s>Asja halduskolleegiumi kogu koosseisule l&auml;bivaatamiseks andmine</s>
+</p>
+<p>
+<s>( 1 ) Riigikohtu halduskolleegiumi liikme p&otilde;hjendatud ettepanekul v&otilde;ib anda asja l&auml;bivaatamiseks halduskolleegiumi kogu koosseisule .</s>
+</p>
+<p>
+<s>( 2 ) Asi tuleb anda l&auml;bivaatamiseks Riigikohtu halduskolleegiumi kogu koosseisule , kui asja l&auml;bivaatava kohtu koosseisu enamus tahab muuta halduskolleegiumi senist seisukohta seaduse kohaldamisel .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 s&auml;testatud juhul tehakse m&auml;&auml;rus asja halduskolleegiumi kogu koosseisule l&auml;bivaatamiseks andmise kohta , mille &auml;rakiri saadetakse protsessiosalistele .</s><s>Protsessiosalistele teatatakse uue kohtuistungi toimumise aeg ja koht .</s>
+</p>
+<p>
+<s>&sect; 68.</s><s>Asja &uuml;leandmine erikogule</s>
+</p>
+<p>
+<s>( 1 ) Kui halduskolleegiumi kogu koosseisu enamus ei n&otilde;ustu asja arutamisel Riigikohtu m&otilde;ne teise kolleegiumi varasema seisukohaga seaduse kohaldamisel , annab halduskolleegium m&auml;&auml;rusega asja l&auml;bivaatamiseks kahe erineval seisukohal oleva kolleegiumi vahelisele erikogule .</s><s>Erikogusse valib kumbki kolleegium kaks riigikohtunikku .</s>
+</p>
+<p>
+<s>( 2 ) Kui halduskolleegiumi kogu koosseisu enamus ei n&otilde;ustu asja arutamisel Riigikohtu tsiviil- ja kriminaalkolleegiumi vahelise erikogu varasema seisukohaga seaduse kohaldamisel , annab halduskolleegium asja m&auml;&auml;rusega l&auml;bivaatamiseks kolme kolleegiumi vahelisele erikogule .</s><s>Erikogusse valib iga kolleegium kaks riigikohtunikku .</s>
+</p>
+<p>
+<s>( 3 ) Erikogu istungil on eesistujaks Riigikohtu esimees .</s><s>Asja ettekandja on halduskolleegiumi esimehe m&auml;&auml;ratud halduskolleegiumi liige .</s>
+</p>
+<p>
+<s>( 4 ) Erikogu istungi aeg ja koht tehakse teatavaks kassatsioonkaebuse esitajale ja teistele protsessiosalistele .</s>
+</p>
+<p>
+<s>&sect; 69.</s><s>Erikogu otsus</s>
+</p>
+<p>
+<s>( 1 ) Erikogu lahendab asja h&auml;&auml;lteenamusega ja otsusele kirjutavad alla erikogu koosseisu kuulunud riigikohtunikud .</s>
+</p>
+<p>
+<s>( 2 ) Erikogu otsus seaduse kohaldamisel on kohustuslik k&otilde;igile kohtukolleegiumidele , kuni erikogu v&otilde;i Riigikohtu &uuml;ldkogu ei ole teinud teistsugust otsust .</s>
+</p>
+<p>
+<s>&sect; 70.</s><s>Asja &uuml;leandmine &uuml;ldkogule</s>
+</p>
+<p>
+<s>( 1 ) Haldusasi antakse halduskolleegiumi m&auml;&auml;rusega lahendada Riigikohtu &uuml;ldkogule , kui :</s>
+</p>
+<p>
+<s>1 ) halduskolleegiumi kogu koosseisu enamus asub seisukohale , mis erineb Riigikohtu &uuml;ldkogu viimasest seisukohast seaduse kohaldamisel ;</s>
+</p>
+<p>
+<s>2 ) asja lahendamine &uuml;ldkogus on halduskolleegiumi kogu koosseisu enamuse arvates t&auml;htis seaduse &uuml;hetaolise kohaldamise seisukohalt .</s>
+</p>
+<p>
+<s>( 2 ) Asja &uuml;ldkogule &uuml;leandmine , samuti &uuml;ldkogu istungi aeg tehakse teatavaks kassatsioonkaebuse esitajale ja teistele protsessiosalistele .</s>
+</p>
+<p>
+<s>&sect; 71.</s><s>&Uuml;ldkogu otsuse kohustuslikkus</s>
+</p>
+<p>
+<s>&Uuml;ldkogu otsus seaduse t&otilde;lgendamisel ja kohaldamisel on kohustuslik Riigikohtu kolleegiumidele ja erikogudele , kuni &uuml;ldkogu ei ole teinud teistsugust otsust .</s>
+</p>
+<p>
+<s>&sect; 72.</s><s>Riigikohtu volitused kassatsioonimenetluses</s>
+</p>
+<p>
+<s>( 1 ) Riigikohtul on haldusasja kassatsiooni korras l&auml;bivaatamisel &otilde;igus :</s>
+</p>
+<p>
+<s>1 ) j&auml;tta kassatsioonkaebus rahuldamata ja ringkonnakohtu otsus v&otilde;i m&auml;&auml;rus muutmata ;</s>
+</p>
+<p>
+<s>2 ) t&uuml;histada ringkonnakohtu otsus t&auml;ies ulatuses v&otilde;i osaliselt ja saata asi t&uuml;histatud osas uueks l&auml;bivaatamiseks samale v&otilde;i teisele ringkonnakohtule ;</s>
+</p>
+<p>
+<s>3 ) t&uuml;histada ringkonnakohtu otsus v&otilde;i m&auml;&auml;rus ja j&auml;tta kaebus v&otilde;i protest l&auml;bi vaatamata v&otilde;i l&otilde;petada asja menetlus ;</s>
+</p>
+<p>
+<s>4 ) muuta ringkonnakohtu otsust v&otilde;i m&auml;&auml;rust v&otilde;i teha uus otsus v&otilde;i m&auml;&auml;rus asja uueks arutamiseks saatmata , kui asjas ei ole vaja t&auml;iendavaid t&otilde;endeid koguda v&otilde;i neile apellatsioonis antud hinnangut muuta ;</s>
+</p>
+<p>
+<s>5 ) t&uuml;histada ringkonnakohtu ja esimese astme kohtu otsus ja saata asi uueks l&auml;bivaatamiseks esimese astme kohtule ;</s>
+</p>
+<p>
+<s>6 ) t&uuml;histada ringkonnakohtu otsus v&otilde;i m&auml;&auml;rus ja j&auml;tta j&otilde;usse esimese astme kohtu otsus v&otilde;i m&auml;&auml;rus .</s>
+</p>
+<p>
+<s>( 2 ) Kassatsiooni korras kohtuotsuse t&uuml;histamise aluseks on materiaal&otilde;iguse normi eba&otilde;ige kohaldamine v&otilde;i kohtumenetluse normi oluline rikkumine .</s>
+</p>
+<p>
+<s>&sect; 73.</s><s>Riigikohtu lahend</s>
+</p>
+<p>
+<s>( 1 ) Riigikohtu lahend tehakse p&otilde;histatud otsuse , m&auml;&auml;ruse v&otilde;i resolutsioonina .</s>
+</p>
+<p>
+<s>( 2 ) Riigikohtu lahend j&otilde;ustub avalikult teatavakstegemise p&auml;evast ja selle peale ei saa edasi kaevata .</s>
+</p>
+<p>
+<s>( 3 ) Riigikohtu lahendid haldusasjades , v&auml;lja arvatud resolutsioonid , avaldatakse Riigi Teatajas .</s>
+</p>
+<p>
+<s>&sect; 74.</s><s>Riigikohtu seisukohtade kohustuslikkus</s>
+</p>
+<p>
+<s>Riigikohtu lahendi seisukohad seaduse t&otilde;lgendamisel ja kohaldamisel on asja uuesti l&auml;bivaatavale kohtule kohustuslikud .</s>
+</p>
+<p>
+<s>8. peat&uuml;kk</s>
+</p>
+<p>
+<s>Teistmine</s>
+</p>
+<p>
+<s>&sect; 75.</s><s>Teistmise alused</s>
+</p>
+<p>
+<s>( 1 ) J&otilde;ustunud kohtuotsuseid ja -m&auml;&auml;rusi v&otilde;ib protsessiosalise avalduse alusel uute asjaolude ilmsikstulekul uuesti l&auml;bi vaadata ( teistmine ) .</s>
+</p>
+<p>
+<s>( 2 ) Teistmise alused on :</s>
+</p>
+<p>
+<s>1 ) olulised asjaolud , mis kohtulahendi tegemise ajal olid olemas , kuid ei olnud ega v&otilde;inud olla avaldajale teada ;</s>
+</p>
+<p>
+<s>2 ) j&otilde;ustunud kohtuotsus kriminaalasjas , millega on kindlaks tehtud tunnistaja teadvalt vale &uuml;tlus , eksperdi teadvalt vale arvamus , teadvalt vale t&otilde;lge , samuti dokumentide v&otilde;i asit&otilde;endite v&otilde;ltsitus ;</s>
+</p>
+<p>
+<s>3 ) j&otilde;ustunud kohtuotsus kriminaalasjas , millega on kindlaks tehtud , et asja l&auml;bivaatamisel on pool v&otilde;i teine protsessiosaline v&otilde;i nende esindaja v&otilde;i kohtunik toime pannud kuriteo ;</s>
+</p>
+<p>
+<s>4 ) kohtulahendi t&uuml;histamine , mis oli aluseks sellele kohtulahendile , mille teistmist n&otilde;utakse .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;ikes 2 nimetatud asjaolud ei ole teistmise aluseks , kui need ei m&otilde;jutanud kohtulahendi tegemist protsessiosalise kasuks v&otilde;i kahjuks .</s>
+</p>
+<p>
+<s>&sect; 76.</s><s>Teistmisavalduse esitamine</s>
+</p>
+<p>
+<s>( 1 ) Teistmisavaldus esitatakse Riigikohtule .</s>
+</p>
+<p>
+<s>( 2 ) Teistmisavalduse esitamisel tuleb tasuda k&auml;esoleva seadustiku &sect; 90 l&otilde;ikes 1 nimetatud kautsjon .</s>
+</p>
+<p>
+<s>( 3 ) Teistmisavalduse esitamise t&auml;htaeg on kolm kuud p&auml;evast , millal teistmisavalduse esitaja sai v&otilde;i pidi teada saama uutest asjaoludest .</s>
+</p>
+<p>
+<s>( 4 ) Teistmisavalduse v&otilde;ib tagastada l&auml;bivaatamatult , kui kohtulahendi tegemisest , mille teistmist taotletakse , on m&ouml;&ouml;dunud &uuml;le k&uuml;mne aasta .</s>
+</p>
+<p>
+<s>&sect; 77.</s><s>Teistmisavaldus</s>
+</p>
+<p>
+<s>( 1 ) Teistmisavaldus esitatakse kirjalikult ja selles m&auml;rgitakse :</s>
+</p>
+<p>
+<s>1 ) adressaadina Riigikohus ;</s>
+</p>
+<p>
+<s>2 ) avalduse esitaja ja protsessiosaliste nimed ning aadressid , samuti nende sidevahendite numbrid ;</s>
+</p>
+<p>
+<s>3 ) kohtulahend , mille teistmist taotletakse , samuti haldusasja number ;</s>
+</p>
+<p>
+<s>4 ) avalduse p&otilde;hjendus ja teistmise &otilde;iguslik alus ;</s>
+</p>
+<p>
+<s>5 ) avaldusele lisatud dokumentide loetelu .</s>
+</p>
+<p>
+<s>( 2 ) Avaldusele lisatakse t&otilde;estatud &auml;rakiri kohtulahendist , mille teistmist n&otilde;utakse , ja teised teistmisavalduse aluseks olevad dokumendid v&otilde;i nende t&otilde;estatud &auml;rakirjad ning kautsjoni tasumist t&otilde;endav dokument .</s>
+</p>
+<p>
+<s>( 3 ) Avaldusele kirjutab alla avaldaja v&otilde;i tema esindaja .</s><s>Kui avalduse teeb esindaja , lisatakse volikiri v&otilde;i esindaja volitusi t&otilde;endav muu dokument .</s><s>Teistes riikides t&otilde;estatud volikiri v&otilde;i esindaja volitust t&otilde;endav muu dokument peab olema kehtivas korras legaliseeritud .</s>
+</p>
+<p>
+<s>( 4 ) Teistmisavaldus koos &auml;rakirjadega esitatakse vastavalt protsessiosaliste arvule .</s>
+</p>
+<p>
+<s>&sect; 78.</s><s>Teistmisavalduse l&auml;bivaatamise ettevalmistamine</s>
+</p>
+<p>
+<s>( 1 ) P&auml;rast teistmisavalduse saamist Riigikohtu loakogu kontrollib selle vastavust k&auml;esoleva seadustiku &sect;-le 77.</s>
+</p>
+<p>
+<s>( 2 ) Loakogu tagastab teistmise avalduse l&auml;bi vaatamata , kui avaldus on esitatud oluliste puudustega v&otilde;i kautsjon on tasumata .</s>
+</p>
+<p>
+<s>( 3 ) Loakogu v&otilde;ib teistmisavalduse esitajale anda puuduste k&otilde;rvaldamiseks t&auml;htaja .</s><s>Kui teistmisavalduse esitaja ei k&otilde;rvalda puudusi m&auml;&auml;ratud t&auml;htajaks , tagastab loakogu teistmisavalduse seda l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 4 ) Teistmisavalduse lahendamiseks n&otilde;uab loakogu alama astme kohtult haldusasja toimikuid .</s>
+</p>
+<p>
+<s>( 5 ) Vastuv&otilde;etud teistmisavalduse &auml;rakirja saadab loakogu protsessiosalistele ja n&otilde;uab m&auml;&auml;ratud t&auml;htp&auml;evaks kirjalikku vastust .</s>
+</p>
+<p>
+<s>( 6 ) Vastusele kirjutab alla vastaja v&otilde;i tema esindaja .</s><s>Kui vastusele kirjutab alla esindaja , lisatakse volikiri v&otilde;i esindaja volitusi t&otilde;endav muu dokument .</s><s>Teistes riikides v&auml;ljaantud volikiri v&otilde;i esindaja volitusi t&otilde;endav muu dokument peab olema kehtivas korras legaliseeritud , kui v&auml;lislepingust ei tulene teisiti .</s>
+</p>
+<p>
+<s>&sect; 79.</s><s>Menetlusloa andmine</s>
+</p>
+<p>
+<s>Loakogu annab teistmiseks menetlusloa k&auml;esoleva seadustiku &sect; 75 l&otilde;ikes 2 s&auml;testatud alustel ja &sect; 60 l&otilde;igetes 3-6 s&auml;testatud korras .</s>
+</p>
+<p>
+<s>&sect; 80.</s><s>Teistmisavalduse lahendamine</s>
+</p>
+<p>
+<s>( 1 ) Menetlusloa saanud teistmisavalduse vaatab Riigikohtu halduskolleegium l&auml;bi kahe kuu jooksul menetlusloa andmisest .</s><s>Protsessiosalistele teatatakse teistmisavalduse l&auml;bivaatamise aeg ja koht , kuid nende puudumine ei takista asja l&auml;bivaatamist .</s><s>Vajaduse korral peatab halduskolleegium m&auml;&auml;rusega kohtuotsuse t&auml;itmise .</s>
+</p>
+<p>
+<s>( 2 ) Kui Riigikohus leiab , et teistmisavaldus on p&otilde;hjendatud , t&uuml;histab ta kohtulahendi ja saadab asja uueks l&auml;bivaatamiseks sellesse alama astme kohtusse , kus see kohtulahend oli tehtud .</s><s>Kui asjaolud on selged , muudab Riigikohus alama astme kohtu lahendi v&otilde;i t&uuml;histab selle ja teeb uue otsuse v&otilde;i m&auml;&auml;ruse .</s>
+</p>
+<p>
+<s>( 3 ) Protsessiosalistele antakse kohtulahendi &auml;rakiri k&auml;tte halduskolleegiumi kantseleis v&otilde;i saadetakse posti teel viie p&auml;eva jooksul lahendi tegemisest .</s>
+</p>
+<p>
+<s>( 4 ) Teistmisavalduse esitajal on &otilde;igus teistmisavaldusest loobuda kuni asja l&auml;bivaatamise l&otilde;ppemiseni kohtuistungil .</s><s>Teistmisavaldusest loobumise korral l&otilde;petab kohus m&auml;&auml;rusega menetluse .</s>
+</p>
+<p>
+<s>( 5 ) Teistmisavalduse rahuldamata j&auml;tmise v&otilde;i teistmisavaldusest loobumise korral v&otilde;ivad teised protsessiosalised n&otilde;uda , et teistmisavalduse esitaja h&uuml;vitaks nende poolt kantud kohtukulud .</s>
+</p>
+<p>
+<s>9. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohtuvigade parandamine</s>
+</p>
+<p>
+<s>&sect; 81.</s><s>Kohtuvigade parandamise avalduse esitamise alused</s>
+</p>
+<p>
+<s>( 1 ) J&otilde;ustunud kohtuotsuses v&otilde;i -m&auml;&auml;ruses kohtuvea parandamist v&otilde;ib n&otilde;uda :</s>
+</p>
+<p>
+<s>1 ) isik , keda seaduse n&otilde;uete kohaselt kohtusse ei kutsutud , kuid kelle suhtes tehti kohtuotsus ;</s>
+</p>
+<p>
+<s>2 ) isik , kelle &otilde;iguste ja kohustuste &uuml;le kohus otsustas , kuid keda asja ei kaasatud .</s>
+</p>
+<p>
+<s>&sect; 82.</s><s>Menetlusnormide kohaldamine</s>
+</p>
+<p>
+<s>( 1 ) Kohtuvea parandamiseks tuleb tasuda k&auml;esoleva seadustiku &sect;-s 90 l&otilde;ikes 1 s&auml;testatud kautsjon .</s>
+</p>
+<p>
+<s>( 2 ) Kohtuvigade parandamise menetluses kohaldatakse kassatsioonimenetluse norme , arvestades kohtuvigade parandamise menetluse erisusi .</s>
+</p>
+<p>
+<s>10. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohtukulud</s>
+</p>
+<p>
+<s>&sect; 83.</s><s>Kohtukulude liigid</s>
+</p>
+<p>
+<s>Kohtukulud on :</s>
+</p>
+<p>
+<s>1 ) riigil&otilde;iv ;</s>
+</p>
+<p>
+<s>2 ) asja l&auml;bivaatamise kulud ;</s>
+</p>
+<p>
+<s>3 ) kautsjon .</s>
+</p>
+<p>
+<s>&sect; 84.</s><s>Riigil&otilde;ivu tasumine ja tagastamine</s>
+</p>
+<p>
+<s>( 1 ) Kaebuse esitamisel halduskohtusse , samuti apellatsioonkaebuse esitamisel tasutakse riigil&otilde;iv vastavalt seadusele .</s>
+</p>
+<p>
+<s>( 2 ) Riigil&otilde;ivu tasunud isiku n&otilde;udel tagastatakse rohkem tasutud riigil&otilde;iv .</s>
+</p>
+<p>
+<s>( 3 ) Kaebuselt v&otilde;i apellatsioonkaebuselt tasutud riigil&otilde;iv tagastatakse , kui kaebus j&auml;etakse l&auml;bi vaatamata , kuna :</s>
+</p>
+<p>
+<s>1 ) kaebus ei kuulu lahendamisele halduskohtus ( &sect; 11 l&otilde;ige 4 ) ;</s>
+</p>
+<p>
+<s>2 ) apellatsioonkaebuse esitamise t&auml;htaeg on m&otilde;juva p&otilde;hjuseta m&ouml;&ouml;da lastud ( &sect; 32 l&otilde;ige 4 ) .</s>
+</p>
+<p>
+<s>( 4 ) Riigil&otilde;iv tagastatakse asja menetluse l&otilde;petamisel , kui :</s>
+</p>
+<p>
+<s>1 ) kaebuse esitamise t&auml;htaeg on m&otilde;juva p&otilde;hjuseta m&ouml;&ouml;da lastud ( &sect; 12 l&otilde;ige 3 ) ;</s>
+</p>
+<p>
+<s>2 ) asi ei kuulu halduskohtu p&auml;devusse ( &sect; 24 l&otilde;ige 1 punkt 1 ) ;</s>
+</p>
+<p>
+<s>3 ) kaevatav haldusakt on kehtetuks tunnistatud , v&auml;lja andmata j&auml;etud haldusakt on v&auml;lja antud , peatatud haldusakt on t&auml;idetud toiming sooritatud ( &sect; 24 l&otilde;ige 1 punkt 3 ) ;</s>
+</p>
+<p>
+<s>4 ) Riigikohtu erikogu leiab vastavalt kohtute seaduse &sect; 28 <hi rend="sup">1</hi> l&otilde;ikele 7 , et isikul puudub antud asjas &otilde;igus kohtusse p&ouml;&ouml;rduda .</s>
+</p>
+<p>
+<s>( 5 ) K&auml;esoleva seadustiku &sect; 11 l&otilde;ikes 5 ja &sect; 24 l&otilde;ikes 4 t&auml;hendatud juhul riigil&otilde;ivu ei tagastata .</s>
+</p>
+<p>
+<s>( 6 ) Riigil&otilde;iv tagastatakse kohtum&auml;&auml;ruse alusel .</s>
+</p>
+<p>
+<s>&sect; 85.</s><s>Asja l&auml;bivaatamise kulud</s>
+</p>
+<p>
+<s>Asja l&auml;bivaatamise kulud on :</s>
+</p>
+<p>
+<s>1 ) eksperdi- , t&otilde;lgi- ja tunnistajatasu ;</s>
+</p>
+<p>
+<s>2 ) dokumentaalse t&otilde;endi saamise , asit&otilde;endi vaatluse ja paikvaatluse tegemise kulud ;</s>
+</p>
+<p>
+<s>3 ) &otilde;igusabikulud ;</s>
+</p>
+<p>
+<s>4 ) postikulud ja kutsete k&auml;ttetoimetamise kulud ;</s>
+</p>
+<p>
+<s>5 ) ajalehes kutse v&otilde;i teate avaldamise kulud ;</s>
+</p>
+<p>
+<s>6 ) protsessiosalise t&ouml;&ouml;lt puudumise t&otilde;ttu saamata j&auml;&auml;nud palk , s&otilde;idukulud , korteri- ja p&auml;evaraha .</s>
+</p>
+<p>
+<s>&sect; 86.</s><s>Eksperdi- , t&otilde;lgi- ja tunnistajatasu</s>
+</p>
+<p>
+<s>( 1 ) Eksperdil ja t&otilde;lgil on &otilde;igus saada tasu kohtu &uuml;lesandel tehtud t&ouml;&ouml; eest .</s><s>T&otilde;lgitasu ei maksta , kui isik t&ouml;&ouml;tab samas kohtus t&otilde;lgina .</s>
+</p>
+<p>
+<s>( 2 ) Tunnistajal on &otilde;igus saada kohtuistungil viibimise aja eest keskmist t&ouml;&ouml;tasu .</s><s>Kui tunnistaja ei esita t&otilde;endit oma keskmise t&ouml;&ouml;tasu kohta , makstakse talle h&uuml;vitist kuupalga alamm&auml;&auml;rast l&auml;htudes .</s>
+</p>
+<p>
+<s>( 3 ) Kui ekspert , t&otilde;lk v&otilde;i tunnistaja viibib kohtuistungil v&auml;ljaspool oma elukohta , h&uuml;vitatakse talle s&otilde;idu- , korteri- ja p&auml;evaraha Vabariigi Valitsuse kehtestatud suuruses .</s>
+</p>
+<p>
+<s>&sect; 87.</s><s>&Otilde;igusabikulud</s>
+</p>
+<p>
+<s>( 1 ) &Otilde;igusabikulud on asjast esindajana osa v&otilde;tnud advokaadi v&otilde;i teise &otilde;igusabi osutanud isiku kulud .</s>
+</p>
+<p>
+<s>( 2 ) Kohus v&otilde;ib asjast esindajana osa v&otilde;tnud advokaadi v&otilde;i teise &otilde;igusabi osutanud isiku kulusid v&auml;hendada , kui need on p&otilde;hjendamatult suured .</s>
+</p>
+<p>
+<s>&sect; 88.</s><s>Asja l&auml;bivaatamise kulude ettetasumine</s>
+</p>
+<p>
+<s>( 1 ) Tunnistaja- ja eksperditasu , samuti paikvaatluse tegemise kulud tasub ette see protsessiosaline , kes esitas taotluse , millega kulud kaasnevad .</s><s>Kui taotluse on esitanud m&otilde;lemad pooled v&otilde;i kui tunnistajad ja eksperdid kutsutakse v&auml;lja v&otilde;i paikvaatlus tehakse kohtu algatusel , tasuvad pooled kulud ette v&otilde;rdselt .</s>
+</p>
+<p>
+<s>( 2 ) Ajalehes kutse avaldamise kulud tasub ette kaebuse v&otilde;i avalduse esitaja .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi l&otilde;igetes 1 ja 2 nimetatud kulude katteks makstakse raha esimese astme v&otilde;i ringkonnakohtu arvele .</s>
+</p>
+<p>
+<s>&sect; 89.</s><s>Tunnistajale , eksperdile ja t&otilde;lgile raha v&auml;ljamaksmine</s>
+</p>
+<p>
+<s>( 1 ) Tunnistajale , eksperdile ja t&otilde;lgile maksab p&auml;rast nende kohustuste t&auml;itmist tasu v&auml;lja kohus , s&otilde;ltumata sellest , kas protsessiosalised on kulud ette tasunud v&otilde;i kas need on sisse n&otilde;utud .</s>
+</p>
+<p>
+<s>( 2 ) Tunnistajale , eksperdile ja t&otilde;lgile raha v&auml;ljamaksmise korra kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 90.</s><s>Kautsjoni tasumine ja tagastamine</s>
+</p>
+<p>
+<s>( 1 ) Kassatsioonkaebuse v&otilde;i erikaebuse v&otilde;i teistmis- v&otilde;i kohtuvea parandamise avalduse esitamisel tasutakse kautsjon Riigikohtu arvele pooles suuruses kuupalga alamm&auml;&auml;rast .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse v&otilde;i avalduse osalise v&otilde;i t&auml;ieliku rahuldamise korral tagastatakse kautsjon Riigikohtu otsuse v&otilde;i m&auml;&auml;ruse alusel .</s><s>Kaebuse v&otilde;i avalduse rahuldamata j&auml;tmise korral arvatakse kautsjon riigituludesse .</s><s>Riigituludesse arvatakse kautsjon ka siis , kui kassatsioonkaebus v&otilde;i erikaebus v&otilde;i teistmis- v&otilde;i kohtuvea parandamise avaldus ei saanud menetlusluba .</s>
+</p>
+<p>
+<s>( 3 ) Kautsjoni tasunud isiku n&otilde;udel tagastatakse rohkem tasutud kautsjon .</s>
+</p>
+<p>
+<s>&sect; 91.</s><s>Riigil&otilde;ivu ja kautsjoni tasumisest vabastamine</s>
+</p>
+<p>
+<s>( 1 ) Isiku taotlusel v&otilde;ib kohus m&auml;&auml;rusega vabastada isiku t&auml;ielikult v&otilde;i osaliselt riigil&otilde;ivu tasumisest riigituludesse , kui kohus leiab , et isik on maksuj&otilde;uetu .</s><s>&Auml;ri&uuml;hingu ja mittetulundus&uuml;hingu maksuj&otilde;uetust t&otilde;endab pankrotiotsus v&otilde;i kohtum&auml;&auml;rus , millega pankrotimenetlus on l&otilde;petatud raugemise t&otilde;ttu , kui v&otilde;lgnikul ei j&auml;tku vara pankrotikulude katteks .</s><s>Riigil&otilde;ivu tasumisest vabastamine esimese astme kohtus ei vabasta riigil&otilde;ivu tasumisest esimese astme kohtulahendile esitatud apellatsioonkaebuselt .</s><s>Taotlus riigil&otilde;ivu tasumisest vabastamiseks apellatsioonkaebuselt esitatakse halduskohtule koos apellatsioonkaebusega .</s>
+</p>
+<p>
+<s>( 2 ) Taotlus kautsjoni tasumisest vabastamiseks esitatakse ringkonnakohtule koos kassatsioonkaebusega .</s>
+</p>
+<p>
+<s>( 3 ) Kohtum&auml;&auml;rusele , millega kohus ei vabastanud isikut riigil&otilde;ivu v&otilde;i kautsjoni tasumisest , saab esitada erikaebuse .</s>
+</p>
+<p>
+<s>( 4 ) Seadusega s&auml;testatud juhtudel ei pea isik riigil&otilde;ivu tasuma .</s>
+</p>
+<p>
+<s>&sect; 92.</s><s>Kohtukulude kandmine</s>
+</p>
+<p>
+<s>( 1 ) Pool , kelle kahjuks kohtuotsus tehti , kannab kohtukulud .</s>
+</p>
+<p>
+<s>( 2 ) Kolmas isik kannab kohtukuludena ekspertiisi v&otilde;i paikvaatluse teostamise v&otilde;i tunnistaja kutsumisega seotud kulud , kui ta on kohtult taotlenud nimetatud protsessitoimingute teostamist .</s>
+</p>
+<p>
+<s>&sect; 93.</s><s>Kohtukulude jagamine</s>
+</p>
+<p>
+<s>( 1 ) Poolele , kelle kasuks kohtulahend tehti , m&otilde;istetakse v&auml;lja tema poolt kantud kohtukulud .</s>
+</p>
+<p>
+<s>( 2 ) Kaebuse esitaja kasuks m&otilde;istetakse v&auml;lja tema poolt kantud kohtukulud , kui kohus l&otilde;petab menetluse k&auml;esoleva seadustiku &sect; 24 l&otilde;ike 1 punktis 3 s&auml;testatud alusel .</s>
+</p>
+<p>
+<s>( 3 ) Kaebuse osalise rahuldamise korral , samuti halduslepingust tuleneva vaidluse lahendamisel jagatakse kohtukulud proportsionaalselt kaebuse rahuldamisega .</s>
+</p>
+<p>
+<s>( 4 ) Kaebuse esitaja , kes loobub kaebusest , kannab kohtukulud .</s><s>Kui protsessiosalised ei ole kokkulepet s&otilde;lmides kohtukulude jagamises kokku leppinud , j&auml;&auml;vad kohtukulud protsessiosaliste kanda .</s>
+</p>
+<p>
+<s>( 5 ) Kui protsessiosaline kuritarvitab oma protsessuaalseid &otilde;igusi , j&auml;ttes m&otilde;juva p&otilde;hjuseta kohtuistungile ilmumata v&otilde;i muul viisil venitab pahatahtlikult protsessi , v&otilde;ib kohus m&otilde;ista temalt v&auml;lja osa teiste protsessiosaliste poolt kantud kohtukuludest .</s>
+</p>
+<p>
+<s>( 6 ) Kui k&otilde;rgema astme kohus muudab alamalseisva kohtu lahendi v&otilde;i teeb lahendi asja uueks arutamiseks saatmata , muudab ta kohtukulude jaotust , l&auml;htudes k&auml;esoleva paragrahvi l&otilde;igetest 1 , 2 ja 3.</s>
+</p>
+<p>
+<s>( 7 ) Kohtukulude v&auml;ljam&otilde;istmiseks esitatakse kohtule enne kohtuvaidlusi kohtukulude nimekiri ja kuludokumendid .</s><s>Nende esitamata j&auml;tmisel kohtukulusid v&auml;lja ei m&otilde;isteta .</s>
+</p>
+<p>
+<s>&sect; 94.</s><s>Tasuta &otilde;igusabi andmine</s>
+</p>
+<p>
+<s>Kohtul on &otilde;igus vabastada maksuj&otilde;uetu f&uuml;&uuml;siline isik t&auml;ielikult v&otilde;i osaliselt &otilde;igusabi eest tasumisest ja kanda &otilde;igusabikulud riigi arvele seadusega s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>&sect; 95.</s><s>Riigil&otilde;ivu ja &otilde;igusabikulude h&uuml;vitamine</s>
+</p>
+<p>
+<s>( 1 ) Kui kaebuse esitaja oli riigil&otilde;ivu tasumisest vabastatud , m&otilde;istab kohus kaebuse rahuldamise korral teiselt poolelt tasumisele kuulunud riigil&otilde;ivu riigituludesse .</s>
+</p>
+<p>
+<s>( 2 ) Kui kaebuse esitaja oli &otilde;igusabi eest tasumisest vabastatud , m&otilde;istab kohus kaebuse rahuldamise korral vastavalt asutuselt , ametnikult v&otilde;i avalik-&otilde;iguslikke haldus&uuml;lesandeid t&auml;itvalt muult isikult tasumisele kuulunud &otilde;igusabikulud riigituludesse .</s>
+</p>
+<p>
+<s>11. peat&uuml;kk</s>
+</p>
+<p>
+<s>Kohtulahendi j&otilde;ustumine ja t&auml;itmine</s>
+</p>
+<p>
+<s>&sect; 96.</s><s>Kohtulahendi j&otilde;ustumine</s>
+</p>
+<p>
+<s>( 1 ) Esimese astme kohtu lahend j&otilde;ustub p&auml;rast apellatsioon- v&otilde;i erikaebuse esitamise t&auml;htaja m&ouml;&ouml;dumist .</s>
+</p>
+<p>
+<s>( 2 ) Kui apellant loobub kaebusest v&otilde;i kui ringkonnakohus j&auml;tab apellatsioonkaebuse l&auml;bi vaatamata k&auml;esoleva seadustiku &sect; 35 l&otilde;ikes 2 nimetatud alusel , j&otilde;ustub esimese astme kohtu lahend p&auml;evast , millal ringkonnakohus l&otilde;petas m&auml;&auml;rusega apellatsioonimenetluse kaebusest loobumise t&otilde;ttu v&otilde;i j&auml;ttis kaebuse l&auml;bi vaatamata .</s>
+</p>
+<p>
+<s>( 3 ) Apellatsioonit&auml;htaja ennistamise v&otilde;i apellatsioonimenetluse uuendamise korral loetakse , et esimese astme kohtu lahend ei ole j&otilde;ustunud .</s>
+</p>
+<p>
+<s>( 4 ) Ringkonnakohtu otsus v&otilde;i m&auml;&auml;rus j&otilde;ustub otsuse v&otilde;i m&auml;&auml;ruse kuulutamise v&otilde;i avalikult teatavakstegemise p&auml;evast .</s>
+</p>
+<p>
+<s>( 5 ) Kui ringkonnakohtu otsuse v&otilde;i m&auml;&auml;rusega j&auml;eti esimese astme kohtu otsus v&otilde;i m&auml;&auml;rus muutmata , j&otilde;ustub esimese astme kohtu otsus v&otilde;i m&auml;&auml;rus ringkonnakohtu otsuse v&otilde;i m&auml;&auml;ruse j&otilde;ustumise p&auml;evast .</s>
+</p>
+<p>
+<s>( 6 ) Riigikohtu otsus v&otilde;i m&auml;&auml;rus j&otilde;ustub otsuse v&otilde;i m&auml;&auml;ruse avalikult teatavakstegemise p&auml;evast .</s>
+</p>
+<p>
+<s>( 7 ) P&auml;rast esimese astme kohtu otsuse v&otilde;i m&auml;&auml;ruse j&otilde;ustumist teeb lahendi teinud esimese astme kohus otsusele v&otilde;i m&auml;&auml;rusele m&auml;rke j&otilde;ustumise kohta .</s>
+</p>
+<p>
+<s>&sect; 97.</s><s>Kohtulahendi j&otilde;ustumise tagaj&auml;rjed</s>
+</p>
+<p>
+<s>( 1 ) J&otilde;ustunud kohtulahend on t&auml;itmiseks kohustuslik protsessiosalistele ja nende &otilde;igusj&auml;rglastele .</s>
+</p>
+<p>
+<s>( 2 ) Asjaolusid , mis &uuml;hes haldusasjas on tuvastatud j&otilde;ustunud kohtuotsusega , ei v&otilde;i vaidlustada teises haldusasjas , millest v&otilde;tavad osa samad protsessiosalised .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;rast otsuse v&otilde;i m&auml;&auml;ruse j&otilde;ustumist ei v&otilde;i protsessiosalised ega nende &otilde;igusj&auml;rglased esitada kohtusse sama n&otilde;uet samal alusel .</s>
+</p>
+<p>
+<s>&sect; 98.</s><s>Kohtulahendi t&auml;itmine</s>
+</p>
+<p>
+<s>( 1 ) Kohtulahend t&auml;idetakse p&auml;rast j&otilde;ustumist .</s><s>Kohus v&otilde;ib kohtuotsuse t&auml;itmiseks m&auml;&auml;rata t&auml;htaja , mis hakkab kulgema kohtuotsuse j&otilde;ustumisel .</s><s>Kohtuotsus t&auml;idetakse viivitamata seaduses s&auml;testatud juhtudel v&otilde;i kui kohus ise on seaduses s&auml;testatud juhtudel otsuse p&ouml;&ouml;ranud viivitamata t&auml;itmisele .</s>
+</p>
+<p>
+<s>( 2 ) Kohus peatab m&auml;&auml;rusega lahendi t&auml;itmise , kui ta ennistab apellatsioonit&auml;htaja .</s><s>Kohus ei saa peatada kohtuotsuse t&auml;itmist , kui kohtuotsus kuulub viivitamata t&auml;itmisele .</s>
+</p>
+<p>
+<s>( 3 ) Kohtuotsuse ettekirjutuse t&auml;itmata j&auml;tmise eest m&auml;&auml;rab kohus s&uuml;&uuml;diolevale protsessiosalisele rahatrahvi kuni 100 000 krooni .</s>
+</p>
+<p>
+<s>( 15.12.1999 j&otilde;ust.01.01.2000 - RT I 1999 , 96 , 846 )</s>
+</p>
+<p>
+<s>( 4 ) Riigikohtu v&otilde;i ringkonnakohtu otsuse t&auml;itmata j&auml;tmise eest m&auml;&auml;rab rahatrahvi esimese astme kohus .</s>
+</p>
+<p>
+<s>&sect; 99.</s><s>Kohtulahendi viivitamata t&auml;itmine</s>
+</p>
+<p>
+<s>( 1 ) Viivitamata t&auml;idetakse otsus :</s>
+</p>
+<p>
+<s>1 ) palga v&auml;ljam&otilde;istmises , kuid mitte rohkem kui kahe kuu eest ;</s>
+</p>
+<p>
+<s>2 ) ametniku teenistusse ennistamises ;</s>
+</p>
+<p>
+<s>3 ) muudel seadusega s&auml;testatud juhtudel .</s>
+</p>
+<p>
+<s>( 2 ) Protsessiosalise taotluse alusel v&otilde;ib kohus p&ouml;&ouml;rata viivitamata t&auml;itmisele :</s>
+</p>
+<p>
+<s>1 ) avaliku teenistuse seaduse ( RT I 1995 , 16 , 228 ; 1999 , 7 , 112 ; 10 , 155 ; 16 , 271 ; 276 ; 2000 , 25 , 144 ; 145 ; 28 , 167 ; 102 , 672 ; 2001 , 7 , 17 ; 18 ; 17 , 78 ; 24 , 133 ; 42 , 233 ; 47 , 260 ) &sect;-st 56 tulenevas n&otilde;udes tehtud otsuse ;</s>
+</p>
+<p>
+<s>2 ) otsuse , mille t&auml;itmisega viivitamine v&otilde;ib tekitada olulist kahju isikule , kelle kasuks kohtuotsus tehti .</s>
+</p>
+<p>
+<s>( 3 ) Kui viivitamata t&auml;itmist ei lahendatud kohtuotsuses , vaadatakse protsessiosalise taotlus otsuse viivitamata t&auml;itmiseks l&auml;bi kohtuistungil ja lahendatakse kohtum&auml;&auml;rusega .</s><s>Protsessiosalistele teatatakse kohtuistungi aeg ja koht , kuid nende puudumine ei takista asja l&auml;bivaatamist .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi l&otilde;ikes 3 nimetatud kohtum&auml;&auml;ruse peale v&otilde;ib esitada erikaebuse .</s>
+</p>
+<p>
+<s>12. peat&uuml;kk</s>
+</p>
+<p>
+<s>Vastutus kohtu korralduse t&auml;itmata j&auml;tmise eest</s>
+</p>
+<p>
+<s>&sect; 100.</s><s>Protsessiosalise , tunnistaja ja kohtusaalis viibija vastutus</s>
+</p>
+<p>
+<s>( 1 ) Halduskohus v&otilde;ib m&auml;&auml;rata rahatrahvi protsessiosalisele , tunnistajale v&otilde;i kohtusaalis viibijale :</s>
+</p>
+<p>
+<s>1 ) protsessi&otilde;iguste kuritarvitamise v&otilde;i kohtu eksitusse viimise v&otilde;i protsessi pahatahtliku venitamise , sealhulgas m&otilde;juva p&otilde;hjuseta kohtusse ilmumata j&auml;tmise eest , kui see tingis asja arutamise edasil&uuml;kkamise ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seadustiku &sect; 12 l&otilde;ikes 6 ja &sect; 33 l&otilde;ike 1 punktis 3 s&auml;testatud kohustuse ja muude kohtu n&otilde;udmiste t&auml;itmata j&auml;tmise eest ;</s>
+</p>
+<p>
+<s>3 ) tunnistaja m&otilde;juva p&otilde;hjuseta kohtukutse peale ilmumata j&auml;tmise eest ;</s>
+</p>
+<p>
+<s>4 ) kohtuistungi ajal eesistuja korraldusele mitteallumise v&otilde;i kohtuistungi segamise v&otilde;i kohtu v&otilde;i kohtuniku suhtes ilmse lugupidamatuse avaldamise eest .</s>
+</p>
+<p>
+<s>( 2 ) Halduskohus m&auml;&auml;rab trahvi k&auml;esoleva paragrahvi l&otilde;ikes 1 s&auml;testatud juhtudel kindlas summas .</s><s>Kohtu poolt m&auml;&auml;ratav trahv ei v&otilde;i olla v&auml;iksem kui &uuml;ks neljandik Vabariigi Valitsuse kehtestatud kuupalga alamm&auml;&auml;rast ega suurem kui kuue kuupalga alamm&auml;&auml;r .</s>
+</p>
+<p>
+<s>( 3 ) Kui trahvim&auml;&auml;rusele vaatamata j&auml;i kohtu n&otilde;udmine trahvitu s&uuml;&uuml;l t&auml;itmata , v&otilde;ib samale isikule m&auml;&auml;rata kuni 12 kuupalga alamm&auml;&auml;ra suuruse uue trahvi .</s><s>Kui trahvitu ka siis kohtu n&otilde;udmist ei t&auml;ida , v&otilde;ib kohus kuni 12 kuupalga alamm&auml;&auml;ra suuruses uuesti trahvi m&auml;&auml;rata .</s>
+</p>
+<p>
+<s>( 4 ) Enne trahvi m&auml;&auml;ramist teeb kohus isikule trahvihoiatuse .</s>
+</p>
+<p>
+<s>( 5 ) Trahvi suurust m&auml;&auml;rates arvestab kohus isiku varalist seisundit ja muid asjaolusid .</s>
+</p>
+<p>
+<s>( 6 ) Trahvitule v&otilde;i tema esindajale saadetakse viivitamata trahvim&auml;&auml;ruse &auml;rakiri , kui kumbki neist ei viibinud trahvi m&auml;&auml;ramise juures .</s>
+</p>
+<p>
+<s>( 7 ) Trahvist vabastamine v&otilde;i trahvisumma v&auml;hendamine toimub tsiviilkohtumenetluses s&auml;testatud alustel ja korras .</s>
+</p>
+<p>
+<s>13. peat&uuml;kk</s>
+</p>
+<p>
+<s>Rakenduss&auml;tted</s>
+</p>
+<p>
+<s>&sect; 101.</s><s>Seadustiku kohaldamine</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esoleva seadustiku j&otilde;ustumisel halduskohtu menetluses olevas asjas kohaldatakse k&auml;esoleva seadustiku s&auml;tteid nende menetlustoimingute suhtes , mida sooritatakse p&auml;rast seadustiku j&otilde;ustumist .</s>
+</p>
+<p>
+<s>( 2 ) K&auml;esoleva seadustiku j&otilde;ustumisel halduskohtu menetluses olevas asjas ei kohaldata k&auml;esoleva seadustiku &sect; 26 l&otilde;iget 1 , v&auml;lja arvatud , kui kaebuse esitaja seda taotleb .</s>
+</p>
+<p>
+<s>( 3 ) Kohtuvea parandamise kohta s&auml;testatut ( 9. peat&uuml;kk ) kohaldatakse ka enne k&auml;esoleva seadustiku j&otilde;ustumist j&otilde;ustunud kohtulahenditele .</s>
+</p>
+<p>
+<s>&sect; 102.</s><s>Halduskohus ja halduskohtu koosseis</s>
+</p>
+<p>
+<s>( 1 ) Kuni 2001. aasta 1. jaanuarini on halduskohtuks lisaks k&auml;esoleva seadustiku &sect;-s 2 s&auml;testatule ka maa- ja linnakohtute juures tegutsevad halduskohtunikud .</s>
+</p>
+<p>
+<s>( 2 ) Kuni 2001. aasta 1. jaanuarini ei kohaldata k&auml;esoleva seadustiku &sect; 19 l&otilde;iget 3.</s>
+</p>
+<p>
+<s>&sect; 103.</s><s>Esindus Riigikohtus</s>
+</p>
+<p>
+<s>Isik , kes on k&auml;esoleva seadustiku j&otilde;ustumisel halduskohtu menetluses olevas asjas protsessiosalise esindaja , v&otilde;ib samas asjas olla esindaja Riigikohtus ka p&auml;rast seadustiku j&otilde;ustumist .</s>
+</p>
+<p>
+<s>&sect; 104.</s><s>Haldus&otilde;iguserikkumiste seadustiku muutmine</s>
+</p>
+<p>
+<s>Haldus&otilde;iguserikkumiste seadustiku ( RT 1992 , 29 , 396 ; RT I 2001 , 74 , 453 ) &sect; 3511 l&otilde;ikes 1 asendatakse s&otilde;na &ldquo; advokaat &rdquo; s&otilde;nadega &ldquo; &otilde;igusabi osutav isik &rdquo; ning j&auml;etakse v&auml;lja s&otilde;na &ldquo; advokaadi &rdquo; .</s>
+</p>
+<p>
+<s>&sect; 105.</s><s>J&auml;litustegevuse seaduse muutmine</s>
+</p>
+<p>
+<s>J&auml;litustegevuse seaduse ( RT I 1994 , 16 , 290 ; 1995 , 15 , 173 ; 1996 , 49 , 955 ; 1997 , 81 , 1361 ; 93 , 1557 ; 1998 , 47 , 698 ; 50 , 753 ; 51 , 756 ; 61 , 981 ; 98/99 , 1575 ; 101 , 1663 ; 1999 , 16 , 271 ; 31 , 425 ; 95 , 845 ; 2000 , 35 , 222 ; 40 , 251 ; 102 , 671 ; 2001 , 3 , 9 ; 7 , 17 ; 58 , 353 ) &sect; 13 t&auml;iendatakse l&otilde;ikega 5 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 ) J&auml;lituse erandtoimingu teostamiseks loa andmine , pikendamine ja t&uuml;histamine ning j&auml;lituse erandtoimingu &otilde;igustatuks tunnistamine otsustatakse viivituseta kohtuistungit korraldamata halduskohtumenetluse seadustiku haldustoiminguks loa andmise s&auml;tete j&auml;rgi . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 106.</s><s>Ps&uuml;hhiaatrilise abi seaduse muutmine</s>
+</p>
+<p>
+<s>Ps&uuml;hhiaatrilise abi seaduse ( RT I 1997 , 16 , 260 ; 1999 , 31 , 425 ) &sect; 13 t&auml;iendatakse l&otilde;igetega 6 <hi rend="sup">1</hi> ja 6 <hi rend="sup">2</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 6 <hi rend="sup">1</hi> ) Isiku tahtest olenematuks v&auml;ltimatuks ps&uuml;hhiaatriliseks raviks antud loa t&uuml;histab halduskohtunik j&auml;relevalvet teostava ametniku protesti v&otilde;i ravil viibiva isiku abikaasa , seadusliku esindaja v&otilde;i l&auml;hisugulaste taotluse alusel , olles &auml;ra kuulanud haigla pea- v&otilde;i &uuml;lemarsti v&otilde;i tema kohuseid t&auml;itva selleks volitatud arsti seletuse .</s><s>Vajadusel v&otilde;ib halduskohtunik m&auml;&auml;rata ravil viibivale isikule kohtups&uuml;hhiaatrilise ekspertiisi . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>( 6 <hi rend="sup">2</hi> ) Loa andmine , pikendamine ja t&uuml;histamine isiku tahtest olenematuks v&auml;ltimatuks ps&uuml;hhiaatriliseks raviks otsustatakse halduskohtumenetluse seadustiku haldustoiminguks loa andmise s&auml;tete j&auml;rgi . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 107.</s><s>Avaliku koosoleku seaduse muutmine</s>
+</p>
+<p>
+<s>Avaliku koosoleku seadust ( RT I 1997 , 30 , 472 ; 1999 , 31 , 425 ) t&auml;iendatakse &sect;-ga 14 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; &sect; 14 <hi rend="sup">1</hi> .</s><s>Kaebuse l&auml;bivaatamise t&auml;htaeg</s>
+</p>
+<p>
+<s>Kaebused avaliku koosoleku teate registreerimata j&auml;tmise v&otilde;i avaliku koosoleku l&auml;biviimise keelamise kohta vaatab halduskohus l&auml;bi kaebuse esitamise p&auml;eval v&otilde;i selle esitamisele j&auml;rgneval t&ouml;&ouml;p&auml;eval . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 108.</s><s>Kaitsev&auml;e distsiplinaarseaduse muutmine</s>
+</p>
+<p>
+<s>Kaitsev&auml;e distsiplinaarseaduse ( RT I 1997 , 95/96 , 1575 ; 1999 , 31 , 425 ) &sect; 55 t&auml;iendatakse l&otilde;ikega 2 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 <hi rend="sup">1</hi> ) Kaitsev&auml;elasele distsiplinaarkaristusena m&auml;&auml;ratud distsiplinaararesti seaduslikkuse kontrollimisel otsustab halduskohtunik halduskohtumenetluse seadustiku haldustoiminguks loa andmise s&auml;tete j&auml;rgi kaitsev&auml;elase poolt toimepandud teo tehiolusid selgitamata , kas kaitsev&auml;elasele on distsiplinaararest m&auml;&auml;ratud seaduslikult , v&otilde;i tunnistab distsiplinaararesti m&auml;&auml;ramise seadusevastaseks .</s><s>Halduskohtunik kontrollib , kas :</s>
+</p>
+<p>
+<s>1 ) kaitsev&auml;elase poolt toimepandud teo eest v&otilde;ib karistada distsiplinaarkaristusega ;</s>
+</p>
+<p>
+<s>2 ) enne distsiplinaararesti m&auml;&auml;ramist oli l&auml;bi viidud teenistuslik juurdlus ;</s>
+</p>
+<p>
+<s>3 ) kaitsev&auml;elasele on tehtud teatavaks tema &otilde;igused ja v&otilde;imaldatud oma teo kohta selgitusi anda ;</s>
+</p>
+<p>
+<s>4 ) &uuml;lem oli p&auml;dev kaitsev&auml;elasele distsiplinaararesti m&auml;&auml;rama . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 109.</s><s>Tsiviilkohtumenetluse seadustiku muutmine</s>
+</p>
+<p>
+<s>Tsiviilkohtumenetluse seadustikus ( RT I 1998 , 43/45 , 666 ; 108/109 , 1783 ; 1999 , 16 , 271 ; 31 , 425 ; 2000 , 51 , 319 ; 55 , 365 ; 2001 , 21 , 113 ; 34 , 186 ) tehakse j&auml;rgmised muudatused :</s>
+</p>
+<p>
+<s>1 ) paragrahvi 51 t&auml;iendatakse l&otilde;ikega 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 5 ) K&auml;esoleva seadustiku &sect; 149 l&otilde;ikes 6 ja &sect; 219 l&otilde;ikes 2 t&auml;hendatud juhul riigil&otilde;ivu ei tagastata .</s><s>Kui Riigikohtu erikogu l&otilde;petab asja menetluse vastavalt k&auml;esoleva seadustiku &sect; 373 <hi rend="sup">1</hi> l&otilde;ikele 5 , tagastatakse riigil&otilde;iv . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 52 punktis 4 asendatakse s&otilde;na &ldquo; advokaadikulud &rdquo; s&otilde;nadega &ldquo; &otilde;igusabikulud &rdquo; ;</s>
+</p>
+<p>
+<s>3 ) paragrahvi 61 pealkirjas asendatakse s&otilde;nad &ldquo; advokaadi abi &rdquo; s&otilde;naga &ldquo; &otilde;igusabi &rdquo; ;</s>
+</p>
+<p>
+<s>4 ) paragrahv 61 muudetakse ja s&otilde;nastatakse j&auml;rgmiselt :</s>
+</p>
+<p>
+<s>&ldquo; ( 1 ) Poolele , kelle kasuks otsus tehti , m&otilde;istab kohus teiselt poolelt v&auml;lja vajalikud ja p&otilde;hjendatud kulud tema esindaja poolt osutatud &otilde;igusabi eest ;</s>
+</p>
+<p>
+<s>1 ) hinnaga hagi puhul kuni viis protsenti hagi rahuldatud osast hagejale v&otilde;i kuni viis protsenti hagi rahuldamata j&auml;etud osast kostjale ;</s>
+</p>
+<p>
+<s>2 ) hinnata hagi puhul kohtu m&auml;&auml;ramisel , kuid mitte &uuml;le justiitsministri kehtestatud suuruse .</s>
+</p>
+<p>
+<s>( 2 ) Kui isik , kelle kasuks otsus tehti , on &otilde;igusabi eest tasumisest vabastatud , n&otilde;uab kohus nimetatud tasu teiselt poolelt sisse riigituludesse . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>5 ) paragrahvi 63 l&otilde;igetes 2 ja 3 asendatakse s&otilde;na &ldquo; advokaat &rdquo; s&otilde;naga &ldquo; esindaja &rdquo; vastavas k&auml;&auml;ndes ;</s>
+</p>
+<p>
+<s>6 ) paragrahvi 149 t&auml;iendatakse l&otilde;ikega 6 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 6 ) Kui kohus leiab , et avalduse lahendamine kuulub halduskohtu p&auml;devusse ja halduskohus on eelnevalt samas asjas leidnud , et see ei kuulu halduskohtu p&auml;devusse , m&auml;&auml;rab asja lahendamiseks p&auml;deva kohtu Riigikohtu tsiviil- ja halduskolleegiumi vaheline erikogu k&auml;esoleva seadustiku peat&uuml;kis 48 <hi rend="sup">1</hi> s&auml;testatud korras . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>7 ) paragrahvi 219 senine tekst loetakse l&otilde;ikeks 1 ja paragrahvi t&auml;iendatakse l&otilde;ikega 2 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; ( 2 ) Kui menetluse l&otilde;petamisel ilmnevad k&auml;esoleva seadustiku &sect; 149 l&otilde;ikes 6 t&auml;hendatud asjaolud , m&auml;&auml;rab asja lahendamiseks p&auml;deva kohtu Riigikohtu tsiviil- ja halduskolleegiumi vaheline erikogu k&auml;esoleva seadustiku peat&uuml;kis 48 <hi rend="sup">1</hi> s&auml;testatud korras . &rdquo;</s><s>;</s>
+</p>
+<p>
+<s>8 ) paragrahvi 335 t&auml;iendatakse punktiga 4 j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 4 ) asja lahendamiseks p&auml;deva kohtu m&auml;&auml;ramine k&auml;esoleva seadustiku peat&uuml;kis 48 <hi rend="sup">1</hi> s&auml;testatud korras ; &rdquo; ;</s>
+</p>
+<p>
+<s>9 ) seadustikku t&auml;iendatakse peat&uuml;kiga 48 <hi rend="sup">1</hi> j&auml;rgmises s&otilde;nastuses :</s>
+</p>
+<p>
+<s>&ldquo; 48 <hi rend="sup">1</hi> . peat&uuml;kk</s>
+</p>
+<p>
+<s>P&auml;deva kohtu m&auml;&auml;ramine</s>
+</p>
+<p>
+<s>&sect; 373 <hi rend="sup">1</hi> .</s><s>P&auml;deva kohtu m&auml;&auml;ramise kord</s>
+</p>
+<p>
+<s>( 1 ) Seaduses s&auml;testatud juhtudel m&auml;&auml;rab Riigikohtu tsiviil- ja halduskolleegiumi vaheline erikogu asja lahendamiseks p&auml;deva kohtu .</s><s>P&auml;deva kohtu m&auml;&auml;ramiseks valivad Riigikohtu tsiviil- ja halduskolleegium kumbki oma liikmete seast kaks liiget .</s><s>Erikogu istungeid juhatab Riigikohtu esimees .</s>
+</p>
+<p>
+<s>( 2 ) Erikogu m&auml;&auml;rab kahe kuu jooksul asja saamisest arvates m&auml;&auml;rusega asja lahendamiseks p&auml;deva kohtu protsessiosalisi asja arutamisele kutsumata .</s><s>Protsessiosaline v&otilde;ib erikogule esitada kirjalikult oma seisukoha .</s>
+</p>
+<p>
+<s>( 3 ) P&auml;deva kohtu m&auml;&auml;ramisel Riigikohtu erikogu :</s>
+</p>
+<p>
+<s>1 ) t&uuml;histab kohtu m&auml;&auml;ruse , milles p&auml;devaks kohtuks tunnistatud kohus leidis , et asi ei kuulu tema p&auml;devusse ;</s>
+</p>
+<p>
+<s>2 ) saadab asja lahendamiseks t&uuml;histatud m&auml;&auml;ruse teinud kohtule .</s>
+</p>
+<p>
+<s>( 4 ) Kui p&auml;rast t&uuml;histatud m&auml;&auml;ruse tegemist on menetlusse kaasatud kolmas isik v&otilde;i kui t&uuml;histatud m&auml;&auml;ruse tegemisest on m&ouml;&ouml;dunud &uuml;le kuue kuu , saadab Riigikohtu erikogu asja lahendamiseks algusest peale p&auml;devale esimese astme kohtule .</s><s>P&auml;dev kohus v&otilde;ib asja l&auml;bi vaadata samas v&otilde;i uues koosseisus .</s>
+</p>
+<p>
+<s>( 5 ) Kui Riigikohtu erikogu leiab , et asi ei kuulu lahendamisele ei tsiviil- ega halduskohtumenetluses , l&otilde;petab ta m&auml;&auml;rusega asja menetluse . &rdquo;</s>
+</p>
+<p>
+<s>&sect; 110.</s><s>Varasema halduskohtumenetluse seadustiku kehtetuks tunnistamine</s>
+</p>
+<p>
+<s>Halduskohtumenetluse seadustik ( RT I 1993 , 50 , 694 ; 1994 , 16 , 290 ; 28 , 425 ; 1995 , 29 , 358 ja 359 ; 1996 , 37 , 739 ; 1997 , 16 , 260 ; 30 , 472 ; 87 , 1468 ; 93 , 1557 ; 95/96 , 1575 ; 1998 , 17 , 265 ; 61 , 981 ; 1999 , 16 , 271 ) tunnistatakse kehtetuks .</s>
+</p>
+<p>
+<s>&sect; 111.</s><s>Seadustiku j&otilde;ustumine</s>
+</p>
+<p>
+<s>K&auml;esolev seadustik j&otilde;ustub 2000. aasta 1. jaanuaril .</s>
+</p>
+</body>
+   </text>
+</tei.2>

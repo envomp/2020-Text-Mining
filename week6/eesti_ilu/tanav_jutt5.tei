@@ -1,0 +1,133 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Teoloogiatudengi katse</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 13727; s&otilde;nu: 1272</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Teoloogiatudengi katse</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=40></tagusage>
+         <tagusage gi=s occurs=161></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body>
+<div0 type='tervikteos'><head>Teoloogiatudengi katse</head>
+<p><bibl><author><s>Maniakkide T&auml;nav</s></author></bibl></p>
+<p> <s>T&uuml;&uuml;p istus Narva maantee &uuml;hiselamus ja &otilde;ppis eksamiks . </s> <s> See oli tal teine kord , sest esimesel katsel p&otilde;rus vennike haledalt l&auml;bi . </s> <s> Morni n&auml;oga libistas ta pilgu &uuml;le ridade , mis tarkusest pungitudes talle arusaamatutena vastu j&otilde;&otilde;rasid . </s> </p>
+<p> <s> " Nagu kohtumine tulnukate ja nende grammatikaga , " m&otilde;tles t&uuml;&uuml;p . </s> <s> Ta heitis ahastava pilgu &otilde;htusele Narva maanteele ja " Konsumi " kaubamajale . </s> <s> Vaikselt rabistas vihma aknaklaasile . </s> <s> T&uuml;&uuml;p s&uuml;&uuml;tas suitsu ja suunas j&otilde;upingutusega uuesti pilgu konspektile . </s> <s> Ilma mingi eelhoiatuseta kustus toas &auml;kki elektrivalgus . </s> <s> Hetkeks &uuml;hiselamu nagu vakatas . </s> <s> Noormees vaatas apaatselt ainsa silmapilguga tumedaks muutunud lehek&uuml;lge oma ees . </s> <s> Siis kostis uksek&otilde;matus ja kajavas koridoris hakkas kostma venekeelset juttu . </s> <s> Keegi hirnatas , talle m&ouml;irati Tarzani kombel vastu . </s> <s> Kuuldus t&uuml;drukute kiljatusi , m&uuml;dinal traaviti m&ouml;&ouml;da pimedat koridori . </s> </p>
+<p> <s> " P&otilde;rgusse , " m&otilde;tles t&uuml;&uuml;p ja lasi paberi k&auml;est . </s> <s> See v&otilde;ttis tuule alla ning libisedes m&ouml;&ouml;da lauaplaati , kadus p&otilde;randah&auml;marusse . </s> </p>
+<p> <s>Toauks k&auml;&auml;ksatas , kui selle katkisele lingile r&otilde;huti ja avanes r&auml;ntsatades . </s> <s> T&uuml;&uuml;p vaatas &uuml;le &otilde;la selja taha aga aknast sisselangevad laternakiired ei valgustanud tulijat k&uuml;llaldaselt . </s> </p>
+<p> <s> " No mis ? " </s> </p>
+<p> <s>Tulija k&ouml;hatas kohmetult . </s> <s> " Tereee ... " venitas ta lustlikkust teeseldes . </s> <s> Ukselseisja selja tagant traavisid m&ouml;irates m&ouml;&ouml;da paar venelast . </s> <s> &Uuml;hikas oli neid t&auml;is . </s> </p>
+<p> <s> " Jaa-jah , " vastas t&uuml;&uuml;p tulija tervitusele . </s> <s> Suitsuots tema n&auml;os h&otilde;&otilde;gus &uuml;ksk&otilde;ikse ja veidi ebas&otilde;bralikuna . </s> <s> Tulija astus sisse ja k&ouml;hatas veel kord kohmetult . </s> </p>
+<p> <s> " Ma olen su &uuml;leaedne , " selgitas ta siis ebalevalt . </s> </p>
+<p> <s> " Noo-jahh , " venitas t&uuml;&uuml;p . </s> <s> Ta polnud just erilist huvi tundnud naaberelanike vastu , tal oli oma s&otilde;pruskond . </s> <s> Tuhk suitsuotsalt kadus m&otilde;lema toasviibija jaoks h&auml;&auml;letult pimedusse . </s> </p>
+<p> <s> " Vaata mul oleks sulle &uuml;ks palve , " Tulija poetas end t&uuml;&uuml;bi voodi otsale . </s> <s> " Ma kuulsin , et sa oled mingil m&auml;&auml;ral vaimsete huvidega ... kunst ja muusika ja nii edasi ... ? " </s> <s> Koridori kaugemast otsast kostus j&auml;lle kellegi kiljumist ja poisinolkide naeru . </s> </p>
+<p> <s> " Ja </s> .... <s> ? " T&uuml;&uuml;p puhus suitsu Tulija poole , kuid see hajus enne sihtm&auml;rgini j&otilde;udmist . </s> </p>
+<p> <s> " Ma sooviks , et sa osaleksid &uuml;hes minu poolt korraldatavas katses ... " </s> </p>
+<p> <s> " K&uuml;&uuml;likuna , " lisas t&uuml;&uuml;p kajana . </s> <s> Tulijal v&otilde;ttis taipamine natuke aega . </s> <s> " Jah , umbes jah , " noogutas ta siis . </s> </p>
+<p> <s> " Mis katse on ? " </s> </p>
+<p> <s>Suitsuring nirises lae poole , m&ouml;&ouml;dudes aknast , mille paarimillimeetrise pinna taga sirises vihmapiisku . </s> </p>
+<p> <s> " Kuulata &auml;ra &uuml;ks minu esitatud muusikapala ja anda selle tulemusele hinnang . " </s> <s> T&uuml;&uuml;p m&uuml;hatas . </s> <s> Igast lolle ikka leidub , m&otilde;tles ta . </s> <s> " Nojah . </s> <s> Mida muud ma siin pimeduses ikka tegema peaksin . </s> <s> Too oma lugu lagedale . " </s> <s> Tulija tundus &uuml;llatusest v&otilde;patavat . </s> <s> Laskmata ennast kaks korda paluda , kargas ta p&uuml;sti ja kadus ukse paukudes pimedusse . </s> <s> Koridoris lisandus melusse veel lisah&auml;&auml;li . </s> </p>
+<p> <s>K&auml;rmelt kui nirk libises Tulija taas tuppa , asetades oma muusikainstrumendi keset p&otilde;randat . </s> <s> Pimedas ei taibanud t&uuml;&uuml;p h&auml;sti , mis pilliga on tegu . </s> <s> Tulija asetas raamaturiiulisse mingid piklikud esemed ja s&uuml;&uuml;tas p&otilde;lema . </s> <s> Need olid k&uuml;&uuml;nlad . </s> <s> T&uuml;&uuml;p astus k&uuml;&uuml;nalde juurde . </s> <s> " Milleks neid veel vaja on ? " </s> </p>
+<p> <s> " Ma tahan su reaktsiooni n&auml;ha . " </s> </p>
+<p> <s>Tulija n&auml;ppis midagi oma pilli kallal ja l&uuml;kkas siis toaukse kjinni . </s> <s> Samal hetkel tundusid katkevat k&otilde;ik v&auml;ljastpoolt tulevad helid . </s> <s> Ruumis tinises vaid n&otilde;rk pl&auml;rin , mis meenutas vaibuva basskitarri h&auml;&auml;lt . </s> </p>
+<p> <s> " Istu voodile , " k&auml;sutas Tulija , seistes pilli taga seljaga k&uuml;&uuml;nalde poole . </s> </p>
+<p> <s> " Mis imelik pill see sul on ? " k&uuml;sis t&uuml;&uuml;p , silmitsedes tulija ees olevat h&auml;marat varju . </s> </p>
+<p> <s> " Sina kuula ! " </s> </p>
+<p> <s>Kile karje l&otilde;i nagu kirves t&uuml;&uuml;bile p&auml;he . </s> <s> Silmapilguga segunes sellesse Tulija kriiskav h&auml;&auml;l . </s> <s> M&uuml;rinal vajus pillih&auml;&auml;l bassidesse . </s> <s> T&uuml;&uuml;p haaras peast . </s> <s> Helid tundusid raputavat ta sisikonna segamini . </s> <s> Rindkere vappus helil&ouml;&ouml;kidest , &auml;gades , mida metsikus heliderajus kuuldagi polnud , vajus t&uuml;&uuml;p p&otilde;lvili k&auml;garasse . </s> <s> Higi pressis end kehast v&auml;lja , tundus nagu kasvaksid higiojad peenteks j&auml;tkedeks ta k&uuml;ljes , k&otilde;hus keerati nuga ja pead tambiti raske vasaraga . </s> <s> Kisendava kakofoonia tipul saabus l&otilde;ikav vaikus . </s> <s> Pimedus tundus t&uuml;&uuml;bile peale langevat . </s> <s> Vaikus oli veel jubedam kui m&ouml;llanud muusika . </s> <s> Tulija seisis pimeduses vaikselt ja liikumatult , siis , m&otilde;ne hetke p&auml;rast kohendas ta instrumendil n&auml;ppe . </s> <s> &Otilde;rnalt hakkas taas kostma pl&auml;rinat . </s> <s> T&uuml;&uuml;p p&otilde;randal t&otilde;mbus k&ouml;ssi . </s> </p>
+<p> <s> " P&uuml;sti ! " k&auml;sutas Tulija . </s> </p>
+<p> <s>T&uuml;&uuml;p t&otilde;stis kartlikult pea . </s> </p>
+<p> <s> " P&uuml;sti ! " </s> </p>
+<p> <s>Aralt ajas k&auml;sutatav end jalule . </s> <s> Tulija v&otilde;ttis taskust diktofoni ja pannud selle lindistama , asetas aparaadi enda l&auml;hedale riiulile . </s> </p>
+<p> <s> " Neljanda kursuse teoloogiatudengi praktiline t&ouml;&ouml; teemal " Vaimu olemusest " . </s> <s> Tulija vaatas k&uuml;&uuml;nla ja immitseva t&auml;navalambi kumas vastasseinas v&otilde;bisevat inimkuju . </s> <s> " Esimeses faasis allutasin endale katsealuse vaimu . </s> <s> T&auml;nu juhuslikult aset leidnud elektrikatkestusele polnud v&otilde;imalik t&auml;pselt j&auml;lgida protsessi v&auml;liseid n&auml;hte . </s> <s> Niipalju v&otilde;ib siiski &ouml;elda , et arvatavasti l&otilde;hkus zanaz&ouml;&ouml;r katsealuse biov&auml;lja ning selle j&auml;&auml;nused materialiseerusid kehast algavate j&auml;tketena . </s> <s> J&auml;tked on umbes meeter pikad , 1-2 sentimeetrit l&auml;bim&otilde;&otilde;dus ja arvatavasti , niipalju kui praeguses valguses v&otilde;ib otsustada , pruunikas- kollakat v&auml;rvi . </s> <s> Tunduvad limased . </s> <s> Paistab , et allutamine pole toimunud t&auml;ielikult &mdash; m&otilde;ndasi k&auml;sklusi peab kordama . </s> <s> L&auml;hen edasi teise faasi : keha eemaldamine . " </s> </p>
+<p> <s> " Et katsealuse vaim ei saaks enne visualiseerimisprotsessi hajuda , loon zanaz&ouml;&ouml;riga barj&auml;&auml;ri . </s> <s> Selleks , et vaim kehast t&auml;ielikult eraldada , on tarvilik keha&otilde;&otilde;nsuste v&otilde;imalikult suurem avamine . </s> <s> Niisuguse t&ouml;&ouml; jaoks sobivateks instrumentideks valisin elektriketassae kolba avamiseks , kirve j&auml;semete ja rindkere jaoks , ning skalpelli kudede tarbeks . </s> <s> Katsealuse paral&uuml;seerimiseks l&otilde;ikan tal l&auml;bi seljaaju . " </s> </p>
+<p> <s>Tulija v&otilde;ttis zanaaz&ouml;&ouml;ri sahtlist skalpelli . </s> </p>
+<p> <s> " P&ouml;&ouml;ra &uuml;mber ! " k&auml;sutas ta . </s> <s> T&uuml;&uuml;p vahtis teda &uuml;ksk&otilde;ikselt ja p&ouml;&ouml;ras siis vastu tahtmist &uuml;mber . </s> </p>
+<p> <s> " Lase pea ettepoole ! " </s> </p>
+<p> <s>T&uuml;&uuml;bi pea kummardus h&auml;marusse . </s> <s> Tulija v&otilde;ttis skalpelli ja astus t&uuml;&uuml;bi paljastatud kukla juurde . </s> <s> S&otilde;rmedega kombates otsis ta enam-v&auml;hem &otilde;ige koha ja t&otilde;mbas sealt l&uuml;lide vahele s&uuml;gava haava . </s> <s> T&uuml;&uuml;p ei liigutanudki , ehkki Tulija oli valmis teda lihaste l&otilde;tvumisel kinni p&uuml;&uuml;dma . </s> <s> Tulija uuris oma l&otilde;ikekohta hoolikamalt ja valmistus veel korra l&otilde;ikama . </s> <s> Vastu ta k&auml;tt puutus bioj&auml;tke . </s> <s> Miski haaras Tulijat puusast , too h&uuml;ppas tahapoole ja s&auml;hvas vihaselt skalpelliga . </s> <s> J&auml;tke lasi lahti ja kukkus pimedusse . </s> <s> See-eest haaras j&auml;rgmine temast kinni ja j&auml;rgmine . </s> <s> Kombitsad tundusid venivat . </s> <s> Raevukalt sahmis Tulija terasega . </s> <s> Paari hetke p&auml;rast oli ta pea t&auml;ielikult sisse m&auml;ssitud ja kukkus koos t&uuml;&uuml;biga p&otilde;randale . </s> <s> Tulija laskis skalpelli lahti ja k&uuml;&uuml;nitas pilli poole . </s> <s> Kiunatusega mattis helilaviin rabelevad kehad enda alla . </s> <s> J&auml;tked tundusid j&auml;igaks t&otilde;mbuvat ja seej&auml;rel l&otilde;tvuvat . </s> </p>
+<p> <s>Tulija rebis end l&otilde;dvast puntrast v&auml;lja ning koperdas pilli taha . </s> <s> Tulija v&otilde;lus instrumendist v&auml;lja k&otilde;ige raskemini haamerdavad metsikud viisid . </s> <s> J&auml;tked visklesid vahetevahel , venides &uuml;ha suuremaks kuhjaks . </s> <s> Seevastu t&uuml;&uuml;bi tundetu keha t&otilde;mbus &uuml;ha enam kokku . </s> <s> Kiunudes l&otilde;ikusid uued helid vonklevasse kuhja . </s> <s> Helim&ouml;ll muutus &uuml;ha p&ouml;&ouml;rasemaks . </s> <s> Siis saabus r&auml;igelt j&auml;ik vaikus nagu sein . </s> <s> K&uuml;&uuml;nlad olid p&otilde;lenud &uuml;sna pisikesteks ja heitsid toale &otilde;rnasid hubelevaid varje . </s> <s> T&uuml;&uuml;p oli kuskil j&auml;tkukuhja all . </s> <s> Tulija sumpas l&auml;bi nende sinna , kus ta noormeest viimati n&auml;inud oli , ja peksis jalaga kuhja laiali . </s> <s> Viie-kuue aasta vanuse &otilde;rna lapsena lebas t&uuml;&uuml;p pikki ja s&uuml;gavaid varje heitvate j&auml;tkekuhjade vahel nagu s&uuml;gava kaevu p&otilde;hjas . </s> <s> Tulija kahlas tagasi , v&otilde;ttis elektriketassae ja pistis selle seina . </s> <s> Kummardudes lapse kohale , vajutas ta nuppu . </s> </p>
+<p> <s> " Neetud ! " sisistas Tulija &auml;rritunult . </s> <s> Talle meenus , et elektrit ju polnud . </s> <s> Vihase k&auml;eliigutusega kadus saag pimedusse . </s> <s> Kolmandat korda zanaz&ouml;&ouml;rini j&otilde;udes , rabas ta vihaselt kirve ning virutas lapseni j&otilde;udes pea sihtimata &otilde;blukesele kehale k&otilde;htu . </s> <s> R&ouml;hatades kadus kirvetera k&otilde;hukoopasse . </s> <s> Tulija ise kaotas l&ouml;&ouml;gihoost libedal kombitsahunnikul tasakaalu ja kukkus , m&auml;&auml;rides end nende l&auml;gaga veelgi rohkem kokku . </s> <s> Ta ajas end jalule ja sikutas kirvest lapsekehast v&auml;lja . </s> <s> See ei tahtnud &otilde;nnestuda , kuna kirve tagumine , kirkaga pool , oli takerdunud kuhugi soolikatesse . </s> <s> Rapsimise peale rebenes j&auml;mesool mitmest kohast ja tuppa levis v&auml;nget soolehaisu . </s> <s> Ka magu oli viga saanud ja sellest topeltj&auml;lgist lehast tundis Tulija , et hakkab oksele . </s> <s> Ta j&auml;ttis kirve kus seda ja teist ning komberdas eemale . </s> <s> Haaranud riiulilt &uuml;he kustumahakkava k&uuml;&uuml;nla , virutas ta selle aknasse . metallist k&uuml;&uuml;nlajalg purustas klirinal klaasi . </s> <s> Vihm ja tuul haarasid kardinad oma meelevalda . </s> <s> V&auml;rske &otilde;hk tungis puhangutena sisse ja viimane k&uuml;&uuml;nal kustus . </s> </p>
+<p> <s>Vihm ja h&auml;gune t&auml;navavalgustus . </s> </p>
+<p> <s> " Teine faas . </s> <s> Seda tabas m&otilde;ningane eba&otilde;nnestumine . </s> <s> Bioj&auml;tked ei olnud veel oma kaitsefunktsiooni minetanud ning nende deaktiviseerimiseks pidin veelkord kasutama zanaz&ouml;&ouml;ri . </s> <s> Selle tulemusena pigistasin katsealuse vaimuj&otilde;ust kuivaks . </s> <s> Temast l&auml;i j&auml;rgi umbes 80-sentimeetrine lapsekeha . </s> <s> Keha on osaliselt kirve abil avatud . </s> <s> Elektrikatkestus ei v&otilde;imalda selle t&auml;ielikku avamist . </s> <s> Alustan kolmandat faasi : vaimu visualiseerimine . " </s> </p>
+<p> <s>Tulija heitis pilgu niiskesse ja pimedasse tuppa enda &uuml;mber . </s> <s> H&auml;marus neelas nii seinad , lae kui p&otilde;randa . </s> <s> Peale kirvevarre ja helendava aknaava ei suutnud pilk midagi eristada . </s> <s> Tulija puudutas pilli ja tuppa hakkas kostma kaugeid dzhunglitrumme . </s> <s> Piuksudes sulasid sellesse m&otilde;ned k&otilde;rgemad noodid . </s> <s> Hele tilin v&auml;ristas pimedust . </s> <s> Trummid tugevnesid , tilin tugevnes , kalgistus . </s> <s> Miski v&otilde;ttis kuju . </s> <s> Tulija puuris silmad tumedasse , peaaegu l&auml;bipaistmatusse pilkuhajutavasse &otilde;hku . </s> <s> Ta n&auml;gi v&auml;he , kuid piisavalt . </s> <s> Selgesti arusaadavalt oli vaim tehislikku p&auml;ritolu , k&uuml;berneetiline toode . </s> </p>
+<p> <s> " Katse tulemus kinnitab h&uuml;poteesi : LOOJA on olemas . " </s> </p> </div0> </body> </text> 

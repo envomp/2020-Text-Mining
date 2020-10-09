@@ -1,0 +1,558 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title> Pakendiseadus ( mai 1998 ) </title>
+         <principal>Heiki-Jaan Kaalep</principal>
+         <respStmt>
+	    <resp>kogus internetist, teisendas TEI-kujule, lausestas</resp>
+            <name>Heiki-Jaan Kaalep</name>
+         </respStmt>
+      </titleStmt>
+         <extent> s&otilde;nu:    2312</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Tiigi 78-202</pubPlace>
+	 <date>veebruar 2003</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+         <bibl>
+            <title level='a'> Pakendiseadus ( mai 1998 ) </title>
+         </bibl>
+           <p>http://www.legaltext.ee/</p>
+           <p></p>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keel ja rahvuskultuur'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks seadus v&otilde;i otsus vms.</p>
+	</samplingdecl>
+	<editorialdecl>
+                <correction>
+		   <p>k&otilde;ik &scaron;rifti muutused on kaotatud</p>
+		   <p>&uuml;la- ja alaindeksid on hi rend="sup" ja "sub" vastavalt</p>
+		   <p>unicode-i olemid kujul #number on teisendatud sgml-olemiteks; susisevate t&auml;htedega, islandi ja paljude muude v&otilde;&otilde;rt&auml;htede teisendamisel on arvatavasti palju vigu </p>
+		   <p>loendid (html listid) on teisendatud tavaliseks nummerdatud v nummerdamata tekstiks; punktloendite puhul on punkti asemel -</p>
+                </correction>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+		   <p>olem quest t&auml;histab m&auml;rke, mille kujust ei ole informatsiooni</p>
+		</interpretation>
+                <quotation>
+                   <p>alustav jutum&auml;rk on &ldquo;</p>
+                   <p>l&otilde;petav jutum&auml;rk on &rdquo;</p>
+                </quotation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+		   <p>Muidu pole teksti struktuur m&auml;rgendatud: ei pealkirjad, allkirjad, lisad, joonealused viited ega midagi</p>
+		   <p>l&otilde;igud on nagu nad algses html-failis olid</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=p occurs=151></tagusage>
+         <tagusage gi=s occurs=184></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+  <text>
+
+<body>
+<p>
+<s>Pakendiseadus</s>
+</p>
+<p>
+<s>Vastu v&otilde;etud 3. mail 1995. a ,</s>
+</p>
+<p>
+<s>( RT I 1995 , 47 , 1506 ) ,</s>
+</p>
+<p>
+<s>j&otilde;ustunud 26. mail 1995. a ,</s>
+</p>
+<p>
+<s>muudetud j&auml;rgmise seadusega :</s>
+</p>
+<p>
+<s>30.06.1997 ( RT I 1997 , 53 , 836 ) 21.07.1997.</s>
+</p>
+<p>
+<s>1. peat&uuml;kk</s>
+</p>
+<p>
+<s>&Uuml;lds&auml;tted</s>
+</p>
+<p>
+<s>&sect; 1.</s><s>Seaduse &uuml;lesanne</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse &uuml;lesanne on kehtestada n&otilde;uded pakendile ja pakendi kasutamisele eesm&auml;rgiga soodustada pakendi v&otilde;i pakendimaterjali ringlust v&otilde;i taaskasutamist muul viisil , v&auml;listada pakendi ebasoovitavat m&otilde;ju inimesele ja keskkonnale , v&auml;ltida v&otilde;i v&auml;hendada kasutatud pakendist j&auml;&auml;tmete moodustumist ning &uuml;htlustada pakendi ja pakendi kasutamise n&otilde;uded rahvusvaheliste n&otilde;uetega .</s>
+</p>
+<p>
+<s>&sect; 2.</s><s>Seaduse reguleerimisala</s>
+</p>
+<p>
+<s>Seadus reguleerib pakendi tootmist , kasutamist , importi , pakendij&auml;&auml;tmete k&auml;itlemist ja pakendile kantavat m&auml;rgistust .</s>
+</p>
+<p>
+<s>&sect; 3.</s><s>Pakendi m&otilde;iste</s>
+</p>
+<p>
+<s>( 1 ) Pakend on &uuml;mbris kaupade mahutamiseks , kaitsmiseks , s&auml;ilitamiseks , esitlemiseks , veoks v&otilde;i turustamiseks .</s>
+</p>
+<p>
+<s>( 2 ) Kaupade &uuml;mbrise k&auml;sitlemine pakendina ei s&otilde;ltu &uuml;mbrise kujust , valmistusviisist , materjalist ja kasutuskordsusest .</s>
+</p>
+<p>
+<s>( 3 ) Pakendiks loetakse ka t&auml;itematerjal , mida kasutatakse koos pakendiga veoohutuse tagamiseks ja kauba kaitsmiseks kahjustuste eest .</s>
+</p>
+<p>
+<s>&sect; 4.</s><s>Pakendi liigitus</s>
+</p>
+<p>
+<s>( 1 ) Pakendi liigid k&auml;esoleva seaduse m&otilde;istes on :</s>
+</p>
+<p>
+<s>1 ) m&uuml;&uuml;gipakend - pakend , mis vahetult &uuml;mbritseb l&otilde;ppkasutajale v&otilde;i tarbijale m&uuml;&uuml;gikohas &uuml;leantavat kaupa ;</s>
+</p>
+<p>
+<s>2 ) r&uuml;hmapakend - pakend , mis on ette n&auml;htud teatud hulga kauba&uuml;ksuste r&uuml;hmitamiseks m&uuml;&uuml;gikohas , s&otilde;ltumata sellest , kas see m&uuml;&uuml;akse koos kaubaga l&otilde;ppkasutajale v&otilde;i tarbijale v&otilde;i kasutatakse seda vaid kauba k&auml;sitsemise lihtsustamise , kauba kaitsmise v&otilde;i esitlemise eesm&auml;rgil .</s><s>Selle eemaldamine kaubalt ei p&otilde;hjusta kauba omaduste muutumist ;</s>
+</p>
+<p>
+<s>3 ) veopakend - m&uuml;&uuml;gi- ja r&uuml;hmapakendite veol kasutatav t&auml;iendav pakend , mis on ette n&auml;htud veokahjustuste v&auml;ltimiseks ja kauba k&auml;sitsemise lihtsustamiseks .</s><s>K&auml;esoleva seaduse m&otilde;istes ei arvata veopakendi hulka auto- , raudtee- , mere- ja lennukonteinereid .</s>
+</p>
+<p>
+<s>( 2 ) V&auml;ikepakend on m&uuml;&uuml;gipakend mahuga kuni 200 ml v&otilde;i massiga kuni 10 g .</s>
+</p>
+<p>
+<s>( 3 ) S&otilde;ltuvalt pakendi kasutuskordsusest v&otilde;i tagasiv&otilde;tmise korraldusest on k&auml;esoleva paragrahvi 1. l&otilde;ikes nimetatud pakendite alaliigid :</s>
+</p>
+<p>
+<s>1 ) ringluspakend - taaskasutatav pakend , mida kasutatakse muutmata kujul korduvalt temale algselt etten&auml;htud v&otilde;i muul samalaadsel otstarbel ;</s>
+</p>
+<p>
+<s>2 ) &uuml;hekorrapakend - pakend , mida kasutatakse temale etten&auml;htud otstarbel vaid &uuml;hel korral ;</s>
+</p>
+<p>
+<s>3 ) tagastuspakend - pakend , mille tootja v&otilde;i turustaja peab kasutajalt v&otilde;i pakendatud kauba tarbijalt tagasi v&otilde;tma pakendi v&otilde;i pakendimaterjali taaskasutamiseks v&otilde;i allutamiseks spetsiaalsetele j&auml;&auml;tmek&auml;itlusviisidele ;</s>
+</p>
+<p>
+<s>4 ) tagastamatu pakend - pakend , mille tagasiv&otilde;tmine ja taaskasutamine ei ole korraldatud .</s><s>[ 30.06.1997 ]</s>
+</p>
+<p>
+<s>2. peat&uuml;kk</s>
+</p>
+<p>
+<s>N&otilde;uded pakendile</s>
+</p>
+<p>
+<s>&sect; 5.</s><s>Pakendi valmistamise ja kasutamise n&otilde;uded</s>
+</p>
+<p>
+<s>( 1 ) Pakendi kavandamise ja valmistamise n&otilde;uded :</s>
+</p>
+<p>
+<s>1 ) pakendi ebasoovitav m&otilde;ju inimesele ja keskkonnale peab olema minimaalne kogu pakendi olelusts&uuml;kli jooksul , alates pakendimaterjalide ja pakendi valmistamisest kuni pakendi v&otilde;i selle k&auml;itlemise j&auml;&auml;kide l&otilde;pliku k&otilde;rvaldamiseni ;</s>
+</p>
+<p>
+<s>2 ) pakend ja selle konstruktsioon peavad tagama kauba s&auml;ilimise ja valmistaja poolt garanteeritud omadused ning k&auml;sitsemise ohutuse kauba liikumisel valmistajalt tarbijani ;</s>
+</p>
+<p>
+<s>3 ) pakend peab v&otilde;imaldama kauba majanduslikult otstarbekat vedu ja ladustamist ning lihtsustama kauba k&auml;sitsemist ;</s>
+</p>
+<p>
+<s>4 ) pakend peab t&auml;itma oma otstarvet v&otilde;imalikult v&auml;ikeste m&otilde;&otilde;tmete , mahu ja massi juures ;</s>
+</p>
+<p>
+<s>5 ) v&otilde;imalikult suur osa pakendist tuleb kavandada taaskasutatavana ;</s>
+</p>
+<p>
+<s>6 ) pakendimaterjalis sisalduvate inimese tervisele ja keskkonnale ohtlike ainete , sealhulgas raskmetallide sisaldus ei v&otilde;i &uuml;letada kehtestatud norme ;</s>
+</p>
+<p>
+<s>7 ) pakendi kuumenemisel v&otilde;i pakendi sattumisel muudesse tavalisest erinevatesse tingimustesse ei v&otilde;i eralduda inimese tervisele ohtlikke aineid ;</s>
+</p>
+<p>
+<s>8 ) l&otilde;plikule k&otilde;rvaldamisele suunatava pakendi materjal peab v&otilde;imalikult suures osas olema kergesti lagundatav looduslike protsesside toimel v&otilde;i keskkonnaohutult p&otilde;letatav .</s>
+</p>
+<p>
+<s>( 2 ) Toiduainete ja inimese naha v&otilde;i limaskestaga vahetult kokkupuutuvate kaupade m&uuml;&uuml;gipakendi materjal peab olema h&uuml;gieeniliselt uuritud ja omama terviseohutuse sertifikaati , mis v&auml;ljastatakse sotsiaalministri kehtestatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Piirangud ja erin&otilde;uded pakendi valmistamiseks kasutatavate materjalide kohta , l&auml;htudes pakendimaterjali v&otilde;imalikust ohtlikkusest inimese tervisele ja koormisest keskkonnale , kehtestab Vabariigi Valitsus .</s>
+</p>
+<p>
+<s>&sect; 6.</s><s>N&otilde;uded taaskasutatavale pakendile</s>
+</p>
+<p>
+<s>( 1 ) Ringluspakend peab olema :</s>
+</p>
+<p>
+<s>1 ) normaalsetes kasutamistingimustes korduvalt kasutatav ;</s>
+</p>
+<p>
+<s>2 ) enne uuesti kasutamist t&ouml;&ouml;deldav tervisekaitse ja ohutustehnika n&otilde;uete kohaselt .</s>
+</p>
+<p>
+<s>( 2 ) Muul viisil taaskasutatav pakend ja/v&otilde;i pakendij&auml;&auml;tmed peavad olema :</s>
+</p>
+<p>
+<s>1 ) v&otilde;imalikult suures osas kasutatavad teisese toormena samalaadsete v&otilde;i muude toodete valmistamiseks ;</s>
+</p>
+<p>
+<s>2 ) oma k&uuml;ttev&auml;&auml;rtuselt v&otilde;rdsed v&auml;hemalt paberi v&otilde;i kartongi k&uuml;ttev&auml;&auml;rtusega , kui neid v&otilde;i nende k&auml;itlemise j&auml;&auml;ke on ette n&auml;htud p&otilde;letada ;</s>
+</p>
+<p>
+<s>3 ) mikroorganismide poolt kergesti lagundatavad , kui neid v&otilde;i nende k&auml;itlemise j&auml;&auml;ke on ette n&auml;htud bioloogiliselt t&ouml;&ouml;delda .</s>
+</p>
+<p>
+<s>( 3 ) Toiduainete kaubastamiseks etten&auml;htud ringluspakendite v&otilde;i nendega &auml;ravahetamiseni sarnaste pakendite kasutamine tervisele ohtlike ainete s&auml;ilitamiseks , veoks ja kaubastamiseks on keelatud .</s>
+</p>
+<p>
+<s>( 4 ) Keemiatoodete ja ohtlike ainete m&uuml;&uuml;gi- ja ringluspakendi kasutamine on toiduainete pakendamiseks keelatud ja pakend peab omama vastavat p&uuml;sim&auml;rgistust .</s>
+</p>
+<p>
+<s>3. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pakendi m&auml;rgistamine</s>
+</p>
+<p>
+<s>&sect; 7.</s><s>Pakendile kantav teave</s>
+</p>
+<p>
+<s>( 1 ) Pakendile peab olema kantud :</s>
+</p>
+<p>
+<s>1 ) tarbijakaitseseaduse ( RT I 1994 , 2 , 13 ; 1995 , 20 , 297 ; 1996 , 49 , 953 ; 1997 , 93 , 1561 ) ja teiste asjaomaste kauba m&auml;rgistamist ning vedu reguleerivate seaduste ja muude &otilde;igusaktidega etten&auml;htud teave pakendis sisalduva kauba kohta ;</s>
+</p>
+<p>
+<s>2 ) hoiatavad pealdised ja erim&auml;rgistus ohtlikele kaupadele : nakkusohtlikele , s&ouml;&ouml;bivatele , gaase eraldavatele , oks&uuml;deerivatele , m&uuml;rgistele , tule- ja plahvatusohtlikele , radioaktiivsetele ainetele , kui pakend sisaldab loetletud kaupa ;</s>
+</p>
+<p>
+<s>3 ) veoeeskirjade n&otilde;uetest tulenev m&auml;rgistus ;</s>
+</p>
+<p>
+<s>4 ) pakendit iseloomustav m&auml;rgistus .</s>
+</p>
+<p>
+<s>( 2 ) Pakendile v&otilde;ib kanda muud m&auml;rgistust , mille kasutamine ei ole vastuolus seadusega ega raskenda p&otilde;hiteksti m&otilde;istmist .</s>
+</p>
+<p>
+<s>&sect; 8.</s><s>Pakendit iseloomustav m&auml;rgistus</s>
+</p>
+<p>
+<s>( 1 ) Pakendit iseloomustav m&auml;rgistus on s&otilde;naline , s&uuml;mbolitena , graafiliselt v&otilde;i reljeefselt kujutatav teave pakendi materjali , k&auml;itlemise ja kasutamise kohta .</s>
+</p>
+<p>
+<s>( 2 ) Pakendit iseloomustavas m&auml;rgistuses peab vastavalt kehtestatud korrale olema :</s>
+</p>
+<p>
+<s>1 ) pakendit ja/v&otilde;i valmistajat identifitseerivad andmed ;</s>
+</p>
+<p>
+<s>2 ) pakendimaterjali identifitseeriv m&auml;rgistus ;</s>
+</p>
+<p>
+<s>3 ) ringluspakendi m&auml;rgistus , kui pakend on ette n&auml;htud korduvaks kasutamiseks ;</s>
+</p>
+<p>
+<s>4 ) pakendi kasutamise alane teave ;</s>
+</p>
+<p>
+<s>5 ) teave pakendis sisalduva taaskasutatud materjali osat&auml;htsuse kohta .</s>
+</p>
+<p>
+<s>( 3 ) Pakendit iseloomustava m&auml;rgistuse kuju , suuruse , v&auml;rvi ja muud n&otilde;uded ning m&auml;rgistamise korra m&auml;&auml;rab Eesti standard .</s>
+</p>
+<p>
+<s>&sect; 9.</s><s>Keskkonnahoidlike kaupade m&auml;rgistus</s>
+</p>
+<p>
+<s>( 1 ) Keskkonnahoidlikke kaupu ja pakendeid t&auml;histatakse erim&auml;rgistusega - Eesti &ouml;kom&auml;rgisega .</s>
+</p>
+<p>
+<s>( 2 ) &Ouml;kom&auml;rgist v&otilde;idakse anda toodetele , mille m&otilde;ju keskkonnale nende valmistamisel , tarbimisel , kasutamisel ja kasutuselt k&otilde;rvaldamisel on minimaalne .</s>
+</p>
+<p>
+<s>( 3 ) &Ouml;kom&auml;rgis omistatakse Vabariigi Valitsuse kehtestatud korras .</s>
+</p>
+<p>
+<s>&sect; 10.</s><s>M&auml;rgistuse kandmine pakendile</s>
+</p>
+<p>
+<s>( 1 ) Pakendit iseloomustava m&auml;rgistuse kannab pakendile pakendi tootja v&otilde;i turustaja .</s>
+</p>
+<p>
+<s>( 2 ) Pakendis oleva kauba m&auml;rgistuse kannab pakendile v&otilde;i etiketile kauba v&otilde;i pakendi tootja ja/v&otilde;i turustaja .</s>
+</p>
+<p>
+<s>( 3 ) Pakendile kantav m&auml;rgistus peab olema selgelt n&auml;htav ja h&auml;sti loetav , kulumiskindel , p&uuml;siv v&auml;lism&otilde;jutustele ja -tingimustele ega tohi olla eksitav .</s><s>Nimetatud n&otilde;uded kehtivad ka siis , kui pakend on avatud .</s>
+</p>
+<p>
+<s>( 4 ) M&auml;rgistuse &otilde;igsuse eest vastutab kauba tootja , turustaja v&otilde;i importija .</s>
+</p>
+<p>
+<s>( 5 ) Kauba m&uuml;&uuml;k pakendis , millel puudub n&otilde;uetekohane m&auml;rgistus , on keelatud .</s>
+</p>
+<p>
+<s>4. peat&uuml;kk</s>
+</p>
+<p>
+<s>Pakendi taaskasutamise korraldamine</s>
+</p>
+<p>
+<s>&sect; 11.</s><s>Pakendi taaskasutamise viisid</s>
+</p>
+<p>
+<s>( 1 ) Pakendi taaskasutamine on pakendi v&otilde;i pakendij&auml;&auml;tmete v&otilde;i nendes sisalduva materjali korduv kasutamine kas esialgsel v&otilde;i t&ouml;&ouml;deldud kujul .</s>
+</p>
+<p>
+<s>( 2 ) Pakendi taaskasutamine toimub :</s>
+</p>
+<p>
+<s>1 ) pakendi kasutamisega ringluspakendina oma esialgsel kujul ja otstarbel ;</s>
+</p>
+<p>
+<s>2 ) pakendi kasutamisega esialgsel kujul , kuid muul otstarbel ;</s>
+</p>
+<p>
+<s>3 ) kasutatud pakendist moodustunud materjali kasutamisega teisese toormena samalaadsete v&otilde;i muude toodete valmistamiseks ;</s>
+</p>
+<p>
+<s>4 ) pakendij&auml;&auml;tmete kasutamisega k&uuml;tusena ;</s>
+</p>
+<p>
+<s>5 ) pakendij&auml;&auml;tmete orgaanilise osa kasutamisega komposti v&otilde;i tehismulla valmistamiseks nende bioloogilise ( aeroobse v&otilde;i anaeroobse ) t&ouml;&ouml;tlemise teel .</s>
+</p>
+<p>
+<s>( 3 ) Pakendij&auml;&auml;tmed on igasugune pakend v&otilde;i pakendimaterjal , mis kulumise v&otilde;i j&auml;&auml;komaduste t&otilde;ttu ei ole pakendamisel kasutamiseks enam sobiv .</s>
+</p>
+<p>
+<s>( 4 ) Pakendi taaskasutamise normatiiviga m&auml;&auml;ratakse :</s>
+</p>
+<p>
+<s>1 ) taaskasutatava pakendi osakaal &uuml;ldises pakendimassis - pakendi taaskasutamise m&auml;&auml;r ;</s>
+</p>
+<p>
+<s>2. k&auml;esoleva paragrahvi 2. l&otilde;ike punktides 2 , 3 , 4 ja 5 s&auml;testatud viisil taaskasutatava pakendi osakaal tekkivate pakendij&auml;&auml;tmete kogumassis - pakendij&auml;&auml;tmete taaskasutamise m&auml;&auml;r .</s>
+</p>
+<p>
+<s>( 5 ) Kui pakendi taaskasutamise normatiivid ei ole pakendimaterjali liikide kaupa m&auml;&auml;ratud seadusega , kehtestab need keskkonnaminister .</s><s>[ 30.06.1997 ]</s>
+</p>
+<p>
+<s>&sect; 12.</s><s>Pakendi ringluss&uuml;steem</s>
+</p>
+<p>
+<s>( 1 ) Pakendi ringluss&uuml;steem on abin&otilde;udekompleks , mis tagab kasutatud pakendi tagasisaamise kasutajalt v&otilde;i kauba tarbijalt ja pakendi v&otilde;i pakendimaterjali taaskasutamise .</s>
+</p>
+<p>
+<s>( 2 ) Pakendi ringluss&uuml;steemi tegevust suunab oma haldusterritooriumil vastav linna- v&otilde;i vallavalitsus , arvestades asjasthuvitatud tootjate ja turustajate ning tarbijate seisukohti .</s>
+</p>
+<p>
+<s>( 3 ) Vajalik teave tagastuspakendite vastuv&otilde;tmise ja kehtestatud tagatisrahade kohta peab olema paigutatud n&auml;htavale kohale k&otilde;igis m&uuml;&uuml;gikohtades v&otilde;i vastuv&otilde;tupunktides .</s>
+</p>
+<p>
+<s>&sect; 13.</s><s>Pakendi tagasiv&otilde;tmine</s>
+</p>
+<p>
+<s>( 1 ) Kauba tootja ja turustaja on kohustatud tagasi v&otilde;tma oma kaupade v&otilde;i vahendatavate kaupade veo- , r&uuml;hma- ja m&uuml;&uuml;gipakendid turustajale v&otilde;i tarbijale kauba &uuml;leandmise kohas v&otilde;i tarbijale k&auml;ttesaadavas vastuv&otilde;tupunktis .</s>
+</p>
+<p>
+<s>( 2 ) Pakendi tagasiv&otilde;tmise kohustus piirdub pakendiga , mis on kehtestatud korras arvatud tagastuspakendi nimekirja ja mille liik , kuju ning suurus ja neisse pakitud kaubaliigid vastavad tootja ja turustaja poolt v&auml;ljastatud kauba sortimendile .</s>
+</p>
+<p>
+<s>( 3 ) Tagasiv&otilde;etud pakendit kasutab kauba tootja ja turustaja ringluspakendina v&otilde;i muul viisil v&auml;ljaspool &uuml;ldist j&auml;&auml;tmek&auml;itlust .</s>
+</p>
+<p>
+<s>( 4 ) Turustaja , kes pakub kaupa r&uuml;hmapakendis , on kohustatud tarbija soovil kauba &uuml;leandmisel tarbijale r&uuml;hmapakendi m&uuml;&uuml;gikohas ise eemaldama v&otilde;i v&otilde;imaldama tarbijal r&uuml;hmapakend eemaldada m&uuml;&uuml;gikohas v&otilde;i muus selleks m&auml;&auml;ratud kohas .</s>
+</p>
+<p>
+<s>( 5 ) R&uuml;hmapakendis &uuml;leantava kauba &uuml;leandmiskohas peab olema vajalik teave tarbija &otilde;iguse kohta kohapeal r&uuml;hmapakend eemaldada ja tagastada .</s>
+</p>
+<p>
+<s>( 6 ) Kui tarbija n&otilde;uab kaupade &uuml;leandmist veo- v&otilde;i r&uuml;hmapakendis , kehtivad selle tagastamisel m&uuml;&uuml;gipakendite tagasiv&otilde;tmise n&otilde;uded .</s>
+</p>
+<p>
+<s>( 7 ) Tagastuspakendite nimekirja kinnitab majandusminister .</s>
+</p>
+<p>
+<s>( 8 ) K&auml;esoleva paragrahvi n&otilde;uded ei laiene :</s>
+</p>
+<p>
+<s>1 ) v&auml;ikepakenditele ;</s>
+</p>
+<p>
+<s>2 ) keemiatoodete , taimekaitsevahendite ja ravimitega reostunud pakendile , mis vastab Eesti Vabariigi j&auml;&auml;tmeseaduses ( RT 1992 , 21 , 296 ; RT I 1994 , 74 , 1323 ) antud &ldquo; ohtlike j&auml;&auml;tmete &rdquo; m&otilde;istele ja mille k&auml;itlemine toimub j&auml;&auml;tmeseaduse n&otilde;uete kohaselt .</s><s>[ 30.06.1997 ]</s>
+</p>
+<p>
+<s>&sect; 14.</s><s>M&uuml;&uuml;gipakendi v&auml;&auml;rtustamine</s>
+</p>
+<p>
+<s>( 1 ) M&uuml;&uuml;gipakendile m&auml;&auml;ratakse tagatisraha v&otilde;i ta maksustatakse pakendiaktsiisiga v&otilde;i ei m&auml;&auml;rata midagi tema hinnale lisanduvat .</s>
+</p>
+<p>
+<s>( 2 ) Pakendi tagatisraha on tagastuspakendis m&uuml;&uuml;dava kauba hinna sisse kuuluv pakendit v&auml;&auml;rtustav tasu &uuml;he pakendi eest .</s><s>Pakendi tagatisraha suuruse kehtestab majandusminister .</s>
+</p>
+<p>
+<s>( 3 ) Tagatisraha n&otilde;uab tarbijalt sisse kauba pakendaja v&otilde;i pakendatud kauba tootja v&otilde;i turustaja kogu turustusts&uuml;kli ulatuses ja tagasiarveldused tehakse iga tagastamistehingu korral .</s>
+</p>
+<p>
+<s>( 4 ) Pakendiaktsiisiga maksustatavad pakendiliigid ja pakendiaktsiisim&auml;&auml;rad s&auml;testatakse seadusega .</s>
+</p>
+<p>
+<s>( 5 ) Lisanduvat v&auml;&auml;rtust ei m&auml;&auml;rata pakendile , mida on v&otilde;imalik taaskasutada olemasolevas tootmises ja kaubanduses v&otilde;i millele lisanduva v&auml;&auml;rtuse m&auml;&auml;ramine k&auml;esoleval ajal ei ole otstarbekas .</s><s>[ 30.06.1997 ]</s>
+</p>
+<p>
+<s>&sect; 15.</s><s>Pakendialane teabes&uuml;steem</s>
+</p>
+<p>
+<s>( 1 ) Pakendit ja pakendij&auml;&auml;tmeid k&auml;sitlevaid andmeid hoitakse riiklikus registris .</s>
+</p>
+<p>
+<s>( 2 ) Pakendimaterjalile kehtestatud n&otilde;uete , pakendi tagastamise , m&auml;rgistamise ja muu pakendi k&auml;sitlemist puudutav teave ning selle alusel tehtud j&auml;reldused ja otsused viiakse tarbija , turustaja ning tootjani keskkonnaministri kehtestatud korras .</s>
+</p>
+<p>
+<s>( 3 ) Rahvusvaheliselt n&otilde;utava teabe edastamise korra m&auml;&auml;rab Vabariigi Valitsus .</s><s>[ 30.06.1997 ]</s>
+</p>
+<p>
+<s>5. peat&uuml;kk</s>
+</p>
+<p>
+<s>J&auml;relevalve ja vastutus</s>
+</p>
+<p>
+<s>&sect; 16.</s><s>J&auml;relevalve</s>
+</p>
+<p>
+<s>( 1 ) K&auml;esolevast seadusest ja sellest tulenevatest &otilde;igusaktidest kinnipidamist kontrollitakse seadusega s&auml;testatud korras .</s>
+</p>
+<p>
+<s>( 2 ) Kui kauba pakendamine v&otilde;i pakend ise ei vasta k&auml;esoleva seadusega ja selle alusel kehtestatud &otilde;igusaktidega m&auml;&auml;ratud n&otilde;uetele , on Tarbijakaitseameti , Standardiameti , Tolliameti ning Politseiameti ametiisikutel &otilde;igus teha kohustuslikke ettekirjutusi sellise kauba ja pakendi veo ning turustamise peatamiseks v&otilde;i keelamiseks .</s>
+</p>
+<p>
+<s>( 3 ) K&auml;esoleva paragrahvi 2. l&otilde;ikes t&auml;hendatud &otilde;igused laienevad tervisekaitse ja keskkonnakaitse ametiisikutele , kui tegemist on inimese tervisele v&otilde;i keskkonnale ohtlike v&otilde;i kasutamiseks keelatud kauba v&otilde;i pakendiga .</s><s>[ 30.06.1997 ]</s>
+</p>
+<p>
+<s>&sect; 17.</s><s>F&uuml;&uuml;silise isiku vastutus</s>
+</p>
+<p>
+<s>K&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide rikkumise eest kannavad f&uuml;&uuml;silised isikud haldus- v&otilde;i tsiviilvastutust seadusega etten&auml;htud korras .</s>
+</p>
+<p>
+<s>&sect; 18.</s><s>Juriidilise isiku vastutus</s>
+</p>
+<p>
+<s>( 1 ) Juriidiline isik kannab tsiviilvastutust seaduses etten&auml;htud alustel ja korras .</s>
+</p>
+<p>
+<s>( 2 ) Juriidilise isiku poolt :</s>
+</p>
+<p>
+<s>1 ) tarbija elule , tervisele , varale v&otilde;i keskkonnale ohtliku pakendi tootmise , kasutamise , vahendamise v&otilde;i m&uuml;&uuml;mise eest - m&auml;&auml;ratakse rahatrahv rikkumise vahetuks objektiks olnud toodetud pakendi koguv&auml;&auml;rtuse kuni kahekordses ulatuses , kuid mitte v&auml;hem kui 3000 krooni ;</s>
+</p>
+<p>
+<s>2 ) n&otilde;uetele vastavalt m&auml;rgistamata pakendi kasutamise v&otilde;i turustamise eest - m&auml;&auml;ratakse rahatrahv kuni 5000 krooni ;</s>
+</p>
+<p>
+<s>3 ) k&auml;esoleva l&otilde;ike punktides 1 ja 2 t&auml;hendamata k&auml;esoleva seaduse rikkumiste eest - m&auml;&auml;ratakse rahatrahv kuni 2000 krooni .</s>
+</p>
+<p>
+<s>( 3 ) Juriidilisele isikule protokolli koostamise ja halduskaristuse m&auml;&auml;ramise &otilde;igus on tarbijakaitse , tervisekaitse ja keskkonnakaitse riikliku j&auml;relevalvega tegelevate asutuste vastavate volitustega ametnikel .</s>
+</p>
+<p>
+<s>( 4 ) Juriidilise isiku haldus&otilde;iguserikkumise asja menetlus toimub tarbijakaitseseaduses ja haldus&otilde;iguserikkumiste seadustikus s&auml;testatud korras , kui k&auml;esolev seadus ei s&auml;testa teisiti .</s><s>[ 30.06.1997 ]</s>
+</p>
+<p>
+<s>6. peat&uuml;kk</s>
+</p>
+<p>
+<s>L&otilde;pps&auml;tted</s>
+</p>
+<p>
+<s>&sect; 19.</s><s>Seaduse j&otilde;ustamise erijuhud</s>
+</p>
+<p>
+<s>K&auml;esolev seadus j&otilde;ustub :</s>
+</p>
+<p>
+<s>1 ) pakendi m&auml;rgistamise n&otilde;uete osas - kahe aasta m&ouml;&ouml;dudes m&auml;rgistuse n&otilde;uete kehtestamisest ;</s>
+</p>
+<p>
+<s>2 ) paragrahvi 5 3. l&otilde;ike alusel kehtestatavate pakendimaterjalis olevate raskmetallide ja muude tervisele ohtlike ainete sisalduse n&otilde;uete osas - &uuml;he aasta m&ouml;&ouml;dudes vastavate normide kehtestamisest .</s>
+</p>
+<p>
+<s>&sect; 20.</s><s>Seaduse rakendamine</s>
+</p>
+<p>
+<s>( 1 ) Hiljemalt 2001. aasta 30. juuniks taaskasutatakse :</s>
+</p>
+<p>
+<s>1 ) k&auml;esoleva seaduse &sect; 11 2. l&otilde;ike punktides 2 , 3 , 4 ja 5 s&auml;testatud viisil pakendij&auml;&auml;tmete kogumassist v&auml;hemalt 50% ;</s>
+</p>
+<p>
+<s>2 ) k&auml;esoleva seaduse &sect; 11 2. l&otilde;ike punktides 2 , 3 ja 5 s&auml;testatud viisil materjalina pakendij&auml;&auml;tmete kogumassist v&auml;hemalt 25% ja iga pakendimaterjali liigi kogumassist v&auml;hemalt 15% .</s>
+</p>
+<p>
+<s>( 2 ) [ kehtetu ]</s>
+</p>
+<p>
+<s>( 3 ) Alates 1999. aasta 1. jaanuarist v&otilde;idakse toota ja turustada ainult sellist pakendit v&otilde;i kaupu sellises pakendis , mis vastab k&auml;esoleva seaduse ja selle alusel kehtestatud &otilde;igusaktide n&otilde;uetele .</s>
+</p>
+<p>
+<s>( 4 ) K&auml;esoleva paragrahvi 1. , 2. ja 3. l&otilde;ikes m&auml;rgitud eesm&auml;rkide saavutamine ning vaheetapid m&auml;&auml;ratakse Vabariigi Valitsuse kehtestatud riikliku programmiga .</s>
+</p>
+<p>
+<s>( 5 ) Pakendij&auml;&auml;tmete taaskasutamise praktilised kogemused &uuml;ldistatakse iga viie aasta m&ouml;&ouml;dudes .</s><s>Taaskasutamise kogused kuuluvad &uuml;ldistuste alusel muutmisele nende suurendamise suunas koosk&otilde;las rahvusvaheliste n&otilde;uetega .</s><s>[ 30.06.1997 ]</s>
+</p>
+<p>
+<s>[ &sect; 21 v&auml;lja j&auml;etud ]</s>*
+</p>
+<p>
+*<s>V&auml;ljaj&auml;etud paragahviga muudetakse varasemat &otilde;igusakti .</s>
+</p>
+</body>
+   </text>
+</tei.2>

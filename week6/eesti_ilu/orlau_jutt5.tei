@@ -1,0 +1,120 @@
+<!DOCTYPE TEI.2 SYSTEM 'tei2.dtd'[
+<!ENTITY % TEI.general 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % ISOLat1
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLat1;
+<!ENTITY % ISOLat2
+	PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN">
+%ISOLat2;
+<!ENTITY % ISOnum
+	PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN">
+%ISOnum;
+<!ENTITY % ISOpub
+	PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN">
+%ISOpub;
+<!ENTITY % ISOtech
+	PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN">
+%ISOtech;
+<!ENTITY % ISOgrk1
+	PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN">
+%ISOgrk1;
+<!ENTITY % ISOgrk2 
+	PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN">
+%ISOgrk2;
+<!ENTITY % ISOcyr1 
+	PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN">
+%ISOcyr1;
+<!ENTITY % ISOcyr2 
+	PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN">
+%ISOcyr2;
+<!ENTITY % WINlat1 
+	PUBLIC "ISO 8879-1986//ENTITIES WIN Latin1 extra//EN">
+     %WINlat1;
+]>
+<tei.2>
+<teiheader>
+   <filedesc>
+      <titleStmt>
+         <title>Hirmu suured silmad</title>
+         <principal>Kadri Muischnek</principal>
+         <respStmt>
+	 <resp>teisendas SGML-kujule ja lausestas</resp>
+         <name>Kristel Uiboaed</name>
+         </respStmt>
+      </titleStmt>
+         <extent> baite: 13705; s&otilde;nu: 1482</extent>
+      <publicationStmt>
+	 <authority>T&Uuml; arvutuslingvistika uurimisgrupp</authority>
+    	 <pubPlace>Tartu, Liivi 2-307</pubPlace>
+	 <date>september 2007</date>
+	 <availability>
+	    <p>vaba kasutamiseks mittekommertsiaalsetel eesm&auml;rkidel</p>
+	 </availability>
+      </publicationStmt>
+      <sourcedesc>
+         <bibl>
+            <title level=m>Hirmu suured silmad</title>
+      </sourcedesc>
+   </filedesc>
+   <encodingdesc>
+	<projectdesc>
+		<p>eesti keele segakorpuse projekt, finatseeritud riiklikust sihtprogrammist 'Eesti keele keeletehnoloogiline tugi'</p>
+	</projectdesc>
+	<samplingdecl>
+		<p>&uuml;hes failis on &uuml;ks ilukirjandusteos</p>
+	</samplingdecl>
+	<editorialdecl>
+		<hyphenation><p>s&otilde;nu ei poolitata</p></hyphenation>
+		<interpretation>
+                   <p>div0 t&auml;histab tervikteost</p>
+                   <p>div1 t&auml;histab peatükki</p>
+                </interpretation>
+                <segmentation>
+                   <p>Tekst on lausestatud</p>
+                   <p>Pealkirjad, vahepealkirjad ja autorid on m&auml;rgendatud</p>
+                   <p>Autori märgenduseks on bibl author</p>
+                </segmentation>
+      </editorialdecl>
+      <tagsdecl>
+         <tagusage gi=author occurs=1></tagusage>
+         <tagusage gi=bibl occurs=1></tagusage>
+         <tagusage gi=body occurs=1></tagusage>
+         <tagusage gi=div0 occurs=1></tagusage>
+         <tagusage gi=head occurs=1></tagusage>
+         <tagusage gi=p occurs=27></tagusage>
+         <tagusage gi=s occurs=123></tagusage>
+         <tagusage gi=text occurs=1></tagusage>
+      </tagsdecl>
+   </encodingdesc>
+</teiheader>
+<text> <body>
+<div0 type='tervikteos'><head>Hirmu suured silmad</head>
+<p><bibl><author><s>Karen Orlau</s></author></bibl></p>
+<p> <s>L&otilde;puks ometi hakkasid paistma bensiinijaama tuled . </s> <s> Andra ohkas kergendunult ja heitis silmanurgast kiire pilgu n&auml;idikule , mis juba m&otilde;nda aega punases alas tiksus . </s> <s> Osuti oli peaaegu p&otilde;hjas . </s> <s> Oli ka viimane aeg ! </s> </p>
+<p> <s>Ta oli ise samuti parasjagu v&auml;sinud , sest selja taga oli &uuml;le kuue tunni s&otilde;itu ja sellest tervelt neli tundi kottpimedat k&auml;&auml;nulist maanteed , kus ei leidunud &uuml;htegi bensujaama , r&auml;&auml;kimata siis baarist v&otilde;i muust toidukohast , kus v&auml;gisi pealet&uuml;kkivat und kange kohviga eemale ehmatada . </s> </p>
+<p> <s>Pimedad teeveered ei kutsunud peatuma , sest &uuml;mberringi laiuv inimestest h&uuml;ljatud k&otilde;nnumaa oli s&uuml;giseselt k&otilde;le . </s> <s> Novembri&ouml;&ouml; , millesse ta auto tuledevihk ainult kitsa siilu l&otilde;ikas , oli r&otilde;ske ja p&otilde;hjatu nagu pimedus akendeta keldris . </s> <s> Teeveered , puud ja lauged k&uuml;nkad , mis hetkeks tulede valgusesse sattusid , elasid p&auml;evasest hoopis erinevat elu ja olid pimedast hetkeks v&auml;ljal&otilde;igatutenagi varjurikkad ja pahaendelised nagu pildid halvast unen&auml;ost . </s> <s> Raagus puud sirutasid pikki vihmam&auml;rgi oksi &uuml;le mantee ning Andra ehmatas iga kord , kui nende luised tipud auto k&uuml;lge riivasid . </s> <s> Iga kurvi taga ootasid &uuml;ha uued ja uued raagus v&otilde;sapuhmad ning ikka ja j&auml;lle v&otilde;patas ta ootamatut kriipimist kuuldes . </s> </p>
+<p> <s>Pikka aega ei olnud isegi mitte &uuml;htegi autot vastu s&otilde;itnud . </s> <s> Andra kirus m&otilde;ttes , et oli maki maha unustanud , sest selles k&otilde;rvadelehakkavas vaikuses tundus l&otilde;putu pimedus eriti rusuvana . </s> <s> V&auml;simus ja vaikus &uuml;heskoos m&otilde;jusid kujutlusv&otilde;imele halvasti &mdash; m&otilde;tteisse vajunud naine ehmatas t&otilde;siselt korraga peeglis kummalist kaamet liikumist silmates ning avastas siis pahaselt , et oli ehmunud oma otsaesise peegelduse peale . </s> <s> See paistis peegli s&uuml;simustas ristk&uuml;likus t&otilde;epoolest kummituslik . </s> <s> Andra ei tahtnud ennastki eriti vaadata , sest kahvatus n&auml;os , mille ta k&uuml;ll peale esimest ehmatust kergendusega enese omaks tunnistas , paistsid silmade asemel vaid mustad koopad ning see m&otilde;jus v&otilde;&otilde;rastust tekitavalt . </s> <s> K&otilde;hedus tikkus ligi ja v&auml;gisi tekkis tahtmine &uuml;le &otilde;la piiluda ega keegi ometi selja taga ei istu . </s> <s> Juba ainult m&otilde;te , et see nii v&otilde;iks olla , &auml;ratas vaikset magamatusest rabedat paanikat . </s> <s> Ta oli t&otilde;esti liialt v&auml;sinud , et edasi s&otilde;ita . </s> </p>
+<p> <s>Andra m&otilde;tles , et tanklas peab kindlasti v&auml;hemalt paar tassi kanget musta kohvi jooma . </s> <s> Juba paljas m&otilde;tegi tulisele joogile m&otilde;jus virgutavalt ja pani vere soontes kiiremini tuikama . </s> <s> Bensiinijaama laternate kaitsvas valguses oli isegi v&auml;ike tukastus m&otilde;eldav , kuigi mitte liiga pikalt , kui ta tahab hommikuks p&auml;rale j&otilde;uda . </s> </p>
+<p> <s> " Texaco " erekollane valguslaik m&otilde;jus sooja ja s&otilde;braliku oaasina keset lauskmaa l&otilde;putut pimedust . </s> <s> Jaama ligiduses olid ka m&otilde;ned madalad majad , kuid kuna &uuml;kski aken ei olnud valge ega &uuml;kski latern ei p&otilde;lenud , siis paistsid need lihtsalt pimedusse sulavate teravaharjaliste k&uuml;ngastena . </s> </p>
+<p> <s>Andra ronis autost v&auml;lja ja sirutas m&otilde;nuga pikast s&otilde;idust &auml;ravajunud selga . </s> <s> Klaasmaja paistis t&auml;iesti t&uuml;hi olevat : ilmselt magas m&uuml;&uuml;ja kuskil tagaruumis . </s> </p>
+<p> <s>Ta lasi paagi pilgeni t&auml;is ja astus siis jaama sisse . </s> <s> Uksekell k&otilde;lises tasakesi , kuid keegi ei tulnud asja uurima . </s> <s> " Halloo ! " h&uuml;&uuml;dis Andra ja koputas letile . </s> <s> Veidi aja p&auml;rast hallootas ta palju valjuh&auml;&auml;lsemalt , kuid ka sellest ei olnud kasu . </s> <s> " No kuulge ! " h&otilde;ikas ta v&auml;simusest veidi rabedamalt kui tavaliselt . </s> <s> " Ma ei taha just pealet&uuml;kkiv olla , aga MA TAHAKSIN K&Uuml;TUSE EEST MAKSTA !! " </s> <s> Ta pr&otilde;mmis rusikaga t&uuml;dinult letile , kuid ka see ei &auml;ratanud mitte kedagi . </s> <s> Andra kaalus , kas lihtsalt raha letile panna , kuid paari sajalist sinna vedelema j&auml;tta tundus kuidagi ebakindlana . </s> <s> Siis m&otilde;tles ta tassi kange kohvi peale ja leidis , et see tasub unekotist m&uuml;&uuml;ja &uuml;lesajamist . </s> <s> L&otilde;ppkokkuv&otilde;ttes oli m&uuml;&uuml;ja kohustuseks t&ouml;&ouml; ajal &uuml;leval olla ja tema oli v&auml;sinud ja vajas kohvi . </s> </p>
+<p> <s>Ta turnis &uuml;le lukustatud vahelati leti taha ja koputas kitsale " Personali " -sildiga uksele . </s> </p>
+<p> <s> " Halloo ! </s> <s> On seal keegi ? " </s> <s> Vaikus . </s> <s> Ta proovis linki . </s> <s> Uks polnudki lukus &mdash; link langes kergelt alla ja uks paotus . </s> <s> Andra seisis viivu k&otilde;heldes &mdash; veidi veider tundus niiviisi personaliruumi sisse murda , kuid siis l&uuml;kkas ta ukse ikkagi lahti . </s> </p>
+<p> <s>Tilluke ruum oli t&uuml;hi . </s> <s> Nagis rippusid kellegi teksad ja ruuduline s&auml;rk , riiete all seisid kantud olemisega " Adidase " tossud , sokid sees rullis . </s> <s> Veider ... </s> <s> Polnudki kedagi . </s> <s> V&auml;ikese laua peal oli v&auml;ike kimp longuvajunud lilli . </s> </p>
+<p> <s>M&uuml;&uuml;giruumist kostus kolinat . </s> <s> Andra ehmatas ootamatu h&auml;&auml;le peale ning pistis pea ukse vahelt v&auml;lja . </s> <s> Kaubariiulite vahel ei paistnud aga samuti kedagi olevat &mdash; ainult paar k&uuml;psisekarpi olid p&otilde;randale kukkunud ja lebasid kohatus korratuses otse leti ees maas . </s> <s> Ettevaatlikult puges Andra leti tagant v&auml;lja ja sirutas k&auml;e k&uuml;psisekarpide poole , et neid riiulisse tagasi panna . </s> </p>
+<p> <s>Korraga kostis otse ta selja taga k&otilde;rvulukustav lajatus . </s> <s> Andra kiljatas ja poetas karbid k&auml;est . </s> <s> Tagaruumi uks oli kinni langenud . </s> <s> Selge , see oli ju k&otilde;igest t&otilde;mbetuul ! </s> <s> Naine hingas kergendunult pahinal v&auml;lja ja v&auml;ristas &otilde;lgu : polnud ime , et peale sellist &ouml;ist s&otilde;itu n&auml;rvid &uuml;learu pingul olid . </s> </p>
+<p> <s>Ta kummardus asjalikult k&uuml;psisekarpide j&auml;rele , sest n&auml;otu oleks neid olnud p&otilde;randale vedelema j&auml;tta . </s> </p>
+<p> <s>Kerge tuulehoog puudutas ta paljast kukalt , mis oli kummardudes pingule t&otilde;mbunud , ning m&auml;ngis poisipeast v&auml;ljaulatuvate pikkade juuksesalkudega . </s> <s> Talle tundus pisut kummaline , et " Texaco " ultramoodsas klaasist ja metallist karbis , mis silmale t&auml;iesti veatu vaakumpakendina tundus , oli nii tugev t&otilde;mbetuul . </s> <s> Andra oletas , et kuskil tagaruumis oli ilmselt olnud mingi v&auml;ike &otilde;huaken , mida ta polnud m&auml;rganud . </s> </p>
+<p> <s>M&otilde;istlikust p&otilde;hjusest hoolimata tundus nii tugev tuul veidi k&otilde;hedana , tuulet&otilde;mbus v&otilde;i mitte . </s> <s> Need puudutused kuklal olid kuidagi reaalsed &mdash; elavad ja tahtlikud , nagu oleks keegi oma sooja hinge&otilde;hku talle vastu kaela puhunud . </s> <s> Tahtmatult judistas ta &otilde;lgu ja kuulatas . </s> <s> &Uuml;mberringi valitses t&auml;ielik vaikus . </s> <s> Samasugune k&otilde;rvulukustavalt s&uuml;gav vaikus nagu maanteelgi , selline , mis tekitas tunde , et on tahtlik ja eesm&auml;rgip&auml;rane , et kuskil on keegi , kes iga ta liigutust hoolega j&auml;lgib . </s> <s> See tunne muutus vastu Andra tahtmist &uuml;ha tugevamaks ning see tegi ta tigedaks . </s> <s> Lollus k&otilde;ik ! </s> <s> Ometi ta kiirustas , kui kotist raha v&auml;lja otsis . </s> <s> Oma auto tundus hoopis turvalisemana , hoolimata sealgi valitsevast hirmutavast vaikusest . </s> <s> V&auml;hemalt andis auto v&otilde;imaluse kihutades hirmust vabaneda . </s> </p>
+<p> <s>Ta p&uuml;&uuml;dis oma kiirustamist tahtej&otilde;uga ohjeldada &mdash; selles peitus &uuml;ks salakaval oht , mida ta v&auml;ga h&auml;sti tundis . </s> <s> Juba lapsep&otilde;lvest . </s> <s> Kui ta oli hirmu t&auml;is sellep&auml;rast , et pidi &uuml;ksinda l&auml;bi h&auml;mara metsatuka koolist koju tulema . </s> <s> Mets tundus ohtlikuna , t&auml;is salakavalaid varitsejaid , kes teda h&auml;&auml;letult puude varjus j&auml;litasid , nii et ta neid ise ei n&auml;inud . </s> <s> Mida kiiremini ta kodu poole tormas , seda rohkem kartis ja seda kiiremini j&auml;rgnesid j&auml;litajad . </s> <s> M&otilde;nikord tundis ta neid otse kuklas . </s> <s> Vanaema oligi siis talle triki &otilde;petanud , millega kolle eemal hoida . </s> <s> Tuli ainult rahulike sammudega m&ouml;&ouml;da teed k&otilde;ndida ja mitte mingil juhul kogu aeg selja taha vahtida , &uuml;ksk&otilde;ik , kas praksus seal ootamatult oksaraag v&otilde;i kujutles ta kurja koletist endale kannule j&otilde;udvat . </s> <s> Ta pidi rahulikult edasi astuma ning mitte mingil juhul &auml;revalt &uuml;mberringi piiluma , sest see andvatki hirmule j&otilde;udu . </s> <s> Kui ta aga endast jagu saab , ei saa j&auml;litajad talle midagi teha . </s> <s> Isegi , kui ta arvab , et nad tal t&auml;iesti sabas s&ouml;rgivad . </s> </p>
+<p> <s>Andra oli seda kaua harjutanud , enne kui p&auml;riselt v&auml;lja tulema hakkas . </s> <s> Sageli l&otilde;i hirmulaine &uuml;le pea , nii et jalad hakkasid iseenesest kiiremini k&auml;ima , veel hullem oli , kui ta m&otilde;ne ootamatu praksatuse peale kartlikult pead p&ouml;&ouml;ras . </s> <s> Siis p&auml;&auml;stsid ainult kiired jalad , sest siis ei suutnud hirmutulva enam miski peatada . </s> </p>
+<p> <s>Kui ta aga l&otilde;puks enesest jagu saama hakkas ja kogu pika tee rahulike m&otilde;&otilde;detud sammudega maha k&otilde;ndida suutis , tundis ta ennast kangelasena . </s> <s> Ta ju teadis , et koletised on otse ta selja taga , s&ouml;rgivad seal h&auml;bistatud karjana , suutmata midagi teha . </s> <s> Ta ei kavatsenudki kartlikult ringi vahtida v&otilde;i samme kiirendada &mdash; just tema hirm oli see , millest kollid toitu said , ning tal oli kindel plaan neid edaspidi n&auml;ljas hoida . </s> </p>
+<p> <s>Nii oli ka n&uuml;&uuml;d : ta sundis k&auml;ed rahulikuks ja valis rahakoti vahelt hoolikalt v&auml;lja t&auml;pse arvu kup&uuml;&uuml;re , koputas need siis korralikuks virnaks kokku ning asetas letile . </s> <s> T&otilde;mbetuul hingas ta kuklas nagu elusolend , kuid ta ei lasknud ennast eksitada . </s> <s> Rahulikult kritseldas ta v&auml;ikese kirjakese , mis seletas , mille eest raha on j&auml;etud , pani pastaka kotti &mdash; m&auml;rkmiku tagakaane k&uuml;lge nahkaasakesse &mdash; ning t&otilde;mbas kotiluku kinni . </s> </p>
+<p> <s>Tuul m&auml;ngis reklaamiplakatitega , pannes need plagisema , kuid Andra ei p&ouml;&ouml;ranud pead &mdash; ta ju teadis , et seal pole kedagi . </s> <s> Rahulikult avas ta ukse ning astus v&auml;lja . </s> <s> Rahulikult sammus ta auto poole ... </s> <s> Pingutusest hakkasid ta reielihased v&auml;risema , kuid ta astus v&auml;ga rahulike ja m&otilde;&otilde;detud sammudega edasi . </s> <s> Arutule paanikale EI TOHTINUD voli anda . </s> <s> See oli t&otilde;mbetuul . </s> <s> Keegi ei hinganud talle kuklasse . </s> <s> Ta oli seal t&auml;iesti &uuml;ksi . </s> <s> T&auml;iesti turvaliselt &uuml;ksi . </s> <s> Sealsamas seisab ta auto . </s> <s> Aeglaselt v&otilde;tab ta v&otilde;tmed taskust v&auml;lja , avab ukse ning istub sisse . </s> <s> Rahulikult keerab ta s&uuml;&uuml;te sisse ... </s> </p>
+<p> <s>Mootori vaikne surin , monotoonne , ootusp&auml;rane heli , m&otilde;jus turvaliselt ning paanika&auml;ngistus hakkas tasakesi leevenema . </s> <s> Ta l&uuml;kkas k&auml;sipiduri maha , pani k&auml;igu sisse ja vajutas gaasipedaalile &mdash; harjumuslikud turvalised tuttavad liigutused . </s> <s> Krambis kaelalihased l&otilde;tvusid ja kurgust kadus hirmu metalne maitse . </s> <s> Kergendusega , kuid s&otilde;itu vaid h&auml;sti sujuvalt kiirendades heitis Andra peeglist pilgu k&otilde;hedusttekitava " Texaco " kaugenevatele tuledele . </s> </p>
+<p> <s>Korraga vajutas ta gaasi . </s> <s> P&otilde;hja . </s> </p>
+<p> <s>Seal , kus oleks pidanud s&auml;rama " Texaco " tibukollane valgusoaas ning m&otilde;ned magavad majad , paistis pimedusse uppuv v&auml;ike lagunev kabel , &uuml;mbritsetuna vanadest viltuvajunud raudristidest . </s> <s> Valge udu taustal paistsid need eriti selgelt . </s> <s> Lahtilendav raudv&auml;rav t&otilde;i kuuldavale luussel&otilde;ikava kriiksatuse . </s> </p>
+<p> <s>Vana Honda lendas maanteele nii kiiresti , kui ta pooleteistliitrine mootor lubas . </s> <s> " P&uuml;ha jumal ! </s> <s> P&uuml;ha jumal ! " habises Andra ja kihutas kaelamurdval kiirusel edasi . </s> <s> Pilk riivas veelkord &mdash; k&otilde;igest autojuhi alateadlik liigutus &mdash; tahavaatepeeglit ning ta n&auml;gi ... </s> <s> Ta poleks iial tohtinud selja taha vaadata . </s> <s> Mitte iialgi . </s> </p>
+<p> <s>K&uuml;mne hirmust hullunud sekundi p&auml;rast sai bensiinipaak t&uuml;hjaks . </s> <s> Andra rebis reetliku tahavaatepeegli eest ja virutas autop&otilde;randale , kuid see oli asjatu . </s> <s> Kabuhirm oli juba s&uuml;ndinud . </s> <s> Koletised , keda ta nii kaua oli n&auml;ljas hoidnud , olid ta l&otilde;puks siiski k&auml;tte saanud . </s> <s> Joosta ei jaksanud ta ammugi enam nii kiiresti kui kunagi t&uuml;drukuna . </s> </p> </div0> </body> </text> 
